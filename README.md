@@ -1,8 +1,19 @@
 ### Medical Relation Extraction and Concept Normalization in Spanish Clinical Trial Texts
 
-Code repository for the experiments on medical relation extraction and concept normalization in clinical trial texts in Spanish.
+This repository includes version 3 of the corpus of clinical trials for evidence-based medicine in Spanish.
 
-If you use this code, please, cite as follows:
+A collection of __1200 texts about clinical trials__:
+- __500 abstracts__ published in medical journals available from [SciELO](https://scielo.org/es/)
+- __700 clinical trials announcements__ from the [Spanish Clinical Trials Register](https://reec.aemps.es) and the [European Register of Clinical Trials (EudraCT)]([https://scielo.org/es/](https://www.clinicaltrialsregister.eu))
+
+The repository also includes the code for the experiments on medical relation extraction and concept normalization.
+
+Please, read the guidelines in the repository to check the entity and relation scheme and the concept normalization criteria.
+
+## How to cite
+The article describing the first version of the corpus is [available here](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01395-z).
+
+If you use this new version and code, please, cite as follows:
 
 ```
   @article{2024,   
@@ -13,4 +24,15 @@ If you use this code, please, cite as follows:
   }
 ```
 
+
+## Contact
+
+Leonardo Campillos-Llanos, CSIC (Spanish National Research Council)
+
+```leonardo.campillos AT csic.es```
+
+
+CLARA-MeD Project (PID2020-116001RA-C33), 2021-24
+
+Funded by MCIN/AEI/10.13039/501100011033/, in project call: "Proyectos I+D+i Retos Investigación"
 
