@@ -1,0 +1,299 @@
+T1	PROC 80 100	evaluar la seguridad
+#1	AnnotatorNotes T1	C1705187; Safety Study; Research Activity
+T2	DISO 157 184	insuficiencia renal crónica
+#2	AnnotatorNotes T2	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T3	DISO 207 231	Enfermedad Renal Crónica
+#3	AnnotatorNotes T3	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T4	PROC 290 301	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	PROC 401 412	tratamiento
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 415 426	seguimiento
+#6	AnnotatorNotes T6	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T7	PROC 433 448	estudio clínico
+#7	AnnotatorNotes T7	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T8	PROC 522 532	evaluación
+#8	AnnotatorNotes T8	C1261322; Evaluation procedure; Health Care Activity
+T9	PROC 559 569;589 612	evaluación de beneficios y riesgos
+#9	AnnotatorNotes T9	C0524785; Benefit-Risk Assessment; Research Activity
+T10	PROC 912 937	evaluar su estado clínico
+T11	PROC 987 991	eGFR
+#10	AnnotatorNotes T11	C0C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T12	PROC 1037 1048	tratamiento
+#11	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	PROC 1130 1141	tratamiento
+#12	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	DISO 1194 1242	acontecimientos adversos graves cardiovasculares
+T15	ANAT 1226 1242	cardiovasculares
+#13	AnnotatorNotes T15	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T16	PROC 1382 1404	pruebas de laboratorio
+#14	AnnotatorNotes T16	C0022885; Laboratory Procedures; Laboratory Procedure
+T17	PROC 1413 1427	procedimientos
+#15	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T18	PROC 1474 1498	consentimiento informado
+#16	AnnotatorNotes T18	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T19	PROC 1739 1752	procedimiento
+#17	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T20	PROC 1768 1777	protocolo
+#18	AnnotatorNotes T20	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T21	PROC 1831 1848	estudios clínicos
+#19	AnnotatorNotes T21	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T22	PROC 2043 2058	estudio clínico
+#20	AnnotatorNotes T22	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T23	PROC 2187 2200	contracepción
+#21	AnnotatorNotes T23	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T24	CHEM 2321 2328	fármaco
+#22	AnnotatorNotes T24	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T25	DISO 2024 2027	AAG
+#23	AnnotatorNotes T25	C1519255; Serious Adverse Event; Finding
+T26	PROC 2471 2480	protocolo
+#24	AnnotatorNotes T26	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T27	DISO 2549 2566	Hipersensibilidad
+#25	AnnotatorNotes T27	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T28	CHEM 2599 2606	fármaco
+#26	AnnotatorNotes T28	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T29	CHEM 121 139	bardoxolona metilo
+#27	AnnotatorNotes T29	C1100924; bardoxolone methyl; Organic Chemical · Pharmacologic Substance
+T30	ANAT 171 176	renal
+#28	AnnotatorNotes T30	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T31	ANAT 218 223	Renal
+#29	AnnotatorNotes T31	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T32	CHEM 460 478	bardoxolona metilo
+#30	AnnotatorNotes T32	C1100924; bardoxolone methyl; Organic Chemical · Pharmacologic Substance
+T33	PROC 1089 1092	BNP
+#31	AnnotatorNotes T33	C1095989; Brain natriuretic peptide measurement; Laboratory Procedure
+T35	CHEM 2106 2124	bardoxolona metilo
+#32	AnnotatorNotes T35	C1100924; bardoxolone methyl; Organic Chemical · Pharmacologic Substance
+T36	ANAT 2378 2383	pecho
+#33	AnnotatorNotes T36	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T37	Date 12 16	2018
+T38	Date 101 114	a largo plazo
+T39	LIVB 143 152	pacientes
+#34	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 177 184	crónica
+#35	AnnotatorNotes T40	C0205191; chronic; Temporal Concept
+T41	Duration 224 231	Crónica
+#36	AnnotatorNotes T41	C0205191; chronic; Temporal Concept
+T42	LIVB 261 270	Pacientes
+#37	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 537 549	investigador
+#38	AnnotatorNotes T43	C0035173; Research Personnel; Professional or Occupational Group
+T46	LIVB 650 659	Pacientes
+#39	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 754 763	pacientes
+#40	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 854 868	monitor médico
+#41	AnnotatorNotes T50	C1708968; Medical Monitor; Professional or Occupational Group
+T51	Date 938 944	actual
+T53	Neg_cue 1182 1193	Ausencia de
+T54	LIVB 1285 1293	Paciente
+#42	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 1614 1622	paciente
+#43	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1629 1653	representante legalmente
+#44	AnnotatorNotes T57	C4288823; Legal Representative for the Study; Human
+T59	LIVB 2010 2019	Pacientes
+#45	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	Date 2028 2036	en curso
+T61	LIVB 2066 2078	investigador
+#46	AnnotatorNotes T61	C0035173; Research Personnel; Professional or Occupational Group
+T62	LIVB 2129 2138	Pacientes
+#47	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	Neg_cue 2139 2141	no
+T64	LIVB 2202 2209	hombres
+#48	AnnotatorNotes T64	C0025266; Male population group; Population Group
+T65	LIVB 2214 2221	parejas
+#49	AnnotatorNotes T65	C0682323; Partner in relationship; Family Group
+T66	Spec_cue 2226 2232	pueden
+T67	LIVB 2256 2263	mujeres
+#50	AnnotatorNotes T67	C0043210; Woman; Population Group
+T68	Spec_cue 2268 2282	posibilidad de
+T69	LIVB 2345 2364	Mujeres embarazadas
+#51	AnnotatorNotes T69	C0033011; Pregnant Women; Population Group
+T70	PHYS 2371 2383	dan el pecho
+#52	AnnotatorNotes T70	C0006147; Breast Feeding; Organism Function
+T71	LIVB 2391 2399	paciente
+#53	AnnotatorNotes T71	C0030705; Patients; Patient or Disabled Group
+T72	LIVB 2419 2431	investigador
+#54	AnnotatorNotes T72	C0035173; Research Personnel; Professional or Occupational Group
+T77	PHYS 2242 2253	embarazadas
+#55	AnnotatorNotes T77	C0032961; Pregnancy; Organism Function
+T78	PHYS 2290 2301	embarazadas
+#56	AnnotatorNotes T78	C0032961; Pregnancy; Organism Function
+T34	PHYS 2353 2364	embarazadas
+#57	AnnotatorNotes T34	C0032961; Pregnancy; Organism Function
+T44	PROC 960 982	aprobación por escrito
+#58	AnnotatorNotes T44	C0811746; Obtain written consent; Health Care Activity
+T45	PROC 372 379	visitas
+#59	AnnotatorNotes T45	C1512346; Patient Visit; Health Care Activity
+T48	PROC 1025 1031	visita
+#60	AnnotatorNotes T48	C1512346; Patient Visit; Health Care Activity
+T49	PROC 1118 1124	visita
+#61	AnnotatorNotes T49	C1512346; Patient Visit; Health Care Activity
+T52	Quantifier_or_Qualifier 1111 1117	última
+T55	Quantifier_or_Qualifier 1018 1024	última
+T58	PROC 1336 1343	visitas
+#64	AnnotatorNotes T58	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T14 Negated
+A2	Assertion T23 Negated
+A3	Assertion T77 Speculated
+A4	Assertion T78 Speculated
+A5	Status T5 History_of
+A6	Status T6 History_of
+A7	Status T7 History_of
+A8	Status T32 History_of
+A9	Status T27 History_of
+#65	AnnotatorNotes T38	C0443252; Long-term; Temporal Concept
+#66	AnnotatorNotes T51	C0521116; Current (present time); Temporal Concept 
+T73	Neg_cue 768 770	no
+T74	Observation 771 782;794 803	cumplan los criterios
+A10	Assertion T74 Negated
+#62	AnnotatorNotes T74	C4329786; Eligibility Criteria Met By Subject; Finding
+T75	CONC 1979 1991	indicaciones
+#63	AnnotatorNotes T75	C3146298; Indication; Idea or Concept
+T76	Neg_cue 1992 1994	no
+T79	Quantifier_or_Qualifier 1995 2004	aprobadas
+A11	Assertion T79 Negated
+#67	AnnotatorNotes T79	C0205540; Approved; Qualitative Concept
+T80	Spec_cue 570 579	potencial
+T81	Result_or_Value 580 588	positiva
+A12	Assertion T81 Speculated
+#68	AnnotatorNotes T81	C1446409; Positive; Finding
+R1	Negation Arg1:T73 Arg2:T74	
+R2	Negation Arg1:T53 Arg2:T14	
+R3	Negation Arg1:T76 Arg2:T79	
+R4	Has_Quantifier_or_Qualifier Arg1:T75 Arg2:T79	
+R5	Negation Arg1:T63 Arg2:T23	
+R6	Speculation Arg1:T66 Arg2:T77	
+R7	Speculation Arg1:T68 Arg2:T78	
+T82	Neg_cue 2433 2443	incapaz de
+T83	Observation 2444 2480	cumplir los requisitos del protocolo
+A13	Assertion T83 Negated
+R8	Negation Arg1:T82 Arg2:T83	
+T84	Observation 2498 2524	inadecuado para el estudio
+R9	Overlap Arg1:T1 Arg2:T38	
+R10	Experiences Arg1:T39 Arg2:T29	
+R11	Experiences Arg1:T39 Arg2:T2	
+R12	Location_of Arg1:T30 Arg2:T2	
+R13	Has_Duration_or_Interval Arg1:T2 Arg2:T40	
+R14	Location_of Arg1:T31 Arg2:T3	
+R15	Has_Duration_or_Interval Arg1:T3 Arg2:T41	
+R16	Experiences Arg1:T42 Arg2:T4	
+T85	Observation 309 333	participando en estudios
+#69	AnnotatorNotes T85	C1278516; Patient participation status; Finding (?)
+T86	Observation 358 379	acudido a las visitas
+A14	Status T86 History_of
+T87	Observation 275 301	cumplen con el tratamiento
+#70	AnnotatorNotes T87	C2364172; Adherence To Medication Regime; Finding
+R17	Overlap Arg1:T87 Arg2:T85	
+R18	Overlap Arg1:T85 Arg2:T86	
+R23	Used_for Arg1:T32 Arg2:T5	
+R24	Experiences Arg1:T42 Arg2:T5	
+R25	Experiences Arg1:T42 Arg2:T32	
+R26	Has_Result_or_Value Arg1:T9 Arg2:T81	
+R27	Speculation Arg1:T80 Arg2:T81	
+T88	Observation 619 645	participación en el ensayo
+#71	AnnotatorNotes T88	C1278516; Patient participation status; Finding (?)
+R29	Before Arg1:T8 Arg2:T88	
+R31	Before Arg1:T81 Arg2:T88	
+T89	Observation 664 675;687 712	cumplan los criterios de elegibilidad
+#72	AnnotatorNotes T89	C4329786; Eligibility Criteria Met By Subject; Finding
+A15	Status T89 History_of
+T90	Observation 815 820	aptos
+#73	AnnotatorNotes T90	C1302261; Patient eligible for clinical trial; Finding
+R32	Before Arg1:T74 Arg2:T90	
+R33	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T90	
+T91	PROC 898 905	estudio
+#74	AnnotatorNotes T91	C0008976; Clinical Trials; Research Activity
+R34	Overlap Arg1:T10 Arg2:T51	
+#75	AnnotatorNotes T10	C4084924; Clinical Evaluation; Health Care Activity
+R35	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T55	
+#76	AnnotatorNotes T55	C1517741; Last; Qualitative Concept
+R36	Before Arg1:T44 Arg2:T91	
+R37	Before Arg1:T10 Arg2:T91	
+T92	Result_or_Value 992 1011	≥ 30 ml/min/1,73 m2
+R38	Has_Result_or_Value Arg1:T11 Arg2:T92	
+R39	Overlap Arg1:T11 Arg2:T48	
+R40	Before Arg1:T12 Arg2:T48	
+T93	Result_or_Value 1093 1104	< 200 pg/ml
+R42	Has_Result_or_Value Arg1:T33 Arg2:T93	
+R43	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T52	
+#77	AnnotatorNotes T52	C1517741; Last; Qualitative Concept
+R44	Before Arg1:T13 Arg2:T49	
+T94	PROC 1053 1077	estudio de cualificación
+R45	Before Arg1:T94 Arg2:T48	
+R46	Before Arg1:T13 Arg2:T33	
+T95	PROC 1146 1170	estudio de cualificación
+R47	Before Arg1:T95 Arg2:T49	
+R48	Overlap Arg1:T33 Arg2:T49	
+R49	Location_of Arg1:T15 Arg2:T14	
+T96	PROC 1249 1273	estudio de cualificación
+R50	Overlap Arg1:T14 Arg2:T96	
+T97	Observation 1294 1303	dispuesto
+#78	AnnotatorNotes T97	C0600109; Willing; Finding
+R51	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T97	
+T98	Observation 1306 1427	en condiciones de cumplir las visitas programadas, el plan terapéutico, las pruebas de laboratorio y otros procedimientos
+R52	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T98	
+R53	Experiences Arg1:T54 Arg2:T16	
+R54	Experiences Arg1:T54 Arg2:T17	
+T99	CONC 1461 1498	documento de consentimiento informado
+#79	AnnotatorNotes T99	C0009797; Consent Forms; Intellectual Product
+T100	Observation 1601 1622	informado al paciente
+#80	AnnotatorNotes T100	C0587903; Patient information status; Finding (?)
+R55	Before Arg1:T100 Arg2:T18	
+R56	Before Arg1:T18 Arg2:T19	
+R57	Experiences Arg1:T56 Arg2:T19	
+T101	Observation 1808 1848	Participación en otros estudios clínicos
+R58	Experiences Arg1:T59 Arg2:T25	
+R59	Overlap Arg1:T25 Arg2:T60	
+R60	Overlap Arg1:T22 Arg2:T60	
+R61	Experiences Arg1:T59 Arg2:T35	
+R62	Causes Arg1:T35 Arg2:T25	
+R63	Experiences Arg1:T62 Arg2:T23	
+T102	Observation 2142 2152	dispuestos
+A16	Assertion T102 Negated
+#81	AnnotatorNotes T102	C0600109; Willing; Finding
+R64	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T102	
+R65	Negation Arg1:T63 Arg2:T102	
+R66	Experiences Arg1:T64 Arg2:T23	
+R67	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T102	
+R68	Experiences Arg1:T65 Arg2:T77	
+R69	Experiences Arg1:T67 Arg2:T78	
+R70	Experiences Arg1:T67 Arg2:T23	
+R71	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T102	
+R72	Overlap Arg1:T23 Arg2:T24	
+R73	Experiences Arg1:T62 Arg2:T24	
+R74	Experiences Arg1:T64 Arg2:T24	
+R75	Experiences Arg1:T67 Arg2:T24	
+R76	Experiences Arg1:T69 Arg2:T34	
+R77	Location_of Arg1:T36 Arg2:T70	
+R79	Has_Quantifier_or_Qualifier Arg1:T71 Arg2:T84	
+R80	Causes Arg1:T28 Arg2:T27	
+#82	AnnotatorNotes T84	C3242266; patient not eligible; Finding (?)
+R81	Experiences Arg1:T67 Arg2:T77	
+R82	Overlap Arg1:T78 Arg2:T24	
+R83	Overlap Arg1:T77 Arg2:T24	
+R78	Experiences Arg1:T42 Arg2:T45	
+R19	Overlap Arg1:T86 Arg2:T7	
+R20	Before Arg1:T9 Arg2:T88	
+R21	Experiences Arg1:T54 Arg2:T58	
+#83	AnnotatorNotes T60	C0521116; Current (present time); Temporal Concept
+#84	AnnotatorNotes T83	C0582783; Ability to comply with treatment; Finding (?)
+A17	Experiencer T39 Patient
+A18	Experiencer T42 Patient
+A19	Experiencer T43 Other
+A20	Experiencer T46 Patient
+A21	Experiencer T47 Patient
+A22	Experiencer T50 Other
+A23	Experiencer T54 Patient
+A24	Experiencer T56 Patient
+A25	Experiencer T57 Other
+A26	Experiencer T59 Patient
+A27	Experiencer T61 Other
+A28	Experiencer T64 Patient
+A29	Experiencer T62 Patient
+A30	Experiencer T65 Patient
+A31	Experiencer T67 Patient
+A32	Experiencer T69 Patient
+A33	Experiencer T72 Other
+A34	Experiencer T71 Patient

@@ -1,0 +1,293 @@
+T1	PROC 44 58	Estudio fase 3
+T2	CHEM 62 71	nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 75 86	monoterapia
+#2	AnnotatorNotes T3	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T4	CHEM 89 98	nivolumab
+#3	AnnotatorNotes T4	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	CHEM 113 123	ipilimumab
+#4	AnnotatorNotes T5	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	CHEM 133 143	ipilimumab
+#5	AnnotatorNotes T6	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	PROC 147 158	monoterapia
+#6	AnnotatorNotes T7	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T8	DISO 174 182	melanoma
+#7	AnnotatorNotes T8	C0025202; melanoma; Neoplastic Process
+T9	PROC 254 295	Estudio fase 3, aleatorizado, doble ciego
+T10	CHEM 300 309	nivolumab
+#8	AnnotatorNotes T10	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	PROC 313 324	monoterapia
+#9	AnnotatorNotes T11	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T12	CHEM 327 336	nivolumab
+#10	AnnotatorNotes T12	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	CHEM 351 361	ipilimumab
+#11	AnnotatorNotes T13	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	CHEM 371 381	ipilimumab
+#12	AnnotatorNotes T14	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T15	PROC 385 396	monoterapia
+#13	AnnotatorNotes T15	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T16	DISO 412 420	melanoma
+#14	AnnotatorNotes T16	C0025202; melanoma; Neoplastic Process
+T17	ANAT 497 503	sangre
+#15	AnnotatorNotes T17	C0005767; Blood; Body Substance
+T18	DISO 579 587	Melanoma
+#16	AnnotatorNotes T18	C0025202; melanoma; Neoplastic Process
+T19	DISO 666 674	Melanoma
+#17	AnnotatorNotes T19	C0025202; melanoma; Neoplastic Process
+T20	PROC 810 821	tratamiento
+#18	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	PROC 843 871	terapia oncológica sistémica
+T22	DISO 886 894	melanoma
+#19	AnnotatorNotes T22	C0025202; melanoma; Neoplastic Process
+T23	DISO 925 943	Enfermedad medible
+#20	AnnotatorNotes T23	C1513041; Measurable Disease; Disease or Syndrome
+T24	PROC 958 960	RM
+#21	AnnotatorNotes T24	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T25	ANAT 1012 1026	tejido tumoral
+T26	DISO 1079 1089	enfermedad
+#22	AnnotatorNotes T26	C0012634; Disease; Disease or Syndrome
+T27	PROC 1098 1123	análisis de biomarcadores
+T28	DISO 1175 1196	Metástasis cerebrales
+#23	AnnotatorNotes T28	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T29	DISO 1207 1232	metástasis leptomeníngeas
+#24	AnnotatorNotes T29	C1704231; Metastatic Malignant Neoplasm to the Leptomeninges; Neoplastic Process
+T30	DISO 1237 1252	Melanoma ocular
+#25	AnnotatorNotes T30	C0558356; Malignant melanoma of eye; Neoplastic Process
+T31	DISO 1268 1294	enfermedad autoinmunitaria
+#26	AnnotatorNotes T31	C0004364; Autoimmune Diseases; Disease or Syndrome
+T32	PROC 1365 1407	tratamiento sistémico con corticosteroides
+T33	CHEM 1391 1407	corticosteroides
+#27	AnnotatorNotes T33	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T34	CHEM 1420 1430	prednisona
+#28	AnnotatorNotes T34	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T35	CHEM 1461 1490	medicamentos inmunosupresores
+T36	CHEM 1545 1552	fármaco
+#29	AnnotatorNotes T36	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T37	CHEM 1578 1588	esteroides
+#30	AnnotatorNotes T37	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T38	ANAT 1631 1642	suprarrenal
+#31	AnnotatorNotes T38	C0001625; Adrenal Glands; Body Part, Organ, or Organ Component
+T39	CHEM 1661 1671	prednisona
+#32	AnnotatorNotes T39	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T40	DISO 1702 1728	enfermedad autoinmunitaria
+#33	AnnotatorNotes T40	C0004364; Autoimmune Diseases; Disease or Syndrome
+T41	PROC 1739 1750	Tratamiento
+#34	AnnotatorNotes T41	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T42	CHEM 1765 1785	anticuerpo anti-PD-1
+T43	CHEM 1787 1797	anti-PD-L1
+T44	CHEM 1799 1809	anti-PD-L2
+T45	CHEM 1812 1823	anti-CTLA-4
+T46	CHEM 1841 1851	anticuerpo
+#35	AnnotatorNotes T46	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T47	CHEM 1854 1949	fármaco dirigido específicamente frente a la coestimulación de las vías de control inmunitarias
+#36	AnnotatorNotes T47	C3192215; Selective T Cell Costimulation Blocker; Pharmacologic Substance (?)
+T48	DISO 197 208	metastásico
+#37	AnnotatorNotes T48	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T49	DISO 435 446	metastásico
+#38	AnnotatorNotes T49	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T50	PROC 486 503	muestra de sangre
+#39	AnnotatorNotes T50	C0005834; Collection of blood specimen for laboratory procedure; Diagnostic Procedure | C1277698; Blood sample taken; Laboratory Procedure
+T51	DISO 602 613	metastásico
+#40	AnnotatorNotes T51	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T52	PROC 450 457	tratado
+#41	AnnotatorNotes T52	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T53	PROC 617 624	tratado
+#42	AnnotatorNotes T53	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T54	DISO 909 920	metastásico
+#43	AnnotatorNotes T54	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T55	PROC 953 955	TC
+#44	AnnotatorNotes T55	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T56	DISO 1019 1026	tumoral
+#45	AnnotatorNotes T56	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T57	DISO 1061 1072	metastásica
+#46	AnnotatorNotes T57	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T58	ANAT 1186 1196	cerebrales
+#47	AnnotatorNotes T58	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T59	ANAT 1218 1232	leptomeníngeas
+#48	AnnotatorNotes T59	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T60	ANAT 1246 1252	ocular
+#49	AnnotatorNotes T60	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T61	PROC 1526 1552	administración del fármaco
+#50	AnnotatorNotes T61	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+T62	PROC 212 219	tratado
+#51	AnnotatorNotes T62	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T63	Date 12 16	2012
+T64	LIVB 162 169	sujetos
+#52	AnnotatorNotes T64	C0681850; Study Subject; Group
+T65	Neg_cue 209 211	no
+T66	LIVB 400 407	sujetos
+#53	AnnotatorNotes T66	C0681850; Study Subject; Group
+T67	Neg_cue 447 449	no
+T68	Neg_cue 614 616	no
+T69	PROC 769 792	estadificación del AJCC
+#54	AnnotatorNotes T69	C1971458; American Joint Committee on Cancer (AJCC) stage documented and reviewed (ONC); Health Care Activity
+T70	LIVB 796 805	Pacientes
+#55	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T71	Neg_cue 806 809	sin
+T72	Neg_cue 839 842	sin
+T73	LIVB 1256 1263	Sujetos
+#56	AnnotatorNotes T73	C0681850; Study Subject; Group
+T74	Spec_cue 1314 1324	sospechada
+T75	LIVB 1329 1336	Sujetos
+#57	AnnotatorNotes T75	C0681850; Study Subject; Group
+T76	Dose 1409 1416	> 10 mg
+T77	Frequency 1431 1437	al día
+T78	Duration 1506 1513	14 días
+T79	Route 1589 1598	inhalados
+#58	AnnotatorNotes T79	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T80	Route 1601 1608	tópicos
+#59	AnnotatorNotes T80	C1522168; Topical Route of Drug Administration; Functional Concept
+T81	Dose 1643 1650	> 10 mg
+T82	Frequency 1651 1657	al día
+T83	Neg_cue 1690 1701	ausencia de
+T86	Date 545 556	19-Mar-2013
+T84	PROC 686 702	histológicamente
+#60	AnnotatorNotes T84	C0344441; Histology Procedure; Laboratory Procedure
+T85	PROC 509 524	farmacogenética
+#61	AnnotatorNotes T85	C3494710; Pharmacogenetic consultation; Health Care Activity (?)
+A1	Assertion T62 Negated
+A2	Assertion T52 Negated
+A3	Assertion T53 Negated
+A4	Assertion T20 Negated
+A5	Assertion T21 Negated
+A6	Assertion T31 Speculated
+A7	Assertion T40 Negated
+A8	Status T53 History_of
+A9	Status T52 History_of
+A10	Status T62 History_of
+A11	Status T20 History_of
+A12	Status T21 History_of
+A13	Status T41 History_of
+A14	Status T42 History_of
+A15	Status T43 History_of
+A16	Status T44 History_of
+A17	Status T45 History_of
+A18	Status T46 History_of
+A19	Status T47 History_of
+A20	Status T31 History_of
+#62	AnnotatorNotes T27	C1879847; Biomarker Analysis; Laboratory Procedure
+#63	AnnotatorNotes T35	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+#64	AnnotatorNotes T9	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#65	AnnotatorNotes T1	C0282461; Phase 3 Clinical Trials; Research Activity
+#66	AnnotatorNotes T25	C0475358; Tumor tissue sample; Tissue
+#67	AnnotatorNotes T32	C4053960; Systemic Corticosteroid Therapy; Therapeutic or Preventive Procedure 
+#68	AnnotatorNotes T42	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#69	AnnotatorNotes T43	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#70	AnnotatorNotes T45	C4289973; Anti-CTLA-4 Monoclonal Antibody; Amino Acid, Peptide, or Protein
+R1	Negation Arg1:T71 Arg2:T20	
+R2	Negation Arg1:T72 Arg2:T21	
+R3	Speculation Arg1:T74 Arg2:T31	
+R4	Negation Arg1:T83 Arg2:T40	
+T87	Quantifier_or_Qualifier 1729 1735	activa
+A21	Assertion T87 Negated
+#71	AnnotatorNotes T87	C0679217; Active State; Idea or Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T87	
+R6	Used_for Arg1:T2 Arg2:T3	
+R7	Combined_with Arg1:T4 Arg2:T5	
+R8	Used_for Arg1:T6 Arg2:T7	
+R9	Experiences Arg1:T64 Arg2:T2	
+R10	Experiences Arg1:T64 Arg2:T4	
+R11	Experiences Arg1:T64 Arg2:T6	
+R12	Experiences Arg1:T64 Arg2:T8	
+R13	Before Arg1:T8 Arg2:T48	
+R14	Experiences Arg1:T64 Arg2:T48	
+R15	Negation Arg1:T65 Arg2:T62	
+T88	Observation 183 194	irresecable
+#72	AnnotatorNotes T88	C4039777; Tumor surgically unresectable; Finding
+R16	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T88	
+R17	Used_for Arg1:T10 Arg2:T11	
+R18	Combined_with Arg1:T12 Arg2:T13	
+R19	Used_for Arg1:T14 Arg2:T15	
+R20	Experiences Arg1:T66 Arg2:T10	
+R21	Experiences Arg1:T66 Arg2:T12	
+R22	Experiences Arg1:T66 Arg2:T14	
+R23	Experiences Arg1:T66 Arg2:T16	
+R24	Experiences Arg1:T66 Arg2:T49	
+R25	Before Arg1:T16 Arg2:T49	
+T89	Observation 421 432	irresecable
+#73	AnnotatorNotes T89	C4039777; Tumor surgically unresectable; Finding
+R26	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T89	
+R27	Experiences Arg1:T66 Arg2:T52	
+R28	Negation Arg1:T67 Arg2:T52	
+R29	Experiences Arg1:T64 Arg2:T62	
+R30	Before Arg1:T50 Arg2:T85	
+T90	Observation 588 599	irresecable
+#74	AnnotatorNotes T90	C4039777; Tumor surgically unresectable; Finding
+R31	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T90	
+R32	Before Arg1:T18 Arg2:T51	
+R33	Negation Arg1:T68 Arg2:T53	
+T91	Result_or_Value 706 717	estadio III
+T92	Observation 719 730	irresecable
+#75	AnnotatorNotes T92	C4039777; Tumor surgically unresectable; Finding
+R35	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T92	
+T93	Result_or_Value 737 747	estadio IV
+R39	Has_Result_or_Value Arg1:T69 Arg2:T91	
+R40	Has_Result_or_Value Arg1:T69 Arg2:T93	
+R36	Experiences Arg1:T70 Arg2:T20	
+T94	Observation 895 906	irresecable
+#76	AnnotatorNotes T94	C4039777; Tumor surgically unresectable; Finding
+R37	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T94	
+R41	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T54	
+R42	Experiences Arg1:T70 Arg2:T22	
+R43	Before Arg1:T70 Arg2:T54	
+T95	CONC 981 991	RECIST 1.1
+#77	AnnotatorNotes T95	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product
+R47	Location_of Arg1:T25 Arg2:T27	
+R48	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T57	
+T96	Observation 1047 1058	irresecable
+#78	AnnotatorNotes T96	C4039777; Tumor surgically unresectable; Finding
+R49	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T96	
+R50	Location_of Arg1:T58 Arg2:T28	
+R51	Location_of Arg1:T59 Arg2:T29	
+R52	Location_of Arg1:T25 Arg2:T57	
+T97	CONC 1141 1145	ECOG
+#79	AnnotatorNotes T97	C1520224; ECOG performance status; Intellectual Product
+T98	Result_or_Value 1131 1136	0 ó 1
+R53	Has_Result_or_Value Arg1:T97 Arg2:T98	
+T99	Quantifier_or_Qualifier 1197 1204	activas
+#80	AnnotatorNotes T99	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R54	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T99	
+R55	Location_of Arg1:T60 Arg2:T30	
+R56	Experiences Arg1:T73 Arg2:T31	
+T100	Quantifier_or_Qualifier 1295 1301	activa
+#81	AnnotatorNotes T100	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R57	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T100	
+R58	Experiences Arg1:T75 Arg2:T32	
+R59	Used_for Arg1:T33 Arg2:T32	
+R60	Has_Dose_or_Strength Arg1:T33 Arg2:T76	
+R61	Has_Frequency Arg1:T33 Arg2:T77	
+R62	Has_Frequency Arg1:T34 Arg2:T77	
+R63	Has_Dose_or_Strength Arg1:T34 Arg2:T76	
+T101	CONC 1420 1430;1440 1451	prednisona equivalente
+R64	Used_for Arg1:T34 Arg2:T32	
+R65	Experiences Arg1:T75 Arg2:T35	
+R66	Overlap Arg1:T35 Arg2:T78	
+R67	Before Arg1:T35 Arg2:T61	
+R68	Overlap Arg1:T33 Arg2:T78	
+R69	Overlap Arg1:T34 Arg2:T78	
+R70	Before Arg1:T32 Arg2:T61	
+R71	Used_for Arg1:T36 Arg2:T61	
+R72	Before Arg1:T34 Arg2:T61	
+R73	Experiences Arg1:T75 Arg2:T61	
+R74	Has_Route_or_Mode Arg1:T37 Arg2:T79	
+R75	Has_Route_or_Mode Arg1:T37 Arg2:T80	
+R76	Has_Dose_or_Strength Arg1:T37 Arg2:T81	
+R77	Has_Frequency Arg1:T37 Arg2:T82	
+R78	Has_Frequency Arg1:T39 Arg2:T82	
+R79	Has_Dose_or_Strength Arg1:T39 Arg2:T81	
+T102	CONC 1661 1671;1674 1686	prednisona equivalentes
+R82	Used_for Arg1:T42 Arg2:T41	
+R83	Used_for Arg1:T43 Arg2:T41	
+R84	Used_for Arg1:T44 Arg2:T41	
+R85	Used_for Arg1:T45 Arg2:T41	
+R86	Used_for Arg1:T46 Arg2:T41	
+R87	Used_for Arg1:T47 Arg2:T41	
+R34	Experiences Arg1:T70 Arg2:T54	
+R38	Negation Arg1:T83 Arg2:T87	
+R44	Experiences Arg1:T70 Arg2:T21	
+T103	CONC 1566 1577	Se permiten
+A22	Experiencer T64 Patient
+A23	Experiencer T66 Patient
+A24	Experiencer T70 Patient
+A25	Experiencer T73 Patient
+A26	Experiencer T75 Patient

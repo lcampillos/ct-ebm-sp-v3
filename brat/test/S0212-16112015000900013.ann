@@ -1,0 +1,159 @@
+T1	CHEM 23 42	esteroles vegetales
+#1	AnnotatorNotes T1	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T2	DISO 96 111	trigliceridemia
+#2	AnnotatorNotes T2	C0020557; Hypertriglyceridemia; Disease or Syndrome
+T3	PROC 128 181	ensayo clínico doble ciego, aleatorizado y controlado
+#3	AnnotatorNotes T3	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T4	DISO 251 259	obesidad
+#4	AnnotatorNotes T4	C0028754; Obesity; Disease or Syndrome
+T5	DISO 295 306	dislipemias
+#5	AnnotatorNotes T5	C0242339; Dyslipidemias; Disease or Syndrome
+T6	DISO 344 355	dislipemias
+#6	AnnotatorNotes T6	C0242339; Dyslipidemias; Disease or Syndrome
+T7	CHEM 375 388	triglicéridos
+#7	AnnotatorNotes T7	C0041004; Triglycerides; Biologically Active Substance · Organic Chemical
+T8	ANAT 389 399	sanguíneos
+#8	AnnotatorNotes T8	C0005767; Blood; Body Substance
+T9	CHEM 440 459	esteroles vegetales
+#9	AnnotatorNotes T9	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T10	PROC 491 502	tratamiento
+#10	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	DISO 509 528	hipercolesterolemia
+#11	AnnotatorNotes T11	C0020443; Hypercholesterolemia; Disease or Syndrome
+T12	DISO 544 564	hipertrigliceridemia
+#12	AnnotatorNotes T12	C0020557; Hypertriglyceridemia; Disease or Syndrome
+T13	PROC 602 624	determinar la eficacia
+#13	AnnotatorNotes T13	C1707887; Efficacy Study; Research Activity
+T14	DISO 692 712	hipertrigliceridemia
+#14	AnnotatorNotes T14	C0020557; Hypertriglyceridemia; Disease or Syndrome
+T15	PROC 773 828	ensayo clínico, controlado, aleatorizado, y doble ciego
+#15	AnnotatorNotes T15	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T16	CHEM 866 885	esteroles vegetales
+#16	AnnotatorNotes T16	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T17	DISO 1018 1033	trigliceridemia
+#17	AnnotatorNotes T17	C0020557; Hypertriglyceridemia; Disease or Syndrome
+T18	CHEM 1081 1100	esteroles vegetales
+#18	AnnotatorNotes T18	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T19	CHEM 1141 1150	esteroles
+#19	AnnotatorNotes T19	C0038323; Sterols; Organic Chemical
+T20	CHEM 1214 1236	fitosteroles vegetales
+T21	CHEM 1328 1347	esteroles vegetales
+#20	AnnotatorNotes T21	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T22	CHEM 1360 1379	esteroles vegetales
+#21	AnnotatorNotes T22	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T23	PROC 1438 1449	tratamiento
+#22	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	DISO 1456 1476	hipertrigliceridemia
+#23	AnnotatorNotes T24	C0020557; Hypertriglyceridemia; Disease or Syndrome
+T25	CHEM 652 665	fitoesteroles
+#24	AnnotatorNotes T25	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T26	Age 118 126	infancia
+#25	AnnotatorNotes T26	C0231335; Childhood; Temporal Concept
+T27	Date 200 218	estos últimos años
+T32	LIVB 937 958	pacientes pediátricos
+#26	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T33	Neg_cue 1122 1124	no
+T36	Dose 1349 1356	2,24 gr
+T37	Frequency 1380 1386	al día
+T38	LIVB 1480 1501	pacientes pediátricos
+#27	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T40	LIVB 313 333	población pediátrica
+#28	AnnotatorNotes T40	C1257890; Population; Population Group + C0008059; Child; Age Group
+T42	LIVB 719 737	población infantil
+#29	AnnotatorNotes T42	C1257890; Population; Population Group + C0008059; Child; Age Group
+T43	LIVB 740 749	Población
+#30	AnnotatorNotes T43	C1257890; Population; Population Group
+T28	PHYS 981 988	ingesta
+#31	AnnotatorNotes T28	C0232478; Ingestion; Biologic Function
+T29	PHYS 1178 1185	ingesta
+#32	AnnotatorNotes T29	C0232478; Ingestion; Biologic Function
+A1	Population_data T40 Age
+A2	Population_data T42 Age
+A3	Assertion T19 Negated
+A4	Population_data T38 Age
+A5	Population_data T32 Age
+T30	Neg_cue 904 906	no
+T31	Quantifier_or_Qualifier 907 918	enriquecida
+A6	Assertion T31 Negated
+R2	Negation Arg1:T33 Arg2:T19	
+T35	Food 888 903	leche desnatada
+#33	AnnotatorNotes T35	C0349375; skim milk; Food
+R3	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T31	
+R4	Negation Arg1:T30 Arg2:T31	
+T39	Food 1106 1121	leche desnatada
+#34	AnnotatorNotes T39	C0349375; skim milk; Food
+T41	Spec_cue 1388 1394	podría
+T44	CONC 1410 1420	estrategia
+A7	Assertion T44 Speculated
+T45	Quantifier_or_Qualifier 1421 1429	adecuada
+A8	Assertion T45 Speculated
+A9	Assertion T23 Speculated
+T46	Spec_cue 359 366	posible
+T47	CONC 418 423	papel
+A10	Assertion T47 Speculated
+#35	AnnotatorNotes T47	C1280500; Effect; Qualitative Concept
+T48	Quantifier_or_Qualifier 424 434	importante
+A11	Assertion T48 Speculated
+#36	AnnotatorNotes T48	C3898777; Important; Qualitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T48	
+R7	Speculation Arg1:T46 Arg2:T47	
+R8	Location_of Arg1:T8 Arg2:T7	
+A12	Assertion T7 Speculated
+A13	Assertion T8 Speculated
+R1	Combined_with Arg1:T39 Arg2:T19	
+T34	Food 1192 1197	leche
+#37	AnnotatorNotes T34	C2825079; Milk - dietary; Food
+R5	Combined_with Arg1:T34 Arg2:T20	
+T49	Food 1306 1311	leche
+#38	AnnotatorNotes T49	C2825079; Milk - dietary; Food
+R9	Combined_with Arg1:T49 Arg2:T21	
+T50	Food 631 636	leche
+#39	AnnotatorNotes T50	C2825079; Milk - dietary; Food
+T51	Food 1 6	Leche
+#40	AnnotatorNotes T51	C2825079; Milk - dietary; Food
+R10	Combined_with Arg1:T51 Arg2:T1	
+T52	Food 834 849	leche desnatada
+#41	AnnotatorNotes T52	C0349375; skim milk; Food
+R11	Combined_with Arg1:T52 Arg2:T16	
+T53	Food 1049 1064	leche desnatada
+#42	AnnotatorNotes T53	C0349375; skim milk; Food
+R12	Combined_with Arg1:T53 Arg2:T18	
+R13	Combined_with Arg1:T50 Arg2:T25	
+R15	Overlap Arg1:T2 Arg2:T26	
+R16	Overlap Arg1:T4 Arg2:T27	
+R17	Overlap Arg1:T5 Arg2:T27	
+R18	Experiences Arg1:T40 Arg2:T5	
+R19	Experiences Arg1:T40 Arg2:T4	
+R21	Used_for Arg1:T9 Arg2:T10	
+R22	Experiences Arg1:T42 Arg2:T50	
+R23	Experiences Arg1:T42 Arg2:T14	
+R24	Experiences Arg1:T42 Arg2:T25	
+R27	Used_for Arg1:T53 Arg2:T28	
+R28	Used_for Arg1:T39 Arg2:T28	
+T57	Observation 1155 1161	efecto
+#46	AnnotatorNotes T57	C1518681; Outcome of Therapy; Finding (?)
+R29	Used_for Arg1:T34 Arg2:T29	
+R30	Causes Arg1:T29 Arg2:T57	
+R31	Has_Dose_or_Strength Arg1:T22 Arg2:T36	
+R32	Has_Dose_or_Strength Arg1:T21 Arg2:T36	
+R33	Has_Frequency Arg1:T22 Arg2:T37	
+R34	Has_Frequency Arg1:T21 Arg2:T37	
+R35	Speculation Arg1:T41 Arg2:T44	
+R36	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T45	
+R37	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T45	
+R38	Speculation Arg1:T41 Arg2:T23	
+R39	Experiences Arg1:T38 Arg2:T24	
+R40	Experiences Arg1:T38 Arg2:T23	
+R41	Experiences Arg1:T38 Arg2:T49	
+R42	Combined_with Arg1:T49 Arg2:T22	
+R43	Used_for Arg1:T49 Arg2:T23	
+R44	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T44	
+R14	Speculation Arg1:T46 Arg2:T7	
+R20	Speculation Arg1:T46 Arg2:T48	
+R25	Speculation Arg1:T46 Arg2:T8	
+#43	AnnotatorNotes T45	C0205411; Adequate; Qualitative Concept
+A14	Experiencer T40 Patient
+A15	Experiencer T42 Patient
+A16	Experiencer T43 Patient
+A17	Experiencer T32 Patient
+A18	Experiencer T38 Patient

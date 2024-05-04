@@ -1,0 +1,209 @@
+T1	PROC 18 45	cirugía del agujero macular
+T2	DISO 30 45	agujero macular
+#1	AnnotatorNotes T2	C0024441; Macular Holes; Disease or Syndrome
+T3	PROC 73 84	tratamiento
+#2	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 134 148	complicaciones
+#3	AnnotatorNotes T4	C0009566; Complication; Pathologic Function
+T5	PROC 161 181	técnicas quirúrgicas
+T6	PROC 198 209	tratamiento
+#4	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 214 229	agujero macular
+#5	AnnotatorNotes T7	C0024441; Macular Holes; Disease or Syndrome
+T8	PROC 283 353	Estudio retrospectivo, comparativo, intervencionista y no aleatorizado
+#6	AnnotatorNotes T8	C0035363; Retrospective Studies; Research Activity + C1579762; comparative study research; Research Activity + C3274035; Interventional Study; Research Activity + C2985410; Nonrandomized; Research Activity
+T9	ANAT 361 365	ojos
+#7	AnnotatorNotes T9	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T10	DISO 370 385	agujero macular
+#8	AnnotatorNotes T10	C0024441; Macular Holes; Disease or Syndrome
+T11	PROC 418 426	operados
+#9	AnnotatorNotes T11	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T12	ANAT 452 456	ojos
+#10	AnnotatorNotes T12	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T13	PROC 468 486	vitrectomía simple
+#11	AnnotatorNotes T13	C0042903; Vitrectomy; Therapeutic or Preventive Procedure
+T14	ANAT 504 508	ojos
+#12	AnnotatorNotes T14	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T15	ANAT 531 557	membrana limitante interna
+#13	AnnotatorNotes T15	C0459664; Internal limiting membrane of retina; Body Part, Organ, or Organ Component
+T16	ANAT 583 587	ojos
+#14	AnnotatorNotes T16	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T17	CHEM 634 654	verde de indocianina
+#15	AnnotatorNotes T17	C0021234; indocyanine green; Organic Chemical · Indicator, Reagent, or Diagnostic Aid
+T18	CHEM 656 659	ICG
+#16	AnnotatorNotes T18	C0021234; indocyanine green; Organic Chemical · Indicator, Reagent, or Diagnostic Aid
+T19	CHEM 695 698	ICG
+#17	AnnotatorNotes T19	C0021234; indocyanine green; Organic Chemical · Indicator, Reagent, or Diagnostic Aid
+T20	DISO 795 809	complicaciones
+#18	AnnotatorNotes T20	C0009566; Complication; Pathologic Function
+T21	ANAT 862 866	ojos
+#19	AnnotatorNotes T21	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T22	PROC 1106 1113	cirugía
+#20	AnnotatorNotes T22	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T23	DISO 1052 1066	complicaciones
+#21	AnnotatorNotes T23	C0009566; Complication; Pathologic Function
+T24	DISO 1091 1100	cataratas
+#22	AnnotatorNotes T24	C0086543; Cataract; Anatomical Abnormality
+T25	PROC 1400 1414	agudeza visual
+#23	AnnotatorNotes T25	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T26	DISO 1147 1173	desprendimientos de retina
+#24	AnnotatorNotes T26	C0035305; Retinal Detachment; Disease or Syndrome
+T27	DISO 1183 1220	alteraciones del epitelio pigmentario
+#25	AnnotatorNotes T27	C3275551; Macular retinal pigment epithelial changes; Finding
+T28	ANAT 1200 1220	epitelio pigmentario
+#26	AnnotatorNotes T28	C1519082; Pigment Epithelium; Body Part, Organ, or Organ Component
+T29	CHEM 1266 1269	ICG
+#27	AnnotatorNotes T29	C0021234; indocyanine green; Organic Chemical · Indicator, Reagent, or Diagnostic Aid
+T30	DISO 1463 1485	membrana epirretiniana
+#28	AnnotatorNotes T30	C0339543; Epiretinal Membrane; Acquired Abnormality
+T31	PROC 1581 1588	cirugía
+#29	AnnotatorNotes T31	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T32	PROC 1648 1663	rexis de la MLI
+#30	AnnotatorNotes T32	C3544111; internal limiting membrane peeling; Therapeutic or Preventive Procedure
+T33	DISO 1724 1744	alteraciones del EPR
+#31	AnnotatorNotes T33	C3275551; Macular retinal pigment epithelial changes; Finding
+T34	ANAT 38 45	macular
+#32	AnnotatorNotes T34	C0450295; Retinal macula; Body Part, Organ, or Organ Component | C1284755; Entire macula lutea; Body Part, Organ, or Organ Component
+T35	ANAT 222 229	macular
+#33	AnnotatorNotes T35	C0450295; Retinal macula; Body Part, Organ, or Organ Component | C1284755; Entire macula lutea; Body Part, Organ, or Organ Component
+T36	ANAT 378 385	macular
+#34	AnnotatorNotes T36	C0450295; Retinal macula; Body Part, Organ, or Organ Component | C1284755; Entire macula lutea; Body Part, Organ, or Organ Component
+T37	PROC 519 557	rexis de la membrana limitante interna
+#35	AnnotatorNotes T37	C3544111; internal limiting membrane peeling; Therapeutic or Preventive Procedure
+T38	PROC 622 629	tinción
+#36	AnnotatorNotes T38	C0487602; Staining method; Laboratory Procedure
+T39	PROC 1134 1137	PIO
+#37	AnnotatorNotes T39	C0430888; Intraocular pressure test; Diagnostic Procedure
+T40	ANAT 1167 1173	retina
+#38	AnnotatorNotes T40	C0035298; Retina; Body Part, Organ, or Organ Component | C1278894; Entire retina; Body Part, Organ, or Organ Component
+T41	PROC 1416 1418	AV
+#39	AnnotatorNotes T41	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T42	ANAT 1463 1471	membrana
+#40	AnnotatorNotes T42	C0025255; Tissue membrane; Tissue | C0596901; Membrane; Cell Component
+T43	PROC 1683 1690	tinción
+#41	AnnotatorNotes T43	C0487602; Staining method; Laboratory Procedure
+T44	ANAT 1741 1744	EPR
+#42	AnnotatorNotes T44	C0035322; Structure of retinal pigment epithelium; Body Part, Organ, or Organ Component | C1305324; Entire retinal pigment epithelium; Body Part, Organ, or Organ Component
+T45	PROC 96 131	Comparar la efectividad, eficiencia
+T46	ANAT 559 562	MLI
+#43	AnnotatorNotes T46	C0459664; Internal limiting membrane of retina; Body Part, Organ, or Organ Component
+T47	PROC 593 598	rexis
+T48	PROC 1506 1508	AV
+#44	AnnotatorNotes T48	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T49	PROC 1599 1601	AV
+#45	AnnotatorNotes T49	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T50	ANAT 1660 1663	MLI
+#46	AnnotatorNotes T50	C0459664; Internal limiting membrane of retina; Body Part, Organ, or Organ Component
+T51	CHEM 1636 1639	ICG
+#47	AnnotatorNotes T51	C0021234; indocyanine green; Organic Chemical · Indicator, Reagent, or Diagnostic Aid
+T52	Date 244 248	1998
+T53	Date 249 253	2004
+T57	Date 1101 1113	post-cirugía
+#48	AnnotatorNotes T57	C0032790; Postoperative Period; Temporal Concept
+T62	Date 1430 1445	post-quirúrgica
+#49	AnnotatorNotes T62	C0032790; Postoperative Period; Temporal Concept
+T66	PHYS 754 766	recuperación
+#50	AnnotatorNotes T66	C2004454; Recovery - healing process; Organism Function
+T67	PHYS 944 956	recuperación
+#51	AnnotatorNotes T67	C2004454; Recovery - healing process; Organism Function
+T54	Dose 720 722	5%
+T55	Dose 724 728	2,5%
+T58	Dose 731 735	0,5%
+T56	Neg_cue 1280 1283	sin
+T59	CONC 1296 1307	diferencias
+A1	Assertion T59 Negated
+#52	AnnotatorNotes T59	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T56 Arg2:T59	
+T60	Neg_cue 1008 1010	no
+T61	CONC 1022 1033	diferencias
+A2	Assertion T61 Negated
+#53	AnnotatorNotes T61	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T60 Arg2:T61	
+T63	Neg_cue 338 340	no
+T64	Quantifier_or_Qualifier 341 353	aleatorizado
+A3	Assertion T64 Negated
+R3	Negation Arg1:T63 Arg2:T64	
+R4	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T64	
+R5	Location_of Arg1:T34 Arg2:T2	
+R6	Location_of Arg1:T34 Arg2:T1	
+R8	Causes Arg1:T5 Arg2:T4	
+R9	Causes Arg1:T6 Arg2:T4	
+R10	Location_of Arg1:T35 Arg2:T7	
+R11	Before Arg1:T7 Arg2:T4	
+R12	After Arg1:T5 Arg2:T52	
+R13	Before Arg1:T5 Arg2:T53	
+R14	After Arg1:T6 Arg2:T52	
+R15	Before Arg1:T6 Arg2:T53	
+R16	After Arg1:T7 Arg2:T52	
+R17	Before Arg1:T7 Arg2:T53	
+R18	After Arg1:T4 Arg2:T52	
+R19	Before Arg1:T4 Arg2:T53	
+R20	Location_of Arg1:T9 Arg2:T10	
+R21	Location_of Arg1:T36 Arg2:T10	
+T65	Quantifier_or_Qualifier 386 396	idiopático
+#54	AnnotatorNotes T65	C0332240; Unknown (origin) (qualifier value); Functional Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T65	
+T68	Quantifier_or_Qualifier 400 416	estadío III y IV
+R23	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T68	
+R24	Location_of Arg1:T9 Arg2:T11	
+R25	Location_of Arg1:T12 Arg2:T13	
+R26	Location_of Arg1:T14 Arg2:T37	
+R27	Location_of Arg1:T15 Arg2:T37	
+R28	Location_of Arg1:T46 Arg2:T37	
+R29	Location_of Arg1:T16 Arg2:T47	
+#55	AnnotatorNotes T47	C3544111; internal limiting membrane peeling; Therapeutic or Preventive Procedure
+R30	Before Arg1:T38 Arg2:T47	
+R31	Used_for Arg1:T17 Arg2:T38	
+R32	Used_for Arg1:T18 Arg2:T38	
+R33	Location_of Arg1:T46 Arg2:T47	
+R34	Location_of Arg1:T15 Arg2:T47	
+R35	Has_Dose_or_Strength Arg1:T19 Arg2:T54	
+R36	Has_Dose_or_Strength Arg1:T19 Arg2:T55	
+R37	Has_Dose_or_Strength Arg1:T19 Arg2:T58	
+T69	Quantifier_or_Qualifier 767 776	anatómica
+#56	AnnotatorNotes T69	C0220784; anatomic; Qualitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T69	
+T70	Quantifier_or_Qualifier 779 788	funcional
+#57	AnnotatorNotes T70	C0205245; Functional; Functional Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T70	
+T71	Quantifier_or_Qualifier 957 966	funcional
+#58	AnnotatorNotes T71	C0205245; Functional; Functional Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T71	
+R41	Overlap Arg1:T24 Arg2:T57	
+R42	Causes Arg1:T22 Arg2:T24	
+R43	Causes Arg1:T22 Arg2:T23	
+T72	Observation 1123 1137	aumento de PIO
+R44	Location_of Arg1:T40 Arg2:T26	
+R45	Causes Arg1:T22 Arg2:T72	
+R46	Before Arg1:T22 Arg2:T39	
+R47	Causes Arg1:T22 Arg2:T26	
+R48	Causes Arg1:T22 Arg2:T27	
+R49	Location_of Arg1:T28 Arg2:T27	
+R50	Overlap Arg1:T72 Arg2:T57	
+R51	Overlap Arg1:T26 Arg2:T57	
+R52	Overlap Arg1:T27 Arg2:T57	
+T73	Quantifier_or_Qualifier 1420 1427	inicial
+#59	AnnotatorNotes T73	C0439659; Beginning; Temporal Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T73	
+R54	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T73	
+R55	Overlap Arg1:T25 Arg2:T62	
+R56	Overlap Arg1:T41 Arg2:T62	
+R57	Location_of Arg1:T42 Arg2:T30	
+T74	Observation 1589 1601	mejora la AV
+R59	Before Arg1:T31 Arg2:T49	
+R60	Before Arg1:T51 Arg2:T32	
+R61	Location_of Arg1:T50 Arg2:T32	
+R62	Before Arg1:T32 Arg2:T49	
+R63	Causes Arg1:T32 Arg2:T74	
+T75	Spec_cue 1691 1697	podría
+T76	CONC 1704 1715	relacionada
+A4	Assertion T76 Speculated
+R64	Speculation Arg1:T75 Arg2:T76	
+R65	Location_of Arg1:T44 Arg2:T33	
+R66	Before Arg1:T43 Arg2:T33	
+R7	Causes Arg1:T31 Arg2:T74	
+#61	AnnotatorNotes T76	C0332281; Associated with; Qualitative Concept
+#60	AnnotatorNotes T72	C0234708; Raised intraocular pressure (finding); Finding
+A5	Assertion T51 Hypothetical
+R58	Has_Result_or_Value Arg1:T39 Arg2:T72	
+R67	Has_Result_or_Value Arg1:T49 Arg2:T74	

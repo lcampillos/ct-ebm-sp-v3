@@ -1,0 +1,393 @@
+T1	PROC 44 54	Valoración
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	CHEM 291 303	mitomicina-C
+#2	AnnotatorNotes T2	C0002475; mitomycin; Organic Chemical · Antibiotic
+T3	CHEM 94 104	mitomicina
+#3	AnnotatorNotes T3	C0002475; mitomycin; Organic Chemical · Antibiotic
+T4	PROC 106 115	instilada
+#4	AnnotatorNotes T4	C0184959; Instillation (procedure); Health Care Activity
+T5	DISO 146 151	tumor
+#5	AnnotatorNotes T5	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T6	DISO 170 207	tumores vesicales no músculo invasivo
+T7	ANAT 191 198	músculo
+#6	AnnotatorNotes T7	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T8	CHEM 305 308	MMC
+#7	AnnotatorNotes T8	C0002475; mitomycin; Organic Chemical · Antibiotic
+T9	PROC 319 344	instilación electromotriz
+T10	DISO 369 402	tumor vesical no músculo invasivo
+T11	ANAT 386 393	músculo
+#8	AnnotatorNotes T11	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T12	PROC 412 444	Estudio prospectivo aleatorizado
+#9	AnnotatorNotes T12	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T13	PROC 468 478	Valoración
+#10	AnnotatorNotes T13	C1261322; Evaluation procedure; Health Care Activity
+T14	DISO 404 409	TVNMI
+T15	CHEM 518 528	mitomicina
+#11	AnnotatorNotes T15	C0002475; mitomycin; Organic Chemical · Antibiotic
+T16	PROC 530 539	instilada
+#12	AnnotatorNotes T16	C0184959; Instillation (procedure); Health Care Activity
+T17	DISO 570 575	tumor
+#13	AnnotatorNotes T17	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T18	DISO 594 631	tumores vesicales no músculo invasivo
+T19	ANAT 615 622	músculo
+#14	AnnotatorNotes T19	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T20	CHEM 719 731	mitomicina-C
+#15	AnnotatorNotes T20	C0002475; mitomycin; Organic Chemical · Antibiotic
+T21	CHEM 733 736	MMC
+#16	AnnotatorNotes T21	C0002475; mitomycin; Organic Chemical · Antibiotic
+T22	PROC 747 772	instilación electromotriz
+T23	DISO 797 830	tumor vesical no músculo invasivo
+T24	ANAT 814 821	músculo
+#17	AnnotatorNotes T24	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T25	PROC 840 872	Estudio prospectivo aleatorizado
+#18	AnnotatorNotes T25	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T26	DISO 917 949	carcinoma de células uroteliales
+T27	PROC 774 778	EMDA
+#19	AnnotatorNotes T27	[Electromotive drug administration]
+T28	DISO 961 974	Tumor papilar
+#20	AnnotatorNotes T28	C0476073; Papillary neoplasm; Neoplastic Process
+T29	DISO 997 1013	Tumor recurrente
+#21	AnnotatorNotes T29	C0521158; Recurrent tumor; Neoplastic Process
+T30	ANAT 1073 1084	médula ósea
+#22	AnnotatorNotes T30	C0005953; Bone Marrow; Tissue
+T31	ANAT 1098 1114	glóbulos blancos
+#23	AnnotatorNotes T31	C0023516; Leukocytes; Cell
+T32	ANAT 1142 1151	plaquetas
+#24	AnnotatorNotes T32	C0005821; Blood Platelets; Cell
+T33	CHEM 1191 1201	creatinina
+#25	AnnotatorNotes T33	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T34	ANAT 1202 1208	sérica
+#26	AnnotatorNotes T34	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T35	ANAT 1237 1245	hepática
+#27	AnnotatorNotes T35	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T36	PROC 1254 1283	gamma glutamil transpeptidasa
+T37	PROC 1293 1317	alanina aminotransferasa
+#28	AnnotatorNotes T37	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T38	PROC 1328 1345	bilirrubina total
+#29	AnnotatorNotes T38	C0201913; Bilirubin, total measurement; Laboratory Procedure
+T39	PROC 1361 1385	Consentimiento informado
+#30	AnnotatorNotes T39	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T41	PROC 1544 1566	visitas de seguimiento
+#31	AnnotatorNotes T41	C0589121; Follow-up visit; Health Care Activity
+T42	DISO 1583 1599	tumor recurrente
+#32	AnnotatorNotes T42	C0521158; Recurrent tumor; Neoplastic Process
+T43	DISO 1630 1633	CIS
+#33	AnnotatorNotes T43	C0007099; Carcinoma in Situ; Neoplastic Process | C0851135; In situ cancer; Neoplastic Process
+T44	ANAT 1657 1664	vesical
+#34	AnnotatorNotes T44	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T45	PROC 1086 1114	recuento de glóbulos blancos
+T46	DISO 1712 1725	tumor vesical
+T47	DISO 1742 1745	CIS
+#35	AnnotatorNotes T47	C0007099; Carcinoma in Situ; Neoplastic Process | C0851135; In situ cancer; Neoplastic Process
+T48	DISO 1764 1793	infección del tracto urinario
+#36	AnnotatorNotes T48	C0042029; Urinary tract infection; Disease or Syndrome
+T49	PROC 1798 1804	tratar
+#37	AnnotatorNotes T49	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T50	DISO 1808 1827	Infección sistémica
+#38	AnnotatorNotes T50	C0243026; Sepsis; Disease or Syndrome
+T51	PROC 1837 1865	Tratamiento con radioterapia
+T52	ANAT 2089 2097	cervical
+#39	AnnotatorNotes T52	C0007874; Cervix Uteri; Body Part, Organ, or Organ Component | C1278987; Entire cervix uteri; Body Part, Organ, or Organ Component
+T53	PROC 1868 1881	quimioterapia
+#40	AnnotatorNotes T53	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T54	PROC 1884 1895	Tratamiento
+#41	AnnotatorNotes T54	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T55	DISO 1925 1946	enfermedades malignas
+T56	DISO 2026 2040	cáncer de piel
+#42	AnnotatorNotes T56	C0007114; Malignant neoplasm of skin; Neoplastic Process | C0699893; Skin carcinoma; Neoplastic Process
+T57	PROC 2045 2056	tratamiento
+#43	AnnotatorNotes T57	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T58	DISO 2082 2097	cáncer cervical
+#44	AnnotatorNotes T58	C0302592; Cervix carcinoma; Neoplastic Process
+T59	PROC 61 75	administración
+#45	AnnotatorNotes T59	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T60	ANAT 178 187	vesicales
+#46	AnnotatorNotes T60	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T61	PROC 244 286	administración pre operatoria intravesical
+T62	ANAT 375 382	vesical
+#47	AnnotatorNotes T62	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T63	PROC 485 499	administración
+#48	AnnotatorNotes T63	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T64	ANAT 602 611	vesicales
+#49	AnnotatorNotes T64	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T65	PROC 672 714	administración pre operatoria intravesical
+T66	ANAT 803 810	vesical
+#50	AnnotatorNotes T66	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T67	ANAT 930 949	células uroteliales
+T68	PROC 346 350	EMDA
+#51	AnnotatorNotes T68	[Electromotive drug administration]
+T69	DISO 832 837	TVNMI
+T70	ANAT 967 974	papilar
+#52	AnnotatorNotes T70	C3714556; Papilla; Body Part, Organ, or Organ Component
+T71	ANAT 1173 1178	renal
+#53	AnnotatorNotes T71	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T72	PROC 1191 1208	creatinina sérica
+#54	AnnotatorNotes T72	C0201976; Creatinine measurement, serum (procedure); Laboratory Procedure
+T73	CHEM 1328 1339	bilirrubina
+#55	AnnotatorNotes T73	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T74	PROC 1130 1151	recuento de plaquetas
+#56	AnnotatorNotes T74	C0032181; Platelet Count measurement; Laboratory Procedure
+T75	ANAT 1718 1725	vesical
+#57	AnnotatorNotes T75	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T76	ANAT 1778 1793	tracto urinario
+#58	AnnotatorNotes T76	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T77	CHEM 1900 1916	inmunosupresores
+#59	AnnotatorNotes T77	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T78	ANAT 2036 2040	piel
+#60	AnnotatorNotes T78	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T79	Date 12 16	2015
+T80	LIVB 156 165	pacientes
+#61	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T82	Route 274 286	intravesical
+T83	LIVB 355 364	pacientes
+#62	AnnotatorNotes T83	C0030705; Patients; Patient or Disabled Group
+T85	LIVB 580 589	pacientes
+#63	AnnotatorNotes T85	C0030705; Patients; Patient or Disabled Group
+T87	Route 702 714	intravesical
+T88	LIVB 783 792	pacientes
+#64	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group
+T90	LIVB 903 912	Pacientes
+#65	AnnotatorNotes T90	C0030705; Patients; Patient or Disabled Group
+T92	LIVB 1048 1057	Pacientes
+#66	AnnotatorNotes T92	C0030705; Patients; Patient or Disabled Group
+T93	PHYS 1229 1245	función hepática
+#67	AnnotatorNotes T93	C0232741; Liver function; Organ or Tissue Function
+T95	LIVB 1437 1445	Paciente
+#68	AnnotatorNotes T95	C0030705; Patients; Patient or Disabled Group
+T96	LIVB 1466 1478	investigador
+#69	AnnotatorNotes T96	C0035173; Research Personnel; Professional or Occupational Group
+T97	PROC 1512 1525	cuestionarios
+#70	AnnotatorNotes T97	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T98	LIVB 1569 1578	Pacientes
+#71	AnnotatorNotes T98	C0030705; Patients; Patient or Disabled Group
+T99	LIVB 1616 1625	Pacientes
+#72	AnnotatorNotes T99	C0030705; Patients; Patient or Disabled Group
+T101	Neg_cue 1794 1797	sin
+T102	Duration 1955 1965	los 5 años
+T103	Neg_cue 2004 2011	excepto
+T104	PHYS 2113 2121	Embarazo
+#73	AnnotatorNotes T104	C0032961; Pregnancy; Organism Function
+T81	Time 76 90	pre operatoria
+T84	Time 259 273	pre operatoria
+T105	Time 500 514	pre operatoria
+T86	Time 687 701	pre operatoria
+T89	PHYS 1165 1178	función renal
+#74	AnnotatorNotes T89	C0232804; Renal function; Organ or Tissue Function
+T40	Neg_cue 1484 1494	incapaz de
+T91	PHYS 1647 1664	Capacidad vesical
+#75	AnnotatorNotes T91	C0232840; Bladder function; Organ or Tissue Function (?)
+A1	Assertion T97 Negated
+A2	Assertion T49 Negated
+A3	Assertion T56 Negated
+A4	Assertion T58 Negated
+A5	Assertion T41 Negated
+#76	AnnotatorNotes T81	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+#77	AnnotatorNotes T84	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+#78	AnnotatorNotes T105	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+#79	AnnotatorNotes T86	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+#80	AnnotatorNotes T82	C1522448; Intravesical Route of Drug Administration; Functional Concept
+#81	AnnotatorNotes T87	C1522448; Intravesical Route of Drug Administration; Functional Concept
+#82	AnnotatorNotes T26	C2145472; Urothelial Carcinoma; Neoplastic Process
+#83	AnnotatorNotes T67	C1519839; Urothelial Cell; Cell
+#84	AnnotatorNotes T45	C0023508; White Blood Cell Count procedure; Laboratory Procedure 
+#85	AnnotatorNotes T36	C0017040; Gamma-glutamyl transferase; Amino Acid, Peptide, or Protein · Enzyme
+#86	AnnotatorNotes T46	C0005695; Bladder Neoplasm; Neoplastic Process
+#87	AnnotatorNotes T51	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+#88	AnnotatorNotes T55	C0006826; Malignant Neoplasms; Neoplastic Process
+T94	Neg_cue 188 190	no
+T100	Neg_cue 383 385	no
+T106	Neg_cue 612 614	no
+T107	Neg_cue 811 813	no
+T108	Observation 191 207	músculo invasivo
+A6	Assertion T108 Negated
+#89	AnnotatorNotes T108	C4725840; Muscle Invasion; Finding
+T109	Observation 386 402	músculo invasivo
+A7	Assertion T109 Negated
+#90	AnnotatorNotes T109	C4725840; Muscle Invasion; Finding
+T110	Observation 615 631	músculo invasivo
+A8	Assertion T110 Negated
+#91	AnnotatorNotes T110	C4725840; Muscle Invasion; Finding
+T111	Observation 814 830	músculo invasivo
+A9	Assertion T111 Negated
+#92	AnnotatorNotes T111	C4725840; Muscle Invasion; Finding
+R1	Negation Arg1:T94 Arg2:T108	
+R2	Negation Arg1:T100 Arg2:T109	
+R3	Negation Arg1:T106 Arg2:T110	
+R4	Negation Arg1:T107 Arg2:T111	
+R5	Negation Arg1:T40 Arg2:T97	
+R6	Negation Arg1:T40 Arg2:T41	
+R7	Negation Arg1:T101 Arg2:T49	
+R8	Negation Arg1:T103 Arg2:T56	
+T112	Quantifier_or_Qualifier 2098 2108	localizado
+A10	Assertion T112 Negated
+R9	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T112	
+R10	Negation Arg1:T103 Arg2:T58	
+R11	Negation Arg1:T103 Arg2:T112	
+T113	Result_or_Value 1677 1692	menos de 200 cc
+R12	Location_of Arg1:T44 Arg2:T91	
+R13	Has_Result_or_Value Arg1:T91 Arg2:T113	
+T114	Observation 1665 1675	disminuida
+#93	AnnotatorNotes T114	C0392756; Reduced; Finding (?)
+R14	Has_Quantifier_or_Qualifier Arg1:T91 Arg2:T114	
+R15	Overlap Arg1:T59 Arg2:T81	
+R16	Used_for Arg1:T3 Arg2:T59	
+T115	Quantifier_or_Qualifier 116 136	de manera localizada
+#94	AnnotatorNotes T115	C0392752; Localized; Spatial Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T115	
+R19	Experiences Arg1:T80 Arg2:T59	
+R20	Experiences Arg1:T80 Arg2:T4	
+R21	Experiences Arg1:T80 Arg2:T5	
+R22	Experiences Arg1:T80 Arg2:T6	
+R23	Location_of Arg1:T60 Arg2:T6	
+R24	Location_of Arg1:T7 Arg2:T108	
+#95	AnnotatorNotes T6	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#96	AnnotatorNotes T10	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#97	AnnotatorNotes T14	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#98	AnnotatorNotes T18	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#99	AnnotatorNotes T23	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#100	AnnotatorNotes T69	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+R27	Has_Route_or_Mode Arg1:T2 Arg2:T82	
+R28	Has_Route_or_Mode Arg1:T8 Arg2:T82	
+R29	Used_for Arg1:T2 Arg2:T61	
+R30	Used_for Arg1:T8 Arg2:T61	
+R34	Overlap Arg1:T61 Arg2:T68	
+R17	Experiences Arg1:T83 Arg2:T61	
+R31	Experiences Arg1:T83 Arg2:T9	
+R32	Experiences Arg1:T83 Arg2:T68	
+R33	Overlap Arg1:T61 Arg2:T9	
+R36	Experiences Arg1:T83 Arg2:T10	
+R37	Location_of Arg1:T62 Arg2:T10	
+R38	Location_of Arg1:T11 Arg2:T109	
+R40	Experiences Arg1:T83 Arg2:T14	
+R41	Location_of Arg1:T62 Arg2:T14	
+R26	Overlap Arg1:T2 Arg2:T84	
+R44	Overlap Arg1:T8 Arg2:T84	
+R45	Overlap Arg1:T63 Arg2:T16	
+R46	Used_for Arg1:T15 Arg2:T63	
+R47	Overlap Arg1:T15 Arg2:T105	
+T116	Quantifier_or_Qualifier 540 560	de manera localizada
+#101	AnnotatorNotes T116	C0392752; Localized; Spatial Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T116	
+R49	Experiences Arg1:T85 Arg2:T63	
+R50	Experiences Arg1:T85 Arg2:T16	
+R51	Experiences Arg1:T85 Arg2:T17	
+R52	Experiences Arg1:T85 Arg2:T18	
+R53	Location_of Arg1:T64 Arg2:T18	
+R54	Location_of Arg1:T19 Arg2:T110	
+R56	Has_Route_or_Mode Arg1:T20 Arg2:T87	
+R57	Has_Route_or_Mode Arg1:T21 Arg2:T87	
+R58	Used_for Arg1:T20 Arg2:T65	
+R59	Used_for Arg1:T21 Arg2:T65	
+R60	Overlap Arg1:T20 Arg2:T86	
+R61	Overlap Arg1:T21 Arg2:T86	
+R62	Overlap Arg1:T65 Arg2:T22	
+R63	Overlap Arg1:T65 Arg2:T27	
+R64	Experiences Arg1:T88 Arg2:T65	
+R65	Experiences Arg1:T88 Arg2:T22	
+R66	Experiences Arg1:T88 Arg2:T27	
+R67	Experiences Arg1:T88 Arg2:T23	
+R68	Experiences Arg1:T88 Arg2:T69	
+R69	Location_of Arg1:T66 Arg2:T23	
+R71	Location_of Arg1:T24 Arg2:T111	
+R73	Has_Quantifier_or_Qualifier Arg1:T69 Arg2:T111	
+R75	Experiences Arg1:T90 Arg2:T26	
+R76	Location_of Arg1:T67 Arg2:T26	
+T117	Observation 950 952	Ta
+#102	AnnotatorNotes T117	C3272501; Ta Stage Finding; Finding
+R77	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T117	
+T118	Observation 955 957	T1
+#103	AnnotatorNotes T118	C0475372; Tumor stage T1; Finding
+R78	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T118	
+R79	Location_of Arg1:T70 Arg2:T28	
+T119	Result_or_Value 1115 1128	≥4000 × 10³/L
+R80	Has_Result_or_Value Arg1:T45 Arg2:T119	
+R81	Experiences Arg1:T92 Arg2:T45	
+R82	Experiences Arg1:T92 Arg2:T74	
+T120	Result_or_Value 1152 1162	≥120×10³/L
+R83	Has_Result_or_Value Arg1:T74 Arg2:T120	
+T121	Quantifier_or_Qualifier 975 983	primario
+#104	AnnotatorNotes T121	C0205225; Primary; Qualitative Concept
+R84	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T121	
+T122	Quantifier_or_Qualifier 984 994	alto grado
+R85	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T122	
+T123	Quantifier_or_Qualifier 1035 1045	bajo grado
+R86	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T123	
+T124	Quantifier_or_Qualifier 1014 1019	único
+#105	AnnotatorNotes T124	C1710548; Unique; Qualitative Concept
+R87	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T124	
+T125	Quantifier_or_Qualifier 1022 1031	múltiples
+#106	AnnotatorNotes T125	C0439064; Numerous; Quantitative Concept
+R88	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T125	
+T126	Observation 1062 1084	reserva de médula ósea
+R89	Experiences Arg1:T92 Arg2:T126	
+R90	Location_of Arg1:T30 Arg2:T126	
+R91	Location_of Arg1:T71 Arg2:T89	
+R93	Location_of Arg1:T34 Arg2:T72	
+T127	Result_or_Value 1209 1225	≤123,76 µmol / L
+R94	Has_Result_or_Value Arg1:T72 Arg2:T127	
+R95	Location_of Arg1:T35 Arg2:T93	
+T128	Result_or_Value 1284 1291	≤51 U/L
+R97	Has_Result_or_Value Arg1:T36 Arg2:T128	
+T129	Result_or_Value 1318 1325	≤50 U/L
+R98	Has_Result_or_Value Arg1:T37 Arg2:T129	
+T130	Result_or_Value 1346 1356	≤22 µmol/L
+R101	Has_Result_or_Value Arg1:T38 Arg2:T130	
+T131	Observation 1229 1252	función hepática normal
+#107	AnnotatorNotes T131	C1848676; Normal liver function; Finding
+R103	Location_of Arg1:T35 Arg2:T131	
+R107	Experiences Arg1:T92 Arg2:T89	
+R108	Experiences Arg1:T92 Arg2:T72	
+R109	Experiences Arg1:T92 Arg2:T131	
+R110	Experiences Arg1:T92 Arg2:T93	
+R111	Experiences Arg1:T92 Arg2:T36	
+R112	Experiences Arg1:T92 Arg2:T37	
+R113	Experiences Arg1:T92 Arg2:T38	
+T132	Observation 1165 1189	función renal conservada
+#108	AnnotatorNotes T132	C0232805; Normal renal function; Finding (?)
+R114	Location_of Arg1:T71 Arg2:T132	
+R116	Experiences Arg1:T92 Arg2:T132	
+R120	Experiences Arg1:T95 Arg2:T97	
+R121	Experiences Arg1:T98 Arg2:T42	
+T133	Quantifier_or_Qualifier 1603 1613	alto grado
+R122	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T133	
+R123	Experiences Arg1:T99 Arg2:T43	
+T134	Observation 1634 1644	recurrente
+#109	AnnotatorNotes T134	C0679254; Disease recurrence; Finding
+R124	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T134	
+T135	Quantifier_or_Qualifier 1729 1739	alto grado
+R125	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T135	
+R126	Location_of Arg1:T75 Arg2:T46	
+R127	Location_of Arg1:T76 Arg2:T48	
+T136	Quantifier_or_Qualifier 1828 1833	grave
+#110	AnnotatorNotes T136	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R128	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T136	
+R129	Used_for Arg1:T77 Arg2:T54	
+R130	Has_Duration_or_Interval Arg1:T55 Arg2:T102	
+T137	CONC 1979 1988	inclusión
+#111	AnnotatorNotes T137	C1512693; Inclusion; Qualitative Concept
+R131	Before Arg1:T55 Arg2:T137	
+R132	Location_of Arg1:T78 Arg2:T56	
+T138	Quantifier_or_Qualifier 2057 2065	efectivo
+#112	AnnotatorNotes T138	C1704419; Effective; Qualitative Concept
+R133	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T138	
+R134	Location_of Arg1:T52 Arg2:T58	
+#113	AnnotatorNotes T112	C0392752; Localized; Spatial Concept
+R135	Before Arg1:T56 Arg2:T137	
+R136	Before Arg1:T58 Arg2:T137	
+R35	Overlap Arg1:T59 Arg2:T4	
+R39	Location_of Arg1:T66 Arg2:T69	
+R55	Experiences Arg1:T95 Arg2:T41	
+#114	AnnotatorNotes T122	C5547531; High histologic grade; Classification
+#115	AnnotatorNotes T135	C5547531; High histologic grade; Classification
+#116	AnnotatorNotes T133	C5547531; High histologic grade; Classification
+#117	AnnotatorNotes T123	C1282907; Low Grade; Qualitative Concept
+A11	Experiencer T80 Patient
+A12	Experiencer T83 Patient
+A13	Experiencer T85 Patient
+A14	Experiencer T88 Patient
+A15	Experiencer T90 Patient
+A16	Experiencer T92 Patient
+A17	Experiencer T96 Other
+A18	Experiencer T95 Patient
+A19	Experiencer T98 Patient
+A20	Experiencer T99 Patient

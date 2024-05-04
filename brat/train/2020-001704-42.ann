@@ -1,0 +1,259 @@
+T1	PROC 46 78	Ensayo controlado y aleatorizado
+T2	PROC 84 115	evaluar la seguridad y eficacia
+T3	PROC 122 138	quimioprofilaxis
+#1	AnnotatorNotes T3	C0282515; Chemoprevention; Therapeutic or Preventive Procedure
+T4	DISO 167 190	infección por SARS CoV2
+T5	DISO 326 334	COVID-19
+#2	AnnotatorNotes T5	C5203670; COVID19 (disease); Disease or Syndrome
+T6	DISO 300 324	Infección por SARS-CoV-2
+#3	AnnotatorNotes T6	C5203670; COVID19 (disease); Disease or Syndrome
+T7	DISO 253 258	COVID
+T8	PROC 592 601	protocolo
+#4	AnnotatorNotes T8	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T9	PROC 522 558	consentimiento informado por escrito
+#5	AnnotatorNotes T9	C0811741; Obtain informed written consent; Health Care Activity
+T10	DISO 757 787	Infección previa por SARS CoV2
+T11	CHEM 924 927	HCQ
+T12	PROC 816 829	Serología IgG
+T13	CHEM 826 829	IgG
+#6	AnnotatorNotes T13	C0020852; immunoglobulin G; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	DISO 880 894	sintomatología
+#7	AnnotatorNotes T14	C3540840; Sign or Symptom; Finding
+T15	PROC 901 912	Tratamiento
+#8	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	CHEM 930 940	cloroquina
+#9	AnnotatorNotes T16	C0008269; chloroquine; Organic Chemical · Pharmacologic Substance
+T17	DISO 984 993	epilepsia
+#10	AnnotatorNotes T17	C0014544; Epilepsy; Disease or Syndrome
+T18	DISO 1004 1012	porfiria
+#11	AnnotatorNotes T18	C0032708; Disorders of Porphyrin Metabolism; Disease or Syndrome | C0235387; Porphyria type syndrome; Disease or Syndrome
+T19	DISO 1014 1035	cardiopatía isquémica
+#12	AnnotatorNotes T19	C0151744; Myocardial Ischemia; Disease or Syndrome
+T20	PROC 1051 1062	Tratamiento
+#13	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	CHEM 1083 1093	tamoxifeno
+#14	AnnotatorNotes T21	C0039286; tamoxifen; Organic Chemical · Pharmacologic Substance
+T22	CHEM 1096 1106	raloxifeno
+#15	AnnotatorNotes T22	C0244404; raloxifene; Organic Chemical · Pharmacologic Substance
+T23	DISO 1112 1129	Enfermedad ocular
+#16	AnnotatorNotes T23	C0015397; Disorder of eye; Disease or Syndrome
+T24	DISO 1152 1163	maculopatía
+#17	AnnotatorNotes T24	C0730362; Disorder of macula of retina; Disease or Syndrome
+T25	DISO 1169 1191	Insuficiencia cardíaca
+#18	AnnotatorNotes T25	C0018801; Heart failure; Disease or Syndrome
+T26	DISO 1352 1358	cáncer
+#19	AnnotatorNotes T26	C0006826; Malignant Neoplasms; Neoplastic Process
+T27	ANAT 1368 1379	basocelular
+#20	AnnotatorNotes T27	C0596155; Basal Cell; Cell
+T28	DISO 1484 1590	enfermedad inmunológica, endocrina, hematológica, gastrointestinal, neurológica, neoplásica o psiquiátrica
+T29	CHEM 1829 1832	HCQ
+T30	PROC 1634 1640	tratar
+#21	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	PROC 1646 1657	Anticuerpos
+#22	AnnotatorNotes T31	C0201278; Antibody measurement; Laboratory Procedure
+T32	DISO 1719 1746	Enfermedad renal o hepática
+T33	ANAT 1738 1746	hepática
+#23	AnnotatorNotes T33	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T34	DISO 1796 1813	Hipersensibilidad
+#24	AnnotatorNotes T34	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T35	DISO 1816 1823	alergia
+#25	AnnotatorNotes T35	C1527304; Allergic Reaction; Pathologic Function
+T36	CHEM 143 160	hidroxicloroquina
+#26	AnnotatorNotes T36	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T37	PROC 789 804	PCR coronavirus
+#27	AnnotatorNotes T37	C5244035; SARS-CoV-2 PCR test; Laboratory Procedure | C5541700; PCR for SARS-CoV-2; Laboratory Procedure
+T38	PROC 843 856	PCR SARS Cov2
+#28	AnnotatorNotes T38	C5244035; SARS-CoV-2 PCR test; Laboratory Procedure | C5541700; PCR for SARS-CoV-2; Laboratory Procedure
+T39	CHEM 979 982	HCQ
+T40	ANAT 1123 1129	ocular
+#29	AnnotatorNotes T40	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T41	ANAT 1183 1191	cardíaca
+#30	AnnotatorNotes T41	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T42	PROC 1427 1451	consentimiento informado
+#31	AnnotatorNotes T42	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T43	DISO 1676 1712	virus de la inmunodeficiencia humana
+T44	ANAT 1730 1735	renal
+#32	AnnotatorNotes T44	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T45	CHEM 1893 1896	HCQ
+T46	Date 13 17	2020
+T47	LIVB 194 212	personal sanitario
+#33	AnnotatorNotes T47	C0018724; Health Personnel; Professional or Occupational Group | C1704312; Health Professional; Professional or Occupational Group
+T48	LIVB 238 248	Sanitarios
+#34	AnnotatorNotes T48	C0018724; Health Personnel; Professional or Occupational Group | C1704312; Health Professional; Professional or Occupational Group
+T49	Neg_cue 249 252	sin
+T50	LIVB 365 386	Profesional sanitario
+#35	AnnotatorNotes T50	C0018724; Health Personnel; Professional or Occupational Group
+T51	Age 408 434	entre los 18 y los 65 años
+T52	Duration 670 693	las dos últimas semanas
+T53	Duration 704 726	las siguientes semanas
+T54	LIVB 793 804	coronavirus
+#36	AnnotatorNotes T54	C5203676; SARS-CoV-2; Virus
+T55	Neg_cue 857 865	negativa
+T56	Neg_cue 868 879	ausencia de
+T57	Date 913 919	actual
+T58	Date 1036 1044	reciente
+T59	Date 1072 1078	actual
+T61	Neg_cue 1360 1367	excepto
+T62	Duration 1384 1402	los últimos 5 años
+T63	Neg_cue 1409 1417	Negativa
+T65	Neg_cue 1630 1633	sin
+T67	PHYS 1769 1777	Embarazo
+#37	AnnotatorNotes T67	C0032961; Pregnancy; Organism Function
+T68	PHYS 1780 1789	lactancia
+#38	AnnotatorNotes T68	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T71	PHYS 1509 1518	endocrina
+#39	AnnotatorNotes T71	C1286097; Endocrine observable; Organ or Tissue Function
+T66	ANAT 1534 1550	gastrointestinal
+#40	AnnotatorNotes T66	C0012240; Gastrointestinal system; Body System
+T72	ANAT 1495 1507	inmunológica
+#41	AnnotatorNotes T72	C0020962; Immune system; Body System | C1305754; Entire immune system; Body System
+T69	LIVB 181 190	SARS CoV2
+#42	AnnotatorNotes T69	C5203676; SARS-CoV-2; Virus
+T73	LIVB 314 324	SARS-CoV-2
+#43	AnnotatorNotes T73	C5203676; SARS-CoV-2; Virus
+T74	LIVB 778 787	SARS CoV2
+#44	AnnotatorNotes T74	C5203676; SARS-CoV-2; Virus
+T75	LIVB 847 856	SARS Cov2
+#45	AnnotatorNotes T75	C5203676; SARS-CoV-2; Virus
+T60	DISO 1352 1358;1368 1379	cáncer basocelular
+#46	AnnotatorNotes T60	C0007117; Basal cell carcinoma; Neoplastic Process
+T64	PROC 1223 1282	clasificación de la Asociación de Cardiología de Nueva York
+#47	AnnotatorNotes T64	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T70	PROC 1284 1310	New York Heart Association
+#48	AnnotatorNotes T70	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T76	DISO 651 661	exposición
+#49	AnnotatorNotes T76	C0260339; Encounter due to contact with or exposure to communicable diseases; Finding [ICD-10: Z20]
+T77	Spec_cue 1457 1468	Indicios de
+T78	PROC 475 494	visita de selección
+#50	AnnotatorNotes T78	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T79	Quantifier_or_Qualifier 467 474	primera
+A1	Assertion T30 Negated
+A2	Assertion T7 Negated
+A3	Assertion T75 Negated
+A4	Assertion T14 Negated
+A5	Assertion T27 Negated
+A6	Assertion T60 Negated
+A7	Assertion T28 Speculated
+A8	Assertion T42 Negated
+A9	Status T10 History_of
+A10	Assertion T39 Contraindicated
+A11	Status T17 History_of
+A12	Status T19 History_of
+A13	Status T20 History_of
+A14	Status T21 History_of
+A15	Status T22 History_of
+A16	Status T23 History_of
+A17	Status T24 History_of
+A18	Status T25 History_of
+A19	Status T34 History_of
+A20	Status T35 History_of
+A21	Assertion T45 Contraindicated
+A22	Status T18 History_of
+#52	AnnotatorNotes T1	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#53	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#54	AnnotatorNotes T4	C5203670; COVID19 (disease); Disease or Syndrome
+#55	AnnotatorNotes T7	C5203670; COVID19 (disease); Disease or Syndrome
+#56	AnnotatorNotes T11	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance 
+#57	AnnotatorNotes T39	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance 
+#58	AnnotatorNotes T43	C0458074; Human immunodeficiency virus (HIV) status; Finding
+#59	AnnotatorNotes T32	C0023895; Liver diseases; Disease or Syndrome + C0022658; Kidney Diseases; Disease or Syndrome
+#60	AnnotatorNotes T29	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+#61	AnnotatorNotes T45	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+#62	AnnotatorNotes T57	C0521116; Current (present time); Temporal Concept
+#63	AnnotatorNotes T59	C0521116; Current (present time); Temporal Concept
+#64	AnnotatorNotes T58	C0332185; Recent; Temporal Concept
+T80	DISO 1314 1328	QTc prolongado
+#51	AnnotatorNotes T80	C1560305; Prolonged QTc interval; Pathologic Function
+R1	Location_of Arg1:T41 Arg2:T25	
+T81	Result_or_Value 1202 1216	Grado III a IV
+R2	Has_Result_or_Value Arg1:T64 Arg2:T81	
+R3	Has_Result_or_Value Arg1:T70 Arg2:T81	
+R4	Negation Arg1:T61 Arg2:T60	
+R5	Location_of Arg1:T27 Arg2:T60	
+R6	Negation Arg1:T61 Arg2:T60	
+R7	Overlap Arg1:T26 Arg2:T62	
+R8	Negation Arg1:T63 Arg2:T42	
+#65	AnnotatorNotes T28	C0021053; Immune System Diseases; Disease or Syndrome | C0014130; Endocrine System Diseases; Disease or Syndrome | C0018939; Hematological Disease; Disease or Syndrome | C0017178; Gastrointestinal Diseases; Disease or Syndrome |   C0027765; nervous system disorder; Disease or Syndrome | C1882062; Neoplastic disease; Neoplastic Process | C0004936; Mental disorders; Mental or Behavioral Dysfunction
+R9	Speculation Arg1:T77 Arg2:T28	
+R10	Location_of Arg1:T72 Arg2:T28	
+R12	Location_of Arg1:T66 Arg2:T28	
+T82	Observation 1591 1600	inestable
+#66	AnnotatorNotes T82	C0443343; Unstable status; Finding
+R13	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T82	
+T83	Quantifier_or_Qualifier 1603 1629	clínicamente significativa
+R14	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T83	
+R15	Negation Arg1:T65 Arg2:T30	
+A23	Assertion T82 Speculated
+R16	Speculation Arg1:T77 Arg2:T82	
+R17	Speculation Arg1:T77 Arg2:T83	
+A24	Assertion T83 Speculated
+T84	Result_or_Value 1658 1667	positivos
+#67	AnnotatorNotes T84	C1446409; Positive; Finding
+R18	Has_Result_or_Value Arg1:T31 Arg2:T84	
+R20	Location_of Arg1:T44 Arg2:T32	
+R21	Location_of Arg1:T33 Arg2:T32	
+T85	Quantifier_or_Qualifier 1747 1761	significativas
+#68	AnnotatorNotes T85	C1546944; Event Seriousness - Significant; Qualitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T85	
+R23	Causes Arg1:T29 Arg2:T35	
+R24	Causes Arg1:T29 Arg2:T34	
+R25	Used_for Arg1:T36 Arg2:T3	
+R26	Before Arg1:T3 Arg2:T4	
+R27	Negation Arg1:T49 Arg2:T7	
+R28	Before Arg1:T3 Arg2:T7	
+R29	Experiences Arg1:T47 Arg2:T3	
+R34	Experiences Arg1:T48 Arg2:T3	
+R35	Causes Arg1:T69 Arg2:T4	
+R36	Causes Arg1:T73 Arg2:T6	
+R37	Causes Arg1:T73 Arg2:T5	
+R38	Has_Age Arg1:T50 Arg2:T51	
+R39	Overlap Arg1:T51 Arg2:T78	
+R40	Has_Quantifier_or_Qualifier Arg1:T78 Arg2:T79	
+T86	Observation 577 601	cumplir con el protocolo
+#69	AnnotatorNotes T86	C2364172; Adherence To Medication Regime; Finding (?)
+R41	Before Arg1:T9 Arg2:T86	
+R42	Causes Arg1:T74 Arg2:T10	
+R43	Negation Arg1:T55 Arg2:T75	
+T87	Result_or_Value 805 813	positiva
+#70	AnnotatorNotes T87	C1446409; Positive; Finding
+R44	Has_Result_or_Value Arg1:T37 Arg2:T87	
+T88	Result_or_Value 830 838	positiva
+#71	AnnotatorNotes T88	C1446409; Positive; Finding
+R45	Has_Result_or_Value Arg1:T12 Arg2:T88	
+#72	AnnotatorNotes T12	C0236416; Serum IgG Test; Laboratory Procedure
+R46	Causes Arg1:T54 Arg2:T87	
+R47	Causes Arg1:T54 Arg2:T88	
+R48	Overlap Arg1:T12 Arg2:T38	
+R49	Negation Arg1:T56 Arg2:T14	
+R50	Overlap Arg1:T12 Arg2:T14	
+R51	Causes Arg1:T75 Arg2:T87	
+R52	Causes Arg1:T75 Arg2:T88	
+R53	Overlap Arg1:T38 Arg2:T14	
+R54	Used_for Arg1:T11 Arg2:T15	
+R55	Used_for Arg1:T16 Arg2:T15	
+R56	Overlap Arg1:T11 Arg2:T57	
+R57	Overlap Arg1:T16 Arg2:T57	
+R58	Overlap Arg1:T19 Arg2:T58	
+R59	Used_for Arg1:T21 Arg2:T20	
+R60	Used_for Arg1:T22 Arg2:T20	
+R61	Overlap Arg1:T21 Arg2:T59	
+R62	Overlap Arg1:T22 Arg2:T59	
+R63	Location_of Arg1:T40 Arg2:T23	
+R64	Location_of Arg1:T40 Arg2:T24	
+R30	Has_Duration_or_Interval Arg1:T76 Arg2:T52	
+R32	Has_Duration_or_Interval Arg1:T76 Arg2:T53	
+#73	AnnotatorNotes T83	C5209294; Clinical relevance; Intellectual Product
+R31	Experiences Arg1:T47 Arg2:T4	
+R33	Experiences Arg1:T47 Arg2:T7	
+R67	Experiences Arg1:T48 Arg2:T4	
+R68	Experiences Arg1:T48 Arg2:T7	
+R69	Causes Arg1:T69 Arg2:T7	
+#74	AnnotatorNotes T79	C0205435; First (number); Quantitative Concept
+R11	Causes Arg1:T43 Arg2:T84	
+#75	AnnotatorNotes T10	C5397139; History of SARS-CoV-2; Finding
+A25	Experiencer T47 Patient
+A26	Experiencer T48 Patient
+A27	Experiencer T73 Patient
+A28	Experiencer T50 Patient
+T89	Result_or_Value 857 865	negativa
+R19	Has_Result_or_Value Arg1:T38 Arg2:T89	

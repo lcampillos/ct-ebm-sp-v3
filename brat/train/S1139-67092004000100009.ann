@@ -1,0 +1,287 @@
+T1	PROC 1 15	Estudio piloto
+#1	AnnotatorNotes T1	C0031928; Pilot Projects; Research Activity
+T2	DISO 112 144	diarrea causada por C. difficile
+#2	AnnotatorNotes T2	C0235952; Clostridium difficile diarrhea; Disease or Syndrome
+T3	DISO 149 193	infección de colon por Clostridium difficile
+#3	AnnotatorNotes T3	C0494025; Intestinal infection due to clostridium difficile; Disease or Syndrome
+T4	DISO 207 231	colitis pseudomembranosa
+#4	AnnotatorNotes T4	C0238106; Clostridium difficile colitis; Disease or Syndrome | C1257843; pseudomembranous colitis; Disease or Syndrome
+T5	DISO 240 252	complicación
+#5	AnnotatorNotes T5	C0009566; Complication; Pathologic Function
+T6	PROC 270 278	terapias
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	PROC 53 88	aporte suplementario de probióticos
+#7	AnnotatorNotes T7	C2242626; Probiotic therapy; Therapeutic or Preventive Procedure
+T8	PROC 410 418	prevenir
+#8	AnnotatorNotes T8	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T9	DISO 439 465	infección por C. difficile
+#9	AnnotatorNotes T9	C0343386; Clostridium difficile infection; Disease or Syndrome
+T10	PROC 473 525	estudio de doble ciego con control mediante placebos
+#10	AnnotatorNotes T10	C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+T11	PROC 717 735	escogieron al azar
+#11	AnnotatorNotes T11	C0034656; Randomization; Research Activity
+T12	PROC 999 1012	muestra fecal
+#12	AnnotatorNotes T12	C0455051; Collection of stool specimen; Health Care Activity
+T13	PROC 590 600	prevención
+#13	AnnotatorNotes T13	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T14	PROC 687 694	terapia
+#14	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 775 782	terapia
+#15	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 915 922	placebo
+#16	AnnotatorNotes T16	C0032042; Placebos; Therapeutic or Preventive Procedure
+T17	PROC 932 952	ingreso hospitalario
+#17	AnnotatorNotes T17	C0184666; Hospital admission; Health Care Activity
+T18	ANAT 974 984	intestinal
+#18	AnnotatorNotes T18	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T19	ANAT 1007 1012	fecal
+#19	AnnotatorNotes T19	C0015733; Feces; Body Substance
+T20	PROC 1033 1040	placebo
+#20	AnnotatorNotes T20	C0032042; Placebos; Therapeutic or Preventive Procedure
+T21	PROC 1085 1096	tratamiento
+#21	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	ANAT 1148 1153	heces
+#22	AnnotatorNotes T22	C0015733; Feces; Body Substance
+T23	DISO 1177 1184	diarrea
+#23	AnnotatorNotes T23	C0011991; Diarrhea; Sign or Symptom
+T24	PROC 1196 1211	hospitalización
+#24	AnnotatorNotes T24	C0019993; Hospitalization; Health Care Activity
+T25	PROC 1222 1233	alta médica
+#25	AnnotatorNotes T25	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T26	PROC 1295 1303	tratados
+#26	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	DISO 1401 1408	diarrea
+#27	AnnotatorNotes T27	C0011991; Diarrhea; Sign or Symptom
+T28	CHEM 1460 1490	toxina asociada a C. difficile
+#28	AnnotatorNotes T28	C0314765; Clostridium difficile toxin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Hazardous or Poisonous Substance
+T29	CHEM 699 711	antibióticos
+#29	AnnotatorNotes T29	C0003232; Antibiotics; Antibiotic
+T30	PROC 1503 1526	tratado con probióticos
+#30	AnnotatorNotes T30	C2242626; Probiotic therapy; Therapeutic or Preventive Procedure
+T32	DISO 1691 1698	diarrea
+#31	AnnotatorNotes T32	C0011991; Diarrhea; Sign or Symptom
+T33	CHEM 1774 1780	toxina
+#32	AnnotatorNotes T33	C0040549; Toxin; Biologically Active Substance · Hazardous or Poisonous Substance
+T34	PROC 820 834	aleatoriamente
+#33	AnnotatorNotes T34	C0034656; Randomization; Research Activity
+T35	ANAT 162 167	colon
+#34	AnnotatorNotes T35	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T36	PROC 1137 1153	muestra de heces
+#35	AnnotatorNotes T36	C0455051; Collection of stool specimen; Health Care Activity
+T37	PROC 554 583	administración de probióticos
+#36	AnnotatorNotes T37	C2242626; Probiotic therapy; Therapeutic or Preventive Procedure
+T38	DISO 604 635	diarrea asociada a C. difficile
+#37	AnnotatorNotes T38	C0235952; Clostridium difficile diarrhea; Disease or Syndrome
+T39	CHEM 283 295	antibióticos
+#38	AnnotatorNotes T39	C0003232; Antibiotics; Antibiotic
+T40	PHYS 966 984	régimen intestinal
+T41	CHEM 1101 1113	antibióticos
+#39	AnnotatorNotes T41	C0003232; Antibiotics; Antibiotic
+T42	CHEM 1308 1320	antibióticos
+#40	AnnotatorNotes T42	C0003232; Antibiotics; Antibiotic
+T43	CHEM 1354 1366	antibióticos
+#41	AnnotatorNotes T43	C0003232; Antibiotics; Antibiotic
+T44	CHEM 787 799	antibióticos
+#42	AnnotatorNotes T44	C0003232; Antibiotics; Antibiotic
+T45	PROC 1725 1749	tratados con probióticos
+#43	AnnotatorNotes T45	C2242626; Probiotic therapy; Therapeutic or Preventive Procedure
+T46	PROC 1818 1837	tratado con placebo
+#44	AnnotatorNotes T46	C3897898; Placebo Administration; Therapeutic or Preventive Procedure
+T47	DISO 637 641	CDAD
+#45	AnnotatorNotes T47	C0235952; Clostridium difficile diarrhea; Disease or Syndrome
+T48	PROC 1433 1441	muestras
+#46	AnnotatorNotes T48	C0455051; Collection of stool specimen; Health Care Activity
+T49	ANAT 1628 1636	muestras
+#47	AnnotatorNotes T49	C2347026; Biospecimen; Body Substance
+T50	PROC 1614 1636	se analizaron muestras
+#48	AnnotatorNotes T50	C1303103; Sample analysis; Laboratory Procedure
+T51	LIVB 19 40	Clostridium difficile
+#49	AnnotatorNotes T51	C0079134; Clostridium difficile; Bacterium
+T52	LIVB 77 88	probióticos
+#50	AnnotatorNotes T52	C0525033; Probiotics; Bacterium
+T53	LIVB 172 193	Clostridium difficile
+#51	AnnotatorNotes T53	C0079134; Clostridium difficile; Bacterium
+T54	LIVB 314 342	pacientes de la tercera edad
+#52	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group + C0001792; Elderly (population group); Population Group
+T55	Age 330 342	tercera edad
+T57	LIVB 367 388	bacterias probióticas
+#53	AnnotatorNotes T57	C0525033; Probiotics; Bacterium
+T59	Spec_cue 402 409	podrían
+T60	LIVB 572 583	probióticos
+#54	AnnotatorNotes T60	C0525033; Probiotics; Bacterium
+T61	LIVB 646 674	pacientes de la tercera edad
+#55	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group + C0001792; Elderly (population group); Population Group
+T62	Age 662 674	tercera edad
+T63	LIVB 740 749	pacientes
+#56	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	Duration 843 850	20 días
+T65	LIVB 854 864	probiótico
+#57	AnnotatorNotes T65	C0525033; Probiotics; Bacterium
+T66	LIVB 878 891	Lactobacillus
+#58	AnnotatorNotes T66	C0022938; Lactobacillus; Bacterium
+T67	LIVB 894 909	Bifidobacterium
+#59	AnnotatorNotes T67	C0005380; Bifidobacterium; Bacterium
+T68	LIVB 1017 1027	probiótico
+#60	AnnotatorNotes T68	C0525033; Probiotics; Bacterium
+T69	Duration 1063 1080	las 72 h primeras
+T70	LIVB 1243 1252	pacientes
+#61	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T71	LIVB 1323 1334	probióticos
+#62	AnnotatorNotes T71	C0525033; Probiotics; Bacterium
+T72	LIVB 1378 1387	pacientes
+#63	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T73	LIVB 1515 1526	probióticos
+#64	AnnotatorNotes T73	C0525033; Probiotics; Bacterium
+T74	LIVB 1572 1585	grupo control
+#65	AnnotatorNotes T74	C0009932; Control Groups; Group
+T75	LIVB 1650 1659	pacientes
+#66	AnnotatorNotes T75	C0030705; Patients; Patient or Disabled Group
+T77	LIVB 1715 1724	pacientes
+#67	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	LIVB 1738 1749	probióticos
+#68	AnnotatorNotes T78	C0525033; Probiotics; Bacterium
+T79	LIVB 132 144	C. difficile
+#69	AnnotatorNotes T79	C0079134; Clostridium difficile; Bacterium
+T56	LIVB 453 465	C. difficile
+#70	AnnotatorNotes T56	C0079134; Clostridium difficile; Bacterium
+T58	LIVB 623 635	C. difficile
+#71	AnnotatorNotes T58	C0079134; Clostridium difficile; Bacterium
+T76	Spec_cue 350 358	sugerido
+T31	PROC 1586 1605	tratado con placebo
+#72	AnnotatorNotes T31	C3897898; Placebo Administration; Therapeutic or Preventive Procedure
+A1	Population_data T54 Age
+A2	Assertion T8 Speculated
+A3	Population_data T61 Age
+A4	Assertion T57 Speculated
+T80	Neg_cue 389 391	no
+T81	Quantifier_or_Qualifier 392 401	patógenas
+A5	Assertion T81 Negated
+R1	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T81	
+R2	Negation Arg1:T80 Arg2:T81	
+R3	Used_for Arg1:T52 Arg2:T7	
+R4	Causes Arg1:T79 Arg2:T2	
+R5	Location_of Arg1:T18 Arg2:T40	
+R6	Location_of Arg1:T35 Arg2:T3	
+R7	Causes Arg1:T53 Arg2:T3	
+R8	Causes Arg1:T3 Arg2:T4	
+R9	Used_for Arg1:T39 Arg2:T6	
+R11	Overlap Arg1:T3 Arg2:T6	
+R12	Has_Age Arg1:T54 Arg2:T55	
+R13	Experiences Arg1:T54 Arg2:T6	
+R14	Experiences Arg1:T54 Arg2:T5	
+R15	Experiences Arg1:T54 Arg2:T4	
+R16	Experiences Arg1:T54 Arg2:T3	
+R17	Speculation Arg1:T76 Arg2:T57	
+R18	Speculation Arg1:T59 Arg2:T8	
+R19	Experiences Arg1:T56 Arg2:T9	
+R20	Before Arg1:T8 Arg2:T9	
+R21	Used_for Arg1:T60 Arg2:T37	
+R22	Before Arg1:T13 Arg2:T38	
+R25	Causes Arg1:T58 Arg2:T38	
+R26	Causes Arg1:T58 Arg2:T47	
+R27	Has_Age Arg1:T61 Arg2:T62	
+R28	Experiences Arg1:T61 Arg2:T47	
+R29	Experiences Arg1:T61 Arg2:T38	
+R30	Experiences Arg1:T61 Arg2:T37	
+R31	Experiences Arg1:T61 Arg2:T14	
+R32	Used_for Arg1:T29 Arg2:T14	
+R35	Before Arg1:T14 Arg2:T37	
+T82	Quantifier_or_Qualifier 750 762	consecutivos
+#73	AnnotatorNotes T82	C1707491; Consecutive; Qualitative Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T82	
+R37	Used_for Arg1:T44 Arg2:T15	
+R38	Before Arg1:T11 Arg2:T65	
+R39	Before Arg1:T11 Arg2:T66	
+R40	Before Arg1:T11 Arg2:T67	
+R41	Before Arg1:T11 Arg2:T16	
+R42	Has_Duration_or_Interval Arg1:T65 Arg2:T64	
+R43	Has_Duration_or_Interval Arg1:T66 Arg2:T64	
+R44	Has_Duration_or_Interval Arg1:T67 Arg2:T64	
+R45	Has_Duration_or_Interval Arg1:T16 Arg2:T64	
+R46	Experiences Arg1:T63 Arg2:T15	
+R47	Before Arg1:T34 Arg2:T65	
+R48	Before Arg1:T34 Arg2:T66	
+R49	Before Arg1:T34 Arg2:T67	
+R50	Before Arg1:T34 Arg2:T16	
+R51	Before Arg1:T15 Arg2:T11	
+R52	Before Arg1:T15 Arg2:T34	
+R53	Experiences Arg1:T63 Arg2:T16	
+R54	Before Arg1:T17 Arg2:T84	
+R55	Before Arg1:T17 Arg2:T12	
+R56	Has_Duration_or_Interval Arg1:T68 Arg2:T69	
+R57	Has_Duration_or_Interval Arg1:T20 Arg2:T69	
+R58	Used_for Arg1:T41 Arg2:T21	
+R59	Overlap Arg1:T68 Arg2:T21	
+R60	Overlap Arg1:T20 Arg2:T21	
+T83	Quantifier_or_Qualifier 1129 1136	segunda
+R61	Overlap Arg1:T83 Arg2:T36	
+R62	Before Arg1:T68 Arg2:T36	
+R63	Before Arg1:T20 Arg2:T36	
+R65	Overlap Arg1:T23 Arg2:T24	
+R66	After Arg1:T23 Arg2:T25	
+R67	Before Arg1:T68 Arg2:T23	
+R68	Before Arg1:T68 Arg2:T24	
+R69	Before Arg1:T68 Arg2:T25	
+R70	Before Arg1:T21 Arg2:T36	
+R71	Before Arg1:T21 Arg2:T23	
+R72	Before Arg1:T21 Arg2:T24	
+R73	Before Arg1:T21 Arg2:T25	
+#74	AnnotatorNotes T40	C0011135; Defecation; Organism Function
+T84	PROC 957 984	anotó su régimen intestinal
+#75	AnnotatorNotes T84	C0513008; Monitor bowel habits; Therapeutic or Preventive Procedure
+T85	Observation 1268 1290	completaron el estudio
+#76	AnnotatorNotes T85	C2732579; Completion of clinical trial; Finding
+R75	Experiences Arg1:T70 Arg2:T26	
+R76	Used_for Arg1:T42 Arg2:T26	
+T86	Quantifier_or_Qualifier 1340 1349	solamente
+R78	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T86	
+R79	Experiences Arg1:T70 Arg2:T43	
+R80	Experiences Arg1:T72 Arg2:T27	
+R81	Experiences Arg1:T72 Arg2:T48	
+T87	Result_or_Value 1442 1451	positivas
+#77	AnnotatorNotes T87	C1446409; Positive; Finding
+R83	Has_Result_or_Value Arg1:T48 Arg2:T87	
+R84	Causes Arg1:T28 Arg2:T87	
+R85	Used_for Arg1:T73 Arg2:T30	
+R86	Experiences Arg1:T72 Arg2:T30	
+R87	Experiences Arg1:T74 Arg2:T31	
+R89	Experiences Arg1:T74 Arg2:T48	
+R90	Experiences Arg1:T74 Arg2:T27	
+R91	Experiences Arg1:T75 Arg2:T32	
+R92	Experiences Arg1:T77 Arg2:T45	
+R93	Used_for Arg1:T78 Arg2:T45	
+T88	Result_or_Value 1757 1765	positivo
+#78	AnnotatorNotes T88	C1446409; Positive; Finding
+R95	Causes Arg1:T33 Arg2:T88	
+R96	Experiences Arg1:T75 Arg2:T45	
+R98	Experiences Arg1:T77 Arg2:T46	
+R99	Experiences Arg1:T75 Arg2:T46	
+R100	Before Arg1:T45 Arg2:T50	
+R101	Before Arg1:T46 Arg2:T50	
+R102	Before Arg1:T30 Arg2:T48	
+R105	Before Arg1:T31 Arg2:T48	
+R106	Causes Arg1:T51 Arg2:T2	
+T89	Observation 42 48	efecto
+#79	AnnotatorNotes T89	C0235735; Unexpected therapeutic effect; Finding (?)
+R107	Causes Arg1:T7 Arg2:T89	
+R108	Overlap Arg1:T15 Arg2:T65	
+R109	Overlap Arg1:T15 Arg2:T66	
+R110	Overlap Arg1:T15 Arg2:T67	
+R111	Overlap Arg1:T15 Arg2:T16	
+R112	Combined_with Arg1:T42 Arg2:T71	
+R77	Used_for Arg1:T57 Arg2:T8	
+R23	Used_for Arg1:T60 Arg2:T13	
+#80	AnnotatorNotes T83	C0205436; second (number); Quantitative Concept
+R10	Overlap Arg1:T36 Arg2:T23	
+R24	Before Arg1:T30 Arg2:T27	
+R33	Before Arg1:T45 Arg2:T32	
+R34	Before Arg1:T46 Arg2:T32	
+#81	AnnotatorNotes T86	C0205171; Singular; Quantitative Concept
+A6	Experiencer T75 Patient
+A7	Experiencer T74 Patient
+A8	Experiencer T77 Patient
+A9	Experiencer T54 Patient
+A10	Experiencer T61 Patient
+A11	Experiencer T63 Patient
+A12	Experiencer T70 Patient
+A13	Experiencer T72 Patient

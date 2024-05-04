@@ -1,0 +1,166 @@
+T1	PROC 46 120	Estudio aleatorizado, intraindividual, doble ciego, controlado con placebo
+T2	PROC 126 157	valorar la eficacia y seguridad
+#1	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T3	CHEM 185 197	ciclosporina
+#2	AnnotatorNotes T3	C0010592; cyclosporine; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T4	PROC 237 255	tratamiento tópico
+#3	AnnotatorNotes T4	C0001566; Administration, Topical; Therapeutic or Preventive Procedure
+T5	DISO 260 287	liquen plano en mucosa oral
+T6	ANAT 276 287	mucosa oral
+#4	AnnotatorNotes T6	C0026639; Oral mucous membrane structure; Body Part, Organ, or Organ Component
+T7	DISO 312 339	liquen plano en mucosa oral
+T8	ANAT 328 339	mucosa oral
+#5	AnnotatorNotes T8	C0026639; Oral mucous membrane structure; Body Part, Organ, or Organ Component
+T9	PROC 379 393	diagnosticados
+#6	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	DISO 397 414	liquen de mucosas
+T11	ANAT 407 414	mucosas
+#7	AnnotatorNotes T11	C0026724; Mucous Membrane; Tissue | C1284117; Entire mucous membrane; Tissue
+T12	DISO 446 469	Lesiones en mucosa oral
+T13	ANAT 458 469	mucosa oral
+#8	AnnotatorNotes T13	C0026639; Oral mucous membrane structure; Body Part, Organ, or Organ Component
+T14	PROC 517 536	Diagnóstico clínico
+#9	AnnotatorNotes T14	C0332140; Diagnosis, clinical; Diagnostic Procedure
+T15	ANAT 554 565	mucosa oral
+#10	AnnotatorNotes T15	C0026639; Oral mucous membrane structure; Body Part, Organ, or Organ Component
+T16	ANAT 569 581	mucosa yugal
+#11	AnnotatorNotes T16	C1280540; Entire buccal mucosa; Tissue
+T17	ANAT 597 603	mucosa
+#12	AnnotatorNotes T17	C0026724; Mucous Membrane; Tissue | C1284117; Entire mucous membrane; Tissue
+T18	ANAT 611 627	arcadas dentales
+#13	AnnotatorNotes T18	C1280374; Entire dental arch; Body Part, Organ, or Organ Component
+T19	ANAT 629 635	encías
+#14	AnnotatorNotes T19	C0017562; Gingiva; Tissue | C1278912; Entire gingiva; Body Part, Organ, or Organ Component
+T20	ANAT 642 655	mucosa labial
+#15	AnnotatorNotes T20	C0226927; Structure of mucous membrane of lip; Body Part, Organ, or Organ Component
+T21	ANAT 740 747	lingual
+#16	AnnotatorNotes T21	C2349948; Lingual - Oral site descriptor; Body Location or Region
+T22	PROC 860 874	consentimiento
+#17	AnnotatorNotes T22	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T23	PROC 1010 1024	ensayo clínico
+#18	AnnotatorNotes T23	C0008976; Clinical Trials; Research Activity
+T24	PROC 1063 1070	biopsia
+#19	AnnotatorNotes T24	C0005558; Biopsy; Diagnostic Procedure
+T25	PROC 1100 1107	biopsia
+#20	AnnotatorNotes T25	C0005558; Biopsy; Diagnostic Procedure
+T26	PROC 1185 1196	diagnóstico
+#21	AnnotatorNotes T26	C0011900; Diagnosis; Diagnostic Procedure
+T27	DISO 1225 1239	Liquen erosivo
+#22	AnnotatorNotes T27	C0406378; Erosive oral lichen planus; Disease or Syndrome
+T28	DISO 1259 1282	carcinoma espinocelular
+#23	AnnotatorNotes T28	C0007137; Squamous cell carcinoma; Neoplastic Process | C1168311; Spinocellular carcinoma; Neoplastic Process
+T29	DISO 1284 1290	atipia
+#24	AnnotatorNotes T29	C0741302; atypia morphology; Finding
+T30	DISO 1293 1302	displasia
+#25	AnnotatorNotes T30	C0334044; Dysplasia; Pathologic Function
+T31	DISO 1343 1372	Enfermedad grave concomitante
+T32	PROC 1432 1443	tratamiento
+#26	AnnotatorNotes T32	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T33	ANAT 586 592	lengua
+#27	AnnotatorNotes T33	C0040408; Tongue; Body Part, Organ, or Organ Component | C1278913; Entire tongue; Body Part, Organ, or Organ Component
+T34	DISO 1374 1392	proceso oncológico
+T35	ANAT 1269 1282	espinocelular
+#28	AnnotatorNotes T35	C1181285; Prickle cell of epidermis; Cell
+T36	Date 13 17	2017
+T37	Form 164 167	gel
+#29	AnnotatorNotes T37	C0017243; Gel; Biomedical or Dental Material
+T38	Route 249 255	tópico
+#30	AnnotatorNotes T38	C1522168; Topical Route of Drug Administration; Functional Concept
+T41	LIVB 369 378	Pacientes
+#31	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 755 763	paciente
+#32	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Age 777 799	igual o más de 18 años
+T46	LIVB 815 823	paciente
+#33	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 830 843	representante
+#34	AnnotatorNotes T47	C0030701; Patient Representatives; Professional or Occupational Group | C0600419; Patient Agent; Group | C1998038; Patient advocate (person); Population Group (?)
+T48	LIVB 912 920	paciente
+#35	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 942 954	investigador
+#36	AnnotatorNotes T49	C0035173; Research Personnel; Professional or Occupational Group
+T51	Duration 1124 1130	2 años
+T55	LIVB 1307 1326	Mujeres embarazadas
+#37	AnnotatorNotes T55	C0033011; Pregnant Women; Population Group
+T56	LIVB 1329 1338	lactantes
+#38	AnnotatorNotes T56	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T39	PHYS 1315 1326	embarazadas
+#43	AnnotatorNotes T39	C0032961; Pregnancy; Organism Function
+T40	PROC 1029 1053	Confirmación histológica
+#44	AnnotatorNotes T40	C0344441; Histology Procedure; Laboratory Procedure
+A1	Status T25 History_of
+A2	Status T28 History_of
+A3	Status T29 History_of
+A4	Status T30 History_of
+A5	Status T32 History_of
+#45	AnnotatorNotes T10	C5545303; Mucosal Lichen Planus; Disease or Syndrome 
+#46	AnnotatorNotes T12	C2673594; Oral mucosal lesions; Finding
+#47	AnnotatorNotes T5	C4510842; Nonerosive lichen planus of oral mucosa; Disease or Syndrome 
+#48	AnnotatorNotes T7	C4510842; Nonerosive lichen planus of oral mucosa; Disease or Syndrome 
+T42	Neg_cue 1134 1136	no
+T43	Observation 1147 1163	cambios clínicos
+A6	Assertion T43 Negated
+T50	Spec_cue 1164 1177	sugestivos de
+T52	Observation 1178 1196	cambio diagnóstico
+A7	Assertion T52 Speculated
+R1	Location_of Arg1:T35 Arg2:T28	
+R2	Before Arg1:T28 Arg2:T27	
+R3	Before Arg1:T29 Arg2:T27	
+R4	Before Arg1:T30 Arg2:T27	
+R5	Experiences Arg1:T55 Arg2:T39	
+#39	AnnotatorNotes T34	C0006826; Malignant Neoplasms; Neoplastic Process (?)
+T53	Observation 1397 1443	Incumplimiento de los criterios de tratamiento
+#40	AnnotatorNotes T53	C0184543; Noncompliance with therapeutic regimen; Finding (?)
+T54	Quantifier_or_Qualifier 1453 1465	concomitante
+#41	AnnotatorNotes T54	C0521115; Simultaneous; Temporal Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T54	
+R7	Has_Drug_Form Arg1:T3 Arg2:T37	
+T57	Quantifier_or_Qualifier 168 181	muco-adhesivo
+R8	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T57	
+R9	Used_for Arg1:T3 Arg2:T4	
+R10	Has_Route_or_Mode Arg1:T3 Arg2:T38	
+R11	Location_of Arg1:T6 Arg2:T5	
+R12	Location_of Arg1:T8 Arg2:T7	
+R13	Location_of Arg1:T11 Arg2:T10	
+R14	Experiences Arg1:T41 Arg2:T10	
+T58	Quantifier_or_Qualifier 425 434	reticular
+#42	AnnotatorNotes T58	C0439739; Reticular; Spatial Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T58	
+T59	Quantifier_or_Qualifier 437 444	erosiva
+#49	AnnotatorNotes T59	C0439679; Erosive; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T59	
+R17	Location_of Arg1:T13 Arg2:T12	
+T60	Observation 479 499	afectación simétrica
+R18	Location_of Arg1:T13 Arg2:T60	
+T61	Result_or_Value 500 515	mínima de 2 cm2
+R19	Has_Result_or_Value Arg1:T60 Arg2:T61	
+R20	Overlap Arg1:T12 Arg2:T60	
+T62	Observation 670 690	afectación simétrica
+T63	CONC 728 747	línea media lingual
+R21	Has_Age Arg1:T44 Arg2:T45	
+T64	Observation 880 904	participar en el estudio
+#50	AnnotatorNotes T64	C1278516; Patient participation status; Finding (?)
+R22	Before Arg1:T22 Arg2:T64	
+T65	Observation 960 1005	capaz de cumplir con todos los requerimientos
+R24	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T65	
+R26	Before Arg1:T24 Arg2:T40	
+R27	Before Arg1:T25 Arg2:T51	
+R28	Before Arg1:T25 Arg2:T40	
+R29	Negation Arg1:T42 Arg2:T43	
+R30	Speculation Arg1:T50 Arg2:T52	
+R31	Before Arg1:T24 Arg2:T26	
+R32	Before Arg1:T25 Arg2:T26	
+R33	After Arg1:T43 Arg2:T51	
+R34	After Arg1:T52 Arg2:T51	
+#51	AnnotatorNotes T60	C0332516; Symmetrical; Finding (?)
+#52	AnnotatorNotes T62	C0332516; Symmetrical; Finding (?)
+#53	AnnotatorNotes T31	C0243087; concomitant disease; Pathologic Function + C4740692; Severe disease; Finding
+#54	AnnotatorNotes T65	C0582783; Ability to comply with treatment; Finding (?)
+A8	Experiencer T41 Patient
+A9	Experiencer T44 Patient
+A10	Experiencer T46 Patient
+A11	Experiencer T47 Other
+A12	Experiencer T48 Patient
+A13	Experiencer T49 Other
+A14	Experiencer T56 Patient
+A15	Experiencer T55 Patient

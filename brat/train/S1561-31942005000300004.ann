@@ -1,0 +1,142 @@
+T1	CHEM 1 8	Morfina
+#1	AnnotatorNotes T1	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T2	PROC 25 42	operación cesárea
+#2	AnnotatorNotes T2	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T3	CHEM 48 56	opioides
+#3	AnnotatorNotes T3	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T4	CHEM 65 71	drogas
+#4	AnnotatorNotes T4	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T5	DISO 132 152	dolor postoperatorio
+#5	AnnotatorNotes T5	C0030201; Pain, Postoperative; Sign or Symptom
+T6	PROC 174 193	evaluar la eficacia
+#6	AnnotatorNotes T6	C1707887; Efficacy Study; Research Activity
+T7	CHEM 218 225	morfina
+#7	AnnotatorNotes T7	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T8	CHEM 248 258	analgésico
+#8	AnnotatorNotes T8	C0002771; Analgesics; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T9	PROC 312 350	ensayo clínico prospectivo y aleatorio
+#9	AnnotatorNotes T9	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T10	CHEM 628 637	Lidocaína
+#10	AnnotatorNotes T10	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T11	DISO 1080 1099	efectos indeseables
+#11	AnnotatorNotes T11	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T12	CHEM 753 761	opiáceos
+#12	AnnotatorNotes T12	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T13	CHEM 831 838	morfina
+#13	AnnotatorNotes T13	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T14	PROC 935 944	analgesia
+#14	AnnotatorNotes T14	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T15	DISO 1148 1166	depresión neonatal
+T16	DISO 1463 1481	efectos indeseados
+#15	AnnotatorNotes T16	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T17	PROC 1231 1249	rescate analgésico
+T18	PROC 200 214	administración
+#16	AnnotatorNotes T18	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T19	PROC 241 258	método analgésico
+#17	AnnotatorNotes T19	C0412784; Analgesic technique; Therapeutic or Preventive Procedure (?)
+T20	CHEM 715 731	anestésico local
+#18	AnnotatorNotes T20	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T21	PROC 1206 1215	analgesia
+T22	PROC 1417 1426	analgesia
+#19	AnnotatorNotes T22	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T23	PROC 276 286	cesáreadas
+#20	AnnotatorNotes T23	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T24	PROC 599 627	administró por vía peridural
+T25	Route 9 18	peridural
+#21	AnnotatorNotes T25	C1518975; Peridural Route of Drug Administration; Functional Concept
+T27	Time 138 152	postoperatorio
+#22	AnnotatorNotes T27	C0032790; Postoperative Period; Temporal Concept
+T28	Route 226 235	peridural
+#23	AnnotatorNotes T28	C1518975; Peridural Route of Drug Administration; Functional Concept
+T29	LIVB 266 275	pacientes
+#24	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 357 366	pacientes
+#25	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Date 550 564	enero del 2001
+T32	Date 567 581	enero del 2004
+T33	Route 614 627	vía peridural
+#26	AnnotatorNotes T33	C1518975; Peridural Route of Drug Administration; Functional Concept
+T34	Dose 638 644	al 2 %
+T35	Neg_cue 749 752	sin
+T37	Dose 812 816	1 mg
+T38	Dose 818 821	2mg
+T39	Dose 824 827	3mg
+T40	LIVB 963 972	pacientes
+#27	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T43	PHYS 1054 1067	hemodinámicos
+#28	AnnotatorNotes T43	C0019010; Hemodynamics; Organ or Tissue Function
+T44	LIVB 1106 1111	madre
+#29	AnnotatorNotes T44	C0026591; Mother (person); Family Group
+T45	Neg_cue 1133 1135	no
+T48	PHYS 1447 1460	hemodinámicos
+#30	AnnotatorNotes T48	C0019010; Hemodynamics; Organ or Tissue Function
+T26	PROC 391 394	ASA
+#31	AnnotatorNotes T26	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T36	LIVB 1158 1166	neonatal
+#32	AnnotatorNotes T36	C0021289; Infant, Newborn; Age Group
+A1	Assertion T12 Negated
+A2	Assertion T15 Negated
+R1	Negation Arg1:T35 Arg2:T12	
+R2	Negation Arg1:T45 Arg2:T15	
+R3	Has_Route_or_Mode Arg1:T1 Arg2:T25	
+R4	Used_for Arg1:T1 Arg2:T2	
+R5	Overlap Arg1:T5 Arg2:T27	
+T41	Observation 121 127	alivio
+#33	AnnotatorNotes T41	C0564405; Feeling relief; Finding
+R8	Causes Arg1:T4 Arg2:T41	
+R9	Causes Arg1:T3 Arg2:T41	
+R10	Overlap Arg1:T41 Arg2:T27	
+R11	Used_for Arg1:T7 Arg2:T18	
+R12	Has_Route_or_Mode Arg1:T7 Arg2:T28	
+R13	Used_for Arg1:T8 Arg2:T19	
+R14	Experiences Arg1:T29 Arg2:T18	
+R15	Experiences Arg1:T29 Arg2:T19	
+R16	Experiences Arg1:T29 Arg2:T23	
+R17	Before Arg1:T19 Arg2:T23	
+R18	Before Arg1:T18 Arg2:T23	
+R19	Experiences Arg1:T30 Arg2:T18	
+R20	Experiences Arg1:T30 Arg2:T19	
+R21	Experiences Arg1:T30 Arg2:T23	
+R22	Experiences Arg1:T30 Arg2:T26	
+R25	Before Arg1:T26 Arg2:T23	
+T42	Result_or_Value 395 401	I y II
+R26	Has_Result_or_Value Arg1:T26 Arg2:T42	
+R27	After Arg1:T9 Arg2:T31	
+R28	Before Arg1:T9 Arg2:T32	
+R29	Has_Route_or_Mode Arg1:T10 Arg2:T33	
+R30	Used_for Arg1:T10 Arg2:T24	
+R31	Has_Dose_or_Strength Arg1:T10 Arg2:T34	
+R32	Used_for Arg1:T20 Arg2:T24	
+R33	Used_for Arg1:T12 Arg2:T24	
+R34	Has_Dose_or_Strength Arg1:T13 Arg2:T39	
+R35	Has_Dose_or_Strength Arg1:T13 Arg2:T38	
+R36	Has_Dose_or_Strength Arg1:T13 Arg2:T37	
+R37	Used_for Arg1:T13 Arg2:T24	
+R38	Combined_with Arg1:T20 Arg2:T13	
+R39	Experiences Arg1:T40 Arg2:T14	
+T46	Observation 1046 1067	cambios hemodinámicos
+R40	Experiences Arg1:T44 Arg2:T11	
+R41	Experiences Arg1:T44 Arg2:T46	
+R42	Experiences Arg1:T44 Arg2:T43	
+R43	Experiences Arg1:T36 Arg2:T15	
+#34	AnnotatorNotes T15	C0235064; Neonatal respiratory depression; Pathologic Function (?)
+#35	AnnotatorNotes T21	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T47	Quantifier_or_Qualifier 1216 1225	sistémica
+#36	AnnotatorNotes T47	C0205373; Systemic; Functional Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T47	
+T49	Observation 1439 1460	cambios hemodinámicos
+R45	Causes Arg1:T22 Arg2:T49	
+R46	Causes Arg1:T22 Arg2:T16	
+T50	Quantifier_or_Qualifier 1431 1438	mínimos
+R47	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T50	
+R48	Overlap Arg1:T4 Arg2:T27	
+R49	Overlap Arg1:T3 Arg2:T27	
+R50	Experiences Arg1:T29 Arg2:T26	
+R6	Has_Route_or_Mode Arg1:T13 Arg2:T33	
+#37	AnnotatorNotes T50	C0547040; Minimal; Qualitative Concept
+#38	AnnotatorNotes T24	C0812144; Medication administration: epidural; Therapeutic or Preventive Procedure
+A3	Experiencer T40 Patient
+A4	Experiencer T29 Patient
+A5	Experiencer T30 Patient
+A6	Experiencer T44 Patient
+A7	Experiencer T36 Family_member

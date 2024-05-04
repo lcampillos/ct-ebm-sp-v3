@@ -1,0 +1,80 @@
+T1	PROC 49 63	ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 69 89	evaluar la seguridad
+#2	AnnotatorNotes T2	C1705187; Safety Study; Research Activity
+T3	CHEM 108 130	dicloruro de radio 223
+#3	AnnotatorNotes T3	C3541342; RADIUM CHLORIDE RA-223; Inorganic Chemical · Pharmacologic Substance
+T4	PROC 156 174	estudio en fase IV
+#4	AnnotatorNotes T4	C0282462; Phase 4 Clinical Trials; Research Activity
+T5	PROC 178 203	seguimiento a largo plazo
+#5	AnnotatorNotes T5	C1517942; Long-term Follow-up; Health Care Activity
+T6	CHEM 244 266	dicloruro de radio 223
+#6	AnnotatorNotes T6	C3541342; RADIUM CHLORIDE RA-223; Inorganic Chemical · Pharmacologic Substance
+T7	DISO 290 308	Cáncer de próstata
+#7	AnnotatorNotes T7	C0376358; Malignant neoplasm of prostate; Neoplastic Process
+T8	ANAT 326 330	ósea
+#8	AnnotatorNotes T8	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T9	DISO 371 389	cáncer de próstata
+#9	AnnotatorNotes T9	C0376358; Malignant neoplasm of prostate; Neoplastic Process
+T10	DISO 418 436	hormonorresistente
+#10	AnnotatorNotes T10	C0520983; Hormonal resistance; Finding
+T11	DISO 442 457	metástasis ósea
+#11	AnnotatorNotes T11	C0153690; Secondary malignant neoplasm of bone; Neoplastic Process
+T12	CHEM 629 651	dicloruro de radio 223
+#12	AnnotatorNotes T12	C3541342; RADIUM CHLORIDE RA-223; Inorganic Chemical · Pharmacologic Substance
+T13	PROC 654 661	placebo
+#13	AnnotatorNotes T13	C0032042; Placebos; Therapeutic or Preventive Procedure
+T14	DISO 313 330	diseminación ósea
+#14	AnnotatorNotes T14	C0153690; Secondary malignant neoplasm of bone; Neoplastic Process
+T15	PROC 691 727	Consentimiento informado por escrito
+#15	AnnotatorNotes T15	C0811741; Obtain informed written consent; Health Care Activity
+T16	ANAT 300 308	próstata
+#16	AnnotatorNotes T16	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T17	ANAT 381 389	próstata
+#17	AnnotatorNotes T17	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T18	PROC 406 416	castración
+#18	AnnotatorNotes T18	C0007344; Castration; Therapeutic or Preventive Procedure
+T19	ANAT 453 457	ósea
+#19	AnnotatorNotes T19	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T20	Date 13 17	2014
+T21	Date 90 103	a largo plazo
+T22	Date 190 203	a largo plazo
+T23	LIVB 357 366	Pacientes
+#20	AnnotatorNotes T23	C0030705; Patients; Patient or Disabled Group
+T24	LIVB 490 498	paciente
+#21	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	Dose 607 625	al menos una dosis
+A1	Status T12 History_of
+A2	Status T13 History_of
+T26	Neg_cue 755 757	No
+T27	CONC 762 784	criterios de exclusión
+A3	Assertion T27 Negated
+#22	AnnotatorNotes T27	C0680251; Exclusion Criteria; Functional Concept
+R1	Overlap Arg1:T2 Arg2:T21	
+R2	Overlap Arg1:T5 Arg2:T22	
+R3	Location_of Arg1:T16 Arg2:T7	
+R4	Location_of Arg1:T8 Arg2:T14	
+R5	Overlap Arg1:T7 Arg2:T14	
+R6	Experiences Arg1:T23 Arg2:T9	
+R7	Location_of Arg1:T17 Arg2:T9	
+R8	Location_of Arg1:T19 Arg2:T11	
+R9	Overlap Arg1:T9 Arg2:T11	
+T28	Observation 506 540	inscrito previamente en un estudio
+R11	Experiences Arg1:T24 Arg2:T12	
+R12	Has_Dose_or_Strength Arg1:T12 Arg2:T25	
+R13	Used_for Arg1:T12 Arg2:T13	
+R14	Negation Arg1:T26 Arg2:T27	
+R15	Overlap Arg1:T9 Arg2:T10	
+R16	Overlap Arg1:T10 Arg2:T11	
+T29	Observation 390 416	resistente a la castración
+#23	AnnotatorNotes T29	C4329620; Castration Resistance; Finding
+R17	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T29	
+R19	Experiences Arg1:T23 Arg2:T18	
+R20	Experiences Arg1:T23 Arg2:T29	
+R21	Experiences Arg1:T23 Arg2:T10	
+R22	Experiences Arg1:T23 Arg2:T11	
+#24	AnnotatorNotes T21	C0443252; Long-term; Temporal Concept
+#25	AnnotatorNotes T22	C0443252; Long-term; Temporal Concept
+A4	Experiencer T23 Patient
+A5	Experiencer T24 Patient
+A6	Status T28 History_of

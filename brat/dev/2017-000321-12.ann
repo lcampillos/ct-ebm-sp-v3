@@ -1,0 +1,104 @@
+T1	PROC 64 74	prevención
+#1	AnnotatorNotes T1	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T2	DISO 79 93	espasmo radial
+T3	CHEM 97 112	vasodilatadores
+#2	AnnotatorNotes T3	C0042402; Vasodilator Agents; Pharmacologic Substance
+T4	PROC 118 140	anestesia local tópica
+T5	PROC 182 192	prevención
+#3	AnnotatorNotes T5	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T6	DISO 197 211	espasmo radial
+T7	CHEM 226 241	vasodilatadores
+#4	AnnotatorNotes T7	C0042402; Vasodilator Agents; Pharmacologic Substance
+T8	PROC 247 269	anestesia local tópica
+T9	PROC 296 328	cateterismo cardiaco diagnóstico
+T10	DISO 370 384	Espasmo radial
+T11	ANAT 378 384	radial
+#5	AnnotatorNotes T11	C0034627; Bone structure of radius; Body Part, Organ, or Organ Component
+T12	PROC 408 431	cateterismo diagnóstico
+T13	PROC 488 512	consentimiento informado
+#6	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	PROC 516 539	Cateterismo diagnóstico
+T15	ANAT 573 579	radial
+#7	AnnotatorNotes T15	C0034627; Bone structure of radius; Body Part, Organ, or Organ Component
+T16	DISO 632 639	Alergia
+#8	AnnotatorNotes T16	C1527304; Allergic Reaction; Pathologic Function
+T17	CHEM 671 679	fármacos
+#9	AnnotatorNotes T17	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T18	PROC 808 832	consentimiento informado
+#10	AnnotatorNotes T18	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T19	PROC 850 870	anticoagulación oral
+#11	AnnotatorNotes T19	C0003281; Anticoagulation Therapy; Therapeutic or Preventive Procedure + C0001563; Administration, Oral; Therapeutic or Preventive Procedure | C1273553; Oral administration of treatment; Therapeutic or Preventive Procedure
+T20	ANAT 87 93	radial
+#12	AnnotatorNotes T20	C0034627; Bone structure of radius; Body Part, Organ, or Organ Component
+T21	DISO 642 654	intolerancia
+#13	AnnotatorNotes T21	C0277585; Intolerance to drug; Pathologic Function
+T22	ANAT 205 211	radial
+#14	AnnotatorNotes T22	C0034627; Bone structure of radius; Body Part, Organ, or Organ Component
+T23	ANAT 308 316	cardiaco
+#15	AnnotatorNotes T23	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T24	PROC 708 734	Tensión arterial sistólica
+#16	AnnotatorNotes T24	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T25	ANAT 716 724	arterial
+#17	AnnotatorNotes T25	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T26	Date 13 17	2017
+T27	Route 134 140	tópica
+#18	AnnotatorNotes T27	C1522168; Topical Route of Drug Administration; Functional Concept
+T28	Route 263 269	tópica
+#19	AnnotatorNotes T28	C1522168; Topical Route of Drug Administration; Functional Concept
+T29	Age 465 474	> 18 años
+T30	DEVI 583 594	Introductor
+#20	AnnotatorNotes T30	C1299426; Catheter sheath; Medical Device (?)
+T31	PHYS 708 724	Tensión arterial
+#21	AnnotatorNotes T31	C0005823; Blood Pressure; Organism Function
+T32	Neg_cue 754 770	Imposibilidad de
+T33	PHYS 771 782	comprensión
+#22	AnnotatorNotes T33	C0162340; Comprehension; Mental Process
+T34	LIVB 837 845	Paciente
+#23	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Route 866 870	oral
+#24	AnnotatorNotes T35	C1527415; Oral Route of Drug administration; Functional Concept
+A1	Assertion T33 Negated
+A2	Assertion T18 Negated
+A3	Status T21 History_of
+A4	Status T16 History_of
+#25	AnnotatorNotes T9	C2041518; diagnostic cardiac catheterization; Diagnostic Procedure 
+#26	AnnotatorNotes T12	C2041518; diagnostic cardiac catheterization; Diagnostic Procedure 
+#27	AnnotatorNotes T14	C2041518; diagnostic cardiac catheterization; Diagnostic Procedure 
+R1	Location_of Arg1:T20 Arg2:T2	
+R2	Location_of Arg1:T22 Arg2:T6	
+R3	Has_Route_or_Mode Arg1:T4 Arg2:T27	
+R4	Before Arg1:T1 Arg2:T2	
+R5	Before Arg1:T5 Arg2:T6	
+R6	Has_Route_or_Mode Arg1:T8 Arg2:T28	
+R7	Before Arg1:T8 Arg2:T9	
+R8	Before Arg1:T7 Arg2:T9	
+R9	Overlap Arg1:T6 Arg2:T9	
+R10	Location_of Arg1:T11 Arg2:T10	
+R11	Overlap Arg1:T10 Arg2:T12	
+R12	Location_of Arg1:T15 Arg2:T14	
+T36	Quantifier_or_Qualifier 540 548	electivo
+#28	AnnotatorNotes T36	C0439608; elective; Temporal Concept 
+R13	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T36	
+R14	Causes Arg1:T17 Arg2:T21	
+R15	Causes Arg1:T17 Arg2:T16	
+T37	Result_or_Value 741 750	< 90 mmHg
+R16	Has_Result_or_Value Arg1:T24 Arg2:T37	
+R18	Location_of Arg1:T25 Arg2:T31	
+R19	Location_of Arg1:T25 Arg2:T24	
+T38	Quantifier_or_Qualifier 735 740	basal
+#29	AnnotatorNotes T38	C1442488; Baseline; Quantitative Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T38	
+R21	Negation Arg1:T32 Arg2:T33	
+R22	Negation Arg1:T32 Arg2:T18	
+T39	PROC 787 794	estudio
+#30	AnnotatorNotes T39	C0008976; Clinical Trials; Research Activity
+R23	Overlap Arg1:T33 Arg2:T39	
+R24	Has_Route_or_Mode Arg1:T19 Arg2:T35	
+R25	Experiences Arg1:T34 Arg2:T19	
+R26	Used_for Arg1:T3 Arg2:T1	
+R27	Used_for Arg1:T4 Arg2:T1	
+R28	Used_for Arg1:T7 Arg2:T5	
+R29	Used_for Arg1:T8 Arg2:T5	
+#31	AnnotatorNotes T4	C0472473; Topical local anesthetic; Therapeutic or Preventive Procedure
+#32	AnnotatorNotes T8	C0472473; Topical local anesthetic; Therapeutic or Preventive Procedure
+A5	Experiencer T34 Patient

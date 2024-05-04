@@ -1,0 +1,137 @@
+T1	CHEM 46 57	vitamina D2
+#1	AnnotatorNotes T1	C0014695; ergocalciferol; Organic Chemical · Pharmacologic Substance · Vitamin
+T2	CHEM 60 71	vitamina D3
+#2	AnnotatorNotes T2	C0008318; cholecalciferol; Organic Chemical · Pharmacologic Substance · Vitamin | C3265062; vitamin D3; Organic Chemical · Pharmacologic Substance · Vitamin
+T3	CHEM 121 135	colecalciferol
+#3	AnnotatorNotes T3	C0008318; cholecalciferol; Organic Chemical · Pharmacologic Substance · Vitamin | C3265062; vitamin D3; Organic Chemical · Pharmacologic Substance · Vitamin
+T4	CHEM 137 139	D3
+#4	AnnotatorNotes T4	C0008318; cholecalciferol; Organic Chemical · Pharmacologic Substance · Vitamin | C3265062; vitamin D3; Organic Chemical · Pharmacologic Substance · Vitamin
+T5	CHEM 143 157	ergocalciferol
+#5	AnnotatorNotes T5	C0014695; ergocalciferol; Organic Chemical · Pharmacologic Substance · Vitamin
+T6	CHEM 159 161	D2
+#6	AnnotatorNotes T6	C0014695; ergocalciferol; Organic Chemical · Pharmacologic Substance · Vitamin
+T7	PHYS 454 469	posmenopáusicas
+#7	AnnotatorNotes T7	C0206159; Postmenopause; Organism Function
+T8	PROC 287 310	comparar la efectividad
+T9	CHEM 328 330	D2
+#8	AnnotatorNotes T9	C0014695; ergocalciferol; Organic Chemical · Pharmacologic Substance · Vitamin
+T10	CHEM 393 413	25 hidroxivitamina D
+#9	AnnotatorNotes T10	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T11	CHEM 341 343	D3
+#10	AnnotatorNotes T11	C0008318; cholecalciferol; Organic Chemical · Pharmacologic Substance · Vitamin | C3265062; vitamin D3; Organic Chemical · Pharmacologic Substance · Vitamin
+T12	PROC 1234 1250	niveles de 25OHD
+#11	AnnotatorNotes T12	C2984945; 25-Hydroxyvitamin D Measurement; Laboratory Procedure
+T13	PROC 569 597	asignadas en forma aleatoria
+#12	AnnotatorNotes T13	C0034656; Randomization; Research Activity
+T14	CHEM 706 711	25OHD
+#13	AnnotatorNotes T14	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T15	PROC 720 723	RIA
+#14	AnnotatorNotes T15	C0034580; Radioimmunoassay; Laboratory Procedure
+T16	CHEM 849 856	25(OH)D
+#15	AnnotatorNotes T16	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T17	ANAT 712 718	sérica
+#16	AnnotatorNotes T17	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T18	PROC 697 718	Se midió 25OHD sérica
+T19	CHEM 1073 1078	25OHD
+#17	AnnotatorNotes T19	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T20	CHEM 1177 1188	vitamina D3
+#18	AnnotatorNotes T20	C0008318; cholecalciferol; Organic Chemical · Pharmacologic Substance · Vitamin | C3265062; vitamin D3; Organic Chemical · Pharmacologic Substance · Vitamin
+T21	CHEM 1210 1212	D2
+#19	AnnotatorNotes T21	C0014695; ergocalciferol; Organic Chemical · Pharmacologic Substance · Vitamin
+T22	PROC 20 34	suplementación
+#20	AnnotatorNotes T22	C0242297; Dietary Supplementation; Therapeutic or Preventive Procedure
+T23	CHEM 415 420	25OHD
+#21	AnnotatorNotes T23	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T24	PROC 190 204	administración
+#22	AnnotatorNotes T24	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T25	CHEM 1245 1250	25OHD
+#23	AnnotatorNotes T25	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T26	CHEM 1321 1326	25OHD
+#24	AnnotatorNotes T26	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T27	DISO 834 856	deficiencia de 25(OH)D
+#25	AnnotatorNotes T27	C3279609; Low 25-OH-vitamin D level; Finding
+T28	PROC 1137 1151	administración
+#26	AnnotatorNotes T28	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T29	Frequency 35 41	diaria
+T30	LIVB 75 90	adultos mayores
+#27	AnnotatorNotes T30	C0001792; Elderly (population group); Population Group
+T31	Date 219 230	actualmente
+T32	Dose 314 320	800 UI
+T33	Frequency 320 324	/día
+T34	Form 332 337	gotas
+#28	AnnotatorNotes T34	C0015399; Eye Drops; Biomedical or Dental Material
+T35	Form 345 356	comprimidos
+#29	AnnotatorNotes T35	C0039225; Tablet Dosage Form; Biomedical or Dental Material
+T36	LIVB 446 453	mujeres
+#30	AnnotatorNotes T36	C0043210; Woman; Population Group
+T38	Age 534 549	77.1 ± 6.8 años
+T39	Dose 644 650	800 UI
+T40	Form 652 657	gotas
+#31	AnnotatorNotes T40	C0015399; Eye Drops; Biomedical or Dental Material
+T41	Dose 674 680	800 UI
+T42	Form 682 693	comprimidos
+#32	AnnotatorNotes T42	C0039225; Tablet Dosage Form; Biomedical or Dental Material
+T43	Duration 744 763	los 7, 28 y 45 días
+T44	LIVB 803 810	mujeres
+#33	AnnotatorNotes T44	C0043210; Woman; Population Group
+T45	Date 926 934	el día 7
+T47	Duration 1156 1163	45 días
+T48	Dose 1167 1173	800 UI
+A1	Population_data T30 Age
+T37	Neg_cue 1035 1038	sin
+T46	Observation 1052 1078	valores adecuados de 25OHD
+A2	Assertion T46 Negated
+R1	Negation Arg1:T37 Arg2:T46	
+R2	Has_Frequency Arg1:T1 Arg2:T29	
+R3	Has_Frequency Arg1:T2 Arg2:T29	
+R4	Experiences Arg1:T30 Arg2:T22	
+R5	Used_for Arg1:T1 Arg2:T22	
+R6	Used_for Arg1:T2 Arg2:T22	
+R7	Used_for Arg1:T3 Arg2:T24	
+R8	Used_for Arg1:T4 Arg2:T24	
+R9	Used_for Arg1:T5 Arg2:T24	
+R10	Used_for Arg1:T6 Arg2:T24	
+R11	Has_Dose_or_Strength Arg1:T9 Arg2:T32	
+R12	Has_Frequency Arg1:T9 Arg2:T33	
+R13	Has_Drug_Form Arg1:T9 Arg2:T34	
+R14	Has_Drug_Form Arg1:T11 Arg2:T35	
+R15	Has_Frequency Arg1:T11 Arg2:T33	
+R16	Has_Dose_or_Strength Arg1:T11 Arg2:T32	
+R17	Experiences Arg1:T36 Arg2:T7	
+R18	Has_Age Arg1:T36 Arg2:T38	
+R19	Location_of Arg1:T17 Arg2:T18	
+#34	AnnotatorNotes T18	C2984945; 25-Hydroxyvitamin D Measurement; Laboratory Procedure
+R20	Overlap Arg1:T18 Arg2:T43	
+R21	Overlap Arg1:T15 Arg2:T43	
+T49	Quantifier_or_Qualifier 734 739	basal
+#35	AnnotatorNotes T49	C1442488; Baseline; Quantitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T49	
+R23	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T49	
+R24	Experiences Arg1:T44 Arg2:T27	
+T50	CONC 778 788	Basalmente
+#36	AnnotatorNotes T50	C1442488; Baseline; Quantitative Concept
+R25	Overlap Arg1:T27 Arg2:T50	
+T51	CONC 938 948	incremento
+#37	AnnotatorNotes T51	C0442805; Increase; Functional Concept
+R26	Overlap Arg1:T51 Arg2:T45	
+T52	CONC 975 982	aumento
+#38	AnnotatorNotes T52	C0442805; Increase; Functional Concept
+T53	CONC 1000 1017	final del estudio
+R27	Overlap Arg1:T52 Arg2:T53	
+R28	Overlap Arg1:T46 Arg2:T53	
+R29	Overlap Arg1:T46 Arg2:T45	
+R30	Used_for Arg1:T20 Arg2:T28	
+R31	Has_Duration_or_Interval Arg1:T20 Arg2:T47	
+R32	Has_Dose_or_Strength Arg1:T20 Arg2:T48	
+R33	Used_for Arg1:T21 Arg2:T28	
+R34	Has_Duration_or_Interval Arg1:T21 Arg2:T47	
+R35	Has_Dose_or_Strength Arg1:T21 Arg2:T48	
+T54	Quantifier_or_Qualifier 983 996	significativo
+#39	AnnotatorNotes T54	C0750502; Significant; Idea or Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T54	
+#40	AnnotatorNotes T8	C1707887; Efficacy Study; Research Activity
+#41	AnnotatorNotes T53	C2983670; Study End Date; Temporal Concept
+#42	AnnotatorNotes T31	C0521116; Current (present time); Temporal Concept
+A3	Experiencer T30 Patient
+A4	Experiencer T36 Patient
+A5	Experiencer T44 Patient

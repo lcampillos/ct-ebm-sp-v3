@@ -1,0 +1,156 @@
+T1	PROC 44 75	Estudio maestro de continuación
+T2	PROC 1023 1030;1066 1071	estudio ciego
+#1	AnnotatorNotes T2	C2347038; Blinded Clinical Study; Research Activity
+T3	CHEM 145 153	Olaparib
+#2	AnnotatorNotes T3	C2316164; olaparib; Organic Chemical · Pharmacologic Substance
+T4	PROC 175 206	Estudio maestro de continuación
+T5	CHEM 276 284	Olaparib
+#3	AnnotatorNotes T5	C2316164; olaparib; Organic Chemical · Pharmacologic Substance
+T6	PROC 356 380	continuar el tratamiento
+#4	AnnotatorNotes T6	C2091305; continue current medication; Therapeutic or Preventive Procedure
+T7	DISO 403 419	Cáncer de ovario
+#5	AnnotatorNotes T7	C1140680; Malignant neoplasm of ovary; Neoplastic Process
+T8	DISO 459 475	cáncer de ovario
+#6	AnnotatorNotes T8	C1140680; Malignant neoplasm of ovary; Neoplastic Process
+T9	PROC 676 704	continuación del tratamiento
+#7	AnnotatorNotes T9	C2091305; continue current medication; Therapeutic or Preventive Procedure
+T10	PROC 548 572	Consentimiento Informado
+#8	AnnotatorNotes T10	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T11	CHEM 944 952	olaparib
+#9	AnnotatorNotes T11	C2316164; olaparib; Organic Chemical · Pharmacologic Substance
+T12	PROC 1007 1018	tratamiento
+#10	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	DISO 480 488	mutación
+T14	DISO 1142 1151	Toxicidad
+#11	AnnotatorNotes T14	C0600688; Toxic effect; Injury or Poisoning
+T15	PROC 1216 1244	interrupción del tratamiento
+#12	AnnotatorNotes T15	C0850893; stop medication; Therapeutic or Preventive Procedure
+T16	PROC 1301 1312	tratamiento
+#13	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	CHEM 1339 1350	medicamento
+#14	AnnotatorNotes T17	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T18	DISO 1565 1574	toxicidad
+#15	AnnotatorNotes T18	C0600688; Toxic effect; Injury or Poisoning
+T19	DISO 1577 1604	progresión de la enfermedad
+#16	AnnotatorNotes T19	C0242656; Disease Progression; Pathologic Function
+T20	CHEM 1653 1660	fármaco
+#17	AnnotatorNotes T20	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T21	ANAT 413 419	ovario
+#18	AnnotatorNotes T21	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T22	ANAT 469 475	ovario
+#19	AnnotatorNotes T22	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T23	CHEM 709 717	olaparib
+#20	AnnotatorNotes T23	C2316164; olaparib; Organic Chemical · Pharmacologic Substance
+T24	Date 12 16	2019
+T26	LIVB 79 88	pacientes
+#21	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 210 219	pacientes
+#22	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 294 306	investigador
+#23	AnnotatorNotes T29	C0035173; Research Personnel; Professional or Occupational Group
+T30	LIVB 445 454	Pacientes
+#24	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	GENE 492 496	BRCA
+#25	AnnotatorNotes T31	C0596223; brca gene; Gene or Genome
+T32	LIVB 528 536	paciente
+#26	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 610 622	investigador
+#27	AnnotatorNotes T33	C0035173; Research Personnel; Professional or Occupational Group
+T34	LIVB 627 635	paciente
+#28	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 861 869	paciente
+#29	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T37	Date 1178 1186	en curso
+T39	Date 1313 1324	actualmente
+T40	Date 1395 1406	actualmente
+T43	LIVB 1705 1713	paciente
+#30	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T25	PROC 1023 1030;1056 1063	estudio abierto
+#31	AnnotatorNotes T25	C1709323; Open Label Study; Research Activity
+T27	PROC 113 133	estudio en oncología
+#32	AnnotatorNotes T27	C1516640; Cancer Treatment Trial; Research Activity (?)
+T36	PROC 244 264	estudio en oncología
+#33	AnnotatorNotes T36	C1516640; Cancer Treatment Trial; Research Activity (?)
+T41	PROC 894 914	estudio en oncología
+#34	AnnotatorNotes T41	C1516640; Cancer Treatment Trial; Research Activity (?)
+T42	PROC 1423 1443	investigación médica
+#35	AnnotatorNotes T42	C0079816; Medical Research activity; Research Activity
+A1	Status T27 History_of
+A2	Status T36 History_of
+A3	Status T23 History_of
+A5	Status T11 History_of
+A6	Assertion T17 Contraindicated
+A4	Status T9 History_of
+A7	Status T25 History_of
+A8	Status T2 History_of
+#36	AnnotatorNotes T13	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#37	AnnotatorNotes T39	C0521116; Current (present time); Temporal Concept 
+#38	AnnotatorNotes T40	C0521116; Current (present time); Temporal Concept 
+T38	Observation 1191 1199	resuelta
+A9	Assertion T38 Negated
+#39	AnnotatorNotes T38	C1709863; Recovered or Resolved; Finding
+T44	Neg_cue 1188 1190	no
+T45	Neg_cue 1687 1690	sin
+T46	CONC 1691 1696	coste
+A10	Assertion T46 Negated
+#40	AnnotatorNotes T46	C0220812; Cost aspects; Functional Concept
+T47	Quantifier_or_Qualifier 1464 1474	compatible
+A11	Assertion T47 Negated
+T48	Neg_cue 1448 1450	no
+R1	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T47	
+R2	Negation Arg1:T48 Arg2:T47	
+R3	Negation Arg1:T45 Arg2:T46	
+R4	Negation Arg1:T44 Arg2:T38	
+R5	Experiences Arg1:T26 Arg2:T3	
+R6	Experiences Arg1:T28 Arg2:T5	
+T49	Observation 327 352	beneficiarse clínicamente
+R7	Causes Arg1:T6 Arg2:T49	
+R8	Used_for Arg1:T5 Arg2:T6	
+R9	Experiences Arg1:T28 Arg2:T49	
+R10	Location_of Arg1:T21 Arg2:T7	
+R11	Location_of Arg1:T22 Arg2:T8	
+R12	Experiences Arg1:T30 Arg2:T8	
+R13	Location_of Arg1:T31 Arg2:T13	
+R14	Overlap Arg1:T8 Arg2:T13	
+R15	Experiences Arg1:T30 Arg2:T13	
+T50	Observation 644 669	beneficiando clínicamente
+R16	Experiences Arg1:T34 Arg2:T50	
+R17	Experiences Arg1:T34 Arg2:T9	
+R18	Causes Arg1:T9 Arg2:T50	
+R19	Used_for Arg1:T23 Arg2:T9	
+R20	Experiences Arg1:T35 Arg2:T11	
+T51	Observation 980 997	beneficio clínico
+R21	Causes Arg1:T11 Arg2:T51	
+R22	Experiences Arg1:T35 Arg2:T51	
+R23	Causes Arg1:T12 Arg2:T51	
+R24	Used_for Arg1:T11 Arg2:T12	
+R25	Experiences Arg1:T35 Arg2:T12	
+T52	Quantifier_or_Qualifier 1155 1173	Grado 3 o superior
+R26	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T52	
+R27	Overlap Arg1:T14 Arg2:T37	
+R28	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T38	
+R29	Before Arg1:T14 Arg2:T15	
+R30	Used_for Arg1:T17 Arg2:T16	
+R31	Overlap Arg1:T17 Arg2:T39	
+T53	Observation 1382 1394;1407 1443	Participando en otro tipo de investigación médica
+R32	Overlap Arg1:T53 Arg2:T40	
+R33	Overlap Arg1:T42 Arg2:T40	
+T54	Observation 1522 1551	Salida permanente del estudio
+#41	AnnotatorNotes T54	C0422727; Patient withdrawn from trial; Finding
+R34	Causes Arg1:T18 Arg2:T54	
+R35	Causes Arg1:T19 Arg2:T54	
+R36	Experiences Arg1:T43 Arg2:T20	
+#42	AnnotatorNotes T47	C1524057; Compatible; Qualitative Concept
+#43	AnnotatorNotes T37	C0521116; Current (present time); Temporal Concept
+#44	AnnotatorNotes T49	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+#45	AnnotatorNotes T50	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+#46	AnnotatorNotes T51	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+A12	Experiencer T43 Patient
+A13	Experiencer T35 Patient
+A14	Experiencer T34 Patient
+A15	Experiencer T33 Other
+A16	Experiencer T32 Patient
+A17	Experiencer T30 Patient
+A18	Experiencer T29 Other
+A19	Experiencer T26 Patient
+A20	Experiencer T28 Patient

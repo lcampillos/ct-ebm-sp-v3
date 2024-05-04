@@ -1,0 +1,345 @@
+T1	PROC 44 99	ENSAYO CLÍNICO DE FASE II, ABIERTO, UNICÉNTRICO, PILOTO
+T2	PROC 105 176	EVALUAR LAS CARACTERÍSTICAS FARMACOCINÉTICAS, SEGURIDAD Y TOLERABILIDAD
+T3	CHEM 211 225	INMUNOSUPRESOR
+#1	AnnotatorNotes T3	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T4	CHEM 230 238	ADVAGRAF
+#2	AnnotatorNotes T4	C4082808; Advagraf; Organic Chemical · Pharmacologic Substance
+T5	PROC 269 288	TRASPLANTE PULMONAR
+#3	AnnotatorNotes T5	C0024128; Lung Transplantation; Therapeutic or Preventive Procedure
+T6	PROC 320 340	Transplante pulmonar
+#4	AnnotatorNotes T6	C0024128; Lung Transplantation; Therapeutic or Preventive Procedure
+T7	ANAT 332 340	pulmonar
+#5	AnnotatorNotes T7	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T8	PROC 476 497	pauta inmunosupresora
+T9	CHEM 482 497	inmunosupresora
+#6	AnnotatorNotes T9	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T10	CHEM 508 516	Advagraf
+#7	AnnotatorNotes T10	C4082808; Advagraf; Organic Chemical · Pharmacologic Substance
+T11	PROC 545 573	continuar con el tratamiento
+#8	AnnotatorNotes T11	C2091305; continue current medication; Therapeutic or Preventive Procedure
+T12	CHEM 669 679	tacrolimus
+#9	AnnotatorNotes T12	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T13	ANAT 683 689	sangre
+#10	AnnotatorNotes T13	C0005767; Blood; Body Substance
+T14	PROC 933 969	consentimiento informado por escrito
+#11	AnnotatorNotes T14	C0811741; Obtain informed written consent; Health Care Activity
+T15	PROC 1165 1172	tratado
+#12	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	DISO 1043 1052	neoplasia
+#13	AnnotatorNotes T16	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T17	DISO 1071 1080	neoplasia
+#14	AnnotatorNotes T17	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T18	DISO 1114 1164	carcinoma basocelular o epidermoide no metastásico
+T19	PROC 1205 1219	diagnosticados
+#15	AnnotatorNotes T19	C0011900; Diagnosis; Diagnostic Procedure
+T20	DISO 1223 1240	fibrosis quística
+#16	AnnotatorNotes T20	C0010674; Cystic Fibrosis; Disease or Syndrome
+T21	DISO 1258 1280	infección generalizada
+#17	AnnotatorNotes T21	C0243026; Sepsis; Disease or Syndrome
+T22	PROC 1295 1306	tratamiento
+#18	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	DISO 1324 1331	diarrea
+#19	AnnotatorNotes T23	C0011991; Diarrhea; Sign or Symptom
+T24	DISO 1340 1347	vómitos
+#20	AnnotatorNotes T24	C0042963; Vomiting; Sign or Symptom
+T25	DISO 1349 1363	úlcera péptica
+#21	AnnotatorNotes T25	C0030920; Peptic Ulcer; Disease or Syndrome
+T26	DISO 1745 1774	función pulmonar no aceptable
+T27	DISO 1374 1395	trastornos digestivos
+T28	ANAT 1385 1395	digestivos
+#22	AnnotatorNotes T28	C0012240; Gastrointestinal system; Body System
+T29	CHEM 1431 1441	tacrolimus
+#23	AnnotatorNotes T29	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T30	CHEM 1518 1526	Envarsus
+#24	AnnotatorNotes T30	C4050793; Envarsus; Organic Chemical · Pharmacologic Substance
+T31	CHEM 1506 1514	Advagraf
+#25	AnnotatorNotes T31	C4082808; Advagraf; Organic Chemical · Pharmacologic Substance
+T32	DISO 1580 1593	rechazo agudo
+#26	AnnotatorNotes T32	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T33	DISO 1638 1653	Rechazo crónico
+#27	AnnotatorNotes T33	C0301948; Chronic graft rejection; Pathologic Function
+T34	PROC 1654 1667	diagnosticado
+#28	AnnotatorNotes T34	C0011900; Diagnosis; Diagnostic Procedure
+T35	DISO 1671 1688	Cirrosis hepática
+#29	AnnotatorNotes T35	C0023890; Liver Cirrhosis; Disease or Syndrome
+T36	ANAT 1753 1761	pulmonar
+#30	AnnotatorNotes T36	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T37	PROC 1779 1782	GPT
+#31	AnnotatorNotes T37	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T38	PROC 1802 1819	bilirrubina total
+#32	AnnotatorNotes T38	C0201913; Bilirubin, total measurement; Laboratory Procedure
+T39	CHEM 1830 1840	Creatinina
+#33	AnnotatorNotes T39	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T40	ANAT 1841 1847	sérica
+#34	AnnotatorNotes T40	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T41	DISO 1881 1892	toxicomanía
+#35	AnnotatorNotes T41	C1510472; Drug Dependence; Mental or Behavioral Dysfunction
+T42	DISO 1894 1916	trastorno psiquiátrico
+#36	AnnotatorNotes T42	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T43	DISO 1919 1927	afección
+#37	AnnotatorNotes T43	C0221423; Illness (finding); Sign or Symptom
+T44	PROC 2071 2095	estudio de investigación
+#38	AnnotatorNotes T44	C0681814; research study; Research Activity
+T45	DISO 2160 2173	VIH positivos
+#39	AnnotatorNotes T45	C4759637; HIV positive status; Finding
+T46	PROC 2216 2239	métodos anticonceptivos
+#40	AnnotatorNotes T46	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T47	PROC 2288 2312	consentimiento informado
+#41	AnnotatorNotes T47	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T48	PROC 203 225	RÉGIMEN INMUNOSUPRESOR
+T49	CHEM 242 250	ENVARSUS
+#42	AnnotatorNotes T49	C4050793; Envarsus; Organic Chemical · Pharmacologic Substance
+T50	ANAT 280 288	PULMONAR
+#43	AnnotatorNotes T50	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T51	PROC 669 689	tacrolimus en sangre
+#44	AnnotatorNotes T51	C1271702; Blood tacrolimus level; Laboratory Procedure
+T52	ANAT 1124 1135	basocelular
+#45	AnnotatorNotes T52	C0596155; Basal Cell; Cell
+T53	PROC 1490 1501	tratamiento
+#46	AnnotatorNotes T53	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T54	ANAT 1680 1688	hepática
+#47	AnnotatorNotes T54	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T55	PROC 1784 1787	ALT
+#48	AnnotatorNotes T55	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T56	PROC 1790 1793	GOT
+#49	AnnotatorNotes T56	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T57	PROC 1795 1798	AST
+#50	AnnotatorNotes T57	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T58	CHEM 1802 1813	bilirrubina
+#51	AnnotatorNotes T58	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T59	PROC 1830 1847	Creatinina sérica
+#52	AnnotatorNotes T59	C0201976; Creatinine measurement, serum (procedure); Laboratory Procedure
+T60	Date 12 16	2015
+T61	PHYS 133 149	FARMACOCINÉTICAS
+#53	AnnotatorNotes T61	C0031327; Drug Kinetics; Physiologic Function
+T62	LIVB 255 264	PACIENTES
+#54	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 377 386	Pacientes
+#55	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	Age 411 429	entre 18 y 65 años
+T65	LIVB 450 459	Pacientes
+#56	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T67	Duration 574 596	un mínimo de 4 semanas
+T68	LIVB 600 609	Pacientes
+#57	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T72	Duration 770 785	al menos 6 días
+T73	LIVB 821 830	Pacientes
+#58	AnnotatorNotes T73	C0030705; Patients; Patient or Disabled Group
+T74	LIVB 1029 1038	Pacientes
+#59	AnnotatorNotes T74	C0030705; Patients; Patient or Disabled Group
+T75	Duration 1084 1105	los 5 años anteriores
+T76	Neg_cue 1106 1113	excepto
+T78	LIVB 1195 1204	Pacientes
+#60	AnnotatorNotes T78	C0030705; Patients; Patient or Disabled Group
+T79	LIVB 1244 1253	Pacientes
+#61	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	LIVB 1310 1319	Pacientes
+#62	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T82	LIVB 1446 1455	Pacientes
+#63	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group
+T83	Duration 1597 1611	los tres meses
+T84	Duration 1646 1653	crónico
+#64	AnnotatorNotes T84	C0205191; chronic; Temporal Concept
+T85	LIVB 1717 1726	Pacientes
+#65	AnnotatorNotes T85	C0030705; Patients; Patient or Disabled Group
+T88	LIVB 1860 1869	Pacientes
+#66	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group
+T89	LIVB 1954 1966	investigador
+#67	AnnotatorNotes T89	C0035173; Research Personnel; Professional or Occupational Group
+T91	LIVB 2004 2013	Pacientes
+#68	AnnotatorNotes T91	C0030705; Patients; Patient or Disabled Group
+T92	Duration 2099 2110	los 28 días
+T93	LIVB 2150 2159	Pacientes
+#69	AnnotatorNotes T93	C0030705; Patients; Patient or Disabled Group
+T94	LIVB 2177 2199	Mujeres en edad fértil
+#70	AnnotatorNotes T94	C4324275; Woman of childbearing potential; Population Group
+T95	Neg_cue 2204 2206	no
+T96	PHYS 2251 2259	Embarazo
+#71	AnnotatorNotes T96	C0032961; Pregnancy; Organism Function
+T97	PHYS 2262 2271	lactancia
+#72	AnnotatorNotes T97	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T98	Neg_cue 2275 2277	No
+T69	PHYS 1418 1427	absorción
+#73	AnnotatorNotes T69	C0678745; drug absorption; Physiologic Function
+T70	PHYS 1745 1761	función pulmonar
+#74	AnnotatorNotes T70	C0035245; Respiratory physiology; Physiologic Function
+T77	Age 2188 2199	edad fértil
+T66	PHYS 842 850	entender
+#75	AnnotatorNotes T66	C0162340; Comprehension; Mental Process
+T81	ANAT 1138 1149	epidermoide
+#76	AnnotatorNotes T81	C0221910; Squamous Epithelial Cells; Cell
+T71	PROC 1697 1713	histológicamente
+#77	AnnotatorNotes T71	C0344441; Histology Procedure; Laboratory Procedure
+A2	Assertion T18 Negated
+A3	Population_data T94 Age
+A4	Assertion T46 Negated
+A5	Assertion T47 Negated
+A1	Status T17 History_of
+A6	Assertion T53 Contraindicated
+A7	Assertion T31 Contraindicated
+A8	Assertion T30 Contraindicated
+A9	Status T32 History_of
+A10	Status T44 History_of
+A11	Assertion T15 Negated
+#78	AnnotatorNotes T2	C1705187; Safety Study; Research Activity + C3274448; Tolerability Study; Research Activity + C0201734; Pharmacokinetic study; Research Activity 
+#79	AnnotatorNotes T48	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+#80	AnnotatorNotes T8	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+#81	AnnotatorNotes T27	C0851121; Digestive problems; Sign or Symptom 
+T86	Quantifier_or_Qualifier 1765 1774	aceptable
+A12	Assertion T86 Negated
+T87	Neg_cue 1762 1764	no
+R1	Negation Arg1:T76 Arg2:T18	
+R2	Negation Arg1:T87 Arg2:T86	
+T90	Spec_cue 1967 1972	pueda
+T99	Observation 1973 2000	dificultar la participación
+A13	Assertion T99 Speculated
+R3	Speculation Arg1:T90 Arg2:T99	
+R4	Negation Arg1:T95 Arg2:T46	
+T100	Quantifier_or_Qualifier 2240 2248	eficaces
+A14	Assertion T100 Negated
+R5	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T100	
+R6	Experiences Arg1:T62 Arg2:T48	
+R7	Experiences Arg1:T62 Arg2:T49	
+R8	Used_for Arg1:T3 Arg2:T48	
+R9	Before Arg1:T4 Arg2:T49	
+R10	Used_for Arg1:T49 Arg2:T48	
+R11	Used_for Arg1:T4 Arg2:T48	
+R12	Experiences Arg1:T62 Arg2:T5	
+R13	Location_of Arg1:T50 Arg2:T5	
+T101	Quantifier_or_Qualifier 289 296	ESTABLE
+R14	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T101	
+R15	Experiences Arg1:T62 Arg2:T61	
+R16	Overlap Arg1:T48 Arg2:T5	
+T102	Quantifier_or_Qualifier 341 348	estable
+R17	Location_of Arg1:T7 Arg2:T6	
+R18	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T102	
+R19	Has_Age Arg1:T63 Arg2:T64	
+R20	Used_for Arg1:T9 Arg2:T8	
+R21	Used_for Arg1:T10 Arg2:T8	
+R22	Experiences Arg1:T65 Arg2:T8	
+R23	Before Arg1:T8 Arg2:T11	
+R24	Has_Duration_or_Interval Arg1:T11 Arg2:T67	
+R25	Experiences Arg1:T65 Arg2:T11	
+T103	Observation 614 629	en fase estable
+#82	AnnotatorNotes T103	C1282982; Patient's condition stable; Finding
+R26	Has_Quantifier_or_Qualifier Arg1:T68 Arg2:T103	
+T104	Result_or_Value 693 702	5-15 µg/L
+R27	Has_Result_or_Value Arg1:T51 Arg2:T104	
+T105	Quantifier_or_Qualifier 719 732	dos ocasiones
+R28	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T105	
+R29	Overlap Arg1:T51 Arg2:T72	
+T106	PROC 808 817	selección
+#83	AnnotatorNotes T106	C0242802; Patient Selection; Research Activity
+R30	Experiences Arg1:T68 Arg2:T51	
+R31	Overlap Arg1:T51 Arg2:T106	
+R32	Experiences Arg1:T73 Arg2:T66	
+T107	Observation 975 999	participar en el estudio
+#84	AnnotatorNotes T107	C1278516; Patient participation status; Finding
+R34	Before Arg1:T14 Arg2:T107	
+R35	Overlap Arg1:T66 Arg2:T14	
+R36	Experiences Arg1:T74 Arg2:T16	
+R37	Experiences Arg1:T74 Arg2:T17	
+R38	Has_Duration_or_Interval Arg1:T17 Arg2:T75	
+R39	Location_of Arg1:T52 Arg2:T18	
+R40	Location_of Arg1:T81 Arg2:T18	
+R41	Experiences Arg1:T74 Arg2:T18	
+R42	Experiences Arg1:T74 Arg2:T15	
+R43	Experiences Arg1:T78 Arg2:T20	
+R44	Experiences Arg1:T79 Arg2:T21	
+R45	Experiences Arg1:T79 Arg2:T22	
+R46	Experiences Arg1:T80 Arg2:T23	
+R47	Experiences Arg1:T80 Arg2:T24	
+R48	Location_of Arg1:T28 Arg2:T27	
+R49	Experiences Arg1:T80 Arg2:T25	
+R50	Experiences Arg1:T80 Arg2:T27	
+T108	Spec_cue 1400 1406	puedan
+T109	CONC 1407 1414	afectar
+A15	Assertion T109 Speculated
+#85	AnnotatorNotes T109	C0521102; Interferes with; Functional Concept
+R51	Speculation Arg1:T108 Arg2:T109	
+R52	Experiences Arg1:T80 Arg2:T69	
+R53	Experiences Arg1:T80 Arg2:T29	
+R54	Used_for Arg1:T29 Arg2:T69	
+R55	Used_for Arg1:T31 Arg2:T53	
+R56	Used_for Arg1:T30 Arg2:T53	
+R58	Overlap Arg1:T32 Arg2:T83	
+T110	CONC 1625 1634	inclusión
+#86	AnnotatorNotes T110	C1512693; Inclusion; Qualitative Concept
+R59	Before Arg1:T32 Arg2:T110	
+R60	Has_Duration_or_Interval Arg1:T33 Arg2:T84	
+R61	Location_of Arg1:T54 Arg2:T35	
+R62	Location_of Arg1:T36 Arg2:T26	
+R63	Location_of Arg1:T36 Arg2:T70	
+R64	Experiences Arg1:T85 Arg2:T70	
+R65	Experiences Arg1:T85 Arg2:T26	
+#87	AnnotatorNotes T26	C0858943; Impaired lung function; Finding
+T111	Result_or_Value 1820 1827	≥ 3 ULN
+R66	Has_Result_or_Value Arg1:T38 Arg2:T111	
+R67	Has_Result_or_Value Arg1:T57 Arg2:T111	
+R68	Has_Result_or_Value Arg1:T56 Arg2:T111	
+R69	Has_Result_or_Value Arg1:T55 Arg2:T111	
+R70	Has_Result_or_Value Arg1:T37 Arg2:T111	
+T112	Result_or_Value 1848 1857	≥ 2 mg/dl
+R71	Has_Result_or_Value Arg1:T59 Arg2:T112	
+R72	Location_of Arg1:T40 Arg2:T59	
+R74	Experiences Arg1:T88 Arg2:T41	
+R75	Experiences Arg1:T88 Arg2:T42	
+R76	Experiences Arg1:T88 Arg2:T43	
+T113	Observation 2018 2044	participan simultáneamente
+T114	Observation 2047 2095	han participado en otro estudio de investigación
+T115	Observation 2124 2145	entrada en el estudio
+#88	AnnotatorNotes T115	C0422726; Patient entered into trial; Finding 
+R80	Before Arg1:T114 Arg2:T115	
+R81	Experiences Arg1:T93 Arg2:T45	
+R82	Has_Age Arg1:T94 Arg2:T77	
+R83	Experiences Arg1:T94 Arg2:T46	
+R84	Negation Arg1:T98 Arg2:T47	
+T116	Quantifier_or_Qualifier 1332 1338	severa
+#89	AnnotatorNotes T116	C1547227; Severe - Severity of Illness Code; Intellectual Product (?)
+R85	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T116	
+T117	Quantifier_or_Qualifier 1364 1370	activa
+#90	AnnotatorNotes T117	C0679217; Active State; Idea or Concept
+R86	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T117	
+R92	Before Arg1:T43 Arg2:T99	
+R93	Before Arg1:T42 Arg2:T99	
+R94	Before Arg1:T41 Arg2:T99	
+R95	Location_of Arg1:T13 Arg2:T51	
+#91	AnnotatorNotes T101	C0205360; Stable status; Qualitative Concept
+#92	AnnotatorNotes T102	C0205360; Stable status; Qualitative Concept
+#93	AnnotatorNotes T100	C1704419; Effective; Qualitative Concept
+T118	Observation 1173 1191	satisfactoriamente
+#94	AnnotatorNotes T118	C0581844; Patient's condition satisfactory; Finding (?)
+R96	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T118	
+T119	Quantifier_or_Qualifier 1565 1576	un episodio
+R97	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T119	
+R98	Has_Quantifier_or_Qualifier Arg1:T70 Arg2:T86	
+R79	Overlap Arg1:T114 Arg2:T92	
+R100	Overlap Arg1:T113 Arg2:T92	
+A16	Assertion T118 Negated
+R99	Negation Arg1:T76 Arg2:T15	
+R101	Negation Arg1:T76 Arg2:T118	
+T120	Neg_cue 1150 1152	no
+T121	Quantifier_or_Qualifier 1153 1164	metastásico
+A17	Assertion T121 Negated
+R102	Negation Arg1:T120 Arg2:T121	
+R103	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T121	
+#95	AnnotatorNotes T121	C1522484; metastatic qualifier; Functional Concept | C0036525; Metastatic to; Functional Concept
+#96	AnnotatorNotes T86	C1879533; Acceptable; Qualitative Concept
+#97	AnnotatorNotes T105	C1948050; Twice (Numerical Qualifier); Quantitative Concept
+A18	Experiencer T62 Patient
+A19	Experiencer T63 Patient
+A20	Experiencer T65 Patient
+A21	Status T11 Future
+A22	Experiencer T68 Patient
+A23	Experiencer T73 Patient
+A24	Experiencer T74 Patient
+A25	Experiencer T78 Patient
+A26	Experiencer T79 Patient
+A27	Experiencer T80 Patient
+A28	Experiencer T82 Patient
+A29	Experiencer T85 Patient
+A30	Experiencer T88 Patient
+A31	Experiencer T91 Patient
+A32	Experiencer T93 Patient
+A33	Experiencer T94 Patient
+A34	Experiencer T89 Other

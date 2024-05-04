@@ -1,0 +1,138 @@
+T1	CHEM 16 28	azitromicina
+#1	AnnotatorNotes T1	C0052796; azithromycin; Organic Chemical · Antibiotic
+T2	DISO 48 69	periodontitis crónica
+#2	AnnotatorNotes T2	C0266929; Chronic Periodontitis; Disease or Syndrome
+T3	PROC 71 148	ensayo clínico, aleatorizado, controlado y triple ciego en grupos en paralelo
+#3	AnnotatorNotes T3	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1883398; Triple Blind Study; Research Activity + C2826345; Parallel Study; Research Activity
+T4	PROC 212 215	RAR
+#4	AnnotatorNotes T4	C0086940; Scaling, Root; Therapeutic or Preventive Procedure + C0085287; Root Planing; Therapeutic or Preventive Procedure
+T5	PROC 161 180	Evaluar la eficacia
+#5	AnnotatorNotes T5	C1707887; Efficacy Study; Research Activity
+T6	CHEM 187 199	azitromicina
+#6	AnnotatorNotes T6	C0052796; azithromycin; Organic Chemical · Antibiotic
+T7	DISO 233 254	periodontitis crónica
+#7	AnnotatorNotes T7	C0266929; Chronic Periodontitis; Disease or Syndrome
+T8	PROC 289 352	ensayo clínico paralelo aleatorizado, controlado y triple ciego
+#8	AnnotatorNotes T8	C1883398; Triple Blind Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C2826345; Parallel Study; Research Activity
+T9	PROC 542 569	distribuidos aleatoriamente
+#9	AnnotatorNotes T9	C0034656; Randomization; Research Activity
+T10	PROC 662 687	evaluado periodontalmente
+#10	AnnotatorNotes T10	C1317609; Periodontal evaluation; Health Care Activity
+T11	PROC 711 738	raspado y alisado radicular
+#11	AnnotatorNotes T11	C0086940; Scaling, Root; Therapeutic or Preventive Procedure + C0085287; Root Planing; Therapeutic or Preventive Procedure
+T12	PROC 1068 1089	eficacia fue evaluada
+#12	AnnotatorNotes T12	C1707887; Efficacy Study; Research Activity
+T13	PROC 824 847	tratamiento antibiótico
+#13	AnnotatorNotes T13	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T14	CHEM 852 864	azitromicina
+#14	AnnotatorNotes T14	C0052796; azithromycin; Organic Chemical · Antibiotic
+T15	PROC 939 946	placebo
+#15	AnnotatorNotes T15	C0032042; Placebos; Therapeutic or Preventive Procedure
+T16	PROC 761 780	técnicas de higiene
+T17	PROC 1462 1465	RAR
+#16	AnnotatorNotes T17	C0086940; Scaling, Root; Therapeutic or Preventive Procedure + C0085287; Root Planing; Therapeutic or Preventive Procedure
+T18	PROC 1280 1302	profundidad de sondaje
+#17	AnnotatorNotes T18	C4749830; Measurement of periodontal pocket depth; Therapeutic or Preventive Procedure
+T19	ANAT 729 738	radicular
+#18	AnnotatorNotes T19	C0040452; Tooth root structure; Body Part, Organ, or Organ Component | C1305305; Entire tooth root; Body Part, Organ, or Organ Component
+T20	CHEM 1437 1449	azitromicina
+#19	AnnotatorNotes T20	C0052796; azithromycin; Organic Chemical · Antibiotic
+T21	PROC 1484 1503	terapia coadyuvante
+#20	AnnotatorNotes T21	C0677850; Adjuvant therapy; Therapeutic or Preventive Procedure
+T22	DISO 1521 1542	periodontitis crónica
+#21	AnnotatorNotes T22	C0266929; Chronic Periodontitis; Disease or Syndrome
+T23	PROC 41 44	RAR
+#22	AnnotatorNotes T23	C0086940; Scaling, Root; Therapeutic or Preventive Procedure + C0085287; Root Planing; Therapeutic or Preventive Procedure
+T24	CHEM 836 847	antibiótico
+#23	AnnotatorNotes T24	C0003232; Antibiotics; Antibiotic
+T25	CHEM 990 1001	antibiótico
+#24	AnnotatorNotes T25	C0003232; Antibiotics; Antibiotic
+T26	ANAT 671 687	periodontalmente
+#25	AnnotatorNotes T26	C0031104; Periodontium; Tissue | C1284399; Entire periodontal tissues; Body Part, Organ, or Organ Component
+T27	Duration 62 69	crónica
+#26	AnnotatorNotes T27	C0205191; chronic; Temporal Concept
+T28	LIVB 219 228	pacientes
+#27	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Duration 247 254	crónica
+#28	AnnotatorNotes T29	C0205191; chronic; Temporal Concept
+T30	Date 472 486	marzo del 2015
+T31	Date 489 505	febrero del 2017
+T32	LIVB 523 540	pacientes adultos
+#29	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T34	LIVB 649 657	paciente
+#30	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 788 797	pacientes
+#31	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Dose 865 871	500 mg
+T37	Route 876 884	vía oral
+#32	AnnotatorNotes T37	C1527415; Oral Route of Drug administration; Functional Concept
+T38	Frequency 885 894	cada 24 h
+T39	Duration 903 909	3 días
+T40	LIVB 1016 1025	pacientes
+#33	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Duration 1045 1063	los 3, 4 y 5 meses
+T44	LIVB 1507 1516	pacientes
+#34	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Duration 1535 1542	crónica
+#35	AnnotatorNotes T45	C0205191; chronic; Temporal Concept
+T33	PROC 1033 1042	evaluados
+#36	AnnotatorNotes T33	C0220825; Evaluation; Health Care Activity | C1261322; Evaluation procedure; Health Care Activity
+T42	CONC 1102 1119	test T de Student
+#37	AnnotatorNotes T42	C0871453; Students T Test; Intellectual Product
+T43	Neg_cue 1348 1350	no
+T46	CONC 1363 1374	diferencias
+#38	AnnotatorNotes T46	C1705241; Delta (difference); Quantitative Concept
+T47	Neg_cue 1466 1468	no
+T48	Quantifier_or_Qualifier 1472 1478	eficaz
+A1	Population_data T32 Age
+R1	Combined_with Arg1:T1 Arg2:T23
+R2	Has_Duration_or_Interval Arg1:T2 Arg2:T27
+R3	Combined_with Arg1:T6 Arg2:T4
+R4	Experiences Arg1:T28 Arg2:T4
+R5	Experiences Arg1:T28 Arg2:T7
+R6	Has_Duration_or_Interval Arg1:T7 Arg2:T29
+R7	After Arg1:T8 Arg2:T30
+R8	Before Arg1:T8 Arg2:T31
+R9	Experiences Arg1:T34 Arg2:T10
+R10	Location_of Arg1:T26 Arg2:T10
+R11	Before Arg1:T10 Arg2:T11
+R12	Experiences Arg1:T34 Arg2:T11
+R13	Location_of Arg1:T19 Arg2:T11
+R14	Before Arg1:T10 Arg2:T16
+R15	Experiences Arg1:T34 Arg2:T16
+R16	Used_for Arg1:T24 Arg2:T13
+R17	Experiences Arg1:T35 Arg2:T13
+R18	Experiences Arg1:T35 Arg2:T15
+R19	Has_Dose_or_Strength Arg1:T14 Arg2:T36
+R20	Has_Route_or_Mode Arg1:T14 Arg2:T37
+R21	Has_Frequency Arg1:T14 Arg2:T38
+R22	Has_Duration_or_Interval Arg1:T14 Arg2:T39
+R23	Used_for Arg1:T14 Arg2:T13
+R24	Overlap Arg1:T33 Arg2:T41
+R25	Experiences Arg1:T40 Arg2:T33
+R26	Used_for Arg1:T42 Arg2:T12
+A2	Assertion T46 Negated
+R27	Negation Arg1:T43 Arg2:T46
+R28	Combined_with Arg1:T20 Arg2:T17
+A3	Assertion T48 Negated
+R29	Negation Arg1:T47 Arg2:T48
+R30	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T48
+R31	Used_for Arg1:T20 Arg2:T21
+R32	Experiences Arg1:T44 Arg2:T21
+R33	Experiences Arg1:T44 Arg2:T22
+R34	Has_Duration_or_Interval Arg1:T22 Arg2:T45
+T49	Observation 1317 1335	adherencia clínica
+#39	AnnotatorNotes T49	C2364172; Adherence To Medication Regime; Finding
+T50	Quantifier_or_Qualifier 1375 1406	estadísticamente significativas
+A4	Assertion T50 Negated
+#40	AnnotatorNotes T50	C0237881; Statistical Significance; Quantitative Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T50	
+R36	Negation Arg1:T43 Arg2:T50	
+#41	AnnotatorNotes T16	C1272386; Mouth care management; Health Care Activity (?)
+#42	AnnotatorNotes T48	C1704419; Effective; Qualitative Concept
+A5	Experiencer T28 Patient
+A6	Experiencer T32 Patient
+A7	Experiencer T34 Patient
+A8	Experiencer T35 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T44 Patient

@@ -1,0 +1,152 @@
+T1	CHEM 87 97	ibuprofeno
+#1	AnnotatorNotes T1	C0020740; ibuprofen; Organic Chemical · Pharmacologic Substance
+T2	PROC 104 126	extracción de cordales
+T3	CHEM 180 210	antiinflamatorio no esteroideo
+#2	AnnotatorNotes T3	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T4	CHEM 212 222	Ibuprofeno
+#3	AnnotatorNotes T4	C0020740; ibuprofen; Organic Chemical · Pharmacologic Substance
+T5	DISO 233 244	inflamación
+#4	AnnotatorNotes T5	C0021368; Inflammation; Pathologic Function
+T6	DISO 250 270	dolor postoperatorio
+#5	AnnotatorNotes T6	C0030201; Pain, Postoperative; Sign or Symptom
+T7	PROC 279 312	cirugía del tercer molar inferior
+T8	ANAT 291 312	tercer molar inferior
+#6	AnnotatorNotes T8	C0927338; Third mandibular molar tooth; Body Part, Organ, or Organ Component
+T9	PROC 1002 1023	cuestionario de salud
+T10	PROC 368 390	ensayo clínico cruzado
+#7	AnnotatorNotes T10	C0008976; Clinical Trials; Research Activity + C0150097; Cross-Over Studies; Research Activity
+T11	CHEM 432 442	ibuprofeno
+#8	AnnotatorNotes T11	C0020740; ibuprofen; Organic Chemical · Pharmacologic Substance
+T12	PROC 510 538	cirugías de terceros molares
+#9	AnnotatorNotes T12	C0577760; Surgical removal of third molar tooth; Therapeutic or Preventive Procedure
+T13	PROC 567 581	ensayo clínico
+#10	AnnotatorNotes T13	C0008976; Clinical Trials; Research Activity
+T14	CHEM 631 641	ibuprofeno
+#11	AnnotatorNotes T14	C0020740; ibuprofen; Organic Chemical · Pharmacologic Substance
+T15	ANAT 696 708	tercer molar
+#12	AnnotatorNotes T15	C0026369; Structure of wisdom tooth; Body Part, Organ, or Organ Component | C1305762; Entire wisdom tooth; Body Part, Organ, or Organ Component
+T16	PROC 756 778	ensayo clínico cruzado
+#13	AnnotatorNotes T16	C0008976; Clinical Trials; Research Activity + C0150097; Cross-Over Studies; Research Activity
+T17	DISO 1110 1147	terceros molares inferiores retenidos
+#14	AnnotatorNotes T17	C0399551; Impacted third molar tooth; Pathologic Function
+T18	DISO 1201 1221	enfermedad sistémica
+#15	AnnotatorNotes T18	C0442893; Systemic disease; Disease or Syndrome
+T19	PROC 1268 1283	hospitalización
+#16	AnnotatorNotes T19	C0019993; Hospitalization; Health Care Activity
+T20	DISO 1291 1300	fumadores
+#17	AnnotatorNotes T20	C0337664; Smoker; Finding
+T21	CHEM 1342 1352	medicación
+#18	AnnotatorNotes T21	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T22	DISO 1362 1369	alergia
+#19	AnnotatorNotes T22	C1527304; Allergic Reaction; Pathologic Function
+T23	CHEM 1376 1381	AINEs
+#20	AnnotatorNotes T23	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T24	DISO 1402 1445	alteración cognitiva o de la función motora
+T25	PROC 1505 1523	visitas de control
+#21	AnnotatorNotes T25	C0589121; Follow-up visit; Health Care Activity
+T26	ANAT 118 126	cordales
+#22	AnnotatorNotes T26	C4323466; Region of vocal fold; Body Location or Region
+T27	PROC 314 341	Ensayo Clínico Aleatorizado
+#23	AnnotatorNotes T27	C0206034; Clinical Trials, Randomized; Research Activity
+T28	ANAT 522 538	terceros molares
+#24	AnnotatorNotes T28	C0026369; Structure of wisdom tooth; Body Part, Organ, or Organ Component | C1305762; Entire wisdom tooth; Body Part, Organ, or Organ Component
+T29	PROC 684 708	cirugía del tercer molar
+#25	AnnotatorNotes T29	C0577760; Surgical removal of third molar tooth; Therapeutic or Preventive Procedure
+T30	PROC 607 627	supresión de la toma
+#26	AnnotatorNotes T30	C0850893; stop medication; Therapeutic or Preventive Procedure
+T31	DISO 882 901	patología sistémica
+T32	PROC 1061 1085	consentimiento informado
+#27	AnnotatorNotes T32	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T33	ANAT 1110 1137	terceros molares inferiores
+#28	AnnotatorNotes T33	C0927338; Third mandibular molar tooth; Body Part, Organ, or Organ Component
+T34	Date 12 16	2019
+T35	PROC 60 83	disminución de la dosis
+#29	AnnotatorNotes T35	C2348004; Agent Dose Decreased; Therapeutic or Preventive Procedure
+T36	Date 256 270	postoperatorio
+#30	AnnotatorNotes T36	C0032790; Postoperative Period; Temporal Concept
+T38	LIVB 498 506	paciente
+#31	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T41	Date 725 739	postoperatorio
+#32	AnnotatorNotes T41	C0032790; Postoperative Period; Temporal Concept
+T42	Age 819 834	mayores de edad
+T43	Age 835 845	18-35 años
+T45	Neg_cue 867 873	ningún
+T49	LIVB 1321 1330	lactantes
+#33	AnnotatorNotes T49	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T50	PHYS 1431 1445	función motora
+#34	AnnotatorNotes T50	C0234130; Motor function; Biologic Function
+T52	LIVB 1307 1318	embarazadas
+#35	AnnotatorNotes T52	C0033011; Pregnant Women; Population Group
+T53	PHYS 1413 1422	cognitiva
+#36	AnnotatorNotes T53	C0009240; Cognition; Mental Process
+T40	PROC 413 428	dosis más bajas
+#37	AnnotatorNotes T40	C2348004; Agent Dose Decreased; Therapeutic or Preventive Procedure
+T44	PROC 918 955	American Society of Anaesthesiologist
+#38	AnnotatorNotes T44	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T54	PROC 957 960	ASA
+#39	AnnotatorNotes T54	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T37	Observation 1483 1523	incomparecencia a las visitas de control
+#40	AnnotatorNotes T37	C0589126; Patient defaulted from follow-up; Finding
+A4	Assertion T31 Negated
+A1	Status T22 History_of
+A2	Status T18 History_of
+#41	AnnotatorNotes T2	C0204147; Extraction of wisdom tooth; Therapeutic or Preventive Procedure 
+#42	AnnotatorNotes T7	C0577760; Surgical removal of third molar tooth; Therapeutic or Preventive Procedure
+T39	Neg_cue 709 711	no
+T46	Neg_cue 197 199	no
+T47	Quantifier_or_Qualifier 200 210	esteroideo
+A3	Assertion T47 Negated
+T48	Observation 712 721	perjudica
+A5	Assertion T48 Negated
+T51	Neg_cue 1453 1455	no
+T55	Observation 1456 1478	colabore en el estudio
+A6	Assertion T55 Negated
+R1	Negation Arg1:T46 Arg2:T47	
+T56	Spec_cue 410 412	si
+T57	Observation 478 489	beneficiosa
+A7	Assertion T57 Speculated
+#43	AnnotatorNotes T57	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R2	Speculation Arg1:T56 Arg2:T57	
+R3	Negation Arg1:T39 Arg2:T48	
+R4	Negation Arg1:T45 Arg2:T31	
+R5	Negation Arg1:T51 Arg2:T55	
+R6	Used_for Arg1:T1 Arg2:T35	
+R7	Before Arg1:T2 Arg2:T35	
+R8	Location_of Arg1:T26 Arg2:T2	
+R9	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T47	
+R10	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T47	
+R11	Overlap Arg1:T6 Arg2:T36	
+R12	Overlap Arg1:T5 Arg2:T36	
+R13	After Arg1:T5 Arg2:T7	
+R14	After Arg1:T6 Arg2:T7	
+R16	Location_of Arg1:T8 Arg2:T7	
+R17	Used_for Arg1:T11 Arg2:T40	
+R18	Before Arg1:T40 Arg2:T57	
+R19	Experiences Arg1:T38 Arg2:T40	
+R20	Experiences Arg1:T38 Arg2:T57	
+R21	Experiences Arg1:T38 Arg2:T12	
+R22	Location_of Arg1:T28 Arg2:T12	
+R23	Used_for Arg1:T14 Arg2:T30	
+R24	After Arg1:T30 Arg2:T29	
+R25	Before Arg1:T12 Arg2:T40	
+R26	Before Arg1:T7 Arg2:T3	
+R27	Before Arg1:T7 Arg2:T4	
+R28	Overlap Arg1:T48 Arg2:T41	
+R30	Location_of Arg1:T15 Arg2:T29	
+R31	Before Arg1:T30 Arg2:T48	
+#44	AnnotatorNotes T9	C2960239; Assessment using health assessment questionnaire; Health Care Activity
+T58	Observation 979 986	capaces
+#45	AnnotatorNotes T58	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R34	Overlap Arg1:T58 Arg2:T9	
+T59	Observation 1040 1047	capaces
+#46	AnnotatorNotes T59	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R35	Overlap Arg1:T59 Arg2:T32	
+R36	Location_of Arg1:T33 Arg2:T17	
+R37	Causes Arg1:T23 Arg2:T22	
+#47	AnnotatorNotes T24	C1392786; Cognitive changes; Mental or Behavioral Dysfunction | C4062427; Alteration in motor function; Finding
+R40	Overlap Arg1:T55 Arg2:T37	
+#48	AnnotatorNotes T55	C0517036; Cooperates with procedures; Finding
+#49	AnnotatorNotes T31	C0442893; Systemic disease; Disease or Syndrome
+A8	Experiencer T49 Patient
+A9	Experiencer T52 Patient
+A10	Experiencer T38 Patient

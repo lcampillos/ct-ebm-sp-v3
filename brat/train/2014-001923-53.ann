@@ -1,0 +1,112 @@
+T1	PROC 46 55	Protocolo
+#1	AnnotatorNotes T1	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T2	PROC 59 70	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 88 94	anemia
+#3	AnnotatorNotes T3	C0002871; Anemia; Disease or Syndrome
+T4	PROC 121 133	intervenidos
+#4	AnnotatorNotes T4	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T5	DISO 137 155	fractura de cadera
+#5	AnnotatorNotes T5	C0019557; Hip Fractures; Injury or Poisoning
+T6	ANAT 149 155	cadera
+#6	AnnotatorNotes T6	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T7	CHEM 178 184	Hierro
+#7	AnnotatorNotes T7	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T8	DISO 230 238	delirium
+#8	AnnotatorNotes T8	C0011206; Delirium; Mental or Behavioral Dysfunction
+T9	DISO 256 274	fractura de cadera
+#9	AnnotatorNotes T9	C0019557; Hip Fractures; Injury or Poisoning
+T10	ANAT 268 274	cadera
+#10	AnnotatorNotes T10	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T11	DISO 298 316	Fractura de cadera
+#11	AnnotatorNotes T11	C0019557; Hip Fractures; Injury or Poisoning
+T12	ANAT 310 316	cadera
+#12	AnnotatorNotes T12	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T13	DISO 392 424	fractura de cadera osteoporótica
+T14	ANAT 404 410	cadera
+#13	AnnotatorNotes T14	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T15	PROC 789 813	consentimiento informado
+#14	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	PROC 625 649	consentimiento informado
+#15	AnnotatorNotes T16	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T17	DISO 680 697	Hipersensibilidad
+#16	AnnotatorNotes T17	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T18	DISO 741 745	Asma
+#17	AnnotatorNotes T18	C0004096; Asthma; Disease or Syndrome
+T19	DISO 754 761	atopias
+#18	AnnotatorNotes T19	C0392707; Atopy; Pathologic Function
+T20	DISO 849 857	fractura
+#19	AnnotatorNotes T20	C0016658; Fracture; Injury or Poisoning
+T21	CHEM 75 81	hierro
+#20	AnnotatorNotes T21	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T22	CHEM 714 720	hierro
+#21	AnnotatorNotes T22	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T23	Date 13 17	2014
+T25	LIVB 102 120	pacientes ancianos
+#22	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group + C0001792; Elderly (population group); Population Group
+T26	Route 185 196	intravenoso
+#23	AnnotatorNotes T26	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T27	LIVB 242 251	pacientes
+#24	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 378 387	pacientes
+#25	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Age 498 516	superior a 75 años
+T30	Route 721 731	parenteral
+#26	AnnotatorNotes T30	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T31	Route 734 738	oral
+#27	AnnotatorNotes T31	C1527415; Oral Route of Drug administration; Functional Concept
+T32	Neg_cue 774 788	Revocación del
+T33	Neg_cue 818 820	No
+T34	PHYS 198 210	recuperación
+#28	AnnotatorNotes T34	C2004454; Recovery - healing process; Organism Function
+T24	PROC 832 842	quirúrgica
+#29	AnnotatorNotes T24	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+A1	Population_data T25 Age
+A2	Assertion T15 Negated
+A3	Assertion T24 Negated
+A4	Status T17 History_of
+T35	CONC 821 831	indicación
+A5	Assertion T35 Negated
+#30	AnnotatorNotes T35	C3146298; Indication; Idea or Concept
+R1	Negation Arg1:T33 Arg2:T35	
+R2	Negation Arg1:T33 Arg2:T24	
+R3	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T24	
+T36	Quantifier_or_Qualifier 211 220	funcional
+#31	AnnotatorNotes T36	C0205245; Functional; Functional Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T36	
+R5	Has_Route_or_Mode Arg1:T7 Arg2:T26	
+R6	Experiences Arg1:T27 Arg2:T8	
+R7	Experiences Arg1:T27 Arg2:T9	
+R8	Location_of Arg1:T10 Arg2:T9	
+R9	Before Arg1:T9 Arg2:T8	
+R10	Before Arg1:T5 Arg2:T3	
+R11	Used_for Arg1:T21 Arg2:T2	
+R12	Experiences Arg1:T25 Arg2:T2	
+R13	Experiences Arg1:T25 Arg2:T3	
+R14	Experiences Arg1:T25 Arg2:T4	
+R15	Experiences Arg1:T25 Arg2:T5	
+R16	Location_of Arg1:T6 Arg2:T5	
+R17	Experiences Arg1:T27 Arg2:T7	
+R18	Experiences Arg1:T27 Arg2:T34	
+R19	Before Arg1:T9 Arg2:T34	
+R20	Before Arg1:T7 Arg2:T34	
+T37	Quantifier_or_Qualifier 221 227	precoz
+#32	AnnotatorNotes T37	C1279930; Precocious; Temporal Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T37	
+R22	Location_of Arg1:T12 Arg2:T11	
+R23	Experiences Arg1:T28 Arg2:T13	
+R24	Location_of Arg1:T14 Arg2:T13	
+T38	Observation 538 562	conformidad a participar
+#33	AnnotatorNotes T38	C0600109; Willing; Finding (?)
+R25	Overlap Arg1:T38 Arg2:T16	
+R26	Causes Arg1:T22 Arg2:T17	
+R27	Has_Route_or_Mode Arg1:T22 Arg2:T30	
+R28	Has_Route_or_Mode Arg1:T22 Arg2:T31	
+T39	Quantifier_or_Qualifier 762 769	severas
+#34	AnnotatorNotes T39	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R29	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T39	
+R30	Negation Arg1:T32 Arg2:T15	
+#35	AnnotatorNotes T13	C3875127; Osteoporotic fracture of proximal femur; Pathologic Function (?)
+A6	Experiencer T25 Patient
+A7	Experiencer T27 Patient
+A8	Experiencer T28 Patient

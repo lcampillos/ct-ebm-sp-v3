@@ -1,0 +1,132 @@
+T1	DISO 25 71	complicaciones en el catéter venoso periférico
+T2	DISO 211 261	complicaciones en el cateterismo venoso periférico
+T3	PROC 232 261	cateterismo venoso periférico
+#1	AnnotatorNotes T3	C0007436; Catheterization, Peripheral; Health Care Activity + C3826108; Intravenous catheterization; Therapeutic or Preventive Procedure
+T4	PROC 548 559	seguimiento
+#2	AnnotatorNotes T4	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T5	DISO 661 675	complicaciones
+#3	AnnotatorNotes T5	C0009566; Complication; Pathologic Function
+T6	PROC 696 707	internación
+#4	AnnotatorNotes T6	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T7	CHEM 795 810	antimicrobianos
+#5	AnnotatorNotes T7	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T8	CHEM 862 867	suero
+#6	AnnotatorNotes T8	C1688568; Pharmaceutical fluid or solution; Pharmacologic Substance
+T9	DISO 948 962	complicaciones
+#7	AnnotatorNotes T9	C0009566; Complication; Pathologic Function
+T10	CHEM 1130 1135	suero
+#8	AnnotatorNotes T10	C1688568; Pharmaceutical fluid or solution; Pharmacologic Substance
+T11	CHEM 1169 1185	corticosteroides
+#9	AnnotatorNotes T11	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T12	DISO 1269 1283	complicaciones
+#10	AnnotatorNotes T12	C0009566; Complication; Pathologic Function
+T13	PROC 1290 1319	cateterismo venoso periférico
+#11	AnnotatorNotes T13	C0007436; Catheterization, Peripheral; Health Care Activity + C3826108; Intravenous catheterization; Therapeutic or Preventive Procedure
+T14	PROC 1340 1351	internación
+#12	AnnotatorNotes T14	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T15	CHEM 1387 1402	antimicrobianos
+#13	AnnotatorNotes T15	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T16	CHEM 1434 1439	suero
+#14	AnnotatorNotes T16	C1688568; Pharmaceutical fluid or solution; Pharmacologic Substance
+T17	CHEM 1442 1458	corticosteroides
+#15	AnnotatorNotes T17	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T18	DISO 1530 1544	complicaciones
+#16	AnnotatorNotes T18	C0009566; Complication; Pathologic Function
+T19	PROC 1601 1617	Ensayos Clínicos
+#17	AnnotatorNotes T19	C0008976; Clinical Trials; Research Activity
+T21	PROC 107 134	ensayo clínico aleatorizado
+#18	AnnotatorNotes T21	C0206034; Clinical Trials, Randomized; Research Activity
+T23	PROC 308 335	ensayo clínico aleatorizado
+#19	AnnotatorNotes T23	C0206034; Clinical Trials, Randomized; Research Activity
+T24	PROC 475 511	utilizó catéter plástico sobre aguja
+T25	CHEM 831 841	soluciones
+#20	AnnotatorNotes T25	C0525069; Pharmaceutical Solutions; Biomedical or Dental Material
+T26	PROC 844 858	administración
+#21	AnnotatorNotes T26	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T27	PROC 1088 1096	infusión
+#22	AnnotatorNotes T27	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T28	CHEM 1100 1110	soluciones
+#23	AnnotatorNotes T28	C0525069; Pharmaceutical Solutions; Biomedical or Dental Material
+T29	PROC 1112 1126	administración
+#24	AnnotatorNotes T29	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T30	PROC 1151 1165	administración
+#25	AnnotatorNotes T30	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T32	PROC 1375 1383	infusión
+#26	AnnotatorNotes T32	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T33	CHEM 1404 1414	soluciones
+#27	AnnotatorNotes T33	C0525069; Pharmaceutical Solutions; Biomedical or Dental Material
+T34	PROC 1416 1430	administración
+#28	AnnotatorNotes T34	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T35	PROC 415 450	usaba catéter de seguridad completo
+T36	DEVI 46 71	catéter venoso periférico
+#29	AnnotatorNotes T36	C2985513; Peripheral Venous Catheter; Medical Device
+T37	LIVB 75 82	adultos
+#30	AnnotatorNotes T37	C0001675; Adult; Age Group
+T38	LIVB 352 384	pacientes clínicos y quirúrgicos
+#31	AnnotatorNotes T38	C0021562; inpatient; Patient or Disabled Group + C0871463; surgical patient; Patient or Disabled Group
+T39	DEVI 421 428	catéter
+#32	AnnotatorNotes T39	C0085590; catheter device; Medical Device
+T40	DEVI 483 490	catéter
+#33	AnnotatorNotes T40	C0085590; catheter device; Medical Device
+T41	DEVI 506 511	aguja
+#34	AnnotatorNotes T41	C0027551; Needle device; Medical Device | C0973726; NEEDLES,INJECTION; Medical Device
+T42	Duration 563 573	tres meses
+T43	Duration 721 739	entre 10 y 19 días
+T44	Duration 755 773	entre 20 y 29 días
+T46	DEVI 903 908	aguja
+#35	AnnotatorNotes T46	C0027551; Needle device; Medical Device | C0973726; NEEDLES,INJECTION; Medical Device
+T47	Spec_cue 923 933	riesgos de
+T50	Duration 1352 1370	entre 10 y 29 días
+T20	DEVI 518 526	Abbocath
+A1	Population_data T37 Age
+A2	Assertion T9 Speculated
+R1	Overlap Arg1:T1 Arg2:T36	
+T22	Observation 1 19	Factores de riesgo
+#36	AnnotatorNotes T22	C0035648; risk factors; Finding
+T31	Observation 160 178	factores de riesgo
+#37	AnnotatorNotes T31	C0035648; risk factors; Finding
+T45	Observation 593 611	factores de riesgo
+#38	AnnotatorNotes T45	C0035648; risk factors; Finding
+T48	Observation 1218 1236	factores de riesgo
+#39	AnnotatorNotes T48	C0035648; risk factors; Finding
+R2	Before Arg1:T22 Arg2:T1	
+R3	Experiences Arg1:T37 Arg2:T22	
+R4	Experiences Arg1:T37 Arg2:T1	
+R5	Before Arg1:T31 Arg2:T2	
+R6	Overlap Arg1:T2 Arg2:T3	
+R7	Experiences Arg1:T38 Arg2:T35	
+R8	Used_for Arg1:T39 Arg2:T35	
+R9	Used_for Arg1:T40 Arg2:T24	
+R10	Used_for Arg1:T41 Arg2:T24	
+R11	Experiences Arg1:T38 Arg2:T24	
+R12	Used_for Arg1:T20 Arg2:T24	
+R13	Has_Duration_or_Interval Arg1:T4 Arg2:T42	
+R14	Before Arg1:T35 Arg2:T4	
+R15	Before Arg1:T24 Arg2:T4	
+R16	Before Arg1:T45 Arg2:T5	
+R17	Has_Duration_or_Interval Arg1:T6 Arg2:T43	
+R18	Has_Duration_or_Interval Arg1:T6 Arg2:T44	
+R19	Before Arg1:T6 Arg2:T5	
+R20	Before Arg1:T7 Arg2:T5	
+R21	Before Arg1:T25 Arg2:T5	
+R22	Used_for Arg1:T8 Arg2:T26	
+R23	Before Arg1:T26 Arg2:T5	
+R24	Speculation Arg1:T47 Arg2:T9	
+R25	Before Arg1:T46 Arg2:T9	
+T49	CONC 980 997	análisis múltiple
+R26	Used_for Arg1:T28 Arg2:T27	
+R27	Used_for Arg1:T10 Arg2:T29	
+R28	Used_for Arg1:T11 Arg2:T30	
+R29	Before Arg1:T48 Arg2:T12	
+R30	Before Arg1:T13 Arg2:T12	
+R31	Before Arg1:T14 Arg2:T12	
+R32	Has_Duration_or_Interval Arg1:T14 Arg2:T50	
+R33	Used_for Arg1:T15 Arg2:T32	
+R34	Before Arg1:T32 Arg2:T12	
+R35	Before Arg1:T33 Arg2:T12	
+R36	Before Arg1:T34 Arg2:T12	
+R37	Used_for Arg1:T16 Arg2:T34	
+R38	Before Arg1:T17 Arg2:T12	
+R39	Experiences Arg1:T37 Arg2:T36	
+A3	Experiencer T37 Patient
+A4	Experiencer T38 Patient

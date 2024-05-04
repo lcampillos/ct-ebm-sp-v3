@@ -1,0 +1,159 @@
+T1	CHEM 46 53	Agentes
+#1	AnnotatorNotes T1	C0450442; Agent; Chemical Viewed Functionally
+T2	PROC 960 970	plasma-hCG
+T3	DISO 80 88	delirium
+#2	AnnotatorNotes T3	C0011206; Delirium; Mental or Behavioral Dysfunction
+T4	PROC 161 172	Tratamiento
+#3	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 179 187	psicosis
+#4	AnnotatorNotes T5	C0033975; Psychotic Disorders; Mental or Behavioral Dysfunction
+T6	DISO 204 225	enfermedades críticas
+#5	AnnotatorNotes T6	C0010340; Critical Illness; Disease or Syndrome
+T7	PROC 247 293	ingresados en la unidad de cuidados intensivos
+#6	AnnotatorNotes T7	C0583239; Admission to intensive care unit; Health Care Activity
+T8	PROC 320 331	Tratamiento
+#7	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	DISO 336 344	delirium
+#8	AnnotatorNotes T9	C0011206; Delirium; Mental or Behavioral Dysfunction
+T10	PROC 434 461	Ingresados agudos en la UCI
+T11	DISO 515 523	Delirium
+#9	AnnotatorNotes T11	C0011206; Delirium; Mental or Behavioral Dysfunction
+T12	PROC 524 537	diagnosticado
+#10	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	PROC 685 709	medicación antipsicótica
+T14	CHEM 635 646	haloperidol
+#11	AnnotatorNotes T14	C0018546; haloperidol; Organic Chemical · Pharmacologic Substance
+T15	PROC 650 661	Tratamiento
+#12	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	CHEM 696 709	antipsicótica
+#13	AnnotatorNotes T16	C0040615; Antipsychotic Agents; Pharmacologic Substance
+T17	DISO 712 725	Incompetencia
+#14	AnnotatorNotes T17	C0231189; Incompetence; Pathologic Function
+T18	DISO 738 746	demencia
+#15	AnnotatorNotes T18	C0497327; Dementia; Mental or Behavioral Dysfunction
+T19	DISO 748 762	retraso mental
+#16	AnnotatorNotes T19	C0025362; Mental Retardation; Mental or Behavioral Dysfunction | C3714756; Intellectual Disability; Mental or Behavioral Dysfunction
+T20	PROC 766 776	Evaluación
+#17	AnnotatorNotes T20	C1261322; Evaluation procedure; Health Care Activity
+T21	DISO 803 807	coma
+#18	AnnotatorNotes T21	C0009421; Comatose; Disease or Syndrome
+T22	PROC 846 853	terapia
+#19	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	DISO 863 878	muerte cerebral
+#20	AnnotatorNotes T23	C0006110; Brain Death; Pathologic Function | C0394019; Brainstem death; Pathologic Function
+T24	PROC 921 951	gonadotropina coriónica humana
+#21	AnnotatorNotes T24	C0428402; Human chorionic gonadotropin measurement; Laboratory Procedure
+T25	PROC 953 956	hCG
+T26	ANAT 960 966	plasma
+#22	AnnotatorNotes T26	C0032105; Plasma; Body Substance
+T27	CHEM 967 970	hCG
+#23	AnnotatorNotes T27	C1141639; human chorionic gonadotropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T28	PROC 1009 1023	consentimiento
+#24	AnnotatorNotes T28	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T29	DISO 1142 1170	delirio inducido por alcohol
+T30	DISO 1172 1188	delirium tremens
+#25	AnnotatorNotes T30	C0001957; Alcohol Withdrawal Delirium; Disease or Syndrome
+T31	DISO 781 788	delirio
+#26	AnnotatorNotes T31	C0011206; Delirium; Mental or Behavioral Dysfunction
+T32	ANAT 870 878	cerebral
+#27	AnnotatorNotes T32	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T33	ANAT 935 944	coriónica
+#28	AnnotatorNotes T33	C0008503; Chorion; Embryonic Structure
+T34	ANAT 974 979	orina
+#29	AnnotatorNotes T34	C0042036; Urine; Body Substance
+T35	Date 13 17	2017
+T37	LIVB 229 246	pacientes adultos
+#30	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T38	LIVB 350 368	pacientes críticos
+#31	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group + C0815272; critical population; Population Group
+T39	Age 501 510	≥ 18 años
+T40	Neg_cue 789 791	no
+T42	LIVB 881 897	Mujeres fértiles
+#32	AnnotatorNotes T42	C4324275; Woman of childbearing potential; Population Group
+T44	LIVB 899 906	mujeres
+#33	AnnotatorNotes T44	C0043210; Woman; Population Group
+T45	Age 907 915	<50 años
+T47	Neg_cue 992 994	No
+T48	LIVB 1063 1072	Pacientes
+#34	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 1128 1137	Pacientes
+#35	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	PHYS 756 762	mental
+#36	AnnotatorNotes T50	C0229992; Psyche structure; Mental Process
+A1	Population_data T37 Age
+A3	Assertion T28 Negated
+A4	Assertion T14 Contraindicated
+#37	AnnotatorNotes T10	C0583239; Admission to intensive care unit; Health Care Activity
+#38	AnnotatorNotes T13	C0040615; Antipsychotic Agents; Pharmacologic Substance 
+#39	AnnotatorNotes T25	C0428402; Human chorionic gonadotropin measurement; Laboratory Procedure
+#40	AnnotatorNotes T29	C0001957; Alcohol Withdrawal Delirium; Disease or Syndrome
+T36	Observation 995 1023	obtención del consentimiento
+A5	Assertion T36 Negated
+#41	AnnotatorNotes T36	C0514044; Informed consent obtained; Finding
+T41	Quantifier_or_Qualifier 792 801	aplicable
+A6	Assertion T41 Negated
+#42	AnnotatorNotes T41	C1706839; Applicable; Qualitative Concept
+T43	Food 1163 1170	alcohol
+#43	AnnotatorNotes T43	C0001967; Alcoholic Beverages; Food
+R1	Causes Arg1:T43 Arg2:T29	
+T46	Observation 810 829	barreras del idioma
+#44	AnnotatorNotes T46	C0237167; Language Barriers; Finding
+R3	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T41	
+R4	Negation Arg1:T40 Arg2:T41	
+R7	Overlap Arg1:T31 Arg2:T21	
+R8	Overlap Arg1:T31 Arg2:T46	
+R10	Causes Arg1:T18 Arg2:T17	
+R11	Causes Arg1:T19 Arg2:T17	
+T51	Quantifier_or_Qualifier 726 736	permanente
+#45	AnnotatorNotes T51	C0205355; Permanent; Temporal Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T51	
+R13	Used_for Arg1:T16 Arg2:T13	
+T52	CONC 567 574	CAM-ICU
+#46	AnnotatorNotes T52	['Confusion Assessment Method for the Intensive Care Unit']
+R14	Used_for Arg1:T52 Arg2:T12	
+T53	CONC 577 582	ICDSC
+#47	AnnotatorNotes T53	['Intensive Care Delirium Screening Checklist']
+R15	Used_for Arg1:T53 Arg2:T12	
+R16	Overlap Arg1:T5 Arg2:T6	
+R17	Experiences Arg1:T37 Arg2:T5	
+R18	Experiences Arg1:T37 Arg2:T6	
+R19	Experiences Arg1:T37 Arg2:T7	
+R20	Overlap Arg1:T5 Arg2:T7	
+R21	Overlap Arg1:T6 Arg2:T7	
+R22	Experiences Arg1:T38 Arg2:T9	
+R23	Location_of Arg1:T32 Arg2:T23	
+R24	Negation Arg1:T47 Arg2:T36	
+R25	Negation Arg1:T47 Arg2:T28	
+T54	Observation 833 860	Retirada por terapia activa
+T55	Quantifier_or_Qualifier 854 860	activa
+#48	AnnotatorNotes T55	C0679217; Active State; Idea or Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T55	
+R27	Has_Age Arg1:T44 Arg2:T45	
+R28	Has_Age Arg1:T42 Arg2:T45	
+R29	Location_of Arg1:T34 Arg2:T24	
+R30	Experiences Arg1:T42 Arg2:T24	
+R31	Experiences Arg1:T42 Arg2:T2	
+R32	Experiences Arg1:T44 Arg2:T24	
+R33	Experiences Arg1:T44 Arg2:T2	
+T56	Result_or_Value 980 989	positivas
+#49	AnnotatorNotes T56	C1446409; Positive; Finding
+R34	Has_Result_or_Value Arg1:T2 Arg2:T56	
+R35	Has_Result_or_Value Arg1:T24 Arg2:T56	
+R36	Experiences Arg1:T42 Arg2:T25	
+R37	Has_Result_or_Value Arg1:T25 Arg2:T56	
+#50	AnnotatorNotes T2	C4064103; serum or plasma human chorionic gonadotropin (hCG); Laboratory Procedure
+R38	Location_of Arg1:T26 Arg2:T2	
+R39	Location_of Arg1:T34 Arg2:T25	
+T57	CONC 1078 1097	medidas coercitivas
+#51	AnnotatorNotes T57	C1537002; coercive persuasion; Idea or Concept (?)
+R40	Experiences Arg1:T49 Arg2:T29	
+R41	Causes Arg1:T43 Arg2:T30	
+R42	Experiences Arg1:T49 Arg2:T30	
+R43	Experiences Arg1:T38 Arg2:T8	
+R44	Used_for Arg1:T16 Arg2:T15	
+A2	Experiencer T37 Patient
+A7	Experiencer T38 Patient
+A8	Experiencer T44 Patient
+A9	Experiencer T42 Patient
+A10	Experiencer T48 Patient
+A11	Experiencer T49 Patient

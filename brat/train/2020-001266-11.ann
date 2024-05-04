@@ -1,0 +1,256 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	DISO 102 136	distrés respiratorio tipo COVID-19
+T3	PROC 159 243	Ensayo clínico multicéntrico, aleatorizado, controlado, con dos ramas de tratamiento
+T4	PROC 249 280	evaluar la seguridad y eficacia
+T5	PROC 287 313	administración intravenosa
+#2	AnnotatorNotes T5	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure
+T6	ANAT 317 356	células mesenquimales troncales adultas
+#3	AnnotatorNotes T6	C5400079; Adult human mesenchymal stem cells; Cell
+T7	CHEM 82 85	MSC
+#4	AnnotatorNotes T7	C1720705; Human mesenchymal stem cell-containing product; Immunologic Factor · Pharmacologic Substance
+T8	ANAT 371 385	tejido adiposo
+#5	AnnotatorNotes T8	C0001527; Adipose tissue; Tissue
+T9	DISO 456 476	Distrés respiratorio
+#6	AnnotatorNotes T9	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T10	DISO 490 514	infección por SARS-Cov-2
+#7	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+T11	DISO 607 631	infección por SARS-COV-2
+#8	AnnotatorNotes T11	C5203670; COVID19 (disease); Disease or Syndrome
+T12	PROC 641 647	RT-PCR
+#9	AnnotatorNotes T12	C0599161; Reverse Transcriptase Polymerase Chain Reaction; Molecular Biology Research Technique
+T13	DISO 678 696	Fallo respiratorio
+#10	AnnotatorNotes T13	C0035229; Respiratory Insufficiency; Pathologic Function
+T14	PROC 710 720	intubación
+#11	AnnotatorNotes T14	C0021925; Intubation (procedure); Therapeutic or Preventive Procedure
+T15	PROC 734 754	ventilación mecánica
+#12	AnnotatorNotes T15	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T16	DISO 769 793	infección por SARS-Cov-2
+#13	AnnotatorNotes T16	C5203670; COVID19 (disease); Disease or Syndrome
+T17	PROC 1504 1525	soporte extracorpóreo
+#14	AnnotatorNotes T17	C0015357; Extracorporeal Membrane Oxygenation; Therapeutic or Preventive Procedure
+T18	DISO 811 837	distrés respiratorio agudo
+T19	DISO 839 876	infiltrado agudo alveolo-intersticial
+#15	AnnotatorNotes T19	C0748145; PULMONARY INFILTRATE INTERSTITIAL ALVEOLAR; Disease or Syndrome
+T20	ANAT 864 876	intersticial
+#16	AnnotatorNotes T20	C0596790; interstitial; Body Location or Region | C2328510; Interstitium; Body Part, Organ, or Organ Component
+T21	ANAT 904 924	ventrículo izquierdo
+#17	AnnotatorNotes T21	C0225897; Left ventricular structure; Body Part, Organ, or Organ Component | C1269892; Entire left ventricle; Body Part, Organ, or Organ Component
+T22	PROC 941 950	ecografía
+#18	AnnotatorNotes T22	C0041618; Ultrasonography; Diagnostic Procedure
+T23	PROC 1086 1113	prueba de embarazo en orina
+#19	AnnotatorNotes T23	C0430056; Urine pregnancy test; Laboratory Procedure
+T24	PROC 1178 1219	Consentimiento informado escrito o verbal
+#20	AnnotatorNotes T24	C1608381; Consent Mode - Verbal; Health Care Activity (?) + C0811741; Obtain informed written consent; Health Care Activity
+T25	DISO 1322 1348	distrés respiratorio agudo
+T26	PROC 1388 1410	RT-PCR para SARS-Cov-2
+#21	AnnotatorNotes T26	C5244035; SARS-CoV-2 PCR test; Laboratory Procedure | C5541700; PCR for SARS-CoV-2; Laboratory Procedure
+T27	DISO 1423 1442	Fallo multiorgánico
+#22	AnnotatorNotes T27	C0026766; Multiple Organ Failure; Pathologic Function
+T28	ANAT 1453 1460	órganos
+#23	AnnotatorNotes T28	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T29	DISO 1465 1483	Fallo respiratorio
+#24	AnnotatorNotes T29	C0035229; Respiratory Insufficiency; Pathologic Function
+T30	DISO 1536 1540	EPOC
+#25	AnnotatorNotes T30	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T31	PROC 1570 1605	oxigenoterapia crónica domiciliaria
+T32	DISO 1711 1729	Enfermedad tumoral
+T33	PROC 1741 1767	Tratamiento inmunosupresor
+#26	AnnotatorNotes T33	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T34	PROC 1672 1697	medidas contraconceptivas
+T35	DISO 1778 1785	Alergia
+#27	AnnotatorNotes T35	C1527304; Allergic Reaction; Pathologic Function
+T36	DISO 1788 1805	hipersensibilidad
+#28	AnnotatorNotes T36	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T37	DISO 1852 1879	trombosis venosa o pulmonar
+T38	ANAT 1871 1879	pulmonar
+#29	AnnotatorNotes T38	C0034052; Pulmonary artery structure; Body Part, Organ, or Organ Component | C1269026; Entire pulmonary artery; Body Part, Organ, or Organ Component
+T39	PROC 1928 1944	ensayos clínicos
+#30	AnnotatorNotes T39	C0008976; Clinical Trials; Research Activity
+T40	PROC 64 85	administración de MSC
+T41	DISO 422 430	COVID-19
+#31	AnnotatorNotes T41	C5203670; COVID19 (disease); Disease or Syndrome
+T42	ANAT 655 675	muestra respiratoria
+T43	ANAT 856 863	alveolo
+#32	AnnotatorNotes T43	C1515933; Alveolus; Body Part, Organ, or Organ Component
+T44	PROC 1029 1038	PaO2/FiO2
+#33	AnnotatorNotes T44	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T45	DISO 895 924	fallo de ventrículo izquierdo
+T46	ANAT 1108 1113	orina
+#34	AnnotatorNotes T46	C0042036; Urine; Body Substance
+T47	PROC 1527 1531	ECMO
+#35	AnnotatorNotes T47	C0015357; Extracorporeal Membrane Oxygenation; Therapeutic or Preventive Procedure
+T48	CHEM 1753 1767	inmunosupresor
+#36	AnnotatorNotes T48	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T49	ANAT 1862 1868	venosa
+#37	AnnotatorNotes T49	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T50	Date 13 17	2020
+T51	LIVB 88 97	pacientes
+#38	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Route 302 313	intravenosa
+#39	AnnotatorNotes T52	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T54	LIVB 403 421	pacientes críticos
+#40	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group + C0815272; critical population; Population Group
+T55	LIVB 543 567	Pacientes de ambos sexos
+#41	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T56	Age 570 588	Mayores de 18 años
+T58	Neg_cue 877 879	no
+T59	PROC 953 977	parámetros hemodinámicos
+#42	AnnotatorNotes T59	C4082936; Hemodynamic Monitoring; Health Care Activity (?)
+T60	LIVB 1051 1073	Mujeres en edad fértil
+#43	AnnotatorNotes T60	C4324275; Woman of childbearing potential; Population Group
+T61	Age 1062 1073	edad fértil
+T64	Neg_cue 1114 1122	negativa
+T65	LIVB 1234 1242	paciente
+#44	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	LIVB 1249 1268	representante legal
+#45	AnnotatorNotes T66	C4288823; Legal Representative for the Study; Human
+T67	Neg_cue 1353 1355	no
+T68	LIVB 1373 1383	SARS-Cov-2
+#46	AnnotatorNotes T68	C5203676; SARS-CoV-2; Virus
+T69	LIVB 1400 1410	SARS-Cov-2
+#47	AnnotatorNotes T69	C5203676; SARS-CoV-2; Virus
+T70	Neg_cue 1411 1419	negativa
+T71	Duration 1585 1592	crónica
+#48	AnnotatorNotes T71	C0205191; chronic; Temporal Concept
+T72	PHYS 1609 1617	Embarazo
+#49	AnnotatorNotes T72	C0032961; Pregnancy; Organism Function
+T73	PHYS 1619 1628	lactancia
+#50	AnnotatorNotes T73	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T74	LIVB 1632 1639	mujeres
+#51	AnnotatorNotes T74	C0043210; Woman; Population Group
+T76	Age 1647 1658	edad fértil
+T78	Neg_cue 1663 1665	no
+T79	Duration 1883 1901	los últimos 3 años
+T80	Duration 1953 1964	los 3 meses
+T81	PHYS 110 122	respiratorio
+#52	AnnotatorNotes T81	C0035203; Respiration; Physiologic Function
+T82	PHYS 464 476	respiratorio
+#53	AnnotatorNotes T82	C0035203; Respiration; Physiologic Function
+T83	PHYS 684 696	respiratorio
+#54	AnnotatorNotes T83	C0035203; Respiration; Physiologic Function
+T84	PHYS 819 831	respiratorio
+#55	AnnotatorNotes T84	C0035203; Respiration; Physiologic Function
+T85	PHYS 1096 1104	embarazo
+#56	AnnotatorNotes T85	C0032961; Pregnancy; Organism Function
+T86	PHYS 1330 1342	respiratorio
+#57	AnnotatorNotes T86	C0035203; Respiration; Physiologic Function
+T87	PHYS 1471 1483	respiratorio
+#58	AnnotatorNotes T87	C0035203; Respiration; Physiologic Function
+T62	LIVB 783 793	SARS-Cov-2
+#59	AnnotatorNotes T62	C5203676; SARS-CoV-2; Virus
+T63	LIVB 621 631	SARS-COV-2
+#60	AnnotatorNotes T63	C5203676; SARS-CoV-2; Virus
+T57	LIVB 504 514	SARS-Cov-2
+#61	AnnotatorNotes T57	C5203676; SARS-CoV-2; Virus
+T53	Quantifier_or_Qualifier 1985 1994	de inicio
+T75	PROC 1978 1984	visita
+#63	AnnotatorNotes T75	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T69 Negated
+A2	Assertion T68 Negated
+A3	Assertion T85 Negated
+A4	Population_data T60 Age
+A5	Assertion T45 Negated
+A8	Assertion T34 Negated
+A7	Status T33 History_of
+A9	Status T48 History_of
+A10	Status T36 History_of
+A11	Status T35 History_of
+A12	Status T37 History_of
+#64	AnnotatorNotes T4	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#65	AnnotatorNotes T42	C0444279; Respiratory sample; Body Substance 
+#66	AnnotatorNotes T18	C0748355; Acute respiratory distress; Disease or Syndrome
+#67	AnnotatorNotes T25	C0748355; Acute respiratory distress; Disease or Syndrome
+#68	AnnotatorNotes T34	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+#69	AnnotatorNotes T37	C0042487; Venous Thrombosis; Pathologic Function + C0151946; Pulmonary thrombosis; Pathologic Function 
+R1	Negation Arg1:T78 Arg2:T34	
+R2	Negation Arg1:T58 Arg2:T45	
+R3	Negation Arg1:T64 Arg2:T85	
+R4	Negation Arg1:T67 Arg2:T68	
+R5	Negation Arg1:T70 Arg2:T69	
+R6	Used_for Arg1:T7 Arg2:T40	
+R7	Experiences Arg1:T51 Arg2:T40	
+R8	Experiences Arg1:T51 Arg2:T2	
+R9	Experiences Arg1:T51 Arg2:T81	
+#62	AnnotatorNotes T2	C5419164; COVID-19-Associated Acute Respiratory Distress Syndrome; Disease or Syndrome (?)
+R12	Has_Route_or_Mode Arg1:T6 Arg2:T52	
+T77	Quantifier_or_Qualifier 368 398	de tejido adiposo y expandidas
+R13	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T77	
+T89	Quantifier_or_Qualifier 357 367	alogénicas
+#70	AnnotatorNotes T89	C1515895; Allogeneic; Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T89	
+R16	Experiences Arg1:T54 Arg2:T5	
+R17	Experiences Arg1:T54 Arg2:T41	
+R18	Causes Arg1:T10 Arg2:T9	
+R20	Causes Arg1:T57 Arg2:T10	
+R21	Causes Arg1:T63 Arg2:T11	
+R23	Location_of Arg1:T42 Arg2:T12	
+R25	Before Arg1:T14 Arg2:T15	
+R26	Causes Arg1:T16 Arg2:T13	
+R27	Causes Arg1:T62 Arg2:T16	
+R29	Location_of Arg1:T43 Arg2:T19	
+R30	Location_of Arg1:T20 Arg2:T19	
+R31	Overlap Arg1:T19 Arg2:T45	
+R33	Overlap Arg1:T18 Arg2:T45	
+R34	Location_of Arg1:T21 Arg2:T45	
+T90	Result_or_Value 1039 1048	<200 mmHg
+R37	Has_Result_or_Value Arg1:T44 Arg2:T90	
+R38	Has_Quantifier_or_Qualifier Arg1:T75 Arg2:T53	
+T91	Observation 1905 1944	Participación en otros ensayos clínicos
+R39	Overlap Arg1:T39 Arg2:T80	
+R40	Has_Duration_or_Interval Arg1:T91 Arg2:T80	
+R41	Before Arg1:T91 Arg2:T75	
+R42	Location_of Arg1:T49 Arg2:T37	
+R43	Location_of Arg1:T38 Arg2:T37	
+R44	Overlap Arg1:T37 Arg2:T79	
+R45	Used_for Arg1:T48 Arg2:T33	
+#71	AnnotatorNotes T45	C0023212; Left-Sided Heart Failure; Disease or Syndrome
+T92	Quantifier_or_Qualifier 983 996	inicio súbito
+#72	AnnotatorNotes T92	C1276802; Sudden onset (attribute); Temporal Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T92	
+R47	Has_Age Arg1:T60 Arg2:T61	
+R48	Experiences Arg1:T60 Arg2:T23	
+R49	Experiences Arg1:T60 Arg2:T85	
+R50	Location_of Arg1:T46 Arg2:T23	
+T93	CONC 1150 1159	inclusión
+#73	AnnotatorNotes T93	C1512693; Inclusion; Qualitative Concept
+R51	Overlap Arg1:T85 Arg2:T93	
+R52	Overlap Arg1:T23 Arg2:T93	
+R54	Causes Arg1:T68 Arg2:T25	
+T94	Quantifier_or_Qualifier 1444 1452	más de 3
+R55	Location_of Arg1:T28 Arg2:T27	
+R56	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T94	
+T95	Quantifier_or_Qualifier 1484 1490	severo
+#74	AnnotatorNotes T95	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R58	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T95	
+T96	Quantifier_or_Qualifier 1541 1556	moderado-severo
+#75	AnnotatorNotes T96	C1299393; Moderate to severe; Qualitative Concept
+R59	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T96	
+R60	Has_Duration_or_Interval Arg1:T31 Arg2:T71	
+#76	AnnotatorNotes T31	C1960973; Home oxygen therapy; Health Care Activity (?)
+R61	Experiences Arg1:T74 Arg2:T72	
+R62	Experiences Arg1:T74 Arg2:T73	
+R63	Has_Age Arg1:T74 Arg2:T76	
+R64	Experiences Arg1:T74 Arg2:T34	
+T97	Quantifier_or_Qualifier 1698 1706	eficaces
+A6	Assertion T97 Negated
+#77	AnnotatorNotes T97	C1704419; Effective; Qualitative Concept
+R65	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T97	
+R66	Negation Arg1:T78 Arg2:T97	
+T98	Quantifier_or_Qualifier 1730 1736	activa
+#78	AnnotatorNotes T98	C0679217; Active State; Idea or Concept
+#79	AnnotatorNotes T32	C0006826; Malignant Neoplasms; Neoplastic Process
+R67	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T98	
+#80	AnnotatorNotes T53	C0205265; Initially; Temporal Concept
+#81	AnnotatorNotes T40	C1257990; Mesenchymal Stem Cell Transplantation; Therapeutic or Preventive Procedure
+A13	Experiencer T51 Patient
+A14	Experiencer T54 Patient
+A15	Experiencer T55 Patient
+A16	Experiencer T60 Patient
+A17	Experiencer T65 Patient
+A18	Experiencer T66 Other
+A19	Experiencer T74 Patient
+T88	Result_or_Value 1411 1419	negativa
+R10	Has_Result_or_Value Arg1:T26 Arg2:T88	
+T99	Result_or_Value 1114 1122	negativa
+R11	Has_Result_or_Value Arg1:T23 Arg2:T99	

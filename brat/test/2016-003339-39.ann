@@ -1,0 +1,146 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	CHEM 62 74	azitromicina
+#2	AnnotatorNotes T2	C0052796; azithromycin; Antibiotic · Organic Chemical
+T3	CHEM 84 96	eritromicina
+#3	AnnotatorNotes T3	C0014806; erythromycin; Antibiotic · Organic Chemical
+T4	PROC 109 119	endoscopia
+#4	AnnotatorNotes T4	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T5	CHEM 228 240	azitromicina
+#5	AnnotatorNotes T5	C0052796; azithromycin; Antibiotic · Organic Chemical
+T6	CHEM 262 274	eritromicina
+#6	AnnotatorNotes T6	C0014806; erythromycin; Antibiotic · Organic Chemical
+T7	PROC 308 318	endoscopia
+#7	AnnotatorNotes T7	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T8	DISO 371 389	Sangrado digestivo
+#8	AnnotatorNotes T8	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T9	ANAT 380 389	digestivo
+#9	AnnotatorNotes T9	C0012240; Gastrointestinal system; Body System
+T10	DISO 416 436	Hemorragia digestiva
+#10	AnnotatorNotes T10	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T11	PROC 524 543	diagnóstico clínico
+#11	AnnotatorNotes T11	C0332140; Diagnosis, clinical; Diagnostic Procedure
+T12	DISO 547 567	hemorragia digestiva
+#12	AnnotatorNotes T12	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T13	DISO 587 598	hematemesis
+#13	AnnotatorNotes T13	C0018926; Hematemesis; Sign or Symptom
+T14	DISO 600 606	melena
+#14	AnnotatorNotes T14	C0025222; Melena; Pathologic Function | C0474585; Feces color: tarry; Sign or Symptom
+T15	DISO 609 635	vómitos en "posos de café"
+#15	AnnotatorNotes T15	C1510416; Coffee ground vomiting; Sign or Symptom
+T16	DISO 721 728	Alergia
+#16	AnnotatorNotes T16	C1527304; Allergic Reaction; Pathologic Function
+T17	DISO 730 743	interacciones
+#17	AnnotatorNotes T17	C0687133; Drug Interactions; Pathologic Function
+T18	CHEM 767 777	macrólidos
+#18	AnnotatorNotes T18	C0003240; Macrolide Antibiotics; Antibiotic · Organic Chemical | C0282563; Macrolides; Organic Chemical · Pharmacologic Substance
+T19	CHEM 786 798	procinéticos
+#19	AnnotatorNotes T19	C1268865; prokinetic agent; Pharmacologic Substance
+T20	PROC 807 814	ingreso
+#20	AnnotatorNotes T20	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T21	DISO 828 839	perforación
+#21	AnnotatorNotes T21	C0549099; Perforation (observation); Finding | C1709337; Perforation of organ; Injury or Poisoning
+T22	PROC 842 858	cirugía gástrica
+T23	DISO 880 899	arritmias cardíacas
+#22	AnnotatorNotes T23	C0003811; Cardiac Arrhythmia; Disease or Syndrome
+T24	DISO 901 927	infarto agudo de miocardio
+#23	AnnotatorNotes T24	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T25	DISO 929 932	IAM
+#24	AnnotatorNotes T25	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T26	DISO 936 962	enfermedad cerebrovascular
+#25	AnnotatorNotes T26	C0007820; Cerebrovascular Disorders; Disease or Syndrome
+T27	DISO 123 143	hemorragia digestiva
+#26	AnnotatorNotes T27	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T28	ANAT 134 143	digestiva
+#27	AnnotatorNotes T28	C0012240; Gastrointestinal system; Body System
+T29	PROC 171 224	Ensayo clínico controlado, aleatorizado y doble ciego
+T30	DISO 322 342	hemorragia digestiva
+#28	AnnotatorNotes T30	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T31	ANAT 333 342	digestiva
+#29	AnnotatorNotes T31	C0012240; Gastrointestinal system; Body System
+T32	ANAT 427 436	digestiva
+#30	AnnotatorNotes T32	C0012240; Gastrointestinal system; Body System
+T33	ANAT 558 567	digestiva
+#31	AnnotatorNotes T33	C0012240; Gastrointestinal system; Body System
+T34	PROC 657 681	consentimiento informado
+#32	AnnotatorNotes T34	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T35	ANAT 850 858	gástrica
+#33	AnnotatorNotes T35	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T36	ANAT 890 899	cardíacas
+#34	AnnotatorNotes T36	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T37	ANAT 918 927	miocardio
+#35	AnnotatorNotes T37	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T38	Date 13 17	2016
+T39	Route 241 252	intravenosa
+#36	AnnotatorNotes T39	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T40	Route 275 286	intravenosa
+#37	AnnotatorNotes T40	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T41	Dose 287 298	dosis única
+T42	LIVB 468 477	Pacientes
+#38	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Age 478 496	mayores de 18 años
+T44	Spec_cue 816 827	sospecha de
+T45	Duration 966 987	las últimas 3 semanas
+T46	PHYS 989 997	embarazo
+#39	AnnotatorNotes T46	C0032961; Pregnancy; Organism Function
+T47	PHYS 1000 1009	lactancia
+#40	AnnotatorNotes T47	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Assertion T21 Speculated
+A2	Status T17 History_of
+A3	Status T16 History_of
+A4	Assertion T18 Contraindicated
+A5	Status T22 History_of
+A6	Status T23 History_of
+A7	Status T24 History_of
+A8	Status T25 History_of
+A9	Status T26 History_of
+#41	AnnotatorNotes T29	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity
+#42	AnnotatorNotes T22	C0192398; Operation on stomach; Therapeutic or Preventive Procedure
+A10	Assertion T22 Speculated
+R1	Before Arg1:T2 Arg2:T4	
+R2	Before Arg1:T3 Arg2:T4	
+R3	Location_of Arg1:T28 Arg2:T27	
+T48	Quantifier_or_Qualifier 144 148	alta
+#43	AnnotatorNotes T48	C1282910; Upper; Spatial Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T48	
+T49	Quantifier_or_Qualifier 343 347	alta
+#44	AnnotatorNotes T49	C1282910; Upper; Spatial Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T49	
+R6	Location_of Arg1:T31 Arg2:T30	
+T50	Quantifier_or_Qualifier 437 441	alta
+#45	AnnotatorNotes T50	C1282910; Upper; Spatial Concept
+R7	Location_of Arg1:T32 Arg2:T10	
+R8	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T50	
+R9	Location_of Arg1:T9 Arg2:T8	
+R10	Location_of Arg1:T33 Arg2:T12	
+T51	Quantifier_or_Qualifier 568 572	alta
+R11	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T51	
+R12	Has_Age Arg1:T42 Arg2:T43	
+T52	PROC 501 519	acudan a urgencias
+#46	AnnotatorNotes T52	C1527398; Emergency Care; Therapeutic or Preventive Procedure
+R13	Experiences Arg1:T42 Arg2:T52	
+R14	Experiences Arg1:T42 Arg2:T12	
+R15	Overlap Arg1:T12 Arg2:T13	
+R16	Overlap Arg1:T12 Arg2:T14	
+R17	Overlap Arg1:T12 Arg2:T15	
+R18	Experiences Arg1:T42 Arg2:T13	
+R19	Experiences Arg1:T42 Arg2:T14	
+R20	Experiences Arg1:T42 Arg2:T15	
+#47	AnnotatorNotes T51	C1282910; Upper; Spatial Concept
+R21	Has_Route_or_Mode Arg1:T5 Arg2:T39	
+R22	Has_Route_or_Mode Arg1:T6 Arg2:T40	
+R23	Has_Dose_or_Strength Arg1:T6 Arg2:T41	
+R24	Has_Dose_or_Strength Arg1:T5 Arg2:T41	
+R25	Before Arg1:T5 Arg2:T7	
+R26	Before Arg1:T6 Arg2:T7	
+R27	Causes Arg1:T18 Arg2:T16	
+R28	Causes Arg1:T18 Arg2:T17	
+R29	Overlap Arg1:T19 Arg2:T20	
+R30	Speculation Arg1:T44 Arg2:T21	
+R31	Speculation Arg1:T44 Arg2:T22	
+R32	Location_of Arg1:T35 Arg2:T22	
+R33	Location_of Arg1:T36 Arg2:T23	
+R34	Location_of Arg1:T37 Arg2:T24	
+R35	Location_of Arg1:T37 Arg2:T25	
+R36	Overlap Arg1:T26 Arg2:T45	
+A11	Experiencer T42 Patient

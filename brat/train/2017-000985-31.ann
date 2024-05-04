@@ -1,0 +1,328 @@
+T1	PROC 45 96	Estudio fase 3b de simplificación, de un solo brazo
+T2	PROC 102 109	terapia
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	CHEM 127 130	3TC
+#2	AnnotatorNotes T3	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T4	CHEM 150 161	Raltegravir
+#3	AnnotatorNotes T4	C1871526; raltegravir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T5	DISO 191 214	infectados por el VIH-1
+#4	AnnotatorNotes T5	C2363741; HIV-1 infection; Disease or Syndrome
+T6	DISO 256 265	molestias
+#5	AnnotatorNotes T6	C2364135; Discomfort; Sign or Symptom
+T7	DISO 267 276	toxicidad
+#6	AnnotatorNotes T7	C0600688; Toxic effect; Injury or Poisoning
+T8	DISO 305 319	comorbilidades
+#7	AnnotatorNotes T8	C1275743; Co-morbid conditions; Finding
+T9	DISO 341 366	interacciones de fármacos
+#8	AnnotatorNotes T9	C0687133; Drug Interactions; Pathologic Function
+T10	PROC 513 524	tratamiento
+#9	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	DISO 566 619	infectados por Virus de la Inmunodeficiencia Humana-1
+T12	DISO 662 671	molestias
+#10	AnnotatorNotes T12	C2364135; Discomfort; Sign or Symptom
+T13	DISO 673 682	toxicidad
+#11	AnnotatorNotes T13	C0600688; Toxic effect; Injury or Poisoning
+T14	DISO 711 725	comorbilidades
+#12	AnnotatorNotes T14	C1275743; Co-morbid conditions; Finding
+T15	DISO 738 763	interacciones de fármacos
+#13	AnnotatorNotes T15	C0687133; Drug Interactions; Pathologic Function
+T16	PROC 934 952	prueba de embarazo
+#14	AnnotatorNotes T16	C0032976; Pregnancy Tests; Diagnostic Procedure
+T17	PROC 997 1015	asignación al azar
+T18	PROC 1096 1107	diagnóstico
+#15	AnnotatorNotes T18	C0011900; Diagnosis; Diagnostic Procedure
+T19	DISO 1168 1177	toxicidad
+#16	AnnotatorNotes T19	C0600688; Toxic effect; Injury or Poisoning
+T20	DISO 1203 1217	comorbilidades
+#17	AnnotatorNotes T20	C1275743; Co-morbid conditions; Finding
+T21	PROC 1432 1456	consentimiento informado
+#18	AnnotatorNotes T21	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T22	CHEM 1718 1721	FTC
+#19	AnnotatorNotes T22	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T23	CHEM 1636 1663	inhibidores de la integrasa
+#20	AnnotatorNotes T23	C0376601; Integrase Inhibitors; Biologically Active Substance · Pharmacologic Substance
+T24	CHEM 1712 1715	3TC
+#21	AnnotatorNotes T24	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T25	CHEM 1754 1757	3TC
+#22	AnnotatorNotes T25	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T26	CHEM 1760 1782	inhibidor de integrasa
+#23	AnnotatorNotes T26	C0376601; Integrase Inhibitors; Biologically Active Substance · Pharmacologic Substance
+T27	DISO 1860 1870	enfermedad
+#24	AnnotatorNotes T27	C0012634; Disease; Disease or Syndrome
+T28	DISO 1888 1898	enfermedad
+#25	AnnotatorNotes T28	C0012634; Disease; Disease or Syndrome
+T29	PROC 2012 2023	tratamiento
+#26	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	DISO 2041 2060	Hepatitis B crónica
+#27	AnnotatorNotes T30	C0524909; Hepatitis B, Chronic; Disease or Syndrome
+T31	CHEM 358 366	fármacos
+#28	AnnotatorNotes T31	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T32	PROC 374 381	régimen
+#29	AnnotatorNotes T32	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T33	DISO 454 492	virus de la inmunodeficiencia humana-1
+T34	LIVB 1066 1071	VIH-1
+#30	AnnotatorNotes T34	C0019704; HIV-1; Virus
+T35	CHEM 755 763	fármacos
+#31	AnnotatorNotes T35	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T36	PROC 771 778	régimen
+#32	AnnotatorNotes T36	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T37	DISO 1230 1258	interacciones medicamentosas
+T38	PROC 1266 1273	régimen
+#33	AnnotatorNotes T38	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T39	PROC 1370 1381	carga viral
+#34	AnnotatorNotes T39	C1261478; Viral load measurement; Laboratory Procedure
+T40	PROC 1615 1622	régimen
+#35	AnnotatorNotes T40	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T41	PROC 1691 1698	régimen
+#36	AnnotatorNotes T41	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T42	DISO 1726 1751	Mutaciones de resistencia
+T43	PROC 1793 1814	prueba de resistencia
+#37	AnnotatorNotes T43	C2049879; infectious agent phenotype nucleic acid HIV 1 drug resistance tissue culture analysis; Laboratory Procedure
+T44	Date 13 17	2017
+T45	Dose 132 138	300 mg
+T46	Frequency 142 144	QD
+T47	Dose 163 170	1200 mg
+T48	Frequency 174 176	QD
+T49	LIVB 181 190	pacientes
+#38	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T51	Spec_cue 331 340	riesgo de
+T52	Date 382 388	actual
+T53	LIVB 428 437	Pacientes
+#39	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T55	Date 525 531	actual
+T56	LIVB 556 565	Pacientes
+#40	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 581 619	Virus de la Inmunodeficiencia Humana-1
+#41	AnnotatorNotes T57	C0019704; HIV-1; Virus
+T59	Spec_cue 728 737	riesgo de
+T60	Date 779 785	actual
+T61	LIVB 818 827	pacientes
+#42	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 844 851	hombres
+#43	AnnotatorNotes T62	C0025266; Male population group; Population Group
+T63	LIVB 854 861	mujeres
+#44	AnnotatorNotes T63	C0043210; Woman; Population Group
+T64	Age 865 881	al menos 18 años
+T65	LIVB 895 917	mujeres en edad fértil
+#45	AnnotatorNotes T65	C4324275; Woman of childbearing potential; Population Group
+T66	Neg_cue 953 961	negativa
+T67	Duration 972 983	los 10 días
+T68	LIVB 1034 1043	Pacientes
+#46	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 1125 1134	pacientes
+#47	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T71	Spec_cue 1220 1229	riesgo de
+T73	Date 1274 1280	actual
+T74	LIVB 1284 1293	Pacientes
+#48	AnnotatorNotes T74	C0030705; Patients; Patient or Disabled Group
+T75	Duration 1329 1346	al menos 12 meses
+T76	LIVB 1403 1412	Pacientes
+#49	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T77	PHYS 1516 1524	Embarazo
+#50	AnnotatorNotes T77	C0032961; Pregnancy; Organism Function
+T78	PHYS 1526 1535	lactancia
+#51	AnnotatorNotes T78	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T79	PHYS 1538 1546	embarazo
+#52	AnnotatorNotes T79	C0032961; Pregnancy; Organism Function
+T82	LIVB 1917 1929	investigador
+#53	AnnotatorNotes T82	C0035173; Research Personnel; Professional or Occupational Group
+T84	LIVB 2028 2036	paciente
+#54	AnnotatorNotes T84	C0030705; Patients; Patient or Disabled Group
+T85	Duration 2053 2060	crónica
+#55	AnnotatorNotes T85	C0205191; chronic; Temporal Concept
+T87	PHYS 944 952	embarazo
+#56	AnnotatorNotes T87	C0032961; Pregnancy; Organism Function
+T50	Age 906 917	edad fértil
+T54	LIVB 1376 1381	viral
+#57	AnnotatorNotes T54	C0042776; Virus; Virus
+T58	LIVB 209 214	VIH-1
+#58	AnnotatorNotes T58	C0019704; HIV-1; Virus
+A1	Assertion T9 Speculated
+A2	Assertion T15 Speculated
+A3	Population_data T65 Age
+A4	Assertion T87 Negated
+A5	Assertion T37 Speculated
+A6	Status T40 History_of
+A7	Status T23 History_of
+A8	Status T41 History_of
+A9	Status T24 History_of
+A10	Status T22 History_of
+A11	Status T43 History_of
+A12	Status T28 History_of
+#59	AnnotatorNotes T52	C0521116; Current (present time); Temporal Concept 
+#60	AnnotatorNotes T55	C0521116; Current (present time); Temporal Concept 
+#61	AnnotatorNotes T60	C0521116; Current (present time); Temporal Concept 
+#62	AnnotatorNotes T73	C0521116; Current (present time); Temporal Concept 
+#63	AnnotatorNotes T17	C0034656; Randomization; Research Activity
+#64	AnnotatorNotes T11	C2363741; HIV-1 infection; Disease or Syndrome
+#65	AnnotatorNotes T33	C2363741; HIV-1 infection; Disease or Syndrome
+#66	AnnotatorNotes T1	C2826346; Single Group Study; Research Activity (?) + C1706097; Trial Phase 3B; Research Activity
+#67	AnnotatorNotes T37	C0687133; Drug Interactions; Pathologic Function
+T70	Spec_cue 1931 1936	pueda
+T72	Observation 1937 1961	confundir los resultados
+A13	Assertion T72 Speculated
+R1	Speculation Arg1:T70 Arg2:T72	
+T80	Observation 1987 1993	riesgo
+A14	Assertion T80 Speculated
+R2	Speculation Arg1:T70 Arg2:T80	
+T81	Quantifier_or_Qualifier 110 114	dual
+R3	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T81	
+R4	Combined_with Arg1:T3 Arg2:T4	
+R5	Used_for Arg1:T3 Arg2:T2	
+R6	Has_Dose_or_Strength Arg1:T3 Arg2:T45	
+R7	Has_Frequency Arg1:T3 Arg2:T46	
+R8	Has_Dose_or_Strength Arg1:T4 Arg2:T47	
+R9	Has_Frequency Arg1:T4 Arg2:T48	
+R10	Experiences Arg1:T49 Arg2:T2	
+R11	Experiences Arg1:T49 Arg2:T5	
+R12	Causes Arg1:T58 Arg2:T5	
+T83	Observation 215 241	virológicamente suprimidos
+R13	Experiences Arg1:T49 Arg2:T83	
+R15	Overlap Arg1:T83 Arg2:T6	
+R16	Overlap Arg1:T83 Arg2:T7	
+T86	Observation 278 294	impacto negativo
+R17	Experiences Arg1:T49 Arg2:T6	
+R18	Experiences Arg1:T49 Arg2:T7	
+R19	Experiences Arg1:T49 Arg2:T86	
+R20	Experiences Arg1:T49 Arg2:T8	
+R21	Overlap Arg1:T83 Arg2:T8	
+R22	Overlap Arg1:T83 Arg2:T86	
+R23	Overlap Arg1:T83 Arg2:T9	
+R24	Speculation Arg1:T51 Arg2:T9	
+R25	Overlap Arg1:T32 Arg2:T52	
+R26	Used_for Arg1:T31 Arg2:T32	
+R27	Experiences Arg1:T49 Arg2:T9	
+R28	Experiences Arg1:T49 Arg2:T32	
+T88	Quantifier_or_Qualifier 438 449	controlados
+R29	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T88	
+R30	Experiences Arg1:T53 Arg2:T33	
+T89	Observation 497 524	problemas en su tratamiento
+R31	Experiences Arg1:T53 Arg2:T89	
+R32	Overlap Arg1:T10 Arg2:T55	
+R33	Causes Arg1:T10 Arg2:T89	
+R34	Experiences Arg1:T53 Arg2:T10	
+R35	Experiences Arg1:T56 Arg2:T11	
+R36	Causes Arg1:T57 Arg2:T11	
+T90	Observation 620 646	virológicamente suprimidos
+R37	Experiences Arg1:T56 Arg2:T90	
+R39	Before Arg1:T33 Arg2:T89	
+R40	Experiences Arg1:T56 Arg2:T12	
+R41	Experiences Arg1:T56 Arg2:T13	
+R42	Experiences Arg1:T56 Arg2:T14	
+R43	Experiences Arg1:T56 Arg2:T15	
+R44	Experiences Arg1:T56 Arg2:T36	
+R45	Overlap Arg1:T36 Arg2:T60	
+R46	Speculation Arg1:T59 Arg2:T15	
+R47	Causes Arg1:T35 Arg2:T15	
+T91	Observation 684 700	impacto negativo
+R48	Experiences Arg1:T56 Arg2:T91	
+R49	Overlap Arg1:T90 Arg2:T12	
+R50	Overlap Arg1:T90 Arg2:T13	
+R51	Causes Arg1:T31 Arg2:T9	
+R52	Causes Arg1:T35 Arg2:T13	
+R53	Causes Arg1:T31 Arg2:T7	
+R54	Overlap Arg1:T90 Arg2:T91	
+R55	Overlap Arg1:T90 Arg2:T14	
+R56	Overlap Arg1:T90 Arg2:T15	
+R57	Used_for Arg1:T35 Arg2:T36	
+R58	Before Arg1:T27 Arg2:T72	
+R59	Before Arg1:T28 Arg2:T72	
+R60	Before Arg1:T28 Arg2:T80	
+R61	Before Arg1:T27 Arg2:T80	
+R62	Experiences Arg1:T84 Arg2:T29	
+R63	Experiences Arg1:T84 Arg2:T28	
+R64	Experiences Arg1:T84 Arg2:T27	
+R65	Experiences Arg1:T84 Arg2:T80	
+R66	Has_Duration_or_Interval Arg1:T30 Arg2:T85	
+R67	Has_Age Arg1:T62 Arg2:T64	
+R68	Has_Age Arg1:T63 Arg2:T64	
+R69	Has_Age Arg1:T61 Arg2:T64	
+R70	Has_Age Arg1:T65 Arg2:T50	
+R71	Negation Arg1:T66 Arg2:T87	
+R72	Experiences Arg1:T65 Arg2:T16	
+R73	Overlap Arg1:T16 Arg2:T67	
+R74	Before Arg1:T16 Arg2:T17	
+T92	DISO 1044 1071	seropositivos para el VIH-1
+R75	Experiences Arg1:T68 Arg2:T92	
+R76	Causes Arg1:T34 Arg2:T92	
+#68	AnnotatorNotes T92	C2363741; HIV-1 infection; Disease or Syndrome
+T94	Observation 1152 1166	inconvenientes
+R78	Experiences Arg1:T69 Arg2:T94	
+R79	Experiences Arg1:T69 Arg2:T19	
+T95	Observation 1179 1195	impacto negativo
+R80	Experiences Arg1:T69 Arg2:T95	
+R81	Experiences Arg1:T69 Arg2:T20	
+R82	Overlap Arg1:T38 Arg2:T73	
+R83	Overlap Arg1:T37 Arg2:T38	
+R84	Causes Arg1:T38 Arg2:T19	
+R85	Causes Arg1:T35 Arg2:T12	
+R86	Causes Arg1:T35 Arg2:T91	
+R87	Causes Arg1:T31 Arg2:T86	
+R88	Causes Arg1:T31 Arg2:T6	
+R89	Speculation Arg1:T71 Arg2:T37	
+R90	Causes Arg1:T38 Arg2:T95	
+R91	Causes Arg1:T38 Arg2:T94	
+R92	Experiences Arg1:T69 Arg2:T37	
+R93	Experiences Arg1:T69 Arg2:T38	
+T96	Observation 1294 1320	virológicamente suprimidos
+R94	Experiences Arg1:T74 Arg2:T96	
+R95	Has_Duration_or_Interval Arg1:T96 Arg2:T75	
+T97	CONC 1359 1368	inclusión
+#69	AnnotatorNotes T97	C1512693; Inclusion; Qualitative Concept
+R96	Before Arg1:T96 Arg2:T97	
+T98	Result_or_Value 1382 1397	<50 copias / mL
+R97	Has_Result_or_Value Arg1:T39 Arg2:T98	
+R98	Experiences Arg1:T74 Arg2:T39	
+T99	Quantifier_or_Qualifier 1547 1558	planificado
+R99	Has_Quantifier_or_Qualifier Arg1:T79 Arg2:T99	
+T100	PROC 1581 1588	estudio
+#70	AnnotatorNotes T100	C0681814; research study; Research Activity
+R100	Overlap Arg1:T79 Arg2:T100	
+R101	Overlap Arg1:T78 Arg2:T100	
+R102	Overlap Arg1:T77 Arg2:T100	
+T101	Observation 1593 1600	Fracaso
+R103	Used_for Arg1:T23 Arg2:T40	
+A15	Status T101 History_of
+T102	Observation 1668 1675	Fracaso
+A16	Status T102 History_of
+R104	Used_for Arg1:T24 Arg2:T41	
+R105	Used_for Arg1:T22 Arg2:T41	
+R106	Before Arg1:T41 Arg2:T102	
+R107	Before Arg1:T40 Arg2:T101	
+R108	Experiences Arg1:T65 Arg2:T87	
+T103	Observation 1462 1486	participar en el estudio
+#71	AnnotatorNotes T103	C1278516; Patient participation status; Finding (?)
+R109	Before Arg1:T21 Arg2:T103	
+R112	Overlap Arg1:T5 Arg2:T8	
+R123	Overlap Arg1:T5 Arg2:T9	
+R115	Overlap Arg1:T11 Arg2:T14	
+R125	Overlap Arg1:T11 Arg2:T12	
+R126	Overlap Arg1:T11 Arg2:T13	
+R127	Overlap Arg1:T11 Arg2:T15	
+R113	Overlap Arg1:T5 Arg2:T7	
+R117	Overlap Arg1:T5 Arg2:T6	
+#72	AnnotatorNotes T99	C1301732; Planned; Functional Concept
+#73	AnnotatorNotes T81	C1554184; Dual; Intellectual Product
+#74	AnnotatorNotes T80	C0559571; At risk - finding; Finding
+#75	AnnotatorNotes T83	C3888663; Sustained viral response; Finding (?)
+#76	AnnotatorNotes T90	C3888663; Sustained viral response; Finding (?)
+#77	AnnotatorNotes T96	C3888663; Sustained viral response; Finding (?)
+#78	AnnotatorNotes T102	C0162643; treatment failure; Finding
+#79	AnnotatorNotes T101	C0162643; treatment failure; Finding
+#80	AnnotatorNotes T42	C5704646; Drug resistance mutation; Cell or Molecular Dysfunction
+A17	Experiencer T69 Patient
+A18	Experiencer T68 Patient
+A19	Experiencer T74 Patient
+A20	Experiencer T76 Patient
+A21	Experiencer T65 Patient
+A22	Experiencer T61 Patient
+A23	Experiencer T62 Patient
+A24	Experiencer T63 Patient
+A25	Experiencer T56 Patient
+A26	Experiencer T53 Patient
+A27	Experiencer T49 Patient
+A28	Experiencer T84 Patient
+A29	Experiencer T82 Other
+A30	Status T79 Future
+T93	Result_or_Value 953 961	negativa
+R14	Has_Result_or_Value Arg1:T16 Arg2:T93	

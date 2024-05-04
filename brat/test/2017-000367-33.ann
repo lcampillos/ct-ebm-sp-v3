@@ -1,0 +1,145 @@
+T1	ANAT 930 944	leptomeningeas
+#1	AnnotatorNotes T1	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T2	CHEM 108 117	nivolumab
+#2	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 120 131	daratumumab
+#3	AnnotatorNotes T3	C2346801; daratumumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	PROC 157 168	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 172 187	tumores sólidos
+#5	AnnotatorNotes T5	C0280100; Solid Neoplasm; Neoplastic Process
+T6	PROC 235 250	Ensayo fase 1/2
+T7	PROC 256 290	evaluar la seguridad y la eficacia
+#6	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T8	CHEM 305 314	nivolumab
+#7	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	CHEM 329 340	daratumumab
+#8	AnnotatorNotes T9	C2346801; daratumumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	DISO 390 402	metastásicos
+#9	AnnotatorNotes T10	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T11	DISO 426 434	Cánceres
+#10	AnnotatorNotes T11	C0006826; Malignant Neoplasms; Neoplastic Process
+T12	DISO 471 486	Tumores sólidos
+#11	AnnotatorNotes T12	C0280100; Solid Neoplasm; Neoplastic Process
+T13	DISO 554 569	tumores sólidos
+#12	AnnotatorNotes T13	C0280100; Solid Neoplasm; Neoplastic Process
+T14	DISO 609 642	carcinoma de mama triple negativo
+#13	AnnotatorNotes T14	C4722518; Triple-Negative Breast Carcinoma; Neoplastic Process
+T15	DISO 362 377	tumores sólidos
+#14	AnnotatorNotes T15	C0280100; Solid Neoplasm; Neoplastic Process
+T16	DISO 704 730	adenocarcinoma pancreático
+T17	DISO 1015 1025	malignidad
+#15	AnnotatorNotes T17	C0006826; Malignant Neoplasms; Neoplastic Process
+T18	DISO 831 862	Cáncer de pulmón no microcítico
+#16	AnnotatorNotes T18	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T19	DISO 864 868	CPNM
+#17	AnnotatorNotes T19	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T20	DISO 898 944	Metástasis cerebrales activas o leptomeningeas
+T21	DISO 958 975	alteración médica
+T22	DISO 200 212	metastásicos
+#18	AnnotatorNotes T22	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T23	DISO 499 511	metastásicos
+#19	AnnotatorNotes T23	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T24	DISO 582 594	metastásicos
+#20	AnnotatorNotes T24	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T25	ANAT 622 626	mama
+#21	AnnotatorNotes T25	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T26	ANAT 719 730	pancreático
+#22	AnnotatorNotes T26	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T27	ANAT 841 847	pulmón
+#23	AnnotatorNotes T27	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T28	ANAT 851 862	microcítico
+#24	AnnotatorNotes T28	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T29	ANAT 909 919	cerebrales
+#25	AnnotatorNotes T29	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T30	Date 13 17	2017
+T32	LIVB 540 549	Pacientes
+#26	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 597 604	Mujeres
+#27	AnnotatorNotes T33	C0043210; Woman; Population Group
+T35	LIVB 765 774	pacientes
+#28	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Neg_cue 848 850	no
+T38	Duration 1043 1064	los 3 años anteriores
+T31	LIVB 344 357	participantes
+#29	AnnotatorNotes T31	C4554048; Study Participant; Population Group
+T34	LIVB 686 699	Participantes
+#30	AnnotatorNotes T34	C4554048; Study Participant; Population Group
+T37	PROC 731 747	histológicamente
+#31	AnnotatorNotes T37	C0344441; Histology Procedure; Laboratory Procedure
+T39	PROC 654 683	citológica o histológicamente
+#32	AnnotatorNotes T39	C1305671; Cytology procedure; Laboratory Procedure + C0344441; Histology Procedure; Laboratory Procedure
+T40	PROC 790 827	confirmación histológica o citológica
+#33	AnnotatorNotes T40	C1305671; Cytology procedure; Laboratory Procedure + C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T28 Negated
+#34	AnnotatorNotes T6	C1519043; Phase I/II Trial; Research Activity
+#35	AnnotatorNotes T16	C0281361; Adenocarcinoma of pancreas; Neoplastic Process | C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T41	Neg_cue 984 986	no
+T42	Quantifier_or_Qualifier 987 997	controlada
+A2	Assertion T42 Negated
+T43	Spec_cue 87 89	si
+R1	Combined_with Arg1:T2 Arg2:T3	
+T44	Quantifier_or_Qualifier 135 141	segura
+A3	Assertion T44 Speculated
+R2	Speculation Arg1:T43 Arg2:T44	
+T45	Quantifier_or_Qualifier 144 150	eficaz
+A4	Assertion T45 Speculated
+#36	AnnotatorNotes T45	C1704419; Effective; Qualitative Concept
+R3	Speculation Arg1:T43 Arg2:T45	
+R4	Used_for Arg1:T2 Arg2:T4	
+R5	Before Arg1:T5 Arg2:T22	
+T46	Quantifier_or_Qualifier 188 197	avanzados
+#37	AnnotatorNotes T46	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T46	
+T47	Quantifier_or_Qualifier 378 387	avanzados
+#38	AnnotatorNotes T47	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T47	
+R8	Before Arg1:T15 Arg2:T10	
+R9	Before Arg1:T12 Arg2:T23	
+T48	Quantifier_or_Qualifier 487 496	avanzados
+#39	AnnotatorNotes T48	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T48	
+T49	Quantifier_or_Qualifier 435 444	avanzados
+#40	AnnotatorNotes T49	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T49	
+R12	Before Arg1:T13 Arg2:T24	
+T50	Quantifier_or_Qualifier 570 579	avanzados
+#41	AnnotatorNotes T50	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R13	Experiences Arg1:T32 Arg2:T13	
+R14	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T50	
+R15	Experiences Arg1:T32 Arg2:T24	
+R16	Location_of Arg1:T25 Arg2:T14	
+R18	Experiences Arg1:T33 Arg2:T14	
+R19	Experiences Arg1:T34 Arg2:T16	
+R20	Location_of Arg1:T26 Arg2:T16	
+R22	Experiences Arg1:T35 Arg2:T40	
+R23	Experiences Arg1:T35 Arg2:T18	
+R24	Experiences Arg1:T35 Arg2:T19	
+R25	Location_of Arg1:T28 Arg2:T18	
+R26	Location_of Arg1:T27 Arg2:T18	
+R27	Negation Arg1:T36 Arg2:T28	
+R28	Location_of Arg1:T28 Arg2:T19	
+R29	Location_of Arg1:T27 Arg2:T19	
+R32	Location_of Arg1:T29 Arg2:T20	
+R33	Location_of Arg1:T1 Arg2:T20	
+R34	Negation Arg1:T41 Arg2:T42	
+R35	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T42	
+T51	Quantifier_or_Qualifier 976 981	grave
+#42	AnnotatorNotes T51	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R36	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T51	
+R37	Overlap Arg1:T17 Arg2:T38	
+T52	Quantifier_or_Qualifier 1026 1032	activa
+#43	AnnotatorNotes T52	C0679217; Active State; Idea or Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T52	
+R39	Combined_with Arg1:T8 Arg2:T9	
+R40	Experiences Arg1:T31 Arg2:T8	
+R41	Experiences Arg1:T31 Arg2:T15	
+R42	Experiences Arg1:T31 Arg2:T10	
+R43	Experiences Arg1:T33 Arg2:T39	
+R44	Experiences Arg1:T34 Arg2:T37	
+#44	AnnotatorNotes T21	C4745084; Medical Condition; Finding (?) 
+A5	Experiencer T31 Patient
+A6	Experiencer T32 Patient
+A7	Experiencer T33 Patient
+A8	Experiencer T34 Patient
+A9	Experiencer T35 Patient

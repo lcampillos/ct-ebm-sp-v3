@@ -1,0 +1,142 @@
+T1	CHEM 14 48	citrato fentanilo oral transmucosa
+#1	AnnotatorNotes T1	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T2	CHEM 50 54	CFOT
+#2	AnnotatorNotes T2	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T3	PROC 70 80	ansiolisis
+#3	AnnotatorNotes T3	C1961138; Induction of minimal sedation (procedure); Therapeutic or Preventive Procedure
+T4	DISO 206 216	disconfort
+#4	AnnotatorNotes T4	C2364135; Discomfort; Sign or Symptom
+T5	PROC 97 121	analgesia postoperatoria
+#5	AnnotatorNotes T5	C0521301; Postoperative administration of analgesia; Therapeutic or Preventive Procedure | C0853389; Postoperative analgesia; Therapeutic or Preventive Procedure
+T6	PROC 148 155	cirugía
+#6	AnnotatorNotes T6	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T7	PROC 471 478	cirugía
+#7	AnnotatorNotes T7	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T8	CHEM 559 596	citrato de fentanilo oral transmucosa
+#8	AnnotatorNotes T8	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T9	CHEM 598 602	CFOT
+#9	AnnotatorNotes T9	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T10	PROC 773 792	adenoamigdalectomía
+#10	AnnotatorNotes T10	C0193959; Tonsillectomy and adenoidectomy; Therapeutic or Preventive Procedure
+T11	PROC 618 628	ansiolisis
+#11	AnnotatorNotes T11	C1961138; Induction of minimal sedation (procedure); Therapeutic or Preventive Procedure
+T12	PROC 645 669	analgesia postoperatoria
+#12	AnnotatorNotes T12	C0521301; Postoperative administration of analgesia; Therapeutic or Preventive Procedure | C0853389; Postoperative analgesia; Therapeutic or Preventive Procedure
+T13	PROC 708 720	intervención
+#13	AnnotatorNotes T13	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T14	CHEM 733 737	CFOT
+#14	AnnotatorNotes T14	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T15	PROC 1308 1327	proceso asistencial
+T16	PROC 1110 1120	ansiolisis
+#15	AnnotatorNotes T16	C1961138; Induction of minimal sedation (procedure); Therapeutic or Preventive Procedure
+T17	CHEM 1151 1155	CFOT
+#16	AnnotatorNotes T17	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T18	PROC 125 143	cirugía pediátrica
+T19	PROC 845 854	analgesia
+#17	AnnotatorNotes T19	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T20	PROC 1123 1132	analgesia
+#18	AnnotatorNotes T20	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T21	Route 32 36	oral
+#19	AnnotatorNotes T21	C1527415; Oral Route of Drug administration; Functional Concept
+T22	Time 81 94	preoperatoria
+#20	AnnotatorNotes T22	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T23	Time 107 121	postoperatoria
+#21	AnnotatorNotes T23	C0032790; Postoperative Period; Temporal Concept
+T24	LIVB 162 180	población infantil
+#22	AnnotatorNotes T24	C1257890; Population; Population Group + C0008059; Child; Age Group
+T25	LIVB 225 233	paciente
+#23	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 247 255	familiar
+#24	AnnotatorNotes T26	C0080103; Relative (related person); Family Group
+T28	LIVB 404 409	niños
+#25	AnnotatorNotes T28	C0008059; Child; Age Group
+T30	Time 484 498	postoperatorio
+#26	AnnotatorNotes T30	C0032790; Postoperative Period; Temporal Concept
+T31	Route 580 584	oral
+#27	AnnotatorNotes T31	C1527415; Oral Route of Drug administration; Functional Concept
+T32	Time 629 642	preoperatorio
+#28	AnnotatorNotes T32	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T33	Time 655 669	postoperatoria
+#29	AnnotatorNotes T33	C0032790; Postoperative Period; Temporal Concept
+T34	LIVB 755 760	niños
+#30	AnnotatorNotes T34	C0008059; Child; Age Group
+T35	Time 886 900	postoperatorio
+#31	AnnotatorNotes T35	C0032790; Postoperative Period; Temporal Concept
+T36	LIVB 966 979	grupo control
+#32	AnnotatorNotes T36	C0009932; Control Groups; Group
+T37	LIVB 1268 1274	padres
+#33	AnnotatorNotes T37	C0030551; parent; Family Group
+T39	LIVB 315 328	profesionales
+#34	AnnotatorNotes T39	C0679924; professional occupation status; Professional or Occupational Group
+T40	LIVB 1277 1290	profesionales
+#35	AnnotatorNotes T40	C0679924; professional occupation status; Professional or Occupational Group
+T27	Dose 721 729	10 ug/Kg
+T29	PHYS 415 438	condiciones emocionales
+#36	AnnotatorNotes T29	C0935620; Emotional states; Mental Process
+A1	Population_data T24 Age
+A2	Population_data T28 Age
+A3	Population_data T34 Age
+R1	Has_Route_or_Mode Arg1:T1 Arg2:T21	
+R2	Has_Route_or_Mode Arg1:T2 Arg2:T21	
+R3	Used_for Arg1:T2 Arg2:T3	
+R4	Used_for Arg1:T1 Arg2:T3	
+R5	Overlap Arg1:T3 Arg2:T22	
+R6	Overlap Arg1:T5 Arg2:T23	
+R7	Before Arg1:T18 Arg2:T5	
+R8	Before Arg1:T3 Arg2:T18	
+R9	Used_for Arg1:T2 Arg2:T5	
+R10	Used_for Arg1:T1 Arg2:T5	
+R11	Experiences Arg1:T24 Arg2:T6	
+R12	Experiences Arg1:T24 Arg2:T4	
+R13	Causes Arg1:T6 Arg2:T4	
+R14	Experiences Arg1:T25 Arg2:T4	
+R15	Experiences Arg1:T25 Arg2:T6	
+R16	Experiences Arg1:T28 Arg2:T29	
+R17	Experiences Arg1:T28 Arg2:T7	
+R18	Before Arg1:T7 Arg2:T30	
+R21	Has_Route_or_Mode Arg1:T8 Arg2:T31	
+R22	Has_Route_or_Mode Arg1:T9 Arg2:T31	
+R23	Used_for Arg1:T9 Arg2:T11	
+R24	Used_for Arg1:T8 Arg2:T11	
+R25	Overlap Arg1:T11 Arg2:T32	
+R26	Overlap Arg1:T12 Arg2:T33	
+R27	Used_for Arg1:T9 Arg2:T12	
+R28	Used_for Arg1:T8 Arg2:T12	
+R29	Before Arg1:T11 Arg2:T12	
+R30	Before Arg1:T14 Arg2:T13	
+R31	Has_Dose_or_Strength Arg1:T14 Arg2:T27	
+R32	Experiences Arg1:T34 Arg2:T13	
+R33	Experiences Arg1:T34 Arg2:T14	
+R34	Experiences Arg1:T34 Arg2:T10	
+R35	Before Arg1:T14 Arg2:T10	
+R37	Overlap Arg1:T19 Arg2:T35	
+R38	Before Arg1:T10 Arg2:T19	
+R39	Used_for Arg1:T14 Arg2:T19	
+T41	CONC 1012 1024	T de student
+#38	AnnotatorNotes T41	C0871453; Students T Test; Intellectual Product
+T42	CONC 1027 1032	ANOVA
+#39	AnnotatorNotes T42	C0002780; Analysis of Variance; Quantitative Concept
+R40	Used_for Arg1:T17 Arg2:T20	
+R41	Experiences Arg1:T36 Arg2:T20	
+R42	Experiences Arg1:T36 Arg2:T16	
+R43	Before Arg1:T16 Arg2:T20	
+R44	Before Arg1:T29 Arg2:T7	
+R45	Experiences Arg1:T34 Arg2:T19	
+R36	Overlap Arg1:T2 Arg2:T22	
+R46	Overlap Arg1:T1 Arg2:T22	
+R47	Overlap Arg1:T9 Arg2:T32	
+R48	Overlap Arg1:T8 Arg2:T32	
+T38	Quantifier_or_Qualifier 901 910	inmediato
+#37	AnnotatorNotes T38	C0205253; Immediate; Temporal Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T38	
+R50	Used_for Arg1:T17 Arg2:T16	
+#40	AnnotatorNotes T18	C3241973; Pediatric Surgical Procedures; Therapeutic or Preventive Procedure
+A4	Experiencer T40 Other
+A5	Experiencer T37 Family_member
+A6	Experiencer T36 Patient
+A7	Experiencer T24 Patient
+A8	Experiencer T26 Family_member
+A9	Experiencer T25 Patient
+A10	Experiencer T39 Other
+A11	Experiencer T28 Patient
+A12	Experiencer T34 Patient

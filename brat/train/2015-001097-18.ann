@@ -1,0 +1,228 @@
+T1	PROC 46 64	Ensayo de eficacia
+T2	CHEM 68 77	Nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 80 93	quimioterapia
+#2	AnnotatorNotes T3	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T4	DISO 109 137	cáncer de pulmón microcítico
+#3	AnnotatorNotes T4	C0149925; Small cell carcinoma of lung; Neoplastic Process
+T5	DISO 139 142	CPM
+#4	AnnotatorNotes T5	C0149925; Small cell carcinoma of lung; Neoplastic Process
+T6	PROC 178 216	Ensayo de Fase 3 abierto, aleatorizado
+T7	CHEM 221 230	Nivolumab
+#5	AnnotatorNotes T7	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	PROC 233 246	quimioterapia
+#6	AnnotatorNotes T8	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T9	DISO 292 295	CPM
+#7	AnnotatorNotes T9	C0149925; Small cell carcinoma of lung; Neoplastic Process
+T10	DISO 262 290	cáncer de pulmón microcítico
+#8	AnnotatorNotes T10	C0149925; Small cell carcinoma of lung; Neoplastic Process
+T11	PROC 319 349	quimioterapia de primera línea
+#9	AnnotatorNotes T11	C2045825; chemotherapeutics regimen first line of treatment; Therapeutic or Preventive Procedure
+T12	CHEM 360 367	platino
+#10	AnnotatorNotes T12	C0032207; platinum; Element, Ion, or Isotope
+T13	DISO 391 419	Cáncer de pulmón microcítico
+#11	AnnotatorNotes T13	C0149925; Small cell carcinoma of lung; Neoplastic Process
+T14	DISO 485 488	CMP
+T15	PROC 575 603	tratamiento de primera línea
+#12	AnnotatorNotes T15	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T16	PROC 608 621	quimioterapia
+#13	AnnotatorNotes T16	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T17	CHEM 632 639	platino
+#14	AnnotatorNotes T17	C0032207; platinum; Element, Ion, or Isotope
+T18	PROC 642 661	quimiorradioterapia
+#15	AnnotatorNotes T18	C0436307; Chemoradiotherapy; Therapeutic or Preventive Procedure
+T19	PROC 717 747	quimioterapia de primera línea
+#16	AnnotatorNotes T19	C2045825; chemotherapeutics regimen first line of treatment; Therapeutic or Preventive Procedure
+T20	CHEM 758 765	platino
+#17	AnnotatorNotes T20	C0032207; platinum; Element, Ion, or Isotope
+T21	DISO 771 781	enfermedad
+#18	AnnotatorNotes T21	C0012634; Disease; Disease or Syndrome
+T22	DISO 936 946	Metástasis
+#19	AnnotatorNotes T22	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T23	ANAT 976 1000	sistema nervioso central
+#20	AnnotatorNotes T23	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T24	DISO 1002 1026	meningitis carcinomatosa
+#21	AnnotatorNotes T24	C0220654; Meningeal Carcinomatosis; Neoplastic Process
+T25	DISO 1040 1061	enfermedad autoinmune
+#22	AnnotatorNotes T25	C0004364; Autoimmune Diseases; Disease or Syndrome
+T26	PROC 1094 1105	tratamiento
+#23	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	CHEM 1117 1138	anticuerpos anti-PD-1
+T28	CHEM 1140 1149	anti-PDL1
+T29	CHEM 1151 1161	anti-PD-L2
+T30	CHEM 1177 1188	anti-CTLA-4
+T31	CHEM 1195 1205	Ipilimumab
+#24	AnnotatorNotes T31	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	CHEM 1223 1233	anticuerpo
+#25	AnnotatorNotes T32	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T33	CHEM 1236 1353	medicamento dirigido específicamente a las vías de coestimulación de linfocitos T o los puntos de control inmunitario
+#26	AnnotatorNotes T33	C3192215; Selective T Cell Costimulation Blocker; Pharmacologic Substance (?) | C4684977; Immune Checkpoint Inhibitors; Pharmacologic Substance (?)
+T34	ANAT 1305 1317	linfocitos T
+#27	AnnotatorNotes T34	C0039194; T-Lymphocyte; Cell
+T35	CHEM 1369 1378	topotecan
+#28	AnnotatorNotes T35	C0146224; topotecan; Organic Chemical · Pharmacologic Substance
+T36	CHEM 1381 1391	amrubicina
+#29	AnnotatorNotes T36	C0762659; amrubicin; Antibiotic · Organic Chemical
+T37	ANAT 119 125	pulmón
+#30	AnnotatorNotes T37	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T38	ANAT 126 137	microcítico
+#31	AnnotatorNotes T38	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T39	ANAT 272 278	pulmón
+#32	AnnotatorNotes T39	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T40	ANAT 279 290	microcítico
+#33	AnnotatorNotes T40	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T41	ANAT 401 407	pulmón
+#34	AnnotatorNotes T41	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T42	ANAT 408 419	microcítico
+#35	AnnotatorNotes T42	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T43	PROC 509 519	histología
+#36	AnnotatorNotes T43	C0344441; Histology Procedure; Laboratory Procedure
+T44	PROC 522 531	citología
+#37	AnnotatorNotes T44	C1305671; Cytology procedure; Laboratory Procedure
+T45	DISO 957 969	sintomáticas
+#38	AnnotatorNotes T45	C1457887; Symptoms; Sign or Symptom
+T46	CHEM 1163 1173	anti-CD137
+T47	Date 13 17	2015
+T48	LIVB 97 104	sujetos
+#39	AnnotatorNotes T48	C0681850; Study Subject; Group
+T49	LIVB 250 257	sujetos
+#40	AnnotatorNotes T49	C0681850; Study Subject; Group
+T50	LIVB 458 480	Adultos de ambos sexos
+#41	AnnotatorNotes T50	C4281745; Human, Female adult + C0025266; Male population group; Population Group + C0001675; Adult; Age Group
+T51	LIVB 667 674	sujetos
+#42	AnnotatorNotes T51	C0681850; Study Subject; Group
+T53	Spec_cue 1081 1091	sospechada
+T55	PHYS 1287 1317	coestimulación de linfocitos T
+#43	AnnotatorNotes T55	C1622572; T cell costimulation; Cell Function
+T52	DISO 423 430	recaída
+#44	AnnotatorNotes T52	C0699753; Cancer Relapse; Neoplastic Process
+T54	DISO 539 549	recidivado
+#45	AnnotatorNotes T54	C0699753; Cancer Relapse; Neoplastic Process
+T56	DISO 147 154	recaída
+#46	AnnotatorNotes T56	C0699753; Cancer Relapse; Neoplastic Process
+T57	DISO 300 307	recaída
+#47	AnnotatorNotes T57	C0699753; Cancer Relapse; Neoplastic Process
+A1	Population_data T50 Age
+A2	Assertion T25 Speculated
+A3	Status T26 History_of
+A4	Status T27 History_of
+A5	Status T28 History_of
+A6	Status T29 History_of
+A7	Status T46 History_of
+A8	Status T30 History_of
+A9	Status T32 History_of
+A10	Status T33 History_of
+A11	Status T36 History_of
+A12	Status T35 History_of
+A13	Status T19 History_of
+A14	Status T15 History_of
+A15	Status T16 History_of
+A16	Status T18 History_of
+A17	Status T20 History_of
+A18	Status T17 History_of
+A19	Status T31 History_of
+A20	Status T25 History_of
+#48	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#49	AnnotatorNotes T6	C0282461; Phase 3 Clinical Trials; Research Activity + C1709323; Open Label Study; Research Activity + C0034656; Randomization; Research Activity 
+#50	AnnotatorNotes T14	C0149925; Small cell carcinoma of lung; Neoplastic Process
+#51	AnnotatorNotes T27	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#52	AnnotatorNotes T28	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#53	AnnotatorNotes T30	C4289973; Anti-CTLA-4 Monoclonal Antibody; Amino Acid, Peptide, or Protein
+#54	AnnotatorNotes T46	C4732974; Anti-CD137 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+R1	Experiences Arg1:T48 Arg2:T2	
+R2	Experiences Arg1:T48 Arg2:T3	
+R3	Location_of Arg1:T37 Arg2:T4	
+R4	Location_of Arg1:T38 Arg2:T4	
+R5	Location_of Arg1:T38 Arg2:T5	
+R6	Location_of Arg1:T37 Arg2:T5	
+R7	Before Arg1:T4 Arg2:T56	
+R8	Experiences Arg1:T48 Arg2:T4	
+R9	Experiences Arg1:T48 Arg2:T5	
+R10	Experiences Arg1:T48 Arg2:T56	
+R11	Experiences Arg1:T49 Arg2:T7	
+R12	Experiences Arg1:T49 Arg2:T8	
+R13	Experiences Arg1:T49 Arg2:T10	
+R14	Experiences Arg1:T49 Arg2:T9	
+R15	Experiences Arg1:T49 Arg2:T57	
+R16	Location_of Arg1:T39 Arg2:T10	
+R17	Location_of Arg1:T40 Arg2:T10	
+R18	Location_of Arg1:T40 Arg2:T9	
+R19	Location_of Arg1:T39 Arg2:T9	
+R20	Before Arg1:T5 Arg2:T56	
+R21	Before Arg1:T9 Arg2:T57	
+R22	Before Arg1:T10 Arg2:T57	
+R23	After Arg1:T7 Arg2:T11	
+R24	After Arg1:T8 Arg2:T11	
+R25	Used_for Arg1:T12 Arg2:T11	
+R26	After Arg1:T57 Arg2:T11	
+R27	Location_of Arg1:T42 Arg2:T13	
+R28	Location_of Arg1:T41 Arg2:T13	
+R29	Location_of Arg1:T42 Arg2:T52	
+R30	Location_of Arg1:T41 Arg2:T52	
+R31	Experiences Arg1:T50 Arg2:T14	
+R32	Experiences Arg1:T50 Arg2:T43	
+R33	Experiences Arg1:T50 Arg2:T44	
+R36	Experiences Arg1:T50 Arg2:T54	
+R37	Before Arg1:T14 Arg2:T54	
+T58	Observation 552 562	progresado
+#55	AnnotatorNotes T58	C1457868; Worse; Finding (?)
+R38	Before Arg1:T14 Arg2:T58	
+R39	Experiences Arg1:T50 Arg2:T58	
+R40	After Arg1:T58 Arg2:T15	
+R41	After Arg1:T54 Arg2:T15	
+R42	Experiences Arg1:T50 Arg2:T15	
+R43	Used_for Arg1:T17 Arg2:T16	
+R44	Used_for Arg1:T17 Arg2:T15	
+R45	After Arg1:T58 Arg2:T16	
+R46	After Arg1:T58 Arg2:T18	
+R47	After Arg1:T54 Arg2:T16	
+R48	After Arg1:T54 Arg2:T18	
+R49	Experiences Arg1:T50 Arg2:T16	
+R50	Experiences Arg1:T50 Arg2:T18	
+T59	Quantifier_or_Qualifier 696 713	al menos 4 ciclos
+R51	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T59	
+R52	Experiences Arg1:T51 Arg2:T19	
+R53	Used_for Arg1:T20 Arg2:T19	
+R54	Experiences Arg1:T51 Arg2:T21	
+T60	Quantifier_or_Qualifier 782 790	limitada
+#56	AnnotatorNotes T60	C0439801; Limited (extensiveness); Functional Concept
+R55	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T60	
+T61	Quantifier_or_Qualifier 793 802	extendida
+#57	AnnotatorNotes T61	C0231449; Extended; Spatial Concept
+R56	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T61	
+T62	Quantifier_or_Qualifier 822 839	menos de 4 ciclos
+R57	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T62	
+T63	Observation 873 876	MRG
+#58	AnnotatorNotes T63	C2986560; Best Overall Response; Finding ['Mejor Respuesta Global']
+R58	Experiences Arg1:T51 Arg2:T63	
+R59	Overlap Arg1:T19 Arg2:T63	
+T64	Observation 880 908	respuesta parcial o completa
+#59	AnnotatorNotes T64	C1521726; partial response; Finding | C0677874; In complete remission; Finding
+R60	Overlap Arg1:T19 Arg2:T64	
+R61	Experiences Arg1:T51 Arg2:T64	
+R62	Causes Arg1:T22 Arg2:T45	
+T65	Quantifier_or_Qualifier 947 954	activas
+#60	AnnotatorNotes T65	C0679217; Active State; Idea or Concept
+R63	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T65	
+T66	Quantifier_or_Qualifier 1062 1068	activa
+#61	AnnotatorNotes T66	C0679217; Active State; Idea or Concept
+R64	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T66	
+R65	Speculation Arg1:T53 Arg2:T25	
+R66	Location_of Arg1:T23 Arg2:T22	
+R67	Used_for Arg1:T27 Arg2:T26	
+R68	Used_for Arg1:T28 Arg2:T26	
+R69	Used_for Arg1:T29 Arg2:T26	
+R70	Used_for Arg1:T46 Arg2:T26	
+R71	Used_for Arg1:T31 Arg2:T26	
+R72	Used_for Arg1:T32 Arg2:T26	
+R73	Used_for Arg1:T33 Arg2:T26	
+R74	Used_for Arg1:T30 Arg2:T26	
+R75	Used_for Arg1:T35 Arg2:T26	
+R76	Used_for Arg1:T36 Arg2:T26	
+R77	Overlap Arg1:T62 Arg2:T63	
+R78	Overlap Arg1:T62 Arg2:T64	
+A21	Experiencer T48 Patient
+A22	Experiencer T49 Patient
+A23	Experiencer T50 Patient
+A24	Experiencer T51 Patient
+A25	Assertion T62 Hypothetical

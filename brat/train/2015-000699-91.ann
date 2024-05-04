@@ -1,0 +1,173 @@
+T1	PROC 46 66	Estudio aleatorizado
+#1	AnnotatorNotes T1	C0206034; Clinical Trials, Randomized; Research Activity
+T2	CHEM 105 115	Ribavirina
+#2	AnnotatorNotes T2	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T3	DISO 124 143	Hepatitis Crónica E
+T4	DISO 190 209	Hepatitis Crónica E
+T5	PROC 314 326	diagnósticos
+#3	AnnotatorNotes T5	C0011900; Diagnosis; Diagnostic Procedure
+T6	DISO 331 350	Hepatitis crónica E
+T7	CHEM 352 355	RNA
+#4	AnnotatorNotes T7	C0035668; RNA; Nucleic Acid, Nucleoside, or Nucleotide
+T8	CHEM 416 429	transaminasas
+#5	AnnotatorNotes T8	C0002594; Transaminases; Amino Acid, Peptide, or Protein · Enzyme
+T9	CHEM 459 462	RNA
+#6	AnnotatorNotes T9	C0035668; RNA; Nucleic Acid, Nucleoside, or Nucleotide
+T10	DISO 541 564	Hepatitis aguda grave E
+#7	AnnotatorNotes T10	C4763852; Acute Hepatitis E Infection; Disease or Syndrome
+T11	CHEM 577 580	ALT
+#8	AnnotatorNotes T11	C0001899; Alanine Transaminase; Amino Acid, Peptide, or Protein · Enzyme
+T12	CHEM 633 636	RNA
+#9	AnnotatorNotes T12	C0035668; RNA; Nucleic Acid, Nucleoside, or Nucleotide
+T13	DISO 653 659	signos
+#10	AnnotatorNotes T13	C0311392; Physical findings; Finding
+T14	DISO 663 684	lesión hepática aguda
+#11	AnnotatorNotes T14	C2242583; Acute liver injury; Injury or Poisoning
+T15	PROC 686 689	INR
+#12	AnnotatorNotes T15	C0525032; International Normalized Ratio; Laboratory Procedure
+T16	DISO 703 733	manifestaciones extrahepáticas
+T17	DISO 736 750	fallo hepático
+#13	AnnotatorNotes T17	C0085605; Liver Failure; Disease or Syndrome
+T18	DISO 768 779	hepatopatía
+#14	AnnotatorNotes T18	C0023895; Liver diseases; Disease or Syndrome
+T19	DISO 853 872	Enfermedad terminal
+T20	PROC 352 359	RNA VHE
+#15	AnnotatorNotes T20	C4552792; Hepatitis E Virus RNA Measurement; Laboratory Procedure
+T21	CHEM 986 996	Ribavirina
+#16	AnnotatorNotes T21	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T22	DISO 1027 1049	Insuficiencia hepática
+#17	AnnotatorNotes T22	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T23	DISO 1058 1080	cirrosis descompensada
+T24	DISO 1085 1102	Hemoglobinopatías
+#18	AnnotatorNotes T24	C0019045; Hemoglobinopathies; Disease or Syndrome
+T25	DISO 1104 1113	Talasemia
+#19	AnnotatorNotes T25	C0039730; Thalassemia; Disease or Syndrome
+T26	DISO 1115 1144	anemia de células falciformes
+#20	AnnotatorNotes T26	C0002895; Anemia, Sickle Cell; Disease or Syndrome
+T27	DISO 1165 1184	Enfermedad cardíaca
+T28	ANAT 1176 1184	cardíaca
+#21	AnnotatorNotes T28	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T29	DISO 1214 1225	cardiopatía
+#22	AnnotatorNotes T29	C0018799; Heart Diseases; Disease or Syndrome
+T30	PROC 89 100	tratamiento
+#23	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	PROC 459 466	RNA VHE
+#24	AnnotatorNotes T31	C4552792; Hepatitis E Virus RNA Measurement; Laboratory Procedure
+T32	PROC 633 640	RNA VHE
+#25	AnnotatorNotes T32	C4552792; Hepatitis E Virus RNA Measurement; Laboratory Procedure
+T33	PROC 566 580	niveles de ALT
+T34	ANAT 670 678	hepática
+#26	AnnotatorNotes T34	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T35	ANAT 742 750	hepático
+#27	AnnotatorNotes T35	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T36	PROC 970 981	tratamiento
+#28	AnnotatorNotes T36	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T37	ANAT 1041 1049	hepática
+#29	AnnotatorNotes T37	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T38	ANAT 1125 1144	células falciformes
+#30	AnnotatorNotes T38	C0221283; Drepanocyte (cell); Cell
+T39	PROC 800 824	consentimiento informado
+#31	AnnotatorNotes T39	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T40	Date 13 17	2015
+T41	Duration 134 141	Crónica
+#32	AnnotatorNotes T41	C0205191; chronic; Temporal Concept
+T42	Duration 200 207	Crónica
+#33	AnnotatorNotes T42	C0205191; chronic; Temporal Concept
+T43	Age 243 269	igual o superior a 18 años
+T44	Duration 341 348	crónica
+#34	AnnotatorNotes T44	C0205191; chronic; Temporal Concept
+T45	LIVB 356 359	VHE
+#35	AnnotatorNotes T45	C0085294; Hepatitis E virus; Virus
+T46	LIVB 374 383	pacientes
+#36	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Duration 438 454	al menos 6 meses
+T48	LIVB 463 466	VHE
+#37	AnnotatorNotes T48	C0085294; Hepatitis E virus; Virus
+T49	Duration 529 536	6 meses
+T50	LIVB 637 640	VHE
+#38	AnnotatorNotes T50	C0085294; Hepatitis E virus; Virus
+T51	LIVB 754 763	pacientes
+#39	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 931 940	Pacientes
+#40	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	PHYS 1001 1010	Gestación
+#41	AnnotatorNotes T53	C0032961; Pregnancy; Organism Function
+T54	PHYS 1013 1022	lactancia
+#42	AnnotatorNotes T54	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T55	Duration 909 927	inferior a 6 meses
+T56	DISO 388 429	elevación de los niveles de transaminasas
+#43	AnnotatorNotes T56	C5384817; Elevation of levels of liver transaminase levels; Finding
+T57	PROC 405 429	niveles de transaminasas
+#44	AnnotatorNotes T57	C0919834; Transaminase Assay; Laboratory Procedure
+A1	Status T18 History_of
+A2	Assertion T36 Contraindicated
+A3	Assertion T21 Contraindicated
+A4	Status T27 History_of
+A5	Status T29 History_of
+#45	AnnotatorNotes T3	C3472600; Chronic hepatitis E; Disease or Syndrome 
+#46	AnnotatorNotes T4	C3472600; Chronic hepatitis E; Disease or Syndrome 
+#47	AnnotatorNotes T6	C3472600; Chronic hepatitis E; Disease or Syndrome 
+#48	AnnotatorNotes T33	C1883008; serum alanine aminotransferase measurement; Laboratory Procedure 
+#49	AnnotatorNotes T19	C0679247; Terminal illness; Disease or Syndrome
+#50	AnnotatorNotes T23	C1619727; Decompensated cirrhosis of liver; Disease or Syndrome 
+#51	AnnotatorNotes T27	C0018799; Heart Diseases; Disease or Syndrome
+R1	Used_for Arg1:T2 Arg2:T30	
+R2	Has_Duration_or_Interval Arg1:T3 Arg2:T41	
+T58	Quantifier_or_Qualifier 153 159	agudas
+#52	AnnotatorNotes T58	C0439557; Acute phase; Temporal Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T58	
+T59	Quantifier_or_Qualifier 160 166	graves
+#53	AnnotatorNotes T59	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R4	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T59	
+T60	Quantifier_or_Qualifier 1185 1190	grave
+#54	AnnotatorNotes T60	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R5	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T60	
+R6	Location_of Arg1:T28 Arg2:T27	
+T61	Quantifier_or_Qualifier 1050 1055	grave
+#55	AnnotatorNotes T61	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R7	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T61	
+R8	Location_of Arg1:T37 Arg2:T22	
+R9	Has_Duration_or_Interval Arg1:T4 Arg2:T42	
+R10	Has_Duration_or_Interval Arg1:T6 Arg2:T44	
+R11	Causes Arg1:T45 Arg2:T6	
+R12	Experiences Arg1:T46 Arg2:T6	
+R13	Experiences Arg1:T46 Arg2:T56	
+R15	Has_Duration_or_Interval Arg1:T56 Arg2:T47	
+T62	Quantifier_or_Qualifier 481 498	2 determinaciones
+R16	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T62	
+R17	Causes Arg1:T48 Arg2:T6	
+R18	Experiences Arg1:T46 Arg2:T31	
+R19	Has_Duration_or_Interval Arg1:T31 Arg2:T49	
+R20	Experiences Arg1:T46 Arg2:T57	
+T63	Result_or_Value 581 627	superior a 10 veces el límite de la normalidad
+R21	Has_Result_or_Value Arg1:T33 Arg2:T63	
+R22	Causes Arg1:T50 Arg2:T10	
+R23	Causes Arg1:T14 Arg2:T13	
+R24	Location_of Arg1:T34 Arg2:T14	
+T64	Result_or_Value 690 694	>1.5
+R25	Has_Result_or_Value Arg1:T15 Arg2:T64	
+R26	Causes Arg1:T18 Arg2:T16	
+R27	Causes Arg1:T18 Arg2:T17	
+R28	Location_of Arg1:T35 Arg2:T17	
+R29	Location_of Arg1:T35 Arg2:T18	
+R30	Experiences Arg1:T51 Arg2:T18	
+R31	Experiences Arg1:T51 Arg2:T17	
+R32	Experiences Arg1:T51 Arg2:T16	
+R33	Experiences Arg1:T51 Arg2:T10	
+R34	Experiences Arg1:T51 Arg2:T33	
+R35	Experiences Arg1:T51 Arg2:T32	
+R36	Experiences Arg1:T51 Arg2:T13	
+R37	Experiences Arg1:T51 Arg2:T14	
+R38	Experiences Arg1:T51 Arg2:T15	
+R39	Location_of Arg1:T34 Arg2:T10	
+T65	CONC 882 899	esperanza de vida
+#56	AnnotatorNotes T65	C0023671; Life Expectancy; Group Attribute
+R40	Has_Duration_or_Interval Arg1:T65 Arg2:T55	
+R42	Used_for Arg1:T21 Arg2:T36	
+T66	Observation 1226 1235	inestable
+#57	AnnotatorNotes T66	C0443343; Unstable status; Finding
+R43	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T66	
+R14	Has_Duration_or_Interval Arg1:T20 Arg2:T49	
+A6	Experiencer T46 Patient
+A7	Experiencer T51 Patient
+A8	Experiencer T52 Patient

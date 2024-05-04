@@ -1,0 +1,205 @@
+T1	PROC 324 349	TRATAMIENTO CON HIERRO IV
+T2	CHEM 340 346	HIERRO
+#1	AnnotatorNotes T2	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T3	PROC 366 378	HEMODIÁLISIS
+#2	AnnotatorNotes T3	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T4	DISO 470 476	Anemia
+#3	AnnotatorNotes T4	C0002871; Anemia; Disease or Syndrome
+T5	PROC 493 505	hemodiálisis
+#4	AnnotatorNotes T5	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T6	DISO 575 581	anemia
+#5	AnnotatorNotes T6	C0002871; Anemia; Disease or Syndrome
+T7	PROC 585 597	hemodiálisis
+#6	AnnotatorNotes T7	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T8	PROC 662 674	hemodiálisis
+#7	AnnotatorNotes T8	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T9	PROC 698 726	tratamiento con hemodiálisis
+#8	AnnotatorNotes T9	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T10	PROC 818 842	consentimiento informado
+#9	AnnotatorNotes T10	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T11	PROC 749 761	hemodiálisis
+#10	AnnotatorNotes T11	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T12	DISO 860 866	anemia
+#11	AnnotatorNotes T12	C0002871; Anemia; Disease or Syndrome
+T13	CHEM 898 904	hierro
+#12	AnnotatorNotes T13	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T14	CHEM 931 937	hierro
+#13	AnnotatorNotes T14	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T15	PROC 963 975	hemodiálisis
+#14	AnnotatorNotes T15	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T16	CHEM 1086 1098	transferrina
+#15	AnnotatorNotes T16	C0040679; Transferrin; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T17	CHEM 1172 1181	ferritina
+#16	AnnotatorNotes T17	C0015879; Ferritin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T18	CHEM 1248 1254	hierro
+#17	AnnotatorNotes T18	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T19	PROC 1280 1292	hemodiálisis
+#18	AnnotatorNotes T19	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T20	DISO 1361 1392	infección crónica por VHC y VHB
+T21	PROC 46 73	Ensayo clínico aleatorizado
+#19	AnnotatorNotes T21	C0206034; Clinical Trials, Randomized; Research Activity
+T22	PROC 91 127	administración de hierro intravenoso
+T23	CHEM 109 115	hierro
+#20	AnnotatorNotes T23	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T24	PROC 151 167	práctica clínica
+T25	PROC 235 262	ENSAYO CLÍNICO ALEATORIZADO
+#21	AnnotatorNotes T25	C0206034; Clinical Trials, Randomized; Research Activity
+T26	PROC 394 410	PRÁCTICA CLÍNICA
+T27	PROC 886 909	tratada con hierro i.v.
+T28	PROC 1075 1098	niveles de transferrina
+T29	PROC 1101 1109	albúmina
+#22	AnnotatorNotes T29	C0201838; Albumin measurement; Laboratory Procedure
+T30	PROC 1161 1181	niveles de ferritina
+#23	AnnotatorNotes T30	C0373607; Ferritin measurement; Laboratory Procedure
+T31	Date 13 17	2019
+T32	Route 116 127	intravenoso
+#24	AnnotatorNotes T32	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T34	Route 347 349	IV
+#25	AnnotatorNotes T34	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T35	LIVB 353 362	PACIENTES
+#26	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 438 446	EXPERTOS
+#27	AnnotatorNotes T36	C1706750; Agent Expert; Professional or Occupational Group
+T37	LIVB 480 489	pacientes
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 561 570	pacientes
+#29	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 626 635	Pacientes
+#30	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 680 694	más de 2 meses
+T41	Duration 729 745	menos de 6 meses
+T42	Age 781 797	mayor de 18 años
+T43	LIVB 846 855	Pacientes
+#31	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Spec_cue 867 878	susceptible
+T45	Route 905 909	i.v.
+#32	AnnotatorNotes T45	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T46	Neg_cue 913 915	No
+T47	Route 938 942	i.v.
+#33	AnnotatorNotes T47	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T48	LIVB 979 988	Pacientes
+#34	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Duration 1040 1057	superior a 2 años
+T50	LIVB 1061 1070	Pacientes
+#35	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 1147 1156	Pacientes
+#36	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 1219 1228	Pacientes
+#37	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Route 1255 1259	i.v.
+#38	AnnotatorNotes T54	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T55	LIVB 1296 1343	Pacientes embarazadas o en período de lactancia
+#39	AnnotatorNotes T55	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T56	LIVB 1347 1356	Pacientes
+#40	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	Duration 1371 1378	crónica
+#41	AnnotatorNotes T57	C0205191; chronic; Temporal Concept
+T58	LIVB 1383 1386	VHC
+#42	AnnotatorNotes T58	C0220847; hepatitis C virus; Virus
+T59	LIVB 1389 1392	VHB
+#43	AnnotatorNotes T59	C0019169; hepatitis B virus; Virus
+T60	PHYS 1306 1317	embarazadas
+#44	AnnotatorNotes T60	C0032961; Pregnancy; Organism Function
+T33	LIVB 203 211	expertos
+#45	AnnotatorNotes T33	C1706750; Agent Expert; Professional or Occupational Group
+T61	PHYS 532 557	Funcionalidad monocitaria
+#46	AnnotatorNotes T61	C0312842; Monocyte production; Organ or Tissue Function (?)
+T62	PHYS 279 304	FUNCIONALIDAD MONOCITARIA
+#47	AnnotatorNotes T62	C0312842; Monocyte production; Organ or Tissue Function (?)
+T52	PHYS 1334 1343	lactancia
+#48	AnnotatorNotes T52	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Assertion T27 Speculated
+A2	Assertion T13 Speculated
+A4	Assertion T14 Negated
+A3	Status T14 History_of
+A5	Status T18 History_of
+#49	AnnotatorNotes T28	C0202105; Transferrin measurement; Laboratory Procedure 
+#50	AnnotatorNotes T20	C0524910; Hepatitis C, Chronic; Disease or Syndrome + C0524909; Hepatitis B, Chronic; Disease or Syndrome
+A6	Assertion T45 Speculated
+A7	Status T47 History_of
+A8	Status T54 History_of
+R1	Speculation Arg1:T44 Arg2:T27	
+R2	Speculation Arg1:T44 Arg2:T13	
+R3	Speculation Arg1:T44 Arg2:T45	
+A9	Assertion T47 Negated
+R4	Negation Arg1:T46 Arg2:T14	
+R5	Negation Arg1:T46 Arg2:T47	
+R6	Used_for Arg1:T23 Arg2:T22	
+T63	CONC 419 434	RECOMENDACIONES
+#51	AnnotatorNotes T63	C0034866; Recommendation; Idea or Concept
+T64	CONC 184 199	recomendaciones
+#52	AnnotatorNotes T64	C0034866; Recommendation; Idea or Concept
+T65	CONC 142 167	guías de práctica clínica
+#53	AnnotatorNotes T65	C0282451; Clinical Practice Guideline; Intellectual Product
+T66	CONC 385 410	GUÍAS DE PRÁCTICA CLÍNICA
+#54	AnnotatorNotes T66	C0282451; Clinical Practice Guideline; Intellectual Product
+R7	Has_Route_or_Mode Arg1:T2 Arg2:T34	
+R8	Used_for Arg1:T2 Arg2:T1	
+R9	Has_Route_or_Mode Arg1:T23 Arg2:T32	
+R10	Experiences Arg1:T35 Arg2:T62	
+R11	Experiences Arg1:T35 Arg2:T1	
+R12	Experiences Arg1:T35 Arg2:T3	
+R13	Overlap Arg1:T1 Arg2:T3	
+R16	Experiences Arg1:T37 Arg2:T4	
+R17	Experiences Arg1:T37 Arg2:T5	
+R19	Experiences Arg1:T38 Arg2:T61	
+R20	Experiences Arg1:T38 Arg2:T6	
+R21	Experiences Arg1:T38 Arg2:T7	
+R25	Experiences Arg1:T39 Arg2:T8	
+R26	Has_Duration_or_Interval Arg1:T8 Arg2:T40	
+R27	Has_Duration_or_Interval Arg1:T9 Arg2:T40	
+R28	Has_Duration_or_Interval Arg1:T11 Arg2:T41	
+R29	Experiences Arg1:T39 Arg2:T11	
+T67	Quantifier_or_Qualifier 762 771	mantenida
+#55	AnnotatorNotes T67	C0443318; Sustained; Functional Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T67	
+R31	Experiences Arg1:T39 Arg2:T9	
+R32	Experiences Arg1:T43 Arg2:T12	
+R33	Used_for Arg1:T13 Arg2:T27	
+R34	Has_Route_or_Mode Arg1:T13 Arg2:T45	
+R35	Experiences Arg1:T43 Arg2:T27	
+R36	Before Arg1:T14 Arg2:T15	
+R37	Has_Route_or_Mode Arg1:T14 Arg2:T47	
+T68	CONC 1020 1039	expectativa de vida
+#56	AnnotatorNotes T68	C0023671; Life Expectancy; Group Attribute
+R38	Has_Duration_or_Interval Arg1:T68 Arg2:T49	
+T69	Observation 989 1010	clínicamente estables
+#57	AnnotatorNotes T69	C1282982; Patient's condition stable; Finding
+R39	Experiences Arg1:T48 Arg2:T69	
+R40	Experiences Arg1:T50 Arg2:T28	
+R41	Experiences Arg1:T50 Arg2:T29	
+T70	Result_or_Value 1110 1118	normales
+#58	AnnotatorNotes T70	C0459422; Normal result; Finding | C0586624; Normal laboratory finding; Finding
+R42	Has_Result_or_Value Arg1:T29 Arg2:T70	
+R43	Has_Result_or_Value Arg1:T28 Arg2:T70	
+T71	Result_or_Value 1182 1192	>800 mg/dl
+R44	Has_Result_or_Value Arg1:T30 Arg2:T71	
+R45	Experiences Arg1:T51 Arg2:T30	
+T72	CONC 1196 1214	inicio del estudio
+#59	AnnotatorNotes T72	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R46	Overlap Arg1:T30 Arg2:T72	
+R47	Before Arg1:T18 Arg2:T19	
+R48	Has_Route_or_Mode Arg1:T18 Arg2:T54	
+R49	Experiences Arg1:T53 Arg2:T18	
+R50	Experiences Arg1:T55 Arg2:T60	
+R51	Experiences Arg1:T55 Arg2:T52	
+R52	Experiences Arg1:T56 Arg2:T20	
+R53	Has_Duration_or_Interval Arg1:T20 Arg2:T57	
+R54	Causes Arg1:T58 Arg2:T20	
+R55	Causes Arg1:T59 Arg2:T20	
+#60	AnnotatorNotes T22	C4733157; intravenous iron therapy; Therapeutic or Preventive Procedure
+#61	AnnotatorNotes T1	C4733157; intravenous iron therapy; Therapeutic or Preventive Procedure
+#62	AnnotatorNotes T27	C4733157; intravenous iron therapy; Therapeutic or Preventive Procedure
+A10	Experiencer T33 Other
+A11	Experiencer T35 Patient
+A12	Experiencer T36 Other
+A13	Experiencer T37 Patient
+A14	Experiencer T38 Patient
+A15	Experiencer T39 Patient
+A16	Experiencer T43 Patient
+A17	Experiencer T48 Patient
+A18	Experiencer T50 Patient
+A19	Experiencer T51 Patient
+A20	Experiencer T53 Patient
+A21	Experiencer T55 Patient
+A22	Experiencer T56 Patient

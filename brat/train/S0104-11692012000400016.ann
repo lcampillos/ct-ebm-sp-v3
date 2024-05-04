@@ -1,0 +1,92 @@
+T1	PROC 4 32	aplicación de microcorriente
+#1	AnnotatorNotes T1	C2147192; microcurrent electrical stimulation; Therapeutic or Preventive Procedure
+T2	PROC 38 49	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 57 72	úlceras venosas
+#3	AnnotatorNotes T3	C0042344; Varicose Ulcer; Disease or Syndrome
+T4	PROC 77 91	estudio piloto
+#4	AnnotatorNotes T4	C0031928; Pilot Projects; Research Activity
+T5	PROC 139 180	estimulación eléctrica por microcorriente
+#5	AnnotatorNotes T5	C2147192; microcurrent electrical stimulation; Therapeutic or Preventive Procedure
+T6	DISO 223 238	úlceras venosas
+#6	AnnotatorNotes T6	C0042344; Varicose Ulcer; Disease or Syndrome
+T7	PROC 247 261	estudio piloto
+#7	AnnotatorNotes T7	C0031928; Pilot Projects; Research Activity
+T8	PROC 423 437	microcorriente
+#8	AnnotatorNotes T8	C2147192; microcurrent electrical stimulation; Therapeutic or Preventive Procedure
+T9	PROC 681 695	microcorriente
+#9	AnnotatorNotes T9	C2147192; microcurrent electrical stimulation; Therapeutic or Preventive Procedure
+T10	PROC 506 529	Escala Visual Analógica
+#10	AnnotatorNotes T10	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T11	DISO 561 567	úlcera
+#11	AnnotatorNotes T11	C0041582; Ulcer; Pathologic Function
+T12	DISO 1021 1034	cuadro álgico
+#12	AnnotatorNotes T12	C4716887; Signs and symptoms of pain; Finding
+T13	DISO 879 885	úlcera
+#13	AnnotatorNotes T13	C0041582; Ulcer; Pathologic Function
+T14	PROC 982 1010	aplicación de microcorriente
+#14	AnnotatorNotes T14	C2147192; microcurrent electrical stimulation; Therapeutic or Preventive Procedure
+T15	DISO 1053 1068	úlceras venosas
+#15	AnnotatorNotes T15	C0042344; Varicose Ulcer; Disease or Syndrome
+T16	ANAT 65 72	venosas
+#16	AnnotatorNotes T16	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T17	DISO 190 195	dolor
+#17	AnnotatorNotes T17	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T18	ANAT 231 238	venosas
+#18	AnnotatorNotes T18	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T19	PROC 270 308	ensayo clínico controlado simple ciego
+#19	AnnotatorNotes T19	C0681867; Controlled Study; Research Activity + C0150108; Blinded; Research Activity
+T20	PROC 584 595	Planimetría
+T21	DISO 483 488	dolor
+#20	AnnotatorNotes T21	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T22	DISO 665 670	dolor
+#21	AnnotatorNotes T22	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T23	PROC 887 898	Planimetría
+T24	ANAT 1061 1068	venosas
+#22	AnnotatorNotes T24	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T26	Duration 343 352	4 semanas
+T27	LIVB 371 381	individuos
+#23	AnnotatorNotes T27	C0027361; Persons; Population Group
+T28	Age 383 392	62±9 años
+T32	LIVB 1038 1048	individuos
+#24	AnnotatorNotes T32	C0027361; Persons; Population Group
+T25	LIVB 446 459	grupo control
+#25	AnnotatorNotes T25	C0009932; Control Groups; Group
+T29	LIVB 734 747	grupo control
+#26	AnnotatorNotes T29	C0009932; Control Groups; Group
+T30	Neg_cue 795 797	No
+T31	CONC 814 824	diferencia
+#27	AnnotatorNotes T31	C1705241; Delta (difference); Quantitative Concept
+T33	CONC 854 872	área de superficie
+#28	AnnotatorNotes T33	C4068511; Work/Body surface area; Quantitative Concept
+R1	Location_of Arg1:T16 Arg2:T3
+R2	Location_of Arg1:T18 Arg2:T6
+R3	Causes Arg1:T6 Arg2:T17
+R4	Has_Duration_or_Interval Arg1:T19 Arg2:T26
+R5	Has_Duration_or_Interval Arg1:T7 Arg2:T26
+R6	Has_Age Arg1:T27 Arg2:T28
+R7	Experiences Arg1:T27 Arg2:T8
+R8	Experiences Arg1:T32 Arg2:T12
+R9	Experiences Arg1:T32 Arg2:T15
+R10	Causes Arg1:T15 Arg2:T12
+R11	Experiences Arg1:T29 Arg2:T22
+A1	Assertion T31 Negated
+R12	Negation Arg1:T30 Arg2:T31
+R13	Location_of Arg1:T24 Arg2:T15
+R14	Experiences Arg1:T32 Arg2:T14
+T34	Observation 126 132	efecto
+#29	AnnotatorNotes T34	C1518681; Outcome of Therapy; Finding (?)
+R15	Causes Arg1:T5 Arg2:T34	
+T35	Quantifier_or_Qualifier 825 838	significativa
+A2	Assertion T35 Negated
+#30	AnnotatorNotes T35	C0237881; Statistical Significance; Quantitative Concept
+R18	Negation Arg1:T30 Arg2:T35	
+R19	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T35	
+T36	CONC 201 219	área de superficie
+#31	AnnotatorNotes T36	C4068511; Work/Body surface area; Quantitative Concept
+T37	CONC 536 554	área de superficie
+#32	AnnotatorNotes T37	C4068511; Work/Body surface area; Quantitative Concept
+A3	Experiencer T27 Patient
+A4	Experiencer T25 Patient
+A5	Experiencer T29 Patient
+A6	Experiencer T32 Patient

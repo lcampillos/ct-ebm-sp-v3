@@ -1,0 +1,172 @@
+T1	PROC 15 66	protocolos perioperatorios de recuperación mejorada
+T2	ANAT 119 129	linfocitos
+#1	AnnotatorNotes T2	C0024264; Lymphocyte; Cell
+T3	DISO 148 166	cáncer colorrectal
+#2	AnnotatorNotes T3	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T4	PROC 105 129	porcentaje de linfocitos
+#3	AnnotatorNotes T4	C0587344; Lymphocyte percent differential count; Laboratory Procedure
+T5	PROC 736 760	porcentaje de linfocitos
+#4	AnnotatorNotes T5	C0587344; Lymphocyte percent differential count; Laboratory Procedure
+T6	PROC 1453 1477	porcentaje de linfocitos
+#5	AnnotatorNotes T6	C0587344; Lymphocyte percent differential count; Laboratory Procedure
+T7	PROC 314 324	protocolos
+#6	AnnotatorNotes T7	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T8	PROC 1723 1747	porcentaje de linfocitos
+#7	AnnotatorNotes T8	C0587344; Lymphocyte percent differential count; Laboratory Procedure
+T9	PROC 91 99	glicemia
+#8	AnnotatorNotes T9	C0392201; Blood glucose measurement; Laboratory Procedure
+T10	PROC 722 730	glicemia
+#9	AnnotatorNotes T10	C0392201; Blood glucose measurement; Laboratory Procedure
+T11	DISO 506 523	estrés metabólico
+T12	PROC 646 697	protocolos perioperatorios de recuperación mejorada
+T13	ANAT 750 760	linfocitos
+#10	AnnotatorNotes T13	C0024264; Lymphocyte; Cell
+T14	DISO 778 796	cáncer colorrectal
+#11	AnnotatorNotes T14	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T15	PROC 836 906	ensayo clínico cuasi-experimental, no aleatorizado sin enmascaramiento
+#12	AnnotatorNotes T15	C1510570; Quasi Experimental Methods; Research Activity + C1709323; Open Label Study; Research Activity + C2985410; Nonrandomized; Research Activity
+T16	DISO 928 946	cáncer colorrectal
+#13	AnnotatorNotes T16	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T17	PROC 959 974	cirugía abierta
+T18	PROC 1164 1186	recuento de linfocitos
+#14	AnnotatorNotes T18	C0200635; Lymphocyte Count measurement; Laboratory Procedure
+T19	PROC 1082 1116	protocolo de recuperación mejorada
+T20	ANAT 1176 1186	linfocitos
+#15	AnnotatorNotes T20	C0024264; Lymphocyte; Cell
+T21	DISO 1230 1244	complicaciones
+#16	AnnotatorNotes T21	C0009566; Complication; Pathologic Function
+T22	ANAT 1467 1477	linfocitos
+#17	AnnotatorNotes T22	C0024264; Lymphocyte; Cell
+T23	PROC 1150 1158	glicemia
+#18	AnnotatorNotes T23	C0392201; Blood glucose measurement; Laboratory Procedure
+T24	PROC 1638 1672	Protocolo de Recuperación Mejorada
+T25	ANAT 1737 1747	linfocitos
+#19	AnnotatorNotes T25	C0024264; Lymphocyte; Cell
+T26	ANAT 155 166	colorrectal
+#20	AnnotatorNotes T26	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T27	ANAT 785 796	colorrectal
+#21	AnnotatorNotes T27	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T28	ANAT 935 946	colorrectal
+#22	AnnotatorNotes T28	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T29	PROC 1038 1050	intervención
+#23	AnnotatorNotes T29	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T30	PROC 1420 1432	intervención
+#24	AnnotatorNotes T30	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T31	PROC 1549 1561	intervención
+#25	AnnotatorNotes T31	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T32	Time 26 41	perioperatorios
+#26	AnnotatorNotes T32	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T33	LIVB 133 142	pacientes
+#27	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Date 579 593	postoperatoria
+#28	AnnotatorNotes T34	C0032790; Postoperative Period; Temporal Concept
+T35	LIVB 598 606	paciente
+#29	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Time 657 672	perioperatorios
+#30	AnnotatorNotes T36	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T37	LIVB 764 773	pacientes
+#31	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 914 923	pacientes
+#32	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 979 992	grupo control
+#33	AnnotatorNotes T41	C0009932; Control Groups; Group
+T42	LIVB 1029 1050	grupo de intervención
+#34	AnnotatorNotes T42	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T43	Date 1308 1328	pre y postoperatorio
+#35	AnnotatorNotes T43	C2712277; Preoperative Period; Temporal Concept + C0032790; Postoperative Period; Temporal Concept
+T44	LIVB 1332 1362	pacientes del grupo de estudio
+#36	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group + C2348561; Study Population (group); Population Group
+T45	LIVB 1411 1432	grupo de intervención
+#37	AnnotatorNotes T45	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T46	LIVB 1484 1497	grupo control
+#38	AnnotatorNotes T46	C0009932; Control Groups; Group
+T47	LIVB 1540 1561	grupo de intervención
+#39	AnnotatorNotes T47	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T48	Spec_cue 1676 1684	factible
+T49	PHYS 45 57	recuperación
+#40	AnnotatorNotes T49	C2004454; Recovery - healing process; Organism Function
+T50	PHYS 528 550	respuesta inmunológica
+#41	AnnotatorNotes T50	C0020964; Immune response; Organ or Tissue Function
+T53	PHYS 566 578	recuperación
+#42	AnnotatorNotes T53	C2004454; Recovery - healing process; Organism Function
+T54	PHYS 676 688	recuperación
+#43	AnnotatorNotes T54	C2004454; Recovery - healing process; Organism Function
+T55	PHYS 1095 1107	recuperación
+#44	AnnotatorNotes T55	C2004454; Recovery - healing process; Organism Function
+T56	PHYS 1651 1663	Recuperación
+#45	AnnotatorNotes T56	C2004454; Recovery - healing process; Organism Function
+T38	PHYS 513 523	metabólico
+#46	AnnotatorNotes T38	C0025519; Metabolism; Organism Function
+A1	Assertion T24 Speculated
+R1	Overlap Arg1:T1 Arg2:T32	
+R2	Overlap Arg1:T49 Arg2:T32	
+R3	Experiences Arg1:T33 Arg2:T9	
+R4	Experiences Arg1:T33 Arg2:T4	
+R5	Experiences Arg1:T33 Arg2:T3	
+R6	Location_of Arg1:T26 Arg2:T3	
+R7	Experiences Arg1:T33 Arg2:T49	
+R8	Overlap Arg1:T53 Arg2:T34	
+R9	Overlap Arg1:T50 Arg2:T34	
+R10	Overlap Arg1:T11 Arg2:T34	
+R11	Experiences Arg1:T35 Arg2:T53	
+R12	Experiences Arg1:T35 Arg2:T50	
+R13	Experiences Arg1:T35 Arg2:T38	
+R14	Overlap Arg1:T12 Arg2:T36	
+R15	Overlap Arg1:T12 Arg2:T54	
+R17	Experiences Arg1:T37 Arg2:T10	
+R18	Experiences Arg1:T37 Arg2:T5	
+R19	Experiences Arg1:T37 Arg2:T14	
+R20	Location_of Arg1:T27 Arg2:T14	
+R21	Experiences Arg1:T37 Arg2:T54	
+R22	Location_of Arg1:T28 Arg2:T16	
+R23	Experiences Arg1:T40 Arg2:T16	
+R24	Experiences Arg1:T40 Arg2:T17	
+T39	Quantifier_or_Qualifier 874 886	aleatorizado
+A2	Assertion T39 Negated
+T51	Neg_cue 871 873	no
+R25	Negation Arg1:T51 Arg2:T39	
+R26	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T39	
+R27	Experiences Arg1:T42 Arg2:T29	
+R28	Experiences Arg1:T42 Arg2:T55	
+R30	Experiences Arg1:T41 Arg2:T23	
+R31	Experiences Arg1:T41 Arg2:T18	
+R32	Experiences Arg1:T41 Arg2:T21	
+R33	Experiences Arg1:T42 Arg2:T23	
+R34	Experiences Arg1:T42 Arg2:T18	
+R35	Experiences Arg1:T42 Arg2:T21	
+T52	CONC 1206 1224	variables clínicas
+T57	CONC 1206 1215;1247 1259	variables demográficas
+#47	AnnotatorNotes T57	C4684639; Demographic Data; Intellectual Product
+R36	Experiences Arg1:T41 Arg2:T55	
+R37	Before Arg1:T19 Arg2:T21	
+R44	Experiences Arg1:T45 Arg2:T30	
+R45	Overlap Arg1:T6 Arg2:T43	
+R16	Experiences Arg1:T46 Arg2:T6	
+R29	Experiences Arg1:T45 Arg2:T6	
+R46	Experiences Arg1:T44 Arg2:T6	
+R47	Experiences Arg1:T47 Arg2:T31	
+R48	Experiences Arg1:T47 Arg2:T6	
+R49	Speculation Arg1:T48 Arg2:T24	
+T58	Observation 1687 1717	disminuye el impacto glicémico
+R50	Causes Arg1:T24 Arg2:T58	
+T59	Observation 1687 1696;1720 1747	disminuye el porcentaje de linfocitos
+#48	AnnotatorNotes T59	C0853986; Lymphocyte count decreased; Finding
+R51	Causes Arg1:T24 Arg2:T59	
+T60	Neg_cue 887 890	sin
+T61	CONC 891 906	enmascaramiento
+A3	Assertion T61 Negated
+R38	Negation Arg1:T60 Arg2:T61	
+T62	Observation 1 7	Efecto
+#49	AnnotatorNotes T62	C1518681; Outcome of Therapy; Finding (?)
+R39	Causes Arg1:T1 Arg2:T62	
+A4	Experiencer T35 Patient
+A5	Experiencer T37 Patient
+A6	Experiencer T40 Patient
+A7	Experiencer T42 Patient
+A8	Experiencer T41 Patient
+A9	Experiencer T44 Patient
+A10	Experiencer T46 Patient
+A11	Experiencer T45 Patient
+A12	Experiencer T47 Patient
+A13	Experiencer T33 Patient
+R40	Has_Result_or_Value Arg1:T8 Arg2:T59	

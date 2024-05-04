@@ -1,0 +1,184 @@
+T1	PROC 1 20	Estudio comparativo
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	PROC 42 49	drenaje
+#2	AnnotatorNotes T2	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T3	PROC 241 293	exodoncias de terceros molares inferiores impactados
+T4	DISO 185 218	respuesta inflamatoria y dolorosa
+T5	PROC 327 361	estudio experimental, aleatorizado
+#3	AnnotatorNotes T5	C0681814; research study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T6	PROC 443 451	drenajes
+#4	AnnotatorNotes T6	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T7	PROC 461 471	extracción
+#5	AnnotatorNotes T7	C0185115; Extraction; Therapeutic or Preventive Procedure
+T8	PROC 589 604	acto quirúrgico
+#6	AnnotatorNotes T8	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T9	DISO 610 627	herida operatoria
+#7	AnnotatorNotes T9	C0332803; Surgical wound; Injury or Poisoning
+T10	PROC 617 627	operatoria
+#8	AnnotatorNotes T10	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T11	PROC 628 637	se suturó
+#9	AnnotatorNotes T11	C0009068; Closure by suture; Therapeutic or Preventive Procedure
+T12	PROC 935 945	fotografía
+#10	AnnotatorNotes T12	C0431056; Photography of patient; Diagnostic Procedure
+T13	DISO 811 828	herida operatoria
+#11	AnnotatorNotes T13	C0332803; Surgical wound; Injury or Poisoning
+T14	PROC 818 828	operatoria
+#12	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T15	DISO 881 886	edema
+#13	AnnotatorNotes T15	C0013604; Edema; Pathologic Function
+T16	PROC 966 991	medición clínica numérica
+T17	PROC 1050 1065	dolor se evaluó
+#14	AnnotatorNotes T17	C0030198; Pain Measurement; Diagnostic Procedure
+T18	PROC 1073 1094	escala visual análoga
+#15	AnnotatorNotes T18	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T19	PROC 1334 1385	exodoncia de terceros molares inferiores impactados
+T20	DISO 1254 1259	edema
+#16	AnnotatorNotes T20	C0013604; Edema; Pathologic Function
+T21	DISO 1298 1315	heridas suturadas
+#17	AnnotatorNotes T21	C1578716; Sutured wound; Finding
+T22	PROC 1306 1315	suturadas
+#18	AnnotatorNotes T22	C0009068; Closure by suture; Therapeutic or Preventive Procedure
+T23	PROC 1320 1327	drenaje
+#19	AnnotatorNotes T23	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T24	DISO 1347 1385	terceros molares inferiores impactados
+T25	DISO 1571 1609	terceros molares inferiores impactados
+T26	PROC 1534 1541	drenaje
+#20	AnnotatorNotes T26	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T27	PROC 1557 1609	extracción de terceros molares inferiores impactados
+T28	DISO 68 95	terceros molares impactados
+#21	AnnotatorNotes T28	C0399551; Impacted third molar tooth; Pathologic Function
+T29	DISO 255 293	terceros molares inferiores impactados
+T30	DISO 1620 1625	edema
+#22	AnnotatorNotes T30	C0013604; Edema; Pathologic Function
+T31	ANAT 68 84	terceros molares
+#23	AnnotatorNotes T31	C0026369; Structure of wisdom tooth; Body Part, Organ, or Organ Component | C1305762; Entire wisdom tooth; Body Part, Organ, or Organ Component
+T32	PROC 135 166	utilización de tubos de drenaje
+T33	DISO 481 519	terceros molares inferiores impactados
+T34	ANAT 255 282	terceros molares inferiores
+#24	AnnotatorNotes T34	C0927338; Third mandibular molar tooth; Body Part, Organ, or Organ Component
+T35	DISO 390 395	edema
+#25	AnnotatorNotes T35	C0013604; Edema; Pathologic Function
+T36	DISO 398 403	dolor
+#26	AnnotatorNotes T36	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T37	ANAT 481 508	terceros molares inferiores
+#27	AnnotatorNotes T37	C0927338; Third mandibular molar tooth; Body Part, Organ, or Organ Component
+T38	PROC 766 795	se instaló un tubo de drenaje
+T39	DISO 1050 1055	dolor
+#28	AnnotatorNotes T39	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T40	PROC 1172 1197	uso de un tubo de drenaje
+T41	ANAT 1347 1374	terceros molares inferiores
+#29	AnnotatorNotes T41	C0927338; Third mandibular molar tooth; Body Part, Organ, or Organ Component
+T42	DISO 1464 1482	respuesta dolorosa
+T43	ANAT 1571 1598	terceros molares inferiores
+#30	AnnotatorNotes T43	C0927338; Third mandibular molar tooth; Body Part, Organ, or Organ Component
+T44	Date 50 64	postextracción
+T45	DEVI 150 166	tubos de drenaje
+#31	AnnotatorNotes T45	C0184114; Tube drain; Medical Device
+T46	Date 219 233	postoperatoria
+#32	AnnotatorNotes T46	C0032790; Postoperative Period; Temporal Concept
+T47	LIVB 410 419	pacientes
+#33	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	PHYS 668 703	cicatrización por primera intención
+#34	AnnotatorNotes T48	C0334152; Primary healing; Organ or Tissue Function
+T49	DEVI 780 795	tubo de drenaje
+#35	AnnotatorNotes T49	C0184114; Tube drain; Medical Device
+T50	Duration 800 804	48 h
+T51	LIVB 911 919	paciente
+#36	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Date 993 1006	preoperatoria
+#37	AnnotatorNotes T52	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T54	Duration 1011 1035	las 48 h postoperatorias
+T55	Duration 1097 1105	las 48 h
+T56	Duration 1110 1134	la semana postoperatoria
+T57	DEVI 1182 1197	tubo de drenaje
+#38	AnnotatorNotes T57	C0184114; Tube drain; Medical Device
+T58	Date 1260 1274	postoperatorio
+#39	AnnotatorNotes T58	C0032790; Postoperative Period; Temporal Concept
+T59	Neg_cue 1316 1319	sin
+T61	LIVB 1654 1662	paciente
+#40	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	Date 1669 1683	postoperatorio
+#41	AnnotatorNotes T62	C0032790; Postoperative Period; Temporal Concept
+A1	Assertion T23 Negated
+R1	Negation Arg1:T59 Arg2:T23	
+T53	Neg_cue 1405 1407	no
+T60	CONC 1419 1430	diferencias
+A2	Assertion T60 Negated
+#42	AnnotatorNotes T60	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T53 Arg2:T60	
+R3	Overlap Arg1:T2 Arg2:T44	
+R4	Location_of Arg1:T31 Arg2:T28	
+T63	Observation 122 128	efecto
+#43	AnnotatorNotes T63	C1518681; Outcome of Therapy; Finding (?)
+R6	Causes Arg1:T32 Arg2:T63	
+R7	Used_for Arg1:T45 Arg2:T32	
+R8	Causes Arg1:T3 Arg2:T4	
+R9	Location_of Arg1:T34 Arg2:T29	
+R10	Location_of Arg1:T34 Arg2:T3	
+R11	Overlap Arg1:T4 Arg2:T46	
+R13	Experiences Arg1:T47 Arg2:T35	
+R14	Experiences Arg1:T47 Arg2:T36	
+R15	Experiences Arg1:T47 Arg2:T6	
+R17	After Arg1:T6 Arg2:T7	
+R18	Location_of Arg1:T37 Arg2:T33	
+R19	Experiences Arg1:T47 Arg2:T33	
+T64	Quantifier_or_Qualifier 545 564	en posición similar
+R20	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T64	
+R22	Causes Arg1:T7 Arg2:T36	
+R23	Causes Arg1:T7 Arg2:T35	
+R24	Causes Arg1:T8 Arg2:T9	
+R25	Causes Arg1:T10 Arg2:T9	
+R27	Before Arg1:T11 Arg2:T48	
+T65	CONC 747 765	lado contralateral
+#44	AnnotatorNotes T65	C0441988; Contralateral; Spatial Concept
+R28	Used_for Arg1:T49 Arg2:T38	
+R29	Has_Duration_or_Interval Arg1:T38 Arg2:T50	
+R30	Causes Arg1:T14 Arg2:T13	
+R32	Location_of Arg1:T65 Arg2:T38	
+R33	Experiences Arg1:T51 Arg2:T15	
+R38	Experiences Arg1:T51 Arg2:T12	
+R40	Experiences Arg1:T51 Arg2:T16	
+R42	Overlap Arg1:T16 Arg2:T52	
+R43	Overlap Arg1:T16 Arg2:T54	
+R37	Overlap Arg1:T12 Arg2:T52	
+R41	Overlap Arg1:T12 Arg2:T54	
+R45	Overlap Arg1:T18 Arg2:T55	
+R46	Overlap Arg1:T18 Arg2:T56	
+R47	Overlap Arg1:T17 Arg2:T55	
+R48	Overlap Arg1:T17 Arg2:T56	
+R49	Used_for Arg1:T57 Arg2:T40	
+R50	Overlap Arg1:T20 Arg2:T58	
+R54	Location_of Arg1:T41 Arg2:T24	
+R55	Location_of Arg1:T41 Arg2:T19	
+R56	Before Arg1:T19 Arg2:T23	
+R57	Causes Arg1:T19 Arg2:T20	
+R58	Before Arg1:T19 Arg2:T40	
+R60	After Arg1:T26 Arg2:T27	
+R61	Location_of Arg1:T43 Arg2:T25	
+R62	Location_of Arg1:T43 Arg2:T27	
+R65	Causes Arg1:T27 Arg2:T30	
+R66	Overlap Arg1:T30 Arg2:T62	
+R67	Overlap Arg1:T26 Arg2:T62	
+T66	Observation 1627 1649	mejorando el bienestar
+R68	Experiences Arg1:T61 Arg2:T66	
+R69	Overlap Arg1:T66 Arg2:T62	
+R70	Experiences Arg1:T61 Arg2:T30	
+R71	Experiences Arg1:T61 Arg2:T27	
+R72	Experiences Arg1:T61 Arg2:T25	
+R73	Experiences Arg1:T61 Arg2:T26	
+R74	Causes Arg1:T26 Arg2:T66	
+R5	Before Arg1:T3 Arg2:T32	
+T67	Quantifier_or_Qualifier 1431 1445	significativas
+A3	Assertion T67 Negated
+#45	AnnotatorNotes T67	C0237881; Statistical Significance; Quantitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T67	
+R16	Negation Arg1:T53 Arg2:T67	
+#46	AnnotatorNotes T42	C0424543; Response to pain finding; Finding
+R21	Overlap Arg1:T32 Arg2:T46	
+#47	AnnotatorNotes T4	C1155266; Inflammatory Response; Pathologic Function + C0030193; Pain; Sign or Symptom
+#48	AnnotatorNotes T32	C0940865; Tube/drain placement; Therapeutic or Preventive Procedure
+#49	AnnotatorNotes T38	C0940865; Tube/drain placement; Therapeutic or Preventive Procedure
+#50	AnnotatorNotes T40	C0940865; Tube/drain placement; Therapeutic or Preventive Procedure
+A4	Experiencer T61 Patient
+A5	Experiencer T47 Patient
+A6	Experiencer T51 Patient

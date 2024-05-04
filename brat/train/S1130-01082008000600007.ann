@@ -1,0 +1,253 @@
+T1	PROC 667 670	IMC
+#1	AnnotatorNotes T1	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T2	PROC 76 94	dieta hipocalórica
+#2	AnnotatorNotes T2	C0420182; dietary prophylaxis low calorie; Therapeutic or Preventive Procedure
+T3	Observation 103 120	reducción de peso
+#3	AnnotatorNotes T3	C1262477; Weight decreased; Finding
+T4	DISO 134 140	obesos
+#4	AnnotatorNotes T4	C0028754; Obesity; Disease or Syndrome
+T5	PROC 837 863	se realizó un cuestionario
+#5	AnnotatorNotes T5	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T6	PROC 159 222	implantación de un balón intragástrico (BI) por vía endoscópica
+T7	DISO 1347 1369	intolerancia digestiva
+T8	PROC 1050 1053	IMC
+#6	AnnotatorNotes T8	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T9	PROC 238 256	dieta hipocalórica
+#7	AnnotatorNotes T9	C0420182; dietary prophylaxis low calorie; Therapeutic or Preventive Procedure
+T10	PROC 282 308	tratamiento de la obesidad
+#8	AnnotatorNotes T10	C4706528; Obesity care; Therapeutic or Preventive Procedure
+T11	DISO 300 308	obesidad
+#9	AnnotatorNotes T11	C0028754; Obesity; Disease or Syndrome
+T12	PROC 344 390	evaluar su efectividad, seguridad y tolerancia
+T13	PROC 491 510	implantación del BI
+#10	AnnotatorNotes T13	C4763910; Intragastric Balloon Procedure; Diagnostic Procedure
+T14	PROC 608 620	implantación
+#11	AnnotatorNotes T14	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T15	PROC 622 639	Evaluamos el peso
+#12	AnnotatorNotes T15	C2985231; Body Weight Measurement; Diagnostic Procedure
+T16	DISO 771 785	complicaciones
+#13	AnnotatorNotes T16	C0009566; Complication; Pathologic Function
+T17	PROC 797 808	tratamiento
+#14	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	PROC 917 928	tratamiento
+#15	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	PROC 965 976	tratamiento
+#16	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	Observation 980 995	pérdida de peso
+#17	AnnotatorNotes T20	C1262477; Weight decreased; Finding
+T21	Observation 1157 1171	perdiendo peso
+#18	AnnotatorNotes T21	C1262477; Weight decreased; Finding
+T22	DISO 1177 1185	síntomas
+#19	AnnotatorNotes T22	C1457887; Symptoms; Sign or Symptom
+T23	DISO 1217 1224	náuseas
+#20	AnnotatorNotes T23	C0027497; Nausea; Sign or Symptom
+T24	DISO 1235 1242	vómitos
+#21	AnnotatorNotes T24	C0042963; Vomiting; Sign or Symptom
+T25	PROC 1274 1297	tratamiento sintomático
+#22	AnnotatorNotes T25	C2146147; treat symptoms; Therapeutic or Preventive Procedure
+T26	DISO 1311 1325	complicaciones
+#23	AnnotatorNotes T26	C0009566; Complication; Pathologic Function
+T27	DISO 1439 1449	esofagitis
+#24	AnnotatorNotes T27	C0014868; Esophagitis; Disease or Syndrome
+T28	DISO 1477 1497	perforación gástrica
+#25	AnnotatorNotes T28	C0235884; Perforation of stomach; Disease or Syndrome
+T29	DISO 1513 1526	shock séptico
+#26	AnnotatorNotes T29	C0036983; Septic Shock; Pathologic Function
+T30	DISO 1529 1535	exitus
+#27	AnnotatorNotes T30	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T31	PROC 1607 1625	dieta hipocalórica
+#28	AnnotatorNotes T31	C0420182; dietary prophylaxis low calorie; Therapeutic or Preventive Procedure
+T32	PROC 1648 1659	tratamiento
+#29	AnnotatorNotes T32	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T33	PROC 1701 1712	tratamiento
+#30	AnnotatorNotes T33	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T34	DISO 1730 1746	obesidad mórbida
+#31	AnnotatorNotes T34	C0028756; Morbid obesity; Disease or Syndrome
+T35	Observation 1754 1769	pérdida de peso
+#32	AnnotatorNotes T35	C1262477; Weight decreased; Finding
+T36	PROC 642 665	índice de masa corporal
+#33	AnnotatorNotes T36	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T37	ANAT 657 665	corporal
+#34	AnnotatorNotes T37	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T38	DISO 1286 1297	sintomático
+#35	AnnotatorNotes T38	C1457887; Symptoms; Sign or Symptom
+T39	ANAT 1489 1497	gástrica
+#36	AnnotatorNotes T39	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T40	DEVI 41 60	balón intragástrico
+#37	AnnotatorNotes T40	C0017124; Gastric Balloon; Medical Device
+T41	LIVB 124 133	pacientes
+#38	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	DEVI 178 197	balón intragástrico
+#39	AnnotatorNotes T42	C0017124; Gastric Balloon; Medical Device
+T43	LIVB 450 459	pacientes
+#40	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	Date 518 531	marzo de 2004
+T46	Date 538 551	enero de 2007
+T48	Duration 586 593	6 meses
+T51	Duration 702 731	los 6 y 12 meses postretirada
+T52	DEVI 831 836	balón
+#41	AnnotatorNotes T52	C0017124; Gastric Balloon; Medical Device
+T53	LIVB 871 879	paciente
+#42	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T55	Duration 954 961	6 meses
+T56	Duration 1082 1107	los 12 meses postretirada
+T57	LIVB 1130 1139	pacientes
+#43	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 1328 1337	pacientes
+#44	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1375 1384	pacientes
+#45	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	DEVI 1418 1423	balón
+#46	AnnotatorNotes T60	C0017124; Gastric Balloon; Medical Device
+T61	LIVB 1464 1473	pacientes
+#47	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 1541 1549	paciente
+#48	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	DEVI 1572 1591	balón intragástrico
+#49	AnnotatorNotes T63	C0017124; Gastric Balloon; Medical Device
+T65	LIVB 1716 1725	pacientes
+#50	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	LIVB 1806 1815	pacientes
+#51	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	Duration 1819 1822	año
+T68	PROC 1831 1849	retirada del balón
+#52	AnnotatorNotes T68	C0192458; Removal of gastric balloon; Therapeutic or Preventive Procedure
+T69	ANAT 1360 1369	digestiva
+#53	AnnotatorNotes T69	C0012240; Gastrointestinal system; Body System
+T44	DEVI 569 574	balón
+#54	AnnotatorNotes T44	C0017124; Gastric Balloon; Medical Device
+T47	DEVI 693 698	balón
+#55	AnnotatorNotes T47	C0017124; Gastric Balloon; Medical Device
+T49	PROC 556 574	retirada del balón
+#56	AnnotatorNotes T49	C0192458; Removal of gastric balloon; Therapeutic or Preventive Procedure
+T50	PROC 680 698	retirada del balón
+#57	AnnotatorNotes T50	C0192458; Removal of gastric balloon; Therapeutic or Preventive Procedure
+T70	PROC 818 836	retirada del balón
+#58	AnnotatorNotes T70	C0192458; Removal of gastric balloon; Therapeutic or Preventive Procedure
+T71	DEVI 1844 1849	balón
+#59	AnnotatorNotes T71	C0017124; Gastric Balloon; Medical Device
+T54	CONC 464 482	contraindicaciones
+A1	Assertion T54 Negated
+#60	AnnotatorNotes T54	C0522473; Contraindication; Qualitative Concept
+T64	Neg_cue 460 463	sin
+R1	Negation Arg1:T64 Arg2:T54	
+R2	Combined_with Arg1:T40 Arg2:T2	
+R3	Causes Arg1:T40 Arg2:T3	
+R4	Before Arg1:T4 Arg2:T3	
+R5	Experiences Arg1:T41 Arg2:T4	
+R6	Experiences Arg1:T41 Arg2:T3	
+R7	Experiences Arg1:T66 Arg2:T35	
+R8	Has_Duration_or_Interval Arg1:T35 Arg2:T67	
+R9	After Arg1:T35 Arg2:T68	
+R10	Causes Arg1:T71 Arg2:T35	
+R11	Used_for Arg1:T71 Arg2:T68	
+R12	Experiences Arg1:T66 Arg2:T68	
+T72	Quantifier_or_Qualifier 1450 1458	moderada
+R13	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T72	
+R14	Experiences Arg1:T61 Arg2:T27	
+R15	Location_of Arg1:T39 Arg2:T28	
+T73	Quantifier_or_Qualifier 1498 1508	complicada
+R16	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T73	
+R17	Overlap Arg1:T28 Arg2:T29	
+R19	Experiences Arg1:T62 Arg2:T30	
+R20	Experiences Arg1:T62 Arg2:T29	
+R21	Experiences Arg1:T62 Arg2:T28	
+T74	PROC 1398 1406;1414 1423	retirada del balón
+#61	AnnotatorNotes T74	C0192458; Removal of gastric balloon; Therapeutic or Preventive Procedure
+R22	Used_for Arg1:T60 Arg2:T74	
+T75	Quantifier_or_Qualifier 1407 1413	precoz
+#62	AnnotatorNotes T75	C1279930; Precocious; Temporal Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T75	
+R24	Experiences Arg1:T58 Arg2:T26	
+R25	Location_of Arg1:T69 Arg2:T7	
+R26	Experiences Arg1:T59 Arg2:T74	
+R27	Experiences Arg1:T59 Arg2:T7	
+R29	Has_Duration_or_Interval Arg1:T19 Arg2:T55	
+T76	Observation 1030 1039;1046 1053	reducción del IMC
+T77	DEVI 1112 1117	balón
+#63	AnnotatorNotes T77	C0017124; Gastric Balloon; Medical Device
+R31	Experiences Arg1:T57 Arg2:T21	
+R32	Has_Duration_or_Interval Arg1:T21 Arg2:T56	
+R33	Before Arg1:T77 Arg2:T21	
+R34	Used_for Arg1:T42 Arg2:T6	
+R35	Combined_with Arg1:T6 Arg2:T9	
+R36	Experiences Arg1:T43 Arg2:T13	
+T78	DEVI 199 201	BI
+#64	AnnotatorNotes T78	C0017124; Gastric Balloon; Medical Device
+R37	Used_for Arg1:T78 Arg2:T6	
+T79	DEVI 508 510	BI
+#65	AnnotatorNotes T79	C0017124; Gastric Balloon; Medical Device
+R38	Used_for Arg1:T79 Arg2:T13	
+R39	After Arg1:T13 Arg2:T45	
+R40	Before Arg1:T13 Arg2:T46	
+R41	Overlap Arg1:T49 Arg2:T48	
+R42	After Arg1:T49 Arg2:T14	
+R43	Used_for Arg1:T47 Arg2:T50	
+R44	Location_of Arg1:T37 Arg2:T36	
+R45	Location_of Arg1:T37 Arg2:T1	
+R46	After Arg1:T1 Arg2:T50	
+R47	After Arg1:T36 Arg2:T50	
+R48	After Arg1:T15 Arg2:T50	
+R49	Overlap Arg1:T50 Arg2:T51	
+R50	Overlap Arg1:T1 Arg2:T51	
+R51	Overlap Arg1:T36 Arg2:T51	
+R52	Overlap Arg1:T15 Arg2:T51	
+R53	Overlap Arg1:T16 Arg2:T17	
+R54	Experiences Arg1:T53 Arg2:T70	
+R55	Used_for Arg1:T52 Arg2:T70	
+R56	Experiences Arg1:T53 Arg2:T18	
+T80	Quantifier_or_Qualifier 1186 1194	precoces
+R57	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T80	
+#66	AnnotatorNotes T80	C1279930; Precocious; Temporal Concept
+R58	Causes Arg1:T19 Arg2:T20	
+R59	Causes Arg1:T19 Arg2:T76	
+R60	Before Arg1:T19 Arg2:T8	
+T81	Observation 1256 1271	buena respuesta
+R61	Overlap Arg1:T81 Arg2:T25	
+R62	Combined_with Arg1:T63 Arg2:T31	
+T82	Observation 1679 1692	bien tolerado
+R63	Overlap Arg1:T32 Arg2:T82	
+R64	Experiences Arg1:T65 Arg2:T33	
+R65	Experiences Arg1:T65 Arg2:T32	
+R66	Experiences Arg1:T65 Arg2:T82	
+R68	Experiences Arg1:T65 Arg2:T34	
+R69	Overlap Arg1:T82 Arg2:T33	
+R70	Used_for Arg1:T44 Arg2:T49	
+R71	Before Arg1:T17 Arg2:T51	
+R72	Causes Arg1:T47 Arg2:T16	
+R73	Used_for Arg1:T47 Arg2:T17	
+R74	Before Arg1:T70 Arg2:T5	
+R75	Before Arg1:T18 Arg2:T5	
+R76	Experiences Arg1:T53 Arg2:T5	
+R77	Experiences Arg1:T57 Arg2:T77	
+R18	Before Arg1:T29 Arg2:T30	
+T83	Observation 26 36	tolerancia
+T84	Observation 745 755	tolerancia
+R78	Overlap Arg1:T84 Arg2:T17	
+#67	AnnotatorNotes T83	C0162703; Pain Threshold; Finding (?)
+#68	AnnotatorNotes T84	C0162703; Pain Threshold; Finding (?)
+#69	AnnotatorNotes T82	C5684674; patient tolerated procedure well; Finding
+R79	Overlap Arg1:T83 Arg2:T40	
+#70	AnnotatorNotes T81	C0184785; Good therapeutic response; Finding
+R80	Experiences Arg1:T41 Arg2:T40	
+R81	Overlap Arg1:T20 Arg2:T55	
+R82	Overlap Arg1:T76 Arg2:T55	
+T85	PROC 991 995	peso
+#71	AnnotatorNotes T85	C2985231; Body Weight Measurement; Diagnostic Procedure
+R83	Before Arg1:T19 Arg2:T85	
+#72	AnnotatorNotes T76	C0231255; Decreased body mass index; Finding
+#73	AnnotatorNotes T72	C0205081; Moderate (severity modifier); Qualitative Concept
+#74	AnnotatorNotes T73	C0231242; Complicated; Functional Concept
+R28	Experiences Arg1:T65 Arg2:T63	
+A2	Experiencer T43 Patient
+A3	Experiencer T41 Patient
+A4	Experiencer T53 Patient
+A5	Experiencer T57 Patient
+A6	Experiencer T58 Patient
+A7	Experiencer T59 Patient
+A8	Experiencer T61 Patient
+A9	Experiencer T62 Patient
+A10	Experiencer T66 Patient
+A11	Experiencer T65 Patient
+R30	Has_Result_or_Value Arg1:T85 Arg2:T20	
+R67	Has_Result_or_Value Arg1:T8 Arg2:T76	

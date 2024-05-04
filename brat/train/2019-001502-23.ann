@@ -1,0 +1,289 @@
+T1	PROC 44 60	Evaluar el dolor
+#1	AnnotatorNotes T1	C0030198; Pain Measurement; Diagnostic Procedure
+T2	PROC 66 73	cirugía
+#2	AnnotatorNotes T2	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T3	PROC 78 96	anestesia raquídea
+#3	AnnotatorNotes T3	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T4	CHEM 101 116	cloruro mórfico
+#4	AnnotatorNotes T4	C0026551; Morphine Chloride; Organic Chemical · Pharmacologic Substance
+T5	PROC 219 235	evaluar el dolor
+#5	AnnotatorNotes T5	C0030198; Pain Measurement; Diagnostic Procedure
+T6	PROC 241 257	cirugía electiva
+T7	ANAT 269 275	hígado
+#6	AnnotatorNotes T7	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T8	ANAT 278 286	páncreas
+#7	AnnotatorNotes T8	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T9	CHEM 336 351	cloruro mórfico
+#8	AnnotatorNotes T9	C0026551; Morphine Chloride; Organic Chemical · Pharmacologic Substance
+T10	DISO 414 434	Dolor postoperatorio
+#9	AnnotatorNotes T10	C0030201; Pain, Postoperative; Sign or Symptom
+T11	DISO 488 520	Patología hepática o pancreática
+T12	ANAT 509 520	pancreática
+#10	AnnotatorNotes T12	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T13	PROC 534 545	intervenida
+#11	AnnotatorNotes T13	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T14	PROC 555 573	cirugía programada
+T15	PROC 619 637	resección hepática
+#12	AnnotatorNotes T15	C0019144; Hepatectomy; Therapeutic or Preventive Procedure
+T16	PROC 640 661	resección pancreática
+T17	ANAT 650 661	pancreática
+#13	AnnotatorNotes T17	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T18	PROC 666 693	reconstrucción tipo Whipple
+T19	DISO 771 780	alérgicos
+#14	AnnotatorNotes T19	C1527304; Allergic Reaction; Pathologic Function
+T20	PROC 708 732	consentimiento informado
+#15	AnnotatorNotes T20	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T21	PROC 854 868	diagnosticados
+#16	AnnotatorNotes T21	C0011900; Diagnosis; Diagnostic Procedure
+T22	DISO 872 886	retraso mental
+#17	AnnotatorNotes T22	C0025362; Mental Retardation; Mental or Behavioral Dysfunction | C3714756; Intellectual Disability; Mental or Behavioral Dysfunction
+T23	DISO 888 912	incapacidad comunicativa
+#18	AnnotatorNotes T23	C0751049; Communication Disabilities; Mental or Behavioral Dysfunction
+T24	PROC 981 999	anestesia raquídea
+#19	AnnotatorNotes T24	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T25	DISO 1001 1011	escoliosis
+#20	AnnotatorNotes T25	C0036439; Scoliosis, unspecified; Disease or Syndrome
+T26	ANAT 1050 1064	columna lumbar
+#21	AnnotatorNotes T26	C1284112; Entire lumbar vertebral column; Body Location or Region | C3887615; Lumbar spine structure; Body Location or Region
+T27	DISO 1069 1075	lipoma
+#22	AnnotatorNotes T27	C0023798; Lipoma; Neoplastic Process
+T28	PROC 1090 1102	intervenidos
+#23	AnnotatorNotes T28	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T29	PROC 1118 1125	cirugía
+T30	PROC 1138 1149	laparotomía
+#24	AnnotatorNotes T30	C0023038; Laparotomy; Therapeutic or Preventive Procedure
+T31	PROC 300 331	tratados con anestesia raquídea
+T32	CHEM 1216 1224	opioides
+#25	AnnotatorNotes T32	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T33	DISO 1242 1269	insuficiencia renal crónica
+#26	AnnotatorNotes T33	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T34	PROC 1271 1299	filtrado glomerular estimado
+#27	AnnotatorNotes T34	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T35	PROC 1374 1388	diagnosticados
+#28	AnnotatorNotes T35	C0011900; Diagnosis; Diagnostic Procedure
+T36	DISO 1392 1401	epilepsia
+#29	AnnotatorNotes T36	C0014544; Epilepsy; Disease or Syndrome
+T37	PROC 1406 1417	tratamiento
+#30	AnnotatorNotes T37	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T38	DISO 1477 1499	insuficiencia hepática
+#31	AnnotatorNotes T38	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T39	DISO 1564 1580	obesidad mórbida
+#32	AnnotatorNotes T39	C0028756; Morbid obesity; Disease or Syndrome
+T40	PROC 1612 1626	diagnosticados
+#33	AnnotatorNotes T40	C0011900; Diagnosis; Diagnostic Procedure
+T41	DISO 1630 1669	síndrome de apnea obstructiva del sueño
+#34	AnnotatorNotes T41	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T42	PROC 1683 1703	tratamiento con CPAP
+#35	AnnotatorNotes T42	C0199451; Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T43	PROC 1582 1585	IMC
+#36	AnnotatorNotes T43	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T44	PROC 1797 1811	procedimientos
+#37	AnnotatorNotes T44	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T45	DISO 55 60	dolor
+#38	AnnotatorNotes T45	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T46	PROC 1013 1064	instrumentalización posquirúrgica de columna lumbar
+#39	AnnotatorNotes T46	C0559205; Manipulation of the lumbar spine - non-surgical; Therapeutic or Preventive Procedure
+T47	PROC 164 213	Ensayo clínico aleatorizado, abierto y controlado
+T48	DISO 230 235	dolor
+#40	AnnotatorNotes T48	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T49	ANAT 498 506	hepática
+#41	AnnotatorNotes T49	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T50	ANAT 629 637	hepática
+#42	AnnotatorNotes T50	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T51	CHEM 783 802	anestésicos locales
+#43	AnnotatorNotes T51	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T52	ANAT 1256 1261	renal
+#44	AnnotatorNotes T52	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T53	PROC 1331 1341	creatinina
+#45	AnnotatorNotes T53	C0201975; Creatinine measurement; Laboratory Procedure
+T54	CHEM 1422 1437	antiepilépticos
+#46	AnnotatorNotes T54	C0003299; Antiepileptic Agents; Pharmacologic Substance
+T55	ANAT 1491 1499	hepática
+#47	AnnotatorNotes T55	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T56	Date 12 16	2019
+T57	DEVI 121 130	catéteres
+#48	AnnotatorNotes T57	C0085590; catheter device; Medical Device
+T58	LIVB 290 299	pacientes
+#49	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	DEVI 356 365	catéteres
+#50	AnnotatorNotes T59	C0085590; catheter device; Medical Device
+T60	Time 420 434	postoperatorio
+#51	AnnotatorNotes T60	C0032790; Postoperative Period; Temporal Concept
+T61	Age 467 485	entre 18 y 75 años
+T62	LIVB 761 770	Pacientes
+#52	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 806 815	Pacientes
+#53	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T65	LIVB 844 853	Pacientes
+#54	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	LIVB 920 932	investigador
+#55	AnnotatorNotes T66	C0035173; Research Personnel; Professional or Occupational Group
+T67	Date 1033 1046	posquirúrgica
+T68	LIVB 1080 1089	Pacientes
+#56	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	Duration 1190 1197	crónico
+#57	AnnotatorNotes T69	C0205191; chronic; Temporal Concept
+T70	Duration 1199 1211	más de 1 mes
+T71	LIVB 1228 1237	Pacientes
+#58	AnnotatorNotes T71	C0030705; Patients; Patient or Disabled Group
+T72	Duration 1262 1269	crónica
+#59	AnnotatorNotes T72	C0205191; chronic; Temporal Concept
+T75	LIVB 1364 1373	Pacientes
+#60	AnnotatorNotes T75	C0030705; Patients; Patient or Disabled Group
+T76	Duration 1446 1458	más de 1 año
+T77	LIVB 1463 1472	Pacientes
+#61	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	Date 1532 1545	el último mes
+T79	LIVB 1550 1559	Pacientes
+#62	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	LIVB 1602 1611	Pacientes
+#63	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T81	Time 1704 1712	nocturna
+#64	AnnotatorNotes T81	C0240526; Night time; Temporal Concept
+T82	LIVB 1716 1725	Pacientes
+#65	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group
+T83	LIVB 1745 1757	investigador
+#66	AnnotatorNotes T83	C0035173; Research Personnel; Professional or Occupational Group
+T85	PHYS 880 886	mental
+#67	AnnotatorNotes T85	C0229992; Psyche structure; Mental Process
+T86	PHYS 1664 1669	sueño
+#68	AnnotatorNotes T86	C0037313; Sleep; Organism Function
+T64	PROC 1501 1520	Clasificación Child
+#69	AnnotatorNotes T64	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+T73	Neg_cue 937 950	Imposibilidad
+T74	PROC 834 837	ASA
+#70	AnnotatorNotes T74	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T84	PHYS 1271 1290	filtrado glomerular
+#71	AnnotatorNotes T84	C0232809; Glomerular filtration; Organ or Tissue Function; Laboratory Procedure
+T87	ANAT 1280 1290	glomerular
+#72	AnnotatorNotes T87	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T88	Neg_cue 1758 1760	no
+T89	Observation 1773 1780	capaces
+#73	AnnotatorNotes T89	C1299581; Able; Finding
+A1	Assertion T24 Negated
+A2	Status T29 History_of
+A3	Status T30 History_of
+A4	Status T32 History_of
+A5	Assertion T89 Negated
+A6	Status T19 History_of
+A8	Status T28 History_of
+#74	AnnotatorNotes T47	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1709323; Open Label Study; Research Activity  
+#75	AnnotatorNotes T31	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+#76	AnnotatorNotes T16	C0854522; Pancreatic resection; Therapeutic or Preventive Procedure
+#77	AnnotatorNotes T67	C0032790; Postoperative Period; Temporal Concept
+R1	Causes Arg1:T51 Arg2:T19	
+R2	Negation Arg1:T73 Arg2:T24	
+R3	Negation Arg1:T88 Arg2:T89	
+R4	After Arg1:T1 Arg2:T2	
+R5	Causes Arg1:T2 Arg2:T45	
+R6	Before Arg1:T3 Arg2:T2	
+R7	Used_for Arg1:T4 Arg2:T3	
+R8	Used_for Arg1:T57 Arg2:T3	
+T90	Quantifier_or_Qualifier 131 143	incisionales
+R9	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T90	
+T91	Quantifier_or_Qualifier 366 378	incisionales
+R10	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T91	
+R11	Used_for Arg1:T9 Arg2:T31	
+R12	Used_for Arg1:T59 Arg2:T31	
+R13	Causes Arg1:T6 Arg2:T48	
+R14	After Arg1:T5 Arg2:T6	
+#78	AnnotatorNotes T6	C0206058; Elective Surgical Procedures; Therapeutic or Preventive Procedure
+T92	Quantifier_or_Qualifier 258 265	abierta
+#79	AnnotatorNotes T92	C0348025; Open approach; Spatial Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T92	
+R16	Location_of Arg1:T7 Arg2:T6	
+R17	Location_of Arg1:T8 Arg2:T6	
+R18	Experiences Arg1:T58 Arg2:T5	
+R19	Experiences Arg1:T58 Arg2:T6	
+R20	Experiences Arg1:T58 Arg2:T48	
+R21	Experiences Arg1:T58 Arg2:T31	
+R22	Before Arg1:T31 Arg2:T6	
+R23	Overlap Arg1:T10 Arg2:T60	
+R24	Location_of Arg1:T49 Arg2:T11	
+R25	Location_of Arg1:T12 Arg2:T11	
+#80	AnnotatorNotes T11	C0023895; Liver diseases; Disease or Syndrome | C0030286; Pancreatic Diseases; Disease or Syndrome
+T93	Quantifier_or_Qualifier 574 581	abierta
+#81	AnnotatorNotes T93	C0348025; Open approach; Spatial Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T93	
+R27	Location_of Arg1:T50 Arg2:T15	
+R28	Location_of Arg1:T17 Arg2:T16	
+R29	Combined_with Arg1:T16 Arg2:T18	
+R30	Experiences Arg1:T62 Arg2:T19	
+T94	Result_or_Value 838 840	IV
+R31	Has_Result_or_Value Arg1:T74 Arg2:T94	
+R32	Experiences Arg1:T63 Arg2:T74	
+R33	Experiences Arg1:T65 Arg2:T22	
+R35	Experiences Arg1:T65 Arg2:T85	
+R36	Experiences Arg1:T65 Arg2:T23	
+R39	Overlap Arg1:T24 Arg2:T46	
+R40	Overlap Arg1:T46 Arg2:T67	
+R41	Location_of Arg1:T26 Arg2:T46	
+R43	Experiences Arg1:T68 Arg2:T28	
+T95	Quantifier_or_Qualifier 1126 1133	abierta
+#82	AnnotatorNotes T95	C0348025; Open approach; Spatial Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T95	
+A7	Status T95 History_of
+#83	AnnotatorNotes T29	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+R45	Combined_with Arg1:T29 Arg2:T30	
+T96	Quantifier_or_Qualifier 1150 1155	media
+#84	AnnotatorNotes T96	C0549183; Midline (qualifier value); Spatial Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T96	
+A9	Status T96 History_of
+R47	Experiences Arg1:T68 Arg2:T29	
+R48	Experiences Arg1:T68 Arg2:T30	
+R49	Has_Duration_or_Interval Arg1:T32 Arg2:T69	
+R50	Has_Duration_or_Interval Arg1:T32 Arg2:T70	
+R51	Location_of Arg1:T52 Arg2:T33	
+R52	Has_Duration_or_Interval Arg1:T33 Arg2:T72	
+R53	Experiences Arg1:T71 Arg2:T33	
+R54	Experiences Arg1:T71 Arg2:T84	
+R55	Location_of Arg1:T87 Arg2:T84	
+R56	Location_of Arg1:T87 Arg2:T34	
+R58	Experiences Arg1:T71 Arg2:T34	
+R59	Experiences Arg1:T71 Arg2:T53	
+T97	Result_or_Value 1342 1360	mayor de 1,5 mg/dl
+R60	Has_Result_or_Value Arg1:T53 Arg2:T97	
+T98	Result_or_Value 1300 1326	menor de 60 ml/min/1,73 m2
+R61	Has_Result_or_Value Arg1:T34 Arg2:T98	
+R64	Experiences Arg1:T75 Arg2:T36	
+R65	Used_for Arg1:T54 Arg2:T37	
+R66	Has_Duration_or_Interval Arg1:T54 Arg2:T76	
+R67	Experiences Arg1:T75 Arg2:T37	
+R68	Location_of Arg1:T55 Arg2:T38	
+R70	Overlap Arg1:T64 Arg2:T78	
+T99	Result_or_Value 1521 1528	B y/o C
+R71	Has_Result_or_Value Arg1:T64 Arg2:T99	
+R72	Experiences Arg1:T77 Arg2:T38	
+R73	Experiences Arg1:T77 Arg2:T64	
+R74	Experiences Arg1:T79 Arg2:T39	
+T100	Result_or_Value 1586 1597	mayor de 39
+R76	Has_Result_or_Value Arg1:T43 Arg2:T100	
+R77	Experiences Arg1:T80 Arg2:T41	
+R79	Experiences Arg1:T80 Arg2:T86	
+R80	Experiences Arg1:T80 Arg2:T42	
+R81	Overlap Arg1:T42 Arg2:T81	
+R82	Has_Quantifier_or_Qualifier Arg1:T82 Arg2:T89	
+R83	Experiences Arg1:T82 Arg2:T44	
+R34	Experiences Arg1:T79 Arg2:T43	
+R37	Overlap Arg1:T89 Arg2:T44	
+#85	AnnotatorNotes T18	C0747191; PANCREAS SURGERY WHIPPLE PROCEDURE; Therapeutic or Preventive Procedure (?)
+#86	AnnotatorNotes T14	C0184892; Routinely scheduled operation; Therapeutic or Preventive Procedure
+A10	Experiencer T58 Patient
+A11	Status T13 Future
+A12	Status T14 Future
+A13	Status T93 Future
+A14	Status T15 Future
+A15	Status T16 Future
+A16	Status T18 Future
+A17	Experiencer T62 Patient
+A18	Experiencer T63 Patient
+A19	Experiencer T65 Patient
+A20	Experiencer T66 Other
+A21	Experiencer T68 Patient
+A22	Experiencer T71 Patient
+A23	Experiencer T75 Patient
+A24	Experiencer T77 Patient
+A25	Experiencer T79 Patient
+A26	Experiencer T80 Patient
+A27	Experiencer T82 Patient
+A28	Experiencer T83 Other

@@ -1,0 +1,246 @@
+T1	DISO 218 221	VHC
+#1	AnnotatorNotes T1	C0019196; Hepatitis C; Disease or Syndrome
+T2	PROC 67 95	evaluar eficacia y seguridad
+T3	CHEM 123 132	Ritonavir
+#2	AnnotatorNotes T3	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T4	DISO 168 216	infección crónica por el virus de la Hepatitis C
+#3	AnnotatorNotes T4	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome | C4736234; chronic hepatitis C due to hepatitis C virus genotype 4; Disease or Syndrome
+T5	DISO 251 270	insuficiencia renal
+#4	AnnotatorNotes T5	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T6	DISO 279 298	nefropatía terminal
+#5	AnnotatorNotes T6	C0022661; Kidney Failure, Chronic; Disease or Syndrome
+T7	CHEM 99 109	Ombitasvir
+#6	AnnotatorNotes T7	C3852670; ombitasvir; Organic Chemical · Pharmacologic Substance
+T8	DISO 332 365	Infección Cronica por Hepatitis C
+T9	DISO 395 419	Infección crónica de VHC
+T10	DISO 476 489	infección VHC
+#7	AnnotatorNotes T10	C0019196; Hepatitis C; Disease or Syndrome
+T11	PHYS 756 771	posmenopáusicas
+#8	AnnotatorNotes T11	C0206159; Postmenopause; Organism Function
+T12	PROC 547 568	tratamiento antiviral
+#9	AnnotatorNotes T12	C2363964; Antiviral treatment; Therapeutic or Preventive Procedure
+T13	PROC 698 702	MDRD
+#10	AnnotatorNotes T13	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure
+T14	DISO 577 602	infección por hepatitis C
+T15	PROC 607 643	Tasa estimada de filtrado glomerular
+#11	AnnotatorNotes T15	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T16	PROC 645 649	eGFR
+#12	AnnotatorNotes T16	C0C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T17	DISO 800 809	estériles
+#13	AnnotatorNotes T17	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T18	PROC 860 880	control de natalidad
+#14	AnnotatorNotes T18	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T19	DISO 1211 1214	VHC
+#15	AnnotatorNotes T19	C0019196; Hepatitis C; Disease or Syndrome
+T20	PROC 990 1045	test de detección de antígeno superficie de Hepatitis B
+#16	AnnotatorNotes T20	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T21	PROC 1047 1052	HbsAg
+#17	AnnotatorNotes T21	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T22	PROC 1069 1127	anticuerpos frente al virus de la inmunodeficiencia humana
+#18	AnnotatorNotes T22	C3714540; HIV Antibody Measurement; Laboratory Procedure
+T23	PROC 1129 1135	Ab VIH
+#19	AnnotatorNotes T23	C0019683; HIV Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T24	DISO 1153 1167	comorbilidades
+#20	AnnotatorNotes T24	C1275743; Co-morbid conditions; Finding
+T25	CHEM 1309 1318	ritonavir
+#21	AnnotatorNotes T25	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T26	PROC 1345 1362	terapia antiviral
+T27	CHEM 1395 1402	agentes
+#22	AnnotatorNotes T27	C0450442; Agent; Chemical Viewed Functionally
+T28	DISO 1498 1506	cirrosis
+#23	AnnotatorNotes T28	C1623038; Cirrhosis; Disease or Syndrome
+T29	ANAT 265 270	renal
+#24	AnnotatorNotes T29	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T30	DISO 725 743	cirrhosis hepatica
+T31	CHEM 559 568	antiviral
+#25	AnnotatorNotes T31	C0003451; Antiviral Agents; Pharmacologic Substance
+T32	CHEM 1353 1362	antiviral
+#26	AnnotatorNotes T32	C0003451; Antiviral Agents; Pharmacologic Substance
+T33	CHEM 143 152	Dasabuvir
+#27	AnnotatorNotes T33	C3852512; dasabuvir; Organic Chemical · Pharmacologic Substance
+T34	CHEM 110 122	Paritaprevir
+#28	AnnotatorNotes T34	C3864824; paritaprevir; Organic Chemical · Pharmacologic Substance
+T35	ANAT 735 743	hepatica
+#29	AnnotatorNotes T35	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T36	CHEM 1321 1330	dasabuvir
+#30	AnnotatorNotes T36	C3852512; dasabuvir; Organic Chemical · Pharmacologic Substance
+T37	CHEM 1285 1295	ombitasvir
+#31	AnnotatorNotes T37	C3852670; ombitasvir; Organic Chemical · Pharmacologic Substance
+T38	DISO 1380 1383	VHC
+#32	AnnotatorNotes T38	C0019196; Hepatitis C; Disease or Syndrome
+T39	CHEM 1296 1308	paritaprevir
+#33	AnnotatorNotes T39	C3864824; paritaprevir; Organic Chemical · Pharmacologic Substance
+T40	Date 13 17	2015
+T41	Neg_cue 139 142	sin
+T42	LIVB 156 163	adultos
+#34	AnnotatorNotes T42	C0001675; Adult; Age Group
+T43	Duration 178 185	crónica
+#35	AnnotatorNotes T43	C0205191; chronic; Temporal Concept
+T44	LIVB 193 216	virus de la Hepatitis C
+#36	AnnotatorNotes T44	C0220847; hepatitis C virus; Virus
+T46	PROC 230 239	genotipos
+#37	AnnotatorNotes T46	C1285573; Genotype determination; Laboratory Procedure
+T47	Duration 342 349	Cronica
+T48	Duration 405 412	crónica
+#38	AnnotatorNotes T48	C0205191; chronic; Temporal Concept
+T49	LIVB 416 419	VHC
+#39	AnnotatorNotes T49	C0220847; hepatitis C virus; Virus
+T50	LIVB 486 489	VHC
+#40	AnnotatorNotes T50	C0220847; hepatitis C virus; Virus
+T51	PROC 494 502	genotipo
+#41	AnnotatorNotes T51	C1285573; Genotype determination; Laboratory Procedure
+T52	LIVB 514 521	Sujetos
+#42	AnnotatorNotes T52	C0681850; Study Subject; Group
+T53	Neg_cue 526 531	nunca
+T55	Neg_cue 707 710	Sin
+T56	LIVB 748 755	Mujeres
+#43	AnnotatorNotes T56	C0043210; Woman; Population Group
+T58	Duration 780 793	más de 2 años
+T59	LIVB 911 930	Mujeres embarazadas
+#44	AnnotatorNotes T59	C0033011; Pregnant Women; Population Group
+T60	PHYS 949 958	lactancia
+#45	AnnotatorNotes T60	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T61	LIVB 1091 1127	virus de la inmunodeficiencia humana
+#46	AnnotatorNotes T61	C0019682; HIV; Virus
+T62	LIVB 1132 1135	VIH
+#47	AnnotatorNotes T62	C0019682; HIV; Virus
+T64	LIVB 1232 1238	sujeto
+#48	AnnotatorNotes T64	C0681850; Study Subject; Group
+T68	Date 1479 1485	actual
+T69	Date 1488 1494	pasada
+T45	PHYS 919 930	embarazadas
+#49	AnnotatorNotes T45	C0032961; Pregnancy; Organism Function
+T54	CHEM 1011 1045	antígeno superficie de Hepatitis B
+#50	AnnotatorNotes T54	C0019168; Hepatitis B Surface Antigen; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T57	Neg_cue 1239 1241	no
+T63	PHYS 624 643	filtrado glomerular
+#51	AnnotatorNotes T63	C0232809; Glomerular filtration; Organ or Tissue Function; Laboratory Procedure
+T65	CHEM 1395 1402;1430 1446	agentes en investigación
+#52	AnnotatorNotes T65	C0013230; Investigational New Drugs; Pharmacologic Substance
+T66	ANAT 633 643	glomerular
+#53	AnnotatorNotes T66	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T67	PROC 800 825	estériles quirúrgicamente
+#54	AnnotatorNotes T67	C0015787; Female Sterilization; Therapeutic or Preventive Procedure
+A1	Assertion T33 Negated
+A2	Population_data T42 Age
+A3	Assertion T12 Negated
+A4	Assertion T30 Negated
+A5	Assertion T37 Negated
+A6	Assertion T39 Negated
+A7	Assertion T25 Negated
+A8	Assertion T36 Negated
+A9	Assertion T31 Negated
+A10	Status T26 History_of
+A11	Status T32 History_of
+A12	Status T12 History_of
+A13	Status T31 History_of
+A14	Status T67 History_of
+A15	Status T65 History_of
+A16	Status T27 History_of
+A17	Status T28 History_of
+#55	AnnotatorNotes T47	C0205191; chronic; Temporal Concept
+#56	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#57	AnnotatorNotes T14	C0019196; Hepatitis C; Disease or Syndrome
+#58	AnnotatorNotes T8	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+#59	AnnotatorNotes T9	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+#60	AnnotatorNotes T30	C0023890; Liver Cirrhosis; Disease or Syndrome
+#61	AnnotatorNotes T26	C0280274; Antiviral Therapy; Therapeutic or Preventive Procedure 
+#62	AnnotatorNotes T68	C0521116; Current (present time); Temporal Concept 
+#63	AnnotatorNotes T69	C1444637; In the past; Temporal Concept
+R1	Combined_with Arg1:T7 Arg2:T34	
+R2	Combined_with Arg1:T34 Arg2:T3	
+R3	Negation Arg1:T41 Arg2:T33	
+R4	Combined_with Arg1:T3 Arg2:T33	
+R5	Experiences Arg1:T42 Arg2:T7	
+R6	Experiences Arg1:T42 Arg2:T4	
+R7	Experiences Arg1:T42 Arg2:T1	
+R8	Experiences Arg1:T42 Arg2:T46	
+R9	Experiences Arg1:T42 Arg2:T5	
+R10	Experiences Arg1:T42 Arg2:T6	
+T70	Quantifier_or_Qualifier 271 276	grave
+#64	AnnotatorNotes T70	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R11	Location_of Arg1:T29 Arg2:T5	
+R12	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T70	
+R13	Has_Duration_or_Interval Arg1:T4 Arg2:T43	
+R14	Has_Duration_or_Interval Arg1:T1 Arg2:T43	
+R15	Causes Arg1:T44 Arg2:T4	
+R16	Causes Arg1:T44 Arg2:T1	
+T71	Quantifier_or_Qualifier 230 246	genotipos 1a o 4
+R17	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T71	
+R18	Has_Duration_or_Interval Arg1:T8 Arg2:T47	
+R19	Has_Duration_or_Interval Arg1:T9 Arg2:T48	
+R20	Causes Arg1:T49 Arg2:T9	
+T72	Quantifier_or_Qualifier 494 509	genotipo 1a o 4
+R21	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T72	
+R22	Causes Arg1:T50 Arg2:T10	
+T73	PROC 456 465	selección
+#65	AnnotatorNotes T73	C0242802; Patient Selection; Research Activity
+R23	Overlap Arg1:T10 Arg2:T73	
+R24	Experiences Arg1:T52 Arg2:T12	
+R25	Used_for Arg1:T31 Arg2:T12	
+R26	Negation Arg1:T53 Arg2:T12	
+R27	Negation Arg1:T53 Arg2:T31	
+R28	Experiences Arg1:T52 Arg2:T14	
+R29	Location_of Arg1:T66 Arg2:T63	
+R30	Location_of Arg1:T66 Arg2:T15	
+R31	Location_of Arg1:T66 Arg2:T16	
+T74	Result_or_Value 651 668	<30 ml/min/1,73m2
+R36	Has_Result_or_Value Arg1:T16 Arg2:T74	
+R37	Has_Result_or_Value Arg1:T15 Arg2:T74	
+R38	Negation Arg1:T55 Arg2:T30	
+R39	Location_of Arg1:T35 Arg2:T30	
+R40	Experiences Arg1:T56 Arg2:T11	
+R41	Has_Duration_or_Interval Arg1:T11 Arg2:T58	
+R42	Experiences Arg1:T56 Arg2:T17	
+R43	Experiences Arg1:T56 Arg2:T67	
+R44	Before Arg1:T67 Arg2:T17	
+R45	Experiences Arg1:T56 Arg2:T18	
+R46	Experiences Arg1:T59 Arg2:T45	
+R47	Experiences Arg1:T59 Arg2:T60	
+T75	Result_or_Value 963 981	Resultado positivo
+#66	AnnotatorNotes T75	C1446409; Positive; Finding
+R48	Has_Result_or_Value Arg1:T20 Arg2:T75	
+R49	Has_Result_or_Value Arg1:T21 Arg2:T75	
+T76	Quantifier_or_Qualifier 1168 1195	clínicamente significativas
+R50	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T76	
+T77	Observation 1141 1150	Anomalías
+#67	AnnotatorNotes T77	C1704258; Abnormality; Finding
+R51	Experiences Arg1:T64 Arg2:T77	
+R52	Experiences Arg1:T64 Arg2:T24	
+R53	Experiences Arg1:T64 Arg2:T19	
+R54	Overlap Arg1:T24 Arg2:T19	
+R55	Overlap Arg1:T77 Arg2:T19	
+T78	Observation 1248 1274	participar en este estudio
+#68	AnnotatorNotes T78	C1278516; Patient participation status; Finding (?)
+A18	Assertion T78 Negated
+R56	Negation Arg1:T57 Arg2:T78	
+R58	Before Arg1:T77 Arg2:T78	
+R59	Before Arg1:T24 Arg2:T78	
+R60	Negation Arg1:T57 Arg2:T37	
+R61	Negation Arg1:T57 Arg2:T39	
+R62	Negation Arg1:T57 Arg2:T25	
+R63	Negation Arg1:T57 Arg2:T36	
+R64	Before Arg1:T77 Arg2:T37	
+R65	Before Arg1:T77 Arg2:T39	
+R66	Before Arg1:T77 Arg2:T25	
+R67	Before Arg1:T77 Arg2:T36	
+R68	Combined_with Arg1:T37 Arg2:T39	
+R69	Combined_with Arg1:T39 Arg2:T25	
+R70	Combined_with Arg1:T25 Arg2:T36	
+R71	Before Arg1:T24 Arg2:T37	
+R72	Before Arg1:T24 Arg2:T39	
+R73	Before Arg1:T24 Arg2:T25	
+R74	Before Arg1:T24 Arg2:T36	
+R75	Experiences Arg1:T64 Arg2:T37	
+R76	Used_for Arg1:T32 Arg2:T26	
+R77	Used_for Arg1:T27 Arg2:T26	
+T79	Quantifier_or_Qualifier 1403 1427	aprobados comercialmente
+R78	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T79	
+R79	Overlap Arg1:T28 Arg2:T69	
+R80	Overlap Arg1:T28 Arg2:T68	
+#69	AnnotatorNotes T76	C5209294; Clinical relevance; Intellectual Product
+A19	Experiencer T42 Patient
+A20	Experiencer T52 Patient
+A21	Experiencer T56 Patient
+A22	Experiencer T59 Patient
+A23	Experiencer T64 Patient

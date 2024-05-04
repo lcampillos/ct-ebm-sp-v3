@@ -1,0 +1,153 @@
+T1	PROC 46 66	Estudio de extensión
+T2	PROC 71 99	tratamiento de mantenimiento
+#1	AnnotatorNotes T2	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T3	DISO 149 200	polineuropatía desmielinizante inflamatoria crónica
+#2	AnnotatorNotes T3	C0393819; Polyradiculoneuropathy, Chronic Inflammatory Demyelinating; Disease or Syndrome
+T4	DISO 202 206	CIDP
+#3	AnnotatorNotes T4	C0393819; Polyradiculoneuropathy, Chronic Inflammatory Demyelinating; Disease or Syndrome
+T5	PROC 231 275	Estudio de extensión abierto y multicéntrico
+T6	PROC 281 312	evaluar la seguridad y eficacia
+T7	PROC 343 371	tratamiento de mantenimiento
+#4	AnnotatorNotes T7	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T8	DISO 378 429	polineuropatía desmielinizante inflamatoria crónica
+#5	AnnotatorNotes T8	C0393819; Polyradiculoneuropathy, Chronic Inflammatory Demyelinating; Disease or Syndrome
+T9	DISO 431 435	CIDP
+#6	AnnotatorNotes T9	C0393819; Polyradiculoneuropathy, Chronic Inflammatory Demyelinating; Disease or Syndrome
+T10	DISO 519 542	Enfermedad inflamatoria
+T11	PROC 922 958	consentimiento informado por escrito
+#7	AnnotatorNotes T11	C0811741; Obtain informed written consent; Health Care Activity
+T12	ANAT 547 574	sistema nervioso periférico
+#8	AnnotatorNotes T12	C0206417; Peripheral Nervous System; Body System | C1305921; Entire peripheral nervous system; Body System
+T13	DISO 602 653	Polineuropatía desmielinizante inflamatoria crónica
+#9	AnnotatorNotes T13	C0393819; Polyradiculoneuropathy, Chronic Inflammatory Demyelinating; Disease or Syndrome
+T14	DISO 655 659	CIDP
+#10	AnnotatorNotes T14	C0393819; Polyradiculoneuropathy, Chronic Inflammatory Demyelinating; Disease or Syndrome
+T15	DISO 817 821	CIDP
+#11	AnnotatorNotes T15	C0393819; Polyradiculoneuropathy, Chronic Inflammatory Demyelinating; Disease or Syndrome
+T16	PROC 844 855	tratamiento
+#12	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	DISO 1220 1232	enfermedades
+#13	AnnotatorNotes T17	C0012634; Disease; Disease or Syndrome
+T18	DISO 1268 1279	alcoholismo
+#14	AnnotatorNotes T18	C0001973; Alcoholic Intoxication, Chronic; Mental or Behavioral Dysfunction
+T19	DISO 1281 1293	drogadicción
+#15	AnnotatorNotes T19	C1510472; Drug Dependence; Mental or Behavioral Dysfunction
+T20	CHEM 1312 1324	medicamentos
+#16	AnnotatorNotes T20	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T21	PROC 1486 1496	evaluación
+#17	AnnotatorNotes T21	C1261322; Evaluation procedure; Health Care Activity
+T22	PROC 1036 1050	procedimientos
+#18	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T23	CHEM 104 119	inmunoglobulina
+#19	AnnotatorNotes T23	C0021027; Immunoglobulins; Amino Acid, Peptide, or Protein · Immunologic Factor
+T24	CHEM 132 139	IgPro20
+#20	AnnotatorNotes T24	C3181507; IgPro20; Immunologic Factor
+T25	CHEM 330 337	IgPro20
+#21	AnnotatorNotes T25	C3181507; IgPro20; Immunologic Factor
+T26	Date 13 17	2013
+T27	Route 120 130	subcutánea
+#22	AnnotatorNotes T27	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T28	Duration 193 200	crónica
+#23	AnnotatorNotes T28	C0205191; chronic; Temporal Concept
+T29	Date 313 326	a largo plazo
+T30	Duration 422 429	crónica
+#24	AnnotatorNotes T30	C0205191; chronic; Temporal Concept
+T31	LIVB 441 450	pacientes
+#25	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Duration 646 653	crónica
+#26	AnnotatorNotes T32	C0205191; chronic; Temporal Concept
+T33	Route 752 754	SC
+T34	PHYS 766 776	recuperado
+#27	AnnotatorNotes T34	C2004454; Recovery - healing process; Organism Function
+T35	Route 856 858	SC
+T39	LIVB 1408 1420	investigador
+#28	AnnotatorNotes T39	C0035173; Research Personnel; Professional or Occupational Group
+T41	LIVB 1459 1465	sujeto
+#29	AnnotatorNotes T41	C0681850; Study Subject; Group
+T37	Date 742 751	semana 25
+T38	CHEM 1501 1504	PEI
+#30	AnnotatorNotes T38	C0013230; Investigational New Drugs; Pharmacologic Substance
+T40	DISO 803 810	recaída
+#31	AnnotatorNotes T40	C2825055; Recurrence (disease attribute); Pathologic Function
+A2	Status T40 History_of
+#32	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#33	AnnotatorNotes T10	 C1290884; Inflammatory disorder; Disease or Syndrome
+#34	AnnotatorNotes T33	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+#35	AnnotatorNotes T35	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T42	Neg_cue 1115 1117	no
+T43	Observation 1125 1172	realizar la transición directa desde el estudio
+A3	Assertion T43 Negated
+T44	LIVB 1103 1110	Sujetos
+#36	AnnotatorNotes T44	C0681850; Study Subject; Group
+T36	Spec_cue 1422 1428	puedan
+T45	Observation 1429 1450	incrementar el riesgo
+A1	Assertion T45 Speculated
+T46	CONC 1468 1478	interferir
+A4	Assertion T46 Speculated
+#37	AnnotatorNotes T46	C0521102; Interferes with; Functional Concept
+R1	Has_Route_or_Mode Arg1:T23 Arg2:T27	
+R2	Has_Route_or_Mode Arg1:T24 Arg2:T27	
+R3	Used_for Arg1:T23 Arg2:T2	
+R4	Used_for Arg1:T24 Arg2:T2	
+R5	Has_Duration_or_Interval Arg1:T3 Arg2:T28	
+R6	Has_Duration_or_Interval Arg1:T4 Arg2:T28	
+R7	Overlap Arg1:T6 Arg2:T29	
+R8	Used_for Arg1:T25 Arg2:T7	
+R9	Has_Duration_or_Interval Arg1:T8 Arg2:T30	
+R10	Has_Duration_or_Interval Arg1:T9 Arg2:T30	
+R11	Experiences Arg1:T31 Arg2:T9	
+R12	Experiences Arg1:T31 Arg2:T8	
+R13	Experiences Arg1:T31 Arg2:T25	
+T47	Observation 461 482	completado el estudio
+#38	AnnotatorNotes T47	C2732579; Completion of clinical trial; Finding
+R15	Before Arg1:T47 Arg2:T25	
+R16	Before Arg1:T47 Arg2:T7	
+R17	Location_of Arg1:T12 Arg2:T10	
+R18	Has_Duration_or_Interval Arg1:T14 Arg2:T32	
+R19	Has_Duration_or_Interval Arg1:T13 Arg2:T32	
+T48	Observation 688 715	Haber completado el estudio
+#39	AnnotatorNotes T48	C2732579; Completion of clinical trial; Finding
+R20	Overlap Arg1:T48 Arg2:T37	
+R21	Before Arg1:T40 Arg2:T34	
+R22	Before Arg1:T15 Arg2:T40	
+R23	Overlap Arg1:T34 Arg2:T16	
+R24	Has_Route_or_Mode Arg1:T16 Arg2:T35	
+R25	Has_Route_or_Mode Arg1:T16 Arg2:T33	
+T49	Observation 964 988	participar en el estudio
+#40	AnnotatorNotes T49	C1278516; Patient participation status; Finding (?)
+R26	Before Arg1:T11 Arg2:T49	
+R27	Before Arg1:T11 Arg2:T22	
+R30	Negation Arg1:T42 Arg2:T43	
+T50	Quantifier_or_Qualifier 1213 1219	nuevas
+#41	AnnotatorNotes T50	C0205314; New; Qualitative Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T50	
+T51	Observation 1296 1324	uso indebido de medicamentos
+T52	Observation 1337 1364	participación en el estudio
+#42	AnnotatorNotes T52	C1278516; Patient participation status; Finding (?)
+R32	Overlap Arg1:T51 Arg2:T52	
+R33	Used_for Arg1:T20 Arg2:T51	
+R34	Overlap Arg1:T19 Arg2:T52	
+R35	Overlap Arg1:T18 Arg2:T52	
+R36	Overlap Arg1:T17 Arg2:T52	
+#43	AnnotatorNotes T51	C5229524; Misuse of medication; Finding
+R37	Speculation Arg1:T36 Arg2:T45	
+R38	Before Arg1:T17 Arg2:T45	
+R39	Before Arg1:T18 Arg2:T45	
+R40	Before Arg1:T19 Arg2:T45	
+R41	Before Arg1:T51 Arg2:T45	
+R42	Experiences Arg1:T41 Arg2:T45	
+R44	Experiences Arg1:T41 Arg2:T51	
+R45	Experiences Arg1:T41 Arg2:T20	
+R46	Experiences Arg1:T41 Arg2:T19	
+R47	Experiences Arg1:T41 Arg2:T18	
+R48	Experiences Arg1:T41 Arg2:T17	
+R49	Speculation Arg1:T36 Arg2:T46	
+R50	Experiences Arg1:T41 Arg2:T38	
+R51	Experiences Arg1:T41 Arg2:T21	
+#44	AnnotatorNotes T29	C0443252; Long-term; Temporal Concept
+#45	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity
+#46	AnnotatorNotes T45	C4699158; Increased risk; Finding
+A5	Experiencer T31 Patient
+A6	Experiencer T44 Patient
+A7	Experiencer T39 Other
+A8	Experiencer T41 Patient

@@ -1,0 +1,137 @@
+T1	PROC 46 82	Estudio de seguimiento observacional
+T2	PROC 387 395	tratadas
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	PROC 86 95	protocolo
+#2	AnnotatorNotes T3	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T4	PROC 122 158	Estudio de seguimiento observacional
+T5	PHYS 354 369	posmenopáusicas
+#3	AnnotatorNotes T5	C0206159; Postmenopause; Organism Function
+T6	PROC 421 430	protocolo
+#4	AnnotatorNotes T6	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T7	PROC 236 270	evaluar la seguridad y la eficacia
+#5	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T8	CHEM 286 293	MK 0822
+#6	AnnotatorNotes T8	C2351971; MK-0822; Organic Chemical
+T9	PROC 573 586	aleatorizadas
+#7	AnnotatorNotes T9	C0034656; Randomization; Research Activity
+T10	DISO 334 342	fractura
+#8	AnnotatorNotes T10	C0016658; Fracture; Injury or Poisoning
+T11	CHEM 400 410	vitamina D
+#9	AnnotatorNotes T11	C0042866; vitamin D; Hormone · Pharmacologic Substance · Vitamin
+T12	CHEM 413 419	calcio
+#10	AnnotatorNotes T12	C0006675; calcium; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T13	DISO 459 471	Osteoporosis
+#11	AnnotatorNotes T13	C0029456; Osteoporosis; Disease or Syndrome
+T14	PROC 593 602	protocolo
+#12	AnnotatorNotes T14	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T15	CHEM 645 652	fármaco
+#13	AnnotatorNotes T15	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T16	PROC 653 664	enmascarado
+#14	AnnotatorNotes T16	C0150108; Blinded; Research Activity
+T17	PROC 722 731	protocolo
+#15	AnnotatorNotes T17	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T18	PROC 804 813	protocolo
+#16	AnnotatorNotes T18	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T19	PROC 868 877	protocolo
+#17	AnnotatorNotes T19	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T20	PROC 915 935	estudio de extensión
+T21	PROC 937 946	protocolo
+#18	AnnotatorNotes T21	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T22	PROC 954 963	protocolo
+#19	AnnotatorNotes T22	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T23	PROC 1052 1072	estudio de extensión
+T24	PROC 1085 1094	protocolo
+#20	AnnotatorNotes T24	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T25	PROC 1161 1175	consentimiento
+#21	AnnotatorNotes T25	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T26	PROC 1227 1238	seguimiento
+#22	AnnotatorNotes T26	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T27	PROC 1209 1223	procedimientos
+#23	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T28	PROC 1344 1355	tratamiento
+#24	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	PROC 1371 1380	protocolo
+#25	AnnotatorNotes T29	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T30	PROC 1438 1467	interrumpieron el tratamiento
+#26	AnnotatorNotes T30	C0850893; stop medication; Therapeutic or Preventive Procedure
+T31	PROC 165 229	ensayo clínico aleatorizado, controlado con placebo, en fase III
+T32	CHEM 274 284	odanacatib
+T33	DISO 374 386	osteoporosis
+#27	AnnotatorNotes T33	C0029456; Osteoporosis; Disease or Syndrome
+T34	Date 13 17	2013
+T35	Spec_cue 324 333	riesgo de
+T36	LIVB 346 353	mujeres
+#28	AnnotatorNotes T36	C0043210; Woman; Population Group
+T39	LIVB 540 549	pacientes
+#29	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Dose 624 640	al menos 1 dosis
+T42	Neg_cue 1150 1153	sin
+T44	LIVB 1316 1325	pacientes
+#30	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T37	PROC 1199 1206	visitas
+#31	AnnotatorNotes T37	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T10 Speculated
+A2	Assertion T25 Negated
+A3	Status T9 History_of
+A4	Status T20 History_of
+A5	Status T23 History_of
+A6	Status T28 History_of
+A7	Status T30 History_of
+#32	AnnotatorNotes T31	C0206034; Clinical Trials, Randomized; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C0282461; Phase 3 Clinical Trials; Research Activity
+#33	AnnotatorNotes T32	C2351970; odanacatib; Organic Chemical · Pharmacologic Substance 
+T38	Neg_cue 1278 1280	No
+T41	Observation 1288 1311	participar en el ensayo
+A8	Assertion T41 Negated
+#34	AnnotatorNotes T41	C1302261; Patient eligible for clinical trial; Finding (?)
+T43	Neg_cue 818 821	sin
+T45	Observation 773 794	completado el estudio
+#35	AnnotatorNotes T45	C2732579; Completion of clinical trial; Finding
+T46	CONC 822 831	continuar
+A9	Assertion T46 Negated
+T47	Observation 687 712	discontinuado del estudio
+#36	AnnotatorNotes T47	C0422727; Patient withdrawn from trial; Finding (?)
+T48	Observation 890 935	discontinuado del primer estudio de extensión
+#37	AnnotatorNotes T48	C0422727; Patient withdrawn from trial; Finding (?)
+T49	Observation 1027 1072	discontinuado del primer estudio de extensión
+#38	AnnotatorNotes T49	C0422727; Patient withdrawn from trial; Finding (?)
+R3	Speculation Arg1:T35 Arg2:T10	
+R4	Experiences Arg1:T36 Arg2:T32	
+R5	Experiences Arg1:T36 Arg2:T8	
+R6	Experiences Arg1:T36 Arg2:T5	
+R7	Before Arg1:T8 Arg2:T10	
+R8	Before Arg1:T32 Arg2:T10	
+R9	Overlap Arg1:T5 Arg2:T33	
+R10	Experiences Arg1:T36 Arg2:T33	
+R11	Experiences Arg1:T36 Arg2:T2	
+R12	Used_for Arg1:T11 Arg2:T2	
+R13	Combined_with Arg1:T11 Arg2:T12	
+T51	Observation 509 534	participar en este ensayo
+#40	AnnotatorNotes T51	C1278516; Patient participation status; Finding
+R15	Overlap Arg1:T9 Arg2:T14	
+R16	Has_Dose_or_Strength Arg1:T15 Arg2:T40	
+T52	CONC 746 764	cierre del estudio
+#41	AnnotatorNotes T52	C2983670; Study End Date; Temporal Concept
+R18	Before Arg1:T47 Arg2:T52	
+R20	Negation Arg1:T43 Arg2:T46	
+R21	Overlap Arg1:T45 Arg2:T52	
+T53	CONC 991 1018	período abierto del estudio
+R22	Before Arg1:T48 Arg2:T53	
+T54	CONC 1122 1149	período abierto del estudio
+R23	Before Arg1:T49 Arg2:T54	
+R24	Negation Arg1:T42 Arg2:T25	
+R25	Before Arg1:T25 Arg2:T37	
+R26	Before Arg1:T25 Arg2:T27	
+R27	Before Arg1:T25 Arg2:T26	
+R29	Negation Arg1:T38 Arg2:T41	
+T56	Quantifier_or_Qualifier 1389 1403	desenmascarado
+#43	AnnotatorNotes T56	C4553913; Unblinding; Functional Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T56	
+T57	CONC 1414 1429	período abierto
+R32	Before Arg1:T56 Arg2:T57	
+T58	CONC 1492 1507	período abierto
+R33	After Arg1:T30 Arg2:T58	
+#39	AnnotatorNotes T46	C0549178; Continuous; Idea or Concept (?)
+R1	Before Arg1:T33 Arg2:T10	
+A10	Experiencer T36 Patient
+A11	Experiencer T39 Patient
+A12	Experiencer T44 Patient

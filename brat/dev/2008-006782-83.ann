@@ -1,0 +1,139 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	CHEM 65 75	melatonina
+#2	AnnotatorNotes T2	C0025219; melatonin; Hormone · Organic Chemical · Pharmacologic Substance
+T3	PROC 108 125	cirugía abdominal
+#3	AnnotatorNotes T3	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T4	ANAT 116 125	abdominal
+#4	AnnotatorNotes T4	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T5	DISO 130 136	sepsis
+#5	AnnotatorNotes T5	C0243026; Sepsis; Disease or Syndrome
+T6	DISO 163 184	fracaso multiorgánico
+#6	AnnotatorNotes T6	C0026766; Multiple Organ Failure; Pathologic Function
+T7	PROC 208 218	Prevención
+#7	AnnotatorNotes T7	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T8	DISO 411 419	SEPTICOS
+#8	AnnotatorNotes T8	C0243026; Sepsis; Disease or Syndrome
+T9	CHEM 323 333	melatonina
+#9	AnnotatorNotes T9	C0025219; melatonin; Hormone · Organic Chemical · Pharmacologic Substance
+T10	DISO 363 369	sepsis
+#10	AnnotatorNotes T10	C0243026; Sepsis; Disease or Syndrome
+T11	ANAT 431 440	ABDOMINAL
+#11	AnnotatorNotes T11	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T12	DISO 517 523	sepsis
+#12	AnnotatorNotes T12	C0243026; Sepsis; Disease or Syndrome
+T13	DISO 679 723	síndrome de respuesta inflamatoria sistémica
+#13	AnnotatorNotes T13	C0242966; Systemic Inflammatory Response Syndrome; Disease or Syndrome
+T14	DISO 737 747	infecciosa
+#14	AnnotatorNotes T14	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T15	DISO 759 778	disfunción orgánica
+T16	DISO 780 793	hipoperfusión
+#15	AnnotatorNotes T16	C0442856; Hypoperfusion; Pathologic Function
+T17	DISO 796 807	hipotensión
+#16	AnnotatorNotes T17	C0020649; Hypotension; Finding
+T18	PROC 827 855	intervenidos quirúrgicamente
+#17	AnnotatorNotes T18	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T19	DISO 916 935	enfermedad terminal
+T20	PROC 423 440	CIRUGIA ABDOMINAL
+#18	AnnotatorNotes T20	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T21	ANAT 982 987	renal
+#19	AnnotatorNotes T21	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T22	DISO 997 1020	enfermedad psiquiátrica
+#20	AnnotatorNotes T22	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T23	PROC 1024 1035	tratamiento
+#21	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	DISO 957 995	insuficiencia hepática o renal crónica
+T25	DISO 257 289	respuesta inflamatoria sistémica
+#22	AnnotatorNotes T25	C3554550; Systemic inflammatory response; Pathologic Function
+T26	PROC 305 319	administración
+#23	AnnotatorNotes T26	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T27	PROC 552 564	diagnósticos
+#24	AnnotatorNotes T27	C0011900; Diagnosis; Diagnostic Procedure
+T28	ANAT 971 979	hepática
+#25	AnnotatorNotes T28	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T29	DISO 223 227	MODS
+#26	AnnotatorNotes T29	C0026766; Multiple organ dysfunction syndrome; Pathologic Function
+T30	Date 13 17	2008
+T31	LIVB 95 104	pacientes
+#27	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Spec_cue 141 147	pueden
+T33	LIVB 337 358	pacientes quirúrgicos
+#28	AnnotatorNotes T33	C0871463; surgical patients; Patient or Disabled Group
+T34	LIVB 401 410	PACIENTES
+#29	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 467 476	Pacientes
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 665 674	pacientes
+#31	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Age 888 904	menor de 18 años
+T38	PHYS 906 914	embarazo
+#32	AnnotatorNotes T38	C0032961; Pregnancy; Organism Function
+T39	Duration 988 995	crónica
+#33	AnnotatorNotes T39	C0205191; chronic; Temporal Concept
+A1	Assertion T6 Speculated
+#34	AnnotatorNotes T15	C0026766; Multiple organ dysfunction syndrome; Pathologic Function
+#35	AnnotatorNotes T19	C0679247; Terminal illness; Disease or Syndrome
+#36	AnnotatorNotes T24	C2936476; Chronic Liver Failure; Disease or Syndrome + C0403447; Chronic Kidney Insufficiency; Disease or Syndrome 
+T40	Neg_cue 1038 1048	negativa a
+T41	Observation 1049 1073	participar en el estudio
+A2	Assertion T41 Negated
+#37	AnnotatorNotes T41	C1278516; Patient participation status; Finding
+R1	Negation Arg1:T40 Arg2:T41	
+R2	Experiences Arg1:T31 Arg2:T2	
+R3	Experiences Arg1:T31 Arg2:T3	
+R4	Location_of Arg1:T4 Arg2:T3	
+R6	Experiences Arg1:T31 Arg2:T5	
+R7	Speculation Arg1:T32 Arg2:T6	
+R8	Before Arg1:T5 Arg2:T6	
+R9	Experiences Arg1:T31 Arg2:T6	
+R10	Before Arg1:T7 Arg2:T29	
+R11	Used_for Arg1:T9 Arg2:T26	
+R13	Experiences Arg1:T33 Arg2:T10	
+R14	Experiences Arg1:T33 Arg2:T7	
+R15	Experiences Arg1:T33 Arg2:T25	
+R16	Experiences Arg1:T33 Arg2:T26	
+R17	Causes Arg1:T10 Arg2:T25	
+T42	Quantifier_or_Qualifier 370 376	severa
+#38	AnnotatorNotes T42	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R18	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T42	
+T43	Quantifier_or_Qualifier 524 530	severa
+#39	AnnotatorNotes T43	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R19	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T43	
+R20	Location_of Arg1:T11 Arg2:T20	
+R21	Experiences Arg1:T34 Arg2:T8	
+R22	Experiences Arg1:T34 Arg2:T20	
+R24	Experiences Arg1:T35 Arg2:T12	
+R25	Experiences Arg1:T35 Arg2:T13	
+R26	Causes Arg1:T12 Arg2:T13	
+R27	Experiences Arg1:T36 Arg2:T12	
+R28	Experiences Arg1:T36 Arg2:T13	
+R29	Experiences Arg1:T36 Arg2:T14	
+R30	Causes Arg1:T14 Arg2:T13	
+R31	Experiences Arg1:T35 Arg2:T14	
+R32	Overlap Arg1:T13 Arg2:T16	
+R33	Experiences Arg1:T36 Arg2:T15	
+R34	Experiences Arg1:T36 Arg2:T16	
+R35	Experiences Arg1:T36 Arg2:T17	
+R36	Experiences Arg1:T36 Arg2:T18	
+R37	Overlap Arg1:T13 Arg2:T15	
+R38	Overlap Arg1:T13 Arg2:T17	
+R39	Overlap Arg1:T14 Arg2:T15	
+R40	Overlap Arg1:T14 Arg2:T16	
+R41	Overlap Arg1:T14 Arg2:T17	
+R42	Overlap Arg1:T12 Arg2:T15	
+R43	Overlap Arg1:T12 Arg2:T16	
+R44	Overlap Arg1:T12 Arg2:T17	
+R45	Experiences Arg1:T35 Arg2:T15	
+R46	Experiences Arg1:T35 Arg2:T16	
+R47	Experiences Arg1:T35 Arg2:T17	
+R48	Experiences Arg1:T35 Arg2:T18	
+R49	Location_of Arg1:T28 Arg2:T24	
+R50	Location_of Arg1:T21 Arg2:T24	
+R51	Has_Duration_or_Interval Arg1:T24 Arg2:T39	
+R52	Experiences Arg1:T33 Arg2:T29	
+A3	Experiencer T31 Patient
+A4	Experiencer T34 Patient
+A5	Experiencer T33 Patient
+A6	Experiencer T35 Patient
+A7	Experiencer T36 Patient
+A8	Status T18 Future

@@ -1,0 +1,184 @@
+T1	PROC 29 47	seguimiento remoto
+#1	AnnotatorNotes T1	C0812181; Surveillance: remote electronic; Therapeutic or Preventive Procedure (?)
+T2	PROC 163 181	seguimiento remoto
+#2	AnnotatorNotes T2	C0812181; Surveillance: remote electronic; Therapeutic or Preventive Procedure (?)
+T3	PROC 575 598	implante del marcapasos
+T4	PROC 460 471	seguimiento
+#3	AnnotatorNotes T4	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T5	PROC 483 540	Ensayo clínico controlado, no aleatorizado ni enmascarado
+#4	AnnotatorNotes T5	C2985410; Controlled Clinical Trials, Non-Randomized; Research Activity (?)
+T6	PROC 622 633	seguimiento
+#5	AnnotatorNotes T6	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T7	PROC 707 729	implantó un marcapasos
+T8	PROC 1019 1070	evaluar la calidad de vida relacionada con la salud
+T9	PROC 1115 1145	valorar la capacidad funcional
+#6	AnnotatorNotes T9	C1830004; Functional capacity assessment; Diagnostic Procedure
+T10	PROC 1710 1728	seguimiento remoto
+#7	AnnotatorNotes T10	C0812181; Surveillance: remote electronic; Therapeutic or Preventive Procedure (?)
+T11	ANAT 74 83	cardíacos
+#8	AnnotatorNotes T11	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T12	PROC 390 417	comparar la calidad de vida
+#9	AnnotatorNotes T12	C0281588; Assessment of quality of life; Diagnostic Procedure
+T13	LIVB 50 58	personas
+#10	AnnotatorNotes T13	C0027361; Persons; Population Group
+T14	DEVI 63 83	marcapasos cardíacos
+#11	AnnotatorNotes T14	C0030163; Artificial cardiac pacemaker; Medical Device
+T15	Duration 126 137	los 6 meses
+T16	LIVB 190 198	personas
+#12	AnnotatorNotes T16	C0027361; Persons; Population Group
+T17	DEVI 213 223	marcapasos
+#13	AnnotatorNotes T17	C0030163; Artificial cardiac pacemaker; Medical Device
+T18	DEVI 225 227	MP
+#14	AnnotatorNotes T18	C0030163; Artificial cardiac pacemaker; Medical Device
+T19	LIVB 421 429	personas
+#15	AnnotatorNotes T19	C0027361; Persons; Population Group
+T23	DEVI 588 598	marcapasos
+#16	AnnotatorNotes T23	C0030163; Artificial cardiac pacemaker; Medical Device
+T24	Duration 607 618	los 6 meses
+T25	LIVB 661 670	pacientes
+#17	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Age 671 689	mayores de 18 años
+T27	DEVI 719 729	marcapasos
+#18	AnnotatorNotes T27	C0030163; Artificial cardiac pacemaker; Medical Device
+T29	Duration 1315 1326	los 6 meses
+T31	LIVB 1595 1603	paciente
+#19	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 1732 1740	personas
+#20	AnnotatorNotes T32	C0027361; Persons; Population Group
+T33	DEVI 1755 1765	marcapasos
+#21	AnnotatorNotes T33	C0030163; Artificial cardiac pacemaker; Medical Device
+T34	PROC 108 123	calidad de vida
+#22	AnnotatorNotes T34	C0281588; Assessment of quality of life; Diagnostic Procedure
+T20	PROC 1848 1863	calidad de vida
+#23	AnnotatorNotes T20	C0281588; Assessment of quality of life; Diagnostic Procedure
+T21	PROC 982 994	cuestionario
+#24	AnnotatorNotes T21	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T22	PROC 1330 1345	calidad de vida
+#25	AnnotatorNotes T22	C0281588; Assessment of quality of life; Diagnostic Procedure
+T28	PROC 1076 1102	Duke Activity Status Index
+#26	AnnotatorNotes T28	C4720914; Assessment using Duke activity status index; Health Care Activity
+T30	PROC 1104 1108	DASI
+#27	AnnotatorNotes T30	C4720914; Assessment using Duke activity status index; Health Care Activity
+T35	PROC 1494 1498	DASI
+#28	AnnotatorNotes T35	C4720914; Assessment using Duke activity status index; Health Care Activity
+T36	PROC 1276 1280	DASI
+#29	AnnotatorNotes T36	C4720914; Assessment using Duke activity status index; Health Care Activity
+T37	PROC 1569 1576	visitas
+#30	AnnotatorNotes T37	C1512346; Patient Visit; Health Care Activity
+T38	PROC 1886 1905	visitas al hospital
+#31	AnnotatorNotes T38	C0545092; hospital visit; Health Care Activity
+T39	PROC 942 961	visitas al hospital
+#32	AnnotatorNotes T39	C0545092; hospital visit; Health Care Activity
+T40	CONC 1168 1179	diferencias
+A1	Assertion T40 Negated
+#33	AnnotatorNotes T40	C1705241; Delta (difference); Quantitative Concept
+T41	Neg_cue 1160 1162	No
+R1	Negation Arg1:T41 Arg2:T40	
+T42	Quantifier_or_Qualifier 513 525	aleatorizado
+A2	Assertion T42 Negated
+T43	Quantifier_or_Qualifier 529 540	enmascarado
+A3	Assertion T43 Negated
+T44	Neg_cue 526 528	ni
+R2	Negation Arg1:T44 Arg2:T43	
+T45	Neg_cue 510 512	no
+R3	Negation Arg1:T45 Arg2:T42	
+R4	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T42	
+R5	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T43	
+T46	Neg_cue 1407 1410	sin
+T47	CONC 1411 1422	diferencias
+A4	Assertion T47 Negated
+#34	AnnotatorNotes T47	C1705241; Delta (difference); Quantitative Concept
+R6	Negation Arg1:T46 Arg2:T47	
+T48	Spec_cue 1766 1775	se podría
+T49	CONC 1796 1802	opción
+A5	Assertion T49 Speculated
+T50	Quantifier_or_Qualifier 1803 1830	equivalente al hospitalario
+A6	Assertion T50 Speculated
+R7	Experiences Arg1:T13 Arg2:T14	
+R8	Location_of Arg1:T11 Arg2:T14	
+T51	PROC 29 40	seguimiento
+#35	AnnotatorNotes T51	C1522577;Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+R9	Overlap Arg1:T34 Arg2:T15	
+R10	Experiences Arg1:T13 Arg2:T34	
+T52	Quantifier_or_Qualifier 94 106	convencional
+#36	AnnotatorNotes T52	C0439858; Conventional; Qualitative Concept 
+R11	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T52	
+T53	Quantifier_or_Qualifier 263 285	modalidad hospitalaria
+#37	AnnotatorNotes T53	C1510665; Hospital environment; Qualitative Concept
+R12	Experiences Arg1:T16 Arg2:T17	
+R13	Experiences Arg1:T16 Arg2:T18	
+R14	Experiences Arg1:T19 Arg2:T12	
+R15	Used_for Arg1:T27 Arg2:T7	
+R16	Used_for Arg1:T23 Arg2:T3	
+T54	PROC 546 563	recogida de datos
+#38	AnnotatorNotes T54	C0010995; Data Collection; Research Activity | C0262727; Research data collection; Research Activity
+R17	After Arg1:T54 Arg2:T3	
+R18	Before Arg1:T54 Arg2:T3	
+R19	Overlap Arg1:T54 Arg2:T6	
+R20	Has_Duration_or_Interval Arg1:T6 Arg2:T24	
+R21	Has_Age Arg1:T25 Arg2:T26	
+R22	Experiences Arg1:T25 Arg2:T7	
+T55	CONC 906 929	características basales
+#39	AnnotatorNotes T55	C4684572; Baseline Characteristics; Qualitative Concept
+T56	CONC 932 961	número de visitas al hospital
+#40	AnnotatorNotes T56	C4302705; Patient hospital visit number; Intellectual Product
+T57	CONC 995 1005	EuroQol-5D
+#41	AnnotatorNotes T57	C2733251; EuroQoL five dimension questionnaire; Intellectual Product | C4701030; EQ-5D (EuroQol-5D) questionnaire; Intellectual Product
+R23	Used_for Arg1:T57 Arg2:T21	
+T58	CONC 1007 1012	EQ-5D
+#42	AnnotatorNotes T58	C2733251; EuroQoL five dimension questionnaire; Intellectual Product | C4701030; EQ-5D (EuroQol-5D) questionnaire; Intellectual Product
+R24	Used_for Arg1:T58 Arg2:T21	
+R25	Used_for Arg1:T58 Arg2:T8	
+R26	Used_for Arg1:T57 Arg2:T8	
+T59	PROC 747 754	estudio
+#43	AnnotatorNotes T59	C0681814; research study; Research Activity
+T60	Quantifier_or_Qualifier 1180 1194	significativas
+A7	Assertion T60 Negated
+#44	AnnotatorNotes T60	C0237881; Statistical Significance; Quantitative Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T60	
+R29	Negation Arg1:T41 Arg2:T60	
+T61	CONC 1229 1243	análisis basal
+#45	AnnotatorNotes T61	C4684572; Baseline Characteristics; Qualitative Concept (?)
+T62	CONC 1245 1250	EQ-5D
+#46	AnnotatorNotes T62	C2733251; EuroQoL five dimension questionnaire; Intellectual Product | C4701030; EQ-5D (EuroQol-5D) questionnaire; Intellectual Product
+T63	Quantifier_or_Qualifier 1302 1311	iniciales
+#47	AnnotatorNotes T63	C0205265; Initially; Temporal Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T63	
+R31	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T63	
+T64	Quantifier_or_Qualifier 1423 1454	estadísticamente significativas
+A8	Assertion T64 Negated
+#48	AnnotatorNotes T64	C0237881; Statistical Significance; Quantitative Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T64	
+R33	Negation Arg1:T46 Arg2:T64	
+R34	Overlap Arg1:T22 Arg2:T29	
+T65	Observation 1330 1352	calidad de vida mejoró
+#49	AnnotatorNotes T65	C2015892; outcomes general quality of life improved; Finding
+R36	Overlap Arg1:T65 Arg2:T29	
+T66	Quantifier_or_Qualifier 1482 1487	final
+#50	AnnotatorNotes T66	C3853528; Final; Temporal Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T66	
+T67	Quantifier_or_Qualifier 1516 1521	basal
+#51	AnnotatorNotes T67	C1442488;Baseline; Quantitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T67	
+R39	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T50	
+R40	Speculation Arg1:T48 Arg2:T49	
+R41	Speculation Arg1:T48 Arg2:T50	
+T68	CONC 1624 1636	hospitalario
+#52	AnnotatorNotes T68	C1510665; Hospital environment; Qualitative Concept
+R43	Experiences Arg1:T32 Arg2:T33	
+R45	Experiences Arg1:T32 Arg2:T20	
+R46	Experiences Arg1:T32 Arg2:T38	
+T69	CONC 1818 1830	hospitalario
+#53	AnnotatorNotes T69	C1510665; Hospital environment; Qualitative Concept
+R27	Overlap Arg1:T7 Arg2:T59	
+R35	Experiences Arg1:T31 Arg2:T37	
+#54	AnnotatorNotes T49	C1518601; Options; Functional Concept
+#55	AnnotatorNotes T7	C0848753; pacemaker implant; Therapeutic or Preventive Procedure
+#56	AnnotatorNotes T3	C0848753; pacemaker implant; Therapeutic or Preventive Procedure
+A9	Experiencer T31 Patient
+A10	Experiencer T32 Patient
+A11	Experiencer T13 Patient
+A12	Experiencer T16 Patient
+A13	Experiencer T19 Patient
+A14	Experiencer T25 Patient
+R42	Has_Result_or_Value Arg1:T22 Arg2:T65	

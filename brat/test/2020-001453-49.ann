@@ -1,0 +1,192 @@
+T1	PROC 46 55	Protocolo
+#1	AnnotatorNotes T1	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T2	PROC 62 73	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	CHEM 102 109	fármaco
+#3	AnnotatorNotes T3	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T4	PROC 143 154	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	CHEM 110 120	Remdesivir
+#5	AnnotatorNotes T5	C4726677; remdesivir; Organic Chemical · Pharmacologic Substance
+T6	DISO 161 180	infección SARS-CoV2
+T7	PROC 229 238	Protocolo
+#6	AnnotatorNotes T7	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T8	PROC 243 254	tratamiento
+#7	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	PROC 309 320	tratamiento
+#8	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	DISO 327 346	infección SARS-CoV2
+T11	CHEM 276 286	Remdesivir
+#9	AnnotatorNotes T11	C4726677; remdesivir; Organic Chemical · Pharmacologic Substance
+T12	DISO 377 411	Enfermedad por el Coronavirus 2019
+#10	AnnotatorNotes T12	C5203670; COVID19 (disease); Disease or Syndrome
+T13	PROC 620 656	consentimiento informado por escrito
+#11	AnnotatorNotes T13	C0811741; Obtain informed written consent; Health Care Activity
+T14	PROC 961 974	Hospitalizado
+#12	AnnotatorNotes T14	C0019993; Hospitalization; Health Care Activity
+T15	CHEM 126 133	GS-5734
+#13	AnnotatorNotes T15	C4279131; GS-5734; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T16	DISO 413 421	COVID-19
+#14	AnnotatorNotes T16	C5203670; COVID19 (disease); Disease or Syndrome
+T17	CHEM 288 291	RDV
+T18	DISO 1076 1084	COVID-19
+#15	AnnotatorNotes T18	C5203670; COVID19 (disease); Disease or Syndrome
+T19	DISO 1051 1059	síndrome
+#16	AnnotatorNotes T19	C0039082; Syndrome; Disease or Syndrome
+T20	PROC 722 746	consentimiento informado
+#17	AnnotatorNotes T20	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T21	PROC 1115 1144	ventilación mecánica invasiva
+#18	AnnotatorNotes T21	C1868981; Invasive mechanical ventilation; Therapeutic or Preventive Procedure
+T22	CHEM 122 125	RDV
+T23	PROC 1180 1190	intubación
+#19	AnnotatorNotes T23	C0021925; Intubation (procedure); Therapeutic or Preventive Procedure
+T24	PROC 1193 1205	traqueotomía
+#20	AnnotatorNotes T24	C0040591; Tracheotomy procedure; Therapeutic or Preventive Procedure
+T25	PROC 1241 1279	tasa estimada de filtración glomerular
+#21	AnnotatorNotes T25	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T26	PROC 1545 1549	eGRF
+#22	AnnotatorNotes T26	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T27	DISO 1447 1466	fallo multiorgánico
+#23	AnnotatorNotes T27	C0026766; Multiple Organ Failure; Pathologic Function
+T28	DISO 1532 1543	Fallo renal
+#24	AnnotatorNotes T28	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T29	PROC 1576 1611	Veno-Hemofiltración venosa continua
+T30	ANAT 1596 1602	venosa
+#25	AnnotatorNotes T30	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T31	PROC 1004 1007	PCR
+#26	AnnotatorNotes T31	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T32	PROC 1089 1092	PCR
+#27	AnnotatorNotes T32	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T33	ANAT 1218 1223	renal
+#28	AnnotatorNotes T33	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T34	PROC 1327 1330	ALT
+#29	AnnotatorNotes T34	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T35	ANAT 1519 1528	sanguínea
+#30	AnnotatorNotes T35	C0005767; Blood; Body Substance
+T36	ANAT 1538 1543	renal
+#31	AnnotatorNotes T36	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T37	PROC 1565 1573	diálisis
+#32	AnnotatorNotes T37	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T38	CHEM 292 299	GS-5734
+#33	AnnotatorNotes T38	C4279131; GS-5734; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T39	CHEM 1487 1493	presor
+#34	AnnotatorNotes T39	C0042397; Vasoconstrictor Agents; Pharmacologic Substance
+T40	Date 13 17	2020
+T41	LIVB 190 205	sujetos adultos
+#35	AnnotatorNotes T41	C0681850; Study Subject; Group + C0001675; Adult; Age Group
+T43	LIVB 395 406	Coronavirus
+#36	AnnotatorNotes T43	C5203676; SARS-CoV-2; Virus
+T44	LIVB 453 460	sujetos
+#37	AnnotatorNotes T44	C0681850; Study Subject; Group
+T45	LIVB 681 700	representante legal
+#38	AnnotatorNotes T45	C4288823; Legal Representative for the Study; Human
+T47	LIVB 898 910	investigador
+#39	AnnotatorNotes T47	C0035173; Research Personnel; Professional or Occupational Group
+T48	Age 929 937	≥18 años
+T49	Age 948 957	≥ 18 años
+T50	PHYS 1210 1223	Función renal
+#40	AnnotatorNotes T50	C0232804; Renal function; Organ or Tissue Function
+T52	PHYS 1511 1528	presión sanguínea
+#41	AnnotatorNotes T52	C0005823; Blood Pressure; Organism Function
+T54	PHYS 1615 1623	Embarazo
+#42	AnnotatorNotes T54	C0032961; Pregnancy; Organism Function
+T42	LIVB 337 346	SARS-CoV2
+#43	AnnotatorNotes T42	C5203676; SARS-CoV-2; Virus
+T46	LIVB 912 925	participantes
+#44	AnnotatorNotes T46	C4554048; Study Participant; Population Group
+T51	LIVB 979 988	SARS-CoV2
+#45	AnnotatorNotes T51	C5203676; SARS-CoV-2; Virus
+T53	LIVB 171 180	SARS-CoV2
+#46	AnnotatorNotes T53	C5203676; SARS-CoV-2; Virus
+T55	PHYS 1258 1279	filtración glomerular
+#47	AnnotatorNotes T55	C0232809; Glomerular filtration; Organ or Tissue Function
+T56	ANAT 1269 1279	glomerular
+#48	AnnotatorNotes T56	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Population_data T41 Age
+#49	AnnotatorNotes T22	C4726677; remdesivir; Organic Chemical · Pharmacologic Substance
+#50	AnnotatorNotes T17	C4726677; remdesivir; Organic Chemical · Pharmacologic Substance
+#51	AnnotatorNotes T29	C0472684; Continuous venovenous hemofiltration; Therapeutic or Preventive Procedure 
+#52	AnnotatorNotes T6	C5203670; COVID19 (disease); Disease or Syndrome
+#53	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+R1	Location_of Arg1:T35 Arg2:T52	
+R2	Location_of Arg1:T30 Arg2:T29	
+R3	Location_of Arg1:T36 Arg2:T28	
+T57	Result_or_Value 1550 1562	< 30 mL/min.
+R4	Has_Result_or_Value Arg1:T26 Arg2:T57	
+R6	Used_for Arg1:T5 Arg2:T2	
+R7	Used_for Arg1:T22 Arg2:T2	
+R8	Used_for Arg1:T15 Arg2:T2	
+R9	Used_for Arg1:T5 Arg2:T4	
+R10	Used_for Arg1:T22 Arg2:T4	
+R11	Used_for Arg1:T15 Arg2:T4	
+R12	Causes Arg1:T53 Arg2:T6	
+R13	Experiences Arg1:T41 Arg2:T2	
+R14	Experiences Arg1:T41 Arg2:T3	
+R15	Experiences Arg1:T41 Arg2:T5	
+R16	Experiences Arg1:T41 Arg2:T22	
+R17	Experiences Arg1:T41 Arg2:T15	
+R18	Experiences Arg1:T41 Arg2:T4	
+R19	Experiences Arg1:T41 Arg2:T6	
+R20	Causes Arg1:T42 Arg2:T10	
+R21	Causes Arg1:T43 Arg2:T12	
+R22	Causes Arg1:T43 Arg2:T16	
+R23	Used_for Arg1:T11 Arg2:T8	
+R24	Used_for Arg1:T17 Arg2:T8	
+R25	Used_for Arg1:T38 Arg2:T8	
+R26	Used_for Arg1:T11 Arg2:T9	
+R27	Used_for Arg1:T17 Arg2:T9	
+R28	Used_for Arg1:T38 Arg2:T9	
+T58	Observation 467 518	cumplir todos los siguientes criterios de inclusión
+#54	AnnotatorNotes T58	C4329786; Eligibility Criteria Met By Subject; Finding
+T59	Observation 528 559	elegibles para la participación
+#55	AnnotatorNotes T59	C1302261; Patient eligible for clinical trial; Finding
+R29	Before Arg1:T58 Arg2:T59	
+R30	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T59	
+T60	Observation 580 591	Disposición
+#56	AnnotatorNotes T60	C0600109; Willing; Finding (?)
+T61	Observation 594 603	capacidad
+#57	AnnotatorNotes T61	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R31	Overlap Arg1:T61 Arg2:T13	
+R32	Overlap Arg1:T60 Arg2:T13	
+T62	CONC 750 759	inclusión
+#58	AnnotatorNotes T62	C1512693; Inclusion; Qualitative Concept
+R33	Has_Age Arg1:T46 Arg2:T48	
+R34	Before Arg1:T13 Arg2:T62	
+R35	Before Arg1:T20 Arg2:T62	
+R36	Overlap Arg1:T31 Arg2:T51	
+R37	Overlap Arg1:T14 Arg2:T51	
+T63	Observation 1010 1046	contacto conocido de caso confirmado
+#59	AnnotatorNotes T63	C5419476; Household Contact with SARS-CoV-2 Positive Individual; Finding (?)
+R38	Before Arg1:T63 Arg2:T19	
+R39	Before Arg1:T63 Arg2:T18	
+R40	Before Arg1:T63 Arg2:T32	
+T64	Quantifier_or_Qualifier 1093 1102	pendiente
+#60	AnnotatorNotes T64	C1611271; Pending - status; Temporal Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T64	
+T65	Route 1163 1179	vía endotraqueal
+#61	AnnotatorNotes T65	C0599554; endotracheal; Spatial Concept
+R42	Before Arg1:T23 Arg2:T21	
+R43	Before Arg1:T24 Arg2:T21	
+R44	Has_Route_or_Mode Arg1:T21 Arg2:T65	
+R45	Location_of Arg1:T33 Arg2:T50	
+T66	Observation 1210 1232	Función renal adecuada
+#62	AnnotatorNotes T66	C0232805; Normal renal function; Finding
+R46	Location_of Arg1:T33 Arg2:T66	
+R50	Location_of Arg1:T56 Arg2:T55	
+R51	Location_of Arg1:T56 Arg2:T25	
+T67	Result_or_Value 1280 1291	≥ 30 ml/min
+R53	Has_Result_or_Value Arg1:T25 Arg2:T67	
+T68	Result_or_Value 1331 1372	≤ 5 x límite superior de normalidad (LSN)
+R54	Has_Result_or_Value Arg1:T34 Arg2:T68	
+T69	Observation 1499 1528	mantener la presión sanguínea
+#63	AnnotatorNotes T69	C4028081; patient goals - maintain normal blood pressure; Finding
+R58	Location_of Arg1:T35 Arg2:T69	
+T70	Quantifier_or_Qualifier 823 834	de urgencia
+#64	AnnotatorNotes T70	C0439609; Urgent; Qualitative Concept
+R59	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T70	
+A2	Experiencer T41 Patient
+A3	Experiencer T44 Patient
+A4	Experiencer T45 Other
+A5	Experiencer T47 Other
+A6	Experiencer T46 Patient
+A7	Status T32 Future

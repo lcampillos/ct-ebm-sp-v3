@@ -1,0 +1,160 @@
+T1	CHEM 27 39	pravastatina
+#1	AnnotatorNotes T1	C0085542; pravastatin; Organic Chemical · Pharmacologic Substance
+T2	DISO 60 91	neumonía asociada al ventilador
+#2	AnnotatorNotes T2	C1701940; Pneumonia, Ventilator-Associated; Disease or Syndrome
+T3	PROC 126 136	profilaxis
+#3	AnnotatorNotes T3	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T4	PROC 176 183	placebo
+#4	AnnotatorNotes T4	C0032042; Placebos; Therapeutic or Preventive Procedure
+T5	DISO 207 238	neumonía asociada al ventilador
+#5	AnnotatorNotes T5	C1701940; Pneumonia, Ventilator-Associated; Disease or Syndrome
+T6	CHEM 501 513	pravastatina
+#6	AnnotatorNotes T6	C0085542; pravastatin; Organic Chemical · Pharmacologic Substance
+T7	DISO 540 552	lesión renal
+#7	AnnotatorNotes T7	C0160420; Injury of kidney; Injury or Poisoning
+T8	PROC 565 572	placebo
+#8	AnnotatorNotes T8	C0032042; Placebos; Therapeutic or Preventive Procedure
+T9	CHEM 757 769	pravastatina
+#9	AnnotatorNotes T9	C0085542; pravastatin; Organic Chemical · Pharmacologic Substance
+T10	PROC 794 801	placebo
+#10	AnnotatorNotes T10	C0032042; Placebos; Therapeutic or Preventive Procedure
+T11	PROC 878 889	tratamiento
+#11	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	CHEM 947 959	pravastatina
+#12	AnnotatorNotes T12	C0085542; pravastatin; Organic Chemical · Pharmacologic Substance
+T13	PROC 991 998	placebo
+#13	AnnotatorNotes T13	C0032042; Placebos; Therapeutic or Preventive Procedure
+T14	DISO 1120 1123	NAV
+#14	AnnotatorNotes T14	C1701940; Pneumonia, Ventilator-Associated; Disease or Syndrome
+T15	CHEM 1087 1099	pravastatina
+#15	AnnotatorNotes T15	C0085542; pravastatin; Organic Chemical · Pharmacologic Substance
+T16	CHEM 1193 1202	estatinas
+#16	AnnotatorNotes T16	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T17	DISO 1240 1248	neumonía
+#17	AnnotatorNotes T17	C0032285; Pneumonia; Disease or Syndrome
+T18	CHEM 141 153	pravastatina
+#18	AnnotatorNotes T18	C0085542; pravastatin; Organic Chemical · Pharmacologic Substance
+T19	DISO 240 243	NAV
+#19	AnnotatorNotes T19	C1701940; Pneumonia, Ventilator-Associated; Disease or Syndrome
+T20	PROC 281 319	ensayo clínico controlado, doble ciego
+#20	AnnotatorNotes T20	C0013072; Double-Blind Method; Research Activity + C0681867; Controlled Study; Research Activity
+T21	PROC 464 490	asignó de manera aleatoria
+#21	AnnotatorNotes T21	C0034656; Randomization; Research Activity
+T22	ANAT 547 552	renal
+#22	AnnotatorNotes T22	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T23	PROC 596 608	se siguieron
+#23	AnnotatorNotes T23	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T24	DISO 636 649	fallecimiento
+#24	AnnotatorNotes T24	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T25	DISO 727 730	NAV
+#25	AnnotatorNotes T25	C1701940; Pneumonia, Ventilator-Associated; Disease or Syndrome
+T26	PROC 1056 1083	administración profiláctica
+#26	AnnotatorNotes T26	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure | C4039267; Administration of prophylactic treatment; Therapeutic or Preventive Procedure
+T27	DISO 93 96	NAV
+#27	AnnotatorNotes T27	C1701940; Pneumonia, Ventilator-Associated; Disease or Syndrome
+T29	Spec_cue 197 206	riesgo de
+T30	LIVB 403 412	pacientes
+#28	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Dose 514 519	40 mg
+T32	Dose 523 528	10 mg
+T33	Duration 617 624	10 días
+T35	LIVB 654 662	paciente
+#29	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 703 712	pacientes
+#30	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 853 862	pacientes
+#31	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 922 931	pacientes
+#32	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1226 1235	pacientes
+#33	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	DEVI 81 91	ventilador
+#34	AnnotatorNotes T42	C0087153; Ventilator - respiratory equipment; Medical Device
+T43	DEVI 228 238	ventilador
+#35	AnnotatorNotes T43	C0087153; Ventilator - respiratory equipment; Medical Device
+A1	Assertion T5 Speculated
+A2	Assertion T19 Speculated
+T28	Neg_cue 1026 1028	No
+T34	Observation 1040 1049	beneficio
+A3	Assertion T34 Negated
+#36	AnnotatorNotes T34	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R1	Negation Arg1:T28 Arg2:T34	
+R2	Speculation Arg1:T29 Arg2:T5	
+R3	Overlap Arg1:T5 Arg2:T43	
+R4	Overlap Arg1:T43 Arg2:T19	
+T39	Spec_cue 1162 1169	posible
+T40	Observation 1170 1185	efecto benéfico
+A4	Assertion T40 Speculated
+#37	AnnotatorNotes T40	C4049461;Unexpected beneficial therapeutic response; Finding (?)
+R5	Before Arg1:T16 Arg2:T40	
+R6	Speculation Arg1:T39 Arg2:T40	
+T44	Spec_cue 120 122	si
+T45	CONC 184 193	disminuye
+A5	Assertion T45 Speculated
+#38	AnnotatorNotes T45	C0392756; Reduced; Qualitative Concept
+R7	Speculation Arg1:T44 Arg2:T45	
+R8	Speculation Arg1:T29 Arg2:T19	
+A6	Assertion T3 Speculated
+A7	Assertion T18 Speculated
+A8	Assertion T4 Speculated
+T46	LIVB 869 889	grupo de tratamiento
+#39	AnnotatorNotes T46	C5205742; Treatment Group; Population Group
+T47	Observation 1 20	Efecto profiláctico
+R9	Causes Arg1:T1 Arg2:T47	
+R10	Overlap Arg1:T2 Arg2:T42	
+R11	Overlap Arg1:T42 Arg2:T27	
+R12	Before Arg1:T1 Arg2:T2	
+R13	Speculation Arg1:T44 Arg2:T3	
+R14	Speculation Arg1:T44 Arg2:T18	
+R15	Used_for Arg1:T18 Arg2:T3	
+R16	Speculation Arg1:T44 Arg2:T4	
+R19	Before Arg1:T21 Arg2:T6	
+R20	Before Arg1:T21 Arg2:T8	
+R21	Experiences Arg1:T30 Arg2:T8	
+R22	Experiences Arg1:T30 Arg2:T6	
+R23	Has_Dose_or_Strength Arg1:T6 Arg2:T31	
+R24	Has_Dose_or_Strength Arg1:T6 Arg2:T32	
+R25	Location_of Arg1:T22 Arg2:T7	
+R26	Experiences Arg1:T30 Arg2:T7	
+R27	Overlap Arg1:T32 Arg2:T7	
+T48	Observation 417 454	cumplieron los criterios de inclusión
+#40	AnnotatorNotes T48	C1302261; Patient eligible for clinical trial; Finding (?)
+R29	Before Arg1:T48 Arg2:T21	
+R30	Has_Duration_or_Interval Arg1:T23 Arg2:T33	
+R31	Before Arg1:T23 Arg2:T24	
+R32	Experiences Arg1:T35 Arg2:T24	
+R33	Experiences Arg1:T36 Arg2:T25	
+R34	Before Arg1:T9 Arg2:T25	
+R35	Experiences Arg1:T36 Arg2:T9	
+R36	Before Arg1:T10 Arg2:T25	
+R37	Experiences Arg1:T36 Arg2:T10	
+T49	CONC 817 827	mortalidad
+#41	AnnotatorNotes T49	C0085556; Hospital Mortality; Qualitative Concept
+T50	Quantifier_or_Qualifier 828 834	global
+#42	AnnotatorNotes T50	C2348867; Global; Qualitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T50	
+R39	Experiences Arg1:T46 Arg2:T11	
+R40	Experiences Arg1:T46 Arg2:T12	
+R42	Used_for Arg1:T12 Arg2:T11	
+R43	Experiences Arg1:T38 Arg2:T13	
+R44	Before Arg1:T26 Arg2:T34	
+R45	Used_for Arg1:T15 Arg2:T26	
+R46	Before Arg1:T26 Arg2:T14	
+R47	Experiences Arg1:T41 Arg2:T17	
+T51	Quantifier_or_Qualifier 1249 1260	establecida
+#43	AnnotatorNotes T51	C0443211; Established; Qualitative Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T51	
+R49	Experiences Arg1:T41 Arg2:T16	
+R50	Experiences Arg1:T38 Arg2:T11	
+T52	CONC 1209 1222	supervivencia
+#44	AnnotatorNotes T52	C0220921; survival aspects; Functional Concept
+R17	Before Arg1:T1 Arg2:T27	
+R18	Before Arg1:T3 Arg2:T5	
+R28	Experiences Arg1:T41 Arg2:T40	
+A10	Experiencer T30 Patient
+A11	Experiencer T35 Patient
+A12	Experiencer T36 Patient
+A13	Experiencer T37 Patient
+A14	Experiencer T46 Patient
+A15	Experiencer T38 Patient
+A16	Experiencer T41 Patient

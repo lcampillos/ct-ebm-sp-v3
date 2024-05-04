@@ -1,0 +1,166 @@
+T1	CHEM 49 57	magnesio
+#1	AnnotatorNotes T1	C0024467; magnesium; Biologically Active Substance · Element, Ion, or Isotope
+T2	ANAT 82 88	glúteo
+#2	AnnotatorNotes T2	C0282082; Gluteal Region; Body Location or Region
+T3	PROC 116 133	anestesia espinal
+#3	AnnotatorNotes T3	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T4	CHEM 160 168	magnesio
+#4	AnnotatorNotes T4	C0024467; magnesium; Biologically Active Substance · Element, Ion, or Isotope
+T5	CHEM 183 192	lidocaína
+#5	AnnotatorNotes T5	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T6	DISO 232 264	Síndrome Neurológico Transitorio
+T7	PROC 273 298	Cirugía Mayor Ambulatoria
+T8	ANAT 329 335	glúteo
+#6	AnnotatorNotes T8	C0282082; Gluteal Region; Body Location or Region
+T9	DISO 377 409	Síndrome neurológico transitorio
+T10	PROC 463 471	operados
+#7	AnnotatorNotes T10	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T11	PROC 476 501	Cirugía Mayor Ambulatoria
+T12	PROC 643 655	Intervenidos
+#8	AnnotatorNotes T12	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T13	PROC 670 679	litotomía
+#9	AnnotatorNotes T13	C1293108; Lithotomy - procedure; Therapeutic or Preventive Procedure
+T14	PROC 696 718	artroscopia de rodilla
+#10	AnnotatorNotes T14	C1304878; Arthroscopy of knee; Diagnostic Procedure
+T15	DISO 724 730	Obesos
+#11	AnnotatorNotes T15	C0028754; Obesity; Disease or Syndrome
+T16	PROC 757 780	incisión infraumbilical
+T17	PROC 783 800	Anestesia espinal
+#12	AnnotatorNotes T17	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T18	CHEM 805 814	lidocaína
+#13	AnnotatorNotes T18	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T19	DISO 939 951	dolor lumbar
+#14	AnnotatorNotes T19	C0024031; Low Back Pain; Sign or Symptom
+T20	DISO 984 993	miopatías
+#15	AnnotatorNotes T20	C0026848; Myopathy; Disease or Syndrome
+T21	DISO 996 1007	neuropatías
+#16	AnnotatorNotes T21	C0442874; Neuropathy; Disease or Syndrome
+T22	DISO 1090 1097	alergia
+#17	AnnotatorNotes T22	C1527304; Allergic Reaction; Pathologic Function
+T23	CHEM 1118 1127	lidocaína
+#18	AnnotatorNotes T23	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T24	CHEM 1129 1137	magnesio
+#19	AnnotatorNotes T24	C0024467; magnesium; Biologically Active Substance · Element, Ion, or Isotope
+T25	CHEM 1139 1148	fentanilo
+#20	AnnotatorNotes T25	C0015846; fentanyl; Organic Chemical · Pharmacologic Substance
+T26	DISO 1152 1197	defecto de conducción eléctrica intracardiaca
+#21	AnnotatorNotes T26	C0264886; Conduction disorder of the heart; Disease or Syndrome
+T27	ANAT 1184 1197	intracardiaca
+#22	AnnotatorNotes T27	C0729936; Cardiac chamber structure; Body Part, Organ, or Organ Component
+T28	PROC 1204 1222	electrocardiograma
+#23	AnnotatorNotes T28	C0013798; Electrocardiogram; Diagnostic Procedure | C1623258; Electrocardiography; Diagnostic Procedure
+T29	DISO 76 88	dolor glúteo
+#24	AnnotatorNotes T29	C0231710; Pain in buttock; Sign or Symptom
+T30	DISO 323 335	Dolor glúteo
+#25	AnnotatorNotes T30	C0231710; Pain in buttock; Sign or Symptom
+T31	PROC 503 506	CMA
+#26	AnnotatorNotes T31	C0002428; Ambulatory Surgical Procedures; Therapeutic or Preventive Procedure + C0679637; major surgery; Therapeutic or Preventive Procedure [cirugía mayor ambulatoria]
+T32	PROC 589 639	prueba analítica preoperatoria en suero u en orina
+#27	AnnotatorNotes T32	C4737887; urine and serum or plasma analysis; Laboratory Procedure
+T33	ANAT 623 628	suero
+#28	AnnotatorNotes T33	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T34	ANAT 634 639	orina
+#29	AnnotatorNotes T34	C0042036; Urine; Body Substance
+T35	ANAT 711 718	rodilla
+#30	AnnotatorNotes T35	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T36	ANAT 945 951	lumbar
+#31	AnnotatorNotes T36	C0024090; Lumbar Region; Body Location or Region
+T37	DISO 1100 1112	sensibilidad
+T38	Date 13 17	2012
+T42	Route 193 203	intratecal
+#32	AnnotatorNotes T42	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T43	Duration 253 264	Transitorio
+#33	AnnotatorNotes T43	C0205374; Transitory; Temporal Concept
+T45	Time 336 350	postanestésico
+T46	Duration 398 409	transitorio
+#34	AnnotatorNotes T46	C0205374; Transitory; Temporal Concept
+T47	Time 410 424	postanestésico
+T48	LIVB 453 462	Pacientes
+#35	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 535 557	Mujeres en edad fertil
+#36	AnnotatorNotes T50	C4324275; Woman of childbearing potential; Population Group
+T51	PHYS 562 570	embarazo
+#37	AnnotatorNotes T51	C0032961; Pregnancy; Organism Function
+T52	Neg_cue 571 579	excluido
+T53	Date 606 619	preoperatoria
+#38	AnnotatorNotes T53	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T55	LIVB 844 853	pacientes
+#39	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Age 857 888	menos de 18 años o de más de 80
+T57	Duration 952 959	crónico
+#40	AnnotatorNotes T57	C0205191; chronic; Temporal Concept
+T58	LIVB 970 979	pacientes
+#41	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1026 1045	mujeres embarazadas
+#42	AnnotatorNotes T59	C0033011; Pregnant Women; Population Group
+T60	PHYS 1051 1060	lactancia
+#43	AnnotatorNotes T60	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T61	PHYS 1034 1045	embarazadas
+#44	AnnotatorNotes T61	C0032961; Pregnancy; Organism Function
+T39	Age 546 557	edad fertil
+T40	LIVB 512 523	Ambos sexos
+#45	AnnotatorNotes T40	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T41	PROC 892 922	American Society of Anesthesia
+#46	AnnotatorNotes T41	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A2	Assertion T51 Negated
+A3	Population_data T50 Age
+A1	Status T22 History_of
+A4	Status T37 History_of
+#47	AnnotatorNotes T11	C0002428; Ambulatory Surgical Procedures; Therapeutic or Preventive Procedure + C0679637; major surgery; Therapeutic or Preventive Procedure [cirugía mayor ambulatoria]
+#48	AnnotatorNotes T7	C0002428; Ambulatory Surgical Procedures; Therapeutic or Preventive Procedure + C0679637; major surgery; Therapeutic or Preventive Procedure [cirugía mayor ambulatoria]
+R1	Location_of Arg1:T2 Arg2:T29	
+R2	After Arg1:T29 Arg2:T3	
+R3	After Arg1:T5 Arg2:T42	
+R4	Combined_with Arg1:T4 Arg2:T5	
+R6	Has_Duration_or_Interval Arg1:T6 Arg2:T43	
+R7	After Arg1:T6 Arg2:T7	
+R8	Location_of Arg1:T8 Arg2:T30	
+R9	Overlap Arg1:T30 Arg2:T45	
+R10	Overlap Arg1:T9 Arg2:T47	
+R11	Has_Duration_or_Interval Arg1:T9 Arg2:T46	
+R12	Experiences Arg1:T48 Arg2:T10	
+R13	Experiences Arg1:T48 Arg2:T11	
+R14	Experiences Arg1:T48 Arg2:T31	
+R15	Has_Age Arg1:T50 Arg2:T39	
+R16	Experiences Arg1:T50 Arg2:T32	
+R17	Negation Arg1:T52 Arg2:T51	
+R18	Location_of Arg1:T33 Arg2:T32	
+R19	Location_of Arg1:T34 Arg2:T32	
+R20	Overlap Arg1:T32 Arg2:T53	
+T49	CONC 659 679	postura de litotomía
+#50	AnnotatorNotes T49	C0150665; Lithotomy position; Spatial Concept
+R21	Overlap Arg1:T12 Arg2:T49	
+R22	Location_of Arg1:T35 Arg2:T14	
+T54	CONC 685 718	Postura de artroscopia de rodilla
+T62	ANAT 766 780	infraumbilical
+#51	AnnotatorNotes T62	C0446493; Infra-umbilical region; Body Location or Region
+R23	Location_of Arg1:T62 Arg2:T16	
+R24	Used_for Arg1:T18 Arg2:T17	
+R25	Has_Age Arg1:T55 Arg2:T56	
+T63	Result_or_Value 923 934	clase 3 y 4
+R26	Has_Result_or_Value Arg1:T41 Arg2:T63	
+R27	Has_Duration_or_Interval Arg1:T19 Arg2:T57	
+R28	Location_of Arg1:T36 Arg2:T19	
+T64	Quantifier_or_Qualifier 960 966	ACTIVO
+#52	AnnotatorNotes T64	C0679217; Active State; Idea or Concept
+R29	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T64	
+R30	Experiences Arg1:T58 Arg2:T20	
+R31	Experiences Arg1:T58 Arg2:T21	
+R32	Experiences Arg1:T59 Arg2:T61	
+R33	Experiences Arg1:T59 Arg2:T60	
+R34	Causes Arg1:T23 Arg2:T37	
+R35	Causes Arg1:T24 Arg2:T37	
+R36	Causes Arg1:T25 Arg2:T37	
+R37	Location_of Arg1:T27 Arg2:T26	
+#53	AnnotatorNotes T37	C0020517; Hypersensitivity; Pathologic Function
+R39	Causes Arg1:T23 Arg2:T22	
+R40	Causes Arg1:T24 Arg2:T22	
+R41	Causes Arg1:T25 Arg2:T22	
+#49	AnnotatorNotes T6	C0581882; Transient neurological symptoms; Sign or Symptom (?)
+#54	AnnotatorNotes T9	C0581882; Transient neurological symptoms; Sign or Symptom (?)
+A5	Experiencer T48 Patient
+A6	Experiencer T40 Patient
+A7	Experiencer T50 Patient
+A8	Experiencer T55 Patient
+A9	Experiencer T58 Patient
+A10	Experiencer T59 Patient

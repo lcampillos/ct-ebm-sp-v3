@@ -1,0 +1,123 @@
+T1	PROC 62 72	prevención
+#1	AnnotatorNotes T1	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T2	DISO 79 101	infección por COVID-19
+#2	AnnotatorNotes T2	C5203670; COVID19 (disease); Disease or Syndrome
+T3	PROC 146 180	Ensayo clínico piloto, doble ciego
+T4	PROC 186 217	evaluar la eficacia y seguridad
+#3	AnnotatorNotes T4	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T5	CHEM 254 271	hidroxicloroquina
+#4	AnnotatorNotes T5	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T6	PROC 281 288	placebo
+#5	AnnotatorNotes T6	C0032042; Placebos; Therapeutic or Preventive Procedure
+T7	PROC 295 305	prevención
+#6	AnnotatorNotes T7	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T8	DISO 312 336	infección por SARS-CoV-2
+#7	AnnotatorNotes T8	C5203670; COVID19 (disease); Disease or Syndrome
+T9	DISO 338 346	COVID-19
+#8	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	PROC 397 407	Prevención
+#9	AnnotatorNotes T10	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T11	DISO 414 436	infección por COVID-19
+#10	AnnotatorNotes T11	C5203670; COVID19 (disease); Disease or Syndrome
+T12	PROC 463 473	Prevención
+#11	AnnotatorNotes T12	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T13	DISO 480 504	infección por SARS-CoV-2
+#12	AnnotatorNotes T13	C5203670; COVID19 (disease); Disease or Syndrome
+T14	DISO 506 514	COVID-19
+#13	AnnotatorNotes T14	C5203670; COVID19 (disease); Disease or Syndrome
+T15	DISO 707 716	infección
+#14	AnnotatorNotes T15	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T16	CHEM 815 832	hidroxicloroquina
+#15	AnnotatorNotes T16	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T17	DISO 834 841	alergia
+#16	AnnotatorNotes T17	C1527304; Allergic Reaction; Pathologic Function
+T18	DISO 863 886	enfermedad de la retina
+#17	AnnotatorNotes T18	C0035309; Retinal Diseases; Disease or Syndrome
+T19	DISO 888 913	enfermedad de motoneurona
+T20	DISO 919 935	miastenia gravis
+#18	AnnotatorNotes T20	C0026896; Myasthenia Gravis; Disease or Syndrome
+T21	CHEM 844 861	hidroxicloroquina
+#19	AnnotatorNotes T21	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T22	ANAT 880 886	retina
+#20	AnnotatorNotes T22	C0035298; Retina; Body Part, Organ, or Organ Component | C1278894; Entire retina; Body Part, Organ, or Organ Component
+T23	ANAT 902 913	motoneurona
+#21	AnnotatorNotes T23	C0026609; Motor Neurons; Cell
+T24	Date 13 17	2020
+T25	LIVB 105 123	personal sanitario
+#22	AnnotatorNotes T25	C0018724; Health Personnel; Professional or Occupational Group | C1704312; Health Professional; Professional or Occupational Group
+T26	Date 236 250	pre-exposición
+T27	LIVB 354 372	personal sanitario
+#23	AnnotatorNotes T27	C0018724; Health Personnel; Professional or Occupational Group | C1704312; Health Professional; Professional or Occupational Group
+T28	LIVB 542 563	Profesional sanitario
+#24	AnnotatorNotes T28	C0018724; Health Personnel; Professional or Occupational Group
+T29	LIVB 573 582	enfermera
+#25	AnnotatorNotes T29	C0028661; Nurses; Professional or Occupational Group | C0334914; Medical assistant; Professional or Occupational Group
+T30	LIVB 584 606	auxiliar de enfermería
+#26	AnnotatorNotes T30	C0028663; Nurses' Aides; Professional or Occupational Group
+T31	LIVB 693 702	pacientes
+#27	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Spec_cue 717 725	probable
+T33	LIVB 743 753	SARS-CoV-2
+#28	AnnotatorNotes T33	C5203676; SARS-CoV-2; Virus
+T34	PHYS 952 960	Embarazo
+#29	AnnotatorNotes T34	C0032961; Pregnancy; Organism Function
+T35	Spec_cue 963 972	riesgo de
+T36	Age 996 1012	menor de 18 años
+T37	PHYS 979 989	embarazada
+#30	AnnotatorNotes T37	C0032961; Pregnancy; Organism Function
+T38	LIVB 326 336	SARS-CoV-2
+#31	AnnotatorNotes T38	C5203676; SARS-CoV-2; Virus
+T39	LIVB 494 504	SARS-CoV-2
+#32	AnnotatorNotes T39	C5203676; SARS-CoV-2; Virus
+T40	LIVB 565 571	médico
+#33	AnnotatorNotes T40	C0031831; Physicians; Professional or Occupational Group
+T41	LIVB 609 616	celador
+#34	AnnotatorNotes T41	C0402674; hospital porter; Professional or Occupational Group
+T42	PROC 938 942	Peso
+#35	AnnotatorNotes T42	C2985231; Body Weight Measurement; Diagnostic Procedure
+A1	Assertion T37 Speculated
+A2	Assertion T15 Speculated
+A3	Assertion T16 Contraindicated
+A4	Status T17 History_of
+#36	AnnotatorNotes T3	C0031928; Pilot Projects; Research Activity + C0008976; Clinical Trials; Research Activity + C0013072; Double-Blind Method; Research Activity
+#37	AnnotatorNotes T19	C0085084; Motor Neuron Disease; Disease or Syndrome 
+R1	Before Arg1:T1 Arg2:T2	
+R2	Experiences Arg1:T25 Arg2:T1	
+R3	Overlap Arg1:T5 Arg2:T26	
+R4	Overlap Arg1:T6 Arg2:T26	
+R5	Before Arg1:T7 Arg2:T8	
+R6	Causes Arg1:T38 Arg2:T8	
+R7	Used_for Arg1:T5 Arg2:T7	
+R8	Used_for Arg1:T6 Arg2:T7	
+R9	Experiences Arg1:T27 Arg2:T5	
+R10	Experiences Arg1:T27 Arg2:T6	
+R11	Experiences Arg1:T27 Arg2:T7	
+R14	Causes Arg1:T38 Arg2:T9	
+R15	Before Arg1:T10 Arg2:T11	
+R16	Before Arg1:T12 Arg2:T13	
+R17	Before Arg1:T12 Arg2:T14	
+R18	Causes Arg1:T39 Arg2:T13	
+R19	Causes Arg1:T39 Arg2:T14	
+T43	Observation 622 674	actividad laboral en unidades clínicas hospitalarias
+R20	Experiences Arg1:T31 Arg2:T15	
+R21	Speculation Arg1:T32 Arg2:T15	
+R22	Causes Arg1:T33 Arg2:T15	
+R23	Overlap Arg1:T43 Arg2:T15	
+R24	Causes Arg1:T21 Arg2:T17	
+R25	Causes Arg1:T16 Arg2:T17	
+R26	Location_of Arg1:T22 Arg2:T18	
+R27	Location_of Arg1:T23 Arg2:T19	
+T44	Result_or_Value 943 950	< 40 kg
+R28	Has_Result_or_Value Arg1:T42 Arg2:T44	
+R29	Speculation Arg1:T35 Arg2:T37	
+R12	Experiences Arg1:T27 Arg2:T8	
+R13	Experiences Arg1:T27 Arg2:T9	
+A5	Assertion T21 Contraindicated
+A6	Experiencer T25 Patient
+A7	Experiencer T27 Patient
+A8	Experiencer T28 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T29 Patient
+A11	Experiencer T30 Patient
+A12	Experiencer T41 Patient
+A13	Experiencer T31 Patient

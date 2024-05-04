@@ -1,0 +1,163 @@
+T1	PROC 46 62	Estudio fase III
+T2	PROC 372 380	tratados
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 104 123	hipercolesterolemia
+#2	AnnotatorNotes T3	C0020443; Hypercholesterolemia; Disease or Syndrome
+T4	CHEM 144 152	estatina
+#3	AnnotatorNotes T4	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T5	PROC 195 273	Estudio aleatorizado, doble ciego, controlado con placebo, de grupos paralelos
+T6	DISO 575 579	heFH
+#4	AnnotatorNotes T6	C0342882; Familial hypercholesterolemia - heterozygous; Disease or Syndrome
+T7	PROC 278 308	evalúa la eficacia y seguridad
+T8	DISO 340 368	hipercolesterolemia primaria
+#5	AnnotatorNotes T8	C0342879; Primary hypercholesterolemia; Disease or Syndrome
+T9	CHEM 389 397	estatina
+#6	AnnotatorNotes T9	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T10	CHEM 438 448	colesterol
+#7	AnnotatorNotes T10	C0008377; cholesterol; Biologically Active Substance · Organic Chemical
+T11	ANAT 452 458	sangre
+#8	AnnotatorNotes T11	C0005767; Blood; Body Substance
+T12	DISO 485 504	Hipercolesterolemia
+#9	AnnotatorNotes T12	C0020443; Hypercholesterolemia; Disease or Syndrome
+T13	DISO 545 573	hipercolesterolemia primaria
+#10	AnnotatorNotes T13	C0342879; Primary hypercholesterolemia; Disease or Syndrome
+T14	DISO 585 587	FH
+#11	AnnotatorNotes T14	C0020445; Hypercholesterolemia, Familial; Disease or Syndrome
+T15	CHEM 613 624	fenofibrato
+#12	AnnotatorNotes T15	C0033228; fenofibrate; Organic Chemical · Pharmacologic Substance
+T16	ANAT 679 681	CV
+#13	AnnotatorNotes T16	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T17	CHEM 601 610	ezetimiba
+#14	AnnotatorNotes T17	C1142985; ezetimibe; Organic Chemical · Pharmacologic Substance
+T18	ANAT 782 784	CV
+#15	AnnotatorNotes T18	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T19	PROC 1007 1010	TML
+#16	AnnotatorNotes T19	C0585943; Lipid-lowering therapy; Therapeutic or Preventive Procedure (?) [lipid modifying therapy]
+T20	DISO 1062 1073	intolerante
+T21	CHEM 1015 1024	estatinas
+#17	AnnotatorNotes T21	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T22	CHEM 1076 1085	estatinas
+#18	AnnotatorNotes T22	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T23	CHEM 312 322	Alirocumab
+#19	AnnotatorNotes T23	C3491162; alirocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T24	DISO 672 681	riesgo CV
+#20	AnnotatorNotes T24	C4324389; Cardiovascular Risk; Finding
+T25	DISO 421 458	Niveles altos de colesterol en sangre
+T26	PROC 633 638	dieta
+#21	AnnotatorNotes T26	C0012159; Diet therapy; Health Care Activity | C0600072; Feeding and dietary regimes; Therapeutic or Preventive Procedure
+T27	PROC 693 698	LDL-C
+T28	PROC 803 808	LDL-C
+T29	PROC 885 890	LDL-C
+T30	PROC 974 979	dieta
+#22	AnnotatorNotes T30	C0012159; Diet therapy; Health Care Activity | C0600072; Feeding and dietary regimes; Therapeutic or Preventive Procedure
+T31	CHEM 76 86	Alirocumab
+#23	AnnotatorNotes T31	C3491162; alirocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	DISO 775 784	riesgo CV
+#24	AnnotatorNotes T32	C4324389; Cardiovascular Risk; Finding
+T33	PROC 127 135	tratados
+#25	AnnotatorNotes T33	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T34	Date 13 17	2013
+T35	LIVB 90 99	pacientes
+#26	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Neg_cue 124 126	no
+T37	LIVB 326 335	pacientes
+#27	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Neg_cue 369 371	no
+T39	LIVB 531 540	Pacientes
+#28	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 982 991	pacientes
+#29	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Neg_cue 1011 1014	sin
+T49	Neg_cue 1034 1036	no
+T40	Date 751 759	semana-3
+T41	Date 864 872	semana-3
+T42	Date 945 953	semana-3
+T43	PROC 730 749	visita de selección
+#30	AnnotatorNotes T43	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T44	PROC 843 862	visita de selección
+#31	AnnotatorNotes T44	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T45	PROC 924 943	visita de selección
+#32	AnnotatorNotes T45	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A2	Assertion T21 Negated
+A3	Assertion T20 Negated
+A4	Assertion T22 Negated
+A5	Assertion T33 Negated
+A6	Assertion T4 Negated
+A7	Assertion T2 Negated
+A8	Assertion T9 Negated
+#33	AnnotatorNotes T1	C0282461; Phase 3 Clinical Trials; Research Activity
+#34	AnnotatorNotes T5	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product  + C2826345; Parallel Study; Research Activity 
+#35	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#36	AnnotatorNotes T25	C0020443; Hypercholesterolemia; Disease or Syndrome | C3842522; High blood cholesterol; Finding
+#37	AnnotatorNotes T27	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+#38	AnnotatorNotes T28	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+#39	AnnotatorNotes T29	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+#40	AnnotatorNotes T20	C0277585; Intolerance to drug; Pathologic Function
+T46	Neg_cue 582 584	no
+A1	Assertion T14 Negated
+R1	Negation Arg1:T46 Arg2:T14	
+R2	Experiences Arg1:T39 Arg2:T13	
+R3	Experiences Arg1:T39 Arg2:T6	
+R4	Experiences Arg1:T39 Arg2:T14	
+R5	Experiences Arg1:T39 Arg2:T17	
+R6	Experiences Arg1:T39 Arg2:T15	
+R7	Experiences Arg1:T39 Arg2:T26	
+T50	Quantifier_or_Qualifier 628 632	solo
+R8	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T50	
+R9	Experiences Arg1:T35 Arg2:T31	
+R10	Experiences Arg1:T35 Arg2:T3	
+R11	Negation Arg1:T36 Arg2:T33	
+R12	Experiences Arg1:T35 Arg2:T33	
+R13	Used_for Arg1:T4 Arg2:T33	
+R14	Experiences Arg1:T35 Arg2:T4	
+R15	Experiences Arg1:T37 Arg2:T23	
+R16	Experiences Arg1:T37 Arg2:T8	
+R17	Experiences Arg1:T37 Arg2:T2	
+R18	Negation Arg1:T38 Arg2:T2	
+R19	Used_for Arg1:T9 Arg2:T2	
+R20	Negation Arg1:T38 Arg2:T9	
+R21	Location_of Arg1:T11 Arg2:T25	
+R22	Location_of Arg1:T16 Arg2:T24	
+T51	Quantifier_or_Qualifier 682 690	muy alto
+R23	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T51	
+T52	Result_or_Value 699 723	< 70 mg/dl (1,81 mmol/l)
+R24	Has_Result_or_Value Arg1:T27 Arg2:T52	
+R25	Overlap Arg1:T27 Arg2:T43	
+R26	Overlap Arg1:T27 Arg2:T40	
+R27	Overlap Arg1:T43 Arg2:T40	
+T53	Quantifier_or_Qualifier 785 789	alto
+#41	AnnotatorNotes T53	C0205250; High; Qualitative Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T53	
+R29	Location_of Arg1:T18 Arg2:T32	
+T54	Quantifier_or_Qualifier 792 800	moderado
+#42	AnnotatorNotes T54	C0205081; Moderate (severity modifier); Qualitative Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T54	
+T55	Result_or_Value 809 836	< 100 mg/dl (< 2,59 mmol/l)
+R31	Has_Result_or_Value Arg1:T28 Arg2:T55	
+R32	Overlap Arg1:T28 Arg2:T41	
+R33	Overlap Arg1:T28 Arg2:T44	
+T56	Result_or_Value 891 917	> 160 mg/dl (> 4,1 mmol/l)
+R34	Has_Result_or_Value Arg1:T29 Arg2:T56	
+R35	Overlap Arg1:T29 Arg2:T45	
+R36	Overlap Arg1:T45 Arg2:T42	
+R37	Overlap Arg1:T29 Arg2:T42	
+T57	Quantifier_or_Qualifier 969 973	solo
+R38	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T57	
+R39	Overlap Arg1:T29 Arg2:T30	
+R40	Experiences Arg1:T47 Arg2:T30	
+R41	Experiences Arg1:T47 Arg2:T29	
+R42	Experiences Arg1:T47 Arg2:T19	
+R43	Used_for Arg1:T21 Arg2:T19	
+R44	Negation Arg1:T48 Arg2:T21	
+R45	Overlap Arg1:T29 Arg2:T19	
+R46	Negation Arg1:T49 Arg2:T20	
+R47	Causes Arg1:T22 Arg2:T20	
+R48	Experiences Arg1:T47 Arg2:T20	
+#43	AnnotatorNotes T50	C0205171; Singular; Quantitative Concept
+#44	AnnotatorNotes T57	C0205171; Singular; Quantitative Concept
+A9	Experiencer T35 Patient
+A10	Experiencer T37 Patient
+A11	Experiencer T39 Patient
+A12	Assertion T57 Hypothetical
+A13	Assertion T30 Hypothetical
+A14	Experiencer T47 Patient

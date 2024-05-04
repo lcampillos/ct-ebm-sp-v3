@@ -1,0 +1,125 @@
+T1	PROC 46 108	Ensayo Clínico en fase IV sobre la seguridad e inmunogenicidad
+T2	DISO 144 165	infectadas por el VIH
+T3	DISO 196 262	infecciones y lesionas provocadas por el virus del papiloma humano
+T4	DISO 274 295	infectadas por el VIH
+T5	DISO 330 351	infectadas por el VIH
+T6	DISO 390 400	infectadas
+#1	AnnotatorNotes T6	C0009450; Communicable Diseases; Disease or Syndrome | C0439663; Infected; Finding | C3714514; Infection; Pathologic Function
+T7	ANAT 456 459	ano
+#2	AnnotatorNotes T7	C0003461; Anus; Body Part, Organ, or Organ Component | C1278927; Entire anus; Body Part, Organ, or Organ Component
+T8	DISO 573 583	infectadas
+#3	AnnotatorNotes T8	C0009450; Communicable Diseases; Disease or Syndrome | C0439663; Infected; Finding | C3714514; Infection; Pathologic Function
+T9	ANAT 590 601	mucosa anal
+T10	ANAT 683 693	canal anal
+#4	AnnotatorNotes T10	C0227411; Anal canal; Body Space or Junction | C1280336; Entire anal canal; Body Space or Junction
+T11	PROC 706 719	diagnosticara
+#5	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	DISO 720 724	HSIL
+#6	AnnotatorNotes T12	C0333875; High-Grade Squamous Intraepithelial Lesions; Neoplastic Process
+T13	DISO 727 741	carcinoma anal
+#7	AnnotatorNotes T13	C0279637; Anal carcinoma; Neoplastic Process
+T14	DISO 745 767	Enfermedad oportunista
+T15	PROC 819 845	Recuento de linfocitos CD4
+#8	AnnotatorNotes T15	C0243009; CD4 Count determination procedure; Laboratory Procedure
+T16	ANAT 831 845	linfocitos CD4
+T17	ANAT 852 855	cél
+#9	AnnotatorNotes T17	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T18	CHEM 115 132	vacuna Gardasil-9
+T19	ANAT 445 451	vagina
+#10	AnnotatorNotes T19	C0042232; Vagina; Body Part, Organ, or Organ Component | C1278985; Entire vagina; Body Part, Organ, or Organ Component
+T20	ANAT 737 741	anal
+#11	AnnotatorNotes T20	C0003461; Anus; Body Part, Organ, or Organ Component | C1278927; Entire anus; Body Part, Organ, or Organ Component
+T21	DISO 877 884	alergia
+#12	AnnotatorNotes T21	C1527304; Allergic Reaction; Pathologic Function
+T22	CHEM 888 896	aluminio
+#13	AnnotatorNotes T22	C0002367; aluminum; Element, Ion, or Isotope · Pharmacologic Substance
+T23	Date 13 17	2019
+T24	LIVB 136 143	mujeres
+#14	AnnotatorNotes T24	C0043210; Woman; Population Group
+T25	LIVB 162 165	VIH
+#15	AnnotatorNotes T25	C0019682; HIV; Virus
+T26	LIVB 237 262	virus del papiloma humano
+#16	AnnotatorNotes T26	C0021344; human papillomavirus; Virus
+T27	LIVB 266 273	mujeres
+#17	AnnotatorNotes T27	C0043210; Woman; Population Group
+T28	LIVB 292 295	VIH
+#18	AnnotatorNotes T28	C0019682; HIV; Virus
+T29	LIVB 322 329	Mujeres
+#19	AnnotatorNotes T29	C0043210; Woman; Population Group
+T30	LIVB 348 351	VIH
+#20	AnnotatorNotes T30	C0019682; HIV; Virus
+T31	Age 356 375	18 años en adelante
+T32	Neg_cue 381 383	no
+T33	PROC 492 501	genotipos
+#21	AnnotatorNotes T33	C1285573; Genotype determination; Laboratory Procedure
+T34	LIVB 506 535	Virus Papiloma Humano 16 y 18
+#22	AnnotatorNotes T34	C0999806; Human papillomavirus 16; Virus + C0999807; Human papillomavirus 18; Virus
+T36	LIVB 565 572	Mujeres
+#23	AnnotatorNotes T36	C0043210; Woman; Population Group
+T37	PROC 626 635	genotipos
+#24	AnnotatorNotes T37	C1285573; Genotype determination; Laboratory Procedure
+T38	LIVB 668 675	Mujeres
+#25	AnnotatorNotes T38	C0043210; Woman; Population Group
+T39	Food 899 907	levadura
+#26	AnnotatorNotes T39	C0043392; Yeast, dried; Food
+A1	Assertion T6 Negated
+A2	Assertion T19 Negated
+A3	Assertion T7 Negated
+A4	Status T21 History_of
+#27	AnnotatorNotes T1	C4054739; Immunogenicity Study; Research Activity + C1705187; Safety Study; Research Activity + C0282462; Phase 4 Clinical Trials; Research Activity
+#28	AnnotatorNotes T18	C3864947; Gardasil 9; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#29	AnnotatorNotes T5	C0458074; Human immunodeficiency virus (HIV) status; Finding
+#30	AnnotatorNotes T4	C0458074; Human immunodeficiency virus (HIV) status; Finding
+#31	AnnotatorNotes T2	C0458074; Human immunodeficiency virus (HIV) status; Finding
+#32	AnnotatorNotes T9	C0227414; Anal mucosa; Body Part, Organ, or Organ Component 
+#33	AnnotatorNotes T14	C0029118; Opportunistic Infections; Disease or Syndrome 
+R1	Experiences Arg1:T24 Arg2:T18	
+R2	Experiences Arg1:T24 Arg2:T2	
+R3	Causes Arg1:T25 Arg2:T2	
+R4	Causes Arg1:T28 Arg2:T4	
+R5	Experiences Arg1:T27 Arg2:T4	
+R6	Experiences Arg1:T27 Arg2:T3	
+R7	Causes Arg1:T26 Arg2:T3	
+R8	Experiences Arg1:T29 Arg2:T5	
+R9	Causes Arg1:T30 Arg2:T5	
+R10	Has_Age Arg1:T29 Arg2:T31	
+R11	Negation Arg1:T32 Arg2:T6	
+T35	CONC 418 427	inclusión
+#34	AnnotatorNotes T35	C1512693; Inclusion; Qualitative Concept
+R12	Overlap Arg1:T6 Arg2:T35	
+R13	Experiences Arg1:T29 Arg2:T6	
+R14	Location_of Arg1:T19 Arg2:T6	
+R15	Location_of Arg1:T7 Arg2:T6	
+T40	Quantifier_or_Qualifier 464 483	de forma simultánea
+#35	AnnotatorNotes T40	C0521115; Simultaneous; Temporal Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T40	
+R17	Experiences Arg1:T29 Arg2:T33	
+R18	Causes Arg1:T34 Arg2:T6	
+R19	Overlap Arg1:T5 Arg2:T6	
+R20	Overlap Arg1:T6 Arg2:T33	
+R21	Location_of Arg1:T9 Arg2:T8	
+T41	Quantifier_or_Qualifier 602 617	simultáneamente
+#36	AnnotatorNotes T41	C0521115; Simultaneous; Temporal Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T41	
+R23	Experiences Arg1:T36 Arg2:T8	
+R24	Experiences Arg1:T36 Arg2:T37	
+T42	Quantifier_or_Qualifier 626 663	genotipos 16, 18, 31, 33, 45, 52 y 58
+R25	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T42	
+R26	Experiences Arg1:T38 Arg2:T12	
+R27	Location_of Arg1:T10 Arg2:T12	
+R28	Location_of Arg1:T20 Arg2:T13	
+R29	Experiences Arg1:T38 Arg2:T13	
+T43	CONC 792 801	inclusión
+#37	AnnotatorNotes T43	C1512693; Inclusion; Qualitative Concept
+R30	Overlap Arg1:T14 Arg2:T43	
+T44	Result_or_Value 846 858	< 200 cél/mL
+R31	Has_Result_or_Value Arg1:T15 Arg2:T44	
+#38	AnnotatorNotes T16	C0039215; CD4 Positive T Lymphocytes; Cell (?)
+R32	Causes Arg1:T22 Arg2:T21	
+R33	Causes Arg1:T39 Arg2:T21	
+R34	Overlap Arg1:T5 Arg2:T33	
+A5	Experiencer T38 Patient
+A6	Experiencer T36 Patient
+A7	Experiencer T24 Patient
+A8	Experiencer T27 Patient
+A9	Experiencer T29 Patient

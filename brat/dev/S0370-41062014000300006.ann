@@ -1,0 +1,304 @@
+T1	PROC 1 33	Evacuación del meconiointestinal
+T2	PROC 838 848	simulación
+#1	AnnotatorNotes T2	C0679083; Simulations; Research Activity (?)
+T3	DISO 73 99	prematuro de muy bajo peso
+#2	AnnotatorNotes T3	C0745272; INFANT PRETERM VERY LOW BIRTH WEIGHT; Finding
+T4	PROC 101 110	protocolo
+#3	AnnotatorNotes T4	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T5	PROC 1249 1263	oxígenoterapia
+#4	AnnotatorNotes T5	C0184633; Oxygen Therapy Care; Therapeutic or Preventive Procedure
+T6	DISO 184 201	extremo prematuro
+#5	AnnotatorNotes T6	C4055046; Extreme Preterm Birth; Finding
+T7	PROC 249 311	Estudios prospectivos, randomizados o con controles históricos
+T8	ANAT 1915 1928	intracraneana
+#6	AnnotatorNotes T8	C0524466; Intracranial; Body Location or Region
+T9	PROC 315 352	estimulación de evacuación de meconio
+T10	PROC 447 453	enemas
+#7	AnnotatorNotes T10	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T11	Observation 470 491	evacuación de meconio
+T12	PROC 552 600	Estudio controlado, aleatorizado y multicéntrico
+#8	AnnotatorNotes T12	C1096776; Multicenter Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T13	PROC 622 628	enemas
+#9	AnnotatorNotes T13	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T14	CHEM 657 666	glicerina
+#10	AnnotatorNotes T14	C0017861; glycerin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T15	CHEM 678 687	glicerina
+#11	AnnotatorNotes T15	C0017861; glycerin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T16	CHEM 729 738	glicerina
+#12	AnnotatorNotes T16	C0017861; glycerin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T17	LIVB 892 902	prematuros
+#13	AnnotatorNotes T17	C4048294; Preterm Infant; Age Group
+T18	DISO 985 1000	parto prematuro
+#14	AnnotatorNotes T18	C0022876; Premature Obstetric Labor; Pathologic Function | C0151526; Premature Birth; Pathologic Function
+T19	DISO 1002 1018	infección ovular
+#15	AnnotatorNotes T19	C3831078; Clinical Chorioamnionitis; Disease or Syndrome
+T20	DISO 1020 1054	síndrome hipertensivo del embarazo
+#16	AnnotatorNotes T20	C0852036; Pregnancy associated hypertension; Disease or Syndrome (?)
+T21	CHEM 1074 1093	sulfato de magnesio
+#17	AnnotatorNotes T21	C0024480; magnesium sulfate; Pharmacologic Substance · Inorganic Chemical
+T22	CHEM 1097 1108	corticoides
+#18	AnnotatorNotes T22	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T23	PROC 1121 1134	doppler fetal
+T24	PROC 1191 1210	evaluación de apgar
+#19	AnnotatorNotes T24	C2825532; Apgar Test; Diagnostic Procedure
+T25	PROC 1226 1246	ventilación asistida
+#20	AnnotatorNotes T25	C0554804; Assisted breathing; Therapeutic or Preventive Procedure
+T26	PROC 1345 1374	alimentación enteral completa
+T27	ANAT 1395 1402	meconio
+#21	AnnotatorNotes T27	C0025047; Meconium; Body Substance
+T28	PROC 1422 1442	nutrición parenteral
+#22	AnnotatorNotes T28	C0030547; Parenteral Nutrition; Therapeutic or Preventive Procedure | C0204706; Parenteral alimentation procedure; Therapeutic or Preventive Procedure | C1527385; Parenteral Feeding; Therapeutic or Preventive Procedure
+T29	ANAT 1487 1500	leche materna
+#23	AnnotatorNotes T29	C0026140; Milk, Human; Body Substance
+T30	LIVB 1514 1524	prematuros
+#24	AnnotatorNotes T30	C4048294; Preterm Infant; Age Group
+T31	DISO 1807 1813	sepsis
+#25	AnnotatorNotes T31	C0243026; Sepsis; Disease or Syndrome
+T32	PROC 1832 1843	hemocultivo
+#26	AnnotatorNotes T32	C0200949; Blood culture; Laboratory Procedure
+T33	DISO 1854 1873	hiperbilirrubinemia
+#27	AnnotatorNotes T33	C0020433; Hyperbilirubinemia; Disease or Syndrome
+T34	DISO 1875 1901	enterocolitis necrotizante
+#28	AnnotatorNotes T34	C0520459; Necrotizing Enterocolitis; Disease or Syndrome | C4082937; Necrotizing enterocolitis in fetus OR newborn; Disease or Syndrome
+T35	DISO 1904 1928	hemorragia intracraneana
+#29	AnnotatorNotes T35	C0151699; Intracranial Hemorrhage; Pathologic Function
+T36	PROC 1967 1973	enemas
+#30	AnnotatorNotes T36	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T37	CHEM 2000 2009	glicerina
+#31	AnnotatorNotes T37	C0017861; glycerin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T38	CHEM 1503 1524	fórmula de prematuros
+T39	ANAT 240 247	meconio
+#32	AnnotatorNotes T39	C0025047; Meconium; Body Substance
+T40	ANAT 345 352	meconio
+#33	AnnotatorNotes T40	C0025047; Meconium; Body Substance
+T41	ANAT 484 491	meconio
+#34	AnnotatorNotes T41	C0025047; Meconium; Body Substance
+T42	CHEM 632 652	solución fisiológica
+#35	AnnotatorNotes T42	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T43	CHEM 698 718	solución fisiológica
+#36	AnnotatorNotes T43	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T44	CHEM 749 769	solución fisiológica
+#37	AnnotatorNotes T44	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T45	PROC 1056 1070	administración
+#38	AnnotatorNotes T45	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T46	ANAT 1129 1134	fetal
+#39	AnnotatorNotes T46	C0015965; Fetus; Embryonic Structure | C1305737; Entire fetus; Anatomical Structure
+T47	CHEM 1977 1997	solución fisiológica
+#40	AnnotatorNotes T47	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T48	DISO 2099 2135	prematuros de muy bajo peso al nacer
+#41	AnnotatorNotes T48	C0745272; INFANT PRETERM VERY LOW BIRTH WEIGHT; Finding
+T49	ANAT 16 33	meconiointestinal
+T50	LIVB 291 311	controles históricos
+#42	AnnotatorNotes T50	C2986415; Historical Control Subject; Population Group
+T51	LIVB 532 541	Pacientes
+#43	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Form 632 640	solución
+#44	AnnotatorNotes T52	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T53	Dose 668 674	0,8 ml
+T54	Dose 690 694	3 ml
+T55	Form 698 706	solución
+#45	AnnotatorNotes T55	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T56	Dose 721 725	1 ml
+T57	Dose 741 745	5 ml
+T58	Form 749 757	solución
+#46	AnnotatorNotes T58	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T60	Duration 862 879	los primeras 96 h
+T63	PHYS 1046 1054	embarazo
+#47	AnnotatorNotes T63	C0032961; Pregnancy; Organism Function
+T64	Date 1109 1119	prenatales
+#48	AnnotatorNotes T64	C2828394; Prenatal (temporal qualifier); Temporal Concept
+T65	PHYS 1153 1158	parto
+#49	AnnotatorNotes T65	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T70	Duration 1451 1462	los 28 días
+T71	Frequency 1474 1483	semanales
+T72	LIVB 1547 1554	sujetos
+#50	AnnotatorNotes T72	C0681850; Study Subject; Group
+T77	Form 1977 1985	solución
+#51	AnnotatorNotes T77	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T85	PHYS 985 990	parto
+#52	AnnotatorNotes T85	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T87	PHYS 1312 1324	alimentación
+#53	AnnotatorNotes T87	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T88	PHYS 1345 1357	alimentación
+#54	AnnotatorNotes T88	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T89	PHYS 1422 1431	nutrición
+#55	AnnotatorNotes T89	C1442959; Nutrition function; Organism Function
+T62	Frequency 1713 1720	por día
+T59	LIVB 975 983	maternos
+#56	AnnotatorNotes T59	C0026591; Mother (person); Family Group
+T61	PHYS 1178 1189	gestacional
+#57	AnnotatorNotes T61	C0032961; Pregnancy; Organism Function
+T66	LIVB 73 82	prematuro
+#58	AnnotatorNotes T66	C4048294; Preterm Infant; Age Group
+T67	LIVB 192 201	prematuro
+#59	AnnotatorNotes T67	C4048294; Preterm Infant; Age Group
+T68	LIVB 2099 2109	prematuros
+#60	AnnotatorNotes T68	C4048294; Preterm Infant; Age Group
+T69	PHYS 2130 2135	nacer
+#61	AnnotatorNotes T69	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T73	PROC 1173 1189	edad gestacional
+#62	AnnotatorNotes T73	C4040272; Assessment of fetal gestational age; Health Care Activity
+T74	Route 1679 1686	enteral
+#63	AnnotatorNotes T74	C1522196; Enteral Route of Drug Administration; Functional Concept
+T75	Route 2088 2095	enteral
+#64	AnnotatorNotes T75	C1522196; Enteral Route of Drug Administration; Functional Concept
+T76	Route 1358 1365	enteral
+#65	AnnotatorNotes T76	C1522196; Enteral Route of Drug Administration; Functional Concept
+T78	Route 1432 1442	parenteral
+#66	AnnotatorNotes T78	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T79	Dose 1328 1338	100 ml//kg
+T80	Frequency 1338 1342	/día
+T81	Dose 1699 1712	100 ml por kg
+T82	PHYS 784 789	nacer
+#67	AnnotatorNotes T82	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T83	PHYS 915 925	nacimiento
+#68	AnnotatorNotes T83	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T84	PROC 907 911	peso
+#69	AnnotatorNotes T84	C2985231; Body Weight Measurement; Diagnostic Procedure
+T86	PROC 1166 1170	peso
+#70	AnnotatorNotes T86	C2985231; Body Weight Measurement; Diagnostic Procedure
+T90	PROC 776 780	peso
+#71	AnnotatorNotes T90	C2985231; Body Weight Measurement; Diagnostic Procedure
+T91	PROC 1444 1448	peso
+#72	AnnotatorNotes T91	C2985231; Body Weight Measurement; Diagnostic Procedure
+T92	Observation 47 69	tolerancia alimentaria
+#73	AnnotatorNotes T92	C1821263; Feeding tolerance; Finding
+T93	Observation 155 177	tolerancia alimentaria
+#74	AnnotatorNotes T93	C1821263; Feeding tolerance; Finding
+T94	Observation 507 529	tolerancia alimentaria
+#75	AnnotatorNotes T94	C1821263; Feeding tolerance; Finding
+T95	Observation 2065 2087	tolerancia alimentaria
+#76	AnnotatorNotes T95	C1821263; Feeding tolerance; Finding
+T96	Neg_cue 1580 1582	no
+T97	CONC 1595 1606	diferencias
+#77	AnnotatorNotes T97	C1705241; Delta (difference); Quantitative Concept
+T98	CONC 1299 1324	volúmenes de alimentación
+T99	CONC 1672 1678	aporte
+#78	AnnotatorNotes T99	C1512806; Intake; Functional Concept (?)
+T100	Neg_cue 1722 1729	Tampoco
+T101	CONC 1742 1753	diferencias
+#79	AnnotatorNotes T101	C1705241; Delta (difference); Quantitative Concept
+T102	Quantifier_or_Qualifier 1814 1821	tardías
+#80	AnnotatorNotes T102	C0205087; Late; Temporal Concept
+T103	Neg_cue 1828 1831	sin
+T104	Result_or_Value 1844 1852	positivo
+T105	Neg_cue 2050 2052	no
+T106	CONC 2053 2061	modifica
+T107	Observation 225 247	eliminación de meconio
+#81	AnnotatorNotes T107	C0426647; Finding of passage of meconium; Finding
+T108	Quantifier_or_Qualifier 218 224	precoz
+#82	AnnotatorNotes T108	C1279930; Precocious; Temporal Concept
+T109	Observation 1386 1402	eliminar meconio
+#83	AnnotatorNotes T109	C0426647; Finding of passage of meconium; Finding
+T110	Observation 331 352	evacuación de meconio
+#84	AnnotatorNotes T110	C0426647; Finding of passage of meconium; Finding
+T111	CONC 1464 1500	volúmenes semanales de leche materna
+A1	Population_data T66 Age
+A2	Population_data T67 Age
+A3	Population_data T68 Age
+R1	Experiences Arg1:T66 Arg2:T92
+R2	Experiences Arg1:T66 Arg2:T1
+R3	Experiences Arg1:T67 Arg2:T93
+R4	Experiences Arg1:T50 Arg2:T9
+R5	Causes Arg1:T10 Arg2:T11
+R6	Causes Arg1:T10 Arg2:T94
+R7	Used_for Arg1:T42 Arg2:T13
+R9	Has_Drug_Form Arg1:T42 Arg2:T52
+R10	Combined_with Arg1:T42 Arg2:T14
+R11	Has_Dose_or_Strength Arg1:T15 Arg2:T53
+R12	Combined_with Arg1:T15 Arg2:T43
+R13	Has_Drug_Form Arg1:T43 Arg2:T55
+R14	Has_Dose_or_Strength Arg1:T43 Arg2:T54
+R15	Has_Dose_or_Strength Arg1:T16 Arg2:T56
+R16	Combined_with Arg1:T16 Arg2:T44
+R17	Has_Drug_Form Arg1:T44 Arg2:T58
+R18	Has_Dose_or_Strength Arg1:T44 Arg2:T57
+R19	Overlap Arg1:T90 Arg2:T82
+R20	Has_Duration_or_Interval Arg1:T2 Arg2:T60
+R21	Has_Duration_or_Interval Arg1:T14 Arg2:T60
+R22	Overlap Arg1:T84 Arg2:T83
+R23	Experiences Arg1:T17 Arg2:T84
+R8	Experiences Arg1:T17 Arg2:T2
+R24	Experiences Arg1:T17 Arg2:T90
+R25	Experiences Arg1:T17 Arg2:T13
+R26	Experiences Arg1:T59 Arg2:T18
+R27	Experiences Arg1:T59 Arg2:T85
+R28	Experiences Arg1:T59 Arg2:T19
+R29	Experiences Arg1:T59 Arg2:T20
+R30	Experiences Arg1:T59 Arg2:T63
+R31	Experiences Arg1:T59 Arg2:T45
+R32	Used_for Arg1:T21 Arg2:T45
+R33	Used_for Arg1:T22 Arg2:T45
+R34	Overlap Arg1:T22 Arg2:T64
+R35	Experiences Arg1:T59 Arg2:T23
+R36	Has_Route_or_Mode Arg1:T26 Arg2:T76
+R37	Has_Route_or_Mode Arg1:T28 Arg2:T78
+R38	Overlap Arg1:T91 Arg2:T70
+R39	Experiences Arg1:T30 Arg2:T38
+R40	Experiences Arg1:T30 Arg2:T91
+R41	Experiences Arg1:T30 Arg2:T28
+R42	Experiences Arg1:T30 Arg2:T89
+R43	Experiences Arg1:T30 Arg2:T26
+R44	Experiences Arg1:T30 Arg2:T87
+R45	Experiences Arg1:T30 Arg2:T5
+R46	Experiences Arg1:T30 Arg2:T25
+R47	Experiences Arg1:T30 Arg2:T86
+R48	Experiences Arg1:T30 Arg2:T73
+R49	Experiences Arg1:T59 Arg2:T65
+R50	Experiences Arg1:T30 Arg2:T24
+A4	Assertion T97 Negated
+R51	Negation Arg1:T96 Arg2:T97
+A5	Assertion T101 Negated
+R52	Negation Arg1:T100 Arg2:T101
+R53	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T102
+A6	Assertion T104 Negated
+R54	Negation Arg1:T103 Arg2:T104
+R55	Has_Result_or_Value Arg1:T32 Arg2:T104
+R56	Location_of Arg1:T8 Arg2:T35
+R57	Used_for Arg1:T47 Arg2:T36
+R58	Has_Drug_Form Arg1:T47 Arg2:T77
+R59	Combined_with Arg1:T47 Arg2:T37
+A7	Assertion T106 Negated
+R60	Negation Arg1:T105 Arg2:T106
+R61	Experiences Arg1:T68 Arg2:T95
+R62	Experiences Arg1:T68 Arg2:T36
+R63	Experiences Arg1:T67 Arg2:T107
+R64	Has_Quantifier_or_Qualifier Arg1:T107 Arg2:T108
+R65	Overlap Arg1:T93 Arg2:T107
+R66	Experiences Arg1:T50 Arg2:T110	
+T112	Result_or_Value 1135 1143	alterado
+R67	Has_Result_or_Value Arg1:T23 Arg2:T112	
+#85	AnnotatorNotes T11	C0426647; Finding of passage of meconium; Finding
+R68	Before Arg1:T90 Arg2:T13	
+R69	Before Arg1:T90 Arg2:T2	
+R70	Experiences Arg1:T30 Arg2:T109	
+R71	Experiences Arg1:T30 Arg2:T88	
+R72	Experiences Arg1:T68 Arg2:T69	
+R73	Used_for Arg1:T15 Arg2:T13	
+R74	Used_for Arg1:T16 Arg2:T13	
+#86	AnnotatorNotes T104	C1446409; Positive; Finding
+#87	AnnotatorNotes T23	C0730369; Ultrasonic doppler for fetal heart sounds; Diagnostic Procedure 
+A8	Population_data T17 Age
+A9	Population_data T30 Age
+#88	AnnotatorNotes T106	C3242344; modify status; Functional Concept 
+R75	Experiences Arg1:T51 Arg2:T13	
+R76	Experiences Arg1:T51 Arg2:T90	
+R77	Experiences Arg1:T51 Arg2:T2	
+#89	AnnotatorNotes T112	C2826279; Abnormal Finding; Finding
+R78	Has_Dose_or_Strength Arg1:T98 Arg2:T79	
+R79	Has_Frequency Arg1:T98 Arg2:T80	
+R80	Has_Frequency Arg1:T111 Arg2:T71	
+R81	Has_Route_or_Mode Arg1:T99 Arg2:T74	
+R82	Experiences Arg1:T17 Arg2:T83	
+R83	Experiences Arg1:T17 Arg2:T82	
+R84	Experiences Arg1:T51 Arg2:T82	
+R85	Experiences Arg1:T51 Arg2:T83	
+A10	Experiencer T66 Patient
+A11	Experiencer T67 Patient
+A12	Experiencer T50 Patient
+A13	Experiencer T51 Patient
+A14	Experiencer T17 Patient
+A15	Experiencer T59 Family_member
+A16	Experiencer T72 Patient
+A17	Experiencer T68 Patient
+A18	Experiencer T30 Patient

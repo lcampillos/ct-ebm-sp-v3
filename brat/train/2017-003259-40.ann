@@ -1,0 +1,173 @@
+T1	PROC 57 68	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 75 88	Periodontitis
+#2	AnnotatorNotes T2	C0031099; Periodontitis; Disease or Syndrome
+T3	DISO 141 160	Artritis Reumatoide
+#3	AnnotatorNotes T3	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T4	PROC 162 190	Estudio clínico aleatorizado
+#4	AnnotatorNotes T4	C0206034; Clinical Trials, Randomized; Research Activity
+T5	DISO 213 232	Artritis reumatoide
+#5	AnnotatorNotes T5	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T6	DISO 242 255	periodontitis
+#6	AnnotatorNotes T6	C0031099; Periodontitis; Disease or Syndrome
+T7	DISO 281 300	Artritis Reumatoide
+#7	AnnotatorNotes T7	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T8	DISO 347 368	periodontitis crónica
+#8	AnnotatorNotes T8	C0266929; Chronic Periodontitis; Disease or Syndrome
+T9	DISO 506 508	AR
+#9	AnnotatorNotes T9	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T10	DISO 554 564	enfermedad
+#10	AnnotatorNotes T10	C0012634; Disease; Disease or Syndrome
+T11	PROC 586 589	VSG
+#11	AnnotatorNotes T11	C1176468; Erythrocyte sedimentation rate measurement; Laboratory Procedure [Velocidad de sedimentación glomerular]
+T12	DISO 640 661	periodontitis crónica
+#12	AnnotatorNotes T12	C0266929; Chronic Periodontitis; Disease or Syndrome
+T13	ANAT 725 732	dientes
+#13	AnnotatorNotes T13	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T14	PROC 761 798	Tratamiento periodontal no quirúrgico
+#14	AnnotatorNotes T14	C2193643; non-surgical periodontal service; Therapeutic or Preventive Procedure
+T15	PROC 829 862	Tratamiento quirúrgico bucodental
+T16	PROC 894 905	Tratamiento
+#15	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 947 958	Tratamiento
+#16	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	CHEM 970 984	ciclosporina-A
+T19	CHEM 986 1023	bloqueantes de los canales del calcio
+#17	AnnotatorNotes T19	C0006684; Calcium Channel Blockers; Pharmacologic Substance
+T20	CHEM 1030 1039	fenitoína
+#18	AnnotatorNotes T20	C0031507; phenytoin; Organic Chemical · Pharmacologic Substance
+T21	PROC 1060 1070	profilaxis
+#19	AnnotatorNotes T21	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T22	CHEM 1075 1086	antibiótico
+#20	AnnotatorNotes T22	C0003232; Antibiotics; Antibiotic
+T23	ANAT 1104 1108	oral
+#21	AnnotatorNotes T23	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T24	DISO 1126 1128	AR
+#22	AnnotatorNotes T24	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T25	ANAT 1162 1171	articular
+#23	AnnotatorNotes T25	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T26	CHEM 910 921	antibiótico
+#24	AnnotatorNotes T26	C0003232; Antibiotics; Antibiotic
+T27	PROC 602 605	PCR
+#25	AnnotatorNotes T27	C0201657; C-reactive protein measurement; Laboratory Procedure
+T28	ANAT 773 784	periodontal
+#26	AnnotatorNotes T28	C0031104; Periodontium; Tissue | C1284399; Entire periodontal tissues; Body Part, Organ, or Organ Component
+T29	PROC 1245 1269	consentimiento informado
+#27	AnnotatorNotes T29	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T30	ANAT 852 862	bucodental
+#28	AnnotatorNotes T30	C1456600; Mouth and Teeth; Body Location or Region
+T31	PROC 1097 1108	examen oral
+T32	Date 12 16	2017
+T33	LIVB 101 110	pacientes
+#29	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Duration 361 368	crónica
+#30	AnnotatorNotes T34	C0205191; chronic; Temporal Concept
+T35	LIVB 415 424	Pacientes
+#31	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Age 425 443	mayores de 18 años
+T37	Date 496 500	2010
+T38	LIVB 626 635	Pacientes
+#32	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Duration 654 661	crónica
+#33	AnnotatorNotes T39	C0205191; chronic; Temporal Concept
+T40	Date 699 703	2005
+T42	Duration 807 826	los 6 meses previos
+T43	Duration 871 891	los 12 meses previos
+T44	Duration 925 944	los 6 meses previos
+T46	LIVB 1112 1121	Pacientes
+#34	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	DEVI 1153 1181	recambio articular protésico
+#35	AnnotatorNotes T47	C1282212; Prosthetic joint component; Medical Device
+T48	LIVB 1185 1194	Pacientes
+#36	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+A1	Status T14 History_of
+A2	Status T15 History_of
+A3	Status T16 History_of
+A4	Status T26 History_of
+A5	Status T17 History_of
+A6	Status T18 History_of
+A7	Status T19 History_of
+A8	Status T20 History_of
+#37	AnnotatorNotes T31	C0376306; Oral Examination; Health Care Activity 
+R1	Experiences Arg1:T33 Arg2:T1	
+R2	Experiences Arg1:T33 Arg2:T2	
+T41	Quantifier_or_Qualifier 89 97	avanzada
+#38	AnnotatorNotes T41	C0205179; Advanced phase; Qualitative Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T41	
+T45	Quantifier_or_Qualifier 378 386	avanzada
+#39	AnnotatorNotes T45	C0205179; Advanced phase; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T45	
+R5	Has_Duration_or_Interval Arg1:T8 Arg2:T34	
+T49	Quantifier_or_Qualifier 673 681	avanzada
+#40	AnnotatorNotes T49	C0205179; Advanced phase; Qualitative Concept
+R6	Has_Duration_or_Interval Arg1:T12 Arg2:T39	
+R7	Experiences Arg1:T38 Arg2:T12	
+T50	Quantifier_or_Qualifier 662 670	moderada
+#41	AnnotatorNotes T50	C0205081; Moderate (severity modifier); Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T50	
+R9	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T49	
+R10	Has_Age Arg1:T35 Arg2:T36	
+R11	Experiences Arg1:T33 Arg2:T3	
+R12	Overlap Arg1:T5 Arg2:T6	
+R13	Overlap Arg1:T2 Arg2:T3	
+R14	Overlap Arg1:T7 Arg2:T8	
+T51	Quantifier_or_Qualifier 369 377	moderada
+#42	AnnotatorNotes T51	C0205081; Moderate (severity modifier); Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T51	
+T52	Quantifier_or_Qualifier 233 239	activa
+#43	AnnotatorNotes T52	C0679217; Active State; Idea or Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T52	
+R17	Location_of Arg1:T23 Arg2:T31	
+R18	Used_for Arg1:T22 Arg2:T21	
+R19	Before Arg1:T21 Arg2:T31	
+R20	Experiences Arg1:T46 Arg2:T24	
+R21	Location_of Arg1:T25 Arg2:T47	
+R22	Overlap Arg1:T24 Arg2:T47	
+R23	Experiences Arg1:T46 Arg2:T47	
+R24	Used_for Arg1:T26 Arg2:T16	
+R25	Overlap Arg1:T26 Arg2:T44	
+R26	Has_Duration_or_Interval Arg1:T15 Arg2:T43	
+R27	Location_of Arg1:T30 Arg2:T15	
+#44	AnnotatorNotes T18	C0010592; cyclosporine; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+R28	Used_for Arg1:T18 Arg2:T17	
+R29	Used_for Arg1:T19 Arg2:T17	
+R30	Used_for Arg1:T20 Arg2:T17	
+T53	Quantifier_or_Qualifier 717 724	8 o más
+R31	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T53	
+R32	Has_Duration_or_Interval Arg1:T14 Arg2:T42	
+T54	Result_or_Value 607 611	>5,1
+T55	CONC 595 600	DAS28
+#45	AnnotatorNotes T55	C2732493; Disease activity score 28 joint in rheumatoid arthritis; Intellectual Product
+R33	Has_Result_or_Value Arg1:T55 Arg2:T54	
+T56	CONC 578 584	DAS 28
+#46	AnnotatorNotes T56	C2732493; Disease activity score 28 joint in rheumatoid arthritis; Intellectual Product
+R34	Has_Result_or_Value Arg1:T56 Arg2:T54	
+T57	CONC 614 618	SDAI
+#47	AnnotatorNotes T57	C3869582; Simplified disease activity index; Intellectual Product
+T58	Result_or_Value 619 623	> 26
+R35	Has_Result_or_Value Arg1:T57 Arg2:T58	
+T59	CONC 460 495	criterios diagnósticos de ACR/EULAR
+R36	Overlap Arg1:T59 Arg2:T37	
+T60	Observation 525 547	alta actividad clínica
+T61	Observation 303 325	alta actividad clínica
+R37	Overlap Arg1:T7 Arg2:T61	
+R38	Overlap Arg1:T9 Arg2:T60	
+R39	Overlap Arg1:T10 Arg2:T60	
+R40	Overlap Arg1:T60 Arg2:T56	
+R41	Overlap Arg1:T60 Arg2:T55	
+R42	Overlap Arg1:T9 Arg2:T56	
+R43	Overlap Arg1:T9 Arg2:T55	
+R44	Overlap Arg1:T10 Arg2:T56	
+R45	Overlap Arg1:T10 Arg2:T55	
+T62	Observation 115 137	alta actividad clínica
+R46	Overlap Arg1:T62 Arg2:T3	
+R47	Experiences Arg1:T33 Arg2:T62	
+R48	Overlap Arg1:T2 Arg2:T62	
+R49	Overlap Arg1:T61 Arg2:T8	
+R50	Location_of Arg1:T28 Arg2:T14	
+#48	AnnotatorNotes T15	C0524861; Oral Surgical Procedures; Therapeutic or Preventive Procedure ( ['Oral surgical treatment']
+A9	Experiencer T33 Patient
+A10	Experiencer T35 Patient
+A11	Experiencer T38 Patient
+A12	Experiencer T46 Patient
+A13	Experiencer T48 Patient

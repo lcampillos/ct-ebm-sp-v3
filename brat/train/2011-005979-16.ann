@@ -1,0 +1,140 @@
+T1	Date 13 17	2011
+T2	LIVB 76 83	MUJERES
+#1	AnnotatorNotes T2	C0043210; Woman; Population Group
+T3	PHYS 144 153	GESTACIÓN
+#2	AnnotatorNotes T3	C0032961; Pregnancy; Organism Function
+T4	LIVB 215 224	PACIENTES
+#3	AnnotatorNotes T4	C0030705; Patients; Patient or Disabled Group
+T5	PHYS 280 289	GESTACIÓN
+#4	AnnotatorNotes T5	C0032961; Pregnancy; Organism Function
+T6	LIVB 363 372	Pacientes
+#5	AnnotatorNotes T6	C0030705; Patients; Patient or Disabled Group
+T7	Age 373 391	mayores de 18 años
+T8	LIVB 394 403	Pacientes
+#6	AnnotatorNotes T8	C0030705; Patients; Patient or Disabled Group
+T9	LIVB 436 445	Pacientes
+#7	AnnotatorNotes T9	C0030705; Patients; Patient or Disabled Group
+T10	PHYS 479 509	Gestaciones únicas o gemelares
+#8	AnnotatorNotes T10	C0341899; Single pregnancy; Organism Function + C0404839; Undiagnosed twin; Organism Function
+T12	PHYS 618 636	Gestaciones únicas
+#9	AnnotatorNotes T12	C0341899; Single pregnancy; Organism Function
+T13	Duration 812 823	los 10 días
+T14	Duration 879 886	crónica
+#10	AnnotatorNotes T14	C0205191; chronic; Temporal Concept
+T15	LIVB 927 936	Trillizos
+#11	AnnotatorNotes T15	C0041095; Triplet Multiple Birth; Family Group
+T16	PHYS 964 973	cognitiva
+#12	AnnotatorNotes T16	C0009240; Cognition; Mental Process
+T17	Neg_cue 978 984	impida
+T18	PHYS 988 999	comprensión
+#13	AnnotatorNotes T18	C0162340; Comprehension; Mental Process
+T19	PHYS 464 475	embarazadas
+#14	AnnotatorNotes T19	C0032961; Pregnancy; Organism Function
+T20	PROC 46 56	PREVENCIÓN
+#15	AnnotatorNotes T20	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T21	DISO 60 72	PREECLAMPSIA
+#16	AnnotatorNotes T21	C0032914; Pre-Eclampsia; Pathologic Function
+T22	PROC 87 98	OVODONACIÓN
+#17	AnnotatorNotes T22	C4053456; Egg Donation; Therapeutic or Preventive Procedure
+T23	CHEM 129 137	ASPIRINA
+#18	AnnotatorNotes T23	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T24	PROC 185 195	PREVENCIÓN
+#19	AnnotatorNotes T24	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T25	PROC 228 239	OVODONACIÓN
+#20	AnnotatorNotes T25	C4053456; Egg Donation; Therapeutic or Preventive Procedure
+T26	CHEM 270 273	AAS
+#21	AnnotatorNotes T26	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T27	DISO 322 334	PREECLAMPSIA
+#22	AnnotatorNotes T27	C0032914; Pre-Eclampsia; Pathologic Function
+T28	PROC 421 432	ovodonación
+#23	AnnotatorNotes T28	C4053456; Egg Donation; Therapeutic or Preventive Procedure
+T29	PROC 575 599	consentimiento informado
+#24	AnnotatorNotes T29	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T30	DISO 665 672	Alergia
+#25	AnnotatorNotes T30	C1527304; Allergic Reaction; Pathologic Function
+T31	CHEM 685 688	AAS
+#26	AnnotatorNotes T31	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T32	DISO 691 698	Alergia
+#27	AnnotatorNotes T32	C1527304; Allergic Reaction; Pathologic Function
+T33	CHEM 711 726	almidón de maíz
+#28	AnnotatorNotes T33	C1384515; corn starch; Organic Chemical; Pharmacologic Substance
+T34	DISO 742 756	úlcera péptica
+#29	AnnotatorNotes T34	C0030920; Peptic Ulcer; Disease or Syndrome
+T35	DISO 939 973	Patología psiquiátrica o cognitiva
+T36	CHEM 767 801	inhibidores de las prostaglandinas
+T37	DISO 869 923	patología crónica renal, tiroidea, hepática o cardíaca
+T38	PROC 1023 1047	consentimiento informado
+#30	AnnotatorNotes T38	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T39	ANAT 887 892	renal
+#31	AnnotatorNotes T39	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T40	ANAT 894 902	tiroidea
+#32	AnnotatorNotes T40	C0040132; Thyroid Gland; Body Part, Organ, or Organ Component | C1278878; Entire thyroid gland; Body Part, Organ, or Organ Component
+T41	ANAT 904 912	hepática
+#33	AnnotatorNotes T41	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T42	ANAT 915 923	cardíaca
+#34	AnnotatorNotes T42	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T43	PROC 111 125	ADMINISTRACIÓN
+#35	AnnotatorNotes T43	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T44	DISO 199 211	PREECLAMPSIA
+#36	AnnotatorNotes T44	C0032914; Pre-Eclampsia; Pathologic Function
+T45	PROC 252 266	ADMINISTRACIÓN
+#37	AnnotatorNotes T45	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+A1	Assertion T18 Negated
+A2	Status T30 History_of
+A3	Status T32 History_of
+A4	Status T34 History_of
+A5	Status T37 History_of
+#38	AnnotatorNotes T36	C0033529; Prostaglandin Antagonists; Pharmacologic Substance 
+R1	Negation Arg1:T17 Arg2:T18	
+R3	Before Arg1:T20 Arg2:T21	
+R4	Experiences Arg1:T2 Arg2:T20	
+R5	Experiences Arg1:T2 Arg2:T22	
+R6	Used_for Arg1:T23 Arg2:T43	
+R7	Overlap Arg1:T43 Arg2:T3	
+R8	Overlap Arg1:T21 Arg2:T3	
+R9	Before Arg1:T22 Arg2:T3	
+R10	Before Arg1:T22 Arg2:T21	
+R11	Experiences Arg1:T2 Arg2:T43	
+R12	Used_for Arg1:T26 Arg2:T45	
+R13	Overlap Arg1:T45 Arg2:T5	
+R14	Before Arg1:T25 Arg2:T5	
+R15	Experiences Arg1:T4 Arg2:T25	
+R16	Before Arg1:T25 Arg2:T44	
+R18	Experiences Arg1:T4 Arg2:T24	
+R19	Before Arg1:T24 Arg2:T44	
+R20	Experiences Arg1:T4 Arg2:T45	
+R21	Experiences Arg1:T4 Arg2:T5	
+R22	Experiences Arg1:T2 Arg2:T3	
+R23	Overlap Arg1:T44 Arg2:T5	
+R24	Has_Age Arg1:T6 Arg2:T7	
+R25	Experiences Arg1:T8 Arg2:T28	
+R26	Experiences Arg1:T9 Arg2:T19	
+T11	Observation 517 552	acepten las condiciones del estudio
+R27	Overlap Arg1:T11 Arg2:T29	
+R28	Causes Arg1:T31 Arg2:T30	
+R29	Causes Arg1:T33 Arg2:T32	
+R30	Overlap Arg1:T36 Arg2:T13	
+T46	CONC 835 853	inicio del estudio
+#39	AnnotatorNotes T46	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R31	Before Arg1:T36 Arg2:T46	
+R32	Has_Duration_or_Interval Arg1:T37 Arg2:T14	
+R33	Location_of Arg1:T39 Arg2:T37	
+R34	Location_of Arg1:T40 Arg2:T37	
+R35	Location_of Arg1:T41 Arg2:T37	
+R36	Location_of Arg1:T42 Arg2:T37	
+R38	Overlap Arg1:T18 Arg2:T38	
+#40	AnnotatorNotes T35	C0004936; Mental disorders; Mental or Behavioral Dysfunction | C0009241; Cognition Disorders; Mental or Behavioral Dysfunction
+R17	Experiences Arg1:T2 Arg2:T21	
+T47	Quantifier_or_Qualifier 154 162	TEMPRANA
+#41	AnnotatorNotes T47	C1279919; Early; Temporal Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T47	
+T48	Quantifier_or_Qualifier 290 298	TEMPRANA
+#42	AnnotatorNotes T48	C1279919; Early; Temporal Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T48	
+R41	Experiences Arg1:T4 Arg2:T44	
+A6	Experiencer T2 Patient
+A7	Experiencer T4 Patient
+A8	Experiencer T6 Patient
+A9	Experiencer T8 Patient
+A10	Experiencer T9 Patient
+A11	Experiencer T15 Family_member

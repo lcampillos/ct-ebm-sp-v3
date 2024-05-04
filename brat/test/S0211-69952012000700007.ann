@@ -1,0 +1,279 @@
+T1	PROC 1 36	Valoración del grado de coagulación
+T2	PROC 43 57	factor anti-Xa
+#1	AnnotatorNotes T2	C0427612; Anti factor Xa measurement; Laboratory Procedure
+T3	CHEM 98 106	heparina
+#2	AnnotatorNotes T3	C0019134; heparin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T4	CHEM 686 703	poliacrilonitrilo
+#3	AnnotatorNotes T4	C0071503; polyacrylonitrile; Biomedical or Dental Material
+T5	PROC 149 161	hemodiálisis
+#4	AnnotatorNotes T5	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T6	PROC 237 252	anticoagulación
+#5	AnnotatorNotes T6	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T7	PROC 257 269	prescripción
+#6	AnnotatorNotes T7	C0033080; Prescription procedure; Health Care Activity
+T8	PROC 440 483	estudio experimental aleatorizado y cruzado
+#7	AnnotatorNotes T8	C0206034; Clinical Trials, Randomized; Research Activity + C0150097; Cross-Over Studies; Research Activity
+T9	PROC 528 557	hemodiafiltración posdilución
+T10	PROC 599 614	anticoagulación
+#8	AnnotatorNotes T10	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T11	CHEM 628 639	nadroparina
+#9	AnnotatorNotes T11	C0206232; nadroparin; Organic Chemical · Pharmacologic Substance
+T12	CHEM 724 732	heparina
+#10	AnnotatorNotes T12	C0019134; heparin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T13	PROC 747 762	anticoagulación
+#11	AnnotatorNotes T13	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T14	PROC 2766 2780	consentimiento
+#12	AnnotatorNotes T14	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T15	PROC 969 983	factor anti-Xa
+#13	AnnotatorNotes T15	C0427612; Anti factor Xa measurement; Laboratory Procedure
+T16	CHEM 1059 1073	factor anti-Xa
+#14	AnnotatorNotes T16	C0443793; Anti factor Xa; Amino Acid, Peptide, or Protein · Immunologic Factor
+T17	CHEM 1550 1558	heparina
+#15	AnnotatorNotes T17	C0019134; heparin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T18	ANAT 1692 1698	venosa
+#16	AnnotatorNotes T18	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T19	PROC 1830 1871	tiempo de tromboplastina parcial activada
+#17	AnnotatorNotes T19	C0030605; Activated Partial Thromboplastin Time measurement; Laboratory Procedure
+T20	CHEM 1972 2003	heparina de bajo peso molecular
+#18	AnnotatorNotes T20	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance
+T21	CHEM 2022 2033	polisulfona
+#19	AnnotatorNotes T21	C0137909; polysulfone; Organic Chemical · Biomedical or Dental Material
+T22	PROC 2220 2234	factor anti-Xa
+#20	AnnotatorNotes T22	C0427612; Anti factor Xa measurement; Laboratory Procedure
+T23	CHEM 2288 2299	nadroparina
+#21	AnnotatorNotes T23	C0206232; nadroparin; Organic Chemical · Pharmacologic Substance
+T24	CHEM 2377 2388	polisulfona
+#22	AnnotatorNotes T24	C0137909; polysulfone; Organic Chemical · Biomedical or Dental Material
+T25	CHEM 579 590	polisulfona
+#23	AnnotatorNotes T25	C0137909; polysulfone; Organic Chemical · Biomedical or Dental Material
+T26	CHEM 2525 2536	polisulfona
+#24	AnnotatorNotes T26	C0137909; polysulfone; Organic Chemical · Biomedical or Dental Material
+T27	DISO 2634 2650	reacción adversa
+#25	AnnotatorNotes T27	C0559546; Adverse reactions; Pathologic Function
+T28	DISO 2669 2689	prurito generalizado
+#26	AnnotatorNotes T28	C0475858; Generalized pruritus; Sign or Symptom
+T29	PROC 2896 2925	hemodiafiltración posdilución
+T30	PROC 2943 2958	anticoagulación
+#27	AnnotatorNotes T30	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T31	CHEM 3078 3089	nadroparina
+#28	AnnotatorNotes T31	C0206232; nadroparin; Organic Chemical · Pharmacologic Substance
+T32	DISO 3112 3120	sangrado
+#29	AnnotatorNotes T32	C0019080; Hemorrhage; Pathologic Function
+T33	CHEM 3154 3168	factor anti-Xa
+#30	AnnotatorNotes T33	C0443793; Anti factor Xa; Amino Acid, Peptide, or Protein · Immunologic Factor
+T34	PROC 875 888	escala visual
+#31	AnnotatorNotes T34	C2959685; Assessment using visual analog scale; Health Care Activity
+T35	CHEM 1840 1854	tromboplastina
+#32	AnnotatorNotes T35	C0040048; Thromboplastin; Amino Acid, Peptide, or Protein · Immunologic Factor
+T36	PROC 1951 1965	administración
+#33	AnnotatorNotes T36	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T37	PROC 2270 2284	administración
+#34	AnnotatorNotes T37	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T38	PROC 2364 2372	diálisis
+#35	AnnotatorNotes T38	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T39	PROC 2512 2520	diálisis
+#36	AnnotatorNotes T39	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T40	DISO 3002 3024	eventos de coagulación
+T41	ANAT 1594 1602	arterial
+#37	AnnotatorNotes T41	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T42	CHEM 2151 2162	polisulfona
+#38	AnnotatorNotes T42	C0137909; polysulfone; Organic Chemical · Biomedical or Dental Material
+T43	PHYS 25 36	coagulación
+#39	AnnotatorNotes T43	C0005778; Blood coagulation; Organ or Tissue Function (?)
+T44	DEVI 75 85	dializador
+#40	AnnotatorNotes T44	C0180409; Dialyzers; Medical Device
+T47	LIVB 490 499	pacientes
+#41	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	DEVI 565 575	dializador
+#42	AnnotatorNotes T48	C0180409; Dialyzers; Medical Device
+T49	DEVI 664 674	dializador
+#43	AnnotatorNotes T49	C0180409; Dialyzers; Medical Device
+T50	Neg_cue 733 736	sin
+T51	Frequency 784 793	cada hora
+T52	PHYS 806 817	coagulación
+#44	AnnotatorNotes T52	C0005778; Blood coagulation; Organ or Tissue Function (?)
+T53	DEVI 822 832	dializador
+#45	AnnotatorNotes T53	C0180409; Dialyzers; Medical Device
+T55	PHYS 928 939	coagulación
+#46	AnnotatorNotes T55	C0005778; Blood coagulation; Organ or Tissue Function (?)
+T57	PHYS 1115 1126	coagulación
+#47	AnnotatorNotes T57	C0005778; Blood coagulation; Organ or Tissue Function (?)
+T58	Neg_cue 1169 1171	No
+T59	PHYS 1172 1182	se coaguló
+#48	AnnotatorNotes T59	C0005778; Blood coagulation; Organ or Tissue Function (?)
+T60	DEVI 1186 1196	dializador
+#49	AnnotatorNotes T60	C0180409; Dialyzers; Medical Device
+T62	DEVI 1275 1285	dializador
+#50	AnnotatorNotes T62	C0180409; Dialyzers; Medical Device
+T63	PHYS 1302 1313	coagulación
+#51	AnnotatorNotes T63	C0005778; Blood coagulation; Organ or Tissue Function (?)
+T64	DEVI 1326 1336	dializador
+#52	AnnotatorNotes T64	C0180409; Dialyzers; Medical Device
+T65	DEVI 1421 1431	dializador
+#53	AnnotatorNotes T65	C0180409; Dialyzers; Medical Device
+T66	DEVI 1535 1545	dializador
+#54	AnnotatorNotes T66	C0180409; Dialyzers; Medical Device
+T67	PHYS 1563 1574	coagulación
+#55	AnnotatorNotes T67	C0005778; Blood coagulation; Organ or Tissue Function (?)
+T72	DEVI 1730 1740	dializador
+#56	AnnotatorNotes T72	C0180409; Dialyzers; Medical Device
+T74	DEVI 1803 1815	dializadores
+#57	AnnotatorNotes T74	C0180409; Dialyzers; Medical Device
+T75	Duration 1895 1908	las dos horas
+T76	Duration 2246 2255	dos horas
+T77	DEVI 2329 2341	dializadores
+#58	AnnotatorNotes T77	C0180409; Dialyzers; Medical Device
+T82	Duration 2478 2489	las 4 horas
+T87	LIVB 2583 2591	paciente
+#59	AnnotatorNotes T87	C0030705; Patients; Patient or Disabled Group
+T88	Neg_cue 2596 2604	excluido
+T89	DEVI 2697 2707	dializador
+#60	AnnotatorNotes T89	C0180409; Dialyzers; Medical Device
+T90	DEVI 2835 2845	dializador
+#61	AnnotatorNotes T90	C0180409; Dialyzers; Medical Device
+T91	Neg_cue 2926 2929	sin
+T93	PHYS 3013 3024	coagulación
+#62	AnnotatorNotes T93	C0005778; Blood coagulation; Organ or Tissue Function (?)
+T94	DEVI 3053 3063	dializador
+#63	AnnotatorNotes T94	C0180409; Dialyzers; Medical Device
+T95	Spec_cue 3102 3111	riesgo de
+T97	PHYS 169 191	capacidad trombogénica
+#64	AnnotatorNotes T97	C0221145; Thrombopoiesis; Cell Function
+T45	DEVI 839 861	circuito extracorpóreo
+#65	AnnotatorNotes T45	C0457167; Extracorporeal circuit equipment; Medical Device
+T46	Duration 2005 2017	33,3 ± 2,7 s
+T54	Duration 2036 2048	27,5 ± 2,3 s
+T56	Duration 2134 2146	29,8 ± 2,1 s
+T61	Duration 2165 2177	27,2 ± 1,8 s
+T68	Neg_cue 2735 2741	retiró
+T69	PHYS 2815 2830	trombogenicidad
+#66	AnnotatorNotes T69	C0221145; Thrombopoiesis; Cell Function
+A1	Assertion T13 Negated
+A2	Assertion T59 Negated
+A3	Assertion T87 Negated
+A4	Assertion T14 Negated
+A5	Assertion T30 Negated
+A6	Assertion T32 Speculated
+R1	Negation Arg1:T88 Arg2:T87	
+R2	Negation Arg1:T91 Arg2:T30	
+T70	Neg_cue 2972 2975	sin
+T71	CONC 2976 2984	aumentar
+A7	Assertion T71 Negated
+#67	AnnotatorNotes T71	C0442805; Increase; Functional Concept
+R3	Negation Arg1:T70 Arg2:T71	
+R4	Negation Arg1:T58 Arg2:T59	
+T73	Neg_cue 1773 1776	sin
+T78	CONC 1777 1788	diferencias
+A8	Assertion T78 Negated
+#68	AnnotatorNotes T78	C0442805; Increase; Functional Concept
+R5	Negation Arg1:T73 Arg2:T78	
+R6	Negation Arg1:T50 Arg2:T13	
+T79	Neg_cue 3124 3126	no
+R7	Speculation Arg1:T95 Arg2:T32	
+T80	Observation 3127 3168	modificar la actividad del factor anti-Xa
+A9	Assertion T80 Negated
+R8	Negation Arg1:T79 Arg2:T80	
+T81	Quantifier_or_Qualifier 286 303	exenta de riesgos
+A10	Assertion T81 Negated
+R9	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T81	
+T83	Neg_cue 270 272	no
+R10	Negation Arg1:T83 Arg2:T81	
+T84	Neg_cue 1077 1088	ausencia de
+T85	CONC 1089 1100	diferencias
+A11	Assertion T85 Negated
+#69	AnnotatorNotes T85	C1705241; Delta (difference); Quantitative Concept
+T86	Neg_cue 1228 1235	ninguna
+T92	CONC 1246 1254	sesiones
+A12	Assertion T92 Negated
+#70	AnnotatorNotes T92	C1883017; Session; Conceptual Entity
+R11	Negation Arg1:T86 Arg2:T92	
+T96	Neg_cue 1644 1651	ninguna
+T98	CONC 1659 1667	sesiones
+A13	Assertion T98 Negated
+#71	AnnotatorNotes T98	C1883017; Session; Conceptual Entity
+R12	Negation Arg1:T96 Arg2:T98	
+T99	CONC 2756 2762	sesión
+#72	AnnotatorNotes T99	C1883017; Session; Conceptual Entity
+R13	Overlap Arg1:T14 Arg2:T99	
+T100	Quantifier_or_Qualifier 2748 2755	primera
+R14	Negation Arg1:T68 Arg2:T14	
+R15	Has_Quantifier_or_Qualifier Arg1:T99 Arg2:T100	
+T102	Quantifier_or_Qualifier 643 656	seis sesiones
+T103	Quantifier_or_Qualifier 511 524	seis sesiones
+R17	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T103	
+R16	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T102	
+R18	Used_for Arg1:T4 Arg2:T49	
+R19	Used_for Arg1:T48 Arg2:T9	
+R20	Used_for Arg1:T25 Arg2:T48	
+R24	Combined_with Arg1:T5 Arg2:T6	
+R26	Combined_with Arg1:T44 Arg2:T3	
+R27	Overlap Arg1:T2 Arg2:T44	
+R28	Overlap Arg1:T1 Arg2:T44	
+R29	Experiences Arg1:T47 Arg2:T9	
+R30	Used_for Arg1:T11 Arg2:T10	
+R31	Combined_with Arg1:T9 Arg2:T10	
+R32	Combined_with Arg1:T49 Arg2:T12	
+T101	Quantifier_or_Qualifier 763 772	sistémica
+A14	Assertion T101 Negated
+#73	AnnotatorNotes T101	C0205373; Systemic; Functional Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T101	
+R34	Negation Arg1:T50 Arg2:T101	
+R35	Experiences Arg1:T47 Arg2:T10	
+R36	Used_for Arg1:T49 Arg2:T9	
+R37	Experiences Arg1:T47 Arg2:T13	
+T104	PROC 774 783	Evaluamos
+#74	AnnotatorNotes T104	C1261322; Evaluation procedure; Health Care Activity
+R38	Has_Frequency Arg1:T104 Arg2:T51	
+R40	Has_Frequency Arg1:T34 Arg2:T51	
+R42	Has_Frequency Arg1:T15 Arg2:T51	
+R46	Negation Arg1:T84 Arg2:T85	
+R49	Overlap Arg1:T60 Arg2:T92	
+R50	Overlap Arg1:T59 Arg2:T92	
+R53	Combined_with Arg1:T66 Arg2:T17	
+R57	Overlap Arg1:T19 Arg2:T75	
+T106	CONC 1881 1892	diferencias
+#76	AnnotatorNotes T106	C1705241; Delta (difference); Quantitative Concept (?)
+R58	Overlap Arg1:T106 Arg2:T75	
+R59	Used_for Arg1:T20 Arg2:T36	
+R60	Has_Duration_or_Interval Arg1:T19 Arg2:T46	
+R61	Has_Duration_or_Interval Arg1:T19 Arg2:T54	
+R62	Has_Duration_or_Interval Arg1:T19 Arg2:T56	
+T107	CONC 2113 2132	finalizar la sesión
+R63	Overlap Arg1:T19 Arg2:T107	
+R64	Has_Duration_or_Interval Arg1:T19 Arg2:T61	
+R66	Overlap Arg1:T22 Arg2:T76	
+R67	After Arg1:T22 Arg2:T37	
+R68	Used_for Arg1:T23 Arg2:T37	
+R69	Used_for Arg1:T24 Arg2:T77	
+R70	Used_for Arg1:T77 Arg2:T38	
+R71	Used_for Arg1:T26 Arg2:T77	
+T108	CONC 2442 2454	descendiendo
+#77	AnnotatorNotes T108	C0547047; Decrease; Quantitative Concept
+R72	Overlap Arg1:T108 Arg2:T82	
+R74	Experiences Arg1:T87 Arg2:T27	
+R75	Experiences Arg1:T87 Arg2:T28	
+R76	Causes Arg1:T89 Arg2:T28	
+R77	Overlap Arg1:T27 Arg2:T99	
+R78	Overlap Arg1:T28 Arg2:T99	
+R79	Causes Arg1:T90 Arg2:T69	
+R80	Used_for Arg1:T90 Arg2:T29	
+R82	Before Arg1:T29 Arg2:T40	
+T109	Quantifier_or_Qualifier 3025 3030	grave
+#78	AnnotatorNotes T109	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R83	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T109	
+R84	Causes Arg1:T94 Arg2:T69	
+R85	Used_for Arg1:T94 Arg2:T29	
+R86	Before Arg1:T29 Arg2:T32	
+R87	Combined_with Arg1:T94 Arg2:T31	
+T110	Route 2959 2968	sistémica
+#79	AnnotatorNotes T110	C0205373; Systemic; Functional Concept
+A15	Assertion T110 Negated
+R88	Has_Route_or_Mode Arg1:T30 Arg2:T110	
+R89	Before Arg1:T29 Arg2:T80	
+R90	Causes Arg1:T89 Arg2:T27	
+R91	Experiences Arg1:T87 Arg2:T89	
+R21	Overlap Arg1:T62 Arg2:T92	
+#75	AnnotatorNotes T100	C0205435; First (number); Quantitative Concept
+R22	Used_for Arg1:T77 Arg2:T39	
+A16	Experiencer T47 Patient
+A17	Experiencer T87 Patient

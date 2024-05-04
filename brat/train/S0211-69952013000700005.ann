@@ -1,0 +1,100 @@
+T1	PROC 50 76	hemodiafiltración en línea
+T2	PROC 686 716	infusión posdilucional y mixta
+T3	PROC 125 142	hemodiafiltración
+#1	AnnotatorNotes T3	C0206075; Hemodiafiltration; Therapeutic or Preventive Procedure
+T4	PROC 144 147	HDF
+#2	AnnotatorNotes T4	C0206075; Hemodiafiltration; Therapeutic or Preventive Procedure
+T5	PROC 172 182	reinfusión
+#3	AnnotatorNotes T5	C0854643; Reinfusion; Therapeutic or Preventive Procedure
+T6	PROC 214 224	depuración
+#4	AnnotatorNotes T6	C4554548; Clearance procedure; Therapeutic or Preventive Procedure
+T7	DISO 236 244	urémicas
+#5	AnnotatorNotes T7	C0041948; Uremia; Disease or Syndrome
+T8	PROC 556 566	depuración
+#6	AnnotatorNotes T8	C4554548; Clearance procedure; Therapeutic or Preventive Procedure
+T9	PROC 660 672	HDF en línea
+T10	CHEM 610 619	proteínas
+#7	AnnotatorNotes T10	C0033684; Proteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T11	PROC 674 680	HDF-OL
+T12	PROC 759 802	Estudio prospectivo, aleatorizado y cruzado
+#8	AnnotatorNotes T12	C0033522; Prospective Studies; Research Activity + C0034656; Randomization; Research Activity + C0150097; Cross-Over Studies; Research Activity
+T13	PROC 815 821	HDF-OL
+T14	CHEM 570 588	moléculas pequeñas
+#9	AnnotatorNotes T14	C1328819; Small Molecule; Organic Chemical
+T15	PROC 1230 1250	HDF-OL posdilucional
+T16	PROC 1322 1335	se dializaron
+#10	AnnotatorNotes T16	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T17	CHEM 1703 1721	moléculas pequeñas
+#11	AnnotatorNotes T17	C1328819; Small Molecule; Organic Chemical
+T18	PROC 1453 1462	HDF mixta
+T19	PROC 1481 1498	HDF posdilucional
+T20	PROC 1633 1645	HDF-OL mixta
+T21	PROC 1689 1699	depuración
+#12	AnnotatorNotes T21	C4554548; Clearance procedure; Therapeutic or Preventive Procedure
+T22	CHEM 1752 1761	proteínas
+#13	AnnotatorNotes T22	C0033684; Proteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T23	CHEM 228 244	toxinas urémicas
+#14	AnnotatorNotes T23	C5544367; Uremic Toxins; Hazardous or Poisonous Substance
+T24	PROC 443 451	infusión
+#15	AnnotatorNotes T24	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T25	PROC 874 898	asignados aleatoriamente
+#16	AnnotatorNotes T25	C0034656; Randomization; Research Activity
+T26	PROC 1138 1146	infusión
+#17	AnnotatorNotes T26	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T27	PROC 1380 1388	diálisis
+#18	AnnotatorNotes T27	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T30	Route 686 694	infusión
+#19	AnnotatorNotes T30	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T31	LIVB 849 858	pacientes
+#20	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 1312 1321	pacientes
+#21	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T32	Duration 1500 1510	10,3 (7,4)
+T38	Duration 1520 1537	6,5 (3,1) minutos
+T28	Quantifier_or_Qualifier 78 83	mixta
+#22	AnnotatorNotes T28	C0205430; Mixed (qualifier value); Functional Concept
+T29	Quantifier_or_Qualifier 93 106	posdilucional
+T34	Quantifier_or_Qualifier 374 387	predilucional
+T35	Quantifier_or_Qualifier 389 394	mixta
+#23	AnnotatorNotes T35	C0205430; Mixed (qualifier value); Functional Concept
+T36	Quantifier_or_Qualifier 397 411	mid-dilucional
+T37	Quantifier_or_Qualifier 414 427	posdilucional
+T41	Quantifier_or_Qualifier 822 835	posdilucional
+T42	Quantifier_or_Qualifier 838 843	mixta
+#25	AnnotatorNotes T42	C0205430; Mixed (qualifier value); Functional Concept
+T44	CONC 1347 1357	diferencia
+#26	AnnotatorNotes T44	C1705241; Delta (difference); Quantitative Concept
+T45	CONC 1565 1576	diferencias
+#27	AnnotatorNotes T45	C1705241; Delta (difference); Quantitative Concept
+T46	Neg_cue 1550 1552	No
+T47	Neg_cue 1358 1369	desaparecía
+T51	Neg_cue 1646 1648	no
+T52	Quantifier_or_Qualifier 1652 1660	inferior
+T53	Quantifier_or_Qualifier 1666 1679	posdilucional
+T54	Quantifier_or_Qualifier 501 514	posdilucional
+T55	Quantifier_or_Qualifier 912 922	6 sesiones
+T56	Quantifier_or_Qualifier 954 965	89 sesiones
+T57	PROC 1633 1639;1666 1679	HDF-OL posdilucional
+R1	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T28
+R2	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T29
+R3	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T37
+R4	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T36
+R5	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T35
+R6	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T34
+R7	Has_Route_or_Mode Arg1:T2 Arg2:T30
+R10	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T42
+R11	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T41
+R12	Experiences Arg1:T33 Arg2:T16
+A1	Assertion T44 Negated
+A2	Assertion T45 Negated
+R13	Negation Arg1:T46 Arg2:T45
+R14	Negation Arg1:T47 Arg2:T44
+A3	Assertion T52 Negated
+R18	Negation Arg1:T51 Arg2:T52
+R19	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T52
+R21	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T54
+R22	Has_Route_or_Mode Arg1:T9 Arg2:T30
+R23	Experiences Arg1:T33 Arg2:T15
+#24	AnnotatorNotes T52	C1550463; Observation Interpretation - worse; Idea or Concept
+A4	Experiencer T31 Patient
+A5	Experiencer T33 Patient

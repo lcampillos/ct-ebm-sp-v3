@@ -1,0 +1,213 @@
+T1	PROC 38 56	prueba diagnóstica
+#1	AnnotatorNotes T1	C0430022; diagnostic procedure; Diagnostic Procedure | C0525034; Diagnostic Techniques and Procedures; Diagnostic Procedure
+T2	DISO 62 82	diabetes gestacional
+#2	AnnotatorNotes T2	C0085207; Gestational Diabetes; Disease or Syndrome
+T3	PROC 217 228	diagnóstico
+#3	AnnotatorNotes T3	C0011900; Diagnosis; Diagnostic Procedure
+T4	DISO 232 252	diabetes gestacional
+#4	AnnotatorNotes T4	C0085207; Gestational Diabetes; Disease or Syndrome
+T5	PROC 434 457	tolerancia a la glucosa
+#5	AnnotatorNotes T5	C0017741; Glucose tolerance test; Laboratory Procedure
+T6	PROC 483 541	Estudio observacional, retrospectivo, de casos y controles
+#6	AnnotatorNotes T6	C0007328; Case-Control Studies; Research Activity + C0035363; Retrospective Studies; Research Activity + C1518527; Observational Study; Research Activity
+T7	PROC 826 844	muestreo aleatorio
+#7	AnnotatorNotes T7	C0034656; Randomization; Research Activity
+T8	PROC 617 628	diagnóstico
+#8	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	DISO 632 652	diabetes gestacional
+#9	AnnotatorNotes T9	C0085207; Gestational Diabetes; Disease or Syndrome
+T10	PROC 725 748	tolerancia a la glucosa
+#10	AnnotatorNotes T10	C0017741; Glucose tolerance test; Laboratory Procedure
+T11	PROC 1149 1156	glucosa
+#11	AnnotatorNotes T11	C0337438; Glucose measurement; Laboratory Procedure
+T12	DISO 1222 1231	sobrepeso
+#12	AnnotatorNotes T12	C0497406; Overweight; Finding
+T13	DISO 1260 1268	obesidad
+#13	AnnotatorNotes T13	C0028754; Obesity; Disease or Syndrome
+T14	PROC 1418 1434	valor de glucosa
+#14	AnnotatorNotes T14	C0337438; Glucose measurement; Laboratory Procedure
+T15	DISO 1388 1408	diabetes gestacional
+#15	AnnotatorNotes T15	C0085207; Gestational Diabetes; Disease or Syndrome
+T16	CHEM 1427 1434	glucosa
+#16	AnnotatorNotes T16	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T17	CHEM 1655 1662	glucosa
+#17	AnnotatorNotes T17	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T18	PROC 1643 1671	valor de la glucosa en ayuno
+#18	AnnotatorNotes T18	C0202045; Glucose measurement, fasting; Laboratory Procedure | C0428568; Fasting blood glucose measurement; Laboratory Procedure
+T19	PROC 1683 1701	prueba diagnóstica
+#19	AnnotatorNotes T19	C0430022; diagnostic procedure; Diagnostic Procedure | C0525034; Diagnostic Techniques and Procedures; Diagnostic Procedure
+T20	DISO 1705 1725	diabetes gestacional
+#20	AnnotatorNotes T20	C0085207; Gestational Diabetes; Disease or Syndrome
+T21	DISO 1831 1840	sobrepeso
+#21	AnnotatorNotes T21	C0497406; Overweight; Finding
+T22	DISO 1843 1851	obesidad
+#22	AnnotatorNotes T22	C0028754; Obesity; Disease or Syndrome
+T23	PROC 15 32	glucemia en ayuno
+#23	AnnotatorNotes T23	C0202045; Glucose measurement, fasting; Laboratory Procedure | C0428568; Fasting blood glucose measurement; Laboratory Procedure
+T24	PROC 163 180	glucemia en ayuno
+#24	AnnotatorNotes T24	C0202045; Glucose measurement, fasting; Laboratory Procedure | C0428568; Fasting blood glucose measurement; Laboratory Procedure
+T25	PROC 376 382	prueba
+#25	AnnotatorNotes T25	C0681814; research study; Research Activity
+T26	CHEM 450 457	glucosa
+#26	AnnotatorNotes T26	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T27	CHEM 741 748	glucosa
+#27	AnnotatorNotes T27	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T28	PROC 924 930	prueba
+#28	AnnotatorNotes T28	C0681814; research study; Research Activity
+T29	PROC 1088 1105	glucemia en ayuno
+#29	AnnotatorNotes T29	C0202045; Glucose measurement, fasting; Laboratory Procedure | C0428568; Fasting blood glucose measurement; Laboratory Procedure
+T30	PROC 1278 1287	glucemias
+#30	AnnotatorNotes T30	C0392201; Blood glucose measurement; Laboratory Procedure
+T31	PROC 1511 1517	prueba
+#31	AnnotatorNotes T31	C0681814; research study; Research Activity
+T32	Date 91 110	el primer trimestre
+T33	PHYS 115 123	embarazo
+#32	AnnotatorNotes T33	C0032961; Pregnancy; Organism Function
+T34	Date 256 275	el primer trimestre
+T35	PHYS 280 288	embarazo
+#33	AnnotatorNotes T35	C0032961; Pregnancy; Organism Function
+T38	Date 555 559	2014
+T39	Date 562 566	2017
+T40	LIVB 603 612	pacientes
+#34	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Duration 671 690	las semanas 24 a 28
+T42	PHYS 694 702	embarazo
+#35	AnnotatorNotes T42	C0032961; Pregnancy; Organism Function
+T43	LIVB 766 779	grupo control
+#36	AnnotatorNotes T43	C0009932; Control Groups; Group
+T47	LIVB 1067 1076	pacientes
+#37	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T49	Date 1160 1179	el primer trimestre
+T50	PHYS 1184 1192	embarazo
+#38	AnnotatorNotes T50	C0032961; Pregnancy; Organism Function
+T51	LIVB 1246 1255	pacientes
+#39	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 1306 1319	grupo control
+#40	AnnotatorNotes T53	C0009932; Control Groups; Group
+T55	Date 1438 1457	el primer trimestre
+T58	Date 1734 1753	el primer trimestre
+T62	LIVB 1208 1217	pacientes
+#41	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T65	LIVB 1818 1826	paciente
+#42	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 532 541	controles
+#43	AnnotatorNotes T36	C0009932; Control Groups; Group
+T37	LIVB 524 529	casos
+#44	AnnotatorNotes T37	C2986530; Intervention Group; Population Group (?) | C5205743; Experimental Group; Population Group (?)
+T44	LIVB 574 588	grupo de casos
+#45	AnnotatorNotes T44	C2986530; Intervention Group; Population Group (?) | C5205743; Experimental Group; Population Group (?)
+T45	LIVB 1034 1048	grupo de casos
+#46	AnnotatorNotes T45	C2986530; Intervention Group; Population Group (?) | C5205743; Experimental Group; Population Group (?)
+T46	PHYS 71 82	gestacional
+#47	AnnotatorNotes T46	C0032961; Pregnancy; Organism Function
+T48	PHYS 241 252	gestacional
+#48	AnnotatorNotes T48	C0032961; Pregnancy; Organism Function
+T52	PHYS 641 652	gestacional
+#49	AnnotatorNotes T52	C0032961; Pregnancy; Organism Function
+T54	PHYS 1397 1408	gestacional
+#50	AnnotatorNotes T54	C0032961; Pregnancy; Organism Function
+T56	PHYS 1714 1725	gestacional
+#51	AnnotatorNotes T56	C0032961; Pregnancy; Organism Function
+R1	Overlap Arg1:T2 Arg2:T46	
+R2	Overlap Arg1:T2 Arg2:T32	
+R3	Overlap Arg1:T2 Arg2:T33	
+R4	Overlap Arg1:T23 Arg2:T32	
+R5	Overlap Arg1:T1 Arg2:T32	
+R6	Overlap Arg1:T4 Arg2:T35	
+R7	Overlap Arg1:T4 Arg2:T48	
+R8	Overlap Arg1:T4 Arg2:T34	
+R9	Overlap Arg1:T3 Arg2:T34	
+R10	Overlap Arg1:T24 Arg2:T34	
+T57	CONC 302 314	sensibilidad
+#52	AnnotatorNotes T57	C0439823; Sensibilities; Qualitative Concept 
+T59	CONC 316 329	especificidad
+#53	AnnotatorNotes T59	C0037791; Specificity; Quantitative Concept
+T60	CONC 331 367	valor predictivo positivo y negativo
+#54	AnnotatorNotes T60	C1514243; Positive Predictive Value; Quantitative Concept + C1513918; Negative Predictive Value of Diagnostic Test; Quantitative Concept
+T61	CONC 425 457	curva de tolerancia a la glucosa
+R11	After Arg1:T6 Arg2:T38	
+R12	Before Arg1:T6 Arg2:T39	
+R13	Experiences Arg1:T44 Arg2:T9	
+R14	Experiences Arg1:T40 Arg2:T9	
+R15	Overlap Arg1:T9 Arg2:T52	
+R16	Experiences Arg1:T40 Arg2:T52	
+R17	Experiences Arg1:T44 Arg2:T52	
+R18	Overlap Arg1:T9 Arg2:T41	
+R19	Has_Duration_or_Interval Arg1:T42 Arg2:T41	
+R20	Has_Duration_or_Interval Arg1:T52 Arg2:T41	
+T63	CONC 716 748	curva de tolerancia a la glucosa
+T64	Result_or_Value 784 802	resultado negativo
+#55	AnnotatorNotes T64	C0205160; Negative; Finding
+T66	CONC 809 814	curva
+R21	Has_Result_or_Value Arg1:T66 Arg2:T64	
+T67	CONC 945 957	sensibilidad
+#56	AnnotatorNotes T67	C0439823; Sensibilities; Qualitative Concept
+T68	CONC 959 972	especificidad
+#57	AnnotatorNotes T68	C0037791; Specificity; Quantitative Concept
+T69	CONC 974 1013	valores predictivos positivo y negativo
+#58	AnnotatorNotes T69	C1514243; Positive Predictive Value; Quantitative Concept + C1513918; Negative Predictive Value of Diagnostic Test; Quantitative Concept
+R22	Experiences Arg1:T47 Arg2:T29	
+R23	Experiences Arg1:T45 Arg2:T29	
+T70	Observation 1129 1156	valores normales de glucosa
+#59	AnnotatorNotes T70	C0860800; Glucose normal; Finding | C0522082; Normal glucose level; Finding
+R25	Experiences Arg1:T45 Arg2:T70	
+R26	Experiences Arg1:T47 Arg2:T70	
+R27	Experiences Arg1:T45 Arg2:T11	
+R28	Experiences Arg1:T47 Arg2:T11	
+R29	Overlap Arg1:T11 Arg2:T49	
+R30	Overlap Arg1:T70 Arg2:T49	
+R31	Overlap Arg1:T29 Arg2:T49	
+R32	Overlap Arg1:T50 Arg2:T49	
+R33	Experiences Arg1:T47 Arg2:T50	
+R34	Experiences Arg1:T45 Arg2:T50	
+R35	Experiences Arg1:T62 Arg2:T12	
+R36	Experiences Arg1:T51 Arg2:T13	
+R37	Experiences Arg1:T51 Arg2:T30	
+R38	Experiences Arg1:T62 Arg2:T30	
+R39	Overlap Arg1:T14 Arg2:T55	
+R40	Overlap Arg1:T54 Arg2:T55	
+R41	Overlap Arg1:T15 Arg2:T55	
+R42	Overlap Arg1:T35 Arg2:T34	
+R43	Overlap Arg1:T48 Arg2:T34	
+T71	CONC 1492 1504	sensibilidad
+#60	AnnotatorNotes T71	C0439823; Sensibilities; Qualitative Concept
+T72	CONC 1534 1547	especificidad
+#61	AnnotatorNotes T72	C0037791; Specificity; Quantitative Concept
+T73	CONC 1556 1581	Valor predictivo positivo
+#62	AnnotatorNotes T73	C1514243; Positive Predictive Value; Quantitative Concept
+T74	CONC 1591 1616	valor predictivo negativo
+#63	AnnotatorNotes T74	C1513918; Negative Predictive Value of Diagnostic Test; Quantitative Concept
+R44	Overlap Arg1:T20 Arg2:T56	
+R45	Overlap Arg1:T15 Arg2:T54	
+R46	Overlap Arg1:T20 Arg2:T58	
+R47	Overlap Arg1:T56 Arg2:T58	
+R48	Overlap Arg1:T19 Arg2:T58	
+R49	Overlap Arg1:T18 Arg2:T58	
+T75	CONC 1791 1804	especificidad
+#64	AnnotatorNotes T75	C0037791; Specificity; Quantitative Concept
+T76	CONC 1760 1772	sensibilidad
+#65	AnnotatorNotes T76	C0439823; Sensibilities; Qualitative Concept
+R50	Experiences Arg1:T65 Arg2:T21	
+R51	Experiences Arg1:T65 Arg2:T22	
+R52	Experiences Arg1:T65 Arg2:T18	
+R53	Experiences Arg1:T65 Arg2:T19	
+R54	Experiences Arg1:T65 Arg2:T20	
+R55	Before Arg1:T24 Arg2:T3	
+R56	Overlap Arg1:T9 Arg2:T42	
+R57	Experiences Arg1:T44 Arg2:T42	
+R58	Experiences Arg1:T40 Arg2:T42	
+R24	Experiences Arg1:T65 Arg2:T56	
+R59	Overlap Arg1:T20 Arg2:T21	
+R60	Overlap Arg1:T20 Arg2:T22	
+A1	Experiencer T65 Patient
+A2	Experiencer T53 Patient
+A3	Experiencer T62 Patient
+A4	Experiencer T51 Patient
+A5	Experiencer T47 Patient
+A6	Experiencer T45 Patient
+A7	Experiencer T43 Patient
+A8	Experiencer T40 Patient
+A9	Experiencer T44 Patient
+A10	Experiencer T36 Patient
+A11	Experiencer T37 Patient
+R61	Has_Result_or_Value Arg1:T11 Arg2:T70	

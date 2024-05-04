@@ -1,0 +1,412 @@
+T1	PROC 44 66	Estudio de la eficacia
+T3	DISO 130 172	miocardiopatía hipertrófica no obstructiva
+#2	AnnotatorNotes T3	C0340425; Hypertrophic cardiomyopathy without obstruction; Disease or Syndrome
+T4	PROC 1599 1619	suspender el fármaco
+#3	AnnotatorNotes T4	C0850893; stop medication; Therapeutic or Preventive Procedure
+T5	PROC 195 243	Estudio multicéntrico, aleatorizado, doble ciego
+T6	PROC 272 294	controlado con placebo
+#4	AnnotatorNotes T6	C1706408; Placebo Control; Research Activity
+T8	DISO 384 426	miocardiopatía hipertrófica no obstructiva
+#6	AnnotatorNotes T8	C0340425; Hypertrophic cardiomyopathy without obstruction; Disease or Syndrome
+T9	ANAT 941 961	Ventriculo Izquierdo
+#7	AnnotatorNotes T9	C0225897; Left ventricular structure; Body Part, Organ, or Organ Component | C1269892; Entire left ventricle; Body Part, Organ, or Organ Component
+T10	PROC 300 320	estudiar la eficacia
+#8	AnnotatorNotes T10	C1707887; Efficacy Study; Research Activity
+T11	DISO 428 446	MCH no obstructiva
+#9	AnnotatorNotes T11	C0340425; Hypertrophic cardiomyopathy without obstruction; Disease or Syndrome
+T12	DISO 471 513	miocardiopatía hipertrófica no obstructiva
+#10	AnnotatorNotes T12	C0340425; Hypertrophic cardiomyopathy without obstruction; Disease or Syndrome
+T13	ANAT 2413 2421	arterial
+#11	AnnotatorNotes T13	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T14	DISO 519 536	afección genética
+#12	AnnotatorNotes T14	C0019247; Hereditary Diseases; Disease or Syndrome
+T15	ANAT 551 558	corazón
+#13	AnnotatorNotes T15	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T16	DISO 585 627	miocardiopatía hipertrófica no obstructiva
+#14	AnnotatorNotes T16	C0340425; Hypertrophic cardiomyopathy without obstruction; Disease or Syndrome
+T17	PROC 656 667	Diagnóstico
+#15	AnnotatorNotes T17	C0011900; Diagnosis; Diagnostic Procedure
+T18	DISO 671 698	miocardiopatía hipertrófica
+#16	AnnotatorNotes T18	C0007194; Hypertrophic Cardiomyopathy; Disease or Syndrome
+T19	ANAT 700 720	ventrículo izquierdo
+#17	AnnotatorNotes T19	C0225897; Left ventricular structure; Body Part, Organ, or Organ Component | C1269892; Entire left ventricle; Body Part, Organ, or Organ Component
+T20	DISO 700 734	ventrículo izquierdo hipertrofiado
+#18	AnnotatorNotes T20	C0149721; Left Ventricular Hypertrophy; Disease or Syndrome
+T21	ANAT 799 826	pared ventricular izquierda
+#19	AnnotatorNotes T21	C0504053; Wall of left ventricle; Body Part, Organ, or Organ Component
+T22	PROC 852 866	ecocardiograma
+#20	AnnotatorNotes T22	C0013516; Echocardiography; Diagnostic Procedure
+T23	PROC 916 961	Fracción de Eyección del Ventriculo Izquierdo
+#21	AnnotatorNotes T23	C2700377; Measurement of Left Ventricular Ejection Fraction; Diagnostic Procedure
+T24	PROC 987 1001	ecocardiograma
+#22	AnnotatorNotes T24	C0013516; Echocardiography; Diagnostic Procedure
+T25	DISO 1052 1060	Síntomas
+#23	AnnotatorNotes T25	C1457887; Symptoms; Sign or Symptom
+T26	DISO 1081 1103	insuficiencia cardíaca
+#24	AnnotatorNotes T26	C0018801; Heart failure; Disease or Syndrome
+T27	PROC 1166 1187	evaluación del médico
+#25	AnnotatorNotes T27	C1444287; Physician status report assessment; Health Care Activity | C1444281; Physician contact assessment; Health Care Activity
+T28	DISO 1201 1214	asintomáticos
+#26	AnnotatorNotes T28	C0231221; Asymptomatic; Finding
+T29	PROC 1241 1250	NT-proBNP
+#27	AnnotatorNotes T29	C1533071; N terminal pro-brain natriuretic peptide level; Laboratory Procedure
+T30	ANAT 1769 1775	septal
+T31	PROC 1500 1523	métodos anticonceptivos
+#28	AnnotatorNotes T31	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T32	CHEM 1612 1619	fármaco
+#29	AnnotatorNotes T32	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T33	PROC 963 967	FEVI
+#30	AnnotatorNotes T33	C2114363; left ventricular ejection fraction assessment; Therapeutic or Preventive Procedure
+T34	ANAT 1666 1707	tracto de salida del ventrículo izquierdo
+#31	AnnotatorNotes T34	C0225912; Outflow tract of left ventricle; Body Part, Organ, or Organ Component
+T35	PROC 1759 1775	reducción septal
+T36	DISO 1857 1878	fibrilación auricular
+#32	AnnotatorNotes T36	C0004238; Atrial Fibrillation; Disease or Syndrome
+T37	PROC 1904 1925	prevención secundaria
+#33	AnnotatorNotes T37	C0679699; Secondary Prevention; Therapeutic or Preventive Procedure
+T38	PROC 1881 1898	colocación de ICD
+#34	AnnotatorNotes T38	C2825184; Implantable Cardioverter-Defibrillator Placement; Therapeutic or Preventive Procedure
+T39	PROC 1961 1994	prueba de esfuerzo cardiopulmonar
+T40	ANAT 1980 1994	cardiopulmonar
+#35	AnnotatorNotes T40	C0553534; Cardiopulmonary; Body Location or Region
+T41	PROC 2092 2103	tratamiento
+#36	AnnotatorNotes T41	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T42	CHEM 2108 2129	inhibidores de la ECA
+#37	AnnotatorNotes T42	C0003015; Angiotensin-Converting Enzyme Inhibitors; Pharmacologic Substance
+T43	CHEM 2191 2215	inhibidores de la renina
+T44	CHEM 2593 2598	ARAII
+#38	AnnotatorNotes T44	C0521942; Angiotensin II receptor antagonist; Pharmacologic Substance
+T45	DISO 2219 2256	Trastorno infiltrativo o por depósito
+T46	DISO 2262 2281	enfermedad de Fabry
+#39	AnnotatorNotes T46	C0002986; Fabry Disease; Disease or Syndrome
+T47	DISO 2285 2296	amiloidosis
+#40	AnnotatorNotes T47	C0002726; Amyloidosis; Disease or Syndrome | C0011560; Amyloid deposition; Disease or Syndrom
+T48	DISO 2299 2335	Enfermedades coronarias sintomáticas
+T49	DISO 2375 2395	infarto de miocardio
+#41	AnnotatorNotes T49	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T50	DISO 2444 2467	hipotensión sintomática
+#42	AnnotatorNotes T50	C0863113; Hypotension symptomatic; Pathologic Function
+T51	PROC 2522 2533	tratamiento
+#43	AnnotatorNotes T51	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T52	DISO 2618 2628	angioedema
+#44	AnnotatorNotes T52	C0002994; Angioedema; Pathologic Function
+T53	DISO 2632 2644	Hipertensión
+#45	AnnotatorNotes T53	C0020538; Hypertensive disease; Disease or Syndrome
+T54	PROC 2747 2756	protocolo
+#46	AnnotatorNotes T54	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T55	CHEM 70 91	sacubitrilo/valsartán
+#47	AnnotatorNotes T55	C4033631; sacubitril / valsartan; Pharmacologic Substance
+T56	CHEM 324 345	sacubitrilo/valsartán
+#48	AnnotatorNotes T56	C4033631; sacubitril / valsartan; Pharmacologic Substance
+T57	ANAT 1095 1103	cardíaca
+#49	AnnotatorNotes T57	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T58	ANAT 1869 1878	auricular
+#50	AnnotatorNotes T58	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T59	CHEM 2131 2180	antagonistas de los receptores de la angiotensina
+#51	AnnotatorNotes T59	C0815017; Angiotensin Receptor Antagonists; Pharmacologic Substance
+T60	CHEM 2182 2187	ARAII
+#52	AnnotatorNotes T60	C0521942; Angiotensin II receptor antagonist; Pharmacologic Substance
+T61	ANAT 2312 2322	coronarias
+#53	AnnotatorNotes T61	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T62	ANAT 2386 2395	miocardio
+#54	AnnotatorNotes T62	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T63	PROC 2405 2431	Presión arterial sistólica
+#55	AnnotatorNotes T63	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T64	PROC 2575 2589	administración
+#56	AnnotatorNotes T64	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T65	Date 12 16	2019
+T66	Route 96 104	vía oral
+#57	AnnotatorNotes T66	C1527415; Oral Route of Drug administration; Functional Concept
+T67	LIVB 108 125	pacientes adultos
+#58	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T70	LIVB 245 253	paciente
+#59	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T71	LIVB 256 268	investigador
+#60	AnnotatorNotes T71	C0035173; Research Personnel; Professional or Occupational Group
+T72	Route 350 358	vía oral
+#61	AnnotatorNotes T72	C1527415; Oral Route of Drug administration; Functional Concept
+T73	LIVB 362 379	pacientes adultos
+#62	AnnotatorNotes T73	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T78	GENE 528 536	genética
+#63	AnnotatorNotes T78	C0017337; Genes; Gene or Genome
+T83	LIVB 1191 1200	pacientes
+#64	AnnotatorNotes T83	C0030705; Patients; Patient or Disabled Group
+T84	LIVB 1366 1388	Mujeres en edad fértil
+#65	AnnotatorNotes T84	C4324275; Woman of childbearing potential; Population Group
+T85	LIVB 1415 1422	mujeres
+#66	AnnotatorNotes T85	C0043210; Woman; Population Group
+T86	LIVB 1635 1644	Pacientes
+#67	AnnotatorNotes T86	C0030705; Patients; Patient or Disabled Group
+T87	Duration 1784 1795	los 3 meses
+T88	LIVB 1929 1938	Pacientes
+#68	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group
+T89	LIVB 2068 2077	Pacientes
+#69	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T90	Spec_cue 2348 2359	sospechadas
+T94	PHYS 928 961	Eyección del Ventriculo Izquierdo
+#70	AnnotatorNotes T94	C2733342; Left ventricular ejection; Physiologic Function
+T95	PHYS 1458 1469	embarazadas
+#71	AnnotatorNotes T95	C0033011; Pregnant Women; Population Group
+T68	Duration 1578 1587	>/=7 días
+T69	Age 1377 1388	edad fértil
+T74	Date 2537 2549	preinclusión
+T76	PROC 1126 1152	New York Heart Association
+#72	AnnotatorNotes T76	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T77	PROC 1154 1158	NYHA
+#73	AnnotatorNotes T77	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T79	PROC 1229 1233	NYHA
+#74	AnnotatorNotes T79	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T75	DEVI 1895 1898	ICD
+#75	AnnotatorNotes T75	C0162589; Implantable Cardioverter-Defibrillator; Medical Device
+T80	LIVB 1181 1187	médico
+#76	AnnotatorNotes T80	C0031831; Physicians; Professional or Occupational Group
+T81	PROC 1280 1283	VO2
+#77	AnnotatorNotes T81	C1305742; Oxygen consumption measurement; Diagnostic Procedure
+T82	PROC 1946 1949	VO2
+#78	AnnotatorNotes T82	C1305742; Oxygen consumption measurement; Diagnostic Procedure
+T91	PROC 1812 1831	visita de selección
+#79	AnnotatorNotes T91	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T92	Quantifier_or_Qualifier 1832 1837	basal
+A1	Population_data T67 Age
+A2	Population_data T73 Age
+A3	Assertion T48 Speculated
+A4	Assertion T28 Negated
+A5	Population_data T84 Age
+A6	Status T35 History_of
+A8	Status T36 History_of
+A9	Status T38 History_of
+A10	Status T48 History_of
+A11	Status T49 History_of
+A12	Assertion T64 Contraindicated
+A13	Assertion T44 Contraindicated
+A14	Status T52 History_of
+#81	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#82	AnnotatorNotes T5	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#83	AnnotatorNotes T35	C3693513; septal reduction therapy; Therapeutic or Preventive Procedure 
+#84	AnnotatorNotes T30	C0598032; septal area; Body Location or Region 
+#85	AnnotatorNotes T39	C2959886; Cardiopulmonary Exercise Test; Diagnostic Procedure
+#86	AnnotatorNotes T43	C3653375; Renin-inhibitors; Pharmacologic Substance 
+T93	PROC 1812 1818	visita
+#80	AnnotatorNotes T93	C1512346; Patient Visit; Health Care Activity
+T96	Neg_cue 2645 2647	no
+T97	Quantifier_or_Qualifier 2648 2658	controlada
+A7	Assertion T97 Negated
+T98	Observation 740 748	dilatado
+A15	Assertion T98 Negated
+#87	AnnotatorNotes T98	C0700124; Dilated; Finding
+T99	Neg_cue 737 739	no
+T100	Observation 161 172	obstructiva
+A16	Assertion T100 Negated
+T101	Neg_cue 158 160	no
+T102	Neg_cue 432 434	no
+T103	Neg_cue 412 414	no
+T104	Observation 415 426	obstructiva
+A17	Assertion T104 Negated
+T105	Observation 435 446	obstructiva
+A18	Assertion T105 Negated
+T106	Neg_cue 499 501	no
+T107	Observation 502 513	obstructiva
+A19	Assertion T107 Negated
+T108	Observation 616 627	obstructiva
+A20	Assertion T108 Negated
+T109	Neg_cue 613 615	no
+T110	CONC 753 758	causa
+A21	Assertion T110 Negated
+#88	AnnotatorNotes T110	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+T111	Neg_cue 749 752	sin
+R1	Negation Arg1:T101 Arg2:T100	
+R2	Negation Arg1:T103 Arg2:T104	
+R3	Negation Arg1:T102 Arg2:T105	
+R4	Negation Arg1:T106 Arg2:T107	
+R5	Negation Arg1:T109 Arg2:T108	
+R6	Negation Arg1:T99 Arg2:T98	
+R7	Negation Arg1:T111 Arg2:T110	
+R8	Speculation Arg1:T90 Arg2:T48	
+R9	Negation Arg1:T96 Arg2:T97	
+T112	Spec_cue 2671 2680	Se pueden
+T113	Quantifier_or_Qualifier 2689 2694	otros
+A22	Assertion T113 Speculated
+T114	CONC 2695 2717	criterios de inclusión
+A23	Assertion T114 Speculated
+#89	AnnotatorNotes T114	C1512693; Inclusion Criteria; Qualitative Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T114 Arg2:T113	
+R11	Speculation Arg1:T112 Arg2:T113	
+R12	Speculation Arg1:T112 Arg2:T114	
+T115	CONC 2720 2729	exclusión
+A24	Assertion T115 Speculated
+#90	AnnotatorNotes T115	C0680251; Exclusion Criteria; Functional Concept
+R13	Speculation Arg1:T112 Arg2:T115	
+R15	Has_Route_or_Mode Arg1:T55 Arg2:T66	
+R16	Experiences Arg1:T67 Arg2:T55	
+R18	Experiences Arg1:T67 Arg2:T3	
+R20	Has_Route_or_Mode Arg1:T56 Arg2:T72	
+R21	Experiences Arg1:T73 Arg2:T56	
+R23	Experiences Arg1:T73 Arg2:T8	
+R24	Experiences Arg1:T73 Arg2:T11	
+R25	Experiences Arg1:T70 Arg2:T56	
+R27	Experiences Arg1:T70 Arg2:T8	
+R28	Experiences Arg1:T70 Arg2:T11	
+R29	Location_of Arg1:T15 Arg2:T14	
+R30	Location_of Arg1:T15 Arg2:T12	
+R31	Location_of Arg1:T19 Arg2:T20	
+R32	Location_of Arg1:T19 Arg2:T98	
+T116	Quantifier_or_Qualifier 759 768	sistémica
+A25	Assertion T116 Negated
+#91	AnnotatorNotes T116	C0205373; Systemic; Functional Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T110 Arg2:T116	
+R34	Negation Arg1:T111 Arg2:T116	
+T117	Result_or_Value 830 839	>/= 13 mm
+T118	Observation 786 826	grosor de la pared ventricular izquierda
+#92	AnnotatorNotes T118	C2024242; cardiac evaluation of ventricular wall thickness; Finding (?)
+R35	Has_Result_or_Value Arg1:T118 Arg2:T117	
+R36	Location_of Arg1:T21 Arg2:T118	
+T119	PROC 1033 1042	selección
+#93	AnnotatorNotes T119	C0242802; Patient Selection; Research Activity
+T120	PROC 898 907	selección
+#94	AnnotatorNotes T120	C0242802; Patient Selection; Research Activity
+R37	Overlap Arg1:T22 Arg2:T120	
+R38	Overlap Arg1:T24 Arg2:T119	
+T121	Quantifier_or_Qualifier 908 913	basal
+#95	AnnotatorNotes T121	C1442488; Baseline; Quantitative Concept
+T122	Quantifier_or_Qualifier 1043 1048	basal
+#96	AnnotatorNotes T122	C1442488; Baseline; Quantitative Concept
+T123	Result_or_Value 973 980	>/=50 %
+R39	Has_Result_or_Value Arg1:T33 Arg2:T123	
+R40	Has_Result_or_Value Arg1:T23 Arg2:T123	
+R41	Location_of Arg1:T9 Arg2:T23	
+R42	Location_of Arg1:T9 Arg2:T94	
+R43	Overlap Arg1:T33 Arg2:T119	
+R44	Overlap Arg1:T23 Arg2:T119	
+R45	Causes Arg1:T26 Arg2:T25	
+R46	Location_of Arg1:T57 Arg2:T26	
+T124	Result_or_Value 1107 1119	clase II-III
+R47	Has_Result_or_Value Arg1:T76 Arg2:T124	
+R48	Has_Result_or_Value Arg1:T77 Arg2:T124	
+R50	Experiences Arg1:T83 Arg2:T28	
+R51	Experiences Arg1:T83 Arg2:T26	
+R52	Experiences Arg1:T83 Arg2:T25	
+T125	Result_or_Value 1215 1222	clase I
+R53	Has_Result_or_Value Arg1:T79 Arg2:T125	
+R54	Experiences Arg1:T83 Arg2:T77	
+R55	Experiences Arg1:T83 Arg2:T76	
+R56	Experiences Arg1:T83 Arg2:T79	
+T126	Result_or_Value 1251 1274	por encima de 250 pg/ml
+R57	Has_Result_or_Value Arg1:T29 Arg2:T126	
+T127	Result_or_Value 1289 1312	<80 % del valor teórico
+R58	Has_Result_or_Value Arg1:T81 Arg2:T127	
+R59	Has_Age Arg1:T84 Arg2:T69	
+R60	Experiences Arg1:T85 Arg2:T95	
+R61	Has_Duration_or_Interval Arg1:T31 Arg2:T68	
+R62	After Arg1:T31 Arg2:T4	
+R63	Used_for Arg1:T32 Arg2:T4	
+R64	Experiences Arg1:T84 Arg2:T31	
+R65	Experiences Arg1:T84 Arg2:T4	
+R66	Experiences Arg1:T85 Arg2:T31	
+R67	Experiences Arg1:T84 Arg2:T95	
+R68	Experiences Arg1:T85 Arg2:T4	
+T128	PROC 1652 1707	gradiente del tracto de salida del ventrículo izquierdo
+T129	Result_or_Value 1731 1739	>30 mmHg
+R69	Has_Result_or_Value Arg1:T128 Arg2:T129	
+T130	Quantifier_or_Qualifier 1708 1717	en reposo
+R70	Has_Quantifier_or_Qualifier Arg1:T128 Arg2:T130	
+T131	Quantifier_or_Qualifier 1720 1730	provocable
+R71	Has_Quantifier_or_Qualifier Arg1:T128 Arg2:T131	
+R73	Location_of Arg1:T30 Arg2:T35	
+R74	Overlap Arg1:T35 Arg2:T87	
+R75	Before Arg1:T35 Arg2:T91	
+R76	Has_Quantifier_or_Qualifier Arg1:T93 Arg2:T92	
+R77	Before Arg1:T35 Arg2:T93	
+R78	Location_of Arg1:T58 Arg2:T36	
+R79	Used_for Arg1:T75 Arg2:T38	
+R80	Experiences Arg1:T88 Arg2:T82	
+T132	Observation 1280 1288	VO2 pico
+T133	Observation 1946 1954	VO2 pico
+R83	Location_of Arg1:T40 Arg2:T39	
+R84	Experiences Arg1:T88 Arg2:T39	
+T134	Result_or_Value 2017 2040	>80 % del valor teórico
+R85	Has_Result_or_Value Arg1:T82 Arg2:T134	
+T135	PROC 2001 2010	selección
+#97	AnnotatorNotes T135	C1710477; Trial Screening; Research Activity 
+R86	Overlap Arg1:T39 Arg2:T135	
+#98	AnnotatorNotes T92	C1442488; Baseline; Quantitative Concept
+T136	Quantifier_or_Qualifier 2011 2016	basal
+#99	AnnotatorNotes T136	C1442488; Baseline; Quantitative Concept
+R88	Experiences Arg1:T89 Arg2:T41	
+R89	Used_for Arg1:T42 Arg2:T41	
+R90	Used_for Arg1:T59 Arg2:T41	
+R91	Used_for Arg1:T60 Arg2:T41	
+R92	Used_for Arg1:T43 Arg2:T41	
+R93	Location_of Arg1:T61 Arg2:T48	
+R94	Location_of Arg1:T13 Arg2:T63	
+T137	Result_or_Value 2432 2441	<100 mmHg
+R95	Has_Result_or_Value Arg1:T63 Arg2:T137	
+T138	PROC 2490 2499	selección
+#100	AnnotatorNotes T138	C1710477; Trial Screening; Research Activity
+T139	Quantifier_or_Qualifier 2500 2505	basal
+#101	AnnotatorNotes T139	C1442488; Baseline; Quantitative Concept
+R96	Overlap Arg1:T50 Arg2:T138	
+R97	Overlap Arg1:T63 Arg2:T138	
+R98	Overlap Arg1:T51 Arg2:T74	
+R99	Overlap Arg1:T63 Arg2:T51	
+R100	Overlap Arg1:T50 Arg2:T51	
+R101	Used_for Arg1:T44 Arg2:T64	
+R102	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T97	
+T140	Quantifier_or_Qualifier 2659 2670	persistente
+#102	AnnotatorNotes T140	C0205322; Persistent; Temporal Concept
+R103	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T140	
+R104	Overlap Arg1:T118 Arg2:T120	
+R105	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T121	
+R106	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T122	
+T141	Quantifier_or_Qualifier 1524 1543	altamente efectivos
+R107	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T141	
+R108	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T136	
+R109	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T139	
+#1	AnnotatorNotes T130	C0443144; At rest; Functional Concept
+R14	Location_of Arg1:T62 Arg2:T49	
+R17	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T139	
+R19	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T104	
+R22	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T105	
+R26	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T107	
+R49	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T108	
+R72	Location_of Arg1:T19 Arg2:T18	
+R87	Location_of Arg1:T21 Arg2:T20	
+R110	Location_of Arg1:T21 Arg2:T18	
+#5	AnnotatorNotes T132	C4727347; Peak Oxygen Consumption; Finding
+R81	Has_Result_or_Value Arg1:T132 Arg2:T127	
+R111	Has_Age Arg1:T85 Arg2:T69	
+R112	Location_of Arg1:T34 Arg2:T128	
+R113	Location_of Arg1:T58 Arg2:T38	
+#103	AnnotatorNotes T133	C4727347; Peak Oxygen Consumption; Finding
+R82	Location_of Arg1:T61 Arg2:T49	
+R114	Location_of Arg1:T13 Arg2:T50	
+R115	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T100	
+R116	Overlap Arg1:T33 Arg2:T24	
+R117	Overlap Arg1:T23 Arg2:T24	
+R118	Experiences Arg1:T86 Arg2:T128	
+#104	AnnotatorNotes T128	C2022577; echocardiography: left ventricular outflow tract; Diagnostic Procedure(?)
+#105	AnnotatorNotes T100	C0028778; Obstruction; Finding
+#106	AnnotatorNotes T105	C0028778; Obstruction; Finding
+#107	AnnotatorNotes T104	C0028778; Obstruction; Finding
+#108	AnnotatorNotes T107	C0028778; Obstruction; Finding
+#109	AnnotatorNotes T108	C0028778; Obstruction; Finding
+R120	Overlap Arg1:T20 Arg2:T98	
+R122	Overlap Arg1:T18 Arg2:T118	
+R121	Overlap Arg1:T18 Arg2:T120	
+R119	Has_Quantifier_or_Qualifier Arg1:T115 Arg2:T113	
+#110	AnnotatorNotes T113	C0205394; Other; Qualitative Concept
+A26	Experiencer T67 Patient
+A27	Experiencer T70 Patient
+A28	Experiencer T71 Other
+A29	Experiencer T73 Patient
+A30	Experiencer T80 Other
+A31	Experiencer T83 Patient
+A32	Experiencer T84 Patient
+A33	Experiencer T85 Patient
+A34	Experiencer T86 Patient
+A35	Experiencer T88 Patient
+A36	Experiencer T89 Patient
+A37	Assertion T31 Hypothetical
+A38	Assertion T141 Hypothetical
+A39	Assertion T68 Hypothetical
+A40	Assertion T4 Hypothetical
+A41	Assertion T32 Hypothetical

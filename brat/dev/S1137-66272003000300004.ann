@@ -1,0 +1,186 @@
+T1	PROC 20 31	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 50 71	ácido ursodeoxicólico
+#2	AnnotatorNotes T2	C0042105; ursodiol; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T3	PROC 569 577	tratados
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	ANAT 130 136	biliar
+#4	AnnotatorNotes T4	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0016976; Gallbladder; Body Part, Organ, or Organ Component
+T5	DISO 228 253	pancreatitis aguda biliar
+#5	AnnotatorNotes T5	C0747194; Biliary acute pancreatitis; Disease or Syndrome
+T6	ANAT 247 253	biliar
+#6	AnnotatorNotes T6	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0016976; Gallbladder; Body Part, Organ, or Organ Component
+T7	PROC 266 277	tratamiento
+#7	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	CHEM 282 303	ácido ursodeoxicólico
+#8	AnnotatorNotes T8	C0042105; ursodiol; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T9	DISO 331 343	pancreatitis
+#9	AnnotatorNotes T9	C0030305; Pancreatitis; Disease or Syndrome
+T10	PROC 363 378	colecistectomía
+#10	AnnotatorNotes T10	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T11	DISO 433 458	pancreatitis aguda biliar
+#11	AnnotatorNotes T11	C0747194; Biliary acute pancreatitis; Disease or Syndrome
+T12	ANAT 452 458	biliar
+#12	AnnotatorNotes T12	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0016976; Gallbladder; Body Part, Organ, or Organ Component
+T13	PROC 476 495	colecistectomizados
+#13	AnnotatorNotes T13	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T14	PROC 515 522	cirugía
+#14	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T15	PROC 617 624	cirugía
+#15	AnnotatorNotes T15	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T16	DISO 761 773	pancreatitis
+#16	AnnotatorNotes T16	C0030305; Pancreatitis; Disease or Syndrome
+T17	DISO 797 805	litiasis
+#17	AnnotatorNotes T17	C0023869; Lithiasis; Pathologic Function
+T18	PROC 824 831	cirugía
+#18	AnnotatorNotes T18	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T19	PROC 956 967	tratamiento
+#19	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	DISO 1013 1025	pancreatitis
+#20	AnnotatorNotes T20	C0030305; Pancreatitis; Disease or Syndrome
+T21	PROC 1281 1292	tratamiento
+#21	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	PROC 1465 1480	colecistectomía
+#22	AnnotatorNotes T22	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T23	DISO 1561 1586	pancreatitis aguda biliar
+#23	AnnotatorNotes T23	C0747194; Biliary acute pancreatitis; Disease or Syndrome
+T24	ANAT 1580 1586	biliar
+#24	AnnotatorNotes T24	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0016976; Gallbladder; Body Part, Organ, or Organ Component
+T25	PROC 1604 1615	tratamiento
+#25	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	DISO 111 136	pancreatitis aguda biliar
+#26	AnnotatorNotes T26	C0747194; Biliary acute pancreatitis; Disease or Syndrome
+T27	DISO 864 876	pancreatitis
+#27	AnnotatorNotes T27	C0030305; Pancreatitis; Disease or Syndrome
+T28	Date 32 45	preoperatorio
+#28	AnnotatorNotes T28	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T31	LIVB 463 472	pacientes
+#29	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Neg_cue 473 475	no
+T33	Dose 594 602	10 mg/kg
+T34	Frequency 602 606	/día
+T35	LIVB 736 744	paciente
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 978 987	pacientes
+#31	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T41	Duration 1338 1351	4,9±4,5 meses
+T43	Duration 1374 1387	4,4±1,9 meses
+T45	LIVB 1524 1533	pacientes
+#32	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 1223 1230	control
+#33	AnnotatorNotes T29	C0009932; Control Groups; Group
+T30	PROC 581 585	alta
+#34	AnnotatorNotes T30	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T36	LIVB 638 645	control
+#35	AnnotatorNotes T36	C0009932; Control Groups; Group
+T38	DISO 95 104	recidivas
+#36	AnnotatorNotes T38	C2825055; Recurrence (disease attribute); Pathologic Function
+T39	DISO 212 221	recidivas
+#37	AnnotatorNotes T39	C2825055; Recurrence (disease attribute); Pathologic Function
+T40	DISO 848 857	recidivas
+#38	AnnotatorNotes T40	C2825055; Recurrence (disease attribute); Pathologic Function
+T42	DISO 998 1006	recidiva
+#39	AnnotatorNotes T42	C2825055; Recurrence (disease attribute); Pathologic Function
+T44	Neg_cue 994 997	sin
+T46	DISO 1158 1167	recidivas
+#40	AnnotatorNotes T46	C2825055; Recurrence (disease attribute); Pathologic Function
+T47	DISO 1207 1216	recidivas
+#41	AnnotatorNotes T47	C2825055; Recurrence (disease attribute); Pathologic Function
+T48	DISO 1508 1516	recidiva
+#42	AnnotatorNotes T48	C2825055; Recurrence (disease attribute); Pathologic Function
+T49	DISO 1677 1686	recidivas
+#43	AnnotatorNotes T49	C2825055; Recurrence (disease attribute); Pathologic Function
+T50	DISO 1325 1336	recidivaron
+#44	AnnotatorNotes T50	C2825055; Recurrence (disease attribute); Pathologic Function
+T51	Neg_cue 1358 1360	no
+T52	DISO 1361 1372	recidivados
+#45	AnnotatorNotes T52	C2825055; Recurrence (disease attribute); Pathologic Function
+A1	Assertion T13 Negated
+A2	Assertion T42 Negated
+A3	Assertion T52 Negated
+R1	Negation Arg1:T32 Arg2:T13	
+R2	Negation Arg1:T44 Arg2:T42	
+R3	Negation Arg1:T51 Arg2:T52	
+T53	Neg_cue 1043 1045	no
+T54	Neg_cue 1624 1631	tampoco
+T55	CONC 1639 1651	relacionarse
+A4	Assertion T55 Negated
+R4	Negation Arg1:T54 Arg2:T55	
+T56	CONC 1056 1067	diferencias
+A5	Assertion T56 Negated
+#46	AnnotatorNotes T56	C1705241; Delta (difference); Quantitative Concept
+R5	Negation Arg1:T53 Arg2:T56	
+T57	Neg_cue 1481 1483	no
+T58	CONC 1484 1490	reduce
+A6	Assertion T58 Negated
+#47	AnnotatorNotes T58	C0547047; Decrease; Quantitative Concept
+R6	Negation Arg1:T57 Arg2:T58	
+T59	Spec_cue 180 187	posible
+T60	CONC 188 197	reducción
+A7	Assertion T60 Speculated
+#48	AnnotatorNotes T60	C0392756; Reduced; Qualitative Concept (?)
+R7	Overlap Arg1:T1 Arg2:T28	
+R8	Used_for Arg1:T2 Arg2:T1	
+R10	Location_of Arg1:T4 Arg2:T26	
+R11	Before Arg1:T26 Arg2:T38	
+R12	Speculation Arg1:T59 Arg2:T60	
+R13	Location_of Arg1:T6 Arg2:T5	
+R14	Before Arg1:T5 Arg2:T39	
+R15	Used_for Arg1:T8 Arg2:T7	
+R18	Before Arg1:T7 Arg2:T10	
+R20	Location_of Arg1:T12 Arg2:T11	
+R21	Experiences Arg1:T31 Arg2:T11	
+R22	Experiences Arg1:T31 Arg2:T13	
+R23	Experiences Arg1:T31 Arg2:T14	
+T62	PROC 497 505	seguidos
+#50	AnnotatorNotes T62	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+R24	Before Arg1:T62 Arg2:T14	
+R26	Before Arg1:T30 Arg2:T3	
+R27	Has_Dose_or_Strength Arg1:T3 Arg2:T33	
+R28	Has_Frequency Arg1:T3 Arg2:T34	
+R29	Before Arg1:T3 Arg2:T15	
+R30	Experiences Arg1:T36 Arg2:T15	
+R31	Experiences Arg1:T35 Arg2:T16	
+R32	Experiences Arg1:T35 Arg2:T17	
+R33	Before Arg1:T27 Arg2:T40	
+T63	CONC 943 967	duración del tratamiento
+#51	AnnotatorNotes T63	C0444921; Duration of treatment; Temporal Concept
+R35	Experiences Arg1:T37 Arg2:T19	
+R36	Experiences Arg1:T37 Arg2:T42	
+R37	Experiences Arg1:T37 Arg2:T20	
+R38	Before Arg1:T20 Arg2:T42	
+R40	Experiences Arg1:T29 Arg2:T47	
+R41	Experiences Arg1:T29 Arg2:T46	
+T64	CONC 1268 1292	duración del tratamiento
+#52	AnnotatorNotes T64	C0444921; Duration of treatment; Temporal Concept
+R42	Has_Duration_or_Interval Arg1:T64 Arg2:T41	
+R43	Has_Duration_or_Interval Arg1:T21 Arg2:T41	
+R44	Has_Duration_or_Interval Arg1:T21 Arg2:T43	
+R45	Has_Duration_or_Interval Arg1:T64 Arg2:T43	
+R46	Experiences Arg1:T45 Arg2:T48	
+R47	Experiences Arg1:T45 Arg2:T22	
+R48	Experiences Arg1:T45 Arg2:T23	
+R49	Location_of Arg1:T24 Arg2:T23	
+R51	After Arg1:T48 Arg2:T23	
+T65	CONC 1591 1615	duración del tratamiento
+#53	AnnotatorNotes T65	C0444921; Duration of treatment; Temporal Concept
+T66	Quantifier_or_Qualifier 1068 1082	significativas
+A8	Assertion T66 Negated
+#54	AnnotatorNotes T66	C0750502; Significant; Idea or Concept
+R59	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T66	
+R60	Negation Arg1:T53 Arg2:T66	
+R9	Before Arg1:T10 Arg2:T39	
+R16	Experiences Arg1:T35 Arg2:T18	
+R17	Before Arg1:T22 Arg2:T48	
+#49	AnnotatorNotes T55	C0332281; Associated with; Qualitative Concept
+R19	Before Arg1:T1 Arg2:T38	
+R25	Before Arg1:T19 Arg2:T42	
+R34	Before Arg1:T21 Arg2:T50	
+R39	Before Arg1:T21 Arg2:T52	
+R50	Before Arg1:T25 Arg2:T49	
+A9	Experiencer T31 Patient
+A10	Experiencer T36 Patient
+A11	Experiencer T35 Patient
+A12	Experiencer T37 Patient
+A13	Experiencer T29 Patient
+A14	Experiencer T45 Patient

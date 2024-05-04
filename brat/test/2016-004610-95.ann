@@ -1,0 +1,202 @@
+T1	PROC 46 106	Evaluación de la Seguridad, Farmacocinética y Farmacodinamia
+T2	DISO 138 161	Enfermedad de Parkinson
+#1	AnnotatorNotes T2	C0030567; Parkinson Disease; Disease or Syndrome
+T3	PROC 184 257	Estudio multicéntrico, aleatorizado, doble ciego y controlado con placebo
+T4	CHEM 949 952	DaT
+T5	PROC 277 288	tratamiento
+#2	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 309 320	enmascarada
+#3	AnnotatorNotes T6	C0150108; Blinded; Research Activity
+T7	PROC 327 387	evaluar la seguridad, la farmacocinética y la farmacodinamia
+T8	DISO 414 437	enfermedad de Parkinson
+#4	AnnotatorNotes T8	C0030567; Parkinson Disease; Disease or Syndrome
+T9	DISO 462 485	Enfermedad de Parkinson
+#5	AnnotatorNotes T9	C0030567; Parkinson Disease; Disease or Syndrome
+T10	PROC 514 527	diagnosticado
+#6	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 532 555	Enfermedad de Parkinson
+#7	AnnotatorNotes T11	C0030567; Parkinson Disease; Disease or Syndrome
+T12	DISO 557 559	EP
+#8	AnnotatorNotes T12	C0030567; Parkinson Disease; Disease or Syndrome
+T13	CHEM 729 737	levodopa
+#9	AnnotatorNotes T13	C0023570; levodopa; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T14	PROC 752 763	tratamiento
+#10	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	DISO 772 774	EP
+#11	AnnotatorNotes T15	C0030567; Parkinson Disease; Disease or Syndrome
+T16	PROC 849 869	pauta de tratamiento
+T17	CHEM 110 117	BIIB054
+T18	DISO 887 889	EP
+#12	AnnotatorNotes T18	C0030567; Parkinson Disease; Disease or Syndrome
+T19	PROC 936 952	detección de DaT
+T20	PROC 953 958	SPECT
+#13	AnnotatorNotes T20	C0040399; Tomography, Emission-Computed, Single-Photon; Diagnostic Procedure
+T21	DISO 1030 1061	parkinsonismo neurodegenerativo
+T22	DISO 1103 1125	congelamiento al andar
+#14	AnnotatorNotes T22	C0860515; Freezing of gait; Finding
+T23	DISO 1156 1177	deterioros cognitivos
+#15	AnnotatorNotes T23	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T24	DISO 1194 1202	demencia
+#16	AnnotatorNotes T24	C0497327; Dementia; Mental or Behavioral Dysfunction
+T25	CHEM 391 398	BIIB054
+T26	CHEM 1526 1533	BIIB054
+T27	PROC 1335 1355	resonancia magnética
+#17	AnnotatorNotes T27	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T28	PROC 1357 1360	MRI
+#18	AnnotatorNotes T28	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T29	PROC 664 697	Escala de Hoehn y Yahr modificada
+#19	AnnotatorNotes T29	C4274795; Assessment using Modified Hoehn and Yahr Scale; Diagnostic Procedure
+T30	DISO 1447 1455	alergias
+#20	AnnotatorNotes T30	C1527304; Allergic Reaction; Pathologic Function
+T31	DISO 1466 1490	reacciones anafilácticas
+#21	AnnotatorNotes T31	C0002792; anaphylaxis; Disease or Syndrome
+T32	DISO 1506 1523	hipersensibilidad
+#22	AnnotatorNotes T32	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T33	CHEM 1541 1561	ingrediente inactivo
+#23	AnnotatorNotes T33	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T34	CHEM 1568 1592	fármaco en investigación
+#24	AnnotatorNotes T34	C0013230; Investigational New Drugs; Pharmacologic Substance
+T35	CHEM 1597 1610	radioligandos
+#25	AnnotatorNotes T35	C0599278; radioligand; Indicator, Reagent, or Diagnostic Aid
+T36	CHEM 1613 1617	yodo
+#26	AnnotatorNotes T36	C0021968; iodine; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T37	PROC 1139 1143	MOCA
+#27	AnnotatorNotes T37	C4555213; Assessment using Montreal cognitive assessment; Diagnostic Procedure
+T38	DISO 1372 1385	anormalidades
+#28	AnnotatorNotes T38	C1704258; Abnormality; Finding
+T39	Date 13 17	2016
+T40	PHYS 74 89	Farmacocinética
+#29	AnnotatorNotes T40	C0031327; Drug Kinetics; Physiologic Function
+T41	PHYS 352 367	farmacocinética
+#30	AnnotatorNotes T41	C0031327; Drug Kinetics; Physiologic Function
+T42	LIVB 402 409	sujetos
+#31	AnnotatorNotes T42	C0681850; Study Subject; Group
+T43	Duration 594 613	un máximo de 3 años
+T44	LIVB 704 711	sujetos
+#32	AnnotatorNotes T44	C0681850; Study Subject; Group
+T45	Neg_cue 712 714	no
+T46	Neg_cue 740 746	ningún
+T47	Duration 783 797	las 12 semanas
+T48	Date 809 814	día 1
+T49	Neg_cue 890 892	no
+T50	Duration 898 917	exceder los 30 días
+T52	LIVB 1231 1243	investigador
+#33	AnnotatorNotes T52	C0035173; Research Personnel; Professional or Occupational Group
+T53	LIVB 1414 1423	radiólogo
+#34	AnnotatorNotes T53	C0260194; radiologist; Professional or Occupational Group
+T54	PHYS 1167 1177	cognitivos
+#35	AnnotatorNotes T54	C0009240; Cognition; Mental Process
+T55	PHYS 92 106	Farmacodinamia
+#36	AnnotatorNotes T55	C0851347; Pharmacodynamics; Biologic Function
+T56	PHYS 373 387	farmacodinamia
+#37	AnnotatorNotes T56	C0851347; Pharmacodynamics; Biologic Function
+T57	PHYS 1120 1125	andar
+#38	AnnotatorNotes T57	C0945826; Ambulation; Organism Function
+T51	LIVB 121 133	participante
+#39	AnnotatorNotes T51	C4554048; Study Participant; Population Group
+T58	PROC 965 984	visita de selección
+#40	AnnotatorNotes T58	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T59	PROC 1310 1316	visita
+#41	AnnotatorNotes T59	C1512346; Patient Visit; Health Care Activity
+T60	Quantifier_or_Qualifier 1317 1326	de inicio
+A1	Assertion T13 Negated
+A2	Assertion T14 Negated
+A3	Assertion T50 Negated
+A4	Status T38 History_of
+A5	Status T30 History_of
+A6	Status T31 History_of
+A7	Status T32 History_of
+#43	AnnotatorNotes T17	C5418330; Cinpanemab; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#44	AnnotatorNotes T25	C5418330; Cinpanemab; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#45	AnnotatorNotes T26	C5418330; Cinpanemab; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#46	AnnotatorNotes T3	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+T61	Spec_cue 1244 1250	podría
+T62	CONC 1251 1261	interferir
+A8	Assertion T62 Speculated
+#42	AnnotatorNotes T62	C0521102; Interferes with; Functional Concept
+R1	Speculation Arg1:T61 Arg2:T62	
+R2	Experiences Arg1:T51 Arg2:T17	
+R3	Experiences Arg1:T51 Arg2:T2	
+T63	Quantifier_or_Qualifier 289 295	activo
+#47	AnnotatorNotes T63	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T63	
+R5	Overlap Arg1:T5 Arg2:T6	
+R6	Experiences Arg1:T51 Arg2:T40	
+R7	Experiences Arg1:T51 Arg2:T55	
+R8	Experiences Arg1:T42 Arg2:T41	
+R9	Experiences Arg1:T42 Arg2:T56	
+R10	Experiences Arg1:T42 Arg2:T25	
+R11	Experiences Arg1:T42 Arg2:T8	
+R12	Experiences Arg1:T42 Arg2:T5	
+R13	Used_for Arg1:T25 Arg2:T5	
+T64	CONC 303 308	dosis
+#48	AnnotatorNotes T64	C0178602; Dosage; Quantitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T6	
+R15	Has_Duration_or_Interval Arg1:T12 Arg2:T43	
+R16	Has_Duration_or_Interval Arg1:T11 Arg2:T43	
+T65	Quantifier_or_Qualifier 561 585	establecida clínicamente
+R17	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T65	
+R18	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T65	
+T66	PROC 626 635	selección
+#49	AnnotatorNotes T66	C0242802; Patient Selection; Research Activity
+R19	Before Arg1:T11 Arg2:T66	
+R20	Before Arg1:T12 Arg2:T66	
+T67	Result_or_Value 653 657	≤2,5
+R21	Has_Result_or_Value Arg1:T29 Arg2:T67	
+R22	Experiences Arg1:T44 Arg2:T13	
+R23	Experiences Arg1:T44 Arg2:T14	
+R24	Negation Arg1:T46 Arg2:T14	
+R25	Negation Arg1:T45 Arg2:T13	
+R26	Experiences Arg1:T44 Arg2:T15	
+R27	Has_Duration_or_Interval Arg1:T13 Arg2:T47	
+R28	Has_Duration_or_Interval Arg1:T14 Arg2:T47	
+R29	Before Arg1:T14 Arg2:T48	
+R30	Before Arg1:T13 Arg2:T48	
+R31	Before Arg1:T16 Arg2:T48	
+R32	Has_Duration_or_Interval Arg1:T16 Arg2:T50	
+R33	Negation Arg1:T49 Arg2:T50	
+R34	Experiences Arg1:T44 Arg2:T18	
+R35	Experiences Arg1:T44 Arg2:T16	
+R36	Overlap Arg1:T20 Arg2:T58	
+R37	Overlap Arg1:T19 Arg2:T58	
+#50	AnnotatorNotes T4	C0114838; dopamine transporter; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T68	Result_or_Value 1144 1147	<23
+R42	Has_Result_or_Value Arg1:T37 Arg2:T68	
+T69	Quantifier_or_Qualifier 1178 1191	significantes
+#51	AnnotatorNotes T69	C1546944; Event Seriousness - Significant; Qualitative Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T69	
+T70	Quantifier_or_Qualifier 1203 1210	clínica
+#52	AnnotatorNotes T70	C0205210; Clinical; Qualitative Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T70	
+T71	PROC 1283 1290	estudio
+#53	AnnotatorNotes T71	C0008976; Clinical Trials; Research Activity
+R46	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T60	
+#54	AnnotatorNotes T60	C0205265; Initially; Temporal Concept
+R47	After Arg1:T59 Arg2:T27	
+R48	After Arg1:T59 Arg2:T28	
+R51	Causes Arg1:T26 Arg2:T30	
+R52	Causes Arg1:T26 Arg2:T31	
+R53	Causes Arg1:T26 Arg2:T32	
+R54	Causes Arg1:T33 Arg2:T30	
+R55	Causes Arg1:T33 Arg2:T31	
+R56	Causes Arg1:T33 Arg2:T32	
+R57	Causes Arg1:T35 Arg2:T30	
+R58	Causes Arg1:T35 Arg2:T31	
+R59	Causes Arg1:T35 Arg2:T32	
+R60	Causes Arg1:T36 Arg2:T30	
+R61	Causes Arg1:T36 Arg2:T31	
+R62	Causes Arg1:T36 Arg2:T32	
+T72	Quantifier_or_Qualifier 1456 1463	severas
+A9	Status T72 History_of
+#55	AnnotatorNotes T72	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R63	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T72	
+R69	Before Arg1:T10 Arg2:T66	
+R38	Overlap Arg1:T58 Arg2:T21	
+#56	AnnotatorNotes T16	C0040808; Treatment Protocols; Therapeutic or Preventive Procedure
+#57	AnnotatorNotes T1	C1705187; Safety Study; Research Activity + C0201734; Pharmacokinetic study; Research Activity + C1709518; Pharmacodynamic Study; Research Activity
+#58	AnnotatorNotes T7	C1705187; Safety Study; Research Activity + C0201734; Pharmacokinetic study; Research Activity + C1709518; Pharmacodynamic Study; Research Activity
+A10	Experiencer T51 Patient
+A11	Experiencer T42 Patient
+A12	Experiencer T44 Patient
+A13	Experiencer T52 Other
+A14	Experiencer T53 Other

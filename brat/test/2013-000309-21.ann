@@ -1,0 +1,221 @@
+T1	PROC 46 68	Profilaxis antibiótica
+#1	AnnotatorNotes T1	C0282638; Antibiotic Prophylaxis; Therapeutic or Preventive Procedure
+T2	DISO 71 81	daño renal
+#2	AnnotatorNotes T2	C1408258; Kidney damage; Finding
+T3	DISO 89 146	anomalías congénitas de los riñones y del tracto urinario
+#3	AnnotatorNotes T3	C4748921; CONGENITAL ANOMALIES OF KIDNEY AND URINARY TRACT 3; Congenital Abnormality
+T4	ANAT 117 124	riñones
+#4	AnnotatorNotes T4	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T5	ANAT 131 146	tracto urinario
+#5	AnnotatorNotes T5	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T6	PROC 170 198	Evaluación de la efectividad
+T7	PROC 205 230	profilaxis antimicrobiana
+T8	DISO 244 247	RVU
+#6	AnnotatorNotes T8	C0042580; Vesico-Ureteral Reflux; Disease or Syndrome
+T9	DISO 281 302	infección sintomática
+T10	PROC 392 421	Tasa de filtración glomerular
+#7	AnnotatorNotes T10	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+T11	PROC 630 654	Consentimiento informado
+#8	AnnotatorNotes T11	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T12	PROC 539 561	Diagnóstico por imagen
+#9	AnnotatorNotes T12	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T13	DISO 586 609	reflujo vesico-ureteral
+T14	ANAT 601 609	ureteral
+#10	AnnotatorNotes T14	C0041951; Ureter; Body Part, Organ, or Organ Component | C1281572; Entire ureter; Body Part, Organ, or Organ Component
+T15	PROC 761 790	Tasa de filtración glomerular
+#11	AnnotatorNotes T15	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+T16	DISO 888 906	vejiga neurogénica
+#12	AnnotatorNotes T16	C0005697; Neurogenic Urinary Bladder; Disease or Syndrome
+T17	DISO 908 924	mielomeningocele
+#13	AnnotatorNotes T17	C0025312; Meningomyelocele; Congenital Abnormality
+T18	DISO 926 947	unión uretero-pélvica
+#14	AnnotatorNotes T18	C0749886; URETER STRICTURE URETEROPELVIC JUNCTION; Disease or Syndrome
+T19	ANAT 940 947	pélvica
+#15	AnnotatorNotes T19	C0030797; Pelvis; Body Part, Organ, or Organ Component | C1279864; Entire pelvis; Body Part, Organ, or Organ Component
+T20	DISO 952 992	obstrucción de la unión uretero-vescical
+#16	AnnotatorNotes T20	C0521619; Obstruction of pelviureteric junction; Pathologic Function
+T21	ANAT 970 992	unión uretero-vescical
+T22	DISO 1002 1016	malformaciones
+#17	AnnotatorNotes T22	C0000768; Congenital Abnormality; Congenital Abnormality
+T23	DISO 1041 1065	alteraciones miccionales
+T24	ANAT 932 939	uretero
+T25	DISO 1137 1144	reflujo
+#18	AnnotatorNotes T25	C0232483; Reflux; Pathologic Function
+T26	DISO 1163 1180	Hipersensibilidad
+#19	AnnotatorNotes T26	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T27	CHEM 1188 1209	agente antimicrobiano
+#20	AnnotatorNotes T27	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T28	PROC 1544 1568	consentimiento informado
+#21	AnnotatorNotes T28	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T29	CHEM 1364 1391	medicamentos experimentales
+T30	PROC 1467 1481	procedimientos
+#22	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T31	PROC 1486 1495	protocolo
+#23	AnnotatorNotes T31	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T32	ANAT 76 81	renal
+#24	AnnotatorNotes T32	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T33	PROC 817 825	Schwartz
+#25	AnnotatorNotes T33	C1980037; Creatinine-based formula (Schwartz); Laboratory Procedure
+T34	ANAT 888 894	vejiga
+#26	AnnotatorNotes T34	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T35	DISO 1081 1099	válvulas uretrales
+T36	DISO 518 535	ITUs sintomáticas
+#27	AnnotatorNotes T36	C0749968; URINARY TRACT INFECTION SYMPTOMATIC; Disease or Syndrome
+T37	PROC 448 456	Schwartz
+#28	AnnotatorNotes T37	C1980037; Creatinine-based formula (Schwartz); Laboratory Procedure
+T38	Date 13 17	2013
+T39	LIVB 234 239	niños
+#29	AnnotatorNotes T39	C0008059; Child; Age Group
+T40	Age 338 355	entre 1 y 4 meses
+T41	Duration 376 388	> 35 semanas
+T43	Age 484 494	tres meses
+T44	Neg_cue 506 509	Sin
+T45	LIVB 671 677	padres
+#30	AnnotatorNotes T45	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T48	Duration 746 757	<35 semanas
+T50	Age 852 862	tres meses
+T51	LIVB 874 883	Pacientes
+#31	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Spec_cue 1032 1040	posibles
+T54	LIVB 1103 1112	Pacientes
+#32	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	Neg_cue 1113 1116	sin
+T56	LIVB 1223 1228	Niños
+#33	AnnotatorNotes T56	C0008059; Child; Age Group
+T57	LIVB 1284 1296	investigador
+#34	AnnotatorNotes T57	C0035173; Research Personnel; Professional or Occupational Group
+T59	LIVB 1331 1338	cohorte
+#35	AnnotatorNotes T59	C0599755; Cohort; Population Group
+T60	Date 1395 1410	el mes anterior
+T61	LIVB 1436 1441	Niños
+#36	AnnotatorNotes T61	C0008059; Child; Age Group
+T62	Neg_cue 1446 1448	no
+T63	LIVB 1517 1523	padres
+#37	AnnotatorNotes T63	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T64	Neg_cue 1524 1526	no
+T66	PHYS 1054 1065	miccionales
+#38	AnnotatorNotes T66	C0042034; Urination; Organism Function
+T67	PHYS 364 375	gestacional
+#39	AnnotatorNotes T67	C0032961; Pregnancy; Organism Function
+T68	PHYS 400 421	filtración glomerular
+#40	AnnotatorNotes T68	C0232809; Glomerular filtration; Organ or Tissue Function
+T42	Age 712 725	<1 y >4 meses
+T46	PHYS 734 745	gestacional
+#41	AnnotatorNotes T46	C0032961; Pregnancy; Organism Function
+T47	PHYS 769 790	filtración glomerular
+#42	AnnotatorNotes T47	C0232809; Glomerular filtration; Organ or Tissue Function
+T49	CHEM 57 68	antibiótica
+#43	AnnotatorNotes T49	C0003232; Antibiotics; Antibiotic
+T53	CHEM 216 230	antimicrobiana
+#44	AnnotatorNotes T53	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T58	PROC 359 375	Edad gestacional
+#45	AnnotatorNotes T58	C4040272; Assessment of fetal gestational age; Health Care Activity
+T65	PROC 729 745	Edad gestacional
+#46	AnnotatorNotes T65	C4040272; Assessment of fetal gestational age; Health Care Activity
+T69	ANAT 780 790	glomerular
+#47	AnnotatorNotes T69	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T70	ANAT 411 421	glomerular
+#48	AnnotatorNotes T70	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Population_data T39 Age
+A2	Assertion T36 Negated
+A3	Assertion T23 Speculated
+A4	Assertion T25 Negated
+A5	Population_data T56 Age
+A6	Assertion T30 Negated
+A7	Population_data T61 Age
+A8	Assertion T28 Negated
+A9	Status T36 History_of
+A10	Status T26 History_of
+A11	Status T29 History_of
+#49	AnnotatorNotes T13	C0042580; Vesico-Ureteral Reflux; Disease or Syndrome
+#50	AnnotatorNotes T24	C0041951; Ureter; Body Part, Organ, or Organ Component | C1281572; Entire ureter; Body Part, Organ, or Organ Component
+#51	AnnotatorNotes T29	C0304229; Experimental drug; Pharmacologic Substance
+T71	Neg_cue 1304 1310	evitar
+T72	Observation 1311 1324	ser incluidos
+A12	Assertion T72 Negated
+#52	AnnotatorNotes T72	C1278516; Patient participation status; Finding (?)
+T73	Observation 1233 1260	situaciones clínicas graves
+#53	AnnotatorNotes T73	C4274920; Serious physical health problem; Finding
+R1	Before Arg1:T1 Arg2:T2	
+R2	Used_for Arg1:T49 Arg2:T1	
+R3	Location_of Arg1:T32 Arg2:T2	
+R4	Location_of Arg1:T4 Arg2:T3	
+R5	Location_of Arg1:T5 Arg2:T3	
+R6	Overlap Arg1:T2 Arg2:T3	
+R7	Used_for Arg1:T53 Arg2:T7	
+R8	Experiences Arg1:T39 Arg2:T7	
+R9	Location_of Arg1:T14 Arg2:T13	
+T74	ANAT 594 600	vesico
+#54	AnnotatorNotes T74	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T75	Result_or_Value 613 626	grado III a V
+R10	Has_Result_or_Value Arg1:T13 Arg2:T75	
+#55	AnnotatorNotes T7	C0282638; Antibiotic Prophylaxis; Therapeutic or Preventive Procedure
+R11	Experiences Arg1:T39 Arg2:T8	
+R12	Before Arg1:T8 Arg2:T9	
+R13	Before Arg1:T7 Arg2:T9	
+T76	Quantifier_or_Qualifier 248 259	grado III-V
+R14	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T76	
+R15	Has_Duration_or_Interval Arg1:T67 Arg2:T41	
+R16	Location_of Arg1:T70 Arg2:T68	
+R17	Location_of Arg1:T70 Arg2:T10	
+T77	Result_or_Value 458 477	> 15 ml/min/1,73 m2
+R20	Has_Result_or_Value Arg1:T10 Arg2:T77	
+R21	Overlap Arg1:T10 Arg2:T43	
+R22	Negation Arg1:T44 Arg2:T36	
+T78	Quantifier_or_Qualifier 562 570	completo
+#56	AnnotatorNotes T78	C0205197; Complete; Qualitative Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T78	
+R24	Has_Duration_or_Interval Arg1:T46 Arg2:T48	
+R25	Location_of Arg1:T69 Arg2:T47	
+R26	Location_of Arg1:T69 Arg2:T15	
+T79	Result_or_Value 827 845	<15 ml/min/1,73 m2
+R29	Has_Result_or_Value Arg1:T15 Arg2:T79	
+R30	Overlap Arg1:T15 Arg2:T50	
+R31	Location_of Arg1:T34 Arg2:T16	
+R32	Experiences Arg1:T51 Arg2:T16	
+R33	Experiences Arg1:T51 Arg2:T18	
+R34	Location_of Arg1:T24 Arg2:T18	
+R35	Location_of Arg1:T19 Arg2:T18	
+R36	Experiences Arg1:T51 Arg2:T17	
+R37	Experiences Arg1:T51 Arg2:T20	
+R38	Location_of Arg1:T21 Arg2:T20	
+R39	Experiences Arg1:T51 Arg2:T22	
+R40	Experiences Arg1:T51 Arg2:T23	
+R41	Speculation Arg1:T52 Arg2:T23	
+R43	Before Arg1:T22 Arg2:T23	
+R44	Experiences Arg1:T51 Arg2:T66	
+#57	AnnotatorNotes T23	C0042035; Urination Disorders; Disease or Syndrome
+R45	Overlap Arg1:T23 Arg2:T35	
+R47	Experiences Arg1:T54 Arg2:T25	
+R48	Negation Arg1:T55 Arg2:T25	
+T80	Quantifier_or_Qualifier 1146 1158	grado I y II
+A13	Assertion T80 Negated
+R49	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T80	
+R50	Negation Arg1:T55 Arg2:T80	
+R51	Causes Arg1:T27 Arg2:T26	
+R52	Experiences Arg1:T56 Arg2:T73	
+R53	Negation Arg1:T71 Arg2:T72	
+R54	Before Arg1:T73 Arg2:T72	
+R55	Experiences Arg1:T59 Arg2:T73	
+R57	Overlap Arg1:T29 Arg2:T60	
+T82	CONC 1414 1432	inicio del estudio
+#59	AnnotatorNotes T82	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R58	Before Arg1:T29 Arg2:T82	
+R59	Experiences Arg1:T61 Arg2:T30	
+R60	Negation Arg1:T62 Arg2:T30	
+R61	Negation Arg1:T64 Arg2:T28	
+R62	Before Arg1:T28 Arg2:T30	
+R63	Location_of Arg1:T74 Arg2:T13	
+#58	AnnotatorNotes T80	C0444502; First degree; Qualitative Concept + C0443298; Second degree; Qualitative Concept
+#60	AnnotatorNotes T21	C0227680; Structure of ureteropelvic junction; Body Space or Junction
+#61	AnnotatorNotes T35	C1408019; urethral valve; stricture; Congenital Abnormality
+R18	Experiences Arg1:T51 Arg2:T35	
+A14	Experiencer T45 Family_member
+A15	Experiencer T39 Patient
+A16	Experiencer T51 Patient
+A17	Experiencer T54 Patient
+A18	Experiencer T56 Patient
+A19	Experiencer T57 Other
+A20	Experiencer T59 Patient
+A21	Experiencer T61 Patient
+A22	Experiencer T63 Family_member

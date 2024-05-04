@@ -1,0 +1,325 @@
+T1	PROC 44 91	Ensayo para comparar la eficacia y la seguridad
+T2	CHEM 95 112	insulina degludec
+#1	AnnotatorNotes T2	C3491971; insulin degludec; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T3	CHEM 113 124	liraglutida
+#2	AnnotatorNotes T3	C1456408; liraglutide; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T4	CHEM 134 151	insulina glargina
+#3	AnnotatorNotes T4	C0907402; insulin glargine; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T5	DISO 167 194	diabetes mellitus de tipo 2
+#4	AnnotatorNotes T5	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T6	DISO 218 233	Diabetes tipo 2
+#5	AnnotatorNotes T6	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T7	DISO 259 283	Diabetes Mellitus Tipo 2
+#6	AnnotatorNotes T7	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T8	DISO 312 339	Diabetes mellitus de tipo 2
+#7	AnnotatorNotes T8	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T9	PROC 1053 1056	IMC
+#8	AnnotatorNotes T9	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T10	PROC 427 450	análisis de laboratorio
+#9	AnnotatorNotes T10	C0022885; Laboratory Procedures; Laboratory Procedure
+T11	PROC 461 472	Tratamiento
+#10	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	CHEM 484 501	insulina glargina
+#11	AnnotatorNotes T12	C0907402; insulin glargine; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T13	CHEM 579 596	insulina glargina
+#12	AnnotatorNotes T13	C0907402; insulin glargine; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T14	CHEM 929 939	metformina
+#13	AnnotatorNotes T14	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T15	PROC 1097 1108	Tratamiento
+#14	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	CHEM 1157 1167	metformina
+#15	AnnotatorNotes T16	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T17	CHEM 1248 1255	fármaco
+#16	AnnotatorNotes T17	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T18	CHEM 1265 1275	metformina
+#17	AnnotatorNotes T18	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T19	CHEM 1278 1295	insulina glargina
+#18	AnnotatorNotes T19	C0907402; insulin glargine; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T20	CHEM 1321 1331	medicación
+#19	AnnotatorNotes T20	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T21	CHEM 1414 1421	glucosa
+#20	AnnotatorNotes T21	C0017725; glucose; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T22	CHEM 1431 1447	corticosteroides
+#21	AnnotatorNotes T22	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T23	PROC 1462 1473	Tratamiento
+#22	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	CHEM 1512 1520	insulina
+#23	AnnotatorNotes T24	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T25	CHEM 1554 1562	insulina
+#24	AnnotatorNotes T25	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T26	PROC 1601 1612	tratamiento
+#25	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	DISO 1640 1664	enfermedad intercurrente
+#26	AnnotatorNotes T27	C0277557; Intercurrent disease; Disease or Syndrome
+T28	DISO 1671 1701	diabetes gravídica gestacional
+T29	PROC 1734 1745	Tratamiento
+#27	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	CHEM 1766 1815	agonistas del receptor del péptido glucagonoide 1
+T31	CHEM 1817 1822	GLP-1
+T32	CHEM 1838 1847	exenatida
+#28	AnnotatorNotes T32	C0167117; exenatide; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T33	CHEM 1850 1861	liraglutida
+#29	AnnotatorNotes T33	C1456408; liraglutide; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T34	DISO 1865 1884	Disfunción hepática
+#30	AnnotatorNotes T34	C0086565; Liver Dysfunction; Finding
+T35	DISO 1973 1989	Disfunción renal
+#31	AnnotatorNotes T35	C0151746; Abnormal renal function; Pathologic Function | C1565489; Renal Insufficiency; Disease or Syndrome
+T36	CHEM 2017 2027	creatinina
+#32	AnnotatorNotes T36	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T37	ANAT 2028 2034	sérica
+#33	AnnotatorNotes T37	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T38	CHEM 2162 2172	metformina
+#34	AnnotatorNotes T38	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T39	DISO 2299 2302	CMT
+T40	DISO 2268 2297	carcinoma medular de tiroides
+#35	AnnotatorNotes T40	C0238462; Medullary carcinoma of thyroid; Neoplastic Process
+T41	DISO 2309 2347	neoplasia endocrina múltiple de tipo 2
+#36	AnnotatorNotes T41	C4048306; Multiple endocrine neoplasia Type 2; Neoplastic Process
+T42	DISO 2349 2353	MEN2
+#37	AnnotatorNotes T42	C0025268; Multiple Endocrine Neoplasia Type 2a; Neoplastic Process
+T43	DISO 2373 2393	pancreatitis crónica
+#38	AnnotatorNotes T43	C0149521; Pancreatitis, Chronic; Disease or Syndrome
+T44	DISO 2396 2425	pancreatitis aguda idiopática
+#39	AnnotatorNotes T44	C0341461; Idiopathic acute pancreatitis; Disease or Syndrome
+T45	PROC 363 368	HbA1c
+#40	AnnotatorNotes T45	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T46	PROC 1028 1051	Índice de masa corporal
+#41	AnnotatorNotes T46	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T47	ANAT 1043 1051	corporal
+#42	AnnotatorNotes T47	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T48	CHEM 1113 1127	antidiabéticos
+#43	AnnotatorNotes T48	C0935929; Antidiabetics; Pharmacologic Substance
+T49	CHEM 1136 1139	ADO
+#44	AnnotatorNotes T49	[antidiabéticos orales]
+T50	CHEM 1530 1538	insulina
+#45	AnnotatorNotes T50	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T51	PROC 1912 1916	ALAT
+T52	ANAT 1876 1884	hepática
+#46	AnnotatorNotes T52	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T53	ANAT 1984 1989	renal
+#47	AnnotatorNotes T53	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T54	PROC 2017 2034	creatinina sérica
+#48	AnnotatorNotes T54	C0201976; Creatinine measurement, serum (procedure); Laboratory Procedure
+T55	PROC 2188 2199	Calcitonina
+#49	AnnotatorNotes T55	C0201924; Calcitonin measurement; Laboratory Procedure
+T56	ANAT 2278 2285	medular
+#50	AnnotatorNotes T56	C0376152; Marrow; Body Part, Organ, or Organ Component | C1550278; Medullary - body parts; Body Part, Organ, or Organ Component
+T57	ANAT 2289 2297	tiroides
+#51	AnnotatorNotes T57	C0040132; Thyroid Gland; Body Part, Organ, or Organ Component | C1278878; Entire thyroid gland; Body Part, Organ, or Organ Component
+T58	Date 12 16	2012
+T59	LIVB 155 162	sujetos
+#52	AnnotatorNotes T59	C0681850; Study Subject; Group
+T60	Age 343 352	≥ 18 años
+T62	Duration 510 529	90 días como mínimo
+T63	Frequency 561 567	diaria
+T64	Duration 651 665	mínimo 56 días
+T65	Frequency 698 704	diaria
+T66	Duration 863 874	los 56 días
+T67	Frequency 911 917	diaria
+T68	Dose 941 950	≥ 1500 mg
+T69	Dose 953 974	dosis máxima tolerada
+#53	AnnotatorNotes T69	C0752079; Maximum Tolerated Dose; Quantitative Concept
+T70	Duration 984 1003	90 días como mínimo
+T72	Route 1128 1134	orales
+#54	AnnotatorNotes T72	C1527415; Oral Route of Drug administration; Functional Concept
+T73	Neg_cue 1142 1156	a excepción de
+T74	Duration 1176 1184	≥90 días
+T75	Date 1228 1234	actual
+T76	Neg_cue 1257 1264	excepto
+T77	LIVB 1365 1377	investigador
+#55	AnnotatorNotes T77	C0035173; Research Personnel; Professional or Occupational Group
+T79	PHYS 1396 1421	metabolismo de la glucosa
+#56	AnnotatorNotes T79	C0596620; glucose metabolism; Molecular Function
+T80	Date 1483 1489	actual
+T81	Neg_cue 1522 1529	excepto
+T82	Time 1563 1571	prandial
+T83	Date 1613 1626	a corto plazo
+T84	LIVB 1718 1730	investigador
+#57	AnnotatorNotes T84	C0035173; Research Personnel; Professional or Occupational Group
+T85	Date 1755 1761	actual
+T86	LIVB 2069 2076	varones
+#58	AnnotatorNotes T86	C0025266; Male population group; Population Group
+T88	LIVB 2111 2118	mujeres
+#59	AnnotatorNotes T88	C0043210; Woman; Population Group
+T90	Duration 2386 2393	crónica
+#60	AnnotatorNotes T90	C0205191; chronic; Temporal Concept
+T91	PHYS 1680 1689	gravídica
+#61	AnnotatorNotes T91	C0032961; Pregnancy; Organism Function
+T61	Dose 597 637	entre 20 y 50 unidades (ambas inclusive)
+T92	Dose 748 762	20-50 unidades
+T71	PROC 1299 1305;1315 1331	cambio de la medicación
+#62	AnnotatorNotes T71	C0948468; Drug therapy changed; Therapeutic or Preventive Procedure
+T78	PHYS 1690 1701	gestacional
+#63	AnnotatorNotes T78	C0032961; Pregnancy; Organism Function
+T87	Dose 555 560;568 575	Dosis estable
+T89	Dose 905 910;918 925	Dosis estable
+T93	PROC 1201 1207	visita
+#64	AnnotatorNotes T93	C1512346; Patient Visit; Health Care Activity
+T94	Quantifier_or_Qualifier 1208 1209	1
+A1	Assertion T16 Negated
+A2	Assertion T18 Negated
+A3	Assertion T19 Negated
+A4	Assertion T50 Negated
+A5	Status T43 History_of
+A6	Status T44 History_of
+A7	Status T40 History_of
+A11	Status T40 Family_history_of
+A8	Status T39 History_of
+A12	Status T39 Family_history_of
+A9	Status T41 History_of
+A13	Status T41 Family_history_of
+A10	Status T42 History_of
+A14	Status T42 Family_history_of
+A15	Status T23 History_of
+A16	Status T24 History_of
+A17	Status T25 History_of
+A18	Status T50 History_of
+A19	Status T29 History_of
+A20	Status T30 History_of
+A22	Status T32 History_of
+A23	Status T33 History_of
+#66	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity + C0008976; Clinical Trials; Research Activity
+#67	AnnotatorNotes T75	C0521116; Current (present time); Temporal Concept 
+#68	AnnotatorNotes T80	C0521116; Current (present time); Temporal Concept 
+#69	AnnotatorNotes T85	C0521116; Current (present time); Temporal Concept 
+#70	AnnotatorNotes T83	C0443303; short-term; Temporal Concept
+#71	AnnotatorNotes T28	C0085207; Gestational Diabetes; Disease or Syndrome 
+#72	AnnotatorNotes T51	C0001899; Alanine Transaminase; Amino Acid, Peptide, or Protein · Enzyme
+#73	AnnotatorNotes T39	C0238462; Medullary carcinoma of thyroid; Neoplastic Process
+R1	Negation Arg1:T73 Arg2:T16	
+R2	Negation Arg1:T76 Arg2:T18	
+R3	Negation Arg1:T76 Arg2:T19	
+T95	Spec_cue 1379 1384	pueda
+T96	CONC 1385 1392	afectar
+A24	Assertion T96 Speculated
+#65	AnnotatorNotes T96	C0521102; Interferes with; Functional Concept
+R4	Negation Arg1:T81 Arg2:T50	
+T97	Quantifier_or_Qualifier 1539 1544	basal
+A25	Assertion T97 Negated
+#74	AnnotatorNotes T97	C1442488; Baseline; Quantitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T97	
+R6	Combined_with Arg1:T2 Arg2:T3	
+R7	Experiences Arg1:T59 Arg2:T2	
+R8	Experiences Arg1:T59 Arg2:T4	
+R9	Experiences Arg1:T59 Arg2:T5	
+T98	Result_or_Value 373 399	7,0-10,0% [53-86 mmol/mol]
+R10	Has_Result_or_Value Arg1:T45 Arg2:T98	
+R11	Used_for Arg1:T12 Arg2:T11	
+T99	Quantifier_or_Qualifier 473 479	activo
+#75	AnnotatorNotes T99	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T99	
+R13	Has_Duration_or_Interval Arg1:T12 Arg2:T62	
+T100	PROC 542 551	selección
+#76	AnnotatorNotes T100	C0242802; Patient Selection; Research Activity
+R14	Before Arg1:T11 Arg2:T100	
+R15	Has_Dose_or_Strength Arg1:T13 Arg2:T87	
+R16	Has_Frequency Arg1:T13 Arg2:T63	
+R17	Has_Dose_or_Strength Arg1:T13 Arg2:T61	
+R18	Has_Duration_or_Interval Arg1:T13 Arg2:T64	
+T101	PROC 678 687	selección
+#77	AnnotatorNotes T101	C0242802; Patient Selection; Research Activity
+R19	Before Arg1:T13 Arg2:T101	
+T102	PROC 794 803	selección
+#78	AnnotatorNotes T102	C0242802; Patient Selection; Research Activity
+T103	PROC 891 900	selección
+#79	AnnotatorNotes T103	C0242802; Patient Selection; Research Activity
+T104	CONC 692 697	dosis
+#80	AnnotatorNotes T104	C0178602; Dosage; Quantitative Concept
+R20	Has_Frequency Arg1:T104 Arg2:T65	
+R21	Has_Dose_or_Strength Arg1:T104 Arg2:T92	
+T105	CONC 784 803	día de la selección
+R22	Overlap Arg1:T104 Arg2:T105	
+T106	Result_or_Value 854 859	± 10%
+T107	CONC 824 837	fluctuaciones
+#81	AnnotatorNotes T107	C0205419; Variant; Qualitative Concept
+R25	Has_Result_or_Value Arg1:T107 Arg2:T106	
+R26	Overlap Arg1:T107 Arg2:T66	
+R23	Before Arg1:T107 Arg2:T103	
+R24	Has_Dose_or_Strength Arg1:T14 Arg2:T89	
+R27	Has_Frequency Arg1:T14 Arg2:T67	
+R28	Has_Dose_or_Strength Arg1:T14 Arg2:T68	
+R29	Has_Dose_or_Strength Arg1:T14 Arg2:T69	
+R30	Has_Duration_or_Interval Arg1:T14 Arg2:T70	
+T108	PROC 1016 1025	selección
+#82	AnnotatorNotes T108	C0242802; Patient Selection; Research Activity
+R31	Before Arg1:T14 Arg2:T108	
+T109	PROC 1211 1220	selección
+#83	AnnotatorNotes T109	C0242802; Patient Selection; Research Activity
+R32	Has_Quantifier_or_Qualifier Arg1:T93 Arg2:T94	
+T110	PROC 2216 2225	selección
+#84	AnnotatorNotes T110	C0242802; Patient Selection; Research Activity
+R33	Overlap Arg1:T55 Arg2:T110	
+T111	Result_or_Value 2200 2209	≥ 50 ng/l
+R34	Has_Result_or_Value Arg1:T55 Arg2:T111	
+R35	Location_of Arg1:T53 Arg2:T35	
+R36	Location_of Arg1:T37 Arg2:T54	
+T112	Result_or_Value 2035 2061	≥ 133 µmol/l (≥ 1,5 mg/dl)
+R38	Has_Result_or_Value Arg1:T54 Arg2:T112	
+T113	Result_or_Value 2079 2103	≥ 125 µmol/l (1,4 mg/dl)
+R39	Has_Result_or_Value Arg1:T54 Arg2:T113	
+R40	Experiences Arg1:T88 Arg2:T54	
+R41	Experiences Arg1:T86 Arg2:T54	
+R42	Experiences Arg1:T86 Arg2:T35	
+R43	Experiences Arg1:T88 Arg2:T35	
+R44	Experiences Arg1:T86 Arg2:T38	
+R45	Experiences Arg1:T88 Arg2:T38	
+R46	Location_of Arg1:T47 Arg2:T46	
+R47	Location_of Arg1:T47 Arg2:T9	
+T114	Result_or_Value 1058 1068	≤ 40 kg/m2
+R48	Has_Result_or_Value Arg1:T46 Arg2:T114	
+R49	Has_Result_or_Value Arg1:T9 Arg2:T114	
+R50	Used_for Arg1:T48 Arg2:T15	
+R51	Used_for Arg1:T49 Arg2:T15	
+R52	Has_Route_or_Mode Arg1:T48 Arg2:T72	
+R53	Has_Route_or_Mode Arg1:T49 Arg2:T72	
+R54	Overlap Arg1:T48 Arg2:T74	
+R55	Before Arg1:T15 Arg2:T93	
+R56	Before Arg1:T15 Arg2:T109	
+R57	Overlap Arg1:T17 Arg2:T75	
+R58	Used_for Arg1:T20 Arg2:T71	
+R60	Speculation Arg1:T95 Arg2:T96	
+T115	Quantifier_or_Qualifier 1332 1344	concomitante
+#85	AnnotatorNotes T115	C0521115; Simultaneous; Temporal Concept
+R61	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T115	
+R62	Used_for Arg1:T21 Arg2:T79	
+T116	Quantifier_or_Qualifier 1448 1458	sistémicos
+#86	AnnotatorNotes T116	C0205373; Systemic; Functional Concept
+R64	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T116	
+R66	Used_for Arg1:T24 Arg2:T23	
+R67	Overlap Arg1:T24 Arg2:T80	
+R68	Overlap Arg1:T25 Arg2:T82	
+T117	Quantifier_or_Qualifier 1574 1585	premezclada
+R69	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T117	
+R70	Used_for Arg1:T25 Arg2:T23	
+R71	Overlap Arg1:T25 Arg2:T80	
+R72	Overlap Arg1:T25 Arg2:T83	
+R73	Overlap Arg1:T24 Arg2:T83	
+R74	Used_for Arg1:T24 Arg2:T26	
+R75	Used_for Arg1:T25 Arg2:T26	
+R76	Overlap Arg1:T28 Arg2:T91	
+R77	Overlap Arg1:T28 Arg2:T78	
+R78	Overlap Arg1:T30 Arg2:T85	
+R80	Used_for Arg1:T30 Arg2:T29	
+R82	Used_for Arg1:T32 Arg2:T29	
+R83	Used_for Arg1:T33 Arg2:T29	
+#87	AnnotatorNotes T31	C0061355; Glucagon-Like Peptide 1; Amino Acid, Peptide, or Protein
+#88	AnnotatorNotes T30	C1562104; Product containing glucagon-like peptide 1 receptor agonist (product); Pharmacologic Substance · Hormone
+R84	Location_of Arg1:T52 Arg2:T34	
+T118	Result_or_Value 1917 1970	≥ 2,5 veces el límite superior de la normalidad (LSN)
+R85	Has_Result_or_Value Arg1:T51 Arg2:T118	
+R87	Location_of Arg1:T56 Arg2:T40	
+R88	Location_of Arg1:T57 Arg2:T40	
+R89	Location_of Arg1:T56 Arg2:T39	
+R90	Location_of Arg1:T57 Arg2:T39	
+R91	Has_Duration_or_Interval Arg1:T43 Arg2:T90	
+T119	Quantifier_or_Qualifier 705 710	total
+#89	AnnotatorNotes T119	C0439810; Total; Qualitative Concept
+R92	Has_Quantifier_or_Qualifier Arg1:T104 Arg2:T119	
+R93	Overlap Arg1:T49 Arg2:T74	
+#90	AnnotatorNotes T94	C0205447; One; Quantitative Concept
+#91	AnnotatorNotes T105	C2986327; Study Recruitment Status Date; Temporal Concept
+A21	Experiencer T59 Patient
+A26	Experiencer T77 Other
+A27	Experiencer T84 Other
+A28	Experiencer T86 Patient
+A29	Experiencer T88 Patient

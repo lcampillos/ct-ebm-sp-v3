@@ -1,0 +1,92 @@
+T1	PROC 46 183	Estudio multicéntrico de 52 semanas de mantenimiento, aleatorizado, doble ciego, controlado con placebo, seguido de una extensión abierta
+T2	ANAT 921 924	CHO
+#1	AnnotatorNotes T2	C0085080; Chinese Hamster Ovary Cell; Cell
+T3	PROC 189 220	evaluar la eficacia y seguridad
+#2	AnnotatorNotes T3	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T4	DISO 254 270	colitis ulcerosa
+#3	AnnotatorNotes T4	C0009324; Ulcerative Colitis; Disease or Syndrome
+T5	PROC 293 317	tratamiento de inducción
+#4	AnnotatorNotes T5	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T6	DISO 377 393	Colitis Ulcerosa
+#5	AnnotatorNotes T6	C0009324; Ulcerative Colitis; Disease or Syndrome
+T7	PROC 512 522	endoscopia
+#6	AnnotatorNotes T7	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T8	DISO 817 834	hipersensibilidad
+#7	AnnotatorNotes T8	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T9	CHEM 859 869	excipiente
+#8	AnnotatorNotes T9	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T10	CHEM 876 886	medicación
+#9	AnnotatorNotes T10	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T11	PROC 890 901	tratamiento
+#10	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	CHEM 905 924	ingredientes de CHO
+T13	DISO 937 953	reacción adversa
+#11	AnnotatorNotes T13	C0559546; Adverse reactions; Pathologic Function
+T14	CHEM 224 236	Risankizumab
+#12	AnnotatorNotes T14	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T15	CHEM 837 849	risankizumab
+#13	AnnotatorNotes T15	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T16	Date 13 17	2016
+T17	Duration 71 81	52 semanas
+T18	LIVB 240 249	pacientes
+#14	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T20	LIVB 683 689	sujeto
+#15	AnnotatorNotes T20	C0681850; Study Subject; Group
+T21	LIVB 705 724	médico investigador
+#16	AnnotatorNotes T21	C0687734; Medical researcher; Professional or Occupational Group
+T22	LIVB 804 810	sujeto
+#17	AnnotatorNotes T22	C0681850; Study Subject; Group
+T23	LIVB 1012 1024	investigador
+#18	AnnotatorNotes T23	C0035173; Research Personnel; Professional or Occupational Group
+T24	LIVB 1033 1039	sujeto
+#19	AnnotatorNotes T24	C0681850; Study Subject; Group
+T19	PROC 612 618	visita
+#20	AnnotatorNotes T19	C1512346; Patient Visit; Health Care Activity
+T25	Quantifier_or_Qualifier 605 611	última
+A1	Status T8 History_of
+R1	Has_Duration_or_Interval Arg1:T1 Arg2:T17	
+R2	Experiences Arg1:T18 Arg2:T14	
+R3	Experiences Arg1:T18 Arg2:T4	
+R4	Experiences Arg1:T18 Arg2:T5	
+R5	Overlap Arg1:T14 Arg2:T5	
+T26	Observation 581 598	respuesta clínica
+#22	AnnotatorNotes T26	C4055223; Clinical Response; Finding
+R6	Overlap Arg1:T26 Arg2:T19	
+T27	Quantifier_or_Qualifier 773 783	inadecuado
+#23	AnnotatorNotes T27	C0205412; Inadequate (qualifier); Qualitative Concept
+R8	Experiences Arg1:T22 Arg2:T8	
+R9	Causes Arg1:T15 Arg2:T8	
+R10	Causes Arg1:T9 Arg2:T8	
+R11	Causes Arg1:T10 Arg2:T8	
+R12	Used_for Arg1:T10 Arg2:T11	
+R13	Used_for Arg1:T15 Arg2:T11	
+R14	Causes Arg1:T12 Arg2:T8	
+R15	Experiences Arg1:T22 Arg2:T13	
+T28	Quantifier_or_Qualifier 1040 1050	inadecuado
+R16	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T28	
+#24	AnnotatorNotes T28	C0205412; Inadequate (qualifier); Qualitative Concept
+R17	Experiences Arg1:T24 Arg2:T13	
+R18	Experiences Arg1:T24 Arg2:T8	
+R7	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T27	
+T29	Observation 433 457	finalización del Estudio
+#25	AnnotatorNotes T29	C2732579; Completion of clinical trial; Finding
+T30	Observation 423 430;446 457	entrada del Estudio
+#26	AnnotatorNotes T30	C0422726; Patient entered into trial; Finding
+T31	Observation 488 500	finalización
+#27	AnnotatorNotes T31	C2732579; Completion of clinical trial; Finding
+R19	Before Arg1:T7 Arg2:T31	
+T32	Quantifier_or_Qualifier 523 528	final
+R20	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T32	
+T33	Observation 275 317	han respondido al tratamiento de inducción
+R29	Experiences Arg1:T18 Arg2:T33	
+R30	Overlap Arg1:T14 Arg2:T33	
+R21	Before Arg1:T13 Arg2:T8	
+R22	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T25	
+#21	AnnotatorNotes T32	C3853528; Final; Temporal Concept
+#28	AnnotatorNotes T25	C1517741; Last; Qualitative Concept
+A2	Experiencer T24 Patient
+A3	Experiencer T23 Other
+A4	Experiencer T22 Patient
+A5	Experiencer T20 Patient
+A6	Experiencer T21 Other
+A7	Experiencer T18 Patient

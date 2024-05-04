@@ -1,0 +1,182 @@
+T1	DISO 58 90	infecciones respiratorias agudas
+#1	AnnotatorNotes T1	C0339901; Acute respiratory infections; Disease or Syndrome
+T2	PROC 170 184	suplementación
+#2	AnnotatorNotes T2	C0242297; Dietary Supplementation; Therapeutic or Preventive Procedure
+T3	CHEM 188 203	micronutrientes
+#3	AnnotatorNotes T3	C0282575; Micronutrients; Biologically Active Substance
+T4	PROC 942 969	Se asignaron aleatoriamente
+#4	AnnotatorNotes T4	C0034656; Randomization; Research Activity
+T5	CHEM 326 341	micronutrientes
+#5	AnnotatorNotes T5	C0282575; Micronutrients; Biologically Active Substance
+T6	DISO 384 416	infecciones respiratorias agudas
+#6	AnnotatorNotes T6	C0339901; Acute respiratory infections; Disease or Syndrome
+T7	CHEM 488 503	micronutrientes
+#7	AnnotatorNotes T7	C0282575; Micronutrients; Biologically Active Substance
+T8	PROC 622 696	ensayo clínico paralelo, aleatorizado, doble ciego, controlado con placebo
+#8	AnnotatorNotes T8	C2826345; Parallel Study; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C0206034; Clinical Trials, Randomized; Research Activity
+T9	PROC 1019 1026	placebo
+#9	AnnotatorNotes T9	C0032042; Placebos; Therapeutic or Preventive Procedure
+T10	PROC 766 776	evaluación
+#10	AnnotatorNotes T10	C1261322; Evaluation procedure; Health Care Activity
+T11	CHEM 836 848	medicamentos
+#11	AnnotatorNotes T11	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T12	PROC 909 940	signos vitales y de laboratorio
+#12	AnnotatorNotes T12	C2963216; Vital signs measurements; Health Care Activity + C0022885; Laboratory Procedures; Laboratory Procedure
+T13	DISO 1084 1092	síntomas
+#13	AnnotatorNotes T13	C1457887; Symptoms; Sign or Symptom
+T14	DISO 1125 1135	enfermedad
+#14	AnnotatorNotes T14	C0012634; Disease; Disease or Syndrome
+T15	DISO 1225 1234	infección
+#15	AnnotatorNotes T15	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T16	PROC 1527 1534	placebo
+#16	AnnotatorNotes T16	C0032042; Placebos; Therapeutic or Preventive Procedure
+T17	PROC 1612 1624	intervención
+#17	AnnotatorNotes T17	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T18	PROC 1703 1710	placebo
+#18	AnnotatorNotes T18	C0032042; Placebos; Therapeutic or Preventive Procedure
+T19	CHEM 1834 1849	micronutrientes
+#19	AnnotatorNotes T19	C0282575; Micronutrients; Biologically Active Substance
+T20	PROC 119 144	ensayo clínico controlado
+#20	AnnotatorNotes T20	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T21	CHEM 346 364	extractos herbales
+#21	AnnotatorNotes T21	C0032081; Plant Extracts; Biologically Active Substance · Pharmacologic Substance
+T22	CHEM 506 524	extractos herbales
+#22	AnnotatorNotes T22	C0032081; Plant Extracts; Biologically Active Substance · Pharmacologic Substance
+T23	PROC 1635 1647	suplementado
+#23	AnnotatorNotes T23	C0242297; Dietary Supplementation; Therapeutic or Preventive Procedure
+T24	DISO 1305 1313	enfermos
+#24	AnnotatorNotes T24	C0012634; Disease; Disease or Syndrome
+T25	Food 15 37	suplemento nutricional
+#25	AnnotatorNotes T25	C0242295; Dietary Supplements; Food
+T26	PROC 1505 1517	suplementado
+#26	AnnotatorNotes T26	C0242297; Dietary Supplementation; Therapeutic or Preventive Procedure
+T27	CHEM 1852 1870	extractos herbales
+#27	AnnotatorNotes T27	C0032081; Plant Extracts; Biologically Active Substance · Pharmacologic Substance
+T28	Food 461 483	suplemento alimenticio
+#28	AnnotatorNotes T28	C0242295; Dietary Supplements; Food
+T29	PROC 794 818	consentimiento informado
+#29	AnnotatorNotes T29	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T30	LIVB 94 101	adultos
+#30	AnnotatorNotes T30	C0001675; Adult; Age Group
+T32	LIVB 552 559	adultos
+#31	AnnotatorNotes T32	C0001675; Adult; Age Group
+T33	Date 577 582	enero
+T34	Date 583 596	abril de 2012
+T35	LIVB 712 719	adultos
+#32	AnnotatorNotes T35	C0001675; Adult; Age Group
+T36	Neg_cue 825 827	no
+T39	Duration 992 999	90 días
+T40	LIVB 1032 1039	sujetos
+#33	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	Frequency 1052 1063	diariamente
+T42	Spec_cue 1064 1066	si
+T45	LIVB 1161 1175	investigadores
+#34	AnnotatorNotes T45	C0035173; Research Personnel; Professional or Occupational Group
+T46	LIVB 1433 1440	sujetos
+#35	AnnotatorNotes T46	C0681850; Study Subject; Group
+T47	LIVB 1459 1466	mujeres
+#36	AnnotatorNotes T47	C0043210; Woman; Population Group
+T50	LIVB 1911 1918	adultos
+#37	AnnotatorNotes T50	C0001675; Adult; Age Group
+T52	ANAT 70 83	respiratorias
+#38	AnnotatorNotes T52	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T53	ANAT 396 409	respiratorias
+#39	AnnotatorNotes T53	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T31	LIVB 1181 1199	médico responsable
+#40	AnnotatorNotes T31	C4708568; Medically responsible investigator; Professional or Occupational Group
+T37	PROC 896 900	peso
+#41	AnnotatorNotes T37	C2985231; Body Weight Measurement; Diagnostic Procedure
+T38	PROC 902 907	talla
+#42	AnnotatorNotes T38	C0204658; Measuring height of patient; Diagnostic Procedure
+T44	PROC 1106 1112	diario
+#43	AnnotatorNotes T44	C2216446; maintain symptom diary; Health Care Activity (?)
+A1	Population_data T30 Age
+A2	Population_data T32 Age
+A3	Population_data T35 Age
+A4	Assertion T11 Negated
+A5	Assertion T13 Speculated
+A6	Population_data T50 Age
+R2	Location_of Arg1:T52 Arg2:T1	
+R4	Experiences Arg1:T30 Arg2:T1	
+R5	Experiences Arg1:T30 Arg2:T25	
+R7	Location_of Arg1:T53 Arg2:T6	
+T49	Quantifier_or_Qualifier 102 114	susceptibles
+#46	AnnotatorNotes T49	C0231204; Susceptible; Functional Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T49	
+T51	Quantifier_or_Qualifier 560 572	susceptibles
+#47	AnnotatorNotes T51	C0231204; Susceptible; Functional Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T51	
+T54	Quantifier_or_Qualifier 720 732	susceptibles
+#48	AnnotatorNotes T54	C0231204; Susceptible; Functional Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T54	
+T55	Quantifier_or_Qualifier 1919 1931	susceptibles
+#49	AnnotatorNotes T55	C0231204; Susceptible; Functional Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T55	
+R12	Combined_with Arg1:T19 Arg2:T27	
+R13	Experiences Arg1:T50 Arg2:T64	
+R14	Combined_with Arg1:T5 Arg2:T21	
+R15	Used_for Arg1:T3 Arg2:T2	
+R17	Combined_with Arg1:T28 Arg2:T7	
+R18	Combined_with Arg1:T7 Arg2:T22	
+R19	Experiences Arg1:T32 Arg2:T28	
+R20	After Arg1:T28 Arg2:T33	
+R21	Before Arg1:T28 Arg2:T34	
+T56	Quantifier_or_Qualifier 740 745	sanos
+#50	AnnotatorNotes T56	C3898900; Healthy; Qualitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T56	
+R23	Overlap Arg1:T56 Arg2:T10	
+R24	Negation Arg1:T36 Arg2:T11	
+R25	Experiences Arg1:T35 Arg2:T11	
+R26	Before Arg1:T10 Arg2:T29	
+T57	CONC 866 882	historia clínica
+#51	AnnotatorNotes T57	C5204342; Clinical History; Intellectual Product
+T58	Food 1003 1013	suplemento
+#52	AnnotatorNotes T58	C0242295; Dietary Supplements; Food
+R27	Before Arg1:T4 Arg2:T58	
+R28	Before Arg1:T4 Arg2:T9	
+R29	Has_Duration_or_Interval Arg1:T58 Arg2:T39	
+R30	Has_Duration_or_Interval Arg1:T9 Arg2:T39	
+R31	Experiences Arg1:T40 Arg2:T13	
+R32	Has_Frequency Arg1:T44 Arg2:T41	
+T59	CONC 1250 1273	prueba exacta de Fisher
+#53	AnnotatorNotes T59	C1708064; Fisher's Exact Test; Intellectual Product
+T60	CONC 1347 1362	riesgo relativo
+#54	AnnotatorNotes T60	C0242492; Relative Risk; Quantitative Concept
+R35	Experiences Arg1:T46 Arg2:T26	
+R36	Experiences Arg1:T46 Arg2:T16	
+R37	Experiences Arg1:T47 Arg2:T26	
+R38	Experiences Arg1:T47 Arg2:T16	
+T61	Neg_cue 1537 1539	No
+T62	CONC 1545 1556	diferencias
+A7	Assertion T62 Negated
+#55	AnnotatorNotes T62	C1705241; Delta (difference); Quantitative Concept
+R39	Negation Arg1:T61 Arg2:T62	
+T63	CONC 1575 1581	inicio
+#56	AnnotatorNotes T63	C0439659; Beginning; Temporal Concept
+R40	Overlap Arg1:T62 Arg2:T63	
+T64	Food 1813 1823	suplemento
+#57	AnnotatorNotes T64	C0242295; Dietary Supplements; Food
+R43	Combined_with Arg1:T64 Arg2:T19	
+R3	Speculation Arg1:T42 Arg2:T13	
+T43	Quantifier_or_Qualifier 1557 1571	significativas
+A8	Assertion T43 Negated
+#44	AnnotatorNotes T43	C0237881; Statistical Significance; Quantitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T43	
+R33	Negation Arg1:T61 Arg2:T43	
+T48	Observation 1 8	Efectos
+#45	AnnotatorNotes T48	C1518681; Outcome of Therapy; Finding (?)
+R44	Causes Arg1:T25 Arg2:T48	
+T65	Observation 448 454	efecto
+#58	AnnotatorNotes T65	C1518681; Outcome of Therapy; Finding (?)
+R45	Causes Arg1:T28 Arg2:T65	
+R1	Experiences Arg1:T30 Arg2:T48	
+R16	Experiences Arg1:T32 Arg2:T65	
+A9	Experiencer T30 Patient
+A10	Experiencer T32 Patient
+A11	Experiencer T35 Patient
+A12	Experiencer T40 Patient
+A13	Experiencer T31 Other
+A14	Experiencer T45 Other
+A15	Experiencer T47 Patient
+A16	Experiencer T46 Patient
+A17	Experiencer T50 Patient

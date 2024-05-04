@@ -1,0 +1,207 @@
+T1	PROC 44 67	Ensayo de investigación
+T2	PROC 73 94	averiguar la eficacia
+T3	DISO 126 141	diabetes tipo 2
+#1	AnnotatorNotes T3	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T4	DISO 144 153	sobrepeso
+#2	AnnotatorNotes T4	C0497406; Overweight; Finding
+T5	DISO 156 164	obesidad
+#3	AnnotatorNotes T5	C0028754; Obesity; Disease or Syndrome
+T6	DISO 261 270	sobrepeso
+#4	AnnotatorNotes T6	C0497406; Overweight; Finding
+T7	DISO 273 281	obesidad
+#5	AnnotatorNotes T7	C0028754; Obesity; Disease or Syndrome
+T8	DISO 284 299	diabetes tipo 2
+#6	AnnotatorNotes T8	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T9	ANAT 358 376	grasa en el cuerpo
+#7	AnnotatorNotes T9	C0015665; Fat Body; Body Part, Organ, or Organ Component
+T10	ANAT 412 430	grasa en el cuerpo
+#8	AnnotatorNotes T10	C0015665; Fat Body; Body Part, Organ, or Organ Component
+T11	DISO 434 449	Diabetes tipo 2
+#9	AnnotatorNotes T11	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T12	DISO 477 485	Obesidad
+#10	AnnotatorNotes T12	C0028754; Obesity; Disease or Syndrome
+T13	DISO 489 513	Diabetes Mellitus tipo 2
+#11	AnnotatorNotes T13	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T14	PROC 739 759	dieta para adelgazar
+#12	AnnotatorNotes T14	C0012167; Reducing diet; Therapeutic or Preventive Procedure
+T15	PROC 763 774	Diagnóstico
+#13	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 778 781	DT2
+#14	AnnotatorNotes T16	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T17	DISO 929 956	variación del peso corporal
+#15	AnnotatorNotes T17	C0005911; Body Weight Changes; Finding
+T18	DISO 1067 1086	Insuficiencia renal
+#16	AnnotatorNotes T18	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T19	PROC 1103 1133	filtración glomerular estimada
+T20	CHEM 1240 1250	creatinina
+#17	AnnotatorNotes T20	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T21	DISO 324 376	Acumulación excesiva o anormal de grasa en el cuerpo
+T22	DISO 1347 1368	Retinopatía diabética
+#18	AnnotatorNotes T22	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T23	DISO 1371 1382	maculopatía
+#19	AnnotatorNotes T23	C0730362; Disorder of macula of retina; Disease or Syndrome
+T24	PROC 1135 1138	FGe
+#20	AnnotatorNotes T24	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T25	PROC 1449 1462	oftalmoscopia
+#21	AnnotatorNotes T25	C0029090; Ophthalmoscopy; Diagnostic Procedure
+T26	ANAT 1499 1506	pupilas
+#22	AnnotatorNotes T26	C0034121; Pupil; Body Part, Organ, or Organ Component | C1305618; Entire pupil; Body Part, Organ, or Organ Component
+T27	PROC 1690 1704	aleatorización
+#23	AnnotatorNotes T27	C0034656; Randomization; Research Activity
+T28	CHEM 98 109	semaglutida
+#24	AnnotatorNotes T28	C3885068; semaglutide; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T29	CHEM 207 218	semaglutida
+#25	AnnotatorNotes T29	C3885068; semaglutide; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T30	PROC 644 667	Índice de masa corporal
+#26	AnnotatorNotes T30	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T31	ANAT 659 667	corporal
+#27	AnnotatorNotes T31	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T32	PROC 1198 1206	tratados
+#28	AnnotatorNotes T32	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T33	PROC 669 672	IMC
+#29	AnnotatorNotes T33	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T34	PROC 783 788	HbA1c
+#30	AnnotatorNotes T34	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T35	ANAT 948 956	corporal
+#31	AnnotatorNotes T35	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T36	CHEM 1211 1217	SGLT2i
+#32	AnnotatorNotes T36	C3542461; Sodium-Glucose Cotransporter 2 Inhibitor; Pharmacologic Substance
+T37	ANAT 1081 1086	renal
+#33	AnnotatorNotes T37	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T38	PROC 1240 1258	creatinina CKD-EPI
+#34	AnnotatorNotes T38	C2964649; Creatinine-based formula (CKD-EPI); Laboratory Procedure
+T39	PROC 1467 1506	dilatación farmacológica de las pupilas
+T40	Date 12 16	2017
+T41	LIVB 113 121	personas
+#35	AnnotatorNotes T41	C0027361; Persons; Population Group
+T42	Dose 219 225	2,4 mg
+T43	Frequency 226 245	una vez a la semana
+T44	LIVB 249 256	sujetos
+#36	AnnotatorNotes T44	C0681850; Study Subject; Group
+T45	LIVB 541 565	Pacientes de ambos sexos
+#37	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T46	Age 570 577	18 años
+T49	Duration 838 846	180 días
+T50	LIVB 908 916	paciente
+#38	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Duration 967 978	los 90 días
+T54	LIVB 1188 1197	pacientes
+#39	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1524 1535	oftalmólogo
+#40	AnnotatorNotes T57	C1704292; Ophthalmologist (occupation); Professional or Occupational Group
+T58	LIVB 1541 1562	profesional sanitario
+#41	AnnotatorNotes T58	C0018724; Health Personnel; Professional or Occupational Group
+T59	LIVB 1598 1610	optometrista
+#42	AnnotatorNotes T59	C0334946; Dispensing optician; Professional or Occupational Group
+T60	Duration 1615 1626	los 90 días
+T61	PROC 616 640	consentimiento informado
+#43	AnnotatorNotes T61	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T47	Date 1296 1300	2012
+T48	ANAT 1114 1124	glomerular
+#44	AnnotatorNotes T48	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T52	PHYS 1103 1124	filtración glomerular
+#45	AnnotatorNotes T52	C0232809; Glomerular filtration; Organ or Tissue Function
+A1	Status T14 History_of
+A2	Status T25 History_of
+A3	Status T39 History_of
+#46	AnnotatorNotes T2	C1707887; Efficacy Study; Research Activity
+#47	AnnotatorNotes T1	C0681814; research study; Research Activity
+#48	AnnotatorNotes T19	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T53	Quantifier_or_Qualifier 1386 1396	controlada
+A4	Assertion T53 Negated
+T55	Neg_cue 1383 1385	no
+T56	Spec_cue 1399 1413	potencialmente
+T62	Observation 1414 1423	inestable
+A5	Assertion T62 Speculated
+#49	AnnotatorNotes T62	C0443343; Unstable status; Finding
+R1	Experiences Arg1:T41 Arg2:T28	
+R2	Experiences Arg1:T41 Arg2:T3	
+R3	Experiences Arg1:T41 Arg2:T4	
+R4	Overlap Arg1:T3 Arg2:T4	
+R5	Overlap Arg1:T3 Arg2:T5	
+R6	Experiences Arg1:T41 Arg2:T5	
+R7	Has_Dose_or_Strength Arg1:T29 Arg2:T42	
+R8	Has_Frequency Arg1:T29 Arg2:T43	
+R9	Experiences Arg1:T44 Arg2:T29	
+R10	Experiences Arg1:T44 Arg2:T6	
+R11	Experiences Arg1:T44 Arg2:T7	
+R12	Overlap Arg1:T6 Arg2:T8	
+R13	Overlap Arg1:T7 Arg2:T8	
+R14	Location_of Arg1:T9 Arg2:T21	
+T63	Observation 379 430	exceso en la proporción total de grasa en el cuerpo
+R15	Location_of Arg1:T10 Arg2:T63	
+R16	Has_Age Arg1:T45 Arg2:T46	
+R17	Overlap Arg1:T61 Arg2:T46	
+R18	Location_of Arg1:T31 Arg2:T30	
+R19	Location_of Arg1:T31 Arg2:T33	
+T64	Result_or_Value 674 682	27 kg/m2
+R20	Has_Result_or_Value Arg1:T33 Arg2:T64	
+R21	Has_Result_or_Value Arg1:T30 Arg2:T64	
+T65	Quantifier_or_Qualifier 702 729	al menos un intento fallido
+R22	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T65	
+T66	Result_or_Value 793 836	7 %-10 % (53-86 mmol/mol) (ambos inclusive)
+R23	Has_Result_or_Value Arg1:T34 Arg2:T66	
+R24	Before Arg1:T34 Arg2:T15	
+T67	PROC 867 876	selección
+#50	AnnotatorNotes T67	C0242802; Patient Selection; Research Activity
+R27	Before Arg1:T34 Arg2:T67	
+R28	Before Arg1:T15 Arg2:T67	
+R26	Overlap Arg1:T16 Arg2:T49	
+R29	Location_of Arg1:T35 Arg2:T17	
+T68	Result_or_Value 957 963	> 5 kg
+R30	Has_Result_or_Value Arg1:T17 Arg2:T68	
+R31	Experiences Arg1:T50 Arg2:T17	
+T69	PROC 995 1004	selección
+#51	AnnotatorNotes T69	C0242802; Patient Selection; Research Activity
+R32	Overlap Arg1:T17 Arg2:T51	
+R33	Before Arg1:T17 Arg2:T69	
+T70	CONC 1047 1063	historia clínica
+#52	AnnotatorNotes T70	C5204342; Clinical History; Intellectual Product
+R34	Location_of Arg1:T37 Arg2:T18	
+R35	Location_of Arg1:T48 Arg2:T52	
+R36	Location_of Arg1:T48 Arg2:T19	
+R39	Location_of Arg1:T48 Arg2:T24	
+T71	Result_or_Value 1140 1159	< 30 ml/min/1,73 m2
+R42	Has_Result_or_Value Arg1:T19 Arg2:T71	
+R43	Has_Result_or_Value Arg1:T24 Arg2:T71	
+T72	Result_or_Value 1161 1180	< 60 ml/min/1,73 m2
+R44	Has_Result_or_Value Arg1:T24 Arg2:T72	
+R45	Has_Result_or_Value Arg1:T19 Arg2:T72	
+R46	Experiences Arg1:T54 Arg2:T18	
+R47	Experiences Arg1:T54 Arg2:T52	
+R48	Experiences Arg1:T54 Arg2:T19	
+R49	Experiences Arg1:T54 Arg2:T24	
+R50	Experiences Arg1:T54 Arg2:T32	
+R51	Experiences Arg1:T54 Arg2:T38	
+R54	Used_for Arg1:T36 Arg2:T32	
+R55	Negation Arg1:T55 Arg2:T53	
+R56	Speculation Arg1:T56 Arg2:T62	
+R57	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T53	
+R58	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T62	
+R59	Location_of Arg1:T26 Arg2:T39	
+R60	Before Arg1:T39 Arg2:T25	
+#53	AnnotatorNotes T39	C3267125; Pupil dilation procedure; Diagnostic Procedure (?)
+R61	Overlap Arg1:T39 Arg2:T60	
+R62	Overlap Arg1:T25 Arg2:T60	
+T73	PROC 1333 1342	selección
+#54	AnnotatorNotes T73	C0242802; Patient Selection; Research Activity
+R63	Overlap Arg1:T18 Arg2:T73	
+R64	Overlap Arg1:T19 Arg2:T73	
+R65	Overlap Arg1:T24 Arg2:T73	
+R66	Overlap Arg1:T38 Arg2:T73	
+T74	PROC 1640 1649	selección
+#55	AnnotatorNotes T74	C0242802; Patient Selection; Research Activity
+T75	PROC 1675 1684	selección
+#56	AnnotatorNotes T75	C0242802; Patient Selection; Research Activity
+R67	Before Arg1:T39 Arg2:T74	
+R68	After Arg1:T39 Arg2:T75	
+R69	Before Arg1:T39 Arg2:T27	
+R70	Experiences Arg1:T44 Arg2:T8	
+A6	Experiencer T59 Other
+A7	Experiencer T58 Other
+A8	Experiencer T57 Other
+A9	Experiencer T41 Patient
+A10	Experiencer T44 Patient
+A11	Experiencer T45 Patient
+A12	Experiencer T50 Patient
+A13	Experiencer T54 Patient

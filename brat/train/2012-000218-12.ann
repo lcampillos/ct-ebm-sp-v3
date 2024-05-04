@@ -1,0 +1,151 @@
+T1	PROC 46 61	Estudio Clínico
+#1	AnnotatorNotes T1	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T2	PROC 67 115	evaluar la Seguridad, Inmunogenicidad y Eficacia
+T3	PROC 267 371	Estudio clínico multicéntrico de fase III estratificado, aleatorizado, con observador ciego y controlado
+T4	PROC 882 896	Consentimiento
+#2	AnnotatorNotes T4	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T5	PROC 377 431	evaluar la seguridad, la inmunogenicidad y la eficacia
+T6	CHEM 439 458	vacuna tetravalente
+T7	CHEM 478 487	adyuvante
+#4	AnnotatorNotes T7	C0001551; Immunologic Adjuvants; Pharmacologic Substance · Immunologic Factor
+T8	CHEM 583 592	adyuvante
+#5	AnnotatorNotes T8	C0001551; Immunologic Adjuvants; Pharmacologic Substance · Immunologic Factor
+T9	PROC 697 707	Profilaxis
+#6	AnnotatorNotes T9	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T10	DISO 803 817	complicaciones
+#7	AnnotatorNotes T10	C0009566; Complication; Pathologic Function
+T11	DISO 834 839	gripe
+#8	AnnotatorNotes T11	C0021400; Influenza; Disease or Syndrome
+T12	PROC 1071 1085	procedimientos
+#9	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T13	DISO 1155 1162	alergia
+#10	AnnotatorNotes T13	C1527304; Allergic Reaction; Pathologic Function
+T14	CHEM 123 157	vacuna contra el virus de la gripe
+#11	AnnotatorNotes T14	C0021403; Influenza virus vaccine; Immunologic Factor · Pharmacologic Substance
+T15	DISO 152 157	gripe
+#12	AnnotatorNotes T15	C0021400; Influenza; Disease or Syndrome
+T16	CHEM 181 215	vacuna contra el virus de la gripe
+#13	AnnotatorNotes T16	C0021403; Influenza virus vaccine; Immunologic Factor · Pharmacologic Substance
+T17	DISO 210 215	gripe
+#14	AnnotatorNotes T17	C0021400; Influenza; Disease or Syndrome
+T18	CHEM 217 224	Fluzone
+T19	DISO 510 515	gripe
+#15	AnnotatorNotes T19	C0021400; Influenza; Disease or Syndrome
+T20	CHEM 529 535	vacuna
+#16	AnnotatorNotes T20	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T21	DISO 573 578	gripe
+#17	AnnotatorNotes T21	C0021400; Influenza; Disease or Syndrome
+T22	DISO 665 670	gripe
+#18	AnnotatorNotes T22	C0021400; Influenza; Disease or Syndrome
+T23	DISO 728 733	gripe
+#19	AnnotatorNotes T23	C0021400; Influenza; Disease or Syndrome
+T24	CHEM 1187 1193	vacuna
+#20	AnnotatorNotes T24	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T25	Date 13 17	2012
+T26	LIVB 238 243	niños
+#21	AnnotatorNotes T26	C0008059; Child; Age Group
+T27	LIVB 498 515	virus de la gripe
+#22	AnnotatorNotes T27	C0029341; Orthomyxoviridae; Virus
+T28	LIVB 561 578	virus de la gripe
+#23	AnnotatorNotes T28	C0029341; Orthomyxoviridae; Virus
+T29	Neg_cue 579 582	sin
+T30	LIVB 596 601	niños
+#24	AnnotatorNotes T30	C0008059; Child; Age Group
+T31	Age 602 621	de ≥ 6 a < 72 meses
+T32	LIVB 653 670	Virus de la gripe
+#25	AnnotatorNotes T32	C0029341; Orthomyxoviridae; Virus
+T33	LIVB 716 733	virus de la gripe
+#26	AnnotatorNotes T33	C0029341; Orthomyxoviridae; Virus
+T34	LIVB 762 767	Niños
+#27	AnnotatorNotes T34	C0008059; Child; Age Group
+T35	LIVB 770 775	niñas
+#28	AnnotatorNotes T35	C0008059; Child; Age Group + C0870604; Female child; Age Group
+T36	Spec_cue 793 802	riesgo de
+T38	Age 841 870	de ≥ 6 meses hasta < 72 meses
+T39	LIVB 970 976	sujeto
+#29	AnnotatorNotes T39	C0681850; Study Subject; Group
+T40	LIVB 980 987	Sujetos
+#30	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	LIVB 1031 1037	sujeto
+#31	AnnotatorNotes T41	C0681850; Study Subject; Group
+T42	LIVB 1127 1134	Sujetos
+#32	AnnotatorNotes T42	C0681850; Study Subject; Group
+T37	LIVB 946 965	tutor(es) legal(es)
+#33	AnnotatorNotes T37	C4288823; Legal Representative for the Study; Human
+T43	LIVB 931 945	progenitor(es)
+#34	AnnotatorNotes T43	C0030551; parent; Family Group
+T44	LIVB 992 1006	progenitor(es)
+#35	AnnotatorNotes T44	C0030551; parent; Family Group
+T45	LIVB 1007 1026	tutor(es) legal(es)
+#36	AnnotatorNotes T45	C4288823; Legal Representative for the Study; Human
+#37	AnnotatorNotes T3	C0282461; Phase 3 Clinical Trials; Research Activity + C1096776; Multicenter Study; Research Activity + C1514983; Stratification; Research Activity + C0150108; Blinded; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#38	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity + C4054739; Immunogenicity Study; Research Activity
+#39	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity + C4054739; Immunogenicity Study; Research Activity
+#40	AnnotatorNotes T18	C0720492; Fluzone; Pharmacologic Substance · Immunologic Factor
+A1	Population_data T26 Age
+A2	Assertion T8 Negated
+A3	Population_data T30 Age
+A4	Population_data T34 Age
+A5	Population_data T35 Age
+A6	Assertion T10 Speculated
+A7	Status T13 History_of
+R1	Experiences Arg1:T26 Arg2:T14	
+R2	Experiences Arg1:T26 Arg2:T16	
+R3	Experiences Arg1:T26 Arg2:T18	
+R4	Combined_with Arg1:T6 Arg2:T7	
+R5	Combined_with Arg1:T20 Arg2:T8	
+R6	Negation Arg1:T29 Arg2:T8	
+R7	Has_Age Arg1:T30 Arg2:T31	
+R8	Experiences Arg1:T30 Arg2:T6	
+R9	Experiences Arg1:T30 Arg2:T20	
+R10	Before Arg1:T9 Arg2:T23	
+T46	LIVB 140 157	virus de la gripe
+#3	AnnotatorNotes T46	C0029341; Orthomyxoviridae; Virus
+T47	LIVB 198 215	virus de la gripe
+#41	AnnotatorNotes T47	C0029341; Orthomyxoviridae; Virus
+R11	Causes Arg1:T46 Arg2:T15	
+R12	Causes Arg1:T47 Arg2:T17	
+R13	Causes Arg1:T27 Arg2:T19	
+R14	Causes Arg1:T28 Arg2:T21	
+R15	Causes Arg1:T33 Arg2:T23	
+R16	Causes Arg1:T32 Arg2:T22	
+R17	Speculation Arg1:T36 Arg2:T10	
+R20	Has_Age Arg1:T35 Arg2:T38	
+R21	Has_Age Arg1:T34 Arg2:T38	
+R18	Before Arg1:T11 Arg2:T10	
+T48	Quantifier_or_Qualifier 776 781	sanos
+#42	AnnotatorNotes T48	C3898900; Healthy; Qualitative Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T48	
+R22	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T48	
+R23	Experiences Arg1:T41 Arg2:T12	
+R24	Experiences Arg1:T40 Arg2:T12	
+T49	Observation 1038 1085	capaces de cumplir con todos los procedimientos
+#43	AnnotatorNotes T49	C0582784; Able to comply with treatment; Finding | C0582783; Ability to comply with treatment; Finding
+R25	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T49	
+R27	Experiences Arg1:T42 Arg2:T13	
+R28	Causes Arg1:T24 Arg2:T13	
+T50	Observation 788 802	alto riesgo de
+#44	AnnotatorNotes T50	C0332167; High risk of; Finding
+R29	Experiences Arg1:T35 Arg2:T50	
+R30	Experiences Arg1:T34 Arg2:T50	
+R31	Before Arg1:T50 Arg2:T10	
+R32	Experiences Arg1:T34 Arg2:T10	
+R33	Experiences Arg1:T35 Arg2:T10	
+R34	Experiences Arg1:T34 Arg2:T11	
+R35	Experiences Arg1:T35 Arg2:T11	
+R26	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T49	
+R36	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T49	
+R37	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T49	
+#45	AnnotatorNotes T6	C4318638; Quadrivalent Influenza Vaccine; Pharmacologic Substance
+A8	Experiencer T26 Patient
+A9	Experiencer T30 Patient
+A10	Experiencer T34 Patient
+A11	Experiencer T35 Patient
+A12	Experiencer T43 Family_member
+A13	Experiencer T37 Other
+A14	Experiencer T39 Patient
+A15	Experiencer T40 Patient
+A16	Experiencer T44 Family_member
+A17	Experiencer T45 Other
+A18	Experiencer T41 Patient
+A19	Experiencer T42 Patient

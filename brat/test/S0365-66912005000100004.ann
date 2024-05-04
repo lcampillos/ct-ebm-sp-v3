@@ -1,0 +1,147 @@
+T1	PROC 1 26	Valoración de la eficacia
+#1	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+T2	PROC 30 59	tratamiento tópico prolongado
+T3	PROC 65 73	prevenir
+#2	AnnotatorNotes T3	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T4	PROC 87 92	LASIK
+#3	AnnotatorNotes T4	C0752094; Keratomileusis, Laser In Situ; Therapeutic or Preventive Procedure
+T5	DISO 93 107	hipermetrópico
+#4	AnnotatorNotes T5	C0020490; Hyperopia; Disease or Syndrome
+T6	PROC 143 184	tratamiento corticoideo tópico prolongado
+T7	PROC 198 206	operados
+#5	AnnotatorNotes T7	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T8	PROC 210 215	LASIK
+#6	AnnotatorNotes T8	C0752094; Keratomileusis, Laser In Situ; Therapeutic or Preventive Procedure
+T9	DISO 216 230	hipermetrópico
+#7	AnnotatorNotes T9	C0020490; Hyperopia; Disease or Syndrome
+T10	PROC 267 309	estudio prospectivo observador enmascarado
+#8	AnnotatorNotes T10	C0033522; Prospective Studies; Research Activity + C0242570; Single-Blind Study; Research Activity
+T11	PROC 407 431	asignados aleatoriamente
+#9	AnnotatorNotes T11	C0034656; Randomization; Research Activity
+T12	CHEM 558 572	fluorometalona
+#10	AnnotatorNotes T12	C0016351; fluorometholone; Organic Chemical · Pharmacologic Substance
+T13	PROC 334 347	cirugía LASIK
+#11	AnnotatorNotes T13	C2095814; LASIK surgery; Therapeutic or Preventive Procedure
+T14	DISO 386 399	hipermetropía
+#12	AnnotatorNotes T14	C0020490; Hyperopia; Disease or Syndrome
+T15	PROC 442 472	tratamiento tópico corticoideo
+T16	CHEM 461 472	corticoideo
+#13	AnnotatorNotes T16	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T17	CHEM 474 486	dexametasona
+#14	AnnotatorNotes T17	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T18	CHEM 525 537	dexametasona
+#15	AnnotatorNotes T18	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T19	DISO 1058 1078	regresión refractiva
+T20	ANAT 703 707	ojos
+#16	AnnotatorNotes T20	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T21	PROC 1084 1089	LASIK
+#17	AnnotatorNotes T21	C0752094; Keratomileusis, Laser In Situ; Therapeutic or Preventive Procedure
+T22	DISO 1090 1104	hipermetrópico
+#18	AnnotatorNotes T22	C0020490; Hyperopia; Disease or Syndrome
+T23	PROC 1151 1181	tratamiento corticoideo tópico
+T24	DISO 74 83	regresión
+#19	AnnotatorNotes T24	C0544452; Disease remission; Finding | C0597370; remission/regression; Pathologic Function
+T25	CHEM 155 166	corticoideo
+#20	AnnotatorNotes T25	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T26	CHEM 1163 1174	corticoideo
+#21	AnnotatorNotes T26	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T27	Route 42 48	tópico
+#22	AnnotatorNotes T27	C1522168; Topical Route of Drug Administration; Functional Concept
+T28	Route 167 173	tópico
+#23	AnnotatorNotes T28	C1522168; Topical Route of Drug Administration; Functional Concept
+T29	LIVB 188 197	pacientes
+#24	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 311 320	Pacientes
+#25	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Route 454 460	tópico
+#26	AnnotatorNotes T31	C1522168; Topical Route of Drug Administration; Functional Concept
+T32	Duration 488 498	una semana
+T33	LIVB 500 513	grupo control
+#27	AnnotatorNotes T33	C0009932; Control Groups; Group
+T34	Duration 517 523	un mes
+T35	Duration 538 555	la primera semana
+T36	Date 773 786	preoperatorio
+#28	AnnotatorNotes T36	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T39	Route 1175 1181	tópico
+#29	AnnotatorNotes T39	C1522168; Topical Route of Drug Administration; Functional Concept
+T40	Duration 937 948	los 3 meses
+T41	Duration 573 592	las tres siguientes
+T37	LIVB 855 868	grupo estudio
+#30	AnnotatorNotes T37	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T42	LIVB 993 1006	grupo estudio
+#31	AnnotatorNotes T42	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T38	LIVB 601 614	grupo estudio
+#32	AnnotatorNotes T38	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T43	LIVB 723 730	estudio
+#33	AnnotatorNotes T43	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T44	LIVB 733 740	control
+#34	AnnotatorNotes T44	C0009932; Control Groups; Group
+T45	LIVB 871 878	control
+#35	AnnotatorNotes T45	C0009932; Control Groups; Group
+T46	LIVB 1009 1016	control
+#36	AnnotatorNotes T46	C0009932; Control Groups; Group
+T47	PROC 616 640	Se comparó la refracción
+#37	AnnotatorNotes T47	C0430943; Refraction assessment; Diagnostic Procedure
+R1	Has_Route_or_Mode Arg1:T2 Arg2:T27	
+R2	Before Arg1:T3 Arg2:T24	
+R3	Before Arg1:T2 Arg2:T24	
+R6	Used_for Arg1:T25 Arg2:T6	
+R7	Has_Route_or_Mode Arg1:T25 Arg2:T28	
+R8	Experiences Arg1:T29 Arg2:T7	
+R9	Used_for Arg1:T29 Arg2:T6	
+R10	Experiences Arg1:T29 Arg2:T8	
+R11	Experiences Arg1:T29 Arg2:T9	
+R13	Before Arg1:T8 Arg2:T6	
+R14	Experiences Arg1:T30 Arg2:T13	
+T48	Quantifier_or_Qualifier 370 374	baja
+T49	Quantifier_or_Qualifier 377 385	moderada
+R15	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T49	
+R16	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T48	
+R17	Experiences Arg1:T30 Arg2:T14	
+R20	Has_Route_or_Mode Arg1:T17 Arg2:T31	
+R21	Has_Duration_or_Interval Arg1:T17 Arg2:T32	
+R22	Used_for Arg1:T17 Arg2:T15	
+R23	Experiences Arg1:T33 Arg2:T15	
+R18	Has_Duration_or_Interval Arg1:T17 Arg2:T34	
+R19	Experiences Arg1:T38 Arg2:T15	
+R24	Has_Duration_or_Interval Arg1:T12 Arg2:T41	
+R25	Has_Duration_or_Interval Arg1:T18 Arg2:T35	
+R26	Used_for Arg1:T12 Arg2:T15	
+R27	Used_for Arg1:T18 Arg2:T15	
+R28	Has_Route_or_Mode Arg1:T18 Arg2:T31	
+R29	Has_Route_or_Mode Arg1:T12 Arg2:T31	
+T50	CONC 746 766	equivalente esférico
+R30	Overlap Arg1:T50 Arg2:T36	
+T51	PROC 907 917	refracción
+#38	AnnotatorNotes T51	C0430943; Refraction assessment; Diagnostic Procedure
+R31	Overlap Arg1:T51 Arg2:T40	
+R32	Experiences Arg1:T42 Arg2:T51	
+R33	Experiences Arg1:T46 Arg2:T51	
+R34	After Arg1:T19 Arg2:T21	
+T52	Neg_cue 1106 1108	no
+T53	Quantifier_or_Qualifier 1120 1129	modulable
+A1	Assertion T53 Negated
+R36	Negation Arg1:T52 Arg2:T53	
+R37	Used_for Arg1:T26 Arg2:T23	
+R38	Has_Route_or_Mode Arg1:T26 Arg2:T39	
+R40	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T53	
+R41	Experiences Arg1:T30 Arg2:T15	
+R42	Experiences Arg1:T38 Arg2:T12	
+R43	Experiences Arg1:T30 Arg2:T17	
+R44	Experiences Arg1:T38 Arg2:T18	
+R45	Before Arg1:T4 Arg2:T2	
+R49	Before Arg1:T11 Arg2:T15	
+R50	Before Arg1:T21 Arg2:T23	
+R51	Before Arg1:T13 Arg2:T15	
+#39	AnnotatorNotes T49	C0205081; Moderate (severity modifier); Qualitative Concept
+#40	AnnotatorNotes T48	C0205251; low; Qualitative Concept 
+A2	Experiencer T29 Patient
+A3	Experiencer T30 Patient
+A4	Experiencer T33 Patient
+A5	Experiencer T38 Patient
+A6	Experiencer T43 Patient
+A7	Experiencer T44 Patient
+A8	Experiencer T37 Patient
+A9	Experiencer T45 Patient
+A10	Experiencer T46 Patient
+A11	Experiencer T42 Patient

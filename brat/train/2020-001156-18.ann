@@ -1,0 +1,385 @@
+T1	PROC 67 79	tratamientos
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 92 114	infectados por COVID19
+T3	PROC 169 188	evaluar la eficacia
+#2	AnnotatorNotes T3	C1707887; Efficacy Study; Research Activity
+T4	PROC 203 215	tratamientos
+#3	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	PROC 255 270	hospitalización
+#4	AnnotatorNotes T5	C0019993; Hospitalization; Health Care Activity
+T6	DISO 303 325	infectados con COVID19
+T7	PROC 402 426	consentimiento informado
+#5	AnnotatorNotes T7	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T8	PROC 477 487	ingresados
+#6	AnnotatorNotes T8	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T9	PROC 492 503	diagnóstico
+#7	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	PROC 683 704	Saturación de oxígeno
+#8	AnnotatorNotes T10	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T11	DISO 233 240	COVID19
+#9	AnnotatorNotes T11	C5203670; COVID19 (disease); Disease or Syndrome
+T12	PROC 540 551	Diagnóstico
+#10	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	PROC 2589 2611	traslado a otro centro
+#11	AnnotatorNotes T13	C0030704; Patient Transfer; Health Care Activity
+T14	CHEM 697 704	oxígeno
+#12	AnnotatorNotes T14	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T15	PROC 630 644	aleatorización
+#13	AnnotatorNotes T15	C0034656; Randomization; Research Activity
+T16	DISO 662 670	síntomas
+#14	AnnotatorNotes T16	C1457887; Symptoms; Sign or Symptom
+T17	PROC 790 813	métodos anticonceptivos
+#15	AnnotatorNotes T17	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T18	CHEM 848 859	espermicida
+#16	AnnotatorNotes T18	C0037862; Spermatocidal Agents; Pharmacologic Substance
+T19	CHEM 889 900	espermicida
+#17	AnnotatorNotes T19	C0037862; Spermatocidal Agents; Pharmacologic Substance
+T20	CHEM 902 916	anticonceptivo
+#18	AnnotatorNotes T20	C0009871; Contraceptive Agents; Pharmacologic Substance
+T21	CHEM 982 996	anticonceptivo
+#19	AnnotatorNotes T21	C0009871; Contraceptive Agents; Pharmacologic Substance
+T22	PROC 1067 1077	vasectomía
+#20	AnnotatorNotes T22	C0042387; Vasectomy; Therapeutic or Preventive Procedure
+T23	PROC 1259 1277	prueba de embarazo
+#21	AnnotatorNotes T23	C0032976; Pregnancy Tests; Diagnostic Procedure
+T24	PROC 1383 1397	ensayo clínico
+#22	AnnotatorNotes T24	C0008976; Clinical Trials; Research Activity
+T25	DISO 1403 1427	infección por SARS-CoV-2
+#23	AnnotatorNotes T25	C5203670; COVID19 (disease); Disease or Syndrome
+T26	PROC 1431 1455	Tratamiento concomitante
+#24	AnnotatorNotes T26	C1707479; Concomitant Therapy; Therapeutic or Preventive Procedure
+T27	CHEM 1466 1474	fármacos
+#25	AnnotatorNotes T27	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T28	PROC 1492 1504	tratamientos
+#26	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	CHEM 1685 1697	medicamentos
+#27	AnnotatorNotes T29	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T30	DISO 1726 1745	fallo multiorgánico
+#28	AnnotatorNotes T30	C0026766; Multiple Organ Failure; Pathologic Function
+T31	PROC 1773 1793	ventilación mecánica
+#29	AnnotatorNotes T31	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T32	DISO 1861 1887	distrés respiratorio agudo
+T33	PROC 1983 1992	screening
+#30	AnnotatorNotes T33	C0220908; Screening procedure; Diagnostic Procedure
+T34	PROC 1996 2022	Aclaramiento de creatinina
+#31	AnnotatorNotes T34	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T35	PROC 2048 2057	screening
+#32	AnnotatorNotes T35	C0220908; Screening procedure; Diagnostic Procedure
+T36	PROC 2061 2077	Test de embarazo
+#33	AnnotatorNotes T36	C0032976; Pregnancy Tests; Diagnostic Procedure
+T37	PROC 2112 2121	screening
+#34	AnnotatorNotes T37	C0220908; Screening procedure; Diagnostic Procedure
+T38	DISO 2174 2191	hipersensibilidad
+#35	AnnotatorNotes T38	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T39	CHEM 2236 2244	fármacos
+#36	AnnotatorNotes T39	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T40	PROC 2261 2272	tratamiento
+#37	AnnotatorNotes T40	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T41	CHEM 2290 2301	metabolitos
+#38	AnnotatorNotes T41	C0870883; Metabolite; Biologically Active Substance
+T42	CHEM 2304 2315	excipientes
+#39	AnnotatorNotes T42	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T43	PROC 2400 2410	evaluación
+#40	AnnotatorNotes T43	C1261322; Evaluation procedure; Health Care Activity
+T44	PROC 2528 2552	consentimiento informado
+#41	AnnotatorNotes T44	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T45	PROC 136 163	Ensayo clínico aleatorizado
+#42	AnnotatorNotes T45	C0206034; Clinical Trials, Randomized; Research Activity
+T46	DISO 507 536	neumonía grave por SARS-CoV-2
+T47	DISO 555 579	infección por SARS-CoV-2
+#43	AnnotatorNotes T47	C5203670; COVID19 (disease); Disease or Syndrome
+T48	PROC 595 598	PCR
+#44	AnnotatorNotes T48	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T49	PROC 957 980	implante anticonceptivo
+T51	PROC 1614 1644	administración del tratamiento
+T52	PROC 1918 1921	ALT
+#45	AnnotatorNotes T52	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T53	PROC 1924 1927	AST
+#46	AnnotatorNotes T53	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T54	CHEM 2012 2022	creatinina
+#47	AnnotatorNotes T54	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T55	Date 12 16	2020
+T56	LIVB 83 91	paciente
+#48	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 219 228	pacientes
+#49	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 293 302	Pacientes
+#50	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 430 436	Hombre
+#51	AnnotatorNotes T59	C0025266; Male population group; Population Group
+T60	LIVB 439 446	mujeres
+#52	AnnotatorNotes T60	C0043210; Woman; Population Group
+T61	Age 456 464	≥18 años
+T62	LIVB 467 476	Pacientes
+#53	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 526 536	SARS-CoV-2
+#54	AnnotatorNotes T63	C5203676; SARS-CoV-2; Virus
+T64	Duration 609 617	≤ 4 días
+T65	Duration 671 679	≤ 4 días
+T67	LIVB 724 731	hombres
+#55	AnnotatorNotes T67	C0025266; Male population group; Population Group
+T68	LIVB 734 741	mujeres
+#56	AnnotatorNotes T68	C0043210; Woman; Population Group
+T69	PHYS 746 768	capacidad reproductiva
+#57	AnnotatorNotes T69	C0232896; Reproductive function; Physiologic Function
+T70	DEVI 862 884	preservativo masculino
+#58	AnnotatorNotes T70	C0009653; Condoms, Male; Medical Device
+T71	Route 917 921	oral
+#59	AnnotatorNotes T71	C1527415; Oral Route of Drug administration; Functional Concept
+T73	DEVI 957 965	implante
+#60	AnnotatorNotes T73	C0021102; Implants; Medical Device
+T74	Route 997 1007	inyectable
+T75	DEVI 1009 1033	dispositivo intrauterino
+#61	AnnotatorNotes T75	C0021900; Intrauterine Devices; Medical Device
+T76	Duration 1123 1134	los 30 días
+T77	LIVB 1180 1187	mujeres
+#62	AnnotatorNotes T77	C0043210; Woman; Population Group
+T78	PHYS 1220 1242	capacidad reproductiva
+#63	AnnotatorNotes T78	C0232896; Reproductive function; Physiologic Function
+T79	Neg_cue 1278 1286	negativa
+T80	LIVB 1346 1355	Pacientes
+#64	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T82	LIVB 1574 1584	SARS-CoV-2
+#65	AnnotatorNotes T82	C5203676; SARS-CoV-2; Virus
+T83	Duration 1588 1600	las 24 horas
+T84	LIVB 1749 1758	Pacientes
+#66	AnnotatorNotes T84	C0030705; Patients; Patient or Disabled Group
+T85	LIVB 1824 1833	Pacientes
+#67	AnnotatorNotes T85	C0030705; Patients; Patient or Disabled Group
+T88	LIVB 2125 2156	Mujeres en periodo de lactancia
+#68	AnnotatorNotes T88	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T89	LIVB 2160 2169	Pacientes
+#69	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T90	LIVB 2319 2328	Pacientes
+#70	AnnotatorNotes T90	C0030705; Patients; Patient or Disabled Group
+T92	LIVB 2422 2434	investigador
+#71	AnnotatorNotes T92	C0035173; Research Personnel; Professional or Occupational Group
+T93	LIVB 2438 2445	Sujetos
+#72	AnnotatorNotes T93	C0681850; Study Subject; Group
+T94	Neg_cue 2450 2452	no
+T95	Neg_cue 2505 2517	incapaces de
+T96	LIVB 2556 2565	Pacientes
+#73	AnnotatorNotes T96	C0030705; Patients; Patient or Disabled Group
+T97	Duration 2615 2638	las siguientes 96 horas
+T98	DEVI 834 843	diafragma
+#74	AnnotatorNotes T98	C0042241; Vaginal contraceptive diaphragm (device); Medical Device
+T102	PHYS 1269 1277	embarazo
+#75	AnnotatorNotes T102	C0032961; Pregnancy; Organism Function
+T103	PHYS 1869 1881	respiratorio
+#76	AnnotatorNotes T103	C0035203; Respiration; Physiologic Function
+T104	PHYS 2069 2077	embarazo
+#77	AnnotatorNotes T104	C0032961; Pregnancy; Organism Function
+T105	LIVB 569 579	SARS-CoV-2
+#78	AnnotatorNotes T105	C5203676; SARS-CoV-2; Virus
+T66	PROC 1046 1064	abstinencia sexual
+#79	AnnotatorNotes T66	C2042176; abstinence from sexual contact; Therapeutic or Preventive Procedure
+T72	LIVB 1417 1427	SARS-CoV-2
+#80	AnnotatorNotes T72	C5203676; SARS-CoV-2; Virus
+T81	PHYS 2147 2156	lactancia
+#81	AnnotatorNotes T81	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T86	PHYS 2469 2479	comprender
+#82	AnnotatorNotes T86	C0162340; Comprehension; Mental Process
+T50	PROC 1158 1164	visita
+#83	AnnotatorNotes T50	C1512346; Patient Visit; Health Care Activity
+T87	Quantifier_or_Qualifier 1151 1157	última
+A1	Assertion T102 Negated
+A2	Status T29 History_of
+A3	Assertion T86 Negated
+A4	Assertion T44 Negated
+A5	Status T38 History_of
+A6	Assertion T39 Contraindicated
+A7	Assertion T41 Contraindicated
+A8	Assertion T42 Contraindicated
+#85	AnnotatorNotes T2	C5203670; COVID19 (disease); Disease or Syndrome
+#86	AnnotatorNotes T6	C5203670; COVID19 (disease); Disease or Syndrome
+#87	AnnotatorNotes T74	C4723827; Injection Method of Administration; Functional Concept 
+#88	AnnotatorNotes T32	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T91	Neg_cue 2354 2356	no
+T99	Observation 2370 2393	incluidos en el estudio
+A9	Assertion T99 Negated
+#84	AnnotatorNotes T99	C1302261; Patient eligible for clinical trial; Finding (?)
+T100	Spec_cue 1555 1564	potencial
+T101	Observation 1535 1541	acción
+A10	Assertion T101 Speculated
+#89	AnnotatorNotes T101	C1532643; Drug action observation; Finding
+T106	Quantifier_or_Qualifier 1542 1552	demostrada
+R1	Negation Arg1:T79 Arg2:T102	
+R2	Speculation Arg1:T100 Arg2:T101	
+R3	Negation Arg1:T91 Arg2:T99	
+R4	Negation Arg1:T94 Arg2:T86	
+R5	Negation Arg1:T95 Arg2:T44	
+A11	Assertion T40 Contraindicated
+R6	Has_Quantifier_or_Qualifier Arg1:T101 Arg2:T106	
+R7	Experiences Arg1:T56 Arg2:T1	
+R8	Experiences Arg1:T56 Arg2:T2	
+R9	Experiences Arg1:T57 Arg2:T4	
+R10	Experiences Arg1:T57 Arg2:T11	
+R11	Experiences Arg1:T57 Arg2:T5	
+R12	Experiences Arg1:T58 Arg2:T6	
+T107	Observation 358 389	acepte participar en el estudio
+R13	Overlap Arg1:T107 Arg2:T7	
+R14	Has_Age Arg1:T59 Arg2:T61	
+R15	Has_Age Arg1:T60 Arg2:T61	
+R16	Experiences Arg1:T62 Arg2:T8	
+R17	Overlap Arg1:T8 Arg2:T46	
+R18	Causes Arg1:T63 Arg2:T46	
+R19	Experiences Arg1:T62 Arg2:T46	
+#90	AnnotatorNotes T46	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome
+R20	Causes Arg1:T105 Arg2:T47	
+R22	Before Arg1:T48 Arg2:T12	
+R23	Overlap Arg1:T48 Arg2:T64	
+R24	Before Arg1:T48 Arg2:T15	
+T108	CONC 648 670	Inicio de los síntomas
+R25	Before Arg1:T108 Arg2:T65	
+R26	Has_Duration_or_Interval Arg1:T16 Arg2:T65	
+T109	Result_or_Value 711 716	≤ 93%
+R27	Has_Result_or_Value Arg1:T10 Arg2:T109	
+T110	Quantifier_or_Qualifier 705 710	basal
+#91	AnnotatorNotes T110	C1442488; Baseline; Quantitative Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T110	
+R29	Experiences Arg1:T67 Arg2:T69	
+R30	Experiences Arg1:T68 Arg2:T69	
+R31	Experiences Arg1:T67 Arg2:T17	
+R32	Experiences Arg1:T68 Arg2:T17	
+T111	Quantifier_or_Qualifier 814 832	altamente eficaces
+R33	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T111	
+R34	Combined_with Arg1:T98 Arg2:T18	
+R35	Experiences Arg1:T68 Arg2:T98	
+R36	Experiences Arg1:T67 Arg2:T70	
+R37	Combined_with Arg1:T70 Arg2:T19	
+R38	Experiences Arg1:T68 Arg2:T20	
+R39	Has_Route_or_Mode Arg1:T20 Arg2:T71	
+R40	Combined_with Arg1:T20 Arg2:T49	
+R41	Used_for Arg1:T73 Arg2:T49	
+R42	Experiences Arg1:T67 Arg2:T21	
+R43	Experiences Arg1:T68 Arg2:T21	
+R44	Has_Route_or_Mode Arg1:T21 Arg2:T74	
+R45	Experiences Arg1:T68 Arg2:T75	
+R46	Experiences Arg1:T67 Arg2:T66	
+R47	Experiences Arg1:T67 Arg2:T66	
+R48	Experiences Arg1:T67 Arg2:T22	
+R50	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T87	
+#92	AnnotatorNotes T87	C1517741; Last; Qualitative Concept
+R52	Overlap Arg1:T17 Arg2:T76	
+R53	Overlap Arg1:T98 Arg2:T76	
+R54	Overlap Arg1:T70 Arg2:T76	
+R55	Overlap Arg1:T20 Arg2:T76	
+R56	Overlap Arg1:T21 Arg2:T76	
+R57	Overlap Arg1:T75 Arg2:T76	
+R58	Overlap Arg1:T22 Arg2:T76	
+T112	PROC 1110 1117	estudio
+#93	AnnotatorNotes T112	C0008976; Clinical Trials; Research Activity
+R59	Overlap Arg1:T17 Arg2:T112	
+R60	Overlap Arg1:T98 Arg2:T112	
+R61	Overlap Arg1:T70 Arg2:T112	
+R62	Overlap Arg1:T20 Arg2:T112	
+R63	Overlap Arg1:T21 Arg2:T112	
+R64	Overlap Arg1:T75 Arg2:T112	
+R65	Overlap Arg1:T66 Arg2:T112	
+R66	Overlap Arg1:T22 Arg2:T112	
+R67	Experiences Arg1:T77 Arg2:T78	
+R68	Experiences Arg1:T77 Arg2:T23	
+R69	Experiences Arg1:T77 Arg2:T102	
+T113	CONC 1307 1316	inclusión
+#94	AnnotatorNotes T113	C1512693; Inclusion; Qualitative Concept
+R70	Before Arg1:T78 Arg2:T102	
+R71	Overlap Arg1:T78 Arg2:T113	
+R72	Overlap Arg1:T23 Arg2:T113	
+R73	Overlap Arg1:T102 Arg2:T113	
+T114	Observation 1356 1397	participando en algún otro ensayo clínico
+R74	Experiences Arg1:T80 Arg2:T25	
+R75	Causes Arg1:T72 Arg2:T25	
+R76	Used_for Arg1:T27 Arg2:T26	
+R77	Before Arg1:T26 Arg2:T101	
+R79	Overlap Arg1:T27 Arg2:T83	
+R78	Before Arg1:T27 Arg2:T51	
+R80	Before Arg1:T26 Arg2:T28	
+R81	Experiences Arg1:T84 Arg2:T31	
+T115	CONC 1811 1820	inclusión
+#95	AnnotatorNotes T115	C1512693; Inclusion; Qualitative Concept
+R82	Overlap Arg1:T31 Arg2:T115	
+R83	Experiences Arg1:T85 Arg2:T32	
+R84	Experiences Arg1:T85 Arg2:T103	
+T116	CONC 1905 1914	inclusión
+#96	AnnotatorNotes T116	C1512693; Inclusion; Qualitative Concept
+R86	Overlap Arg1:T32 Arg2:T116	
+T117	Result_or_Value 1928 1971	>5 veces el límte superior de la normalidad
+R87	Has_Result_or_Value Arg1:T52 Arg2:T117	
+R88	Has_Result_or_Value Arg1:T53 Arg2:T117	
+R89	Overlap Arg1:T52 Arg2:T33	
+R90	Overlap Arg1:T53 Arg2:T33	
+T118	Result_or_Value 2023 2036	< a 50 ml/min
+R91	Has_Result_or_Value Arg1:T34 Arg2:T118	
+R92	Overlap Arg1:T34 Arg2:T35	
+R93	Overlap Arg1:T36 Arg2:T37	
+R94	Overlap Arg1:T104 Arg2:T37	
+T119	Result_or_Value 2082 2100	resultado positivo
+#97	AnnotatorNotes T119	C1446409; Positive; Finding
+R95	Has_Result_or_Value Arg1:T36 Arg2:T119	
+R96	Overlap Arg1:T119 Arg2:T37	
+R97	Experiences Arg1:T88 Arg2:T81	
+R98	Experiences Arg1:T89 Arg2:T38	
+R99	Causes Arg1:T39 Arg2:T38	
+R100	Used_for Arg1:T39 Arg2:T40	
+R101	Causes Arg1:T41 Arg2:T38	
+R102	Causes Arg1:T42 Arg2:T38	
+R106	Experiences Arg1:T90 Arg2:T43	
+R107	Before Arg1:T43 Arg2:T99	
+T120	Observation 2458 2479	capaces de comprender
+A12	Assertion T120 Negated
+R108	Negation Arg1:T94 Arg2:T120	
+R109	Has_Quantifier_or_Qualifier Arg1:T93 Arg2:T120	
+R110	Experiences Arg1:T93 Arg2:T86	
+R111	Overlap Arg1:T86 Arg2:T44	
+R112	Overlap Arg1:T120 Arg2:T44	
+R113	Experiences Arg1:T96 Arg2:T13	
+R114	Overlap Arg1:T13 Arg2:T97	
+#98	AnnotatorNotes T51	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+#99	AnnotatorNotes T107	C1302239; Patient consented to clinical trial; Finding
+R103	Experiences Arg1:T89 Arg2:T39	
+R21	Overlap Arg1:T19 Arg2:T112	
+R49	Experiences Arg1:T67 Arg2:T50	
+R115	Experiences Arg1:T68 Arg2:T50	
+R116	After Arg1:T22 Arg2:T50	
+R51	After Arg1:T66 Arg2:T50	
+R117	After Arg1:T75 Arg2:T50	
+R118	After Arg1:T21 Arg2:T50	
+R119	Overlap Arg1:T49 Arg2:T112	
+R120	Overlap Arg1:T49 Arg2:T76	
+R121	After Arg1:T49 Arg2:T50	
+R122	After Arg1:T20 Arg2:T50	
+R123	Overlap Arg1:T19 Arg2:T76	
+R124	After Arg1:T19 Arg2:T50	
+R125	After Arg1:T70 Arg2:T50	
+R126	After Arg1:T98 Arg2:T50	
+R127	After Arg1:T17 Arg2:T50	
+R128	Overlap Arg1:T18 Arg2:T112	
+R129	Overlap Arg1:T18 Arg2:T76	
+R130	After Arg1:T18 Arg2:T50	
+R85	Has_Quantifier_or_Qualifier Arg1:T90 Arg2:T99	
+R104	Overlap Arg1:T66 Arg2:T76	
+#100	AnnotatorNotes T120	C1273101; Ability to comprehend; Finding
+#101	AnnotatorNotes T106	C0456369; Proven findings; Qualitative Concept
+#102	AnnotatorNotes T49	C3687108; Placement of contraceptive implant; Therapeutic or Preventive Procedure
+A13	Experiencer T56 Patient
+A14	Experiencer T57 Patient
+A15	Experiencer T58 Patient
+A16	Experiencer T60 Patient
+A17	Experiencer T59 Patient
+A18	Experiencer T62 Patient
+A19	Experiencer T68 Patient
+A20	Experiencer T67 Patient
+A21	Experiencer T77 Patient
+A22	Experiencer T80 Patient
+A23	Experiencer T84 Patient
+A24	Experiencer T85 Patient
+A25	Experiencer T88 Patient
+A26	Experiencer T89 Patient
+A27	Experiencer T90 Patient
+A28	Experiencer T92 Other
+A29	Experiencer T93 Patient
+A30	Experiencer T96 Patient
+A31	Status T13 Future
+A32	Status T97 Future
+T121	Result_or_Value 1278 1286	negativa
+R105	Has_Result_or_Value Arg1:T23 Arg2:T121	

@@ -1,0 +1,90 @@
+T1	PROC 46 139	Estudio multicéntrico aleatorizado, doble ciego, controlado con placebo, con grupos paralelos
+T2	PROC 611 647	Consentimiento informado por escrito
+#1	AnnotatorNotes T2	C0811741; Obtain informed written consent; Health Care Activity
+T3	PROC 146 177	evaluar la eficacia y seguridad
+#2	AnnotatorNotes T3	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T4	CHEM 181 191	Omalizumab
+#3	AnnotatorNotes T4	C0966225; omalizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	CHEM 193 199	Xolair
+#4	AnnotatorNotes T5	C1174773; Xolair; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	DISO 228 249	urticaria colinérgica
+#5	AnnotatorNotes T6	C0152230; Cholinergic urticaria; Disease or Syndrome
+T7	DISO 273 294	Urticaria colinérgica
+#6	AnnotatorNotes T7	C0152230; Cholinergic urticaria; Disease or Syndrome
+T8	PROC 377 388	diagnóstico
+#7	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	DISO 392 413	urticaria colinérgica
+#8	AnnotatorNotes T9	C0152230; Cholinergic urticaria; Disease or Syndrome
+T10	PROC 448 469	prueba de provocación
+#9	AnnotatorNotes T10	C0006265; Bronchial Provocation Tests; Diagnostic Procedure
+T11	CHEM 523 539	antihistamínicos
+#10	AnnotatorNotes T11	C0019590; Histamine Antagonists; Organic Chemical · Pharmacologic Substance
+T12	DISO 687 707	enfermedad sistémica
+#11	AnnotatorNotes T12	C0442893; Systemic disease; Disease or Syndrome
+T13	PROC 725 736	seguimiento
+#12	AnnotatorNotes T13	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T14	PROC 773 784	Tratamiento
+#13	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	CHEM 789 799	omalizumab
+#14	AnnotatorNotes T15	C0966225; omalizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T16	DISO 843 853	dermatitis
+#15	AnnotatorNotes T16	C0011603; Dermatitis; Disease or Syndrome
+T17	DISO 862 889	enfermedades dermatológicas
+#16	AnnotatorNotes T17	C0037274; Dermatologic disorders; Disease or Syndrome
+T18	DISO 906 913	prurito
+#17	AnnotatorNotes T18	C0033774; Pruritus; Sign or Symptom
+T19	DISO 988 1005	hipersensibilidad
+#18	AnnotatorNotes T19	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T20	CHEM 1042 1053	excipientes
+#19	AnnotatorNotes T20	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T21	DISO 1162 1173	alcoholismo
+#20	AnnotatorNotes T21	C0001973; Alcoholic Intoxication, Chronic; Mental or Behavioral Dysfunction
+T22	DISO 1175 1187	drogadicción
+#21	AnnotatorNotes T22	C1510472; Drug Dependence; Mental or Behavioral Dysfunction
+T23	CHEM 1009 1025	principio activo
+#22	AnnotatorNotes T23	C1372955; Active ingredient; Chemical Viewed Functionally
+T24	Date 13 17	2013
+T25	LIVB 323 350	Pacientes mujeres y hombres
+#23	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T28	Age 351 369	mayores de 14 años
+T30	Dose 555 578	2 veces la dosis máxima
+T31	Duration 803 826	los 12 meses anteriores
+T32	PHYS 1057 1065	Embarazo
+#24	AnnotatorNotes T32	C0032961; Pregnancy; Organism Function
+T33	PHYS 1068 1077	lactancia
+#25	AnnotatorNotes T33	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T26	Dose 495 519	dosis supra terapéuticas
+A1	Status T14 History_of
+A2	Status T15 History_of
+A3	Status T19 History_of
+A4	Assertion T23 Contraindicated
+A5	Assertion T20 Contraindicated
+#26	AnnotatorNotes T1	C0013072; Double-Blind Method; Research Activity + C1096776; Multicenter Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product  + C2826345; Parallel Study; Research Activity
+T27	Neg_cue 482 484	No
+T29	Observation 485 494	respondan
+A6	Assertion T29 Negated
+T34	Neg_cue 1112 1119	impedir
+T35	Observation 1123 1155	correcto cumplimiento del ensayo
+A7	Assertion T35 Negated
+R1	Negation Arg1:T34 Arg2:T35	
+R2	Overlap Arg1:T35 Arg2:T21	
+R3	Overlap Arg1:T35 Arg2:T22	
+R4	Has_Age Arg1:T25 Arg2:T28	
+T36	CONC 429 445	historia clínica
+#27	AnnotatorNotes T36	C5204342; Clinical History; Intellectual Product
+T37	Result_or_Value 470 478	positiva
+#28	AnnotatorNotes T37	C1446409; Positive; Finding
+R5	Has_Result_or_Value Arg1:T10 Arg2:T37	
+R6	Negation Arg1:T27 Arg2:T29	
+#29	AnnotatorNotes T29	C1319171; Medication response; Finding
+R7	Overlap Arg1:T29 Arg2:T11	
+R8	Has_Dose_or_Strength Arg1:T11 Arg2:T26	
+R9	Has_Dose_or_Strength Arg1:T11 Arg2:T30	
+R11	Used_for Arg1:T15 Arg2:T14	
+R12	Has_Duration_or_Interval Arg1:T15 Arg2:T31	
+R13	Overlap Arg1:T16 Arg2:T18	
+R14	Overlap Arg1:T17 Arg2:T18	
+R15	Causes Arg1:T23 Arg2:T19	
+R16	Causes Arg1:T20 Arg2:T19	
+R17	Before Arg1:T10 Arg2:T8	
+A8	Experiencer T25 Patient

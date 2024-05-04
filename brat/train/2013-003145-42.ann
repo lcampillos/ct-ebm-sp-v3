@@ -1,0 +1,242 @@
+T1	PROC 65 90	TRATAMIENTOS CORTICOIDEOS
+T2	PROC 118 124	PAUTAS
+#1	AnnotatorNotes T2	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T3	PROC 131 142	TRATAMIENTO
+#2	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 149 163	CRISIS DE ASMA
+#3	AnnotatorNotes T4	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T5	PROC 221 268	ENSAYO CLÍNICO PILOTO, ALEATORIZADO, CONTROLADO
+T6	CHEM 280 292	DEXAMETASONA
+#4	AnnotatorNotes T6	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T7	CHEM 314 326	PREDNISOLONA
+#5	AnnotatorNotes T7	C0032950; prednisolone; Organic Chemical · Pharmacologic Substance
+T8	CHEM 327 337	PREDNISONA
+#6	AnnotatorNotes T8	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T9	DISO 345 361	CRISIS ASMÁTICAS
+#7	AnnotatorNotes T9	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T10	DISO 435 450	CRISIS ASMATICA
+#8	AnnotatorNotes T10	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T11	PROC 518 528	ingresados
+#9	AnnotatorNotes T11	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T12	DISO 477 485	ASMATICA
+#10	AnnotatorNotes T12	C0004096; Asthma; Disease or Syndrome
+T13	PROC 572 583	diagnóstico
+#11	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 587 602	crisis asmática
+#12	AnnotatorNotes T14	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T15	DISO 618 640	síntomas respiratorios
+#13	AnnotatorNotes T15	C0037090; Signs and Symptoms, Respiratory; Sign or Symptom
+T16	DISO 642 645	tos
+#14	AnnotatorNotes T16	C0010200; Coughing; Sign or Symptom
+T17	DISO 647 670	dificultad respiratoria
+#15	AnnotatorNotes T17	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T18	DISO 672 681	taquipnea
+#16	AnnotatorNotes T18	C0231835; Tachypnea; Finding
+T19	DISO 696 709	broncoespasmo
+#17	AnnotatorNotes T19	C0006266; Bronchospasm; Disease or Syndrome
+T20	DISO 711 722	sibilancias
+#18	AnnotatorNotes T20	C0043144; Wheezing; Sign or Symptom | C0425483; Whistling respiration; Finding
+T21	DISO 745 760	hipoventilación
+#19	AnnotatorNotes T21	C3203358; Hypoventilation; Pathologic Function
+T22	DISO 818 827	infección
+#20	AnnotatorNotes T22	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T23	PROC 913 924	tratamiento
+#21	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	CHEM 937 947	salbutamol
+#22	AnnotatorNotes T24	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T25	PROC 998 1036	tratamiento con corticoides sistémicos
+T26	ANAT 1536 1545	vía aérea
+#23	AnnotatorNotes T26	C0458827; Airway structure; Body Part, Organ, or Organ Component
+T27	PROC 1192 1206	consentimiento
+#24	AnnotatorNotes T27	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T28	DISO 1386 1390	asma
+#25	AnnotatorNotes T28	C0004096; Asthma; Disease or Syndrome
+T29	PROC 1456 1480	tratamiento hospitalario
+T30	PROC 1506 1529	estabilización avanzada
+T31	DISO 1592 1602	enfermedad
+#26	AnnotatorNotes T31	C0012634; Disease; Disease or Syndrome
+T32	CHEM 78 90	CORTICOIDEOS
+#27	AnnotatorNotes T32	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T33	CHEM 1014 1025	corticoides
+#28	AnnotatorNotes T33	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T34	DISO 1338 1363	patología de la vía aérea
+T35	DISO 1406 1430	patologías concomitantes
+T36	DISO 724 743	espiración alargada
+T37	ANAT 1354 1363	vía aérea
+#29	AnnotatorNotes T37	C0458827; Airway structure; Body Part, Organ, or Organ Component
+T38	PROC 1792 1816	consentimiento informado
+#30	AnnotatorNotes T38	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T39	Date 13 17	2013
+T40	LIVB 167 172	NIÑOS
+#31	AnnotatorNotes T40	C0008059; Child; Age Group
+T41	LIVB 365 370	NIÑOS
+#32	AnnotatorNotes T41	C0008059; Child; Age Group
+T42	LIVB 512 517	Niños
+#33	AnnotatorNotes T42	C0008059; Child; Age Group
+T43	Age 549 566	entre 1 y 16 años
+T44	LIVB 609 613	niño
+#34	AnnotatorNotes T44	C0008059; Child; Age Group
+T45	PHYS 724 734	espiración
+#35	AnnotatorNotes T45	C0231800; Expiration, function; Organism Function
+T48	LIVB 829 835	ácaros
+#36	AnnotatorNotes T48	C0000892; Acarus; Eukaryote
+T49	LIVB 837 844	pólenes
+#37	AnnotatorNotes T49	C0032385; Pollen; Plant
+T52	LIVB 898 903	Niños
+#38	AnnotatorNotes T52	C0008059; Child; Age Group
+T53	Dose 949 956	1 dosis
+T55	LIVB 1057 1065	paciente
+#39	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 1072 1078	padres
+#40	AnnotatorNotes T56	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T57	LIVB 1211 1217	sujeto
+#41	AnnotatorNotes T57	C0681850; Study Subject; Group
+T58	LIVB 1319 1328	pacientes
+#42	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	Neg_cue 1368 1370	no
+T60	LIVB 1392 1401	Pacientes
+#43	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 1482 1491	Pacientes
+#44	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 1705 1713	paciente
+#45	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	LIVB 1722 1744	representantes legales
+#46	AnnotatorNotes T64	C4288823; Legal Representative for the Study; Human
+T65	LIVB 1746 1755	Pacientes
+#47	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	LIVB 1768 1774	padres
+#48	AnnotatorNotes T66	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T67	Neg_cue 1779 1781	no
+T68	ANAT 627 640	respiratorios
+#49	AnnotatorNotes T68	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T69	PHYS 658 670	respiratoria
+#50	AnnotatorNotes T69	C0035203; Respiration; Physiologic Function
+T46	LIVB 1079 1086	tutores
+#51	AnnotatorNotes T46	C0871554; tutor; Professional or Occupational Group
+T47	LIVB 1760 1767	tutores
+#52	AnnotatorNotes T47	C0871554; tutor; Professional or Occupational Group
+T50	Neg_cue 1663 1678	inexistencia de
+T51	Observation 1679 1691	colaboración
+#53	AnnotatorNotes T51	C0517036; Cooperates with procedures; Finding
+A1	Population_data T40 Age
+A2	Population_data T41 Age
+A3	Population_data T42 Age
+A4	Population_data T44 Age
+A5	Population_data T52 Age
+A6	Assertion T28 Negated
+A7	Assertion T38 Negated
+A8	Assertion T51 Negated
+#54	AnnotatorNotes T5	C0031928; Pilot Projects; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#55	AnnotatorNotes T35	C0243087; concomitant disease; Pathologic Function
+T54	Neg_cue 958 960	no
+T62	Observation 971 986	mejoría clínica
+A9	Assertion T62 Negated
+#56	AnnotatorNotes T62	C0184511; Improved; Finding (?)
+R1	Used_for Arg1:T32 Arg2:T1	
+R2	Experiences Arg1:T40 Arg2:T1	
+R3	Experiences Arg1:T40 Arg2:T3	
+R5	Experiences Arg1:T40 Arg2:T4	
+T70	CONC 179 187	URGENCIA
+#57	AnnotatorNotes T70	C0439609; Urgent; Qualitative Concept
+T71	Quantifier_or_Qualifier 188 198	PEDIATRICA
+#58	AnnotatorNotes T71	C1521725; Pediatric; Qualitative Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T70 Arg2:T71	
+R8	Overlap Arg1:T4 Arg2:T70	
+R9	Overlap Arg1:T1 Arg2:T70	
+R10	Overlap Arg1:T3 Arg2:T70	
+R11	Combined_with Arg1:T7 Arg2:T8	
+R12	Experiences Arg1:T41 Arg2:T9	
+R13	Experiences Arg1:T41 Arg2:T6	
+R14	Experiences Arg1:T41 Arg2:T7	
+T72	CONC 389 398	URGENCIAS
+#59	AnnotatorNotes T72	C0439609; Urgent; Qualitative Concept
+T73	Quantifier_or_Qualifier 399 411	DE PEDIATRÍA
+#60	AnnotatorNotes T73	C1521725; Pediatric; Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T72 Arg2:T73	
+R16	Overlap Arg1:T9 Arg2:T72	
+R17	Overlap Arg1:T6 Arg2:T72	
+R18	Experiences Arg1:T42 Arg2:T11	
+R19	Has_Age Arg1:T42 Arg2:T43	
+R20	Experiences Arg1:T44 Arg2:T14	
+R21	Experiences Arg1:T44 Arg2:T15	
+R22	Location_of Arg1:T68 Arg2:T15	
+R23	Causes Arg1:T19 Arg2:T18	
+R25	Causes Arg1:T19 Arg2:T17	
+R26	Causes Arg1:T19 Arg2:T16	
+R27	Causes Arg1:T19 Arg2:T15	
+R28	Overlap Arg1:T14 Arg2:T19	
+#61	AnnotatorNotes T36	C0239324; Prolonged expiration; Finding
+T74	Spec_cue 794 801	posible
+A10	Assertion T22 Speculated
+R29	Speculation Arg1:T74 Arg2:T22	
+A11	Assertion T48 Speculated
+R30	Speculation Arg1:T74 Arg2:T48	
+A12	Assertion T49 Speculated
+R32	Speculation Arg1:T74 Arg2:T49	
+R33	Experiences Arg1:T44 Arg2:T16	
+R34	Experiences Arg1:T44 Arg2:T17	
+R35	Experiences Arg1:T44 Arg2:T18	
+R36	Experiences Arg1:T44 Arg2:T19	
+R37	Experiences Arg1:T44 Arg2:T20	
+R38	Experiences Arg1:T44 Arg2:T36	
+R39	Experiences Arg1:T44 Arg2:T21	
+R40	Experiences Arg1:T44 Arg2:T22	
+R41	Experiences Arg1:T52 Arg2:T23	
+R42	Before Arg1:T23 Arg2:T62	
+R43	Negation Arg1:T54 Arg2:T62	
+R44	Used_for Arg1:T24 Arg2:T23	
+R45	Has_Dose_or_Strength Arg1:T24 Arg2:T53	
+R46	Before Arg1:T23 Arg2:T25	
+R47	Used_for Arg1:T33 Arg2:T25	
+T75	Observation 1223 1232	dispuesto
+#62	AnnotatorNotes T75	C1299581; Able (finding); Finding (?)
+R48	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T75	
+T76	Observation 1238 1275	capaz de cumplir todos los requisitos
+R49	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T76	
+R50	Experiences Arg1:T58 Arg2:T34	
+#63	AnnotatorNotes T34	C0699949; airway disease; Disease or Syndrome
+R51	Location_of Arg1:T37 Arg2:T34	
+R52	Negation Arg1:T59 Arg2:T28	
+R53	Experiences Arg1:T58 Arg2:T28	
+R54	Experiences Arg1:T60 Arg2:T35	
+R55	Experiences Arg1:T60 Arg2:T29	
+R56	Location_of Arg1:T26 Arg2:T30	
+R57	Experiences Arg1:T61 Arg2:T30	
+T77	Observation 1557 1602	problema de tipo cultural, social, enfermedad
+R58	Overlap Arg1:T77 Arg2:T51	
+R59	Negation Arg1:T50 Arg2:T51	
+R60	Experiences Arg1:T63 Arg2:T77	
+R62	Experiences Arg1:T64 Arg2:T77	
+R63	Experiences Arg1:T63 Arg2:T31	
+R65	Negation Arg1:T67 Arg2:T38	
+R4	Overlap Arg1:T7 Arg2:T72	
+R6	Overlap Arg1:T14 Arg2:T20	
+R24	Overlap Arg1:T14 Arg2:T36	
+R31	Overlap Arg1:T14 Arg2:T21	
+R66	Overlap Arg1:T14 Arg2:T22	
+R67	Experiences Arg1:T44 Arg2:T69	
+R68	Experiences Arg1:T44 Arg2:T45	
+R69	Experiences Arg1:T52 Arg2:T62	
+R70	Experiences Arg1:T52 Arg2:T25	
+T78	Observation 1160 1173	participación
+#64	AnnotatorNotes T78	C1278516; Patient participation status; Finding
+#65	AnnotatorNotes T25	C4053960; Systemic Corticosteroid Therapy; Therapeutic or Preventive Procedure
+#66	AnnotatorNotes T29	C0259945; Hospital care; Health Care Activity
+#67	AnnotatorNotes T1	C4713656; Administer corticosteroids, as appropriate; Health Care Activity
+A13	Experiencer T40 Patient
+A14	Experiencer T41 Patient
+A15	Experiencer T42 Patient
+A16	Experiencer T44 Patient
+A17	Experiencer T52 Patient
+A18	Experiencer T55 Patient
+A19	Experiencer T56 Family_member
+A20	Experiencer T46 Other
+A21	Experiencer T57 Patient
+A22	Experiencer T58 Patient
+A23	Experiencer T60 Patient
+A24	Experiencer T61 Patient
+A25	Experiencer T63 Patient
+A26	Experiencer T64 Other
+A27	Experiencer T65 Patient
+A28	Experiencer T47 Other
+A29	Experiencer T66 Patient

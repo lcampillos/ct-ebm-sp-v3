@@ -1,0 +1,72 @@
+T1	PROC 46 60	ESTUDIO PILOTO
+#1	AnnotatorNotes T1	C0031928; Pilot Projects; Research Activity
+T2	DISO 114 145	HIPERPLASIA BENIGNA DE PRÓSTATA
+#2	AnnotatorNotes T2	C1704272; Benign prostatic hyperplasia; Neoplastic Process
+T3	DISO 169 200	HIPERPLASIA BENIGNA DE PRÓSTATA
+#3	AnnotatorNotes T3	C1704272; Benign prostatic hyperplasia; Neoplastic Process
+T4	DISO 338 369	HIPERPLASIA BENIGNA DE PRÓSTATA
+#4	AnnotatorNotes T4	C1704272; Benign prostatic hyperplasia; Neoplastic Process
+T5	ANAT 361 369	PRÓSTATA
+#5	AnnotatorNotes T5	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T6	PROC 457 476	CIRUGÍA DE URGENCIA
+T7	DISO 494 521	TROMBOSIS ARTERIAL O VENOSA
+T8	ANAT 515 521	VENOSA
+#6	AnnotatorNotes T8	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T9	DISO 523 534	TROMBOFILIA
+#7	AnnotatorNotes T9	C0398623; Thrombophilia; Disease or Syndrome
+T10	DISO 536 555	INSUFICIENCIA RENAL
+#8	AnnotatorNotes T10	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T11	DISO 573 585	CONVULSIONES
+#9	AnnotatorNotes T11	C0036572; Seizures; Sign or Symptom | C4048158; Convulsions; Sign or Symptom
+T12	ANAT 192 200	PRÓSTATA
+#10	AnnotatorNotes T12	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T13	ANAT 504 512	ARTERIAL
+#11	AnnotatorNotes T13	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T14	ANAT 550 555	RENAL
+#12	AnnotatorNotes T14	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T15	ANAT 137 145	PRÓSTATA
+#13	AnnotatorNotes T15	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T16	CHEM 82 99	ACIDO TRANEXÁMICO
+#14	AnnotatorNotes T16	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T17	PROC 103 110	CIRUGÍA
+#15	AnnotatorNotes T17	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T18	ANAT 297 305	PRÓSTATA
+#16	AnnotatorNotes T18	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T19	PROC 271 305	RESECCIÓN TRANSURETRAL DE PRÓSTATA
+#17	AnnotatorNotes T19	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T20	PROC 308 333	ADENOMECTOMÍA RETROPÚBICA
+T21	Date 13 17	2013
+T22	Duration 63 69	UN AÑO
+T23	LIVB 227 232	VARON
+#18	AnnotatorNotes T23	C0025266; Male population group; Population Group
+T24	Age 233 249	MAYOR DE 50 AÑOS
+T25	LIVB 419 427	PACIENTE
+#19	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+A1	Status T7 History_of
+A2	Status T11 History_of
+#20	AnnotatorNotes T6	C2188405; urgent surgical procedure; Therapeutic or Preventive Procedure 
+#21	AnnotatorNotes T7	C0151942; Arterial thrombosis; Pathologic Function | C0042487; Venous Thrombosis; Pathologic Function
+T26	Neg_cue 397 404	RECHAZO
+T27	Observation 431 455	FORMAR PARTE DEL ESTUDIO
+A3	Assertion T27 Negated
+R1	Negation Arg1:T26 Arg2:T27	
+#22	AnnotatorNotes T27	C1278516; Patient participation status; Finding
+R2	After Arg1:T1 Arg2:T22	
+R3	Before Arg1:T16 Arg2:T22	
+R4	Used_for Arg1:T16 Arg2:T17	
+R5	Location_of Arg1:T15 Arg2:T2	
+R6	Location_of Arg1:T12 Arg2:T3	
+R7	Has_Age Arg1:T23 Arg2:T24	
+R8	Experiences Arg1:T23 Arg2:T19	
+R9	Location_of Arg1:T18 Arg2:T19	
+R10	Location_of Arg1:T5 Arg2:T4	
+R11	Experiences Arg1:T23 Arg2:T20	
+R12	Experiences Arg1:T23 Arg2:T4	
+#23	AnnotatorNotes T20	C0194823; Prostatectomy, Retropubic; Therapeutic or Preventive Procedure
+R13	Location_of Arg1:T13 Arg2:T7	
+R14	Location_of Arg1:T8 Arg2:T7	
+R15	Location_of Arg1:T14 Arg2:T10	
+A4	Experiencer T25 Patient
+A5	Experiencer T23 Patient
+A6	Status T19 Future
+A7	Status T20 Future

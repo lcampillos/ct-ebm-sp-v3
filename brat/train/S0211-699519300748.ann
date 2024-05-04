@@ -1,0 +1,152 @@
+T1	PROC 517 532	flujo sanguíneo
+#1	AnnotatorNotes T1	C0005776; blood flow measurement; Diagnostic Procedure
+T2	PROC 1091 1101	depuración
+#2	AnnotatorNotes T2	C4554548; Clearance procedure; Therapeutic or Preventive Procedure
+T3	PROC 1703 1713	depuración
+#3	AnnotatorNotes T3	C4554548; Clearance procedure; Therapeutic or Preventive Procedure
+T4	PROC 66 81	flujo sanguíneo
+#4	AnnotatorNotes T4	C0005776; blood flow measurement; Diagnostic Procedure
+T5	PROC 361 378	hemodiafiltración
+#5	AnnotatorNotes T5	C0206075; Hemodiafiltration; Therapeutic or Preventive Procedure
+T6	PROC 630 642	hemodiálisis
+#6	AnnotatorNotes T6	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T7	DEVI 715 723	membrana
+#7	AnnotatorNotes T7	C4047366; Hemodialysis membrane; Medical Device
+T8	CHEM 821 828	solutos
+#8	AnnotatorNotes T8	C0597488; solute; Chemical Viewed Structurally
+T9	CHEM 1034 1042	albúmina
+#9	AnnotatorNotes T9	C0001924; Albumins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T10	CHEM 1201 1211	mioglobina
+#10	AnnotatorNotes T10	C0027078; Myoglobin; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T11	CHEM 1213 1223	prolactina
+#11	AnnotatorNotes T11	C0033371; prolactin; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Hormone
+T12	CHEM 1245 1267	α1-glicoproteína ácida
+#12	AnnotatorNotes T12	C0029297; Orosomucoid; Amino  Acid, Peptide, or Protein · Biologically Active Substance
+T13	CHEM 1372 1380	albúmina
+#13	AnnotatorNotes T13	C0001924; Albumins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T14	PROC 1666 1683	hemodiafiltración
+#14	AnnotatorNotes T14	C0206075; Hemodiafiltration; Therapeutic or Preventive Procedure
+T15	ANAT 72 81	sanguíneo
+#15	AnnotatorNotes T15	C0005767; Blood; Body Substance
+T16	ANAT 523 532	sanguíneo
+#16	AnnotatorNotes T16	C0005767; Blood; Body Substance
+T17	PROC 856 864	diálisis
+#17	AnnotatorNotes T17	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T18	CHEM 1182 1199	β2-microglobulina
+#18	AnnotatorNotes T18	C0005149; beta-2 Microglobulin; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T19	CHEM 1225 1242	α1-microglobulina
+#19	AnnotatorNotes T19	C0051266; alpha-1-microglobulin; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T20	PROC 1398 1406	diálisis
+#20	AnnotatorNotes T20	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T22	DEVI 85 97	dializadores
+#21	AnnotatorNotes T22	C0180409; Dialyzers; Medical Device
+T23	Date 130 143	Recientemente
+T24	DEVI 220 232	dializadores
+#22	AnnotatorNotes T24	C0180409; Dialyzers; Medical Device
+T27	LIVB 605 614	pacientes
+#23	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 649 657	paciente
+#24	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T30	DEVI 907 917	dializador
+#25	AnnotatorNotes T30	C0180409; Dialyzers; Medical Device
+T38	DEVI 1517 1527	dializador
+#26	AnnotatorNotes T38	C0180409; Dialyzers; Medical Device
+T40	DEVI 1593 1605	dializadores
+#27	AnnotatorNotes T40	C0180409; Dialyzers; Medical Device
+T43	DEVI 52 60	membrana
+#28	AnnotatorNotes T43	C4047366; Hemodialysis membrane; Medical Device
+T21	DEVI 238 247	membranas
+#29	AnnotatorNotes T21	C4047366; Hemodialysis membrane; Medical Device
+T25	DEVI 467 476	membranas
+#30	AnnotatorNotes T25	C4047366; Hemodialysis membrane; Medical Device
+T26	Spec_cue 1624 1633	no parece
+T29	Quantifier_or_Qualifier 1642 1654	determinante
+A1	Assertion T29 Speculated
+R1	Speculation Arg1:T26 Arg2:T29	
+T31	Neg_cue 1535 1537	no
+T32	CONC 1563 1571	eficacia
+A2	Assertion T32 Negated
+#31	AnnotatorNotes T32	C1280519; Effectiveness; Qualitative Concept
+R2	Negation Arg1:T31 Arg2:T32	
+T33	Quantifier_or_Qualifier 1557 1562	mayor
+A3	Assertion T33 Negated
+R3	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T33	
+R4	Negation Arg1:T31 Arg2:T33	
+T34	Neg_cue 918 920	no
+T35	CONC 928 939	diferencias
+A4	Assertion T35 Negated
+#32	AnnotatorNotes T35	C1705241; Delta (difference); Quantitative Concept
+R5	Negation Arg1:T34 Arg2:T35	
+T36	Neg_cue 1125 1128	sin
+T37	CONC 1137 1148	diferencias
+A5	Assertion T37 Negated
+#33	AnnotatorNotes T37	C1705241; Delta (difference); Quantitative Concept
+R6	Negation Arg1:T36 Arg2:T37	
+T39	CONC 1009 1016	cambios
+A6	Assertion T39 Negated
+#34	AnnotatorNotes T39	C0443172; Changed status; Quantitative Concept
+T41	Neg_cue 1005 1008	sin
+R7	Negation Arg1:T41 Arg2:T39	
+T42	CONC 1343 1354	diferencias
+A7	Assertion T42 Negated
+#35	AnnotatorNotes T42	C1705241; Delta (difference); Quantitative Concept
+T44	Neg_cue 1321 1328	Tampoco
+R8	Negation Arg1:T44 Arg2:T42	
+T45	Spec_cue 318 325	podrían
+T46	CONC 339 347	eficacia
+A8	Assertion T46 Speculated
+#36	AnnotatorNotes T46	C1280519; Effectiveness; Qualitative Concept 
+T47	Quantifier_or_Qualifier 348 355	similar
+A9	Assertion T47 Speculated
+R9	Speculation Arg1:T45 Arg2:T46	
+R10	Speculation Arg1:T45 Arg2:T47	
+R11	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T47	
+T48	Quantifier_or_Qualifier 98 114	de medio cut-off
+R12	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T48	
+T49	Quantifier_or_Qualifier 248 264	de medio cut-off
+R13	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T49	
+R14	Overlap Arg1:T21 Arg2:T23	
+R15	Experiences Arg1:T27 Arg2:T6	
+T50	Quantifier_or_Qualifier 666 676	6 sesiones
+T51	PROC 534 536	Qb
+#37	AnnotatorNotes T51	C0005776; blood flow measurement; Diagnostic Procedure
+T52	PROC 747 749	Qb
+#38	AnnotatorNotes T52	C0005776; blood flow measurement; Diagnostic Procedure
+T53	CONC 832 838;850 864	inicio de la diálisis
+R16	Overlap Arg1:T8 Arg2:T53	
+T54	CONC 844 864	final de la diálisis
+R17	Overlap Arg1:T8 Arg2:T54	
+R18	Used_for Arg1:T8 Arg2:T17	
+R19	Experiences Arg1:T28 Arg2:T52	
+T55	PROC 1059 1061	Qb
+#39	AnnotatorNotes T55	C0005776; blood flow measurement; Diagnostic Procedure
+T56	PROC 1307 1309	Qb
+#40	AnnotatorNotes T56	C0005776; blood flow measurement; Diagnostic Procedure
+T57	PROC 1621 1623	Qb
+#41	AnnotatorNotes T57	C0005776; blood flow measurement; Diagnostic Procedure
+T58	Observation 1047 1061	aumento del Qb
+T59	Observation 1080 1123	aumento de depuración de pequeñas moléculas
+R20	Overlap Arg1:T58 Arg2:T59	
+T60	Observation 1609 1623	aumento del Qb
+R21	Causes Arg1:T40 Arg2:T60	
+R22	Causes Arg1:T14 Arg2:T60	
+T61	Observation 1703 1735	depuración de pequeñas moléculas
+R23	Causes Arg1:T40 Arg2:T61	
+T62	CHEM 1387 1406	líquido de diálisis
+#42	AnnotatorNotes T62	C0011947; Dialysis Solutions; Pharmacologic Substance
+T63	Quantifier_or_Qualifier 940 954	significativas
+A10	Assertion T63 Negated
+#43	AnnotatorNotes T63	C0750502; Significant; Idea or Concept
+R24	Negation Arg1:T34 Arg2:T63	
+R25	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T63	
+T64	Observation 487 493	efecto
+#44	AnnotatorNotes T64	C1518681; Outcome of Therapy; Finding (?)
+#45	AnnotatorNotes T33	C1704243; Greater; Quantitative Concept
+#46	AnnotatorNotes T47	C2348205; Similarity; Qualitative Concept
+#47	AnnotatorNotes T23	C0332185; Recent; Temporal Concept
+#48	AnnotatorNotes T60	C0232341; Increased vascular flow; Finding
+#49	AnnotatorNotes T58	C0232341; Increased vascular flow; Finding
+A11	Experiencer T27 Patient
+A12	Experiencer T28 Patient
+R26	Has_Result_or_Value Arg1:T57 Arg2:T60	
+R27	Has_Result_or_Value Arg1:T55 Arg2:T58	

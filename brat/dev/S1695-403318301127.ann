@@ -1,0 +1,258 @@
+T1	CHEM 30 35	helio
+#1	AnnotatorNotes T1	C0018880; helium; Pharmacologic Substance · Element, Ion, or Isotope
+T2	PROC 586 597	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	PROC 278 321	administrado vía cánula nasal de bajo flujo
+T4	DISO 75 98	dificultad respiratoria
+#3	AnnotatorNotes T4	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T5	DISO 116 168	bronquiolitis aguda por virus respiratorio sincitial
+#4	AnnotatorNotes T5	C0348799; Acute bronchiolitis due to respiratory syncytial virus; Disease or Syndrome
+T6	PROC 170 201	Estudio aleatorizado controlado
+#5	AnnotatorNotes T6	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T7	Dose 610 615	79:21
+#6	AnnotatorNotes T7	[Helium 79 % / Oxygen 21 %]
+T8	CHEM 263 269	heliox
+#7	AnnotatorNotes T8	C0062185; heliox; Pharmacologic Substance · Inorganic Chemical
+T9	PROC 629 664	administrados mediante cánula nasal
+#8	AnnotatorNotes T9	C2016156; oxygen via nasal cannula; Therapeutic or Preventive Procedure
+T10	PROC 1351 1358	tratado
+#9	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	DISO 370 430	bronquiolitis aguda causada por virus respiratorio sincitial
+#10	AnnotatorNotes T11	C0348799; Acute bronchiolitis due to respiratory syncytial virus; Disease or Syndrome
+T12	PROC 456 499	estudio prospectivo aleatorizado controlado
+#11	AnnotatorNotes T12	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0033522; Prospective Studies; Research Activity
+T13	PROC 1397 1413	tratado con aire
+T14	PROC 782 793	tratamiento
+#12	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 1132 1152	ventilación mecánica
+#13	AnnotatorNotes T15	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T16	PROC 1154 1160	CPAP-n
+#14	AnnotatorNotes T16	C3665969; Nasal CPAP; Therapeutic or Preventive Procedure
+T17	PROC 1163 1212	oxigenoterapia administrada mediante cánula nasal
+#15	AnnotatorNotes T17	C2016156; oxygen via nasal cannula; Therapeutic or Preventive Procedure
+T18	PROC 1506 1527	saturación de oxígeno
+#16	AnnotatorNotes T18	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T19	PROC 1313 1324	tratamiento
+#17	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	CHEM 1363 1369	heliox
+#18	AnnotatorNotes T20	C0062185; heliox; Pharmacologic Substance · Inorganic Chemical
+T21	PROC 1566 1577	tratamiento
+#19	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	CHEM 1652 1658	heliox
+#20	AnnotatorNotes T22	C0062185; heliox; Pharmacologic Substance · Inorganic Chemical
+T23	PROC 1688 1731	administrado vía cánula nasal de bajo flujo
+T24	DISO 1761 1784	dificultad respiratoria
+#21	AnnotatorNotes T24	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T25	DISO 1802 1829	bronquiolitis aguda por VRS
+#22	AnnotatorNotes T25	C0348799; Acute bronchiolitis due to respiratory syncytial virus; Disease or Syndrome
+T26	PROC 12 26	administración
+#23	AnnotatorNotes T26	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T27	ANAT 159 168	sincitial
+#24	AnnotatorNotes T27	C0017526; Giant Cells; Cell
+T29	ANAT 421 430	sincitial
+#25	AnnotatorNotes T29	C0017526; Giant Cells; Cell
+T30	PROC 566 583	asignaron al azar
+#26	AnnotatorNotes T30	C0034656; Randomization; Research Activity
+T31	CHEM 602 608	heliox
+#27	AnnotatorNotes T31	C0062185; heliox; Pharmacologic Substance · Inorganic Chemical
+T32	PROC 1529 1533	PaO2
+#28	AnnotatorNotes T32	C0428168; Measurement of partial pressure of oxygen in blood; Laboratory Procedure
+T33	PROC 1536 1541	PaCO2
+#29	AnnotatorNotes T33	C0428189; Measurement of partial pressure of carbon dioxide in blood; Laboratory Procedure
+T34	DEVI 45 57	cánula nasal
+#30	AnnotatorNotes T34	C0179574; Nasal Cannula; Medical Device
+T35	LIVB 102 111	lactantes
+#31	AnnotatorNotes T35	C0021270; Infant; Age Group
+T36	LIVB 140 168	virus respiratorio sincitial
+#32	AnnotatorNotes T36	C0035236; Respiratory syncytial virus; Virus
+T38	DEVI 295 307	cánula nasal
+#33	AnnotatorNotes T38	C0179574; Nasal Cannula; Medical Device
+T39	DISO 332 352	trabajo respiratorio
+#34	AnnotatorNotes T39	C0476273; Respiratory distress; Sign or Symptom
+T40	LIVB 356 365	lactantes
+#35	AnnotatorNotes T40	C0021270; Infant; Age Group
+T41	LIVB 402 430	virus respiratorio sincitial
+#36	AnnotatorNotes T41	C0035236; Respiratory syncytial virus; Virus
+T42	LIVB 511 520	pacientes
+#37	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	DEVI 652 664	cánula nasal
+#38	AnnotatorNotes T43	C0179574; Nasal Cannula; Medical Device
+T44	Dose 676 679	2 L
+T45	Duration 721 725	24 h
+T46	Duration 760 767	las 2 h
+T47	Duration 811 819	las 24 h
+T48	LIVB 852 861	pacientes
+#39	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T50	Duration 974 981	las 2 h
+T51	Duration 1023 1031	las 24 h
+T53	DEVI 1200 1212	cánula nasal
+#40	AnnotatorNotes T53	C0179574; Nasal Cannula; Medical Device
+T55	Duration 1329 1338	2,42 días
+T56	Duration 1375 1384	2,79 días
+T58	CHEM 1520 1527	oxígeno
+#41	AnnotatorNotes T58	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T60	Duration 1544 1562	las 2 y a las 24 h
+T61	Dose 1682 1687	79:21
+#42	AnnotatorNotes T61	[Helium 79 % / Oxygen 21 %]
+T63	DEVI 1705 1717	cánula nasal
+#43	AnnotatorNotes T63	C0179574; Nasal Cannula; Medical Device
+T64	LIVB 1788 1797	lactantes
+#44	AnnotatorNotes T64	C0021270; Infant; Age Group
+T66	PHYS 86 98	respiratoria
+#45	AnnotatorNotes T66	C0035203; Respiration; Physiologic Function
+T67	PHYS 340 352	respiratorio
+#46	AnnotatorNotes T67	C0035203; Respiration; Physiologic Function
+T69	PHYS 1772 1784	respiratoria
+#47	AnnotatorNotes T69	C0035203; Respiration; Physiologic Function
+T70	LIVB 1826 1829	VRS
+#48	AnnotatorNotes T70	C0035236; Respiratory syncytial virus; Virus
+T62	Dose 271 276	79:21
+#49	AnnotatorNotes T62	[Helium 79 % / Oxygen 21 %]
+T28	Frequency 679 683	/min
+T37	LIVB 1100 1113	participantes
+#50	AnnotatorNotes T37	C4554048; Study Participant; Population Group
+T49	ANAT 146 158	respiratorio
+#51	AnnotatorNotes T49	C1283798; Entire respiratory tract; Body Part, Organ, or Organ Component | C0282335; Respiratory tract structure; Body Part, Organ, or Organ Component
+T52	ANAT 408 420	respiratorio
+#52	AnnotatorNotes T52	C1283798; Entire respiratory tract; Body Part, Organ, or Organ Component | C0282335; Respiratory tract structure; Body Part, Organ, or Organ Component
+A1	Population_data T40 Age
+A2	Population_data T64 Age
+A3	Population_data T35 Age
+T54	CONC 894 905	diferencias
+A4	Assertion T54 Negated
+#53	AnnotatorNotes T54	C1705241; Delta (difference); Quantitative Concept
+T57	Neg_cue 877 879	No
+R1	Negation Arg1:T57 Arg2:T54	
+T59	CONC 1065 1076	diferencias
+A5	Assertion T59 Negated
+#54	AnnotatorNotes T59	C1705241; Delta (difference); Quantitative Concept
+T65	Neg_cue 1057 1059	No
+R2	Negation Arg1:T65 Arg2:T59	
+T68	CONC 1271 1280	reducción
+A6	Assertion T68 Negated
+#55	AnnotatorNotes T68	C0547047; Decrease; Quantitative Concept
+T71	Neg_cue 1259 1261	No
+R3	Negation Arg1:T71 Arg2:T68	
+T72	Neg_cue 1622 1628	ningún
+T73	Observation 1629 1647	efecto beneficioso
+A7	Assertion T73 Negated
+#56	AnnotatorNotes T73	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R4	Negation Arg1:T72 Arg2:T73	
+T74	CONC 1439 1450	diferencias
+A8	Assertion T74 Negated
+#57	AnnotatorNotes T74	C1705241; Delta (difference); Quantitative Concept
+T75	Neg_cue 1426 1433	Tampoco
+R5	Negation Arg1:T75 Arg2:T74	
+R6	Used_for Arg1:T34 Arg2:T26	
+R7	Used_for Arg1:T1 Arg2:T26	
+T76	Quantifier_or_Qualifier 58 71	de bajo flujo
+R8	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T76	
+R10	Experiences Arg1:T35 Arg2:T4	
+R11	Experiences Arg1:T35 Arg2:T66	
+R12	Experiences Arg1:T35 Arg2:T26	
+R13	Experiences Arg1:T35 Arg2:T5	
+R14	Location_of Arg1:T49 Arg2:T5	
+R15	Location_of Arg1:T27 Arg2:T5	
+R16	Causes Arg1:T36 Arg2:T5	
+R17	Causes Arg1:T5 Arg2:T4	
+R20	Has_Dose_or_Strength Arg1:T8 Arg2:T62	
+R21	Used_for Arg1:T8 Arg2:T3	
+R22	Used_for Arg1:T38 Arg2:T3	
+T78	Observation 322 328	mejora
+#59	AnnotatorNotes T78	C0184511; Improved; Finding (?)
+R23	Before Arg1:T8 Arg2:T78	
+A9	Assertion T78 Speculated
+T79	Spec_cue 250 252	si
+R24	Speculation Arg1:T79 Arg2:T78	
+R25	Experiences Arg1:T40 Arg2:T11	
+R26	Location_of Arg1:T52 Arg2:T11	
+R27	Location_of Arg1:T29 Arg2:T11	
+R28	Causes Arg1:T41 Arg2:T11	
+R29	Experiences Arg1:T40 Arg2:T39	
+R30	Experiences Arg1:T40 Arg2:T67	
+R31	Causes Arg1:T11 Arg2:T39	
+R32	Experiences Arg1:T40 Arg2:T78	
+R33	Experiences Arg1:T40 Arg2:T8	
+T80	Observation 525 562	cumplieron los criterios de inclusión
+#60	AnnotatorNotes T80	C1302261; Patient eligible for clinical trial; Finding (?)
+R35	Before Arg1:T80 Arg2:T30	
+R36	Before Arg1:T30 Arg2:T2	
+R37	Used_for Arg1:T31 Arg2:T2	
+R38	Experiences Arg1:T42 Arg2:T2	
+R39	Has_Dose_or_Strength Arg1:T31 Arg2:T7	
+R40	Used_for Arg1:T43 Arg2:T9	
+R41	Has_Dose_or_Strength Arg1:T9 Arg2:T44	
+R42	Has_Frequency Arg1:T9 Arg2:T28	
+R43	Has_Duration_or_Interval Arg1:T9 Arg2:T45	
+R44	Has_Duration_or_Interval Arg1:T31 Arg2:T45	
+R45	Experiences Arg1:T42 Arg2:T9	
+R46	Overlap Arg1:T2 Arg2:T9	
+T81	PROC 727 748	Se realizaron medidas
+R47	Overlap Arg1:T81 Arg2:T46	
+R48	After Arg1:T81 Arg2:T14	
+R49	Overlap Arg1:T81 Arg2:T47	
+T82	Quantifier_or_Qualifier 749 756	basales
+#61	AnnotatorNotes T82	C1442488; Baseline; Quantitative Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T81 Arg2:T82	
+T83	Quantifier_or_Qualifier 906 920	significativas
+A10	Assertion T83 Negated
+#62	AnnotatorNotes T83	C0237881; Statistical Significance; Quantitative Concept
+R51	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T83	
+T84	CONC 944 950	M-WCAS
+#63	AnnotatorNotes T84	[Modified Wood's Clinical Asthma Score]
+R52	Overlap Arg1:T84 Arg2:T50	
+R53	Overlap Arg1:T84 Arg2:T51	
+R54	Overlap Arg1:T54 Arg2:T50	
+R55	Overlap Arg1:T54 Arg2:T51	
+R56	Experiences Arg1:T37 Arg2:T15	
+R57	Experiences Arg1:T37 Arg2:T16	
+R58	Experiences Arg1:T37 Arg2:T17	
+R59	Used_for Arg1:T53 Arg2:T17	
+T85	Quantifier_or_Qualifier 1281 1294	significativa
+A11	Assertion T85 Negated
+#64	AnnotatorNotes T85	C0237881; Statistical Significance; Quantitative Concept
+R60	Has_Quantifier_or_Qualifier Arg1:T68 Arg2:T85	
+R62	Used_for Arg1:T20 Arg2:T10	
+R63	Has_Duration_or_Interval Arg1:T13 Arg2:T56	
+T86	PROC 586 597;619 627	tratamiento con aire
+R64	Before Arg1:T30 Arg2:T86	
+R65	Overlap Arg1:T86 Arg2:T9	
+T87	Quantifier_or_Qualifier 1451 1465	significativas
+A12	Assertion T87 Negated
+#65	AnnotatorNotes T87	C0237881; Statistical Significance; Quantitative Concept
+R66	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T87	
+R67	Negation Arg1:T75 Arg2:T87	
+R68	Negation Arg1:T57 Arg2:T83	
+R69	Negation Arg1:T71 Arg2:T85	
+R70	Overlap Arg1:T33 Arg2:T60	
+R71	Overlap Arg1:T32 Arg2:T60	
+R72	Overlap Arg1:T18 Arg2:T60	
+R73	Overlap Arg1:T74 Arg2:T60	
+R74	Before Arg1:T21 Arg2:T18	
+R75	Before Arg1:T21 Arg2:T32	
+R76	Before Arg1:T21 Arg2:T33	
+R77	Before Arg1:T22 Arg2:T73	
+R78	Has_Dose_or_Strength Arg1:T22 Arg2:T61	
+R79	Used_for Arg1:T22 Arg2:T23	
+R80	Used_for Arg1:T63 Arg2:T23	
+T88	Observation 1747 1754	mejoría
+#66	AnnotatorNotes T88	C0184511; Improved; Finding (?)
+R81	Before Arg1:T22 Arg2:T88	
+R82	Experiences Arg1:T64 Arg2:T24	
+R84	Experiences Arg1:T64 Arg2:T69	
+R85	Experiences Arg1:T64 Arg2:T25	
+R86	Causes Arg1:T70 Arg2:T25	
+R87	Experiences Arg1:T64 Arg2:T88	
+R88	Experiences Arg1:T64 Arg2:T23	
+R89	Experiences Arg1:T64 Arg2:T73	
+R90	Experiences Arg1:T64 Arg2:T22	
+R91	Before Arg1:T24 Arg2:T88	
+R92	Causes Arg1:T25 Arg2:T24	
+R9	Has_Duration_or_Interval Arg1:T86 Arg2:T45	
+R18	Has_Duration_or_Interval Arg1:T20 Arg2:T55	
+A13	Experiencer T35 Patient
+A14	Experiencer T40 Patient
+A15	Experiencer T42 Patient
+A16	Experiencer T48 Patient
+A17	Experiencer T37 Patient
+A18	Experiencer T64 Patient

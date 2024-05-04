@@ -1,0 +1,297 @@
+T1	PROC 44 97	Ensayo clínico multicéntrico, aleatorizado, y abierto
+T2	PROC 103 134	evaluar la eficacia y seguridad
+#1	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T3	PROC 173 184	tratamiento
+#2	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 200 221	neumonía por COVID-19
+T5	PROC 235 249	hospitalizados
+#3	AnnotatorNotes T5	C0019993; Hospitalization; Health Care Activity
+T6	DISO 272 286	Neumonía COVID
+T7	DISO 312 335	Neumonía por SARS-CoV-2
+T8	CHEM 144 153	sarilumab
+#4	AnnotatorNotes T8	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	PROC 391 427	consentimiento informado por escrito
+#5	AnnotatorNotes T9	C0811741; Obtain informed written consent; Health Care Activity
+T10	PROC 474 493	consentimiento oral
+#6	AnnotatorNotes T10	C1608381; Consent Mode - Verbal; Health Care Activity
+T11	PROC 725 731	TR-PCR
+#7	AnnotatorNotes T11	C0599161; Reverse Transcriptase Polymerase Chain Reaction; Molecular Biology Research Technique
+T12	DISO 783 791	COVID-19
+#8	AnnotatorNotes T12	C5203670; COVID19 (disease); Disease or Syndrome
+T13	PROC 765 778	hospitalizado
+#9	AnnotatorNotes T13	C0019993; Hospitalization; Health Care Activity
+T14	PROC 796 816	ventilación mecánica
+#10	AnnotatorNotes T14	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T15	CHEM 858 865	oxígeno
+#11	AnnotatorNotes T15	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T16	PROC 927 939	radiográfica
+#12	AnnotatorNotes T16	C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T17	DISO 943 965	infiltrados pulmonares
+#13	AnnotatorNotes T17	C0277877; Radiologic infiltrate of lung; Finding
+T18	PROC 978 998	radiografía de tórax
+#14	AnnotatorNotes T18	C0039985; Plain chest X-ray; Diagnostic Procedure
+T19	PROC 1000 1024	tomografía computarizada
+#15	AnnotatorNotes T19	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T20	PROC 1035 1053	evaluación clínica
+#16	AnnotatorNotes T20	C4534461; Clinical assessment; Health Care Activity
+T21	DISO 1068 1078	estertores
+#17	AnnotatorNotes T21	C0034642; Rales; Finding | C0231841; Stertorous breathing; Sign or Symptom
+T22	DISO 1081 1094	crepitaciones
+#18	AnnotatorNotes T22	C0034642; Rales; Finding | C3887661; Stertor; Sign or Symptom
+T23	CHEM 1154 1161	oxígeno
+#19	AnnotatorNotes T23	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T24	DISO 1218 1226	síntomas
+#20	AnnotatorNotes T24	C1457887; Symptoms; Sign or Symptom
+T25	DISO 1228 1234	fiebre
+#21	AnnotatorNotes T25	C0015967; Fever; Sign or Symptom
+T26	DISO 1236 1242	disnea
+#22	AnnotatorNotes T26	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T27	DISO 1249 1252	tos
+#23	AnnotatorNotes T27	C0010200; Coughing; Sign or Symptom
+T28	PROC 1266 1296	administración del tratamiento
+T29	DISO 1313 1319	fiebre
+#24	AnnotatorNotes T29	C0015967; Fever; Sign or Symptom
+T30	DISO 1321 1324	tos
+#25	AnnotatorNotes T30	C0010200; Coughing; Sign or Symptom
+T31	DISO 1327 1333	disnea
+#26	AnnotatorNotes T31	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T32	DISO 1362 1370	síntomas
+#27	AnnotatorNotes T32	C1457887; Symptoms; Sign or Symptom
+T33	DISO 1376 1383	astenia
+#28	AnnotatorNotes T33	C0004093; Asthenia; Sign or Symptom
+T34	DISO 1385 1400	dolor de cabeza
+#29	AnnotatorNotes T34	C0018681; Headache; Sign or Symptom
+T35	DISO 1403 1430	síntomas gastrointestinales
+T36	DISO 1498 1511	inflamatorios
+#30	AnnotatorNotes T36	C0021368; Inflammation; Pathologic Function
+T37	DISO 1529 1555	síndrome hiperinflamatorio
+T38	PROC 1572 1576	IL-6
+#31	AnnotatorNotes T38	C0919829; Interleukin 6 Measurement; Laboratory Procedure
+T39	PROC 1603 1611	Dímero D
+#32	AnnotatorNotes T39	C2826333; D-Dimer Measurement; Laboratory Procedure
+T40	DISO 1719 1732	inflamatorios
+#33	AnnotatorNotes T40	C0021368; Inflammation; Pathologic Function
+T41	PROC 1113 1117	SpO2
+#34	AnnotatorNotes T41	C0428179; Measurement of oxygen saturation at periphery; Laboratory Procedure
+T42	PROC 1154 1175	oxígeno suplementario
+#35	AnnotatorNotes T42	C0919655; Oxygen supplementation; Therapeutic or Preventive Procedure
+T43	CHEM 1764 1773	ferritina
+#36	AnnotatorNotes T43	C0015879; Ferritin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T44	ANAT 1774 1780	sérica
+#37	AnnotatorNotes T44	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T45	DISO 1782 1792	linfopenia
+#38	AnnotatorNotes T45	C0024312; Lymphopenia; Disease or Syndrome
+T46	PROC 1795 1803	dímero d
+#39	AnnotatorNotes T46	C2826333; D-Dimer Measurement; Laboratory Procedure
+T47	PROC 1844 1864	ventilación mecánica
+#40	AnnotatorNotes T47	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T48	CHEM 1906 1913	oxígeno
+#41	AnnotatorNotes T48	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T49	PROC 1965 1979	ensayo clínico
+#42	AnnotatorNotes T49	C0008976; Clinical Trials; Research Activity
+T50	PROC 1987 2011	tratamiento experimental
+#43	AnnotatorNotes T50	C2585119; Experimental therapeutic procedure; Therapeutic or Preventive Procedure
+T51	PROC 2184 2196	tratamientos
+#44	AnnotatorNotes T51	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T52	DISO 2230 2237	alergia
+#45	AnnotatorNotes T52	C1527304; Allergic Reaction; Pathologic Function
+T53	CHEM 2273 2289	corticosteroides
+#46	AnnotatorNotes T53	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T54	PROC 554 580	consentimiento por escrito
+#47	AnnotatorNotes T54	C0811746; Obtain written consent; Health Care Activity
+T55	ANAT 1412 1430	gastrointestinales
+#48	AnnotatorNotes T55	C0012240; Gastrointestinal system; Body System
+T56	PROC 138 141	SOC
+#49	AnnotatorNotes T56	C2936643; Standard of Care; Health Care Activity
+T57	ANAT 955 965	pulmonares
+#50	AnnotatorNotes T57	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T58	ANAT 993 998	tórax
+#51	AnnotatorNotes T58	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T59	PROC 1101 1107	examen
+#52	AnnotatorNotes T59	C0582103; Medical Examination; Health Care Activity
+T60	PROC 161 164	SOC
+#53	AnnotatorNotes T60	C2936643; Standard of Care; Health Care Activity
+T61	ANAT 1394 1400	cabeza
+#54	AnnotatorNotes T61	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T62	PROC 1754 1757	PCR
+#55	AnnotatorNotes T62	C0201657; C-reactive protein measurement; Laboratory Procedure
+T63	PROC 1759 1762	LDH
+#56	AnnotatorNotes T63	C0202113; Lactate dehydrogenase measurement; Laboratory Procedure
+T64	PROC 1764 1780	ferritina sérica
+#57	AnnotatorNotes T64	C0696113; Serum ferritin measurement; Laboratory Procedure
+T65	DISO 2080 2086	muerte
+#58	AnnotatorNotes T65	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T66	PROC 2243 2257	administración
+#59	AnnotatorNotes T66	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T67	DISO 2017 2025	COVID-19
+#60	AnnotatorNotes T67	C5203670; COVID19 (disease); Disease or Syndrome
+T68	CHEM 2261 2270	sarilumab
+#61	AnnotatorNotes T68	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T69	Date 12 16	2020
+T70	LIVB 225 234	pacientes
+#62	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T71	LIVB 325 335	SARS-CoV-2
+#63	AnnotatorNotes T71	C5203676; SARS-CoV-2; Virus
+T72	LIVB 366 375	Pacientes
+#64	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T74	LIVB 499 506	testigo
+#65	AnnotatorNotes T74	C0682356; Witnesses; Population Group
+T76	LIVB 585 593	paciente
+#66	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T77	LIVB 600 614	representantes
+#67	AnnotatorNotes T77	C0030701; Patient Representatives; Professional or Occupational Group | C0600419; Patient Agent; Group | C1998038; Patient advocate (person); Population Group (?)
+T78	Date 615 631	lo antes posible
+T81	LIVB 636 651	Paciente adulto
+#68	AnnotatorNotes T81	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T82	Age 655 664	≥ 18 años
+T83	LIVB 677 685	Paciente
+#69	AnnotatorNotes T83	C0030705; Patients; Patient or Disabled Group
+T84	LIVB 709 720	coronavirus
+#70	AnnotatorNotes T84	C5203676; SARS-CoV-2; Virus
+T85	LIVB 753 761	paciente
+#71	AnnotatorNotes T85	C0030705; Patients; Patient or Disabled Group
+T86	Neg_cue 792 795	sin
+T88	DEVI 844 880	mascarilla de oxígeno con reservorio
+#72	AnnotatorNotes T88	C1960093; Nonrebreather oxygen mask; Medical Device
+T89	Duration 1181 1194	Más de 7 días
+T90	Neg_cue 1301 1312	ausencia de
+T92	LIVB 1439 1448	pacientes
+#73	AnnotatorNotes T92	C0030705; Patients; Patient or Disabled Group
+T93	Spec_cue 1512 1525	sugestivos de
+T95	Duration 1736 1752	las 48 h previas
+T97	DEVI 1892 1928	mascarilla de oxígeno con reservorio
+#74	AnnotatorNotes T97	C1960093; Nonrebreather oxygen mask; Medical Device
+T98	Duration 2123 2144	las próximas 24 horas
+A1	Population_data T81 Age
+A2	Assertion T14 Negated
+A3	Assertion T88 Negated
+A4	Assertion T29 Negated
+A5	Assertion T30 Negated
+A6	Assertion T31 Negated
+A7	Assertion T37 Speculated
+A8	Status T52 History_of
+#75	AnnotatorNotes T1	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C1709323; Open Label Study; Research Activity 
+#76	AnnotatorNotes T4	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#77	AnnotatorNotes T6	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#78	AnnotatorNotes T7	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#79	AnnotatorNotes T35	C0426576; Gastrointestinal symptom; Sign or Symptom
+#80	AnnotatorNotes T37	C3807248; Hyperinflammatory disorder; Finding 
+T73	Neg_cue 1877 1879	no
+T75	Quantifier_or_Qualifier 1880 1888	invasiva
+A9	Assertion T75 Negated
+T79	Quantifier_or_Qualifier 1866 1874	invasiva
+T80	Quantifier_or_Qualifier 818 826	invasiva
+T87	Quantifier_or_Qualifier 832 840	invasiva
+A10	Assertion T87 Negated
+T91	Neg_cue 829 831	no
+R1	Negation Arg1:T86 Arg2:T14	
+R2	Negation Arg1:T91 Arg2:T87	
+R3	Negation Arg1:T86 Arg2:T88	
+R4	Negation Arg1:T90 Arg2:T29	
+R5	Negation Arg1:T90 Arg2:T30	
+R6	Negation Arg1:T90 Arg2:T31	
+R7	Speculation Arg1:T93 Arg2:T37	
+R8	Negation Arg1:T73 Arg2:T75	
+R9	Combined_with Arg1:T56 Arg2:T8	
+R10	Experiences Arg1:T70 Arg2:T56	
+R11	Experiences Arg1:T70 Arg2:T60	
+R12	Experiences Arg1:T70 Arg2:T3	
+R13	Experiences Arg1:T70 Arg2:T4	
+R14	Experiences Arg1:T70 Arg2:T5	
+T94	Quantifier_or_Qualifier 185 193	temprano
+#81	AnnotatorNotes T94	C1279919; Early; Temporal Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T94	
+R16	Causes Arg1:T71 Arg2:T7	
+R18	Overlap Arg1:T56 Arg2:T5	
+R19	Overlap Arg1:T8 Arg2:T5	
+R20	Overlap Arg1:T60 Arg2:T5	
+R21	Overlap Arg1:T3 Arg2:T5	
+T96	Observation 433 457	participar en el estudio
+#82	AnnotatorNotes T96	C1278516; Patient participation status; Finding
+R22	Before Arg1:T9 Arg2:T96	
+R23	Overlap Arg1:T54 Arg2:T78	
+R24	Has_Age Arg1:T81 Arg2:T82	
+T99	Result_or_Value 686 694	positivo
+#83	AnnotatorNotes T99	C1446409; Positive; Finding
+R26	Causes Arg1:T84 Arg2:T99	
+R27	Has_Result_or_Value Arg1:T11 Arg2:T99	
+R28	Experiences Arg1:T83 Arg2:T11	
+R29	Experiences Arg1:T85 Arg2:T13	
+R30	Experiences Arg1:T85 Arg2:T12	
+R31	Overlap Arg1:T13 Arg2:T14	
+R33	Experiences Arg1:T85 Arg2:T14	
+R34	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T80	
+#84	AnnotatorNotes T80	C0205281; Invasive; Qualitative Concept
+#85	AnnotatorNotes T87	C0205281; Invasive; Qualitative Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T87	
+R37	Experiences Arg1:T85 Arg2:T88	
+R38	Location_of Arg1:T57 Arg2:T17	
+R40	Location_of Arg1:T58 Arg2:T18	
+T100	Result_or_Value 1118 1123	≤ 94%
+R48	Has_Result_or_Value Arg1:T41 Arg2:T100	
+T101	Quantifier_or_Qualifier 1124 1140	en aire ambiente
+R49	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T101	
+R50	Before Arg1:T41 Arg2:T42	
+R51	Used_for Arg1:T23 Arg2:T42	
+T102	CONC 1204 1226	inicio de los síntomas
+R52	Before Arg1:T102 Arg2:T89	
+R53	Has_Duration_or_Interval Arg1:T24 Arg2:T89	
+R54	Has_Duration_or_Interval Arg1:T25 Arg2:T89	
+R55	Has_Duration_or_Interval Arg1:T26 Arg2:T89	
+R56	Has_Duration_or_Interval Arg1:T27 Arg2:T89	
+R62	Location_of Arg1:T61 Arg2:T34	
+R63	Location_of Arg1:T55 Arg2:T35	
+R64	Experiences Arg1:T92 Arg2:T36	
+T105	Observation 1572 1584	IL-6 elevada
+T106	Result_or_Value 1586 1597	> 40pg / ml
+#88	AnnotatorNotes T105	C3278574; Increased IL-6; Finding
+R67	Has_Result_or_Value Arg1:T38 Arg2:T106	
+T107	Observation 1603 1619	Dímero D elevado
+#89	AnnotatorNotes T107	C5435749; Increased D-dimers; Finding
+T108	Result_or_Value 1621 1635	> 1.0 mcg / ml
+R68	Has_Result_or_Value Arg1:T39 Arg2:T108	
+T109	Observation 1658 1671	empeoramiento
+#90	AnnotatorNotes T109	C1457868; Worse; Finding
+T110	Quantifier_or_Qualifier 1672 1682	progresivo
+#91	AnnotatorNotes T110	C0205329; Progressive; Functional Concept
+R69	Has_Quantifier_or_Qualifier Arg1:T109 Arg2:T110	
+R70	Overlap Arg1:T109 Arg2:T95	
+R71	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T109	
+R72	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T109	
+R73	Location_of Arg1:T44 Arg2:T64	
+R74	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T109	
+R75	Before Arg1:T45 Arg2:T109	
+R76	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T109	
+#92	AnnotatorNotes T79	C0205281; Invasive; Qualitative Concept
+#93	AnnotatorNotes T75	C0205281; Invasive; Qualitative Concept
+R77	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T79	
+R78	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T75	
+T111	Observation 1933 1979	Participación en cualquier otro ensayo clínico
+T112	Observation 2080 2099	muerte es inminente
+#94	AnnotatorNotes T112	C2363727; Death imminent; Finding
+R80	Before Arg1:T51 Arg2:T65	
+R81	Used_for Arg1:T68 Arg2:T66	
+R82	Used_for Arg1:T53 Arg2:T66	
+R83	Causes Arg1:T66 Arg2:T52	
+#95	AnnotatorNotes T28	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+R84	Experiences Arg1:T92 Arg2:T37	
+R17	After Arg1:T28 Arg2:T89	
+R25	Overlap Arg1:T65 Arg2:T98	
+R32	Overlap Arg1:T62 Arg2:T95	
+R36	Overlap Arg1:T63 Arg2:T95	
+R39	Overlap Arg1:T64 Arg2:T95	
+R41	Overlap Arg1:T46 Arg2:T95	
+A11	Experiencer T70 Patient
+A12	Experiencer T72 Patient
+A13	Experiencer T74 Other
+A14	Experiencer T77 Other
+A15	Experiencer T76 Patient
+A16	Experiencer T81 Patient
+A17	Experiencer T83 Patient
+A18	Experiencer T85 Patient
+A19	Experiencer T92 Patient
+A20	Status T65 Future
+A21	Status T10 Future
+A22	Status T54 Future
+R42	Has_Result_or_Value Arg1:T39 Arg2:T107	
+R43	Has_Result_or_Value Arg1:T38 Arg2:T105	

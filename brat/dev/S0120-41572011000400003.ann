@@ -1,0 +1,219 @@
+T1	DISO 15 39	enterocolitis necrosante
+#1	AnnotatorNotes T1	C0520459; Necrotizing Enterocolitis; Disease or Syndrome | C4082937; Necrotizing enterocolitis in fetus OR newborn; Disease or Syndrome
+T2	DISO 49 59	prematuros
+#2	AnnotatorNotes T2	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T3	PROC 461 482	alimentación entérica
+#3	AnnotatorNotes T3	C0014327; Enteral Nutrition; Therapeutic or Preventive Procedure | C0086225; Enteral Feeding; Therapeutic or Preventive Procedure
+T4	DISO 102 126	enterocolitis necrosante
+#4	AnnotatorNotes T4	C0520459; Necrotizing Enterocolitis; Disease or Syndrome | C4082937; Necrotizing enterocolitis in fetus OR newborn; Disease or Syndrome
+T5	ANAT 212 220	visceral
+#5	AnnotatorNotes T5	C0042779; Viscera; Body Part, Organ, or Organ Component
+T6	DISO 320 329	patogenia
+#6	AnnotatorNotes T6	C0699748; Pathogenesis; Pathologic Function
+T7	DISO 382 406	enterocolitis necrosante
+#7	AnnotatorNotes T7	C0520459; Necrotizing Enterocolitis; Disease or Syndrome | C4082937; Necrotizing enterocolitis in fetus OR newborn; Disease or Syndrome
+T8	LIVB 429 439	prematuros
+#8	AnnotatorNotes T8	C4048294; Preterm Infant; Age Group
+T9	Route 474 482	entérica
+#9	AnnotatorNotes T9	C1522196; Enteral Route of Drug Administration; Functional Concept
+T10	PROC 760 781	alimentación temprana
+#10	AnnotatorNotes T10	C2067262; early postnatal feeding; Therapeutic or Preventive Procedure
+T11	LIVB 850 860	prematuros
+#11	AnnotatorNotes T11	C4048294; Preterm Infant; Age Group
+T12	DISO 1057 1074	signos o síntomas
+T13	PROC 790 809	alimentación tardía
+T14	DISO 1146 1170	enterocolitis necrosante
+#12	AnnotatorNotes T14	C0520459; Necrotizing Enterocolitis; Disease or Syndrome | C4082937; Necrotizing enterocolitis in fetus OR newborn; Disease or Syndrome
+T15	Route 1593 1601	entérica
+#13	AnnotatorNotes T15	C1522196; Enteral Route of Drug Administration; Functional Concept
+T16	DISO 1614 1624	prematuros
+#14	AnnotatorNotes T16	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T17	DISO 1649 1673	enterocolitis necrosante
+#15	AnnotatorNotes T17	C0520459; Necrotizing Enterocolitis; Disease or Syndrome | C4082937; Necrotizing enterocolitis in fetus OR newborn; Disease or Syndrome
+T18	PROC 735 752	asignados al azar
+#16	AnnotatorNotes T18	C0034656; Randomization; Research Activity
+T19	LIVB 167 181	recién nacidos
+#17	AnnotatorNotes T19	C0021289; Infant, Newborn; Age Group
+T20	DISO 195 220	vasoconstricción visceral
+T21	PROC 1186 1207	alimentación temprana
+#18	AnnotatorNotes T21	C2067262; early postnatal feeding; Therapeutic or Preventive Procedure
+T22	PROC 1242 1261	alimentación tardía
+T23	PROC 620 645	ensayo clínico controlado
+#19	AnnotatorNotes T23	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T24	LIVB 653 661	neonatos
+#20	AnnotatorNotes T24	C0021289; Infant, Newborn; Age Group
+T25	PROC 1347 1368	alimentación temprana
+#21	AnnotatorNotes T25	C2067262; early postnatal feeding; Therapeutic or Preventive Procedure
+T26	PROC 1411 1430	alimentación tardía
+T27	DISO 1320 1331	fallecieron
+#22	AnnotatorNotes T27	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T28	PROC 1580 1601	alimentación entérica
+#23	AnnotatorNotes T28	C0014327; Enteral Nutrition; Therapeutic or Preventive Procedure | C0086225; Enteral Feeding; Therapeutic or Preventive Procedure
+T29	PROC 60 83	alimentados precozmente
+#24	AnnotatorNotes T29	C2067262; early postnatal feeding; Therapeutic or Preventive Procedure
+T30	DISO 1078 1104	intolerancia a la vía oral
+#25	AnnotatorNotes T30	C0011168; Deglutition Disorders; Disease or Syndrome (?)
+T32	PHYS 195 211	vasoconstricción
+#26	AnnotatorNotes T32	C0042396; Vascular constriction; Organ or Tissue Function
+T33	Route 305 313	vía oral
+#27	AnnotatorNotes T33	C1527415; Oral Route of Drug administration; Functional Concept
+T34	Duration 485 497	las 48 horas
+T38	Duration 694 712	de 27 a 32 semanas
+T39	PHYS 724 733	gestación
+#28	AnnotatorNotes T39	C0032961; Pregnancy; Organism Function
+T40	Frequency 889 904	cada seis horas
+T41	Duration 938 948	tres horas
+T42	Frequency 965 971	diario
+T45	Frequency 1015 1021	al día
+T47	Neg_cue 1040 1042	no
+T48	ANAT 1100 1104	oral
+#29	AnnotatorNotes T48	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T49	LIVB 1314 1319	niños
+#30	AnnotatorNotes T49	C0008059; Child; Age Group
+T52	Spec_cue 1639 1648	riesgo de
+T54	LIVB 1738 1747	pacientes
+#31	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 43 59	niños prematuros
+#32	AnnotatorNotes T55	C4048294; Preterm Infant; Age Group
+T56	PHYS 60 71	alimentados
+#33	AnnotatorNotes T56	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T58	PHYS 461 473	alimentación
+#34	AnnotatorNotes T58	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T59	Date 558 568	quinto día
+T60	PHYS 760 772	alimentación
+#35	AnnotatorNotes T60	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T61	PHYS 790 802	alimentación
+#36	AnnotatorNotes T61	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T63	PHYS 1186 1198	alimentación
+#37	AnnotatorNotes T63	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T64	PHYS 1242 1254	alimentación
+#38	AnnotatorNotes T64	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T65	PHYS 1347 1359	alimentación
+#39	AnnotatorNotes T65	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T66	PHYS 1411 1423	alimentación
+#40	AnnotatorNotes T66	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T67	PHYS 1580 1592	alimentación
+#41	AnnotatorNotes T67	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T68	LIVB 1605 1624	neonatos prematuros
+#42	AnnotatorNotes T68	C4048294; Preterm Infant; Age Group
+T31	PROC 687 691	peso
+#43	AnnotatorNotes T31	C2985231; Body Weight Measurement; Diagnostic Procedure
+T35	DISO 1683 1693	mortalidad
+#44	AnnotatorNotes T35	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+A1	Population_data T55 Age
+A2	Assertion T12 Negated
+A3	Assertion T30 Negated
+A4	Population_data T49 Age
+A5	Population_data T68 Age
+A6	Assertion T17 Speculated
+A7	Population_data T19 Age
+A8	Assertion T35 Speculated
+A9	Population_data T8 Age
+A11	Population_data T11 Age
+R1	Speculation Arg1:T52 Arg2:T17	
+T36	CONC 1628 1635	aumenta
+A10	Assertion T36 Negated
+#45	AnnotatorNotes T36	C0442805; Increase; Functional Concept
+T37	Neg_cue 1625 1627	no
+R2	Negation Arg1:T37 Arg2:T36	
+R3	Negation Arg1:T47 Arg2:T12	
+R4	Negation Arg1:T47 Arg2:T30	
+T43	Neg_cue 1450 1453	sin
+T44	CONC 1464 1475	diferencias
+A12	Assertion T44 Negated
+#46	AnnotatorNotes T44	C1705241; Delta (difference); Quantitative Concept
+R5	Negation Arg1:T43 Arg2:T44	
+T46	Quantifier_or_Qualifier 1483 1497	significativas
+A13	Assertion T46 Negated
+#47	AnnotatorNotes T46	C0750502; Significant; Idea or Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T46	
+#48	AnnotatorNotes T12	C0037088; Signs and Symptoms; Sign or Symptom
+R7	Experiences Arg1:T55 Arg2:T2	
+R8	Experiences Arg1:T55 Arg2:T1	
+R9	Overlap Arg1:T1 Arg2:T2	
+R10	Experiences Arg1:T55 Arg2:T29	
+R11	Experiences Arg1:T55 Arg2:T56	
+R13	Experiences Arg1:T19 Arg2:T4	
+R14	Experiences Arg1:T19 Arg2:T20	
+R16	Location_of Arg1:T5 Arg2:T20	
+R17	Causes Arg1:T20 Arg2:T4	
+R18	Experiences Arg1:T8 Arg2:T7	
+T50	DISO 412 422	mortalidad
+#49	AnnotatorNotes T50	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+R19	Experiences Arg1:T8 Arg2:T3	
+R20	Experiences Arg1:T8 Arg2:T58	
+R21	Has_Route_or_Mode Arg1:T3 Arg2:T9	
+R22	Overlap Arg1:T3 Arg2:T34	
+R23	Overlap Arg1:T3 Arg2:T59	
+T51	Result_or_Value 665 683	750 a 1.500 gramos
+R24	Has_Result_or_Value Arg1:T31 Arg2:T51	
+R25	Experiences Arg1:T24 Arg2:T31	
+R26	Has_Duration_or_Interval Arg1:T39 Arg2:T38	
+T53	PROC 716 733	edad de gestación
+#50	AnnotatorNotes T53	C4040272; Assessment of fetal gestational age; Health Care Activity
+R27	Before Arg1:T18 Arg2:T10	
+R30	Before Arg1:T18 Arg2:T61	
+R31	Experiences Arg1:T11 Arg2:T31	
+R32	Experiences Arg1:T11 Arg2:T13	
+R33	Experiences Arg1:T11 Arg2:T10	
+R34	Experiences Arg1:T24 Arg2:T10	
+R35	Experiences Arg1:T24 Arg2:T13	
+T57	ANAT 814 827	leche materna
+#51	AnnotatorNotes T57	C1556060; Specimen Type - Breast milk; Body Substance
+R36	Used_for Arg1:T57 Arg2:T10	
+R37	Used_for Arg1:T57 Arg2:T13	
+T62	Food 830 860	fórmula láctea para prematuros
+#52	AnnotatorNotes T62	C3853277; Premature infant formula; Food
+R38	Used_for Arg1:T62 Arg2:T13	
+R39	Used_for Arg1:T62 Arg2:T10	
+T69	Result_or_Value 876 888	un mililitro
+R40	Has_Frequency Arg1:T69 Arg2:T40	
+T70	Result_or_Value 975 989	hasta 20 ml/kg
+R41	Has_Frequency Arg1:T70 Arg2:T42	
+R42	Has_Duration_or_Interval Arg1:T70 Arg2:T41	
+T71	Result_or_Value 1005 1014	150 ml/kg
+R43	Has_Frequency Arg1:T71 Arg2:T45	
+R44	Location_of Arg1:T48 Arg2:T30	
+R45	Before Arg1:T69 Arg2:T70	
+R46	Before Arg1:T70 Arg2:T71	
+R60	Experiences Arg1:T49 Arg2:T27	
+R62	Experiences Arg1:T49 Arg2:T25	
+R63	Experiences Arg1:T49 Arg2:T65	
+R64	Experiences Arg1:T49 Arg2:T66	
+R66	Experiences Arg1:T49 Arg2:T26	
+R68	Has_Route_or_Mode Arg1:T28 Arg2:T15	
+R69	Experiences Arg1:T68 Arg2:T28	
+R70	Experiences Arg1:T68 Arg2:T67	
+R71	Experiences Arg1:T68 Arg2:T16	
+R73	Experiences Arg1:T68 Arg2:T17	
+R74	Before Arg1:T28 Arg2:T17	
+R75	Before Arg1:T28 Arg2:T35	
+R76	Experiences Arg1:T8 Arg2:T50	
+R77	Experiences Arg1:T68 Arg2:T35	
+R78	Experiences Arg1:T54 Arg2:T35	
+R79	Experiences Arg1:T54 Arg2:T17	
+R80	Experiences Arg1:T54 Arg2:T16	
+R81	Experiences Arg1:T54 Arg2:T28	
+R82	Experiences Arg1:T54 Arg2:T67	
+R83	Before Arg1:T7 Arg2:T50	
+R84	Before Arg1:T3 Arg2:T7	
+R85	Negation Arg1:T43 Arg2:T46	
+R12	Experiences Arg1:T19 Arg2:T32	
+R15	Experiences Arg1:T24 Arg2:T60	
+R28	Experiences Arg1:T24 Arg2:T61	
+R29	Experiences Arg1:T11 Arg2:T61	
+R55	Experiences Arg1:T11 Arg2:T60	
+R47	Before Arg1:T21 Arg2:T14	
+R48	Before Arg1:T22 Arg2:T14	
+R49	Before Arg1:T70 Arg2:T12	
+R50	Before Arg1:T70 Arg2:T30	
+R51	Before Arg1:T29 Arg2:T1	
+A14	Experiencer T68 Patient
+A15	Experiencer T54 Patient
+A16	Experiencer T55 Patient
+A17	Experiencer T19 Patient
+A18	Experiencer T8 Patient
+A19	Experiencer T24 Patient
+A20	Population_data T24 Age
+A21	Experiencer T11 Patient
+A22	Experiencer T49 Patient

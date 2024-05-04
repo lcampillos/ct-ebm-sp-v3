@@ -1,0 +1,190 @@
+T1	PROC 74 104	preparación de la colonoscopia
+T2	PROC 146 157	preparación
+#1	AnnotatorNotes T2	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+T3	PROC 122 134	colonoscopia
+#2	AnnotatorNotes T3	C0009378; colonoscopy; Diagnostic Procedure
+T4	PROC 309 320	preparación
+#3	AnnotatorNotes T4	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+T5	PROC 219 249	preparación de la colonoscopia
+T6	CHEM 254 267	Macrogol 3350
+T7	PROC 285 297	colonoscopia
+#4	AnnotatorNotes T7	C0009378; colonoscopy; Diagnostic Procedure
+T8	DISO 355 370	Cáncer de colon
+#5	AnnotatorNotes T8	C0007102; Malignant tumor of colon; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process
+T9	DISO 397 414	cáncer colorectal
+T10	PROC 506 517	seguimiento
+#6	AnnotatorNotes T10	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T11	PROC 536 558	consultas de digestivo
+#7	AnnotatorNotes T11	C0847126; Consultation with specialist, DIGESTIVE; Therapeutic or Preventive Procedure
+T12	DISO 577 595	cáncer colorrectal
+#8	AnnotatorNotes T12	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T13	PROC 648 660	colonoscopia
+#9	AnnotatorNotes T13	C0009378; colonoscopy; Diagnostic Procedure
+T14	PROC 664 675	seguimiento
+#10	AnnotatorNotes T14	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T15	PROC 694 707	colonoscopias
+#11	AnnotatorNotes T15	C0009378; colonoscopy; Diagnostic Procedure
+T16	PROC 808 819	preparación
+#12	AnnotatorNotes T16	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+T17	PROC 844 856	colonoscopia
+#13	AnnotatorNotes T17	C0009378; colonoscopy; Diagnostic Procedure
+T18	ANAT 939 957	segmento del colon
+#14	AnnotatorNotes T18	C2332535; Segment of colon; Body Location or Region
+T19	PROC 1075 1086	resecciones
+#15	AnnotatorNotes T19	C0728940; Excision; Therapeutic or Preventive Procedure
+T20	DISO 1120 1154	enfermedad inflamatoria intestinal
+#16	AnnotatorNotes T20	C0021390; Inflammatory Bowel Diseases; Disease or Syndrome
+T21	PROC 1168 1182	hospitalizados
+#17	AnnotatorNotes T21	C0019993; Hospitalization; Health Care Activity
+T22	DISO 1215 1222	alergia
+#18	AnnotatorNotes T22	C1527304; Allergic Reaction; Pathologic Function
+T23	CHEM 1225 1238	Macrogol 3350
+T24	PROC 1278 1289	preparación
+#19	AnnotatorNotes T24	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+T25	CHEM 1301 1319	solución evacuante
+T26	ANAT 365 370	colon
+#20	AnnotatorNotes T26	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T27	DISO 521 528	pólipos
+#21	AnnotatorNotes T27	C0032584; polyps; Anatomical Abnormality
+T28	ANAT 584 595	colorrectal
+#22	AnnotatorNotes T28	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T29	DISO 1200 1212	intolerancia
+#23	AnnotatorNotes T29	C0277585; Intolerance to drug; Pathologic Function
+T30	ANAT 1090 1102	intestinales
+#24	AnnotatorNotes T30	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T31	ANAT 1144 1154	intestinal
+#25	AnnotatorNotes T31	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T32	PROC 1007 1031	consentimiento informado
+#26	AnnotatorNotes T32	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T33	ANAT 404 414	colorectal
+#27	AnnotatorNotes T33	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T34	CHEM 1320 1324	Bohm
+T35	Date 13 17	2019
+T36	LIVB 108 117	pacientes
+#28	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 271 280	pacientes
+#29	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 443 450	Sujetos
+#30	AnnotatorNotes T38	C0681850; Study Subject; Group
+T39	Spec_cue 567 576	riesgo de
+T40	LIVB 712 719	Sujetos
+#31	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	Age 720 759	mayores de 18 años y menores de 80 años
+T42	LIVB 763 770	Sujetos
+#32	AnnotatorNotes T42	C0681850; Study Subject; Group
+T43	LIVB 964 971	Sujetos
+#33	AnnotatorNotes T43	C0681850; Study Subject; Group
+T44	LIVB 1061 1070	Pacientes
+#34	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 1106 1115	Pacientes
+#35	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 1158 1167	Pacientes
+#36	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1186 1195	Pacientes
+#37	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1241 1250	Pacientes
+#38	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Neg_cue 1294 1296	no
+T50	Form 1301 1309	solución
+#39	AnnotatorNotes T50	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T51	ANAT 549 558	digestivo
+#40	AnnotatorNotes T51	C0012240; Gastrointestinal system; Body System
+A1	Assertion T12 Speculated
+A2	Assertion T25 Negated
+A3	Assertion T34 Negated
+A4	Status T3 History_of
+A5	Status T7 History_of
+A6	Status T16 History_of
+A9	Status T19 History_of
+A10	Status T29 History_of
+A11	Status T22 History_of
+#41	AnnotatorNotes T1	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+#42	AnnotatorNotes T5	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+#43	AnnotatorNotes T9	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T52	Observation 146 168	preparación deficiente
+#44	AnnotatorNotes T52	C1446338; Inadequate bowel preparation; Finding
+T53	Observation 309 331	preparación deficiente
+#45	AnnotatorNotes T53	C1446338; Inadequate bowel preparation; Finding
+A7	Status T52 History_of
+A8	Status T53 History_of
+A12	Status T4 History_of
+A13	Status T2 History_of
+R1	Before Arg1:T2 Arg2:T3	
+R2	Before Arg1:T4 Arg2:T7	
+R3	Before Arg1:T53 Arg2:T7	
+R4	Before Arg1:T52 Arg2:T3	
+R5	Used_for Arg1:T6 Arg2:T5	
+#46	AnnotatorNotes T6	C0724672; polyethylene glycol 3350; Organic Chemical · Pharmacologic Substance
+R6	Experiences Arg1:T37 Arg2:T5	
+R7	Experiences Arg1:T36 Arg2:T1	
+R8	Experiences Arg1:T36 Arg2:T3	
+R9	Experiences Arg1:T36 Arg2:T2	
+R10	Experiences Arg1:T36 Arg2:T52	
+R11	Experiences Arg1:T37 Arg2:T7	
+R12	Experiences Arg1:T37 Arg2:T53	
+R13	Experiences Arg1:T37 Arg2:T4	
+R14	Location_of Arg1:T26 Arg2:T8	
+R15	Location_of Arg1:T33 Arg2:T9	
+R16	Experiences Arg1:T38 Arg2:T27	
+R18	Location_of Arg1:T51 Arg2:T11	
+R19	Experiences Arg1:T38 Arg2:T11	
+R21	Speculation Arg1:T39 Arg2:T12	
+R22	Location_of Arg1:T28 Arg2:T12	
+T54	Observation 562 576	alto riesgo de
+#47	AnnotatorNotes T54	C0332167; High risk of; Finding
+R23	Before Arg1:T54 Arg2:T12	
+T55	Quantifier_or_Qualifier 640 647	primera
+#48	AnnotatorNotes T55	C0205435; First (number); Quantitative Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T55	
+R27	Before Arg1:T13 Arg2:T15	
+R37	Overlap Arg1:T27 Arg2:T12	
+R38	Experiences Arg1:T38 Arg2:T12	
+R39	Experiences Arg1:T38 Arg2:T13	
+R40	Experiences Arg1:T38 Arg2:T15	
+R41	Has_Age Arg1:T40 Arg2:T41	
+T56	CONC 901 917	escala de Boston
+#49	AnnotatorNotes T56	C4302285; BBPS - Boston bowel preparation scale; Intellectual Product
+T57	Result_or_Value 918 930	inferior a 2
+#50	AnnotatorNotes T57	C4302285; BBPS - Boston bowel preparation scale; Intellectual Product
+R42	Has_Result_or_Value Arg1:T56 Arg2:T57	
+R43	Before Arg1:T16 Arg2:T17	
+R44	Experiences Arg1:T42 Arg2:T16	
+R45	Experiences Arg1:T42 Arg2:T17	
+T58	Observation 808 819;870 882	preparación insuficiente
+#51	AnnotatorNotes T58	C1446338; Inadequate bowel preparation; Finding
+R46	Before Arg1:T58 Arg2:T17	
+R47	Location_of Arg1:T18 Arg2:T58	
+R48	Location_of Arg1:T18 Arg2:T16	
+R49	Experiences Arg1:T42 Arg2:T58	
+T59	Observation 976 994	acepten participar
+R51	Overlap Arg1:T59 Arg2:T32	
+R52	Location_of Arg1:T30 Arg2:T19	
+R53	Experiences Arg1:T44 Arg2:T19	
+R54	Experiences Arg1:T45 Arg2:T20	
+R55	Location_of Arg1:T31 Arg2:T20	
+R56	Experiences Arg1:T46 Arg2:T21	
+#53	AnnotatorNotes T23	C0724672; polyethylene glycol 3350; Organic Chemical · Pharmacologic Substance
+R57	Causes Arg1:T23 Arg2:T22	
+R58	Causes Arg1:T23 Arg2:T29	
+R59	Experiences Arg1:T47 Arg2:T29	
+R60	Experiences Arg1:T47 Arg2:T22	
+R62	Experiences Arg1:T48 Arg2:T24	
+R63	Negation Arg1:T49 Arg2:T25	
+R64	Negation Arg1:T49 Arg2:T34	
+R65	Has_Drug_Form Arg1:T34 Arg2:T50	
+R66	Has_Drug_Form Arg1:T25 Arg2:T50	
+R67	Used_for Arg1:T25 Arg2:T24	
+R68	Used_for Arg1:T34 Arg2:T24	
+R50	Experiences Arg1:T38 Arg2:T54	
+#52	AnnotatorNotes T59	C1302239; Patient consented to clinical trial; Finding
+A14	Experiencer T45 Patient
+A15	Experiencer T44 Patient
+A16	Experiencer T46 Patient
+A17	Experiencer T47 Patient
+A18	Experiencer T48 Patient
+A19	Experiencer T36 Patient
+A20	Experiencer T37 Patient
+A21	Experiencer T38 Patient
+A22	Experiencer T40 Patient
+A23	Experiencer T42 Patient
+A24	Experiencer T43 Patient

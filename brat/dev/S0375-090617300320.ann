@@ -1,0 +1,196 @@
+T1	PROC 28 40	endoscópicas
+#1	AnnotatorNotes T1	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T2	DISO 44 51	diarrea
+#2	AnnotatorNotes T2	C0011991; Diarrhea; Sign or Symptom
+T3	DISO 76 111	infección por Clostridium difficile
+#3	AnnotatorNotes T3	C0343386; Clostridium difficile infection; Disease or Syndrome
+T4	DISO 142 177	infección por Clostridium difficile
+#4	AnnotatorNotes T4	C0343386; Clostridium difficile infection; Disease or Syndrome
+T5	DISO 208 215	diarrea
+#5	AnnotatorNotes T5	C0011991; Diarrhea; Sign or Symptom
+T6	PROC 219 233	hospitalizados
+#6	AnnotatorNotes T6	C0019993; Hospitalization; Health Care Activity
+T7	PROC 260 272	endoscópicos
+#7	AnnotatorNotes T7	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T8	DISO 454 461	diarrea
+#8	AnnotatorNotes T8	C0011991; Diarrhea; Sign or Symptom
+T9	PROC 490 503	diagnosticada
+#9	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	ANAT 1020 1025	heces
+#10	AnnotatorNotes T10	C0015733; Feces; Body Substance
+T11	PROC 603 615	endoscópicos
+#11	AnnotatorNotes T11	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T12	DISO 697 704	diarrea
+#12	AnnotatorNotes T12	C0011991; Diarrhea; Sign or Symptom
+T13	PROC 749 761	colonoscopia
+#13	AnnotatorNotes T13	C0009378; colonoscopy; Diagnostic Procedure
+T14	DISO 828 834	signos
+#14	AnnotatorNotes T14	C0311392; Physical findings; Finding
+T15	DISO 835 843	síntomas
+#15	AnnotatorNotes T15	C1457887; Symptoms; Sign or Symptom
+T16	DISO 863 878	dolor abdominal
+#16	AnnotatorNotes T16	C0000737; Abdominal Pain; Sign or Symptom
+T17	DISO 886 899	moco en heces
+#17	AnnotatorNotes T17	C0241254; Mucus in stool; Finding
+T18	DISO 908 923	sangre en heces
+#18	AnnotatorNotes T18	C1321898; Blood in stool; Sign or Symptom
+T19	Observation 935 962	alteraciones de laboratorio
+#19	AnnotatorNotes T19	C3648370; laboratory tests nonspecific abnormal findings; Finding
+T20	DISO 982 994	leucocitosis
+#20	AnnotatorNotes T20	C0023518; Leukocytosis; Disease or Syndrome | C0750426; White blood cell count increased; Finding [ICD-10: D72.82]
+T21	DISO 1006 1025	leucocitos en heces
+T22	DISO 1034 1049	hipoalbuminemia
+#21	AnnotatorNotes T22	C0239981; Hypoalbuminemia; Disease or Syndrome
+T23	CHEM 1142 1153	ceftriaxona
+#22	AnnotatorNotes T23	C0007561; ceftriaxone; Organic Chemical · Antibiotic
+T24	PROC 1230 1242	endoscópicas
+#23	AnnotatorNotes T24	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T25	DISO 1258 1281	colitis seudomembranosa
+#24	AnnotatorNotes T25	C0238106; Clostridium difficile colitis; Disease or Syndrome | C1257843; pseudomembranous colitis; Disease or Syndrome
+T26	ANAT 1310 1325	colon izquierdo
+#25	AnnotatorNotes T26	C0227388; Left colon;  Body Part, Organ, or Organ Component | C1284439; Entire left colon; Body Location or Region
+T27	CHEM 1391 1394	IBP
+#26	AnnotatorNotes T27	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T28	DISO 1397 1404	diarrea
+#27	AnnotatorNotes T28	C0011991; Diarrhea; Sign or Symptom
+T29	DISO 1465 1480	hipoalbuminemia
+#28	AnnotatorNotes T29	C0239981; Hypoalbuminemia; Disease or Syndrome
+T30	DISO 1515 1522	colitis
+#29	AnnotatorNotes T30	C0009319; Colitis; Disease or Syndrome
+T31	DISO 1580 1588	lesiones
+#30	AnnotatorNotes T31	C0221198; Lesion; Finding
+T32	DISO 1592 1629	colitis seudomembranosa asociada a CD
+#31	AnnotatorNotes T32	C0238106; Clostridium difficile colitis; Disease or Syndrome | C1257843; pseudomembranous colitis; Disease or Syndrome
+T33	ANAT 1667 1682	colon izquierdo
+#32	AnnotatorNotes T33	C0227388; Left colon;  Body Part, Organ, or Organ Component | C1284439; Entire left colon; Body Location or Region
+T34	DISO 1687 1702	hipoalbuminemia
+#33	AnnotatorNotes T34	C0239981; Hypoalbuminemia; Disease or Syndrome
+T35	ANAT 1006 1016	leucocitos
+#34	AnnotatorNotes T35	C0023516; Leukocytes; Cell
+T36	PROC 394 424	Estudio de cohorte prospectivo
+#35	AnnotatorNotes T36	C1709709; Prospective Cohort Study; Research Activity
+T37	Observation 1216 1242	anormalidades endoscópicas
+#36	AnnotatorNotes T37	C0419324; Endoscopy abnormal; Finding (?)
+T38	PROC 513 516	PCR
+#37	AnnotatorNotes T38	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T39	ANAT 869 878	abdominal
+#38	AnnotatorNotes T39	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T40	ANAT 894 899	heces
+#39	AnnotatorNotes T40	C0015733; Feces; Body Substance
+T41	ANAT 908 914	sangre
+#40	AnnotatorNotes T41	C0005767; Blood; Body Substance
+T42	ANAT 918 923	heces
+#41	AnnotatorNotes T42	C0015733; Feces; Body Substance
+T43	CHEM 1101 1112	antibiótico
+#42	AnnotatorNotes T43	C0003232; Antibiotics; Antibiotic
+T44	LIVB 440 449	pacientes
+#43	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 683 692	pacientes
+#44	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T47	Neg_cue 740 748	falta de
+T48	LIVB 773 782	pacientes
+#45	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Age 815 822	48 años
+T53	Spec_cue 1505 1514	riesgo de
+T54	LIVB 90 111	Clostridium difficile
+#46	AnnotatorNotes T54	C0079134; Clostridium difficile; Bacterium
+T55	LIVB 156 177	Clostridium difficile
+#47	AnnotatorNotes T55	C0079134; Clostridium difficile; Bacterium
+T56	LIVB 405 412	cohorte
+#48	AnnotatorNotes T56	C0599755; Cohort; Population Group
+T57	LIVB 179 181	CD
+#49	AnnotatorNotes T57	C0079134; Clostridium difficile; Bacterium
+T58	LIVB 486 488	CD
+#50	AnnotatorNotes T58	C0079134; Clostridium difficile; Bacterium
+T46	LIVB 1409 1411	CD
+#51	AnnotatorNotes T46	C0079134; Clostridium difficile; Bacterium
+T50	LIVB 1627 1629	CD
+#52	AnnotatorNotes T50	C0079134; Clostridium difficile; Bacterium
+T59	LIVB 536 540	cepa
+#53	AnnotatorNotes T59	C1518614; Organism Strain; Organism
+T60	LIVB 1158 1162	cepa
+#54	AnnotatorNotes T60	C1518614; Organism Strain; Organism
+T61	LIVB 1633 1637	cepa
+#55	AnnotatorNotes T61	C1518614; Organism Strain; Organism
+A1	Assertion T13 Negated
+A2	Assertion T30 Speculated
+R1	Negation Arg1:T47 Arg2:T13	
+T51	Neg_cue 1352 1354	No
+T52	CONC 1367 1377	asociación
+A3	Assertion T52 Negated
+R2	Negation Arg1:T51 Arg2:T52	
+R3	Speculation Arg1:T53 Arg2:T30	
+R4	Causes Arg1:T54 Arg2:T3	
+R5	Causes Arg1:T3 Arg2:T2	
+T62	Quantifier_or_Qualifier 52 64	hospitalaria
+#56	AnnotatorNotes T62	C1510665; Hospital environment; Qualitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T62	
+T63	CONC 1 40	Características clínicas y endoscópicas
+R7	Causes Arg1:T57 Arg2:T4	
+R8	Causes Arg1:T55 Arg2:T4	
+R9	Causes Arg1:T4 Arg2:T5	
+T64	Observation 239 272	hallazgos clínicos y endoscópicos
+T65	Observation 362 371	hallazgos
+#57	AnnotatorNotes T65	C0243095; Finding; Finding
+R12	Experiences Arg1:T44 Arg2:T8	
+R13	Causes Arg1:T58 Arg2:T8	
+T66	Quantifier_or_Qualifier 462 474	hospitalaria
+#58	AnnotatorNotes T66	C1510665; Hospital environment; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T66	
+R15	Experiences Arg1:T44 Arg2:T38	
+T67	Quantifier_or_Qualifier 541 555	hipervirulenta
+R16	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T67	
+T68	Quantifier_or_Qualifier 556 562	NAP027
+R17	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T68	
+R18	Causes Arg1:T59 Arg2:T8	
+T69	Observation 582 615	hallazgos clínicos y endoscópicos
+T70	CONC 652 661	severidad
+#59	AnnotatorNotes T70	C0457451; Severity score; Quantitative Concept
+R19	Experiences Arg1:T45 Arg2:T12	
+R20	Experiences Arg1:T45 Arg2:T13	
+T71	Quantifier_or_Qualifier 705 717	hospitalaria
+#60	AnnotatorNotes T71	C1510665; Hospital environment; Qualitative Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T71	
+R22	Has_Age Arg1:T48 Arg2:T49	
+R23	Experiences Arg1:T48 Arg2:T14	
+R24	Experiences Arg1:T48 Arg2:T15	
+R25	Location_of Arg1:T39 Arg2:T16	
+R26	Location_of Arg1:T40 Arg2:T17	
+R27	Location_of Arg1:T42 Arg2:T18	
+R28	Experiences Arg1:T48 Arg2:T16	
+R29	Experiences Arg1:T48 Arg2:T17	
+R30	Experiences Arg1:T48 Arg2:T18	
+R31	Experiences Arg1:T48 Arg2:T20	
+R32	Experiences Arg1:T48 Arg2:T21	
+R33	Experiences Arg1:T48 Arg2:T22	
+R34	Location_of Arg1:T10 Arg2:T21	
+T72	Observation 1060 1076	factor de riesgo
+#61	AnnotatorNotes T72	C0035648; risk factors; Finding
+T73	Quantifier_or_Qualifier 1163 1177	hipervirulenta
+R37	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T73	
+R38	Location_of Arg1:T26 Arg2:T25	
+T74	ANAT 1310 1315;1337 1344	colon derecho
+#62	AnnotatorNotes T74	C1305188; Right colon; Body Part, Organ, or Organ Component | C1284436; Entire right colon; Body Location or Region
+R39	Location_of Arg1:T74 Arg2:T25	
+R41	Causes Arg1:T46 Arg2:T28	
+T75	Quantifier_or_Qualifier 1523 1529	severa
+#63	AnnotatorNotes T75	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R42	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T75	
+R43	Before Arg1:T29 Arg2:T30	
+R44	Causes Arg1:T50 Arg2:T32	
+R45	Causes Arg1:T61 Arg2:T32	
+T76	Quantifier_or_Qualifier 1638 1652	hipervirulenta
+R46	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T76	
+R47	Location_of Arg1:T33 Arg2:T32	
+R48	Location_of Arg1:T33 Arg2:T31	
+T77	CONC 1736 1745	severidad
+#64	AnnotatorNotes T77	C0457451; Severity score; Quantitative Concept
+R49	Experiences Arg1:T48 Arg2:T19	
+R10	Before Arg1:T38 Arg2:T9	
+#65	AnnotatorNotes T52	C0332281; Associated with; Qualitative Concept
+R11	Causes Arg1:T32 Arg2:T31	
+#66	AnnotatorNotes T21	C0749049; stool wbc; Finding
+A4	Experiencer T44 Patient
+A5	Experiencer T45 Patient
+A6	Experiencer T48 Patient
+A7	Experiencer T56 Patient

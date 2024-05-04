@@ -1,0 +1,252 @@
+T1	DISO 83 105	infección por el VIH-1
+T2	PROC 136 161	cifras de linfocitos CD4+
+#1	AnnotatorNotes T2	C1294978; Detection of lymphocytes positive for CD4 antigen; Laboratory Procedure
+T3	ANAT 146 161	linfocitos CD4+
+#2	AnnotatorNotes T3	C0039215; CD4 Positive T Lymphocytes; Cell
+T4	CHEM 214 240	fármacos antirretrovirales
+#3	AnnotatorNotes T4	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T5	CHEM 251 263	dolutegravir
+#4	AnnotatorNotes T5	C3253985; dolutegravir; Organic Chemical · Pharmacologic Substance
+T6	CHEM 266 275	darunavir
+#5	AnnotatorNotes T6	C1435444; darunavir; Organic Chemical · Pharmacologic Substance
+T7	CHEM 276 285	ritonavir
+#6	AnnotatorNotes T7	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T8	ANAT 179 183	céls
+T9	DISO 327 344	infección por HIV
+#7	AnnotatorNotes T9	C0019693; HIV Infections; Disease or Syndrome
+T10	PROC 370 381	tratamiento
+#8	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	DISO 388 405	infección por HIV
+#9	AnnotatorNotes T11	C0019693; HIV Infections; Disease or Syndrome
+T12	DISO 435 462	Infección crónica por VIH-1
+T13	PROC 537 564	tratamiento antirretroviral
+#10	AnnotatorNotes T13	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T14	ANAT 584 588	CD4+
+#11	AnnotatorNotes T14	C0039215; CD4 Positive T Lymphocytes; Cell
+T15	PROC 569 588	Cifra basal de CD4+
+T16	PROC 657 692	estudio de resistencias genotípicas
+#12	AnnotatorNotes T16	C0877124; Genotype drug resistance test; Laboratory Procedure
+T17	CHEM 755 763	fármacos
+#13	AnnotatorNotes T17	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T18	ANAT 594 598	céls
+T19	PROC 822 848	consentimiento por escrito
+#14	AnnotatorNotes T19	C0811746; Obtain written consent; Health Care Activity
+T20	PROC 907 920	exploraciones
+#15	AnnotatorNotes T20	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T21	DISO 969 986	Hipersensibilidad
+#16	AnnotatorNotes T21	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T22	CHEM 1002 1025	medicamentos en estudio
+#17	AnnotatorNotes T22	C0013230; Investigational New Drugs; Pharmacologic Substance
+T23	DISO 1030 1047	Hipersensibilidad
+#18	AnnotatorNotes T23	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T24	CHEM 1062 1072	sulfamidas
+#19	AnnotatorNotes T24	C0038760; Sulfonamides; Organic Chemical · Pharmacologic Substance
+T25	CHEM 1125 1134	HLA B5701
+#20	AnnotatorNotes T25	C1451054; HLA-B*57:01 antigen; Amino Acid, Peptide, or Protein · Immunologic Factor
+T26	PROC 1107 1134	determinación del HLA B5701
+T27	DISO 1264 1272	Linfomas
+#21	AnnotatorNotes T27	C0024299; Lymphoma; Neoplastic Process
+T28	DISO 1281 1291	neoplasias
+#22	AnnotatorNotes T28	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T29	PROC 1314 1327	quimioterapia
+#23	AnnotatorNotes T29	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T30	PROC 1332 1358	Aclaramiento de creatinina
+#24	AnnotatorNotes T30	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T31	DISO 1384 1406	Insuficiencia hepática
+#25	AnnotatorNotes T31	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T32	PROC 1551 1568	bilirrubina total
+#26	AnnotatorNotes T32	C0201913; Bilirubin, total measurement; Laboratory Procedure
+T33	PROC 1601 1620	bilirrubina directa
+#27	AnnotatorNotes T33	C0201916; Bilirubin, direct measurement; Laboratory Procedure
+T34	PROC 1640 1651	tratamiento
+#28	AnnotatorNotes T34	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T35	DISO 1656 1659	VHC
+#29	AnnotatorNotes T35	C0019196; Hepatitis C; Disease or Syndrome
+T36	PROC 1684 1695	Tratamiento
+#30	AnnotatorNotes T36	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T37	CHEM 1718 1739	fármacos nefrotóxicos
+T38	PROC 1745 1756	Tratamiento
+#31	AnnotatorNotes T38	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T39	CHEM 1761 1787	fármacos inmunomoduladores
+T40	PROC 1831 1855	Tratamiento con fármacos
+#32	AnnotatorNotes T40	C0013216; Pharmacotherapy; Therapeutic or Preventive Procedure
+T41	DISO 1949 1958	toxicidad
+#33	AnnotatorNotes T41	C0600688; Toxic effect; Injury or Poisoning
+T42	CHEM 2059 2067	fármacos
+#34	AnnotatorNotes T42	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T43	PROC 2043 2050	tratado
+#35	AnnotatorNotes T43	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T44	PROC 109 117	tratados
+#36	AnnotatorNotes T44	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T45	PROC 203 210	régimen
+#37	AnnotatorNotes T45	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T46	CHEM 549 564	antirretroviral
+#38	AnnotatorNotes T46	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T47	DISO 723 748	mutaciones de resistencia
+T48	PROC 897 904	pruebas
+#39	AnnotatorNotes T48	C1510438; Assay; Laboratory Procedure
+T49	CHEM 1348 1358	creatinina
+#40	AnnotatorNotes T49	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T50	ANAT 1398 1406	hepática
+#41	AnnotatorNotes T50	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T51	PROC 1472 1475	ALT
+#42	AnnotatorNotes T51	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T52	PROC 1529 1532	ALT
+#43	AnnotatorNotes T52	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T53	CHEM 1551 1562	bilirrubina
+#44	AnnotatorNotes T53	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T54	CHEM 1601 1612	bilirrubina
+#45	AnnotatorNotes T54	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T55	CHEM 1847 1855	fármacos
+#46	AnnotatorNotes T55	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T56	CHEM 1966 1983	antirretrovirales
+#47	AnnotatorNotes T56	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T57	Date 12 16	2014
+T58	PHYS 44 65	Reconstitución inmune
+#48	AnnotatorNotes T58	C4505207; Immune Reconstitution; Organism Function
+T59	LIVB 69 78	pacientes
+#49	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	Neg_cue 106 108	no
+T61	Duration 445 452	crónica
+#50	AnnotatorNotes T61	C0205191; chronic; Temporal Concept
+T62	Age 472 498	igual o superior a 18 años
+T63	Neg_cue 507 509	no
+T66	Neg_cue 711 722	ausencia de
+T68	LIVB 1139 1183	Mujeres embarazadas, en periodo de lactancia
+#51	AnnotatorNotes T68	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T72	Date 1696 1702	actual
+T73	Date 1705 1713	reciente
+T74	Spec_cue 1873 1882	potencial
+T75	LIVB 341 344	HIV
+#52	AnnotatorNotes T75	C0019682; HIV; Virus
+T76	LIVB 402 405	HIV
+#53	AnnotatorNotes T76	C0019682; HIV; Virus
+T77	PHYS 1217 1228	embarazadas
+#54	AnnotatorNotes T77	C0032961; Pregnancy; Organism Function
+T79	PHYS 1886 1913	interacción farmacocinética
+#55	AnnotatorNotes T79	C1740805; Drug-drug pharmacokinetic interaction; Molecular Function
+T80	LIVB 100 105	VIH-1
+#56	AnnotatorNotes T80	C0019704; HIV-1; Virus
+T64	PHYS 1147 1158	embarazadas
+#57	AnnotatorNotes T64	C0032961; Pregnancy; Organism Function
+T65	PHYS 1174 1183	lactancia
+#58	AnnotatorNotes T65	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T67	PROC 1456 1466	Child-Pugh
+#59	AnnotatorNotes T67	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+T69	LIVB 457 462	VIH-1
+#60	AnnotatorNotes T69	C0019704; HIV-1; Virus
+T70	CHEM 1791 1825	productos en fase de investigación
+#61	AnnotatorNotes T70	C0013230; Investigational New Drugs; Pharmacologic Substance
+A1	Assertion T44 Negated
+A2	Assertion T13 Negated
+A3	Assertion T47 Negated
+A4	Assertion T79 Speculated
+A5	Assertion T46 Negated
+A6	Status T44 History_of
+A7	Status T13 History_of
+A8	Status T46 History_of
+A9	Status T21 History_of
+A10	Status T23 History_of
+A11	Status T36 History_of
+A12	Assertion T43 Contraindicated
+A13	Assertion T42 Contraindicated
+#62	AnnotatorNotes T1	C2363741; HIV-1 infection; Disease or Syndrome
+#63	AnnotatorNotes T12	C2363741; HIV-1 infection; Disease or Syndrome + C0151317; Chronic Infection; Disease or Syndrome
+#64	AnnotatorNotes T8	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+#65	AnnotatorNotes T18	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+#66	AnnotatorNotes T72	C0521116; Current (present time); Temporal Concept 
+#67	AnnotatorNotes T39	C5544470; Immunomodulating Agents; Pharmacologic Substance 
+R1	Negation Arg1:T63 Arg2:T13	
+R2	Negation Arg1:T63 Arg2:T46	
+R3	Negation Arg1:T66 Arg2:T47	
+R4	Speculation Arg1:T74 Arg2:T79	
+R5	Experiences Arg1:T59 Arg2:T58	
+R6	Experiences Arg1:T59 Arg2:T1	
+R7	Causes Arg1:T80 Arg2:T1	
+R8	Negation Arg1:T60 Arg2:T44	
+R9	Experiences Arg1:T59 Arg2:T44	
+T71	Result_or_Value 162 187	inferiores a 100 céls/mm3
+R10	Has_Result_or_Value Arg1:T2 Arg2:T71	
+R11	Used_for Arg1:T4 Arg2:T45	
+R12	Used_for Arg1:T5 Arg2:T45	
+R13	Combined_with Arg1:T6 Arg2:T7	
+R14	Used_for Arg1:T6 Arg2:T45	
+R15	Experiences Arg1:T59 Arg2:T2	
+R17	Experiences Arg1:T59 Arg2:T45	
+R18	Overlap Arg1:T58 Arg2:T1	
+R20	Causes Arg1:T75 Arg2:T9	
+R21	Causes Arg1:T76 Arg2:T11	
+R22	Has_Duration_or_Interval Arg1:T12 Arg2:T61	
+R23	Causes Arg1:T69 Arg2:T12	
+R24	Used_for Arg1:T46 Arg2:T13	
+T78	Result_or_Value 589 601	<100 céls/µL
+R25	Has_Result_or_Value Arg1:T15 Arg2:T78	
+T81	Quantifier_or_Qualifier 618 637	dos determinaciones
+R26	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T81	
+#68	AnnotatorNotes T15	C0243009; CD4 Count determination procedure; Laboratory Procedure (?)
+T82	Quantifier_or_Qualifier 693 698	basal
+#69	AnnotatorNotes T82	C1442488; Baseline; Quantitative Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T82	
+T83	Observation 784 808	adecuadamente informados
+#70	AnnotatorNotes T83	C0587903; Patient information status; Finding (?)
+R28	Before Arg1:T83 Arg2:T19	
+T84	Observation 854 878	participar en el estudio
+#71	AnnotatorNotes T84	C1278516; Patient participation status; Finding
+R29	Before Arg1:T19 Arg2:T84	
+R30	Overlap Arg1:T84 Arg2:T48	
+R31	Overlap Arg1:T84 Arg2:T20	
+R32	Before Arg1:T19 Arg2:T48	
+R33	Before Arg1:T19 Arg2:T20	
+R34	Causes Arg1:T22 Arg2:T21	
+R35	Causes Arg1:T24 Arg2:T23	
+T85	Result_or_Value 1089 1100	Positividad
+#72	AnnotatorNotes T85	C1446409; Positive; Finding
+R36	Has_Result_or_Value Arg1:T26 Arg2:T85	
+R37	Experiences Arg1:T68 Arg2:T64	
+R38	Experiences Arg1:T68 Arg2:T65	
+T86	Observation 1200 1228	pretendan quedar embarazadas
+#73	AnnotatorNotes T86	C0032992; Pregnancy, Planned; Finding
+T87	PROC 1252 1259	estudio
+#74	AnnotatorNotes T87	C0008976; Clinical Trials; Research Activity
+R39	Overlap Arg1:T86 Arg2:T87	
+R40	Overlap Arg1:T64 Arg2:T87	
+R41	Overlap Arg1:T77 Arg2:T87	
+R42	Before Arg1:T86 Arg2:T77	
+R43	Overlap Arg1:T65 Arg2:T87	
+T88	Quantifier_or_Qualifier 1292 1299	activas
+#75	AnnotatorNotes T88	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T88	
+T89	Result_or_Value 1359 1379	inferior a 50 ml/min
+R45	Has_Result_or_Value Arg1:T30 Arg2:T89	
+R46	Location_of Arg1:T50 Arg2:T31	
+T90	Result_or_Value 1425 1432	Clase C
+R47	Has_Result_or_Value Arg1:T67 Arg2:T90	
+T91	Quantifier_or_Qualifier 1407 1423	moderada o grave
+#76	AnnotatorNotes T91	C1299393; Moderate to severe; Qualitative Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T91	
+T93	Result_or_Value 1476 1526	≥5 veces el límite superior de la normalidad (LSN)
+R51	Has_Result_or_Value Arg1:T51 Arg2:T93	
+T94	Result_or_Value 1533 1548	≥3 veces el LSN
+R52	Has_Result_or_Value Arg1:T52 Arg2:T94	
+T95	Result_or_Value 1569 1586	≥1,5 veces el LSN
+R53	Has_Result_or_Value Arg1:T32 Arg2:T95	
+T96	Result_or_Value 1592 1597	> 35%
+R54	Has_Result_or_Value Arg1:T33 Arg2:T96	
+T97	PROC 1671 1678	estudio
+#78	AnnotatorNotes T97	C0008976; Clinical Trials; Research Activity
+R55	Overlap Arg1:T34 Arg2:T97	
+R56	Overlap Arg1:T35 Arg2:T97	
+R57	Used_for Arg1:T37 Arg2:T36	
+R58	Overlap Arg1:T37 Arg2:T72	
+R59	Overlap Arg1:T37 Arg2:T73	
+R60	Used_for Arg1:T39 Arg2:T38	
+R61	Used_for Arg1:T70 Arg2:T38	
+R62	Used_for Arg1:T55 Arg2:T40	
+R63	Before Arg1:T40 Arg2:T79	
+R64	Causes Arg1:T56 Arg2:T41	
+R67	Used_for Arg1:T42 Arg2:T43	
+#77	AnnotatorNotes T73	C0332185; Recent; Temporal Concept
+#79	AnnotatorNotes T47	C5704646; Drug resistance mutation; Cell or Molecular Dysfunction
+A14	Experiencer T59 Patient
+A15	Experiencer T68 Patient
+A16	Status T77 Future

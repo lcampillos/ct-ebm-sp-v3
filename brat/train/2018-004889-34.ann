@@ -1,0 +1,155 @@
+T1	PROC 46 70	Estudio de investigación
+#1	AnnotatorNotes T1	C0681814; research study; Research Activity
+T2	PROC 76 95	evaluar la eficacia
+#2	AnnotatorNotes T2	C1707887; Efficacy Study; Research Activity
+T3	DISO 127 136	hemofilia
+#3	AnnotatorNotes T3	C0684275; Hemophilia, NOS; Disease or Syndrome
+T4	PROC 234 244	profilaxis
+#4	AnnotatorNotes T4	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T5	CHEM 282 293	inhibidores
+#5	AnnotatorNotes T5	C1999216; Inhibitor; Biologically Active Substance
+T6	DISO 317 340	Trastornos hemorrágicos
+#6	AnnotatorNotes T6	C0019087; Hemorrhagic Disorders; Disease or Syndrome
+T7	CHEM 370 381	factor VIII
+#7	AnnotatorNotes T7	C0015506; factor VIII; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T8	CHEM 388 412	factor IX de coagulación
+#8	AnnotatorNotes T8	C0015491; factor IX; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T9	CHEM 417 428	anticuerpos
+#9	AnnotatorNotes T9	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	PROC 437 457	terapia de reemplazo
+T11	DISO 484 495	Hemofilia A
+#10	AnnotatorNotes T11	C0019069; Hemophilia A; Disease or Syndrome | C3494187; Factor VIII Deficiency; Disease or Syndrome
+T12	CHEM 500 511	inhibidores
+#11	AnnotatorNotes T12	C1999216; Inhibitor; Biologically Active Substance
+T13	DISO 512 523	Hemofilia B
+#12	AnnotatorNotes T13	C0008533; Hemophilia B; Disease or Syndrome
+T14	CHEM 528 539	inhibidores
+#13	AnnotatorNotes T14	C1999216; Inhibitor; Biologically Active Substance
+T15	CHEM 1042 1053	inhibidores
+#14	AnnotatorNotes T15	C1999216; Inhibitor; Biologically Active Substance
+T16	PROC 1068 1080	Prescripción
+#15	AnnotatorNotes T16	C0033080; Prescription procedure; Health Care Activity | C2239117; Prescription of drug (procedure); Health Care Activity
+T17	PROC 1096 1107	tratamiento
+#16	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	PROC 1120 1126	bypass
+#17	AnnotatorNotes T18	C0741847; Bypass; Therapeutic or Preventive Procedure
+T19	DISO 1269 1286	Hipersensibilidad
+#18	AnnotatorNotes T19	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T20	CHEM 1311 1335	anticuerpos monoclonales
+#19	AnnotatorNotes T20	C0003250; Monoclonal Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T21	DISO 1339 1390	Trastorno de la coagulación hereditario o adquirido
+T22	DISO 1412 1431	hemofilia congénita
+T23	PROC 1435 1459	Tratamiento de inducción
+#20	AnnotatorNotes T23	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T24	CHEM 141 152	inhibidores
+#21	AnnotatorNotes T24	C1999216; Inhibitor; Biologically Active Substance
+T25	PROC 202 216	administración
+#22	AnnotatorNotes T25	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T26	DISO 342 412	deficiencia hereditaria del factor VIII y del factor IX de coagulación
+T27	CHEM 220 230	concizumab
+T28	DISO 961 986	Hemofilia A o B congénita
+T29	CHEM 1112 1119	agentes
+#23	AnnotatorNotes T29	C0450442; Agent; Chemical Viewed Functionally
+T30	DISO 1463 1479	inmunotolerancia
+#24	AnnotatorNotes T30	C0020963; Immune Tolerance; Pathologic Function
+T31	PROC 933 957	consentimiento informado
+#25	AnnotatorNotes T31	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T32	CHEM 99 109	concizumab
+T33	DISO 262 277	hemofilia A o B
+T34	PROC 582 606	consentimiento informado
+#26	AnnotatorNotes T34	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T35	PROC 743 757	procedimientos
+#27	AnnotatorNotes T35	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T36	Date 13 17	2018
+T37	LIVB 113 122	pacientes
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 248 257	pacientes
+#29	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Neg_cue 524 527	sin
+T41	Age 884 897	12 años o más
+T42	Duration 1130 1144	las 24 semanas
+T43	LIVB 1178 1187	pacientes
+#30	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	Spec_cue 1298 1308	sospechada
+T46	PHYS 401 412	coagulación
+#31	AnnotatorNotes T46	C0005778; Blood coagulation; Organ or Tissue Function
+T47	PHYS 1355 1366	coagulación
+#32	AnnotatorNotes T47	C0005778; Blood coagulation; Organ or Tissue Function
+T40	LIVB 875 880	Varón
+#33	AnnotatorNotes T40	C0025266; Male population group; Population Group
+T44	Date 1480 1488	en curso
+T48	Neg_cue 1400 1411	distinto de
+A1	Assertion T14 Negated
+A2	Assertion T19 Speculated
+A3	Assertion T22 Negated
+A4	Status T15 History_of
+A5	Status T17 History_of
+A6	Status T29 History_of
+A7	Status T19 History_of
+A8	Status T21 History_of
+#34	AnnotatorNotes T32	C3494079; concizumab; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#35	AnnotatorNotes T27	C3494079; concizumab; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#36	AnnotatorNotes T33	C0008533; Hemophilia B; Disease or Syndrome + C0019069; Hemophilia A; Disease or Syndrome
+#37	AnnotatorNotes T10	C0279033; Replacement therapy; Therapeutic or Preventive Procedure 
+T49	Neg_cue 1188 1190	no
+T50	Observation 1191 1226	incluidos previamente en el estudio
+A9	Status T50 History_of
+A10	Assertion T50 Negated
+#38	AnnotatorNotes T50	 C2242969; clinical trial participant (history); Finding
+R1	Experiences Arg1:T37 Arg2:T32	
+R2	Experiences Arg1:T37 Arg2:T3	
+R5	Used_for Arg1:T27 Arg2:T4	
+R6	Experiences Arg1:T38 Arg2:T27	
+R7	Used_for Arg1:T9 Arg2:T10	
+R8	Overlap Arg1:T26 Arg2:T46	
+R9	Causes Arg1:T7 Arg2:T46	
+R10	Causes Arg1:T8 Arg2:T46	
+R12	Overlap Arg1:T26 Arg2:T9	
+R14	Negation Arg1:T39 Arg2:T14	
+T51	PROC 672 678	ensayo
+#39	AnnotatorNotes T51	C0008976; Clinical Trials; Research Activity
+R16	Before Arg1:T34 Arg2:T51	
+T52	Result_or_Value 1055 1063	≥ 0,6 UB
+R18	Has_Result_or_Value Arg1:T15 Arg2:T52	
+R19	Used_for Arg1:T29 Arg2:T17	
+R20	Before Arg1:T16 Arg2:T17	
+R21	Used_for Arg1:T29 Arg2:T18	
+R22	Overlap Arg1:T17 Arg2:T42	
+R23	Before Arg1:T16 Arg2:T42	
+T53	PROC 1158 1167	selección
+#40	AnnotatorNotes T53	C0242802; Patient Selection; Research Activity
+R24	Before Arg1:T16 Arg2:T53	
+R25	Before Arg1:T17 Arg2:T53	
+R27	Negation Arg1:T49 Arg2:T50	
+R28	Experiences Arg1:T43 Arg2:T17	
+R29	Experiences Arg1:T43 Arg2:T18	
+R30	Causes Arg1:T20 Arg2:T19	
+R31	Speculation Arg1:T45 Arg2:T19	
+R33	Negation Arg1:T48 Arg2:T22	
+R34	Overlap Arg1:T23 Arg2:T44	
+T54	Quantifier_or_Qualifier 1491 1499	previsto
+#41	AnnotatorNotes T54	C1301732; Planned; Functional Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T54	
+R37	Experiences Arg1:T38 Arg2:T33	
+R3	Has_Age Arg1:T40 Arg2:T41	
+R38	Overlap Arg1:T41 Arg2:T31	
+R39	Used_for Arg1:T27 Arg2:T25	
+R40	Experiences Arg1:T38 Arg2:T25	
+T55	Quantifier_or_Qualifier 496 511	con inhibidores
+R11	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T55	
+T56	Quantifier_or_Qualifier 278 293	con inhibidores
+R13	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T56	
+T57	Quantifier_or_Qualifier 137 152	con inhibidores
+R41	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T57	
+T58	Quantifier_or_Qualifier 524 539	sin inhibidores
+R4	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T58	
+T59	Quantifier_or_Qualifier 1009 1012;1042 1053	con inhibidores
+R15	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T59	
+#42	AnnotatorNotes T44	C0521116; Current (present time); Temporal Concept
+#43	AnnotatorNotes T26	C0019069; Hemophilia A; Disease or Syndrome + C0008533; Hemophilia B; Disease or Syndrome
+#44	AnnotatorNotes T21	C0852077; Blood Coagulation Disorders, Inherited; Disease or Syndrome | C0398622; Acquired coagulation disorder; Disease or Syndrome
+A11	Experiencer T37 Patient
+A12	Experiencer T38 Patient
+A13	Experiencer T40 Patient
+A14	Experiencer T43 Patient
+A15	Status T23 Future

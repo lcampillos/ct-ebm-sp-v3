@@ -1,0 +1,182 @@
+T1	ANAT 788 796	arterial
+#1	AnnotatorNotes T1	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T2	DISO 73 87	hiperreactivos
+#2	AnnotatorNotes T2	C4693174; Hyperreactivity; Finding
+T3	ANAT 173 187	cardiovascular
+#3	AnnotatorNotes T3	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T4	PROC 1403 1411	tratadas
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	PROC 392 419	prueba ergométrica graduada
+T6	PROC 1076 1133	estudiado en forma prospectiva, randomizada y doble ciego
+#5	AnnotatorNotes T6	C0013072; Double-Blind Method; Research Activity + C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T7	CHEM 455 475	betabloqueante beta1
+T8	CHEM 487 497	bisoprolol
+#6	AnnotatorNotes T8	C0053799; bisoprolol; Organic Chemical · Pharmacologic Substance
+T9	ANAT 523 537	cardiovascular
+#7	AnnotatorNotes T9	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T10	DISO 541 568	estrés mental (EM) y físico
+#8	AnnotatorNotes T10	C0231302; Physical stress; Pathologic Function + C0038443; Stress, Psychological; Mental or Behavioral Dysfunction
+T11	DISO 581 595	hiperreactivas
+#9	AnnotatorNotes T11	C4693174; Hyperreactivity; Finding
+T12	DISO 704 718	hiperreactivas
+#10	AnnotatorNotes T12	C4693174; Hyperreactivity; Finding
+T13	DISO 27 49	estrés mental y físico
+#11	AnnotatorNotes T13	C0231302; Physical stress; Pathologic Function + C0038443; Stress, Psychological; Mental or Behavioral Dysfunction
+T14	DISO 909 932	respuesta hiperreactiva
+#12	AnnotatorNotes T14	C4693174; Hyperreactivity; Finding
+T15	PROC 1060 1067	placebo
+#13	AnnotatorNotes T15	C0032042; Placebos; Therapeutic or Preventive Procedure
+T16	PROC 1294 1297	PEG
+T17	DISO 1354 1368	hiperreactivas
+#14	AnnotatorNotes T17	C4693174; Hyperreactivity; Finding
+T18	DISO 1495 1511	hiperreactividad
+#15	AnnotatorNotes T18	C4693174; Hyperreactivity; Finding
+T19	PROC 1600 1610	prevención
+#16	AnnotatorNotes T19	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T20	DISO 1618 1630	hipertensión
+#17	AnnotatorNotes T20	C0020538; Hypertensive disease; Disease or Syndrome
+T21	CHEM 222 232	medicación
+#18	AnnotatorNotes T21	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T22	ANAT 356 364	arterial
+#19	AnnotatorNotes T22	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T23	PROC 421 424	PEG
+T24	PROC 766 831	valores de la presión arterial sistólica (PAS) y diastólica (PAD)
+#20	AnnotatorNotes T24	C1305849; Diastolic blood pressure measurement; Diagnostic Procedure + C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T25	PROC 258 264	Stroop
+#21	AnnotatorNotes T25	C2718024; Stroop Test; Diagnostic Procedure
+T26	PHYS 1 23	Respuesta hemodinámica
+#22	AnnotatorNotes T26	C0019010; Hemodynamics; Organ or Tissue Function
+T27	LIVB 53 60	sujetos
+#23	AnnotatorNotes T27	C0681850; Study Subject; Group
+T28	LIVB 191 199	personas
+#24	AnnotatorNotes T28	C0027361; Persons; Population Group
+T29	Neg_cue 218 221	sin
+T30	PHYS 348 364	presión arterial
+#25	AnnotatorNotes T30	C0005823; Blood Pressure; Organism Function
+T32	LIVB 572 580	personas
+#26	AnnotatorNotes T32	C0027361; Persons; Population Group
+T33	LIVB 615 623	personas
+#27	AnnotatorNotes T33	C0027361; Persons; Population Group
+T34	LIVB 668 675	mujeres
+#28	AnnotatorNotes T34	C0043210; Woman; Population Group
+T35	Age 742 751	42.5 años
+T37	PHYS 780 796	presión arterial
+#29	AnnotatorNotes T37	C0005823; Blood Pressure; Organism Function
+T42	Dose 1022 1031	una dosis
+T43	Frequency 1032 1038	diaria
+T44	Route 1039 1043	oral
+#30	AnnotatorNotes T44	C1527415; Oral Route of Drug administration; Functional Concept
+T45	Dose 1047 1051	5 mg
+T47	LIVB 1316 1324	personas
+#31	AnnotatorNotes T47	C0027361; Persons; Population Group
+T48	LIVB 1394 1402	personas
+#32	AnnotatorNotes T48	C0027361; Persons; Population Group
+T49	LIVB 1542 1550	personas
+#33	AnnotatorNotes T49	C0027361; Persons; Population Group
+T50	Date 1631 1637	futura
+T51	PHYS 34 40	mental
+#34	AnnotatorNotes T51	C0229992; Psyche structure; Mental Process
+T53	PHYS 548 554	mental
+#35	AnnotatorNotes T53	C0229992; Psyche structure; Mental Process
+T31	LIVB 680 687	varones
+#36	AnnotatorNotes T31	C0025266; Male population group; Population Group
+T36	Spec_cue 1576 1582	podría
+A1	Assertion T21 Negated
+A2	Assertion T19 Speculated
+A3	Assertion T20 Speculated
+R1	Negation Arg1:T29 Arg2:T21	
+R3	Experiences Arg1:T27 Arg2:T26	
+R4	Experiences Arg1:T27 Arg2:T13	
+R5	Experiences Arg1:T27 Arg2:T51	
+R6	Experiences Arg1:T27 Arg2:T2	
+T38	Observation 61 72	normotensos
+#37	AnnotatorNotes T38	C2712122; Normal blood pressure; Finding
+R7	Experiences Arg1:T27 Arg2:T38	
+T39	PROC 101 112	Betabloqueo
+#38	AnnotatorNotes T39	C4723804; beta-adrenergic antagonist therapy; Therapeutic or Preventive Procedure
+T40	Observation 89 96	Efectos
+#39	AnnotatorNotes T40	C1518681; Outcome of Therapy; Finding (?)
+R8	Causes Arg1:T39 Arg2:T40	
+R9	Experiences Arg1:T27 Arg2:T39	
+R11	Experiences Arg1:T27 Arg2:T40	
+T41	CONC 161 187	reactividad cardiovascular
+#40	AnnotatorNotes T41	C0870246; cardiovascular reactivity; Qualitative Concept
+T46	Quantifier_or_Qualifier 200 205	sanas
+#41	AnnotatorNotes T46	C3898900; Healthy; Qualitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T46	
+T52	Observation 206 217	normotensas
+#42	AnnotatorNotes T52	C2712122; Normal blood pressure; Finding
+T54	Observation 442 448	efecto
+#43	AnnotatorNotes T54	C1518681; Outcome of Therapy; Finding (?)
+R14	Causes Arg1:T7 Arg2:T54	
+R15	Causes Arg1:T8 Arg2:T54	
+T55	CONC 511 537	reactividad cardiovascular
+#44	AnnotatorNotes T55	C0870246; cardiovascular reactivity; Qualitative Concept
+#45	AnnotatorNotes T7	C0304516; Adrenergic beta-1 Receptor Antagonists; Pharmacologic Substance
+T56	Quantifier_or_Qualifier 476 485	selectivo
+R17	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T56	
+R18	Experiences Arg1:T32 Arg2:T11	
+R19	Experiences Arg1:T32 Arg2:T10	
+R20	Experiences Arg1:T32 Arg2:T8	
+R21	Experiences Arg1:T32 Arg2:T7	
+R22	Experiences Arg1:T32 Arg2:T54	
+R23	Location_of Arg1:T22 Arg2:T30	
+R24	Experiences Arg1:T28 Arg2:T30	
+R25	Experiences Arg1:T28 Arg2:T52	
+R26	Experiences Arg1:T28 Arg2:T21	
+R27	Experiences Arg1:T28 Arg2:T25	
+R29	Experiences Arg1:T28 Arg2:T5	
+R30	Experiences Arg1:T28 Arg2:T23	
+R33	Experiences Arg1:T31 Arg2:T12	
+R35	Experiences Arg1:T34 Arg2:T12	
+R34	Has_Age Arg1:T31 Arg2:T35	
+R36	Has_Age Arg1:T34 Arg2:T35	
+R37	Experiences Arg1:T33 Arg2:T12	
+R38	Has_Age Arg1:T33 Arg2:T35	
+R39	Location_of Arg1:T1 Arg2:T24	
+R40	Location_of Arg1:T1 Arg2:T37	
+T57	CONC 876 887	reactividad
+#46	AnnotatorNotes T57	C0870246; cardiovascular reactivity; Qualitative Concept
+R42	Has_Dose_or_Strength Arg1:T15 Arg2:T45	
+R43	Has_Route_or_Mode Arg1:T15 Arg2:T44	
+R44	Has_Frequency Arg1:T15 Arg2:T43	
+R45	Has_Dose_or_Strength Arg1:T15 Arg2:T42	
+T58	CONC 1173 1184	reactividad
+#47	AnnotatorNotes T58	C0870246; cardiovascular reactivity; Qualitative Concept
+T59	CONC 1209 1230	test exacto de Fisher
+#48	AnnotatorNotes T59	C1708064; Fisher's Exact Test; Intellectual Product
+R47	Experiences Arg1:T47 Arg2:T17	
+R48	Experiences Arg1:T48 Arg2:T4	
+R49	Experiences Arg1:T47 Arg2:T4	
+R50	Experiences Arg1:T48 Arg2:T17	
+T60	Observation 1467 1485	efecto beneficioso
+#49	AnnotatorNotes T60	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R53	Overlap Arg1:T38 Arg2:T2	
+R54	Overlap Arg1:T13 Arg2:T2	
+R55	Overlap Arg1:T13 Arg2:T38	
+R56	Overlap Arg1:T10 Arg2:T11	
+R57	Experiences Arg1:T49 Arg2:T60	
+R58	Experiences Arg1:T49 Arg2:T18	
+R59	Speculation Arg1:T36 Arg2:T19	
+R60	Speculation Arg1:T36 Arg2:T20	
+R61	Before Arg1:T19 Arg2:T20	
+R62	Overlap Arg1:T20 Arg2:T50	
+R63	Experiences Arg1:T49 Arg2:T19	
+T61	Observation 318 364	respuesta anticipatoria de la presión arterial
+R65	Experiences Arg1:T28 Arg2:T61	
+R2	Overlap Arg1:T60 Arg2:T18	
+R10	Experiences Arg1:T49 Arg2:T20	
+#50	AnnotatorNotes T50	C0016884; Future; Temporal Concept
+#51	AnnotatorNotes T5	C0015260; Exercise stress test; Diagnostic Procedure (?)
+#52	AnnotatorNotes T23	C0015260; Exercise stress test; Diagnostic Procedure (?)
+#53	AnnotatorNotes T16	C0015260; Exercise stress test; Diagnostic Procedure (?)
+A4	Status T20 Future
+A5	Experiencer T47 Patient
+A6	Experiencer T48 Patient
+A7	Experiencer T49 Patient
+A8	Experiencer T33 Patient
+A9	Experiencer T31 Patient
+A10	Experiencer T34 Patient
+A11	Experiencer T32 Patient
+A12	Experiencer T28 Patient
+A13	Experiencer T27 Patient

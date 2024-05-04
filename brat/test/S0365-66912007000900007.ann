@@ -1,0 +1,117 @@
+T1	ANAT 12 20	limbares
+#1	AnnotatorNotes T1	C1284749; Entire limbus corneae; Body Part, Organ, or Organ Component
+T2	PROC 34 56	cirugía de la catarata
+#2	AnnotatorNotes T2	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T3	DISO 48 56	catarata
+#3	AnnotatorNotes T3	C0086543; Cataract; Anatomical Abnormality
+T4	DISO 114 134	astigmatismo corneal
+#4	AnnotatorNotes T4	C0339682; Regular astigmatism - corneal; Disease or Syndrome
+T5	PROC 154 173	cirugía de catarata
+#5	AnnotatorNotes T5	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T6	PROC 183 213	incisiones limbares relajantes
+#6	AnnotatorNotes T6	C1275660; Limbal relaxing incision; Therapeutic or Preventive Procedure
+T7	ANAT 194 202	limbares
+#7	AnnotatorNotes T7	C1284749; Entire limbus corneae; Body Part, Organ, or Organ Component
+T8	PROC 231 250	Estudio prospectivo
+#8	AnnotatorNotes T8	C0033522; Prospective Studies; Research Activity
+T9	PROC 279 290	tratamiento
+#9	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	DISO 306 318	astigmatismo
+#10	AnnotatorNotes T10	C0004106; Astigmatism; Disease or Syndrome
+T11	PROC 392 410	facoemulsificación
+#11	AnnotatorNotes T11	C0282545; Phacoemulsification; Therapeutic or Preventive Procedure | C2193446; Aspiration of cataract by phacoemulsification; Therapeutic or Preventive Procedure
+T12	PROC 415 448	incisión temporal en córnea clara
+T13	ANAT 436 448	córnea clara
+T14	PROC 478 496	tratamiento a ILRs
+T15	PROC 505 523	facoemulsificación
+#13	AnnotatorNotes T15	C0282545; Phacoemulsification; Therapeutic or Preventive Procedure | C2193446; Aspiration of cataract by phacoemulsification; Therapeutic or Preventive Procedure
+T16	PROC 528 561	incisión temporal en córnea clara
+T17	ANAT 549 561	córnea clara
+T18	PROC 573 589	test de Holladay
+T19	PROC 595 614	valorar la eficacia
+#14	AnnotatorNotes T19	C1707887; Efficacy Study; Research Activity
+T20	PROC 619 630	tratamiento
+#15	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	DISO 710 722	astigmatismo
+#16	AnnotatorNotes T21	C0004106; Astigmatism; Disease or Syndrome
+T22	PROC 772 783	seguimiento
+#17	AnnotatorNotes T22	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T23	DISO 836 854	cambio astigmático
+T24	PROC 913 924	tratamiento
+#18	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	DISO 1063 1075	astigmatismo
+#19	AnnotatorNotes T25	C0004106; Astigmatism; Disease or Syndrome
+T26	PROC 1094 1113	cirugía de catarata
+#20	AnnotatorNotes T26	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T27	PROC 1 31	Incisiones limbares relajantes
+#21	AnnotatorNotes T27	C1275660; Limbal relaxing incision; Therapeutic or Preventive Procedure
+T28	ANAT 127 134	corneal
+#22	AnnotatorNotes T28	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T29	DISO 165 173	catarata
+#23	AnnotatorNotes T29	C0086543; Cataract; Anatomical Abnormality
+T30	DISO 1105 1113	catarata
+#24	AnnotatorNotes T30	C0086543; Cataract; Anatomical Abnormality
+T31	LIVB 268 277	pacientes
+#25	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Date 319 332	prequirúrgico
+#26	AnnotatorNotes T32	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T33	LIVB 345 354	pacientes
+#27	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 359 372	grupo control
+#28	AnnotatorNotes T34	C0009932; Control Groups; Group
+T35	LIVB 458 467	pacientes
+#29	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 803 812	pacientes
+#30	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Duration 820 827	3 meses
+T38	Duration 863 874	los 3 meses
+T39	LIVB 955 968	grupo control
+#31	AnnotatorNotes T39	C0009932; Control Groups; Group
+T40	DEVI 1143 1147	gafa
+#32	AnnotatorNotes T40	C0015421; Eyeglasses; Medical Device
+T41	LIVB 734 743	población
+#33	AnnotatorNotes T41	C1257890; Population; Population Group
+T42	LIVB 293 300	control
+#34	AnnotatorNotes T42	C0009932; Control Groups; Group
+T43	LIVB 907 924	grupo tratamiento
+#35	AnnotatorNotes T43	C5205742; Treatment Group; Population Group
+R1	Location_of Arg1:T1 Arg2:T27	
+R3	Location_of Arg1:T7 Arg2:T6	
+R5	Experiences Arg1:T31 Arg2:T9	
+R6	Experiences Arg1:T31 Arg2:T10	
+R7	Overlap Arg1:T10 Arg2:T32	
+T45	Result_or_Value 333 336	≥1D
+R8	Has_Result_or_Value Arg1:T10 Arg2:T45	
+R9	Experiences Arg1:T33 Arg2:T11	
+R10	Experiences Arg1:T34 Arg2:T11	
+R11	Before Arg1:T12 Arg2:T11	
+R12	Location_of Arg1:T13 Arg2:T12	
+R13	Experiences Arg1:T35 Arg2:T14	
+R14	Before Arg1:T16 Arg2:T15	
+R15	Location_of Arg1:T17 Arg2:T16	
+R16	Experiences Arg1:T35 Arg2:T16	
+R18	Before Arg1:T27 Arg2:T2	
+R19	Before Arg1:T6 Arg2:T5	
+R21	Experiences Arg1:T41 Arg2:T21	
+R22	Has_Duration_or_Interval Arg1:T22 Arg2:T37	
+R24	Overlap Arg1:T23 Arg2:T38	
+R25	Experiences Arg1:T43 Arg2:T24	
+R26	Experiences Arg1:T43 Arg2:T23	
+R27	Experiences Arg1:T36 Arg2:T23	
+R29	Experiences Arg1:T39 Arg2:T23	
+R30	Before Arg1:T24 Arg2:T22	
+R28	Before Arg1:T24 Arg2:T23	
+R2	Experiences Arg1:T35 Arg2:T15	
+R4	Experiences Arg1:T33 Arg2:T12	
+R17	Experiences Arg1:T34 Arg2:T12	
+#12	AnnotatorNotes T14	C1275660; Limbal relaxing incision; Therapeutic or Preventive Procedure
+R23	Combined_with Arg1:T14 Arg2:T15	
+A1	Experiencer T31 Patient
+A2	Experiencer T42 Patient
+A3	Experiencer T33 Patient
+A4	Experiencer T34 Patient
+A5	Experiencer T35 Patient
+A6	Experiencer T41 Patient
+A7	Experiencer T36 Patient
+A8	Experiencer T43 Patient
+A9	Experiencer T39 Patient

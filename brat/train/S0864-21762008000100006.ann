@@ -1,0 +1,136 @@
+T1	PROC 75 94	cirugía de catarata
+#1	AnnotatorNotes T1	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T2	PROC 110 149	ensayo clínico con controles históricos
+#2	AnnotatorNotes T2	C3850080; Historically Controlled Study; Research Activity
+T3	PROC 234 255	técnica de Blumenthal
+T4	PROC 290 309	cirugía de catarata
+#3	AnnotatorNotes T4	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T5	PROC 434 441	operado
+#4	AnnotatorNotes T5	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T6	PROC 610 617	operado
+#5	AnnotatorNotes T6	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T7	PROC 834 848	agudeza visual
+#6	AnnotatorNotes T7	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T8	DISO 749 797	complicaciones transoperatorias y posoperatorias
+#7	AnnotatorNotes T8	C0021890; Intraoperative Complications; Pathologic Function | C0032787; Postoperative Complications; Pathologic Function
+T9	PROC 884 892	operados
+#8	AnnotatorNotes T9	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T10	PROC 1283 1297	agudeza visual
+#9	AnnotatorNotes T10	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T11	DISO 1071 1122	complicaciones transoperatorias como posoperatorias
+#10	AnnotatorNotes T11	C0021890; Intraoperative Complications; Pathologic Function | C0032787; Postoperative Complications; Pathologic Function
+T12	DISO 1221 1233	astigmatismo
+#11	AnnotatorNotes T12	C0004106; Astigmatism; Disease or Syndrome
+T13	PROC 1397 1415	técnica quirúrgica
+T14	DISO 86 94	catarata
+#12	AnnotatorNotes T14	C0086543; Cataract; Anatomical Abnormality
+T15	DISO 301 309	catarata
+#13	AnnotatorNotes T15	C0086543; Cataract; Anatomical Abnormality
+T16	PROC 912 933	técnica de Blumenthal
+T17	DISO 813 825	astigmatismo
+#14	AnnotatorNotes T17	C0004106; Astigmatism; Disease or Syndrome
+T18	PROC 19 40	técnica de Blumenthal
+T19	PROC 48 68	técnica convencional
+#15	AnnotatorNotes T19	C1521745; Conventional Surgery; Therapeutic or Preventive Procedure (?)
+T20	PROC 263 283	técnica convencional
+#16	AnnotatorNotes T20	C1521745; Conventional Surgery; Therapeutic or Preventive Procedure (?)
+T21	PROC 449 469	técnica convencional
+#17	AnnotatorNotes T21	C1521745; Conventional Surgery; Therapeutic or Preventive Procedure (?)
+T22	PROC 625 646	técnica de Blumenthal
+T23	PROC 971 991	técnica convencional
+#18	AnnotatorNotes T23	C1521745; Conventional Surgery; Therapeutic or Preventive Procedure (?)
+T24	LIVB 129 149	controles históricos
+#19	AnnotatorNotes T24	C2986415; Historical Control Subject; Population Group
+T25	Date 348 365	diciembre de 2004
+T26	Date 368 381	junio de 2005
+T27	LIVB 412 421	pacientes
+#20	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	Date 512 529	diciembre de 2004
+T29	Date 532 547	febrero de 2005
+T30	LIVB 549 569	controles históricos
+#21	AnnotatorNotes T30	C2986415; Historical Control Subject; Population Group
+T31	Date 662 666	mayo
+T32	Date 667 680	junio de 2005
+T33	Time 764 780	transoperatorias
+#22	AnnotatorNotes T33	C0021890; Intraoperative Complications; Pathologic Function
+T34	Date 783 797	posoperatorias
+#23	AnnotatorNotes T34	C0032790; Postoperative Period; Temporal Concept
+T36	Duration 857 880	los tres primeros meses
+T37	LIVB 897 906	pacientes
+#24	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 1001 1010	pacientes
+#25	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T40	Time 1086 1102	transoperatorias
+#26	AnnotatorNotes T40	C0021890; Intraoperative Complications; Pathologic Function
+T41	Date 1108 1122	posoperatorias
+#27	AnnotatorNotes T41	C0032790; Postoperative Period; Temporal Concept
+T42	LIVB 1175 1184	pacientes
+#28	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Date 1234 1247	posoperatorio
+#29	AnnotatorNotes T43	C0032790; Postoperative Period; Temporal Concept
+T45	LIVB 1361 1370	pacientes
+#30	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+R1	Overlap Arg1:T19 Arg2:T1	
+R2	Overlap Arg1:T18 Arg2:T1	
+R3	Overlap Arg1:T3 Arg2:T4	
+R4	Overlap Arg1:T20 Arg2:T4	
+R5	After Arg1:T2 Arg2:T25	
+R6	Before Arg1:T2 Arg2:T26	
+R7	Experiences Arg1:T24 Arg2:T3	
+R8	Experiences Arg1:T24 Arg2:T20	
+R9	Experiences Arg1:T24 Arg2:T4	
+R10	Experiences Arg1:T27 Arg2:T5	
+R11	Experiences Arg1:T27 Arg2:T21	
+R12	Experiences Arg1:T30 Arg2:T21	
+R13	Experiences Arg1:T30 Arg2:T5	
+R14	After Arg1:T21 Arg2:T28	
+R15	After Arg1:T5 Arg2:T28	
+R16	Before Arg1:T21 Arg2:T29	
+R17	Before Arg1:T5 Arg2:T29	
+R18	Experiences Arg1:T27 Arg2:T6	
+R19	Experiences Arg1:T27 Arg2:T22	
+R20	Overlap Arg1:T5 Arg2:T21	
+R21	Overlap Arg1:T6 Arg2:T22	
+R22	After Arg1:T22 Arg2:T31	
+R23	Before Arg1:T22 Arg2:T32	
+R24	After Arg1:T6 Arg2:T31	
+R25	Before Arg1:T6 Arg2:T32	
+T35	CONC 730 747	tiempo quirúrgico
+#31	AnnotatorNotes T35	C3494201; Operative Time; Temporal Concept
+R26	Overlap Arg1:T8 Arg2:T33	
+R27	Overlap Arg1:T8 Arg2:T34	
+R28	Overlap Arg1:T7 Arg2:T36	
+R29	Overlap Arg1:T17 Arg2:T36	
+R30	Experiences Arg1:T37 Arg2:T9	
+R32	Before Arg1:T9 Arg2:T7	
+R34	Causes Arg1:T9 Arg2:T8	
+R35	Experiences Arg1:T37 Arg2:T7	
+R36	Experiences Arg1:T37 Arg2:T17	
+R37	Experiences Arg1:T37 Arg2:T8	
+R38	Experiences Arg1:T38 Arg2:T23	
+R39	Experiences Arg1:T38 Arg2:T16	
+T39	CONC 1031 1048	tiempo quirúrgico
+#32	AnnotatorNotes T39	C3494201; Operative Time; Temporal Concept
+R40	Overlap Arg1:T11 Arg2:T40	
+R41	Overlap Arg1:T11 Arg2:T41	
+R42	Experiences Arg1:T38 Arg2:T11	
+R43	Experiences Arg1:T42 Arg2:T11	
+R44	Experiences Arg1:T42 Arg2:T23	
+R45	Experiences Arg1:T42 Arg2:T16	
+R46	Overlap Arg1:T12 Arg2:T43	
+R47	Experiences Arg1:T45 Arg2:T10	
+R48	Experiences Arg1:T45 Arg2:T12	
+R49	Experiences Arg1:T45 Arg2:T13	
+T47	CONC 799 808	evolución
+#35	AnnotatorNotes T47	C0449259; Clinical course; Temporal Concept
+T48	Observation 1283 1297;1304 1311	agudeza visual aumentó
+R51	Experiences Arg1:T45 Arg2:T48	
+R52	Before Arg1:T13 Arg2:T48	
+A1	Experiencer T24 Patient
+A2	Experiencer T27 Patient
+A3	Experiencer T30 Patient
+A4	Experiencer T37 Patient
+A5	Experiencer T38 Patient
+A6	Experiencer T42 Patient
+A7	Experiencer T45 Patient
+R31	Has_Result_or_Value Arg1:T10 Arg2:T48	

@@ -1,0 +1,71 @@
+T1	CHEM 67 76	PRASUGREL
+#1	AnnotatorNotes T1	C1620287; prasugrel; Organic Chemical · Pharmacologic Substance
+T2	CHEM 79 89	TICAGRELOR
+#2	AnnotatorNotes T2	C1999375; ticagrelor; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T3	DISO 116 136	ENFERMEDAD CORONARIA
+#3	AnnotatorNotes T3	C0010068; Coronary heart disease; Disease or Syndrome
+T4	CHEM 180 189	PRASUGREL
+#4	AnnotatorNotes T4	C1620287; prasugrel; Organic Chemical · Pharmacologic Substance
+T5	CHEM 192 202	TICAGRELOR
+#5	AnnotatorNotes T5	C1999375; ticagrelor; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T6	DISO 229 249	ENFERMEDAD CORONARIA
+#6	AnnotatorNotes T6	C0010068; Coronary heart disease; Disease or Syndrome
+T7	PROC 253 272	TRATAMIENTO CRÓNICO
+#7	AnnotatorNotes T7	C0023977; Long-term care; Health Care Activity (?)
+T8	CHEM 277 288	CLOPIDOGREL
+#8	AnnotatorNotes T8	C0070166; clopidogrel; Organic Chemical · Pharmacologic Substance
+T9	ANAT 311 322	PLAQUETARIA
+#9	AnnotatorNotes T9	C0005821; Blood Platelets; Cell
+T10	PROC 324 360	ESTUDIO FARMACODINÁMICO ALEATORIZADO
+T11	DISO 384 404	ENFERMEDAD CORONARIA
+#10	AnnotatorNotes T11	C0010068; Coronary heart disease; Disease or Syndrome
+T12	ANAT 127 136	CORONARIA
+#11	AnnotatorNotes T12	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T13	ANAT 240 249	CORONARIA
+#12	AnnotatorNotes T13	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T14	ANAT 395 404	CORONARIA
+#13	AnnotatorNotes T14	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T15	Date 13 17	2013
+T17	LIVB 93 111	PACIENTES ANCIANOS
+#14	AnnotatorNotes T17	C0030705; Patients; Patient or Disabled Group + C0001792; Elderly (population group); Population Group
+T18	LIVB 206 224	PACIENTES ANCIANOS
+#15	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group + C0001792; Elderly (population group); Population Group
+T20	Duration 265 272	CRÓNICO
+#16	AnnotatorNotes T20	C0205191; chronic; Temporal Concept
+T16	PHYS 299 322	REACTIVIDAD PLAQUETARIA
+#17	AnnotatorNotes T16	C0032176; Platelet aggregation; Organ or Tissue Function
+T19	PHYS 332 347	FARMACODINÁMICO
+#18	AnnotatorNotes T19	C0851347; Pharmacodynamics; Biologic Function
+A1	Population_data T17 Age
+A2	Population_data T18 Age
+#19	AnnotatorNotes T10	C1709518; Pharmacodynamic Study; Research Activity + C0034656; Randomization; Research Activity
+T21	Observation 46 53	EFECTOS
+#20	AnnotatorNotes T21	C1518681; Outcome of Therapy; Finding (?)
+T22	Observation 159 166	EFECTOS
+#21	AnnotatorNotes T22	C1518681; Outcome of Therapy; Finding (?)
+R1	Causes Arg1:T1 Arg2:T21	
+R2	Causes Arg1:T4 Arg2:T22	
+R3	Causes Arg1:T2 Arg2:T21	
+R4	Causes Arg1:T5 Arg2:T22	
+R5	Experiences Arg1:T17 Arg2:T1	
+R6	Experiences Arg1:T17 Arg2:T2	
+R7	Experiences Arg1:T18 Arg2:T4	
+R8	Experiences Arg1:T17 Arg2:T3	
+R9	Location_of Arg1:T12 Arg2:T3	
+R10	Location_of Arg1:T13 Arg2:T6	
+R11	Experiences Arg1:T18 Arg2:T6	
+R12	Experiences Arg1:T18 Arg2:T22	
+R13	Experiences Arg1:T18 Arg2:T5	
+R14	Experiences Arg1:T17 Arg2:T21	
+R15	Experiences Arg1:T18 Arg2:T7	
+R16	Has_Duration_or_Interval Arg1:T8 Arg2:T20	
+R17	Used_for Arg1:T8 Arg2:T7	
+T23	Quantifier_or_Qualifier 291 298	ELEVADA
+#22	AnnotatorNotes T23	C3163633; Elevated; Qualitative Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T23	
+R20	Experiences Arg1:T18 Arg2:T16	
+R21	Overlap Arg1:T6 Arg2:T16	
+R22	Location_of Arg1:T14 Arg2:T11	
+R18	Experiences Arg1:T18 Arg2:T19	
+A3	Experiencer T17 Patient
+A4	Experiencer T18 Patient

@@ -1,0 +1,190 @@
+T1	PROC 46 66	Estudio de seguridad
+#1	AnnotatorNotes T1	C1705187; Safety Study; Research Activity
+T2	PROC 71 82	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 86 90	DIPG
+#3	AnnotatorNotes T3	C2986658; Diffuse Intrinsic Pontine Glioma; Neoplastic Process
+T4	ANAT 95 124	células dendríticas autólogas
+#4	AnnotatorNotes T4	C0879593; therapeutic autologous dendritic cells; Cell · Pharmacologic Substance
+T5	DISO 145 152	tumoral
+#5	AnnotatorNotes T5	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T6	PROC 185 226	Ensayo clínico fase Ib sobre la seguridad
+T7	PROC 233 246	Inmunoterapia
+#6	AnnotatorNotes T7	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T8	ANAT 251 280	células dendríticas autólogas
+#7	AnnotatorNotes T8	C0879593; therapeutic autologous dendritic cells; Cell · Pharmacologic Substance
+T9	ANAT 304 320	líneas tumorales
+#8	AnnotatorNotes T9	C0085983; Cell Line, Tumor; Cell
+T10	DISO 311 320	tumorales
+#9	AnnotatorNotes T10	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T11	DISO 349 383	glioma intrínseco difuso de tronco
+T12	ANAT 377 383	tronco
+#10	AnnotatorNotes T12	C0460005; Trunk structure; Body Location or Region | C1280632; Entire trunk; Body Location or Region
+T13	DISO 385 389	DIPG
+#11	AnnotatorNotes T13	C2986658; Diffuse Intrinsic Pontine Glioma; Neoplastic Process
+T14	DISO 414 448	Glioma intrínseco difuso de tronco
+T15	ANAT 442 448	tronco
+#12	AnnotatorNotes T15	C0460005; Trunk structure; Body Location or Region | C1280632; Entire trunk; Body Location or Region
+T16	DISO 450 454	DIPG
+#13	AnnotatorNotes T16	C2986658; Diffuse Intrinsic Pontine Glioma; Neoplastic Process
+T17	PROC 499 510	diagnóstico
+#14	AnnotatorNotes T17	C0011900; Diagnosis; Diagnostic Procedure
+T18	DISO 523 527	DIPG
+#15	AnnotatorNotes T18	C2986658; Diffuse Intrinsic Pontine Glioma; Neoplastic Process
+T19	PROC 559 571	radioterapia
+#16	AnnotatorNotes T19	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T20	PROC 701 710	Karnofsky
+#17	AnnotatorNotes T20	C0206065; Karnofsky Performance Status; Diagnostic Procedure
+T21	ANAT 791 798	medular
+#18	AnnotatorNotes T21	C0376152; Marrow; Body Part, Organ, or Organ Component | C1550278; Medullary - body parts; Body Part, Organ, or Organ Component
+T22	PROC 828 865	tratamiento farmacológico antitumoral
+T23	PROC 935 943	aféresis
+#19	AnnotatorNotes T23	C0005791; Apheresis (procedure); Therapeutic or Preventive Procedure
+T24	PROC 966 986	estudio experimental
+T25	PROC 1038 1061	tratamiento antitumoral
+T26	DISO 1084 1096	Comorbilidad
+#20	AnnotatorNotes T26	C1275743; Co-morbid conditions; Finding
+T27	PROC 1119 1141	tratamiento en estudio
+#21	AnnotatorNotes T27	C0949266; Therapies, Investigational; Therapeutic or Preventive Procedure
+T28	DISO 1201 1224	corticoide-dependientes
+T29	CHEM 1178 1190	dexametasona
+#22	AnnotatorNotes T29	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T30	CHEM 1201 1211	corticoide
+#23	AnnotatorNotes T30	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T31	DISO 1239 1260	enfermedad diseminada
+T32	DISO 1281 1290	infección
+#24	AnnotatorNotes T32	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T33	PROC 1304 1314	Serologías
+#25	AnnotatorNotes T33	C0036743; Serologic tests; Laboratory Procedure
+T34	DISO 1328 1331	VIH
+#26	AnnotatorNotes T34	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T35	DISO 1333 1336	VHC
+#27	AnnotatorNotes T35	C0019196; Hepatitis C; Disease or Syndrome
+T36	DISO 1339 1342	VHB
+#28	AnnotatorNotes T36	C0019163; Hepatitis B; Disease or Syndrome
+T37	CHEM 138 152	lisado tumoral
+T38	CHEM 294 320	lisado de líneas tumorales
+T39	Date 13 17	2015
+T40	LIVB 335 344	pacientes
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 482 491	Pacientes
+#30	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Date 511 519	reciente
+T43	LIVB 528 537	Pacientes
+#31	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Duration 581 593	los 100 días
+T45	Age 639 660	entre los 3 y 18 años
+T46	Age 724 742	mayores de 16 años
+T47	Duration 765 782	mayor a 8 semanas
+T48	Neg_cue 810 812	No
+T49	Date 869 882	el último mes
+T50	Neg_cue 909 925	Imposibilidad de
+T51	Duration 990 1012	los últimos tres meses
+T52	LIVB 1013 1021	Paciente
+#32	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Duration 1062 1083	las últimas 4 semanas
+T54	Neg_cue 1101 1107	impida
+T55	LIVB 1142 1151	pacientes
+#33	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Dose 1166 1170	>2mg
+T57	Frequency 1170 1174	/día
+T58	LIVB 1191 1200	pacientes
+#34	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1225 1234	Pacientes
+#35	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1261 1269	Paciente
+#36	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T64	PHYS 783 798	Función medular
+A1	Assertion T22 Negated
+A2	Assertion T23 Negated
+A3	Assertion T27 Negated
+A4	Status T19 History_of
+A5	Status T24 History_of
+A6	Status T22 History_of
+#37	AnnotatorNotes T11	C2986658; Diffuse Intrinsic Pontine Glioma; Neoplastic Process
+#38	AnnotatorNotes T14	C2986658; Diffuse Intrinsic Pontine Glioma; Neoplastic Process
+#39	AnnotatorNotes T24	C0681814; research study; Research Activity
+#40	AnnotatorNotes T42	C0332185; Recent; Temporal Concept
+T61	Observation 1108 1115	tolerar
+A7	Assertion T61 Negated
+R1	Negation Arg1:T54 Arg2:T61	
+R2	Negation Arg1:T54 Arg2:T27	
+R3	Overlap Arg1:T61 Arg2:T27	
+T62	CONC 745 764	Expectativa de vida
+#41	AnnotatorNotes T62	C0023671; Life Expectancy; Group Attribute
+R4	Has_Duration_or_Interval Arg1:T62 Arg2:T47	
+R5	Location_of Arg1:T21 Arg2:T64	
+T63	Observation 783 809	Función medular conservada
+R6	Location_of Arg1:T21 Arg2:T63	
+R7	Used_for Arg1:T4 Arg2:T2	
+T65	Quantifier_or_Qualifier 153 162	alogénico
+#42	AnnotatorNotes T65	C1515895; Allogeneic; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T65	
+T66	Quantifier_or_Qualifier 321 331	alogénicas
+#43	AnnotatorNotes T66	C1515895; Allogeneic; Qualitative Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T66	
+R10	Used_for Arg1:T8 Arg2:T7	
+T67	Quantifier_or_Qualifier 125 152	cargadas con lisado tumoral
+R11	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T67	
+T68	Quantifier_or_Qualifier 281 320	pulsadas con lisado de líneas tumorales
+R12	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T68	
+R13	Experiences Arg1:T40 Arg2:T7	
+R14	Experiences Arg1:T40 Arg2:T11	
+R15	Experiences Arg1:T40 Arg2:T13	
+R16	Location_of Arg1:T12 Arg2:T11	
+R17	Location_of Arg1:T12 Arg2:T13	
+R18	Location_of Arg1:T15 Arg2:T16	
+R19	Location_of Arg1:T15 Arg2:T14	
+R20	Overlap Arg1:T18 Arg2:T42	
+R21	Experiences Arg1:T41 Arg2:T18	
+R22	Overlap Arg1:T17 Arg2:T42	
+R23	Negation Arg1:T48 Arg2:T22	
+R24	Overlap Arg1:T22 Arg2:T49	
+R25	Negation Arg1:T50 Arg2:T23	
+R26	Overlap Arg1:T24 Arg2:T51	
+T69	Observation 944 986	Participación en otro estudio experimental
+R27	Overlap Arg1:T69 Arg2:T51	
+R28	Has_Duration_or_Interval Arg1:T25 Arg2:T53	
+R29	Experiences Arg1:T52 Arg2:T25	
+R30	Before Arg1:T26 Arg2:T61	
+R31	Experiences Arg1:T55 Arg2:T29	
+R32	Has_Frequency Arg1:T29 Arg2:T57	
+R33	Has_Dose_or_Strength Arg1:T29 Arg2:T56	
+R34	Experiences Arg1:T58 Arg2:T30	
+R35	Experiences Arg1:T58 Arg2:T28	
+#44	AnnotatorNotes T28	C0521861; Dependence on corticoids; Finding
+R36	Experiences Arg1:T59 Arg2:T31	
+R37	Causes Arg1:T30 Arg2:T28	
+R38	Experiences Arg1:T60 Arg2:T32	
+T70	Quantifier_or_Qualifier 1291 1303	incontrolada
+#45	AnnotatorNotes T70	C0205318; Uncontrolled; Qualitative Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T70	
+T71	Result_or_Value 1315 1324	positivas
+#46	AnnotatorNotes T71	C1446409; Positive; Finding
+R43	Has_Result_or_Value Arg1:T33 Arg2:T71	
+R44	Experiences Arg1:T43 Arg2:T19	
+R45	Overlap Arg1:T19 Arg2:T44	
+T72	Quantifier_or_Qualifier 572 577	focal
+#47	AnnotatorNotes T72	C0205234; Focal; Spatial Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T72	
+A8	Status T72 History_of
+T73	CONC 607 616	inclusión
+#48	AnnotatorNotes T73	C1512693; Inclusion; Qualitative Concept
+R47	Before Arg1:T19 Arg2:T73	
+R48	Overlap Arg1:T20 Arg2:T46	
+T74	Result_or_Value 711 714	>50
+R49	Has_Result_or_Value Arg1:T20 Arg2:T74	
+T75	Result_or_Value 696 699	>50
+T76	CONC 669 695	Escala funcional de Lansky
+#49	AnnotatorNotes T76	C1522275; Lansky Play-Performance Status; Intellectual Product 
+R50	Has_Result_or_Value Arg1:T76 Arg2:T75	
+R51	Experiences Arg1:T40 Arg2:T10	
+#50	AnnotatorNotes T25	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+A9	Experiencer T40 Patient
+A10	Experiencer T41 Patient
+A11	Experiencer T43 Patient
+A12	Experiencer T52 Patient
+A13	Experiencer T55 Patient
+A14	Experiencer T58 Patient
+A15	Experiencer T59 Patient
+A16	Experiencer T60 Patient

@@ -1,0 +1,80 @@
+T1	PROC 11 17	ENEMAS
+#1	AnnotatorNotes T1	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T2	PROC 126 132	enemas
+#2	AnnotatorNotes T2	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T3	ANAT 156 161	fecal
+#3	AnnotatorNotes T3	C0015733; Feces; Body Substance
+T4	PROC 343 350	cesárea
+#4	AnnotatorNotes T4	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T5	PROC 368 392	ensayo clínico aleatorio
+#5	AnnotatorNotes T5	C0206034; Clinical Trials, Randomized; Research Activity
+T6	PROC 428 434	enemas
+#6	AnnotatorNotes T6	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T7	PROC 462 467	enema
+#7	AnnotatorNotes T7	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T8	ANAT 540 545	fecal
+#8	AnnotatorNotes T8	C0015733; Feces; Body Substance
+T9	PROC 587 592	enema
+#9	AnnotatorNotes T9	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T12	PHYS 195 200	parto
+#10	AnnotatorNotes T12	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T13	LIVB 208 215	mujeres
+#11	AnnotatorNotes T13	C0043210; Woman; Population Group
+T14	LIVB 290 297	mujeres
+#12	AnnotatorNotes T14	C0043210; Woman; Population Group
+T15	PHYS 302 317	partos normales
+#13	AnnotatorNotes T15	C0233081; Normal labor; Organism Function
+T16	DEVI 326 333	fórceps
+#14	AnnotatorNotes T16	C0016533; Forceps; Medical Device + C0028771; Obstetrical Forceps; Medical Device
+T17	Neg_cue 424 427	sin
+T19	Neg_cue 468 470	no
+T21	LIVB 560 567	mujeres
+#15	AnnotatorNotes T21	C0043210; Woman; Population Group
+T23	PHYS 173 189	trabajo de parto
+#16	AnnotatorNotes T23	C0022864; Labor (Childbirth); Organism Function
+T25	LIVB 254 263	población
+#17	AnnotatorNotes T25	C1257890; Population; Population Group
+T10	PHYS 44 49	PARTO
+#18	AnnotatorNotes T10	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T11	PHYS 494 510	trabajo de parto
+#19	AnnotatorNotes T11	C0022864; Labor (Childbirth); Organism Function
+A1	Assertion T6 Negated
+R1	Negation Arg1:T17 Arg2:T6	
+T18	CONC 471 480	disminuyó
+A2	Assertion T18 Negated
+#20	AnnotatorNotes T18	C0547047; Decrease; Quantitative Concept
+R2	Negation Arg1:T19 Arg2:T18	
+T20	Neg_cue 513 515	no
+T22	Observation 516 545	redujo la contaminación fecal
+A3	Assertion T22 Negated
+T24	Observation 111 118	efectos
+#21	AnnotatorNotes T24	C1518681; Outcome of Therapy; Finding (?)
+R3	Causes Arg1:T2 Arg2:T24	
+T26	Observation 142 161	contaminación fecal
+R4	Overlap Arg1:T26 Arg2:T23	
+R5	Overlap Arg1:T26 Arg2:T12	
+R6	Experiences Arg1:T13 Arg2:T12	
+R7	Experiences Arg1:T13 Arg2:T23	
+R8	Experiences Arg1:T13 Arg2:T2	
+R9	Experiences Arg1:T13 Arg2:T24	
+R10	Experiences Arg1:T14 Arg2:T15	
+R11	Experiences Arg1:T25 Arg2:T16	
+R12	Experiences Arg1:T14 Arg2:T16	
+R13	Experiences Arg1:T14 Arg2:T4	
+R14	Experiences Arg1:T25 Arg2:T15	
+R15	Experiences Arg1:T25 Arg2:T4	
+R16	Before Arg1:T7 Arg2:T18	
+R17	Overlap Arg1:T2 Arg2:T23	
+R18	Overlap Arg1:T2 Arg2:T12	
+R19	Overlap Arg1:T7 Arg2:T11	
+R20	Experiences Arg1:T21 Arg2:T9	
+R21	Overlap Arg1:T1 Arg2:T10	
+#22	AnnotatorNotes R17	(?)
+#23	AnnotatorNotes R18	(?)
+#24	AnnotatorNotes R21	(?)
+#25	AnnotatorNotes R19	(?)
+R22	Negation Arg1:T20 Arg2:T22	
+A4	Experiencer T21 Patient
+A5	Experiencer T25 Patient
+A6	Experiencer T14 Patient
+A7	Experiencer T13 Patient

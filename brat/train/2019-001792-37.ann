@@ -1,0 +1,181 @@
+T1	PROC 46 80	Estudio de la eficacia y seguridad
+T2	DISO 113 141	urticaria crónica espontánea
+#1	AnnotatorNotes T2	C0578870; Chronic Spontaneous Urticaria; Disease or Syndrome
+T3	CHEM 84 95	ligelizumab
+#2	AnnotatorNotes T3	C4041919; ligelizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	PROC 220 277	Estudio de extensión multicéntrico, doble ciego y abierto
+T5	PROC 283 314	evaluar la eficacia y seguridad
+#3	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T6	PROC 335 348	retratamiento
+#4	AnnotatorNotes T6	C0376495; Retreatments; Therapeutic or Preventive Procedure
+T7	PROC 377 388	monoterapia
+#5	AnnotatorNotes T7	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T8	DISO 406 434	urticaria crónica espontánea
+#6	AnnotatorNotes T8	C0578870; Chronic Spontaneous Urticaria; Disease or Syndrome
+T9	CHEM 185 196	ligelizumab
+#7	AnnotatorNotes T9	C4041919; ligelizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	DISO 547 563	Habones Crónicos
+T11	DISO 590 618	Urticaria crónica espontánea
+#8	AnnotatorNotes T11	C0578870; Chronic Spontaneous Urticaria; Disease or Syndrome
+T12	PROC 758 769	tratamiento
+#9	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	PROC 786 797	seguimiento
+#10	AnnotatorNotes T13	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T14	PROC 648 684	Consentimiento informado por escrito
+#11	AnnotatorNotes T14	C0811741; Obtain informed written consent; Health Care Activity
+T15	DISO 1041 1049	síntomas
+#12	AnnotatorNotes T15	C1457887; Symptoms; Sign or Symptom
+T16	PROC 350 374	terapia autoadministrada
+T17	CHEM 318 329	ligelizumab
+#13	AnnotatorNotes T17	C4041919; ligelizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T18	CHEM 1169 1194	fármacos en investigación
+#14	AnnotatorNotes T18	C0013230; Investigational New Drugs; Pharmacologic Substance
+T19	CHEM 1288 1298	omalizumab
+#15	AnnotatorNotes T19	C0966225; omalizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T20	DISO 1368 1385	hipersensibilidad
+#16	AnnotatorNotes T20	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T21	CHEM 1409 1420	ligelizumab
+#17	AnnotatorNotes T21	C4041919; ligelizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T22	CHEM 1444 1452	fármacos
+#18	AnnotatorNotes T22	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T23	DISO 1504 1521	signos y síntomas
+#19	AnnotatorNotes T23	C0037088; Signs and Symptoms; Sign or Symptom
+T24	DISO 1544 1561	urticaria crónica
+#20	AnnotatorNotes T24	C0263338; Chronic Urticaria; Disease or Syndrome
+T25	DISO 1654 1666	Enfermedades
+#21	AnnotatorNotes T25	C0012634; Disease; Disease or Syndrome
+T26	DISO 1680 1701	síntomas de urticaria
+T27	DISO 1704 1714	angioedema
+#22	AnnotatorNotes T27	C0002994; Angioedema; Pathologic Function
+T28	DISO 1744 1776	infección parasitaria helmíntica
+#23	AnnotatorNotes T28	C0018889; Helminthiasis; Disease or Syndrome
+T29	DISO 1810 1820	anafilaxia
+#24	AnnotatorNotes T29	C0002792; anaphylaxis; Disease or Syndrome
+T30	DISO 1571 1574	UCE
+T31	CHEM 1389 1396	fármaco
+#25	AnnotatorNotes T31	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T32	Date 13 17	2019
+T33	LIVB 99 108	pacientes
+#26	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Duration 123 130	crónica
+#27	AnnotatorNotes T34	C0205191; chronic; Temporal Concept
+T35	LIVB 392 401	pacientes
+#28	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Duration 416 423	crónica
+#29	AnnotatorNotes T36	C0205191; chronic; Temporal Concept
+T37	Duration 555 563	Crónicos
+T38	Duration 600 607	crónica
+#30	AnnotatorNotes T38	C0205191; chronic; Temporal Concept
+T39	LIVB 689 698	Pacientes
+#31	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 900 947	Pacientes adolescentes y adultos de ambos sexos
+#32	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group + C0205653; Adolescent (age group); Age Group + C0001675; Adult; Age Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T42	Age 948 959	>/= 12 años
+T45	Frequency 1065 1073	a diario
+T47	Duration 1307 1321	las 16 semanas
+T48	Duration 1554 1561	crónica
+#33	AnnotatorNotes T48	C0205191; chronic; Temporal Concept
+T49	Neg_cue 1563 1570	excepto
+T50	Spec_cue 1671 1679	posibles
+T51	LIVB 1719 1726	Sujetos
+#34	AnnotatorNotes T51	C0681850; Study Subject; Group
+T52	LIVB 1766 1776	helmíntica
+#35	AnnotatorNotes T52	C0018893; Helminths; Eukaryote
+T53	LIVB 1825 1870	Mujeres embarazadas o en periodo de lactancia
+#36	AnnotatorNotes T53	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T55	LIVB 1754 1765	parasitaria
+#37	AnnotatorNotes T55	C0030498; Parasites; Eukaryote
+T43	PROC 998 1020	cumplimentar un diario
+#38	AnnotatorNotes T43	C2216446; maintain symptom diary; Health Care Activity
+T44	PHYS 1861 1870	lactancia
+#39	AnnotatorNotes T44	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T46	PHYS 1833 1844	embarazadas
+#40	AnnotatorNotes T46	C0032961; Pregnancy; Organism Function
+T40	PROC 1263 1276	reclutamiento
+#41	AnnotatorNotes T40	C0242800; Patient Recruitment; Research Activity
+T54	PROC 1124 1131	visitas
+#42	AnnotatorNotes T54	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T30 Negated
+A2	Assertion T26 Speculated
+A3	Assertion T27 Speculated
+A4	Population_data T41 Age
+A5	Status T20 History_of
+A6	Status T29 History_of
+#43	AnnotatorNotes T10	C0263338; Chronic Urticaria; Disease or Syndrome (?)
+#44	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+R1	Negation Arg1:T49 Arg2:T30	
+#45	AnnotatorNotes T30	C0578870; Chronic Spontaneous Urticaria; Disease or Syndrome
+R2	Speculation Arg1:T50 Arg2:T26	
+R3	Speculation Arg1:T50 Arg2:T27	
+R4	Experiences Arg1:T33 Arg2:T3	
+R5	Experiences Arg1:T33 Arg2:T2	
+R6	Has_Duration_or_Interval Arg1:T2 Arg2:T34	
+T56	Observation 150 171	completado un estudio
+#46	AnnotatorNotes T56	C2732579; Completion of clinical trial; Finding
+R7	Before Arg1:T9 Arg2:T56	
+R8	Experiences Arg1:T33 Arg2:T9	
+R9	Used_for Arg1:T17 Arg2:T6	
+R10	Before Arg1:T9 Arg2:T3	
+R11	Used_for Arg1:T17 Arg2:T16	
+R12	Used_for Arg1:T17 Arg2:T7	
+R13	Experiences Arg1:T35 Arg2:T17	
+R14	Experiences Arg1:T35 Arg2:T8	
+R15	Has_Duration_or_Interval Arg1:T8 Arg2:T36	
+T57	Observation 443 466	completado los estudios
+#47	AnnotatorNotes T57	C2732579; Completion of clinical trial; Finding
+R16	Before Arg1:T57 Arg2:T17	
+R17	Has_Duration_or_Interval Arg1:T10 Arg2:T37	
+R18	Has_Duration_or_Interval Arg1:T11 Arg2:T38	
+T58	Observation 709 719;739 769	completado todo el periodo de tratamiento
+#48	AnnotatorNotes T58	C0580352; Treatment completed; Finding
+T59	Observation 709 719;772 797	completado el periodo de seguimiento
+R19	Has_Age Arg1:T41 Arg2:T42	
+T60	Observation 972 980	Voluntad
+#49	AnnotatorNotes T60	C0600109; Willing; Finding (?)
+T61	Observation 983 992	capacidad
+#50	AnnotatorNotes T61	C1299581; Abl (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R20	Overlap Arg1:T61 Arg2:T43	
+R21	Overlap Arg1:T60 Arg2:T43	
+T62	Quantifier_or_Qualifier 1021 1032	electrónico
+#51	AnnotatorNotes T62	C0013850; Electronic; Idea or Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T62	
+R24	Has_Frequency Arg1:T15 Arg2:T45	
+T63	PROC 1090 1097	estudio
+#52	AnnotatorNotes T63	C0008976; Clinical Trials; Research Activity
+R25	Overlap Arg1:T15 Arg2:T63	
+R26	Overlap Arg1:T43 Arg2:T63	
+R27	Overlap Arg1:T63 Arg2:T54	
+R28	Overlap Arg1:T18 Arg2:T40	
+R29	Has_Duration_or_Interval Arg1:T19 Arg2:T47	
+T64	PROC 1338 1347	selección
+#53	AnnotatorNotes T64	C0242802; Patient Selection; Research Activity
+R30	Before Arg1:T19 Arg2:T64	
+R31	Causes Arg1:T31 Arg2:T20	
+R32	Causes Arg1:T21 Arg2:T20	
+R33	Causes Arg1:T22 Arg2:T20	
+T65	Quantifier_or_Qualifier 1453 1481	de clases químicas similares
+R34	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T65	
+R35	Causes Arg1:T24 Arg2:T23	
+R36	Has_Duration_or_Interval Arg1:T24 Arg2:T48	
+T66	PROC 1588 1596	estudios
+A7	Status T66 History_of
+#54	AnnotatorNotes T66	C0008976; Clinical Trials; Research Activity
+R37	Overlap Arg1:T23 Arg2:T66	
+R38	Overlap Arg1:T25 Arg2:T26	
+R39	Overlap Arg1:T25 Arg2:T27	
+R40	Experiences Arg1:T51 Arg2:T28	
+R41	Causes Arg1:T55 Arg2:T28	
+R42	Causes Arg1:T52 Arg2:T28	
+R43	Experiences Arg1:T53 Arg2:T46	
+R44	Experiences Arg1:T53 Arg2:T44	
+R45	Experiences Arg1:T39 Arg2:T12	
+#55	AnnotatorNotes T16	C0036589; Self Administration; Therapeutic or Preventive Procedure 
+R46	Overlap Arg1:T24 Arg2:T66	
+#56	AnnotatorNotes T37	C0205191; chronic; Temporal Concept
+#57	AnnotatorNotes T59	C5554829; Follow-Up Completed; Finding
+A8	Experiencer T33 Patient
+A9	Experiencer T35 Patient
+A10	Experiencer T39 Patient
+A11	Experiencer T41 Patient
+A12	Experiencer T51 Patient
+A13	Experiencer T53 Patient

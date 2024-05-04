@@ -1,0 +1,172 @@
+T1	PROC 1 22	Cirugía laparoscópica
+#1	AnnotatorNotes T1	C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure
+T2	DISO 27 42	cáncer gástrico
+#2	AnnotatorNotes T2	C0024623; Malignant neoplasm of stomach; Neoplastic Process
+T3	PROC 917 926	resecados
+#3	AnnotatorNotes T3	C0728940; Excision; Therapeutic or Preventive Procedure
+T4	PROC 74 82	revisión
+#4	AnnotatorNotes T4	C3646434; Review of professional literature; Therapeutic or Preventive Procedure
+T5	PROC 112 140	cirugía mínimamente invasiva
+#5	AnnotatorNotes T5	C0282624; Minimally Invasive Surgical Procedures; Therapeutic or Preventive Procedure
+T6	DISO 147 162	cáncer gástrico
+#6	AnnotatorNotes T6	C0024623; Malignant neoplasm of stomach; Neoplastic Process
+T7	PROC 273 319	estudio prospectivo no aleatorizado bicéntrico
+T8	DISO 477 500	adenocarcinoma gástrico
+#7	AnnotatorNotes T8	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T9	PROC 622 634	laparoscopia
+#8	AnnotatorNotes T9	C0031150; Laparoscopy; Diagnostic Procedure
+T10	PROC 808 830	seguimiento oncológico
+T11	PROC 1095 1103	exéresis
+#9	AnnotatorNotes T11	C0919588; Exeresis; Therapeutic or Preventive Procedure
+T12	PROC 1229 1255	gastrectomía laparoscópica
+#10	AnnotatorNotes T12	C4038617; Laparoscopic total gastrectomy; Therapeutic or Preventive Procedure (?)
+T13	PROC 1285 1300	linfadenectomía
+#11	AnnotatorNotes T13	C0024203; Lymph node excision; Therapeutic or Preventive Procedure
+T14	PROC 1308 1320	intervención
+#12	AnnotatorNotes T14	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T15	DISO 1403 1418	cáncer gástrico
+#13	AnnotatorNotes T15	C0024623; Malignant neoplasm of stomach; Neoplastic Process
+T16	DISO 1461 1479	mal estado general
+T17	PROC 1560 1572	laparotómica
+#14	AnnotatorNotes T17	C0023038; Laparotomy; Therapeutic or Preventive Procedure
+T18	PROC 1593 1614	estudios prospectivos
+#15	AnnotatorNotes T18	C0033522; Prospective Studies; Research Activity
+T19	ANAT 34 42	gástrico
+#16	AnnotatorNotes T19	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T20	ANAT 154 162	gástrico
+#17	AnnotatorNotes T20	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T21	ANAT 492 500	gástrico
+#18	AnnotatorNotes T21	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T22	PROC 513 526	laparoscópico
+#19	AnnotatorNotes T22	C0031150; Laparoscopy; Diagnostic Procedure
+T23	PROC 1001 1025	resecados paliativamente
+T24	PROC 1187 1196	resecados
+#20	AnnotatorNotes T24	C0728940; Excision; Therapeutic or Preventive Procedure
+T25	ANAT 1410 1418	gástrico
+#21	AnnotatorNotes T25	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T26	Date 99 105	actual
+T27	LIVB 197 206	Pacientes
+#22	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T29	Date 415 428	junio de 1993
+T30	Date 431 444	enero de 2004
+T31	LIVB 463 472	pacientes
+#23	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 658 667	pacientes
+#24	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	Age 679 686	67 años
+T34	Date 724 738	postoperatoria
+#25	AnnotatorNotes T34	C0032790; Postoperative Period; Temporal Concept
+T35	Duration 741 748	60 días
+T36	LIVB 762 771	pacientes
+#26	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 776 785	pacientes
+#27	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Duration 840 848	41 meses
+T40	LIVB 904 913	pacientes
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Neg_cue 914 916	no
+T42	Duration 934 943	4,5 meses
+T44	LIVB 991 1000	pacientes
+#29	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Duration 1033 1042	7,1 meses
+T46	Duration 1073 1079	5 años
+T47	Duration 1163 1169	5 años
+T48	LIVB 1177 1186	pacientes
+#30	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 1389 1398	pacientes
+#31	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Date 1508 1521	a largo plazo
+T51	Date 1684 1697	a corto plazo
+T28	Age 688 693	37-83
+A1	Assertion T3 Negated
+T39	Quantifier_or_Qualifier 296 308	aleatorizado
+A2	Assertion T39 Negated
+R1	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T39	
+T43	Neg_cue 293 295	no
+R2	Negation Arg1:T43 Arg2:T39	
+R3	Negation Arg1:T41 Arg2:T3	
+R4	Location_of Arg1:T19 Arg2:T2	
+R5	Overlap Arg1:T4 Arg2:T26	
+R6	Location_of Arg1:T20 Arg2:T6	
+R7	After Arg1:T7 Arg2:T29	
+R8	Before Arg1:T7 Arg2:T30	
+R9	Experiences Arg1:T31 Arg2:T8	
+R10	Location_of Arg1:T21 Arg2:T8	
+T52	CONC 504 526	abordaje laparoscópico
+#32	AnnotatorNotes T52	C0393360; Laparoscopic approach; Spatial Concept
+T53	Quantifier_or_Qualifier 527 539	miniinvasivo
+#33	AnnotatorNotes T53	C2711297; Minimally invasive procedure; Functional Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T53	
+T54	PROC 598 617	intención de tratar
+#34	AnnotatorNotes T54	C2718028; Intention to Treat Analysis; Research Activity
+R13	Experiences Arg1:T31 Arg2:T22	
+R14	Experiences Arg1:T31 Arg2:T9	
+R15	Used_for Arg1:T52 Arg2:T9	
+R16	Has_Age Arg1:T32 Arg2:T33	
+R17	Has_Age Arg1:T32 Arg2:T28	
+T55	CONC 713 723	mortalidad
+R18	Overlap Arg1:T55 Arg2:T34	
+#35	AnnotatorNotes T55	C0026565; Mortality Vital Statistics; Quantitative Concept
+R19	Overlap Arg1:T55 Arg2:T35	
+R20	Experiences Arg1:T37 Arg2:T10	
+R21	Has_Duration_or_Interval Arg1:T10 Arg2:T38	
+T56	Duration 850 855	7-129
+R22	Has_Duration_or_Interval Arg1:T10 Arg2:T56	
+T57	CONC 870 883	supervivencia
+#36	AnnotatorNotes T57	C0038954; Survival Rate; Quantitative Concept
+R23	Has_Duration_or_Interval Arg1:T57 Arg2:T42	
+R24	Experiences Arg1:T40 Arg2:T3	
+T58	CONC 957 970	supervivencia
+#37	AnnotatorNotes T58	C0038954; Survival Rate; Quantitative Concept
+R25	Has_Duration_or_Interval Arg1:T58 Arg2:T45	
+R26	Experiences Arg1:T44 Arg2:T23	
+T59	CONC 1047 1060	supervivencia
+#38	AnnotatorNotes T59	C0038954; Survival Rate; Quantitative Concept
+R27	Has_Duration_or_Interval Arg1:T59 Arg2:T46	
+R28	After Arg1:T59 Arg2:T11	
+T60	CONC 1130 1143	supervivencia
+#39	AnnotatorNotes T60	C0038954; Survival Rate; Quantitative Concept
+R30	Experiences Arg1:T48 Arg2:T24	
+R31	Before Arg1:T24 Arg2:T60	
+R32	Has_Duration_or_Interval Arg1:T60 Arg2:T47	
+R29	Overlap Arg1:T12 Arg2:T13	
+T61	Observation 1358 1374	morbi-mortalidad
+R34	Experiences Arg1:T49 Arg2:T61	
+R35	Experiences Arg1:T49 Arg2:T15	
+R36	Location_of Arg1:T25 Arg2:T15	
+T62	Quantifier_or_Qualifier 1419 1427	avanzado
+#40	AnnotatorNotes T62	C0205179; Advanced phase; Qualitative Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T62	
+R38	Experiences Arg1:T49 Arg2:T12	
+R39	Experiences Arg1:T49 Arg2:T13	
+R41	Experiences Arg1:T49 Arg2:T16	
+R42	Overlap Arg1:T15 Arg2:T16	
+T63	CONC 1556 1572	vía laparotómica
+#41	AnnotatorNotes T63	C0393360; Laparoscopic approach; Spatial Concept
+T64	CONC 1650 1658	abordaje
+#42	AnnotatorNotes T64	C0393360; Laparoscopic approach; Spatial Concept
+#43	AnnotatorNotes T23	C0282282; Palliative Surgery; Therapeutic or Preventive Procedure (?)
+T65	CONC 1485 1495	resultados
+#44	AnnotatorNotes T65	C1274040; Result; Functional Concept
+R12	Overlap Arg1:T65 Arg2:T50	
+T66	Quantifier_or_Qualifier 1496 1507	oncológicos
+R33	Has_Quantifier_or_Qualifier Arg1:T65 Arg2:T66	
+T67	Observation 1673 1683	beneficios
+#45	AnnotatorNotes T67	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R40	Overlap Arg1:T67 Arg2:T51	
+T68	CONC 1709 1718	resultado
+#46	AnnotatorNotes T68	C1274040; Result; Functional Concept
+T69	Quantifier_or_Qualifier 1719 1729	oncológico
+R43	Has_Quantifier_or_Qualifier Arg1:T68 Arg2:T69	
+#47	AnnotatorNotes T51	C0443303; short-term; Temporal Concept
+#48	AnnotatorNotes T50	C0443252; Long-term; Temporal Concept
+#49	AnnotatorNotes T26	C0521116; Current (present time); Temporal Concept
+A3	Experiencer T49 Patient
+A4	Experiencer T27 Patient
+A5	Experiencer T31 Patient
+A6	Experiencer T32 Patient
+A7	Experiencer T36 Patient
+A8	Experiencer T37 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T44 Patient
+A11	Experiencer T48 Patient

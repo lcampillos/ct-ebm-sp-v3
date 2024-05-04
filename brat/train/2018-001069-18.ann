@@ -1,0 +1,181 @@
+T1	PROC 73 86	Inmunoterapia
+#1	AnnotatorNotes T1	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T2	PROC 91 104	Quimioterapia
+#2	AnnotatorNotes T2	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T3	DISO 122 175	adenocarcinoma gástrico o de la unión gastroesofágica
+T4	ANAT 154 175	unión gastroesofágica
+#3	AnnotatorNotes T4	C0014871; Esophagogastric Junction; Body Space or Junction
+T5	PROC 196 240	Ensayo clínico fase 2, aleatorizado, abierto
+T6	CHEM 273 282	Nivolumab
+#4	AnnotatorNotes T6	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	PROC 302 315	quimioterapia
+#5	AnnotatorNotes T7	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T8	CHEM 325 334	Nivolumab
+#6	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	PROC 354 367	quimioterapia
+#7	AnnotatorNotes T9	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T10	PROC 373 401	tratamiento de primera línea
+#8	AnnotatorNotes T10	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T11	DISO 419 472	adenocarcinoma gástrico o de la unión gastroesofágica
+T12	ANAT 451 472	unión gastroesofágica
+#9	AnnotatorNotes T12	C0014871; Esophagogastric Junction; Body Space or Junction
+T13	DISO 494 539	Cáncer gástrico o de la unión gastroesofágica
+T14	ANAT 518 539	unión gastroesofágica
+#10	AnnotatorNotes T14	C0014871; Esophagogastric Junction; Body Space or Junction
+T15	DISO 564 617	Adenocarcinoma gástrico o de la unión gastroesofágica
+T16	ANAT 596 617	unión gastroesofágica
+#11	AnnotatorNotes T16	C0014871; Esophagogastric Junction; Body Space or Junction
+T17	PROC 733 744	Diagnóstico
+#12	AnnotatorNotes T17	C0011900; Diagnosis; Diagnostic Procedure
+T18	DISO 789 791	CG
+T19	ANAT 815 818	UGE
+T20	PROC 871 892	tratamiento sistémico
+T21	CHEM 911 931	inhibidores de HER 2
+T22	PROC 951 967	terapia primaria
+#13	AnnotatorNotes T22	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T23	DISO 973 975	CG
+T24	DISO 855 866	metastásico
+#14	AnnotatorNotes T24	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T25	ANAT 999 1002	UGE
+T26	PROC 1111 1115	HER2
+#15	AnnotatorNotes T26	C5189164; HER2 in tissue by immunoassay; Laboratory Procedure
+T27	ANAT 1170 1194	sistema nervioso central
+#16	AnnotatorNotes T27	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T28	ANAT 1196 1199	SNC
+#17	AnnotatorNotes T28	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T29	ANAT 137 145	gástrico
+#18	AnnotatorNotes T29	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T30	ANAT 434 442	gástrico
+#19	AnnotatorNotes T30	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T31	ANAT 501 509	gástrico
+#20	AnnotatorNotes T31	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T32	ANAT 579 587	gástrico
+#21	AnnotatorNotes T32	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T33	DISO 794 818	adenocarcinoma de la UGE
+T34	DISO 1131 1141	metástasis
+#22	AnnotatorNotes T34	C0027627; Neoplasm Metastasis; Neoplastic Process | C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T35	DISO 1202 1227	Enfermedad cardiovascular
+#23	AnnotatorNotes T35	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T36	ANAT 1213 1227	cardiovascular
+#24	AnnotatorNotes T36	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T37	CHEM 245 255	Relatlimab
+#25	AnnotatorNotes T37	C4724799; Relatlimab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T38	CHEM 257 267	anti-LAG-3
+T39	PROC 1155 1163	tratadas
+#26	AnnotatorNotes T39	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T40	DISO 978 1002	adenocarcinoma de la UGE
+T41	DISO 1039 1050	metastásico
+#27	AnnotatorNotes T41	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T42	Date 13 17	2018
+T43	LIVB 108 117	pacientes
+#28	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 405 414	pacientes
+#29	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T48	Neg_cue 1152 1154	no
+T45	Neg_cue 868 870	No
+T46	PROC 660 676	estado funcional
+#30	AnnotatorNotes T46	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T47	LIVB 1078 1087	Pacientes
+#31	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 1117 1126	Pacientes
+#32	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	PROC 756 785	histológica o citológicamente
+#33	AnnotatorNotes T50	C1305671; Cytology procedure; Laboratory Procedure | C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T20 Negated
+A2	Assertion T21 Negated
+A3	Assertion T39 Negated
+A5	Status T20 History_of
+A4	Status T21 History_of
+A6	Status T34 History_of
+#34	AnnotatorNotes T5	C1709323; Open Label Study; Research Activity + C0282460; Phase 2 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity
+#35	AnnotatorNotes T33	C1332166; Adenocarcinoma of the gastroesophageal junction; Neoplastic Process 
+#36	AnnotatorNotes T40	C1332166; Adenocarcinoma of the gastroesophageal junction; Neoplastic Process 
+#37	AnnotatorNotes T18	C0024623; Malignant neoplasm of stomach; Neoplastic Process 
+#38	AnnotatorNotes T23	C0024623; Malignant neoplasm of stomach; Neoplastic Process 
+#39	AnnotatorNotes T13	C0024623; Malignant neoplasm of stomach; Neoplastic Process | C5400195; Gastroesophageal junction cancer; Neoplastic Process
+#40	AnnotatorNotes T15	C0278701; Gastric Adenocarcinoma; Neoplastic Process | C1332166; Adenocarcinoma of the gastroesophageal junction; Neoplastic Process
+#41	AnnotatorNotes T11	C0278701; Gastric Adenocarcinoma; Neoplastic Process | C1332166; Adenocarcinoma of the gastroesophageal junction; Neoplastic Process
+#42	AnnotatorNotes T3	C0278701; Gastric Adenocarcinoma; Neoplastic Process | C1332166; Adenocarcinoma of the gastroesophageal junction; Neoplastic Process
+#43	AnnotatorNotes T19	C0014871; Esophagogastric Junction; Body Space or Junction 
+#44	AnnotatorNotes T25	C0014871; Esophagogastric Junction; Body Space or Junction 
+R1	Negation Arg1:T48 Arg2:T39	
+R2	Negation Arg1:T45 Arg2:T20	
+R3	Location_of Arg1:T27 Arg2:T34	
+R4	Location_of Arg1:T28 Arg2:T34	
+R5	Experiences Arg1:T49 Arg2:T34	
+R6	Location_of Arg1:T36 Arg2:T35	
+T51	Neg_cue 1228 1230	no
+T52	Quantifier_or_Qualifier 1231 1241	controlada
+A7	Assertion T52 Negated
+R7	Negation Arg1:T51 Arg2:T52	
+R8	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T52	
+T53	Quantifier_or_Qualifier 1244 1257	significativa
+R9	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T53	
+T54	Result_or_Value 1092 1107	estado positivo
+R10	Has_Result_or_Value Arg1:T26 Arg2:T54	
+R11	Experiences Arg1:T47 Arg2:T26	
+R12	Combined_with Arg1:T1 Arg2:T2	
+R13	Experiences Arg1:T43 Arg2:T1	
+R14	Location_of Arg1:T29 Arg2:T3	
+R15	Location_of Arg1:T4 Arg2:T3	
+R16	Experiences Arg1:T43 Arg2:T3	
+#45	AnnotatorNotes T38	C4525145; Anti-LAG-3 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor
+R17	Combined_with Arg1:T37 Arg2:T6	
+R18	Combined_with Arg1:T38 Arg2:T6	
+R19	Combined_with Arg1:T37 Arg2:T7	
+R20	Combined_with Arg1:T8 Arg2:T9	
+R21	Used_for Arg1:T8 Arg2:T10	
+R22	Used_for Arg1:T37 Arg2:T10	
+R23	Experiences Arg1:T44 Arg2:T37	
+R24	Experiences Arg1:T44 Arg2:T8	
+R25	Experiences Arg1:T44 Arg2:T11	
+R26	Location_of Arg1:T30 Arg2:T11	
+R27	Location_of Arg1:T12 Arg2:T11	
+R28	Location_of Arg1:T31 Arg2:T13	
+R29	Location_of Arg1:T14 Arg2:T13	
+R30	Location_of Arg1:T32 Arg2:T15	
+R31	Location_of Arg1:T16 Arg2:T15	
+T55	CONC 681 715	Eastern Cooperative Oncology Group
+#46	AnnotatorNotes T55	C1520224; ECOG performance status; Intellectual Product
+R32	Used_for Arg1:T55 Arg2:T46	
+T56	CONC 717 721	ECOG
+#47	AnnotatorNotes T56	C1520224; ECOG performance status; Intellectual Product
+R33	Used_for Arg1:T56 Arg2:T46	
+T57	Result_or_Value 726 731	0 o 1
+R34	Has_Result_or_Value Arg1:T56 Arg2:T57	
+R35	Has_Result_or_Value Arg1:T55 Arg2:T57	
+R37	Before Arg1:T50 Arg2:T17	
+R38	Location_of Arg1:T19 Arg2:T33	
+T59	Observation 820 831	irresecable
+R39	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T59	
+R40	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T59	
+T60	Quantifier_or_Qualifier 833 852	localmente avanzado
+R41	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T60	
+R42	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T60	
+R43	Before Arg1:T33 Arg2:T24	
+R44	Before Arg1:T18 Arg2:T24	
+R45	Used_for Arg1:T21 Arg2:T20	
+R46	Used_for Arg1:T21 Arg2:T22	
+R47	Location_of Arg1:T25 Arg2:T40	
+T61	Observation 1004 1015	irresecable
+R48	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T61	
+R49	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T61	
+T62	Quantifier_or_Qualifier 1017 1036	localmente avanzado
+R50	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T62	
+R51	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T62	
+R52	Before Arg1:T23 Arg2:T41	
+R53	Before Arg1:T40 Arg2:T41	
+#48	AnnotatorNotes T54	C1446409; Positive; Finding
+R55	Experiences Arg1:T49 Arg2:T39	
+R36	Negation Arg1:T45 Arg2:T21	
+#49	AnnotatorNotes T20	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+#50	AnnotatorNotes T59	C4039777; Tumor surgically unresectable; Finding
+#51	AnnotatorNotes T61	C4039777; Tumor surgically unresectable; Finding
+#52	AnnotatorNotes T53	C1546944; Event Seriousness - Significant; Qualitative Concept
+T58	Route 883 892	sistémico
+R54	Has_Route_or_Mode Arg1:T21 Arg2:T58	
+#53	AnnotatorNotes T58	C0205373; Systemic; Functional Concept
+A8	Experiencer T49 Patient
+A9	Experiencer T47 Patient
+A10	Experiencer T43 Patient
+A11	Experiencer T44 Patient

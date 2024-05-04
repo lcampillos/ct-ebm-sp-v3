@@ -1,0 +1,207 @@
+T1	PROC 104 118	diagnosticados
+#1	AnnotatorNotes T1	C0011900; Diagnosis; Diagnostic Procedure
+T2	DISO 123 151	Linfoma no Hodgkin indolente
+#2	AnnotatorNotes T2	C1334170; Indolent Non-Hodgkin Lymphoma; Neoplastic Process
+T3	PROC 175 192	Estudio de Fase 2
+T4	DISO 219 247	Linfoma no Hodgkin indolente
+#3	AnnotatorNotes T4	C1334170; Indolent Non-Hodgkin Lymphoma; Neoplastic Process
+T5	DISO 284 312	Linfoma no Hodgkin indolente
+#4	AnnotatorNotes T5	C1334170; Indolent Non-Hodgkin Lymphoma; Neoplastic Process
+T6	DISO 347 375	Linfoma no Hodgkin indolente
+#5	AnnotatorNotes T6	C1334170; Indolent Non-Hodgkin Lymphoma; Neoplastic Process
+T7	PROC 428 439	diagnóstico
+#6	AnnotatorNotes T7	C0011900; Diagnosis; Diagnostic Procedure
+T8	DISO 443 456	LNH indolente
+#7	AnnotatorNotes T8	C1334170; Indolent Non-Hodgkin Lymphoma; Neoplastic Process
+T10	DISO 663 685	enfermedad refractaria
+#9	AnnotatorNotes T10	C1514815; Refractory Disease; Finding
+T11	CHEM 688 697	rituximab
+#10	AnnotatorNotes T11	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T12	DISO 701 722	Enfermedad mensurable
+T13	ANAT 730 747	ganglio linfático
+#11	AnnotatorNotes T13	C0024204; lymph nodes; Body Part, Organ, or Organ Component | C1269047; Entire lymph node; Body Part, Organ, or Organ Component
+T14	DISO 750 762	masa tumoral
+#12	AnnotatorNotes T14	C3273930; Tumor Mass; Finding
+T15	DISO 1437 1492	Infecciones bacterianas, micóticas o víricas sistémicas
+#13	AnnotatorNotes T15	C4285789; Systemic viral infection; Disease or Syndrome + C0553576; Systemic mycosis; Disease or Syndrome + C4285778; Systemic bacterial infection; Disease or Syndrome
+T16	ANAT 831 839	hepática
+#14	AnnotatorNotes T16	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T17	PROC 896 908	tratamientos
+#15	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	PROC 966 977	Tratamiento
+#16	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	CHEM 989 1008	inhibidores de PI3K
+#17	AnnotatorNotes T19	C1519050; Phosphatidylinositide 3-Kinase Inhibitor; Organic Chemical · Pharmacologic Substance
+T20	CHEM 1011 1032	inhibidores de la BTK
+#18	AnnotatorNotes T20	C4086017; BTK Inhibitor; Pharmacologic Substance
+T21	PROC 1051 1097	alotrasplante de células madre hematopoyéticas
+#19	AnnotatorNotes T21	C1705576; Allogeneic Hematopoietic Stem Cell Transplantation; Therapeutic or Preventive Procedure
+T22	ANAT 1068 1097	células madre hematopoyéticas
+#20	AnnotatorNotes T22	C0018956; Hematopoietic stem cells; Cell
+T23	PROC 1108 1119	Tratamiento
+#21	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	PROC 1131 1144	quimioterapia
+#22	AnnotatorNotes T24	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T25	PROC 1146 1164	terapia oncológica
+T26	CHEM 1169 1185	inmunodepresores
+#23	AnnotatorNotes T26	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T27	CHEM 1194 1219	fármacos en investigación
+#24	AnnotatorNotes T27	C0013230; Investigational New Drugs; Pharmacologic Substance
+T28	CHEM 1268 1275	fármaco
+#25	AnnotatorNotes T28	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T29	DISO 1291 1293	LF
+#26	AnnotatorNotes T29	C0024301; Lymphoma, Follicular; Neoplastic Process
+T30	DISO 1360 1367	linfoma
+#27	AnnotatorNotes T30	C0024299; Lymphoma; Neoplastic Process
+T31	DISO 1384 1434	LNH del sistema nervioso central (SNC) sintomático
+T32	ANAT 1392 1416	sistema nervioso central
+#28	AnnotatorNotes T32	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T33	ANAT 1418 1421	SNC
+#29	AnnotatorNotes T33	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T34	PROC 1530 1541	tratamiento
+#30	AnnotatorNotes T34	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T36	PROC 600 637	régimen de inducción de quimioterapia
+#32	AnnotatorNotes T36	C0857127; Induction procedure; Therapeutic or Preventive Procedure + C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T37	PROC 809 811	TC
+#33	AnnotatorNotes T37	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T38	ANAT 823 828	renal
+#34	AnnotatorNotes T38	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T39	PROC 1099 1103	TCPH
+T40	CHEM 85 92	IPI-145
+#35	AnnotatorNotes T40	C3274621; IPI-145; Organic Chemical · Pharmacologic Substance
+T41	CHEM 196 203	IPI-145
+#36	AnnotatorNotes T41	C3274621; IPI-145; Organic Chemical · Pharmacologic Substance
+T42	PROC 640 643	RIT
+#37	AnnotatorNotes T42	C0857127; Induction procedure; Therapeutic or Preventive Procedure + C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T43	Date 13 17	2013
+T44	LIVB 96 103	sujetos
+#38	AnnotatorNotes T44	C0681850; Study Subject; Group
+T46	LIVB 207 214	sujetos
+#39	AnnotatorNotes T46	C0681850; Study Subject; Group
+T50	LIVB 416 423	Sujetos
+#40	AnnotatorNotes T50	C0681850; Study Subject; Group
+T51	LIVB 480 487	sujetos
+#41	AnnotatorNotes T51	C0681850; Study Subject; Group
+T54	Duration 555 566	los 6 meses
+T55	CONC 581 593	última dosis
+T56	LIVB 651 658	sujetos
+#42	AnnotatorNotes T56	C0681850; Study Subject; Group
+T58	LIVB 949 961	investigador
+#43	AnnotatorNotes T58	C0035173; Research Personnel; Professional or Occupational Group
+T59	Duration 1223 1236	las 4 semanas
+T60	CONC 1250 1263	primera dosis
+T61	LIVB 1462 1471	micóticas
+#44	AnnotatorNotes T61	C0016832; Fungi; Fungus
+T62	LIVB 1474 1481	víricas
+#45	AnnotatorNotes T62	C0042776; Virus; Virus
+T65	PHYS 1082 1097	hematopoyéticas
+#46	AnnotatorNotes T65	C0018951; Hematopoiesis; Organ or Tissue Function
+T66	LIVB 1449 1460	bacterianas
+#47	AnnotatorNotes T66	C0004611; Bacteria; Bacterium
+T45	PHYS 815 839	Función renal y hepática
+#48	AnnotatorNotes T45	C0232804; Renal function; Organ or Tissue Function + C0232741; Liver function; Organ or Tissue Function
+T47	Date 1493 1501	en curso
+A2	Status T36 History_of
+A4	Status T42 History_of
+A5	Status T18 History_of
+A6	Status T19 History_of
+A7	Status T20 History_of
+A8	Status T21 History_of
+A9	Status T39 History_of
+A10	Status T23 History_of
+A11	Status T24 History_of
+A12	Status T25 History_of
+A13	Status T26 History_of
+A14	Status T27 History_of
+T48	Neg_cue 514 521	ninguna
+T49	Observation 522 531	respuesta
+A15	Assertion T49 Negated
+#49	AnnotatorNotes T49	C4055223; Clinical Response; Finding (?)
+T52	Observation 534 544	progresión
+A16	Assertion T52 Negated
+#50	AnnotatorNotes T52	C1457868; Worse; Finding
+T53	Spec_cue 909 923	potencialmente
+T57	Quantifier_or_Qualifier 924 933	curativos
+A17	Assertion T57 Speculated
+R1	Experiences Arg1:T44 Arg2:T40	
+R2	Experiences Arg1:T44 Arg2:T2	
+R3	Experiences Arg1:T46 Arg2:T41	
+R4	Experiences Arg1:T46 Arg2:T4	
+T63	Quantifier_or_Qualifier 248 259	refractario
+#51	AnnotatorNotes T63	C0205269; Unresponsive to Treatment; Functional Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T63	
+T64	Quantifier_or_Qualifier 376 387	refractario
+#52	AnnotatorNotes T64	C0205269; Unresponsive to Treatment; Functional Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T64	
+R7	Experiences Arg1:T50 Arg2:T8	
+T67	Observation 461 471	progresión
+#53	AnnotatorNotes T67	C1457868; Worse; Finding
+R8	Before Arg1:T8 Arg2:T67	
+R9	Experiences Arg1:T50 Arg2:T67	
+R10	Negation Arg1:T48 Arg2:T49	
+R11	Negation Arg1:T48 Arg2:T52	
+R12	Experiences Arg1:T51 Arg2:T49	
+R13	Experiences Arg1:T51 Arg2:T52	
+R14	Overlap Arg1:T49 Arg2:T54	
+R15	Overlap Arg1:T52 Arg2:T54	
+R16	After Arg1:T52 Arg2:T55	
+R17	After Arg1:T49 Arg2:T55	
+R20	Has_Dose_or_Strength Arg1:T42 Arg2:T55	
+R24	Experiences Arg1:T51 Arg2:T36	
+R25	Experiences Arg1:T51 Arg2:T42	
+R26	Experiences Arg1:T56 Arg2:T10	
+R27	Experiences Arg1:T56 Arg2:T11	
+R29	Location_of Arg1:T13 Arg2:T12	
+#54	AnnotatorNotes T12	C1513041; Measurable Disease; Disease or Syndrome
+T68	Result_or_Value 763 773	>o= 1,5 cm
+R30	Has_Result_or_Value Arg1:T14 Arg2:T68	
+R33	Location_of Arg1:T38 Arg2:T45	
+R34	Location_of Arg1:T16 Arg2:T45	
+T69	Quantifier_or_Qualifier 840 848	adecuada
+#55	AnnotatorNotes T69	C0205411; Adequate; Qualitative Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T69	
+R36	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T57	
+R37	Speculation Arg1:T53 Arg2:T57	
+R38	Used_for Arg1:T19 Arg2:T18	
+R39	Used_for Arg1:T20 Arg2:T18	
+R44	Used_for Arg1:T26 Arg2:T25	
+R45	Used_for Arg1:T27 Arg2:T25	
+R46	Overlap Arg1:T27 Arg2:T59	
+R47	Overlap Arg1:T26 Arg2:T59	
+R48	Has_Dose_or_Strength Arg1:T28 Arg2:T60	
+R49	Before Arg1:T25 Arg2:T60	
+R50	Before Arg1:T24 Arg2:T60	
+R51	Before Arg1:T23 Arg2:T60	
+T70	Quantifier_or_Qualifier 1297 1305	grado 3B
+R52	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T70	
+T71	Observation 1308 1343	evidencia clínica de transformación
+R53	Overlap Arg1:T29 Arg2:T71	
+T72	Quantifier_or_Qualifier 1368 1380	más agresivo
+R54	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T72	
+R55	Before Arg1:T71 Arg2:T30	
+R56	Location_of Arg1:T32 Arg2:T31	
+R57	Location_of Arg1:T33 Arg2:T31	
+R58	Causes Arg1:T66 Arg2:T15	
+R59	Causes Arg1:T61 Arg2:T15	
+R60	Causes Arg1:T62 Arg2:T15	
+R61	Overlap Arg1:T15 Arg2:T47	
+T73	CONC 1519 1541	iniciar el tratamiento
+R62	Overlap Arg1:T15 Arg2:T73	
+R18	Has_Dose_or_Strength Arg1:T36 Arg2:T55	
+#8	AnnotatorNotes R20	(?)
+#31	AnnotatorNotes R18	(?)
+#56	AnnotatorNotes T55	C1762893; Date last dose; Temporal Concept
+#57	AnnotatorNotes R48	(?)
+#58	AnnotatorNotes T60	C5236155; Date of First Dose; Temporal Concept
+#59	AnnotatorNotes T47	C0521116; Current (present time); Temporal Concept
+#60	AnnotatorNotes T3	C0282460; Phase 2 Clinical Trials; Research Activity
+#61	AnnotatorNotes T57	C1880198; Cure (remedy); Conceptual Entity
+#62	AnnotatorNotes T39	C0472699; Hemopoietic stem cell transplant; Therapeutic or Preventive Procedure
+#63	AnnotatorNotes T25	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+A1	Experiencer T46 Patient
+A3	Experiencer T44 Patient
+A18	Experiencer T50 Patient
+A19	Experiencer T51 Patient
+A20	Experiencer T56 Patient
+A21	Experiencer T58 Other
+A22	Status T17 Future

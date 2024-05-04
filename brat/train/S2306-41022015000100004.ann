@@ -1,0 +1,230 @@
+T1	PROC 1 20	Estudio comparativo
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	DISO 109 135	conducto cervical estrecho
+#2	AnnotatorNotes T2	C0269199; Stenosis of cervix; Anatomical Abnormality
+T3	DISO 490 516	conducto cervical estrecho
+#3	AnnotatorNotes T3	C0269199; Stenosis of cervix; Anatomical Abnormality
+T4	PROC 71 104	artrodesis de la columna cervical
+#4	AnnotatorNotes T4	C0519273; Arthrodesis Procedures on the Spine (Vertebral Column); Therapeutic or Preventive Procedure
+T5	ANAT 88 104	columna cervical
+#5	AnnotatorNotes T5	C0728985; Cervical spine; Body Part, Organ, or Organ Component | C1284110; Entire cervical spinal column; Body Part, Organ, or Organ Component
+T6	ANAT 109 126	conducto cervical
+#6	AnnotatorNotes T6	C0227841; Cervical canal structure; Body Space or Junction
+T7	CHEM 63 67	PEEK
+#7	AnnotatorNotes T7	C0084113; polyetheretherketone; Organic Chemical · Pharmacologic Substance
+T8	PROC 209 219	artrodesar
+#8	AnnotatorNotes T8	C0003881; Arthrodesis; Therapeutic or Preventive Procedure
+T9	ANAT 223 239	columna cervical
+#9	AnnotatorNotes T9	C0728985; Cervical spine; Body Part, Organ, or Organ Component | C1284110; Entire cervical spinal column; Body Part, Organ, or Organ Component
+T10	PROC 1623 1646	uso de la placa injerto
+T11	DISO 282 295	seudoartrosis
+#10	AnnotatorNotes T11	C0033785; Pseudarthrosis; Pathologic Function
+T12	DISO 297 306	extrusión
+#11	AnnotatorNotes T12	C0443213; Extrusion; Finding
+T13	CHEM 467 471	PEEK
+#12	AnnotatorNotes T13	C0084113; polyetheretherketone; Organic Chemical · Pharmacologic Substance
+T14	CHEM 690 694	PEEK
+#13	AnnotatorNotes T14	C0084113; polyetheretherketone; Organic Chemical · Pharmacologic Substance
+T15	ANAT 490 507	conducto cervical
+#14	AnnotatorNotes T15	C0227841; Cervical canal structure; Body Space or Junction
+T16	PROC 539 589	Estudio prospectivo, de intervención y comparativo
+#15	AnnotatorNotes T16	C3274035; Interventional Study; Research Activity + C0033522; Prospective Studies; Research Activity + C1579762; comparative study research; Research Activity
+T17	CHEM 1738 1742	PEEK
+#16	AnnotatorNotes T17	C0084113; polyetheretherketone; Organic Chemical · Pharmacologic Substance
+T18	PROC 622 632	artrodesis
+#17	AnnotatorNotes T18	C0003881; Arthrodesis; Therapeutic or Preventive Procedure
+T19	PROC 201 206	fijar
+#18	AnnotatorNotes T19	C0185023; Fixation; Therapeutic or Preventive Procedure
+T20	PROC 699 719	evaluación funcional
+#19	AnnotatorNotes T20	C0278372; Functional assessment; Diagnostic Procedure
+T21	DISO 756 777	discapacidad cervical
+T22	PROC 780 816	escala visual análoga (EVA) de dolor
+#20	AnnotatorNotes T22	C0042815; Visual Analog Pain Scale; Diagnostic Procedure
+T23	PROC 819 848	radiografías columna cervical
+#21	AnnotatorNotes T23	C0203145; Radiography of cervical spine; Diagnostic Procedure
+T24	ANAT 832 848	columna cervical
+#22	AnnotatorNotes T24	C0728985; Cervical spine; Body Part, Organ, or Organ Component | C1284110; Entire cervical spinal column; Body Part, Organ, or Organ Component
+T25	DISO 1294 1315	discapacidad cervical
+T26	PROC 1340 1343	EVA
+#23	AnnotatorNotes T26	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T27	PROC 1438 1462	mediciones radiográficas
+#24	AnnotatorNotes T27	C1306645; Plain x-ray; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T28	PROC 1473 1484	seguimiento
+#25	AnnotatorNotes T28	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T29	DISO 1527 1547	lordosis segmentaria
+T30	PROC 1577 1603	operados con placa-injerto
+T31	PROC 1684 1697	radiográficos
+#26	AnnotatorNotes T31	C1306645; Plain x-ray; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T32	PROC 1753 1764	seguimiento
+#27	AnnotatorNotes T32	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T33	ANAT 33 40	injerto
+#28	AnnotatorNotes T33	C0332835; Transplanted tissue; Tissue
+T34	DISO 309 328	colapso del injerto
+T35	ANAT 321 328	injerto
+#29	AnnotatorNotes T35	C0332835; Transplanted tissue; Tissue
+T36	ANAT 376 383	sagital
+#30	AnnotatorNotes T36	C0224526; Structure of sagittal suture of skull; Body Space or Junction
+T37	ANAT 440 447	injerto
+#31	AnnotatorNotes T37	C0332835; Transplanted tissue; Tissue
+T38	ANAT 643 650	injerto
+#32	AnnotatorNotes T38	C0332835; Transplanted tissue; Tissue
+T39	DISO 811 816	dolor
+#33	AnnotatorNotes T39	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T40	DISO 1330 1335	dolor
+#34	AnnotatorNotes T40	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T41	ANAT 1596 1603	injerto
+#35	AnnotatorNotes T41	C0332835; Transplanted tissue; Tissue
+T42	ANAT 1639 1646	injerto
+#36	AnnotatorNotes T42	C0332835; Transplanted tissue; Tissue
+T44	Spec_cue 272 281	riesgo de
+T46	DEVI 449 453	caja
+#37	AnnotatorNotes T46	C5208738; Spinal fusion cage; Medical Device (?)
+T47	LIVB 476 485	pacientes
+#38	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	DEVI 637 642	placa
+#39	AnnotatorNotes T48	C0491893; PLATE, FIXATION, BONE; Medical Device
+T49	Date 720 741	pre- y postoperatoria
+#40	AnnotatorNotes T49	C2712277; Preoperative Period; Temporal Concept + C0032790; Postoperative Period; Temporal Concept
+T51	LIVB 1061 1070	pacientes
+#41	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 1205 1214	pacientes
+#42	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Age 1215 1256	entre la sexta y octava década de la vida
+T54	Duration 1261 1264	año
+T55	Duration 1466 1469	año
+T56	LIVB 1567 1576	pacientes
+#43	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T59	Duration 1746 1749	año
+T60	DEVI 27 32	placa
+#44	AnnotatorNotes T60	C0491893; PLATE, FIXATION, BONE; Medical Device
+T61	DEVI 47 52	placa
+#45	AnnotatorNotes T61	C0491893; PLATE, FIXATION, BONE; Medical Device
+T63	DEVI 434 439	placa
+#46	AnnotatorNotes T63	C0491893; PLATE, FIXATION, BONE; Medical Device
+T64	DEVI 454 459	placa
+#47	AnnotatorNotes T64	C0491893; PLATE, FIXATION, BONE; Medical Device
+T66	DEVI 667 672	placa
+#48	AnnotatorNotes T66	C0491893; PLATE, FIXATION, BONE; Medical Device
+T68	DEVI 1590 1595	placa
+#49	AnnotatorNotes T68	C0491893; PLATE, FIXATION, BONE; Medical Device
+T69	DEVI 1633 1638	placa
+#50	AnnotatorNotes T69	C0491893; PLATE, FIXATION, BONE; Medical Device
+T70	DEVI 1725 1730	placa
+#51	AnnotatorNotes T70	C0491893; PLATE, FIXATION, BONE; Medical Device
+T50	DEVI 55 59	caja
+#52	AnnotatorNotes T50	C5208738; Spinal fusion cage; Medical Device (?)
+T45	DEVI 462 466	caja
+#53	AnnotatorNotes T45	C5208738; Spinal fusion cage; Medical Device (?)
+T62	DEVI 662 666	caja
+#54	AnnotatorNotes T62	C5208738; Spinal fusion cage; Medical Device (?)
+T65	DEVI 685 689	caja
+#55	AnnotatorNotes T65	C5208738; Spinal fusion cage; Medical Device (?)
+T67	ANAT 769 777	cervical
+#56	AnnotatorNotes T67	C0728985; Cervical spine; Body Part, Organ, or Organ Component | C1284110; Entire cervical spinal column; Body Part, Organ, or Organ Component
+T71	ANAT 1307 1315	cervical
+#57	AnnotatorNotes T71	C0728985; Cervical spine; Body Part, Organ, or Organ Component | C1284110; Entire cervical spinal column; Body Part, Organ, or Organ Component
+T57	DEVI 1720 1724	caja
+#58	AnnotatorNotes T57	C5208738; Spinal fusion cage; Medical Device (?)
+T58	DEVI 1733 1737	caja
+#59	AnnotatorNotes T58	C5208738; Spinal fusion cage; Medical Device (?)
+T43	DEVI 42 46	caja
+#60	AnnotatorNotes T43	C5208738; Spinal fusion cage; Medical Device (?)
+A1	Assertion T11 Speculated
+A2	Assertion T12 Speculated
+A3	Assertion T34 Speculated
+T72	CONC 883 906	pruebas no paramétricas
+#61	AnnotatorNotes T72	C1709255; Non-Parametric Test; Intellectual Product
+R1	Used_for Arg1:T7 Arg2:T50	
+R2	Used_for Arg1:T50 Arg2:T4	
+R3	Combined_with Arg1:T43 Arg2:T61	
+R4	Used_for Arg1:T43 Arg2:T4	
+R5	Location_of Arg1:T5 Arg2:T4	
+R6	Location_of Arg1:T6 Arg2:T2	
+R8	Combined_with Arg1:T60 Arg2:T33	
+R9	Used_for Arg1:T60 Arg2:T4	
+R10	Location_of Arg1:T9 Arg2:T8	
+R11	Location_of Arg1:T9 Arg2:T19	
+R12	Location_of Arg1:T9 Arg2:T11	
+R13	Speculation Arg1:T44 Arg2:T11	
+R14	Before Arg1:T19 Arg2:T11	
+R15	Before Arg1:T8 Arg2:T11	
+R16	Location_of Arg1:T35 Arg2:T34	
+R17	Combined_with Arg1:T46 Arg2:T64	
+R18	Experiences Arg1:T47 Arg2:T3	
+R19	Location_of Arg1:T15 Arg2:T3	
+R20	Before Arg1:T19 Arg2:T12	
+R21	Before Arg1:T19 Arg2:T34	
+R22	Before Arg1:T8 Arg2:T12	
+R23	Before Arg1:T8 Arg2:T34	
+R24	Used_for Arg1:T63 Arg2:T8	
+R25	Used_for Arg1:T46 Arg2:T8	
+R26	Used_for Arg1:T45 Arg2:T8	
+R27	Combined_with Arg1:T45 Arg2:T13	
+R28	Combined_with Arg1:T63 Arg2:T37	
+R29	Experiences Arg1:T47 Arg2:T34	
+R30	Experiences Arg1:T47 Arg2:T12	
+R31	Experiences Arg1:T47 Arg2:T11	
+R32	Experiences Arg1:T47 Arg2:T19	
+R33	Experiences Arg1:T47 Arg2:T8	
+R34	Used_for Arg1:T48 Arg2:T18	
+R35	Combined_with Arg1:T48 Arg2:T38	
+R36	Used_for Arg1:T62 Arg2:T18	
+R37	Combined_with Arg1:T62 Arg2:T66	
+R38	Combined_with Arg1:T65 Arg2:T14	
+R39	Used_for Arg1:T65 Arg2:T18	
+R40	Overlap Arg1:T20 Arg2:T49	
+R41	Location_of Arg1:T67 Arg2:T21	
+R43	Location_of Arg1:T24 Arg2:T23	
+R44	Overlap Arg1:T22 Arg2:T49	
+R45	Overlap Arg1:T23 Arg2:T49	
+T73	CONC 746 777	escala de discapacidad cervical
+T74	CONC 883 890;907 938	pruebas de rangos con signo de Wilcoxon
+#62	AnnotatorNotes T74	C0871608; Wilcoxon Signed Rank Test; Intellectual Product
+T75	CONC 941 955	Kruskal Wallis
+#63	AnnotatorNotes T75	C1708614; Kruskal-Wallis Test; Intellectual Product
+R46	Has_Age Arg1:T52 Arg2:T53	
+R47	Location_of Arg1:T71 Arg2:T25	
+T76	Observation 1268 1280	postoperados
+R48	Before Arg1:T76 Arg2:T54	
+R49	After Arg1:T25 Arg2:T54	
+T77	Observation 1318 1335	mejoría del dolor
+#64	AnnotatorNotes T77	C5230944; Sensation of pain reduced; Finding (?)
+R50	Before Arg1:T40 Arg2:T77	
+T78	Observation 1354 1361	mejoría
+#65	AnnotatorNotes T78	C0184511; Improved; Finding (?)
+R53	After Arg1:T78 Arg2:T54	
+R54	After Arg1:T77 Arg2:T54	
+R55	After Arg1:T26 Arg2:T54	
+R56	After Arg1:T27 Arg2:T55	
+R57	Has_Duration_or_Interval Arg1:T28 Arg2:T55	
+T79	Observation 1499 1506	mejoría
+#66	AnnotatorNotes T79	C0184511; Improved; Finding (?)
+R58	Before Arg1:T29 Arg2:T79	
+R59	Experiences Arg1:T56 Arg2:T29	
+R60	Experiences Arg1:T56 Arg2:T79	
+R61	Experiences Arg1:T56 Arg2:T30	
+R62	Used_for Arg1:T68 Arg2:T30	
+R63	Combined_with Arg1:T68 Arg2:T41	
+R64	Combined_with Arg1:T69 Arg2:T42	
+R65	Used_for Arg1:T69 Arg2:T10	
+R66	Experiences Arg1:T56 Arg2:T27	
+R67	Combined_with Arg1:T57 Arg2:T70	
+R68	Combined_with Arg1:T58 Arg2:T17	
+R69	Has_Duration_or_Interval Arg1:T32 Arg2:T59	
+R70	Before Arg1:T10 Arg2:T32	
+R71	Before Arg1:T57 Arg2:T32	
+R72	Before Arg1:T58 Arg2:T32	
+R73	Overlap Arg1:T31 Arg2:T59	
+R74	Before Arg1:T40 Arg2:T78	
+R75	Before Arg1:T25 Arg2:T78	
+R76	Experiences Arg1:T47 Arg2:T63	
+R77	Experiences Arg1:T47 Arg2:T46	
+R78	Experiences Arg1:T47 Arg2:T45	
+T80	Observation 1662 1697	resultados clínicos y radiográficos
+R7	Overlap Arg1:T80 Arg2:T59	
+#67	AnnotatorNotes T76	C0241311; post operative (finding); Finding
+A4	Experiencer T51 Patient
+A5	Experiencer T52 Patient
+A6	Experiencer T47 Patient
+A7	Experiencer T56 Patient
+R42	Has_Result_or_Value Arg1:T26 Arg2:T77	

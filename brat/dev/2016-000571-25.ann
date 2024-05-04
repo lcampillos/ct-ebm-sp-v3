@@ -1,0 +1,208 @@
+T1	PROC 46 88	Estudio unicéntrico, aleatorizado, abierto
+T2	PROC 112 141	tratamiento anti-hipertensivo
+T3	DISO 1348 1360	intolerancia
+#1	AnnotatorNotes T3	C0277585; Intolerance to drug; Pathologic Function
+T4	DISO 154 166	hipertensión
+#2	AnnotatorNotes T4	C0020538; Hypertensive disease; Disease or Syndrome
+T5	DISO 178 186	obesidad
+#3	AnnotatorNotes T5	C0028754; Obesity; Disease or Syndrome
+T6	DISO 210 222	Hipertensión
+#4	AnnotatorNotes T6	C0020538; Hypertensive disease; Disease or Syndrome
+T7	DISO 237 245	obesidad
+#5	AnnotatorNotes T7	C0028754; Obesity; Disease or Syndrome
+T8	DISO 328 336	Obesidad
+#6	AnnotatorNotes T8	C0028754; Obesity; Disease or Syndrome
+T9	DISO 354 357	HTA
+#7	AnnotatorNotes T9	C0020538; Hypertensive disease; Disease or Syndrome
+T10	DISO 393 420	afectación severa de órgano
+T11	PROC 431 442	Tratamiento
+#8	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	CHEM 451 472	fármacos hipotensores
+T13	CHEM 499 509	creatinina
+#9	AnnotatorNotes T13	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T14	ANAT 510 516	sérica
+#10	AnnotatorNotes T14	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T15	PROC 562 590	filtrado glomerular estimado
+#11	AnnotatorNotes T15	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T16	PROC 647 665	cirugía bariátrica
+#12	AnnotatorNotes T16	C1456587; Bariatric Surgery; Therapeutic or Preventive Procedure
+T17	PROC 713 739	consentimiento por escrito
+#13	AnnotatorNotes T17	C0811746; Obtain written consent; Health Care Activity
+T18	PROC 798 811	exploraciones
+#14	AnnotatorNotes T18	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T19	PROC 952 972	método contraceptivo
+T20	DISO 1076 1090	HTA secundaria
+#15	AnnotatorNotes T20	C0155616; Secondary hypertension; Disease or Syndrome
+T21	DISO 1108 1111	HTA
+#16	AnnotatorNotes T21	C0020538; Hypertensive disease; Disease or Syndrome
+T22	DISO 1114 1130	lesión de órgano
+T23	DISO 1145 1148	IRC
+#17	AnnotatorNotes T23	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T24	DISO 1151 1172	cardiopatía isquémica
+#18	AnnotatorNotes T24	C0151744; Myocardial Ischemia; Disease or Syndrome
+T25	PROC 1187 1211	retirada del tratamiento
+#19	AnnotatorNotes T25	C0850893; stop medication; Therapeutic or Preventive Procedure
+T26	PROC 1250 1258	operados
+#20	AnnotatorNotes T26	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T27	PROC 1262 1280	cirugía bariátrica
+#21	AnnotatorNotes T27	C1456587; Bariatric Surgery; Therapeutic or Preventive Procedure
+T28	CHEM 1364 1374	olmesartán
+#22	AnnotatorNotes T28	C1098320; olmesartan; Organic Chemical · Pharmacologic Substance
+T29	CHEM 1376 1386	amlodipino
+#23	AnnotatorNotes T29	C0051696; amlodipine; Organic Chemical · Pharmacologic Substance
+T30	CHEM 124 141	anti-hipertensivo
+T31	CHEM 1389 1393	HCTZ
+#24	AnnotatorNotes T31	C0020261; Hydrochlorothiazide; Organic Chemical · Pharmacologic Substance
+T32	ANAT 414 420	órgano
+#25	AnnotatorNotes T32	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T33	PROC 592 596	MDRD
+#26	AnnotatorNotes T33	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure
+T34	ANAT 485 490	renal
+#27	AnnotatorNotes T34	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T35	PROC 499 516	creatinina sérica
+#28	AnnotatorNotes T35	C0201976; Creatinine measurement, serum (procedure); Laboratory Procedure
+T36	PROC 788 795	pruebas
+#29	AnnotatorNotes T36	C1510438; Assay; Laboratory Procedure
+T37	ANAT 1124 1130	órgano
+#30	AnnotatorNotes T37	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T38	CHEM 1212 1222	hipotensor
+#31	AnnotatorNotes T38	C0003364; Antihypertensive Agents; Pharmacologic Substance
+T39	Date 13 17	2016
+T40	Age 280 323	superior a 18 años e inferior a los 65 años
+T42	Neg_cue 381 392	ausencia de
+T44	LIVB 529 536	mujeres
+#32	AnnotatorNotes T44	C0043210; Woman; Population Group
+T45	LIVB 549 556	varones
+#33	AnnotatorNotes T45	C0025266; Male population group; Population Group
+T48	LIVB 860 905	Mujeres embarazadas o en periodo de lactancia
+#34	AnnotatorNotes T48	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T49	LIVB 910 932	Mujeres en edad fértil
+#35	AnnotatorNotes T49	C4324275; Woman of childbearing potential; Population Group
+T50	Age 921 932	edad fértil
+T51	PHYS 896 905	lactancia
+#36	AnnotatorNotes T51	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T52	Neg_cue 937 939	no
+T53	LIVB 1094 1103	Pacientes
+#37	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Neg_cue 1177 1183	impida
+T56	LIVB 1228 1237	Pacientes
+#38	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1284 1293	Pacientes
+#39	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T41	PHYS 477 490	Función renal
+#40	AnnotatorNotes T41	C0232804; Renal function; Organ or Tissue Function
+T43	PHYS 868 879	embarazadas
+#41	AnnotatorNotes T43	C0032961; Pregnancy; Organism Function
+T46	PHYS 562 581	filtrado glomerular
+#42	AnnotatorNotes T46	C0232809; Glomerular filtration; Organ or Tissue Function; Laboratory Procedure
+T47	ANAT 571 581	glomerular
+#43	AnnotatorNotes T47	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Assertion T10 Negated
+A2	Assertion T19 Negated
+A3	Population_data T49 Age
+A4	Assertion T25 Negated
+A5	Status T26 History_of
+A6	Status T27 History_of
+A7	Status T3 History_of
+A8	Assertion T28 Contraindicated
+A9	Assertion T29 Contraindicated
+A10	Assertion T31 Contraindicated
+#44	AnnotatorNotes T30	C0003364; Antihypertensive Agents; Pharmacologic Substance
+#45	AnnotatorNotes T2	C0585941; Antihypertensive therapy; Therapeutic or Preventive Procedure 
+#46	AnnotatorNotes T12	C0003364; Antihypertensive Agents; Pharmacologic Substance
+#47	AnnotatorNotes T19	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T55	Quantifier_or_Qualifier 973 992	de alta efectividad
+A11	Assertion T55 Negated
+R1	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T55	
+R2	Negation Arg1:T52 Arg2:T19	
+R3	Negation Arg1:T52 Arg2:T55	
+A12	Assertion T38 Negated
+R4	Used_for Arg1:T38 Arg2:T25	
+R5	Negation Arg1:T54 Arg2:T25	
+R6	Negation Arg1:T54 Arg2:T38	
+R7	Used_for Arg1:T30 Arg2:T2	
+R8	Overlap Arg1:T4 Arg2:T5	
+R9	Overlap Arg1:T6 Arg2:T7	
+T58	Quantifier_or_Qualifier 337 349	grado II-III
+R10	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T58	
+T59	Quantifier_or_Qualifier 361 375	grado moderado
+#48	AnnotatorNotes T59	C0205081; Moderate (severity modifier); Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T59	
+R12	Negation Arg1:T42 Arg2:T10	
+R13	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T10	
+T60	Quantifier_or_Qualifier 421 426	diana
+#49	AnnotatorNotes T60	C1521840; Target; Functional Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T60	
+T61	Quantifier_or_Qualifier 447 450	< 3
+R15	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T61	
+R16	Used_for Arg1:T12 Arg2:T11	
+R17	Location_of Arg1:T34 Arg2:T41	
+R18	Location_of Arg1:T14 Arg2:T35	
+T62	Result_or_Value 517 525	< 1,2 mg
+R19	Has_Result_or_Value Arg1:T35 Arg2:T62	
+R20	Experiences Arg1:T44 Arg2:T35	
+R21	Experiences Arg1:T45 Arg2:T35	
+T63	Result_or_Value 517 518;539 545	< 1,4 mg
+R22	Has_Result_or_Value Arg1:T35 Arg2:T63	
+R23	Experiences Arg1:T44 Arg2:T41	
+R24	Experiences Arg1:T44 Arg2:T46	
+R25	Experiences Arg1:T44 Arg2:T15	
+R26	Experiences Arg1:T44 Arg2:T33	
+T64	Result_or_Value 598 612	> 60 ml/minuto
+R27	Has_Result_or_Value Arg1:T33 Arg2:T64	
+R28	Has_Result_or_Value Arg1:T15 Arg2:T64	
+R29	Location_of Arg1:T47 Arg2:T15	
+R30	Location_of Arg1:T47 Arg2:T46	
+R31	Experiences Arg1:T45 Arg2:T46	
+R32	Experiences Arg1:T45 Arg2:T15	
+R33	Experiences Arg1:T45 Arg2:T33	
+T65	Observation 477 497	Función renal normal
+#50	AnnotatorNotes T65	C0232805; Normal renal function; Finding
+R34	Location_of Arg1:T34 Arg2:T65	
+T66	Quantifier_or_Qualifier 630 643	primer tiempo
+R40	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T66	
+T67	Observation 675 699	adecuadamente informados
+#51	AnnotatorNotes T67	C0587903; Patient information status; Finding (?)
+R41	Before Arg1:T67 Arg2:T17	
+R42	Before Arg1:T17 Arg2:T36	
+R43	Before Arg1:T17 Arg2:T18	
+T68	Observation 745 769	participar en el estudio
+#52	AnnotatorNotes T68	C0587903; Patient information status; Finding (?)
+R44	Before Arg1:T17 Arg2:T68	
+R45	Experiences Arg1:T48 Arg2:T51	
+R46	Experiences Arg1:T48 Arg2:T43	
+R47	Has_Age Arg1:T49 Arg2:T50	
+R48	Experiences Arg1:T49 Arg2:T19	
+R49	Experiences Arg1:T53 Arg2:T21	
+R50	Location_of Arg1:T37 Arg2:T22	
+T69	Quantifier_or_Qualifier 1131 1136	diana
+#53	AnnotatorNotes T69	C1521840; Target; Functional Concept
+R51	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T69	
+T70	Quantifier_or_Qualifier 1137 1143	severa
+#54	AnnotatorNotes T70	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R52	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T70	
+R53	Experiences Arg1:T53 Arg2:T22	
+R54	Experiences Arg1:T53 Arg2:T23	
+R55	Experiences Arg1:T53 Arg2:T24	
+R59	Overlap Arg1:T21 Arg2:T22	
+R60	Overlap Arg1:T21 Arg2:T23	
+R61	Overlap Arg1:T21 Arg2:T24	
+R62	Experiences Arg1:T53 Arg2:T25	
+R63	Experiences Arg1:T56 Arg2:T26	
+R64	Experiences Arg1:T56 Arg2:T27	
+R65	Experiences Arg1:T57 Arg2:T3	
+R66	Causes Arg1:T28 Arg2:T3	
+R67	Causes Arg1:T29 Arg2:T3	
+R68	Causes Arg1:T31 Arg2:T3	
+R69	Overlap Arg1:T9 Arg2:T10	
+R35	Experiences Arg1:T44 Arg2:T65	
+R36	Experiences Arg1:T45 Arg2:T65	
+R37	Experiences Arg1:T45 Arg2:T41	
+A13	Status T16 Future
+A14	Experiencer T57 Patient
+A15	Experiencer T56 Patient
+A16	Experiencer T53 Patient
+A17	Experiencer T44 Patient
+A18	Experiencer T45 Patient
+A19	Experiencer T48 Patient
+A20	Experiencer T49 Patient

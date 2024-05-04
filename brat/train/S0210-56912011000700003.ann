@@ -1,0 +1,174 @@
+T1	PROC 28 80	implantación de marcapasos transvenosos transitorios
+#1	AnnotatorNotes T1	C0392128; Implantation of temporary intravenous cardiac pacemaker; Therapeutic or Preventive Procedure
+T2	PROC 213 265	implantación de marcapasos transvenosos transitorios
+#2	AnnotatorNotes T2	C0392128; Implantation of temporary intravenous cardiac pacemaker; Therapeutic or Preventive Procedure
+T3	PROC 276 311	Estudio observacional y prospectivo
+#3	AnnotatorNotes T3	C1518527; Observational Study; Research Activity + C0033522; Prospective Studies; Research Activity
+T4	PROC 379 425	Se implantó marcapasos transvenoso transitorio
+#4	AnnotatorNotes T4	C0392128; Implantation of temporary intravenous cardiac pacemaker; Therapeutic or Preventive Procedure
+T5	DISO 600 614	complicaciones
+#5	AnnotatorNotes T5	C0009566; Complication; Pathologic Function
+T6	DISO 691 730	bloqueo auriculoventricular sintomático
+T7	ANAT 764 770	venosa
+#6	AnnotatorNotes T7	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T8	ANAT 799 806	femoral
+#7	AnnotatorNotes T8	C0015809; Femoral vein; Body Part, Organ, or Organ Component | C1321527; Entire femoral vein; Body Part, Organ, or Organ Component
+T9	DISO 833 847	complicaciones
+#8	AnnotatorNotes T9	C0009566; Complication; Pathologic Function
+T10	DISO 876 906	hematoma en la zona de punción
+#9	AnnotatorNotes T10	C4087216; Vascular access site haematoma; Pathologic Function
+T11	ANAT 891 906	zona de punción
+T12	PROC 962 984	implantó el marcapasos
+T13	DISO 1003 1017	complicaciones
+#10	AnnotatorNotes T13	C0009566; Complication; Pathologic Function
+T14	DISO 1022 1043	agitación psicomotriz
+#11	AnnotatorNotes T14	C3887612; Psychomotor Agitation; Finding
+T15	DISO 1073 1103	hematoma en la zona de punción
+#12	AnnotatorNotes T15	C4087216; Vascular access site haematoma; Pathologic Function
+T16	ANAT 1088 1103	zona de punción
+T17	PROC 1455 1468	procedimiento
+#13	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T18	PROC 1193 1213	inserción no femoral
+T19	ANAT 699 718	auriculoventricular
+#14	AnnotatorNotes T19	C0225924; Atrioventricular valve; Body Part, Organ, or Organ Component
+T20	DISO 1260 1269	agitación
+#15	AnnotatorNotes T20	C0085631; Agitation; Sign or Symptom
+T21	DISO 1339 1360	riesgo cardiovascular
+#16	AnnotatorNotes T21	C4324389; Cardiovascular Risk; Finding
+T22	DISO 1420 1434	complicaciones
+#17	AnnotatorNotes T22	C0009566; Complication; Pathologic Function
+T23	DISO 1535 1549	complicaciones
+#18	AnnotatorNotes T23	C0009566; Complication; Pathologic Function
+T24	DISO 1630 1639	agitación
+#19	AnnotatorNotes T24	C0085631; Agitation; Sign or Symptom
+T25	DISO 1657 1678	riesgo cardiovascular
+#20	AnnotatorNotes T25	C4324389; Cardiovascular Risk; Finding
+T26	PROC 1684 1693	inserción
+#21	AnnotatorNotes T26	C0441587; Clinical act of insertion; Health Care Activity + C1293116; Introduction procedure; Therapeutic or Preventive Procedure
+T27	ANAT 1709 1723	vena subclavia
+#22	AnnotatorNotes T27	C0038532; Structure of subclavian vein; Body Part, Organ, or Organ Component | C1278967; Entire subclavian vein; Body Part, Organ, or Organ Component
+T28	ANAT 1726 1733	yugular
+#23	AnnotatorNotes T28	C0022427; Structure of jugular vein; Body Part, Organ, or Organ Component
+T29	DISO 1756 1770	complicaciones
+#24	AnnotatorNotes T29	C0009566; Complication; Pathologic Function
+T30	PROC 1840 1852	implantación
+#25	AnnotatorNotes T30	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T31	ANAT 1346 1360	cardiovascular
+#26	AnnotatorNotes T31	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T32	ANAT 1664 1678	cardiovascular
+#27	AnnotatorNotes T32	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T33	DEVI 44 67	marcapasos transvenosos
+#28	AnnotatorNotes T33	C0336574; Cardiac transvenous pacemaker; Medical Device
+T35	Duration 68 80	transitorios
+#29	AnnotatorNotes T35	C0205374; Transitory; Temporal Concept
+T36	DEVI 229 252	marcapasos transvenosos
+#30	AnnotatorNotes T36	C0336574; Cardiac transvenous pacemaker; Medical Device
+T38	Duration 253 265	transitorios
+#31	AnnotatorNotes T38	C0205374; Transitory; Temporal Concept
+T39	LIVB 368 377	Pacientes
+#32	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	DEVI 391 413	marcapasos transvenoso
+#33	AnnotatorNotes T40	C0336574; Cardiac transvenous pacemaker; Medical Device
+T42	Duration 414 425	transitorio
+#34	AnnotatorNotes T42	C0205374; Transitory; Temporal Concept
+T43	LIVB 432 441	pacientes
+#35	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Duration 460 466	4 años
+T45	LIVB 641 648	hombres
+#36	AnnotatorNotes T45	C0025266; Male population group; Population Group
+T46	Age 675 686	78±9,5 años
+T47	Route 760 770	vía venosa
+#37	AnnotatorNotes T47	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T49	DEVI 974 984	marcapasos
+#38	AnnotatorNotes T49	C0030163; Artificial cardiac pacemaker; Medical Device
+T50	DEVI 1150 1157	catéter
+#39	AnnotatorNotes T50	C0085590; catheter device; Medical Device
+T55	LIVB 946 957	profesional
+#40	AnnotatorNotes T55	C1704312; Health Professional; Professional or Occupational Group
+T56	LIVB 1812 1823	profesional
+#41	AnnotatorNotes T56	C1704312; Health Professional; Professional or Occupational Group
+T34	LIVB 1483 1505	personal especializado
+#42	AnnotatorNotes T34	C0334890; Specialized surgeon; Professional or Occupational Group (?)
+T37	PROC 1876 1897	estancia en la unidad
+#43	AnnotatorNotes T37	C5419131; Intensive Care Unit Stay; Health Care Activity
+T41	PROC 1576 1597	estancia en la unidad
+#44	AnnotatorNotes T41	C5419131; Intensive Care Unit Stay; Health Care Activity
+T48	PROC 576 597	estancia en la unidad
+#45	AnnotatorNotes T48	C5419131; Intensive Care Unit Stay; Health Care Activity
+R1	Used_for Arg1:T33 Arg2:T1	
+T51	CONC 142 166	características clínicas
+T52	CONC 168 180	indicaciones
+#46	AnnotatorNotes T52	C3146298; Indication; Idea or Concept
+T53	Observation 183 198	morbimortalidad
+R2	Used_for Arg1:T36 Arg2:T2	
+R3	Overlap Arg1:T51 Arg2:T2	
+R4	Overlap Arg1:T52 Arg2:T2	
+R5	Overlap Arg1:T53 Arg2:T2	
+R6	Has_Duration_or_Interval Arg1:T33 Arg2:T35	
+R7	Has_Duration_or_Interval Arg1:T36 Arg2:T38	
+R8	Has_Duration_or_Interval Arg1:T40 Arg2:T42	
+R9	Used_for Arg1:T40 Arg2:T4	
+R10	Experiences Arg1:T43 Arg2:T4	
+R11	Experiences Arg1:T39 Arg2:T4	
+R12	Has_Duration_or_Interval Arg1:T4 Arg2:T44	
+T54	CONC 505 527	variables demográficas
+#47	AnnotatorNotes T54	C4684639; Demographic Data; Intellectual Product
+T57	CONC 539 551	indicaciones
+#48	AnnotatorNotes T57	C3146298; Indication; Idea or Concept
+T58	CONC 568 597	días de estancia en la unidad
+#49	AnnotatorNotes T58	C0023303; Length of Stay; Temporal Concept (?)
+T59	CONC 553 566	vía de acceso
+T60	CONC 505 514;529 537	variables clínicas
+R13	Has_Age Arg1:T45 Arg2:T46	
+R14	Location_of Arg1:T19 Arg2:T6	
+R15	Experiences Arg1:T45 Arg2:T6	
+R16	Location_of Arg1:T11 Arg2:T10	
+#50	AnnotatorNotes T16	C0229986; Application site; Anatomical Structure (?)
+T61	Observation 1133 1157	movilización del catéter
+R17	Location_of Arg1:T16 Arg2:T15	
+T62	Neg_cue 917 919	No
+T63	CONC 925 936	diferencias
+A1	Assertion T63 Negated
+#51	AnnotatorNotes T63	C1705241; Delta (difference); Quantitative Concept
+R18	Negation Arg1:T62 Arg2:T63	
+R19	Used_for Arg1:T49 Arg2:T12	
+R20	Before Arg1:T12 Arg2:T13	
+R21	Overlap Arg1:T14 Arg2:T15	
+R22	Overlap Arg1:T14 Arg2:T61	
+T64	Neg_cue 1203 1205	no
+T65	ANAT 1206 1213	femoral
+A2	Assertion T65 Negated
+#52	AnnotatorNotes T65	C0015809; Femoral vein; Body Part, Organ, or Organ Component | C1321527; Entire femoral vein; Body Part, Organ, or Organ Component
+R23	Negation Arg1:T64 Arg2:T65	
+R24	Location_of Arg1:T31 Arg2:T21	
+R25	Before Arg1:T18 Arg2:T22	
+R26	Before Arg1:T20 Arg2:T22	
+R27	Before Arg1:T21 Arg2:T22	
+R30	Before Arg1:T17 Arg2:T23	
+R31	Location_of Arg1:T27 Arg2:T26	
+R32	Location_of Arg1:T28 Arg2:T26	
+R33	Location_of Arg1:T32 Arg2:T25	
+R34	Before Arg1:T24 Arg2:T29	
+R35	Before Arg1:T25 Arg2:T29	
+R36	Before Arg1:T26 Arg2:T29	
+T66	Neg_cue 1778 1780	no
+T67	CONC 1781 1796	se relacionaron
+A3	Assertion T67 Negated
+R37	Negation Arg1:T66 Arg2:T67	
+T68	Observation 1645 1678	factores de riesgo cardiovascular
+#53	AnnotatorNotes T68	C0850624; Heart Disease Risk Factors; Finding
+R40	Before Arg1:T68 Arg2:T29	
+T69	Observation 1327 1360	factores de riesgo cardiovascular
+#54	AnnotatorNotes T69	C0850624; Heart Disease Risk Factors; Finding
+R41	Location_of Arg1:T31 Arg2:T69	
+R42	Before Arg1:T69 Arg2:T22	
+R43	Location_of Arg1:T32 Arg2:T68	
+#55	AnnotatorNotes T11	C0229986; Application site; Anatomical Structure
+#56	AnnotatorNotes T67	C0332281; Associated with; Qualitative Concept
+#57	AnnotatorNotes T12	C0848753; pacemaker implant; Therapeutic or Preventive Procedure
+A4	Experiencer T56 Other
+A5	Experiencer T43 Patient
+A6	Experiencer T45 Patient
+A7	Experiencer T39 Patient
+A8	Experiencer T55 Other
+A9	Experiencer T34 Other

@@ -1,0 +1,200 @@
+T1	PROC 1 10	Detección
+#1	AnnotatorNotes T1	C1511790; Detection; Therapeutic or Preventive Procedure
+T2	PROC 825 832	QFT-GIT
+T3	DISO 17 46	infección tuberculosa latente
+#2	AnnotatorNotes T3	C1609538; Latent Tuberculosis; Disease or Syndrome
+T4	PROC 63 82	diálisis peritoneal
+#3	AnnotatorNotes T4	C0031139; Peritoneal Dialysis; Therapeutic or Preventive Procedure
+T5	PROC 585 592	QFT-GIT
+T6	DISO 127 139	tuberculosis
+#4	AnnotatorNotes T6	C0041296; Tuberculosis; Disease or Syndrome
+T7	DISO 141 143	TB
+#5	AnnotatorNotes T7	C0041296; Tuberculosis; Disease or Syndrome
+T8	DISO 177 204	insuficiencia renal crónica
+#6	AnnotatorNotes T8	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T9	PROC 223 247	prueba de la tuberculina
+#7	AnnotatorNotes T9	C0041290; Tuberculin Test; Diagnostic Procedure | C1304836; Mantoux test; Diagnostic Procedure
+T10	PROC 1466 1473	QFT-GIT
+T11	PROC 259 274	test de cribado
+#8	AnnotatorNotes T11	C0871311; Screening test; Health Care Activity
+T12	PROC 383 403	métodos diagnósticos
+#9	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	CHEM 437 453	interferón gamma
+#10	AnnotatorNotes T13	C0021745; interferon type II; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor
+T14	PROC 555 583	Quantiferon® TB-gold In Tube
+T15	PROC 617 628	diagnóstico
+#11	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 635 656	infección tuberculosa
+#12	AnnotatorNotes T16	C0041296; Tuberculosis; Disease or Syndrome
+T17	PROC 673 692	diálisis peritoneal
+#13	AnnotatorNotes T17	C0031139; Peritoneal Dialysis; Therapeutic or Preventive Procedure
+T18	PROC 694 696	DP
+#14	AnnotatorNotes T18	C0031139; Peritoneal Dialysis; Therapeutic or Preventive Procedure
+T19	PROC 751 753	DP
+#15	AnnotatorNotes T19	C0031139; Peritoneal Dialysis; Therapeutic or Preventive Procedure
+T20	DISO 783 812	infección tuberculosa latente
+#16	AnnotatorNotes T20	C1609538; Latent Tuberculosis; Disease or Syndrome
+T21	PROC 845 875	valoración clinicorradiológica
+T22	PROC 953 958	tests
+#17	AnnotatorNotes T22	C0022885; Laboratory Procedures; Laboratory Procedure (?)
+T23	PROC 1021 1043	test de la tuberculina
+#18	AnnotatorNotes T23	C0041290; Tuberculin Test; Diagnostic Procedure | C1304836; Mantoux test; Diagnostic Procedure
+T24	PROC 1073 1077	test
+#19	AnnotatorNotes T24	C0022885; Laboratory Procedures; Laboratory Procedure (?)
+T25	PROC 1141 1161	radiografía de tórax
+#20	AnnotatorNotes T25	C0039985; Plain chest X-ray; Diagnostic Procedure
+T26	PROC 1184 1193	detección
+#21	AnnotatorNotes T26	C1511790; Detection; Therapeutic or Preventive Procedure
+T27	PROC 1310 1317	QFT-GIT
+T28	PROC 1504 1515	diagnóstico
+#22	AnnotatorNotes T28	C0011900; Diagnosis; Diagnostic Procedure
+T29	DISO 1522 1543	infección tuberculosa
+#23	AnnotatorNotes T29	C0041296; Tuberculosis; Disease or Syndrome
+T30	DISO 1561 1588	insuficiencia renal crónica
+#24	AnnotatorNotes T30	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T31	PROC 1592 1594	DP
+#25	AnnotatorNotes T31	C0031139; Peritoneal Dialysis; Therapeutic or Preventive Procedure
+T32	PROC 1622 1646	prueba de la tuberculina
+#26	AnnotatorNotes T32	C0041290; Tuberculin Test; Diagnostic Procedure | C1304836; Mantoux test; Diagnostic Procedure
+T33	Route 72 82	peritoneal
+#27	AnnotatorNotes T33	C1706534; Peritoneal dialysis route; Functional Concept
+T34	ANAT 191 196	renal
+#28	AnnotatorNotes T34	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T35	PROC 210 218	diálisis
+#29	AnnotatorNotes T35	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T36	CHEM 236 247	tuberculina
+#30	AnnotatorNotes T36	C0041289; tuberculin; Amino Acid, Peptide, or Protein · Immunologic Factor · Indicator, Reagent, or Diagnostic Aid
+T37	PROC 249 251	PT
+#31	AnnotatorNotes T37	C0041290; Tuberculin Test; Diagnostic Procedure | C1304836; Mantoux test; Diagnostic Procedure
+T38	CHEM 479 507	antígenos de M. tuberculosis
+#32	AnnotatorNotes T38	C0090425; Mycobacterium tuberculosis antigens; Amino Acid, Peptide, or Protein · Immunologic Factor
+T39	CHEM 555 575	Quantiferon® TB-gold
+#33	AnnotatorNotes T39	C1875713; QUANTIFERON-TB GOLD; Organic Chemical · Pharmacologic Substance
+T40	Route 682 692	peritoneal
+#34	AnnotatorNotes T40	C1706534; Peritoneal dialysis route; Functional Concept
+T41	PROC 837 839	PT
+#35	AnnotatorNotes T41	C0041290; Tuberculin Test; Diagnostic Procedure | C1304836; Mantoux test; Diagnostic Procedure
+T42	CHEM 1032 1043	tuberculina
+#36	AnnotatorNotes T42	C0041289; tuberculin; Amino Acid, Peptide, or Protein · Immunologic Factor · Indicator, Reagent, or Diagnostic Aid
+T43	ANAT 1156 1161	tórax
+#37	AnnotatorNotes T43	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T44	DISO 1197 1226	infección tuberculosa latente
+#38	AnnotatorNotes T44	C1609538; Latent Tuberculosis; Disease or Syndrome
+T45	PROC 1323 1325	PT
+#39	AnnotatorNotes T45	C0041290; Tuberculin Test; Diagnostic Procedure | C1304836; Mantoux test; Diagnostic Procedure
+T46	PROC 1388 1390	PT
+#40	AnnotatorNotes T46	C0041290; Tuberculin Test; Diagnostic Procedure | C1304836; Mantoux test; Diagnostic Procedure
+T47	ANAT 1575 1580	renal
+#41	AnnotatorNotes T47	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T48	CHEM 1635 1646	tuberculina
+#42	AnnotatorNotes T48	C0041289; tuberculin; Amino Acid, Peptide, or Protein · Immunologic Factor · Indicator, Reagent, or Diagnostic Aid
+T49	LIVB 50 59	pacientes
+#43	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T51	Spec_cue 117 126	riesgo de
+T52	LIVB 163 172	pacientes
+#44	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Duration 197 204	crónica
+#45	AnnotatorNotes T53	C0205191; chronic; Temporal Concept
+T54	LIVB 292 301	pacientes
+#46	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T56	Duration 339 355	los últimos años
+T57	LIVB 492 507	M. tuberculosis
+#47	AnnotatorNotes T57	C0026926; Mycobacterium tuberculosis; Bacterium
+T58	Spec_cue 549 551	si
+T59	Spec_cue 594 599	puede
+T60	LIVB 660 669	pacientes
+#48	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 700 709	Pacientes
+#49	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 738 747	pacientes
+#50	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	Spec_cue 768 782	posibilidad de
+T65	LIVB 892 901	neumólogo
+#51	AnnotatorNotes T65	C0586859; Pulmonologists; Professional or Occupational Group
+T66	LIVB 1251 1260	neumólogo
+#52	AnnotatorNotes T66	C0586859; Pulmonologists; Professional or Occupational Group
+T67	LIVB 1411 1420	neumólogo
+#53	AnnotatorNotes T67	C0586859; Pulmonologists; Professional or Occupational Group
+T68	LIVB 1547 1556	pacientes
+#54	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	Duration 1581 1588	crónica
+#55	AnnotatorNotes T69	C0205191; chronic; Temporal Concept
+A1	Assertion T6 Speculated
+A2	Assertion T7 Speculated
+A3	Assertion T15 Speculated
+A4	Assertion T20 Speculated
+A5	Assertion T14 Speculated
+A6	Assertion T5 Speculated
+R1	Experiences Arg1:T49 Arg2:T3	
+R2	Experiences Arg1:T49 Arg2:T4	
+R3	Has_Route_or_Mode Arg1:T4 Arg2:T33	
+R4	Speculation Arg1:T51 Arg2:T6	
+R5	Speculation Arg1:T51 Arg2:T7	
+R6	Experiences Arg1:T52 Arg2:T6	
+R7	Experiences Arg1:T52 Arg2:T7	
+R8	Experiences Arg1:T52 Arg2:T8	
+R9	Location_of Arg1:T34 Arg2:T8	
+R10	Has_Duration_or_Interval Arg1:T8 Arg2:T53	
+R11	Experiences Arg1:T52 Arg2:T35	
+R12	Experiences Arg1:T54 Arg2:T11	
+R13	Experiences Arg1:T54 Arg2:T9	
+R14	Experiences Arg1:T54 Arg2:T37	
+T50	CONC 322 334	sensibilidad
+#56	AnnotatorNotes T50	C0439823; Sensibility; Qualitative Concept
+T55	Quantifier_or_Qualifier 317 321	baja
+#57	AnnotatorNotes T55	C0205251; low; Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T55	
+R16	Overlap Arg1:T12 Arg2:T56	
+R17	Speculation Arg1:T58 Arg2:T14	
+R18	Speculation Arg1:T58 Arg2:T5	
+R19	Speculation Arg1:T59 Arg2:T15	
+R20	Experiences Arg1:T60 Arg2:T17	
+R21	Experiences Arg1:T60 Arg2:T16	
+R22	Experiences Arg1:T60 Arg2:T18	
+R23	Has_Route_or_Mode Arg1:T17 Arg2:T40	
+R24	Has_Route_or_Mode Arg1:T18 Arg2:T40	
+R25	Experiences Arg1:T60 Arg2:T14	
+R26	Experiences Arg1:T60 Arg2:T5	
+R27	Before Arg1:T14 Arg2:T15	
+R28	Before Arg1:T5 Arg2:T15	
+R29	Experiences Arg1:T63 Arg2:T19	
+R30	Experiences Arg1:T62 Arg2:T19	
+R31	Speculation Arg1:T64 Arg2:T20	
+T61	Result_or_Value 994 1012	resultado positivo
+#58	AnnotatorNotes T61	C0205557; False Positive; Finding
+R32	Has_Result_or_Value Arg1:T23 Arg2:T61	
+T70	Quantifier_or_Qualifier 1066 1072	primer
+#59	AnnotatorNotes T70	C0205435; First (number); Quantitative Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T70	
+T71	Quantifier_or_Qualifier 1098 1105	segundo
+#60	AnnotatorNotes T71	C0205436; second (number); Quantitative Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T71	
+R35	Has_Result_or_Value Arg1:T24 Arg2:T61	
+R36	Location_of Arg1:T43 Arg2:T25	
+T72	Result_or_Value 1162 1170	positiva
+#61	AnnotatorNotes T72	C0205557; False Positive; Finding
+R37	Has_Result_or_Value Arg1:T25 Arg2:T72	
+R38	Before Arg1:T25 Arg2:T26	
+T74	CONC 1289 1300	correlación
+#63	AnnotatorNotes T74	C1707520; Correlation; Qualitative Concept
+T75	CONC 1340 1345	kappa
+T76	CONC 1422 1427	kappa
+R39	Before Arg1:T10 Arg2:T28	
+R40	Experiences Arg1:T68 Arg2:T29	
+R41	Experiences Arg1:T68 Arg2:T10	
+R42	Experiences Arg1:T68 Arg2:T30	
+R43	Location_of Arg1:T47 Arg2:T30	
+R44	Has_Duration_or_Interval Arg1:T30 Arg2:T69	
+R45	Experiences Arg1:T68 Arg2:T31	
+R46	Before Arg1:T32 Arg2:T28	
+R47	Experiences Arg1:T68 Arg2:T32	
+A7	Experiencer T49 Patient
+A8	Experiencer T52 Patient
+A9	Experiencer T54 Patient
+A10	Experiencer T60 Patient
+A11	Experiencer T63 Patient
+A12	Experiencer T62 Patient
+A13	Experiencer T65 Other
+A14	Experiencer T66 Other
+A15	Experiencer T67 Other
+A16	Experiencer T68 Patient

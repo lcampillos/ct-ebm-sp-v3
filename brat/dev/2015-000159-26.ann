@@ -1,0 +1,70 @@
+T1	CHEM 73 83	paclitaxel
+#1	AnnotatorNotes T1	C0144576; paclitaxel; Organic Chemical · Pharmacologic Substance
+T2	DISO 101 139	cáncer de pulmón amicrocítico escamoso
+#2	AnnotatorNotes T2	C4509816; Squamous non-small cell lung cancer; Neoplastic Process
+T3	ANAT 131 139	escamoso
+#3	AnnotatorNotes T3	C0221909; Squamous epithelium; Tissue
+T4	PROC 191 239	ensayo de fase 2a, multicéntrico, de brazo único
+T5	CHEM 46 53	AZD2014
+#4	AnnotatorNotes T5	C2981846; AZD2014; Organic Chemical · Pharmacologic Substance
+T6	PROC 244 265	tratamiento combinado
+#5	AnnotatorNotes T6	C0013218; Combination Drug Therapy; Therapeutic or Preventive Procedure
+T7	CHEM 279 289	paclitaxel
+#6	AnnotatorNotes T7	C0144576; paclitaxel; Organic Chemical · Pharmacologic Substance
+T8	DISO 302 340	cáncer de pulmón amicrocítico escamoso
+#7	AnnotatorNotes T8	C4509816; Squamous non-small cell lung cancer; Neoplastic Process
+T9	ANAT 332 340	escamoso
+#8	AnnotatorNotes T9	C0221909; Squamous epithelium; Tissue
+T10	PROC 394 405	tratamiento
+#9	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	DISO 437 466	Cáncer de pulmón amicrocítico
+T12	DISO 494 532	Cáncer de pulmón amicrocítico escamoso
+#10	AnnotatorNotes T12	C4509816; Squamous non-small cell lung cancer; Neoplastic Process
+T13	ANAT 524 532	escamoso
+#11	AnnotatorNotes T13	C0221909; Squamous epithelium; Tissue
+T14	CHEM 269 276	AZD2014
+#12	AnnotatorNotes T14	C2981846; AZD2014; Organic Chemical · Pharmacologic Substance
+T15	ANAT 111 117	pulmón
+#13	AnnotatorNotes T15	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T16	ANAT 312 318	pulmón
+#14	AnnotatorNotes T16	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T17	ANAT 447 453	pulmón
+#15	AnnotatorNotes T17	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T18	ANAT 504 510	pulmón
+#16	AnnotatorNotes T18	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T19	Date 13 17	2015
+T20	LIVB 87 96	pacientes
+#17	AnnotatorNotes T20	C0030705; Patients; Patient or Disabled Group
+T21	Frequency 290 297	semanal
+A1	Status T10 History_of
+#18	AnnotatorNotes T11	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process 
+R1	Combined_with Arg1:T5 Arg2:T1	
+R2	Experiences Arg1:T20 Arg2:T5	
+R3	Experiences Arg1:T20 Arg2:T2	
+R4	Location_of Arg1:T3 Arg2:T2	
+R5	Location_of Arg1:T15 Arg2:T2	
+R6	Used_for Arg1:T14 Arg2:T6	
+R7	Combined_with Arg1:T14 Arg2:T7	
+R8	Has_Frequency Arg1:T7 Arg2:T21	
+R9	Has_Frequency Arg1:T14 Arg2:T21	
+R10	Location_of Arg1:T16 Arg2:T8	
+R11	Location_of Arg1:T9 Arg2:T8	
+R12	After Arg1:T6 Arg2:T10	
+T22	Quantifier_or_Qualifier 372 390	al menos una línea
+R13	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T22	
+T23	Quantifier_or_Qualifier 154 165	refractario
+#19	AnnotatorNotes T23	C0205269; Unresponsive to Treatment; Functional Concept
+T24	Quantifier_or_Qualifier 355 366	refractario
+#20	AnnotatorNotes T24	C0205269; Unresponsive to Treatment; Functional Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T24	
+T25	Observation 341 352	recidivante
+#21	AnnotatorNotes T25	C2825055; Recurrence (disease attribute); Pathologic Function
+R15	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T25	
+T26	Observation 140 151	recidivante
+#22	AnnotatorNotes T26	C2825055; Recurrence (disease attribute); Pathologic Function
+R16	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T26	
+R17	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T23	
+R18	Location_of Arg1:T17 Arg2:T11	
+R19	Location_of Arg1:T13 Arg2:T12	
+R20	Location_of Arg1:T18 Arg2:T12	
+A2	Experiencer T20 Patient

@@ -1,0 +1,245 @@
+T1	PROC 74 88	corticoterapia
+#1	AnnotatorNotes T1	C0149783; Steroid therapy; Therapeutic or Preventive Procedure
+T2	DISO 95 114	infección por CoV-2
+T3	DISO 145 183	síndrome de distrés respiratorio agudo
+#2	AnnotatorNotes T3	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T4	PROC 800 821	Saturación de oxígeno
+#3	AnnotatorNotes T4	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T5	DISO 185 189	SDRA
+#4	AnnotatorNotes T5	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T6	DISO 213 234	Neumonía por COVID-19
+T7	CHEM 814 821	oxígeno
+#5	AnnotatorNotes T7	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T8	DISO 297 325	Infección por coronavirus-19
+T9	CHEM 877 879	O2
+#6	AnnotatorNotes T9	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T10	PROC 929 933	FiO2
+#7	AnnotatorNotes T10	C1512797; Inspired Oxygen Fraction Test; Diagnostic Procedure
+T11	ANAT 366 385	frotis nasofaríngeo
+T12	ANAT 403 420	muestra biológica
+T13	DISO 425 442	Neumonía COVID-19
+T14	ANAT 460 479	Frotis nasofaríngeo
+T15	PROC 952 976	medida con pulsioxímetro
+T16	DISO 515 537	Infiltrados pulmonares
+#8	AnnotatorNotes T16	C0277877; Radiologic infiltrate of lung; Finding
+T17	PROC 542 560	radiografía simple
+#9	AnnotatorNotes T17	C1306645; Plain x-ray; Diagnostic Procedure
+T18	PROC 569 586	técnica de imagen
+#10	AnnotatorNotes T18	C0079595; Imaging Techniques; Diagnostic Procedure
+T19	DISO 604 612	neumonía
+#11	AnnotatorNotes T19	C0032285; Pneumonia; Disease or Syndrome
+T20	DISO 696 704	COVID-19
+#12	AnnotatorNotes T20	C5203670; COVID19 (disease); Disease or Syndrome
+T21	PROC 852 859	Pa:FiO2
+#13	AnnotatorNotes T21	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T22	CHEM 892 894	O2
+#14	AnnotatorNotes T22	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T23	PROC 926 928	Sa
+T24	PROC 935 951	saturación de O2
+#15	AnnotatorNotes T24	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T25	CHEM 990 992	O2
+#16	AnnotatorNotes T25	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T26	PROC 1046 1066	tratamiento estándar
+#17	AnnotatorNotes T26	C2936643; Standard of Care; Health Care Activity
+T27	CHEM 1087 1104	Hidroxicloroquina
+#18	AnnotatorNotes T27	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T28	PROC 1255 1264	protocolo
+#19	AnnotatorNotes T28	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T29	PROC 1295 1336	Tratamiento previo con corticoides orales
+#20	AnnotatorNotes T29	C0574135; Oral steroid therapy; Therapeutic or Preventive Procedure (?)
+T30	CHEM 1318 1329	corticoides
+#21	AnnotatorNotes T30	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T31	PROC 1422 1433	Tratamiento
+#22	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	CHEM 1467 1486	fármacos biológicos
+T33	CHEM 1492 1516	anticuerpos monoclonales
+#23	AnnotatorNotes T33	C0003250; Monoclonal Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T34	PROC 2132 2152	oxígeno domiciliario
+#24	AnnotatorNotes T34	C1960973; Home oxygen therapy; Therapeutic or Preventive Procedure
+T35	CHEM 1539 1557	anti-interleucinas
+T36	CHEM 1559 1581	Interferones de tipo I
+T37	CHEM 1644 1655	corticoides
+#25	AnnotatorNotes T37	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T38	PROC 1759 1770	tratamiento
+#26	AnnotatorNotes T38	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T39	DISO 1810 1827	hipersensibilidad
+#27	AnnotatorNotes T39	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T40	CHEM 1864 1875	excipientes
+#28	AnnotatorNotes T40	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T41	PROC 1898 1909	tratamiento
+#29	AnnotatorNotes T41	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T42	PROC 2042 2046	SaFi
+T43	DISO 2012 2016	SDRA
+#30	AnnotatorNotes T43	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T44	DISO 2078 2117	enfermedad pulmonar obstructiva crónica
+#31	AnnotatorNotes T44	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T45	CHEM 2132 2139	oxígeno
+#32	AnnotatorNotes T45	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T46	PROC 359 362	PCR
+#33	AnnotatorNotes T46	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T47	PROC 978 1002	fracción de O2 inspirado
+T48	PROC 861 904	presión parcial O2/fracción de O2 inspirado
+T49	PROC 484 487	PCR
+#34	AnnotatorNotes T49	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T50	ANAT 527 537	pulmonares
+#35	AnnotatorNotes T50	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T51	CHEM 949 951	O2
+#36	AnnotatorNotes T51	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T52	PROC 1163 1187	Consentimiento informado
+#37	AnnotatorNotes T52	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T53	CHEM 1528 1537	anti-TNFα
+T54	CHEM 1775 1792	metilprednisolona
+#38	AnnotatorNotes T54	C0025815; methylprednisolone; Hormone · Organic Chemical · Pharmacologic Substance
+T55	CHEM 1841 1857	principio activo
+#39	AnnotatorNotes T55	C1372955; Active ingredient; Chemical Viewed Functionally
+T56	CHEM 1942 1949	vacunas
+#40	AnnotatorNotes T56	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T57	ANAT 2089 2097	pulmonar
+#41	AnnotatorNotes T57	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T58	Date 12 16	2020
+T60	LIVB 236 246	SARS-CoV-2
+#42	AnnotatorNotes T60	C5203676; SARS-CoV-2; Virus
+T61	Age 282 292	18-80 años
+T62	LIVB 327 337	SARS-CoV-2
+#43	AnnotatorNotes T62	C5203676; SARS-CoV-2; Virus
+T63	LIVB 502 512	SARS-CoV-2
+#44	AnnotatorNotes T63	C5203676; SARS-CoV-2; Virus
+T64	LIVB 615 624	Pacientes
+#45	AnnotatorNotes T64	C0030705; Patients; Patient or Disabled Group
+T65	LIVB 682 691	pacientes
+#46	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 1023 1032	pacientes
+#47	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T71	Route 1330 1336	orales
+#48	AnnotatorNotes T71	C1527415; Oral Route of Drug administration; Functional Concept
+T72	Route 1339 1350	endovenosos
+T73	Duration 1359 1399	más de 5 días seguidos o a días alternos
+T74	Duration 1401 1416	6 meses previos
+T75	Duration 1442 1462	los 12 meses previos
+T76	Route 1634 1640	pulsos
+#49	AnnotatorNotes T76	C0391850; Physiologic pulse; Physiologic Function
+T77	LIVB 1953 1968;1983 1991	microorganismos atenuado
+#50	AnnotatorNotes T77	C0178489; attenuated microorganism; Immunologic Factor · Pharmacologic Substance
+T78	LIVB 1998 2007	Pacientes
+#51	AnnotatorNotes T78	C0030705; Patients; Patient or Disabled Group
+T79	LIVB 2057 2066	Pacientes
+#52	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	Duration 2110 2117	crónica
+#53	AnnotatorNotes T80	C0205191; chronic; Temporal Concept
+T81	PHYS 165 177	respiratorio
+#54	AnnotatorNotes T81	C0035203; Respiration; Physiologic Function
+T83	LIVB 109 114	CoV-2
+#55	AnnotatorNotes T83	C5203676; SARS-CoV-2; Virus
+T59	LIVB 311 325	coronavirus-19
+#56	AnnotatorNotes T59	C5203676; SARS-CoV-2; Virus
+T66	Date 1916 1936	periodo post-vacunal
+A1	Status T29 History_of
+A2	Assertion T37 Contraindicated
+A3	Assertion T38 Contraindicated
+A4	Status T39 History_of
+#57	AnnotatorNotes T6	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#58	AnnotatorNotes T2	C5203670; COVID19 (disease); Disease or Syndrome
+#59	AnnotatorNotes T8	C5203670; COVID19 (disease); Disease or Syndrome
+#60	AnnotatorNotes T13	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#61	AnnotatorNotes T11	C0444192; Nasopharyngeal swab (specimen); Body Substance 
+#62	AnnotatorNotes T14	C0444192; Nasopharyngeal swab (specimen); Body Substance 
+#63	AnnotatorNotes T12	C2347026; Biospecimen; Body Substance
+#64	AnnotatorNotes T48	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+#65	AnnotatorNotes T23	C0523807; Oxygen saturation measurement; Laboratory Procedure
+#66	AnnotatorNotes T47	C1512797; Inspired Oxygen Fraction Test; Diagnostic Procedure
+#67	AnnotatorNotes T15	C0034108; Oximetry, Pulse; Diagnostic Procedure
+#68	AnnotatorNotes T72	C1522726; Intravenous Route of Drug Administration; Functional Concept
+#69	AnnotatorNotes T53	C5200703; Tumor Necrosis Factor-a (TNF-a) Inhibitors; Pharmacologic Substance 
+#70	AnnotatorNotes T36	C0021743; Interferon Type I; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#71	AnnotatorNotes T42	C0523807; Oxygen saturation measurement; Laboratory Procedure + C1512797; Inspired Oxygen Fraction Test; Diagnostic Procedure
+T67	Neg_cue 120 126	evitar
+T68	Observation 130 140	progresión
+A5	Assertion T68 Negated
+#72	AnnotatorNotes T68	C1457868; Worse; Finding
+T70	Neg_cue 1119 1121	no
+T82	CONC 1129 1145	contraindicación
+A6	Assertion T82 Negated
+#73	AnnotatorNotes T82	C0522473; Contraindication; Qualitative Concept
+T84	LIVB 1953 1974	microorganismos vivos
+A7	Assertion T54 Contraindicated
+R1	Causes Arg1:T83 Arg2:T2	
+R2	Negation Arg1:T67 Arg2:T68	
+R5	Causes Arg1:T2 Arg2:T3	
+R6	Causes Arg1:T2 Arg2:T5	
+R7	Before Arg1:T1 Arg2:T68	
+R8	Before Arg1:T3 Arg2:T68	
+R9	Before Arg1:T5 Arg2:T68	
+R10	Causes Arg1:T60 Arg2:T6	
+R11	Causes Arg1:T59 Arg2:T8	
+R12	Causes Arg1:T62 Arg2:T8	
+R14	Location_of Arg1:T11 Arg2:T46	
+R15	Location_of Arg1:T12 Arg2:T46	
+R16	Location_of Arg1:T14 Arg2:T49	
+T85	Result_or_Value 488 496	positiva
+#74	AnnotatorNotes T85	C1446409; Positive; Finding
+R17	Has_Result_or_Value Arg1:T49 Arg2:T85	
+R18	Causes Arg1:T63 Arg2:T85	
+R19	Location_of Arg1:T50 Arg2:T16	
+R22	Overlap Arg1:T16 Arg2:T19	
+T86	Result_or_Value 640 645	3 ó 4
+R23	Experiences Arg1:T64 Arg2:T20	
+R24	Experiences Arg1:T65 Arg2:T20	
+T87	CONC 652 658;705 755	escala de la OMS (Ordinal Scale for Clinical Improvement)
+R25	Has_Result_or_Value Arg1:T87 Arg2:T86	
+T88	Quantifier_or_Qualifier 822 835	aire ambiente
+R26	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T88	
+T89	Result_or_Value 836 847	>90 y < 94%
+R27	Has_Result_or_Value Arg1:T4 Arg2:T89	
+T90	Result_or_Value 906 922	>200 y ≤300 mmHg
+R28	Has_Result_or_Value Arg1:T48 Arg2:T90	
+R29	Has_Result_or_Value Arg1:T21 Arg2:T90	
+T91	Result_or_Value 1004 1008	≤350
+R30	Has_Result_or_Value Arg1:T47 Arg2:T91	
+R31	Has_Result_or_Value Arg1:T10 Arg2:T91	
+R32	Has_Result_or_Value Arg1:T23 Arg2:T91	
+R33	Has_Result_or_Value Arg1:T24 Arg2:T91	
+R34	Overlap Arg1:T24 Arg2:T15	
+R35	Experiences Arg1:T69 Arg2:T26	
+R36	Used_for Arg1:T27 Arg2:T26	
+R37	Negation Arg1:T70 Arg2:T82	
+R38	Has_Route_or_Mode Arg1:T30 Arg2:T71	
+R39	Has_Route_or_Mode Arg1:T30 Arg2:T72	
+R40	Used_for Arg1:T30 Arg2:T29	
+R41	Has_Duration_or_Interval Arg1:T30 Arg2:T73	
+R42	Overlap Arg1:T30 Arg2:T74	
+R44	Used_for Arg1:T32 Arg2:T31	
+R45	Used_for Arg1:T33 Arg2:T31	
+R46	Used_for Arg1:T53 Arg2:T31	
+R47	Used_for Arg1:T35 Arg2:T31	
+R48	Used_for Arg1:T36 Arg2:T31	
+R49	Has_Route_or_Mode Arg1:T37 Arg2:T76	
+R50	Used_for Arg1:T54 Arg2:T38	
+R51	Causes Arg1:T55 Arg2:T39	
+R52	Causes Arg1:T40 Arg2:T39	
+R54	Overlap Arg1:T56 Arg2:T66	
+R55	Used_for Arg1:T56 Arg2:T41	
+T92	Quantifier_or_Qualifier 1950 1992	de microorganismos vivos o vivos atenuados
+R53	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T92	
+T93	Result_or_Value 2047 2052	< 150
+R56	Has_Result_or_Value Arg1:T42 Arg2:T93	
+R57	Experiences Arg1:T78 Arg2:T43	
+R58	Experiences Arg1:T78 Arg2:T42	
+T94	Quantifier_or_Qualifier 2017 2022	grave
+#75	AnnotatorNotes T94	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R59	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T94	
+R61	Experiences Arg1:T79 Arg2:T44	
+R62	Has_Duration_or_Interval Arg1:T44 Arg2:T80	
+R63	Location_of Arg1:T57 Arg2:T44	
+R64	Experiences Arg1:T79 Arg2:T34	
+R65	Used_for Arg1:T45 Arg2:T34	
+#76	AnnotatorNotes T32	C0541491; Drugs and Biologicals; Clinical Drug
+R43	Has_Duration_or_Interval Arg1:T32 Arg2:T75	
+R66	Has_Duration_or_Interval Arg1:T33 Arg2:T75	
+R67	Has_Duration_or_Interval Arg1:T53 Arg2:T75	
+R68	Has_Duration_or_Interval Arg1:T35 Arg2:T75	
+R69	Has_Duration_or_Interval Arg1:T36 Arg2:T75	
+A8	Experiencer T64 Patient
+A9	Experiencer T65 Patient
+A10	Experiencer T69 Patient
+A11	Experiencer T78 Patient
+A12	Experiencer T79 Patient

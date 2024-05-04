@@ -1,0 +1,154 @@
+T1	PROC 46 66	Estudio de extensión
+T2	CHEM 84 92	Avelumab
+#1	AnnotatorNotes T2	C4055417; avelumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 115 162	Estudio abierto, multicéntrico y de seguimiento
+T4	PROC 228 245	estudios clínicos
+#2	AnnotatorNotes T4	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T5	CHEM 250 258	avelumab
+#3	AnnotatorNotes T5	C4055417; avelumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	DISO 296 311	Tumores sólidos
+#4	AnnotatorNotes T6	C0280100; Solid Neoplasm; Neoplastic Process
+T7	PROC 373 384	tratamiento
+#5	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	PROC 391 406	estudio clínico
+#6	AnnotatorNotes T8	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T9	CHEM 410 418	avelumab
+#7	AnnotatorNotes T9	C4055417; avelumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	CHEM 518 526	avelumab
+#8	AnnotatorNotes T10	C4055417; avelumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	PROC 538 549	tratamiento
+#9	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	CHEM 561 569	avelumab
+#10	AnnotatorNotes T12	C4055417; avelumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	PROC 578 606	seguimiento de supervivencia
+T14	PROC 633 644	tratamiento
+#11	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 668 679	tratamiento
+#12	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	CHEM 718 733	anticonceptivos
+#13	AnnotatorNotes T16	C0009871; Contraceptive Agents; Pharmacologic Substance
+T17	PROC 1007 1018	tratamiento
+#14	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	DISO 1027 1044	hipersensibilidad
+#15	AnnotatorNotes T18	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T19	CHEM 1074 1086	ingredientes
+#16	AnnotatorNotes T19	C1550600; Ingredient; Chemical Viewed Functionally
+T20	PROC 1090 1102	intervención
+#17	AnnotatorNotes T20	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T21	CHEM 260 271	MSB0010718C
+#18	AnnotatorNotes T21	C3896806; MSB0010718C; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T22	CHEM 1193 1201	avelumab
+#19	AnnotatorNotes T22	C4055417; avelumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T23	CHEM 1259 1267	avelumab
+#20	AnnotatorNotes T23	C4055417; avelumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T24	Date 13 17	2018
+T25	Date 184 197	a largo plazo
+T26	Date 472 483	actualmente
+T27	Date 607 620	a largo plazo
+T29	Spec_cue 881 890	riesgo de
+T32	LIVB 1333 1345	investigador
+#21	AnnotatorNotes T32	C0035173; Research Personnel; Professional or Occupational Group
+T34	PHYS 945 956	embarazadas
+#22	AnnotatorNotes T34	C0032961; Pregnancy; Organism Function
+T28	LIVB 651 664	participantes
+#23	AnnotatorNotes T28	C4554048; Study Participant; Population Group
+T30	LIVB 831 867	participantes masculinos y femeninos
+#24	AnnotatorNotes T30	C4554048; Study Participant; Population Group + C0043210; Woman; Population Group + C0025266; Male population group; Population Group
+T36	PHYS 891 901	concepción
+#25	AnnotatorNotes T36	C0009637; Conception; Organism Function | C0015914; Fertilization; Organism Function
+T37	PHYS 973 982	lactancia
+#26	AnnotatorNotes T37	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T31	LIVB 931 982	Participantes embarazadas o en periodo de lactancia
+#27	AnnotatorNotes T31	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T33	LIVB 986 999	Participantes
+#28	AnnotatorNotes T33	C4554048; Study Participant; Population Group
+T35	LIVB 1120 1132	participante
+#29	AnnotatorNotes T35	C4554048; Study Participant; Population Group
+T38	LIVB 1207 1219	participante
+#30	AnnotatorNotes T38	C4554048; Study Participant; Population Group
+T39	LIVB 1361 1373	participante
+#31	AnnotatorNotes T39	C4554048; Study Participant; Population Group
+T40	LIVB 204 217	participantes
+#32	AnnotatorNotes T40	C4554048; Study Participant; Population Group
+T41	LIVB 458 471	participantes
+#33	AnnotatorNotes T41	C4554048; Study Participant; Population Group
+T42	LIVB 340 353	Participantes
+#34	AnnotatorNotes T42	C4554048; Study Participant; Population Group
+A1	Assertion T36 Speculated
+A2	Status T18 History_of
+A3	Status T10 History_of
+A4	Status T22 History_of
+A5	Status T23 History_of
+#35	AnnotatorNotes T3	C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity + C3274571; Clinical Study Follow-up; Health Care Activity 
+#36	AnnotatorNotes T25	C0443252; Long-term; Temporal Concept
+#37	AnnotatorNotes T27	C0443252; Long-term; Temporal Concept
+#38	AnnotatorNotes T26	C0521116; Current (present time); Temporal Concept 
+T43	Neg_cue 1347 1353	impida
+T44	Observation 1374 1397	participe en el estudio
+A6	Assertion T44 Negated
+#39	AnnotatorNotes T44	C1278516; Patient participation status; Finding
+R1	Negation Arg1:T43 Arg2:T44	
+T46	PROC 1241 1248	estudio
+#40	AnnotatorNotes T46	C0681814; research study; Research Activity
+T45	Observation 1228 1248	retirado del estudio
+#41	AnnotatorNotes T45	C0422727; Patient withdrawn from trial; Finding (?)
+A7	Status T46 History_of
+T47	CONC 178 183	datos
+#42	AnnotatorNotes T47	C1511726; Data; Idea or Concept
+R4	Overlap Arg1:T47 Arg2:T25	
+R5	Experiences Arg1:T40 Arg2:T5	
+R6	Experiences Arg1:T40 Arg2:T21	
+R7	Experiences Arg1:T42 Arg2:T7	
+R8	Used_for Arg1:T9 Arg2:T7	
+T48	Observation 484 507	inscritos en un estudio
+#43	AnnotatorNotes T48	C1278516; Patient participation status; Finding (?)
+R9	Overlap Arg1:T48 Arg2:T26	
+R11	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T48	
+R12	Experiences Arg1:T41 Arg2:T11	
+R13	Used_for Arg1:T12 Arg2:T11	
+R14	Overlap Arg1:T48 Arg2:T11	
+A8	Status T48 History_of
+T49	Quantifier_or_Qualifier 550 556	activo
+#44	AnnotatorNotes T49	C0679217; Active State; Idea or Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T49	
+R16	Overlap Arg1:T13 Arg2:T27	
+R17	After Arg1:T13 Arg2:T14	
+R18	Experiences Arg1:T41 Arg2:T14	
+T50	Quantifier_or_Qualifier 680 686	activo
+#45	AnnotatorNotes T50	C0679217; Active State; Idea or Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T50	
+R20	Experiences Arg1:T28 Arg2:T15	
+R21	Experiences Arg1:T28 Arg2:T16	
+T51	Quantifier_or_Qualifier 734 753	altamente efectivos
+R22	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T51	
+R23	Experiences Arg1:T30 Arg2:T36	
+R24	Speculation Arg1:T29 Arg2:T36	
+R25	Experiences Arg1:T30 Arg2:T16	
+R26	Experiences Arg1:T30 Arg2:T15	
+R27	Experiences Arg1:T28 Arg2:T36	
+R28	Experiences Arg1:T31 Arg2:T34	
+R29	Experiences Arg1:T31 Arg2:T37	
+T52	Quantifier_or_Qualifier 1019 1025	activo
+#46	AnnotatorNotes T52	C0679217; Active State; Idea or Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T52	
+R31	Experiences Arg1:T33 Arg2:T17	
+R32	Experiences Arg1:T33 Arg2:T18	
+R33	Causes Arg1:T19 Arg2:T18	
+R34	Used_for Arg1:T19 Arg2:T20	
+R35	Experiences Arg1:T33 Arg2:T19	
+R36	Experiences Arg1:T35 Arg2:T22	
+R37	Experiences Arg1:T38 Arg2:T23	
+R2	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T45	
+R3	Experiences Arg1:T41 Arg2:T10	
+R10	Used_for Arg1:T10 Arg2:T11	
+A9	Experiencer T39 Patient
+A10	Experiencer T32 Other
+A11	Experiencer T38 Patient
+A12	Experiencer T35 Patient
+A13	Experiencer T33 Patient
+A14	Experiencer T31 Patient
+A15	Experiencer T30 Patient
+A16	Experiencer T40 Patient
+A17	Experiencer T42 Patient
+A18	Experiencer T41 Patient
+A19	Experiencer T28 Patient

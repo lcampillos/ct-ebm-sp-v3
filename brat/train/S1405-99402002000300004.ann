@@ -1,0 +1,153 @@
+T1	DISO 16 27	hemorragias
+#1	AnnotatorNotes T1	C0019080; Hemorrhage; Pathologic Function
+T2	CHEM 59 70	enoxaparina
+#2	AnnotatorNotes T2	C0206460; enoxaparin; Organic Chemical · Pharmacologic Substance
+T3	DISO 74 90	angina inestable
+#3	AnnotatorNotes T3	C0002965; Angina, Unstable; Disease or Syndrome
+T4	CHEM 125 136	ENoxaparina
+#4	AnnotatorNotes T4	C0206460; enoxaparin; Organic Chemical · Pharmacologic Substance
+T5	CHEM 140 163	Heparina No Fraccionada
+#5	AnnotatorNotes T5	C0019134; heparin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T6	DISO 167 183	Angina Inestable
+#6	AnnotatorNotes T6	C0002965; Angina, Unstable; Disease or Syndrome
+T7	PROC 214 260	estudio prospectivo, aleatorizado y controlado
+#7	AnnotatorNotes T7	C0033522; Prospective Studies; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T8	DISO 276 290	complicaciones
+#8	AnnotatorNotes T8	C0009566; Complication; Pathologic Function
+T9	PROC 306 317	tratamiento
+#9	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	CHEM 336 347	enoxaparina
+#10	AnnotatorNotes T10	C0206460; enoxaparin; Organic Chemical · Pharmacologic Substance
+T11	CHEM 413 416	HNF
+#11	AnnotatorNotes T11	C0019134; heparin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T12	PROC 479 483	TTPa
+#12	AnnotatorNotes T12	C0030605; Activated Partial Thromboplastin Time measurement; Laboratory Procedure
+T13	ANAT 524 531	séricos
+#13	AnnotatorNotes T13	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T14	CHEM 535 542	anti-Xa
+#14	AnnotatorNotes T14	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance (?)
+T15	PROC 581 592	tratamiento
+#15	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 516 542	niveles séricos de anti-Xa
+T17	PROC 637 648	seguimiento
+#16	AnnotatorNotes T17	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T18	PROC 739 752	angiográficas
+#17	AnnotatorNotes T18	C0002978; angiogram; Diagnostic Procedure
+T19	PROC 1017 1030	angiográficas
+#18	AnnotatorNotes T19	C0002978; angiogram; Diagnostic Procedure
+T20	CHEM 1062 1069	anti-Xa
+#19	AnnotatorNotes T20	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance (?)
+T21	CHEM 1096 1107	enoxaparina
+#20	AnnotatorNotes T21	C0206460; enoxaparin; Organic Chemical · Pharmacologic Substance
+T22	DISO 1167 1178	hemorragias
+#21	AnnotatorNotes T22	C0019080; Hemorrhage; Pathologic Function
+T23	PROC 1044 1069	niveles útiles de anti-Xa
+T24	ANAT 1341 1357	cardiovasculares
+#22	AnnotatorNotes T24	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T25	DISO 1333 1357	eventos cardiovasculares
+#23	AnnotatorNotes T25	C1320716; Cardiovascular event; Finding
+T26	CHEM 1502 1513	enoxaparina
+#24	AnnotatorNotes T26	C0206460; enoxaparin; Organic Chemical · Pharmacologic Substance
+T27	PROC 1571 1582	tratamiento
+#25	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	DISO 1631 1642	hemorragias
+#26	AnnotatorNotes T28	C0019080; Hemorrhage; Pathologic Function
+T29	CHEM 1676 1687	enoxaparina
+#27	AnnotatorNotes T29	C0206460; enoxaparin; Organic Chemical · Pharmacologic Substance
+T30	PROC 1719 1730	seguimiento
+#28	AnnotatorNotes T30	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T32	Dose 348 357	0.8 mg/kg
+T33	Route 358 368	subcutánea
+#29	AnnotatorNotes T33	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T34	Frequency 369 382	cada 12 horas
+T35	Duration 391 397	5 días
+T36	Route 417 428	intravenosa
+#30	AnnotatorNotes T36	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T37	Duration 446 452	5 días
+T38	Duration 545 564	las 4, 12, 24 horas
+T39	Duration 651 658	30 días
+T40	LIVB 832 841	pacientes
+#31	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 895 904	pacientes
+#32	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 1083 1092	pacientes
+#33	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	Spec_cue 1157 1166	riesgo de
+T47	Duration 1547 1567	las primeras 4 horas
+T48	Dose 40 55	dosis reducidas
+#34	AnnotatorNotes T48	C0445550; Low dose; Quantitative Concept
+T31	Duration 567 577	quinto día
+T46	Dose 1658 1672	dosis reducida
+#35	AnnotatorNotes T46	C0445550; Low dose; Quantitative Concept
+T44	LIVB 855 869	sexo masculino
+#36	AnnotatorNotes T44	C0025266; Male population group; Population Group
+A1	Assertion T22 Speculated
+R1	Speculation Arg1:T45 Arg2:T22	
+T49	Neg_cue 939 941	No
+T50	CONC 953 964	diferencias
+A2	Assertion T50 Negated
+#37	AnnotatorNotes T50	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T49 Arg2:T50	
+T51	Observation 94 105	alto riesgo
+R3	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T51	
+R4	Has_Dose_or_Strength Arg1:T2 Arg2:T48	
+T52	Quantifier_or_Qualifier 28 35	totales
+R5	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T52	
+R6	Has_Dose_or_Strength Arg1:T10 Arg2:T32	
+R7	Has_Route_or_Mode Arg1:T10 Arg2:T33	
+R8	Has_Frequency Arg1:T10 Arg2:T34	
+R9	Has_Duration_or_Interval Arg1:T10 Arg2:T35	
+R10	Has_Route_or_Mode Arg1:T11 Arg2:T36	
+R11	Has_Duration_or_Interval Arg1:T11 Arg2:T37	
+R12	Causes Arg1:T9 Arg2:T8	
+T53	Quantifier_or_Qualifier 429 437	continúa
+R13	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T53	
+R14	Overlap Arg1:T16 Arg2:T38	
+R15	Overlap Arg1:T16 Arg2:T31	
+R16	Has_Duration_or_Interval Arg1:T15 Arg2:T38	
+R17	Has_Duration_or_Interval Arg1:T15 Arg2:T31	
+R18	Overlap Arg1:T17 Arg2:T39	
+T54	CONC 671 705	análisis univariado y multivariado
+#38	AnnotatorNotes T54	C0026777; Multivariate Analysis; Quantitative Concept + C0683962; univariate statistics; Research Activity
+T55	CONC 713 737	características clínicas
+T56	CONC 713 728;739 752	características angiográficas
+T57	CONC 990 1014	características clínicas
+T58	CONC 1017 1030;990 1005	angiográficas características
+R19	Experiences Arg1:T43 Arg2:T23	
+R20	Experiences Arg1:T43 Arg2:T21	
+T59	Quantifier_or_Qualifier 1179 1186	totales
+R21	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T59	
+R22	Location_of Arg1:T24 Arg2:T25	
+T60	Quantifier_or_Qualifier 1358 1365	mayores
+R23	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T60	
+T61	Observation 1520 1540	niveles terapéuticos
+R25	Causes Arg1:T26 Arg2:T61	
+R26	After Arg1:T61 Arg2:T47	
+R27	Has_Duration_or_Interval Arg1:T27 Arg2:T47	
+T62	Quantifier_or_Qualifier 1643 1650	totales
+R28	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T62	
+R29	Has_Dose_or_Strength Arg1:T29 Arg2:T46	
+T63	Neg_cue 149 151	No
+T64	Quantifier_or_Qualifier 152 163	Fraccionada
+A3	Assertion T64 Negated
+R31	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T64	
+R32	Negation Arg1:T63 Arg2:T64	
+T65	LIVB 296 317	grupos de tratamiento
+#39	AnnotatorNotes T65	C5205742; Treatment Group; Population Group
+R33	Experiences Arg1:T65 Arg2:T9	
+R34	Experiences Arg1:T65 Arg2:T8	
+#40	AnnotatorNotes T51	C4319571; High risk; Finding
+#41	AnnotatorNotes T52	C0439810; Total; Qualitative Concept
+#42	AnnotatorNotes T53	C0549178; Continuous; Idea or Concept
+#43	AnnotatorNotes T16	C0427612; Anti factor Xa measurement; Laboratory Procedure (?)
+#44	AnnotatorNotes T23	C0427612; Anti factor Xa measurement; Laboratory Procedure (?)
+#45	AnnotatorNotes T59	C0439810; Total; Qualitative Concept
+A4	Assertion T59 Speculated
+R35	Speculation Arg1:T45 Arg2:T59	
+#46	AnnotatorNotes T60	C0205164; Major; Qualitative Concept
+#47	AnnotatorNotes T62	C0439810; Total; Qualitative Concept
+A5	Experiencer T43 Patient
+A6	Experiencer T65 Patient
+A7	Experiencer T40 Patient
+A8	Experiencer T44 Patient
+A9	Experiencer T41 Patient

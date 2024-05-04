@@ -1,0 +1,160 @@
+T1	PROC 46 79	Ensayo para comparar la seguridad
+T2	ANAT 80 94	cardiovascular
+#1	AnnotatorNotes T2	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T3	CHEM 101 118	insulina degludec
+#2	AnnotatorNotes T3	C3491971; insulin degludec; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T4	CHEM 131 148	insulina glargina
+#3	AnnotatorNotes T4	C0907402; insulin glargine; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T5	DISO 166 184	diabetes de tipo 2
+#4	AnnotatorNotes T5	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T6	ANAT 212 228	cardiovasculares
+#5	AnnotatorNotes T6	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T7	DISO 252 267	Diabetes tipo 2
+#6	AnnotatorNotes T7	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T8	DISO 294 318	Diabetes Mellitus tipo 2
+#7	AnnotatorNotes T8	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T9	DISO 347 365	Diabetes de tipo 2
+#8	AnnotatorNotes T9	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T10	DISO 387 416	enfermedades cardiovasculares
+#9	AnnotatorNotes T10	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T11	DISO 432 451	insuficiencia renal
+#10	AnnotatorNotes T11	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T12	DISO 202 228	episodios cardiovasculares
+T13	DISO 486 507	riesgo cardiovascular
+#11	AnnotatorNotes T13	C4324389; Cardiovascular Risk; Finding
+T14	PROC 556 571	insulinoterapia
+#12	AnnotatorNotes T14	C0557978; Insulin regime; Therapeutic or Preventive Procedure
+T15	DISO 717 759	Episodio coronario o cerebrovascular agudo
+T16	CHEM 652 666	antidiabéticos
+#13	AnnotatorNotes T16	C0935929; Antidiabetics; Pharmacologic Substance
+T17	ANAT 726 735	coronario
+#14	AnnotatorNotes T17	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T18	PROC 786 846	Revascularización arterial coronaria, carotídea o periférica
+T19	ANAT 824 833	carotídea
+#15	AnnotatorNotes T19	C0007272; Carotid Arteries; Body Part, Organ, or Organ Component
+T20	DISO 861 891	Insuficiencia cardíaca crónica
+#16	AnnotatorNotes T20	C0264716; Chronic heart failure; Disease or Syndrome
+T21	DISO 929 948	Neoplasias malignas
+#17	AnnotatorNotes T21	C0006826; Malignant Neoplasms; Neoplastic Process
+T22	DISO 1002 1023	carcinoma basocelular
+#18	AnnotatorNotes T22	C0007117; Basal cell carcinoma; Neoplastic Process
+T23	DISO 1026 1060	carcinoma espinocelular de la piel
+#19	AnnotatorNotes T23	C0553723; Squamous cell carcinoma of skin; Neoplastic Process
+T24	ANAT 1056 1060	piel
+#20	AnnotatorNotes T24	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T25	ANAT 400 416	cardiovasculares
+#21	AnnotatorNotes T25	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T26	ANAT 446 451	renal
+#22	AnnotatorNotes T26	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T27	ANAT 493 507	cardiovascular
+#23	AnnotatorNotes T27	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T28	PROC 524 529	HbA1c
+#24	AnnotatorNotes T28	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T29	PROC 540 545	HbA1c
+#25	AnnotatorNotes T29	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T30	CHEM 617 625	insulina
+#26	AnnotatorNotes T30	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T31	ANAT 804 812	arterial
+#27	AnnotatorNotes T31	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T32	ANAT 813 822	coronaria
+#28	AnnotatorNotes T32	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T33	ANAT 875 883	cardíaca
+#29	AnnotatorNotes T33	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T34	ANAT 1012 1023	basocelular
+#30	AnnotatorNotes T34	C0596155; Basal Cell; Cell
+T35	ANAT 1036 1049	espinocelular
+#31	AnnotatorNotes T35	C1181285; Prickle cell of epidermis; Cell
+T36	Date 13 17	2013
+T37	LIVB 152 161	pacientes
+#32	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Spec_cue 192 201	riesgo de
+T39	Age 373 382	≥ 50 años
+T40	Age 460 469	≥ 60 años
+T42	Date 572 578	actual
+T43	Dose 600 613	mínimo a 20 U
+T44	Frequency 632 638	al día
+T45	Route 667 673	orales
+#33	AnnotatorNotes T45	C1527415; Oral Route of Drug administration; Functional Concept
+T46	Duration 763 782	los 60 días previos
+T47	Duration 884 891	crónica
+#34	AnnotatorNotes T47	C0205191; chronic; Temporal Concept
+T49	Date 961 968	pasadas
+T50	Duration 973 991	los 5 últimos años
+T51	Neg_cue 994 1001	excepto
+T41	Route 676 687	inyectables
+T48	Date 949 958	presentes
+T52	PROC 921 925	NYHA
+#35	AnnotatorNotes T52	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+A1	Assertion T12 Speculated
+A2	Assertion T22 Negated
+A3	Assertion T23 Negated
+A4	Status T15 History_of
+A5	Status T21 History_of
+A6	Status T22 History_of
+A7	Status T23 History_of
+#36	AnnotatorNotes T1	C1579762; comparative study research; Research Activity + C1705187; Safety Study; Research Activity
+#37	AnnotatorNotes T12	C1320716; Cardiovascular event; Finding 
+#38	AnnotatorNotes T42	C0521116; Current (present time); Temporal Concept 
+#39	AnnotatorNotes T48	C0521116; Current (present time); Temporal Concept 
+#40	AnnotatorNotes T49	C1444637; In the past; Temporal Concept
+#41	AnnotatorNotes T41	C4723827; Injection Method of Administration; Functional Concept 
+R1	Location_of Arg1:T2 Arg2:T12	
+R2	Location_of Arg1:T6 Arg2:T12	
+R3	Speculation Arg1:T38 Arg2:T12	
+R4	Experiences Arg1:T37 Arg2:T3	
+R5	Experiences Arg1:T37 Arg2:T4	
+R6	Experiences Arg1:T37 Arg2:T5	
+R7	Experiences Arg1:T37 Arg2:T12	
+T53	Observation 187 201	alto riesgo de
+#42	AnnotatorNotes T53	C0332167; High risk of; Finding
+R8	Before Arg1:T53 Arg2:T12	
+R9	Experiences Arg1:T37 Arg2:T53	
+R10	Overlap Arg1:T5 Arg2:T53	
+R11	Location_of Arg1:T25 Arg2:T10	
+R12	Location_of Arg1:T26 Arg2:T11	
+T54	Observation 474 507	factores de riesgo cardiovascular
+#43	AnnotatorNotes T54	C0850624; Heart Disease Risk Factors; Finding
+R13	Location_of Arg1:T27 Arg2:T13	
+R14	Location_of Arg1:T27 Arg2:T54	
+R15	Overlap Arg1:T10 Arg2:T39	
+R16	Overlap Arg1:T11 Arg2:T39	
+R17	Overlap Arg1:T54 Arg2:T40	
+T55	Result_or_Value 530 537	≥ 7,0 %
+T56	Result_or_Value 546 553	< 7,0 %
+R18	Has_Result_or_Value Arg1:T28 Arg2:T55	
+R19	Has_Result_or_Value Arg1:T29 Arg2:T56	
+R20	Overlap Arg1:T14 Arg2:T42	
+R21	Used_for Arg1:T30 Arg2:T14	
+R22	Has_Dose_or_Strength Arg1:T30 Arg2:T43	
+R23	Has_Frequency Arg1:T30 Arg2:T44	
+T57	Quantifier_or_Qualifier 626 631	basal
+#44	AnnotatorNotes T57	C1442488; Baseline; Quantitative Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T57	
+T58	Quantifier_or_Qualifier 642 651	Uno o más
+R25	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T58	
+R26	Has_Route_or_Mode Arg1:T16 Arg2:T45	
+R27	Has_Route_or_Mode Arg1:T16 Arg2:T41	
+R28	Overlap Arg1:T15 Arg2:T46	
+R29	Location_of Arg1:T17 Arg2:T15	
+R30	Location_of Arg1:T33 Arg2:T20	
+R31	Location_of Arg1:T31 Arg2:T18	
+R32	Location_of Arg1:T32 Arg2:T18	
+R33	Location_of Arg1:T19 Arg2:T18	
+T59	Result_or_Value 896 914	clase funcional IV
+R34	Has_Result_or_Value Arg1:T52 Arg2:T59	
+R35	Has_Duration_or_Interval Arg1:T20 Arg2:T47	
+T60	Quantifier_or_Qualifier 847 857	programada
+#45	AnnotatorNotes T60	C0205539; Scheduled - procedure status; Qualitative Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T60	
+R38	Overlap Arg1:T21 Arg2:T48	
+R39	Overlap Arg1:T21 Arg2:T49	
+R40	Overlap Arg1:T21 Arg2:T50	
+R41	Negation Arg1:T51 Arg2:T22	
+R42	Location_of Arg1:T34 Arg2:T22	
+R43	Location_of Arg1:T24 Arg2:T23	
+R44	Location_of Arg1:T35 Arg2:T23	
+R45	Negation Arg1:T51 Arg2:T23	
+#46	AnnotatorNotes T15	C0948089; Acute Coronary Syndrome; Disease or Syndrome (?) | C0751956; Acute Cerebrovascular Accidents; Disease or Syndrome
+#47	AnnotatorNotes T18	C0877341; Coronary revascularisation; Therapeutic or Preventive Procedure | C3495793; Carotid revascularisation; Therapeutic or Preventive Procedure | C1096418; Peripheral revascularisation; Therapeutic or Preventive Procedure
+A8	Experiencer T37 Patient
+A9	Status T18 Future

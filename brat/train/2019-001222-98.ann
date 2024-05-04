@@ -1,0 +1,353 @@
+T1	PROC 93 101	tratados
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 54 63	nivolumab
+#2	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 66 76	ipilimumab
+#3	AnnotatorNotes T3	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	DISO 106 110	CPNM
+#4	AnnotatorNotes T4	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T5	PROC 174 181	cirugía
+#5	AnnotatorNotes T5	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T6	PROC 203 239	Ensayo fase 3, aleatorizado, abierto
+T7	CHEM 255 264	nivolumab
+#6	AnnotatorNotes T7	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	PROC 269 300	quimiorradioterapia concurrente
+T9	CHEM 321 330	nivolumab
+#7	AnnotatorNotes T9	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	CHEM 335 345	ipilimumab
+#8	AnnotatorNotes T10	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	CHEM 348 357	nivolumab
+#9	AnnotatorNotes T11	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T12	CHEM 380 389	nivolumab
+#10	AnnotatorNotes T12	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	CHEM 416 426	durvalumab
+#11	AnnotatorNotes T13	C4055109; durvalumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	DISO 433 464	cáncer de pulmón no microcítico
+#12	AnnotatorNotes T14	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T15	DISO 486 490	CPNM
+#13	AnnotatorNotes T15	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T16	DISO 540 556	Cáncer de pulmón
+#14	AnnotatorNotes T16	C0242379; Malignant neoplasm of lung; Neoplastic Process | C0684249; Carcinoma of lung; Neoplastic Process
+T17	DISO 582 613	Cáncer de pulmón no microcítico
+#15	AnnotatorNotes T17	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T18	DISO 659 663	CPNM
+#16	AnnotatorNotes T18	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T19	PROC 498 505	tratado
+#17	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	DISO 830 834	CPNM
+#18	AnnotatorNotes T20	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T21	PROC 909 920	diagnóstico
+#19	AnnotatorNotes T21	C0011900; Diagnosis; Diagnostic Procedure
+T22	PROC 925 936	tratamiento
+#20	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	PROC 942 967	tratamiento anticanceroso
+T24	PROC 1003 1023	tratamiento primario
+#21	AnnotatorNotes T24	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T25	DISO 1029 1039	enfermedad
+#22	AnnotatorNotes T25	C0012634; Disease; Disease or Syndrome
+T26	PROC 1126 1135	protocolo
+#23	AnnotatorNotes T26	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T27	PROC 1298 1307	protocolo
+#24	AnnotatorNotes T27	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T28	PROC 1371 1382	Tratamiento
+#25	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	CHEM 1397 1417	anticuerpo anti-PD-1
+T30	CHEM 1419 1429	anti-PD-L1
+T31	CHEM 1431 1441	anti-PD-L2
+T32	CHEM 1444 1455	anti-CTLA-4
+T33	CHEM 1474 1484	anticuerpo
+#26	AnnotatorNotes T33	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T34	CHEM 1487 1584	fármaco dirigido específicamente a la co estimulación de células T o las vías de punto de control
+#27	AnnotatorNotes T34	C3192215; Selective T Cell Costimulation Blocker; Pharmacologic Substance (?) | C4684977; Immune Checkpoint Inhibitors; Pharmacologic Substance (?)
+T35	ANAT 1544 1553	células T
+#28	AnnotatorNotes T35	C0039194; T-Lymphocyte; Cell
+T36	DISO 1587 1596	Infección
+#29	AnnotatorNotes T36	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T37	PROC 1617 1634	terapia sistémica
+#30	AnnotatorNotes T37	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+T38	PROC 1673 1687	aleatorización
+#31	AnnotatorNotes T38	C0034656; Randomization; Research Activity
+T39	DISO 1690 1708	Enfermedad maligna
+T40	DISO 1764 1772	cánceres
+#32	AnnotatorNotes T40	C0006826; Malignant Neoplasms; Neoplastic Process
+T41	DISO 1854 1875	enfermedad autoinmune
+#33	AnnotatorNotes T41	C0004364; Autoimmune Diseases; Disease or Syndrome
+T42	DISO 1912 1920	afección
+#34	AnnotatorNotes T42	C0221423; Illness (finding); Sign or Symptom
+T43	PROC 1934 1955	tratamiento sistémico
+T44	CHEM 1960 1976	corticosteroides
+#35	AnnotatorNotes T44	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T45	CHEM 1989 1999	prednisona
+#36	AnnotatorNotes T45	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T46	CHEM 2031 2060	medicamentos inmunosupresores
+T47	PROC 2105 2119	aleatorización
+#37	AnnotatorNotes T47	C0034656; Randomization; Research Activity
+T48	ANAT 2159 2166	tejidos
+#38	AnnotatorNotes T48	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T49	CHEM 2200 2216	inmunosupresores
+#39	AnnotatorNotes T49	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T50	PROC 2256 2277	Radioterapia torácica
+T51	ANAT 2269 2277	torácica
+#40	AnnotatorNotes T51	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T52	PROC 2352 2361	protocolo
+#41	AnnotatorNotes T52	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T53	ANAT 443 449	pulmón
+#42	AnnotatorNotes T53	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T54	ANAT 453 464	microcítico
+#43	AnnotatorNotes T54	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T55	ANAT 550 556	pulmón
+#44	AnnotatorNotes T55	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T56	ANAT 592 598	pulmón
+#45	AnnotatorNotes T56	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T57	ANAT 602 613	microcítico
+#46	AnnotatorNotes T57	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T58	PROC 649 656	tratado
+#47	AnnotatorNotes T58	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T59	DISO 1173 1214	condición médica, emocional, psiquiátrica
+T60	PROC 2135 2166	trasplante de órganos o tejidos
+T61	ANAT 2149 2156	órganos
+#48	AnnotatorNotes T61	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T62	DISO 2240 2255	pérdida de oído
+T64	Date 12 16	2019
+T65	LIVB 80 89	pacientes
+#49	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	Neg_cue 90 92	no
+T68	Neg_cue 139 141	no
+T69	Neg_cue 450 452	no
+T70	Neg_cue 495 497	no
+T71	Neg_cue 599 601	no
+T72	Neg_cue 646 648	no
+T73	Neg_cue 938 941	sin
+T76	LIVB 1247 1259	investigador
+#50	AnnotatorNotes T76	C0035173; Research Personnel; Professional or Occupational Group
+T78	LIVB 1275 1283	paciente
+#51	AnnotatorNotes T78	C0030705; Patients; Patient or Disabled Group
+T80	Duration 1645 1656	los 14 días
+T81	Duration 1726 1747	los 3 años anteriores
+T82	Neg_cue 1749 1756	excepto
+T83	Spec_cue 1895 1905	sospechada
+T84	Dose 1978 1985	> 10 mg
+T85	Frequency 2000 2007	diarios
+T86	Duration 2071 2082	los 14 días
+T88	PHYS 2251 2255	oído
+#52	AnnotatorNotes T88	C0018767; Hearing; Physiologic Function
+T74	PHYS 1525 1553	co estimulación de células T
+#53	AnnotatorNotes T74	C1622572; T cell costimulation; Cell Function
+T63	LIVB 1832 1845	participantes
+#54	AnnotatorNotes T63	C4554048; Study Participant; Population Group
+T67	PROC 835 851	histológicamente
+#55	AnnotatorNotes T67	C0344441; Histology Procedure; Laboratory Procedure
+T75	PHYS 1191 1200	emocional
+#56	AnnotatorNotes T75	C0013987; Emotions; Mental Process
+A1	Assertion T1 Negated
+A2	Assertion T5 Negated
+A3	Assertion T54 Negated
+A4	Assertion T19 Negated
+A5	Assertion T57 Negated
+A6	Assertion T58 Negated
+A7	Assertion T23 Negated
+A8	Assertion T40 Negated
+A9	Assertion T41 Speculated
+A10	Status T19 History_of
+A11	Status T58 History_of
+A12	Status T23 History_of
+A13	Status T28 History_of
+A14	Status T29 History_of
+A15	Status T30 History_of
+A16	Status T31 History_of
+A17	Status T32 History_of
+A18	Status T33 History_of
+A19	Status T34 History_of
+A20	Status T50 History_of
+A21	Status T60 History_of
+A22	Status T41 History_of
+A23	Status T39 History_of
+A24	Status T40 History_of
+#57	AnnotatorNotes T6	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C1709323; Open Label Study; Research Activity 
+#58	AnnotatorNotes T8	C3178775; Concurrent Chemoradiotherapy; Therapeutic or Preventive Procedure 
+#59	AnnotatorNotes T23	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+#60	AnnotatorNotes T59	C4745084; Medical Condition; Finding + C3843038; Emotional or mental condition; Finding
+#61	AnnotatorNotes T32	C4289973; Anti-CTLA-4 Monoclonal Antibody; Amino Acid, Peptide, or Protein
+#62	AnnotatorNotes T46	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+#63	AnnotatorNotes T60	C0080232; Tissue Transplantation; Therapeutic or Preventive Procedure + C0029216; Organ Transplantation; Therapeutic or Preventive Procedure
+#64	AnnotatorNotes T62	C1384666; hearing impairment; Disease or Syndrome 
+#65	AnnotatorNotes T29	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#66	AnnotatorNotes T30	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T77	Neg_cue 1261 1267	impida
+T79	Observation 1284 1307	se adhiera al protocolo
+A25	Assertion T79 Negated
+R1	Negation Arg1:T77 Arg2:T79	
+T87	Spec_cue 1063 1070	Podrían
+T89	Quantifier_or_Qualifier 1081 1086	otros
+A26	Assertion T89 Speculated
+T90	CONC 1087 1109	criterios de inclusión
+A27	Assertion T90 Speculated
+T91	Spec_cue 2288 2295	Podrían
+T92	Quantifier_or_Qualifier 2306 2311	otros
+A28	Assertion T92 Speculated
+T93	CONC 2312 2334	criterios de exclusión
+A29	Assertion T93 Speculated
+#67	AnnotatorNotes T93	C0680251; Exclusion Criteria; Functional Concept
+T94	Quantifier_or_Qualifier 1773 1792	localmente curables
+A30	Assertion T94 Negated
+R2	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T94	
+T95	Observation 1797 1827	aparentemente han sido curados
+A31	Assertion T95 Negated
+R3	Negation Arg1:T82 Arg2:T40	
+R4	Negation Arg1:T82 Arg2:T94	
+R5	Negation Arg1:T82 Arg2:T95	
+R6	Speculation Arg1:T83 Arg2:T41	
+R7	Speculation Arg1:T91 Arg2:T92	
+R8	Speculation Arg1:T91 Arg2:T93	
+R9	Has_Quantifier_or_Qualifier Arg1:T93 Arg2:T92	
+T96	CONC 873 890	clasificación TNM
+#68	AnnotatorNotes T96	C1515169; TNM Staging System; Classification
+T97	Result_or_Value 736 738	≤1
+T98	CONC 694 728	Eastern Cooperative Oncology Group
+#69	AnnotatorNotes T98	C1520224; ECOG performance status; Intellectual Product
+R10	Has_Result_or_Value Arg1:T98 Arg2:T97	
+T99	CONC 730 734	ECOG
+#70	AnnotatorNotes T99	C1520224; ECOG performance status; Intellectual Product
+R11	Has_Result_or_Value Arg1:T99 Arg2:T97	
+R12	Negation Arg1:T71 Arg2:T57	
+R13	Location_of Arg1:T56 Arg2:T17	
+R14	Location_of Arg1:T55 Arg2:T16	
+T100	Quantifier_or_Qualifier 614 633	localmente avanzado
+R15	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T100	
+R16	Negation Arg1:T72 Arg2:T58	
+R17	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T100	
+R18	Experiences Arg1:T65 Arg2:T2	
+R19	Experiences Arg1:T65 Arg2:T3	
+R20	Experiences Arg1:T65 Arg2:T1	
+R21	Negation Arg1:T66 Arg2:T1	
+R22	Experiences Arg1:T65 Arg2:T4	
+T101	Quantifier_or_Qualifier 114 123	estadio 3
+R23	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T101	
+R24	Negation Arg1:T68 Arg2:T5	
+R25	Combined_with Arg1:T7 Arg2:T8	
+R26	Combined_with Arg1:T9 Arg2:T10	
+R27	Before Arg1:T7 Arg2:T9	
+T102	PROC 362 366	QRTC
+T103	PROC 302 306	QRTC
+#71	AnnotatorNotes T103	C3178775; Concurrent Chemoradiotherapy; Therapeutic or Preventive Procedure
+T104	PROC 399 403	QRTC
+#72	AnnotatorNotes T104	C3178775; Concurrent Chemoradiotherapy; Therapeutic or Preventive Procedure
+#73	AnnotatorNotes T102	C3178775; Concurrent Chemoradiotherapy; Therapeutic or Preventive Procedure
+R29	Combined_with Arg1:T7 Arg2:T103	
+R30	Before Arg1:T11 Arg2:T12	
+R31	Combined_with Arg1:T11 Arg2:T102	
+R32	Before Arg1:T104 Arg2:T13	
+R33	Location_of Arg1:T53 Arg2:T14	
+R34	Negation Arg1:T69 Arg2:T54	
+R35	Location_of Arg1:T54 Arg2:T14	
+T105	Quantifier_or_Qualifier 465 484	localmente avanzado
+R36	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T105	
+R37	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T105	
+R38	Negation Arg1:T70 Arg2:T19	
+T106	Quantifier_or_Qualifier 739 766	Estadio localmente avanzado
+T107	Quantifier_or_Qualifier 903 920	Nuevo diagnóstico
+#74	AnnotatorNotes T107	C1518321; Newly Diagnosed; Qualitative Concept
+R39	Negation Arg1:T73 Arg2:T23	
+T108	Quantifier_or_Qualifier 975 980	local
+#75	AnnotatorNotes T108	C0205276; Local; Spatial Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T108	
+A32	Status T108 History_of
+T109	Quantifier_or_Qualifier 983 992	sistémico
+#76	AnnotatorNotes T109	C0205373; Systemic; Functional Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T109	
+A33	Status T109 History_of
+A34	Assertion T108 Negated
+A35	Assertion T109 Negated
+R42	Negation Arg1:T73 Arg2:T108	
+R43	Negation Arg1:T73 Arg2:T109	
+T110	Quantifier_or_Qualifier 1040 1059	localmente avanzada
+R44	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T110	
+R45	Speculation Arg1:T87 Arg2:T89	
+R46	Has_Quantifier_or_Qualifier Arg1:T90 Arg2:T89	
+R47	Speculation Arg1:T87 Arg2:T90	
+R49	Before Arg1:T59 Arg2:T79	
+R50	Experiences Arg1:T78 Arg2:T59	
+T111	Observation 1321 1327	riesgo
+R52	Experiences Arg1:T78 Arg2:T111	
+T113	Observation 1342 1368	participación en el ensayo
+#78	AnnotatorNotes T113	C1278516; Patient participation status; Finding (?)
+R53	Overlap Arg1:T111 Arg2:T113	
+R54	Before Arg1:T59 Arg2:T113	
+R55	Used_for Arg1:T29 Arg2:T28	
+R56	Used_for Arg1:T30 Arg2:T28	
+R57	Used_for Arg1:T31 Arg2:T28	
+R58	Used_for Arg1:T32 Arg2:T28	
+R59	Used_for Arg1:T33 Arg2:T28	
+R60	Used_for Arg1:T34 Arg2:T28	
+R61	Location_of Arg1:T35 Arg2:T74	
+R62	Overlap Arg1:T37 Arg2:T80	
+R63	Before Arg1:T37 Arg2:T38	
+T114	Quantifier_or_Qualifier 1597 1603	activa
+#79	AnnotatorNotes T114	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R64	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T114	
+T115	Quantifier_or_Qualifier 1716 1722	activa
+#80	AnnotatorNotes T115	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R65	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T115	
+T116	Quantifier_or_Qualifier 1876 1882	activa
+#81	AnnotatorNotes T116	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R66	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T116	
+#82	AnnotatorNotes T39	C0442867; malignant disease; Disease or Syndrome
+R67	Overlap Arg1:T39 Arg2:T81	
+R68	Location_of Arg1:T51 Arg2:T50	
+#83	AnnotatorNotes T50	C4038705; Radiotherapy to thorax; Health Care Activity
+R69	Location_of Arg1:T61 Arg2:T60	
+R70	Location_of Arg1:T48 Arg2:T60	
+T117	Quantifier_or_Qualifier 2187 2196	sistémico
+#84	AnnotatorNotes T117	C0205373; Systemic; Functional Concept
+R71	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T117	
+R73	Has_Dose_or_Strength Arg1:T45 Arg2:T84	
+R74	Has_Frequency Arg1:T45 Arg2:T85	
+T118	CONC 1989 1999;2010 2021	prednisona equivalente
+R75	Experiences Arg1:T63 Arg2:T41	
+R76	Experiences Arg1:T63 Arg2:T42	
+#85	AnnotatorNotes T43	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+R77	Experiences Arg1:T63 Arg2:T43	
+R78	Used_for Arg1:T44 Arg2:T43	
+R79	Used_for Arg1:T45 Arg2:T43	
+R80	Used_for Arg1:T46 Arg2:T43	
+R81	Overlap Arg1:T46 Arg2:T86	
+R82	Before Arg1:T47 Arg2:T46	
+R83	Before Arg1:T47 Arg2:T45	
+R84	Before Arg1:T47 Arg2:T44	
+R85	Before Arg1:T47 Arg2:T43	
+R86	Overlap Arg1:T45 Arg2:T86	
+R87	Overlap Arg1:T44 Arg2:T86	
+T119	Observation 767 771	IIIA
+T120	Observation 773 777	IIIB
+T121	Observation 781 785	IIIC
+T122	Observation 787 799	T1-2 N2-3 M0
+#86	AnnotatorNotes T122	C0475372; Tumor stage T1; Finding | C0475373; Tumor stage T2; Finding + C0441960; N2 category (finding); Finding | C0441961; N3 category (finding); Finding + C0445034; M0 Stage Finding; Finding
+T124	Observation 815 825	T4 N0-3 M0
+#88	AnnotatorNotes T124	C0475751; Tumor stage T4; Finding + C0441959; Node stage N0; Finding | C0441962; Node stage N1; Finding | C0441960; N2 category (finding); Finding | C0441961; N3 category (finding); Finding + C0445034; M0 Stage Finding; Finding
+R88	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T119	
+R89	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T120	
+R90	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T121	
+T125	Observation 801 811	T3 N1-3 M0
+#89	AnnotatorNotes T125	C0475374; Tumor stage T3; Finding + C0441962; Node stage N1; Finding | C0441960; N2 category (finding); Finding | C0441961; N3 category (finding); Finding + C0445034; M0 Stage Finding; Finding
+R91	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T122	
+R92	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T125	
+R93	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T106	
+R94	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T124	
+#87	AnnotatorNotes T111	C0559571; At risk - finding; Finding
+R48	Experiences Arg1:T65 Arg2:T5	
+T123	Quantifier_or_Qualifier 147 155	previsto
+#90	AnnotatorNotes T123	C1301732; Planned; Functional Concept
+A37	Assertion T123 Negated
+R95	Negation Arg1:T68 Arg2:T123	
+#91	AnnotatorNotes T89	C0205394; Other; Qualitative Concept
+#92	AnnotatorNotes T90	C1512693; Inclusion Criteria; Qualitative Concept
+R28	Overlap Arg1:T79 Arg2:T27	
+#77	AnnotatorNotes T92	C0205394; Other; Qualitative Concept
+#93	AnnotatorNotes T119	C3250646; malignant neoplasm stage IIIA; Finding
+#94	AnnotatorNotes T120	C3250647; malignant neoplasm stage IIIB; Finding
+#95	AnnotatorNotes T121	C3250648; malignant neoplasm stage IIIC; Finding
+A36	Experiencer T78 Patient
+A38	Experiencer T76 Other
+A39	Experiencer T65 Patient
+A40	Status T5 Future
+A41	Experiencer T63 Patient

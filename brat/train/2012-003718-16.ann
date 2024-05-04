@@ -1,0 +1,192 @@
+T1	DISO 116 127	metastásico
+#1	AnnotatorNotes T1	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T2	CHEM 77 88	dacarbacina
+#2	AnnotatorNotes T2	C0010927; dacarbazine; Organic Chemical · Pharmacologic Substance
+T3	DISO 267 278	metastásico
+#3	AnnotatorNotes T3	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T4	PROC 151 192	Estudio fase 3, aleatorizado, doble ciego
+T5	CHEM 217 228	dacarbacina
+#4	AnnotatorNotes T5	C0010927; dacarbazine; Organic Chemical · Pharmacologic Substance
+T6	DISO 244 252	melanoma
+#5	AnnotatorNotes T6	C0025202; melanoma; Neoplastic Process
+T7	PROC 317 326	protocolo
+#6	AnnotatorNotes T7	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T8	DISO 401 409	melanoma
+#7	AnnotatorNotes T8	C0025202; melanoma; Neoplastic Process
+T9	DISO 544 552	Melanoma
+#8	AnnotatorNotes T9	C0025202; melanoma; Neoplastic Process
+T10	DISO 901 909	mutación
+T11	DISO 675 693	Enfermedad medible
+#9	AnnotatorNotes T11	C1513041; Measurable Disease; Disease or Syndrome
+T12	DISO 745 752	tumoral
+#10	AnnotatorNotes T12	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T13	DISO 776 786	enfermedad
+#11	AnnotatorNotes T13	C0012634; Disease; Disease or Syndrome
+T14	PROC 822 847	análisis de biomarcadores
+T15	DISO 1095 1116	Metástasis cerebrales
+#12	AnnotatorNotes T15	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T16	DISO 1127 1152	metástasis leptomeníngeas
+#13	AnnotatorNotes T16	C1704231; Metastatic Malignant Neoplasm to the Leptomeninges; Neoplastic Process
+T17	DISO 1156 1171	Melanoma ocular
+#14	AnnotatorNotes T17	C0558356; Malignant melanoma of eye; Neoplastic Process
+T18	DISO 1187 1213	enfermedad autoinmunitaria
+#15	AnnotatorNotes T18	C0004364; Autoimmune Diseases; Disease or Syndrome
+T19	PROC 1300 1312	randomizados
+#16	AnnotatorNotes T19	C0034656; Randomization; Research Activity
+T20	CHEM 1325 1336	Dacarbazina
+#17	AnnotatorNotes T20	C0010927; dacarbazine; Organic Chemical · Pharmacologic Substance
+T21	CHEM 1391 1400	nivolumab
+#18	AnnotatorNotes T21	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T22	DISO 801 812	metastásica
+#19	AnnotatorNotes T22	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T23	PROC 1427 1436	protocolo
+#20	AnnotatorNotes T23	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T24	DISO 93 101	melanoma
+#21	AnnotatorNotes T24	C0025202; melanoma; Neoplastic Process
+T25	PROC 663 670	tratado
+#22	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	DISO 986 994	mutación
+T27	PROC 282 289	tratado
+#23	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	ANAT 738 752	tejido tumoral
+T29	PROC 880 917	pruebas de estado de mutación de V600
+#24	AnnotatorNotes T29	C3248133; BRAF GENE ANALYSIS V600E VARIANT; Laboratory Procedure
+T30	ANAT 1106 1116	cerebrales
+#25	AnnotatorNotes T30	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T31	ANAT 1138 1152	leptomeníngeas
+#26	AnnotatorNotes T31	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T32	ANAT 1165 1171	ocular
+#27	AnnotatorNotes T32	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T33	CHEM 57 67	BMS-936558
+#28	AnnotatorNotes T33	C4552119; BMS-936558; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T34	CHEM 197 207	BMS-936558
+#29	AnnotatorNotes T34	C4552119; BMS-936558; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T35	Date 13 17	2012
+T36	LIVB 232 239	sujetos
+#30	AnnotatorNotes T36	C0681850; Study Subject; Group
+T37	Neg_cue 279 281	no
+T38	Date 357 376	20 de marzo de 2013
+T39	LIVB 448 455	mujeres
+#31	AnnotatorNotes T39	C0043210; Woman; Population Group
+T40	Age 456 465	>=18 años
+T44	Neg_cue 660 662	no
+T45	Neg_cue 944 946	No
+T46	LIVB 974 981	sujetos
+#32	AnnotatorNotes T46	C0681850; Study Subject; Group
+T48	LIVB 1175 1182	Sujetos
+#33	AnnotatorNotes T48	C0681850; Study Subject; Group
+T49	Spec_cue 1236 1244	sospecha
+T50	LIVB 1290 1299	pacientes
+#34	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Date 1343 1348	ahora
+T55	GENE 852 856	BRAF
+#35	AnnotatorNotes T55	C0812241; BRAF gene; Gene or Genome
+T52	LIVB 438 445	Varones
+#36	AnnotatorNotes T52	C0025266; Male population group; Population Group
+T41	GENE 998 1002	BRAF
+#37	AnnotatorNotes T41	C0812241; BRAF gene; Gene or Genome
+T42	GENE 1032 1036	BRAF
+#38	AnnotatorNotes T42	C0812241; BRAF gene; Gene or Genome
+T43	PROC 593 616	estadificación del AJCC
+#39	AnnotatorNotes T43	C1971458; American Joint Committee on Cancer (AJCC) stage documented and reviewed (ONC); Health Care Activity
+T47	PROC 469 485	Estado funcional
+#40	AnnotatorNotes T47	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T53	PROC 629 645	histológicamente
+#41	AnnotatorNotes T53	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T27 Negated
+A2	Assertion T25 Negated
+A3	Assertion T26 Negated
+A4	Assertion T46 Negated
+A5	Assertion T18 Speculated
+A6	Status T27 History_of
+A7	Status T18 History_of
+#42	AnnotatorNotes T4	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#43	AnnotatorNotes T28	C0475358; Tumor tissue sample; Tissue
+#44	AnnotatorNotes T14	C1879847; Biomarker Analysis; Laboratory Procedure
+#45	AnnotatorNotes T10	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#46	AnnotatorNotes T26	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+T54	Observation 1022 1064	estado de BRAF indeterminado o desconocido
+A8	Assertion T54 Negated
+T58	Neg_cue 1003 1005	ni
+R1	Negation Arg1:T58 Arg2:T54	
+R2	Negation Arg1:T45 Arg2:T26	
+R3	Location_of Arg1:T55 Arg2:T10	
+R4	Location_of Arg1:T41 Arg2:T26	
+R5	Location_of Arg1:T42 Arg2:T26	
+R6	Negation Arg1:T45 Arg2:T46	
+T59	Result_or_Value 535 540	0 ó 1
+T60	Observation 102 113	irresecable
+#47	AnnotatorNotes T60	C4039777; Tumor surgically unresectable; Finding
+R7	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T60	
+R8	Before Arg1:T24 Arg2:T1	
+R9	Experiences Arg1:T36 Arg2:T34	
+R10	Experiences Arg1:T36 Arg2:T5	
+R11	Experiences Arg1:T36 Arg2:T6	
+T61	Observation 253 264	irresecable
+#48	AnnotatorNotes T61	C4039777; Tumor surgically unresectable; Finding
+R12	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T61	
+R13	Negation Arg1:T37 Arg2:T27	
+R14	Overlap Arg1:T7 Arg2:T38	
+R15	Before Arg1:T6 Arg2:T3	
+R16	Experiences Arg1:T36 Arg2:T3	
+R17	Has_Age Arg1:T39 Arg2:T40	
+R18	Has_Age Arg1:T52 Arg2:T40	
+T62	CONC 490 524	Eastern Cooperative Oncology Group
+#49	AnnotatorNotes T62	C1520224; ECOG performance status; Intellectual Product
+T63	CONC 526 530	ECOG
+#50	AnnotatorNotes T63	C1520224; ECOG performance status; Intellectual Product
+R19	Has_Result_or_Value Arg1:T63 Arg2:T59	
+R20	Used_for Arg1:T63 Arg2:T47	
+R21	Used_for Arg1:T62 Arg2:T47	
+R22	Has_Result_or_Value Arg1:T62 Arg2:T59	
+T64	Observation 647 658	irresecable
+#51	AnnotatorNotes T64	C4039777; Tumor surgically unresectable; Finding
+T65	Quantifier_or_Qualifier 556 572	estadio III o IV
+R23	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T65	
+R26	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T64	
+R27	Negation Arg1:T44 Arg2:T25	
+T66	CONC 704 714	RECIST 1.1
+#52	AnnotatorNotes T66	C1709926; Response Evaluation Criteria in Solid Tumors; Intellectual Product
+T67	Observation 787 798	irresecable
+#53	AnnotatorNotes T67	C4039777; Tumor surgically unresectable; Finding
+R29	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T67	
+R30	Before Arg1:T13 Arg2:T22	
+T68	Quantifier_or_Qualifier 857 864	natural
+#54	AnnotatorNotes T68	C0205296; Natural; Functional Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T68	
+T69	CONC 961 970	inclusión
+A9	Assertion T69 Negated
+#55	AnnotatorNotes T69	C1512693; Inclusion; Qualitative Concept
+R35	Negation Arg1:T45 Arg2:T69	
+R36	Experiences Arg1:T46 Arg2:T26	
+R37	Experiences Arg1:T46 Arg2:T54	
+R38	Location_of Arg1:T31 Arg2:T16	
+R39	Location_of Arg1:T30 Arg2:T15	
+R40	Location_of Arg1:T32 Arg2:T17	
+T70	Quantifier_or_Qualifier 1117 1124	activas
+#56	AnnotatorNotes T70	C0679217; Active State; Idea or Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T70	
+T71	Quantifier_or_Qualifier 1214 1220	activa
+#57	AnnotatorNotes T71	C0679217; Active State; Idea or Concept
+R42	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T71	
+R43	Speculation Arg1:T49 Arg2:T18	
+R44	Before Arg1:T19 Arg2:T20	
+R45	Experiences Arg1:T50 Arg2:T20	
+R46	Before Arg1:T20 Arg2:T21	
+R47	Overlap Arg1:T21 Arg2:T51	
+R48	Experiences Arg1:T50 Arg2:T21	
+T72	CONC 1362 1387	fase de extensión abierta
+R49	Overlap Arg1:T21 Arg2:T72	
+R50	Experiences Arg1:T36 Arg2:T27	
+R28	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T67	
+R31	Before Arg1:T12 Arg2:T22	
+A10	Assertion T41 Negated
+R24	Negation Arg1:T45 Arg2:T41	
+#58	AnnotatorNotes T51	C1948052; Now (temporal qualifier); Temporal Concept
+A11	Experiencer T36 Patient
+A12	Experiencer T39 Patient
+A13	Experiencer T52 Patient
+A14	Experiencer T46 Patient
+A15	Experiencer T48 Patient
+R25	Experiences Arg1:T48 Arg2:T18	
+A16	Experiencer T50 Patient

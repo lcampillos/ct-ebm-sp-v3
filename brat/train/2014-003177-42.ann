@@ -1,0 +1,164 @@
+T1	PROC 69 90	Estudio multinacional
+T2	PROC 123 146	vacunación frente a VPH
+T3	PROC 191 198	cribado
+#1	AnnotatorNotes T3	C0220908; Screening procedure; Diagnostic Procedure | C1710031; Disease Screening; Diagnostic Procedure
+T4	DISO 202 226	cáncer de cuello uterino
+#2	AnnotatorNotes T4	C0007873; Uterine Cervical Neoplasm; Neoplastic Process | C0302592; Cervix carcinoma; Neoplastic Process | C4048328; cervical cancer; Neoplastic Process
+T5	DISO 312 328	Cancer de cérvix
+#3	AnnotatorNotes T5	C0007873; Uterine Cervical Neoplasm; Neoplastic Process | C0302592; Cervix carcinoma; Neoplastic Process | C4048328; cervical cancer; Neoplastic Process
+T6	DISO 250 285	Tumor en el cérvix o cuello uterino
+T7	ANAT 262 268	cérvix
+#4	AnnotatorNotes T7	C0007874; Cervix Uteri; Body Part, Organ, or Organ Component | C1278987; Entire cervix uteri; Body Part, Organ, or Organ Component
+T8	ANAT 271 285	cuello uterino
+#5	AnnotatorNotes T8	C0007874; Cervix Uteri; Body Part, Organ, or Organ Component | C1278987; Entire cervix uteri; Body Part, Organ, or Organ Component
+T9	ANAT 322 328	cérvix
+#6	AnnotatorNotes T9	C0007874; Cervix Uteri; Body Part, Organ, or Organ Component | C1278987; Entire cervix uteri; Body Part, Organ, or Organ Component
+T10	PROC 419 426	cribado
+#7	AnnotatorNotes T10	C0220908; Screening procedure; Diagnostic Procedure | C1710031; Disease Screening; Diagnostic Procedure
+T11	DISO 430 454	cáncer de cuello uterino
+#8	AnnotatorNotes T11	C0007873; Uterine Cervical Neoplasm; Neoplastic Process | C0302592; Cervix carcinoma; Neoplastic Process | C4048328; cervical cancer; Neoplastic Process
+T12	CHEM 1089 1104	inmunoglobulina
+#9	AnnotatorNotes T12	C0021027; Immunoglobulins; Amino Acid, Peptide, or Protein · Immunologic Factor
+T13	DISO 695 712	reacción alérgica
+#10	AnnotatorNotes T13	C1527304; Allergic Reaction; Pathologic Function
+T14	DISO 715 732	hipersensibilidad
+#11	AnnotatorNotes T14	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T15	DISO 797 815	trastornos inmunes
+T16	DISO 859 892	enfermedad aguda grave con fiebre
+T17	DISO 913 922	infección
+#12	AnnotatorNotes T17	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T18	DISO 937 997	infección respiratoria leve del tracto respiratorio superior
+T19	ANAT 969 997	tracto respiratorio superior
+T20	DISO 1003 1009	fiebre
+#13	AnnotatorNotes T20	C0015967; Fever; Sign or Symptom
+T21	CHEM 1107 1139	productos derivados de la sangre
+#14	AnnotatorNotes T21	C0456388; Blood product; Pharmacologic Substance
+T22	PROC 1317 1334	histerectomizadas
+#15	AnnotatorNotes T22	C0020699; Hysterectomy; Therapeutic or Preventive Procedure
+T23	ANAT 212 226	cuello uterino
+#16	AnnotatorNotes T23	C0007874; Cervix Uteri; Body Part, Organ, or Organ Component | C1278987; Entire cervix uteri; Body Part, Organ, or Organ Component
+T24	ANAT 440 454	cuello uterino
+#17	AnnotatorNotes T24	C0007874; Cervix Uteri; Body Part, Organ, or Organ Component | C1278987; Entire cervix uteri; Body Part, Organ, or Organ Component
+T25	CHEM 492 511	vacuna frente a VPH
+T26	PROC 604 621	prueba de cribado
+T27	CHEM 767 773	vacuna
+#18	AnnotatorNotes T27	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T28	CHEM 851 857	vacuna
+#19	AnnotatorNotes T28	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T29	CHEM 1037 1043	vacuna
+#20	AnnotatorNotes T29	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T30	PROC 1071 1085	Administración
+#21	AnnotatorNotes T30	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T31	ANAT 1133 1139	sangre
+#22	AnnotatorNotes T31	C0005767; Blood; Body Substance
+T32	CHEM 1210 1216	vacuna
+#23	AnnotatorNotes T32	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T33	Date 13 17	2014
+T34	LIVB 143 146	VPH
+#24	AnnotatorNotes T34	C0021344; human papillomavirus; Virus
+T35	LIVB 150 157	mujeres
+#25	AnnotatorNotes T35	C0043210; Woman; Population Group
+T36	Age 158 176	entre 25 y 45 años
+T38	LIVB 355 370	Mujeres adultas
+#26	AnnotatorNotes T38	C0043210; Woman; Population Group + C0001675; Adult; Age Group
+T39	Age 371 387	entre 24-45 años
+T40	Neg_cue 461 463	no
+T41	LIVB 508 511	VPH
+#27	AnnotatorNotes T41	C0021344; human papillomavirus; Virus
+T42	LIVB 532 539	mujeres
+#28	AnnotatorNotes T42	C0043210; Woman; Population Group
+T43	Age 551 569	entre 30 y 45 años
+T45	Neg_cue 596 603	ninguna
+T46	Duration 625 646	los 5 años anteriores
+T47	Neg_cue 894 901	excepto
+T49	Duration 1143 1154	los 6 meses
+T50	CONC 1193 1206	primera dosis
+T51	PHYS 1221 1229	Embarazo
+#29	AnnotatorNotes T51	C0032961; Pregnancy; Organism Function
+T52	Date 1230 1236	actual
+T53	PHYS 1250 1259	lactancia
+#30	AnnotatorNotes T53	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T54	PHYS 1262 1270	embarazo
+#31	AnnotatorNotes T54	C0032961; Pregnancy; Organism Function
+T55	Duration 1283 1304	los próximos 12 meses
+T56	LIVB 1309 1316	Mujeres
+#32	AnnotatorNotes T56	C0043210; Woman; Population Group
+T57	PHYS 808 815	inmunes
+#33	AnnotatorNotes T57	C0020964; Immune response; Organ or Tissue Function
+T58	ANAT 947 959	respiratoria
+#34	AnnotatorNotes T58	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+A1	Population_data T38 Age
+A2	Assertion T25 Negated
+A3	Assertion T26 Negated
+A4	Assertion T17 Negated
+A5	Assertion T18 Negated
+A6	Assertion T20 Negated
+A7	Status T25 History_of
+A8	Status T26 History_of
+A9	Status T13 History_of
+A10	Status T14 History_of
+A11	Status T15 History_of
+#35	AnnotatorNotes T6	C0007873; Uterine Cervical Neoplasm; Neoplastic Process | C0302592; Cervix carcinoma; Neoplastic Process | C4048328; cervical cancer; Neoplastic Process
+#36	AnnotatorNotes T25	C1512511; Human Papilloma Virus Vaccine; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#37	AnnotatorNotes T26	C0220908; Screening procedure; Diagnostic Procedure | C1710031; Disease Screening; Diagnostic Procedure
+#38	AnnotatorNotes T19	C0041912; Upper Respiratory Infections; Disease or Syndrome
+#39	AnnotatorNotes T52	C0521116; Current (present time); Temporal Concept 
+R1	Experiences Arg1:T35 Arg2:T2	
+R2	Has_Age Arg1:T35 Arg2:T36	
+R3	Experiences Arg1:T35 Arg2:T3	
+R4	Experiences Arg1:T35 Arg2:T4	
+R5	Location_of Arg1:T23 Arg2:T4	
+R6	Location_of Arg1:T7 Arg2:T6	
+R7	Location_of Arg1:T8 Arg2:T6	
+R8	Location_of Arg1:T9 Arg2:T5	
+R9	Experiences Arg1:T56 Arg2:T22	
+R11	Causes Arg1:T27 Arg2:T13	
+R12	Causes Arg1:T27 Arg2:T14	
+R13	Has_Age Arg1:T38 Arg2:T39	
+R15	Location_of Arg1:T24 Arg2:T11	
+R16	Experiences Arg1:T38 Arg2:T11	
+R17	Negation Arg1:T40 Arg2:T25	
+R18	Experiences Arg1:T38 Arg2:T25	
+R19	Overlap Arg1:T26 Arg2:T46	
+R20	Negation Arg1:T45 Arg2:T26	
+R21	Has_Age Arg1:T42 Arg2:T43	
+R22	Experiences Arg1:T42 Arg2:T26	
+R23	Location_of Arg1:T19 Arg2:T18	
+R24	Location_of Arg1:T58 Arg2:T18	
+R25	Negation Arg1:T47 Arg2:T17	
+T37	Quantifier_or_Qualifier 923 927	leve
+#40	AnnotatorNotes T37	C2945599; Mild (qualifier value); Qualitative Concept
+A12	Assertion T37 Negated
+R26	Negation Arg1:T47 Arg2:T37	
+R27	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T37	
+T44	Quantifier_or_Qualifier 1010 1014	leve
+A13	Assertion T44 Negated
+#41	AnnotatorNotes T44	C2945599; Mild (qualifier value); Qualitative Concept
+R29	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T44	
+R30	Negation Arg1:T47 Arg2:T18	
+R31	Negation Arg1:T47 Arg2:T20	
+R32	Negation Arg1:T47 Arg2:T44	
+R33	Used_for Arg1:T12 Arg2:T30	
+R34	Used_for Arg1:T21 Arg2:T30	
+R35	Overlap Arg1:T21 Arg2:T49	
+R37	Overlap Arg1:T12 Arg2:T49	
+R38	Has_Dose_or_Strength Arg1:T32 Arg2:T50	
+R39	Before Arg1:T30 Arg2:T50	
+R40	Overlap Arg1:T51 Arg2:T52	
+T48	Observation 1262 1279	embarazo planeado
+#42	AnnotatorNotes T48	C0032992; Pregnancy, Planned; Finding
+R41	Overlap Arg1:T48 Arg2:T55	
+R42	Before Arg1:T48 Arg2:T54	
+T59	CONC 825 857	momento de administrar la vacuna
+#43	AnnotatorNotes T59	C1115436; Date and time of vaccination; Temporal Concept (?)
+R28	Overlap Arg1:T16 Arg2:T59	
+R43	Experiences Arg1:T38 Arg2:T10	
+#44	AnnotatorNotes T15	C1334156; Immune System and Related Disorders; Disease or Syndrome
+#45	AnnotatorNotes R38	(?)
+#46	AnnotatorNotes T50	C5236155; Date of First Dose; Temporal Concept
+#47	AnnotatorNotes T2	C3160904; Human papilloma virus immunization; Therapeutic or Preventive Procedure
+A14	Experiencer T35 Patient
+A15	Experiencer T38 Patient
+A16	Experiencer T42 Patient
+A17	Status T54 Future
+A18	Experiencer T56 Patient

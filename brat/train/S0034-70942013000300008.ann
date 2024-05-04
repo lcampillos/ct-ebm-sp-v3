@@ -1,0 +1,187 @@
+T1	PROC 1 23	Aplicación del monitor
+T2	ANAT 112 120	cardíaca
+#1	AnnotatorNotes T2	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T3	PROC 41 79	evaluar la profundidad de la anestesia
+T4	PROC 104 120	cirugía cardíaca
+#2	AnnotatorNotes T4	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T5	PROC 122 154	estudio prospectivo y controlado
+#3	AnnotatorNotes T5	C0033522; Prospective Studies; Research Activity + C0681867; Controlled Study; Research Activity
+T6	PROC 273 311	evaluar la profundidad de la anestesia
+T7	DISO 356 359	ECC
+#4	AnnotatorNotes T7	C0152021; Congenital heart disease; Congenital Abnormality
+T8	DISO 325 354	enfermedad cardíaca congénita
+#5	AnnotatorNotes T8	C0152021; Congenital heart disease; Congenital Abnormality
+T9	ANAT 336 344	cardíaca
+#6	AnnotatorNotes T9	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T10	PROC 376 392	cirugía cardíaca
+#7	AnnotatorNotes T10	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T11	PROC 440 457	anestesia general
+#8	AnnotatorNotes T11	C0002915; General Anesthesia; Therapeutic or Preventive Procedure
+T12	PROC 461 468	cirugía
+#9	AnnotatorNotes T12	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T13	PROC 641 664	anestesia se monitorizó
+T14	PROC 183 227	Investigar la eficacia clínica, la seguridad
+#10	AnnotatorNotes T14	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T15	PROC 735 759	anestesia fue controlada
+T16	PROC 833 836	PAP
+#11	AnnotatorNotes T16	C0513528; Monitor mean arterial pressure; Health Care Activity (?)
+T17	CHEM 908 917	fentanilo
+#12	AnnotatorNotes T17	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T18	CHEM 923 941	relajante muscular
+#13	AnnotatorNotes T18	C0358430; Muscle relaxants; Pharmacologic Substance
+T19	PROC 1086 1093	cirugía
+#14	AnnotatorNotes T19	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T20	PROC 1122 1125	PAP
+#15	AnnotatorNotes T20	C0513528; Monitor mean arterial pressure; Health Care Activity (?)
+T21	CHEM 1173 1182	fentanilo
+#16	AnnotatorNotes T21	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T22	CHEM 1188 1206	relajante muscular
+#17	AnnotatorNotes T22	C0358430; Muscle relaxants; Pharmacologic Substance
+T23	PROC 1672 1685	desentubación
+#18	AnnotatorNotes T23	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T24	PROC 1364 1386	aplicación del monitor
+T25	PROC 1403 1439	medir la profundidad de la anestesia
+T26	PROC 1455 1496	control de la profundidad de la anestesia
+T27	PROC 1526 1553	anestesia intravenosa total
+T28	CHEM 1588 1598	narcóticos
+#19	AnnotatorNotes T28	C0027415; Narcotics; Pharmacologic Substance · Hazardous or Poisonous Substance
+T29	PROC 1617 1626	anestesia
+#20	AnnotatorNotes T29	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+T30	DISO 1707 1724	efecto secundario
+#21	AnnotatorNotes T30	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T31	PROC 486 514	seleccionados aleatoriamente
+#22	AnnotatorNotes T31	C0034656; Randomization; Research Activity
+T32	ANAT 384 392	cardíaca
+#23	AnnotatorNotes T32	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T33	PROC 533 575	divididos en dos grupos de forma aleatoria
+#24	AnnotatorNotes T33	C0034656; Randomization; Research Activity
+T34	PROC 806 831	presión arterial promedio
+#25	AnnotatorNotes T34	C0513528; Monitor mean arterial pressure; Health Care Activity (?)
+T35	PROC 843 862	frecuencia cardíaca
+#26	AnnotatorNotes T35	C2197023; examination of heart rate; Health Care Activity
+T36	PROC 985 998	desentubación
+#27	AnnotatorNotes T36	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T37	ANAT 814 822	arterial
+#28	AnnotatorNotes T37	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T38	ANAT 854 862	cardíaca
+#29	AnnotatorNotes T38	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T39	PROC 864 866	FC
+#30	AnnotatorNotes T39	C2197023; examination of heart rate; Health Care Activity
+T40	ANAT 933 941	muscular
+#31	AnnotatorNotes T40	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T41	PROC 1264 1277	desentubación
+#32	AnnotatorNotes T41	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T42	PROC 1131 1133	FC
+#33	AnnotatorNotes T42	C2197023; examination of heart rate; Health Care Activity
+T43	ANAT 1198 1206	muscular
+#34	AnnotatorNotes T43	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T44	DISO 1510 1513	ECC
+#35	AnnotatorNotes T44	C0152021; Congenital heart disease; Congenital Abnormality
+T45	DISO 1734 1749	sensibilización
+#36	AnnotatorNotes T45	C3839736; Sensitization (disorder); Disease or Syndrome
+T46	DEVI 16 23	monitor
+#37	AnnotatorNotes T46	C0181904; Monitor Device; Medical Device
+T47	LIVB 83 88	niños
+#38	AnnotatorNotes T47	C0008059; Child; Age Group
+T48	DEVI 248 255	monitor
+#39	AnnotatorNotes T48	C0181904; Monitor Device; Medical Device
+T49	LIVB 315 320	niños
+#40	AnnotatorNotes T49	C0008059; Child; Age Group
+T50	LIVB 419 424	niños
+#41	AnnotatorNotes T50	C0008059; Child; Age Group
+T51	LIVB 520 525	niños
+#42	AnnotatorNotes T51	C0008059; Child; Age Group
+T52	DEVI 672 679	monitor
+#43	AnnotatorNotes T52	C0181904; Monitor Device; Medical Device
+T58	DEVI 1379 1386	monitor
+#44	AnnotatorNotes T58	C0181904; Monitor Device; Medical Device
+T59	LIVB 1500 1505	niños
+#45	AnnotatorNotes T59	C0008059; Child; Age Group
+T60	Route 1536 1547	intravenosa
+#46	AnnotatorNotes T60	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T63	Time 1750 1765	intraoperatoria
+#47	AnnotatorNotes T63	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T64	Neg_cue 1776 1783	evitado
+T68	PHYS 967 979	recuperación
+#48	AnnotatorNotes T68	C2004454; Recovery - healing process; Organism Function
+T69	PHYS 1249 1261	recuperación
+#49	AnnotatorNotes T69	C2004454; Recovery - healing process; Organism Function
+T71	PHYS 1657 1669	recuperación
+#50	AnnotatorNotes T71	C2004454; Recovery - healing process; Organism Function
+T53	PHYS 806 822	presión arterial
+#51	AnnotatorNotes T53	C0005823; Blood Pressure; Organism Function
+T54	PROC 1036 1050	signos vitales
+#52	AnnotatorNotes T54	C2963216; Vital signs measurements; Health care activity
+A1	Population_data T47 Age
+A2	Population_data T49 Age
+A3	Population_data T50 Age
+A4	Population_data T51 Age
+A5	Population_data T59 Age
+A6	Assertion T45 Negated
+A7	Assertion T30 Negated
+R1	Used_for Arg1:T46 Arg2:T1	
+R2	Experiences Arg1:T47 Arg2:T1	
+R3	Experiences Arg1:T47 Arg2:T4	
+R4	Location_of Arg1:T2 Arg2:T4	
+R5	Used_for Arg1:T48 Arg2:T6	
+R6	Used_for Arg1:T46 Arg2:T3	
+R7	Experiences Arg1:T49 Arg2:T6	
+R8	Experiences Arg1:T49 Arg2:T8	
+R9	Location_of Arg1:T9 Arg2:T8	
+R10	Location_of Arg1:T9 Arg2:T7	
+R11	Location_of Arg1:T32 Arg2:T10	
+R12	Experiences Arg1:T49 Arg2:T10	
+R14	Experiences Arg1:T50 Arg2:T11	
+R15	Before Arg1:T11 Arg2:T12	
+R16	Before Arg1:T31 Arg2:T11	
+R17	Experiences Arg1:T50 Arg2:T12	
+R18	Used_for Arg1:T52 Arg2:T13	
+R19	Location_of Arg1:T37 Arg2:T53	
+R20	Location_of Arg1:T37 Arg2:T34	
+R21	Location_of Arg1:T37 Arg2:T16	
+R22	Location_of Arg1:T38 Arg2:T35	
+R23	Location_of Arg1:T38 Arg2:T39	
+T55	CONC 956 979	tiempos de recuperación
+T56	CONC 956 963;982 998	tiempos de desentubación
+T57	Quantifier_or_Qualifier 1066 1074	estables
+R24	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T57	
+R25	Overlap Arg1:T54 Arg2:T19	
+R26	Before Arg1:T36 Arg2:T68	
+R27	Before Arg1:T17 Arg2:T68	
+R28	Before Arg1:T17 Arg2:T36	
+R29	Before Arg1:T18 Arg2:T68	
+R30	Before Arg1:T18 Arg2:T36	
+R31	Before Arg1:T41 Arg2:T69	
+R32	Before Arg1:T21 Arg2:T69	
+R33	Before Arg1:T22 Arg2:T69	
+R34	Before Arg1:T22 Arg2:T41	
+R35	Before Arg1:T21 Arg2:T41	
+R36	Used_for Arg1:T58 Arg2:T24	
+R37	Used_for Arg1:T58 Arg2:T25	
+R38	Experiences Arg1:T59 Arg2:T24	
+R39	Experiences Arg1:T59 Arg2:T44	
+R41	Experiences Arg1:T59 Arg2:T27	
+R42	Used_for Arg1:T28 Arg2:T27	
+R40	Has_Route_or_Mode Arg1:T28 Arg2:T60	
+R43	Used_for Arg1:T28 Arg2:T29	
+R44	Experiences Arg1:T59 Arg2:T29	
+R45	Overlap Arg1:T26 Arg2:T27	
+R46	Overlap Arg1:T25 Arg2:T27	
+R47	Overlap Arg1:T25 Arg2:T29	
+R48	Overlap Arg1:T26 Arg2:T29	
+T61	CONC 1646 1669	tiempos de recuperación
+T62	CONC 1646 1656;1672 1685	tiempos de desentubación
+R49	Negation Arg1:T64 Arg2:T30	
+R50	Negation Arg1:T64 Arg2:T45	
+R51	Overlap Arg1:T45 Arg2:T63	
+R54	Before Arg1:T23 Arg2:T71	
+R55	Overlap Arg1:T30 Arg2:T63	
+#53	AnnotatorNotes T57	C0205360; Stable status; Qualitative Concept
+#54	AnnotatorNotes T27	C0473965; Total intravenous anesthesia; Therapeutic or Preventive Procedure
+#55	AnnotatorNotes T56	C4522110; Time of extubation; Temporal Concept
+#56	AnnotatorNotes T62	C4522110; Time of extubation; Temporal Concept
+A8	Experiencer T47 Patient
+A9	Experiencer T49 Patient
+A10	Experiencer T50 Patient
+A11	Experiencer T51 Patient
+A12	Experiencer T59 Patient

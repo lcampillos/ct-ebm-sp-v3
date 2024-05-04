@@ -1,0 +1,228 @@
+T1	PROC 472 497	Probar la bioequivalencia
+T2	PROC 95 134	estudio abierto, cruzado y aleatorizado
+#1	AnnotatorNotes T2	C1709323; Open Label Study; Research Activity + C0150097; Cross-Over Studies; Research Activity + C0034656; Randomization; Research Activity
+T3	PROC 255 261	tratar
+#2	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	CHEM 154 191	citrato de fentanilo oral transmucosa
+#3	AnnotatorNotes T4	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T5	CHEM 193 197	CFOT
+#4	AnnotatorNotes T5	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T6	CHEM 213 224	medicamento
+#5	AnnotatorNotes T6	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T7	CHEM 43 69	fentanilo oral transmucosa
+#6	AnnotatorNotes T7	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T8	CHEM 507 518	medicamento
+#7	AnnotatorNotes T8	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T9	PROC 824 832	instruyó
+#8	AnnotatorNotes T9	C0039401; Educational process of instructing; Educational Activity
+T10	PROC 579 637	Estudio abierto, cruzado, aleatorizado, de bioequivalencia
+T11	CHEM 2209 2213	CFOT
+#9	AnnotatorNotes T11	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T12	CHEM 786 795	fentanilo
+#10	AnnotatorNotes T12	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T13	CHEM 2747 2751	CFOT
+#11	AnnotatorNotes T13	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T14	ANAT 878 890	mucosa bucal
+#12	AnnotatorNotes T14	C0026639; Oral mucous membrane structure; | C1280540; Entire buccal mucosa; Tissue | C1284365; Entire oral mucous membrane; Tissue
+T15	PROC 940 951	controlaron
+#13	AnnotatorNotes T15	C0030695; Patient Monitoring; Health Care Activity | C0150369; Preventive monitoring; Health Care Activity
+T16	PROC 1317 1326	protocolo
+#14	AnnotatorNotes T16	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T17	CHEM 519 523	CFOT
+#15	AnnotatorNotes T17	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T18	PROC 957 971	administración
+#16	AnnotatorNotes T18	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T19	CHEM 1963 1975	medicamentos
+#17	AnnotatorNotes T19	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T20	DISO 2016 2040	acontecimientos adversos
+#18	AnnotatorNotes T20	C0877248; Adverse event; Pathologic Function
+T21	CHEM 2092 2096	CFOT
+#19	AnnotatorNotes T21	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
+T22	CHEM 2254 2263	fentanilo
+#20	AnnotatorNotes T22	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T23	PROC 2401 2413	tratamientos
+#21	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	ANAT 2497 2508	plasmáticas
+#22	AnnotatorNotes T24	C0032105; Plasma; Body Substance
+T25	DISO 265 280	dolor irruptivo
+#23	AnnotatorNotes T25	C1135120; Breakthrough Pain; Sign or Symptom
+T26	PROC 1761 1788	se probó la bioequivalencia
+T27	PROC 2191 2205	administración
+#24	AnnotatorNotes T27	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T28	PROC 2340 2354	administración
+#25	AnnotatorNotes T28	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T29	DISO 2418 2433	dolor irruptivo
+#26	AnnotatorNotes T29	C1135120; Breakthrough Pain; Sign or Symptom
+T30	PROC 2654 2668	administración
+#27	AnnotatorNotes T30	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T31	DISO 2870 2875	dolor
+#28	AnnotatorNotes T31	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T32	Route 53 57	oral
+#29	AnnotatorNotes T32	C1527415; Oral Route of Drug administration; Functional Concept
+T33	Route 175 179	oral
+#30	AnnotatorNotes T33	C1527415; Oral Route of Drug administration; Functional Concept
+T34	Form 316 332	polvo comprimido
+#31	AnnotatorNotes T34	C1337629; COMPRESSED LOZENGE; Biomedical or Dental Material
+T35	DEVI 337 346	aplicador
+#32	AnnotatorNotes T35	C0336572; Applicator stick; Medical Device
+T36	LIVB 374 382	paciente
+#33	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Dose 640 651	dosis única
+T39	Duration 738 754	al menos 10 días
+T40	LIVB 760 767	sujetos
+#34	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	Dose 776 782	400 μg
+T42	Frequency 796 804	cada día
+T43	Form 857 867	comprimido
+#35	AnnotatorNotes T43	C0039225; Tablet Dosage Form; Biomedical or Dental Material
+T44	Neg_cue 891 894	sin
+T45	PHYS 895 903	chuparlo
+#36	AnnotatorNotes T45	C0233927; Sucking; Physiologic Function
+T46	Neg_cue 904 906	ni
+T47	PHYS 907 917	masticarlo
+#37	AnnotatorNotes T47	C0024888; Chewing; Organism Function
+T48	LIVB 925 939	investigadores
+#38	AnnotatorNotes T48	C0035173; Research Personnel; Professional or Occupational Group
+T49	Duration 1005 1015	15 minutos
+T50	PHYS 1080 1095	farmacocinética
+#39	AnnotatorNotes T50	C0031327; Drug Kinetics; Physiologic Function
+T51	LIVB 1268 1275	sujetos
+#40	AnnotatorNotes T51	C0681850; Study Subject; Group
+T52	Duration 1465 1471	40 min
+T53	Duration 1481 1487	50 min
+T58	Route 2271 2282	vía enteral
+#41	AnnotatorNotes T58	C1522196; Enteral Route of Drug Administration; Functional Concept
+T60	Duration 2459 2474	un breve tiempo
+T62	LIVB 2712 2721	pacientes
+#42	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 2764 2773	pacientes
+#43	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T67	LIVB 73 90	voluntarios sanos
+#44	AnnotatorNotes T67	C1708335; Healthy Volunteers; Population Group
+T68	LIVB 655 672	voluntarios sanos
+#45	AnnotatorNotes T68	C1708335; Healthy Volunteers; Population Group
+T69	DEVI 360 366	palito
+#46	AnnotatorNotes T69	C0336572; Applicator stick; Medical Device
+T38	PHYS 2230 2239	absorción
+#47	AnnotatorNotes T38	C0678745; drug absorption; Physiologic Function
+T54	PHYS 2296 2305	absorción
+#48	AnnotatorNotes T54	C0678745; drug absorption; Physiologic Function
+A1	Assertion T45 Negated
+A2	Assertion T47 Negated
+R1	Negation Arg1:T44 Arg2:T45	
+R2	Negation Arg1:T46 Arg2:T47	
+T55	Neg_cue 1688 1690	No
+T56	Observation 1705 1719	efecto periodo
+A3	Assertion T56 Negated
+R3	Negation Arg1:T55 Arg2:T56	
+T57	Neg_cue 1720 1722	ni
+T59	CONC 1723 1732	secuencia
+A4	Assertion T59 Negated
+R4	Negation Arg1:T57 Arg2:T59	
+T61	Quantifier_or_Qualifier 2602 2612	favorecido
+A5	Assertion T61 Speculated
+T64	Spec_cue 2613 2626	probablemente
+T65	Neg_cue 1820 1822	no
+T66	CONC 1851 1863	segunda fase
+A6	Assertion T66 Negated
+R5	Negation Arg1:T65 Arg2:T66	
+T70	CONC 1795 1807	primera fase
+#49	AnnotatorNotes T66	C0439560; Phase 2; Temporal Concept
+#50	AnnotatorNotes T70	C0439559; Phase 1; Temporal Concept
+R6	Overlap Arg1:T26 Arg2:T70	
+R7	Speculation Arg1:T64 Arg2:T61	
+T71	CONC 1 18	Biodisponibilidad
+#51	AnnotatorNotes T71	C0005508; Biological Availability; Quantitative Concept
+R8	Has_Route_or_Mode Arg1:T7 Arg2:T32	
+R9	Experiences Arg1:T67 Arg2:T7	
+R10	Has_Route_or_Mode Arg1:T4 Arg2:T33	
+R11	Has_Route_or_Mode Arg1:T5 Arg2:T33	
+R12	Used_for Arg1:T5 Arg2:T3	
+R13	Used_for Arg1:T4 Arg2:T3	
+R14	Experiences Arg1:T36 Arg2:T34	
+R15	Used_for Arg1:T35 Arg2:T34	
+R16	Used_for Arg1:T69 Arg2:T34	
+T72	CONC 718 734	tiempo de lavado
+#52	AnnotatorNotes T72	C1710661; Washout Period; Temporal Concept
+R17	Has_Duration_or_Interval Arg1:T72 Arg2:T39	
+R18	Experiences Arg1:T40 Arg2:T12	
+R19	Has_Dose_or_Strength Arg1:T12 Arg2:T41	
+R20	Has_Frequency Arg1:T12 Arg2:T42	
+T73	PHYS 990 1001	se consumía
+#53	AnnotatorNotes T73	C1947907; biologic consumption; Physiologic Function (?)
+R21	Overlap Arg1:T73 Arg2:T49	
+R22	Used_for Arg1:T43 Arg2:T18	
+R23	Location_of Arg1:T14 Arg2:T18	
+T74	CONC 1123 1138	bioequivalencia
+#54	AnnotatorNotes T74	C0039789; Therapeutic Equivalency; Qualitative Concept
+T75	CONC 1233 1237	Cmax
+#55	AnnotatorNotes T75	C2347813; Cmax; Quantitative Concept
+T76	CONC 1243 1249	AUC0-t
+R24	Before Arg1:T9 Arg2:T18	
+T77	Observation 1276 1298	completaron el estudio
+#56	AnnotatorNotes T77	C2732579; Completion of clinical trial; Finding
+R26	Experiences Arg1:T51 Arg2:T77	
+T78	CONC 1547 1553	AUC0-t
+T79	CONC 1680 1686	AUC0-t
+T80	CONC 1342 1346	Cmax
+#57	AnnotatorNotes T80	C2347813; Cmax; Quantitative Concept
+T81	CONC 1673 1677	Cmax
+#58	AnnotatorNotes T81	C2347813; Cmax; Quantitative Concept
+R27	Overlap Arg1:T80 Arg2:T52	
+R28	Overlap Arg1:T80 Arg2:T53	
+T82	CONC 1502 1519	biodisponibilidad
+#59	AnnotatorNotes T82	C0005508; Biological Availability; Quantitative Concept
+T83	CONC 1620 1635	bioequivalencia
+#60	AnnotatorNotes T83	C0039789; Therapeutic Equivalency; Qualitative Concept
+T84	Observation 1983 1997	bien tolerados
+R29	Overlap Arg1:T19 Arg2:T84	
+R30	Causes Arg1:T19 Arg2:T20	
+T85	Quantifier_or_Qualifier 2044 2059	intensidad leve
+#61	AnnotatorNotes T85	C2945599; Mild (qualifier value); Qualitative Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T85	
+T86	Quantifier_or_Qualifier 2105 2119	bioequivalente
+#62	AnnotatorNotes T86	C0039789; Therapeutic Equivalency; Qualitative Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T86	
+R33	Used_for Arg1:T11 Arg2:T27	
+R34	Causes Arg1:T27 Arg2:T38	
+R35	Has_Route_or_Mode Arg1:T22 Arg2:T58	
+R36	Before Arg1:T28 Arg2:T54	
+T87	Quantifier_or_Qualifier 2240 2250	más rápida
+R37	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T87	
+R38	Before Arg1:T27 Arg2:T54	
+T89	CONC 2518 2522	tmax
+#64	AnnotatorNotes T89	C2348796; Tmax; Quantitative Concept
+R40	Overlap Arg1:T89 Arg2:T60	
+R39	Location_of Arg1:T24 Arg2:T89	
+R42	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T61	
+R44	Experiences Arg1:T62 Arg2:T13	
+T88	Observation 2859 2875	alivio del dolor
+#63	AnnotatorNotes T88	C1998289; Pain relief by medication; Finding
+R45	Before Arg1:T31 Arg2:T88	
+R46	Experiences Arg1:T63 Arg2:T88	
+R47	Experiences Arg1:T63 Arg2:T31	
+R48	Experiences Arg1:T62 Arg2:T31	
+R49	Experiences Arg1:T62 Arg2:T88	
+R51	Before Arg1:T22 Arg2:T54	
+#65	AnnotatorNotes T84	C5684674; patient tolerated procedure well; Finding
+R52	Experiences Arg1:T36 Arg2:T35	
+R53	Experiences Arg1:T36 Arg2:T69	
+T90	CONC 482 497	bioequivalencia
+#66	AnnotatorNotes T90	C0039789; Therapeutic Equivalency; Qualitative Concept
+T91	CONC 622 637	bioequivalencia
+#67	AnnotatorNotes T91	C0039789; Therapeutic Equivalency; Qualitative Concept
+T92	Quantifier_or_Qualifier 1773 1788	bioequivalencia
+#68	AnnotatorNotes T92	C0039789; Therapeutic Equivalency; Qualitative Concept
+#69	AnnotatorNotes T56	C4688485; Period Effect; Finding
+R25	Used_for Arg1:T22 Arg2:T38	
+R50	Used_for Arg1:T11 Arg2:T28	
+#70	AnnotatorNotes T1	C3640120; Clinical Bioequivalence or Bioavailability Study; Research Activity
+#71	AnnotatorNotes T26	C3640120; Clinical Bioequivalence or Bioavailability Study; Research Activity
+A7	Experiencer T67 Patient
+A8	Experiencer T36 Patient
+A9	Experiencer T68 Patient
+A10	Experiencer T40 Patient
+A11	Experiencer T48 Other
+A12	Experiencer T51 Patient
+A13	Experiencer T62 Patient
+A14	Experiencer T63 Patient

@@ -1,0 +1,187 @@
+T1	PROC 1 36	Anestesia tópica más subconjuntival
+T2	PROC 595 614	presión intraocular
+#1	AnnotatorNotes T2	C0430888; Intraocular pressure test; Diagnostic Procedure
+T3	PROC 206 228	escleroctomía profunda
+#2	AnnotatorNotes T3	C1531790; Deep sclerectomy; Therapeutic or Preventive Procedure
+T4	PROC 149 180	anestesia tópica-subconjuntival
+T5	PROC 243 255	suplementada
+#3	AnnotatorNotes T5	C0677850; Adjuvant therapy; Therapeutic or Preventive Procedure
+T6	CHEM 260 264	5-FU
+#4	AnnotatorNotes T6	C0016360; fluorouracil; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T7	PROC 289 323	estudio prospectivo y aleatorizado
+#5	AnnotatorNotes T7	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T8	PROC 379 410	anestesia tópica-subconjuntival
+T9	DISO 858 868	disconfort
+#6	AnnotatorNotes T9	C2364135; Discomfort; Sign or Symptom
+T10	DISO 510 530	dolor postoperatorio
+#7	AnnotatorNotes T10	C0030201; Pain, Postoperative; Sign or Symptom
+T11	PROC 713 734	anestesia retrobulbar
+T12	PROC 1299 1311	suplementada
+#8	AnnotatorNotes T12	C0677850; Adjuvant therapy; Therapeutic or Preventive Procedure
+T13	PROC 1271 1284	escleroctomía
+T14	PROC 814 845	anestesia tópica-subconjuntival
+T15	DISO 988 1008	dolor postoperatorio
+#9	AnnotatorNotes T15	C0030201; Pain, Postoperative; Sign or Symptom
+T16	PROC 1194 1225	anestesia tópica-subconjuntival
+T17	CHEM 1316 1320	5-FU
+#10	AnnotatorNotes T17	C0016360; fluorouracil; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T18	DISO 535 540	dolor
+#11	AnnotatorNotes T18	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T19	DISO 747 752	dolor
+#12	AnnotatorNotes T19	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T20	CHEM 779 789	anestésico
+#13	AnnotatorNotes T20	C0002932; Anesthetics; Pharmacologic Substance
+T21	DISO 1094 1099	dolor
+#14	AnnotatorNotes T21	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T22	PROC 110 142	Comparar la eficacia y seguridad
+T23	PROC 62 84	esclerectomía profunda
+#15	AnnotatorNotes T23	C1531790; Deep sclerectomy; Therapeutic or Preventive Procedure
+T24	Route 11 17	tópica
+#16	AnnotatorNotes T24	C1522168; Topical Route of Drug Administration; Functional Concept
+T25	Route 22 36	subconjuntival
+#17	AnnotatorNotes T25	C1556144; Subconjunctival Route of Drug Administration; Functional Concept
+T26	Route 44 55	retrobulbar
+#18	AnnotatorNotes T26	C0521438; Retrobulbar Route of Drug Administration; Functional Concept
+T28	Route 159 165	tópica
+#19	AnnotatorNotes T28	C1522168; Topical Route of Drug Administration; Functional Concept
+T29	Route 166 180	subconjuntival
+#20	AnnotatorNotes T29	C1556144; Subconjunctival Route of Drug Administration; Functional Concept
+T30	Route 188 199	retrobulbar
+#21	AnnotatorNotes T30	C0521438; Retrobulbar Route of Drug Administration; Functional Concept
+T32	LIVB 330 339	pacientes
+#22	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	Route 389 395	tópica
+#23	AnnotatorNotes T33	C1522168; Topical Route of Drug Administration; Functional Concept
+T34	Route 396 410	subconjuntival
+#24	AnnotatorNotes T34	C1556144; Subconjunctival Route of Drug Administration; Functional Concept
+T35	Route 420 431	retrobulbar
+#25	AnnotatorNotes T35	C0521438; Retrobulbar Route of Drug Administration; Functional Concept
+T36	LIVB 497 505	paciente
+#26	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Time 516 530	postoperatorio
+#27	AnnotatorNotes T37	C0032790; Postoperative Period; Temporal Concept
+T41	Route 723 734	retrobulbar
+#28	AnnotatorNotes T41	C0521438; Retrobulbar Route of Drug Administration; Functional Concept
+T43	Route 824 830	tópica
+#29	AnnotatorNotes T43	C1522168; Topical Route of Drug Administration; Functional Concept
+T44	Route 831 845	subconjuntival
+#30	AnnotatorNotes T44	C1556144; Subconjunctival Route of Drug Administration; Functional Concept
+T46	LIVB 952 960	cirujano
+#31	AnnotatorNotes T46	C0582175; Surgeon; Professional or Occupational Group
+T48	Time 994 1008	postoperatorio
+#32	AnnotatorNotes T48	C0032790; Postoperative Period; Temporal Concept
+T52	Route 1204 1210	tópica
+#33	AnnotatorNotes T52	C1522168; Topical Route of Drug Administration; Functional Concept
+T53	Route 1211 1225	subconjuntival
+#34	AnnotatorNotes T53	C1556144; Subconjunctival Route of Drug Administration; Functional Concept
+T27	Time 869 889	intraoperatoriamente
+#35	AnnotatorNotes T27	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+R1	Has_Route_or_Mode Arg1:T1 Arg2:T25	
+R2	Has_Route_or_Mode Arg1:T1 Arg2:T24	
+T31	PROC 1 10;44 55	Anestesia retrobulbar
+R3	Has_Route_or_Mode Arg1:T31 Arg2:T26	
+#36	AnnotatorNotes T31	C0583005; Retrobulbar infiltration of local anesthetic; Therapeutic or Preventive Procedure (?)
+T38	Neg_cue 85 87	no
+T39	Quantifier_or_Qualifier 88 98	penetrante
+A1	Assertion T39 Negated
+R4	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T39	
+R5	Negation Arg1:T38 Arg2:T39	
+R6	Has_Route_or_Mode Arg1:T4 Arg2:T28	
+R7	Has_Route_or_Mode Arg1:T4 Arg2:T29	
+T40	PROC 149 158;188 199	anestesia retrobulbar
+#37	AnnotatorNotes T40	C0583005; Retrobulbar infiltration of local anesthetic; Therapeutic or Preventive Procedure (?)
+R8	Has_Route_or_Mode Arg1:T40 Arg2:T30	
+T42	Quantifier_or_Qualifier 232 242	penetrante
+A2	Assertion T42 Negated
+#38	AnnotatorNotes T42	C0205321; Penetration; Functional Concept
+T45	Neg_cue 229 231	no
+R9	Negation Arg1:T45 Arg2:T42	
+R10	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T42	
+#39	AnnotatorNotes T39	C0205321; Penetration; Functional Concept
+R11	Used_for Arg1:T6 Arg2:T5	
+R12	Before Arg1:T40 Arg2:T3	
+R13	Before Arg1:T4 Arg2:T3	
+R14	Combined_with Arg1:T3 Arg2:T5	
+T47	Quantifier_or_Qualifier 340 352	consecutivos
+#40	AnnotatorNotes T47	C1707491; Consecutive; Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T47	
+R16	Experiences Arg1:T32 Arg2:T8	
+R17	Has_Route_or_Mode Arg1:T8 Arg2:T33	
+R18	Has_Route_or_Mode Arg1:T8 Arg2:T34	
+T49	PROC 379 388;420 431	anestesia retrobulbar
+#41	AnnotatorNotes T49	C0583005; Retrobulbar infiltration of local anesthetic; Therapeutic or Preventive Procedure (?)
+R19	Has_Route_or_Mode Arg1:T49 Arg2:T35	
+R20	Experiences Arg1:T32 Arg2:T49	
+T50	PROC 440 452	Se evaluaron
+#42	AnnotatorNotes T50	C0810978; Determine patient's comfort level; Health Care Activity
+R21	Experiences Arg1:T36 Arg2:T50	
+R22	Experiences Arg1:T36 Arg2:T10	
+R23	Overlap Arg1:T10 Arg2:T37	
+R24	Experiences Arg1:T36 Arg2:T18	
+R25	Experiences Arg1:T36 Arg2:T2	
+T51	Observation 585 614	bajada de presión intraocular
+R26	Experiences Arg1:T36 Arg2:T51	
+T54	Quantifier_or_Qualifier 541 546	total
+#43	AnnotatorNotes T54	C0439810; Total; Qualitative Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T54	
+T55	Neg_cue 629 631	No
+T56	CONC 637 648	diferencias
+A3	Assertion T56 Negated
+#44	AnnotatorNotes T56	C1705241; Delta (difference); Quantitative Concept
+R28	Negation Arg1:T55 Arg2:T56	
+R30	Causes Arg1:T11 Arg2:T19	
+R31	Used_for Arg1:T20 Arg2:T11	
+R32	Has_Route_or_Mode Arg1:T20 Arg2:T41	
+R29	Has_Route_or_Mode Arg1:T14 Arg2:T43	
+R33	Has_Route_or_Mode Arg1:T14 Arg2:T44	
+R34	Overlap Arg1:T9 Arg2:T27	
+R35	Causes Arg1:T14 Arg2:T9	
+T57	Neg_cue 918 920	no
+T58	CONC 935 943	problema
+A4	Assertion T58 Negated
+R36	Negation Arg1:T57 Arg2:T58	
+T59	Neg_cue 962 964	No
+T60	CONC 970 981	diferencias
+#45	AnnotatorNotes T60	C1705241; Delta (difference); Quantitative Concept
+R37	Negation Arg1:T59 Arg2:T60	
+A5	Assertion T60 Negated
+R38	Overlap Arg1:T15 Arg2:T48	
+T61	Neg_cue 1029 1031	No
+T62	CONC 1037 1048	diferencias
+#46	AnnotatorNotes T62	C1705241; Delta (difference); Quantitative Concept
+R39	Negation Arg1:T61 Arg2:T62	
+T63	Quantifier_or_Qualifier 1100 1105	total
+#47	AnnotatorNotes T63	C0439810; Total; Qualitative Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T63	
+T64	Neg_cue 1107 1109	No
+T65	CONC 1115 1125	diferencia
+A6	Assertion T65 Negated
+#48	AnnotatorNotes T65	C1705241; Delta (difference); Quantitative Concept
+R41	Negation Arg1:T64 Arg2:T65	
+R42	Has_Route_or_Mode Arg1:T16 Arg2:T52	
+R43	Has_Route_or_Mode Arg1:T16 Arg2:T53	
+T66	Neg_cue 1285 1287	no
+T67	Quantifier_or_Qualifier 1288 1298	penetrante
+A7	Assertion T67 Negated
+#49	AnnotatorNotes T67	C0205321; Penetration; Functional Concept
+R44	Negation Arg1:T66 Arg2:T67	
+R45	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T67	
+#50	AnnotatorNotes T13	C0197557; Sclerectomy; Therapeutic or Preventive Procedure
+R46	Combined_with Arg1:T13 Arg2:T12	
+R47	Used_for Arg1:T17 Arg2:T12	
+R48	Before Arg1:T16 Arg2:T13	
+R49	Before Arg1:T31 Arg2:T23	
+R50	Before Arg1:T1 Arg2:T23	
+R51	Has_Route_or_Mode Arg1:T11 Arg2:T41	
+T68	Quantifier_or_Qualifier 1049 1080	estadísticamente significativas
+A8	Assertion T68 Negated
+#51	AnnotatorNotes T68	C0237881; Statistical Significance; Quantitative Concept
+R52	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T68	
+A9	Assertion T62 Negated
+R53	Negation Arg1:T61 Arg2:T68	
+#52	AnnotatorNotes T22	C1705187; Safety Study; Research Activity + C1707887; Efficacy Study; Research Activity
+#53	AnnotatorNotes T11	C0583005; Retrobulbar infiltration of local anesthetic; Therapeutic or Preventive Procedure (?)
+A10	Experiencer T32 Patient
+A11	Experiencer T36 Patient
+A12	Experiencer T46 Other
+R54	Has_Result_or_Value Arg1:T2 Arg2:T51	

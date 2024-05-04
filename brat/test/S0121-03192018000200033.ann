@@ -1,0 +1,225 @@
+T1	CHEM 13 24	fenilefrina
+#1	AnnotatorNotes T1	C0031469; phenylephrine; Organic Chemical · Pharmacologic Substance
+T2	PROC 31 41	prevención
+#2	AnnotatorNotes T2	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T3	PROC 60 67	cesárea
+#3	AnnotatorNotes T3	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T4	PROC 73 96	anestesia subaracnoidea
+#4	AnnotatorNotes T4	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T5	DISO 116 127	hipotensión
+#5	AnnotatorNotes T5	C0020649; Hypotension; Finding
+T6	DISO 134 148	evento adverso
+#6	AnnotatorNotes T6	C0877248; Adverse event; Pathologic Function
+T7	PROC 184 207	anestesia subaracnoidea
+#7	AnnotatorNotes T7	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T8	PROC 213 220	cesárea
+#8	AnnotatorNotes T8	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T9	PROC 252 262	prevención
+#9	AnnotatorNotes T9	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T10	CHEM 312 324	vasopresores
+#10	AnnotatorNotes T10	C0042397; Vasoconstrictor Agents; Pharmacologic Substance
+T11	ANAT 1220 1228	arterial
+#11	AnnotatorNotes T11	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T12	PROC 383 413	evaluar la eficacia preventiva
+T13	CHEM 425 436	Fenilefrina
+#12	AnnotatorNotes T13	C0031469; phenylephrine; Organic Chemical · Pharmacologic Substance
+T14	DISO 443 463	hipotensión arterial
+#13	AnnotatorNotes T14	C0020649; Hypotension; Finding
+T15	PROC 480 503	anestesia subaracnoidea
+#14	AnnotatorNotes T15	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T16	PROC 528 535	cesárea
+#15	AnnotatorNotes T16	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T17	PROC 665 688	anestesia subaracnoidea
+#16	AnnotatorNotes T17	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T18	PROC 694 701	cesárea
+#17	AnnotatorNotes T18	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T19	PROC 734 741	placebo
+#18	AnnotatorNotes T19	C0032042; Placebos; Therapeutic or Preventive Procedure
+T20	PROC 710 723	aleatorizadas
+#19	AnnotatorNotes T20	C0034656; Randomization; Research Activity
+T21	CHEM 769 780	fenilefrina
+#20	AnnotatorNotes T21	C0031469; phenylephrine; Organic Chemical · Pharmacologic Substance
+T22	DISO 896 907	hipotensión
+#21	AnnotatorNotes T22	C0020649; Hypotension; Finding
+T23	PROC 948 959	intervenido
+#22	AnnotatorNotes T23	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T24	DISO 1062 1073	hipotensión
+#23	AnnotatorNotes T24	C0020649; Hypotension; Finding
+T25	PROC 1086 1097	intervenido
+#24	AnnotatorNotes T25	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T26	PROC 1212 1234	tensión arterial media
+#25	AnnotatorNotes T26	C0513528; Monitor mean arterial pressure; Health Care Activity (?)
+T27	PROC 1269 1272	TAM
+#26	AnnotatorNotes T27	C0513528; Monitor mean arterial pressure; Health Care Activity (?)
+T28	CHEM 1355 1367	vasopresores
+#27	AnnotatorNotes T28	C0042397; Vasoconstrictor Agents; Pharmacologic Substance
+T29	PROC 1263 1266	TAS
+#28	AnnotatorNotes T29	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T30	CHEM 1561 1572	fenilefrina
+#29	AnnotatorNotes T30	C0031469; phenylephrine; Organic Chemical · Pharmacologic Substance
+T31	DISO 1639 1650	hipotensión
+#30	AnnotatorNotes T31	C0020649; Hypotension; Finding
+T32	CHEM 1737 1749	vasopresores
+#31	AnnotatorNotes T32	C0042397; Vasoconstrictor Agents; Pharmacologic Substance
+T33	DISO 1780 1796	náuseas y vómito
+#32	AnnotatorNotes T33	C0027498; Nausea and vomiting; Sign or Symptom
+T34	DISO 45 56	hipotensión
+#33	AnnotatorNotes T34	C0020649; Hypotension; Finding
+T35	ANAT 455 463	arterial
+#34	AnnotatorNotes T35	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T36	PROC 561 599	ensayo clínico controlado, doble ciego
+#35	AnnotatorNotes T36	C0013072; Double-Blind Method; Research Activity + C0681867; Controlled Study; Research Activity
+T37	PROC 744 765	infusión profiláctica
+T38	DISO 1144 1155	hipotensión
+#36	AnnotatorNotes T38	C0020649; Hypotension; Finding
+T39	PROC 1157 1183	tensión arterial sistólica
+#37	AnnotatorNotes T39	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T40	ANAT 1165 1173	arterial
+#38	AnnotatorNotes T40	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T41	Route 83 96	subaracnoidea
+#39	AnnotatorNotes T41	C1515008; Subarachnoid Route of Drug Administration; Functional Concept
+T42	Route 194 207	subaracnoidea
+#40	AnnotatorNotes T42	C1515008; Subarachnoid Route of Drug Administration; Functional Concept
+T44	Route 490 503	subaracnoidea
+#41	AnnotatorNotes T44	C1515008; Subarachnoid Route of Drug Administration; Functional Concept
+T45	Age 615 633	mayores de 18 años
+T46	Route 675 688	subaracnoidea
+#42	AnnotatorNotes T46	C1515008; Subarachnoid Route of Drug Administration; Functional Concept
+T47	Route 744 752	infusión
+#43	AnnotatorNotes T47	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T48	Dose 781 787	40 mcg
+T49	Duration 801 810	5 minutos
+T50	LIVB 844 853	pacientes
+#44	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 924 937	grupo control
+#45	AnnotatorNotes T51	C0009932; Control Groups; Group
+T53	PHYS 1157 1173	tensión arterial
+#46	AnnotatorNotes T53	C0005823; Blood Pressure; Organism Function
+T55	LIVB 1375 1384	pacientes
+#47	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 1456 1469	grupo control
+#48	AnnotatorNotes T56	C0009932; Control Groups; Group
+T58	LIVB 507 516	gestantes
+#49	AnnotatorNotes T58	C0033011; Pregnant Women; Population Group
+T59	LIVB 604 613	gestantes
+#50	AnnotatorNotes T59	C0033011; Pregnant Women; Population Group
+T60	PHYS 1212 1228	tensión arterial
+#51	AnnotatorNotes T60	C0005823; Blood Pressure; Organism Function
+T43	PROC 635 638	ASA
+#52	AnnotatorNotes T43	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T61	Frequency 787 791	/min
+T52	LIVB 924 929;948 959	grupo intervenido
+#53	AnnotatorNotes T52	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T54	LIVB 1080 1097	grupo intervenido
+#54	AnnotatorNotes T54	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T57	CONC 1310 1321	diferencias
+A1	Assertion T57 Negated
+#55	AnnotatorNotes T57	C1705241; Delta (difference); Quantitative Concept
+T62	Neg_cue 1306 1309	sin
+R1	Negation Arg1:T62 Arg2:T57	
+T63	Neg_cue 983 986	Sin
+T64	CONC 999 1010	diferencias
+A2	Assertion T64 Negated
+#56	AnnotatorNotes T64	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T63 Arg2:T64	
+T65	Neg_cue 1586 1588	no
+T66	Quantifier_or_Qualifier 1602 1608	eficaz
+A3	Assertion T66 Negated
+#57	AnnotatorNotes T66	C1704419; Effective; Qualitative Concept
+R3	Negation Arg1:T65 Arg2:T66	
+T67	Quantifier_or_Qualifier 357 369	concluyentes
+A4	Assertion T67 Negated
+T68	Neg_cue 354 356	no
+R4	Negation Arg1:T68 Arg2:T67	
+R5	Used_for Arg1:T1 Arg2:T2	
+R6	Before Arg1:T2 Arg2:T34	
+R8	Before Arg1:T4 Arg2:T3	
+R9	Has_Route_or_Mode Arg1:T4 Arg2:T41	
+R10	Has_Route_or_Mode Arg1:T7 Arg2:T42	
+R11	Causes Arg1:T4 Arg2:T34	
+R7	Causes Arg1:T7 Arg2:T6	
+R12	Causes Arg1:T7 Arg2:T5	
+R13	Before Arg1:T7 Arg2:T8	
+R14	Before Arg1:T9 Arg2:T5	
+R15	Before Arg1:T9 Arg2:T6	
+R16	Used_for Arg1:T10 Arg2:T9	
+T69	Quantifier_or_Qualifier 325 338	profilácticos
+#58	AnnotatorNotes T69	C0445202; Prophylactic behavior; Functional Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T69	
+T70	CONC 343 353	resultados
+R19	Has_Quantifier_or_Qualifier Arg1:T70 Arg2:T67	
+R20	Location_of Arg1:T35 Arg2:T14	
+R21	Causes Arg1:T15 Arg2:T14	
+R22	Has_Route_or_Mode Arg1:T15 Arg2:T44	
+R24	Before Arg1:T15 Arg2:T16	
+R25	Experiences Arg1:T58 Arg2:T16	
+R26	Experiences Arg1:T58 Arg2:T15	
+R27	Experiences Arg1:T58 Arg2:T14	
+R28	Experiences Arg1:T58 Arg2:T13	
+R29	Has_Age Arg1:T59 Arg2:T45	
+R30	Experiences Arg1:T59 Arg2:T43	
+T71	Result_or_Value 639 644	1 y 2
+R31	Has_Result_or_Value Arg1:T43 Arg2:T71	
+R32	Has_Route_or_Mode Arg1:T17 Arg2:T46	
+R33	Before Arg1:T17 Arg2:T18	
+R34	Experiences Arg1:T59 Arg2:T17	
+R35	Experiences Arg1:T59 Arg2:T18	
+R36	Before Arg1:T20 Arg2:T19	
+R37	Before Arg1:T20 Arg2:T37	
+R38	Has_Route_or_Mode Arg1:T21 Arg2:T47	
+R39	Used_for Arg1:T21 Arg2:T37	
+R40	Has_Dose_or_Strength Arg1:T21 Arg2:T48	
+R41	Has_Frequency Arg1:T21 Arg2:T61	
+R42	Has_Duration_or_Interval Arg1:T21 Arg2:T49	
+R45	Experiences Arg1:T59 Arg2:T19	
+R46	Experiences Arg1:T59 Arg2:T37	
+R47	Experiences Arg1:T52 Arg2:T22	
+R48	Experiences Arg1:T51 Arg2:T22	
+R49	Experiences Arg1:T54 Arg2:T24	
+R50	Experiences Arg1:T54 Arg2:T25	
+R51	Experiences Arg1:T52 Arg2:T23	
+R52	Experiences Arg1:T54 Arg2:T38	
+R53	Before Arg1:T25 Arg2:T24	
+R54	Before Arg1:T25 Arg2:T38	
+R55	Experiences Arg1:T54 Arg2:T39	
+R56	Experiences Arg1:T54 Arg2:T53	
+R57	Location_of Arg1:T40 Arg2:T53	
+R58	Location_of Arg1:T40 Arg2:T39	
+R61	Location_of Arg1:T11 Arg2:T26	
+R62	Location_of Arg1:T11 Arg2:T60	
+R63	Experiences Arg1:T54 Arg2:T26	
+R64	Experiences Arg1:T54 Arg2:T60	
+R65	Experiences Arg1:T54 Arg2:T29	
+R66	Experiences Arg1:T54 Arg2:T27	
+R67	Experiences Arg1:T55 Arg2:T28	
+R68	Experiences Arg1:T56 Arg2:T28	
+R69	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T66	
+T72	Quantifier_or_Qualifier 1573 1585	profiláctica
+#59	AnnotatorNotes T72	C0445202; Prophylactic behavior; Functional Concept
+R70	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T72	
+T73	CONC 1612 1621	disminuir
+#60	AnnotatorNotes T73	C0547047; Decrease; Quantitative Concept
+A5	Assertion T73 Negated
+R72	Negation Arg1:T65 Arg2:T73	
+R74	Before Arg1:T30 Arg2:T32	
+R75	Before Arg1:T30 Arg2:T33	
+#61	AnnotatorNotes T70	C1274040; Result; Functional Concept
+#62	AnnotatorNotes T67	C2828146; Conclusive; Qualitative Concept
+T74	Quantifier_or_Qualifier 1011 1025	significativas
+A6	Assertion T74 Negated
+#63	AnnotatorNotes T74	C0237881; Statistical Significance; Quantitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T74	
+R23	Negation Arg1:T63 Arg2:T74	
+T75	Quantifier_or_Qualifier 1322 1336	significativas
+A7	Assertion T75 Negated
+#64	AnnotatorNotes T75	C0237881; Statistical Significance; Quantitative Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T75	
+R44	Negation Arg1:T62 Arg2:T75	
+A8	Experiencer T58 Patient
+A9	Experiencer T59 Patient
+A10	Experiencer T50 Patient
+A11	Experiencer T51 Patient
+A12	Experiencer T52 Patient
+A13	Experiencer T54 Patient
+A14	Experiencer T55 Patient
+A15	Experiencer T56 Patient

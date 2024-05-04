@@ -1,0 +1,182 @@
+T1	CHEM 46 55	LIDOCAINA
+#1	AnnotatorNotes T1	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T2	PROC 101 130	CIRUGÍA DE RESECCIÓN PULMONAR
+#2	AnnotatorNotes T2	C0396565; Lung excision; Therapeutic or Preventive Procedure
+T3	DISO 153 178	COMPLICACIONES PULMONARES
+T4	PROC 290 308	PERFUSIÓN CONTINUA
+#3	AnnotatorNotes T4	C0444889; Continuous infusion; Therapeutic or Preventive Procedure
+T5	PROC 342 371	CIRUGÍA DE RESECCIÓN PULMONAR
+#4	AnnotatorNotes T5	C0396565; Lung excision; Therapeutic or Preventive Procedure
+T6	PROC 488 517	cirugía de resección pulmonar
+#5	AnnotatorNotes T6	C0396565; Lung excision; Therapeutic or Preventive Procedure
+T7	DISO 394 424	COMPLICACIONES POSTOPERATORIAS
+#6	AnnotatorNotes T7	C0032787; Postoperative Complications; Pathologic Function
+T8	ANAT 509 517	pulmonar
+#7	AnnotatorNotes T8	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T9	PROC 794 818	consentimiento informado
+#8	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	PROC 597 626	cirugía de resección pulmonar
+#9	AnnotatorNotes T10	C0396565; Lung excision; Therapeutic or Preventive Procedure
+T11	ANAT 618 626	pulmonar
+#10	AnnotatorNotes T11	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T12	ANAT 363 371	PULMONAR
+#11	AnnotatorNotes T12	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T13	PROC 857 864	Cirugía
+#12	AnnotatorNotes T13	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T14	PROC 929 932	CVF
+#13	AnnotatorNotes T14	C0430511; Vital capacity test; Diagnostic Procedure
+T15	PROC 1028 1070	tratamiento crónico con corticoides orales
+T16	CHEM 1052 1063	corticoides
+#14	AnnotatorNotes T16	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T17	PROC 917 921	FEV1
+#15	AnnotatorNotes T17	C0849974; Pulmonary Function Test/Forced Expiratory Volume 1; Diagnostic Procedure
+T18	CHEM 1073 1089	inmunosupresores
+#16	AnnotatorNotes T18	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T19	PROC 1113 1120	cirugía
+#17	AnnotatorNotes T19	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T20	DISO 1158 1169	hepatopatía
+#18	AnnotatorNotes T20	C0023895; Liver diseases; Disease or Syndrome
+T21	DISO 1223 1240	Hipersensibilidad
+#19	AnnotatorNotes T21	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T22	PROC 1286 1320	Transfusión de productos hemáticos
+T23	CHEM 1301 1320	productos hemáticos
+#20	AnnotatorNotes T23	C0456388; Blood product; Pharmacologic Substance
+T24	PROC 1373 1393	ventilación mecánica
+#21	AnnotatorNotes T24	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T25	ANAT 1408 1416	pulmonar
+#22	AnnotatorNotes T25	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T26	ANAT 122 130	PULMONAR
+#23	AnnotatorNotes T26	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T27	ANAT 168 178	PULMONARES
+#24	AnnotatorNotes T27	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T28	PROC 231 245	ADMINISTRACIÓN
+#25	AnnotatorNotes T28	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T29	PROC 879 912	Pruebas funcionales respiratorias
+T31	CHEM 1252 1282	anestésicos locales tipo amida
+#26	AnnotatorNotes T31	C0360090; Amide type local anesthetic; Organic Chemical · Pharmacologic Substance
+T32	CHEM 249 258	LIDOCAINA
+#27	AnnotatorNotes T32	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T33	Date 13 17	2016
+T34	Route 56 67	INTRAVENOSA
+#28	AnnotatorNotes T34	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T35	Time 79 94	INTRAOPERATORIO
+#29	AnnotatorNotes T35	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T36	Date 179 194	POSTOPERATORIAS
+#30	AnnotatorNotes T36	C0032790; Postoperative Period; Temporal Concept
+T37	Route 259 270	INTRAVENOSA
+#31	AnnotatorNotes T37	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T38	Route 273 286	PARAVERTEBRAL
+#32	AnnotatorNotes T38	C1882285; Paravertebral Route of Administration; Functional Concept
+T39	Route 290 299	PERFUSIÓN
+#33	AnnotatorNotes T39	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T40	Time 320 335	INTRAOPERATORIO
+#34	AnnotatorNotes T40	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T41	Date 409 424	POSTOPERATORIAS
+#35	AnnotatorNotes T41	C0032790; Postoperative Period; Temporal Concept
+T42	LIVB 452 461	pacientes
+#36	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 546 570	Pacientes de ambos sexos
+#37	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T44	LIVB 719 728	Pacientes
+#38	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Age 826 835	> 18 años
+T47	Date 945 958	preoperatorio
+#39	AnnotatorNotes T47	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T48	LIVB 977 986	pacientes
+#40	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Neg_cue 1009 1011	No
+T50	Duration 1040 1047	crónico
+#41	AnnotatorNotes T50	C0205191; chronic; Temporal Concept
+T51	Route 1064 1070	orales
+#42	AnnotatorNotes T51	C1527415; Oral Route of Drug administration; Functional Concept
+T52	Duration 1090 1100	tres meses
+T53	LIVB 1125 1134	Pacientes
+#43	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Neg_cue 1135 1138	sin
+T55	PHYS 1199 1207	Embarazo
+#44	AnnotatorNotes T55	C0032961; Pregnancy; Organism Function
+T56	PHYS 1210 1219	lactancia
+#45	AnnotatorNotes T56	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T57	Duration 1324 1343	los 10 días previos
+T58	Neg_cue 1347 1363	Imposibilidad de
+A1	Status T20 History_of
+A2	Assertion T20 Negated
+A3	Assertion T15 Negated
+A4	Assertion T16 Negated
+A5	Assertion T18 Negated
+A6	Assertion T24 Negated
+A7	Status T21 History_of
+A8	Status T22 History_of
+A9	Status T23 History_of
+#46	AnnotatorNotes T22	C5441444; Transfusion of blood and blood products; Therapeutic or Preventive Procedure 
+T30	Observation 838 854	legalmente capaz
+#47	AnnotatorNotes T30	C1555472; Authorized; Finding (?)
+T46	Quantifier_or_Qualifier 865 875	programada
+#48	AnnotatorNotes T46	C0205539; Scheduled - procedure status; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T46	
+#49	AnnotatorNotes T29	C0035227; Respiratory Function Tests; Diagnostic Procedure
+T59	Result_or_Value 922 926	>50%
+R2	Has_Result_or_Value Arg1:T17 Arg2:T59	
+T60	Result_or_Value 933 938	> 50%
+R3	Has_Result_or_Value Arg1:T14 Arg2:T60	
+R4	Overlap Arg1:T14 Arg2:T47	
+R5	Overlap Arg1:T17 Arg2:T47	
+R6	Experiences Arg1:T48 Arg2:T29	
+R7	Overlap Arg1:T29 Arg2:T47	
+R8	Experiences Arg1:T48 Arg2:T17	
+R9	Experiences Arg1:T48 Arg2:T14	
+R10	Has_Route_or_Mode Arg1:T1 Arg2:T34	
+R11	Overlap Arg1:T1 Arg2:T35	
+R12	Overlap Arg1:T2 Arg2:T35	
+R13	Overlap Arg1:T1 Arg2:T2	
+R14	Location_of Arg1:T26 Arg2:T2	
+R15	Location_of Arg1:T27 Arg2:T3	
+R16	Overlap Arg1:T3 Arg2:T36	
+R17	Before Arg1:T2 Arg2:T3	
+#50	AnnotatorNotes T3	C0281169; Pulmonary Complication; Pathologic Function
+R18	Overlap Arg1:T7 Arg2:T41	
+R19	Used_for Arg1:T32 Arg2:T28	
+R20	Has_Route_or_Mode Arg1:T32 Arg2:T37	
+R21	Has_Route_or_Mode Arg1:T32 Arg2:T38	
+R22	Used_for Arg1:T32 Arg2:T4	
+R23	Has_Route_or_Mode Arg1:T32 Arg2:T39	
+R24	Overlap Arg1:T4 Arg2:T40	
+R25	Overlap Arg1:T32 Arg2:T40	
+R26	Overlap Arg1:T5 Arg2:T40	
+R27	Location_of Arg1:T12 Arg2:T5	
+R28	Before Arg1:T5 Arg2:T7	
+R29	Experiences Arg1:T42 Arg2:T6	
+R30	Location_of Arg1:T8 Arg2:T6	
+R31	Location_of Arg1:T11 Arg2:T10	
+R32	Experiences Arg1:T43 Arg2:T10	
+T61	Observation 733 767	acepten voluntariamente participar
+R34	Before Arg1:T9 Arg2:T61	
+R35	Overlap Arg1:T30 Arg2:T45	
+R36	Negation Arg1:T49 Arg2:T15	
+R37	Negation Arg1:T49 Arg2:T16	
+R38	Has_Route_or_Mode Arg1:T16 Arg2:T51	
+R39	Has_Duration_or_Interval Arg1:T16 Arg2:T50	
+R40	Negation Arg1:T49 Arg2:T18	
+R41	Has_Duration_or_Interval Arg1:T18 Arg2:T52	
+R42	Before Arg1:T18 Arg2:T19	
+R43	Before Arg1:T15 Arg2:T19	
+R44	Experiences Arg1:T53 Arg2:T20	
+R45	Negation Arg1:T54 Arg2:T20	
+R46	Causes Arg1:T31 Arg2:T21	
+R47	Used_for Arg1:T23 Arg2:T22	
+R48	Overlap Arg1:T23 Arg2:T57	
+R49	Negation Arg1:T58 Arg2:T24	
+T62	Quantifier_or_Qualifier 1394 1416	de protección pulmonar
+A10	Assertion T62 Negated
+R50	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T62	
+R51	Negation Arg1:T58 Arg2:T62	
+R33	Used_for Arg1:T16 Arg2:T15	
+#51	AnnotatorNotes T61	C1302239; Patient consented to clinical trial; Finding
+A11	Experiencer T42 Patient
+A12	Status T6 Future
+A13	Status T10 Future
+A14	Experiencer T43 Patient
+A15	Experiencer T44 Patient
+A16	Status T13 Future
+A17	Experiencer T48 Patient
+A18	Experiencer T53 Patient

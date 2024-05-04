@@ -1,0 +1,84 @@
+T1	CHEM 92 107	insulina aspart
+#1	AnnotatorNotes T1	C0123677; insulin aspart, human; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C1708521; Insulin Aspart; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T2	CHEM 153 170	insulina degludec
+#2	AnnotatorNotes T2	C3491971; insulin degludec; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T3	CHEM 171 182	liraglutida
+#3	AnnotatorNotes T3	C1456408; liraglutide; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T4	DISO 198 222	diabetes mellitus tipo 2
+#4	AnnotatorNotes T4	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T5	CHEM 249 266	insulina degludec
+#5	AnnotatorNotes T5	C3491971; insulin degludec; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T6	CHEM 267 278	liraglutida
+#6	AnnotatorNotes T6	C1456408; liraglutide; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T7	CHEM 281 291	metformina
+#7	AnnotatorNotes T7	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T8	DISO 357 372	Diabetes tipo 2
+#8	AnnotatorNotes T8	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T9	DISO 399 424	Diabetes Mellitus, Tipo 2
+#9	AnnotatorNotes T9	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T10	CHEM 507 524	insulina degludec
+#10	AnnotatorNotes T10	C3491971; insulin degludec; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T11	CHEM 525 536	liraglutida
+#11	AnnotatorNotes T11	C1456408; liraglutide; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T12	CHEM 539 549	metformina
+#12	AnnotatorNotes T12	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T13	DISO 636 648	Enfermedades
+#13	AnnotatorNotes T13	C0012634; Disease; Disease or Syndrome
+T14	ANAT 696 714	sistemas orgánicos
+#14	AnnotatorNotes T14	C0460002; body system; Body System
+T15	PROC 236 244	tratados
+#15	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 554 559	HbA1c
+#16	AnnotatorNotes T16	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T17	PROC 720 731	Calcitonina
+#17	AnnotatorNotes T17	C0201924; Calcitonin measurement; Laboratory Procedure
+T18	Date 13 17	2013
+T19	LIVB 186 193	sujetos
+#18	AnnotatorNotes T19	C0681850; Study Subject; Group
+T20	PROC 120 149	aumento adicional de la dosis
+#19	AnnotatorNotes T20	C1707810; Dose Increased; Therapeutic or Preventive Procedure
+T21	PROC 468 474	visita
+#20	AnnotatorNotes T21	C1512346; Patient Visit; Health Care Activity
+T22	PROC 572 578	visita
+#21	AnnotatorNotes T22	C1512346; Patient Visit; Health Care Activity
+T23	Quantifier_or_Qualifier 579 581	27
+T24	Quantifier_or_Qualifier 475 477	28
+T25	CONC 454 466	Finalización
+#22	AnnotatorNotes T25	C4283764; Trial participation end date; Temporal Concept
+A1	Status T15 History_of
+A2	Status T5 History_of
+A3	Status T6 History_of
+A4	Status T7 History_of
+A5	Status T10 History_of
+A6	Status T11 History_of
+A7	Status T12 History_of
+R1	Experiences Arg1:T19 Arg2:T1	
+R2	Experiences Arg1:T19 Arg2:T20	
+R3	Experiences Arg1:T19 Arg2:T4	
+R4	Experiences Arg1:T19 Arg2:T15	
+R5	Before Arg1:T15 Arg2:T1	
+R6	Before Arg1:T15 Arg2:T20	
+R7	Used_for Arg1:T5 Arg2:T15	
+R8	Combined_with Arg1:T5 Arg2:T6	
+R9	Combined_with Arg1:T6 Arg2:T7	
+R10	Used_for Arg1:T2 Arg2:T20	
+R11	Combined_with Arg1:T2 Arg2:T3	
+R12	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T24	
+R13	Combined_with Arg1:T10 Arg2:T11	
+R14	Combined_with Arg1:T11 Arg2:T12	
+T26	Result_or_Value 560 565	≥ 7 %
+R15	Has_Result_or_Value Arg1:T16 Arg2:T26	
+R16	Overlap Arg1:T16 Arg2:T22	
+R17	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T23	
+T27	Quantifier_or_Qualifier 649 676	clínicamente significativas
+R18	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T27	
+T28	Result_or_Value 745 754	> 50 ng/l
+R19	Has_Result_or_Value Arg1:T17 Arg2:T28	
+R20	Location_of Arg1:T14 Arg2:T13	
+T29	PROC 735 744	selección
+#23	AnnotatorNotes T29	C0242802; Patient Selection; Research Activity
+R21	Overlap Arg1:T17 Arg2:T29	
+R22	Before Arg1:T10 Arg2:T21	
+R23	Before Arg1:T10 Arg2:T25	
+#24	AnnotatorNotes T27	C5209294; Clinical relevance; Intellectual Product
+A8	Experiencer T19 Patient

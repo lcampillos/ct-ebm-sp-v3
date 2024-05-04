@@ -1,0 +1,217 @@
+T1	PROC 189 219	Investigar el vaciado gástrico
+#1	AnnotatorNotes T1	C0203071; Gastric emptying study; Diagnostic Procedure
+T2	Food 637 659	suplemento nutricional
+#2	AnnotatorNotes T2	C0242295; Dietary Supplements; Food
+T3	CHEM 51 70	hidratos de carbono
+#3	AnnotatorNotes T3	C0007004; Carbohydrates; Organic Chemical
+T4	PROC 925 928	RGV
+#4	AnnotatorNotes T4	C0545425; Gastric secretion volume measurement; Diagnostic Procedure
+T5	PROC 129 139	endoscopia
+#5	AnnotatorNotes T5	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T6	PROC 144 177	ensayo doble ciego y aleatorizado
+#6	AnnotatorNotes T6	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T7	ANAT 211 219	gástrico
+#7	AnnotatorNotes T7	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T8	CHEM 255 274	hidratos de carbono
+#8	AnnotatorNotes T8	C0007004; Carbohydrates; Organic Chemical
+T9	PROC 1230 1233	RGV
+#9	AnnotatorNotes T9	C0545425; Gastric secretion volume measurement; Diagnostic Procedure
+T10	PROC 341 351	endoscopia
+#10	AnnotatorNotes T10	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T11	PROC 377 409	estudio doble ciego aleatorizado
+#11	AnnotatorNotes T11	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T12	PROC 588 612	asignados aleatoriamente
+#12	AnnotatorNotes T12	C0034656; Randomization; Research Activity
+T13	DISO 476 489	epigastralgia
+#13	AnnotatorNotes T13	C0232493; Epigastric pain; Sign or Symptom
+T14	PROC 514 526	gastroscopia
+#14	AnnotatorNotes T14	C0017195; Endoscopy of stomach; Diagnostic Procedure
+T15	CHEM 678 691	maltodextrina
+#15	AnnotatorNotes T15	C0065601; maltodextrin; Organic Chemical · Pharmacologic Substance
+T16	PROC 770 782	gastroscopia
+#16	AnnotatorNotes T16	C0017195; Endoscopy of stomach; Diagnostic Procedure
+T17	PROC 844 869	procedimiento endoscópico
+#17	AnnotatorNotes T17	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T18	ANAT 906 914	gástrico
+#18	AnnotatorNotes T18	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T19	PROC 985 995	evaluación
+#19	AnnotatorNotes T19	C1261322; Evaluation procedure; Health Care Activity
+T20	DISO 1040 1054	complicaciones
+#20	AnnotatorNotes T20	C0009566; Complication; Pathologic Function
+T21	ANAT 1390 1398	gástrico
+#21	AnnotatorNotes T21	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T22	CHEM 1474 1493	hidratos de carbono
+#22	AnnotatorNotes T22	C0007004; Carbohydrates; Organic Chemical
+T23	PROC 1635 1660	procedimiento endoscopico
+#23	AnnotatorNotes T23	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T24	PROC 1680 1698	protocolo de ayuno
+T25	CHEM 73 100	proteínas de suero de leche
+#24	AnnotatorNotes T25	C1883555; whey protein isolate; Amino Acid, Peptide, or Protein · Pharmacologic Substance (?)
+T26	PROC 115 123	sedación
+#25	AnnotatorNotes T26	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T27	CHEM 280 307	proteínas de suero de leche
+#26	AnnotatorNotes T27	C1883555; whey protein isolate; Amino Acid, Peptide, or Protein · Pharmacologic Substance (?)
+T28	PROC 327 335	sedación
+#27	AnnotatorNotes T28	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T29	CHEM 694 720	proteína de suero de leche
+#28	AnnotatorNotes T29	C1883555; whey protein isolate; Amino Acid, Peptide, or Protein · Pharmacologic Substance (?)
+T30	PROC 755 763	sedación
+#29	AnnotatorNotes T30	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T31	PROC 793 805	intervención
+#30	AnnotatorNotes T31	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T32	PROC 898 923	volumen gástrico residual
+#31	AnnotatorNotes T32	C0545425; Gastric secretion volume measurement; Diagnostic Procedure
+T33	PROC 959 965	examen
+#32	AnnotatorNotes T33	C0582103; Medical Examination; Health Care Activity
+T34	PROC 1067 1075	exámenes
+#33	AnnotatorNotes T34	C0582103; Medical Examination; Health Care Activity
+T35	PROC 1326 1338	intervención
+#34	AnnotatorNotes T35	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T36	CHEM 1496 1522	proteína de suero de leche
+#35	AnnotatorNotes T36	C1883555; whey protein isolate; Amino Acid, Peptide, or Protein · Pharmacologic Substance (?)
+T37	PROC 1621 1629	sedación
+#36	AnnotatorNotes T37	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T38	Route 33 37	oral
+#37	AnnotatorNotes T38	C1527415; Oral Route of Drug administration; Functional Concept
+T39	Route 237 241	oral
+#38	AnnotatorNotes T39	C1527415; Oral Route of Drug administration; Functional Concept
+T41	LIVB 423 440	pacientes adultos
+#39	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T42	Age 442 452	18-65 años
+T43	Duration 548 557	una noche
+T44	LIVB 571 580	pacientes
+#40	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Dose 624 630	200 ml
+T46	Route 660 664	oral
+#41	AnnotatorNotes T46	C1527415; Oral Route of Drug administration; Functional Concept
+T47	Duration 725 742	150 a 210 minutos
+T48	LIVB 784 805	grupo de intervención
+#42	AnnotatorNotes T48	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T49	LIVB 871 884	grupo control
+#43	AnnotatorNotes T49	C0009932; Control Groups; Group
+T51	Neg_cue 1032 1034	No
+T52	LIVB 1137 1150	grupo control
+#44	AnnotatorNotes T52	C0009932; Control Groups; Group
+T53	Duration 1152 1159	770 min
+T54	Duration 1161 1174	660 - 917 min
+T55	Duration 1204 1211	175 min
+T56	Duration 1213 1224	150-210 min
+T57	LIVB 1286 1299	grupo control
+#45	AnnotatorNotes T57	C0009932; Control Groups; Group
+T59	LIVB 1317 1338	grupo de intervención
+#46	AnnotatorNotes T59	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T60	Duration 1399 1414	150-210 minutos
+T61	Route 1456 1460	oral
+#47	AnnotatorNotes T61	C1527415; Oral Route of Drug administration; Functional Concept
+T62	Duration 1563 1576	toda la noche
+T64	PHYS 1 8	Ingesta
+#48	AnnotatorNotes T64	C0232478; Ingestion; Biologic Function
+T40	PHYS 1382 1398	vaciado gástrico
+#49	AnnotatorNotes T40	C0017127; Gastric Emptying; Organ or Tissue Function
+T50	PHYS 203 219	vaciado gástrico
+#50	AnnotatorNotes T50	C0017127; Gastric Emptying; Organ or Tissue Function
+T58	PHYS 1429 1438	ingestión
+#51	AnnotatorNotes T58	C0232478; Ingestion; Biologic Function
+T63	PROC 830 835	ayuno
+#52	AnnotatorNotes T63	C5203658; Fasting; Therapeutic or Preventive Procedure
+T65	PROC 561 566	ayuno
+#53	AnnotatorNotes T65	C5203658; Fasting; Therapeutic or Preventive Procedure
+T66	PROC 1096 1101	ayuno
+#54	AnnotatorNotes T66	C5203658; Fasting; Therapeutic or Preventive Procedure
+T67	PROC 1537 1542	ayuno
+#55	AnnotatorNotes T67	C5203658; Fasting; Therapeutic or Preventive Procedure
+A1	Population_data T41 Age
+A2	Assertion T20 Negated
+R1	Negation Arg1:T51 Arg2:T20	
+R2	Has_Route_or_Mode Arg1:T3 Arg2:T38	
+R3	Has_Route_or_Mode Arg1:T25 Arg2:T38	
+T68	Food 22 32	suplemento
+#56	AnnotatorNotes T68	C0242295; Dietary Supplements; Food
+R4	Used_for Arg1:T68 Arg2:T64	
+R5	Combined_with Arg1:T68 Arg2:T3	
+R6	Combined_with Arg1:T3 Arg2:T25	
+R8	Before Arg1:T26 Arg2:T5	
+R9	Before Arg1:T64 Arg2:T26	
+R7	Location_of Arg1:T7 Arg2:T50	
+R10	Location_of Arg1:T7 Arg2:T1	
+T69	Food 226 236	suplemento
+#57	AnnotatorNotes T69	C0242295; Dietary Supplements; Food
+T70	Food 1445 1455	suplemento
+#58	AnnotatorNotes T70	C0242295; Dietary Supplements; Food
+R11	Has_Route_or_Mode Arg1:T8 Arg2:T39	
+R12	Has_Route_or_Mode Arg1:T27 Arg2:T39	
+R13	Combined_with Arg1:T8 Arg2:T27	
+R14	Combined_with Arg1:T69 Arg2:T8	
+R15	Before Arg1:T69 Arg2:T28	
+R16	Before Arg1:T28 Arg2:T10	
+R17	Before Arg1:T69 Arg2:T1	
+R18	Has_Age Arg1:T41 Arg2:T42	
+R19	Experiences Arg1:T41 Arg2:T13	
+T71	Quantifier_or_Qualifier 527 535	electiva
+#59	AnnotatorNotes T71	C0439608; elective; Temporal Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T71	
+R21	Experiences Arg1:T41 Arg2:T14	
+R22	Has_Duration_or_Interval Arg1:T65 Arg2:T43	
+R23	Experiences Arg1:T44 Arg2:T65	
+R24	Before Arg1:T65 Arg2:T12	
+R25	Before Arg1:T12 Arg2:T2	
+R26	Before Arg1:T2 Arg2:T30	
+R27	Before Arg1:T30 Arg2:T16	
+R28	Before Arg1:T12 Arg2:T63	
+R29	Before Arg1:T63 Arg2:T17	
+R30	Experiences Arg1:T49 Arg2:T17	
+R31	Experiences Arg1:T49 Arg2:T63	
+R32	Experiences Arg1:T48 Arg2:T31	
+R33	Has_Dose_or_Strength Arg1:T2 Arg2:T45	
+R34	Has_Route_or_Mode Arg1:T15 Arg2:T46	
+R35	Has_Route_or_Mode Arg1:T29 Arg2:T46	
+R36	Has_Route_or_Mode Arg1:T2 Arg2:T46	
+R37	Has_Duration_or_Interval Arg1:T2 Arg2:T47	
+R38	Experiences Arg1:T44 Arg2:T2	
+R39	Experiences Arg1:T44 Arg2:T30	
+R41	Experiences Arg1:T44 Arg2:T31	
+R42	Experiences Arg1:T44 Arg2:T17	
+R40	Location_of Arg1:T18 Arg2:T32	
+R43	Location_of Arg1:T18 Arg2:T4	
+R44	Overlap Arg1:T32 Arg2:T33	
+R45	Overlap Arg1:T4 Arg2:T33	
+R46	Overlap Arg1:T20 Arg2:T34	
+R47	Has_Duration_or_Interval Arg1:T66 Arg2:T53	
+R48	Has_Duration_or_Interval Arg1:T66 Arg2:T54	
+R49	Experiences Arg1:T52 Arg2:T66	
+T72	LIVB 1186 1202	grupo de estudio
+#60	AnnotatorNotes T72	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+R50	Experiences Arg1:T72 Arg2:T66	
+R51	Has_Duration_or_Interval Arg1:T66 Arg2:T55	
+R52	Has_Duration_or_Interval Arg1:T66 Arg2:T56	
+R53	Experiences Arg1:T57 Arg2:T9	
+R54	Experiences Arg1:T59 Arg2:T35	
+R55	Experiences Arg1:T59 Arg2:T9	
+R56	Location_of Arg1:T21 Arg2:T40	
+R57	Has_Duration_or_Interval Arg1:T40 Arg2:T60	
+R58	After Arg1:T40 Arg2:T58	
+R59	Used_for Arg1:T70 Arg2:T58	
+R60	Has_Route_or_Mode Arg1:T22 Arg2:T61	
+R61	Combined_with Arg1:T70 Arg2:T22	
+R62	Combined_with Arg1:T22 Arg2:T36	
+R63	Has_Duration_or_Interval Arg1:T67 Arg2:T62	
+R64	Before Arg1:T37 Arg2:T23	
+R65	Before Arg1:T24 Arg2:T37	
+R66	After Arg1:T40 Arg2:T67	
+T73	Food 1508 1522	suero de leche
+#61	AnnotatorNotes T73	C0078479; Whey Proteins; Food
+T74	Food 293 307	suero de leche
+#62	AnnotatorNotes T74	C0078479; Whey Proteins; Food
+T75	Food 86 100	suero de leche
+#63	AnnotatorNotes T75	C0078479; Whey Proteins; Food
+R67	Combined_with Arg1:T2 Arg2:T15	
+R68	Combined_with Arg1:T15 Arg2:T29	
+#64	AnnotatorNotes T24	C5203658; Fasting; Therapeutic or Preventive Procedure
+A3	Experiencer T57 Patient
+A4	Experiencer T59 Patient
+A5	Experiencer T52 Patient
+A6	Experiencer T72 Patient
+A7	Experiencer T41 Patient
+A8	Experiencer T44 Patient
+A9	Experiencer T48 Patient
+A10	Experiencer T49 Patient

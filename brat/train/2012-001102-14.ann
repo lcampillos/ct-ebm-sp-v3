@@ -1,0 +1,151 @@
+T1	CHEM 74 83	rituximab
+#1	AnnotatorNotes T1	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T2	CHEM 91 102	azatioprina
+#2	AnnotatorNotes T2	C0004482; azathioprine; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T3	PROC 651 687	Consentimiento informado por escrito
+#3	AnnotatorNotes T3	C0811741; Obtain informed written consent; Health Care Activity
+T4	DISO 144 159	vasculitis ANCA
+#4	AnnotatorNotes T4	C2717865; Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis; Disease or Syndrome
+T5	CHEM 155 159	ANCA
+#5	AnnotatorNotes T5	C0103647; Antineutrophil Cytoplasmic Antibodies; Immunologic Factor
+T6	PROC 182 238	Estudio internacional, abierto, aleatorizado, controlado
+T7	CHEM 251 260	rituximab
+#6	AnnotatorNotes T7	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	CHEM 338 380	anticuerpos anti-citoplasma del neutrófilo
+T9	CHEM 382 386	ANCA
+#7	AnnotatorNotes T9	C0103647; Antineutrophil Cytoplasmic Antibodies; Immunologic Factor
+T10	DISO 413 434	Enfermedad autoinmune
+#8	AnnotatorNotes T10	C0004364; Autoimmune Diseases; Disease or Syndrome
+T11	ANAT 449 465	vasos sanguíneos
+#9	AnnotatorNotes T11	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T12	PROC 56 70	Ensayo clínico
+#10	AnnotatorNotes T12	C0008976; Clinical Trials; Research Activity
+T13	DISO 569 578	infección
+#11	AnnotatorNotes T13	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T14	DISO 606 621	Vasculitis ANCA
+#12	AnnotatorNotes T14	C2717865; Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis; Disease or Syndrome
+T15	CHEM 617 621	ANCA
+#13	AnnotatorNotes T15	C0103647; Antineutrophil Cytoplasmic Antibodies; Immunologic Factor
+T16	PROC 751 762	Diagnóstico
+#14	AnnotatorNotes T16	C0011900; Diagnosis; Diagnostic Procedure
+T17	DISO 766 792	vasculitis asociada a ANCA
+#15	AnnotatorNotes T17	C2717865; Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis; Disease or Syndrome
+T18	DISO 794 820	poliangiitis granulomatosa
+#16	AnnotatorNotes T18	C3495801; Granulomatosis with polyangiitis; Disease or Syndrome
+T19	DISO 822 829	Wegener
+#17	AnnotatorNotes T19	C3495801; Granulomatosis with polyangiitis; Disease or Syndrome
+T20	DISO 833 858	poliangiitis microscópica
+#18	AnnotatorNotes T20	C2347126; Microscopic Polyarteritis; Disease or Syndrome
+T21	PROC 932 936	ANCA
+#19	AnnotatorNotes T21	C0201530; Antineutrophil cytoplasmic antibody measurement; Laboratory Procedure
+T22	PROC 968 973	ELISA
+#20	AnnotatorNotes T22	C0014441; Enzyme-Linked Immunosorbent Assay; Laboratory Procedure
+T23	PROC 980 999	inmunofluorescencia
+#21	AnnotatorNotes T23	C0079603; Immunofluorescence assay; Laboratory Procedure
+T24	CHEM 265 276	azatioprina
+#22	AnnotatorNotes T24	C0004482; azathioprine; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T25	DISO 1143 1168	granulomatosis de Wegener
+#23	AnnotatorNotes T25	C3495801; Granulomatosis with polyangiitis; Disease or Syndrome
+T26	PROC 1243 1263	terapia de inducción
+#24	AnnotatorNotes T26	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T27	PROC 1373 1384	Tratamiento
+#25	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	CHEM 1396 1414	agentes biológicos
+#26	AnnotatorNotes T28	C0005515; Biological Factors; Biologically Active Substance
+T29	ANAT 1431 1443	linfocitos B
+#27	AnnotatorNotes T29	C0004561; B-Lymphocytes; Cell
+T30	CHEM 1450 1459	rituximab
+#28	AnnotatorNotes T30	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T31	CHEM 1462 1471	belimumab
+#29	AnnotatorNotes T31	C1723401; belimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	DISO 315 380	vasculitis asociadas a anticuerpos anti-citoplasma del neutrófilo
+T33	CHEM 788 792	ANCA
+#30	AnnotatorNotes T33	C0103647; Antineutrophil Cytoplasmic Antibodies; Immunologic Factor
+T34	Date 13 17	2012
+T35	LIVB 689 699	individuos
+#31	AnnotatorNotes T35	C0027361; Persons; Population Group
+T36	Age 708 738	igual o superior a los 15 años
+T37	Date 947 953	actual
+T38	LIVB 1182 1191	pacientes
+#32	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Age 1301 1310	< 15 años
+T40	Age 1312 1320	<18 años
+T41	Neg_cue 1336 1338	no
+T42	LIVB 1347 1368	pacientes pediátricos
+#33	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T43	Duration 1476 1495	los 6 meses previos
+T44	ANAT 370 380	neutrófilo
+#34	AnnotatorNotes T44	C0027950; neutrophil; Cell
+T45	PHYS 525 532	defensa
+#35	AnnotatorNotes T45	C1817756; Immune System Processes; Organ or Tissue Function (?)
+T46	DISO 1021 1032	recurrencia
+#36	AnnotatorNotes T46	C2825055; Recurrence (disease attribute); Pathologic Function
+T47	PROC 1088 1092	BVAS
+#37	AnnotatorNotes T47	C5395416; Assessment using Birmingham Vasculitis Activity Score; Health Care Activity
+T48	PROC 1094 1130	Birmingham Vasculitis Activity Score
+#38	AnnotatorNotes T48	C5395416; Assessment using Birmingham Vasculitis Activity Score; Health Care Activity
+T49	PROC 1170 1174	BVAS
+#39	AnnotatorNotes T49	C5395416; Assessment using Birmingham Vasculitis Activity Score; Health Care Activity
+A1	Population_data T42 Age
+A3	Status T27 History_of
+A2	Status T28 History_of
+A4	Status T30 History_of
+A5	Status T31 History_of
+#40	AnnotatorNotes T8	C0103647; Antineutrophil Cytoplasmic Antibodies; Immunologic Factor
+#41	AnnotatorNotes T32	C2717865; Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis; Disease or Syndrome
+#42	AnnotatorNotes T37	C0521116; Current (present time); Temporal Concept 
+T50	Observation 129 137	remisión
+#43	AnnotatorNotes T50	C0544452; Disease remission; Finding
+R1	Before Arg1:T4 Arg2:T50	
+R2	Causes Arg1:T5 Arg2:T4	
+T51	Observation 303 311	remisión
+#44	AnnotatorNotes T51	C0544452; Disease remission; Finding
+R3	Causes Arg1:T8 Arg2:T32	
+R4	Causes Arg1:T9 Arg2:T32	
+R5	Before Arg1:T32 Arg2:T51	
+R6	Overlap Arg1:T2 Arg2:T50	
+R7	Overlap Arg1:T1 Arg2:T50	
+R8	Overlap Arg1:T24 Arg2:T51	
+R9	Overlap Arg1:T7 Arg2:T51	
+R10	Location_of Arg1:T11 Arg2:T10	
+R11	Causes Arg1:T15 Arg2:T14	
+R12	Has_Age Arg1:T35 Arg2:T36	
+R13	Causes Arg1:T33 Arg2:T17	
+R14	Overlap Arg1:T21 Arg2:T37	
+A6	Status T21 History_of
+T52	Result_or_Value 937 945	positivo
+#45	AnnotatorNotes T52	C1446409; Positive; Finding
+R15	Has_Result_or_Value Arg1:T21 Arg2:T52	
+R18	Overlap Arg1:T22 Arg2:T37	
+R19	Overlap Arg1:T23 Arg2:T37	
+A7	Status T22 History_of
+A8	Status T23 History_of
+T53	Result_or_Value 1046 1058	1 item mayor
+R20	Has_Result_or_Value Arg1:T46 Arg2:T53	
+T54	Result_or_Value 1061 1070	3 menores
+R21	Has_Result_or_Value Arg1:T46 Arg2:T54	
+R22	Experiences Arg1:T38 Arg2:T46	
+R23	Experiences Arg1:T38 Arg2:T25	
+R24	Experiences Arg1:T38 Arg2:T47	
+R25	Experiences Arg1:T38 Arg2:T48	
+R26	Experiences Arg1:T38 Arg2:T49	
+T55	Observation 1225 1233	remisión
+#46	AnnotatorNotes T55	C0544452; Disease remission; Finding
+R27	After Arg1:T55 Arg2:T26	
+R28	Experiences Arg1:T38 Arg2:T55	
+R29	Before Arg1:T25 Arg2:T55	
+R30	Before Arg1:T55 Arg2:T46	
+R31	Negation Arg1:T41 Arg2:T42	
+R32	Has_Age Arg1:T42 Arg2:T40	
+R33	Used_for Arg1:T28 Arg2:T27	
+R34	Used_for Arg1:T30 Arg2:T27	
+R35	Used_for Arg1:T31 Arg2:T27	
+R36	Overlap Arg1:T31 Arg2:T43	
+R37	Overlap Arg1:T30 Arg2:T43	
+R38	Overlap Arg1:T28 Arg2:T43	
+R16	Experiences Arg1:T38 Arg2:T26	
+T56	Quantifier_or_Qualifier 1415 1443	dirigidos hacia linfocitos B
+R17	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T56	
+A9	Experiencer T35 Patient
+A10	Experiencer T38 Patient
+A11	Experiencer T42 Patient

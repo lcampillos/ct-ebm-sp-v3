@@ -1,0 +1,156 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 162 178	presión arterial
+#2	AnnotatorNotes T2	C0005824; Blood pressure determination; Health Care Activity
+T3	DISO 197 238	accidente cerebrovascular isquémico agudo
+T4	ANAT 763 771	arterial
+#3	AnnotatorNotes T4	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T5	DISO 299 311	hipertensión
+#4	AnnotatorNotes T5	C0020538; Hypertensive disease; Disease or Syndrome
+T6	PROC 314 325	trombolisis
+#5	AnnotatorNotes T6	C0040044; Thrombolytic Therapy; Therapeutic or Preventive Procedure
+T7	DISO 332 354	ataque cerebrovascular
+T8	DISO 378 399	Ictus Isquémico agudo
+#6	AnnotatorNotes T8	C5392833; Acute Ischemic Stroke; Disease or Syndrome
+T9	PROC 464 488	tratamiento trombolítico
+T10	PROC 533 552	diagnóstico clínico
+#7	AnnotatorNotes T10	C0332140; Diagnosis, clinical; Diagnostic Procedure
+T11	DISO 556 597	accidente cerebrovascular isquémico agudo
+T12	PROC 613 633	imágenes del cerebro
+T13	ANAT 626 633	cerebro
+#8	AnnotatorNotes T13	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T14	PROC 655 666	tratamiento
+#9	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	DISO 732 740	síntomas
+#10	AnnotatorNotes T15	C1457887; Symptoms; Sign or Symptom
+T16	PROC 907 914	terapia
+#11	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	DISO 929 937	demencia
+#12	AnnotatorNotes T17	C0497327; Dementia; Mental or Behavioral Dysfunction
+T18	DISO 1024 1049	accidente cerebrovascular
+#13	AnnotatorNotes T18	C0038454; Cerebrovascular accident; Disease or Syndrome
+T19	DISO 1060 1077	enfermedad médica
+T20	PROC 1100 1110	evaluación
+#14	AnnotatorNotes T20	C1261322; Evaluation procedure; Health Care Activity
+T21	PROC 1135 1146	seguimiento
+#15	AnnotatorNotes T21	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T22	CHEM 1214 1222	Actilyse
+#16	AnnotatorNotes T22	C0678113; Actilyse; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+T23	CHEM 1244 1271	agentes de presión arterial
+T24	PROC 1317 1331	ensayo clínico
+#17	AnnotatorNotes T24	C0008976; Clinical Trials; Research Activity
+T25	PROC 1347 1357	evaluación
+#18	AnnotatorNotes T25	C1261322; Evaluation procedure; Health Care Activity
+T26	CHEM 1401 1411	medicación
+#19	AnnotatorNotes T26	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T27	CHEM 1440 1473	inhibidores de la fosfodiesterasa
+#20	AnnotatorNotes T27	C0031638; Phosphodiesterase Inhibitors; Pharmacologic Substance
+T28	CHEM 1476 1511	inhibidores de la monoamino oxidasa
+#21	AnnotatorNotes T28	C0026457; Monoamine Oxidase Inhibitors; Organic Chemical · Pharmacologic Substance
+T29	CHEM 1208 1212	rtPA
+#22	AnnotatorNotes T29	C0032143; alteplase; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+T30	ANAT 170 178	arterial
+#23	AnnotatorNotes T30	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T31	CHEM 493 497	rtPA
+#24	AnnotatorNotes T31	C0032143; alteplase; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+T32	CHEM 476 488	trombolítico
+#25	AnnotatorNotes T32	C0016018; Fibrinolytic Agents; Pharmacologic Substance
+T33	PROC 815 839	consentimiento informado
+#26	AnnotatorNotes T33	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T34	PROC 755 781	presión arterial sistólica
+#27	AnnotatorNotes T34	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T35	DISO 980 986	muerte
+#28	AnnotatorNotes T35	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T36	ANAT 1263 1271	arterial
+#29	AnnotatorNotes T36	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T37	CHEM 1361 1383	agentes farmacológicos
+T38	CHEM 111 115	rtPA
+#30	AnnotatorNotes T38	C0032143; alteplase; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+T39	PROC 1148 1151	MRS
+#31	AnnotatorNotes T39	C3888574; Modified Rankin score; Diagnostic Procedure
+T40	Date 13 17	2014
+T41	Dose 96 107	dosis bajas
+#32	AnnotatorNotes T41	C0445550; Low dose; Quantitative Concept
+T43	LIVB 183 192	pacientes
+#33	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 503 509	adulto
+#34	AnnotatorNotes T44	C0001675; Adult; Age Group
+T45	Age 515 524	> 18 años
+T46	Duration 677 686	4,5 horas
+T48	Spec_cue 964 979	probabilidad de
+T49	Duration 997 1009	las 24 horas
+T50	PHYS 1255 1271	presión arterial
+#35	AnnotatorNotes T50	C0005823; Blood Pressure; Organism Function
+T42	PHYS 755 771	presión arterial
+#36	AnnotatorNotes T42	C0005823; Blood Pressure; Organism Function
+T47	Neg_cue 870 887	Improbabilidad de
+T51	Observation 888 900	beneficiarse
+#37	AnnotatorNotes T51	C0557186; Benefit status; Finding (?)
+A2	Assertion T35 Speculated
+A1	Assertion T51 Negated
+A3	Assertion T29 Contraindicated
+A4	Assertion T22 Contraindicated
+A5	Assertion T23 Contraindicated
+#38	AnnotatorNotes T3	C5392833; Acute Ischemic Stroke; Disease or Syndrome 
+#39	AnnotatorNotes T11	C5392833; Acute Ischemic Stroke; Disease or Syndrome 
+#40	AnnotatorNotes T7	C0038454; Cerebrovascular accident; Disease or Syndrome
+#41	AnnotatorNotes T9	C0040044; Thrombolytic Therapy; Therapeutic or Preventive Procedure 
+#42	AnnotatorNotes T12	C0203860; Imaging of brain; Diagnostic Procedure 
+#43	AnnotatorNotes T19	C0012634; Disease; Disease or Syndrome
+#44	AnnotatorNotes T37	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance (?)
+T52	Observation 81 88	efectos
+#45	AnnotatorNotes T52	C1518681; Outcome of Therapy; Finding (?)
+R1	Causes Arg1:T38 Arg2:T52	
+R2	Has_Dose_or_Strength Arg1:T38 Arg2:T41	
+T53	Observation 122 129	efectos
+#46	AnnotatorNotes T53	C1518681; Outcome of Therapy; Finding (?)
+R4	Location_of Arg1:T30 Arg2:T2	
+R5	Experiences Arg1:T43 Arg2:T2	
+R6	Experiences Arg1:T43 Arg2:T53	
+R7	Experiences Arg1:T43 Arg2:T52	
+R8	Experiences Arg1:T43 Arg2:T38	
+R9	Experiences Arg1:T43 Arg2:T3	
+R12	Overlap Arg1:T5 Arg2:T7	
+R14	Used_for Arg1:T32 Arg2:T9	
+R15	Used_for Arg1:T31 Arg2:T9	
+R16	Has_Age Arg1:T44 Arg2:T45	
+R18	Location_of Arg1:T13 Arg2:T12	
+R19	Location_of Arg1:T13 Arg2:T11	
+R20	Before Arg1:T12 Arg2:T10	
+T56	Observation 638 643	Capaz
+#48	AnnotatorNotes T56	C1299581; Able (finding); Finding
+R21	Overlap Arg1:T56 Arg2:T14	
+R22	Overlap Arg1:T14 Arg2:T46	
+R23	After Arg1:T14 Arg2:T15	
+R24	Location_of Arg1:T4 Arg2:T42	
+R25	Location_of Arg1:T4 Arg2:T34	
+T57	Result_or_Value 785 793	185 mmHg
+R27	Has_Result_or_Value Arg1:T34 Arg2:T57	
+R28	Negation Arg1:T47 Arg2:T51	
+R29	Before Arg1:T16 Arg2:T51	
+T58	Quantifier_or_Qualifier 938 946	avanzada
+#49	AnnotatorNotes T58	C0205179; Advanced phase; Qualitative Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T58	
+R31	Speculation Arg1:T48 Arg2:T35	
+T59	Quantifier_or_Qualifier 955 963	muy alta
+R32	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T59	
+R33	Overlap Arg1:T35 Arg2:T49	
+R34	Before Arg1:T17 Arg2:T51	
+R35	Before Arg1:T18 Arg2:T35	
+T60	Quantifier_or_Qualifier 1055 1059	Otra
+#50	AnnotatorNotes T60	C0205394; Other; Qualitative Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T60	
+T62	Result_or_Value 1152 1164	puntajes 2-5
+R38	Has_Result_or_Value Arg1:T39 Arg2:T62	
+R42	Location_of Arg1:T36 Arg2:T50	
+#52	AnnotatorNotes T23	C0003364; Antihypertensive Agents; Pharmacologic Substance (?)
+T63	Observation 1295 1331	Participación en otro ensayo clínico
+T64	Quantifier_or_Qualifier 1412 1424	concomitante
+#53	AnnotatorNotes T64	C0521115; Simultaneous; Temporal Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T64	
+R48	Before Arg1:T35 Arg2:T51	
+R49	Overlap Arg1:T17 Arg2:T18	
+R3	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T64	
+R10	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T64	
+A6	Experiencer T43 Patient
+A7	Experiencer T44 Patient

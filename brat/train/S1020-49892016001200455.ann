@@ -1,0 +1,230 @@
+T1	PROC 91 102	diagnóstico
+#1	AnnotatorNotes T1	C0011900; Diagnosis; Diagnostic Procedure
+T2	DISO 109 116	sífilis
+#2	AnnotatorNotes T2	C0039128; Syphilis; Disease or Syndrome
+T3	DISO 122 142	infección por el VIH
+#3	AnnotatorNotes T3	C0019693; HIV Infections; Disease or Syndrome
+T4	PROC 163 180	atención prenatal
+#4	AnnotatorNotes T4	C0033052; Prenatal care; Health Care Activity
+T5	PROC 204 223	Evaluar la eficacia
+#5	AnnotatorNotes T5	C1707887; Efficacy Study; Research Activity
+T6	PROC 304 325	detección sistemática
+#6	AnnotatorNotes T6	C0220908; Screening procedure; Diagnostic Procedure (?)
+T7	DISO 332 339	sífilis
+#7	AnnotatorNotes T7	C0039128; Syphilis; Disease or Syndrome
+T8	DISO 345 365	infección por el VIH
+#8	AnnotatorNotes T8	C0019693; HIV Infections; Disease or Syndrome
+T9	PROC 713 745	se dividieron de forma aleatoria
+#9	AnnotatorNotes T9	C0034656; Randomization; Research Activity
+T10	PROC 477 494	atención prenatal
+#10	AnnotatorNotes T10	C0033052; Prenatal care; Health Care Activity
+T11	PROC 2150 2157	cribaje
+#11	AnnotatorNotes T11	C0220908; Screening procedure; Diagnostic Procedure (?)
+T12	PROC 628 645	consulta prenatal
+T13	PROC 804 815	diagnóstico
+#12	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 832 852	infección por el VIH
+#13	AnnotatorNotes T14	C0019693; HIV Infections; Disease or Syndrome
+T15	PROC 895 906	diagnóstico
+#14	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 913 920	sífilis
+#15	AnnotatorNotes T16	C0039128; Syphilis; Disease or Syndrome
+T17	DISO 926 946	infección por el VIH
+#16	AnnotatorNotes T17	C0019693; HIV Infections; Disease or Syndrome
+T18	PROC 1076 1087	tratamiento
+#17	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	PROC 1112 1123	tratamiento
+T20	PROC 1140 1151	tratamiento
+#18	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	DISO 1632 1639	sífilis
+#19	AnnotatorNotes T21	C0039128; Syphilis; Disease or Syndrome
+T22	DISO 1656 1676	infección por el VIH
+#20	AnnotatorNotes T22	C0019693; HIV Infections; Disease or Syndrome
+T23	PROC 1692 1703	tratamiento
+T24	PROC 1879 1890	tratamiento
+#21	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	PROC 2163 2174	tratamiento
+#22	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	PROC 2260 2281	detección sistemática
+#23	AnnotatorNotes T26	C0220908; Screening procedure; Diagnostic Procedure (?)
+T27	DISO 2288 2295	sífilis
+#24	AnnotatorNotes T27	C0039128; Syphilis; Disease or Syndrome
+T28	DISO 2301 2321	infección por el VIH
+#25	AnnotatorNotes T28	C0019693; HIV Infections; Disease or Syndrome
+T29	PROC 2340 2357	atención prenatal
+#26	AnnotatorNotes T29	C0033052; Prenatal care; Health Care Activity
+T30	PROC 2362 2373	tratamiento
+#27	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	PROC 34 58	prueba rápida individual
+T32	PROC 64 82	prueba rápida dual
+T33	PROC 230 248	prueba rápida dual
+T34	PROC 271 295	prueba rápida individual
+T35	PROC 390 450	ensayo clínico sin enmascaramiento y aleatorizado por grupos
+T36	PROC 671 678	pruebas
+#28	AnnotatorNotes T36	C0430022; diagnostic procedure; Diagnostic Procedure (?)
+T37	PROC 767 795	pruebas rápidas individuales
+T38	DISO 819 826	sífilis
+#29	AnnotatorNotes T38	C0039128; Syphilis; Disease or Syndrome
+T39	PROC 868 886	prueba rápida dual
+T40	PROC 1028 1034	prueba
+#30	AnnotatorNotes T40	C0430022; diagnostic procedure; Diagnostic Procedure
+T41	PROC 1064 1070	prueba
+#31	AnnotatorNotes T41	C0430022; diagnostic procedure; Diagnostic Procedure
+T42	PROC 1218 1233	pruebas rápidas
+#32	AnnotatorNotes T42	C0451111; Rapid screening test; Diagnostic Procedure
+T43	PROC 1483 1498	pruebas rápidas
+#33	AnnotatorNotes T43	C0451111; Rapid screening test; Diagnostic Procedure
+T44	PROC 1595 1610	pruebas rápidas
+#34	AnnotatorNotes T44	C0451111; Rapid screening test; Diagnostic Procedure
+T45	PROC 2194 2216	pruebas rápidas duales
+T46	PROC 2223 2251	pruebas rápidas individuales
+T47	PROC 1 27	Comparación de la eficacia
+#35	AnnotatorNotes T47	C1707887; Efficacy Study; Research Activity
+T48	Date 172 180	prenatal
+#36	AnnotatorNotes T48	C2828394; Prenatal (temporal qualifier); Temporal Concept
+T50	Date 486 494	prenatal
+#37	AnnotatorNotes T50	C2828394; Prenatal (temporal qualifier); Temporal Concept
+T51	LIVB 557 576	mujeres embarazadas
+#38	AnnotatorNotes T51	C0033011; Pregnant Women; Population Group
+T52	Age 580 593	14 o más años
+T53	Date 637 645	prenatal
+#39	AnnotatorNotes T53	C2828394; Prenatal (temporal qualifier); Temporal Concept
+T54	Neg_cue 648 650	no
+T55	PHYS 687 695	embarazo
+#40	AnnotatorNotes T55	C0032961; Pregnancy; Organism Function
+T56	Date 1088 1100	el mismo día
+T57	Date 1155 1172	cualquier momento
+T58	LIVB 1410 1419	pacientes
+#41	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1724 1733	pacientes
+#42	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1765 1774	pacientes
+#43	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T62	Date 1894 1911	cualquier momento
+T63	LIVB 1923 1932	pacientes
+#44	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T66	LIVB 2110 2119	pacientes
+#45	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	Date 2349 2357	prenatal
+#46	AnnotatorNotes T67	C2828394; Prenatal (temporal qualifier); Temporal Concept
+T68	Date 2374 2386	el mismo día
+T69	LIVB 139 142	VIH
+#47	AnnotatorNotes T69	C0019682; HIV; Virus
+T70	LIVB 362 365	VIH
+#48	AnnotatorNotes T70	C0019682; HIV; Virus
+T71	LIVB 701 712	embarazadas
+#49	AnnotatorNotes T71	C0033011; Pregnant Women; Population Group
+T72	LIVB 849 852	VIH
+#50	AnnotatorNotes T72	C0019682; HIV; Virus
+T73	LIVB 943 946	VIH
+#51	AnnotatorNotes T73	C0019682; HIV; Virus
+T74	LIVB 1673 1676	VIH
+#52	AnnotatorNotes T74	C0019682; HIV; Virus
+T75	LIVB 2318 2321	VIH
+#53	AnnotatorNotes T75	C0019682; HIV; Virus
+T49	PHYS 565 576	embarazadas
+#54	AnnotatorNotes T49	C0032961; Pregnancy; Organism Function
+T61	LIVB 2461 2480	trabajador de salud
+#55	AnnotatorNotes T61	C1704312; Health Professional; Professional or Occupational Group
+A1	Assertion T36 Negated
+T64	Neg_cue 405 408	sin
+T65	CONC 409 424	enmascaramiento
+A2	Assertion T65 Negated
+R1	Negation Arg1:T64 Arg2:T65	
+R2	Negation Arg1:T54 Arg2:T36	
+T76	Neg_cue 2044 2046	No
+T77	CONC 2052 2063	diferencias
+A3	Assertion T77 Negated
+#56	AnnotatorNotes T77	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T76 Arg2:T77	
+#57	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T78	Quantifier_or_Qualifier 1124 1132	oportuno
+R4	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T78	
+T79	Quantifier_or_Qualifier 1704 1712	oportuno
+R5	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T79	
+#58	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T80	Quantifier_or_Qualifier 2175 2183	oportuno
+R6	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T80	
+R7	Experiences Arg1:T51 Arg2:T12	
+R8	Overlap Arg1:T12 Arg2:T53	
+R9	Causes Arg1:T69 Arg2:T3	
+R10	Overlap Arg1:T4 Arg2:T48	
+R16	Causes Arg1:T70 Arg2:T8	
+R17	Overlap Arg1:T10 Arg2:T50	
+R18	Experiences Arg1:T51 Arg2:T49	
+R19	Has_Age Arg1:T51 Arg2:T52	
+R20	Experiences Arg1:T51 Arg2:T36	
+R21	Experiences Arg1:T51 Arg2:T55	
+R22	Experiences Arg1:T71 Arg2:T37	
+R23	Before Arg1:T9 Arg2:T37	
+R25	Experiences Arg1:T71 Arg2:T38	
+R26	Experiences Arg1:T71 Arg2:T14	
+R27	Causes Arg1:T72 Arg2:T14	
+R28	Experiences Arg1:T71 Arg2:T39	
+R29	Experiences Arg1:T71 Arg2:T16	
+R30	Experiences Arg1:T71 Arg2:T17	
+R31	Causes Arg1:T73 Arg2:T17	
+R33	Before Arg1:T9 Arg2:T39	
+R34	Before Arg1:T32 Arg2:T1	
+R35	Before Arg1:T31 Arg2:T1	
+R36	Before Arg1:T34 Arg2:T6	
+R37	Before Arg1:T33 Arg2:T6	
+R38	Before Arg1:T37 Arg2:T13	
+R32	Before Arg1:T39 Arg2:T15	
+R24	Overlap Arg1:T18 Arg2:T56	
+R39	Overlap Arg1:T20 Arg2:T57	
+T81	Result_or_Value 1190 1210	resultados positivos
+#59	AnnotatorNotes T81	C1446409; Positive; Finding
+R40	Has_Result_or_Value Arg1:T42 Arg2:T81	
+R41	Before Arg1:T42 Arg2:T20	
+R42	Overlap Arg1:T19 Arg2:T56	
+R43	Before Arg1:T40 Arg2:T18	
+R44	Before Arg1:T41 Arg2:T18	
+R45	Before Arg1:T40 Arg2:T19	
+R46	Before Arg1:T41 Arg2:T19	
+T82	CONC 1249 1290	análisis bifactoriales y multifactoriales
+T83	CONC 1008 1021	aceptabilidad
+#60	AnnotatorNotes T83	C3645535; Acceptability; Qualitative Concept
+T84	CONC 1462 1475	aceptabilidad
+#61	AnnotatorNotes T84	C3645535; Acceptability; Qualitative Concept
+T85	CONC 2079 2092	aceptabilidad
+#62	AnnotatorNotes T85	C3645535; Acceptability; Qualitative Concept
+T86	Result_or_Value 1567 1587	resultados positivos
+#63	AnnotatorNotes T86	C1446409; Positive; Finding
+R47	Has_Result_or_Value Arg1:T44 Arg2:T86	
+R48	Causes Arg1:T74 Arg2:T22	
+R49	Experiences Arg1:T59 Arg2:T23	
+R50	Experiences Arg1:T60 Arg2:T23	
+T87	CONC 1794 1809	riesgo relativo
+#64	AnnotatorNotes T87	C0242492; Relative Risk; Quantitative Concept
+R51	Overlap Arg1:T24 Arg2:T62	
+R52	Experiences Arg1:T63 Arg2:T24	
+T88	CONC 1984 1999	riesgo relativo
+#65	AnnotatorNotes T88	C0242492; Relative Risk; Quantitative Concept
+R53	Experiences Arg1:T66 Arg2:T11	
+R54	Before Arg1:T11 Arg2:T25	
+R55	Experiences Arg1:T66 Arg2:T25	
+R56	Before Arg1:T45 Arg2:T26	
+R57	Before Arg1:T46 Arg2:T26	
+R58	Before Arg1:T26 Arg2:T25	
+R59	Experiences Arg1:T66 Arg2:T45	
+R60	Experiences Arg1:T66 Arg2:T46	
+R61	Experiences Arg1:T66 Arg2:T27	
+R62	Experiences Arg1:T66 Arg2:T28	
+R63	Causes Arg1:T75 Arg2:T28	
+R64	Experiences Arg1:T66 Arg2:T29	
+R65	Overlap Arg1:T29 Arg2:T67	
+R66	Overlap Arg1:T30 Arg2:T68	
+#66	AnnotatorNotes T78	C3827828; Timely; Qualitative Concept
+#67	AnnotatorNotes T79	C3827828; Timely; Qualitative Concept
+#68	AnnotatorNotes T80	C3827828; Timely; Qualitative Concept
+#69	AnnotatorNotes T82	C0814907; bivariate and multivariate analysis of variance; Quantitative Concept
+#70	AnnotatorNotes T12	C1827763; Prenatal visit (regime/therapy); Health Care Activity
+A4	Experiencer T61 Other
+A5	Experiencer T66 Patient
+A6	Experiencer T51 Patient
+A7	Experiencer T71 Patient
+A8	Experiencer T58 Patient
+A9	Experiencer T59 Patient
+A10	Experiencer T60 Patient
+A11	Experiencer T63 Patient

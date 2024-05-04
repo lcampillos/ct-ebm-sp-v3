@@ -1,0 +1,108 @@
+T1	PROC 46 65	Estudio comparativo
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	PROC 83 92	anestesia
+#2	AnnotatorNotes T2	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+T3	DISO 99 119	dolor postoperatorio
+#3	AnnotatorNotes T3	C0030201; Pain, Postoperative; Sign or Symptom
+T4	PROC 125 141	cirugía de colon
+T5	PROC 209 241	CONTROL DEL DOLOR POSTOPERATORIO
+T6	DISO 221 241	DOLOR POSTOPERATORIO
+#4	AnnotatorNotes T6	C0030201; Pain, Postoperative; Sign or Symptom
+T7	PROC 245 273	SIGMOIDECTOMÍA LAPAROSCÓPICA
+T8	CHEM 358 365	MORFINA
+#5	AnnotatorNotes T8	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T9	PROC 416 449	BLOQUEO PERIFÉRICO TRANSABDOMINAL
+T10	DISO 473 493	dolor postoperatorio
+#6	AnnotatorNotes T10	C0030201; Pain, Postoperative; Sign or Symptom
+T11	PROC 540 564	consentimiento informado
+#7	AnnotatorNotes T11	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T12	PROC 700 715	cirugía urgente
+T13	PROC 770 804	tratamientos crónicos con opioides
+T14	CHEM 796 804	opioides
+#8	AnnotatorNotes T14	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T15	ANAT 136 141	colon
+#9	AnnotatorNotes T15	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T16	PROC 164 191	ENSAYO CLÍNICO ALEATORIZADO
+#10	AnnotatorNotes T16	C0206034; Clinical Trials, Randomized; Research Activity
+T17	PROC 286 342	ADMINISTRACIÓN DE ANESTÉSICO LOCAL CON CATÉTER PERIDURAL
+T18	CHEM 304 320	ANESTÉSICO LOCAL
+#11	AnnotatorNotes T18	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T19	PROC 344 403	ANALGESIA CON MORFINA ENDOVENOSA CONTROLADA POR EL PACIENTE
+T20	PROC 652 672	técnicas analgésicas
+T21	DISO 717 750	funciones superiores deterioradas
+T22	Date 13 17	2013
+T23	Date 105 119	postoperatorio
+#12	AnnotatorNotes T23	C0032790; Postoperative Period; Temporal Concept
+T24	Date 227 241	POSTOPERATORIO
+#13	AnnotatorNotes T24	C0032790; Postoperative Period; Temporal Concept
+T25	DEVI 325 342	CATÉTER PERIDURAL
+#14	AnnotatorNotes T25	C0179751; Epidural catheter; Medical Device
+T26	Route 333 342	PERIDURAL
+#15	AnnotatorNotes T26	C1518975; Peridural Route of Drug Administration; Functional Concept
+T27	Route 366 376	ENDOVENOSA
+#16	AnnotatorNotes T27	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T28	LIVB 395 403	PACIENTE
+#17	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Date 479 493	postoperatorio
+#18	AnnotatorNotes T29	C0032790; Postoperative Period; Temporal Concept
+T30	Age 520 538	mayores de 18 años
+T31	LIVB 578 587	pacientes
+#19	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 752 761	pacientes
+#20	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T35	Duration 783 791	crónicos
+T32	PHYS 717 737	funciones superiores
+#21	AnnotatorNotes T32	C2370894; Higher-level cognitive functions; Mental Process
+T34	PROC 762 765	ASA
+#22	AnnotatorNotes T34	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+#23	AnnotatorNotes T4	C0192817; Operation on colon; Therapeutic or Preventive Procedure 
+#24	AnnotatorNotes T7	C3162029; laparoscopic sigmoidectomy; Therapeutic or Preventive Procedure 
+#25	AnnotatorNotes T12	C4264510; Emergency surgery; Finding 
+#26	AnnotatorNotes T35	C0205191; chronic; Temporal Concept
+T36	Neg_cue 588 591	sin
+T37	CONC 592 608	contraindicación
+A1	Assertion T37 Negated
+#27	AnnotatorNotes T37	C0522473; Contraindication; Qualitative Concept
+R1	Overlap Arg1:T3 Arg2:T23	
+R2	Overlap Arg1:T2 Arg2:T23	
+R3	Location_of Arg1:T15 Arg2:T4	
+R4	After Arg1:T3 Arg2:T4	
+R5	After Arg1:T5 Arg2:T7	
+R6	Causes Arg1:T7 Arg2:T6	
+R7	Overlap Arg1:T6 Arg2:T24	
+R8	Used_for Arg1:T18 Arg2:T17	
+R9	Used_for Arg1:T25 Arg2:T17	
+R10	Has_Route_or_Mode Arg1:T18 Arg2:T26	
+R11	Has_Route_or_Mode Arg1:T8 Arg2:T27	
+R12	Used_for Arg1:T8 Arg2:T19	
+R13	Experiences Arg1:T28 Arg2:T19	
+R14	Experiences Arg1:T28 Arg2:T17	
+R15	Experiences Arg1:T28 Arg2:T7	
+R16	Experiences Arg1:T28 Arg2:T6	
+R17	Experiences Arg1:T28 Arg2:T5	
+R18	Experiences Arg1:T28 Arg2:T9	
+R19	Overlap Arg1:T10 Arg2:T29	
+R20	Has_Age Arg1:T31 Arg2:T30	
+R21	Experiences Arg1:T31 Arg2:T20	
+R22	Negation Arg1:T36 Arg2:T37	
+R23	Experiences Arg1:T33 Arg2:T12	
+R25	Experiences Arg1:T33 Arg2:T32	
+R26	Experiences Arg1:T33 Arg2:T21	
+R27	Experiences Arg1:T33 Arg2:T34	
+T38	Result_or_Value 766 768	IV
+R28	Has_Result_or_Value Arg1:T34 Arg2:T38	
+R29	Used_for Arg1:T14 Arg2:T13	
+R30	Has_Duration_or_Interval Arg1:T13 Arg2:T35	
+R31	Experiences Arg1:T33 Arg2:T13	
+#28	AnnotatorNotes T21	C4023352; Abnormality of higher mental function; Pathologic Function
+R33	Overlap Arg1:T7 Arg2:T17	
+R34	Overlap Arg1:T17 Arg2:T19	
+R35	Overlap Arg1:T19 Arg2:T9	
+T39	CONC 435 449	TRANSABDOMINAL
+#29	AnnotatorNotes T39	C0205496; Abdominal approach; Spatial Concept
+R36	Overlap Arg1:T9 Arg2:T39	
+R32	Overlap Arg1:T5 Arg2:T24	
+#30	AnnotatorNotes T20	C0412784; Analgesic technique; Therapeutic or Preventive Procedure
+A2	Experiencer T28 Patient
+A3	Experiencer T31 Patient
+A4	Experiencer T33 Patient

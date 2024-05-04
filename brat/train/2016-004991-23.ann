@@ -1,0 +1,140 @@
+T1	PROC 45 55	VACUNACIÓN
+#1	AnnotatorNotes T1	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T2	DISO 74 85	HEPATITIS B
+#2	AnnotatorNotes T2	C0019163; Hepatitis B; Disease or Syndrome
+T3	PROC 623 644	títulos de Ac antiHBs
+T4	PROC 272 281	vacunados
+#3	AnnotatorNotes T4	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T5	PROC 309 319	vacunación
+#4	AnnotatorNotes T5	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T6	DISO 343 354	Hepatitis B
+#5	AnnotatorNotes T6	C0019163; Hepatitis B; Disease or Syndrome
+T7	PROC 775 799	consentimiento informado
+#6	AnnotatorNotes T7	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T8	DISO 610 621	hepatitis B
+#7	AnnotatorNotes T8	C0019163; Hepatitis B; Disease or Syndrome
+T9	PROC 665 675	aplicación
+#8	AnnotatorNotes T9	C0185125; Application procedure; Therapeutic or Preventive Procedure
+T10	PROC 735 741	pautas
+#9	AnnotatorNotes T10	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T11	DISO 825 832	Alergia
+#10	AnnotatorNotes T11	C1527304; Allergic Reaction; Pathologic Function
+T12	CHEM 906 917	medicamento
+#11	AnnotatorNotes T12	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T13	DISO 1009 1026	reacción alérgica
+#12	AnnotatorNotes T13	C1527304; Allergic Reaction; Pathologic Function
+T14	DISO 1058 1069	hepatitis B
+#13	AnnotatorNotes T14	C0019163; Hepatitis B; Disease or Syndrome
+T15	DISO 1083 1092	infección
+#14	AnnotatorNotes T15	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T16	DISO 1103 1109	fiebre
+#15	AnnotatorNotes T16	C0015967; Fever; Sign or Symptom
+T17	CHEM 146 152	VACUNA
+#16	AnnotatorNotes T17	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T18	CHEM 845 861	principio activo
+#17	AnnotatorNotes T18	C1372955; Active ingredient; Chemical Viewed Functionally
+T19	CHEM 585 591;605 621	vacuna para hepatitis B
+#18	AnnotatorNotes T19	C2240392; Hepatitis B Vaccines; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor
+T20	CHEM 634 644	Ac antiHBs
+T21	CHEM 693 699	vacuna
+#19	AnnotatorNotes T21	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T22	CHEM 1039 1069	vacuna frente a la hepatitis B
+T23	PROC 1150 1174	consentimiento informado
+#20	AnnotatorNotes T23	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T24	PROC 1208 1222	consentimiento
+#21	AnnotatorNotes T24	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T25	Date 13 17	2016
+T27	LIVB 187 220	Trabajadores del ámbito sanitario
+#22	AnnotatorNotes T27	C1704312; Health professional; Professional or Occupational Group
+T31	Dose 679 689	seis dosis
+T32	Dose 724 729	20 μg
+T33	LIVB 753 760	Sujetos
+#23	AnnotatorNotes T33	C0681850; Study Subject; Group
+T36	LIVB 1111 1118	Sujetos
+#24	AnnotatorNotes T36	C0681850; Study Subject; Group
+T37	Neg_cue 1133 1135	no
+T38	LIVB 1175 1182	Sujetos
+#25	AnnotatorNotes T38	C0681850; Study Subject; Group
+T39	Neg_cue 1187 1189	no
+T40	LIVB 89 109	TRABAJADORES DEL SNS
+#26	AnnotatorNotes T40	C1704312; Health professional; Professional or Occupational Group
+T26	LIVB 380 400	Trabajadores del SNS
+#27	AnnotatorNotes T26	C1704312; Health professional; Professional or Occupational Group
+T41	LIVB 412 438	estudiantes universitarios
+#28	AnnotatorNotes T41	C0682177; College student; Population Group
+A4	Assertion T23 Negated
+A5	Assertion T24 Negated
+A1	Status T13 History_of
+A2	Status T11 History_of
+T28	Observation 130 143	RESPONDEDORES
+A3	Assertion T28 Negated
+#29	AnnotatorNotes T28	C0919876; Therapy responder; Finding
+T29	Neg_cue 127 129	NO
+T30	Neg_cue 287 289	no
+T34	Observation 290 303	respondedores
+A6	Assertion T34 Negated
+#30	AnnotatorNotes T34	C0919876; Therapy responder; Finding
+T35	Observation 566 579	respondedores
+#31	AnnotatorNotes T35	C0919876; Therapy responder; Finding
+A7	Assertion T35 Negated
+T42	Neg_cue 563 565	NO
+R1	Negation Arg1:T42 Arg2:T35	
+T43	Quantifier_or_Qualifier 56 64	ADYUVADA
+R2	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T43	
+R4	Experiences Arg1:T40 Arg2:T1	
+R5	Negation Arg1:T29 Arg2:T28	
+R6	Before Arg1:T17 Arg2:T28	
+R7	Experiences Arg1:T40 Arg2:T17	
+R8	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T28	
+T44	Observation 225 241	riesgo biológico
+R9	Experiences Arg1:T27 Arg2:T44	
+R10	Experiences Arg1:T27 Arg2:T4	
+A8	Status T4 History_of
+R11	Before Arg1:T4 Arg2:T34	
+R12	Negation Arg1:T30 Arg2:T34	
+R13	Experiences Arg1:T27 Arg2:T34	
+R14	Before Arg1:T5 Arg2:T34	
+A9	Status T5 History_of
+R15	Experiences Arg1:T27 Arg2:T5	
+R3	Experiences Arg1:T40 Arg2:T2	
+R16	Experiences Arg1:T27 Arg2:T6	
+R17	Before Arg1:T19 Arg2:T35	
+#32	AnnotatorNotes T3	C0201478; Hepatitis B surface antibody measurement; Laboratory Procedure
+#33	AnnotatorNotes T20	C0369334; Hepatitis B Virus Surface Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor
+T45	Result_or_Value 645 656	< 10 mUI/ml
+R18	Has_Result_or_Value Arg1:T3 Arg2:T45	
+R19	After Arg1:T3 Arg2:T9	
+R20	Used_for Arg1:T21 Arg2:T9	
+R21	Has_Dose_or_Strength Arg1:T21 Arg2:T31	
+R22	Has_Dose_or_Strength Arg1:T21 Arg2:T32	
+T46	Quantifier_or_Qualifier 731 734	dos
+R24	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T46	
+#34	AnnotatorNotes T46	C0205448; Two; Quantitative Concept
+T47	Quantifier_or_Qualifier 742 751	completas
+#35	AnnotatorNotes T47	C0205197; Complete; Qualitative Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T47	
+R26	After Arg1:T3 Arg2:T10	
+R27	Causes Arg1:T18 Arg2:T11	
+R28	Causes Arg1:T12 Arg2:T11	
+R29	Causes Arg1:T22 Arg2:T13	
+#36	AnnotatorNotes T22	C2240392; Hepatitis B Vaccines; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor
+R30	Causes Arg1:T15 Arg2:T16	
+T48	Quantifier_or_Qualifier 1093 1098	grave
+#37	AnnotatorNotes T48	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R31	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T48	
+R32	Negation Arg1:T37 Arg2:T23	
+R33	Negation Arg1:T39 Arg2:T24	
+R23	Used_for Arg1:T21 Arg2:T10	
+R34	Used_for Arg1:T19 Arg2:T10	
+#38	AnnotatorNotes T44	C1948091; biological hazards; Finding
+#39	AnnotatorNotes T43	C1522673; Adjuvant; Functional Concept (?)
+A10	Assertion T15 Hypothetical
+A11	Assertion T48 Hypothetical
+A12	Assertion T16 Hypothetical
+A13	Experiencer T36 Patient
+A14	Experiencer T38 Patient
+A15	Experiencer T40 Patient
+A16	Experiencer T27 Patient
+A17	Experiencer T26 Patient
+A18	Experiencer T41 Patient
+A19	Experiencer T33 Patient

@@ -1,0 +1,131 @@
+T1	CHEM 58 68	ECULIZUMAB
+#1	AnnotatorNotes T1	C1541483; eculizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T2	DISO 86 114	MIASTENIA GRAVE GENERALIZADA
+T3	PROC 155 227	ESTUDIO MULTICENTRICO, ALEATORIZADO, DOBLE CIEGO, CONTROLADO CON PLACEBO
+T4	DISO 330 333	MGG
+T5	PROC 234 268	EVALUAR LA EFICACIA Y LA SEGURIDAD
+#2	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T6	CHEM 272 282	ECULIZUMAB
+#3	AnnotatorNotes T6	C1541483; eculizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	DISO 300 328	MIASTENIA GRAVE GENERALIZADA
+T8	DISO 370 385	miastenia grave
+#4	AnnotatorNotes T8	C0026896; Myasthenia Gravis; Disease or Syndrome
+T9	DISO 412 440	miastenia grave generalizada
+T10	PROC 528 539	Diagnóstico
+#5	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 728 734	timoma
+#6	AnnotatorNotes T11	C0040100; Thymoma; Neoplastic Process
+T12	DISO 743 762	neoplasias del timo
+#7	AnnotatorNotes T12	C3714644; Thymus Neoplasms; Neoplastic Process
+T13	PROC 782 792	timectomía
+#8	AnnotatorNotes T13	C0040071; Thymectomy; Therapeutic or Preventive Procedure
+T14	DISO 843 852	Debilidad
+#9	AnnotatorNotes T14	C0424594; Frailty; Finding | C3714552; Weakness; Sign or Symptom
+T15	ANAT 881 898	músculos oculares
+T16	DISO 543 545	MG
+T17	DISO 937 949	Crisis de MG
+#10	AnnotatorNotes T17	C0270942; Myasthenic crisis; Disease or Syndrome
+T18	DISO 1012 1035	Infección meningocócica
+#11	AnnotatorNotes T18	C0025303; Meningococcal Infections; Disease or Syndrome
+T19	DISO 442 445	MGg
+T20	ANAT 758 762	timo
+#12	AnnotatorNotes T20	C0040113; Thymus Gland; Body Part, Organ, or Organ Component
+T21	DISO 116 119	MGG
+T22	Date 13 17	2013
+T23	LIVB 72 81	PACIENTES
+#13	AnnotatorNotes T23	C0030705; Patients; Patient or Disabled Group
+T24	LIVB 286 295	PACIENTES
+#14	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	LIVB 487 496	pacientes
+#15	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Age 497 506	≥ 18 años
+T27	LIVB 508 515	hombres
+#16	AnnotatorNotes T27	C0025266; Male population group; Population Group
+T28	LIVB 518 525	mujeres
+#17	AnnotatorNotes T28	C0043210; Woman; Population Group
+T30	Duration 810 818	12 meses
+T31	PHYS 989 997	Embarazo
+#18	AnnotatorNotes T31	C0032961; Pregnancy; Organism Function
+T32	PHYS 1000 1009	lactancia
+#19	AnnotatorNotes T32	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T33	LIVB 1022 1035	meningocócica
+#20	AnnotatorNotes T33	C0027575; Neisseria meningitidis; Bacterium
+A1	Status T11 History_of
+A2	Status T12 History_of
+A3	Status T13 History_of
+#21	AnnotatorNotes T4	C0751339; Myasthenia Gravis, Generalized; Disease or Syndrome 
+#22	AnnotatorNotes T16	C0026896; Myasthenia Gravis; Disease or Syndrome
+#23	AnnotatorNotes T3	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#24	AnnotatorNotes T2	C0751339; Myasthenia Gravis, Generalized; Disease or Syndrome 
+#25	AnnotatorNotes T21	C0751339; Myasthenia Gravis, Generalized; Disease or Syndrome 
+#26	AnnotatorNotes T7	C0751339; Myasthenia Gravis, Generalized; Disease or Syndrome 
+#27	AnnotatorNotes T9	C0751339; Myasthenia Gravis, Generalized; Disease or Syndrome 
+#28	AnnotatorNotes T19	C0751339; Myasthenia Gravis, Generalized; Disease or Syndrome 
+T29	Neg_cue 1036 1038	no
+T34	Observation 1039 1047	resuelta
+A4	Assertion T34 Negated
+#29	AnnotatorNotes T34	C1709863; Recovered or Resolved; Finding
+R1	Experiences Arg1:T23 Arg2:T1	
+R2	Experiences Arg1:T23 Arg2:T2	
+R3	Experiences Arg1:T23 Arg2:T21	
+T35	Quantifier_or_Qualifier 121 132	REFRACTARIA
+#30	AnnotatorNotes T35	C0205269; Unresponsive to Treatment; Functional Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T35	
+R5	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T35	
+T36	Quantifier_or_Qualifier 335 346	REFRACTARIA
+R6	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T36	
+R7	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T36	
+R8	Experiences Arg1:T24 Arg2:T6	
+R9	Experiences Arg1:T24 Arg2:T7	
+R10	Experiences Arg1:T24 Arg2:T4	
+R11	Has_Age Arg1:T25 Arg2:T26	
+R12	Has_Age Arg1:T27 Arg2:T26	
+R13	Has_Age Arg1:T28 Arg2:T26	
+T37	Result_or_Value 548 561	Clase II a IV
+T38	CONC 568 600	clasificación clínica de la MGFA
+#31	AnnotatorNotes T38	C3828873; Myasthenia Classification System; Intellectual Product ['Myasthenia Gravis Foundation of America']
+R14	Has_Result_or_Value Arg1:T38 Arg2:T37	
+T39	PROC 607 616	selección
+#32	AnnotatorNotes T39	C0242802; Patient Selecton; Research Activity
+R15	Overlap Arg1:T38 Arg2:T39	
+T40	PROC 674 683	selección
+#33	AnnotatorNotes T40	C0242802; Patient Selecton; Research Activity
+T41	Result_or_Value 664 667	≥ 6
+T42	CONC 646 652	MG-ADL
+#34	AnnotatorNotes T42	['Myasthenia Gravis Activities of Daily Living']
+R16	Has_Result_or_Value Arg1:T42 Arg2:T41	
+R17	Overlap Arg1:T42 Arg2:T40	
+R18	Location_of Arg1:T20 Arg2:T12	
+R19	Overlap Arg1:T13 Arg2:T30	
+T43	PROC 831 840	selección
+#35	AnnotatorNotes T43	C0242802; Patient Selecton; Research Activity
+R20	Before Arg1:T13 Arg2:T43	
+T44	Quantifier_or_Qualifier 857 867	únicamente
+R21	Location_of Arg1:T15 Arg2:T14	
+R22	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T44	
+T45	Result_or_Value 915 922	clase I
+T46	CONC 929 933	MGFA
+#36	AnnotatorNotes T46	C3828873; Myasthenia Classification System; Intellectual Product ['Myasthenia Gravis Foundation of America']
+R23	Has_Result_or_Value Arg1:T46 Arg2:T45	
+T47	ANAT 881 889;901 913	músculos perioculares
+#37	AnnotatorNotes T15	C0935613; Ocular muscle; Body Part, Organ, or Organ Component
+R24	Location_of Arg1:T47 Arg2:T14	
+R25	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T44	
+T48	CONC 981 985	MGFA
+#38	AnnotatorNotes T48	C3828873; Myasthenia Classification System; Intellectual Product ['Myasthenia Gravis Foundation of America']
+T49	Result_or_Value 967 974	clase V
+R26	Has_Result_or_Value Arg1:T48 Arg2:T49	
+T50	PROC 956 965	selección
+#39	AnnotatorNotes T50	C0242802; Patient Selecton; Research Activity
+R27	Overlap Arg1:T17 Arg2:T50	
+R28	Causes Arg1:T33 Arg2:T18	
+R29	Negation Arg1:T29 Arg2:T34	
+R30	Before Arg1:T18 Arg2:T34	
+R31	Location_of Arg1:T20 Arg2:T11	
+#40	AnnotatorNotes T36	C0205269; Unresponsive to Treatment; Functional Concept
+#41	AnnotatorNotes T44	C0205171; Singular; Quantitative Concept
+A5	Experiencer T23 Patient
+A6	Experiencer T24 Patient
+A7	Experiencer T25 Patient
+A8	Experiencer T27 Patient
+A9	Experiencer T28 Patient

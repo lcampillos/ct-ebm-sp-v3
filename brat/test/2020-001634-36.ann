@@ -1,0 +1,231 @@
+T1	PROC 46 81	Estudio piloto abierto aleatorizado
+T2	CHEM 110 119	sarilumab
+#1	AnnotatorNotes T2	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 87 106	evaluar la eficacia
+#2	AnnotatorNotes T3	C1707887; Efficacy Study; Research Activity
+T4	DISO 148 170	infección por COVID-19
+#3	AnnotatorNotes T4	C5203670; COVID19 (disease); Disease or Syndrome
+T5	DISO 210 228	Infección COVID-19
+T6	PROC 241 256	hospitalización
+#4	AnnotatorNotes T6	C0019993; Hospitalization; Health Care Activity
+T7	DISO 303 311	COVID-19
+#5	AnnotatorNotes T7	C5203670; COVID19 (disease); Disease or Syndrome
+T8	DISO 344 365	Neumonía intersticial
+#6	AnnotatorNotes T8	C0206061; Pneumonia, Interstitial; Disease or Syndrome
+T9	PROC 390 397	ingreso
+#7	AnnotatorNotes T9	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T10	DISO 446 452	Fiebre
+#8	AnnotatorNotes T10	C0015967; Fever; Sign or Symptom
+T11	ANAT 465 469	oído
+#9	AnnotatorNotes T11	C0013443; Ear structure; Body Part, Organ, or Organ Component | C0521421; Entire ear; Body Part, Organ, or Organ Component
+T12	CHEM 473 477	IL-6
+#10	AnnotatorNotes T12	C0021760; interleukin-6; Amino Acid, Peptide, or Protein · Immunologic Factor | C1698754; IL6 protein, human; Amino Acid, Peptide, or Protein · Biologically Active Substance | C2983957; interleukin-6, human; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	ANAT 481 486	suero
+#11	AnnotatorNotes T13	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T14	CHEM 530 540	prednisona
+#12	AnnotatorNotes T14	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T15	CHEM 1568 1577	sarilumab
+#13	AnnotatorNotes T15	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T16	PROC 583 593	Linfocitos
+#14	AnnotatorNotes T16	C0200635; Lymphocyte Count measurement; Laboratory Procedure
+T17	CHEM 1732 1741	sarilumab
+#15	AnnotatorNotes T17	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T18	PROC 725 733	D-dímero
+T19	PROC 747 771	Consentimiento informado
+#16	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	PROC 910 930	ventilación mecánica
+#17	AnnotatorNotes T20	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T21	PROC 962 976	Valores de AST
+T22	PROC 1044 1066	Valores de neutrófilos
+T23	ANAT 1085 1092	células
+#18	AnnotatorNotes T23	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T24	PROC 1100 1120	Valores de plaquetas
+T25	ANAT 1140 1147	células
+#19	AnnotatorNotes T25	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T26	DISO 1156 1162	Sepsis
+#20	AnnotatorNotes T26	C0243026; Sepsis; Disease or Syndrome
+T27	DISO 1224 1232	COVID-19
+#21	AnnotatorNotes T27	C5203670; COVID19 (disease); Disease or Syndrome
+T28	DISO 1250 1264	comorbilidades
+#22	AnnotatorNotes T28	C1275743; Co-morbid conditions; Finding
+T29	DISO 1338 1352	Diverticulitis
+#23	AnnotatorNotes T29	C0012813; Diverticulitis; Disease or Syndrome | C0349774; Diverticulitis of gastrointestinal tract; Disease or Syndrome
+T30	DISO 1366 1388	perforación intestinal
+#24	AnnotatorNotes T30	C0021845; Intestinal Perforation; Disease or Syndrome
+T31	DISO 1393 1410	Infección cutánea
+T32	PROC 1463 1499	Terapia inmunosupresora anti-rechazo
+T33	CHEM 1471 1486	inmunosupresora
+#25	AnnotatorNotes T33	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T34	PROC 1531 1542	Tratamiento
+#26	AnnotatorNotes T34	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T35	CHEM 1554 1565	tocilizumab
+#27	AnnotatorNotes T35	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T36	PROC 1620 1634	ensayo clínico
+#28	AnnotatorNotes T36	C0008976; Clinical Trials; Research Activity
+T37	DISO 1640 1664	infección por SARS-CoV-2
+#29	AnnotatorNotes T37	C5203670; COVID19 (disease); Disease or Syndrome
+T38	DISO 1427 1443	dermopiodermitis
+T39	DISO 1684 1701	hipersensibilidad
+#30	AnnotatorNotes T39	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T40	CHEM 1744 1755	excipientes
+#31	AnnotatorNotes T40	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T41	PROC 337 340	PCR
+#32	AnnotatorNotes T41	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T42	ANAT 353 365	intersticial
+#33	AnnotatorNotes T42	C0596790; interstitial; Body Location or Region | C2328510; Interstitium; Body Part, Organ, or Organ Component
+T43	PROC 473 486	IL-6 en suero
+T44	PROC 568 571	PCR
+#34	AnnotatorNotes T44	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T45	PROC 607 616	Ferritina
+#35	AnnotatorNotes T45	C0373607; Ferritin measurement; Laboratory Procedure
+T46	PROC 658 667	Ferritina
+#36	AnnotatorNotes T46	C0373607; Ferritin measurement; Laboratory Procedure
+T47	PROC 709 712	LDH
+#37	AnnotatorNotes T47	C0202113; Lactate dehydrogenase measurement; Laboratory Procedure
+T48	PROC 784 822	administración en condiciones urgentes
+T49	CHEM 973 976	AST
+#38	AnnotatorNotes T49	C0004002; Aspartate Transaminase; Amino Acid, Peptide, or Protein · Enzyme
+T50	PROC 979 982	ALT
+#39	AnnotatorNotes T50	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T51	ANAT 1055 1066	neutrófilos
+#40	AnnotatorNotes T51	C0027950; neutrophil; Cell
+T52	ANAT 1111 1120	plaquetas
+#41	AnnotatorNotes T52	C0005821; Blood Platelets; Cell
+T53	ANAT 1378 1388	intestinal
+#42	AnnotatorNotes T53	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T54	ANAT 1403 1410	cutánea
+#43	AnnotatorNotes T54	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T55	Date 13 17	2020
+T56	Route 120 130	subcutáneo
+T57	LIVB 134 143	pacientes
+#44	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Age 290 299	> 18 años
+T59	Neg_cue 502 513	ausencia de
+T61	Dose 555 564	> 1 mg/kg
+T64	Duration 646 654	24 horas
+T69	LIVB 886 895	Pacientes
+#45	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	Spec_cue 1182 1190	sospecha
+T71	Date 1411 1417	actual
+T73	PHYS 1505 1513	Embarazo
+#46	AnnotatorNotes T73	C0032961; Pregnancy; Organism Function
+T74	PHYS 1516 1525	lactancia
+#47	AnnotatorNotes T74	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T75	LIVB 1583 1592	Pacientes
+#48	AnnotatorNotes T75	C0030705; Patients; Patient or Disabled Group
+T76	LIVB 1670 1679	Pacientes
+#49	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T78	LIVB 1201 1210	patógenos
+#50	AnnotatorNotes T78	C0450254; Pathogenic organism; Organism
+T60	LIVB 1654 1664	SARS-CoV-2
+#51	AnnotatorNotes T60	C5203676; SARS-CoV-2; Virus
+T62	Neg_cue 1211 1223	distintos de
+A1	Assertion T14 Negated
+A2	Assertion T26 Speculated
+A3	Assertion T27 Negated
+A4	Status T14 History_of
+A5	Status T34 History_of
+A6	Status T35 History_of
+A7	Status T15 History_of
+A8	Status T39 History_of
+A9	Assertion T17 Contraindicated
+A10	Assertion T40 Contraindicated
+#52	AnnotatorNotes T1	C0031928; Pilot Projects; Research Activity + C1709323; Open Label Study; Research Activity + C0034656; Randomization; Research Activity
+#53	AnnotatorNotes T5	C5203670; COVID19 (disease); Disease or Syndrome
+#54	AnnotatorNotes T56	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+#55	AnnotatorNotes T43	C2208839; serum interleukin-6; Laboratory Procedure
+#56	AnnotatorNotes T18	C2826333; D-Dimer Measurement; Laboratory Procedure 
+#57	AnnotatorNotes T22	C0200633; Neutrophil count (procedure); Laboratory Procedure 
+#58	AnnotatorNotes T24	C0032181; Platelet Count measurement; Laboratory Procedure
+#59	AnnotatorNotes T31	C0037278; Skin Diseases, Infectious; Disease or Syndrome 
+#60	AnnotatorNotes T21	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+#61	AnnotatorNotes T71	C0521116; Current (present time); Temporal Concept 
+T63	Quantifier_or_Qualifier 1447 1457	controlada
+A11	Assertion T63 Negated
+T65	Neg_cue 1444 1446	no
+R1	Has_Route_or_Mode Arg1:T2 Arg2:T56	
+R2	Experiences Arg1:T57 Arg2:T2	
+R3	Experiences Arg1:T57 Arg2:T4	
+T66	Quantifier_or_Qualifier 171 185	moderada-grave
+#62	AnnotatorNotes T66	C1299393; Moderate to severe; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T66	
+T67	Result_or_Value 312 320	positivo
+#63	AnnotatorNotes T67	C1446409; Positive; Finding
+R6	Causes Arg1:T7 Arg2:T67	
+R7	Has_Result_or_Value Arg1:T41 Arg2:T67	
+R8	Location_of Arg1:T42 Arg2:T8	
+R9	Location_of Arg1:T11 Arg2:T10	
+T68	Result_or_Value 453 461	≥ 37,8ºC
+R10	Has_Result_or_Value Arg1:T10 Arg2:T68	
+R11	Location_of Arg1:T13 Arg2:T43	
+T72	Result_or_Value 487 497	≥ 25 ng/mL
+R12	Has_Result_or_Value Arg1:T43 Arg2:T72	
+R13	Negation Arg1:T59 Arg2:T14	
+T77	CONC 530 540;543 554	prednisona equivalente
+R14	Has_Dose_or_Strength Arg1:T14 Arg2:T61	
+R15	Has_Dose_or_Strength Arg1:T77 Arg2:T61	
+A12	Assertion T77 Negated
+R16	Negation Arg1:T59 Arg2:T77	
+T79	Result_or_Value 572 579	>5mg/dL
+R17	Has_Result_or_Value Arg1:T44 Arg2:T79	
+T80	Result_or_Value 594 603	< 600 mm3
+R18	Has_Result_or_Value Arg1:T16 Arg2:T80	
+T81	Result_or_Value 617 642	>300 mcg/L que se duplica
+R19	After Arg1:T45 Arg2:T64	
+R20	Has_Result_or_Value Arg1:T45 Arg2:T81	
+T82	Result_or_Value 713 721	>250 U/L
+R21	Has_Result_or_Value Arg1:T47 Arg2:T82	
+T83	Result_or_Value 668 678	>600 mcg/L
+R22	Has_Result_or_Value Arg1:T46 Arg2:T83	
+T84	Quantifier_or_Qualifier 685 706	primera determinación
+R23	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T84	
+T85	Quantifier_or_Qualifier 772 778	verbal
+#64	AnnotatorNotes T85	C0439824; Verbal; Qualitative Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T85	
+T86	Result_or_Value 735 742	>1 mg/L
+R25	Has_Result_or_Value Arg1:T18 Arg2:T86	
+T87	CONC 839 855	historia clínica
+#66	AnnotatorNotes T87	C5204342; Clinical History; Intellectual Product
+R28	Experiences Arg1:T69 Arg2:T20	
+T88	CONC 948 957	inclusión
+#65	AnnotatorNotes T88	C1512693; Inclusion; Qualitative Concept
+R29	Overlap Arg1:T20 Arg2:T88	
+T89	Result_or_Value 983 1039	superiores a 5 veces el límite superior de la normalidad
+R30	Has_Result_or_Value Arg1:T21 Arg2:T89	
+R31	Has_Result_or_Value Arg1:T50 Arg2:T89	
+T90	Result_or_Value 1067 1096	por debajo de 500 células/mm3
+R32	Has_Result_or_Value Arg1:T22 Arg2:T90	
+T91	Result_or_Value 1124 1152	menos de 50.000 células /mm3
+R33	Has_Result_or_Value Arg1:T24 Arg2:T91	
+R34	Speculation Arg1:T70 Arg2:T26	
+R35	Causes Arg1:T78 Arg2:T26	
+R36	Negation Arg1:T62 Arg2:T27	
+R37	Overlap Arg1:T26 Arg2:T27	
+T92	Observation 1311 1333	resultado desfavorable
+#67	AnnotatorNotes T92	C0278252; Prognosis bad; Finding
+R38	Before Arg1:T28 Arg2:T92	
+R39	Location_of Arg1:T53 Arg2:T30	
+T93	Quantifier_or_Qualifier 1353 1363	complicada
+#68	AnnotatorNotes T93	C0231242; Complicated; Functional Concept 
+R40	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T93	
+R41	Location_of Arg1:T54 Arg2:T31	
+R42	Overlap Arg1:T31 Arg2:T71	
+R43	Negation Arg1:T65 Arg2:T63	
+R44	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T63	
+R45	Used_for Arg1:T33 Arg2:T32	
+#69	AnnotatorNotes T32	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive
+R46	Used_for Arg1:T35 Arg2:T34	
+R47	Used_for Arg1:T15 Arg2:T34	
+T94	Observation 1593 1634	participando en algún otro ensayo clínico
+R49	Experiences Arg1:T75 Arg2:T37	
+R50	Causes Arg1:T60 Arg2:T37	
+R51	Experiences Arg1:T76 Arg2:T39	
+R52	Causes Arg1:T17 Arg2:T39	
+R53	Causes Arg1:T40 Arg2:T39	
+R54	Before Arg1:T14 Arg2:T43	
+R55	Before Arg1:T77 Arg2:T43	
+#70	AnnotatorNotes T38	C1696849; Dermo-hypodermitis; Disease or Syndrome (?) 
+A13	Experiencer T57 Patient
+A14	Experiencer T69 Patient
+A15	Experiencer T75 Patient
+A16	Experiencer T76 Patient

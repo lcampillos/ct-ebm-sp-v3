@@ -1,0 +1,73 @@
+T1	PROC 48 81	ensayo aleatorizado internacional
+T2	DISO 128 136	COVID-19
+#1	AnnotatorNotes T2	C5203670; COVID19 (disease); Disease or Syndrome
+T3	PROC 95 107	tratamientos
+#2	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	PROC 150 164	hospitalizados
+#3	AnnotatorNotes T4	C0019993; Hospitalization; Health Care Activity
+T5	PROC 180 204	tratamiento convencional
+#4	AnnotatorNotes T5	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure
+T6	PROC 372 386	hospitalizados
+#5	AnnotatorNotes T6	C0019993; Hospitalization; Health Care Activity
+T7	DISO 391 399	COVID-19
+#6	AnnotatorNotes T7	C5203670; COVID19 (disease); Disease or Syndrome
+T8	PROC 445 457	tratamientos
+#7	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	PROC 326 350	consentimiento informado
+#8	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	DISO 499 506	Alergia
+#9	AnnotatorNotes T10	C1527304; Allergic Reaction; Pathologic Function
+T11	DISO 210 215	COVID
+T12	DISO 268 276	COVID-19
+#10	AnnotatorNotes T12	C5203670; COVID19 (disease); Disease or Syndrome
+T13	Date 13 17	2020
+T16	LIVB 140 149	pacientes
+#11	AnnotatorNotes T16	C0030705; Patients; Patient or Disabled Group
+T17	LIVB 302 309	Adultos
+#12	AnnotatorNotes T17	C0001675; Adult; Age Group
+T18	Age 352 370	mayores de 18 años
+T20	Neg_cue 430 437	ninguno
+T22	Duration 624 632	72 horas
+T14	PROC 600 608	traslado
+#13	AnnotatorNotes T14	C0030704; Patient Transfer; Health Care Activity
+T15	CHEM 557 583	productos en investigación
+#14	AnnotatorNotes T15	C0013230; Investigational New Drugs; Pharmacologic Substance
+A1	Population_data T17 Age
+A2	Assertion T8 Negated
+A3	Assertion T15 Contraindicated
+A4	Status T10 History_of
+#15	AnnotatorNotes T11	C5203670; COVID19 (disease); Disease or Syndrome
+T19	Quantifier_or_Qualifier 111 122	licenciados
+A5	Assertion T19 Negated
+#16	AnnotatorNotes T19	C0205540; Approved; Qualitative Concept
+T21	Neg_cue 108 110	no
+T23	Neg_cue 651 653	no
+T24	CONC 654 677	participa en el estudio
+A6	Assertion T24 Negated
+#17	AnnotatorNotes T24	C5418626; Study Participation; Functional Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T19	
+R2	Negation Arg1:T21 Arg2:T19	
+R3	Experiences Arg1:T16 Arg2:T3	
+R4	Experiences Arg1:T16 Arg2:T2	
+R5	Experiences Arg1:T16 Arg2:T4	
+R6	Experiences Arg1:T16 Arg2:T5	
+R7	Experiences Arg1:T16 Arg2:T11	
+R8	Before Arg1:T5 Arg2:T3	
+R9	Has_Age Arg1:T17 Arg2:T18	
+R10	Experiences Arg1:T17 Arg2:T6	
+R11	Experiences Arg1:T17 Arg2:T7	
+R13	Negation Arg1:T20 Arg2:T8	
+R14	Experiences Arg1:T17 Arg2:T8	
+R15	Overlap Arg1:T6 Arg2:T8	
+R16	Causes Arg1:T15 Arg2:T10	
+T25	CONC 587 596	Previsión
+#18	AnnotatorNotes T25	C1301732; Planned; Functional Concept
+R17	After Arg1:T14 Arg2:T22	
+R18	Negation Arg1:T23 Arg2:T24	
+T26	Observation 600 608;633 677	traslado a un hospital que no participa en el estudio
+R19	After Arg1:T26 Arg2:T22	
+A7	Experiencer T16 Patient
+A8	Experiencer T17 Patient
+A9	Status T14 Future
+A10	Status T26 Future
+A11	Status T22 Future

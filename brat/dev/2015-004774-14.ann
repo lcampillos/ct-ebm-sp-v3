@@ -1,0 +1,264 @@
+T1	PROC 44 81	ESTUDIO DE LA EFICACIA Y LA SEGURIDAD
+T2	CHEM 85 95	VADADUSTAT
+#1	AnnotatorNotes T2	C4519730; vadadustat; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T3	PROC 107 135	TRATAMIENTO DE MANTENIMIENTO
+#2	AnnotatorNotes T3	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T4	DISO 142 148	ANEMIA
+#3	AnnotatorNotes T4	C0002871; Anemia; Disease or Syndrome
+T5	DISO 164 188	ENFERMEDAD RENAL CRÓNICA
+#4	AnnotatorNotes T5	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T6	PROC 294 359	ESTUDIO DE FASE 3, ALEATORIZADO, DE ETIQUETA ABIERTA Y CONTROLADO
+T7	PROC 386 420	EVALUAR LA EFICACIA Y LA SEGURIDAD
+#5	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T8	CHEM 424 434	VADADUSTAT
+#6	AnnotatorNotes T8	C4519730; vadadustat; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T9	PROC 446 474	TRATAMIENTO DE MANTENIMIENTO
+#7	AnnotatorNotes T9	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T10	DISO 481 487	ANEMIA
+#8	AnnotatorNotes T10	C0002871; Anemia; Disease or Syndrome
+T11	DISO 503 527	ENFERMEDAD RENAL CRÓNICA
+#9	AnnotatorNotes T11	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T12	CHEM 364 380	PRINCIPIO ACTIVO
+#10	AnnotatorNotes T12	C1372955; Active ingredient; Chemical Viewed Functionally
+T13	ANAT 692 698	sangre
+#11	AnnotatorNotes T13	C0005767; Blood; Body Substance
+T14	DISO 790 796	ANEMIA
+#12	AnnotatorNotes T14	C0002871; Anemia; Disease or Syndrome
+T15	DISO 812 836	ENFERMEDAD RENAL CRÓNICA
+#13	AnnotatorNotes T15	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T16	PROC 914 925	Diagnóstico
+#14	AnnotatorNotes T16	C0011900; Diagnosis; Diagnostic Procedure
+T17	DISO 929 947	nefropatía crónica
+T18	PROC 952 956	eGFR
+#15	AnnotatorNotes T18	C0C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T19	PROC 1068 1079	tratamiento
+#16	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	CHEM 1087 1090	ESA
+#17	AnnotatorNotes T20	C1959590; Erythropoiesis Stimulating Agents; Pharmacologic Substance
+T21	CHEM 1734 1744	vadadustat
+#18	AnnotatorNotes T21	C4519730; vadadustat; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T22	DISO 1623 1626	CHF
+#19	AnnotatorNotes T22	C0018802; Congestive heart failure; Disease or Syndrome
+T23	DISO 1334 1346	Hipertensión
+#20	AnnotatorNotes T23	C0020538; Hypertensive disease; Disease or Syndrome
+T24	DISO 1364 1386	Insuficiencia cardíaca
+#21	AnnotatorNotes T24	C0018801; Heart failure; Disease or Syndrome
+T25	CHEM 1719 1731	darbepoetina
+#22	AnnotatorNotes T25	C0937950; darbepoetin alfa; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T26	DISO 1463 1487	Síndrome coronario agudo
+#23	AnnotatorNotes T26	C0948089; Acute Coronary Syndrome; Disease or Syndrome
+T27	PROC 1489 1504	hospitalización
+#24	AnnotatorNotes T27	C0019993; Hospitalization; Health Care Activity
+T28	DISO 1514 1530	angina inestable
+#25	AnnotatorNotes T28	C0002965; Angina, Unstable; Disease or Syndrome
+T29	DISO 1533 1554	infarto del miocardio
+#26	AnnotatorNotes T29	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T30	PROC 1557 1584	revascularización coronaria
+#27	AnnotatorNotes T30	C0877341; Coronary revascularisation; Therapeutic or Preventive Procedure
+T31	PROC 1598 1613	hospitalización
+#28	AnnotatorNotes T31	C0019993; Hospitalization; Health Care Activity
+T32	DISO 1629 1654	accidente cerebrovascular
+#29	AnnotatorNotes T32	C0038454; Cerebrovascular accident; Disease or Syndrome
+T33	DISO 1699 1716	Hipersensibilidad
+#30	AnnotatorNotes T33	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T34	CHEM 1768 1779	excipientes
+#31	AnnotatorNotes T34	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T35	ANAT 175 180	RENAL
+#32	AnnotatorNotes T35	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T36	PROC 207 215	DIÁLISIS
+#33	AnnotatorNotes T36	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T37	ANAT 514 519	RENAL
+#34	AnnotatorNotes T37	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T38	PROC 546 554	DIÁLISIS
+#35	AnnotatorNotes T38	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T39	CHEM 674 685	hemoglobina
+#36	AnnotatorNotes T39	C0019046; Hemoglobin; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T40	DISO 656 698	Disminución de la hemoglobina en la sangre
+T41	ANAT 759 764	renal
+#37	AnnotatorNotes T41	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T42	ANAT 823 828	RENAL
+#38	AnnotatorNotes T42	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T43	PROC 855 863	DIÁLISIS
+#39	AnnotatorNotes T43	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T44	PROC 991 999	diálisis
+#40	AnnotatorNotes T44	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T45	PROC 1181 1184	Hgb
+#41	AnnotatorNotes T45	C0518015; Hemoglobin measurement; Laboratory Procedure
+T46	ANAT 1378 1386	cardíaca
+#42	AnnotatorNotes T46	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T47	ANAT 1472 1481	coronario
+#43	AnnotatorNotes T47	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T48	ANAT 1545 1554	miocardio
+#44	AnnotatorNotes T48	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T49	ANAT 1575 1584	coronaria
+#45	AnnotatorNotes T49	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T50	DISO 726 764	pérdida progresiva de la función renal
+T51	Date 12 16	2015
+T52	Route 96 100	ORAL
+#46	AnnotatorNotes T52	C1527415; Oral Route of Drug administration; Functional Concept
+T53	LIVB 152 159	SUJETOS
+#47	AnnotatorNotes T53	C0681850; Study Subject; Group
+T54	Duration 181 188	CRÓNICA
+#48	AnnotatorNotes T54	C0205191; chronic; Temporal Concept
+T55	Neg_cue 189 191	NO
+T56	Route 435 439	ORAL
+#49	AnnotatorNotes T56	C1527415; Oral Route of Drug administration; Functional Concept
+T57	LIVB 491 498	SUJETOS
+#50	AnnotatorNotes T57	C0681850; Study Subject; Group
+T58	Duration 520 527	CRÓNICA
+#51	AnnotatorNotes T58	C0205191; chronic; Temporal Concept
+T59	Neg_cue 528 530	NO
+T60	LIVB 702 711	pacientes
+#52	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 800 807	SUJETOS
+#53	AnnotatorNotes T61	C0681850; Study Subject; Group
+T62	Duration 829 836	CRÓNICA
+#54	AnnotatorNotes T62	C0205191; chronic; Temporal Concept
+T63	Neg_cue 837 839	NO
+T64	Age 893 902	≥ 18 años
+T65	Duration 940 947	crónica
+#55	AnnotatorNotes T65	C0205191; chronic; Temporal Concept
+T67	Neg_cue 977 980	sin
+T68	Duration 1012 1023	los 6 meses
+T69	Date 1053 1064	Actualmente
+T70	CONC 1113 1125	última dosis
+T71	Duration 1141 1154	las 8 semanas
+T75	PROC 1425 1458	Asociación Cardíaca de Nueva York
+#56	AnnotatorNotes T75	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T76	Duration 1658 1672	las 12 semanas
+T74	PHYS 751 764	función renal
+#57	AnnotatorNotes T74	C0232804; Renal function; Organ or Tissue Function
+A1	Assertion T36 Negated
+A2	Assertion T38 Negated
+A3	Assertion T43 Negated
+A4	Assertion T44 Negated
+A5	Status T32 History_of
+A6	Status T33 History_of
+A7	Status T26 History_of
+A8	Status T28 History_of
+A9	Status T29 History_of
+A10	Status T30 History_of
+A11	Status T22 History_of
+#58	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#59	AnnotatorNotes T69	C0521116; Current (present time); Temporal Concept 
+#60	AnnotatorNotes T6	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#61	AnnotatorNotes T40	C4732750; Decreased hemoglobin concentration; Finding 
+#62	AnnotatorNotes T17	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T66	Observation 192 215	DEPENDIENTE DE DIÁLISIS
+A12	Assertion T66 Negated
+#63	AnnotatorNotes T66	C0524376; Dependence on renal dialysis; Finding | C2945570; Encounter due to dependence on renal dialysis; Finding
+T72	Observation 531 554	DEPENDIENTE DE DIÁLISIS
+A13	Assertion T72 Negated
+#64	AnnotatorNotes T72	C0524376; Dependence on renal dialysis; Finding | C2945570; Encounter due to dependence on renal dialysis; Finding
+T73	Observation 840 863	DEPENDIENTE DE DIÁLISIS
+A14	Assertion T73 Negated
+#65	AnnotatorNotes T73	C0524376; Dependence on renal dialysis; Finding | C2945570; Encounter due to dependence on renal dialysis; Finding
+T77	Quantifier_or_Qualifier 1350 1360	controlada
+A15	Assertion T77 Negated
+T78	Neg_cue 1347 1349	no
+R1	Negation Arg1:T59 Arg2:T72	
+R2	Negation Arg1:T55 Arg2:T66	
+R3	Negation Arg1:T63 Arg2:T73	
+R4	Negation Arg1:T67 Arg2:T44	
+R5	Negation Arg1:T78 Arg2:T77	
+R6	Has_Route_or_Mode Arg1:T2 Arg2:T52	
+R7	Used_for Arg1:T2 Arg2:T3	
+R8	Experiences Arg1:T53 Arg2:T2	
+R9	Experiences Arg1:T53 Arg2:T4	
+R10	Experiences Arg1:T53 Arg2:T5	
+R11	Location_of Arg1:T35 Arg2:T5	
+R12	Has_Duration_or_Interval Arg1:T5 Arg2:T54	
+R13	Overlap Arg1:T4 Arg2:T5	
+R14	Experiences Arg1:T53 Arg2:T66	
+R15	Experiences Arg1:T53 Arg2:T36	
+R16	Overlap Arg1:T5 Arg2:T66	
+R17	Overlap Arg1:T4 Arg2:T66	
+R18	Has_Route_or_Mode Arg1:T8 Arg2:T56	
+R19	Used_for Arg1:T8 Arg2:T9	
+R20	Experiences Arg1:T57 Arg2:T8	
+R21	Experiences Arg1:T57 Arg2:T10	
+R22	Experiences Arg1:T57 Arg2:T11	
+R23	Experiences Arg1:T57 Arg2:T72	
+R24	Experiences Arg1:T57 Arg2:T38	
+R25	Overlap Arg1:T11 Arg2:T72	
+R26	Location_of Arg1:T37 Arg2:T11	
+R27	Has_Duration_or_Interval Arg1:T11 Arg2:T58	
+R28	Overlap Arg1:T10 Arg2:T11	
+R29	Overlap Arg1:T10 Arg2:T72	
+R30	Location_of Arg1:T13 Arg2:T40	
+R31	Experiences Arg1:T60 Arg2:T40	
+R32	Experiences Arg1:T60 Arg2:T50	
+R33	Location_of Arg1:T41 Arg2:T74	
+R34	Location_of Arg1:T41 Arg2:T50	
+R36	Overlap Arg1:T40 Arg2:T50	
+#66	AnnotatorNotes T50	C0748318; Progressive renal failure; Finding
+R37	Experiences Arg1:T60 Arg2:T74	
+R38	Overlap Arg1:T14 Arg2:T15	
+R39	Experiences Arg1:T61 Arg2:T14	
+R40	Experiences Arg1:T61 Arg2:T15	
+R41	Location_of Arg1:T42 Arg2:T15	
+R42	Has_Duration_or_Interval Arg1:T15 Arg2:T62	
+R43	Experiences Arg1:T61 Arg2:T73	
+R44	Experiences Arg1:T61 Arg2:T43	
+R45	Overlap Arg1:T15 Arg2:T73	
+R46	Overlap Arg1:T14 Arg2:T73	
+R47	Has_Duration_or_Interval Arg1:T17 Arg2:T65	
+T79	Result_or_Value 957 976	≤ 60 ml/min/1.73 m2
+R49	Has_Result_or_Value Arg1:T18 Arg2:T79	
+R51	Overlap Arg1:T44 Arg2:T68	
+T80	PROC 1040 1049	selección
+#67	AnnotatorNotes T80	C0242802; Patient Selection; Research Activity
+R52	After Arg1:T44 Arg2:T80	
+T81	Quantifier_or_Qualifier 1000 1008	previsto
+#68	AnnotatorNotes T81	C1301732; Planned; Functional Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T81	
+A16	Assertion T81 Negated
+R54	Negation Arg1:T67 Arg2:T81	
+R55	Used_for Arg1:T20 Arg2:T19	
+R56	Overlap Arg1:T20 Arg2:T69	
+R57	Has_Dose_or_Strength Arg1:T20 Arg2:T70	
+R58	Overlap Arg1:T20 Arg2:T71	
+T82	PROC 1168 1177	Selección
+#69	AnnotatorNotes T82	C0242802; Patient Selection; Research Activity
+R60	Before Arg1:T19 Arg2:T82	
+T83	PROC 1197 1206	Selección
+#70	AnnotatorNotes T83	C0242802; Patient Selection; Research Activity
+R59	Overlap Arg1:T45 Arg2:T83	
+T84	Result_or_Value 1207 1228	entre 8.0 y 11.0 g/dl
+R61	Has_Result_or_Value Arg1:T45 Arg2:T84	
+T85	Result_or_Value 1254 1275	entre 9.0 y 12.0 g/dl
+R62	Has_Result_or_Value Arg1:T45 Arg2:T85	
+R63	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T77	
+R64	Location_of Arg1:T46 Arg2:T24	
+T86	PROC 1399 1408	selección
+#71	AnnotatorNotes T86	C0242802; Patient Selection; Research Activity
+R66	Overlap Arg1:T86 Arg2:T75	
+T87	Result_or_Value 1410 1418	clase IV
+R67	Has_Result_or_Value Arg1:T75 Arg2:T87	
+T88	Quantifier_or_Qualifier 1387 1392	grave
+#72	AnnotatorNotes T88	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R68	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T88	
+R69	Location_of Arg1:T47 Arg2:T26	
+R73	Location_of Arg1:T48 Arg2:T29	
+R74	Location_of Arg1:T49 Arg2:T30	
+R77	Overlap Arg1:T32 Arg2:T76	
+T89	PROC 1686 1695	Selección
+#73	AnnotatorNotes T89	C0242802; Patient Selection; Research Activity
+R78	Before Arg1:T32 Arg2:T89	
+R79	Overlap Arg1:T22 Arg2:T76	
+R80	Before Arg1:T22 Arg2:T89	
+T90	Quantifier_or_Qualifier 1585 1596	de urgencia
+#74	AnnotatorNotes T90	C0439609; Urgent; Qualitative Concept
+R81	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T90	
+R82	Causes Arg1:T25 Arg2:T33	
+R83	Causes Arg1:T21 Arg2:T33	
+R84	Causes Arg1:T34 Arg2:T33	
+R85	Experiences Arg1:T57 Arg2:T12	
+R35	Overlap Arg1:T24 Arg2:T86	
+#75	AnnotatorNotes R57	(?)
+#76	AnnotatorNotes T70	C1762893; Date last dose; Temporal Concept
+A17	Experiencer T53 Patient
+A18	Experiencer T57 Patient
+A19	Experiencer T60 Patient
+A20	Experiencer T61 Patient
+A21	Status T44 Future

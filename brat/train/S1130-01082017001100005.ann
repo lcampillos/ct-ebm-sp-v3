@@ -1,0 +1,185 @@
+T1	PROC 1 28	Ultrasonografía endoscópica
+#1	AnnotatorNotes T1	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T2	PROC 36 60	tomografía computarizada
+#2	AnnotatorNotes T2	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T3	PROC 163 166	USE
+#3	AnnotatorNotes T3	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T4	DISO 100 115	cáncer gástrico
+#4	AnnotatorNotes T4	C0024623; Malignant neoplasm of stomach; Neoplastic Process
+T5	PROC 134 161	ultrasonografía endoscópica
+#5	AnnotatorNotes T5	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T6	PROC 202 216	estadificación
+T7	DISO 235 258	adenocarcinoma gástrico
+#6	AnnotatorNotes T7	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T8	DISO 260 263	ACG
+#7	AnnotatorNotes T8	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T9	PROC 341 345	TCMD
+#8	AnnotatorNotes T9	C3179130; Multidetector Computed Tomography; Diagnostic Procedure
+T10	PROC 301 339	tomografía computarizada multidetector
+#9	AnnotatorNotes T10	C3179130; Multidetector Computed Tomography; Diagnostic Procedure
+T11	PROC 480 483	USE
+#10	AnnotatorNotes T11	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T12	PROC 437 473	comparar la rentabilidad diagnóstica
+T13	PROC 507 521	estadificación
+T14	DISO 571 574	ACG
+#11	AnnotatorNotes T14	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T15	PROC 611 646	estudio retrospectivo y comparativo
+#12	AnnotatorNotes T15	C0035363; Retrospective Studies; Research Activity; C1579762; comparative study research; Research Activity
+T16	PROC 663 675	intervenidos
+#13	AnnotatorNotes T16	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T17	DISO 679 682	ACG
+#14	AnnotatorNotes T17	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T18	PROC 687 701	estadificación
+#15	AnnotatorNotes T18	C0027646; Diagnostic Neoplasm Staging; Diagnostic Procedure
+T19	PROC 867 879	intervenidos
+#16	AnnotatorNotes T19	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T20	DISO 883 886	ACG
+#17	AnnotatorNotes T20	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T21	PROC 1171 1174	USE
+#18	AnnotatorNotes T21	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T22	PROC 725 728	USE
+#19	AnnotatorNotes T22	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T23	PROC 1590 1603	ecoendoscopia
+#20	AnnotatorNotes T23	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T24	PROC 1645 1659	estadificación
+#21	AnnotatorNotes T24	C0027646; Diagnostic Neoplasm Staging; Diagnostic Procedure
+T25	DISO 1697 1700	ACG
+#22	AnnotatorNotes T25	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T26	ANAT 107 115	gástrico
+#23	AnnotatorNotes T26	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T27	ANAT 250 258	gástrico
+#24	AnnotatorNotes T27	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T28	PROC 932 946	estadificación
+#25	AnnotatorNotes T28	C0027646; Diagnostic Neoplasm Staging; Diagnostic Procedure
+T29	PROC 1213 1217	TCMD
+#26	AnnotatorNotes T29	C3179130; Multidetector Computed Tomography; Diagnostic Procedure
+T30	PROC 1409 1413	TCMD
+#27	AnnotatorNotes T30	C3179130; Multidetector Computed Tomography; Diagnostic Procedure
+T31	PROC 67 81	estadificación
+#28	AnnotatorNotes T31	C0027646; Diagnostic Neoplasm Staging; Diagnostic Procedure
+T32	PROC 496 500	TCMD
+#29	AnnotatorNotes T32	C3179130; Multidetector Computed Tomography; Diagnostic Procedure
+T33	PROC 965 979	estadificación
+#30	AnnotatorNotes T33	C0027646; Diagnostic Neoplasm Staging; Diagnostic Procedure
+T34	PROC 1025 1028	USE
+#31	AnnotatorNotes T34	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T35	PROC 1050 1054	TCMD
+#32	AnnotatorNotes T35	C3179130; Multidetector Computed Tomography; Diagnostic Procedure
+T36	PROC 1371 1374	USE
+#33	AnnotatorNotes T36	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T37	PROC 1634 1638	TCMD
+#34	AnnotatorNotes T37	C3179130; Multidetector Computed Tomography; Diagnostic Procedure
+T38	PROC 1802 1815	aleatorizados
+#35	AnnotatorNotes T38	C0034656; Randomization; Research Activity
+T39	PROC 731 735	TCMD
+#36	AnnotatorNotes T39	C3179130; Multidetector Computed Tomography; Diagnostic Procedure
+T40	Date 82 95	preoperatoria
+#37	AnnotatorNotes T40	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T41	Date 536 549	preoperatoria
+#38	AnnotatorNotes T41	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T42	LIVB 557 566	pacientes
+#39	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 653 662	pacientes
+#40	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Date 702 715	preoperatoria
+#41	AnnotatorNotes T44	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T45	LIVB 857 866	pacientes
+#42	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T49	Date 1660 1673	preoperatoria
+#43	AnnotatorNotes T49	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T50	LIVB 1683 1692	pacientes
+#44	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+R1	Overlap Arg1:T31 Arg2:T40	
+R2	Location_of Arg1:T26 Arg2:T4	
+R3	Location_of Arg1:T27 Arg2:T7	
+R4	Location_of Arg1:T27 Arg2:T8	
+R5	Overlap Arg1:T2 Arg2:T31	
+R6	Overlap Arg1:T1 Arg2:T31	
+R7	Overlap Arg1:T3 Arg2:T6	
+R8	Overlap Arg1:T5 Arg2:T6	
+#45	AnnotatorNotes T6	C0027646; Diagnostic Neoplasm Staging; Diagnostic Procedure
+T46	Quantifier_or_Qualifier 217 230	loco-regional
+#46	AnnotatorNotes T46	C0814836; local regional area; Spatial Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T46	
+T47	Quantifier_or_Qualifier 522 535	loco-regional
+#47	AnnotatorNotes T47	C0814836; local regional area; Spatial Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T47	
+R11	Overlap Arg1:T13 Arg2:T41	
+R12	Overlap Arg1:T18 Arg2:T44	
+#48	AnnotatorNotes T13	C0027646; Diagnostic Neoplasm Staging; Diagnostic Procedure
+T48	Quantifier_or_Qualifier 947 955	completa
+#49	AnnotatorNotes T48	C0205197; Complete; Qualitative Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T48	
+R17	Overlap Arg1:T32 Arg2:T13	
+R18	Overlap Arg1:T11 Arg2:T13	
+R19	Experiences Arg1:T42 Arg2:T14	
+R20	Experiences Arg1:T42 Arg2:T11	
+R21	Experiences Arg1:T42 Arg2:T32	
+R22	Experiences Arg1:T43 Arg2:T16	
+R23	Experiences Arg1:T43 Arg2:T17	
+R25	Before Arg1:T18 Arg2:T16	
+R26	Experiences Arg1:T43 Arg2:T22	
+R27	Experiences Arg1:T43 Arg2:T39	
+R28	Overlap Arg1:T18 Arg2:T22	
+R29	Overlap Arg1:T18 Arg2:T39	
+R30	Experiences Arg1:T45 Arg2:T19	
+R31	Experiences Arg1:T45 Arg2:T20	
+T51	CONC 795 820	informe anatomopatológico
+T52	Quantifier_or_Qualifier 821 826	final
+R32	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T52	
+R33	Used_for Arg1:T51 Arg2:T18	
+R34	Before Arg1:T28 Arg2:T19	
+R35	Overlap Arg1:T33 Arg2:T34	
+R37	Overlap Arg1:T33 Arg2:T35	
+T53	CONC 988 1009	precisión diagnóstica
+#50	AnnotatorNotes T53	C0598285; Diagnostic Accuracy; Qualitative Concept
+T54	Quantifier_or_Qualifier 1015 1021	global
+#51	AnnotatorNotes T54	C2348867; Global; Qualitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T54	
+T55	CONC 1094 1111	estadios precoces
+T56	Observation 1113 1117	T1-2
+#52	AnnotatorNotes T56	C0475372; Tumor stage T1; Finding | C0475373; Tumor stage T2; Finding
+T57	Observation 1132 1137	T3-T4
+#53	AnnotatorNotes T57	C0475374; Tumor stage T3; Finding | C0475751; Tumor stage T4; Finding
+T58	Quantifier_or_Qualifier 1121 1130	avanzados
+T59	Neg_cue 1279 1282	sin
+T60	CONC 1305 1330	significación estadística
+A1	Assertion T60 Negated
+#54	AnnotatorNotes T60	C0237881; Statistical Significance; Quantitative Concept
+R39	Negation Arg1:T59 Arg2:T60	
+T61	Neg_cue 1422 1429	tampoco
+T62	CONC 1444 1455	diferencias
+A2	Assertion T62 Negated
+#55	AnnotatorNotes T62	C1705241; Delta (difference); Quantitative Concept
+R40	Negation Arg1:T61 Arg2:T62	
+R41	Overlap Arg1:T37 Arg2:T24	
+R42	Overlap Arg1:T24 Arg2:T49	
+R43	Overlap Arg1:T23 Arg2:T24	
+R44	Experiences Arg1:T50 Arg2:T23	
+R45	Experiences Arg1:T50 Arg2:T37	
+R46	Experiences Arg1:T50 Arg2:T25	
+T63	Spec_cue 1816 1822	puedan
+T64	CONC 1823 1832	confirmar
+A3	Assertion T64 Speculated
+#56	AnnotatorNotes T64	C0521093; Confirmed by; Qualitative Concept | C1456348; Confirm; Qualitative Concept
+R47	Speculation Arg1:T63 Arg2:T64	
+T65	PROC 1778 1786	estudios
+#57	AnnotatorNotes T65	C0681814; research study; Research Activity
+T66	Spec_cue 1730 1738	deberían
+T67	Quantifier_or_Qualifier 1752 1767	complementarias
+A4	Assertion T67 Speculated
+R50	Speculation Arg1:T66 Arg2:T67	
+T68	Quantifier_or_Qualifier 1456 1487	estadísticamente significativas
+A5	Assertion T68 Negated
+#58	AnnotatorNotes T68	C0237881; Statistical Significance; Quantitative Concept
+R51	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T68	
+R52	Negation Arg1:T61 Arg2:T68	
+#59	AnnotatorNotes T52	C3853528; Final; Temporal Concept
+#60	AnnotatorNotes T58	C0205179; Advanced phase; Qualitative Concept
+T69	CONC 1148 1160	sensibilidad
+#61	AnnotatorNotes T69	C0439823; Sensibility; Qualitative Concept
+#62	AnnotatorNotes T55	C2363430; Early stage; Temporal Concept
+A6	Experiencer T42 Patient
+A7	Experiencer T43 Patient
+A8	Experiencer T45 Patient
+A9	Experiencer T50 Patient

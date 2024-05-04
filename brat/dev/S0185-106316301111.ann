@@ -1,0 +1,136 @@
+T1	CHEM 44 52	propofol
+#1	AnnotatorNotes T1	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T2	CHEM 60 71	ondansetrón
+#2	AnnotatorNotes T2	C0061851; ondansetron; Organic Chemical · Pharmacologic Substance
+T3	PROC 75 88	cirugía nasal
+#3	AnnotatorNotes T3	C0188970; Operation on nose; Therapeutic or Preventive Procedure
+T4	ANAT 83 88	nasal
+#4	AnnotatorNotes T4	C0028429; Nose; Body Part, Organ, or Organ Component
+T5	DISO 123 130	náuseas
+#5	AnnotatorNotes T5	C0027497; Nausea; Sign or Symptom
+T6	DISO 136 157	vómito postoperatorio
+#6	AnnotatorNotes T6	C0520905; Vomiting, Postoperative; Sign or Symptom
+T7	DISO 166 178	complicación
+#7	AnnotatorNotes T7	C0009566; Complication; Pathologic Function
+T8	DISO 986 1006	vómito posoperatorio
+#8	AnnotatorNotes T8	C0520905; Vomiting, Postoperative; Sign or Symptom
+T9	DISO 442 450	síntomas
+#9	AnnotatorNotes T9	C1457887; Symptoms; Sign or Symptom
+T10	PROC 519 538	cirugía ambulatoria
+#10	AnnotatorNotes T10	C0002428; Ambulatory Surgical Procedures; Therapeutic or Preventive Procedure
+T11	PROC 1081 1105	consentimiento informado
+#11	AnnotatorNotes T11	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T12	CHEM 667 678	ondansetrón
+#12	AnnotatorNotes T12	C0061851; ondansetron; Organic Chemical · Pharmacologic Substance
+T13	PROC 704 715	tratamiento
+#13	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	CHEM 809 817	propofol
+#14	AnnotatorNotes T14	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T15	CHEM 829 840	medicamento
+#15	AnnotatorNotes T15	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T16	DISO 973 980	náuseas
+#16	AnnotatorNotes T16	C0027497; Nausea; Sign or Symptom
+T17	CHEM 1016 1027	ondansetrón
+#17	AnnotatorNotes T17	C0061851; ondansetron; Organic Chemical · Pharmacologic Substance
+T18	CHEM 1033 1041	propofol
+#18	AnnotatorNotes T18	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T19	PROC 1045 1058	cirugía nasal
+#19	AnnotatorNotes T19	C0188970; Operation on nose; Therapeutic or Preventive Procedure
+T20	ANAT 1053 1058	nasal
+#20	AnnotatorNotes T20	C0028429; Nose; Body Part, Organ, or Organ Component
+T21	PROC 1190 1262	ensayo clínico comparativo, prospectivo, longitudinal, ciego y aleatorio
+#21	AnnotatorNotes T21	C0023981; Longitudinal Studies; Research Activity + C1579762; comparative study research; Research Activity + C0033522; Prospective Studies; Research Activity + C0150108; Blinded; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T22	CHEM 1343 1354	ondansetrón
+#22	AnnotatorNotes T22	C0061851; ondansetron; Organic Chemical · Pharmacologic Substance
+T23	CHEM 1398 1406	propofol
+#23	AnnotatorNotes T23	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T24	CHEM 1429 1437	fármacos
+#24	AnnotatorNotes T24	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T25	PROC 1470 1487	evento quirúrgico
+#25	AnnotatorNotes T25	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T26	DISO 1515 1531	náuseas y vómito
+#26	AnnotatorNotes T26	C0027498; Nausea and vomiting; Sign or Symptom
+T27	DISO 1637 1669	náuseas y vómito postoperatorios
+#27	AnnotatorNotes T27	C0520909; Postoperative Nausea and Vomiting; Sign or Symptom
+T28	PROC 90 117	Ensayo clínico aleatorizado
+#28	AnnotatorNotes T28	C0206034; Clinical Trials, Randomized; Research Activity
+T29	CHEM 602 665	antagonistas de los receptores tipo 3 de la 5–hidroxitriptamina
+T30	PROC 1 27	Comparación de la eficacia
+#29	AnnotatorNotes T30	C1707887; Efficacy Study; Research Activity
+T31	Time 143 157	postoperatorio
+#30	AnnotatorNotes T31	C0032790; Postoperative Period; Temporal Concept
+T32	LIVB 329 353	pacientes de alto riesgo
+#31	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group + C0870646; High Risk Populations; Population Group
+T33	Time 993 1006	posoperatorio
+#32	AnnotatorNotes T33	C0032790; Postoperative Period; Temporal Concept
+T34	LIVB 1291 1300	pacientes
+#33	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Dose 1355 1359	4 mg
+#34	AnnotatorNotes T35	[Dose expressed in mg per Kg]
+T36	Route 1360 1370	endovenoso
+#35	AnnotatorNotes T36	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T37	Dose 1407 1412	20 mg
+T38	Route 1413 1423	endovenoso
+#36	AnnotatorNotes T38	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T40	Time 1538 1560	periodo postanestésico
+T41	Duration 1574 1604	las 2, 4 y 6 horas posteriores
+T42	Time 1654 1669	postoperatorios
+#37	AnnotatorNotes T42	C0032790; Postoperative Period; Temporal Concept
+T39	CONC 1678 1688	diferencia
+A1	Assertion T39 Negated
+#38	AnnotatorNotes T39	C1705241; Delta (difference); Quantitative Concept
+T43	Neg_cue 1670 1672	no
+R1	Negation Arg1:T43 Arg2:T39	
+R2	Before Arg1:T11 Arg2:T21	
+R3	Location_of Arg1:T4 Arg2:T3	
+R4	Before Arg1:T3 Arg2:T1	
+R5	Before Arg1:T3 Arg2:T2	
+R6	Overlap Arg1:T6 Arg2:T31	
+R7	Experiences Arg1:T32 Arg2:T7	
+R8	Experiences Arg1:T32 Arg2:T6	
+R9	Experiences Arg1:T32 Arg2:T5	
+T45	CONC 463 494	tiempo de estancia hospitalaria
+#40	AnnotatorNotes T45	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T47	CONC 575 596	costos de la atención
+#42	AnnotatorNotes T47	C0085552; Health Care Costs; Quantitative Concept
+R13	Used_for Arg1:T12 Arg2:T13	
+R14	Used_for Arg1:T29 Arg2:T13	
+R15	Used_for Arg1:T14 Arg2:T13	
+R16	Overlap Arg1:T8 Arg2:T33	
+R17	Location_of Arg1:T20 Arg2:T19	
+T49	PROC 509 515	egreso
+#44	AnnotatorNotes T49	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+R19	Before Arg1:T10 Arg2:T9	
+R20	Before Arg1:T9 Arg2:T49	
+T50	PROC 925 949	terapéutica profiláctica
+#45	AnnotatorNotes T50	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+R21	Used_for Arg1:T17 Arg2:T50	
+R22	Used_for Arg1:T18 Arg2:T50	
+R23	Before Arg1:T50 Arg2:T16	
+R24	Before Arg1:T50 Arg2:T8	
+R25	Before Arg1:T19 Arg2:T17	
+R26	Before Arg1:T19 Arg2:T18	
+R27	Has_Dose_or_Strength Arg1:T22 Arg2:T35	
+R28	Has_Route_or_Mode Arg1:T22 Arg2:T36	
+R29	Has_Dose_or_Strength Arg1:T23 Arg2:T37	
+R30	Has_Route_or_Mode Arg1:T23 Arg2:T38	
+R31	After Arg1:T24 Arg2:T25	
+R32	After Arg1:T23 Arg2:T25	
+R33	After Arg1:T22 Arg2:T25	
+R34	Overlap Arg1:T26 Arg2:T40	
+R35	Overlap Arg1:T27 Arg2:T42	
+R37	Overlap Arg1:T26 Arg2:T41	
+T52	Quantifier_or_Qualifier 1689 1719	estadísticamente significativa
+A2	Assertion T52 Negated
+#47	AnnotatorNotes T52	C0237881; Statistical Significance; Quantitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T52	
+R39	Negation Arg1:T43 Arg2:T52	
+T44	Quantifier_or_Qualifier 28 39	antiemética
+R10	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T44	
+T46	Quantifier_or_Qualifier 1561 1570	inmediato
+#39	AnnotatorNotes T46	C0205253; Immediate; Temporal Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T46	
+#41	AnnotatorNotes T29	C0360055; 5-HT3 receptor antagonist; Pharmacologic Substance
+#43	AnnotatorNotes T44	C4751297; Antiemetic therapeutic role; Intellectual Product
+A3	Experiencer T32 Patient
+A4	Experiencer T34 Patient

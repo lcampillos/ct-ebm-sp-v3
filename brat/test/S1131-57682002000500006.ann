@@ -1,0 +1,95 @@
+T1	PROC 1 12	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 17 32	hombro doloroso
+#2	AnnotatorNotes T2	C0037011; Shoulder Pain; Sign or Symptom
+T3	CHEM 35 65	antiinflamatorio no esteroideo
+#3	AnnotatorNotes T3	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T4	CHEM 67 71	AINE
+#4	AnnotatorNotes T4	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T5	PROC 171 179	consulta
+#5	AnnotatorNotes T5	C0009818; Consultation; Health Care Activity
+T6	PROC 220 231	seguimiento
+#6	AnnotatorNotes T6	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T7	PROC 249 260	tratamiento
+#7	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 265 280	hombro doloroso
+#8	AnnotatorNotes T8	C0037011; Shoulder Pain; Sign or Symptom
+T9	CHEM 285 298	triamcinolona
+#9	AnnotatorNotes T9	C0040864; triamcinolone; Organic Chemical · Pharmacologic Substance
+T10	CHEM 326 335	naproxeno
+#10	AnnotatorNotes T10	C0027396; naproxen; Organic Chemical · Pharmacologic Substance
+T11	ANAT 17 23	hombro
+#11	AnnotatorNotes T11	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T12	PROC 75 87	infiltración
+#12	AnnotatorNotes T12	C0702249; Infiltration (procedure); Therapeutic or Preventive Procedure
+T13	PROC 96 136	ensayo clínico aleatorizado, doble ciego
+#13	AnnotatorNotes T13	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T14	ANAT 265 271	hombro
+#14	AnnotatorNotes T14	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T15	PROC 299 309	infiltrada
+#15	AnnotatorNotes T15	C0702249; Infiltration (procedure); Therapeutic or Preventive Procedure
+T16	DISO 360 365	dolor
+#16	AnnotatorNotes T16	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T18	LIVB 147 156	pacientes
+#17	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T19	Duration 235 244	4 semanas
+T21	PHYS 390 399	abducción
+#18	AnnotatorNotes T21	C0231456; Abduction, function; Physiologic Function
+T17	Neg_cue 434 436	no
+T20	CONC 442 453	diferencias
+A1	Assertion T20 Negated
+#19	AnnotatorNotes T20	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T17 Arg2:T20	
+T22	Neg_cue 488 495	Tampoco
+T23	CONC 501 512	diferencias
+A2	Assertion T23 Negated
+#20	AnnotatorNotes T23	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T22 Arg2:T23	
+T24	Neg_cue 52 54	no
+T25	Quantifier_or_Qualifier 55 65	esteroideo
+A3	Assertion T25 Negated
+R3	Negation Arg1:T24 Arg2:T25	
+R4	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T25	
+R5	Location_of Arg1:T11 Arg2:T2	
+T26	Observation 412 432	limitación funcional
+#21	AnnotatorNotes T26	C1717848; Functional limitation in range of motion; Finding (?)
+R6	Used_for Arg1:T3 Arg2:T1	
+R7	Used_for Arg1:T4 Arg2:T1	
+R8	Has_Duration_or_Interval Arg1:T6 Arg2:T19	
+R9	Before Arg1:T5 Arg2:T7	
+R10	Before Arg1:T7 Arg2:T6	
+R11	Location_of Arg1:T14 Arg2:T8	
+R12	Used_for Arg1:T9 Arg2:T7	
+R13	Used_for Arg1:T9 Arg2:T15	
+R14	Used_for Arg1:T10 Arg2:T7	
+T27	Observation 348 365	mejoría del dolor
+#22	AnnotatorNotes T27	C5230944; Sensation of pain reduced; Finding
+R15	Causes Arg1:T7 Arg2:T27	
+R16	Before Arg1:T7 Arg2:T26	
+R17	Before Arg1:T7 Arg2:T21	
+T28	Quantifier_or_Qualifier 400 406	activa
+#23	AnnotatorNotes T28	C0679217; Active State; Idea or Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T28	
+T29	Observation 544 554	remisiones
+#24	AnnotatorNotes T29	C0544452; Disease remission; Finding
+R19	Experiences Arg1:T18 Arg2:T7	
+R20	Experiences Arg1:T18 Arg2:T8	
+R21	Experiences Arg1:T18 Arg2:T15	
+R22	Experiences Arg1:T18 Arg2:T10	
+R23	Experiences Arg1:T18 Arg2:T27	
+R24	Before Arg1:T16 Arg2:T27	
+R25	Experiences Arg1:T18 Arg2:T16	
+R26	Experiences Arg1:T18 Arg2:T21	
+R27	Experiences Arg1:T18 Arg2:T26	
+T30	Quantifier_or_Qualifier 513 527	significativas
+A4	Assertion T30 Negated
+#25	AnnotatorNotes T30	C0750502; Significant; Idea or Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T30	
+R29	Negation Arg1:T22 Arg2:T30	
+T31	Quantifier_or_Qualifier 454 485	estadísticamente significativas
+A5	Assertion T31 Negated
+#26	AnnotatorNotes T31	C0237881; Statistical Significance; Quantitative Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T31	
+R31	Negation Arg1:T17 Arg2:T31	
+R32	Experiences Arg1:T18 Arg2:T5	
+A6	Experiencer T18 Patient

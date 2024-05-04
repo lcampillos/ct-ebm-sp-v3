@@ -1,0 +1,98 @@
+T1	ANAT 83 91	ovocitos
+#1	AnnotatorNotes T1	C0029045; Oocytes; Cell
+T2	PROC 119 154	tratamiento de estimulación ovárica
+#2	AnnotatorNotes T2	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+T3	PROC 609 612	IMC
+#3	AnnotatorNotes T3	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T4	PROC 239 259	Estimulación ovárica
+T5	ANAT 252 259	ovárica
+#4	AnnotatorNotes T5	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T6	PROC 277 309	estimulación con inyección única
+#5	AnnotatorNotes T6	C0029965; Ovulation; Organ or Tissue Function
+T7	CHEM 313 333	Corifolitropina alfa
+#6	AnnotatorNotes T7	C2713522; Corifollitropin alfa; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T8	ANAT 349 357	ovocitos
+#7	AnnotatorNotes T8	C0029045; Oocytes; Cell
+T9	PROC 359 385	Ensayo clínico randomizado
+#8	AnnotatorNotes T9	C0206034; Clinical Trials, Randomized; Research Activity
+T10	ANAT 436 444	ovocitos
+#9	AnnotatorNotes T10	C0029045; Oocytes; Cell
+T11	ANAT 537 545	ovocitos
+#10	AnnotatorNotes T11	C0029045; Oocytes; Cell
+T12	ANAT 638 656	folículos antrales
+#11	AnnotatorNotes T12	C0600225; Graafian Follicle; Body Part, Organ, or Organ Component
+T13	ANAT 670 683	ambos ovarios
+#12	AnnotatorNotes T13	C0227898; Both ovaries; Body Part, Organ, or Organ Component
+T14	ANAT 701 714	ambos ovarios
+#13	AnnotatorNotes T14	C0227898; Both ovaries; Body Part, Organ, or Organ Component
+T15	PROC 761 770	protocolo
+#14	AnnotatorNotes T15	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T16	PROC 800 826	consentimiento por escrito
+#15	AnnotatorNotes T16	C0811746; Obtain written consent; Health Care Activity
+T17	PROC 848 859	tratamiento
+#16	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	PROC 933 945	estimulación
+#17	AnnotatorNotes T18	C1292856; Stimulation procedure; Therapeutic or Preventive Procedure
+T19	PROC 976 987	Diagnóstico
+#18	AnnotatorNotes T19	C0011900; Diagnosis; Diagnostic Procedure
+T20	DISO 991 1004	endometriosis
+#19	AnnotatorNotes T20	C0014175; Endometriosis; Disease or Syndrome
+T21	DISO 1040 1043	SOP
+#20	AnnotatorNotes T21	C0032460; Polycystic Ovary Syndrome; Disease or Syndrome
+T22	ANAT 147 154	ovárica
+#21	AnnotatorNotes T22	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T23	PROC 424 444	Donación de ovocitos
+#22	AnnotatorNotes T23	C0242813; Oocyte Donation; Therapeutic or Preventive Procedure
+T24	PROC 525 545	donación de ovocitos
+#23	AnnotatorNotes T24	C0242813; Oocyte Donation; Therapeutic or Preventive Procedure
+T25	CHEM 864 893	estimuladores de la ovulación
+T26	PROC 1029 1032	AFC
+#24	AnnotatorNotes T26	C3273281; Antral follicle count; Diagnostic Procedure
+T27	PROC 626 656	Recuento de folículos antrales
+#25	AnnotatorNotes T27	C3273281; Antral follicle count; Diagnostic Procedure
+T28	Date 13 17	2019
+T29	LIVB 337 357	donantes de ovocitos
+#26	AnnotatorNotes T29	C3267027; Oocyte donor; Population Group
+T30	Age 587 605	entre 18 y 32 años
+T31	Neg_cue 830 832	No
+T33	PHYS 884 893	ovulación
+#27	AnnotatorNotes T33	C0029965; Ovulation; Organ or Tissue Function
+T34	Duration 897 908	los 3 meses
+T35	Date 206 215	más tarde
+A1	Assertion T25 Negated
+A2	Assertion T17 Negated
+A3	Status T17 History_of
+A4	Status T25 History_of
+#28	AnnotatorNotes T4	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+T32	CONC 73 91	número de ovocitos
+#29	AnnotatorNotes T32	C0449803; Number of oocytes; Quantitative Concept
+R1	Location_of Arg1:T22 Arg2:T2	
+T36	Quantifier_or_Qualifier 196 203	una vez
+R2	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T36	
+R3	Overlap Arg1:T2 Arg2:T35	
+R4	Location_of Arg1:T5 Arg2:T4	
+R5	Used_for Arg1:T7 Arg2:T6	
+R6	Experiences Arg1:T29 Arg2:T4	
+R7	Experiences Arg1:T29 Arg2:T6	
+T37	Observation 490 499;525 545	apta para donación de ovocitos
+R8	Before Arg1:T37 Arg2:T24	
+T38	Result_or_Value 613 622	>18 y <30
+R9	Has_Result_or_Value Arg1:T3 Arg2:T38	
+R10	Location_of Arg1:T12 Arg2:T27	
+T39	Result_or_Value 657 660	>12
+R11	Has_Result_or_Value Arg1:T27 Arg2:T39	
+R12	Location_of Arg1:T13 Arg2:T27	
+T40	Observation 718 770	Capacidad para participar y cumplir con el protocolo
+R13	Negation Arg1:T31 Arg2:T17	
+R14	Negation Arg1:T31 Arg2:T25	
+R15	Before Arg1:T25 Arg2:T33	
+R16	Used_for Arg1:T25 Arg2:T17	
+R17	Overlap Arg1:T25 Arg2:T34	
+R18	Before Arg1:T17 Arg2:T18	
+T41	Quantifier_or_Qualifier 1008 1025	cualquier estadio
+R19	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T41	
+T42	Result_or_Value 1033 1036	>20
+R20	Has_Result_or_Value Arg1:T26 Arg2:T42	
+T43	Observation 1047 1088	Participación concurrente en otro estudio
+#30	AnnotatorNotes T36	C1948045; Once (schedule frequency); Temporal Concept
+A5	Experiencer T29 Patient

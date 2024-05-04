@@ -1,0 +1,135 @@
+T1	PROC 1 38	Paratiroidectomía lateral endoscópica
+T2	PROC 194 221	miniprocedimientos abiertos
+#1	AnnotatorNotes T2	C0282624; Minimally Invasive Surgical Procedures; Therapeutic or Preventive Procedure
+T3	DISO 69 97	hiperparatiroidismo primario
+#2	AnnotatorNotes T3	C0221002; Hyperparathyroidism, Primary; Disease or Syndrome
+T4	PROC 230 241	tratamiento
+#3	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 246 274	hiperparatiroidismo primario
+#4	AnnotatorNotes T5	C0221002; Hyperparathyroidism, Primary; Disease or Syndrome
+T6	PROC 310 329	endoscopia cervical
+T7	PROC 1433 1448	técnica abierta
+T8	DISO 516 544	hiperparatiroidismo primario
+#5	AnnotatorNotes T8	C0221002; Hyperparathyroidism, Primary; Disease or Syndrome
+T9	DISO 586 593	adenoma
+#6	AnnotatorNotes T9	C0001430; Adenoma; Neoplastic Process
+T10	PROC 610 619	ecografía
+#7	AnnotatorNotes T10	C0041618; Ultrasonography; Diagnostic Procedure
+T11	PROC 622 633	exploración
+#8	AnnotatorNotes T11	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T12	PROC 712 720	operados
+#9	AnnotatorNotes T12	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T13	PROC 776 783	cirugía
+#10	AnnotatorNotes T13	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T14	PROC 805 823	técnica quirúrgica
+T15	PROC 986 1006	análisis descriptivo
+T16	PROC 1103 1121	paratiroidectomías
+#11	AnnotatorNotes T16	C0079989; Parathyroidectomy; Therapeutic or Preventive Procedure
+T17	PROC 1146 1183	paratiroidectomía lateral endoscópica
+T18	DISO 1272 1300	hiperparatiroidismo primario
+#12	AnnotatorNotes T18	C0221002; Hyperparathyroidism, Primary; Disease or Syndrome
+T19	DISO 1330 1361	complicaciones intraoperatorias
+#13	AnnotatorNotes T19	C0021890; Intraoperative Complications; Pathologic Function
+T20	PROC 1471 1482	seguimiento
+#14	AnnotatorNotes T20	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T21	PROC 1538 1550	intervención
+#15	AnnotatorNotes T21	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T22	DISO 1618 1646	hiperparatiroidismo primario
+#16	AnnotatorNotes T22	C0221002; Hyperparathyroidism, Primary; Disease or Syndrome
+T23	CHEM 638 647	sestamibi
+#17	AnnotatorNotes T23	C1337333; SESTAMIBI; Organic Chemical · Pharmacologic Substance
+T24	PROC 1602 1613	endoscópico
+#18	AnnotatorNotes T24	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T25	LIVB 55 64	pacientes
+#19	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 131 140	cirujanos
+#20	AnnotatorNotes T26	C0582175; Surgeon; Professional or Occupational Group
+T27	LIVB 411 420	pacientes
+#21	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	Date 462 476	abril del 2010
+T29	Date 483 487	2013
+T30	LIVB 502 511	pacientes
+#22	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 695 704	pacientes
+#23	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 725 734	cirujanos
+#24	AnnotatorNotes T32	C0582175; Surgeon; Professional or Occupational Group
+T33	LIVB 911 920	pacientes
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 1206 1215	pacientes
+#26	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Age 1223 1230	68 años
+T36	LIVB 1250 1259	pacientes
+#27	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Neg_cue 1313 1315	No
+T38	Time 1345 1361	intraoperatorias
+#28	AnnotatorNotes T38	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T39	Duration 1486 1501	22 (9-53) meses
+T41	LIVB 1847 1856	pacientes
+#29	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	Age 1232 1237	59-89
+T40	ANAT 321 329	cervical
+#30	AnnotatorNotes T40	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+A1	Assertion T19 Negated
+T42	CONC 1593 1613	abordaje endoscópico
+A2	Assertion T42 Speculated
+#31	AnnotatorNotes T42	C0442418; Endoscopic approach - access; Spatial Concept
+T44	Spec_cue 1661 1669	factible
+R1	Speculation Arg1:T44 Arg2:T42	
+R2	Negation Arg1:T37 Arg2:T19	
+R3	Experiences Arg1:T25 Arg2:T3	
+R4	Experiences Arg1:T25 Arg2:T1	
+R8	Location_of Arg1:T40 Arg2:T6	
+R9	Experiences Arg1:T27 Arg2:T6	
+T47	Quantifier_or_Qualifier 545 555	esporádico
+#34	AnnotatorNotes T47	C0205422; Sporadic (qualifier value); Temporal Concept
+R10	Experiences Arg1:T30 Arg2:T8	
+R11	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T47	
+R12	Overlap Arg1:T8 Arg2:T9	
+T48	Quantifier_or_Qualifier 594 599	único
+R13	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T48	
+R14	Experiences Arg1:T30 Arg2:T9	
+R15	Used_for Arg1:T23 Arg2:T11	
+R16	Experiences Arg1:T30 Arg2:T10	
+R17	Experiences Arg1:T30 Arg2:T11	
+T49	Observation 655 675	aceptaron participar
+#35	AnnotatorNotes T49	C0600109; Willing; Finding (?)
+R18	Experiences Arg1:T30 Arg2:T49	
+T50	PROC 682 689	estudio
+#36	AnnotatorNotes T50	C0681814; research study; Research Activity
+R19	Before Arg1:T49 Arg2:T50	
+R20	After Arg1:T50 Arg2:T28	
+R21	Before Arg1:T50 Arg2:T29	
+R24	Experiences Arg1:T31 Arg2:T12	
+R25	Experiences Arg1:T31 Arg2:T13	
+R26	Experiences Arg1:T31 Arg2:T14	
+T51	CONC 854 876	variables demográficas
+#37	AnnotatorNotes T51	C4684639; Demographic Data; Intellectual Product
+T52	CONC 879 903	características clínicas
+T53	CONC 944 970	recolección de información
+#38	AnnotatorNotes T53	C3244127; information collection; Idea or Concept
+R27	Before Arg1:T53 Arg2:T15	
+R28	Has_Age Arg1:T34 Arg2:T35	
+R29	Has_Age Arg1:T34 Arg2:T43	
+R30	Experiences Arg1:T36 Arg2:T18	
+T54	Quantifier_or_Qualifier 1301 1311	esporádico
+#39	AnnotatorNotes T54	C0205422; Sporadic (qualifier value); Temporal Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T54	
+R32	Overlap Arg1:T19 Arg2:T38	
+T55	Observation 1366 1376	morbilidad
+#40	AnnotatorNotes T55	C0026538; Morbidity - disease rate; Finding
+R33	Has_Duration_or_Interval Arg1:T20 Arg2:T39	
+R34	Before Arg1:T21 Arg2:T20	
+T56	CONC 1724 1732;1741 1748	abordaje abierto
+#41	AnnotatorNotes T56	C0348025; Open approach; Spatial Concept
+#32	AnnotatorNotes T48	C0205171; Singular; Quantitative Concept
+A3	Experiencer T25 Patient
+A4	Experiencer T26 Other
+A5	Experiencer T27 Patient
+A6	Experiencer T30 Patient
+A7	Experiencer T31 Patient
+A8	Experiencer T32 Other
+A9	Experiencer T33 Patient
+A10	Experiencer T34 Patient
+A11	Experiencer T36 Patient
+A12	Experiencer T41 Patient

@@ -1,0 +1,182 @@
+T1	CHEM 68 79	posaconazol
+#1	AnnotatorNotes T1	C0936148; posaconazole; Organic Chemical · Pharmacologic Substance
+T2	ANAT 83 89	sangre
+#2	AnnotatorNotes T2	C0005767; Blood; Body Substance
+T3	CHEM 124 131	fármaco
+#3	AnnotatorNotes T3	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T4	DISO 184 192	leucemia
+#4	AnnotatorNotes T4	C0023418; leukemia; Neoplastic Process
+T5	DISO 212 232	infecciones fúngicas
+#5	AnnotatorNotes T5	C0026946; Mycoses; Disease or Syndrome
+T6	PROC 255 292	Estudio secuencial de farmacocinética
+T7	ANAT 301 311	plasmático
+#6	AnnotatorNotes T7	C0032105; Plasma; Body Substance
+T8	CHEM 344 355	posaconazol
+#7	AnnotatorNotes T8	C0936148; posaconazole; Organic Chemical · Pharmacologic Substance
+T9	DISO 465 482	micosis invasoras
+#8	AnnotatorNotes T9	C1262313; Invasive Fungal Infections; Disease or Syndrome
+T10	DISO 507 536	Infecciones graves por hongos
+T11	DISO 563 580	Micosis invasoras
+#9	AnnotatorNotes T11	C1262313; Invasive Fungal Infections; Disease or Syndrome
+T12	PROC 643 665	profilaxis antifúngica
+T13	DISO 686 697	neutropenia
+#10	AnnotatorNotes T13	C0027947; Neutropenia; Disease or Syndrome | C0853697; Neutrophil count decreased; Finding
+T14	PROC 719 742	quimioterapia intensiva
+T15	DISO 748 776	leucemia aguda mieloblástica
+T16	ANAT 763 776	mieloblástica
+#11	AnnotatorNotes T16	C0229633; myeloblast; Cell
+T17	DISO 779 805	síndromes mielodisplásicos
+#12	AnnotatorNotes T17	C0026985; Myelodysplasia; Congenital Abnormality | C3463824; MYELODYSPLASTIC SYNDROME; Neoplastic Process
+T18	DISO 875 891	micosis invasora
+T19	PROC 907 927	trasplante alogénico
+#13	AnnotatorNotes T19	C0040739; Transplantation, Homologous; Therapeutic or Preventive Procedure
+T20	DISO 938 972	enfermedad injerto contra receptor
+T21	DISO 978 1018	alteraciones de función hepática o renal
+T22	ANAT 1002 1010	hepática
+#14	AnnotatorNotes T22	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T23	ANAT 1013 1018	renal
+#15	AnnotatorNotes T23	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T24	PROC 1079 1091	tratamientos
+#16	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	CHEM 670 681	posaconazol
+#17	AnnotatorNotes T25	C0936148; posaconazole; Organic Chemical · Pharmacologic Substance
+T26	ANAT 949 956	injerto
+#18	AnnotatorNotes T26	C0332835; Transplanted tissue; Tissue
+T27	Date 13 17	2015
+T28	Form 140 146	jarabe
+#19	AnnotatorNotes T28	C0991550; Syrup Drug Form; Biomedical or Dental Material
+T29	Form 157 165	tabletas
+#20	AnnotatorNotes T29	C0039225; Tablet Dosage Form; Functional Concept
+T30	LIVB 170 179	pacientes
+#21	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Spec_cue 202 211	riesgo de
+T32	PHYS 277 292	farmacocinética
+#22	AnnotatorNotes T32	C0031327; Drug Kinetics; Physiologic Function
+T33	Route 334 340	orales
+#23	AnnotatorNotes T33	C1527415; Oral Route of Drug administration; Functional Concept
+T34	Form 357 367	suspensión
+#24	AnnotatorNotes T34	C4724031; Suspension Dosage Form; Biomedical or Dental Material
+T35	Route 368 372	oral
+#25	AnnotatorNotes T35	C1527415; Oral Route of Drug administration; Functional Concept
+T36	Form 375 405	comprimidos gastrorresistentes
+#26	AnnotatorNotes T36	C0039226; Gastro-resistant oral tablet; Biomedical or Dental Material
+T37	LIVB 410 433	pacientes hematológicos
+#27	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Spec_cue 438 444	riesgo
+T39	LIVB 530 536	hongos
+#28	AnnotatorNotes T39	C0016832; Fungi; Fungus
+T40	LIVB 607 624	Pacientes adultos
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T42	Neg_cue 833 844	Se excluyen
+T43	LIVB 845 854	pacientes
+#30	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 224 232	fúngicas
+#31	AnnotatorNotes T46	C0016832; Fungi; Fungus
+T47	LIVB 1047 1058	embarazadas
+#32	AnnotatorNotes T47	C0033011; Pregnant Women; Population Group
+T41	LIVB 964 972	receptor
+#33	AnnotatorNotes T41	C0376387; Transplant Recipients; Patient or Disabled Group
+A1	Assertion T43 Negated
+A2	Assertion T18 Negated
+A3	Assertion T19 Negated
+A4	Assertion T21 Negated
+A5	Assertion T47 Negated
+A6	Assertion T24 Negated
+A7	Assertion T5 Speculated
+A8	Assertion T9 Speculated
+A9	Population_data T40 Age
+A10	Status T18 History_of
+A11	Status T19 History_of
+A12	Status T24 History_of
+#34	AnnotatorNotes T12	C0877136; Administration of prophylactic antifungal; Therapeutic or Preventive Procedure 
+#35	AnnotatorNotes T15	C0023467; Leukemia, Myelocytic, Acute; Neoplastic Process 
+#36	AnnotatorNotes T18	C1262313; Invasive Fungal Infections; Disease or Syndrome
+#37	AnnotatorNotes T21	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+#38	AnnotatorNotes T20	C0018133; Graft-vs-Host Disease; Disease or Syndrome
+R1	Negation Arg1:T42 Arg2:T43	
+R2	Negation Arg1:T42 Arg2:T18	
+R3	Negation Arg1:T42 Arg2:T19	
+A13	Assertion T20 Negated
+R4	Negation Arg1:T42 Arg2:T20	
+R5	Negation Arg1:T42 Arg2:T21	
+R6	Negation Arg1:T42 Arg2:T47	
+R7	Negation Arg1:T42 Arg2:T24	
+T44	Quantifier_or_Qualifier 1102 1115	concomitantes
+A14	Assertion T44 Negated
+#39	AnnotatorNotes T44	C0521115; Simultaneous; Temporal Concept
+R8	Negation Arg1:T42 Arg2:T44	
+R9	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T44	
+T45	DISO 1020 1032	QTc alargado
+A15	Assertion T45 Negated
+#40	AnnotatorNotes T45	C1560305; Prolonged QTc interval; Pathologic Function
+T48	CONC 1038 1042	ECOG
+A16	Assertion T48 Negated
+#41	AnnotatorNotes T48	C1520224; ECOG performance status; Intellectual Product
+R10	Negation Arg1:T42 Arg2:T48	
+T49	Result_or_Value 1043 1045	>2
+A17	Assertion T49 Negated
+R11	Negation Arg1:T42 Arg2:T49	
+T50	PROC 57 79	niveles de posaconazol
+#42	AnnotatorNotes T50	C5225195; posaconazole level; Laboratory Procedure 
+R12	Location_of Arg1:T2 Arg2:T50	
+R13	Has_Drug_Form Arg1:T3 Arg2:T28	
+R14	Before Arg1:T3 Arg2:T50	
+R15	Has_Drug_Form Arg1:T3 Arg2:T29	
+R16	Experiences Arg1:T30 Arg2:T50	
+R17	Experiences Arg1:T30 Arg2:T4	
+R18	Experiences Arg1:T30 Arg2:T3	
+R20	Speculation Arg1:T31 Arg2:T5	
+R21	Causes Arg1:T46 Arg2:T5	
+T51	Observation 197 211	alto riesgo de
+#43	AnnotatorNotes T51	C0332167; High risk of; Finding
+R22	Before Arg1:T51 Arg2:T5	
+R19	Overlap Arg1:T4 Arg2:T51	
+T52	Observation 438 455	riesgo elevado de
+#44	AnnotatorNotes T52	C0332167; High risk of; Finding
+R23	Before Arg1:T52 Arg2:T9	
+R24	Speculation Arg1:T38 Arg2:T9	
+R25	Location_of Arg1:T7 Arg2:T6	
+R27	Experiences Arg1:T30 Arg2:T51	
+R28	Has_Route_or_Mode Arg1:T8 Arg2:T33	
+R30	Has_Drug_Form Arg1:T8 Arg2:T34	
+R31	Has_Route_or_Mode Arg1:T8 Arg2:T35	
+R32	Has_Drug_Form Arg1:T8 Arg2:T36	
+R33	Experiences Arg1:T37 Arg2:T6	
+R34	Experiences Arg1:T37 Arg2:T8	
+R35	Experiences Arg1:T37 Arg2:T52	
+R36	Experiences Arg1:T37 Arg2:T32	
+R37	Causes Arg1:T39 Arg2:T10	
+#45	AnnotatorNotes T10	C0026946; Mycoses; Disease or Syndrome (?)
+R38	Used_for Arg1:T25 Arg2:T12	
+R39	Experiences Arg1:T40 Arg2:T12	
+R40	Experiences Arg1:T40 Arg2:T14	
+R41	Causes Arg1:T14 Arg2:T13	
+T53	Quantifier_or_Qualifier 698 703	grave
+#46	AnnotatorNotes T53	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R42	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T53	
+R43	Experiences Arg1:T40 Arg2:T15	
+R44	Location_of Arg1:T16 Arg2:T15	
+R45	Experiences Arg1:T40 Arg2:T17	
+R46	Before Arg1:T17 Arg2:T13	
+R47	Before Arg1:T15 Arg2:T13	
+T54	Quantifier_or_Qualifier 704 714	prolongada
+#47	AnnotatorNotes T54	C0439590; Prolonged; Temporal Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T54	
+R49	Experiences Arg1:T41 Arg2:T20	
+R50	Experiences Arg1:T43 Arg2:T18	
+R51	Experiences Arg1:T43 Arg2:T19	
+R52	Experiences Arg1:T43 Arg2:T20	
+R53	Experiences Arg1:T43 Arg2:T21	
+R54	Location_of Arg1:T22 Arg2:T21	
+R55	Location_of Arg1:T23 Arg2:T21	
+R56	Experiences Arg1:T43 Arg2:T45	
+R57	Has_Result_or_Value Arg1:T48 Arg2:T49	
+R58	Experiences Arg1:T43 Arg2:T24	
+R59	Experiences Arg1:T30 Arg2:T5	
+R60	Experiences Arg1:T37 Arg2:T9	
+A18	Experiencer T30 Patient
+A19	Experiencer T37 Patient
+A20	Experiencer T40 Patient
+A21	Experiencer T43 Patient
+A22	Experiencer T41 Patient
+A23	Experiencer T47 Patient

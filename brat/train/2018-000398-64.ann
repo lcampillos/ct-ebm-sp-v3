@@ -1,0 +1,129 @@
+T1	PROC 61 64	PET
+#1	AnnotatorNotes T1	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T2	CHEM 104 122	68Ga-DOTA-péptidos
+#2	AnnotatorNotes T2	C5198083; 68Ga-DOTA-Peptide; Amino Acid, Peptide, or Protein · Indicator, Reagent, or Diagnostic Aid
+T3	DISO 130 153	tumores neuroendocrinos
+#3	AnnotatorNotes T3	C0206754; Neuroendocrine Tumors; Neoplastic Process
+T4	PROC 250 253	PET
+#4	AnnotatorNotes T4	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T5	CHEM 268 286	68Ga-DOTA-péptidos
+#5	AnnotatorNotes T5	C5198083; 68Ga-DOTA-Peptide; Amino Acid, Peptide, or Protein · Indicator, Reagent, or Diagnostic Aid
+T6	DISO 294 317	tumores neuroendocrinos
+#6	AnnotatorNotes T6	C0206754; Neuroendocrine Tumors; Neoplastic Process
+T7	DISO 351 399	Tumores neuroendocrinos gastroenteropancreáticos
+#7	AnnotatorNotes T7	C2930967; Gastro-enteropancreatic neuroendocrine tumor; Neoplastic Process
+T8	CHEM 258 265	18F-FDG
+#8	AnnotatorNotes T8	C0046056; Fluorodeoxyglucose F18; Indicator, Reagent, or Diagnostic Aid · Organic Chemical
+T9	DISO 482 498	NET metastáticos
+T10	ANAT 549 560	pancreático
+#9	AnnotatorNotes T10	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T11	ANAT 605 616	pancreático
+#10	AnnotatorNotes T11	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T12	PROC 990 1011	tratamiento sistémico
+T13	CHEM 1016 1029	radiofármacos
+#11	AnnotatorNotes T13	C1644726; radiopharmaceutical agent; Indicator, Reagent, or Diagnostic Aid
+T14	DISO 1046 1071	Enfermedad de alto riesgo
+T15	ANAT 1073 1087	cardiovascular
+#12	AnnotatorNotes T15	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T16	ANAT 1089 1097	pulmonar
+#13	AnnotatorNotes T16	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T17	DISO 1105 1124	Hepatopatía crónica
+#14	AnnotatorNotes T17	C0341439; Chronic liver disease; Disease or Syndrome
+T18	PROC 66 84	prueba radiológica
+T19	ANAT 138 153	neuroendocrinos
+#15	AnnotatorNotes T19	C0027912; Neurosecretory Systems; Body System
+T20	ANAT 302 317	neuroendocrinos
+#16	AnnotatorNotes T20	C0027912; Neurosecretory Systems; Body System
+T21	ANAT 359 374	neuroendocrinos
+#17	AnnotatorNotes T21	C0027912; Neurosecretory Systems; Body System
+T22	DISO 808 827	NETs con metástasis
+T23	CHEM 90 97	18F-FDG
+#18	AnnotatorNotes T23	C0046056; Fluorodeoxyglucose F18; Indicator, Reagent, or Diagnostic Aid · Organic Chemical
+T24	DISO 739 743	NETs
+T25	ANAT 375 399	gastroenteropancreáticos
+T26	PROC 710 734	consentimiento informado
+#19	AnnotatorNotes T26	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T27	DISO 891 895	NETs
+T28	Date 13 17	2018
+T30	LIVB 468 477	pacientes
+#20	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 516 525	pacientes
+#21	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 566 575	pacientes
+#22	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 655 664	Pacientes
+#23	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Age 665 674	> 18 años
+T35	LIVB 679 688	Pacientes
+#24	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Duration 850 860	> 12 meses
+T37	LIVB 955 964	Pacientes
+#25	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	PHYS 1034 1042	Embarazo
+#26	AnnotatorNotes T38	C0032961; Pregnancy; Organism Function
+T40	Duration 1117 1124	crónica
+#27	AnnotatorNotes T40	C0205191; chronic; Temporal Concept
+T41	LIVB 429 450	población del estudio
+#28	AnnotatorNotes T41	C2348561; Study Population (group); Population Group
+A1	Status T12 History_of
+A2	Status T13 History_of
+#29	AnnotatorNotes T18	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+#30	AnnotatorNotes T24	C0206754; Neuroendocrine Tumors; Neoplastic Process
+#31	AnnotatorNotes T27	C0206754; Neuroendocrine Tumors; Neoplastic Process
+T29	CONC 832 849	Esperanza de vida
+#32	AnnotatorNotes T29	C0023671; Life Expectancy; Group Attribute
+R1	Has_Duration_or_Interval Arg1:T29 Arg2:T36	
+T39	Quantifier_or_Qualifier 899 906	Grado 3
+R2	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T39	
+R3	Used_for Arg1:T13 Arg2:T12	
+R4	Experiences Arg1:T37 Arg2:T12	
+R5	Location_of Arg1:T15 Arg2:T14	
+R6	Location_of Arg1:T16 Arg2:T14	
+R7	Has_Duration_or_Interval Arg1:T17 Arg2:T40	
+R8	Used_for Arg1:T23 Arg2:T1	
+R9	Used_for Arg1:T2 Arg2:T1	
+R10	Used_for Arg1:T23 Arg2:T18	
+R11	Used_for Arg1:T2 Arg2:T18	
+R12	Location_of Arg1:T19 Arg2:T3	
+T42	Quantifier_or_Qualifier 154 163	avanzados
+#33	AnnotatorNotes T42	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T42	
+T43	Quantifier_or_Qualifier 318 327	avanzados
+#34	AnnotatorNotes T43	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R16	Location_of Arg1:T20 Arg2:T6	
+R17	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T43	
+R18	Used_for Arg1:T8 Arg2:T4	
+R19	Used_for Arg1:T5 Arg2:T4	
+R21	Location_of Arg1:T21 Arg2:T7	
+R22	Experiences Arg1:T30 Arg2:T9	
+R23	Experiences Arg1:T41 Arg2:T9	
+#35	AnnotatorNotes T9	C4744856; Metastatic Neuroendocrine Neoplasm; Neoplastic Process
+T44	Quantifier_or_Qualifier 530 538	primario
+#36	AnnotatorNotes T44	C0205225; Primary; Qualitative Concept
+T45	Observation 542 548	origen
+#37	AnnotatorNotes T45	C0475447; Site of primary tumor; Finding
+R24	Location_of Arg1:T10 Arg2:T45	
+R25	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T44	
+R26	Experiences Arg1:T31 Arg2:T45	
+T46	Observation 592 598	origen
+#38	AnnotatorNotes T46	C0475447; Site of primary tumor; Finding
+R27	Experiences Arg1:T32 Arg2:T46	
+T47	Quantifier_or_Qualifier 580 588	primario
+#39	AnnotatorNotes T47	C0205225; Primary; Qualitative Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T47	
+T48	Quantifier_or_Qualifier 599 616	extra-pancreático
+R29	Location_of Arg1:T48 Arg2:T46	
+R30	Has_Age Arg1:T33 Arg2:T34	
+T49	Quantifier_or_Qualifier 747 759	Grados 1 y 2
+R31	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T49	
+#40	AnnotatorNotes T22	C4744856; Metastatic Neuroendocrine Neoplasm; Neoplastic Process
+#41	AnnotatorNotes T12	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+#42	AnnotatorNotes T39	C0443323; Third degree; Qualitative Concept
+#43	AnnotatorNotes T49	C0441803; Grade 1/2; Intellectual Product
+A3	Experiencer T37 Patient
+A4	Experiencer T41 Patient
+A5	Experiencer T30 Patient
+A6	Experiencer T32 Patient
+A7	Experiencer T33 Patient
+A8	Experiencer T35 Patient
+A9	Experiencer T31 Patient

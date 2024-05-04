@@ -1,0 +1,354 @@
+T1	PROC 46 85	Estudio para la eficacia y la seguridad
+T2	DISO 128 169	hipercolesterolemia familiar homocigótica
+T3	CHEM 263 273	alirocumab
+#1	AnnotatorNotes T3	C3491162; alirocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	PROC 192 219	Estudio sin enmascaramiento
+T5	PROC 225 259	evaluar la eficacia y la seguridad
+#2	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T6	DISO 302 343	hipercolesterolemia familiar homocigótica
+T7	PROC 540 548	tratados
+#3	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 367 408	Hipercolesterolemia familiar homocigótica
+T9	DISO 521 525	HFho
+T10	PROC 447 475	diagnosticados genéticamente
+#4	AnnotatorNotes T10	C0596612; genetic disorder diagnosis; Diagnostic Procedure
+T11	DISO 480 519	hipercolesterolemia familiar homocigota
+#5	AnnotatorNotes T11	C0342881; Homozygous Familial Hypercholesterolemia; Disease or Syndrome
+T12	CHEM 570 579	estatinas
+#6	AnnotatorNotes T12	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T13	PROC 590 623	terapias modificadoras de lípidos
+T14	CHEM 616 623	lípidos
+#7	AnnotatorNotes T14	C0023779; Lipids; Organic Chemical
+T15	CHEM 640 649	estatinas
+#8	AnnotatorNotes T15	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T16	CHEM 664 673	estatinas
+#9	AnnotatorNotes T16	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T17	CHEM 743 750	lípidos
+#10	AnnotatorNotes T17	C0023779; Lipids; Organic Chemical
+T18	PROC 769 793	consentimiento informado
+#11	AnnotatorNotes T18	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T19	PROC 899 907	aféresis
+#12	AnnotatorNotes T19	C2599009; LDL apheresis procedure; Therapeutic or Preventive Procedure | C0949035; Low density lipoprotein apheresis; Therapeutic or Preventive Procedure
+T20	PROC 919 949	tratamiento de aféresis de LDL
+T21	PROC 632 635	TML
+#13	AnnotatorNotes T21	C0585943; Lipid-lowering therapy; Therapeutic or Preventive Procedure (?) [lipid modifying therapy]
+T22	CHEM 1124 1129	C-LDL
+#14	AnnotatorNotes T22	C0023824; LDL Cholesterol Lipoproteins; Biologically Active Substance · Organic Chemical
+T23	PROC 1251 1262	tratamiento
+#15	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	PROC 1285 1288	TML
+#16	AnnotatorNotes T24	C0585943; Lipid-lowering therapy; Therapeutic or Preventive Procedure (?) [lipid modifying therapy]
+T25	CHEM 1324 1333	estatinas
+#17	AnnotatorNotes T25	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T26	CHEM 1365 1374	estatinas
+#18	AnnotatorNotes T26	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T27	CHEM 1420 1429	estatinas
+#19	AnnotatorNotes T27	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T28	DISO 1659 1687	diabetes mellitus tipo 1 o 2
+T29	PROC 1342 1345	TML
+#20	AnnotatorNotes T29	C0585943; Lipid-lowering therapy; Therapeutic or Preventive Procedure (?) [lipid modifying therapy]
+T30	DISO 1719 1738	enfermedad tiroidea
+#21	AnnotatorNotes T30	C0040128; Thyroid Diseases; Disease or Syndrome
+T31	DISO 1779 1791	hipertensión
+#22	AnnotatorNotes T31	C0020538; Hypertensive disease; Disease or Syndrome
+T32	PROC 1357 1360	TML
+#23	AnnotatorNotes T32	C0585943; Lipid-lowering therapy; Therapeutic or Preventive Procedure (?) [lipid modifying therapy]
+T33	CHEM 1809 1822	Triglicéridos
+#24	AnnotatorNotes T33	C0041004; Triglycerides; Biologically Active Substance · Organic Chemical
+T34	PROC 2110 2131	Creatina fosfoquinasa
+#25	AnnotatorNotes T34	C0201973; Creatine kinase measurement; Laboratory Procedure
+T35	DISO 1860 1879	Insuficiencia renal
+#26	AnnotatorNotes T35	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T36	PROC 1897 1935	tasa de filtración glomerular estimada
+#27	AnnotatorNotes T36	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T37	PROC 1937 1941	eGFR
+#28	AnnotatorNotes T37	C0C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T38	PROC 730 750	analítica de lípidos
+T39	PROC 2024 2027	ALT
+#29	AnnotatorNotes T39	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T40	PROC 2031 2057	aspartato aminotransferasa
+#30	AnnotatorNotes T40	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T41	PROC 2133 2136	CPK
+#31	AnnotatorNotes T41	C0201973; Creatine kinase measurement; Laboratory Procedure
+T42	CHEM 89 99	alirocumab
+#32	AnnotatorNotes T42	C3491162; alirocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T43	PROC 1274 1282	aféresis
+#33	AnnotatorNotes T43	C2599009; LDL apheresis procedure; Therapeutic or Preventive Procedure | C0949035; Low density lipoprotein apheresis; Therapeutic or Preventive Procedure
+T44	CHEM 946 949	LDL
+#34	AnnotatorNotes T44	C0023823; Low-Density Lipoproteins; Biologically Active Substance · Organic Chemical
+T45	PROC 1113 1129	niveles de C-LDL
+T46	PROC 625 628	TML
+#35	AnnotatorNotes T46	C0585943; Lipid-lowering therapy; Therapeutic or Preventive Procedure (?) [lipid modifying therapy]
+T47	ANAT 1483 1491	corporal
+#36	AnnotatorNotes T47	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T48	DISO 1401 1413	intolerantes
+#37	AnnotatorNotes T48	C0277585; Intolerance to drug; Pathologic Function
+T49	ANAT 1730 1738	tiroidea
+#38	AnnotatorNotes T49	C0040132; Thyroid Gland; Body Part, Organ, or Organ Component | C1278878; Entire thyroid gland; Body Part, Organ, or Organ Component
+T50	PROC 1809 1832	Triglicéridos en ayunas
+#39	AnnotatorNotes T50	C3835804; serum or plasma triglycerides fasting; Therapeutic or Preventive Procedure
+T51	ANAT 1874 1879	renal
+#40	AnnotatorNotes T51	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T52	PROC 1998 2022	Alanina aminotransferasa
+#41	AnnotatorNotes T52	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T53	PROC 2059 2062	AST
+#42	AnnotatorNotes T53	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T54	Date 13 17	2017
+T55	LIVB 103 108	niños
+#43	AnnotatorNotes T55	C0008059; Child; Age Group
+T57	LIVB 277 282	niños
+#44	AnnotatorNotes T57	C0008059; Child; Age Group
+T58	LIVB 437 446	Pacientes
+#45	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 530 539	Pacientes
+#46	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	Neg_cue 636 639	sin
+T62	DISO 653 663	no toleran
+#47	AnnotatorNotes T62	C0277585; Intolerance to drug; Pathologic Function
+T63	Dose 676 690	dosis estables
+T64	Duration 699 717	al menos 4 semanas
+T65	LIVB 831 837	padres
+#48	AnnotatorNotes T65	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T67	LIVB 865 873	paciente
+#49	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	LIVB 886 895	pacientes
+#50	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	Date 912 918	actual
+T70	Date 950 958	en curso
+T71	Duration 978 996	al menos 4 semanas
+T72	Duration 1048 1064	al menos 6 meses
+T73	LIVB 1099 1108	Pacientes
+#51	AnnotatorNotes T73	C0030705; Patients; Patient or Disabled Group
+T76	LIVB 1227 1235	paciente
+#52	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T77	Neg_cue 1361 1364	sin
+T78	LIVB 1391 1400	pacientes
+#53	AnnotatorNotes T78	C0030705; Patients; Patient or Disabled Group
+T79	Duration 1439 1457	al menos 4 semanas
+T80	LIVB 1461 1470	Pacientes
+#54	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T81	LIVB 1511 1520	Pacientes
+#55	AnnotatorNotes T81	C0030705; Patients; Patient or Disabled Group
+T82	Age 1521 1534	de 8 a 9 años
+T83	Neg_cue 1535 1537	no
+T84	LIVB 1563 1572	pacientes
+#56	AnnotatorNotes T84	C0030705; Patients; Patient or Disabled Group
+T85	Age 1573 1588	de 10 a 17 años
+T86	LIVB 1645 1654	Pacientes
+#57	AnnotatorNotes T86	C0030705; Patients; Patient or Disabled Group
+T88	LIVB 1705 1714	Pacientes
+#58	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group
+T89	LIVB 1765 1774	Pacientes
+#59	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T95	LIVB 111 123	adolescentes
+#60	AnnotatorNotes T95	C0205653; Adolescent (age group); Age Group
+T98	LIVB 285 297	adolescentes
+#61	AnnotatorNotes T98	C0205653; Adolescent (age group); Age Group
+T56	PROC 1478 1491	peso corporal
+#62	AnnotatorNotes T56	C2985231; Body Weight Measurement; Diagnostic Procedure
+T66	PROC 1554 1560	Tanner
+#63	AnnotatorNotes T66	C0431029; Tanner bone age assessment; Diagnostic Procedure
+T74	PROC 1618 1624	Tanner
+#64	AnnotatorNotes T74	C0431029; Tanner bone age assessment; Diagnostic Procedure
+T75	PHYS 1905 1926	filtración glomerular
+#65	AnnotatorNotes T75	C0232809; Glomerular filtration; Organ or Tissue Function
+T61	ANAT 1916 1926	glomerular
+#66	AnnotatorNotes T61	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T87	PROC 1976 1995	visita de selección
+#67	AnnotatorNotes T87	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T90	PROC 1009 1028	visita de selección
+#68	AnnotatorNotes T90	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A1	Population_data T55 Age
+A2	Population_data T95 Age
+A3	Population_data T98 Age
+A4	Population_data T57 Age
+A5	Assertion T15 Negated
+A7	Assertion T26 Negated
+A6	Status T30 History_of
+#69	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#70	AnnotatorNotes T4	C1709323; Open Label Study; Research Activity 
+#71	AnnotatorNotes T9	C0342881; Homozygous Familial Hypercholesterolemia; Disease or Syndrome
+#72	AnnotatorNotes T6	C0342881; Homozygous Familial Hypercholesterolemia; Disease or Syndrome
+#73	AnnotatorNotes T2	C0342881; Homozygous Familial Hypercholesterolemia; Disease or Syndrome
+#74	AnnotatorNotes T8	C0342881; Homozygous Familial Hypercholesterolemia; Disease or Syndrome
+#75	AnnotatorNotes T28	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome + C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+#76	AnnotatorNotes T13	C0585943; Lipid-lowering therapy; Therapeutic or Preventive Procedure (?) [lipid modifying therapy]
+#77	AnnotatorNotes T38	C0851512; Lipid analyses; Laboratory Procedure 
+#78	AnnotatorNotes T69	C0521116; Current (present time); Temporal Concept 
+#79	AnnotatorNotes T20	C2599009; LDL apheresis procedure; Therapeutic or Preventive Procedure | C0949035; Low density lipoprotein apheresis; Therapeutic or Preventive Procedure
+#80	AnnotatorNotes T45	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+T91	Observation 848 860	asentimiento
+A8	Assertion T91 Negated
+#81	AnnotatorNotes T91	C1302239; Patient consented to clinical trial; Finding
+T92	Neg_cue 844 847	sin
+T94	Observation 656 663	toleran
+T96	Neg_cue 1792 1794	no
+T97	Neg_cue 1688 1690	no
+T99	Quantifier_or_Qualifier 1691 1701	controlada
+A10	Assertion T99 Negated
+T100	Quantifier_or_Qualifier 1795 1805	controlada
+A11	Assertion T100 Negated
+T101	Result_or_Value 1541 1550	estadío 1
+A12	Assertion T101 Negated
+R1	Negation Arg1:T97 Arg2:T99	
+R2	Negation Arg1:T83 Arg2:T101	
+R3	Negation Arg1:T60 Arg2:T15	
+R5	Negation Arg1:T92 Arg2:T91	
+R6	Negation Arg1:T77 Arg2:T26	
+R7	Negation Arg1:T96 Arg2:T100	
+R4	Experiences Arg1:T55 Arg2:T42	
+R8	Experiences Arg1:T95 Arg2:T42	
+R9	Experiences Arg1:T55 Arg2:T2	
+R10	Experiences Arg1:T95 Arg2:T2	
+R11	Experiences Arg1:T57 Arg2:T3	
+R12	Experiences Arg1:T98 Arg2:T3	
+R13	Experiences Arg1:T57 Arg2:T6	
+R14	Experiences Arg1:T98 Arg2:T6	
+R15	Experiences Arg1:T58 Arg2:T11	
+R16	Experiences Arg1:T58 Arg2:T9	
+R17	Experiences Arg1:T59 Arg2:T7	
+R18	Used_for Arg1:T12 Arg2:T7	
+R19	Experiences Arg1:T59 Arg2:T13	
+R20	Experiences Arg1:T59 Arg2:T46	
+R21	Experiences Arg1:T59 Arg2:T21	
+R23	Combined_with Arg1:T12 Arg2:T13	
+R24	Combined_with Arg1:T12 Arg2:T46	
+T93	Neg_cue 653 655	no
+A9	Assertion T94 Negated
+R25	Negation Arg1:T93 Arg2:T94	
+R26	Experiences Arg1:T59 Arg2:T62	
+R28	Overlap Arg1:T94 Arg2:T16	
+R29	Causes Arg1:T16 Arg2:T62	
+R31	Experiences Arg1:T59 Arg2:T38	
+R32	Has_Dose_or_Strength Arg1:T16 Arg2:T63	
+R33	Has_Duration_or_Interval Arg1:T16 Arg2:T64	
+R34	Before Arg1:T16 Arg2:T38	
+T102	PROC 754 763	selección
+#82	AnnotatorNotes T102	C0242802; Patient Selection; Research Activity
+R35	Overlap Arg1:T38 Arg2:T102	
+R36	Before Arg1:T16 Arg2:T102	
+R37	Overlap Arg1:T15 Arg2:T62	
+R39	Experiences Arg1:T68 Arg2:T19	
+R40	Experiences Arg1:T68 Arg2:T20	
+R41	Overlap Arg1:T20 Arg2:T69	
+R42	Overlap Arg1:T20 Arg2:T70	
+R43	Before Arg1:T20 Arg2:T90	
+T103	Quantifier_or_Qualifier 970 977	estable
+#83	AnnotatorNotes T103	C0205360; Stable status; Qualitative Concept
+R44	Has_Duration_or_Interval Arg1:T103 Arg2:T71	
+R45	Before Arg1:T103 Arg2:T90	
+R46	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T103	
+R47	Has_Duration_or_Interval Arg1:T20 Arg2:T72	
+R48	Before Arg1:T19 Arg2:T90	
+R49	Experiences Arg1:T73 Arg2:T45	
+T104	Result_or_Value 1130 1166	inferiores a 130 mg/dl (3,37 mmol/l)
+R50	Has_Result_or_Value Arg1:T45 Arg2:T104	
+T105	PROC 1199 1208	selección
+#84	AnnotatorNotes T105	C0242802; Patient Selection; Research Activity
+R51	Overlap Arg1:T45 Arg2:T105	
+R52	After Arg1:T45 Arg2:T23	
+T106	Quantifier_or_Qualifier 1263 1270	estable
+#85	AnnotatorNotes T106	C0205360; Stable status; Qualitative Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T106	
+R54	Experiences Arg1:T73 Arg2:T23	
+T107	Quantifier_or_Qualifier 1375 1383	estables
+#86	AnnotatorNotes T107	C0205360; Stable status; Qualitative Concept
+A13	Assertion T107 Negated
+R55	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T107	
+R56	Negation Arg1:T77 Arg2:T107	
+R57	Experiences Arg1:T73 Arg2:T43	
+R58	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T106	
+R59	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T106	
+R60	Experiences Arg1:T73 Arg2:T24	
+R61	Used_for Arg1:T25 Arg2:T24	
+R62	Combined_with Arg1:T25 Arg2:T29	
+R63	Experiences Arg1:T73 Arg2:T32	
+R65	Causes Arg1:T27 Arg2:T48	
+R66	Experiences Arg1:T78 Arg2:T48	
+R67	Has_Duration_or_Interval Arg1:T26 Arg2:T79	
+R68	Has_Duration_or_Interval Arg1:T32 Arg2:T79	
+R69	Has_Duration_or_Interval Arg1:T29 Arg2:T79	
+R70	Has_Duration_or_Interval Arg1:T25 Arg2:T79	
+R71	Has_Duration_or_Interval Arg1:T43 Arg2:T79	
+R72	Experiences Arg1:T78 Arg2:T32	
+R73	Experiences Arg1:T78 Arg2:T26	
+R74	Experiences Arg1:T80 Arg2:T56	
+R75	Location_of Arg1:T47 Arg2:T56	
+T108	Result_or_Value 1492 1508	inferior a 25 kg
+R76	Has_Result_or_Value Arg1:T56 Arg2:T108	
+R77	Has_Age Arg1:T81 Arg2:T82	
+R78	Has_Result_or_Value Arg1:T66 Arg2:T101	
+R79	Experiences Arg1:T81 Arg2:T66	
+R80	Has_Age Arg1:T84 Arg2:T85	
+T109	Result_or_Value 1595 1614	mínimo en estadío 2
+R81	Has_Result_or_Value Arg1:T74 Arg2:T109	
+R82	Experiences Arg1:T84 Arg2:T74	
+R83	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T99	
+R84	Experiences Arg1:T86 Arg2:T28	
+R85	Experiences Arg1:T88 Arg2:T30	
+R86	Location_of Arg1:T49 Arg2:T30	
+T110	Quantifier_or_Qualifier 1739 1752	descontrolada
+A14	Status T110 History_of
+#87	AnnotatorNotes T110	C0205318; Uncontrolled; Qualitative Concept
+R87	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T110	
+R88	Experiences Arg1:T89 Arg2:T31	
+R89	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T100	
+T111	Result_or_Value 1833 1857	>350 mg/dl (3,95 mmol/l)
+R90	Has_Result_or_Value Arg1:T50 Arg2:T111	
+T112	Observation 1823 1832	en ayunas
+#88	AnnotatorNotes T112	C0015663; Fasting; Finding
+R91	Overlap Arg1:T50 Arg2:T112	
+R92	Location_of Arg1:T51 Arg2:T35	
+T113	Quantifier_or_Qualifier 1880 1885	grave
+#89	AnnotatorNotes T113	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R93	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T113	
+R95	Location_of Arg1:T61 Arg2:T75	
+R96	Location_of Arg1:T61 Arg2:T36	
+R97	Location_of Arg1:T61 Arg2:T37	
+T114	Result_or_Value 1943 1968	<30 ml / min / 1.73 m ^ 2
+R100	Has_Result_or_Value Arg1:T36 Arg2:T114	
+R101	Has_Result_or_Value Arg1:T37 Arg2:T114	
+T115	Result_or_Value 2064 2107	>2 x límite superior de la normalidad (LSN)
+R106	Has_Result_or_Value Arg1:T53 Arg2:T115	
+R107	Has_Result_or_Value Arg1:T40 Arg2:T115	
+R108	Has_Result_or_Value Arg1:T52 Arg2:T115	
+R109	Has_Result_or_Value Arg1:T39 Arg2:T115	
+T116	Result_or_Value 2138 2146	>3 x LSN
+R110	Has_Result_or_Value Arg1:T34 Arg2:T116	
+R111	Has_Result_or_Value Arg1:T41 Arg2:T116	
+R112	Experiences Arg1:T59 Arg2:T15	
+R27	Experiences Arg1:T59 Arg2:T94	
+T117	Quantifier_or_Qualifier 1313 1320	estable
+#90	AnnotatorNotes T117	C0205360; Stable status; Qualitative Concept
+T118	CONC 1300 1305	dosis
+#91	AnnotatorNotes T118	C0178602; Dosage; Quantitative Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T118 Arg2:T117	
+R113	Used_for Arg1:T118 Arg2:T25	
+T119	Quantifier_or_Qualifier 1346 1354	estables
+#92	AnnotatorNotes T119	C0205360; Stable status; Qualitative Concept
+R114	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T119	
+R22	Overlap Arg1:T37 Arg2:T87	
+R38	Overlap Arg1:T36 Arg2:T87	
+#93	AnnotatorNotes T70	C0521116; Current (present time); Temporal Concept
+A15	Experiencer T55 Patient
+A16	Experiencer T95 Patient
+A17	Experiencer T57 Patient
+A18	Experiencer T98 Patient
+A19	Experiencer T58 Patient
+A20	Experiencer T59 Patient
+A21	Assertion T62 Hypothetical
+A22	Assertion T16 Hypothetical
+A23	Assertion T63 Hypothetical
+A24	Assertion T64 Hypothetical
+A25	Experiencer T65 Patient
+A26	Experiencer T67 Patient
+A27	Experiencer T68 Patient
+A28	Experiencer T73 Patient
+A29	Experiencer T76 Patient
+A30	Experiencer T78 Patient
+A31	Experiencer T80 Patient
+A32	Experiencer T81 Patient
+A33	Experiencer T84 Patient
+A34	Experiencer T86 Patient
+A35	Experiencer T88 Patient
+A36	Experiencer T89 Patient

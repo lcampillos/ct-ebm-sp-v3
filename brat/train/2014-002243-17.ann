@@ -1,0 +1,244 @@
+T1	PROC 46 65	Sedación consciente
+#1	AnnotatorNotes T1	C0079159; Conscious Sedation; Therapeutic or Preventive Procedure
+T2	CHEM 161 176	dexmedetomidina
+#2	AnnotatorNotes T2	C0113293; dexmedetomidine; Organic Chemical · Pharmacologic Substance
+T3	PROC 387 396	protocolo
+#3	AnnotatorNotes T3	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T4	PROC 306 330	consentimiento informado
+#4	AnnotatorNotes T4	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T5	PROC 535 549	ensayo clínico
+#5	AnnotatorNotes T5	C0008976; Clinical Trials; Research Activity
+T6	PROC 679 695	test de embarazo
+#6	AnnotatorNotes T6	C0032976; Pregnancy Tests; Diagnostic Procedure
+T7	PROC 806 820	procedimientos
+#7	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T8	PROC 868 878	extracción
+#8	AnnotatorNotes T8	C0185115; Extraction; Therapeutic or Preventive Procedure
+T9	ANAT 893 901	cordales
+#9	AnnotatorNotes T9	C4323466; Region of vocal fold; Body Location or Region
+T10	PROC 948 965	estimulación ósea
+T11	DISO 1139 1156	hipersensibilidad
+#10	AnnotatorNotes T11	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T12	PHYS 647 657	menopausia
+#11	AnnotatorNotes T12	C0025320; Menopause; Physiologic Function
+T13	DISO 1282 1285	HTA
+#12	AnnotatorNotes T13	C0020538; Hypertensive disease; Disease or Syndrome
+T14	ANAT 1601 1609	arterial
+#13	AnnotatorNotes T14	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T15	CHEM 1301 1309	fármacos
+#14	AnnotatorNotes T15	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T16	CHEM 1342 1357	betabloqueantes
+#15	AnnotatorNotes T16	C0001645; Adrenergic beta-Antagonists; Pharmacologic Substance
+T17	DISO 1371 1385	sintomatología
+#16	AnnotatorNotes T17	C3540840; Sign or Symptom; Finding
+T18	DISO 1434 1462	signo de bajo gasto cardiaco
+T19	DISO 1540 1556	Bloqueo cardíaco
+#17	AnnotatorNotes T19	C0018794; Heart Block; Disease or Syndrome
+T20	PROC 1593 1615	Presión arterial media
+#18	AnnotatorNotes T20	C0684223; Taking arterial blood pressure; Diagnostic Procedure (?)
+T21	DISO 1642 1668	enfermedad cerebrovascular
+#19	AnnotatorNotes T21	C0007820; Cerebrovascular Disorders; Disease or Syndrome
+T22	PROC 71 85	procedimientos
+#20	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T23	CHEM 178 184	Dexdor
+T24	PROC 768 776	sedación
+#21	AnnotatorNotes T24	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T25	PROC 904 936	colocación de implantes dentales
+T26	ANAT 928 936	dentales
+#22	AnnotatorNotes T26	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T27	ANAT 961 965	ósea
+#23	AnnotatorNotes T27	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T28	DISO 1025 1042	proceso sistémico
+T29	CHEM 1159 1174	dexmedetomidina
+#24	AnnotatorNotes T29	C0113293; dexmedetomidine; Organic Chemical · Pharmacologic Substance
+T30	PROC 1179 1181	FC
+#25	AnnotatorNotes T30	C2197023; examination of heart rate; Health Care Activity
+T31	PROC 1325 1327	FC
+#26	AnnotatorNotes T31	C2197023; examination of heart rate; Health Care Activity
+T32	ANAT 1454 1462	cardiaco
+#27	AnnotatorNotes T32	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T33	PROC 1524 1526	FC
+#28	AnnotatorNotes T33	C2197023; examination of heart rate; Health Care Activity
+T34	ANAT 1548 1556	cardíaco
+#29	AnnotatorNotes T34	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T35	Date 13 17	2014
+T38	LIVB 437 445	paciente
+#30	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 467 479	investigador
+#31	AnnotatorNotes T39	C0035173; Research Personnel; Professional or Occupational Group
+T40	LIVB 557 565	paciente
+#32	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Age 579 593	más de 18 años
+T42	LIVB 610 632	mujeres en edad fértil
+#33	AnnotatorNotes T42	C4324275; Woman of childbearing potential; Population Group
+T43	Age 621 632	edad fértil
+T46	Neg_cue 701 710	descartar
+T48	PHYS 720 729	embarazos
+#34	AnnotatorNotes T48	C0032961; Pregnancy; Organism Function
+T50	LIVB 750 758	paciente
+#35	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T52	DEVI 918 936	implantes dentales
+#36	AnnotatorNotes T52	C0011373; Implantable dental prosthesis, device; Medical Device
+T53	Neg_cue 944 947	sin
+T54	LIVB 970 980	Individuos
+#37	AnnotatorNotes T54	C0027361; Persons; Population Group
+T55	LIVB 988 996	paciente
+#38	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 1009 1017	paciente
+#39	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T58	Frequency 1084 1091	diarias
+T60	LIVB 1209 1219	individuos
+#40	AnnotatorNotes T60	C0027361; Persons; Population Group
+T61	LIVB 1257 1275	individuos jóvenes
+#41	AnnotatorNotes T61	C0027361; Persons; Population Group + C0087178; Youth; Age Group
+T64	Neg_cue 1359 1370	sin ninguna
+T66	LIVB 1406 1415	individuo
+#42	AnnotatorNotes T66	C0027361; Persons; Population Group
+T68	Neg_cue 1427 1433	ningún
+T70	LIVB 1509 1519	individuos
+#43	AnnotatorNotes T70	C0027361; Persons; Population Group
+T72	Neg_cue 1574 1577	sin
+T73	DEVI 1578 1588	marcapasos
+#44	AnnotatorNotes T73	C0030163; Artificial cardiac pacemaker; Medical Device
+T74	LIVB 1629 1637	Paciente
+#45	AnnotatorNotes T74	C0030705; Patients; Patient or Disabled Group
+T75	LIVB 1679 1724	Paciente embarazada o en período de lactancia
+#46	AnnotatorNotes T75	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T76	PHYS 55 65	consciente
+#47	AnnotatorNotes T76	C0229994; Conscious mind; Mental Process | C0234421; Conscious; Mental Process
+T79	PHYS 687 695	embarazo
+#48	AnnotatorNotes T79	C0032961; Pregnancy; Organism Function
+T82	PHYS 1593 1609	Presión arterial
+#49	AnnotatorNotes T82	C0005823; Blood Pressure; Organism Function
+T83	PHYS 1688 1698	embarazada
+#50	AnnotatorNotes T83	C0032961; Pregnancy; Organism Function
+T36	Age 633 657	entre 18 y la menopausia
+T37	PHYS 1715 1724	lactancia
+#51	AnnotatorNotes T37	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T44	PROC 981 984	ASA
+#52	AnnotatorNotes T44	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Population_data T42 Age
+A2	Assertion T48 Negated
+A3	Assertion T10 Negated
+A4	Population_data T61 Age
+A5	Assertion T17 Negated
+A6	Assertion T18 Negated
+A7	Assertion T73 Negated
+A8	Status T11 History_of
+T45	Neg_cue 1048 1051	sin
+T47	Observation 1052 1083	limitaciones en las actividades
+#53	AnnotatorNotes T47	C1389592; limitation, limiting activities as result; Finding (?)
+T49	Quantifier_or_Qualifier 733 742	conocidos
+A9	Assertion T49 Negated
+#54	AnnotatorNotes T49	C0205309; Known; Qualitative Concept
+T51	Neg_cue 730 732	no
+A10	Assertion T47 Negated
+A11	Assertion T58 Negated
+R2	Before Arg1:T1 Arg2:T22	
+T57	Observation 283 292	Capacidad
+#55	AnnotatorNotes T57	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R3	Overlap Arg1:T57 Arg2:T4	
+T59	Observation 345 396	deseo de cumplir todos los requisitos del protocolo
+T62	Observation 485 530	capaz de cumplir con todos los requerimientos
+R4	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T62	
+R5	Has_Age Arg1:T40 Arg2:T41	
+R6	Has_Age Arg1:T42 Arg2:T43	
+R7	Has_Age Arg1:T42 Arg2:T36	
+R8	Experiences Arg1:T42 Arg2:T6	
+R9	Negation Arg1:T46 Arg2:T48	
+R10	Experiences Arg1:T42 Arg2:T48	
+R11	Experiences Arg1:T42 Arg2:T79	
+R12	Negation Arg1:T51 Arg2:T49	
+R13	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T49	
+R14	Experiences Arg1:T50 Arg2:T7	
+R15	Before Arg1:T24 Arg2:T7	
+T63	Quantifier_or_Qualifier 891 892	4
+R16	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T63	
+T65	Quantifier_or_Qualifier 879 887	compleja
+#56	AnnotatorNotes T65	C0439855; Complex; Qualitative Concept
+R17	Negation Arg1:T45 Arg2:T47	
+R18	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T65	
+R19	Location_of Arg1:T26 Arg2:T52	
+R20	Location_of Arg1:T26 Arg2:T25	
+R21	Has_Frequency Arg1:T47 Arg2:T58	
+R22	Experiences Arg1:T54 Arg2:T44	
+T67	Result_or_Value 985 986	I
+R23	Has_Result_or_Value Arg1:T44 Arg2:T67	
+T69	Result_or_Value 1005 1007	II
+R24	Has_Result_or_Value Arg1:T44 Arg2:T69	
+T71	Quantifier_or_Qualifier 997 1001	sano
+#57	AnnotatorNotes T71	C3898900; Healthy; Qualitative Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T71	
+R26	Experiences Arg1:T56 Arg2:T28	
+T77	Quantifier_or_Qualifier 1043 1047	leve
+#58	AnnotatorNotes T77	C2945599; Mild (qualifier value); Qualitative Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T77	
+R28	Causes Arg1:T29 Arg2:T11	
+T78	Result_or_Value 1182 1189	< 45lpm
+#59	AnnotatorNotes T25	C0011370; Dental Prosthesis Implantation; Therapeutic or Preventive Procedure | C2939119; Prosthetic dental implant; Therapeutic or Preventive Procedure
+R29	Used_for Arg1:T52 Arg2:T25	
+R30	Negation Arg1:T53 Arg2:T10	
+R31	Overlap Arg1:T25 Arg2:T10	
+R32	Has_Result_or_Value Arg1:T30 Arg2:T78	
+R33	Experiences Arg1:T61 Arg2:T13	
+R34	Experiences Arg1:T60 Arg2:T13	
+T80	Quantifier_or_Qualifier 1286 1296	controlada
+R35	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T80	
+R36	Experiences Arg1:T60 Arg2:T15	
+R37	Experiences Arg1:T61 Arg2:T15	
+T81	Result_or_Value 1328 1335	< 60lpm
+R38	Has_Result_or_Value Arg1:T31 Arg2:T81	
+R41	Negation Arg1:T64 Arg2:T17	
+R42	Experiences Arg1:T60 Arg2:T16	
+R43	Experiences Arg1:T60 Arg2:T17	
+R44	Experiences Arg1:T61 Arg2:T31	
+R45	Experiences Arg1:T60 Arg2:T31	
+R46	Experiences Arg1:T61 Arg2:T16	
+R47	Experiences Arg1:T61 Arg2:T17	
+R48	Experiences Arg1:T66 Arg2:T18	
+R49	Negation Arg1:T68 Arg2:T18	
+R50	Location_of Arg1:T32 Arg2:T18	
+R51	Experiences Arg1:T70 Arg2:T33	
+T85	Result_or_Value 1527 1534	> 45lpm
+R53	Has_Result_or_Value Arg1:T33 Arg2:T85	
+R52	Location_of Arg1:T34 Arg2:T19	
+T86	Quantifier_or_Qualifier 1560 1573	2º o 3º grado
+R54	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T86	
+R56	Negation Arg1:T72 Arg2:T73	
+R57	Location_of Arg1:T14 Arg2:T82	
+R58	Location_of Arg1:T14 Arg2:T20	
+T87	Result_or_Value 1616 1624	< 60mmHg
+R60	Has_Result_or_Value Arg1:T20 Arg2:T87	
+R61	Experiences Arg1:T74 Arg2:T21	
+R62	Experiences Arg1:T75 Arg2:T83	
+R63	Experiences Arg1:T75 Arg2:T37	
+T88	Quantifier_or_Qualifier 1669 1674	grave
+#61	AnnotatorNotes T88	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R64	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T88	
+R65	Overlap Arg1:T28 Arg2:T47	
+R66	Before Arg1:T24 Arg2:T8	
+R67	Experiences Arg1:T50 Arg2:T24	
+R68	Experiences Arg1:T50 Arg2:T8	
+R69	Experiences Arg1:T50 Arg2:T25	
+R70	Before Arg1:T24 Arg2:T25	
+R71	Experiences Arg1:T50 Arg2:T10	
+R72	Before Arg1:T24 Arg2:T10	
+#60	AnnotatorNotes T86	C0443298; Second degree; Qualitative Concept | C0443323; Third degree; Qualitative Concept
+R1	Experiences Arg1:T55 Arg2:T44	
+R39	Experiences Arg1:T56 Arg2:T44	
+R40	Overlap Arg1:T19 Arg2:T73	
+#62	AnnotatorNotes T62	C0582783; Ability to comply with treatment; Finding (?)
+A12	Experiencer T38 Patient
+A13	Experiencer T39 Other
+A14	Experiencer T40 Patient
+A15	Experiencer T42 Patient
+A16	Experiencer T50 Patient
+A17	Experiencer T54 Patient
+A18	Experiencer T55 Patient
+A19	Experiencer T56 Patient
+A20	Experiencer T60 Patient
+A21	Experiencer T61 Patient
+A22	Experiencer T66 Patient
+A23	Experiencer T70 Patient
+A24	Experiencer T74 Patient
+A25	Experiencer T75 Patient

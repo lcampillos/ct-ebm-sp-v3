@@ -1,0 +1,142 @@
+T1	DISO 652 654	PE
+#1	AnnotatorNotes T1	C0242656; Disease Progression; Pathologic Function
+T2	CHEM 115 124	nivolumab
+#2	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 131 140	nivolumab
+#3	AnnotatorNotes T3	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	CHEM 143 153	ipilimumab
+#4	AnnotatorNotes T4	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	DISO 169 200	carcinoma microcítico de pulmón
+T6	ANAT 194 200	pulmón
+#5	AnnotatorNotes T6	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T7	PROC 242 281	Estudio de fase I/II sobre la seguridad
+T8	CHEM 341 350	nivolumab
+#6	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	CHEM 353 362	nivolumab
+#7	AnnotatorNotes T9	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	CHEM 365 375	ipilimumab
+#8	AnnotatorNotes T10	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	DISO 391 422	carcinoma microcítico de pulmón
+T12	ANAT 416 422	pulmón
+#9	AnnotatorNotes T12	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T13	DISO 465 496	Carcinoma microcítico de pulmón
+T14	ANAT 490 496	pulmón
+#10	AnnotatorNotes T14	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T15	DISO 580 583	CMP
+T16	CHEM 951 972	pirrolobenzodiazepina
+T17	CHEM 714 721	platino
+#11	AnnotatorNotes T17	C0032207; platinum; Element, Ion, or Isotope
+T18	ANAT 781 789	hepática
+#12	AnnotatorNotes T18	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T19	ANAT 792 797	renal
+#13	AnnotatorNotes T19	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T20	DISO 834 860	Enfermedad autoinmunitaria
+#14	AnnotatorNotes T20	C0004364; Autoimmune Diseases; Disease or Syndrome
+T21	PROC 892 903	Tratamiento
+#15	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	CHEM 933 940	fármaco
+#16	AnnotatorNotes T22	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T23	ANAT 179 190	microcítico
+#17	AnnotatorNotes T23	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T24	ANAT 401 412	microcítico
+#18	AnnotatorNotes T24	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T25	ANAT 475 486	microcítico
+#19	AnnotatorNotes T25	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T26	PROC 625 635	histología
+#20	AnnotatorNotes T26	C0344441; Histology Procedure; Laboratory Procedure
+T27	PROC 638 647	citología
+#21	AnnotatorNotes T27	C1305671; Cytology procedure; Laboratory Procedure
+T28	PROC 678 703	régimen quimioterapéutico
+T29	CHEM 285 308	rovalpituzumab tesirina
+T30	CHEM 59 82	rovalpituzumab tesirina
+T31	CHEM 974 977	PBD
+T32	Date 13 17	2016
+T33	LIVB 157 164	adultos
+#22	AnnotatorNotes T33	C0001675; Adult; Age Group
+T34	LIVB 379 386	adultos
+#23	AnnotatorNotes T34	C0001675; Adult; Age Group
+T35	LIVB 545 551	Adulto
+#24	AnnotatorNotes T35	C0001675; Adult; Age Group
+T36	Age 555 576	18 años de edad o más
+T38	Spec_cue 880 888	presunta
+T37	PHYS 759 797	Función hematológica, hepática y renal
+#25	AnnotatorNotes T37	C0221130; Hematologic function; Organ or Tissue Function + C0232804; Renal function; Organ or Tissue Function; + C0232741; Liver function; Organ or Tissue Function
+T39	PROC 725 741	Estado funcional
+#26	AnnotatorNotes T39	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+A1	Population_data T33 Age
+A2	Assertion T20 Speculated
+A3	Population_data T35 Age
+A4	Population_data T34 Age
+A5	Status T28 History_of
+A6	Status T20 History_of
+A7	Status T17 History_of
+A8	Status T21 History_of
+A9	Status T22 History_of
+A10	Status T16 History_of
+A11	Status T31 History_of
+#27	AnnotatorNotes T30	C4507507; rovalpituzumab tesirine; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#28	AnnotatorNotes T29	C4507507; rovalpituzumab tesirine; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#29	AnnotatorNotes T7	C1705187; Safety Study; Research Activity + C1519043; Phase I/II Trial; Research Activity
+#30	AnnotatorNotes T28	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+#31	AnnotatorNotes T16	C1260204; pyrrolobenzodiazepine; Organic Chemical 
+#32	AnnotatorNotes T31	C1260204; pyrrolobenzodiazepine; Organic Chemical 
+R1	Combined_with Arg1:T30 Arg2:T2	
+R2	Combined_with Arg1:T30 Arg2:T3	
+R3	Combined_with Arg1:T3 Arg2:T4	
+R4	Experiences Arg1:T33 Arg2:T30	
+R5	Experiences Arg1:T33 Arg2:T3	
+R6	Experiences Arg1:T33 Arg2:T5	
+R7	Location_of Arg1:T6 Arg2:T5	
+R8	Location_of Arg1:T23 Arg2:T5	
+T40	Quantifier_or_Qualifier 204 221	estadio extendido
+#33	AnnotatorNotes T40	C1522484; metastatic qualifier; Functional Concept | C0036525; Metastatic to; Functional Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T40	
+T41	Quantifier_or_Qualifier 426 443	estadio extendido
+#34	AnnotatorNotes T41	C1522484; metastatic qualifier; Functional Concept | C0036525; Metastatic to; Functional Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T41	
+T42	Quantifier_or_Qualifier 500 517	estadio extendido
+#35	AnnotatorNotes T42	C1522484; metastatic qualifier; Functional Concept | C0036525; Metastatic to; Functional Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T42	
+T43	Quantifier_or_Qualifier 587 604	estadio extendido
+#36	AnnotatorNotes T43	C1522484; metastatic qualifier; Functional Concept | C0036525; Metastatic to; Functional Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T43	
+R13	Location_of Arg1:T14 Arg2:T13	
+R14	Location_of Arg1:T25 Arg2:T13	
+R15	Location_of Arg1:T12 Arg2:T11	
+R16	Location_of Arg1:T24 Arg2:T11	
+#37	AnnotatorNotes T11	C0149925; Small cell carcinoma of lung; Neoplastic Process
+#38	AnnotatorNotes T5	C0149925; Small cell carcinoma of lung; Neoplastic Process
+#39	AnnotatorNotes T13	C0149925; Small cell carcinoma of lung; Neoplastic Process
+#40	AnnotatorNotes T15	C0149925; Small cell carcinoma of lung; Neoplastic Process
+R17	Combined_with Arg1:T29 Arg2:T8	
+R18	Combined_with Arg1:T29 Arg2:T9	
+R19	Combined_with Arg1:T9 Arg2:T10	
+R20	Experiences Arg1:T34 Arg2:T29	
+R21	Experiences Arg1:T34 Arg2:T11	
+R22	Has_Age Arg1:T35 Arg2:T36	
+R25	Before Arg1:T15 Arg2:T1	
+R26	After Arg1:T1 Arg2:T28	
+T44	Quantifier_or_Qualifier 666 677	al menos un
+R27	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T44	
+R28	Used_for Arg1:T17 Arg2:T28	
+T45	Result_or_Value 750 755	0 o 1
+T46	CONC 742 746	ECOG
+#41	AnnotatorNotes T46	C1520224; ECOG performance status; Intellectual Product
+R29	Used_for Arg1:T46 Arg2:T39	
+R30	Has_Result_or_Value Arg1:T46 Arg2:T45	
+T47	Observation 759 806	Función hematológica, hepática y renal adecuada
+#42	AnnotatorNotes T47	C3810095; Normal hematologic parameters; Finding (?) + C1848676; Normal liver function; Finding + C0232805; Normal renal function; Finding
+R31	Location_of Arg1:T18 Arg2:T37	
+R32	Location_of Arg1:T19 Arg2:T37	
+R33	Location_of Arg1:T18 Arg2:T47	
+R34	Location_of Arg1:T19 Arg2:T47	
+R35	Speculation Arg1:T38 Arg2:T20	
+T48	Quantifier_or_Qualifier 861 867	activa
+#43	AnnotatorNotes T48	C0679217; Active State; Idea or Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T48	
+R37	Used_for Arg1:T22 Arg2:T21	
+R38	Used_for Arg1:T16 Arg2:T21	
+R39	Used_for Arg1:T31 Arg2:T21	
+A12	Experiencer T35 Patient
+A13	Experiencer T33 Patient
+A14	Experiencer T34 Patient

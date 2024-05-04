@@ -1,0 +1,83 @@
+T1	CHEM 56 67	propranolol
+#1	AnnotatorNotes T1	C0033497; propranolol; Organic Chemical · Pharmacologic Substance
+T2	DISO 75 92	tumores de retina
+T3	DISO 113 144	enfermedad de von Hippel-Lindau
+#2	AnnotatorNotes T3	C0019562; Von Hippel-Lindau Syndrome; Disease or Syndrome
+T4	CHEM 189 200	propranolol
+#3	AnnotatorNotes T4	C0033497; propranolol; Organic Chemical · Pharmacologic Substance
+T5	DISO 231 262	enfermedad de von Hippel-Lindau
+#4	AnnotatorNotes T5	C0019562; Von Hippel-Lindau Syndrome; Disease or Syndrome
+T6	DISO 265 292	hemangioblastomas de retina
+T7	DISO 346 377	ENFERMEDAD DE VON HIPPEL-LINDAU
+#5	AnnotatorNotes T7	C0019562; Von Hippel-Lindau Syndrome; Disease or Syndrome
+T8	DISO 379 382	VHL
+#6	AnnotatorNotes T8	C0019562; Von Hippel-Lindau Syndrome; Disease or Syndrome
+T9	DISO 410 441	ENFERMEDAD DE VON HIPPEL-LINDAU
+#7	AnnotatorNotes T9	C0019562; Von Hippel-Lindau Syndrome; Disease or Syndrome
+T10	PROC 478 492	DIAGNOSTICADOS
+#8	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 496 527	ENFERMEDAD DE VON HIPPEL-LINDAU
+#9	AnnotatorNotes T11	C0019562; Von Hippel-Lindau Syndrome; Disease or Syndrome
+T12	DISO 530 557	HEMANGIOBLASTOMAS DE RETINA
+T13	ANAT 551 557	RETINA
+#10	AnnotatorNotes T13	C0035298; Retina; Body Part, Organ, or Organ Component | C1278894; Entire retina; Body Part, Organ, or Organ Component
+T14	ANAT 595 602	PAPILAR
+#11	AnnotatorNotes T14	C0029127; Optic Disk; Body Part, Organ, or Organ Component
+T15	PROC 667 689	TRATAMIENTOS INVASIVOS
+#12	AnnotatorNotes T15	C0683468; invasive treatment; Therapeutic or Preventive Procedure
+T16	CHEM 761 772	PROPRANOLOL
+#13	AnnotatorNotes T16	C0033497; propranolol; Organic Chemical · Pharmacologic Substance
+T17	ANAT 86 92	retina
+#14	AnnotatorNotes T17	C0035298; Retina; Body Part, Organ, or Organ Component | C1278894; Entire retina; Body Part, Organ, or Organ Component
+T18	ANAT 286 292	retina
+#15	AnnotatorNotes T18	C0035298; Retina; Body Part, Organ, or Organ Component | C1278894; Entire retina; Body Part, Organ, or Organ Component
+T19	DISO 592 594	HB
+#16	AnnotatorNotes T19	C0206734; Hemangioblastoma; Neoplastic Process
+T20	DISO 630 643	HB PERIFÉRICO
+#17	AnnotatorNotes T20	C4763626; Peripheral Hemangioblastoma; Neoplastic Process
+T21	Date 13 17	2014
+T22	LIVB 96 105	pacientes
+#18	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	LIVB 217 226	pacientes
+#19	AnnotatorNotes T23	C0030705; Patients; Patient or Disabled Group
+T24	LIVB 468 477	PACIENTES
+#20	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	Neg_cue 653 662	RECHAZADO
+T26	Date 293 321	a corto, medio y largo plazo
+A1	Assertion T15 Negated
+A2	Status T16 History_of
+#21	AnnotatorNotes T2	C0524801; Retinal Neoplasms; Neoplastic Process 
+R1	Location_of Arg1:T17 Arg2:T2	
+R2	Experiences Arg1:T22 Arg2:T2	
+R3	Experiences Arg1:T22 Arg2:T3	
+R4	Experiences Arg1:T22 Arg2:T1	
+T27	Observation 46 52	Efecto
+#22	AnnotatorNotes T27	C1518681; Outcome of Therapy; Finding (?)
+T28	Observation 167 185	Efecto terapéutico
+#23	AnnotatorNotes T28	C0235735; Unexpected therapeutic effect; Finding (?)
+R5	Causes Arg1:T4 Arg2:T28	
+R6	Causes Arg1:T1 Arg2:T27	
+R7	Causes Arg1:T3 Arg2:T2	
+R8	Causes Arg1:T5 Arg2:T6	
+R9	Location_of Arg1:T18 Arg2:T6	
+R10	Experiences Arg1:T23 Arg2:T28	
+R11	Experiences Arg1:T22 Arg2:T27	
+R12	Experiences Arg1:T23 Arg2:T4	
+R13	Experiences Arg1:T23 Arg2:T5	
+R14	Experiences Arg1:T23 Arg2:T6	
+R15	Experiences Arg1:T24 Arg2:T11	
+R16	Causes Arg1:T11 Arg2:T12	
+R17	Location_of Arg1:T13 Arg2:T12	
+R18	Experiences Arg1:T24 Arg2:T12	
+T29	Quantifier_or_Qualifier 580 591	AL MENOS UN
+R19	Location_of Arg1:T14 Arg2:T19	
+R20	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T29	
+T30	Quantifier_or_Qualifier 605 617	YUXTAPAPILAR
+R21	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T30	
+R22	Negation Arg1:T25 Arg2:T15	
+R23	Overlap Arg1:T28 Arg2:T26	
+#24	AnnotatorNotes T6	C0730303; Capillary hemangioma of retina; Neoplastic Process
+#25	AnnotatorNotes T12	C0730303; Capillary hemangioma of retina; Neoplastic Process
+A3	Experiencer T22 Patient
+A4	Experiencer T23 Patient
+A5	Experiencer T24 Patient

@@ -1,0 +1,219 @@
+T1	PROC 46 72	Ensayo clínico randomizado
+#1	AnnotatorNotes T1	C0206034; Clinical Trials, Randomized; Research Activity
+T2	CHEM 87 96	clonidina
+#2	AnnotatorNotes T2	C0009014; clonidine; Organic Chemical · Pharmacologic Substance
+T3	CHEM 99 107	propofol
+#3	AnnotatorNotes T3	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T4	PROC 116 144	exploración videoendoscópica
+T5	PROC 249 277	exploración videoendoscópica
+T6	DISO 1076 1083	Alergia
+#4	AnnotatorNotes T6	C0020517; Hypersensitivity; Pathologic Function
+T7	CHEM 333 342	clonidina
+#5	AnnotatorNotes T7	C0009014; clonidine; Organic Chemical · Pharmacologic Substance
+T8	DISO 369 396	síndrome de apnea del sueño
+#6	AnnotatorNotes T8	C0037315; Sleep Apnea Syndromes; Disease or Syndrome
+T9	DISO 426 462	síndrome de apnea-hipopnea del sueño
+T10	DISO 464 468	SAHS
+#7	AnnotatorNotes T10	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T11	DISO 643 647	SAHS
+#8	AnnotatorNotes T11	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T12	DISO 649 686	síndrome de apnea-hipoapnea del sueño
+T13	DISO 710 726	obesidad mórbida
+#9	AnnotatorNotes T13	C0028756; Morbid obesity; Disease or Syndrome
+T14	PROC 743 747	CPAP
+#10	AnnotatorNotes T14	C0199451; Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T15	PROC 749 790	presión positiva continua en la vía aérea
+#11	AnnotatorNotes T15	C0199451; Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T16	ANAT 781 790	vía aérea
+#12	AnnotatorNotes T16	C0458827; Airway structure; Body Part, Organ, or Organ Component
+T17	DISO 809 813	SAHS
+#13	AnnotatorNotes T17	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T18	DISO 821 829	ronquido
+#14	AnnotatorNotes T18	C0037384; Snoring; Sign or Symptom
+T19	PROC 1002 1026	Consentimiento informado
+#15	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	PROC 865 887	tratamiento quirúrgico
+#16	AnnotatorNotes T20	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T21	ANAT 918 928	Mandibular
+#17	AnnotatorNotes T21	C0024687; Mandible; Body Part, Organ, or Organ Component | C1273020; Entire jaw region; Body Location or Region
+T22	DISO 944 948	SAHS
+#18	AnnotatorNotes T22	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T23	PROC 976 998	tratamiento quirúrgico
+#19	AnnotatorNotes T23	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T24	CHEM 1106 1114	propofol
+#20	AnnotatorNotes T24	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T25	CHEM 1155 1164	Clonidina
+#21	AnnotatorNotes T25	C0009014; clonidine; Organic Chemical · Pharmacologic Substance
+T26	DISO 1223 1239	Bloqueo cardiaco
+#22	AnnotatorNotes T26	C0018794; Heart Block; Disease or Syndrome
+T27	DISO 1289 1300	Hipotensión
+#23	AnnotatorNotes T27	C0020649; Hypotension; Finding
+T28	DISO 1317 1342	Enfermedad cardiovascular
+#24	AnnotatorNotes T28	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T29	PROC 186 231	Ensayo clínico aleatorizado cruzado y abierto
+T30	PROC 309 317	sedación
+#25	AnnotatorNotes T30	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T31	CHEM 322 330	propofol
+#26	AnnotatorNotes T31	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T32	ANAT 1231 1239	cardiaco
+#27	AnnotatorNotes T32	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T33	ANAT 1328 1342	cardiovascular
+#28	AnnotatorNotes T33	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T34	Date 13 17	2015
+T35	PHYS 149 154	sueño
+#29	AnnotatorNotes T35	C0037313; Sleep; Organism Function
+T36	PHYS 282 287	sueño
+#30	AnnotatorNotes T36	C0037313; Sleep; Organism Function
+T37	LIVB 498 507	Pacientes
+#31	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Age 508 547	mayores de 18 años y menores de 65 años
+T39	LIVB 551 560	Pacientes
+#32	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 629 638	Pacientes
+#33	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	PHYS 681 686	sueño
+#34	AnnotatorNotes T41	C0037313; Sleep; Organism Function
+T42	Neg_cue 706 709	sin
+T43	Neg_cue 732 734	no
+T44	LIVB 795 804	Pacientes
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	DEVI 899 928	dispositivo Avance Mandibular
+#36	AnnotatorNotes T45	C2091299; Mandibular Advancement Devices; Medical Device
+T46	LIVB 934 943	Pacientes
+#37	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T48	Age 1055 1073	Menores de 18 años
+T50	Neg_cue 1264 1275	ausencia de
+T51	DEVI 1276 1286	marcapasos
+#38	AnnotatorNotes T51	C0030163; Artificial cardiac pacemaker; Medical Device
+T53	PHYS 391 396	sueño
+#39	AnnotatorNotes T53	C0037313; Sleep; Organism Function
+T54	PHYS 457 462	sueño
+#40	AnnotatorNotes T54	C0037313; Sleep; Organism Function
+T55	Food 1130 1134	soja
+#41	AnnotatorNotes T55	C1258091; Soy Foods; Food
+T56	DEVI 894 897	DAM
+#42	AnnotatorNotes T56	C2091299; Mandibular Advancement Devices; Medical Device
+T47	Food 1140 1145	huevo
+#43	AnnotatorNotes T47	C0013710; Egg Food; Food
+T49	PROC 575 578	ASA
+#44	AnnotatorNotes T49	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T52	PROC 1195 1198	ASA
+#45	AnnotatorNotes T52	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T57	PROC 580 617	American Society of Anesthesiologists
+#46	AnnotatorNotes T57	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Assertion T13 Negated
+A2	Assertion T14 Negated
+A3	Assertion T51 Negated
+A4	Assertion T15 Negated
+A5	Status T23 History_of
+A6	Status T6 History_of
+#47	AnnotatorNotes T29	C0206034; Clinical Trials, Randomized; Research Activity + C1709323; Open Label Study; Research Activity + C0150097; Cross-Over Studies; Research Activity
+#48	AnnotatorNotes T9	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+#49	AnnotatorNotes T12	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T58	Neg_cue 953 955	no
+T59	Observation 962 972	respondido
+A7	Assertion T59 Negated
+#50	AnnotatorNotes T59	C4055223; Clinical Response; Finding (?)
+T60	Neg_cue 1301 1303	no
+T61	Quantifier_or_Qualifier 1304 1314	controlada
+A8	Assertion T61 Negated
+T62	Observation 735 742	toleren
+A9	Assertion T62 Negated
+R1	Negation Arg1:T43 Arg2:T62	
+R2	Negation Arg1:T43 Arg2:T14	
+R3	Negation Arg1:T43 Arg2:T15	
+R4	Location_of Arg1:T16 Arg2:T15	
+R5	Before Arg1:T3 Arg2:T4	
+R6	Before Arg1:T2 Arg2:T4	
+T63	Quantifier_or_Qualifier 155 163	inducido
+#51	AnnotatorNotes T63	C0205263; Induce (action); Functional Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T63	
+T64	Quantifier_or_Qualifier 288 296	inducido
+#52	AnnotatorNotes T64	C0205263; Induce (action); Functional Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T64	
+R9	Overlap Arg1:T4 Arg2:T35	
+R10	Overlap Arg1:T5 Arg2:T36	
+R11	After Arg1:T5 Arg2:T30	
+R12	Used_for Arg1:T31 Arg2:T30	
+R13	Used_for Arg1:T7 Arg2:T30	
+R14	Before Arg1:T2 Arg2:T35	
+R15	Before Arg1:T3 Arg2:T35	
+R16	After Arg1:T36 Arg2:T30	
+R20	Has_Age Arg1:T37 Arg2:T38	
+R21	Experiences Arg1:T39 Arg2:T49	
+R22	Experiences Arg1:T39 Arg2:T57	
+T65	Result_or_Value 619 625	I y II
+R23	Has_Result_or_Value Arg1:T57 Arg2:T65	
+R24	Has_Result_or_Value Arg1:T49 Arg2:T65	
+R25	Experiences Arg1:T40 Arg2:T11	
+R26	Experiences Arg1:T40 Arg2:T12	
+R29	Negation Arg1:T42 Arg2:T13	
+R30	Overlap Arg1:T12 Arg2:T62	
+R31	Overlap Arg1:T12 Arg2:T13	
+R32	Overlap Arg1:T11 Arg2:T13	
+R33	Overlap Arg1:T11 Arg2:T62	
+R34	Experiences Arg1:T40 Arg2:T13	
+R35	Experiences Arg1:T40 Arg2:T62	
+R36	Overlap Arg1:T62 Arg2:T14	
+R37	Overlap Arg1:T62 Arg2:T15	
+R38	Experiences Arg1:T40 Arg2:T14	
+R39	Experiences Arg1:T40 Arg2:T15	
+R40	Experiences Arg1:T44 Arg2:T17	
+R41	Experiences Arg1:T44 Arg2:T18	
+R42	Experiences Arg1:T44 Arg2:T20	
+R43	Experiences Arg1:T44 Arg2:T56	
+R44	Experiences Arg1:T44 Arg2:T45	
+R45	Location_of Arg1:T21 Arg2:T45	
+R46	Location_of Arg1:T21 Arg2:T56	
+T66	Quantifier_or_Qualifier 814 818	leve
+#53	AnnotatorNotes T66	C2945599; Mild (qualifier value); Qualitative Concept
+R47	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T66	
+R48	Overlap Arg1:T17 Arg2:T56	
+R49	Overlap Arg1:T18 Arg2:T56	
+R50	Overlap Arg1:T17 Arg2:T45	
+R51	Overlap Arg1:T18 Arg2:T45	
+R52	Negation Arg1:T58 Arg2:T59	
+R53	Negation Arg1:T58 Arg2:T23	
+R54	Before Arg1:T23 Arg2:T59	
+R55	Experiences Arg1:T46 Arg2:T22	
+R56	Before Arg1:T22 Arg2:T59	
+R57	Experiences Arg1:T46 Arg2:T59	
+R58	Experiences Arg1:T46 Arg2:T23	
+R59	Causes Arg1:T24 Arg2:T6	
+R60	Causes Arg1:T55 Arg2:T6	
+R61	Causes Arg1:T47 Arg2:T6	
+R62	Causes Arg1:T25 Arg2:T6	
+T67	Result_or_Value 1199 1218	mayor o igual a III
+R63	Has_Result_or_Value Arg1:T52 Arg2:T67	
+T68	Observation 1168 1193	Riesgo quirúrgico elevado
+R64	Overlap Arg1:T68 Arg2:T52	
+R65	Location_of Arg1:T32 Arg2:T26	
+T69	Quantifier_or_Qualifier 1250 1259	grado 2-3
+R66	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T69	
+T70	Quantifier_or_Qualifier 1240 1248	avanzado
+#54	AnnotatorNotes T70	C0205179; Advanced phase; Qualitative Concept
+R67	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T70	
+R68	Negation Arg1:T50 Arg2:T51	
+R69	Overlap Arg1:T26 Arg2:T51	
+R70	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T61	
+R71	Negation Arg1:T60 Arg2:T61	
+R72	Location_of Arg1:T33 Arg2:T28	
+T71	Quantifier_or_Qualifier 1343 1348	grave
+#55	AnnotatorNotes T71	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R73	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T71	
+R74	Location_of Arg1:T16 Arg2:T14	
+T72	Quantifier_or_Qualifier 699 705	severo
+#56	AnnotatorNotes T72	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R75	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T72	
+R76	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T72	
+T73	Quantifier_or_Qualifier 688 696	moderado
+#57	AnnotatorNotes T73	C0205081; Moderate (severity modifier); Qualitative Concept
+R77	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T73	
+R78	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T73	
+R79	Experiences Arg1:T40 Arg2:T41	
+#58	AnnotatorNotes T69	C0443298; Second degree; Qualitative Concept | C0443323; Third degree; Qualitative Concept
+A10	Experiencer T44 Patient
+A11	Experiencer T46 Patient
+A12	Experiencer T37 Patient
+A13	Experiencer T39 Patient
+A14	Experiencer T40 Patient

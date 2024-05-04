@@ -1,0 +1,225 @@
+T1	CHEM 45 56	Tocilizumab
+#1	AnnotatorNotes T1	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T2	PROC 61 76	terapia de base
+T3	PROC 84 91	placebo
+#2	AnnotatorNotes T3	C0032042; Placebos; Therapeutic or Preventive Procedure
+T4	PROC 96 111	terapia de base
+T5	DISO 129 156	neumonía grave por COVID-19
+T6	PROC 177 250	ESTUDIO ALEATORIZADO, DOBLE CIEGO, CONTROLADO CON PLACEBO Y MULTICÉNTRICO
+T7	PROC 256 290	EVALUAR LA SEGURIDAD Y LA EFICACIA
+#3	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T8	CHEM 294 305	TOCILIZUMAB
+#4	AnnotatorNotes T8	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	DISO 323 353	NEUMONÍA GRAVE POR EL COVID-19
+T10	DISO 375 405	NEUMONÍA GRAVE POR EL COVID-19
+T11	PROC 451 464	Hospitalizado
+#5	AnnotatorNotes T11	C0019993; Hospitalization; Health Care Activity
+T12	PROC 690 694	SpO2
+#6	AnnotatorNotes T12	C0428179; Measurement of oxygen saturation at periphery; Laboratory Procedure
+T13	ANAT 574 581	muestra
+#7	AnnotatorNotes T13	C2347026; Biospecimen; Body Substance
+T14	PROC 548 551	RCP
+#8	AnnotatorNotes T14	C0007203; Cardiopulmonary Resuscitation; Therapeutic or Preventive Procedure
+T15	ANAT 605 611	sangre
+#9	AnnotatorNotes T15	C0005767; Blood; Body Substance
+T16	ANAT 620 625	heces
+#10	AnnotatorNotes T16	C0015733; Feces; Body Substance
+T17	ANAT 632 648	líquido corporal
+#11	AnnotatorNotes T17	C0005889; Body Fluids; Body Substance
+T18	PROC 661 681	radiografía de tórax
+#12	AnnotatorNotes T18	C0039985; Plain chest X-ray; Diagnostic Procedure
+T19	PROC 684 687	TAC
+#13	AnnotatorNotes T19	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T20	DISO 751 771	Reacciones alérgicas
+#14	AnnotatorNotes T20	C1527304; Allergic Reaction; Pathologic Function
+T21	CHEM 803 827	anticuerpos monoclonales
+#15	AnnotatorNotes T21	C0003250; Monoclonal Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T22	DISO 830 856	Infección por tuberculosis
+T23	DISO 878 915	infección bacteriana, fúngica, vírica
+#16	AnnotatorNotes T23	C4748213; Bacterial, viral, and fungal infections; Finding
+T24	DISO 923 932	infección
+#17	AnnotatorNotes T24	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T25	PROC 1455 1476	Recuento de plaquetas
+#18	AnnotatorNotes T25	C0032181; Platelet Count measurement; Laboratory Procedure
+T26	CHEM 1136 1157	fármacos antirrechazo
+T27	CHEM 1195 1198	TCZ
+#19	AnnotatorNotes T27	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T28	PROC 1249 1267	prueba de embarazo
+#20	AnnotatorNotes T28	C0032976; Pregnancy Tests; Diagnostic Procedure
+T29	PROC 1333 1349	ensayos clínicos
+#21	AnnotatorNotes T29	C0008976; Clinical Trials; Research Activity
+T30	CHEM 1354 1362	fármacos
+#22	AnnotatorNotes T30	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T31	PROC 1389 1408	ensayos antivirales
+T32	PROC 1413 1416	RAN
+#23	AnnotatorNotes T32	C0948762; Absolute neutrophil count; Laboratory Procedure
+T33	ANAT 1467 1476	plaquetas
+#24	AnnotatorNotes T33	C0005821; Blood Platelets; Cell
+T34	PROC 1512 1523	Tratamiento
+#25	AnnotatorNotes T34	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T35	DISO 1597 1612	afección médica
+T36	DISO 469 492	neumonía de la COVID-19
+T37	ANAT 591 603	respiratoria
+#26	AnnotatorNotes T37	C5442009; Respiratory specimen; Body Substance
+T38	PROC 704 713	PaO2/FiO2
+#27	AnnotatorNotes T38	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T39	ANAT 613 618	orina
+#28	AnnotatorNotes T39	C0042036; Urine; Body Substance
+T40	ANAT 676 681	tórax
+#29	AnnotatorNotes T40	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T41	CHEM 791 794	TCZ
+#30	AnnotatorNotes T41	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T42	DISO 944 952	COVID-19
+#31	AnnotatorNotes T42	C5203670; COVID19 (disease); Disease or Syndrome
+T43	PROC 1088 1118	administración de tratamientos
+T44	CHEM 1167 1184	inmunomoduladores
+#32	AnnotatorNotes T44	C1527392; Immunomodulators; Immunologic Factor · Pharmacologic Substance
+T45	PROC 1283 1289	examen
+#33	AnnotatorNotes T45	C0582103; Medical Examination; Health Care Activity
+T46	PROC 1490 1493	ALT
+#34	AnnotatorNotes T46	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T47	PROC 1496 1499	AST
+#35	AnnotatorNotes T47	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T48	CHEM 1531 1555	fármaco en investigación
+#36	AnnotatorNotes T48	C0013230; Investigational New Drugs; Pharmacologic Substance
+T49	PROC 1633 1660	pruebas analíticas clínicas
+T50	Date 13 17	2020
+T51	LIVB 115 124	pacientes
+#37	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 309 318	PACIENTES
+#38	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Age 438 447	>=18 años
+T56	Spec_cue 866 877	Sospecha de
+T57	LIVB 900 907	fúngica
+#39	AnnotatorNotes T57	C0016832; Fungi; Fungus
+T58	LIVB 909 915	vírica
+#40	AnnotatorNotes T58	C0042776; Virus; Virus
+T59	LIVB 971 983	investigador
+#41	AnnotatorNotes T59	C0035173; Research Personnel; Professional or Occupational Group
+T60	Duration 1040 1061	las próximas 24 horas
+T61	Route 1158 1164	orales
+#42	AnnotatorNotes T61	C1527415; Oral Route of Drug administration; Functional Concept
+T63	Duration 1203 1222	los últimos 6 meses
+T64	PHYS 1225 1233	Embarazo
+#43	AnnotatorNotes T64	C0032961; Pregnancy; Organism Function
+T65	PHYS 1236 1245	lactancia
+#44	AnnotatorNotes T65	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T66	Neg_cue 1376 1388	excepción de
+T67	Duration 1559 1574	las 5 semividas
+T68	Duration 1577 1584	30 días
+T69	LIVB 1679 1691	investigador
+#45	AnnotatorNotes T69	C0035173; Research Personnel; Professional or Occupational Group
+T71	LIVB 1729 1737	paciente
+#46	AnnotatorNotes T71	C0030705; Patients; Patient or Disabled Group
+T72	LIVB 888 898	bacteriana
+#47	AnnotatorNotes T72	C0004611; Bacteria; Bacterium
+T73	PHYS 1259 1267	embarazo
+#48	AnnotatorNotes T73	C0032961; Pregnancy; Organism Function
+T54	DISO 1004 1010	muerte
+#49	AnnotatorNotes T54	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T55	PROC 1433 1452	visita de selección
+#50	AnnotatorNotes T55	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A1	Assertion T23 Speculated
+A2	Assertion T24 Speculated
+A3	Assertion T31 Negated
+A4	Status T20 History_of
+A5	Status T26 History_of
+A6	Status T44 History_of
+A7	Status T27 History_of
+#51	AnnotatorNotes T6	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C1096776; Multicenter Study; Research Activity
+#52	AnnotatorNotes T36	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#53	AnnotatorNotes T22	C0041296; Tuberculosis; Disease or Syndrome 
+T62	Neg_cue 1693 1700	impidan
+T70	Observation 1704 1724	participación segura
+A8	Assertion T70 Negated
+T74	PROC 1759 1766	estudio
+A9	Assertion T74 Negated
+R1	Negation Arg1:T62 Arg2:T70	
+R2	Negation Arg1:T62 Arg2:T74	
+#54	AnnotatorNotes T74	C0008976; Clinical Trials; Research Activity
+R4	Combined_with Arg1:T1 Arg2:T2	
+R5	Combined_with Arg1:T3 Arg2:T4	
+R6	Experiences Arg1:T51 Arg2:T1	
+R7	Experiences Arg1:T51 Arg2:T3	
+R8	Experiences Arg1:T51 Arg2:T5	
+#55	AnnotatorNotes T5	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome
+#56	AnnotatorNotes T9	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome
+#57	AnnotatorNotes T10	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome
+R9	Experiences Arg1:T52 Arg2:T8	
+R10	Experiences Arg1:T52 Arg2:T9	
+T75	Result_or_Value 552 560	positiva
+#58	AnnotatorNotes T75	C1446409; Positive; Finding
+R12	Has_Result_or_Value Arg1:T14 Arg2:T75	
+R13	Location_of Arg1:T13 Arg2:T14	
+R14	Location_of Arg1:T15 Arg2:T14	
+R15	Location_of Arg1:T39 Arg2:T14	
+R16	Location_of Arg1:T16 Arg2:T14	
+R17	Location_of Arg1:T17 Arg2:T14	
+R18	Location_of Arg1:T40 Arg2:T18	
+T76	Result_or_Value 695 701	<=93 %
+R21	Has_Result_or_Value Arg1:T12 Arg2:T76	
+T77	Result_or_Value 714 723	<300 mmhg
+R22	Has_Result_or_Value Arg1:T38 Arg2:T77	
+R23	Causes Arg1:T41 Arg2:T20	
+R24	Causes Arg1:T21 Arg2:T20	
+T78	Quantifier_or_Qualifier 772 778	graves
+#59	AnnotatorNotes T78	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R25	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T78	
+T79	Quantifier_or_Qualifier 1613 1618	grave
+#60	AnnotatorNotes T79	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R26	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T79	
+#61	AnnotatorNotes T35	C4745084; Medical Condition; Finding
+T80	Observation 1621 1660	anomalía en pruebas analíticas clínicas
+#62	AnnotatorNotes T80	C3648370; laboratory tests nonspecific abnormal findings; Finding
+R27	Before Arg1:T80 Arg2:T70	
+R28	Before Arg1:T35 Arg2:T70	
+R29	Experiences Arg1:T71 Arg2:T80	
+R30	Experiences Arg1:T71 Arg2:T35	
+#63	AnnotatorNotes T49	C4505475; Clinical Laboratory Testings; Laboratory Procedure | C4505474; Clinical Laboratory Tests; Laboratory Procedure
+R31	Experiences Arg1:T71 Arg2:T49	
+R32	Location_of Arg1:T37 Arg2:T14	
+T81	Quantifier_or_Qualifier 857 863	activa
+#64	AnnotatorNotes T81	C0679217; Active State; Idea or Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T81	
+R34	Speculation Arg1:T56 Arg2:T23	
+R35	Causes Arg1:T72 Arg2:T23	
+R36	Causes Arg1:T57 Arg2:T23	
+R37	Causes Arg1:T58 Arg2:T23	
+R38	Speculation Arg1:T56 Arg2:T24	
+R39	Overlap Arg1:T24 Arg2:T42	
+R40	Overlap Arg1:T23 Arg2:T42	
+T82	Observation 1004 1010;1014 1023	muerte inminente
+#65	AnnotatorNotes T82	C2363727; Death imminent; Finding
+R41	Overlap Arg1:T82 Arg2:T60	
+#66	AnnotatorNotes T43	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+R42	Before Arg1:T43 Arg2:T54	
+R44	Has_Route_or_Mode Arg1:T26 Arg2:T61	
+R45	Overlap Arg1:T27 Arg2:T63	
+R46	Overlap Arg1:T44 Arg2:T63	
+R47	Overlap Arg1:T26 Arg2:T63	
+T83	Result_or_Value 1268 1276	positiva
+#67	AnnotatorNotes T83	C1446409; Positive; Finding
+R49	Has_Result_or_Value Arg1:T28 Arg2:T83	
+T84	CONC 1302 1307	dosis
+#68	AnnotatorNotes T84	C0178602; Dosage; Quantitative Concept
+R51	Before Arg1:T45 Arg2:T84	
+T85	Observation 1310 1349	Participación en otros ensayos clínicos
+R52	Negation Arg1:T66 Arg2:T31	
+T86	Result_or_Value 1418 1426	<1000/µl
+R53	Has_Result_or_Value Arg1:T32 Arg2:T86	
+R54	Overlap Arg1:T32 Arg2:T55	
+T87	Result_or_Value 1477 1487	<50 000/µl
+R55	Has_Result_or_Value Arg1:T25 Arg2:T87	
+T88	Result_or_Value 1500 1509	>10 x LSN
+R56	Has_Result_or_Value Arg1:T47 Arg2:T88	
+R57	Has_Result_or_Value Arg1:T46 Arg2:T88	
+R58	Used_for Arg1:T48 Arg2:T34	
+R59	Has_Duration_or_Interval Arg1:T48 Arg2:T67	
+R60	Has_Duration_or_Interval Arg1:T48 Arg2:T68	
+R61	Overlap Arg1:T54 Arg2:T60	
+A10	Experiencer T59 Other
+A11	Experiencer T51 Patient
+A12	Experiencer T52 Patient
+A13	Experiencer T69 Other
+A14	Experiencer T71 Patient
+A15	Status T54 Future

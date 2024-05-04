@@ -1,0 +1,227 @@
+T1	PROC 440 455	Se randomizaron
+#1	AnnotatorNotes T1	C0034656; Randomization; Research Activity
+T2	PROC 1 50	Ensayo clínico randomizado controlado con placebo
+#2	AnnotatorNotes T2	C0683952; placebo study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T3	DISO 125 146	riesgo cardiovascular
+#3	AnnotatorNotes T3	C4324389; Cardiovascular Risk; Finding
+T4	DISO 160 166	obesos
+#4	AnnotatorNotes T4	C0028754; Obesity; Disease or Syndrome
+T5	CHEM 81 84	FOS
+#5	AnnotatorNotes T5	C0873033; fructooligosaccharide; Organic Chemical · Pharmacologic Substance
+T6	CHEM 502 505	FOS
+#6	AnnotatorNotes T6	C0873033; fructooligosaccharide; Organic Chemical · Pharmacologic Substance
+T7	DISO 369 390	riesgo cardiovascular
+#7	AnnotatorNotes T7	C4324389; Cardiovascular Risk; Finding
+T8	CHEM 1622 1625	FOS
+#8	AnnotatorNotes T8	C0873033; fructooligosaccharide; Organic Chemical · Pharmacologic Substance
+T9	PROC 561 585	intervención nutricional
+#9	AnnotatorNotes T9	C1882127; Nutritional Intervention; Health Care Activity
+T10	PROC 624 642	valoró la saciedad
+T11	PROC 744 760	test de saciedad
+T12	PROC 862 866	test
+#10	AnnotatorNotes T12	C1261322; Evaluation procedure; Health Care Activity
+T13	PROC 1295 1299	test
+#11	AnnotatorNotes T13	C1261322; Evaluation procedure; Health Care Activity
+T14	DISO 1489 1510	riesgo cardiovascular
+#12	AnnotatorNotes T14	C4324389; Cardiovascular Risk; Finding
+T15	PROC 1519 1543	intervención nutricional
+#13	AnnotatorNotes T15	C1882127; Nutritional Intervention; Health Care Activity
+T16	DISO 1742 1763	riesgo cardiovascular
+#14	AnnotatorNotes T16	C4324389; Cardiovascular Risk; Finding
+T17	ANAT 132 146	cardiovascular
+#15	AnnotatorNotes T17	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T18	ANAT 376 390	cardiovascular
+#16	AnnotatorNotes T18	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T19	PROC 650 664	test de prueba
+T20	PROC 702 716	test de prueba
+T21	ANAT 1496 1510	cardiovascular
+#17	AnnotatorNotes T21	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T22	ANAT 1749 1763	cardiovascular
+#18	AnnotatorNotes T22	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T23	PHYS 102 110	saciedad
+#19	AnnotatorNotes T23	C0036239; Satiation; Mental Process
+T24	LIVB 150 159	pacientes
+#20	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 459 468	pacientes
+#21	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	Duration 593 599	un mes
+T28	LIVB 607 616	pacientes
+#22	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	PHYS 634 642	saciedad
+#23	AnnotatorNotes T29	C0036239; Satiation; Mental Process
+T30	PHYS 752 760	saciedad
+#24	AnnotatorNotes T30	C0036239; Satiation; Mental Process
+T31	Duration 872 877	1 mes
+T32	PHYS 950 958	saciedad
+#25	AnnotatorNotes T32	C0036239; Satiation; Mental Process
+T33	Duration 1005 1020	20 y 40 minutos
+T34	PHYS 1143 1151	saciedad
+#26	AnnotatorNotes T34	C0036239; Satiation; Mental Process
+T35	Duration 1168 1191	20 minutos y 40 minutos
+T36	Duration 1305 1310	1 mes
+T38	PHYS 1405 1413	saciedad
+#27	AnnotatorNotes T38	C0036239; Satiation; Mental Process
+T43	PHYS 1653 1661	saciedad
+#28	AnnotatorNotes T43	C0036239; Satiation; Mental Process
+T25	PHYS 330 338	saciedad
+#29	AnnotatorNotes T25	C0036239; Satiation; Mental Process
+T48	PHYS 253 260	apetito
+#30	AnnotatorNotes T48	C0003618; Desire for food; Organism Function
+T46	PHYS 881 888	ingerir
+#31	AnnotatorNotes T46	C0232478; Ingestion; Biologic Function
+T49	PHYS 1062 1069	ingesta
+#32	AnnotatorNotes T49	C0232478; Ingestion; Biologic Function
+T50	PHYS 1770 1777	ingesta
+#33	AnnotatorNotes T50	C0232478; Ingestion; Biologic Function
+T41	PHYS 1557 1564	ingesta
+#34	AnnotatorNotes T41	C0232478; Ingestion; Biologic Function
+T37	Food 58 65	galleta
+#35	AnnotatorNotes T37	C3853210; Cookie; Food
+R1	Combined_with Arg1:T37 Arg2:T5	
+R2	Location_of Arg1:T17 Arg2:T3	
+R3	Experiences Arg1:T24 Arg2:T4	
+R4	Overlap Arg1:T3 Arg2:T4	
+R5	Experiences Arg1:T24 Arg2:T3	
+R6	Experiences Arg1:T24 Arg2:T37	
+R7	Experiences Arg1:T24 Arg2:T23	
+T39	Food 220 243	alimentos tipo "snacks"
+#36	AnnotatorNotes T39	C0453863; Snacks; Food (?)
+R8	Location_of Arg1:T18 Arg2:T7	
+T40	Food 398 406	galletas
+#37	AnnotatorNotes T40	C3853210; Cookie; Food
+T42	Food 479 486	galleta
+#38	AnnotatorNotes T42	C3853210; Cookie; Food
+R9	Combined_with Arg1:T42 Arg2:T6	
+T44	Food 525 532	galleta
+#39	AnnotatorNotes T44	C3853210; Cookie; Food
+T45	Food 778 785	galleta
+#40	AnnotatorNotes T45	C3853210; Cookie; Food
+T47	Food 671 679	galletas
+#41	AnnotatorNotes T47	C3853210; Cookie; Food
+T51	Food 1076 1083	galleta
+#42	AnnotatorNotes T51	C3853210; Cookie; Food
+T52	Food 1111 1118	galleta
+#43	AnnotatorNotes T52	C3853210; Cookie; Food
+T53	Food 893 901	galletas
+#44	AnnotatorNotes T53	C3853210; Cookie; Food
+T54	Food 1599 1606	galleta
+#45	AnnotatorNotes T54	C3853210; Cookie; Food
+R10	Combined_with Arg1:T54 Arg2:T8	
+T55	Food 1669 1676	galleta
+#46	AnnotatorNotes T55	C3853210; Cookie; Food
+T56	Food 1235 1242	galleta
+#47	AnnotatorNotes T56	C3853210; Cookie; Food
+T57	Food 806 813	galleta
+#48	AnnotatorNotes T57	C3853210; Cookie; Food
+T58	Food 1322 1329	galleta
+#49	AnnotatorNotes T58	C3853210; Cookie; Food
+T59	Quantifier_or_Qualifier 533 540	control
+#50	AnnotatorNotes T59	C4553389; Study Control; Conceptual Entity
+R11	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T59	
+T60	Quantifier_or_Qualifier 814 821	control
+#51	AnnotatorNotes T60	C4553389; Study Control; Conceptual Entity
+R12	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T60	
+T61	Quantifier_or_Qualifier 1243 1250	control
+#52	AnnotatorNotes T61	C4553389; Study Control; Conceptual Entity
+R13	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T61	
+T62	Quantifier_or_Qualifier 1119 1126	control
+#53	AnnotatorNotes T62	C4553389; Study Control; Conceptual Entity
+R14	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T62	
+T63	Quantifier_or_Qualifier 1677 1684	control
+#54	AnnotatorNotes T63	C4553389; Study Control; Conceptual Entity
+R15	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T63	
+T64	Neg_cue 1698 1700	no
+T65	Observation 1712 1719	efectos
+A1	Assertion T65 Negated
+#55	AnnotatorNotes T65	C1518681; Outcome of Therapy; Finding (?)
+R16	Negation Arg1:T64 Arg2:T65	
+T66	Observation 1770 1787	ingesta dietética
+T67	Quantifier_or_Qualifier 1788 1794	global
+#56	AnnotatorNotes T67	C2348867; Global; Qualitative Concept
+R19	Location_of Arg1:T22 Arg2:T16	
+R20	Before Arg1:T1 Arg2:T42	
+R21	Before Arg1:T1 Arg2:T44	
+R22	Experiences Arg1:T26 Arg2:T42	
+R23	Experiences Arg1:T26 Arg2:T44	
+R24	Experiences Arg1:T28 Arg2:T10	
+R25	Experiences Arg1:T28 Arg2:T19	
+T68	Quantifier_or_Qualifier 669 670	5
+R26	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T68	
+R27	Used_for Arg1:T47 Arg2:T19	
+R28	Experiences Arg1:T28 Arg2:T29	
+R29	Before Arg1:T10 Arg2:T9	
+R30	Before Arg1:T19 Arg2:T9	
+R31	Overlap Arg1:T10 Arg2:T27	
+R32	After Arg1:T19 Arg2:T27	
+T69	CONC 721 739	área bajo la curva
+#57	AnnotatorNotes T69	C0376690; Area Under Curve; Quantitative Concept
+T70	Quantifier_or_Qualifier 786 794	saciante
+R33	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T70	
+R34	Used_for Arg1:T45 Arg2:T20	
+R35	Used_for Arg1:T57 Arg2:T20	
+R36	Before Arg1:T20 Arg2:T69	
+R37	Before Arg1:T20 Arg2:T11	
+R38	After Arg1:T12 Arg2:T31	
+R39	Overlap Arg1:T69 Arg2:T12	
+R40	Before Arg1:T46 Arg2:T31	
+R41	Before Arg1:T53 Arg2:T12	
+R42	Overlap Arg1:T34 Arg2:T35	
+R43	Overlap Arg1:T32 Arg2:T33	
+T71	CONC 1044 1052	tiempo 0
+R44	Overlap Arg1:T32 Arg2:T71	
+T72	CONC 1031 1042	valor basal
+#58	AnnotatorNotes T72	C1442488; Baseline; Quantitative Concept
+T73	Quantifier_or_Qualifier 1084 1092	saciante
+R45	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T73	
+R46	Overlap Arg1:T49 Arg2:T71	
+R47	Used_for Arg1:T51 Arg2:T49	
+T74	Quantifier_or_Qualifier 1330 1338	saciante
+R48	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T74	
+R49	Has_Duration_or_Interval Arg1:T58 Arg2:T36	
+R50	After Arg1:T13 Arg2:T36	
+R51	Before Arg1:T49 Arg2:T32	
+R52	Used_for Arg1:T53 Arg2:T46	
+R53	Before Arg1:T46 Arg2:T30	
+R54	Used_for Arg1:T52 Arg2:T49	
+T75	CONC 1388 1413	escala visual de saciedad
+T76	Neg_cue 1442 1444	No
+T77	Observation 1459 1466	efectos
+A2	Assertion T77 Negated
+R55	Negation Arg1:T76 Arg2:T77	
+R56	Location_of Arg1:T21 Arg2:T14	
+R57	After Arg1:T77 Arg2:T15	
+T78	Observation 1557 1574	ingesta dietética
+T79	Quantifier_or_Qualifier 1575 1581	global
+#59	AnnotatorNotes T79	C2348867; Global; Qualitative Concept
+#60	AnnotatorNotes T77	C1518681; Outcome of Therapy; Finding (?)
+R60	Before Arg1:T54 Arg2:T43	
+R61	Before Arg1:T55 Arg2:T43	
+R62	Before Arg1:T40 Arg2:T25	
+R63	Causes Arg1:T37 Arg2:T84	
+#61	AnnotatorNotes T66	C1286104; dietary intake; Finding
+R17	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T67	
+#62	AnnotatorNotes T78	C1286104; dietary intake; Finding
+R18	Has_Quantifier_or_Qualifier Arg1:T78 Arg2:T79	
+T80	Observation 113 146	factores de riesgo cardiovascular
+#63	AnnotatorNotes T80	C0850624; Heart Disease Risk Factors; Finding
+R58	Experiences Arg1:T24 Arg2:T80	
+R59	Location_of Arg1:T17 Arg2:T80	
+T81	Observation 357 390	factores de riesgo cardiovascular
+#64	AnnotatorNotes T81	C0850624; Heart Disease Risk Factors; Finding
+T82	Observation 1477 1510	factores de riesgo cardiovascular
+#65	AnnotatorNotes T82	C0850624; Heart Disease Risk Factors; Finding
+T83	Observation 1730 1763	factores de riesgo cardiovascular
+#66	AnnotatorNotes T83	C0850624; Heart Disease Risk Factors; Finding
+T84	Observation 86 92	efecto
+#67	AnnotatorNotes T84	C1518681; Outcome of Therapy; Finding (?)
+R64	Experiences Arg1:T24 Arg2:T84	
+T85	Observation 344 350	efecto
+#68	AnnotatorNotes T85	C1518681; Outcome of Therapy; Finding (?)
+R65	Causes Arg1:T40 Arg2:T85	
+R66	Location_of Arg1:T18 Arg2:T81	
+R67	Location_of Arg1:T21 Arg2:T82	
+R68	Location_of Arg1:T22 Arg2:T83	
+#69	AnnotatorNotes T68	C0205451; Five; Quantitative Concept
+A3	Experiencer T24 Patient
+A4	Experiencer T26 Patient
+A5	Experiencer T28 Patient

@@ -1,0 +1,239 @@
+T1	PROC 45 77	estudio para valorar la eficacia
+T2	PROC 1626 1659	administrados por vía inhalatoria
+T3	PROC 84 116	presión continua de la vía aérea
+T4	PROC 190 219	cirugía de resección pulmonar
+#1	AnnotatorNotes T4	C0396565; Lung excision; Therapeutic or Preventive Procedure
+T5	ANAT 211 219	pulmonar
+#2	AnnotatorNotes T5	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T6	PROC 242 309	Estudio en fase 4, aleatorizado, controlado de eficacia y seguridad
+T7	PROC 357 361	CPAP
+#3	AnnotatorNotes T7	C0199451; Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T8	PROC 324 356	presión continua de la vía aérea
+T9	PROC 440 469	cirugía de resección pulmonar
+#4	AnnotatorNotes T9	C0396565; Lung excision; Therapeutic or Preventive Procedure
+T10	ANAT 461 469	pulmonar
+#5	AnnotatorNotes T10	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T11	PROC 475 485	profilaxis
+#6	AnnotatorNotes T11	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T12	DISO 493 537	complicaciones respiratorias postoperatorias
+T13	DISO 561 605	complicaciones respiratorias postoperatorias
+T14	DISO 632 644	Atelectasias
+#7	AnnotatorNotes T14	C0004144; Atelectasis; Pathologic Function
+T15	PROC 804 813	resección
+#8	AnnotatorNotes T15	C0728940; Excision; Therapeutic or Preventive Procedure
+T16	ANAT 818 837	parénquima pulmonar
+#9	AnnotatorNotes T16	C0819757; Structure of parenchyma of lung; Tissue | C1279455; Entire lung parenchyma; Body Location or Region
+T17	PROC 855 869	consentimiento
+#10	AnnotatorNotes T17	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T18	PROC 964 973	extubados
+#11	AnnotatorNotes T18	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T19	DISO 1023 1044	fístula broncopleural
+#12	AnnotatorNotes T19	C0238132; Bronchopleural Fistula; Disease or Syndrome
+T20	PROC 1048 1055	ingreso
+#13	AnnotatorNotes T20	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T21	DISO 1084 1102	problemas faciales
+T22	PROC 1151 1155	CPAP
+#14	AnnotatorNotes T22	C0199451; Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T23	DISO 1165 1181	enfisema bulloso
+T24	DISO 1235 1241	bullas
+#15	AnnotatorNotes T24	C0005758; Bulla; Finding
+T25	DISO 1280 1294	bulla pulmonar
+T26	ANAT 1286 1294	pulmonar
+#16	AnnotatorNotes T26	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T27	DISO 1303 1320	distrofia bullosa
+T28	CONC 1341 1355	zona a resecar
+T29	DISO 1374 1384	neumotórax
+#17	AnnotatorNotes T29	C0032326; Pneumothorax; Disease or Syndrome
+T30	DISO 1409 1413	SAOS
+#18	AnnotatorNotes T30	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T31	PROC 1461 1493	ventilación mecánica no invasiva
+#19	AnnotatorNotes T31	C1868982; Noninvasive mechanical ventilation; Therapeutic or Preventive Procedure
+T32	PROC 1559 1566	cirugía
+#20	AnnotatorNotes T32	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T33	ANAT 783 791	torácica
+#21	AnnotatorNotes T33	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T34	CHEM 1614 1625	corticoides
+#22	AnnotatorNotes T34	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T35	PROC 775 791	cirugía torácica
+#23	AnnotatorNotes T35	C0524832; Thoracic Surgical Procedures; Therapeutic or Preventive Procedure
+T36	ANAT 1094 1102	faciales
+#24	AnnotatorNotes T36	C1281591; Entire face; Body Location or Region | C0015450; Face; Body Location or Region
+T37	PROC 1348 1355	resecar
+#25	AnnotatorNotes T37	C0728940; Excision; Therapeutic or Preventive Procedure
+T38	CHEM 1567 1575	fármacos
+#26	AnnotatorNotes T38	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T39	PROC 117 121	CPAP
+#27	AnnotatorNotes T39	C0199451; Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T40	DISO 645 670	neumonias postoperatorias
+#28	AnnotatorNotes T40	C1279386; Postoperative pneumonia; Disease or Syndrome
+T41	ANAT 1031 1044	broncopleural
+T42	Date 13 17	2010
+T44	Time 128 150	periodo postoperatorio
+T45	LIVB 168 177	pacientes
+#29	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T47	Time 378 400	periodo postoperatorio
+T48	LIVB 418 427	pacientes
+#30	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Time 522 537	postoperatorias
+#31	AnnotatorNotes T49	C0032790; Postoperative Period; Temporal Concept
+T50	Time 590 605	postoperatorias
+#32	AnnotatorNotes T50	C0032790; Postoperative Period; Temporal Concept
+T51	Time 655 670	postoperatorias
+#33	AnnotatorNotes T51	C0032790; Postoperative Period; Temporal Concept
+T52	Age 704 720	mayor de 18 años
+T53	LIVB 928 937	pacientes
+#34	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Neg_cue 942 944	no
+T56	Duration 977 992	las primeras 4h
+T57	LIVB 997 1006	pacientes
+#35	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Spec_cue 1011 1022	sospecha de
+T59	LIVB 1070 1079	Pacientes
+#36	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	DEVI 1136 1155	mascarillas de CPAP
+#37	AnnotatorNotes T60	C3863903; CPAP face mask; Medical Device
+T61	Neg_cue 1326 1328	no
+T63	LIVB 1498 1507	Pacientes
+#38	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	Duration 1531 1546	al menos un mes
+T65	Spec_cue 1580 1589	potencial
+T66	Neg_cue 1606 1613	excepto
+T67	Route 1644 1659	vía inhalatoria
+#39	AnnotatorNotes T67	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T68	ANAT 508 521	respiratorias
+#40	AnnotatorNotes T68	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T69	ANAT 576 589	respiratorias
+#41	AnnotatorNotes T69	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T43	DISO 1121 1133	intolerancia
+#42	AnnotatorNotes T43	C2363812; Device intolerance; Injury or Poisoning
+T46	DISO 1590 1604	inmunosupresor
+#43	AnnotatorNotes T46	C4048329; Immunosuppression; Disease or Syndrome
+A1	Assertion T34 Negated
+A2	Assertion T2 Negated
+A3	Assertion T28 Negated
+A4	Assertion T19 Speculated
+A5	Assertion T18 Negated
+A6	Assertion T46 Speculated
+A7	Status T43 History_of
+A8	Status T29 History_of
+#44	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#45	AnnotatorNotes T3	C0199451; Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+#46	AnnotatorNotes T8	C0199451; Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+#47	AnnotatorNotes T47	C0032790; Postoperative Period; Temporal Concept
+#48	AnnotatorNotes T44	C0032790; Postoperative Period; Temporal Concept
+#49	AnnotatorNotes T6	C0282462; Phase 4 Clinical Trials; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0511730; Identify product efficacy and safety issues; Health Care Activity
+#50	AnnotatorNotes T12	C1393474; postoperative respiratory complications; Disease or Syndrome 
+#51	AnnotatorNotes T13	C1393474; postoperative respiratory complications; Disease or Syndrome 
+#52	AnnotatorNotes T25	C0241982; Bulla of lung; Disease or Syndrome 
+T55	Quantifier_or_Qualifier 1485 1493	invasiva
+A9	Assertion T55 Negated
+T62	Neg_cue 1482 1484	no
+A10	Assertion T67 Negated
+R1	Negation Arg1:T66 Arg2:T34	
+R2	Negation Arg1:T66 Arg2:T2	
+R3	Negation Arg1:T66 Arg2:T67	
+R4	Overlap Arg1:T39 Arg2:T44	
+R5	Overlap Arg1:T3 Arg2:T44	
+R7	Experiences Arg1:T45 Arg2:T3	
+R8	Experiences Arg1:T45 Arg2:T39	
+R9	Experiences Arg1:T45 Arg2:T4	
+R10	Before Arg1:T4 Arg2:T3	
+R11	Before Arg1:T4 Arg2:T39	
+R12	Location_of Arg1:T5 Arg2:T4	
+R13	Overlap Arg1:T8 Arg2:T47	
+R14	Overlap Arg1:T7 Arg2:T47	
+R15	Experiences Arg1:T48 Arg2:T8	
+R16	Experiences Arg1:T48 Arg2:T7	
+R17	Experiences Arg1:T48 Arg2:T9	
+R18	Location_of Arg1:T10 Arg2:T9	
+R19	Experiences Arg1:T48 Arg2:T11	
+R21	Overlap Arg1:T12 Arg2:T49	
+R22	Location_of Arg1:T68 Arg2:T12	
+R23	Before Arg1:T11 Arg2:T12	
+T71	Quantifier_or_Qualifier 401 410	inmediato
+#54	AnnotatorNotes T71	C0205253; Immediate; Temporal Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T71	
+R24	Before Arg1:T9 Arg2:T8	
+R25	Before Arg1:T9 Arg2:T7	
+R26	Before Arg1:T8 Arg2:T12	
+R27	Before Arg1:T7 Arg2:T12	
+R28	Overlap Arg1:T13 Arg2:T50	
+R29	Location_of Arg1:T69 Arg2:T13	
+R30	Overlap Arg1:T40 Arg2:T51	
+T72	Observation 723 744	éticamente competente
+R31	Location_of Arg1:T33 Arg2:T35	
+R32	Location_of Arg1:T16 Arg2:T15	
+R33	Overlap Arg1:T35 Arg2:T15	
+R34	Overlap Arg1:T18 Arg2:T56	
+R35	Experiences Arg1:T53 Arg2:T18	
+R36	Negation Arg1:T54 Arg2:T18	
+T73	CONC 875 897	entrar en este estudio
+#55	AnnotatorNotes T73	C1512693; Inclusion; Qualitative Concept
+R37	Before Arg1:T17 Arg2:T73	
+R38	Speculation Arg1:T58 Arg2:T19	
+R39	Location_of Arg1:T41 Arg2:T19	
+R41	Experiences Arg1:T57 Arg2:T19	
+R42	Experiences Arg1:T57 Arg2:T20	
+#56	AnnotatorNotes T41	C0450194; Bronchopleural; Spatial Concept
+R43	Location_of Arg1:T36 Arg2:T21	
+R44	Experiences Arg1:T59 Arg2:T21	
+R45	Experiences Arg1:T59 Arg2:T43	
+R46	Causes Arg1:T60 Arg2:T43	
+R47	Used_for Arg1:T60 Arg2:T22	
+#57	AnnotatorNotes T21	C4025871; Abnormality of the face; Anatomical Abnormality (?)
+#58	AnnotatorNotes T23	C2887443; Bullous emphysema (lung)(pulmonary); Finding
+T74	Quantifier_or_Qualifier 1226 1234	más de 5
+R48	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T74	
+T75	Result_or_Value 1252 1256	<2cm
+R49	Has_Result_or_Value Arg1:T24 Arg2:T75	
+T76	Result_or_Value 1295 1300	>2 cm
+R50	Location_of Arg1:T26 Arg2:T25	
+R51	Negation Arg1:T61 Arg2:T28	
+R52	Location_of Arg1:T28 Arg2:T37	
+R53	Location_of Arg1:T28 Arg2:T27	
+R54	Location_of Arg1:T28 Arg2:T25	
+R55	Location_of Arg1:T28 Arg2:T24	
+R56	Location_of Arg1:T28 Arg2:T23	
+R57	Before Arg1:T29 Arg2:T23	
+R58	Before Arg1:T29 Arg2:T24	
+R59	Before Arg1:T29 Arg2:T25	
+R60	Before Arg1:T29 Arg2:T27	
+T77	Quantifier_or_Qualifier 1242 1251	contiguas
+#59	AnnotatorNotes T77	C0205283; Contiguous; Spatial Concept 
+R61	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T77	
+R62	Overlap Arg1:T23 Arg2:T24	
+R63	Overlap Arg1:T23 Arg2:T25	
+R64	Overlap Arg1:T23 Arg2:T27	
+R66	Negation Arg1:T62 Arg2:T55	
+R67	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T55	
+R65	Experiences Arg1:T63 Arg2:T32	
+R68	Experiences Arg1:T63 Arg2:T38	
+R69	Before Arg1:T38 Arg2:T32	
+R70	Has_Duration_or_Interval Arg1:T38 Arg2:T64	
+R71	Speculation Arg1:T65 Arg2:T46	
+R72	Before Arg1:T38 Arg2:T46	
+R73	Used_for Arg1:T34 Arg2:T2	
+R74	Has_Route_or_Mode Arg1:T34 Arg2:T67	
+R75	Experiences Arg1:T63 Arg2:T34	
+R76	Before Arg1:T34 Arg2:T32	
+R77	Before Arg1:T34 Arg2:T46	
+R78	Experiences Arg1:T63 Arg2:T46	
+R79	Location_of Arg1:T36 Arg2:T43	
+R80	Has_Result_or_Value Arg1:T25 Arg2:T76	
+R81	Used_for Arg1:T9 Arg2:T11	
+T70	Quantifier_or_Qualifier 151 160	inmediato
+#53	AnnotatorNotes T70	C0205253; Immediate; Temporal Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T70	
+R82	Experiences Arg1:T48 Arg2:T12	
+R40	Experiences Arg1:T59 Arg2:T22	
+T78	Quantifier_or_Qualifier 1182 1195	significativo
+#60	AnnotatorNotes T78	C1546944; Event Seriousness - Significant; Qualitative Concept
+R83	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T78	
+#61	AnnotatorNotes T2	C0001559; Inhalation Drug Administration; Health Care Activity
+#62	AnnotatorNotes T55	C0205281; Invasive; Qualitative Concept
+A11	Experiencer T48 Patient
+A12	Experiencer T53 Patient
+A13	Experiencer T57 Patient
+A14	Experiencer T59 Patient
+A15	Experiencer T63 Patient
+A16	Experiencer T45 Patient

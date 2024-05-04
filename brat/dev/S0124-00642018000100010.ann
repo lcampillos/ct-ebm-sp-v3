@@ -1,0 +1,169 @@
+T1	PROC 66 77	seguimiento
+#1	AnnotatorNotes T1	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T2	DISO 87 96	prematuro
+#2	AnnotatorNotes T2	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T3	DISO 954 974	oxígeno-dependientes
+#3	AnnotatorNotes T3	C2363337; Encounter due to dependence on supplemental oxygen; Finding
+T4	PROC 231 242	seguimiento
+#4	AnnotatorNotes T4	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T5	LIVB 281 291	prematuros
+#5	AnnotatorNotes T5	C4048294; Preterm Infant; Age Group
+T6	PROC 651 667	control prenatal
+#6	AnnotatorNotes T6	C0033052; Prenatal care; Health Care Activity
+T7	DISO 747 765	infección urinaria
+#7	AnnotatorNotes T7	C0042029; Urinary tract infection; Disease or Syndrome
+T8	PROC 842 849	cesárea
+#8	AnnotatorNotes T8	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T9	DISO 867 885	prematuros tardíos
+T10	PROC 908 927	cuidados intensivos
+#9	AnnotatorNotes T10	C0010337; Care of intensive care unit patient; Health Care Activity
+T11	PROC 936 946	ventilados
+#10	AnnotatorNotes T11	C0035205; Respiration, Artificial; Therapeutic or Preventive Procedure
+T12	CHEM 954 961	oxígeno
+#11	AnnotatorNotes T12	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T13	DISO 1100 1111	retinopatía
+#12	AnnotatorNotes T13	C0035309; Retinal Diseases; Disease or Syndrome
+T14	PROC 1217 1235	examen neurológico
+#13	AnnotatorNotes T14	C0027853; Neurologic Examination; Diagnostic Procedure
+T15	LIVB 1423 1433	prematuros
+#14	AnnotatorNotes T15	C4048294; Preterm Infant; Age Group
+T16	PROC 1451 1462	seguimiento
+#15	AnnotatorNotes T16	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T17	DISO 1490 1553	anomalías del desarrollo somático, sensorial o neuro-psicomotor
+T18	ANAT 1515 1523	somático
+#16	AnnotatorNotes T18	C0229960; Entire body as a whole; Fully Formed Anatomical Structure | C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure; Body structure; Anatomical Structure
+T19	PROC 1565 1579	intervenciones
+#17	AnnotatorNotes T19	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T20	DISO 151 169	bajo peso al nacer
+#18	AnnotatorNotes T20	C0024032; Low Birth Weights; Finding
+T21	PROC 399 429	Estudio de cohorte prospectiva
+#19	AnnotatorNotes T21	C1709709; Prospective Cohort Study; Research Activity
+T22	DISO 699 721	patologías obstétricas
+T23	ANAT 757 765	urinaria
+#20	AnnotatorNotes T23	C1508753; Urinary system; Body System
+T24	DISO 771 784	pre-eclampsia
+#21	AnnotatorNotes T24	C0032914; Pre-Eclampsia; Pathologic Function
+T25	DISO 1168 1187	déficit de audición
+#22	AnnotatorNotes T25	C1384666; hearing impairment; Disease or Syndrome
+T26	CHEM 1250 1257	vacunas
+#23	AnnotatorNotes T26	C0042210; Vaccines; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T27	DISO 171 174	BPN
+#24	AnnotatorNotes T27	C0024032; Low Birth Weights; Finding
+T28	DISO 296 299	BPN
+#25	AnnotatorNotes T28	C0024032; Low Birth Weights; Finding
+T29	PROC 1062 1070	tamizado
+#26	AnnotatorNotes T29	C0220908; Screening procedure; Diagnostic Procedure
+T30	DISO 1415 1418	BPN
+#27	AnnotatorNotes T30	C0024032; Low Birth Weights; Finding
+T31	DISO 138 148	prematurez
+#28	AnnotatorNotes T31	C0021294; Infant, Premature; Finding
+T32	PROC 978 984	egreso
+#29	AnnotatorNotes T32	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T35	Duration 263 271	12 meses
+T37	Date 363 367	2014
+T38	Date 370 374	2015
+T39	LIVB 448 457	pacientes
+#30	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 525 541	más de dos horas
+T41	LIVB 572 578	padres
+#31	AnnotatorNotes T41	C0030551; parent; Family Group
+T42	LIVB 584 591	parejas
+#32	AnnotatorNotes T42	C0682323; Partner in relationship; Family Group
+T43	LIVB 637 643	madres
+#33	AnnotatorNotes T43	C0026591; Mother (person); Family Group
+T44	Date 659 667	prenatal
+#34	AnnotatorNotes T44	C2828394; Prenatal (temporal qualifier); Temporal Concept
+T45	Date 674 693	el primer trimestre
+T46	PHYS 800 806	partos
+#35	AnnotatorNotes T46	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T47	Duration 988 1002	los seis meses
+T48	Duration 1192 1204	los 12 meses
+T50	PHYS 1543 1553	psicomotor
+#36	AnnotatorNotes T50	C0237434; Perceptual Motor Processes; Organism Function
+T51	LIVB 82 96	niño prematuro
+#37	AnnotatorNotes T51	C4048294; Preterm Infant; Age Group
+T52	LIVB 410 417	cohorte
+#38	AnnotatorNotes T52	C0599755; Cohort; Population Group
+T53	PHYS 1022 1031	lactancia
+#39	AnnotatorNotes T53	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T54	LIVB 1032 1039	materna
+#40	AnnotatorNotes T54	C0026591; Mother (person); Family Group
+T55	PHYS 1179 1187	audición
+#41	AnnotatorNotes T55	C0018767; Hearing; Physiologic Function
+T33	LIVB 867 877	prematuros
+#42	AnnotatorNotes T33	C4048294; Preterm Infant; Age Group
+T34	PHYS 164 169	nacer
+#43	AnnotatorNotes T34	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+A1	Population_data T51 Age
+A2	Population_data T33 Age
+A3	Population_data T5 Age
+A4	Population_data T15 Age
+T36	Result_or_Value 1236 1243	anormal
+#44	AnnotatorNotes T36	C0205161; Abnormal; Finding
+R1	Has_Result_or_Value Arg1:T14 Arg2:T36	
+R2	Overlap Arg1:T14 Arg2:T48	
+T49	Observation 1250 1267	vacunas completas
+#45	AnnotatorNotes T49	C5668156; Fully Vaccinated; Finding
+R3	Overlap Arg1:T49 Arg2:T48	
+R4	Experiences Arg1:T51 Arg2:T2	
+R6	Before Arg1:T34 Arg2:T20	
+R7	Before Arg1:T34 Arg2:T27	
+R9	Has_Duration_or_Interval Arg1:T4 Arg2:T35	
+R10	After Arg1:T4 Arg2:T37	
+R11	Before Arg1:T4 Arg2:T38	
+T56	Observation 609 621	tenía empleo
+#46	AnnotatorNotes T56	C0557351; Employed; Finding
+T57	Quantifier_or_Qualifier 592 600	estables
+#47	AnnotatorNotes T57	C0205360; Stable status; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T57	
+R15	After Arg1:T6 Arg2:T45	
+R16	Overlap Arg1:T6 Arg2:T44	
+R17	Location_of Arg1:T23 Arg2:T7	
+T58	Quantifier_or_Qualifier 814 832	intrahospitalarios
+#48	AnnotatorNotes T58	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T58	
+R19	Overlap Arg1:T46 Arg2:T8	
+R20	Experiences Arg1:T33 Arg2:T9	
+#49	AnnotatorNotes T9	C3829315; Late Preterm Birth; Finding
+R21	Overlap Arg1:T10 Arg2:T11	
+R22	Overlap Arg1:T3 Arg2:T32	
+R23	Before Arg1:T32 Arg2:T10	
+R24	Overlap Arg1:T53 Arg2:T47	
+R25	Experiences Arg1:T54 Arg2:T53	
+T59	Quantifier_or_Qualifier 1040 1049	exclusiva
+#50	AnnotatorNotes T59	C1548966; Exclusive; Idea or Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T59	
+T60	Quantifier_or_Qualifier 1071 1086	de oftalmología
+R27	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T60	
+T61	Quantifier_or_Qualifier 1114 1127	de optometría
+R28	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T61	
+T62	Quantifier_or_Qualifier 1137 1150	de audiología
+R29	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T62	
+T63	CONC 1298 1308	mortalidad
+#51	AnnotatorNotes T63	C0026565; Mortality Vital Statistics; Quantitative Concept
+T64	Observation 1272 1281	deserción
+#52	AnnotatorNotes T64	C1302313; Lost to Follow-Up; Finding
+T65	Observation 1466 1477	alto riesgo
+#53	AnnotatorNotes T65	C4319571; High risk; Finding
+R32	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T65	
+R34	Location_of Arg1:T18 Arg2:T17	
+R36	Experiences Arg1:T15 Arg2:T17	
+R37	Experiences Arg1:T15 Arg2:T19	
+#54	AnnotatorNotes T22	C0564778; Obstetric disorders; Disease or Syndrome
+T66	Observation 448 457;463 485	pacientes del sistema subsidiado
+T67	Observation 496 514	vivía en la ciudad
+T68	Observation 496 501;523 554	vivía a más de dos horas de la ciudad
+R5	Experiences Arg1:T15 Arg2:T50	
+#55	AnnotatorNotes T62	C0004285; Audiology; Biomedical Occupation or Discipline
+#56	AnnotatorNotes T61	C0029147; Optometry; Biomedical Occupation or Discipline
+#57	AnnotatorNotes T60	C0029087; Ophthalmology specialty; Biomedical Occupation or Discipline
+A5	Experiencer T15 Patient
+A6	Experiencer T51 Patient
+A7	Experiencer T5 Patient
+A8	Experiencer T52 Patient
+A9	Experiencer T39 Patient
+A10	Experiencer T42 Family_member
+A11	Experiencer T41 Family_member
+A12	Experiencer T43 Family_member
+A13	Experiencer T33 Patient
+A14	Experiencer T54 Family_member

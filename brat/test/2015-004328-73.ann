@@ -1,0 +1,100 @@
+T1	PROC 46 86	Evaluación de la eficacia y la seguridad
+T2	CHEM 91 121	acetato de medroxiprogesterona
+#1	AnnotatorNotes T2	C0065864; medroxyprogesterone acetate; Hormone · Organic Chemical · Pharmacologic Substance
+T3	CHEM 123 132	Progevera
+T4	CHEM 182 192	Orgalutran
+#2	AnnotatorNotes T4	C1136455; orgalutran; Organic Chemical · Pharmacologic Substance
+T5	PROC 208 228	estimulación ovárica
+T6	ANAT 244 252	ovocitos
+#3	AnnotatorNotes T6	C0029045; Oocytes; Cell
+T7	DISO 276 288	Infertilidad
+#4	AnnotatorNotes T7	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T8	ANAT 329 337	ovocitos
+#5	AnnotatorNotes T8	C0029045; Oocytes; Cell
+T9	ANAT 378 386	ovocitos
+#6	AnnotatorNotes T9	C0029045; Oocytes; Cell
+T10	ANAT 456 463	ovárica
+#7	AnnotatorNotes T10	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T11	ANAT 503 511	ovocitos
+#8	AnnotatorNotes T11	C0029045; Oocytes; Cell
+T12	DISO 561 592	Síndrome de ovario poliquístico
+#9	AnnotatorNotes T12	C0032460; Polycystic Ovary Syndrome; Disease or Syndrome
+T13	CHEM 607 616	estradiol
+#10	AnnotatorNotes T13	C0014912; estradiol; Hormone · Organic Chemical · Pharmacologic Substance
+T14	PROC 659 680	Tratamientos hormonal
+T15	CHEM 672 680	hormonal
+#11	AnnotatorNotes T15	C0019932; Hormones; Hormone
+T16	ANAT 726 734	ovocitos
+#12	AnnotatorNotes T16	C0029045; Oocytes; Cell
+T17	PROC 789 801	tratamientos
+#13	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	PROC 714 734	donación de ovocitos
+#14	AnnotatorNotes T18	C0242813; Oocyte Donation; Therapeutic or Preventive Procedure
+T19	CHEM 158 180	antagonista de la GnRh
+#15	AnnotatorNotes T19	C1268855; Gonadotropin releasing hormone antagonist; Hormone · Pharmacologic Substance
+T20	PROC 366 386	donación de ovocitos
+#16	AnnotatorNotes T20	C0242813; Oocyte Donation; Therapeutic or Preventive Procedure
+T21	ANAT 221 228	ovárica
+#17	AnnotatorNotes T21	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T22	PROC 491 511	donación de ovocitos
+#18	AnnotatorNotes T22	C0242813; Oocyte Donation; Therapeutic or Preventive Procedure
+T23	ANAT 573 579	ovario
+#19	AnnotatorNotes T23	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T24	PROC 596 616	Niveles de estradiol
+T25	Date 13 17	2015
+T26	Dose 133 138	10 mg
+T27	LIVB 232 252	donantes de ovocitos
+#20	AnnotatorNotes T27	C3267027; Oocyte donor; Population Group
+T28	LIVB 317 337	Donantes de ovocitos
+#21	AnnotatorNotes T28	C3267027; Oocyte donor; Population Group
+T29	LIVB 408 415	mujeres
+#22	AnnotatorNotes T29	C0043210; Woman; Population Group
+T30	Age 425 441	menos de 35 años
+T31	Date 620 625	día 2
+T32	Duration 687 694	3 meses
+T33	PHYS 630 645	ciclo menstrual
+#23	AnnotatorNotes T33	C0025329; Menstrual cycle; Organism Function
+T34	PHYS 446 463	respuesta ovárica
+#24	AnnotatorNotes T34	C1848715; Ovarian response to FSH stimulation; Organ or Tissue Function (?)
+A1	Assertion T17 Contraindicated
+#25	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#26	AnnotatorNotes T5	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#27	AnnotatorNotes T24	C0337434; Estradiol measurement; Laboratory Procedure 
+#28	AnnotatorNotes T14	C0279025; Hormone Therapy; Therapeutic or Preventive Procedure 
+R1	Has_Dose_or_Strength Arg1:T2 Arg2:T26	
+R2	Has_Dose_or_Strength Arg1:T3 Arg2:T26	
+R3	Location_of Arg1:T21 Arg2:T5	
+R4	Used_for Arg1:T2 Arg2:T5	
+R5	Used_for Arg1:T3 Arg2:T5	
+R6	Used_for Arg1:T19 Arg2:T5	
+R7	Used_for Arg1:T4 Arg2:T5	
+R8	Experiences Arg1:T27 Arg2:T5	
+R9	Experiences Arg1:T27 Arg2:T2	
+R10	Experiences Arg1:T27 Arg2:T3	
+R11	Experiences Arg1:T27 Arg2:T19	
+R12	Experiences Arg1:T27 Arg2:T4	
+R13	Experiences Arg1:T28 Arg2:T20	
+R14	Experiences Arg1:T29 Arg2:T20	
+R15	Has_Age Arg1:T29 Arg2:T30	
+R16	Has_Age Arg1:T28 Arg2:T30	
+R17	Experiences Arg1:T29 Arg2:T34	
+R18	Location_of Arg1:T10 Arg2:T34	
+R19	Experiences Arg1:T28 Arg2:T34	
+T35	Observation 446 470	respuesta ovárica normal
+R20	Location_of Arg1:T10 Arg2:T35	
+R21	Experiences Arg1:T29 Arg2:T35	
+R22	Experiences Arg1:T28 Arg2:T35	
+T36	Quantifier_or_Qualifier 475 487	Primer ciclo
+R23	Location_of Arg1:T11 Arg2:T22	
+R24	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T36	
+R25	Location_of Arg1:T23 Arg2:T12	
+R26	Overlap Arg1:T24 Arg2:T31	
+R27	Overlap Arg1:T33 Arg2:T31	
+T37	Result_or_Value 646 655	>70 pg/ml
+R29	Has_Result_or_Value Arg1:T24 Arg2:T37	
+R30	Used_for Arg1:T15 Arg2:T14	
+R31	Has_Duration_or_Interval Arg1:T14 Arg2:T32	
+R32	Before Arg1:T14 Arg2:T18	
+A2	Experiencer T27 Patient
+A3	Experiencer T28 Patient
+A4	Experiencer T29 Patient

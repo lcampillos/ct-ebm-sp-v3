@@ -1,0 +1,128 @@
+T1	PROC 46 70	Estudio de investigación
+#1	AnnotatorNotes T1	C0681814; research study; Research Activity
+T2	DISO 138 147	sobrepeso
+#2	AnnotatorNotes T2	C0497406; Overweight; Finding
+T3	DISO 150 158	obesidad
+#3	AnnotatorNotes T3	C0028754; Obesity; Disease or Syndrome
+T4	DISO 256 265	sobrepeso
+#4	AnnotatorNotes T4	C0497406; Overweight; Finding
+T5	DISO 268 276	obesidad
+#5	AnnotatorNotes T5	C0028754; Obesity; Disease or Syndrome
+T6	ANAT 385 390	grasa
+#6	AnnotatorNotes T6	C0001527; Adipose tissue; Tissue
+T7	ANAT 448 453	grasa
+#7	AnnotatorNotes T7	C0001527; Adipose tissue; Tissue
+T8	ANAT 460 468	corporal
+#8	AnnotatorNotes T8	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T9	DISO 496 504	Obesidad
+#9	AnnotatorNotes T9	C0028754; Obesity; Disease or Syndrome
+T10	DISO 708 722	comorbilidades
+#10	AnnotatorNotes T10	C1275743; Co-morbid conditions; Finding
+T11	DISO 766 778	hipertensión
+#11	AnnotatorNotes T11	C0020538; Hypertensive disease; Disease or Syndrome
+T12	DISO 780 792	dislipidemia
+#12	AnnotatorNotes T12	C0242339; Dyslipidemias; Disease or Syndrome
+T13	DISO 794 821	apnea obstructiva del sueño
+#13	AnnotatorNotes T13	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T14	DISO 824 849	enfermedad cardiovascular
+#14	AnnotatorNotes T14	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T15	PROC 604 628	consentimiento informado
+#15	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	PROC 928 950	dieta para perder peso
+#16	AnnotatorNotes T16	C0012167; Reducing diet; Therapeutic or Preventive Procedure
+T17	PROC 742 750	tratadas
+#17	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	DISO 1093 1120	variación del peso corporal
+#18	AnnotatorNotes T18	C0005911; Body Weight Changes; Finding
+T19	CHEM 102 113	semaglutida
+#19	AnnotatorNotes T19	C3885068; semaglutide; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T20	CHEM 203 214	semaglutida
+#20	AnnotatorNotes T20	C3885068; semaglutide; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T21	ANAT 835 849	cardiovascular
+#21	AnnotatorNotes T21	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T22	PROC 757 763	tratar
+#22	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	PROC 634 637	IMC
+#23	AnnotatorNotes T23	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T24	PROC 981 986	HbA1c
+#24	AnnotatorNotes T24	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T25	ANAT 1112 1120	corporal
+#25	AnnotatorNotes T25	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T26	DISO 385 430	grasa acumulada en exceso o de manera anormal
+T27	Date 13 17	2017
+T29	LIVB 117 125	personas
+#26	AnnotatorNotes T29	C0027361; Persons; Population Group
+T30	Dose 215 221	2,4 mg
+T31	Frequency 222 240	una vez por semana
+T32	LIVB 244 251	sujetos
+#27	AnnotatorNotes T32	C0681850; Study Subject; Group
+T33	LIVB 534 541	Hombres
+#28	AnnotatorNotes T33	C0025266; Male population group; Population Group
+T34	LIVB 544 551	mujeres
+#29	AnnotatorNotes T34	C0043210; Woman; Population Group
+T35	Age 556 565	≥ 18 años
+T36	Neg_cue 753 756	sin
+T37	LIVB 858 866	paciente
+#30	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 1072 1080	paciente
+#31	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 1131 1142	los 90 días
+T41	PHYS 816 821	sueño
+#32	AnnotatorNotes T41	C0037313; Sleep; Organism Function
+T28	Date 322 345	período de preinclusión
+A1	Assertion T22 Negated
+A2	Status T16 History_of
+R1	Experiences Arg1:T29 Arg2:T19	
+R2	Experiences Arg1:T29 Arg2:T2	
+R3	Experiences Arg1:T29 Arg2:T3	
+R4	Experiences Arg1:T32 Arg2:T4	
+R5	Experiences Arg1:T32 Arg2:T5	
+R6	Experiences Arg1:T32 Arg2:T20	
+R7	Has_Dose_or_Strength Arg1:T20 Arg2:T30	
+R8	Has_Frequency Arg1:T20 Arg2:T31	
+R9	Overlap Arg1:T20 Arg2:T28	
+T38	Observation 448 468	grasa total corporal
+R10	Has_Age Arg1:T34 Arg2:T35	
+R11	Has_Age Arg1:T33 Arg2:T35	
+R12	Overlap Arg1:T15 Arg2:T35	
+T42	Result_or_Value 638 648	≥ 30 kg/m2
+R13	Has_Result_or_Value Arg1:T23 Arg2:T42	
+T43	Result_or_Value 651 661	≥ 27 kg/m2
+R14	Has_Result_or_Value Arg1:T23 Arg2:T43	
+R15	Negation Arg1:T36 Arg2:T22	
+R21	Location_of Arg1:T21 Arg2:T14	
+T44	Quantifier_or_Qualifier 891 902	al menos un
+T45	Quantifier_or_Qualifier 911 918	fallido
+R22	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T45	
+R23	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T44	
+R24	Experiences Arg1:T37 Arg2:T16	
+T46	Result_or_Value 987 1008	≥ 48 mmol/mol (6,5 %)
+R25	Has_Result_or_Value Arg1:T24 Arg2:T46	
+T47	PROC 1054 1063	selección
+#33	AnnotatorNotes T47	C0242802; Patient Selection; Research Activity
+R26	Overlap Arg1:T24 Arg2:T47	
+R27	Experiences Arg1:T39 Arg2:T18	
+R28	Location_of Arg1:T25 Arg2:T18	
+T48	Result_or_Value 1121 1127	> 5 kg
+R29	Has_Result_or_Value Arg1:T18 Arg2:T48	
+R30	Has_Duration_or_Interval Arg1:T18 Arg2:T40	
+T49	PROC 1159 1168	selección
+#34	AnnotatorNotes T49	C0242802; Patient Selection; Research Activity
+R31	Before Arg1:T18 Arg2:T49	
+#35	AnnotatorNotes T38	C0424677; Total body fat; Finding
+T50	Quantifier_or_Qualifier 677 689	al menos una
+R32	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T50	
+T51	CONC 1211 1227	historia clínica
+#36	AnnotatorNotes T51	C5204342; Clinical History; Intellectual Product
+T52	Observation 181 187	Efecto
+#37	AnnotatorNotes T52	C1518681; Outcome of Therapy; Finding (?)
+R33	Causes Arg1:T20 Arg2:T52	
+R34	Experiences Arg1:T32 Arg2:T52	
+#38	AnnotatorNotes T26	C1410991; fat, excess; Sign or Symptom (?) | C3686787; Excess fat body condition; Finding (?)
+R36	Overlap Arg1:T2 Arg2:T3	
+A3	Experiencer T39 Patient
+A4	Experiencer T37 Patient
+A5	Experiencer T34 Patient
+A6	Experiencer T33 Patient
+A7	Experiencer T32 Patient
+A8	Experiencer T29 Patient

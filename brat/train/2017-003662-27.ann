@@ -1,0 +1,142 @@
+T1	CHEM 56 65	Nivolumab
+#1	AnnotatorNotes T1	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T2	DISO 151 181	Cáncer Colorrectal Metastásico
+#2	AnnotatorNotes T2	C4721579; Secondary malignant neoplasm of colon and/or rectum; Neoplastic Process
+T3	PROC 204 245	Ensayo de fase 2/3 abierto y exploratorio
+T4	CHEM 249 258	Nivolumab
+#3	AnnotatorNotes T4	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	DISO 344 374	Cáncer Colorrectal Metastásico
+#4	AnnotatorNotes T5	C4721579; Secondary malignant neoplasm of colon and/or rectum; Neoplastic Process
+T6	DISO 399 416	Cáncer colorectal
+T7	DISO 500 530	Cáncer colorrectal metastásico
+#5	AnnotatorNotes T7	C4721579; Secondary malignant neoplasm of colon and/or rectum; Neoplastic Process
+T8	PROC 704 722	muestras de tejido
+T9	PROC 573 582	resección
+#6	AnnotatorNotes T9	C0728940; Excision; Therapeutic or Preventive Procedure
+T10	DISO 594 624	Cáncer colorrectal metastásico
+#7	AnnotatorNotes T10	C4721579; Secondary malignant neoplasm of colon and/or rectum; Neoplastic Process
+T11	PROC 629 642	quimioterapia
+#8	AnnotatorNotes T11	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T12	ANAT 716 722	tejido
+#9	AnnotatorNotes T12	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T13	DISO 826 847	enfermedad autoinmune
+#10	AnnotatorNotes T13	C0004364; Autoimmune Diseases; Disease or Syndrome
+T14	DISO 849 884	enfermedad cardiovascular, hepática
+T15	ANAT 876 884	hepática
+#11	AnnotatorNotes T15	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T16	DISO 887 912	alteraciones hemorrágicas
+T17	CHEM 940 949	anti-PD-1
+T18	CHEM 951 961	anti-PD-L1
+T19	CHEM 963 973	anti-PD-L2
+T20	CHEM 977 988	anti-CTLA-4
+T21	CHEM 1007 1089	medicamento dirigido específicamente a las vías de coestimulación de las células T
+#12	AnnotatorNotes T21	C3192215; Selective T Cell Costimulation Blocker; Pharmacologic Substance (?)
+T22	ANAT 1080 1089	células T
+#13	AnnotatorNotes T22	C0039194; T-Lymphocyte; Cell
+T23	CHEM 1101 1132	inhibidores de punto de control
+#14	AnnotatorNotes T23	C4684977; Immune Checkpoint Inhibitor; Immunologic Factor; Pharmacologic Substance
+T24	PROC 914 925	Tratamiento
+#15	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	PROC 1169 1225	test para el virus de hepatitis B o virus de hepatitis C
+T26	PROC 70 95	tratamiento de referencia
+T27	PROC 105 147	tratamiento de referencia en primera línea
+T28	ANAT 158 169	Colorrectal
+#16	AnnotatorNotes T28	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T29	PROC 263 288	tratamiento de referencia
+T30	PROC 298 340	tratamiento de referencia en primera línea
+T31	ANAT 351 362	Colorrectal
+#17	AnnotatorNotes T31	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T32	DISO 443 472	Cancer Colorectal Metastásico
+#18	AnnotatorNotes T32	C4721579; Secondary malignant neoplasm of colon and/or rectum; Neoplastic Process
+T33	ANAT 507 518	colorrectal
+#19	AnnotatorNotes T33	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T34	ANAT 601 612	colorrectal
+#20	AnnotatorNotes T34	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T35	ANAT 860 874	cardiovascular
+#21	AnnotatorNotes T35	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T36	ANAT 406 416	colorectal
+#22	AnnotatorNotes T36	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T37	ANAT 450 460	Colorectal
+#23	AnnotatorNotes T37	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T38	Date 13 17	2017
+T39	Neg_cue 560 562	no
+T40	Neg_cue 625 628	sin
+T42	LIVB 1182 1202	virus de hepatitis B
+#24	AnnotatorNotes T42	C0019169; hepatitis B virus; Virus
+T43	LIVB 1205 1225	virus de hepatitis C
+#25	AnnotatorNotes T43	C0220847; hepatitis C virus; Virus
+T44	LIVB 1253 1258	virus
+#26	AnnotatorNotes T44	C0042776; Virus; Virus
+T45	PHYS 1058 1089	coestimulación de las células T
+#27	AnnotatorNotes T45	C1622572; T cell costimulation; Cell Function
+T41	PROC 656 672	Estado funcional
+#28	AnnotatorNotes T41	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T46	PROC 542 558	histológicamente
+#29	AnnotatorNotes T46	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T9 Negated
+A2	Assertion T11 Negated
+A3	Status T11 History_of
+A4	Status T24 History_of
+A5	Status T17 History_of
+A6	Status T18 History_of
+A7	Status T19 History_of
+A8	Status T20 History_of
+A9	Status T21 History_of
+A10	Status T23 History_of
+#30	AnnotatorNotes T6	C0009402; Colorectal Carcinoma; Neoplastic Process
+#31	AnnotatorNotes T14	C0007222; Cardiovascular Diseases; Disease or Syndrome + C0023895; Liver diseases; Disease or Syndrome
+#32	AnnotatorNotes T16	C0019087; Hemorrhagic Disorders; Disease or Syndrome 
+#33	AnnotatorNotes T25	C2363788; Hepatitis B virus test; Laboratory Procedure + C2363789; Hepatitis C virus test; Laboratory Procedure
+#34	AnnotatorNotes T17	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#35	AnnotatorNotes T18	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#36	AnnotatorNotes T3	C1515369; Therapeutic Exploratory Study; Research Activity + C1709323; Open Label Study; Research Activity + C0282460; Phase 2 Clinical Trials; Research Activity + C0282461; Phase 3 Clinical Trials; Research Activity
+#37	AnnotatorNotes T20	C4289973; Anti-CTLA-4 Monoclonal Antibody; Amino Acid, Peptide, or Protein
+T47	LIVB 760 769	Pacientes
+#38	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+R1	Used_for Arg1:T1 Arg2:T26	
+R2	Location_of Arg1:T28 Arg2:T2	
+R3	Location_of Arg1:T31 Arg2:T5	
+R4	Used_for Arg1:T4 Arg2:T29	
+R5	Location_of Arg1:T36 Arg2:T6	
+R6	Location_of Arg1:T37 Arg2:T32	
+R7	Location_of Arg1:T33 Arg2:T7	
+R8	Location_of Arg1:T34 Arg2:T10	
+R9	Negation Arg1:T39 Arg2:T9	
+R10	Negation Arg1:T40 Arg2:T11	
+T48	Quantifier_or_Qualifier 583 591	curativa
+#39	AnnotatorNotes T48	C1880198; Cure (remedy); Conceptual Entity (?)
+R11	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T48	
+A11	Assertion T48 Negated
+R12	Negation Arg1:T39 Arg2:T48	
+T49	Result_or_Value 676 679	0-1
+R13	Has_Result_or_Value Arg1:T41 Arg2:T49	
+T50	CONC 651 655	ECOG
+#40	AnnotatorNotes T50	C1520224; ECOG performance status; Intellectual Product
+R14	Used_for Arg1:T50 Arg2:T41	
+T51	CONC 774 790	historial médico
+#41	AnnotatorNotes T51	C5204342; Clinical History; Intellectual Product
+T52	Quantifier_or_Qualifier 791 813	clínicamente relevante
+R16	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T52	
+R17	Experiences Arg1:T47 Arg2:T13	
+R18	Location_of Arg1:T35 Arg2:T14	
+R19	Location_of Arg1:T15 Arg2:T14	
+R20	Experiences Arg1:T47 Arg2:T14	
+R21	Experiences Arg1:T47 Arg2:T16	
+R22	Used_for Arg1:T17 Arg2:T24	
+R23	Used_for Arg1:T18 Arg2:T24	
+R24	Used_for Arg1:T19 Arg2:T24	
+R25	Used_for Arg1:T20 Arg2:T24	
+R26	Used_for Arg1:T21 Arg2:T24	
+R27	Location_of Arg1:T22 Arg2:T45	
+R28	Used_for Arg1:T23 Arg2:T24	
+T53	Result_or_Value 1146 1164	resultado positivo
+#42	AnnotatorNotes T53	C1446409; Positive; Finding
+R29	Has_Result_or_Value Arg1:T25 Arg2:T53	
+R30	Causes Arg1:T44 Arg2:T53	
+R31	Causes Arg1:T43 Arg2:T53	
+R32	Causes Arg1:T42 Arg2:T53	
+#43	AnnotatorNotes T29	C2936643; Standard of Care; Health Care Activity
+#44	AnnotatorNotes T26	C2936643; Standard of Care; Health Care Activity
+#45	AnnotatorNotes T52	C5209294; Clinical relevance; Intellectual Product
+#46	AnnotatorNotes T8	C2316400; Sampling of tissue specimen; Laboratory Procedure
+A12	Experiencer T47 Patient

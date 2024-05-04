@@ -1,0 +1,203 @@
+T1	PROC 46 76	Estudio con asignacion al azar
+T2	CHEM 116 127	gabapentina
+#1	AnnotatorNotes T2	C0060926; gabapentin; Organic Chemical · Pharmacologic Substance
+T3	DISO 190 203	Herpes Zoster
+#2	AnnotatorNotes T3	C0019360; Herpes zoster disease; Disease or Syndrome
+T4	PROC 204 212	previene
+#3	AnnotatorNotes T4	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T5	DISO 232 255	neuralgia postherpética
+#4	AnnotatorNotes T5	C0032768; Postherpetic neuralgia; Disease or Syndrome
+T6	PROC 279 320	Ensayo clínico, aleatorizado, doble-ciego
+T7	PROC 809 823	diagnósticados
+T8	PROC 326 357	evaluar la eficacia y seguridad
+#5	AnnotatorNotes T8	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T9	CHEM 364 375	gabapentina
+#6	AnnotatorNotes T9	C0060926; gabapentin; Organic Chemical · Pharmacologic Substance
+T10	PROC 385 392	placebo
+#7	AnnotatorNotes T10	C0032042; Placebos; Therapeutic or Preventive Procedure
+T11	PROC 399 409	prevención
+#8	AnnotatorNotes T11	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T12	DISO 416 439	neuralgia postherpética
+#9	AnnotatorNotes T12	C0032768; Postherpetic neuralgia; Disease or Syndrome
+T13	DISO 463 486	Neuralgia Postherpética
+#10	AnnotatorNotes T13	C0032768; Postherpetic neuralgia; Disease or Syndrome
+T14	PROC 539 550	diagnóstico
+#11	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	DISO 554 581	herpes zoster no complicado
+#12	AnnotatorNotes T15	C0348190; Zoster without complication; Disease or Syndrome
+T16	PROC 683 686	EVA
+#13	AnnotatorNotes T16	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2960689; Assessment using visual analog pain scale; Health Care Activity
+T17	PROC 731 742	tratamiento
+#14	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	CHEM 756 767	gabapentina
+#15	AnnotatorNotes T18	C0060926; gabapentin; Organic Chemical · Pharmacologic Substance
+T19	CHEM 770 796	antidepresivos tricíclicos
+#16	AnnotatorNotes T19	C0003290; Tricyclic Antidepressive Agents; Pharmacologic Substance
+T20	DISO 827 849	insuficiencia hepática
+#17	AnnotatorNotes T20	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T21	DISO 882 899	hipersensibilidad
+#18	AnnotatorNotes T21	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T22	CHEM 940 951	excipientes
+#19	AnnotatorNotes T22	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T23	DISO 968 996	insuficiencia renal alterada
+#20	AnnotatorNotes T23	C0341677; Impaired renal function disorder; Disease or Syndrome
+T24	PROC 998 1002	Clcr
+#21	AnnotatorNotes T24	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T25	ANAT 1056 1063	cutánea
+#22	AnnotatorNotes T25	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T26	ANAT 1066 1074	visceral
+#23	AnnotatorNotes T26	C0042779; Viscera; Body Part, Organ, or Organ Component
+T27	DISO 1079 1081	HZ
+#24	AnnotatorNotes T27	C0019360; Herpes zoster disease; Disease or Syndrome
+T28	DISO 1093 1101	lesiones
+#25	AnnotatorNotes T28	C0221198; Lesion; Finding
+T29	ANAT 1112 1121	dermatoma
+#26	AnnotatorNotes T29	C0392338; Cutaneous Receptive Fields; Body Location or Region
+T30	DISO 1135 1155	afectación oftálmica
+T31	PROC 1171 1197	tratamiento inmunosupresor
+#27	AnnotatorNotes T31	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T32	PROC 1222 1233	diagnóstico
+#28	AnnotatorNotes T32	C0011900; Diagnosis; Diagnostic Procedure
+T33	DISO 1237 1254	inmunodeficiencia
+#29	AnnotatorNotes T33	C0021051; Immunologic Deficiency Syndromes; Disease or Syndrome
+T34	PROC 1274 1301	tratamiento inmunomodulador
+T35	CHEM 1303 1313	interferon
+#30	AnnotatorNotes T35	C0021747; Interferons; Amino Acid, Peptide, or Protein · Immunologic Factor
+T36	CHEM 1286 1301	inmunomodulador
+#31	AnnotatorNotes T36	C1527392; Immunomodulators; Immunologic Factor · Pharmacologic Substance
+T37	DISO 623 628	dolor
+#32	AnnotatorNotes T37	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T38	DISO 664 669	dolor
+#33	AnnotatorNotes T38	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T39	ANAT 841 849	hepática
+#34	AnnotatorNotes T39	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T40	CHEM 905 921	sustancia activa
+T41	ANAT 982 987	renal
+#35	AnnotatorNotes T41	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T42	ANAT 1146 1155	oftálmica
+#36	AnnotatorNotes T42	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T43	CHEM 1183 1197	inmunosupresor
+#37	AnnotatorNotes T43	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T44	DISO 177 185	sintomas
+#38	AnnotatorNotes T44	C1457887; Symptoms; Sign or Symptom
+T45	Date 13 17	2013
+T46	LIVB 84 93	pacientes
+#39	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Spec_cue 110 112	si
+T48	Duration 144 160	las primeras 72h
+T49	LIVB 513 522	Pacientes
+#40	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Age 523 533	>= 50 años
+T52	Duration 585 593	< de 72h
+T53	LIVB 609 618	Pacientes
+#41	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 718 727	Pacientes
+#42	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 799 808	Pacientes
+#43	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 858 867	Pacientes
+#44	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 954 963	Pacientes
+#45	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 1016 1025	Pacientes
+#46	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 1158 1167	Pacientes
+#47	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	Duration 1201 1220	los últimos 3 meses
+T64	Duration 1318 1339	las últimas 4 semanas
+A1	Assertion T4 Speculated
+A2	Status T21 History_of
+A3	Status T36 History_of
+A4	Status T34 History_of
+A5	Status T35 History_of
+#48	AnnotatorNotes T1	C0034656; Randomization; Research Activity
+#49	AnnotatorNotes T6	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#50	AnnotatorNotes T7	C0011900; Diagnosis; Diagnostic Procedure
+#51	AnnotatorNotes T40	C0574031; Biologically Active Substance; Biologically Active Substance 
+#52	AnnotatorNotes T34	C1963758; Immunomodulation; Therapeutic or Preventive Procedure
+T51	Neg_cue 568 570	no
+T54	Quantifier_or_Qualifier 571 581	complicado
+A6	Assertion T54 Negated
+#53	AnnotatorNotes T54	C0231242; Complicated; Functional Concept
+R1	Experiences Arg1:T46 Arg2:T2	
+R2	Speculation Arg1:T47 Arg2:T4	
+R3	Used_for Arg1:T2 Arg2:T4	
+R4	Has_Duration_or_Interval Arg1:T2 Arg2:T48	
+R5	Has_Duration_or_Interval Arg1:T44 Arg2:T48	
+R6	Overlap Arg1:T2 Arg2:T44	
+R7	Causes Arg1:T3 Arg2:T44	
+R8	Experiences Arg1:T46 Arg2:T44	
+R9	Experiences Arg1:T46 Arg2:T3	
+R10	Experiences Arg1:T46 Arg2:T4	
+R11	Experiences Arg1:T46 Arg2:T5	
+R12	Before Arg1:T3 Arg2:T5	
+R13	Before Arg1:T4 Arg2:T5	
+R14	Used_for Arg1:T9 Arg2:T11	
+R15	Used_for Arg1:T10 Arg2:T11	
+R16	Before Arg1:T11 Arg2:T12	
+R17	Has_Age Arg1:T49 Arg2:T50	
+R18	Negation Arg1:T51 Arg2:T54	
+R19	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T54	
+R20	Has_Duration_or_Interval Arg1:T15 Arg2:T52	
+R21	Experiences Arg1:T49 Arg2:T15	
+T55	Quantifier_or_Qualifier 629 647	moderado a intenso
+#54	AnnotatorNotes T55	C1299393; Moderate to severe; Qualitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T55	
+T60	Result_or_Value 687 690	>=4
+R23	Has_Result_or_Value Arg1:T16 Arg2:T60	
+R25	Experiences Arg1:T53 Arg2:T37	
+R27	Experiences Arg1:T53 Arg2:T38	
+R28	Experiences Arg1:T53 Arg2:T16	
+R29	Experiences Arg1:T56 Arg2:T17	
+R30	Used_for Arg1:T18 Arg2:T17	
+R31	Used_for Arg1:T19 Arg2:T17	
+R32	Location_of Arg1:T39 Arg2:T20	
+R33	Experiences Arg1:T57 Arg2:T20	
+T65	Quantifier_or_Qualifier 850 855	grave
+#55	AnnotatorNotes T65	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R34	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T65	
+R35	Experiences Arg1:T58 Arg2:T21	
+R36	Causes Arg1:T40 Arg2:T21	
+R37	Causes Arg1:T22 Arg2:T21	
+R38	Location_of Arg1:T41 Arg2:T23	
+R39	Experiences Arg1:T59 Arg2:T23	
+R40	Experiences Arg1:T59 Arg2:T24	
+T66	Result_or_Value 1003 1012	<79ml/min
+R41	Has_Result_or_Value Arg1:T24 Arg2:T66	
+R42	Experiences Arg1:T61 Arg2:T27	
+R43	Experiences Arg1:T61 Arg2:T28	
+T67	Quantifier_or_Qualifier 1083 1092	más de 20
+R44	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T67	
+T68	CONC 1102 1131	fuera del dermatoma adyacente
+R45	Location_of Arg1:T68 Arg2:T28	
+R46	Experiences Arg1:T61 Arg2:T30	
+R47	Location_of Arg1:T42 Arg2:T30	
+T69	Observation 1043 1074	diseminación cutánea o visceral
+R48	Experiences Arg1:T61 Arg2:T69	
+R49	Location_of Arg1:T25 Arg2:T27	
+R50	Location_of Arg1:T26 Arg2:T27	
+#56	AnnotatorNotes T30	C1389627; Eye damage; Injury or Poisoning (?) | C0743711; eye lesion; Disease or Syndrome (?)
+R51	Causes Arg1:T27 Arg2:T28	
+R52	Causes Arg1:T27 Arg2:T30	
+R53	Causes Arg1:T27 Arg2:T69	
+R54	Location_of Arg1:T29 Arg2:T27	
+R55	Experiences Arg1:T62 Arg2:T31	
+R56	Used_for Arg1:T43 Arg2:T31	
+R57	Overlap Arg1:T43 Arg2:T63	
+R58	Experiences Arg1:T62 Arg2:T33	
+R59	Experiences Arg1:T62 Arg2:T34	
+R60	Used_for Arg1:T36 Arg2:T34	
+R61	Used_for Arg1:T35 Arg2:T34	
+R62	Overlap Arg1:T35 Arg2:T64	
+R63	Overlap Arg1:T36 Arg2:T64	
+R24	Location_of Arg1:T25 Arg2:T69	
+R26	Location_of Arg1:T26 Arg2:T69	
+A7	Experiencer T46 Patient
+A8	Experiencer T49 Patient
+A9	Experiencer T53 Patient
+A10	Experiencer T56 Patient
+A11	Experiencer T57 Patient
+A12	Experiencer T58 Patient
+A13	Experiencer T59 Patient
+A14	Experiencer T61 Patient
+A15	Experiencer T62 Patient

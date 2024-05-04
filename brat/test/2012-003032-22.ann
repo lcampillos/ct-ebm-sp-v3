@@ -1,0 +1,201 @@
+T1	PROC 46 83	Trasplante alogénico de células madre
+#1	AnnotatorNotes T1	C2242529; Allogeneic Stem Cell Transplantation; Therapeutic or Preventive Procedure
+T2	DISO 112 140	leucemia linfoblástica aguda
+#2	AnnotatorNotes T2	C0023449; Acute lymphocytic leukemia; Neoplastic Process
+T3	PROC 162 174	radioterapia
+#3	AnnotatorNotes T3	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T4	DISO 232 240	Leucemia
+#4	AnnotatorNotes T4	C0023418; leukemia; Neoplastic Process
+T5	DISO 243 259	Cáncer de sangre
+#5	AnnotatorNotes T5	C0376545; Hematologic Neoplasms; Neoplastic Process
+T6	DISO 286 314	Leucemia Linfoblástica Aguda
+#6	AnnotatorNotes T6	C0023449; Acute lymphocytic leukemia; Neoplastic Process
+T7	DISO 355 358	LLA
+#7	AnnotatorNotes T7	C0023449; Acute lymphocytic leukemia; Neoplastic Process
+T8	DISO 382 387	B-LLA
+T9	PROC 452 463	diagnóstico
+#8	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	PROC 520 573	trasplante alógenico de células madre hematopoyéticas
+T11	ANAT 544 573	células madre hematopoyéticas
+#9	AnnotatorNotes T11	C0018956; Hematopoietic stem cells; Cell
+T12	PROC 608 635	trasplante de células madre
+#10	AnnotatorNotes T12	C1504389; Stem cell transplant; Therapeutic or Preventive Procedure
+T13	PROC 754 778	consentimiento informado
+#11	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	DISO 1013 1031	Linfoma de Hodgkin
+#12	AnnotatorNotes T14	C0019829; Hodgkin Disease; Neoplastic Process | C1266193; Hodgkin lymphoma; Neoplastic Process
+T15	PROC 1041 1050	protocolo
+#13	AnnotatorNotes T15	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T16	PROC 1168 1182	consentimiento
+#14	AnnotatorNotes T16	C1532670; Obtaining consent; Health Care Activity (?)
+T17	DISO 1259 1282	Enfermedad concomitante
+T18	PROC 1307 1318	tratamiento
+#15	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	PROC 1337 1346	protocolo
+#16	AnnotatorNotes T19	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T20	DISO 1391 1416	síndromes de malformación
+T21	DISO 1418 1442	malformaciones cardíacas
+T22	ANAT 1433 1442	cardíacas
+#17	AnnotatorNotes T22	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T23	DISO 1444 1466	trastornos metabólicos
+#18	AnnotatorNotes T23	C0025517; Metabolic Diseases; Disease or Syndrome
+T24	PROC 1470 1489	Índice de Karnofsky
+#19	AnnotatorNotes T24	C0206065; Karnofsky Performance Status; Diagnostic Procedure
+T25	PROC 1571 1585	procedimientos
+#20	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T26	PROC 829 833	TCMH
+#21	AnnotatorNotes T26	C0472699; Hemopoietic stem cell transplant; Therapeutic or Preventive Procedure
+T27	ANAT 70 83	células madre
+#22	AnnotatorNotes T27	C0038250; Stem cells; Cell
+T28	ANAT 121 134	linfoblástica
+#23	AnnotatorNotes T28	C0229613; lymphoblast; Cell
+T29	ANAT 253 259	sangre
+#24	AnnotatorNotes T29	C0005767; Blood; Body Substance
+T30	ANAT 295 308	Linfoblástica
+#25	AnnotatorNotes T30	C0229613; lymphoblast; Cell
+T31	PROC 486 490	TCMH
+#26	AnnotatorNotes T31	C0472699; Hemopoietic stem cell transplant; Therapeutic or Preventive Procedure
+T32	PROC 603 606	TCM
+#27	AnnotatorNotes T32	C1504389; Stem cell transplant; Therapeutic or Preventive Procedure
+T33	ANAT 622 635	células madre
+#28	AnnotatorNotes T33	C0038250; Stem cells; Cell
+T34	PROC 846 850	TCMH
+#29	AnnotatorNotes T34	C0472699; Hemopoietic stem cell transplant; Therapeutic or Preventive Procedure
+T35	PROC 639 661	Consentimiento escrito
+#30	AnnotatorNotes T35	C0811746; Obtain written consent; Health Care Activity
+T36	DISO 799 823	malignidades secundarias
+#31	AnnotatorNotes T36	C3266877; Secondary Malignant Neoplasm; Neoplastic Process
+T37	Date 13 17	2012
+T38	LIVB 87 92	niños
+#32	AnnotatorNotes T38	C0008059; Child; Age Group
+T39	Age 175 207	por debajo de la mayoría de edad
+T40	LIVB 341 350	Pacientes
+#33	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Neg_cue 360 367	excepto
+T42	LIVB 368 377	pacientes
+#34	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Age 464 473	≤ 18 años
+T44	Age 491 500	≤ 21 años
+T45	LIVB 669 675	padres
+#35	AnnotatorNotes T45	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T47	Neg_cue 782 784	No
+T48	PHYS 785 793	embarazo
+#36	AnnotatorNotes T48	C0032961; Pregnancy; Organism Function
+T49	Neg_cue 796 798	No
+T50	Neg_cue 826 828	No
+T51	LIVB 935 944	Pacientes
+#37	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 999 1008	Pacientes
+#38	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Neg_cue 1009 1012	sin
+T55	Neg_cue 1091 1101	rechazadas
+T56	LIVB 1116 1124	paciente
+#39	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	Neg_cue 1159 1161	No
+T58	Neg_cue 1293 1295	no
+T59	LIVB 1364 1376	investigador
+#40	AnnotatorNotes T59	C0035173; Research Personnel; Professional or Occupational Group
+T60	LIVB 1511 1518	sujetos
+#41	AnnotatorNotes T60	C0681850; Study Subject; Group
+T64	LIVB 95 107	adolescentes
+#42	AnnotatorNotes T64	C0205653; Adolescent (age group); Age Group
+T66	PHYS 558 573	hematopoyéticas
+#43	AnnotatorNotes T66	C0018951; Hematopoiesis; Organ or Tissue Function
+T68	PHYS 1455 1466	metabólicos
+#44	AnnotatorNotes T68	C0025519; Metabolism; Organism Function
+T63	LIVB 679 694	tutores legales
+#45	AnnotatorNotes T63	C0023226; Legal Guardians; Population Group
+T46	LIVB 720 725	menor
+#46	AnnotatorNotes T46	C0026193; Minor (person); Population Group
+T52	LIVB 1145 1156	tutor legal
+#47	AnnotatorNotes T52	C0023226; Legal Guardians; Population Group
+A1	Population_data T38 Age
+A2	Population_data T64 Age
+A3	Assertion T42 Negated
+A4	Assertion T8 Negated
+A5	Population_data T46 Age
+A6	Assertion T48 Negated
+A7	Assertion T36 Negated
+A8	Assertion T26 Negated
+A9	Assertion T14 Negated
+A10	Assertion T15 Negated
+A11	Assertion T16 Negated
+A12	Assertion T18 Negated
+A13	Status T26 History_of
+#48	AnnotatorNotes T10	C1705576; Allogeneic Hematopoietic Stem Cell Transplantation; Therapeutic or Preventive Procedure
+#49	AnnotatorNotes T17	C0243087; concomitant disease; Pathologic Function 
+#50	AnnotatorNotes T21	C4228353; Cardiac malformations; Congenital Abnormality 
+T61	Observation 952 996	cumplen alguno de los criterios de inclusión
+A14	Assertion T61 Negated
+#51	AnnotatorNotes T61	C1302261; Patient eligible for clinical trial; Finding (?)
+T62	Neg_cue 949 951	no
+T65	Observation 1548 1585	pueden cumplir con los procedimientos
+A15	Assertion T65 Negated
+T67	Neg_cue 1545 1547	no
+T69	Neg_cue 1523 1525	no
+T70	Observation 1532 1542	dispuestos
+A16	Assertion T70 Negated
+#52	AnnotatorNotes T70	C0600109; Willing; Finding
+T71	Neg_cue 155 161	omitir
+A17	Assertion T3 Negated
+R2	Experiences Arg1:T38 Arg2:T1	
+R3	Experiences Arg1:T64 Arg2:T1	
+R4	Experiences Arg1:T64 Arg2:T2	
+R5	Location_of Arg1:T28 Arg2:T2	
+R6	Experiences Arg1:T38 Arg2:T2	
+R7	Negation Arg1:T71 Arg2:T3	
+R8	Has_Age Arg1:T38 Arg2:T39	
+R9	Has_Age Arg1:T64 Arg2:T39	
+R10	Location_of Arg1:T29 Arg2:T5	
+R11	Location_of Arg1:T30 Arg2:T6	
+R12	Experiences Arg1:T40 Arg2:T7	
+R13	Experiences Arg1:T40 Arg2:T8	
+R14	Experiences Arg1:T42 Arg2:T8	
+R15	Negation Arg1:T41 Arg2:T42	
+R16	Experiences Arg1:T42 Arg2:T7	
+R17	Negation Arg1:T41 Arg2:T8	
+#53	AnnotatorNotes T8	C5678408; B-cell acute lymphocytic leukemia (B-ALL); Finding
+R18	Experiences Arg1:T64 Arg2:T3	
+R19	Experiences Arg1:T38 Arg2:T3	
+R20	Location_of Arg1:T29 Arg2:T4	
+R21	Overlap Arg1:T9 Arg2:T43	
+R22	Overlap Arg1:T31 Arg2:T44	
+T72	Observation 576 593	Remisión completa
+#54	AnnotatorNotes T72	C0677874; In complete remission; Finding
+R24	Before Arg1:T72 Arg2:T32	
+R25	Before Arg1:T72 Arg2:T12	
+R26	Negation Arg1:T47 Arg2:T48	
+R27	Negation Arg1:T49 Arg2:T36	
+R28	Negation Arg1:T50 Arg2:T26	
+R29	Negation Arg1:T62 Arg2:T61	
+R31	Experiences Arg1:T53 Arg2:T14	
+R32	Negation Arg1:T54 Arg2:T14	
+R33	Negation Arg1:T55 Arg2:T15	
+R34	Negation Arg1:T57 Arg2:T16	
+R35	Negation Arg1:T58 Arg2:T18	
+T73	Quantifier_or_Qualifier 1283 1288	grave
+#55	AnnotatorNotes T73	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R36	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T73	
+R37	Location_of Arg1:T22 Arg2:T21	
+T74	Result_or_Value 1499 1504	< 50%
+R39	Has_Result_or_Value Arg1:T24 Arg2:T74	
+T75	CONC 1492 1498	Lansky
+#56	AnnotatorNotes T75	C1522275; Lansky Play-Performance Status; Classification
+R40	Has_Result_or_Value Arg1:T75 Arg2:T74	
+R41	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T70	
+R42	Negation Arg1:T69 Arg2:T70	
+R43	Negation Arg1:T67 Arg2:T65	
+#57	AnnotatorNotes T65	C0582783; Ability to comply with treatment; Finding (?)
+A18	Experiencer T38 Patient
+A19	Experiencer T64 Patient
+A20	Experiencer T42 Patient
+A21	Experiencer T40 Patient
+A22	Experiencer T63 Other
+A23	Experiencer T45 Family_member
+A24	Experiencer T46 Patient
+A25	Experiencer T51 Patient
+A26	Experiencer T53 Patient
+A27	Experiencer T56 Patient
+A28	Experiencer T52 Other
+A29	Experiencer T59 Other
+A30	Experiencer T60 Patient

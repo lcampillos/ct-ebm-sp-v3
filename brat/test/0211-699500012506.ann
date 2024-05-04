@@ -1,0 +1,399 @@
+T1	PROC 1 13	Hemodiálisis
+#1	AnnotatorNotes T1	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T2	CHEM 31 37	calcio
+#2	AnnotatorNotes T2	C0006675; calcium; Pharmacologic Substance · Biologically Active Substance · Element, Ion, or Isotope
+T3	DISO 44 62	hipoparatiroidismo
+#3	AnnotatorNotes T3	C0020626; Hypoparathyroidism; Disease or Syndrome
+T4	PROC 116 130	niveles de PTH
+#4	AnnotatorNotes T4	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T5	CHEM 535 545	dializante
+#5	AnnotatorNotes T5	C0011947; Dialysis Solutions; Pharmacologic Substance
+T6	DISO 209 234	defecto de formación ósea
+#6	AnnotatorNotes T6	C0231557; Abnormal bone formation; Acquired Abnormality (?)
+T7	DISO 269 294	enfermedad ósea adinámica
+#7	AnnotatorNotes T7	C0403566; Adynamic bone disease; Disease or Syndrome
+T8	DISO 1766 1778	Pérdida ósea
+#8	AnnotatorNotes T8	C0029453; Osteopenia; Disease or Syndrome
+T9	CHEM 317 325	aluminio
+#9	AnnotatorNotes T9	C0002367; aluminum; Pharmacologic Substance · Element, Ion, or Isotope
+T10	DISO 332 350	hipoparatiroidismo
+#10	AnnotatorNotes T10	C0020626; Hypoparathyroidism; Disease or Syndrome
+T11	CHEM 407 413	calcio
+#11	AnnotatorNotes T11	C0006675; calcium; Pharmacologic Substance · Biologically Active Substance · Element, Ion, or Isotope
+T12	CHEM 458 483	concentrado para diálisis
+#12	AnnotatorNotes T12	C0731845; Hemodialysis concentrate; Pharmacologic Substance
+T13	PROC 2777 2817	marcadores bioquímicos de formación ósea
+#13	AnnotatorNotes T13	C1869108; Biochemical markers of bone metabolism; Research Activity
+T14	CHEM 695 701	calcio
+#14	AnnotatorNotes T14	C0006675; calcium; Pharmacologic Substance · Biologically Active Substance · Element, Ion, or Isotope
+T15	CHEM 742 745	PTH
+#15	AnnotatorNotes T15	C0020063; PTH protein, human; Amino Acid, Peptide, or Protein · Hormone | C0030520; parathyroid hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T16	CHEM 827 836	alumínica
+#16	AnnotatorNotes T16	C0002367; aluminum; Pharmacologic Substance · Element, Ion, or Isotope
+T17	DISO 814 836	intoxicación alumínica
+#17	AnnotatorNotes T17	C0473223; aluminium intoxication; Disease or Syndrome
+T18	PROC 838 848	trasplante
+#18	AnnotatorNotes T18	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T19	PROC 851 868	paratiroidectomía
+#19	AnnotatorNotes T19	C0079989; Parathyroidectomy; Therapeutic or Preventive Procedure
+T20	PROC 873 885	hemodiálisis
+#20	AnnotatorNotes T20	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T21	CHEM 901 907	calcio
+#21	AnnotatorNotes T21	C0006675; calcium; Pharmacologic Substance · Biologically Active Substance · Element, Ion, or Isotope
+T22	CHEM 932 939	fósforo
+#22	AnnotatorNotes T22	C0031705; phosphorus; Element, Ion, or Isotope
+T23	ANAT 1041 1051	trabecular
+#23	AnnotatorNotes T23	C0222660; Cancellous Bone; Tissue
+T24	ANAT 1055 1072	columna vertebral
+#24	AnnotatorNotes T24	C0037949; Vertebral column; Body Part, Organ, or Organ Component | C1267072; Entire vertebral column; Body Part, Organ, or Organ Component
+T25	PROC 1082 1125	tomografía axial computerizada cuantitativa
+#25	AnnotatorNotes T25	C2022017; computed tomography bone density study, quantitative; Diagnostic Procedure (?)
+T26	PROC 1257 1270	densidad ósea
+#26	AnnotatorNotes T26	C0177804; Bone Mineral Density Test; Diagnostic Procedure
+T27	PROC 1495 1508	densidad ósea
+#27	AnnotatorNotes T27	C0177804; Bone Mineral Density Test; Diagnostic Procedure
+T28	PROC 1556 1568	hemodiálisis
+#28	AnnotatorNotes T28	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T29	CHEM 1586 1592	calcio
+#29	AnnotatorNotes T29	C0006675; calcium; Pharmacologic Substance · Biologically Active Substance · Element, Ion, or Isotope
+T30	DISO 1602 1627	reducción de la masa ósea
+#30	AnnotatorNotes T30	C1306580; Bone mass decreased; Finding
+T31	DISO 1963 1970	pérdida
+#31	AnnotatorNotes T31	C0029453; Osteopenia; Disease or Syndrome
+T32	ANAT 1774 1778	ósea
+#32	AnnotatorNotes T32	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T33	PROC 2055 2058	PTH
+#33	AnnotatorNotes T33	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T34	PROC 2107 2125	fosfatasa alcalina
+#34	AnnotatorNotes T34	C0201850; Alkaline phosphatase measurement; Laboratory Procedure
+T35	ANAT 2210 2214	ósea
+#35	AnnotatorNotes T35	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T36	PROC 2259 2262	PTH
+#36	AnnotatorNotes T36	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T37	DISO 2202 2214	pérdida ósea
+#37	AnnotatorNotes T37	C0029453; Osteopenia; Disease or Syndrome
+T38	CHEM 2446 2461	calcio elemento
+#38	AnnotatorNotes T38	C0006675; calcium; Pharmacologic Substance · Biologically Active Substance · Element, Ion, or Isotope
+T39	DISO 2620 2632	pérdida ósea
+#39	AnnotatorNotes T39	C0029453; Osteopenia; Disease or Syndrome
+T40	PROC 2539 2542	PTH
+#40	AnnotatorNotes T40	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T41	ANAT 2628 2632	ósea
+#41	AnnotatorNotes T41	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T42	CHEM 2711 2717	calcio
+#42	AnnotatorNotes T42	C0006675; calcium; Pharmacologic Substance · Biologically Active Substance · Element, Ion, or Isotope
+T43	CHEM 2845 2850	CO3Ca
+#43	AnnotatorNotes T43	C0006681; calcium carbonate; Pharmacologic Substance · Inorganic Chemical
+T44	DISO 2734 2754	Pérdida de masa ósea
+#44	AnnotatorNotes T44	C0029453; Osteopenia; Disease or Syndrome
+T45	PROC 2771 2774	PTH
+#45	AnnotatorNotes T45	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T46	ANAT 106 110	ósea
+#46	AnnotatorNotes T46	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T47	CHEM 127 130	PTH
+#47	AnnotatorNotes T47	C0020063; PTH protein, human; Amino Acid, Peptide, or Protein · Hormone | C0030520; parathyroid hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T48	PROC 159 167	diálisis
+#48	AnnotatorNotes T48	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T49	ANAT 230 234	ósea
+#49	AnnotatorNotes T49	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T50	ANAT 280 284	ósea
+#50	AnnotatorNotes T50	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T51	CHEM 433 452	compuestos cálcicos
+#51	AnnotatorNotes T51	C3536914; Calcium Compounds; Chemical Viewed Structurally
+T52	PROC 475 483	diálisis
+#52	AnnotatorNotes T52	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T53	CHEM 522 528	calcio
+#53	AnnotatorNotes T53	C0006675; calcium; Pharmacologic Substance · Biologically Active Substance · Element, Ion, or Isotope
+T54	ANAT 616 620	ósea
+#54	AnnotatorNotes T54	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T55	ANAT 716 720	ósea
+#55	AnnotatorNotes T55	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T56	PROC 785 796	PTH intacta
+#56	AnnotatorNotes T56	C2041365; serum intact PTH level; Laboratory Procedure
+T57	CHEM 910 915	CO3Ca
+#57	AnnotatorNotes T57	C0006681; calcium carbonate; Pharmacologic Substance · Inorganic Chemical
+T58	PROC 999 1007	diálisis
+#58	AnnotatorNotes T58	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T59	ANAT 1036 1040	ósea
+#59	AnnotatorNotes T59	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T60	PROC 1228 1236	diálisis
+#60	AnnotatorNotes T60	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T61	ANAT 1266 1270	ósea
+#61	AnnotatorNotes T61	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T62	PROC 1272 1275	PTH
+#62	AnnotatorNotes T62	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T63	PROC 1277 1283	calcio
+#63	AnnotatorNotes T63	C0201925; Calcium measurement; Laboratory Procedure
+T64	PROC 1285 1292	fósforo
+#64	AnnotatorNotes T64	C0202178; Phosphorus measurement; Laboratory Procedure
+T65	PROC 1295 1313	fosfatasa alcalina
+#65	AnnotatorNotes T65	C0201850; Alkaline phosphatase measurement; Laboratory Procedure
+T66	PROC 1396 1402	calcio
+#66	AnnotatorNotes T66	C0201925; Calcium measurement; Laboratory Procedure
+T67	PROC 1404 1411	fósforo
+#67	AnnotatorNotes T67	C0202178; Phosphorus measurement; Laboratory Procedure
+T68	PROC 1422 1440	fosfatasa alcalina
+#68	AnnotatorNotes T68	C0201850; Alkaline phosphatase measurement; Laboratory Procedure
+T69	PROC 1462 1465	PTH
+#69	AnnotatorNotes T69	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T70	ANAT 1504 1508	ósea
+#70	AnnotatorNotes T70	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T71	ANAT 1623 1627	ósea
+#71	AnnotatorNotes T71	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T72	PROC 2286 2292	Calcio
+#72	AnnotatorNotes T72	C0201925; Calcium measurement; Laboratory Procedure
+T73	PROC 2295 2302	fósforo
+#73	AnnotatorNotes T73	C0202178; Phosphorus measurement; Laboratory Procedure
+T74	CHEM 2357 2362	CO3Ca
+#74	AnnotatorNotes T74	C0006681; calcium carbonate; Pharmacologic Substance · Inorganic Chemical
+T75	ANAT 2750 2754	ósea
+#75	AnnotatorNotes T75	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T76	ANAT 2813 2817	ósea
+#76	AnnotatorNotes T76	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T77	Dose 18 27	2,5 mEq/L
+T78	Date 81 94	a largo plazo
+T80	LIVB 146 155	pacientes
+#77	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T81	PHYS 220 234	formación ósea
+#78	AnnotatorNotes T81	C0029433; Osteogenesis; Organ or Tissue Function
+T85	Dose 548 557	2,5 mEq/l
+T87	Dose 682 691	2,5 mEq/l
+T89	LIVB 728 737	pacientes
+#79	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T90	DISO 742 755	PTH suprimida
+#80	AnnotatorNotes T90	C0020626; Hypoparathyroidism; Disease or Syndrome
+T91	LIVB 771 780	pacientes
+#81	AnnotatorNotes T91	C0030705; Patients; Patient or Disabled Group
+T92	Neg_cue 810 813	sin
+T93	Dose 890 897	3 mEq/l
+T94	LIVB 961 968	mujeres
+#82	AnnotatorNotes T94	C0043210; Woman; Population Group
+T95	Age 976 988	57 ± 13 años
+T97	LIVB 1156 1165	pacientes
+#83	AnnotatorNotes T97	C0030705; Patients; Patient or Disabled Group
+T98	LIVB 1181 1190	pacientes
+#84	AnnotatorNotes T98	C0030705; Patients; Patient or Disabled Group
+T101	Dose 1344 1353	2,5 mEq/l
+T102	Dose 1375 1382	3 mEq/l
+T104	Frequency 1448 1460	mensualmente
+T105	Frequency 1474 1489	cada tres meses
+T108	Duration 1546 1552	un año
+T109	Dose 1573 1582	2,5 mEq/l
+T112	LIVB 1751 1764	grupo control
+#85	AnnotatorNotes T112	C0009932; Control Groups; Group
+T113	LIVB 1974 1981	mujeres
+#86	AnnotatorNotes T113	C0043210; Woman; Population Group
+T114	LIVB 2004 2011	hombres
+#87	AnnotatorNotes T114	C0025266; Male population group; Population Group
+T117	Date 2378 2392	1.er trimestre
+T118	Date 2405 2418	4.º trimestre
+T119	Dose 2698 2707	2,5 mEq/l
+T121	PHYS 2803 2817	formación ósea
+#88	AnnotatorNotes T121	C0029433; Osteogenesis; Organ or Tissue Function
+T82	LIVB 950 957	hombres
+#89	AnnotatorNotes T82	C0025266; Male population group; Population Group
+T83	Duration 1009 1016	40 ± 29
+T84	Dose 2394 2403	332 ± 261
+T96	Dose 2420 2429	537 ± 260
+T79	CHEM 785 788	PTH
+#90	AnnotatorNotes T79	C0020063; PTH protein, human; Amino Acid, Peptide, or Protein · Hormone | C0030520; parathyroid hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+A1	Assertion T17 Negated
+A2	Assertion T18 Negated
+A3	Assertion T19 Negated
+T86	Neg_cue 2174 2177	sin
+T88	CONC 2178 2185	cambios
+A4	Assertion T88 Negated
+#91	AnnotatorNotes T88	C0443172; Changed status; Quantitative Concept
+R1	Negation Arg1:T86 Arg2:T88	
+T99	CONC 1740 1747	cambios
+A5	Assertion T99 Negated
+#92	AnnotatorNotes T99	C0443172; Changed status; Quantitative Concept
+T100	Neg_cue 1736 1739	sin
+R2	Negation Arg1:T100 Arg2:T99	
+T103	CONC 1242 1253	diferencias
+A6	Assertion T103 Negated
+#93	AnnotatorNotes T103	C1705241; Delta (difference); Quantitative Concept
+T106	Neg_cue 1238 1241	Sin
+R3	Negation Arg1:T106 Arg2:T103	
+R4	Negation Arg1:T92 Arg2:T17	
+R5	Causes Arg1:T16 Arg2:T17	
+T107	Neg_cue 295 297	no
+T110	Quantifier_or_Qualifier 298 325	relacionada con el aluminio
+A7	Assertion T110 Negated
+R6	Negation Arg1:T107 Arg2:T110	
+R7	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T110	
+R8	Location_of Arg1:T50 Arg2:T7	
+T111	CONC 2306 2320	se modificaron
+A8	Assertion T111 Negated
+#94	AnnotatorNotes T111	C0443172; Changed status; Quantitative Concept
+T115	Neg_cue 2303 2305	no
+R9	Negation Arg1:T115 Arg2:T111	
+T116	Spec_cue 559 571	Se desconoce
+T120	CONC 575 586	repercusión
+A9	Assertion T120 Speculated
+#95	AnnotatorNotes T120	C1280500; Effect; Qualitative Concept (?)
+R10	Speculation Arg1:T116 Arg2:T120	
+R11	Used_for Arg1:T2 Arg2:T1	
+R12	Has_Dose_or_Strength Arg1:T2 Arg2:T77	
+T122	Quantifier_or_Qualifier 63 71	relativo
+#96	AnnotatorNotes T122	C0205345; Relative; Qualitative Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T122	
+T123	Observation 73 80	efectos
+T124	Quantifier_or_Qualifier 351 359	relativo
+#97	AnnotatorNotes T124	C0205345; Relative; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T124	
+R15	Causes Arg1:T1 Arg2:T123	
+R16	Overlap Arg1:T123 Arg2:T78	
+R17	Location_of Arg1:T46 Arg2:T123	
+#98	AnnotatorNotes T123	C1518681; Outcome of Therapy; Finding (?)
+R18	Experiences Arg1:T80 Arg2:T4	
+R19	Experiences Arg1:T80 Arg2:T48	
+R21	Overlap Arg1:T4 Arg2:T6	
+R22	Location_of Arg1:T49 Arg2:T81	
+R23	Location_of Arg1:T49 Arg2:T6	
+R24	Experiences Arg1:T80 Arg2:T6	
+T125	Observation 191 206	bajo remodelado
+R25	Overlap Arg1:T4 Arg2:T125	
+R26	Before Arg1:T6 Arg2:T7	
+R27	Before Arg1:T125 Arg2:T7	
+R28	Experiences Arg1:T80 Arg2:T125	
+R29	Experiences Arg1:T80 Arg2:T7	
+R30	Before Arg1:T51 Arg2:T10	
+R31	Before Arg1:T12 Arg2:T10	
+R32	Has_Dose_or_Strength Arg1:T53 Arg2:T85	
+R33	Combined_with Arg1:T53 Arg2:T5	
+R34	Used_for Arg1:T5 Arg2:T52	
+R35	Used_for Arg1:T12 Arg2:T52	
+R36	Location_of Arg1:T54 Arg2:T120	
+T126	Observation 654 660	efecto
+#99	AnnotatorNotes T126	C1518681; Outcome of Therapy; Finding (?)
+R37	Has_Dose_or_Strength Arg1:T14 Arg2:T87	
+R38	Causes Arg1:T14 Arg2:T126	
+R39	Location_of Arg1:T55 Arg2:T126	
+R40	Experiences Arg1:T89 Arg2:T90	
+R41	Experiences Arg1:T89 Arg2:T14	
+R42	Experiences Arg1:T89 Arg2:T126	
+R43	Experiences Arg1:T91 Arg2:T56	
+R44	Experiences Arg1:T91 Arg2:T17	
+R45	Experiences Arg1:T91 Arg2:T18	
+R46	Experiences Arg1:T91 Arg2:T19	
+R47	Negation Arg1:T92 Arg2:T18	
+R48	Negation Arg1:T92 Arg2:T19	
+R49	Combined_with Arg1:T21 Arg2:T57	
+R50	Used_for Arg1:T21 Arg2:T20	
+R51	Has_Dose_or_Strength Arg1:T21 Arg2:T93	
+R52	Experiences Arg1:T91 Arg2:T20	
+T127	Result_or_Value 797 808	< 120 pg/ml
+R53	Has_Result_or_Value Arg1:T56 Arg2:T127	
+R54	Has_Age Arg1:T94 Arg2:T95	
+R55	Has_Age Arg1:T82 Arg2:T95	
+R56	Experiences Arg1:T82 Arg2:T58	
+R57	Experiences Arg1:T94 Arg2:T58	
+R58	Has_Duration_or_Interval Arg1:T58 Arg2:T83	
+R59	Experiences Arg1:T97 Arg2:T60	
+R60	Experiences Arg1:T98 Arg2:T60	
+R61	Location_of Arg1:T24 Arg2:T25	
+R62	Location_of Arg1:T61 Arg2:T26	
+R63	Has_Frequency Arg1:T68 Arg2:T104	
+R64	Has_Frequency Arg1:T67 Arg2:T104	
+R65	Has_Frequency Arg1:T66 Arg2:T104	
+R66	Has_Frequency Arg1:T69 Arg2:T105	
+R67	Location_of Arg1:T70 Arg2:T27	
+T128	CONC 1520 1539	término del estudio
+#100	AnnotatorNotes T128	C2983670; Study End Date; Temporal Concept
+R68	Overlap Arg1:T27 Arg2:T128	
+R69	Has_Duration_or_Interval Arg1:T28 Arg2:T108	
+R70	Used_for Arg1:T29 Arg2:T28	
+R71	Has_Dose_or_Strength Arg1:T29 Arg2:T109	
+R72	Location_of Arg1:T71 Arg2:T30	
+R73	Causes Arg1:T28 Arg2:T30	
+T129	Quantifier_or_Qualifier 1629 1634	basal
+#101	AnnotatorNotes T129	C1442488; Baseline; Quantitative Concept
+T130	Quantifier_or_Qualifier 1648 1653	final
+#102	AnnotatorNotes T130	C3853528; Final; Temporal Concept
+T131	CONC 1676 1683	Z-Score
+#103	AnnotatorNotes T131	C4528339; Bone Mineral Density Z-Score; Quantitative Concept
+T132	CONC 1791 1798	Z-Score
+#104	AnnotatorNotes T132	C4528339; Bone Mineral Density Z-Score; Quantitative Concept
+R74	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T129	
+R75	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T130	
+T133	Quantifier_or_Qualifier 1684 1689	basal
+#105	AnnotatorNotes T133	C1442488; Baseline; Quantitative Concept
+R76	Has_Quantifier_or_Qualifier Arg1:T131 Arg2:T133	
+T134	Quantifier_or_Qualifier 2060 2065	basal
+#106	AnnotatorNotes T134	C1442488; Baseline; Quantitative Concept
+T135	Quantifier_or_Qualifier 2127 2132	basal
+#107	AnnotatorNotes T135	C1442488; Baseline; Quantitative Concept
+R77	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T135	
+T136	Quantifier_or_Qualifier 2146 2151	final
+#108	AnnotatorNotes T136	C3853528; Final; Temporal Concept
+T137	Quantifier_or_Qualifier 2079 2084	final
+#109	AnnotatorNotes T137	C3853528; Final; Temporal Concept
+T138	Quantifier_or_Qualifier 1704 1709	final
+#110	AnnotatorNotes T138	C3853528; Final; Temporal Concept
+R78	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T136	
+R79	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T134	
+R80	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T137	
+R81	Has_Quantifier_or_Qualifier Arg1:T131 Arg2:T138	
+R82	Experiences Arg1:T112 Arg2:T30	
+R83	Experiences Arg1:T112 Arg2:T28	
+R84	Location_of Arg1:T32 Arg2:T8	
+R85	Experiences Arg1:T113 Arg2:T31	
+R86	Experiences Arg1:T114 Arg2:T31	
+T139	Observation 2044 2058	aumentaron PTH
+#111	AnnotatorNotes T139	C1851703; Elevated PTH (parathyroid hormone); Finding (?)
+T140	Observation 2044 2054;2107 2125	aumentaron fosfatasa alcalina
+#112	AnnotatorNotes T140	C0151849; Alkaline phosphatase raised; Finding
+T141	Observation 2245 2262	incremento de PTH
+#113	AnnotatorNotes T141	C1851703; Elevated PTH (parathyroid hormone); Finding
+R87	Location_of Arg1:T35 Arg2:T37	
+R88	Overlap Arg1:T74 Arg2:T117	
+R89	Has_Dose_or_Strength Arg1:T74 Arg2:T84	
+R90	Before Arg1:T84 Arg2:T96	
+R91	Overlap Arg1:T74 Arg2:T118	
+R92	Has_Dose_or_Strength Arg1:T74 Arg2:T96	
+T142	CONC 2336 2353	dosis acumulativa
+#114	AnnotatorNotes T142	C2986497; Cumulative Dose; Conceptual Entity
+R93	Used_for Arg1:T142 Arg2:T74	
+R94	Has_Dose_or_Strength Arg1:T38 Arg2:T96	
+R95	Has_Dose_or_Strength Arg1:T38 Arg2:T84	
+R96	Overlap Arg1:T38 Arg2:T118	
+R97	Overlap Arg1:T38 Arg2:T117	
+R98	Used_for Arg1:T142 Arg2:T38	
+T144	CONC 2477 2514	análisis de regresión lineal múltiple
+#116	AnnotatorNotes T144	C0034980; Regression Analysis; Intellectual Product + C0023733; Linear Regression; Quantitative Concept + C0681923; multiple regression; Qualitative Concept
+T146	Observation 2525 2542	incremento de PTH
+#117	AnnotatorNotes T146	C1851703; Elevated PTH (parathyroid hormone); Finding
+R100	Location_of Arg1:T41 Arg2:T39	
+R101	Has_Dose_or_Strength Arg1:T42 Arg2:T119	
+R102	Causes Arg1:T42 Arg2:T44	
+R103	Location_of Arg1:T75 Arg2:T44	
+T147	Observation 2760 2774	Aumento de PTH
+#118	AnnotatorNotes T147	C1851703; Elevated PTH (parathyroid hormone); Finding
+R105	Location_of Arg1:T76 Arg2:T121	
+R106	Location_of Arg1:T76 Arg2:T13	
+T148	PROC 2823 2841	Mayor dosificación
+#119	AnnotatorNotes T148	C1707810; Dose Increased; Therapeutic or Preventive Procedure (?)
+R107	Used_for Arg1:T43 Arg2:T148	
+R108	Causes Arg1:T42 Arg2:T147	
+R109	Before Arg1:T42 Arg2:T148	
+T143	PROC 1018 1040	Se valoró la masa ósea
+#115	AnnotatorNotes T143	C0177804; Bone Mineral Density Test; Diagnostic Procedure
+R99	Location_of Arg1:T23 Arg2:T143	
+R110	Location_of Arg1:T59 Arg2:T143	
+R111	Location_of Arg1:T24 Arg2:T143	
+R20	Location_of Arg1:T49 Arg2:T125	
+#120	AnnotatorNotes T78	C0443252; Long-term; Temporal Concept
+A10	Experiencer T80 Patient
+A11	Experiencer T89 Patient
+A12	Experiencer T91 Patient
+A13	Experiencer T82 Patient
+A14	Experiencer T94 Patient
+A15	Experiencer T97 Patient
+A16	Experiencer T98 Patient
+A17	Experiencer T112 Patient
+A18	Experiencer T113 Patient
+A19	Experiencer T114 Patient
+R104	Has_Result_or_Value Arg1:T45 Arg2:T147	
+R112	Has_Result_or_Value Arg1:T34 Arg2:T140	
+R113	Has_Result_or_Value Arg1:T33 Arg2:T139	

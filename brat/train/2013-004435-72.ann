@@ -1,0 +1,130 @@
+T1	PROC 46 104	Estudio abierto de extensión y supervisión de la seguridad
+T2	DISO 122 138	colitis ulcerosa
+#1	AnnotatorNotes T2	C0009324; Ulcerative Colitis; Disease or Syndrome
+T3	PROC 164 181	estudios fase III
+T4	PROC 220 278	ESTUDIO ABIERTO DE EXTENSIÓN Y SUPERVISIÓN DE LA SEGURIDAD
+T5	DISO 296 312	COLITIS ULCEROSA
+#2	AnnotatorNotes T5	C0009324; Ulcerative Colitis; Disease or Syndrome
+T6	PROC 358 378	ESTUDIOS EN FASE III
+T7	DISO 429 463	enfermedad inflamatoria intestinal
+#3	AnnotatorNotes T7	C0021390; Inflammatory Bowel Diseases; Disease or Syndrome
+T8	DISO 490 506	Colitis Ulcerosa
+#4	AnnotatorNotes T8	C0009324; Ulcerative Colitis; Disease or Syndrome
+T9	PROC 621 653	estudios controlados en fase III
+T10	PROC 706 717	tratamiento
+#5	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	CHEM 722 733	etrolizumab
+#6	AnnotatorNotes T11	C3177463; etrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T12	PROC 784 793	protocolo
+#7	AnnotatorNotes T12	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T13	CHEM 383 394	ETROLIZUMAB
+#8	AnnotatorNotes T13	C3177463; etrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	PROC 1040 1049	protocolo
+#9	AnnotatorNotes T14	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T15	PROC 1085 1096	seguimiento
+#10	AnnotatorNotes T15	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T16	CHEM 903 914	etrolizumab
+#11	AnnotatorNotes T16	C3177463; etrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T17	ANAT 453 463	intestinal
+#12	AnnotatorNotes T17	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T18	PROC 878 898	estudios en fase III
+T19	CHEM 186 197	etrolizumab
+#13	AnnotatorNotes T19	C3177463; etrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T20	PROC 1027 1030	OLE
+#14	AnnotatorNotes T20	C1709323; Open Label Study; Research Activity (?)
+T21	PROC 980 983	OLE
+#15	AnnotatorNotes T21	C1709323; Open Label Study; Research Activity (?)
+T22	Date 13 17	2013
+T23	LIVB 108 117	pacientes
+#16	AnnotatorNotes T23	C0030705; Patients; Patient or Disabled Group
+T24	LIVB 282 291	PACIENTES
+#17	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	LIVB 570 579	pacientes
+#18	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 837 846	Pacientes
+#19	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 988 997	Pacientes
+#20	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 1053 1062	Pacientes
+#21	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Duration 1116 1126	12 semanas
+T27	PROC 1293 1320	supervisión de la seguridad
+#22	AnnotatorNotes T27	C0150370; Surveillance: safety; Therapeutic or Preventive Procedure
+T28	PROC 806 833	supervisión de la seguridad
+#23	AnnotatorNotes T28	C0150370; Surveillance: safety; Therapeutic or Preventive Procedure
+T32	Neg_cue 921 923	no
+T33	Observation 928 933	aptos
+#24	AnnotatorNotes T33	C1302261; Patient eligible for clinical trial; Finding
+A1	Status T3 History_of
+A2	Status T19 History_of
+A3	Status T6 History_of
+A4	Status T13 History_of
+A6	Status T18 History_of
+A7	Status T11 History_of
+A8	Status T16 History_of
+A9	Status T10 History_of
+A10	Assertion T33 Negated
+#25	AnnotatorNotes T3	C0282461; Phase 3 Clinical Trials; Research Activity
+#26	AnnotatorNotes T6	C0282461; Phase 3 Clinical Trials; Research Activity
+#28	AnnotatorNotes T18	C0282461; Phase 3 Clinical Trials; Research Activity 
+T34	Neg_cue 1324 1326	No
+T35	CONC 1331 1353	criterios de exclusión
+A11	Assertion T35 Negated
+#29	AnnotatorNotes T35	C0680251; Exclusion Criteria; Functional Concept
+T36	Observation 1236 1245	condición
+#30	AnnotatorNotes T36	C4745084; Medical Condition; Finding
+T37	Quantifier_or_Qualifier 1246 1251	nueva
+#31	AnnotatorNotes T37	C0205314; New; Qualitative Concept
+T38	Neg_cue 1269 1271	no
+T39	Quantifier_or_Qualifier 1272 1282	controlada
+A12	Assertion T39 Negated
+T40	Quantifier_or_Qualifier 1253 1266	significativa
+#32	AnnotatorNotes T40	C1546944; Event Seriousness - Significant; Qualitative Concept
+T41	Neg_cue 950 952	no
+T42	PROC 953 964	inscribirse
+A13	Assertion T42 Negated
+R1	Negation Arg1:T32 Arg2:T33	
+R2	Experiences Arg1:T23 Arg2:T2	
+R3	Experiences Arg1:T23 Arg2:T19	
+T43	Observation 139 181	previamente inscritos en estudios fase III
+R4	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T43	
+R5	Experiences Arg1:T24 Arg2:T5	
+T44	Observation 333 378	PREVIAMENTE INSCRITOS EN ESTUDIOS EN FASE III
+R6	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T44	
+R7	Experiences Arg1:T24 Arg2:T13	
+T45	Quantifier_or_Qualifier 316 332	MODERADA A GRAVE
+#33	AnnotatorNotes T45	C1299393; Moderate to severe; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T45	
+R9	Location_of Arg1:T17 Arg2:T7
+R10	Used_for Arg1:T11 Arg2:T10	
+R11	Experiences Arg1:T25 Arg2:T10	
+T46	Observation 592 653	inscritos previamente en los estudios controlados en fase III
+A5	Status T9 History_of
+R12	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T46	
+T47	Observation 660 697	satisfacen los criterios de idoneidad
+#27	AnnotatorNotes T47	C1302261; Patient eligible for clinical trial; Finding (?)
+T48	Observation 851 898	participaron en uno de los estudios en fase III
+R15	Experiences Arg1:T26 Arg2:T16	
+R16	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T33	
+#34	AnnotatorNotes T42	C4041024; Enrollment in clinical trial; Research Activity
+R17	Negation Arg1:T41 Arg2:T42	
+T49	Observation 1002 1031	provienen de la parte 1 (OLE)
+T50	Observation 1071 1112	completado el seguimiento de la seguridad
+R19	Has_Duration_or_Interval Arg1:T15 Arg2:T31	
+T51	Observation 1136 1146	participar
+#35	AnnotatorNotes T51	C1278516; Patient participation status; Finding
+R21	Before Arg1:T50 Arg2:T51	
+R23	Before Arg1:T15 Arg2:T51	
+R24	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T37	
+R25	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T40	
+R26	Negation Arg1:T38 Arg2:T39	
+R27	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T39	
+R28	Negation Arg1:T34 Arg2:T35	
+#36	AnnotatorNotes T50	C5554829; Follow-Up Completed; Finding (?)
+#37	AnnotatorNotes T9	C0282461; Phase 3 Clinical Trials; Research Activity + C0681867; Controlled Study; Research Activity
+A14	Experiencer T30 Patient
+A15	Experiencer T29 Patient
+A16	Experiencer T23 Patient
+A17	Experiencer T24 Patient
+A18	Experiencer T25 Patient
+A19	Experiencer T26 Patient

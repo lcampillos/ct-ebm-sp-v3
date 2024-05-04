@@ -1,0 +1,172 @@
+T1	PROC 8 20	fluoroscopia
+#1	AnnotatorNotes T1	C0016356; Fluoroscopy; Diagnostic Procedure
+T2	PROC 43 54	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 58 95	fracturas aisladas de arco cigomático
+T4	ANAT 80 95	arco cigomático
+#3	AnnotatorNotes T4	C0162485; Zygomatic Arch; Body Part, Organ, or Organ Component | C1280850; Entire zygomatic arch; Body Part, Organ, or Organ Component
+T5	PROC 140 191	reducción de la fractura aislada de arco cigomático
+#4	AnnotatorNotes T5	C0407737; Reduction of fracture of zygomatic bone; Therapeutic or Preventive Procedure (?)
+T6	DISO 156 191	fractura aislada de arco cigomático
+#5	AnnotatorNotes T6	C0043540; Fracture of zygoma; Injury or Poisoning (?)
+T7	ANAT 176 191	arco cigomático
+#6	AnnotatorNotes T7	C0162485; Zygomatic Arch; Body Part, Organ, or Organ Component | C1280850; Entire zygomatic arch; Body Part, Organ, or Organ Component
+T8	ANAT 261 269	temporal
+#7	AnnotatorNotes T8	C1279054; Entire temporal bone; Body Part, Organ, or Organ Component
+T9	PROC 303 320	reducción abierta
+#8	AnnotatorNotes T9	C0185373; Open reduction of fracture; Therapeutic or Preventive Procedure | C2370853; Open reduction; Therapeutic or Preventive Procedure
+T10	DISO 346 360	complicaciones
+#9	AnnotatorNotes T10	C0009566; Complication; Pathologic Function
+T11	PROC 401 418	reducción cerrada
+#10	AnnotatorNotes T11	C0185496; Closed Fracture Reduction; Therapeutic or Preventive Procedure
+T12	PROC 603 612	reducción
+#11	AnnotatorNotes T12	C1112432; Reduction of fracture; Therapeutic or Preventive Procedure
+T13	PROC 647 658	tratamiento
+#12	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	DISO 669 678	fracturas
+#13	AnnotatorNotes T14	C0016658; Fracture; Injury or Poisoning
+T15	PROC 944 974	distribuidos aleatorizadamente
+#14	AnnotatorNotes T15	C0034656; Randomization; Research Activity
+T16	PROC 813 820	cirugía
+#15	AnnotatorNotes T16	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T17	PROC 874 888	diagnosticados
+#16	AnnotatorNotes T17	C0011900; Diagnosis; Diagnostic Procedure
+T18	PROC 914 936	tratamiento quirúrgico
+#17	AnnotatorNotes T18	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T19	PROC 1046 1070	reducción de la fractura
+#18	AnnotatorNotes T19	C1112432; Reduction of fracture; Therapeutic or Preventive Procedure
+T20	DISO 1062 1070	fractura
+#19	AnnotatorNotes T20	C0016658; Fracture; Injury or Poisoning
+T21	PROC 1073 1156	corroboración inmediata de un adecuado resultado con arco en C intraoperatoriamente
+T22	PROC 1212 1236	reducción de la fractura
+#20	AnnotatorNotes T22	C1112432; Reduction of fracture; Therapeutic or Preventive Procedure
+T23	DISO 1228 1236	fractura
+#21	AnnotatorNotes T23	C0016658; Fracture; Injury or Poisoning
+T24	PROC 1241 1258	imagen de control
+T25	PROC 1657 1682	imágenes intraoperatorias
+#22	AnnotatorNotes T25	C3898703; Intraoperative Imaging; Diagnostic Procedure
+T26	DISO 1453 1461	fractura
+#23	AnnotatorNotes T26	C0016658; Fracture; Injury or Poisoning
+T27	PROC 1738 1747	reducción
+#24	AnnotatorNotes T27	C1112432; Reduction of fracture; Therapeutic or Preventive Procedure
+T28	PROC 97 124	Ensayo clínico aleatorizado
+#25	AnnotatorNotes T28	C0206034; Clinical Trials, Randomized; Research Activity
+T29	PROC 544 586	imágenes intraoperatorias con un arco en C
+T30	PROC 716 777	utilizar un arco en C para adquirir imágenes intraoperatorias
+T31	Time 21 36	intraoperatoria
+#26	AnnotatorNotes T31	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T33	Time 553 569	intraoperatorias
+#27	AnnotatorNotes T33	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T34	Time 761 777	intraoperatorias
+#28	AnnotatorNotes T34	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T35	Date 837 841	2009
+T36	Date 844 848	2012
+T37	LIVB 853 862	pacientes
+#29	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 991 1000	pacientes
+#30	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 1007 1025	grupo experimental
+#31	AnnotatorNotes T39	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T40	Time 1136 1156	intraoperatoriamente
+#32	AnnotatorNotes T40	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T41	LIVB 1162 1171	pacientes
+#33	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 1178 1191	grupo control
+#34	AnnotatorNotes T42	C0009932; Control Groups; Group
+T46	LIVB 1520 1538	grupo experimental
+#35	AnnotatorNotes T46	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T48	Time 1666 1682	intraoperatorias
+#36	AnnotatorNotes T48	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T32	Neg_cue 282 284	No
+T43	CONC 285 298	se recomienda
+A1	Assertion T43 Negated
+#37	AnnotatorNotes T43	C0034866; Recommendation; Idea or Concept
+R1	Negation Arg1:T32 Arg2:T43	
+T44	Neg_cue 1584 1586	no
+T45	CONC 1591 1622	estadísticamente significativos
+A2	Assertion T45 Negated
+#38	AnnotatorNotes T45	C0237881; Statistical Signifiance; Quantitative Concept
+R2	Negation Arg1:T44 Arg2:T45	
+T47	Spec_cue 1712 1731	no se tiene certeza
+A3	Assertion T27 Speculated
+R3	Speculation Arg1:T47 Arg2:T27	
+R4	Overlap Arg1:T25 Arg2:T48	
+T49	CONC 1334 1345	diferencias
+A4	Assertion T49 Negated
+#39	AnnotatorNotes T49	C1705241; Delta (difference); Quantitative Concept
+T50	Neg_cue 1326 1328	no
+R5	Negation Arg1:T50 Arg2:T49	
+T51	Neg_cue 1493 1495	no
+T52	Observation 1500 1513	satisfactorio
+A5	Assertion T52 Negated
+R6	Negation Arg1:T51 Arg2:T52	
+R7	Overlap Arg1:T1 Arg2:T31	
+R8	Location_of Arg1:T4 Arg2:T3	
+R9	Location_of Arg1:T7 Arg2:T6	
+R10	Location_of Arg1:T7 Arg2:T5	
+T53	CONC 252 280	abordaje temporal de Gillies
+R11	Used_for Arg1:T53 Arg2:T5	
+T54	Observation 333 343	morbilidad
+#40	AnnotatorNotes T54	C0580969; Morbidity index high; Finding
+R12	Causes Arg1:T9 Arg2:T54	
+R13	Causes Arg1:T9 Arg2:T10	
+R14	Overlap Arg1:T29 Arg2:T33	
+R15	Overlap Arg1:T29 Arg2:T12	
+R21	Overlap Arg1:T30 Arg2:T34	
+T55	Quantifier_or_Qualifier 805 812	segunda
+R22	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T55	
+R23	Before Arg1:T30 Arg2:T16	
+R25	After Arg1:T18 Arg2:T35	
+R26	Before Arg1:T18 Arg2:T36	
+R27	Experiences Arg1:T37 Arg2:T18	
+R28	Before Arg1:T15 Arg2:T18	
+R29	Before Arg1:T15 Arg2:T19	
+R30	Overlap Arg1:T19 Arg2:T21	
+R31	Before Arg1:T22 Arg2:T24	
+R34	Before Arg1:T15 Arg2:T22	
+R35	Overlap Arg1:T21 Arg2:T40	
+R36	Experiences Arg1:T38 Arg2:T19	
+R37	Experiences Arg1:T38 Arg2:T21	
+R38	Experiences Arg1:T39 Arg2:T19	
+R39	Experiences Arg1:T39 Arg2:T21	
+R40	Experiences Arg1:T41 Arg2:T22	
+R41	Experiences Arg1:T42 Arg2:T22	
+R42	Experiences Arg1:T41 Arg2:T24	
+R43	Experiences Arg1:T42 Arg2:T24	
+R44	Experiences Arg1:T38 Arg2:T20	
+R45	Experiences Arg1:T39 Arg2:T20	
+R46	Experiences Arg1:T41 Arg2:T23	
+R47	Experiences Arg1:T42 Arg2:T23	
+T56	PROC 1433 1440;1450 1461	reducir la fractura
+#41	AnnotatorNotes T56	C1112432; Reduction of fracture; Therapeutic or Preventive Procedure
+T57	Quantifier_or_Qualifier 1441 1449	de nuevo
+R52	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T57	
+R53	Experiences Arg1:T46 Arg2:T56	
+R54	Overlap Arg1:T25 Arg2:T27	
+R56	Experiences Arg1:T46 Arg2:T26	
+T58	Spec_cue 444 446	si
+T59	Observation 451 469	satisfactoriamente
+A6	Assertion T59 Speculated
+R24	Speculation Arg1:T58 Arg2:T59	
+#42	AnnotatorNotes T59	C3476649; Treatment satisfaction; Finding
+#43	AnnotatorNotes T52	C3476649; Treatment satisfaction; Finding
+#44	AnnotatorNotes T55		C0205436; second (number); Quantitative Concept
+T60	PROC 1274 1281	cirugía
+#45	AnnotatorNotes T60	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+R16	Before Arg1:T60 Arg2:T24	
+R17	Experiences Arg1:T41 Arg2:T60	
+R18	Experiences Arg1:T42 Arg2:T60	
+T61	Quantifier_or_Qualifier 1346 1360	significativas
+A7	Assertion T61 Negated
+#46	AnnotatorNotes T61	C0237881; Statistical Significance; Quantitative Concept
+R19	Negation Arg1:T50 Arg2:T61	
+R20	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T61	
+T62	Quantifier_or_Qualifier 1462 1476	inmediatamente
+#47	AnnotatorNotes T62	C0205253; Immediate; Temporal Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T62	
+A8	Experiencer T37 Patient
+A9	Experiencer T38 Patient
+A10	Experiencer T39 Patient
+A11	Experiencer T41 Patient
+A12	Experiencer T42 Patient
+A13	Experiencer T46 Patient

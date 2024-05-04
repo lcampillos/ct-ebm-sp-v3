@@ -1,0 +1,145 @@
+T1	PROC 509 531	Determinar la eficacia
+#1	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+T2	DISO 105 124	artritis reumatoide
+#2	AnnotatorNotes T2	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T3	PROC 826 850	Se determinó la eficacia
+#3	AnnotatorNotes T3	C1707887; Efficacy Study; Research Activity
+T4	DISO 144 163	artritis reumatoide
+#4	AnnotatorNotes T4	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T5	DISO 171 192	enfermedad autoinmune
+#5	AnnotatorNotes T5	C0004364; Autoimmune Diseases; Disease or Syndrome
+T6	CHEM 227 267	anticuerpos contra péptidos citrulinados
+#6	AnnotatorNotes T6	C4318437; Anti-Cyclic Citrullinated Protein Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T7	PROC 902 904	FR
+#7	AnnotatorNotes T7	C0201660; Rheumatoid Factor Measurement; Laboratory Procedure
+T8	PROC 305 316	diagnóstico
+#8	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	DISO 323 333	enfermedad
+#9	AnnotatorNotes T9	C0012634; Disease; Disease or Syndrome
+T10	PROC 419 430	anticuerpos
+#10	AnnotatorNotes T10	C0201278; Antibody measurement; Laboratory Procedure
+T11	PROC 439 450	diagnóstico
+#11	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	DISO 476 495	artritis reumatoide
+#12	AnnotatorNotes T12	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T13	PROC 539 600	ensayos de determinación de anticuerpos anti-CCP2 y anti-CCP3
+T14	CHEM 567 588	anticuerpos anti-CCP2
+T15	PROC 609 620	diagnóstico
+#13	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 646 665	artritis reumatoide
+#14	AnnotatorNotes T16	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T17	DISO 719 738	artritis reumatoide
+#15	AnnotatorNotes T17	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T18	DISO 763 802	enfermedades reumáticas e inflamatorias
+#16	AnnotatorNotes T18	C1290884; Inflammatory disorder; Disease or Syndrome + C0035435; Rheumatism; Disease or Syndrome
+T19	CHEM 1070 1079	anti-CCP2
+T20	PROC 870 900	anticuerpos factor reumatoideo
+#17	AnnotatorNotes T20	C0201660; Rheumatoid Factor Measurement; Laboratory Procedure
+T21	CHEM 1263 1272	anti-CCP2
+T22	PROC 946 951	ELISA
+#18	AnnotatorNotes T22	C0014441; Enzyme-Linked Immunosorbent Assay; Laboratory Procedure
+T23	PROC 1063 1079	ensayo anti-CCP2
+T24	PROC 1230 1232	FR
+#19	AnnotatorNotes T24	C0201660; Rheumatoid Factor Measurement; Laboratory Procedure
+T25	PROC 1255 1272	ensayos anti-CCP2
+T26	PROC 1275 1277	FR
+#20	AnnotatorNotes T26	C0201660; Rheumatoid Factor Measurement; Laboratory Procedure
+T27	PROC 1321 1336	autoanticuerpos
+#21	AnnotatorNotes T27	C1272321; Autoantibody measurement; Laboratory Procedure
+T28	PROC 1365 1384	proteína C reactiva
+#22	AnnotatorNotes T28	C0201657; C-reactive protein measurement; Laboratory Procedure
+T29	PROC 1406 1441	velocidad de sedimentación globular
+#23	AnnotatorNotes T29	C1176468; Erythrocyte sedimentation rate measurement; Laboratory Procedure (?)
+T30	PROC 907 916	anti-CCP2
+T31	PROC 1457 1478	anticuerpos anti-CCP2
+T32	PROC 919 928	anti-CCP3
+T33	PROC 1570 1591	anticuerpos anti-CCP2
+T34	PROC 1626 1637	diagnóstico
+#24	AnnotatorNotes T34	C0011900; Diagnosis; Diagnostic Procedure
+T35	DISO 1663 1682	artritis reumatoide
+#25	AnnotatorNotes T35	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T36	CHEM 1704 1706	FR
+#26	AnnotatorNotes T36	C0035448; Rheumatoid Factor; Immunologic Factor · Amino Acid, Peptide, or Protein
+T37	DISO 1741 1760	artritis reumatoide
+#27	AnnotatorNotes T37	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T38	PROC 1778 1799	anticuerpos anti-CCP2
+T39	PROC 1836 1849	inmunoensayos
+#28	AnnotatorNotes T39	C0020980; Immunoassay method; Laboratory Procedure
+T40	PROC 25 62	anticuerpos antipéptidos citrulinados
+#29	AnnotatorNotes T40	C1318660; Anti-cyclic citrullinated peptide antibody level; Laboratory Procedure
+T41	CHEM 591 600	anti-CCP3
+T42	PROC 1687 1706	determinación de FR
+#30	AnnotatorNotes T42	C0201660; Rheumatoid Factor Measurement; Laboratory Procedure
+T43	LIVB 454 463	pacientes
+#31	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 624 633	pacientes
+#32	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 705 714	pacientes
+#33	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 743 752	pacientes
+#34	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 808 818	individuos
+#35	AnnotatorNotes T47	C0027361; Persons; Population Group
+T56	LIVB 1641 1650	pacientes
+#36	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1727 1736	pacientes
+#37	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T48	Quantifier_or_Qualifier 63 96	de segunda y tercera generaciones
+R1	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T48	
+R4	Used_for Arg1:T6 Arg2:T8	
+R6	Experiences Arg1:T43 Arg2:T10	
+R8	Before Arg1:T43 Arg2:T12	
+R9	Experiences Arg1:T44 Arg2:T13	
+R11	Experiences Arg1:T44 Arg2:T16	
+R14	Experiences Arg1:T45 Arg2:T17	
+R15	Experiences Arg1:T46 Arg2:T18	
+T49	Quantifier_or_Qualifier 819 824	sanos
+#38	AnnotatorNotes T49	C3898900; Healthy; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T49	
+T50	CONC 974 986	sensibilidad
+#39	AnnotatorNotes T50	C0439823; Sensibility; Qualitative Concept
+T51	CONC 988 1001	especificidad
+#40	AnnotatorNotes T51	C0037791; Specificity; Quantitative Concept
+T52	CONC 1003 1032	valores predictivos positivos
+#41	AnnotatorNotes T52	C1514243; Positive Predictive Value; Quantitative Concept
+T53	CONC 1003 1022;1035 1044	valores predictivos negativos
+#42	AnnotatorNotes T53	C1513918; Negative Predictive Value of Diagnostic Test; Quantitative Concept
+T54	CONC 1104 1116	sensibilidad
+#43	AnnotatorNotes T54	C0439823; Sensibility; Qualitative Concept
+T55	CONC 1209 1221	sensibilidad
+#44	AnnotatorNotes T55	C0439823; Sensibility; Qualitative Concept
+T58	CONC 1127 1140	especificidad
+#45	AnnotatorNotes T58	C0037791; Specificity; Quantitative Concept
+T59	CONC 1168 1181	especificidad
+#46	AnnotatorNotes T59	C0037791; Specificity; Quantitative Concept
+T60	CONC 1289 1302	especificidad
+#47	AnnotatorNotes T60	C0037791; Specificity; Quantitative Concept
+T61	CONC 1542 1548	DAS 28
+#48	AnnotatorNotes T61	C2732493; Disease activity score 28 joint in rheumatoid arthritis; Intellectual Product
+R17	Experiences Arg1:T56 Arg2:T33	
+R19	Experiences Arg1:T56 Arg2:T35	
+R20	Experiences Arg1:T57 Arg2:T42	
+R21	Experiences Arg1:T57 Arg2:T37	
+T62	Result_or_Value 1761 1774	seronegativos
+#49	AnnotatorNotes T62	C0521144; Seronegative; Laboratory or Test Result
+R23	Experiences Arg1:T57 Arg2:T38	
+R24	Experiences Arg1:T57 Arg2:T39	
+R25	Combined_with Arg1:T42 Arg2:T38	
+R26	Combined_with Arg1:T25 Arg2:T26	
+R27	Combined_with Arg1:T20 Arg2:T30	
+R28	Combined_with Arg1:T20 Arg2:T32	
+R29	Combined_with Arg1:T7 Arg2:T30	
+R30	Combined_with Arg1:T7 Arg2:T32	
+T63	Neg_cue 1479 1481	no
+T64	CONC 1492 1503	correlación
+A1	Assertion T64 Negated
+#50	AnnotatorNotes T64	C1707520; Correlation; Qualitative Concept
+R31	Negation Arg1:T63 Arg2:T64	
+A2	Experiencer T57 Patient
+A3	Experiencer T56 Patient
+A4	Experiencer T43 Patient
+A5	Experiencer T44 Patient
+A6	Experiencer T47 Patient
+A7	Experiencer T46 Patient
+A8	Experiencer T45 Patient
+R2	Has_Result_or_Value Arg1:T38 Arg2:T62	

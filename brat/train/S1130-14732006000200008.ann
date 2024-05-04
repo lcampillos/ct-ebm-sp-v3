@@ -1,0 +1,136 @@
+T1	PROC 1 29	Artrodesis cervical anterior
+T2	CHEM 51 59	tantalio
+#1	AnnotatorNotes T2	C0039297; tantalum; Element, Ion, or Isotope
+T3	PROC 100 158	discectomía cervical anterior con artrodesis intersomática
+T4	ANAT 255 263	cervical
+#2	AnnotatorNotes T4	C3665420; Cervical Vertebrae; Body Part, Organ, or Organ Component
+T5	PROC 173 191	técnica quirúrgica
+T6	PROC 219 230	tratamiento
+#3	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 237 263	enfermedad discal cervical
+#4	AnnotatorNotes T7	C0477633; Cervical disc disorder; Disease or Syndrome
+T8	CHEM 332 340	tantalio
+#5	AnnotatorNotes T8	C0039297; tantalum; Element, Ion, or Isotope
+T9	PROC 469 488	estudio prospectivo
+#6	AnnotatorNotes T9	C0033522; Prospective Studies; Research Activity
+T10	PROC 505 517	intervenidos
+#7	AnnotatorNotes T10	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T11	CHEM 565 573	tantalio
+#8	AnnotatorNotes T11	C0039297; tantalum; Element, Ion, or Isotope
+T12	PROC 590 608	evaluación clínica
+#9	AnnotatorNotes T12	C4534461; Clinical assessment; Health Care Activity
+T13	ANAT 945 968	distancia interespinosa
+#10	AnnotatorNotes T13	C0923008; Interspinous diameter; Body Location or Region
+T14	PROC 650 662	cuestionario
+#11	AnnotatorNotes T14	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T15	PROC 679 711	Escala Visual Analógica de dolor
+#12	AnnotatorNotes T15	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T16	PROC 828 850	evaluación radiológica
+#13	AnnotatorNotes T16	C0043299; Diagnostic radiologic examination; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T17	PROC 1012 1021	revisados
+#14	AnnotatorNotes T17	C0558347; Surgical revision; Therapeutic or Preventive Procedure | C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T18	PROC 859 881	radiografías dinámicas
+#15	AnnotatorNotes T18	C0202582; Diagnostic radiography, flexion and/or extension studies; Diagnostic Procedure
+T19	PROC 1054 1066	intervención
+#16	AnnotatorNotes T19	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T20	DISO 1304 1318	pseudoartrosis
+#17	AnnotatorNotes T20	C0033785; Pseudarthrosis; Pathologic Function
+T21	PROC 1372 1382	revisiones
+#18	AnnotatorNotes T21	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity | C0558347; Surgical revision; Therapeutic or Preventive Procedure
+T22	CHEM 1433 1441	tantalio
+#19	AnnotatorNotes T22	C0039297; tantalum; Element, Ion, or Isotope
+T23	PROC 1610 1621	autoinjerto
+#20	AnnotatorNotes T23	C0040736; Transplantation, Autologous; Therapeutic or Preventive Procedure
+T24	PROC 1664 1692	resonancia nuclear magnética
+#21	AnnotatorNotes T24	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T25	ANAT 248 254	discal
+#22	AnnotatorNotes T25	C0021815; Intervertebral disc structure; Body Part, Organ, or Organ Component | C1280211; Entire intervertebral disc; Body Part, Organ, or Organ Component
+T26	DISO 706 711	dolor
+#23	AnnotatorNotes T26	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T27	ANAT 12 20	cervical
+#24	AnnotatorNotes T27	C3665420; Cervical Vertebrae; Body Part, Organ, or Organ Component
+T28	ANAT 112 120	cervical
+#25	AnnotatorNotes T28	C3665420; Cervical Vertebrae; Body Part, Organ, or Organ Component
+T29	DEVI 39 47	implante
+#26	AnnotatorNotes T29	C0021102; Implants; Medical Device
+T30	Date 266 279	Recientemente
+T31	LIVB 495 504	pacientes
+#27	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Date 609 629	pre y postoperatoria
+#28	AnnotatorNotes T32	C2712277; Preoperative Period; Temporal Concept + C0032790; Postoperative Period; Temporal Concept
+T34	Date 971 990	Postoperatoriamente
+#29	AnnotatorNotes T34	C0032790; Postoperative Period; Temporal Concept
+T35	LIVB 995 1004	pacientes
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Duration 1025 1038	el tercer mes
+T37	Duration 1044 1047	año
+T39	Duration 1386 1389	año
+T40	Duration 1394 1405	los 3 meses
+T41	DEVI 1457 1465	implante
+#31	AnnotatorNotes T41	C0021102; Implants; Medical Device
+T43	Neg_cue 1594 1596	no
+T45	DEVI 323 328	cajas
+#32	AnnotatorNotes T45	C5208739; Intervertebral Fusion Cages; Medical Device (?)
+T46	DEVI 556 561	cajas
+#33	AnnotatorNotes T46	C5208739; Intervertebral Fusion Cages; Medical Device (?)
+T33	DEVI 1424 1429	cajas
+#34	AnnotatorNotes T33	C5208739; Intervertebral Fusion Cages; Medical Device (?)
+T38	PROC 1276 1292	radiológicamente
+#35	AnnotatorNotes T38	C0043299; Diagnostic radiologic examination; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+A1	Assertion T23 Negated
+R1	Negation Arg1:T43 Arg2:T23	
+T42	Neg_cue 1321 1323	No
+T44	CONC 1338 1349	diferencias
+A2	Assertion T44 Negated
+#36	AnnotatorNotes T44	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T42 Arg2:T44	
+R3	Location_of Arg1:T27 Arg2:T1	
+R4	Used_for Arg1:T29 Arg2:T1	
+R5	Used_for Arg1:T2 Arg2:T29	
+R6	Location_of Arg1:T25 Arg2:T7	
+R7	Location_of Arg1:T4 Arg2:T7	
+R8	Location_of Arg1:T28 Arg2:T3	
+R9	Overlap Arg1:T45 Arg2:T30	
+R10	Used_for Arg1:T8 Arg2:T45	
+R11	Experiences Arg1:T31 Arg2:T10	
+R12	Used_for Arg1:T46 Arg2:T10	
+R13	Used_for Arg1:T11 Arg2:T46	
+R14	Overlap Arg1:T12 Arg2:T32	
+R16	Overlap Arg1:T14 Arg2:T32	
+R15	Overlap Arg1:T15 Arg2:T32	
+T47	CONC 716 734	Índice de Oswestry
+#37	AnnotatorNotes T47	C4295183; Oswestry low back pain disability questionnaire; Intellectual Product
+R17	Used_for Arg1:T47 Arg2:T12	
+T48	CONC 805 822	criterios de Odom
+T49	CONC 741 755	Escala de Zung
+#38	AnnotatorNotes T49	C0451593; Zung self-rating depression scale; Intellectual Product
+R18	Used_for Arg1:T49 Arg2:T12	
+T50	Observation 925 939	ángulo de Cobb
+#39	AnnotatorNotes T50	C0563192; Cobb angle; Finding
+R21	Location_of Arg1:T13 Arg2:T18	
+R22	Overlap Arg1:T17 Arg2:T34	
+R23	Experiences Arg1:T35 Arg2:T17	
+R24	Overlap Arg1:T17 Arg2:T36	
+R25	Overlap Arg1:T17 Arg2:T37	
+R26	Before Arg1:T19 Arg2:T17	
+R28	Experiences Arg1:T35 Arg2:T19	
+T51	CONC 1164 1181	criterios de Odom
+R30	Overlap Arg1:T21 Arg2:T39	
+R31	Overlap Arg1:T21 Arg2:T40	
+R32	Used_for Arg1:T22 Arg2:T33	
+T52	Spec_cue 1479 1491	pensamos que
+T53	Quantifier_or_Qualifier 1492 1496	útil
+A3	Assertion T53 Speculated
+#40	AnnotatorNotes T53	C3827682; Useful; Qualitative Concept
+R33	Speculation Arg1:T52 Arg2:T53	
+R34	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T53	
+R35	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T53	
+T54	CONC 1078 1097	parámetros clínicos
+T56	Quantifier_or_Qualifier 1350 1364	significativas
+A4	Assertion T56 Negated
+#42	AnnotatorNotes T56	C0750502; Significant; Idea or Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T56	
+R37	Negation Arg1:T42 Arg2:T56	
+#41	AnnotatorNotes T30	C0332185; Recent; Temporal Concept
+A5	Experiencer T31 Patient
+A6	Experiencer T35 Patient

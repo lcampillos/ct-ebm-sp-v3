@@ -1,0 +1,163 @@
+T1	CHEM 59 71	pioglitazona
+#1	AnnotatorNotes T1	C0071097; pioglitazone; Organic Chemical · Pharmacologic Substance
+T2	CHEM 147 159	pioglitazona
+#2	AnnotatorNotes T2	C0071097; pioglitazone; Organic Chemical · Pharmacologic Substance
+T3	PROC 212 260	ensayo multicéntrico, de brazo único, en fase II
+T4	DISO 189 210	Adrenomieloneuropatía
+#3	AnnotatorNotes T4	C1527231; Adrenomyeloneuropathy; Disease or Syndrome
+T5	DISO 284 304	Adrenoleucodistrofia
+#4	AnnotatorNotes T5	C0162309; Adrenoleukodystrophy; Disease or Syndrome
+T6	DISO 331 373	Adrenoleucodistrofia ligada al cromosoma X
+T7	DISO 374 395	Adrenomieloneuropatía
+#5	AnnotatorNotes T7	C1527231; Adrenomyeloneuropathy; Disease or Syndrome
+T8	PROC 427 446	estudio ambulatorio
+T9	ANAT 557 565	cerebral
+#6	AnnotatorNotes T9	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T10	DISO 551 581	forma cerebral desmielinizante
+#7	AnnotatorNotes T10	C0011304; Demyelination; Pathologic Function (?)
+T11	DISO 588 598	enfermedad
+#8	AnnotatorNotes T11	C0012634; Disease; Disease or Syndrome
+T12	DISO 616 632	déficits motores
+#9	AnnotatorNotes T12	C0521654; Neurologic Deficits; Finding
+T13	DISO 649 661	discapacidad
+#10	AnnotatorNotes T13	C0231170; Disability; Finding
+T14	PROC 745 764	prueba de la marcha
+#11	AnnotatorNotes T14	C0203969; Gait evaluation; Diagnostic Procedure
+T15	DISO 805 837	Enfermedad inflamatoria cerebral
+T16	ANAT 829 837	cerebral
+#12	AnnotatorNotes T16	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T17	DISO 851 870	trastorno cognitivo
+T18	DISO 884 904	enfermedad coronaria
+#13	AnnotatorNotes T18	C0010068; Coronary heart disease; Disease or Syndrome
+T19	PROC 939 945	bypass
+#14	AnnotatorNotes T19	C0741847; Bypass; Therapeutic or Preventive Procedure
+T20	DISO 948 968	infarto de miocardio
+#15	AnnotatorNotes T20	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T21	DISO 1019 1035	cáncer de vejiga
+#16	AnnotatorNotes T21	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T22	DISO 1038 1060	hematuria macroscópica
+#17	AnnotatorNotes T22	C0473237; Frank hematuria; Finding
+T23	PROC 918 937	colocación de stens
+T24	DISO 1118 1140	hematuria macroscópica
+#18	AnnotatorNotes T24	C0473237; Frank hematuria; Finding
+T25	ANAT 362 373	cromosoma X
+#19	AnnotatorNotes T25	C0043292; X Chromosome; Cell Component
+T26	DISO 484 487	AMN
+T27	ANAT 895 904	coronaria
+#20	AnnotatorNotes T27	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T28	ANAT 959 968	miocardio
+#21	AnnotatorNotes T28	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T29	ANAT 1029 1035	vejiga
+#22	AnnotatorNotes T29	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T30	DISO 1101 1113	osteoporosis
+#23	AnnotatorNotes T30	C0029456; Osteoporosis; Disease or Syndrome
+T31	DISO 89 110	Adrenomieloneuropatía
+#24	AnnotatorNotes T31	C1527231; Adrenomyeloneuropathy; Disease or Syndrome
+T32	Date 13 17	2011
+T33	LIVB 75 84	pacientes
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 175 184	pacientes
+#26	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	PHYS 352 373	ligada al cromosoma X
+#27	AnnotatorNotes T35	C0241764; X-linked inheritance; Genetic Function
+T36	LIVB 466 483	pacientes varones
+#28	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group
+T37	LIVB 490 497	mujeres
+#29	AnnotatorNotes T37	C0043210; Woman; Population Group
+T39	Age 516 534	entre 18 y 65 años
+T40	Neg_cue 544 547	sin
+T41	LIVB 688 697	pacientes
+#30	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Duration 768 777	2 minutos
+T43	Date 1002 1018	en la actualidad
+T45	LIVB 1073 1080	Mujeres
+#31	AnnotatorNotes T45	C0043210; Woman; Population Group
+T46	PHYS 861 870	cognitivo
+#32	AnnotatorNotes T46	C0009240; Cognition; Mental Process
+T38	DEVI 932 937	stens
+#33	AnnotatorNotes T38	C0038257; Stent; Medical Device
+A1	Assertion T10 Negated
+A2	Status T18 History_of
+A3	Status T20 History_of
+A4	Status T19 History_of
+A5	Status T23 History_of
+A6	Status T38 History_of
+A7	Status T21 History_of
+A8	Status T22 History_of
+A9	Status T30 History_of
+#34	AnnotatorNotes T26	C1527231; Adrenomyeloneuropathy; Disease or Syndrome
+#35	AnnotatorNotes T17	C0338656; Impaired cognition; Mental or Behavioral Dysfunction 
+#36	AnnotatorNotes T23	C0522776; Placement of stent; Therapeutic or Preventive Procedure
+#37	AnnotatorNotes T8	C0002423; ambulatory care services; Health Care Activity
+#38	AnnotatorNotes T43	C0521116; Current (present time); Temporal Concept 
+T44	Neg_cue 1061 1063	no
+T47	Quantifier_or_Qualifier 1064 1071	filiada
+A10	Assertion T47 Negated
+T48	CONC 1144 1150	origen
+A11	Assertion T48 Speculated
+T49	Spec_cue 1151 1162	desconocido
+R1	Speculation Arg1:T49 Arg2:T48	
+R2	Experiences Arg1:T33 Arg2:T1	
+R3	Experiences Arg1:T33 Arg2:T31	
+T50	Observation 46 52	Efecto
+#39	AnnotatorNotes T50	C1518681; Outcome of Therapy; Finding (?)
+R4	Causes Arg1:T1 Arg2:T50	
+T51	Observation 134 140	Efecto
+#40	AnnotatorNotes T51	C1518681; Outcome of Therapy; Finding (?)
+R5	Causes Arg1:T2 Arg2:T51	
+R6	Experiences Arg1:T34 Arg2:T2	
+R7	Experiences Arg1:T34 Arg2:T4	
+R8	Location_of Arg1:T25 Arg2:T35	
+#41	AnnotatorNotes T6	C0162309; Adrenoleukodystrophy; Disease or Syndrome | C2874253; Other X-linked adrenoleukodystrophy; Disease or Syndrome
+R10	Experiences Arg1:T36 Arg2:T26	
+R11	Experiences Arg1:T37 Arg2:T26	
+R12	Has_Age Arg1:T36 Arg2:T39	
+R13	Has_Age Arg1:T37 Arg2:T39	
+R14	Location_of Arg1:T9 Arg2:T10	
+R15	Negation Arg1:T40 Arg2:T10	
+R16	Overlap Arg1:T10 Arg2:T11	
+R17	Overlap Arg1:T26 Arg2:T10	
+R18	Experiences Arg1:T36 Arg2:T10	
+R19	Experiences Arg1:T37 Arg2:T10	
+T52	CONC 639 666	escala de discapacidad EDSS
+#42	AnnotatorNotes T52	C3830336; EDSS - Expanded Disability Score; Intellectual Product
+R20	Has_Duration_or_Interval Arg1:T14 Arg2:T42	
+T53	Observation 708 715	capaces
+#43	AnnotatorNotes T53	C1299581; Able (finding); Finding
+R21	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T53	
+R22	Overlap Arg1:T53 Arg2:T14	
+R23	Overlap Arg1:T12 Arg2:T13	
+R24	Location_of Arg1:T16 Arg2:T15	
+#44	AnnotatorNotes T15	C5681775; Brain inflammatory disease; Disease or Syndrome
+R25	Overlap Arg1:T15 Arg2:T17	
+T54	Quantifier_or_Qualifier 838 846	avanzada
+#45	AnnotatorNotes T54	C0205179; Advanced phase; Qualitative Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T54	
+R28	Location_of Arg1:T27 Arg2:T18	
+R29	Used_for Arg1:T38 Arg2:T23	
+R32	Location_of Arg1:T28 Arg2:T20	
+R33	Location_of Arg1:T29 Arg2:T21	
+R34	Overlap Arg1:T21 Arg2:T43	
+R35	Overlap Arg1:T22 Arg2:T43	
+R36	Negation Arg1:T44 Arg2:T47	
+T55	Quantifier_or_Qualifier 1141 1162	de origen desconocido
+#46	AnnotatorNotes T55	C0332240; Unknown (origin) (qualifier value); Functional Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T55	
+R38	Experiences Arg1:T45 Arg2:T30	
+R39	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T47	
+#47	AnnotatorNotes T47	C0205309; Known; Qualitative Concept 
+T56	PHYS 498 511	heterocigotas
+#48	AnnotatorNotes T56	C0019425; Heterozygote; Organism Attribute
+R40	Experiences Arg1:T37 Arg2:T56	
+R9	Experiences Arg1:T33 Arg2:T50	
+R41	Experiences Arg1:T34 Arg2:T51	
+R42	Experiences Arg1:T41 Arg2:T14	
+R26	Experiences Arg1:T37 Arg2:T11	
+R30	Experiences Arg1:T36 Arg2:T11	
+#49	AnnotatorNotes T48	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+A12	Experiencer T36 Patient
+A13	Experiencer T37 Patient
+A14	Experiencer T33 Patient
+A15	Experiencer T34 Patient
+A16	Experiencer T41 Patient
+A17	Experiencer T45 Patient

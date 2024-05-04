@@ -1,0 +1,219 @@
+T1	DISO 810 813	CCR
+#1	AnnotatorNotes T1	C0007134; Renal Cell Carcinoma; Neoplastic Process
+T2	PROC 57 70	inmunoterapia
+#2	AnnotatorNotes T2	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T3	CHEM 103 113	ipilimumab
+#3	AnnotatorNotes T3	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	CHEM 123 132	nivolumab
+#4	AnnotatorNotes T4	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	PROC 136 147	monoterapia
+#5	AnnotatorNotes T5	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T6	DISO 165 180	cáncer de riñón
+#6	AnnotatorNotes T6	C0740457; Malignant neoplasm of kidney; Neoplastic Process
+T7	PROC 212 254	Estudio fase 3b, aleatorizado, doble ciego
+T8	CHEM 259 268	nivolumab
+#7	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	CHEM 288 298	ipilimumab
+#8	AnnotatorNotes T9	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	CHEM 308 317	nivolumab
+#9	AnnotatorNotes T10	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	PROC 321 332	monoterapia
+#10	AnnotatorNotes T11	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T12	DISO 350 378	carcinoma de células renales
+#11	AnnotatorNotes T12	C0007134; Renal Cell Carcinoma; Neoplastic Process
+T13	DISO 921 925	CCRm
+T14	PROC 392 399	tratado
+#12	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	DISO 478 506	Carcinoma de células renales
+#13	AnnotatorNotes T15	C0007134; Renal Cell Carcinoma; Neoplastic Process
+T16	DISO 533 561	Carcinoma de células renales
+#14	AnnotatorNotes T16	C0007134; Renal Cell Carcinoma; Neoplastic Process
+T17	CHEM 1452 1462	anti-CD137
+T18	DISO 668 716	carcinoma renal con componente de células claras
+T19	ANAT 702 716	células claras
+T20	DISO 780 808	Carcinoma de células renales
+#16	AnnotatorNotes T20	C0007134; Renal Cell Carcinoma; Neoplastic Process
+T21	PROC 843 850	cirugía
+#17	AnnotatorNotes T21	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T22	PROC 853 865	radioterapia
+#18	AnnotatorNotes T22	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T23	DISO 879 919	carcinoma de células renales metastásico
+#19	AnnotatorNotes T23	C4721698; Metastatic Renal Cell Carcinoma; Neoplastic Process
+T24	DISO 931 949	Enfermedad medible
+#20	AnnotatorNotes T24	C1513041; Measurable Disease; Disease or Syndrome
+T25	PROC 959 983	tomografía computarizada
+#21	AnnotatorNotes T25	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T26	PROC 991 1011	resonancia magnética
+#22	AnnotatorNotes T26	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T27	PROC 1013 1015	RM
+#23	AnnotatorNotes T27	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T28	PROC 1076 1097	tratamiento sistémico
+T29	DISO 1110 1113	CCR
+#24	AnnotatorNotes T29	C0007134; Renal Cell Carcinoma; Neoplastic Process
+T30	ANAT 1321 1324	SNC
+#25	AnnotatorNotes T30	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T31	DISO 1336 1357	Enfermedad autoinmune
+#26	AnnotatorNotes T31	C0004364; Autoimmune Diseases; Disease or Syndrome
+T32	PROC 1391 1402	Tratamiento
+#27	AnnotatorNotes T32	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T33	CHEM 1417 1426	anti-PD-1
+T34	CHEM 1428 1438	anti-PD-L1
+T35	CHEM 1464 1486	anticuerpo anti CTLA-4
+T36	CHEM 1505 1603	agente que se dirige específicamente a la co-estimulación de las células T o a las vías de control
+#28	AnnotatorNotes T36	C3192215; Selective T Cell Costimulation Blocker; Pharmacologic Substance (?) | C4684977; Immune Checkpoint Inhibitors; Pharmacologic Substance (?)
+T37	ANAT 1570 1579	células T
+#29	AnnotatorNotes T37	C0039194; T-Lymphocyte; Cell
+T38	CHEM 1440 1450	anti-PD-L2
+T39	CHEM 74 83	nivolumab
+#30	AnnotatorNotes T39	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T40	ANAT 175 180	riñón
+#31	AnnotatorNotes T40	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T41	ANAT 363 378	células renales
+T42	ANAT 491 506	células renales
+T43	ANAT 546 561	células renales
+T44	ANAT 678 683	renal
+#32	AnnotatorNotes T44	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T45	ANAT 793 808	células renales
+T46	ANAT 892 907	células renales
+T47	PROC 985 987	TC
+#33	AnnotatorNotes T47	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T48	DISO 1280 1319	metástasis del sistema nervioso central
+T49	ANAT 1295 1319	sistema nervioso central
+#34	AnnotatorNotes T49	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T50	Date 13 17	2018
+T51	LIVB 151 160	pacientes
+#35	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 336 345	pacientes
+#36	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Neg_cue 389 391	no
+T54	LIVB 728 737	pacientes
+#37	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T56	Neg_cue 825 842	no susceptible de
+T59	Neg_cue 1069 1075	ningún
+T60	Spec_cue 1377 1387	sospechosa
+T55	LIVB 1122 1135	participantes
+#38	AnnotatorNotes T55	C4554048; Study Participant; Population Group
+T57	PHYS 1547 1579	co-estimulación de las células T
+#39	AnnotatorNotes T57	C1622572; T cell costimulation; Cell Function
+T58	PROC 640 664	Confirmación histológica
+#40	AnnotatorNotes T58	C0344441; Histology Procedure; Laboratory Procedure
+T61	Observation 755 775	rasgos sarcomatoides
+#41	AnnotatorNotes T61	C1519183; Sarcomatoid Features; Finding
+A1	Assertion T14 Negated
+A2	Assertion T21 Negated
+A3	Assertion T22 Negated
+A4	Assertion T28 Negated
+A5	Assertion T31 Speculated
+A6	Status T14 History_of
+A7	Status T28 History_of
+A8	Status T32 History_of
+A9	Status T33 History_of
+A10	Status T34 History_of
+A11	Status T38 History_of
+A12	Status T17 History_of
+A13	Status T35 History_of
+A14	Status T36 History_of
+A15	Status T31 History_of
+#42	AnnotatorNotes T7	C1706097; Trial Phase 3B; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#43	AnnotatorNotes T13	C4721698; Metastatic Renal Cell Carcinoma; Neoplastic Process
+#44	AnnotatorNotes T48	C0686377; CNS metastases; Neoplastic Process
+R1	Used_for Arg1:T39 Arg2:T2	
+R2	Combined_with Arg1:T39 Arg2:T3	
+R3	Used_for Arg1:T4 Arg2:T5	
+R4	Experiences Arg1:T51 Arg2:T4	
+R5	Experiences Arg1:T51 Arg2:T2	
+R6	Experiences Arg1:T51 Arg2:T6	
+R7	Location_of Arg1:T40 Arg2:T6	
+T62	Quantifier_or_Qualifier 181 189	avanzado
+R8	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T62	
+R9	Used_for Arg1:T10 Arg2:T11	
+R10	Combined_with Arg1:T8 Arg2:T9	
+R11	Experiences Arg1:T52 Arg2:T8	
+R12	Experiences Arg1:T52 Arg2:T10	
+R13	Experiences Arg1:T52 Arg2:T12	
+R14	Location_of Arg1:T41 Arg2:T12	
+T63	Quantifier_or_Qualifier 379 387	avanzado
+R15	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T63	
+R16	Negation Arg1:T53 Arg2:T14	
+T64	Observation 418 436	factores de riesgo
+#45	AnnotatorNotes T64	C0035648; risk factors; Finding
+R17	Experiences Arg1:T52 Arg2:T14	
+R18	Experiences Arg1:T52 Arg2:T64	
+T65	Quantifier_or_Qualifier 437 454	intermedio o alto
+R19	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T65	
+R22	Location_of Arg1:T42 Arg2:T15	
+R23	Location_of Arg1:T43 Arg2:T16	
+T66	Quantifier_or_Qualifier 562 570	avanzado
+R24	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T66	
+T67	Observation 575 593	factores de riesgo
+#46	AnnotatorNotes T67	C0035648; risk factors; Finding
+T68	Quantifier_or_Qualifier 594 611	intermedio o alto
+R25	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T68	
+R26	Overlap Arg1:T12 Arg2:T64	
+R27	Overlap Arg1:T16 Arg2:T67	
+R28	Location_of Arg1:T45 Arg2:T20	
+R29	Location_of Arg1:T44 Arg2:T18	
+R30	Experiences Arg1:T54 Arg2:T58	
+R31	Experiences Arg1:T54 Arg2:T61	
+R32	Experiences Arg1:T54 Arg2:T18	
+R33	Location_of Arg1:T45 Arg2:T1	
+T69	Quantifier_or_Qualifier 815 823	avanzado
+R34	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T69	
+R35	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T69	
+R36	Negation Arg1:T56 Arg2:T21	
+R37	Negation Arg1:T56 Arg2:T22	
+R38	Location_of Arg1:T46 Arg2:T23	
+T70	CONC 1037 1047	RECIST 1.1
+#47	AnnotatorNotes T70	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product
+R40	Negation Arg1:T59 Arg2:T28	
+T71	Observation 1151 1175	riesgo intermedio o alto
+#48	AnnotatorNotes T71	C4319571; High risk; Finding + C3640764; Intermediate Risk; Finding
+R41	Experiences Arg1:T55 Arg2:T71	
+T73	CONC 1185 1189	IMDC
+#49	AnnotatorNotes T73	C4744412; International Metastatic Renal Cell Carcinoma Database Consortium Criteria; Intellectual Product
+T74	CONC 1191 1239	International Metastatic RCC Database Consortium
+#50	AnnotatorNotes T74	C4744412; International Metastatic Renal Cell Carcinoma Database Consortium Criteria; Intellectual Product
+R43	Location_of Arg1:T49 Arg2:T48	
+R44	Location_of Arg1:T30 Arg2:T48	
+R45	Speculation Arg1:T60 Arg2:T31	
+R46	Used_for Arg1:T33 Arg2:T32	
+R47	Used_for Arg1:T34 Arg2:T32	
+R48	Used_for Arg1:T38 Arg2:T32	
+R49	Used_for Arg1:T35 Arg2:T32	
+R50	Used_for Arg1:T36 Arg2:T32	
+R51	Location_of Arg1:T37 Arg2:T57	
+A16	Assertion T61 Speculated
+T75	Spec_cue 742 748	puedan
+R20	Speculation Arg1:T75 Arg2:T61	
+R21	Location_of Arg1:T46 Arg2:T13	
+T76	Quantifier_or_Qualifier 1326 1332	activa
+R39	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T76	
+T77	Quantifier_or_Qualifier 1358 1364	activa
+R52	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T77	
+R53	Overlap Arg1:T18 Arg2:T61	
+R54	Used_for Arg1:T4 Arg2:T2	
+R42	Location_of Arg1:T19 Arg2:T18	
+T72	Quantifier_or_Qualifier 866 875	curativas
+R57	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T72	
+R58	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T72	
+#51	AnnotatorNotes T33	C4289970; Anti-PD1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#52	AnnotatorNotes T34	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#53	AnnotatorNotes T17	C4732974; Anti-CD137 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#54	AnnotatorNotes T28	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+#15	AnnotatorNotes T62	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+#55	AnnotatorNotes T63	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+#56	AnnotatorNotes T66	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+#57	AnnotatorNotes T69	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+#58	AnnotatorNotes T18	C0279702; Conventional (Clear Cell) Renal Cell Carcinoma; Neoplastic Process (?)
+#59	AnnotatorNotes T19	C1513940; Neoplastic Clear Cell; Cell (?)
+#60	AnnotatorNotes T77	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+#61	AnnotatorNotes T76	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+T78	Route 1088 1097	sistémico
+R55	Has_Route_or_Mode Arg1:T28 Arg2:T78	
+#62	AnnotatorNotes T78	C0205373; Systemic; Functional Concept
+#63	AnnotatorNotes T35	C4289973; Anti-CTLA-4 Monoclonal Antibody; Amino Acid, Peptide, or Protein
+#64	AnnotatorNotes T72	C1880198; Cure (remedy); Conceptual Entity
+A17	Experiencer T51 Patient
+A18	Experiencer T52 Patient
+A19	Experiencer T54 Patient
+A20	Experiencer T55 Patient

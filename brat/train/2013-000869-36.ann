@@ -1,0 +1,155 @@
+T1	PROC 104 124	preparación colónica
+T2	PROC 138 152	hospitalizados
+#1	AnnotatorNotes T2	C0019993; Hospitalization; Health Care Activity
+T3	PROC 154 180	ensayo clínico randomizado
+#2	AnnotatorNotes T3	C0206034; Clinical Trials, Randomized; Research Activity
+T4	PROC 205 248	Preparación del intestino para colonoscopia
+T5	ANAT 221 230	intestino
+#3	AnnotatorNotes T5	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T6	PROC 275 314	preparación del colon para colonoscopia
+T7	PROC 364 378	hospitalizados
+#4	AnnotatorNotes T7	C0019993; Hospitalization; Health Care Activity
+T8	PROC 409 421	colonoscopia
+#5	AnnotatorNotes T8	C0009378; colonoscopy; Diagnostic Procedure
+T9	PROC 461 485	consentimiento informado
+#6	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	PROC 505 519	ensayo clínico
+#7	AnnotatorNotes T10	C0008976; Clinical Trials; Research Activity
+T11	PROC 569 587	colonoscopia total
+#8	AnnotatorNotes T11	C0009556; Total colonoscopy; Therapeutic or Preventive Procedure
+T12	PROC 677 696	rectosigmoidoscopia
+#9	AnnotatorNotes T12	C0037075; Sigmoidoscopy (procedure); Diagnostic Procedure
+T13	PROC 714 746	intervención quirúrgica colónica
+T14	DISO 841 860	Insuficiencia renal
+#10	AnnotatorNotes T14	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T15	DISO 870 894	Alteracion electrolítica
+T16	DISO 897 909	hiponatremia
+#11	AnnotatorNotes T16	C0020625; Hyponatremia; Disease or Syndrome
+T17	DISO 925 940	hiperfosfatemia
+#12	AnnotatorNotes T17	C0085681; Hyperphosphatemia (disorder); Disease or Syndrome
+T18	DISO 942 954	hipocalcemia
+#13	AnnotatorNotes T18	C0020598; Hypocalcemia; Disease or Syndrome
+T19	DISO 957 971	hipomagnesemia
+#14	AnnotatorNotes T19	C0151723; Hypomagnesemia; Disease or Syndrome
+T20	DISO 976 998	Obstrucción intestinal
+#15	AnnotatorNotes T20	C0021843; Intestinal Obstruction; Disease or Syndrome
+T21	DISO 1000 1022	perforación intestinal
+#16	AnnotatorNotes T21	C0021845; Intestinal Perforation; Disease or Syndrome
+T22	DISO 1024 1040	megacolon tóxico
+#17	AnnotatorNotes T22	C0025162; Megacolon, Toxic; Disease or Syndrome
+T23	DISO 1069 1076	Alergia
+#18	AnnotatorNotes T23	C1527304; Allergic Reaction; Pathologic Function
+T24	CHEM 1095 1106	preparación
+T25	CHEM 1108 1111	PEG
+#19	AnnotatorNotes T25	C0032483; polyethylene glycols; Organic Chemical · Pharmacologic Substance
+T26	CHEM 1114 1124	bisacodilo
+#20	AnnotatorNotes T26	C0005632; bisacodyl; Organic Chemical · Pharmacologic Substance
+T27	CHEM 1128 1138	adyuvantes
+#21	AnnotatorNotes T27	C0001551; Immunologic Adjuvants; Immunologic Factor · Pharmacologic Substance
+T28	ANAT 116 124	colónica
+#22	AnnotatorNotes T28	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T29	ANAT 291 296	colon
+#23	AnnotatorNotes T29	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T30	ANAT 738 746	colónica
+#24	AnnotatorNotes T30	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T31	DISO 759 783	Déficit cognitivo/mental
+T32	DISO 911 923	hipokaliemia
+T33	ANAT 855 860	renal
+#25	AnnotatorNotes T33	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T34	CHEM 881 894	electrolítica
+#26	AnnotatorNotes T34	C0013832; Electrolytes; Inorganic Chemical · Pharmacologic Substance
+T35	ANAT 988 998	intestinal
+#27	AnnotatorNotes T35	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T36	ANAT 1012 1022	intestinal
+#28	AnnotatorNotes T36	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T37	PROC 1156 1180	consentimiento informado
+#29	AnnotatorNotes T37	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T38	DISO 1077 1089	Intolerancia
+#30	AnnotatorNotes T38	C0277585; Intolerance to drug; Pathologic Function
+T39	Date 13 17	2013
+T40	LIVB 128 137	pacientes
+#31	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 354 363	pacientes
+#32	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	Age 528 550	superior a los 18 años
+T44	Duration 641 659	por debajo de 48 h
+T45	LIVB 700 709	Pacientes
+#33	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	PHYS 777 783	mental
+#34	AnnotatorNotes T46	C0229992; Psyche structure; Mental Process
+T48	PHYS 1045 1053	Embarazo
+#35	AnnotatorNotes T48	C0032961; Pregnancy; Organism Function
+T49	PHYS 1055 1064	lactancia
+#36	AnnotatorNotes T49	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T50	Neg_cue 1144 1155	Ausencia de
+T51	PHYS 767 776	cognitivo
+#37	AnnotatorNotes T51	C0009240; Cognition; Mental Process
+T42	PROC 618 640	Cumplimiento dietético
+#38	AnnotatorNotes T42	C0743195; Dietary control; Therapeutic or Preventive Procedure (?)
+A1	Assertion T37 Negated
+A2	Status T13 History_of
+A3	Status T23 History_of
+A4	Status T38 History_of
+#39	AnnotatorNotes T4	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+#40	AnnotatorNotes T6	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+#41	AnnotatorNotes T13	C0192817; Operation on colon; Therapeutic or Preventive Procedure 
+#42	AnnotatorNotes T31	C0338656; Impaired cognition; Mental or Behavioral Dysfunction 
+#43	AnnotatorNotes T15	C0342579; Electrolyte imbalance; Pathologic Function 
+#44	AnnotatorNotes T32	C0020621; Hypokalemia; Finding
+T47	Quantifier_or_Qualifier 434 441	urgente
+A5	Assertion T47 Negated
+#45	AnnotatorNotes T47	C0439609; Urgent; Qualitative Concept
+T52	Neg_cue 431 433	no
+T53	Neg_cue 788 794	impide
+T54	PROC 798 808	valoración
+A6	Assertion T54 Negated
+#46	AnnotatorNotes T54	C1261322; Evaluation procedure; Health Care Activity
+R1	Negation Arg1:T53 Arg2:T54	
+T55	CONC 46 71	abordaje multidisciplinar
+T56	CONC 76 97	abordaje convencional
+R2	Used_for Arg1:T56 Arg2:T1	
+R3	Used_for Arg1:T55 Arg2:T1	
+R4	Location_of Arg1:T28 Arg2:T1	
+#47	AnnotatorNotes T1	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+R5	Overlap Arg1:T1 Arg2:T2	
+R6	Experiences Arg1:T40 Arg2:T1	
+R7	Experiences Arg1:T40 Arg2:T2	
+R8	Location_of Arg1:T5 Arg2:T4	
+R9	Location_of Arg1:T29 Arg2:T6	
+R10	Experiences Arg1:T41 Arg2:T7	
+R11	Overlap Arg1:T7 Arg2:T8	
+R12	Negation Arg1:T52 Arg2:T47	
+R13	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T47	
+R14	Experiences Arg1:T41 Arg2:T8	
+R15	Before Arg1:T9 Arg2:T10	
+T57	Observation 491 519	participar al ensayo clínico
+#48	AnnotatorNotes T57	C1278516; Patient participation status; Finding (?)
+R16	Before Arg1:T9 Arg2:T57	
+R17	Has_Duration_or_Interval Arg1:T42 Arg2:T44	
+R18	Experiences Arg1:T45 Arg2:T13	
+R19	Location_of Arg1:T30 Arg2:T13	
+T58	Observation 815 824	respuesta
+#49	AnnotatorNotes T58	C4055223; Clinical Response; Finding
+T59	Observation 826 836	tolerancia
+R25	Location_of Arg1:T33 Arg2:T14	
+T60	Quantifier_or_Qualifier 861 866	grave
+#50	AnnotatorNotes T60	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R26	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T60	
+R27	Causes Arg1:T34 Arg2:T15	
+R28	Location_of Arg1:T35 Arg2:T20	
+R29	Location_of Arg1:T36 Arg2:T21	
+R30	Location_of Arg1:T36 Arg2:T22	
+R31	Location_of Arg1:T35 Arg2:T22	
+R32	Causes Arg1:T24 Arg2:T38	
+R33	Causes Arg1:T24 Arg2:T23	
+R34	Causes Arg1:T25 Arg2:T38	
+R35	Causes Arg1:T25 Arg2:T23	
+R36	Causes Arg1:T26 Arg2:T23	
+R37	Causes Arg1:T26 Arg2:T38	
+R38	Causes Arg1:T27 Arg2:T38	
+R39	Causes Arg1:T27 Arg2:T23	
+R40	Negation Arg1:T50 Arg2:T37	
+#51	AnnotatorNotes T59	C0162703; Pain Threshold; Finding (?)
+A7	Experiencer T40 Patient
+A8	Experiencer T41 Patient
+A9	Experiencer T45 Patient

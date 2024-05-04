@@ -1,0 +1,183 @@
+T1	PROC 190 198	tratados
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	ANAT 71 78	tejidos
+#2	AnnotatorNotes T2	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T3	DISO 102 121	efectos secundarios
+#3	AnnotatorNotes T3	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T4	DISO 153 189	cáncer de la zona de cabeza y cuello
+T5	PROC 430 438	tratados
+#4	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 310 351	Identificación de biomarcadores tisulares
+T7	PROC 203 215	radioterapia
+#5	AnnotatorNotes T7	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T8	PROC 227 240	quimioterapia
+#6	AnnotatorNotes T8	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T9	PROC 259 270	tratamiento
+#7	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	ANAT 342 351	tisulares
+#8	AnnotatorNotes T10	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T11	DISO 369 378	toxicidad
+#9	AnnotatorNotes T11	C0600688; Toxic effect; Injury or Poisoning
+T12	DISO 404 429	cáncer de cabeza y cuello
+#10	AnnotatorNotes T12	C0278996; Malignant Head and Neck Neoplasm; Neoplastic Process
+T13	DISO 504 544	Tumor de la región de la cabeza y cuello
+T14	ANAT 516 544	región de la cabeza y cuello
+#11	AnnotatorNotes T14	C0460004; Head and neck structure; Body Location or Region | C1283900; Entire head and neck; Body Location or Region 
+T15	PROC 685 709	consentimiento informado
+#12	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	PROC 560 567	cirugía
+#13	AnnotatorNotes T16	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T17	DISO 594 628	Cáncer escamoso de cabeza y cuello
+T18	ANAT 601 609	escamoso
+#14	AnnotatorNotes T18	C0221909; Squamous epithelium; Tissue
+T19	ANAT 613 619	cabeza
+#15	AnnotatorNotes T19	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T20	ANAT 622 628	cuello
+#16	AnnotatorNotes T20	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T21	PROC 736 747	Diagnóstico
+#17	AnnotatorNotes T21	C0011900; Diagnosis; Diagnostic Procedure
+T22	ANAT 761 767	cabeza
+#18	AnnotatorNotes T22	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T23	DISO 751 776	cancer de cabeza y cuello
+#19	AnnotatorNotes T23	C0278996; Malignant Head and Neck Neoplasm; Neoplastic Process
+T24	PROC 819 838	tratamiento radical
+#20	AnnotatorNotes T24	C0332316; Radical procedure; Therapeutic or Preventive Procedure
+T25	PROC 443 462	quimiorradioterapia
+#21	AnnotatorNotes T25	C0436307; Chemoradiotherapy; Therapeutic or Preventive Procedure
+T26	PROC 1024 1031	cirugía
+#22	AnnotatorNotes T26	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T27	DISO 1040 1064	tumor de cabeza y cuello
+#23	AnnotatorNotes T27	C0018671; Head and Neck Neoplasms; Neoplastic Process
+T28	ANAT 1058 1064	cuello
+#24	AnnotatorNotes T28	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T29	PROC 1088 1101	quimioterapia
+#25	AnnotatorNotes T29	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T30	PROC 1103 1115	radioterapia
+#26	AnnotatorNotes T30	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T31	CHEM 1118 1127	cetuximab
+#27	AnnotatorNotes T31	C0995188; cetuximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	DISO 1131 1168	Enfermedades inflamatorias de la piel
+T33	ANAT 1164 1168	piel
+#28	AnnotatorNotes T33	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T34	DISO 1182 1194	comorbilidad
+#29	AnnotatorNotes T34	C1275743; Co-morbid conditions; Finding
+T35	DISO 1220 1234	complicaciones
+#30	AnnotatorNotes T35	C0009566; Complication; Pathologic Function
+T36	PROC 1251 1266	biopsia cutánea
+T37	PROC 1361 1372	seguimiento
+#31	AnnotatorNotes T37	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T38	ANAT 166 189	zona de cabeza y cuello
+T39	CHEM 278 288	anticuerpo
+#32	AnnotatorNotes T39	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T40	ANAT 414 420	cabeza
+#33	AnnotatorNotes T40	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T41	ANAT 423 429	cuello
+#34	AnnotatorNotes T41	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T42	ANAT 770 776	cuello
+#35	AnnotatorNotes T42	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T43	PROC 843 858	bioradioterapia
+T44	ANAT 1049 1055	cabeza
+#36	AnnotatorNotes T44	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T45	ANAT 1259 1266	cutánea
+#37	AnnotatorNotes T45	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T46	PROC 465 481	biorradioterapia
+T47	PROC 861 880	quimiorradioterapia
+#38	AnnotatorNotes T47	C0436307; Chemoradiotherapy; Therapeutic or Preventive Procedure
+T48	PROC 912 926	procedimientos
+#39	AnnotatorNotes T48	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T49	Date 13 17	2015
+T50	Date 122 135	a largo plazo
+T51	LIVB 139 148	pacientes
+#40	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	Duration 379 386	crónica
+#41	AnnotatorNotes T53	C0205191; chronic; Temporal Concept
+T54	LIVB 390 399	pacientes
+#42	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	Neg_cue 545 547	no
+T56	Age 718 732	más de 18 años
+T57	LIVB 1001 1010	Pacientes
+#43	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Spec_cue 1210 1219	riesgo de
+T59	LIVB 1336 1344	paciente
+#44	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T52	PHYS 899 907	entender
+#45	AnnotatorNotes T52	C0162340; Comprehension; Mental Process
+T60	PROC 788 804	histológicamente
+#46	AnnotatorNotes T60	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T16 Negated
+A2	Assertion T35 Speculated
+A3	Assertion T29 Contraindicated
+A4	Assertion T30 Contraindicated
+A5	Assertion T31 Contraindicated
+#47	AnnotatorNotes T4	C0018671; Head and Neck Neoplasms; Neoplastic Process
+#48	AnnotatorNotes T13	C0018671; Head and Neck Neoplasms; Neoplastic Process
+#49	AnnotatorNotes T17	C0018671; Head and Neck Neoplasms; Neoplastic Process (?)
+#50	AnnotatorNotes T38	C0460004; Head and neck structure; Body Location or Region | C1283900; Entire head and neck; Body Location or Region 
+#51	AnnotatorNotes T36	C0150866; Biopsy of skin procedure; Diagnostic Procedure 
+#52	AnnotatorNotes T50	C0443252; Long-term; Temporal Concept
+T61	CONC 60 67	cambios
+#53	AnnotatorNotes T61	C0443172; Changed status; Quantitative Concept
+T62	Quantifier_or_Qualifier 79 84	sanos
+#54	AnnotatorNotes T62	C3898900; Healthy; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T62	
+R2	Overlap Arg1:T61 Arg2:T3	
+R3	Overlap Arg1:T3 Arg2:T50	
+R4	Experiences Arg1:T51 Arg2:T3	
+R5	Overlap Arg1:T3 Arg2:T4	
+R6	Location_of Arg1:T38 Arg2:T4	
+R7	Experiences Arg1:T51 Arg2:T4	
+R9	Combined_with Arg1:T7 Arg2:T8	
+R10	Experiences Arg1:T51 Arg2:T7	
+R11	Used_for Arg1:T39 Arg2:T9	
+R12	Experiences Arg1:T51 Arg2:T9	
+R13	Location_of Arg1:T10 Arg2:T6	
+R15	Has_Duration_or_Interval Arg1:T11 Arg2:T53	
+R16	Experiences Arg1:T54 Arg2:T11	
+R17	Experiences Arg1:T54 Arg2:T6	
+R18	Experiences Arg1:T54 Arg2:T12	
+R19	Location_of Arg1:T40 Arg2:T12	
+R20	Location_of Arg1:T41 Arg2:T12	
+R22	Experiences Arg1:T54 Arg2:T25	
+R23	Experiences Arg1:T54 Arg2:T46	
+R24	Overlap Arg1:T11 Arg2:T12	
+R25	Causes Arg1:T7 Arg2:T3	
+R26	Causes Arg1:T9 Arg2:T3	
+R27	Causes Arg1:T25 Arg2:T11	
+R28	Causes Arg1:T46 Arg2:T11	
+R29	Negation Arg1:T55 Arg2:T16	
+R30	Location_of Arg1:T14 Arg2:T13	
+R31	Location_of Arg1:T19 Arg2:T17	
+R32	Location_of Arg1:T20 Arg2:T17	
+R33	Location_of Arg1:T18 Arg2:T17	
+T63	Quantifier_or_Qualifier 629 648	localmente avanzado
+R34	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T63	
+R35	Location_of Arg1:T22 Arg2:T23	
+R36	Location_of Arg1:T42 Arg2:T23	
+R38	Overlap Arg1:T52 Arg2:T48	
+T64	Observation 884 893	Capacidad
+#55	AnnotatorNotes T64	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R39	Overlap Arg1:T64 Arg2:T52	
+R40	Overlap Arg1:T64 Arg2:T48	
+R41	Experiences Arg1:T57 Arg2:T26	
+R42	Experiences Arg1:T57 Arg2:T27	
+R43	Location_of Arg1:T44 Arg2:T27	
+R44	Location_of Arg1:T28 Arg2:T27	
+R45	Location_of Arg1:T33 Arg2:T32	
+R46	Before Arg1:T34 Arg2:T35	
+R47	Speculation Arg1:T58 Arg2:T35	
+R48	Causes Arg1:T36 Arg2:T35	
+R50	Location_of Arg1:T45 Arg2:T36	
+T65	Observation 1270 1314	Situación social o geográfica que interfiera
+R51	Experiences Arg1:T59 Arg2:T65	
+T66	CONC 953 972	hoja de información
+R53	Overlap Arg1:T52 Arg2:T66	
+#56	AnnotatorNotes T32	C0810052; Other inflammatory condition of skin; Disease or Syndrome
+#57	AnnotatorNotes T66	C3890404; Clinical Trial Subject Information Form; Intellectual Product (?)
+A6	Experiencer T51 Patient
+A7	Experiencer T54 Patient
+A8	Status T24 Future
+A9	Status T43 Future
+A10	Status T47 Future
+A11	Status T26 Future
+A12	Experiencer T59 Patient
+A13	Experiencer T57 Patient

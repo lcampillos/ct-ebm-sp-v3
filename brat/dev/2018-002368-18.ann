@@ -1,0 +1,179 @@
+T1	PROC 44 100	Ensayo clínico de bajo nivel de intervención, de fase IV
+T2	PROC 107 134	comparar la inmunogenicidad
+T3	CHEM 215 221	vacuna
+#1	AnnotatorNotes T3	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	DISO 195 206	hepatitis B
+#2	AnnotatorNotes T4	C0019163; Hepatitis B; Disease or Syndrome
+T5	CHEM 239 249	antigénica
+#3	AnnotatorNotes T5	C0003320; Antigens; Immunologic Factor
+T6	DISO 274 313	Enfermedades reumatológicas autoinmunes
+T7	CHEM 327 336	rituximab
+#4	AnnotatorNotes T7	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	DISO 339 365	cáncer de mama y de pulmón
+T9	ANAT 359 365	pulmón
+#5	AnnotatorNotes T9	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T10	DISO 394 433	Enfermedades reumatológicas autoinmunes
+T11	PROC 437 448	tratamiento
+#6	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	DISO 466 492	cáncer de mama y de pulmón
+T13	ANAT 486 492	pulmón
+#7	AnnotatorNotes T13	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T14	PROC 496 525	tratamiento con quimioterapia
+T15	PROC 592 606	diagnosticados
+#8	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 615 650	Enfermedad reumatológica autoinmune
+T17	CHEM 672 681	Rituximab
+#9	AnnotatorNotes T17	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T18	ANAT 694 698	mama
+#10	AnnotatorNotes T18	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T19	ANAT 701 707	pulmón
+#11	AnnotatorNotes T19	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T20	DISO 684 707	Cancer de mama o pulmón
+T21	DISO 763 774	hepatitis B
+#12	AnnotatorNotes T21	C0019163; Hepatitis B; Disease or Syndrome
+T22	PROC 776 796	anticuerpos anti-HBV
+#13	AnnotatorNotes T22	C0201480; Hepatitis B core antibody measurement; Laboratory Procedure
+T23	PROC 798 853	antígenos de superficie para el virus de la hepatitis B
+#14	AnnotatorNotes T23	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T24	PROC 856 905	anticuerpos anti-HBV para antígenos de superficie
+T25	PROC 746 774	marcadores de la hepatitis B
+#15	AnnotatorNotes T25	C2030661; serum hepatitis B markers; Laboratory Procedure
+T26	PROC 1044 1055;977 1001	por escrito Consentimiento informado
+#16	AnnotatorNotes T26	C0811741; Obtain informed written consent; Health Care Activity
+T27	DISO 1083 1090	Alergia
+#17	AnnotatorNotes T27	C1527304; Allergic Reaction; Pathologic Function
+T28	CHEM 1122 1133	excipientes
+#18	AnnotatorNotes T28	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T29	PROC 1164 1175	tratamiento
+#19	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	DISO 1191 1200	infección
+#20	AnnotatorNotes T30	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T31	CHEM 1228 1256	vacuna contra la hepatitis B
+#21	AnnotatorNotes T31	C0062527; hepatitis B surface antigen vaccine; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	DISO 1272 1289	Infección por HIV
+#22	AnnotatorNotes T32	C0019693; HIV Infections; Disease or Syndrome
+T33	PROC 1307 1337	vacunado contra la Hepatitis B
+#23	AnnotatorNotes T33	C0474232; Hepatitis B vaccination; Therapeutic or Preventive Procedure
+T34	DISO 1326 1337	Hepatitis B
+#24	AnnotatorNotes T34	C0019163; Hepatitis B; Disease or Syndrome
+T35	DISO 1423 1445	enfermedad inmunitaria
+T36	PROC 1479 1490	diagnóstico
+#25	AnnotatorNotes T36	C0011900; Diagnosis; Diagnostic Procedure
+T37	CHEM 172 206	vacuna adyuvada contra hepatitis B
+T38	PROC 314 322	tratadas
+#26	AnnotatorNotes T38	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T39	ANAT 349 353	mama
+#27	AnnotatorNotes T39	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T40	CHEM 453 462	rituximab
+#28	AnnotatorNotes T40	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T41	ANAT 476 480	mama
+#29	AnnotatorNotes T41	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T42	PROC 656 667	tratamiento
+#30	AnnotatorNotes T42	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T43	CHEM 1101 1119	compuestos activos
+#31	AnnotatorNotes T43	C1372955; active ingredients; Chemical Viewed Functionally
+T44	CHEM 1152 1159	vacunas
+#32	AnnotatorNotes T44	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T45	DISO 1245 1256	hepatitis B
+#33	AnnotatorNotes T45	C0019163; Hepatitis B; Disease or Syndrome
+T46	Date 12 16	2018
+T47	LIVB 138 147	pacientes
+#34	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 554 563	Pacientes
+#35	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T50	Age 564 581	mayores a 18 años
+T52	LIVB 793 796	HBV
+#36	AnnotatorNotes T52	C0019169; hepatitis B virus; Virus
+T53	LIVB 830 853	virus de la hepatitis B
+#37	AnnotatorNotes T53	C0019169; hepatitis B virus; Virus
+T54	LIVB 873 876	HBV
+#38	AnnotatorNotes T54	C0019169; hepatitis B virus; Virus
+T55	Duration 917 936	los 3 últimos meses
+T56	Duration 958 974	superior a 1 año
+T57	LIVB 1006 1014	paciente
+#39	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Neg_cue 1293 1295	No
+T59	LIVB 1355 1363	paciente
+#40	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1286 1289	HIV
+#41	AnnotatorNotes T60	C0019682; HIV; Virus
+T61	ANAT 1434 1445	inmunitaria
+#42	AnnotatorNotes T61	C0020962; Immune system; Body System | C1305754; Entire immune system; Body System
+T49	PROC 1375 1382	visitas
+#43	AnnotatorNotes T49	C1512346; Patient Visit; Health Care Activity
+T51	Observation 1340 1350;1364 1382	Dificultad a ir a las visitas
+#44	AnnotatorNotes T51	C0589126; Patient defaulted from follow-up; Finding (?)
+A1	Assertion T33 Negated
+A2	Status T27 History_of
+A3	Status T30 History_of
+A4	Status T31 History_of
+#45	AnnotatorNotes T6	C1328842; autoimmune rheumatologic disease; Disease or Syndrome 
+#46	AnnotatorNotes T10	C1328842; autoimmune rheumatologic disease; Disease or Syndrome 
+#47	AnnotatorNotes T16	C1328842; autoimmune rheumatologic disease; Disease or Syndrome 
+#48	AnnotatorNotes T12	C0006142; Malignant neoplasm of breast; Neoplastic Process | C0678222; Breast Carcinoma; Neoplastic Process + C0242379; Malignant neoplasm of lung; Neoplastic Process | C0684249; Carcinoma of lung; Neoplastic Process
+#49	AnnotatorNotes T8	C0242379; Malignant neoplasm of lung; Neoplastic Process | C0684249; Carcinoma of lung; Neoplastic Process
+#50	AnnotatorNotes T14	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure + C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+#51	AnnotatorNotes T20	C0006142; Malignant neoplasm of breast; Neoplastic Process | C0678222; Breast Carcinoma; Neoplastic Process + C0242379; Malignant neoplasm of lung; Neoplastic Process | C0684249; Carcinoma of lung; Neoplastic Process
+#52	AnnotatorNotes T35	C0021053; Immune System Diseases; Disease or Syndrome
+#53	AnnotatorNotes T2	C4054739; Immunogenicity Study; Research Activity
+R1	Negation Arg1:T58 Arg2:T33	
+R2	Experiences Arg1:T47 Arg2:T37	
+R3	Experiences Arg1:T47 Arg2:T3	
+T62	DISO 148 164	inmunosupresores
+#54	AnnotatorNotes T62	C4048329; Immunosuppression; Disease or Syndrome
+R4	Experiences Arg1:T47 Arg2:T62	
+T63	Quantifier_or_Qualifier 222 249	de elevada carga antigénica
+R5	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T63	
+R6	Used_for Arg1:T7 Arg2:T38	
+R7	Location_of Arg1:T39 Arg2:T8	
+R8	Location_of Arg1:T9 Arg2:T8	
+R9	Overlap Arg1:T6 Arg2:T8	
+R10	Used_for Arg1:T40 Arg2:T11	
+R11	Location_of Arg1:T41 Arg2:T12	
+R12	Location_of Arg1:T13 Arg2:T12	
+R13	Has_Age Arg1:T48 Arg2:T50	
+R14	Used_for Arg1:T17 Arg2:T42	
+R15	Location_of Arg1:T18 Arg2:T20	
+R16	Location_of Arg1:T19 Arg2:T20	
+T64	Quantifier_or_Qualifier 708 717	primarios
+#55	AnnotatorNotes T64	C0205225; Primary; Qualitative Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T64	
+T65	Result_or_Value 720 740	Resultados negativos
+#56	AnnotatorNotes T65	C0205160; Negative; Finding
+R18	Has_Result_or_Value Arg1:T25 Arg2:T65	
+R19	Has_Result_or_Value Arg1:T22 Arg2:T65	
+R20	Has_Result_or_Value Arg1:T23 Arg2:T65	
+R21	Has_Result_or_Value Arg1:T24 Arg2:T65	
+R22	Overlap Arg1:T24 Arg2:T55	
+R23	Overlap Arg1:T25 Arg2:T55	
+R24	Overlap Arg1:T22 Arg2:T55	
+R25	Overlap Arg1:T23 Arg2:T55	
+T66	CONC 940 957	Esperanza de vida
+#57	AnnotatorNotes T66	C0023671; Life Expectancy; Group Attribute
+R26	Has_Duration_or_Interval Arg1:T66 Arg2:T56	
+T67	Observation 1020 1043	participar en el ensayo
+#58	AnnotatorNotes T67	C1278516; Patient participation status; Finding
+R27	Before Arg1:T26 Arg2:T67	
+R28	Causes Arg1:T43 Arg2:T27	
+R29	Causes Arg1:T28 Arg2:T27	
+R30	Causes Arg1:T44 Arg2:T27	
+R31	Used_for Arg1:T44 Arg2:T29	
+R32	Causes Arg1:T60 Arg2:T32	
+T68	Observation 1296 1302	querer
+#59	AnnotatorNotes T68	C0600109; Willing; Finding
+R33	Negation Arg1:T58 Arg2:T68	
+A5	Assertion T68 Negated
+R34	Experiences Arg1:T59 Arg2:T51	
+R35	Location_of Arg1:T61 Arg2:T35	
+T69	Quantifier_or_Qualifier 1418 1422	otra
+#60	AnnotatorNotes T69	C0205394; Other; Qualitative Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T69	
+T70	Quantifier_or_Qualifier 1472 1478	primer
+#61	AnnotatorNotes T70	C0205435; First (number); Quantitative Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T70	
+R38	Before Arg1:T36 Arg2:T35	
+R39	Overlap Arg1:T68 Arg2:T33	
+A6	Experiencer T47 Patient
+A7	Experiencer T48 Patient
+A8	Experiencer T57 Patient
+A9	Experiencer T59 Patient

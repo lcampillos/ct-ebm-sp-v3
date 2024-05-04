@@ -1,0 +1,211 @@
+T1	PROC 62 86	tratamiento antitusígeno
+T2	CHEM 88 103	anticolinérgico
+#1	AnnotatorNotes T2	C0242896; Anticholinergic Agents; Pharmacologic Substance
+T3	DISO 151 167	bronquitis aguda
+#2	AnnotatorNotes T3	C0149514; Acute bronchitis; Disease or Syndrome
+T4	DISO 220 236	Bronquitis aguda
+#3	AnnotatorNotes T4	C0149514; Acute bronchitis; Disease or Syndrome
+T5	DISO 241 244	tos
+#4	AnnotatorNotes T5	C0010200; Coughing; Sign or Symptom
+T6	DISO 271 274	Tos
+#5	AnnotatorNotes T6	C0010200; Coughing; Sign or Symptom
+T7	DISO 297 313	bronquitis aguda
+#6	AnnotatorNotes T7	C0149514; Acute bronchitis; Disease or Syndrome
+T8	DISO 416 419	tos
+#7	AnnotatorNotes T8	C0010200; Coughing; Sign or Symptom
+T9	DISO 475 491	bronquitis aguda
+#8	AnnotatorNotes T9	C0149514; Acute bronchitis; Disease or Syndrome
+T10	PROC 523 537	ensayo clínico
+#9	AnnotatorNotes T10	C0008976; Clinical Trials; Research Activity
+T11	DISO 569 572	tos
+#10	AnnotatorNotes T11	C0010200; Coughing; Sign or Symptom
+T12	DISO 666 674	neumonía
+#11	AnnotatorNotes T12	C0032285; Pneumonia; Disease or Syndrome
+T13	PROC 705 728	derivación hospitalaria
+T14	DISO 755 778	Enfermedad respiratoria
+#12	AnnotatorNotes T14	C0035204; Respiration Disorders; Disease or Syndrome
+T15	PROC 394 411	atención primaria
+#13	AnnotatorNotes T15	C0033137; Primary Health Care; Health Care Activity
+T16	DISO 788 827	enfermedad pulmonar obstructiva crónica
+#14	AnnotatorNotes T16	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T17	DISO 829 833	asma
+#15	AnnotatorNotes T17	C0004096; Asthma; Disease or Syndrome
+T18	DISO 835 847	tuberculosis
+#16	AnnotatorNotes T18	C0041296; Tuberculosis; Disease or Syndrome
+T19	DISO 850 865	bronquiectasias
+#17	AnnotatorNotes T19	C0006267; Bronchiectasis; Disease or Syndrome
+T20	DISO 869 881	Comorbilidad
+#18	AnnotatorNotes T20	C1275743; Co-morbid conditions; Finding
+T21	DISO 906 928	insuficiencia cardíaca
+#19	AnnotatorNotes T21	C0018801; Heart failure; Disease or Syndrome
+T22	DISO 945 953	demencia
+#20	AnnotatorNotes T22	C0497327; Dementia; Mental or Behavioral Dysfunction
+T23	DISO 955 981	infarto agudo de miocardio
+#21	AnnotatorNotes T23	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T24	DISO 984 1011	accidente vascular cerebral
+#22	AnnotatorNotes T24	C0038454; Cerebrovascular accident; Disease or Syndrome
+T25	DISO 1033 1055	insuficiencia hepática
+#23	AnnotatorNotes T25	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T26	DISO 1064 1083	insuficiencia renal
+#24	AnnotatorNotes T26	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T27	PROC 1094 1109	Inmunosupresión
+#25	AnnotatorNotes T27	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T28	DISO 1114 1123	Neoplasia
+#26	AnnotatorNotes T28	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T29	DISO 1133 1152	Enfermedad terminal
+T30	DISO 1167 1179	intolerancia
+#27	AnnotatorNotes T30	C0277585; Intolerance to drug; Pathologic Function
+T31	DISO 1182 1189	alergia
+#28	AnnotatorNotes T31	C1527304; Allergic Reaction; Pathologic Function
+T32	PROC 1206 1218	tratamientos
+#29	AnnotatorNotes T32	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T33	PROC 1305 1316	tratamiento
+#30	AnnotatorNotes T33	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T34	CHEM 1338 1359	bromuro de ipratropio
+#31	AnnotatorNotes T34	C0700580; ipratropium bromide; Organic Chemical · Pharmacologic Substance
+T35	PROC 1433 1467	visitas programadas de seguimiento
+#32	AnnotatorNotes T35	C0589121; Follow-up visit; Health Care Activity
+T36	CHEM 74 86	antitusígeno
+#33	AnnotatorNotes T36	C0003449; Antitussive Agents; Pharmacologic Substance
+T37	ANAT 799 807	pulmonar
+#34	AnnotatorNotes T37	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T38	ANAT 920 928	cardíaca
+#35	AnnotatorNotes T38	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T39	ANAT 972 981	miocardio
+#36	AnnotatorNotes T39	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T40	ANAT 994 1002	vascular
+#37	AnnotatorNotes T40	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T41	ANAT 1003 1011	cerebral
+#38	AnnotatorNotes T41	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T42	ANAT 1047 1055	hepática
+#39	AnnotatorNotes T42	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T43	ANAT 1078 1083	renal
+#40	AnnotatorNotes T43	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T44	CHEM 1321 1336	dextrometorfano
+#41	AnnotatorNotes T44	C0011816; dextromethorphan; Organic Chemical · Pharmacologic Substance
+T45	Date 13 17	2018
+T46	LIVB 139 146	adultos
+#42	AnnotatorNotes T46	C0001675; Adult; Age Group
+T49	Duration 423 439	máximo 3 semanas
+T50	LIVB 541 550	Pacientes
+#43	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Time 573 579	diurna
+#44	AnnotatorNotes T51	C0332169; Daytime; Temporal Concept
+T52	Time 584 592	nocturna
+#45	AnnotatorNotes T52	C0240526; Night time; Temporal Concept
+T53	Spec_cue 654 665	Sospecha de
+T54	LIVB 679 687	Paciente
+#46	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	PHYS 731 739	Embarazo
+#47	AnnotatorNotes T55	C0032961; Pregnancy; Organism Function
+T56	PHYS 742 751	lactancia
+#48	AnnotatorNotes T56	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T57	Duration 820 827	crónica
+#49	AnnotatorNotes T57	C0205191; chronic; Temporal Concept
+T58	Date 1012 1020	reciente
+T59	LIVB 1233 1242	Pacientes
+#50	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1268 1280	investigador
+#51	AnnotatorNotes T60	C0035173; Research Personnel; Professional or Occupational Group
+T61	LIVB 1371 1400	Pacientes institucionalizados
+#52	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group + C0376326; Institutionalized Persons; Patient or Disabled Group
+T62	ANAT 766 778	respiratoria
+#53	AnnotatorNotes T62	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T47	Age 355 368	18 años o más
+T48	CHEM 106 110	miel
+#54	AnnotatorNotes T48	C0939937; honey preparation; Organic Chemical · Pharmacologic Substance
+T64	LIVB 342 351	Pacientes
+#55	AnnotatorNotes T64	C0030705; Patients; Patient or Disabled Group
+T65	Duration 1022 1030	<3 meses
+T63	CHEM 1362 1366	miel
+#56	AnnotatorNotes T63	C0939937; honey preparation; Organic Chemical · Pharmacologic Substance
+T66	PROC 1381 1400	institucionalizados
+#57	AnnotatorNotes T66	C0021629; Institutionalization; Health Care Activity
+A1	Assertion T12 Speculated
+A2	Population_data T46 Age
+A3	Status T24 History_of
+A4	Status T23 History_of
+A5	Status T31 History_of
+A6	Status T30 History_of
+A7	Assertion T33 Contraindicated
+A8	Assertion T44 Contraindicated
+A9	Assertion T34 Contraindicated
+A10	Assertion T63 Contraindicated
+#58	AnnotatorNotes T1	C1096670; Antitussive therapy; Therapeutic or Preventive Procedure 
+#59	AnnotatorNotes T13	C0019982; Hospital Referral; Health Care Activity 
+#60	AnnotatorNotes T29	C0679247; Terminal illness; Disease or Syndrome
+#61	AnnotatorNotes T58	C0332185; Recent; Temporal Concept
+T67	Neg_cue 168 170	no
+T68	Quantifier_or_Qualifier 171 181	complicada
+A11	Assertion T68 Negated
+#62	AnnotatorNotes T68	C0231242; Complicated; Functional Concept
+R1	Used_for Arg1:T36 Arg2:T1	
+R2	Experiences Arg1:T46 Arg2:T1	
+R3	Experiences Arg1:T46 Arg2:T2	
+R4	Experiences Arg1:T46 Arg2:T48	
+R5	Experiences Arg1:T46 Arg2:T3	
+R6	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T68	
+R7	Negation Arg1:T67 Arg2:T68	
+R8	Overlap Arg1:T4 Arg2:T5	
+R9	Overlap Arg1:T6 Arg2:T7	
+R10	Has_Age Arg1:T64 Arg2:T47	
+R11	Experiences Arg1:T64 Arg2:T15	
+R12	Experiences Arg1:T64 Arg2:T8	
+R13	Has_Duration_or_Interval Arg1:T8 Arg2:T49	
+R14	Overlap Arg1:T8 Arg2:T9	
+R15	Experiences Arg1:T64 Arg2:T9	
+T69	Observation 498 516	acepten participar
+R16	Before Arg1:T69 Arg2:T10	
+T70	Quantifier_or_Qualifier 563 565	≥4
+T71	CONC 599 612	escala Likert
+#64	AnnotatorNotes T71	C0451267; Likert scale; Intellectual Product
+R20	Has_Quantifier_or_Qualifier Arg1:T71 Arg2:T70	
+R21	Experiences Arg1:T50 Arg2:T11	
+R22	Overlap Arg1:T11 Arg2:T51	
+R23	Overlap Arg1:T11 Arg2:T52	
+R24	Speculation Arg1:T53 Arg2:T12	
+R25	Experiences Arg1:T54 Arg2:T13	
+R26	Location_of Arg1:T62 Arg2:T14	
+R27	Location_of Arg1:T37 Arg2:T16	
+R28	Has_Duration_or_Interval Arg1:T16 Arg2:T57	
+R29	Location_of Arg1:T62 Arg2:T17	
+R30	Location_of Arg1:T62 Arg2:T18	
+R31	Location_of Arg1:T62 Arg2:T19	
+R32	Location_of Arg1:T38 Arg2:T21	
+R33	Location_of Arg1:T40 Arg2:T24	
+R34	Location_of Arg1:T41 Arg2:T24	
+R35	Location_of Arg1:T39 Arg2:T23	
+R36	Overlap Arg1:T24 Arg2:T58	
+R37	Has_Duration_or_Interval Arg1:T24 Arg2:T65	
+R38	Location_of Arg1:T42 Arg2:T25	
+R39	Location_of Arg1:T43 Arg2:T26	
+T72	Quantifier_or_Qualifier 882 895	significativa
+#65	AnnotatorNotes T72	C1546944; Event Seriousness - Significant; Qualitative Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T72	
+T73	Quantifier_or_Qualifier 1056 1062	severa
+#66	AnnotatorNotes T73	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R41	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T73	
+T74	Quantifier_or_Qualifier 1084 1090	severa
+#67	AnnotatorNotes T74	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R42	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T74	
+T75	Quantifier_or_Qualifier 929 943	moderada-grave
+#68	AnnotatorNotes T75	C1299393; Moderate to severe; Qualitative Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T75	
+R44	Causes Arg1:T32 Arg2:T31	
+R45	Causes Arg1:T32 Arg2:T30	
+T76	Quantifier_or_Qualifier 1124 1130	activa
+#69	AnnotatorNotes T76	C0679217; Active State; Idea or Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T76	
+R47	Used_for Arg1:T44 Arg2:T33	
+R48	Used_for Arg1:T34 Arg2:T33	
+R49	Used_for Arg1:T63 Arg2:T33	
+R51	Experiences Arg1:T61 Arg2:T66	
+T77	Observation 1404 1467	Dificultad para realizar las visitas programadas de seguimiento
+#63	AnnotatorNotes T69	C1302239; Patient consented to clinical trial; Finding
+A12	Experiencer T60 Other
+A13	Experiencer T59 Patient
+A14	Experiencer T61 Patient
+A15	Experiencer T46 Patient
+A16	Experiencer T64 Patient
+A17	Experiencer T50 Patient
+A18	Experiencer T54 Patient

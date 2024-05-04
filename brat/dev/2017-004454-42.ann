@@ -1,0 +1,197 @@
+T1	PROC 46 69	Estudio de intervención
+#1	AnnotatorNotes T1	C3274035; Interventional Study; Research Activity
+T2	DISO 110 129	deterioro cognitivo
+#2	AnnotatorNotes T2	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T3	DISO 143 153	diabéticos
+#3	AnnotatorNotes T3	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T4	DISO 185 208	enfermedad de Alzheimer
+#4	AnnotatorNotes T4	C0002395; Alzheimer's Disease; Disease or Syndrome
+T5	DISO 240 253	hipoglucemias
+#5	AnnotatorNotes T5	C0020615; Hypoglycemia; Disease or Syndrome
+T6	CHEM 266 272	azúcar
+#6	AnnotatorNotes T6	C0242209; Sugars; Organic Chemical · Pharmacologic Substance
+T7	PROC 303 333	Estudio piloto de intervención
+T8	DISO 255 278	niveles de azúcar bajos
+T9	DISO 374 393	deterioro cognitivo
+#7	AnnotatorNotes T9	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T10	DISO 407 417	diabéticos
+#8	AnnotatorNotes T10	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T11	DISO 449 472	enfermedad de Alzheimer
+#9	AnnotatorNotes T11	C0002395; Alzheimer's Disease; Disease or Syndrome
+T12	DISO 504 517	hipoglucemias
+#10	AnnotatorNotes T12	C0020615; Hypoglycemia; Disease or Syndrome
+T13	DISO 573 592	deterioro cognitivo
+#11	AnnotatorNotes T13	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T14	DISO 644 652	demencia
+#12	AnnotatorNotes T14	C0497327; Dementia; Mental or Behavioral Dysfunction
+T15	DISO 711 730	deterioro cognitivo
+#13	AnnotatorNotes T15	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T16	DISO 748 767	deterioro cognitivo
+#14	AnnotatorNotes T16	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T17	DISO 807 831	Diabetes mellitus tipo 2
+#15	AnnotatorNotes T17	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T18	PROC 835 846	tratamiento
+#16	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	CHEM 871 881	metformina
+#17	AnnotatorNotes T19	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T20	DISO 935 959	Deterioro cognitivo leve
+T21	PROC 917 930	randomización
+T22	PROC 979 1002	tests neuropsicológicos
+T23	PROC 1027 1036	screening
+#18	AnnotatorNotes T23	C0220908; Screening procedure; Diagnostic Procedure
+T24	DISO 1173 1196	enfermedad de Alzheimer
+#19	AnnotatorNotes T24	C0002395; Alzheimer's Disease; Disease or Syndrome
+T25	DISO 1233 1241	demencia
+#20	AnnotatorNotes T25	C0497327; Dementia; Mental or Behavioral Dysfunction
+T26	ANAT 1438 1452	cardiovascular
+#21	AnnotatorNotes T26	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T27	DISO 1463 1474	fallo renal
+#22	AnnotatorNotes T27	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T28	PROC 1477 1503	tratamiento antineoplásico
+#23	AnnotatorNotes T28	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+T29	PROC 1083 1119	consentimiento informado por escrito
+#24	AnnotatorNotes T29	C0811741; Obtain informed written consent; Health Care Activity
+T30	PROC 1537 1549	evaluaciones
+#25	AnnotatorNotes T30	C1261322; Evaluation procedure; Health Care Activity
+T31	PROC 1555 1567	intervención
+#26	AnnotatorNotes T31	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T32	CHEM 851 859	insulina
+#27	AnnotatorNotes T32	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T33	DISO 1262 1302	condiciones psiquiátricas o neurológicas
+T34	DISO 1352 1377	déficit sensitivo o motor
+#28	AnnotatorNotes T34	C0748618; Sensory deficit; Finding
+T35	ANAT 1469 1474	renal
+#29	AnnotatorNotes T35	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T36	CHEM 1489 1503	antineoplásico
+#30	AnnotatorNotes T36	C0003392; Antineoplastic Agents; Organic Chemical · Pharmacologic Substance
+T37	DISO 1431 1452	evento cardiovascular
+T38	Date 13 17	2017
+T39	LIVB 133 142	pacientes
+#31	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Spec_cue 163 172	riesgo de
+T41	LIVB 397 406	pacientes
+#32	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Spec_cue 427 436	riesgo de
+T43	LIVB 734 743	pacientes
+#33	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Neg_cue 867 870	sin
+T45	Duration 883 904	al menos desde 5 años
+T46	Age 1046 1064	entre 60 y 75 años
+T47	LIVB 1201 1210	Pacientes
+#34	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T49	PHYS 1341 1350	cognición
+#35	AnnotatorNotes T49	C0009240; Cognition; Mental Process
+T50	Date 1453 1461	reciente
+T52	PHYS 120 129	cognitivo
+#36	AnnotatorNotes T52	C0009240; Cognition; Mental Process
+T53	PHYS 384 393	cognitivo
+#37	AnnotatorNotes T53	C0009240; Cognition; Mental Process
+T54	PHYS 583 592	cognitivo
+#38	AnnotatorNotes T54	C0009240; Cognition; Mental Process
+T55	PHYS 721 730	cognitivo
+#39	AnnotatorNotes T55	C0009240; Cognition; Mental Process
+T56	PHYS 758 767	cognitivo
+#40	AnnotatorNotes T56	C0009240; Cognition; Mental Process
+T57	PHYS 945 954	cognitivo
+#41	AnnotatorNotes T57	C0009240; Cognition; Mental Process
+A1	Assertion T4 Speculated
+A2	Assertion T11 Speculated
+A3	Assertion T19 Negated
+A4	Status T24 Family_history_of
+A5	Status T33 History_of
+A6	Status T37 History_of
+#42	AnnotatorNotes T8	C0020615; Hypoglycemia; Disease or Syndrome 
+#43	AnnotatorNotes T7	C3274035; Interventional Study; Research Activity + C0031928; Pilot Projects; Research Activity
+#44	AnnotatorNotes T21	C0034656; Randomization; Research Activity
+#45	AnnotatorNotes T20	C1270972; Mild cognitive disorder; Mental or Behavioral Dysfunction 
+#46	AnnotatorNotes T22	C0027902; Neuropsychological Tests; Diagnostic Procedure
+#47	AnnotatorNotes T33	C0004936; Mental disorders; Mental or Behavioral Dysfunction + C4699657; Other neurological conditions; Finding 
+#48	AnnotatorNotes T37	C1320716; Cardiovascular event; Finding
+#49	AnnotatorNotes T50	C0332185; Recent; Temporal Concept
+R1	Before Arg1:T13 Arg2:T14	
+T48	Spec_cue 1307 1313	puedan
+T51	CONC 1314 1321	afectar
+A7	Assertion T51 Speculated
+#50	AnnotatorNotes T51	C0521102; Interferes with; Functional Concept
+R2	Speculation Arg1:T48 Arg2:T51	
+T58	Spec_cue 1516 1521	pueda
+T59	CONC 1522 1532	restringir
+A8	Assertion T59 Speculated
+#51	AnnotatorNotes T59	C0443288; Restricted; Functional Concept (?)
+R3	Speculation Arg1:T58 Arg2:T59	
+R5	Experiences Arg1:T39 Arg2:T2	
+R6	Experiences Arg1:T39 Arg2:T52	
+R7	Experiences Arg1:T39 Arg2:T3	
+R8	Overlap Arg1:T2 Arg2:T3	
+R9	Speculation Arg1:T40 Arg2:T4	
+R12	Overlap Arg1:T3 Arg2:T5	
+R13	Overlap Arg1:T3 Arg2:T8	
+R14	Experiences Arg1:T39 Arg2:T8	
+R10	Experiences Arg1:T39 Arg2:T5	
+T63	Observation 158 172	alto riesgo de
+#54	AnnotatorNotes T63	C0332167; High risk of; Finding
+R11	Before Arg1:T63 Arg2:T4	
+R15	Experiences Arg1:T39 Arg2:T63	
+R16	Overlap Arg1:T3 Arg2:T63	
+R17	Overlap Arg1:T63 Arg2:T5	
+R18	Overlap Arg1:T63 Arg2:T8	
+T64	Observation 95 105	progresión
+#55	AnnotatorNotes T64	C1457868; Worse; Finding (?)
+T65	Observation 359 369	progresión
+#56	AnnotatorNotes T65	C1457868; Worse; Finding (?)
+R19	Before Arg1:T2 Arg2:T64	
+R20	Experiences Arg1:T39 Arg2:T64	
+R21	Experiences Arg1:T41 Arg2:T9	
+R23	Experiences Arg1:T41 Arg2:T65	
+R24	Experiences Arg1:T41 Arg2:T10	
+R25	Speculation Arg1:T42 Arg2:T11	
+T69	Observation 422 436	alto riesgo de
+#59	AnnotatorNotes T69	C0332167; High risk of; Finding
+R26	Before Arg1:T69 Arg2:T11	
+R27	Experiences Arg1:T41 Arg2:T69	
+R28	Before Arg1:T9 Arg2:T65	
+R29	Experiences Arg1:T41 Arg2:T53	
+R30	Overlap Arg1:T10 Arg2:T12	
+R31	Overlap Arg1:T69 Arg2:T12	
+T70	Observation 558 568	progresión
+#60	AnnotatorNotes T70	C1457868; Worse; Finding (?)
+T71	Observation 696 706	progresión
+#61	AnnotatorNotes T71	C1457868; Worse; Finding (?)
+T72	Quantifier_or_Qualifier 593 603	incipiente
+#62	AnnotatorNotes T72	C0205256; Incipient; Temporal Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T72	
+R34	Before Arg1:T13 Arg2:T70	
+R35	Before Arg1:T15 Arg2:T71	
+R37	Experiences Arg1:T43 Arg2:T71	
+R38	Experiences Arg1:T43 Arg2:T15	
+R39	Experiences Arg1:T43 Arg2:T55	
+R40	Experiences Arg1:T43 Arg2:T16	
+R42	Experiences Arg1:T43 Arg2:T56	
+T73	Quantifier_or_Qualifier 768 778	incipiente
+#63	AnnotatorNotes T73	C0205256; Incipient; Temporal Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T73	
+R44	Before Arg1:T16 Arg2:T71	
+R45	Used_for Arg1:T32 Arg2:T18	
+R46	Negation Arg1:T44 Arg2:T19	
+R47	Combined_with Arg1:T32 Arg2:T19	
+R48	Has_Duration_or_Interval Arg1:T32 Arg2:T45	
+R49	Before Arg1:T18 Arg2:T21	
+R52	Overlap Arg1:T22 Arg2:T23	
+R53	Overlap Arg1:T20 Arg2:T23	
+R56	Experiences Arg1:T47 Arg2:T25	
+R58	Location_of Arg1:T26 Arg2:T37	
+R59	Overlap Arg1:T37 Arg2:T50	
+R60	Location_of Arg1:T35 Arg2:T27	
+R61	Used_for Arg1:T36 Arg2:T28	
+T74	Quantifier_or_Qualifier 1504 1510	activo
+#64	AnnotatorNotes T74	C0679217; Active State; Idea or Concept
+R62	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T74	
+R76	Experiences Arg1:T41 Arg2:T12	
+R77	Experiences Arg1:T39 Arg2:T4	
+R78	Experiences Arg1:T41 Arg2:T11	
+A9	Experiencer T39 Patient
+A10	Experiencer T41 Patient
+A11	Experiencer T43 Patient
+A12	Status T22 Future
+A13	Status T23 Future
+A14	Experiencer T47 Patient

@@ -1,0 +1,114 @@
+T1	PROC 254 285	BOLOS PROGRAMADOS INTERMITENTES
+T2	PROC 235 252	INFUSIÓN CONTINUA
+#1	AnnotatorNotes T2	C0444889; Continuous infusion; Therapeutic or Preventive Procedure
+T3	PROC 336 368	ESTUDIO ALEATORIZADO DOBLE CIEGO
+#2	AnnotatorNotes T3	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T4	ANAT 658 672	cuello uterino
+#3	AnnotatorNotes T4	C0007874; Cervix Uteri; Body Part, Organ, or Organ Component | C1278987; Entire cervix uteri; Body Part, Organ, or Organ Component
+T5	DISO 731 740	amenorrea
+#4	AnnotatorNotes T5	C0002453; Amenorrhea; Finding
+T6	PROC 796 814	anestesia epidural
+#5	AnnotatorNotes T6	C0002913; Epidural Anesthesia; Therapeutic or Preventive Procedure
+T7	PROC 829 843	parto inducido
+#6	AnnotatorNotes T7	C0200066; Medical induction of labor; Therapeutic or Preventive Procedure | C0259787; Induction of labor procedure; Therapeutic or Preventive Procedure
+T8	PROC 858 872	consentimiento
+#7	AnnotatorNotes T8	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T9	PROC 82 104	REGÍMENES DE ANALGESIA
+T10	DISO 141 156	DOLOR IRRUPTIVO
+#8	AnnotatorNotes T10	C1135120; Breakthrough Pain; Sign or Symptom
+T11	PROC 188 219	REGÍMENES DE ANALGESIA EPIDURAL
+T12	PROC 288 333	ANALGESIA EPIDURAL CONTROLADA POR LA PACIENTE
+T13	PROC 392 410	ANALGESIA EPIDURAL
+#9	AnnotatorNotes T13	C0002769; Analgesia, Epidural; Therapeutic or Preventive Procedure
+T14	PROC 481 499	analgesia epidural
+#10	AnnotatorNotes T14	C0002769; Analgesia, Epidural; Therapeutic or Preventive Procedure
+T15	PROC 593 617	Consentimiento informado
+#11	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	Date 13 17	2014
+T17	LIVB 62 74	PARTURIENTAS
+#12	AnnotatorNotes T17	C0033011; Pregnant Women; Population Group
+T18	LIVB 160 172	PARTURIENTAS
+#13	AnnotatorNotes T18	C0033011; Pregnant Women; Population Group
+T19	Route 211 219	EPIDURAL
+#14	AnnotatorNotes T19	C0592511; Epidural Route of Drug Administration; Functional Concept
+T20	Route 235 243	INFUSIÓN
+#15	AnnotatorNotes T20	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T21	Route 298 306	EPIDURAL
+#16	AnnotatorNotes T21	C0592511; Epidural Route of Drug Administration; Functional Concept
+T22	LIVB 325 333	PACIENTE
+#17	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	Route 402 410	EPIDURAL
+#18	AnnotatorNotes T23	C0592511; Epidural Route of Drug Administration; Functional Concept
+T24	LIVB 414 426	PARTURIENTAS
+#19	AnnotatorNotes T24	C0033011; Pregnant Women; Population Group
+T25	LIVB 455 467	Parturientas
+#20	AnnotatorNotes T25	C0033011; Pregnant Women; Population Group
+T26	Route 491 499	epidural
+#21	AnnotatorNotes T26	C0592511; Epidural Route of Drug Administration; Functional Concept
+T28	Duration 706 727	entre 37 y 41 semanas
+T29	Route 806 814	epidural
+#22	AnnotatorNotes T29	C0592511; Epidural Route of Drug Administration; Functional Concept
+T30	Neg_cue 846 857	Ausencia de
+T31	PHYS 885 896	comprensión
+#23	AnnotatorNotes T31	C0162340; Comprehension; Mental Process
+T32	Age 516 534	entre 18 y 40 años
+T33	PHYS 694 705	gestacional
+#24	AnnotatorNotes T33	C0032961; Pregnancy; Organism Function
+T27	PHYS 551 578	Trabajo de parto espontáneo
+#25	AnnotatorNotes T27	C0474461; Spontaneous onset of labor; Organism Function
+T34	PHYS 503 508	parto
+#26	AnnotatorNotes T34	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T35	PROC 551 567;581 589	Trabajo de parto inducido
+#27	AnnotatorNotes T35	C0200066; Medical induction of labor; Therapeutic or Preventive Procedure | C0259787; Induction of labor procedure; Therapeutic or Preventive Procedure
+T36	PHYS 647 672	Dilatación cuello uterino
+#28	AnnotatorNotes T36	C0079103; Cervical dilatation; Organ or Tissue Function
+T37	Route 254 259	BOLOS
+#29	AnnotatorNotes T37	C1554882; Injection, intravenous, bolus; Functional Concept | C1522229; Intravenous Bolus; Functional Concept
+T38	PHYS 829 834	parto
+#30	AnnotatorNotes T38	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T39	PROC 689 705	Edad gestacional
+#31	AnnotatorNotes T39	C4040272; Assessment of fetal gestational age; Health Care Activity
+A1	Assertion T8 Negated
+A2	Assertion T6 Contraindicated
+R2	Has_Route_or_Mode Arg1:T13 Arg2:T23
+#32	AnnotatorNotes T9	C3202977; Analgesia; Therapeutic or Preventive Procedure
+#33	AnnotatorNotes T11	C0002913; Epidural Anesthesia; Therapeutic or Preventive Procedure
+#34	AnnotatorNotes T12	C1301707; Patient controlled epidural analgesia; Therapeutic or Preventive Procedure
+R1	Has_Route_or_Mode Arg1:T6 Arg2:T29	
+R4	Negation Arg1:T30 Arg2:T8	
+T40	Observation 875 908	fallos de comprensión del estudio
+R5	Experiences Arg1:T17 Arg2:T9	
+R6	Experiences Arg1:T18 Arg2:T10	
+R7	Experiences Arg1:T18 Arg2:T11	
+R8	Has_Route_or_Mode Arg1:T11 Arg2:T19	
+R9	Combined_with Arg1:T11 Arg2:T2	
+R10	Has_Route_or_Mode Arg1:T2 Arg2:T20	
+R11	Has_Route_or_Mode Arg1:T1 Arg2:T37	
+R12	Combined_with Arg1:T2 Arg2:T1	
+R13	Combined_with Arg1:T2 Arg2:T12	
+R14	Has_Route_or_Mode Arg1:T12 Arg2:T21	
+R15	Experiences Arg1:T22 Arg2:T12	
+R16	Experiences Arg1:T22 Arg2:T1	
+R17	Experiences Arg1:T22 Arg2:T11	
+R18	Experiences Arg1:T22 Arg2:T2	
+R19	Experiences Arg1:T18 Arg2:T2	
+R20	Experiences Arg1:T18 Arg2:T1	
+R21	Experiences Arg1:T18 Arg2:T12	
+R22	Experiences Arg1:T22 Arg2:T10	
+R23	Experiences Arg1:T24 Arg2:T13	
+R24	Experiences Arg1:T25 Arg2:T14	
+R25	Experiences Arg1:T25 Arg2:T34	
+R26	Before Arg1:T14 Arg2:T34	
+R27	Has_Route_or_Mode Arg1:T14 Arg2:T26	
+T41	Observation 538 547	Primípara
+#35	AnnotatorNotes T41	C0860096; Primigravida; Finding
+R28	Location_of Arg1:T4 Arg2:T36	
+T42	Result_or_Value 673 685	menor a 4 cm
+R29	Has_Result_or_Value Arg1:T36 Arg2:T42	
+R30	Has_Duration_or_Interval Arg1:T33 Arg2:T28	
+R31	Before Arg1:T5 Arg2:T28	
+A3	Experiencer T17 Patient
+A4	Experiencer T18 Patient
+A5	Experiencer T22 Patient
+A6	Experiencer T24 Patient
+A7	Experiencer T25 Patient

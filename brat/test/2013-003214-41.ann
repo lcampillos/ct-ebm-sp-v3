@@ -1,0 +1,233 @@
+T1	PROC 46 79	Estudio para comparar la eficacia
+T2	PROC 181 214	Estudio unicéntrico, aleatorizado
+T3	PROC 292 304	hemodiálisis
+#1	AnnotatorNotes T3	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T4	PROC 124 136	hemodiálisis
+#2	AnnotatorNotes T4	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T5	DISO 314 336	función renal residual
+#3	AnnotatorNotes T5	C3266489; Hemodialysis residual renal function; Finding
+T6	DISO 366 382	Enfermedad renal
+#4	AnnotatorNotes T6	C0022658; Kidney Diseases; Disease or Syndrome
+T7	DISO 546 570	enfermedad renal crónica
+#5	AnnotatorNotes T7	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T8	PROC 466 478	hemodiálisis
+#6	AnnotatorNotes T8	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T9	PROC 587 599	hemodiálisis
+#7	AnnotatorNotes T9	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T10	DISO 625 647	función renal residual
+#8	AnnotatorNotes T10	C3266489; Hemodialysis residual renal function; Finding
+T11	PROC 709 721	hemodiálisis
+#9	AnnotatorNotes T11	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T12	PROC 780 804	consentimiento informado
+#10	AnnotatorNotes T12	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T13	PROC 869 881	hemodiálisis
+#11	AnnotatorNotes T13	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T14	CHEM 903 910	potasio
+#12	AnnotatorNotes T14	C0032821; potassium; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T15	ANAT 914 920	plasma
+#13	AnnotatorNotes T15	C0032105; Plasma; Body Substance
+T16	PROC 999 1011	hemodiálisis
+#14	AnnotatorNotes T16	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T17	CHEM 1037 1044	potasio
+#15	AnnotatorNotes T17	C0032821; potassium; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T18	PROC 1085 1097	hemodiálisis
+#16	AnnotatorNotes T18	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T19	DISO 1112 1128	ganancia de peso
+#17	AnnotatorNotes T19	C0332544; Abnormal weight gain; Sign or Symptom
+T20	PROC 1178 1190	hemodiálisis
+#18	AnnotatorNotes T20	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T21	DISO 1219 1235	efectos adversos
+#19	AnnotatorNotes T21	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T22	DISO 1238 1255	hipersensibilidad
+#20	AnnotatorNotes T22	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T23	PROC 1259 1270	tratamiento
+#21	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	DISO 338 341	FRR
+#22	AnnotatorNotes T24	C3266489; Hemodialysis residual renal function; Finding
+T25	PROC 1312 1336	consentimiento informado
+#23	AnnotatorNotes T25	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T26	CHEM 1518 1537	fármacos en estudio
+#24	AnnotatorNotes T26	C0013230; Investigational New Drugs; Pharmacologic Substance
+T27	PROC 386 398	hemodiálisis
+#25	AnnotatorNotes T27	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T28	CHEM 1576 1584	fármacos
+#26	AnnotatorNotes T28	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T29	DISO 141 158	diuresis residual
+T30	CHEM 87 97	diuréticos
+#27	AnnotatorNotes T30	C0012798; Diuretics; Pharmacologic Substance
+T31	PROC 247 261	administración
+#28	AnnotatorNotes T31	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T32	CHEM 265 275	diuréticos
+#29	AnnotatorNotes T32	C0012798; Diuretics; Pharmacologic Substance
+T33	PROC 306 308	HD
+#30	AnnotatorNotes T33	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T34	ANAT 377 382	renal
+#31	AnnotatorNotes T34	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T35	ANAT 436 441	Renal
+#32	AnnotatorNotes T35	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T36	ANAT 557 562	renal
+#33	AnnotatorNotes T36	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T37	PROC 886 920	concentración de potasio en plasma
+T38	CHEM 1051 1070	líquido de diálisis
+#34	AnnotatorNotes T38	C0011947; Dialysis Solutions; Pharmacologic Substance
+T39	PROC 1062 1070	diálisis
+#35	AnnotatorNotes T39	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T40	PROC 220 240	comparar la eficacia
+#36	AnnotatorNotes T40	C1707887; Efficacy Study; Research Activity
+T41	PROC 1481 1495	administración
+#37	AnnotatorNotes T41	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T42	PROC 1543 1566	administración conjunta
+#38	AnnotatorNotes T42	C1707479; Concomitant Therapy; Therapeutic or Preventive Procedure (?)
+T43	Date 13 17	2013
+T45	LIVB 101 110	pacientes
+#39	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	PHYS 141 149	diuresis
+#40	AnnotatorNotes T46	C0012797; Diuresis; Organ or Tissue Function
+T48	LIVB 279 288	pacientes
+#41	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Duration 442 449	crónica
+#42	AnnotatorNotes T49	C0205191; chronic; Temporal Concept
+T50	LIVB 502 511	Pacientes
+#43	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Age 512 530	mayores de 18 años
+T52	LIVB 532 541	Pacientes
+#44	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Duration 563 570	crónica
+#45	AnnotatorNotes T53	C0205191; chronic; Temporal Concept
+T54	LIVB 601 610	Pacientes
+#46	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 679 688	Pacientes
+#47	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Duration 727 752	mínimo durante tres meses
+T59	LIVB 754 763	Pacientes
+#48	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 856 865	Pacientes
+#49	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 986 995	Pacientes
+#50	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 1072 1081	Pacientes
+#51	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	LIVB 1165 1174	Pacientes
+#52	AnnotatorNotes T64	C0030705; Patients; Patient or Disabled Group
+T65	LIVB 1283 1292	Pacientes
+#53	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	Neg_cue 1297 1299	no
+T67	LIVB 1365 1410	Mujeres embarazadas o en período de lactancia
+#54	AnnotatorNotes T67	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T68	LIVB 1412 1421	Pacientes
+#55	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 1586 1595	Pacientes
+#56	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	LIVB 1706 1724	médico responsable
+#57	AnnotatorNotes T70	C4708568; Medically responsible investigator; Professional or Occupational Group
+T71	LIVB 1741 1749	paciente
+#58	AnnotatorNotes T71	C0030705; Patients; Patient or Disabled Group
+T44	PHYS 314 327	función renal
+#59	AnnotatorNotes T44	C0232804; Renal function; Organ or Tissue Function
+T47	DISO 425 449	Enfermedad Renal crónica
+#60	AnnotatorNotes T47	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T55	PHYS 625 638	función renal
+#61	AnnotatorNotes T55	C0232804; Renal function; Organ or Tissue Function
+T56	Duration 944 984	periodo interhemodiálisis de días cortos
+T61	Duration 1129 1149	interHD de día largo
+T72	PHYS 1373 1384	embarazadas
+#62	AnnotatorNotes T72	C0032961; Pregnancy; Organism Function
+T73	PHYS 1401 1410	lactancia
+#63	AnnotatorNotes T73	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Assertion T25 Negated
+A2	Status T21 History_of
+A3	Status T22 History_of
+A4	Assertion T41 Contraindicated
+A5	Assertion T26 Contraindicated
+A6	Assertion T42 Contraindicated
+A7	Assertion T28 Contraindicated
+#64	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#65	AnnotatorNotes T29	C3266489; Hemodialysis residual renal function; Finding
+T75	Spec_cue 1655 1660	puede
+T76	Observation 1672 1689	perjuicio clínico
+A9	Assertion T76 Speculated
+R1	Speculation Arg1:T75 Arg2:T76	
+T77	Observation 1627 1654	participación en el estudio
+#66	AnnotatorNotes T77	C1278516; Patient participation status; Finding (?)
+R2	Before Arg1:T77 Arg2:T76	
+R3	Experiences Arg1:T45 Arg2:T30	
+R4	Experiences Arg1:T45 Arg2:T4	
+R9	Experiences Arg1:T45 Arg2:T29	
+R10	Experiences Arg1:T45 Arg2:T46	
+R11	Used_for Arg1:T32 Arg2:T31	
+R12	Experiences Arg1:T48 Arg2:T31	
+R13	Experiences Arg1:T48 Arg2:T3	
+R14	Experiences Arg1:T48 Arg2:T33	
+R15	Experiences Arg1:T48 Arg2:T5	
+R16	Experiences Arg1:T48 Arg2:T44	
+R19	Experiences Arg1:T48 Arg2:T24	
+R6	Location_of Arg1:T34 Arg2:T6	
+R7	Location_of Arg1:T35 Arg2:T47	
+R22	Has_Duration_or_Interval Arg1:T47 Arg2:T49	
+T78	Quantifier_or_Qualifier 453 462	estadio V
+R23	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T78	
+R24	Has_Age Arg1:T50 Arg2:T51	
+R25	Experiences Arg1:T52 Arg2:T7	
+R26	Experiences Arg1:T52 Arg2:T9	
+T79	Quantifier_or_Qualifier 574 583	estadio V
+R27	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T79	
+R28	Location_of Arg1:T36 Arg2:T7	
+R29	Has_Duration_or_Interval Arg1:T7 Arg2:T53	
+R30	Experiences Arg1:T54 Arg2:T10	
+R31	Experiences Arg1:T54 Arg2:T55	
+T80	Result_or_Value 651 677	igual o mayor 200ml al día
+R33	Has_Result_or_Value Arg1:T10 Arg2:T80	
+R34	Experiences Arg1:T57 Arg2:T11	
+R35	Has_Duration_or_Interval Arg1:T11 Arg2:T58	
+T81	Observation 807 831	participar en el estudio
+#67	AnnotatorNotes T81	C1278516; Patient participation status; Finding (?)
+R36	Before Arg1:T12 Arg2:T81	
+R37	Experiences Arg1:T60 Arg2:T13	
+R38	Experiences Arg1:T60 Arg2:T37	
+#68	AnnotatorNotes T37	C1272115; Plasma potassium level; Laboratory Procedure
+R39	Location_of Arg1:T15 Arg2:T37	
+T82	Result_or_Value 921 937	menor de 4 mEq/L
+R40	Has_Result_or_Value Arg1:T37 Arg2:T82	
+R41	Overlap Arg1:T37 Arg2:T56	
+R43	Experiences Arg1:T62 Arg2:T16	
+R45	Combined_with Arg1:T17 Arg2:T38	
+R46	Used_for Arg1:T38 Arg2:T39	
+R47	Used_for Arg1:T38 Arg2:T16	
+R48	Experiences Arg1:T62 Arg2:T17	
+R49	Experiences Arg1:T63 Arg2:T18	
+R50	Experiences Arg1:T63 Arg2:T19	
+R51	Overlap Arg1:T19 Arg2:T61	
+T83	Result_or_Value 1150 1163	menor de 1 Kg
+R52	Has_Result_or_Value Arg1:T19 Arg2:T83	
+R54	Experiences Arg1:T64 Arg2:T20	
+R53	Experiences Arg1:T64 Arg2:T21	
+R55	Experiences Arg1:T64 Arg2:T22	
+R56	Causes Arg1:T23 Arg2:T21	
+R57	Causes Arg1:T23 Arg2:T22	
+R58	Negation Arg1:T66 Arg2:T25	
+T84	Observation 1339 1363	participar en el estudio
+#69	AnnotatorNotes T84	C1278516; Patient participation status; Finding
+R60	Before Arg1:T25 Arg2:T84	
+R59	Experiences Arg1:T67 Arg2:T72	
+R61	Experiences Arg1:T67 Arg2:T73	
+R63	Used_for Arg1:T26 Arg2:T41	
+R65	Used_for Arg1:T28 Arg2:T42	
+R64	Experiences Arg1:T69 Arg2:T76	
+R67	Experiences Arg1:T71 Arg2:T76	
+A8	Experiencer T71 Patient
+A10	Experiencer T70 Other
+A11	Experiencer T69 Patient
+A12	Experiencer T68 Patient
+A13	Experiencer T67 Patient
+A14	Experiencer T65 Patient
+A15	Experiencer T64 Patient
+A16	Experiencer T63 Patient
+A17	Experiencer T62 Patient
+A18	Experiencer T60 Patient
+A19	Experiencer T59 Patient
+A20	Experiencer T54 Patient
+A21	Experiencer T57 Patient
+A22	Experiencer T52 Patient
+A23	Experiencer T50 Patient
+A24	Experiencer T48 Patient
+A25	Experiencer T45 Patient

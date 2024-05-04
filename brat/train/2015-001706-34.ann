@@ -1,0 +1,139 @@
+T1	PROC 45 99	Ensayo clínico para evaluar la seguridad y la eficacia
+T2	DISO 690 729	Colonización por Pseudomonas aeruginosa
+T3	PROC 118 128	prevención
+#1	AnnotatorNotes T3	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T4	DISO 135 178	neumonía causada por Pseudomonas aeruginosa
+#2	AnnotatorNotes T4	C0920182; Pneumonia Pseudomonas aeruginosa; Disease or Syndrome
+T5	PROC 227 252	Ensayo clínico de fase II
+#3	AnnotatorNotes T5	C0282460; Phase 2 Clinical Trials; Research Activity
+T6	PROC 288 322	evaluar la eficacia y la seguridad
+#4	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T7	PROC 341 351	prevención
+#5	AnnotatorNotes T7	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T8	DISO 358 412	neumonía nosocomial causada por Pseudomonas aeruginosa
+T9	PROC 436 456	ventilación mecánica
+#6	AnnotatorNotes T9	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T10	PROC 478 488	Prevención
+#7	AnnotatorNotes T10	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T11	DISO 495 541	neumonía nosocomial por Pseudomonas aeruginosa
+T12	PROC 593 603	Prevención
+#8	AnnotatorNotes T12	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T13	DISO 610 664	neumonía nosocomial causada por Pseudomonas aeruginosa
+T14	ANAT 736 755	tracto respiratorio
+#9	AnnotatorNotes T14	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T15	PROC 776 786	intubación
+#10	AnnotatorNotes T15	C0021925; Intubation (procedure); Therapeutic or Preventive Procedure
+T16	PROC 789 809	ventilación mecánica
+#11	AnnotatorNotes T16	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T17	DISO 847 855	neumonía
+#12	AnnotatorNotes T17	C0032285; Pneumonia; Disease or Syndrome
+T18	DISO 889 915	Enfermedad por pseudomonas
+#13	AnnotatorNotes T18	C1400662; Pseudomonas infection as cause of disease classified elsewhere; Disease or Syndrome
+T19	PROC 936 950	aleatorización
+#14	AnnotatorNotes T19	C0034656; Randomization; Research Activity
+T20	DISO 952 967	lesión pulmonar
+#15	AnnotatorNotes T20	C0273115; Lung Injury; Injury or Poisoning
+T21	ANAT 959 967	pulmonar
+#16	AnnotatorNotes T21	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T22	DISO 1003 1011	neumonía
+#17	AnnotatorNotes T22	C0032285; Pneumonia; Disease or Syndrome
+T23	DISO 1013 1032	Enfermedad pulmonar
+#18	AnnotatorNotes T23	C0024115; Lung diseases; Disease or Syndrome
+T24	PROC 1112 1121	protocolo
+#19	AnnotatorNotes T24	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T25	DISO 1133 1143	moribundos
+#20	AnnotatorNotes T25	C0424547; Moribund (finding); Finding
+T26	ANAT 1024 1032	pulmonar
+#21	AnnotatorNotes T26	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T27	CHEM 1064 1076	antibióticos
+#22	AnnotatorNotes T27	C0003232; Antibiotics; Antibiotic
+T28	CHEM 103 111	MEDI3902
+#23	AnnotatorNotes T28	C4547378; MEDI3902; Amino Acid, Peptide, or Protein · Immunologic Factor
+T29	CHEM 326 334	MEDI3902
+#24	AnnotatorNotes T29	C4547378; MEDI3902; Amino Acid, Peptide, or Protein · Immunologic Factor
+T30	Date 13 17	2015
+T31	LIVB 156 178	Pseudomonas aeruginosa
+#25	AnnotatorNotes T31	C0033809; Pseudomonas aeruginosa; Bacterium
+T32	LIVB 390 412	Pseudomonas aeruginosa
+#26	AnnotatorNotes T32	C0033809; Pseudomonas aeruginosa; Bacterium
+T33	LIVB 416 425	pacientes
+#27	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 519 541	Pseudomonas aeruginosa
+#28	AnnotatorNotes T35	C0033809; Pseudomonas aeruginosa; Bacterium
+T36	LIVB 642 664	Pseudomonas aeruginosa
+#29	AnnotatorNotes T36	C0033809; Pseudomonas aeruginosa; Bacterium
+T37	LIVB 707 729	Pseudomonas aeruginosa
+#30	AnnotatorNotes T37	C0033809; Pseudomonas aeruginosa; Bacterium
+T38	Neg_cue 822 833	sin ninguna
+T39	LIVB 904 915	pseudomonas
+#31	AnnotatorNotes T39	C0033808; Pseudomonas; Bacterium
+T40	Date 1033 1039	actual
+T41	Date 1041 1052	actualmente
+T42	LIVB 1084 1095	pseudomonas
+#32	AnnotatorNotes T42	C0033808; Pseudomonas; Bacterium
+T43	LIVB 1123 1132	pacientes
+#33	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+A1	Assertion T17 Negated
+#34	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+R1	Used_for Arg1:T28 Arg2:T3	
+R2	Causes Arg1:T31 Arg2:T4	
+T34	CONC 191 205	en el hospital
+#35	AnnotatorNotes T34	C1510665; Hospital environment; Qualitative Concept
+R3	Overlap Arg1:T4 Arg2:T34	
+R4	Before Arg1:T3 Arg2:T4	
+R5	Experiences Arg1:T33 Arg2:T9	
+R6	Used_for Arg1:T29 Arg2:T7	
+R7	Before Arg1:T7 Arg2:T8	
+R8	Causes Arg1:T32 Arg2:T8	
+T44	Quantifier_or_Qualifier 367 377	nosocomial
+#36	AnnotatorNotes T44	C1510665; Hospital environment; Qualitative Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T44	
+T45	Quantifier_or_Qualifier 504 514	nosocomial
+#37	AnnotatorNotes T45	C1510665; Hospital environment; Qualitative Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T45	
+R11	Causes Arg1:T35 Arg2:T11	
+T46	Quantifier_or_Qualifier 619 629	nosocomial
+#38	AnnotatorNotes T46	C1510665; Hospital environment; Qualitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T46	
+R13	Causes Arg1:T36 Arg2:T13	
+R14	Before Arg1:T10 Arg2:T11	
+R15	Before Arg1:T12 Arg2:T13	
+T47	CONC 554 568	en el hospital
+#39	AnnotatorNotes T47	C1510665; Hospital environment; Qualitative Concept
+R16	Overlap Arg1:T11 Arg2:T47	
+R17	Experiences Arg1:T33 Arg2:T29	
+R18	Experiences Arg1:T33 Arg2:T7	
+R19	Experiences Arg1:T33 Arg2:T8	
+R20	Location_of Arg1:T14 Arg2:T2	
+R21	Causes Arg1:T37 Arg2:T2	
+T48	Quantifier_or_Qualifier 810 820	prolongada
+#40	AnnotatorNotes T48	C0439590; Prolonged; Temporal Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T48	
+R23	Negation Arg1:T38 Arg2:T17	
+R24	Before Arg1:T15 Arg2:T16	
+R25	Overlap Arg1:T2 Arg2:T17	
+T49	Quantifier_or_Qualifier 856 862	activa
+#41	AnnotatorNotes T49	C0679217; Active State; Idea or Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T49	
+A2	Assertion T49 Negated
+R27	Negation Arg1:T38 Arg2:T49	
+R28	Causes Arg1:T39 Arg2:T18	
+R29	Overlap Arg1:T18 Arg2:T19	
+R30	Location_of Arg1:T21 Arg2:T20	
+R31	Causes Arg1:T22 Arg2:T20	
+R32	Location_of Arg1:T21 Arg2:T22	
+R33	Location_of Arg1:T26 Arg2:T23	
+R34	Overlap Arg1:T23 Arg2:T40	
+R35	Overlap Arg1:T27 Arg2:T41	
+T50	Quantifier_or_Qualifier 1077 1095	contra pseudomonas
+R36	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T50	
+R37	Experiences Arg1:T43 Arg2:T25	
+R38	Experiences Arg1:T43 Arg2:T18	
+R39	Experiences Arg1:T43 Arg2:T20	
+R40	Experiences Arg1:T43 Arg2:T22	
+R41	Experiences Arg1:T43 Arg2:T23	
+R42	Experiences Arg1:T43 Arg2:T27	
+#42	AnnotatorNotes T41	C0521116; Current (present time); Temporal Concept
+#43	AnnotatorNotes T40	C0521116; Current (present time); Temporal Concept
+A3	Experiencer T43 Patient
+A4	Experiencer T33 Patient

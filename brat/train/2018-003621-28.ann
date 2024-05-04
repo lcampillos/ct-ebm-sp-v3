@@ -1,0 +1,230 @@
+T1	PROC 46 72	Tratamiento anticoagulante
+#1	AnnotatorNotes T1	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T2	CHEM 58 72	anticoagulante
+#2	AnnotatorNotes T2	C0003280; Anticoagulants; Pharmacologic Substance
+T3	CHEM 80 93	antiagregante
+#3	AnnotatorNotes T3	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T4	ANAT 147 165	orejuela izquierda
+T5	PROC 171 179	prevenir
+#4	AnnotatorNotes T5	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T6	DISO 196 203	trombos
+#5	AnnotatorNotes T6	C0087086; Thrombus; Pathologic Function | C0302148; Blood Clot; Pathologic Function
+T7	PROC 245 260	Anticoagulación
+#6	AnnotatorNotes T7	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T8	PROC 268 291	terapia antiplaquetaria
+T9	PROC 478 491	procedimiento
+#7	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T10	PROC 311 319	prevenir
+#8	AnnotatorNotes T10	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T11	DISO 323 332	trombosis
+#9	AnnotatorNotes T11	C0040053; Thrombosis; Pathologic Function
+T12	ANAT 367 385	orejuela izquierda
+T13	DISO 425 432	Trombos
+#10	AnnotatorNotes T13	C0087086; Thrombus; Pathologic Function | C0302148; Blood Clot; Pathologic Function
+T14	ANAT 503 521	orejuela izquierda
+T15	DISO 533 538	ictus
+#11	AnnotatorNotes T15	C0038454; Cerebrovascular accident; Disease or Syndrome
+T16	DISO 541 560	hemorragia cerebral
+#12	AnnotatorNotes T16	C0553692; Brain hemorrhage; Pathologic Function | C2937358; Cerebral Hemorrhage; Pathologic Function
+T17	PROC 604 615	seguimiento
+#13	AnnotatorNotes T17	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T18	DISO 642 651	Trombosis
+#14	AnnotatorNotes T18	C0040053; Thrombosis; Pathologic Function
+T19	PROC 681 711	ecocardiografía transesofágica
+#15	AnnotatorNotes T19	C0206054; Echocardiography, Transesophageal; Diagnostic Procedure
+T20	DISO 756 774	Eventos isquémicos
+T21	DISO 776 781	ictus
+#16	AnnotatorNotes T21	C0038454; Cerebrovascular accident; Disease or Syndrome
+T22	DISO 783 786	AIT
+#17	AnnotatorNotes T22	C0007787; Transient Ischemic Attack; Disease or Syndrome
+T23	PROC 829 840	seguimiento
+#18	AnnotatorNotes T23	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T24	DISO 841 861	Eventos hemorrágicos
+T25	PROC 903 914	seguimiento
+#19	AnnotatorNotes T25	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T26	ANAT 978 996	orejuela izquierda
+T27	PROC 1138 1164	tratamiento anticoagulante
+#20	AnnotatorNotes T27	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T28	PROC 1196 1221	tratamiento antiagregante
+T29	CHEM 1150 1164	anticoagulante
+#21	AnnotatorNotes T29	C0003280; Anticoagulants; Pharmacologic Substance
+T30	CHEM 1208 1221	antiagregante
+#22	AnnotatorNotes T30	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T31	DISO 1224 1248	Patología renal terminal
+T32	ANAT 1234 1239	renal
+#23	AnnotatorNotes T32	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T33	PROC 137 165	cierre de orejuela izquierda
+T34	ANAT 552 560	cerebral
+#25	AnnotatorNotes T34	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T35	PROC 1250 1254	CrCl
+T36	PROC 1269 1296	Revascularización coronaria
+#26	AnnotatorNotes T36	C0877341; Coronary revascularisation; Therapeutic or Preventive Procedure
+T37	ANAT 1287 1296	coronaria
+#27	AnnotatorNotes T37	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T38	PROC 1342 1369	doble terapia antiagregante
+T39	CHEM 1356 1369	antiagregante
+#28	AnnotatorNotes T39	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T40	ANAT 1400 1412	intracraneal
+#29	AnnotatorNotes T40	C0524466; Intracranial; Body Location or Region
+T41	PROC 739 752	procedimiento
+#30	AnnotatorNotes T41	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T42	PROC 1618 1626	implante
+#31	AnnotatorNotes T42	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T43	PROC 1543 1551	implante
+#32	AnnotatorNotes T43	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T44	DISO 1570 1578	Sangrado
+#33	AnnotatorNotes T44	C0019080; Hemorrhage; Pathologic Function
+T45	DISO 1488 1507	Derrame pericárdico
+#34	AnnotatorNotes T45	C0031039; Pericardial effusion; Disease or Syndrome
+T46	PROC 1455 1485	ecocardiografía transesofágica
+#35	AnnotatorNotes T46	C0206054; Echocardiography, Transesophageal; Diagnostic Procedure
+T47	DISO 1389 1412	hemorragia intracraneal
+#36	AnnotatorNotes T47	C0151699; Intracranial Hemorrhage; Pathologic Function
+T48	PROC 357 385	cierre de orejuela izquierda
+T49	PROC 493 521	cierre de orejuela izquierda
+T50	PROC 968 996	cierre de orejuela izquierda
+T51	ANAT 1496 1507	pericárdico
+#40	AnnotatorNotes T51	C0031050; Pericardial sac structure; Body Part, Organ, or Organ Component | C0442031; Pericardial body location; Body Location or Region
+T52	Date 13 17	2018
+T53	DEVI 210 221	dispositivo
+#41	AnnotatorNotes T53	C1285539; Direct device; Medical Device
+T54	Date 292 305	a corto plazo
+T55	DEVI 337 348	dispositivo
+#42	AnnotatorNotes T55	C1285539; Direct device; Medical Device
+T56	DEVI 439 450	dispositivo
+#43	AnnotatorNotes T56	C1285539; Direct device; Medical Device
+T57	Duration 453 469	los 2 y 12 meses
+T58	Spec_cue 523 532	Riesgo de
+T59	Duration 563 574	los 2 meses
+T60	DEVI 656 667	dispositivo
+#44	AnnotatorNotes T60	C1285539; Direct device; Medical Device
+T62	Duration 712 719	2 meses
+T63	Duration 790 801	los 2 meses
+T64	Duration 864 875	los 2 meses
+T65	LIVB 943 952	Pacientes
+#45	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	DEVI 1028 1039	dispositivo
+#46	AnnotatorNotes T66	C1285539; Direct device; Medical Device
+T67	Age 1071 1079	≥18 años
+T70	Date 1297 1305	reciente
+T71	DEVI 1310 1329	stent farmacoactivo
+#47	AnnotatorNotes T71	C1322815; Drug-Eluting Stents; Medical Device
+T73	Duration 1518 1534	las primeras 24h
+T75	DEVI 1556 1567	dispositivo
+#48	AnnotatorNotes T75	C1285539; Direct device; Medical Device
+T76	Duration 1593 1609	las primeras 24h
+T78	DEVI 1631 1642	dispositivo
+#49	AnnotatorNotes T78	C1285539; Direct device; Medical Device
+T79	Duration 102 128	un corto periodo de tiempo
+T80	Duration 579 600	1-,2-,3-,4- y 5- años
+T61	Duration 722 730	12 meses
+T81	Duration 806 825	1-,2-,3-,4-,5- años
+T82	Duration 880 899	1-,2-,3-,4-,5- años
+A1	Assertion T15 Speculated
+A2	Assertion T16 Speculated
+A3	Assertion T27 Contraindicated
+A4	Assertion T29 Contraindicated
+A5	Assertion T30 Contraindicated
+A6	Assertion T28 Contraindicated
+A7	Status T36 History_of
+A8	Status T71 History_of
+A9	Status T47 History_of
+A10	Assertion T46 Contraindicated
+#24	AnnotatorNotes T4	C0225861; Left auricular appendage; Body Part, Organ, or Organ Component 
+#37	AnnotatorNotes T12	C0225861; Left auricular appendage; Body Part, Organ, or Organ Component 
+#38	AnnotatorNotes T14	C0225861; Left auricular appendage; Body Part, Organ, or Organ Component 
+#39	AnnotatorNotes T26	C0225861; Left auricular appendage; Body Part, Organ, or Organ Component 
+#50	AnnotatorNotes T8	C1096021; Antiplatelet therapy; Therapeutic or Preventive Procedure
+#51	AnnotatorNotes T28	C1096021; Antiplatelet therapy; Therapeutic or Preventive Procedure
+#52	AnnotatorNotes T38	C5197905; Dual Anti-Platelet Therapy; Therapeutic or Preventive Procedure
+#53	AnnotatorNotes T35	C0373595; Creatinine clearance measurement; Laboratory Procedure
+#54	AnnotatorNotes T54	C0443303; short-term; Temporal Concept
+#55	AnnotatorNotes T70	C0332185; Recent; Temporal Concept
+R1	Used_for Arg1:T29 Arg2:T27	
+R2	Used_for Arg1:T30 Arg2:T28	
+T68	Result_or_Value 1255 1265	<15 ml/min
+R3	Has_Result_or_Value Arg1:T35 Arg2:T68	
+R4	Location_of Arg1:T32 Arg2:T31	
+R5	Location_of Arg1:T37 Arg2:T36	
+R6	Overlap Arg1:T36 Arg2:T70	
+R7	Used_for Arg1:T71 Arg2:T36	
+R8	Used_for Arg1:T39 Arg2:T38	
+R10	Location_of Arg1:T40 Arg2:T47	
+R11	Location_of Arg1:T51 Arg2:T45	
+R12	Overlap Arg1:T45 Arg2:T73	
+R13	After Arg1:T45 Arg2:T43	
+R14	Used_for Arg1:T75 Arg2:T43	
+T72	Quantifier_or_Qualifier 1508 1514	severo
+#57	AnnotatorNotes T72	C1547227; Severe - Severity of Illness Code; Intellectual Product (?)
+R15	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T72	
+R16	After Arg1:T44 Arg2:T42	
+R17	Used_for Arg1:T78 Arg2:T42	
+R18	Has_Duration_or_Interval Arg1:T44 Arg2:T76	
+T74	Quantifier_or_Qualifier 1579 1584	mayor
+#58	AnnotatorNotes T74	C0205164; Major; Qualitative Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T74	
+R20	Location_of Arg1:T26 Arg2:T50	
+R21	Experiences Arg1:T65 Arg2:T50	
+R22	Used_for Arg1:T66 Arg2:T50	
+T77	Quantifier_or_Qualifier 997 1013	de forma exitosa
+#59	AnnotatorNotes T77	C0679864; treatment success; Qualitative Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T77	
+R24	Used_for Arg1:T2 Arg2:T1	
+R25	Used_for Arg1:T3 Arg2:T1	
+R26	Has_Duration_or_Interval Arg1:T2 Arg2:T79	
+R27	Has_Duration_or_Interval Arg1:T3 Arg2:T79	
+R28	After Arg1:T1 Arg2:T33	
+R30	Before Arg1:T5 Arg2:T6	
+R32	Overlap Arg1:T6 Arg2:T53	
+R31	Location_of Arg1:T4 Arg2:T33	
+R33	Location_of Arg1:T12 Arg2:T48	
+R34	Used_for Arg1:T53 Arg2:T33	
+R35	Overlap Arg1:T11 Arg2:T55	
+R37	Overlap Arg1:T8 Arg2:T54	
+R39	Before Arg1:T10 Arg2:T11	
+R40	After Arg1:T11 Arg2:T48	
+R41	Used_for Arg1:T55 Arg2:T48	
+R42	Overlap Arg1:T13 Arg2:T56	
+R44	Before Arg1:T7 Arg2:T11	
+R43	Before Arg1:T8 Arg2:T11	
+R45	Overlap Arg1:T13 Arg2:T57	
+R46	After Arg1:T13 Arg2:T9	
+R47	After Arg1:T13 Arg2:T49	
+R48	Location_of Arg1:T14 Arg2:T49	
+R49	Location_of Arg1:T14 Arg2:T9	
+R50	Speculation Arg1:T58 Arg2:T15	
+R51	Speculation Arg1:T58 Arg2:T16	
+R52	Location_of Arg1:T34 Arg2:T16	
+R53	Location_of Arg1:T34 Arg2:T15	
+R54	Overlap Arg1:T16 Arg2:T59	
+R55	Overlap Arg1:T15 Arg2:T59	
+R56	Overlap Arg1:T15 Arg2:T80	
+R57	Overlap Arg1:T16 Arg2:T80	
+R58	Has_Duration_or_Interval Arg1:T17 Arg2:T80	
+R59	Has_Duration_or_Interval Arg1:T17 Arg2:T59	
+R60	Overlap Arg1:T18 Arg2:T60	
+R62	Overlap Arg1:T19 Arg2:T62	
+R63	Overlap Arg1:T19 Arg2:T61	
+R64	After Arg1:T19 Arg2:T41	
+R65	Has_Duration_or_Interval Arg1:T23 Arg2:T81	
+R66	Has_Duration_or_Interval Arg1:T23 Arg2:T63	
+R67	Overlap Arg1:T22 Arg2:T63	
+R68	Overlap Arg1:T21 Arg2:T63	
+R69	Overlap Arg1:T20 Arg2:T63	
+R70	Overlap Arg1:T24 Arg2:T64	
+R71	Overlap Arg1:T24 Arg2:T82	
+R72	Has_Duration_or_Interval Arg1:T25 Arg2:T82	
+R73	Has_Duration_or_Interval Arg1:T25 Arg2:T64	
+R74	Used_for Arg1:T60 Arg2:T41	
+R75	Used_for Arg1:T56 Arg2:T9	
+R76	Used_for Arg1:T56 Arg2:T49	
+R29	Used_for Arg1:T2 Arg2:T5	
+R77	Used_for Arg1:T3 Arg2:T5	
+#60	AnnotatorNotes T20	C0022116; Ischemia; Pathologic Function
+#61	AnnotatorNotes T24	C0019080; Hemorrhage; Pathologic Function
+#62	AnnotatorNotes T33	C4759306; Left atrial appendage closure; Therapeutic or Preventive Procedure
+#63	AnnotatorNotes T48	C4759306; Left atrial appendage closure; Therapeutic or Preventive Procedure
+#64	AnnotatorNotes T49	C4759306; Left atrial appendage closure; Therapeutic or Preventive Procedure
+#65	AnnotatorNotes T50	C4759306; Left atrial appendage closure; Therapeutic or Preventive Procedure
+#66	AnnotatorNotes T31	C2316810; Chronic kidney disease stage 5; Disease or Syndrome (?)
+A11	Experiencer T65 Patient

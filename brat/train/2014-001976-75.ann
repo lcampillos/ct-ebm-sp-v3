@@ -1,0 +1,150 @@
+T1	CHEM 80 90	evolocumab
+#1	AnnotatorNotes T1	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T2	PROC 143 150	placebo
+#2	AnnotatorNotes T2	C0032042; Placebos; Therapeutic or Preventive Procedure
+T3	DISO 168 193	enfermedad cardiovascular
+#3	AnnotatorNotes T3	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T4	PROC 209 220	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	PROC 258 317	Estudio multicéntrico, doble ciego y controlado con placebo
+T6	CHEM 344 354	evolocumab
+#5	AnnotatorNotes T6	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	DISO 396 421	enfermedad cardiovascular
+#6	AnnotatorNotes T7	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T8	PROC 458 484	tratamiento hipolipemiante
+T9	PROC 738 762	Consentimiento informado
+#7	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	DISO 951 954	DCL
+T11	CHEM 582 592	Evolocumab
+#8	AnnotatorNotes T11	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T12	CHEM 649 656	lípidos
+#9	AnnotatorNotes T12	C0023779; Lipids; Organic Chemical
+T13	ANAT 663 669	sangre
+#10	AnnotatorNotes T13	C0005767; Blood; Body Substance
+T14	DISO 696 708	Dislipidemia
+#11	AnnotatorNotes T14	C0242339; Dyslipidemias; Disease or Syndrome
+T15	PROC 874 885	Diagnóstico
+#12	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 914 922	demencia
+#13	AnnotatorNotes T16	C0497327; Dementia; Mental or Behavioral Dysfunction
+T17	DISO 925 949	deterioro cognitivo leve
+T18	DISO 970 979	trastorno
+#14	AnnotatorNotes T18	C0012634; Disease; Disease or Syndrome
+T19	DISO 1009 1043	trastornos mentales o neurológicos
+T20	ANAT 179 193	cardiovascular
+#15	AnnotatorNotes T20	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T21	CHEM 225 234	estatinas
+#16	AnnotatorNotes T21	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T22	ANAT 407 421	cardiovascular
+#17	AnnotatorNotes T22	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T23	CHEM 470 484	hipolipemiante
+#18	AnnotatorNotes T23	C0086440; Hypolipidemic Agents; Pharmacologic Substance
+T24	CHEM 497 506	estatinas
+#19	AnnotatorNotes T24	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T25	DISO 625 669	Cantidades anormales de lípidos en la sangre
+T26	Date 13 17	2014
+T27	LIVB 154 163	pacientes
+#20	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	PHYS 361 378	función cognitiva
+#21	AnnotatorNotes T28	C0009240; Cognition; Mental Process
+T29	LIVB 382 391	pacientes
+#22	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 524 531	sujetos
+#23	AnnotatorNotes T30	C0681850; Study Subject; Group
+T31	Date 886 892	actual
+T32	Date 895 901	pasado
+T33	LIVB 1079 1091	investigador
+#24	AnnotatorNotes T33	C0035173; Research Personnel; Professional or Occupational Group
+T36	LIVB 1201 1207	sujeto
+#25	AnnotatorNotes T36	C0681850; Study Subject; Group
+T37	PHYS 935 944	cognitivo
+#26	AnnotatorNotes T37	C0009240; Cognition; Mental Process
+T38	PHYS 1020 1028	mentales
+#27	AnnotatorNotes T38	C0229992; Psyche structure; Mental Process
+T34	PROC 799 811	Aleatorizado
+#28	AnnotatorNotes T34	C0034656; Randomization; Research Activity
+T35	PHYS 100 123	capacidad para aprender
+#29	AnnotatorNotes T35	C0233832; Learning ability; Mental Process
+A1	Status T16 History_of
+A2	Status T17 History_of
+A3	Status T10 History_of
+#30	AnnotatorNotes T5	C1096776; Multicenter Study; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#31	AnnotatorNotes T8	C0585943; Lipid-lowering therapy; Therapeutic or Preventive Procedure 
+#32	AnnotatorNotes T17	C1270972; Mild cognitive disorder; Mental or Behavioral Dysfunction 
+#33	AnnotatorNotes T10	C1270972; Mild cognitive disorder; Mental or Behavioral Dysfunction 
+#34	AnnotatorNotes T19	C0027765; nervous system disorder; Disease or Syndrome + C0004936; Mental disorders; Mental or Behavioral Dysfunction
+#35	AnnotatorNotes T31	C0521116; Current (present time); Temporal Concept 
+#36	AnnotatorNotes T32	C1444637; In the past; Temporal Concept
+T39	Observation 70 76	efecto
+#37	AnnotatorNotes T39	C1518681; Outcome of Therapy; Finding (?)
+R1	Causes Arg1:T1 Arg2:T39	
+R2	Causes Arg1:T2 Arg2:T39	
+R3	Experiences Arg1:T27 Arg2:T39	
+R4	Experiences Arg1:T27 Arg2:T1	
+R5	Experiences Arg1:T27 Arg2:T35	
+R6	Experiences Arg1:T27 Arg2:T2	
+R7	Experiences Arg1:T27 Arg2:T3	
+R8	Location_of Arg1:T20 Arg2:T3	
+R9	Used_for Arg1:T21 Arg2:T4	
+R10	Experiences Arg1:T27 Arg2:T4	
+R11	Overlap Arg1:T1 Arg2:T4	
+R12	Overlap Arg1:T2 Arg2:T4	
+T40	Observation 334 340	efecto
+#38	AnnotatorNotes T40	C1518681; Outcome of Therapy; Finding (?)
+R13	Causes Arg1:T6 Arg2:T40	
+R14	Experiences Arg1:T29 Arg2:T28	
+R15	Experiences Arg1:T29 Arg2:T6	
+R16	Experiences Arg1:T29 Arg2:T40	
+R17	Experiences Arg1:T29 Arg2:T7	
+R18	Location_of Arg1:T22 Arg2:T7	
+R19	Experiences Arg1:T29 Arg2:T8	
+R20	Used_for Arg1:T24 Arg2:T8	
+R21	Used_for Arg1:T23 Arg2:T8	
+R22	Experiences Arg1:T29 Arg2:T11	
+R23	Experiences Arg1:T30 Arg2:T11	
+R24	Experiences Arg1:T30 Arg2:T8	
+R25	Experiences Arg1:T30 Arg2:T7	
+R26	Experiences Arg1:T30 Arg2:T28	
+R27	Experiences Arg1:T30 Arg2:T6	
+R28	Experiences Arg1:T30 Arg2:T40	
+R29	Location_of Arg1:T13 Arg2:T25	
+T41	PROC 779 786	estudio
+#39	AnnotatorNotes T41	C0008976; Clinical Trials; Research Activity
+R30	Before Arg1:T9 Arg2:T41	
+T42	PROC 818 825	estudio
+#40	AnnotatorNotes T42	C0008976; Clinical Trials; Research Activity
+R31	Overlap Arg1:T34 Arg2:T42	
+#41	AnnotatorNotes T25	C0549634; Lipids abnormal; Finding
+R32	Overlap Arg1:T15 Arg2:T31	
+R33	Overlap Arg1:T15 Arg2:T32	
+R36	Overlap Arg1:T16 Arg2:T31	
+R37	Overlap Arg1:T16 Arg2:T32	
+R38	Overlap Arg1:T17 Arg2:T31	
+R39	Overlap Arg1:T17 Arg2:T32	
+R40	Overlap Arg1:T10 Arg2:T32	
+R41	Overlap Arg1:T10 Arg2:T31	
+T43	Quantifier_or_Qualifier 1044 1058	significativos
+#42	AnnotatorNotes T43	C1546944; Event Seriousness - Significant; Qualitative Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T43	
+T44	Spec_cue 1140 1146	puedan
+T45	CONC 1147 1157	interferir
+A4	Assertion T45 Speculated
+#43	AnnotatorNotes T45	C0521102; Interferes with; Functional Concept
+R44	Speculation Arg1:T44 Arg2:T45	
+T46	Observation 1183 1207	participación del sujeto
+A5	Assertion T46 Speculated
+#44	AnnotatorNotes T46	C1278516; Patient participation status; Finding (?)
+R45	Speculation Arg1:T44 Arg2:T46	
+T47	Spec_cue 1093 1099	puedan
+R47	Experiences Arg1:T36 Arg2:T18	
+R48	Experiences Arg1:T36 Arg2:T19	
+T48	Observation 1100 1124	confundir los resultados
+A6	Assertion T48 Speculated
+R49	Speculation Arg1:T47 Arg2:T48	
+R50	Before Arg1:T18 Arg2:T48	
+R51	Before Arg1:T19 Arg2:T48	
+A7	Experiencer T27 Patient
+A8	Experiencer T29 Patient
+A9	Experiencer T30 Patient
+A10	Experiencer T33 Other
+A11	Experiencer T36 Patient

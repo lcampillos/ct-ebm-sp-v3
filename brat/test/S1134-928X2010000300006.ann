@@ -1,0 +1,202 @@
+T1	PROC 17 28	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 36 51	úlceras venosas
+#2	AnnotatorNotes T2	C0042344; Varicose Ulcer; Disease or Syndrome
+T3	DEVI 56 84	vendaje compresivo multicapa
+#3	AnnotatorNotes T3	C1319666; Multilayer compression bandage (physical object); Medical Device
+T4	CHEM 135 142	Cavilon
+T5	PROC 501 517	cuidados locales
+T6	CHEM 1037 1044	Cavilon
+T7	PROC 203 214	tratamiento
+#4	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 222 272	úlceras de extremidad inferior de etiología venosa
+T9	ANAT 233 252	extremidad inferior
+#5	AnnotatorNotes T9	C0023216; Lower Extremity; Body Part, Organ, or Organ Component | C1269079; Entire lower limb; Body Part, Organ, or Organ Component
+T10	ANAT 266 272	venosa
+#6	AnnotatorNotes T10	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T11	PROC 348 388	terapia compresiva con vendaje multicapa
+#7	AnnotatorNotes T11	C1533059; Multi-layer compression bandaging (regime/therapy); Therapeutic or Preventive Procedure
+T12	PROC 395 406	tratamiento
+#8	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	DISO 524 530	herida
+#9	AnnotatorNotes T13	C0043250; Injury wounds; Injury or Poisoning
+T14	ANAT 539 556	piel perilesional
+T15	PROC 586 608	evaluar la efectividad
+T16	DISO 721 756	úlceras vasculares de origen venoso
+T17	ANAT 729 739	vasculares
+#10	AnnotatorNotes T17	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T18	ANAT 750 756	venoso
+#11	AnnotatorNotes T18	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T19	PROC 897 931	tratados con terapia de compresión
+#12	AnnotatorNotes T19	C0565514; Compression procedure; Therapeutic or Preventive Procedure
+T20	PROC 1016 1024	tratados
+#13	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	PROC 1349 1361	intervención
+#14	AnnotatorNotes T21	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T22	PROC 1412 1424	intervención
+#15	AnnotatorNotes T22	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T23	DISO 1473 1479	úlcera
+#16	AnnotatorNotes T23	C0041582; Ulcer; Pathologic Function
+T24	PROC 1570 1581	tratamiento
+#17	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	PROC 1729 1741	intervención
+#18	AnnotatorNotes T25	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T26	DISO 1760 1766	úlcera
+#19	AnnotatorNotes T26	C0041582; Ulcer; Pathologic Function
+T27	PROC 1810 1821	tratamiento
+#20	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	DISO 1989 2004	úlceras venosas
+#21	AnnotatorNotes T28	C0042344; Varicose Ulcer; Disease or Syndrome
+T29	PROC 2092 2113	tratamiento protector
+T30	ANAT 44 51	venosas
+#22	AnnotatorNotes T30	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T31	ANAT 113 130	piel perilesional
+T32	DEVI 623 654	vendaje multicapa de compresión
+#23	AnnotatorNotes T32	C1319666; Multilayer compression bandage (physical object); Medical Device
+T33	CHEM 709 716	Cavilon
+T34	PROC 772 848	ensayo clínico controlado, aleatorizado, abierto, multicéntrico y pragmático
+#24	AnnotatorNotes T34	C4684737; Pragmatic Trial; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity
+T35	PROC 965 989	asignados aleatoriamente
+#25	AnnotatorNotes T35	C0034656; Randomization; Research Activity
+T36	PROC 1002 1014	intervención
+#26	AnnotatorNotes T36	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T37	DEVI 1929 1960	vendaje multicapa de compresión
+#27	AnnotatorNotes T37	C1319666; Multilayer compression bandage (physical object); Medical Device
+T38	ANAT 1997 2004	venosas
+#28	AnnotatorNotes T38	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T39	CHEM 2151 2158	Cavilon
+T40	ANAT 2120 2137	piel perilesional
+T42	LIVB 327 336	pacientes
+#29	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	DEVI 371 388	vendaje multicapa
+#30	AnnotatorNotes T43	C1319666; Multilayer compression bandage (physical object); Medical Device
+T45	LIVB 870 879	pacientes
+#31	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	DEVI 945 962	vendaje multicapa
+#32	AnnotatorNotes T46	C1319666; Multilayer compression bandage (physical object); Medical Device
+T47	LIVB 993 1014	grupo de intervención
+#33	AnnotatorNotes T47	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T48	LIVB 1052 1065	grupo control
+#34	AnnotatorNotes T48	C0009932; Control Groups; Group
+T49	Frequency 1142 1152	una semana
+T50	LIVB 1309 1318	pacientes
+#35	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Duration 1387 1401	cuatro semanas
+T52	LIVB 1492 1505	grupo control
+#36	AnnotatorNotes T52	C0009932; Control Groups; Group
+T53	Duration 1552 1566	las 12 semanas
+T54	LIVB 1709 1718	pacientes
+#37	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	Duration 1779 1806	las cuatro primeras semanas
+T56	LIVB 1848 1857	pacientes
+#38	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1862 1875	grupo control
+#39	AnnotatorNotes T57	C0009932; Control Groups; Group
+T59	LIVB 1975 1984	pacientes
+#40	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T61	Form 145 153	película
+#41	AnnotatorNotes T61	C1704608; Film Dosage Form; Biomedical or Dental Material
+T41	Form 692 700	película
+#42	AnnotatorNotes T41	C1704608; Film Dosage Form; Biomedical or Dental Material
+T44	LIVB 1406 1424	grupo intervención
+#43	AnnotatorNotes T44	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T58	LIVB 1723 1741	grupo intervención
+#44	AnnotatorNotes T58	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T60	DEVI 1962 1967	Coban
+#45	AnnotatorNotes T60	C5428853; coban wrapping; Medical Device
+T62	LIVB 1343 1361	grupo intervención
+#46	AnnotatorNotes T62	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T63	LIVB 1372 1379	control
+#47	AnnotatorNotes T63	C0009932; Control Groups; Group
+T64	Quantifier_or_Qualifier 165 174	irritante
+T65	Neg_cue 162 164	no
+R1	Negation Arg1:T65 Arg2:T64	
+A1	Assertion T64 Negated
+R2	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T64	
+T66	Quantifier_or_Qualifier 154 161	barrera
+R3	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T66	
+T67	PROC 1097 1104	visitas
+#48	AnnotatorNotes T67	C1512346; Patient Visit; Health Care Activity
+R4	Has_Drug_Form Arg1:T33 Arg2:T41	
+R5	Used_for Arg1:T3 Arg2:T1	
+R6	Location_of Arg1:T30 Arg2:T2	
+R7	Combined_with Arg1:T3 Arg2:T4	
+R8	Location_of Arg1:T31 Arg2:T4	
+R9	Has_Drug_Form Arg1:T4 Arg2:T61	
+R10	Location_of Arg1:T9 Arg2:T8	
+R11	Location_of Arg1:T10 Arg2:T8	
+T68	Observation 293 319	mejorar la calidad de vida
+#49	AnnotatorNotes T68	C2015892; outcomes general quality of life improved; Finding
+R12	Causes Arg1:T7 Arg2:T68	
+R13	Experiences Arg1:T42 Arg2:T68	
+R14	Experiences Arg1:T42 Arg2:T8	
+R15	Experiences Arg1:T42 Arg2:T7	
+R16	Used_for Arg1:T43 Arg2:T11	
+R17	Used_for Arg1:T43 Arg2:T12	
+R18	Location_of Arg1:T14 Arg2:T5	
+R19	Location_of Arg1:T18 Arg2:T16	
+R20	Location_of Arg1:T17 Arg2:T16	
+R21	Combined_with Arg1:T32 Arg2:T33	
+R22	Experiences Arg1:T45 Arg2:T19	
+R23	Used_for Arg1:T46 Arg2:T19	
+R24	Before Arg1:T35 Arg2:T20	
+R25	Used_for Arg1:T6 Arg2:T20	
+R26	Combined_with Arg1:T46 Arg2:T6	
+R27	Experiences Arg1:T47 Arg2:T36	
+R28	Experiences Arg1:T48 Arg2:T19	
+R30	Experiences Arg1:T47 Arg2:T19	
+R31	Used_for Arg1:T6 Arg2:T36	
+R32	Has_Frequency Arg1:T67 Arg2:T49	
+R33	Experiences Arg1:T62 Arg2:T21	
+R34	Experiences Arg1:T44 Arg2:T22	
+T69	CONC 1438 1447	reducción
+#50	AnnotatorNotes T69	C0547047; Decrease; Quantitative Concept
+R35	Overlap Arg1:T69 Arg2:T51	
+R36	Experiences Arg1:T44 Arg2:T23	
+R37	Experiences Arg1:T52 Arg2:T23	
+R38	Has_Duration_or_Interval Arg1:T24 Arg2:T53	
+T70	CONC 1587 1598	diferencias
+#51	AnnotatorNotes T70	C1705241; Delta (difference); Quantitative Concept
+R39	Overlap Arg1:T70 Arg2:T53	
+R40	Experiences Arg1:T54 Arg2:T25	
+R41	Experiences Arg1:T58 Arg2:T25	
+R42	Experiences Arg1:T58 Arg2:T26	
+R43	Experiences Arg1:T54 Arg2:T26	
+T71	CONC 1742 1748	redujo
+#52	AnnotatorNotes T71	C0547047; Decrease; Quantitative Concept
+R44	Overlap Arg1:T71 Arg2:T55	
+R45	Has_Duration_or_Interval Arg1:T27 Arg2:T55	
+R49	Experiences Arg1:T58 Arg2:T27	
+R50	Experiences Arg1:T54 Arg2:T27	
+R51	Experiences Arg1:T56 Arg2:T26	
+R52	Experiences Arg1:T57 Arg2:T26	
+R53	Experiences Arg1:T59 Arg2:T28	
+R54	Location_of Arg1:T38 Arg2:T28	
+R55	Experiences Arg1:T59 Arg2:T60	
+R56	Experiences Arg1:T59 Arg2:T37	
+T72	CONC 2030 2062	porcentaje de reducción del área
+#53	AnnotatorNotes T72	C1275671; Percentage area reduction; Quantitative Concept
+R59	Combined_with Arg1:T37 Arg2:T29	
+R60	Used_for Arg1:T39 Arg2:T29	
+R61	Experiences Arg1:T59 Arg2:T29	
+R62	Location_of Arg1:T40 Arg2:T29	
+#55	AnnotatorNotes T40	C3534099; Periwound; Body Location or Region + C1123023; Skin; Body System + C1278993; Entire skin; Body System
+#56	AnnotatorNotes T31	C3534099; Periwound; Body Location or Region + C1123023; Skin; Body System + C1278993; Entire skin; Body System
+#57	AnnotatorNotes T14	C3534099; Periwound; Body Location or Region + C1123023; Skin; Body System + C1278993; Entire skin; Body System
+R63	Combined_with Arg1:T60 Arg2:T29	
+#54	AnnotatorNotes T15	C1707887; Efficacy Study; Research Activity
+#58	AnnotatorNotes T8	C5767860; Venous ulcer of lower leg; Disease or Syndrome
+A2	Experiencer T42 Patient
+A3	Experiencer T45 Patient
+A4	Experiencer T47 Patient
+A5	Experiencer T48 Patient
+A6	Experiencer T50 Patient
+A7	Experiencer T63 Patient
+A8	Experiencer T62 Patient
+A9	Experiencer T44 Patient
+A10	Experiencer T52 Patient
+A11	Experiencer T54 Patient
+A12	Experiencer T58 Patient
+A13	Experiencer T57 Patient
+A14	Experiencer T56 Patient
+A15	Experiencer T59 Patient

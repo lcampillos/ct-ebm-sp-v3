@@ -1,0 +1,137 @@
+T1	DISO 71 89	enfermedad celiaca
+#1	AnnotatorNotes T1	C0007570; Celiac Disease; Disease or Syndrome
+T2	PROC 588 600	cuestionario
+#2	AnnotatorNotes T2	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T3	PROC 138 160	diagnóstico serológico
+#3	AnnotatorNotes T3	C0036743; Serologic tests; Laboratory Procedure
+T4	DISO 167 185	enfermedad celiaca
+#4	AnnotatorNotes T4	C0007570; Celiac Disease; Disease or Syndrome
+T5	PROC 324 335	diagnóstico
+#5	AnnotatorNotes T5	C0011900; Diagnosis; Diagnostic Procedure
+T6	PROC 351 362	tratamiento
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 417 426	celiaquía
+#7	AnnotatorNotes T7	C0007570; Celiac Disease; Disease or Syndrome
+T8	PROC 447 458	diagnóstico
+#8	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	PROC 460 471	seguimiento
+#9	AnnotatorNotes T9	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T10	PROC 520 531	tratamiento
+#10	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	PROC 542 575	estudio observacional transversal
+#11	AnnotatorNotes T11	C1518527; Observational Study; Research Activity + C0010362; Cross-Sectional Studies; Research Activity
+T12	PROC 687 704	se diagnosticaron
+#12	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	DISO 756 765	fumadores
+#13	AnnotatorNotes T13	C0337664; Smoker; Finding
+T14	DISO 817 826	celiaquía
+#14	AnnotatorNotes T14	C0007570; Celiac Disease; Disease or Syndrome
+T15	DISO 844 854	enfermedad
+#15	AnnotatorNotes T15	C0012634; Disease; Disease or Syndrome
+T16	DISO 978 1007	trastorno funcional digestivo
+T17	DISO 1163 1171	síntomas
+#16	AnnotatorNotes T17	C1457887; Symptoms; Sign or Symptom
+T18	CHEM 1326 1332	gluten
+#17	AnnotatorNotes T18	C2362561; Gluten; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T19	DISO 1408 1417	celiaquía
+#18	AnnotatorNotes T19	C0007570; Celiac Disease; Disease or Syndrome
+T20	PROC 1508 1524	dieta sin gluten
+#19	AnnotatorNotes T20	C0344351; Gluten-Free Diet; Therapeutic or Preventive Procedure
+T21	DISO 1694 1704	enfermedad
+#20	AnnotatorNotes T21	C0012634; Disease; Disease or Syndrome
+T22	PROC 1822 1837	atención médica
+#21	AnnotatorNotes T22	C0496675; Medical care; Health Care Activity
+T23	PROC 41 64	seguimiento de la dieta
+#22	AnnotatorNotes T23	C1519433; Special Diet Therapy; Therapeutic or Preventive Procedure + C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T24	PROC 1012 1035	seguimiento de la dieta
+#23	AnnotatorNotes T24	C1519433; Special Diet Therapy; Therapeutic or Preventive Procedure + C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T25	PROC 1116 1121	dieta
+#24	AnnotatorNotes T25	C1519433; Special Diet Therapy; Therapeutic or Preventive Procedure
+T26	CHEM 1518 1524	gluten
+#25	AnnotatorNotes T26	C2362561; Gluten; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T27	Date 15 21	actual
+T28	LIVB 94 100	adulto
+#26	AnnotatorNotes T28	C0001675; Adult; Age Group
+T30	LIVB 650 667	pacientes adultos
+#27	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T31	Age 705 728	a partir de los 60 años
+T32	Neg_cue 753 755	no
+T33	LIVB 786 812	familiares de primer grado
+#28	AnnotatorNotes T33	C1517194; First Degree Relative; Family Group
+T34	LIVB 929 938	pacientes
+#29	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Spec_cue 942 950	sospecha
+T37	LIVB 1102 1111	pacientes
+#30	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 1199 1208	pacientes
+#31	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Neg_cue 1322 1325	sin
+T40	Neg_cue 1514 1517	sin
+T41	LIVB 1546 1555	pacientes
+#32	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T44	ANAT 998 1007	digestivo
+#33	AnnotatorNotes T44	C0012240; Gastrointestinal system; Body System
+A1	Population_data T28 Age
+A2	Population_data T30 Age
+A3	Assertion T13 Negated
+A4	Assertion T16 Speculated
+A5	Assertion T18 Negated
+A6	Assertion T26 Negated
+R1	Negation Arg1:T32 Arg2:T13	
+R2	Negation Arg1:T39 Arg2:T18	
+R3	Negation Arg1:T40 Arg2:T26	
+T29	Neg_cue 1071 1073	no
+T36	Observation 1056 1070	incumplimiento
+T42	Quantifier_or_Qualifier 1074 1086	intencionado
+A7	Assertion T42 Negated
+R4	Negation Arg1:T29 Arg2:T42	
+R5	Experiences Arg1:T37 Arg2:T36	
+R6	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T42	
+R7	Experiences Arg1:T28 Arg2:T1	
+T43	Quantifier_or_Qualifier 601 616	autorrellenable
+R11	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T43	
+R13	After Arg1:T12 Arg2:T31	
+R14	Experiences Arg1:T33 Arg2:T14	
+R15	Speculation Arg1:T35 Arg2:T16	
+T45	Quantifier_or_Qualifier 951 970	diagnóstica inicial
+R16	Location_of Arg1:T44 Arg2:T16	
+#34	AnnotatorNotes T45	C4071762; at initial diagnosis; Temporal Concept
+R17	Speculation Arg1:T35 Arg2:T45	
+R18	Experiences Arg1:T34 Arg2:T16	
+R19	Overlap Arg1:T24 Arg2:T36	
+T46	Observation 1134 1146;1156 1171	desaparición de los síntomas
+R20	Causes Arg1:T25 Arg2:T46	
+T47	Observation 1149 1171	mejora de los síntomas
+R21	Causes Arg1:T25 Arg2:T47	
+R22	Experiences Arg1:T38 Arg2:T46	
+R23	Experiences Arg1:T38 Arg2:T17	
+R24	Experiences Arg1:T38 Arg2:T47	
+R25	Experiences Arg1:T38 Arg2:T25	
+R26	Before Arg1:T17 Arg2:T47	
+R27	Before Arg1:T17 Arg2:T46	
+T48	Food 1312 1332	alimentos sin gluten
+#35	AnnotatorNotes T48	C0589717; Gluten-free food; Food
+T49	Age 1432 1446	cualquier edad
+R28	Overlap Arg1:T19 Arg2:T49	
+R29	Before Arg1:T19 Arg2:T50	
+T50	Observation 1485 1502	responde muy bien
+#36	AnnotatorNotes T50	C0184785; Good therapeutic response; Finding (?)
+R30	Causes Arg1:T20 Arg2:T50	
+T51	Food 1616 1625	alimentos
+#37	AnnotatorNotes T51	C0016452; Food; Food
+T52	Food 1628 1652	productos manufacturados
+R32	Experiences Arg1:T41 Arg2:T51	
+R33	Experiences Arg1:T41 Arg2:T52	
+#38	AnnotatorNotes T16	C0559031; Functional Gastrointestinal Disorders; Disease or Syndrome
+#39	AnnotatorNotes T42	C1283932; Unintentional; Functional Concept
+#40	AnnotatorNotes T27	C0521116; Current (present time); Temporal Concept
+A8	Experiencer T41 Patient
+A9	Experiencer T38 Patient
+A10	Experiencer T37 Patient
+A11	Experiencer T34 Patient
+A12	Experiencer T33 Family_member
+A13	Experiencer T30 Patient
+A14	Experiencer T28 Patient
+T53	CONC 1 14	Epidemiología
+#41	AnnotatorNotes T53	C0014508; epidemiology; Functional Concept
+R8	Overlap Arg1:T53 Arg2:T27	

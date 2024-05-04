@@ -1,0 +1,258 @@
+T1	PROC 46 68	Estudio de la eficacia
+T2	CHEM 72 83	secukinumab
+#1	AnnotatorNotes T2	C3179547; secukinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 87 98	monoterapia
+#2	AnnotatorNotes T3	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T4	CHEM 118 128	adalimumab
+#3	AnnotatorNotes T4	C1122087; adalimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	PROC 132 143	monoterapia
+#4	AnnotatorNotes T5	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T6	DISO 159 178	artritis psoriásica
+#5	AnnotatorNotes T6	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T7	DISO 559 562	APs
+#6	AnnotatorNotes T7	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T8	PROC 208 276	Estudio multicéntrico, aleatorizado, doble ciego, con control activo
+T9	CHEM 1010 1014	FAME
+#7	AnnotatorNotes T9	C0242708; Antirheumatic Drugs, Disease-Modifying; Pharmacologic Substance
+T10	PROC 282 301	evaluar la eficacia
+#8	AnnotatorNotes T10	C1707887; Efficacy Study; Research Activity
+T11	CHEM 321 332	secukinumab
+#9	AnnotatorNotes T11	C3179547; secukinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T12	PROC 336 347	monoterapia
+#10	AnnotatorNotes T12	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T13	CHEM 386 396	adalimumab
+#11	AnnotatorNotes T13	C1122087; adalimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	PROC 400 411	monoterapia
+#12	AnnotatorNotes T14	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T15	DISO 448 467	artritis psoriásica
+#13	AnnotatorNotes T15	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T16	DISO 498 517	Artritis Psoriásica
+#14	AnnotatorNotes T16	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T17	PROC 544 555	Diagnóstico
+#15	AnnotatorNotes T17	C0011900; Diagnosis; Diagnostic Procedure
+T18	PROC 608 625	Factor reumatoide
+#16	AnnotatorNotes T18	C0201660; Rheumatoid Factor Measurement; Laboratory Procedure
+T19	PROC 627 629	FR
+#17	AnnotatorNotes T19	C0201660; Rheumatoid Factor Measurement; Laboratory Procedure
+T20	PROC 633 677	anticuerpos anti-péptido cíclico citrulinado
+#18	AnnotatorNotes T20	C1318660; Anti-cyclic citrullinated peptide antibody level; Laboratory Procedure
+T21	PROC 679 682	CCP
+T22	PROC 695 706	diagnóstico
+#19	AnnotatorNotes T22	C0011900; Diagnosis; Diagnostic Procedure
+T23	DISO 710 729	psoriasis en placas
+#20	AnnotatorNotes T23	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T24	DISO 754 770	placa psoriásica
+T25	DISO 833 842	psoriasis
+#21	AnnotatorNotes T25	C0033860; Psoriasis; Disease or Syndrome
+T26	DISO 874 893	psoriasis en placas
+#22	AnnotatorNotes T26	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T27	DISO 936 944	síntomas
+#23	AnnotatorNotes T27	C1457887; Symptoms; Sign or Symptom
+T28	CHEM 949 954	AINEs
+#24	AnnotatorNotes T28	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T29	DISO 997 1005	síntomas
+#25	AnnotatorNotes T29	C1457887; Symptoms; Sign or Symptom
+T30	PROC 1093 1102	protocolo
+#26	AnnotatorNotes T30	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T31	DISO 1190 1218	proceso infeccioso o maligno
+T32	CHEM 1250 1267	fármaco biológico
+#27	AnnotatorNotes T32	C0005515; Biological Factors; Biologically Active Substance (?)
+T33	DISO 1273 1292	artritis psoriásica
+#28	AnnotatorNotes T33	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T34	DISO 1295 1304	psoriasis
+#29	AnnotatorNotes T34	C0033860; Psoriasis; Disease or Syndrome
+T35	CHEM 1326 1346	analgésicos opioides
+#30	AnnotatorNotes T35	C0002772; Analgesics, Opioid; Organic Chemical · Pharmacologic Substance
+T36	PROC 1379 1391	tratamientos
+#31	AnnotatorNotes T36	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T37	CHEM 1392 1404	medicaciones
+#32	AnnotatorNotes T37	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T38	DISO 1424 1433	psoriasis
+#33	AnnotatorNotes T38	C0033860; Psoriasis; Disease or Syndrome
+T39	PROC 1435 1446	Tratamiento
+#34	AnnotatorNotes T39	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T40	PROC 1458 1487	terapias de depleción celular
+T41	ANAT 1480 1487	celular
+#35	AnnotatorNotes T41	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T42	CHEM 1514 1523	anti-CD20
+#36	AnnotatorNotes T42	C3891557; Anti-CD20 Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor
+T43	CHEM 1526 1551	fármacos en investigación
+#37	AnnotatorNotes T43	C0013230; Investigational New Drugs; Pharmacologic Substance
+T44	PROC 1616 1625	protocolo
+#38	AnnotatorNotes T44	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T45	ANAT 815 819	uñas
+#39	AnnotatorNotes T45	C0027342; Nail plate; Body Part, Organ, or Organ Component
+T46	Date 13 17	2015
+T47	LIVB 147 154	sujetos
+#40	AnnotatorNotes T47	C0681850; Study Subject; Group
+T48	Date 305 317	la semana 52
+T49	Route 352 366	vía subcutánea
+#41	AnnotatorNotes T49	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T50	Route 416 430	vía subcutánea
+#42	AnnotatorNotes T50	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T51	LIVB 434 443	pacientes
+#43	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 895 902	sujetos
+#44	AnnotatorNotes T53	C0681850; Study Subject; Group
+T54	LIVB 956 963	sujetos
+#45	AnnotatorNotes T54	C0681850; Study Subject; Group
+T56	LIVB 1130 1175	Mujeres embarazadas o en periodo de lactancia
+#46	AnnotatorNotes T56	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T57	LIVB 1306 1313	sujetos
+#47	AnnotatorNotes T57	C0681850; Study Subject; Group
+T58	Date 1369 1375	actual
+T52	PHYS 1138 1149	embarazadas
+#48	AnnotatorNotes T52	C0032961; Pregnancy; Organism Function
+T55	PHYS 1166 1175	lactancia
+#49	AnnotatorNotes T55	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Status T26 History_of
+A2	Status T32 History_of
+A3	Assertion T37 Contraindicated
+A4	Assertion T36 Contraindicated
+A5	Status T39 History_of
+A6	Status T40 History_of
+A7	Status T42 History_of
+A8	Status T43 History_of
+#50	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#51	AnnotatorNotes T8	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C1706449; Active Control; Research Activity 
+#52	AnnotatorNotes T21	C1318660; Anti-cyclic citrullinated peptide antibody level; Laboratory Procedure
+#53	AnnotatorNotes T24	C0920235; Psoriatic plaque; Disease or Syndrome 
+#54	AnnotatorNotes T58	C0521116; Current (present time); Temporal Concept 
+T59	Spec_cue 1030 1039	Se pueden
+T60	Quantifier_or_Qualifier 1048 1053	otros
+A9	Assertion T60 Speculated
+T61	CONC 1054 1076	criterios de inclusión
+A10	Assertion T61 Speculated
+#55	AnnotatorNotes T61	C1512693; Inclusion Criteria; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T60	
+R2	Speculation Arg1:T59 Arg2:T60	
+R3	Speculation Arg1:T59 Arg2:T61	
+T62	Spec_cue 1553 1562	Se pueden
+T63	Quantifier_or_Qualifier 1571 1576	otros
+A11	Assertion T63 Speculated
+R4	Speculation Arg1:T62 Arg2:T63	
+T64	CONC 1577 1599	criterios de inclusión
+A12	Assertion T64 Speculated
+#56	AnnotatorNotes T64	C1512693; Inclusion Criteria; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T63	
+R6	Speculation Arg1:T62 Arg2:T64	
+R7	Used_for Arg1:T2 Arg2:T3	
+R8	Used_for Arg1:T4 Arg2:T5	
+R9	Experiences Arg1:T47 Arg2:T2	
+R10	Experiences Arg1:T47 Arg2:T4	
+R11	Experiences Arg1:T47 Arg2:T6	
+T65	Quantifier_or_Qualifier 179 185	activa
+#57	AnnotatorNotes T65	C0679217; Active State; Idea or Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T65	
+R13	Overlap Arg1:T10 Arg2:T48	
+R14	Overlap Arg1:T11 Arg2:T48	
+R15	Used_for Arg1:T11 Arg2:T12	
+R16	Has_Route_or_Mode Arg1:T11 Arg2:T49	
+R17	Overlap Arg1:T13 Arg2:T48	
+R18	Used_for Arg1:T13 Arg2:T14	
+R19	Has_Route_or_Mode Arg1:T13 Arg2:T50	
+R20	Experiences Arg1:T51 Arg2:T13	
+R21	Experiences Arg1:T51 Arg2:T15	
+R22	Experiences Arg1:T51 Arg2:T11	
+T66	Quantifier_or_Qualifier 468 474	activa
+#58	AnnotatorNotes T66	C0679217; Active State; Idea or Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T66	
+T67	CONC 573 606	criterios de clasificación CASPAR
+R24	Used_for Arg1:T67 Arg2:T17	
+T68	Result_or_Value 684 693	negativos
+#59	AnnotatorNotes T68	C0205160; Negative; Finding
+R25	Has_Result_or_Value Arg1:T18 Arg2:T68	
+R26	Has_Result_or_Value Arg1:T19 Arg2:T68	
+R27	Has_Result_or_Value Arg1:T20 Arg2:T68	
+R28	Has_Result_or_Value Arg1:T21 Arg2:T68	
+T69	Quantifier_or_Qualifier 741 753	al menos una
+R29	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T69	
+T70	Result_or_Value 779 797	diámetro de ≥ 2 cm
+R30	Has_Result_or_Value Arg1:T24 Arg2:T70	
+T71	Quantifier_or_Qualifier 730 736	activa
+#60	AnnotatorNotes T71	C0679217; Active State; Idea or Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T71	
+T72	Observation 800 819	cambios en las uñas
+#61	AnnotatorNotes T72	C0234909; Nail changes; Finding
+R32	Location_of Arg1:T45 Arg2:T72	
+R33	Causes Arg1:T25 Arg2:T72	
+R34	Experiences Arg1:T53 Arg2:T27	
+R35	Experiences Arg1:T53 Arg2:T28	
+R36	Experiences Arg1:T54 Arg2:T9	
+R37	Experiences Arg1:T54 Arg2:T29	
+R40	Experiences Arg1:T54 Arg2:T26	
+R41	Experiences Arg1:T54 Arg2:T25	
+R42	Experiences Arg1:T54 Arg2:T72	
+R43	Experiences Arg1:T54 Arg2:T24	
+R44	Experiences Arg1:T54 Arg2:T23	
+R46	Experiences Arg1:T54 Arg2:T7	
+R47	Experiences Arg1:T53 Arg2:T72	
+R48	Experiences Arg1:T53 Arg2:T24	
+R49	Experiences Arg1:T53 Arg2:T23	
+R51	Experiences Arg1:T53 Arg2:T7	
+R52	Experiences Arg1:T54 Arg2:T18	
+R53	Experiences Arg1:T54 Arg2:T19	
+R54	Experiences Arg1:T54 Arg2:T20	
+R55	Experiences Arg1:T54 Arg2:T21	
+R56	Experiences Arg1:T53 Arg2:T18	
+R57	Experiences Arg1:T53 Arg2:T19	
+R58	Experiences Arg1:T53 Arg2:T20	
+R59	Experiences Arg1:T53 Arg2:T21	
+R60	Experiences Arg1:T56 Arg2:T52	
+R61	Experiences Arg1:T56 Arg2:T55	
+R62	Experiences Arg1:T57 Arg2:T35	
+T73	Quantifier_or_Qualifier 1350 1363	alta potencia
+R63	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T73	
+R64	Experiences Arg1:T57 Arg2:T34	
+R65	Experiences Arg1:T57 Arg2:T33	
+R66	Experiences Arg1:T57 Arg2:T32	
+R67	Experiences Arg1:T57 Arg2:T31	
+R68	Experiences Arg1:T57 Arg2:T36	
+R69	Used_for Arg1:T37 Arg2:T36	
+R70	Overlap Arg1:T37 Arg2:T58	
+R71	Experiences Arg1:T57 Arg2:T38	
+R72	Experiences Arg1:T57 Arg2:T39	
+R73	Experiences Arg1:T57 Arg2:T40	
+R74	Used_for Arg1:T43 Arg2:T39	
+R75	Used_for Arg1:T42 Arg2:T39	
+R76	Causes Arg1:T26 Arg2:T72	
+R77	Causes Arg1:T7 Arg2:T72	
+R78	Causes Arg1:T23 Arg2:T72	
+R79	Causes Arg1:T24 Arg2:T72	
+R81	Causes Arg1:T25 Arg2:T27	
+R82	Causes Arg1:T26 Arg2:T29	
+R80	Causes Arg1:T26 Arg2:T27	
+R83	Causes Arg1:T25 Arg2:T29	
+R84	Causes Arg1:T23 Arg2:T27	
+R85	Causes Arg1:T23 Arg2:T29	
+R86	Causes Arg1:T24 Arg2:T29	
+R87	Causes Arg1:T7 Arg2:T29	
+R88	Causes Arg1:T7 Arg2:T25	
+R89	Experiences Arg1:T57 Arg2:T42	
+R90	Experiences Arg1:T57 Arg2:T43	
+T74	Observation 910 944	control inadecuado de los síntomas
+R91	Experiences Arg1:T53 Arg2:T74	
+R92	Overlap Arg1:T74 Arg2:T28	
+T75	Observation 971 1005	control inadecuado de los síntomas
+R93	Experiences Arg1:T54 Arg2:T75	
+R94	Overlap Arg1:T75 Arg2:T9	
+T76	PROC 910 917;929 944	control de los síntomas
+#62	AnnotatorNotes T76	C1274136; Symptom control (regime/therapy); Therapeutic or Preventive Procedure
+R95	Used_for Arg1:T28 Arg2:T76	
+R96	Experiences Arg1:T53 Arg2:T76	
+T77	PROC 971 978;990 1005	control de los síntomas
+#63	AnnotatorNotes T77	C1274136; Symptom control (regime/therapy); Therapeutic or Preventive Procedure
+R98	Experiences Arg1:T54 Arg2:T77	
+R100	Used_for Arg1:T9 Arg2:T77	
+#64	AnnotatorNotes T63	C0205394; Other; Qualitative Concept
+R38	Experiences Arg1:T53 Arg2:T25	
+#65	AnnotatorNotes T60	C0205394; Other; Qualitative Concept
+#66	AnnotatorNotes T31	C0745283; INFECTIOUS PROCESS; Pathologic Function | C0006826; Malignant Neoplasms; Neoplastic Process (?)
+R39	Causes Arg1:T7 Arg2:T27	
+#67	AnnotatorNotes T40	C1171324; B-cell depletion; Therapeutic or Preventive Procedure
+A13	Experiencer T47 Patient
+A14	Experiencer T51 Patient
+A15	Experiencer T53 Patient
+A16	Experiencer T54 Patient
+A17	Experiencer T56 Patient
+A18	Experiencer T57 Patient

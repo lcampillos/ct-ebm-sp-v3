@@ -1,0 +1,116 @@
+T1	PROC 1 25	Ensayo clínico aleatorio
+#1	AnnotatorNotes T1	C0206034; Clinical Trials, Randomized; Research Activity
+T2	PROC 31 51	evaluación del dolor
+#2	AnnotatorNotes T2	C0030198; Pain Measurement; Diagnostic Procedure
+T3	DISO 54 62	hematoma
+#3	AnnotatorNotes T3	C0013491; Ecchymosis; Pathologic Function | C0018944; Hematoma; Pathologic Function | C0475852; Hematoma of skin; Injury or Poisoning
+T4	CHEM 92 104	medicamentos
+#4	AnnotatorNotes T4	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T5	PROC 181 195	ensayo clínico
+#5	AnnotatorNotes T5	C0008976; Clinical Trials; Research Activity
+T6	DISO 250 273	hematoma de inyecciones
+#6	AnnotatorNotes T6	C0521508; Injection site bruising; Pathologic Function
+T7	PROC 856 883	uso de aguja fija retráctil
+T8	PROC 571 600	aplicación por vía subcutánea
+#7	AnnotatorNotes T8	C0812152; Medication administration: subcutaneous; Therapeutic or Preventive Procedure
+T9	DISO 637 645	hematoma
+#8	AnnotatorNotes T9	C0013491; Ecchymosis; Pathologic Function | C0018944; Hematoma; Pathologic Function | C0475852; Hematoma of skin; Injury or Poisoning
+T10	DISO 674 682	hematoma
+#9	AnnotatorNotes T10	C0013491; Ecchymosis; Pathologic Function | C0018944; Hematoma; Pathologic Function | C0475852; Hematoma of skin; Injury or Poisoning
+T11	PROC 155 173	cambiar las agujas
+T12	PROC 810 825	escala de dolor
+#10	AnnotatorNotes T12	C2367759; Assessing Pain; Therapeutic or Preventive Procedure
+T13	PROC 890 945	aplicación de inyecciones intramusculares y subcutáneas
+#11	AnnotatorNotes T13	C0812152; Medication administration: subcutaneous; Therapeutic or Preventive Procedure + C0021492; Intramuscular injection; Therapeutic or Preventive Procedure
+T14	PROC 959 973	ensayo clínico
+#12	AnnotatorNotes T14	C0008976; Clinical Trials; Research Activity
+T15	DISO 46 51	dolor
+#13	AnnotatorNotes T15	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T16	PROC 74 139	administración de medicamentos por vía subcutánea e intramuscular
+#14	AnnotatorNotes T16	C0812152; Medication administration: subcutaneous; Therapeutic or Preventive Procedure + C0812148; Medication administration: intramuscular; Therapeutic or Preventive Procedure
+T17	DISO 242 247	dolor
+#15	AnnotatorNotes T17	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T18	PROC 262 273	inyecciones
+#16	AnnotatorNotes T18	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T19	DISO 495 500	dolor
+#17	AnnotatorNotes T19	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T20	PROC 507 530	inyección intramuscular
+#18	AnnotatorNotes T20	C0021492; Intramuscular injection; Therapeutic or Preventive Procedure
+T21	DISO 666 671	dolor
+#19	AnnotatorNotes T21	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T22	CONC 786 792	prueba
+T23	DISO 820 825	dolor
+#20	AnnotatorNotes T23	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T25	Route 109 123	vía subcutánea
+#21	AnnotatorNotes T25	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T26	Route 126 139	intramuscular
+#22	AnnotatorNotes T26	C1556154; Intramuscular Route of Drug Administration; Functional Concept
+T27	DEVI 167 173	agujas
+#23	AnnotatorNotes T27	C0027551; Needle device; Medical Device | C0973726; NEEDLES,INJECTION; Medical Device
+T29	Route 278 292	vía subcutánea
+#24	AnnotatorNotes T29	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T30	Route 295 308	intramuscular
+#25	AnnotatorNotes T30	C1556154; Intramuscular Route of Drug Administration; Functional Concept
+T31	DEVI 320 328	jeringas
+#26	AnnotatorNotes T31	C0039142; Syringes; Medical Device
+T32	DEVI 331 355	agujas fijas retráctiles
+T33	DEVI 358 366	jeringas
+#27	AnnotatorNotes T33	C0039142; Syringes; Medical Device
+T34	DEVI 371 377	agujas
+#28	AnnotatorNotes T34	C0027551; Needle device; Medical Device | C0973726; NEEDLES,INJECTION; Medical Device
+T36	Duration 451 461	seis meses
+T37	PHYS 480 500	percepción del dolor
+#29	AnnotatorNotes T37	C3714605; Pain Perception; Organism Function
+T38	Route 517 530	intramuscular
+#30	AnnotatorNotes T38	C1556154; Intramuscular Route of Drug Administration; Functional Concept
+T39	Route 545 555	subcutánea
+#31	AnnotatorNotes T39	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T40	Route 586 600	vía subcutánea
+#32	AnnotatorNotes T40	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T42	DEVI 709 715	agujas
+#33	AnnotatorNotes T42	C0027551; Needle device; Medical Device | C0973726; NEEDLES,INJECTION; Medical Device
+T46	DEVI 863 883	aguja fija retráctil
+T47	Route 916 931	intramusculares
+#34	AnnotatorNotes T47	C1556154; Intramuscular Route of Drug Administration; Functional Concept
+T48	Route 934 945	subcutáneas
+#35	AnnotatorNotes T48	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T24	Neg_cue 378 380	no
+T28	Quantifier_or_Qualifier 381 391	conjugadas
+T35	Neg_cue 716 718	no
+T41	Quantifier_or_Qualifier 719 729	conjugadas
+R1	Has_Route_or_Mode Arg1:T20 Arg2:T38
+R2	Has_Route_or_Mode Arg1:T4 Arg2:T25
+R3	Has_Route_or_Mode Arg1:T4 Arg2:T26
+R4	Used_for Arg1:T4 Arg2:T16
+R5	Used_for Arg1:T27 Arg2:T11
+R6	Overlap Arg1:T2 Arg2:T16
+R7	Causes Arg1:T16 Arg2:T3
+R8	Causes Arg1:T18 Arg2:T6
+R9	Causes Arg1:T18 Arg2:T17
+R10	Has_Route_or_Mode Arg1:T18 Arg2:T29
+R11	Has_Route_or_Mode Arg1:T18 Arg2:T30
+R12	Used_for Arg1:T31 Arg2:T18
+R14	Used_for Arg1:T33 Arg2:T18
+A1	Assertion T28 Negated
+R16	Negation Arg1:T24 Arg2:T28
+R17	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T28
+R18	Has_Duration_or_Interval Arg1:T5 Arg2:T36
+R19	Causes Arg1:T20 Arg2:T19
+R20	Has_Route_or_Mode Arg1:T8 Arg2:T40
+R21	Causes Arg1:T8 Arg2:T9
+A2	Assertion T41 Negated
+R22	Negation Arg1:T35 Arg2:T41
+R23	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T41
+R24	Causes Arg1:T42 Arg2:T10
+R25	Causes Arg1:T42 Arg2:T21
+R27	Has_Route_or_Mode Arg1:T13 Arg2:T47
+R28	Has_Route_or_Mode Arg1:T13 Arg2:T48
+R29	Used_for Arg1:T46 Arg2:T13
+R26	Causes Arg1:T16 Arg2:T15	
+R30	Combined_with Arg1:T31 Arg2:T32	
+R13	Combined_with Arg1:T33 Arg2:T34	
+T43	PROC 507 516;545 555	inyección subcutánea
+R15	Has_Route_or_Mode Arg1:T43 Arg2:T39	
+#36	AnnotatorNotes T43	C0021499; Subcutaneous Injections; Therapeutic or Preventive Procedure
+R31	Causes Arg1:T43 Arg2:T19	
+#37	AnnotatorNotes T22	C0237913; Statistical Test; Intellectual Product

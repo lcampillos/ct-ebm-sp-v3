@@ -1,0 +1,192 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 69 100	tratamiento del dolor postparto
+T3	PROC 116 134	infiltración local
+T4	DISO 1094 1105	Belonefobia
+T5	CHEM 167 178	corticoides
+#2	AnnotatorNotes T5	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T6	PROC 233 263	tratamiento del dolor perineal
+T7	ANAT 255 263	perineal
+#3	AnnotatorNotes T7	C0031066; Anogenital region; Body Location or Region
+T8	DISO 266 277	dispareunia
+#4	AnnotatorNotes T8	C0013394; Dyspareunia (female); Disease or Syndrome
+T9	PROC 297 319	infiltraciones locales
+#5	AnnotatorNotes T9	C0497115; Local injection/infiltration; Therapeutic or Preventive Procedure
+T10	DISO 1311 1335	Diabetes Mellitus tipo 1
+#6	AnnotatorNotes T10	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T11	PROC 529 547	parto instrumental
+#7	AnnotatorNotes T11	C0162209; Instrumental delivery; Therapeutic or Preventive Procedure
+T12	CHEM 352 363	corticoides
+#8	AnnotatorNotes T12	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T13	ANAT 435 443	perineal
+#9	AnnotatorNotes T13	C0031066; Anogenital region; Body Location or Region
+T14	DISO 446 457	dispareunia
+#10	AnnotatorNotes T14	C0013394; Dyspareunia (female); Disease or Syndrome
+T15	PROC 552 563	episiotomía
+#11	AnnotatorNotes T15	C0014586; Episiotomy; Therapeutic or Preventive Procedure
+T16	DISO 580 600	expulsivo prolongado
+T17	PROC 615 626	episiotomía
+#12	AnnotatorNotes T17	C0014586; Episiotomy; Therapeutic or Preventive Procedure
+T18	PROC 671 682	episiotomía
+#13	AnnotatorNotes T18	C0014586; Episiotomy; Therapeutic or Preventive Procedure
+T19	ANAT 733 741	perineal
+#14	AnnotatorNotes T19	C0031066; Anogenital region; Body Location or Region
+T20	PROC 809 812	EVA
+#15	AnnotatorNotes T20	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2960689; Assessment using visual analog pain scale; Health Care Activity
+T21	DISO 878 886	alergias
+#16	AnnotatorNotes T21	C1527304; Allergic Reaction; Pathologic Function
+T22	CHEM 914 926	medicamentos
+#17	AnnotatorNotes T22	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T23	DISO 941 958	Infección vaginal
+#18	AnnotatorNotes T23	C4553755; Vaginal Infection; Finding
+T24	DISO 968 997	Procesos neoplásicos malignos
+#19	AnnotatorNotes T24	C0006826; Malignant Neoplasms; Neoplastic Process
+T25	DISO 1001 1031	Alteraciones de la coagulación
+#20	AnnotatorNotes T25	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T26	DISO 1046 1070	sangrado tras la punción
+#21	AnnotatorNotes T26	C0919883; Puncture site haemorrhage; Pathologic Function
+T27	DISO 1074 1081	Alergia
+#22	AnnotatorNotes T27	C0020517; Hypersensitivity; Pathologic Function
+T28	CHEM 1084 1091	metales
+#23	AnnotatorNotes T28	C0025552; Metals; Inorganic Chemical
+T29	PROC 1169 1176	Cesárea
+#24	AnnotatorNotes T29	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T30	PROC 1247 1271	consentimiento informado
+#25	AnnotatorNotes T30	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T31	DISO 1274 1296	Neuropatía del pudendo
+T32	ANAT 1289 1296	pudendo
+#26	AnnotatorNotes T32	C1278858; Entire pudendal nerve; Body Part, Organ, or Organ Component
+T33	DISO 85 100	dolor postparto
+T34	CHEM 138 148	anestésico
+#27	AnnotatorNotes T34	C0002932; Anesthetics; Pharmacologic Substance
+T35	CHEM 152 162	anestésico
+#28	AnnotatorNotes T35	C0002932; Anesthetics; Pharmacologic Substance
+T36	PROC 201 228	Ensayo clínico aleatorizado
+#29	AnnotatorNotes T36	C0206034; Clinical Trials, Randomized; Research Activity
+T37	DISO 249 263	dolor perineal
+#30	AnnotatorNotes T37	C0240717; Perineal pain; Sign or Symptom
+T38	CHEM 323 333	anestésico
+#31	AnnotatorNotes T38	C0002932; Anesthetics; Pharmacologic Substance
+T39	CHEM 337 347	anestésico
+#32	AnnotatorNotes T39	C0002932; Anesthetics; Pharmacologic Substance
+T40	DISO 387 402	Dolor postparto
+T41	DISO 429 443	dolor perineal
+#33	AnnotatorNotes T41	C0240717; Perineal pain; Sign or Symptom
+T42	LIVB 643 656	recién nacido
+#34	AnnotatorNotes T42	C0021289; Infant, Newborn; Age Group
+T43	DISO 727 741	dolor perineal
+#35	AnnotatorNotes T43	C0240717; Perineal pain; Sign or Symptom
+T44	ANAT 951 958	vaginal
+#36	AnnotatorNotes T44	C0042232; Vagina; Body Part, Organ, or Organ Component | C1278985; Entire vagina; Body Part, Organ, or Organ Component
+T45	PROC 1063 1070	punción
+#37	AnnotatorNotes T45	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T46	Date 13 17	2017
+T48	Date 91 100	postparto
+T49	Date 278 287	postparto
+T51	Date 393 402	postparto
+T53	PHYS 463 468	parto
+#38	AnnotatorNotes T53	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T54	Age 497 504	18 años
+T55	PHYS 529 534	parto
+#39	AnnotatorNotes T55	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T57	Duration 601 610	> 3 horas
+T60	LIVB 703 711	paciente
+#40	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	Duration 745 758	los dos meses
+T62	PHYS 763 768	parto
+#41	AnnotatorNotes T62	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T63	PHYS 841 847	Partos
+#42	AnnotatorNotes T63	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T65	Duration 848 860	< 37 semanas
+T66	LIVB 864 873	Pacientes
+#43	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	Spec_cue 1036 1045	riesgo de
+T68	PHYS 1107 1112	miedo
+#44	AnnotatorNotes T68	C0015726; Fear; Mental Process
+T69	DEVI 1159 1165	agujas
+#45	AnnotatorNotes T69	C0027551; Needle device; Medical Device | C0973726; NEEDLES,INJECTION; Medical Device
+T70	Neg_cue 1219 1235	incapacidad para
+T75	PHYS 1020 1031	coagulación
+#46	AnnotatorNotes T75	C0005778; Blood coagulation; Organ or Tissue Function
+T47	LIVB 514 523	Puérperas
+#47	AnnotatorNotes T47	C0032804; Postpartum Women; Patient or Disabled Group
+T50	LIVB 566 575	Puérperas
+#48	AnnotatorNotes T50	C0032804; Postpartum Women; Patient or Disabled Group
+T52	LIVB 629 638	Puérperas
+#49	AnnotatorNotes T52	C0032804; Postpartum Women; Patient or Disabled Group
+A1	Assertion T26 Speculated
+A2	Assertion T30 Negated
+A3	Population_data T42 Age
+A4	Assertion T22 Contraindicated
+A5	Status T21 History_of
+A6	Status T27 History_of
+A7	Status T29 History_of
+#50	AnnotatorNotes T48	C0086839; Postpartum Period; Temporal Concept
+#51	AnnotatorNotes T49	C0086839; Postpartum Period; Temporal Concept
+#52	AnnotatorNotes T51	C0086839; Postpartum Period; Temporal Concept
+#53	AnnotatorNotes T33	C0848200; Afterbirth pain; Sign or Symptom
+#54	AnnotatorNotes T40	C0848200; Afterbirth pain; Sign or Symptom
+#55	AnnotatorNotes T3	C0497115; Local injection/infiltration; Therapeutic or Preventive Procedure
+#56	AnnotatorNotes T16	C0566665; Prolonged third stage of labor; Finding (?)
+#57	AnnotatorNotes T31	C1282521; Pudendal nerve neuropathy; Disease or Syndrome
+R1	Overlap Arg1:T33 Arg2:T48	
+R3	Used_for Arg1:T34 Arg2:T3	
+R4	Combined_with Arg1:T35 Arg2:T5	
+R5	Used_for Arg1:T35 Arg2:T3	
+R6	Location_of Arg1:T7 Arg2:T37	
+R8	Overlap Arg1:T8 Arg2:T49	
+R9	Overlap Arg1:T37 Arg2:T49	
+R11	Used_for Arg1:T38 Arg2:T9	
+R12	Used_for Arg1:T39 Arg2:T9	
+R13	Combined_with Arg1:T39 Arg2:T12	
+R14	Overlap Arg1:T40 Arg2:T51	
+R15	Location_of Arg1:T13 Arg2:T41	
+R16	After Arg1:T14 Arg2:T53	
+R17	After Arg1:T41 Arg2:T53	
+R18	Experiences Arg1:T47 Arg2:T55	
+R19	Combined_with Arg1:T11 Arg2:T15	
+R20	Experiences Arg1:T47 Arg2:T11	
+R21	Experiences Arg1:T47 Arg2:T15	
+R22	Experiences Arg1:T50 Arg2:T16	
+R23	Has_Duration_or_Interval Arg1:T16 Arg2:T57	
+R24	Experiences Arg1:T50 Arg2:T17	
+T56	Result_or_Value 657 666	> 4000 gr
+R26	Has_Result_or_Value Arg1:T42 Arg2:T56	
+R27	Experiences Arg1:T52 Arg2:T18	
+R28	Experiences Arg1:T60 Arg2:T43	
+R29	Location_of Arg1:T19 Arg2:T43	
+R30	Has_Duration_or_Interval Arg1:T43 Arg2:T61	
+R31	After Arg1:T43 Arg2:T62	
+R32	Experiences Arg1:T60 Arg2:T62	
+R33	Experiences Arg1:T60 Arg2:T20	
+T58	Result_or_Value 792 802	al menos 4
+R34	Has_Result_or_Value Arg1:T20 Arg2:T58	
+R35	Has_Duration_or_Interval Arg1:T63 Arg2:T65	
+R36	Experiences Arg1:T66 Arg2:T21	
+R37	Causes Arg1:T22 Arg2:T21	
+R38	Location_of Arg1:T44 Arg2:T23	
+T59	Quantifier_or_Qualifier 959 965	activa
+#58	AnnotatorNotes T59	C0679217; Active State; Idea or Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T59	
+R41	Speculation Arg1:T67 Arg2:T26	
+R42	Causes Arg1:T45 Arg2:T26	
+R43	Before Arg1:T25 Arg2:T26	
+R44	Causes Arg1:T69 Arg2:T68	
+R46	Causes Arg1:T69 Arg2:T4	
+T64	Observation 1179 1205	Desconocimiento del idioma
+#59	AnnotatorNotes T64	C0237167; Language Barriers; Finding
+R47	Negation Arg1:T70 Arg2:T30	
+R48	Location_of Arg1:T32 Arg2:T31	
+T71	Quantifier_or_Qualifier 1297 1308	establecida
+#60	AnnotatorNotes T71	C0443211; Established; Qualitative Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T71	
+R51	Causes Arg1:T28 Arg2:T27	
+R2	Overlap Arg1:T2 Arg2:T48	
+R7	Overlap Arg1:T6 Arg2:T49	
+#61	AnnotatorNotes T4	C0424187; Fear of needles; Mental or Behavioral Dysfunction
+A8	Experiencer T47 Patient
+A9	Experiencer T50 Patient
+A10	Experiencer T52 Patient
+A11	Experiencer T42 Family_member
+A12	Experiencer T60 Patient
+A13	Experiencer T66 Patient

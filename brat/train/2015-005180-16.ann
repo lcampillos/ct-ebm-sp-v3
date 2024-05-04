@@ -1,0 +1,172 @@
+T1	CHEM 60 72	progesterona
+#1	AnnotatorNotes T1	C0033308; progesterone; Hormone · Organic Chemical · Pharmacologic Substance
+T2	PROC 81 91	prevención
+#2	AnnotatorNotes T2	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T3	DISO 96 112	parto pretérmino
+#3	AnnotatorNotes T3	C0022876; Premature Obstetric Labor; Pathologic Function | C0151526; Premature Birth; Pathologic Function | C2909141; Preterm labor with preterm delivery; Pathologic Function
+T4	CHEM 175 187	progesterona
+#4	AnnotatorNotes T4	C0033308; progesterone; Hormone · Organic Chemical · Pharmacologic Substance
+T5	PROC 196 206	prevención
+#5	AnnotatorNotes T5	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T6	DISO 211 227	parto pretérmino
+#6	AnnotatorNotes T6	C0022876; Premature Obstetric Labor; Pathologic Function | C0151526; Premature Birth; Pathologic Function | C2909141; Preterm labor with preterm delivery; Pathologic Function
+T7	PROC 253 298	Estudio aleatorizado, doble ciego con placebo
+T8	DISO 422 426	MCBA
+#7	AnnotatorNotes T8	C2977401; Monochorionic diamniotic twin pregnancy; Finding
+T9	DISO 330 357	Parto pretérmino espontáneo
+#8	AnnotatorNotes T9	C3696921; Preterm spontaneous labor with preterm delivery; Pathologic Function
+T10	ANAT 427 432	Fetos
+#9	AnnotatorNotes T10	C0015965; Fetus; Embryonic Structure | C1305737; Entire fetus; Anatomical Structure
+T11	PROC 542 587	Consentimiento informado verbal y por escrito
+#10	AnnotatorNotes T11	C1608381; Consent Mode - Verbal; Health Care Activity (?) + C0811741; Obtain informed written consent; Health Care Activity
+T12	DISO 670 688	malformación fetal
+#11	AnnotatorNotes T12	C0000768; Congenital Abnormality; Congenital Abnormality
+T13	PROC 748 767	translucencia nucal
+#12	AnnotatorNotes T13	C1610088; Foetal nuchal translucency ultrasound; Diagnostic Procedure
+T14	ANAT 762 767	nucal
+#13	AnnotatorNotes T14	C0581758; Nuchal region; Body Location or Region
+T15	DISO 803 809	signos
+#14	AnnotatorNotes T15	C0311392; Physical findings; Finding
+T16	ANAT 839 844	fetal
+#15	AnnotatorNotes T16	C0015965; Fetus; Embryonic Structure | C1305737; Entire fetus; Anatomical Structure
+T17	ANAT 894 900	caudal
+#16	AnnotatorNotes T17	C0205097; Caudal; Body Location or Region
+T18	DISO 959 977	problemas mentales
+T19	DISO 979 1003	problemas de aprendizaje
+#17	AnnotatorNotes T19	C0751265; Learning Disabilities; Mental or Behavioral Dysfunction
+T20	DISO 1005 1022	Hipersensibilidad
+#18	AnnotatorNotes T20	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T21	CHEM 1028 1040	progesterona
+#19	AnnotatorNotes T21	C0033308; progesterone; Hormone · Organic Chemical · Pharmacologic Substance
+T22	PHYS 119 136	gestación gemelar
+#20	AnnotatorNotes T22	C0404839; Undiagnosed twin; Organism Function
+T23	DISO 786 790	MCBA
+#21	AnnotatorNotes T23	C2977401; Monochorionic diamniotic twin pregnancy; Finding
+T24	DISO 399 419	Gestación gemelar BC
+#22	AnnotatorNotes T24	C2977407; Dichorionic diamniotic twin pregnancy; Finding
+T25	PHYS 234 251	gestación gemelar
+#23	AnnotatorNotes T25	C0404839; Undiagnosed twin; Organism Function
+T26	DISO 638 661	Gestaciones complicadas
+T27	ANAT 683 688	fetal
+#24	AnnotatorNotes T27	C0015965; Fetus; Embryonic Structure | C1305737; Entire fetus; Anatomical Structure
+T28	DISO 949 957	enfermas
+#25	AnnotatorNotes T28	C0012634; Disease; Disease or Syndrome
+T29	CHEM 1076 1086	medicación
+#26	AnnotatorNotes T29	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T30	PROC 769 771	TN
+T31	ANAT 834 838	feto
+#27	AnnotatorNotes T31	C0015965; Fetus; Embryonic Structure | C1305737; Entire fetus; Anatomical Structure
+T32	DISO 846 850	TTTS
+#28	AnnotatorNotes T32	C2909036; Fetus-to-fetus placental transfusion syndrome; Pathologic Function
+T33	DISO 822 844	transfusion feto-fetal
+T34	ANAT 887 893	cefalo
+T35	PROC 925 927	TN
+T36	Date 13 17	2015
+T37	Age 389 398	> 18 años
+T38	Duration 442 459	las semanas 11-13
+T39	PHYS 463 472	gestación
+#29	AnnotatorNotes T39	C0032961; Pregnancy; Organism Function
+T42	Age 620 636	menor de 18 años
+T43	PHYS 638 649	Gestaciones
+#30	AnnotatorNotes T43	C0032961; Pregnancy; Organism Function
+T44	Duration 714 731	las 11-13 semanas
+T46	Spec_cue 791 796	puede
+T47	LIVB 929 936	Mujeres
+#31	AnnotatorNotes T47	C0043210; Woman; Population Group
+T48	Duration 1090 1112	los 28 días anteriores
+T49	LIVB 1142 1154	investigador
+#32	AnnotatorNotes T49	C0035173; Research Personnel; Professional or Occupational Group
+T50	PHYS 96 101	parto
+#33	AnnotatorNotes T50	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T53	PHYS 211 216	parto
+#34	AnnotatorNotes T53	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T56	PHYS 330 335	Parto
+#35	AnnotatorNotes T56	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T57	PHYS 399 416	Gestación gemelar
+#36	AnnotatorNotes T57	C0404839; Undiagnosed twin; Organism Function
+T60	PHYS 969 977	mentales
+#37	AnnotatorNotes T60	C0229992; Psyche structure; Mental Process
+T61	PHYS 992 1003	aprendizaje
+#38	AnnotatorNotes T61	C0023185; Learning; Mental Process
+A1	Assertion T15 Speculated
+A3	Assertion T32 Speculated
+A4	Status T20 History_of
+A5	Status T29 History_of
+#39	AnnotatorNotes T7	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#40	AnnotatorNotes T26	C0032962; Pregnancy Complications; Pathologic Function 
+#41	AnnotatorNotes T30	C1610088; Foetal nuchal translucency ultrasound; Diagnostic Procedure
+#42	AnnotatorNotes T35	C1610088; Foetal nuchal translucency ultrasound; Diagnostic Procedure
+#43	AnnotatorNotes T33	C2909036; Fetus-to-fetus placental transfusion syndrome; Pathologic Function
+#44	AnnotatorNotes T18	C0848067; Mental problem; Finding
+A2	Assertion T33 Speculated
+T40	Quantifier_or_Qualifier 50 56	precoz
+#45	AnnotatorNotes T40	C1279919; Early; Temporal Concept
+T41	Quantifier_or_Qualifier 165 171	precoz
+#46	AnnotatorNotes T41	C1279919; Early; Temporal Concept
+R1	Used_for Arg1:T1 Arg2:T2	
+R2	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T40	
+R3	Used_for Arg1:T4 Arg2:T5	
+R4	Before Arg1:T2 Arg2:T3	
+R7	Before Arg1:T5 Arg2:T6	
+R8	Before Arg1:T5 Arg2:T53	
+R9	Before Arg1:T2 Arg2:T50	
+R10	Before Arg1:T22 Arg2:T50	
+R11	Before Arg1:T25 Arg2:T53	
+R12	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T41	
+R15	Has_Duration_or_Interval Arg1:T39 Arg2:T38	
+T45	Observation 427 438	Fetos vivos
+R16	Overlap Arg1:T45 Arg2:T38	
+T51	Observation 473 498	Lenguaje ingles o español
+#47	AnnotatorNotes T51	C0745638; LANGUAGE BARRIER SPEAKS SPANISH; Finding | C0745640; LANGUAGE ENGLISH SPOKEN; Finding
+T52	Quantifier_or_Qualifier 689 694	mayor
+#48	AnnotatorNotes T52	C0205164; Major; Qualitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T52	
+R19	Has_Duration_or_Interval Arg1:T12 Arg2:T44	
+R20	Location_of Arg1:T14 Arg2:T13	
+R21	Location_of Arg1:T14 Arg2:T30	
+T54	Result_or_Value 773 781	> 3.5 mm
+R22	Has_Result_or_Value Arg1:T30 Arg2:T54	
+R23	Has_Result_or_Value Arg1:T13 Arg2:T54	
+R24	Overlap Arg1:T26 Arg2:T12	
+R27	Overlap Arg1:T23 Arg2:T15	
+R28	Overlap Arg1:T23 Arg2:T33	
+R29	Causes Arg1:T33 Arg2:T15	
+R30	Causes Arg1:T32 Arg2:T15	
+R31	Location_of Arg1:T31 Arg2:T33	
+R32	Location_of Arg1:T16 Arg2:T33	
+R33	Location_of Arg1:T16 Arg2:T32	
+R34	Location_of Arg1:T31 Arg2:T32	
+T55	Quantifier_or_Qualifier 810 818	precoces
+#49	AnnotatorNotes T55	C1279919; Early; Temporal Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T55	
+A6	Assertion T55 Speculated
+R36	Speculation Arg1:T46 Arg2:T15	
+R37	Speculation Arg1:T46 Arg2:T55	
+R38	Speculation Arg1:T46 Arg2:T33	
+R39	Speculation Arg1:T46 Arg2:T32	
+T58	Observation 911 927	aumento de la TN
+#50	AnnotatorNotes T58	C4023676; Increased nuchal translucency; Finding
+R40	Overlap Arg1:T23 Arg2:T58	
+T59	Quantifier_or_Qualifier 852 855	20%
+T62	Observation 859 900	discordancia en la longitud cefalo-caudal
+R42	Location_of Arg1:T34 Arg2:T62	
+R43	Location_of Arg1:T17 Arg2:T62	
+R44	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T59	
+R45	Overlap Arg1:T23 Arg2:T62	
+R46	Experiences Arg1:T47 Arg2:T28	
+R47	Experiences Arg1:T47 Arg2:T18	
+R49	Experiences Arg1:T47 Arg2:T60	
+R50	Experiences Arg1:T47 Arg2:T19	
+R51	Experiences Arg1:T47 Arg2:T61	
+T63	Quantifier_or_Qualifier 937 948	severamente
+#51	AnnotatorNotes T63	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R53	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T63	
+R54	Causes Arg1:T21 Arg2:T20	
+R55	Has_Duration_or_Interval Arg1:T29 Arg2:T48	
+T64	Observation 1042 1071	Participación en otro estudio
+R56	Overlap Arg1:T64 Arg2:T29	
+R5	Overlap Arg1:T45 Arg2:T39	
+R6	Overlap Arg1:T23 Arg2:T32	
+#52	AnnotatorNotes T34	C0446450; Crown of head; Body Location or Region 
+A7	Experiencer T47 Patient
+A8	Experiencer T49 Other

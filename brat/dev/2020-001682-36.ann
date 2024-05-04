@@ -1,0 +1,135 @@
+T1	PROC 46 57	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	ANAT 74 95	células mesenquimales
+#2	AnnotatorNotes T2	C1257975; Mesenchymal Stem Cells; Cell
+T3	PROC 134 195	ENSAYO CLÍNICO FASE I/II, DOBLE CIEGO, CONTROLADO POR PLACEBO
+T4	PROC 202 233	EVALUAR LA SEGURIDAD Y EFICACIA
+T5	ANAT 241 262	CÉLULAS MESENQUIMALES
+#3	AnnotatorNotes T5	C1257975; Mesenchymal Stem Cells; Cell
+T6	DISO 290 314	FALLO RESPIRATORIO AGUDO
+#4	AnnotatorNotes T6	C0264490; Acute respiratory failure; Disease or Syndrome
+T7	DISO 332 353	NEUMONÍA POR COVID-19
+T8	DISO 473 497	Infección por SARS-CoV-2
+#5	AnnotatorNotes T8	C5203670; COVID19 (disease); Disease or Syndrome
+T9	PROC 789 810	Saturación de oxígeno
+#6	AnnotatorNotes T9	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T10	DISO 61 69	COVID-19
+#7	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+T11	PROC 518 534	prueba molecular
+#8	AnnotatorNotes T11	C1320549; Molecular genetic test; Laboratory Procedure
+T12	PROC 539 585	Ingresados en la Unidad de Cuidados Intensivos
+#9	AnnotatorNotes T12	C0583239; Admission to intensive care unit; Health Care Activity
+T13	DISO 590 634	neumonía secundaria a infección por COVID-19
+T14	DISO 378 386	COVID-19
+#10	AnnotatorNotes T14	C5203670; COVID19 (disease); Disease or Syndrome
+T15	DISO 708 728	Distrés respiratorio
+#11	AnnotatorNotes T15	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T16	PROC 758 760	FR
+#12	AnnotatorNotes T16	C1443397; Taking respiratory rate; Health Care Activity
+T17	PROC 851 933	Presión parcial arterial de oxígeno (PaO2)/fracción inspiratoria de oxígeno (FiO2)
+T18	CHEM 919 926	oxígeno
+#13	AnnotatorNotes T18	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T19	PROC 1309 1323	consentimiento
+#14	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	DISO 1090 1108	enfermedad tumoral
+T21	PROC 1155 1169	ensayo clínico
+#15	AnnotatorNotes T21	C0008976; Clinical Trials; Research Activity
+T22	PROC 733 756	Frecuencia respiratoria
+#16	AnnotatorNotes T22	C1443397; Taking respiratory rate; Health Care Activity
+T23	ANAT 867 875	arterial
+#17	AnnotatorNotes T23	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T24	CHEM 879 886	oxígeno
+#18	AnnotatorNotes T24	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T25	Date 13 17	2020
+T26	LIVB 318 327	PACIENTES
+#19	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 416 423	Mujeres
+#20	AnnotatorNotes T27	C0043210; Woman; Population Group
+T28	Age 442 468	superior o igual a 18 años
+T29	Duration 638 658	las últimas 48 horas
+T35	LIVB 978 986	paciente
+#21	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 992 1011	representante legal
+#22	AnnotatorNotes T36	C4288823; Legal Representative for the Study; Human
+T37	PHYS 1120 1128	Embarazo
+#23	AnnotatorNotes T37	C0032961; Pregnancy; Organism Function
+T38	LIVB 1224 1236	investigador
+#24	AnnotatorNotes T38	C0035173; Research Personnel; Professional or Occupational Group
+T40	LIVB 1272 1280	paciente
+#25	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Neg_cue 1298 1300	No
+T42	PHYS 296 308	RESPIRATORIO
+#26	AnnotatorNotes T42	C0035203; Respiration; Physiologic Function
+T43	PHYS 716 728	respiratorio
+#27	AnnotatorNotes T43	C0035203; Respiration; Physiologic Function
+T44	LIVB 426 433	varones
+#28	AnnotatorNotes T44	C0025266; Male population group; Population Group
+T45	LIVB 487 497	SARS-CoV-2
+#29	AnnotatorNotes T45	C5203676; SARS-CoV-2; Virus
+A1	Assertion T19 Negated
+#30	AnnotatorNotes T3	C1519043; Phase I/II Trial; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#31	AnnotatorNotes T4	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#32	AnnotatorNotes T7	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#33	AnnotatorNotes T17	C4087239; PaO2/FiO2 ratio; Laboratory Procedure
+T30	Neg_cue 1251 1253	no
+T31	Observation 1254 1280	participación del paciente
+A2	Assertion T31 Negated
+#34	AnnotatorNotes T31	C1278516; Patient participation status; Finding
+T32	Quantifier_or_Qualifier 96 106	alogénicas
+#35	AnnotatorNotes T32	C1515895; Allogeneic; Qualitative Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T32	
+T33	Quantifier_or_Qualifier 263 273	ALOGÉNICAS
+#36	AnnotatorNotes T33	C1515895; Allogeneic; Qualitative Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T33	
+R5	Overlap Arg1:T6 Arg2:T7	
+R6	Experiences Arg1:T26 Arg2:T6	
+R7	Experiences Arg1:T26 Arg2:T7	
+R8	Experiences Arg1:T26 Arg2:T42	
+R9	Has_Age Arg1:T44 Arg2:T28	
+R10	Has_Age Arg1:T27 Arg2:T28	
+R11	Causes Arg1:T45 Arg2:T8	
+#37	AnnotatorNotes T13	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome
+R14	Overlap Arg1:T13 Arg2:T29	
+T34	Result_or_Value 762 784	mayor o igual a 30 rpm
+R16	Has_Result_or_Value Arg1:T16 Arg2:T34	
+R17	Has_Result_or_Value Arg1:T22 Arg2:T34	
+T39	Result_or_Value 827 846	menor o igual a 93%
+R18	Has_Result_or_Value Arg1:T9 Arg2:T39	
+T46	Quantifier_or_Qualifier 811 816	basal
+#38	AnnotatorNotes T46	C1442488; Baseline; Quantitative Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T46	
+T47	Quantifier_or_Qualifier 817 826	en reposo
+#39	AnnotatorNotes T47	C0443144; At rest; Functional Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T47	
+R21	Location_of Arg1:T23 Arg2:T17	
+T48	Result_or_Value 934 957	menor o igual a 300mmHg
+R22	Has_Result_or_Value Arg1:T17 Arg2:T48	
+T49	Observation 1020 1047	participación en el estudio
+#40	AnnotatorNotes T49	C1278516; Patient participation status; Finding (?)
+T50	Observation 962 973	Conformidad
+#41	AnnotatorNotes T50	C1302239; Patient consented to clinical trial; Finding
+R24	Before Arg1:T50 Arg2:T49	
+#42	AnnotatorNotes T20	C0006826; Malignant Neoplasms; Neoplastic Process (?)
+T51	Quantifier_or_Qualifier 1170 1176	activo
+#43	AnnotatorNotes T51	C0679217; Active State; Idea or Concept
+T52	Quantifier_or_Qualifier 1109 1115	activa
+#44	AnnotatorNotes T52	C0679217; Active State; Idea or Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T52	
+R28	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T51	
+T53	Observation 1133 1176	Participación en otro ensayo clínico activo
+R29	Negation Arg1:T30 Arg2:T31	
+R31	Negation Arg1:T41 Arg2:T19	
+T54	Observation 1332 1345	participación
+#45	AnnotatorNotes T54	C1278516; Patient participation status; Finding
+R32	Before Arg1:T19 Arg2:T54	
+A3	Assertion T54 Negated
+R33	Negation Arg1:T41 Arg2:T54	
+R1	Overlap Arg1:T12 Arg2:T29	
+R4	Used_for Arg1:T2 Arg2:T1	
+A4	Experiencer T38 Other
+A5	Experiencer T40 Patient
+A6	Experiencer T26 Patient
+A7	Experiencer T44 Patient
+A8	Experiencer T27 Patient
+A9	Experiencer T35 Patient
+A10	Experiencer T36 Other

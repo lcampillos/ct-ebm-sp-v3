@@ -1,0 +1,121 @@
+T1	PROC 61 72	instilación
+#1	AnnotatorNotes T1	C0184959; Instillation (procedure); Health Care Activity
+T2	CHEM 76 114	Plasma Rico en Factores de Crecimiento
+T3	ANAT 118 137	cavidad endometrial
+#2	AnnotatorNotes T3	C0227844; Uterine cavity; Body Space or Junction | C1284520; Entire endometrial cavity; Body Space or Junction
+T4	ANAT 159 169	endometrio
+#3	AnnotatorNotes T4	C0014180; Endometrium; Body Part, Organ, or Organ Component | C1269566; Entire endometrium; Body Part, Organ, or Organ Component
+T5	PROC 173 194	reproducción asistida
+#4	AnnotatorNotes T5	C0949811; Reproductive Techniques, Assisted; Therapeutic or Preventive Procedure | C0872104; Assisted Reproductive Technologies; Therapeutic or Preventive Procedure
+T6	PROC 234 245	instilación
+#5	AnnotatorNotes T6	C0184959; Instillation (procedure); Health Care Activity
+T7	CHEM 249 287	Plasma Rico en Factores de Crecimiento
+T8	ANAT 291 310	cavidad endometrial
+#6	AnnotatorNotes T8	C0227844; Uterine cavity; Body Space or Junction | C1284520; Entire endometrial cavity; Body Space or Junction
+T9	PROC 344 362	tratamiento de TRA
+T10	ANAT 375 384	embriones
+#7	AnnotatorNotes T10	C0013935; Embryo; Embryonic Structure | C0013948; Embryonic Structures; Embryonic Structure | C1305370; Entire embryo; Embryonic Structure
+T11	PROC 395 402	donados
+#8	AnnotatorNotes T11	C3489429; Embryo Donation; Health Care Activity
+T12	ANAT 431 442	endometrial
+#9	AnnotatorNotes T12	C0014180; Endometrium; Body Part, Organ, or Organ Component | C1269566; Entire endometrium; Body Part, Organ, or Organ Component
+T13	PROC 488 520	tratamiento con estrogenoterapia
+T14	ANAT 581 589	ovocitos
+#10	AnnotatorNotes T14	C0029045; Oocytes; Cell
+T15	ANAT 602 611	embriones
+#11	AnnotatorNotes T15	C0013935; Embryo; Embryonic Structure | C0013948; Embryonic Structures; Embryonic Structure | C1305370; Entire embryo; Embryonic Structure
+T16	PROC 633 670	tratamientos de tipo ciclo sustituido
+T17	ANAT 675 685	Endometrio
+#12	AnnotatorNotes T17	C0014180; Endometrium; Body Part, Organ, or Organ Component | C1269566; Entire endometrium; Body Part, Organ, or Organ Component
+T18	ANAT 830 838	ovocitos
+#13	AnnotatorNotes T18	C0029045; Oocytes; Cell
+T19	ANAT 851 860	embriones
+#14	AnnotatorNotes T19	C0013935; Embryo; Embryonic Structure | C0013948; Embryonic Structures; Embryonic Structure | C1305370; Entire embryo; Embryonic Structure
+T20	PROC 882 919	tratamientos de tipo ciclo sustituido
+T21	ANAT 924 934	Endometrio
+#15	AnnotatorNotes T21	C0014180; Endometrium; Body Part, Organ, or Organ Component | C1269566; Entire endometrium; Body Part, Organ, or Organ Component
+T22	DISO 1062 1093	Enfermedad inflamatoria pélvica
+#16	AnnotatorNotes T22	C0242172; Pelvic Inflammatory Disease; Disease or Syndrome
+T23	DISO 1106 1115	infección
+#17	AnnotatorNotes T23	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T24	PROC 742 758	estrogenoterapia
+#18	AnnotatorNotes T24	C0279494; Estrogen Therapy; Therapeutic or Preventive Procedure
+T25	PROC 991 1007	estrogenoterapia
+#19	AnnotatorNotes T25	C0279494; Estrogen Therapy; Therapeutic or Preventive Procedure
+T26	ANAT 1086 1093	pélvica
+#20	AnnotatorNotes T26	C0030797; Pelvis; Body Part, Organ, or Organ Component | C1279864; Entire pelvis; Body Part, Organ, or Organ Component
+T27	Date 12 16	2016
+T28	LIVB 333 340	Mujeres
+#21	AnnotatorNotes T28	C0043210; Woman; Population Group
+T30	LIVB 548 555	Mujeres
+#22	AnnotatorNotes T30	C0043210; Woman; Population Group
+T32	Duration 712 719	10 días
+T33	Dose 724 738	dosis estándar
+T34	LIVB 797 804	Mujeres
+#23	AnnotatorNotes T34	C0043210; Woman; Population Group
+T36	Duration 961 968	10 días
+T37	Dose 973 987	dosis estándar
+T38	Spec_cue 1096 1105	Riesgo de
+T40	PHYS 173 185	reproducción
+#24	AnnotatorNotes T40	C0035150; Reproduction; Organism Function
+T29	Dose 760 763	6mg
+T31	Frequency 763 767	/24h
+T35	Dose 1009 1012	6mg
+T39	Frequency 1012 1016	/24h
+A1	Assertion T23 Speculated
+A2	Status T22 History_of
+R1	Used_for Arg1:T2 Arg2:T1	
+R2	Used_for Arg1:T7 Arg2:T6	
+R3	Location_of Arg1:T3 Arg2:T1	
+R4	Location_of Arg1:T8 Arg2:T6	
+R5	Before Arg1:T5 Arg2:T40	
+R6	Combined_with Arg1:T1 Arg2:T5	
+R7	Experiences Arg1:T28 Arg2:T9	
+R9	Before Arg1:T11 Arg2:T43	
+R10	Experiences Arg1:T28 Arg2:T13	
+#25	AnnotatorNotes T13	C0279494; Estrogen Therapy; Therapeutic or Preventive Procedure
+R11	Experiences Arg1:T30 Arg2:T16	
+T41	Result_or_Value 686 700	inferior a 5mm
+R14	Has_Result_or_Value Arg1:T17 Arg2:T41	
+R15	Has_Duration_or_Interval Arg1:T24 Arg2:T32	
+R16	Location_of Arg1:T17 Arg2:T24	
+R17	Has_Dose_or_Strength Arg1:T24 Arg2:T33	
+R18	Has_Dose_or_Strength Arg1:T24 Arg2:T29	
+R19	Has_Frequency Arg1:T24 Arg2:T31	
+T42	PROC 568 589	recepción de ovocitos
+#26	AnnotatorNotes T42	C1314106; Insemination of oocytes; Laboratory Procedure (?)
+R23	Overlap Arg1:T42 Arg2:T16	
+R24	Experiences Arg1:T30 Arg2:T42	
+T43	PROC 367 384	reciban embriones
+T44	PROC 817 838	recepción de ovocitos
+#27	AnnotatorNotes T44	C1314106; Insemination of oocytes; Laboratory Procedure (?)
+R26	Experiences Arg1:T34 Arg2:T44	
+R27	Experiences Arg1:T34 Arg2:T20	
+R28	Overlap Arg1:T44 Arg2:T20	
+T45	Result_or_Value 935 949	inferior a 5mm
+R29	Has_Result_or_Value Arg1:T21 Arg2:T45	
+T46	PROC 817 826;848 860	recepción de embriones
+#28	AnnotatorNotes T46	C0013938; Embryo transfer (procedure); Therapeutic or Preventive Procedure (?)
+T47	PROC 568 577;599 611	recepción de embriones
+#29	AnnotatorNotes T47	C0013938; Embryo transfer (procedure); Therapeutic or Preventive Procedure (?)
+R30	Experiences Arg1:T30 Arg2:T47	
+R32	Overlap Arg1:T46 Arg2:T20	
+R33	Overlap Arg1:T47 Arg2:T16	
+#30	AnnotatorNotes T43	C0013938; Embryo transfer (procedure); Therapeutic or Preventive Procedure (?)
+R34	Experiences Arg1:T28 Arg2:T43	
+R36	Before Arg1:T25 Arg2:T45	
+R20	Before Arg1:T24 Arg2:T41	
+R35	Has_Dose_or_Strength Arg1:T25 Arg2:T37	
+R37	Has_Dose_or_Strength Arg1:T25 Arg2:T35	
+R38	Has_Frequency Arg1:T25 Arg2:T39	
+R39	Has_Duration_or_Interval Arg1:T25 Arg2:T36	
+R40	Location_of Arg1:T21 Arg2:T25	
+R41	Location_of Arg1:T26 Arg2:T22	
+R42	Speculation Arg1:T38 Arg2:T23	
+R31	Experiences Arg1:T34 Arg2:T46	
+R25	Overlap Arg1:T43 Arg2:T13	
+R43	Overlap Arg1:T9 Arg2:T43	
+#31	AnnotatorNotes T9	C0872104; Assisted Reproductive Technologies; Therapeutic or Preventive Procedure | C0949811; Reproductive Techniques, Assisted; Therapeutic or Preventive Procedure
+A3	Experiencer T28 Patient
+A4	Experiencer T30 Patient
+A5	Experiencer T34 Patient

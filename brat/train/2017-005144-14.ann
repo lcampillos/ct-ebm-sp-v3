@@ -1,0 +1,139 @@
+T1	PROC 46 65	Estudio comparativo
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	CHEM 82 94	cardioplejia
+#2	AnnotatorNotes T2	C0007200; Cardioplegic Solutions; Pharmacologic Substance
+T3	PROC 106 122	cirugía cardiaca
+#3	AnnotatorNotes T3	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T4	PROC 168 184	Cirugía cardíaca
+#4	AnnotatorNotes T4	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T5	PROC 268 275	cirugía
+#5	AnnotatorNotes T5	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T6	PROC 292 317	circulación extracorpórea
+#6	AnnotatorNotes T6	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T7	ANAT 114 122	cardiaca
+#7	AnnotatorNotes T7	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T8	PROC 503 513	consientan
+T9	DISO 542 549	Alergia
+#8	AnnotatorNotes T9	C1527304; Allergic Reaction; Pathologic Function
+T10	PROC 876 880	ECMO
+#9	AnnotatorNotes T10	C0015357; Extracorporeal Membrane Oxygenation; Therapeutic or Preventive Procedure
+T11	PROC 869 874	BCIAO
+#10	AnnotatorNotes T11	C3826111; Intra-aortic balloon counterpulsation; Therapeutic or Preventive Procedure
+T12	PROC 598 615	Cirugía emergente
+#11	AnnotatorNotes T12	C2216322; emergency surgical procedure; Therapeutic or Preventive Procedure
+T13	PROC 629 636	Cirugía
+#12	AnnotatorNotes T13	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T14	PROC 641 660	trasplante cardiaco
+#13	AnnotatorNotes T14	C0018823; Heart Transplantation; Therapeutic or Preventive Procedure
+T15	PROC 662 679	disección aórtica
+T16	DISO 681 693	endocarditis
+#14	AnnotatorNotes T16	C0014118; Endocarditis; Disease or Syndrome
+T17	DISO 702 707	shock
+#15	AnnotatorNotes T17	C0036974; Shock; Pathologic Function
+T18	PROC 743 766	intervención quirúrgica
+#16	AnnotatorNotes T18	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T19	ANAT 176 184	cardíaca
+#17	AnnotatorNotes T19	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T20	PROC 884 894	intubación
+#18	AnnotatorNotes T20	C0021925; Intubation (procedure); Therapeutic or Preventive Procedure
+T21	PROC 959 993	procedimiento mínimamente invasivo
+T22	PROC 935 942	cirugía
+#19	AnnotatorNotes T22	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T23	CHEM 564 594	anestésicos locales tipo amida
+#20	AnnotatorNotes T23	C0360090; Amide type local anesthetic; Organic Chemical · Pharmacologic Substance
+T24	ANAT 652 660	cardiaco
+#21	AnnotatorNotes T24	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T25	CHEM 817 849	soporte inotrópico farmacológico
+T26	ANAT 672 679	aórtica
+#22	AnnotatorNotes T26	C0003483; Aorta; Body Part, Organ, or Organ Component | C1278934; Entire aorta; Body Part, Organ, or Organ Component
+T27	PROC 851 867	soporte mecánico
+T28	Date 13 17	2017
+T30	LIVB 129 144	paciente adulto
+#23	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T31	LIVB 213 222	Pacientes
+#24	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Age 223 241	mayores de 18 años
+T33	LIVB 246 255	Pacientes
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 322 331	Pacientes
+#26	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 454 463	Pacientes
+#27	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Age 464 482	menores de 18 años
+T37	LIVB 486 495	Pacientes
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Neg_cue 500 502	no
+T39	LIVB 783 792	pacientes
+#29	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Time 895 908	preoperatoria
+#30	AnnotatorNotes T40	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T41	LIVB 913 922	Pacientes
+#31	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T29	PROC 386 407	autoricen por escrito
+#32	AnnotatorNotes T29	C0811746; Obtain written consent; Health Care Activity
+A1	Population_data T30 Age
+A2	Assertion T8 Negated
+A3	Status T9 History_of
+#33	AnnotatorNotes T8	C1532670; Obtaining consent; Health Care Activity 
+#34	AnnotatorNotes T15	C0340643; Dissection of aorta; Disease or Syndrome 
+R1	Overlap Arg1:T2 Arg2:T3	
+R2	Location_of Arg1:T7 Arg2:T3	
+R3	Experiences Arg1:T30 Arg2:T2	
+R4	Experiences Arg1:T30 Arg2:T3	
+R5	Location_of Arg1:T19 Arg2:T4	
+R6	Has_Age Arg1:T31 Arg2:T32	
+R7	Experiences Arg1:T33 Arg2:T5	
+R8	Combined_with Arg1:T5 Arg2:T6	
+R9	Experiences Arg1:T33 Arg2:T6	
+T42	Quantifier_or_Qualifier 276 286	programada
+#35	AnnotatorNotes T42	C0205539; Scheuled - procedure status; Qualitative Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T42	
+T43	Observation 411 424	participación
+#36	AnnotatorNotes T43	C1278516; Patient participation status; Finding
+R11	Before Arg1:T29 Arg2:T43	
+T44	Observation 341 367	haber recibido información
+#37	AnnotatorNotes T44	C0587903; Patient information status; Finding (?)
+R14	Before Arg1:T44 Arg2:T29	
+R15	Has_Age Arg1:T35 Arg2:T36	
+R16	Negation Arg1:T38 Arg2:T8	
+T45	Observation 514 538	participar en el estudio
+#38	AnnotatorNotes T45	C1278516; Patient participation status; Finding
+R17	Before Arg1:T8 Arg2:T45	
+A5	Assertion T45 Negated
+R19	Causes Arg1:T23 Arg2:T9	
+R20	Location_of Arg1:T24 Arg2:T14	
+R21	Location_of Arg1:T26 Arg2:T15	
+R22	Experiences Arg1:T39 Arg2:T18	
+R23	Experiences Arg1:T39 Arg2:T25	
+R24	Experiences Arg1:T39 Arg2:T27	
+R25	Experiences Arg1:T39 Arg2:T11	
+R26	Experiences Arg1:T39 Arg2:T10	
+R27	Experiences Arg1:T39 Arg2:T20	
+R28	Overlap Arg1:T20 Arg2:T40	
+R29	Before Arg1:T20 Arg2:T18	
+R30	Overlap Arg1:T18 Arg2:T25	
+R31	Overlap Arg1:T18 Arg2:T27	
+R32	Overlap Arg1:T18 Arg2:T11	
+R33	Overlap Arg1:T18 Arg2:T10	
+T46	Observation 793 803	inestables
+#39	AnnotatorNotes T46	C0443343; Unstable status; Finding
+R34	Experiences Arg1:T39 Arg2:T46	
+R41	Experiences Arg1:T41 Arg2:T22	
+R42	Experiences Arg1:T41 Arg2:T21	
+T47	Quantifier_or_Qualifier 943 953	programada
+#40	AnnotatorNotes T47	C0205539; Scheuled - procedure status; Qualitative Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T47	
+#41	AnnotatorNotes T21	C0282624; Minimally Invasive Surgical Procedures; Therapeutic or Preventive Procedure
+#42	AnnotatorNotes T25	C5147552; Inotropic support; Pharmacologic Substance
+#43	AnnotatorNotes T27	C3274791; Mechanical Circulatory Support; Therapeutic or Preventive Procedure
+A4	Status T5 Future
+A6	Status T6 Future
+A7	Experiencer T39 Patient
+A8	Experiencer T41 Patient
+A9	Experiencer T35 Patient
+A10	Experiencer T37 Patient
+A11	Experiencer T31 Patient
+A12	Experiencer T33 Patient
+A13	Experiencer T34 Patient
+A14	Status T22 Future
+A15	Status T21 Future

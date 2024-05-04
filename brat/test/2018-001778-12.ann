@@ -1,0 +1,190 @@
+T1	CHEM 61 88	PEGAMENTO A BASE DE FIBRINA
+T2	PROC 909 923	procedimientos
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T3	DISO 105 116	DEHISCENCIA
+#2	AnnotatorNotes T3	C0149663; Dehiscence; Pathologic Function
+T4	PROC 123 149	ANASTOMOSIS ESOFAGOJEJUNAL
+T5	PROC 1470 1494	consentimiento informado
+#3	AnnotatorNotes T5	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T6	DISO 229 240	DEHISCENCIA
+#4	AnnotatorNotes T6	C0149663; Dehiscence; Pathologic Function
+T7	PROC 247 273	ANASTOMOSIS ESOFAGOYEYUNAL
+T8	DISO 303 309	CÁNCER
+#5	AnnotatorNotes T8	C0006826; Malignant Neoplasms; Neoplastic Process
+T9	PROC 311 347	ESTUDIO ALEATORIZADO Y MULTICÉNTRICO
+T10	DISO 371 408	Fuga de la anastomosis esofagoyeyunal
+#6	AnnotatorNotes T10	C0341562; Digestive System Anastomotic Leakage; Finding (?)
+T11	PROC 438 456	gastrectomía total
+#7	AnnotatorNotes T11	C0161899; Total excision of stomach; Therapeutic or Preventive Procedure
+T12	DISO 461 484	adenocarcinoma gástrico
+#8	AnnotatorNotes T12	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T13	DISO 514 525	dehiscencia
+#9	AnnotatorNotes T13	C0149663; Dehiscence; Pathologic Function
+T14	PROC 532 558	anastomosis esofagoyeyunal
+T15	PROC 574 592	gastrectomía total
+#10	AnnotatorNotes T15	C0161899; Total excision of stomach; Therapeutic or Preventive Procedure
+T16	DISO 610 633	adenocarcinoma gástrico
+#11	AnnotatorNotes T16	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T17	PROC 709 720	Diagnóstico
+#12	AnnotatorNotes T17	C0011900; Diagnosis; Diagnostic Procedure
+T18	DISO 724 747	adenocarcinoma gástrico
+#13	AnnotatorNotes T18	C0278701; Gastric Adenocarcinoma; Neoplastic Process
+T19	PROC 767 785	gastrectomía total
+#14	AnnotatorNotes T19	C0161899; Total excision of stomach; Therapeutic or Preventive Procedure
+T20	PROC 947 971	consentimiento informado
+#15	AnnotatorNotes T20	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T21	PROC 1042 1053	Diagnóstico
+#16	AnnotatorNotes T21	C0011900; Diagnosis; Diagnostic Procedure
+T22	DISO 1057 1079	neoplasia no epitelial
+T23	ANAT 1070 1079	epitelial
+#17	AnnotatorNotes T23	C0014609; Epithelium; Tissue
+T24	DISO 1081 1091	metástasis
+#18	AnnotatorNotes T24	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T25	DISO 1107 1112	tumor
+#19	AnnotatorNotes T25	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T26	PROC 1139 1161	resecciones paliativas
+T27	DISO 1220 1239	reacciones adversas
+#20	AnnotatorNotes T27	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T28	PROC 1411 1425	procedimientos
+#21	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T29	CHEM 1282 1301	adhesivo de fibrina
+T30	ANAT 135 149	ESOFAGOJEJUNAL
+T31	CHEM 191 210	ADHESIVO DE FIBRINA
+T32	PROC 277 298	GASTRECTOMÍAS TOTALES
+#22	AnnotatorNotes T32	C0161899; Total excision of stomach; Therapeutic or Preventive Procedure
+T33	ANAT 259 273	ESOFAGOYEYUNAL
+T34	ANAT 394 408	esofagoyeyunal
+T35	ANAT 476 484	gástrico
+#23	AnnotatorNotes T35	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T36	ANAT 544 558	esofagoyeyunal
+T37	ANAT 625 633	gástrico
+#24	AnnotatorNotes T37	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T38	ANAT 739 747	gástrico
+#25	AnnotatorNotes T38	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T39	DISO 1188 1200	intolerancia
+#26	AnnotatorNotes T39	C0277585; Intolerance to drug; Pathologic Function
+T40	PROC 1116 1124	resecado
+#27	AnnotatorNotes T40	C0728940; Excision; Therapeutic or Preventive Procedure
+T41	Date 13 17	2018
+T42	LIVB 412 421	pacientes
+#28	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 596 605	pacientes
+#29	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 662 686	Pacientes de ambos sexos
+#30	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T45	Age 687 705	mayores de 18 años
+T47	LIVB 812 821	Pacientes
+#31	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T49	Neg_cue 1067 1069	no
+T50	LIVB 1093 1102	pacientes
+#32	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Neg_cue 1113 1115	no
+T52	LIVB 1166 1173	Sujetos
+#33	AnnotatorNotes T52	C0681850; Study Subject; Group
+T53	LIVB 1306 1325	Mujeres embarazadas
+#34	AnnotatorNotes T53	C0033011; Pregnant Women; Population Group
+T54	LIVB 1328 1337	lactantes
+#35	AnnotatorNotes T54	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T55	LIVB 1340 1347	Sujetos
+#36	AnnotatorNotes T55	C0681850; Study Subject; Group
+T56	Neg_cue 1352 1354	no
+T57	Neg_cue 1457 1459	No
+T58	PHYS 884 894	Comprender
+#37	AnnotatorNotes T58	C0162340; Comprehension; Mental Process
+T48	PHYS 1314 1325	embarazadas
+#38	AnnotatorNotes T48	C0032961; Pregnancy; Organism Function
+T59	PHYS 1371 1379	entender
+#39	AnnotatorNotes T59	C0162340; Comprehension; Mental Process
+A2	Assertion T23 Negated
+A3	Assertion T40 Negated
+A4	Assertion T5 Negated
+A5	Assertion T59 Negated
+A1	Status T40 History_of
+A6	Status T26 History_of
+A7	Status T39 History_of
+A8	Status T27 History_of
+#40	AnnotatorNotes T31	C0016004; Fibrin Tissue Adhesive; Amino Acid, Peptide, or Protein · Biomedical or Dental Material
+#41	AnnotatorNotes T9	C1096776; Multicenter Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#42	AnnotatorNotes T29	C0016004; Fibrin Tissue Adhesive; Amino Acid, Peptide, or Protein · Biomedical or Dental Material
+T46	Observation 1004 1038	cumplir los criterios de inclusión
+A9	Assertion T46 Negated
+#43	AnnotatorNotes T46	C1302261; Patient eligible for clinical trial; Finding (?)
+T60	Neg_cue 1001 1003	No
+T61	Quantifier_or_Qualifier 1240 1246	graves
+A10	Status T61 History_of
+#44	AnnotatorNotes T61	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R1	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T61	
+#47	AnnotatorNotes T30	C0475469; Esophagojejunal; Spatial Concept
+#48	AnnotatorNotes T33	C0475469; Esophagojejunal; Spatial Concept
+#49	AnnotatorNotes T34	C0475469; Esophagojejunal; Spatial Concept
+#50	AnnotatorNotes T36	C0475469; Esophagojejunal; Spatial Concept
+R4	Experiences Arg1:T42 Arg2:T10	
+R5	Location_of Arg1:T34 Arg2:T10	
+R6	Location_of Arg1:T36 Arg2:T14	
+#51	AnnotatorNotes T4	C0192362; Esophagojejunostomy; Therapeutic or Preventive Procedure
+#52	AnnotatorNotes T7	C0192362; Esophagojejunostomy; Therapeutic or Preventive Procedure
+R8	Location_of Arg1:T33 Arg2:T7	
+R9	Location_of Arg1:T30 Arg2:T4	
+R10	Overlap Arg1:T7 Arg2:T32	
+R11	Before Arg1:T8 Arg2:T6	
+R12	Experiences Arg1:T42 Arg2:T11	
+T64	PROC 382 408	anastomosis esofagoyeyunal
+#53	AnnotatorNotes T64	C0192362; Esophagojejunostomy; Therapeutic or Preventive Procedure
+R13	Location_of Arg1:T34 Arg2:T64	
+R14	Experiences Arg1:T42 Arg2:T64	
+R15	Experiences Arg1:T42 Arg2:T12	
+R16	Location_of Arg1:T35 Arg2:T12	
+R17	Before Arg1:T12 Arg2:T10	
+R18	Location_of Arg1:T37 Arg2:T16	
+R19	Experiences Arg1:T43 Arg2:T16	
+R20	Experiences Arg1:T43 Arg2:T15	
+R21	Experiences Arg1:T43 Arg2:T14	
+R22	Experiences Arg1:T43 Arg2:T13	
+#54	AnnotatorNotes T14	C0192362; Esophagojejunostomy; Therapeutic or Preventive Procedure
+R23	Before Arg1:T16 Arg2:T13	
+R24	After Arg1:T13 Arg2:T15	
+R25	Overlap Arg1:T14 Arg2:T15	
+R26	Has_Age Arg1:T44 Arg2:T45	
+R27	Location_of Arg1:T38 Arg2:T18	
+R29	Location_of Arg1:T37 Arg2:T15	
+R30	Location_of Arg1:T35 Arg2:T11	
+R31	Negation Arg1:T60 Arg2:T46	
+R32	Overlap Arg1:T58 Arg2:T2	
+R33	Before Arg1:T20 Arg2:T2	
+T65	Observation 897 904	aceptar
+#55	AnnotatorNotes T65	C0600109; Willing; Finding (?)
+R34	Overlap Arg1:T65 Arg2:T2	
+R35	Overlap Arg1:T65 Arg2:T20	
+R36	Negation Arg1:T49 Arg2:T23	
+R37	Location_of Arg1:T23 Arg2:T22	
+R38	Experiences Arg1:T50 Arg2:T22	
+R39	Experiences Arg1:T50 Arg2:T24	
+R40	Experiences Arg1:T50 Arg2:T25	
+R41	Experiences Arg1:T50 Arg2:T40	
+R42	Negation Arg1:T51 Arg2:T40	
+R43	Experiences Arg1:T50 Arg2:T26	
+R44	Experiences Arg1:T52 Arg2:T39	
+R45	Experiences Arg1:T52 Arg2:T27	
+R46	Causes Arg1:T29 Arg2:T39	
+R47	Causes Arg1:T29 Arg2:T27	
+R48	Experiences Arg1:T53 Arg2:T48	
+R49	Experiences Arg1:T55 Arg2:T59	
+R50	Negation Arg1:T56 Arg2:T59	
+R51	Overlap Arg1:T59 Arg2:T28	
+T66	PROC 1398 1404	ensayo
+#56	AnnotatorNotes T66	C0008976; Clinical Trials; Research Activity
+R52	Overlap Arg1:T59 Arg2:T66	
+R53	Negation Arg1:T57 Arg2:T5	
+R2	Before Arg1:T32 Arg2:T6	
+R3	Before Arg1:T11 Arg2:T10	
+R7	Experiences Arg1:T55 Arg2:T28	
+#45	AnnotatorNotes T1	C0016004; Fibrin Tissue Adhesive; Amino Acid, Peptide, or Protein · Biomedical or Dental Material (?)
+A11	Experiencer T42 Patient
+A12	Experiencer T43 Patient
+A13	Experiencer T44 Patient
+A14	Experiencer T47 Patient
+A15	Experiencer T50 Patient
+A16	Experiencer T52 Patient
+A17	Experiencer T53 Patient
+A18	Experiencer T54 Patient
+A19	Experiencer T55 Patient

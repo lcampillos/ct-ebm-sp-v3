@@ -1,0 +1,158 @@
+T1	PROC 37 67	ensayo controlado aleatorizado
+#1	AnnotatorNotes T1	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T2	PROC 73 110	evaluar la seguridad y la efectividad
+T3	PROC 117 140	hemodiálisis progresiva
+T4	Observation 397 400	FRR
+#2	AnnotatorNotes T4	C3266489; Hemodialysis residual renal function; Finding
+T5	PROC 183 211	hemodiálisis (HD) progresiva
+T6	Observation 625 628	FRR
+#3	AnnotatorNotes T6	C3266489; Hemodialysis residual renal function; Finding
+T7	PROC 243 272	tratamiento renal sustitutivo
+#4	AnnotatorNotes T7	C0206074; Renal Replacement Therapy; Therapeutic or Preventive Procedure
+T8	Observation 373 395	función renal residual
+#5	AnnotatorNotes T8	C3266489; Hemodialysis residual renal function; Finding
+T9	PROC 760 776	práctica clínica
+T10	Observation 971 974	FRR
+#6	AnnotatorNotes T10	C3266489; Hemodialysis residual renal function; Finding
+T11	PROC 663 738	estudio abierto, multicéntrico, experimental, aleatorizado 1:1 y controlado
+#7	AnnotatorNotes T11	C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity + C0681814; research study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T12	PROC 804 816	intervención
+#8	AnnotatorNotes T12	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T13	PROC 987 1013	aclaramiento renal de urea
+#9	AnnotatorNotes T13	C1318428; Urea clearance measurement; Laboratory Procedure (?)
+T14	DISO 879 903	enfermedad renal crónica
+#10	AnnotatorNotes T14	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T15	PROC 1015 1018	KrU
+#11	AnnotatorNotes T15	C1318428; Urea clearance measurement; Laboratory Procedure (?)
+T16	PROC 935 964	tratamiento renal sustitutivo
+#12	AnnotatorNotes T16	C0206074; Renal Replacement Therapy; Therapeutic or Preventive Procedure
+T17	CHEM 1009 1013	urea
+#13	AnnotatorNotes T17	C0041942; urea; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T18	Observation 1615 1618	FRR
+#14	AnnotatorNotes T18	C3266489; Hemodialysis residual renal function; Finding
+T19	PROC 1277 1301	evaluar la supervivencia
+#15	AnnotatorNotes T19	C0038953; Survival Analysis; Research Activity
+T20	PROC 1349 1366	hospitalizaciones
+#16	AnnotatorNotes T20	C0019993; Hospitalization; Health Care Activity
+T21	PROC 1577 1595	tratamiento con HD
+#17	AnnotatorNotes T21	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T22	ANAT 381 386	renal
+#18	AnnotatorNotes T22	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T23	ANAT 255 260	renal
+#19	AnnotatorNotes T23	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T24	PROC 469 471	HD
+#20	AnnotatorNotes T24	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T25	PROC 521 523	HD
+#21	AnnotatorNotes T25	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T26	ANAT 890 895	renal
+#22	AnnotatorNotes T26	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T27	PROC 927 929	HD
+#23	AnnotatorNotes T27	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T28	ANAT 947 952	renal
+#24	AnnotatorNotes T28	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T29	ANAT 1000 1005	renal
+#25	AnnotatorNotes T29	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T30	PROC 1074 1086	intervención
+#26	AnnotatorNotes T30	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T31	PROC 1118 1120	HD
+#27	AnnotatorNotes T31	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T32	LIVB 144 153	pacientes
+#28	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 321 329	paciente
+#29	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 453 461	paciente
+#30	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Frequency 538 550	3 por semana
+T38	LIVB 845 854	pacientes
+#31	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Age 855 873	mayores de 18 años
+T40	Duration 896 903	crónica
+#32	AnnotatorNotes T40	C0205191; chronic; Temporal Concept
+T41	PHYS 987 1005	aclaramiento renal
+#33	AnnotatorNotes T41	C0232813; Renal clearance function; Organ or Tissue Function
+T42	LIVB 1065 1086	grupo de intervención
+#34	AnnotatorNotes T42	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T43	LIVB 1094 1103	pacientes
+#35	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 1180 1193	grupo control
+#36	AnnotatorNotes T44	C0009932; Control Groups; Group
+T45	LIVB 1201 1210	pacientes
+#37	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1554 1562	paciente
+#38	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Frequency 473 500	una o 2 sesiones por semana
+T36	Frequency 1125 1151	una sola sesión por semana
+T37	Frequency 1230 1251	3 sesiones por semana
+T46	PHYS 373 386	función renal
+#39	AnnotatorNotes T46	C0232804; Renal function; Organ or Tissue Function
+R1	Experiences Arg1:T32 Arg2:T3	
+T47	Quantifier_or_Qualifier 154 164	incidentes
+R2	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T47	
+R3	Location_of Arg1:T23 Arg2:T7	
+R4	Experiences Arg1:T33 Arg2:T7	
+R5	Experiences Arg1:T33 Arg2:T5	
+R6	Location_of Arg1:T22 Arg2:T46	
+R7	Location_of Arg1:T22 Arg2:T8	
+R8	Location_of Arg1:T22 Arg2:T4	
+R9	Experiences Arg1:T34 Arg2:T24	
+R10	Has_Frequency Arg1:T24 Arg2:T49	
+R11	Experiences Arg1:T34 Arg2:T25	
+R12	Has_Frequency Arg1:T25 Arg2:T35	
+T50	Quantifier_or_Qualifier 524 536	convencional
+R13	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T50	
+T51	Neg_cue 819 821	no
+T52	Quantifier_or_Qualifier 822 831	comercial
+R14	Negation Arg1:T51 Arg2:T52	
+A1	Assertion T52 Negated
+R15	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T52	
+R16	Has_Age Arg1:T38 Arg2:T39	
+R17	Experiences Arg1:T38 Arg2:T14	
+R18	Location_of Arg1:T26 Arg2:T14	
+R19	Has_Duration_or_Interval Arg1:T14 Arg2:T40	
+T53	Quantifier_or_Qualifier 904 913	estadio 5
+R20	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T53	
+R21	Experiences Arg1:T38 Arg2:T27	
+R22	Experiences Arg1:T38 Arg2:T16	
+R23	Location_of Arg1:T28 Arg2:T16	
+R24	Location_of Arg1:T29 Arg2:T13	
+R25	Location_of Arg1:T29 Arg2:T15	
+R26	Location_of Arg1:T29 Arg2:T41	
+R27	Experiences Arg1:T38 Arg2:T10	
+R28	Experiences Arg1:T42 Arg2:T30	
+R29	Experiences Arg1:T38 Arg2:T13	
+R30	Experiences Arg1:T38 Arg2:T15	
+R32	Has_Frequency Arg1:T31 Arg2:T36	
+R33	Has_Frequency Arg1:T31 Arg2:T37	
+R34	Experiences Arg1:T44 Arg2:T31	
+R35	Experiences Arg1:T42 Arg2:T31	
+T54	Quantifier_or_Qualifier 1163 1173	progresiva
+R31	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T54	
+T55	Observation 1337 1347	morbilidad
+#40	AnnotatorNotes T55	C0026538; Morbidity - disease rate; Finding
+T56	CONC 1408 1423	calidad de vida
+#41	AnnotatorNotes T56	C0034380; Quality of life; Idea or Concept
+T57	CONC 1429 1439	eficiencia
+#42	AnnotatorNotes T57	C0013682; Efficiency; Quantitative Concept
+R36	Experiences Arg1:T48 Arg2:T21	
+R37	Experiences Arg1:T48 Arg2:T18	
+R38	Location_of Arg1:T29 Arg2:T10	
+T60	CONC 1288 1301	supervivencia
+#43	AnnotatorNotes T60	C0038955; survivorship; Temporal Concept
+R41	Overlap Arg1:T18 Arg2:T21	
+R42	Experiences Arg1:T43 Arg2:T31	
+R43	Experiences Arg1:T45 Arg2:T31	
+T58	CONC 1373 1392	parámetros clínicos
+#44	AnnotatorNotes T2	C1705187; Safety Study; Research Activity + C1707887; Efficacy Study; Research Activity
+#45	AnnotatorNotes T50	C0439858; Conventional; Qualitative Concept
+#46	AnnotatorNotes T54	C0205329; Progressive; Functional Concept
+#47	AnnotatorNotes T52	C0680536; commercial; Intellectual Product
+A2	Experiencer T32 Patient
+A3	Experiencer T33 Patient
+A4	Experiencer T34 Patient
+A5	Experiencer T38 Patient
+A6	Experiencer T43 Patient
+A7	Experiencer T45 Patient
+A8	Experiencer T44 Patient
+A9	Status T31 Future
+A10	Experiencer T48 Patient
+A11	Experiencer T42 Patient

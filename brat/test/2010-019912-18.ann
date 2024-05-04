@@ -1,0 +1,211 @@
+T1	PROC 47 116	Estudio randomizado, doble ciego, con grupos de tratamiento paralelos
+T2	CHEM 885 890	FAMEs
+#1	AnnotatorNotes T2	C0242708; Antirheumatic Drugs, Disease-Modifying; Pharmacologic Substance
+T3	PROC 123 143	evaluar la seguridad
+#2	AnnotatorNotes T3	C1705187; Safety Study; Research Activity
+T4	CHEM 186 197	tocilizumab
+#3	AnnotatorNotes T4	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	PROC 210 217	placebo
+#4	AnnotatorNotes T5	C0032042; Placebos; Therapeutic or Preventive Procedure
+T6	CHEM 240 295	fármacos antirreumáticos modificadores de la enfermedad
+#5	AnnotatorNotes T6	C0242708; Antirheumatic Drugs, Disease-Modifying; Pharmacologic Substance
+T7	DISO 336 355	artritis reumatoide
+#6	AnnotatorNotes T7	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T8	DISO 406 425	Artritis Reumatoide
+#7	AnnotatorNotes T8	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T9	DISO 427 429	AR
+#8	AnnotatorNotes T9	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T10	DISO 469 488	artritis reumatoide
+#9	AnnotatorNotes T10	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T11	PROC 539 571	tratamiento de forma ambulatoria
+T12	DISO 600 625	articulaciones inflamadas
+#10	AnnotatorNotes T12	C0003864; Arthritis; Disease or Syndrome
+T13	ANAT 666 680	articulaciones
+#11	AnnotatorNotes T13	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T14	DISO 687 711	articulaciones dolorosas
+#12	AnnotatorNotes T14	C0003862; Arthralgia; Sign or Symptom
+T15	ANAT 752 766	articulaciones
+#13	AnnotatorNotes T15	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T16	PROC 844 855	tratamiento
+#14	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 1001 1032	intervenciones de cirugía mayor
+T18	PROC 1209 1222	randomización
+T19	PROC 1045 1062	cirugía articular
+T20	PROC 1152 1164	intervención
+#15	AnnotatorNotes T20	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T21	DISO 1226 1257	Enfermedad reumática autoinmune
+T22	DISO 1270 1272	AR
+#16	AnnotatorNotes T22	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T23	DISO 1315 1345	síndrome de Sjögren secundario
+#17	AnnotatorNotes T23	C0151450; Secondary Sjögren's syndrome; Disease or Syndrome
+T24	DISO 1357 1359	AR
+#18	AnnotatorNotes T24	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T25	DISO 1456 1475	Artritis Reumatoide
+#19	AnnotatorNotes T25	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T26	DISO 1479 1506	Artritis idiopática juvenil
+#20	AnnotatorNotes T26	C3495559; Juvenile arthritis; Disease or Syndrome
+T27	DISO 1508 1511	AIJ
+#21	AnnotatorNotes T27	C3495559; Juvenile arthritis; Disease or Syndrome
+T28	DISO 1515 1542	artritis reumatoide juvenil
+#22	AnnotatorNotes T28	C3714757; Juvenile rheumatoid arthritis; Disease or Syndrome
+T29	DISO 1544 1547	ARJ
+#23	AnnotatorNotes T29	C3714757; Juvenile rheumatoid arthritis; Disease or Syndrome
+T30	DISO 1553 1555	AR
+#24	AnnotatorNotes T30	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T31	PROC 1556 1570	diagnosticadas
+#25	AnnotatorNotes T31	C0011900; Diagnosis; Diagnostic Procedure
+T32	DISO 1603 1636	Enfermedad articular inflamatoria
+T33	DISO 1649 1651	AR
+#26	AnnotatorNotes T33	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T34	CHEM 297 302	FAMEs
+#27	AnnotatorNotes T34	C0242708; Antirheumatic Drugs, Disease-Modifying; Pharmacologic Substance
+T35	ANAT 600 614	articulaciones
+#28	AnnotatorNotes T35	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T36	ANAT 687 701	articulaciones
+#29	AnnotatorNotes T36	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T37	ANAT 1053 1062	articular
+#30	AnnotatorNotes T37	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T38	ANAT 1614 1623	articular
+#31	AnnotatorNotes T38	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T39	Date 12 16	2010
+T40	Route 198 200	SC
+T41	Route 218 220	SC
+T42	LIVB 322 331	pacientes
+#32	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 811 820	pacientes
+#33	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Dose 860 877	una dosis estable
+T45	Duration 903 925	como mínimo, 8 semanas
+T46	LIVB 979 988	Pacientes
+#34	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Duration 1067 1080	las 8 semanas
+T48	Duration 1181 1192	los 6 meses
+T49	LIVB 1301 1310	pacientes
+#35	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T52	Age 1584 1591	16 años
+T53	Date 1652 1664	en el pasado
+T54	Date 1667 1683	en la actualidad
+T60	DISO 285 295	enfermedad
+#36	AnnotatorNotes T60	C0012634; Disease; Disease or Syndrome
+T61	Duration 492 515	mayor o igual a 6 meses
+T50	PROC 1436 1452	Estado Funcional
+#37	AnnotatorNotes T50	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T51	Neg_cue 1637 1648	distinta de
+T55	Neg_cue 1258 1269	distinta de
+T56	PROC 775 795	visitas de selección
+#38	AnnotatorNotes T56	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T57	PROC 1094 1113	visita de selección
+#39	AnnotatorNotes T57	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T58	PROC 938 944	visita
+#40	AnnotatorNotes T58	C1512346; Patient Visit; Health Care Activity
+T59	Quantifier_or_Qualifier 945 950	basal
+#41	AnnotatorNotes T59	C1442488; Baseline; Quantitative Concept
+T62	Quantifier_or_Qualifier 798 803	basal
+A1	Assertion T33 Negated
+A2	Status T17 History_of
+A3	Status T19 History_of
+A4	Assertion T22 Negated
+A5	Status T32 History_of
+A6	Status T33 History_of
+#43	AnnotatorNotes T1	C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C2826345; Parallel Study; Research Activity 
+#44	AnnotatorNotes T11	C0002423; ambulatory care services; Health Care Activity
+#45	AnnotatorNotes T40	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+#46	AnnotatorNotes T41	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+#47	AnnotatorNotes T17	C0679637; major surgery; Therapeutic or Preventive Procedure
+#48	AnnotatorNotes T19	C0185132; Operation on joint; Therapeutic or Preventive Procedure 
+#49	AnnotatorNotes T18	C0034656; Randomization; Research Activity
+#50	AnnotatorNotes T32	C0683381; inflammatory joint disease; Disease or Syndrome
+T63	PROC 775 782	visitas
+#42	AnnotatorNotes T63	C1512346; Patient Visit; Health Care Activity
+#51	AnnotatorNotes T62	C1442488; Baseline; Quantitative Concept
+R1	Negation Arg1:T55 Arg2:T22	
+R2	Negation Arg1:T51 Arg2:T33	
+T64	Observation 149 155	efecto
+#52	AnnotatorNotes T64	C1518681; Outcome of Therapy; Finding (?)
+R3	Causes Arg1:T4 Arg2:T64	
+R4	Has_Route_or_Mode Arg1:T4 Arg2:T40	
+R5	Has_Route_or_Mode Arg1:T5 Arg2:T41	
+R6	Combined_with Arg1:T5 Arg2:T6	
+R7	Combined_with Arg1:T5 Arg2:T34	
+R8	Experiences Arg1:T42 Arg2:T64	
+R9	Experiences Arg1:T42 Arg2:T4	
+R10	Experiences Arg1:T42 Arg2:T5	
+R11	Experiences Arg1:T42 Arg2:T7	
+R12	Has_Duration_or_Interval Arg1:T10 Arg2:T61	
+R13	Combined_with Arg1:T4 Arg2:T6	
+R14	Combined_with Arg1:T4 Arg2:T34	
+T65	Quantifier_or_Qualifier 363 380	moderada a severa
+#53	AnnotatorNotes T65	C1299393; Moderate to severe; Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T65	
+T66	Quantifier_or_Qualifier 356 362	activa
+#54	AnnotatorNotes T66	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T66	
+R17	Experiences Arg1:T42 Arg2:T60	
+R18	Causes Arg1:T5 Arg2:T64	
+T67	Quantifier_or_Qualifier 632 649	mayor o igual a 6
+R19	Location_of Arg1:T35 Arg2:T12	
+R20	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T67	
+R21	Location_of Arg1:T36 Arg2:T14	
+R22	Location_of Arg1:T13 Arg2:T12	
+R23	Location_of Arg1:T13 Arg2:T14	
+T68	Quantifier_or_Qualifier 718 735	mayor o igual a 8
+R24	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T68	
+R25	Location_of Arg1:T15 Arg2:T14	
+R26	Location_of Arg1:T15 Arg2:T12	
+R27	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T62	
+R28	Overlap Arg1:T12 Arg2:T56	
+R29	Overlap Arg1:T12 Arg2:T63	
+R30	Overlap Arg1:T14 Arg2:T63	
+R31	Overlap Arg1:T14 Arg2:T56	
+R32	Experiences Arg1:T43 Arg2:T16	
+R33	Used_for Arg1:T2 Arg2:T16	
+R34	Has_Dose_or_Strength Arg1:T2 Arg2:T44	
+R35	Has_Duration_or_Interval Arg1:T2 Arg2:T45	
+R36	Before Arg1:T16 Arg2:T58	
+R37	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T59	
+T69	Quantifier_or_Qualifier 891 901	permitidos
+R38	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T69	
+R39	Experiences Arg1:T46 Arg2:T17	
+R40	Experiences Arg1:T46 Arg2:T19	
+R41	Location_of Arg1:T37 Arg2:T19	
+R42	Overlap Arg1:T17 Arg2:T47	
+R43	Overlap Arg1:T19 Arg2:T47	
+R44	Before Arg1:T19 Arg2:T57	
+R45	Before Arg1:T17 Arg2:T57	
+R46	Experiences Arg1:T46 Arg2:T20	
+T70	Quantifier_or_Qualifier 1127 1135	previsto
+#55	AnnotatorNotes T70	C1301732; Planned; Functional Concept
+R47	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T70	
+R48	Overlap Arg1:T20 Arg2:T48	
+R49	After Arg1:T20 Arg2:T18	
+#56	AnnotatorNotes T21	C1328842; autoimmune rheumatologic disease; Disease or Syndrome
+R50	Experiences Arg1:T49 Arg2:T23	
+R51	Overlap Arg1:T23 Arg2:T24	
+R52	Experiences Arg1:T49 Arg2:T24	
+T71	CONC 1410 1431	Clasificación del ACR
+#57	AnnotatorNotes T71	C4055474; American College of Rheumatology Classification Criteria for Juvenile Rheumatoid Arthritis; Intellectual Product
+R53	Used_for Arg1:T71 Arg2:T50	
+T72	Result_or_Value 1363 1381	Clase funcional IV
+R54	Has_Result_or_Value Arg1:T71 Arg2:T72	
+R56	Before Arg1:T26 Arg2:T52	
+R57	Before Arg1:T27 Arg2:T52	
+R58	Before Arg1:T28 Arg2:T52	
+R59	Before Arg1:T29 Arg2:T52	
+R60	Before Arg1:T30 Arg2:T52	
+R61	Before Arg1:T31 Arg2:T52	
+R62	Location_of Arg1:T38 Arg2:T32	
+R63	Overlap Arg1:T32 Arg2:T53	
+R64	Overlap Arg1:T32 Arg2:T54	
+R65	Overlap Arg1:T33 Arg2:T53	
+R66	Overlap Arg1:T33 Arg2:T54	
+R67	Overlap Arg1:T12 Arg2:T14	
+R68	Experiences Arg1:T43 Arg2:T58	
+#58	AnnotatorNotes T69	C0205540; Approved; Qualitative Concept (?)
+R69	Experiences Arg1:T46 Arg2:T57	
+#59	AnnotatorNotes T53	C1444637; In the past; Temporal Concept
+#60	AnnotatorNotes T54	C0521116; Current (present time); Temporal Concept
+A7	Experiencer T42 Patient
+A8	Experiencer T43 Patient
+A9	Experiencer T46 Patient
+A10	Status T20 Future
+A11	Experiencer T49 Patient

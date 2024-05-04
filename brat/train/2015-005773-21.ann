@@ -1,0 +1,128 @@
+T1	PROC 69 84	cirugía de mama
+#1	AnnotatorNotes T1	C3714726; Operation on breast; Therapeutic or Preventive Procedure
+T2	PROC 97 112	anestesia local
+#2	AnnotatorNotes T2	C0002921; Local anesthesia; Therapeutic or Preventive Procedure
+T3	PROC 116 143	bloqueo del músculo serrato
+T4	PROC 178 215	bloqueo del plano del músculo serrato
+#3	AnnotatorNotes T4	C4075523; Local anesthetic serratus plane block; Therapeutic or Preventive Procedure
+T5	ANAT 200 215	músculo serrato
+T6	CHEM 267 275	opioides
+#4	AnnotatorNotes T6	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T7	PROC 279 294	cirugía de mama
+#5	AnnotatorNotes T7	C3714726; Operation on breast; Therapeutic or Preventive Procedure
+T8	PROC 341 386	cirugía oncológica y/o reconstructiva de mama
+T9	ANAT 786 808	estructuras anatómicas
+#6	AnnotatorNotes T9	C0700276; Anatomic structures; Anatomical Structure
+T10	ANAT 382 386	mama
+#7	AnnotatorNotes T10	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T11	PROC 455 500	cirugía oncológica y/o reconstructiva de mama
+T12	ANAT 496 500	mama
+#8	AnnotatorNotes T12	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T13	PROC 518 541	intervención quirúrgica
+#9	AnnotatorNotes T13	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T14	PROC 552 559	ingreso
+#10	AnnotatorNotes T14	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T15	DISO 672 688	Obesidad mórbida
+#11	AnnotatorNotes T15	C0028756; Morbid obesity; Disease or Syndrome
+T16	PROC 754 764	ecográfica
+T17	ANAT 861 876	músculo serrato
+T18	ANAT 879 887	pectoral
+#12	AnnotatorNotes T18	C0030747; Pectoralis Muscles; Body Part, Organ, or Organ Component
+T19	PROC 892 903	Tratamiento
+#13	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	PROC 929 936	cirugía
+#14	AnnotatorNotes T20	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T21	DISO 940 983	Sepsis y/o infección en el punto de punción
+T22	ANAT 967 983	punto de punción
+T23	DISO 987 1014	Trastornos de la hemostasia
+#15	AnnotatorNotes T23	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T24	DISO 1018 1025	Alergia
+#16	AnnotatorNotes T24	C1527304; Allergic Reaction; Pathologic Function
+T25	CHEM 1043 1051	fármacos
+#17	AnnotatorNotes T25	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T26	DISO 58 63	dolor
+#18	AnnotatorNotes T26	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T27	ANAT 80 84	mama
+#19	AnnotatorNotes T27	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T28	ANAT 128 143	músculo serrato
+T29	DISO 245 250	dolor
+#20	AnnotatorNotes T29	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T30	ANAT 290 294	mama
+#21	AnnotatorNotes T30	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T31	DISO 506 515	patología
+#22	AnnotatorNotes T31	C0677042; Pathology processes; Pathologic Function
+T32	PROC 690 713	Índice de masa corporal
+#23	AnnotatorNotes T32	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T33	ANAT 705 713	corporal
+#24	AnnotatorNotes T33	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T34	CHEM 908 916	opiáceos
+#25	AnnotatorNotes T34	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T35	PROC 976 983	punción
+#26	AnnotatorNotes T35	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T36	Date 13 17	2015
+T39	LIVB 319 328	Pacientes
+#27	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 413 422	Pacientes
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Age 423 441	mayores de 18 años
+T42	Duration 563 580	al menos 24 horas
+T43	LIVB 607 616	Pacientes
+#29	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T50	PHYS 1004 1014	hemostasia
+#30	AnnotatorNotes T50	C0019116; Hemostatic function; Organ or Tissue Function
+T37	PROC 660 663	ASA
+#31	AnnotatorNotes T37	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Status T19 History_of
+A2	Status T34 History_of
+A3	Status T24 History_of
+T38	Neg_cue 810 812	no
+T44	Observation 822 854	distinguir el plano interfascial
+A4	Assertion T44 Negated
+T45	Neg_cue 722 738	Imposibilidad de
+#32	AnnotatorNotes T16	C0041618; Ultrasonography; Diagnostic Procedure
+T46	Observation 739 778	identificación ecográfica satisfactoria
+A5	Assertion T46 Negated
+T47	Result_or_Value 714 717	>40
+R1	Location_of Arg1:T33 Arg2:T32	
+R2	Has_Result_or_Value Arg1:T32 Arg2:T47	
+R3	After Arg1:T26 Arg2:T1	
+R4	Location_of Arg1:T27 Arg2:T1	
+R5	Before Arg1:T2 Arg2:T1	
+R6	Before Arg1:T3 Arg2:T1	
+R7	Location_of Arg1:T28 Arg2:T3	
+R8	Location_of Arg1:T5 Arg2:T4	
+R9	Causes Arg1:T7 Arg2:T29	
+R10	Location_of Arg1:T30 Arg2:T7	
+R11	Before Arg1:T4 Arg2:T7	
+R12	Experiences Arg1:T39 Arg2:T8	
+R13	Location_of Arg1:T10 Arg2:T8	
+R14	Has_Age Arg1:T40 Arg2:T41	
+R15	Location_of Arg1:T12 Arg2:T11	
+R16	Before Arg1:T14 Arg2:T13	
+R17	Has_Duration_or_Interval Arg1:T14 Arg2:T42	
+R18	Experiences Arg1:T40 Arg2:T11	
+R19	Experiences Arg1:T40 Arg2:T31	
+R21	Experiences Arg1:T40 Arg2:T13	
+R22	Experiences Arg1:T40 Arg2:T14	
+T48	Result_or_Value 664 668	≥ IV
+R25	Has_Result_or_Value Arg1:T37 Arg2:T48	
+R26	Experiences Arg1:T43 Arg2:T37	
+R27	Negation Arg1:T45 Arg2:T46	
+R28	Location_of Arg1:T9 Arg2:T16	
+R29	Negation Arg1:T38 Arg2:T44	
+R30	Location_of Arg1:T17 Arg2:T44	
+R31	Location_of Arg1:T18 Arg2:T44	
+R32	Used_for Arg1:T34 Arg2:T19	
+R33	Before Arg1:T19 Arg2:T20	
+R34	Before Arg1:T35 Arg2:T21	
+#33	AnnotatorNotes T22	C0229986; Application site; Anatomical Structure
+R35	Location_of Arg1:T22 Arg2:T21	
+R36	Location_of Arg1:T22 Arg2:T35	
+R38	Causes Arg1:T25 Arg2:T24	
+#34	AnnotatorNotes T3	C5235443; Serratus Plane Block; Therapeutic or Preventive Procedure
+#35	AnnotatorNotes T5	C0224349; Structure of serratus anterior muscle; Body Part, Organ, or Organ Component (?) | C1305026; Entire serratus anterior muscle; Body Part, Organ, or Organ Component (?)
+#36	AnnotatorNotes T28	C0224349; Structure of serratus anterior muscle; Body Part, Organ, or Organ Component (?) | C1305026; Entire serratus anterior muscle; Body Part, Organ, or Organ Component (?)
+#37	AnnotatorNotes T17	C0224349; Structure of serratus anterior muscle; Body Part, Organ, or Organ Component (?) | C1305026; Entire serratus anterior muscle; Body Part, Organ, or Organ Component (?)
+A6	Experiencer T39 Patient
+A7	Experiencer T40 Patient
+A8	Experiencer T43 Patient

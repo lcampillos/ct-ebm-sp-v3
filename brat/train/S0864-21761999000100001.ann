@@ -1,0 +1,53 @@
+T1	DISO 32 68	glaucoma primario de ángulo estrecho
+#1	AnnotatorNotes T1	C0017606; Primary angle-closure glaucoma; Disease or Syndrome (?)
+T2	DISO 144 180	glaucoma primario de ángulo estrecho
+#2	AnnotatorNotes T2	C0017606; Primary angle-closure glaucoma; Disease or Syndrome (?)
+T3	PROC 195 209	ensayo clínico
+#3	AnnotatorNotes T3	C0008976; Clinical Trials; Research Activity
+T4	ANAT 228 232	ojos
+#4	AnnotatorNotes T4	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T5	DISO 242 252	enfermedad
+#5	AnnotatorNotes T5	C0012634; Disease; Disease or Syndrome
+T6	PROC 305 317	ecobiometría
+#6	AnnotatorNotes T6	C0412515; Ophthalmic biometry by ultrasound echography, A-mode; Diagnostic Procedure
+T7	ANAT 452 467	cámara anterior
+#7	AnnotatorNotes T7	C0003151; Anterior chamber of eye structure; Body Part, Organ, or Organ Component
+T8	ANAT 509 519	cristalino
+#8	AnnotatorNotes T8	C0023317; Lens, Crystalline; Body Part, Organ, or Organ Component | C1278892; Entire lens; Body Part, Organ, or Organ Component
+T9	ANAT 558 573	cámara anterior
+#9	AnnotatorNotes T9	C0003151; Anterior chamber of eye structure; Body Part, Organ, or Organ Component
+T10	DISO 639 653	glaucoma agudo
+#10	AnnotatorNotes T10	C0281773; Acute glaucoma; Disease or Syndrome
+T11	PROC 659 681	análisis ecobiométrico
+#11	AnnotatorNotes T11	C0412515; Ophthalmic biometry by ultrasound echography, A-mode; Diagnostic Procedure
+T12	ANAT 729 732	ojo
+#12	AnnotatorNotes T12	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T13	PROC 750 773	orientación terapéutica
+T14	PROC 13 25	ecobiometría
+#13	AnnotatorNotes T14	C0412515; Ophthalmic biometry by ultrasound echography, A-mode; Diagnostic Procedure
+T15	PROC 101 113	ecobiometría
+#14	AnnotatorNotes T15	C0412515; Ophthalmic biometry by ultrasound echography, A-mode; Diagnostic Procedure
+T16	PROC 270 287	gonioscópicamente
+#15	AnnotatorNotes T16	C0018071; Gonioscopy; Diagnostic Procedure
+T19	Spec_cue 607 613	riesgo
+T17	PROC 434 467	profundidad de la cámara anterior
+#16	AnnotatorNotes T17	C2069970; examination of anterior chamber of eye; Health Care Activity
+T18	PROC 540 573	profundidad de la cámara anterior
+#17	AnnotatorNotes T18	C2069970; examination of anterior chamber of eye; Health Care Activity
+A1	Assertion T10 Speculated
+R3	Location_of Arg1:T4 Arg2:T5	
+R4	Location_of Arg1:T4 Arg2:T16	
+R6	Location_of Arg1:T7 Arg2:T17	
+T20	CONC 498 519	grosor del cristalino
+T21	CONC 388 406	amplitud de ángulo
+T22	CONC 414 428	distancia axil
+R7	Location_of Arg1:T9 Arg2:T18	
+R8	Speculation Arg1:T19 Arg2:T10	
+T23	Quantifier_or_Qualifier 602 606	alto
+#18	AnnotatorNotes T23	C0205250; High; Qualitative Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T23	
+R12	Before Arg1:T11 Arg2:T13	
+R13	Location_of Arg1:T12 Arg2:T11	
+T24	Observation 602 613	alto riesgo
+#19	AnnotatorNotes T24	C4319571; High risk; Finding
+R1	Before Arg1:T24 Arg2:T10	

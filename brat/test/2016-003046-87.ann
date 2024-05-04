@@ -1,0 +1,88 @@
+T1	PROC 46 75	Estudio multicéntrico abierto
+T2	PROC 81 112	evaluar la seguridad y eficacia
+T3	PROC 134 162	tratamiento de mantenimiento
+#1	AnnotatorNotes T3	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T4	DISO 169 188	psoriasis en placas
+#2	AnnotatorNotes T4	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T5	PROC 231 252	Estudio multicéntrico
+#3	AnnotatorNotes T5	C1096776; Multicenter Study; Research Activity
+T6	PROC 266 300	evaluar la seguridad y la eficacia
+#4	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T7	PROC 322 350	tratamiento de mantenimiento
+#5	AnnotatorNotes T7	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T8	DISO 357 376	psoriasis en placas
+#6	AnnotatorNotes T8	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T9	DISO 437 446	psoriasis
+#7	AnnotatorNotes T9	C0033860; Psoriasis; Disease or Syndrome
+T10	DISO 454 477	enfermedad inflamatoria
+T11	ANAT 487 501	Sistema inmune
+#8	AnnotatorNotes T11	C0020962; Immune system; Body System | C1305754; Entire immune system; Body System
+T12	ANAT 513 517	piel
+#9	AnnotatorNotes T12	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T13	ANAT 541 550	escamosos
+#10	AnnotatorNotes T13	C0221909; Squamous epithelium; Tissue
+T14	ANAT 563 567	piel
+#11	AnnotatorNotes T14	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T15	DISO 595 604	Psoriasis
+#12	AnnotatorNotes T15	C0033860; Psoriasis; Disease or Syndrome
+T16	DISO 654 681	psoriasis en placas crónica
+T17	CHEM 116 128	risankizumab
+#13	AnnotatorNotes T17	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T18	CHEM 878 890	risankizumab
+#14	AnnotatorNotes T18	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T19	PROC 843 873	tratamiento abierto prolongado
+T20	CHEM 304 316	risankizumab
+#15	AnnotatorNotes T20	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T21	DISO 533 567	parches escamosos rojos en la piel
+T22	Date 13 17	2016
+T25	LIVB 634 649	Sujetos adultos
+#16	AnnotatorNotes T25	C0681850; Study Subject; Group + C0001675; Adult; Age Group
+T26	Duration 674 681	crónica
+#17	AnnotatorNotes T26	C0205191; chronic; Temporal Concept
+T27	LIVB 806 813	sujetos
+#18	AnnotatorNotes T27	C0681850; Study Subject; Group
+T28	LIVB 911 923	investigador
+#19	AnnotatorNotes T28	C0035173; Research Personnel; Professional or Occupational Group
+A1	Population_data T25 Age
+#20	AnnotatorNotes T1	C1096776; Multicenter Study; Research Activity + C1709323; Open Label Study; Research Activity 
+#21	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#22	AnnotatorNotes T10	C1290884; Inflammatory disorder; Disease or Syndrome 
+R1	Used_for Arg1:T17 Arg2:T3	
+T23	Quantifier_or_Qualifier 192 208	moderada a grave
+#23	AnnotatorNotes T23	C1299393; Moderate to severe; Qualitative Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T23	
+T24	Quantifier_or_Qualifier 380 396	moderada a grave
+R3	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T24	
+R5	Location_of Arg1:T12 Arg2:T10	
+R6	Location_of Arg1:T12 Arg2:T9	
+R4	Location_of Arg1:T14 Arg2:T21	
+R7	Location_of Arg1:T12 Arg2:T21	
+R8	Location_of Arg1:T14 Arg2:T10	
+R9	Location_of Arg1:T14 Arg2:T9	
+R10	Causes Arg1:T9 Arg2:T21	
+R11	Experiences Arg1:T25 Arg2:T16	
+R12	Has_Duration_or_Interval Arg1:T16 Arg2:T26	
+T29	Quantifier_or_Qualifier 685 701	moderada a grave
+#24	AnnotatorNotes T24	C1299393; Moderate to severe; Qualitative Concept
+#25	AnnotatorNotes T29	C1299393; Moderate to severe; Qualitative Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T29	
+T30	Observation 712 742	completado uno de los estudios
+A2	Status T30 History_of
+R14	Experiences Arg1:T27 Arg2:T19	
+R15	Used_for Arg1:T18 Arg2:T19	
+T31	Observation 954 979	Discontinuación prematura
+#26	AnnotatorNotes T31	C0422727; Patient withdrawn from trial; Finding (?)
+T32	PROC 1006 1013	estudio
+A3	Status T32 History_of
+#27	AnnotatorNotes T32	C0008976; Clinical Trials; Research Activity
+R16	Overlap Arg1:T31 Arg2:T32	
+R17	Used_for Arg1:T20 Arg2:T7	
+T33	Quantifier_or_Qualifier 518 522	sana
+#28	AnnotatorNotes T33	C3898900; Healthy; Qualitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T33	
+#29	AnnotatorNotes T30	C2732579; Completion of clinical trial; Finding
+A4	Experiencer T25 Patient
+A5	Experiencer T27 Patient
+A6	Experiencer T28 Other
+A7	Status T18 Future
+A8	Status T19 Future

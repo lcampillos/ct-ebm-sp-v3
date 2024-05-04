@@ -1,0 +1,196 @@
+T1	PROC 75 99	TRASPLANTE DE CÉLULAS NK
+T2	ANAT 89 99	CÉLULAS NK
+#1	AnnotatorNotes T2	C0022688; Natural Killer Cells; Cell
+T3	CHEM 128 133	IL-15
+#2	AnnotatorNotes T3	C0254610; Interleukin-15; Amino Acid, Peptide, or Protein · Immunologic Factor
+T4	DISO 152 166	LEUCEMIA AGUDA
+#3	AnnotatorNotes T4	C0085669; Acute leukemia; Neoplastic Process
+T5	PROC 197 221	TRASPLANTE HAPLOIDÉNTICO
+#4	AnnotatorNotes T5	C4527425; Haploidentical Hematopoietic Cell Transplantation; Therapeutic or Preventive Procedure
+T6	PROC 258 318	ENSAYO CLÍNICO FASE I/II, UNICÉNTRICO, CON CONTROL HISTÓRICO
+T7	PROC 325 344	EVALUAR LA EFICACIA
+#5	AnnotatorNotes T7	C1707887; Efficacy Study; Research Activity
+T8	PROC 365 389	TRASPLANTE DE CÉLULAS NK
+T9	ANAT 379 389	CÉLULAS NK
+#6	AnnotatorNotes T9	C0022688; Natural Killer Cells; Cell
+T10	CHEM 418 423	IL-15
+#7	AnnotatorNotes T10	C0254610; Interleukin-15; Amino Acid, Peptide, or Protein · Immunologic Factor
+T11	DISO 442 456	LEUCEMIA AGUDA
+#8	AnnotatorNotes T11	C0085669; Acute leukemia; Neoplastic Process
+T12	PROC 487 511	TRASPLANTE HAPLOIDÉNTICO
+#9	AnnotatorNotes T12	C4527425; Haploidentical Hematopoietic Cell Transplantation; Therapeutic or Preventive Procedure
+T13	DISO 549 572	Leucemia aguda mieloide
+#10	AnnotatorNotes T13	C0023467; Leukemia, Myelocytic, Acute; Neoplastic Process
+T14	PROC 658 669	diagnóstico
+#11	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	DISO 673 696	leucemia aguda mieloide
+#12	AnnotatorNotes T15	C0023467; Leukemia, Myelocytic, Acute; Neoplastic Process
+T16	PROC 725 749	trasplante haploidéntico
+#13	AnnotatorNotes T16	C4527425; Haploidentical Hematopoietic Cell Transplantation; Therapeutic or Preventive Procedure
+T17	DISO 790 808	enfermedad medible
+#14	AnnotatorNotes T17	C1513041; Measurable Disease; Disease or Syndrome
+T18	PROC 813 857	técnicas analíticas, moleculares o de imagen
+T19	DISO 872 884	comorbilidad
+#15	AnnotatorNotes T19	C1275743; Co-morbid conditions; Finding
+T20	PROC 1069 1082	Serología HIV
+T21	DISO 1110 1128	proceso infeccioso
+#16	AnnotatorNotes T21	C0745283; INFECTIOUS PROCESS; Pathologic Function
+T22	DISO 1143 1167	estado médico subyacente
+T23	DISO 1225 1248	enfermedad psiquiátrica
+#17	AnnotatorNotes T23	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T24	PROC 1377 1401	estudios de intervención
+#18	AnnotatorNotes T24	C3274035; Interventional Study; Research Activity
+T25	PROC 61 69	INFUSIÓN
+#19	AnnotatorNotes T25	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T26	PROC 918 942	consentimiento informado
+#20	AnnotatorNotes T26	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T27	PROC 351 359	INFUSIÓN
+#21	AnnotatorNotes T27	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T28	ANAT 564 572	mieloide
+#22	AnnotatorNotes T28	C0229619; Hemopoietic tissue; Tissue
+T29	ANAT 688 696	mieloide
+#23	AnnotatorNotes T29	C0229619; Hemopoietic tissue; Tissue
+T30	Date 13 17	2016
+T32	LIVB 104 111	DONANTE
+#24	AnnotatorNotes T32	C2191327; donor of organ or tissue; Patient or Disabled Group
+T33	LIVB 138 147	PACIENTES
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 301 318	CONTROL HISTÓRICO
+T37	LIVB 394 401	DONANTE
+#26	AnnotatorNotes T37	C2191327; donor of organ or tissue; Patient or Disabled Group
+T38	LIVB 428 437	PACIENTES
+#27	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 617 625	Paciente
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Age 626 644	mayores de 18 años
+T43	LIVB 1004 1011	donante
+#29	AnnotatorNotes T43	C2191327; donor of organ or tissue; Patient or Disabled Group
+T45	LIVB 1079 1082	HIV
+#30	AnnotatorNotes T45	C0019682; HIV; Virus
+T46	LIVB 1096 1105	Pacientes
+#31	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1277 1289	investigador
+#32	AnnotatorNotes T47	C0035173; Research Personnel; Professional or Occupational Group
+T48	LIVB 1301 1307	sujeto
+#33	AnnotatorNotes T48	C0681850; Study Subject; Group
+T49	LIVB 1336 1345	Pacientes
+#34	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Date 1405 1418	el último mes
+T51	LIVB 1423 1466	Mujeres gestantes o en periodo de lactancia
+#35	AnnotatorNotes T51	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T52	PHYS 1457 1466	lactancia
+#36	AnnotatorNotes T52	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T31	PHYS 1431 1440	gestantes
+#37	AnnotatorNotes T31	C0032961; Pregnancy; Organism Function
+A1	Status T24 History_of
+#38	AnnotatorNotes T35	C2986415; Historical Control Subject; Population Group
+#39	AnnotatorNotes T20	C0459958; HIV Screen; Laboratory Procedure
+R1	After Arg1:T25 Arg2:T1	
+R3	Before Arg1:T3 Arg2:T1	
+R4	Experiences Arg1:T33 Arg2:T1	
+R5	Experiences Arg1:T33 Arg2:T25	
+R7	Experiences Arg1:T33 Arg2:T4	
+R8	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T44	
+T36	Quantifier_or_Qualifier 225 235	MANIPULADO
+A2	Assertion T36 Negated
+R9	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T36	
+T39	Neg_cue 222 224	NO
+R10	Negation Arg1:T39 Arg2:T36	
+R11	Experiences Arg1:T33 Arg2:T5	
+R6	After Arg1:T27 Arg2:T8	
+R13	Before Arg1:T10 Arg2:T8	
+R14	Experiences Arg1:T38 Arg2:T11	
+R15	Experiences Arg1:T38 Arg2:T8	
+R16	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T53	
+T44	Observation 170 184	MAL PRONÓSTICO
+#40	AnnotatorNotes T44	C0278252; Prognosis bad; Finding
+T53	Observation 460 474	MAL PRONÓSTICO
+#41	AnnotatorNotes T53	C0278252; Prognosis bad; Finding
+T54	Neg_cue 512 514	NO
+T55	Quantifier_or_Qualifier 515 525	MANIPULADO
+A3	Assertion T55 Negated
+R17	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T55	
+R18	Negation Arg1:T54 Arg2:T55	
+R19	Experiences Arg1:T38 Arg2:T12	
+R20	Experiences Arg1:T38 Arg2:T53	
+R21	Experiences Arg1:T33 Arg2:T44	
+T56	Observation 576 587	alto riesgo
+R22	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T56	
+R23	Location_of Arg1:T28 Arg2:T13	
+R24	Has_Age Arg1:T40 Arg2:T41	
+R25	Location_of Arg1:T29 Arg2:T15	
+R27	Experiences Arg1:T40 Arg2:T15	
+T57	Quantifier_or_Qualifier 753 763	manipulado
+A4	Assertion T57 Negated
+T58	Neg_cue 750 752	no
+R28	Negation Arg1:T58 Arg2:T57	
+R29	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T57	
+R31	Experiences Arg1:T40 Arg2:T16	
+T59	Result_or_Value 895 905	menor de 6
+T60	CONC 862 894	Índice de comorbilidad de Sorror
+R32	Has_Result_or_Value Arg1:T60 Arg2:T59	
+T61	Result_or_Value 1083 1091	positiva
+R33	Has_Result_or_Value Arg1:T20 Arg2:T61	
+R34	Experiences Arg1:T46 Arg2:T21	
+R35	Experiences Arg1:T46 Arg2:T22	
+T62	Quantifier_or_Qualifier 1168 1173	grave
+R36	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T62	
+T63	Observation 1188 1202	proceso médico
+#42	AnnotatorNotes T63	C4745084; Medical Condition; Finding
+T64	Observation 1204 1222	anomalía analítica
+#43	AnnotatorNotes T64	C3648370; laboratory tests nonspecific abnormal findings; Finding
+T65	Quantifier_or_Qualifier 1249 1259	importante
+R37	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T65	
+R38	Experiences Arg1:T48 Arg2:T23	
+R39	Experiences Arg1:T48 Arg2:T64	
+R40	Experiences Arg1:T48 Arg2:T63	
+T66	Neg_cue 1291 1297	impida
+T67	Observation 1308 1332	participar en el estudio
+A5	Assertion T67 Negated
+#44	AnnotatorNotes T67	C1278516; Patient participation status; Finding (?)
+R41	Negation Arg1:T66 Arg2:T67	
+R42	Overlap Arg1:T24 Arg2:T50	
+R43	Experiences Arg1:T51 Arg2:T52	
+R44	Experiences Arg1:T51 Arg2:T31	
+R45	Experiences Arg1:T35 Arg2:T27	
+R46	Experiences Arg1:T35 Arg2:T8	
+R47	Experiences Arg1:T35 Arg2:T11	
+R48	Experiences Arg1:T35 Arg2:T53	
+R49	Experiences Arg1:T35 Arg2:T12	
+T68	CONC 1016 1038	criterios de exclusión
+A6	Assertion T68 Negated
+#45	AnnotatorNotes T68	C0680251; Exclusion Criteria; Functional Concept
+T69	Neg_cue 1012 1015	sin
+R50	Negation Arg1:T69 Arg2:T68	
+T70	Observation 1004 1038	donante sin criterios de exclusión
+#46	AnnotatorNotes T70	C2585138; Eligible to be a donor; Finding (?)
+#47	AnnotatorNotes T61	C1446409; Positive; Finding
+R52	Experiences Arg1:T38 Arg2:T27	
+T34	Quantifier_or_Qualifier 1129 1135	activo
+#48	AnnotatorNotes T34	C0679217; Active State; Idea or Concept 
+R53	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T34	
+T42	Observation 1350 1401	hayan participado en otros estudios de intervención
+R54	Experiences Arg1:T49 Arg2:T42	
+R55	Overlap Arg1:T42 Arg2:T50	
+R2	After Arg1:T25 Arg2:T5	
+R12	After Arg1:T27 Arg2:T12	
+#50	AnnotatorNotes T56	C4319571; High risk; Finding
+#51	AnnotatorNotes T62	C1547227; Severe - Severity of Illness Code; Intellectual Product
+#52	AnnotatorNotes T65	C3898777; Important; Qualitative Concept
+R26	Before Arg1:T63 Arg2:T67	
+R30	Before Arg1:T64 Arg2:T67	
+R51	Before Arg1:T23 Arg2:T67	
+A7	Experiencer T51 Patient
+A8	Experiencer T49 Patient
+A9	Experiencer T47 Other
+A10	Experiencer T48 Patient
+A11	Experiencer T46 Patient
+A12	Experiencer T43 Other
+A13	Experiencer T40 Patient
+A14	Experiencer T37 Other
+A15	Experiencer T38 Patient
+A16	Experiencer T35 Patient
+A17	Experiencer T32 Other
+A18	Experiencer T33 Patient
+A19	Status T16 Future
+A20	Status T57 Future

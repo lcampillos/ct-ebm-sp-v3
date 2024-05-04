@@ -1,0 +1,164 @@
+T1	PROC 1051 1079	en forma ciega y randomizada
+#1	AnnotatorNotes T1	C0150108; Blinded; Research Activity + C0034656; Randomization; Research Activity
+T2	CHEM 1 46	Factor estimulante de colonias granulocíticas
+#2	AnnotatorNotes T2	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T3	PROC 50 60	prevención
+#3	AnnotatorNotes T3	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T4	LIVB 86 95	prematuro
+#4	AnnotatorNotes T4	C4048294; Preterm Infant; Age Group
+T5	PROC 97 140	estudio doble ciego randomizado, controlado
+#5	AnnotatorNotes T5	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T6	DISO 183 206	infecciones bacterianas
+#6	AnnotatorNotes T6	C0004623; Bacterial Infections; Disease or Syndrome
+T7	DISO 246 257	neutropenia
+#7	AnnotatorNotes T7	C0027947; Neutropenia; Disease or Syndrome | C0853697; Neutrophil count decreased; Finding
+T8	PROC 1102 1109	al azar
+#8	AnnotatorNotes T8	C0034656; Randomization; Research Activity
+T9	LIVB 432 441	prematuro
+#9	AnnotatorNotes T9	C4048294; Preterm Infant; Age Group
+T10	DISO 498 507	infección
+#10	AnnotatorNotes T10	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T11	CHEM 558 603	factor estimulante de colonias granulocíticas
+#11	AnnotatorNotes T11	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T12	PROC 652 674	evaluación prospectiva
+#12	AnnotatorNotes T12	C0033522; Prospective Studies; Research Activity
+T13	CHEM 693 700	rH-GCSF
+#13	AnnotatorNotes T13	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T14	PROC 704 714	prevención
+#14	AnnotatorNotes T14	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T15	PROC 932 943	tratamiento
+#15	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	CHEM 981 988	rH-GCSF
+#16	AnnotatorNotes T16	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T17	DISO 1138 1148	infecciosa
+#17	AnnotatorNotes T17	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T18	PROC 1337 1347	prevención
+#18	AnnotatorNotes T18	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T19	ANAT 32 46	granulocíticas
+#19	AnnotatorNotes T19	C0018183; granulocyte; Cell
+T20	DISO 64 81	sepsis nosocomial
+#20	AnnotatorNotes T20	C1096454; Nosocomially acquired neonatal sepsis; Disease or Syndrome
+T21	LIVB 145 158	recién nacido
+#21	AnnotatorNotes T21	C0021289; Infant, Newborn; Age Group
+T23	ANAT 589 603	granulocíticas
+#22	AnnotatorNotes T23	C0018183; granulocyte; Cell
+T24	DISO 718 735	sepsis nosocomial
+#23	AnnotatorNotes T24	C1096454; Nosocomially acquired neonatal sepsis; Disease or Syndrome
+T25	DISO 791 801	pretérmino
+#24	AnnotatorNotes T25	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T26	DISO 882 899	infección clínica
+#25	AnnotatorNotes T26	C0275521; Clinical infection; Disease or Syndrome
+T27	DISO 1351 1385	sepsis de origen intrahospitalario
+#26	AnnotatorNotes T27	C1096454; Nosocomially acquired neonatal sepsis; Disease or Syndrome
+T29	Spec_cue 219 230	pueden o no
+T32	PHYS 347 357	fagocítico
+#27	AnnotatorNotes T32	C0031308; Phagocytosis; Cell Function
+T34	LIVB 738 747	Pacientes
+#28	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 776 801	recién nacidos pretérmino
+#29	AnnotatorNotes T35	C4048294; Preterm Infant; Age Group
+T36	Duration 805 824	menos de 32 semanas
+T38	Neg_cue 872 881	libres de
+T39	Frequency 944 950	diario
+T40	Duration 955 976	un período de 15 días
+T41	Duration 1004 1016	las 72 horas
+T42	Spec_cue 1155 1165	sospechada
+T44	Neg_cue 1310 1312	no
+T46	LIVB 195 206	bacterianas
+#30	AnnotatorNotes T46	C0004611; Bacteria; Bacterium
+T48	ANAT 358 368	neutrófilo
+#31	AnnotatorNotes T48	C0027950; neutrophil; Cell
+T22	PROC 828 844	edad gestacional
+#32	AnnotatorNotes T22	C4040272; Assessment of fetal gestational age; Health Care Activity
+T28	PHYS 833 844	gestacional
+#33	AnnotatorNotes T28	C0032961; Pregnancy; Organism Function
+T30	PROC 847 851	peso
+#34	AnnotatorNotes T30	C2985231; Body Weight Measurement; Diagnostic Procedure
+A1	Assertion T7 Speculated
+A2	Population_data T35 Age
+A3	Assertion T26 Negated
+A4	Assertion T18 Negated
+A5	Assertion T17 Speculated
+A6	Population_data T21 Age
+A7	Population_data T4 Age
+A8	Population_data T9 Age
+T31	Quantifier_or_Qualifier 1326 1330	útil
+A9	Assertion T31 Negated
+R1	Negation Arg1:T44 Arg2:T31	
+T33	Neg_cue 1182 1184	no
+T37	CONC 1192 1203	diferencias
+A10	Assertion T37 Negated
+#35	AnnotatorNotes T37	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T33 Arg2:T37	
+T43	Spec_cue 533 541	sugieren
+T45	CONC 545 553	utilidad
+A11	Assertion T45 Speculated
+R3	Speculation Arg1:T43 Arg2:T45	
+R4	Speculation Arg1:T42 Arg2:T17	
+R5	Negation Arg1:T44 Arg2:T18	
+R6	Used_for Arg1:T2 Arg2:T3	
+R7	Before Arg1:T3 Arg2:T20	
+R9	Experiences Arg1:T4 Arg2:T2	
+R10	Experiences Arg1:T4 Arg2:T3	
+R11	Experiences Arg1:T21 Arg2:T6	
+R12	Causes Arg1:T46 Arg2:T6	
+T47	Quantifier_or_Qualifier 207 214	severas
+#36	AnnotatorNotes T47	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R13	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T47	
+R14	Speculation Arg1:T29 Arg2:T7	
+R15	Overlap Arg1:T6 Arg2:T7	
+R16	Experiences Arg1:T21 Arg2:T7	
+T49	Observation 294 307;335 368	insuficiencia del sistema fagocítico neutrófilo
+R17	Overlap Arg1:T7 Arg2:T49	
+R19	Location_of Arg1:T48 Arg2:T49	
+T50	Observation 478 493	morbimortalidad
+T51	Quantifier_or_Qualifier 463 474	altas tasas
+R20	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T51	
+R21	Causes Arg1:T10 Arg2:T50	
+R22	Experiences Arg1:T9 Arg2:T50	
+R23	Experiences Arg1:T9 Arg2:T10	
+T52	Quantifier_or_Qualifier 683 689	precoz
+#37	AnnotatorNotes T52	C1279930; Precocious; Temporal Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T52	
+R26	Used_for Arg1:T13 Arg2:T14	
+R27	Experiences Arg1:T35 Arg2:T25	
+R28	Experiences Arg1:T34 Arg2:T25	
+R29	Has_Duration_or_Interval Arg1:T28 Arg2:T36	
+R30	Experiences Arg1:T35 Arg2:T22	
+R31	Experiences Arg1:T35 Arg2:T30	
+T53	Result_or_Value 852 870	inferior a 1 500 g
+R32	Has_Result_or_Value Arg1:T30 Arg2:T53	
+R33	Experiences Arg1:T34 Arg2:T22	
+R34	Experiences Arg1:T34 Arg2:T30	
+R35	Negation Arg1:T38 Arg2:T26	
+R36	Experiences Arg1:T34 Arg2:T26	
+R37	Experiences Arg1:T35 Arg2:T26	
+R38	Used_for Arg1:T16 Arg2:T15	
+R39	Has_Duration_or_Interval Arg1:T16 Arg2:T40	
+R40	Has_Frequency Arg1:T16 Arg2:T39	
+R41	Before Arg1:T16 Arg2:T41	
+R42	Before Arg1:T1 Arg2:T15	
+R43	Before Arg1:T8 Arg2:T15	
+T54	CONC 377 393	etapa de la vida
+#38	AnnotatorNotes T54	C0680083; Life Stage; Temporal Concept
+R44	Overlap Arg1:T49 Arg2:T54	
+T55	Observation 1127 1137	morbilidad
+#39	AnnotatorNotes T55	C0026538; Morbidity - disease rate; Finding
+R45	Causes Arg1:T17 Arg2:T55	
+T56	Observation 1246 1257	neutrofilia
+#40	AnnotatorNotes T56	C0151683; Neutrophilia (finding); Finding
+T57	Quantifier_or_Qualifier 1258 1271	significativa
+#41	AnnotatorNotes T57	C0750502; Significant; Idea or Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T57	
+R47	Overlap Arg1:T55 Arg2:T56	
+R48	Before Arg1:T18 Arg2:T27	
+R8	Experiences Arg1:T21 Arg2:T49	
+R18	Before Arg1:T13 Arg2:T24	
+R25	Overlap Arg1:T25 Arg2:T26	
+#42	AnnotatorNotes T31	C3827682; Useful; Qualitative Concept
+#43	AnnotatorNotes T45	C3827682; Useful; Qualitative Concept (?)
+A12	Experiencer T4 Patient
+A13	Experiencer T21 Patient
+A14	Experiencer T9 Patient
+A15	Experiencer T35 Patient
+A16	Experiencer T34 Patient

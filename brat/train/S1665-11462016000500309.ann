@@ -1,0 +1,210 @@
+T1	PROC 1 20	Estudio comparativo
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	PROC 56 78	tratamiento prolongado
+T3	CHEM 83 93	esteroides
+#2	AnnotatorNotes T3	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T4	DISO 100 135	síndrome nefrótico cortico-sensible
+#3	AnnotatorNotes T4	C0403396; Steroid-sensitive nephrotic syndrome; Disease or Syndrome
+T5	DISO 217 221	SNCS
+#4	AnnotatorNotes T5	C0403396; Steroid-sensitive nephrotic syndrome; Disease or Syndrome
+T6	DISO 180 215	síndrome nefrótico cortico-sensible
+#5	AnnotatorNotes T6	C0403396; Steroid-sensitive nephrotic syndrome; Disease or Syndrome
+T7	PROC 227 252	corticoterapia prolongada
+T8	CHEM 356 366	corticoide
+#6	AnnotatorNotes T8	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T9	PROC 388 399	tratamiento
+#7	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	PROC 574 585	tratamiento
+#8	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	CHEM 782 802	16-β-metilprednisona
+T12	CHEM 655 671	corticosteroides
+#9	AnnotatorNotes T12	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T13	DISO 677 686	toxicidad
+#10	AnnotatorNotes T13	C0600688; Toxic effect; Injury or Poisoning
+T14	CHEM 687 696	esteroide
+#11	AnnotatorNotes T14	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T15	CHEM 899 919	16-β-metilprednisona
+T16	PROC 942 949	placebo
+#12	AnnotatorNotes T16	C0032042; Placebos; Therapeutic or Preventive Procedure
+T17	PROC 1270 1281	tratamiento
+#13	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	PROC 30 50	esquema convencional
+T19	CHEM 1628 1636	cortisol
+#14	AnnotatorNotes T19	C0020268; hydrocortisone; Organic Chemical · Pharmacologic Substance · Hormone
+T20	ANAT 1637 1643	sérico
+#15	AnnotatorNotes T20	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T21	DISO 1715 1724	toxicidad
+#16	AnnotatorNotes T21	C0600688; Toxic effect; Injury or Poisoning
+T22	CHEM 1725 1734	esteroide
+#17	AnnotatorNotes T22	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T23	PROC 1799 1810	tratamiento
+#18	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	DISO 1863 1872	toxicidad
+#19	AnnotatorNotes T24	C0600688; Toxic effect; Injury or Poisoning
+T25	CHEM 1873 1882	esteroide
+#20	AnnotatorNotes T25	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T26	PROC 1628 1643	cortisol sérico
+#21	AnnotatorNotes T26	C1254867; Serum Hydrocortisone Test; Laboratory Procedure
+T27	PROC 348 377	esquema corticoide prolongado
+T28	DISO 413 417	SNCS
+#22	AnnotatorNotes T28	C0403396; Steroid-sensitive nephrotic syndrome; Disease or Syndrome
+T29	LIVB 478 487	pacientes
+#23	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 763 772	pacientes
+#24	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Duration 811 821	12 semanas
+T32	Date 849 861	la semana 24
+T33	LIVB 880 889	pacientes
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Duration 928 938	12 semanas
+T35	Date 956 968	la semana 24
+T36	LIVB 1029 1036	persona
+#26	AnnotatorNotes T36	C0027361; Persons; Population Group
+T38	LIVB 1446 1455	pacientes
+#27	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 1551 1559	paciente
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 712 721	población
+#29	AnnotatorNotes T42	C1257890; Population; Population Group
+T43	PROC 823 842	reduciendo la dosis
+#30	AnnotatorNotes T43	C2348004; Agent Dose Decreased; Therapeutic or Preventive Procedure
+T44	Duration 1171 1174	114
+#31	AnnotatorNotes T44	[Duration expressed in days]
+T45	Duration 1191 1193	75
+#32	AnnotatorNotes T45	[Duration expressed in days]
+T37	Dose 1567 1572	5,243
+#33	AnnotatorNotes T37	[Dose expressed in mg/m2]
+T46	Dose 1592 1597	4,306
+#34	AnnotatorNotes T46	[Dose expressed in mg/m2]
+T39	DISO 285 293	recaídas
+#35	AnnotatorNotes T39	C2825055; Recurrence (disease attribute); Pathologic Function
+T41	DISO 492 500	recaídas
+#36	AnnotatorNotes T41	C2825055; Recurrence (disease attribute); Pathologic Function
+T47	DISO 521 529	recaídas
+#37	AnnotatorNotes T47	C2825055; Recurrence (disease attribute); Pathologic Function
+T48	DISO 624 631	recaída
+#38	AnnotatorNotes T48	C2825055; Recurrence (disease attribute); Pathologic Function
+T49	DISO 1019 1027	recaídas
+#39	AnnotatorNotes T49	C2825055; Recurrence (disease attribute); Pathologic Function
+T50	DISO 1156 1163	recaída
+#40	AnnotatorNotes T50	C2825055; Recurrence (disease attribute); Pathologic Function
+T51	DISO 1460 1468	recaídas
+#41	AnnotatorNotes T51	C2825055; Recurrence (disease attribute); Pathologic Function
+T52	DISO 1369 1377	recaídas
+#42	AnnotatorNotes T52	C2825055; Recurrence (disease attribute); Pathologic Function
+T53	DISO 1834 1842	recaídas
+#43	AnnotatorNotes T53	C2825055; Recurrence (disease attribute); Pathologic Function
+T54	Neg_cue 1321 1323	no
+T55	Quantifier_or_Qualifier 1331 1345	significativas
+A1	Assertion T55 Negated
+#44	AnnotatorNotes T55	C0750502; Significant; Idea or Concept
+R1	Negation Arg1:T54 Arg2:T55	
+T56	Neg_cue 1844 1847	sin
+T57	CONC 1848 1859	incrementar
+A2	Assertion T57 Negated
+#45	AnnotatorNotes T57	C0442805; Increase; Functional Concept
+R2	Negation Arg1:T56 Arg2:T57	
+T58	Spec_cue 253 259	podría
+T59	CONC 260 267	reducir
+A3	Assertion T59 Speculated
+R3	Speculation Arg1:T58 Arg2:T59	
+R4	Used_for Arg1:T3 Arg2:T2	
+T60	Quantifier_or_Qualifier 136 144	primario
+#46	AnnotatorNotes T60	C0205225; Primary; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T60	
+R11	Before Arg1:T5 Arg2:T39	
+R12	Before Arg1:T6 Arg2:T39	
+R13	Used_for Arg1:T8 Arg2:T27	
+T61	Quantifier_or_Qualifier 418 426	primario
+#47	AnnotatorNotes T61	C0205225; Primary; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T61	
+R17	Experiences Arg1:T29 Arg2:T27	
+R18	Experiences Arg1:T29 Arg2:T9	
+R19	Experiences Arg1:T29 Arg2:T28	
+R20	Experiences Arg1:T29 Arg2:T41	
+R21	Before Arg1:T28 Arg2:T41	
+R22	Before Arg1:T28 Arg2:T47	
+R23	Experiences Arg1:T29 Arg2:T47	
+R24	Experiences Arg1:T29 Arg2:T10	
+R25	Experiences Arg1:T29 Arg2:T48	
+R26	Experiences Arg1:T29 Arg2:T12	
+R27	Experiences Arg1:T29 Arg2:T13	
+R28	Experiences Arg1:T29 Arg2:T14	
+R29	Causes Arg1:T14 Arg2:T13	
+T62	CONC 636 651	dosis acumulada
+#48	AnnotatorNotes T62	C2986497; Cumulative Dose; Conceptual Entity
+R30	Has_Dose_or_Strength Arg1:T12 Arg2:T62	
+T63	Quantifier_or_Qualifier 616 623	primera
+#49	AnnotatorNotes T63	C0205435; First (number); Quantitative Concept  (?)
+R31	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T63	
+T64	Observation 596 604	remisión
+#50	AnnotatorNotes T64	C0544452; Disease remission; Finding
+R32	Experiences Arg1:T29 Arg2:T64	
+R33	Before Arg1:T47 Arg2:T64	
+R34	Before Arg1:T41 Arg2:T64	
+R35	Before Arg1:T10 Arg2:T47	
+R36	Before Arg1:T10 Arg2:T41	
+T65	CONC 534 540	tiempo
+#51	AnnotatorNotes T65	C0040223; Time; Temporal Concept
+R37	Before Arg1:T10 Arg2:T48	
+R38	Before Arg1:T28 Arg2:T48	
+R39	Before Arg1:T28 Arg2:T10	
+R40	Used_for Arg1:T12 Arg2:T10	
+R41	Used_for Arg1:T14 Arg2:T10	
+R42	Used_for Arg1:T12 Arg2:T9	
+R43	Causes Arg1:T14 Arg2:T9	
+R44	Experiences Arg1:T30 Arg2:T11	
+R45	Has_Duration_or_Interval Arg1:T11 Arg2:T31	
+R46	Used_for Arg1:T11 Arg2:T43	
+#52	AnnotatorNotes T11	C0065967; meprednisone; Hormone · Organic Chemical · Pharmacologic Substance (?)
+R47	Before Arg1:T43 Arg2:T32	
+R48	Experiences Arg1:T33 Arg2:T15	
+#53	AnnotatorNotes T15	C0065967; meprednisone; Hormone · Organic Chemical · Pharmacologic Substance (?)
+R49	Has_Duration_or_Interval Arg1:T15 Arg2:T34	
+R50	Experiences Arg1:T33 Arg2:T16	
+R51	Before Arg1:T15 Arg2:T16	
+R52	Before Arg1:T16 Arg2:T35	
+R53	Experiences Arg1:T42 Arg2:T15	
+R54	Experiences Arg1:T42 Arg2:T11	
+R55	Experiences Arg1:T30 Arg2:T43	
+T66	CONC 987 1015	tasa de incidencia acumulada
+#54	AnnotatorNotes T66	C1708485; Incidence Rate; Temporal Concept + C0683920; Incidence Proportion; Quantitative Concept (?)
+R56	Experiences Arg1:T36 Arg2:T49	
+T67	CONC 1106 1112	tiempo
+#55	AnnotatorNotes T67	C0040223; Time; Temporal Concept
+R57	Has_Duration_or_Interval Arg1:T67 Arg2:T44	
+R58	Has_Duration_or_Interval Arg1:T67 Arg2:T45	
+R59	Overlap Arg1:T50 Arg2:T44	
+R60	Overlap Arg1:T50 Arg2:T45	
+T68	CONC 1224 1245	diferencias de tiempo
+T69	Observation 1293 1301	remisión
+#57	AnnotatorNotes T69	C0544452; Disease remission; Finding
+R61	Before Arg1:T17 Arg2:T69	
+T70	CONC 1350 1365	total acumulado
+#58	AnnotatorNotes T70	C0683920; Incidence Proportion; Quantitative Concept (?)
+R62	Experiences Arg1:T38 Arg2:T52	
+R63	Experiences Arg1:T38 Arg2:T51	
+T71	CONC 1517 1522;1529 1538	dosis acumulada
+#59	AnnotatorNotes T71	C2986497; Cumulative Dose; Conceptual Entity
+R64	Has_Dose_or_Strength Arg1:T71 Arg2:T37	
+R65	Has_Dose_or_Strength Arg1:T71 Arg2:T46	
+R66	Experiences Arg1:T40 Arg2:T26	
+R67	Location_of Arg1:T20 Arg2:T26	
+R68	Causes Arg1:T22 Arg2:T21	
+R69	Before Arg1:T23 Arg2:T53	
+R71	Causes Arg1:T25 Arg2:T24	
+R72	Used_for Arg1:T25 Arg2:T23	
+#61	AnnotatorNotes T59	C0547047; Decrease; Functional Concept 
+R6	Before Arg1:T7 Arg2:T39	
+R7	Has_Quantifier_or_Qualifier Arg1:T68 Arg2:T55	
+#56	AnnotatorNotes T68	C1442103; Time Difference; Temporal Concept
+T72	Quantifier_or_Qualifier 1652 1657	final
+#60	AnnotatorNotes T72	C1517741; Last; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T72	
+A4	Experiencer T38 Patient
+A5	Experiencer T40 Patient
+A6	Experiencer T36 Patient
+A7	Experiencer T33 Patient
+A8	Experiencer T30 Patient
+A9	Experiencer T42 Patient
+A10	Experiencer T29 Patient

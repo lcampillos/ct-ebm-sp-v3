@@ -1,0 +1,284 @@
+T1	PROC 44 55	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 301 316	Cancer de colon
+#2	AnnotatorNotes T2	C0007102; Malignant tumor of colon; Neoplastic Process
+T3	DISO 73 88	cáncer de colon
+#3	AnnotatorNotes T3	C0007102; Malignant tumor of colon; Neoplastic Process
+T4	PROC 110 133	Análisis de efectividad
+T5	PROC 140 166	quimioterapia neoadyuvante
+T6	PROC 173 184	tratamiento
+#4	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 189 204	cáncer de colon
+#5	AnnotatorNotes T7	C0007102; Malignant tumor of colon; Neoplastic Process
+T8	DISO 261 276	Cancer de colon
+#6	AnnotatorNotes T8	C0007102; Malignant tumor of colon; Neoplastic Process
+T9	ANAT 271 276	colon
+#7	AnnotatorNotes T9	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T10	ANAT 311 316	colon
+#8	AnnotatorNotes T10	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T11	DISO 404 427	adenocarcinoma de colon
+#9	AnnotatorNotes T11	C0338106; Adenocarcinoma of colon; Neoplastic Process
+T12	PROC 532 541	Analítica
+#10	AnnotatorNotes T12	C0002778; Analysis of substances; Laboratory Procedure | C0814047; biological analysis and measurement; Laboratory Procedure
+T13	PROC 583 594	Hemoglobina
+#11	AnnotatorNotes T13	C0518015; Hemoglobin measurement; Laboratory Procedure
+T14	PROC 605 615	Leucocitos
+T15	PROC 628 637	Plaquetas
+#12	AnnotatorNotes T15	C0032181; Platelet Count measurement; Laboratory Procedure
+T16	PROC 649 668	Filtrado Glomerular
+#13	AnnotatorNotes T16	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+T17	PROC 682 699	Bilirrubina Total
+#14	AnnotatorNotes T17	C0201913; Bilirubin, total measurement; Laboratory Procedure
+T18	PROC 755 768	quimioterapia
+#15	AnnotatorNotes T18	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T19	PROC 796 820	Consentimiento Informado
+#16	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	PROC 878 881	TAC
+#17	AnnotatorNotes T20	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T21	DISO 886 906	infiltración tumoral
+T22	ANAT 967 977	ganglionar
+#18	AnnotatorNotes T22	C0024204; lymph nodes; Body Part, Organ, or Organ Component | C1269047; Entire lymph node; Body Part, Organ, or Organ Component
+T23	DISO 985 1007	afectación metastásica
+T24	ANAT 1017 1024	órganos
+#19	AnnotatorNotes T24	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T25	DISO 1034 1044	Enfermedad
+#20	AnnotatorNotes T25	C0012634; Disease; Disease or Syndrome
+T26	PROC 1090 1101	TRATAMIENTO
+#21	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	PROC 1133 1140	cirugía
+#22	AnnotatorNotes T27	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T28	PROC 1215 1259	Cirugía con abordaje laparoscópico o abierto
+T29	DISO 1290 1302	Comorbilidad
+#23	AnnotatorNotes T29	C1275743; Co-morbid conditions; Finding
+T30	DISO 1315 1321	angina
+#24	AnnotatorNotes T30	C0002962; Angina Pectoris; Sign or Symptom
+T31	DISO 1353 1379	infarto agudo de miocardio
+#25	AnnotatorNotes T31	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T32	DISO 1436 1445	neoplasia
+#26	AnnotatorNotes T32	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T33	DISO 1484 1492	melanoma
+#27	AnnotatorNotes T33	C0025202; melanoma; Neoplastic Process
+T34	DISO 1497 1506	Infección
+#28	AnnotatorNotes T34	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T35	PROC 1559 1582	control de la natalidad
+#29	AnnotatorNotes T35	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T36	DISO 1587 1608	Neuropatía periférica
+#30	AnnotatorNotes T36	C0031117; Peripheral Neuropathy; Disease or Syndrome
+T37	DISO 1623 1638	Cáncer de recto
+#31	AnnotatorNotes T37	C0007113; Rectal Carcinoma; Neoplastic Process
+T38	ANAT 1652 1663	margen anal
+#32	AnnotatorNotes T38	C0227423; Transition zone of anal mucous membrane; Body Part, Organ, or Organ Component
+T39	ANAT 1693 1703	peritoneal
+#33	AnnotatorNotes T39	C0031153; Peritoneum; Tissue | C0442034; peritoneal; Body Location or Region
+T40	DISO 1750 1775	carcinomatosis peritoneal
+#34	AnnotatorNotes T40	C0346990; Carcinomatosis of peritoneal cavity; Neoplastic Process
+T41	DISO 1780 1802	Obstrucción intestinal
+#35	AnnotatorNotes T41	C0021843; Intestinal Obstruction; Disease or Syndrome
+T42	DISO 1804 1815	Perforación
+#36	AnnotatorNotes T42	C0549099; Perforation (observation); Finding | C1709337; Perforation of organ; Injury or Poisoning
+T43	DISO 1817 1828	Peritonitis
+#37	AnnotatorNotes T43	C0031154; Peritonitis; Pathologic Function
+T44	PROC 1830 1849	Cirugía de urgencia
+T45	DISO 1855 1872	Hipersensibilidad
+#38	AnnotatorNotes T45	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T46	DISO 1923 1933	alteración
+#39	AnnotatorNotes T46	C0221423; Illness (finding); Sign or Symptom
+T47	ANAT 83 88	colon
+#40	AnnotatorNotes T47	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T48	ANAT 199 204	colon
+#41	AnnotatorNotes T48	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T49	ANAT 422 427	colon
+#42	AnnotatorNotes T49	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T50	PROC 503 512	Karnofsky
+#43	AnnotatorNotes T50	C0206065; Karnofsky Performance Status; Diagnostic Procedure
+T51	CHEM 682 693	Bilirrubina
+#44	AnnotatorNotes T51	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T52	DISO 924 943	invasión transmural
+T53	DISO 958 977	invasión ganglionar
+T54	ANAT 1370 1379	miocardio
+#45	AnnotatorNotes T54	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T55	ANAT 1633 1638	recto
+#46	AnnotatorNotes T55	C0034896; Rectum; Body Part, Organ, or Organ Component | C1278926; Entire rectum; Body Part, Organ, or Organ Component
+T56	DISO 1722 1732	metástasis
+#47	AnnotatorNotes T56	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T57	ANAT 1765 1775	peritoneal
+#48	AnnotatorNotes T57	C0031153; Peritoneum; Tissue | C0442034; peritoneal; Body Location or Region
+T58	ANAT 1792 1802	intestinal
+#49	AnnotatorNotes T58	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T59	CHEM 1879 1887	fármacos
+#50	AnnotatorNotes T59	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T60	Date 12 16	2016
+T61	Date 56 69	preoperatorio
+#51	AnnotatorNotes T61	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T62	Age 432 450	Mayores de 18 años
+T63	LIVB 493 501	paciente
+#52	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T69	Neg_cue 954 957	sin
+T70	Neg_cue 981 984	Sin
+T71	Duration 1383 1402	los últimos 6 meses
+T72	Duration 1449 1467	los últimos 5 años
+T73	Neg_cue 1469 1483	a excepción de
+T75	PHYS 1524 1532	Embarazo
+#53	AnnotatorNotes T75	C0032961; Pregnancy; Organism Function
+T76	PHYS 1535 1544	lactancia
+#54	AnnotatorNotes T76	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T77	Neg_cue 1546 1549	sin
+T81	LIVB 1954 1960	médico
+#55	AnnotatorNotes T81	C0031831; Physicians; Professional or Occupational Group
+T82	LIVB 1999 2007	paciente
+#56	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group
+T83	LIVB 454 465	ambos sexos
+#57	AnnotatorNotes T83	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T64	PROC 376 400	Confirmación histológica
+#58	AnnotatorNotes T64	C0344441; Histology Procedure; Laboratory Procedure
+T65	ANAT 658 668	Glomerular
+#59	AnnotatorNotes T65	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T66	PROC 1045 1061	radiológicamente
+#60	AnnotatorNotes T66	C0043299; Diagnostic radiologic examination; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+A1	Assertion T53 Negated
+A2	Assertion T23 Negated
+A3	Assertion T33 Negated
+A4	Assertion T35 Negated
+A5	Status T31 History_of
+A6	Status T32 History_of
+A7	Status T33 History_of
+A8	Status T45 History_of
+#61	AnnotatorNotes T5	C5392214; Neoadjuvant Chemotherapy; Therapeutic or Preventive Procedure
+#62	AnnotatorNotes T14	C0023508; White Blood Cell Count procedure; Laboratory Procedure 
+#63	AnnotatorNotes T21	C4060690; Tumor infiltration; Neoplastic Process 
+T67	Quantifier_or_Qualifier 1510 1520	controlada
+A9	Assertion T67 Negated
+T68	Neg_cue 1507 1509	no
+T74	Spec_cue 1962 1969	pudiera
+T78	Observation 1970 1994	comprometer la seguridad
+A10	Assertion T78 Speculated
+T79	Neg_cue 718 729	Ausencia de
+T80	CONC 730 746	contraindicación
+A11	Assertion T80 Negated
+#64	AnnotatorNotes T80	C0522473; Contraindication; Qualitative Concept
+R1	Negation Arg1:T79 Arg2:T80	
+R2	Overlap Arg1:T1 Arg2:T61	
+R3	Location_of Arg1:T47 Arg2:T3	
+R4	Location_of Arg1:T48 Arg2:T7	
+T84	Quantifier_or_Qualifier 205 224	localmente avanzado
+R5	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T84	
+R6	Location_of Arg1:T9 Arg2:T8	
+R7	Location_of Arg1:T10 Arg2:T2	
+T85	Quantifier_or_Qualifier 317 336	localmente avanzado
+R8	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T85	
+R9	Location_of Arg1:T49 Arg2:T11	
+R11	Has_Age Arg1:T83 Arg2:T62	
+T86	Result_or_Value 513 517	>60%
+R12	Has_Result_or_Value Arg1:T50 Arg2:T86	
+T87	CONC 520 524	ECOG
+#65	AnnotatorNotes T87	C1520224; ECOG performance status; Intellectual Product
+T88	Result_or_Value 525 527	<2
+R13	Has_Result_or_Value Arg1:T87 Arg2:T88	
+R14	Experiences Arg1:T63 Arg2:T50	
+T89	Observation 469 488	Buen estado general
+#66	AnnotatorNotes T89	C1277245; General health good; Finding
+R15	Experiences Arg1:T63 Arg2:T89	
+T90	CONC 559 568	inclusión
+#67	AnnotatorNotes T90	C1512693; Inclusion; Qualitative Concept
+R18	Overlap Arg1:T12 Arg2:T90	
+R19	Overlap Arg1:T13 Arg2:T90	
+T91	Result_or_Value 595 603	>10 g/dL
+R20	Has_Result_or_Value Arg1:T13 Arg2:T91	
+T92	Result_or_Value 616 626	>3,0 109/L
+R21	Has_Result_or_Value Arg1:T14 Arg2:T92	
+T93	Result_or_Value 638 647	> 100.000
+R22	Has_Result_or_Value Arg1:T15 Arg2:T93	
+R23	Location_of Arg1:T65 Arg2:T16	
+T94	Result_or_Value 669 679	>50 ml/min
+R24	Has_Result_or_Value Arg1:T16 Arg2:T94	
+T95	Result_or_Value 700 714	<25 micromol/l
+R25	Has_Result_or_Value Arg1:T17 Arg2:T95	
+R26	Overlap Arg1:T14 Arg2:T90	
+R27	Overlap Arg1:T15 Arg2:T90	
+R28	Overlap Arg1:T16 Arg2:T90	
+R29	Overlap Arg1:T17 Arg2:T90	
+T96	Observation 773 783	Aceptación
+#68	AnnotatorNotes T96	C0600109; Willing; Finding (?)
+R30	Overlap Arg1:T96 Arg2:T19	
+T97	Observation 838 857	Signos radiológicos
+R32	Causes Arg1:T21 Arg2:T97	
+T98	Result_or_Value 915 920	>5 mm
+R33	Has_Result_or_Value Arg1:T52 Arg2:T98	
+R34	Overlap Arg1:T21 Arg2:T52	
+T99	Observation 912 914	T3
+#69	AnnotatorNotes T99	C0475374; Tumor stage T3; Finding
+T100	Observation 907 909	T4
+#70	AnnotatorNotes T100	C0475751; Tumor stage T4; Finding
+R35	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T100	
+R36	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T99	
+R37	Negation Arg1:T69 Arg2:T53	
+R38	Location_of Arg1:T22 Arg2:T53	
+R39	Negation Arg1:T70 Arg2:T23	
+R40	Location_of Arg1:T24 Arg2:T23	
+T101	Quantifier_or_Qualifier 1011 1016	otros
+R41	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T101	
+T102	Observation 1026 1028	M0
+#71	AnnotatorNotes T102	C0445034; M0 Stage Finding; Finding
+A12	Assertion T102 Negated
+R42	Negation Arg1:T70 Arg2:T102	
+T103	Quantifier_or_Qualifier 1062 1071	resecable
+#72	AnnotatorNotes T103	C1514888; Resectable; Qualitative Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T103	
+T104	Quantifier_or_Qualifier 1141 1149	electiva
+#73	AnnotatorNotes T104	C0439608; elective; Temporal Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T104	
+T105	Quantifier_or_Qualifier 1150 1172	con intención curativa
+R45	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T105	
+R46	Location_of Arg1:T54 Arg2:T31	
+R47	Overlap Arg1:T31 Arg2:T71	
+T106	Quantifier_or_Qualifier 1303 1313	importante
+#74	AnnotatorNotes T106	C3898777; Important; Qualitative Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T106	
+T107	Quantifier_or_Qualifier 1322 1334	incontrolada
+#75	AnnotatorNotes T107	C0205318; Uncontrolled; Qualitative Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T107	
+T108	Quantifier_or_Qualifier 1431 1435	otra
+A13	Status T108 History_of
+#76	AnnotatorNotes T108	C0205394; Other; Qualitative Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T108	
+R51	Overlap Arg1:T32 Arg2:T72	
+R52	Negation Arg1:T73 Arg2:T33	
+R53	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T67	
+R54	Negation Arg1:T68 Arg2:T67	
+R55	Negation Arg1:T77 Arg2:T35	
+T109	Quantifier_or_Qualifier 1609 1618	> grado 1
+R56	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T109	
+T110	Result_or_Value 1640 1663	< 15 cm del margen anal
+R57	Location_of Arg1:T55 Arg2:T37	
+R58	Has_Result_or_Value Arg1:T37 Arg2:T110	
+T111	CONC 1666 1703	por debajo de la reflexión peritoneal
+R59	Location_of Arg1:T111 Arg2:T37	
+R60	Location_of Arg1:T39 Arg2:T111	
+R61	Location_of Arg1:T57 Arg2:T40	
+T112	Quantifier_or_Qualifier 1733 1744	a distancia
+#77	AnnotatorNotes T112	C0443203; Distant; Spatial Concept
+R62	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T112	
+R63	Location_of Arg1:T58 Arg2:T41	
+#78	AnnotatorNotes T44	C2188405; urgent surgical procedure; Therapeutic or Preventive Procedure
+R64	Causes Arg1:T59 Arg2:T45	
+R65	Before Arg1:T46 Arg2:T78	
+R66	Speculation Arg1:T74 Arg2:T78	
+R67	Experiences Arg1:T82 Arg2:T46	
+#79	AnnotatorNotes T53	C1708790; Lymphatic Invasion; Finding
+#80	AnnotatorNotes T101	C0205394; Other; Qualitative Concept
+T113	CONC 1227 1249	abordaje laparoscópico
+#81	AnnotatorNotes T113	C0393360; Laparoscopic approach; Spatial Concept
+T114	CONC 1227 1235;1252 1259	abordaje abierto
+#82	AnnotatorNotes T114	C0348025; Open approach; Spatial Concept
+R69	Used_for Arg1:T114 Arg2:T28	
+R70	Used_for Arg1:T113 Arg2:T28	
+#83	AnnotatorNotes T28	C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure | C4283938; Open Surgical Procedure; Therapeutic or Preventive Procedure
+#84	AnnotatorNotes T23	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+#85	AnnotatorNotes T105	C1880198; Cure (remedy); Conceptual Entity
+A14	Experiencer T82 Patient
+A15	Experiencer T81 Other
+A16	Experiencer T83 Patient
+A17	Experiencer T63 Patient
+A18	Status T27 Future
+A19	Status T104 Future
+A20	Status T105 Future

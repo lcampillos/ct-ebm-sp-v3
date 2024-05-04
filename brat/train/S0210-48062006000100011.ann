@@ -1,0 +1,142 @@
+T1	CHEM 16 26	Tadalafilo
+#1	AnnotatorNotes T1	C1176316; tadalafil; Organic Chemical · Pharmacologic Substance
+T2	CHEM 30 41	Sildenafilo
+#2	AnnotatorNotes T2	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T3	DISO 69 87	disfunción eréctil
+#3	AnnotatorNotes T3	C0242350; Erectile dysfunction; Disease or Syndrome
+T4	PROC 118 153	estudio multicéntrico internacional
+T5	CHEM 206 217	sildenafilo
+#4	AnnotatorNotes T5	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T6	CHEM 222 232	tadalafilo
+#5	AnnotatorNotes T6	C1176316; tadalafil; Organic Chemical · Pharmacologic Substance
+T7	PROC 498 526	distribuyeron aleatoriamente
+#6	AnnotatorNotes T7	C0034656; Randomization; Research Activity
+T8	DISO 318 336	disfunción eréctil
+#7	AnnotatorNotes T8	C0242350; Erectile dysfunction; Disease or Syndrome
+T9	PROC 406 465	estudio multicéntrico, de 2 periodos, cruzado y doble-ciego
+#8	AnnotatorNotes T9	C1096776; Multicenter Study; Research Activity + C0150097; Cross-Over Studies; Research Activity + C0013072; Double-Blind Method; Research Activity
+T10	CHEM 540 551	sildenafilo
+#9	AnnotatorNotes T10	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T11	CHEM 562 572	tadalafilo
+#10	AnnotatorNotes T11	C1176316; tadalafil; Organic Chemical · Pharmacologic Substance
+T12	PROC 737 749	tratamientos
+#11	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	DISO 1637 1639	DE
+#12	AnnotatorNotes T13	C0242350; Erectile dysfunction; Disease or Syndrome
+T14	PROC 926 937	tratamiento
+#13	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 972 1003	instrucciones de administración
+T16	CHEM 1007 1018	sildenafilo
+#14	AnnotatorNotes T16	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T17	CHEM 1041 1051	tadalafilo
+#15	AnnotatorNotes T17	C1176316; tadalafil; Organic Chemical · Pharmacologic Substance
+T18	PROC 1143 1154	tratamiento
+#16	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	CHEM 1179 1190	sildenafilo
+#17	AnnotatorNotes T19	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T20	CHEM 1311 1319	fármacos
+#18	AnnotatorNotes T20	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T21	PROC 1336 1349	instrucciones
+#19	AnnotatorNotes T21	C0220931; Training; Educational Activity
+T22	DISO 1402 1428	enfermedades concomitantes
+#20	AnnotatorNotes T22	C0243087; concomitant disease; Pathologic Function
+T23	CHEM 1445 1456	sildenafilo
+#21	AnnotatorNotes T23	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T24	CHEM 1541 1551	tadalafilo
+#22	AnnotatorNotes T24	C1176316; tadalafil; Organic Chemical · Pharmacologic Substance
+T25	CHEM 1599 1610	sildenafilo
+#23	AnnotatorNotes T25	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T26	PROC 1617 1628	tratamiento
+#24	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	PROC 244 275	instrucciones de administración
+T28	PROC 652 671	régimen alternativo
+T29	PROC 848 879	instrucciones de administración
+T30	CHEM 942 952	tadalafilo
+#25	AnnotatorNotes T30	C1176316; tadalafil; Organic Chemical · Pharmacologic Substance
+T31	CHEM 1159 1169	tadalafilo
+#26	AnnotatorNotes T31	C1176316; tadalafil; Organic Chemical · Pharmacologic Substance
+T32	PROC 1270 1301	instrucciones de administración
+T33	PROC 1558 1589	instrucciones de administración
+T34	DISO 338 340	DE
+#27	AnnotatorNotes T34	C0242350; Erectile dysfunction; Disease or Syndrome
+T35	LIVB 45 54	pacientes
+#28	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 283 303	cohorte de pacientes
+#29	AnnotatorNotes T36	C0599755; Cohort; Population Group + C0030705; Patients; Patient or Disabled Group
+T38	LIVB 366 375	pacientes
+#31	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 475 484	pacientes
+#32	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Dose 553 558	50 mg
+T41	Dose 574 579	20 mg
+T42	Duration 599 609	12 semanas
+T43	Duration 678 688	12 semanas
+T44	LIVB 884 893	pacientes
+#33	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Dose 953 958	20 mg
+T46	LIVB 1080 1089	pacientes
+#34	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1519 1528	pacientes
+#35	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+A1	Status T23 History_of
+R1	Experiences Arg1:T35 Arg2:T1	
+R2	Experiences Arg1:T35 Arg2:T2	
+R3	Experiences Arg1:T35 Arg2:T3	
+R4	Experiences Arg1:T36 Arg2:T8	
+R5	Experiences Arg1:T36 Arg2:T34	
+R6	Experiences Arg1:T36 Arg2:T6	
+R7	Experiences Arg1:T36 Arg2:T5	
+R8	Before Arg1:T7 Arg2:T10	
+R9	Experiences Arg1:T38 Arg2:T11	
+R10	Experiences Arg1:T38 Arg2:T10	
+R11	Has_Dose_or_Strength Arg1:T11 Arg2:T41	
+R12	Has_Dose_or_Strength Arg1:T10 Arg2:T40	
+R13	Experiences Arg1:T39 Arg2:T10	
+R14	Experiences Arg1:T39 Arg2:T11	
+R15	Has_Duration_or_Interval Arg1:T11 Arg2:T42	
+R16	Has_Duration_or_Interval Arg1:T10 Arg2:T42	
+T37	CONC 581 590	a demanda
+#30	AnnotatorNotes T37	C0679686; treatment on demand; Intellectual Product
+R18	Before Arg1:T10 Arg2:T28	
+R17	Before Arg1:T11 Arg2:T28	
+R19	Has_Duration_or_Interval Arg1:T28 Arg2:T43	
+R20	Used_for Arg1:T11 Arg2:T12	
+R21	Used_for Arg1:T10 Arg2:T12	
+R22	Experiences Arg1:T44 Arg2:T14	
+R23	Used_for Arg1:T30 Arg2:T14	
+R24	Has_Dose_or_Strength Arg1:T30 Arg2:T45	
+R25	Used_for Arg1:T16 Arg2:T15	
+R26	Used_for Arg1:T17 Arg2:T15	
+R27	Used_for Arg1:T6 Arg2:T27	
+R28	Used_for Arg1:T5 Arg2:T27	
+R29	Used_for Arg1:T16 Arg2:T29	
+R30	Used_for Arg1:T17 Arg2:T29	
+R31	Used_for Arg1:T31 Arg2:T18	
+R32	Used_for Arg1:T19 Arg2:T18	
+R33	Experiences Arg1:T46 Arg2:T18	
+R34	Used_for Arg1:T20 Arg2:T32	
+R35	Used_for Arg1:T20 Arg2:T21	
+T47	Neg_cue 1380 1382	no
+T49	CONC 1383 1388	varió
+A2	Assertion T49 Negated
+#36	AnnotatorNotes T49	C1705241; Delta (difference); Quantitative Concept
+R36	Negation Arg1:T47 Arg2:T49	
+R37	Experiences Arg1:T48 Arg2:T24	
+R38	Experiences Arg1:T48 Arg2:T25	
+R39	Used_for Arg1:T25 Arg2:T26	
+R40	Used_for Arg1:T24 Arg2:T26	
+R41	Experiences Arg1:T48 Arg2:T13	
+R42	Used_for Arg1:T25 Arg2:T33	
+R43	Used_for Arg1:T24 Arg2:T33	
+R44	Before Arg1:T7 Arg2:T11	
+R45	Used_for Arg1:T10 Arg2:T28	
+R46	Used_for Arg1:T11 Arg2:T28	
+T50	Observation 1094 1116	finalizaron el estudio
+#37	AnnotatorNotes T50	C2732579; Completion of clinical trial; Finding
+A3	Experiencer T35 Patient
+A4	Experiencer T36 Patient
+A5	Experiencer T38 Patient
+A6	Experiencer T39 Patient
+A7	Experiencer T44 Patient
+A8	Experiencer T46 Patient
+A9	Experiencer T48 Patient

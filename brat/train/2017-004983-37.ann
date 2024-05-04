@@ -1,0 +1,381 @@
+T1	PROC 44 92	Estudio multicéntrico, aleatorizado, prospectivo
+T2	PROC 1855 1886	niveles de tacrolimus en sangre
+#1	AnnotatorNotes T2	C1271702; Blood tacrolimus level; Laboratory Procedure
+T3	PROC 178 193	inmunosupresión
+#2	AnnotatorNotes T3	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T4	PROC 200 219	Trasplante Hepático
+#3	AnnotatorNotes T4	C0023911; Transplantation of liver; Therapeutic or Preventive Procedure
+T5	PROC 273 295	trasplantado el hígado
+T6	ANAT 289 295	hígado
+#4	AnnotatorNotes T6	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T7	PROC 322 341	Trasplante hepático
+#5	AnnotatorNotes T7	C0023911; Transplantation of liver; Therapeutic or Preventive Procedure
+T8	PROC 405 427	trasplantado de higado
+T9	PROC 452 483	Tratamiento con inmunosupresión
+T10	PROC 1737 1763	niveles de ciclosporinemia
+#6	AnnotatorNotes T10	C1278100; Blood cyclosporin measurement; Laboratory Procedure 
+T11	CHEM 496 508	ciclosporina
+#7	AnnotatorNotes T11	C0010592; cyclosporine; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T12	CHEM 510 520	tacrolimus
+#8	AnnotatorNotes T12	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T13	CHEM 522 525	MMF
+#9	AnnotatorNotes T13	C0209368; mycophenolate mofetil; Organic Chemical · Pharmacologic Substance
+T14	CHEM 527 537	esteroides
+#10	AnnotatorNotes T14	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T15	CHEM 540 550	Everolimus
+#11	AnnotatorNotes T15	C0541315; everolimus; Organic Chemical · Pharmacologic Substance
+T16	ANAT 572 580	hepática
+#12	AnnotatorNotes T16	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T17	PROC 682 706	controles de laboratorio
+T18	DISO 764 777	rechazo agudo
+#13	AnnotatorNotes T18	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T19	DISO 806 821	rechazo crónico
+#14	AnnotatorNotes T19	C0301948; Chronic graft rejection; Pathologic Function
+T20	PROC 848 867	trasplante hepático
+#15	AnnotatorNotes T20	C0023911; Transplantation of liver; Therapeutic or Preventive Procedure
+T21	DISO 922 946	cirrosis biliar primaria
+#16	AnnotatorNotes T21	C0008312; Primary Biliary Cholangitis; Disease or Syndrome
+T22	DISO 948 968	hepatitis autoinmune
+#17	AnnotatorNotes T22	C0241910; Autoimmune Chronic Hepatitis; Disease or Syndrome
+T23	DISO 971 1003	colangitis esclerosante primaria
+#18	AnnotatorNotes T23	C0566602; Primary sclerosing cholangitis; Disease or Syndrome
+T24	PROC 1011 1024	trasplantados
+#19	AnnotatorNotes T24	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T25	DISO 1029 1060	enfermedades de etiología viral
+T26	PROC 1190 1226	consentimiento informado por escrito
+#20	AnnotatorNotes T26	C0811741; Obtain informed written consent; Health Care Activity
+T27	PROC 1273 1292	trasplante hepático
+#21	AnnotatorNotes T27	C0023911; Transplantation of liver; Therapeutic or Preventive Procedure
+T28	CHEM 1357 1369	Ciclosporina
+#22	AnnotatorNotes T28	C0010592; cyclosporine; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T29	CHEM 1480 1490	Tacrolimus
+#23	AnnotatorNotes T29	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T30	CHEM 1512 1522	tacrolimus
+#24	AnnotatorNotes T30	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T31	PROC 1313 1315	IS
+#25	AnnotatorNotes T31	C0021079; immunosuppression; Therapeutic or Preventive Procedure
+T32	PROC 1570 1589	trasplante hepático
+#26	AnnotatorNotes T32	C0023911; Transplantation of liver; Therapeutic or Preventive Procedure
+T33	PROC 1633 1648	inmunosupresión
+#27	AnnotatorNotes T33	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T34	CHEM 1653 1680	inhibidores de calcineurina
+T35	CHEM 1717 1729	Ciclosporina
+#28	AnnotatorNotes T35	C0010592; cyclosporine; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T36	CHEM 1837 1847	Tacrolimus
+#29	AnnotatorNotes T36	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T37	CHEM 1866 1876	tacrolimus
+#30	AnnotatorNotes T37	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T38	PROC 1946 1956	Trasplante
+#31	AnnotatorNotes T38	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T39	ANAT 1965 1971	órgano
+#32	AnnotatorNotes T39	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T40	ANAT 1975 1983	hepático
+#33	AnnotatorNotes T40	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T41	PROC 1986 2005	Trasplante hepático
+#34	AnnotatorNotes T41	C0023911; Transplantation of liver; Therapeutic or Preventive Procedure
+T42	DISO 2014 2052	enfermedad de etiopatogenia autoinmune
+T43	DISO 2054 2078	cirrosis biliar primaria
+#35	AnnotatorNotes T43	C0008312; Primary Biliary Cholangitis; Disease or Syndrome
+T44	DISO 2080 2112	Colangitis esclerosante primaria
+#36	AnnotatorNotes T44	C0566602; Primary sclerosing cholangitis; Disease or Syndrome
+T45	DISO 2115 2135	hepatitis autoinmune
+#37	AnnotatorNotes T45	C0241910; Autoimmune Chronic Hepatitis; Disease or Syndrome
+T46	ANAT 2167 2175	hepático
+#38	AnnotatorNotes T46	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T47	DISO 2178 2225	Infección activa por el virus de la hepatitis C
+T48	DISO 2275 2290	rechazo crónico
+#39	AnnotatorNotes T48	C0301948; Chronic graft rejection; Pathologic Function
+T49	DISO 2294 2307	rechazo agudo
+#40	AnnotatorNotes T49	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T50	PROC 2356 2380	consentimiento informado
+#41	AnnotatorNotes T50	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T51	PROC 2383 2399	biopsia hepática
+#42	AnnotatorNotes T51	C0193388; Biopsy of liver (procedure); Diagnostic Procedure
+T52	DISO 2404 2435	inflamación portal o lobulillar
+T53	ANAT 2425 2435	lobulillar
+#43	AnnotatorNotes T53	C0921005; Lobule; Body Part, Organ, or Organ Component
+T54	DISO 2466 2499	enfermedad reumática / autoinmune
+T55	PROC 2521 2547	tratamiento inmunosupresor
+#44	AnnotatorNotes T55	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T56	PROC 99 118	definir la eficacia
+T57	ANAT 211 219	Hepático
+#45	AnnotatorNotes T57	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T58	ANAT 421 427	higado
+#46	AnnotatorNotes T58	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T59	ANAT 333 341	hepático
+#47	AnnotatorNotes T59	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T60	PROC 634 647	transaminasas
+#48	AnnotatorNotes T60	C0919834; Transaminase Assay; Laboratory Procedure
+T61	PROC 650 668	fosfatasa alcalina
+#49	AnnotatorNotes T61	C0201850; Alkaline phosphatase measurement; Laboratory Procedure
+T62	ANAT 859 867	hepático
+#50	AnnotatorNotes T62	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T63	ANAT 931 937	biliar
+#51	AnnotatorNotes T63	C0005388; Bile fluid; Body Substance
+T64	PROC 1152 1161	protocolo
+#52	AnnotatorNotes T64	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T65	ANAT 1284 1292	hepático
+#53	AnnotatorNotes T65	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T66	PROC 1341 1352	tratamiento
+#54	AnnotatorNotes T66	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T67	PROC 1464 1475	tratamiento
+#55	AnnotatorNotes T67	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T68	ANAT 1526 1532	sangre
+#56	AnnotatorNotes T68	C0005767; Blood; Body Substance
+T69	PROC 1608 1610	IS
+#57	AnnotatorNotes T69	C0021079; immunosuppression; Therapeutic or Preventive Procedure
+T70	ANAT 1581 1589	hepático
+#58	AnnotatorNotes T70	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T71	PROC 1380 1406	niveles de ciclosporinemia
+#59	AnnotatorNotes T71	C1278100; Blood cyclosporin measurement; Laboratory Procedure
+T72	PROC 1501 1532	niveles de tacrolimus en sangre
+#60	AnnotatorNotes T72	C1271702; Blood tacrolimus level; Laboratory Procedure
+T73	PROC 1701 1712	tratamiento
+#61	AnnotatorNotes T73	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T74	PROC 1821 1832	tratamiento
+#62	AnnotatorNotes T74	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T75	ANAT 1880 1886	sangre
+#63	AnnotatorNotes T75	C0005767; Blood; Body Substance
+T76	ANAT 1997 2005	hepático
+#64	AnnotatorNotes T76	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T77	ANAT 2063 2069	biliar
+#65	AnnotatorNotes T77	C0005388; Bile fluid; Body Substance
+T78	PROC 2154 2175	retrasplante hepático
+T79	DISO 2235 2258	virus de la hepatitis B
+T80	ANAT 2391 2399	hepática
+#66	AnnotatorNotes T80	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T81	ANAT 2416 2422	portal
+#67	AnnotatorNotes T81	C0205054; Hepatic; Body Location or Region
+T82	CHEM 2533 2547	inmunosupresor
+#68	AnnotatorNotes T82	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T83	Date 12 16	2017
+T84	Neg_cue 166 177	retirada de
+T85	LIVB 242 250	Personas
+#69	AnnotatorNotes T85	C0027361; Persons; Population Group
+T86	Age 375 391	mayor de 18 años
+T87	Date 428 449	hace más de tres años
+T88	Date 591 604	el último año
+T89	Date 733 743	último año
+T90	Neg_cue 747 749	No
+T91	Date 781 794	el último año
+T92	Neg_cue 797 799	no
+T93	Duration 814 821	crónico
+#70	AnnotatorNotes T93	C0205191; chronic; Temporal Concept
+T94	Neg_cue 869 874	salvo
+T95	LIVB 1055 1060	viral
+#71	AnnotatorNotes T95	C0042776; Virus; Virus
+T96	LIVB 1077 1082	viral
+#72	AnnotatorNotes T96	C0042776; Virus; Virus
+T97	LIVB 1092 1101	Pacientes
+#73	AnnotatorNotes T97	C0030705; Patients; Patient or Disabled Group
+T98	LIVB 1164 1173	Pacientes
+#74	AnnotatorNotes T98	C0030705; Patients; Patient or Disabled Group
+T99	LIVB 1259 1268	Pacientes
+#75	AnnotatorNotes T99	C0030705; Patients; Patient or Disabled Group
+T101	LIVB 1439 1448	pacientes
+#76	AnnotatorNotes T101	C0030705; Patients; Patient or Disabled Group
+T102	LIVB 1556 1565	Pacientes
+#77	AnnotatorNotes T102	C0030705; Patients; Patient or Disabled Group
+T103	Neg_cue 1649 1652	sin
+T104	LIVB 1802 1811	pacientes
+#78	AnnotatorNotes T104	C0030705; Patients; Patient or Disabled Group
+T105	Neg_cue 1972 1974	no
+T106	LIVB 2140 2149	Pacientes
+#79	AnnotatorNotes T106	C0030705; Patients; Patient or Disabled Group
+T107	LIVB 2202 2225	virus de la hepatitis C
+#80	AnnotatorNotes T107	C0220847; hepatitis C virus; Virus
+T109	LIVB 2261 2270	Pacientes
+#81	AnnotatorNotes T109	C0030705; Patients; Patient or Disabled Group
+T110	Duration 2283 2290	crónico
+#82	AnnotatorNotes T110	C0205191; chronic; Temporal Concept
+T111	Date 2311 2324	el último año
+T112	Neg_cue 2327 2341	Incapacidad de
+T113	LIVB 2452 2461	Pacientes
+#83	AnnotatorNotes T113	C0030705; Patients; Patient or Disabled Group
+T114	PHYS 564 580	función hepática
+#84	AnnotatorNotes T114	C0232741; Liver function; Organ or Tissue Function
+T115	PHYS 1065 1082	replicación viral
+#85	AnnotatorNotes T115	C0042774; Virus Replication; Cell Function
+T100	PHYS 2342 2352	comprender
+#86	AnnotatorNotes T100	C0162340; Comprehension; Mental Process
+A1	Assertion T3 Negated
+A2	Assertion T18 Negated
+A3	Assertion T19 Negated
+A4	Assertion T21 Negated
+A5	Assertion T22 Negated
+A6	Assertion T23 Negated
+A7	Assertion T25 Negated
+A8	Assertion T115 Negated
+A9	Assertion T34 Negated
+A10	Assertion T40 Negated
+A11	Assertion T100 Negated
+A12	Status T8 History_of
+A13	Status T18 History_of
+#87	AnnotatorNotes T56	C1707887; Efficacy Study; Research Activity
+#88	AnnotatorNotes T1	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0033522; Prospective Studies; Research Activity
+#89	AnnotatorNotes T5	C0023911; Transplantation of liver; Therapeutic or Preventive Procedure
+#90	AnnotatorNotes T8	C0023911; Transplantation of liver; Therapeutic or Preventive Procedure
+#91	AnnotatorNotes T9	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+#92	AnnotatorNotes T34	C1562036; Calcineurin inhibitor; Pharmacologic Substance
+#93	AnnotatorNotes T78	C4087552; Liver retransplantation; Therapeutic or Preventive Procedure 
+#94	AnnotatorNotes T79	C0019163; Hepatitis B; Disease or Syndrome
+#95	AnnotatorNotes T52	C2748698; Portal inflammation; Pathologic Function | C5421676; Hepatic lobular inflammation; Pathologic Function
+#96	AnnotatorNotes T54	C0035435; Rheumatism; Disease or Syndrome + C0004364; Autoimmune Diseases; Disease or Syndrome
+T108	Neg_cue 1293 1296	sin
+T116	Quantifier_or_Qualifier 1297 1309	minimización
+A14	Assertion T116 Negated
+R1	Negation Arg1:T92 Arg2:T19	
+R2	Negation Arg1:T90 Arg2:T18	
+R3	Negation Arg1:T94 Arg2:T21	
+R4	Negation Arg1:T94 Arg2:T22	
+R5	Negation Arg1:T94 Arg2:T23	
+R6	Negation Arg1:T94 Arg2:T25	
+R7	Negation Arg1:T94 Arg2:T115	
+T117	Quantifier_or_Qualifier 1083 1089	activa
+A15	Assertion T117 Negated
+#97	AnnotatorNotes T117	C0679217; Active State; Idea or Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T115 Arg2:T117	
+R10	Negation Arg1:T108 Arg2:T116	
+R11	Negation Arg1:T103 Arg2:T34	
+R12	Negation Arg1:T105 Arg2:T40	
+R13	Negation Arg1:T112 Arg2:T100	
+R14	Overlap Arg1:T100 Arg2:T50	
+R15	After Arg1:T56 Arg2:T3	
+R16	Negation Arg1:T84 Arg2:T3	
+R17	Overlap Arg1:T3 Arg2:T4	
+R18	Location_of Arg1:T57 Arg2:T4	
+R19	Experiences Arg1:T85 Arg2:T5	
+R20	Location_of Arg1:T6 Arg2:T5	
+R21	Location_of Arg1:T59 Arg2:T7	
+R22	Location_of Arg1:T58 Arg2:T8	
+R23	Overlap Arg1:T8 Arg2:T87	
+R24	Used_for Arg1:T11 Arg2:T9	
+R25	Used_for Arg1:T12 Arg2:T9	
+R26	Used_for Arg1:T13 Arg2:T9	
+R27	Used_for Arg1:T14 Arg2:T9	
+R28	Used_for Arg1:T15 Arg2:T9	
+R29	Location_of Arg1:T16 Arg2:T114	
+T118	Observation 564 587	función hepática normal
+#98	AnnotatorNotes T118	C1848676; Normal liver function; Finding
+R30	Overlap Arg1:T118 Arg2:T88	
+R31	Location_of Arg1:T16 Arg2:T118	
+T119	Result_or_Value 620 630	normalidad
+#99	AnnotatorNotes T119	C0459422; Normal result; Finding | C0586624; Normal laboratory finding; Finding
+R32	Has_Result_or_Value Arg1:T60 Arg2:T119	
+R33	Has_Result_or_Value Arg1:T61 Arg2:T119	
+R34	Has_Result_or_Value Arg1:T17 Arg2:T119	
+R35	Overlap Arg1:T17 Arg2:T89	
+R36	Overlap Arg1:T60 Arg2:T89	
+R37	Overlap Arg1:T61 Arg2:T89	
+#100	AnnotatorNotes T17	C0022885; Laboratory Procedures; Laboratory Procedure
+R38	Overlap Arg1:T18 Arg2:T91	
+R39	Has_Duration_or_Interval Arg1:T19 Arg2:T93	
+R43	Location_of Arg1:T62 Arg2:T20	
+T120	Quantifier_or_Qualifier 910 920	autoinmune
+#101	AnnotatorNotes T120	C4551524; Autoimmune; Functional Concept
+T121	CONC 896 909	etiopatogenia
+#102	AnnotatorNotes T121	C1510540; Etiopathogenesis; Functional Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T121 Arg2:T120	
+A16	Assertion T121 Negated
+R45	Negation Arg1:T94 Arg2:T121	
+A17	Assertion T120 Negated
+R46	Negation Arg1:T94 Arg2:T120	
+R47	Location_of Arg1:T63 Arg2:T21	
+#103	AnnotatorNotes T25	C0042769; Virus Diseases; Disease or Syndrome (?)
+R48	Causes Arg1:T95 Arg2:T25	
+R49	Causes Arg1:T96 Arg2:T25	
+T122	Observation 1140 1161	adhesión al protocolo
+#104	AnnotatorNotes T122	C2364172; Adherence To Medication Regime; Finding (?)
+T123	Observation 1232 1256	participar en el estudio
+#105	AnnotatorNotes T123	C1278516; Patient participation status; Finding
+R50	Before Arg1:T26 Arg2:T123	
+R51	Experiences Arg1:T99 Arg2:T27	
+R52	Location_of Arg1:T65 Arg2:T27	
+R53	Overlap Arg1:T27 Arg2:T31	
+R54	Used_for Arg1:T28 Arg2:T66	
+R55	Experiences Arg1:T99 Arg2:T66	
+R56	Used_for Arg1:T28 Arg2:T31	
+R57	Overlap Arg1:T66 Arg2:T71	
+T124	Result_or_Value 1407 1428	superiores a 50 ng/ml
+R58	Has_Result_or_Value Arg1:T71 Arg2:T124	
+R59	Experiences Arg1:T99 Arg2:T71	
+R60	Experiences Arg1:T101 Arg2:T67	
+R61	Used_for Arg1:T29 Arg2:T31	
+R62	Used_for Arg1:T29 Arg2:T67	
+R63	Experiences Arg1:T101 Arg2:T72	
+R64	Location_of Arg1:T68 Arg2:T72	
+R65	Overlap Arg1:T67 Arg2:T72	
+T125	Result_or_Value 1533 1553	superiores a 5 ng/ml
+R66	Has_Result_or_Value Arg1:T72 Arg2:T125	
+R67	Experiences Arg1:T99 Arg2:T67	
+R68	Experiences Arg1:T99 Arg2:T72	
+R69	Location_of Arg1:T70 Arg2:T32	
+R70	Overlap Arg1:T32 Arg2:T69	
+R71	Experiences Arg1:T102 Arg2:T32	
+R72	Used_for Arg1:T34 Arg2:T33	
+R73	Used_for Arg1:T34 Arg2:T69	
+T126	Quantifier_or_Qualifier 1592 1604	minimización
+R74	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T116	
+R75	Has_Quantifier_or_Qualifier Arg1:T69 Arg2:T126	
+R76	Used_for Arg1:T35 Arg2:T73	
+R77	Used_for Arg1:T35 Arg2:T69	
+R78	Experiences Arg1:T102 Arg2:T73	
+R79	Experiences Arg1:T102 Arg2:T69	
+R80	Experiences Arg1:T99 Arg2:T31	
+R81	Experiences Arg1:T101 Arg2:T31	
+R82	Experiences Arg1:T101 Arg2:T27	
+R83	Experiences Arg1:T102 Arg2:T33	
+R84	Experiences Arg1:T102 Arg2:T10	
+R85	Overlap Arg1:T73 Arg2:T10	
+T127	Result_or_Value 1764 1795	iguales o inferiores a 50 ng/ml
+R86	Has_Result_or_Value Arg1:T10 Arg2:T127	
+R87	Experiences Arg1:T104 Arg2:T74	
+R88	Used_for Arg1:T36 Arg2:T74	
+R89	Used_for Arg1:T36 Arg2:T69	
+R90	Experiences Arg1:T104 Arg2:T32	
+R91	Overlap Arg1:T74 Arg2:T2	
+R92	Location_of Arg1:T75 Arg2:T2	
+R93	Experiences Arg1:T104 Arg2:T2	
+R94	Experiences Arg1:T102 Arg2:T2	
+T128	Result_or_Value 1887 1917	iguales o inferiores a 5 ng/ml
+R95	Has_Result_or_Value Arg1:T2 Arg2:T128	
+R96	Location_of Arg1:T40 Arg2:T38	
+R97	Location_of Arg1:T39 Arg2:T38	
+R98	Location_of Arg1:T76 Arg2:T41	
+#106	AnnotatorNotes T42	C0004364; Autoimmune Diseases; Disease or Syndrome
+R99	Location_of Arg1:T77 Arg2:T43	
+R100	Location_of Arg1:T46 Arg2:T78	
+R101	Experiences Arg1:T106 Arg2:T78	
+R102	Causes Arg1:T107 Arg2:T47	
+#107	AnnotatorNotes T47	C0019196; Hepatitis C; Disease or Syndrome (?)
+R103	Experiences Arg1:T109 Arg2:T48	
+R104	Has_Duration_or_Interval Arg1:T48 Arg2:T110	
+R105	Overlap Arg1:T49 Arg2:T111	
+R106	Experiences Arg1:T109 Arg2:T49	
+R107	Location_of Arg1:T80 Arg2:T51	
+R108	Location_of Arg1:T81 Arg2:T52	
+R109	Location_of Arg1:T53 Arg2:T52	
+T129	Quantifier_or_Qualifier 2436 2449	significativa
+#108	AnnotatorNotes T129	C1546944; Event Seriousness - Significant; Qualitative Concept
+R111	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T129	
+R112	Experiences Arg1:T113 Arg2:T54	
+R113	Experiences Arg1:T113 Arg2:T55	
+R114	Used_for Arg1:T82 Arg2:T55	
+T130	Quantifier_or_Qualifier 2548 2566	de forma mantenida
+#109	AnnotatorNotes T130	C0443318; Sustained; Functional Concept
+R115	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T130	
+T131	Observation 147 157	tolerancia
+R116	After Arg1:T131 Arg2:T3	
+R8	Overlap Arg1:T25 Arg2:T115	
+R40	Overlap Arg1:T122 Arg2:T64	
+#110	AnnotatorNotes T131	C1287527; Drug tolerance - finding; Finding (?)
+A18	Experiencer T85 Patient
+A19	Experiencer T97 Patient
+A20	Experiencer T98 Patient
+A21	Experiencer T99 Patient
+A22	Experiencer T101 Patient
+A23	Experiencer T102 Patient
+A24	Experiencer T104 Patient
+A25	Experiencer T106 Patient
+A26	Experiencer T109 Patient
+A27	Experiencer T113 Patient

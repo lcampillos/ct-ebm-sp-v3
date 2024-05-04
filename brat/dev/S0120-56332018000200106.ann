@@ -1,0 +1,206 @@
+T1	PROC 58 119	programa de rehabilitación cardiaca supervisado con ejercicio
+T2	ANAT 198 206	cardiaca
+#1	AnnotatorNotes T2	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T3	ANAT 356 364	cardiaca
+#2	AnnotatorNotes T3	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T4	PROC 386 446	ensayo clínico con doble enmascaramiento de grupos paralelos
+#3	AnnotatorNotes T4	C2826345; Parallel Study; Research Activity + C0013072; Double-Blind Method; Research Activity + C0008976; Clinical Trials; Research Activity
+T5	DISO 465 479	falla cardiaca
+#4	AnnotatorNotes T5	C0018801; Heart failure; Disease or Syndrome
+T6	ANAT 471 479	cardiaca
+#5	AnnotatorNotes T6	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T7	PROC 526 546	fracción de eyección
+#6	AnnotatorNotes T7	C0489482; Ejection fraction (procedure); Diagnostic Procedure
+T8	PROC 781 793	evaluaciones
+#7	AnnotatorNotes T8	C1261322; Evaluation procedure; Health Care Activity
+T9	ANAT 832 846	cardiopulmonar
+#8	AnnotatorNotes T9	C0553534; Cardiopulmonary; Body Location or Region
+T10	PROC 1038 1050	intervención
+#9	AnnotatorNotes T10	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T11	PROC 1187 1234	evaluaciones de funcionalidad y calidad de vida
+T12	ANAT 1493 1501	cardiaca
+#10	AnnotatorNotes T12	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T13	PROC 1510 1530	fracción de eyección
+#11	AnnotatorNotes T13	C0489482; Ejection fraction (procedure); Diagnostic Procedure
+T14	PROC 1 28	Ensayo clínico aleatorizado
+#12	AnnotatorNotes T14	C0206034; Clinical Trials, Randomized; Research Activity
+T15	ANAT 85 93	cardiaca
+#13	AnnotatorNotes T15	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T16	CHEM 137 144	oxígeno
+#14	AnnotatorNotes T16	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T17	DISO 192 214	falla cardiaca crónica
+#15	AnnotatorNotes T17	C0264716; Chronic heart failure; Disease or Syndrome
+T18	CHEM 292 299	oxígeno
+#16	AnnotatorNotes T18	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T19	DISO 350 364	falla cardiaca
+#17	AnnotatorNotes T19	C0018801; Heart failure; Disease or Syndrome
+T20	CHEM 594 601	oxígeno
+#18	AnnotatorNotes T20	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T21	PROC 688 700	intervención
+#19	AnnotatorNotes T21	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T22	PROC 1420 1469	programa de ejercicio protocolizado y supervisado
+T23	DISO 733 744	fallecieron
+#20	AnnotatorNotes T23	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T24	PROC 812 846	prueba de ejercicio cardiopulmonar
+#21	AnnotatorNotes T24	C2959886; Cardiopulmonary Exercise Test; Diagnostic Procedure
+T25	PROC 892 904	intervención
+#22	AnnotatorNotes T25	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T26	PROC 1105 1117	intervención
+#23	AnnotatorNotes T26	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T27	DISO 1487 1501	falla cardiaca
+#24	AnnotatorNotes T27	C0018801; Heart failure; Disease or Syndrome
+T28	PROC 251 271	programa supervisado
+T30	LIVB 178 187	pacientes
+#25	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Duration 207 214	crónica
+#26	AnnotatorNotes T31	C0205191; chronic; Temporal Concept
+T33	LIVB 336 345	pacientes
+#27	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 451 460	pacientes
+#28	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T37	Duration 507 521	más de 6 meses
+T39	Duration 609 622	las 8 semanas
+T40	LIVB 649 658	pacientes
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 679 700	grupo de intervención
+#30	AnnotatorNotes T41	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T42	LIVB 709 725	grupo de control
+#31	AnnotatorNotes T42	C0009932; Control Groups; Group
+T43	Neg_cue 748 758	se negaron
+T44	Neg_cue 798 800	no
+T45	LIVB 883 904	grupo de intervención
+#32	AnnotatorNotes T45	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T46	LIVB 916 932	grupo de control
+#33	AnnotatorNotes T46	C0009932; Control Groups; Group
+T48	Duration 1053 1066	las 8 semanas
+T50	LIVB 1096 1117	grupo de intervención
+#34	AnnotatorNotes T50	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T52	LIVB 1154 1170	grupo de control
+#35	AnnotatorNotes T52	C0009932; Control Groups; Group
+T54	Duration 1268 1281	las 8 semanas
+T55	Duration 1284 1291	6 meses
+T56	LIVB 1473 1482	pacientes
+#36	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T59	PHYS 538 546	eyección
+#37	AnnotatorNotes T59	C2733340; Ventricular ejection; Physiologic Function
+T60	PHYS 1522 1530	eyección
+#38	AnnotatorNotes T60	C2733340; Ventricular ejection; Physiologic Function
+T29	PROC 159 174	calidad de vida
+#39	AnnotatorNotes T29	C0281588; Assessment of quality of life; Diagnostic Procedure
+T32	PROC 317 332	calidad de vida
+#40	AnnotatorNotes T32	C0281588; Assessment of quality of life; Diagnostic Procedure
+T47	PROC 1376 1391	calidad de vida
+#41	AnnotatorNotes T47	C0281588; Assessment of quality of life; Diagnostic Procedure
+T35	PROC 480 496	estado funcional
+#42	AnnotatorNotes T35	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T36	PROC 946 949	VO2
+#43	AnnotatorNotes T36	C1305742; Oxygen consumption measurement; Diagnostic Procedure
+T38	PROC 1578 1581	VO2
+#44	AnnotatorNotes T38	C1305742; Oxygen consumption measurement; Diagnostic Procedure
+A1	Assertion T24 Negated
+A2	Assertion T8 Negated
+R1	Negation Arg1:T44 Arg2:T24	
+T49	Neg_cue 956 958	no
+T51	CONC 973 980	cambios
+A3	Assertion T51 Negated
+#45	AnnotatorNotes T51	C0443172; Changed status; Quantitative Concept
+R2	Negation Arg1:T49 Arg2:T51	
+T53	Neg_cue 1235 1237	no
+T57	CONC 1238 1248	difirieron
+A4	Assertion T57 Negated
+#46	AnnotatorNotes T57	C1705242; Different; Qualitative Concept
+R3	Negation Arg1:T53 Arg2:T57	
+T58	Neg_cue 1538 1540	no
+T61	CONC 1549 1556	cambios
+A5	Assertion T61 Negated
+#47	AnnotatorNotes T61	C0443172; Changed status; Quantitative Concept
+R4	Negation Arg1:T58 Arg2:T61	
+R5	Location_of Arg1:T15 Arg2:T1	
+T62	Observation 45 51	efecto
+#48	AnnotatorNotes T62	C1518681; Outcome of Therapy; Finding (?)
+R6	Causes Arg1:T1 Arg2:T62	
+R7	Experiences Arg1:T30 Arg2:T29	
+R8	Experiences Arg1:T30 Arg2:T17	
+R9	Experiences Arg1:T30 Arg2:T62	
+R10	Experiences Arg1:T30 Arg2:T1	
+R11	Location_of Arg1:T2 Arg2:T17	
+R12	Has_Duration_or_Interval Arg1:T17 Arg2:T31	
+R13	Experiences Arg1:T33 Arg2:T19	
+R14	Location_of Arg1:T3 Arg2:T19	
+R15	Experiences Arg1:T33 Arg2:T32	
+R16	Experiences Arg1:T33 Arg2:T28	
+T63	Observation 238 244	efecto
+#49	AnnotatorNotes T63	C1518681; Outcome of Therapy; Finding (?)
+R17	Causes Arg1:T28 Arg2:T63	
+R18	Experiences Arg1:T33 Arg2:T63	
+R19	Experiences Arg1:T34 Arg2:T5	
+R20	Location_of Arg1:T6 Arg2:T5	
+R21	Experiences Arg1:T34 Arg2:T35	
+T64	Result_or_Value 497 502	II-IV
+R22	Has_Result_or_Value Arg1:T35 Arg2:T64	
+R23	Overlap Arg1:T35 Arg2:T37	
+T65	Result_or_Value 547 552	< 40%
+R24	Has_Result_or_Value Arg1:T7 Arg2:T65	
+R26	Experiences Arg1:T34 Arg2:T7	
+R27	Experiences Arg1:T34 Arg2:T59	
+R28	Experiences Arg1:T41 Arg2:T21	
+R29	Negation Arg1:T43 Arg2:T8	
+R31	Experiences Arg1:T45 Arg2:T25	
+T66	Observation 583 606	consumo de oxígeno pico
+#50	AnnotatorNotes T66	C4727347; Peak Oxygen Consumption; Finding
+R32	Overlap Arg1:T66 Arg2:T39	
+T67	Observation 946 954	VO2 pico
+#51	AnnotatorNotes T67	C4727347; Peak Oxygen Consumption; Finding
+R34	After Arg1:T51 Arg2:T10	
+R35	Has_Duration_or_Interval Arg1:T10 Arg2:T48	
+R36	Overlap Arg1:T51 Arg2:T48	
+R37	Overlap Arg1:T36 Arg2:T48	
+R38	Before Arg1:T10 Arg2:T36	
+R39	Before Arg1:T10 Arg2:T67	
+R40	Experiences Arg1:T50 Arg2:T26	
+R41	Experiences Arg1:T50 Arg2:T36	
+R42	Experiences Arg1:T50 Arg2:T67	
+R43	Experiences Arg1:T52 Arg2:T67	
+R44	Experiences Arg1:T52 Arg2:T36	
+R45	After Arg1:T51 Arg2:T26	
+R46	After Arg1:T57 Arg2:T54	
+R47	After Arg1:T57 Arg2:T55	
+R48	After Arg1:T11 Arg2:T54	
+R49	After Arg1:T11 Arg2:T55	
+T68	Observation 1315 1322	mejoría
+#52	AnnotatorNotes T68	C0184511; Improved; Finding (?)
+R50	Experiences Arg1:T56 Arg2:T22	
+R51	Experiences Arg1:T56 Arg2:T27	
+R52	Location_of Arg1:T12 Arg2:T27	
+R53	Experiences Arg1:T56 Arg2:T13	
+R54	Experiences Arg1:T56 Arg2:T60	
+R55	Experiences Arg1:T56 Arg2:T38	
+T69	Observation 1578 1586	VO2 pico
+#53	AnnotatorNotes T69	C4727347; Peak Oxygen Consumption; Finding
+R56	Experiences Arg1:T56 Arg2:T69	
+T70	Result_or_Value 1531 1536	< 40%
+R59	Has_Result_or_Value Arg1:T13 Arg2:T70	
+R60	Has_Duration_or_Interval Arg1:T26 Arg2:T48	
+T71	Quantifier_or_Qualifier 981 1012	estadísticamente significativos
+A6	Assertion T71 Negated
+#54	AnnotatorNotes T71	C0237881; Statistical Significance; Quantitative Concept
+R61	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T71	
+R62	Negation Arg1:T49 Arg2:T71	
+T72	Quantifier_or_Qualifier 1557 1571	significativos
+A7	Assertion T72 Negated
+#55	AnnotatorNotes T72	C0750502; Significant; Idea or Concept
+R63	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T72	
+R64	Negation Arg1:T58 Arg2:T72	
+R25	Location_of Arg1:T9 Arg2:T24	
+#56	AnnotatorNotes T11	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure + C0281588; Assessment of quality of life; Diagnostic Procedure
+A8	Experiencer T30 Patient
+A9	Experiencer T33 Patient
+A10	Experiencer T34 Patient
+A11	Experiencer T40 Patient
+A12	Experiencer T42 Patient
+A13	Experiencer T41 Patient
+A14	Experiencer T45 Patient
+A15	Experiencer T46 Patient
+A16	Experiencer T52 Patient
+A17	Experiencer T50 Patient
+A18	Experiencer T56 Patient

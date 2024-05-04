@@ -1,0 +1,192 @@
+T1	CHEM 90 106	Emuliquen Simple
+T2	PROC 132 152	cirugía proctológica
+T3	PROC 175 242	Estudio de fase IV, unicéntrico, abierto y aleatorizado de 2 grupos
+T4	PROC 323 343	cirugía proctológica
+T5	PROC 367 387	cirugía proctológica
+T6	PROC 487 499	intervenidos
+#1	AnnotatorNotes T6	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T7	PROC 503 521	cirugía ano-rectal
+T8	ANAT 511 514	ano
+#2	AnnotatorNotes T8	C0003461; Anus; Body Part, Organ, or Organ Component | C1278927; Entire anus; Body Part, Organ, or Organ Component
+T9	PROC 687 701	consentimiento
+#3	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	DISO 534 545	hemorroides
+#4	AnnotatorNotes T10	C0019112; Hemorrhoids; Disease or Syndrome
+T11	DISO 555 567	fístula anal
+#5	AnnotatorNotes T11	C0205929; Anal Fistula; Acquired Abnormality
+T12	DISO 570 597	pólipos canal anal benignos
+T13	ANAT 578 588	canal anal
+#6	AnnotatorNotes T13	C0227411; Anal canal; Body Space or Junction | C1280336; Entire anal canal; Body Space or Junction
+T14	PROC 624 642	técnica quirúrgica
+T15	CHEM 727 739	electrolitos
+#7	AnnotatorNotes T15	C0013832; Electrolytes; Inorganic Chemical · Pharmacologic Substance
+T16	PROC 716 739	niveles de electrolitos
+T17	PROC 888 911	métodos anticonceptivos
+#8	AnnotatorNotes T17	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T18	CHEM 961 968	fármaco
+#9	AnnotatorNotes T18	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T19	DISO 1041 1072	estreñimiento funcional crónico
+#10	AnnotatorNotes T19	C4060572; Chronic functional constipation; Pathologic Function
+T20	DISO 1116 1147	síndrome de intestino irritable
+#11	AnnotatorNotes T20	C0022104; Irritable Bowel Syndrome; Disease or Syndrome
+T21	PROC 1203 1230	prueba de embarazo en orina
+#12	AnnotatorNotes T21	C0430056; Urine pregnancy test; Laboratory Procedure
+T22	PROC 1282 1296	ensayo clínico
+#13	AnnotatorNotes T22	C0008976; Clinical Trials; Research Activity
+T23	DISO 1312 1329	hipersensibilidad
+#14	AnnotatorNotes T23	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T24	CHEM 1335 1344	lactulosa
+#15	AnnotatorNotes T24	C0022957; lactulose; Organic Chemical · Pharmacologic Substance
+T25	CHEM 1352 1368	parafina líquida
+#16	AnnotatorNotes T25	C0026156; mineral oil; Organic Chemical · Pharmacologic Substance
+T26	DISO 1384 1418	enfermedad inflamatoria intestinal
+#17	AnnotatorNotes T26	C0021390; Inflammatory Bowel Diseases; Disease or Syndrome
+T27	DISO 1433 1440	diarrea
+#18	AnnotatorNotes T27	C0011991; Diarrhea; Sign or Symptom
+T28	CHEM 280 297	Emuliquen® simple
+T29	ANAT 515 521	rectal
+#19	AnnotatorNotes T29	C0034896; Rectum; Body Part, Organ, or Organ Component | C1278926; Entire rectum; Body Part, Organ, or Organ Component
+T30	DISO 547 553	fisura
+#20	AnnotatorNotes T30	C1535972; Bone fissure; Injury or Poisoning
+T31	ANAT 563 567	anal
+#21	AnnotatorNotes T31	C0003461; Anus; Body Part, Organ, or Organ Component | C1278927; Entire anus; Body Part, Organ, or Organ Component
+T32	PROC 741 746	sodio
+#22	AnnotatorNotes T32	C0337443; Sodium measurement; Laboratory Procedure
+T33	PROC 749 756	potasio
+#23	AnnotatorNotes T33	C0202194; Potassium measurement; Laboratory Procedure
+T34	ANAT 1128 1137	intestino
+#24	AnnotatorNotes T34	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T35	ANAT 1225 1230	orina
+#25	AnnotatorNotes T35	C0042036; Urine; Body Substance
+T36	ANAT 1408 1418	intestinal
+#26	AnnotatorNotes T36	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T37	Date 13 17	2017
+T38	LIVB 110 119	pacientes
+#27	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 301 310	pacientes
+#28	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 414 438	Pacientes de ambos sexos
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T41	Age 443 461	entre 18 y 75 años
+T42	LIVB 463 472	Pacientes
+#30	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 655 664	Pacientes
+#31	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 702 711	Pacientes
+#32	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 840 871	mujeres potencialmente fértiles
+#33	AnnotatorNotes T46	C4324275; Woman of childbearing potential; Population Group
+T49	Neg_cue 917 923	evitar
+T50	PHYS 927 935	embarazo
+#34	AnnotatorNotes T50	C0032961; Pregnancy; Organism Function
+T51	LIVB 1007 1026	Paciente oncológico
+#35	AnnotatorNotes T51	C1516213; Cancer Patient; Patient or Disabled Group
+T52	LIVB 1028 1036	Paciente
+#36	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Duration 1065 1072	crónico
+#37	AnnotatorNotes T53	C0205191; chronic; Temporal Concept
+T54	LIVB 1103 1111	Paciente
+#38	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 1178 1198	Mujer en edad fértil
+#39	AnnotatorNotes T55	C4324275; Woman of childbearing potential; Population Group
+T56	Age 1187 1198	edad fértil
+T59	LIVB 1241 1250	Pacientes
+#40	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1298 1307	Pacientes
+#41	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 1370 1379	Pacientes
+#42	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 1419 1428	Pacientes
+#43	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	PHYS 1213 1221	embarazo
+#44	AnnotatorNotes T63	C0032961; Pregnancy; Organism Function
+A2	Assertion T50 Negated
+A3	Population_data T55 Age
+A4	Status T23 History_of
+#45	AnnotatorNotes T7	C0400140; Operative procedure on rectum AND/OR anus; Therapeutic or Preventive Procedure | C0919721; Anorectal operation; Therapeutic or Preventive Procedure
+#46	AnnotatorNotes T16	C0201992; Electrolytes measurement; Laboratory Procedure 
+T43	Form 1361 1368	líquida
+#47	AnnotatorNotes T43	C1697794; Liquid Dosage Form; Biomedical or Dental Material
+R1	Has_Drug_Form Arg1:T25 Arg2:T43	
+T47	Spec_cue 848 862	potencialmente
+T48	Quantifier_or_Qualifier 863 871	fértiles
+A5	Assertion T48 Speculated
+T57	PROC 248 275	evaluar el grado de confort
+#48	AnnotatorNotes T57	C0810978; Determine patient's comfort level; Health Care Activity
+T58	PROC 58 85	evaluar el grado de conford
+#49	AnnotatorNotes T58	C0810978; Determine patient's comfort level; Health Care Activity
+R2	Experiences Arg1:T38 Arg2:T1	
+R3	Experiences Arg1:T38 Arg2:T2	
+R4	Experiences Arg1:T39 Arg2:T28	
+R5	Experiences Arg1:T39 Arg2:T4	
+R6	Has_Age Arg1:T40 Arg2:T41	
+R8	Experiences Arg1:T42 Arg2:T7	
+R9	Location_of Arg1:T8 Arg2:T7	
+R10	Location_of Arg1:T29 Arg2:T7	
+R11	Experiences Arg1:T42 Arg2:T10	
+R12	Experiences Arg1:T42 Arg2:T30	
+R13	Experiences Arg1:T42 Arg2:T11	
+R14	Experiences Arg1:T42 Arg2:T12	
+R15	Location_of Arg1:T31 Arg2:T11	
+R16	Location_of Arg1:T13 Arg2:T12	
+R17	Experiences Arg1:T42 Arg2:T14	
+R18	Experiences Arg1:T45 Arg2:T16	
+R19	Experiences Arg1:T45 Arg2:T32	
+R20	Experiences Arg1:T45 Arg2:T33	
+T64	Result_or_Value 758 787	dentro de los rangos normales
+#50	AnnotatorNotes T64	C0459422; Normal result; Finding | C0586624; Normal laboratory finding; Finding
+R21	Has_Result_or_Value Arg1:T16 Arg2:T64	
+R22	Has_Result_or_Value Arg1:T33 Arg2:T64	
+R23	Has_Result_or_Value Arg1:T32 Arg2:T64	
+T65	CONC 812 821	inclusión
+#51	AnnotatorNotes T65	C1512693; Inclusion; Qualitative Concept
+R24	Before Arg1:T16 Arg2:T65	
+R25	Before Arg1:T32 Arg2:T65	
+R26	Before Arg1:T33 Arg2:T65	
+R27	Before Arg1:T64 Arg2:T65	
+R28	Speculation Arg1:T47 Arg2:T48	
+R29	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T48	
+R30	Experiences Arg1:T46 Arg2:T17	
+R31	Overlap Arg1:T17 Arg2:T18	
+R32	Negation Arg1:T49 Arg2:T50	
+R33	Before Arg1:T17 Arg2:T50	
+R34	Has_Duration_or_Interval Arg1:T19 Arg2:T53	
+R35	Experiences Arg1:T52 Arg2:T19	
+R36	Location_of Arg1:T34 Arg2:T20	
+R37	Experiences Arg1:T54 Arg2:T20	
+R38	Has_Age Arg1:T55 Arg2:T56	
+R39	Experiences Arg1:T55 Arg2:T21	
+R40	Experiences Arg1:T55 Arg2:T63	
+R41	Location_of Arg1:T35 Arg2:T21	
+T66	Result_or_Value 1231 1239	positiva
+#52	AnnotatorNotes T66	C1446409; Positive; Finding
+R42	Has_Result_or_Value Arg1:T21 Arg2:T66	
+T67	Observation 1261 1296	participando en otro ensayo clínico
+R44	Experiences Arg1:T60 Arg2:T23	
+R45	Causes Arg1:T24 Arg2:T23	
+R46	Causes Arg1:T25 Arg2:T23	
+R47	Experiences Arg1:T61 Arg2:T26	
+R48	Location_of Arg1:T36 Arg2:T26	
+R49	Experiences Arg1:T62 Arg2:T27	
+R50	Experiences Arg1:T46 Arg2:T18	
+R51	Experiences Arg1:T46 Arg2:T50	
+#53	AnnotatorNotes T2	C0400140; Operative procedure on rectum AND/OR anus; Therapeutic or Preventive Procedure | C0919721; Anorectal operation; Therapeutic or Preventive Procedure
+#54	AnnotatorNotes T4	C0400140; Operative procedure on rectum AND/OR anus; Therapeutic or Preventive Procedure | C0919721; Anorectal operation; Therapeutic or Preventive Procedure
+#55	AnnotatorNotes T5	C0400140; Operative procedure on rectum AND/OR anus; Therapeutic or Preventive Procedure | C0919721; Anorectal operation; Therapeutic or Preventive Procedure
+A1	Experiencer T38 Patient
+A6	Experiencer T39 Patient
+A7	Experiencer T40 Patient
+A8	Experiencer T42 Patient
+A9	Status T6 Future
+A10	Status T7 Future
+A11	Experiencer T44 Patient
+A12	Experiencer T45 Patient
+A13	Experiencer T46 Patient
+A14	Experiencer T51 Patient
+A15	Experiencer T52 Patient
+A16	Experiencer T54 Patient
+A17	Experiencer T55 Patient
+A18	Experiencer T59 Patient
+A19	Experiencer T60 Patient
+A20	Experiencer T61 Patient
+A21	Experiencer T62 Patient

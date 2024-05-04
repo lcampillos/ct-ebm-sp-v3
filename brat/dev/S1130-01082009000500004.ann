@@ -1,0 +1,180 @@
+T1	PROC 1 11	Evaluación
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	DISO 18 35	fibrosis hepática
+#2	AnnotatorNotes T2	C0239946; Fibrosis, Liver; Disease or Syndrome
+T3	DISO 42 71	hepatitis crónica por virus C
+#3	AnnotatorNotes T3	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+T4	DISO 231 256	hepatitis crónica por VHC
+#4	AnnotatorNotes T4	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+T5	DISO 272 284	asintomática
+#5	AnnotatorNotes T5	C0231221; Asymptomatic; Finding
+T6	DISO 299 316	cirrosis hepática
+#6	AnnotatorNotes T6	C0023890; Liver Cirrhosis; Disease or Syndrome
+T7	DISO 323 337	complicaciones
+#7	AnnotatorNotes T7	C0009566; Complication; Pathologic Function
+T8	DISO 409 417	fibrosis
+#8	AnnotatorNotes T8	C0016059; Fibrosis; Pathologic Function
+T9	DISO 520 528	fibrosis
+#9	AnnotatorNotes T9	C0016059; Fibrosis; Pathologic Function
+T10	PROC 535 551	biopsia hepática
+#10	AnnotatorNotes T10	C0193388; Biopsy of liver (procedure); Diagnostic Procedure
+T11	PROC 733 744	ecográficos
+#11	AnnotatorNotes T11	C0041618; Ultrasonography; Diagnostic Procedure
+T12	DISO 777 785	cirrosis
+#12	AnnotatorNotes T12	C1623038; Cirrhosis; Disease or Syndrome
+T13	DISO 869 877	fibrosis
+#13	AnnotatorNotes T13	C0016059; Fibrosis; Pathologic Function
+T14	DISO 908 937	hepatitis crónica por virus C
+#14	AnnotatorNotes T14	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+T15	PROC 960 979	estudio prospectivo
+#15	AnnotatorNotes T15	C0033522; Prospective Studies; Research Activity
+T16	DISO 1014 1039	hepatitis crónica por VHC
+#16	AnnotatorNotes T16	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+T17	PROC 1060 1076	biopsia hepática
+#17	AnnotatorNotes T17	C0193388; Biopsy of liver (procedure); Diagnostic Procedure
+T18	DISO 1102 1110	fibrosis
+#18	AnnotatorNotes T18	C0016059; Fibrosis; Pathologic Function
+T19	PROC 1336 1352	biopsia hepática
+#19	AnnotatorNotes T19	C0193388; Biopsy of liver (procedure); Diagnostic Procedure
+T20	DISO 1386 1394	fibrosis
+#20	AnnotatorNotes T20	C0016059; Fibrosis; Pathologic Function
+T21	ANAT 1411 1417	portal
+#21	AnnotatorNotes T21	C0205054; Hepatic; Body Location or Region
+T22	DISO 1451 1459	fibrosis
+#22	AnnotatorNotes T22	C0016059; Fibrosis; Pathologic Function
+T23	DISO 1471 1479	cirrosis
+#23	AnnotatorNotes T23	C1623038; Cirrhosis; Disease or Syndrome
+T24	DISO 1782 1790	fibrosis
+#24	AnnotatorNotes T24	C0016059; Fibrosis; Pathologic Function
+T25	PROC 1864 1880	biopsia hepática
+#25	AnnotatorNotes T25	C0193388; Biopsy of liver (procedure); Diagnostic Procedure
+T26	ANAT 27 35	hepática
+#26	AnnotatorNotes T26	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T27	ANAT 308 316	hepática
+#27	AnnotatorNotes T27	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T28	ANAT 543 551	hepática
+#28	AnnotatorNotes T28	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T29	ANAT 1068 1076	hepática
+#29	AnnotatorNotes T29	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T30	ANAT 1344 1352	hepática
+#30	AnnotatorNotes T30	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T31	ANAT 1872 1880	hepática
+#31	AnnotatorNotes T31	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T32	Duration 52 59	crónica
+#32	AnnotatorNotes T32	C0205191; chronic; Temporal Concept
+T33	Duration 241 248	crónica
+#33	AnnotatorNotes T33	C0205191; chronic; Temporal Concept
+T34	LIVB 253 256	VHC
+#34	AnnotatorNotes T34	C0220847; hepatitis C virus; Virus
+T37	LIVB 894 903	pacientes
+#35	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Duration 918 925	crónica
+#36	AnnotatorNotes T38	C0205191; chronic; Temporal Concept
+T39	LIVB 1000 1009	pacientes
+#37	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 1024 1031	crónica
+#38	AnnotatorNotes T40	C0205191; chronic; Temporal Concept
+T41	LIVB 1036 1039	VHC
+#39	AnnotatorNotes T41	C0220847; hepatitis C virus; Virus
+T42	LIVB 1261 1270	pacientes
+#40	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 1278 1284	hombre
+#41	AnnotatorNotes T43	C0025266; Male population group; Population Group
+T44	LIVB 1285 1290	mujer
+#42	AnnotatorNotes T44	C0043210; Woman; Population Group
+T45	Age 1319 1331	48 ± 14 años
+T46	Neg_cue 1376 1378	no
+T48	LIVB 1828 1837	pacientes
+#43	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Neg_cue 1838 1841	sin
+T50	LIVB 64 71	virus C
+#44	AnnotatorNotes T50	C0220847; hepatitis C virus; Virus
+T51	LIVB 930 937	virus C
+#45	AnnotatorNotes T51	C0220847; hepatitis C virus; Virus
+A1	Assertion T20 Negated
+A2	Assertion T25 Negated
+A3	Assertion T5 Negated
+R1	Negation Arg1:T49 Arg2:T25	
+R2	Negation Arg1:T46 Arg2:T20	
+T35	Spec_cue 832 834	si
+T36	CONC 845 852	predice
+A4	Assertion T36 Speculated
+#46	AnnotatorNotes T36	C0681842; Prediction; Idea or Concept
+R3	Speculation Arg1:T35 Arg2:T36	
+R4	Location_of Arg1:T26 Arg2:T2	
+R5	Has_Duration_or_Interval Arg1:T3 Arg2:T32	
+R6	Causes Arg1:T50 Arg2:T3	
+R7	Causes Arg1:T3 Arg2:T2	
+T47	CONC 111 134	Sabadell's NIHCED score
+R8	Causes Arg1:T34 Arg2:T4	
+R9	Has_Duration_or_Interval Arg1:T4 Arg2:T33	
+R10	Overlap Arg1:T4 Arg2:T5	
+R11	Causes Arg1:T4 Arg2:T6	
+R12	Location_of Arg1:T27 Arg2:T6	
+R13	Causes Arg1:T6 Arg2:T7	
+T52	Quantifier_or_Qualifier 418 426	avanzada
+#47	AnnotatorNotes T52	C0205179; Advanced phase; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T52	
+R15	Location_of Arg1:T28 Arg2:T10	
+R16	Location_of Arg1:T28 Arg2:T9	
+T53	CONC 604 610	NIHCED
+T54	CONC 612 687	Sabadell's Non Invasive, Hepatitis C related-Cirrosis Early Detection Score
+T55	CONC 136 212	Sabadell's Non Invasive, Hepatitis C Related-Cirrhosis Early Detection Score
+T56	CONC 700 718	datos demográficos
+#48	AnnotatorNotes T56	C4684639; Demographic Data; Intellectual Product
+T57	CONC 700 705;720 730	datos analíticos
+T58	CONC 838 844	NIHCED
+T59	CONC 700 705;733 744	datos ecográficos
+T60	Quantifier_or_Qualifier 878 886	avanzada
+#49	AnnotatorNotes T60	C0205179; Advanced phase; Qualitative Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T60	
+R18	Experiences Arg1:T37 Arg2:T13	
+R19	Experiences Arg1:T37 Arg2:T14	
+R20	Causes Arg1:T51 Arg2:T14	
+R21	Has_Duration_or_Interval Arg1:T14 Arg2:T38	
+R22	Causes Arg1:T14 Arg2:T13	
+R23	Experiences Arg1:T39 Arg2:T16	
+R24	Causes Arg1:T41 Arg2:T16	
+R25	Has_Duration_or_Interval Arg1:T16 Arg2:T40	
+R26	Location_of Arg1:T29 Arg2:T17	
+T61	CONC 1082 1088	NIHCED
+T62	CONC 1144 1150	NIHCED
+T63	CONC 1160 1172	curva de ROC
+#50	AnnotatorNotes T63	C0035787; ROC Curve; Quantitative Concept
+T64	CONC 1178 1216	coeficiente de correlación de Spearman
+#51	AnnotatorNotes T64	C1710141; Spearman Correlation Test; Intellectual Product 
+R27	Has_Age Arg1:T42 Arg2:T45	
+R28	Has_Age Arg1:T44 Arg2:T45	
+R29	Has_Age Arg1:T43 Arg2:T45	
+R30	Location_of Arg1:T30 Arg2:T19	
+T65	Observation 1401 1417	expansión portal
+R31	Location_of Arg1:T21 Arg2:T65	
+T66	Quantifier_or_Qualifier 1460 1468	avanzada
+#52	AnnotatorNotes T66	C0205179; Advanced phase; Qualitative Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T66	
+T67	CONC 1520 1532	sensibilidad
+#53	AnnotatorNotes T67	C0439823; Sensibility; Qualitative Concept
+T68	CONC 1546 1559	especificidad
+#54	AnnotatorNotes T68	C0037791; Specificity; Quantitative Concept
+T69	CONC 1571 1574	VPP
+#55	AnnotatorNotes T69	C1514243; Positive Predictive Value; Quantitative Concept
+T70	CONC 1584 1587	VPN
+#56	AnnotatorNotes T70	C1513918; Negative Predictive Value of Diagnostic Test; Quantitative Concept
+T71	CONC 1644 1662	área bajo la curva
+#57	AnnotatorNotes T71	C0035787; ROC Curve; Quantitative Concept
+T72	CONC 1681 1719	coeficiente de correlación de Spearman
+#58	AnnotatorNotes T72	C1710141; Spearman Correlation Test; Intellectual Product
+T73	CONC 1751 1757	NIHCED
+T74	Quantifier_or_Qualifier 1791 1799	avanzada
+#59	AnnotatorNotes T74	C0205179; Advanced phase; Qualitative Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T74	
+R34	Experiences Arg1:T48 Arg2:T25	
+R35	Location_of Arg1:T31 Arg2:T25	
+T75	CONC 1111 1126	se correlacionó
+#60	AnnotatorNotes T75	C1707520; Correlation; Qualitative Concept
+A5	Experiencer T48 Patient
+A6	Experiencer T43 Patient
+A7	Experiencer T44 Patient
+A8	Experiencer T42 Patient
+A9	Experiencer T37 Patient
+A10	Experiencer T39 Patient

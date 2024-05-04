@@ -1,0 +1,334 @@
+T1	PROC 64 87	tratamiento antibiótico
+#1	AnnotatorNotes T1	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T2	DISO 105 120	derrame pleural
+#2	AnnotatorNotes T2	C0032227; Pleural effusion disorder; Disease or Syndrome
+T3	DISO 148 155	empiema
+#3	AnnotatorNotes T3	C0014009; Empyema; Disease or Syndrome
+T4	PROC 196 219	tratamiento antibiótico
+#4	AnnotatorNotes T4	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T5	DISO 237 252	derrame pleural
+#5	AnnotatorNotes T5	C0032227; Pleural effusion disorder; Disease or Syndrome
+T6	DISO 280 287	empiema
+#6	AnnotatorNotes T6	C0014009; Empyema; Disease or Syndrome
+T7	PROC 289 315	ensayo clínico randomizado
+#7	AnnotatorNotes T7	C0206034; Clinical Trials, Randomized; Research Activity
+T8	PROC 350 373	tratamiento antibiótico
+#8	AnnotatorNotes T8	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T9	DISO 380 395	derrame pleural
+#9	AnnotatorNotes T9	C0032227; Pleural effusion disorder; Disease or Syndrome
+T10	DISO 423 430	empiema
+#10	AnnotatorNotes T10	C0014009; Empyema; Disease or Syndrome
+T11	ANAT 536 543	exudado
+#11	AnnotatorNotes T11	C0015388; Exudate; Body Substance
+T12	DISO 536 560	exudado polimorfonuclear
+T13	DISO 583 603	neumonía comunitaria
+#12	AnnotatorNotes T13	C0694549; Community acquired pneumonia; Disease or Syndrome
+T14	DISO 605 612	Empiema
+#13	AnnotatorNotes T14	C0014009; Empyema; Disease or Syndrome
+T15	ANAT 632 635	pus
+#14	AnnotatorNotes T15	C0034161; Pus; Body Substance
+T16	ANAT 642 657	cavidad pleural
+#15	AnnotatorNotes T16	C0178802; Pleural cavity; Body Space or Junction | C1284296; Entire pleural cavity; Body Space or Junction
+T17	PROC 750 781	inserción de un drenaje pleural
+#16	AnnotatorNotes T17	C0189476; Insertion of pleural tube drain; Therapeutic or Preventive Procedure
+T18	ANAT 869 884	líquido pleural
+#17	AnnotatorNotes T18	C0225778; Pleural fluid; Body Substance
+T19	PROC 893 900	glucosa
+#18	AnnotatorNotes T19	C0337438; Glucose measurement; Laboratory Procedure
+T20	PROC 923 930	cultivo
+#19	AnnotatorNotes T20	C0430400; Laboratory culture; Laboratory Procedure
+T21	ANAT 944 959	líquido pleural
+#20	AnnotatorNotes T21	C0225778; Pleural fluid; Body Substance
+T22	DISO 966 981	derrame pleural
+#21	AnnotatorNotes T22	C0032227; Pleural effusion disorder; Disease or Syndrome
+T23	ANAT 1009 1018	hemitórax
+#22	AnnotatorNotes T23	C0934569; Hemithoracic structure; Body Location or Region | C1269692; Entire hemithorax; Body Part, Organ, or Organ Component
+T24	PROC 1025 1045	radiografía de tórax
+#23	AnnotatorNotes T24	C0039985; Plain chest X-ray; Diagnostic Procedure
+T25	PROC 1096 1105	ecografía
+#24	AnnotatorNotes T25	C0041618; Ultrasonography; Diagnostic Procedure
+T26	PROC 1156 1167	diagnóstico
+#25	AnnotatorNotes T26	C0011900; Diagnosis; Diagnostic Procedure
+T27	PROC 1170 1181	tratamiento
+#26	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	DISO 1221 1228	empiema
+#27	AnnotatorNotes T28	C0014009; Empyema; Disease or Syndrome
+T29	DISO 1356 1371	derrame pleural
+#28	AnnotatorNotes T29	C0032227; Pleural effusion disorder; Disease or Syndrome
+T30	PROC 1378 1398	radiografía de tórax
+#29	AnnotatorNotes T30	C0039985; Plain chest X-ray; Diagnostic Procedure
+T31	ANAT 1427 1436	hemitórax
+#30	AnnotatorNotes T31	C0934569; Hemithoracic structure; Body Location or Region | C1269692; Entire hemithorax; Body Part, Organ, or Organ Component
+T32	PROC 1444 1459	drenaje pleural
+T33	PROC 1508 1534	proteína C reactiva sérica
+T34	ANAT 1528 1534	sérica
+#31	AnnotatorNotes T34	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T35	PROC 1563 1574	diagnóstico
+#32	AnnotatorNotes T35	C0011900; Diagnosis; Diagnostic Procedure
+T36	DISO 1637 1646	alérgicos
+#33	AnnotatorNotes T36	C1527304; Allergic Reaction; Pathologic Function
+T37	DISO 1686 1702	inmunodeprimidos
+#34	AnnotatorNotes T37	C0085393; Immunocompromised Host; Finding
+T38	DISO 1704 1715	neutropenia
+#35	AnnotatorNotes T38	C0027947; Neutropenia; Disease or Syndrome | C0853697; Neutrophil count decreased; Finding
+T39	DISO 1717 1726	infección
+#36	AnnotatorNotes T39	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T40	DISO 1732 1756	neoplasias hematológicas
+T41	PROC 1758 1787	transplantes de órgano sólido
+T42	PROC 1327 1329	FR
+#37	AnnotatorNotes T42	C1443397; Taking respiratory rate; Health Care Activity
+T43	PROC 1790 1814	tratamientos corticoideo
+T44	CHEM 1817 1831	inmunosupresor
+#38	AnnotatorNotes T44	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T45	DISO 1836 1865	Infección pleural tuberculosa
+T46	DISO 1869 1888	Neumonía nosocomial
+#39	AnnotatorNotes T46	C0949083; Hospital acquired pneumonia; Disease or Syndrome
+T47	ANAT 1943 1958	líquido pleural
+#40	AnnotatorNotes T47	C0225778; Pleural fluid; Body Substance
+T48	CHEM 1988 2011	amoxicilina-clavulánico
+#41	AnnotatorNotes T48	C0054066; amoxicillin / clavulanate; Pharmacologic Substance
+T49	CHEM 76 87	antibiótico
+#42	AnnotatorNotes T49	C0003232; Antibiotics; Antibiotic
+T50	ANAT 113 120	pleural
+#43	AnnotatorNotes T50	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T51	CHEM 208 219	antibiótico
+#44	AnnotatorNotes T51	C0003232; Antibiotics; Antibiotic
+T52	ANAT 245 252	pleural
+#45	AnnotatorNotes T52	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T53	CHEM 362 373	antibiótico
+#46	AnnotatorNotes T53	C0003232; Antibiotics; Antibiotic
+T54	ANAT 388 395	pleural
+#47	AnnotatorNotes T54	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T55	DISO 699 708	purulento
+#48	AnnotatorNotes T55	C3203360; Suppuration; Pathologic Function
+T57	ANAT 974 981	pleural
+#49	AnnotatorNotes T57	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T58	ANAT 1040 1045	tórax
+#50	AnnotatorNotes T58	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T59	PROC 1074 1090	prueba de imagen
+#51	AnnotatorNotes T59	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T60	PROC 1092 1094	Rx
+#52	AnnotatorNotes T60	C1306645; Plain x-ray; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T61	PROC 1108 1110	TC
+#53	AnnotatorNotes T61	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T62	PROC 862 884	pH del líquido pleural
+#54	AnnotatorNotes T62	C1446175; Pleural fluid pH measurement; Laboratory Procedure
+T63	CHEM 1186 1209	amoxicilina-clavulánico
+#55	AnnotatorNotes T63	C0054066; amoxicillin / clavulanate; Pharmacologic Substance
+T64	PROC 1302 1304	Ta
+T65	PROC 1314 1316	FC
+#56	AnnotatorNotes T65	C2197023; examination of heart rate; Health Care Activity
+T66	ANAT 1364 1371	pleural
+#57	AnnotatorNotes T66	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T67	ANAT 1393 1398	tórax
+#58	AnnotatorNotes T67	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T68	ANAT 1452 1459	pleural
+#59	AnnotatorNotes T68	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T69	CHEM 1508 1518	proteína C
+#60	AnnotatorNotes T69	C0033621; protein C; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T70	CHEM 1649 1672	amoxicilina-clavulánico
+#61	AnnotatorNotes T70	C0054066; amoxicillin / clavulanate; Pharmacologic Substance
+T71	DISO 1727 1730	VIH
+#62	AnnotatorNotes T71	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T72	PROC 1340 1343	TAS
+#63	AnnotatorNotes T72	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T73	ANAT 1774 1787	órgano sólido
+T74	CHEM 1803 1814	corticoideo
+#64	AnnotatorNotes T74	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T75	ANAT 1846 1853	pleural
+#65	AnnotatorNotes T75	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T76	PROC 2104 2128	consentimiento informado
+#66	AnnotatorNotes T76	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T77	Date 12 16	2014
+T78	LIVB 91 100	pacientes
+#67	AnnotatorNotes T78	C0030705; Patients; Patient or Disabled Group
+T79	LIVB 223 232	pacientes
+#68	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	LIVB 461 470	Pacientes
+#69	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T81	Age 471 489	mayores de 18 años
+T83	Neg_cue 696 698	no
+T84	LIVB 803 812	pacientes
+#70	AnnotatorNotes T84	C0030705; Patients; Patient or Disabled Group
+T86	Duration 1138 1151	las 2 semanas
+T87	Duration 1280 1300	las últimas 48 horas
+T92	LIVB 1604 1623	Mujeres embarazadas
+#71	AnnotatorNotes T92	C0033011; Pregnant Women; Population Group
+T93	LIVB 1627 1636	Pacientes
+#72	AnnotatorNotes T93	C0030705; Patients; Patient or Disabled Group
+T97	Duration 2038 2056	inferior a 3 meses
+T98	LIVB 2077 2086	Pacientes
+#73	AnnotatorNotes T98	C0030705; Patients; Patient or Disabled Group
+T99	Neg_cue 2091 2093	no
+T101	DEVI 766 781	drenaje pleural
+#74	AnnotatorNotes T101	C0180498; Pleural drainage system; Medical Device
+T102	DEVI 1444 1451	drenaje
+#75	AnnotatorNotes T102	C0180499; Drain device; Medical Device | C0184114; Tube drain; Medical Device
+T103	LIVB 1676 1685	Pacientes
+#76	AnnotatorNotes T103	C0030705; Patients; Patient or Disabled Group
+T104	LIVB 1962 1970	gérmenes
+#77	AnnotatorNotes T104	C0450254; Pathogenic organism; Organism
+T56	PHYS 1612 1623	embarazadas
+#78	AnnotatorNotes T56	C0032961; Pregnancy; Organism Function
+T82	PROC 1902 1921	cuidados sanitarios
+#79	AnnotatorNotes T82	C0086388; Health Care; Health Care Activity
+T85	ANAT 774 781	pleural
+#80	AnnotatorNotes T85	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+A1	Assertion T55 Negated
+A2	Assertion T76 Negated
+A3	Status T36 History_of
+A4	Status T41 History_of
+#81	AnnotatorNotes T33	C0236301; Serum C-Reactive Protein Test; Laboratory Procedure 
+#82	AnnotatorNotes T40	C0376545; Hematologic Neoplasms; Neoplastic Process
+#83	AnnotatorNotes T41	C0730400; Solid organ transplant; Therapeutic or Preventive Procedure
+T88	PROC 916 920	Gram
+#84	AnnotatorNotes T88	C0200966; Bacterial stain, routine; Laboratory Procedure
+R1	Location_of Arg1:T50 Arg2:T2	
+R2	Location_of Arg1:T52 Arg2:T5	
+T89	Quantifier_or_Qualifier 121 134	paraneumónico
+R3	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T89	
+T90	Quantifier_or_Qualifier 253 266	paraneumónico
+R4	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T90	
+T91	Quantifier_or_Qualifier 396 409	paraneumónico
+R5	Location_of Arg1:T54 Arg2:T9	
+R6	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T91	
+R7	Experiences Arg1:T78 Arg2:T1	
+R8	Used_for Arg1:T49 Arg2:T1	
+R9	Experiences Arg1:T78 Arg2:T2	
+R10	Experiences Arg1:T78 Arg2:T3	
+R11	Experiences Arg1:T79 Arg2:T4	
+R12	Used_for Arg1:T51 Arg2:T4	
+R13	Experiences Arg1:T79 Arg2:T5	
+R14	Experiences Arg1:T79 Arg2:T6	
+R15	Used_for Arg1:T53 Arg2:T8	
+T94	Quantifier_or_Qualifier 135 145	complicado
+#85	AnnotatorNotes T94	C0231242; Complicated; Functional Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T94	
+T95	Quantifier_or_Qualifier 267 277	complicado
+#86	AnnotatorNotes T95	C0231242; Complicated; Functional Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T95	
+T96	Quantifier_or_Qualifier 410 420	complicado
+#87	AnnotatorNotes T96	C0231242; Complicated; Functional Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T96	
+R19	Has_Age Arg1:T80 Arg2:T81	
+R20	Causes Arg1:T13 Arg2:T12	
+R21	Location_of Arg1:T16 Arg2:T14	
+R22	Causes Arg1:T14 Arg2:T15	
+R23	Negation Arg1:T83 Arg2:T55	
+R24	Used_for Arg1:T101 Arg2:T17	
+R25	Location_of Arg1:T85 Arg2:T17	
+T100	DISO 514 517	DPP
+#88	AnnotatorNotes T100	["Derrame paraneumónico pleural", 'Parapneumonic pleural effusion']
+T105	DISO 662 666	DPPC
+#89	AnnotatorNotes T105	["Derrame paraneumónico pleural complicado", 'Complicated parapneumonic pleural effusion']
+R26	Overlap Arg1:T105 Arg2:T55	
+R27	Causes Arg1:T13 Arg2:T100	
+R28	Location_of Arg1:T18 Arg2:T62	
+T106	Result_or_Value 885 890	< 7.2
+R29	Has_Result_or_Value Arg1:T62 Arg2:T106	
+T107	Result_or_Value 901 911	< 60 mg/dL
+R30	Has_Result_or_Value Arg1:T19 Arg2:T107	
+R31	Location_of Arg1:T21 Arg2:T20	
+R32	Location_of Arg1:T21 Arg2:T88	
+T108	Result_or_Value 931 939	positivo
+#90	AnnotatorNotes T108	C1446409; Positive; Finding
+R33	Has_Result_or_Value Arg1:T88 Arg2:T108	
+R34	Has_Result_or_Value Arg1:T20 Arg2:T108	
+R35	Location_of Arg1:T57 Arg2:T22	
+T109	Observation 982 1018	que ocupa el 50% o más del hemitórax
+R36	Has_Result_or_Value Arg1:T22 Arg2:T109	
+R37	Location_of Arg1:T23 Arg2:T109	
+R39	Location_of Arg1:T58 Arg2:T24	
+T110	Quantifier_or_Qualifier 1058 1066	loculado
+#91	AnnotatorNotes T110	C0205277; Loculated; Qualitative Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T110	
+R45	Location_of Arg1:T58 Arg2:T59	
+R46	Location_of Arg1:T58 Arg2:T60	
+R47	Location_of Arg1:T58 Arg2:T25	
+R48	Location_of Arg1:T58 Arg2:T61	
+R49	Used_for Arg1:T63 Arg2:T27	
+T111	Observation 1116 1135	Estabilidad clínica
+#92	AnnotatorNotes T111	C1282982; Patient's condition stable; Finding
+R50	After Arg1:T111 Arg2:T86	
+R51	Before Arg1:T26 Arg2:T111	
+R52	Before Arg1:T27 Arg2:T111	
+T112	DISO 1214 1218	DPPC
+#93	AnnotatorNotes T112	["Derrame paraneumónico pleural complicado", 'Complicated parapneumonic pleural effusion']
+R53	Overlap Arg1:T111 Arg2:T112	
+R54	Overlap Arg1:T111 Arg2:T28	
+R55	Overlap Arg1:T64 Arg2:T87	
+R56	Overlap Arg1:T65 Arg2:T87	
+R57	Overlap Arg1:T42 Arg2:T87	
+R58	Overlap Arg1:T72 Arg2:T87	
+T113	Result_or_Value 1305 1312	<37,8oC
+R59	Has_Result_or_Value Arg1:T64 Arg2:T113	
+T114	Result_or_Value 1317 1325	<100 lpm
+R60	Has_Result_or_Value Arg1:T65 Arg2:T114	
+T115	Result_or_Value 1330 1337	<24 rpm
+R61	Has_Result_or_Value Arg1:T42 Arg2:T115	
+T116	Result_or_Value 1344 1352	>90 mmHg
+R62	Has_Result_or_Value Arg1:T72 Arg2:T116	
+#94	AnnotatorNotes T64	C0886414; Body temperature measurement; Health Care Activity
+R63	Location_of Arg1:T66 Arg2:T29	
+R65	Location_of Arg1:T67 Arg2:T30	
+T117	Observation 1399 1436	que ocupe menos del 20% del hemitórax
+R66	Location_of Arg1:T31 Arg2:T117	
+R67	Used_for Arg1:T102 Arg2:T32	
+#95	AnnotatorNotes T32	C1304871; Drainage of pleural cavity; Therapeutic or Preventive Procedure
+R68	Location_of Arg1:T34 Arg2:T33	
+R69	Has_Result_or_Value Arg1:T29 Arg2:T117	
+R72	Location_of Arg1:T68 Arg2:T32	
+T118	Neg_cue 1463 1471	retirado
+R73	Negation Arg1:T118 Arg2:T32	
+A5	Assertion T32 Negated
+T119	Result_or_Value 1538 1553	al menos el 50%
+R75	Before Arg1:T35 Arg2:T33	
+T120	Observation 1493 1534	descenso de la proteína C reactiva sérica
+#96	AnnotatorNotes T120	C0877451; C-reactive protein decreased; Finding
+R76	Location_of Arg1:T34 Arg2:T120	
+R77	Before Arg1:T35 Arg2:T120	
+R78	Has_Result_or_Value Arg1:T120 Arg2:T119	
+R79	Experiences Arg1:T92 Arg2:T56	
+R80	Experiences Arg1:T93 Arg2:T36	
+R81	Causes Arg1:T70 Arg2:T36	
+R82	Experiences Arg1:T103 Arg2:T37	
+R83	Experiences Arg1:T103 Arg2:T38	
+R84	Experiences Arg1:T103 Arg2:T39	
+R85	Experiences Arg1:T103 Arg2:T71	
+R86	Experiences Arg1:T103 Arg2:T40	
+R87	Experiences Arg1:T103 Arg2:T41	
+R88	Location_of Arg1:T73 Arg2:T41	
+R89	Experiences Arg1:T103 Arg2:T43	
+R90	Used_for Arg1:T74 Arg2:T43	
+R92	Experiences Arg1:T103 Arg2:T44	
+#97	AnnotatorNotes T73	C0440790; Solid organ; Body Part, Organ, or Organ Component
+R93	Causes Arg1:T38 Arg2:T37	
+R94	Causes Arg1:T39 Arg2:T37	
+R95	Causes Arg1:T71 Arg2:T37	
+R96	Causes Arg1:T40 Arg2:T37	
+R97	Causes Arg1:T41 Arg2:T37	
+R98	Causes Arg1:T43 Arg2:T37	
+R99	Causes Arg1:T44 Arg2:T37	
+R91	Location_of Arg1:T75 Arg2:T45	
+#98	AnnotatorNotes T45	C0041326; Pleural Tuberculosis; Disease or Syndrome 
+R100	Overlap Arg1:T46 Arg2:T82	
+R101	Location_of Arg1:T47 Arg2:T104	
+T121	Observation 1971 2011	resistentes a la amoxicilina-clavulánico
+R102	Has_Quantifier_or_Qualifier Arg1:T104 Arg2:T121	
+T122	CONC 2015 2037	Supervivencia esperada
+#99	AnnotatorNotes T122	C0023671; Life Expectancy; Group Attribute
+R103	Has_Duration_or_Interval Arg1:T122 Arg2:T97	
+R104	Negation Arg1:T99 Arg2:T76	
+R105	Overlap Arg1:T121 Arg2:T48	
+#100	AnnotatorNotes T43	C0149783; Steroid therapy; Therapeutic or Preventive Procedure
+A6	Experiencer T98 Patient
+A7	Experiencer T78 Patient
+A8	Experiencer T79 Patient
+A9	Experiencer T80 Patient
+T123	LIVB 738 745	clínico
+#101	AnnotatorNotes T123	C1320929; Attending physician; Professional or Occupational Group
+A10	Experiencer T123 Other
+A11	Experiencer T84 Patient
+A12	Experiencer T92 Patient
+A13	Experiencer T93 Patient
+A14	Experiencer T103 Patient

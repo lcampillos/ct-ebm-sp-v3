@@ -1,0 +1,174 @@
+T1	PROC 46 63	Ensayo controlado
+T2	PROC 86 97	tratamiento
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 132 156	diabetes mellitus tipo 2
+#2	AnnotatorNotes T3	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T4	PROC 191 232	Ensayo controlado, aleatorizado, no ciego
+T5	PROC 256 267	tratamiento
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 302 326	diabetes mellitus tipo 2
+#4	AnnotatorNotes T6	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T7	DISO 388 412	diabetes mellitus tipo 2
+#5	AnnotatorNotes T7	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T8	PROC 470 481	Diagnóstico
+#6	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	DISO 496 504	COVID-19
+#7	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	PROC 557 568	Diagnóstico
+#8	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	PROC 579 586	ingreso
+#9	AnnotatorNotes T11	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T12	DISO 590 593	DM2
+#10	AnnotatorNotes T12	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T13	PROC 625 649	Consentimiento informado
+#11	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	DISO 729 746	Hipersensibilidad
+#12	AnnotatorNotes T14	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T15	CHEM 792 803	excipientes
+#13	AnnotatorNotes T15	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T16	DISO 845 867	insuficiencia cardiaca
+#14	AnnotatorNotes T16	C0018801; Heart failure; Disease or Syndrome
+T17	CHEM 759 775	principio activo
+#15	AnnotatorNotes T17	C1372955; Active ingredient; Chemical Viewed Functionally
+T18	DISO 920 934	fallo cardiaco
+#16	AnnotatorNotes T18	C0018801; Heart failure; Disease or Syndrome
+T19	DISO 938 960	Insuficiencia hepática
+#17	AnnotatorNotes T19	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T20	DISO 988 1010	cetoacidosis diabética
+#18	AnnotatorNotes T20	C0011880; Diabetic Ketoacidosis; Disease or Syndrome
+T21	CHEM 808 815	fármaco
+#19	AnnotatorNotes T21	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T22	DISO 1051 1068;1082 1088	Diabetes mellitus tipo 2
+#20	AnnotatorNotes T22	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T23	DISO 1092 1108	Cáncer de vejiga
+#21	AnnotatorNotes T23	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T24	DISO 1134 1150	cáncer de vejiga
+#22	AnnotatorNotes T24	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T25	DISO 1153 1175	Hematuria macroscópica
+#23	AnnotatorNotes T25	C0473237; Frank hematuria; Finding
+T26	PROC 1217 1237	estudio experimental
+T27	CHEM 1247 1254	fármaco
+#24	AnnotatorNotes T27	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T28	PROC 1258 1298	Ingreso en Unidad de Cuidados Intensivos
+T29	PROC 1333 1353	ventilación mecánica
+#25	AnnotatorNotes T29	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T30	CHEM 102 114	pioglitazona
+#26	AnnotatorNotes T30	C0071097; pioglitazone; Organic Chemical · Pharmacologic Substance
+T31	CHEM 272 284	pioglitazona
+#27	AnnotatorNotes T31	C0071097; pioglitazone; Organic Chemical · Pharmacologic Substance
+T32	DISO 329 337	COVID-19
+#28	AnnotatorNotes T32	C5203670; COVID19 (disease); Disease or Syndrome
+T33	DISO 362 370	COVID-19
+#29	AnnotatorNotes T33	C5203670; COVID19 (disease); Disease or Syndrome
+T34	ANAT 859 867	cardiaca
+#30	AnnotatorNotes T34	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T35	ANAT 926 934	cardiaco
+#31	AnnotatorNotes T35	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T36	ANAT 952 960	hepática
+#32	AnnotatorNotes T36	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T37	PROC 964 972	Diálisis
+#33	AnnotatorNotes T37	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T38	ANAT 1102 1108	vejiga
+#34	AnnotatorNotes T38	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T39	ANAT 1144 1150	vejiga
+#35	AnnotatorNotes T39	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T40	DISO 159 167	COVID-19
+#36	AnnotatorNotes T40	C5203670; COVID19 (disease); Disease or Syndrome
+T41	Date 13 17	2020
+T42	LIVB 118 127	pacientes
+#37	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 288 297	pacientes
+#38	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 374 383	pacientes
+#39	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 441 458	Pacientes adultos
+#40	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T48	Age 459 467	>18 años
+T49	Spec_cue 512 520	sospecha
+T50	Date 545 553	actuales
+T51	LIVB 598 607	Pacientes
+#41	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Age 708 726	Menores de 18 años
+T54	LIVB 1189 1198	Pacientes
+#42	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 1302 1311	Pacientes
+#43	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	PHYS 1387 1395	Embarazo
+#44	AnnotatorNotes T56	C0032961; Pregnancy; Organism Function
+T57	PHYS 1399 1408	Lactancia
+#45	AnnotatorNotes T57	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T43	Neg_cue 1069 1081	diferente al
+A1	Population_data T46 Age
+A2	Assertion T9 Speculated
+A3	Assertion T22 Negated
+A4	Status T14 History_of
+A5	Status T16 History_of
+A6	Status T24 History_of
+#46	AnnotatorNotes T1	C0681867; Controlled Study; Research Activity
+#47	AnnotatorNotes T4	C1709323; Open Label Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#48	AnnotatorNotes T50	C0521116; Current (present time); Temporal Concept 
+#49	AnnotatorNotes T28	C5419131; Intensive Care Unit Stay; Health Care Activity
+#50	AnnotatorNotes T26	C0681814; research study; Research Activity
+T47	Quantifier_or_Qualifier 1179 1186	filiada
+A7	Assertion T47 Negated
+T53	Neg_cue 1176 1178	no
+R1	Speculation Arg1:T49 Arg2:T9	
+R2	Negation Arg1:T43 Arg2:T22	
+R3	Negation Arg1:T53 Arg2:T47	
+R4	Location_of Arg1:T39 Arg2:T24	
+R5	Location_of Arg1:T38 Arg2:T23	
+T58	Quantifier_or_Qualifier 1109 1115	activo
+#51	AnnotatorNotes T58	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T58	
+R7	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T47	
+#52	AnnotatorNotes T47	C0205309; Known; Qualitative Concept
+T59	Observation 1199 1237	incluidos en otro estudio experimental
+R8	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T59	
+R9	Experiences Arg1:T54 Arg2:T27	
+T60	Quantifier_or_Qualifier 1242 1246	otro
+#53	AnnotatorNotes T60	C0205394; Other; Qualitative Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T60	
+R11	Experiences Arg1:T55 Arg2:T29	
+T61	CONC 1374 1383	inclusión
+#54	AnnotatorNotes T61	C1512693; Inclusion; Qualitative Concept
+R12	Overlap Arg1:T29 Arg2:T61	
+R13	Used_for Arg1:T30 Arg2:T2	
+R14	Experiences Arg1:T42 Arg2:T2	
+R15	Experiences Arg1:T42 Arg2:T3	
+R16	Overlap Arg1:T3 Arg2:T40	
+R17	Overlap Arg1:T6 Arg2:T32	
+R18	Experiences Arg1:T44 Arg2:T6	
+R19	Experiences Arg1:T42 Arg2:T40	
+R20	Experiences Arg1:T44 Arg2:T32	
+R21	Experiences Arg1:T44 Arg2:T5	
+R22	Used_for Arg1:T31 Arg2:T5	
+R23	Experiences Arg1:T45 Arg2:T33	
+R24	Experiences Arg1:T45 Arg2:T7	
+R25	Overlap Arg1:T33 Arg2:T7	
+R26	Has_Age Arg1:T46 Arg2:T48	
+T62	Quantifier_or_Qualifier 507 511	alta
+#55	AnnotatorNotes T62	C0205250; High; Qualitative Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T62	
+R28	Before Arg1:T10 Arg2:T11	
+R29	Before Arg1:T12 Arg2:T11	
+T63	Observation 655 679	participar en el estudio
+#56	AnnotatorNotes T63	C1278516; Patient participation status; Finding
+R30	Before Arg1:T13 Arg2:T63	
+R31	Causes Arg1:T17 Arg2:T14	
+R32	Causes Arg1:T15 Arg2:T14	
+R33	Causes Arg1:T21 Arg2:T14	
+R34	Location_of Arg1:T34 Arg2:T16	
+T64	CONC 898 916	inicio del estudio
+#57	AnnotatorNotes T64	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R35	Overlap Arg1:T18 Arg2:T64	
+R36	Location_of Arg1:T35 Arg2:T18	
+R37	Location_of Arg1:T36 Arg2:T19	
+T65	CONC 1029 1047	inicio del estudio
+#58	AnnotatorNotes T65	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R38	Overlap Arg1:T20 Arg2:T65	
+A8	Experiencer T44 Patient
+A9	Experiencer T42 Patient
+A10	Experiencer T45 Patient
+A11	Experiencer T51 Patient
+A12	Experiencer T54 Patient
+A13	Experiencer T55 Patient

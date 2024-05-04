@@ -1,0 +1,84 @@
+T1	CHEM 70 85	Antimicrobianos
+#1	AnnotatorNotes T1	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T2	PROC 94 105	Tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 113 138	Abscesos Intraabdominales
+#3	AnnotatorNotes T3	C0243001; Abdominal Abscess; Disease or Syndrome
+T4	CHEM 185 200	Antimicrobianos
+#4	AnnotatorNotes T4	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T5	PROC 209 220	Tratamiento
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 228 253	Abscesos Intraabdominales
+#6	AnnotatorNotes T6	C0243001; Abdominal Abscess; Disease or Syndrome
+T7	ANAT 356 372	intraabdominales
+#7	AnnotatorNotes T7	C0230168; Abdominal Cavity; Body Location or Region
+T8	DISO 435 460	Abscesos intraabdominales
+#8	AnnotatorNotes T8	C0243001; Abdominal Abscess; Disease or Syndrome
+T9	PROC 498 530	colocación de catéter de drenaje
+T10	PROC 632 647	cirugía abierta
+T11	PROC 649 660	laparotomía
+#9	AnnotatorNotes T11	C0023038; Laparotomy; Therapeutic or Preventive Procedure
+T12	DISO 730 739	infección
+#10	AnnotatorNotes T12	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T13	PROC 46 66	Administración Local
+T14	ANAT 122 138	Intraabdominales
+#11	AnnotatorNotes T14	C0230168; Abdominal Cavity; Body Location or Region
+T15	PROC 161 181	Administración Local
+T16	ANAT 237 253	Intraabdominales
+#12	AnnotatorNotes T16	C0230168; Abdominal Cavity; Body Location or Region
+T17	PROC 255 324	Ensayo Clínico Controlado, Aleatorizado, Abierto, de Grupos Paralelos
+T18	DISO 348 372	Abcesos intraabdominales
+T19	ANAT 444 460	intraabdominales
+#13	AnnotatorNotes T19	C0230168; Abdominal Cavity; Body Location or Region
+T20	DISO 687 708	embolismos sistémicos
+T21	CHEM 849 860	antibiótico
+#14	AnnotatorNotes T21	C0003232; Antibiotics; Antibiotic
+T22	PROC 543 567	Consentimiento Informado
+#15	AnnotatorNotes T22	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T23	PROC 768 787	sellado antibiótico
+T24	Date 13 17	2018
+T25	Age 406 432	igual o superior a 18 años
+T26	DEVI 512 530	catéter de drenaje
+#16	AnnotatorNotes T26	C0879005; Drainage Catheters; Medical Device
+T27	LIVB 673 682	Pacientes
+#17	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	Neg_cue 742 758	Imposibilidad de
+T29	Duration 796 814	al menos 3-4 horas
+T31	LIVB 896 915	Mujeres embarazadas
+#18	AnnotatorNotes T31	C0033011; Pregnant Women; Population Group
+T32	PHYS 904 915	embarazadas
+#19	AnnotatorNotes T32	C0032961; Pregnancy; Organism Function
+A1	Assertion T23 Negated
+#20	AnnotatorNotes T13	C0678811; local drug administration; Therapeutic or Preventive Procedure
+#21	AnnotatorNotes T15	C0678811; local drug administration; Therapeutic or Preventive Procedure
+#22	AnnotatorNotes T17	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1709323; Open Label Study; Research Activity  + C2826345; Parallel Study; Research Activity 
+#23	AnnotatorNotes T18	C0243001; Abdominal Abscess; Disease or Syndrome
+#24	AnnotatorNotes T20	C5400523; Systemic embolism; Pathologic Function
+R1	Used_for Arg1:T26 Arg2:T9	
+R2	Experiences Arg1:T27 Arg2:T20	
+R3	Experiences Arg1:T27 Arg2:T12	
+T30	Observation 711 726	múltiples focos
+R4	Overlap Arg1:T30 Arg2:T12	
+R5	Used_for Arg1:T1 Arg2:T13	
+R6	Location_of Arg1:T14 Arg2:T3	
+R7	Used_for Arg1:T1 Arg2:T2	
+R8	Used_for Arg1:T4 Arg2:T5	
+R9	Used_for Arg1:T4 Arg2:T15	
+R10	Location_of Arg1:T16 Arg2:T6	
+R11	Location_of Arg1:T7 Arg2:T18	
+R12	Location_of Arg1:T19 Arg2:T8	
+T33	Quantifier_or_Qualifier 662 670	temprana
+#25	AnnotatorNotes T33	C1279919; Early; Temporal Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T33	
+R14	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T33	
+R15	Experiences Arg1:T27 Arg2:T30	
+R16	Negation Arg1:T28 Arg2:T23	
+R17	Has_Duration_or_Interval Arg1:T23 Arg2:T29	
+T34	Quantifier_or_Qualifier 815 832	de forma continua
+#26	AnnotatorNotes T34	C0549178; Continuous; Idea or Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T34	
+R19	Used_for Arg1:T21 Arg2:T23	
+R20	Experiences Arg1:T31 Arg2:T32	
+A2	Experiencer T27 Patient
+A3	Experiencer T31 Patient
+A4	Assertion T21 Hypothetical

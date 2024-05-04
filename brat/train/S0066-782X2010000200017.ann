@@ -1,0 +1,219 @@
+T1	PROC 1 25	Espirometría incentivada
+#1	AnnotatorNotes T1	C0454512; Incentive spirometry; Therapeutic or Preventive Procedure
+T2	PROC 85 115	revascularización de miocardio
+#2	AnnotatorNotes T2	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T3	PROC 609 653	presión positiva espiratoria en la vía aérea
+#3	AnnotatorNotes T3	C4480220; expiratory positive airway pressure ventilation; Therapeutic or Preventive Procedure
+T4	PROC 159 201	cirugía de revascularización del miocardio
+#4	AnnotatorNotes T4	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T5	PROC 203 206	CRM
+#5	AnnotatorNotes T5	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T6	DISO 245 270	complicaciones pulmonares
+#6	AnnotatorNotes T6	C0281169; Pulmonary Complication; Pathologic Function
+T7	ANAT 260 270	pulmonares
+#7	AnnotatorNotes T7	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T8	DISO 277 289	atelectasias
+#8	AnnotatorNotes T8	C0004144; Atelectasis; Pathologic Function
+T9	DISO 291 299	neumonía
+#9	AnnotatorNotes T9	C0032285; Pneumonia; Disease or Syndrome
+T10	DISO 302 317	derrame pleural
+#10	AnnotatorNotes T10	C0032227; Pleural effusion disorder; Disease or Syndrome
+T11	DISO 325 339	complicaciones
+#11	AnnotatorNotes T11	C0009566; Complication; Pathologic Function
+T12	PROC 369 393	internación hospitalaria
+#12	AnnotatorNotes T12	C0019993; Hospitalization; Health Care Activity
+T13	PROC 655 659	EPAP
+#13	AnnotatorNotes T13	C4480220; expiratory positive airway pressure ventilation; Therapeutic or Preventive Procedure
+T15	PROC 896 900	EPAP
+#14	AnnotatorNotes T15	C4480220; expiratory positive airway pressure ventilation; Therapeutic or Preventive Procedure
+T16	PROC 676 679	CRM
+#15	AnnotatorNotes T16	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T17	DISO 690 696	disnea
+#16	AnnotatorNotes T17	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T18	PROC 777 780	CRM
+#17	AnnotatorNotes T18	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T19	PROC 824 827	CRM
+#18	AnnotatorNotes T19	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T20	PROC 835 848	aleatorizados
+#19	AnnotatorNotes T20	C0034656; Randomization; Research Activity
+T21	PROC 911 920	protocolo
+#20	AnnotatorNotes T21	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T22	PROC 1050 1053	CRM
+#21	AnnotatorNotes T22	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T23	ANAT 1083 1094	musculatura
+#22	AnnotatorNotes T23	C1995013; Set of muscles; Body Part, Organ, or Organ Component (?)
+T24	ANAT 1144 1152	pulmonar
+#23	AnnotatorNotes T24	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T25	PROC 1230 1262	test de caminata de seis minutos
+#24	AnnotatorNotes T25	C0430515; 6-Minute Walk Test; Diagnostic Procedure
+T26	DISO 1284 1290	disnea
+#25	AnnotatorNotes T26	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T27	PROC 1450 1454	EPAP
+#26	AnnotatorNotes T27	C4480220; expiratory positive airway pressure ventilation; Therapeutic or Preventive Procedure
+T28	PROC 1462 1494	evaluación de la calidad de vida
+#27	AnnotatorNotes T28	C0281588; Assessment of quality of life; Diagnostic Procedure
+T29	DISO 1689 1695	disnea
+#28	AnnotatorNotes T29	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T30	PROC 1797 1800	CRM
+#29	AnnotatorNotes T30	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T31	ANAT 106 115	miocardio
+#30	AnnotatorNotes T31	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T32	ANAT 192 201	miocardio
+#31	AnnotatorNotes T32	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T33	PROC 927 931	EPAP
+#32	AnnotatorNotes T33	C4480220; expiratory positive airway pressure ventilation; Therapeutic or Preventive Procedure
+T34	ANAT 310 317	pleural
+#33	AnnotatorNotes T34	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T35	PROC 1070 1107	fuerza de la musculatura respiratoria
+#34	AnnotatorNotes T35	C0841557; Measurement of respiratory muscle strength; Diagnostic Procedure
+T36	PROC 1112 1131	capacidad funcional
+#35	AnnotatorNotes T36	C1830004; Functional capacity assessment; Diagnostic Procedure
+T37	ANAT 1095 1107	respiratoria
+#36	AnnotatorNotes T37	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T38	PROC 1157 1172	calidad de vida
+#37	AnnotatorNotes T38	C0281588; Assessment of quality of life; Diagnostic Procedure
+T39	PROC 1589 1593	EPAP
+#38	AnnotatorNotes T39	C4480220; expiratory positive airway pressure ventilation; Therapeutic or Preventive Procedure
+T40	PROC 30 58	presión positiva espiratoria
+#39	AnnotatorNotes T40	C0032740; Positive End-Expiratory Pressure; Therapeutic or Preventive Procedure
+T41	PROC 1136 1152	función pulmonar
+#40	AnnotatorNotes T41	C0024119; Pulmonary function tests; Diagnostic Procedure
+T42	PROC 1178 1203	nivel de actividad física
+#41	AnnotatorNotes T42	C1301988; Physical activity assessment; Diagnostic Procedure
+T43	PROC 1668 1672	EPAP
+#42	AnnotatorNotes T43	C4480220; expiratory positive airway pressure ventilation; Therapeutic or Preventive Procedure
+T46	LIVB 129 138	Pacientes
+#43	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Spec_cue 223 232	riesgo de
+T49	Date 520 533	a largo plazo
+T54	Duration 754 762	18 meses
+T55	LIVB 802 811	pacientes
+#44	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 857 870	grupo control
+#45	AnnotatorNotes T56	C0009932; Control Groups; Group
+T57	Date 949 971	período postoperatorio
+#46	AnnotatorNotes T57	C0032790; Postoperative Period; Temporal Concept
+T58	Duration 992 1001	4 semanas
+T59	Duration 1020 1035	Dieciocho meses
+T61	Duration 1250 1262	seis minutos
+T64	LIVB 1410 1423	grupo control
+#47	AnnotatorNotes T64	C0009932; Control Groups; Group
+T65	LIVB 1642 1651	Pacientes
+#48	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T67	Duration 1774 1782	18 meses
+T14	PROC 566 590	espirometría incentivada
+#49	AnnotatorNotes T14	C0454512; Incentive spirometry; Therapeutic or Preventive Procedure
+A1	Assertion T6 Speculated
+A2	Assertion T8 Speculated
+A3	Assertion T9 Speculated
+A4	Assertion T10 Speculated
+R1	Combined_with Arg1:T1 Arg2:T40	
+R2	After Arg1:T1 Arg2:T2	
+R3	Location_of Arg1:T31 Arg2:T2	
+R4	Experiences Arg1:T46 Arg2:T4	
+R5	Experiences Arg1:T46 Arg2:T5	
+R6	Location_of Arg1:T32 Arg2:T4	
+R7	Location_of Arg1:T32 Arg2:T5	
+R8	Speculation Arg1:T47 Arg2:T6	
+R9	Location_of Arg1:T7 Arg2:T6	
+R10	Experiences Arg1:T46 Arg2:T6	
+R11	Speculation Arg1:T47 Arg2:T8	
+R12	Speculation Arg1:T47 Arg2:T9	
+R13	Speculation Arg1:T47 Arg2:T10	
+R14	Location_of Arg1:T34 Arg2:T10	
+R15	Experiences Arg1:T46 Arg2:T8	
+R16	Experiences Arg1:T46 Arg2:T9	
+R17	Experiences Arg1:T46 Arg2:T10	
+R18	Before Arg1:T4 Arg2:T6	
+R19	Before Arg1:T4 Arg2:T8	
+R20	Before Arg1:T4 Arg2:T9	
+R21	Before Arg1:T4 Arg2:T10	
+R22	Before Arg1:T5 Arg2:T6	
+R23	Before Arg1:T5 Arg2:T8	
+R24	Before Arg1:T5 Arg2:T10	
+R25	Before Arg1:T5 Arg2:T9	
+T44	CONC 359 393	tiempo de internación hospitalaria
+#50	AnnotatorNotes T44	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T45	Observation 460 491	reducción de la calidad de vida
+T48	PROC 1758 1773	calidad de vida
+#51	AnnotatorNotes T48	C0281588; Assessment of quality of life; Diagnostic Procedure
+R28	Overlap Arg1:T48 Arg2:T67	
+R29	After Arg1:T48 Arg2:T30	
+R30	Experiences Arg1:T65 Arg2:T43	
+R31	Experiences Arg1:T65 Arg2:T29	
+T50	Observation 1704 1725	sensación de esfuerzo
+R32	Overlap Arg1:T11 Arg2:T45	
+T51	PROC 476 491	calidad de vida
+T52	PROC 500 519	capacidad funcional
+#52	AnnotatorNotes T52	C1830004; Functional capacity assessment; Diagnostic Procedure
+R33	Overlap Arg1:T52 Arg2:T49	
+R34	Overlap Arg1:T45 Arg2:T49	
+#53	AnnotatorNotes T51	C0281588; Assessment of quality of life; Diagnostic Procedure
+R35	Overlap Arg1:T51 Arg2:T49	
+#54	AnnotatorNotes T45	C1963786; Quality of life decreased; Finding
+T53	Observation 460 469;494 519	reducción de la capacidad funcional
+R36	Overlap Arg1:T53 Arg2:T49	
+R37	Overlap Arg1:T11 Arg2:T53	
+R38	Overlap Arg1:T14 Arg2:T3	
+R39	Overlap Arg1:T14 Arg2:T13	
+R40	After Arg1:T14 Arg2:T16	
+T63	PROC 738 753	calidad de vida
+#55	AnnotatorNotes T63	C0281588; Assessment of quality of life; Diagnostic Procedure
+R44	Overlap Arg1:T63 Arg2:T54	
+R45	After Arg1:T63 Arg2:T18	
+R46	After Arg1:T14 Arg2:T18	
+R47	Before Arg1:T14 Arg2:T63	
+R48	Experiences Arg1:T55 Arg2:T19	
+R49	Before Arg1:T19 Arg2:T15	
+R50	Before Arg1:T20 Arg2:T15	
+R51	Experiences Arg1:T56 Arg2:T19	
+R52	Overlap Arg1:T21 Arg2:T33	
+R53	Overlap Arg1:T21 Arg2:T57	
+R54	Overlap Arg1:T33 Arg2:T57	
+R56	Has_Duration_or_Interval Arg1:T21 Arg2:T58	
+R57	Has_Duration_or_Interval Arg1:T33 Arg2:T58	
+T68	Observation 1006 1018	en domicilio
+#57	AnnotatorNotes T68	C4534363; At home; Finding
+R58	Overlap Arg1:T21 Arg2:T68	
+R59	Overlap Arg1:T33 Arg2:T68	
+R60	Before Arg1:T22 Arg2:T35	
+R61	Location_of Arg1:T23 Arg2:T35	
+R62	Location_of Arg1:T37 Arg2:T35	
+R63	Before Arg1:T22 Arg2:T36	
+R64	Before Arg1:T22 Arg2:T41	
+R65	Before Arg1:T22 Arg2:T38	
+R66	Before Arg1:T22 Arg2:T42	
+R67	Location_of Arg1:T24 Arg2:T41	
+R68	Overlap Arg1:T35 Arg2:T59	
+R70	Overlap Arg1:T36 Arg2:T59	
+R71	Overlap Arg1:T41 Arg2:T59	
+R72	Overlap Arg1:T38 Arg2:T59	
+R73	Overlap Arg1:T42 Arg2:T59	
+R74	Has_Duration_or_Interval Arg1:T25 Arg2:T61	
+T69	Observation 1331 1352	sensación de esfuerzo
+R76	Experiences Arg1:T64 Arg2:T25	
+R77	Experiences Arg1:T64 Arg2:T26	
+R78	Experiences Arg1:T64 Arg2:T69	
+R79	Before Arg1:T27 Arg2:T25	
+R82	Before Arg1:T39 Arg2:T28	
+R85	Before Arg1:T43 Arg2:T48	
+R86	Before Arg1:T30 Arg2:T43	
+R26	After Arg1:T3 Arg2:T16	
+R27	After Arg1:T13 Arg2:T16	
+R42	Experiences Arg1:T65 Arg2:T50	
+R55	Experiences Arg1:T65 Arg2:T48	
+R75	Experiences Arg1:T65 Arg2:T30	
+T66	Spec_cue 553 555	si
+T70	Observation 680 753	mejora la disnea, la sensación de esfuerzo percibido y la calidad de vida
+A5	Assertion T70 Speculated
+R80	Speculation Arg1:T66 Arg2:T70	
+R81	Before Arg1:T14 Arg2:T70	
+#56	AnnotatorNotes T49	C0443252; Long-term; Temporal Concept
+#58	AnnotatorNotes T53	C5539791; Reduced functional residual capacity; Finding (?)
+A6	Experiencer T46 Patient
+A7	Experiencer T55 Patient
+A8	Experiencer T56 Patient
+A9	Experiencer T64 Patient
+A10	Experiencer T65 Patient
+R41	Has_Result_or_Value Arg1:T51 Arg2:T45	
+R43	Has_Result_or_Value Arg1:T52 Arg2:T53	

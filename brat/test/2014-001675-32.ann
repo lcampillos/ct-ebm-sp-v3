@@ -1,0 +1,133 @@
+T1	CHEM 46 54	Aspirina
+#1	AnnotatorNotes T1	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T2	CHEM 57 68	clopidogrel
+#2	AnnotatorNotes T2	C0070166; clopidogrel; Organic Chemical · Pharmacologic Substance
+T3	CHEM 76 84	aspirina
+#3	AnnotatorNotes T3	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T4	PROC 98 108	prevención
+#4	AnnotatorNotes T4	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T5	PROC 128 176	implantación de una valvula aórtica transcateter
+#5	AnnotatorNotes T5	C3509486; Transcatheter Aortic Valve Replacement; Therapeutic or Preventive Procedure
+T7	PROC 200 226	Estudio randomizado piloto
+T8	CHEM 230 238	aspirina
+#6	AnnotatorNotes T8	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T9	CHEM 282 296	antitrombótica
+T10	CHEM 246 254	aspirina
+#7	AnnotatorNotes T10	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T11	CHEM 257 268	clopidogrel
+#8	AnnotatorNotes T11	C0070166; clopidogrel; Organic Chemical · Pharmacologic Substance
+T12	PROC 274 296	terapia antitrombótica
+T14	DISO 421 441	infarto de miocardio
+#9	AnnotatorNotes T14	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T15	DISO 443 478	accidente cerebrovascular isquémico
+#10	AnnotatorNotes T15	C0948008; Ischemic stroke; Disease or Syndrome
+T16	DISO 480 508	ataque isquemico transitorio
+#11	AnnotatorNotes T16	C0007787; Transient Ischemic Attack; Disease or Syndrome
+T17	DISO 534 542	sangrado
+#12	AnnotatorNotes T17	C0019080; Hemorrhage; Pathologic Function
+T18	PROC 716 739	anticoagulación crónica
+T19	DISO 742 752	Hemorragia
+#13	AnnotatorNotes T19	C0019080; Hemorrhage; Pathologic Function
+T20	DISO 793 816	Hemorragia intracraneal
+#14	AnnotatorNotes T20	C0151699; Intracranial Hemorrhage; Pathologic Function
+T21	DISO 889 896	Alergia
+#15	AnnotatorNotes T21	C1527304; Allergic Reaction; Pathologic Function
+T22	CHEM 902 910	aspirina
+#16	AnnotatorNotes T22	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T23	CHEM 915 926	clopidogrel
+#17	AnnotatorNotes T23	C0070166; clopidogrel; Organic Chemical · Pharmacologic Substance
+T24	DISO 112 119	trombos
+#18	AnnotatorNotes T24	C0087086; Thrombus; Pathologic Function | C0302148; Blood Clot; Pathologic Function
+T25	PROC 305 344	implante percutáneo de prótesis aórtica
+T26	PROC 346 351	IPPVA
+#19	AnnotatorNotes T26	C3509486; Transcatheter Aortic Valve Replacement; Therapeutic or Preventive Procedure [implantación percutánea de prótesis valvular aórtica]
+T27	PROC 873 886	procedimiento
+#20	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T28	DISO 413 419	muerte
+#21	AnnotatorNotes T28	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T29	ANAT 432 441	miocardio
+#22	AnnotatorNotes T29	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T30	PROC 592 597	IPPVA
+#23	AnnotatorNotes T30	C3509486; Transcatheter Aortic Valve Replacement; Therapeutic or Preventive Procedure [implantación percutánea de prótesis valvular aórtica]
+T31	PROC 787 792	IPPVA
+#24	AnnotatorNotes T31	C3509486; Transcatheter Aortic Valve Replacement; Therapeutic or Preventive Procedure [implantación percutánea de prótesis valvular aórtica]
+T32	ANAT 804 816	intracraneal
+#25	AnnotatorNotes T32	C0524466; Intracranial; Body Location or Region
+T33	Date 13 17	2014
+T35	DEVI 328 344	prótesis aórtica
+#26	AnnotatorNotes T35	C0182431; Aortic valve prosthesis; Medical Device
+T36	DEVI 360 367	válvula
+#27	AnnotatorNotes T36	C0184252; Medical Valves; Medical Device
+T37	Duration 497 508	transitorio
+#28	AnnotatorNotes T37	C0205374; Transitory; Temporal Concept
+T39	LIVB 570 579	Pacientes
+#29	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	DEVI 602 609	válvula
+#30	AnnotatorNotes T40	C0184252; Medical Valves; Medical Device
+T41	Duration 732 739	crónica
+#31	AnnotatorNotes T41	C0205191; chronic; Temporal Concept
+T42	Duration 762 773	los 3 meses
+T43	DEVI 826 845	Stent farmacoactivo
+#32	AnnotatorNotes T43	C1322815; Drug-Eluting Stents; Medical Device
+T44	Date 849 862	el último año
+T45	DEVI 148 176	valvula aórtica transcateter
+#33	AnnotatorNotes T45	C3856463; Aortic Valves, Transcatheter Delivery; Medical Device
+A1	Status T19 History_of
+A2	Status T20 History_of
+A3	Status T43 History_of
+A4	Status T21 History_of
+#34	AnnotatorNotes T7	C0034656; Randomization; Research Activity + C0031928; Pilot Projects; Research Activity
+#35	AnnotatorNotes T9	C1704311; Antithrombotic Agents; Pharmacologic Substance 
+#36	AnnotatorNotes T25	C3509486; Transcatheter Aortic Valve Replacement; Therapeutic or Preventive Procedure [implantación percutánea de prótesis valvular aórtica]
+#37	AnnotatorNotes T18	C0694554; chronic anticoagulation; Therapeutic or Preventive Procedure 
+R1	Combined_with Arg1:T1 Arg2:T2	
+R2	Used_for Arg1:T1 Arg2:T4	
+R3	Used_for Arg1:T3 Arg2:T4	
+T6	Quantifier_or_Qualifier 85 89	sola
+R4	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T6	
+R5	Used_for Arg1:T8 Arg2:T12	
+R6	Combined_with Arg1:T10 Arg2:T11	
+R7	Used_for Arg1:T10 Arg2:T12	
+R8	Used_for Arg1:T9 Arg2:T12	
+R9	Before Arg1:T4 Arg2:T24	
+R10	After Arg1:T4 Arg2:T5	
+R11	Used_for Arg1:T45 Arg2:T5	
+R12	After Arg1:T8 Arg2:T25	
+R13	After Arg1:T10 Arg2:T25	
+R14	After Arg1:T11 Arg2:T25	
+R15	After Arg1:T12 Arg2:T25	
+R16	Used_for Arg1:T35 Arg2:T25	
+R17	Used_for Arg1:T35 Arg2:T26	
+R18	Used_for Arg1:T36 Arg2:T26	
+R19	Used_for Arg1:T36 Arg2:T25	
+R20	After Arg1:T8 Arg2:T26	
+R21	After Arg1:T10 Arg2:T26	
+R22	After Arg1:T11 Arg2:T26	
+R23	After Arg1:T12 Arg2:T26	
+R24	Location_of Arg1:T29 Arg2:T14	
+R25	Has_Duration_or_Interval Arg1:T16 Arg2:T37	
+T13	Observation 511 531	riesgo para la salud
+R26	Experiences Arg1:T39 Arg2:T30	
+R27	Used_for Arg1:T40 Arg2:T30	
+T34	CONC 629 645	vía transfemoral
+T38	CONC 629 632;647 658	vía transapical
+#38	AnnotatorNotes T38	C4274892; Transapical approach; Functional Concept
+T46	CONC 661 674	otros accesos
+R28	Used_for Arg1:T38 Arg2:T30	
+R29	Used_for Arg1:T34 Arg2:T30	
+R30	Used_for Arg1:T46 Arg2:T30	
+R31	Has_Duration_or_Interval Arg1:T18 Arg2:T41	
+R32	Overlap Arg1:T19 Arg2:T42	
+R33	Before Arg1:T19 Arg2:T31	
+R34	Location_of Arg1:T32 Arg2:T20	
+R35	Before Arg1:T43 Arg2:T27	
+R36	Overlap Arg1:T43 Arg2:T44	
+R37	Causes Arg1:T22 Arg2:T21	
+R38	Causes Arg1:T23 Arg2:T21	
+R39	After Arg1:T1 Arg2:T5	
+R40	After Arg1:T2 Arg2:T5	
+R41	After Arg1:T3 Arg2:T5	
+#39	AnnotatorNotes T6	C0205171; Singular; Quantitative Concept
+#40	AnnotatorNotes T13	C2826244; Life Threatening; Finding
+#41	AnnotatorNotes T12	C4480132; preventive medicine antithrombotic therapy; Therapeutic or Preventive Procedure  (?)
+A5	Experiencer T39 Patient

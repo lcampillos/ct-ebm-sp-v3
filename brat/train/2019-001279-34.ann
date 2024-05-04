@@ -1,0 +1,89 @@
+T1	PROC 46 61	Estudio clínico
+#1	AnnotatorNotes T1	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T2	PROC 67 87	evaluar la seguridad
+#2	AnnotatorNotes T2	C1705187; Safety Study; Research Activity
+T3	DISO 131 151	esclerosis sistémica
+#3	AnnotatorNotes T3	C0036421; Systemic Scleroderma; Disease or Syndrome
+T4	PROC 175 219	Estudio de extensión multicéntrico y abierto
+T5	PROC 225 277	evaluar la seguridad, la tolerabilidad y la eficacia
+T6	DISO 345 365	esclerosis sistémica
+#4	AnnotatorNotes T6	C0036421; Systemic Scleroderma; Disease or Syndrome
+T7	DISO 390 410	Esclerosis sistémica
+#5	AnnotatorNotes T7	C0036421; Systemic Scleroderma; Disease or Syndrome
+T8	PROC 493 504	tratamiento
+#6	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	CHEM 531 539	GLPG1690
+#7	AnnotatorNotes T9	C4508131; GLPG1690; Organic Chemical · Pharmacologic Substance
+T10	PROC 607 632	tratamiento a largo plazo
+#8	AnnotatorNotes T10	C0023977; long-term treatment; Health Care Activity
+T11	PROC 304 329	administrado por vía oral
+#9	AnnotatorNotes T11	C0001563; Administration, Oral; Therapeutic or Preventive Procedure | C1273553; Oral administration of treatment; Therapeutic or Preventive Procedure
+T12	CHEM 105 113	GLPG1690
+#10	AnnotatorNotes T12	C4508131; GLPG1690; Organic Chemical · Pharmacologic Substance
+T13	CHEM 295 303	GLPG1690
+#11	AnnotatorNotes T13	C4508131; GLPG1690; Organic Chemical · Pharmacologic Substance
+T14	CHEM 637 645	GLPG1690
+#12	AnnotatorNotes T14	C4508131; GLPG1690; Organic Chemical · Pharmacologic Substance
+T15	PROC 837 851	procedimientos
+#13	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T16	Date 13 17	2019
+T17	Date 88 101	a largo plazo
+T18	LIVB 117 126	pacientes
+#14	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T19	Date 278 291	a largo plazo
+T20	Route 321 329	vía oral
+#15	AnnotatorNotes T20	C1527415; Oral Route of Drug administration; Functional Concept
+T21	LIVB 333 340	sujetos
+#16	AnnotatorNotes T21	C0681850; Study Subject; Group
+T22	LIVB 450 457	mujeres
+#17	AnnotatorNotes T22	C0043210; Woman; Population Group
+T23	Duration 508 518	24 semanas
+T24	LIVB 569 581	investigador
+#18	AnnotatorNotes T24	C0035173; Research Personnel; Professional or Occupational Group
+T26	Date 619 632	a largo plazo
+T27	LIVB 731 743	investigador
+#19	AnnotatorNotes T27	C0035173; Research Personnel; Professional or Occupational Group
+T30	LIVB 797 803	sujeto
+#20	AnnotatorNotes T30	C0681850; Study Subject; Group
+T31	LIVB 440 447	Varones
+#21	AnnotatorNotes T31	C0025266; Male population group; Population Group
+A1	Status T8 History_of
+A2	Status T9 History_of
+#22	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity + C3274448; Tolerability Study; Research Activity
+T25	Neg_cue 782 789	impedir
+T28	Observation 804 823	complete el estudio
+A3	Assertion T28 Negated
+#23	AnnotatorNotes T28	C2732579; Completion of clinical trial; Finding
+R1	Negation Arg1:T25 Arg2:T28	
+T29	Observation 826 864	cumpla los procedimientos y requisitos
+A4	Assertion T29 Negated
+R2	Negation Arg1:T25 Arg2:T29	
+R3	Overlap Arg1:T2 Arg2:T17	
+R4	Experiences Arg1:T18 Arg2:T12	
+R5	Experiences Arg1:T18 Arg2:T3	
+R6	Used_for Arg1:T13 Arg2:T11	
+R7	Overlap Arg1:T5 Arg2:T19	
+R8	Has_Route_or_Mode Arg1:T13 Arg2:T20	
+R9	Experiences Arg1:T21 Arg2:T13	
+R10	Experiences Arg1:T21 Arg2:T6	
+T32	Observation 468 504	completado el período de tratamiento
+R13	Has_Duration_or_Interval Arg1:T8 Arg2:T23	
+R14	Used_for Arg1:T9 Arg2:T8	
+R15	Overlap Arg1:T10 Arg2:T26	
+R16	Used_for Arg1:T14 Arg2:T10	
+R17	Experiences Arg1:T22 Arg2:T8	
+R18	Experiences Arg1:T22 Arg2:T10	
+R19	Experiences Arg1:T31 Arg2:T8	
+R20	Experiences Arg1:T31 Arg2:T10	
+#24	AnnotatorNotes T32	C0580352; Treatment completed; Finding
+R11	Experiences Arg1:T30 Arg2:T15	
+#25	AnnotatorNotes T17	C0443252; Long-term; Temporal Concept
+#26	AnnotatorNotes T19	C0443252; Long-term; Temporal Concept
+#27	AnnotatorNotes T26	C0443252; Long-term; Temporal Concept
+A5	Experiencer T18 Patient
+A6	Experiencer T21 Patient
+A7	Experiencer T31 Patient
+A8	Experiencer T22 Patient
+A9	Experiencer T24 Other
+A10	Experiencer T27 Other
+A11	Experiencer T30 Patient

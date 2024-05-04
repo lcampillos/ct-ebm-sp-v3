@@ -1,0 +1,126 @@
+T1	PROC 49 63	ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	CHEM 80 90	apremilast
+#2	AnnotatorNotes T2	C1678805; apremilast; Organic Chemical · Pharmacologic Substance
+T3	DISO 129 148	psoriasis en placas
+#3	AnnotatorNotes T3	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T4	PROC 255 296	Estudio abierto y multicéntrico de fase 2
+T5	PROC 302 355	evaluar la seguridad, tolerabilidad y farmacocinética
+T6	CHEM 359 369	apremilast
+#4	AnnotatorNotes T6	C1678805; apremilast; Organic Chemical · Pharmacologic Substance
+T7	DISO 410 429	psoriasis en placas
+#5	AnnotatorNotes T7	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T8	DISO 476 495	Psoriasis en placas
+#6	AnnotatorNotes T8	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T9	DISO 522 541	Psoriasis en placas
+#7	AnnotatorNotes T9	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T10	PROC 748 762	diagnosticados
+#8	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 767 786	psoriasis en placas
+#9	AnnotatorNotes T11	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T12	DISO 813 831	Afecciones médicas
+T13	PROC 868 891	análisis de laboratorio
+#10	AnnotatorNotes T13	C0022885; Laboratory Procedures; Laboratory Procedure
+T14	DISO 893 916	enfermedad psiquiátrica
+#11	AnnotatorNotes T14	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T15	CHEM 371 379	CC-10004
+#12	AnnotatorNotes T15	C3658170; CC 10004; Organic Chemical · Pharmacologic Substance
+T16	Date 13 17	2015
+T18	LIVB 104 109	niños
+#13	AnnotatorNotes T18	C0008059; Child; Age Group
+T20	PHYS 340 355	farmacocinética
+#14	AnnotatorNotes T20	C0031327; Drug Kinetics; Physiologic Function
+T21	LIVB 384 405	pacientes pediátricos
+#15	AnnotatorNotes T21	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T22	Age 589 604	de 12 a 17 años
+T23	LIVB 628 633	niños
+#16	AnnotatorNotes T23	C0008059; Child; Age Group
+T24	Age 642 656	de 6 a 11 años
+T25	LIVB 702 726	Pacientes de ambos sexos
+#17	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T26	Age 730 747	entre 6 y 17 años
+T28	LIVB 931 939	paciente
+#18	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 1005 1013	paciente
+#19	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 112 124	adolescentes
+#20	AnnotatorNotes T31	C0205653; Adolescent (age group); Age Group
+T36	LIVB 568 580	adolescentes
+#21	AnnotatorNotes T36	C0205653; Adolescent (age group); Age Group
+A1	Population_data T18 Age
+A2	Population_data T31 Age
+A3	Population_data T21 Age
+A4	Population_data T36 Age
+A5	Population_data T23 Age
+#22	AnnotatorNotes T4	C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity + C0282460; Phase 2 Clinical Trials; Research Activity
+#23	AnnotatorNotes T5	C0201734; Pharmacokinetic study; Research Activity + C1705187; Safety Study; Research Activity + C3274448; Tolerability Study; Research Activity
+#24	AnnotatorNotes T12	C0221423; Illness (finding); Sign or Symptom
+T17	Neg_cue 921 927	impide
+T19	Observation 940 964	participar en el estudio
+A6	Assertion T19 Negated
+R1	Negation Arg1:T17 Arg2:T19	
+T27	Observation 995 1001	riesgo
+R3	Experiences Arg1:T30 Arg2:T27	
+R4	Causes Arg1:T12 Arg2:T27	
+R5	Causes Arg1:T14 Arg2:T27	
+R6	Before Arg1:T14 Arg2:T19	
+R7	Before Arg1:T12 Arg2:T19	
+T29	Observation 845 891	resultados anómalos en análisis de laboratorio
+R8	Before Arg1:T29 Arg2:T19	
+R9	Causes Arg1:T29 Arg2:T27	
+T32	Quantifier_or_Qualifier 832 843	importantes
+#25	AnnotatorNotes T32	C3898777; Important; Qualitative Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T32	
+T33	ANAT 195 204	organismo
+#26	AnnotatorNotes T33	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+R11	Experiences Arg1:T31 Arg2:T3	
+R12	Experiences Arg1:T18 Arg2:T3	
+T34	Spec_cue 77 79	si
+T35	Quantifier_or_Qualifier 94 100	seguro
+A7	Assertion T35 Speculated
+R13	Speculation Arg1:T34 Arg2:T35	
+R14	Experiences Arg1:T18 Arg2:T2	
+R15	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T35	
+R16	Experiences Arg1:T31 Arg2:T2	
+T37	Quantifier_or_Qualifier 149 171	entre moderada y grave
+#27	AnnotatorNotes T37	C1299393; Moderate to severe; Qualitative Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T37	
+T38	Quantifier_or_Qualifier 430 452	entre moderada y grave
+#28	AnnotatorNotes T38	C1299393; Moderate to severe; Qualitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T38	
+R19	Experiences Arg1:T21 Arg2:T20	
+R20	Experiences Arg1:T21 Arg2:T6	
+R21	Experiences Arg1:T21 Arg2:T15	
+R22	Experiences Arg1:T21 Arg2:T7	
+T39	Quantifier_or_Qualifier 542 564	entre moderada y grave
+#29	AnnotatorNotes T39	C1299393; Moderate to severe; Qualitative Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T39	
+R24	Experiences Arg1:T36 Arg2:T9	
+R25	Has_Age Arg1:T36 Arg2:T22	
+R26	Has_Age Arg1:T23 Arg2:T24	
+R27	Experiences Arg1:T23 Arg2:T9	
+R28	Has_Age Arg1:T25 Arg2:T26	
+R29	Experiences Arg1:T25 Arg2:T11	
+#30	AnnotatorNotes T29	C3648370; laboratory tests nonspecific abnormal findings; Finding
+R30	Experiences Arg1:T28 Arg2:T29	
+R31	Experiences Arg1:T28 Arg2:T13	
+R32	Experiences Arg1:T28 Arg2:T12	
+R33	Experiences Arg1:T28 Arg2:T14	
+R34	Experiences Arg1:T28 Arg2:T27	
+R36	Experiences Arg1:T30 Arg2:T14	
+R37	Experiences Arg1:T30 Arg2:T29	
+R38	Experiences Arg1:T30 Arg2:T12	
+T40	CONC 974 983	inclusión
+#31	AnnotatorNotes T40	C1512693; Inclusion; Qualitative Concept
+R40	Before Arg1:T40 Arg2:T27	
+#32	AnnotatorNotes T27	C0559571; At risk; Finding
+#33	AnnotatorNotes T19	C1278516; Patient participation status; Finding
+R2	Experiences Arg1:T30 Arg2:T13	
+A8	Experiencer T18 Patient
+A9	Experiencer T31 Patient
+A10	Experiencer T21 Patient
+A11	Experiencer T36 Patient
+A12	Experiencer T23 Patient
+A13	Experiencer T25 Patient
+A14	Experiencer T28 Patient
+A15	Experiencer T30 Patient

@@ -1,0 +1,151 @@
+T1	CHEM 46 60	Empagliflozina
+#1	AnnotatorNotes T1	C3490348; empagliflozin; Organic Chemical · Pharmacologic Substance
+T2	PROC 66 87	tratamiento adyuvante
+#2	AnnotatorNotes T2	C0677850; Adjuvant therapy; Therapeutic or Preventive Procedure
+T3	PROC 277 320	evaluar eficacia, seguridad y tolerabilidad
+T4	DISO 121 145	diabetes mellitus tipo 1
+#3	AnnotatorNotes T4	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T5	PROC 177 271	Ensayo Clínico fase III aleatorizado, doble ciego controlado con placebo y de grupos paralelos
+T6	CHEM 324 338	Empagliflozina
+#4	AnnotatorNotes T6	C3490348; empagliflozin; Organic Chemical · Pharmacologic Substance
+T7	PROC 1024 1027	MDI
+#5	AnnotatorNotes T7	C0418991; Metered dose inhaler therapy; Therapeutic or Preventive Procedure
+T8	PROC 364 385	tratamiento adyuvante
+#6	AnnotatorNotes T8	C0677850; Adjuvant therapy; Therapeutic or Preventive Procedure
+T9	CHEM 388 396	Insulina
+#7	AnnotatorNotes T9	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T10	DISO 433 457	Diabetes Mellitus tipo 1
+#8	AnnotatorNotes T10	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T11	DISO 492 507	Diabetes tipo 1
+#9	AnnotatorNotes T11	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T12	DISO 534 558	Diabetes mellitus tipo 1
+#10	AnnotatorNotes T12	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T13	CHEM 622 630	insulina
+#11	AnnotatorNotes T13	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T14	PROC 639 650	tratamiento
+#12	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 655 666	diagnóstico
+#13	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 682 706	diabetes mellitus tipo 1
+#14	AnnotatorNotes T16	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T17	CHEM 771 780	péptido C
+#15	AnnotatorNotes T17	C0006558; C-Peptide; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T18	PROC 761 790	Valor del péptido C en ayunas
+#16	AnnotatorNotes T18	C2208720; fasting C-peptide level; Laboratory Procedure
+T19	CHEM 1031 1039	insulina
+#17	AnnotatorNotes T19	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T20	PROC 1065 1086	inyección de insulina
+#18	AnnotatorNotes T20	C0586328; Subcutaneous injection of insulin; Therapeutic or Preventive Procedure
+T21	CHEM 1167 1175	insulina
+#19	AnnotatorNotes T21	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T22	CHEM 90 98	insulina
+#20	AnnotatorNotes T22	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T23	CHEM 1078 1086	insulina
+#21	AnnotatorNotes T23	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T24	PROC 1109 1127	bolos en inyección
+#22	AnnotatorNotes T24	C1511237; bolus infusion; Therapeutic or Preventive Procedure
+T25	PROC 1141 1145	CSII
+#23	AnnotatorNotes T25	C0393124; Continuous subcutaneous infusion of insulin; Therapeutic or Preventive Procedure
+T26	PROC 1252 1257	HbA1c
+#24	AnnotatorNotes T26	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T27	Date 13 17	2014
+T28	Duration 107 117	52 semanas
+T29	Route 339 343	oral
+#25	AnnotatorNotes T29	C1527415; Oral Route of Drug administration; Functional Concept
+T30	Frequency 344 358	una vez al día
+T31	Duration 405 415	52 semanas
+T32	LIVB 419 428	pacientes
+#26	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 587 602	Paciente hombre
+#27	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group | C0025266; Male population group; Population Group
+T35	LIVB 605 610	mujer
+#28	AnnotatorNotes T35	C0043210; Woman; Population Group
+T36	Duration 715 729	al menos 1 año
+T37	LIVB 925 937	investigador
+#29	AnnotatorNotes T37	C0035173; Research Personnel; Professional or Occupational Group
+T38	Dose 1052 1086	al menos una inyección de insulina
+T39	Frequency 1131 1138	diarios
+T40	Duration 1181 1197	al menos 5 meses
+T41	Age 1334 1345	>/= 18 años
+T34	Dose 1095 1127	al menos tres bolos en inyección
+T43	Route 1128 1130	OR
+T42	PROC 750 756	Visita
+#30	AnnotatorNotes T42	C1512346; Patient Visit; Health Care Activity
+T44	PROC 825 831	Visita
+#31	AnnotatorNotes T44	C1512346; Patient Visit; Health Care Activity
+T45	PROC 1241 1247	Visita
+#32	AnnotatorNotes T45	C1512346; Patient Visit; Health Care Activity
+T46	PROC 1284 1290	visita
+#33	AnnotatorNotes T46	C1512346; Patient Visit; Health Care Activity
+T47	PROC 1351 1357	Visita
+#34	AnnotatorNotes T47	C1512346; Patient Visit; Health Care Activity
+T48	Quantifier_or_Qualifier 1291 1292	5
+T49	Quantifier_or_Qualifier 832 833	2
+T50	Quantifier_or_Qualifier 1358 1359	1
+T51	Quantifier_or_Qualifier 757 758	1
+T52	Quantifier_or_Qualifier 1248 1249	1
+#35	AnnotatorNotes T5	C0282461; Phase 3 Clinical Trials; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C2826345; Parallel Study; Research Activity
+#36	AnnotatorNotes T3	C0511730; Identify product efficacy and safety issues; Health Care Activity + C3274448; Tolerability Study; Research Activity
+#37	AnnotatorNotes T43	C1527415; Oral Route of Drug administration; Functional Concept (?)
+R1	Used_for Arg1:T1 Arg2:T2	
+R2	Combined_with Arg1:T1 Arg2:T22	
+R3	Has_Duration_or_Interval Arg1:T1 Arg2:T28	
+R4	Has_Route_or_Mode Arg1:T6 Arg2:T29	
+R5	Has_Frequency Arg1:T6 Arg2:T30	
+R6	Used_for Arg1:T6 Arg2:T8	
+R7	Combined_with Arg1:T6 Arg2:T9	
+R8	Has_Duration_or_Interval Arg1:T6 Arg2:T31	
+R9	Has_Duration_or_Interval Arg1:T9 Arg2:T31	
+R10	Has_Duration_or_Interval Arg1:T22 Arg2:T28	
+R11	Experiences Arg1:T32 Arg2:T6	
+R12	Experiences Arg1:T32 Arg2:T9	
+R13	Experiences Arg1:T32 Arg2:T10	
+R14	Experiences Arg1:T33 Arg2:T13	
+R15	Used_for Arg1:T13 Arg2:T14	
+R16	Experiences Arg1:T35 Arg2:T13	
+R17	Experiences Arg1:T33 Arg2:T16	
+R18	Experiences Arg1:T35 Arg2:T16	
+R19	Has_Duration_or_Interval Arg1:T13 Arg2:T36	
+R20	Overlap Arg1:T13 Arg2:T42	
+R21	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T51	
+T53	Result_or_Value 794 819	< 0,7 ng/mL (0.23 nmol/L)
+R22	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T49	
+R23	Overlap Arg1:T18 Arg2:T44	
+R24	Has_Result_or_Value Arg1:T18 Arg2:T53	
+R25	Used_for Arg1:T19 Arg2:T7	
+R26	Used_for Arg1:T23 Arg2:T20	
+R27	Has_Dose_or_Strength Arg1:T19 Arg2:T38	
+R28	Has_Dose_or_Strength Arg1:T19 Arg2:T34	
+R29	Used_for Arg1:T19 Arg2:T24	
+R30	Used_for Arg1:T23 Arg2:T24	
+R31	Used_for Arg1:T19 Arg2:T20	
+R32	Has_Frequency Arg1:T23 Arg2:T39	
+R33	Has_Frequency Arg1:T19 Arg2:T39	
+R34	Has_Route_or_Mode Arg1:T23 Arg2:T43	
+T54	Quantifier_or_Qualifier 1087 1092	basal
+#38	AnnotatorNotes T54	C1442488; Baseline; Quantitative Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T54	
+R36	Used_for Arg1:T23 Arg2:T7	
+R37	Used_for Arg1:T21 Arg2:T25	
+R38	Has_Duration_or_Interval Arg1:T21 Arg2:T40	
+R39	Before Arg1:T25 Arg2:T45	
+R40	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T52	
+T55	PROC 1224 1228	CSII
+#39	AnnotatorNotes T55	C0393124; Continuous subcutaneous infusion of insulin; Therapeutic or Preventive Procedure
+R41	Before Arg1:T55 Arg2:T45	
+R42	Used_for Arg1:T21 Arg2:T55	
+T56	Result_or_Value 1258 1278	>/= 7,5% y </= 10.0%
+R43	Has_Result_or_Value Arg1:T26 Arg2:T56	
+R44	Overlap Arg1:T26 Arg2:T46	
+R45	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T48	
+R46	Overlap Arg1:T41 Arg2:T47	
+R47	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T50	
+#40	AnnotatorNotes T49	C0205448; Two; Quantitative Concept
+#41	AnnotatorNotes T51	C0205447; One; Quantitative Concept
+#42	AnnotatorNotes T50	C0205447; One; Quantitative Concept
+#43	AnnotatorNotes T52	C0205447; One; Quantitative Concept
+#44	AnnotatorNotes T48	C0205451; Five; Quantitative Concept
+A1	Experiencer T32 Patient
+A2	Experiencer T33 Patient
+A3	Experiencer T35 Patient
+A4	Experiencer T37 Other

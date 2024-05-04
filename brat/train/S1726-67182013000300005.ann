@@ -1,0 +1,165 @@
+T1	CHEM 1 9	Ketamina
+#1	AnnotatorNotes T1	C0022614; ketamine; Organic Chemical · Pharmacologic Substance
+T2	CHEM 15 38	medicamento coadyuvante
+T3	PROC 45 77	control del dolor perioperatorio
+T4	PROC 84 101	cirugía abdominal
+#2	AnnotatorNotes T4	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T5	CHEM 141 149	ketamina
+#3	AnnotatorNotes T5	C0022614; ketamine; Organic Chemical · Pharmacologic Substance
+T6	CHEM 301 309	ketamina
+#4	AnnotatorNotes T6	C0022614; ketamine; Organic Chemical · Pharmacologic Substance
+T7	CHEM 390 398	ketamina
+#5	AnnotatorNotes T7	C0022614; ketamine; Organic Chemical · Pharmacologic Substance
+T8	CHEM 431 438	morfina
+#6	AnnotatorNotes T8	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T9	CHEM 154 161	morfina
+#7	AnnotatorNotes T9	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T10	DISO 463 479	efectos adversos
+#8	AnnotatorNotes T10	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T11	CHEM 486 494	ketamina
+#9	AnnotatorNotes T11	C0022614; ketamine; Organic Chemical · Pharmacologic Substance
+T12	PROC 501 518	cirugía abdominal
+#10	AnnotatorNotes T12	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T13	PROC 549 592	estudio prospectivo, aleatorio, doble ciego
+#11	AnnotatorNotes T13	C0013072; Double-Blind Method; Research Activity + C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T14	PROC 627 644	cirugía abdominal
+#12	AnnotatorNotes T14	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T15	CHEM 701 709	ketamina
+#13	AnnotatorNotes T15	C0022614; ketamine; Organic Chemical · Pharmacologic Substance
+T16	CHEM 856 864	ketamina
+#14	AnnotatorNotes T16	C0022614; ketamine; Organic Chemical · Pharmacologic Substance
+T17	PROC 958 965	placebo
+#15	AnnotatorNotes T17	C0032042; Placebos; Therapeutic or Preventive Procedure
+T18	PROC 1003 1024	escala análoga visual
+#16	AnnotatorNotes T18	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T19	CHEM 991 998	morfina
+#17	AnnotatorNotes T19	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T20	DISO 1031 1047	efectos adversos
+#18	AnnotatorNotes T20	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T21	CHEM 1113 1120	morfina
+#19	AnnotatorNotes T21	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T22	PROC 1142 1172	proceder anestésico quirúrgico
+T23	PROC 1302 1323	escala análoga visual
+#20	AnnotatorNotes T23	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T24	DISO 1432 1439	náuseas
+#21	AnnotatorNotes T24	C0027497; Nausea; Sign or Symptom
+T25	CHEM 1550 1558	ketamina
+#22	AnnotatorNotes T25	C0022614; ketamine; Organic Chemical · Pharmacologic Substance
+T26	PROC 1569 1593	analgesia postoperatoria
+#23	AnnotatorNotes T26	C0521301; Postoperative administration of analgesia; Therapeutic or Preventive Procedure
+T27	CHEM 1629 1636	morfina
+#24	AnnotatorNotes T27	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T28	DISO 1717 1733	efectos adversos
+#25	AnnotatorNotes T28	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T29	DISO 57 77	dolor perioperatorio
+T30	ANAT 92 101	abdominal
+#26	AnnotatorNotes T30	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T31	DISO 181 186	dolor
+#27	AnnotatorNotes T31	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T32	PROC 372 386	administración
+#28	AnnotatorNotes T32	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T33	DISO 454 459	dolor
+#29	AnnotatorNotes T33	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T34	ANAT 509 518	abdominal
+#30	AnnotatorNotes T34	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T35	ANAT 635 644	abdominal
+#31	AnnotatorNotes T35	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T36	PROC 766 773	cirugía
+#32	AnnotatorNotes T36	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T38	Date 63 77	perioperatorio
+#33	AnnotatorNotes T38	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T40	Date 229 251	período postoperatorio
+#34	AnnotatorNotes T40	C0032790; Postoperative Period; Temporal Concept
+T41	Date 413 427	postoperatorio
+#35	AnnotatorNotes T41	C0032790; Postoperative Period; Temporal Concept
+T43	LIVB 600 609	pacientes
+#36	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Time 710 725	intraoperatoria
+#37	AnnotatorNotes T44	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T45	Date 728 742	postoperatoria
+#38	AnnotatorNotes T45	C0032790; Postoperative Period; Temporal Concept
+T46	Duration 743 751	48 horas
+T47	Dose 798 818	un bolo de 0,5 mg/kg
+T48	Time 871 886	intraoperatorio
+#39	AnnotatorNotes T48	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T49	Dose 911 931	un bolo de 0.5 mg/kg
+T51	Duration 1051 1072	las primeras 48 horas
+T52	Duration 1121 1129	24 horas
+T57	Dose 1535 1546	bajas dosis
+#40	AnnotatorNotes T57	C0445550; Low dose; Quantitative Concept
+T58	Date 1579 1593	postoperatoria
+#41	AnnotatorNotes T58	C0032790; Postoperative Period; Temporal Concept
+T59	Duration 1664 1672	48 horas
+T60	Date 1679 1693	postoperatorio
+#42	AnnotatorNotes T60	C0032790; Postoperative Period; Temporal Concept
+T39	Frequency 782 786	/min
+T42	Route 801 805	bolo
+#43	AnnotatorNotes T42	C1554882; Injection, intravenous, bolus; Functional Concept | C1522229; Intravenous Bolus; Functional Concept
+T50	Frequency 895 899	/min
+T61	Route 914 918	bolo
+#44	AnnotatorNotes T61	C1554882; Injection, intravenous, bolus; Functional Concept | C1522229; Intravenous Bolus; Functional Concept
+T37	Dose 775 782	2 µg/kg
+T53	Dose 888 895	2 µg/kg
+#45	AnnotatorNotes T2	C0001552; Pharmaceutical Adjuvants; Chemical Viewed Functionally
+R1	Overlap Arg1:T29 Arg2:T38	
+R2	Overlap Arg1:T3 Arg2:T38	
+R3	Used_for Arg1:T1 Arg2:T3	
+R4	Location_of Arg1:T30 Arg2:T4	
+T54	Quantifier_or_Qualifier 102 107	mayor
+R5	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T54	
+R7	Used_for Arg1:T2 Arg2:T3	
+R8	Combined_with Arg1:T5 Arg2:T9	
+T55	Observation 162 171;178 186	disminuye el dolor
+#46	AnnotatorNotes T55	C5230944; Sensation of pain reduced; Finding
+R9	Causes Arg1:T5 Arg2:T55	
+R10	Overlap Arg1:T55 Arg2:T40	
+R11	Overlap Arg1:T31 Arg2:T40	
+R12	Used_for Arg1:T7 Arg2:T32	
+R13	Overlap Arg1:T7 Arg2:T41	
+R14	Combined_with Arg1:T7 Arg2:T8	
+R15	Overlap Arg1:T8 Arg2:T41	
+T56	Observation 440 459	reducción del dolor
+#47	AnnotatorNotes T56	C5230944; Sensation of pain reduced; Finding
+R16	Causes Arg1:T7 Arg2:T56	
+R17	Causes Arg1:T7 Arg2:T10	
+R18	Causes Arg1:T11 Arg2:T10	
+R21	Location_of Arg1:T34 Arg2:T12	
+R22	Experiences Arg1:T43 Arg2:T14	
+R23	Location_of Arg1:T35 Arg2:T14	
+T62	Quantifier_or_Qualifier 610 621	programados
+R24	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T62	
+R25	Overlap Arg1:T15 Arg2:T44	
+R26	Experiences Arg1:T43 Arg2:T15	
+R27	Overlap Arg1:T15 Arg2:T45	
+R28	Has_Duration_or_Interval Arg1:T15 Arg2:T46	
+R29	After Arg1:T15 Arg2:T36	
+R30	Experiences Arg1:T43 Arg2:T36	
+R31	Has_Dose_or_Strength Arg1:T15 Arg2:T37	
+R32	Has_Frequency Arg1:T15 Arg2:T39	
+R33	Has_Route_or_Mode Arg1:T15 Arg2:T42	
+R34	Has_Dose_or_Strength Arg1:T15 Arg2:T47	
+R35	After Arg1:T37 Arg2:T47	
+R36	Overlap Arg1:T16 Arg2:T48	
+R37	Has_Dose_or_Strength Arg1:T16 Arg2:T53	
+R38	Has_Frequency Arg1:T16 Arg2:T50	
+R39	After Arg1:T53 Arg2:T49	
+R40	Has_Route_or_Mode Arg1:T16 Arg2:T61	
+R41	Experiences Arg1:T43 Arg2:T16	
+R42	Experiences Arg1:T43 Arg2:T17	
+R43	Has_Duration_or_Interval Arg1:T19 Arg2:T51	
+R44	Overlap Arg1:T18 Arg2:T51	
+R45	Overlap Arg1:T20 Arg2:T51	
+R46	Has_Duration_or_Interval Arg1:T21 Arg2:T52	
+R47	After Arg1:T21 Arg2:T22	
+R48	Has_Dose_or_Strength Arg1:T25 Arg2:T57	
+R49	Overlap Arg1:T26 Arg2:T58	
+R50	Used_for Arg1:T25 Arg2:T26	
+R51	Combined_with Arg1:T25 Arg2:T27	
+R52	Has_Duration_or_Interval Arg1:T25 Arg2:T59	
+R53	Overlap Arg1:T25 Arg2:T60	
+R54	Overlap Arg1:T27 Arg2:T60	
+R55	Causes Arg1:T25 Arg2:T28	
+R56	Has_Dose_or_Strength Arg1:T16 Arg2:T49	
+#48	AnnotatorNotes T54	C0205164; Major; Qualitative Concept
+#49	AnnotatorNotes T62	C0205539; Scheduled - procedure status; Qualitative Concept
+A1	Experiencer T43 Patient

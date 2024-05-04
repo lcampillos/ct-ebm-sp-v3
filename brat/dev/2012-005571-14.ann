@@ -1,0 +1,166 @@
+T1	CHEM 95 118	ACETATO DE TRIPTORELINA
+T2	PROC 627 630	FIV
+T3	PROC 782 809	Concentración sérica de AMH
+T4	PROC 149 185	TRATAMIENTOS DE FECUNDACION IN VITRO
+T5	PROC 208 276	ENSAYO CLÍNICO, SIMPLE CIEGO, ALEATORIZADO, CONTROLADO Y PROSPECTIVO
+T6	PROC 1268 1302	consentimiento expreso por escrito
+#1	AnnotatorNotes T6	C0811741; Obtain informed written consent; Health Care Activity
+T7	PROC 631 635	ICSI
+#2	AnnotatorNotes T7	C0455164; Sperm Injections, Intracytoplasmic; Therapeutic or Preventive Procedure
+T8	CHEM 355 378	ACETATO DE TRIPTORELINA
+T9	PROC 826 854	Número de folículos antrales
+T10	ANAT 132 141	FOLICULAR
+T11	PROC 409 428	TRATAMIENTOS DE FIV
+T12	DISO 452 464	INFERTILIDAD
+#3	AnnotatorNotes T12	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T13	DISO 521 551	Esterilidad de origen tubárico
+#4	AnnotatorNotes T13	C0156415; Female infertility of tubal origin; Disease or Syndrome [ICD-10: N97.1]
+T14	PROC 606 617	tratamiento
+#5	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	ANAT 646 651	semen
+#6	AnnotatorNotes T15	C0036614; Seminal fluid; Body Substance | C2756969; Semen; Body Substance
+T16	ANAT 392 401	FOLICULAR
+T17	ANAT 675 690	semen congelado
+T18	PROC 704 734	Concentración sanguínea de FSH
+#7	AnnotatorNotes T18	C4736770; follitropin baseline in serum or plasma; Laboratory Procedure
+T19	ANAT 796 802	sérica
+#8	AnnotatorNotes T19	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T20	CHEM 806 809	AMH
+#9	AnnotatorNotes T20	C0687670; Mullerian duct inhibiting substance; Amino Acid, Peptide, or Protein · Hormone
+T21	ANAT 836 854	folículos antrales
+#10	AnnotatorNotes T21	C0600225; Graafian Follicle; Body Part, Organ, or Organ Component
+T22	ANAT 871 884	ambos ovarios
+#11	AnnotatorNotes T22	C0227898; Both ovaries; Body Part, Organ, or Organ Component
+T23	PROC 911 922	Diagnóstico
+#12	AnnotatorNotes T23	C0011900; Diagnosis; Diagnostic Procedure
+T24	DISO 926 939	endometriosis
+#13	AnnotatorNotes T24	C0014175; Endometriosis; Disease or Syndrome
+T25	PROC 963 974	Diagnóstico
+#14	AnnotatorNotes T25	C0011900; Diagnosis; Diagnostic Procedure
+T26	PROC 1192 1207	ciclo cancelado
+#15	AnnotatorNotes T26	C1145321; Incomplete cycle; Therapeutic or Preventive Procedure
+T27	DISO 978 1007	Sdm. de ovarios poliquísticos
+T28	PROC 1104 1124	estimulación ovárica
+T29	ANAT 1163 1172	folículos
+#16	AnnotatorNotes T29	C0018120; Ovarian Follicle; Body Part, Organ, or Organ Component | C1571705; Follicle; Body Part, Organ, or Organ Component
+T30	DISO 1304 1311	Alergia
+#17	AnnotatorNotes T30	C1527304; Allergic Reaction; Pathologic Function
+T31	CHEM 1324 1331	fármaco
+#18	AnnotatorNotes T31	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T32	PROC 124 141	PUNCIÓN FOLICULAR
+T33	PROC 336 350	ADMINISTRACIÓN
+#19	AnnotatorNotes T33	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T34	PROC 384 401	PUNCIÓN FOLICULAR
+T35	ANAT 718 727	sanguínea
+#20	AnnotatorNotes T35	C0005767; Blood; Body Substance
+T36	CHEM 731 734	FSH
+#21	AnnotatorNotes T36	C0733758; follicle stimulating hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T37	ANAT 986 993	ovarios
+#22	AnnotatorNotes T37	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T38	DISO 1068 1082	baja respuesta
+T39	ANAT 1117 1124	ovárica
+#23	AnnotatorNotes T39	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T40	Date 13 17	2012
+T41	Age 496 519	menor o igual a 37 años
+T42	PHYS 655 664	eyaculado
+#24	AnnotatorNotes T42	C0013746; Ejaculation; Organism Function
+T43	LIVB 694 701	donante
+#25	AnnotatorNotes T43	C2191327; donor of organ or tissue; Patient or Disabled Group
+T45	Date 756 761	día 3
+T49	LIVB 1224 1233	pacientes
+#26	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Neg_cue 1258 1260	no
+T51	LIVB 1333 1340	Mujeres
+#27	AnnotatorNotes T51	C0043210; Woman; Population Group
+T52	PHYS 165 176	FECUNDACION
+#28	AnnotatorNotes T52	C0009637; Conception; Organism Function | C0015914; Fertilization; Organism Function
+T53	DISO 574 590	factor masculino
+#29	AnnotatorNotes T53	C2910719; Encounter for male factor infertility in female patient; Finding [ICD-10: Z31.81]
+T44	PHYS 765 780	ciclo menstrual
+#30	AnnotatorNotes T44	C0025329; Menstrual cycle; Organism Function
+T46	PROC 1364 1370	ensayo
+#31	AnnotatorNotes T46	C0008976; Clinical Trials; Research Activity
+T47	Date 1371 1379	hace mes
+A1	Assertion T6 Negated
+A2	Status T38 History_of
+A3	Status T28 History_of
+A4	Status T26 History_of
+A5	Status T30 History_of
+A6	Status T46 History_of
+#32	AnnotatorNotes T5	C0150108; Blinded; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0033522; Prospective Studies; Research Activity
+#33	AnnotatorNotes T1	C0771825; triptorelin acetate; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Hormone 
+#34	AnnotatorNotes T8	C0771825; triptorelin acetate; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Hormone 
+#35	AnnotatorNotes T4	C0015915; Fertilization in Vitro; Therapeutic or Preventive Procedure 
+#36	AnnotatorNotes T11	C0015915; Fertilization in Vitro; Therapeutic or Preventive Procedure 
+#37	AnnotatorNotes T2	C0015915; Fertilization in Vitro; Therapeutic or Preventive Procedure
+#38	AnnotatorNotes T17	C0016742; Frozen Semen; Body Substance
+#39	AnnotatorNotes T27	C0032460; Polycystic Ovary Syndrome; Disease or Syndrome 
+#40	AnnotatorNotes T38	C4087255; Poor response to ovulation induction; Pathologic Function
+#41	AnnotatorNotes T28	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+T48	Spec_cue 560 571	desconocido
+T54	CONC 553 559	origen
+A7	Assertion T54 Speculated
+R1	Speculation Arg1:T48 Arg2:T54	
+T55	Spec_cue 591 605	susceptible de
+A8	Assertion T14 Speculated
+A9	Assertion T2 Speculated
+A10	Assertion T7 Speculated
+R2	Speculation Arg1:T55 Arg2:T14	
+R3	Speculation Arg1:T55 Arg2:T2	
+R4	Speculation Arg1:T55 Arg2:T7	
+R5	Location_of Arg1:T10 Arg2:T32	
+R6	Location_of Arg1:T16 Arg2:T34	
+#42	AnnotatorNotes T16	C0018120; Ovarian Follicle; Body Part, Organ, or Organ Component | C1571705; Follicle; Body Part, Organ, or Organ Component
+#43	AnnotatorNotes T10	C0018120; Ovarian Follicle; Body Part, Organ, or Organ Component | C1571705; Follicle; Body Part, Organ, or Organ Component
+R7	Before Arg1:T4 Arg2:T52	
+R8	Before Arg1:T1 Arg2:T32	
+R9	Used_for Arg1:T8 Arg2:T33	
+R11	Overlap Arg1:T32 Arg2:T4	
+R12	Before Arg1:T33 Arg2:T34	
+R13	Overlap Arg1:T34 Arg2:T11	
+#44	AnnotatorNotes T54	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+R19	Experiences Arg1:T43 Arg2:T42	
+R20	Location_of Arg1:T35 Arg2:T18	
+T56	Result_or_Value 741 752	< 10 mUI/ml
+R21	Has_Result_or_Value Arg1:T18 Arg2:T56	
+T57	Quantifier_or_Qualifier 735 740	basal
+#45	AnnotatorNotes T57	C1442488; Baseline; Quantitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T57	
+R23	Overlap Arg1:T18 Arg2:T45	
+R24	Overlap Arg1:T44 Arg2:T45	
+R25	Overlap Arg1:T18 Arg2:T44	
+R26	Location_of Arg1:T19 Arg2:T3	
+T58	Result_or_Value 810 825	>5 y <45 pmol/l
+R27	Has_Result_or_Value Arg1:T3 Arg2:T58	
+#46	AnnotatorNotes T3	C2210756; serum anti-Mullerian hormone (AMH); Laboratory Procedure
+T59	Result_or_Value 855 884	> 6 y <24 entre ambos ovarios
+R28	Has_Result_or_Value Arg1:T9 Arg2:T59	
+#47	AnnotatorNotes T9	C3273281; Antral follicle count; Diagnostic Procedure
+T60	Quantifier_or_Qualifier 948 960	Grado III-IV
+R29	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T60	
+T61	Quantifier_or_Qualifier 940 946	severa
+#48	AnnotatorNotes T61	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R30	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T61	
+R31	Location_of Arg1:T37 Arg2:T27	
+T62	CONC 1031 1053	Criterios de Rotterdam
+R32	Used_for Arg1:T62 Arg2:T25	
+R34	Location_of Arg1:T39 Arg2:T28	
+T63	Quantifier_or_Qualifier 1152 1162	menos de 4
+R35	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T63	
+T64	Result_or_Value 1173 1189	mayores de 16 mm
+R36	Has_Result_or_Value Arg1:T29 Arg2:T64	
+R38	Negation Arg1:T50 Arg2:T6	
+R39	Causes Arg1:T31 Arg2:T30	
+T65	Observation 1345 1370	hayan estado en un ensayo
+R40	Overlap Arg1:T46 Arg2:T47	
+R41	Overlap Arg1:T65 Arg2:T47	
+R43	Before Arg1:T32 Arg2:T52	
+R10	Used_for Arg1:T15 Arg2:T7	
+R14	Used_for Arg1:T15 Arg2:T2	
+R15	Used_for Arg1:T17 Arg2:T2	
+R16	Used_for Arg1:T17 Arg2:T7	
+#49	AnnotatorNotes T32	C3523454; Follicle puncture for retrieval of oocyte; Therapeutic or Preventive Procedure
+#50	AnnotatorNotes T34	C3523454; Follicle puncture for retrieval of oocyte; Therapeutic or Preventive Procedure
+A11	Experiencer T43 Patient
+A12	Experiencer T49 Patient
+A13	Experiencer T51 Patient

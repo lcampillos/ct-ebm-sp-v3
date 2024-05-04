@@ -1,0 +1,223 @@
+T1	DISO 62 95	infección de la herida quirúrgica
+#1	AnnotatorNotes T1	C0038941; Surgical Wound Infection; Pathologic Function
+T2	PROC 85 95	quirúrgica
+#2	AnnotatorNotes T2	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T3	CHEM 132 139	oxígeno
+#3	AnnotatorNotes T3	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T4	PROC 151 160	anestesia
+#4	AnnotatorNotes T4	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+T5	PROC 322 354	fracción inspiratoria de oxígeno
+T6	DISO 199 229	infección de herida quirúrgica
+T7	PROC 219 229	quirúrgica
+#5	AnnotatorNotes T7	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T8	PROC 283 317	ventilación de protección pulmonar
+T9	ANAT 309 317	pulmonar
+#6	AnnotatorNotes T9	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T10	CHEM 347 354	oxígeno
+#7	AnnotatorNotes T10	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T11	PROC 364 438	Estudio comparativo, prospectivo, multicéntrico, aleatorizado y controlado
+T12	PROC 490 509	cirugía del abdomen
+T13	PROC 514 531	anestesia general
+#8	AnnotatorNotes T13	C0002915; General Anesthesia; Therapeutic or Preventive Procedure
+T14	PROC 623 640	cirugia abdominal
+#9	AnnotatorNotes T14	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T15	ANAT 631 640	abdominal
+#10	AnnotatorNotes T15	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T16	PROC 642 653	laparotomía
+#11	AnnotatorNotes T16	C0023038; Laparotomy; Therapeutic or Preventive Procedure
+T17	PROC 656 669	laparoscópica
+#12	AnnotatorNotes T17	C0031150; Laparoscopy; Diagnostic Procedure
+T18	PROC 677 694	anestesia general
+#13	AnnotatorNotes T18	C0002915; General Anesthesia; Therapeutic or Preventive Procedure
+T19	PROC 806 823	Cirugía abdominal
+#14	AnnotatorNotes T19	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T20	DISO 1019 1057	Síndrome de distrés respiratorio agudo
+#15	AnnotatorNotes T20	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T21	DISO 1103 1117	Fallo cardiaco
+#16	AnnotatorNotes T21	C0018801; Heart failure; Disease or Syndrome
+T22	PROC 1076 1086	PaO2/ FIO2
+T23	PROC 1190 1197	cirugía
+#17	AnnotatorNotes T23	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T24	DISO 1212 1227	signos clínicos
+#18	AnnotatorNotes T24	C0037088; Signs and Symptoms; Sign or Symptom
+T25	DISO 1229 1240	hipotensión
+#19	AnnotatorNotes T25	C0020649; Hypotension; Finding
+T26	DISO 1242 1250	oliguria
+#20	AnnotatorNotes T26	C0028961; Oliguria; Disease or Syndrome
+T27	DISO 1252 1266	edema pulmonar
+#21	AnnotatorNotes T27	C0034063; Pulmonary Edema; Pathologic Function
+T28	PROC 1278 1287	NT-proBNP
+#22	AnnotatorNotes T28	C1533071; N terminal pro-brain natriuretic peptide level; Laboratory Procedure
+T29	PROC 1303 1314	Diagnóstico
+#23	AnnotatorNotes T29	C0011900; Diagnosis; Diagnostic Procedure
+T30	DISO 1329 1354	hipertensión intracraneal
+#24	AnnotatorNotes T30	C0151740; Intracranial Hypertension; Finding
+T31	DISO 1384 1394	neumotórax
+#25	AnnotatorNotes T31	C0032326; Pneumothorax; Disease or Syndrome
+T32	PROC 1000 1003	IMC
+#26	AnnotatorNotes T32	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T33	DISO 1409 1415	bullas
+T34	PROC 1431 1451	radiografía de tórax
+#27	AnnotatorNotes T34	C0039985; Plain chest X-ray; Diagnostic Procedure
+T35	PROC 1460 1490	tomografía axial computarizada
+#28	AnnotatorNotes T35	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T36	PROC 1492 1495	TAC
+#29	AnnotatorNotes T36	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T37	PROC 1524 1562	protocolo de intervención experimental
+T38	ANAT 502 509	abdomen
+#30	AnnotatorNotes T38	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T39	PROC 788 791	IMC
+#31	AnnotatorNotes T39	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T40	PROC 763 786	Índice de masa corporal
+#32	AnnotatorNotes T40	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T41	ANAT 778 786	corporal
+#33	AnnotatorNotes T41	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T42	ANAT 814 823	abdominal
+#34	AnnotatorNotes T42	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T43	PROC 975 998	Índice de masa corporal
+#35	AnnotatorNotes T43	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T44	ANAT 990 998	corporal
+#36	AnnotatorNotes T44	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T45	ANAT 1109 1117	cardiaco
+#37	AnnotatorNotes T45	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T46	DISO 1119 1121	IC
+#38	AnnotatorNotes T46	C0542052; Coronary artery insufficiency; Disease or Syndrome
+T47	ANAT 1258 1266	pulmonar
+#39	AnnotatorNotes T47	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T48	ANAT 1342 1354	intracraneal
+#40	AnnotatorNotes T48	C0524466; Intracranial; Body Location or Region
+T49	ANAT 1446 1451	tórax
+#41	AnnotatorNotes T49	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T50	CHEM 1159 1177	soporte inotrópico
+T51	Date 13 17	2016
+T52	PHYS 96 106	respirando
+#42	AnnotatorNotes T52	C0035203; Respiration; Physiologic Function
+T53	Date 249 263	perioperatoria
+#43	AnnotatorNotes T53	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T55	LIVB 463 472	Pacientes
+#44	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 586 595	pacientes
+#45	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	Age 731 757	igual o superior a 18 años
+T59	Duration 847 855	>2 horas
+T60	Age 903 919	menor de 18 años
+T61	LIVB 924 969	Mujeres embarazadas o en periodo de lactancia
+#46	AnnotatorNotes T61	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T62	PHYS 932 943	embarazadas
+#47	AnnotatorNotes T62	C0032961; Pregnancy; Organism Function
+T63	PHYS 960 969	lactancia
+#48	AnnotatorNotes T63	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T65	Spec_cue 1317 1328	sospecha de
+T66	LIVB 562 581	población a estudio
+#49	AnnotatorNotes T66	C2348561; Study Population (group); Population Group
+T67	PHYS 1039 1051	respiratorio
+#50	AnnotatorNotes T67	C0035203; Respiration; Physiologic Function
+T54	Dose 107 128	concentraciones altas
+A1	Assertion T30 Speculated
+#51	AnnotatorNotes T6	C0038941; Surgical Wound Infection; Pathologic Function
+#52	AnnotatorNotes T11	C1579762; comparative study research; Research Activity + C0033522; Prospective Studies; Research Activity + C1096776; Multicenter Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#53	AnnotatorNotes T12	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+#54	AnnotatorNotes T22	C4087239; PaO2/FiO2 ratio; Laboratory Procedure
+R1	Before Arg1:T2 Arg2:T1	
+R2	Before Arg1:T7 Arg2:T6	
+R3	Used_for Arg1:T3 Arg2:T52	
+R4	Has_Dose_or_Strength Arg1:T3 Arg2:T54	
+R5	Overlap Arg1:T3 Arg2:T4	
+R6	Before Arg1:T4 Arg2:T2	
+T68	Quantifier_or_Qualifier 264 279	individualizada
+#57	AnnotatorNotes T68	C1881197; Individualized; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T68	
+R9	Overlap Arg1:T8 Arg2:T53	
+R10	Location_of Arg1:T9 Arg2:T8	
+#58	AnnotatorNotes T5	C1512797; Inspired Oxygen Fraction Test; Diagnostic Procedure
+R11	Used_for Arg1:T10 Arg2:T5	
+T69	Result_or_Value 355 362	elevada
+#59	AnnotatorNotes T69	C0205250; High; Qualitative Concept
+R12	Has_Result_or_Value Arg1:T5 Arg2:T69	
+R13	Overlap Arg1:T8 Arg2:T5	
+R14	Overlap Arg1:T7 Arg2:T8	
+R15	Overlap Arg1:T5 Arg2:T53	
+R16	Experiences Arg1:T55 Arg2:T12	
+R17	Experiences Arg1:T55 Arg2:T13	
+R18	Location_of Arg1:T38 Arg2:T12	
+T70	Quantifier_or_Qualifier 473 484	programados
+#60	AnnotatorNotes T70	C0205539; Scheduled - procedure status; Qualitative Concept
+T71	Quantifier_or_Qualifier 606 617	programados
+#61	AnnotatorNotes T71	C0205539; Scheduled - procedure status; Qualitative Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T70	
+R20	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T71	
+R21	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T71	
+R22	Experiences Arg1:T66 Arg2:T14	
+R23	Experiences Arg1:T66 Arg2:T16	
+R24	Experiences Arg1:T66 Arg2:T17	
+R25	Experiences Arg1:T56 Arg2:T14	
+R26	Experiences Arg1:T56 Arg2:T16	
+R27	Experiences Arg1:T56 Arg2:T17	
+R28	Experiences Arg1:T56 Arg2:T18	
+R29	Experiences Arg1:T66 Arg2:T18	
+R30	Before Arg1:T18 Arg2:T14	
+R31	Before Arg1:T18 Arg2:T16	
+R32	Before Arg1:T18 Arg2:T17	
+R33	Location_of Arg1:T15 Arg2:T14	
+R36	Location_of Arg1:T15 Arg2:T16	
+R37	Location_of Arg1:T15 Arg2:T17	
+T72	Result_or_Value 793 802	<35 kg/m2
+R38	Has_Result_or_Value Arg1:T39 Arg2:T72	
+R39	Location_of Arg1:T41 Arg2:T40	
+R40	Location_of Arg1:T41 Arg2:T39	
+R41	Has_Result_or_Value Arg1:T40 Arg2:T72	
+R42	Location_of Arg1:T42 Arg2:T19	
+R43	Has_Duration_or_Interval Arg1:T19 Arg2:T59	
+T73	Quantifier_or_Qualifier 824 834	programada
+#62	AnnotatorNotes T73	C0205539; Scheduled - procedure status; Qualitative Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T73	
+R45	Experiences Arg1:T61 Arg2:T62	
+R46	Experiences Arg1:T61 Arg2:T63	
+R47	Location_of Arg1:T44 Arg2:T43	
+R48	Location_of Arg1:T44 Arg2:T32	
+T74	Result_or_Value 1005 1015	> 35 Kg/m2
+R49	Has_Result_or_Value Arg1:T32 Arg2:T74	
+R50	Has_Result_or_Value Arg1:T43 Arg2:T74	
+T75	Quantifier_or_Qualifier 1058 1074	moderado o grave
+#63	AnnotatorNotes T75	C1299393; Moderate to severe; Qualitative Concept
+R52	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T75	
+T76	Result_or_Value 1087 1096	< 200mmHg
+R53	Has_Result_or_Value Arg1:T22 Arg2:T76	
+R55	Location_of Arg1:T45 Arg2:T21	
+R56	Location_of Arg1:T45 Arg2:T46	
+T77	Result_or_Value 1122 1136	< 2,5 L/min/m2
+R57	Has_Result_or_Value Arg1:T46 Arg2:T77	
+R58	Has_Result_or_Value Arg1:T21 Arg2:T77	
+R59	Before Arg1:T50 Arg2:T23	
+R64	Location_of Arg1:T47 Arg2:T27	
+T78	Result_or_Value 1288 1298	> 13 pg/ml
+R65	Has_Result_or_Value Arg1:T28 Arg2:T78	
+R66	Speculation Arg1:T65 Arg2:T30	
+T79	Result_or_Value 1356 1365	> 15 mmHg
+R67	Has_Result_or_Value Arg1:T30 Arg2:T79	
+R68	Location_of Arg1:T48 Arg2:T30	
+R72	Location_of Arg1:T49 Arg2:T34	
+#64	AnnotatorNotes T33	C0005758; Bulla; Finding
+T80	Quantifier_or_Qualifier 1416 1424	gigantes
+#65	AnnotatorNotes T80	C0549177; Large; Quantitative Concept 
+R73	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T80	
+T81	Observation 1502 1562	Participación en otro protocolo de intervención experimental
+T82	PROC 1583 1592	selección
+#66	AnnotatorNotes T82	C0242802; Patient Selection; Research Activity
+R74	Overlap Arg1:T81 Arg2:T82	
+R75	Overlap Arg1:T37 Arg2:T82	
+R76	Overlap Arg1:T52 Arg2:T4	
+R77	Before Arg1:T13 Arg2:T12	
+#55	AnnotatorNotes T37	C3274035; Interventional Study; Research Activity (?)
+#56	AnnotatorNotes T50	C5147552; Inotropic support; Pharmacologic Substance
+A2	Experiencer T55 Patient
+A3	Status T12 Future
+A4	Status T13 Future
+A5	Experiencer T66 Patient
+A6	Experiencer T56 Patient
+A7	Status T14 Future
+A8	Status T16 Future
+A9	Status T17 Future
+A10	Status T18 Future
+A11	Status T19 Future
+A12	Experiencer T61 Patient

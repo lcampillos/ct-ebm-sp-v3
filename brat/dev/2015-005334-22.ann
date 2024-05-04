@@ -1,0 +1,136 @@
+T1	PROC 46 60	ENSAYO CLÍNICO
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 69 90	TRATAMIENTO DEL DOLOR
+#2	AnnotatorNotes T2	C1304888; Pain control; Therapeutic or Preventive Procedure
+T3	CHEM 125 134	LIDOCAÍNA
+#3	AnnotatorNotes T3	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T4	PROC 108 120	HEMODIÁLISIS
+#4	AnnotatorNotes T4	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T5	CHEM 136 146	PRILOCAÍNA
+#5	AnnotatorNotes T5	C0033124; prilocaine; Organic Chemical · Pharmacologic Substance
+T6	PROC 166 195	ESTUDIO CRUZADO Y RANDOMIZADO
+T7	PROC 222 234	hemodiálisis
+#6	AnnotatorNotes T7	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T8	PROC 241 267	terapia de reemplazo renal
+#7	AnnotatorNotes T8	C0206074; Renal Replacement Therapy; Therapeutic or Preventive Procedure
+T9	ANAT 262 267	renal
+#8	AnnotatorNotes T9	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T11	PROC 351 362	venopunción
+#10	AnnotatorNotes T11	C0600406; venipuncture; Therapeutic or Preventive Procedure
+T12	DISO 388 395	tensión
+#11	AnnotatorNotes T12	C0038435; Stress; Finding | C0233494; Tension; Mental or Behavioral Dysfunction
+T13	DISO 405 413	ansiedad
+#12	AnnotatorNotes T13	C0003467; Anxiety; Mental or Behavioral Dysfunction
+T14	DISO 474 498	enfermedad renal crónica
+#13	AnnotatorNotes T14	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T15	PROC 514 526	hemodiálisis
+#14	AnnotatorNotes T15	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T16	ANAT 576 579	FAV
+#15	AnnotatorNotes T16	C0729581; Surgical arteriovenous fistula; Body Part, Organ, or Organ Component
+T17	PROC 597 609	hemodiálisis
+#16	AnnotatorNotes T17	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T18	CHEM 155 164	CLORETILO
+#17	AnnotatorNotes T18	C0015058; ethyl chloride; Organic Chemical · Pharmacologic Substance
+T19	DISO 749 776	deterioro del estado mental
+T20	PROC 805 819	hospitalizados
+#18	AnnotatorNotes T20	C0019993; Hospitalization; Health Care Activity
+T21	DISO 833 864	infección en la zona de punción
+#19	AnnotatorNotes T21	C1504542; Puncture site infection; Disease or Syndrome
+T22	ANAT 849 864	zona de punción
+T23	DISO 867 873	lesión
+#20	AnnotatorNotes T23	C0221198; Lesion; Finding
+T24	ANAT 288 309	fístula arteriovenosa
+T25	DISO 899 906	Alergia
+#21	AnnotatorNotes T25	C1527304; Allergic Reaction; Pathologic Function
+T26	DISO 85 90	DOLOR
+#22	AnnotatorNotes T26	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T27	PROC 97 104	PUNCIÓN
+#23	AnnotatorNotes T27	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T28	ANAT 338 346	vascular
+#24	AnnotatorNotes T28	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T29	DISO 397 402	dolor
+#25	AnnotatorNotes T29	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T30	ANAT 485 490	renal
+#26	AnnotatorNotes T30	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T31	PROC 625 632	punción
+#27	AnnotatorNotes T31	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T32	PROC 857 864	punción
+#28	AnnotatorNotes T32	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T33	PROC 891 898	punción
+#29	AnnotatorNotes T33	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T34	DISO 909 917	reacción
+#30	AnnotatorNotes T34	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T35	Date 13 17	2015
+T37	LIVB 378 387	pacientes
+#31	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 441 450	Pacientes
+#32	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Age 451 469	mayores de 18 años
+T41	Duration 491 498	crónica
+#33	AnnotatorNotes T41	C0205191; chronic; Temporal Concept
+T42	Duration 527 551	al menos durante 3 meses
+T43	LIVB 552 561	Pacientes
+#34	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 679 688	Pacientes
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Neg_cue 693 709	imposibilidad de
+T47	PHYS 770 776	mental
+#36	AnnotatorNotes T47	C0229992; Psyche structure; Mental Process
+T48	LIVB 777 786	Pacientes
+#37	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T36	PHYS 710 721	comunicarse
+#38	AnnotatorNotes T36	C2911692; Response (communication); Mental Process (?)
+T38	CHEM 921 929	producto
+#39	AnnotatorNotes T38	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+A1	Assertion T36 Negated
+A2	Status T34 History_of
+A3	Status T25 History_of
+#40	AnnotatorNotes T6	C0150097; Cross-Over Studies; Research Activity + C0034656; Randomization; Research Activity
+R2	Causes Arg1:T27 Arg2:T26	
+R3	Before Arg1:T27 Arg2:T4	
+R4	Used_for Arg1:T3 Arg2:T2	
+R5	Combined_with Arg1:T3 Arg2:T5	
+R6	Used_for Arg1:T18 Arg2:T2	
+R9	Location_of Arg1:T9 Arg2:T8	
+R11	Causes Arg1:T11 Arg2:T12	
+R12	Causes Arg1:T11 Arg2:T29	
+R13	Causes Arg1:T11 Arg2:T13	
+R14	Experiences Arg1:T37 Arg2:T12	
+R15	Experiences Arg1:T37 Arg2:T11	
+R16	Experiences Arg1:T37 Arg2:T29	
+R17	Experiences Arg1:T37 Arg2:T13	
+T46	CONC 331 346	acceso vascular
+#41	AnnotatorNotes T46	C0750138; vascular access; Functional Concept
+R18	Used_for Arg1:T46 Arg2:T7	
+R19	Location_of Arg1:T28 Arg2:T46	
+#9	AnnotatorNotes T24	C0729581; Surgical arteriovenous fistula; Body Part, Organ, or Organ Component
+R20	Location_of Arg1:T24 Arg2:T46	
+R21	Has_Age Arg1:T39 Arg2:T40	
+R22	Location_of Arg1:T30 Arg2:T14	
+R23	Has_Duration_or_Interval Arg1:T14 Arg2:T41	
+R24	Has_Duration_or_Interval Arg1:T15 Arg2:T42	
+R25	Experiences Arg1:T39 Arg2:T14	
+R26	Experiences Arg1:T39 Arg2:T15	
+R28	Experiences Arg1:T43 Arg2:T17	
+R29	Location_of Arg1:T16 Arg2:T31	
+R30	Experiences Arg1:T43 Arg2:T31	
+R31	Before Arg1:T31 Arg2:T17	
+R32	Negation Arg1:T45 Arg2:T36	
+R33	Experiences Arg1:T44 Arg2:T36	
+R34	Experiences Arg1:T44 Arg2:T19	
+R36	Experiences Arg1:T44 Arg2:T47	
+#42	AnnotatorNotes T19	C0234985; Mental deterioration; Mental or Behavioral Dysfunction
+R37	Experiences Arg1:T48 Arg2:T20	
+R38	Before Arg1:T32 Arg2:T21	
+R39	Location_of Arg1:T22 Arg2:T32	
+R40	Location_of Arg1:T22 Arg2:T21	
+#43	AnnotatorNotes T22	C0229986; Application site; Anatomical Structure
+R43	Location_of Arg1:T22 Arg2:T33	
+R44	Causes Arg1:T38 Arg2:T34	
+R45	Causes Arg1:T38 Arg2:T25	
+R46	Location_of Arg1:T9 Arg2:T7	
+A4	Experiencer T37 Patient
+A5	Experiencer T39 Patient
+A6	Experiencer T43 Patient
+A7	Experiencer T44 Patient
+A8	Experiencer T48 Patient

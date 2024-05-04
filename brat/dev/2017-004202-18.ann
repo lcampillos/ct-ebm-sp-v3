@@ -1,0 +1,167 @@
+T1	PROC 46 58	Crioablación
+T2	ANAT 62 78	venas pulmonares
+#1	AnnotatorNotes T2	C0034090; Pulmonary veins; Body Part, Organ, or Organ Component | C1456806; Entire pulmonary vein; Body Part, Organ, or Organ Component
+T3	CHEM 82 105	fármacos antiarrítmicos
+#2	AnnotatorNotes T3	C0003195; Anti-Arrhythmia Agents; Pharmacologic Substance
+T4	DISO 109 142	fibrilación auricular persistente
+#3	AnnotatorNotes T4	C2585653; persistent atrial fibrillation; Pathologic Function
+T5	DISO 174 182	arritmia
+#4	AnnotatorNotes T5	C0003811; Cardiac Arrhythmia; Disease or Syndrome
+T6	DISO 209 242	Fibrilación auricular persistente
+#5	AnnotatorNotes T6	C2585653; persistent atrial fibrillation; Pathologic Function
+T7	DISO 899 905	drogas
+#6	AnnotatorNotes T7	C0242510; Drug usage; Mental or Behavioral Dysfunction
+T8	PROC 406 416	evaluación
+#7	AnnotatorNotes T8	C1261322; Evaluation procedure; Health Care Activity
+T9	PROC 427 435	Ablación
+#8	AnnotatorNotes T9	C0547070; Ablation; Therapeutic or Preventive Procedure
+T10	DISO 480 495	Hipertiroidismo
+#9	AnnotatorNotes T10	C0020550; Hyperthyroidism; Disease or Syndrome
+T11	DISO 498 525	Miocardiopatía hipertrófica
+#10	AnnotatorNotes T11	C0007194; Hypertrophic Cardiomyopathy; Disease or Syndrome
+T12	DISO 528 541	Valvulopatías
+#11	AnnotatorNotes T12	C0018824; Heart valve disease; Disease or Syndrome
+T13	DISO 543 552	estenosis
+#12	AnnotatorNotes T13	C1261287; Stenosis; Pathologic Function
+T14	DISO 555 570	regurgitaciones
+#13	AnnotatorNotes T14	C2004489; Regurgitation; Sign or Symptom
+T15	Quantifier_or_Qualifier 627 629	AP
+T16	PROC 705 720	anticoagulación
+#14	AnnotatorNotes T16	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T17	DISO 723 749	Trombo auricular izquierdo
+#15	AnnotatorNotes T17	C3532827; Thrombus of left atrium; Finding
+T18	ANAT 730 739	auricular
+#16	AnnotatorNotes T18	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T19	DISO 752 758	Anemia
+#17	AnnotatorNotes T19	C0002871; Anemia; Disease or Syndrome
+T20	DISO 761 770	Infección
+#18	AnnotatorNotes T20	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T21	DISO 853 868	hipertiroidismo
+#19	AnnotatorNotes T21	C0020550; Hyperthyroidism; Disease or Syndrome
+T22	DISO 870 878	neumonía
+#20	AnnotatorNotes T22	C0032285; Pneumonia; Disease or Syndrome
+T23	DISO 880 897	embolia de pulmón
+T24	DISO 907 939	alteraciones hidroelectrolíticas
+T25	PROC 1084 1095	tratamiento
+#21	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	PROC 1138 1162	consentimiento informado
+#22	AnnotatorNotes T26	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T27	PROC 1262 1274	tratamientos
+#23	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	ANAT 121 130	auricular
+#24	AnnotatorNotes T28	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T29	ANAT 221 230	auricular
+#25	AnnotatorNotes T29	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T30	DISO 294 308	FA persistente
+T31	DISO 361 363	FA
+#26	AnnotatorNotes T31	C0004238; Atrial Fibrillation; Disease or Syndrome
+T32	DISO 446 448	FA
+#27	AnnotatorNotes T32	C0004238; Atrial Fibrillation; Disease or Syndrome
+T33	ANAT 605 615	valvulares
+#28	AnnotatorNotes T33	C1186983; anatomic valve; Body Part, Organ, or Organ Component
+T34	ANAT 633 635	AI
+#29	AnnotatorNotes T34	C0225860; Left atrial structure; Body Part, Organ, or Organ Component
+T35	DISO 791 793	FA
+#30	AnnotatorNotes T35	C0004238; Atrial Fibrillation; Disease or Syndrome
+T36	ANAT 891 897	pulmón
+#31	AnnotatorNotes T36	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T37	Date 13 17	2017
+T38	LIVB 280 289	Pacientes
+#32	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 348 357	Pacientes
+#33	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 372 385	más de un año
+T41	Age 456 477	> 75 años o < 18 años
+T42	DEVI 596 615	prótesis valvulares
+#34	AnnotatorNotes T42	C0336548; Prosthetic valve; Medical Device
+T44	PHYS 780 788	Embarazo
+#35	AnnotatorNotes T44	C0032961; Pregnancy; Organism Function
+T45	Duration 814 826	transitorias
+T46	Duration 967 984	menos de 24 meses
+T48	LIVB 1047 1056	Pacientes
+#36	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Neg_cue 1057 1069	incapaces de
+T50	LIVB 1225 1233	paciente
+#37	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T43	PHYS 1070 1080	comprender
+#38	AnnotatorNotes T43	C0162340; Comprehension; Mental Process
+T47	LIVB 1202 1220	médico responsable
+#39	AnnotatorNotes T47	C4708568; Medically responsible investigator; Professional or Occupational Group
+A1	Assertion T43 Negated
+A2	Assertion T26 Negated
+A3	Status T9 History_of
+A4	Assertion T16 Contraindicated
+A5	Assertion T27 Contraindicated
+#40	AnnotatorNotes T30	C2585653; persistent atrial fibrillation; Pathologic Function
+#41	AnnotatorNotes T23	C0034065; Pulmonary Embolism; Pathologic Function 
+T51	Neg_cue 1017 1019	no
+T52	Quantifier_or_Qualifier 1020 1043	puramente observacional
+A6	Assertion T52 Negated
+T53	Observation 987 1016	Participación en otro estudio
+T54	PROC 1009 1016	estudio
+#43	AnnotatorNotes T54	C0681814; research study; Research Activity
+R1	Negation Arg1:T49 Arg2:T43	
+R2	Negation Arg1:T49 Arg2:T26	
+R3	Location_of Arg1:T2 Arg2:T1	
+R4	Location_of Arg1:T28 Arg2:T4	
+#44	AnnotatorNotes T1	C0397408; Cryoablation operation for arrhythmia; Therapeutic or Preventive Procedure
+R5	Location_of Arg1:T29 Arg2:T6	
+T55	Observation 243 253	recurrente
+#45	AnnotatorNotes T55	C0679254; Disease recurrence; Finding
+R6	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T55	
+T56	Observation 309 319	recurrente
+#46	AnnotatorNotes T56	C0679254; Disease recurrence; Finding
+R7	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T56	
+R8	Experiences Arg1:T38 Arg2:T30	
+R10	Experiences Arg1:T39 Arg2:T31	
+R11	Has_Duration_or_Interval Arg1:T31 Arg2:T40	
+R12	Experiences Arg1:T39 Arg2:T8	
+T57	Quantifier_or_Qualifier 417 424	inicial
+#47	AnnotatorNotes T57	C0205265; Initially; Temporal Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T57	
+T58	Quantifier_or_Qualifier 572 579	severas
+#48	AnnotatorNotes T58	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R15	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T58	
+R16	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T58	
+R17	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T58	
+R18	Location_of Arg1:T33 Arg2:T42	
+T59	Result_or_Value 636 643	> 50 mm
+R19	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T52	
+R20	Negation Arg1:T51 Arg2:T52	
+T60	CONC 944 963	Expectativa de vida
+#49	AnnotatorNotes T60	C0023671; Life Expectancy; Group Attribute
+R21	Has_Duration_or_Interval Arg1:T60 Arg2:T46	
+T61	CONC 807 813	causas
+#50	AnnotatorNotes T61	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+R22	Causes Arg1:T61 Arg2:T35	
+R23	Has_Duration_or_Interval Arg1:T61 Arg2:T45	
+R24	Causes Arg1:T21 Arg2:T35	
+R25	Causes Arg1:T22 Arg2:T35	
+R26	Causes Arg1:T23 Arg2:T35	
+R27	Causes Arg1:T7 Arg2:T35	
+R28	Causes Arg1:T24 Arg2:T35	
+R29	Location_of Arg1:T36 Arg2:T23	
+R30	Location_of Arg1:T36 Arg2:T22	
+#51	AnnotatorNotes T24	C0267994; Disorder of fluid AND/OR electrolyte; Pathologic Function
+R31	Experiences Arg1:T48 Arg2:T43	
+R32	Overlap Arg1:T43 Arg2:T25	
+R33	Experiences Arg1:T48 Arg2:T25	
+T62	PROC 1103 1110	estudio
+#52	AnnotatorNotes T62	C0008976; Clinical Trials; Research Activity
+R34	Overlap Arg1:T43 Arg2:T62	
+R35	Overlap Arg1:T43 Arg2:T26	
+T63	CONC 645 677	eje largo paraesternal izquierdo
+#53	AnnotatorNotes T63	C0205091; Left; Spatial Concept + C1302222; Parasternal long axis view; Spatial Concept
+#54	AnnotatorNotes T15	C0442212; Antero-posterior projection; Spatial Concept (?)
+R37	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T15	
+R38	Has_Result_or_Value Arg1:T34 Arg2:T59	
+R39	Location_of Arg1:T18 Arg2:T17	
+T64	Quantifier_or_Qualifier 771 777	activa
+#55	AnnotatorNotes T64	C0679217; Active State; Idea or Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T64	
+#42	AnnotatorNotes T45	C0205374; Transitory; Temporal Concept
+A7	Experiencer T50 Patient
+A8	Experiencer T47 Other
+A9	Experiencer T48 Patient
+A10	Experiencer T38 Patient
+A11	Experiencer T39 Patient

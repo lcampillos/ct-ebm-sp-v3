@@ -1,0 +1,213 @@
+T1	PROC 1 25	Tratamiento endovascular
+T2	PROC 28 53	trombólisis intraarterial
+#1	AnnotatorNotes T2	C0184952; Intra-arterial infusion of thrombolytic agent; Therapeutic or Preventive Procedure
+T3	DISO 60 81	ictus isquémico agudo
+#2	AnnotatorNotes T3	C5392833; Acute Ischemic Stroke; Disease or Syndrome
+T4	PROC 135 160	trombólisis intraarterial
+#3	AnnotatorNotes T4	C0184952; Intra-arterial infusion of thrombolytic agent; Therapeutic or Preventive Procedure
+T5	PROC 166 190	tratamiento endovascular
+T6	DISO 208 229	ictus isquémico agudo
+#4	AnnotatorNotes T6	C5392833; Acute Ischemic Stroke; Disease or Syndrome
+T7	PROC 249 282	Estudio prospectivo observacional
+#5	AnnotatorNotes T7	C0033522; Prospective Studies; Research Activity + C1518527; Observational Study; Research Activity
+T8	PROC 364 388	tratamiento endovascular
+T9	ANAT 455 463	arterial
+#6	AnnotatorNotes T9	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T10	DISO 481 486	ictus
+#7	AnnotatorNotes T10	C0038454; Cerebrovascular accident; Disease or Syndrome
+T11	PROC 490 501	tratamiento
+#8	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	PROC 518 529	tratamiento
+#9	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	PROC 531 573	National Institutes of Health Stroke Scale
+#10	AnnotatorNotes T13	C3472497; Assessment using National Institutes of Health stroke scale; Health Care Activity
+T14	PROC 577 584	ingreso
+#11	AnnotatorNotes T14	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T15	PROC 590 607	alta hospitalaria
+#12	AnnotatorNotes T15	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T16	DISO 611 625	complicaciones
+#13	AnnotatorNotes T16	C0009566; Complication; Pathologic Function
+T17	PROC 892 912	ventilación mecánica
+#14	AnnotatorNotes T17	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T18	PROC 930 941	tratamiento
+#15	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	PROC 969 992	trombólisis intravenosa
+#16	AnnotatorNotes T19	C0184952; Intra-arterial infusion of thrombolytic agent; Therapeutic or Preventive Procedure (?)
+T20	ANAT 1017 1021	vaso
+#17	AnnotatorNotes T20	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T21	ANAT 1359 1364	ramas
+T22	ANAT 1196 1200	vaso
+#18	AnnotatorNotes T22	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T23	PROC 1236 1259	trombólisis intravenosa
+#19	AnnotatorNotes T23	C0184952; Intra-arterial infusion of thrombolytic agent; Therapeutic or Preventive Procedure (?)
+T24	ANAT 1332 1352	territorio carotídeo
+T25	CHEM 1397 1407	uroquinasa
+#20	AnnotatorNotes T25	C0042071; urokinase; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+T26	PROC 1530 1544	recanalización
+#21	AnnotatorNotes T26	C0034771; Recanalization; Therapeutic or Preventive Procedure
+T27	PROC 1469 1490	embolectomía mecánica
+#22	AnnotatorNotes T27	C1719459; Mechanical embolectomy or thrombectomy; Therapeutic or Preventive Procedure
+T28	PROC 1497 1518	implantación de stent
+#23	AnnotatorNotes T28	C0522776; Placement of stent; Therapeutic or Preventive Procedure
+T29	DISO 1629 1646	muerte encefálica
+#24	AnnotatorNotes T29	C0006110; Brain Death; Pathologic Function | C0394019; Brainstem death; Pathologic Function
+T30	DISO 1740 1752	complicación
+#25	AnnotatorNotes T30	C0009566; Complication; Pathologic Function
+T31	DISO 1772 1808	seudoaneurisma de la arteria femoral
+T32	ANAT 1793 1808	arteria femoral
+#26	AnnotatorNotes T32	C0015801; Structure of femoral artery; Body Part, Organ, or Organ Component | C1280173; Entire femoral artery; Body Part, Organ, or Organ Component
+T33	PROC 1828 1853	tratamiento intraarterial
+T34	DISO 1936 1950	complicaciones
+#27	AnnotatorNotes T34	C0009566; Complication; Pathologic Function
+T35	PROC 2028 2070	National Institutes of Health Stroke Scale
+#28	AnnotatorNotes T35	C3472497; Assessment using National Institutes of Health stroke scale; Health Care Activity
+T36	PROC 2135 2158	trombólisis intravenosa
+#29	AnnotatorNotes T36	C0184952; Intra-arterial infusion of thrombolytic agent; Therapeutic or Preventive Procedure (?)
+T37	ANAT 2173 2181	arterial
+#30	AnnotatorNotes T37	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T38	PROC 93 128	Analizar la eficacia y la seguridad
+#31	AnnotatorNotes T38	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T39	PROC 703 722	encuesta telefónica
+#32	AnnotatorNotes T39	C0681820; telephone survey; Research Activity
+T40	DISO 446 463	oclusión arterial
+#33	AnnotatorNotes T40	C0264995; Occlusion of artery (disorder); Pathologic Function
+T41	PROC 652 679	escala de Rankin modificada
+#34	AnnotatorNotes T41	C3888574; Modified Rankin score; Diagnostic Procedure
+T42	DISO 1000 1021	oclusión de gran vaso
+T43	DISO 1074 1110	oclusión de la circulación posterior
+T44	DISO 1179 1200	oclusión de gran vaso
+T45	DISO 1281 1289	oclusión
+#35	AnnotatorNotes T45	C0028778; Obstruction; Pathologic Function
+T46	CHEM 1369 1382	fibrinolítico
+#36	AnnotatorNotes T46	C0016018; Fibrinolytic Agents; Pharmacologic Substance
+T47	ANAT 1636 1646	encefálica
+#37	AnnotatorNotes T47	C0006104; Brain; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component
+T48	DISO 1993 2015	afectación neurológica
+T49	DISO 2164 2190	oclusión arterial proximal
+T50	PROC 1702 1729	escala de Rankin modificada
+#38	AnnotatorNotes T50	C3888574; Modified Rankin score; Diagnostic Procedure
+T51	PROC 1877 1891	recanalización
+#39	AnnotatorNotes T51	C0034771; Recanalization; Therapeutic or Preventive Procedure
+T54	LIVB 194 203	pacientes
+#40	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 322 331	Pacientes
+#41	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 343 352	pacientes
+#42	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	Age 773 788	59 años (29-74)
+T58	Duration 849 862	6 días (1-33)
+T59	LIVB 870 879	pacientes
+#43	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T61	PHYS 1089 1100	circulación
+#44	AnnotatorNotes T61	C0005775; Blood Circulation; Physiologic Function
+T63	PHYS 1299 1310	circulación
+#45	AnnotatorNotes T63	C0005775; Blood Circulation; Physiologic Function
+T65	Dose 1420 1438	100.000-600.000 UI
+T66	LIVB 1447 1456	pacientes
+#46	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	DEVI 1513 1518	stent
+#47	AnnotatorNotes T67	C0038257; Stent, device; Medical Device
+T68	LIVB 1560 1569	pacientes
+#48	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 1603 1612	pacientes
+#49	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	LIVB 1653 1662	pacientes
+#50	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T72	LIVB 1979 1988	pacientes
+#51	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T79	PHYS 1688 1700	recuperación
+#52	AnnotatorNotes T79	C2004454; Recovery - healing process; Organism Function
+T52	Duration 2100 2104	3-6h
+T53	PROC 795 845	estancia media en la unidad de cuidados intensivos
+#53	AnnotatorNotes T53	C5419131; Intensive Care Unit Stay; Health Care Activity
+T60	ANAT 1089 1110	circulación posterior
+#54	AnnotatorNotes T60	C1514258; Posterior Circulation Intracranial Artery; Body Part, Organ, or Organ Component
+T62	ANAT 1299 1320	circulación posterior
+#55	AnnotatorNotes T62	C1514258; Posterior Circulation Intracranial Artery; Body Part, Organ, or Organ Component
+A1	Assertion T23 Contraindicated
+A2	Assertion T36 Contraindicated
+R1	Experiences Arg1:T54 Arg2:T6	
+R2	Experiences Arg1:T54 Arg2:T5	
+R3	Experiences Arg1:T54 Arg2:T4	
+R4	Experiences Arg1:T56 Arg2:T8	
+R5	Experiences Arg1:T55 Arg2:T8	
+R6	Location_of Arg1:T9 Arg2:T40	
+T64	CONC 465 471	tiempo
+#56	AnnotatorNotes T64	C0040223; Time; Temporal Concept
+R7	After Arg1:T64 Arg2:T10	
+R8	Before Arg1:T64 Arg2:T11	
+T71	CONC 404 425	datos epidemiológicos
+R9	Overlap Arg1:T13 Arg2:T14	
+R10	Overlap Arg1:T13 Arg2:T15	
+R11	Overlap Arg1:T41 Arg2:T39	
+R14	Before Arg1:T10 Arg2:T16	
+#57	AnnotatorNotes T71	C1516907; Epidemiological Factors Functional Concept (?)
+R18	Causes Arg1:T40 Arg2:T10	
+T73	LIVB 742 749	varones
+#58	AnnotatorNotes T73	C0025266; Male population group; Population Group
+R19	Has_Age Arg1:T73 Arg2:T57	
+R20	Has_Duration_or_Interval Arg1:T53 Arg2:T58	
+R21	Experiences Arg1:T73 Arg2:T53	
+R22	Experiences Arg1:T59 Arg2:T17	
+T74	Observation 955 962	fracaso
+#59	AnnotatorNotes T74	C0162643; treatment failure; Finding
+R23	Before Arg1:T19 Arg2:T74	
+R26	Location_of Arg1:T20 Arg2:T42	
+T75	Observation 1035 1066	fuera de la ventana terapéutica
+R29	Location_of Arg1:T60 Arg2:T61	
+R30	Location_of Arg1:T60 Arg2:T43	
+T76	Observation 1126 1157	fuera de la ventana terapéutica
+R32	Overlap Arg1:T76 Arg2:T44	
+R33	Location_of Arg1:T22 Arg2:T44	
+R35	Location_of Arg1:T62 Arg2:T63	
+R36	Location_of Arg1:T62 Arg2:T45	
+R37	Location_of Arg1:T24 Arg2:T45	
+R38	Has_Dose_or_Strength Arg1:T25 Arg2:T65	
+R39	Experiences Arg1:T66 Arg2:T27	
+R40	Used_for Arg1:T67 Arg2:T28	
+R41	Experiences Arg1:T66 Arg2:T28	
+T77	Quantifier_or_Qualifier 1545 1553	completa
+R42	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T77	
+R43	Experiences Arg1:T68 Arg2:T26	
+T78	Quantifier_or_Qualifier 1578 1585	parcial
+R44	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T78	
+R45	Location_of Arg1:T47 Arg2:T29	
+R46	Experiences Arg1:T69 Arg2:T29	
+R47	Experiences Arg1:T70 Arg2:T79	
+R48	Experiences Arg1:T70 Arg2:T50	
+R49	Location_of Arg1:T32 Arg2:T31	
+T80	Quantifier_or_Qualifier 1928 1935	escasas
+R50	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T80	
+R51	Before Arg1:T33 Arg2:T34	
+R53	Experiences Arg1:T72 Arg2:T48	
+T81	Quantifier_or_Qualifier 2016 2026	importante
+R54	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T81	
+R55	Experiences Arg1:T72 Arg2:T35	
+T82	CONC 2077 2096	tiempo de evolución
+R56	Has_Duration_or_Interval Arg1:T82 Arg2:T52	
+R57	Location_of Arg1:T37 Arg2:T49	
+R59	Experiences Arg1:T72 Arg2:T49	
+R60	Overlap Arg1:T1 Arg2:T2	
+R61	Overlap Arg1:T4 Arg2:T5	
+T83	Spec_cue 1959 1966	estaría
+T84	CONC 1967 1975	indicado
+A3	Assertion T84 Speculated
+#60	AnnotatorNotes T84	C3146298; Indication; Idea or Concept
+R62	Speculation Arg1:T83 Arg2:T84	
+#61	AnnotatorNotes T77	C0205197; Complete; Qualitative Concept
+#62	AnnotatorNotes T78	C0728938; Partial; Qualitative Concept
+#63	AnnotatorNotes T81	C3898777; Important; Qualitative Concept
+#64	AnnotatorNotes T48	C0751792; Trauma, Nervous System; Injury or Poisoning (?)
+#65	AnnotatorNotes T80	C0205388; Few; Quantitative Concept
+#66	AnnotatorNotes T43	C5442525; Posterior circulation ischaemia; Disease or Syndrome (?)
+#67	AnnotatorNotes T31	C0729728; Femoral false aneurysm; Anatomical Abnormality
+A4	Experiencer T54 Patient
+A5	Experiencer T55 Patient
+A6	Experiencer T56 Patient
+A7	Experiencer T73 Patient
+A8	Experiencer T59 Patient
+A9	Experiencer T66 Patient
+A10	Experiencer T69 Patient
+A11	Experiencer T68 Patient
+A12	Experiencer T70 Patient
+A13	Experiencer T72 Patient

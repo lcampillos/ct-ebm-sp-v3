@@ -1,0 +1,180 @@
+T1	CHEM 59 68	Artemeter
+#1	AnnotatorNotes T1	C0052429; artemether; Organic Chemical · Pharmacologic Substance
+T2	ANAT 43 54	plasmáticos
+#2	AnnotatorNotes T2	C0032105; Plasma; Body Substance
+T3	DISO 99 117	malaria falciparum
+#3	AnnotatorNotes T3	C0024535; Malaria, Falciparum; Disease or Syndrome
+T4	CHEM 69 81	Lumefantrine
+#4	AnnotatorNotes T4	C0531104; lumefantrine; Organic Chemical · Pharmacologic Substance
+T5	CHEM 1288 1301	antimalaricos
+#5	AnnotatorNotes T5	C0003374; Antimalarials; Pharmacologic Substance
+T6	PROC 241 252	tratamiento
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	CHEM 309 321	Lumefantrina
+#7	AnnotatorNotes T7	C0531104; lumefantrine; Organic Chemical · Pharmacologic Substance
+T8	PROC 355 411	evaluar la eficacia terapéutica y el perfil de seguridad
+#8	AnnotatorNotes T8	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T9	CHEM 299 308	Artemeter
+#9	AnnotatorNotes T9	C0052429; artemether; Organic Chemical · Pharmacologic Substance
+T10	PROC 420 441	tratamiento combinado
+#10	AnnotatorNotes T10	C0009429; Combined Modality Therapy; Therapeutic or Preventive Procedure
+T11	PROC 468 482	ensayo clínico
+#11	AnnotatorNotes T11	C0008976; Clinical Trials; Research Activity
+T12	DISO 498 523	malaria por P. falciparum
+#12	AnnotatorNotes T12	C0024535; Malaria, Falciparum; Disease or Syndrome
+T13	PROC 659 670	tratamiento
+#13	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 842 877	niveles plasmáticos del medicamento
+#14	AnnotatorNotes T14	C1287340; Measurement of level of drug in blood; Laboratory Procedure
+T15	PROC 797 807	vigilancia
+#15	AnnotatorNotes T15	C0733511; Medical Surveillance; Health Care Activity
+T16	DISO 811 827	efectos adversos
+#16	AnnotatorNotes T16	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T17	ANAT 850 861	plasmáticos
+#17	AnnotatorNotes T17	C0032105; Plasma; Body Substance
+T18	CHEM 866 877	medicamento
+#18	AnnotatorNotes T18	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T19	PROC 1095 1127	reacción en cadena de polimerasa
+#19	AnnotatorNotes T19	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T20	ANAT 1269 1280	plasmáticos
+#20	AnnotatorNotes T20	C0032105; Plasma; Body Substance
+T21	PROC 1380 1391	tratamiento
+#21	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	ANAT 1553 1559	plasma
+#22	AnnotatorNotes T22	C0032105; Plasma; Body Substance
+T23	CHEM 1449 1461	Lumefantrina
+#23	AnnotatorNotes T23	C0531104; lumefantrine; Organic Chemical · Pharmacologic Substance
+T24	ANAT 1640 1646	sangre
+#24	AnnotatorNotes T24	C0005767; Blood; Body Substance
+T25	PROC 1008 1029	examen de gota gruesa
+#25	AnnotatorNotes T25	C2238092; thick blood smear; Laboratory Procedure
+T26	CHEM 1117 1127	polimerasa
+#26	AnnotatorNotes T26	C1335439; Polymerase; Amino Acid, Peptide, or Protein · Enzyme
+T27	DISO 1395 1420	malaria por P. falciparum
+#27	AnnotatorNotes T27	C0024535; Malaria, Falciparum; Disease or Syndrome
+T28	CHEM 1439 1448	Artemeter
+#28	AnnotatorNotes T28	C0052429; artemether; Organic Chemical · Pharmacologic Substance
+T29	LIVB 85 94	pacientes
+#29	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 258 279	Plasmodium falciparum
+#30	AnnotatorNotes T31	C0032150; Plasmodium falciparum; Eukaryote
+T32	LIVB 486 493	adultos
+#31	AnnotatorNotes T32	C0001675; Adult; Age Group
+T33	LIVB 510 523	P. falciparum
+#32	AnnotatorNotes T33	C0032150; Plasmodium falciparum; Eukaryote
+T35	Duration 564 571	28 días
+T36	LIVB 635 644	pacientes
+#33	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 910 919	pacientes
+#34	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	PHYS 932 940	curación
+#35	AnnotatorNotes T38	C2004454; Recovery - healing process; Organism Function
+T39	LIVB 985 994	pacientes
+#36	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T41	Date 1033 1039	día 28
+T43	LIVB 1407 1420	P. falciparum
+#37	AnnotatorNotes T43	C0032150; Plasmodium falciparum; Eukaryote
+T45	LIVB 1521 1530	pacientes
+#38	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1490 1499	población
+#39	AnnotatorNotes T48	C1257890; Population; Population Group
+T30	Quantifier_or_Qualifier 121 131	complicada
+A1	Assertion T30 Negated
+T34	Neg_cue 118 120	no
+R1	Negation Arg1:T34 Arg2:T30	
+R2	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T30	
+T40	Quantifier_or_Qualifier 1424 1434	complicada
+A2	Assertion T40 Negated
+R3	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T40	
+T42	Neg_cue 1421 1423	no
+R4	Negation Arg1:T42 Arg2:T40	
+T44	Quantifier_or_Qualifier 527 537	complicada
+A3	Assertion T44 Negated
+T46	Neg_cue 524 526	no
+R5	Negation Arg1:T46 Arg2:T44	
+R6	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T44	
+R7	Causes Arg1:T33 Arg2:T12	
+R8	Causes Arg1:T43 Arg2:T27	
+T47	Quantifier_or_Qualifier 1324 1336	relacionados
+A4	Assertion T47 Negated
+T49	Neg_cue 1321 1323	no
+R9	Negation Arg1:T49 Arg2:T47	
+T50	CONC 1587 1597	asociación
+A5	Assertion T50 Negated
+T51	Neg_cue 1572 1574	no
+R10	Negation Arg1:T51 Arg2:T50	
+R11	Experiences Arg1:T29 Arg2:T3	
+R12	Experiences Arg1:T29 Arg2:T1	
+R13	Combined_with Arg1:T1 Arg2:T4	
+R14	Combined_with Arg1:T9 Arg2:T7	
+R15	Used_for Arg1:T9 Arg2:T6	
+R17	Experiences Arg1:T32 Arg2:T12	
+R18	Experiences Arg1:T36 Arg2:T13	
+T52	Quantifier_or_Qualifier 671 682	supervisado
+R19	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T52	
+T53	Observation 723 740	respuesta clínica
+#40	AnnotatorNotes T53	C4055223; Clinical Response; Finding
+T54	Observation 723 732;743 757	respuesta parasitológica
+R20	Overlap Arg1:T13 Arg2:T54	
+R21	Overlap Arg1:T13 Arg2:T53	
+T55	PROC 35 54	niveles plasmáticos
+#41	AnnotatorNotes T55	C1287340; Measurement of level of drug in blood; Laboratory Procedure (?) -
+R23	Location_of Arg1:T2 Arg2:T55	
+R24	Experiences Arg1:T29 Arg2:T55	
+R25	Location_of Arg1:T17 Arg2:T14	
+T56	Quantifier_or_Qualifier 941 948	clínica
+#42	AnnotatorNotes T56	C0205210; Clinical; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T56	
+T57	Quantifier_or_Qualifier 951 965	parasitológica
+#43	AnnotatorNotes T57	C0205468; parasitological; Qualitative Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T57	
+R28	Experiences Arg1:T39 Arg2:T38	
+R29	Experiences Arg1:T39 Arg2:T25	
+R30	Overlap Arg1:T25 Arg2:T41	
+R32	Overlap Arg1:T38 Arg2:T41	
+T58	Observation 1058 1080	fallas parasitológicas
+T59	CONC 1 21	Eficacia terapéutica
+#44	AnnotatorNotes T59	C0087113; Treatment Effectiveness; Qualitative Concept
+T60	CONC 1145 1165	eficacia terapéutica
+#45	AnnotatorNotes T60	C0087113; Treatment Effectiveness; Qualitative Concept
+T61	Observation 1238 1255	falla terapéutica
+#46	AnnotatorNotes T61	C1883306; Therapeutic or Diagnostic Output Failure; Finding
+T63	PROC 1261 1280	niveles plasmáticos
+#48	AnnotatorNotes T63	C1287340; Measurement of level of drug in blood; Laboratory Procedure (?) -
+R34	Location_of Arg1:T20 Arg2:T63	
+T64	Observation 1344 1361	falla terapéutica
+#49	AnnotatorNotes T64	C1883306; Therapeutic or Diagnostic Output Failure; Finding
+R35	Combined_with Arg1:T28 Arg2:T23	
+R36	Used_for Arg1:T28 Arg2:T21	
+R38	Experiences Arg1:T48 Arg2:T28	
+R39	Experiences Arg1:T48 Arg2:T27	
+T65	PROC 1542 1559	niveles en plasma
+#50	AnnotatorNotes T65	C1287340; Measurement of level of drug in blood; Laboratory Procedure (?)
+R40	Location_of Arg1:T22 Arg2:T65	
+R41	Experiences Arg1:T45 Arg2:T65	
+T66	PROC 1629 1646	niveles en sangre
+#51	AnnotatorNotes T66	C1287340; Measurement of level of drug in blood; Laboratory Procedure (?)
+R42	Location_of Arg1:T24 Arg2:T66	
+T67	Observation 1601 1618	falla terapéutica
+#52	AnnotatorNotes T67	C1883306; Therapeutic or Diagnostic Output Failure; Finding
+R43	Experiences Arg1:T45 Arg2:T66	
+R44	Experiences Arg1:T45 Arg2:T67	
+T68	Result_or_Value 1623 1628	bajos
+#53	AnnotatorNotes T68	C0205251; low; Qualitative Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T68	
+T69	Quantifier_or_Qualifier 1170 1177	similar
+#54	AnnotatorNotes T69	C2348205; Similarity; Qualitative Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T69	
+#47	AnnotatorNotes T30	C0231242; Complicated; Functional Concept
+#55	AnnotatorNotes T44	C0231242; Complicated; Functional Concept
+#56	AnnotatorNotes T47	C0332281; Associated with; Qualitative Concept
+#57	AnnotatorNotes T40	C0231242; Complicated; Functional Concept
+#58	AnnotatorNotes T50	C0332281; Associated with; Qualitative Concept
+A6	Experiencer T48 Patient
+A7	Experiencer T45 Patient
+A8	Experiencer T29 Patient
+A9	Experiencer T32 Patient
+A10	Population_data T32 Age
+A11	Experiencer T36 Patient
+A12	Experiencer T37 Patient
+A13	Experiencer T39 Patient

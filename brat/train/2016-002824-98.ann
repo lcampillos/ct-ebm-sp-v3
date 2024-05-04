@@ -1,0 +1,204 @@
+T1	DISO 92 118	dolor agudo postoperatorio
+#1	AnnotatorNotes T1	C2215257; Postoperative Pain, Acute; Sign or Symptom
+T2	PROC 135 152	anestesia general
+#2	AnnotatorNotes T2	C0002915; General Anesthesia; Therapeutic or Preventive Procedure
+T3	DISO 221 247	Dolor agudo postoperatorio
+#3	AnnotatorNotes T3	C2215257; Postoperative Pain, Acute; Sign or Symptom
+T4	PROC 432 458	Cirugía mayor ginecológica
+T5	PROC 462 485	histerectomía abdominal
+#4	AnnotatorNotes T5	C0404077; Abdominal hysterectomy; Therapeutic or Preventive Procedure
+T6	PROC 495 507	laparoscopia
+#5	AnnotatorNotes T6	C0031150; Laparoscopy; Diagnostic Procedure
+T7	PROC 510 541	prostatectomía radical robótica
+T8	PROC 585 642	anestesia total intravenosa mediante sistemas de infusión
+T9	PROC 714 738	investigaciones clínicas
+#6	AnnotatorNotes T9	C0008972; Clinical Research; Research Activity
+T10	PROC 818 832	ensayo clínico
+#7	AnnotatorNotes T10	C0008976; Clinical Trials; Research Activity
+T11	DISO 882 898	Obesidad mórbida
+#8	AnnotatorNotes T11	C0028756; Morbid obesity; Disease or Syndrome
+T12	PROC 956 993	Valores de tensión arterial sistólica
+T13	DISO 1046 1068	Trastornos de conducta
+#9	AnnotatorNotes T13	C0004930; Behavior Disorders; Mental or Behavioral Dysfunction
+T14	DISO 1071 1097	síndrome ansioso-depresivo
+T15	PROC 1101 1120	Tratamiento crónico
+#10	AnnotatorNotes T15	C0023977; Long-term care; Health Care Activity (?)
+T16	CHEM 1125 1138	psicofármacos
+#11	AnnotatorNotes T16	C0033978; Psychotropic Drugs; Pharmacologic Substance
+T17	CHEM 1141 1149	opiáceos
+#12	AnnotatorNotes T17	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T18	DISO 1193 1200	Alergia
+#13	AnnotatorNotes T18	C1527304; Allergic Reaction; Pathologic Function
+T19	CHEM 1225 1236	paracetamol
+#14	AnnotatorNotes T19	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T20	CHEM 1238 1247	metamizol
+#15	AnnotatorNotes T20	C0012586; dipyrone; Organic Chemical · Pharmacologic Substance | C3714569; metamizole sodium; Organic Chemical · Pharmacologic Substance
+T21	CHEM 1250 1264	dexketoprofeno
+#16	AnnotatorNotes T21	C0772505; dexketoprofen; Organic Chemical · Pharmacologic Substance
+T22	DISO 1268 1289	Alteraciones visuales
+#17	AnnotatorNotes T22	C0547030; Visual disturbance; Finding | C3665347; Visual Impairment; Finding
+T23	DISO 1329 1350	retinopatía diabética
+#18	AnnotatorNotes T23	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T24	PROC 1353 1360	cirugía
+#19	AnnotatorNotes T24	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T25	DISO 1363 1381	anomalías del iris
+T26	DISO 1385 1407	Afectación neurológica
+T27	ANAT 1419 1430	mesencéfalo
+#20	AnnotatorNotes T27	C0025462; Midbrain structure; Body Part, Organ, or Organ Component | C1280997; Entire midbrain; Body Part, Organ, or Organ Component
+T28	PROC 348 371	Índice de masa corporal
+#21	AnnotatorNotes T28	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T29	ANAT 363 371	corporal
+#22	AnnotatorNotes T29	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T30	ANAT 476 485	abdominal
+#23	AnnotatorNotes T30	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T31	PROC 1014 1033	frecuencia cardíaca
+#24	AnnotatorNotes T31	C2197023; examination of heart rate; Health Care Activity
+T32	PROC 556 583	anestesia general TIVA -TCI
+T33	PROC 900 903	IMC
+#25	AnnotatorNotes T33	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T34	ANAT 975 983	arterial
+#26	AnnotatorNotes T34	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T35	ANAT 1025 1033	cardíaca
+#27	AnnotatorNotes T35	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T36	DISO 1181 1189	enolismo
+#28	AnnotatorNotes T36	C0001973; Alcoholic Intoxication, Chronic; Mental or Behavioral Dysfunction
+T37	CHEM 1215 1223	mórficos
+#29	AnnotatorNotes T37	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T38	DISO 1304 1327	patologías neurológicas
+T39	ANAT 1377 1381	iris
+#30	AnnotatorNotes T39	C0022077; Iris (Eye); Body Part, Organ, or Organ Component | C1278891; Entire iris; Body Part, Organ, or Organ Component
+T40	PROC 373 376	IMC
+#31	AnnotatorNotes T40	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T41	Date 13 17	2016
+T42	Time 104 118	postoperatorio
+#32	AnnotatorNotes T42	C0032790; Postoperative Period; Temporal Concept
+T43	Time 233 247	postoperatorio
+#33	AnnotatorNotes T43	C0032790; Postoperative Period; Temporal Concept
+T44	LIVB 276 285	Pacientes
+#34	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Age 310 326	entre 18-75 años
+T47	LIVB 399 406	mujeres
+#35	AnnotatorNotes T47	C0043210; Woman; Population Group
+T48	LIVB 421 428	hombres
+#36	AnnotatorNotes T48	C0025266; Male population group; Population Group
+T49	Route 601 612	intravenosa
+#37	AnnotatorNotes T49	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T50	Route 634 642	infusión
+#38	AnnotatorNotes T50	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T51	LIVB 677 686	pacientes
+#39	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 768 777	Pacientes
+#40	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T54	LIVB 838 847	Pacientes
+#41	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 918 925	mujeres
+#42	AnnotatorNotes T56	C0043210; Woman; Population Group
+T57	LIVB 942 949	hombres
+#43	AnnotatorNotes T57	C0025266; Male population group; Population Group
+T60	Duration 1113 1120	crónico
+#44	AnnotatorNotes T60	C0205191; chronic; Temporal Concept
+T61	PHYS 1153 1161	Embarazo
+#45	AnnotatorNotes T61	C0032961; Pregnancy; Organism Function
+T64	PHYS 1281 1289	visuales
+#46	AnnotatorNotes T64	C0042789; Vision; Organism Function
+T46	PHYS 185 196	nocicepción
+#47	AnnotatorNotes T46	C0234194; Nociception; Organ or Tissue Function
+T53	DEVI 622 642	sistemas de infusión
+#48	AnnotatorNotes T53	C0013187; Drug Infusion System; Medical Device
+T55	PHYS 967 983	tensión arterial
+#49	AnnotatorNotes T55	C0005823; Blood Pressure; Organism Function
+T58	PROC 331 334	ASA
+#50	AnnotatorNotes T58	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Status T36 History_of
+A2	Status T18 History_of
+#51	AnnotatorNotes T12	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+#52	AnnotatorNotes T38	C0027765; nervous system disorder; Disease or Syndrome
+R1	Overlap Arg1:T1 Arg2:T42	
+R3	After Arg1:T1 Arg2:T2	
+R4	Overlap Arg1:T3 Arg2:T43	
+R6	Has_Age Arg1:T44 Arg2:T45	
+T63	Result_or_Value 335 343	I-II-III
+R7	Has_Result_or_Value Arg1:T58 Arg2:T63	
+R8	Location_of Arg1:T29 Arg2:T28	
+R9	Location_of Arg1:T29 Arg2:T40	
+T65	Result_or_Value 378 395	menor de 35 Kg/m2
+R10	Has_Result_or_Value Arg1:T40 Arg2:T65	
+R11	Has_Result_or_Value Arg1:T28 Arg2:T65	
+T66	Result_or_Value 409 417	42 Kg/m2
+R12	Has_Result_or_Value Arg1:T40 Arg2:T66	
+R13	Has_Result_or_Value Arg1:T28 Arg2:T66	
+R14	Experiences Arg1:T48 Arg2:T40	
+R15	Experiences Arg1:T48 Arg2:T28	
+R16	Experiences Arg1:T47 Arg2:T40	
+R17	Experiences Arg1:T47 Arg2:T28	
+R18	Location_of Arg1:T30 Arg2:T5	
+R19	Overlap Arg1:T5 Arg2:T6	
+R20	Overlap Arg1:T5 Arg2:T7	
+R21	Overlap Arg1:T4 Arg2:T6	
+R22	Overlap Arg1:T4 Arg2:T7	
+R23	Has_Route_or_Mode Arg1:T8 Arg2:T49	
+R24	Has_Route_or_Mode Arg1:T8 Arg2:T50	
+R25	Used_for Arg1:T53 Arg2:T8	
+T67	Quantifier_or_Qualifier 643 668	controlados por ordenador
+R26	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T67	
+R27	Has_Route_or_Mode Arg1:T32 Arg2:T49	
+R28	Has_Route_or_Mode Arg1:T32 Arg2:T50	
+R29	Used_for Arg1:T53 Arg2:T32	
+T68	Neg_cue 782 784	no
+T69	Observation 785 809	acepten su participación
+A3	Assertion T69 Negated
+#53	AnnotatorNotes T69	C1302239; Patient consented to clinical trial; Finding
+R30	Negation Arg1:T68 Arg2:T69	
+T70	Neg_cue 852 854	no
+T71	CONC 862 877	capacidad legal
+A4	Assertion T71 Negated
+#54	AnnotatorNotes T71	C0683673; legal capacity; Qualitative Concept
+R32	Negation Arg1:T70 Arg2:T71	
+T72	Result_or_Value 904 914	> 35 Kg/m2
+R33	Has_Result_or_Value Arg1:T33 Arg2:T72	
+T73	Result_or_Value 928 938	> 42 Kg/m2
+R34	Has_Result_or_Value Arg1:T33 Arg2:T73	
+R35	Experiences Arg1:T57 Arg2:T33	
+R36	Experiences Arg1:T56 Arg2:T33	
+R37	Location_of Arg1:T34 Arg2:T12	
+R38	Location_of Arg1:T34 Arg2:T55	
+T74	Quantifier_or_Qualifier 994 999	basal
+#55	AnnotatorNotes T74	C1442488; Baseline; Quantitative Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T74	
+T75	Result_or_Value 1000 1011	≤ a 95 mmHg
+R40	Has_Result_or_Value Arg1:T12 Arg2:T75	
+R41	Location_of Arg1:T35 Arg2:T31	
+T76	Result_or_Value 1034 1042	≤ a 60x'
+R42	Has_Result_or_Value Arg1:T31 Arg2:T76	
+R44	Used_for Arg1:T16 Arg2:T15	
+R45	Has_Duration_or_Interval Arg1:T16 Arg2:T60	
+R46	Has_Duration_or_Interval Arg1:T17 Arg2:T60	
+R43	Used_for Arg1:T17 Arg2:T15	
+R47	Causes Arg1:T37 Arg2:T18	
+R48	Causes Arg1:T19 Arg2:T18	
+R49	Causes Arg1:T20 Arg2:T18	
+R50	Causes Arg1:T21 Arg2:T18	
+R51	Causes Arg1:T38 Arg2:T22	
+R52	Causes Arg1:T23 Arg2:T22	
+R53	Location_of Arg1:T39 Arg2:T25	
+#56	AnnotatorNotes T25	C0022078; Iris Diseases; Disease or Syndrome (?)
+R54	Causes Arg1:T24 Arg2:T22	
+R55	Causes Arg1:T25 Arg2:T22	
+R56	Location_of Arg1:T27 Arg2:T26	
+R58	Experiences Arg1:T56 Arg2:T11	
+R59	Experiences Arg1:T57 Arg2:T11	
+R60	Location_of Arg1:T30 Arg2:T4	
+T77	Observation 694 738	participar en otras investigaciones clínicas
+R62	Overlap Arg1:T2 Arg2:T46	
+#57	AnnotatorNotes T4	C0038902; Gynecologic Surgical Procedures; Therapeutic or Preventive Procedure + C0679637; major surgery; Therapeutic or Preventive Procedure
+#59	AnnotatorNotes T14	C0743073; depression anxiety disorder; Mental or Behavioral Dysfunction (?) | C0338908; Mixed anxiety and depressive disorder; Mental or Behavioral Dysfunction (?)
+#60	AnnotatorNotes T26	C0521654; Neurologic Deficits; Finding (?)
+A5	Experiencer T44 Patient
+A6	Experiencer T47 Patient
+A7	Experiencer T48 Patient
+A8	Experiencer T51 Patient
+A9	Experiencer T52 Patient
+A10	Experiencer T54 Patient
+A11	Experiencer T56 Patient
+A12	Experiencer T57 Patient
+A13	Status T77 Future

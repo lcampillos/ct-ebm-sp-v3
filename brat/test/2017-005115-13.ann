@@ -1,0 +1,48 @@
+T1	PROC 46 68	Estudio de observación
+#1	AnnotatorNotes T1	C1518527; Observational Study; Research Activity
+T2	DISO 220 252	Polineuropatía amiloide familiar
+#2	AnnotatorNotes T2	C0206245; Amyloid Neuropathies, Familial; Disease or Syndrome
+T3	PROC 337 373	consentimiento informado por escrito
+#3	AnnotatorNotes T3	C0811741; Obtain informed written consent; Health Care Activity
+T4	CHEM 642 649	fármaco
+#4	AnnotatorNotes T4	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T5	PROC 74 110	comprobar el estado de supervivencia
+T6	PROC 663 670	placebo
+#5	AnnotatorNotes T6	C0032042; Placebos; Therapeutic or Preventive Procedure
+T7	CHEM 673 682	inotersén
+T8	Date 13 17	2017
+T9	LIVB 114 123	pacientes
+#6	AnnotatorNotes T9	C0030705; Patients; Patient or Disabled Group
+T10	LIVB 285 293	paciente
+#7	AnnotatorNotes T10	C0030705; Patients; Patient or Disabled Group
+T11	LIVB 299 312	representante
+#8	AnnotatorNotes T11	C0030701; Patient Representatives; Professional or Occupational Group | C0600419; Patient Agent; Group | C1998038; Patient advocate (person); Population Group (?)
+T12	LIVB 594 603	pacientes
+#9	AnnotatorNotes T12	C0030705; Patients; Patient or Disabled Group
+T13	Dose 620 637	al menos, 1 dosis
+T17	LIVB 527 536	Población
+#10	AnnotatorNotes T17	C1257890; Population; Population Group
+T18	LIVB 723 732	población
+#11	AnnotatorNotes T18	C1257890; Population; Population Group
+T16	LIVB 687 716	representante(s) del paciente
+#12	AnnotatorNotes T16	C0030701; Patient Representatives; Professional or Occupational Group | C0600419; Patient Agent; Group | C1998038; Patient advocate (person); Population Group (?)
+#13	AnnotatorNotes T5	C0038953; Survival Analysis; Research Activity
+T14	Observation 128 159	interrumpieron su participación
+#14	AnnotatorNotes T14	C0422727; Patient withdrawn from trial; Finding (?)
+T19	Observation 467 510	capaces de cumplir con todos los requisitos
+#16	AnnotatorNotes T19	C0582783; Ability to comply with treatment; Finding (?)
+R3	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T19	
+R4	Has_Dose_or_Strength Arg1:T4 Arg2:T13	
+R5	Experiences Arg1:T12 Arg2:T4	
+R6	Experiences Arg1:T12 Arg2:T6	
+R7	Experiences Arg1:T12 Arg2:T7	
+#17	AnnotatorNotes T7	C4731850; inotersen; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+R8	Has_Dose_or_Strength Arg1:T7 Arg2:T13	
+R9	Has_Dose_or_Strength Arg1:T6 Arg2:T13	
+A1	Experiencer T17 Patient
+A2	Experiencer T12 Patient
+A3	Experiencer T16 Other
+A4	Experiencer T18 Patient
+A5	Experiencer T10 Patient
+A6	Experiencer T11 Other
+A7	Experiencer T9 Patient

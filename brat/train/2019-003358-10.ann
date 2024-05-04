@@ -1,0 +1,273 @@
+T1	PROC 46 65	Terapia antibiótica
+#1	AnnotatorNotes T1	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T2	PROC 89 112	tratamiento antibiótico
+#2	AnnotatorNotes T2	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T3	DISO 143 166	endocarditis infecciosa
+T4	DISO 244 267	endocarditis infecciosa
+#3	AnnotatorNotes T4	C1541923; Infective endocarditis; Disease or Syndrome
+T5	DISO 310 312	EI
+#4	AnnotatorNotes T5	C1541923; Infective endocarditis; Disease or Syndrome
+T6	DISO 500 502	EI
+#5	AnnotatorNotes T6	C1541923; Infective endocarditis; Disease or Syndrome
+T7	DISO 640 646	fiebre
+#6	AnnotatorNotes T7	C0015967; Fever; Sign or Symptom
+T8	DISO 701 710	infección
+#7	AnnotatorNotes T8	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T9	PROC 768 782	aleatorización
+#8	AnnotatorNotes T9	C0034656; Randomization; Research Activity
+T10	DISO 798 817	signos de infección
+T11	DISO 847 854	absceso
+#9	AnnotatorNotes T11	C0000833; Abscess; Disease or Syndrome
+T12	DISO 856 871	pseudoaneurisma
+#10	AnnotatorNotes T12	C1510412; Pseudoaneurysm; Pathologic Function
+T13	DISO 873 880	fístula
+#11	AnnotatorNotes T13	C0016169; pathologic fistula; Anatomical Abnormality
+T14	DISO 908 918	vegetación
+#12	AnnotatorNotes T14	C0155833; Hyperplasia of adenoids; Disease or Syndrome | C1285498; Vegetation; Anatomical Abnormality
+T15	DISO 941 953	vegetaciones
+#13	AnnotatorNotes T15	C0155833; Hyperplasia of adenoids; Disease or Syndrome | C1285498; Vegetation; Anatomical Abnormality
+T16	PROC 959 989	ecocardiografía transesofágica
+#14	AnnotatorNotes T16	C0206054; Echocardiography, Transesophageal; Diagnostic Procedure
+T17	PROC 991 994	ETE
+#15	AnnotatorNotes T17	C0206054; Echocardiography, Transesophageal; Diagnostic Procedure
+T18	PROC 1031 1045	aleatorización
+#16	AnnotatorNotes T18	C0034656; Randomization; Research Activity
+T19	PROC 1114 1137	tratamiento antibiótico
+#17	AnnotatorNotes T19	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T20	DISO 1155 1178	endocarditis infecciosa
+#18	AnnotatorNotes T20	C1541923; Infective endocarditis; Disease or Syndrome
+T21	PROC 1219 1230	alta médica
+#19	AnnotatorNotes T21	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T22	PROC 1251 1265	aleatorización
+#20	AnnotatorNotes T22	C0034656; Randomization; Research Activity
+T23	DISO 1288 1309	secuelas neurológicas
+T24	PROC 1331 1342	alta médica
+#21	AnnotatorNotes T24	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T25	DISO 1344 1369	insuficiencia renal aguda
+#22	AnnotatorNotes T25	C0022660; Kidney Failure, Acute; Disease or Syndrome | C1565662; Acute Kidney Insufficiency; Disease or Syndrome
+T26	DISO 1382 1410	insuficiencia hepática aguda
+#23	AnnotatorNotes T26	C0162557; Liver Failure, Acute; Disease or Syndrome
+T27	PROC 1427 1438	tratamiento
+#24	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	PROC 1462 1475	quimioterapia
+#25	AnnotatorNotes T28	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T29	DISO 1558 1575	espondilodiscitis
+#26	AnnotatorNotes T29	C0012624; Discitis; Disease or Syndrome
+T30	PROC 1631 1642	seguimiento
+#27	AnnotatorNotes T30	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T31	PROC 1672 1683	alta médica
+#28	AnnotatorNotes T31	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T32	PROC 1726 1750	consentimiento informado
+#29	AnnotatorNotes T32	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T33	DISO 1790 1809	Deterioro cognitivo
+#30	AnnotatorNotes T33	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T34	PROC 1874 1887	cuestionarios
+#31	AnnotatorNotes T34	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T35	PROC 1528 1542	antibioterapia
+T36	PROC 1946 1962	cirugía cardiaca
+#32	AnnotatorNotes T36	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T37	ANAT 1954 1962	cardiaca
+#33	AnnotatorNotes T37	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T38	CHEM 101 112	antibiótico
+#34	AnnotatorNotes T38	C0003232; Antibiotics; Antibiotic
+T39	PROC 193 220	ensayo clínico aleatorizado
+#35	AnnotatorNotes T39	C0206034; Clinical Trials, Randomized; Research Activity
+T40	ANAT 509 516	válvula
+#36	AnnotatorNotes T40	C1186983; anatomic valve; Body Part, Organ, or Organ Component
+T41	ANAT 574 588	intracardiacos
+#37	AnnotatorNotes T41	C0729936; Cardiac chamber structure; Body Part, Organ, or Organ Component
+T42	CHEM 1126 1137	antibiótico
+#38	AnnotatorNotes T42	C0003232; Antibiotics; Antibiotic
+T43	ANAT 1358 1363	renal
+#39	AnnotatorNotes T43	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T44	ANAT 1396 1404	hepática
+#40	AnnotatorNotes T44	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T45	CHEM 1443 1459	inmunosupresores
+#41	AnnotatorNotes T45	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T46	Date 13 17	2019
+T47	LIVB 129 138	pacientes
+#42	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 171 191	cocos gram positivos
+#43	AnnotatorNotes T48	C0018155; Gram-Positive Cocci; Bacterium
+T49	LIVB 296 305	Pacientes
+#44	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 423 443	cocos gram-positivos
+#45	AnnotatorNotes T52	C0018155; Gram-Positive Cocci; Bacterium
+T53	LIVB 445 458	estafilococos
+#46	AnnotatorNotes T53	C0038170; Genus staphylococcus; Bacterium
+T54	LIVB 460 473	estreptococos
+#47	AnnotatorNotes T54	C0038402; Streptococcus; Bacterium
+T55	LIVB 475 486	enterococos
+#48	AnnotatorNotes T55	C0085494; Enterococcus; Bacterium
+T57	DEVI 509 516;525 534	válvula protésica
+#49	AnnotatorNotes T57	C0336548; Prosthetic valve; Medical Device
+T58	DEVI 545 588	dispositivos de estimulación intracardiacos
+#50	AnnotatorNotes T58	C1285539; Direct device; Medical Device
+T59	Age 597 623	igual o superior a 18 años
+T60	Neg_cue 628 639	Ausencia de
+T61	Duration 726 742	las últimas 24 h
+T62	Neg_cue 786 797	Ausencia de
+T65	Duration 1009 1017	las 48 h
+T66	LIVB 1075 1084	Pacientes
+#51	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	Duration 1096 1110	más de 12 días
+T68	LIVB 1182 1191	Pacientes
+#52	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	Neg_cue 1192 1194	no
+T70	LIVB 1415 1423	Paciente
+#53	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T73	LIVB 1494 1511	mujeres lactantes
+#54	AnnotatorNotes T73	C0043210; Woman; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T74	Neg_cue 1586 1599	Imposibilidad
+T75	LIVB 1604 1612	paciente
+#55	AnnotatorNotes T75	C0030705; Patients; Patient or Disabled Group
+T76	Neg_cue 1687 1700	Imposibilidad
+T77	LIVB 1705 1713	paciente
+#56	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	LIVB 1903 1915	investigador
+#57	AnnotatorNotes T78	C0035173; Research Personnel; Professional or Occupational Group
+T79	LIVB 1920 1928	Paciente
+#58	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T81	LIVB 1480 1491	Embarazadas
+#59	AnnotatorNotes T81	C0033011; Pregnant Women; Population Group
+T82	PHYS 1800 1809	cognitivo
+#60	AnnotatorNotes T82	C0009240; Cognition; Mental Process
+T72	Neg_cue 1839 1851	imposibilite
+T50	Neg_cue 1314 1327	imposibiliten
+T51	Spec_cue 692 700	sugieran
+T56	PHYS 1502 1511	lactantes
+#61	AnnotatorNotes T56	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Assertion T30 Negated
+A2	Assertion T32 Negated
+A3	Assertion T34 Negated
+A4	Assertion T7 Negated
+A5	Assertion T10 Negated
+A6	Assertion T11 Negated
+A7	Assertion T12 Negated
+A8	Assertion T13 Negated
+A9	Assertion T21 Negated
+A10	Assertion T24 Negated
+A11	Assertion T8 Speculated
+A13	Assertion T15 Negated
+T63	PROC 429 433	gram
+#62	AnnotatorNotes T63	C0200966; Bacterial stain, routine; Laboratory Procedure
+T64	PROC 177 181	gram
+#63	AnnotatorNotes T64	C0200966; Bacterial stain, routine; Laboratory Procedure
+#64	AnnotatorNotes T23	C1285433; Sequelae of neurological disorders; Pathologic Function
+T71	Quantifier_or_Qualifier 821 845	controlada a nivel local
+T80	Neg_cue 818 820	no
+A14	Assertion T71 Negated
+T83	Quantifier_or_Qualifier 711 722	persistente
+A15	Assertion T83 Speculated
+R1	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T83	
+R2	Speculation Arg1:T51 Arg2:T8	
+R3	Speculation Arg1:T51 Arg2:T83	
+T84	Quantifier_or_Qualifier 934 940	nuevas
+A16	Assertion T84 Negated
+R4	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T84	
+T85	Observation 882 918	aumento del tamaño de una vegetación
+A17	Assertion T85 Negated
+T86	Quantifier_or_Qualifier 1643 1663	de forma ambulatoria
+A18	Assertion T86 Negated
+R5	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T86	
+T87	Quantifier_or_Qualifier 66 71	corta
+#65	AnnotatorNotes T87	C1806781; Short; Quantitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T87	
+R7	Used_for Arg1:T38 Arg2:T2	
+#66	AnnotatorNotes T35	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T88	Quantifier_or_Qualifier 1543 1553	prolongada
+#67	AnnotatorNotes T88	C0439590; Prolonged; Temporal Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T88	
+R9	Experiences Arg1:T73 Arg2:T56	
+R10	Experiences Arg1:T47 Arg2:T1	
+R11	Experiences Arg1:T47 Arg2:T2	
+R12	Experiences Arg1:T47 Arg2:T3	
+R13	Causes Arg1:T48 Arg2:T3	
+R15	Experiences Arg1:T49 Arg2:T5	
+R16	Causes Arg1:T52 Arg2:T5	
+#68	AnnotatorNotes T3	C1541923; Infective endocarditis; Disease or Syndrome
+R14	Causes Arg1:T53 Arg2:T5	
+R17	Causes Arg1:T54 Arg2:T5	
+R18	Causes Arg1:T55 Arg2:T5	
+R19	Causes Arg1:T52 Arg2:T6	
+R20	Causes Arg1:T53 Arg2:T6	
+R21	Causes Arg1:T54 Arg2:T6	
+R22	Causes Arg1:T55 Arg2:T6	
+R23	Location_of Arg1:T40 Arg2:T6	
+R24	Location_of Arg1:T41 Arg2:T6	
+R25	Experiences Arg1:T49 Arg2:T6	
+R26	Overlap Arg1:T6 Arg2:T57	
+R27	Overlap Arg1:T6 Arg2:T58	
+R28	Negation Arg1:T60 Arg2:T7	
+#69	AnnotatorNotes T83	C0205322; Persistent; Temporal Concept
+R29	Has_Duration_or_Interval Arg1:T8 Arg2:T61	
+R30	Before Arg1:T8 Arg2:T9	
+R31	Has_Duration_or_Interval Arg1:T7 Arg2:T61	
+R32	Before Arg1:T7 Arg2:T9	
+R33	Negation Arg1:T62 Arg2:T10	
+R34	Negation Arg1:T80 Arg2:T71	
+R35	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T71	
+R36	Negation Arg1:T62 Arg2:T11	
+R37	Negation Arg1:T62 Arg2:T12	
+R38	Negation Arg1:T62 Arg2:T13	
+R39	Negation Arg1:T62 Arg2:T85	
+R40	Negation Arg1:T62 Arg2:T15	
+#70	AnnotatorNotes T84	C0205314; New; Qualitative Concept
+R41	Negation Arg1:T62 Arg2:T84	
+R56	Before Arg1:T16 Arg2:T18	
+R57	Before Arg1:T17 Arg2:T18	
+R58	Overlap Arg1:T16 Arg2:T65	
+R59	Overlap Arg1:T17 Arg2:T65	
+R60	Experiences Arg1:T66 Arg2:T19	
+R61	Used_for Arg1:T42 Arg2:T19	
+R62	Has_Duration_or_Interval Arg1:T42 Arg2:T67	
+R63	Experiences Arg1:T66 Arg2:T20	
+R64	Negation Arg1:T69 Arg2:T21	
+R65	Overlap Arg1:T21 Arg2:T22	
+R66	Experiences Arg1:T68 Arg2:T23	
+R69	Negation Arg1:T50 Arg2:T24	
+R70	Experiences Arg1:T68 Arg2:T25	
+R71	Location_of Arg1:T43 Arg2:T25	
+R72	Experiences Arg1:T68 Arg2:T26	
+R73	Location_of Arg1:T44 Arg2:T26	
+T89	Quantifier_or_Qualifier 1370 1380	progresiva
+#71	AnnotatorNotes T89	C0205329; Progressive; Functional Concept
+R74	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T89	
+R75	Experiences Arg1:T70 Arg2:T27	
+R76	Used_for Arg1:T45 Arg2:T27	
+R77	Experiences Arg1:T70 Arg2:T28	
+T90	Quantifier_or_Qualifier 1576 1582	activa
+#72	AnnotatorNotes T90	C0679217; Active State; Idea or Concept
+R78	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T90	
+R79	Negation Arg1:T74 Arg2:T30	
+#73	AnnotatorNotes T86	C0439841; Ambulatory - qualifier value; Functional Concept
+R80	After Arg1:T30 Arg2:T31	
+R81	Negation Arg1:T76 Arg2:T32	
+T91	Observation 1759 1786	participación en el estudio
+#74	AnnotatorNotes T91	C1278516; Patient participation status; Finding (?)
+R82	Before Arg1:T32 Arg2:T91	
+T92	Observation 1812 1834	mal control del idioma
+#75	AnnotatorNotes T92	C0237167; Language Barriers; Finding
+R85	Negation Arg1:T72 Arg2:T34	
+R87	Experiences Arg1:T79 Arg2:T36	
+R88	Location_of Arg1:T37 Arg2:T36	
+T93	Observation 1997 2019	alto riesgo quirúrgico
+R89	Experiences Arg1:T79 Arg2:T93	
+T94	Quantifier_or_Qualifier 1981 1992	inoperables
+#76	AnnotatorNotes T94	C0205187; Inoperable; Qualitative Concept
+R90	Has_Quantifier_or_Qualifier Arg1:T79 Arg2:T94	
+R91	Overlap Arg1:T24 Arg2:T22	
+R42	Experiences Arg1:T49 Arg2:T57	
+R43	Experiences Arg1:T49 Arg2:T58	
+A12	Experiencer T47 Patient
+A19	Experiencer T49 Patient
+A20	Experiencer T66 Patient
+A21	Experiencer T68 Patient
+A22	Status T21 Future
+A23	Experiencer T70 Patient
+A24	Experiencer T81 Patient
+A25	Experiencer T73 Patient
+A26	Experiencer T75 Patient
+A27	Experiencer T77 Patient
+A28	Experiencer T78 Other
+A29	Experiencer T79 Patient

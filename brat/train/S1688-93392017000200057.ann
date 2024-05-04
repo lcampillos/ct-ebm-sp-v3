@@ -1,0 +1,98 @@
+T1	ANAT 42 49	sinusal
+#1	AnnotatorNotes T1	C0024957; Maxillary Sinus; Body Space or Junction
+T2	CHEM 75 111	hueso mineral bovino desproteinizado
+T3	PROC 196 207	tratamiento
+#2	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	ANAT 212 228	maxilar superior
+#3	AnnotatorNotes T4	C0460025; Upper jaw region; Body Location or Region | C1279060; Entire maxilla; Body Part, Organ, or Organ Component
+T5	DISO 212 237	maxilar superior edéntulo
+T6	ANAT 293 297	ósea
+#4	AnnotatorNotes T6	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T7	ANAT 355 362	sinusal
+#5	AnnotatorNotes T7	C0024957; Maxillary Sinus; Body Space or Junction
+T8	PROC 32 70	elevación sinusal por abordaje lateral
+#6	AnnotatorNotes T8	C3534601; sinus augmentation with bone or bone substitutes via a lateral open approach; Therapeutic or Preventive Procedure  (?)
+T9	PROC 631 645	aleatoriamente
+#7	AnnotatorNotes T9	C0034656; Randomization; Research Activity
+T10	CHEM 435 471	hueso mineral bovino desproteinizado
+T11	ANAT 604 609	senos
+#8	AnnotatorNotes T11	C1305231; Sinus - general anatomical term; Body Space or Junction
+T12	PROC 703 729	análisis histomorfométrico
+#9	AnnotatorNotes T12	C0200771; Bone histomorphometry; Laboratory Procedure
+T13	PROC 1231 1243	decolamiento
+T14	PROC 772 781	implantar
+#10	AnnotatorNotes T14	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T15	ANAT 824 829	hueso
+#11	AnnotatorNotes T15	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T16	ANAT 840 847	tejidos
+#12	AnnotatorNotes T16	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T17	DISO 1147 1165	rotura de membrana
+T18	PROC 1182 1192	osteotomía
+#13	AnnotatorNotes T18	C0029468; Osteotomy; Therapeutic or Preventive Procedure
+T19	PROC 1 28	Ensayo clínico aleatorizado
+#14	AnnotatorNotes T19	C0206034; Clinical Trials, Randomized; Research Activity
+T20	ANAT 545 549	boca
+#15	AnnotatorNotes T20	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T21	ANAT 596 600	ósea
+#16	AnnotatorNotes T21	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T22	ANAT 737 745	biopsias
+#17	AnnotatorNotes T22	C0677862; Biopsy sample; Tissue
+T23	ANAT 1157 1165	membrana
+#18	AnnotatorNotes T23	C0025255; Tissue membrane; Tissue | C0596901; Membrane; Cell Component
+T24	PROC 327 362	procedimientos de elevación sinusal
+T28	LIVB 573 582	pacientes
+#19	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	PHYS 586 600	formación ósea
+#20	AnnotatorNotes T29	C0029433; Osteogenesis; Organ or Tissue Function
+T33	Neg_cue 848 850	no
+T36	Neg_cue 1136 1138	No
+T37	DEVI 1278 1287	implantes
+#21	AnnotatorNotes T37	C0021102; Implants; Medical Device
+T38	Duration 1304 1309	1 año
+T25	PHYS 851 864	mineralizados
+#22	AnnotatorNotes T25	C2350989; Bone Mineralization; Organ or Tissue Function
+A1	Assertion T17 Negated
+A2	Assertion T25 Negated
+R1	Negation Arg1:T33 Arg2:T25	
+R2	Negation Arg1:T36 Arg2:T17	
+T26	Neg_cue 1059 1061	no
+T27	CONC 1073 1083	diferencia
+A3	Assertion T27 Negated
+#23	AnnotatorNotes T27	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T26 Arg2:T27	
+R4	Location_of Arg1:T1 Arg2:T8	
+R5	Used_for Arg1:T2 Arg2:T8	
+R6	Location_of Arg1:T4 Arg2:T5	
+T30	CONC 304 320	sector posterior
+T31	Observation 262 297	limitaciones de disponibilidad ósea
+R7	Location_of Arg1:T6 Arg2:T31	
+R8	Location_of Arg1:T30 Arg2:T31	
+R9	Location_of Arg1:T7 Arg2:T24	
+T32	Quantifier_or_Qualifier 550 558	dividida
+R10	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T32	
+#24	AnnotatorNotes T32	C0332849; Divide; Functional Concept (?)
+T34	Quantifier_or_Qualifier 610 618	elevados
+#25	AnnotatorNotes T34	C3163633; Elevated; Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T34	
+R12	Location_of Arg1:T22 Arg2:T12	
+T35	Quantifier_or_Qualifier 818 823	nuevo
+#26	AnnotatorNotes T35	C0205314; New; Qualitative Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T35	
+R14	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T25	
+T39	CONC 966 1008	prueba de los rangos con signo de Wilcoxon
+#27	AnnotatorNotes T39	C0871608; Wilcoxon Signed Rank Test; Intellectual Product
+T40	Quantifier_or_Qualifier 1084 1114	estadísticamente significativa
+A4	Assertion T40 Negated
+#28	AnnotatorNotes T40	C0237881; Statistical Significance; Quantitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T40	
+R16	Negation Arg1:T26 Arg2:T40	
+R17	Location_of Arg1:T23 Arg2:T17	
+R18	Before Arg1:T18 Arg2:T17	
+R19	Overlap Arg1:T17 Arg2:T13	
+T41	CONC 1249 1270	tasa de supervivencia
+#29	AnnotatorNotes T41	C0038954; Survival Rate; Quantitative Concept
+R20	Has_Duration_or_Interval Arg1:T41 Arg2:T38	
+R21	Experiences Arg1:T28 Arg2:T29	
+R22	Location_of Arg1:T11 Arg2:T29	
+#30	AnnotatorNotes T24	C3178819; Sinus Floor Augmentation; Therapeutic or Preventive Procedure
+A5	Experiencer T28 Patient

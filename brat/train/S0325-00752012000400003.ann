@@ -1,0 +1,201 @@
+T1	CHEM 1 11	Salbutamol
+#1	AnnotatorNotes T1	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T2	CHEM 28 38	salbutamol
+#2	AnnotatorNotes T2	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T3	DISO 60 74	crisis de asma
+#3	AnnotatorNotes T3	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T4	PROC 76 122	Estudio aleatorizado, controlado y doble ciego
+#4	AnnotatorNotes T4	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T5	PROC 447 474	volumen espiratorio forzado
+#5	AnnotatorNotes T5	C1306036; Forced expiratory volume procedure; Diagnostic Procedure
+T6	CHEM 182 192	salbutamol
+#6	AnnotatorNotes T6	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T7	CHEM 226 236	salbutamol
+#7	AnnotatorNotes T7	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T8	DISO 263 271	síntomas
+#8	AnnotatorNotes T8	C1457887; Symptoms; Sign or Symptom
+T9	CHEM 748 758	salbutamol
+#9	AnnotatorNotes T9	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T10	PROC 874 901	volumen espiratorio forzado
+#10	AnnotatorNotes T10	C1306036; Forced expiratory volume procedure; Diagnostic Procedure
+T11	CHEM 392 402	salbutamol
+#11	AnnotatorNotes T11	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T12	CHEM 360 388	especialidades farmacéuticas
+T13	DISO 416 420	asma
+#12	AnnotatorNotes T13	C0004096; Asthma; Disease or Syndrome
+T14	CHEM 517 527	salbutamol
+#13	AnnotatorNotes T14	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T15	PROC 557 617	Estudio prospectivo, aleatorizado, controlado, a doble ciego
+#14	AnnotatorNotes T15	C0013072; Double-Blind Method; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0033522; Prospective Studies; Research Activity
+T16	PROC 1052 1063	gravimetría
+T17	CHEM 1317 1327	salbutamol
+#15	AnnotatorNotes T17	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T18	PROC 504 512	tratados
+#16	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	PROC 795 804	nebulizar
+#17	AnnotatorNotes T19	C1659427; nebulization-mediated drug administration; Therapeutic or Preventive Procedure
+T20	CHEM 1611 1621	salbutamol
+#18	AnnotatorNotes T20	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T21	PROC 1086 1099	cromatografía
+#19	AnnotatorNotes T21	C0008550; Chromatography; Laboratory Procedure
+T22	CHEM 1750 1760	salbutamol
+#20	AnnotatorNotes T22	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T23	PROC 1185 1212	volumen espiratorio forzado
+#21	AnnotatorNotes T23	C1306036; Forced expiratory volume procedure; Diagnostic Procedure
+T24	PROC 1739 1743	VEF1
+#22	AnnotatorNotes T24	C1306036; Forced expiratory volume procedure; Diagnostic Procedure
+T25	DISO 278 300	episodio agudo de asma
+#23	AnnotatorNotes T25	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T26	CHEM 824 844	solución fisiológica
+#24	AnnotatorNotes T26	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T27	CHEM 1037 1047	salbutamol
+#25	AnnotatorNotes T27	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T28	LIVB 50 55	niños
+#26	AnnotatorNotes T28	C0008059; Child; Age Group
+T30	LIVB 406 411	niños
+#27	AnnotatorNotes T30	C0008059; Child; Age Group
+T31	PHYS 324 350	respuesta broncodilatadora
+#28	AnnotatorNotes T31	C3537072; Bronchodilation; Organ or Tissue Function | C3548479; response to bronchodilator; Organism Function
+T33	LIVB 658 663	niños
+#29	AnnotatorNotes T33	C0008059; Child; Age Group
+T34	Age 682 698	9,18 ± 2,83 años
+T35	Dose 716 744	una dosis de 20 gotas (5 mg)
+T38	Form 781 789	solución
+#30	AnnotatorNotes T38	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T39	Dose 816 820	2 ml
+T40	Form 824 832	solución
+#31	AnnotatorNotes T40	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T42	Duration 984 998	los 30 minutos
+T43	Form 1028 1033	gotas
+#32	AnnotatorNotes T43	C0015399; Eye Drops; Biomedical or Dental Material
+T44	Form 1115 1120	gotas
+#33	AnnotatorNotes T44	C0015399; Eye Drops; Biomedical or Dental Material
+T45	PHYS 1149 1175	respuesta broncodilatadora
+#34	AnnotatorNotes T45	C3537072; Bronchodilation; Organ or Tissue Function | C3548479; response to bronchodilator; Organism Function
+T49	Form 1528 1533	gotas
+#35	AnnotatorNotes T49	C0015399; Eye Drops; Biomedical or Dental Material
+T54	Form 732 737	gotas
+#36	AnnotatorNotes T54	C0015399; Eye Drops; Biomedical or Dental Material
+T55	DEVI 1125 1131	envase
+#37	AnnotatorNotes T55	C0013194; Drug Packaging; Medical Device
+T29	LIVB 668 675	varones
+#38	AnnotatorNotes T29	C0025266; Male population group; Population Group
+T36	Time 902 920	prebroncodilatador
+#39	AnnotatorNotes T36	C2599602; pre bronchodilator; Temporal Concept
+T41	Time 923 941	posbroncodilatador
+#40	AnnotatorNotes T41	C2599594; post bronchodilator; Temporal Concept
+T53	Time 1213 1231	prebroncodilatador
+#41	AnnotatorNotes T53	C2599602; pre bronchodilator; Temporal Concept
+T56	Time 1234 1252	posbroncodilatador
+#42	AnnotatorNotes T56	C2599594; post bronchodilator; Temporal Concept
+T46	PHYS 1698 1724	respuesta broncodilatadora
+#43	AnnotatorNotes T46	C3537072; Bronchodilation; Organ or Tissue Function | C3548479; response to bronchodilator; Organism Function
+A1	Population_data T28 Age
+A2	Population_data T30 Age
+A3	Population_data T33 Age
+T32	Neg_cue 1672 1674	No
+T47	CONC 1680 1691	diferencias
+A4	Assertion T47 Negated
+#44	AnnotatorNotes T47	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T32 Arg2:T47	
+T48	Quantifier_or_Qualifier 12 20	original
+#45	AnnotatorNotes T48	C0205313; Original; Qualitative Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T48	
+T50	Quantifier_or_Qualifier 193 201	original
+#46	AnnotatorNotes T50	C0205313; Original; Qualitative Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T50	
+T51	Quantifier_or_Qualifier 759 767	original
+#47	AnnotatorNotes T51	C0205313; Original; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T51	
+T52	Quantifier_or_Qualifier 528 536	original
+#48	AnnotatorNotes T52	C0205313; Original; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T52	
+T57	Quantifier_or_Qualifier 1622 1630	original
+#49	AnnotatorNotes T57	C0205313; Original; Qualitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T57	
+T58	Quantifier_or_Qualifier 1761 1769	original
+#50	AnnotatorNotes T58	C0205313; Original; Qualitative Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T58	
+T59	Quantifier_or_Qualifier 1328 1336	original
+#51	AnnotatorNotes T59	C0205313; Original; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T59	
+T60	Quantifier_or_Qualifier 39 46	similar
+R9	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T60	
+T61	Quantifier_or_Qualifier 539 546	similar
+R10	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T61	
+T62	Quantifier_or_Qualifier 770 777	similar
+R11	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T62	
+T63	Quantifier_or_Qualifier 1772 1779	similar
+R12	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T63	
+T64	Quantifier_or_Qualifier 237 244	similar
+R13	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T64	
+T65	Quantifier_or_Qualifier 1339 1346	similar
+R14	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T65	
+T66	Quantifier_or_Qualifier 1633 1640	similar
+R15	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T66	
+R16	Experiences Arg1:T28 Arg2:T1	
+R17	Experiences Arg1:T28 Arg2:T2	
+R18	Experiences Arg1:T28 Arg2:T3	
+R19	Causes Arg1:T25 Arg2:T8	
+R22	Causes Arg1:T11 Arg2:T31	
+R23	Experiences Arg1:T30 Arg2:T11	
+R24	Experiences Arg1:T30 Arg2:T13	
+R25	Used_for Arg1:T14 Arg2:T18	
+R26	Experiences Arg1:T30 Arg2:T18	
+R28	Experiences Arg1:T30 Arg2:T5	
+R31	Has_Age Arg1:T33 Arg2:T34	
+R32	Has_Age Arg1:T29 Arg2:T34	
+R34	Has_Dose_or_Strength Arg1:T9 Arg2:T35	
+R35	Has_Drug_Form Arg1:T9 Arg2:T54	
+R36	Has_Drug_Form Arg1:T9 Arg2:T38	
+R37	Used_for Arg1:T9 Arg2:T19	
+R38	Combined_with Arg1:T9 Arg2:T26	
+R39	Has_Drug_Form Arg1:T26 Arg2:T40	
+R40	Has_Dose_or_Strength Arg1:T26 Arg2:T39	
+T67	Quantifier_or_Qualifier 849 858	única vez
+R41	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T67	
+R42	Overlap Arg1:T10 Arg2:T36	
+R43	Overlap Arg1:T10 Arg2:T41	
+T68	CONC 973 979	inicio
+#52	AnnotatorNotes T68	C0439659; Beginning; Temporal Concept
+R44	Overlap Arg1:T10 Arg2:T68	
+R45	Overlap Arg1:T10 Arg2:T42	
+R46	Has_Drug_Form Arg1:T27 Arg2:T43	
+R47	Has_Drug_Form Arg1:T27 Arg2:T44	
+R48	Overlap Arg1:T23 Arg2:T53	
+R49	Overlap Arg1:T23 Arg2:T56	
+R50	Causes Arg1:T17 Arg2:T45	
+R53	Causes Arg1:T22 Arg2:T46	
+R54	Overlap Arg1:T31 Arg2:T5	
+R55	Experiences Arg1:T33 Arg2:T9	
+R56	Experiences Arg1:T33 Arg2:T19	
+T69	Spec_cue 167 174	sugiere
+T70	Quantifier_or_Qualifier 208 218	más eficaz
+A5	Assertion T70 Speculated
+R57	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T70	
+R58	Speculation Arg1:T69 Arg2:T70	
+A6	Assertion T6 Speculated
+R59	Speculation Arg1:T69 Arg2:T6	
+A7	Assertion T50 Speculated
+R60	Speculation Arg1:T69 Arg2:T50	
+R20	Causes Arg1:T18 Arg2:T31	
+T71	Spec_cue 476 478	si
+T72	CONC 479 486	difiere
+A8	Assertion T72 Speculated
+#53	AnnotatorNotes T72	C1705241; Delta (difference); Quantitative Concept
+R21	Speculation Arg1:T71 Arg2:T72	
+R27	Overlap Arg1:T45 Arg2:T53	
+R51	Overlap Arg1:T45 Arg2:T56	
+#54	AnnotatorNotes T65	C2348205; Similarity; Qualitative Concept
+#55	AnnotatorNotes T66	C2348205; Similarity; Qualitative Concept
+#56	AnnotatorNotes T63	C2348205; Similarity; Qualitative Concept
+#57	AnnotatorNotes T62	C2348205; Similarity; Qualitative Concept
+#58	AnnotatorNotes T67	C1948045; Once (schedule frequency); Temporal Concept
+#59	AnnotatorNotes T61	C2348205; Similarity; Qualitative Concept
+#60	AnnotatorNotes T64	C2348205; Similarity; Qualitative Concept
+#61	AnnotatorNotes T60	C2348205; Similarity; Qualitative Concept
+#62	AnnotatorNotes T12	C4553142; Medicinal Product; Pharmacologic Substance
+A9	Experiencer T28 Patient
+A10	Experiencer T30 Patient
+A11	Experiencer T33 Patient
+A12	Experiencer T29 Patient

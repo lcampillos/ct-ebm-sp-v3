@@ -1,0 +1,137 @@
+T1	PROC 46 67	Profilaxis secundaria
+T2	DISO 73 85	pancreatitis
+#1	AnnotatorNotes T2	C0030305; Pancreatitis; Disease or Syndrome
+T3	CHEM 108 129	Ácido ursodeoxicólico
+#2	AnnotatorNotes T3	C0042105; ursodiol; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T4	PROC 136 157	profilaxis secundaria
+T5	DISO 161 186	pancreatitis aguda biliar
+#3	AnnotatorNotes T5	C0747194; Biliary acute pancreatitis; Disease or Syndrome
+T6	ANAT 180 186	biliar
+#4	AnnotatorNotes T6	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0016976; Gallbladder; Body Part, Organ, or Organ Component (?)
+T7	PROC 188 234	ensayo clínico piloto aleatorizado doble ciego
+T8	DISO 270 287	cálculos biliares
+#5	AnnotatorNotes T8	C0008350; Cholelithiasis; Disease or Syndrome | C0947622; Cholecystolithiasis; Disease or Syndrome
+T9	DISO 367 392	pancreatitis aguda biliar
+#6	AnnotatorNotes T9	C0747194; Biliary acute pancreatitis; Disease or Syndrome
+T10	ANAT 386 392	biliar
+#7	AnnotatorNotes T10	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0016976; Gallbladder; Body Part, Organ, or Organ Component (?)
+T11	PROC 397 412	colecistectomía
+#8	AnnotatorNotes T11	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T12	PROC 424 435	Diagnóstico
+#9	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	DISO 439 457	pancreatitis aguda
+#10	AnnotatorNotes T13	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T14	DISO 493 508	dolor abdominal
+#11	AnnotatorNotes T14	C0000737; Abdominal Pain; Sign or Symptom
+T15	DISO 512 522	amilasemia
+#12	AnnotatorNotes T15	C0476327; Serum Amylase Increased; Finding
+T16	DISO 623 641	pancreatitis aguda
+#13	AnnotatorNotes T16	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T17	PROC 644 655	Diagnóstico
+#14	AnnotatorNotes T17	C0011900; Diagnosis; Diagnostic Procedure
+T18	ANAT 669 675	biliar
+#15	AnnotatorNotes T18	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0016976; Gallbladder; Body Part, Organ, or Organ Component (?)
+T19	DISO 677 689	colelitiasis
+#16	AnnotatorNotes T19	C0008350; Cholelithiasis; Disease or Syndrome | C0947622; Cholecystolithiasis; Disease or Syndrome
+T20	DISO 690 703	microlitiasis
+#17	AnnotatorNotes T20	C0333027; Microlithiasis; Disease or Syndrome
+T21	DISO 704 726	barro biliar vesicular
+T22	PROC 727 740	diagnosticado
+#18	AnnotatorNotes T22	C0011900; Diagnosis; Diagnostic Procedure
+T23	PROC 745 754	ecografía
+#19	AnnotatorNotes T23	C0041618; Ultrasonography; Diagnostic Procedure
+T24	PROC 756 759	TAC
+#20	AnnotatorNotes T24	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T25	PROC 761 764	RMN
+#21	AnnotatorNotes T25	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T26	PROC 767 780	ecoendoscopia
+#22	AnnotatorNotes T26	C0376443; Endoscopic Ultrasound; Diagnostic Procedure
+T27	ANAT 279 287	biliares
+#23	AnnotatorNotes T27	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0016976; Gallbladder; Body Part, Organ, or Organ Component
+T28	PROC 1002 1017	colecistectomía
+#24	AnnotatorNotes T28	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T29	DISO 1048 1064	coledocolitiasis
+#25	AnnotatorNotes T29	C0701818; Choledocholithiasis; Disease or Syndrome
+T30	PROC 1066 1105	Esfinterotomía endoscópica o quirúrgica
+T31	DISO 1114 1145	Lesiones quísticas pancreáticas
+T32	ANAT 1133 1145	pancreáticas
+#26	AnnotatorNotes T32	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T33	DISO 1173 1198	pancreatitis aguda biliar
+#27	AnnotatorNotes T33	C0747194; Biliary acute pancreatitis; Disease or Syndrome
+T34	ANAT 1192 1198	biliar
+#28	AnnotatorNotes T34	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0016976; Gallbladder; Body Part, Organ, or Organ Component (?)
+T35	PROC 259 269	Disolución
+#29	AnnotatorNotes T35	C1285147; Dissolution - action; Therapeutic or Preventive Procedure
+T36	ANAT 499 508	abdominal
+#30	AnnotatorNotes T36	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T37	DISO 525 534	lipasemia
+T38	PROC 591 607	prueba de imagen
+#31	AnnotatorNotes T38	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T39	ANAT 710 716	biliar
+#32	AnnotatorNotes T39	C0005388; Bile fluid; Body Substance
+T40	ANAT 717 726	vesicular
+#33	AnnotatorNotes T40	C1269001; Entire gallbladder; Body Part, Organ, or Organ Component
+T41	PROC 834 870	consentimiento informado por escrito
+#34	AnnotatorNotes T41	C0811741; Obtain informed written consent; Health Care Activity
+T42	Date 13 17	2011
+T43	Age 314 332	Mayores de 18 años
+T44	LIVB 334 343	Pacientes
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Neg_cue 393 396	sin
+T47	LIVB 875 883	paciente
+#36	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T49	Duration 1027 1036	dos meses
+A1	Status T11 History_of
+A2	Assertion T11 Negated
+A3	Status T30 History_of
+#37	AnnotatorNotes T7	C0031928; Pilot Projects; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#38	AnnotatorNotes T30	C0748895; Sphincterotomy; Therapeutic or Preventive Procedure + C0085263; Sphincterotomy, Endoscopic; Therapeutic or Preventive Procedure 
+T46	Neg_cue 1146 1148	no
+T48	Quantifier_or_Qualifier 1149 1160	atribuibles
+A4	Assertion T48 Negated
+#39	AnnotatorNotes T48	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+R1	Overlap Arg1:T31 Arg2:T33	
+R2	After Arg1:T1 Arg2:T2	
+R3	Used_for Arg1:T3 Arg2:T4	
+R4	After Arg1:T4 Arg2:T5	
+R5	Location_of Arg1:T6 Arg2:T5	
+R6	Location_of Arg1:T27 Arg2:T8	
+T50	Quantifier_or_Qualifier 348 363	primer episodio
+R7	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T50	
+R8	Location_of Arg1:T10 Arg2:T9	
+R9	Negation Arg1:T45 Arg2:T11	
+R10	Experiences Arg1:T44 Arg2:T9	
+R11	Experiences Arg1:T44 Arg2:T11	
+R12	Location_of Arg1:T36 Arg2:T14	
+T51	Result_or_Value 535 587	mayor de 3 veces el límite superior de la normalidad
+R13	Has_Result_or_Value Arg1:T37 Arg2:T51	
+R14	Has_Result_or_Value Arg1:T15 Arg2:T51	
+#40	AnnotatorNotes T37	C1963823; Hyperlipasaemia; Disease or Syndrome | C0549475; Lipase increased; Finding
+R16	Location_of Arg1:T18 Arg2:T19	
+R17	Location_of Arg1:T18 Arg2:T20	
+R18	Location_of Arg1:T40 Arg2:T21	
+R19	Location_of Arg1:T39 Arg2:T21	
+#41	AnnotatorNotes T21	C0282074; Biliary Sludge; Disease or Syndrome (?)
+R32	Before Arg1:T23 Arg2:T22	
+R33	Before Arg1:T23 Arg2:T17	
+R34	Before Arg1:T24 Arg2:T22	
+R35	Before Arg1:T24 Arg2:T17	
+R36	Before Arg1:T25 Arg2:T17	
+R37	Before Arg1:T25 Arg2:T22	
+R38	Before Arg1:T26 Arg2:T17	
+R39	Before Arg1:T26 Arg2:T22	
+T52	Observation 785 815	Aceptación libre de participar
+#42	AnnotatorNotes T52	C0600109; Willing; Finding (?)
+R40	Overlap Arg1:T52 Arg2:T41	
+R41	Experiences Arg1:T47 Arg2:T52	
+T53	Observation 888 941	Capacidad para cumplimentar adecuadamente las escalas
+R42	Before Arg1:T28 Arg2:T49	
+R43	Location_of Arg1:T32 Arg2:T31	
+R44	Negation Arg1:T46 Arg2:T48	
+R45	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T48	
+R46	Location_of Arg1:T34 Arg2:T33	
+#43	AnnotatorNotes T1	C0679699; Secondary Prevention; Therapeutic or Preventive Procedure
+#44	AnnotatorNotes T4	C0679699; Secondary Prevention; Therapeutic or Preventive Procedure
+#45	AnnotatorNotes T31	C0030283; Pancreatic Cyst; Disease or Syndrome
+A5	Experiencer T44 Patient
+A6	Experiencer T47 Patient

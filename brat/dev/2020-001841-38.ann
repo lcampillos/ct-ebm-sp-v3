@@ -1,0 +1,251 @@
+T1	CHEM 44 54	Colchicina
+#1	AnnotatorNotes T1	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T2	PROC 63 74	Tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 112 132	Neumonía por COVID19
+T4	DISO 187 207	Neumonía por COVID19
+T5	PROC 247 260	hospitalizado
+#3	AnnotatorNotes T5	C0019993; Hospitalization; Health Care Activity
+T6	DISO 265 285	neumonía por COVID19
+T7	ANAT 329 334	tórax
+#4	AnnotatorNotes T7	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T8	DISO 350 358	neumonía
+#5	AnnotatorNotes T8	C0032285; Pneumonia; Disease or Syndrome
+T9	DISO 475 483	contagio
+#6	AnnotatorNotes T9	C0242781; disease transmission; Pathologic Function
+T10	DISO 677 703	inestabilidad hemodinámica
+#7	AnnotatorNotes T10	C0948268; Hemodynamic instability; Disease or Syndrome
+T11	PROC 723 757	ventilación invasiva o no invasiva
+T12	PROC 759 763	CPAP
+#8	AnnotatorNotes T12	C0199451; Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T13	PROC 929 942	diagnosticado
+#9	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	PROC 984 997	test de orina
+T15	CHEM 1055 1062	Kaletra
+#10	AnnotatorNotes T15	C0939357; Kaletra; Organic Chemical · Pharmacologic Substance
+T16	PROC 1096 1112	ensayos clínicos
+#11	AnnotatorNotes T16	C0008976; Clinical Trials; Research Activity
+T17	DISO 1130 1138	cirrosis
+#12	AnnotatorNotes T17	C1623038; Cirrhosis; Disease or Syndrome
+T18	DISO 1140 1149	hepatitis
+#13	AnnotatorNotes T18	C0019158; Hepatitis; Disease or Syndrome
+T19	DISO 1159 1173	fallo hepático
+#14	AnnotatorNotes T19	C0085605; Liver Failure; Disease or Syndrome
+T20	DISO 1196 1227	enfermedad crónica inflamatoria
+T21	PROC 554 568	consentimiento
+#15	AnnotatorNotes T21	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T22	DISO 1247 1254	Diarrea
+#16	AnnotatorNotes T22	C0011991; Diarrhea; Sign or Symptom
+T23	CHEM 1281 1291	medicación
+#17	AnnotatorNotes T23	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T24	PROC 1296 1322	Tratamiento inmunosupresor
+#18	AnnotatorNotes T24	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T25	DISO 81 97	Hiperinflamación
+T26	PROC 1335 1346	Neutrófilos
+#19	AnnotatorNotes T26	C0200633; Neutrophil count; Laboratory Procedure
+T27	ANAT 1353 1357	céls
+T28	PROC 1366 1375	plaquetas
+#20	AnnotatorNotes T28	C0032181; Platelet Count measurement; Laboratory Procedure
+T29	DISO 156 172	Hiperinflamación
+T30	DISO 1396 1415	Insuficiencia renal
+#21	AnnotatorNotes T30	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T31	PROC 1424 1449	filtrado glomerular renal
+T32	ANAT 1383 1387	céls
+T33	PROC 1485 1496	tratamiento
+#22	AnnotatorNotes T33	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T34	PROC 326 334	Rx tórax
+T35	PROC 385 416	Consentimiento informado verbal
+#23	AnnotatorNotes T35	C1608381; Consent Mode - Verbal; Health Care Activity (?)
+T36	PROC 421 443	consentimiento escrito
+#24	AnnotatorNotes T36	C0811746; Obtain written consent; Health Care Activity
+T37	ANAT 992 997	orina
+#25	AnnotatorNotes T37	C0042036; Urine; Body Substance
+T38	PROC 1039 1050	tratamiento
+#26	AnnotatorNotes T38	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T39	ANAT 1165 1173	hepático
+#27	AnnotatorNotes T39	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T40	PROC 1273 1278	dieta
+#28	AnnotatorNotes T40	C0012159; Diet therapy; Health Care Activity | C0600072; Feeding and dietary regimes; Therapeutic or Preventive Procedure
+T41	CHEM 1308 1322	inmunosupresor
+#29	AnnotatorNotes T41	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T42	ANAT 1410 1415	renal
+#30	AnnotatorNotes T42	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T43	ANAT 1444 1449	renal
+#31	AnnotatorNotes T43	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T44	CHEM 1501 1511	colchicina
+#32	AnnotatorNotes T44	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T45	PROC 534 548	consentimiento
+#33	AnnotatorNotes T45	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T46	DISO 364 380	Hiperinflamación
+T47	PROC 764 769	BiPAP
+#34	AnnotatorNotes T47	C1956423; Biphasic positive airway pressure; Therapeutic or Preventive Procedure
+T48	Date 12 16	2020
+T49	LIVB 238 246	Paciente
+#35	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Spec_cue 465 474	riesgo de
+T51	LIVB 492 510	personal sanitario
+#36	AnnotatorNotes T51	C0018724; Health Personnel; Professional or Occupational Group | C1704312; Health Professional; Professional or Occupational Group
+T52	LIVB 573 581	paciente
+#37	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 625 633	paciente
+#38	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	LIVB 664 672	Paciente
+#39	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	PHYS 691 703	hemodinámica
+#40	AnnotatorNotes T55	C0019010; Hemodynamics; Organ or Tissue Function
+T56	LIVB 707 715	Paciente
+#41	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 775 816	Mujer embarazada, en periodo de lactancia
+#42	AnnotatorNotes T58	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T59	Duration 864 885	los 6 meses sucesivos
+T60	LIVB 890 897	mujeres
+#43	AnnotatorNotes T60	C0043210; Woman; Population Group
+T61	Spec_cue 902 916	posibilidad de
+T62	PHYS 917 925	embarazo
+#44	AnnotatorNotes T62	C0032961; Pregnancy; Organism Function
+T63	Neg_cue 926 928	no
+T64	Neg_cue 953 962	descartar
+T65	PHYS 963 971	embarazo
+#45	AnnotatorNotes T65	C0032961; Pregnancy; Organism Function
+T66	PHYS 807 816	lactancia
+#46	AnnotatorNotes T66	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T67	Neg_cue 998 1006	negativo
+T68	LIVB 1011 1020	Pacientes
+#47	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 1067 1076	Pacientes
+#48	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	LIVB 1117 1125	Paciente
+#49	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T71	LIVB 1183 1191	Paciente
+#50	AnnotatorNotes T71	C0030705; Patients; Patient or Disabled Group
+T72	Duration 1207 1214	crónica
+#51	AnnotatorNotes T72	C0205191; chronic; Temporal Concept
+T74	Duration 1323 1330	crónico
+#52	AnnotatorNotes T74	C0205191; chronic; Temporal Concept
+T75	PHYS 1424 1443	filtrado glomerular
+#53	AnnotatorNotes T75	C0232809; Glomerular filtration; Organ or Tissue Function; Laboratory Procedure
+T76	Age 1517 1535	Menores de 18 años
+T77	PHYS 850 860	embarazada
+#54	AnnotatorNotes T77	C0032961; Pregnancy; Organism Function
+T57	PHYS 781 791	embarazada
+#55	AnnotatorNotes T57	C0032961; Pregnancy; Organism Function
+T73	ANAT 1433 1443	glomerular
+#56	AnnotatorNotes T73	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T78	PROC 296 323	confirmación microbiológica
+A1	Assertion T9 Speculated
+A2	Assertion T62 Speculated
+A3	Assertion T65 Negated
+A4	Assertion T13 Negated
+#57	AnnotatorNotes T3	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#58	AnnotatorNotes T4	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#59	AnnotatorNotes T6	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#60	AnnotatorNotes T25	C4014463; Hyperinflammatory state; Finding
+#61	AnnotatorNotes T46	C4014463; Hyperinflammatory state; Finding
+#62	AnnotatorNotes T31	C0017654; Glomerular Filtration Rate; Diagnostic procedure
+#63	AnnotatorNotes T29	C4014463; Hyperinflammatory state; Finding
+#64	AnnotatorNotes T34	C0039985; Plain chest X-ray; Diagnostic Procedure
+#65	AnnotatorNotes T14	C0042014; Urinalysis; Laboratory Procedure
+#66	AnnotatorNotes T20	C1290886; Chronic inflammatory disorder; Disease or Syndrome
+#67	AnnotatorNotes T27	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+#68	AnnotatorNotes T32	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T79	Quantifier_or_Qualifier 749 757	invasiva
+A5	Assertion T79 Negated
+T80	Quantifier_or_Qualifier 735 743	invasiva
+T81	Neg_cue 746 748	no
+T82	Observation 1262 1270	responde
+A6	Assertion T82 Negated
+#69	AnnotatorNotes T82	C4055223; Clinical Response; Finding (?)
+T83	Neg_cue 1259 1261	no
+R1	Speculation Arg1:T50 Arg2:T9	
+R2	Negation Arg1:T81 Arg2:T79	
+R3	Speculation Arg1:T61 Arg2:T62	
+R4	Negation Arg1:T63 Arg2:T13	
+R5	Negation Arg1:T64 Arg2:T65	
+R6	Negation Arg1:T67 Arg2:T65	
+R7	Negation Arg1:T83 Arg2:T82	
+R8	Used_for Arg1:T1 Arg2:T2	
+R9	Causes Arg1:T3 Arg2:T25	
+R10	Causes Arg1:T4 Arg2:T29	
+R11	Experiences Arg1:T49 Arg2:T5	
+R13	Overlap Arg1:T5 Arg2:T34	
+R14	Location_of Arg1:T7 Arg2:T34	
+#70	AnnotatorNotes T78	C0085672; Microbiology procedure; Laboratory Procedure
+R18	Before Arg1:T36 Arg2:T9	
+R19	Experiences Arg1:T51 Arg2:T9	
+T84	CONC 604 620	historia clínica
+#71	AnnotatorNotes T84	C5204342; Clinical History; Intellectual Product
+R20	Experiences Arg1:T54 Arg2:T10	
+R21	Experiences Arg1:T54 Arg2:T55	
+R23	Experiences Arg1:T56 Arg2:T11	
+R24	Experiences Arg1:T56 Arg2:T12	
+R25	Experiences Arg1:T56 Arg2:T47	
+R26	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T80	
+R27	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T79	
+#72	AnnotatorNotes T11	C1868981; Invasive mechanical ventilation; Therapeutic or Preventive Procedure | C1868982; Noninvasive mechanical ventilation; Therapeutic or Preventive Procedure
+#73	AnnotatorNotes T80	C0205281; Invasive; Qualitative Concept
+#74	AnnotatorNotes T79	C0205281; Invasive; Qualitative Concept
+R28	Experiences Arg1:T58 Arg2:T57	
+R29	Experiences Arg1:T58 Arg2:T66	
+T85	Observation 828 860	considerando quedarse embarazada
+#75	AnnotatorNotes T85	C0032992; Pregnancy, Planned; Finding
+R30	Before Arg1:T85 Arg2:T77	
+R31	Overlap Arg1:T77 Arg2:T59	
+R32	Experiences Arg1:T60 Arg2:T62	
+R33	Before Arg1:T13 Arg2:T62	
+R34	Location_of Arg1:T37 Arg2:T14	
+R35	Overlap Arg1:T65 Arg2:T14	
+R36	Before Arg1:T14 Arg2:T13	
+R37	Experiences Arg1:T60 Arg2:T14	
+R38	Experiences Arg1:T68 Arg2:T38	
+R39	Used_for Arg1:T15 Arg2:T38	
+T86	Observation 1077 1112	incluidos en otros ensayos clínicos
+R40	Experiences Arg1:T70 Arg2:T17	
+R41	Experiences Arg1:T70 Arg2:T18	
+R42	Experiences Arg1:T70 Arg2:T19	
+R43	Location_of Arg1:T39 Arg2:T19	
+R44	Has_Duration_or_Interval Arg1:T20 Arg2:T72	
+R45	Experiences Arg1:T71 Arg2:T20	
+T87	Quantifier_or_Qualifier 1231 1242	fase activa
+#76	AnnotatorNotes T87	C0679217; Active State; Idea or Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T87	
+T88	Quantifier_or_Qualifier 1150 1156	activa
+#77	AnnotatorNotes T88	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R47	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T88	
+T89	Quantifier_or_Qualifier 1174 1179	grave
+#78	AnnotatorNotes T89	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R48	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T89	
+R49	Overlap Arg1:T22 Arg2:T82	
+R50	Overlap Arg1:T82 Arg2:T40	
+R51	Overlap Arg1:T82 Arg2:T23	
+R52	Has_Duration_or_Interval Arg1:T41 Arg2:T74	
+R53	Used_for Arg1:T41 Arg2:T24	
+T90	Result_or_Value 1347 1361	< 500 céls/mmc
+R54	Has_Result_or_Value Arg1:T26 Arg2:T90	
+T91	Result_or_Value 1376 1391	<50000 céls/mmc
+R55	Has_Result_or_Value Arg1:T28 Arg2:T91	
+R56	Location_of Arg1:T42 Arg2:T30	
+T92	Quantifier_or_Qualifier 1416 1422	severa
+#79	AnnotatorNotes T92	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R57	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T92	
+R59	Location_of Arg1:T73 Arg2:T75	
+R60	Location_of Arg1:T43 Arg2:T31	
+R61	Location_of Arg1:T73 Arg2:T31	
+T93	Result_or_Value 1450 1466	< 30ml/min/1.7m2
+R62	Has_Result_or_Value Arg1:T31 Arg2:T93	
+R63	Used_for Arg1:T44 Arg2:T33	
+R12	Overlap Arg1:T5 Arg2:T78	
+A7	Experiencer T49 Patient
+A8	Experiencer T51 Other
+A9	Experiencer T53 Patient
+A10	Experiencer T52 Patient
+A11	Experiencer T54 Patient
+A12	Experiencer T56 Patient
+A13	Experiencer T58 Patient
+A14	Status T77 Future
+A15	Experiencer T60 Patient
+A16	Experiencer T68 Patient
+A17	Experiencer T69 Patient
+A18	Experiencer T70 Patient
+A19	Experiencer T71 Patient
+T94	Result_or_Value 998 1006	negativo
+R15	Has_Result_or_Value Arg1:T14 Arg2:T94	

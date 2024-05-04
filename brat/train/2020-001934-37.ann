@@ -1,0 +1,177 @@
+T1	CHEM 53 64	CORTICOIDES
+#1	AnnotatorNotes T1	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T2	DISO 82 117	INFECCION POR CORONAVIRUS SARS-COV2
+T3	CHEM 147 158	CORTICOIDES
+#2	AnnotatorNotes T3	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T4	DISO 176 211	INFECCION POR CORONAVIRUS SARS-COV2
+T5	PROC 226 243	Ensayo pragmático
+T6	DISO 311 335	Infección por SARS-CoV-2
+#3	AnnotatorNotes T6	C5203670; COVID19 (disease); Disease or Syndrome
+T7	DISO 337 345	COVID-19
+#4	AnnotatorNotes T7	C5203670; COVID19 (disease); Disease or Syndrome
+T8	PROC 385 395	ingresados
+#5	AnnotatorNotes T8	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T9	DISO 415 423	Covid-19
+#6	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	PROC 445 466	tests microbiológicos
+T11	DISO 519 530	infecciones
+#7	AnnotatorNotes T11	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T12	DISO 605 613	síntomas
+#8	AnnotatorNotes T12	C1457887; Symptoms; Sign or Symptom
+T13	DISO 629 640	inflamación
+#9	AnnotatorNotes T13	C0021368; Inflammation; Pathologic Function
+T14	DISO 656 678	Infiltrados pulmonares
+#10	AnnotatorNotes T14	C0277877; Radiologic infiltrate of lung; Finding
+T15	DISO 681 715	Alteración del intercambio gaseoso
+T16	PROC 717 721	PaO2
+#11	AnnotatorNotes T16	C0428168; Measurement of partial pressure of oxygen in blood; Laboratory Procedure
+T17	PROC 759 763	PAFI
+T18	DISO 883 903	infección bacteriana
+#12	AnnotatorNotes T18	C0004623; Bacterial Infections; Disease or Syndrome
+T19	DISO 911 921	enfermedad
+#13	AnnotatorNotes T19	C0012634; Disease; Disease or Syndrome
+T20	DISO 938 956	trastorno pulmonar
+#14	AnnotatorNotes T20	C0024115; Lung diseases; Disease or Syndrome
+T21	PROC 959 983	Consentimiento informado
+#15	AnnotatorNotes T21	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T22	PROC 1110 1130	ventilación mecánica
+#16	AnnotatorNotes T22	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T23	PROC 1132 1155	ventilación no invasiva
+#17	AnnotatorNotes T23	C1997883; Noninvasive Ventilation; Therapeutic or Preventive Procedure
+T24	PROC 1158 1172	ingreso en UCI
+T25	DISO 1175 1190	Inmunosupresión
+#18	AnnotatorNotes T25	C4048329; Immunosuppression; Disease or Syndrome
+T26	DISO 1193 1220	Insuficiencia renal crónica
+#19	AnnotatorNotes T26	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T27	PROC 861 864	IL6
+T28	PROC 831 833	DD
+#20	AnnotatorNotes T28	C2826333; D-Dimer Measurement; Laboratory Procedure
+T29	ANAT 668 678	pulmonares
+#21	AnnotatorNotes T29	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T30	PROC 729 732	Sat
+T31	PROC 820 823	PCR
+#22	AnnotatorNotes T31	C0201657; C-reactive protein measurement; Laboratory Procedure
+T32	PROC 842 851	ferritina
+#23	AnnotatorNotes T32	C0373607; Ferritin measurement; Laboratory Procedure
+T33	PROC 772 776	SAFI
+T34	ANAT 948 956	pulmonar
+#24	AnnotatorNotes T34	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T35	ANAT 1207 1212	renal
+#25	AnnotatorNotes T35	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T36	PROC 1224 1232	diálisis
+#26	AnnotatorNotes T36	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T37	Date 13 17	2020
+T38	LIVB 68 77	PACIENTES
+#27	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 96 117	CORONAVIRUS SARS-COV2
+#28	AnnotatorNotes T39	C5203676; SARS-CoV-2; Virus
+T40	LIVB 162 171	PACIENTES
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 190 211	CORONAVIRUS SARS-COV2
+#30	AnnotatorNotes T41	C5203676; SARS-CoV-2; Virus
+T42	LIVB 375 384	Pacientes
+#31	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Age 540 550	18-85 años
+T44	Duration 575 588	más de 7 días
+T45	PHYS 696 715	intercambio gaseoso
+#32	AnnotatorNotes T45	C0034071; Pulmonary Gas Exchange; Organ or Tissue Function
+T46	PHYS 739 749	respirando
+#33	AnnotatorNotes T46	C0035203; Respiration; Physiologic Function
+T48	Neg_cue 871 882	Ausencia de
+T50	PHYS 1071 1079	Embarazo
+#34	AnnotatorNotes T50	C0032961; Pregnancy; Organism Function
+T52	Duration 1213 1220	crónica
+#35	AnnotatorNotes T52	C0205191; chronic; Temporal Concept
+T53	LIVB 893 903	bacteriana
+#36	AnnotatorNotes T53	C0004611; Bacteria; Bacterium
+T56	LIVB 325 335	SARS-CoV-2
+#37	AnnotatorNotes T56	C5203676; SARS-CoV-2; Virus
+T47	Neg_cue 500 512	exclusión de
+T49	PROC 785 790	BCRSS
+#38	AnnotatorNotes T49	[Brescia-COVID respiratory severity scale]
+A1	Assertion T18 Negated
+A2	Assertion T19 Negated
+A3	Assertion T11 Negated
+#39	AnnotatorNotes T2	C5203670; COVID19 (disease); Disease or Syndrome
+#40	AnnotatorNotes T4	C5203670; COVID19 (disease); Disease or Syndrome
+#41	AnnotatorNotes T24	C5419131; Intensive Care Unit Stay; Health Care Activity
+#42	AnnotatorNotes T5	C4684737; Pragmatic Trial; Research Activity 
+#43	AnnotatorNotes T15	C0150034; Impaired gas exchange; Finding
+#44	AnnotatorNotes T27	C0919829; Interleukin 6 Measurement; Laboratory Procedure
+T51	Quantifier_or_Qualifier 1147 1155	invasiva
+A4	Assertion T51 Negated
+T54	Neg_cue 1144 1146	no
+T55	Quantifier_or_Qualifier 513 518	otras
+A5	Assertion T55 Negated
+R1	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T55	
+R2	Negation Arg1:T47 Arg2:T55	
+R3	Negation Arg1:T47 Arg2:T11	
+T57	Neg_cue 1047 1057	Negativa a
+T58	Observation 1058 1068	participar
+A6	Assertion T58 Negated
+#45	AnnotatorNotes T58	C1278516; Patient participation status; Finding
+R4	Experiences Arg1:T38 Arg2:T1	
+R5	Experiences Arg1:T40 Arg2:T3	
+R6	Causes Arg1:T39 Arg2:T2	
+R7	Causes Arg1:T41 Arg2:T4	
+R8	Experiences Arg1:T38 Arg2:T2	
+R9	Experiences Arg1:T40 Arg2:T4	
+R10	Causes Arg1:T56 Arg2:T6	
+R11	Causes Arg1:T56 Arg2:T7	
+R12	Experiences Arg1:T42 Arg2:T8	
+R14	Experiences Arg1:T42 Arg2:T9	
+#46	AnnotatorNotes T10	C0085672; Microbiology procedure; Laboratory Procedure
+T59	Observation 469 483	cuadro clínico
+R16	Experiences Arg1:T42 Arg2:T59	
+R17	Experiences Arg1:T42 Arg2:T11	
+T60	CONC 564 573	evolución
+#47	AnnotatorNotes T60	C0449259; Clinical course; Temporal Concept
+R18	Has_Duration_or_Interval Arg1:T60 Arg2:T44	
+R19	After Arg1:T60 Arg2:T12	
+R20	Location_of Arg1:T29 Arg2:T14	
+R21	Overlap Arg1:T13 Arg2:T14	
+R22	Overlap Arg1:T13 Arg2:T15	
+R23	Overlap Arg1:T14 Arg2:T15	
+T61	Result_or_Value 722 726	< 65
+R25	Has_Result_or_Value Arg1:T16 Arg2:T61	
+T62	Result_or_Value 733 737	<93%
+T63	Quantifier_or_Qualifier 739 754	respirando aire
+R26	Has_Result_or_Value Arg1:T30 Arg2:T62	
+R27	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T63	
+T64	Result_or_Value 764 768	<300
+R28	Has_Result_or_Value Arg1:T17 Arg2:T64	
+T65	Result_or_Value 777 781	<440
+R29	Has_Result_or_Value Arg1:T33 Arg2:T65	
+T66	Result_or_Value 791 793	≥2
+R30	Has_Result_or_Value Arg1:T49 Arg2:T66	
+T67	Observation 796 818	Biomarcadores elevados
+T68	Result_or_Value 824 827	>15
+R31	Has_Result_or_Value Arg1:T31 Arg2:T68	
+T69	Result_or_Value 834 838	>800
+R32	Has_Result_or_Value Arg1:T28 Arg2:T69	
+T70	Result_or_Value 852 857	>1000
+R33	Has_Result_or_Value Arg1:T32 Arg2:T70	
+T71	Result_or_Value 865 868	>20
+R34	Has_Result_or_Value Arg1:T27 Arg2:T71	
+R35	Negation Arg1:T48 Arg2:T18	
+R36	Negation Arg1:T48 Arg2:T19	
+R37	Causes Arg1:T53 Arg2:T18	
+R38	Location_of Arg1:T34 Arg2:T20	
+T72	CONC 1010 1018	historia
+#48	AnnotatorNotes T72	C5204342; Clinical History; Intellectual Product
+R39	Negation Arg1:T57 Arg2:T58	
+R40	Negation Arg1:T54 Arg2:T51	
+R41	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T51	
+R42	Location_of Arg1:T35 Arg2:T26	
+R43	Has_Duration_or_Interval Arg1:T26 Arg2:T52	
+#49	AnnotatorNotes T55	C0205394; Other; Qualitative Concept
+#50	AnnotatorNotes T30	C0523807; Oxygen saturation measurement; Laboratory Procedure
+#51	AnnotatorNotes T17	C4087239; PaO2/FiO2 ratio; Laboratory Procedure | C2585014; Ratio of arterial oxygen tension to inspired oxygen fraction; Laboratory Procedure
+R13	Overlap Arg1:T13 Arg2:T67	
+R15	Overlap Arg1:T14 Arg2:T67	
+R24	Overlap Arg1:T15 Arg2:T67	
+#52	AnnotatorNotes T51	C0205281; Invasive; Qualitative Concept
+#53	AnnotatorNotes T33	C0523807; Oxygen saturation measurement; Laboratory Procedure + C1512797; Inspired Oxygen Fraction Test; Diagnostic Procedure
+A7	Experiencer T38 Patient
+A8	Experiencer T40 Patient
+A9	Experiencer T42 Patient

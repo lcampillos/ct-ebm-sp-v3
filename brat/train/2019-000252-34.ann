@@ -1,0 +1,181 @@
+T1	PROC 756 763	tratada
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 46 90	Estudio para evaluar la seguridad y eficacia
+T3	CHEM 94 103	nivolumab
+#2	AnnotatorNotes T3	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	CHEM 123 133	ipilimumab
+#3	AnnotatorNotes T4	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	PROC 139 163	terapia de primera línea
+#4	AnnotatorNotes T5	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T6	DISO 192 195	CHC
+#5	AnnotatorNotes T6	C2239176; Liver carcinoma; Neoplastic Process
+T7	PROC 228 276	Estudio aleatorizado, multicéntrico, de fase III
+T8	CHEM 280 289	nivolumab
+#6	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	CHEM 309 319	ipilimumab
+#7	AnnotatorNotes T9	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	CHEM 352 361	sorafenib
+#8	AnnotatorNotes T10	C1516119; sorafenib; Organic Chemical · Pharmacologic Substance
+T11	PROC 367 395	tratamiento de primera línea
+#9	AnnotatorNotes T11	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T12	DISO 417 440	carcinoma hepatocelular
+#10	AnnotatorNotes T12	C2239176; Liver carcinoma; Neoplastic Process
+T13	DISO 473 479	Cáncer
+#11	AnnotatorNotes T13	C0006826; Malignant Neoplasms; Neoplastic Process
+T14	DISO 506 529	Carcinoma hepatocelular
+#12	AnnotatorNotes T14	C2239176; Liver carcinoma; Neoplastic Process
+T15	PROC 591 602	diagnóstico
+#13	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 606 609	CHC
+#14	AnnotatorNotes T16	C2239176; Liver carcinoma; Neoplastic Process
+T17	DISO 680 683	CHC
+#15	AnnotatorNotes T17	C2239176; Liver carcinoma; Neoplastic Process
+T18	DISO 738 752	lesión medible
+T19	PROC 799 809	evaluación
+#16	AnnotatorNotes T19	C1261322; Evaluation procedure; Health Care Activity
+T20	DISO 829 844	tumores sólidos
+#17	AnnotatorNotes T20	C0280100; Solid Neoplasm; Neoplastic Process
+T21	DISO 1112 1128	CHC sarcomatoide
+#18	AnnotatorNotes T21	C1710014; Sarcomatoid Hepatocellular Carcinoma; Neoplastic Process
+T22	DISO 1094 1110	CHC fibrolamelar
+#19	AnnotatorNotes T22	C0334287; Fibrolamellar Hepatocellular Carcinoma; Neoplastic Process
+T23	DISO 1131 1154	colangiocarcinoma mixto
+T24	DISO 1157 1160	CHC
+#20	AnnotatorNotes T24	C2239176; Liver carcinoma; Neoplastic Process
+T25	PROC 1173 1193	Trasplante de hígado
+#21	AnnotatorNotes T25	C0023911; Transplantation of liver; Therapeutic or Preventive Procedure
+T26	ANAT 1187 1193	hígado
+#22	AnnotatorNotes T26	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T27	DISO 1216 1238	encefalopatía hepática
+#23	AnnotatorNotes T27	C0019151; Hepatic Encephalopathy; Disease or Syndrome
+T28	ANAT 1230 1238	hepática
+#24	AnnotatorNotes T28	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T29	PROC 1305 1319	aleatorización
+#25	AnnotatorNotes T29	C0034656; Randomization; Research Activity
+T30	DISO 1322 1360	Metástasis cerebrales o leptomeníngeas
+T31	ANAT 1333 1343	cerebrales
+#26	AnnotatorNotes T31	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T32	ANAT 1346 1360	leptomeníngeas
+#27	AnnotatorNotes T32	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T33	PROC 1431 1440	protocolo
+#28	AnnotatorNotes T33	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T34	ANAT 516 529	hepatocelular
+#29	AnnotatorNotes T34	C0227525; Hepatocyte; Cell
+T35	ANAT 427 440	hepatocelular
+#30	AnnotatorNotes T35	C0227525; Hepatocyte; Cell
+T36	CHEM 339 349	lenvatinib
+#31	AnnotatorNotes T36	C2986924; lenvatinib; Organic Chemical · Pharmacologic Substance
+T37	Date 13 17	2019
+T39	Neg_cue 753 755	no
+T41	Duration 1276 1288	los 12 meses
+T38	PROC 918 928	Child-Pugh
+#32	AnnotatorNotes T38	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+T40	LIVB 399 412	participantes
+#33	AnnotatorNotes T40	C4554048; Study Participant; Population Group
+T42	LIVB 174 187	participantes
+#34	AnnotatorNotes T42	C4554048; Study Participant; Population Group
+T43	LIVB 562 575	participantes
+#35	AnnotatorNotes T43	C4554048; Study Participant; Population Group
+T44	LIVB 654 667	participantes
+#36	AnnotatorNotes T44	C4554048; Study Participant; Population Group
+T45	LIVB 699 712	participantes
+#37	AnnotatorNotes T45	C4554048; Study Participant; Population Group
+T46	PROC 941 957	Estado funcional
+#38	AnnotatorNotes T46	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T47	PROC 623 647	confirmación histológica
+#39	AnnotatorNotes T47	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T1 Negated
+A2	Status T1 History_of
+A4	Status T25 History_of
+A3	Status T22 History_of
+A5	Status T21 History_of
+A6	Status T23 History_of
+A7	Status T24 History_of
+#40	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#41	AnnotatorNotes T7	C1096776; Multicenter Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity + C0282461; Phase 3 Clinical Trials; Research Activity
+#42	AnnotatorNotes T18	C5238366; Measurable Lesion; Finding 
+T48	Spec_cue 1370 1376	Pueden
+T49	Quantifier_or_Qualifier 1385 1390	otros
+A8	Assertion T49 Speculated
+T50	CONC 1391 1413	criterios de inclusion
+A9	Assertion T50 Speculated
+#43	AnnotatorNotes T50	C1512693; Inclusion Criteria; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T49	
+T51	CONC 1415 1424	exclusion
+A10	Assertion T51 Speculated
+#44	AnnotatorNotes T51	C0680251; Exclusion Criteria; Functional Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T49	
+R3	Speculation Arg1:T48 Arg2:T49	
+R4	Speculation Arg1:T48 Arg2:T50	
+R5	Speculation Arg1:T48 Arg2:T51	
+R6	Combined_with Arg1:T3 Arg2:T4	
+R7	Used_for Arg1:T3 Arg2:T5	
+R8	Experiences Arg1:T42 Arg2:T3	
+R9	Experiences Arg1:T42 Arg2:T6	
+T52	Quantifier_or_Qualifier 196 204	avanzado
+#45	AnnotatorNotes T52	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T52	
+T53	Quantifier_or_Qualifier 441 449	avanzado
+#46	AnnotatorNotes T53	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T53	
+R12	Location_of Arg1:T35 Arg2:T12	
+R13	Experiences Arg1:T40 Arg2:T12	
+R14	Combined_with Arg1:T8 Arg2:T9	
+R15	Experiences Arg1:T40 Arg2:T8	
+R16	Used_for Arg1:T8 Arg2:T11	
+R17	Used_for Arg1:T36 Arg2:T11	
+R18	Used_for Arg1:T10 Arg2:T11	
+R19	Experiences Arg1:T40 Arg2:T36	
+R20	Experiences Arg1:T40 Arg2:T10	
+R21	Location_of Arg1:T34 Arg2:T14	
+R22	Experiences Arg1:T43 Arg2:T16	
+R24	Before Arg1:T47 Arg2:T15	
+R25	Experiences Arg1:T43 Arg2:T47	
+R26	Experiences Arg1:T44 Arg2:T17	
+T54	Quantifier_or_Qualifier 684 692	avanzado
+#47	AnnotatorNotes T54	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T54	
+T55	Quantifier_or_Qualifier 725 737	al menos una
+R28	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T55	
+R29	Experiences Arg1:T45 Arg2:T18	
+R30	Negation Arg1:T39 Arg2:T1	
+R31	Experiences Arg1:T45 Arg2:T1	
+T56	CONC 786 844	Criterios de evaluación de la respuesta en tumores sólidos
+#48	AnnotatorNotes T56	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product
+T57	CONC 892 898	RECIST
+#49	AnnotatorNotes T57	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product)
+T58	CONC 846 890	Response Evaluation Criteria in Solid Tumors
+#50	AnnotatorNotes T58	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product)
+T59	Result_or_Value 932 937	5 o 6
+R35	Has_Result_or_Value Arg1:T38 Arg2:T59	
+R32	Experiences Arg1:T45 Arg2:T20	
+R33	Experiences Arg1:T45 Arg2:T19	
+T60	Result_or_Value 1059 1064	0 o 1
+R34	Has_Result_or_Value Arg1:T46 Arg2:T60	
+T61	CONC 967 1012	Grupo Oncológico Cooperativo de la Costa Este
+#51	AnnotatorNotes T61	C1520224; ECOG performance status; Intellectual Product
+T62	CONC 1014 1048	Eastern Cooperative Oncology Group
+#52	AnnotatorNotes T62	C1520224; ECOG performance status; Intellectual Product
+T63	CONC 1050 1054	ECOG
+#53	AnnotatorNotes T63	C1520224; ECOG performance status; Intellectual Product
+R36	Used_for Arg1:T61 Arg2:T46	
+R37	Used_for Arg1:T63 Arg2:T46	
+R38	Used_for Arg1:T62 Arg2:T46	
+R39	Location_of Arg1:T26 Arg2:T25	
+R40	Location_of Arg1:T28 Arg2:T27	
+T64	Result_or_Value 1240 1271	superior o igual a [>=] grado 2
+R41	Has_Result_or_Value Arg1:T27 Arg2:T64	
+R42	Overlap Arg1:T27 Arg2:T41	
+R43	Before Arg1:T27 Arg2:T29	
+R44	Location_of Arg1:T32 Arg2:T30	
+R45	Location_of Arg1:T31 Arg2:T30	
+T65	Quantifier_or_Qualifier 1361 1368	activas
+#54	AnnotatorNotes T65	C0679217; Active State; Idea or Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T65	
+#55	AnnotatorNotes T49	C0205394; Other; Qualitative Concept
+#56	AnnotatorNotes T30	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C1704231; Metastatic Malignant Neoplasm to the Leptomeninges; Neoplastic Process
+A11	Experiencer T42 Patient
+A12	Experiencer T40 Patient
+A13	Experiencer T43 Patient
+A14	Experiencer T44 Patient
+A15	Experiencer T45 Patient

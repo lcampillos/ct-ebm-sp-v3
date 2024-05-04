@@ -1,0 +1,105 @@
+T1	Date 13 17	2012
+T2	Date 97 110	a largo plazo
+T3	LIVB 144 149	niños
+#1	AnnotatorNotes T3	C0008059; Child; Age Group
+T5	Date 278 291	a largo plazo
+T6	LIVB 295 304	pacientes
+#2	AnnotatorNotes T6	C0030705; Patients; Patient or Disabled Group
+T7	Spec_cue 432 446	potencialmente
+T8	LIVB 496 501	niños
+#3	AnnotatorNotes T8	C0008059; Child; Age Group
+T9	LIVB 713 721	paciente
+#4	AnnotatorNotes T9	C0030705; Patients; Patient or Disabled Group
+T10	Dose 739 755	mínimo una dosis
+T11	LIVB 774 782	paciente
+#5	AnnotatorNotes T11	C0030705; Patients; Patient or Disabled Group
+T12	LIVB 788 807	representante legal
+#6	AnnotatorNotes T12	C4288823; Legal Representative for the Study; Human
+T13	LIVB 903 912	pacientes
+#7	AnnotatorNotes T13	C0030705; Patients; Patient or Disabled Group
+T14	LIVB 954 962	paciente
+#8	AnnotatorNotes T14	C0030705; Patients; Patient or Disabled Group
+T15	Duration 1033 1040	6 meses
+T16	CONC 1055 1067	última dosis
+T20	PROC 62 96	investigar la seguridad y eficacia
+T21	CHEM 123 130	fármaco
+#9	AnnotatorNotes T21	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T22	DISO 158 168	enfermedad
+#10	AnnotatorNotes T22	C0012634; Disease; Disease or Syndrome
+T23	DISO 183 216	Linfohistiocitosis hemofagocítico
+#11	AnnotatorNotes T23	C0024291; Lymphohistiocytosis, Hemophagocytic; Disease or Syndrome
+T24	PROC 241 291	Estudio multicéntrico de seguimiento a largo plazo
+T25	DISO 309 312	LHH
+#12	AnnotatorNotes T25	C0024291; Lymphohistiocytosis, Hemophagocytic; Disease or Syndrome
+T26	PROC 330 341	tratamiento
+#13	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	CHEM 358 401	anticuerpo monoclonal anti-interferón gamma
+T28	CHEM 346 353	NI-0501
+#14	AnnotatorNotes T28	C4740904; emapalumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T29	DISO 447 464	enfermedad mortal
+T30	DISO 506 516	enfermedad
+#15	AnnotatorNotes T30	C0012634; Disease; Disease or Syndrome
+T31	DISO 552 569	hiper-inflamación
+#16	AnnotatorNotes T31	C4014463; Hyperinflammatory state; Finding
+T32	CHEM 759 766	NI-0501
+#17	AnnotatorNotes T32	C4740904; emapalumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T33	DISO 647 680	Linfohistiocitosis hemofagocítica
+#18	AnnotatorNotes T33	C0024291; Lymphohistiocytosis, Hemophagocytic; Disease or Syndrome
+T34	PROC 1003 1026	métodos anticonceptivos
+#19	AnnotatorNotes T34	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T35	PROC 838 862	consentimiento informado
+#20	AnnotatorNotes T35	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T36	DISO 594 620	deficiencias inmunológicas
+T37	CHEM 1084 1091	NI-0501
+#21	AnnotatorNotes T37	C4740904; emapalumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T38	CHEM 132 139	NI-0501
+#22	AnnotatorNotes T38	C4740904; emapalumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+A1	Population_data T3 Age
+A2	Assertion T29 Speculated
+A3	Population_data T8 Age
+#23	AnnotatorNotes T20	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#24	AnnotatorNotes T24	C1096776; Multicenter Study; Research Activity + C0016441; Follow-Up Studies; Research Activity 
+#25	AnnotatorNotes T29	C0679247; Terminal illness; Disease or Syndrome
+R1	Overlap Arg1:T20 Arg2:T2	
+R2	Experiences Arg1:T3 Arg2:T21	
+R3	Experiences Arg1:T3 Arg2:T38	
+R4	Experiences Arg1:T3 Arg2:T22	
+R5	Experiences Arg1:T3 Arg2:T23	
+R6	Experiences Arg1:T6 Arg2:T25	
+R7	Experiences Arg1:T6 Arg2:T26	
+R8	Used_for Arg1:T28 Arg2:T26	
+R9	Experiences Arg1:T6 Arg2:T27	
+R10	Overlap Arg1:T24 Arg2:T5	
+R11	Speculation Arg1:T7 Arg2:T29	
+T4	Quantifier_or_Qualifier 425 429	Rara
+#26	AnnotatorNotes T4	C0521114; Infrequent; Temporal Concept | C0522498; Rare; Qualitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T4	
+R13	Experiences Arg1:T8 Arg2:T29	
+R14	Causes Arg1:T30 Arg2:T31	
+R15	Overlap Arg1:T30 Arg2:T36	
+R16	Experiences Arg1:T9 Arg2:T32	
+R17	Has_Dose_or_Strength Arg1:T32 Arg2:T10	
+T17	Observation 883 895	asentimiento
+#27	AnnotatorNotes T17	C1302239; Patient consented to clinical trial; Finding (?)
+R18	Overlap Arg1:T35 Arg2:T17	
+R19	Experiences Arg1:T13 Arg2:T17	
+T18	CONC 917 932	capacidad legal
+#28	AnnotatorNotes T18	C0683673; legal capacity; Qualitative Concept
+R20	Experiences Arg1:T14 Arg2:T34	
+R21	Has_Duration_or_Interval Arg1:T34 Arg2:T15	
+R22	After Arg1:T34 Arg2:T16	
+R23	Has_Dose_or_Strength Arg1:T37 Arg2:T16	
+#29	AnnotatorNotes T36	C0021051; Immunologic Deficiency Syndromes; Disease or Syndrome (?)
+#30	AnnotatorNotes R23	(?)
+#31	AnnotatorNotes T16	C1762893; Date last dose; Temporal Concept
+#32	AnnotatorNotes T2	C0443252; Long-term; Temporal Concept
+#33	AnnotatorNotes T5	C0443252; Long-term; Temporal Concept
+#34	AnnotatorNotes T27	C4740904; emapalumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance (?)
+A4	Experiencer T11 Patient
+A5	Experiencer T12 Other
+A6	Experiencer T13 Patient
+A7	Experiencer T14 Patient
+A8	Experiencer T3 Patient
+A9	Experiencer T6 Patient
+A10	Experiencer T8 Patient
+A11	Experiencer T9 Patient

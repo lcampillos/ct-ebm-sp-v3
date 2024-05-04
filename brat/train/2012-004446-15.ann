@@ -1,0 +1,124 @@
+T1	PROC 68 75	lavados
+#1	AnnotatorNotes T1	C0022100; Irrigation; Therapeutic or Preventive Procedure
+T2	PROC 292 312	Cierre de ileostomía
+#2	AnnotatorNotes T2	C0192775; Closure of ileostomy; Therapeutic or Preventive Procedure
+T3	PROC 115 135	cierre de ileostomía
+#3	AnnotatorNotes T3	C0192775; Closure of ileostomy; Therapeutic or Preventive Procedure
+T4	PROC 158 190	Estudio prospectivo aleatorizado
+#4	AnnotatorNotes T4	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T5	PROC 201 223	irrigaciones colónicas
+#5	AnnotatorNotes T5	C0400138; Irrigation of colon; Therapeutic or Preventive Procedure
+T6	CHEM 228 236	butirato
+#6	AnnotatorNotes T6	C0220802; butyrate; Organic Chemical
+T7	PROC 248 268	cierre de ileostomía
+#7	AnnotatorNotes T7	C0192775; Closure of ileostomy; Therapeutic or Preventive Procedure
+T8	PROC 339 359	cierre de ileostomía
+#8	AnnotatorNotes T8	C0192775; Closure of ileostomy; Therapeutic or Preventive Procedure
+T9	ANAT 492 502	ileostomía
+T10	PROC 571 582	rectoscopia
+#9	AnnotatorNotes T10	C0033251; Proctoscopy; Diagnostic Procedure
+T11	PROC 594 599	enema
+#10	AnnotatorNotes T11	C0203075; Barium Enema; Diagnostic Procedure
+T12	PROC 619 649	cierre seguro de la ileostomía
+T13	DISO 699 718	Reservorios ileales
+#11	AnnotatorNotes T13	C0086447; Ileal Pouches; Acquired Abnormality
+T14	DISO 722 756	Enfermedad inflamatoria intestinal
+#12	AnnotatorNotes T14	C0021390; Inflammatory Bowel Diseases; Disease or Syndrome
+T15	PROC 765 773	cirugías
+#13	AnnotatorNotes T15	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T16	PROC 796 811	acto quirúrgico
+#14	AnnotatorNotes T16	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T17	PROC 818 834	cirugía hepática
+T18	PROC 837 863	cirugía de pared abdominal
+T19	ANAT 848 863	pared abdominal
+#15	AnnotatorNotes T19	C1269041; Entire abdominal wall; Body Part, Organ, or Organ Component + C0836916; Abdominal wall; Body Part, Organ, or Organ Component
+T20	PROC 882 909	reparación de eventraciones
+T21	PROC 80 92	irrigaciones
+#16	AnnotatorNotes T21	C0022100; Irrigation; Therapeutic or Preventive Procedure
+T22	CHEM 96 104	butirato
+#17	AnnotatorNotes T22	C0220802; butyrate; Organic Chemical
+T23	ANAT 214 223	colónicas
+#18	AnnotatorNotes T23	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T24	PROC 591 593	TC
+#19	AnnotatorNotes T24	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T25	ANAT 711 718	ileales
+#20	AnnotatorNotes T25	C0020885; ileum; Body Part, Organ, or Organ Component | C1278923; Entire ileum; Body Part, Organ, or Organ Component
+T26	ANAT 746 756	intestinal
+#21	AnnotatorNotes T26	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T27	ANAT 826 834	hepática
+#22	AnnotatorNotes T27	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T28	DISO 896 909	eventraciones
+#23	AnnotatorNotes T28	C0015207; Eventration; Anatomical Abnormality
+T29	Date 13 17	2012
+T30	LIVB 414 423	pacientes
+#24	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Age 424 442	mayores de 18 años
+T32	Date 550 564	preoperatorios
+#25	AnnotatorNotes T32	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T33	Neg_cue 604 606	no
+T34	Neg_cue 864 878	a excepción de
+T35	Age 927 943	Menos de 18 años
+A1	Assertion T20 Negated
+A2	Assertion T12 Negated
+#26	AnnotatorNotes T17	C0193373; Operation on liver; Therapeutic or Preventive Procedure 
+R1	Used_for Arg1:T22 Arg2:T21	
+R2	Before Arg1:T1 Arg2:T3	
+R3	Before Arg1:T21 Arg2:T1	
+R4	Before Arg1:T5 Arg2:T7	
+R5	Location_of Arg1:T23 Arg2:T5	
+R6	Used_for Arg1:T6 Arg2:T5	
+R7	Has_Age Arg1:T30 Arg2:T31	
+T36	Quantifier_or_Qualifier 470 487	de forma electiva
+#27	AnnotatorNotes T36	C0439608; elective; Temporal Concept
+T37	PROC 463 469;488 502	cerrar una ileostomía
+#28	AnnotatorNotes T37	C0192775; Closure of ileostomy; Therapeutic or Preventive Procedure
+R8	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T36	
+#29	AnnotatorNotes T9	C1550267; Body Parts - Ileostomy; Body Part, Organ, or Organ Component
+T38	ANAT 125 135	ileostomía
+#30	AnnotatorNotes T38	C1550267; Body Parts - Ileostomy; Body Part, Organ, or Organ Component
+R9	Location_of Arg1:T38 Arg2:T3	
+T39	ANAT 258 268	ileostomía
+#31	AnnotatorNotes T39	C1550267; Body Parts - Ileostomy; Body Part, Organ, or Organ Component
+R10	Location_of Arg1:T39 Arg2:T7	
+T40	ANAT 302 312	ileostomía
+#32	AnnotatorNotes T40	C1550267; Body Parts - Ileostomy; Body Part, Organ, or Organ Component
+R11	Location_of Arg1:T40 Arg2:T2	
+T41	ANAT 349 359	ileostomía
+#33	AnnotatorNotes T41	C1550267; Body Parts - Ileostomy; Body Part, Organ, or Organ Component
+R12	Location_of Arg1:T41 Arg2:T8	
+T42	ANAT 639 649	ileostomía
+#34	AnnotatorNotes T42	C1550267; Body Parts - Ileostomy; Body Part, Organ, or Organ Component
+R13	Location_of Arg1:T42 Arg2:T12	
+R14	Location_of Arg1:T27 Arg2:T17	
+R15	Location_of Arg1:T19 Arg2:T18	
+R16	Negation Arg1:T33 Arg2:T12	
+R17	Negation Arg1:T34 Arg2:T20	
+R18	Combined_with Arg1:T16 Arg2:T17	
+R19	Combined_with Arg1:T15 Arg2:T16	
+R20	Combined_with Arg1:T16 Arg2:T18	
+T43	Quantifier_or_Qualifier 910 924	periileostomía
+R22	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T43	
+R23	Location_of Arg1:T25 Arg2:T13	
+R24	Location_of Arg1:T26 Arg2:T14	
+T44	Observation 540 549	Hallazgos
+#35	AnnotatorNotes T44	C0243095; Finding; Finding
+R25	Overlap Arg1:T44 Arg2:T32	
+R29	Before Arg1:T44 Arg2:T12	
+T45	Observation 668 696	mal cumplimiento terapeutico
+#36	AnnotatorNotes T45	C0184543; Noncompliance with therapeutic regimen; Finding (?)
+T46	Observation 58 64	efecto
+#37	AnnotatorNotes T46	C1518681; Outcome of Therapy; Finding (?)
+R30	Causes Arg1:T1 Arg2:T46	
+R31	Experiences Arg1:T30 Arg2:T37	
+T47	Quantifier_or_Qualifier 503 510	lateral
+#38	AnnotatorNotes T47	C0205093; Lateral; Spatial Concept 
+R32	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T47	
+R33	Location_of Arg1:T9 Arg2:T37	
+R34	Combined_with Arg1:T24 Arg2:T11	
+R26	Before Arg1:T10 Arg2:T12	
+R27	Before Arg1:T24 Arg2:T12	
+R28	Before Arg1:T11 Arg2:T12	
+#39	AnnotatorNotes T18	C5763354; abdominal wall surgery; Therapeutic or Preventive Procedure
+#40	AnnotatorNotes T20	C3495848; Eventration repair; Therapeutic or Preventive Procedure
+A3	Experiencer T30 Patient
+A4	Status T45 Future

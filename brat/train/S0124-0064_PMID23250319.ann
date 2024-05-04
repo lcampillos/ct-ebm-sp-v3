@@ -1,0 +1,228 @@
+T1	PROC 416 437	oxígeno suplementario
+#1	AnnotatorNotes T1	C0919655; Oxygen supplementation; Therapeutic or Preventive Procedure
+T2	DISO 55 65	prematuros
+#2	AnnotatorNotes T2	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T3	CHEM 84 91	oxígeno
+#3	AnnotatorNotes T3	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T4	PROC 84 104	oxígeno domiciliario
+#4	AnnotatorNotes T4	C1960973; Home oxygen therapy; Therapeutic or Preventive Procedure
+T5	DISO 201 211	prematuros
+#5	AnnotatorNotes T5	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T6	CHEM 230 237	oxígeno
+#6	AnnotatorNotes T6	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T7	DISO 308 318	prematuros
+#7	AnnotatorNotes T7	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T8	CHEM 416 423	oxígeno
+#8	AnnotatorNotes T8	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T9	PROC 859 872	antropometría
+#9	AnnotatorNotes T9	C0003188; Anthropometry; Research Activity
+T10	ANAT 923 931	craneano
+#10	AnnotatorNotes T10	C0037303; Bone structure of cranium; Body Part, Organ, or Organ Component | C1279062; Entire cranium; Body Part, Organ, or Organ Component
+T11	CHEM 1014 1021	oxígeno
+#11	AnnotatorNotes T11	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T12	PROC 1127 1136	reingreso
+#12	AnnotatorNotes T12	C0600290; Hospital Readmissions; Health Care Activity
+T13	DISO 1148 1172	patologías respiratorias
+#13	AnnotatorNotes T13	C0035204; Respiration Disorders; Disease or Syndrome
+T14	DISO 1194 1205	retinopatía
+#14	AnnotatorNotes T14	C0035309; Retinal Diseases; Disease or Syndrome
+T15	DISO 1242 1270	retinopatía de la prematurez
+#15	AnnotatorNotes T15	C0035344; Retinopathy of Prematurity; Disease or Syndrome
+T16	DISO 1272 1275	ROP
+#16	AnnotatorNotes T16	C0035344; Retinopathy of Prematurity; Disease or Syndrome
+T17	PROC 1292 1300	cirugías
+#17	AnnotatorNotes T17	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T18	DISO 1310 1315	ciego
+#18	AnnotatorNotes T18	C0456909; Blindness; Disease or Syndrome
+T19	DISO 1412 1439	alteración neuropsicomotriz
+T20	CHEM 1526 1533	oxígeno
+#19	AnnotatorNotes T20	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T21	PROC 1580 1591	seguimiento
+#20	AnnotatorNotes T21	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T22	PROC 230 250	oxígeno domiciliario
+#21	AnnotatorNotes T22	C1960973; Home oxygen therapy; Therapeutic or Preventive Procedure
+T23	PROC 1721 1732	seguimiento
+#22	AnnotatorNotes T23	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T24	PROC 489 513	determinar supervivencia
+#23	AnnotatorNotes T24	C0038953; Survival Analysis; Research Activity
+T25	DISO 668 675	muertes
+#24	AnnotatorNotes T25	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T26	PROC 1320 1356	tamizado neuropsicomotor y sensorial
+T27	DISO 595 613	oxigenodependencia
+#25	AnnotatorNotes T27	C2363337; Encounter due to dependence on supplemental oxygen; Finding
+T28	DISO 1526 1546	oxígeno-dependientes
+#26	AnnotatorNotes T28	C2363337; Encounter due to dependence on supplemental oxygen; Finding
+T29	DISO 1631 1650	oxigenodependientes
+#27	AnnotatorNotes T29	C2363337; Encounter due to dependence on supplemental oxygen; Finding
+T30	PROC 1554 1567	dados de alta
+#28	AnnotatorNotes T30	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T31	PROC 66 79	dados de alta
+#29	AnnotatorNotes T31	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T32	PROC 212 225	dados de alta
+#30	AnnotatorNotes T32	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T33	PROC 376 385	egresados
+#31	AnnotatorNotes T33	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T34	Duration 30 36	un año
+T35	LIVB 44 65	cohorte de prematuros
+#32	AnnotatorNotes T35	C0599755; Cohort; Population Group; Cohort; Population Group + C4048294; Preterm Infant; Age Group
+T37	LIVB 281 288	Cohorte
+#33	AnnotatorNotes T37	C0599755; Cohort; Population Group
+T39	PHYS 369 374	nacer
+#34	AnnotatorNotes T39	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T41	Age 475 483	12 meses
+T42	PHYS 515 526	crecimiento
+#35	AnnotatorNotes T42	C0018270; Growth; Organism Function
+T43	LIVB 569 574	niños
+#36	AnnotatorNotes T43	C0008059; Child; Age Group
+T44	Age 703 713	40 semanas
+T46	LIVB 740 749	pacientes
+#37	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Age 777 785	12 meses
+T48	PHYS 790 807	lactancia materna
+#38	AnnotatorNotes T48	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T49	LIVB 836 841	niños
+#39	AnnotatorNotes T49	C0008059; Child; Age Group
+T50	Age 844 854	40 semanas
+T51	Duration 876 879	año
+T55	Duration 943 957	las 40 semanas
+T56	Duration 962 969	3 meses
+T57	LIVB 992 999	cohorte
+#40	AnnotatorNotes T57	C0599755; Cohort; Population Group
+T58	LIVB 1104 1109	niños
+#41	AnnotatorNotes T58	C0008059; Child; Age Group
+T60	LIVB 1305 1309	niño
+#42	AnnotatorNotes T60	C0008059; Child; Age Group
+T62	LIVB 1520 1525	niños
+#43	AnnotatorNotes T62	C0008059; Child; Age Group
+T64	LIVB 1625 1630	niños
+#44	AnnotatorNotes T64	C0008059; Child; Age Group
+T66	LIVB 184 211	cohorte de niños prematuros
+#45	AnnotatorNotes T66	C0599755; Cohort; Population Group; Cohort; Population Group + C4048294; Preterm Infant; Age Group
+T68	ANAT 1159 1172	respiratorias
+#46	AnnotatorNotes T68	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T69	Duration 322 340	34 o menos semanas
+T38	Duration 1062 1085	los109 días postnatales
+T40	PHYS 349 360	gestacional
+#47	AnnotatorNotes T40	C0032961; Pregnancy; Organism Function
+T45	PROC 344 360	edad gestacional
+#48	AnnotatorNotes T45	C4040272; Assessment of fetal gestational age; Health Care Activity
+T52	PROC 899 904	talla
+#49	AnnotatorNotes T52	C0204658; Measuring height of patient; Diagnostic Procedure
+T53	PROC 885 889	peso
+#50	AnnotatorNotes T53	C2985231; Body Weight Measurement; Diagnostic Procedure
+T36	LIVB 800 807	materna
+#51	AnnotatorNotes T36	C0026591; Mother (person); Family Group
+A1	Population_data T66 Age
+A2	Population_data T49 Age
+A3	Population_data T58 Age
+A4	Population_data T60 Age
+A5	Population_data T62 Age
+A7	Population_data T64 Age
+T54	Neg_cue 1568 1571	sin
+T59	CONC 1572 1591	plan de seguimiento
+A6	Assertion T59 Negated
+R1	Negation Arg1:T54 Arg2:T59	
+T61	Quantifier_or_Qualifier 1592 1604	estructurado
+R2	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T61	
+R3	Experiences Arg1:T35 Arg2:T2	
+R4	Experiences Arg1:T35 Arg2:T4	
+R5	Used_for Arg1:T3 Arg2:T4	
+T63	CONC 1 14	Curso clínico
+#52	AnnotatorNotes T63	C0449259; Clinical course; Temporal Concept
+T65	CONC 17 27	pronóstico
+#53	AnnotatorNotes T65	C0016538; Projections and Predictions; Intellectual Product (?)
+R6	Overlap Arg1:T65 Arg2:T34	
+R7	Overlap Arg1:T63 Arg2:T34	
+R8	Before Arg1:T31 Arg2:T34	
+R9	Before Arg1:T31 Arg2:T4	
+T67	CONC 166 176	pronóstico
+#54	AnnotatorNotes T67	C0016538; Projections and Predictions; Intellectual Product (?)
+T70	CONC 150 163	curso clínico
+#55	AnnotatorNotes T70	C0449259; Clinical course; Temporal Concept
+R10	Experiences Arg1:T66 Arg2:T5	
+R11	Before Arg1:T32 Arg2:T22	
+R12	Used_for Arg1:T6 Arg2:T22	
+R13	Experiences Arg1:T66 Arg2:T22	
+R16	Before Arg1:T31 Arg2:T63	
+R17	Before Arg1:T32 Arg2:T70	
+T71	Quantifier_or_Qualifier 289 300	prospectiva
+R18	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T71	
+R19	Experiences Arg1:T37 Arg2:T7	
+R20	Has_Duration_or_Interval Arg1:T40 Arg2:T69	
+R21	Overlap Arg1:T45 Arg2:T39	
+R22	Experiences Arg1:T37 Arg2:T45	
+R23	Experiences Arg1:T37 Arg2:T39	
+R24	Before Arg1:T45 Arg2:T33	
+R26	Before Arg1:T33 Arg2:T1	
+R27	Used_for Arg1:T8 Arg2:T1	
+R28	Experiences Arg1:T37 Arg2:T1	
+R29	Experiences Arg1:T37 Arg2:T42	
+T72	CONC 528 538	desarrollo
+#56	AnnotatorNotes T72	C0449259; Clinical course; Temporal Concept (?)
+T73	Observation 541 551	morbilidad
+#57	AnnotatorNotes T73	C0026538; Morbidity - disease rate; Finding
+R30	Experiences Arg1:T37 Arg2:T73	
+T74	PROC 439 447	seguidos
+#58	AnnotatorNotes T74	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+R31	Has_Age Arg1:T37 Arg2:T41	
+R32	Before Arg1:T74 Arg2:T41	
+R33	Before Arg1:T33 Arg2:T74	
+R34	Experiences Arg1:T43 Arg2:T27	
+T75	Quantifier_or_Qualifier 614 618	leve
+R35	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T75	
+T76	Quantifier_or_Qualifier 634 649	moderada-severa
+#59	AnnotatorNotes T76	C1299393; Moderate to severe; Qualitative Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T76	
+R37	Experiences Arg1:T46 Arg2:T25	
+R38	Has_Age Arg1:T46 Arg2:T44	
+R39	Has_Age Arg1:T46 Arg2:T47	
+R40	Experiences Arg1:T36 Arg2:T48	
+R41	Has_Age Arg1:T49 Arg2:T50	
+R42	Overlap Arg1:T9 Arg2:T51	
+R45	Overlap Arg1:T53 Arg2:T51	
+R46	Overlap Arg1:T52 Arg2:T51	
+T77	PROC 913 931	perimetro craneano
+#60	AnnotatorNotes T77	C0547796; Measuring head circumference; Health Care Activity
+R47	Overlap Arg1:T77 Arg2:T51	
+R48	Location_of Arg1:T10 Arg2:T77	
+R50	Has_Duration_or_Interval Arg1:T11 Arg2:T55	
+R51	Has_Duration_or_Interval Arg1:T11 Arg2:T56	
+R52	Experiences Arg1:T57 Arg2:T11	
+T78	PROC 1014 1021;1034 1047	oxígeno descontinuado
+#61	AnnotatorNotes T78	C0520253; Procedure discontinued; Health Care Activity (?)
+R53	Overlap Arg1:T78 Arg2:T38	
+R54	Used_for Arg1:T11 Arg2:T78	
+R55	Experiences Arg1:T57 Arg2:T78	
+T79	Quantifier_or_Qualifier 1115 1126	al menos un
+R56	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T79	
+R57	Experiences Arg1:T58 Arg2:T13	
+R58	Location_of Arg1:T68 Arg2:T13	
+R60	Experiences Arg1:T60 Arg2:T14	
+R61	Experiences Arg1:T60 Arg2:T15	
+R62	Experiences Arg1:T60 Arg2:T16	
+R63	Experiences Arg1:T60 Arg2:T17	
+R64	Experiences Arg1:T60 Arg2:T18	
+T80	Quantifier_or_Qualifier 1449 1459	refractiva
+T81	Quantifier_or_Qualifier 1470 1478	auditiva
+R66	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T80	
+R67	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T81	
+R68	Causes Arg1:T20 Arg2:T28	
+R69	Experiences Arg1:T62 Arg2:T20	
+R70	Experiences Arg1:T62 Arg2:T28	
+R72	Before Arg1:T30 Arg2:T21	
+R73	Experiences Arg1:T64 Arg2:T29	
+A8	Population_data T35 Age
+#62	AnnotatorNotes T75	C2945599; Mild (qualifier value); Qualitative Concept
+A9	Experiencer T64 Patient
+A10	Experiencer T62 Patient
+A11	Experiencer T35 Patient
+A12	Experiencer T66 Patient
+A13	Experiencer T37 Patient
+A14	Experiencer T43 Patient
+A15	Population_data T43 Age
+A16	Experiencer T46 Patient
+A17	Experiencer T49 Patient
+A18	Experiencer T36 Family_member
+A19	Experiencer T57 Patient
+A20	Experiencer T58 Patient
+A21	Experiencer T60 Patient

@@ -1,0 +1,108 @@
+T1	PROC 46 97	Estudio de evaluación de la seguridad y la eficacia
+T2	CHEM 114 134	pegunigalsidasa alfa
+#1	AnnotatorNotes T2	C5139798; Pegunigalsidase alfa; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+T3	DISO 152 171	enfermedad de Fabry
+#2	AnnotatorNotes T3	C0002986; Fabry Disease; Disease or Syndrome
+T4	PROC 194 222	Estudio de extensión abierto
+T5	PROC 228 262	evaluar la seguridad y la eficacia
+#3	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T6	DISO 331 350	enfermedad de Fabry
+#4	AnnotatorNotes T6	C0002986; Fabry Disease; Disease or Syndrome
+T7	DISO 374 393	Enfermedad de Fabry
+#5	AnnotatorNotes T7	C0002986; Fabry Disease; Disease or Syndrome
+T8	CHEM 406 424	alfa-galactosidasa
+#6	AnnotatorNotes T8	C0002268; alpha-D-galactosidase enzyme; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+T9	CHEM 136 143	PRX-102
+T10	PROC 653 674	método anticonceptivo
+#7	AnnotatorNotes T10	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T11	PROC 528 552	consentimiento informado
+#8	AnnotatorNotes T11	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T12	PROC 771 794	métodos anticonceptivos
+#9	AnnotatorNotes T12	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T13	DISO 1039 1091	problema médico, emocional, conductual o psicológico
+T14	CHEM 815 835	productos hormonales
+#10	AnnotatorNotes T14	C0019932; Hormones; Hormone
+T15	PROC 902 916	anticoncepción
+#11	AnnotatorNotes T15	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T16	PROC 974 985	tratamiento
+#12	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	CHEM 302 309	PRX-102
+T18	DISO 395 424	déficit de alfa-galactosidasa
+T19	PROC 749 765	método del ritmo
+#13	AnnotatorNotes T19	C0035513; Rhythm method of contraception; Therapeutic or Preventive Procedure
+T21	CHEM 280 300	pegunigalsidasa alfa
+#14	AnnotatorNotes T21	C5139798; Pegunigalsidase alfa; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+T22	Date 13 17	2018
+T23	LIVB 101 110	pacientes
+#15	AnnotatorNotes T23	C0030705; Patients; Patient or Disabled Group
+T24	Date 263 276	a largo plazo
+T25	LIVB 314 323	pacientes
+#16	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 510 518	paciente
+#17	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 556 594	Pacientes de sexo femenino y masculino
+#18	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group + C0043210; Woman; Population Group + C0025266; Male population group; Population Group
+T28	LIVB 601 608	parejas
+#19	AnnotatorNotes T28	C0682323; Partner in relationship; Family Group
+T30	Neg_cue 734 737	sin
+T31	DEVI 837 863	dispositivos intrauterinos
+T32	DEVI 866 897	condones masculinos o femeninos
+#20	AnnotatorNotes T32	C0009653; Condoms, Male; Medical Device + C0221829; Female Condoms; Medical Device
+T33	Duration 937 942	1 mes
+T35	LIVB 1110 1122	investigador
+#21	AnnotatorNotes T35	C0035173; Research Personnel; Professional or Occupational Group
+T36	LIVB 1184 1192	paciente
+#22	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 1131 1146	director médico
+T37	Age 618 629	edad fértil
+T34	PHYS 1056 1065	emocional
+#24	AnnotatorNotes T34	C0013987; Emotions; Mental Process
+A1	Assertion T19 Negated
+#25	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#26	AnnotatorNotes T31	C0021900; Intrauterine Devices; Medical Device
+#27	AnnotatorNotes T29	C0025081; Physician Executives; Professional or Occupational Group
+R1	Experiences Arg1:T23 Arg2:T2	
+R2	Experiences Arg1:T23 Arg2:T9	
+#28	AnnotatorNotes T9	C5139798; Pegunigalsidase alfa; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+#29	AnnotatorNotes T17	C5139798; Pegunigalsidase alfa; Amino Acid, Peptide, or Protein · Enzyme · Pharmacologic Substance
+R3	Experiences Arg1:T23 Arg2:T3	
+R5	Experiences Arg1:T25 Arg2:T17	
+R6	Experiences Arg1:T25 Arg2:T21	
+R7	Experiences Arg1:T25 Arg2:T6	
+#30	AnnotatorNotes T18	C0002986; Fabry Disease; Disease or Syndrome
+R8	Has_Age Arg1:T28 Arg2:T37	
+R9	Experiences Arg1:T28 Arg2:T10	
+R10	Experiences Arg1:T27 Arg2:T10	
+R11	Negation Arg1:T30 Arg2:T19	
+R12	Experiences Arg1:T27 Arg2:T19	
+R13	Experiences Arg1:T28 Arg2:T19	
+R14	Used_for Arg1:T14 Arg2:T12	
+R15	Used_for Arg1:T31 Arg2:T12	
+R16	Used_for Arg1:T32 Arg2:T12	
+R17	Has_Duration_or_Interval Arg1:T15 Arg2:T33	
+R18	After Arg1:T15 Arg2:T16	
+R19	Experiences Arg1:T36 Arg2:T13	
+T38	Observation 455 479	Finalización del estudio
+#31	AnnotatorNotes T38	C2732579; Completion of clinical trial; Finding
+R20	Experiences Arg1:T36 Arg2:T34	
+R4	Overlap Arg1:T21 Arg2:T24	
+T39	Observation 1167 1179	cumplimiento
+R21	Before Arg1:T13 Arg2:T39	
+A2	Assertion T39 Speculated
+T40	Spec_cue 1148 1160	interferiría
+R23	Experiences Arg1:T36 Arg2:T39	
+R22	Speculation Arg1:T40 Arg2:T39	
+T41	Quantifier_or_Qualifier 675 691	altamente eficaz
+R24	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T41	
+R25	Overlap Arg1:T17 Arg2:T24	
+#23	AnnotatorNotes T39	C2364172; Adherence To Medication Regime; Finding (?)
+#32	AnnotatorNotes T24	C0443252; Long-term; Temporal Concept
+#33	AnnotatorNotes T4	C1709323; Open Label Study; Research Activity (?)
+A3	Experiencer T27 Patient
+A4	Experiencer T28 Family_member
+A5	Experiencer T23 Patient
+A6	Experiencer T25 Patient
+A7	Experiencer T26 Patient
+A8	Experiencer T35 Other
+A9	Experiencer T29 Other
+A10	Experiencer T36 Patient

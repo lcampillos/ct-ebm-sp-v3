@@ -1,0 +1,101 @@
+T1	PROC 1 61	Ensayo quirúrgico aleatorio controlado de dos procedimientos
+T2	DISO 67 80	hallux valgus
+#1	AnnotatorNotes T2	C0018536; Hallux Valgus; Anatomical Abnormality
+T3	PROC 129 174	ensayos quirúrgicos aleatorizados controlados
+T4	PROC 224 248	tratamientos quirúrgicos
+#3	AnnotatorNotes T4	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T5	PROC 539 565	procedimientos quirúrgicos
+#4	AnnotatorNotes T5	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T6	PROC 574 585	tratamiento
+#5	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 590 612	hallux valgus doloroso
+T8	PROC 617 667	estudio es no ciego, de no inferioridad y paralelo
+#6	AnnotatorNotes T8	C4505128; Non-Inferiority Trial; Research Activity + C1709323; Open Label Study; Research Activity + C2826345; Parallel Study; Research Activity
+T9	PROC 1241 1264	procedimiento aleatorio
+#7	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure + C0034656; Randomization; Research Activity
+T10	PROC 798 828	evaluados para su elegibilidad
+#8	AnnotatorNotes T10	C0013893; Eligibility Determination; Health Care Activity | C0677187; Determine eligibility; Health Care Activity
+T11	PROC 898 907	protocolo
+#9	AnnotatorNotes T11	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T12	PROC 959 973	aleatorización
+#10	AnnotatorNotes T12	C0034656; Randomization; Research Activity
+T13	PROC 1010 1036	procedimientos quirúrgicos
+#11	AnnotatorNotes T13	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T14	PROC 1091 1098	cirugía
+#12	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T15	PROC 1192 1218	evaluación de elegibilidad
+#13	AnnotatorNotes T15	C0013893; Eligibility Determination; Health Care Activity | C0677187; Determine eligibility; Health Care Activity
+T16	ANAT 67 73	hallux
+#14	AnnotatorNotes T16	C0018534; Hallux structure; Body Part, Organ, or Organ Component | C1281588; Hallux; Body Part, Organ, or Organ Component
+T18	LIVB 434 443	pacientes
+#15	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T19	Duration 486 494	14 meses
+T22	LIVB 701 708	sujetos
+#16	AnnotatorNotes T22	C0681850; Study Subject; Group
+T23	Duration 712 720	24 meses
+T24	Duration 738 759	los primeros 14 meses
+T25	LIVB 781 790	pacientes
+#17	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 1110 1119	pacientes
+#18	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T29	Neg_cue 1227 1237	se negaron
+T31	LIVB 1339 1346	sujetos
+#19	AnnotatorNotes T31	C0681850; Study Subject; Group
+T32	LIVB 1390 1404	investigadores
+#20	AnnotatorNotes T32	C0035173; Research Personnel; Professional or Occupational Group
+T34	LIVB 1566 1575	pacientes
+#21	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T17	ANAT 590 596	hallux
+#22	AnnotatorNotes T17	C0018534; Hallux structure; Body Part, Organ, or Organ Component | C1281588; Hallux; Body Part, Organ, or Organ Component
+T20	PROC 96 109	reclutamiento
+#23	AnnotatorNotes T20	C0242800; Patient Recruitment; Research Activity
+T21	PROC 403 411	reclutar
+#24	AnnotatorNotes T21	C0242800; Patient Recruitment; Research Activity
+T26	PROC 498 511	reclutamiento
+#25	AnnotatorNotes T26	C0242800; Patient Recruitment; Research Activity
+T28	PROC 763 776	reclutamiento
+#26	AnnotatorNotes T28	C0242800; Patient Recruitment; Research Activity
+T30	PROC 1307 1314	recluta
+#27	AnnotatorNotes T30	C0242800; Patient Recruitment; Research Activity
+T33	Neg_cue 1304 1306	no
+T35	PROC 1549 1562	reclutamiento
+#28	AnnotatorNotes T35	C0242800; Patient Recruitment; Research Activity
+T36	Neg_cue 400 402	no
+T37	Neg_cue 1147 1149	no
+T38	Observation 1159 1167	contacto
+A1	Assertion T9 Negated
+A2	Assertion T30 Negated
+R1	Location_of Arg1:T16 Arg2:T2
+A3	Assertion T21 Negated
+R2	Negation Arg1:T36 Arg2:T21
+R3	Experiences Arg1:T18 Arg2:T21
+R4	Has_Duration_or_Interval Arg1:T26 Arg2:T19
+R5	Location_of Arg1:T17 Arg2:T7
+R6	Has_Duration_or_Interval Arg1:T8 Arg2:T23
+R7	Has_Duration_or_Interval Arg1:T28 Arg2:T24
+R8	Experiences Arg1:T25 Arg2:T28
+R9	Experiences Arg1:T25 Arg2:T10
+R10	Before Arg1:T12 Arg2:T13
+R11	Before Arg1:T12 Arg2:T14
+R12	Experiences Arg1:T31 Arg2:T30
+R13	Negation Arg1:T33 Arg2:T30
+A4	Assertion T38 Negated
+R14	Negation Arg1:T37 Arg2:T38
+R15	Negation Arg1:T29 Arg2:T9
+R16	Experiences Arg1:T27 Arg2:T38
+R17	Experiences Arg1:T34 Arg2:T35
+R18	Before Arg1:T26 Arg2:T5
+R19	Experiences Arg1:T27 Arg2:T15
+R20	After Arg1:T38 Arg2:T15
+T39	Observation 869 891	cumplían con criterios
+#2	AnnotatorNotes T39	C4329786; Eligibility Criteria Met By Subject; Finding
+T40	Observation 1120 1129	elegibles
+#29	AnnotatorNotes T40	C1302261; Patient eligible for clinical trial; Finding
+R21	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T40	
+A5	Experiencer T18 Patient
+A6	Experiencer T22 Patient
+A7	Experiencer T25 Patient
+A8	Experiencer T27 Patient
+A9	Experiencer T31 Patient
+A10	Experiencer T34 Patient
+A11	Experiencer T32 Other

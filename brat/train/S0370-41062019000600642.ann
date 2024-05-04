@@ -1,0 +1,183 @@
+T1	PROC 1 46	Oxigenoterapia por cánula nasal de alto flujo
+#1	AnnotatorNotes T1	C4761117; High-flow nasal cannula oxygen therapy; Therapeutic or Preventive Procedure
+T2	PROC 666 679	aleatorizados
+#2	AnnotatorNotes T2	C0034656; Randomization; Research Activity
+T3	PROC 1573 1577	CNAF
+#3	AnnotatorNotes T3	C4761117; High-flow nasal cannula oxygen therapy; Therapeutic or Preventive Procedure
+T4	DISO 64 79	crisis asmática
+#4	AnnotatorNotes T4	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T5	PROC 196 241	Oxigenoterapia por Cánula Nasal de Alto Flujo
+#5	AnnotatorNotes T5	C4761117; High-flow nasal cannula oxygen therapy; Therapeutic or Preventive Procedure
+T6	PROC 243 247	CNAF
+#6	AnnotatorNotes T6	C4761117; High-flow nasal cannula oxygen therapy; Therapeutic or Preventive Procedure
+T7	DISO 266 281	crisis asmática
+#7	AnnotatorNotes T7	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T8	DISO 360 375	crisis asmática
+#8	AnnotatorNotes T8	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T9	PROC 413 424	tratamiento
+#9	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	PROC 456 501	Ensayo clínico randomizado controlado abierto
+#10	AnnotatorNotes T10	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1709323; Open Label Study; Research Activity
+T11	DISO 519 540	exacerbación asmática
+#11	AnnotatorNotes T11	C0349790; Exacerbation of asthma; Finding
+T12	PROC 324 328	CNAF
+#12	AnnotatorNotes T12	C4761117; High-flow nasal cannula oxygen therapy; Therapeutic or Preventive Procedure
+T13	DISO 597 603	crisis
+#13	AnnotatorNotes T13	C0231224; Crisis; Finding
+T14	DISO 617 628	infecciones
+#14	AnnotatorNotes T14	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T15	DISO 631 643	comorbilidad
+#15	AnnotatorNotes T15	C1275743; Co-morbid conditions; Finding
+T16	PROC 712 726	Oxigenoterapia
+#16	AnnotatorNotes T16	C0184633; Oxygen Therapy Care; Therapeutic or Preventive Procedure
+T17	PROC 776 801	tratamiento farmacológico
+#17	AnnotatorNotes T17	C0013216; Pharmacotherapy; Therapeutic or Preventive Procedure
+T18	PROC 898 909	tratamiento
+#18	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	PROC 1008 1022	ingreso a UCIP
+#19	AnnotatorNotes T19	C0583241; Admission to pediatric intensive care unit; Health Care Activity
+T20	PROC 1189 1200	tratamiento
+#20	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	PROC 1503 1532	ingresó a cuidados intensivos
+#21	AnnotatorNotes T21	C0583239; Admission to intensive care unit; Health Care Activity
+T22	PROC 1581 1592	tratamiento
+#22	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	DISO 1610 1625	crisis asmática
+#23	AnnotatorNotes T23	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T24	PROC 689 693	CNAF
+#24	AnnotatorNotes T24	C4761117; High-flow nasal cannula oxygen therapy; Therapeutic or Preventive Procedure
+T25	DEVI 20 46	cánula nasal de alto flujo
+#25	AnnotatorNotes T25	C1960097; High flow oxygen nasal cannula; Medical Device
+T26	LIVB 50 59	pacientes
+#26	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	DEVI 215 241	Cánula Nasal de Alto Flujo
+#27	AnnotatorNotes T27	C1960097; High flow oxygen nasal cannula; Medical Device
+T28	LIVB 252 261	pacientes
+#28	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 332 337	niños
+#29	AnnotatorNotes T29	C0008059; Child; Age Group
+T30	Age 338 355	mayores de 2 años
+T32	LIVB 435 444	Pacientes
+#30	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 505 514	pacientes
+#31	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Neg_cue 586 596	Se excluyó
+T35	LIVB 649 658	pacientes
+#32	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Duration 882 893	las 2 horas
+T37	Duration 954 965	las 6 horas
+T38	LIVB 1117 1124	sujetos
+#33	AnnotatorNotes T38	C0681850; Study Subject; Group
+T39	Duration 1174 1185	las 2 horas
+T40	Duration 1295 1312	24,8 ± 12,3 horas
+T41	Duration 1329 1344	24 ± 14,8 horas
+T44	Frequency 1473 1485	cada 2 horas
+T45	Neg_cue 1487 1493	Ningún
+T46	LIVB 1494 1502	paciente
+#34	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1596 1605	pacientes
+#35	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+A1	Population_data T29 Age
+A2	Assertion T13 Negated
+A3	Assertion T14 Negated
+A4	Assertion T15 Negated
+A5	Assertion T46 Negated
+A6	Assertion T21 Negated
+T31	Neg_cue 398 400	no
+T42	Observation 401 424	responde al tratamiento
+A7	Assertion T42 Negated
+#36	AnnotatorNotes T42	C1319171; Medication response; Finding
+R1	Negation Arg1:T31 Arg2:T42	
+T43	Neg_cue 1626 1628	no
+T48	Observation 1638 1657	beneficios clínicos
+A8	Assertion T48 Negated
+R2	Negation Arg1:T43 Arg2:T48	
+T49	Neg_cue 1658 1660	ni
+T50	CONC 1661 1670	disminuyó
+A9	Assertion T50 Negated
+#37	AnnotatorNotes T50	C0547047; Decrease; Quantitative Concept 
+R3	Negation Arg1:T49 Arg2:T50	
+T51	Neg_cue 1386 1388	No
+T52	CONC 1401 1412	diferencias
+A10	Assertion T52 Negated
+#38	AnnotatorNotes T52	C1705241; Delta (difference); Quantitative Concept
+R4	Negation Arg1:T51 Arg2:T52	
+R5	Used_for Arg1:T25 Arg2:T1	
+R6	Experiences Arg1:T26 Arg2:T1	
+R7	Experiences Arg1:T26 Arg2:T4	
+R9	Used_for Arg1:T27 Arg2:T5	
+R10	Used_for Arg1:T27 Arg2:T6	
+R11	Experiences Arg1:T28 Arg2:T5	
+R12	Experiences Arg1:T28 Arg2:T6	
+R14	Experiences Arg1:T28 Arg2:T7	
+R16	Experiences Arg1:T29 Arg2:T12	
+R17	Has_Age Arg1:T29 Arg2:T30	
+R18	Experiences Arg1:T29 Arg2:T8	
+T53	Quantifier_or_Qualifier 376 382	severa
+#39	AnnotatorNotes T53	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R20	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T53	
+T54	Quantifier_or_Qualifier 385 393	moderada
+#40	AnnotatorNotes T54	C0205081; Moderate (severity modifier); Qualitative Concept 
+R21	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T54	
+R23	Overlap Arg1:T42 Arg2:T9	
+R24	Before Arg1:T9 Arg2:T12	
+R25	Experiences Arg1:T29 Arg2:T9	
+R26	Experiences Arg1:T29 Arg2:T42	
+R27	Experiences Arg1:T33 Arg2:T11	
+R28	Negation Arg1:T34 Arg2:T13	
+R29	Causes Arg1:T14 Arg2:T13	
+R30	Causes Arg1:T15 Arg2:T13	
+R31	Negation Arg1:T34 Arg2:T14	
+R32	Negation Arg1:T34 Arg2:T15	
+R33	Experiences Arg1:T35 Arg2:T24	
+R34	Experiences Arg1:T35 Arg2:T16	
+R35	Before Arg1:T2 Arg2:T24	
+R36	Before Arg1:T2 Arg2:T16	
+T55	CONC 857 860	PIS
+#41	AnnotatorNotes T55	[Pulmonary Index Score]
+T56	Observation 844 860	descenso del PIS
+R37	Overlap Arg1:T56 Arg2:T36	
+R38	Before Arg1:T18 Arg2:T56	
+T57	Observation 935 951	descenso del PIS
+R39	Overlap Arg1:T57 Arg2:T37	
+T58	CONC 948 951	PIS
+#42	AnnotatorNotes T58	[Pulmonary Index Score]
+T59	CONC 967 1005	tiempo de permanencia en la emergencia
+R40	Before Arg1:T18 Arg2:T57	
+T60	Observation 1129 1140;1162 1171	disminución en el PIS
+R41	Experiences Arg1:T38 Arg2:T60	
+T61	CONC 1168 1171	PIS
+#43	AnnotatorNotes T61	[Pulmonary Index Score]
+R42	Overlap Arg1:T60 Arg2:T39	
+R43	Before Arg1:T20 Arg2:T60	
+R44	Experiences Arg1:T38 Arg2:T20	
+T62	CONC 1277 1284	estadía
+#44	AnnotatorNotes T62	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R45	Has_Duration_or_Interval Arg1:T62 Arg2:T40	
+R46	Has_Duration_or_Interval Arg1:T62 Arg2:T41	
+T63	PROC 1433 1458;1462 1472	del esfuerzo respiratorio mediciones
+#45	AnnotatorNotes T63	C0678216; respiratory airflow measurement; Diagnostic Procedure (?)
+R47	Has_Frequency Arg1:T63 Arg2:T44	
+R48	Negation Arg1:T45 Arg2:T46	
+R49	Experiences Arg1:T46 Arg2:T21	
+R50	Negation Arg1:T45 Arg2:T21	
+R51	Experiences Arg1:T47 Arg2:T3	
+R52	Experiences Arg1:T47 Arg2:T22	
+R54	Experiences Arg1:T47 Arg2:T23	
+R55	Before Arg1:T3 Arg2:T48	
+T64	CONC 1674 1691	tiempo de estadía
+#46	AnnotatorNotes T64	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T65	CONC 1042 1065	características basales
+#47	AnnotatorNotes T65	C4684572; Baseline Characteristics; Qualitative Concept
+#48	AnnotatorNotes T48	C0235735; Unexpected therapeutic effect; Finding (?)
+A11	Experiencer T47 Patient
+A12	Experiencer T38 Patient
+A13	Experiencer T35 Patient
+A14	Experiencer T33 Patient
+A15	Experiencer T32 Patient
+A16	Experiencer T29 Patient
+A17	Experiencer T28 Patient
+A18	Experiencer T26 Patient
+R8	Has_Result_or_Value Arg1:T55 Arg2:T56	
+R13	Has_Result_or_Value Arg1:T58 Arg2:T57	
+R15	Has_Result_or_Value Arg1:T61 Arg2:T60	

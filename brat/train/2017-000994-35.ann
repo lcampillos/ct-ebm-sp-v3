@@ -1,0 +1,221 @@
+T1	PROC 72 84	tratamientos
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 91 109	anemia ferropénica
+#2	AnnotatorNotes T2	C0162316; Iron deficiency anemia; Disease or Syndrome
+T3	PROC 149 176	Estudio de la tolerabilidad
+T4	CHEM 181 187	hierro
+#3	AnnotatorNotes T4	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T5	CHEM 218 233	sulfato ferroso
+#4	AnnotatorNotes T5	C0060282; ferrous sulfate; Inorganic Chemical · Pharmacologic Substance
+T6	DISO 251 269	anemia ferropénica
+#5	AnnotatorNotes T6	C0162316; Iron deficiency anemia; Disease or Syndrome
+T7	DISO 293 311	Anemia ferropénica
+#6	AnnotatorNotes T7	C0162316; Iron deficiency anemia; Disease or Syndrome
+T8	PROC 350 364	diagnosticadas
+#7	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	DISO 368 386	anemia ferropénica
+#8	AnnotatorNotes T9	C0162316; Iron deficiency anemia; Disease or Syndrome
+T10	PROC 393 402	analítica
+#9	AnnotatorNotes T10	C0002778; Analysis of substances; Laboratory Procedure | C0814047; biological analysis and measurement; Laboratory Procedure
+T11	DISO 1014 1040	intolerancias alimenticias
+#10	AnnotatorNotes T11	C0149696; Food intolerance (disorder); Disease or Syndrome
+T12	CHEM 478 487	ferritina
+#11	AnnotatorNotes T12	C0015879; Ferritin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T13	ANAT 488 494	sérica
+#12	AnnotatorNotes T13	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T14	PROC 502 513	hematocrito
+#13	AnnotatorNotes T14	C0018935; Hematocrit procedure; Laboratory Procedure
+T15	DISO 617 623	Anemia
+#14	AnnotatorNotes T15	C0002871; Anemia; Disease or Syndrome
+T16	PROC 644 665	Transfusión sanguínea
+#15	AnnotatorNotes T16	C0005841; Blood Transfusion; Therapeutic or Preventive Procedure
+T17	PROC 667 708	tratamiento con hierro oral o intravenoso
+T18	PROC 728 737	analítica
+#16	AnnotatorNotes T18	C0002778; Analysis of substances; Laboratory Procedure | C0814047; biological analysis and measurement; Laboratory Procedure
+T19	ANAT 874 879	renal
+#17	AnnotatorNotes T19	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T20	ANAT 881 889	pulmonar
+#18	AnnotatorNotes T20	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T21	DISO 906 932	anomalías cardiovasculares
+T22	DISO 946 960	úlcera péptica
+#19	AnnotatorNotes T22	C0030920; Peptic Ulcer; Disease or Syndrome
+T23	DISO 1003 1011	alergias
+#20	AnnotatorNotes T23	C1527304; Allergic Reaction; Pathologic Function
+T24	DISO 1114 1131	Hipersensibilidad
+#21	AnnotatorNotes T24	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T25	CHEM 1153 1159	hierro
+#22	AnnotatorNotes T25	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T26	DISO 1163 1175	Intolerancia
+#23	AnnotatorNotes T26	C0277585; Intolerance to drug; Pathologic Function
+T27	DISO 1192 1198	Anemia
+#24	AnnotatorNotes T27	C0002871; Anemia; Disease or Syndrome
+T28	ANAT 1240 1245	fetal
+#25	AnnotatorNotes T28	C0015965; Fetus; Embryonic Structure | C1305737; Entire fetus; Anatomical Structure
+T29	DISO 1247 1269	anomalías cromosómicas
+#26	AnnotatorNotes T29	C0008625; Chromosome Aberrations; Cell or Molecular Dysfunction | C0008626; Congenital chromosomal disease; Congenital Abnormality
+T30	DISO 1272 1294	malformaciones fetales
+#27	AnnotatorNotes T30	C0000768; Congenital Abnormality; Congenital Abnormality
+T31	PROC 1301 1310	ecografía
+#28	AnnotatorNotes T31	C0041618; Ultrasonography; Diagnostic Procedure
+T32	PROC 456 467	hemoglobina
+#29	AnnotatorNotes T32	C0518015; Hemoglobin measurement; Laboratory Procedure
+T33	PROC 478 494	ferritina sérica
+#30	AnnotatorNotes T33	C0696113; Serum ferritin measurement; Laboratory Procedure
+T34	ANAT 656 665	sanguínea
+#31	AnnotatorNotes T34	C0005767; Blood; Body Substance
+T35	CHEM 683 689	hierro
+#32	AnnotatorNotes T35	C0302583; iron; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T36	DISO 763 787	Patología médica materna
+T37	DISO 854 903	patología hepática, renal, pulmonar, hematológica
+T38	ANAT 864 872	hepática
+#33	AnnotatorNotes T38	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T39	ANAT 916 932	cardiovasculares
+#34	AnnotatorNotes T39	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T40	Food 996 1001	dieta
+#35	AnnotatorNotes T40	C0012155; Diet; Food
+T41	PROC 1069 1074	dieta
+#36	AnnotatorNotes T41	C0012159; Diet therapy; Health Care Activity | C0600072; Feeding and dietary regimes; Therapeutic or Preventive Procedure
+T42	CHEM 1181 1188	lactosa
+#37	AnnotatorNotes T42	C0022949; lactose; Biologically Active Substance · Organic Chemical
+T43	PROC 1207 1218	hemoglobina
+#38	AnnotatorNotes T43	C0518015; Hemoglobin measurement; Laboratory Procedure
+T44	DISO 1230 1245	Patología fetal
+T45	ANAT 1257 1269	cromosómicas
+#39	AnnotatorNotes T45	C0008633; Chromosomes; Cell Component
+T46	ANAT 1287 1294	fetales
+#40	AnnotatorNotes T46	C0015965; Fetus; Embryonic Structure | C1305737; Entire fetus; Anatomical Structure
+T47	Date 13 17	2017
+T49	Date 407 424	segundo trimestre
+T50	Duration 426 438	semana 24-28
+T52	Age 542 565	igual o mayor a 18 años
+T53	PHYS 569 587	Gestaciones únicas
+#41	AnnotatorNotes T53	C0341899; Single pregnancy; Organism Function
+T54	Route 690 694	oral
+#42	AnnotatorNotes T54	C1527415; Oral Route of Drug administration; Functional Concept
+T55	Route 697 708	intravenoso
+#43	AnnotatorNotes T55	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T56	Duration 709 715	un mes
+T57	Date 742 759	segundo trimestre
+T59	Duration 788 795	crónica
+#44	AnnotatorNotes T59	C0205191; chronic; Temporal Concept
+T60	PHYS 808 817	gestación
+#45	AnnotatorNotes T60	C0032961; Pregnancy; Organism Function
+T61	LIVB 964 971	Mujeres
+#46	AnnotatorNotes T61	C0043210; Woman; Population Group
+T62	LIVB 1045 1052	Mujeres
+#47	AnnotatorNotes T62	C0043210; Woman; Population Group
+T63	LIVB 1087 1099	vegetarianas
+#48	AnnotatorNotes T63	C0042441; Vegetarian; Population Group
+T65	LIVB 116 126	embarazada
+#49	AnnotatorNotes T65	C0033011; Pregnant Women; Population Group
+T66	LIVB 237 246	gestantes
+#50	AnnotatorNotes T66	C0033011; Pregnant Women; Population Group
+T67	LIVB 340 349	Gestantes
+#51	AnnotatorNotes T67	C0033011; Pregnant Women; Population Group
+T68	LIVB 523 532	Gestantes
+#52	AnnotatorNotes T68	C0033011; Pregnant Women; Population Group
+T48	LIVB 1102 1109	veganas
+#53	AnnotatorNotes T48	C2987738; Vegan; Population Group
+T51	LIVB 780 787	materna
+#54	AnnotatorNotes T51	C0026591; Mother (person); Family Group
+A1	Status T16 History_of
+A2	Status T17 History_of
+A3	Status T22 History_of
+A4	Status T23 History_of
+A5	Status T11 History_of
+A6	Status T24 History_of
+A7	Status T26 History_of
+A8	Status T36 History_of
+#55	AnnotatorNotes T3	C3274448; Tolerability Study; Research Activity
+#56	AnnotatorNotes T17	C4733157; intravenous iron therapy; Therapeutic or Preventive Procedure + C4733159; oral iron therapy; Therapeutic or Preventive Procedure 
+R1	Experiences Arg1:T65 Arg2:T2	
+R2	Experiences Arg1:T65 Arg2:T1	
+T58	Quantifier_or_Qualifier 188 198	liposomado
+R3	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T58	
+R4	Experiences Arg1:T66 Arg2:T6	
+R5	Experiences Arg1:T66 Arg2:T5	
+R6	Experiences Arg1:T66 Arg2:T4	
+R7	Experiences Arg1:T67 Arg2:T9	
+R8	Before Arg1:T10 Arg2:T8	
+R10	Overlap Arg1:T10 Arg2:T49	
+R11	Overlap Arg1:T10 Arg2:T50	
+T64	Result_or_Value 468 476	<11 g/dL
+R12	Has_Result_or_Value Arg1:T32 Arg2:T64	
+R13	Experiences Arg1:T67 Arg2:T32	
+R14	Overlap Arg1:T32 Arg2:T50	
+R15	Overlap Arg1:T32 Arg2:T49	
+R16	Location_of Arg1:T13 Arg2:T33	
+T69	Result_or_Value 495 499	< 12
+R17	Has_Result_or_Value Arg1:T33 Arg2:T69	
+R18	Overlap Arg1:T33 Arg2:T49	
+R19	Overlap Arg1:T33 Arg2:T50	
+R20	Experiences Arg1:T67 Arg2:T33	
+R21	Experiences Arg1:T67 Arg2:T14	
+T70	Result_or_Value 514 519	< 33%
+R22	Has_Result_or_Value Arg1:T14 Arg2:T70	
+R23	Overlap Arg1:T14 Arg2:T49	
+R25	Overlap Arg1:T9 Arg2:T32	
+R26	Overlap Arg1:T9 Arg2:T33	
+R28	Before Arg1:T32 Arg2:T8	
+R29	Before Arg1:T33 Arg2:T8	
+R30	Before Arg1:T14 Arg2:T8	
+R31	Has_Age Arg1:T68 Arg2:T52	
+T71	Observation 628 640	otras causas
+#57	AnnotatorNotes T71	C5555349; Other Disease Etiology; Finding
+R32	Causes Arg1:T71 Arg2:T15	
+R33	Location_of Arg1:T34 Arg2:T16	
+R34	Has_Route_or_Mode Arg1:T35 Arg2:T54	
+R35	Has_Route_or_Mode Arg1:T35 Arg2:T55	
+R36	Used_for Arg1:T35 Arg2:T17	
+R37	Has_Duration_or_Interval Arg1:T35 Arg2:T56	
+R38	Before Arg1:T17 Arg2:T18	
+R39	Overlap Arg1:T18 Arg2:T57	
+R40	Before Arg1:T16 Arg2:T18	
+R41	Experiences Arg1:T51 Arg2:T36	
+R42	Has_Duration_or_Interval Arg1:T36 Arg2:T59	
+R43	Before Arg1:T36 Arg2:T60	
+R44	Location_of Arg1:T38 Arg2:T37	
+R45	Location_of Arg1:T19 Arg2:T37	
+R46	Location_of Arg1:T20 Arg2:T37	
+R47	Location_of Arg1:T39 Arg2:T21	
+R48	Before Arg1:T37 Arg2:T60	
+R49	Before Arg1:T21 Arg2:T60	
+R50	Before Arg1:T22 Arg2:T60	
+R51	Experiences Arg1:T62 Arg2:T41	
+R52	Experiences Arg1:T61 Arg2:T11	
+R53	Experiences Arg1:T61 Arg2:T23	
+T72	CONC 819 836	evidencia clínica
+#58	AnnotatorNotes T72	C5554846; Clinical Evidence; Idea or Concept
+T73	CONC 819 828;841 850	evidencia analítica
+R54	Experiences Arg1:T63 Arg2:T41	
+R55	Experiences Arg1:T48 Arg2:T41	
+R56	Causes Arg1:T25 Arg2:T24	
+T74	Food 1138 1159	suplementos de hierro
+#59	AnnotatorNotes T74	C0721124; Iron Supplement; Food
+R57	Causes Arg1:T74 Arg2:T24	
+R58	Causes Arg1:T42 Arg2:T26	
+T75	Result_or_Value 1219 1227	< 9 g/dl
+T76	Quantifier_or_Qualifier 1199 1205	severa
+#60	AnnotatorNotes T76	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R59	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T76	
+R60	Has_Result_or_Value Arg1:T43 Arg2:T75	
+R61	Location_of Arg1:T28 Arg2:T44	
+R62	Location_of Arg1:T45 Arg2:T29	
+#61	AnnotatorNotes T44	C0015929; Fetal Diseases; Disease or Syndrome
+T77	Observation 976 1001	restricciones en la dieta
+R66	Experiences Arg1:T61 Arg2:T40	
+R67	Experiences Arg1:T61 Arg2:T77	
+R24	Overlap Arg1:T14 Arg2:T50	
+#62	AnnotatorNotes T21	C0184522; Cardiovascular system alteration; Finding
+R9	Experiences Arg1:T67 Arg2:T10	
+#63	AnnotatorNotes T37	C0023895; Liver diseases; Disease or Syndrome | C0022658; Kidney Diseases; Disease or Syndrome | C0024115; Lung diseases; Disease or Syndrome | C0018939; Hematological Disease; Disease or Syndrome
+#64	AnnotatorNotes T77	C4718072; Follows dietary restrictions; Finding
+A9	Experiencer T51 Patient
+A10	Experiencer T65 Patient
+A11	Experiencer T66 Patient
+A12	Experiencer T67 Patient
+A13	Experiencer T68 Patient
+A14	Experiencer T61 Patient
+A15	Experiencer T62 Patient
+A16	Experiencer T63 Patient
+A17	Experiencer T48 Patient

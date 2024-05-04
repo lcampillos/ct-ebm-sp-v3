@@ -1,0 +1,236 @@
+T1	PROC 1 32	Estudio aleatorizado controlado
+#1	AnnotatorNotes T1	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T2	CHEM 76 84	propofol
+#2	AnnotatorNotes T2	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T3	CHEM 86 96	isoflurano
+#3	AnnotatorNotes T3	C0022180; isoflurane; Organic Chemical · Pharmacologic Substance
+T4	CHEM 98 108	desflurano
+#4	AnnotatorNotes T4	C0063252; desflurane; Organic Chemical · Pharmacologic Substance
+T5	CHEM 111 122	sevoflurano
+#5	AnnotatorNotes T5	C0074414; sevoflurane; Organic Chemical · Pharmacologic Substance
+T6	PROC 314 343	colecistectomía laparoscópica
+#6	AnnotatorNotes T6	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T7	PROC 397 426	colecistectomía laparoscópica
+#7	AnnotatorNotes T7	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T8	PROC 842 877	medido en escala analógica numérica
+#8	AnnotatorNotes T8	C4275132; Assessment using Verbal Rating Scale; Diagnostic Procedure
+T9	CHEM 488 496	propofol
+#9	AnnotatorNotes T9	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T10	PROC 505 514	anestesia
+#10	AnnotatorNotes T10	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+T11	CHEM 534 544	isoflurano
+#11	AnnotatorNotes T11	C0022180; isoflurane; Organic Chemical · Pharmacologic Substance
+T12	CHEM 546 556	desflurano
+#12	AnnotatorNotes T12	C0063252; desflurane; Organic Chemical · Pharmacologic Substance
+T13	CHEM 559 570	sevoflurano
+#13	AnnotatorNotes T13	C0074414; sevoflurane; Organic Chemical · Pharmacologic Substance
+T14	PROC 591 625	estudio prospectivo y aleatorizado
+#14	AnnotatorNotes T14	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T15	PROC 657 686	colecistectomía laparoscópica
+#15	AnnotatorNotes T15	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T16	CHEM 718 726	propofol
+#16	AnnotatorNotes T16	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T17	CHEM 728 738	isoflurano
+#17	AnnotatorNotes T17	C0022180; isoflurane; Organic Chemical · Pharmacologic Substance
+T18	CHEM 740 750	desflurano
+#18	AnnotatorNotes T18	C0063252; desflurane; Organic Chemical · Pharmacologic Substance
+T19	CHEM 753 764	sevoflurano
+#19	AnnotatorNotes T19	C0074414; sevoflurane; Organic Chemical · Pharmacologic Substance
+T20	PROC 793 802	anestesia
+#20	AnnotatorNotes T20	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+T21	PROC 1736 1754	videolaparoscópica
+#21	AnnotatorNotes T21	C0031150; Laparoscopy; Diagnostic Procedure
+T22	CHEM 951 959	opiáceos
+#22	AnnotatorNotes T22	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T23	CHEM 976 987	analgésicos
+#23	AnnotatorNotes T23	C0002771; Analgesics; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T24	PROC 1275 1286	tratamiento
+#24	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	CHEM 1361 1370	fentanilo
+#25	AnnotatorNotes T25	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T26	CHEM 1373 1380	morfina
+#26	AnnotatorNotes T26	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T27	CHEM 1507 1514	morfina
+#27	AnnotatorNotes T27	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T28	CHEM 1517 1528	hidrocodona
+#28	AnnotatorNotes T28	C0020264; hydrocodone; Organic Chemical · Pharmacologic Substance
+T29	CHEM 1529 1533	APAP
+T30	CHEM 1640 1648	propofol
+#29	AnnotatorNotes T30	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T31	PROC 1677 1694	anestesia general
+#30	AnnotatorNotes T31	C0002915; General Anesthesia; Therapeutic or Preventive Procedure
+T32	CHEM 1793 1803	isoflurano
+#31	AnnotatorNotes T32	C0022180; isoflurane; Organic Chemical · Pharmacologic Substance
+T33	CHEM 1805 1815	desflurano
+#32	AnnotatorNotes T33	C0063252; desflurane; Organic Chemical · Pharmacologic Substance
+T34	CHEM 1818 1829	sevoflurano
+#33	AnnotatorNotes T34	C0074414; sevoflurane; Organic Chemical · Pharmacologic Substance
+T35	PROC 62 71	anestesia
+#34	AnnotatorNotes T35	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+T36	DISO 132 137	dolor
+#35	AnnotatorNotes T36	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T37	DISO 207 212	dolor
+#36	AnnotatorNotes T37	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T38	DISO 440 445	dolor
+#37	AnnotatorNotes T38	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T39	PROC 464 471	cirugía
+#38	AnnotatorNotes T39	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T40	DISO 836 841	dolor
+#39	AnnotatorNotes T40	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T41	PROC 896 903	cirugía
+#40	AnnotatorNotes T41	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T42	DISO 1124 1129	dolor
+#41	AnnotatorNotes T42	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T43	PROC 1148 1155	cirugía
+#42	AnnotatorNotes T43	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T44	DISO 1249 1254	dolor
+#43	AnnotatorNotes T44	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T45	DISO 1711 1716	dolor
+#44	AnnotatorNotes T45	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T46	PROC 157 175	videolaparoscópica
+#45	AnnotatorNotes T46	C0031150; Laparoscopy; Diagnostic Procedure
+T47	LIVB 375 384	pacientes
+#46	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Duration 446 449	4 h
+T49	LIVB 630 639	pacientes
+#47	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Duration 878 881	4 h
+T51	Time 932 947	intraoperatorio
+#48	AnnotatorNotes T51	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T52	Duration 996 1013	las primeras 24 h
+T55	Duration 1130 1133	4 h
+T57	Duration 1295 1303	las 24 h
+T59	Time 1342 1357	intraoperatorio
+#49	AnnotatorNotes T59	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T62	Duration 1542 1559	las primeras 24 h
+T63	LIVB 1615 1624	pacientes
+#50	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T65	PHYS 292 304	recuperación
+#51	AnnotatorNotes T65	C2004454; Recovery - healing process; Organism Function
+T66	Time 138 156	poscolecistectomía
+T53	Time 1717 1735	poscolecistectomía
+T54	Time 1018 1032	postoperatorio
+#52	AnnotatorNotes T54	C0032790; Postoperative Period; Temporal Concept
+T56	Time 1308 1322	postoperatorio
+#53	AnnotatorNotes T56	C0032790; Postoperative Period; Temporal Concept
+T58	Neg_cue 1461 1463	No
+T60	CONC 1473 1483	diferencia
+A1	Assertion T60 Negated
+#54	AnnotatorNotes T60	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T58 Arg2:T60	
+T61	Neg_cue 1048 1050	no
+T64	CONC 1056 1067	diferencias
+A2	Assertion T64 Negated
+#55	AnnotatorNotes T64	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T61 Arg2:T64	
+T67	Neg_cue 1168 1175	Tampoco
+T68	CONC 1181 1192	diferencias
+A3	Assertion T68 Negated
+#56	AnnotatorNotes T68	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T67 Arg2:T68	
+T69	Quantifier_or_Qualifier 1705 1710	menos
+A4	Assertion T69 Negated
+R4	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T69	
+R5	Overlap Arg1:T45 Arg2:T53	
+R6	Before Arg1:T21 Arg2:T45	
+T70	Neg_cue 1695 1697	no
+R7	Negation Arg1:T70 Arg2:T69	
+T71	Neg_cue 1381 1383	no
+T72	CONC 1384 1389	varió
+A5	Assertion T72 Negated
+#57	AnnotatorNotes T72	C0443172; Changed status; Quantitative Concept
+R8	Negation Arg1:T71 Arg2:T72	
+T73	LIVB 1265 1286	grupos de tratamiento
+#58	AnnotatorNotes T73	C5205742; Treatment Group; Population Group
+T74	Observation 48 55	efectos
+#59	AnnotatorNotes T74	C1518681; Outcome of Therapy; Finding (?)
+R9	Causes Arg1:T35 Arg2:T74	
+R10	Overlap Arg1:T36 Arg2:T66	
+T75	Quantifier_or_Qualifier 281 291	prolongada
+#60	AnnotatorNotes T75	C0439590; Prolonged; Temporal Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T65 Arg2:T75	
+R12	Before Arg1:T37 Arg2:T65	
+R13	After Arg1:T65 Arg2:T6	
+R14	Experiences Arg1:T47 Arg2:T7	
+R15	Overlap Arg1:T38 Arg2:T48	
+R16	After Arg1:T38 Arg2:T39	
+R17	Used_for Arg1:T9 Arg2:T10	
+R18	Before Arg1:T10 Arg2:T39	
+R19	Used_for Arg1:T11 Arg2:T10	
+R20	Used_for Arg1:T2 Arg2:T35	
+R21	Experiences Arg1:T49 Arg2:T15	
+T76	Quantifier_or_Qualifier 640 651	programados
+R22	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T76	
+R23	Used_for Arg1:T3 Arg2:T35	
+R24	Used_for Arg1:T4 Arg2:T35	
+R25	Used_for Arg1:T5 Arg2:T35	
+R26	Used_for Arg1:T12 Arg2:T10	
+R27	Used_for Arg1:T13 Arg2:T10	
+R28	Before Arg1:T46 Arg2:T36	
+R29	Causes Arg1:T6 Arg2:T37	
+R30	Before Arg1:T7 Arg2:T38	
+R31	Experiences Arg1:T47 Arg2:T38	
+R32	Causes Arg1:T47 Arg2:T39	
+R33	Experiences Arg1:T47 Arg2:T10	
+R34	Used_for Arg1:T16 Arg2:T20	
+R35	Used_for Arg1:T17 Arg2:T20	
+R36	Used_for Arg1:T18 Arg2:T20	
+R37	Used_for Arg1:T19 Arg2:T20	
+R38	Before Arg1:T20 Arg2:T15	
+R39	Experiences Arg1:T49 Arg2:T16	
+R40	Experiences Arg1:T49 Arg2:T17	
+R41	Experiences Arg1:T49 Arg2:T18	
+R42	Experiences Arg1:T49 Arg2:T19	
+R44	Overlap Arg1:T8 Arg2:T50	
+R45	Overlap Arg1:T40 Arg2:T50	
+R46	After Arg1:T8 Arg2:T41	
+R47	Causes Arg1:T41 Arg2:T40	
+R48	Overlap Arg1:T22 Arg2:T51	
+R49	Has_Duration_or_Interval Arg1:T23 Arg2:T52	
+R50	Overlap Arg1:T23 Arg2:T54	
+R51	Before Arg1:T22 Arg2:T23	
+R52	Overlap Arg1:T42 Arg2:T55	
+R53	After Arg1:T42 Arg2:T43	
+R54	Experiences Arg1:T73 Arg2:T44	
+R55	Experiences Arg1:T73 Arg2:T24	
+R56	Has_Duration_or_Interval Arg1:T44 Arg2:T57	
+R57	Overlap Arg1:T44 Arg2:T56	
+R58	Overlap Arg1:T25 Arg2:T59	
+R59	Overlap Arg1:T26 Arg2:T59	
+R60	Has_Duration_or_Interval Arg1:T29 Arg2:T62	
+#61	AnnotatorNotes T29	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+R61	Has_Duration_or_Interval Arg1:T28 Arg2:T62	
+R62	Has_Duration_or_Interval Arg1:T27 Arg2:T62	
+R63	Experiences Arg1:T63 Arg2:T30	
+R64	Used_for Arg1:T30 Arg2:T31	
+R65	Experiences Arg1:T63 Arg2:T45	
+R67	Experiences Arg1:T63 Arg2:T32	
+R68	Experiences Arg1:T63 Arg2:T33	
+R69	Experiences Arg1:T63 Arg2:T34	
+R70	Used_for Arg1:T32 Arg2:T31	
+R71	Used_for Arg1:T33 Arg2:T31	
+R72	Used_for Arg1:T34 Arg2:T31	
+R73	Before Arg1:T35 Arg2:T46	
+R74	Before Arg1:T10 Arg2:T7	
+T77	Quantifier_or_Qualifier 1068 1099	estadísticamente significativas
+A6	Assertion T77 Negated
+#62	AnnotatorNotes T77	C0237881; Statistical Significance; Quantitative Concept
+R75	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T77	
+R76	Negation Arg1:T61 Arg2:T77	
+T78	Quantifier_or_Qualifier 1193 1224	estadísticamente significativas
+A7	Assertion T78 Negated
+#63	AnnotatorNotes T78	C0237881; Statistical Significance; Quantitative Concept
+R77	Has_Quantifier_or_Qualifier Arg1:T68 Arg2:T78	
+R78	Negation Arg1:T67 Arg2:T78	
+T79	Quantifier_or_Qualifier 1390 1408	significativamente
+A8	Assertion T79 Negated
+#64	AnnotatorNotes T79	C0750502; Significant; Idea or Concept
+R79	Has_Quantifier_or_Qualifier Arg1:T72 Arg2:T79	
+R80	Negation Arg1:T71 Arg2:T79	
+#65	AnnotatorNotes T76	C0205539; Scheduled - procedure status; Qualitative Concept
+R43	Experiences Arg1:T63 Arg2:T21	
+#66	AnnotatorNotes T69	C0439092; Less Than; Quantitative Concept
+A9	Experiencer T47 Patient
+A10	Experiencer T49 Patient
+A11	Experiencer T73 Patient
+A12	Experiencer T63 Patient

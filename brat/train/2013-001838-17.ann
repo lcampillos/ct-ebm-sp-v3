@@ -1,0 +1,147 @@
+T1	PROC 46 83	Evaluación de la eficacia y seguridad
+T2	PROC 115 220	ENSAYO CLÍNICO MULTICÉNTRICO, PROSPECTIVO ALEATORIZADO, DOBLE CIEGO, PARALELO CONTROLADO FRENTE A PLACEBO
+T3	PROC 629 665	consentimiento informado por escrito
+#1	AnnotatorNotes T3	C0811741; Obtain informed written consent; Health Care Activity
+T4	ANAT 282 293	MUCOSA ORAL
+#2	AnnotatorNotes T4	C0026639; Oral mucous membrane structure; Body Part, Organ, or Organ Component
+T5	DISO 336 357	INFECCIONES URINARIAS
+#3	AnnotatorNotes T5	C0042029; Urinary tract infection; Disease or Syndrome
+T6	PROC 380 433	EVALUACIÓN DE LA EFICACIA INMUNOMODULADORA, SEGURIDAD
+T7	DISO 475 496	Infecciones urinarias
+#4	AnnotatorNotes T7	C0042029; Urinary tract infection; Disease or Syndrome
+T8	DISO 537 582	Infecciones de repetición del tracto urinario
+T9	ANAT 567 582	tracto urinario
+#5	AnnotatorNotes T9	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T10	DISO 831 839	cistitis
+#6	AnnotatorNotes T10	C0010692; Cystitis; Disease or Syndrome
+T11	PROC 934 957	tratamientos supresivos
+T12	PROC 962 972	profilaxis
+#7	AnnotatorNotes T12	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T13	DISO 1170 1194	trastornos psiquiátricos
+#8	AnnotatorNotes T13	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T14	CHEM 87 92	MV140
+#9	AnnotatorNotes T14	C3659064; uromune; Immunologic Factor · Pharmacologic Substance
+T15	DISO 1261 1274	incontinencia
+#10	AnnotatorNotes T15	C0021167; Incontinence; Disease or Syndrome | C0042024; Urinary Incontinence; Pathologic Function
+T16	DISO 1303 1320	tumores genitales
+T17	ANAT 1311 1320	genitales
+#11	AnnotatorNotes T17	C0017420; Genitalia; Body Part, Organ, or Organ Component | C0227605; External genitalia; Body Part, Organ, or Organ Component | C0559522; Genital system; Body System
+T18	DISO 1333 1358	tumores en vías urinarias
+T19	ANAT 1344 1358	vías urinarias
+#12	AnnotatorNotes T19	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T20	DISO 1372 1380	litiasis
+#13	AnnotatorNotes T20	C0023869; Lithiasis; Pathologic Function
+T21	DISO 1394 1433	alteraciones en el sistema inmunológico
+T22	ANAT 1413 1433	sistema inmunológico
+#14	AnnotatorNotes T22	C0020962; Immune system; Body System | C1305754; Entire immune system; Body System
+T23	CHEM 228 257	VACUNA BACTERIANA POLIVALENTE
+T24	ANAT 348 357	URINARIAS
+#15	AnnotatorNotes T24	C1508753; Urinary system; Body System
+T25	ANAT 487 496	urinarias
+#16	AnnotatorNotes T25	C1508753; Urinary system; Body System
+T26	PROC 750 773	régimen de dosificación
+T27	PROC 1034 1070	consentimiento informado por escrito
+#17	AnnotatorNotes T27	C0811741; Obtain informed written consent; Health Care Activity
+T28	PROC 901 929	medidas higiénico-sanitarias
+T29	DISO 1215 1247	residuo postmiccional patológico
+T30	Date 13 17	2013
+T31	Route 263 277	VÍA SUBLINGUAL
+T33	Duration 297 307	TRES MESES
+T34	Duration 310 320	SEIS MESES
+T35	LIVB 324 331	MUJERES
+#18	AnnotatorNotes T35	C0043210; Woman; Population Group
+T37	LIVB 669 676	Mujeres
+#19	AnnotatorNotes T37	C0043210; Woman; Population Group
+T38	Age 696 714	entre 18 y 75 años
+T39	LIVB 777 784	Sujetos
+#20	AnnotatorNotes T39	C0681850; Study Subject; Group
+T40	Duration 843 863	los últimos 12 meses
+T41	LIVB 867 874	Sujetos
+#21	AnnotatorNotes T41	C0681850; Study Subject; Group
+T44	Neg_cue 1013 1015	No
+T48	LIVB 235 245	BACTERIANA
+#22	AnnotatorNotes T48	C0004611; Bacteria; Bacterium
+T32	Time 973 983	postcoital
+T36	Time 1223 1236	postmiccional
+A1	Assertion T27 Negated
+A2	Status T10 History_of
+A3	Status T28 History_of
+A4	Status T11 History_of
+A5	Status T12 History_of
+#23	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#24	AnnotatorNotes T23	C3659064; uromune; Immunologic Factor · Pharmacologic Substance
+#25	AnnotatorNotes T31	C2316433; Administration of substance via sublingual route; Therapeutic or Preventive Procedure 
+#26	AnnotatorNotes T2	C1096776; Multicenter Study; Research Activity + C0033522; Prospective Studies; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#27	AnnotatorNotes T6	C1963758; Immunomodulation; Therapeutic or Preventive Procedure + C0511730; Identify product efficacy and safety issues; Health Care Activity
+#28	AnnotatorNotes T8	C0262655; Recurrent urinary tract infection; Disease or Syndrome 
+#29	AnnotatorNotes T11	C0563648; Suppression treatment; Therapeutic or Preventive Procedure 
+#30	AnnotatorNotes T18	C0042076; Urologic Neoplasms; Neoplastic Process 
+#31	AnnotatorNotes T21	C4021753; Abnormality of the immune system; Pathologic Function (?)
+T42	Neg_cue 879 881	no
+T43	Observation 888 898	respondido
+A6	Assertion T43 Negated
+#32	AnnotatorNotes T43	C4055223; Clinical Response; Finding
+R1	Negation Arg1:T42 Arg2:T43	
+R2	Overlap Arg1:T43 Arg2:T28	
+R3	Overlap Arg1:T43 Arg2:T11	
+R4	Overlap Arg1:T43 Arg2:T12	
+R5	Overlap Arg1:T12 Arg2:T32	
+T45	CONC 1100 1113	rango de edad
+A7	Assertion T45 Negated
+#33	AnnotatorNotes T45	C5418925; Study Age Range; Quantitative Concept
+T46	Neg_cue 1079 1081	no
+R6	Negation Arg1:T46 Arg2:T45	
+T47	Neg_cue 1129 1131	No
+T49	Observation 1147 1158	cooperación
+A8	Assertion T49 Negated
+#34	AnnotatorNotes T49	C1998024; Cooperative mental state; Finding (?)
+R7	Negation Arg1:T47 Arg2:T49	
+R8	Location_of Arg1:T25 Arg2:T7	
+R9	Location_of Arg1:T9 Arg2:T8	
+R10	Location_of Arg1:T24 Arg2:T5	
+T50	Quantifier_or_Qualifier 808 827	mínimo, 3 episodios
+R11	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T50	
+R12	Overlap Arg1:T10 Arg2:T40	
+R13	Experiences Arg1:T39 Arg2:T10	
+R14	Experiences Arg1:T41 Arg2:T43	
+R15	Experiences Arg1:T41 Arg2:T11	
+R16	Experiences Arg1:T41 Arg2:T28	
+R17	Experiences Arg1:T41 Arg2:T12	
+R18	Negation Arg1:T44 Arg2:T27	
+T51	Quantifier_or_Qualifier 1195 1201	graves
+#35	AnnotatorNotes T51	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R19	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T51	
+R20	Overlap Arg1:T49 Arg2:T13	
+R21	Overlap Arg1:T29 Arg2:T36	
+T52	Quantifier_or_Qualifier 1275 1289	moderada-grave
+#36	AnnotatorNotes T52	C1299393; Moderate to severe; Qualitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T52	
+R23	Location_of Arg1:T17 Arg2:T16	
+#37	AnnotatorNotes T16	C0679347; Genital neoplasm; Neoplastic Process | C2314937; Malignant neoplasm of genital structure; Neoplastic Process
+R24	Location_of Arg1:T19 Arg2:T18	
+R25	Location_of Arg1:T22 Arg2:T21	
+R26	Has_Route_or_Mode Arg1:T23 Arg2:T31	
+R27	Location_of Arg1:T4 Arg2:T23	
+R28	Before Arg1:T23 Arg2:T33	
+R29	Before Arg1:T23 Arg2:T34	
+R30	Experiences Arg1:T35 Arg2:T23	
+R31	Experiences Arg1:T35 Arg2:T5	
+T53	Quantifier_or_Qualifier 358 371	DE REPETICIÓN
+#38	AnnotatorNotes T53	C2945760; Recurrent; Temporal Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T53	
+T54	Observation 436 451	IMPACTO CLÍNICO
+#39	AnnotatorNotes T54	C0235735; Unexpected therapeutic effect; Finding (?)
+R33	Experiences Arg1:T35 Arg2:T54	
+R34	Causes Arg1:T23 Arg2:T54	
+T55	Quantifier_or_Qualifier 497 510	de repetición
+#40	AnnotatorNotes T55	C2945760; Recurrent; Temporal Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T55	
+T56	Observation 728 773	capaces de cumplir el régimen de dosificación
+#41	AnnotatorNotes T56	C2364172; Adherence To Medication Regime; Finding (?)
+R36	Overlap Arg1:T56 Arg2:T26	
+#42	AnnotatorNotes T32	C1439871; post coitus; Temporal Concept
+#43	AnnotatorNotes T26	C4684645; Dosage Regimen; Therapeutic or Preventive Procedure
+A9	Experiencer T35 Patient
+A10	Experiencer T37 Patient
+A11	Experiencer T39 Patient
+A12	Experiencer T41 Patient

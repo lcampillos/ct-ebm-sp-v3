@@ -1,0 +1,226 @@
+T1	PROC 88 95	placebo
+#1	AnnotatorNotes T1	C0032042; Placebos; Therapeutic or Preventive Procedure
+T2	DISO 113 132	artritis psoriásica
+#2	AnnotatorNotes T2	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T3	PROC 236 259	terapia(s) biológica(s)
+T4	PROC 283 324	Estudio fase 3, aleatorizado, doble ciego
+T5	PROC 359 366	placebo
+#3	AnnotatorNotes T5	C0032042; Placebos; Therapeutic or Preventive Procedure
+T6	DISO 384 403	artritis psoriásica
+#4	AnnotatorNotes T6	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T7	DISO 499 511	intolerancia
+#5	AnnotatorNotes T7	C0277585; Intolerance to drug; Pathologic Function
+T8	PROC 514 531	terapia biológica
+#6	AnnotatorNotes T8	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure
+T9	DISO 559 561	AP
+#7	AnnotatorNotes T9	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T10	DISO 569 592	enfermedad inflamatoria
+T11	ANAT 626 640	articulaciones
+#8	AnnotatorNotes T11	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T12	ANAT 654 658	piel
+#9	AnnotatorNotes T12	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T13	DISO 675 684	hinchazón
+#10	AnnotatorNotes T13	C0038999; Swelling; Finding
+T14	DISO 686 715	rigidez en las articulaciones
+#11	AnnotatorNotes T14	C0162298; Joint stiffness; Sign or Symptom
+T15	ANAT 602 613	sist inmune
+T16	ANAT 748 752	piel
+#12	AnnotatorNotes T16	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T17	DISO 780 799	Artritis Psoriásica
+#13	AnnotatorNotes T17	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T18	PROC 828 847	Diagnóstico clínico
+#14	AnnotatorNotes T18	C0332140; Diagnosis, clinical; Diagnostic Procedure
+T19	DISO 858 866	síntomas
+#15	AnnotatorNotes T19	C1457887; Symptoms; Sign or Symptom
+T20	CHEM 1369 1376	FARMEsc
+#16	AnnotatorNotes T20	C4054347; Non-Biologic Disease-Modifying Antirheumatic Drug; Pharmacologic Substance (?) [fármaco modificador de enfermedad sintético convencional, 'conventional synthetic disease-modifying antirheumatic drugs (DMARD)']
+T21	DISO 1026 1036	Enfermedad
+#17	AnnotatorNotes T21	C0012634; Disease; Disease or Syndrome
+T22	PROC 1065 1076	Diagnóstico
+#18	AnnotatorNotes T22	C0011900; Diagnosis; Diagnostic Procedure
+T23	DISO 1080 1099	psoriasis en placas
+#19	AnnotatorNotes T23	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T24	CHEM 1577 1589	Risankizumab
+#20	AnnotatorNotes T24	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T25	DISO 1124 1140	placa psoriásica
+T26	DISO 1299 1311	intolerancia
+#21	AnnotatorNotes T26	C0277585; Intolerance to drug; Pathologic Function
+T27	DISO 1162 1184	alteraciones ungueales
+T28	DISO 1201 1210	psoriasis
+#22	AnnotatorNotes T28	C0033860; Psoriasis; Disease or Syndrome
+T29	PROC 1315 1326	tratamiento
+#23	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	PROC 1357 1364	terapia
+#24	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	PROC 1331 1354	terapia(S) biológica(s)
+T32	DISO 1548 1565	hipersensibilidad
+#25	AnnotatorNotes T32	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T33	CHEM 66 78	Risankizumab
+#26	AnnotatorNotes T33	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T34	DISO 221 233	intolerancia
+#27	AnnotatorNotes T34	C0277585; Intolerance to drug; Pathologic Function
+T35	CHEM 337 349	Risankizumab
+#28	AnnotatorNotes T35	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T36	DISO 405 407	AP
+#29	AnnotatorNotes T36	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T37	DISO 718 752	parches escamosos rojos en la piel
+T38	DISO 668 673	dolor
+#30	AnnotatorNotes T38	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T39	ANAT 701 715	articulaciones
+#31	AnnotatorNotes T39	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T40	DISO 851 853	AP
+#32	AnnotatorNotes T40	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T41	DISO 994 996	AP
+#33	AnnotatorNotes T41	C0003872; Arthritis, Psoriatic; Disease or Syndrome
+T42	ANAT 1175 1184	ungueales
+#34	AnnotatorNotes T42	C0027342; Nail plate; Body Part, Organ, or Organ Component
+T43	Date 13 17	2017
+T44	LIVB 99 108	pacientes
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 370 379	pacientes
+#36	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T48	Duration 878 894	al menos 6 meses
+T49	LIVB 1243 1251	paciente
+#37	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 1409 1417	paciente
+#38	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 1440 1462	investigador principal
+#39	AnnotatorNotes T51	C1521895; Principal Investigator; Professional or Occupational Group
+T53	LIVB 1529 1537	paciente
+#40	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T46	PROC 907 926	visita de selección
+#41	AnnotatorNotes T46	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T47	PROC 1003 1022	visita de selección
+#42	AnnotatorNotes T47	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T52	PROC 1217 1236	visita de selección
+#43	AnnotatorNotes T52	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T54	PROC 1050 1056	visita
+#44	AnnotatorNotes T54	C1512346; Patient Visit; Health Care Activity
+T55	Quantifier_or_Qualifier 1057 1062	basal
+#45	AnnotatorNotes T55	C1442488; Baseline; Quantitative Concept
+A1	Status T32 History_of
+A2	Status T34 History_of
+A3	Status T3 History_of
+A4	Status T7 History_of
+A5	Status T8 History_of
+A6	Status T26 History_of
+A7	Status T29 History_of
+A8	Status T31 History_of
+A9	Status T30 History_of
+A10	Status T20 History_of
+#46	AnnotatorNotes T4	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#47	AnnotatorNotes T3	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure
+#48	AnnotatorNotes T10	C1290884; Inflammatory disorder; Disease or Syndrome 
+#49	AnnotatorNotes T15	C0020962; Immune system; Body System | C1305754; Entire immune system; Body System
+#50	AnnotatorNotes T25	C0920235; Psoriatic plaque; Disease or Syndrome 
+#51	AnnotatorNotes T31	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure
+T56	Observation 1498 1522	adecuado para el estudio
+A11	Assertion T56 Negated
+#52	AnnotatorNotes T56	C1302261; Patient eligible for clinical trial; Finding (?)
+T57	Neg_cue 1495 1497	no
+T58	Observation 1276 1296	respuesta inadecuada
+#53	AnnotatorNotes T58	C0858218; Inappropriate drug response; Finding
+T59	Observation 198 218	respuesta inadecuada
+#54	AnnotatorNotes T59	C0858218; Inappropriate drug response; Finding
+T60	Observation 476 496	respuesta inadecuada
+A12	Status T60 History_of
+#55	AnnotatorNotes T60	C0858218; Inappropriate drug response; Finding
+A13	Status T59 History_of
+R1	Causes Arg1:T3 Arg2:T34	
+R2	Overlap Arg1:T59 Arg2:T3	
+R3	Overlap Arg1:T60 Arg2:T8	
+R4	Causes Arg1:T8 Arg2:T7	
+R5	Experiences Arg1:T49 Arg2:T58	
+R6	Causes Arg1:T29 Arg2:T26	
+R7	Experiences Arg1:T49 Arg2:T26	
+R8	Causes Arg1:T31 Arg2:T26	
+R9	Causes Arg1:T30 Arg2:T26	
+R10	Used_for Arg1:T20 Arg2:T30	
+R11	Overlap Arg1:T58 Arg2:T29	
+R12	Overlap Arg1:T58 Arg2:T31	
+R13	Overlap Arg1:T58 Arg2:T30	
+R14	Negation Arg1:T57 Arg2:T56	
+R15	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T56	
+R16	Experiences Arg1:T53 Arg2:T32	
+R17	Causes Arg1:T24 Arg2:T32	
+R18	Experiences Arg1:T44 Arg2:T33	
+R19	Experiences Arg1:T44 Arg2:T1	
+R20	Experiences Arg1:T44 Arg2:T2	
+T61	Quantifier_or_Qualifier 133 139	activa
+#56	AnnotatorNotes T61	C0679217; Active State; Idea or Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T61	
+T62	Quantifier_or_Qualifier 409 415	activa
+#57	AnnotatorNotes T62	C0679217; Active State; Idea or Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T62	
+R23	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T62	
+T63	Quantifier_or_Qualifier 1037 1043	activa
+R24	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T63	
+T64	Quantifier_or_Qualifier 1100 1106	activa
+R25	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T64	
+#58	AnnotatorNotes T63	C0679217; Active State; Idea or Concept
+#59	AnnotatorNotes T64	C0679217; Active State; Idea or Concept
+T65	Quantifier_or_Qualifier 1111 1123	al menos una
+R26	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T65	
+T66	Result_or_Value 1141 1159	≥ 2 cm de diámetro
+R27	Has_Result_or_Value Arg1:T25 Arg2:T66	
+R28	Location_of Arg1:T42 Arg2:T27	
+R29	Overlap Arg1:T27 Arg2:T28	
+#60	AnnotatorNotes T27	C0234909; Nail changes; Finding
+R30	Overlap Arg1:T27 Arg2:T52	
+R31	Overlap Arg1:T28 Arg2:T52	
+R32	Overlap Arg1:T25 Arg2:T52	
+R33	Overlap Arg1:T23 Arg2:T27	
+R34	Location_of Arg1:T11 Arg2:T10	
+R35	Location_of Arg1:T11 Arg2:T9	
+R36	Location_of Arg1:T12 Arg2:T10	
+R37	Location_of Arg1:T12 Arg2:T9	
+R38	Causes Arg1:T9 Arg2:T38	
+R39	Causes Arg1:T10 Arg2:T38	
+R40	Causes Arg1:T10 Arg2:T13	
+R41	Causes Arg1:T10 Arg2:T14	
+R42	Causes Arg1:T10 Arg2:T37	
+R43	Causes Arg1:T9 Arg2:T13	
+R44	Causes Arg1:T9 Arg2:T14	
+R45	Causes Arg1:T9 Arg2:T37	
+R46	Location_of Arg1:T16 Arg2:T37	
+R47	Location_of Arg1:T39 Arg2:T14	
+R48	Location_of Arg1:T11 Arg2:T38	
+R49	Location_of Arg1:T11 Arg2:T13	
+R50	Causes Arg1:T40 Arg2:T19	
+R51	Has_Duration_or_Interval Arg1:T19 Arg2:T48	
+R52	Before Arg1:T19 Arg2:T46	
+T67	CONC 949 965	criterios CASPAR
+R53	Used_for Arg1:T67 Arg2:T18	
+R54	Overlap Arg1:T67 Arg2:T47	
+R55	Overlap Arg1:T46 Arg2:T67	
+R56	Overlap Arg1:T21 Arg2:T54	
+R57	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T55	
+R58	Experiences Arg1:T44 Arg2:T59	
+R59	Experiences Arg1:T44 Arg2:T34	
+R60	Experiences Arg1:T44 Arg2:T3	
+R61	Before Arg1:T59 Arg2:T33	
+R62	Before Arg1:T34 Arg2:T33	
+R63	Before Arg1:T3 Arg2:T33	
+R64	Experiences Arg1:T45 Arg2:T35	
+R65	Experiences Arg1:T45 Arg2:T5	
+R66	Experiences Arg1:T45 Arg2:T6	
+R67	Experiences Arg1:T45 Arg2:T36	
+R68	Experiences Arg1:T45 Arg2:T60	
+R69	Experiences Arg1:T45 Arg2:T7	
+R70	Experiences Arg1:T45 Arg2:T8	
+R71	Before Arg1:T60 Arg2:T35	
+R72	Before Arg1:T7 Arg2:T35	
+R73	Before Arg1:T8 Arg2:T35	
+R74	Before Arg1:T59 Arg2:T1	
+R75	Before Arg1:T34 Arg2:T1	
+R76	Before Arg1:T3 Arg2:T1	
+R77	Before Arg1:T60 Arg2:T5	
+R78	Before Arg1:T7 Arg2:T5	
+R79	Before Arg1:T8 Arg2:T5	
+R80	Before Arg1:T19 Arg2:T47	
+A14	Experiencer T44 Patient
+A15	Experiencer T45 Patient
+A16	Experiencer T49 Patient
+A17	Experiencer T50 Patient
+A18	Experiencer T51 Other
+A19	Experiencer T53 Patient

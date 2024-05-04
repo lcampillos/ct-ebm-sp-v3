@@ -1,0 +1,190 @@
+T1	PROC 119 150	Comparar la eficacia, seguridad
+#1	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T2	CHEM 90 98	opioides
+#2	AnnotatorNotes T2	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T3	CHEM 201 213	acetaminofén
+#3	AnnotatorNotes T3	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T4	CHEM 243 250	codeína
+#4	AnnotatorNotes T4	C0009214; codeine; Pharmacologic Substance
+T5	PROC 498 507	Karnofsky
+#5	AnnotatorNotes T5	C0206065; Karnofsky Performance Status; Diagnostic Procedure
+T6	DISO 562 574	drogadicción
+#6	AnnotatorNotes T6	C1510472; Drug Dependence; Mental or Behavioral Dysfunction
+T7	DISO 576 606	insuficiencia renal o hepática
+T8	ANAT 598 606	hepática
+#7	AnnotatorNotes T8	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T9	CHEM 664 676	acetaminofén
+#8	AnnotatorNotes T9	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T10	CHEM 705 712	codeína
+#9	AnnotatorNotes T10	C0009214; codeine; Pharmacologic Substance
+T11	PROC 729 739	evaluación
+#10	AnnotatorNotes T11	C1261322; Evaluation procedure; Health Care Activity
+T12	PROC 750 759	controles
+#11	AnnotatorNotes T12	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T13	PROC 794 803	analgesia
+#12	AnnotatorNotes T13	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T14	CHEM 1108 1120	acetaminofén
+#13	AnnotatorNotes T14	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T15	DISO 840 859	efectos colaterales
+#14	AnnotatorNotes T15	C0879626; Adverse effects; Pathologic Function
+T16	CHEM 1149 1156	codeína
+#15	AnnotatorNotes T16	C0009214; codeine; Pharmacologic Substance
+T17	PROC 1246 1258	tratamientos
+#16	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	CHEM 1338 1350	acetaminofén
+#17	AnnotatorNotes T18	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T19	CHEM 1369 1376	codeína
+#18	AnnotatorNotes T19	C0009214; codeine; Pharmacologic Substance
+T20	CHEM 1418 1425	codeína
+#19	AnnotatorNotes T20	C0009214; codeine; Organic Chemical · Pharmacologic Substance
+T21	DISO 1439 1452	estreñimiento
+#20	AnnotatorNotes T21	C0009806; Constipation; Sign or Symptom | C0221152; Obstipation; Disease or Syndrome
+T22	CHEM 1584 1591	codeína
+#21	AnnotatorNotes T22	C0009214; codeine; Organic Chemical · Pharmacologic Substance
+T23	DISO 1605 1618	estreñimiento
+#22	AnnotatorNotes T23	C0009806; Constipation; Sign or Symptom | C0221152; Obstipation; Disease or Syndrome
+T24	CHEM 1629 1641	acetaminofén
+#23	AnnotatorNotes T24	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T25	PROC 35 64	escalera analgésica de la OMS
+#24	AnnotatorNotes T25	C1520111; WHO Analgesic Method; Therapeutic or Preventive Procedure
+T26	DISO 180 196	dolor por cáncer
+#25	AnnotatorNotes T26	C0596240; Cancer Pain; Sign or Symptom
+T27	PROC 652 659	tratado
+#26	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	PROC 312 341	escalera analgésica de la OMS
+#27	AnnotatorNotes T28	C1520111; WHO Analgesic Method; Therapeutic or Preventive Procedure
+T29	PROC 367 419	ensayo clínico controlado, aleatorizado, doble ciego
+#28	AnnotatorNotes T29	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T30	DISO 447 463	dolor por cáncer
+#29	AnnotatorNotes T30	C0596240; Cancer Pain; Sign or Symptom
+T31	ANAT 590 595	renal
+#30	AnnotatorNotes T31	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T32	DISO 832 837	dolor
+#31	AnnotatorNotes T32	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T33	DISO 1565 1570	dolor
+#32	AnnotatorNotes T33	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T36	Age 423 441	mayores de 18 años
+T38	Neg_cue 518 531	Se excluyeron
+T39	LIVB 532 541	pacientes
+#33	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	PHYS 609 617	embarazo
+#34	AnnotatorNotes T40	C0032961; Pregnancy; Organism Function
+T41	Frequency 760 767	diarios
+T42	Duration 776 782	7 días
+T46	LIVB 1086 1095	pacientes
+#35	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T48	CONC 1292 1305	primera dosis
+T50	Duration 1322 1332	41 minutos
+T51	Duration 1353 1363	34 minutos
+A1	Assertion T39 Negated
+A2	Assertion T6 Negated
+A3	Assertion T7 Negated
+A4	Assertion T40 Negated
+A5	Status T6 History_of
+T34	Quantifier_or_Qualifier 99 106	débiles
+#36	AnnotatorNotes T34	C1762617; Weak; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T34	
+T35	Neg_cue 1158 1160	No
+T37	CONC 1176 1187	diferencias
+A6	Assertion T37 Negated
+R2	Negation Arg1:T35 Arg2:T37	
+T43	CONC 1497 1508	diferencias
+A7	Assertion T43 Negated
+#37	AnnotatorNotes T43	C1705241; Delta (difference); Quantitative Concept
+T44	Neg_cue 1479 1481	No
+R3	Negation Arg1:T44 Arg2:T43	
+#38	AnnotatorNotes T37	C1705241; Delta (difference); Quantitative Concept
+R4	Location_of Arg1:T8 Arg2:T7	
+R5	Location_of Arg1:T31 Arg2:T7	
+T45	Observation 169 196	alivio del dolor por cáncer
+T47	Observation 999 1005	alivio
+#40	AnnotatorNotes T47	C0564405; Feeling relief; Finding
+T49	Observation 821 837	alivio del dolor
+#41	AnnotatorNotes T49	C1998289; Pain relief by medication; Finding
+T52	Observation 1554 1571	alivio del dolor.
+#42	AnnotatorNotes T52	C1998289; Pain relief by medication; Finding
+R6	Has_Dose_or_Strength Arg1:T18 Arg2:T48	
+T53	Observation 1311 1317	alivio
+#43	AnnotatorNotes T53	C0564405; Feeling relief; Finding
+R7	Overlap Arg1:T53 Arg2:T50	
+R8	Causes Arg1:T18 Arg2:T53	
+R9	Has_Dose_or_Strength Arg1:T19 Arg2:T48	
+R10	Causes Arg1:T19 Arg2:T53	
+R11	Overlap Arg1:T53 Arg2:T51	
+R12	Before Arg1:T20 Arg2:T21	
+R13	Before Arg1:T22 Arg2:T23	
+R14	Before Arg1:T24 Arg2:T23	
+#44	AnnotatorNotes R12	[Probably a Causes relation]
+#45	AnnotatorNotes R13	[Probably a Causes relation]
+R15	Causes Arg1:T3 Arg2:T45	
+R17	Before Arg1:T26 Arg2:T45	
+T54	Quantifier_or_Qualifier 467 495	intensidad moderada o severa
+R18	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T54	
+T55	Result_or_Value 508 516	≥ 50/100
+R19	Has_Result_or_Value Arg1:T5 Arg2:T55	
+R20	Negation Arg1:T38 Arg2:T39	
+R21	Negation Arg1:T38 Arg2:T6	
+R22	Experiences Arg1:T39 Arg2:T6	
+R23	Experiences Arg1:T39 Arg2:T7	
+R24	Experiences Arg1:T39 Arg2:T40	
+R25	Negation Arg1:T38 Arg2:T7	
+R26	Negation Arg1:T38 Arg2:T40	
+R27	Used_for Arg1:T9 Arg2:T27	
+R28	Combined_with Arg1:T67 Arg2:T10	
+T56	Quantifier_or_Qualifier 740 747	inicial
+R29	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T56	
+R30	Has_Frequency Arg1:T12 Arg2:T41	
+R31	Has_Duration_or_Interval Arg1:T12 Arg2:T42	
+T57	CONC 805 837	tiempo hasta el alivio del dolor
+R33	Used_for Arg1:T57 Arg2:T12	
+R35	Before Arg1:T32 Arg2:T49	
+R36	Before Arg1:T33 Arg2:T52	
+R37	Before Arg1:T11 Arg2:T12	
+R38	Before Arg1:T11 Arg2:T49	
+R39	Before Arg1:T11 Arg2:T15	
+T58	CONC 879 899	pruebas Chi cuadrado
+#39	AnnotatorNotes T58	C0008041; Chi-Square Test; Intellectual Product
+T59	CONC 902 908	Fisher
+#46	AnnotatorNotes T59	C1708064; Fisher's Exact Test; Intellectual Product
+T60	CONC 941 946	ANOVA
+#47	AnnotatorNotes T60	C0002780; Analysis of Variance; Quantitative Concept
+T61	CONC 982 1005	tiempo en lograr alivio
+T62	CONC 1030 1051	curva de Kaplan-Meier
+#48	AnnotatorNotes T62	C1720944; Kaplan-Meier Survival Curves; Quantitative Concept
+R40	Experiences Arg1:T46 Arg2:T14	
+R41	Experiences Arg1:T46 Arg2:T70	
+T63	CONC 1538 1570	tiempo hasta el alivio del dolor
+#49	AnnotatorNotes T54	C1299393; Moderate to severe; Qualitative Concept
+T64	Quantifier_or_Qualifier 1188 1219	estadísticamente significativas
+A8	Assertion T64 Negated
+#50	AnnotatorNotes T64	C0237881; Statistical Significance; Quantitative Concept
+R42	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T64	
+R43	Negation Arg1:T35 Arg2:T64	
+T65	Quantifier_or_Qualifier 1509 1523	significativas
+A9	Assertion T65 Negated
+#51	AnnotatorNotes T65	C0750502; Significant; Idea or Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T65	
+R45	Negation Arg1:T44 Arg2:T65	
+T66	CHEM 1381 1393	acetaminofén
+#52	AnnotatorNotes T66	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+R46	Combined_with Arg1:T19 Arg2:T66	
+T67	CHEM 688 700	acetaminofén
+#53	AnnotatorNotes T67	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+R47	Used_for Arg1:T67 Arg2:T27	
+T68	CHEM 226 238	acetaminofén
+#54	AnnotatorNotes T68	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+R48	Combined_with Arg1:T68 Arg2:T4	
+R49	Causes Arg1:T68 Arg2:T45	
+#55	AnnotatorNotes T56	C0205265; Initially; Temporal Concept
+R16	Before Arg1:T11 Arg2:T13	
+T69	CONC 879 886;937 938	pruebas T
+#56	AnnotatorNotes T69	C0871453; Students T Test; Intellectual Product (?)
+T70	CHEM 1132 1144	acetaminofén
+#57	AnnotatorNotes T70	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+R32	Combined_with Arg1:T70 Arg2:T16	
+#58	AnnotatorNotes R6	(?)
+#59	AnnotatorNotes R9	(?)
+#60	AnnotatorNotes T48	C5236155; Date of First Dose; Temporal Concept
+#61	AnnotatorNotes T7	C1565489; Renal Insufficiency; Disease or Syndrome + C1306571; Hepatic Insufficiency; Pathologic Function
+A10	Experiencer T46 Patient
+A11	Experiencer T39 Patient

@@ -1,0 +1,103 @@
+T1	PROC 46 60	ENSAYO CLÍNICO
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	CHEM 73 101	SOLUCIÓN DE POLIETILENGLICOL
+T3	CHEM 116 136	PICOSULFATO DE SODIO
+#2	AnnotatorNotes T3	C0071042; picosulfate sodium; Organic Chemical · Pharmacologic Substance
+T4	CHEM 137 156	CITRATO DE MAGNESIO
+#3	AnnotatorNotes T4	C0126774; magnesium citrate; Organic Chemical · Pharmacologic Substance
+T5	PROC 178 190	COLONOSCOPIA
+#4	AnnotatorNotes T5	C0009378; colonoscopy; Diagnostic Procedure
+T6	PROC 213 266	ENSAYO CLÍNICO PRAGMÁTICO, COMPARATIVO Y ALEATORIZADO
+T7	CHEM 279 307	SOLUCIÓN DE POLIETILENGLICOL
+T8	CHEM 322 342	PICOSULFATO DE SODIO
+#5	AnnotatorNotes T8	C0071042; picosulfate sodium; Organic Chemical · Pharmacologic Substance
+T9	CHEM 343 362	CITRATO DE MAGNESIO
+#6	AnnotatorNotes T9	C0126774; magnesium citrate; Organic Chemical · Pharmacologic Substance
+T10	PROC 384 420	COLONOSCOPIA DE CRIBADO Y VIGILANCIA
+T11	DISO 983 992	poliposis
+#7	AnnotatorNotes T11	C0334108; Multiple polyps; Neoplastic Process
+T12	PROC 503 540	Colonoscopia de cribado y seguimiento
+T13	PROC 568 591	Colonoscopia de cribado
+#8	AnnotatorNotes T13	C1882982; Screening colonoscopy; Diagnostic Procedure
+T14	DISO 645 663	cáncer colorrectal
+#9	AnnotatorNotes T14	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T15	PROC 665 688	Colonoscopia de cribado
+#10	AnnotatorNotes T15	C1882982; Screening colonoscopy; Diagnostic Procedure
+T16	DISO 733 751	cáncer colorrectal
+#11	AnnotatorNotes T16	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T17	PROC 753 779	Colonoscopia de vigilancia
+T18	DISO 842 863	poliposis colorrectal
+T19	DISO 865 895	Poliposis adenomatosa familiar
+#12	AnnotatorNotes T19	C0032580; Adenomatous Polyposis Coli; Neoplastic Process
+T20	DISO 938 968	cáncer colorrectal hereditario
+T21	DISO 994 1011	Síndrome de Lynch
+#13	AnnotatorNotes T21	C4552100; Lynch Syndrome; Disease or Syndrome
+T22	DISO 1013 1032	CCR familiar tipo X
+#14	AnnotatorNotes T22	C3896578; Familial Colorectal Cancer Type X; Neoplastic Process
+T23	ANAT 652 663	colorrectal
+#15	AnnotatorNotes T23	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T24	ANAT 740 751	colorrectal
+#16	AnnotatorNotes T24	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T25	ANAT 852 863	colorrectal
+#17	AnnotatorNotes T25	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T26	ANAT 945 956	colorrectal
+#18	AnnotatorNotes T26	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T27	Date 13 17	2019
+T28	Form 73 81	SOLUCIÓN
+#19	AnnotatorNotes T28	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T29	Form 279 287	SOLUCIÓN
+#20	AnnotatorNotes T29	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T30	LIVB 444 451	Sujetos
+#21	AnnotatorNotes T30	C0681850; Study Subject; Group
+T31	Age 458 476	mayores de 50 años
+T32	Age 595 613	mayores de 50 años
+T33	Neg_cue 614 617	sin
+T34	LIVB 692 701	pacientes
+#22	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T37	Neg_cue 969 971	no
+A1	Status T14 Family_history_of
+A2	Assertion T14 Negated
+A3	Status T16 Family_history_of
+A4	Assertion T11 Negated
+A5	Status T18 Family_history_of
+A10	Status T18 Family_history_of
+A6	Status T20 History_of
+A11	Status T20 Family_history_of
+A7	Status T19 History_of
+A12	Status T19 Family_history_of
+A8	Status T21 History_of
+A13	Status T21 Family_history_of
+A9	Status T22 History_of
+A14	Status T22 Family_history_of
+#23	AnnotatorNotes T6	C4684737; Pragmatic Trial; Research Activity + C1579762; comparative study research; Research Activity + C0034656; Randomization; Research Activity
+R1	Location_of Arg1:T24 Arg2:T16	
+R2	Location_of Arg1:T23 Arg2:T14	
+R3	Negation Arg1:T33 Arg2:T14	
+R4	Overlap Arg1:T13 Arg2:T32	
+R5	Experiences Arg1:T34 Arg2:T15	
+R6	Experiences Arg1:T34 Arg2:T16	
+R7	Has_Age Arg1:T30 Arg2:T31	
+T35	Quantifier_or_Qualifier 452 457	sanos
+#24	AnnotatorNotes T35	C3898900; Healthy; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T35	
+R9	Has_Drug_Form Arg1:T2 Arg2:T28	
+R10	Has_Drug_Form Arg1:T7 Arg2:T29	
+R11	Combined_with Arg1:T3 Arg2:T4	
+R12	Combined_with Arg1:T8 Arg2:T9	
+#25	AnnotatorNotes T10	C1882982; Screening colonoscopy; Diagnostic Procedure + C0733511; Medical Surveillance; Health Care Activity (?)
+#26	AnnotatorNotes T12	C1882982; Screening colonoscopy; Diagnostic Procedure + C0733511; Medical Surveillance; Health Care Activity (?)
+R17	Location_of Arg1:T25 Arg2:T18	
+R18	Location_of Arg1:T25 Arg2:T19	
+R19	Location_of Arg1:T26 Arg2:T20	
+R20	Negation Arg1:T37 Arg2:T11	
+#27	AnnotatorNotes T18	C0949059; Polyp of large intestine; Neoplastic Process
+R23	Overlap Arg1:T20 Arg2:T11	
+T36	Dose 105 112	1 LITRO
+R13	Has_Dose_or_Strength Arg1:T2 Arg2:T36	
+T38	Dose 311 318	1 LITRO
+R14	Has_Dose_or_Strength Arg1:T7 Arg2:T38	
+#28	AnnotatorNotes T17	C0009378; colonoscopy; Diagnostic Procedure + C0733511; Medical Surveillance; Health Care Activity (?)
+#29	AnnotatorNotes T7	C0032483; polyethylene glycols; Organic Chemical · Pharmacologic Substance (?)
+#30	AnnotatorNotes T2	C0032483; polyethylene glycols; Organic Chemical · Pharmacologic Substance (?)
+A15	Experiencer T34 Patient
+A16	Experiencer T30 Patient

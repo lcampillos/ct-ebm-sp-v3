@@ -1,0 +1,183 @@
+T1	PROC 46 65	INSTILACIÓN VESICAL
+T2	PROC 69 82	QUIMIOTERAPIA
+#1	AnnotatorNotes T2	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T3	PROC 95 127	RESECCIÓN TRANSURETRAL DE VEJIGA
+#2	AnnotatorNotes T3	C0565251; Transurethral bladder excision; Therapeutic or Preventive Procedure
+T4	ANAT 121 127	VEJIGA
+#3	AnnotatorNotes T4	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T5	PROC 134 145	TRATAMIENTO
+#4	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 150 166	CÁNCER DE VEJIGA
+#5	AnnotatorNotes T6	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T7	PROC 243 292	INSTILACIÓN VESICAL DE QUIMIOTERAPIA NEOADYUVANTE
+#6	AnnotatorNotes T7	C4272610; neoadjuvant chemotherapy for malignant neoplasm; Therapeutic or Preventive Procedure (?)
+T8	PROC 298 330	RESECCIÓN TRANSURETRAL DE VEJIGA
+#7	AnnotatorNotes T8	C0565251; Transurethral bladder excision; Therapeutic or Preventive Procedure
+T9	ANAT 324 330	VEJIGA
+#8	AnnotatorNotes T9	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T10	PROC 339 364	PREVENCIÓN DE RECURRENCIA
+#9	AnnotatorNotes T10	C0679867; Relapse Prevention; Therapeutic or Preventive Procedure
+T11	DISO 369 408	CARCINOMA UROTELIAL NO MÚSCULO INVASIVO
+T12	ANAT 392 399	MÚSCULO
+#10	AnnotatorNotes T12	C0026845; Muscle Tissue; Tissue
+T13	DISO 432 451	Carcinoma urotelial
+#11	AnnotatorNotes T13	C2145472; Urothelial Carcinoma; Neoplastic Process 
+T14	DISO 478 517	Carcinoma urotelial no músculo invasivo
+T15	ANAT 501 508	músculo
+#12	AnnotatorNotes T15	C0026845; Muscle Tissue; Tissue
+T16	DISO 670 683	tumor vesical
+T17	DISO 776 779	CIS
+#13	AnnotatorNotes T17	C0007099; Carcinoma in Situ; Neoplastic Process | C0851135; In situ cancer; Neoplastic Process
+T18	DISO 781 798	Carcinoma in situ
+#14	AnnotatorNotes T18	C0007099; Carcinoma in Situ; Neoplastic Process | C0851135; In situ cancer; Neoplastic Process
+T19	DISO 853 863	enfermedad
+#15	AnnotatorNotes T19	C0012634; Disease; Disease or Syndrome
+T20	PROC 903 922	escala de Karnofsky
+#16	AnnotatorNotes T20	C0206065; Karnofsky Performance Status; Diagnostic Procedure
+T21	DISO 1070 1114	Tumores de aspecto sólido o músculo invasivo
+T22	ANAT 1098 1105	músculo
+#17	AnnotatorNotes T22	C0026845; Muscle Tissue; Tissue
+T23	PROC 1121 1132	cistoscopia
+#18	AnnotatorNotes T23	C0010702; Cystoscopy; Diagnostic Procedure
+T24	PROC 1015 1039	consentimiento informado
+#19	AnnotatorNotes T24	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T25	PROC 1233 1244	seguimiento
+#20	AnnotatorNotes T25	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T26	PROC 1351 1372	evaluación individual
+T27	ANAT 160 166	VEJIGA
+#21	AnnotatorNotes T27	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T28	PROC 190 226	ENSAYO CLÍNICO ALEATORIZADO, ABIERTO
+T29	PROC 702 706	RTUV
+#22	AnnotatorNotes T29	C0565251; Transurethral bladder excision; Therapeutic or Preventive Procedure
+T30	ANAT 379 388	UROTELIAL
+#23	AnnotatorNotes T30	C0227598; Urothelium; Tissue
+T31	ANAT 442 451	urotelial
+#24	AnnotatorNotes T31	C0227598; Urothelium; Tissue
+T32	ANAT 488 497	urotelial
+#25	AnnotatorNotes T32	C0227598; Urothelium; Tissue
+T33	PROC 658 666	imágenes
+T34	ANAT 676 683	vesical
+#26	AnnotatorNotes T34	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T35	DISO 740 745	CVNMI
+T36	PROC 1137 1154	pruebas de imagen
+#27	AnnotatorNotes T36	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T37	Date 13 17	2017
+T40	LIVB 547 571	Pacientes de ambos sexos
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T41	Age 596 614	entre 18 y 70 años
+T42	LIVB 619 628	Pacientes
+#29	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 711 720	Pacientes
+#30	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	Neg_cue 772 775	sin
+T46	Neg_cue 844 852	libre de
+T47	Duration 867 883	al menos 6 meses
+T48	LIVB 934 943	Pacientes
+#31	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Date 1155 1169	preoperatorias
+T50	LIVB 1175 1184	Pacientes
+#32	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Neg_cue 1210 1212	no
+T53	LIVB 1270 1279	Pacientes
+#33	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 1377 1396	equipo investigador
+#34	AnnotatorNotes T55	C0035173; Research Personnel; Professional or Occupational Group
+T38	DISO 353 364	RECURRENCIA
+#35	AnnotatorNotes T38	C2825055; Recurrence (disease attribute); Pathologic Function
+A1	Assertion T17 Negated
+A2	Assertion T18 Negated
+A3	Assertion T19 Negated
+A4	Assertion T25 Negated
+A5	Status T35 History_of
+A6	Status T19 History_of
+A7	Status T17 History_of
+A8	Status T18 History_of
+#36	AnnotatorNotes T28	C1709323; Open Label Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#37	AnnotatorNotes T49	C2712277; Preoperative Period; Temporal Concept
+#38	AnnotatorNotes T1	C0021917; Instillation, Bladder; Therapeutic or Preventive Procedure
+#39	AnnotatorNotes T33	C0011923; Diagnostic Imaging; Diagnostic Procedure
+#40	AnnotatorNotes T16	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T39	Neg_cue 389 391	NO
+T44	Neg_cue 498 500	no
+T52	Neg_cue 1305 1307	no
+T54	Observation 1321 1344	incluidos en el estudio
+A9	Assertion T54 Negated
+#41	AnnotatorNotes T54	C1302261; Patient eligible for clinical trial; Finding (?)
+T56	Observation 392 408	MÚSCULO INVASIVO
+A10	Assertion T56 Negated
+#42	AnnotatorNotes T56	C4725840; Muscle Invasion; Finding
+T57	Observation 501 517	músculo invasivo
+A11	Assertion T57 Negated
+#43	AnnotatorNotes T57	C4725840; Muscle Invasion; Finding
+R1	Combined_with Arg1:T1 Arg2:T2	
+R2	Before Arg1:T1 Arg2:T3	
+R3	Location_of Arg1:T4 Arg2:T3	
+R4	Location_of Arg1:T27 Arg2:T6	
+R5	Before Arg1:T7 Arg2:T8	
+R6	Location_of Arg1:T9 Arg2:T8	
+R7	Before Arg1:T10 Arg2:T38	
+R8	Before Arg1:T11 Arg2:T38	
+R9	Location_of Arg1:T12 Arg2:T56	
+R10	Negation Arg1:T39 Arg2:T56	
+R12	Location_of Arg1:T30 Arg2:T11	
+R13	Location_of Arg1:T31 Arg2:T13	
+R14	Location_of Arg1:T32 Arg2:T14	
+R15	Location_of Arg1:T15 Arg2:T57	
+R16	Negation Arg1:T44 Arg2:T57	
+R18	Has_Age Arg1:T40 Arg2:T41	
+R20	Location_of Arg1:T34 Arg2:T16	
+R21	Before Arg1:T33 Arg2:T29	
+R22	Experiences Arg1:T42 Arg2:T33	
+R23	Experiences Arg1:T42 Arg2:T29	
+R24	Experiences Arg1:T42 Arg2:T16	
+T58	CONC 633 650	evidencia clínica
+#44	AnnotatorNotes T58	C5554846; Clinical Evidence; Idea or Concept
+R25	Negation Arg1:T45 Arg2:T17	
+R26	Negation Arg1:T45 Arg2:T18	
+R27	Experiences Arg1:T43 Arg2:T35	
+R28	Experiences Arg1:T43 Arg2:T17	
+R29	Experiences Arg1:T43 Arg2:T18	
+R30	Negation Arg1:T46 Arg2:T19	
+R31	Has_Duration_or_Interval Arg1:T19 Arg2:T47	
+T59	Result_or_Value 923 928	> 70%
+R32	Has_Result_or_Value Arg1:T20 Arg2:T59	
+T60	Observation 954 978	de acuerdo en participar
+R34	Location_of Arg1:T22 Arg2:T21	
+T61	Observation 1098 1114	músculo invasivo
+#45	AnnotatorNotes T61	C4725840; Muscle Invasion; Finding
+R36	Location_of Arg1:T22 Arg2:T61	
+R37	Overlap Arg1:T36 Arg2:T49	
+R38	Overlap Arg1:T23 Arg2:T49	
+R41	Negation Arg1:T51 Arg2:T25	
+R42	Negation Arg1:T52 Arg2:T54	
+R43	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T54	
+T62	Observation 765 767	G1
+#46	AnnotatorNotes T62	C0475269; Tumor grade G1; Finding
+T63	Observation 768 770	G3
+#47	AnnotatorNotes T63	C0475271; Tumor grade G3; Finding
+T64	Observation 758 760	Ta
+#48	AnnotatorNotes T64	C3272501; Ta Stage Finding; Finding
+R44	Experiences Arg1:T43 Arg2:T64	
+R45	Experiences Arg1:T43 Arg2:T62	
+R46	Experiences Arg1:T43 Arg2:T63	
+T65	Observation 761 763	T1
+#49	AnnotatorNotes T65	C0475372; Tumor stage T1; Finding
+R47	Experiences Arg1:T43 Arg2:T65	
+R48	Overlap Arg1:T35 Arg2:T64	
+R49	Overlap Arg1:T35 Arg2:T65	
+R50	Overlap Arg1:T35 Arg2:T62	
+R51	Overlap Arg1:T35 Arg2:T63	
+R52	Experiences Arg1:T53 Arg2:T26	
+#50	AnnotatorNotes T60	C0600109; Willing; Finding (?)
+R11	Experiences Arg1:T43 Arg2:T19	
+#51	AnnotatorNotes T11	C5418781; Non-Muscle Invasive Bladder Urothelial Carcinoma; Neoplastic Process
+#52	AnnotatorNotes T14	C5418781; Non-Muscle Invasive Bladder Urothelial Carcinoma; Neoplastic Process
+#53	AnnotatorNotes T35	C5418781; Non-Muscle Invasive Bladder Urothelial Carcinoma; Neoplastic Process
+A12	Experiencer T40 Patient
+A13	Experiencer T42 Patient
+A14	Experiencer T43 Patient
+A15	Experiencer T48 Patient
+A16	Experiencer T50 Patient
+A17	Experiencer T53 Patient
+A18	Status T25 Future
+A19	Experiencer T55 Other

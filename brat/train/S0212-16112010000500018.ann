@@ -1,0 +1,148 @@
+T1	PROC 1 18	Apoyo nutricional
+#1	AnnotatorNotes T1	C0242739; Nutritional Support; Therapeutic or Preventive Procedure
+T2	DISO 51 72	neoplasia colorrectal
+#2	AnnotatorNotes T2	C0009404; Colorectal Neoplasms; Neoplastic Process
+T3	DISO 88 100	desnutrición
+#3	AnnotatorNotes T3	C0162429; Malnutrition; Disease or Syndrome
+T4	PROC 181 203	evaluar la efectividad
+T5	PROC 222 239	apoyo nutricional
+#4	AnnotatorNotes T5	C0242739; Nutritional Support; Therapeutic or Preventive Procedure
+T6	PROC 283 307	cirugía mayor oncológica
+T7	PROC 319 351	Estudio prospectivo aleatorizado
+#5	AnnotatorNotes T7	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T8	PROC 383 395	intervenidos
+#6	AnnotatorNotes T8	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T9	DISO 400 433	neoplasia del tubo digestivo bajo
+T10	ANAT 414 433	tubo digestivo bajo
+#7	AnnotatorNotes T10	C0226875; Lower Gastrointestinal Tract; Body Location or Region
+T11	PROC 479 501	valoración nutricional
+#8	AnnotatorNotes T11	C0028708; Nutrition Assessment; Diagnostic Procedure
+T12	ANAT 944 962	gastrointestinales
+#9	AnnotatorNotes T12	C0012240; Gastrointestinal system; Body System
+T13	PROC 742 749	cirugía
+#10	AnnotatorNotes T13	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T14	DISO 803 812	neoplasia
+#11	AnnotatorNotes T14	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T15	DISO 898 928	complicaciones postoperatorias
+#12	AnnotatorNotes T15	C0032787; Postoperative Complications; Pathologic Function
+T16	DISO 931 962	alteraciones gastrointestinales
+#13	AnnotatorNotes T16	C0232459; Abnormal digestive tract function; Finding
+T17	ANAT 1739 1757	gastrointestinales
+#14	AnnotatorNotes T17	C0012240; Gastrointestinal system; Body System
+T18	ANAT 1421 1439	gastrointestinales
+#15	AnnotatorNotes T18	C0012240; Gastrointestinal system; Body System
+T19	DISO 1530 1541	malnutridos
+#16	AnnotatorNotes T19	C0162429; Malnutrition; Disease or Syndrome
+T20	DISO 1406 1439	complicaciones gastrointestinales
+#17	AnnotatorNotes T20	C0161819; Gastrointestinal complication; Pathologic Function
+T21	PROC 1603 1610	cirugía
+#18	AnnotatorNotes T21	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T22	DISO 1724 1757	complicaciones gastrointestinales
+#19	AnnotatorNotes T22	C0161819; Gastrointestinal complication; Pathologic Function
+T23	ANAT 61 72	colorrectal
+#20	AnnotatorNotes T23	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T24	CHEM 546 578	formula enteral inmunomoduladora
+T25	DISO 603 614	malnutridos
+#21	AnnotatorNotes T25	C0162429; Malnutrition; Disease or Syndrome
+T26	DISO 658 669	malnutridos
+#22	AnnotatorNotes T26	C0162429; Malnutrition; Disease or Syndrome
+T27	PROC 712 729	consejo dietético
+#23	AnnotatorNotes T27	C0204932; Diet education; Educational Activity (?)
+T28	Date 19 33	perioperatorio
+#24	AnnotatorNotes T28	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T29	LIVB 37 46	pacientes
+#25	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Date 150 164	postoperatoria
+#26	AnnotatorNotes T30	C0032790; Postoperative Period; Temporal Concept
+T31	Date 240 254	perioperatorio
+#27	AnnotatorNotes T31	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T32	LIVB 261 270	pacientes
+#28	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 373 382	pacientes
+#29	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Duration 456 462	3 años
+T35	Date 527 541	perioperatoria
+#30	AnnotatorNotes T35	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T37	LIVB 593 602	pacientes
+#31	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 648 657	pacientes
+#32	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Date 913 928	postoperatorias
+#33	AnnotatorNotes T39	C0032790; Postoperative Period; Temporal Concept
+T40	LIVB 1256 1265	pacientes
+#34	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1520 1529	pacientes
+#35	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 1626 1635	pacientes
+#36	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 1685 1694	pacientes
+#37	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T36	Route 554 561	enteral
+#38	AnnotatorNotes T36	C1522196; Enteral Route of Drug Administration; Functional Concept
+R1	Experiences Arg1:T29 Arg2:T2	
+R2	Location_of Arg1:T23 Arg2:T2	
+R3	Overlap Arg1:T1 Arg2:T28	
+T44	Observation 133 149	morbi-mortalidad
+R4	Overlap Arg1:T44 Arg2:T30	
+R5	Overlap Arg1:T3 Arg2:T44	
+R6	Overlap Arg1:T5 Arg2:T31	
+R7	Experiences Arg1:T32 Arg2:T6	
+R8	Experiences Arg1:T33 Arg2:T8	
+R9	Experiences Arg1:T33 Arg2:T9	
+R10	Location_of Arg1:T10 Arg2:T9	
+R11	Has_Duration_or_Interval Arg1:T8 Arg2:T34	
+R12	Has_Route_or_Mode Arg1:T24 Arg2:T36	
+R13	Experiences Arg1:T37 Arg2:T25	
+R14	Experiences Arg1:T37 Arg2:T24	
+R15	Overlap Arg1:T24 Arg2:T35	
+R17	Experiences Arg1:T37 Arg2:T11	
+R18	Experiences Arg1:T38 Arg2:T26	
+T45	Observation 682 695	normonutridos
+#39	AnnotatorNotes T45	C2051421; patient appears well nourished; Finding
+R19	Experiences Arg1:T38 Arg2:T45	
+R20	Experiences Arg1:T38 Arg2:T13	
+R21	Before Arg1:T27 Arg2:T13	
+T46	CONC 815 836	estancia hospitalaria
+#40	AnnotatorNotes T46	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T47	CONC 886 896	mortalidad
+#41	AnnotatorNotes T47	C0026565; Mortality Vital Statistics; Quantitative Concept
+R22	Overlap Arg1:T15 Arg2:T39	
+R23	Location_of Arg1:T12 Arg2:T16	
+T48	CONC 1045 1065	test de Chi-cuadrado
+T49	Observation 863 884	situación nutricional
+#42	AnnotatorNotes T49	C0392209; Nutritional status; Finding
+#43	AnnotatorNotes T48	C0008041; Chi-Square Test; Intellectual Product
+T50	CONC 1130 1135	ANOVA
+#44	AnnotatorNotes T50	C0002780; Analysis of Variance; Quantitative Concept
+T51	CONC 1141 1163	test Post-hoc de Tukey
+R24	Location_of Arg1:T18 Arg2:T20	
+T52	CONC 1441 1462	estancia hospitalaria
+#45	AnnotatorNotes T52	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T53	CONC 1475 1485	mortalidad
+#46	AnnotatorNotes T53	C0026565; Mortality Vital Statistics; Quantitative Concept
+R25	Experiences Arg1:T41 Arg2:T19	
+R26	Experiences Arg1:T41 Arg2:T20	
+T54	CONC 1585 1594	evolución
+#47	AnnotatorNotes T54	C0449259; Clinical course; Temporal Concept
+R27	After Arg1:T54 Arg2:T21	
+T55	Observation 1636 1649	normonutridos
+#48	AnnotatorNotes T55	C2051421; patient appears well nourished; Finding
+R28	Experiences Arg1:T42 Arg2:T55	
+R29	Experiences Arg1:T42 Arg2:T21	
+R30	Location_of Arg1:T17 Arg2:T22	
+R31	Experiences Arg1:T43 Arg2:T22	
+T56	CONC 1778 1799	estancia hospitalaria
+#49	AnnotatorNotes T56	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T57	Observation 1820 1835	morbimortalidad
+R32	Experiences Arg1:T43 Arg2:T57	
+R33	Experiences Arg1:T38 Arg2:T11	
+#50	AnnotatorNotes T4	C1707887; Efficacy Study; Research Activity
+A1	Experiencer T29 Patient
+A2	Experiencer T32 Patient
+A3	Experiencer T33 Patient
+A4	Experiencer T38 Patient
+A5	Experiencer T37 Patient
+A6	Experiencer T40 Patient
+A7	Experiencer T41 Patient
+A8	Experiencer T42 Patient
+A9	Experiencer T43 Patient

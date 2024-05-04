@@ -1,0 +1,180 @@
+T1	CHEM 64 86	fórmulas isoglucídicas
+T2	DISO 141 158	diabéticos tipo 2
+#1	AnnotatorNotes T2	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T3	CHEM 295 317	fórmulas isoglucídicas
+T4	CHEM 518 526	fórmulas
+T5	CHEM 660 669	sucralosa
+#2	AnnotatorNotes T5	C0077046; sucralose; Organic Chemical
+T6	DISO 372 389	diabéticos tipo 2
+#3	AnnotatorNotes T6	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T7	DISO 391 394	DM2
+#4	AnnotatorNotes T7	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T8	PROC 420 463	estudio aleatorizado, cruzado y doble ciego
+#5	AnnotatorNotes T8	C0206034; Clinical Trials, Randomized; Research Activity + C0150097; Cross-Over Studies; Research Activity + C0013072; Double-Blind Method; Research Activity
+T9	DISO 491 501	diabéticos
+#6	AnnotatorNotes T9	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T10	CHEM 750 752	SG
+#7	AnnotatorNotes T10	C1165603; Dextrose solution; Organic Chemical · Pharmacologic Substance
+T11	CHEM 649 657	fructosa
+#8	AnnotatorNotes T11	C0016745; fructose; Organic Chemical · Pharmacologic Substance
+T12	PROC 925 946	medición de glicemias
+#9	AnnotatorNotes T12	C0392201; Blood glucose measurement; Laboratory Procedure
+T13	CHEM 730 748	solución glucosada
+#10	AnnotatorNotes T13	C1165603; Dextrose solution; Organic Chemical · Pharmacologic Substance
+T14	ANAT 796 802	sangre
+#11	AnnotatorNotes T14	C0005767; Blood; Body Substance
+T15	DISO 877 887	diabéticos
+#12	AnnotatorNotes T15	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T16	CHEM 1050 1057	glucosa
+#13	AnnotatorNotes T16	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T17	CHEM 1499 1507	fórmulas
+T18	DISO 1182 1192	diabéticos
+#14	AnnotatorNotes T18	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T19	CHEM 1597 1599	SG
+#15	AnnotatorNotes T19	C1165603; Dextrose solution; Organic Chemical · Pharmacologic Substance
+T20	PROC 37 45	insulina
+#16	AnnotatorNotes T20	C0202098; Insulin measurement; Laboratory Procedure
+T21	PROC 267 275	insulina
+#17	AnnotatorNotes T21	C0202098; Insulin measurement; Laboratory Procedure
+T22	DISO 1392 1402	diabéticos
+#18	AnnotatorNotes T22	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T23	PROC 1438 1446	insulina
+#19	AnnotatorNotes T23	C0202098; Insulin measurement; Laboratory Procedure
+T24	PROC 1 17	Índice glicémico
+T25	CHEM 1651 1661	insulínico
+#20	AnnotatorNotes T25	C0021641; Insulin; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Hormone
+T26	CHEM 1713 1726	carbohidratos
+#21	AnnotatorNotes T26	C0007004; Carbohydrates; Organic Chemical
+T27	DISO 1864 1873	diabético
+#22	AnnotatorNotes T27	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T28	CHEM 1102 1104	SG
+#23	AnnotatorNotes T28	C1165603; Dextrose solution; Organic Chemical · Pharmacologic Substance
+T29	CHEM 1084 1092	fórmulas
+T30	PROC 19 34	carga glicémica
+T31	PROC 215 231	índice glicémico
+T32	PROC 241 256	carga glicémica
+T33	PROC 784 802	muestras de sangre
+#24	AnnotatorNotes T33	C0005834; Collection of blood specimen for laboratory procedure; Diagnostic Procedure | C1277698; Blood sample taken; Laboratory Procedure
+T34	PROC 949 957	insulina
+#25	AnnotatorNotes T34	C0202098; Insulin measurement; Laboratory Procedure
+T35	PROC 1565 1581	perfil glicémico
+#26	AnnotatorNotes T35	C0392201; Blood glucose measurement; Laboratory Procedure (?)
+T36	Time 46 57	posprandial
+#27	AnnotatorNotes T36	C0376674; Postprandial Period; Temporal Concept
+T37	Time 276 287	posprandial
+#28	AnnotatorNotes T37	C0376674; Postprandial Period; Temporal Concept
+T38	Form 730 738	solución
+#29	AnnotatorNotes T38	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T39	Duration 833 868	0, 15, 30, 45, 60, 90 y 120 minutos
+T40	Duration 900 919	el minuto 150 y 180
+T41	Time 964 975	posprandial
+#30	AnnotatorNotes T41	C0376674; Postprandial Period; Temporal Concept
+T42	Duration 979 995	dos y tres horas
+T43	Time 1447 1458	posprandial
+#31	AnnotatorNotes T43	C0376674; Postprandial Period; Temporal Concept
+T45	PHYS 1696 1726	absorción de los carbohidratos
+#32	AnnotatorNotes T45	C0232657; Intestinal carbohydrate absorption; Organ or Tissue Function
+T47	LIVB 125 132	adultos
+#33	AnnotatorNotes T47	C0001675; Adult; Age Group
+T48	LIVB 356 363	adultos
+#34	AnnotatorNotes T48	C0001675; Adult; Age Group
+T49	LIVB 470 477	sujetos
+#35	AnnotatorNotes T49	C0681850; Study Subject; Group
+T50	LIVB 1352 1361	controles
+#36	AnnotatorNotes T50	C0009932; Control Groups; Group
+T44	CHEM 101 113	edulcorantes
+#37	AnnotatorNotes T44	C0038998; Sweetening Agents; Chemical Viewed Functionally
+T46	CHEM 332 344	edulcorantes
+#38	AnnotatorNotes T46	C0038998; Sweetening Agents; Chemical Viewed Functionally
+T51	CHEM 116 121	fibra
+#39	AnnotatorNotes T51	C0225326; fiber; Organic Chemical · Pharmacologic Substance
+T52	CHEM 347 352	fibra
+#40	AnnotatorNotes T52	C0225326; fiber; Organic Chemical · Pharmacologic Substance
+T53	Quantifier_or_Qualifier 530 546	cuatro ocasiones
+T54	CONC 1408 1419	diferencias
+#41	AnnotatorNotes T54	C1705241; Delta (difference); Quantitative Concept
+T55	CHEM 712 717	fibra
+#42	AnnotatorNotes T55	C0225326; fiber; Organic Chemical · Pharmacologic Substance
+T56	Quantifier_or_Qualifier 133 138	sanos
+#43	AnnotatorNotes T56	C3898900; Healthy; Qualitative Concept
+T57	Quantifier_or_Qualifier 364 369	sanos
+#44	AnnotatorNotes T57	C3898900; Healthy; Qualitative Concept
+T58	Quantifier_or_Qualifier 478 483	sanos
+#45	AnnotatorNotes T58	C3898900; Healthy; Qualitative Concept
+T59	Neg_cue 1404 1407	sin
+T60	Quantifier_or_Qualifier 1109 1114	sanos
+#46	AnnotatorNotes T60	C3898900; Healthy; Qualitative Concept
+T61	Quantifier_or_Qualifier 757 768	una ocasión
+T62	Quantifier_or_Qualifier 958 963	basal
+T63	CONC 1014 1057	área de incremento bajo la curva de glucosa
+T64	CONC 1059 1063	IAUC
+T65	Neg_cue 1601 1603	No
+T66	CONC 1618 1629	diferencias
+#47	AnnotatorNotes T66	C1705241; Delta (difference); Quantitative Concept
+A1	Population_data T48 Age
+A2	Population_data T47 Age
+R1	Has_Drug_Form Arg1:T13 Arg2:T38
+R2	Has_Drug_Form Arg1:T10 Arg2:T38
+R4	Overlap Arg1:T21 Arg2:T37
+R7	Overlap Arg1:T12 Arg2:T40
+R8	Overlap Arg1:T33 Arg2:T39
+R9	Overlap Arg1:T20 Arg2:T36
+R3	Experiences Arg1:T49 Arg2:T9
+R13	Overlap Arg1:T34 Arg2:T41
+R5	Overlap Arg1:T34 Arg2:T42
+R14	Overlap Arg1:T23 Arg2:T43
+R16	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T56
+R17	Experiences Arg1:T47 Arg2:T2
+R18	Experiences Arg1:T48 Arg2:T6
+R19	Experiences Arg1:T48 Arg2:T7
+R12	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T53
+R6	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T57
+R10	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T58
+R11	Negation Arg1:T59 Arg2:T54
+A3	Assertion T54 Negated
+R15	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T61
+R20	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T61
+R21	Experiences Arg1:T47 Arg2:T1
+R22	Experiences Arg1:T48 Arg2:T3
+R23	Experiences Arg1:T49 Arg2:T4
+R24	Experiences Arg1:T49 Arg2:T13
+R25	Overlap Arg1:T30 Arg2:T36
+R26	Overlap Arg1:T24 Arg2:T36
+R27	Overlap Arg1:T32 Arg2:T37
+R28	Overlap Arg1:T31 Arg2:T37
+R29	Combined_with Arg1:T3 Arg2:T46
+R30	Combined_with Arg1:T3 Arg2:T52
+R31	Combined_with Arg1:T4 Arg2:T11
+R32	Combined_with Arg1:T4 Arg2:T5
+R33	Combined_with Arg1:T4 Arg2:T55
+R34	Experiences Arg1:T49 Arg2:T10
+R35	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T62
+R36	Experiences Arg1:T47 Arg2:T20
+R37	Experiences Arg1:T47 Arg2:T30
+R38	Experiences Arg1:T47 Arg2:T24
+R39	Overlap Arg1:T33 Arg2:T40
+A4	Assertion T66 Negated
+R40	Negation Arg1:T65 Arg2:T66
+R41	Experiences Arg1:T48 Arg2:T21
+R42	Experiences Arg1:T48 Arg2:T32
+R43	Experiences Arg1:T48 Arg2:T31
+T67	Spec_cue 1819 1826	sugiere
+T68	Quantifier_or_Qualifier 1834 1843	aceptable
+A5	Assertion T68 Speculated
+T69	CONC 1847 1857	indicación
+A6	Assertion T69 Speculated
+#48	AnnotatorNotes T69	C3146298; Indication; Idea or Concept
+R44	Speculation Arg1:T67 Arg2:T69	
+R45	Speculation Arg1:T67 Arg2:T68	
+R46	Has_Quantifier_or_Qualifier Arg1:T69 Arg2:T68	
+#49	AnnotatorNotes T62	C1442488; Baseline; Quantitative Concept
+#50	AnnotatorNotes T68	C1879533; Acceptable; Qualitative Concept
+#51	AnnotatorNotes T61	C1948045; Once (schedule frequency); Temporal Concept
+#52	AnnotatorNotes T24	C1136206; Glycemic Index; Quantitative Concept
+#53	AnnotatorNotes T30	C4042927; Glycemic Load; Quantitative Concept
+#54	AnnotatorNotes T32	C4042927; Glycemic Load; Quantitative Concept
+#55	AnnotatorNotes T31	C1136206; Glycemic Index; Quantitative Concept
+A7	Experiencer T47 Patient
+A8	Experiencer T48 Patient
+A9	Experiencer T49 Patient
+A10	Experiencer T50 Patient

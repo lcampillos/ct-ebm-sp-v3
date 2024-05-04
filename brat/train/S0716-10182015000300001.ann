@@ -1,0 +1,162 @@
+T1	PROC 48 50	PD
+#1	AnnotatorNotes T1	C1709518; Pharmacodynamic Study; Research Activity
+T2	CHEM 411 422	antibiótico
+#2	AnnotatorNotes T2	C0003232; Antibiotics; Antibiotic
+T3	PROC 45 47	PK
+#3	AnnotatorNotes T3	C0201734; Pharmacokinetic study; Research Activity
+T4	PROC 586 588	PK
+#4	AnnotatorNotes T4	C0201734; Pharmacokinetic study; Research Activity
+T5	CHEM 92 104	metronidazol
+#5	AnnotatorNotes T5	C0025872; metronidazole; Organic Chemical · Pharmacologic Substance
+T6	DISO 145 192	infecciones producidas por Bacteroides fragilis
+#6	AnnotatorNotes T6	C2205936; Infection by Bacteroides fragilis; Disease or Syndrome
+T7	PROC 866 895	administró una monodosis oral
+T8	CHEM 208 220	Metronidazol
+#7	AnnotatorNotes T8	C0025872; metronidazole; Organic Chemical · Pharmacologic Substance
+T9	CHEM 227 241	antimicrobiano
+#8	AnnotatorNotes T9	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T10	DISO 272 295	infecciones anaeróbicas
+#9	AnnotatorNotes T10	C0854328; Infection due to anaerobic bacteria; Disease or Syndrome
+T11	CHEM 373 387	medicamentosos
+#10	AnnotatorNotes T11	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T12	PROC 589 591	PD
+#11	AnnotatorNotes T12	C1709518; Pharmacodynamic Study; Research Activity
+T13	CHEM 500 512	metronidazol
+#12	AnnotatorNotes T13	C0025872; metronidazole; Organic Chemical · Pharmacologic Substance
+T14	PROC 663 665	PK
+#13	AnnotatorNotes T14	C0201734; Pharmacokinetic study; Research Activity
+T15	PROC 666 668	PD
+#14	AnnotatorNotes T15	C1709518; Pharmacodynamic Study; Research Activity
+T16	PROC 1519 1521	PK
+#15	AnnotatorNotes T16	C0201734; Pharmacokinetic study; Research Activity
+T17	CHEM 725 737	metronidazol
+#16	AnnotatorNotes T17	C0025872; metronidazole; Organic Chemical · Pharmacologic Substance
+T18	DISO 743 779	infecciones por Bacteroides fragilis
+#17	AnnotatorNotes T18	C2205936; Infection by Bacteroides fragilis; Disease or Syndrome
+T19	PROC 804 818	ensayo clínico
+#18	AnnotatorNotes T19	C0008976; Clinical Trials; Research Activity
+T20	PROC 1522 1524	PD
+#19	AnnotatorNotes T20	C1709518; Pharmacodynamic Study; Research Activity
+T21	CHEM 917 929	metronidazol
+#20	AnnotatorNotes T21	C0025872; metronidazole; Organic Chemical · Pharmacologic Substance
+T22	DISO 1151 1178	infecciones por B. fragilis
+#21	AnnotatorNotes T22	C2205936; Infection by Bacteroides fragilis; Disease or Syndrome
+T23	CHEM 1393 1405	metronidazol
+#22	AnnotatorNotes T23	C0025872; metronidazole; Organic Chemical · Pharmacologic Substance
+T24	PROC 1542 1553	tratamiento
+#23	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	PROC 1 43	Evaluación farmacocinética/farmacodinámica
+#24	AnnotatorNotes T25	C0201734; Pharmacokinetic study; Research Activity + C1709518; Pharmacodynamic Study; Research Activity
+T26	PROC 69 88	administración oral
+#25	AnnotatorNotes T26	C0001563; Administration, Oral; Therapeutic or Preventive Procedure | C1273553; Oral administration of treatment; Therapeutic or Preventive Procedure
+T27	PROC 300 314	administración
+#26	AnnotatorNotes T27	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T28	PROC 482 496	administración
+#27	AnnotatorNotes T28	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T29	PROC 540 554	administración
+#28	AnnotatorNotes T29	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T30	PROC 685 699	administración
+#29	AnnotatorNotes T30	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T31	PROC 1446 1460	administración
+#30	AnnotatorNotes T31	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T32	DISO 1557 1580	infecciones anaeróbicas
+#31	AnnotatorNotes T32	C0854328; Infection due to anaerobic bacteria; Disease or Syndrome
+T33	Route 84 88	oral
+#32	AnnotatorNotes T33	C1527415; Oral Route of Drug administration; Functional Concept
+T34	LIVB 172 192	Bacteroides fragilis
+#33	AnnotatorNotes T34	C0004663; Bacteroides fragilis; Bacterium
+T35	Dose 327 342	dosis múltiples
+T37	Dose 703 711	1.000 mg
+T38	Frequency 712 721	cada 24 h
+T39	LIVB 759 779	Bacteroides fragilis
+#34	AnnotatorNotes T39	C0004663; Bacteroides fragilis; Bacterium
+T40	Route 891 895	oral
+#35	AnnotatorNotes T40	C1527415; Oral Route of Drug administration; Functional Concept
+T41	Dose 899 913	500 y 1.000 mg
+T42	PHYS 976 992	farmacocinéticos
+#36	AnnotatorNotes T42	C0031327; Drug Kinetics; Physiologic Function
+T51	Dose 1381 1389	1.000 mg
+T53	Dose 1464 1472	1.000 mg
+T54	Frequency 1473 1482	cada 24 h
+T56	PHYS 12 27	farmacocinética
+#37	AnnotatorNotes T56	C0031327; Drug Kinetics; Physiologic Function
+T36	LIVB 837 848	voluntarios
+#38	AnnotatorNotes T36	C0020155; Human Volunteers; Population Group
+T44	LIVB 1167 1178	B. fragilis
+#39	AnnotatorNotes T44	C0004663; Bacteroides fragilis; Bacterium
+T43	PHYS 28 43	farmacodinámica
+#40	AnnotatorNotes T43	C0851347; Pharmacodynamics; Biologic Function
+T45	Duration 1256 1266	1,20± 0,8h
+R1	Has_Route_or_Mode Arg1:T5 Arg2:T33	
+R2	Used_for Arg1:T5 Arg2:T26	
+R3	Causes Arg1:T34 Arg2:T6	
+T46	Quantifier_or_Qualifier 242 253	de elección
+R4	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T46	
+R5	Has_Dose_or_Strength Arg1:T27 Arg2:T35	
+T47	Observation 365 387	errores medicamentosos
+#41	AnnotatorNotes T47	C0025115; Medication Error; Finding
+R6	Causes Arg1:T27 Arg2:T47	
+R7	Causes Arg1:T11 Arg2:T47	
+R8	Used_for Arg1:T13 Arg2:T28	
+T48	Observation 399 422	efecto post-antibiótico
+T49	Observation 430 451	actividad bactericida
+T50	Quantifier_or_Qualifier 452 477	concentración-dependiente
+R9	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T50	
+T52	Observation 108 126	intervalo ampliado
+#42	AnnotatorNotes T52	C3495045; Medication dosing interval increased; Finding (?)
+T55	Observation 516 554	intervalos ampliados de administración
+#43	AnnotatorNotes T55	C3495045; Medication dosing interval increased; Finding (?)
+R10	Overlap Arg1:T13 Arg2:T55	
+R11	Overlap Arg1:T5 Arg2:T52	
+R12	Used_for Arg1:T13 Arg2:T29	
+R13	Causes Arg1:T13 Arg2:T49	
+R14	Causes Arg1:T13 Arg2:T48	
+R15	Has_Dose_or_Strength Arg1:T17 Arg2:T37	
+R16	Has_Frequency Arg1:T17 Arg2:T38	
+R17	Used_for Arg1:T17 Arg2:T30	
+R18	Causes Arg1:T39 Arg2:T18	
+R19	Experiences Arg1:T36 Arg2:T7	
+R20	Has_Dose_or_Strength Arg1:T21 Arg2:T41	
+R21	Has_Route_or_Mode Arg1:T21 Arg2:T40	
+R22	Used_for Arg1:T21 Arg2:T7	
+T57	CONC 1006 1024	método trapezoidal
+#44	AnnotatorNotes T57	C5419715; Linear Trapezoidal Method; Intellectual Product (?)
+T58	CONC 965 992	parámetros farmacocinéticos
+#45	AnnotatorNotes T58	C0031328; Pharmacokinetic aspects; Functional Concept
+T59	CONC 1041 1061	simulación de Markov
+R23	Causes Arg1:T44 Arg2:T22	
+R24	Has_Dose_or_Strength Arg1:T23 Arg2:T51	
+R25	Has_Dose_or_Strength Arg1:T31 Arg2:T53	
+R26	Has_Frequency Arg1:T31 Arg2:T54	
+T60	Spec_cue 1489 1496	posible
+T61	CONC 1510 1524	relación PK/PD
+A1	Assertion T61 Speculated
+T62	Quantifier_or_Qualifier 1525 1533	efectiva
+A2	Assertion T62 Speculated
+R38	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T62	
+R39	Speculation Arg1:T60 Arg2:T61	
+#46	AnnotatorNotes T62	C1704419;Effective; Qualitative Concept
+T63	Spec_cue 555 565	permitiría
+A3	Assertion T4 Speculated
+R40	Speculation Arg1:T63 Arg2:T4	
+A4	Assertion T12 Speculated
+T64	Quantifier_or_Qualifier 592 601	efectivos
+A5	Assertion T64 Speculated
+#47	AnnotatorNotes T64	C1704419; Effective; Qualitative Concept
+R41	Speculation Arg1:T63 Arg2:T12	
+R42	Speculation Arg1:T63 Arg2:T64	
+R43	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T64	
+R44	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T64	
+T65	CONC 1224 1228	Cmax
+#48	AnnotatorNotes T65	C2347813; Cmax; Quantitative Concept
+T66	CONC 1250 1254	tmax
+#49	AnnotatorNotes T66	C2348796; Tmax; Quantitative Concept
+T67	CONC 1270 1279	AUC0-24 h
+T68	PROC 1139 1142	CIM
+#50	AnnotatorNotes T68	C0427978; Minimum Inhibitory Concentration measurement; Laboratory Procedure
+T69	PROC 1368 1371	CIM
+#51	AnnotatorNotes T69	C0427978; Minimum Inhibitory Concentration measurement; Laboratory Procedure
+T70	CONC 1358 1367	AUC0-24 h
+T71	CONC 1129 1138	AUC0-24 h
+#52	AnnotatorNotes T46	C0439608; elective; Temporal Concept (?) 
+A6	Experiencer T36 Patient

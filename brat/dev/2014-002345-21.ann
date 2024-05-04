@@ -1,0 +1,263 @@
+T1	PROC 57 76	pautas antibióticas
+T2	CHEM 64 76	antibióticas
+#1	AnnotatorNotes T2	C0003232; Antibiotics; Antibiotic
+T3	PROC 97 105	prevenir
+#2	AnnotatorNotes T3	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T4	DISO 110 133	infecciones quirúrgicas
+T5	PROC 122 133	quirúrgicas
+#3	AnnotatorNotes T5	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T6	PROC 140 157	cirugía del colon
+T7	PROC 179 201	Profilaxis antibiótica
+#4	AnnotatorNotes T7	C0282638; Antibiotic Prophylaxis; Therapeutic or Preventive Procedure
+T8	PROC 334 354	estudiar la eficacia
+#5	AnnotatorNotes T8	C1707887; Efficacy Study; Research Activity
+T9	CHEM 190 201	antibiótica
+#6	AnnotatorNotes T9	C0003232; Antibiotics; Antibiotic
+T10	PROC 237 253	cirugía colónica
+T11	PROC 255 311	ensayo clínico prospectivo, randomizado, y multicéntrico
+T12	PROC 408 424	cirugía de colon
+T13	DISO 493 507	complicaciones
+#7	AnnotatorNotes T13	C0009566; Complication; Pathologic Function
+T14	PROC 586 608	profilaxis antibiótica
+#8	AnnotatorNotes T14	C0282638; Antibiotic Prophylaxis; Therapeutic or Preventive Procedure
+T15	DISO 654 686	infecciones del sitio quirúrgico
+T16	ANAT 670 686	sitio quirúrgico
+T17	PROC 690 706	cirugía colónica
+T18	PROC 736 766	preparación mecánica del colon
+T19	ANAT 761 766	colon
+#9	AnnotatorNotes T19	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T20	PROC 771 796	evaluación de la eficacia
+#10	AnnotatorNotes T20	C1707887; Efficacy Study; Research Activity
+T21	DISO 832 855	infecciones operatorias
+T22	PROC 844 855	operatorias
+#11	AnnotatorNotes T22	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T23	DISO 864 878	complicaciones
+#12	AnnotatorNotes T23	C0009566; Complication; Pathologic Function
+T24	PROC 914 925	seguimiento
+#13	AnnotatorNotes T24	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T25	ANAT 1036 1044	colónica
+#14	AnnotatorNotes T25	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T26	PROC 1072 1079	cirugía
+#15	AnnotatorNotes T26	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T27	PROC 1081 1095	diagnosticados
+#16	AnnotatorNotes T27	C0011900; Diagnosis; Diagnostic Procedure
+T28	DISO 1099 1108	neoplasia
+#17	AnnotatorNotes T28	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T29	DISO 1110 1133	enfermedad diverticular
+#18	AnnotatorNotes T29	C1510475; Diverticulosis; Disease or Syndrome | C4317009; Diverticular Diseases; Disease or Syndrome
+T30	ANAT 1121 1133	diverticular
+T31	PROC 1166 1196	resección segmentaria de colon
+T32	ANAT 1191 1196	colon
+#19	AnnotatorNotes T32	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T33	PROC 1204 1220	colectomía total
+#20	AnnotatorNotes T33	C0192871; Total colectomy; Therapeutic or Preventive Procedure
+T34	PROC 1327 1351	consentimiento informado
+#21	AnnotatorNotes T34	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T35	PROC 1453 1482	preparación mecánica de colon
+T36	ANAT 1477 1482	colon
+#22	AnnotatorNotes T36	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T37	PROC 1504 1511	cirugía
+#23	AnnotatorNotes T37	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T38	DISO 1529 1549	sepsis intrabdominal
+T39	PROC 1562 1569	cirugía
+#24	AnnotatorNotes T39	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T40	DISO 1571 1578	absceso
+#25	AnnotatorNotes T40	C0000833; Abscess; Disease or Syndrome
+T41	PROC 1612 1635	tratamiento antibiótico
+#26	AnnotatorNotes T41	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T42	PROC 1702 1725	intervención quirúrgica
+#27	AnnotatorNotes T42	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T43	DISO 1753 1760	alergia
+#28	AnnotatorNotes T43	C1527304; Allergic Reaction; Pathologic Function
+T44	CHEM 1767 1786	fármacos en estudio
+#29	AnnotatorNotes T44	C0013230; Investigational New Drugs; Pharmacologic Substance
+T45	PROC 1832 1851	pauta de profilaxis
+T46	ANAT 152 157	colon
+#30	AnnotatorNotes T46	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T47	ANAT 245 253	colónica
+#31	AnnotatorNotes T47	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T48	CHEM 362 374	antibióticos
+#32	AnnotatorNotes T48	C0003232; Antibiotics; Antibiotic
+T49	ANAT 419 424	colon
+#33	AnnotatorNotes T49	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T50	PROC 443 474	administración solo intravenosa
+T51	PROC 522 529	cirugía
+#34	AnnotatorNotes T51	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T52	CHEM 597 608	antibiótica
+#35	AnnotatorNotes T52	C0003232; Antibiotics; Antibiotic
+T53	ANAT 698 706	colónica
+#36	AnnotatorNotes T53	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T54	DISO 1026 1044	patología colónica
+T55	CHEM 1624 1635	antibiótico
+#37	AnnotatorNotes T55	C0003232; Antibiotics; Antibiotic
+T56	Date 12 16	2014
+T57	Date 77 91	preoperatorias
+T58	Route 202 212	parenteral
+#38	AnnotatorNotes T58	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T59	Route 216 220	oral
+#39	AnnotatorNotes T59	C1527415; Oral Route of Drug administration; Functional Concept
+T60	Route 223 233	parenteral
+#40	AnnotatorNotes T60	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T61	Route 379 387	vía oral
+#41	AnnotatorNotes T61	C1527415; Oral Route of Drug administration; Functional Concept
+T62	Route 390 401	intravenosa
+#42	AnnotatorNotes T62	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T63	Route 463 474	intravenosa
+#43	AnnotatorNotes T63	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T65	Route 609 613	oral
+#44	AnnotatorNotes T65	C1527415; Oral Route of Drug administration; Functional Concept
+T66	Route 618 629	intravenosa
+#45	AnnotatorNotes T66	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T67	LIVB 711 720	pacientes
+#46	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	Neg_cue 725 727	no
+T69	LIVB 952 984	Pacientes adultos de ambos sexos
+#47	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group + C4281745; Human, Female adult; Human + C0025266; Male population group; Population Group + C0001675; Adult; Age Group
+T71	Age 988 1002	mas de 18 años
+T73	LIVB 1252 1261	Pacientes
+#48	AnnotatorNotes T73	C0030705; Patients; Patient or Disabled Group
+T74	LIVB 1379 1388	Pacientes
+#49	AnnotatorNotes T74	C0030705; Patients; Patient or Disabled Group
+T75	LIVB 1431 1440	Pacientes
+#50	AnnotatorNotes T75	C0030705; Patients; Patient or Disabled Group
+T76	Date 1483 1498	el día anterior
+T77	LIVB 1515 1524	Pacientes
+#51	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	LIVB 1583 1592	Pacientes
+#52	AnnotatorNotes T78	C0030705; Patients; Patient or Disabled Group
+T79	Date 1636 1649	preoperatorio
+#53	AnnotatorNotes T79	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T80	Duration 1673 1688	las dos semanas
+T81	LIVB 1729 1738	Pacientes
+#54	AnnotatorNotes T81	C0030705; Patients; Patient or Disabled Group
+T82	LIVB 1790 1799	Pacientes
+#55	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group
+A1	Assertion T18 Negated
+A2	Population_data T69 Age
+#56	AnnotatorNotes T57	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+#57	AnnotatorNotes T11	C0033522; Prospective Studies; Research Activity + C0034656; Randomization; Research Activity + C1096776; Multicenter Study; Research Activity
+#58	AnnotatorNotes T6	C0192817; Operation on colon; Therapeutic or Preventive Procedure 
+#59	AnnotatorNotes T10	C0192817; Operation on colon; Therapeutic or Preventive Procedure 
+#60	AnnotatorNotes T17	C0192817; Operation on colon; Therapeutic or Preventive Procedure 
+#61	AnnotatorNotes T4	C0038941; Surgical Wound Infection; Pathologic Function 
+#62	AnnotatorNotes T21	C0038941; Surgical Wound Infection; Pathologic Function 
+#63	AnnotatorNotes T15	C0038941; Surgical Wound Infection; Pathologic Function 
+#64	AnnotatorNotes T12	C0192817; Operation on colon; Therapeutic or Preventive Procedure
+#65	AnnotatorNotes T50	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure (?)
+#66	AnnotatorNotes T54	C0009373; Colonic Diseases; Disease or Syndrome
+#67	AnnotatorNotes T30	C0012817; Diverticulum; Anatomical Abnormality 
+#68	AnnotatorNotes T45	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T64	CONC 1054 1068	contraindìquen
+A3	Assertion T64 Negated
+#69	AnnotatorNotes T64	C0522473; Contraindication; Qualitative Concept
+T70	Neg_cue 1051 1053	no
+T72	Neg_cue 1804 1806	no
+T83	Observation 1807 1828	cumplan estrictamente
+A4	Assertion T83 Negated
+#70	AnnotatorNotes T83	C2364172; Adherence To Medication Regime; Finding
+T84	Neg_cue 1393 1403	se nieguen
+T85	Observation 1406 1427	participar al estudio
+A5	Assertion T85 Negated
+#71	AnnotatorNotes T85	C1278516; Patient participation status; Finding
+R1	Negation Arg1:T68 Arg2:T18	
+R2	Negation Arg1:T70 Arg2:T64	
+R3	Negation Arg1:T84 Arg2:T85	
+R4	Negation Arg1:T72 Arg2:T83	
+T86	CONC 890 911	estancia hospitalaria
+#72	AnnotatorNotes T86	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R5	Before Arg1:T22 Arg2:T21	
+R6	Overlap Arg1:T21 Arg2:T86	
+R7	Overlap Arg1:T23 Arg2:T86	
+R8	Overlap Arg1:T21 Arg2:T24	
+R9	Overlap Arg1:T23 Arg2:T24	
+R11	Used_for Arg1:T2 Arg2:T1	
+R12	Overlap Arg1:T1 Arg2:T57	
+R13	Used_for Arg1:T1 Arg2:T3	
+R14	Before Arg1:T3 Arg2:T4	
+R15	Before Arg1:T5 Arg2:T4	
+R16	Location_of Arg1:T46 Arg2:T6	
+R17	Before Arg1:T6 Arg2:T4	
+R20	Used_for Arg1:T9 Arg2:T7	
+R21	Has_Route_or_Mode Arg1:T9 Arg2:T58	
+R22	Has_Route_or_Mode Arg1:T9 Arg2:T59	
+R23	Has_Route_or_Mode Arg1:T9 Arg2:T60	
+R24	Combined_with Arg1:T59 Arg2:T60	
+R26	Location_of Arg1:T47 Arg2:T10	
+R27	Has_Route_or_Mode Arg1:T48 Arg2:T61	
+R28	Has_Route_or_Mode Arg1:T48 Arg2:T62	
+R25	Location_of Arg1:T49 Arg2:T12	
+R29	Used_for Arg1:T48 Arg2:T50	
+R30	Has_Route_or_Mode Arg1:T48 Arg2:T63	
+R10	Before Arg1:T48 Arg2:T13	
+R31	After Arg1:T13 Arg2:T51	
+R32	Before Arg1:T12 Arg2:T13	
+T87	Spec_cue 563 565	si
+T88	Observation 630 636	mejora
+A6	Assertion T88 Speculated
+#73	AnnotatorNotes T88	C0184511; Improved; Finding (?)
+R33	Used_for Arg1:T52 Arg2:T14	
+R34	Has_Route_or_Mode Arg1:T52 Arg2:T65	
+R35	Combined_with Arg1:T65 Arg2:T66	
+R36	Combined_with Arg1:T61 Arg2:T62	
+R37	Before Arg1:T14 Arg2:T88	
+R38	Location_of Arg1:T16 Arg2:T15	
+#74	AnnotatorNotes T16	C0229986; Application site; Anatomical Structure
+R39	Location_of Arg1:T53 Arg2:T17	
+R40	Location_of Arg1:T16 Arg2:T17	
+R41	Before Arg1:T17 Arg2:T15	
+R42	Before Arg1:T15 Arg2:T88	
+R43	Location_of Arg1:T19 Arg2:T18	
+R44	Experiences Arg1:T67 Arg2:T14	
+R45	Experiences Arg1:T67 Arg2:T88	
+R46	Experiences Arg1:T67 Arg2:T15	
+R47	Experiences Arg1:T67 Arg2:T17	
+R48	Experiences Arg1:T67 Arg2:T18	
+R49	Speculation Arg1:T87 Arg2:T88	
+R50	Has_Age Arg1:T69 Arg2:T71	
+R51	Location_of Arg1:T25 Arg2:T54	
+R52	Experiences Arg1:T69 Arg2:T54	
+R53	Experiences Arg1:T69 Arg2:T26	
+R54	Experiences Arg1:T69 Arg2:T28	
+R55	Location_of Arg1:T30 Arg2:T29	
+R56	Experiences Arg1:T69 Arg2:T29	
+R57	Experiences Arg1:T69 Arg2:T31	
+R58	Location_of Arg1:T32 Arg2:T31	
+R59	Experiences Arg1:T69 Arg2:T33	
+T89	CONC 820 828	registro
+#75	AnnotatorNotes T89	C0034975; Registries; Intellectual Product (?)
+R60	Used_for Arg1:T89 Arg2:T20	
+T90	Observation 1266 1314	acepten participar voluntariamente en el estudio
+R61	Overlap Arg1:T90 Arg2:T34	
+R62	Experiences Arg1:T75 Arg2:T35	
+R63	Location_of Arg1:T36 Arg2:T35	
+R64	Overlap Arg1:T35 Arg2:T76	
+R65	Before Arg1:T35 Arg2:T37	
+R66	Experiences Arg1:T75 Arg2:T37	
+R67	Experiences Arg1:T77 Arg2:T38	
+R68	Experiences Arg1:T77 Arg2:T39	
+R69	Experiences Arg1:T77 Arg2:T40	
+R70	Before Arg1:T40 Arg2:T39	
+R71	Before Arg1:T38 Arg2:T39	
+R72	Experiences Arg1:T78 Arg2:T41	
+R73	Used_for Arg1:T55 Arg2:T41	
+R74	Overlap Arg1:T55 Arg2:T79	
+R75	Experiences Arg1:T78 Arg2:T42	
+R76	Before Arg1:T41 Arg2:T42	
+R77	Overlap Arg1:T41 Arg2:T80	
+R78	Experiences Arg1:T81 Arg2:T43	
+R79	Causes Arg1:T44 Arg2:T43	
+R80	Experiences Arg1:T82 Arg2:T45	
+R81	Location_of Arg1:T32 Arg2:T33	
+R82	Before Arg1:T1 Arg2:T6	
+R83	Before Arg1:T7 Arg2:T10	
+#76	AnnotatorNotes T90	C1302239; Patient consented to clinical trial; Finding
+#77	AnnotatorNotes T31	C0149750; Partial resection of colon; Therapeutic or Preventive Procedure
+A7	Experiencer T67 Patient
+A8	Experiencer T69 Patient
+A9	Experiencer T73 Patient
+A10	Experiencer T74 Patient
+A11	Experiencer T75 Patient
+A12	Experiencer T77 Patient
+A13	Experiencer T78 Patient
+A14	Experiencer T81 Patient
+A15	Experiencer T82 Patient

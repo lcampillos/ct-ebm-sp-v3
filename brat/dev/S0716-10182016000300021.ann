@@ -1,0 +1,401 @@
+T1	PROC 18 29	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 36 67	sepsis neonatal por enterovirus
+T3	CHEM 1362 1369	fórmula
+#2	AnnotatorNotes T3	C0012164; Formula - diet; Therapeutic or Preventive Procedure
+T4	LIVB 87 97	prematuros
+#3	AnnotatorNotes T4	C4048294; Preterm Infant; Age Group
+T5	CHEM 1618 1632	cardiotrópicos
+T6	DISO 216 248	enfermedad grave por enterovirus
+T7	DISO 290 296	sepsis
+T8	DISO 312 323	miocarditis
+#4	AnnotatorNotes T8	C0027059; Myocarditis; Disease or Syndrome
+T9	DISO 325 337	coagulopatía
+#5	AnnotatorNotes T9	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T10	DISO 339 357	meningoencefalitis
+#6	AnnotatorNotes T10	C0025309; Meningoencephalitis; Disease or Syndrome
+T11	DISO 362 372	neumonitis
+#7	AnnotatorNotes T11	C0032285; Pneumonia; Disease or Syndrome | C3714636; Pneumonitis; Disease or Syndrome
+T12	CHEM 428 447	compuesto antiviral
+T13	ANAT 1132 1150	gastrointestinales
+#8	AnnotatorNotes T13	C0012240; Gastrointestinal system; Body System
+T14	PROC 1688 1704	soporte avanzado
+#9	AnnotatorNotes T14	C0419055; Advanced life support; Therapeutic or Preventive Procedure
+T15	ANAT 559 566	celular
+#10	AnnotatorNotes T15	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T16	PROC 577 598	Estudio multicéntrico
+#11	AnnotatorNotes T16	C1096776; Multicenter Study; Research Activity
+T17	PROC 628 692	Ensayo con asignación aleatoria, doble-ciego, placebo controlado
+#12	AnnotatorNotes T17	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+T18	DISO 1076 1079	VIH
+#13	AnnotatorNotes T18	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T19	CHEM 1917 1927	pleconaril
+#14	AnnotatorNotes T19	C0759032; pleconaril; Organic Chemical · Pharmacologic Substance
+T20	DISO 739 749	enfermedad
+#15	AnnotatorNotes T20	C0012634; Disease; Disease or Syndrome
+T21	DISO 847 869	sepsis por enterovirus
+T22	ANAT 912 920	hepático
+#16	AnnotatorNotes T22	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T23	ANAT 925 939	cardiovascular
+#17	AnnotatorNotes T23	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T24	DISO 1002 1022	infección bacteriana
+#18	AnnotatorNotes T24	C0004623; Bacterial Infections; Disease or Syndrome
+T25	DISO 1031 1050	infecciones virales
+#19	AnnotatorNotes T25	C0042769; Virus Diseases; Disease or Syndrome
+T26	DISO 1085 1116	cardiopatía congénita cianótica
+#20	AnnotatorNotes T26	C0265808; Cyanotic congenital heart disease; Disease or Syndrome
+T27	DISO 1119 1150	alteraciones gastrointestinales
+#21	AnnotatorNotes T27	C0232459; Abnormal digestive tract function; Finding
+T28	DISO 1203 1213	enfermedad
+#22	AnnotatorNotes T28	C0012634; Disease; Disease or Syndrome
+T29	ANAT 1375 1379	boca
+#23	AnnotatorNotes T29	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T30	PROC 1415 1423;1433 1449	cultivos para enterovirus
+#24	AnnotatorNotes T30	C1294248; Enterovirus culture; Laboratory Procedure
+T31	ANAT 1453 1463	orofaringe
+#25	AnnotatorNotes T31	C0521367; Oropharyngeal; Body Location or Region | C1280659; Entire oropharynx; Body Part, Organ, or Organ Component
+T32	ANAT 1465 1470	recto
+#26	AnnotatorNotes T32	C0034896; Rectum; Body Part, Organ, or Organ Component | C1278926; Entire rectum; Body Part, Organ, or Organ Component
+T33	ANAT 1480 1485	suero
+#27	AnnotatorNotes T33	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T34	CHEM 1543 1563	fármacos antivirales
+#28	AnnotatorNotes T34	C0003451; Antiviral Agents; Pharmacologic Substance
+T35	CHEM 1575 1584	aciclovir
+#29	AnnotatorNotes T35	C0001367; acyclovir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T36	CHEM 1634 1649	antibacterianos
+#30	AnnotatorNotes T36	C0279516; Anti-Bacterial Agents; Antibiotic
+T37	CHEM 1651 1666	inmunoglobulina
+#31	AnnotatorNotes T37	C0021027; Immunoglobulins; Amino Acid, Peptide, or Protein · Immunologic Factor
+T38	CHEM 1680 1684	IGIV
+#32	AnnotatorNotes T38	C1527233; Recombinant Immune Globulin; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor (?)
+T39	PROC 1758 1769	seguimiento
+#33	AnnotatorNotes T39	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T40	PROC 1797 1810	Se ingresaron
+#34	AnnotatorNotes T40	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T41	LIVB 1814 1816	RN
+#35	AnnotatorNotes T41	C0021289; Infant, Newborn; Age Group
+T42	DISO 1858 1884	enfermedad por enterovirus
+#36	AnnotatorNotes T42	C0014378; Enterovirus Infections; Disease or Syndrome
+T43	PROC 1942 1949	placebo
+#37	AnnotatorNotes T43	C0032042; Placebos; Therapeutic or Preventive Procedure
+T44	PROC 2023 2031	cultivos
+#38	AnnotatorNotes T44	C0430400; Laboratory culture; Laboratory Procedure
+T45	CHEM 2061 2071	pleconaril
+#39	AnnotatorNotes T45	C0759032; pleconaril; Organic Chemical · Pharmacologic Substance
+T46	PROC 2086 2093	placebo
+#40	AnnotatorNotes T46	C0032042; Placebos; Therapeutic or Preventive Procedure
+T47	PROC 2204 2211	placebo
+#41	AnnotatorNotes T47	C0032042; Placebos; Therapeutic or Preventive Procedure
+T49	CHEM 411 421	Pleconaril
+#42	AnnotatorNotes T49	C0759032; pleconaril; Organic Chemical · Pharmacologic Substance
+T50	PROC 2412 2420	tratados
+#43	AnnotatorNotes T50	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T51	CHEM 2425 2435	pleconaril
+#44	AnnotatorNotes T51	C0759032; pleconaril; Organic Chemical · Pharmacologic Substance
+T52	CHEM 2473 2477	IVIG
+#45	AnnotatorNotes T52	C1527233; Recombinant Immune Globulin; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor (?)
+T53	DISO 980 986	muerte
+#46	AnnotatorNotes T53	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T54	CHEM 1152 1162	Pleconaril
+#47	AnnotatorNotes T54	C0759032; pleconaril; Organic Chemical · Pharmacologic Substance
+T55	ANAT 1472 1477	orina
+#48	AnnotatorNotes T55	C0042036; Urine; Body Substance
+T56	DISO 871 939	compromiso hematológico, de coagulación, hepático y/o cardiovascular
+T57	CHEM 2147 2157	pleconaril
+#49	AnnotatorNotes T57	C0759032; pleconaril; Organic Chemical · Pharmacologic Substance
+T58	CHEM 1 11	Pleconaril
+#50	AnnotatorNotes T58	C0759032; pleconaril; Organic Chemical · Pharmacologic Substance
+T59	LIVB 56 67	enterovirus
+#51	AnnotatorNotes T59	C0014383; Enterovirus; Virus
+T60	LIVB 104 134	recién nacidos (RN) de término
+#52	AnnotatorNotes T60	C4551581; Term Infant; Age Group
+T62	Spec_cue 185 197	susceptibles
+T63	LIVB 237 248	enterovirus
+#53	AnnotatorNotes T63	C0014383; Enterovirus; Virus
+T64	LIVB 250 252	EV
+#54	AnnotatorNotes T64	C0014383; Enterovirus; Virus
+T65	Spec_cue 262 267	puede
+T66	LIVB 466 477	enterovirus
+#55	AnnotatorNotes T66	C0014383; Enterovirus; Virus
+T67	LIVB 480 489	rinovirus
+#56	AnnotatorNotes T67	C0035473; Rhinovirus; Virus
+T69	Neg_cue 521 531	impidiendo
+T70	Duration 753 773	los primeros 15 días
+T71	PHYS 804 815	gestacional
+#57	AnnotatorNotes T71	C0032961; Pregnancy; Organism Function
+T72	Duration 816 828	> 32 semanas
+T73	Spec_cue 835 846	sospecha de
+T74	LIVB 858 869	enterovirus
+#58	AnnotatorNotes T74	C0014383; Enterovirus; Virus
+T75	PHYS 899 910	coagulación
+#59	AnnotatorNotes T75	C0005778; Blood coagulation; Organ or Tissue Function
+T76	Neg_cue 942 955	Se excluyeron
+T77	LIVB 956 965	pacientes
+#60	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	Spec_cue 970 979	riesgo de
+T80	Duration 1179 1199	los primeros 10 días
+T81	Route 1233 1241	vía oral
+#61	AnnotatorNotes T81	C1527415; Oral Route of Drug administration; Functional Concept
+T82	Dose 1254 1261	5 mg/kg
+T83	Dose 1286 1295	8,5 mg/kg
+T84	Form 1297 1307	suspensión
+#62	AnnotatorNotes T84	C4724031; Suspension Dosage Form; Biomedical or Dental Material
+T85	Frequency 1322 1330	cada 8 h
+T86	Duration 1335 1341	7 días
+T87	LIVB 1438 1449	enterovirus
+#63	AnnotatorNotes T87	C0014383; Enterovirus; Virus
+T89	LIVB 1510 1519	pacientes
+#64	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T92	LIVB 1604 1615	enterovirus
+#65	AnnotatorNotes T92	C0014383; Enterovirus; Virus
+T93	Route 1667 1678	intravenosa
+#66	AnnotatorNotes T93	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T94	Duration 1722 1729	11 años
+T95	LIVB 1736 1745	pacientes
+#67	AnnotatorNotes T95	C0030705; Patients; Patient or Disabled Group
+T96	Duration 1773 1781	dos años
+T97	LIVB 1873 1884	enterovirus
+#68	AnnotatorNotes T97	C0014383; Enterovirus; Virus
+T98	Duration 2100 2106	7 días
+T99	LIVB 2243 2252	pacientes
+#69	AnnotatorNotes T99	C0030705; Patients; Patient or Disabled Group
+T102	LIVB 2385 2394	pacientes
+#70	AnnotatorNotes T102	C0030705; Patients; Patient or Disabled Group
+T104	Neg_cue 2470 2472	no
+T108	PHYS 535 544	adsorción
+#71	AnnotatorNotes T108	C3820692; virion attachment to host cell pilus; Cell Function (?)
+T109	LIVB 1012 1022	bacteriana
+#72	AnnotatorNotes T109	C0004611; Bacteria; Bacterium
+T110	LIVB 1043 1050	virales
+#73	AnnotatorNotes T110	C0042776; Virus; Virus
+T61	Age 138 158	sus primeros 15 días
+T68	PHYS 547 566	penetración celular
+#74	AnnotatorNotes T68	C1656555; viral entry into host cell; Cell Function
+T79	Form 1263 1282	formulación líquida
+T88	DEVI 1382 1399	sonda orogástrica
+#75	AnnotatorNotes T88	C3469032; og feeding tube; Medical Device
+T90	LIVB 1886 1888	EV
+#76	AnnotatorNotes T90	C0014383; Enterovirus; Virus
+T91	LIVB 1932 1934	EV
+#77	AnnotatorNotes T91	C0014383; Enterovirus; Virus
+T106	LIVB 1954 1956	EV
+#78	AnnotatorNotes T106	C0014383; Enterovirus; Virus
+T107	LIVB 2257 2259	EV
+#79	AnnotatorNotes T107	C0014383; Enterovirus; Virus
+T100	Duration 2095 2096	4
+T101	PROC 799 815	edad gestacional
+#80	AnnotatorNotes T101	C4040272; Assessment of fetal gestational age; Health Care Activity
+T103	PROC 783 787	peso
+#81	AnnotatorNotes T103	C2985231; Body Weight Measurement; Diagnostic Procedure
+T48	LIVB 43 51	neonatal
+#82	AnnotatorNotes T48	C0021289; Infant, Newborn; Age Group
+A1	Population_data T60 Age
+A2	Assertion T6 Speculated
+A3	Assertion T7 Speculated
+A4	Assertion T8 Speculated
+A5	Assertion T9 Speculated
+A6	Assertion T10 Speculated
+A7	Assertion T11 Speculated
+A8	Assertion T21 Speculated
+A9	Assertion T77 Negated
+A10	Assertion T53 Speculated
+A11	Assertion T24 Negated
+A12	Assertion T25 Negated
+A13	Assertion T18 Negated
+A14	Assertion T26 Negated
+A15	Assertion T27 Negated
+A16	Assertion T52 Negated
+A17	Assertion T108 Negated
+A18	Assertion T68 Negated
+A19	Population_data T41 Age
+A20	Population_data T4 Age
+#83	AnnotatorNotes T79	C1697794; Liquid Dosage Form; Biomedical or Dental Material
+R1	Negation Arg1:T104 Arg2:T52	
+T105	Neg_cue 2484 2486	no
+T111	Quantifier_or_Qualifier 2491 2521	estadísticamente significativo
+A21	Assertion T111 Negated
+#84	AnnotatorNotes T111	C0237881; Statistical Significance; Quantitative Concept
+R2	Negation Arg1:T105 Arg2:T111	
+T112	Quantifier_or_Qualifier 2320 2350	estadísticamente significativo
+A22	Assertion T112 Negated
+#85	AnnotatorNotes T112	C0237881; Statistical Significance; Quantitative Concept
+T113	Neg_cue 2313 2315	no
+R3	Negation Arg1:T113 Arg2:T112	
+R4	Negation Arg1:T76 Arg2:T77	
+R5	Speculation Arg1:T78 Arg2:T53	
+R6	Experiences Arg1:T77 Arg2:T53	
+T114	Neg_cue 1586 1589	sin
+T115	CONC 1590 1615	acción contra enterovirus
+A23	Assertion T115 Negated
+R7	Negation Arg1:T114 Arg2:T115	
+#86	AnnotatorNotes T7	C0036690; Septicemia; Disease or Syndrome
+T116	DISO 301 310	hepatitis
+A24	Assertion T116 Speculated
+#87	AnnotatorNotes T116	C0019158; Hepatitis; Disease or Syndrome
+T117	Observation 394 409	morbimortalidad
+A25	Assertion T117 Speculated
+T118	Quantifier_or_Qualifier 389 393	alta
+A26	Assertion T118 Speculated
+R8	Has_Quantifier_or_Qualifier Arg1:T117 Arg2:T118	
+R9	Negation Arg1:T76 Arg2:T24	
+R10	Negation Arg1:T76 Arg2:T25	
+R11	Negation Arg1:T76 Arg2:T18	
+R12	Negation Arg1:T76 Arg2:T26	
+R13	Negation Arg1:T76 Arg2:T27	
+R14	Used_for Arg1:T58 Arg2:T1	
+R15	Experiences Arg1:T48 Arg2:T2	
+R16	Causes Arg1:T59 Arg2:T2	
+R17	Experiences Arg1:T48 Arg2:T58	
+R18	Has_Age Arg1:T60 Arg2:T61	
+R19	Has_Age Arg1:T4 Arg2:T61	
+R20	Speculation Arg1:T62 Arg2:T6	
+R21	Causes Arg1:T63 Arg2:T6	
+R22	Causes Arg1:T64 Arg2:T6	
+R23	Experiences Arg1:T4 Arg2:T6	
+R24	Experiences Arg1:T60 Arg2:T6	
+R25	Speculation Arg1:T65 Arg2:T7	
+R26	Before Arg1:T6 Arg2:T7	
+R27	Before Arg1:T6 Arg2:T116	
+R28	Before Arg1:T6 Arg2:T8	
+R29	Before Arg1:T6 Arg2:T9	
+R30	Before Arg1:T6 Arg2:T10	
+R31	Before Arg1:T6 Arg2:T11	
+R32	Speculation Arg1:T65 Arg2:T116	
+R33	Speculation Arg1:T65 Arg2:T8	
+R34	Speculation Arg1:T65 Arg2:T9	
+R35	Speculation Arg1:T65 Arg2:T10	
+R36	Speculation Arg1:T65 Arg2:T11	
+R37	Overlap Arg1:T6 Arg2:T117	
+R38	Experiences Arg1:T4 Arg2:T7	
+R39	Experiences Arg1:T4 Arg2:T116	
+R40	Experiences Arg1:T4 Arg2:T8	
+R41	Experiences Arg1:T4 Arg2:T9	
+R42	Experiences Arg1:T4 Arg2:T10	
+R43	Experiences Arg1:T4 Arg2:T11	
+R44	Experiences Arg1:T4 Arg2:T117	
+R45	Experiences Arg1:T60 Arg2:T7	
+R46	Experiences Arg1:T60 Arg2:T116	
+R47	Experiences Arg1:T60 Arg2:T8	
+R48	Experiences Arg1:T60 Arg2:T9	
+R49	Experiences Arg1:T60 Arg2:T10	
+R50	Experiences Arg1:T60 Arg2:T11	
+R51	Experiences Arg1:T60 Arg2:T117	
+R52	Before Arg1:T49 Arg2:T108	
+R53	Before Arg1:T12 Arg2:T108	
+R54	Before Arg1:T49 Arg2:T68	
+R55	Before Arg1:T12 Arg2:T68	
+R56	Location_of Arg1:T15 Arg2:T68	
+R57	Negation Arg1:T69 Arg2:T108	
+R58	Negation Arg1:T69 Arg2:T68	
+R59	Overlap Arg1:T20 Arg2:T70	
+T119	Result_or_Value 788 797	> 1.500 g
+R60	Has_Result_or_Value Arg1:T103 Arg2:T119	
+R61	Has_Duration_or_Interval Arg1:T71 Arg2:T72	
+R62	Speculation Arg1:T73 Arg2:T21	
+R63	Causes Arg1:T74 Arg2:T21	
+R64	Location_of Arg1:T22 Arg2:T56	
+R65	Location_of Arg1:T23 Arg2:T56	
+T120	Quantifier_or_Qualifier 987 996	inminente
+#88	AnnotatorNotes T120	C0332190; Impending; Temporal Concept
+R67	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T120	
+A27	Assertion T120 Speculated
+R68	Causes Arg1:T109 Arg2:T24	
+R69	Causes Arg1:T110 Arg2:T25	
+T121	Observation 1064 1079	expuestos a VIH
+#89	AnnotatorNotes T121	C0476549; Contact with and exposure to human immunodeficiency virus [HIV]; Finding
+R70	Experiences Arg1:T77 Arg2:T121	
+A28	Assertion T121 Negated
+R71	Location_of Arg1:T13 Arg2:T27	
+R72	Experiences Arg1:T77 Arg2:T24	
+R73	Experiences Arg1:T77 Arg2:T26	
+R74	Experiences Arg1:T77 Arg2:T27	
+R75	Has_Duration_or_Interval Arg1:T54 Arg2:T80	
+R76	Overlap Arg1:T28 Arg2:T80	
+R77	Has_Route_or_Mode Arg1:T54 Arg2:T81	
+R78	Has_Dose_or_Strength Arg1:T54 Arg2:T82	
+R79	Has_Drug_Form Arg1:T54 Arg2:T79	
+R80	Has_Drug_Form Arg1:T54 Arg2:T84	
+R81	Has_Dose_or_Strength Arg1:T54 Arg2:T83	
+R82	Has_Frequency Arg1:T54 Arg2:T85	
+R83	Has_Duration_or_Interval Arg1:T54 Arg2:T86	
+R84	Combined_with Arg1:T54 Arg2:T3	
+T122	ANAT 1346 1359	leche materna
+#90	AnnotatorNotes T122	C1556060; Specimen Type - Breast milk; Body Substance
+R85	Combined_with Arg1:T54 Arg2:T122	
+T123	Route 1371 1379	por boca
+#91	AnnotatorNotes T123	C1527415; Oral Route of Drug administration; Functional Concept
+R86	Has_Route_or_Mode Arg1:T54 Arg2:T123	
+R87	Used_for Arg1:T88 Arg2:T54	
+T124	Quantifier_or_Qualifier 1424 1432	seriados
+R88	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T124	
+R89	Location_of Arg1:T31 Arg2:T30	
+R90	Location_of Arg1:T32 Arg2:T30	
+R91	Location_of Arg1:T55 Arg2:T30	
+R92	Location_of Arg1:T33 Arg2:T30	
+R93	Experiences Arg1:T89 Arg2:T34	
+T125	Quantifier_or_Qualifier 1537 1542	otros
+#92	AnnotatorNotes T125	C0205394; Other; Qualitative Concept
+R94	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T125	
+R95	Experiences Arg1:T89 Arg2:T35	
+R96	Experiences Arg1:T89 Arg2:T5	
+R97	Experiences Arg1:T89 Arg2:T36	
+R98	Experiences Arg1:T89 Arg2:T37	
+R99	Has_Route_or_Mode Arg1:T37 Arg2:T93	
+R100	Experiences Arg1:T89 Arg2:T38	
+R101	Experiences Arg1:T89 Arg2:T14	
+T126	PROC 1709 1716	estudio
+#93	AnnotatorNotes T126	C0681814; research study; Research Activity
+R102	Has_Duration_or_Interval Arg1:T126 Arg2:T94	
+R103	Has_Duration_or_Interval Arg1:T39 Arg2:T96	
+R104	Experiences Arg1:T41 Arg2:T40	
+R105	Experiences Arg1:T41 Arg2:T42	
+R106	Causes Arg1:T97 Arg2:T42	
+R107	Causes Arg1:T90 Arg2:T42	
+T127	Observation 1970 1986	buena tolerancia
+T128	Result_or_Value 2001 2015	negativización
+#94	AnnotatorNotes T128	C0205160; Negative; Finding
+T129	CONC 1991 2015	tiempo de negativización
+R109	Has_Duration_or_Interval Arg1:T129 Arg2:T100	
+R110	Has_Duration_or_Interval Arg1:T129 Arg2:T98	
+R111	Before Arg1:T45 Arg2:T128	
+R112	Before Arg1:T46 Arg2:T128	
+T130	CONC 2113 2132	intención de tratar
+#95	AnnotatorNotes T130	C1292734; Treatment intent; Functional Concept
+T131	CONC 2167 2177	mortalidad
+#96	AnnotatorNotes T131	C0026565; Mortality Vital Statistics; Quantitative Concept
+T132	CONC 2368 2377	sobrevida
+R113	Used_for Arg1:T51 Arg2:T50	
+R114	Experiences Arg1:T102 Arg2:T50	
+R115	Experiences Arg1:T102 Arg2:T52	
+#97	AnnotatorNotes T118	C0205250; High; Qualitative Concept
+R116	Overlap Arg1:T19 Arg2:T127	
+R117	Overlap Arg1:T43 Arg2:T127	
+#98	AnnotatorNotes T127	C5684674; patient tolerated procedure well; Finding
+T133	Quantifier_or_Qualifier 2178 2184	global
+#99	AnnotatorNotes T133	C2348867; Global; Qualitative Concept
+R66	Has_Quantifier_or_Qualifier Arg1:T131 Arg2:T133	
+#100	AnnotatorNotes T132	C0220921; survival aspects; Functional Concept
+R108	Has_Quantifier_or_Qualifier Arg1:T132 Arg2:T111	
+R118	Speculation Arg1:T65 Arg2:T118	
+R119	Speculation Arg1:T65 Arg2:T117	
+#101	AnnotatorNotes T12	C0003451; Antiviral Agents; Pharmacologic Substance
+A29	Experiencer T99 Patient
+A30	Experiencer T102 Patient
+A31	Experiencer T41 Patient
+A32	Experiencer T95 Patient
+A33	Experiencer T89 Patient
+A34	Experiencer T48 Patient
+A35	Population_data T48 Age
+A36	Experiencer T4 Patient
+A37	Experiencer T60 Patient
+A38	Experiencer T77 Patient
+R120	Has_Result_or_Value Arg1:T44 Arg2:T128	
+T134	Observation 1954 1957	EV+
+#102	AnnotatorNotes T134	C2748323; Enterovirus test positive; Laboratory or Test Result | C4698382; Positive for Enteroviruses; Laboratory or Test Result
+T135	Observation 1932 1935	EV+
+#103	AnnotatorNotes T135	C2748323; Enterovirus test positive; Laboratory or Test Result | C4698382; Positive for Enteroviruses; Laboratory or Test Result
+T136	Observation 1886 1889	EV+
+#104	AnnotatorNotes T136	C2748323; Enterovirus test positive; Laboratory or Test Result | C4698382; Positive for Enteroviruses; Laboratory or Test Result
+T137	Observation 2257 2260	EV+
+#105	AnnotatorNotes T137	C2748323; Enterovirus test positive; Laboratory or Test Result | C4698382; Positive for Enteroviruses; Laboratory or Test Result
+R121	Experiences Arg1:T99 Arg2:T137	

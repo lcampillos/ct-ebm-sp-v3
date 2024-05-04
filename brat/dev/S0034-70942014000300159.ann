@@ -1,0 +1,191 @@
+T1	CHEM 15 24	lidocaína
+#1	AnnotatorNotes T1	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T2	CHEM 30 45	levobupivacaína
+#2	AnnotatorNotes T2	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T3	PROC 741 754	aleatorizados
+#3	AnnotatorNotes T3	C0034656; Randomization; Research Activity
+T4	PROC 69 87	bloqueo intratecal
+#4	AnnotatorNotes T4	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T5	PROC 89 117	estudio clínico aleatorizado
+#5	AnnotatorNotes T5	C0206034; Clinical Trials, Randomized; Research Activity
+T6	PROC 162 178	bloqueo raquídeo
+#6	AnnotatorNotes T6	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T7	CHEM 225 234	lidocaína
+#7	AnnotatorNotes T7	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T8	PROC 589 613	consentimiento informado
+#8	AnnotatorNotes T8	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T9	ANAT 340 358	espacio intratecal
+#9	AnnotatorNotes T9	C1370196; Intrathecal Space; Body Space or Junction
+T10	CHEM 421 430	lidocaína
+#10	AnnotatorNotes T10	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T11	PROC 481 499	anestesia raquídea
+#11	AnnotatorNotes T11	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T12	CHEM 504 519	levobupivacaína
+#12	AnnotatorNotes T12	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T13	PROC 684 718	resección transuretral de próstata
+#13	AnnotatorNotes T13	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T14	CHEM 788 803	levobupivacaína
+#14	AnnotatorNotes T14	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T15	CHEM 816 825	lidocaína
+#15	AnnotatorNotes T15	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T16	CHEM 855 870	levobupivacaína
+#16	AnnotatorNotes T16	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T17	PROC 996 1012	bloqueo raquídeo
+#17	AnnotatorNotes T17	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T18	DISO 1206 1222	eventos adversos
+#18	AnnotatorNotes T18	C0877248; Adverse event; Pathologic Function
+T19	PROC 1229 1241	tratamientos
+#19	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	PROC 1275 1291	bloqueo raquídeo
+#20	AnnotatorNotes T20	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T21	DISO 1603 1619	eventos adversos
+#21	AnnotatorNotes T21	C0877248; Adverse event; Pathologic Function
+T22	PROC 1622 1634	tratamientos
+#22	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	DISO 1697 1711	complicaciones
+#23	AnnotatorNotes T23	C0009566; Complication; Pathologic Function
+T24	DISO 1746 1770	cefalea pospunción dural
+#24	AnnotatorNotes T24	C0751188; Post-Dural Puncture Headaches; Sign or Symptom
+T25	DISO 1774 1795	síntomas neurológicos
+#25	AnnotatorNotes T25	C0235031; Neurologic Symptoms; Sign or Symptom
+T26	CHEM 1856 1865	lidocaína
+#26	AnnotatorNotes T26	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T27	CHEM 1871 1886	levobupivacaína
+#27	AnnotatorNotes T27	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T28	PROC 1922 1940	bloqueo intratecal
+#28	AnnotatorNotes T28	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T29	CHEM 1962 1977	levobupivacaína
+#29	AnnotatorNotes T29	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T30	PROC 2068 2082	procedimientos
+#30	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T31	PROC 2048 2064	bloqueo raquídeo
+#31	AnnotatorNotes T31	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T32	PROC 2112 2146	resección transuretral de próstata
+#32	AnnotatorNotes T32	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T33	CHEM 319 335	anestésico local
+#33	AnnotatorNotes T33	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T34	ANAT 710 718	próstata
+#34	AnnotatorNotes T34	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T35	CHEM 873 888	solución salina
+#35	AnnotatorNotes T35	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T36	PROC 1160 1176	bloqueo raquídeo
+#36	AnnotatorNotes T36	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T37	ANAT 2138 2146	próstata
+#37	AnnotatorNotes T37	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T38	Route 77 87	intratecal
+#38	AnnotatorNotes T38	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T39	LIVB 208 220	anestesistas
+#39	AnnotatorNotes T39	C0334910; Anesthesiologist; Professional or Occupational Group | C0473161; Anesthetist; Professional or Occupational Group
+T40	Route 235 245	intratecal
+#40	AnnotatorNotes T40	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T41	Dose 249 259	dosis baja
+T45	LIVB 618 626	paciente
+#41	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 662 671	pacientes
+#42	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 724 733	pacientes
+#43	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Dose 780 784	6 mg
+T49	Dose 806 812	0,3 mL
+T50	Dose 826 831	al 2%
+T51	Dose 844 851	6,75 mg
+T52	Form 873 881	solución
+#44	AnnotatorNotes T52	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T54	Duration 1340 1357	162,43 ± 39,4 min
+T55	Duration 1362 1379	219,73 ± 37,3 min
+T56	Duration 1487 1501	109 ± 49,9 min
+T57	Duration 1506 1520	148 ± 56,8 min
+T61	Neg_cue 1743 1745	ni
+T62	Neg_cue 1771 1773	ni
+T63	Duration 1796 1808	transitorios
+#45	AnnotatorNotes T63	C0205374; Transitory; Temporal Concept
+T65	Dose 1838 1852	una dosis baja
+T66	Route 1930 1940	intratecal
+#46	AnnotatorNotes T66	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T68	PHYS 269 289	efecto vasodilatador
+#47	AnnotatorNotes T68	C0042401; Vasodilation; Organ or Tissue Function
+T42	Time 1056 1069	postanestesia
+T43	Time 1430 1443	postanestesia
+T44	Duration 2097 2103	cortos
+A1	Assertion T25 Negated
+A2	Assertion T24 Negated
+T53	Neg_cue 1535 1537	No
+T58	CONC 1543 1553	diferencia
+#48	AnnotatorNotes T58	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T53 Arg2:T58	
+A3	Assertion T58 Negated
+R2	Negation Arg1:T61 Arg2:T24	
+R3	Negation Arg1:T62 Arg2:T25	
+R4	Has_Duration_or_Interval Arg1:T25 Arg2:T63	
+T59	Spec_cue 431 436	puede
+T60	CONC 452 460	aumentar
+A4	Assertion T60 Speculated
+R5	Speculation Arg1:T59 Arg2:T60	
+R6	Combined_with Arg1:T1 Arg2:T2	
+R7	Has_Route_or_Mode Arg1:T4 Arg2:T38	
+T64	CONC 56 87	duración del bloqueo intratecal
+#49	AnnotatorNotes T64	C4724588; anesthesia duration; Temporal Concept (?)
+T69	CONC 149 178	duración del bloqueo raquídeo
+#51	AnnotatorNotes T69	C4724588; anesthesia duration; Temporal Concept (?)
+R8	Has_Route_or_Mode Arg1:T7 Arg2:T40	
+R9	Has_Dose_or_Strength Arg1:T7 Arg2:T41	
+R10	Causes Arg1:T7 Arg2:T68	
+R11	Location_of Arg1:T9 Arg2:T33	
+T72	Observation 408 414	efecto
+#54	AnnotatorNotes T72	C1518681; Outcome of Therapy; Finding (?)
+R13	Causes Arg1:T10 Arg2:T72	
+R15	Used_for Arg1:T12 Arg2:T11	
+#55	AnnotatorNotes T60	C0442805; Increase; Functional Concept
+T73	CONC 464 499	resolución de la anestesia raquídea
+R16	Combined_with Arg1:T10 Arg2:T12	
+R17	Experiences Arg1:T46 Arg2:T13	
+R18	Location_of Arg1:T34 Arg2:T13	
+R19	Experiences Arg1:T45 Arg2:T13	
+R20	Experiences Arg1:T47 Arg2:T14	
+R21	Experiences Arg1:T47 Arg2:T16	
+R22	Combined_with Arg1:T16 Arg2:T35	
+R23	Combined_with Arg1:T14 Arg2:T15	
+R24	Has_Dose_or_Strength Arg1:T14 Arg2:T48	
+R25	Has_Dose_or_Strength Arg1:T15 Arg2:T49	
+R26	Has_Dose_or_Strength Arg1:T15 Arg2:T50	
+R27	Has_Dose_or_Strength Arg1:T16 Arg2:T51	
+R28	Has_Drug_Form Arg1:T35 Arg2:T52	
+T74	CONC 983 1012	duración del bloqueo raquídeo
+#57	AnnotatorNotes T74	C4724588; anesthesia duration; Temporal Concept (?)
+T75	CONC 1018 1069	permanencia en la sala de reanimación postanestesia
+R29	Overlap Arg1:T75 Arg2:T42	
+T76	CONC 1136 1142;1156 1176	inicio del bloqueo raquídeo
+T77	CONC 1148 1176	término del bloqueo raquídeo
+T78	CONC 1260 1291	resolución del bloqueo raquídeo
+R30	Has_Duration_or_Interval Arg1:T78 Arg2:T54	
+R31	Has_Duration_or_Interval Arg1:T78 Arg2:T55	
+T79	CONC 1397 1443	tiempo en la sala de reanimación postanestesia
+R32	Overlap Arg1:T79 Arg2:T43	
+R33	Has_Duration_or_Interval Arg1:T79 Arg2:T56	
+R34	Has_Duration_or_Interval Arg1:T79 Arg2:T57	
+R35	Has_Dose_or_Strength Arg1:T26 Arg2:T65	
+R36	Combined_with Arg1:T26 Arg2:T27	
+T80	Quantifier_or_Qualifier 1887 1898	hiperbárica
+R37	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T80	
+T82	CONC 1909 1940	duración del bloqueo intratecal
+#60	AnnotatorNotes T82	C4724588; anesthesia duration; Temporal Concept (?)
+R38	Has_Route_or_Mode Arg1:T29 Arg2:T66	
+R39	Used_for Arg1:T29 Arg2:T28	
+T83	Quantifier_or_Qualifier 1978 1989	hiperbárica
+R40	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T83	
+R42	Combined_with Arg1:T26 Arg2:T29	
+R43	Used_for Arg1:T26 Arg2:T28	
+T84	CONC 2035 2064	duración del bloqueo raquídeo
+#61	AnnotatorNotes T84	C4724588; anesthesia duration; Temporal Concept (?)
+R44	Before Arg1:T31 Arg2:T30	
+R45	Has_Duration_or_Interval Arg1:T30 Arg2:T44	
+R46	Before Arg1:T31 Arg2:T32	
+R47	Location_of Arg1:T37 Arg2:T32	
+R48	Has_Duration_or_Interval Arg1:T32 Arg2:T44	
+R50	Before Arg1:T8 Arg2:T13	
+R51	Before Arg1:T3 Arg2:T14	
+R52	Before Arg1:T3 Arg2:T16	
+A5	Experiencer T39 Other
+A6	Experiencer T45 Patient
+A7	Experiencer T46 Patient
+A8	Experiencer T47 Patient

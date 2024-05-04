@@ -1,0 +1,284 @@
+T1	PROC 82 127	Ensayo clínico fase IV, abierto, aleatorizado
+T2	DISO 174 188	neurotoxicidad
+#1	AnnotatorNotes T2	C0235032; Neurotoxicity Syndromes; Injury or Poisoning
+T3	CHEM 208 216	abacavir
+#2	AnnotatorNotes T3	C0663655; abacavir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T4	CHEM 217 227	lamivudina
+#3	AnnotatorNotes T4	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T5	CHEM 228 240	dolutegravir
+#4	AnnotatorNotes T5	C3253985; dolutegravir; Organic Chemical · Pharmacologic Substance
+T6	ANAT 247 271	sistema nervioso central
+#5	AnnotatorNotes T6	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T7	CHEM 340 351	alafenamida
+T8	PROC 293 329	pauta de tratamiento antirretroviral
+T9	CHEM 352 365	emtricitabina
+#6	AnnotatorNotes T9	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T10	CHEM 366 375	darunavir
+#7	AnnotatorNotes T10	C1435444; darunavir; Organic Chemical · Pharmacologic Substance
+T11	CHEM 376 386	cobicistat
+#8	AnnotatorNotes T11	C3177235; cobicistat; Organic Chemical · Pharmacologic Substance
+T12	PROC 460 473	diagnosticado
+#9	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	PROC 490 510	técnicas serológicas
+T14	PROC 525 552	Tratamiento antirretroviral
+#10	AnnotatorNotes T14	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T15	CHEM 564 567	ABC
+T16	PROC 691 705	consentimiento
+#11	AnnotatorNotes T16	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T17	CHEM 568 571	3TC
+#12	AnnotatorNotes T17	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T18	PROC 851 860	analítica
+#13	AnnotatorNotes T18	C0002778; Analysis of substances; Laboratory Procedure | C0814047; biological analysis and measurement; Laboratory Procedure
+T19	CHEM 572 575	DTG
+T20	PROC 1043 1052	analítica
+#14	AnnotatorNotes T20	C0002778; Analysis of substances; Laboratory Procedure | C0814047; biological analysis and measurement; Laboratory Procedure
+T21	PROC 1063 1072	analítica
+#15	AnnotatorNotes T21	C0002778; Analysis of substances; Laboratory Procedure | C0814047; biological analysis and measurement; Laboratory Procedure
+T22	PROC 1293 1326	cuestionario de calidad del sueño
+#16	AnnotatorNotes T22	C4706281; Assessment using Pittsburgh Sleep Quality Index; Health Care Activity
+T23	DISO 1267 1286	trastorno del sueño
+#17	AnnotatorNotes T23	C0037317; Sleep disturbances; Sign or Symptom | C0851578; Sleep Disorders; Mental or Behavioral Dysfunction
+T24	DISO 1471 1483	intolerancia
+#18	AnnotatorNotes T24	C0277585; Intolerance to drug; Pathologic Function
+T25	DISO 1462 1469	Alergia
+#19	AnnotatorNotes T25	C1527304; Allergic Reaction; Pathologic Function
+T26	DISO 1589 1616	infecciones activas del SNC
+T27	ANAT 1613 1616	SNC
+#20	AnnotatorNotes T27	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T28	DISO 1620 1628	Psicosis
+#21	AnnotatorNotes T28	C0033975; Psychotic Disorders; Mental or Behavioral Dysfunction
+T29	DISO 1637 1652	depresión mayor
+#22	AnnotatorNotes T29	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T30	DISO 1657 1676	síntomas psicóticos
+T31	CHEM 1561 1564	TAF
+T32	DISO 1679 1698	ideación autolítica
+T33	DISO 1701 1709	Demencia
+#23	AnnotatorNotes T33	C0497327; Dementia; Mental or Behavioral Dysfunction
+T34	DISO 1712 1726	retraso mental
+#24	AnnotatorNotes T34	C0025362; Mental Retardation; Mental or Behavioral Dysfunction | C3714756; Intellectual Disability; Mental or Behavioral Dysfunction
+T35	CHEM 1565 1568	FTC
+#25	AnnotatorNotes T35	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T36	PROC 1751 1762	diagnóstico
+#26	AnnotatorNotes T36	C0011900; Diagnosis; Diagnostic Procedure
+T37	DISO 1827 1839	Enfermedades
+#27	AnnotatorNotes T37	C0012634; Disease; Disease or Syndrome
+T38	PROC 1870 1884	procedimientos
+#28	AnnotatorNotes T38	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T39	PROC 1944 1958	procedimientos
+#29	AnnotatorNotes T39	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T40	PROC 2075 2096	método anticonceptivo
+#30	AnnotatorNotes T40	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T41	DISO 1729 1746	Consumo de drogas
+T42	CHEM 314 329	antirretroviral
+#31	AnnotatorNotes T42	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T43	DISO 410 413	VIH
+#32	AnnotatorNotes T43	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T44	DISO 477 480	VIH
+#33	AnnotatorNotes T44	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T45	CHEM 537 552	antirretroviral
+#34	AnnotatorNotes T45	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T46	PROC 606 621	Carga viral VIH
+#35	AnnotatorNotes T46	C1168369; HIV viral load; Laboratory Procedure
+T47	PROC 784 791	viremia
+#36	AnnotatorNotes T47	C1261478; Viral load measurement; Laboratory Procedure
+T48	PROC 929 944	carga viral VIH
+#37	AnnotatorNotes T48	C1168369; HIV viral load; Laboratory Procedure
+T49	PROC 1172 1183	carga viral
+#38	AnnotatorNotes T49	C1261478; Viral load measurement; Laboratory Procedure
+T50	PROC 1399 1417	carga viral de VIH
+T51	DISO 1500 1525	mutaciones de resistencia
+T52	DISO 1766 1771	abuso
+#39	AnnotatorNotes T52	C0013146; Drug abuse; Mental or Behavioral Dysfunction
+T53	DISO 1774 1785	dependencia
+#40	AnnotatorNotes T53	C1510472; Drug Dependence; Mental or Behavioral Dysfunction
+T54	CHEM 1569 1572	DRV
+T55	Date 13 17	2018
+T57	LIVB 442 450	Paciente
+#41	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Age 451 459	>18 años
+T60	Date 553 559	actual
+T61	Duration 584 602	al menos 4 semanas
+T62	LIVB 618 621	VIH
+#42	AnnotatorNotes T62	C0019682; HIV; Virus
+T63	Duration 645 664	al menos 12 semanas
+T64	Duration 760 779	al menos 12 semanas
+T66	LIVB 827 835	paciente
+#43	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	Date 871 879	reciente
+T68	Duration 881 892	≤ 4 semanas
+T69	LIVB 941 944	VIH
+#44	AnnotatorNotes T69	C0019682; HIV; Virus
+T70	Neg_cue 1022 1024	no
+T71	Duration 1073 1093	supere las 4 semanas
+T72	LIVB 1206 1214	paciente
+#45	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T73	PHYS 1321 1326	sueño
+#46	AnnotatorNotes T73	C0037313; Sleep; Organism Function
+T74	LIVB 1414 1417	VIH
+#47	AnnotatorNotes T74	C0019682; HIV; Virus
+T75	Duration 1435 1457	las últimas 12 semanas
+T77	PHYS 1679 1687	ideación
+#48	AnnotatorNotes T77	C0392348; ideation; Mental Process
+T79	LIVB 1974 1993	Mujeres embarazadas
+#49	AnnotatorNotes T79	C0033011; Pregnant Women; Population Group
+T80	LIVB 1996 2005	lactantes
+#50	AnnotatorNotes T80	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T81	LIVB 2016 2038	mujeres en edad fértil
+#51	AnnotatorNotes T81	C4324275; Woman of childbearing potential; Population Group
+T82	Age 2027 2038	edad fértil
+T83	PHYS 1982 1993	embarazadas
+#52	AnnotatorNotes T83	C0032961; Pregnancy; Organism Function
+T84	Neg_cue 2043 2045	no
+T85	LIVB 612 617	viral
+#53	AnnotatorNotes T85	C0042776; Virus; Virus
+T86	LIVB 935 940	viral
+#54	AnnotatorNotes T86	C0042776; Virus; Virus
+T87	LIVB 1178 1183	viral
+#55	AnnotatorNotes T87	C0042776; Virus; Virus
+T88	PHYS 1281 1286	sueño
+#56	AnnotatorNotes T88	C0037313; Sleep; Organism Function
+T89	LIVB 1405 1410	viral
+#57	AnnotatorNotes T89	C0042776; Virus; Virus
+T90	PHYS 1720 1726	mental
+#58	AnnotatorNotes T90	C0229992; Psyche structure; Mental Process
+T59	CHEM 1740 1746	drogas
+#59	AnnotatorNotes T59	C0086190; Illicit Drugs; Hazardous or Poisonous Substance
+T56	PROC 990 1009	visita de selección
+#60	AnnotatorNotes T56	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A3	Assertion T20 Negated
+A5	Population_data T81 Age
+A6	Assertion T40 Negated
+A1	Status T26 History_of
+A4	Status T25 History_of
+#61	AnnotatorNotes T60	C0521116; Current (present time); Temporal Concept 
+#62	AnnotatorNotes T1	C0282462; Phase 4 Clinical Trials; Research Activity + C1709323; Open Label Study; Research Activity + C0034656; Randomization; Research Activity
+#63	AnnotatorNotes T19	C3253985; dolutegravir; Organic Chemical · Pharmacologic Substance
+#64	AnnotatorNotes T50	C1168369; HIV viral load; Laboratory Procedure
+#65	AnnotatorNotes T41	C0242510; Drug usage; Mental or Behavioral Dysfunction
+R1	Negation Arg1:T70 Arg2:T20	
+A7	Status T24 History_of
+T65	Spec_cue 1844 1850	puedan
+T76	CONC 1851 1861	interferir
+A8	Assertion T76 Speculated
+#66	AnnotatorNotes T76	C0521102; Interferes with; Functional Concept
+R2	Speculation Arg1:T65 Arg2:T76	
+T78	Neg_cue 1899 1915	Inhabilidad para
+T91	Observation 1916 1958	completar cualquiera de los procedimientos
+A9	Assertion T91 Negated
+R3	Negation Arg1:T78 Arg2:T91	
+R4	Negation Arg1:T84 Arg2:T40	
+T92	Observation 153 167	reversibilidad
+#67	AnnotatorNotes T92	C0679253; disease reversibility; Finding
+R5	Combined_with Arg1:T3 Arg2:T4	
+R6	Combined_with Arg1:T4 Arg2:T5	
+R7	Causes Arg1:T3 Arg2:T2	
+R8	Location_of Arg1:T6 Arg2:T2	
+R9	Used_for Arg1:T42 Arg2:T8	
+R10	Combined_with Arg1:T7 Arg2:T9	
+R11	Combined_with Arg1:T9 Arg2:T10	
+R12	Combined_with Arg1:T10 Arg2:T11	
+R13	Before Arg1:T3 Arg2:T7	
+R14	Used_for Arg1:T3 Arg2:T8	
+R15	Used_for Arg1:T7 Arg2:T8	
+#68	AnnotatorNotes T7	C3713958; tenofovir alafenamide; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+R16	Causes Arg1:T8 Arg2:T2	
+R17	Has_Age Arg1:T57 Arg2:T58	
+R18	Experiences Arg1:T57 Arg2:T44	
+R19	Experiences Arg1:T57 Arg2:T13	
+R20	Before Arg1:T13 Arg2:T12	
+#69	AnnotatorNotes T13	C0036743; Serologic tests; Laboratory Procedure
+R22	Used_for Arg1:T45 Arg2:T14	
+R23	Combined_with Arg1:T15 Arg2:T17	
+R24	Combined_with Arg1:T17 Arg2:T19	
+#70	AnnotatorNotes T15	C0663655; abacavir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+R25	Has_Duration_or_Interval Arg1:T15 Arg2:T61	
+R26	Has_Duration_or_Interval Arg1:T17 Arg2:T61	
+R27	Has_Duration_or_Interval Arg1:T19 Arg2:T61	
+R28	Has_Duration_or_Interval Arg1:T45 Arg2:T61	
+R29	Used_for Arg1:T15 Arg2:T14	
+R30	Overlap Arg1:T15 Arg2:T60	
+R21	Overlap Arg1:T45 Arg2:T60	
+R31	Overlap Arg1:T17 Arg2:T60	
+R32	Overlap Arg1:T19 Arg2:T60	
+T93	Result_or_Value 622 636	< 50 copias/mL
+R33	Has_Result_or_Value Arg1:T46 Arg2:T93	
+R34	Has_Duration_or_Interval Arg1:T46 Arg2:T63	
+R35	Before Arg1:T46 Arg2:T16	
+T94	Quantifier_or_Qualifier 726 745	dos determinaciones
+R36	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T94	
+R37	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T94	
+T95	Result_or_Value 792 806	< 50 copias/mL
+R38	Has_Result_or_Value Arg1:T47 Arg2:T95	
+R39	Has_Duration_or_Interval Arg1:T46 Arg2:T64	
+R40	Has_Duration_or_Interval Arg1:T47 Arg2:T64	
+R41	Has_Duration_or_Interval Arg1:T47 Arg2:T63	
+R42	Before Arg1:T47 Arg2:T16	
+R43	Overlap Arg1:T18 Arg2:T67	
+R44	Experiences Arg1:T66 Arg2:T18	
+R45	Overlap Arg1:T18 Arg2:T68	
+R46	Overlap Arg1:T48 Arg2:T67	
+R47	Overlap Arg1:T48 Arg2:T68	
+R48	Experiences Arg1:T66 Arg2:T48	
+R49	Before Arg1:T18 Arg2:T56	
+R50	Before Arg1:T48 Arg2:T56	
+R51	After Arg1:T21 Arg2:T71	
+T96	PROC 1136 1145	selección
+#71	AnnotatorNotes T96	C0242802; Patient Selection; Research Activity
+R52	Overlap Arg1:T96 Arg2:T49	
+R53	Before Arg1:T21 Arg2:T96	
+R54	Before Arg1:T20 Arg2:T96	
+R55	Experiences Arg1:T72 Arg2:T49	
+R56	Experiences Arg1:T72 Arg2:T21	
+R57	Experiences Arg1:T72 Arg2:T20	
+T97	Result_or_Value 1244 1263	Valoración positiva
+#72	AnnotatorNotes T97	C1446409; Positive; Finding
+R59	Has_Result_or_Value Arg1:T22 Arg2:T97	
+T98	Quantifier_or_Qualifier 1385 1398	al menos, una
+R60	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T98	
+T99	Result_or_Value 1418 1431	≥50 copias/mL
+R62	Has_Result_or_Value Arg1:T50 Arg2:T99	
+R63	Overlap Arg1:T50 Arg2:T75	
+R64	Causes Arg1:T31 Arg2:T25	
+R65	Causes Arg1:T31 Arg2:T24	
+R66	Causes Arg1:T35 Arg2:T25	
+R67	Causes Arg1:T35 Arg2:T24	
+R68	Causes Arg1:T54 Arg2:T25	
+R69	Causes Arg1:T54 Arg2:T24	
+#73	AnnotatorNotes T31	C3713958; tenofovir alafenamide; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+#74	AnnotatorNotes T54	C3253985; dolutegravir; Organic Chemical · Pharmacologic Substance
+R70	Location_of Arg1:T27 Arg2:T26	
+#75	AnnotatorNotes T26	C0007684; Central Nervous System Infection; Disease or Syndrome (?)
+R71	Overlap Arg1:T29 Arg2:T30	
+T100	Quantifier_or_Qualifier 1629 1635	activa
+#76	AnnotatorNotes T100	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R73	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T100	
+#77	AnnotatorNotes T30	C0871189; Psychotic symptom; Sign or Symptom
+R75	After Arg1:T92 Arg2:T8	
+T101	CONC 1819 1824	DSM-5
+#78	AnnotatorNotes T101	C4236906; Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5); Intellectual Product
+R76	Used_for Arg1:T101 Arg2:T36	
+R77	Causes Arg1:T59 Arg2:T52	
+R78	Causes Arg1:T59 Arg2:T53	
+R80	Experiences Arg1:T79 Arg2:T83	
+R81	Has_Age Arg1:T81 Arg2:T82	
+T102	Quantifier_or_Qualifier 2097 2105	adecuado
+A2	Assertion T102 Negated
+#79	AnnotatorNotes T102	C0205411; Adequate; Qualitative Concept
+R82	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T102	
+R83	Negation Arg1:T84 Arg2:T102	
+R84	Experiences Arg1:T81 Arg2:T40	
+R85	Experiences Arg1:T66 Arg2:T56	
+#80	AnnotatorNotes T67	C0332185; Recent; Temporal Concept
+#81	AnnotatorNotes T51	C5704646; Drug resistance mutation; Cell or Molecular Dysfunction
+A10	Assertion T21 Hypothetical
+A11	Assertion T71 Hypothetical
+A12	Experiencer T66 Patient
+A13	Assertion T18 Hypothetical
+A14	Assertion T67 Hypothetical
+A15	Assertion T68 Hypothetical
+A16	Assertion T48 Hypothetical
+A17	Experiencer T72 Patient
+A18	Experiencer T57 Patient
+A19	Experiencer T80 Patient
+A20	Experiencer T81 Patient
+A21	Experiencer T79 Patient

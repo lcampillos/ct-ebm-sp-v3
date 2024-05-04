@@ -1,0 +1,192 @@
+T1	PROC 42 62	cateterismo ureteral
+#1	AnnotatorNotes T1	C0041953; Catheterization, Ureteral; Therapeutic or Preventive Procedure
+T2	ANAT 80 87	renales
+#2	AnnotatorNotes T2	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T3	PROC 165 187	ureteroneocistostomías
+#3	AnnotatorNotes T3	C0194307; Intravesical reimplantation of ureter; Therapeutic or Preventive Procedure
+T4	PROC 195 214	trasplantes renales
+#4	AnnotatorNotes T4	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T5	PROC 904 916	Lich-Gregoir
+T6	DISO 233 247	complicaciones
+#5	AnnotatorNotes T6	C0009566; Complication; Pathologic Function
+T7	PROC 270 337	Estudio prospectivo comparativo no aleatorizado de grupos paralelos
+#6	AnnotatorNotes T7	C2826345; Parallel Study; Research Activity + C2985410; Non-Randomized Controlled Trials as Topic; Research Activity + C0033522; Prospective Studies; Research Activity + C1579762; comparative study research; Research Activity
+T8	PROC 346 365	trasplantes renales
+#7	AnnotatorNotes T8	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T9	DISO 505 519	complicaciones
+#8	AnnotatorNotes T9	C0009566; Complication; Pathologic Function
+T10	DISO 687 701	complicaciones
+#9	AnnotatorNotes T10	C0009566; Complication; Pathologic Function
+T11	PROC 798 817	reimplante ureteral
+#10	AnnotatorNotes T11	C0401287; Reimplantation of ureter; Therapeutic or Preventive Procedure
+T12	ANAT 809 817	ureteral
+#11	AnnotatorNotes T12	C0041951; Ureter; Body Part, Organ, or Organ Component | C1281572; Entire ureter; Body Part, Organ, or Organ Component
+T13	DISO 830 844	complicaciones
+#12	AnnotatorNotes T13	C0009566; Complication; Pathologic Function
+T14	PROC 862 884	reimplante tipo Paquin
+#13	AnnotatorNotes T14	C0194312; Paquin operation, ureteroneocystostomy; Therapeutic or Preventive Procedure
+T15	DISO 975 991	fístula urinaria
+#14	AnnotatorNotes T15	C0042021; Urinary Tract Fistula; Disease or Syndrome
+T16	PROC 1208 1230	utilización de catéter
+#15	AnnotatorNotes T16	C0007430; Catheterization; Therapeutic or Preventive Procedure | C0883301; Catheter placement; Therapeutic or Preventive Procedure
+T17	PROC 1389 1404	colocar catéter
+#16	AnnotatorNotes T17	C0007430; Catheterization; Therapeutic or Preventive Procedure | C0883301; Catheter placement; Therapeutic or Preventive Procedure
+T18	DISO 1259 1273	complicaciones
+#17	AnnotatorNotes T18	C0009566; Complication; Pathologic Function
+T19	PROC 1294 1304	reimplante
+#18	AnnotatorNotes T19	C0035139; Surgical Replantation; Therapeutic or Preventive Procedure
+T20	DISO 1348 1355	fístula
+#19	AnnotatorNotes T20	C0016169; pathologic fistula; Anatomical Abnormality
+T21	DISO 1491 1522	infecciones del tracto urinario
+#20	AnnotatorNotes T21	C0042029; Urinary tract infection; Disease or Syndrome
+T22	PROC 1639 1668	colocación de catéter doble J
+T23	DISO 1680 1694	complicaciones
+#21	AnnotatorNotes T23	C0009566; Complication; Pathologic Function
+T24	PROC 1715 1734	reimplante ureteral
+#22	AnnotatorNotes T24	C0401287; Reimplantation of ureter; Therapeutic or Preventive Procedure
+T25	ANAT 1726 1734	ureteral
+#23	AnnotatorNotes T25	C0041951; Ureter; Body Part, Organ, or Organ Component | C1281572; Entire ureter; Body Part, Organ, or Organ Component
+T26	ANAT 54 62	ureteral
+#24	AnnotatorNotes T26	C0041951; Ureter; Body Part, Organ, or Organ Component | C1281572; Entire ureter; Body Part, Organ, or Organ Component
+T27	PROC 70 87	implantes renales
+T29	ANAT 207 214	renales
+#25	AnnotatorNotes T29	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T30	ANAT 358 365	renales
+#26	AnnotatorNotes T30	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T31	ANAT 983 991	urinaria
+#27	AnnotatorNotes T31	C1508753; Urinary system; Body System
+T32	DISO 1051 1093	estenosis de la anastomosis ureterovesical
+T33	ANAT 1079 1093	ureterovesical
+#28	AnnotatorNotes T33	C0545902; urinary bladder and ureter; Body Part, Organ, or Organ Component
+T34	ANAT 1507 1522	tracto urinario
+#29	AnnotatorNotes T34	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T35	PROC 114 157	uso sistemático de catéter ureteral doble J
+T38	DEVI 133 157	catéter ureteral doble J
+#30	AnnotatorNotes T38	C0179799; Double-J Ureteral Catheter; Medical Device
+T40	LIVB 411 420	pacientes
+#31	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	DEVI 425 440	catéter doble J
+#32	AnnotatorNotes T41	C0441293; JJ stent; Medical Device
+T42	LIVB 454 463	pacientes
+#33	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Neg_cue 464 467	sin
+T44	DEVI 468 475	catéter
+#34	AnnotatorNotes T44	C0085590; catheter device; Medical Device
+T45	DEVI 675 682	catéter
+#35	AnnotatorNotes T45	C0085590; catheter device; Medical Device
+T46	Neg_cue 761 764	sin
+T47	DEVI 765 772	catéter
+#36	AnnotatorNotes T47	C0085590; catheter device; Medical Device
+T48	DEVI 943 950	catéter
+#37	AnnotatorNotes T48	C0085590; catheter device; Medical Device
+T49	Neg_cue 1018 1021	sin
+T50	DEVI 1022 1029	catéter
+#38	AnnotatorNotes T50	C0085590; catheter device; Medical Device
+T51	DEVI 1110 1117	catéter
+#39	AnnotatorNotes T51	C0085590; catheter device; Medical Device
+T53	Neg_cue 1205 1207	no
+T54	DEVI 1223 1230	catéter
+#40	AnnotatorNotes T54	C0085590; catheter device; Medical Device
+T55	Spec_cue 1242 1251	riesgo de
+T56	Spec_cue 1338 1347	riesgo de
+T57	Neg_cue 1386 1388	no
+T58	DEVI 1397 1404	catéter
+#41	AnnotatorNotes T58	C0085590; catheter device; Medical Device
+T60	DEVI 1566 1573	catéter
+#42	AnnotatorNotes T60	C0085590; catheter device; Medical Device
+T61	Neg_cue 1599 1602	sin
+T62	DEVI 1603 1610	catéter
+#43	AnnotatorNotes T62	C0085590; catheter device; Medical Device
+T63	DEVI 1653 1668	catéter doble J
+#44	AnnotatorNotes T63	C0441293; JJ stent; Medical Device
+A1	Assertion T44 Negated
+A2	Assertion T17 Negated
+A3	Assertion T58 Negated
+A4	Assertion T47 Negated
+A5	Assertion T50 Negated
+A6	Assertion T16 Negated
+A7	Assertion T54 Negated
+A8	Assertion T18 Speculated
+A9	Assertion T20 Speculated
+A10	Assertion T62 Negated
+R1	Negation Arg1:T43 Arg2:T44	
+R2	Negation Arg1:T46 Arg2:T47	
+R3	Negation Arg1:T49 Arg2:T50	
+R4	Negation Arg1:T53 Arg2:T16	
+R5	Negation Arg1:T53 Arg2:T54	
+R6	Negation Arg1:T57 Arg2:T17	
+R7	Negation Arg1:T57 Arg2:T58	
+R8	Negation Arg1:T61 Arg2:T62	
+T28	Observation 1739 1761	aumentar la morbilidad
+A11	Assertion T28 Negated
+T36	Neg_cue 1735 1738	sin
+R9	Negation Arg1:T36 Arg2:T28	
+T37	CONC 1444 1455	diferencias
+A12	Assertion T37 Negated
+#45	AnnotatorNotes T37	C1705241; Delta (difference); Quantitative Concept
+T39	Neg_cue 1436 1438	No
+R10	Negation Arg1:T39 Arg2:T37	
+T52	Neg_cue 302 304	no
+T59	Quantifier_or_Qualifier 305 317	aleatorizado
+A13	Assertion T59 Negated
+R11	Negation Arg1:T52 Arg2:T59	
+R12	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T59	
+R13	Location_of Arg1:T26 Arg2:T1	
+R14	Location_of Arg1:T2 Arg2:T27	
+#46	AnnotatorNotes T27	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+R15	Before Arg1:T1 Arg2:T27	
+R16	Used_for Arg1:T38 Arg2:T35	
+R17	Used_for Arg1:T38 Arg2:T3	
+R18	Overlap Arg1:T35 Arg2:T3	
+R19	Before Arg1:T3 Arg2:T4	
+R20	Location_of Arg1:T29 Arg2:T4	
+R21	Causes Arg1:T3 Arg2:T6	
+R22	Causes Arg1:T35 Arg2:T6	
+R23	Location_of Arg1:T30 Arg2:T8	
+R24	Experiences Arg1:T40 Arg2:T41	
+R25	Experiences Arg1:T42 Arg2:T44	
+T64	CONC 549 569	análisis univariante
+#47	AnnotatorNotes T64	C0683962; univariate statistics; Research Activity
+T65	CONC 583 593	test de χ2
+#48	AnnotatorNotes T65	C0008041; Chi-Square Test; Intellectual Product
+T66	CONC 600 622	análisis multivariante
+#49	AnnotatorNotes T66	C0026777; Multivariate Analysis; Quantitative Concept
+T67	CONC 624 643	regresión logística
+#50	AnnotatorNotes T67	C0206031; Logistic Regression; Research Activity
+R26	Causes Arg1:T45 Arg2:T10	
+R28	Location_of Arg1:T12 Arg2:T11	
+R29	Causes Arg1:T11 Arg2:T13	
+R30	Causes Arg1:T14 Arg2:T13	
+R31	Location_of Arg1:T34 Arg2:T21	
+R32	Causes Arg1:T5 Arg2:T13	
+R33	Causes Arg1:T48 Arg2:T15	
+R34	Location_of Arg1:T31 Arg2:T15	
+R27	Location_of Arg1:T33 Arg2:T32	
+R35	Before Arg1:T51 Arg2:T32	
+T68	CONC 1166 1188	análisis multivariante
+#51	AnnotatorNotes T68	C0026777; Multivariate Analysis; Quantitative Concept
+R36	Used_for Arg1:T54 Arg2:T16	
+R37	Used_for Arg1:T58 Arg2:T17	
+R38	Speculation Arg1:T56 Arg2:T20	
+R39	Before Arg1:T17 Arg2:T20	
+R40	Before Arg1:T60 Arg2:T21	
+R41	Used_for Arg1:T63 Arg2:T22	
+R42	Before Arg1:T22 Arg2:T24	
+R43	Location_of Arg1:T25 Arg2:T24	
+R44	Causes Arg1:T24 Arg2:T23	
+R45	Before Arg1:T24 Arg2:T28	
+R46	Speculation Arg1:T55 Arg2:T18	
+T69	Spec_cue 108 110	si
+T70	CONC 215 221	reduce
+#52	AnnotatorNotes T70	C0547047; Decrease; Quantitative Concept
+R47	Speculation Arg1:T69 Arg2:T70	
+A14	Assertion T70 Speculated
+T71	Quantifier_or_Qualifier 702 710	globales
+#53	AnnotatorNotes T71	C2348867; Global; Qualitative Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T71	
+R49	Before Arg1:T16 Arg2:T18	
+R50	Before Arg1:T19 Arg2:T18	
+#54	AnnotatorNotes T22	C4544503; Insertion of JJ stent into ureter; Therapeutic or Preventive Procedure
+#55	AnnotatorNotes T35	C4544503; Insertion of JJ stent into ureter; Therapeutic or Preventive Procedure (?)
+A15	Experiencer T40 Patient
+A16	Experiencer T42 Patient

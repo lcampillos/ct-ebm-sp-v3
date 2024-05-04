@@ -1,0 +1,129 @@
+T1	PROC 126 142	trasplante renal
+#1	AnnotatorNotes T1	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T2	PROC 197 243	hemodiafiltración on line (HDF-OL) posdilución
+T3	PROC 683 720	Reanalizar los datos de supervivencia
+T4	PROC 1119 1132	aleatorizados
+#2	AnnotatorNotes T4	C0034656; Randomization; Research Activity
+T5	PROC 300 312	hemodiálisis
+#3	AnnotatorNotes T5	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T6	PROC 379 390	observación
+#4	AnnotatorNotes T6	C0700325; Patient observation; Health Care Activity
+T7	PROC 786 797	seguimiento
+#5	AnnotatorNotes T7	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T8	PROC 851 867	trasplante renal
+#6	AnnotatorNotes T8	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T9	PROC 944 955	seguimiento
+#7	AnnotatorNotes T9	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T10	PROC 994 1005	tratamiento
+#8	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	PROC 1135 1141	HDF-OL
+T12	PROC 1368 1384	trasplante renal
+#9	AnnotatorNotes T12	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T13	PROC 1637 1685	análisis en la población por intención de tratar
+#10	AnnotatorNotes T13	C2718028; Intention to Treat Analysis; Research Activity
+T15	PROC 1821 1837	trasplante renal
+#12	AnnotatorNotes T15	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T16	ANAT 137 142	renal
+#13	AnnotatorNotes T16	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T17	PROC 314 316	HD
+#14	AnnotatorNotes T17	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T18	ANAT 862 867	renal
+#15	AnnotatorNotes T18	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T19	DISO 898 904	muerte
+#16	AnnotatorNotes T19	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T20	DISO 971 982	fallecieron
+#17	AnnotatorNotes T20	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T21	PROC 1100 1102	HD
+#18	AnnotatorNotes T21	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T22	ANAT 1379 1384	renal
+#19	AnnotatorNotes T22	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T23	ANAT 1832 1837	renal
+#20	AnnotatorNotes T23	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T25	LIVB 321 330	pacientes
+#21	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 396 405	pacientes
+#22	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 487 496	pacientes
+#23	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 634 643	pacientes
+#24	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Duration 772 782	los 3 años
+T30	LIVB 909 917	paciente
+#25	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 961 970	pacientes
+#26	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 1068 1077	pacientes
+#27	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 735 744	población
+#28	AnnotatorNotes T38	C1257890; Population; Population Group
+T39	LIVB 1652 1661	población
+#29	AnnotatorNotes T39	C1257890; Population; Population Group
+T40	LIVB 1201 1210	pacientes
+#30	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T24	Neg_cue 1686 1689	sin
+T33	CONC 1690 1698	censurar
+A1	Assertion T33 Negated
+R1	Negation Arg1:T24 Arg2:T33	
+T34	CONC 31 41	mortalidad
+#31	AnnotatorNotes T34	C0026565; Mortality Vital Statistics; Quantitative Concept
+T35	Observation 76 83	riesgos
+R2	Location_of Arg1:T16 Arg2:T1	
+T36	CONC 254 264	mortalidad
+#32	AnnotatorNotes T36	C0026565; Mortality Vital Statistics; Quantitative Concept
+R3	Experiences Arg1:T25 Arg2:T2	
+R4	Experiences Arg1:T25 Arg2:T17	
+R5	Experiences Arg1:T25 Arg2:T5	
+T37	Observation 406 443	finalizaron prematuramente el estudio
+R7	Overlap Arg1:T6 Arg2:T37	
+T41	Observation 535 557	finalización prematura
+T42	Observation 648 670	abandonaron el estudio
+T43	PROC 749 768	intención de tratar
+#33	AnnotatorNotes T43	C2718028; Intention to Treat Analysis; Research Activity
+R10	Has_Duration_or_Interval Arg1:T7 Arg2:T29	
+R11	Location_of Arg1:T18 Arg2:T8	
+R12	Before Arg1:T8 Arg2:T19	
+R13	Experiences Arg1:T30 Arg2:T19	
+R14	Experiences Arg1:T30 Arg2:T8	
+R15	Experiences Arg1:T31 Arg2:T20	
+R16	Overlap Arg1:T20 Arg2:T10	
+R17	Experiences Arg1:T31 Arg2:T10	
+T44	Observation 1022 1042	abandonar el estudio
+R18	After Arg1:T20 Arg2:T44	
+#34	AnnotatorNotes T44	C0422727; Patient withdrawn from trial; Finding (?)
+#35	AnnotatorNotes T42	C0422727; Patient withdrawn from trial; Finding (?)
+R20	Experiences Arg1:T32 Arg2:T21	
+R21	Overlap Arg1:T9 Arg2:T20	
+R22	Overlap Arg1:T9 Arg2:T44	
+R23	Experiences Arg1:T32 Arg2:T11	
+R24	Before Arg1:T4 Arg2:T11	
+R25	Experiences Arg1:T40 Arg2:T21	
+R26	Experiences Arg1:T40 Arg2:T11	
+T45	CONC 1277 1287	mortalidad
+#36	AnnotatorNotes T45	C0026565; Mortality Vital Statistics; Quantitative Concept
+T46	CONC 1155 1165	mortalidad
+#37	AnnotatorNotes T46	C0026565; Mortality Vital Statistics; Quantitative Concept
+T47	Observation 1345 1351	riesgo
+R27	Location_of Arg1:T22 Arg2:T12	
+T48	CONC 1420 1435	análisis de Cox
+#38	AnnotatorNotes T48	C0010235; Cox Proportional Hazards Models; Quantitative Concept
+T49	CONC 1737 1747	mortalidad
+#39	AnnotatorNotes T49	C0026565; Mortality Vital Statistics; Quantitative Concept
+T50	Observation 1798 1804	riesgo
+R28	Location_of Arg1:T23 Arg2:T15	
+R29	Experiences Arg1:T39 Arg2:T15	
+R30	Overlap Arg1:T9 Arg2:T10	
+#11	AnnotatorNotes T35	C0559571; At risk; Finding
+#40	AnnotatorNotes T47	C0559571; At risk; Finding
+#41	AnnotatorNotes T50	C0559571; At risk; Finding
+#42	AnnotatorNotes T37	C0422727; Patient withdrawn from trial; Finding (?)
+#43	AnnotatorNotes T41	C0422727; Patient withdrawn from trial; Finding (?)
+A2	Experiencer T31 Patient
+A3	Experiencer T32 Patient
+A4	Experiencer T40 Patient
+A5	Experiencer T25 Patient
+A6	Experiencer T26 Patient
+A7	Experiencer T27 Patient
+A8	Experiencer T28 Patient
+A9	Experiencer T38 Patient
+A10	Experiencer T30 Patient
+A11	Experiencer T39 Patient

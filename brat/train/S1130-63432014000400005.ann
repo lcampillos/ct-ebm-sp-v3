@@ -1,0 +1,240 @@
+T1	PROC 250 253	TAR
+#1	AnnotatorNotes T1	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T2	DISO 82 103	infectados por el VIH
+#2	AnnotatorNotes T2	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T3	PROC 108 135	tratamiento antirretroviral
+#3	AnnotatorNotes T3	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T4	PROC 28 68	calidad de vida relacionada con la salud
+T5	PROC 221 248	tratamiento antirretroviral
+#4	AnnotatorNotes T5	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T6	PROC 311 325	diagnosticados
+#5	AnnotatorNotes T6	C0011900; Diagnosis; Diagnostic Procedure
+T7	PROC 351 354	TAR
+#6	AnnotatorNotes T7	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T8	PROC 269 284	calidad de vida
+#7	AnnotatorNotes T8	C0281588; Assessment of quality of life; Diagnostic Procedure
+T9	DISO 329 346	infección por VIH
+#8	AnnotatorNotes T9	C0019693; HIV Infections; Disease or Syndrome
+T10	PROC 646 658	cuestionario
+#9	AnnotatorNotes T10	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T11	PROC 391 440	Estudio observacional, transversal, multicéntrico
+#10	AnnotatorNotes T11	C0010362; Cross-Sectional Studies; Research Activity + C1096776; Multicenter Study; Research Activity + C1518527; Observational Study; Research Activity
+T12	PROC 1792 1807	calidad de vida
+#11	AnnotatorNotes T12	C0281588; Assessment of quality of life; Diagnostic Procedure
+T13	PROC 286 288	CV
+#12	AnnotatorNotes T13	C0281588; Assessment of quality of life; Diagnostic Procedure
+T14	PROC 671 673	CV
+#13	AnnotatorNotes T14	C0281588; Assessment of quality of life; Diagnostic Procedure
+T15	PROC 603 626	escala visual analógica
+#14	AnnotatorNotes T15	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T16	PROC 976 1016	evaluación realizada por el cuestionario
+#15	AnnotatorNotes T16	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T17	PROC 1034 1037	EVA
+#16	AnnotatorNotes T17	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T18	DISO 1415 1431	efectos adversos
+#17	AnnotatorNotes T18	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T19	PROC 1295 1298	TAR
+#18	AnnotatorNotes T19	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T20	PROC 1598 1601	TAR
+#19	AnnotatorNotes T20	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T21	CHEM 120 135	antirretroviral
+#20	AnnotatorNotes T21	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T22	CHEM 233 248	antirretroviral
+#21	AnnotatorNotes T22	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T23	CHEM 1455 1461	grasas
+#22	AnnotatorNotes T23	C0015677; Fatty acid glycerol esters; Organic Chemical · Pharmacologic Substance
+T24	PROC 1625 1628	TAR
+#23	AnnotatorNotes T24	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T25	PROC 1786 1789	TAR
+#24	AnnotatorNotes T25	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T26	LIVB 72 81	pacientes
+#25	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 100 103	VIH
+#26	AnnotatorNotes T27	C0019682; HIV; Virus
+T29	LIVB 293 310	pacientes adultos
+#27	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T30	Dose 513 542	1, 2-4 o más de 4 comprimidos
+T31	Frequency 543 549	al día
+T32	LIVB 679 682	HIV
+#28	AnnotatorNotes T32	C0019682; HIV; Virus
+T33	LIVB 696 704	paciente
+#29	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 816 825	pacientes
+#30	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Age 840 855	46,0 ± 9,2 años
+T36	Frequency 874 878	/día
+T37	Frequency 885 889	/día
+T38	Frequency 897 901	/día
+T39	LIVB 937 946	pacientes
+#31	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Frequency 1135 1139	/día
+T41	LIVB 1158 1167	pacientes
+#32	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	Frequency 1360 1364	/día
+T44	PHYS 1436 1461	metabolismo de las grasas
+#33	AnnotatorNotes T44	C0598783; Lipid Metabolism; Molecular Function
+T46	LIVB 1518 1527	pacientes
+#34	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1611 1620	pacientes
+#35	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1664 1673	pacientes
+#36	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Frequency 1687 1691	/día
+T52	LIVB 343 346	VIH
+#37	AnnotatorNotes T52	C0019682; HIV; Virus
+T53	Form 531 542	comprimidos
+#38	AnnotatorNotes T53	C0039225; Tablet Dosage Form; Biomedical or Dental Material
+T28	LIVB 831 838	varones
+#39	AnnotatorNotes T28	C0025266; Male population group; Population Group
+T54	Dose 872 874	1c
+#40	AnnotatorNotes T54	[1 pill]
+T55	Dose 880 885	2-4 c
+#41	AnnotatorNotes T55	[2-4 pills]
+T56	Dose 892 897	> 4 c
+#42	AnnotatorNotes T56	[More than 4 pills]
+T57	Dose 1133 1135	1c
+#43	AnnotatorNotes T57	[1 pill]
+T42	Dose 1357 1360	1 c
+#44	AnnotatorNotes T42	[1 pill]
+T45	Dose 1684 1687	1 c
+#45	AnnotatorNotes T45	[1 pill]
+A1	Population_data T29 Age
+T50	Neg_cue 1734 1736	no
+T51	CONC 1748 1759	correlación
+A2	Assertion T51 Negated
+#46	AnnotatorNotes T51	C1707520; Correlation; Qualitative Concept
+R1	Negation Arg1:T50 Arg2:T51	
+T58	Neg_cue 1693 1695	no
+T59	CONC 1696 1703	difiere
+A3	Assertion T59 Negated
+#47	AnnotatorNotes T59	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T58 Arg2:T59	
+T60	CONC 1216 1223	difiere
+A4	Assertion T60 Negated
+#48	AnnotatorNotes T60	C1705241; Delta (difference); Quantitative Concept
+T61	Neg_cue 1213 1215	no
+R3	Negation Arg1:T61 Arg2:T60	
+T62	CONC 1480 1491	diferencias
+A5	Assertion T62 Negated
+#49	AnnotatorNotes T62	C1705241; Delta (difference); Quantitative Concept
+T63	Neg_cue 1463 1465	No
+R4	Negation Arg1:T63 Arg2:T62	
+T64	Observation 1 11	Adherencia
+#50	AnnotatorNotes T64	C2364172; Adherence To Medication Regime; Finding
+T65	Observation 256 266	adherencia
+#51	AnnotatorNotes T65	C2364172; Adherence To Medication Regime; Finding
+T66	Observation 552 562	adherencia
+#52	AnnotatorNotes T66	C2364172; Adherence To Medication Regime; Finding
+T67	Observation 749 759	adherencia
+#53	AnnotatorNotes T67	C2364172; Adherence To Medication Regime; Finding
+T68	Observation 705 714	adherente
+#54	AnnotatorNotes T68	C2364172; Adherence To Medication Regime; Finding
+T69	Observation 1168 1178	adherentes
+#55	AnnotatorNotes T69	C2364172; Adherence To Medication Regime; Finding
+T70	Observation 1537 1547	adherencia
+#56	AnnotatorNotes T70	C2364172; Adherence To Medication Regime; Finding
+T71	Observation 1721 1731	adherencia
+#57	AnnotatorNotes T71	C2364172; Adherence To Medication Regime; Finding
+T72	Observation 1567 1577	adherencia
+#58	AnnotatorNotes T72	C2364172; Adherence To Medication Regime; Finding
+T73	Observation 13 25	satisfacción
+#59	AnnotatorNotes T73	C3476649; Treatment satisfaction; Finding
+T74	Observation 201 213	satisfacción
+#60	AnnotatorNotes T74	C3476649; Treatment satisfaction; Finding
+T75	Observation 632 644	satisfacción
+#61	AnnotatorNotes T75	C3476649; Treatment satisfaction; Finding
+T76	Observation 1279 1291	satisfacción
+#62	AnnotatorNotes T76	C3476649; Treatment satisfaction; Finding
+R5	Overlap Arg1:T76 Arg2:T19	
+T77	Observation 1641 1653	satisfacción
+#63	AnnotatorNotes T77	C3476649; Treatment satisfaction; Finding
+T78	Observation 1582 1594	satisfacción
+#64	AnnotatorNotes T78	C3476649; Treatment satisfaction; Finding
+R6	Overlap Arg1:T78 Arg2:T20	
+R7	Overlap Arg1:T72 Arg2:T20	
+R8	Overlap Arg1:T72 Arg2:T24	
+R9	Experiences Arg1:T47 Arg2:T24	
+R10	Experiences Arg1:T47 Arg2:T20	
+R11	Experiences Arg1:T47 Arg2:T78	
+R12	Experiences Arg1:T47 Arg2:T72	
+T79	Observation 1766 1778	satisfacción
+#65	AnnotatorNotes T79	C3476649; Treatment satisfaction; Finding
+R13	Overlap Arg1:T79 Arg2:T25	
+R14	Experiences Arg1:T48 Arg2:T77	
+R15	Experiences Arg1:T48 Arg2:T71	
+R16	Overlap Arg1:T71 Arg2:T79	
+T80	Observation 1498 1510	satisfacción
+#66	AnnotatorNotes T80	C3476649; Treatment satisfaction; Finding
+T81	Observation 1392 1404	satisfacción
+#67	AnnotatorNotes T81	C3476649; Treatment satisfaction; Finding
+R17	Experiences Arg1:T26 Arg2:T64	
+R18	Experiences Arg1:T26 Arg2:T73	
+R19	Experiences Arg1:T26 Arg2:T4	
+R20	Experiences Arg1:T26 Arg2:T2	
+R21	Causes Arg1:T27 Arg2:T2	
+R22	Experiences Arg1:T26 Arg2:T3	
+R24	Before Arg1:T3 Arg2:T4	
+R25	Causes Arg1:T3 Arg2:T73	
+R26	Overlap Arg1:T64 Arg2:T3	
+R27	Overlap Arg1:T74 Arg2:T5	
+R28	Overlap Arg1:T74 Arg2:T1	
+R29	Overlap Arg1:T5 Arg2:T65	
+R30	Overlap Arg1:T1 Arg2:T65	
+R31	Experiences Arg1:T29 Arg2:T74	
+R32	Experiences Arg1:T29 Arg2:T5	
+R33	Experiences Arg1:T29 Arg2:T1	
+R34	Experiences Arg1:T29 Arg2:T65	
+R35	Experiences Arg1:T29 Arg2:T8	
+R36	Experiences Arg1:T29 Arg2:T13	
+R37	Used_for Arg1:T22 Arg2:T5	
+R38	Used_for Arg1:T21 Arg2:T3	
+R41	Experiences Arg1:T29 Arg2:T9	
+R42	Causes Arg1:T52 Arg2:T9	
+R43	Experiences Arg1:T29 Arg2:T7	
+T82	CONC 364 380	carga posológica
+#68	AnnotatorNotes T82	C0178602; Dosage; Quantitative Concept (?)
+R47	Used_for Arg1:T82 Arg2:T7	
+R48	Used_for Arg1:T82 Arg2:T5	
+R49	Used_for Arg1:T82 Arg2:T1	
+T83	CONC 456 483	variables sociodemográficas
+T84	CONC 495 511	carga posológica
+#69	AnnotatorNotes T84	C0178602; Dosage; Quantitative Concept (?)
+T85	CONC 564 568	SMAQ
+#70	AnnotatorNotes T85	[Simplified Medication Adherence Questionnaire]
+T86	CONC 570 595	registros de dispensación
+#71	AnnotatorNotes T83	C4684639; Demographic Data; Intellectual Product (?)
+T87	CONC 456 465;485 493	variables clínicas
+T88	CONC 646 664	cuestionario ESTAR
+R50	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T68	
+T89	CONC 675 682	MOS-HIV
+#72	AnnotatorNotes T89	[Medical Outcomes Study HIV Health Survey] 
+T90	CONC 766 770	SMAQ
+R51	Has_Age Arg1:T34 Arg2:T35	
+R52	Has_Age Arg1:T28 Arg2:T35	
+#73	AnnotatorNotes T90	[Simplified Medication Adherence Questionnaire]
+T91	CONC 1017 1021	SMAQ
+#74	AnnotatorNotes T91	[Simplified Medication Adherence Questionnaire]
+R53	Used_for Arg1:T91 Arg2:T16	
+R54	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T69	
+R55	Experiences Arg1:T41 Arg2:T17	
+R56	Experiences Arg1:T41 Arg2:T16	
+T92	CONC 1258 1274	carga posológica
+#75	AnnotatorNotes T92	C0178602; Dosage; Quantitative Concept (?)
+R57	Overlap Arg1:T18 Arg2:T44	
+R58	Before Arg1:T19 Arg2:T18	
+R59	Experiences Arg1:T46 Arg2:T80	
+R60	Experiences Arg1:T46 Arg2:T70	
+R61	Experiences Arg1:T48 Arg2:T12	
+R62	Experiences Arg1:T48 Arg2:T25	
+R72	Overlap Arg1:T69 Arg2:T92	
+R73	Causes Arg1:T19 Arg2:T81	
+A6	Experiencer T26 Patient
+A7	Experiencer T29 Patient
+A8	Experiencer T34 Patient
+A9	Experiencer T28 Patient
+A10	Experiencer T39 Patient
+A11	Experiencer T41 Patient
+A12	Experiencer T46 Patient
+A13	Experiencer T47 Patient
+A14	Experiencer T48 Patient
+A15	Experiencer T33 Patient

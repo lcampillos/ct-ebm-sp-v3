@@ -1,0 +1,123 @@
+T1	PROC 44 54	Evaluación
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	CHEM 99 109	vitamina D
+#2	AnnotatorNotes T2	C0042866; vitamin D; Hormone · Pharmacologic Substance · Vitamin
+T3	DISO 116 141	infección por coronavirus
+#3	AnnotatorNotes T3	C5203670; COVID19 (disease); Disease or Syndrome
+T4	PROC 184 203	valorar la utilidad
+T5	CHEM 207 217	vitamina D
+#4	AnnotatorNotes T5	C0042866; vitamin D; Hormone · Pharmacologic Substance · Vitamin
+T6	DISO 254 284	infección por virus SARS-COV-2
+#5	AnnotatorNotes T6	C5203670; COVID19 (disease); Disease or Syndrome
+T7	DISO 286 294	Covid-19
+#6	AnnotatorNotes T7	C5203670; COVID19 (disease); Disease or Syndrome
+T8	DISO 367 386	Enfermedad COVID-19
+#7	AnnotatorNotes T8	C5203670; COVID19 (disease); Disease or Syndrome
+T9	DISO 412 436	Infección por SARS-COV-2
+#8	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	PROC 500 510	ingresados
+#9	AnnotatorNotes T10	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T11	PROC 551 562	Diagnóstico
+#10	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	DISO 566 573	COVID19
+#11	AnnotatorNotes T12	C5203670; COVID19 (disease); Disease or Syndrome
+T13	PROC 629 643	aleatorización
+#12	AnnotatorNotes T13	C0034656; Randomization; Research Activity
+T14	PROC 718 742	consentimiento Informado
+#13	AnnotatorNotes T14	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T15	DISO 847 866	Deterioro cognitivo
+#14	AnnotatorNotes T15	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T16	DISO 1030 1039	infección
+#15	AnnotatorNotes T16	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T17	DISO 1043 1050	Alergia
+#16	AnnotatorNotes T17	C1527304; Allergic Reaction; Pathologic Function
+T18	CHEM 1056 1066	vitamina D
+#17	AnnotatorNotes T18	C0042866; vitamin D; Hormone · Pharmacologic Substance · Vitamin
+T19	CHEM 1167 1177	vitamina D
+#18	AnnotatorNotes T19	C0042866; vitamin D; Hormone · Pharmacologic Substance · Vitamin
+T20	PROC 589 592	PCR
+#19	AnnotatorNotes T20	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T21	PROC 915 918	PCR
+#20	AnnotatorNotes T21	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T22	Date 12 16	2020
+T24	LIVB 130 141	coronavirus
+#21	AnnotatorNotes T24	C5203676; SARS-CoV-2; Virus
+T25	LIVB 268 284	virus SARS-COV-2
+#22	AnnotatorNotes T25	C5203676; SARS-CoV-2; Virus
+T26	LIVB 465 474	Pacientes
+#23	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	Age 652 661	>=18 años
+T28	Duration 820 843	las siguientes 48 horas
+T29	Neg_cue 877 895	imposibilidad para
+T30	Neg_cue 935 943	negativa
+T31	LIVB 1070 1079	Pacientes
+#24	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Duration 1127 1146	los 3 últimos meses
+T33	LIVB 1181 1200	Mujeres embarazadas
+#25	AnnotatorNotes T33	C0033011; Pregnant Women; Population Group
+T34	PHYS 857 866	cognitivo
+#26	AnnotatorNotes T34	C0009240; Cognition; Mental Process
+T23	LIVB 607 616	SARS COV2
+#27	AnnotatorNotes T23	C5203676; SARS-CoV-2; Virus
+T35	LIVB 924 934	SARS-COV 2
+#28	AnnotatorNotes T35	C5203676; SARS-CoV-2; Virus
+T36	PHYS 1189 1200	embarazadas
+#29	AnnotatorNotes T36	C0032961; Pregnancy; Organism Function
+T37	LIVB 426 436	SARS-COV-2
+#30	AnnotatorNotes T37	C5203676; SARS-CoV-2; Virus
+T38	PHYS 899 911	comunicación
+#31	AnnotatorNotes T38	C2911692; Response (communication); Mental Process (?)
+T39	DISO 801 816	desenlace fatal
+#32	AnnotatorNotes T39	C0206277; Fatal Outcome; Pathologic Function | C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T40	PROC 791 795	alta
+#33	AnnotatorNotes T40	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+A1	Assertion T35 Negated
+A2	Assertion T38 Negated
+A3	Status T17 History_of
+T41	Spec_cue 62 71	probables
+T42	Observation 72 92	efectos beneficiosos
+A4	Assertion T42 Speculated
+#34	AnnotatorNotes T42	C4716614; Benefits of prescribed medication; Finding
+R1	Speculation Arg1:T41 Arg2:T42	
+R2	Negation Arg1:T29 Arg2:T38	
+R3	Negation Arg1:T30 Arg2:T35	
+R4	Before Arg1:T2 Arg2:T42	
+R5	Causes Arg1:T24 Arg2:T3	
+R6	Causes Arg1:T25 Arg2:T6	
+R7	Causes Arg1:T25 Arg2:T7	
+T43	Observation 224 234	morbilidad
+#35	AnnotatorNotes T43	C0026538; Morbidity - disease rate; Finding
+R8	Before Arg1:T5 Arg2:T43	
+T44	CONC 237 247	mortalidad
+R10	Causes Arg1:T37 Arg2:T9	
+R11	Experiences Arg1:T26 Arg2:T10	
+T45	Result_or_Value 593 601	positiva
+#36	AnnotatorNotes T45	C1446409; Positive; Finding
+R12	Has_Result_or_Value Arg1:T20 Arg2:T45	
+R13	Causes Arg1:T23 Arg2:T12	
+R14	Before Arg1:T20 Arg2:T13	
+T46	Observation 674 704	aceptado participar en estudio
+R15	Overlap Arg1:T40 Arg2:T28	
+R16	Overlap Arg1:T39 Arg2:T28	
+T47	Observation 955 1000	hallazgos radiológicos, analíticos y clínicos
+R17	Overlap Arg1:T47 Arg2:T16	
+R18	Causes Arg1:T18 Arg2:T17	
+R19	Experiences Arg1:T31 Arg2:T19	
+R20	Has_Duration_or_Interval Arg1:T19 Arg2:T32	
+R21	Experiences Arg1:T33 Arg2:T36	
+T48	PROC 475 497	atendidos en Urgencias
+#37	AnnotatorNotes T48	C1527398; Emergency Care; Therapeutic or Preventive Procedure
+R22	Experiences Arg1:T26 Arg2:T48	
+#38	AnnotatorNotes T44	C0026565; Mortality Vital Statistics; Quantitative Concept
+R25	Causes Arg1:T6 Arg2:T43	
+R26	Causes Arg1:T7 Arg2:T43	
+R28	Before Arg1:T12 Arg2:T13	
+R9	Before Arg1:T20 Arg2:T11	
+#39	AnnotatorNotes T46	C1302239; Patient consented to clinical trial; Finding
+A5	Experiencer T26 Patient
+A6	Status T40 Future
+A7	Status T39 Future
+A8	Experiencer T31 Patient
+A9	Experiencer T33 Patient
+T49	Result_or_Value 935 943	negativa
+R23	Has_Result_or_Value Arg1:T21 Arg2:T49	

@@ -1,0 +1,97 @@
+T1	PROC 46 93	Estudio para evaluar la seguridad y la eficacia
+T2	CHEM 111 121	evolocumab
+#1	AnnotatorNotes T2	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	ANAT 158 163	placa
+#2	AnnotatorNotes T3	C2936350; Plaque, Atherosclerotic; Body Substance
+T4	ANAT 172 192	arterias del corazón
+T5	PROC 216 266	Estudio de extensión abierto (OLE) y multicéntrico
+T6	PROC 272 306	evaluar la seguridad y la eficacia
+#3	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T7	CHEM 324 334	evolocumab
+#4	AnnotatorNotes T7	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	CHEM 373 383	colesterol
+#5	AnnotatorNotes T8	C0008377; cholesterol; Biologically Active Substance · Organic Chemical
+T9	ANAT 387 393	sangre
+#6	AnnotatorNotes T9	C0005767; Blood; Body Substance
+T10	DISO 420 439	Hipercolesterolemia
+#7	AnnotatorNotes T10	C0020443; Hypercholesterolemia; Disease or Syndrome
+T11	ANAT 139 156	substancia cerosa
+T12	DISO 703 715	Sensibilidad
+T13	DISO 641 664	cuadro médico inestable
+T14	PROC 828 852	estudio de investigación
+#8	AnnotatorNotes T14	C0681814; research study; Research Activity
+T15	CHEM 913 923	evolocumab
+#9	AnnotatorNotes T15	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T16	PROC 977 1001	estudio de investigación
+#10	AnnotatorNotes T16	C0681814; research study; Research Activity
+T17	DISO 358 393	Incremento del colesterol en sangre
+T18	CHEM 859 866	fármaco
+#11	AnnotatorNotes T18	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T19	CHEM 1008 1015	fármaco
+#12	AnnotatorNotes T19	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T20	Date 13 17	2014
+T21	Date 94 107	a largo plazo
+T22	LIVB 125 134	pacientes
+#13	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	Date 307 320	a largo plazo
+T24	LIVB 470 477	sujetos
+#14	AnnotatorNotes T24	C0681850; Study Subject; Group
+T27	LIVB 687 699	investigador
+#15	AnnotatorNotes T27	C0035173; Research Personnel; Professional or Occupational Group
+T29	Date 808 819	actualmente
+T30	DEVI 869 880	dispositivo
+#16	AnnotatorNotes T30	C1285539; Direct device; Medical Device
+T31	Neg_cue 882 889	excepto
+T32	Duration 939 955	menos de 30 días
+T33	DEVI 1018 1029	dispositivo
+#17	AnnotatorNotes T33	C1285539; Direct device; Medical Device
+T25	CHEM 1047 1074	producto/s en investigación
+#18	AnnotatorNotes T25	C0013230; Investigational New Drugs; Pharmacologic Substance
+A1	Assertion T15 Negated
+A2	Status T12 History_of
+A3	Status T16 History_of
+#19	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#20	AnnotatorNotes T4	C4240034; Set of arteries of heart; Body Part, Organ, or Organ Component 
+#21	AnnotatorNotes T17	C0020443; Hypercholesterolemia; Disease or Syndrome | C0595930; Blood cholesterol increased; Finding
+#22	AnnotatorNotes T12	C0020517; Hypersensitivity; Pathologic Function
+#23	AnnotatorNotes T21	C0443252; Long-term; Temporal Concept
+#25	AnnotatorNotes T29	C0521116; Current (present time); Temporal Concept 
+T26	Observation 579 593	completó el PI
+A4	Assertion T26 Negated
+T28	Neg_cue 576 578	No
+T34	PROC 893 900	estudio
+A5	Assertion T34 Negated
+#26	AnnotatorNotes T34	C0681814; research study; Research Activity
+R1	Overlap Arg1:T1 Arg2:T21	
+R2	Experiences Arg1:T22 Arg2:T2	
+R3	Overlap Arg1:T6 Arg2:T23	
+R4	Location_of Arg1:T9 Arg2:T17	
+T35	Observation 484 509	elegibles para el estudio
+#27	AnnotatorNotes T35	C1302261; Patient eligible for clinical trial; Finding )
+R5	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T35	
+T36	Observation 513 538	han completado el estudio
+A6	Status T36 History_of
+#28	AnnotatorNotes T36	C2732579; Completion of clinical trial; Finding
+R6	Before Arg1:T36 Arg2:T35	
+R8	Negation Arg1:T28 Arg2:T26	
+#29	AnnotatorNotes T13	C4062077; Unstable health condition; Finding
+R9	Overlap Arg1:T14 Arg2:T29	
+R10	Overlap Arg1:T18 Arg2:T29	
+R11	Overlap Arg1:T30 Arg2:T29	
+R12	Negation Arg1:T31 Arg2:T34	
+R13	Negation Arg1:T31 Arg2:T15	
+T37	CONC 965 1001	fin de otro estudio de investigación
+#30	AnnotatorNotes T37	C4554101; Study Completion Date; Temporal Concept | C2983670; Study End Date; Temporal Concept
+R14	Before Arg1:T37 Arg2:T32	
+R15	Before Arg1:T19 Arg2:T37	
+R16	Before Arg1:T33 Arg2:T37	
+T38	Observation 139 192	substancia cerosa (placa) en las arterias del corazón
+R17	Location_of Arg1:T4 Arg2:T38	
+R18	Experiences Arg1:T22 Arg2:T38	
+R19	Overlap Arg1:T25 Arg2:T29	
+#24	AnnotatorNotes T23	C0521116; Current (present time); Temporal Concept
+#31	AnnotatorNotes T26	C3840801; Protocol/policy requirements completed; Finding (?)
+A7	Experiencer T22 Patient
+A8	Experiencer T24 Patient
+A9	Status T35 Future
+A10	Experiencer T27 Other

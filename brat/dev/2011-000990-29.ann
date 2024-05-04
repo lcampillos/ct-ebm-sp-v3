@@ -1,0 +1,214 @@
+T1	PROC 46 66	Ensayo Multinacional
+T2	DISO 93 123	Síndrome de Opsoclono Mioclono
+#1	AnnotatorNotes T2	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+T3	DISO 151 154	SOM
+T4	DISO 125 150	Síndrome del Ojo Danzante
+T5	ANAT 138 141	Ojo
+#2	AnnotatorNotes T5	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T6	DISO 155 158	SOD
+T7	DISO 182 212	Síndrome de Opsoclono Mioclono
+#4	AnnotatorNotes T7	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+T8	DISO 279 282	SOM
+T9	DISO 577 580	SOM
+T10	DISO 215 240	Síndrome del Ojo Danzante
+T11	ANAT 228 231	Ojo
+#5	AnnotatorNotes T11	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T12	DISO 283 286	SOD
+T13	PROC 296 307	diagnóstico
+#7	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 313 315	NB
+#8	AnnotatorNotes T14	C0027819; Neuroblastoma; Neoplastic Process | C2931189; Neural crest tumor; Disease or Syndrome
+T15	DISO 1219 1222	SOM
+T16	PROC 400 411	tratamiento
+#9	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 419 442	tratamiento corticoideo
+T18	CHEM 466 478	dexametasona
+#10	AnnotatorNotes T18	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T19	PROC 526 540	ensayo clínico
+#11	AnnotatorNotes T19	C0008976; Clinical Trials; Research Activity
+T20	DISO 581 584	SOD
+T21	DISO 585 587	NB
+#13	AnnotatorNotes T21	C0027819; Neuroblastoma; Neoplastic Process | C2931189; Neural crest tumor; Disease or Syndrome
+T22	DISO 608 621	neuroblastoma
+#14	AnnotatorNotes T22	C0027819; Neuroblastoma; Neoplastic Process | C2931189; Neural crest tumor; Disease or Syndrome
+T23	PROC 661 675	ensayo clínico
+#15	AnnotatorNotes T23	C0008976; Clinical Trials; Research Activity
+T24	PROC 729 740	tratamiento
+#16	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	PROC 759 773	ensayo clínico
+#17	AnnotatorNotes T25	C0008976; Clinical Trials; Research Activity
+T26	DISO 860 869	opsoclono
+#18	AnnotatorNotes T26	C0242567; Opsoclonus; Disease or Syndrome
+T27	DISO 884 890	ataxia
+#19	AnnotatorNotes T27	C0004134; Ataxia; Sign or Symptom
+T28	DISO 908 918	enfermedad
+#20	AnnotatorNotes T28	C0012634; Disease; Disease or Syndrome
+T29	DISO 930 954	infección activa del SNC
+T30	ANAT 951 954	SNC
+#21	AnnotatorNotes T30	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T31	DISO 956 983	trastornos neurometabólicos
+T32	DISO 986 1002	desmielinización
+#22	AnnotatorNotes T32	C0011304; Demyelination; Pathologic Function
+T33	DISO 1030 1045	infección viral
+#23	AnnotatorNotes T33	C0042769; Virus Diseases; Disease or Syndrome
+T34	PROC 1087 1100	quimioterapia
+#24	AnnotatorNotes T34	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T35	PROC 1156 1167	tratamiento
+#25	AnnotatorNotes T35	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T36	DISO 1172 1185	neuroblastoma
+#26	AnnotatorNotes T36	C0027819; Neuroblastoma; Neoplastic Process | C2931189; Neural crest tumor; Disease or Syndrome
+T37	PROC 1190 1213	Tratamiento corticoideo
+T38	DISO 1223 1226	SOD
+T39	PROC 1307 1333	tratamiento estándardizado
+T40	CHEM 1368 1379	corticoides
+#28	AnnotatorNotes T40	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T41	PROC 696 720	consentimiento informado
+#29	AnnotatorNotes T41	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T42	DISO 323 325	NB
+#30	AnnotatorNotes T42	C0027819; Neuroblastoma; Neoplastic Process | C2931189; Neural crest tumor; Disease or Syndrome
+T43	CHEM 431 442	corticoideo
+#31	AnnotatorNotes T43	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T44	DISO 871 881	mioclonias
+#32	AnnotatorNotes T44	C0027063; Myoclonic disorder; Disease or Syndrome | C0027066; Myoclonus; Sign or Symptom
+T45	CHEM 1202 1213	corticoideo
+#33	AnnotatorNotes T45	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T46	Date 13 17	2011
+T47	LIVB 80 85	niños
+#34	AnnotatorNotes T47	C0008059; Child; Age Group
+T48	LIVB 269 274	Niños
+#35	AnnotatorNotes T48	C0008059; Child; Age Group
+T49	Age 337 366	mayor de 6 meses hasta 8 años
+T50	Age 368 383	< 8º cumpleaños
+T51	Route 456 462	pulsos
+#36	AnnotatorNotes T51	C0391850; Physiologic pulse; Physiologic Function
+T52	LIVB 551 560	pacientes
+#37	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Spec_cue 565 576	sospecha de
+T54	LIVB 782 788	padres
+#38	AnnotatorNotes T54	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T55	LIVB 791 813	representantes legales
+#39	AnnotatorNotes T55	C4288823; Legal Representative for the Study; Human
+T56	LIVB 846 855	pacientes
+#40	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	Neg_cue 1046 1048	no
+T58	Duration 1388 1404	menos de 14 días
+T59	LIVB 1040 1045	viral
+#41	AnnotatorNotes T59	C0042776; Virus; Virus
+T60	Neg_cue 326 329	neg
+T61	Neg_cue 588 591	neg
+T62	Neg_cue 598 607	excluírse
+T63	Duration 1255 1268	14 o más días
+A1	Population_data T47 Age
+A2	Population_data T48 Age
+A3	Assertion T42 Negated
+A4	Assertion T21 Negated
+A5	Assertion T9 Speculated
+A6	Assertion T20 Speculated
+A7	Assertion T22 Negated
+A8	Assertion T33 Negated
+A9	Status T34 History_of
+#43	AnnotatorNotes T3	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome 
+#3	AnnotatorNotes T8	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+#6	AnnotatorNotes T9	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+#12	AnnotatorNotes T15	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+#27	AnnotatorNotes T29	C0007684; Central Nervous System Infection; Disease or Syndrome 
+R1	Experiences Arg1:T47 Arg2:T2	
+R2	Experiences Arg1:T47 Arg2:T4	
+#42	AnnotatorNotes T4	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+#44	AnnotatorNotes T6	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+#45	AnnotatorNotes T10	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+#46	AnnotatorNotes T12	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+#47	AnnotatorNotes T20	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+#48	AnnotatorNotes T38	C0393626; Opsoclonus-Myoclonus Syndrome; Disease or Syndrome
+R3	Location_of Arg1:T5 Arg2:T4	
+R4	Location_of Arg1:T5 Arg2:T2	
+R5	Location_of Arg1:T5 Arg2:T3	
+R6	Location_of Arg1:T5 Arg2:T6	
+R7	Location_of Arg1:T11 Arg2:T10	
+R8	Location_of Arg1:T11 Arg2:T7	
+R9	Experiences Arg1:T47 Arg2:T3	
+R10	Experiences Arg1:T47 Arg2:T6	
+R11	Experiences Arg1:T48 Arg2:T8	
+R12	Experiences Arg1:T48 Arg2:T12	
+R13	Negation Arg1:T60 Arg2:T42	
+T64	Result_or_Value 316 319	pos
+#49	AnnotatorNotes T64	C1446409; Positive; Finding
+R14	Has_Result_or_Value Arg1:T14 Arg2:T64	
+R15	Experiences Arg1:T48 Arg2:T14	
+R16	Experiences Arg1:T48 Arg2:T42	
+R17	Overlap Arg1:T8 Arg2:T14	
+R18	Overlap Arg1:T8 Arg2:T42	
+R19	Overlap Arg1:T12 Arg2:T14	
+R20	Overlap Arg1:T12 Arg2:T42	
+T65	Quantifier_or_Qualifier 290 307	nuevo diagnóstico
+#50	AnnotatorNotes T65	C1518321; Newly Diagnosed; Qualitative Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T65	
+R22	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T65	
+R23	Has_Route_or_Mode Arg1:T18 Arg2:T51	
+R24	Used_for Arg1:T18 Arg2:T17	
+R25	Used_for Arg1:T43 Arg2:T17	
+R26	Has_Route_or_Mode Arg1:T43 Arg2:T51	
+R27	Used_for Arg1:T18 Arg2:T16	
+R28	Used_for Arg1:T43 Arg2:T16	
+R29	Experiences Arg1:T52 Arg2:T9	
+R30	Speculation Arg1:T53 Arg2:T9	
+R31	Speculation Arg1:T53 Arg2:T20	
+R32	Experiences Arg1:T52 Arg2:T20	
+R33	Overlap Arg1:T9 Arg2:T21	
+R34	Overlap Arg1:T9 Arg2:T22	
+R35	Overlap Arg1:T20 Arg2:T21	
+R36	Overlap Arg1:T20 Arg2:T22	
+R37	Negation Arg1:T62 Arg2:T22	
+R38	Negation Arg1:T61 Arg2:T21	
+R39	Experiences Arg1:T52 Arg2:T22	
+R40	Experiences Arg1:T52 Arg2:T21	
+T66	CONC 743 752	inclusión
+#51	AnnotatorNotes T66	C1512693; Inclusion; Qualitative Concept
+R41	Before Arg1:T41 Arg2:T66	
+R42	Before Arg1:T41 Arg2:T24	
+R43	Before Arg1:T41 Arg2:T25	
+R44	Experiences Arg1:T56 Arg2:T26	
+R45	Experiences Arg1:T56 Arg2:T44	
+R46	Experiences Arg1:T56 Arg2:T27	
+R47	Causes Arg1:T28 Arg2:T27	
+T67	Quantifier_or_Qualifier 903 907	otra
+#52	AnnotatorNotes T67	C0205394; Other; Qualitative Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T67	
+R49	Experiences Arg1:T56 Arg2:T28	
+R50	Experiences Arg1:T56 Arg2:T29	
+R51	Location_of Arg1:T30 Arg2:T29	
+R52	Causes Arg1:T32 Arg2:T27	
+R53	Causes Arg1:T31 Arg2:T27	
+R54	Experiences Arg1:T56 Arg2:T31	
+R55	Experiences Arg1:T56 Arg2:T32	
+#53	AnnotatorNotes T31	C5681332; Neurometabolic disease; Disease or Syndrome
+R56	Causes Arg1:T59 Arg2:T33	
+R57	Negation Arg1:T57 Arg2:T33	
+T68	CONC 1055 1076	criterio de exclusión
+A10	Assertion T68 Negated
+#54	AnnotatorNotes T68	C0680251; Exclusion Criteria; Functional Concept 
+R58	Negation Arg1:T57 Arg2:T68	
+T69	Quantifier_or_Qualifier 1110 1121	en paralelo
+#55	AnnotatorNotes T69	C0521115; Simultaneous; Temporal Concept
+R59	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T69	
+R62	Used_for Arg1:T45 Arg2:T37	
+R63	Has_Duration_or_Interval Arg1:T45 Arg2:T63	
+T70	CONC 1269 1283	inmediatamente
+#56	AnnotatorNotes T70	C0205253; Immediate; Temporal Concept
+R64	Overlap Arg1:T37 Arg2:T70	
+R66	Overlap Arg1:T40 Arg2:T58	
+T71	CONC 1345 1357	se permitirá
+R67	Before Arg1:T70 Arg2:T39	
+R60	Overlap Arg1:T34 Arg2:T35	
+#57	AnnotatorNotes T17	C0149783; Steroid therapy; Therapeutic or Preventive Procedure
+#58	AnnotatorNotes T37	C0149783; Steroid therapy; Therapeutic or Preventive Procedure
+#59	AnnotatorNotes T39	C4684780; Standard Treatment; Health Care Activity
+A11	Experiencer T47 Patient
+A12	Experiencer T48 Patient
+A13	Experiencer T52 Patient
+A14	Experiencer T54 Family_member
+A15	Experiencer T55 Other
+A16	Experiencer T56 Patient
+A17	Status T39 Future
+T72	Result_or_Value 326 329	neg
+R61	Has_Result_or_Value Arg1:T42 Arg2:T72	

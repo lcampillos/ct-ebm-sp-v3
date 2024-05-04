@@ -1,0 +1,286 @@
+T1	PROC 44 76	Estudio para valorar la eficacia
+T2	ANAT 101 114	células madre
+#1	AnnotatorNotes T2	C0038250; Stem cells; Cell
+T3	DISO 152 167	ictus isquémico
+#2	AnnotatorNotes T3	C0948008; Ischemic stroke; Disease or Syndrome
+T4	PROC 189 262	Ensayo clínico fase II, multicéntrico, abierto, controlado y aleatorizado
+T5	PROC 269 288	valorar la eficacia
+#3	AnnotatorNotes T5	C1707887; Efficacy Study; Research Activity
+T6	ANAT 322 358	células mononucleadas de médula ósea
+T7	DISO 385 400	ictus isquémico
+#4	AnnotatorNotes T7	C0948008; Ischemic stroke; Disease or Syndrome
+T8	DISO 423 438	Ictus isquémico
+#5	AnnotatorNotes T8	C0948008; Ischemic stroke; Disease or Syndrome
+T9	PROC 537 570	Diagnóstico clínico y radiológico
+T10	DISO 574 591	infarto isquémico
+#6	AnnotatorNotes T10	C0333550; Anemic infarct; Pathologic Function
+T11	ANAT 609 612	ACM
+#7	AnnotatorNotes T11	C0149566; Structure of middle cerebral artery; Body Part, Organ, or Organ Component + C1269012; Entire middle cerebral artery; Body Part, Organ, or Organ Component
+T12	DISO 697 705	síntomas
+#8	AnnotatorNotes T12	C1457887; Symptoms; Sign or Symptom
+T13	DISO 737 753	infarto cerebral
+#9	AnnotatorNotes T13	C0007785; Cerebral Infarction; Disease or Syndrome | C0751955; Brain Infarction; Disease or Syndrome
+T14	ANAT 773 776	ACM
+#10	AnnotatorNotes T14	C0149566; Structure of middle cerebral artery; Body Part, Organ, or Organ Component + C1269012; Entire middle cerebral artery; Body Part, Organ, or Organ Component
+T15	PROC 781 801	resonancia magnética
+#11	AnnotatorNotes T15	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T16	PROC 802 828	angio resonancia magnética
+T17	PROC 830 832	RM
+#12	AnnotatorNotes T17	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T18	PROC 833 836	aRM
+#13	AnnotatorNotes T18	C0243032; Magnetic Resonance Angiography; Diagnostic Procedure
+T19	DISO 852 871	déficit neurológico
+#14	AnnotatorNotes T19	C0521654; Neurologic Deficits; Finding
+T20	DISO 961 978	Pérdida de fuerza
+#15	AnnotatorNotes T20	C3714552; Weakness; Sign or Symptom
+T21	DISO 1050 1056	afasia
+#16	AnnotatorNotes T21	C0003537; Aphasia; Mental or Behavioral Dysfunction
+T22	PROC 1338 1343	NIHSS
+#17	AnnotatorNotes T22	C3472497; Assessment using National Institutes of Health stroke scale; Health Care Activity
+T23	PROC 1020 1025	NIHSS
+#18	AnnotatorNotes T23	C3472497; Assessment using National Institutes of Health stroke scale; Health Care Activity
+T24	PROC 882 924	National Institutes of Health Stroke Scale
+#19	AnnotatorNotes T24	C3472497; Assessment using National Institutes of Health stroke scale; Health Care Activity
+T25	DISO 1173 1191	disección arterial
+#20	AnnotatorNotes T25	C0002949; Aneurysm, Dissecting; Disease or Syndrome
+T26	DISO 1197 1214	Ictus hemorrágico
+#21	AnnotatorNotes T26	C0472369; Hemorrhagic cerebral infarction; Disease or Syndrome
+T27	DISO 1217 1224	infarto
+#22	AnnotatorNotes T27	C0021308; Infarction; Pathologic Function | C0007785; Cerebral Infarction; Disease or Syndrome | C0751955; Brain Infarction; Disease or Syndrome
+T28	DISO 1229 1267	transformación hemorrágica sintomática
+T29	DISO 1287 1302	infarto lacunar
+#23	AnnotatorNotes T29	C0333559; Infarction, Lacunar; Disease or Syndrome
+T30	PROC 1389 1400	tratamiento
+#24	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	DISO 1415 1420	edema
+#25	AnnotatorNotes T31	C0013604; Edema; Pathologic Function
+T32	DISO 1425 1444	hemorragia cerebral
+#26	AnnotatorNotes T32	C0553692; Brain hemorrhage; Pathologic Function | C2937358; Cerebral Hemorrhage; Pathologic Function
+T33	DISO 1473 1514	infarto maligno de arteria cerebral media
+#27	AnnotatorNotes T33	C0740392; Infarction, Middle Cerebral Artery; Disease or Syndrome
+T34	ANAT 1492 1514	arteria cerebral media
+#28	AnnotatorNotes T34	C0149566; Structure of middle cerebral artery; Body Part, Organ, or Organ Component + C1269012; Entire middle cerebral artery; Body Part, Organ, or Organ Component
+T35	PROC 1641 1643	RM
+#29	AnnotatorNotes T35	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T36	DISO 1663 1679	tumores malignos
+#30	AnnotatorNotes T36	C0006826; Malignant Neoplasms; Neoplastic Process
+T37	DISO 1689 1710	carcinoma basocelular
+#31	AnnotatorNotes T37	C0007117; Basal cell carcinoma; Neoplastic Process
+T38	DISO 1770 1775	ictus
+#32	AnnotatorNotes T38	C0038454; Cerebrovascular accident; Disease or Syndrome
+T39	DISO 1799 1831	Enfermedades neuro-degenerativas
+T40	PROC 1534 1559	escala de coma de Glasgow
+#33	AnnotatorNotes T40	C0278349; Glasgow coma testing and evaluation; Laboratory Procedure
+T41	DISO 1838 1874	Insuficiencia cardíaca descompensada
+T42	DISO 1922 1945	enfermedad hematológica
+#34	AnnotatorNotes T42	C0018939; Hematological Disease; Disease or Syndrome
+T43	ANAT 1988 1999	médula ósea
+#35	AnnotatorNotes T43	C0005953; Bone Marrow; Tissue
+T44	DISO 2006 2019	Coagulopatías
+#36	AnnotatorNotes T44	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T45	DISO 2026 2048	Insuficiencia hepática
+#37	AnnotatorNotes T45	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T46	DISO 2055 2074	Insuficiencia renal
+#38	AnnotatorNotes T46	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T47	DISO 2121 2147	Enfermedades concomitantes
+#39	AnnotatorNotes T47	C0243087; concomitant disease; Pathologic Function
+T48	PROC 2247 2268	método anticonceptivo
+#40	AnnotatorNotes T48	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T49	PROC 2369 2383	ensayo clínico
+#41	AnnotatorNotes T49	C0008976; Clinical Trials; Research Activity
+T50	PROC 83 114	administración de células madre
+T51	PROC 295 318	infusión intra arterial
+#42	AnnotatorNotes T51	C0021439; Intra-Arterial Infusions; Therapeutic or Preventive Procedure
+T52	PROC 710 733	Diagnóstico radiológico
+T53	ANAT 745 753	cerebral
+#43	AnnotatorNotes T53	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T54	PROC 1130 1149	examen angiográfico
+T55	PROC 875 880	NIHSS
+#44	AnnotatorNotes T55	C3472497; Assessment using National Institutes of Health stroke scale; Health Care Activity
+T56	ANAT 1183 1191	arterial
+#45	AnnotatorNotes T56	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T57	ANAT 1436 1444	cerebral
+#46	AnnotatorNotes T57	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T58	DISO 1520 1527	Déficit
+#47	AnnotatorNotes T58	C0162429; Malnutrition; Disease or Syndrome
+T59	DISO 1544 1548	coma
+#48	AnnotatorNotes T59	C0009421; Comatose; Disease or Syndrome
+T60	ANAT 1699 1710	basocelular
+#49	AnnotatorNotes T60	C0596155; Basal Cell; Cell
+T61	ANAT 1852 1860	cardíaca
+#50	AnnotatorNotes T61	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T62	PROC 1732 1759	escala de Rankin modificada
+#51	AnnotatorNotes T62	C3888574; Modified Rankin score; Diagnostic Procedure
+T63	PROC 1977 1999	punción de médula ósea
+T64	ANAT 2040 2048	hepática
+#52	AnnotatorNotes T64	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T65	ANAT 2069 2074	renal
+#53	AnnotatorNotes T65	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T66	PROC 2085 2095	creatinina
+#54	AnnotatorNotes T66	C0201975; Creatinine measurement; Laboratory Procedure
+T67	Date 12 16	2013
+T68	LIVB 126 134	paciente
+#55	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 138 147	pacientes
+#56	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	Route 304 318	intra arterial
+T71	LIVB 371 380	pacientes
+#57	AnnotatorNotes T71	C0030705; Patients; Patient or Disabled Group
+T72	LIVB 468 492	Pacientes de ambos sexos
+#58	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T73	Age 514 532	entre 18 y 80 años
+T74	Duration 624 632	24 horas
+T75	Neg_cue 649 651	no
+T76	Duration 652 665	más de 7 días
+T77	Neg_cue 1026 1033	excepto
+T78	Spec_cue 1161 1172	sospecha de
+T79	LIVB 1273 1282	Pacientes
+#59	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	Duration 1365 1377	las 24 horas
+T81	Spec_cue 1447 1458	sospecha de
+T82	LIVB 1649 1658	Pacientes
+#60	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group
+T83	Neg_cue 1681 1688	excepto
+T85	LIVB 2161 2205	Mujeres embarazadas, en periodo de lactancia
+#61	AnnotatorNotes T85	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T86	Age 2212 2223	edad fértil
+T87	PHYS 2196 2205	lactancia
+#62	AnnotatorNotes T87	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T88	Neg_cue 2228 2230	no
+T89	LIVB 2282 2291	Pacientes
+#63	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T90	Date 2302 2313	actualmente
+T91	Duration 2398 2416	inferior a 3 meses
+T84	PHYS 2169 2180	embarazadas
+#64	AnnotatorNotes T84	C0032961; Pregnancy; Organism Function
+A1	Assertion T76 Negated
+A2	Assertion T21 Negated
+A3	Assertion T25 Speculated
+A4	Assertion T33 Speculated
+A5	Assertion T37 Negated
+A6	Assertion T48 Negated
+A7	Assertion T54 Negated
+A8	Assertion T35 Contraindicated
+A9	Assertion T35 Negated
+A10	Assertion T63 Contraindicated
+A11	Status T49 History_of
+#65	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#66	AnnotatorNotes T4	C0282460; Phase 2 Clinical Trials; Research Activity + C1096776; Multicenter Study; Research Activity + C1709323; Open Label Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#67	AnnotatorNotes T90	C0521116; Current (present time); Temporal Concept 
+#68	AnnotatorNotes T70	C1561451; Intraarterial Route of Drug Administration; Functional Concept 
+#69	AnnotatorNotes T6	C5235893; Bone Marrow-Derived Mononuclear Cells; Cell
+#70	AnnotatorNotes T16	C0243032; Magnetic Resonance Angiography; Diagnostic Procedure
+#71	AnnotatorNotes T39	C0524851; Neurodegenerative Disorders; Disease or Syndrome
+#72	AnnotatorNotes T41	C0581377; Decompensated cardiac failure; Disease or Syndrome
+T92	Quantifier_or_Qualifier 1057 1061	pura
+A12	Assertion T92 Negated
+A13	Assertion T54 Negated
+R1	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T92	
+T93	Neg_cue 1091 1102	Incapacidad
+T94	Neg_cue 1585 1598	Imposibilidad
+R2	Negation Arg1:T93 Arg2:T54	
+R3	Negation Arg1:T94 Arg2:T35	
+T95	Quantifier_or_Qualifier 2269 2275	eficaz
+A14	Assertion T95 Negated
+R4	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T95	
+R5	Negation Arg1:T88 Arg2:T48	
+R6	Negation Arg1:T88 Arg2:T95	
+R7	Negation Arg1:T83 Arg2:T37	
+#73	AnnotatorNotes T95	C1704419; Effective; Qualitative Concept
+R8	Experiences Arg1:T68 Arg2:T50	
+R9	Experiences Arg1:T69 Arg2:T50	
+R10	Experiences Arg1:T68 Arg2:T3	
+R11	Experiences Arg1:T69 Arg2:T3	
+R12	Used_for Arg1:T6 Arg2:T51	
+R13	Has_Route_or_Mode Arg1:T51 Arg2:T70	
+R14	Experiences Arg1:T71 Arg2:T51	
+R15	Experiences Arg1:T71 Arg2:T7	
+T96	Quantifier_or_Qualifier 359 367	autóloga
+#74	AnnotatorNotes T96	C0439859; Autologous (qualifier value); Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T96	
+R17	Has_Age Arg1:T72 Arg2:T73	
+R18	Location_of Arg1:T11 Arg2:T10	
+R19	After Arg1:T10 Arg2:T74	
+R20	Negation Arg1:T75 Arg2:T76	
+R21	Has_Duration_or_Interval Arg1:T10 Arg2:T76	
+R22	After Arg1:T10 Arg2:T12	
+R23	Causes Arg1:T10 Arg2:T12	
+T97	CONC 636 642	inicio
+#75	AnnotatorNotes T97	C0439659; Beginning; Temporal Concept
+R24	Before Arg1:T97 Arg2:T74	
+R25	Location_of Arg1:T53 Arg2:T13	
+R26	Before Arg1:T15 Arg2:T52	
+R27	Before Arg1:T16 Arg2:T52	
+R28	Before Arg1:T17 Arg2:T52	
+R29	Before Arg1:T18 Arg2:T52	
+T98	Observation 756 776	permeabilidad de ACM
+T99	Result_or_Value 929 955	más de 6 puntos y hasta 20
+R38	Has_Result_or_Value Arg1:T24 Arg2:T99	
+R39	Has_Result_or_Value Arg1:T55 Arg2:T99	
+T100	Result_or_Value 982 999	al menos 2 puntos
+R43	Has_Result_or_Value Arg1:T23 Arg2:T100	
+R44	Negation Arg1:T77 Arg2:T21	
+R45	Negation Arg1:T77 Arg2:T92	
+#76	AnnotatorNotes T54	C0002978; angiogram; Diagnostic Procedure
+R46	Speculation Arg1:T78 Arg2:T25	
+R47	Location_of Arg1:T56 Arg2:T25	
+R48	Overlap Arg1:T27 Arg2:T28	
+R49	Experiences Arg1:T79 Arg2:T29	
+T101	Result_or_Value 1347 1361	4 puntos o más
+T102	Observation 1308 1321	Empeoramiento
+#77	AnnotatorNotes T102	C1457868; Worse; Finding
+R51	Has_Result_or_Value Arg1:T102 Arg2:T101	
+R52	Overlap Arg1:T102 Arg2:T80	
+R53	Before Arg1:T102 Arg2:T30	
+R54	Causes Arg1:T31 Arg2:T102	
+R55	Location_of Arg1:T57 Arg2:T32	
+R56	Causes Arg1:T32 Arg2:T102	
+R57	Speculation Arg1:T81 Arg2:T33	
+R58	Causes Arg1:T33 Arg2:T102	
+R59	Location_of Arg1:T34 Arg2:T33	
+T103	Result_or_Value 1560 1579	inferior a 8 puntos
+R62	Has_Result_or_Value Arg1:T40 Arg2:T103	
+R63	Experiences Arg1:T82 Arg2:T36	
+R64	Experiences Arg1:T82 Arg2:T37	
+R65	Location_of Arg1:T60 Arg2:T37	
+R66	Before Arg1:T62 Arg2:T38	
+T104	Result_or_Value 1776 1793	mayor o igual a 2
+R68	Location_of Arg1:T61 Arg2:T41	
+T105	Quantifier_or_Qualifier 1877 1882	aguda
+#78	AnnotatorNotes T105	C0439557; Acute phase; Temporal Concept
+R69	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T105	
+R70	Location_of Arg1:T43 Arg2:T63	
+#79	AnnotatorNotes T63	C0005954; Bone marrow biopsy; Diagnostic Procedure (?)
+R71	Location_of Arg1:T64 Arg2:T45	
+R72	Location_of Arg1:T65 Arg2:T46	
+T106	Result_or_Value 2096 2114	mayor de 2 mg / dl
+R74	Has_Result_or_Value Arg1:T66 Arg2:T106	
+T107	Quantifier_or_Qualifier 2075 2083	moderada
+#80	AnnotatorNotes T107	C0205081; Moderate (severity modifier); Qualitative Concept
+R75	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T107	
+T108	Quantifier_or_Qualifier 2148 2154	graves
+#81	AnnotatorNotes T108	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R76	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T108	
+R77	Experiences Arg1:T85 Arg2:T84	
+R78	Experiences Arg1:T85 Arg2:T87	
+R79	Experiences Arg1:T85 Arg2:T48	
+T109	Observation 2314 2326	participando
+#82	AnnotatorNotes T109	C1278516; Patient participation status; Finding
+R81	Overlap Arg1:T109 Arg2:T90	
+T110	Observation 2335 2383	finalizado su participación en un ensayo clínico
+A15	Status T110 History_of
+#83	AnnotatorNotes T110	C2732579; Completion of clinical trial; Finding
+R82	Has_Duration_or_Interval Arg1:T110 Arg2:T91	
+R83	Has_Duration_or_Interval Arg1:T49 Arg2:T91	
+R80	Has_Age Arg1:T85 Arg2:T86	
+R30	Has_Result_or_Value Arg1:T62 Arg2:T104	
+#84	AnnotatorNotes T52	C0043299; Diagnostic radiologic examination; Diagnostic Procedure
+#85	AnnotatorNotes T92	C4724033; Pure; Qualitative Concept
+A16	Experiencer T68 Patient
+A17	Experiencer T69 Patient
+A18	Experiencer T71 Patient
+A19	Experiencer T72 Patient
+A20	Experiencer T79 Patient
+A21	Experiencer T82 Patient
+A22	Experiencer T85 Patient
+A23	Experiencer T89 Patient

@@ -1,0 +1,182 @@
+T1	PROC 1 11	Evaluación
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	CHEM 15 32	vasoconstrictores
+#2	AnnotatorNotes T2	C0042397; Vasoconstrictor Agents; Pharmacologic Substance
+T3	PROC 47 68	cirugía del pterigión
+#3	AnnotatorNotes T3	C0197269; Operation on pterygium; Therapeutic or Preventive Procedure
+T4	DISO 102 110	sangrado
+#4	AnnotatorNotes T4	C0019080; Hemorrhage; Pathologic Function
+T5	DISO 149 164	vascularización
+#5	AnnotatorNotes T5	C0027686; Pathologic Neovascularization; Pathologic Function
+T6	PROC 177 184	cirugía
+#6	AnnotatorNotes T6	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T7	PROC 197 236	aplicación de vasoconstrictores tópicos
+T8	DISO 258 266	sangrado
+#7	AnnotatorNotes T8	C0019080; Hemorrhage; Pathologic Function
+T9	PROC 309 316	cirugía
+#8	AnnotatorNotes T9	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T10	PROC 346 366	actuación quirúrgica
+#9	AnnotatorNotes T10	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure (?)
+T11	DISO 400 409	pterigión
+#10	AnnotatorNotes T11	C4520843; Pterygium of eye; Disease or Syndrome
+T12	DISO 521 529	sangrado
+#11	AnnotatorNotes T12	C0019080; Hemorrhage; Pathologic Function
+T13	PROC 560 573	cauterización
+#12	AnnotatorNotes T13	C0007471; Cauterization - action; Therapeutic or Preventive Procedure
+T14	PROC 586 593	cirugía
+#13	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T15	CHEM 644 655	fenilefrina
+#14	AnnotatorNotes T15	C0031469; phenylephrine; Organic Chemical · Pharmacologic Substance
+T16	CHEM 734 745	fenilefrina
+#15	AnnotatorNotes T16	C0031469; phenylephrine; Organic Chemical · Pharmacologic Substance
+T17	PROC 805 812	cirugía
+#16	AnnotatorNotes T17	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T18	CHEM 841 852	fenilefrina
+#17	AnnotatorNotes T18	C0031469; phenylephrine; Organic Chemical · Pharmacologic Substance
+T19	PROC 909 932	autoinjerto conjuntival
+#18	AnnotatorNotes T19	C5400488; Conjunctival limbal autograft; Therapeutic or Preventive Procedure (?)
+T20	PROC 935 941	sutura
+#19	AnnotatorNotes T20	C0009068; Closure by suture; Therapeutic or Preventive Procedure
+T21	PROC 956 980	anestesia subconjuntival
+T22	CHEM 1004 1030	clorhidrato de bupivacaína
+#20	AnnotatorNotes T22	C0887621; bupivacaine hydrochloride; Organic Chemical · Pharmacologic Substance
+T23	CHEM 1035 1045	epinefrina
+#21	AnnotatorNotes T23	C0014563; epinephrine; Organic Chemical · Pharmacologic Substance · Hormone
+T24	PROC 1500 1510	cauterizar
+#22	AnnotatorNotes T24	C0007471; Cauterization - action; Therapeutic or Preventive Procedure
+T25	PROC 1301 1310	diatermia
+#23	AnnotatorNotes T25	C0012002; Diathermy; Therapeutic or Preventive Procedure | C0203597; hyperthermia treatment; Therapeutic or Preventive Procedure
+T26	PROC 1354 1367	cauterización
+#24	AnnotatorNotes T26	C0007471; Cauterization - action; Therapeutic or Preventive Procedure
+T27	CHEM 1515 1526	fenilefrina
+#25	AnnotatorNotes T27	C0031469; phenylephrine; Organic Chemical · Pharmacologic Substance
+T28	CHEM 1545 1556	fenilefrina
+#26	AnnotatorNotes T28	C0031469; phenylephrine; Organic Chemical · Pharmacologic Substance
+T29	PROC 1621 1641	cirugía de pterigión
+#27	AnnotatorNotes T29	C0197269; Operation on pterygium; Therapeutic or Preventive Procedure
+T30	DISO 1663 1671	sangrado
+#28	AnnotatorNotes T30	C0019080; Hemorrhage; Pathologic Function
+T31	PROC 1694 1701	cirugía
+#29	AnnotatorNotes T31	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T32	DISO 59 68	pterigión
+#30	AnnotatorNotes T32	C4520843; Pterygium of eye; Disease or Syndrome
+T33	CHEM 211 228	vasoconstrictores
+#31	AnnotatorNotes T33	C0042397; Vasoconstrictor Agents; Pharmacologic Substance
+T34	PROC 451 490	ensayo clínico aleatorizado prospectivo
+#32	AnnotatorNotes T34	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T35	ANAT 921 932	conjuntival
+#33	AnnotatorNotes T35	C0009758; conjunctiva; Body Part, Organ, or Organ Component | C1278888; Entire conjunctiva; Body Part, Organ, or Organ Component
+T36	CHEM 1583 1599	vasconstrictores
+#34	AnnotatorNotes T36	C0042397; Vasoconstrictor Agents; Pharmacologic Substance
+T37	DISO 1632 1641	pterigión
+#35	AnnotatorNotes T37	C4520843; Pterygium of eye; Disease or Syndrome
+T38	Route 33 40	tópicos
+#36	AnnotatorNotes T38	C1522168; Topical Route of Drug Administration; Functional Concept
+T39	Time 111 126	intraoperatorio
+#37	AnnotatorNotes T39	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T40	Route 229 236	tópicos
+#38	AnnotatorNotes T40	C1522168; Topical Route of Drug Administration; Functional Concept
+T41	Time 267 282	intraoperatorio
+#39	AnnotatorNotes T41	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T42	LIVB 386 395	pacientes
+#40	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Time 530 545	intraoperatorio
+#41	AnnotatorNotes T43	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T44	Neg_cue 641 643	no
+T45	Time 656 674	preoperatoriamente
+#42	AnnotatorNotes T45	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T46	Route 746 752	tópica
+#43	AnnotatorNotes T46	C1522168; Topical Route of Drug Administration; Functional Concept
+T47	Dose 757 768	0,1ml (10%)
+T48	Duration 783 792	5 minutos
+T49	Neg_cue 824 826	no
+T50	Route 966 980	subconjuntival
+#44	AnnotatorNotes T50	C1556144; Subconjunctival Route of Drug Administration; Functional Concept
+T51	LIVB 1085 1094	pacientes
+#45	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Duration 1178 1191	15,57 minutos
+T53	Duration 1197 1203	1,8min
+T54	Duration 1231 1239	16,51min
+T55	Duration 1245 1252	1,82min
+T56	LIVB 1316 1325	pacientes
+#46	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1374 1383	pacientes
+#47	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Neg_cue 1511 1514	sin
+T59	Route 1600 1607	tópicos
+#48	AnnotatorNotes T59	C1522168; Topical Route of Drug Administration; Functional Concept
+T60	Dose 996 1000	0,5%
+T63	Dose 1046 1055	1:200.000
+T64	PROC 1144 1154	quirúrgico
+#49	AnnotatorNotes T64	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+A1	Assertion T15 Negated
+A2	Assertion T18 Negated
+A3	Assertion T27 Negated
+R1	Negation Arg1:T58 Arg2:T27	
+R2	Negation Arg1:T49 Arg2:T18	
+R3	Negation Arg1:T44 Arg2:T15	
+R4	Has_Route_or_Mode Arg1:T2 Arg2:T38	
+R5	Overlap Arg1:T4 Arg2:T39	
+R7	Causes Arg1:T3 Arg2:T4	
+R8	Before Arg1:T5 Arg2:T6	
+R10	Has_Route_or_Mode Arg1:T33 Arg2:T40	
+R11	Used_for Arg1:T33 Arg2:T7	
+R12	Overlap Arg1:T8 Arg2:T41	
+R16	Experiences Arg1:T42 Arg2:T11	
+T70	Quantifier_or_Qualifier 410 418	primario
+#55	AnnotatorNotes T70	C0205225; Primary; Qualitative Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T70	
+R19	Overlap Arg1:T12 Arg2:T43	
+R20	Before Arg1:T12 Arg2:T13	
+R21	Causes Arg1:T14 Arg2:T12	
+T72	CONC 576 593	tiempo de cirugía
+#57	AnnotatorNotes T72	C3494201; Operative Time; Temporal Concept
+R22	Overlap Arg1:T15 Arg2:T45	
+R23	Before Arg1:T15 Arg2:T14	
+R24	Has_Route_or_Mode Arg1:T16 Arg2:T46	
+R26	Has_Dose_or_Strength Arg1:T16 Arg2:T47	
+T73	Quantifier_or_Qualifier 773 782	dos veces
+R27	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T73	
+R28	Has_Duration_or_Interval Arg1:T16 Arg2:T48	
+R29	Before Arg1:T16 Arg2:T17	
+R31	Before Arg1:T19 Arg2:T20	
+R32	Combined_with Arg1:T22 Arg2:T23	
+R33	Has_Dose_or_Strength Arg1:T23 Arg2:T63	
+R34	Has_Dose_or_Strength Arg1:T22 Arg2:T60	
+R35	Has_Route_or_Mode Arg1:T22 Arg2:T50	
+R36	Used_for Arg1:T22 Arg2:T21	
+T75	CONC 1137 1154	tiempo quirúrgico
+#59	AnnotatorNotes T75	C3494201; Operative Time; Temporal Concept
+R38	Has_Duration_or_Interval Arg1:T64 Arg2:T52	
+R39	Has_Duration_or_Interval Arg1:T75 Arg2:T52	
+R40	Has_Duration_or_Interval Arg1:T64 Arg2:T53	
+R41	Has_Duration_or_Interval Arg1:T75 Arg2:T53	
+R42	Has_Duration_or_Interval Arg1:T75 Arg2:T54	
+R43	Has_Duration_or_Interval Arg1:T75 Arg2:T55	
+R44	Has_Duration_or_Interval Arg1:T64 Arg2:T54	
+R45	Has_Duration_or_Interval Arg1:T64 Arg2:T55	
+R46	Experiences Arg1:T56 Arg2:T25	
+R47	Experiences Arg1:T57 Arg2:T26	
+T76	CONC 1392 1404	Chi-cuadrado
+#60	AnnotatorNotes T76	C0008041; Chi-Square Test; Intellectual Product
+T77	CONC 1432 1447	riesgo relativo
+#61	AnnotatorNotes T77	C0242492; Relative Risk; Quantitative Concept
+R48	Before Arg1:T24 Arg2:T28	
+R49	Has_Route_or_Mode Arg1:T36 Arg2:T59	
+R50	Before Arg1:T36 Arg2:T29	
+T80	CONC 1684 1701	tiempo de cirugía
+#64	AnnotatorNotes T80	C3494201; Operative Time; Temporal Concept
+R53	Causes Arg1:T31 Arg2:T30	
+R54	Causes Arg1:T29 Arg2:T30	
+R6	Before Arg1:T2 Arg2:T3	
+R9	Before Arg1:T7 Arg2:T6	
+R13	Before Arg1:T7 Arg2:T9	
+R14	Before Arg1:T7 Arg2:T10	
+R15	Causes Arg1:T6 Arg2:T8	
+R18	Causes Arg1:T9 Arg2:T8	
+R51	Causes Arg1:T10 Arg2:T8	
+#50	AnnotatorNotes T73	C1948050; Twice (Numerical Qualifier); Quantitative Concept
+A4	Experiencer T57 Patient
+A5	Experiencer T56 Patient
+A6	Experiencer T51 Patient
+A7	Experiencer T42 Patient

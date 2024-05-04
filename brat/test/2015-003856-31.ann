@@ -1,0 +1,105 @@
+T1	PROC 62 73	diagnóstico
+#1	AnnotatorNotes T1	C0011900; Diagnosis; Diagnostic Procedure
+T2	PROC 105 125	estimulación ovárica
+T3	PROC 131 164	técnicas de reproducción asistida
+#2	AnnotatorNotes T3	C0949811; Reproductive Techniques, Assisted; Therapeutic or Preventive Procedure | C0872104; Assisted Reproductive Technologies; Therapeutic or Preventive Procedure
+T4	PROC 205 216	diagnóstico
+#3	AnnotatorNotes T4	C0011900; Diagnosis; Diagnostic Procedure
+T5	PROC 273 293	estimulación ovárica
+T6	PROC 420 433	diagnosticada
+#4	AnnotatorNotes T6	C0011900; Diagnosis; Diagnostic Procedure
+T7	PROC 546 568	fertilización in vitro
+#5	AnnotatorNotes T7	C0015915; Fertilization in Vitro; Therapeutic or Preventive Procedure
+T8	PROC 597 609	estimulación
+#6	AnnotatorNotes T8	C1292856; Stimulation procedure; Therapeutic or Preventive Procedure
+T9	DISO 439 456	baja respondedora
+T10	CHEM 624 627	FSH
+#7	AnnotatorNotes T10	C0733758; follicle stimulating hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T11	ANAT 644 657	ambos ovarios
+#8	AnnotatorNotes T11	C0227898; Both ovaries; Body Part, Organ, or Organ Component
+T12	PROC 704 713	protocolo
+#9	AnnotatorNotes T12	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T13	PROC 743 769	consentimiento por escrito
+#10	AnnotatorNotes T13	C0811746; Obtain written consent; Health Care Activity
+T14	ANAT 812 821	folículos
+#11	AnnotatorNotes T14	C0018120; Ovarian Follicle; Body Part, Organ, or Organ Component | C1571705; Follicle; Body Part, Organ, or Organ Component
+T15	DISO 872 885	Endometriosis
+#12	AnnotatorNotes T15	C0014175; Endometriosis; Disease or Syndrome
+T16	ANAT 907 914	uterina
+#13	AnnotatorNotes T16	C0042149; Uterus; Body Part, Organ, or Organ Component | C1269032; Entire uterus; Body Part, Organ, or Organ Component
+T17	DISO 929 940	Adenomiosis
+#14	AnnotatorNotes T17	C0341858; Endometriosis of uterus; Disease or Syndrome
+T18	DISO 942 959	miomas submucosos
+T19	ANAT 949 959	submucosos
+#15	AnnotatorNotes T19	C0225344; Tunica submucosa; Tissue
+T20	DISO 961 981	síndrome de Asherman
+#16	AnnotatorNotes T20	C0156372; Asherman Syndrome; Disease or Syndrome | C1704274; Intrauterine adhesions; Disease or Syndrome
+T21	DISO 77 91	baja respuesta
+T22	ANAT 118 125	ovárica
+#17	AnnotatorNotes T22	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T23	DISO 220 234	baja respuesta
+T24	ANAT 286 293	ovárica
+#18	AnnotatorNotes T24	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T25	ANAT 314 322	ovocitos
+#19	AnnotatorNotes T25	C0029045; Oocytes; Cell
+T26	PROC 845 868	visita de randomización
+#20	AnnotatorNotes T26	C1512346; Patient Visit; Health Care Activity + C0034656; Randomization; Research Activity
+T27	DISO 897 914	Patología uterina
+T28	Date 12 16	2015
+T29	LIVB 48 57	Pacientes
+#21	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 191 200	Pacientes
+#22	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 366 374	Paciente
+#23	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Age 467 476	< 41 años
+T33	PHYS 480 498	Ciclos menstruales
+#24	AnnotatorNotes T33	C0025329; Menstrual cycle; Organism Function
+T34	Duration 509 527	entre 21 y 35 días
+T35	Dose 614 620	300 UI
+T40	PHYS 143 155	reproducción
+#25	AnnotatorNotes T40	C0035150; Reproduction; Organism Function
+T41	PHYS 546 559	fertilización
+#26	AnnotatorNotes T41	C0009637; Conception; Organism Function | C0015914; Fertilization; Organism Function
+#27	AnnotatorNotes T2	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#28	AnnotatorNotes T5	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#29	AnnotatorNotes T21	C4087255; Poor response to ovulation induction; Pathologic Function
+#30	AnnotatorNotes T23	C4087255; Poor response to ovulation induction; Pathologic Function
+#31	AnnotatorNotes T9	C4087255; Poor response to ovulation induction; Pathologic Function
+#32	AnnotatorNotes T27	C0042131; Uterine Diseases; Disease or Syndrome 
+R1	Experiences Arg1:T29 Arg2:T21	
+R3	Location_of Arg1:T22 Arg2:T2	
+R4	Location_of Arg1:T22 Arg2:T21	
+R5	Location_of Arg1:T24 Arg2:T5	
+R6	Location_of Arg1:T24 Arg2:T23	
+R7	Experiences Arg1:T30 Arg2:T23	
+R8	Experiences Arg1:T30 Arg2:T5	
+R9	Experiences Arg1:T29 Arg2:T2	
+R10	Experiences Arg1:T29 Arg2:T3	
+R11	Before Arg1:T3 Arg2:T40	
+R12	Experiences Arg1:T29 Arg2:T40	
+R13	Experiences Arg1:T31 Arg2:T9	
+T36	Quantifier_or_Qualifier 323 335	vitrificados
+R14	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T36	
+R15	Has_Duration_or_Interval Arg1:T33 Arg2:T34	
+T37	Quantifier_or_Qualifier 499 508	regulares
+#33	AnnotatorNotes T37	C0205272; Regular; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T37	
+R17	Before Arg1:T7 Arg2:T41	
+R18	Has_Dose_or_Strength Arg1:T10 Arg2:T35	
+R19	Used_for Arg1:T10 Arg2:T8	
+T38	Result_or_Value 822 838	mayores de 10 mm
+R20	Location_of Arg1:T14 Arg2:T26	
+R21	Has_Result_or_Value Arg1:T14 Arg2:T38	
+T39	Quantifier_or_Qualifier 886 892	III/IV
+R22	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T39	
+R23	Location_of Arg1:T16 Arg2:T27	
+T42	Quantifier_or_Qualifier 915 927	concomitante
+#34	AnnotatorNotes T42	C0521115; Simultaneous; Temporal Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T42	
+R25	Location_of Arg1:T19 Arg2:T18	
+T43	Observation 661 713	Capacidad para participar y cumplir con el protocolo
+T44	Observation 988 1029	Participación concurrente en otro estudio
+A1	Experiencer T29 Patient
+A2	Experiencer T30 Patient
+A3	Experiencer T31 Patient

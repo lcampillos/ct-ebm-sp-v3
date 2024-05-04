@@ -1,0 +1,169 @@
+T1	DISO 80 103	enfermedad de Parkinson
+#1	AnnotatorNotes T1	C0030567; Parkinson Disease; Disease or Syndrome
+T2	PROC 126 131	SPECT
+#2	AnnotatorNotes T2	C0040399; Tomography, Emission-Computed, Single-Photon; Diagnostic Procedure
+T3	DISO 132 137	Ictal
+#3	AnnotatorNotes T3	C0038454; Cerebrovascular accident; Disease or Syndrome
+T4	PROC 141 159	perfusión cerebral
+T5	DISO 189 212	enfermedad de Parkinson
+#4	AnnotatorNotes T5	C0030567; Parkinson Disease; Disease or Syndrome
+T6	DISO 236 245	Parkinson
+#5	AnnotatorNotes T6	C0030567; Parkinson Disease; Disease or Syndrome | C0242422; Parkinsonian Disorders; Disease or Syndrome
+T7	DISO 272 295	Enfermedad de Parkinson
+#6	AnnotatorNotes T7	C0030567; Parkinson Disease; Disease or Syndrome
+T8	PROC 336 347	Diagnóstico
+#7	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	CHEM 473 481	fármacos
+#8	AnnotatorNotes T9	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T10	DISO 505 530	enfermedades neurológicas
+#9	AnnotatorNotes T10	C0027765; nervous system disorder; Disease or Syndrome
+T11	PROC 588 601	exploraciones
+#10	AnnotatorNotes T11	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T12	PROC 823 836	exploraciones
+#11	AnnotatorNotes T12	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T13	PROC 889 900	Diagnóstico
+#12	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 904 923	deterioro cognitivo
+#13	AnnotatorNotes T14	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T15	DISO 931 939	demencia
+#14	AnnotatorNotes T15	C0497327; Dementia; Mental or Behavioral Dysfunction
+T16	DISO 956 979	síntomas parkinsonianos
+T17	CHEM 1108 1124	principio activo
+#15	AnnotatorNotes T17	C1372955; Active ingredient; Chemical Viewed Functionally
+T18	DISO 1087 1104	Hipersensibilidad
+#16	AnnotatorNotes T18	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T19	CHEM 1141 1152	excipientes
+#17	AnnotatorNotes T19	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T20	PROC 1168 1187	dieta baja en sodio
+#18	AnnotatorNotes T20	C0012169; Low sodium diet; Therapeutic or Preventive Procedure
+T21	PROC 1211 1225	ensayo clínico
+#19	AnnotatorNotes T21	C0008976; Clinical Trials; Research Activity
+T22	ANAT 151 159	cerebral
+#20	AnnotatorNotes T22	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T23	PROC 578 585	pruebas
+#21	AnnotatorNotes T23	C1510438; Assay; Laboratory Procedure
+T24	DISO 676 697	patología neurológica
+T25	PROC 813 820	pruebas
+#22	AnnotatorNotes T25	C1510438; Assay; Laboratory Procedure
+T26	DISO 983 999	Patología médica
+T27	PROC 1052 1059	pruebas
+#23	AnnotatorNotes T27	C1510438; Assay; Laboratory Procedure
+T28	CHEM 1182 1187	sodio
+#24	AnnotatorNotes T28	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T29	PROC 45 50	SPECT
+#25	AnnotatorNotes T29	C0040399; Tomography, Emission-Computed, Single-Photon; Diagnostic Procedure
+T30	DISO 328 332	TCSR
+#26	AnnotatorNotes T30	C0751772; REM Sleep Behavior Disorder; Mental or Behavioral Dysfunction
+T31	DISO 351 355	TCSR
+#27	AnnotatorNotes T31	C0751772; REM Sleep Behavior Disorder; Mental or Behavioral Dysfunction
+T32	DISO 431 435	TCSR
+#28	AnnotatorNotes T32	C0751772; REM Sleep Behavior Disorder; Mental or Behavioral Dysfunction
+T33	Date 13 17	2015
+T34	Route 141 150	perfusión
+#29	AnnotatorNotes T34	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T37	LIVB 627 640	Grupo control
+#30	AnnotatorNotes T37	C0009932; Control Group; Group
+T38	LIVB 664 671	Sujetos
+#31	AnnotatorNotes T38	C0681850; Study Subject; Group
+T39	Neg_cue 672 675	sin
+T40	LIVB 717 724	Sujetos
+#32	AnnotatorNotes T40	C0681850; Study Subject; Group
+T43	LIVB 1156 1163	Sujetos
+#33	AnnotatorNotes T43	C0681850; Study Subject; Group
+T44	Duration 1248 1255	30 días
+T45	PHYS 1295 1303	Embarazo
+#34	AnnotatorNotes T45	C0032961; Pregnancy; Organism Function
+T46	PHYS 1306 1315	lactancia
+#35	AnnotatorNotes T46	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T47	PHYS 914 923	cognitivo
+#36	AnnotatorNotes T47	C0009240; Cognition; Mental Process
+T48	LIVB 642 659	voluntarios sanos
+#37	AnnotatorNotes T48	C1708335; Healthy Volunteers; Population Group
+T35	LIVB 540 552	Participante
+#38	AnnotatorNotes T35	C4554048; Study Participant; Population Group
+T36	LIVB 775 787	Participante
+#39	AnnotatorNotes T36	C4554048; Study Participant; Population Group
+T41	Neg_cue 483 485	no
+T42	Neg_cue 457 459	no
+T49	LIVB 755 771	grupo de estudio
+#40	AnnotatorNotes T49	C2348561; Study Population (group); Population Group
+A1	Assertion T24 Negated
+A2	Assertion T10 Negated
+A3	Assertion T9 Negated
+A4	Status T18 History_of
+A5	Status T21 History_of
+#41	AnnotatorNotes T4	C3162005; cerebral perfusion; Therapeutic or Preventive Procedure 
+T50	Neg_cue 725 728	sin
+T51	Observation 729 747	relación biológica
+#42	AnnotatorNotes T51	C0682316; type of family relation; Finding (?)
+R2	Has_Route_or_Mode Arg1:T4 Arg2:T34	
+T52	CONC 166 182	periodo premotor
+T53	CONC 57 73	periodo premotor
+R1	Overlap Arg1:T29 Arg2:T53	
+R3	Overlap Arg1:T2 Arg2:T52	
+T54	CONC 378 427	International classification of Sleep disorders-2
+#43	AnnotatorNotes T54	C1550221; International Classification of Sleep Disorders - CodeSystem; Intellectual Product
+R4	Used_for Arg1:T54 Arg2:T8	
+R6	Before Arg1:T4 Arg2:T2	
+R7	Location_of Arg1:T22 Arg2:T4	
+R8	Location_of Arg1:T22 Arg2:T3	
+R9	Location_of Arg1:T22 Arg2:T2	
+R10	Overlap Arg1:T4 Arg2:T52	
+R11	Overlap Arg1:T3 Arg2:T52	
+T55	Quantifier_or_Qualifier 439 455	causa idiopática
+#44	AnnotatorNotes T55	C0332240; Unknown (origin) (qualifier value); Functional Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T55	
+R13	Negation Arg1:T42 Arg2:T9	
+R14	Negation Arg1:T41 Arg2:T10	
+R15	Experiences Arg1:T35 Arg2:T23	
+R16	Experiences Arg1:T35 Arg2:T11	
+T56	Observation 553 558	capaz
+#45	AnnotatorNotes T56	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R17	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T56	
+R18	Overlap Arg1:T56 Arg2:T23	
+R19	Overlap Arg1:T56 Arg2:T11	
+R20	Experiences Arg1:T38 Arg2:T24	
+R21	Negation Arg1:T39 Arg2:T24	
+T57	Quantifier_or_Qualifier 707 713	activa
+A6	Assertion T57 Negated
+#46	AnnotatorNotes T57	C0679217; Active State; Idea or Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T57	
+T58	Observation 788 793	capaz
+#47	AnnotatorNotes T58	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R23	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T58	
+R24	Overlap Arg1:T58 Arg2:T25	
+R25	Overlap Arg1:T58 Arg2:T12	
+R26	Experiences Arg1:T36 Arg2:T25	
+R27	Experiences Arg1:T36 Arg2:T12	
+A7	Assertion T51 Negated
+R29	Negation Arg1:T50 Arg2:T51	
+T59	Quantifier_or_Qualifier 924 928	leve
+#48	AnnotatorNotes T59	C2945599; Mild (qualifier value); Qualitative Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T59	
+#49	AnnotatorNotes T24	C0027765; nervous system disorder; Disease or Syndrome
+T60	Quantifier_or_Qualifier 1000 1005	grave
+#50	AnnotatorNotes T60	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R32	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T60	
+T61	CONC 1016 1026	interferir
+A8	Assertion T61 Speculated
+#51	AnnotatorNotes T61	C0521102; Interferes with; Functional Concept
+T62	Spec_cue 1010 1015	pueda
+R34	Speculation Arg1:T62 Arg2:T61	
+T63	CONC 1069 1083	datos clínicos
+#52	AnnotatorNotes T63	C1516606; Clinical Data; Intellectual Product
+R35	Causes Arg1:T17 Arg2:T18	
+R36	Causes Arg1:T19 Arg2:T18	
+R37	Experiences Arg1:T43 Arg2:T20	
+R38	Has_Duration_or_Interval Arg1:T21 Arg2:T44	
+T64	PROC 1284 1291	estudio
+#53	AnnotatorNotes T64	C0008976; Clinical Trials; Research Activity
+R39	Before Arg1:T21 Arg2:T64	
+#54	AnnotatorNotes T26	C0677042; Pathology processes; Pathologic Function (?)
+A9	Experiencer T35 Patient
+A10	Experiencer T48 Patient
+A11	Experiencer T49 Patient
+A12	Experiencer T36 Patient
+A13	Experiencer T40 Patient
+A14	Experiencer T38 Patient
+A15	Experiencer T37 Patient
+A16	Experiencer T43 Patient

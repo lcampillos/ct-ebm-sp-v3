@@ -1,0 +1,236 @@
+T1	PROC 37 47	prevención
+#1	AnnotatorNotes T1	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T2	DISO 54 65	hipotensión
+#2	AnnotatorNotes T2	C0020649; Hypotension; Finding
+T3	PROC 77 89	hemodiálisis
+#3	AnnotatorNotes T3	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T4	DISO 527 530	HID
+#4	AnnotatorNotes T4	C1260413; hypotension of hemodialysis; Pathologic Function
+T5	DISO 121 147	hipotensión intradialítica
+#5	AnnotatorNotes T5	C1260413; hypotension of hemodialysis; Pathologic Function
+T6	PROC 159 171	hemodiálisis
+#6	AnnotatorNotes T6	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T7	CHEM 14 19	DDVAP
+#7	AnnotatorNotes T7	C0011701; desmopressin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0701195; DDAVP; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T8	PROC 342 368	ensayo clínico doble ciego
+#8	AnnotatorNotes T8	C0013072; Double-Blind Method; Research Activity + C0008976; Clinical Trials; Research Activity
+T10	CHEM 437 451	agua destilada
+#9	AnnotatorNotes T10	C0790233; Distilled water; Pharmacologic Substance · Inorganic Chemical
+T11	PROC 468 475	placebo
+#10	AnnotatorNotes T11	C0032042; Placebos; Therapeutic or Preventive Procedure
+T12	PROC 482 492	prevención
+#11	AnnotatorNotes T12	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T13	DISO 499 525	hipotensión intradialítica
+#12	AnnotatorNotes T13	C1260413; hypotension of hemodialysis; Pathologic Function
+T14	PROC 565 578	diagnosticada
+#13	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	PROC 1305 1320	flujo sanguíneo
+#14	AnnotatorNotes T15	C0005776; blood flow measurement; Diagnostic Procedure
+T16	Route 632 637	nasal
+#15	AnnotatorNotes T16	C1522019; Nasal Route of Drug Administration; Functional Concept
+T17	CHEM 641 655	agua destilada
+#16	AnnotatorNotes T17	C0790233; Distilled water; Pharmacologic Substance · Inorganic Chemical
+T18	PROC 618 637	pulverización nasal
+T19	PROC 724 731	placebo
+#17	AnnotatorNotes T19	C0032042; Placebos; Therapeutic or Preventive Procedure
+T20	PROC 889 905	presión arterial
+#18	AnnotatorNotes T20	C0005824; Blood pressure determination; Health Care Activity
+T21	CHEM 863 874	vasopresina
+#19	AnnotatorNotes T21	C0042413; Vasopressins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C1705480; vasopressin (USP); Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T22	ANAT 1046 1054	arterial
+#20	AnnotatorNotes T22	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T23	ANAT 1690 1698	arterial
+#21	AnnotatorNotes T23	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T24	DISO 1011 1022	hipotensión
+#22	AnnotatorNotes T24	C0020649; Hypotension; Finding
+T25	PROC 1226 1239	diagnosticada
+#23	AnnotatorNotes T25	C0011900; Diagnosis; Diagnostic Procedure
+T26	PROC 1340 1349	dializado
+#24	AnnotatorNotes T26	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T27	PROC 1363 1378	ultrafiltración
+#25	AnnotatorNotes T27	C0019014; Hemofiltration; Therapeutic or Preventive Procedure | C0041612; Ultrafiltration; Therapeutic or Preventive Procedure
+T28	CHEM 800 805	DDVAP
+#26	AnnotatorNotes T28	C0011701; desmopressin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0701195; DDAVP; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T29	DISO 1472 1483	hipotensión
+#27	AnnotatorNotes T29	C0020649; Hypotension; Finding
+T30	CHEM 1534 1545	vasopresina
+#28	AnnotatorNotes T30	C0042413; Vasopressins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C1705480; vasopressin (USP); Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T31	PROC 1605 1612	placebo
+#29	AnnotatorNotes T31	C0032042; Placebos; Therapeutic or Preventive Procedure
+T32	PROC 1682 1704	presión arterial media
+#30	AnnotatorNotes T32	C0005824; Blood pressure determination; Health Care Activity
+T33	CHEM 1720 1731	vasopresina
+#31	AnnotatorNotes T33	C0042413; Vasopressins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C1705480; vasopressin (USP); Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T34	PROC 1762 1769	placebo
+#32	AnnotatorNotes T34	C0032042; Placebos; Therapeutic or Preventive Procedure
+T35	PROC 2006 2013	placebo
+#33	AnnotatorNotes T35	C0032042; Placebos; Therapeutic or Preventive Procedure
+T36	CHEM 2018 2029	vasopresina
+#34	AnnotatorNotes T36	C0042413; Vasopressins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C1705480; vasopressin (USP); Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T37	DISO 2115 2141	hipotensión intradialítica
+#35	AnnotatorNotes T37	C1260413; hypotension of hemodialysis; Pathologic Function
+T38	PROC 2153 2165	hemodiálisis
+#36	AnnotatorNotes T38	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T39	PROC 173 175	HD
+#37	AnnotatorNotes T39	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T40	PROC 297 305	diálisis
+#38	AnnotatorNotes T40	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T41	DISO 549 564	HID sintomática
+T42	PROC 711 713	HD
+#39	AnnotatorNotes T42	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T43	PROC 853 855	HD
+#40	AnnotatorNotes T43	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T44	ANAT 897 905	arterial
+#41	AnnotatorNotes T44	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T45	PROC 933 935	HD
+#42	AnnotatorNotes T45	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T46	PROC 979 981	HD
+#43	AnnotatorNotes T46	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T47	PROC 1038 1064	presión arterial sistólica
+#44	AnnotatorNotes T47	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T48	DISO 1210 1225	HID sintomática
+T49	PROC 1282 1290	diálisis
+#45	AnnotatorNotes T49	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T50	ANAT 1311 1320	sanguíneo
+#46	AnnotatorNotes T50	C0005767; Blood; Body Substance
+T51	PROC 1441 1443	HD
+#47	AnnotatorNotes T51	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T53	LIVB 535 544	pacientes
+#48	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Duration 588 601	el primer mes
+T55	Duration 669 679	30 minutos
+T56	Duration 780 787	30 días
+T57	Duration 817 827	30 minutos
+T59	Duration 937 946	dos horas
+T60	PHYS 1038 1054	presión arterial
+#49	AnnotatorNotes T60	C0005823; Blood Pressure; Organism Function
+T61	LIVB 1138 1147	pacientes
+#50	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 1155 1162	hombres
+#51	AnnotatorNotes T62	C0025266; Male population group; Population Group
+T63	LIVB 1170 1177	mujeres
+#52	AnnotatorNotes T63	C0043210; Woman; Population Group
+T64	Age 1181 1190	47,5 años
+T69	PHYS 1682 1698	presión arterial
+#53	AnnotatorNotes T69	C0005823; Blood Pressure; Organism Function
+T70	Route 20 30	intranasal
+#54	AnnotatorNotes T70	C1522019; Nasal Route of Drug Administration; Functional Concept
+T52	Route 414 424	intranasal
+#55	AnnotatorNotes T52	C1522019; Nasal Route of Drug Administration; Functional Concept
+T71	Route 452 462	intranasal
+#56	AnnotatorNotes T71	C1522019; Nasal Route of Drug Administration; Functional Concept
+T72	Route 806 816	intranasal
+#57	AnnotatorNotes T72	C1522019; Nasal Route of Drug Administration; Functional Concept
+T58	DEVI 1269 1290	membranas de diálisis
+#58	AnnotatorNotes T58	C4047366; Hemodialysis membrane; Medical Device
+T65	Time 133 147	intradialítica
+T68	Time 511 525	intradialítica
+T73	Time 2127 2141	intradialítica
+T9	CHEM 408 413	DDAVP
+#59	AnnotatorNotes T9	C0011701; desmopressin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0701195; DDAVP; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T66	Neg_cue 1902 1905	sin
+T67	CONC 1906 1917	diferencias
+A1	Assertion T67 Negated
+#60	AnnotatorNotes T67	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T66 Arg2:T67	
+T74	Spec_cue 385 393	posibles
+T75	Observation 394 401	efectos
+A2	Assertion T75 Speculated
+#61	AnnotatorNotes T75	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R2	Speculation Arg1:T74 Arg2:T75	
+T76	Observation 1 7	Efecto
+#62	AnnotatorNotes T76	C1518681; Outcome of Therapy; Finding (?)
+R3	Causes Arg1:T7 Arg2:T76	
+R4	Has_Route_or_Mode Arg1:T7 Arg2:T70	
+R5	Used_for Arg1:T7 Arg2:T1	
+R6	Overlap Arg1:T2 Arg2:T3	
+R7	Before Arg1:T1 Arg2:T2	
+R8	Overlap Arg1:T5 Arg2:T65	
+R9	Overlap Arg1:T5 Arg2:T6	
+R10	Overlap Arg1:T5 Arg2:T39	
+T77	Observation 256 266	morbilidad
+#63	AnnotatorNotes T77	C0026538; Morbidity - disease rate; Finding
+T78	Quantifier_or_Qualifier 267 275	excesiva
+#64	AnnotatorNotes T78	C0442802; Excessive (qualifier value); Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T77 Arg2:T78	
+R12	Overlap Arg1:T77 Arg2:T40	
+R13	Overlap Arg1:T39 Arg2:T77	
+R14	Overlap Arg1:T6 Arg2:T77	
+R15	Before Arg1:T9 Arg2:T75	
+R16	Has_Route_or_Mode Arg1:T9 Arg2:T52	
+R17	Has_Route_or_Mode Arg1:T10 Arg2:T71	
+R18	Used_for Arg1:T10 Arg2:T11	
+R19	Used_for Arg1:T9 Arg2:T12	
+R20	Used_for Arg1:T11 Arg2:T12	
+R21	Before Arg1:T12 Arg2:T13	
+R22	Before Arg1:T12 Arg2:T4	
+R23	Overlap Arg1:T13 Arg2:T68	
+R24	Overlap Arg1:T4 Arg2:T68	
+R25	Experiences Arg1:T53 Arg2:T4	
+R26	Experiences Arg1:T53 Arg2:T13	
+R27	Experiences Arg1:T53 Arg2:T12	
+R28	Experiences Arg1:T53 Arg2:T10	
+R29	Experiences Arg1:T53 Arg2:T9	
+R30	Experiences Arg1:T53 Arg2:T75	
+R31	Experiences Arg1:T53 Arg2:T41	
+R32	Used_for Arg1:T17 Arg2:T18	
+R33	Has_Route_or_Mode Arg1:T17 Arg2:T16	
+#65	AnnotatorNotes T18	C0456585; Instillation of nasal spray; Health Care Activity
+R34	Before Arg1:T18 Arg2:T42	
+R36	Used_for Arg1:T17 Arg2:T19	
+T79	CONC 759 776	periodo de reposo
+#66	AnnotatorNotes T79	C1710661; Washout Period; Temporal Concept
+R37	Has_Duration_or_Interval Arg1:T79 Arg2:T56	
+R38	Overlap Arg1:T18 Arg2:T54	
+R39	Before Arg1:T18 Arg2:T79	
+R40	Before Arg1:T79 Arg2:T28	
+R41	Has_Route_or_Mode Arg1:T28 Arg2:T72	
+R42	Before Arg1:T28 Arg2:T43	
+R44	Before Arg1:T21 Arg2:T43	
+R45	Has_Route_or_Mode Arg1:T21 Arg2:T72	
+R46	Location_of Arg1:T44 Arg2:T20	
+R47	Before Arg1:T20 Arg2:T45	
+T80	CONC 915 920	justo
+#67	AnnotatorNotes T80	C0205548; Stat (do immediately); Temporal Concept (?)
+R48	Overlap Arg1:T20 Arg2:T80	
+R49	After Arg1:T20 Arg2:T59	
+R50	After Arg1:T20 Arg2:T46	
+T81	Observation 1026 1064	caída de la presión arterial sistólica
+#68	AnnotatorNotes T81	C0277885; Decreased systolic arterial pressure; Finding
+R51	Location_of Arg1:T22 Arg2:T60	
+R52	Location_of Arg1:T22 Arg2:T47	
+R53	Location_of Arg1:T22 Arg2:T81	
+R56	Has_Age Arg1:T63 Arg2:T64	
+R57	Has_Age Arg1:T62 Arg2:T64	
+R58	Has_Age Arg1:T61 Arg2:T64	
+R59	Experiences Arg1:T61 Arg2:T48	
+R60	Experiences Arg1:T62 Arg2:T48	
+R61	Experiences Arg1:T63 Arg2:T48	
+R62	Used_for Arg1:T58 Arg2:T49	
+T82	Quantifier_or_Qualifier 1425 1437	204 sesiones
+R63	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T82	
+R64	Before Arg1:T30 Arg2:T29	
+R65	Before Arg1:T31 Arg2:T29	
+T83	CONC 1325 1349	tasa del flujo dializado
+#69	AnnotatorNotes T83	C5569874; Dialysate flow rate; Quantitative Concept
+T84	CONC 1355 1378	tasa de ultrafiltración
+R66	Location_of Arg1:T23 Arg2:T69	
+R67	Location_of Arg1:T23 Arg2:T32	
+T85	CONC 1857 1861	Kt/v
+#70	AnnotatorNotes T85	C0429662; hemodialysis - kt/V; Finding (?)
+R70	Before Arg1:T35 Arg2:T37	
+R71	Overlap Arg1:T37 Arg2:T73	
+R72	Before Arg1:T36 Arg2:T37	
+R73	Overlap Arg1:T37 Arg2:T38	
+R74	Before Arg1:T35 Arg2:T38	
+R75	Before Arg1:T36 Arg2:T38	
+R76	Before Arg1:T79 Arg2:T21	
+R77	Before Arg1:T80 Arg2:T45	
+R78	Overlap Arg1:T18 Arg2:T55	
+R35	Overlap Arg1:T28 Arg2:T57	
+R43	Overlap Arg1:T21 Arg2:T57	
+A3	Experiencer T53 Patient
+A4	Experiencer T61 Patient
+A5	Experiencer T62 Patient
+A6	Experiencer T63 Patient
+R54	Has_Result_or_Value Arg1:T47 Arg2:T81	

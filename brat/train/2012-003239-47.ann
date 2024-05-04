@@ -1,0 +1,152 @@
+T1	PROC 48 94	Estudio de extensión intervencionista, abierto
+T2	CHEM 118 129	aripiprazol
+#1	AnnotatorNotes T2	C0299792; aripiprazole; Organic Chemical · Pharmacologic Substance
+T3	DISO 175 188	esquizofrenia
+#2	AnnotatorNotes T3	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T4	DISO 212 225	Esquizofrenia
+#3	AnnotatorNotes T4	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T5	PROC 278 289	tratamiento
+#4	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	CHEM 294 305	aripiprazol
+#5	AnnotatorNotes T6	C0299792; aripiprazole; Organic Chemical · Pharmacologic Substance
+T7	PROC 424 435	tratamiento
+#6	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	CHEM 454 465	aripiprazol
+#7	AnnotatorNotes T8	C0299792; aripiprazole; Organic Chemical · Pharmacologic Substance
+T9	PROC 542 566	consentimiento informado
+#8	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	PROC 615 639	consentimiento informado
+#9	AnnotatorNotes T10	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T11	PROC 661 681	estudio de extensión
+T12	DISO 768 790	trastorno psiquiátrico
+#10	AnnotatorNotes T12	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T13	PROC 751 764	diagnosticado
+#11	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 803 816	esquizofrenia
+#12	AnnotatorNotes T14	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T15	DISO 923 931	suicidio
+#13	AnnotatorNotes T15	C0038661; Suicide; Finding
+T16	DISO 1031 1047	Ideación suicida
+#14	AnnotatorNotes T16	C0424000; Feeling suicidal (finding); Finding
+T17	DISO 1118 1134	Conducta suicida
+#15	AnnotatorNotes T17	C1760428; Suicidal behavior; Finding
+T18	DISO 1163 1185	acontecimiento adverso
+#16	AnnotatorNotes T18	C0877248; Adverse event; Pathologic Function
+T19	Date 12 16	2012
+T20	Frequency 143 157	una vez al mes
+T21	LIVB 161 170	pacientes
+#17	AnnotatorNotes T21	C0030705; Patients; Patient or Disabled Group
+T22	LIVB 257 265	paciente
+#18	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	Frequency 306 320	una vez al mes
+T24	LIVB 374 386	investigador
+#19	AnnotatorNotes T24	C0035173; Research Personnel; Professional or Occupational Group
+T25	LIVB 391 399	paciente
+#20	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Duration 439 449	24 semanas
+T27	Frequency 466 480	una vez al mes
+T28	LIVB 487 495	paciente
+#21	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 573 581	paciente
+#22	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 733 741	paciente
+#23	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 861 873	investigador
+#24	AnnotatorNotes T31	C0035173; Research Personnel; Professional or Occupational Group
+T32	LIVB 878 886	paciente
+#25	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 1142 1150	paciente
+#26	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 1262 1274	investigador
+#27	AnnotatorNotes T35	C0035173; Research Personnel; Professional or Occupational Group
+T37	PHYS 1031 1039	Ideación
+#28	AnnotatorNotes T37	C0392348; ideation; Mental Process
+T38	Dose 100 114	dosis flexible
+T39	Spec_cue 899 905	riesgo
+T33	Date 1204 1212	en curso
+T36	PHYS 515 525	comprender
+#29	AnnotatorNotes T36	C0162340; Comprehension; Mental Process
+T40	PHYS 508 512	leer
+#30	AnnotatorNotes T40	C2372013; Reading; Mental Process
+T41	Neg_cue 791 802	distinto de
+T42	Quantifier_or_Qualifier 964 969	basal
+T43	PROC 957 963	visita
+#31	AnnotatorNotes T43	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T15 Speculated
+A2	Assertion T14 Negated
+#32	AnnotatorNotes T42	C1442488; Baseline; Quantitative Concept
+T44	Quantifier_or_Qualifier 970 972	II
+T45	Spec_cue 1288 1295	posible
+T46	Observation 1296 1320	riesgo para la seguridad
+A3	Assertion T46 Speculated
+T47	Spec_cue 400 409	obtendría
+T48	Observation 410 419	beneficio
+A4	Assertion T48 Speculated
+#33	AnnotatorNotes T48	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R1	Speculation Arg1:T47 Arg2:T48	
+R2	Before Arg1:T7 Arg2:T48	
+R3	Has_Duration_or_Interval Arg1:T7 Arg2:T26	
+R4	Used_for Arg1:T8 Arg2:T7	
+R5	Has_Dose_or_Strength Arg1:T2 Arg2:T38	
+R6	Has_Frequency Arg1:T2 Arg2:T20	
+R7	Experiences Arg1:T21 Arg2:T3	
+R8	Experiences Arg1:T21 Arg2:T2	
+R9	Experiences Arg1:T22 Arg2:T5	
+R10	Used_for Arg1:T6 Arg2:T5	
+T49	Observation 326 347	completado el estudio
+#34	AnnotatorNotes T49	C2732579; Completion of clinical trial; Finding
+R12	Has_Frequency Arg1:T6 Arg2:T23	
+R13	Experiences Arg1:T25 Arg2:T48	
+R14	Has_Frequency Arg1:T8 Arg2:T27	
+R15	Experiences Arg1:T25 Arg2:T7	
+R16	Experiences Arg1:T28 Arg2:T40	
+R17	Experiences Arg1:T28 Arg2:T36	
+R18	Overlap Arg1:T36 Arg2:T9	
+R19	Overlap Arg1:T40 Arg2:T9	
+R20	Before Arg1:T10 Arg2:T11	
+R21	Experiences Arg1:T30 Arg2:T12	
+R22	Experiences Arg1:T30 Arg2:T14	
+R23	Negation Arg1:T41 Arg2:T14	
+T50	PROC 828 835	estudio
+R24	Overlap Arg1:T12 Arg2:T50	
+R25	Overlap Arg1:T14 Arg2:T50	
+#35	AnnotatorNotes T50	C0008976; Clinical Trials; Research Activity
+R26	Experiences Arg1:T32 Arg2:T15	
+T51	Observation 899 922	riesgo significativo de
+#36	AnnotatorNotes T51	C0332167; High risk of; Finding
+R27	Before Arg1:T51 Arg2:T15	
+R28	Experiences Arg1:T32 Arg2:T51	
+R29	Speculation Arg1:T39 Arg2:T15	
+R30	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T42	
+R31	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T44	
+T52	CONC 944 950	C-SSRS
+#37	AnnotatorNotes T52	C3888485; Columbia Suicide Severity Rating Scale; Intellectual Product
+R32	Overlap Arg1:T52 Arg2:T43	
+R34	Experiences Arg1:T34 Arg2:T18	
+R35	Overlap Arg1:T18 Arg2:T33	
+T53	CHEM 1232 1235	IMP
+#38	AnnotatorNotes T53	C0013230; Investigational New Drugs; Pharmacologic Substance (?) ['investigational medicinal product']
+R36	Causes Arg1:T53 Arg2:T18	
+R37	Speculation Arg1:T45 Arg2:T46	
+R38	Before Arg1:T53 Arg2:T46	
+R39	Experiences Arg1:T34 Arg2:T46	
+R11	Experiences Arg1:T32 Arg2:T43	
+#39	AnnotatorNotes T33	C0521116; Current (present time); Temporal Concept
+A5	Assertion T52 Hypothetical
+A6	Assertion T43 Hypothetical
+A7	Assertion T42 Hypothetical
+A8	Assertion T44 Hypothetical
+A9	Experiencer T21 Patient
+A10	Experiencer T22 Patient
+A11	Experiencer T24 Other
+A12	Experiencer T25 Patient
+A13	Experiencer T28 Patient
+A14	Experiencer T29 Patient
+A15	Experiencer T30 Patient
+A16	Experiencer T31 Other
+A17	Experiencer T32 Patient
+A18	Experiencer T34 Patient
+A19	Experiencer T35 Other
+T54	Quantifier_or_Qualifier 1186 1203	moderado o severo
+#40	AnnotatorNotes T54	C1299393; Moderate to severe; Qualitative Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T54	

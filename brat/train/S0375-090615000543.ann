@@ -1,0 +1,241 @@
+T1	PROC 1 19	Evaluación clínica
+#1	AnnotatorNotes T1	C4534461; Clinical assessment; Health Care Activity
+T2	DISO 86 112	dolor torácico no cardiaco
+#2	AnnotatorNotes T2	C0476281; Non-cardiac chest pain; Sign or Symptom
+T3	ANAT 104 112	cardiaco
+#3	AnnotatorNotes T3	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T4	DISO 159 163	DTNC
+#4	AnnotatorNotes T4	C0476281; Non-cardiac chest pain; Sign or Symptom
+T5	DISO 131 157	dolor torácico no cardiaco
+#5	AnnotatorNotes T5	C0476281; Non-cardiac chest pain; Sign or Symptom
+T6	ANAT 149 157	cardiaco
+#6	AnnotatorNotes T6	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T7	DISO 197 221	enfermedades del esófago
+#7	AnnotatorNotes T7	C0014852; Esophageal Diseases; Disease or Syndrome
+T8	PROC 317 353	Evaluar las características clínicas
+T9	ANAT 438 447	esofágico
+#8	AnnotatorNotes T9	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T10	PROC 842 892	Se aplicó el cuestionario de calidad de vida SF-36
+T11	DISO 512 516	DTNC
+#9	AnnotatorNotes T11	C0476281; Non-cardiac chest pain; Sign or Symptom
+T12	ANAT 536 545	esofágico
+#10	AnnotatorNotes T12	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T13	PROC 551 562	tratamiento
+#11	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 1790 1805	calidad de vida
+#12	AnnotatorNotes T14	C0281588; Assessment of quality of life; Diagnostic Procedure
+T15	DISO 588 596	síntomas
+#13	AnnotatorNotes T15	C1457887; Symptoms; Sign or Symptom
+T16	PROC 619 634	endoscopia alta
+#14	AnnotatorNotes T16	C0017195; Endoscopy of stomach; Diagnostic Procedure
+T17	PROC 637 667	monitorización de pH esofágico
+#15	AnnotatorNotes T17	C0430701; Esophageal pH Monitoring; Diagnostic Procedure
+T18	ANAT 658 667	esofágico
+#16	AnnotatorNotes T18	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T19	PROC 695 706	diagnóstico
+#17	AnnotatorNotes T19	C0011900; Diagnosis; Diagnostic Procedure
+T20	PROC 1432 1447	calidad de vida
+#18	AnnotatorNotes T20	C0281588; Assessment of quality of life; Diagnostic Procedure
+T21	DISO 710 748	enfermedad por reflujo gastroesofágico
+#19	AnnotatorNotes T21	C0017168; Gastroesophageal reflux disease; Disease or Syndrome
+T22	DISO 1402 1406	DTNC
+#20	AnnotatorNotes T22	C0476281; Non-cardiac chest pain; Sign or Symptom
+T23	DISO 767 803	trastornos en la motilidad esofágica
+#21	AnnotatorNotes T23	C0014858; Esophageal motility disorders; Disease or Syndrome
+T24	PROC 820 840	manometría esofágica
+#22	AnnotatorNotes T24	C0199873; Esophageal manometry; Diagnostic Procedure
+T25	DISO 1760 1764	DTNC
+#23	AnnotatorNotes T25	C0476281; Non-cardiac chest pain; Sign or Symptom
+T26	DISO 1070 1074	DTNC
+#24	AnnotatorNotes T26	C0476281; Non-cardiac chest pain; Sign or Symptom
+T27	DISO 1083 1121	enfermedad por reflujo gastroesofágico
+#25	AnnotatorNotes T27	C0017168; Gastroesophageal reflux disease; Disease or Syndrome
+T28	DISO 1127 1135	acalasia
+#26	AnnotatorNotes T28	C1321756; Achalasia; Disease or Syndrome
+T29	DISO 1142 1156	dolor torácico
+#27	AnnotatorNotes T29	C0008031; Chest Pain; Sign or Symptom
+T30	DISO 1194 1223	progresión del dolor torácico
+#28	AnnotatorNotes T30	C0856134; Chest pain aggravated; Sign or Symptom
+T31	DISO 1284 1292	síntomas
+#29	AnnotatorNotes T31	C1457887; Symptoms; Sign or Symptom
+T32	DISO 1329 1344	regurgitaciones
+#30	AnnotatorNotes T32	C2004489; Regurgitation; Sign or Symptom
+T33	DISO 1352 1360	disfagia
+#31	AnnotatorNotes T33	C0011168; Deglutition Disorders; Disease or Syndrome
+T34	DISO 1369 1376	pirosis
+#32	AnnotatorNotes T34	C0018834; Heartburn; Sign or Symptom | C0043066; Waterbrash; Sign or Symptom
+T35	DISO 1519 1533	dolor torácico
+#33	AnnotatorNotes T35	C0008031; Chest Pain; Sign or Symptom
+T36	DISO 1598 1619	problemas emocionales
+#34	AnnotatorNotes T36	C0677660; Emotional problems; Mental or Behavioral Dysfunction
+T37	DISO 1855 1863	síntomas
+#35	AnnotatorNotes T37	C1457887; Symptoms; Sign or Symptom
+T38	DISO 1881 1895	dolor torácico
+#36	AnnotatorNotes T38	C0008031; Chest Pain; Sign or Symptom
+T39	PROC 28 68	calidad de vida relacionada con la salud
+T40	ANAT 92 100	torácico
+#37	AnnotatorNotes T40	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T41	ANAT 137 145	torácico
+#38	AnnotatorNotes T41	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T42	ANAT 214 221	esófago
+#39	AnnotatorNotes T42	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T43	PROC 359 396	calidad de vida relacionada con salud
+T44	ANAT 733 748	gastroesofágico
+#40	AnnotatorNotes T44	C0744316; gastroesophageal; Body Location or Region
+T45	ANAT 794 803	esofágica
+#41	AnnotatorNotes T45	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T46	ANAT 831 840	esofágica
+#42	AnnotatorNotes T46	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T47	ANAT 1106 1121	gastroesofágico
+#43	AnnotatorNotes T47	C0744316; gastroesophageal; Body Location or Region
+T48	ANAT 1148 1156	torácico
+#44	AnnotatorNotes T48	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T49	ANAT 1215 1223	torácico
+#45	AnnotatorNotes T49	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T50	ANAT 1525 1533	torácico
+#46	AnnotatorNotes T50	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T51	ANAT 1887 1895	torácico
+#47	AnnotatorNotes T51	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T52	DISO 414 418	DTNC
+#48	AnnotatorNotes T52	C0476281; Non-cardiac chest pain; Sign or Symptom
+T53	LIVB 72 81	pacientes
+#49	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Neg_cue 101 103	no
+T55	Neg_cue 146 148	no
+T56	LIVB 400 409	pacientes
+#50	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 498 507	pacientes
+#51	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Neg_cue 547 550	sin
+T59	Duration 671 675	24 h
+T60	Neg_cue 757 766	descartar
+T61	LIVB 932 945	grupo control
+#52	AnnotatorNotes T61	C0009932; Control Groups; Group
+T62	LIVB 986 995	pacientes
+#53	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 1004 1011	mujeres
+#54	AnnotatorNotes T63	C0043210; Woman; Population Group
+T64	Frequency 1250 1268	≤ 3 eventos/semana
+T65	LIVB 1388 1397	pacientes
+#55	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	LIVB 1465 1478	grupo control
+#56	AnnotatorNotes T66	C0009932; Control Groups; Group
+T68	PHYS 1638 1650	salud mental
+#57	AnnotatorNotes T68	C0025353; mental health; Mental Process
+T70	LIVB 1746 1755	pacientes
+#58	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T77	LIVB 1731 1740	población
+#59	AnnotatorNotes T77	C1257890; Population; Population Group
+T79	Age 1036 1054	46.1 (± 11.6) años
+T73	Duration 1228 1244	24 (2-240) meses
+T67	PHYS 1608 1619	emocionales
+#60	AnnotatorNotes T67	C0013987; Emotions; Mental Process
+A1	Assertion T3 Negated
+A2	Assertion T6 Negated
+A5	Assertion T13 Negated
+A6	Assertion T23 Negated
+A3	Status T13 History_of
+R1	Negation Arg1:T58 Arg2:T13	
+T69	Neg_cue 1652 1655	sin
+T71	CONC 1656 1666	diferencia
+A4	Assertion T71 Negated
+#61	AnnotatorNotes T71	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T69 Arg2:T71	
+R3	Negation Arg1:T55 Arg2:T6	
+R4	Negation Arg1:T54 Arg2:T3	
+T72	Spec_cue 422 430	presunto
+A7	Assertion T9 Speculated
+R5	Speculation Arg1:T72 Arg2:T9	
+R6	Location_of Arg1:T9 Arg2:T52	
+T74	Spec_cue 520 528	presunto
+A8	Assertion T12 Speculated
+R7	Speculation Arg1:T74 Arg2:T12	
+R8	Location_of Arg1:T12 Arg2:T11	
+R9	Experiences Arg1:T53 Arg2:T39	
+R10	Experiences Arg1:T53 Arg2:T1	
+R11	Experiences Arg1:T53 Arg2:T2	
+R12	Location_of Arg1:T40 Arg2:T2	
+R13	Location_of Arg1:T41 Arg2:T5	
+R14	Location_of Arg1:T41 Arg2:T4	
+R15	Overlap Arg1:T5 Arg2:T7	
+R16	Overlap Arg1:T4 Arg2:T7	
+R17	Experiences Arg1:T56 Arg2:T43	
+R18	Experiences Arg1:T56 Arg2:T52	
+R19	Experiences Arg1:T56 Arg2:T8	
+R20	Experiences Arg1:T57 Arg2:T11	
+R21	Experiences Arg1:T57 Arg2:T13	
+R22	Location_of Arg1:T18 Arg2:T17	
+R23	Has_Duration_or_Interval Arg1:T17 Arg2:T59	
+R24	Before Arg1:T17 Arg2:T19	
+R25	Before Arg1:T16 Arg2:T19	
+R26	Location_of Arg1:T44 Arg2:T21	
+R27	Negation Arg1:T60 Arg2:T23	
+R28	Location_of Arg1:T45 Arg2:T23	
+R29	Location_of Arg1:T46 Arg2:T24	
+R30	Experiences Arg1:T61 Arg2:T10	
+R31	Has_Age Arg1:T63 Arg2:T79	
+R32	Has_Age Arg1:T62 Arg2:T79	
+R33	Location_of Arg1:T47 Arg2:T27	
+R34	Causes Arg1:T27 Arg2:T26	
+R35	Causes Arg1:T28 Arg2:T26	
+R36	Location_of Arg1:T48 Arg2:T29	
+R37	Causes Arg1:T29 Arg2:T26	
+T75	Quantifier_or_Qualifier 1157 1166	funcional
+#62	AnnotatorNotes T75	C0205245; Functional; Functional Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T75	
+R39	Has_Duration_or_Interval Arg1:T30 Arg2:T73	
+R40	Location_of Arg1:T49 Arg2:T30	
+R41	Has_Frequency Arg1:T30 Arg2:T64	
+R42	Experiences Arg1:T65 Arg2:T22	
+T76	Observation 1416 1447	deterioro en su calidad de vida
+#63	AnnotatorNotes T76	C4049260; Impaired quality of life; Finding
+R43	Experiences Arg1:T65 Arg2:T76	
+R44	Overlap Arg1:T22 Arg2:T76	
+T78	Quantifier_or_Qualifier 949 954	sanos
+#64	AnnotatorNotes T78	C3898900; Healthy; Qualitative Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T78	
+R46	Experiences Arg1:T65 Arg2:T35	
+R47	Location_of Arg1:T50 Arg2:T35	
+T80	Observation 1569 1596	percepción general de salud
+#65	AnnotatorNotes T80	C1268743; Health perception finding; Finding
+R48	Experiences Arg1:T70 Arg2:T25	
+T81	Observation 1774 1805	deterioro en su calidad de vida
+#66	AnnotatorNotes T81	C4049260; Impaired quality of life; Finding
+R49	Experiences Arg1:T70 Arg2:T81	
+R50	Overlap Arg1:T25 Arg2:T81	
+R51	Causes Arg1:T38 Arg2:T37	
+R52	Causes Arg1:T25 Arg2:T37	
+R53	Location_of Arg1:T51 Arg2:T38	
+R54	Experiences Arg1:T70 Arg2:T37	
+R55	Experiences Arg1:T70 Arg2:T38	
+R56	Experiences Arg1:T70 Arg2:T14	
+R57	Experiences Arg1:T65 Arg2:T20	
+R58	Experiences Arg1:T66 Arg2:T20	
+R59	Experiences Arg1:T77 Arg2:T14	
+T82	Quantifier_or_Qualifier 1667 1692	estadística significativa
+A9	Assertion T82 Negated
+#67	AnnotatorNotes T82	C0237881; Statistical Significance; Quantitative Concept
+R60	Negation Arg1:T69 Arg2:T82	
+R61	Has_Quantifier_or_Qualifier Arg1:T71 Arg2:T82	
+T83	CONC 431 437	origen
+A10	Assertion T83 Speculated
+R62	Speculation Arg1:T72 Arg2:T83	
+R63	Has_Quantifier_or_Qualifier Arg1:T83 Arg2:T9	
+T84	CONC 529 535	origen
+A11	Assertion T84 Speculated
+R64	Speculation Arg1:T74 Arg2:T84	
+R65	Has_Quantifier_or_Qualifier Arg1:T84 Arg2:T12	
+#68	AnnotatorNotes T83	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+#69	AnnotatorNotes T84	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+A12	Experiencer T53 Patient
+A13	Experiencer T56 Patient
+A14	Experiencer T57 Patient
+A15	Experiencer T61 Patient
+A16	Experiencer T62 Patient
+A17	Experiencer T63 Patient
+A18	Experiencer T65 Patient
+A19	Experiencer T66 Patient
+A20	Experiencer T77 Patient
+A21	Experiencer T70 Patient
+R66	Has_Result_or_Value Arg1:T20 Arg2:T76	
+R67	Has_Result_or_Value Arg1:T14 Arg2:T81	

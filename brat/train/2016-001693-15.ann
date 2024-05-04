@@ -1,0 +1,154 @@
+T1	PROC 46 53	Terapia
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 73 104	insuflación del pneumoperitoneo
+T3	PROC 108 140	cirugía laparoscópica colorectal
+T4	PROC 150 166	terapia estándar
+#2	AnnotatorNotes T4	C2936643; Standard of Care; Health Care Activity
+T5	PROC 217 248	insuflación del pneumoperitoneo
+T6	PROC 252 284	cirugía laparoscópica colorectal
+T7	PROC 294 310	terapia estándar
+#3	AnnotatorNotes T7	C2936643; Standard of Care; Health Care Activity
+T8	PROC 335 377	Presión de insuflación del pneumoperitoneo
+T9	PROC 381 420	cirugía colorectal mínimamente invasiva
+T10	PROC 447 489	Presión de insuflación del pneumoperitoneo
+T11	PROC 493 525	cirugía laparoscópica colorectal
+T12	PROC 743 758	Cirugía urgente
+T13	DISO 782 804	trastorno inmunológico
+T14	PROC 675 699	consentimiento informado
+#4	AnnotatorNotes T14	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T15	DISO 806 850	enfermedad renal o hepática o cardiopulmonar
+T16	ANAT 825 833	hepática
+#5	AnnotatorNotes T16	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T17	ANAT 836 850	cardiopulmonar
+#6	AnnotatorNotes T17	C0553534; Cardiopulmonary; Body Location or Region
+T18	PROC 980 994	consentimiento
+#7	AnnotatorNotes T18	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T19	DISO 996 1022	trastornos neuromusculares
+#8	AnnotatorNotes T19	C0027868; Neuromuscular Diseases; Disease or Syndrome
+T20	CHEM 1066 1075	rocuronio
+#9	AnnotatorNotes T20	C0209337; rocuronium; Organic Chemical · Pharmacologic Substance
+T21	CHEM 1076 1086	sugammadex
+#10	AnnotatorNotes T21	C1700695; sugammadex; Organic Chemical · Pharmacologic Substance
+T22	DISO 1088 1095	Alergia
+#11	AnnotatorNotes T22	C1527304; Allergic Reaction; Pathologic Function
+T23	DISO 1098 1115	hipersensibilidad
+#12	AnnotatorNotes T23	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T24	CHEM 1127 1136	Rocuronio
+#13	AnnotatorNotes T24	C0209337; rocuronium; Organic Chemical · Pharmacologic Substance
+T25	CHEM 1137 1147	sugammadex
+#14	AnnotatorNotes T25	C1700695; sugammadex; Organic Chemical · Pharmacologic Substance
+T26	PROC 190 197	Presión
+#15	AnnotatorNotes T26	C0565514; Compression procedure; Therapeutic or Preventive Procedure
+T27	DISO 656 673	déficit cognitivo
+#16	AnnotatorNotes T27	C0338656; Impaired cognition; Mental or Behavioral Dysfunction
+T28	ANAT 817 822	renal
+#17	AnnotatorNotes T28	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T29	ANAT 1007 1022	neuromusculares
+#18	AnnotatorNotes T29	C0597054; neuromuscular system; Body System
+T30	Date 13 17	2016
+T34	LIVB 552 561	Pacientes
+#19	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Age 562 580	mayores de 18 años
+T36	Neg_cue 653 655	no
+T37	PHYS 760 768	embarazo
+#20	AnnotatorNotes T37	C0032961; Pregnancy; Organism Function
+T38	PHYS 771 780	lactancia
+#21	AnnotatorNotes T38	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T40	LIVB 884 892	paciente
+#22	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 921 930	Pacientes
+#23	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Age 931 949	menores de 18 años
+T43	Neg_cue 956 972	incapacidad para
+T44	PHYS 664 673	cognitivo
+#24	AnnotatorNotes T44	C0009240; Cognition; Mental Process
+T32	PROC 641 644	ASA
+#25	AnnotatorNotes T32	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T31	ANAT 130 140	colorectal
+#26	AnnotatorNotes T31	C0391908; colon rectal; Body Part, Organ, or Organ Component
+T33	ANAT 274 284	colorectal
+#27	AnnotatorNotes T33	C0391908; colon rectal; Body Part, Organ, or Organ Component
+T39	ANAT 389 399	colorectal
+#28	AnnotatorNotes T39	C0391908; colon rectal; Body Part, Organ, or Organ Component
+T45	ANAT 515 525	colorectal
+#29	AnnotatorNotes T45	C0391908; colon rectal; Body Part, Organ, or Organ Component
+T46	PROC 582 639	Clasificación de la American Society of Anesthesiologists
+#30	AnnotatorNotes T46	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Assertion T27 Negated
+A2	Assertion T18 Negated
+A3	Assertion T20 Contraindicated
+A4	Assertion T21 Contraindicated
+A5	Status T22 History_of
+A6	Status T23 History_of
+#31	AnnotatorNotes T3	C2608114; Colon and Rectal Surgery (procedure); Therapeutic or Preventive Procedure + C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure 
+#32	AnnotatorNotes T6	C2608114; Colon and Rectal Surgery (procedure); Therapeutic or Preventive Procedure + C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure 
+#33	AnnotatorNotes T11	C2608114; Colon and Rectal Surgery (procedure); Therapeutic or Preventive Procedure + C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure 
+#34	AnnotatorNotes T12	C2188405; urgent surgical procedure; Therapeutic or Preventive Procedure
+#35	AnnotatorNotes T13	C0021053; Immune System Diseases; Disease or Syndrome
+#36	AnnotatorNotes T15	C4072686; Cardiovascular disease and Pulmonary disease; Disease or Syndrome (?) + C0023895; Liver diseases; Disease or Syndrome + C0022658; Kidney Diseases; Disease or Syndrome
+T47	Quantifier_or_Qualifier 54 69	individualizada
+#37	AnnotatorNotes T47	C1881197; Individualized; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T47	
+T48	Quantifier_or_Qualifier 198 213	individualizada
+#38	AnnotatorNotes T48	C1881197; Individualized; Qualitative Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T48	
+R3	Overlap Arg1:T2 Arg2:T3	
+R4	Location_of Arg1:T31 Arg2:T3	
+R5	Location_of Arg1:T33 Arg2:T6	
+R6	Overlap Arg1:T5 Arg2:T6	
+R7	Overlap Arg1:T8 Arg2:T9	
+R8	Overlap Arg1:T10 Arg2:T11	
+R9	Location_of Arg1:T45 Arg2:T11	
+R10	Location_of Arg1:T39 Arg2:T9	
+R11	Has_Age Arg1:T34 Arg2:T35	
+T49	Result_or_Value 645 650	I-III
+R12	Has_Result_or_Value Arg1:T32 Arg2:T49	
+R13	Has_Result_or_Value Arg1:T46 Arg2:T49	
+R14	Negation Arg1:T36 Arg2:T27	
+R15	Experiences Arg1:T34 Arg2:T46	
+R16	Experiences Arg1:T34 Arg2:T32	
+R17	Experiences Arg1:T34 Arg2:T27	
+R18	Experiences Arg1:T34 Arg2:T44	
+R19	Location_of Arg1:T28 Arg2:T15	
+R20	Location_of Arg1:T16 Arg2:T15	
+R21	Location_of Arg1:T17 Arg2:T15	
+T50	Quantifier_or_Qualifier 854 870	estadio avanzado
+R22	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T50	
+T51	Neg_cue 871 879	Negativa
+T52	Observation 895 919	participar en el estudio
+A7	Assertion T52 Negated
+#39	AnnotatorNotes T52	C1278516; Patient participation status; Finding
+R23	Negation Arg1:T51 Arg2:T52	
+R24	Has_Age Arg1:T41 Arg2:T42	
+R25	Negation Arg1:T43 Arg2:T18	
+R26	Location_of Arg1:T29 Arg2:T19	
+R27	Causes Arg1:T25 Arg2:T23	
+R28	Causes Arg1:T25 Arg2:T22	
+R29	Causes Arg1:T24 Arg2:T23	
+R30	Causes Arg1:T24 Arg2:T22	
+R33	Experiences Arg1:T40 Arg2:T15	
+R34	Experiences Arg1:T40 Arg2:T13	
+R35	Experiences Arg1:T40 Arg2:T38	
+R36	Experiences Arg1:T40 Arg2:T37	
+R37	Experiences Arg1:T40 Arg2:T12	
+R38	Experiences Arg1:T40 Arg2:T19	
+R39	Experiences Arg1:T40 Arg2:T20	
+R40	Experiences Arg1:T40 Arg2:T21	
+R41	Experiences Arg1:T40 Arg2:T22	
+R42	Experiences Arg1:T40 Arg2:T23	
+R45	Experiences Arg1:T41 Arg2:T12	
+R46	Experiences Arg1:T41 Arg2:T37	
+R47	Experiences Arg1:T41 Arg2:T38	
+R48	Experiences Arg1:T41 Arg2:T13	
+R49	Experiences Arg1:T41 Arg2:T15	
+R50	Experiences Arg1:T41 Arg2:T19	
+R51	Experiences Arg1:T41 Arg2:T20	
+R52	Experiences Arg1:T41 Arg2:T21	
+R53	Experiences Arg1:T41 Arg2:T22	
+R54	Experiences Arg1:T41 Arg2:T23	
+R43	Has_Age Arg1:T40 Arg2:T42	
+#40	AnnotatorNotes T9	C2608114; Colon and Rectal Surgery (procedure); Therapeutic or Preventive Procedure + C0282624; Minimally Invasive Surgical Procedure; Therapeutic or Preventive Procedure
+#41	AnnotatorNotes T50	C0205179; Advanced phase; Qualitative Concept
+A8	Experiencer T34 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T41 Patient

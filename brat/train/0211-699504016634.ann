@@ -1,0 +1,274 @@
+T1	PROC 36 62	hemodiafiltración en línea
+T2	DISO 74 104	malnutrición proteico-calórica
+#1	AnnotatorNotes T2	C0033677; Protein-Energy Malnutrition; Pathologic Function
+T3	DISO 216 224	anorexia
+#2	AnnotatorNotes T3	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T4	PROC 228 240	hemodiálisis
+#3	AnnotatorNotes T4	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T5	DISO 297 325	inestabilidad cardiovascular
+#4	AnnotatorNotes T5	C0549406; Instability cardiovascular; Finding
+T6	DISO 327 334	vómitos
+#5	AnnotatorNotes T6	C0042963; Vomiting; Sign or Symptom
+T7	DISO 336 342	fatiga
+#6	AnnotatorNotes T7	C0015672; Fatigue; Sign or Symptom
+T8	DISO 344 360	sobrehidratación
+#7	AnnotatorNotes T8	C0392689; Overhydration; Pathologic Function
+T9	DISO 362 371	infección
+#8	AnnotatorNotes T9	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T10	DISO 376 387	inflamación
+#9	AnnotatorNotes T10	C0021368; Inflammation; Pathologic Function
+T11	PROC 466 498	valorar la evolución nutricional
+#10	AnnotatorNotes T11	C0028708; Nutrition Assessment; Diagnostic Procedure
+T12	PROC 515 547	hemodiafiltración (HDF) en línea
+T13	PROC 585 597	HDF en línea
+T14	PROC 642 654	HDF en línea
+T15	PROC 837 847	reinfusión
+#11	AnnotatorNotes T15	C0854643; Reinfusion; Therapeutic or Preventive Procedure
+T16	PROC 869 872	HDF
+#12	AnnotatorNotes T16	C0206075; Hemodiafiltration; Therapeutic or Preventive Procedure
+T17	PROC 980 992	HDF en línea
+T18	PROC 1102 1112	reinfusión
+#13	AnnotatorNotes T18	C0854643; Reinfusion; Therapeutic or Preventive Procedure
+T19	PROC 1122 1158	Se valoró la evolución del peso seco
+#14	AnnotatorNotes T19	C1535983; Dry weight evaluation; Diagnostic Procedure
+T20	PROC 1218 1229	seguimiento
+#15	AnnotatorNotes T20	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T21	PROC 1272 1275	HDF
+#16	AnnotatorNotes T21	C0206075; Hemodiafiltration; Therapeutic or Preventive Procedure
+T22	CHEM 1712 1721	proteínas
+#17	AnnotatorNotes T22	C0033684; Proteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T23	CHEM 1754 1764	colesterol
+#18	AnnotatorNotes T23	C0008377; cholesterol; Organic Chemical · Biologically Active Substance
+T24	PROC 2031 2043	HDF en línea
+T25	PROC 2156 2167	seguimiento
+#19	AnnotatorNotes T25	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T26	PROC 192 200	diálisis
+#20	AnnotatorNotes T26	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T27	PROC 276 284	diálisis
+#21	AnnotatorNotes T27	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T28	ANAT 311 325	cardiovascular
+#22	AnnotatorNotes T28	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T29	PROC 420 428	diálisis
+#23	AnnotatorNotes T29	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T30	PROC 551 558	régimen
+#24	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	PROC 1712 1729	proteínas totales
+#25	AnnotatorNotes T31	C0555903; Total protein measurement; Laboratory Procedure
+T32	PROC 1731 1739	albúmina
+#26	AnnotatorNotes T32	C0201838; Albumin measurement; Laboratory Procedure
+T33	PROC 1741 1752	prealbúmina
+#27	AnnotatorNotes T33	C0337441; Prealbumin measurement; Laboratory Procedure | C1273508; Serum prealbumin level; Laboratory Procedure
+T34	PROC 1754 1770	colesterol total
+#28	AnnotatorNotes T34	C1445957; Serum total cholesterol measurement; Laboratory Procedure
+T35	PROC 1772 1775	HDL
+#29	AnnotatorNotes T35	C0392885; High density lipoprotein measurement; Laboratory Procedure
+T36	PROC 1777 1780	LDL
+#30	AnnotatorNotes T36	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+T37	PROC 1782 1795	triglicéridos
+#31	AnnotatorNotes T37	C0202236; Triglycerides measurement; Laboratory Procedure
+T38	PROC 1798 1810	transferrina
+#32	AnnotatorNotes T38	C0202105; Transferrin measurement; Laboratory Procedure
+T39	ANAT 2137 2145	corporal
+#33	AnnotatorNotes T39	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T40	Frequency 63 69	diaria
+T41	LIVB 179 188	pacientes
+#34	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	Frequency 429 435	diaria
+T45	Frequency 562 582	3 sesiones semanales
+T46	Frequency 598 604	diaria
+T47	LIVB 609 618	pacientes
+#35	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Frequency 658 667	3 ses/sem
+T49	Duration 676 689	36 ± 15 meses
+T50	LIVB 725 734	pacientes
+#36	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 738 745	hombres
+#37	AnnotatorNotes T51	C0025266; Male population group; Population Group
+T52	LIVB 750 757	mujeres
+#38	AnnotatorNotes T52	C0043210; Woman; Population Group
+T53	Duration 766 778	275 ± 25 min
+T54	Duration 780 785	4-5 h
+T61	Frequency 848 855	semanal
+T62	Frequency 873 879	diaria
+T63	Duration 913 924	129 ± 8 min
+T64	Duration 926 933	2-2,5 h
+T65	LIVB 943 952	pacientes
+#39	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	Frequency 996 1005	3 ses/sem
+T67	LIVB 1007 1020	grupo control
+#40	AnnotatorNotes T67	C0009932; Control Groups; Group
+T69	Duration 1039 1051	259 ± 31 min
+T76	Frequency 1113 1120	semanal
+T77	Duration 1208 1214	un año
+T78	LIVB 1248 1257	pacientes
+#41	AnnotatorNotes T78	C0030705; Patients; Patient or Disabled Group
+T79	Frequency 1276 1282	diaria
+T80	Duration 1379 1390	los 3 meses
+T81	Duration 1440 1451	los 9 meses
+T82	Duration 1477 1480	año
+T84	Duration 1640 1662	los 3, 6, 9 y 12 meses
+T86	LIVB 1818 1831	grupo control
+#42	AnnotatorNotes T86	C0009932; Control Groups; Group
+T90	Frequency 2044 2050	diaria
+T91	PHYS 2086 2093	apetito
+#43	AnnotatorNotes T91	C0003618; Desire for food; Organism Function
+T92	Duration 2149 2152	año
+T94	LIVB 2202 2215	grupo control
+#44	AnnotatorNotes T94	C0009932; Control Groups; Group
+T42	Duration 1408 1416	los seis
+T44	PROC 1324 1333	peso seco
+#45	AnnotatorNotes T44	C1535983; Dry weight evaluation; Diagnostic Procedure
+T55	CHEM 1521 1529	proteica
+#46	AnnotatorNotes T55	C0033684; Proteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T56	PHYS 1513 1520	ingesta
+#47	AnnotatorNotes T56	C0232478; Ingestion; Biologic Function
+T57	PROC 1863 1872	peso seco
+#48	AnnotatorNotes T57	C1535983; Dry weight evaluation; Diagnostic Procedure
+T58	PROC 1164 1199	marcadores analíticos nutricionales
+#49	AnnotatorNotes T58	C0696124; nutritional analysis; Laboratory Procedure (?)
+T59	PROC 2132 2145	peso corporal
+#50	AnnotatorNotes T59	C2985231; Body Weight Measurement; Diagnostic Procedure
+T60	PROC 13 31	estado nutricional
+#51	AnnotatorNotes T60	C0028708; Nutrition Assessment; Diagnostic Procedure
+T68	Neg_cue 1832 1834	no
+T70	CONC 1849 1856	cambios
+A1	Assertion T70 Negated
+#52	AnnotatorNotes T70	C0443172; Changed status; Quantitative Concept
+R1	Negation Arg1:T68 Arg2:T70	
+T71	CONC 2188 2195	cambios
+A2	Assertion T71 Negated
+#53	AnnotatorNotes T71	C0443172; Changed status; Quantitative Concept
+T72	Neg_cue 2169 2171	No
+R2	Negation Arg1:T72 Arg2:T71	
+T73	Neg_cue 1680 1682	No
+T74	CONC 1697 1704	cambios
+A3	Assertion T74 Negated
+#54	AnnotatorNotes T74	C0443172; Changed status; Quantitative Concept
+R3	Negation Arg1:T73 Arg2:T74	
+T75	Spec_cue 400 407	podrían
+T83	Observation 408 415	mejorar
+A4	Assertion T83 Speculated
+#55	AnnotatorNotes T83	C0184511; Improved; Finding (?)
+R5	Has_Frequency Arg1:T1 Arg2:T40	
+T85	Observation 1 8	Mejoría
+#56	AnnotatorNotes T85	C0184511; Improved; Finding (?)
+R6	Causes Arg1:T1 Arg2:T85	
+R7	Overlap Arg1:T85 Arg2:T60	
+T87	Observation 155 171	morbi-mortalidad
+R8	Experiences Arg1:T41 Arg2:T87	
+R9	Causes Arg1:T2 Arg2:T87	
+R10	Experiences Arg1:T41 Arg2:T2	
+R12	Experiences Arg1:T41 Arg2:T26	
+R14	Location_of Arg1:T28 Arg2:T5	
+T88	Observation 253 274	restricción dietética
+R15	Causes Arg1:T88 Arg2:T3	
+R17	Causes Arg1:T27 Arg2:T3	
+T89	Quantifier_or_Qualifier 285 295	inadecuada
+#57	AnnotatorNotes T89	C0205412; Inadequate (qualifier); Qualitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T89	
+R19	Causes Arg1:T5 Arg2:T3	
+R26	Causes Arg1:T6 Arg2:T3	
+R27	Causes Arg1:T7 Arg2:T3	
+R28	Causes Arg1:T8 Arg2:T3	
+R29	Causes Arg1:T9 Arg2:T3	
+R30	Causes Arg1:T10 Arg2:T3	
+R31	Speculation Arg1:T75 Arg2:T83	
+R32	Before Arg1:T29 Arg2:T83	
+R33	Has_Frequency Arg1:T29 Arg2:T43	
+R34	Before Arg1:T10 Arg2:T83	
+R35	Before Arg1:T9 Arg2:T83	
+R36	Before Arg1:T3 Arg2:T83	
+R37	Before Arg1:T8 Arg2:T83	
+R38	Before Arg1:T7 Arg2:T83	
+R39	Before Arg1:T6 Arg2:T83	
+R40	Before Arg1:T5 Arg2:T83	
+R41	Before Arg1:T88 Arg2:T83	
+R42	Has_Frequency Arg1:T12 Arg2:T45	
+R43	Before Arg1:T12 Arg2:T13	
+R44	Has_Frequency Arg1:T13 Arg2:T46	
+R45	After Arg1:T11 Arg2:T13	
+R46	Experiences Arg1:T47 Arg2:T14	
+R47	Has_Frequency Arg1:T14 Arg2:T48	
+R48	Has_Duration_or_Interval Arg1:T14 Arg2:T49	
+R49	Has_Frequency Arg1:T15 Arg2:T61	
+R50	Before Arg1:T15 Arg2:T16	
+R51	Has_Frequency Arg1:T16 Arg2:T62	
+R52	Experiences Arg1:T50 Arg2:T15	
+R53	Experiences Arg1:T51 Arg2:T15	
+R54	Experiences Arg1:T52 Arg2:T15	
+R57	Experiences Arg1:T50 Arg2:T16	
+R58	Experiences Arg1:T51 Arg2:T16	
+R59	Experiences Arg1:T52 Arg2:T16	
+R63	Experiences Arg1:T65 Arg2:T17	
+R64	Has_Frequency Arg1:T17 Arg2:T66	
+R65	Experiences Arg1:T67 Arg2:T17	
+R66	Has_Frequency Arg1:T18 Arg2:T76	
+R67	Has_Duration_or_Interval Arg1:T16 Arg2:T63	
+R68	Has_Duration_or_Interval Arg1:T16 Arg2:T64	
+R55	Has_Duration_or_Interval Arg1:T15 Arg2:T53	
+R56	Has_Duration_or_Interval Arg1:T15 Arg2:T54	
+R60	Has_Duration_or_Interval Arg1:T18 Arg2:T69	
+R61	Has_Duration_or_Interval Arg1:T17 Arg2:T69	
+R69	Overlap Arg1:T19 Arg2:T20	
+R71	Has_Duration_or_Interval Arg1:T20 Arg2:T77	
+R72	Experiences Arg1:T78 Arg2:T21	
+R73	Has_Frequency Arg1:T21 Arg2:T79	
+T93	Observation 1298 1333	incremento progresivo del peso seco
+R74	Experiences Arg1:T78 Arg2:T93	
+R76	Causes Arg1:T21 Arg2:T93	
+R77	Experiences Arg1:T78 Arg2:T44	
+T96	Quantifier_or_Qualifier 1350 1360	basalmente
+#58	AnnotatorNotes T96	C1442488; Baseline; Quantitative Concept
+R78	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T96	
+R79	Overlap Arg1:T44 Arg2:T80	
+R80	Overlap Arg1:T93 Arg2:T80	
+R82	Overlap Arg1:T44 Arg2:T42	
+R81	Overlap Arg1:T93 Arg2:T42	
+R83	Overlap Arg1:T44 Arg2:T81	
+R84	Overlap Arg1:T44 Arg2:T82	
+R85	Overlap Arg1:T93 Arg2:T81	
+R86	Overlap Arg1:T93 Arg2:T82	
+T97	Observation 2071 2093	incremento del apetito
+#60	AnnotatorNotes T97	C0232461; Increased appetite; Finding
+R87	Causes Arg1:T24 Arg2:T97	
+R88	Has_Frequency Arg1:T24 Arg2:T90	
+T98	Observation 2102 2113;2132 2145	ganancia de peso corporal
+#61	AnnotatorNotes T98	C0043094; Weight Gain; Finding
+R90	Location_of Arg1:T39 Arg2:T59	
+R91	Location_of Arg1:T39 Arg2:T98	
+R92	Causes Arg1:T24 Arg2:T98	
+R93	Overlap Arg1:T59 Arg2:T92	
+R94	Overlap Arg1:T98 Arg2:T92	
+R95	Has_Duration_or_Interval Arg1:T25 Arg2:T92	
+T99	Observation 1496 1529	incremento de la ingesta proteica
+R100	Overlap Arg1:T99 Arg2:T84	
+R101	Experiences Arg1:T86 Arg2:T57	
+T100	Duration 1905 1908	año
+R102	Overlap Arg1:T57 Arg2:T100	
+T101	Quantifier_or_Qualifier 1883 1888	basal
+#62	AnnotatorNotes T101	C1442488; Baseline; Quantitative Concept
+T102	Duration 1951 1954	año
+T103	Quantifier_or_Qualifier 1928 1933	basal
+#63	AnnotatorNotes T103	C1442488; Baseline; Quantitative Concept
+T104	CONC 1544 1548	PCRn
+#64	AnnotatorNotes T104	[normalized Protein Catabolic Rate]
+T105	CONC 1911 1915	PCRn
+#65	AnnotatorNotes T105	[normalized Protein Catabolic Rate]
+R103	Has_Quantifier_or_Qualifier Arg1:T105 Arg2:T103	
+R104	Overlap Arg1:T105 Arg2:T102	
+T106	Quantifier_or_Qualifier 1570 1575	basal
+R105	Has_Quantifier_or_Qualifier Arg1:T104 Arg2:T106	
+#66	AnnotatorNotes T106	C1442488; Baseline; Quantitative Concept
+R4	Overlap Arg1:T58 Arg2:T20	
+A5	Experiencer T41 Patient
+A6	Experiencer T47 Patient
+A7	Experiencer T50 Patient
+A8	Experiencer T51 Patient
+A9	Experiencer T52 Patient
+A10	Experiencer T65 Patient
+A11	Experiencer T67 Patient
+A12	Experiencer T78 Patient
+A13	Experiencer T86 Patient
+A14	Experiencer T94 Patient
+R11	Has_Result_or_Value Arg1:T59 Arg2:T98	
+R13	Has_Result_or_Value Arg1:T44 Arg2:T93	

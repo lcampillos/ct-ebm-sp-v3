@@ -1,0 +1,122 @@
+T1	DISO 4 15	hipotensión
+#1	AnnotatorNotes T1	C0020649; Hypotension; Finding
+T2	PROC 64 83	medidas preventivas
+#2	AnnotatorNotes T2	C0814446; preventive therapeutic measures; Therapeutic or Preventive Procedure
+T3	DISO 88 108	hipotensión arterial
+#3	AnnotatorNotes T3	C0020649; Hypotension; Finding
+T4	DISO 128 140	complicación
+#4	AnnotatorNotes T4	C0009566; Complication; Pathologic Function
+T5	PROC 176 188	hemodiálisis
+#5	AnnotatorNotes T5	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T6	PROC 236 256	hemodiálisis crónica
+#6	AnnotatorNotes T6	C1740835; Chronic haemodialysis; Therapeutic or Preventive Procedure
+T7	DISO 376 386	fragilidad
+#7	AnnotatorNotes T7	C0424594; Frailty; Finding | C3714552; Weakness; Sign or Symptom
+T8	DISO 545 556	hipotensión
+#8	AnnotatorNotes T8	C0020649; Hypotension; Finding
+T9	PROC 563 582	medidas preventivas
+#9	AnnotatorNotes T9	C0814446; preventive therapeutic measures; Therapeutic or Preventive Procedure
+T10	PROC 634 698	estudio prospectivo, intervencionista, aleatorizado y controlado
+#10	AnnotatorNotes T10	C0184661; Interventional procedure; Therapeutic or Preventive Procedure + C0033522; Prospective Studies; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T11	PROC 714 752	protocolos de intervención preventivos
+T12	PROC 796 811	ultrafiltración
+#11	AnnotatorNotes T12	C0019014; Hemofiltration; Therapeutic or Preventive Procedure | C0041612; Ultrafiltration; Therapeutic or Preventive Procedure
+T13	PROC 879 881	UF
+#12	AnnotatorNotes T13	C0019014; Hemofiltration; Therapeutic or Preventive Procedure | C0041612; Ultrafiltration; Therapeutic or Preventive Procedure
+T14	PROC 813 815	UF
+#13	AnnotatorNotes T14	C0019014; Hemofiltration; Therapeutic or Preventive Procedure | C0041612; Ultrafiltration; Therapeutic or Preventive Procedure
+T15	DISO 922 934	comorbilidad
+#14	AnnotatorNotes T15	C1275743; Co-morbid conditions; Finding
+T16	PROC 1034 1043	protocolo
+#15	AnnotatorNotes T16	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T17	PROC 1115 1125	protocolos
+#16	AnnotatorNotes T17	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T18	DISO 1156 1169	hipotensiones
+#17	AnnotatorNotes T18	C0020649; Hypotension; Finding
+T19	PROC 1218 1249	protocolo con perfiles lineales
+T20	PROC 1487 1499	hemodiálisis
+#18	AnnotatorNotes T20	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T21	ANAT 100 108	arterial
+#19	AnnotatorNotes T21	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T22	DISO 406 426	eventos hipotensivos
+#20	AnnotatorNotes T22	C0520541; Hypotensive episode; Disease or Syndrome
+T23	DISO 756 767	hipotensión
+#21	AnnotatorNotes T23	C0020649; Hypotension; Finding
+T24	DISO 1047 1058	hipotensión
+#22	AnnotatorNotes T24	C0020649; Hypotension; Finding
+T25	LIVB 19 28	pacientes
+#23	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 201 220	pacientes en riesgo
+#24	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group + C0242444; Population at Risk; Population Group
+T28	Duration 249 256	crónica
+#25	AnnotatorNotes T28	C0205191; chronic; Temporal Concept
+T29	Date 339 343	2003
+T30	LIVB 502 510	paciente
+#26	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T32	PROC 833 844	temperatura
+#27	AnnotatorNotes T32	C0886414; Body temperature measurement; Health Care Activity
+T33	LIVB 1000 1009	pacientes
+#28	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Age 1064 1082	mayores de 75 años
+T35	LIVB 1095 1102	mujeres
+#29	AnnotatorNotes T35	C0043210; Woman; Population Group
+T39	LIVB 1507 1516	pacientes
+#30	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+R1	Experiences Arg1:T25 Arg2:T1	
+T27	Observation 29 39	inestables
+#31	AnnotatorNotes T27	C0443343; Unstable status; Finding
+R2	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T27	
+R3	Experiences Arg1:T25 Arg2:T2	
+R4	Location_of Arg1:T21 Arg2:T3	
+R5	Causes Arg1:T5 Arg2:T4	
+R6	Causes Arg1:T5 Arg2:T3	
+R7	Experiences Arg1:T26 Arg2:T6	
+R8	Has_Duration_or_Interval Arg1:T6 Arg2:T28	
+R9	Overlap Arg1:T6 Arg2:T29	
+R10	Experiences Arg1:T26 Arg2:T7	
+R12	Causes Arg1:T6 Arg2:T22	
+R13	Experiences Arg1:T26 Arg2:T22	
+R14	Experiences Arg1:T30 Arg2:T8	
+R15	Experiences Arg1:T30 Arg2:T9	
+R16	Before Arg1:T9 Arg2:T8	
+R17	Before Arg1:T2 Arg2:T1	
+T31	Observation 511 516	lábil
+#32	AnnotatorNotes T31	C0443343; Unstable status; Finding
+R18	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T31	
+R19	Before Arg1:T11 Arg2:T23	
+T36	Observation 1010 1020	inestables
+#33	AnnotatorNotes T36	C0443343; Unstable status; Finding
+R24	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T36	
+R25	Experiences Arg1:T33 Arg2:T24	
+R26	Has_Age Arg1:T33 Arg2:T34	
+R27	Has_Age Arg1:T35 Arg2:T34	
+R28	Experiences Arg1:T35 Arg2:T24	
+R29	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T36	
+T40	CONC 1315 1328	período basal
+#36	AnnotatorNotes T40	C3173566; Baseline time; Temporal Concept
+T42	Observation 1458 1465	confort
+#38	AnnotatorNotes T42	C0517225; Comfort level; Finding
+R34	Overlap Arg1:T42 Arg2:T20	
+R35	Experiences Arg1:T39 Arg2:T20	
+R36	Experiences Arg1:T39 Arg2:T42	
+T43	Observation 1521 1531	inestables
+#39	AnnotatorNotes T43	C0443343; Unstable status; Finding
+R38	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T43	
+T44	Quantifier_or_Qualifier 817 823	máxima
+#40	AnnotatorNotes T44	C0806909; Maximum; Quantitative Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T44	
+R40	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T44	
+T45	Frequency 824 831	horaria
+R41	Has_Frequency Arg1:T14 Arg2:T45	
+R42	Has_Frequency Arg1:T12 Arg2:T45	
+R43	Before Arg1:T17 Arg2:T18	
+R44	Before Arg1:T19 Arg2:T18	
+R30	Overlap Arg1:T1 Arg2:T27	
+R11	Overlap Arg1:T18 Arg2:T40	
+#34	AnnotatorNotes T11	C1514409; Prevention Protocol; Research Activity
+A1	Experiencer T25 Patient
+A2	Experiencer T26 Patient
+A3	Experiencer T30 Patient
+A4	Experiencer T33 Patient
+A5	Experiencer T35 Patient
+A6	Experiencer T39 Patient

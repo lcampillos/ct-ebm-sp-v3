@@ -1,0 +1,286 @@
+T1	PROC 1569 1577	tratadas
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 60 70	prevención
+#2	AnnotatorNotes T2	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T3	DISO 77 86	trombosis
+#3	AnnotatorNotes T3	C0040053; Thrombosis; Pathologic Function
+T4	PROC 111 125	hospitalizados
+#4	AnnotatorNotes T4	C0019993; Hospitalization; Health Care Activity
+T5	PROC 147 210	Estudio controlado y aleatorizado sobre la seguridad y eficacia
+T6	CHEM 222 254	heparinas de bajo peso molecular
+#5	AnnotatorNotes T6	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance
+T7	PROC 1626 1657	Ligadura endoscópica de varices
+T8	PROC 261 271	prevención
+#6	AnnotatorNotes T8	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T9	DISO 275 296	episodios trombóticos
+#7	AnnotatorNotes T9	C2674163; Thrombotic episodes; Finding
+T10	PROC 321 335	hospitalizados
+#8	AnnotatorNotes T10	C0019993; Hospitalization; Health Care Activity
+T11	PROC 358 368	Prevención
+#9	AnnotatorNotes T11	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T12	DISO 375 384	trombosis
+#10	AnnotatorNotes T12	C0040053; Thrombosis; Pathologic Function
+T13	DISO 479 496	Cirrosis hepática
+#11	AnnotatorNotes T13	C0023890; Liver Cirrhosis; Disease or Syndrome
+T14	PROC 520 533	diagnosticada
+#12	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	PROC 538 545	biopsia
+#13	AnnotatorNotes T15	C0005558; Biopsy; Diagnostic Procedure
+T16	DISO 1650 1657	varices
+T17	PROC 592 603	ecográficos
+#14	AnnotatorNotes T17	C0041618; Ultrasonography; Diagnostic Procedure
+T18	PROC 608 628	Ingreso hospitalario
+#15	AnnotatorNotes T18	C0184666; Hospital admission; Health Care Activity
+T19	PROC 793 827	Consentimiento firmado por escrito
+#16	AnnotatorNotes T19	C0811746; Obtain written consent; Health Care Activity
+T20	DISO 651 666	descompensación
+#17	AnnotatorNotes T20	C0231187; Decompensation; Finding
+T21	DISO 673 684	hepatopatía
+#18	AnnotatorNotes T21	C0023895; Liver diseases; Disease or Syndrome
+T22	DISO 686 693	ascitis
+#19	AnnotatorNotes T22	C0003962; Ascites; Disease or Syndrome
+T23	DISO 695 708	encefalopatía
+#20	AnnotatorNotes T23	C0006111; Brain Diseases; Disease or Syndrome | C0085584; Encephalopathies; Disease or Syndrome
+T24	DISO 710 730	hemorragia digestiva
+#21	AnnotatorNotes T24	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T25	PROC 1594 1624	profilaxis primaria/secundaria
+T26	CHEM 1660 1695	betabloqueantes no cardioselectivos
+#22	AnnotatorNotes T26	C0304515; Non-cardioselective beta-blocker; Pharmacologic Substance
+T27	DISO 755 788	peritonitis bacteriana espontánea
+#23	AnnotatorNotes T27	C0275551; Primary bacterial peritonitis; Disease or Syndrome
+T28	PROC 866 887	método anticonceptivo
+#24	AnnotatorNotes T28	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T29	PROC 996 1007	tratamiento
+#25	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	CHEM 1008 1040	heparinas de bajo peso molecular
+#26	AnnotatorNotes T30	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance
+T31	DISO 1045 1055	Hemorragia
+#27	AnnotatorNotes T31	C0019080; Hemorrhage; Pathologic Function
+T32	DISO 1083 1095	comorbilidad
+#28	AnnotatorNotes T32	C1275743; Co-morbid conditions; Finding
+T33	PROC 1175 1199	tratamiento concomitante
+#29	AnnotatorNotes T33	C1707479; Concomitant Therapy; Therapeutic or Preventive Procedure
+T34	CHEM 1204 1218	antiagregantes
+#30	AnnotatorNotes T34	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T35	CHEM 1220 1242	ácido acetilsalicilico
+#31	AnnotatorNotes T35	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T36	CHEM 1244 1255	clopidogrel
+#32	AnnotatorNotes T36	C0070166; clopidogrel; Organic Chemical · Pharmacologic Substance
+T37	CHEM 1257 1268	ticlopidina
+#33	AnnotatorNotes T37	C0040207; ticlopidine; Organic Chemical · Pharmacologic Substance
+T38	CHEM 1270 1281	dipiridamol
+#34	AnnotatorNotes T38	C0012582; dipyridamole; Organic Chemical · Pharmacologic Substance
+T39	CHEM 1283 1297	sulfinpirazona
+#35	AnnotatorNotes T39	C0038742; sulfinpyrazone; Organic Chemical · Pharmacologic Substance
+T40	CHEM 1299 1310	dextrano 40
+T41	CHEM 1320 1335	anticoagulantes
+#36	AnnotatorNotes T41	C0003280; Anticoagulants; Pharmacologic Substance
+T42	PROC 1339 1363	tratamiento concomitante
+T43	CHEM 1380 1412	antiinflamatorios no esteroideos
+#37	AnnotatorNotes T43	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T44	CHEM 1414 1425	salicilatos
+#38	AnnotatorNotes T44	C0036075; salicylate; Organic Chemical · Pharmacologic Substance | C0036077; Salicylates; Organic Chemical · Pharmacologic Substance
+T45	CHEM 1427 1438	corticoides
+#39	AnnotatorNotes T45	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T46	DISO 1457 1475	varices esofágicas
+#40	AnnotatorNotes T46	C0014867; Esophageal Varices; Disease or Syndrome
+T47	DISO 1505 1549	gastropatía severa de la hipertensión portal
+#41	AnnotatorNotes T47	C0580174; Portal hypertensive gastropathy; Disease or Syndrome
+T48	PROC 1754 1778	consentimiento informado
+#42	AnnotatorNotes T48	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T49	DISO 1809 1829	Infección por el VIH
+#43	AnnotatorNotes T49	C0019693; HIV Infections; Disease or Syndrome
+T50	DISO 1835 1848	plaquetopenia
+#44	AnnotatorNotes T50	C0040034; Thrombocytopenia; Disease or Syndrome
+T51	ANAT 1865 1874	plaquetas
+#45	AnnotatorNotes T51	C0005821; Blood Platelets; Cell
+T52	DISO 1883 1902	Insuficiencia renal
+#46	AnnotatorNotes T52	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T53	DISO 1951 1967	Trombosis portal
+T54	ANAT 1961 1967	portal
+#47	AnnotatorNotes T54	C0032718; Portal vein structure; Body Part, Organ, or Organ Component | C1305775; Entire portal vein; Body Part, Organ, or Organ Component
+T55	DISO 1970 1973	TVP
+#48	AnnotatorNotes T55	C0149871; Deep Vein Thrombosis; Disease or Syndrome
+T56	PROC 1974 1988	diagnosticadas
+#49	AnnotatorNotes T56	C0011900; Diagnosis; Diagnostic Procedure
+T57	PROC 1992 1999	ingreso
+#50	AnnotatorNotes T57	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T58	CHEM 2018 2038	factor procoagulante
+T59	DISO 100 110	cirróticos
+#51	AnnotatorNotes T59	C1623038; Cirrhosis; Disease or Syndrome
+T60	DISO 310 320	cirróticos
+#52	AnnotatorNotes T60	C1623038; Cirrhosis; Disease or Syndrome
+T61	DISO 398 408	cirróticos
+#53	AnnotatorNotes T61	C1623038; Cirrhosis; Disease or Syndrome
+T62	ANAT 488 496	hepática
+#54	AnnotatorNotes T62	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T63	ANAT 721 730	digestiva
+#55	AnnotatorNotes T63	C0012240; Gastrointestinal system; Body System
+T64	ANAT 1465 1475	esofágicas
+#56	AnnotatorNotes T64	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T65	ANAT 1543 1549	portal
+#57	AnnotatorNotes T65	C0032718; Portal vein structure; Body Part, Organ, or Organ Component | C1305775; Entire portal vein; Body Part, Organ, or Organ Component
+T66	ANAT 1897 1902	renal
+#58	AnnotatorNotes T66	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T67	PROC 1913 1925	aclaramiento
+T68	Date 12 16	2015
+T69	LIVB 90 99	pacientes
+#59	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	LIVB 300 309	pacientes
+#60	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T71	LIVB 388 397	pacientes
+#61	AnnotatorNotes T71	C0030705; Patients; Patient or Disabled Group
+T72	LIVB 832 854	Mujeres en edad fértil
+#62	AnnotatorNotes T72	C4324275; Woman of childbearing potential; Population Group
+T73	Age 843 854	edad fértil
+T75	Age 958 972	<18 y >80 años
+T77	Duration 1162 1170	<6 meses
+T79	Neg_cue 1550 1553	sin
+T81	Neg_cue 1704 1714	Negativa a
+T82	PHYS 1783 1791	Embarazo
+#63	AnnotatorNotes T82	C0032961; Pregnancy; Organism Function
+T83	PHYS 1794 1803	lactancia
+#64	AnnotatorNotes T83	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T85	LIVB 767 777	bacteriana
+#65	AnnotatorNotes T85	C0004611; Bacteria; Bacterium
+T88	LIVB 1826 1829	VIH
+#66	AnnotatorNotes T88	C0019682; HIV; Virus
+T89	Duration 629 646	superior a 3 días
+A1	Population_data T72 Age
+A2	Assertion T1 Negated
+A3	Assertion T25 Negated
+A4	Assertion T7 Negated
+A5	Assertion T26 Negated
+A6	Assertion T48 Negated
+A7	Status T15 History_of
+A8	Assertion T30 Contraindicated
+A9	Assertion T29 Contraindicated
+A10	Status T1 History_of
+A11	Status T25 History_of
+A12	Status T7 History_of
+A13	Status T26 History_of
+A14	Status T58 History_of
+#67	AnnotatorNotes T5	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0511730; Identify product efficacy and safety issues; Health Care Activity
+#68	AnnotatorNotes T67	C4554548; Clearance procedure; Therapeutic or Preventive Procedure
+#69	AnnotatorNotes T53	C0155773; Portal Vein Thrombosis; Disease or Syndrome 
+T74	Quantifier_or_Qualifier 1679 1695	cardioselectivos
+A15	Assertion T74 Negated
+T76	Neg_cue 1676 1678	no
+T78	Neg_cue 1056 1058	no
+T80	Quantifier_or_Qualifier 1059 1069	controlada
+A16	Assertion T80 Negated
+T84	Neg_cue 1398 1400	no
+T86	Quantifier_or_Qualifier 1401 1412	esteroideos
+A17	Assertion T86 Negated
+R1	Negation Arg1:T79 Arg2:T1	
+R2	Negation Arg1:T79 Arg2:T25	
+R3	Negation Arg1:T79 Arg2:T7	
+R4	Negation Arg1:T79 Arg2:T26	
+R5	Negation Arg1:T76 Arg2:T74	
+R6	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T74	
+T87	Observation 1715 1739	participar en el estudio
+A18	Assertion T87 Negated
+#70	AnnotatorNotes T87	C1278516; Patient participation status; Finding
+R7	Negation Arg1:T81 Arg2:T87	
+R8	Negation Arg1:T81 Arg2:T48	
+R9	Negation Arg1:T84 Arg2:T86	
+R10	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T86	
+R11	Negation Arg1:T78 Arg2:T80	
+R12	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T80	
+R13	Before Arg1:T2 Arg2:T3	
+R14	Experiences Arg1:T69 Arg2:T2	
+R16	Experiences Arg1:T69 Arg2:T59	
+R18	Experiences Arg1:T69 Arg2:T4	
+R15	Before Arg1:T59 Arg2:T3	
+R19	Used_for Arg1:T6 Arg2:T8	
+R20	Before Arg1:T8 Arg2:T9	
+R21	Experiences Arg1:T70 Arg2:T6	
+R22	Experiences Arg1:T70 Arg2:T60	
+R23	Experiences Arg1:T70 Arg2:T10	
+R25	Before Arg1:T60 Arg2:T9	
+R26	Experiences Arg1:T71 Arg2:T61	
+R27	Experiences Arg1:T71 Arg2:T11	
+R28	Before Arg1:T61 Arg2:T12	
+R29	Before Arg1:T11 Arg2:T12	
+R30	Location_of Arg1:T62 Arg2:T13	
+R31	Before Arg1:T15 Arg2:T14	
+R33	Before Arg1:T17 Arg2:T14	
+A19	Status T17 History_of
+R35	Has_Duration_or_Interval Arg1:T18 Arg2:T89	
+R37	Causes Arg1:T21 Arg2:T20	
+R38	Causes Arg1:T22 Arg2:T20	
+R39	Causes Arg1:T23 Arg2:T20	
+R40	Causes Arg1:T24 Arg2:T20	
+R41	Location_of Arg1:T63 Arg2:T24	
+T90	Quantifier_or_Qualifier 731 735	alta
+#71	AnnotatorNotes T90	C1282910; Upper; Spatial Concept
+R42	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T90	
+T91	Quantifier_or_Qualifier 738 742	baja
+#72	AnnotatorNotes T91	C0441994; Lower - spatial qualifier; Spatial Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T91	
+T92	Quantifier_or_Qualifier 743 753	controlada
+R44	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T92	
+R45	Causes Arg1:T85 Arg2:T27	
+R46	Causes Arg1:T27 Arg2:T20	
+R47	Has_Age Arg1:T72 Arg2:T73	
+R48	Experiences Arg1:T72 Arg2:T28	
+T93	Quantifier_or_Qualifier 888 894	eficaz
+#73	AnnotatorNotes T93	C1704419; Effective; Qualitative Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T93	
+R50	Used_for Arg1:T30 Arg2:T29	
+T94	PROC 1113 1135	limitación terapéutica
+T95	CONC 1143 1161	pronóstico de vida
+#74	AnnotatorNotes T95	C0023671; Life Expectancy; Group Attribute
+R52	Has_Duration_or_Interval Arg1:T95 Arg2:T77	
+R53	Used_for Arg1:T34 Arg2:T33	
+R54	Used_for Arg1:T35 Arg2:T33	
+R55	Used_for Arg1:T36 Arg2:T33	
+R56	Used_for Arg1:T37 Arg2:T33	
+R57	Used_for Arg1:T38 Arg2:T33	
+R58	Used_for Arg1:T39 Arg2:T33	
+R59	Used_for Arg1:T40 Arg2:T33	
+R60	Used_for Arg1:T41 Arg2:T33	
+#75	AnnotatorNotes T40	C0011793; dextran 40; Organic Chemical · Pharmacologic Substance
+R61	Used_for Arg1:T43 Arg2:T42	
+R62	Used_for Arg1:T44 Arg2:T42	
+R63	Used_for Arg1:T45 Arg2:T42	
+#76	AnnotatorNotes T42	C1707479; Concomitant Therapy; Therapeutic or Preventive Procedure
+T96	Quantifier_or_Qualifier 1366 1376	continuado
+#77	AnnotatorNotes T96	C0549178; Continuous; Idea or Concept
+R64	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T96	
+R65	Location_of Arg1:T64 Arg2:T46	
+T97	Quantifier_or_Qualifier 1476 1503	clínicamente significativas
+R66	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T97	
+R67	Location_of Arg1:T65 Arg2:T47	
+#78	AnnotatorNotes T16	C0042345; Varicosity; Disease or Syndrome
+R69	Causes Arg1:T88 Arg2:T49	
+T98	Result_or_Value 1856 1877	< 20.000 plaquetas/dl
+R70	Has_Result_or_Value Arg1:T50 Arg2:T98	
+T99	Quantifier_or_Qualifier 1849 1855	severa
+#79	AnnotatorNotes T99	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R71	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T99	
+T100	Quantifier_or_Qualifier 1903 1908	grave
+#80	AnnotatorNotes T100	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R72	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T100	
+R73	Location_of Arg1:T66 Arg2:T52	
+T101	Result_or_Value 1926 1945	inferior a 30ml/min
+R74	Has_Result_or_Value Arg1:T67 Arg2:T101	
+R76	Location_of Arg1:T54 Arg2:T53	
+R77	Overlap Arg1:T53 Arg2:T57	
+R78	Overlap Arg1:T55 Arg2:T57	
+R79	Overlap Arg1:T56 Arg2:T57	
+#81	AnnotatorNotes T58	C0071245; platelet procoagulant factor; Amino Acid, Peptide, or Protein
+R80	Overlap Arg1:T2 Arg2:T4	
+R81	Overlap Arg1:T8 Arg2:T10	
+R82	Overlap Arg1:T6 Arg2:T10	
+#82	AnnotatorNotes T7	C5381811; Endoscopic variceal ligation; Therapeutic or Preventive Procedure
+#83	AnnotatorNotes T25	C0033144; Primary Prevention; Therapeutic or Preventive Procedure | C0679699; Secondary Prevention; Therapeutic or Preventive Procedure
+#84	AnnotatorNotes T94	C0871549; Withholding Treatment; Health Care Activity
+#85	AnnotatorNotes T97	C5209294; Clinical relevance; Intellectual Product
+R83	Experiences Arg1:T69 Arg2:T3	
+R84	Experiences Arg1:T70 Arg2:T9	
+R17	Experiences Arg1:T71 Arg2:T12	
+A20	Experiencer T71 Patient
+A21	Experiencer T70 Patient
+A22	Experiencer T72 Patient
+A23	Experiencer T69 Patient

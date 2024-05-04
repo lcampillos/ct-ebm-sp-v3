@@ -1,0 +1,105 @@
+T1	DISO 92 115	Enfermedad de Parkinson
+#1	AnnotatorNotes T1	C0030567; Parkinson Disease; Disease or Syndrome
+T2	PROC 152 176	tomografía de positrones
+T3	PROC 189 192	PET
+#2	AnnotatorNotes T3	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T4	CHEM 211 230	fármaco diagnóstico
+#3	AnnotatorNotes T4	C0358514; Diagnostic agent; Indicator, Reagent, or Diagnostic Aid
+T5	PROC 219 230	diagnóstico
+#4	AnnotatorNotes T5	C0011900; Diagnosis; Diagnostic Procedure
+T6	DISO 319 329	enfermedad
+#5	AnnotatorNotes T6	C0012634; Disease; Disease or Syndrome
+T7	PROC 352 362	Evaluación
+#6	AnnotatorNotes T7	C1261322; Evaluation procedure; Health Care Activity
+T8	PROC 416 437	estudio observacional
+#7	AnnotatorNotes T8	C1518527; Observational Study; Research Activity
+T9	DISO 515 538	enfermedad de Parkinson
+#8	AnnotatorNotes T9	C0030567; Parkinson Disease; Disease or Syndrome
+T10	PROC 589 598	protocolo
+#9	AnnotatorNotes T10	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T11	DISO 619 653	enfermedad de Parkinson prodrómica
+T12	PROC 748 751	PET
+#10	AnnotatorNotes T12	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T13	CHEM 777 785	trazador
+#11	AnnotatorNotes T13	C0034551; Radioactive Tracers; Element, Ion, or Isotope · Indicator, Reagent, or Diagnostic Aid | C1522485; Tracer; Indicator, Reagent, or Diagnostic Aid
+T14	PROC 790 793	PET
+#12	AnnotatorNotes T14	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T15	CHEM 823 834	excipientes
+#13	AnnotatorNotes T15	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T16	PROC 934 937	PET
+#14	AnnotatorNotes T16	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T17	CHEM 244 255	florbetaben
+#15	AnnotatorNotes T17	C3817505; Florbetaben F 18 Intravenous Solution; Clinical Drug
+T18	CHEM 367 384	[18F] florbetaben
+#16	AnnotatorNotes T18	C3817505; Florbetaben F 18 Intravenous Solution; Clinical Drug
+T19	CHEM 795 812	[18F] florbetaben
+#17	AnnotatorNotes T19	C3817505; Florbetaben F 18 Intravenous Solution; Clinical Drug
+T20	CHEM 942 959	[18F] florbetaben
+#18	AnnotatorNotes T20	C3817505; Florbetaben F 18 Intravenous Solution; Clinical Drug
+T21	PROC 849 885	consentimiento informado por escrito
+#19	AnnotatorNotes T21	C0811741; Obtain informed written consent; Health Care Activity
+T22	Date 13 17	2015
+T23	LIVB 52 73	sujetos participantes
+#20	AnnotatorNotes T23	C0681850; Study Subject; Group + C4554048; Study Participant; Population Group
+T24	LIVB 81 88	cohorte
+#21	AnnotatorNotes T24	C0599755; Cohort; Population Group
+T25	Route 231 242	intravenoso
+#22	AnnotatorNotes T25	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T26	LIVB 388 409	sujetos participantes
+#23	AnnotatorNotes T26	C0681850; Study Subject; Group + C4554048; Study Participant; Population Group
+T27	LIVB 565 572	Sujetos
+#24	AnnotatorNotes T27	C0681850; Study Subject; Group
+T28	LIVB 605 614	pacientes
+#25	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Age 659 677	superior a 60 años
+T30	Neg_cue 835 837	No
+T31	PHYS 960 968	Embarazo
+#26	AnnotatorNotes T31	C0032961; Pregnancy; Organism Function
+T32	PHYS 971 980	lactancia
+#27	AnnotatorNotes T32	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T33	DISO 752 764	Intolerancia
+#28	AnnotatorNotes T33	C0277585; Intolerance to drug; Pathologic Function
+A1	Assertion T21 Negated
+A2	Assertion T12 Contraindicated
+A3	Status T33 History_of
+#29	AnnotatorNotes T2	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+R1	Experiences Arg1:T24 Arg2:T1	
+R2	Experiences Arg1:T23 Arg2:T1	
+R3	Experiences Arg1:T23 Arg2:T2	
+R4	Experiences Arg1:T23 Arg2:T3	
+R5	Experiences Arg1:T24 Arg2:T2	
+R6	Experiences Arg1:T24 Arg2:T3	
+R7	Experiences Arg1:T23 Arg2:T4	
+R8	Experiences Arg1:T23 Arg2:T17	
+R9	Experiences Arg1:T24 Arg2:T4	
+R10	Experiences Arg1:T24 Arg2:T17	
+R11	Has_Route_or_Mode Arg1:T4 Arg2:T25	
+R12	Has_Route_or_Mode Arg1:T17 Arg2:T25	
+R13	Used_for Arg1:T4 Arg2:T2	
+R14	Used_for Arg1:T17 Arg2:T3	
+T34	Observation 302 312	progresión
+#30	AnnotatorNotes T34	C1457868; Worse; Finding (?)
+R15	Overlap Arg1:T2 Arg2:T34	
+R16	Overlap Arg1:T3 Arg2:T34	
+R17	Before Arg1:T1 Arg2:T34	
+R18	Before Arg1:T6 Arg2:T34	
+R19	Experiences Arg1:T26 Arg2:T7	
+R20	Experiences Arg1:T26 Arg2:T18	
+R21	Experiences Arg1:T28 Arg2:T11	
+R22	Causes Arg1:T13 Arg2:T33	
+R23	Causes Arg1:T19 Arg2:T33	
+R24	Causes Arg1:T15 Arg2:T33	
+R25	Used_for Arg1:T13 Arg2:T14	
+R26	Used_for Arg1:T19 Arg2:T14	
+R27	Negation Arg1:T30 Arg2:T21	
+R28	Used_for Arg1:T20 Arg2:T16	
+R29	Before Arg1:T21 Arg2:T16	
+R30	Experiences Arg1:T23 Arg2:T34	
+R31	Experiences Arg1:T23 Arg2:T6	
+R32	Experiences Arg1:T24 Arg2:T6	
+R33	Experiences Arg1:T24 Arg2:T34	
+A4	Experiencer T28 Patient
+A5	Experiencer T27 Patient
+A6	Experiencer T26 Patient
+A7	Experiencer T23 Patient
+A8	Experiencer T24 Patient

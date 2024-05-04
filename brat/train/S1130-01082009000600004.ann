@@ -1,0 +1,367 @@
+T1	PROC 24 31	terapia
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 39 72	inhibidor de la bomba de protones
+#2	AnnotatorNotes T2	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T3	CHEM 74 87	levofloxacino
+#3	AnnotatorNotes T3	C0282386; levofloxacin; Organic Chemical · Antibiotic
+T4	CHEM 90 101	amoxicilina
+#4	AnnotatorNotes T4	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T5	PROC 115 126	tratamiento
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 134 169	erradicación de Helicobacter pylori
+#6	AnnotatorNotes T6	C0559761; Helicobacter eradication therapy; Therapeutic or Preventive Procedure
+T7	PROC 195 202	terapia
+#7	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	CHEM 210 243	inhibidor de la bomba de protones
+#8	AnnotatorNotes T8	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T9	CHEM 245 259	claritromicina
+#9	AnnotatorNotes T9	C0055856; clarithromycin; Organic Chemical · Antibiotic
+T10	CHEM 262 273	amoxicilina
+#10	AnnotatorNotes T10	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T11	CHEM 275 281	IBP-CA
+#11	AnnotatorNotes T11	C0358591; Proton Pump Inhibitors; Pharmacologic Substance + C0055856; clarithromycin; Organic Chemical · Antibiotic + C0002645; amoxicillin; Organic Chemical · Antibiotic
+T12	PROC 289 320	tratamiento de primera elección
+#12	AnnotatorNotes T12	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T13	PROC 341 366	erradicación de H. pylori
+#13	AnnotatorNotes T13	C0559761; Helicobacter eradication therapy; Therapeutic or Preventive Procedure
+T14	PROC 388 399	tratamiento
+#14	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 504 549	valorar la eficacia, cumplimiento y seguridad
+#15	AnnotatorNotes T15	C1161275; Compliance care assessment; Health Care Activity + C0511730; Identify product efficacy and safety issues; Health Care Activity
+T16	CHEM 584 595	amoxicilina
+#16	AnnotatorNotes T16	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T17	CHEM 598 611	levofloxacino
+#17	AnnotatorNotes T17	C0282386; levofloxacin; Organic Chemical · Antibiotic
+T18	CHEM 631 645	claritromicina
+#18	AnnotatorNotes T18	C0055856; clarithromycin; Organic Chemical · Antibiotic
+T19	PROC 653 678	erradicación de H. pylori
+#19	AnnotatorNotes T19	C0559761; Helicobacter eradication therapy; Therapeutic or Preventive Procedure
+T20	DISO 789 809	síntomas dispépticos
+#20	AnnotatorNotes T20	C0851976; Dyspeptic signs and symptoms; Sign or Symptom
+T21	DISO 812 835	infección por H. pylori
+#21	AnnotatorNotes T21	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T22	PROC 868 892	test rápido de la ureasa
+#22	AnnotatorNotes T22	C0585237; CLO test for helicobacter pylori; Laboratory Procedure (?)
+T23	CHEM 886 892	ureasa
+#23	AnnotatorNotes T23	C0041945; Urease; Amino Acid, Peptide, or Protein · Enzyme
+T24	PROC 907 938	prueba del aliento con urea-C13
+#24	AnnotatorNotes T24	C1318610; 13C urea breath test; Laboratory Procedure
+T25	PROC 940 952	Diagnósticos
+#25	AnnotatorNotes T25	C0011900; Diagnosis; Diagnostic Procedure
+T26	DISO 954 963	dispepsia
+#26	AnnotatorNotes T26	C0013395; Dyspepsia; Sign or Symptom
+T27	DISO 987 1006	dispepsia funcional
+#27	AnnotatorNotes T27	C0267167; Nonulcer dyspepsia; Finding
+T28	DISO 1016 1034	dispepsia ulcerosa
+T29	PROC 1053 1064	tratamiento
+#28	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	CHEM 1072 1105	inhibidor de la bomba de protones
+#29	AnnotatorNotes T30	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T31	CHEM 1125 1136	amoxicilina
+#30	AnnotatorNotes T31	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T32	CHEM 1143 1156	levofloxacino
+#31	AnnotatorNotes T32	C0282386; levofloxacin; Organic Chemical · Antibiotic
+T33	CHEM 1165 1171	IBP-LA
+#32	AnnotatorNotes T33	C0358591; Proton Pump Inhibitors; Pharmacologic Substance + C0282386; levofloxacin; Organic Chemical · Antibiotic + C0002645; amoxicillin; Organic Chemical · Antibiotic
+T34	PROC 1243 1268	Se valora el cumplimiento
+#33	AnnotatorNotes T34	C1161275; Compliance care assessment; Health Care Activity
+T35	PROC 1282 1289	terapia
+#34	AnnotatorNotes T35	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T36	DISO 1296 1312	efectos adversos
+#35	AnnotatorNotes T36	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T37	PROC 1322 1336	interrogatorio
+#36	AnnotatorNotes T37	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T38	PROC 1381 1412	prueba del aliento con urea-C13
+#37	AnnotatorNotes T38	C1318610; 13C urea breath test; Laboratory Procedure
+T39	PROC 1458 1469	tratamiento
+#38	AnnotatorNotes T39	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T40	PROC 1499 1508	protocolo
+#39	AnnotatorNotes T40	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T41	CHEM 1530 1536	IBP-LA
+#40	AnnotatorNotes T41	C0358591; Proton Pump Inhibitors; Pharmacologic Substance + C0282386; levofloxacin; Organic Chemical · Antibiotic + C0002645; amoxicillin; Organic Chemical · Antibiotic
+T42	CHEM 1604 1610	IBP-CA
+#41	AnnotatorNotes T42	C0358591; Proton Pump Inhibitors; Pharmacologic Substance + C0055856; clarithromycin; Organic Chemical · Antibiotic + C0002645; amoxicillin; Organic Chemical · Antibiotic
+T43	PROC 1724 1735	tratamiento
+#42	AnnotatorNotes T43	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T44	PROC 1741 1750	protocolo
+#43	AnnotatorNotes T44	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T45	PROC 1755 1766	seguimiento
+#44	AnnotatorNotes T45	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T46	PROC 1833 1842	protocolo
+#45	AnnotatorNotes T46	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T47	DISO 1903 1919	efectos adversos
+#46	AnnotatorNotes T47	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T48	PROC 2053 2062	protocolo
+#47	AnnotatorNotes T48	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T49	PROC 1797 1803	tratar
+#48	AnnotatorNotes T49	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T50	PROC 2137 2144	terapia
+#49	AnnotatorNotes T50	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T51	CHEM 2157 2168	amoxicilina
+#50	AnnotatorNotes T51	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T52	CHEM 2171 2184	levofloxacino
+#51	AnnotatorNotes T52	C0282386; levofloxacin; Organic Chemical · Antibiotic
+T53	PROC 2207 2218	tratamiento
+#52	AnnotatorNotes T53	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T54	PROC 2339 2346	terapia
+#53	AnnotatorNotes T54	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T55	CHEM 2362 2365	IBP
+#54	AnnotatorNotes T55	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T56	CHEM 2367 2381	claritromicina
+#55	AnnotatorNotes T56	C0055856; clarithromycin; Organic Chemical · Antibiotic
+T57	CHEM 2384 2395	amoxicilina
+#56	AnnotatorNotes T57	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T58	PROC 2410 2441	tratamiento de primera elección
+#57	AnnotatorNotes T58	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T59	PROC 2489 2514	erradicación de H. pylori
+#58	AnnotatorNotes T59	C0559761; Helicobacter eradication therapy; Therapeutic or Preventive Procedure
+T60	CHEM 579 582	IBP
+#59	AnnotatorNotes T60	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T61	PROC 894 904	histología
+#60	AnnotatorNotes T61	C0344441; Histology Procedure; Laboratory Procedure
+T62	CHEM 930 938	urea-C13
+#61	AnnotatorNotes T62	C0732290; urea c-13; Indicator, Reagent, or Diagnostic Aid · Organic Chemical
+T63	PROC 1471 1493	Se compara la eficacia
+#62	AnnotatorNotes T63	C1707887; Efficacy Study; Research Activity
+T64	CHEM 1404 1412	urea-C13
+#63	AnnotatorNotes T64	C0732290; urea c-13; Indicator, Reagent, or Diagnostic Aid · Organic Chemical
+T65	PROC 1514 1525	tratamiento
+#64	AnnotatorNotes T65	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T66	PROC 1591 1599	tratados
+#65	AnnotatorNotes T66	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T67	PROC 2010 2021	tratamiento
+#66	AnnotatorNotes T67	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T68	CHEM 2026 2032	IBP-CA
+#67	AnnotatorNotes T68	C0358591; Proton Pump Inhibitors; Pharmacologic Substance + C0055856; clarithromycin; Organic Chemical · Antibiotic + C0002645; amoxicillin; Organic Chemical · Antibiotic
+T69	CHEM 2152 2155	IBP
+#68	AnnotatorNotes T69	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T70	LIVB 150 169	Helicobacter pylori
+#69	AnnotatorNotes T70	C0079488; Helicobacter pylori; Bacterium
+T71	LIVB 357 366	H. pylori
+#70	AnnotatorNotes T71	C0079488; Helicobacter pylori; Bacterium
+T72	Duration 421 437	los últimos años
+T74	LIVB 669 678	H. pylori
+#71	AnnotatorNotes T74	C0079488; Helicobacter pylori; Bacterium
+T75	Date 710 714	2007
+T76	Date 715 719	2008
+T77	LIVB 737 746	pacientes
+#72	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	LIVB 752 759	mujeres
+#73	AnnotatorNotes T78	C0043210; Woman; Population Group
+T79	Age 776 783	53 años
+T81	Dose 1137 1140	1 g
+T82	Dose 1157 1163	500 mg
+T83	Time 1209 1217	desayuno
+#74	AnnotatorNotes T83	C4553621; With breakfast; Temporal Concept
+T84	Time 1220 1224	cena
+#75	AnnotatorNotes T84	C0585040; Evening meal; Temporal Concept
+T85	Duration 1234 1241	10 días
+T86	Duration 1430 1441	6-8 semanas
+T88	LIVB 1560 1573	grupo control
+#76	AnnotatorNotes T88	C0009932; Control Groups; Group
+T89	LIVB 1581 1590	pacientes
+#77	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T90	Duration 1619 1626	10 días
+T91	Date 1639 1643	2006
+T92	Date 1644 1648	2007
+T93	LIVB 1671 1680	pacientes
+#78	AnnotatorNotes T93	C0030705; Patients; Patient or Disabled Group
+T94	LIVB 1873 1882	pacientes
+#79	AnnotatorNotes T94	C0030705; Patients; Patient or Disabled Group
+T95	Neg_cue 1936 1943	excepto
+T96	LIVB 1949 1958	pacientes
+#80	AnnotatorNotes T96	C0030705; Patients; Patient or Disabled Group
+T97	LIVB 2083 2092	pacientes
+#81	AnnotatorNotes T97	C0030705; Patients; Patient or Disabled Group
+T98	LIVB 2097 2110	grupo control
+#82	AnnotatorNotes T98	C0009932; Control Groups; Group
+T99	Duration 2193 2200	10 días
+T101	Neg_cue 2397 2399	no
+T103	LIVB 2505 2514	H. pylori
+#83	AnnotatorNotes T103	C0079488; Helicobacter pylori; Bacterium
+T106	LIVB 826 835	H. pylori
+#84	AnnotatorNotes T106	C0079488; Helicobacter pylori; Bacterium
+T104	PROC 564 571	terapia
+#85	AnnotatorNotes T104	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T80	LIVB 1692 1708	grupo de estudio
+#86	AnnotatorNotes T80	C2348561; Study Population (group); Population Group
+T73	PROC 1994 2005	tratamiento
+#87	AnnotatorNotes T73	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+A1	Assertion T96 Negated
+A2	Assertion T58 Negated
+R1	Negation Arg1:T101 Arg2:T58	
+T87	Neg_cue 964 966	no
+T100	Quantifier_or_Qualifier 967 978	investigada
+A3	Assertion T100 Negated
+#88	AnnotatorNotes T100	C1292732; Investigated; Functional Concept (?)
+R2	Negation Arg1:T87 Arg2:T100	
+R3	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T100	
+T102	Quantifier_or_Qualifier 17 23	triple
+T105	Quantifier_or_Qualifier 188 194	triple
+T107	Quantifier_or_Qualifier 557 563	triple
+T108	Quantifier_or_Qualifier 2332 2338	triple
+R4	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T102	
+R5	Used_for Arg1:T2 Arg2:T1	
+R6	Combined_with Arg1:T2 Arg2:T3	
+R7	Combined_with Arg1:T3 Arg2:T4	
+R8	Used_for Arg1:T2 Arg2:T5	
+T109	Quantifier_or_Qualifier 108 114	primer
+R9	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T109	
+R10	Before Arg1:T1 Arg2:T6	
+R11	Before Arg1:T5 Arg2:T6	
+R12	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T105	
+R13	Used_for Arg1:T8 Arg2:T7	
+R14	Combined_with Arg1:T8 Arg2:T9	
+R15	Combined_with Arg1:T9 Arg2:T10	
+R16	Used_for Arg1:T11 Arg2:T7	
+R17	Used_for Arg1:T8 Arg2:T12	
+R18	Used_for Arg1:T11 Arg2:T12	
+R19	Before Arg1:T7 Arg2:T13	
+R20	Before Arg1:T12 Arg2:T13	
+T110	CONC 371 379	eficacia
+#89	AnnotatorNotes T110	C1280519; Effectiveness; Qualitative Concept
+T111	Quantifier_or_Qualifier 405 417	disminuyendo
+#90	AnnotatorNotes T111	 C0547047; Decrease; Quantitative Concept 
+R21	Has_Quantifier_or_Qualifier Arg1:T110 Arg2:T111	
+R22	Overlap Arg1:T111 Arg2:T72	
+R23	Overlap Arg1:T14 Arg2:T72	
+R24	Has_Quantifier_or_Qualifier Arg1:T104 Arg2:T107	
+R25	Used_for Arg1:T60 Arg2:T104	
+R26	Combined_with Arg1:T60 Arg2:T16	
+R27	Combined_with Arg1:T16 Arg2:T17	
+R28	Before Arg1:T104 Arg2:T19	
+R29	Used_for Arg1:T18 Arg2:T104	
+R30	Has_Age Arg1:T78 Arg2:T79	
+R31	Has_Age Arg1:T77 Arg2:T79	
+T112	PROC 701 708	estudio
+#91	AnnotatorNotes T112	C0681814; research study; Research Activity
+R32	After Arg1:T112 Arg2:T75	
+R33	Before Arg1:T112 Arg2:T76	
+R34	Experiences Arg1:T77 Arg2:T20	
+R35	Experiences Arg1:T77 Arg2:T21	
+R36	Causes Arg1:T106 Arg2:T21	
+R37	Experiences Arg1:T77 Arg2:T22	
+R38	Experiences Arg1:T77 Arg2:T61	
+R39	Experiences Arg1:T77 Arg2:T24	
+R40	Experiences Arg1:T78 Arg2:T20	
+R41	Experiences Arg1:T78 Arg2:T21	
+R42	Experiences Arg1:T78 Arg2:T22	
+R43	Experiences Arg1:T78 Arg2:T61	
+R44	Experiences Arg1:T78 Arg2:T24	
+R45	Causes Arg1:T21 Arg2:T20	
+T113	Result_or_Value 852 863	positividad
+#92	AnnotatorNotes T113	C1446409; Positive; Finding
+R46	Has_Result_or_Value Arg1:T22 Arg2:T113	
+R47	Has_Result_or_Value Arg1:T61 Arg2:T113	
+R48	Has_Result_or_Value Arg1:T24 Arg2:T113	
+R51	Used_for Arg1:T30 Arg2:T29	
+R52	Has_Dose_or_Strength Arg1:T31 Arg2:T81	
+R53	Has_Dose_or_Strength Arg1:T32 Arg2:T82	
+R54	Combined_with Arg1:T31 Arg2:T32	
+R56	Used_for Arg1:T33 Arg2:T29	
+R57	Overlap Arg1:T30 Arg2:T83	
+R58	Combined_with Arg1:T30 Arg2:T31	
+T114	CONC 1109 1114	dosis
+#93	AnnotatorNotes T114	C0178602; Dosage; Quantitative Concept
+T115	Quantifier_or_Qualifier 1115 1123	habitual
+R55	Has_Quantifier_or_Qualifier Arg1:T114 Arg2:T115	
+R59	Overlap Arg1:T30 Arg2:T84	
+R60	Has_Duration_or_Interval Arg1:T30 Arg2:T85	
+R61	Overlap Arg1:T31 Arg2:T83	
+R62	Overlap Arg1:T31 Arg2:T84	
+R63	Has_Duration_or_Interval Arg1:T31 Arg2:T85	
+R64	Overlap Arg1:T32 Arg2:T83	
+R65	Overlap Arg1:T32 Arg2:T84	
+R66	Has_Duration_or_Interval Arg1:T32 Arg2:T85	
+R67	Overlap Arg1:T33 Arg2:T83	
+R68	Overlap Arg1:T33 Arg2:T84	
+R69	Has_Duration_or_Interval Arg1:T33 Arg2:T85	
+R70	Before Arg1:T35 Arg2:T34	
+T116	Quantifier_or_Qualifier 1275 1281	triple
+R71	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T116	
+R72	Causes Arg1:T35 Arg2:T36	
+R73	Before Arg1:T35 Arg2:T37	
+T117	CONC 1342 1350	eficacia
+#94	AnnotatorNotes T117	C1280519; Effectiveness; Qualitative Concept
+T118	Result_or_Value 1363 1374	negatividad
+#95	AnnotatorNotes T118	C0205160; Negative; Finding
+R74	Has_Result_or_Value Arg1:T38 Arg2:T118	
+R75	Overlap Arg1:T38 Arg2:T86	
+R76	After Arg1:T38 Arg2:T39	
+R77	Before Arg1:T35 Arg2:T38	
+R78	Used_for Arg1:T41 Arg2:T65	
+R79	Experiences Arg1:T89 Arg2:T66	
+R80	Experiences Arg1:T88 Arg2:T66	
+R81	Used_for Arg1:T42 Arg2:T66	
+R82	Has_Duration_or_Interval Arg1:T42 Arg2:T90	
+R83	After Arg1:T42 Arg2:T91	
+R84	Before Arg1:T42 Arg2:T92	
+R85	After Arg1:T41 Arg2:T91	
+R86	Before Arg1:T41 Arg2:T92	
+R87	Has_Duration_or_Interval Arg1:T41 Arg2:T90	
+R88	Experiences Arg1:T80 Arg2:T43	
+R92	Experiences Arg1:T93 Arg2:T43	
+T119	CONC 1771 1779	eficacia
+T120	CONC 1784 1803	intención de tratar
+#96	AnnotatorNotes T120	C1292734; Treatment intent; Functional Concept
+#97	AnnotatorNotes T119	C1280519; Effectiveness; Qualitative Concept
+R93	Experiences Arg1:T94 Arg2:T47	
+T121	Observation 1920 1934	bien tolerados
+R94	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T121	
+R95	Experiences Arg1:T94 Arg2:T121	
+R96	Negation Arg1:T95 Arg2:T96	
+R97	Experiences Arg1:T96 Arg2:T47	
+T122	Observation 1981 2005	abandono del tratamiento
+R98	Experiences Arg1:T96 Arg2:T122	
+R99	Causes Arg1:T47 Arg2:T122	
+R100	Used_for Arg1:T68 Arg2:T67	
+R102	Experiences Arg1:T97 Arg2:T67	
+R103	Experiences Arg1:T98 Arg2:T67	
+T123	Quantifier_or_Qualifier 2041 2047	eficaz
+#98	AnnotatorNotes T123	C1704419; Effective; Qualitative Concept
+R104	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T123	
+T124	Quantifier_or_Qualifier 2130 2136	triple
+R105	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T124	
+R106	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T108	
+R107	Used_for Arg1:T69 Arg2:T50	
+R108	Combined_with Arg1:T69 Arg2:T51	
+R109	Combined_with Arg1:T51 Arg2:T52	
+R110	Has_Duration_or_Interval Arg1:T69 Arg2:T99	
+R111	Has_Duration_or_Interval Arg1:T51 Arg2:T99	
+R112	Has_Duration_or_Interval Arg1:T52 Arg2:T99	
+R113	Used_for Arg1:T69 Arg2:T53	
+T125	Observation 2219 2232	bien tolerado
+R114	Overlap Arg1:T53 Arg2:T125	
+R115	Used_for Arg1:T55 Arg2:T54	
+R116	Combined_with Arg1:T55 Arg2:T56	
+R117	Combined_with Arg1:T56 Arg2:T57	
+R118	Before Arg1:T58 Arg2:T59	
+R119	Before Arg1:T54 Arg2:T59	
+R120	Before Arg1:T50 Arg2:T59	
+T126	CONC 2276 2284	eficacia
+#99	AnnotatorNotes T126	C1280519; Effectiveness; Qualitative Concept
+T127	Quantifier_or_Qualifier 2271 2275	baja
+R121	Has_Quantifier_or_Qualifier Arg1:T126 Arg2:T127	
+#100	AnnotatorNotes T121	C5684674; patient tolerated procedure well; Finding (?)
+#101	AnnotatorNotes T125	C5684674; patient tolerated procedure well; Finding
+#102	AnnotatorNotes T122	C1701941; Treatment withdrawal; Finding
+#103	AnnotatorNotes T109	C0205435; First (number); Quantitative Concept
+#104	AnnotatorNotes T115	C3538928; Usual; Qualitative Concept
+R49	Causes Arg1:T73 Arg2:T47	
+#105	AnnotatorNotes T127	C0205251; low; Qualitative Concept 
+#106	AnnotatorNotes T102	C0205174; Triplicate; Quantitative Concept
+#107	AnnotatorNotes T105	C0205174; Triplicate; Quantitative Concept
+#108	AnnotatorNotes T107	C0205174; Triplicate; Quantitative Concept
+#109	AnnotatorNotes T116	C0205174; Triplicate; Quantitative Concept
+#110	AnnotatorNotes T124	C0205174; Triplicate; Quantitative Concept
+#111	AnnotatorNotes T108	C0205174; Triplicate; Quantitative Concept
+A4	Experiencer T77 Patient
+A5	Experiencer T78 Patient
+A6	Experiencer T88 Patient
+A7	Experiencer T89 Patient
+A8	Experiencer T93 Patient
+A9	Experiencer T80 Patient
+A10	Experiencer T94 Patient
+A11	Experiencer T96 Patient
+A12	Experiencer T97 Patient
+A13	Experiencer T98 Patient

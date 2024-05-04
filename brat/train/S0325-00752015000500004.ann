@@ -1,0 +1,186 @@
+T1	PROC 64 75	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 89 97	neumonía
+#2	AnnotatorNotes T2	C0032285; Pneumonia; Disease or Syndrome
+T3	PROC 98 124	vacunados contra neumococo
+#3	AnnotatorNotes T3	C0358314; Pneumococcal vaccine; Immunologic Factor · Pharmacologic Substance
+T4	PROC 290 298	tratadas
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 203 212	neumonías
+#5	AnnotatorNotes T5	C0032285; Pneumonia; Disease or Syndrome
+T6	DISO 431 439	neumonía
+#6	AnnotatorNotes T6	C0032285; Pneumonia; Disease or Syndrome
+T7	PROC 518 543	vacunada contra neumococo
+#7	AnnotatorNotes T7	C0358314; Pneumococcal vaccine; Immunologic Factor · Pharmacologic Substance
+T8	DISO 675 709	neumonía adquirida en la comunidad
+#8	AnnotatorNotes T8	C0694549; Community acquired pneumonia; Disease or Syndrome
+T9	PROC 726 753	vacunación antineumocóccica
+#9	AnnotatorNotes T9	C0358314; Pneumococcal vaccine; Immunologic Factor · Pharmacologic Substance
+T10	PROC 931 957	asistidos ambulatoriamente
+#10	AnnotatorNotes T10	C1561560; ambulatory encounter; Health Care Activity
+T11	DISO 962 970	neumonía
+#11	AnnotatorNotes T11	C0032285; Pneumonia; Disease or Syndrome
+T12	DISO 1786 1794	neumonía
+#12	AnnotatorNotes T12	C0032285; Pneumonia; Disease or Syndrome
+T13	PROC 1795 1821	vacunados contra neumococo
+#13	AnnotatorNotes T13	C0358314; Pneumococcal vaccine; Immunologic Factor · Pharmacologic Substance
+T14	PROC 129 154	ensayo clínico controlado
+#14	AnnotatorNotes T14	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T15	CHEM 303 315	antibióticos
+#15	AnnotatorNotes T15	C0003232; Antibiotics; Antibiotic
+T16	CHEM 450 462	antibióticos
+#16	AnnotatorNotes T16	C0003232; Antibiotics; Antibiotic
+T17	CHEM 616 628	antibióticos
+#17	AnnotatorNotes T17	C0003232; Antibiotics; Antibiotic
+T18	PROC 775 864	Ensayo clínico controlado, aleatorizado, de grupos paralelos, con enmascaramiento parcial
+T19	CHEM 994 1027	vacuna antineumocóccica conjugada
+T20	CHEM 1050 1062	antibióticos
+#18	AnnotatorNotes T20	C0003232; Antibiotics; Antibiotic
+T21	CHEM 1108 1120	antibióticos
+#19	AnnotatorNotes T21	C0003232; Antibiotics; Antibiotic
+T22	CHEM 1266 1278	antibióticos
+#20	AnnotatorNotes T22	C0003232; Antibiotics; Antibiotic
+T23	CHEM 1452 1464	antibióticos
+#21	AnnotatorNotes T23	C0003232; Antibiotics; Antibiotic
+T24	CHEM 1733 1745	antibióticos
+#22	AnnotatorNotes T24	C0003232; Antibiotics; Antibiotic
+T26	LIVB 79 84	niños
+#23	AnnotatorNotes T26	C0008059; Child; Age Group
+T27	LIVB 115 124	neumococo
+#24	AnnotatorNotes T27	C0038410; Streptococcus pneumoniae; Bacterium
+T28	Age 216 233	menores de 5 años
+T29	LIVB 238 245	virales
+#25	AnnotatorNotes T29	C0042776; Virus; Virus
+T30	Frequency 262 268	diaria
+T32	LIVB 421 426	niños
+#26	AnnotatorNotes T32	C0008059; Child; Age Group
+T34	LIVB 534 543	neumococo
+#27	AnnotatorNotes T34	C0038410; Streptococcus pneumoniae; Bacterium
+T35	LIVB 665 670	niños
+#28	AnnotatorNotes T35	C0008059; Child; Age Group
+T36	LIVB 903 908	niños
+#29	AnnotatorNotes T36	C0008059; Child; Age Group
+T37	Age 912 922	3-60 meses
+T38	LIVB 1086 1099	grupo control
+#30	AnnotatorNotes T38	C0009932; Control Groups; Group
+T39	LIVB 1210 1219	pacientes
+#31	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 1349 1358	pacientes
+#32	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1390 1403	grupo control
+#33	AnnotatorNotes T41	C0009932; Control Groups; Group
+T42	Age 1427 1437	17,5 meses
+T43	LIVB 1500 1513	grupo control
+#34	AnnotatorNotes T43	C0009932; Control Groups; Group
+T44	LIVB 1627 1636	pacientes
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 1662 1675	grupo control
+#36	AnnotatorNotes T45	C0009932; Control Groups; Group
+T46	LIVB 1772 1781	pacientes
+#37	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1812 1821	neumococo
+#38	AnnotatorNotes T47	C0038410; Streptococcus pneumoniae; Bacterium
+T51	LIVB 508 517	población
+#39	AnnotatorNotes T51	C1257890; Population; Population Group
+T52	LIVB 700 709	comunidad
+#40	AnnotatorNotes T52	C0009462; Community; Group
+T25	LIVB 1140 1155	médico tratante
+#41	AnnotatorNotes T25	C1710470; Treating Physician; Professional or Occupational Group
+A1	Population_data T26 Age
+A2	Population_data T32 Age
+A3	Population_data T35 Age
+A4	Population_data T36 Age
+T31	CONC 29 46	regla de decisión
+#42	AnnotatorNotes T31	C4688478; Decision Rule; Intellectual Product
+R1	Used_for Arg1:T31 Arg2:T1	
+R2	Experiences Arg1:T26 Arg2:T1	
+R3	Experiences Arg1:T26 Arg2:T2	
+R4	Experiences Arg1:T26 Arg2:T3	
+R5	Causes Arg1:T29 Arg2:T5	
+R6	Causes Arg1:T27 Arg2:T2	
+R7	Used_for Arg1:T15 Arg2:T4	
+T33	CONC 321 346	regla clínica de decisión
+#43	AnnotatorNotes T33	C5197921; Clinical Decision Rules; Intellectual Product
+R9	Experiences Arg1:T32 Arg2:T6	
+R10	Experiences Arg1:T32 Arg2:T16	
+T48	Neg_cue 482 484	no
+T49	PROC 493 501	evaluado
+A5	Assertion T49 Negated
+#44	AnnotatorNotes T49	C1261322; Evaluation procedure; Health Care Activity
+R11	Negation Arg1:T48 Arg2:T49	
+R12	Experiences Arg1:T51 Arg2:T7	
+R13	Causes Arg1:T34 Arg2:T6	
+R14	Experiences Arg1:T32 Arg2:T7	
+R18	Before Arg1:T7 Arg2:T49	
+T50	CONC 353 378	Bacterial Pneumonia Score
+T53	CONC 348 351	BPS
+#45	AnnotatorNotes T53	[Bacterial Pneumonia Score]
+T54	CONC 587 590	BPS
+#46	AnnotatorNotes T54	[Bacterial Pneumonia Score]
+T55	CONC 1067 1070	BPS
+#47	AnnotatorNotes T55	[Bacterial Pneumonia Score]
+T56	CONC 1530 1533	BPS
+#48	AnnotatorNotes T56	[Bacterial Pneumonia Score]
+T57	CONC 1650 1653	BPS
+#49	AnnotatorNotes T57	[Bacterial Pneumonia Score]
+T58	CONC 1038 1041	BPS
+#50	AnnotatorNotes T58	[Bacterial Pneumonia Score]
+T59	CONC 1375 1378	BPS
+#51	AnnotatorNotes T59	[Bacterial Pneumonia Score]
+T60	CONC 1704 1707	BPS
+#52	AnnotatorNotes T60	[Bacterial Pneumonia Score]
+R19	Experiences Arg1:T46 Arg2:T24	
+R20	Experiences Arg1:T46 Arg2:T12	
+R22	Causes Arg1:T47 Arg2:T12	
+R23	Experiences Arg1:T46 Arg2:T13	
+T61	Neg_cue 1823 1826	sin
+R24	Experiences Arg1:T35 Arg2:T8	
+R25	Experiences Arg1:T35 Arg2:T9	
+R28	Experiences Arg1:T35 Arg2:T17	
+R29	Has_Age Arg1:T36 Arg2:T37	
+R30	Experiences Arg1:T36 Arg2:T11	
+R31	Experiences Arg1:T36 Arg2:T19	
+T62	Result_or_Value 1071 1081	> 4 puntos
+R35	Has_Result_or_Value Arg1:T55 Arg2:T62	
+R36	Has_Result_or_Value Arg1:T58 Arg2:T62	
+R37	Experiences Arg1:T38 Arg2:T21	
+T63	CONC 1284 1301	evolución clínica
+#53	AnnotatorNotes T63	C0449259; Clinical course; Temporal Concept
+T64	Observation 1607 1621	mala evolución
+#54	AnnotatorNotes T64	C1457868; Worse; Finding (?)
+R38	Experiences Arg1:T44 Arg2:T64	
+R39	Experiences Arg1:T45 Arg2:T64	
+T65	Observation 1849 1863	mala evolución
+#55	AnnotatorNotes T65	C1457868; Worse; Finding (?)
+R40	Experiences Arg1:T46 Arg2:T65	
+R41	Before Arg1:T60 Arg2:T24	
+R42	Before Arg1:T60 Arg2:T65	
+R44	Experiences Arg1:T43 Arg2:T23	
+R45	Before Arg1:T58 Arg2:T20	
+R46	Before Arg1:T58 Arg2:T21	
+T66	CONC 1827 1835	aumentar
+A6	Assertion T66 Negated
+R49	Negation Arg1:T61 Arg2:T66	
+T67	Spec_cue 1839 1848	riesgo de
+R50	Speculation Arg1:T67 Arg2:T65	
+A7	Assertion T65 Speculated
+R52	Has_Age Arg1:T40 Arg2:T42	
+R51	Before Arg1:T24 Arg2:T65	
+#56	AnnotatorNotes T66	C0442805; Increase; Functional Concept 
+R8	Before Arg1:T57 Arg2:T64	
+#57	AnnotatorNotes T19	C1579319; pneumococcal conjugate vaccine; Pharmacologic Substance · Immunologic Factor
+A8	Experiencer T26 Patient
+A9	Experiencer T32 Patient
+A10	Experiencer T51 Patient
+A11	Experiencer T35 Patient
+A12	Experiencer T52 Other
+A13	Experiencer T36 Patient
+A14	Experiencer T38 Patient
+A15	Experiencer T25 Other
+A16	Experiencer T39 Patient
+A17	Experiencer T41 Patient
+A18	Experiencer T40 Patient
+A19	Experiencer T43 Patient
+A20	Experiencer T44 Patient
+A21	Experiencer T45 Patient
+A22	Experiencer T46 Patient

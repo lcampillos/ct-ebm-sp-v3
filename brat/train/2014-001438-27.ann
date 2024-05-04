@@ -1,0 +1,112 @@
+T1	CHEM 60 71	bezafibrato
+#1	AnnotatorNotes T1	C0005330; bezafibrate; Organic Chemical · Pharmacologic Substance
+T2	DISO 104 126	enfermedades hepáticas
+#2	AnnotatorNotes T2	C0023895; Liver diseases; Disease or Syndrome
+T3	CHEM 159 170	Bezafibrato
+#3	AnnotatorNotes T3	C0005330; bezafibrate; Organic Chemical · Pharmacologic Substance
+T4	DISO 174 193	prúrito colestásico
+#4	AnnotatorNotes T4	C1535964; Cholestatic pruritus; Sign or Symptom
+T5	DISO 217 224	picazón
+#5	AnnotatorNotes T5	C0033774; Pruritus; Sign or Symptom
+T6	DISO 246 268	enfermedades hepáticas
+#6	AnnotatorNotes T6	C0023895; Liver diseases; Disease or Syndrome
+T7	DISO 295 319	Cirrosis biliar primaria
+#7	AnnotatorNotes T7	C0008312; Primary Biliary Cholangitis; Disease or Syndrome
+T8	DISO 321 324	PBC
+T9	DISO 326 358	Colangitis esclerosante primaria
+#8	AnnotatorNotes T9	C0566602; Primary sclerosing cholangitis; Disease or Syndrome
+T10	DISO 360 363	PSC
+#9	AnnotatorNotes T10	C0566602; Primary sclerosing cholangitis; Disease or Syndrome
+T11	DISO 401 404	SSC
+T12	DISO 365 399	Colangitis esclerosante secundaria
+#10	AnnotatorNotes T12	C0400978; Secondary sclerosing cholangitis; Disease or Syndrome
+T13	PROC 515 526	Diagnóstico
+#11	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 535 538	PSC
+#12	AnnotatorNotes T14	C0566602; Primary sclerosing cholangitis; Disease or Syndrome
+T15	DISO 616 626	colestasis
+#13	AnnotatorNotes T15	C0008370; Cholestasis; Disease or Syndrome
+T16	DISO 634 641	picazón
+#14	AnnotatorNotes T16	C0033774; Pruritus; Sign or Symptom
+T17	PROC 815 826	tratamiento
+#15	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	PROC 855 880	tratamiento antiprurítico
+T19	DISO 907 917	colestasis
+#16	AnnotatorNotes T19	C0008370; Cholestasis; Disease or Syndrome
+T20	DISO 927 938	obstrucción
+#17	AnnotatorNotes T20	C0028778; Obstruction; Pathologic Function
+T21	PROC 952 972	tratamiento invasivo
+#18	AnnotatorNotes T21	C0683468; invasive treatment; Therapeutic or Preventive Procedure
+T22	PROC 1034 1038	CPRE
+#19	AnnotatorNotes T22	C0008310; Endoscopic Retrograde Cholangiopancreatography; Diagnostic Procedure
+T23	PROC 1041 1048	cirugía
+#20	AnnotatorNotes T23	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T24	CHEM 1058 1066	opiáceos
+#21	AnnotatorNotes T24	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T25	ANAT 117 126	hepáticas
+#22	AnnotatorNotes T25	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T26	ANAT 259 268	hepáticas
+#23	AnnotatorNotes T26	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T27	ANAT 304 310	biliar
+#24	AnnotatorNotes T27	C0005388; Bile fluid; Body Substance
+T28	DISO 530 533	PBC
+T29	DISO 541 544	SSC
+T30	DISO 646 670	anomalías dermatológicas
+#25	AnnotatorNotes T30	C0037268; Skin Abnormalities; Congenital Abnormality
+T31	DISO 75 82	prúrito
+T32	Date 13 17	2014
+T33	Age 438 447	> 18 años
+T34	PHYS 450 461	comprensión
+#26	AnnotatorNotes T34	C0233733; Language comprehension; Mental Process
+T36	Date 627 631	2009
+T37	Neg_cue 642 645	sin
+T38	PHYS 896 904	embarazo
+#27	AnnotatorNotes T38	C0032961; Pregnancy; Organism Function
+T39	Duration 1017 1026	5 semanas
+T35	Date 782 800	la semana anterior
+A1	Assertion T30 Negated
+#28	AnnotatorNotes T31	C0033774; Pruritus; Sign or Symptom 
+#29	AnnotatorNotes T8	C0008312; Primary Biliary Cholangitis; Disease or Syndrome
+#30	AnnotatorNotes T28	C0008312; Primary Biliary Cholangitis; Disease or Syndrome
+#31	AnnotatorNotes T11	C0400978; Secondary sclerosing cholangitis; Disease or Syndrome
+#32	AnnotatorNotes T29	C0400978; Secondary sclerosing cholangitis; Disease or Syndrome
+#33	AnnotatorNotes T18	C4544516; Administration of antipruritic; Therapeutic or Preventive Procedure 
+T40	Observation 450 512	comprensión del neerlandés, alemán, inglés, español o italiano
+#34	AnnotatorNotes T40	 C1319457; Main spoken language Dutch; Finding | C1319829; Main spoken language German; Finding | C0745640; LANGUAGE ENGLISH SPOKEN; Finding | C0745638; LANGUAGE BARRIER SPEAKS SPANISH; Finding | C1319828; Main spoken language Italian; Finding
+R1	Causes Arg1:T2 Arg2:T31	
+R2	Location_of Arg1:T25 Arg2:T2	
+R3	Causes Arg1:T6 Arg2:T5	
+R4	Location_of Arg1:T26 Arg2:T6	
+R5	Location_of Arg1:T27 Arg2:T7	
+R6	Location_of Arg1:T27 Arg2:T8	
+T41	CONC 573 609	guías de práctica clínica de la EASL
+R7	Used_for Arg1:T41 Arg2:T13	
+R8	Negation Arg1:T37 Arg2:T30	
+T42	Quantifier_or_Qualifier 671 680	primarias
+#35	AnnotatorNotes T42	C0205225; Primary; Qualitative Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T42	
+A2	Assertion T42 Negated
+T43	Quantifier_or_Qualifier 769 778	dos veces
+T44	Result_or_Value 705 720	intensidad de 5
+R10	Has_Result_or_Value Arg1:T16 Arg2:T44	
+R11	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T43	
+R12	Overlap Arg1:T16 Arg2:T35	
+T45	CONC 804 826	inicio del tratamiento
+R13	Before Arg1:T16 Arg2:T45	
+T46	Quantifier_or_Qualifier 881 893	concomitante
+#36	AnnotatorNotes T46	C0521115; Simultaneous; Temporal Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T46	
+R15	Causes Arg1:T20 Arg2:T19	
+T47	Quantifier_or_Qualifier 973 986	desobstrutivo
+R16	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T47	
+R17	Overlap Arg1:T21 Arg2:T39	
+R18	Overlap Arg1:T22 Arg2:T39	
+R19	Overlap Arg1:T23 Arg2:T39	
+T48	Observation 49 55	efecto
+#37	AnnotatorNotes T48	C1518681; Outcome of Therapy; Finding (?)
+T49	Observation 149 155	Efecto
+#38	AnnotatorNotes T49	C1518681; Outcome of Therapy; Finding (?)
+R20	Causes Arg1:T1 Arg2:T48	
+R21	Causes Arg1:T3 Arg2:T49	
+R22	Overlap Arg1:T16 Arg2:T30	
+#39	AnnotatorNotes T43	C1948050; Twice (Numerical Qualifier); Quantitative Concept

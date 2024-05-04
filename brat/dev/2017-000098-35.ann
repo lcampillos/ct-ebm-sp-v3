@@ -1,0 +1,156 @@
+T1	PROC 46 65	ESTUDIO COMPARATIVO
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	DISO 69 86	NÁUSEAS Y VÓMITOS
+#2	AnnotatorNotes T2	C0027498; Nausea and vomiting; Sign or Symptom
+T3	PROC 549 573	consentimiento informado
+#3	AnnotatorNotes T3	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T4	PROC 139 158	ESTUDIO COMPARATIVO
+#4	AnnotatorNotes T4	C1579762; comparative study research; Research Activity
+T5	DISO 162 179	NÁUSEAS Y VÓMITOS
+#5	AnnotatorNotes T5	C0027498; Nausea and vomiting; Sign or Symptom
+T6	CHEM 105 116	ANESTÉSICOS
+#6	AnnotatorNotes T6	C0002932; Anesthetics; Pharmacologic Substance
+T7	PROC 269 295	Artroscopia temporomaxilar
+#7	AnnotatorNotes T7	C0845863; Arthroscopy of temporomandibular joint; Diagnostic Procedure
+T8	PROC 350 398	artroscopia de la articulación temporomandibular
+T9	ANAT 368 398	articulación temporomandibular
+#8	AnnotatorNotes T9	C0039493; Temporomandibular Joint; Body Space or Junction | C1269048; Entire temporomandibular joint; Body Part, Organ, or Organ Component
+T10	DISO 408 418	disfunción
+#9	AnnotatorNotes T10	C0277785; Functional disorder; Pathologic Function
+T11	PROC 629 645	test de embarazo
+#10	AnnotatorNotes T11	C0032976; Pregnancy Tests; Diagnostic Procedure
+T12	DISO 698 705	alergia
+#11	AnnotatorNotes T12	C1527304; Allergic Reaction; Pathologic Function
+T13	CHEM 732 740	fármacos
+#12	AnnotatorNotes T13	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T14	DISO 769 808	problemas intelectuales o psiquiátricos
+T15	DISO 895 914	enfermedad cardíaca
+T16	ANAT 906 914	cardíaca
+#13	AnnotatorNotes T16	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T17	DISO 952 968	Enfermedad renal
+#14	AnnotatorNotes T17	C0022658; Kidney Diseases; Disease or Syndrome
+T18	PROC 977 1003	aclaramiento de creatinina
+#15	AnnotatorNotes T18	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T19	DISO 1019 1038	Enfermedad hepática
+#16	AnnotatorNotes T19	C0023895; Liver diseases; Disease or Syndrome
+T20	DISO 1079 1108	diabetes mellitus tipo I o II
+T21	CHEM 198 209	ANESTÉSICOS
+#17	AnnotatorNotes T21	C0002932; Anesthetics; Pharmacologic Substance
+T22	PROC 95 116	REGÍMENES ANESTÉSICOS
+T23	PROC 853 877	consentimiento informado
+#18	AnnotatorNotes T23	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T24	PROC 188 209	REGÍMENES ANESTÉSICOS
+T25	ANAT 281 295	temporomaxilar
+T26	ANAT 963 968	renal
+#19	AnnotatorNotes T26	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T27	CHEM 993 1003	creatinina
+#20	AnnotatorNotes T27	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T28	ANAT 1030 1038	hepática
+#21	AnnotatorNotes T28	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T29	Date 13 17	2017
+T30	Route 211 222	INTRAVENOSO
+#22	AnnotatorNotes T30	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T31	Route 224 235	INHALATORIO
+T32	LIVB 324 333	Pacientes
+#23	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 435 444	Pacientes
+#24	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Age 445 484	mayores de 18 años y menores de 99 años
+T36	LIVB 518 527	Pacientes
+#25	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 590 612	mujeres en edad fértil
+#26	AnnotatorNotes T37	C4324275; Woman of childbearing potential; Population Group
+T38	Neg_cue 646 654	negativo
+T39	LIVB 684 693	Pacientes
+#27	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 755 764	Pacientes
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 881 890	Pacientes
+#29	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 1065 1074	Pacientes
+#30	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T47	PHYS 637 645	embarazo
+#31	AnnotatorNotes T47	C0032961; Pregnancy; Organism Function
+T35	Age 601 612	edad fértil
+T41	PROC 944 948	NYHA
+#32	AnnotatorNotes T41	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T43	PROC 503 506	ASA
+#33	AnnotatorNotes T43	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T44	PHYS 825 835	comprender
+#34	AnnotatorNotes T44	C0162340; Comprehension; Mental Process
+T46	Neg_cue 817 824	impidan
+T48	PROC 1051 1061	Child-Pugh
+#35	AnnotatorNotes T48	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+A1	Assertion T47 Negated
+A2	Population_data T37 Age
+A3	Assertion T44 Negated
+A4	Status T12 History_of
+#36	AnnotatorNotes T31	C0205535; Inhalation Route of Drug Administration; Functional Concept 
+#37	AnnotatorNotes T25	C0039493; Temporomandibular Joint; Body Space or Junction | C1269048; Entire temporomandibular joint; Body Part, Organ, or Organ Component
+#38	AnnotatorNotes T8	C0845863; Arthroscopy of temporomandibular joint; Diagnostic Procedure
+#39	AnnotatorNotes T14	C1306597; Psychiatric problem; Mental or Behavioral Dysfunction | C3714756; Intellectual Disability; Mental or Behavioral Dysfunction
+#40	AnnotatorNotes T15	C0018799; Heart Diseases; Disease or Syndrome
+#41	AnnotatorNotes T20	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome | C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+R1	Used_for Arg1:T6 Arg2:T22	
+R2	Used_for Arg1:T21 Arg2:T24	
+R3	Causes Arg1:T22 Arg2:T2	
+R4	Causes Arg1:T24 Arg2:T5	
+R5	Has_Route_or_Mode Arg1:T21 Arg2:T30	
+R6	Has_Route_or_Mode Arg1:T21 Arg2:T31	
+T49	Quantifier_or_Qualifier 238 243	MIXTO
+R7	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T49	
+R8	Location_of Arg1:T25 Arg2:T7	
+R9	Experiences Arg1:T32 Arg2:T8	
+R10	Location_of Arg1:T9 Arg2:T10	
+R12	Location_of Arg1:T9 Arg2:T8	
+R13	Experiences Arg1:T32 Arg2:T10	
+R14	Has_Age Arg1:T33 Arg2:T34	
+T50	Result_or_Value 507 515	I-II-III
+R15	Has_Result_or_Value Arg1:T43 Arg2:T50	
+R16	Has_Age Arg1:T37 Arg2:T35	
+R17	Negation Arg1:T38 Arg2:T47	
+R18	Experiences Arg1:T37 Arg2:T11	
+R19	Causes Arg1:T13 Arg2:T12	
+R20	Experiences Arg1:T39 Arg2:T12	
+R22	Experiences Arg1:T40 Arg2:T14	
+R23	Negation Arg1:T46 Arg2:T44	
+R24	Overlap Arg1:T14 Arg2:T44	
+R25	Overlap Arg1:T44 Arg2:T23	
+T51	Result_or_Value 923 937	Grado III y IV
+R26	Has_Result_or_Value Arg1:T41 Arg2:T51	
+T52	Quantifier_or_Qualifier 915 921	severa
+#42	AnnotatorNotes T52	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R27	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T52	
+R28	Location_of Arg1:T16 Arg2:T15	
+R29	Experiences Arg1:T42 Arg2:T15	
+R30	Experiences Arg1:T42 Arg2:T41	
+R31	Location_of Arg1:T26 Arg2:T17	
+T53	Quantifier_or_Qualifier 969 975	severa
+#43	AnnotatorNotes T53	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R32	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T53	
+T54	Result_or_Value 1004 1015	≤ 30 mL/min
+R33	Has_Result_or_Value Arg1:T18 Arg2:T54	
+T55	Result_or_Value 1040 1047	Grado C
+R34	Has_Result_or_Value Arg1:T48 Arg2:T55	
+R35	Location_of Arg1:T28 Arg2:T19	
+R36	Experiences Arg1:T45 Arg2:T20	
+T56	Quantifier_or_Qualifier 1110 1121	compensados
+R37	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T56	
+T57	Quantifier_or_Qualifier 1124 1138	descompensados
+R38	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T57	
+#44	AnnotatorNotes T49	C0205430; Mixed (qualifier value); Functional Concept
+#45	AnnotatorNotes T56	C0205432; Compensated; Qualitative Concept
+#46	AnnotatorNotes T57	C0205434; Decompensated; Qualitative Concept
+R21	Experiences Arg1:T37 Arg2:T47	
+R39	Experiences Arg1:T40 Arg2:T44	
+A5	Experiencer T42 Patient
+A6	Experiencer T40 Patient
+A7	Experiencer T45 Patient
+A8	Experiencer T39 Patient
+A9	Experiencer T37 Patient
+A10	Experiencer T36 Patient
+A11	Experiencer T32 Patient
+A12	Experiencer T33 Patient
+A13	Assertion T37 Hypothetical
+T58	Result_or_Value 646 654	negativo
+R11	Has_Result_or_Value Arg1:T11 Arg2:T58	

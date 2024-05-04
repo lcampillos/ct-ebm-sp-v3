@@ -1,0 +1,161 @@
+T1	CHEM 64 96	heparinas de bajo peso molecular
+#1	AnnotatorNotes T1	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance
+T2	PROC 507 531	consentimiento informado
+#2	AnnotatorNotes T2	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T3	CHEM 98 102	HBPM
+#3	AnnotatorNotes T3	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance
+T4	DISO 151 174	infección por SARS-CoV2
+T5	DISO 176 184	COVID-19
+#4	AnnotatorNotes T5	C5203670; COVID19 (disease); Disease or Syndrome
+T6	CHEM 225 257	heparinas de bajo peso molecular
+#5	AnnotatorNotes T6	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance
+T7	CHEM 259 263	HBPM
+#6	AnnotatorNotes T7	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance
+T8	DISO 312 335	infección por SARS-CoV2
+T9	DISO 337 344	COVID19
+#7	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	DISO 367 403	Infección por coronavirus SARS-CoV-2
+T11	DISO 428 436	COVID-19
+#8	AnnotatorNotes T11	C5203670; COVID19 (disease); Disease or Syndrome
+T12	PROC 536 547	Diagnostico
+#9	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	DISO 574 596	infección de SARS-CoV2
+T14	PROC 611 631	ingreso hospitalario
+#10	AnnotatorNotes T14	C0184666; Hospital admission; Health Care Activity
+T15	DISO 636 642	fiebre
+#11	AnnotatorNotes T15	C0015967; Fever; Sign or Symptom
+T16	PROC 678 685	ingreso
+#12	AnnotatorNotes T16	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T17	DISO 781 788	Alergia
+#13	AnnotatorNotes T17	C1527304; Allergic Reaction; Pathologic Function
+T18	CHEM 791 795	HBPM
+#14	AnnotatorNotes T18	C0019139; Heparin, Low-Molecular-Weight; Organic Chemical · Pharmacologic Substance
+T19	PROC 825 840	anticoagulación
+#15	AnnotatorNotes T19	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T20	PROC 842 851	plaquetas
+#16	AnnotatorNotes T20	C0032181; Platelet Count measurement; Laboratory Procedure
+T21	DISO 868 876	sangrado
+#17	AnnotatorNotes T21	C0019080; Hemorrhage; Pathologic Function
+T22	DISO 891 901	hemorragia
+#18	AnnotatorNotes T22	C0019080; Hemorrhage; Pathologic Function
+T23	PROC 1012 1046	tratamiento anticoagulante crónico
+T24	PROC 1064 1107	tratamiento con oxigenoterapia a alto flujo
+T25	PROC 1110 1130	ventilación mecánica
+#19	AnnotatorNotes T25	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T26	PROC 1213 1220	ingreso
+#20	AnnotatorNotes T26	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T27	PROC 1258 1269	tratamiento
+#21	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	DISO 1276 1308	enfermedad tromboembólica venosa
+T29	ANAT 1302 1308	venosa
+#22	AnnotatorNotes T29	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T30	PROC 557 560	PCR
+#23	AnnotatorNotes T30	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T31	PROC 980 983	IMC
+#24	AnnotatorNotes T31	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T32	CHEM 1024 1038	anticoagulante
+#25	AnnotatorNotes T32	C0003280; Anticoagulants; Pharmacologic Substance
+T33	Date 13 17	2020
+T35	LIVB 381 403	coronavirus SARS-CoV-2
+#26	AnnotatorNotes T35	C5203676; SARS-CoV-2; Virus
+T36	LIVB 465 474	Pacientes
+#27	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Age 475 493	mayores de 18 años
+T38	LIVB 708 717	Pacientes
+#28	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	PHYS 937 945	Embarazo
+#29	AnnotatorNotes T39	C0032961; Pregnancy; Organism Function
+T40	LIVB 950 959	Pacientes
+#30	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Duration 1039 1046	crónico
+#31	AnnotatorNotes T41	C0205191; chronic; Temporal Concept
+T42	Duration 1188 1204	las primeras 24h
+T43	LIVB 165 174	SARS-CoV2
+#32	AnnotatorNotes T43	C5203676; SARS-CoV-2; Virus
+T44	LIVB 326 335	SARS-CoV2
+#33	AnnotatorNotes T44	C5203676; SARS-CoV-2; Virus
+T34	LIVB 587 596	SARS-CoV2
+#34	AnnotatorNotes T34	C5203676; SARS-CoV-2; Virus
+T45	DISO 964 978	pesos extremos
+#35	AnnotatorNotes T45	C0028756; Morbid obesity; Disease or Syndrome
+T46	PROC 722 726	peso
+#36	AnnotatorNotes T46	C2985231; Body Weight Measurement; Diagnostic Procedure
+T47	PROC 1149 1162	reclutamiento
+#37	AnnotatorNotes T47	C0242800; Patient Recruitment; Research Activity
+A1	Status T17 History_of
+A2	Assertion T19 Contraindicated
+#38	AnnotatorNotes T4	C5203670; COVID19 (disease); Disease or Syndrome
+#39	AnnotatorNotes T8	C5203670; COVID19 (disease); Disease or Syndrome
+#40	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+#41	AnnotatorNotes T13	C5203670; COVID19 (disease); Disease or Syndrome
+#42	AnnotatorNotes T28	C1997614; Thromboembolism of vein; Pathologic Function 
+T48	CONC 107 112	dosis
+#43	AnnotatorNotes T48	C0178602; Dosage; Quantitative Concept
+T49	CONC 268 273	dosis
+#44	AnnotatorNotes T49	C0178602; Dosage; Quantitative Concept
+T50	Quantifier_or_Qualifier 113 125	profiláctica
+#45	AnnotatorNotes T50	C0445202; Prophylactic behavior; Functional Concept
+T51	Quantifier_or_Qualifier 274 286	profiláctica
+#46	AnnotatorNotes T51	C0445202; Prophylactic behavior; Functional Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T51	
+R2	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T50	
+T52	Quantifier_or_Qualifier 133 143	intermedia
+R3	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T52	
+T53	Quantifier_or_Qualifier 294 304	intermedia
+R4	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T53	
+R5	Causes Arg1:T43 Arg2:T4	
+R6	Causes Arg1:T43 Arg2:T5	
+R7	Causes Arg1:T44 Arg2:T9	
+R8	Causes Arg1:T44 Arg2:T8	
+R9	Causes Arg1:T35 Arg2:T10	
+R10	Used_for Arg1:T49 Arg2:T7	
+R11	Used_for Arg1:T48 Arg2:T3	
+R12	Used_for Arg1:T48 Arg2:T1	
+R13	Used_for Arg1:T49 Arg2:T6	
+R14	Has_Age Arg1:T36 Arg2:T37	
+R15	Before Arg1:T30 Arg2:T12	
+R16	Causes Arg1:T34 Arg2:T13	
+T54	Result_or_Value 561 569	positiva
+#47	AnnotatorNotes T54	C1446409; Positive; Finding
+R18	Has_Result_or_Value Arg1:T30 Arg2:T54	
+R19	Causes Arg1:T34 Arg2:T54	
+T55	Result_or_Value 727 751	superior o igual a 60 Kg
+R22	Has_Result_or_Value Arg1:T46 Arg2:T55	
+R23	Experiences Arg1:T38 Arg2:T46	
+R24	Causes Arg1:T18 Arg2:T17	
+T56	Result_or_Value 852 865	< 25 x 10E9/L
+R25	Has_Result_or_Value Arg1:T20 Arg2:T56	
+R26	Before Arg1:T20 Arg2:T19	
+T57	Quantifier_or_Qualifier 910 932	clínicamente relevante
+R29	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T57	
+T58	Quantifier_or_Qualifier 877 883	activo
+#48	AnnotatorNotes T58	C0679217; Active State; Idea or Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T58	
+T59	Result_or_Value 984 994	mayor a 40
+R31	Has_Result_or_Value Arg1:T31 Arg2:T59	
+R32	Experiences Arg1:T40 Arg2:T45	
+R33	Used_for Arg1:T32 Arg2:T23	
+R34	Has_Duration_or_Interval Arg1:T32 Arg2:T41	
+T60	Quantifier_or_Qualifier 884 889	grave
+#49	AnnotatorNotes T60	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R35	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T60	
+T61	Quantifier_or_Qualifier 902 907	mayor
+#50	AnnotatorNotes T61	C0205164; Major; Qualitative Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T61	
+R37	Overlap Arg1:T24 Arg2:T47	
+R38	Overlap Arg1:T25 Arg2:T47	
+R39	Overlap Arg1:T25 Arg2:T42	
+R40	After Arg1:T25 Arg2:T26	
+R42	Overlap Arg1:T24 Arg2:T42	
+T62	Observation 1226 1254	Participación de otro ensayo
+R43	Location_of Arg1:T29 Arg2:T28	
+R44	After Arg1:T47 Arg2:T26	
+R41	After Arg1:T24 Arg2:T26	
+#51	AnnotatorNotes T57	C5209294; Clinical relevance; Intellectual Product
+#52	AnnotatorNotes T52	C0439536; Medium; Quantitative Concept
+#53	AnnotatorNotes T53	C0439536; Medium; Quantitative Concept
+#54	AnnotatorNotes T23	C0694554; chronic anticoagulation; Therapeutic or Preventive Procedure | C0741136; ANTICOAGULATION TREATMENT CHRONIC; Therapeutic or Preventive Procedure
+#55	AnnotatorNotes T24	C4713672; Administer high flow oxygen, as appropriate; Health Care Activity | C4709666; Administer oxygen at high flow rate (10 to 15 L/min); Therapeutic or Preventive Procedure
+A3	Experiencer T36 Patient
+A4	Experiencer T38 Patient
+A5	Experiencer T40 Patient

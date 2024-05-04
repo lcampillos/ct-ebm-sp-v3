@@ -1,0 +1,81 @@
+T1	PROC 40 51	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 58 76	estomatitis aftosa
+#2	AnnotatorNotes T2	C0038363; Aphthous Stomatitis; Disease or Syndrome
+T3	DISO 81 99	estomatitis aftosa
+#3	AnnotatorNotes T3	C0038363; Aphthous Stomatitis; Disease or Syndrome
+T4	DISO 142 150	lesiones
+#4	AnnotatorNotes T4	C0221198; Lesion; Finding
+T5	ANAT 157 169	mucosa bucal
+#5	AnnotatorNotes T5	C0026639; Oral mucous membrane structure; | C1280540; Entire buccal mucosa; Tissue | C1284365; Entire oral mucous membrane; Tissue
+T6	PROC 328 350	evaluar la efectividad
+T7	CHEM 357 376	tintura de propóleo
+T8	PROC 390 401	tratamiento
+#6	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	DISO 408 426	estomatitis aftosa
+#7	AnnotatorNotes T9	C0038363; Aphthous Stomatitis; Disease or Syndrome
+T10	PROC 443 477	ensayo clínico fase 2 aleatorizado
+#8	AnnotatorNotes T10	C0282460; Phase 2 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity
+T11	CHEM 25 33	propóleo
+#9	AnnotatorNotes T11	C0033488; Propolis; Biologically Active Substance; Pharmacologic Substance
+T12	DISO 591 609	estomatitis aftosa
+#10	AnnotatorNotes T12	C0038363; Aphthous Stomatitis; Disease or Syndrome
+T13	PROC 568 587	diagnóstico clínico
+#11	AnnotatorNotes T13	C0332140; Diagnosis, clinical; Diagnostic Procedure
+T14	PROC 680 704	tratamiento convencional
+#12	AnnotatorNotes T14	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure
+T15	PROC 751 763	tratamientos
+#13	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	CHEM 642 650	propóleo
+#14	AnnotatorNotes T16	C0033488; Propolis; Biologically Active Substance; Pharmacologic Substance
+T17	PROC 1013 1024	tratamiento
+#15	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	DISO 1031 1049	estomatitis aftosa
+#16	AnnotatorNotes T18	C0038363; Aphthous Stomatitis; Disease or Syndrome
+T19	CHEM 980 999	tintura de propóleo
+T20	Dose 377 383	al 5 %
+T21	LIVB 506 530	pacientes de ambos sexos
+#17	AnnotatorNotes T21	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T22	Age 532 554	entre los 12 y 44 años
+T23	Dose 651 657	al 5 %
+T24	LIVB 663 676	grupo control
+#18	AnnotatorNotes T24	C0009932; Control Groups; Group
+T25	Dose 1000 1006	al 5 %
+T26	LIVB 1093 1102	pacientes
+#19	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 204 213	población
+#20	AnnotatorNotes T27	C1257890; Population; Population Group
+T28	LIVB 615 628	grupo estudio
+#21	AnnotatorNotes T28	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+R1	Used_for Arg1:T11 Arg2:T1	
+R2	Location_of Arg1:T5 Arg2:T4	
+R3	Location_of Arg1:T5 Arg2:T3	
+R4	Experiences Arg1:T27 Arg2:T4	
+R5	Experiences Arg1:T27 Arg2:T3	
+R6	Has_Dose_or_Strength Arg1:T7 Arg2:T20	
+R7	Used_for Arg1:T7 Arg2:T8	
+R8	Has_Age Arg1:T21 Arg2:T22	
+R9	Experiences Arg1:T21 Arg2:T12	
+R10	Experiences Arg1:T28 Arg2:T16	
+R11	Has_Dose_or_Strength Arg1:T16 Arg2:T23	
+R12	Experiences Arg1:T24 Arg2:T14	
+R13	Experiences Arg1:T24 Arg2:T15	
+R14	Experiences Arg1:T28 Arg2:T15	
+R15	Used_for Arg1:T16 Arg2:T15	
+R16	Has_Dose_or_Strength Arg1:T19 Arg2:T25	
+R17	Used_for Arg1:T19 Arg2:T17	
+T29	Observation 1126 1160	mejoramiento de la calidad de vida
+#22	AnnotatorNotes T29	C2015892; outcomes general quality of life improved; Finding
+R18	Experiences Arg1:T26 Arg2:T29	
+T30	Observation 1072 1085;1103 1120	incorporación a sus actividades
+T31	Quantifier_or_Qualifier 1065 1071	rápida
+#23	AnnotatorNotes T31	C0456962; Rapid; Qualitative Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T31	
+T32	CONC 1145 1160	calidad de vida
+#24	AnnotatorNotes T32	C0034380; Quality of life; Idea or Concept
+#25	AnnotatorNotes T6	C1707887; Efficacy Study; Research Activity
+A1	Experiencer T26 Patient
+A2	Experiencer T24 Patient
+A3	Experiencer T28 Patient
+A4	Experiencer T27 Patient
+A5	Experiencer T21 Patient

@@ -1,0 +1,89 @@
+T1	CHEM 46 63	Ácido tranexámico
+#1	AnnotatorNotes T1	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T2	PROC 72 83	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 90 117	hemorragia gastrointestinal
+#3	AnnotatorNotes T3	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T4	DISO 119 138	sangrado intestinal
+T5	ANAT 101 117	gastrointestinal
+#4	AnnotatorNotes T5	C0012240; Gastrointestinal system; Body System
+T6	CHEM 172 189	Ácido tranexámico
+#5	AnnotatorNotes T6	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T7	PROC 198 209	tratamiento
+#6	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 216 243	hemorragia gastrointestinal
+#7	AnnotatorNotes T8	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T9	PROC 248 316	ensayo internacional, aleatorio, doble ciego, controlado por placebo
+T10	ANAT 227 243	gastrointestinal
+#8	AnnotatorNotes T10	C0012240; Gastrointestinal system; Body System
+T11	DISO 340 359	Sangrado intestinal
+T12	ANAT 349 359	intestinal
+#9	AnnotatorNotes T12	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T13	DISO 386 413	Hemorragia gastrointestinal
+#10	AnnotatorNotes T13	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T14	DISO 475 502	hemorragia gastrointestinal
+#11	AnnotatorNotes T14	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T15	CHEM 592 609	ácido tranexámico
+#12	AnnotatorNotes T15	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T16	PROC 758 769	tratamiento
+#13	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	CHEM 774 791	ácido Tranexámico
+#14	AnnotatorNotes T17	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T18	PROC 891 902	tratamiento
+#15	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	CHEM 907 924	ácido Tranexámico
+#16	AnnotatorNotes T19	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T20	ANAT 128 138	intestinal
+#17	AnnotatorNotes T20	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T21	ANAT 397 413	gastrointestinal
+#18	AnnotatorNotes T21	C0012240; Gastrointestinal system; Body System
+T22	ANAT 486 502	gastrointestinal
+#19	AnnotatorNotes T22	C0012240; Gastrointestinal system; Body System
+T23	Date 13 17	2012
+T24	LIVB 442 449	Adultos
+#20	AnnotatorNotes T24	C0001675; Adult; Age Group
+T25	Age 451 469	mayores de 18 años
+T27	LIVB 616 624	paciente
+#21	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 668 677	Pacientes
+#22	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 795 804	Pacientes
+#23	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Spec_cue 527 540	incertidumbre
+T26	LIVB 545 563	médico responsable
+#24	AnnotatorNotes T26	C4708568; Medically responsible investigator; Professional or Occupational Group
+T31	LIVB 692 710	médico responsable
+#25	AnnotatorNotes T31	C4708568; Medically responsible investigator; Professional or Occupational Group
+T32	LIVB 819 837	médico responsable
+#26	AnnotatorNotes T32	C4708568; Medically responsible investigator; Professional or Occupational Group
+A1	Population_data T24 Age
+A2	Assertion T15 Speculated
+A3	Assertion T18 Contraindicated
+A4	Assertion T19 Contraindicated
+#27	AnnotatorNotes T4	C0267373; Intestinal hemorrhage NOS; Pathologic Function
+#28	AnnotatorNotes T11	C0267373; Intestinal hemorrhage NOS; Pathologic Function
+R1	Speculation Arg1:T30 Arg2:T15	
+R2	Used_for Arg1:T1 Arg2:T2	
+R3	Location_of Arg1:T5 Arg2:T3	
+R4	Location_of Arg1:T20 Arg2:T4	
+R5	Location_of Arg1:T10 Arg2:T8	
+R6	Used_for Arg1:T6 Arg2:T7	
+R7	Location_of Arg1:T12 Arg2:T11	
+R8	Location_of Arg1:T21 Arg2:T13	
+R9	Has_Age Arg1:T24 Arg2:T25	
+R10	Location_of Arg1:T22 Arg2:T14	
+T33	Quantifier_or_Qualifier 503 516	significativa
+#29	AnnotatorNotes T33	C1546944; Event Seriousness - Significant; Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T33	
+R12	Experiences Arg1:T27 Arg2:T15	
+R13	Experiences Arg1:T24 Arg2:T14	
+R14	Experiences Arg1:T28 Arg2:T16	
+R15	Used_for Arg1:T17 Arg2:T16	
+R16	Used_for Arg1:T19 Arg2:T18	
+A5	Experiencer T31 Other
+A6	Experiencer T32 Other
+A7	Experiencer T28 Patient
+A8	Experiencer T29 Patient
+A9	Experiencer T27 Patient
+A10	Experiencer T26 Other
+A11	Experiencer T24 Patient

@@ -1,0 +1,115 @@
+T1	CHEM 88 103	levobupivacaina
+#1	AnnotatorNotes T1	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T2	PROC 108 135	cirugía de aumento de pecho
+#2	AnnotatorNotes T2	C0741759; BREAST SURGERY MAMMOPLASTY AUGMENTATION; Therapeutic or Preventive Procedure
+T3	ANAT 130 135	pecho
+#3	AnnotatorNotes T3	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T4	CHEM 217 232	levobupivacaina
+#4	AnnotatorNotes T4	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T5	PROC 236 258	mamoplastia de aumento
+#5	AnnotatorNotes T5	C0191925; Augmentation mammoplasty; Therapeutic or Preventive Procedure
+T6	DISO 369 395	dolor agudo postoperatorio
+#6	AnnotatorNotes T6	C2215257; Postoperative Pain, Acute; Sign or Symptom
+T7	PROC 457 499	Cirugía de mamoplastia de aumento estética
+#7	AnnotatorNotes T7	C2223542; cosmetic breast surgery procedures; Therapeutic or Preventive Procedure (?)
+T8	PROC 592 616	consentimiento informado
+#8	AnnotatorNotes T8	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T9	CHEM 516 531	gel de silicona
+T10	DISO 700 712	enfermedades
+#9	AnnotatorNotes T10	C0012634; Disease; Disease or Syndrome
+T11	DISO 769 793	enfermedad psiquiátricas
+T12	CHEM 809 814	AINES
+#10	AnnotatorNotes T12	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T13	CHEM 842 850	mórficos
+#11	AnnotatorNotes T13	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T14	PROC 867 878	tratamiento
+#12	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	DISO 883 896	dolor crónico
+#13	AnnotatorNotes T15	C0150055; Chronic pain; Sign or Symptom
+T16	PROC 900 922	Colocación de drenajes
+T17	CHEM 70 86	anestésico local
+#14	AnnotatorNotes T17	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T18	PROC 185 213	administración periprotésica
+T19	PROC 263 283	implante de prótesis
+T20	PROC 319 342	intervencion quirurgica
+#15	AnnotatorNotes T20	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T21	DISO 308 313	dolor
+#16	AnnotatorNotes T21	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T22	CHEM 816 835	anestésicos locales
+#17	AnnotatorNotes T22	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T23	DISO 799 806	Alergia
+#18	AnnotatorNotes T23	C1527304; Allergic Reaction; Pathologic Function
+T24	Date 13 17	2014
+T26	DEVI 275 283	prótesis
+#19	AnnotatorNotes T26	C0175649; Prosthesis; Medical Device
+T28	Time 381 395	postoperatorio
+#20	AnnotatorNotes T28	C0032790; Postoperative Period; Temporal Concept
+T29	LIVB 425 432	Mujeres
+#21	AnnotatorNotes T29	C0043210; Woman; Population Group
+T30	Age 433 453	>18 años y <=65 años
+T32	DEVI 504 531	prótesis de gel de silicona
+#22	AnnotatorNotes T32	C0491149; PROSTHESIS, BREAST, NONINFLATABLE, INTERNAL, SILICONE GEL-FILLED; Medical Device
+T33	Form 516 519	gel
+#23	AnnotatorNotes T33	C0017243; Gel; Biomedical or Dental Material
+T34	LIVB 660 668	paciente
+#24	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 854 863	Pacientes
+#25	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Duration 889 896	crónico
+#26	AnnotatorNotes T37	C0205191; chronic; Temporal Concept
+T40	DEVI 914 922	drenajes
+T25	PROC 568 571	ASA
+#27	AnnotatorNotes T25	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T27	PROC 672 675	ASA
+#28	AnnotatorNotes T27	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Status T23 History_of
+#29	AnnotatorNotes T9	C0599034; Silicone Gels; Organic Chemical · Biomedical or Dental Material 
+#30	AnnotatorNotes T11	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T31	Observation 46 63	Efecto analgésico
+R1	Causes Arg1:T17 Arg2:T31	
+R2	Causes Arg1:T1 Arg2:T31	
+R3	Before Arg1:T1 Arg2:T2	
+R4	Before Arg1:T17 Arg2:T2	
+R5	Location_of Arg1:T3 Arg2:T2	
+R7	Used_for Arg1:T26 Arg2:T19	
+R8	Combined_with Arg1:T5 Arg2:T19	
+R9	Used_for Arg1:T4 Arg2:T18	
+R10	Before Arg1:T18 Arg2:T5	
+R6	After Arg1:T21 Arg2:T20	
+R11	Overlap Arg1:T6 Arg2:T28	
+R12	Has_Age Arg1:T29 Arg2:T30	
+R13	Has_Drug_Form Arg1:T9 Arg2:T33	
+R14	Used_for Arg1:T32 Arg2:T7	
+T35	Quantifier_or_Qualifier 532 540	cohesivo
+R15	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T35	
+T38	CONC 547 564	plano subpectoral
+T39	Result_or_Value 572 578	I y II
+R16	Has_Result_or_Value Arg1:T25 Arg2:T39	
+T41	Observation 646 668	Rechazo de la paciente
+T42	Result_or_Value 676 690	III o superior
+R18	Has_Result_or_Value Arg1:T27 Arg2:T42	
+T43	CONC 733 742	inclusión
+A2	Assertion T43 Negated
+#32	AnnotatorNotes T43	C1512693; Inclusion; Qualitative Concept
+T44	Neg_cue 730 732	no
+R19	Negation Arg1:T44 Arg2:T43	
+R20	Before Arg1:T11 Arg2:T43	
+R21	Before Arg1:T10 Arg2:T43	
+R22	Causes Arg1:T12 Arg2:T23	
+R23	Causes Arg1:T22 Arg2:T23	
+R24	Causes Arg1:T13 Arg2:T23	
+R25	Experiences Arg1:T36 Arg2:T14	
+R26	Experiences Arg1:T36 Arg2:T15	
+R27	Has_Duration_or_Interval Arg1:T15 Arg2:T37	
+R28	Used_for Arg1:T40 Arg2:T16	
+#33	AnnotatorNotes T40	C0180499; Drain device; Medical Device | C0184114; Tube drain; Medical Device
+R17	Location_of Arg1:T38 Arg2:T7	
+#31	AnnotatorNotes T41	C1399228; implant or graft; rejection; Pathologic Function (?)
+T45	Observation 927 950	necesidades quirúrgicas
+#34	AnnotatorNotes T31	C0948482; Analgesic effect; Finding
+#35	AnnotatorNotes T19	C0525024; Prosthesis Implantation; Therapeutic or Preventive Procedure
+#36	AnnotatorNotes T16	C3495845; Drain placement; Therapeutic or Preventive Procedure
+R30	Experiences Arg1:T34 Arg2:T41	
+A3	Experiencer T34 Patient
+A4	Experiencer T36 Patient
+A5	Experiencer T29 Patient

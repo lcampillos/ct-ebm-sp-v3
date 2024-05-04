@@ -1,0 +1,179 @@
+T1	DISO 55 72	sepsis nosocomial
+#1	AnnotatorNotes T1	C1096454; Nosocomially acquired neonatal sepsis; Disease or Syndrome
+T2	CHEM 86 96	cefazolina
+#2	AnnotatorNotes T2	C0007546; cefazolin; Organic Chemical · Antibiotic
+T3	CHEM 99 110	vancomicina
+#3	AnnotatorNotes T3	C0042313; vancomycin; Amino Acid, Peptide, or Protein · Antibiotic
+T4	PROC 112 164	estudio de no inferioridad, aleatorizado, controlado
+#4	AnnotatorNotes T4	C4505128; Non-Inferiority Trial; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T5	DISO 170 194	infecciones nosocomiales
+#5	AnnotatorNotes T5	C0010356; Cross Infection; Disease or Syndrome | C0205721; Infections, Hospital; Disease or Syndrome
+T6	PROC 340 359	evaluar la eficacia
+#6	AnnotatorNotes T6	C1707887; Efficacy Study; Research Activity
+T7	CHEM 366 376	cefazolina
+#7	AnnotatorNotes T7	C0007546; cefazolin; Organic Chemical · Antibiotic
+T8	CHEM 389 400	vancomicina
+#8	AnnotatorNotes T8	C0042313; vancomycin; Amino Acid, Peptide, or Protein · Antibiotic
+T9	PROC 406 413	terapia
+#9	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	DISO 448 463	signos clínicos
+#10	AnnotatorNotes T10	C0037088; Signs and Symptoms; Sign or Symptom
+T11	DISO 479 496	sepsis nosocomial
+#11	AnnotatorNotes T11	C1096454; Nosocomially acquired neonatal sepsis; Disease or Syndrome
+T12	PROC 538 547	coagulasa
+#12	AnnotatorNotes T12	C0201122; Coagulase test; Laboratory Procedure
+T13	PROC 697 721	asignados aleatoriamente
+#13	AnnotatorNotes T13	C0034656; Randomization; Research Activity
+T14	PROC 597 611	hospitalizados
+#14	AnnotatorNotes T14	C0019993; Hospitalization; Health Care Activity
+T15	DISO 616 631	signos clínicos
+#15	AnnotatorNotes T15	C0037088; Signs and Symptoms; Sign or Symptom
+T16	DISO 649 677	sepsis bacteriana nosocomial
+T17	PROC 770 781	tratamiento
+#16	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	CHEM 789 799	cefazolina
+#17	AnnotatorNotes T18	C0007546; cefazolin; Organic Chemical · Antibiotic
+T19	CHEM 813 824	vancomicina
+#18	AnnotatorNotes T19	C0042313; vancomycin; Amino Acid, Peptide, or Protein · Antibiotic
+T20	PROC 834 899	análisis primario se realizó mediante la intención de tratamiento
+T21	PROC 1004 1015	tratamiento
+#19	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	DISO 1480 1497	sepsis nosocomial
+#20	AnnotatorNotes T22	C1096454; Nosocomially acquired neonatal sepsis; Disease or Syndrome
+T23	CHEM 1534 1544	cefazolina
+#21	AnnotatorNotes T23	C0007546; cefazolin; Organic Chemical · Antibiotic
+T24	CHEM 1566 1577	vancomicina
+#22	AnnotatorNotes T24	C0042313; vancomycin; Amino Acid, Peptide, or Protein · Antibiotic
+T25	PROC 73 81	tratados
+#23	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	LIVB 22 36	recién nacidos
+#24	AnnotatorNotes T26	C0021289; Infant, Newborn; Age Group
+T27	CHEM 304 316	antibióticos
+#25	AnnotatorNotes T27	C0003232; Antibiotics; Antibiotic
+T28	LIVB 429 443	recién nacidos
+#26	AnnotatorNotes T28	C0021289; Infant, Newborn; Age Group
+T29	LIVB 582 596	recién nacidos
+#27	AnnotatorNotes T29	C0021289; Infant, Newborn; Age Group
+T30	CHEM 731 742	antibiótico
+#28	AnnotatorNotes T30	C0003232; Antibiotics; Antibiotic
+T31	LIVB 966 974	neonatos
+#29	AnnotatorNotes T31	C0021289; Infant, Newborn; Age Group
+T32	LIVB 1048 1062	recién nacidos
+#30	AnnotatorNotes T32	C0021289; Infant, Newborn; Age Group
+T33	LIVB 1171 1185	recién nacidos
+#31	AnnotatorNotes T33	C0021289; Infant, Newborn; Age Group
+T34	DISO 1345 1356	fallecieron
+#32	AnnotatorNotes T34	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T35	LIVB 1359 1373	recién nacidos
+#33	AnnotatorNotes T35	C0021289; Infant, Newborn; Age Group
+T36	LIVB 1461 1475	recién nacidos
+#34	AnnotatorNotes T36	C0021289; Infant, Newborn; Age Group
+T41	Spec_cue 497 510	probablemente
+T42	LIVB 523 556	Staphylococcus coagulasa negativo
+#35	AnnotatorNotes T42	C0445625; Staphylococcus, coagulase negative; Bacterium
+T45	Spec_cue 636 645	probables
+T46	LIVB 656 666	bacteriana
+#36	AnnotatorNotes T46	C0004611; Bacteria; Bacterium
+T59	Spec_cue 1521 1529	probable
+T37	Spec_cue 41 54	presunción de
+T38	Spec_cue 464 478	presuntivos de
+A1	Assertion T1 Speculated
+A2	Assertion T11 Speculated
+A3	Assertion T42 Speculated
+A4	Assertion T16 Speculated
+A5	Assertion T22 Speculated
+A6	Population_data T26 Age
+A7	Population_data T28 Age
+A8	Population_data T29 Age
+A9	Population_data T31 Age
+A10	Population_data T32 Age
+A12	Population_data T33 Age
+A13	Population_data T35 Age
+A14	Population_data T36 Age
+T39	CONC 1406 1416	diferencia
+#37	AnnotatorNotes T39	C1705241; Delta (difference); Quantitative Concept
+T40	Neg_cue 1417 1419	no
+T43	Quantifier_or_Qualifier 1420 1433	significativa
+A16	Assertion T43 Negated
+#38	AnnotatorNotes T43	C0750502; Significant; Idea or Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T43	
+R2	Negation Arg1:T40 Arg2:T43	
+T44	CONC 1310 1322	inferioridad
+A17	Assertion T44 Negated
+T47	Neg_cue 1307 1309	no
+R3	Negation Arg1:T47 Arg2:T44	
+T48	Neg_cue 1545 1547	no
+T49	Quantifier_or_Qualifier 1552 1560	inferior
+A18	Assertion T49 Negated
+R4	Negation Arg1:T48 Arg2:T49	
+T50	CONC 126 138	inferioridad
+A19	Assertion T50 Negated
+T51	Neg_cue 123 125	no
+R5	Negation Arg1:T51 Arg2:T50	
+T52	CONC 759 781	inicio del tratamiento
+R6	Overlap Arg1:T30 Arg2:T52	
+R7	Used_for Arg1:T30 Arg2:T17	
+R8	Before Arg1:T13 Arg2:T17	
+R9	Before Arg1:T13 Arg2:T18	
+R10	Before Arg1:T13 Arg2:T19	
+R11	Used_for Arg1:T18 Arg2:T17	
+R12	Used_for Arg1:T19 Arg2:T17	
+R13	Speculation Arg1:T37 Arg2:T1	
+R14	Speculation Arg1:T38 Arg2:T11	
+R15	Speculation Arg1:T41 Arg2:T42	
+R16	Speculation Arg1:T45 Arg2:T16	
+R17	Speculation Arg1:T59 Arg2:T22	
+T53	CONC 1 18	Evolución clínica
+#39	AnnotatorNotes T53	C0449259; Clinical course; Temporal Concept
+R18	Experiences Arg1:T26 Arg2:T1	
+R19	Experiences Arg1:T26 Arg2:T25	
+R20	Used_for Arg1:T2 Arg2:T25	
+R21	Used_for Arg1:T3 Arg2:T25	
+R22	Used_for Arg1:T8 Arg2:T9	
+R23	Used_for Arg1:T7 Arg2:T9	
+T54	Quantifier_or_Qualifier 414 421	inicial
+#40	AnnotatorNotes T54	C0205265; Initially; Temporal Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T54	
+R25	Experiences Arg1:T28 Arg2:T7	
+R26	Experiences Arg1:T28 Arg2:T10	
+R27	Experiences Arg1:T28 Arg2:T11	
+R28	Overlap Arg1:T10 Arg2:T11	
+R29	Causes Arg1:T42 Arg2:T11	
+T55	Result_or_Value 548 556	negativo
+#41	AnnotatorNotes T55	C0205160; Negative; Finding
+R30	Has_Result_or_Value Arg1:T12 Arg2:T55	
+R31	Experiences Arg1:T28 Arg2:T12	
+R32	Experiences Arg1:T28 Arg2:T55	
+R33	Experiences Arg1:T29 Arg2:T14	
+R34	Experiences Arg1:T29 Arg2:T15	
+R35	Overlap Arg1:T15 Arg2:T16	
+R36	Causes Arg1:T46 Arg2:T16	
+T56	CONC 941 958	evolución clínica
+#42	AnnotatorNotes T56	C0449259; Clinical course; Temporal Concept
+T57	CONC 994 1015	final del tratamiento
+R37	Overlap Arg1:T56 Arg2:T57	
+R38	Experiences Arg1:T31 Arg2:T21	
+T58	CONC 1095 1118	características basales
+#43	AnnotatorNotes T58	C4684572; Baseline Characteristics; Qualitative Concept
+T60	CONC 1190 1207	evolución clínica
+#44	AnnotatorNotes T60	C0449259; Clinical course; Temporal Concept
+R39	Experiences Arg1:T35 Arg2:T34	
+R40	Experiences Arg1:T36 Arg2:T22	
+R41	Experiences Arg1:T36 Arg2:T23	
+R42	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T49	
+R43	Experiences Arg1:T36 Arg2:T24	
+T61	Observation 1596 1622	resultado clínico adecuado
+#45	AnnotatorNotes T61	C1333602; Favorable Clinical Outcome; Finding (?)
+R44	Causes Arg1:T23 Arg2:T61	
+R45	Causes Arg1:T24 Arg2:T61	
+R46	Experiences Arg1:T36 Arg2:T61	
+#46	AnnotatorNotes T20	C2718028; Intention to Treat Analysis; Research Activity (?)
+#47	AnnotatorNotes T49	C1550463; Observation Interpretation - worse; Idea or Concept
+A11	Experiencer T26 Patient
+A15	Experiencer T28 Patient
+A20	Experiencer T29 Patient
+A21	Experiencer T31 Patient
+A22	Experiencer T32 Patient
+A23	Experiencer T33 Patient
+A24	Experiencer T35 Patient
+A25	Experiencer T36 Patient

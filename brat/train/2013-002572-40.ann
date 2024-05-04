@@ -1,0 +1,68 @@
+T1	PROC 46 74	Estudio de Extensión abierto
+T2	PROC 80 100	evaluar la seguridad
+#1	AnnotatorNotes T2	C1705187; Safety Study; Research Activity
+T3	PROC 137 165	Estudio de extensión abierto
+T4	PROC 545 548	OLE
+#2	AnnotatorNotes T4	C1709323; Open Label Study; Research Activity (?)
+T5	PROC 231 265	evaluar la seguridad y la eficacia
+#3	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T6	DISO 311 354	hipercolesterolemia familiar heterocigótica
+#4	AnnotatorNotes T6	C0342882; Familial hypercholesterolemia - heterozygous; Disease or Syndrome
+T7	DISO 592 595	HFH
+#5	AnnotatorNotes T7	C0342882; Familial hypercholesterolemia - heterozygous; Disease or Syndrome
+T8	DISO 378 406	Hipercolesterolemia Familiar
+#6	AnnotatorNotes T8	C0020445; Hypercholesterolemia, Familial; Disease or Syndrome
+T9	DISO 433 476	Hipercolesterolemia Heterocigótica Familiar
+#7	AnnotatorNotes T9	C0342882; Familial hypercholesterolemia - heterozygous; Disease or Syndrome
+T10	PROC 577 588	diagnóstico
+#8	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	PROC 803 812	protocolo
+#9	AnnotatorNotes T11	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T12	PROC 895 906	tratamiento
+#10	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	DISO 931 953	Acontecimiento adverso
+#11	AnnotatorNotes T13	C0877248; Adverse event; Pathologic Function
+T14	CHEM 104 114	Alirocumab
+#12	AnnotatorNotes T14	C3491162; alirocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T15	CHEM 283 293	alirocumab
+#13	AnnotatorNotes T15	C3491162; alirocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T16	Date 13 17	2013
+T17	Date 266 279	a largo plazo
+T18	LIVB 297 306	pacientes
+#14	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T21	LIVB 507 516	pacientes
+#15	AnnotatorNotes T21	C0030705; Patients; Patient or Disabled Group
+T22	LIVB 565 572	mujeres
+#16	AnnotatorNotes T22	C0043210; Woman; Population Group
+T23	LIVB 857 869	investigador
+#17	AnnotatorNotes T23	C0035173; Research Personnel; Professional or Occupational Group
+T24	LIVB 921 929	paciente
+#18	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T20	LIVB 555 562	varones
+#19	AnnotatorNotes T20	C0025266; Male population group; Population Group
+T19	Observation 876 906	incumplimiento del tratamiento
+#20	AnnotatorNotes T19	C0184543; Noncompliance with therapeutic regimen; Finding
+R1	Overlap Arg1:T5 Arg2:T17	
+R2	Experiences Arg1:T18 Arg2:T15	
+R3	Experiences Arg1:T18 Arg2:T6	
+R4	Experiences Arg1:T20 Arg2:T7	
+R5	Experiences Arg1:T22 Arg2:T7	
+R6	Experiences Arg1:T21 Arg2:T7	
+T25	CONC 616 625	inclusión
+#21	AnnotatorNotes T25	C1512693; Inclusion; Qualitative Concept
+R7	Overlap Arg1:T7 Arg2:T25	
+T26	Observation 661 682;694 702	completado uno de los estudios
+#22	AnnotatorNotes T26	C2732579; Completion of clinical trial; Finding
+R9	Overlap Arg1:T19 Arg2:T12	
+R11	Experiences Arg1:T24 Arg2:T12	
+T27	Observation 969 1002	suspensión definitiva del estudio
+R12	Causes Arg1:T13 Arg2:T27	
+#23	AnnotatorNotes T3	C1709323; Open Label Study; Research Activity (?)
+#24	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity (?)
+#25	AnnotatorNotes T17	C0443252; Long-term; Temporal Concept
+A1	Experiencer T18 Patient
+A2	Experiencer T21 Patient
+A3	Experiencer T20 Patient
+A4	Experiencer T22 Patient
+A5	Experiencer T23 Other
+A6	Experiencer T24 Patient

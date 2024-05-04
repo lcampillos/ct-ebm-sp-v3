@@ -1,0 +1,220 @@
+T1	PROC 1277 1300	consumo de L. plantarum
+T2	CHEM 71 87	inmunoglobulinas
+#1	AnnotatorNotes T2	C0021027; Immunoglobulins; Amino Acid, Peptide, or Protein · Immunologic Factor
+T3	PROC 96 126	vacunación contra la influenza
+#2	AnnotatorNotes T3	C0042200; Influenza vaccination; Therapeutic or Preventive Procedure
+T4	DISO 117 126	influenza
+#3	AnnotatorNotes T4	C0021400; Influenza; Disease or Syndrome
+T5	PROC 491 546	diseño aleatorizado, doble ciego controlado por placebo
+#4	AnnotatorNotes T5	C0599724; placebo controlled study; Research Activity · Intellectual Product + C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T6	PROC 187 217	vacunación contra la influenza
+#5	AnnotatorNotes T6	C0042200; Influenza vaccination; Therapeutic or Preventive Procedure
+T7	DISO 208 217	influenza
+#6	AnnotatorNotes T7	C0021400; Influenza; Disease or Syndrome
+T8	CHEM 1403 1418	anticuerpos IgA
+T9	CHEM 377 403	vacuna contra la influenza
+#7	AnnotatorNotes T9	C0021403; Influenza virus vaccine; Pharmacologic Substance · Immunologic Factor
+T10	PROC 779 801	consumo del probiótico
+#8	AnnotatorNotes T10	C2242626; Probiotic therapy; Therapeutic or Preventive Procedure
+T11	PROC 571 580	vacunados
+#9	AnnotatorNotes T11	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T12	DISO 614 623	influenza
+#10	AnnotatorNotes T12	C0021400; Influenza; Disease or Syndrome
+T13	PROC 754 764	vacunación
+#11	AnnotatorNotes T13	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T14	PROC 849 859	vacunación
+#12	AnnotatorNotes T14	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T15	PROC 884 911	distribuidos aleatoriamente
+#13	AnnotatorNotes T15	C0034656; Randomization; Research Activity
+T16	PROC 1218 1243	consumieron el probiótico
+T17	PROC 1349 1376	vacunación contra influenza
+#14	AnnotatorNotes T17	C0042200; Influenza vaccination; Therapeutic or Preventive Procedure
+T18	PROC 1392 1418	niveles de anticuerpos IgA
+T19	PROC 1421 1424	IgG
+#15	AnnotatorNotes T19	C0202087; Immunoglobulin G measurement; Laboratory Procedure
+T20	DISO 1447 1456	influenza
+#16	AnnotatorNotes T20	C0021400; Influenza; Disease or Syndrome
+T21	CHEM 1529 1544	anticuerpos IgM
+T22	DISO 1567 1576	influenza
+#17	AnnotatorNotes T22	C0021400; Influenza; Disease or Syndrome
+T23	CHEM 1721 1747	vacuna contra la influenza
+#18	AnnotatorNotes T23	C0021403; Influenza virus vaccine; Pharmacologic Substance · Immunologic Factor
+T24	DISO 394 403	influenza
+#19	AnnotatorNotes T24	C0021400; Influenza; Disease or Syndrome
+T25	CHEM 589 623	vacuna trivalente contra influenza
+#20	AnnotatorNotes T25	C0770694; trivalent influenza vaccine; Organic Chemical · Pharmacologic Substance · Immunologic Factor
+T26	PROC 1145 1152	placebo
+#21	AnnotatorNotes T26	C0032042; Placebos; Therapeutic or Preventive Procedure
+T27	DISO 1367 1376	influenza
+#22	AnnotatorNotes T27	C0021400; Influenza; Disease or Syndrome
+T28	PROC 1518 1544	niveles de anticuerpos IgM
+T29	DISO 1738 1747	influenza
+#23	AnnotatorNotes T29	C0021400; Influenza; Disease or Syndrome
+T30	LIVB 1 24	Lactobacillus plantarum
+#24	AnnotatorNotes T30	C0317608; Lactobacillus plantarum; Bacterium
+T31	LIVB 130 138	ancianos
+#25	AnnotatorNotes T31	C0001792; Elderly (population group); Population Group
+T32	LIVB 230 238	ancianos
+#26	AnnotatorNotes T32	C0001792; Elderly (population group); Population Group
+T33	LIVB 305 328	Lactobacillus plantarum
+#27	AnnotatorNotes T33	C0317608; Lactobacillus plantarum; Bacterium
+T34	LIVB 407 415	ancianos
+#28	AnnotatorNotes T34	C0001792; Elderly (population group); Population Group
+T35	LIVB 430 458	ancianos institucionalizados
+#29	AnnotatorNotes T35	C0001792; Elderly (population group); Population Group + C0376326; Institutionalized Persons; Patient or Disabled Group
+T36	Age 460 470	65-85 años
+T37	LIVB 791 801	probiótico
+#30	AnnotatorNotes T37	C0525033; Probiotics; Bacterium
+T38	Duration 809 834	entre tres y cuatro meses
+T42	LIVB 1233 1243	probiótico
+#31	AnnotatorNotes T42	C0525033; Probiotics; Bacterium
+T43	Duration 1252 1259	3 meses
+T44	Duration 1324 1334	tres meses
+T46	LIVB 1751 1759	ancianos
+#32	AnnotatorNotes T46	C0001792; Elderly (population group); Population Group
+T47	LIVB 552 563	voluntarios
+#33	AnnotatorNotes T47	C0020155; Human Volunteers; Population Group
+T48	LIVB 1204 1217	participantes
+#34	AnnotatorNotes T48	C4554048; Study Participant; Population Group
+T49	Date 765 769	2006
+T50	Date 770 774	2007
+T51	LIVB 865 876	voluntarios
+#35	AnnotatorNotes T51	C0020155; Human Volunteers; Population Group
+T52	Dose 948 957	5*109 ufc
+T53	Frequency 957 961	/día
+T54	LIVB 965 977	L. plantarum
+#36	AnnotatorNotes T54	C0317608; Lactobacillus plantarum; Bacterium
+T39	Dose 1051 1060	5*108 ufc
+T55	Frequency 1060 1064	/día
+T56	LIVB 1068 1080	L. plantarum
+#37	AnnotatorNotes T56	C0317608; Lactobacillus plantarum; Bacterium
+T40	LIVB 1288 1300	L. plantarum
+#38	AnnotatorNotes T40	C0317608; Lactobacillus plantarum; Bacterium
+T41	LIVB 1606 1618	L. plantarum
+#39	AnnotatorNotes T41	C0317608; Lactobacillus plantarum; Bacterium
+T45	PHYS 1644 1668	efecto inmunoestimulador
+#40	AnnotatorNotes T45	C2267003; Increased Immunologic Activity; Physiologic Function
+T57	LIVB 296 301	cepas
+#41	AnnotatorNotes T57	C1518614; Organism Strain; Organism
+T58	LIVB 1597 1602	cepas
+#42	AnnotatorNotes T58	C1518614; Organism Strain; Organism
+T59	PROC 439 458	institucionalizados
+#43	AnnotatorNotes T59	C0021629; Institutionalization; Health Care Activity
+A1	Population_data T31 Age
+A2	Population_data T32 Age
+A3	Population_data T34 Age
+A4	Population_data T35 Age
+A5	Population_data T46 Age
+T60	Spec_cue 1671 1678	podrían
+T61	Observation 1695 1715	mejorar la respuesta
+A6	Assertion T61 Speculated
+T62	Quantifier_or_Qualifier 25 33	CECT7315
+T63	Quantifier_or_Qualifier 36 44	CECT7316
+R1	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T62	
+R2	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T63	
+T64	PHYS 45 87	estimula la producción de inmunoglobulinas
+#44	AnnotatorNotes T64	C2253717; stimulation of immunoglobulin production; Cell Function
+R3	After Arg1:T64 Arg2:T3	
+R4	Causes Arg1:T30 Arg2:T64	
+R5	Used_for Arg1:T2 Arg2:T64	
+R6	Experiences Arg1:T31 Arg2:T3	
+R7	Experiences Arg1:T31 Arg2:T64	
+R8	Experiences Arg1:T32 Arg2:T6	
+T65	Quantifier_or_Qualifier 329 343	CECT 7315/7316
+R9	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T65	
+T66	PHYS 349 371	estimular la respuesta
+#45	AnnotatorNotes T66	C2255932; stimulation of immune response; Organism Function
+R10	Causes Arg1:T33 Arg2:T66	
+R12	Experiences Arg1:T34 Arg2:T9	
+R13	Experiences Arg1:T34 Arg2:T66	
+R14	Experiences Arg1:T34 Arg2:T6	
+R15	Experiences Arg1:T32 Arg2:T66	
+R16	Experiences Arg1:T32 Arg2:T9	
+R17	Experiences Arg1:T35 Arg2:T59	
+R18	Has_Age Arg1:T35 Arg2:T36	
+R19	Experiences Arg1:T47 Arg2:T11	
+R20	Used_for Arg1:T25 Arg2:T11	
+R21	Experiences Arg1:T47 Arg2:T13	
+R22	Used_for Arg1:T25 Arg2:T13	
+R23	Overlap Arg1:T13 Arg2:T49	
+R24	Overlap Arg1:T13 Arg2:T50	
+R25	Overlap Arg1:T11 Arg2:T49	
+R26	Overlap Arg1:T11 Arg2:T50	
+R27	Used_for Arg1:T37 Arg2:T10	
+R28	Has_Duration_or_Interval Arg1:T10 Arg2:T38	
+R29	After Arg1:T10 Arg2:T14	
+R30	Has_Frequency Arg1:T54 Arg2:T53	
+R31	Before Arg1:T15 Arg2:T54	
+R32	Has_Dose_or_Strength Arg1:T54 Arg2:T52	
+T67	Quantifier_or_Qualifier 978 992	CECT 7315/7316
+R33	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T67	
+T68	Food 1173 1188	leche desnatada
+#46	AnnotatorNotes T68	C0349375; skim milk; Food
+T69	Form 1020 1028	en polvo
+#47	AnnotatorNotes T69	C0032861; Powder dose form; Biomedical or Dental Material
+T70	Food 1004 1019	leche desnatada
+#48	AnnotatorNotes T70	C0349375; skim milk; Food
+R34	Has_Drug_Form Arg1:T70 Arg2:T69	
+T71	Form 1189 1197	en polvo
+#49	AnnotatorNotes T71	C0032861; Powder dose form; Biomedical or Dental Material
+R35	Has_Drug_Form Arg1:T68 Arg2:T71	
+T72	Form 1123 1131	en polvo
+#50	AnnotatorNotes T72	C0032861; Powder dose form; Biomedical or Dental Material
+T73	Food 1107 1122	leche desnatada
+#51	AnnotatorNotes T73	C0349375; skim milk; Food
+R36	Has_Drug_Form Arg1:T73 Arg2:T72	
+R37	Combined_with Arg1:T54 Arg2:T70	
+T74	Result_or_Value 996 1000	20 g
+R38	Has_Result_or_Value Arg1:T70 Arg2:T74	
+T75	Result_or_Value 1099 1103	20 g
+R39	Has_Result_or_Value Arg1:T73 Arg2:T75	
+T76	Result_or_Value 1165 1169	20 g
+R40	Has_Result_or_Value Arg1:T68 Arg2:T76	
+R41	Used_for Arg1:T68 Arg2:T26	
+T77	Quantifier_or_Qualifier 1081 1095	CECT 7315/7316
+R42	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T77	
+R43	Combined_with Arg1:T56 Arg2:T73	
+R44	Has_Dose_or_Strength Arg1:T56 Arg2:T39	
+R45	Has_Frequency Arg1:T56 Arg2:T55	
+R46	Before Arg1:T15 Arg2:T26	
+R47	Before Arg1:T15 Arg2:T56	
+R48	Experiences Arg1:T48 Arg2:T16	
+R49	Used_for Arg1:T42 Arg2:T16	
+R50	Has_Duration_or_Interval Arg1:T16 Arg2:T43	
+R51	Used_for Arg1:T40 Arg2:T1	
+T78	Quantifier_or_Qualifier 1301 1315	CECT 7315/7316
+R53	Has_Duration_or_Interval Arg1:T1 Arg2:T44	
+R52	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T78	
+R54	After Arg1:T1 Arg2:T17	
+T79	Observation 1377 1418	incrementó los niveles de anticuerpos IgA
+#52	AnnotatorNotes T79	C0239984; Increased circulating IgA level; Finding
+R55	Causes Arg1:T1 Arg2:T79	
+T80	Observation 1377 1414;1421 1424	incrementó los niveles de anticuerpos IgG
+#53	AnnotatorNotes T80	C1858977; Increased circulating IgG level; Finding
+R56	Causes Arg1:T1 Arg2:T80	
+T81	Observation 1500 1544	incremento en los niveles de anticuerpos IgM
+#54	AnnotatorNotes T81	C0239990; Immunoglobulin M increased; Finding | C1839972; Increased circulating IgM level; Finding
+T82	Quantifier_or_Qualifier 1619 1633	CECT 7315/7316
+R57	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T82	
+R58	Causes Arg1:T41 Arg2:T45	
+R59	Before Arg1:T41 Arg2:T61	
+R60	Speculation Arg1:T60 Arg2:T61	
+R61	Experiences Arg1:T46 Arg2:T23	
+R62	Causes Arg1:T23 Arg2:T61	
+R63	Experiences Arg1:T46 Arg2:T45	
+R64	Experiences Arg1:T46 Arg2:T61	
+R11	Before Arg1:T9 Arg2:T66	
+#55	AnnotatorNotes T21	C0020861; Immunoglobulin M; Amino Acid, Peptide, or Protein · Immunologic Factor
+#56	AnnotatorNotes T8	C0020835; immunoglobulin A; Amino Acid, Peptide, or Protein · Immunologic Factor
+#57	AnnotatorNotes T18	C0202097; Anti-IgA assay; Laboratory Procedure
+A7	Experiencer T31 Patient
+A8	Experiencer T32 Patient
+A9	Experiencer T34 Patient
+A10	Experiencer T35 Patient
+A11	Experiencer T47 Patient
+A12	Experiencer T51 Patient
+A13	Experiencer T48 Patient
+A14	Experiencer T46 Patient
+R65	Has_Result_or_Value Arg1:T19 Arg2:T80	
+R66	Has_Result_or_Value Arg1:T18 Arg2:T79	
+R67	Has_Result_or_Value Arg1:T28 Arg2:T81	

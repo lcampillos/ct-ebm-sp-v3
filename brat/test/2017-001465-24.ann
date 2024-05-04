@@ -1,0 +1,156 @@
+T1	PROC 46 55	Protocolo
+#1	AnnotatorNotes T1	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T2	PROC 64 89	seguimiento a largo plazo
+#2	AnnotatorNotes T2	C1517942; Long-term Follow-up; Health Care Activity
+T3	ANAT 116 154	linfocitos T modificados genéticamente
+#3	AnnotatorNotes T3	C4706671; Genetically modified T-cell; Cell
+T4	PROC 254 263	protocolo
+#4	AnnotatorNotes T4	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T5	PROC 103 111	tratados
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	ANAT 373 411	linfocitos T modificados genéticamente
+#6	AnnotatorNotes T6	C4706671; Genetically modified T-cell; Cell
+T7	PROC 459 468	protocolo
+#7	AnnotatorNotes T7	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T8	DISO 576 604	mieloma múltiple recidivante
+#8	AnnotatorNotes T8	C2349261; Relapse multiple myeloma; Neoplastic Process
+T9	DISO 699 739	linfoma no Hodgkin de células B agresivo
+T10	ANAT 721 730	células B
+#9	AnnotatorNotes T10	C0004561; B-Lymphocytes; Cell
+T11	ANAT 853 891	linfocitos T modificados genéticamente
+#10	AnnotatorNotes T11	C4706671; Genetically modified T-cell; Cell
+T12	PROC 194 203	protocolo
+#11	AnnotatorNotes T12	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T13	PROC 1022 1033	seguimiento
+#12	AnnotatorNotes T13	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T14	PROC 1047 1058	tratamiento
+#13	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 1065 1074	protocolo
+#14	AnnotatorNotes T15	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T16	PROC 1078 1089	tratamiento
+#15	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 1270 1280	evaluación
+#16	AnnotatorNotes T17	C1261322; Evaluation procedure; Health Care Activity
+T18	PROC 1283 1296	procedimiento
+#17	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T19	PROC 1438 1447	protocolo
+#18	AnnotatorNotes T19	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T20	PROC 361 369	infusión
+#19	AnnotatorNotes T20	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T21	PROC 621 632	tratamiento
+#20	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	PROC 841 849	infusión
+#21	AnnotatorNotes T22	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T23	Date 13 17	2017
+T24	Date 76 89	a largo plazo
+T25	LIVB 93 102	pacientes
+#22	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 299 328	sujetos adultos y pediátricos
+#23	AnnotatorNotes T26	C0681850; Study Subject; Group + C0001675; Adult; Age Group + C0008059; Child; Age Group
+T29	LIVB 493 502	pacientes
+#24	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Date 538 542	2017
+T31	LIVB 554 571	pacientes adultos
+#25	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T33	Date 661 665	2017
+T34	LIVB 677 694	pacientes adultos
+#26	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T37	LIVB 779 808	sujetos adultos y pediátricos
+#27	AnnotatorNotes T37	C0681850; Study Subject; Group + C0001675; Adult; Age Group + C0008059; Child; Age Group
+T40	LIVB 1125 1131	sujeto
+#28	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	LIVB 1138 1143	padre
+#29	AnnotatorNotes T41	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T42	LIVB 1144 1149	madre
+#30	AnnotatorNotes T42	C0026591; Mother (person); Family Group
+T43	LIVB 1150 1169	representante legal
+#31	AnnotatorNotes T43	C4288823; Legal Representative for the Study; Human
+T45	LIVB 1332 1338	sujeto
+#32	AnnotatorNotes T45	C0681850; Study Subject; Group
+T27	PHYS 1193 1201	entender
+#33	AnnotatorNotes T27	C0162340; Comprehension; Mental Process
+T28	PROC 1395 1402	visitas
+#34	AnnotatorNotes T28	C1512346; Patient Visit; Health Care Activity
+A3	Population_data T26 Age
+A4	Population_data T31 Age
+A5	Population_data T34 Age
+A6	Population_data T37 Age
+A7	Status T20 History_of
+A8	Status T22 History_of
+A9	Status T13 History_of
+A10	Status T14 History_of
+A11	Status T16 History_of
+#35	AnnotatorNotes T24	C0443252; Long-term; Temporal Concept
+T32	Neg_cue 1475 1477	No
+T35	Quantifier_or_Qualifier 1478 1488	applicable
+A1	Assertion T35 Negated
+R1	Negation Arg1:T32 Arg2:T35	
+R2	Overlap Arg1:T2 Arg2:T24	
+R3	Experiences Arg1:T25 Arg2:T5	
+R4	Used_for Arg1:T3 Arg2:T5	
+R5	Experiences Arg1:T26 Arg2:T20	
+T36	Quantifier_or_Qualifier 348 360	al menos una
+R6	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T36	
+R7	Used_for Arg1:T6 Arg2:T20	
+T38	PROC 418 425	estudio
+A2	Status T38 History_of
+#36	AnnotatorNotes T38	C0008976; Clinical Trials; Research Activity
+R8	Experiences Arg1:T31 Arg2:T8	
+T39	PROC 507 514	estudio
+#37	AnnotatorNotes T39	C0008976; Clinical Trials; Research Activity
+T44	Quantifier_or_Qualifier 607 632	resistente al tratamiento
+#38	AnnotatorNotes T44	C0205269; Unresponsive to Treatment; Functional Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T44	
+R10	Experiences Arg1:T31 Arg2:T21	
+R11	Experiences Arg1:T34 Arg2:T9	
+R12	Location_of Arg1:T10 Arg2:T9	
+#39	AnnotatorNotes T9	C5555120; Aggressive B-Cell Non-Hodgkin Lymphoma; Neoplastic Process
+R13	Experiences Arg1:T34 Arg2:T8	
+R14	Experiences Arg1:T34 Arg2:T21	
+R15	Experiences Arg1:T29 Arg2:T8	
+R16	Experiences Arg1:T29 Arg2:T9	
+R17	Experiences Arg1:T37 Arg2:T22	
+R18	Used_for Arg1:T11 Arg2:T22	
+T46	Quantifier_or_Qualifier 828 840	al menos una
+R19	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T46	
+T47	PROC 903 910	estudio
+A12	Status T47 History_of
+#40	AnnotatorNotes T47	C0008976; Clinical Trials; Research Activity
+T48	Quantifier_or_Qualifier 982 994	interrumpido
+#41	AnnotatorNotes T48	C0443239; Interrupted; Qualitative Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T48	
+T49	Quantifier_or_Qualifier 997 1007	finalizado
+#42	AnnotatorNotes T49	C1272693; Ended - status; Qualitative Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T49	
+R22	After Arg1:T13 Arg2:T14	
+R23	Experiences Arg1:T37 Arg2:T14	
+R24	Experiences Arg1:T37 Arg2:T16	
+R25	Experiences Arg1:T40 Arg2:T27	
+R26	Experiences Arg1:T41 Arg2:T27	
+R27	Experiences Arg1:T42 Arg2:T27	
+R28	Experiences Arg1:T43 Arg2:T27	
+T50	CONC 1234 1237	DAI
+#43	AnnotatorNotes T50	C5446092; Informed Assent for Research; Intellectual Product ['Documento de Asentimiento Informado' ?] 
+T51	CONC 1230 1233	DCI
+#44	AnnotatorNotes T51	C0009797; Consent Forms; Intellectual Product
+T52	Observation 1205 1237	irmar voluntariamente un DCI/DAI
+#45	AnnotatorNotes T52	C0742766; consent signed; Finding (?)
+R29	Before Arg1:T52 Arg2:T17	
+R30	Before Arg1:T52 Arg2:T18	
+R33	Overlap Arg1:T27 Arg2:T52	
+R36	Experiences Arg1:T40 Arg2:T17	
+R37	Experiences Arg1:T40 Arg2:T18	
+T53	Observation 1344 1447	poder y estar dispuesto a cumplir el calendario de visitas del estudio y otros requisitos del protocolo
+R39	Experiences Arg1:T29 Arg2:T21	
+#46	AnnotatorNotes T35	C1706839; Applicable; Qualitative Concept
+A13	Experiencer T25 Patient
+A14	Experiencer T26 Patient
+A15	Experiencer T29 Patient
+A16	Experiencer T31 Patient
+A17	Experiencer T34 Patient
+A18	Experiencer T37 Patient
+A19	Experiencer T40 Patient
+A20	Experiencer T41 Family_member
+A21	Experiencer T42 Family_member
+A22	Experiencer T43 Other
+A23	Experiencer T45 Patient

@@ -1,0 +1,318 @@
+T1	DISO 1671 1697	compromiso de la inmunidad
+T2	PROC 110 133	tratamiento antibiótico
+#1	AnnotatorNotes T2	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T3	DISO 140 179	infección por estafilococos del catéter
+T4	PROC 202 228	Ensayo clínico randomizado
+#2	AnnotatorNotes T4	C0206034; Clinical Trials, Randomized; Research Activity
+T5	PROC 251 274	tratamiento antibiótico
+#3	AnnotatorNotes T5	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T6	DISO 287 309	bacteriemia de catéter
+T7	PROC 343 352	coagulasa
+#4	AnnotatorNotes T7	C0201122; Coagulase test; Laboratory Procedure
+T8	DISO 385 428	Infección del catéter causado por bacterias
+T9	DISO 481 503	Bacteriemia de catéter
+T10	PROC 530 539	coagulasa
+#5	AnnotatorNotes T10	C0201122; Coagulase test; Laboratory Procedure
+T11	DISO 618 666	Bacteriemia por estafilococos coagulasa-negativa
+#6	AnnotatorNotes T11	C1409727; staphylococcus, sepsis, coagulase-negative; Disease or Syndrome [ICD-10: A41.1]
+T12	PROC 648 657	coagulasa
+#7	AnnotatorNotes T12	C0201122; Coagulase test; Laboratory Procedure
+T13	PROC 757 766	coagulasa
+#8	AnnotatorNotes T13	C0201122; Coagulase test; Laboratory Procedure
+T14	DISO 873 910	manifestaciones clínicas de infección
+T15	DISO 956 967	bacteriemia
+#9	AnnotatorNotes T15	C0004610; Bacteremia; Disease or Syndrome
+T16	DISO 1038 1052	complicaciones
+#10	AnnotatorNotes T16	C0009566; Complication; Pathologic Function
+T17	DISO 1080 1093	shock séptico
+#11	AnnotatorNotes T17	C0036983; Septic Shock; Pathologic Function
+T18	DISO 1095 1106	neutropenia
+#12	AnnotatorNotes T18	C0027947; Neutropenia; Disease or Syndrome | C0853697; Neutrophil count decreased; Finding
+T19	PROC 1135 1144	coagulasa
+#13	AnnotatorNotes T19	C0201122; Coagulase test; Laboratory Procedure
+T20	DISO 1183 1203	cardiopatía valvular
+#14	AnnotatorNotes T20	C0018824; Heart valve disease; Disease or Syndrome
+T21	DISO 1317 1339	tromboflebitis séptica
+T22	PROC 1464 1488	consentimiento informado
+#15	AnnotatorNotes T22	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T23	DISO 1711 1739	inestables hemodinámicamente
+T24	PROC 1834 1858	consentimiento informado
+#16	AnnotatorNotes T24	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T25	DISO 1876 1906	capacidad cognitiva inadecuada
+T26	PROC 2074 2086	valoraciones
+#17	AnnotatorNotes T26	C1261322; Evaluation procedure; Health Care Activity
+T27	CHEM 122 133	antibiótico
+#18	AnnotatorNotes T27	C0003232; Antibiotics; Antibiotic
+T28	CHEM 263 274	antibiótico
+#19	AnnotatorNotes T28	C0003232; Antibiotics; Antibiotic
+T31	ANAT 1195 1203	valvular
+#20	AnnotatorNotes T31	C1186983; anatomic valve; Body Part, Organ, or Organ Component
+T32	Date 12 16	2017
+T33	LIVB 55 72	pacientes adultos
+#21	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T35	LIVB 154 167	estafilococos
+#22	AnnotatorNotes T35	C0038170; Genus staphylococcus; Bacterium
+T36	DEVI 172 179	catéter
+#23	AnnotatorNotes T36	C0085590; catheter device; Medical Device
+T37	DEVI 302 309	catéter
+#24	AnnotatorNotes T37	C0085590; catheter device; Medical Device
+T39	LIVB 329 361	estafilococos coagulasa-negativa
+#25	AnnotatorNotes T39	C0445625; Staphylococcus, coagulase negative; Bacterium
+T41	DEVI 399 406	catéter
+#26	AnnotatorNotes T41	C0085590; catheter device; Medical Device
+T42	LIVB 419 428	bacterias
+#27	AnnotatorNotes T42	C0004611; Bacteria; Bacterium
+T43	DEVI 496 503	catéter
+#28	AnnotatorNotes T43	C0085590; catheter device; Medical Device
+T44	LIVB 516 548	estafilococos coagulasa-negativa
+#29	AnnotatorNotes T44	C0445625; Staphylococcus, coagulase negative; Bacterium
+T46	LIVB 578 585	Hombres
+#30	AnnotatorNotes T46	C0025266; Male population group; Population Group
+T47	LIVB 588 595	mujeres
+#31	AnnotatorNotes T47	C0043210; Woman; Population Group
+T48	Age 596 614	mayores de 18 años
+T49	LIVB 634 666	estafilococos coagulasa-negativa
+#32	AnnotatorNotes T49	C0445625; Staphylococcus, coagulase negative; Bacterium
+T51	DEVI 686 700	catéter venoso
+#33	AnnotatorNotes T51	C0745442; Intravenous Catheters; Medical Device
+T53	LIVB 743 775	estafilococos coagulasa-negativa
+#34	AnnotatorNotes T53	C0445625; Staphylococcus, coagulase negative; Bacterium
+T55	Neg_cue 777 787	excluyendo
+T56	LIVB 809 817	paciente
+#35	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	DEVI 833 847	catéter venoso
+#36	AnnotatorNotes T57	C0745442; Intravenous Catheters; Medical Device
+T60	DEVI 991 998	catéter
+#37	AnnotatorNotes T60	C0085590; catheter device; Medical Device
+T61	LIVB 1002 1011	Pacientes
+#38	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	Neg_cue 1012 1015	sin
+T64	Neg_cue 1067 1078	ausencia de
+T65	LIVB 1121 1153	estafilococos coagulasa-negativa
+#39	AnnotatorNotes T65	C0445625; Staphylococcus, coagulase negative; Bacterium
+T67	DEVI 1221 1261	dispositivos artificiales endovasculares
+#40	AnnotatorNotes T67	C4534539; Endovascular device; Medical Device
+T68	DEVI 1295 1302	catéter
+#41	AnnotatorNotes T68	C0085590; catheter device; Medical Device
+T70	LIVB 1343 1352	Pacientes
+#42	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T72	DEVI 1383 1390	catéter
+#43	AnnotatorNotes T72	C0085590; catheter device; Medical Device
+T73	Duration 1394 1406	las 48 horas
+T74	LIVB 1433 1442	Pacientes
+#44	AnnotatorNotes T74	C0030705; Patients; Patient or Disabled Group
+T75	LIVB 1548 1595	Pacientes embarazadas y en periodo de lactancia
+#45	AnnotatorNotes T75	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T76	LIVB 1599 1608	Pacientes
+#46	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T77	Neg_cue 1619 1621	no
+T78	PROC 1634 1653	retirado el catéter
+#47	AnnotatorNotes T78	C0394884; Removal of catheter; Therapeutic or Preventive Procedure
+T79	DEVI 1646 1653	catéter
+#48	AnnotatorNotes T79	C0085590; catheter device; Medical Device
+T80	LIVB 1657 1666	Pacientes
+#49	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T81	PHYS 1688 1697	inmunidad
+#50	AnnotatorNotes T81	C0020964; Immune response; Organ or Tissue Function | C0020965; Active immunity; Organ or Tissue Function
+T82	LIVB 1701 1710	Pacientes
+#51	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group
+T83	LIVB 1743 1752	Pacientes
+#52	AnnotatorNotes T83	C0030705; Patients; Patient or Disabled Group
+T84	DEVI 1768 1778	protésicos
+#53	AnnotatorNotes T84	C0175649; Prosthesis; Medical Device
+T85	DEVI 1793 1800	catéter
+#54	AnnotatorNotes T85	C0085590; catheter device; Medical Device
+T86	LIVB 1804 1813	Pacientes
+#55	AnnotatorNotes T86	C0030705; Patients; Patient or Disabled Group
+T87	Neg_cue 1814 1826	incapaces de
+T88	PHYS 1886 1895	cognitiva
+#56	AnnotatorNotes T88	C0009240; Cognition; Mental Process
+T91	LIVB 2027 2035	paciente
+#57	AnnotatorNotes T91	C0030705; Patients; Patient or Disabled Group
+T92	PHYS 1558 1569	embarazadas
+#58	AnnotatorNotes T92	C0032961; Pregnancy; Organism Function
+T29	LIVB 788 801	S lugdunensis
+#59	AnnotatorNotes T29	C0445630; Staphylococcus lugdunensis; Bacterium
+T34	LIVB 1168 1181	S lugdunensis
+#60	AnnotatorNotes T34	C0445630; Staphylococcus lugdunensis; Bacterium
+T38	PHYS 1586 1595	lactancia
+#61	AnnotatorNotes T38	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T40	CHEM 1757 1778	materiales protésicos
+#62	AnnotatorNotes T40	C0444752; Prosthetic surgical material; Biomedical or Dental Material (?)
+T45	LIVB 1954 1960	médico
+#63	AnnotatorNotes T45	C0031831; Physicians; Professional or Occupational Group
+T30	PROC 1371 1390	retirado el catéter
+#64	AnnotatorNotes T30	C0394884; Removal of catheter; Therapeutic or Preventive Procedure
+T50	DEVI 1221 1246;1264 1279	dispositivos artificiales extravasculares
+A1	Population_data T33 Age
+A2	Assertion T29 Negated
+A3	Assertion T16 Negated
+A4	Assertion T17 Negated
+A5	Assertion T18 Negated
+A6	Assertion T34 Negated
+A7	Assertion T21 Negated
+A8	Assertion T20 Negated
+A9	Assertion T67 Negated
+A10	Assertion T78 Negated
+A11	Assertion T24 Negated
+#65	AnnotatorNotes T9	C1328352; Catheter bacteraemia; Disease or Syndrome
+#66	AnnotatorNotes T6	C1328352; Catheter bacteraemia; Disease or Syndrome
+#67	AnnotatorNotes T21	C0740341; Septic thrombophlebitis; Disease or Syndrome 
+T52	Neg_cue 916 927	ausencia de
+T54	Quantifier_or_Qualifier 928 933	otros
+A12	Assertion T54 Negated
+T58	CONC 934 939	focos
+A13	Assertion T58 Negated
+R1	Negation Arg1:T55 Arg2:T29	
+R2	Negation Arg1:T52 Arg2:T54	
+R3	Negation Arg1:T52 Arg2:T58	
+R4	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T54	
+R5	Negation Arg1:T62 Arg2:T16	
+T59	Observation 1016 1034	factores de riesgo
+A14	Assertion T59 Negated
+#68	AnnotatorNotes T59	C0035648; risk factors; Finding
+R6	Negation Arg1:T62 Arg2:T59	
+R7	Negation Arg1:T64 Arg2:T17	
+R8	Negation Arg1:T64 Arg2:T18	
+R9	Negation Arg1:T64 Arg2:T34	
+A15	Assertion T65 Negated
+R10	Negation Arg1:T64 Arg2:T65	
+R11	Negation Arg1:T64 Arg2:T20	
+T63	Quantifier_or_Qualifier 1204 1219	moderada-severa
+A16	Assertion T63 Negated
+#69	AnnotatorNotes T63	C1299393; Moderate to severe; Qualitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T63	
+R13	Negation Arg1:T64 Arg2:T67	
+A17	Assertion T50 Negated
+R14	Negation Arg1:T64 Arg2:T50	
+R15	Negation Arg1:T64 Arg2:T21	
+R16	Negation Arg1:T77 Arg2:T78	
+R17	Negation Arg1:T87 Arg2:T24	
+T66	Spec_cue 1962 1967	pueda
+T69	Observation 1979 1985	riesgo
+A18	Assertion T69 Speculated
+T71	Observation 1988 2005	perjuicio clínico
+A19	Assertion T71 Speculated
+R18	Speculation Arg1:T66 Arg2:T71	
+T89	CONC 2056 2066	interfiera
+A20	Assertion T89 Speculated
+#70	AnnotatorNotes T89	C0521102; Interferes with; Functional Concept
+R19	Speculation Arg1:T66 Arg2:T89	
+R20	Speculation Arg1:T66 Arg2:T69	
+R21	Experiences Arg1:T33 Arg2:T2	
+R22	Used_for Arg1:T27 Arg2:T2	
+R23	Causes Arg1:T35 Arg2:T3	
+R24	Overlap Arg1:T3 Arg2:T36	
+R25	Overlap Arg1:T6 Arg2:T37	
+R26	Used_for Arg1:T28 Arg2:T5	
+R27	Causes Arg1:T39 Arg2:T6	
+T90	Result_or_Value 353 361	negativa
+#71	AnnotatorNotes T90	C0205160; Negative; Finding
+R28	Has_Result_or_Value Arg1:T7 Arg2:T90	
+T93	Observation 313 324	bajo riesgo
+#72	AnnotatorNotes T93	C5201228; Low risk; Finding
+R29	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T93	
+R30	Overlap Arg1:T41 Arg2:T8	
+R31	Causes Arg1:T42 Arg2:T8	
+T94	Quantifier_or_Qualifier 438 454	estafilococáceas
+#73	AnnotatorNotes T94	C0038170; Genus staphylococcus; Bacterium
+R32	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T94	
+R33	Overlap Arg1:T9 Arg2:T43	
+R34	Causes Arg1:T44 Arg2:T9	
+T95	Result_or_Value 540 548	negativa
+#74	AnnotatorNotes T95	C0205160; Negative; Finding
+R35	Has_Result_or_Value Arg1:T10 Arg2:T95	
+R36	Has_Age Arg1:T46 Arg2:T48	
+R37	Has_Age Arg1:T47 Arg2:T48	
+R38	Causes Arg1:T49 Arg2:T11	
+R39	Overlap Arg1:T11 Arg2:T51	
+T96	Result_or_Value 658 666	negativa
+#75	AnnotatorNotes T96	C0205160; Negative; Finding
+R40	Has_Result_or_Value Arg1:T12 Arg2:T96	
+T97	Result_or_Value 767 775	negativa
+#76	AnnotatorNotes T97	C0205160; Negative; Finding
+R41	Has_Result_or_Value Arg1:T13 Arg2:T97	
+R42	Causes Arg1:T53 Arg2:T11	
+R43	Experiences Arg1:T56 Arg2:T11	
+R44	Experiences Arg1:T56 Arg2:T51	
+R45	Experiences Arg1:T56 Arg2:T57	
+R46	Overlap Arg1:T11 Arg2:T57	
+R47	Before Arg1:T57 Arg2:T14	
+R48	Experiences Arg1:T56 Arg2:T14	
+R49	Causes Arg1:T53 Arg2:T14	
+R50	Causes Arg1:T49 Arg2:T14	
+R51	Causes Arg1:T49 Arg2:T15	
+R52	Causes Arg1:T53 Arg2:T15	
+R53	Overlap Arg1:T15 Arg2:T60	
+#77	AnnotatorNotes T58	C1285542; Has focus; Functional Concept
+R54	Before Arg1:T51 Arg2:T14	
+R55	Causes Arg1:T15 Arg2:T14	
+R56	Causes Arg1:T11 Arg2:T14	
+R57	Experiences Arg1:T56 Arg2:T15	
+R58	Before Arg1:T60 Arg2:T11	
+R59	Experiences Arg1:T61 Arg2:T59	
+R60	Before Arg1:T59 Arg2:T16	
+R61	Experiences Arg1:T61 Arg2:T16	
+R62	Experiences Arg1:T61 Arg2:T17	
+R63	Experiences Arg1:T61 Arg2:T18	
+T98	Result_or_Value 1108 1118	<500 Ne/uL
+R64	Has_Result_or_Value Arg1:T18 Arg2:T98	
+R65	Experiences Arg1:T61 Arg2:T19	
+R66	Experiences Arg1:T61 Arg2:T20	
+R67	Location_of Arg1:T31 Arg2:T20	
+R68	Negation Arg1:T64 Arg2:T63	
+R69	Experiences Arg1:T61 Arg2:T67	
+R70	Experiences Arg1:T61 Arg2:T50	
+R71	Experiences Arg1:T61 Arg2:T68	
+R72	Experiences Arg1:T61 Arg2:T21	
+T99	Result_or_Value 1145 1153	negativa
+#78	AnnotatorNotes T99	C0205160; Negative; Finding
+R73	Has_Result_or_Value Arg1:T19 Arg2:T99	
+R74	Experiences Arg1:T70 Arg2:T30	
+R75	Used_for Arg1:T72 Arg2:T30	
+R76	Overlap Arg1:T30 Arg2:T73	
+T100	CONC 1420 1429	inclusión
+#79	AnnotatorNotes T100	C1512693; Inclusion; Qualitative Concept
+R77	Before Arg1:T30 Arg2:T100	
+T101	Observation 1494 1518	participar en el estudio
+#80	AnnotatorNotes T101	C1278516; Patient participation status; Finding (?)
+R78	Before Arg1:T22 Arg2:T101	
+R79	Experiences Arg1:T75 Arg2:T92	
+R80	Experiences Arg1:T75 Arg2:T38	
+R81	Experiences Arg1:T76 Arg2:T78	
+R82	Used_for Arg1:T79 Arg2:T78	
+R83	Experiences Arg1:T80 Arg2:T1	
+R85	Experiences Arg1:T80 Arg2:T81	
+#81	AnnotatorNotes T1	C4048329; Immunosuppression; Disease or Syndrome
+R86	Experiences Arg1:T82 Arg2:T23	
+#82	AnnotatorNotes T23	C0948268; Hemodynamic instability; Disease or Syndrome
+R87	Experiences Arg1:T83 Arg2:T40	
+R88	Experiences Arg1:T83 Arg2:T84	
+R89	Experiences Arg1:T83 Arg2:T85	
+R90	Experiences Arg1:T86 Arg2:T25	
+R91	Experiences Arg1:T86 Arg2:T88	
+R93	Experiences Arg1:T91 Arg2:T69	
+R94	Experiences Arg1:T91 Arg2:T71	
+R95	Experiences Arg1:T91 Arg2:T26	
+T102	Observation 2009 2035	participación del paciente
+#83	AnnotatorNotes T102	C1278516; Patient participation status; Finding
+R96	Before Arg1:T102 Arg2:T71	
+R97	Before Arg1:T102 Arg2:T69	
+#84	AnnotatorNotes T8	C1328352; Catheter bacteraemia; Disease or Syndrome
+#85	AnnotatorNotes T69	C0559571; At risk; Finding
+#86	AnnotatorNotes T54	C0205394; Other; Qualitative Concept
+A21	Experiencer T70 Patient
+A22	Experiencer T74 Patient
+A23	Experiencer T76 Patient
+A24	Experiencer T75 Patient
+A25	Experiencer T80 Patient
+A26	Experiencer T47 Patient
+A27	Experiencer T46 Patient
+A28	Experiencer T56 Patient
+A29	Experiencer T61 Patient
+A30	Experiencer T82 Patient
+A31	Experiencer T83 Patient
+A32	Experiencer T86 Patient
+A33	Experiencer T45 Other
+A34	Experiencer T91 Patient
+A35	Experiencer T33 Patient

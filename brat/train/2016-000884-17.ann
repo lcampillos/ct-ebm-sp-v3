@@ -1,0 +1,138 @@
+T1	CHEM 46 53	Morfina
+#1	AnnotatorNotes T1	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T2	CHEM 56 65	midazolam
+#2	AnnotatorNotes T2	C0026056; midazolam; Organic Chemical · Pharmacologic Substance
+T3	ANAT 1116 1121	renal
+#3	AnnotatorNotes T3	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T4	DISO 72 92	edema pulmonar agudo
+#4	AnnotatorNotes T4	C0155919; Acute pulmonary edema; Disease or Syndrome
+T5	PROC 115 166	Ensayo clínico, multicéntrico, randomizado, abierto
+T6	CHEM 191 198	Morfina
+#5	AnnotatorNotes T6	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T7	CHEM 208 217	Midazolam
+#6	AnnotatorNotes T7	C0026056; midazolam; Organic Chemical · Pharmacologic Substance
+T8	DISO 892 898	disnea
+#7	AnnotatorNotes T8	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T9	DISO 235 255	edema pulmonar agudo
+#8	AnnotatorNotes T9	C0155919; Acute pulmonary edema; Disease or Syndrome
+T10	DISO 296 316	Edema pulmonar agudo
+#9	AnnotatorNotes T10	C0155919; Acute pulmonary edema; Disease or Syndrome
+T11	ANAT 368 376	pulmones
+#10	AnnotatorNotes T11	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T12	DISO 405 429	dificultad para respirar
+#11	AnnotatorNotes T12	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T13	DISO 457 478	Edema agudo de pulmón
+#12	AnnotatorNotes T13	C0155919; Acute pulmonary edema; Disease or Syndrome
+T14	DISO 497 520	dificultad respiratoria
+#13	AnnotatorNotes T14	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T15	DISO 563 593	signos clínicos y radiológicos
+#14	AnnotatorNotes T15	C0037088; Sign or Symptom; Sign or Symptom + C1290916; Radiologic finding; Finding
+T16	DISO 597 616	congestión pulmonar
+#15	AnnotatorNotes T16	C0242073; Pulmonary congestion; Disease or Syndrome
+T17	PROC 631 659	tratamiento de forma urgente
+T18	DISO 787 808	edema agudo de pulmón
+#16	AnnotatorNotes T18	C0155919; Acute pulmonary edema; Disease or Syndrome
+T19	DISO 867 887	Síntomas de ansiedad
+#17	AnnotatorNotes T19	C0860603; Anxiety symptoms; Sign or Symptom
+T20	DISO 990 1011	edema agudo de pulmón
+#18	AnnotatorNotes T20	C0155919; Acute pulmonary edema; Disease or Syndrome
+T21	DISO 1123 1146	Enfermedad concomitante
+T22	PROC 1217 1241	consentimiento informado
+#19	AnnotatorNotes T22	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T23	ANAT 78 86	pulmonar
+#20	AnnotatorNotes T23	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T24	PROC 173 187	administración
+#21	AnnotatorNotes T24	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T25	ANAT 241 249	pulmonar
+#22	AnnotatorNotes T25	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T26	ANAT 302 310	pulmonar
+#23	AnnotatorNotes T26	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T27	DISO 324 376	acumulación anormal aguda de líquido en los pulmones
+T28	ANAT 472 478	pulmón
+#24	AnnotatorNotes T28	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T29	ANAT 608 616	pulmonar
+#25	AnnotatorNotes T29	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T30	DISO 706 714	enfermos
+#26	AnnotatorNotes T30	C0012634; Disease; Disease or Syndrome
+T31	ANAT 802 808	pulmón
+#27	AnnotatorNotes T31	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T32	ANAT 1005 1011	pulmón
+#28	AnnotatorNotes T32	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T33	PROC 1107 1121	diálisis renal
+#29	AnnotatorNotes T33	C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T34	Date 13 17	2016
+T35	LIVB 221 230	pacientes
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Age 856 866	18-80 años
+T37	LIVB 976 985	pacientes
+#31	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 1094 1103	Pacientes
+#32	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Date 1180 1193	a corto plazo
+T41	Neg_cue 1196 1212	Incapacidad para
+T42	PHYS 421 429	respirar
+#33	AnnotatorNotes T42	C0035203; Respiration; Physiologic Function
+T43	PHYS 508 520	respiratoria
+#34	AnnotatorNotes T43	C0035203; Respiration; Physiologic Function
+A1	Assertion T22 Negated
+#35	AnnotatorNotes T5	C0206034; Clinical Trials, Randomized; Research Activity + C1096776; Multicenter Study; Research Activity + C1709323; Open Label Study; Research Activity 
+#36	AnnotatorNotes T21	C0243087; concomitant disease; Pathologic Function
+#37	AnnotatorNotes T40	C0443303; short-term; Temporal Concept
+T38	Neg_cue 1060 1062	no
+T44	Observation 1069 1092	incluidos en el estudio
+A2	Assertion T44 Negated
+#38	AnnotatorNotes T44	C1302261; Patient eligible for clinical trial; Finding (?)
+R1	Negation Arg1:T38 Arg2:T44	
+R2	Experiences Arg1:T37 Arg2:T20	
+R3	Location_of Arg1:T32 Arg2:T20	
+R4	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T44	
+R5	Location_of Arg1:T3 Arg2:T33	
+R6	Experiences Arg1:T39 Arg2:T33	
+T45	Quantifier_or_Qualifier 1147 1153	severa
+#39	AnnotatorNotes T45	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R7	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T45	
+T46	Observation 1158 1179	pronóstico disminuido
+#40	AnnotatorNotes T46	C0278252; Prognosis bad; Finding (?) | C5419418; Reduction in Life Expectancy; Finding (?) | C1504437; Life expectancy shortened; Finding (?)
+R8	Overlap Arg1:T46 Arg2:T40	
+R9	Causes Arg1:T21 Arg2:T46	
+R10	Negation Arg1:T41 Arg2:T22	
+T47	Observation 1243 1272	Participación en otro estudio
+R11	Location_of Arg1:T23 Arg2:T4	
+R12	Used_for Arg1:T6 Arg2:T24	
+R13	Used_for Arg1:T7 Arg2:T24	
+R14	Experiences Arg1:T35 Arg2:T24	
+R15	Experiences Arg1:T35 Arg2:T9	
+R16	Location_of Arg1:T25 Arg2:T9	
+R17	Location_of Arg1:T26 Arg2:T10	
+R18	Location_of Arg1:T11 Arg2:T27	
+R19	Causes Arg1:T27 Arg2:T12	
+R20	Causes Arg1:T10 Arg2:T12	
+R22	Location_of Arg1:T28 Arg2:T13	
+R24	Location_of Arg1:T29 Arg2:T16	
+R25	Causes Arg1:T16 Arg2:T15	
+R26	Overlap Arg1:T13 Arg2:T15	
+R27	Overlap Arg1:T13 Arg2:T16	
+R28	Causes Arg1:T13 Arg2:T14	
+T48	Observation 531 538	empeora
+#41	AnnotatorNotes T48	C1457868; Worse; Finding (?)
+R29	Before Arg1:T14 Arg2:T48	
+T49	CONC 542 557	decúbito supino
+#42	AnnotatorNotes T49	C0442221; Supine decubitus; Spatial Concept
+R30	Overlap Arg1:T48 Arg2:T49	
+R31	Overlap Arg1:T14 Arg2:T15	
+R32	Causes Arg1:T16 Arg2:T14	
+T50	Quantifier_or_Qualifier 521 526	grave
+#43	AnnotatorNotes T50	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R33	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T50	
+T51	PROC 719 750	acudan al servicio de urgencias
+#44	AnnotatorNotes T51	C1527398; Emergency Care; Therapeutic or Preventive Procedure
+R34	Location_of Arg1:T31 Arg2:T18	
+T52	Quantifier_or_Qualifier 899 904	grave
+R35	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T52	
+R36	Overlap Arg1:T19 Arg2:T8	
+#45	AnnotatorNotes T52	C1547227; Severe - Severity of Illness Code; Intellectual Product
+T53	Observation 909 930	consientan participar
+#46	AnnotatorNotes T53	C1302239; Patient consented to clinical trial; Finding
+A3	Experiencer T39 Patient
+A4	Experiencer T37 Patient
+A5	Experiencer T35 Patient

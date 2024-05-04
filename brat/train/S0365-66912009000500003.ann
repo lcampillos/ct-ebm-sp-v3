@@ -1,0 +1,173 @@
+T1	DISO 27 48	retinopatía diabética
+#1	AnnotatorNotes T1	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T2	DISO 62 72	diabéticos
+#2	AnnotatorNotes T2	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T3	DISO 182 184	RD
+#3	AnnotatorNotes T3	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T4	DISO 159 180	retinopatía diabética
+#4	AnnotatorNotes T4	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T5	DISO 226 236	diabéticos
+#5	AnnotatorNotes T5	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T6	DISO 291 302	midriáticas
+#6	AnnotatorNotes T6	C0026961; Mydriasis; Sign or Symptom
+T7	DISO 553 559	DM2NID
+#7	AnnotatorNotes T7	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T8	PROC 311 323	telemedicina
+#8	AnnotatorNotes T8	C0162648; Telemedicine; Health Care Activity
+T9	DISO 608 613	DM2ID
+#9	AnnotatorNotes T9	C0342266; Insulin treated type 2 diabetes mellitus; Disease or Syndrome
+T10	PROC 385 409	revisión de fondo de ojo
+T11	ANAT 397 409	fondo de ojo
+#10	AnnotatorNotes T11	C0016823; Structure of fundus of eye; Body Part, Organ, or Organ Component | C1284756; Entire fundus of eye; Body Location or Region
+T12	DISO 473 497	diabetes mellitus tipo 1
+#11	AnnotatorNotes T12	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T13	DISO 499 502	DM1
+#12	AnnotatorNotes T13	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T14	DISO 505 551	diabetes mellitus tipo no insulinodependientes
+#13	AnnotatorNotes T14	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T15	DISO 563 606	diabetes tipo 2 en tratamiento con insulina
+#14	AnnotatorNotes T15	C0342266; Insulin treated type 2 diabetes mellitus; Disease or Syndrome
+T16	PROC 582 593	tratamiento
+#15	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 630 643	retinografías
+#16	AnnotatorNotes T17	C0200189; Fundus photography; Diagnostic Procedure | C0559963; Retinal photography; Diagnostic Procedure
+T18	ANAT 666 674	dos ojos
+#17	AnnotatorNotes T18	C0229118; Structure of both eyes; Body Part, Organ, or Organ Component
+T19	DISO 914 932	RD no proliferante
+#18	AnnotatorNotes T19	C0004606; Nonproliferative diabetic retinopathy; Disease or Syndrome
+T20	DISO 758 779	retinopatía diabética
+#19	AnnotatorNotes T20	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T21	PROC 834 845	exploración
+#20	AnnotatorNotes T21	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T22	DISO 856 868	signos de RD
+T23	DISO 879 898	RD no proliferativa
+#21	AnnotatorNotes T23	C0004606; Nonproliferative diabetic retinopathy; Disease or Syndrome
+T24	DISO 1048 1057	diabética
+#22	AnnotatorNotes T24	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T25	PROC 1084 1097	retinografías
+#23	AnnotatorNotes T25	C0200189; Fundus photography; Diagnostic Procedure | C0559963; Retinal photography; Diagnostic Procedure
+T26	PROC 1132 1143	exploración
+#24	AnnotatorNotes T26	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T27	DISO 1200 1211	midriáticas
+#25	AnnotatorNotes T27	C0026961; Mydriasis; Sign or Symptom
+T28	PROC 1214 1226	telemedicina
+#26	AnnotatorNotes T28	C0162648; Telemedicine; Health Care Activity
+T29	PROC 1257 1273	cribado de la RD
+#27	AnnotatorNotes T29	C1277181; Diabetic retinopathy screening; Diagnostic Procedure
+T30	DISO 1304 1321	diabetes mellitus
+#28	AnnotatorNotes T30	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T31	DISO 97 107	midriático
+#29	AnnotatorNotes T31	C0026961; Mydriasis; Sign or Symptom
+T32	PROC 270 302	empleo de cámaras no midriáticas
+T33	DISO 952 970	RD no proliferante
+#30	AnnotatorNotes T33	C0004606; Nonproliferative diabetic retinopathy; Disease or Syndrome
+T34	DISO 1029 1031	RD
+#31	AnnotatorNotes T34	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T35	DISO 1271 1273	RD
+#32	AnnotatorNotes T35	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T36	CHEM 598 606	insulina
+#33	AnnotatorNotes T36	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T37	PROC 1182 1211	uso de cámaras no midriáticas
+T38	LIVB 52 61	pacientes
+#34	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Neg_cue 94 96	no
+T41	LIVB 216 225	pacientes
+#35	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	DEVI 280 302	cámaras no midriáticas
+#36	AnnotatorNotes T43	C2955685; Cameras, Photographic, Ophthalmic, Fundus, Non-Mydriatic; Medical Device
+T44	Neg_cue 288 290	no
+T45	LIVB 359 368	pacientes
+#37	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 704 715	oftalmólogo
+#38	AnnotatorNotes T49	C1704292; Ophthalmologist (occupation); Professional or Occupational Group
+T50	Neg_cue 846 848	no
+T55	LIVB 1151 1162	oftalmólogo
+#39	AnnotatorNotes T55	C1704292; Ophthalmologist (occupation); Professional or Occupational Group
+T56	DEVI 1189 1211	cámaras no midriáticas
+#40	AnnotatorNotes T56	C2955685; Cameras, Photographic, Ophthalmic, Fundus, Non-Mydriatic; Medical Device
+T57	Neg_cue 1197 1199	no
+T58	LIVB 1038 1047	población
+#41	AnnotatorNotes T58	C1257890; Population; Population Group
+T59	LIVB 1284 1293	población
+#42	AnnotatorNotes T59	C1257890; Population; Population Group
+T40	DEVI 82 107	retinógrafo no midriático
+#43	AnnotatorNotes T40	C2955685; Cameras, Photographic, Ophthalmic, Fundus, Non-Mydriatic; Medical Device
+A1	Assertion T31 Negated
+A2	Assertion T6 Negated
+A3	Assertion T27 Negated
+A4	Assertion T22 Negated
+R1	Negation Arg1:T39 Arg2:T31	
+R2	Negation Arg1:T44 Arg2:T6	
+R3	Negation Arg1:T50 Arg2:T22	
+R4	Negation Arg1:T57 Arg2:T27	
+R5	Used_for Arg1:T56 Arg2:T37	
+R6	Experiences Arg1:T59 Arg2:T30	
+R7	Experiences Arg1:T59 Arg2:T35	
+R8	Experiences Arg1:T59 Arg2:T29	
+R9	Experiences Arg1:T59 Arg2:T28	
+R10	Experiences Arg1:T59 Arg2:T37	
+R11	Combined_with Arg1:T37 Arg2:T28	
+R12	Experiences Arg1:T38 Arg2:T1	
+R13	Experiences Arg1:T38 Arg2:T2	
+R14	Causes Arg1:T2 Arg2:T1	
+R15	Causes Arg1:T30 Arg2:T35	
+R18	Experiences Arg1:T41 Arg2:T4	
+R19	Experiences Arg1:T41 Arg2:T3	
+R20	Experiences Arg1:T41 Arg2:T5	
+R21	Causes Arg1:T5 Arg2:T4	
+R22	Causes Arg1:T5 Arg2:T3	
+R23	Used_for Arg1:T43 Arg2:T32	
+R24	Combined_with Arg1:T32 Arg2:T8	
+R25	Experiences Arg1:T41 Arg2:T32	
+R26	Experiences Arg1:T41 Arg2:T8	
+R27	Experiences Arg1:T45 Arg2:T10	
+R28	Location_of Arg1:T11 Arg2:T10	
+R29	Experiences Arg1:T45 Arg2:T12	
+R30	Experiences Arg1:T45 Arg2:T13	
+R31	Experiences Arg1:T45 Arg2:T14	
+R32	Experiences Arg1:T45 Arg2:T7	
+R33	Experiences Arg1:T45 Arg2:T15	
+R34	Experiences Arg1:T45 Arg2:T9	
+R41	Used_for Arg1:T36 Arg2:T16	
+R42	Experiences Arg1:T45 Arg2:T16	
+R43	Location_of Arg1:T18 Arg2:T17	
+#44	AnnotatorNotes T10	C0029090; Ophthalmoscopy; Diagnostic Procedure (?)
+T42	Neg_cue 882 884	no
+T46	Neg_cue 955 957	no
+T47	Quantifier_or_Qualifier 885 898	proliferativa
+A5	Assertion T47 Negated
+R48	Negation Arg1:T42 Arg2:T47	
+T48	Neg_cue 917 919	no
+T51	Quantifier_or_Qualifier 920 932	proliferante
+A6	Assertion T51 Negated
+R49	Negation Arg1:T48 Arg2:T51	
+T52	Quantifier_or_Qualifier 899 903	leve
+R50	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T52	
+T53	Quantifier_or_Qualifier 933 941	moderada
+R51	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T53	
+T54	Quantifier_or_Qualifier 958 970	proliferante
+A7	Assertion T54 Negated
+R52	Negation Arg1:T46 Arg2:T54	
+T60	Quantifier_or_Qualifier 971 977	severa
+#45	AnnotatorNotes T60	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R53	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T60	
+R54	Experiences Arg1:T58 Arg2:T34	
+R55	Causes Arg1:T24 Arg2:T34	
+R56	Experiences Arg1:T58 Arg2:T24	
+T61	Quantifier_or_Qualifier 1108 1118	valorables
+A8	Assertion T61 Negated
+#46	AnnotatorNotes T61	C1883425; Unevaluable; Quantitative Concept
+R57	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T61	
+T62	Neg_cue 1105 1107	no
+R58	Negation Arg1:T62 Arg2:T61	
+R59	Before Arg1:T25 Arg2:T26	
+R60	Experiences Arg1:T38 Arg2:T40	
+#47	AnnotatorNotes T53	C0205081; Moderate (severity modifier); Qualitative Concept
+#48	AnnotatorNotes T52	C2945599; Mild (qualifier value); Qualitative Concept
+A9	Experiencer T58 Patient
+A10	Experiencer T55 Other
+A11	Experiencer T59 Patient
+A12	Experiencer T38 Patient
+A13	Experiencer T41 Patient
+A14	Experiencer T45 Patient
+A15	Experiencer T49 Other

@@ -1,0 +1,210 @@
+T1	PROC 1 12	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 17 39	hormona de crecimiento
+#2	AnnotatorNotes T2	C0037663; Growth Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0169964; somatropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T3	DISO 80 90	talla baja
+#3	AnnotatorNotes T3	C0349588; Short stature; Finding
+T4	PROC 407 444	Determinar la eficacia y la seguridad
+#4	AnnotatorNotes T4	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T5	DISO 100 133	pequeños para la edad gestacional
+#5	AnnotatorNotes T5	C0235991; Small for gestational age (disorder); Finding
+T6	PROC 621 632	Se trataron
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	PROC 1102 1126	concentraciones de IGF-I
+#7	AnnotatorNotes T7	C2182463; serum insulin-like growth factor 1 (IFG-1) level; Laboratory Procedure
+T8	DISO 178 211	pequeños para la edad gestacional
+#8	AnnotatorNotes T8	C0235991; Small for gestational age (disorder); Finding
+T9	PROC 275 286	tratamiento
+#9	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	CHEM 291 313	hormona de crecimiento
+#10	AnnotatorNotes T10	C0037663; Growth Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0169964; somatropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T11	PROC 449 460	tratamiento
+#11	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	CHEM 465 487	hormona de crecimiento
+#12	AnnotatorNotes T12	C0037663; Growth Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0169964; somatropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T13	DISO 522 555	pequeños para la edad gestacional
+#13	AnnotatorNotes T13	C0235991; Small for gestational age (disorder); Finding
+T14	CHEM 575 597	hormona de crecimiento
+#14	AnnotatorNotes T14	C0037663; Growth Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0169964; somatropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T15	CHEM 664 686	hormona de crecimiento
+#15	AnnotatorNotes T15	C0037663; Growth Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0169964; somatropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T16	DISO 1719 1737	episodios adversos
+#16	AnnotatorNotes T16	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T17	CHEM 1121 1126	IGF-I
+#17	AnnotatorNotes T17	C0021665; Insulin-Like Growth Factor I; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T18	PROC 1184 1195	tratamiento
+#18	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	CHEM 1220 1227	glucosa
+#19	AnnotatorNotes T19	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T20	PROC 1230 1238	insulina
+#20	AnnotatorNotes T20	C0202098; Insulin measurement; Laboratory Procedure
+T21	CHEM 1378 1386	insulina
+#21	AnnotatorNotes T21	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T22	DISO 1417 1460	alteración en la sensibilidad a la insulina
+T23	CHEM 1452 1460	insulina
+#22	AnnotatorNotes T23	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T24	PROC 1481 1492	tratamiento
+#23	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	CHEM 1512 1535	hormona del crecimiento
+#24	AnnotatorNotes T25	C0037663; Growth Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0169964; somatropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T26	DISO 1606 1639	pequeños para la edad gestacional
+#25	AnnotatorNotes T26	C0235991; Small for gestational age (disorder); Finding
+T27	PROC 1132 1159	proteína transportadora BP3
+T28	PROC 1757 1768	tratamiento
+#26	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	DISO 560 597	deficiencia de hormona de crecimiento
+#27	AnnotatorNotes T29	C0239787; Growth hormone concentrations below normal; Finding
+T30	PROC 1201 1227	concentraciones de glucosa
+#28	AnnotatorNotes T30	C0337438; Glucose measurement; Laboratory Procedure
+T31	LIVB 43 48	niños
+#29	AnnotatorNotes T31	C0008059; Child; Age Group
+T32	Age 49 66	menores de 6 años
+T33	PHYS 122 133	gestacional
+#30	AnnotatorNotes T33	C0032961; Pregnancy; Organism Function
+T34	LIVB 164 169	niños
+#31	AnnotatorNotes T34	C0008059; Child; Age Group
+T37	PHYS 228 239	crecimiento
+#32	AnnotatorNotes T37	C0018270; Growth; Organism Function
+T38	LIVB 388 393	niños
+#33	AnnotatorNotes T38	C0008059; Child; Age Group
+T39	Duration 496 504	dos años
+T40	LIVB 508 513	niños
+#34	AnnotatorNotes T40	C0008059; Child; Age Group
+T42	Neg_cue 556 559	sin
+T43	LIVB 636 641	niños
+#35	AnnotatorNotes T43	C0008059; Child; Age Group
+T44	Age 642 659	menores de 6 años
+T45	Dose 689 698	1,0 UI/kg
+T46	Frequency 698 705	/semana
+T47	PHYS 776 787	crecimiento
+#36	AnnotatorNotes T47	C0018270; Growth; Organism Function
+T49	Duration 1035 1041	2 años
+T50	Duration 1162 1179	los 12 y 24 meses
+T52	Duration 1501 1507	2 años
+T54	LIVB 1588 1597	pacientes
+#37	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	PHYS 1628 1639	gestacional
+#38	AnnotatorNotes T55	C0032961; Pregnancy; Organism Function
+T57	Neg_cue 1702 1704	No
+T59	PHYS 28 39	crecimiento
+#39	AnnotatorNotes T59	C0018270; Growth; Organism Function
+T60	PHYS 302 313	crecimiento
+#40	AnnotatorNotes T60	C0018270; Growth; Organism Function
+T61	PHYS 476 487	crecimiento
+#41	AnnotatorNotes T61	C0018270; Growth; Organism Function
+T62	PHYS 586 597	crecimiento
+#42	AnnotatorNotes T62	C0018270; Growth; Organism Function
+T63	PHYS 675 686	crecimiento
+#43	AnnotatorNotes T63	C0018270; Growth; Organism Function
+T66	PHYS 1524 1535	crecimiento
+#44	AnnotatorNotes T66	C0018270; Growth; Organism Function
+T35	PHYS 200 211	gestacional
+#45	AnnotatorNotes T35	C0032961; Pregnancy; Organism Function
+T36	PHYS 544 555	gestacional
+#46	AnnotatorNotes T36	C0032961; Pregnancy; Organism Function
+T41	Duration 866 890	el primer y segundo años
+T48	PROC 984 989	talla
+#47	AnnotatorNotes T48	C0204658; Measuring height of patient; Diagnostic Procedure
+A1	Population_data T31 Age
+A2	Population_data T34 Age
+A3	Population_data T38 Age
+A4	Population_data T40 Age
+A5	Assertion T29 Negated
+A6	Assertion T16 Negated
+R1	Negation Arg1:T42 Arg2:T29	
+R2	Negation Arg1:T57 Arg2:T16	
+T51	Neg_cue 212 214	no
+R3	Negation Arg1:T51 Arg2:T37	
+A7	Assertion T37 Negated
+T53	Observation 228 251	crecimiento compensador
+A8	Assertion T53 Negated
+R5	Negation Arg1:T51 Arg2:T53	
+R6	Used_for Arg1:T2 Arg2:T1	
+R7	Experiences Arg1:T31 Arg2:T1	
+R8	Experiences Arg1:T31 Arg2:T59	
+R9	Has_Age Arg1:T31 Arg2:T32	
+R10	Experiences Arg1:T31 Arg2:T3	
+R11	Experiences Arg1:T31 Arg2:T5	
+R14	Experiences Arg1:T34 Arg2:T8	
+R15	Experiences Arg1:T34 Arg2:T37	
+R16	Used_for Arg1:T10 Arg2:T9	
+R17	Experiences Arg1:T38 Arg2:T9	
+R18	Experiences Arg1:T38 Arg2:T60	
+R20	Has_Duration_or_Interval Arg1:T12 Arg2:T39	
+R21	Experiences Arg1:T40 Arg2:T61	
+R22	Experiences Arg1:T40 Arg2:T11	
+R23	Used_for Arg1:T12 Arg2:T11	
+R24	Experiences Arg1:T40 Arg2:T13	
+R26	Overlap Arg1:T13 Arg2:T29	
+R27	Experiences Arg1:T40 Arg2:T29	
+R28	Has_Age Arg1:T43 Arg2:T44	
+R29	Experiences Arg1:T43 Arg2:T6	
+R30	Used_for Arg1:T15 Arg2:T6	
+R31	Experiences Arg1:T43 Arg2:T63	
+R32	Has_Dose_or_Strength Arg1:T15 Arg2:T45	
+R33	Has_Frequency Arg1:T15 Arg2:T46	
+T58	Observation 735 742;757 787	aumento en la velocidad de crecimiento
+R34	Has_Duration_or_Interval Arg1:T58 Arg2:T41	
+R35	Has_Duration_or_Interval Arg1:T47 Arg2:T41	
+T64	Observation 943 950	mejoría
+#50	AnnotatorNotes T64	C0184511; Improve; Finding (?)
+R37	Overlap Arg1:T48 Arg2:T49	
+R38	Overlap Arg1:T64 Arg2:T49	
+R39	Has_Duration_or_Interval Arg1:T18 Arg2:T50	
+R40	Overlap Arg1:T27 Arg2:T50	
+R41	Overlap Arg1:T7 Arg2:T50	
+T65	Observation 1070 1080;1095 1126	incremento en las concentraciones de IGF-I
+T67	Observation 1070 1080;1132 1159	incremento proteína transportadora BP3
+R42	Overlap Arg1:T67 Arg2:T50	
+R43	Overlap Arg1:T65 Arg2:T50	
+T68	CONC 1289 1294	ANOVA
+#51	AnnotatorNotes T68	C0002780; Analysis of Variance; Quantitative Concept
+T69	Observation 1201 1219;1230 1249	concentraciones de insulina aumentaron
+#52	AnnotatorNotes T69	C0852795; Increased insulin level; Finding
+T70	Observation 1201 1227;1239 1249	concentraciones de glucosa aumentaron
+#53	AnnotatorNotes T70	C0860803; Glucose increased; Finding
+T71	PROC 1280 1287	estudio
+#54	AnnotatorNotes T71	C0681814; research study; Research Activity
+R44	Overlap Arg1:T70 Arg2:T71	
+R45	Overlap Arg1:T20 Arg2:T71	
+R46	Overlap Arg1:T30 Arg2:T71	
+R47	Overlap Arg1:T70 Arg2:T71	
+T72	Quantifier_or_Qualifier 1412 1416	leve
+R48	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T72	
+R49	Has_Duration_or_Interval Arg1:T24 Arg2:T52	
+R50	Used_for Arg1:T25 Arg2:T24	
+T73	Observation 1547 1554;1569 1580	aumento de la talla
+T74	PROC 1575 1580	talla
+#55	AnnotatorNotes T74	C0204658; Measuring height of patient; Diagnostic Procedure
+R51	Experiences Arg1:T54 Arg2:T74	
+R52	Experiences Arg1:T54 Arg2:T73	
+R53	Experiences Arg1:T54 Arg2:T24	
+R54	Causes Arg1:T24 Arg2:T73	
+R55	Experiences Arg1:T54 Arg2:T26	
+R57	Causes Arg1:T28 Arg2:T16	
+T75	Quantifier_or_Qualifier 1738 1745	mayores
+#56	AnnotatorNotes T75	C0205164; Major; Qualitative Concept 
+R58	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T75	
+R59	Experiences Arg1:T54 Arg2:T66	
+T76	PROC 1349 1386	índices de sensibilidad a la insulina
+#57	AnnotatorNotes T76	C4049919; Insulin Sensitivity Measurement; Laboratory Procedure
+R12	Experiences Arg1:T40 Arg2:T62	
+R13	Before Arg1:T18 Arg2:T65	
+R19	Before Arg1:T18 Arg2:T67	
+#48	AnnotatorNotes T72	C2945599; Mild (qualifier value); Qualitative Concept
+#49	AnnotatorNotes T53	C5394298; Postnatal catch-up growth; Finding
+R4	Experiences Arg1:T34 Arg2:T53	
+A9	Population_data T43 Age
+#58	AnnotatorNotes T73	C0557899; Height increased; Finding
+#59	AnnotatorNotes T65	C4523877; Elevated IGF-1; Finding
+A10	Experiencer T31 Patient
+A11	Experiencer T34 Patient
+A12	Experiencer T38 Patient
+A13	Experiencer T40 Patient
+A14	Experiencer T43 Patient
+A15	Experiencer T54 Patient
+R25	Has_Result_or_Value Arg1:T7 Arg2:T65	
+R36	Has_Result_or_Value Arg1:T27 Arg2:T67	
+R56	Has_Result_or_Value Arg1:T30 Arg2:T70	
+R60	Has_Result_or_Value Arg1:T20 Arg2:T69	
+R61	Has_Result_or_Value Arg1:T74 Arg2:T73	

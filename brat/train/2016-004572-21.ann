@@ -1,0 +1,149 @@
+T1	DISO 71 87	colitis ulcerosa
+#1	AnnotatorNotes T1	C0009324; Ulcerative Colitis; Disease or Syndrome
+T2	CHEM 117 133	inhibidor de TNF
+T3	CHEM 314 323	BI 655130
+T4	DISO 162 187	inflamación del intestino
+T5	CHEM 219 228	BI 655130
+T6	PROC 242 249	terapia
+#2	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	PROC 280 310	Estudio preliminar de eficacia
+T8	PROC 329 340	tratamiento
+#3	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	DISO 368 384	colitis ulcerosa
+#4	AnnotatorNotes T9	C0009324; Ulcerative Colitis; Disease or Syndrome
+T10	DISO 1254 1283	Tuberculosis activa o latente
+#5	AnnotatorNotes T10	C0151332; Active tuberculosis; Disease or Syndrome + C1609538; Latent Tuberculosis; Disease or Syndrome
+T11	PROC 422 433	tratamiento
+#6	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	CHEM 438 456	inhibidores de TNF
+T13	DISO 481 497	Colitis ulcerosa
+#7	AnnotatorNotes T13	C0009324; Ulcerative Colitis; Disease or Syndrome
+T14	DISO 524 540	Colitis ulcerosa
+#8	AnnotatorNotes T14	C0009324; Ulcerative Colitis; Disease or Syndrome
+T15	PROC 577 584	terapia
+#9	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	CHEM 589 607	inhibidores de TNF
+T17	PROC 687 701	aleatorización
+#10	AnnotatorNotes T17	C0034656; Randomization; Research Activity
+T18	PROC 704 715	Diagnóstico
+#11	AnnotatorNotes T18	C0011900; Diagnosis; Diagnostic Procedure
+T19	DISO 719 735	colitis ulcerosa
+#12	AnnotatorNotes T19	C0009324; Ulcerative Colitis; Disease or Syndrome
+T20	PROC 769 780	tratamiento
+#13	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	CHEM 785 803	inhibidores de TNF
+T22	PROC 860 874	aleatorización
+#14	AnnotatorNotes T22	C0034656; Randomization; Research Activity
+T23	DISO 911 921	enfermedad
+#15	AnnotatorNotes T23	C0012634; Disease; Disease or Syndrome
+T24	CHEM 1082 1098	inhibidor de TNF
+T25	CHEM 1101 1112	vedolizumab
+#16	AnnotatorNotes T25	C2742797; vedolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T26	PROC 1115 1142	Resección extensa del colon
+T27	ANAT 1137 1142	colon
+#17	AnnotatorNotes T27	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T28	DISO 1159 1212	infección con C. difficile u otro patógeno intestinal
+#18	AnnotatorNotes T28	C0343386; Clostridium difficile infection; Disease or Syndrome + C0178238; Intestinal infectious disease; Disease or Syndrome
+T29	ANAT 1202 1212	intestinal
+#19	AnnotatorNotes T29	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T30	ANAT 178 187	intestino
+#20	AnnotatorNotes T30	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T31	Date 13 17	2016
+T32	LIVB 57 66	pacientes
+#21	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 205 213	paciente
+#22	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Date 250 256	actual
+T36	LIVB 354 363	pacientes
+#23	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Age 636 654	Entre 18 y 60 años
+T38	Duration 739 758	los últimos 4 meses
+T39	Duration 828 847	los últimos 4 meses
+T41	Duration 1213 1229	al menos 28 días
+T42	LIVB 1193 1201	patógeno
+#24	AnnotatorNotes T42	C0450254; Pathogenic organism; Organism
+T33	Dose 808 824	dosis constantes
+T40	LIVB 1173 1185	C. difficile
+#25	AnnotatorNotes T40	C0079134; Clostridium difficile; Bacterium
+A1	Status T24 History_of
+A2	Status T25 History_of
+A3	Status T26 History_of
+#26	AnnotatorNotes T2	C3537192; Tumor Necrosis Factor Inhibitors; Pharmacologic Substance 
+#27	AnnotatorNotes T16	C3537192; Tumor Necrosis Factor Inhibitors; Pharmacologic Substance 
+#28	AnnotatorNotes T12	C3537192; Tumor Necrosis Factor Inhibitors; Pharmacologic Substance 
+#29	AnnotatorNotes T21	C3537192; Tumor Necrosis Factor Inhibitors; Pharmacologic Substance 
+#30	AnnotatorNotes T24	C3537192; Tumor Necrosis Factor Inhibitors; Pharmacologic Substance 
+#31	AnnotatorNotes T5	C5543835; BI 655130; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#32	AnnotatorNotes T3	C5543835; BI 655130; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#33	AnnotatorNotes T35	C0521116; Current (present time); Temporal Concept 
+R1	Experiences Arg1:T32 Arg2:T1	
+T43	CONC 956 966	Mayo (MCS)
+#34	AnnotatorNotes T43	C5420651; Ulcerative Colitis Disease Activity Index; Intellectual Product
+T44	Result_or_Value 968 986	menor o igual a 10
+R2	Has_Result_or_Value Arg1:T43 Arg2:T44	
+T45	Quantifier_or_Qualifier 88 103	leve o moderada
+#35	AnnotatorNotes T45	C1299392; Mild to moderate; Qualitative Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T45	
+T48	Observation 877 886;896 904	Actividad moderada
+#38	AnnotatorNotes T48	C3833417; Moderate activity; Finding
+R5	Overlap Arg1:T19 Arg2:T38	
+R6	Overlap Arg1:T18 Arg2:T38	
+T49	Quantifier_or_Qualifier 544 550	ligera
+R7	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T49	
+R8	Used_for Arg1:T16 Arg2:T15	
+T50	PROC 675 684	selección
+#39	AnnotatorNotes T50	C0242802; Patient Selection; Research Activity
+R9	Overlap Arg1:T50 Arg2:T37	
+R10	Overlap Arg1:T17 Arg2:T37	
+R11	Experiences Arg1:T32 Arg2:T2	
+R12	Location_of Arg1:T30 Arg2:T4	
+R13	Experiences Arg1:T34 Arg2:T5	
+R14	Experiences Arg1:T34 Arg2:T4	
+R15	Experiences Arg1:T34 Arg2:T6	
+R16	Combined_with Arg1:T5 Arg2:T6	
+R17	Overlap Arg1:T6 Arg2:T35	
+T51	Observation 188 194	mejora
+#40	AnnotatorNotes T51	C0184511; Improved; Finding (?)
+R18	Used_for Arg1:T3 Arg2:T8	
+R19	Experiences Arg1:T36 Arg2:T3	
+R20	Experiences Arg1:T36 Arg2:T9	
+T52	Quantifier_or_Qualifier 395 410	leve a moderada
+#41	AnnotatorNotes T52	C1299392; Mild to moderate; Qualitative Concept 
+T53	Observation 877 893	Actividad ligera
+R21	Used_for Arg1:T21 Arg2:T20	
+R22	Has_Dose_or_Strength Arg1:T21 Arg2:T33	
+T54	Quantifier_or_Qualifier 1063 1072	más de un
+R23	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T54	
+R24	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T54	
+#42	AnnotatorNotes T49	C2945599; Mild (qualifier value); Qualitative Concept (?)
+T55	Quantifier_or_Qualifier 553 573	moderadamente activa
+R25	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T55	
+#43	AnnotatorNotes T55	C0205081; Moderate (severity modifier); Qualitative Concept
+R26	Overlap Arg1:T21 Arg2:T39	
+R27	Before Arg1:T20 Arg2:T22	
+R28	Location_of Arg1:T27 Arg2:T26	
+R29	Causes Arg1:T40 Arg2:T28	
+R30	Causes Arg1:T42 Arg2:T28	
+R31	Location_of Arg1:T29 Arg2:T28	
+R32	Has_Duration_or_Interval Arg1:T28 Arg2:T41	
+T56	PROC 1242 1251	selección
+#44	AnnotatorNotes T56	C0242802; Patient Selection; Research Activity
+R33	Before Arg1:T28 Arg2:T56	
+R34	Experiences Arg1:T34 Arg2:T51	
+R35	Before Arg1:T5 Arg2:T51	
+R36	Before Arg1:T4 Arg2:T51	
+R37	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T52	
+R39	Combined_with Arg1:T3 Arg2:T11	
+R40	Used_for Arg1:T12 Arg2:T11	
+T57	Quantifier_or_Qualifier 385 391	activa
+#45	AnnotatorNotes T57	C0679217; Active State; Idea or Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T57	
+T46	Spec_cue 156 158	si
+A4	Assertion T51 Speculated
+R4	Speculation Arg1:T46 Arg2:T51	
+R38	Experiences Arg1:T36 Arg2:T11	
+#36	AnnotatorNotes T4	C5569080; Enteritis of intestine; Disease or Syndrome
+#37	AnnotatorNotes T26	C4763870; Colon Resection; Therapeutic or Preventive Procedure (?)
+A5	Experiencer T32 Patient
+A6	Experiencer T34 Patient
+A7	Experiencer T36 Patient

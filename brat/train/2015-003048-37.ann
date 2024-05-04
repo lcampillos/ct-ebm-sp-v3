@@ -1,0 +1,150 @@
+T1	CHEM 60 93	ácidos grasos PoliinsatuRados ω-3
+T2	ANAT 117 123	sérica
+#1	AnnotatorNotes T2	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T3	DISO 153 175	Insuficiencia Cardiaca
+#2	AnnotatorNotes T3	C0018801; Heart failure; Disease or Syndrome
+T4	DISO 183 198	hipoalbuminemia
+#3	AnnotatorNotes T4	C0239981; Hypoalbuminemia; Disease or Syndrome
+T5	DISO 201 223	actividad inflamatoria
+T6	DISO 255 277	Insuficiencia cardiaca
+#4	AnnotatorNotes T6	C0018801; Heart failure; Disease or Syndrome
+T7	PROC 333 347	hospitalizados
+#5	AnnotatorNotes T7	C0019993; Hospitalization; Health Care Activity
+T8	DISO 451 466	hipoalbuminemia
+#6	AnnotatorNotes T8	C0239981; Hypoalbuminemia; Disease or Syndrome
+T9	CHEM 468 476	albúmina
+#7	AnnotatorNotes T9	C0001924; Albumins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T10	ANAT 477 483	sérica
+#8	AnnotatorNotes T10	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T11	DISO 501 523	actividad inflamatoria
+T12	PROC 624 640	ensayos clínicos
+#9	AnnotatorNotes T12	C0008976; Clinical Trials; Research Activity
+T13	PROC 641 652	Tratamiento
+#10	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	CHEM 657 667	ácidos ω-3
+T15	PROC 695 702	ingreso
+#11	AnnotatorNotes T15	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T16	PROC 703 738	Tratamiento percutáneo o quirúrgico
+T17	DISO 757 779	insuficiencia cardiaca
+#12	AnnotatorNotes T17	C0018801; Heart failure; Disease or Syndrome
+T18	PROC 791 798	ingreso
+#13	AnnotatorNotes T18	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T19	DISO 821 840	Insuficiencia renal
+#14	AnnotatorNotes T19	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T20	DISO 854 876	Insuficiencia hepática
+#15	AnnotatorNotes T20	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T21	DISO 895 913	Proceso infeccioso
+#16	AnnotatorNotes T21	C0745283; INFECTIOUS PROCESS; Pathologic Function
+T22	DISO 921 938	Neoplasia maligna
+#17	AnnotatorNotes T22	C0006826; Malignant Neoplasms; Neoplastic Process
+T23	PROC 103 135	concentración sérica de albúmina
+#18	AnnotatorNotes T23	C0523465; Serum albumin measurement; Laboratory Procedure
+T24	ANAT 167 175	Cardiaca
+#19	AnnotatorNotes T24	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T25	ANAT 269 277	cardiaca
+#20	AnnotatorNotes T25	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T26	DISO 352 354	IC
+#21	AnnotatorNotes T26	C0018801; Heart failure; Disease or Syndrome
+T27	PROC 468 483	albúmina sérica
+#22	AnnotatorNotes T27	C0523465; Serum albumin measurement; Laboratory Procedure
+T28	PROC 533 536	PCR
+#23	AnnotatorNotes T28	C0201657; C-reactive protein measurement; Laboratory Procedure
+T29	ANAT 771 779	cardiaca
+#24	AnnotatorNotes T29	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T30	ANAT 835 840	renal
+#25	AnnotatorNotes T30	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T31	PROC 844 852	diálisis
+#26	AnnotatorNotes T31	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T32	ANAT 868 876	hepática
+#27	AnnotatorNotes T32	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T33	Date 13 17	2015
+T34	LIVB 139 148	pacientes
+#28	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 304 313	Pacientes
+#29	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Age 314 332	mayores de 18 años
+T37	Duration 369 376	crónica
+#30	AnnotatorNotes T37	C0205191; chronic; Temporal Concept
+T39	Date 671 684	el último mes
+T40	LIVB 800 819	Mujeres embarazadas
+#31	AnnotatorNotes T40	C0033011; Pregnant Women; Population Group
+T38	PHYS 808 819	embarazadas
+#32	AnnotatorNotes T38	C0032961; Pregnancy; Organism Function
+T41	PROC 877 887	Child-Pugh
+#33	AnnotatorNotes T41	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+A1	Status T13 History_of
+A2	Status T14 History_of
+#34	AnnotatorNotes T5	C0021368; Inflammation; Pathologic Function
+#35	AnnotatorNotes T11	C0021368; Inflammation; Pathologic Function
+#36	AnnotatorNotes T14	C0015689; omega-3 fatty acids; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T42	Observation 576 601	Pronóstico vital infausto
+#37	AnnotatorNotes T42	C0278252; Prognosis bad; Finding
+T43	LIVB 602 614	Participante
+#38	AnnotatorNotes T43	C4554048; Study Participant; Population Group
+R1	Location_of Arg1:T25 Arg2:T6	
+T44	Observation 602 640	Participante en otros ensayos clínicos
+R3	Location_of Arg1:T10 Arg2:T27	
+T45	Observation 46 52	Efecto
+#39	AnnotatorNotes T45	C1518681; Outcome of Therapy; Finding (?)
+R4	Causes Arg1:T1 Arg2:T45	
+R5	Location_of Arg1:T2 Arg2:T23	
+R6	Experiences Arg1:T34 Arg2:T23	
+R7	Experiences Arg1:T34 Arg2:T3	
+R8	Location_of Arg1:T24 Arg2:T3	
+R9	Experiences Arg1:T34 Arg2:T1	
+R10	Experiences Arg1:T34 Arg2:T45	
+T46	Quantifier_or_Qualifier 176 181	Aguda
+#40	AnnotatorNotes T46	C0439557; Acute phase; Temporal Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T46	
+T47	Quantifier_or_Qualifier 355 360	aguda
+#41	AnnotatorNotes T47	C0439557; Acute phase; Temporal Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T47	
+T48	Quantifier_or_Qualifier 914 919	agudo
+#42	AnnotatorNotes T48	C0439557; Acute phase; Temporal Concept
+T49	Quantifier_or_Qualifier 939 945	activa
+#43	AnnotatorNotes T49	C0679217; Active State; Idea or Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T49	
+R14	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T48	
+R15	Location_of Arg1:T32 Arg2:T20	
+R16	Location_of Arg1:T30 Arg2:T19	
+T50	Result_or_Value 888 893	B o C
+R17	Has_Result_or_Value Arg1:T41 Arg2:T50	
+R18	Experiences Arg1:T40 Arg2:T38	
+R19	Location_of Arg1:T29 Arg2:T17	
+R20	Overlap Arg1:T16 Arg2:T18	
+R21	Used_for Arg1:T14 Arg2:T13	
+R22	Overlap Arg1:T13 Arg2:T39	
+R23	Before Arg1:T13 Arg2:T15	
+T51	Result_or_Value 484 493	≤3,4 g/dl
+R24	Has_Result_or_Value Arg1:T27 Arg2:T51	
+T52	Result_or_Value 537 547	>2,5 mg/dl
+R25	Has_Result_or_Value Arg1:T28 Arg2:T52	
+T53	Quantifier_or_Qualifier 524 531	elevada
+#44	AnnotatorNotes T53	C0205250; High; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T53	
+T54	Quantifier_or_Qualifier 224 231	elevada
+#45	AnnotatorNotes T54	C0205250; High; Qualitative Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T54	
+R28	Experiences Arg1:T34 Arg2:T5	
+R29	Experiences Arg1:T34 Arg2:T4	
+R30	Has_Age Arg1:T35 Arg2:T36	
+R31	Experiences Arg1:T35 Arg2:T7	
+R32	Experiences Arg1:T35 Arg2:T26	
+T55	Quantifier_or_Qualifier 377 390	descompensada
+#46	AnnotatorNotes T55	C0205434; Decompensated; Qualitative Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T55	
+T56	Observation 396 411	nueva aparición
+#47	AnnotatorNotes T56	C0746890; new onset; Finding
+R34	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T56	
+R35	Has_Duration_or_Interval Arg1:T26 Arg2:T37	
+R36	Overlap Arg1:T26 Arg2:T8	
+R37	Experiences Arg1:T35 Arg2:T8	
+R38	Experiences Arg1:T35 Arg2:T11	
+R39	Overlap Arg1:T8 Arg2:T11	
+R40	Overlap Arg1:T26 Arg2:T11	
+R2	Experiences Arg1:T35 Arg2:T28	
+#48	AnnotatorNotes T1	C0015689; omega-3 fatty acids; Pharmacologic Substance
+A3	Experiencer T34 Patient
+A4	Experiencer T35 Patient
+A5	Experiencer T43 Patient
+A6	Experiencer T40 Patient

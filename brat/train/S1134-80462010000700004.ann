@@ -1,0 +1,159 @@
+T1	DISO 30 35	dolor
+#1	AnnotatorNotes T1	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T2	ANAT 42 66	punto gatillo miofascial
+T3	PROC 72 99	técnica de energía muscular
+#2	AnnotatorNotes T3	C1562466; Muscle energy technique; Therapeutic or Preventive Procedure
+T4	PROC 244 271	técnica de energía muscular
+#3	AnnotatorNotes T4	C1562466; Muscle energy technique; Therapeutic or Preventive Procedure
+T5	DISO 149 154	dolor
+#4	AnnotatorNotes T5	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T6	ANAT 172 195	punto gatillo 1 latente
+T7	PROC 318 338	algometría analógica
+#5	AnnotatorNotes T7	C0002777; Analogue Pain Scale; Diagnostic Procedure (?)
+T8	PROC 495 508	aleatorizados
+#6	AnnotatorNotes T8	C0034656; Randomization; Research Activity
+T9	PROC 579 606	técnica de energía muscular
+#7	AnnotatorNotes T9	C1562466; Muscle energy technique; Therapeutic or Preventive Procedure
+T10	DISO 403 416	asintomáticos
+#8	AnnotatorNotes T10	C0231221; Asymptomatic; Finding
+T11	ANAT 424 450	punto gatillo miofascial 1
+T12	PROC 1988 2004	medición del UDP
+T13	PROC 2033 2060	técnica de energía muscular
+#9	AnnotatorNotes T13	C1562466; Muscle energy technique; Therapeutic or Preventive Procedure
+T14	PROC 546 557	tratamiento
+#10	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 817 845	umbral de dolor a la presión
+T16	PROC 138 167	umbral del dolor a la presión
+T17	ANAT 616 633	trapecio superior
+T18	ANAT 200 217	trapecio superior
+T19	DISO 827 832	dolor
+#11	AnnotatorNotes T19	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T20	PROC 847 850	UDP
+T21	PROC 856 859	UDP
+T22	PROC 934 946	intervención
+#12	AnnotatorNotes T22	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T23	PROC 967 979	intervención
+#13	AnnotatorNotes T23	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T24	PROC 1004 1016	intervención
+#14	AnnotatorNotes T24	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T25	ANAT 452 456	PGM1
+T26	ANAT 462 479	trapecio superior
+T27	PROC 1328 1331	UDP
+T28	ANAT 2106 2123	trapecio superior
+T29	PROC 1793 1796	UDP
+T30	PROC 1816 1827	tratamiento
+#15	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	ANAT 2067 2101	punto gatillo miofascial latente 1
+T32	DISO 2173 2178	dolor
+#16	AnnotatorNotes T32	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T33	ANAT 91 99	muscular
+#17	AnnotatorNotes T33	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T34	ANAT 263 271	muscular
+#18	AnnotatorNotes T34	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T35	ANAT 598 606	muscular
+#19	AnnotatorNotes T35	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T36	ANAT 2052 2060	muscular
+#20	AnnotatorNotes T36	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T37	DISO 2282 2294	sintomáticos
+#21	AnnotatorNotes T37	C1457887; Symptoms; Sign or Symptom
+T38	Neg_cue 2186 2188	no
+T40	Duration 982 989	24horas
+T41	Duration 1847 1858	las 24horas
+T43	Duration 2202 2213	las 24horas
+T44	Neg_cue 1874 1876	no
+T45	Neg_cue 1554 1556	No
+T48	DEVI 886 905	algómetro analógico
+T49	Duration 948 952	5min
+T50	Duration 1808 1812	5min
+T51	LIVB 395 402	sujetos
+#22	AnnotatorNotes T51	C0681850; Study Subject; Group
+T52	LIVB 2274 2281	sujetos
+#23	AnnotatorNotes T52	C0681850; Study Subject; Group
+T54	CONC 1251 1277	coeficiente de correlación
+T55	CONC 1353 1358	ANOVA
+#24	AnnotatorNotes T55	C0002780; Analysis of Variance; Quantitative Concept
+T56	CONC 1646 1651	ANOVA
+#25	AnnotatorNotes T56	C0002780; Analysis of Variance; Quantitative Concept
+T57	CONC 1571 1582	diferencias
+#26	AnnotatorNotes T57	C1705241; Delta (difference); Quantitative Concept
+T58	CONC 1892 1903	diferencias
+#27	AnnotatorNotes T58	C1705241; Delta (difference); Quantitative Concept
+T59	LIVB 711 724	grupo control
+#28	AnnotatorNotes T59	C0009932; Control Groups; Group
+T39	PROC 790 796	altura
+#29	AnnotatorNotes T39	C0204658; Measuring height of patient; Diagnostic Procedure
+T42	PROC 799 803	peso
+#30	AnnotatorNotes T42	C2985231; Body Weight Measurement; Diagnostic Procedure
+T46	CONC 749 771	variables demográficas
+#31	AnnotatorNotes T46	C0011292; Demographic Factors; Idea or Concept
+T47	CONC 1929 1935	tiempo
+#32	AnnotatorNotes T47	C0040223; Time; Temporal Concept
+T53	Neg_cue 1922 1928	ningún
+T60	PROC 691 701	aplicación
+#33	AnnotatorNotes T60	C0185125; Application procedure; Therapeutic or Preventive Procedure
+T61	Neg_cue 683 690	ninguna
+A1	Assertion T10 Negated
+R3	Before Arg1:T21 Arg2:T22
+R4	Has_Duration_or_Interval Arg1:T30 Arg2:T50
+R8	After Arg1:T1 Arg2:T3
+R9	Location_of Arg1:T33 Arg2:T3
+R10	Location_of Arg1:T6 Arg2:T5
+R11	After Arg1:T16 Arg2:T4
+R12	Location_of Arg1:T34 Arg2:T4
+R13	Location_of Arg1:T2 Arg2:T1
+R14	Location_of Arg1:T18 Arg2:T5
+R15	Experiences Arg1:T51 Arg2:T10
+R17	Location_of Arg1:T35 Arg2:T9
+R18	Location_of Arg1:T17 Arg2:T9
+R19	Used_for Arg1:T48 Arg2:T21
+R20	Negation Arg1:T45 Arg2:T57
+R21	Negation Arg1:T44 Arg2:T58
+R22	After Arg1:T29 Arg2:T41
+R23	Location_of Arg1:T36 Arg2:T13
+R24	Location_of Arg1:T31 Arg2:T13
+R25	Location_of Arg1:T28 Arg2:T13
+R27	Experiences Arg1:T52 Arg2:T37
+R26	Location_of Arg1:T31 Arg2:T32
+R29	Location_of Arg1:T28 Arg2:T32
+R30	Overlap Arg1:T21 Arg2:T40
+R31	Overlap Arg1:T21 Arg2:T49
+R28	Negation Arg1:T38 Arg2:T43
+A2	Assertion T43 Negated
+A3	Assertion T57 Negated
+R32	Location_of Arg1:T11 Arg2:T10
+R33	Location_of Arg1:T25 Arg2:T10
+R34	Has_Duration_or_Interval Arg1:T32 Arg2:T43
+R35	Location_of Arg1:T6 Arg2:T7
+R1	Experiences Arg1:T51 Arg2:T14
+A4	Assertion T47 Negated
+R7	Negation Arg1:T53 Arg2:T47
+A5	Assertion T60 Negated
+R16	Negation Arg1:T61 Arg2:T60
+R36	Experiences Arg1:T59 Arg2:T60
+R37	Experiences Arg1:T51 Arg2:T9
+T62	PROC 1364 1381	medidas repetidas
+#34	AnnotatorNotes T62	C0871881; repeated measures; Research Activity
+R38	Used_for Arg1:T55 Arg2:T62	
+T63	Quantifier_or_Qualifier 1583 1597	significativas
+A6	Assertion T63 Negated
+#35	AnnotatorNotes T63	C0237881; Statistical Significance; Quantitative Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T63	
+R40	Negation Arg1:T45 Arg2:T63	
+T64	Quantifier_or_Qualifier 1904 1918	significativas
+A7	Assertion T64 Negated
+#36	AnnotatorNotes T64	C0237881; Statistical Significance; Quantitative Concept
+R41	Negation Arg1:T44 Arg2:T64	
+A8	Assertion T58 Negated
+R42	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T64	
+R43	After Arg1:T29 Arg2:T30	
+R5	Before Arg1:T8 Arg2:T9	
+R44	Before Arg1:T8 Arg2:T60	
+R45	After Arg1:T21 Arg2:T23	
+R46	After Arg1:T21 Arg2:T24	
+#37	AnnotatorNotes T18	C0824578; Ascending part of trapezius; Body Part, Organ, or Organ Component
+#38	AnnotatorNotes T26	C0824578; Ascending part of trapezius; Body Part, Organ, or Organ Component
+#39	AnnotatorNotes T17	C0824578; Ascending part of trapezius; Body Part, Organ, or Organ Component
+#40	AnnotatorNotes T28	C0824578; Ascending part of trapezius; Body Part, Organ, or Organ Component
+A9	Experiencer T51 Patient
+A10	Experiencer T59 Patient
+A11	Experiencer T52 Patient

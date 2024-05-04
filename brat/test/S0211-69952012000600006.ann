@@ -1,0 +1,161 @@
+T1	PROC 1 29	Tratamiento con angioplastia
+T2	PROC 354 362	tratados
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 44 80	estenosis arterial del injerto renal
+#2	AnnotatorNotes T3	C4075713; Transplant renal artery stenosis; Pathologic Function
+T4	ANAT 75 80	renal
+#3	AnnotatorNotes T4	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T5	DISO 85 121	estenosis arterial del injerto renal
+#4	AnnotatorNotes T5	C4075713; Transplant renal artery stenosis; Pathologic Function
+T6	ANAT 116 121	renal
+#5	AnnotatorNotes T6	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T7	DISO 129 141	complicación
+#6	AnnotatorNotes T7	C0009566; Complication; Pathologic Function
+T8	PROC 198 205	cirugía
+#7	AnnotatorNotes T8	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T9	PROC 208 220	angioplastia
+#8	AnnotatorNotes T9	C0162577; Angioplasty; Therapeutic or Preventive Procedure
+T10	PROC 297 318	trasplantados renales
+#9	AnnotatorNotes T10	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T11	ANAT 311 318	renales
+#10	AnnotatorNotes T11	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T12	DISO 323 353	estenosis arterial del injerto
+#11	AnnotatorNotes T12	C4075713; Transplant renal artery stenosis; Pathologic Function
+T13	PROC 372 384	angioplastia
+T14	PROC 495 525	control de la presión arterial
+#12	AnnotatorNotes T14	C0005824; Blood pressure determination; Health Care Activity
+T15	PROC 548 565	ecografía doppler
+#13	AnnotatorNotes T15	C0162481; Doppler Ultrasound; Diagnostic Procedure | C0554756; Doppler studies; Diagnostic Procedure
+T16	PROC 594 607	arteriografía
+#14	AnnotatorNotes T16	C0003844; Arteriography; Diagnostic Procedure | C0918037; Arteriogram; Diagnostic Procedure
+T17	PROC 624 635	diagnóstico
+#15	AnnotatorNotes T17	C0011900; Diagnosis; Diagnostic Procedure
+T18	PROC 670 682	angioplastia
+#16	AnnotatorNotes T18	C0162577; Angioplasty; Therapeutic or Preventive Procedure
+T19	PROC 951 979	tratamiento antihipertensivo
+#17	AnnotatorNotes T19	C0585941; Antihypertensive therapy; Therapeutic or Preventive Procedure
+T20	PROC 1000 1012	angioplastia
+#18	AnnotatorNotes T20	C0162577; Angioplasty; Therapeutic or Preventive Procedure
+T21	PROC 1081 1092	tratamiento
+#19	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	DISO 1099 1140	estenosis de la arteria del injerto renal
+#20	AnnotatorNotes T22	C4075713; Transplant renal artery stenosis; Pathologic Function
+T23	ANAT 1135 1140	renal
+#21	AnnotatorNotes T23	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T24	ANAT 54 62	arterial
+#22	AnnotatorNotes T24	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T25	ANAT 470 475	renal
+#23	AnnotatorNotes T25	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T26	ANAT 95 103	arterial
+#24	AnnotatorNotes T26	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T27	PROC 887 903	presión arterial
+#25	AnnotatorNotes T27	C0005824; Blood pressure determination; Health Care Activity
+T28	ANAT 333 341	arterial
+#26	AnnotatorNotes T28	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T29	PROC 1043 1056	procedimiento
+#27	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T30	DISO 449 475	deterioro de función renal
+#28	AnnotatorNotes T30	C0341677; Impaired renal function disorder; Disease or Syndrome
+T31	ANAT 517 525	arterial
+#29	AnnotatorNotes T31	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T32	ANAT 758 763	renal
+#30	AnnotatorNotes T32	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T33	ANAT 895 903	arterial
+#31	AnnotatorNotes T33	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T34	CHEM 963 979	antihipertensivo
+#32	AnnotatorNotes T34	C0003364; Antihypertensive Agents; Pharmacologic Substance
+T35	ANAT 1115 1122	arteria
+#33	AnnotatorNotes T35	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T36	DEVI 32 37	stent
+#34	AnnotatorNotes T36	C0038257; Stent, device; Medical Device
+T37	PROC 67 80	injerto renal
+#35	AnnotatorNotes T37	C1261317; Transplanted kidney; Therapeutic or Preventive Procedure
+T38	PROC 108 121	injerto renal
+#36	AnnotatorNotes T38	C1261317; Transplanted kidney; Therapeutic or Preventive Procedure
+T40	LIVB 287 296	pacientes
+#37	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	PROC 346 353	injerto
+#38	AnnotatorNotes T41	C1261317; Transplanted kidney; Therapeutic or Preventive Procedure
+T42	DEVI 401 406	stent
+#39	AnnotatorNotes T42	C0038257; Stent, device; Medical Device
+T44	PHYS 509 525	presión arterial
+#40	AnnotatorNotes T44	C0005823; Blood Pressure; Organism Function
+T45	DEVI 701 706	stent
+#41	AnnotatorNotes T45	C0038257; Stent, device; Medical Device
+T46	Duration 772 792	los 3 primeros meses
+T47	Duration 824 845	los dos primeros años
+T49	Duration 907 928	los dos primeros años
+T50	DEVI 1031 1036	stent
+#42	AnnotatorNotes T50	C0038257; Stent, device; Medical Device
+T51	PROC 1127 1140	injerto renal
+#43	AnnotatorNotes T51	C1261317; Transplanted kidney; Therapeutic or Preventive Procedure
+T39	PHYS 462 475	función renal
+#44	AnnotatorNotes T39	C0232804; Renal function; Organ or Tissue Function
+T43	PHYS 750 763	función renal
+R1	Combined_with Arg1:T1 Arg2:T36	
+R2	Location_of Arg1:T24 Arg2:T3	
+R3	Location_of Arg1:T4 Arg2:T37	
+R4	Location_of Arg1:T4 Arg2:T3	
+R5	Location_of Arg1:T6 Arg2:T38	
+R6	Location_of Arg1:T26 Arg2:T5	
+R7	Location_of Arg1:T6 Arg2:T5	
+R8	Location_of Arg1:T26 Arg2:T7	
+R9	Location_of Arg1:T6 Arg2:T7	
+R10	Location_of Arg1:T6 Arg2:T8	
+R11	Location_of Arg1:T6 Arg2:T9	
+T48	CONC 271 280	evolución
+#46	AnnotatorNotes T48	C0449259; Clinical course; Temporal Concept
+R12	Experiences Arg1:T40 Arg2:T10	
+R13	Location_of Arg1:T11 Arg2:T10	
+R14	Location_of Arg1:T28 Arg2:T12	
+R15	Experiences Arg1:T40 Arg2:T12	
+R17	Experiences Arg1:T40 Arg2:T13	
+#47	AnnotatorNotes T1	C0162577; Angioplasty; Therapeutic or Preventive Procedure 
+#48	AnnotatorNotes T13	C0162577; Angioplasty; Therapeutic or Preventive Procedure
+T52	PROC 387 406	colocación de stent
+#49	AnnotatorNotes T52	C0522776; Placement of stent; Therapeutic or Preventive Procedure
+R18	Used_for Arg1:T42 Arg2:T52	
+R19	Combined_with Arg1:T13 Arg2:T52	
+T53	PROC 687 706	colocación de stent
+#50	AnnotatorNotes T53	C0522776; Placement of stent; Therapeutic or Preventive Procedure
+R20	Used_for Arg1:T45 Arg2:T53	
+R21	Combined_with Arg1:T18 Arg2:T53	
+R22	Location_of Arg1:T23 Arg2:T51	
+R23	Location_of Arg1:T35 Arg2:T22	
+T54	PROC 1017 1036	colocación de stent
+#51	AnnotatorNotes T54	C0522776; Placement of stent; Therapeutic or Preventive Procedure
+R24	Used_for Arg1:T50 Arg2:T54	
+R25	Combined_with Arg1:T20 Arg2:T54	
+R26	Before Arg1:T16 Arg2:T17	
+R27	Overlap Arg1:T16 Arg2:T18	
+R29	Location_of Arg1:T31 Arg2:T44	
+R30	Location_of Arg1:T31 Arg2:T14	
+R31	Location_of Arg1:T25 Arg2:T39	
+R32	Location_of Arg1:T25 Arg2:T30	
+T55	Observation 491 525	mal control de la presión arterial
+R33	Overlap Arg1:T30 Arg2:T55	
+R35	Experiences Arg1:T40 Arg2:T52	
+R36	Experiences Arg1:T40 Arg2:T41	
+T56	Observation 725 732;744 763	mejoría de la función renal
+#52	AnnotatorNotes T56	C0232806; Increased renal function; Finding (?)
+T57	Quantifier_or_Qualifier 733 743	progresiva
+#53	AnnotatorNotes T57	C0205329; Progressive; Functional Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T57	
+R38	Location_of Arg1:T32 Arg2:T43	
+R39	Has_Duration_or_Interval Arg1:T56 Arg2:T46	
+R40	Has_Duration_or_Interval Arg1:T56 Arg2:T47	
+T58	Quantifier_or_Qualifier 808 815	estable
+#54	AnnotatorNotes T58	C0205360; Stable status; Qualitative Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T58	
+T59	Observation 863 872	mejoraron
+#45	AnnotatorNotes T59	C0184511; Improved; Finding
+R42	Location_of Arg1:T33 Arg2:T27	
+R43	Has_Duration_or_Interval Arg1:T59 Arg2:T49	
+R44	Used_for Arg1:T34 Arg2:T19	
+R45	Has_Duration_or_Interval Arg1:T19 Arg2:T49	
+R47	Overlap Arg1:T27 Arg2:T49	
+#55	AnnotatorNotes T55	C0919892; Blood pressure inadequately controlled; Finding
+R16	Location_of Arg1:T31 Arg2:T55	
+#56	AnnotatorNotes T43	C0232804; Renal function; Organ or Tissue Function
+R28	Location_of Arg1:T23 Arg2:T22	
+A1	Experiencer T40 Patient

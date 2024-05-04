@@ -1,0 +1,425 @@
+T1	CHEM 138 148	colchicina
+#1	AnnotatorNotes T1	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T2	DISO 207 232	complicaciones pulmonares
+#2	AnnotatorNotes T2	C0281169; Pulmonary Complication; Pathologic Function
+T3	ANAT 222 232	pulmonares
+#3	AnnotatorNotes T3	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T4	DISO 238 270	neumonía asociada al coronavirus
+T5	CHEM 422 432	COLCHICINA
+#4	AnnotatorNotes T5	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T6	DISO 496 521	COMPLICACIONES PULMONARES
+#5	AnnotatorNotes T6	C0281169; Pulmonary Complication; Pathologic Function
+T7	DISO 545 579	NEUMONÍA DEL CORONAVIRUS SARS-CoV2
+T8	DISO 581 589	COVID-19
+#6	AnnotatorNotes T8	C5203670; COVID19 (disease); Disease or Syndrome
+T9	PROC 668 679	seguimiento
+#7	AnnotatorNotes T9	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T10	DISO 780 788	COVID-19
+#8	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+T11	PROC 793 816	seguimiento ambulatorio
+#9	AnnotatorNotes T11	C0589125; Follow-up in outpatient clinic; Health Care Activity
+T12	PROC 904 915	Diagnóstico
+#10	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	DISO 919 941	infección por COVID-19
+#11	AnnotatorNotes T13	C5203670; COVID19 (disease); Disease or Syndrome
+T14	PROC 77 99	investigar la eficacia
+T15	PROC 361 383	INVESTIGAR LA EFICACIA
+T16	PROC 1131 1154	seguimiento ambulatorio
+#12	AnnotatorNotes T16	C0589125; Follow-up in outpatient clinic; Health Care Activity
+T17	PROC 1159 1172	hospitalizado
+#13	AnnotatorNotes T17	C0019993; Hospitalization; Health Care Activity
+T18	DISO 1719 1746	bajo recuento de linfocitos
+#14	AnnotatorNotes T18	C0024312; Lymphopenia; Disease or Syndrome
+T19	DISO 1393 1410	Diabetes mellitus
+#15	AnnotatorNotes T19	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T20	DISO 1412 1424	hipertensión
+#16	AnnotatorNotes T20	C0020538; Hypertensive disease; Disease or Syndrome
+T21	PROC 2825 2833	tratados
+#17	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	DISO 1480 1503	enfermedad respiratoria
+#18	AnnotatorNotes T22	C0035204; Respiration Disorders; Disease or Syndrome
+T23	DISO 1636 1647	bicitopenia
+T24	DISO 1523 1527	asma
+#19	AnnotatorNotes T24	C0004096; Asthma; Disease or Syndrome
+T25	DISO 1530 1569	enfermedad pulmonar obstructiva crónica
+#20	AnnotatorNotes T25	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T26	DISO 1572 1594	insuficiencia cardíaca
+#21	AnnotatorNotes T26	C0018801; Heart failure; Disease or Syndrome
+T27	DISO 1605 1625	enfermedad coronaria
+#22	AnnotatorNotes T27	C0010068; Coronary heart disease; Disease or Syndrome
+T28	DISO 1649 1661	pancitopenia
+#23	AnnotatorNotes T28	C0030312; Pancytopenia; Disease or Syndrome
+T29	ANAT 1702 1713	neutrófilos
+#24	AnnotatorNotes T29	C0027950; neutrophil; Cell
+T30	ANAT 1736 1746	linfocitos
+#25	AnnotatorNotes T30	C0024264; Lymphocyte; Cell
+T31	PROC 1832 1841	protocolo
+#26	AnnotatorNotes T31	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T32	PROC 761 775	diagnosticados
+#27	AnnotatorNotes T32	C0011900; Diagnosis; Diagnostic Procedure
+T33	PROC 1892 1905	hospitalizado
+#28	AnnotatorNotes T33	C0019993; Hospitalization; Health Care Activity
+T34	DISO 1685 1713	alto recuento de neutrófilos
+#29	AnnotatorNotes T34	C0023518; Leukocytosis; Disease or Syndrome
+T35	DISO 2106 2111	shock
+#30	AnnotatorNotes T35	C0036974; Shock; Pathologic Function
+T36	DISO 2118 2144	inestabilidad hemodinámica
+#31	AnnotatorNotes T36	C0948268; Hemodynamic instability; Disease or Syndrome
+T37	CHEM 2167 2177	colchicina
+#32	AnnotatorNotes T37	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T38	DISO 2234 2251	reacción alérgica
+#33	AnnotatorNotes T38	C1527304; Allergic Reaction; Pathologic Function
+T39	CHEM 2272 2282	colchicina
+#34	AnnotatorNotes T39	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T40	DISO 2299 2328	trastornos gastrointestinales
+#35	AnnotatorNotes T40	C0017178; Gastrointestinal Diseases; Disease or Syndrome
+T41	DISO 2341 2375	enfermedad inflamatoria intestinal
+#36	AnnotatorNotes T41	C0021390; Inflammatory Bowel Diseases; Disease or Syndrome
+T42	DISO 2377 2392	úlcera gástrica
+#37	AnnotatorNotes T42	C0038358; Gastric ulcer; Disease or Syndrome
+T43	DISO 2394 2409	diarrea crónica
+#38	AnnotatorNotes T43	C0401151; Chronic diarrhea; Disease or Syndrome
+T44	DISO 2412 2424	malabsorción
+#39	AnnotatorNotes T44	C0024523; Malabsorption Syndrome; Disease or Syndrome | C3714745; Malabsorption; Finding
+T45	DISO 2441 2465	enfermedad neuromuscular
+#40	AnnotatorNotes T45	C0027868; Neuromuscular Diseases; Disease or Syndrome
+T46	DISO 2506 2516	daño renal
+#41	AnnotatorNotes T46	C1408258; Kidney damage; Finding
+T47	PROC 2519 2555	tasa de filtrado glomerular estimada
+T48	DISO 2606 2614	cirrosis
+#42	AnnotatorNotes T48	C1623038; Cirrhosis; Disease or Syndrome
+T49	DISO 2616 2640	hepatitis activa crónica
+#43	AnnotatorNotes T49	C0520463; Chronic active hepatitis; Disease or Syndrome
+T50	DISO 2643 2662	enfermedad hepática
+#44	AnnotatorNotes T50	C0023895; Liver diseases; Disease or Syndrome
+T51	PROC 2692 2705	quimioterapia
+#45	AnnotatorNotes T51	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T52	DISO 2739 2765	alteraciones hematológicas
+T53	DISO 2772 2793	discrasias sanguíneas
+#46	AnnotatorNotes T53	C0018939; Hematological Disease; Disease or Syndrome
+T54	CHEM 2838 2895	fármacos inhibidores del CYP3A4 y/o de la glicoproteína P
+T55	PROC 44 71	Ensayo clínico aleatorizado
+#47	AnnotatorNotes T55	C0206034; Clinical Trials, Randomized; Research Activity
+T56	PROC 106 131	administración anticipada
+#48	AnnotatorNotes T56	C3177188; Early Therapy; Therapeutic or Preventive Procedure (?)
+T57	PROC 291 354	ENSAYO CLÍNICO ALEATORIZADO, MULTICÉNTRICO, ABIERTO, CONTROLADO
+T58	PROC 390 415	ADMINISTRACIÓN ANTICIPADA
+#49	AnnotatorNotes T58	C3177188; Early Therapy; Therapeutic or Preventive Procedure (?)
+T59	ANAT 511 521	PULMONARES
+#50	AnnotatorNotes T59	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T60	PROC 991 994	PCR
+#51	AnnotatorNotes T60	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T61	PROC 1440 1466	presión arterial sistólica
+#52	AnnotatorNotes T61	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T62	ANAT 2310 2328	gastrointestinales
+#53	AnnotatorNotes T62	C0012240; Gastrointestinal system; Body System
+T63	ANAT 1541 1549	pulmonar
+#54	AnnotatorNotes T63	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T64	ANAT 1586 1594	cardíaca
+#55	AnnotatorNotes T64	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T65	ANAT 1616 1625	coronaria
+#56	AnnotatorNotes T65	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T66	DISO 2254 2266	sensibilidad
+T67	ANAT 2365 2375	intestinal
+#57	AnnotatorNotes T67	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T68	ANAT 2384 2392	gástrica
+#58	AnnotatorNotes T68	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T69	ANAT 2452 2465	neuromuscular
+#59	AnnotatorNotes T69	C0597054; neuromuscular system; Body System
+T70	ANAT 2511 2516	renal
+#60	AnnotatorNotes T70	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T71	ANAT 2654 2662	hepática
+#61	AnnotatorNotes T71	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T72	DISO 2714 2720	cáncer
+#62	AnnotatorNotes T72	C0006826; Malignant Neoplasms; Neoplastic Process
+T73	ANAT 2783 2793	sanguíneas
+#63	AnnotatorNotes T73	C0005767; Blood; Body Substance
+T74	DISO 657 665	COVID-19
+#64	AnnotatorNotes T74	C5203670; COVID19 (disease); Disease or Syndrome
+T75	Date 12 16	2020
+T76	LIVB 152 161	pacientes
+#65	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T77	Age 162 180	mayores de 70 años
+T78	Spec_cue 191 197	riesgo
+T79	LIVB 259 270	coronavirus
+#66	AnnotatorNotes T79	C5203676; SARS-CoV-2; Virus
+T80	LIVB 436 445	PACIENTES
+#67	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T81	Age 446 464	MAYORES DE 70 AÑOS
+T82	Spec_cue 474 483	RIESGO DE
+T83	LIVB 558 579	CORONAVIRUS SARS-CoV2
+#68	AnnotatorNotes T83	C5203676; SARS-CoV-2; Virus
+T84	LIVB 614 621	Adultos
+#69	AnnotatorNotes T84	C0001675; Adult; Age Group
+T85	Age 622 640	mayores de 70 años
+T86	LIVB 645 656	coronavirus
+#70	AnnotatorNotes T86	C5203676; SARS-CoV-2; Virus
+T88	LIVB 724 741	Pacientes adultos
+#71	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T89	Age 742 760	mayores de 70 años
+T90	LIVB 846 870	Pacientes de ambos sexos
+#72	AnnotatorNotes T90	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T91	Age 875 891	al menos 70 años
+T92	Duration 945 965	las últimas 24 horas
+T93	LIVB 1002 1010	paciente
+#73	AnnotatorNotes T93	C0030705; Patients; Patient or Disabled Group
+T94	PHYS 1031 1041	comprender
+#74	AnnotatorNotes T94	C0162340; Comprehension; Mental Process
+T95	LIVB 1119 1154	Paciente en seguimiento ambulatorio
+#75	AnnotatorNotes T95	C0029921; Outpatients; Patient or Disabled Group
+T96	Neg_cue 1156 1158	no
+T97	LIVB 1119 1127;1197 1215	Paciente institucionalizado
+#76	AnnotatorNotes T97	C0030705; Patients; Patient or Disabled Group + C0376326; Institutionalized Persons; Patient or Disabled Group
+T98	LIVB 1258 1266	paciente
+#77	AnnotatorNotes T98	C0030705; Patients; Patient or Disabled Group
+T99	Age 1339 1352	70 años o más
+T101	PHYS 1440 1456	presión arterial
+#78	AnnotatorNotes T101	C0005823; Blood Pressure; Organism Function
+T103	Duration 1562 1569	crónica
+#79	AnnotatorNotes T103	C0205191; chronic; Temporal Concept
+T104	LIVB 1753 1761	paciente
+#80	AnnotatorNotes T104	C0030705; Patients; Patient or Disabled Group
+T105	LIVB 1883 1891	Paciente
+#81	AnnotatorNotes T105	C0030705; Patients; Patient or Disabled Group
+T106	LIVB 1951 1959	Paciente
+#82	AnnotatorNotes T106	C0030705; Patients; Patient or Disabled Group
+T107	Neg_cue 1964 1986	incapacidad para poder
+T108	PHYS 1987 1991	leer
+#83	AnnotatorNotes T108	C2372013; Reading; Mental Process
+T109	LIVB 2084 2092	Paciente
+#84	AnnotatorNotes T109	C0030705; Patients; Patient or Disabled Group
+T110	PHYS 2132 2144	hemodinámica
+#85	AnnotatorNotes T110	C0019010; Hemodynamics; Organ or Tissue Function
+T111	LIVB 2149 2157	Paciente
+#86	AnnotatorNotes T111	C0030705; Patients; Patient or Disabled Group
+T112	LIVB 2205 2213	Paciente
+#87	AnnotatorNotes T112	C0030705; Patients; Patient or Disabled Group
+T114	LIVB 2286 2294	Paciente
+#88	AnnotatorNotes T114	C0030705; Patients; Patient or Disabled Group
+T115	Duration 2402 2409	crónica
+#89	AnnotatorNotes T115	C0205191; chronic; Temporal Concept
+T116	LIVB 2428 2436	Paciente
+#90	AnnotatorNotes T116	C0030705; Patients; Patient or Disabled Group
+T117	LIVB 2493 2501	Paciente
+#91	AnnotatorNotes T117	C0030705; Patients; Patient or Disabled Group
+T119	LIVB 2577 2585	Paciente
+#92	AnnotatorNotes T119	C0030705; Patients; Patient or Disabled Group
+T120	Duration 2633 2640	crónica
+#93	AnnotatorNotes T120	C0205191; chronic; Temporal Concept
+T121	LIVB 2672 2680	Paciente
+#94	AnnotatorNotes T121	C0030705; Patients; Patient or Disabled Group
+T122	LIVB 2726 2734	Paciente
+#95	AnnotatorNotes T122	C0030705; Patients; Patient or Disabled Group
+T123	LIVB 2798 2807	Pacientes
+#96	AnnotatorNotes T123	C0030705; Patients; Patient or Disabled Group
+T125	LIVB 2907 2919	investigador
+#97	AnnotatorNotes T125	C0035173; Research Personnel; Professional or Occupational Group
+T126	ANAT 1491 1503	respiratoria
+#98	AnnotatorNotes T126	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T87	PHYS 1022 1026	leer
+#99	AnnotatorNotes T87	C2372013; Reading; Mental Process
+T127	LIVB 1244 1251	mayores
+#100	AnnotatorNotes T127	C0001792; Elderly (population group); Population Group
+T100	PROC 1690 1713	recuento de neutrófilos
+#101	AnnotatorNotes T100	C0200633; Neutrophil count (procedure); Laboratory Procedure
+T102	PROC 1724 1746	recuento de linfocitos
+#102	AnnotatorNotes T102	C0200635; Lymphocyte Count measurement; Laboratory Procedure
+T128	PHYS 1996 2006	comprender
+#103	AnnotatorNotes T128	C0162340; Comprehension; Mental Process
+T113	PHYS 2527 2546	filtrado glomerular
+#104	AnnotatorNotes T113	C0232809; Glomerular filtration; Organ or Tissue Function
+T118	ANAT 2536 2546	glomerular
+#105	AnnotatorNotes T118	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T124	Observation 1197 1215	institucionalizado
+A1	Assertion T2 Speculated
+A2	Assertion T6 Speculated
+A3	Population_data T84 Age
+A4	Population_data T88 Age
+A6	Assertion T128 Negated
+A7	Assertion T108 Negated
+A8	Status T22 History_of
+A9	Status T24 History_of
+A10	Status T25 History_of
+A11	Status T26 History_of
+A12	Status T27 History_of
+A13	Status T38 History_of
+A14	Status T66 History_of
+A15	Status T48 History_of
+A16	Status T49 History_of
+A17	Status T50 History_of
+A18	Status T45 History_of
+#106	AnnotatorNotes T14	C1707887; Efficacy Study; Research Activity
+#107	AnnotatorNotes T4	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#108	AnnotatorNotes T15	C1707887; Efficacy Study; Research Activity
+#109	AnnotatorNotes T57	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1096776; Multicenter Study; Research Activity + C1709323; Open Label Study; Research Activity 
+#110	AnnotatorNotes T7	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome
+#111	AnnotatorNotes T66	C0020517; Hypersensitivity; Pathologic Function
+#112	AnnotatorNotes T47	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T129	Neg_cue 1425 1427	no
+T130	Quantifier_or_Qualifier 1428 1438	controlada
+A19	Assertion T130 Negated
+R1	Speculation Arg1:T78 Arg2:T2	
+R2	Speculation Arg1:T82 Arg2:T6	
+R3	Negation Arg1:T96 Arg2:T17	
+R5	Negation Arg1:T129 Arg2:T130	
+R6	Negation Arg1:T107 Arg2:T108	
+R7	Negation Arg1:T107 Arg2:T128	
+R8	Used_for Arg1:T1 Arg2:T56	
+R9	Experiences Arg1:T76 Arg2:T56	
+R10	Has_Age Arg1:T76 Arg2:T77	
+R11	Location_of Arg1:T3 Arg2:T2	
+R12	Location_of Arg1:T3 Arg2:T4	
+R13	Causes Arg1:T79 Arg2:T4	
+R14	Experiences Arg1:T76 Arg2:T2	
+R15	Experiences Arg1:T76 Arg2:T4	
+R16	Used_for Arg1:T5 Arg2:T58	
+R17	Experiences Arg1:T80 Arg2:T58	
+R18	Has_Age Arg1:T80 Arg2:T81	
+R19	Location_of Arg1:T59 Arg2:T6	
+R20	Experiences Arg1:T80 Arg2:T6	
+T132	Quantifier_or_Qualifier 522 529	SEVERAS
+#113	AnnotatorNotes T132	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R21	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T132	
+R22	Overlap Arg1:T6 Arg2:T7	
+R23	Causes Arg1:T83 Arg2:T7	
+R24	Causes Arg1:T83 Arg2:T8	
+R25	Experiences Arg1:T80 Arg2:T7	
+R26	Experiences Arg1:T80 Arg2:T8	
+R27	Has_Age Arg1:T84 Arg2:T85	
+R28	Experiences Arg1:T84 Arg2:T74	
+R29	Causes Arg1:T86 Arg2:T74	
+R31	Has_Age Arg1:T88 Arg2:T89	
+R32	Experiences Arg1:T88 Arg2:T10	
+R35	Has_Age Arg1:T90 Arg2:T91	
+R36	Overlap Arg1:T13 Arg2:T92	
+R37	Overlap Arg1:T12 Arg2:T92	
+R38	Before Arg1:T60 Arg2:T12	
+R39	Overlap Arg1:T60 Arg2:T92	
+R40	Experiences Arg1:T93 Arg2:T87	
+R41	Experiences Arg1:T93 Arg2:T94	
+T133	CONC 1111 1114	HIP
+#114	AnnotatorNotes T133	[Hoja de información al paciente]
+R42	Has_Quantifier_or_Qualifier Arg1:T97 Arg2:T124	
+R43	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T130	
+T134	Result_or_Value 1467 1477	≥150 mm Hg
+R44	Has_Result_or_Value Arg1:T61 Arg2:T134	
+R45	Location_of Arg1:T126 Arg2:T22	
+R46	Location_of Arg1:T63 Arg2:T25	
+R47	Has_Duration_or_Interval Arg1:T25 Arg2:T103	
+R48	Location_of Arg1:T64 Arg2:T26	
+R49	Location_of Arg1:T65 Arg2:T27	
+R50	Overlap Arg1:T34 Arg2:T18	
+T135	ANAT 1448 1456	arterial
+#115	AnnotatorNotes T135	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+R51	Location_of Arg1:T135 Arg2:T61	
+R52	Location_of Arg1:T135 Arg2:T101	
+T136	Observation 1767 1823	ser capaz y estar dispuesto a cumplir con los requisitos
+R53	Has_Quantifier_or_Qualifier Arg1:T104 Arg2:T136	
+A21	Assertion T33 Speculated
+R55	Experiences Arg1:T105 Arg2:T33	
+R56	Experiences Arg1:T106 Arg2:T108	
+R57	Experiences Arg1:T106 Arg2:T128	
+T138	CONC 2076 2079	HIP
+#116	AnnotatorNotes T138	[Hoja de información al paciente]
+R58	Experiences Arg1:T109 Arg2:T35	
+R59	Experiences Arg1:T109 Arg2:T36	
+R60	Experiences Arg1:T109 Arg2:T110	
+R61	Experiences Arg1:T111 Arg2:T37	
+R62	Experiences Arg1:T112 Arg2:T38	
+R63	Experiences Arg1:T112 Arg2:T66	
+R64	Causes Arg1:T39 Arg2:T38	
+R65	Causes Arg1:T39 Arg2:T66	
+R66	Location_of Arg1:T62 Arg2:T40	
+R67	Experiences Arg1:T114 Arg2:T40	
+R68	Experiences Arg1:T114 Arg2:T41	
+R69	Experiences Arg1:T114 Arg2:T42	
+R70	Experiences Arg1:T114 Arg2:T43	
+R71	Experiences Arg1:T114 Arg2:T44	
+R72	Location_of Arg1:T67 Arg2:T41	
+R73	Location_of Arg1:T68 Arg2:T42	
+R74	Has_Duration_or_Interval Arg1:T43 Arg2:T115	
+T139	Quantifier_or_Qualifier 2329 2335	graves
+#117	AnnotatorNotes T139	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R75	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T139	
+R76	Location_of Arg1:T69 Arg2:T45	
+T140	Quantifier_or_Qualifier 2466 2476	progresiva
+#118	AnnotatorNotes T140	C0205329; Progressive; Functional Concept
+R77	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T140	
+R78	Experiences Arg1:T116 Arg2:T45	
+R79	Experiences Arg1:T117 Arg2:T46	
+R80	Location_of Arg1:T70 Arg2:T46	
+R81	Location_of Arg1:T118 Arg2:T113	
+R82	Location_of Arg1:T118 Arg2:T47	
+R83	Experiences Arg1:T117 Arg2:T47	
+T141	Result_or_Value 2556 2573	<30 ml/m en/1.732
+R84	Has_Result_or_Value Arg1:T47 Arg2:T141	
+R85	Experiences Arg1:T119 Arg2:T48	
+R86	Experiences Arg1:T119 Arg2:T49	
+R87	Has_Duration_or_Interval Arg1:T49 Arg2:T120	
+R88	Location_of Arg1:T71 Arg2:T50	
+T142	Quantifier_or_Qualifier 2663 2668	grave
+R89	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T142	
+#119	AnnotatorNotes T142	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R90	Experiences Arg1:T119 Arg2:T50	
+R91	Experiences Arg1:T121 Arg2:T51	
+R92	Experiences Arg1:T121 Arg2:T72	
+R93	Experiences Arg1:T122 Arg2:T52	
+R94	Location_of Arg1:T73 Arg2:T53	
+R95	Experiences Arg1:T122 Arg2:T53	
+R96	Experiences Arg1:T123 Arg2:T21	
+R97	Used_for Arg1:T54 Arg2:T21	
+#120	AnnotatorNotes T54	C3830624; CYP3A4 Inhibitor; Chemical Viewed Structurally | C3898062; P-glycoprotein Inhibitor; Organic Chemical · Pharmacologic Substance
+T143	Observation 2956 2976	candidato inadecuado
+#121	AnnotatorNotes T143	C3242266; patient not eligible; Finding
+R98	Overlap Arg1:T94 Arg2:T133	
+R99	Overlap Arg1:T87 Arg2:T133	
+R100	Overlap Arg1:T128 Arg2:T138	
+R101	Overlap Arg1:T108 Arg2:T138	
+R102	Experiences Arg1:T117 Arg2:T113	
+R103	Before Arg1:T58 Arg2:T6	
+R105	Experiences Arg1:T95 Arg2:T17	
+R106	Experiences Arg1:T97 Arg2:T17	
+R104	Before Arg1:T56 Arg2:T2	
+A5	Assertion T17 Negated
+T131	Observation 1159 1172;1175 1193	hospitalizado bajo consideración
+#122	AnnotatorNotes T131	C0701159; Patient in hospital (finding); Finding | C3536597; Patient requires hospitalization; Finding
+T137	Observation 1892 1905;1908 1926	hospitalizado bajo consideración
+#123	AnnotatorNotes T137	C0701159; Patient in hospital (finding); Finding | C3536597; Patient requires hospitalization; Finding
+T144	Quantifier_or_Qualifier 1927 1936	inmediata
+#124	AnnotatorNotes T144	C0205253; Immediate; Temporal Concept
+R54	Has_Quantifier_or_Qualifier Arg1:T137 Arg2:T144	
+#125	AnnotatorNotes T52	C0018939; Hematological Disease; Disease or Syndrome
+T145	Observation 186 197	alto riesgo
+#126	AnnotatorNotes T145	C4319571; High risk; Finding
+R108	Experiences Arg1:T76 Arg2:T145	
+R109	Before Arg1:T145 Arg2:T2	
+T146	Observation 469 483	ALTO RIESGO DE
+#127	AnnotatorNotes T146	C0332167; High risk of; Finding
+R110	Before Arg1:T146 Arg2:T6	
+R111	Experiences Arg1:T80 Arg2:T146	
+#128	AnnotatorNotes T124	C0562359; Institutionalized; Finding
+A20	Experiencer T76 Patient
+A22	Experiencer T80 Patient
+A23	Experiencer T84 Patient
+A24	Experiencer T88 Patient
+A25	Experiencer T90 Patient
+A26	Experiencer T93 Patient
+A27	Experiencer T97 Patient
+A28	Experiencer T95 Patient
+A29	Experiencer T127 Patient
+A30	Experiencer T98 Patient
+A31	Experiencer T104 Patient
+A32	Experiencer T105 Patient
+A33	Experiencer T106 Patient
+A34	Experiencer T109 Patient
+A35	Experiencer T111 Patient
+A36	Experiencer T112 Patient
+A37	Experiencer T114 Patient
+A38	Experiencer T116 Patient
+A39	Experiencer T117 Patient
+A40	Experiencer T119 Patient
+A41	Experiencer T121 Patient
+A42	Experiencer T122 Patient
+A43	Experiencer T123 Patient
+A44	Experiencer T125 Other
+A45	Assertion T131 Hypothetical

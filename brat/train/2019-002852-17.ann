@@ -1,0 +1,343 @@
+T1	PROC 44 75	Estudio de eficacia y seguridad
+T2	DISO 401 403	IC
+#1	AnnotatorNotes T2	C0542052; Coronary artery insufficiency; Disease or Syndrome
+T3	DISO 150 191	descompensación de insuficiencia cardiaca
+T4	PROC 205 225	ingreso hospitalario
+#2	AnnotatorNotes T4	C0184666; Hospital admission; Health Care Activity
+T5	CHEM 275 285	Furosemida
+#3	AnnotatorNotes T5	C0016860; furosemide; Organic Chemical · Pharmacologic Substance
+T6	PROC 1496 1515	Frecuencia cardiaca
+#4	AnnotatorNotes T6	C2197023; examination of heart rate; Health Care Activity
+T7	CHEM 315 339	Suero Salino Hipertónico
+T8	CHEM 397 400	SSH
+#5	AnnotatorNotes T8	C0036085; Saline Solution, Hypertonic; Pharmacologic Substance · Inorganic Chemical
+T9	DISO 365 387	Insuficiencia Cardiaca
+#6	AnnotatorNotes T9	C0018801; Heart failure; Disease or Syndrome
+T10	PROC 1529 1547	Saturación oxígeno
+T11	ANAT 2209 2217	cardíaca
+#7	AnnotatorNotes T11	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T12	DISO 426 450	Dificultad para respirar
+#8	AnnotatorNotes T12	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T13	DISO 453 483	hinchazón de piernas y abdomen
+T14	ANAT 476 483	abdomen
+#9	AnnotatorNotes T14	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T15	DISO 488 509	retención de líquidos
+#10	AnnotatorNotes T15	C0268000; Body fluid retention; Pathologic Function
+T16	ANAT 2048 2059	tricuspídea
+T17	DISO 596 632	Insuficiencia Cardiaca Descompensada
+#11	AnnotatorNotes T17	C0581377; Decompensated cardiac failure; Disease or Syndrome
+T18	PROC 679 690	Diagnóstico
+#12	AnnotatorNotes T18	C0011900; Diagnosis; Diagnostic Procedure
+T19	PROC 706 717	tratamiento
+#13	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	PROC 774 785	Tratamiento
+#14	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	CHEM 810 820	furosemida
+#15	AnnotatorNotes T21	C0016860; furosemide; Organic Chemical · Pharmacologic Substance
+T22	PROC 832 860	Ecocardiograma transtorácico
+#16	AnnotatorNotes T22	C0430462; Transthoracic echocardiography; Diagnostic Procedure
+T23	PROC 918 938	fracción de eyección
+#17	AnnotatorNotes T23	C0489482; Ejection fraction (procedure); Diagnostic Procedure
+T24	PROC 1003 1011	NTproBNP
+#18	AnnotatorNotes T24	C1533071; N terminal pro-brain natriuretic peptide level; Laboratory Procedure
+T25	DISO 978 988	congestivo
+#19	AnnotatorNotes T25	C0700148; Congestion; Pathologic Function
+T26	DISO 1099 1120	Ingurgitación yugular
+#20	AnnotatorNotes T26	C0425687; Jugular venous engorgement; Finding
+T27	DISO 1130 1158	edema de miembros inferiores
+T28	ANAT 1139 1158	miembros inferiores
+#21	AnnotatorNotes T28	C0023216; Lower Extremity; Body Part, Organ, or Organ Component | C1269079; Entire lower limb; Body Part, Organ, or Organ Component
+T29	DISO 1160 1167	ascitis
+#22	AnnotatorNotes T29	C0003962; Ascites; Disease or Syndrome
+T30	DISO 1171 1186	derrame pleural
+#23	AnnotatorNotes T30	C0032227; Pleural effusion disorder; Disease or Syndrome
+T31	PROC 1203 1223	radiografía de tórax
+#24	AnnotatorNotes T31	C0039985; Plain chest X-ray; Diagnostic Procedure
+T32	PROC 1226 1244	ecografía pulmonar
+T33	ANAT 1236 1244	pulmonar
+#25	AnnotatorNotes T33	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T34	DISO 1334 1344	congestión
+#26	AnnotatorNotes T34	C0700148; Congestion; Pathologic Function
+T35	PROC 1387 1407	ingreso hospitalario
+#27	AnnotatorNotes T35	C0184666; Hospital admission; Health Care Activity
+T36	CHEM 1540 1547	oxígeno
+#28	AnnotatorNotes T36	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T37	DISO 1567 1585	Shock cardiogénico
+#29	AnnotatorNotes T37	C0036980; Shock, Cardiogenic; Pathologic Function
+T38	DISO 1589 1610	Edema agudo de pulmón
+#30	AnnotatorNotes T38	C0155919; Acute pulmonary edema; Disease or Syndrome
+T39	DISO 1614 1622	Arritmia
+#31	AnnotatorNotes T39	C0003811; Cardiac Arrhythmia; Disease or Syndrome
+T40	DISO 1653 1678	Isquemia miocárdica aguda
+#32	AnnotatorNotes T40	C0746731; Acute myocardial ischemia; Disease or Syndrome
+T41	PROC 1725 1737	hemodiálisis
+#33	AnnotatorNotes T41	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T42	PROC 1740 1759	diálisis peritoneal
+#34	AnnotatorNotes T42	C0031139; Peritoneal Dialysis; Therapeutic or Preventive Procedure
+T43	CHEM 1778 1783	sodio
+#35	AnnotatorNotes T43	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T44	ANAT 1784 1790	sérico
+#36	AnnotatorNotes T44	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T45	CHEM 1833 1840	potasio
+#37	AnnotatorNotes T45	C0032821; potassium; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T46	ANAT 1841 1847	sérico
+#38	AnnotatorNotes T46	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T47	PROC 1932 1958	procedimiento cardiológico
+T48	DISO 1905 1929	Síndrome coronario agudo
+#39	AnnotatorNotes T48	C0948089; Acute Coronary Syndrome; Disease or Syndrome
+T49	DISO 1990 2002	Valvulopatía
+#40	AnnotatorNotes T49	C0018824; Heart valve disease; Disease or Syndrome
+T50	DISO 2034 2059	insuficiencia tricuspídea
+#41	AnnotatorNotes T50	C0040961; Tricuspid Valve Insufficiency; Disease or Syndrome
+T51	DISO 2063 2071	Demencia
+#42	AnnotatorNotes T51	C0497327; Dementia; Mental or Behavioral Dysfunction
+T52	DISO 2090 2098	delirium
+#43	AnnotatorNotes T52	C0011206; Delirium; Mental or Behavioral Dysfunction
+T53	DISO 2108 2131	problemas psiquiátricos
+T54	PROC 2150 2162	intervención
+#44	AnnotatorNotes T54	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T55	PROC 2201 2217	cirugía cardíaca
+#45	AnnotatorNotes T55	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T56	PROC 2315 2339	consentimiento informado
+#46	AnnotatorNotes T56	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T57	CHEM 79 88	diurético
+#47	AnnotatorNotes T57	C0012798; Diuretics; Pharmacologic Substance
+T58	CHEM 106 121	solución salina
+#48	AnnotatorNotes T58	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T59	ANAT 183 191	cardiaca
+#49	AnnotatorNotes T59	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T60	ANAT 379 387	Cardiaca
+#50	AnnotatorNotes T60	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T61	ANAT 466 473	piernas
+#51	AnnotatorNotes T61	C1140621; Leg; Body Part, Organ, or Organ Component | C1269079; Entire lower limb; Body Part, Organ, or Organ Component
+T62	ANAT 538 545	corazón
+#52	AnnotatorNotes T62	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T63	ANAT 610 618	Cardiaca
+#53	AnnotatorNotes T63	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T64	DISO 701 703	IC
+#54	AnnotatorNotes T64	C0542052; Coronary artery insufficiency; Disease or Syndrome
+T65	CHEM 760 769	diurético
+#55	AnnotatorNotes T65	C0012798; Diuretics; Pharmacologic Substance
+T66	PROC 940 942	FE
+#56	AnnotatorNotes T66	C0337439; Iron measurement; Laboratory Procedure
+T67	DISO 948 964	IC descompensada
+T68	DISO 1087 1097	congestión
+#57	AnnotatorNotes T68	C0700148; Congestion; Pathologic Function
+T69	ANAT 1113 1120	yugular
+#58	AnnotatorNotes T69	C0031354; Pharyngeal structure; Body Part, Organ, or Organ Component
+T70	ANAT 1179 1186	pleural
+#59	AnnotatorNotes T70	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T71	ANAT 1218 1223	tórax
+#60	AnnotatorNotes T71	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T72	CHEM 1294 1303	diurético
+#61	AnnotatorNotes T72	C0012798; Diuretics; Pharmacologic Substance
+T73	PROC 1443 1469	Tensión arterial sistólica
+#62	AnnotatorNotes T73	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T74	ANAT 1451 1459	arterial
+#63	AnnotatorNotes T74	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T75	ANAT 1507 1515	cardiaca
+#64	AnnotatorNotes T75	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T76	ANAT 1604 1610	pulmón
+#65	AnnotatorNotes T76	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T77	ANAT 1662 1672	miocárdica
+#66	AnnotatorNotes T77	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T78	Route 1749 1759	peritoneal
+#67	AnnotatorNotes T78	C1706534; Peritoneal dialysis route; Functional Concept
+T79	PROC 1778 1790	sodio sérico
+#68	AnnotatorNotes T79	C0523891; Serum sodium measurement; Laboratory Procedure
+T80	PROC 1833 1847	potasio sérico
+#69	AnnotatorNotes T80	C0302353; Serum potassium measurement; Laboratory Procedure
+T81	PROC 1875 1886	Hemoglobina
+#70	AnnotatorNotes T81	C0518015; Hemoglobin measurement; Laboratory Procedure
+T82	ANAT 1914 1923	coronario
+#71	AnnotatorNotes T82	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T83	PROC 2220 2244	implante de dispositivos
+T84	Date 12 16	2019
+T86	Form 106 114	solución
+#72	AnnotatorNotes T86	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T87	LIVB 128 136	paciente
+#73	AnnotatorNotes T87	C0030705; Patients; Patient or Disabled Group
+T88	Neg_cue 194 196	no
+T89	Route 286 297	Intravenosa
+#74	AnnotatorNotes T89	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T91	Age 666 675	> 18 años
+T92	Duration 726 750	las 4 semanas anteriores
+T93	Neg_cue 752 759	excepto
+T95	Dose 792 806	al menos 80 mg
+T96	Frequency 821 828	diarios
+T98	Date 871 884	el último año
+T100	Route 1304 1315	intravenoso
+#75	AnnotatorNotes T100	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T102	PHYS 1443 1459	Tensión arterial
+#76	AnnotatorNotes T102	C0005823; Blood Pressure; Organism Function
+T104	LIVB 1682 1691	Pacientes
+#77	AnnotatorNotes T104	C0030705; Patients; Patient or Disabled Group
+T106	LIVB 1764 1773	Pacientes
+#78	AnnotatorNotes T106	C0030705; Patients; Patient or Disabled Group
+T111	Duration 1962 1986	las 4 semanas anteriores
+T113	Neg_cue 2023 2030	excepto
+T114	LIVB 2166 2175	Pacientes
+#79	AnnotatorNotes T114	C0030705; Patients; Patient or Disabled Group
+T116	DEVI 2232 2244	dispositivos
+#80	AnnotatorNotes T116	C1285539; Direct device; Medical Device
+T117	Date 2248 2264	el siguiente mes
+T118	PHYS 2267 2275	Embarazo
+#81	AnnotatorNotes T118	C0032961; Pregnancy; Organism Function
+T119	PHYS 2278 2287	lactancia
+#82	AnnotatorNotes T119	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T120	Neg_cue 2291 2307	Incapacidad para
+T121	Neg_cue 2346 2357	ausencia de
+T122	PHYS 442 450	respirar
+#83	AnnotatorNotes T122	C0035203; Respiration; Physiologic Function
+T123	PHYS 930 938	eyección
+#84	AnnotatorNotes T123	C2733340; Ventricular ejection; Physiologic Function
+T85	LIVB 1272 1290	médico responsable
+#85	AnnotatorNotes T85	C4708568; Medically responsible investigator; Professional or Occupational Group
+T90	LIVB 1421 1439	médico responsable
+#86	AnnotatorNotes T90	C4708568; Medically responsible investigator; Professional or Occupational Group
+T94	LIVB 2361 2378	responsable legal
+#87	AnnotatorNotes T94	C4288823; Legal Representative for the Study; Human
+A1	Assertion T4 Negated
+A2	Assertion T65 Negated
+A3	Assertion T50 Negated
+A4	Assertion T56 Negated
+A5	Assertion T94 Negated
+A6	Status T64 History_of
+A7	Status T48 History_of
+A8	Status T47 History_of
+A9	Status T22 History_of
+#88	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#89	AnnotatorNotes T3	C0581377; Decompensated cardiac failure; Disease or Syndrome
+#90	AnnotatorNotes T7	C0036085; Saline Solution, Hypertonic; Pharmacologic Substance · Inorganic Chemical
+#91	AnnotatorNotes T67	C0581377; Decompensated cardiac failure; Disease or Syndrome
+#92	AnnotatorNotes T27	C0239340; Edema of lower extremity; Pathologic Function
+#93	AnnotatorNotes T32	C4286019; Lung ultrasound; Diagnostic Procedure
+#94	AnnotatorNotes T10	C0523807; Oxygen saturation measurement; Laboratory Procedure
+#95	AnnotatorNotes T47	C1279986; Procedure on heart; Health Care Activity
+#96	AnnotatorNotes T53	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+#97	AnnotatorNotes T83	C0877318; Medical device implantation; Therapeutic or Preventive Procedure
+T97	Neg_cue 2010 2012	no
+T99	Quantifier_or_Qualifier 2013 2022	corregida
+A10	Assertion T99 Negated
+#98	AnnotatorNotes T99	C0205202; Corrected; Qualitative Concept
+T101	Neg_cue 522 533	incapacidad
+T103	Observation 548 569	bombear adecuadamente
+A11	Assertion T103 Negated
+R1	Negation Arg1:T101 Arg2:T103	
+R2	Location_of Arg1:T62 Arg2:T103	
+R3	Combined_with Arg1:T57 Arg2:T58	
+R4	Has_Drug_Form Arg1:T58 Arg2:T86	
+R5	Experiences Arg1:T87 Arg2:T57	
+R6	Experiences Arg1:T87 Arg2:T3	
+R7	Location_of Arg1:T59 Arg2:T3	
+R8	Negation Arg1:T88 Arg2:T4	
+R9	Experiences Arg1:T87 Arg2:T4	
+R10	Has_Route_or_Mode Arg1:T5 Arg2:T89	
+R11	Combined_with Arg1:T5 Arg2:T7	
+R12	Location_of Arg1:T60 Arg2:T9	
+R14	Location_of Arg1:T61 Arg2:T13	
+R15	Location_of Arg1:T14 Arg2:T13	
+R16	Causes Arg1:T15 Arg2:T13	
+R17	Causes Arg1:T103 Arg2:T15	
+R18	Causes Arg1:T103 Arg2:T12	
+R19	Location_of Arg1:T63 Arg2:T17	
+R20	Has_Duration_or_Interval Arg1:T19 Arg2:T92	
+T105	Quantifier_or_Qualifier 718 725	estable
+#99	AnnotatorNotes T105	C0205360; Stable status; Qualitative Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T105	
+R22	Negation Arg1:T93 Arg2:T65	
+R23	Has_Dose_or_Strength Arg1:T21 Arg2:T95	
+R24	Has_Frequency Arg1:T21 Arg2:T96	
+R25	Used_for Arg1:T21 Arg2:T20	
+T107	Quantifier_or_Qualifier 786 791	basal
+#100	AnnotatorNotes T107	C1442488; Baseline; Quantitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T107	
+R27	Overlap Arg1:T22 Arg2:T98	
+R30	Overlap Arg1:T67 Arg2:T25	
+T108	Result_or_Value 1012 1024	> 1000 pg/dL
+R31	Has_Result_or_Value Arg1:T24 Arg2:T108	
+R33	Location_of Arg1:T69 Arg2:T26	
+T109	Result_or_Value 1121 1128	> 10 cm
+R34	Has_Result_or_Value Arg1:T26 Arg2:T109	
+R35	Location_of Arg1:T28 Arg2:T27	
+R36	Location_of Arg1:T70 Arg2:T30	
+R39	Location_of Arg1:T33 Arg2:T32	
+R40	Location_of Arg1:T71 Arg2:T31	
+R41	Has_Route_or_Mode Arg1:T72 Arg2:T100	
+T110	Observation 1321 1327	alivio
+#101	AnnotatorNotes T110	C0564405; Feeling relief; Finding
+R42	Before Arg1:T34 Arg2:T110	
+R43	Causes Arg1:T72 Arg2:T110	
+T112	Result_or_Value 1470 1492	< 90 mmHg o > 180 mmHg
+R45	Location_of Arg1:T74 Arg2:T73	
+R46	Location_of Arg1:T74 Arg2:T102	
+R47	Has_Result_or_Value Arg1:T73 Arg2:T112	
+R48	Location_of Arg1:T75 Arg2:T6	
+T115	Result_or_Value 1516 1525	> 150 lpm
+T124	Result_or_Value 1554 1563	menor 90%
+R49	Has_Result_or_Value Arg1:T10 Arg2:T124	
+T125	Quantifier_or_Qualifier 1548 1553	basal
+#102	AnnotatorNotes T125	C1442488; Baseline; Quantitative Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T125	
+R51	Location_of Arg1:T76 Arg2:T38	
+T126	Quantifier_or_Qualifier 1623 1649	clínicamente significativa
+R52	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T126	
+R53	Location_of Arg1:T77 Arg2:T40	
+R54	Experiences Arg1:T104 Arg2:T41	
+R55	Experiences Arg1:T104 Arg2:T42	
+R56	Has_Route_or_Mode Arg1:T42 Arg2:T78	
+R57	Location_of Arg1:T44 Arg2:T79	
+R58	Experiences Arg1:T106 Arg2:T79	
+T127	Result_or_Value 1791 1830	por debajo de < 125 mEq/L o > 145 mEq/L
+R59	Has_Result_or_Value Arg1:T79 Arg2:T127	
+T128	Result_or_Value 1848 1871	por debajo de 3,5 mEq/L
+R60	Location_of Arg1:T46 Arg2:T80	
+R61	Has_Result_or_Value Arg1:T80 Arg2:T128	
+R62	Experiences Arg1:T106 Arg2:T80	
+T129	Result_or_Value 1887 1902	menor de 9 g/dL
+R63	Has_Result_or_Value Arg1:T81 Arg2:T129	
+R64	Location_of Arg1:T82 Arg2:T48	
+R65	Overlap Arg1:T47 Arg2:T111	
+R66	Overlap Arg1:T48 Arg2:T111	
+R67	Negation Arg1:T97 Arg2:T99	
+R68	Negation Arg1:T113 Arg2:T50	
+R69	Location_of Arg1:T16 Arg2:T50	
+#103	AnnotatorNotes T16	C0040960; Tricuspid valve structure; Body Part, Organ, or Organ Component | C1269006; Entire tricuspid valve; Body Part, Organ, or Organ Component
+R70	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T99	
+T130	Quantifier_or_Qualifier 2003 2009	severa
+#104	AnnotatorNotes T130	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R71	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T130	
+T132	Quantifier_or_Qualifier 2099 2105	activo
+#106	AnnotatorNotes T132	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R73	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T132	
+T133	Observation 2136 2162	dificulten la intervención
+R74	Causes Arg1:T53 Arg2:T133	
+R75	Causes Arg1:T51 Arg2:T133	
+R76	Causes Arg1:T52 Arg2:T133	
+T134	Quantifier_or_Qualifier 2072 2088	moderada o grave
+#107	AnnotatorNotes T134	C1299393; Moderate to severe; Qualitative Concept
+R77	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T134	
+R78	Experiences Arg1:T114 Arg2:T55	
+R79	Location_of Arg1:T11 Arg2:T55	
+R80	Experiences Arg1:T114 Arg2:T83	
+R81	Used_for Arg1:T116 Arg2:T83	
+R82	Overlap Arg1:T83 Arg2:T117	
+R83	Overlap Arg1:T55 Arg2:T117	
+T135	Quantifier_or_Qualifier 2192 2200	previsto
+#108	AnnotatorNotes T135	C1301732; Planned; Functional Concept
+R84	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T135	
+R85	Has_Quantifier_or_Qualifier Arg1:T83 Arg2:T135	
+R86	Negation Arg1:T120 Arg2:T56	
+R87	Negation Arg1:T121 Arg2:T94	
+#105	AnnotatorNotes T126	C5209294; Clinical relevance; Intellectual Product
+#109	AnnotatorNotes T13	C0581394; Swelling of lower limb; Pathologic Function + C0000731; Abdomen distended; Finding
+A12	Experiencer T87 Patient
+A13	Experiencer T85 Other
+A14	Experiencer T90 Other
+A15	Experiencer T104 Patient
+A16	Experiencer T106 Patient
+A17	Experiencer T114 Patient
+A18	Status T55 Future
+A19	Status T83 Future
+A20	Experiencer T94 Other
+R13	Has_Result_or_Value Arg1:T6 Arg2:T115	

@@ -1,0 +1,245 @@
+T1	PROC 22 42	insuflación con aire
+T2	CHEM 58 76	dióxido de carbono
+#1	AnnotatorNotes T2	C0007012; carbon dioxide; Biologically Active Substance · Inorganic Chemical
+T3	PROC 88 100	colonoscopia
+#2	AnnotatorNotes T3	C0009378; colonoscopy; Diagnostic Procedure
+T4	PROC 203 215	colonoscopia
+#3	AnnotatorNotes T4	C0009378; colonoscopy; Diagnostic Procedure
+T5	CHEM 126 134	propofol
+#4	AnnotatorNotes T5	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T6	CHEM 240 258	dióxido de carbono
+#5	AnnotatorNotes T6	C0007012; carbon dioxide; Biologically Active Substance · Inorganic Chemical
+T7	CHEM 260 263	CO2
+#6	AnnotatorNotes T7	C0007012; carbon dioxide; Biologically Active Substance · Inorganic Chemical
+T8	PROC 267 287	evaluar la seguridad
+#7	AnnotatorNotes T8	C1705187; Safety Study; Research Activity
+T9	CHEM 292 295	CO2
+#8	AnnotatorNotes T9	C0007012; carbon dioxide; Biologically Active Substance · Inorganic Chemical
+T10	PROC 313 341	sedación moderada o profunda
+#9	AnnotatorNotes T10	C1619775; Moderate Sedation; Therapeutic or Preventive Procedure + C1956064; Deep Sedation; Therapeutic or Preventive Procedure
+T11	PROC 393 405	colonoscopia
+#10	AnnotatorNotes T11	C0009378; colonoscopy; Diagnostic Procedure
+T12	DISO 423 446	enfermedad respiratoria
+#11	AnnotatorNotes T12	C0035204; Respiration Disorders; Disease or Syndrome
+T13	DISO 457 473	obesidad mórbida
+#12	AnnotatorNotes T13	C0028756; Morbid obesity; Disease or Syndrome
+T14	CHEM 506 509	CO2
+#13	AnnotatorNotes T14	C0007012; carbon dioxide; Biologically Active Substance · Inorganic Chemical
+T15	PROC 572 584	colonoscopia
+#14	AnnotatorNotes T15	C0009378; colonoscopy; Diagnostic Procedure
+T16	PROC 613 626	monitorizados
+#15	AnnotatorNotes T16	C1283169; Monitoring; Health Care Activity
+T17	PROC 636 647	capnografía
+#16	AnnotatorNotes T17	C0542276; Respired carbon dioxide monitoring; Health Care Activity
+T18	PROC 650 664	pulsioximetría
+#17	AnnotatorNotes T18	C0034108; Oximetry, Pulse; Diagnostic Procedure
+T19	PROC 1834 1846	colonoscopia
+#18	AnnotatorNotes T19	C0009378; colonoscopy; Diagnostic Procedure
+T20	PROC 807 819	colonoscopia
+#19	AnnotatorNotes T20	C0009378; colonoscopy; Diagnostic Procedure
+T21	CHEM 927 930	CO2
+#20	AnnotatorNotes T21	C0007012; carbon dioxide; Biologically Active Substance · Inorganic Chemical
+T22	PROC 1067 1080	exploraciones
+#21	AnnotatorNotes T22	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T23	CHEM 1215 1218	CO2
+#22	AnnotatorNotes T23	C0007012; carbon dioxide; Biologically Active Substance · Inorganic Chemical
+T24	CHEM 1270 1277	oxígeno
+#23	AnnotatorNotes T24	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T25	CHEM 1293 1301	propofol
+#24	AnnotatorNotes T25	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T26	CHEM 1304 1313	midazolam
+#25	AnnotatorNotes T26	C0026056; midazolam; Organic Chemical · Pharmacologic Substance
+T27	DISO 1385 1396	hipercapnia
+#26	AnnotatorNotes T27	C0020440; Hypercapnia; Finding
+T28	DISO 1408 1422	complicaciones
+#27	AnnotatorNotes T28	C0009566; Complication; Pathologic Function
+T29	PROC 1560 1572	colonoscopia
+#28	AnnotatorNotes T29	C0009378; colonoscopy; Diagnostic Procedure
+T30	CHEM 1824 1827	CO2
+#29	AnnotatorNotes T30	C0007012; carbon dioxide; Biologically Active Substance · Inorganic Chemical
+T31	PROC 1817 1827	uso de CO2
+T32	PROC 475 487	randomizados
+#30	AnnotatorNotes T32	C0034656; Randomization; Research Activity
+T33	PROC 114 121	sedados
+#31	AnnotatorNotes T33	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T34	DISO 174 179	dolor
+#32	AnnotatorNotes T34	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T35	PROC 695 737	puntuó mediante una escala visual numérica
+#33	AnnotatorNotes T35	C0042815; Visual Analog Pain Scale; Diagnostic Procedure
+T36	DISO 756 761	dolor
+#34	AnnotatorNotes T36	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T37	DISO 1451 1456	dolor
+#35	AnnotatorNotes T37	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T38	DISO 1760 1765	dolor
+#36	AnnotatorNotes T38	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T39	DISO 1878 1883	dolor
+#37	AnnotatorNotes T39	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T40	PROC 1938 1966	sedación moderada o profunda
+#38	AnnotatorNotes T40	C1619775; Moderate Sedation; Therapeutic or Preventive Procedure + C1956064; Deep Sedation; Therapeutic or Preventive Procedure
+T41	LIVB 104 113	pacientes
+#39	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 299 308	pacientes
+#40	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 366 376	individuos
+#41	AnnotatorNotes T43	C0027361; Persons; Population Group
+T44	Neg_cue 419 422	sin
+T45	Neg_cue 454 456	ni
+T46	LIVB 596 605	pacientes
+#42	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 686 694	paciente
+#43	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 838 847	pacientes
+#44	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 884 891	mujeres
+#45	AnnotatorNotes T50	C0043210; Woman; Population Group
+T51	LIVB 933 940	hombres
+#46	AnnotatorNotes T51	C0025266; Male population group; Population Group
+T52	LIVB 941 948	mujeres
+#47	AnnotatorNotes T52	C0043210; Woman; Population Group
+T55	PHYS 1227 1235	espirado
+#48	AnnotatorNotes T55	C0231800; Expiration, function; Organism Function
+T56	Neg_cue 1358 1360	No
+T57	Neg_cue 1405 1407	ni
+T58	Duration 1521 1535	los 15 minutos
+T59	Duration 1537 1551	1, 3 y 6 horas
+T61	Duration 1588 1600	las 24 horas
+T62	Duration 1887 1909	las siguientes 6 horas
+T63	LIVB 1924 1933	pacientes
+#49	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T67	ANAT 434 446	respiratoria
+#50	AnnotatorNotes T67	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T60	LIVB 1668 1680	endoscopista
+T48	LIVB 875 882	hombres
+#51	AnnotatorNotes T48	C0025266; Male population group; Population Group
+T68	Age 910 915	24-83
+T69	Age 967 972	24-82
+T53	LIVB 1099 1111	endoscopista
+T54	LIVB 1182 1195	endoscopistas
+A1	Assertion T27 Negated
+A2	Assertion T28 Negated
+A3	Assertion T12 Negated
+A4	Assertion T13 Negated
+R1	Negation Arg1:T44 Arg2:T12	
+R2	Negation Arg1:T56 Arg2:T27	
+R3	Negation Arg1:T57 Arg2:T28	
+T64	Neg_cue 2012 2014	no
+T65	CONC 2021 2031	modificada
+A5	Assertion T65 Negated
+#52	AnnotatorNotes T65	C0443172; Changed status; Quantitative Concept
+R4	Negation Arg1:T64 Arg2:T65	
+T66	Neg_cue 975 977	No
+T70	CONC 989 1000	diferencias
+A6	Assertion T70 Negated
+#53	AnnotatorNotes T70	C1705241; Delta (difference); Quantitative Concept
+R5	Negation Arg1:T66 Arg2:T70	
+R6	Negation Arg1:T45 Arg2:T13	
+T71	Neg_cue 2032 2034	ni
+T72	CONC 2039 2046	tiempos
+A7	Assertion T72 Negated
+#54	AnnotatorNotes T72	C0040223; Time; Temporal Concept
+T73	Quantifier_or_Qualifier 2047 2056	reducidos
+A8	Assertion T73 Negated
+R7	Has_Quantifier_or_Qualifier Arg1:T72 Arg2:T73	
+R8	Negation Arg1:T71 Arg2:T72	
+R9	Negation Arg1:T71 Arg2:T73	
+R10	Used_for Arg1:T2 Arg2:T1	
+R11	Overlap Arg1:T1 Arg2:T3	
+R12	Experiences Arg1:T41 Arg2:T33	
+R13	Experiences Arg1:T41 Arg2:T3	
+R14	Experiences Arg1:T41 Arg2:T1	
+R15	Used_for Arg1:T5 Arg2:T33	
+R16	After Arg1:T34 Arg2:T4	
+R17	Used_for Arg1:T6 Arg2:T4	
+R18	Used_for Arg1:T7 Arg2:T4	
+R19	Experiences Arg1:T42 Arg2:T9	
+R20	Experiences Arg1:T42 Arg2:T7	
+R21	Experiences Arg1:T42 Arg2:T6	
+R22	Experiences Arg1:T42 Arg2:T4	
+R23	Experiences Arg1:T42 Arg2:T34	
+R24	Experiences Arg1:T42 Arg2:T10	
+R25	Before Arg1:T33 Arg2:T3	
+R26	Before Arg1:T33 Arg2:T1	
+R27	Before Arg1:T10 Arg2:T4	
+R28	Before Arg1:T10 Arg2:T9	
+R29	Experiences Arg1:T43 Arg2:T11	
+T74	Quantifier_or_Qualifier 406 417	ambulatoria
+#55	AnnotatorNotes T74	C0439841; Ambulatory - qualifier value; Functional Concept 
+R30	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T74	
+R31	Experiences Arg1:T43 Arg2:T12	
+R32	Location_of Arg1:T67 Arg2:T12	
+T75	Quantifier_or_Qualifier 447 453	severa
+#56	AnnotatorNotes T75	C0457451; Severity score; Quantitative
+R33	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T75	
+R34	Experiences Arg1:T43 Arg2:T13	
+R35	Before Arg1:T32 Arg2:T14	
+R36	Before Arg1:T32 Arg2:T11	
+R37	Experiences Arg1:T46 Arg2:T16	
+R38	Experiences Arg1:T46 Arg2:T17	
+R39	Experiences Arg1:T46 Arg2:T18	
+R40	Experiences Arg1:T47 Arg2:T35	
+R42	Experiences Arg1:T47 Arg2:T36	
+R43	Experiences Arg1:T47 Arg2:T20	
+R44	After Arg1:T36 Arg2:T20	
+R45	After Arg1:T35 Arg2:T20	
+R46	Has_Age Arg1:T48 Arg2:T68	
+R47	Has_Age Arg1:T50 Arg2:T68	
+R48	Has_Age Arg1:T52 Arg2:T69	
+R49	Has_Age Arg1:T51 Arg2:T69	
+R50	Experiences Arg1:T49 Arg2:T21	
+R51	Experiences Arg1:T51 Arg2:T21	
+R52	Experiences Arg1:T52 Arg2:T21	
+R53	Used_for Arg1:T23 Arg2:T55	
+T76	Observation 1254 1277	desaturación de oxígeno
+#57	AnnotatorNotes T76	C4061338; Oxygen desaturation; Finding
+T77	CONC 1284 1289	dosis
+#58	AnnotatorNotes T77	C0178602; Dosage; Quantitative Concept
+T78	Quantifier_or_Qualifier 1397 1404	severos
+#59	AnnotatorNotes T78	C0457451; Severity score; Quantitative
+R54	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T78	
+T79	Quantifier_or_Qualifier 1423 1446	clínicamente relevantes
+R55	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T79	
+A9	Assertion T79 Negated
+R56	Negation Arg1:T57 Arg2:T79	
+R57	Overlap Arg1:T37 Arg2:T58	
+R58	Overlap Arg1:T37 Arg2:T59	
+R59	After Arg1:T37 Arg2:T29	
+R60	Overlap Arg1:T37 Arg2:T61	
+T80	CONC 1628 1650	análisis multivariante
+#60	AnnotatorNotes T80	 C0026777; Multivariate Analysis; Quantitative Concept 
+R61	Used_for Arg1:T30 Arg2:T31	
+R62	Overlap Arg1:T31 Arg2:T19	
+R63	Causes Arg1:T19 Arg2:T39	
+R64	Overlap Arg1:T39 Arg2:T62	
+R65	Experiences Arg1:T63 Arg2:T40	
+R66	Experiences Arg1:T63 Arg2:T39	
+R67	Experiences Arg1:T63 Arg2:T19	
+R68	Experiences Arg1:T63 Arg2:T31	
+R69	Before Arg1:T40 Arg2:T19	
+R70	Before Arg1:T40 Arg2:T31	
+T81	Quantifier_or_Qualifier 1331 1340	similares
+#61	AnnotatorNotes T81	C2348205; Similarity; Qualitative Concept 
+R71	Has_Quantifier_or_Qualifier Arg1:T77 Arg2:T81	
+T82	Quantifier_or_Qualifier 1001 1015	significativas
+A10	Assertion T82 Negated
+#62	AnnotatorNotes T82	C0750502; Significant; Idea or Concept
+R75	Has_Quantifier_or_Qualifier Arg1:T70 Arg2:T82	
+R76	Negation Arg1:T66 Arg2:T82	
+R41	Used_for Arg1:T77 Arg2:T25	
+R77	Used_for Arg1:T77 Arg2:T26	
+#63	AnnotatorNotes T79	C5209294; Clinical relevance; Intellectual Product
+R78	Used_for Arg1:T9 Arg2:T4	
+#64	AnnotatorNotes T73	C0205216; Decreased; Quantitative Concept
+A11	Experiencer T41 Patient
+A12	Experiencer T42 Patient
+A13	Experiencer T43 Patient
+A14	Experiencer T46 Patient
+A15	Experiencer T47 Patient
+A16	Experiencer T49 Patient
+A17	Experiencer T48 Patient
+A18	Experiencer T50 Patient
+A19	Experiencer T51 Patient
+A20	Experiencer T52 Patient
+A21	Experiencer T53 Other
+A22	Experiencer T54 Other
+A23	Experiencer T60 Other
+A24	Experiencer T63 Patient

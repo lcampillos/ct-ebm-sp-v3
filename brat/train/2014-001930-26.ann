@@ -1,0 +1,204 @@
+T1	PROC 44 76	Estudio para evaluar la eficacia
+T2	PROC 107 125	controlar el dolor
+T3	PROC 151 161	litotricia
+#1	AnnotatorNotes T3	C0023878; Lithotripsy; Therapeutic or Preventive Procedure
+T4	PROC 368 372	LEOC
+#2	AnnotatorNotes T4	C0015359; Extracorporeal Shockwave Lithotripsy; Therapeutic or Preventive Procedure
+T5	PROC 248 267	evaluar la eficacia
+#3	AnnotatorNotes T5	C1707887; Efficacy Study; Research Activity
+T6	PROC 278 296	pautas analgésicas
+T7	CHEM 285 296	analgésicas
+#4	AnnotatorNotes T7	C0002771; Analgesics; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T8	PROC 322 366	litotricia extracorpórea con ondas de choque
+T9	DISO 417 431	Litiasis renal
+#5	AnnotatorNotes T9	C0022650; Kidney Calculi; Disease or Syndrome | C0392525; Nephrolithiasis; Disease or Syndrome
+T10	PROC 452 462	litotricia
+#6	AnnotatorNotes T10	C0023878; Lithotripsy; Therapeutic or Preventive Procedure
+T11	DISO 497 511	litiasis renal
+#7	AnnotatorNotes T11	C0022650; Kidney Calculi; Disease or Syndrome | C0392525; Nephrolithiasis; Disease or Syndrome
+T12	PROC 530 574	litotricia extracorpórea por ondas de choque
+#8	AnnotatorNotes T12	C0015359; Extracorporeal Shockwave Lithotripsy; Therapeutic or Preventive Procedure
+T13	PROC 614 628	diagnosticados
+#9	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 632 646	litiasis renal
+#10	AnnotatorNotes T14	C0022650; Kidney Calculi; Disease or Syndrome | C0392525; Nephrolithiasis; Disease or Syndrome
+T15	ANAT 651 657	pelvis
+#11	AnnotatorNotes T15	C0030797; Pelvis; Body Part, Organ, or Organ Component | C1279864; Entire pelvis; Body Part, Organ, or Organ Component
+T16	PROC 705 730	tratamiento mediante LEOC
+T17	PROC 958 987	por escrito su consentimiento
+#12	AnnotatorNotes T17	C0811746; Obtain written consent; Health Care Activity
+T18	PROC 1686 1691	LEOCs
+T19	PROC 1075 1088	instrucciones
+#13	AnnotatorNotes T19	C0220931; Training; Educational Activity
+T20	PROC 1151 1165	consentimiento
+#14	AnnotatorNotes T20	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T21	PROC 1211 1235	Consentimiento Informado
+#15	AnnotatorNotes T21	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T22	PROC 1263 1288	tratamiento mediante LEOC
+T23	DISO 1347 1355	litiasis
+#16	AnnotatorNotes T23	C0023869; Lithiasis; Pathologic Function
+T24	CHEM 1387 1395	opioides
+#17	AnnotatorNotes T24	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T25	PROC 1604 1617	procedimiento
+#18	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T26	PROC 1429 1440	Tratamiento
+#19	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	CHEM 1452 1475	fármacos antiagregantes
+T28	CHEM 1478 1493	anticoagulantes
+#20	AnnotatorNotes T28	C0003280; Anticoagulants; Pharmacologic Substance
+T29	CHEM 1535 1538	AAS
+#21	AnnotatorNotes T29	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T30	PROC 1771 1792	medicación analgésica
+T31	DISO 120 125	dolor
+#22	AnnotatorNotes T31	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T32	PROC 183 223	Ensayo clínico aleatorizado, enmascarado
+T33	DISO 408 413	dolor
+#23	AnnotatorNotes T33	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T34	ANAT 426 431	renal
+#24	AnnotatorNotes T34	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T35	DISO 488 493	Dolor
+#25	AnnotatorNotes T35	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T36	ANAT 506 511	renal
+#26	AnnotatorNotes T36	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T37	ANAT 660 667	cálices
+#27	AnnotatorNotes T37	C0022651; Structure of calyx; Body Part, Organ, or Organ Component
+T38	ANAT 641 646	renal
+#28	AnnotatorNotes T38	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T39	DISO 1416 1425	patología
+#29	AnnotatorNotes T39	C0677042; Pathology processes; Pathologic Function
+T40	CHEM 1782 1792	analgésica
+#30	AnnotatorNotes T40	C0002771; Analgesics; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T41	Date 12 16	2014
+T42	LIVB 129 138	pacientes
+#31	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 300 309	pacientes
+#32	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 604 613	Pacientes
+#33	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T46	Age 739 750	≥ a 18 años
+T47	LIVB 754 761	Sujetos
+#34	AnnotatorNotes T47	C0681850; Study Subject; Group
+T52	Date 899 916	cualquier momento
+T55	Neg_cue 1045 1061	Incapacidad para
+T56	Neg_cue 1139 1150	ausencia de
+T57	Neg_cue 1177 1185	Negativa
+T58	LIVB 1190 1198	paciente
+#35	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1291 1300	Pacientes
+#36	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	DEVI 1315 1330	catéter doble J
+#37	AnnotatorNotes T60	C0441293; JJ stent; Medical Device
+T61	LIVB 1333 1342	Pacientes
+#38	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	Duration 1376 1383	crónico
+#39	AnnotatorNotes T62	C0205191; chronic; Temporal Concept
+T63	LIVB 1513 1521	paciente
+#40	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	Duration 1583 1593	una semana
+T65	Date 1633 1649	al día siguiente
+T45	PHYS 1062 1070	entender
+#41	AnnotatorNotes T45	C0162340; Comprehension; Mental Process
+A1	Assertion T45 Negated
+A2	Assertion T20 Negated
+A3	Assertion T21 Negated
+A4	Assertion T30 Contraindicated
+A5	Assertion T40 Contraindicated
+A6	Assertion T22 Contraindicated
+A7	Status T18 History_of
+#42	AnnotatorNotes T32	C0150108; Blinded; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#43	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#44	AnnotatorNotes T8	C0015359; Extracorporeal Shockwave Lithotripsy; Therapeutic or Preventive Procedure
+#45	AnnotatorNotes T16	C0015359; Extracorporeal Shockwave Lithotripsy; Therapeutic or Preventive Procedure
+#46	AnnotatorNotes T22	C0015359; Extracorporeal Shockwave Lithotripsy; Therapeutic or Preventive Procedure
+#47	AnnotatorNotes T27	C0085826; Antiplatelet Agents; Pharmacologic Substance
+#48	AnnotatorNotes T18	C0015359; Extracorporeal Shockwave Lithotripsy; Therapeutic or Preventive Procedure
+#49	AnnotatorNotes T30	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T48	Spec_cue 843 851	posibles
+T49	Observation 852 859	riesgos
+A8	Assertion T49 Speculated
+R1	Speculation Arg1:T48 Arg2:T49	
+T50	Neg_cue 924 931	denegar
+T51	Observation 935 947	colaboración
+A9	Assertion T51 Negated
+R2	Negation Arg1:T50 Arg2:T51	
+R3	Negation Arg1:T55 Arg2:T45	
+T53	Observation 1091 1100	colaborar
+A10	Assertion T53 Negated
+R4	Negation Arg1:T55 Arg2:T53	
+R5	Negation Arg1:T56 Arg2:T20	
+R6	Negation Arg1:T57 Arg2:T21	
+R8	Experiences Arg1:T42 Arg2:T2	
+R9	Experiences Arg1:T42 Arg2:T31	
+R10	Experiences Arg1:T42 Arg2:T3	
+R13	Used_for Arg1:T7 Arg2:T6	
+R14	Experiences Arg1:T43 Arg2:T6	
+R15	Experiences Arg1:T43 Arg2:T8	
+R16	Experiences Arg1:T43 Arg2:T4	
+R17	Causes Arg1:T9 Arg2:T33	
+R18	Location_of Arg1:T34 Arg2:T9	
+R20	Location_of Arg1:T36 Arg2:T11	
+R21	Causes Arg1:T11 Arg2:T35	
+R25	Location_of Arg1:T38 Arg2:T14	
+R26	Location_of Arg1:T15 Arg2:T14	
+R27	Location_of Arg1:T37 Arg2:T14	
+R28	Experiences Arg1:T44 Arg2:T14	
+R29	Experiences Arg1:T44 Arg2:T16	
+T54	Quantifier_or_Qualifier 668 674	medios
+#50	AnnotatorNotes T54	C0439536; Medium; Quantitative Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T54	
+T66	Quantifier_or_Qualifier 677 687	superiores
+#51	AnnotatorNotes T66	C1282910; Upper; Spatial Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T66	
+T67	Observation 771 797	haber recibido información
+#52	AnnotatorNotes T67	C0587903; Patient information status; Finding (?)
+R19	Before Arg1:T67 Arg2:T17	
+R22	Overlap Arg1:T50 Arg2:T52	
+R23	Experiences Arg1:T47 Arg2:T49	
+T68	Observation 991 1015	participar en el estudio
+#53	AnnotatorNotes T68	C1278516; Patient participation status; Finding
+R24	Before Arg1:T17 Arg2:T68	
+R32	Overlap Arg1:T49 Arg2:T68	
+R33	Overlap Arg1:T45 Arg2:T19	
+T69	PROC 1127 1134	estudio
+#54	AnnotatorNotes T69	C0008976; Clinical Trials; Research Activity
+R34	Overlap Arg1:T53 Arg2:T69	
+R35	Overlap Arg1:T45 Arg2:T20	
+R36	Experiences Arg1:T59 Arg2:T60	
+R37	Experiences Arg1:T61 Arg2:T23	
+T70	Result_or_Value 1356 1368	mayor de 2cm
+R38	Has_Result_or_Value Arg1:T23 Arg2:T70	
+R39	Has_Duration_or_Interval Arg1:T24 Arg2:T62	
+R40	Used_for Arg1:T27 Arg2:T26	
+R41	Used_for Arg1:T28 Arg2:T26	
+T71	Quantifier_or_Qualifier 1441 1447	activo
+#55	AnnotatorNotes T71	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R42	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T71	
+R43	Experiences Arg1:T63 Arg2:T29	
+R44	Experiences Arg1:T63 Arg2:T25	
+T72	PROC 1575 1582	retirar
+#56	AnnotatorNotes T72	C0850893; stop medication; Therapeutic or Preventive Procedure
+R46	Overlap Arg1:T72 Arg2:T64	
+R47	Before Arg1:T72 Arg2:T25	
+T73	PROC 1620 1632	reintroducir
+R45	Overlap Arg1:T73 Arg2:T65	
+R48	Before Arg1:T25 Arg2:T73	
+R49	Experiences Arg1:T63 Arg2:T72	
+R50	Experiences Arg1:T63 Arg2:T73	
+R51	Used_for Arg1:T40 Arg2:T30	
+#57	AnnotatorNotes T49	C0559571; At risk - finding; Finding
+#58	AnnotatorNotes T51	C0517036; Cooperates with procedures; Finding
+#59	AnnotatorNotes T53	C0517036; Cooperates with procedures; Finding
+#60	AnnotatorNotes T2	C1304888; Pain control; Therapeutic or Preventive Procedure
+A11	Experiencer T63 Patient
+A12	Experiencer T42 Patient
+A13	Experiencer T43 Patient
+A14	Experiencer T44 Patient
+A15	Experiencer T47 Patient
+A16	Experiencer T58 Patient
+A17	Experiencer T59 Patient
+A18	Experiencer T61 Patient
+A19	Assertion T29 Hypothetical
+A20	Status T72 Future
+A21	Status T64 Future
+A22	Status T73 Future
+A23	Status T25 Future

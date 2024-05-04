@@ -1,0 +1,94 @@
+T1	PROC 46 56	Prevención
+#1	AnnotatorNotes T1	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T2	CHEM 75 86	Calcifediol
+#2	AnnotatorNotes T2	C0006657; calcifediol; Pharmacologic Substance · Vitamin
+T3	DISO 90 113	problemas respiratorios
+#3	AnnotatorNotes T3	C1659989; Respiratory problem; Finding
+T4	PROC 158 168	Prevención
+#4	AnnotatorNotes T4	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T5	CHEM 187 198	Calcifediol
+#5	AnnotatorNotes T5	C0006657; calcifediol; Pharmacologic Substance · Vitamin
+T6	DISO 203 262	síndrome respiratorio agudo (SARS) inducido por Coronavirus
+T7	DISO 341 349	COVID-19
+#6	AnnotatorNotes T7	C5203670; COVID19 (disease); Disease or Syndrome
+T8	DISO 295 315	Problemas pulmonares
+T9	ANAT 305 315	pulmonares
+#7	AnnotatorNotes T9	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T10	DISO 376 410	Síndrome respiratorio agudo severo
+#8	AnnotatorNotes T10	C1175175; Severe Acute Respiratory Syndrome; Disease or Syndrome
+T11	PROC 491 502	Diagnostico
+#9	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	DISO 428 436	COVID-19
+#10	AnnotatorNotes T12	C5203670; COVID19 (disease); Disease or Syndrome
+T13	DISO 530 538	COVID-19
+#11	AnnotatorNotes T13	C5203670; COVID19 (disease); Disease or Syndrome
+T14	PROC 542 560	Imagen radiológica
+T15	ANAT 584 598	pleuropulmonar
+#12	AnnotatorNotes T15	C0302192; Lung and pleura; Body Part, Organ, or Organ Component
+T16	DISO 576 611	exudado pleuropulmonar inflamatorio
+T17	DISO 712 719	alergia
+#13	AnnotatorNotes T17	C1527304; Allergic Reaction; Pathologic Function
+T18	CHEM 722 733	Calcifediol
+#14	AnnotatorNotes T18	C0006657; calcifediol; Pharmacologic Substance · Vitamin
+T19	PROC 59 70	tratamiento
+#15	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	PROC 171 182	tratamiento
+#16	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	DISO 263 271	COVID-19
+#17	AnnotatorNotes T21	C5203670; COVID19 (disease); Disease or Syndrome
+T22	PROC 523 538	PCR de COVID-19
+#18	AnnotatorNotes T22	C5244039; COVID-19 PCR test; Laboratory Procedure
+T23	DISO 127 135	COVID-19
+#19	AnnotatorNotes T23	C5203670; COVID19 (disease); Disease or Syndrome
+T24	PROC 624 648	consentimiento informado
+#20	AnnotatorNotes T24	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T25	DISO 697 709	Intolerancia
+#21	AnnotatorNotes T25	C0277585; Intolerance to drug; Pathologic Function
+T26	Date 13 17	2020
+T27	LIVB 251 262	Coronavirus
+#22	AnnotatorNotes T27	C5203676; SARS-CoV-2; Virus
+T28	LIVB 327 336	pacientes
+#23	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 414 423	pacientes
+#24	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Age 471 487	≥ 18 y < 90 años
+T31	PHYS 755 763	Embarazo
+#25	AnnotatorNotes T31	C0032961; Pregnancy; Organism Function
+T32	ANAT 100 113	respiratorios
+#26	AnnotatorNotes T32	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T33	PHYS 212 224	respiratorio
+#27	AnnotatorNotes T33	C0035203; Respiration; Physiologic Function
+T34	PHYS 385 397	respiratorio
+#28	AnnotatorNotes T34	C0035203; Respiration; Physiologic Function
+A1	Status T17 History_of
+A2	Status T25 History_of
+#29	AnnotatorNotes T8	C0740941; Lung Problem; Finding
+#30	AnnotatorNotes T14	C1962945; Radiographic imaging procedure; Diagnostic Procedure 
+R1	Location_of Arg1:T15 Arg2:T16	
+R3	Causes Arg1:T18 Arg2:T17	
+R4	Causes Arg1:T18 Arg2:T25	
+R5	Before Arg1:T1 Arg2:T3	
+R6	Used_for Arg1:T2 Arg2:T19	
+R7	Used_for Arg1:T2 Arg2:T1	
+R8	Used_for Arg1:T5 Arg2:T20	
+R9	Used_for Arg1:T5 Arg2:T4	
+R10	Before Arg1:T4 Arg2:T6	
+R11	Location_of Arg1:T32 Arg2:T3	
+R12	Causes Arg1:T23 Arg2:T3	
+R13	Causes Arg1:T27 Arg2:T6	
+R14	Causes Arg1:T27 Arg2:T21	
+R16	Location_of Arg1:T9 Arg2:T8	
+R17	Causes Arg1:T7 Arg2:T8	
+R18	Experiences Arg1:T28 Arg2:T8	
+R19	Experiences Arg1:T28 Arg2:T7	
+R20	Experiences Arg1:T29 Arg2:T12	
+R21	Experiences Arg1:T29 Arg2:T10	
+R22	Causes Arg1:T12 Arg2:T10	
+R24	Experiences Arg1:T29 Arg2:T34	
+T35	Quantifier_or_Qualifier 316 323	severos
+#31	AnnotatorNotes T35	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R25	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T35	
+R26	Before Arg1:T22 Arg2:T11	
+#32	AnnotatorNotes T6	C5397144; Acute respiratory distress syndrome due to COVID-19; Disease or Syndrome 
+A3	Experiencer T28 Patient
+A4	Experiencer T29 Patient

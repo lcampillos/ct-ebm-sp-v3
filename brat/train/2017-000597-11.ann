@@ -1,0 +1,145 @@
+T1	PROC 53 87	Estudio en seres humanos fase 1/2a
+T2	CHEM 93 125	anticuerpo monoclonal BMS-986218
+#1	AnnotatorNotes T2	C4525955; Anti-CTLA4 Monoclonal Antibody BMS-986218; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 129 140	monoterapia
+#2	AnnotatorNotes T3	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T4	CHEM 162 171	nivolumab
+#3	AnnotatorNotes T4	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	DISO 175 190	tumores sólidos
+#4	AnnotatorNotes T5	C0280100; Solid Neoplasm; Neoplastic Process
+T6	DISO 223 238	Tumores sólidos
+#5	AnnotatorNotes T6	C0280100; Solid Neoplasm; Neoplastic Process
+T7	DISO 380 392	tumor sólido
+#6	AnnotatorNotes T7	C0280100; Solid Neoplasm; Neoplastic Process
+T8	DISO 459 477	enfermedad medible
+#7	AnnotatorNotes T8	C1513041; Measurable Disease; Disease or Syndrome
+T9	PROC 500 510	evaluación
+#8	AnnotatorNotes T9	C1261322; Evaluation procedure; Health Care Activity
+T10	ANAT 574 582	próstata
+#9	AnnotatorNotes T10	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T11	DISO 619 644	lesión de tejidos blandos
+#10	AnnotatorNotes T11	C0410013; Soft tissue lesion; Pathologic Function
+T12	ANAT 629 644	tejidos blandos
+#11	AnnotatorNotes T12	C0225317; soft tissue; Tissue
+T13	PROC 660 667	biopsia
+#12	AnnotatorNotes T13	C0005558; Biopsy; Diagnostic Procedure
+T14	PROC 738 765	prueba de embarazo en orina
+#13	AnnotatorNotes T14	C0430056; Urine pregnancy test; Laboratory Procedure
+T15	PROC 811 822	tratamiento
+#14	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	DISO 938 966	neoplasias primarias del SNC
+#15	AnnotatorNotes T16	C0751620; Central Nervous System Neoplasms, Primary; Neoplastic Process
+T17	ANAT 963 966	SNC
+#16	AnnotatorNotes T17	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T18	DISO 969 1001	tumores con metástasis en el SNC
+T19	ANAT 998 1001	SNC
+#17	AnnotatorNotes T19	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T20	DISO 1028 1038	enfermedad
+#18	AnnotatorNotes T20	C0012634; Disease; Disease or Syndrome
+T21	DISO 411 422	metastásico
+#19	AnnotatorNotes T21	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T22	ANAT 721 726	suero
+#20	AnnotatorNotes T22	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T23	ANAT 760 765	orina
+#21	AnnotatorNotes T23	C0042036; Urine; Body Substance
+T24	ANAT 874 879	pecho
+#22	AnnotatorNotes T24	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T25	Date 13 17	2017
+T26	LIVB 64 77	seres humanos
+#23	AnnotatorNotes T26	C0086418; Homo sapiens; Human
+T27	Age 307 323	al menos 18 años
+T29	LIVB 675 697	mujeres en edad fértil
+#24	AnnotatorNotes T29	C4324275; Woman of childbearing potential; Population Group
+T32	Duration 776 788	las 24 horas
+T33	LIVB 842 849	mujeres
+#25	AnnotatorNotes T33	C0043210; Woman; Population Group
+T34	Neg_cue 850 852	no
+T35	PHYS 865 879	dando el pecho
+#26	AnnotatorNotes T35	C0006147; Breast Feeding; Organism Function
+T36	PHYS 881 892	amamantando
+#27	AnnotatorNotes T36	C0006147; Breast Feeding; Organism Function
+T37	LIVB 924 933	pacientes
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Neg_cue 1046 1055	excluidos
+T39	PHYS 748 756	embarazo
+#29	AnnotatorNotes T39	C0032961; Pregnancy; Organism Function
+T40	Age 686 697	edad fértil
+T30	Neg_cue 727 735	negativo
+T28	PROC 336 373	confirmación histológica o citológica
+#30	AnnotatorNotes T28	C1305671; Cytology procedure; Laboratory Procedure + C0344441; Histology Procedure; Laboratory Procedure
+A1	Population_data T29 Age
+A2	Assertion T39 Negated
+A3	Assertion T35 Negated
+A4	Assertion T36 Negated
+A5	Assertion T16 Negated
+A6	Assertion T18 Negated
+A8	Assertion T37 Negated
+#31	AnnotatorNotes T18	C0686377; CNS metastases; Neoplastic Process
+T31	Neg_cue 441 443	no
+T41	Quantifier_or_Qualifier 444 453	resecable
+A7	Assertion T41 Negated
+#32	AnnotatorNotes T41	C1514888; Resectable; Qualitative Concept
+T42	LIVB 281 294	participantes
+#33	AnnotatorNotes T42	C4554048; Study Participant; Population Group
+R1	Experiences Arg1:T26 Arg2:T2	
+R2	Used_for Arg1:T2 Arg2:T3	
+R3	Combined_with Arg1:T2 Arg2:T4	
+R4	Experiences Arg1:T26 Arg2:T4	
+R5	Experiences Arg1:T26 Arg2:T5	
+T43	Quantifier_or_Qualifier 191 199	avanzado
+R6	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T43	
+#34	AnnotatorNotes T43	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+T44	Quantifier_or_Qualifier 239 248	avanzados
+#35	AnnotatorNotes T44	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T44	
+T45	Quantifier_or_Qualifier 401 409	avanzado
+#36	AnnotatorNotes T45	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T45	
+R9	Has_Age Arg1:T42 Arg2:T27	
+R10	Negation Arg1:T31 Arg2:T41	
+R11	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T41	
+R12	Before Arg1:T7 Arg2:T21	
+T46	Observation 424 434	recurrente
+#37	AnnotatorNotes T46	C0679254; Disease recurrence; Finding
+R13	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T46	
+T47	CONC 511 522	RECIST v1.1
+#38	AnnotatorNotes T47	C1709926; Response Evaluation Criteria in Solid Tumors; Intellectual Product
+R14	Used_for Arg1:T47 Arg2:T9	
+R19	Location_of Arg1:T10 Arg2:T7	
+T48	CONC 562 566	PCWG
+#39	AnnotatorNotes T48	C4288533; PCWG Scher Prostate Cancer 2008 Oncology Response Criteria; Intellectual Product (?)
+R20	Used_for Arg1:T48 Arg2:T9	
+R21	Location_of Arg1:T12 Arg2:T11	
+R22	Location_of Arg1:T12 Arg2:T13	
+R23	Has_Age Arg1:T29 Arg2:T40	
+R24	Location_of Arg1:T22 Arg2:T14	
+R25	Location_of Arg1:T23 Arg2:T14	
+R26	Experiences Arg1:T29 Arg2:T14	
+R27	Negation Arg1:T30 Arg2:T39	
+R28	Overlap Arg1:T14 Arg2:T32	
+R29	Before Arg1:T14 Arg2:T15	
+R30	Experiences Arg1:T29 Arg2:T15	
+R31	Experiences Arg1:T33 Arg2:T35	
+R32	Experiences Arg1:T33 Arg2:T36	
+R33	Location_of Arg1:T24 Arg2:T35	
+R34	Negation Arg1:T34 Arg2:T35	
+R35	Negation Arg1:T34 Arg2:T36	
+R36	Experiences Arg1:T37 Arg2:T16	
+R37	Location_of Arg1:T17 Arg2:T16	
+R38	Location_of Arg1:T19 Arg2:T18	
+R39	Experiences Arg1:T37 Arg2:T18	
+R40	Negation Arg1:T38 Arg2:T18	
+R41	Negation Arg1:T38 Arg2:T16	
+R42	Experiences Arg1:T37 Arg2:T20	
+R15	Location_of Arg1:T10 Arg2:T8	
+R16	Experiences Arg1:T29 Arg2:T39	
+R17	Location_of Arg1:T24 Arg2:T36	
+R18	Location_of Arg1:T19 Arg2:T20	
+R43	Location_of Arg1:T17 Arg2:T20	
+A9	Experiencer T37 Patient
+A10	Experiencer T33 Patient
+A11	Experiencer T29 Patient
+A12	Experiencer T42 Patient
+A13	Experiencer T26 Patient
+T49	Quantifier_or_Qualifier 606 618	al menos una
+R44	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T49	

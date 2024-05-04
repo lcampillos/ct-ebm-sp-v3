@@ -1,0 +1,124 @@
+T1	PROC 74 119	tratamiento mediante plasma rico en plaquetas
+#1	AnnotatorNotes T1	C4727879; Platelet rich plasma therapy; Therapeutic or Preventive Procedure
+T2	DISO 940 943	VHC
+#2	AnnotatorNotes T2	C0019196; Hepatitis C; Disease or Syndrome
+T3	CHEM 136 148	suero salino
+#3	AnnotatorNotes T3	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T4	DISO 166 181	dolor de hombro
+#4	AnnotatorNotes T4	C0037011; Shoulder Pain; Sign or Symptom
+T5	PROC 215 226	tratamiento
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 238 247	ecografía
+#6	AnnotatorNotes T6	C0041618; Ultrasonography; Diagnostic Procedure
+T7	CHEM 257 281	Plasma Rico en Plaquetas
+#7	AnnotatorNotes T7	C2362067; Platelet concentrate; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T8	ANAT 312 350	tendones del manguito de los rotadores
+#8	AnnotatorNotes T8	C0448535; Tendon of rotator cuff of shoulder; Body Part, Organ, or Organ Component
+T9	DISO 447 462	Dolor de hombro
+#9	AnnotatorNotes T9	C0037011; Shoulder Pain; Sign or Symptom
+T10	DISO 472 505	lesión de los tendones del hombro
+#10	AnnotatorNotes T10	C4511184; Injury of tendon at shoulder level; Injury or Poisoning
+T11	ANAT 486 505	tendones del hombro
+T12	DISO 532 547	Dolor de hombro
+#11	AnnotatorNotes T12	C0037011; Shoulder Pain; Sign or Symptom
+T13	DISO 561 573	tendinopatía
+#12	AnnotatorNotes T13	C0151936; Disorder of tendon; Disease or Syndrome
+T14	DISO 576 590	rotura parcial
+#13	AnnotatorNotes T14	C0443274; Partial tear; Injury or Poisoning
+T15	ANAT 595 619	tendón del supraespinoso
+T16	DISO 646 661	Dolor de hombro
+#14	AnnotatorNotes T16	C0037011; Shoulder Pain; Sign or Symptom
+T17	DISO 671 683	tendinopatía
+#15	AnnotatorNotes T17	C0151936; Disorder of tendon; Disease or Syndrome
+T18	DISO 686 700	rotura parcial
+#16	AnnotatorNotes T18	C0443274; Partial tear; Injury or Poisoning
+T19	ANAT 705 729	tendón del supraespinoso
+T20	DISO 803 820	Infección cutánea
+T21	ANAT 827 845	zona de la punción
+T22	DISO 850 873	Enfermedad hematológica
+#17	AnnotatorNotes T22	C0018939; Hematological Disease; Disease or Syndrome
+T23	DISO 894 902	sangrado
+#18	AnnotatorNotes T23	C0019080; Hemorrhage; Pathologic Function
+T24	DISO 907 926	Infección sistémica
+#19	AnnotatorNotes T24	C0243026; Sepsis; Disease or Syndrome
+T25	DISO 945 951	Sepsis
+#20	AnnotatorNotes T25	C0243026; Sepsis; Disease or Syndrome
+T26	DISO 957 978	Enfermedad neoplásica
+#21	AnnotatorNotes T26	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T27	CHEM 95 119	plasma rico en plaquetas
+#22	AnnotatorNotes T27	C2362067; Platelet concentrate; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T28	PROC 122 131	inyección
+#23	AnnotatorNotes T28	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T29	ANAT 175 181	hombro
+#24	AnnotatorNotes T29	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T30	PROC 284 293	inyección
+#25	AnnotatorNotes T30	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T31	PROC 352 391	Ensayo clínico aleatorizado prospectivo
+#26	AnnotatorNotes T31	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T32	ANAT 456 462	hombro
+#27	AnnotatorNotes T32	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T33	ANAT 541 547	hombro
+#28	AnnotatorNotes T33	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T34	ANAT 655 661	hombro
+#29	AnnotatorNotes T34	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T35	ANAT 813 820	cutánea
+#30	AnnotatorNotes T35	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T36	PROC 838 845	punción
+#31	AnnotatorNotes T36	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T37	DISO 935 938	VIH
+#32	AnnotatorNotes T37	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T38	Date 13 17	2018
+T39	LIVB 152 161	pacientes
+#33	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Date 409 413	2018
+T41	Duration 733 747	más de 3 meses
+T43	PHYS 790 798	Embarazo
+#34	AnnotatorNotes T43	C0032961; Pregnancy; Organism Function
+A1	Status T23 History_of
+#35	AnnotatorNotes T11	C5205775; Shoulder Joint Tendons; Tissue
+#36	AnnotatorNotes T15	C0224868; Tendon of supraspinatus muscle;  Body Part, Organ, or Organ Component + C0448536; Entire tendon of supraspinatus muscle; Body Part, Organ, or Organ Component 
+#37	AnnotatorNotes T19	C0224868; Tendon of supraspinatus muscle;  Body Part, Organ, or Organ Component + C0448536; Entire tendon of supraspinatus muscle; Body Part, Organ, or Organ Component 
+#38	AnnotatorNotes T20	C0037278; Skin Diseases, Infectious; Disease or Syndrome
+T42	Observation 58 67	respuesta
+#39	AnnotatorNotes T42	C1319171; Medication response; Finding
+R1	Overlap Arg1:T42 Arg2:T1	
+R2	Used_for Arg1:T27 Arg2:T1	
+R3	Used_for Arg1:T3 Arg2:T28	
+R4	Overlap Arg1:T42 Arg2:T28	
+R5	Location_of Arg1:T29 Arg2:T4	
+R6	Experiences Arg1:T39 Arg2:T4	
+R7	Experiences Arg1:T39 Arg2:T28	
+R8	Experiences Arg1:T39 Arg2:T1	
+R9	Experiences Arg1:T39 Arg2:T42	
+R10	Overlap Arg1:T5 Arg2:T6	
+R11	Used_for Arg1:T7 Arg2:T5	
+R12	Location_of Arg1:T8 Arg2:T30	
+R13	Causes Arg1:T10 Arg2:T9	
+R14	Causes Arg1:T13 Arg2:T12	
+R15	Causes Arg1:T14 Arg2:T12	
+R16	Location_of Arg1:T15 Arg2:T14	
+R17	Location_of Arg1:T33 Arg2:T12	
+R18	Location_of Arg1:T11 Arg2:T10	
+R19	Location_of Arg1:T32 Arg2:T9	
+R20	Location_of Arg1:T34 Arg2:T16	
+R21	Location_of Arg1:T19 Arg2:T18	
+R23	Causes Arg1:T17 Arg2:T16	
+R24	Causes Arg1:T18 Arg2:T16	
+R25	Has_Duration_or_Interval Arg1:T16 Arg2:T41	
+R26	Location_of Arg1:T35 Arg2:T20	
+R27	Location_of Arg1:T21 Arg2:T20	
+R28	Before Arg1:T36 Arg2:T20	
+R29	Location_of Arg1:T21 Arg2:T36	
+#40	AnnotatorNotes T21	C0229986; Application site; Anatomical Structure
+T44	Quantifier_or_Qualifier 927 933	activa
+#41	AnnotatorNotes T44	C0679217; Active State; Idea or Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T44	
+R31	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T44	
+R32	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T44	
+R33	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T44	
+T45	Quantifier_or_Qualifier 979 985	activa
+#42	AnnotatorNotes T45	C0679217; Active State; Idea or Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T45	
+R22	Location_of Arg1:T19 Arg2:T17	
+R35	Location_of Arg1:T15 Arg2:T13	
+A2	Experiencer T39 Patient

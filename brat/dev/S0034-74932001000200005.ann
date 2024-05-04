@@ -1,0 +1,111 @@
+T1	CHEM 9 36	ácido épsilon aminocaproico
+#1	AnnotatorNotes T1	C0000608; 6-aminocaproic acid; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T2	PROC 81 105	estudio no observacional
+T3	PROC 115 182	ensayo clínico terapéutico, comparativo, prospectivo y aleatorizado
+#2	AnnotatorNotes T3	C1579762; comparative study research; Research Activity + C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T4	CHEM 322 326	AEAC
+#3	AnnotatorNotes T4	C0000608; 6-aminocaproic acid; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T5	PROC 269 288	evaluar la eficacia
+#4	AnnotatorNotes T5	C1707887; Efficacy Study; Research Activity
+T6	CHEM 293 320	ácido épsilon aminocaproico
+#5	AnnotatorNotes T6	C0000608; 6-aminocaproic acid; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T7	DISO 359 371	sangramiento
+#6	AnnotatorNotes T7	C0019080; Hemorrhage; Pathologic Function
+T8	PROC 392 415	transfusiones homólogas
+T9	ANAT 521 527	sangre
+#7	AnnotatorNotes T9	C0005767; Blood; Body Substance
+T10	ANAT 716 724	glóbulos
+#8	AnnotatorNotes T10	C0005773; Blood Cells; Cell
+T11	PROC 685 697	intervención
+#9	AnnotatorNotes T11	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T12	PROC 966 986	transfusión homóloga
+T13	PROC 40 56	cirugía torácica
+#10	AnnotatorNotes T13	C0524832; Thoracic Surgical Procedures; Therapeutic or Preventive Procedure
+T14	PROC 223 239	cirugía torácica
+#11	AnnotatorNotes T14	C0524832; Thoracic Surgical Procedures; Therapeutic or Preventive Procedure
+T15	DISO 465 487	reacciones indeseables
+#12	AnnotatorNotes T15	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T16	CHEM 611 615	AEAC
+#13	AnnotatorNotes T16	C0000608; 6-aminocaproic acid; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T17	PROC 725 738	transfundidas
+#14	AnnotatorNotes T17	C1879316; Transfusion (procedure); Therapeutic or Preventive Procedure
+T18	DISO 1065 1087	reacciones indeseables
+#15	AnnotatorNotes T18	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T19	PROC 599 606	tratado
+#16	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	ANAT 816 824	glóbulos
+#17	AnnotatorNotes T20	C0005773; Blood Cells; Cell
+T22	LIVB 188 197	pacientes
+#18	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	Time 372 385	posoperatorio
+#19	AnnotatorNotes T23	C0032790; Postoperative Period; Temporal Concept
+T24	Spec_cue 456 464	posibles
+T25	Time 544 557	posoperatorio
+#20	AnnotatorNotes T25	C0032790; Postoperative Period; Temporal Concept
+T26	Duration 642 647	las 6
+T27	Duration 655 667	las 24 horas
+T28	Time 745 760	transoperatorio
+#21	AnnotatorNotes T28	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T29	Time 845 858	posoperatorio
+#22	AnnotatorNotes T29	C0032790; Postoperative Period; Temporal Concept
+T30	LIVB 943 952	pacientes
+#23	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T21	Duration 419 431	este período
+T32	LIVB 898 911	grupo estudio
+#24	AnnotatorNotes T32	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T31	LIVB 626 633	control
+#25	AnnotatorNotes T31	C0009932; Control Groups; Group
+A1	Assertion T15 Speculated
+T33	Quantifier_or_Qualifier 92 105	observacional
+A2	Assertion T33 Negated
+R1	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T33	
+T34	Neg_cue 89 91	no
+R2	Negation Arg1:T34 Arg2:T33	
+T35	Neg_cue 1003 1005	No
+T36	CONC 1018 1029	diferencias
+A3	Assertion T36 Negated
+#26	AnnotatorNotes T36	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T35 Arg2:T36	
+R4	Used_for Arg1:T1 Arg2:T13	
+T37	Quantifier_or_Qualifier 57 65	electiva
+#27	AnnotatorNotes T37	C0439608; elective; Temporal Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T37	
+R6	Experiences Arg1:T22 Arg2:T14	
+T38	Quantifier_or_Qualifier 240 248	electiva
+#28	AnnotatorNotes T38	C0439608; elective; Temporal Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T38	
+R8	Used_for Arg1:T6 Arg2:T14	
+R9	Used_for Arg1:T4 Arg2:T14	
+R10	Overlap Arg1:T7 Arg2:T23	
+R11	Overlap Arg1:T8 Arg2:T21	
+R12	Overlap Arg1:T7 Arg2:T21	
+R13	Speculation Arg1:T24 Arg2:T15	
+R14	Before Arg1:T4 Arg2:T15	
+R15	Before Arg1:T6 Arg2:T15	
+R20	Overlap Arg1:T15 Arg2:T21	
+R21	Experiences Arg1:T22 Arg2:T7	
+R22	Experiences Arg1:T22 Arg2:T6	
+R23	Experiences Arg1:T22 Arg2:T4	
+R24	Experiences Arg1:T22 Arg2:T8	
+R25	Experiences Arg1:T22 Arg2:T15	
+T40	CONC 509 537	cantidad de sangre colectada
+R26	Overlap Arg1:T40 Arg2:T25	
+R27	Used_for Arg1:T16 Arg2:T19	
+R28	Overlap Arg1:T40 Arg2:T26	
+R29	Overlap Arg1:T40 Arg2:T27	
+R33	Overlap Arg1:T17 Arg2:T28	
+T41	CONC 704 738	unidades de glóbulos transfundidas
+T42	CONC 804 824	cantidad de glóbulos
+R34	Overlap Arg1:T42 Arg2:T29	
+R35	Experiences Arg1:T32 Arg2:T17	
+R36	Experiences Arg1:T30 Arg2:T12	
+R37	Experiences Arg1:T32 Arg2:T12	
+R38	Experiences Arg1:T30 Arg2:T17	
+R39	Overlap Arg1:T19 Arg2:T11	
+R18	Experiences Arg1:T31 Arg2:T11	
+R16	Before Arg1:T11 Arg2:T40	
+#29	AnnotatorNotes T33	C3658316; Observational Studies as Topic; Intellectual Product (?)
+A4	Experiencer T22 Patient
+A5	Experiencer T31 Patient
+A6	Experiencer T32 Patient
+A7	Experiencer T30 Patient

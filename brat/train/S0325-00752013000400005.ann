@@ -1,0 +1,196 @@
+T1	PROC 1055 1083	asignados en forma aleatoria
+#1	AnnotatorNotes T1	C0034656; Randomization; Research Activity
+T2	DISO 280 304	hiponatremia iatrogénica
+T3	CHEM 348 353	sodio
+#2	AnnotatorNotes T3	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T4	ANAT 354 360	sérico
+#3	AnnotatorNotes T4	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T5	CHEM 446 450	NaCl
+#4	AnnotatorNotes T5	C0037494; sodium chloride; Inorganic Chemical
+T6	CHEM 462 470	dextrosa
+#5	AnnotatorNotes T6	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T7	CHEM 539 543	NaCl
+#6	AnnotatorNotes T7	C0037494; sodium chloride; Inorganic Chemical
+T8	CHEM 556 564	dextrosa
+#7	AnnotatorNotes T8	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T9	ANAT 864 870	sérica
+#8	AnnotatorNotes T9	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T10	CHEM 874 876	Na
+#9	AnnotatorNotes T10	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T11	DISO 1730 1742	hiponatremia
+#10	AnnotatorNotes T11	C0020625; Hyponatremia; Disease or Syndrome
+T12	DISO 1871 1895	hiponatremia iatrogénica
+T13	PROC 1 28	Ensayo clínico aleatorizado
+#11	AnnotatorNotes T13	C0206034; Clinical Trials, Randomized; Research Activity
+T14	PROC 38 52	administración
+#12	AnnotatorNotes T14	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T15	CHEM 60 97	solución de mantenimiento intravenosa
+T16	CHEM 221 243	soluciones hipotónicas
+#13	AnnotatorNotes T16	C0020677; Hypotonic Solutions; Pharmacologic Substance
+T17	PROC 348 360	sodio sérico
+#14	AnnotatorNotes T17	C0523891; Serum sodium measurement; Laboratory Procedure
+T18	PROC 375 389	administración
+#15	AnnotatorNotes T18	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T19	CHEM 397 434	solución de mantenimiento intravenosa
+T20	CHEM 501 526	solución de mantenimiento
+T21	PROC 594 647	Ensayo clínico aleatorizado, doble ciego y controlado
+#16	AnnotatorNotes T21	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T22	PROC 850 876	concentración sérica de Na
+#17	AnnotatorNotes T22	C0523891; Serum sodium measurement; Laboratory Procedure
+T23	CHEM 906 931	solución de mantenimiento
+T24	PROC 948 962	administración
+#18	AnnotatorNotes T24	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T25	CHEM 1098 1123	solución de mantenimiento
+T26	CHEM 1276 1284	solución
+#19	AnnotatorNotes T26	C0525069; Pharmaceutical Solutions; Biomedical or Dental Material
+T27	PROC 1385 1393	infusión
+#20	AnnotatorNotes T27	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T28	PROC 1526 1540	administración
+#21	AnnotatorNotes T28	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T29	CHEM 1548 1575	soluciones de mantenimiento
+T30	CHEM 1681 1708	soluciones de mantenimiento
+T31	PROC 1744 1746	Na
+#22	AnnotatorNotes T31	C0337443; Sodium measurement; Laboratory Procedure
+T32	CHEM 1781 1808	soluciones de mantenimiento
+T33	PROC 1825 1833	infusión
+#23	AnnotatorNotes T33	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T34	Form 60 68	solución
+#24	AnnotatorNotes T34	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T35	Route 86 97	intravenosa
+#25	AnnotatorNotes T35	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T36	LIVB 143 173	pacientes pediátricos críticos
+#26	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group + C0815272; critical population; Population Group + C0008059; Child; Age Group
+T37	Form 221 231	soluciones
+#27	AnnotatorNotes T37	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T38	Form 397 405	solución
+#28	AnnotatorNotes T38	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T39	Route 423 434	intravenosa
+#29	AnnotatorNotes T39	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T40	Dose 451 458	al 0,9%
+T41	Dose 471 476	al 5%
+T42	Form 501 509	solución
+#30	AnnotatorNotes T42	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T43	Dose 544 552	al 0,45%
+T44	Dose 565 570	al 5%
+T45	LIVB 662 683	pacientes pediátricos
+#31	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T46	Duration 745 762	mayor de 24 horas
+T47	Route 786 798	intravenosos
+#32	AnnotatorNotes T47	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T48	Form 906 914	solución
+#33	AnnotatorNotes T48	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T49	LIVB 1033 1042	pacientes
+#34	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Form 1098 1106	solución
+#35	AnnotatorNotes T50	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T56	Duration 1413 1428	24 ± 10,8 horas
+T57	Duration 1447 1464	27,6 ± 12,8 horas
+T58	Form 1548 1558	soluciones
+#36	AnnotatorNotes T58	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T62	Form 1681 1691	soluciones
+#37	AnnotatorNotes T62	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T63	Spec_cue 1720 1729	riesgo de
+T65	Form 1781 1791	soluciones
+#38	AnnotatorNotes T65	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T66	Duration 1813 1821	24 horas
+T69	Spec_cue 1852 1861	riesgo de
+A1	Population_data T36 Age
+A2	Population_data T45 Age
+A3	Assertion T11 Speculated
+A4	Assertion T12 Speculated
+T51	Neg_cue 1835 1837	no
+R1	Speculation Arg1:T69 Arg2:T12	
+T52	CONC 1838 1848	aumentaron
+A5	Assertion T52 Negated
+#39	AnnotatorNotes T52	C0442805; Increase; Functional Concept
+R2	Negation Arg1:T51 Arg2:T52	
+T53	Neg_cue 1226 1228	No
+T54	CONC 1234 1245	diferencias
+A6	Assertion T54 Negated
+#40	AnnotatorNotes T54	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T53 Arg2:T54	
+T55	Neg_cue 1662 1669	Ninguna
+T59	CONC 1709 1716	aumentó
+A7	Assertion T59 Negated
+#41	AnnotatorNotes T59	C0205217; Increased; Quantitative Concept
+R4	Negation Arg1:T55 Arg2:T59	
+R5	Speculation Arg1:T63 Arg2:T11	
+R6	Has_Drug_Form Arg1:T15 Arg2:T34	
+R7	Has_Route_or_Mode Arg1:T15 Arg2:T35	
+R8	Used_for Arg1:T15 Arg2:T14	
+T60	Quantifier_or_Qualifier 130 139	isotónica
+R9	Experiences Arg1:T36 Arg2:T14	
+T61	Quantifier_or_Qualifier 98 108	hipotónica
+R10	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T61	
+R11	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T60	
+R12	Has_Drug_Form Arg1:T16 Arg2:T37	
+T64	Quantifier_or_Qualifier 435 444	isotónica
+R14	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T64	
+R15	Has_Dose_or_Strength Arg1:T5 Arg2:T40	
+R16	Combined_with Arg1:T5 Arg2:T6	
+R17	Has_Dose_or_Strength Arg1:T6 Arg2:T41	
+R18	Has_Drug_Form Arg1:T20 Arg2:T42	
+T67	Quantifier_or_Qualifier 1621 1630	isotónico
+T68	Quantifier_or_Qualifier 1583 1593	hipotónico
+T70	Quantifier_or_Qualifier 1305 1315	hipotónico
+T71	Quantifier_or_Qualifier 1336 1345	isotónico
+T72	Quantifier_or_Qualifier 1145 1154	isotónica
+T73	Quantifier_or_Qualifier 1124 1134	hipotónica
+R19	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T73	
+R20	Has_Drug_Form Arg1:T25 Arg2:T50	
+R21	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T72	
+R22	Experiences Arg1:T49 Arg2:T25	
+R23	Location_of Arg1:T9 Arg2:T22	
+T74	Quantifier_or_Qualifier 527 537	hipotónica
+R24	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T74	
+R25	Has_Dose_or_Strength Arg1:T7 Arg2:T43	
+R26	Combined_with Arg1:T7 Arg2:T8	
+R27	Has_Dose_or_Strength Arg1:T8 Arg2:T44	
+R28	Used_for Arg1:T19 Arg2:T18	
+R29	Used_for Arg1:T20 Arg2:T18	
+R30	Has_Drug_Form Arg1:T19 Arg2:T38	
+R31	Location_of Arg1:T4 Arg2:T17	
+R32	After Arg1:T17 Arg2:T18	
+T75	PROC 692 699;709 744	estadía en la unidad de cuidados intensivos
+#42	AnnotatorNotes T75	C5419131; Intensive Care Unit Stay; Health Care Activity
+R33	Has_Duration_or_Interval Arg1:T75 Arg2:T46	
+T76	PROC 362 365	NaS
+#43	AnnotatorNotes T76	C0523891; Serum sodium measurement; Laboratory Procedure
+T77	PROC 764 767	NaS
+#44	AnnotatorNotes T77	C0523891; Serum sodium measurement; Laboratory Procedure
+T78	PROC 1510 1513	NaS
+#45	AnnotatorNotes T78	C0523891; Serum sodium measurement; Laboratory Procedure
+R34	After Arg1:T76 Arg2:T18	
+T79	Result_or_Value 768 774	normal
+#46	AnnotatorNotes T79	C0459422; Normal result; Finding | C0586624; Normal laboratory finding; Finding
+R35	Has_Result_or_Value Arg1:T77 Arg2:T79	
+T80	Observation 777 828	líquidos intravenosos > 80% de los líquidos totales
+R36	Before Arg1:T22 Arg2:T23	
+R37	Has_Drug_Form Arg1:T23 Arg2:T48	
+T81	Result_or_Value 973 988	< 80% del total
+R38	Has_Result_or_Value Arg1:T24 Arg2:T81	
+R39	Used_for Arg1:T23 Arg2:T24	
+R40	Overlap Arg1:T22 Arg2:T24	
+R41	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T70	
+R42	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T71	
+R43	Has_Duration_or_Interval Arg1:T27 Arg2:T56	
+T82	Quantifier_or_Qualifier 1401 1411	hipotónico
+T83	Quantifier_or_Qualifier 1436 1445	isotónico
+R44	Has_Duration_or_Interval Arg1:T27 Arg2:T57	
+R45	After Arg1:T78 Arg2:T28	
+R46	Has_Drug_Form Arg1:T29 Arg2:T58	
+R47	Used_for Arg1:T29 Arg2:T28	
+R48	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T68	
+R49	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T67	
+R50	Has_Drug_Form Arg1:T30 Arg2:T62	
+R52	Before Arg1:T30 Arg2:T11	
+R54	Has_Drug_Form Arg1:T32 Arg2:T65	
+R55	Has_Duration_or_Interval Arg1:T32 Arg2:T66	
+R56	Used_for Arg1:T32 Arg2:T33	
+R58	Before Arg1:T32 Arg2:T12	
+R59	Used_for Arg1:T26 Arg2:T27	
+T84	CONC 1168 1191	características basales
+#47	AnnotatorNotes T84	C4684572; Baseline Characteristics; Qualitative Concept
+A8	Experiencer T36 Patient
+A9	Experiencer T45 Patient
+A10	Experiencer T49 Patient

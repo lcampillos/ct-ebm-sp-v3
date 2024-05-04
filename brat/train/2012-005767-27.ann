@@ -1,0 +1,135 @@
+T1	Date 13 17	2012
+T2	LIVB 433 442	pacientes
+#1	AnnotatorNotes T2	C0030705; Patients; Patient or Disabled Group
+T3	Spec_cue 468 474	riesgo
+T5	Duration 616 632	el primeros días
+T6	ANAT 787 794	injerto
+#2	AnnotatorNotes T6	C0332835; Transplanted tissue; Tissue
+T7	Duration 929 936	6 meses
+T8	Neg_cue 1094 1102	negativa
+T10	Duration 1199 1206	6 meses
+T11	PROC 46 55	Protocolo
+#3	AnnotatorNotes T11	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T12	PROC 59 70	seguimiento
+#4	AnnotatorNotes T12	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T13	PROC 95 123	estudio fase II, doble ciego
+T14	PROC 144 274	Estudio de fase II, multicéntrico, aleatorizado, doble ciego, controlado con placebo, de grupos paralelos, adaptativo y secuencial
+T15	PROC 295 341	evaluar la seguridad, tolerabilidad y eficacia
+T16	CHEM 357 389	anticuerpo monoclonal humanizado
+#5	AnnotatorNotes T16	C2985546; Antibodies, Monoclonal, Humanized; Amino Acid, Peptide, or Protein · Immunologic Factor
+T17	CHEM 345 352	OPN-305
+#6	AnnotatorNotes T17	C3712029; OPN-305; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T18	DISO 486 519	retraso en la función del injerto
+T19	PROC 447 463	trasplante renal
+#7	AnnotatorNotes T19	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T20	PROC 545 555	Prevención
+#8	AnnotatorNotes T20	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T21	DISO 562 584	lesión por reperfusión
+#9	AnnotatorNotes T21	C0035126; Reperfusion Injury; Injury or Poisoning | C0349419; Ischemic reperfusion injury; Injury or Poisoning
+T22	DISO 586 598	daño tisular
+T23	PROC 637 647	trasplante
+#10	AnnotatorNotes T23	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T24	ANAT 702 707	riñón
+#11	AnnotatorNotes T24	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T25	PROC 708 720	trasplantado
+#12	AnnotatorNotes T25	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T26	PROC 748 758	Prevención
+#13	AnnotatorNotes T26	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T27	ANAT 811 816	renal
+#14	AnnotatorNotes T27	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T28	PROC 817 827	trasplante
+#15	AnnotatorNotes T28	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T29	PROC 992 1028	consentimiento informado por escrito
+#16	AnnotatorNotes T29	C0811741; Obtain informed written consent; Health Care Activity
+T30	PROC 943 960	ensayo de fase II
+T31	PROC 1037 1046	protocolo
+#17	AnnotatorNotes T31	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T32	PROC 1050 1061	seguimiento
+#18	AnnotatorNotes T32	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T33	PROC 1112 1148	consentimiento informado por escrito
+#19	AnnotatorNotes T33	C0811741; Obtain informed written consent; Health Care Activity
+T34	CHEM 405 428	receptor de tipo Toll 2
+#20	AnnotatorNotes T34	C0754728; Toll-Like Receptor 2; Amino Acid, Peptide, or Protein · Receptor
+T35	ANAT 458 463	renal
+#21	AnnotatorNotes T35	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T36	ANAT 512 519	injerto
+#22	AnnotatorNotes T36	C0332835; Transplanted tissue; Tissue
+T37	ANAT 591 598	tisular
+#23	AnnotatorNotes T37	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T38	PROC 1240 1281	estudio de investigación intervencionista
+T39	DISO 765 794	función retardada del injerto
+#24	AnnotatorNotes T39	C1566590; Delayed Graft Function; Pathologic Function
+T40	DISO 796 799	DGF
+#25	AnnotatorNotes T40	C1566590; Delayed Graft Function; Pathologic Function
+T4	PROC 884 895	doble ciego
+#26	AnnotatorNotes T4	C0013072; Double-Blind Method; Research Activity
+T9	PROC 908 914	visita
+#27	AnnotatorNotes T9	C1512346; Patient Visit; Health Care Activity
+T41	PROC 1186 1192	visita
+#28	AnnotatorNotes T41	C1512346; Patient Visit; Health Care Activity
+T42	Quantifier_or_Qualifier 1193 1198	final
+A1	Assertion T18 Speculated
+A2	Assertion T33 Negated
+A3	Status T4 History_of
+A4	Status T30 History_of
+#30	AnnotatorNotes T13	C0282460; Phase 2 Clinical Trials; Research Activity + C0013072; Double-Blind Method; Research Activity
+#31	AnnotatorNotes T15	C0511730; Identify product efficacy and safety issues; Health Care Activity + C3274448; Tolerability Study; Research Activity
+#32	AnnotatorNotes T18	C1566590; Delayed Graft Function; Pathologic Function 
+#33	AnnotatorNotes T22	C0010957; Tissue damage; Injury or Poisoning
+#34	AnnotatorNotes T30	C0282460; Phase 2 Clinical Trials; Research Activity
+#35	AnnotatorNotes T38	C3274035; Interventional Study; Research Activity + C0681814; research study; Research Activity
+#36	AnnotatorNotes T14	C0282460; Phase 2 Clinical Trials; Research Activity + C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C2826345; Parallel Study; Research Activity + C4553402; Group Sequential Design; Research Activity + C3274373; Adaptive Design; Research Activity
+T43	Neg_cue 656 661	falta
+T44	Observation 678 720	buen funcionamiento del riñón trasplantado
+A5	Assertion T44 Negated
+R1	Negation Arg1:T43 Arg2:T44	
+#29	AnnotatorNotes T44	 C3532685; Normal renal function of transplanted kidney; Finding 
+R2	Location_of Arg1:T24 Arg2:T44	
+R3	Location_of Arg1:T24 Arg2:T25	
+R4	Experiences Arg1:T2 Arg2:T17	
+R5	Experiences Arg1:T2 Arg2:T16	
+R6	Experiences Arg1:T2 Arg2:T19	
+R7	Location_of Arg1:T35 Arg2:T19	
+R8	Experiences Arg1:T2 Arg2:T45	
+R9	Speculation Arg1:T3 Arg2:T18	
+R10	Location_of Arg1:T36 Arg2:T18	
+T45	Observation 468 485	riesgo elevado de
+#37	AnnotatorNotes T45	C0332167; High risk of; Finding
+R11	Before Arg1:T45 Arg2:T18	
+R12	Before Arg1:T20 Arg2:T21	
+R13	Before Arg1:T20 Arg2:T22	
+R14	Location_of Arg1:T37 Arg2:T22	
+R15	Location_of Arg1:T37 Arg2:T21	
+R16	Overlap Arg1:T22 Arg2:T5	
+R17	Overlap Arg1:T21 Arg2:T5	
+R18	After Arg1:T22 Arg2:T23	
+R19	After Arg1:T21 Arg2:T23	
+R20	Overlap Arg1:T23 Arg2:T44	
+R21	After Arg1:T21 Arg2:T25	
+R22	After Arg1:T22 Arg2:T25	
+R23	Location_of Arg1:T24 Arg2:T23	
+R24	Overlap Arg1:T21 Arg2:T44	
+R25	Overlap Arg1:T22 Arg2:T44	
+R26	Before Arg1:T26 Arg2:T39	
+R27	Before Arg1:T26 Arg2:T40	
+R28	Location_of Arg1:T6 Arg2:T39	
+R29	Location_of Arg1:T6 Arg2:T40	
+R30	After Arg1:T39 Arg2:T28	
+R31	After Arg1:T40 Arg2:T28	
+R32	Location_of Arg1:T27 Arg2:T28	
+T46	CONC 856 868	Finalización
+#38	AnnotatorNotes T46	C1272693; Ended - status; Qualitative Concept
+R33	After Arg1:T9 Arg2:T7	
+R34	Before Arg1:T29 Arg2:T32	
+R35	Before Arg1:T29 Arg2:T31	
+R36	Negation Arg1:T8 Arg2:T33	
+T47	Observation 1151 1159	Retirado
+#39	AnnotatorNotes T47	C0422727; Patient withdrawn from trial; Finding (?)
+R37	Before Arg1:T47 Arg2:T41	
+R38	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T42	
+R39	After Arg1:T41 Arg2:T10	
+T48	Observation 1221 1281	se incluya en otro estudio de investigación intervencionista
+R40	Experiences Arg1:T2 Arg2:T18	
+#40	AnnotatorNotes T42	C3853528; Final; Temporal Concept
+A6	Experiencer T2 Patient
+A7	Status T48 Future

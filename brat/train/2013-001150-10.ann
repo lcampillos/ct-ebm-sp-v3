@@ -1,0 +1,120 @@
+T1	Date 13 17	2013
+T2	LIVB 181 190	pacientes
+#1	AnnotatorNotes T2	C0030705; Patients; Patient or Disabled Group
+T3	LIVB 306 323	Pacientes varones
+#2	AnnotatorNotes T3	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group
+T4	LIVB 326 333	mujeres
+#3	AnnotatorNotes T4	C0043210; Woman; Population Group
+T5	Age 334 360	maior ou igual que 18 años
+T6	Duration 546 566	los últimos 12 meses
+T7	Duration 574 594	los últimos 24 meses
+T8	Duration 624 636	los 12 meses
+T9	LIVB 760 769	pacientes
+#4	AnnotatorNotes T9	C0030705; Patients; Patient or Disabled Group
+T10	Dose 784 818	una dosis de mantenimiento estable
+T12	Dose 858 875	una dosis estable
+T13	LIVB 914 923	pacientes
+#5	AnnotatorNotes T13	C0030705; Patients; Patient or Disabled Group
+T14	Duration 1030 1041	los 3 meses
+T15	Duration 1091 1104	las 3 semanas
+T16	PROC 49 123	Ensayo multicéntrico, aleatorizado, a doble ciego y controlado con placebo
+T17	DISO 386 389	NMO
+T18	PROC 129 163	evaluar la seguridad y la eficacia
+#6	AnnotatorNotes T18	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T19	CHEM 167 177	eculizumab
+#7	AnnotatorNotes T19	C1541483; eculizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T20	DISO 195 215	neuromielitis óptica
+#8	AnnotatorNotes T20	C0027873; Neuromyelitis Optica; Disease or Syndrome
+T21	DISO 257 277	Neuromielitis óptica
+#9	AnnotatorNotes T21	C0027873; Neuromyelitis Optica; Disease or Syndrome
+T22	PROC 371 382	Diagnóstico
+#10	AnnotatorNotes T22	C0011900; Diagnosis; Diagnostic Procedure
+T23	DISO 392 401	trastorno
+#11	AnnotatorNotes T23	C0012634; Disease; Disease or Syndrome
+T24	PROC 455 458	IgG
+#12	AnnotatorNotes T24	C0202087; Immunoglobulin G measurement; Laboratory Procedure
+T25	PROC 518 527	protocolo
+#13	AnnotatorNotes T25	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T26	PROC 710 736	Tratamiento inmunosupresor
+#14	AnnotatorNotes T26	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T27	PROC 941 977	consentimiento informado por escrito
+#15	AnnotatorNotes T27	C0811741; Obtain informed written consent; Health Care Activity
+T28	CHEM 1017 1026	rituximab
+#16	AnnotatorNotes T28	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T29	PROC 1055 1069	aleatorización
+#17	AnnotatorNotes T29	C0034656; Randomization; Research Activity
+T30	CHEM 1083 1087	IgIV
+#18	AnnotatorNotes T30	C1527233; Recombinant Immune Globulin; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T31	DISO 462 465	NMO
+T32	ANAT 209 215	óptica
+#19	AnnotatorNotes T32	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T33	ANAT 271 277	óptica
+#20	AnnotatorNotes T33	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T34	DISO 217 220	NMO
+T35	CHEM 722 736	inmunosupresor
+#21	AnnotatorNotes T35	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T11	DISO 468 477	Recidivas
+#22	AnnotatorNotes T11	C2825055; Recurrence (disease attribute); Pathologic Function
+T36	DISO 612 620	recidiva
+#23	AnnotatorNotes T36	C2825055; Recurrence (disease attribute); Pathologic Function
+T37	PROC 643 662	visita de seleccion
+#24	AnnotatorNotes T37	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A1	Status T11 History_of
+A2	Status T36 History_of
+#25	AnnotatorNotes T16	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#26	AnnotatorNotes T34	C0027873; Neuromyelitis Optica; Disease or Syndrome
+#27	AnnotatorNotes T17	C0027873; Neuromyelitis Optica; Disease or Syndrome
+#28	AnnotatorNotes T31	C0027873; Neuromyelitis Optica; Disease or Syndrome
+R1	Experiences Arg1:T2 Arg2:T19	
+R2	Experiences Arg1:T2 Arg2:T20	
+R3	Location_of Arg1:T32 Arg2:T20	
+R4	Location_of Arg1:T32 Arg2:T34	
+T38	Observation 222 233	recidivante
+#29	AnnotatorNotes T38	C2825055; Recurrence (disease attribute); Pathologic Function
+R5	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T38	
+R6	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T38	
+R7	Experiences Arg1:T2 Arg2:T34	
+R9	Location_of Arg1:T33 Arg2:T21	
+R10	Has_Age Arg1:T4 Arg2:T5	
+R11	Has_Age Arg1:T3 Arg2:T5	
+T39	Quantifier_or_Qualifier 532 542	al menos 2
+R12	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T39	
+T40	Result_or_Value 431 446	Seropositividad
+R13	Causes Arg1:T31 Arg2:T40	
+R14	Has_Result_or_Value Arg1:T24 Arg2:T40	
+R15	Overlap Arg1:T11 Arg2:T6	
+R16	Overlap Arg1:T11 Arg2:T7	
+T41	Quantifier_or_Qualifier 569 570	3
+R17	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T41	
+T42	Quantifier_or_Qualifier 601 611	al menos 1
+R18	Overlap Arg1:T36 Arg2:T8	
+R19	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T42	
+R20	Before Arg1:T36 Arg2:T37	
+T43	Result_or_Value 687 707	menor ou igual que 7
+T44	CONC 682 686	EDSS
+#30	AnnotatorNotes T44	C3830336; EDSS - Expanded Disability Score; Intellectual Product
+R21	Has_Result_or_Value Arg1:T44 Arg2:T43	
+R22	Used_for Arg1:T35 Arg2:T26	
+R23	Has_Dose_or_Strength Arg1:T35 Arg2:T10	
+R24	Experiences Arg1:T9 Arg2:T26	
+R25	Has_Dose_or_Strength Arg1:T35 Arg2:T12	
+T45	PROC 900 907	estudio
+#31	AnnotatorNotes T45	C0008976; Clinical Trials; Research Activity
+R26	Overlap Arg1:T26 Arg2:T45	
+T46	CONC 831 841	proyección
+R27	Before Arg1:T10 Arg2:T46	
+R28	Overlap Arg1:T12 Arg2:T45	
+R29	Overlap Arg1:T28 Arg2:T14	
+R30	Before Arg1:T28 Arg2:T29	
+R31	Overlap Arg1:T30 Arg2:T15	
+T47	PROC 1121 1130	selección
+#32	AnnotatorNotes T47	C0242802; Patient Selection; Research Activity
+R32	Before Arg1:T30 Arg2:T47	
+R8	Before Arg1:T11 Arg2:T37	
+#33	AnnotatorNotes T46	[Selection (?)]
+A3	Experiencer T13 Patient
+A4	Experiencer T2 Patient
+A5	Experiencer T3 Patient
+A6	Experiencer T4 Patient
+A7	Experiencer T9 Patient
+#34	AnnotatorNotes T40	C0521143; Seropositive; Qualitative Concept

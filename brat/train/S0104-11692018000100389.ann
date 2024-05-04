@@ -1,0 +1,167 @@
+T1	CHEM 61 70	quitosano
+#1	AnnotatorNotes T1	C0162969; Chitosan; Organic Chemical · Pharmacologic Substance
+T2	CHEM 75 85	manzanilla
+#2	AnnotatorNotes T2	C0439963; Chamomile extract; Organic Chemical; Pharmacologic Substance
+T3	PROC 87 127	ensayo clínico, enmascarado y controlado
+#3	AnnotatorNotes T3	C0150108; Blinded; Research Activity + C0681867; Controlled Study; Research Activity
+T4	CHEM 245 254	quitosano
+#4	AnnotatorNotes T4	C0162969; Chitosan; Organic Chemical · Pharmacologic Substance
+T5	PROC 140 160	evaluar la seguridad
+#5	AnnotatorNotes T5	C1705187; Safety Study; Research Activity
+T6	ANAT 833 852	lugar de aplicación
+#6	AnnotatorNotes T6	C0229986; Application site; Anatomical Structure
+T7	CHEM 219 229	manzanilla
+#7	AnnotatorNotes T7	C0439963; Chamomile extract; Organic Chemical; Pharmacologic Substance
+T8	ANAT 262 266	piel
+#8	AnnotatorNotes T8	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T9	ANAT 1075 1094	lugar de aplicación
+#9	AnnotatorNotes T9	C0229986; Application site; Anatomical Structure
+T10	PROC 301 395	ensayo clínico fase I, enmascarado, controlado, no aleatorizado, de dosis única, con controles
+T11	DISO 819 852	eritema en el lugar de aplicación
+T12	PROC 842 852	aplicación
+#10	AnnotatorNotes T12	C0185125; Application procedure; Therapeutic or Preventive Procedure
+T13	PROC 892 902	evaluación
+#11	AnnotatorNotes T13	C1261322; Evaluation procedure; Health Care Activity
+T14	DISO 985 992	eritema
+#12	AnnotatorNotes T14	C0041834; Erythema; Disease or Syndrome
+T15	DISO 994 1005	descamación
+#13	AnnotatorNotes T15	C0237849; Peeling of skin; Finding
+T16	DISO 1007 1012	ardor
+#14	AnnotatorNotes T16	C0085624; Burning sensation; Sign or Symptom
+T17	DISO 1014 1021	prurito
+#15	AnnotatorNotes T17	C0033774; Pruritus; Sign or Symptom
+T18	PROC 1084 1094	aplicación
+#16	AnnotatorNotes T18	C0185125; Application procedure; Therapeutic or Preventive Procedure
+T19	PROC 1144 1154	evaluación
+#17	AnnotatorNotes T19	C1261322; Evaluation procedure; Health Care Activity
+T20	CHEM 1223 1227	agua
+#18	AnnotatorNotes T20	C0043047; water; Pharmacologic Substance · Inorganic Chemical
+T21	CHEM 1302 1312	manzanilla
+#19	AnnotatorNotes T21	C0439963; Chamomile extract; Organic Chemical; Pharmacologic Substance
+T22	PROC 1544 1560	Ensayos Clínicos
+#20	AnnotatorNotes T22	C0008976; Clinical Trials; Research Activity
+T23	ANAT 402 406	piel
+#21	AnnotatorNotes T23	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T24	DISO 510 520	irritación
+#22	AnnotatorNotes T24	C0587867; Irritation symptom; Finding
+T25	DISO 753 763	patologías
+#23	AnnotatorNotes T25	C0677042; Pathology processes; Pathologic Function
+T26	DISO 1024 1029	dolor
+#24	AnnotatorNotes T26	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T27	ANAT 1061 1068	cutánea
+#25	AnnotatorNotes T27	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T28	DISO 1357 1367	irritación
+#26	AnnotatorNotes T28	C0587867; Irritation symptom; Finding
+T29	ANAT 1395 1402	cutánea
+#27	AnnotatorNotes T29	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T30	Route 180 186	tópica
+#28	AnnotatorNotes T30	C1522168; Topical Route of Drug Administration; Functional Concept
+T32	Dose 369 380	dosis única
+T33	Age 659 668	26,3 años
+T34	Neg_cue 749 752	sin
+T37	Neg_cue 976 978	no
+T39	Route 1331 1341	uso tópico
+#29	AnnotatorNotes T39	C1522168; Topical Route of Drug Administration; Functional Concept
+T40	Neg_cue 1343 1345	no
+T41	Duration 1417 1431	cuatro semanas
+T31	PHYS 523 534	hidratación
+#30	AnnotatorNotes T31	C4520800; Hydration; Physiologic Function
+T35	PHYS 1383 1394	hidratación
+#31	AnnotatorNotes T35	C4520800; Hydration; Physiologic Function
+T36	PHYS 1049 1060	hidratación
+#32	AnnotatorNotes T36	C4520800; Hydration; Physiologic Function
+T38	PHYS 1161 1176	función barrera
+#33	AnnotatorNotes T38	C2246986; Skin barrier function; Organ or Tissue Function
+T42	PHYS 1458 1473	función barrera
+#34	AnnotatorNotes T42	C2246986; Skin barrier function; Organ or Tissue Function
+T43	LIVB 270 283	participantes
+#35	AnnotatorNotes T43	C4554048; Study Participant; Population Group
+T44	LIVB 914 927	participantes
+#36	AnnotatorNotes T44	C4554048; Study Participant; Population Group
+T45	LIVB 776 788	participante
+#37	AnnotatorNotes T45	C4554048; Study Participant; Population Group
+T46	LIVB 627 640	participantes
+#38	AnnotatorNotes T46	C4554048; Study Participant; Population Group
+T47	LIVB 700 713	sexo femenino
+#39	AnnotatorNotes T47	C0043210; Woman; Population Group
+T48	LIVB 727 734	blancos
+#40	AnnotatorNotes T48	C0043157; Caucasians; Population Group
+A1	Assertion T25 Negated
+A2	Assertion T14 Negated
+A3	Assertion T15 Negated
+A4	Assertion T16 Negated
+A5	Assertion T17 Negated
+A6	Assertion T26 Negated
+A7	Assertion T28 Negated
+A8	Status T25 History_of
+R1	Combined_with Arg1:T1 Arg2:T2	
+R2	Has_Route_or_Mode Arg1:T7 Arg2:T30	
+R3	Combined_with Arg1:T7 Arg2:T4	
+R4	Has_Route_or_Mode Arg1:T4 Arg2:T30	
+R5	Experiences Arg1:T43 Arg2:T7	
+T49	Quantifier_or_Qualifier 284 289	sanos
+#41	AnnotatorNotes T49	C3898900; Healthy; Qualitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T49	
+T50	CONC 552 569	tests de Wilcoxon
+#42	AnnotatorNotes T50	C0242931; Wilcoxon Rank Test; Quantitative Concept
+T51	CONC 572 587	Kruskall-Wallis
+#43	AnnotatorNotes T51	C1708614; Kruskal-Wallis Test; Intellectual Product
+R7	Has_Age Arg1:T46 Arg2:T33	
+R8	Negation Arg1:T34 Arg2:T25	
+R9	Experiences Arg1:T47 Arg2:T25	
+R10	Experiences Arg1:T48 Arg2:T25	
+T52	Observation 793 806	descontinuado
+#44	AnnotatorNotes T52	C0424092; Withdrawn; Finding (?)
+R11	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T52	
+R12	Experiences Arg1:T45 Arg2:T11	
+R13	Causes Arg1:T12 Arg2:T11	
+R14	Location_of Arg1:T6 Arg2:T11	
+T53	Neg_cue 866 868	no
+T54	Observation 869 902	comparecer a la última evaluación
+A9	Assertion T54 Negated
+R15	Negation Arg1:T53 Arg2:T54	
+R17	Experiences Arg1:T44 Arg2:T14	
+R18	Experiences Arg1:T44 Arg2:T15	
+R19	Experiences Arg1:T44 Arg2:T16	
+R20	Experiences Arg1:T44 Arg2:T17	
+R21	Experiences Arg1:T44 Arg2:T26	
+R22	Negation Arg1:T37 Arg2:T14	
+R23	Negation Arg1:T37 Arg2:T15	
+R24	Negation Arg1:T37 Arg2:T16	
+R25	Negation Arg1:T37 Arg2:T17	
+R26	Negation Arg1:T37 Arg2:T26	
+R27	Location_of Arg1:T27 Arg2:T36	
+R28	Experiences Arg1:T44 Arg2:T36	
+R29	Experiences Arg1:T44 Arg2:T18	
+T55	Observation 1036 1068	mejora en la hidratación cutánea
+R30	Experiences Arg1:T44 Arg2:T55	
+R31	Location_of Arg1:T27 Arg2:T55	
+T56	Observation 1182 1227	aumento de la pérdida transepidérmica de agua
+R32	Has_Route_or_Mode Arg1:T21 Arg2:T39	
+R33	Negation Arg1:T40 Arg2:T28	
+R34	Location_of Arg1:T29 Arg2:T35	
+T57	Observation 1370 1402	mejorando la hidratación cutánea
+R35	Causes Arg1:T21 Arg2:T57	
+R36	Has_Duration_or_Interval Arg1:T57 Arg2:T41	
+R37	Before Arg1:T21 Arg2:T28	
+T58	Neg_cue 349 351	no
+T59	Quantifier_or_Qualifier 352 364	aleatorizado
+A10	Assertion T59 Negated
+R40	Negation Arg1:T58 Arg2:T59	
+R41	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T59	
+R42	Location_of Arg1:T6 Arg2:T12	
+R43	Experiences Arg1:T45 Arg2:T12	
+R16	Before Arg1:T11 Arg2:T52	
+T60	Observation 932 954	finalizaron el estudio
+#45	AnnotatorNotes T60	C2732579; Completion of clinical trial; Finding
+R44	Location_of Arg1:T9 Arg2:T36	
+R45	Location_of Arg1:T9 Arg2:T55	
+T61	Observation 1444 1451	efectos
+#46	AnnotatorNotes T61	C1518681; Outcome of Therapy; Finding (?)
+#47	AnnotatorNotes T11	C0853700; Application site erythema; Pathologic Function
+A11	Experiencer T43 Patient
+A12	Experiencer T46 Patient
+A13	Experiencer T47 Patient
+A14	Experiencer T48 Patient
+A15	Experiencer T45 Patient
+A16	Experiencer T44 Patient

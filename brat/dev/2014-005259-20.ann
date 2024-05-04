@@ -1,0 +1,253 @@
+T1	PROC 44 203	ENSAYO CLINICO FASE IV-II, DE COMPROBACIÓN, DISTRIBUIDO AL AZAR, CONTROLADO Y ENMASCARADO CON TRATAMIENTO FINGIDO, EN DOS GRUPOS, REALIZADO EN UN SOLO HOSPITAL
+T2	PROC 210 238	EVALUAR EFICACIA Y SEGURIDAD
+T3	CHEM 257 268	MEDICAMENTO
+#1	AnnotatorNotes T3	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T4	PROC 281 299	PINCHAZO EN EL OJO
+T5	ANAT 296 299	OJO
+#2	AnnotatorNotes T5	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T6	DISO 349 388	DEGENERACION MACULAR ASOCIADA A LA EDAD
+#3	AnnotatorNotes T6	C0242383; Age related macular degeneration; Disease or Syndrome
+T7	PROC 411 576	ENSAYO CLÍNICO DE FASE IV-II, PRUEBA DE CONCEPTO, ALEATORIZADO, CONTROLADO CON TRATAMIENTO FINGIDO, CON DOBLE-ENMASCARAMIENTO Y UNICÉNTRICO, CON DOS GRUPOS PARALELOS
+T8	PROC 583 617	EVALUAR LA EFICACIA Y LA SEGURIDAD
+#4	AnnotatorNotes T8	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T9	CHEM 654 664	ETAMSILATO
+#5	AnnotatorNotes T9	C0014968; ethamsylate; Organic Chemical · Pharmacologic Substance
+T10	DISO 717 756	DEGENERACIÓN MACULAR ASOCIADA A LA EDAD
+#6	AnnotatorNotes T10	C0242383; Age related macular degeneration; Disease or Syndrome
+T11	DISO 779 818	Degeneración macular asociada a la edad
+#7	AnnotatorNotes T11	C0242383; Age related macular degeneration; Disease or Syndrome
+T12	DISO 844 883	Degeneración macular asociada a la edad
+#8	AnnotatorNotes T12	C0242383; Age related macular degeneration; Disease or Syndrome
+T13	DISO 885 889	DMAE
+#9	AnnotatorNotes T13	C0242383; Age related macular degeneration; Disease or Syndrome
+T14	DISO 985 1006	DMAE seca o exudativa
+#10	AnnotatorNotes T14	C3888461; Dry age-related macular degeneration; Anatomical Abnormality | C0271084; Exudative age-related macular degeneration; Disease or Syndrome
+T15	PROC 1008 1021	diagnosticada
+#11	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	PROC 1095 1125	mejor agudeza visual corregida
+#12	AnnotatorNotes T16	C1275680; Corrected visual acuity; Diagnostic Procedure
+T17	PROC 1237 1246	protocolo
+#13	AnnotatorNotes T17	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T18	PROC 1277 1301	consentimiento informado
+#14	AnnotatorNotes T18	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T19	DISO 1344 1348	DMAE
+#15	AnnotatorNotes T19	C0242383; Age related macular degeneration; Disease or Syndrome
+T20	ANAT 1404 1410	ocular
+#16	AnnotatorNotes T20	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T21	PROC 1486 1496	valoración
+#17	AnnotatorNotes T21	C1261322; Evaluation procedure; Health Care Activity
+T22	DISO 1503 1507	DMAE
+#18	AnnotatorNotes T22	C0242383; Age related macular degeneration; Disease or Syndrome
+T23	DISO 1514 1522	glaucoma
+#19	AnnotatorNotes T23	C0017601; Glaucoma; Disease or Syndrome
+T24	DISO 1524 1580	daños estructurales permanentes en el centro de la fóvea
+T25	ANAT 1575 1580	fóvea
+#20	AnnotatorNotes T25	C0016622; Structure of fovea centralis; Body Part, Organ, or Organ Component | C0450290; Entire fovea centralis; Body Part, Organ, or Organ Component
+T26	DISO 1582 1613	atrofia geográfica parafoveolar
+T27	DISO 1615 1647	vasculopatía coroidea polipoidal
+#21	AnnotatorNotes T27	C1504336; Polypoidal choroidal vasculopathy; Disease or Syndrome
+T28	ANAT 1628 1636	coroidea
+#22	AnnotatorNotes T28	C0008520; Choroid; Body Part, Organ, or Organ Component | C1305287; Entire choroid; Body Part, Organ, or Organ Component
+T29	DISO 1670 1696	enfermedades concomitantes
+#23	AnnotatorNotes T29	C0243087; concomitant disease; Pathologic Function
+T30	DISO 1751 1761	enfermedad
+#24	AnnotatorNotes T30	C0012634; Disease; Disease or Syndrome
+T31	PROC 1776 1788	tratamientos
+#25	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	PROC 1820 1830	valoración
+#26	AnnotatorNotes T32	C1261322; Evaluation procedure; Health Care Activity
+T33	DISO 1837 1841	DMAE
+#27	AnnotatorNotes T33	C0242383; Age related macular degeneration; Disease or Syndrome
+T34	DISO 1848 1865	diabetes mellitus
+#28	AnnotatorNotes T34	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T35	ANAT 1881 1887	ocular
+#29	AnnotatorNotes T35	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T36	DISO 1889 1908	infección sistémica
+#30	AnnotatorNotes T36	C0243026; Sepsis; Disease or Syndrome
+T37	DISO 1938 1954	infección ocular
+T38	DISO 1956 1980	trastornos psiquiátricos
+#31	AnnotatorNotes T38	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T39	PROC 2106 2117	tratamiento
+#32	AnnotatorNotes T39	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T40	PROC 624 650	ADMINISTRACIÓN INTRAVÍTREA
+T41	DISO 1394 1410	patología ocular
+T42	DISO 1870 1887	afectación ocular
+T43	ANAT 1948 1954	ocular
+#33	AnnotatorNotes T43	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T44	CHEM 2128 2145	fármaco anti-VEGF
+T45	Date 12 16	2014
+T47	LIVB 335 344	PACIENTES
+#34	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Route 639 650	INTRAVÍTREA
+#35	AnnotatorNotes T48	C1517572; Intravitreal Route of Drug Administration; Functional Concept
+T49	ANAT 792 799	macular
+#36	AnnotatorNotes T49	C0450295; Retinal macula; Body Part, Organ, or Organ Component | C1284755; Entire macula lutea; Body Part, Organ, or Organ Component
+T50	LIVB 703 712	PACIENTES
+#37	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 919 936	Pacientes adultos
+#38	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T52	LIVB 956 967	ambos sexos
+#39	AnnotatorNotes T52	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T53	Age 938 951	18 años o más
+T54	LIVB 971 980	Pacientes
+#40	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	Duration 1044 1064	los dos años previos
+T56	LIVB 1067 1076	Pacientes
+#41	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	DEVI 1169 1183	optotipo ETDRS
+#42	AnnotatorNotes T57	C1275992; ETDRS visual acuity chart; Medical Device
+T58	LIVB 1187 1196	Pacientes
+#43	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1330 1339	Pacientes
+#44	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 1363 1372	Pacientes
+#45	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 1429 1441	investigador
+#46	AnnotatorNotes T62	C0035173; Research Personnel; Professional or Occupational Group
+T64	LIVB 1656 1665	Pacientes
+#47	AnnotatorNotes T64	C0030705; Patients; Patient or Disabled Group
+T65	LIVB 1715 1727	investigador
+#48	AnnotatorNotes T65	C0035173; Research Personnel; Professional or Occupational Group
+T67	Date 1909 1917	en curso
+T69	LIVB 2077 2086	Pacientes
+#49	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	Route 2146 2157	intravítreo
+T71	Duration 2161 2180	los últimos 3 meses
+T72	LIVB 2184 2229	Mujeres embarazadas o en periodo de lactancia
+#50	AnnotatorNotes T72	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T46	ANAT 362 369	MACULAR
+#51	AnnotatorNotes T46	C0450295; Retinal macula; Body Part, Organ, or Organ Component | C1284755; Entire macula lutea; Body Part, Organ, or Organ Component
+T75	ANAT 857 864	macular
+#52	AnnotatorNotes T75	C0450295; Retinal macula; Body Part, Organ, or Organ Component | C1284755; Entire macula lutea; Body Part, Organ, or Organ Component
+T76	ANAT 730 737	MACULAR
+#53	AnnotatorNotes T76	C0450295; Retinal macula; Body Part, Organ, or Organ Component | C1284755; Entire macula lutea; Body Part, Organ, or Organ Component
+T59	PHYS 2220 2229	lactancia
+#54	AnnotatorNotes T59	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T63	PHYS 2192 2203	embarazadas
+#55	AnnotatorNotes T63	C0032961; Pregnancy; Organism Function
+T66	Observation 1982 2037	situaciones sociales que puedan afectar al cumplimiento
+A1	Population_data T51 Age
+A2	Status T39 History_of
+A3	Status T44 History_of
+A4	Status T23 History_of
+A5	Status T24 History_of
+A6	Status T26 History_of
+A7	Status T27 History_of
+#56	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#57	AnnotatorNotes T37	C0015403; Eye Infection; Disease or Syndrome 
+#58	AnnotatorNotes T70	C1517572; Intravitreal Route of Drug Administration; Functional Concept
+T68	Spec_cue 1442 1447	pueda
+T73	CONC 1448 1455	influir
+A8	Assertion T73 Speculated
+#59	AnnotatorNotes T73	C0521102; Interferes with; Functional Concept
+R1	Speculation Arg1:T68 Arg2:T73	
+T74	CONC 1735 1742	influir
+A9	Assertion T74 Speculated
+#60	AnnotatorNotes T74	C0521102; Interferes with; Functional Concept
+T77	Spec_cue 1728 1734	puedan
+R2	Speculation Arg1:T77 Arg2:T74	
+T78	Spec_cue 2007 2013	puedan
+T79	CONC 2014 2021	afectar
+A10	Assertion T79 Speculated
+#61	AnnotatorNotes T79	C0521102; Interferes with; Functional Concept
+R3	Speculation Arg1:T78 Arg2:T79	
+R4	Location_of Arg1:T5 Arg2:T4	
+#62	AnnotatorNotes T4	C2069457; Intravitreal injection of pharmacologic agent; Therapeutic or Preventive Procedure (?)
+R5	Used_for Arg1:T9 Arg2:T40	
+#63	AnnotatorNotes T40	C2069457; Intravitreal injection of pharmacologic agent; Therapeutic or Preventive Procedure
+R6	Has_Route_or_Mode Arg1:T9 Arg2:T48	
+R7	Experiences Arg1:T47 Arg2:T3	
+R8	Experiences Arg1:T47 Arg2:T4	
+R9	Experiences Arg1:T47 Arg2:T6	
+R10	Location_of Arg1:T46 Arg2:T6	
+R11	Experiences Arg1:T50 Arg2:T40	
+R12	Experiences Arg1:T50 Arg2:T10	
+R13	Location_of Arg1:T76 Arg2:T10	
+R14	Location_of Arg1:T49 Arg2:T11	
+R15	Location_of Arg1:T75 Arg2:T12	
+R16	Location_of Arg1:T75 Arg2:T13	
+R17	Has_Age Arg1:T51 Arg2:T53	
+R18	Has_Age Arg1:T52 Arg2:T53	
+R19	Experiences Arg1:T54 Arg2:T14	
+R20	Overlap Arg1:T15 Arg2:T55	
+R21	Overlap Arg1:T14 Arg2:T55	
+T80	Result_or_Value 1126 1146	entre 20/25 y 20/320
+R22	Has_Result_or_Value Arg1:T16 Arg2:T80	
+R23	Used_for Arg1:T57 Arg2:T16	
+R24	Experiences Arg1:T56 Arg2:T16	
+R25	Before Arg1:T18 Arg2:T17	
+T81	Quantifier_or_Qualifier 1352 1360	5º grado
+R26	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T81	
+R27	Experiences Arg1:T60 Arg2:T19	
+R28	Location_of Arg1:T20 Arg2:T41	
+R29	Experiences Arg1:T61 Arg2:T41	
+R31	Experiences Arg1:T61 Arg2:T23	
+R32	Experiences Arg1:T61 Arg2:T24	
+R33	Location_of Arg1:T25 Arg2:T24	
+R34	Experiences Arg1:T61 Arg2:T26	
+R35	Location_of Arg1:T28 Arg2:T27	
+R36	Experiences Arg1:T61 Arg2:T27	
+R37	Experiences Arg1:T61 Arg2:T22	
+R38	Experiences Arg1:T61 Arg2:T21	
+#64	AnnotatorNotes T41	C0015397; Disorder of eye; Disease or Syndrome
+R39	Overlap Arg1:T41 Arg2:T22	
+R40	Overlap Arg1:T22 Arg2:T23	
+R41	Overlap Arg1:T22 Arg2:T24	
+R42	Overlap Arg1:T22 Arg2:T26	
+R43	Overlap Arg1:T22 Arg2:T27	
+R54	Experiences Arg1:T64 Arg2:T29	
+R57	Experiences Arg1:T64 Arg2:T30	
+R58	Experiences Arg1:T64 Arg2:T31	
+R60	Location_of Arg1:T35 Arg2:T42	
+R61	Overlap Arg1:T36 Arg2:T67	
+T82	Quantifier_or_Qualifier 1920 1926	activa
+#65	AnnotatorNotes T82	C0679217; Active State; Idea or Concept
+R62	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T82	
+R63	Location_of Arg1:T43 Arg2:T37	
+R64	Experiences Arg1:T64 Arg2:T33	
+R65	Experiences Arg1:T64 Arg2:T32	
+R66	Experiences Arg1:T64 Arg2:T34	
+R67	Experiences Arg1:T64 Arg2:T42	
+R68	Experiences Arg1:T64 Arg2:T36	
+R69	Experiences Arg1:T64 Arg2:T37	
+R70	Experiences Arg1:T64 Arg2:T38	
+R71	Experiences Arg1:T64 Arg2:T66	
+R78	Overlap Arg1:T30 Arg2:T33	
+R81	Overlap Arg1:T33 Arg2:T34	
+R82	Overlap Arg1:T33 Arg2:T42	
+R83	Overlap Arg1:T33 Arg2:T36	
+R84	Overlap Arg1:T33 Arg2:T37	
+R85	Overlap Arg1:T33 Arg2:T38	
+R77	Overlap Arg1:T33 Arg2:T66	
+R87	Experiences Arg1:T69 Arg2:T39	
+R88	Used_for Arg1:T44 Arg2:T39	
+R89	Has_Route_or_Mode Arg1:T44 Arg2:T70	
+R90	Has_Duration_or_Interval Arg1:T44 Arg2:T71	
+#66	AnnotatorNotes T44	C4759940; Substance with vascular endothelial growth factor receptor antagonist mechanism of action (substance); Pharmacologic Substance (?)
+R91	Experiences Arg1:T72 Arg2:T59	
+R92	Experiences Arg1:T72 Arg2:T63	
+T83	Observation 1201 1246	capacidad y voluntad para seguir el protocolo
+R95	Used_for Arg1:T3 Arg2:T4	
+T84	Observation 671 699	MEJORÍA DE LA AGUDEZA VISUAL
+R97	Experiences Arg1:T50 Arg2:T84	
+R98	Before Arg1:T40 Arg2:T84	
+T85	Observation 306 331	MEJORAR LA AGUDEZA VISUAL
+R99	Before Arg1:T3 Arg2:T85	
+R100	Experiences Arg1:T47 Arg2:T85	
+#67	AnnotatorNotes T42	C0262477; Eye problem; Finding (?)
+R30	Overlap Arg1:T29 Arg2:T33	
+#68	AnnotatorNotes T67	C0521116; Current (present time); Temporal Concept
+A11	Experiencer T47 Patient
+A12	Experiencer T50 Patient
+A13	Experiencer T51 Patient
+A14	Experiencer T52 Patient
+A15	Experiencer T54 Patient
+A16	Experiencer T58 Patient
+A17	Experiencer T56 Patient
+A18	Experiencer T60 Patient
+A19	Experiencer T61 Patient
+A20	Experiencer T62 Other
+A21	Experiencer T64 Patient
+A22	Experiencer T65 Other
+A23	Experiencer T69 Patient
+A24	Experiencer T72 Patient

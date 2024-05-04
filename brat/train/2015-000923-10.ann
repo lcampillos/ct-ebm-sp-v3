@@ -1,0 +1,152 @@
+T1	PROC 46 83	Evaluación de la eficacia y seguridad
+T2	CHEM 111 120	lidocaína
+#1	AnnotatorNotes T2	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T3	PROC 137 150	gastroscopias
+#2	AnnotatorNotes T3	C0017195; Endoscopy of stomach; Diagnostic Procedure
+T4	PROC 152 176	Ensayo clínico aleatorio
+#3	AnnotatorNotes T4	C0206034; Clinical Trials, Randomized; Research Activity
+T5	PROC 199 236	Evaluación de la eficacia y seguridad
+T6	CHEM 264 273	lidocaína
+#4	AnnotatorNotes T6	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T7	PROC 290 319	Esofago-gastro-duodenoscopias
+#5	AnnotatorNotes T7	C0079304; Esophagogastroduodenoscopy; Diagnostic Procedure
+T8	PROC 321 345	Ensayo clínico aleatorio
+#6	AnnotatorNotes T8	C0206034; Clinical Trials, Randomized; Research Activity
+T9	PROC 369 381	Gastroscopia
+#7	AnnotatorNotes T9	C0017195; Endoscopy of stomach; Diagnostic Procedure
+T10	PROC 408 420	Gastroscopia
+#8	AnnotatorNotes T10	C0017195; Endoscopy of stomach; Diagnostic Procedure
+T11	DISO 508 516	alergias
+#9	AnnotatorNotes T11	C1527304; Allergic Reaction; Pathologic Function
+T12	CHEM 552 560	fármacos
+#10	AnnotatorNotes T12	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T13	DISO 723 766	Diabéticos tipo I o II insulinodependientes
+T14	DISO 797 819	Insuficiencia hepática
+#11	AnnotatorNotes T14	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T15	DISO 841 860	Insuficiencia renal
+#12	AnnotatorNotes T15	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T16	DISO 882 923	Síndrome de apneas obstructivas del sueño
+T17	DISO 925 929	SAOS
+#13	AnnotatorNotes T17	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T18	DISO 961 987	Insuficiencia respiratoria
+#14	AnnotatorNotes T18	C0035229; Respiratory Insufficiency; Pathologic Function | C1145670; Respiratory Failure; Disease or Syndrome
+T19	DISO 998 1024	Glaucoma de ángulo abierto
+#15	AnnotatorNotes T19	C0017612; Glaucoma, Open-Angle; Disease or Syndrome
+T20	DISO 1042 1056	encefalopatías
+#16	AnnotatorNotes T20	C0006111; Brain Diseases; Disease or Syndrome | C0085584; Encephalopathies; Disease or Syndrome
+T21	DISO 1090 1108	metahemoglobinemia
+#17	AnnotatorNotes T21	C0025637; Methemoglobinemia; Disease or Syndrome
+T22	PROC 90 104	administración
+#18	AnnotatorNotes T22	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T23	PROC 243 257	administración
+#19	AnnotatorNotes T23	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T24	CHEM 522 531	lidocaína
+#20	AnnotatorNotes T24	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T25	ANAT 811 819	hepática
+#21	AnnotatorNotes T25	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T26	ANAT 855 860	renal
+#22	AnnotatorNotes T26	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T27	DISO 1142 1168	abusos de drogas o alcohol
+T28	PROC 589 613	Consentimiento informado
+#23	AnnotatorNotes T28	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T29	PROC 784 789	Hb1Ac
+T30	PROC 950 953	IAH
+#24	AnnotatorNotes T30	C2111846; Apnea-hypopnea index procedure; Diagnostic Procedure
+T31	Date 13 17	2015
+T32	LIVB 458 483	Pacientes mayores de edad
+#25	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T33	Age 468 483	mayores de edad
+T34	Neg_cue 504 507	Sin
+T37	LIVB 629 637	paciente
+#26	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	PHYS 667 675	Embarazo
+#27	AnnotatorNotes T38	C0032961; Pregnancy; Organism Function
+T39	PHYS 678 687	lactancia
+#28	AnnotatorNotes T39	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T40	LIVB 691 700	Pacientes
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Age 701 719	mayores de 70 años
+T42	LIVB 1028 1037	Pacientes
+#30	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 1060 1069	Pacientes
+#31	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 1112 1121	Pacientes
+#32	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	PHYS 918 923	sueño
+#33	AnnotatorNotes T45	C0037313; Sleep; Organism Function
+T46	ANAT 975 987	respiratoria
+#34	AnnotatorNotes T46	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T48	Form 124 129	spray
+T49	Form 277 282	spray
+T35	CHEM 1152 1158	drogas
+#35	AnnotatorNotes T35	C0086190; Illicit Drugs; Hazardous or Poisonous Substance
+T36	PROC 486 489	ASA
+#36	AnnotatorNotes T36	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Population_data T32 Age
+A2	Assertion T11 Negated
+A3	Status T11 History_of
+A4	Status T21 History_of
+A5	Status T27 History_of
+A6	Status T35 History_of
+#37	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#38	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#39	AnnotatorNotes T49	C1154182; Spray Dosage Form; Biomedical or Dental Material
+#40	AnnotatorNotes T48	C1154182; Spray Dosage Form; Biomedical or Dental Material
+#41	AnnotatorNotes T13	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome + C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+#42	AnnotatorNotes T16	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+#43	AnnotatorNotes T27	C0085762; Alcohol abuse; Mental or Behavioral Dysfunction + C0013146; Drug abuse; Mental or Behavioral Dysfunction 
+T47	Food 1161 1168	alcohol
+#44	AnnotatorNotes T47	C0001967; Alcoholic Beverages; Food
+R1	Used_for Arg1:T2 Arg2:T22	
+R2	Has_Drug_Form Arg1:T2 Arg2:T48	
+R3	Has_Drug_Form Arg1:T6 Arg2:T49	
+R4	Used_for Arg1:T6 Arg2:T23	
+R5	Before Arg1:T22 Arg2:T3	
+R6	Before Arg1:T23 Arg2:T7	
+T50	Quantifier_or_Qualifier 421 429	electiva
+#45	AnnotatorNotes T50	C0439608; elective; Temporal Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T50	
+R8	Has_Age Arg1:T32 Arg2:T33	
+T51	Result_or_Value 490 501	I, II y III
+R9	Has_Result_or_Value Arg1:T36 Arg2:T51	
+R10	Negation Arg1:T34 Arg2:T11	
+R11	Causes Arg1:T24 Arg2:T11	
+R12	Causes Arg1:T12 Arg2:T11	
+R13	Has_Age Arg1:T40 Arg2:T41	
+T52	Result_or_Value 790 792	≥8
+R14	Has_Result_or_Value Arg1:T29 Arg2:T52	
+T53	Quantifier_or_Qualifier 767 782	mal controlados
+#46	AnnotatorNotes T53	C3853134; Poorly controlled; Functional Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T53	
+T54	Result_or_Value 954 957	≥15
+R16	Has_Result_or_Value Arg1:T30 Arg2:T54	
+T55	Quantifier_or_Qualifier 820 837	moderada o severa
+#47	AnnotatorNotes T55	C1299393; Moderate to severe; Qualitative Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T55	
+T56	Quantifier_or_Qualifier 861 878	moderada o severa
+#48	AnnotatorNotes T56	C1299393; Moderate to severe; Qualitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T56	
+R19	Location_of Arg1:T26 Arg2:T15	
+R20	Location_of Arg1:T25 Arg2:T14	
+T57	Quantifier_or_Qualifier 931 948	moderado o severo
+#49	AnnotatorNotes T57	C1299393; Moderate to severe; Qualitative Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T57	
+R24	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T57	
+R25	Experiences Arg1:T42 Arg2:T20	
+R26	Experiences Arg1:T43 Arg2:T21	
+R27	Experiences Arg1:T44 Arg2:T27	
+R28	Causes Arg1:T35 Arg2:T27	
+R29	Causes Arg1:T47 Arg2:T27	
+R30	Location_of Arg1:T46 Arg2:T18	
+T60	Quantifier_or_Qualifier 988 994	severa
+#52	AnnotatorNotes T60	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R33	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T60	
+#50	AnnotatorNotes T29	C0202054; Glucohemoglobin measurement; Laboratory Procedure | C0474680; Hemoglobin A1c measurement; Laboratory Procedure
+R21	Experiences Arg1:T44 Arg2:T35	
+R22	Experiences Arg1:T44 Arg2:T47	
+A7	Experiencer T42 Patient
+A8	Experiencer T43 Patient
+A9	Experiencer T44 Patient
+A10	Experiencer T32 Patient
+A11	Experiencer T37 Patient
+A12	Experiencer T40 Patient

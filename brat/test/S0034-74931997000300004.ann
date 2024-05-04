@@ -1,0 +1,83 @@
+T1	CHEM 1 15	Hidroxiapatita
+#1	AnnotatorNotes T1	C0115137; durapatite; Biomedical or Dental Material
+T2	PROC 22 36	estabilización
+#2	AnnotatorNotes T2	C1293130; Stabilization; Therapeutic or Preventive Procedure
+T3	ANAT 46 60	intervertebral
+#3	AnnotatorNotes T3	C0442106; Intervertebral; Body Location or Region
+T4	PROC 87 101	ensayo clínico
+#4	AnnotatorNotes T4	C0008976; Clinical Trials; Research Activity
+T5	ANAT 61 69	cervical
+#5	AnnotatorNotes T5	C0728985; Cervical spine; Body Part, Organ, or Organ Component | C1284110; Entire cervical spinal column; Body Part, Organ, or Organ Component
+T6	DISO 137 156	lesiones cervicales
+#6	AnnotatorNotes T6	C0432666; Injury of cervical spine; Injury or Poisoning
+T7	DISO 185 198	degenerativas
+#7	AnnotatorNotes T7	C0011164; Abnormal degeneration; Pathologic Function
+T8	ANAT 242 265	discos intervertebrales
+#8	AnnotatorNotes T8	C0021815; Intervertebral disc structure; Body Part, Organ, or Organ Component | C1280211; Entire intervertebral disc; Body Part, Organ, or Organ Component
+T9	CHEM 305 319	hidroxiapatita
+#9	AnnotatorNotes T9	C0115137; durapatite; Biomedical or Dental Material
+T10	ANAT 146 156	cervicales
+#10	AnnotatorNotes T10	C0728985; Cervical spine; Body Part, Organ, or Organ Component | C1284110; Entire cervical spinal column; Body Part, Organ, or Organ Component
+T11	PROC 475 508	controles clínicos y radiológicos
+T12	CHEM 559 573	hidroxiapatita
+#11	AnnotatorNotes T12	C0115137; durapatite; Biomedical or Dental Material
+T13	ANAT 624 633	vertebral
+#12	AnnotatorNotes T13	C0549207; Bone structure of spine; Body Part, Organ, or Organ Component | C1279061; Entire vertebra; Body Part, Organ, or Organ Component
+T14	ANAT 667 691	injertos óseos autógenos
+#13	AnnotatorNotes T14	C1444862; Autogenous bone graft material; Tissue
+T15	DISO 707 721	complicaciones
+#14	AnnotatorNotes T15	C0009566; Complication; Pathologic Function
+T16	CHEM 792 806	hidroxiapatita
+#15	AnnotatorNotes T16	C0115137; durapatite; Biomedical or Dental Material
+T17	PROC 39 69	fusión intervertebral cervical
+T18	DISO 171 182	traumáticas
+#16	AnnotatorNotes T18	C3263723; Traumatic injury; Injury or Poisoning | C3714660; Trauma; Injury or Poisoning
+T19	PROC 603 633	fusión intersomática vertebral
+T20	ANAT 164 168	C3/7
+T21	LIVB 123 132	pacientes
+#17	AnnotatorNotes T21	C0030705; Patients; Patient or Disabled Group
+T22	DEVI 217 226	implantes
+#18	AnnotatorNotes T22	C0021102; Implants; Medical Device
+T25	DEVI 579 587	implante
+#19	AnnotatorNotes T25	C0021102; Implants; Medical Device
+T26	Neg_cue 696 702	evitar
+T27	DEVI 779 788	implantes
+#20	AnnotatorNotes T27	C0021102; Implants; Medical Device
+A1	Assertion T15 Negated
+R1	Used_for Arg1:T1 Arg2:T2	
+R2	Used_for Arg1:T1 Arg2:T17	
+T23	Quantifier_or_Qualifier 70 74	baja
+#21	AnnotatorNotes T23	C0441994; Lower - spatial qualifier; Spatial Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T23	
+R4	Location_of Arg1:T5 Arg2:T17	
+R5	Location_of Arg1:T3 Arg2:T17	
+R6	Location_of Arg1:T3 Arg2:T2	
+R7	Location_of Arg1:T5 Arg2:T2	
+R8	Experiences Arg1:T21 Arg2:T6	
+T24	Quantifier_or_Qualifier 157 162	bajas
+#22	AnnotatorNotes T24	C0441994; Lower - spatial qualifier; Spatial Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T24	
+R10	Location_of Arg1:T10 Arg2:T6	
+R11	Experiences Arg1:T21 Arg2:T18	
+R12	Location_of Arg1:T10 Arg2:T18	
+R13	Location_of Arg1:T10 Arg2:T7	
+R14	Location_of Arg1:T20 Arg2:T6	
+R15	Location_of Arg1:T20 Arg2:T18	
+R16	Location_of Arg1:T20 Arg2:T7	
+R17	Experiences Arg1:T21 Arg2:T22	
+R18	Location_of Arg1:T10 Arg2:T22	
+R19	Location_of Arg1:T20 Arg2:T22	
+#23	AnnotatorNotes T20	C0459939; Bone structure of C3; Body Part, Organ, or Organ Component | C0223116; Entire C3 vertebra; Body Part, Organ, or Organ Component + C0223176; Seventh cervical vertebra; Body Part, Organ, or Organ Component | C1306475;  Entire C7 vertebra; Body Part, Organ, or Organ Component
+R20	Used_for Arg1:T9 Arg2:T22	
+R21	Experiences Arg1:T21 Arg2:T7	
+R22	Used_for Arg1:T12 Arg2:T25	
+R23	Used_for Arg1:T25 Arg2:T19	
+R24	Location_of Arg1:T13 Arg2:T19	
+R25	Negation Arg1:T26 Arg2:T15	
+R26	Before Arg1:T25 Arg2:T15	
+R27	Used_for Arg1:T16 Arg2:T27	
+T28	PHYS 425 440	osteoconducción
+#24	AnnotatorNotes T28	C1720752; Osteoconduction; Organ or Tissue Function
+T29	CONC 411 422	estabilidad
+#25	AnnotatorNotes T29	C0205360; Stable status; Qualitative Concept (?)
+A2	Experiencer T21 Patient

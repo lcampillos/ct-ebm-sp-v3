@@ -1,0 +1,149 @@
+T1	ANAT 72 80	ovocitos
+#1	AnnotatorNotes T1	C0029045; Oocytes; Cell
+T2	PROC 105 125	estimulación ovárica
+T3	PROC 325 337	ESTIMULACIÓN
+#2	AnnotatorNotes T3	C1292856; Stimulation procedure; Therapeutic or Preventive Procedure
+T4	PROC 373 385	ESTIMULACIÓN
+#3	AnnotatorNotes T4	C1292856; Stimulation procedure; Therapeutic or Preventive Procedure
+T5	PROC 438 464	ENSAYO CLÍNICO RANDOMIZADO
+#4	AnnotatorNotes T5	C0206034; Clinical Trials, Randomized; Research Activity
+T6	PROC 742 745	IMC
+#5	AnnotatorNotes T6	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T7	ANAT 517 525	ovocitos
+#6	AnnotatorNotes T7	C0029045; Oocytes; Cell
+T8	PROC 578 598	estimulación ovárica
+T9	ANAT 591 598	ovárica
+#7	AnnotatorNotes T9	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T10	ANAT 640 648	ovocitos
+#8	AnnotatorNotes T10	C0029045; Oocytes; Cell
+T11	PROC 655 675	protocolo controlado
+T12	PROC 686 706	estimulación ovárica
+T13	PROC 835 857	fertilización in vitro
+#9	AnnotatorNotes T13	C0015915; Fertilization in Vitro; Therapeutic or Preventive Procedure
+T14	PROC 886 898	estimulación
+#10	AnnotatorNotes T14	C1292856; Stimulation procedure; Therapeutic or Preventive Procedure
+T15	CHEM 913 933	corifolitropina alfa
+#11	AnnotatorNotes T15	C2713522; Corifollitropin alfa; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T16	ANAT 950 963	ambos ovarios
+#12	AnnotatorNotes T16	C0227898; Both ovaries; Body Part, Organ, or Organ Component
+T17	PROC 1010 1019	protocolo
+#13	AnnotatorNotes T17	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T18	PROC 1049 1075	consentimiento por escrito
+#14	AnnotatorNotes T18	C0811746; Obtain written consent; Health Care Activity
+T19	ANAT 1118 1127	folículos
+#15	AnnotatorNotes T19	C0018120; Ovarian Follicle; Body Part, Organ, or Organ Component | C1571705; Follicle; Body Part, Organ, or Organ Component
+T20	DISO 1178 1191	Endometriosis
+#16	AnnotatorNotes T20	C0014175; Endometriosis; Disease or Syndrome
+T21	ANAT 1247 1255	ovocitos
+#17	AnnotatorNotes T21	C0029045; Oocytes; Cell
+T22	PROC 1263 1283	estimulación ovárica
+T23	PROC 1151 1174	visita de randomización
+#18	AnnotatorNotes T23	C1512346; Patient Visit; Health Care Activity + C0034656; Randomization; Research Activity
+T24	ANAT 118 125	ovárica
+#19	AnnotatorNotes T24	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T25	DISO 287 302	respuesta pobre
+T26	DISO 417 436	RESPUESTA SUBOPTIMA
+T27	DISO 552 571	Respuesta subóptima
+T28	ANAT 699 706	ovárica
+#20	AnnotatorNotes T28	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T29	DISO 1307 1328	reserva ovárica pobre
+T30	ANAT 1276 1283	ovárica
+#21	AnnotatorNotes T30	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T31	ANAT 1315 1322	ovárica
+#22	AnnotatorNotes T31	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T32	Date 13 17	2019
+T33	LIVB 247 256	pacientes
+#23	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 403 412	PACIENTES
+#24	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Age 729 738	< 41 años
+T36	PHYS 769 787	Ciclos menstruales
+#25	AnnotatorNotes T36	C0025329; Menstrual cycle; Organism Function
+T37	Duration 798 816	entre 21 y 35 días
+T41	LIVB 1222 1231	pacientes
+#26	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	PHYS 1307 1322	reserva ovárica
+#27	AnnotatorNotes T42	C3850153; Ovarian Reserve; Organ or Tissue Function
+T43	PHYS 835 848	fertilización
+#28	AnnotatorNotes T43	C0009637; Conception; Organism Function | C0015914; Fertilization; Organism Function
+T44	PHYS 144 159	ciclo menstrual
+#29	AnnotatorNotes T44	C0025329; Menstrual cycle; Organism Function
+T45	PHYS 238 243	ciclo
+#30	AnnotatorNotes T45	C0025344; Menstruation; Organism Function
+T46	PHYS 389 399	FASE LUTEA
+#31	AnnotatorNotes T46	C0024153; Luteal Phase; Organ or Tissue Function
+T47	PHYS 354 368	FASE FOLICULAR
+T48	Dose 903 909	150mcg
+T38	ANAT 394 399	LUTEA
+#32	AnnotatorNotes T38	C1280558; Entire corpus luteum of ovary; Tissue
+A1	Status T11 History_of
+A2	Status T12 History_of
+A3	Status T22 History_of
+#33	AnnotatorNotes T25	C4087255; Poor response to ovulation induction; Pathologic Function
+#34	AnnotatorNotes T2	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#35	AnnotatorNotes T8	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#36	AnnotatorNotes T12	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#37	AnnotatorNotes T22	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#38	AnnotatorNotes T26	C4087255; Poor response to ovulation induction; Pathologic Function (?)
+#39	AnnotatorNotes T27	C4087255; Poor response to ovulation induction; Pathologic Function (?)
+T39	CONC 62 80	número de ovocitos
+#40	AnnotatorNotes T39	C0449803; Number of oocytes; Quantitative Concept
+T40	CONC 507 525	Número de ovocitos
+#41	AnnotatorNotes T40	C0449803; Number of oocytes; Quantitative Concept
+T49	Quantifier_or_Qualifier 628 639	Menos de 10
+R1	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T49	
+R2	Location_of Arg1:T28 Arg2:T12	
+R4	Location_of Arg1:T9 Arg2:T8	
+T50	Result_or_Value 746 765	entre 18 y 32 kg/m2
+R5	Has_Result_or_Value Arg1:T6 Arg2:T50	
+R6	Has_Duration_or_Interval Arg1:T36 Arg2:T37	
+T51	Quantifier_or_Qualifier 788 797	regulares
+#42	AnnotatorNotes T51	C0205272; Regular; Qualitative Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T51	
+R8	Before Arg1:T13 Arg2:T43	
+R9	Used_for Arg1:T15 Arg2:T14	
+R10	Has_Dose_or_Strength Arg1:T15 Arg2:T48	
+R11	Location_of Arg1:T24 Arg2:T2	
+R12	Overlap Arg1:T2 Arg2:T44	
+T52	CONC 210 243	un momento más avanzado del ciclo
+R13	Experiences Arg1:T33 Arg2:T45	
+R14	Overlap Arg1:T2 Arg2:T52	
+R15	Experiences Arg1:T33 Arg2:T25	
+R17	Experiences Arg1:T33 Arg2:T44	
+R18	Experiences Arg1:T33 Arg2:T2	
+#43	AnnotatorNotes T47	C0016434; Menstrual cycle, proliferative phase; Physiologic Function
+R19	Overlap Arg1:T3 Arg2:T47	
+R20	Overlap Arg1:T4 Arg2:T46	
+R21	Location_of Arg1:T38 Arg2:T46	
+R22	Experiences Arg1:T34 Arg2:T46	
+R23	Experiences Arg1:T34 Arg2:T4	
+R24	Experiences Arg1:T34 Arg2:T47	
+R25	Experiences Arg1:T34 Arg2:T3	
+R26	Experiences Arg1:T34 Arg2:T26	
+T53	Observation 967 992	Capacidad para participar
+#44	AnnotatorNotes T53	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+T54	Result_or_Value 1128 1144	mayores de 10 mm
+R29	Has_Result_or_Value Arg1:T19 Arg2:T54	
+R30	Overlap Arg1:T54 Arg2:T23	
+R31	Overlap Arg1:T49 Arg2:T11	
+R32	Overlap Arg1:T49 Arg2:T12	
+T55	Quantifier_or_Qualifier 1192 1198	III/IV
+R33	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T55	
+T56	Quantifier_or_Qualifier 1236 1246	menos de 4
+R34	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T56	
+R35	Experiences Arg1:T41 Arg2:T22	
+R36	Overlap Arg1:T56 Arg2:T22	
+R37	Location_of Arg1:T30 Arg2:T22	
+R38	Location_of Arg1:T31 Arg2:T42	
+R39	Location_of Arg1:T31 Arg2:T29	
+R40	Experiences Arg1:T41 Arg2:T29	
+#45	AnnotatorNotes T29	C3839507; Diminished ovarian reserve; Disease or Syndrome
+R42	Experiences Arg1:T41 Arg2:T42	
+T57	Observation 1332 1373	Participación concurrente en otro estudio
+T58	Observation 995 1019	cumplir con el protocolo
+#46	AnnotatorNotes T58	C0582783; Ability to comply with treatment; Finding (?)
+R43	Before Arg1:T53 Arg2:T58	
+A4	Status T25 History_of
+A5	Experiencer T41 Patient
+A6	Experiencer T33 Patient
+A7	Experiencer T34 Patient

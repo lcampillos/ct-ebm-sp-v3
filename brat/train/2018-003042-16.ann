@@ -1,0 +1,163 @@
+T1	PROC 46 78	Estudio para evaluar la eficacia
+T3	CHEM 106 113	fibrina
+#2	AnnotatorNotes T3	C0015982; Fibrin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T4	CHEM 141 164	factores de crecimiento
+#3	AnnotatorNotes T4	C0018284; Growth Factor; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T5	PROC 180 199	cirugía de pterigio
+T6	ANAT 240 258	membrana amniótica
+#4	AnnotatorNotes T6	C0002630; Structure of amnion; Embryonic Structure | C1305379; Entire amnion; Embryonic Structure
+T7	PROC 314 333	evaluar la eficacia
+#5	AnnotatorNotes T7	C1707887; Efficacy Study; Research Activity
+T9	CHEM 361 368	fibrina
+#7	AnnotatorNotes T9	C0015982; Fibrin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T10	CHEM 396 419	factores de crecimiento
+#8	AnnotatorNotes T10	C0018284; Growth Factor; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T11	PROC 435 454	cirugía de pterigio
+T12	ANAT 495 513	membrana amniótica
+#9	AnnotatorNotes T12	C0002630; Structure of amnion; Embryonic Structure | C1305379; Entire amnion; Embryonic Structure
+T13	DISO 605 614	Pterigion
+#10	AnnotatorNotes T13	C4520843; Pterygium of eye; Disease or Syndrome
+T14	DISO 699 726	proliferación fibrovascular
+T15	ANAT 779 786	corneal
+#11	AnnotatorNotes T15	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T16	DISO 801 818	afectación visual
+T17	DISO 823 841	molestias oculares
+T18	PROC 891 898	Cirugía
+#12	AnnotatorNotes T18	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T19	PROC 967 993	tratamiento inmunosupresor
+#13	AnnotatorNotes T19	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T20	PROC 1040 1073	tratamiento ocular tópico crónico
+T21	CHEM 1086 1107	lágrimas artificiales
+#14	AnnotatorNotes T21	C2608262; Lubricant Eye Drops; Pharmacologic Substance
+T22	DISO 1126 1172	enfermedad palpebral o de la superficie ocular
+T23	ANAT 1155 1172	superficie ocular
+#15	AnnotatorNotes T23	C4321570; Surface of eye; Body Location or Region
+T24	PROC 83 113	injerto de membrana de fibrina
+T25	PROC 229 258	injerto de membrana amniótica
+#17	AnnotatorNotes T25	C2747850; Amniotic membrane graft; Therapeutic or Preventive Procedure
+T26	PROC 281 308	Ensayo clínico aleatorizado
+#18	AnnotatorNotes T26	C0206034; Clinical Trials, Randomized; Research Activity
+T27	PROC 338 368	injerto de membrana de fibrina
+T28	PROC 484 513	injerto de membrana amniótica
+#20	AnnotatorNotes T28	C2747850; Amniotic membrane graft; Therapeutic or Preventive Procedure
+T29	PROC 574 581	cirugía
+#21	AnnotatorNotes T29	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T30	DISO 770 786	Invasión corneal
+T31	ANAT 833 841	oculares
+#22	AnnotatorNotes T31	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T32	CHEM 979 993	inmunosupresor
+#23	AnnotatorNotes T32	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T33	CHEM 996 1011	inmunomodulador
+#24	AnnotatorNotes T33	C1527392; Immunomodulators; Immunologic Factor · Pharmacologic Substance
+T34	ANAT 1052 1058	ocular
+#25	AnnotatorNotes T34	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T35	ANAT 1137 1146	palpebral
+#26	AnnotatorNotes T35	C0015426; Eyelid structure; Body Part, Organ, or Organ Component | C1280734; Entire eyelid; Body Part, Organ, or Organ Component
+T36	DISO 191 199	pterigio
+#27	AnnotatorNotes T36	C4520843; Pterygium of eye; Disease or Syndrome
+T37	DISO 446 454	pterigio
+#28	AnnotatorNotes T37	C4520843; Pterygium of eye; Disease or Syndrome
+T38	DISO 643 651	Pterigio
+#29	AnnotatorNotes T38	C4520843; Pterygium of eye; Disease or Syndrome
+T39	DISO 853 861	pterigio
+#30	AnnotatorNotes T39	C4520843; Pterygium of eye; Disease or Syndrome
+T40	DISO 919 939	pterigio recidivante
+#31	AnnotatorNotes T40	C0155158; Recurrent pterygium; Disease or Syndrome
+T41	DISO 909 917	pterigio
+#32	AnnotatorNotes T41	C4520843; Pterygium of eye; Disease or Syndrome
+T42	DISO 943 957	Pseudopterigio
+#33	AnnotatorNotes T42	C0155161; Pseudopterygium; Disease or Syndrome
+T43	Date 13 17	2018
+T45	Form 118 125	colirio
+T48	Form 373 380	colirio
+T51	Duration 546 559	el primer año
+T53	LIVB 730 739	Pacientes
+#34	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Age 749 767	entre 20 y 60 años
+T55	Spec_cue 791 800	riesgo de
+T56	Route 1012 1018	tópico
+#35	AnnotatorNotes T56	C1522168; Topical Route of Drug Administration; Functional Concept
+T57	Route 1059 1065	tópico
+#36	AnnotatorNotes T57	C1522168; Topical Route of Drug Administration; Functional Concept
+T58	Duration 1066 1073	crónico
+#37	AnnotatorNotes T58	C0205191; chronic; Temporal Concept
+T59	Neg_cue 1074 1081	excepto
+T62	PHYS 812 818	visual
+#38	AnnotatorNotes T62	C0042789; Vision; Organism Function
+T44	DISO 529 537	recidiva
+#39	AnnotatorNotes T44	C2825055; Recurrence (disease attribute); Pathologic Function
+A2	Assertion T17 Speculated
+A3	Assertion T21 Negated
+A5	Status T18 History_of
+A4	Status T22 History_of
+#40	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#41	AnnotatorNotes T45	C0015399; Eye Drops; Biomedical or Dental Material
+#42	AnnotatorNotes T48	C0015399; Eye Drops; Biomedical or Dental Material
+#43	AnnotatorNotes T16	C3665347; Visual Impairment; Finding
+A1	Assertion T16 Speculated
+T46	Quantifier_or_Qualifier 126 137	concentrado
+R1	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T46	
+T47	Quantifier_or_Qualifier 381 392	concentrado
+R2	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T47	
+R3	Has_Drug_Form Arg1:T9 Arg2:T48	
+R6	Used_for Arg1:T6 Arg2:T25	
+T49	Quantifier_or_Qualifier 165 173	autólogo
+#44	AnnotatorNotes T49	C0439859; Autologous (qualifier value); Qualitative Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T49	
+T50	Quantifier_or_Qualifier 420 428	autólogo
+#45	AnnotatorNotes T50	C0439859; Autologous (qualifier value); Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T50	
+R10	Combined_with Arg1:T9 Arg2:T10	
+R11	Combined_with Arg1:T3 Arg2:T4	
+T52	Quantifier_or_Qualifier 200 208	primario
+#46	AnnotatorNotes T52	C0205225; Primary; Qualitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T52	
+T60	Quantifier_or_Qualifier 455 463	primario
+#47	AnnotatorNotes T60	C0205225; Primary; Qualitative Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T60	
+T61	Quantifier_or_Qualifier 652 660	primario
+#48	AnnotatorNotes T61	C0205225; Primary; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T61	
+T63	Quantifier_or_Qualifier 661 676	uni o bilateral
+#49	AnnotatorNotes T63	C0205092; Unilateral; Spatial Concept | C0238767; Bilateral; Spatial Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T63	
+R16	Overlap Arg1:T38 Arg2:T14	
+R17	Has_Age Arg1:T53 Arg2:T54	
+R18	Location_of Arg1:T31 Arg2:T17	
+R19	Location_of Arg1:T31 Arg2:T39	
+R20	Causes Arg1:T39 Arg2:T17	
+R21	Causes Arg1:T39 Arg2:T16	
+R23	Location_of Arg1:T31 Arg2:T16	
+R24	Location_of Arg1:T15 Arg2:T30	
+R25	Speculation Arg1:T55 Arg2:T16	
+R26	Speculation Arg1:T55 Arg2:T17	
+R27	Used_for Arg1:T32 Arg2:T19	
+R28	Used_for Arg1:T33 Arg2:T19	
+R29	Has_Route_or_Mode Arg1:T33 Arg2:T56	
+R30	Has_Route_or_Mode Arg1:T32 Arg2:T56	
+R31	Negation Arg1:T59 Arg2:T21	
+R32	Has_Route_or_Mode Arg1:T20 Arg2:T57	
+R33	Location_of Arg1:T34 Arg2:T20	
+R34	Has_Duration_or_Interval Arg1:T20 Arg2:T58	
+R35	Location_of Arg1:T35 Arg2:T22	
+R36	Location_of Arg1:T23 Arg2:T22	
+T64	Quantifier_or_Qualifier 1021 1030	sistémico
+#50	AnnotatorNotes T64	C0205373; Systemic; Functional Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T64	
+R38	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T64	
+R39	Has_Drug_Form Arg1:T10 Arg2:T48	
+R40	Has_Drug_Form Arg1:T4 Arg2:T45	
+R4	Used_for Arg1:T3 Arg2:T24	
+R5	Used_for Arg1:T9 Arg2:T27	
+R9	Before Arg1:T37 Arg2:T44	
+R41	Overlap Arg1:T44 Arg2:T51	
+R42	After Arg1:T44 Arg2:T29	
+R43	Used_for Arg1:T12 Arg2:T28	
+R44	Before Arg1:T18 Arg2:T40	
+R45	Has_Route_or_Mode Arg1:T21 Arg2:T57	
+R46	Has_Duration_or_Interval Arg1:T21 Arg2:T58	
+#1	AnnotatorNotes T17	C0948595; Ocular discomfort; Sign or Symptom
+#6	AnnotatorNotes T5	C0197269; Operation on pterygium; Therapeutic or Preventive Procedure
+#16	AnnotatorNotes T11	C0197269; Operation on pterygium; Therapeutic or Preventive Procedure
+#19	AnnotatorNotes T22	C0015423; Eyelid Diseases; Disease or Syndrome | C1557335; Ocular surface disease; Disease or Syndrome
+A6	Experiencer T53 Patient

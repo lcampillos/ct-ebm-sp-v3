@@ -1,0 +1,208 @@
+T1	PROC 1 12	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 1277 1280	SSN
+#2	AnnotatorNotes T2	C0445115; Normal saline; Pharmacologic Substance; Inorganic Chemical
+T3	PROC 58 72	hospitalizados
+#3	AnnotatorNotes T3	C0019993; Hospitalization; Health Care Activity
+T4	DISO 77 96	bronquiolitis aguda
+#4	AnnotatorNotes T4	C0001311; Acute bronchiolitis; Disease or Syndrome
+T5	DISO 115 139	edema de las vías aéreas
+#5	AnnotatorNotes T5	C2939065; Airway edema; Pathologic Function
+T6	ANAT 146 165	secreciones mucosas
+#6	AnnotatorNotes T6	C0585350; Mucous discharge substance; Body Substance
+T7	DISO 229 248	bronquiolitis aguda
+#7	AnnotatorNotes T7	C0001311; Acute bronchiolitis; Disease or Syndrome
+T8	DISO 250 252	BA
+#8	AnnotatorNotes T8	C0001311; Acute bronchiolitis; Disease or Syndrome
+T9	PROC 258 270	nebulización
+#9	AnnotatorNotes T9	C1659427; nebulization-mediated drug administration; Therapeutic or Preventive Procedure
+T10	ANAT 128 139	vías aéreas
+#10	AnnotatorNotes T10	C0458827; Airway structure; Body Part, Organ, or Organ Component
+T11	CHEM 1122 1125	SSN
+#11	AnnotatorNotes T11	C0445115; Normal saline; Pharmacologic Substance; Inorganic Chemical
+T12	DISO 368 395	obstrucción de la vía aérea
+#12	AnnotatorNotes T12	C0001883; Airway Obstruction; Disease or Syndrome
+T13	ANAT 386 395	vía aérea
+#13	AnnotatorNotes T13	C0458827; Airway structure; Body Part, Organ, or Organ Component
+T14	DISO 434 453	bronquiolitis aguda
+#14	AnnotatorNotes T14	C0001311; Acute bronchiolitis; Disease or Syndrome
+T15	PROC 504 515	internación
+#15	AnnotatorNotes T15	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T16	DISO 709 711	BA
+#16	AnnotatorNotes T16	C0001311; Acute bronchiolitis; Disease or Syndrome
+T17	PROC 853 863	internados
+#17	AnnotatorNotes T17	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T18	PROC 969 1025	ensayo clínico, aleatorizado, controlado y a doble ciego
+#18	AnnotatorNotes T18	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T19	CHEM 1180 1183	SSH
+#19	AnnotatorNotes T19	C0036085; Saline Solution, Hypertonic; Inorganic Chemical · Pharmacologic Substance
+T20	CHEM 1098 1120	solución salina normal
+#20	AnnotatorNotes T20	C0445115; Normal saline; Pharmacologic Substance; Inorganic Chemical
+T21	CHEM 1131 1141	Epinefrina
+#21	AnnotatorNotes T21	C0014563; epinephrine; Organic Chemical · Pharmacologic Substance · Hormone
+T22	PROC 1231 1246	hospitalización
+#22	AnnotatorNotes T22	C0019993; Hospitalization; Health Care Activity
+T23	CHEM 1424 1434	Epinefrina
+#23	AnnotatorNotes T23	C0014563; epinephrine; Organic Chemical · Pharmacologic Substance · Hormone
+T24	CHEM 1458 1480	solución salina normal
+#24	AnnotatorNotes T24	C0445115; Normal saline; Pharmacologic Substance; Inorganic Chemical
+T25	CHEM 1485 1495	Epinefrina
+#25	AnnotatorNotes T25	C0014563; epinephrine; Organic Chemical · Pharmacologic Substance · Hormone
+T26	DISO 1535 1554	bronquiolitis aguda
+#26	AnnotatorNotes T26	C0001311; Acute bronchiolitis; Disease or Syndrome
+T27	CHEM 17 44	solución salina hipertónica
+#27	AnnotatorNotes T27	C0036085; Saline Solution, Hypertonic; Inorganic Chemical · Pharmacologic Substance
+T28	CHEM 477 480	SSH
+#28	AnnotatorNotes T28	C0036085; Saline Solution, Hypertonic; Inorganic Chemical · Pharmacologic Substance
+T29	DISO 186 197	patológicas
+#29	AnnotatorNotes T29	C0677042; Pathology processes; Pathologic Function
+T30	CHEM 275 302	solución salina hipertónica
+#30	AnnotatorNotes T30	C0036085; Saline Solution, Hypertonic; Inorganic Chemical · Pharmacologic Substance
+T31	CHEM 310 313	SSH
+#31	AnnotatorNotes T31	C0036085; Saline Solution, Hypertonic; Inorganic Chemical · Pharmacologic Substance
+T32	DISO 333 352	cambios patológicos
+T33	PROC 694 705	tratamiento
+#32	AnnotatorNotes T33	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T34	CHEM 1062 1089	solución salina hipertónica
+#33	AnnotatorNotes T34	C0036085; Saline Solution, Hypertonic; Inorganic Chemical · Pharmacologic Substance
+T35	CHEM 1091 1094	SSH
+#34	AnnotatorNotes T35	C0036085; Saline Solution, Hypertonic; Inorganic Chemical · Pharmacologic Substance
+T36	CHEM 1339 1342	SSH
+#35	AnnotatorNotes T36	C0036085; Saline Solution, Hypertonic; Inorganic Chemical · Pharmacologic Substance
+T37	CHEM 1398 1413	solución salina
+#36	AnnotatorNotes T37	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T38	CHEM 1367 1370	SSN
+#37	AnnotatorNotes T38	C0445115; Normal saline; Pharmacologic Substance; Inorganic Chemical
+T39	Form 17 25	solución
+#38	AnnotatorNotes T39	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T40	LIVB 48 57	lactantes
+#39	AnnotatorNotes T40	C0021270; Infant; Age Group
+T41	LIVB 215 224	lactantes
+#40	AnnotatorNotes T41	C0021270; Infant; Age Group
+T42	Form 275 283	solución
+#41	AnnotatorNotes T42	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T43	Dose 303 308	al 3%
+T45	LIVB 420 429	lactantes
+#42	AnnotatorNotes T45	C0021270; Infant; Age Group
+T47	LIVB 589 598	pacientes
+#43	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Age 614 629	5,1 ± 6,4 meses
+T49	Age 639 649	1-14 meses
+T51	LIVB 836 845	pacientes
+#44	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Date 923 936	mayo del 2011
+T53	Date 939 953	julio del 2014
+T54	Form 1062 1070	solución
+#45	AnnotatorNotes T54	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T55	Form 1098 1106	solución
+#46	AnnotatorNotes T55	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T56	LIVB 1160 1169	lactantes
+#47	AnnotatorNotes T56	C0021270; Infant; Age Group
+T58	Form 1398 1406	solución
+#48	AnnotatorNotes T58	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T59	Dose 1414 1419	al 3%
+T60	Form 1458 1466	solución
+#49	AnnotatorNotes T60	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T61	LIVB 1499 1508	pacientes
+#50	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T44	Duration 1247 1255	1,7±0,76
+#51	AnnotatorNotes T44	[Duration expressed in days]
+T46	Duration 1259 1266	4,9±2,3
+#52	AnnotatorNotes T46	[Duration expressed in days]
+T50	PROC 670 680	reclutados
+#53	AnnotatorNotes T50	C0242800; Patient Recruitment; Research Activity
+A1	Population_data T40 Age
+A2	Population_data T41 Age
+A3	Population_data T45 Age
+A4	Population_data T56 Age
+T57	Spec_cue 315 320	puede
+T62	CONC 321 328	reducir
+A5	Assertion T62 Speculated
+#54	AnnotatorNotes T62	C0392756; Reduced; Qualitative Concept (?)
+R1	Speculation Arg1:T57 Arg2:T62	
+T63	CONC 355 364	disminuir
+#55	AnnotatorNotes T63	C0392756; Reduced; Qualitative Concept (?)
+R2	Speculation Arg1:T57 Arg2:T63	
+A6	Assertion T63 Speculated
+R3	Used_for Arg1:T27 Arg2:T1	
+R4	Has_Drug_Form Arg1:T27 Arg2:T39	
+R5	Experiences Arg1:T40 Arg2:T1	
+R6	Experiences Arg1:T40 Arg2:T3	
+R7	Experiences Arg1:T40 Arg2:T4	
+R8	Location_of Arg1:T10 Arg2:T5	
+R9	Experiences Arg1:T41 Arg2:T29	
+R10	Experiences Arg1:T41 Arg2:T5	
+R11	Experiences Arg1:T41 Arg2:T7	
+R12	Experiences Arg1:T41 Arg2:T8	
+R13	Causes Arg1:T7 Arg2:T5	
+R14	Causes Arg1:T8 Arg2:T5	
+R15	Has_Drug_Form Arg1:T30 Arg2:T42	
+R16	Has_Dose_or_Strength Arg1:T30 Arg2:T43	
+R17	Used_for Arg1:T30 Arg2:T9	
+R18	Has_Dose_or_Strength Arg1:T31 Arg2:T43	
+R19	Has_Drug_Form Arg1:T31 Arg2:T42	
+R21	Location_of Arg1:T13 Arg2:T12	
+R22	Experiences Arg1:T45 Arg2:T14	
+R23	Experiences Arg1:T45 Arg2:T28	
+T65	CONC 496 515	días de internación
+#57	AnnotatorNotes T65	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T66	CONC 532 545	score clínico
+T67	Observation 518 525	mejoría
+#58	AnnotatorNotes T67	C0184511; Improved; Finding (?)
+R25	Experiences Arg1:T45 Arg2:T67	
+R26	Before Arg1:T28 Arg2:T67	
+R27	Has_Age Arg1:T47 Arg2:T48	
+R28	Has_Age Arg1:T47 Arg2:T49	
+R29	Experiences Arg1:T47 Arg2:T33	
+R30	Before Arg1:T50 Arg2:T33	
+R31	Experiences Arg1:T47 Arg2:T16	
+R32	Experiences Arg1:T51 Arg2:T17	
+R35	Before Arg1:T14 Arg2:T67	
+T68	PROC 908 915	estudio
+#59	AnnotatorNotes T68	C0681814; research study; Research Activity
+R36	After Arg1:T68 Arg2:T52	
+R37	Before Arg1:T68 Arg2:T53	
+R38	Has_Drug_Form Arg1:T34 Arg2:T54	
+R39	Has_Drug_Form Arg1:T35 Arg2:T54	
+R40	Combined_with Arg1:T11 Arg2:T21	
+R41	Combined_with Arg1:T20 Arg2:T21	
+R42	Has_Drug_Form Arg1:T21 Arg2:T55	
+R43	Has_Drug_Form Arg1:T20 Arg2:T55	
+R44	Has_Drug_Form Arg1:T11 Arg2:T55	
+R45	Experiences Arg1:T56 Arg2:T19	
+R47	Has_Duration_or_Interval Arg1:T22 Arg2:T44	
+R48	Has_Duration_or_Interval Arg1:T22 Arg2:T46	
+T70	CONC 1223 1246	días de hospitalización
+#61	AnnotatorNotes T70	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R49	Has_Duration_or_Interval Arg1:T70 Arg2:T44	
+R50	Has_Duration_or_Interval Arg1:T70 Arg2:T46	
+R52	Experiences Arg1:T56 Arg2:T2	
+T71	Observation 1306 1313	mejoría
+#62	AnnotatorNotes T71	C0184511; Improved; Finding (?)
+R53	Causes Arg1:T36 Arg2:T71	
+R54	Causes Arg1:T38 Arg2:T71	
+R55	Has_Drug_Form Arg1:T37 Arg2:T58	
+R56	Has_Dose_or_Strength Arg1:T37 Arg2:T59	
+R57	Combined_with Arg1:T37 Arg2:T23	
+R58	Has_Drug_Form Arg1:T23 Arg2:T58	
+R59	Has_Drug_Form Arg1:T24 Arg2:T60	
+R60	Combined_with Arg1:T24 Arg2:T25	
+R61	Has_Drug_Form Arg1:T25 Arg2:T60	
+R62	Experiences Arg1:T61 Arg2:T24	
+R63	Experiences Arg1:T61 Arg2:T37	
+R64	Experiences Arg1:T61 Arg2:T26	
+T72	Quantifier_or_Qualifier 1509 1530	moderadamente severos
+R66	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T72	
+R20	Experiences Arg1:T47 Arg2:T50	
+R24	Experiences Arg1:T45 Arg2:T15	
+R33	Experiences Arg1:T56 Arg2:T22	
+T64	Quantifier_or_Qualifier 1314 1326	significante
+#56	AnnotatorNotes T64	C0750502; Significant; Idea or Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T71 Arg2:T64	
+A7	Experiencer T40 Patient
+A8	Experiencer T41 Patient
+A9	Experiencer T45 Patient
+A10	Experiencer T47 Patient
+A11	Experiencer T51 Patient
+A12	Experiencer T56 Patient
+A13	Experiencer T61 Patient

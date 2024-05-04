@@ -1,0 +1,126 @@
+T1	ANAT 42 61	rebordes alveolares
+#1	AnnotatorNotes T1	C0447411; Alveolar ridge; Body Part, Organ, or Organ Component
+T2	PROC 73 99	Analisis de su efectividad
+T3	CHEM 232 240	acrílico
+#2	AnnotatorNotes T3	C0101303; acrylate; Organic Chemical · Biomedical or Dental Material
+T4	ANAT 279 295	reborde alveolar
+#3	AnnotatorNotes T4	C0447411; Alveolar ridge; Body Part, Organ, or Organ Component
+T5	DISO 279 304	reborde alveolar atrófico
+#4	AnnotatorNotes T5	C1855642; Atrophy of alveolar ridges; Finding
+T6	PROC 310 333	distracción osteogénica
+#5	AnnotatorNotes T6	C0524975; Osteogenesis, Distraction; Therapeutic or Preventive Procedure
+T7	ANAT 407 427	tejido óseo alveolar
+T8	ANAT 537 545	alveolar
+#6	AnnotatorNotes T8	C1440080; Alveolar; Body Part, Organ, or Organ Component
+T9	PROC 562 584	ensayo clínico Fase II
+#7	AnnotatorNotes T9	C0282460; Phase 2 Clinical Trials; Research Activity
+T10	DISO 619 668	atrofia del reborde alveolar mandibular o maxilar
+T11	PROC 524 545	osteogénesis alveolar
+T12	ANAT 631 658	reborde alveolar mandibular
+T13	ANAT 661 668	maxilar
+#8	AnnotatorNotes T13	C0022359; Jaw; Body Part, Organ, or Organ Component | C0024947; Maxilla; Body Part, Organ, or Organ Component
+T14	ANAT 686 696	alveolares
+#9	AnnotatorNotes T14	C1440080; Alveolar; Body Part, Organ, or Organ Component
+T15	PROC 594 602	tratados
+#10	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	DISO 1244 1252	atrofias
+#11	AnnotatorNotes T16	C0333641; Atrophic; Pathologic Function
+T17	PROC 118 166	colocación de implantes dentales osteointegrados
+#12	AnnotatorNotes T17	C0079207; Osseointegrated Dental Implantation; Therapeutic or Preventive Procedure
+T18	ANAT 142 150	dentales
+#13	AnnotatorNotes T18	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T19	PROC 827 857	atendidos de forma ambulatoria
+#14	AnnotatorNotes T19	C0086751; Health Services, Outpatient; Health Care Activity
+T20	PROC 172 213	retención de las prótesis estomatológicas
+T21	DISO 396 427	pérdida de tejido óseo alveolar
+#15	AnnotatorNotes T21	C0002382; Alveolar Bone Loss; Disease or Syndrome
+T22	PHYS 791 803	osteogénesis
+#16	AnnotatorNotes T22	C0029433; Osteogenesis; Organ or Tissue Function
+T23	PROC 909 920	distracción
+#17	AnnotatorNotes T23	C0524975; Osteogenesis, Distraction; Therapeutic or Preventive Procedure
+T24	PROC 998 1009	distracción
+#18	AnnotatorNotes T24	C0524975; Osteogenesis, Distraction; Therapeutic or Preventive Procedure
+T25	PROC 1073 1084	distracción
+#19	AnnotatorNotes T25	C0524975; Osteogenesis, Distraction; Therapeutic or Preventive Procedure
+T26	PROC 1117 1140	Distracción osteogénica
+#20	AnnotatorNotes T26	C0524975; Osteogenesis, Distraction; Therapeutic or Preventive Procedure
+T27	ANAT 1199 1214	cresta alveolar
+#21	AnnotatorNotes T27	C0447411; Alveolar ridge; Body Part, Organ, or Organ Component
+T28	PROC 15 38	distraccion osteogénica
+#22	AnnotatorNotes T28	C0524975; Osteogenesis, Distraction; Therapeutic or Preventive Procedure
+T29	DISO 42 71	rebordes alveolares atróficos
+#23	AnnotatorNotes T29	C1855642; Atrophy of alveolar ridges; Finding
+T30	DEVI 132 166	implantes dentales osteointegrados
+#24	AnnotatorNotes T30	C0441368; Osseointegrated oral implant; Medical Device
+T31	DEVI 189 213	prótesis estomatológicas
+#25	AnnotatorNotes T31	C0935659; Oral Prosthesis; Medical Device
+T32	LIVB 265 274	pacientes
+#26	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	Date 341 357	en la actualidad
+T36	PHYS 524 536	osteogénesis
+#27	AnnotatorNotes T36	C0029433; Osteogenesis; Organ or Tissue Function
+T37	LIVB 605 614	pacientes
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 810 819	pacientes
+#29	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 890 896	5 días
+T41	Frequency 928 934	diario
+T42	Duration 965 974	4 semanas
+T45	LIVB 1218 1227	pacientes
+#30	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T34	DEVI 673 696	distractores alveolares
+#31	AnnotatorNotes T34	C0493989; EXTERNAL MANDIBULAR FIXATOR AND/OR DISTRACTOR; Medical Device (?)
+T35	PROC 464 471;489 503	evaluar la Efectividad
+T38	Spec_cue 371 380	potencial
+T43	CONC 362 370	solución
+A1	Assertion T43 Speculated
+R1	Speculation Arg1:T38 Arg2:T43	
+R2	Overlap Arg1:T6 Arg2:T33	
+R3	Overlap Arg1:T43 Arg2:T33	
+R4	Location_of Arg1:T1 Arg2:T29	
+R5	Location_of Arg1:T1 Arg2:T28	
+R6	Location_of Arg1:T18 Arg2:T17	
+R7	Used_for Arg1:T30 Arg2:T17	
+R8	Used_for Arg1:T31 Arg2:T20	
+R9	Used_for Arg1:T3 Arg2:T31	
+R10	Experiences Arg1:T32 Arg2:T5	
+R11	Location_of Arg1:T4 Arg2:T5	
+R12	Experiences Arg1:T32 Arg2:T20	
+R13	Experiences Arg1:T32 Arg2:T17	
+T44	Observation 247 261	grave problema
+#32	AnnotatorNotes T44	C4315633; Speech problems, moderate to severe; Finding (?)
+R14	Experiences Arg1:T32 Arg2:T44	
+R15	Location_of Arg1:T7 Arg2:T21	
+T46	Quantifier_or_Qualifier 389 395	severa
+#33	AnnotatorNotes T46	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R16	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T46	
+R17	Location_of Arg1:T8 Arg2:T11	
+R19	Experiences Arg1:T37 Arg2:T15	
+R20	Location_of Arg1:T12 Arg2:T10	
+R21	Location_of Arg1:T13 Arg2:T10	
+R22	Location_of Arg1:T14 Arg2:T34	
+T47	Quantifier_or_Qualifier 697 708	intraorales
+#34	AnnotatorNotes T47	C0442119; Intraoral approach; Spatial Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T47	
+R24	Causes Arg1:T34 Arg2:T22	
+R25	Used_for Arg1:T34 Arg2:T15	
+R26	Experiences Arg1:T37 Arg2:T22	
+R27	Experiences Arg1:T37 Arg2:T10	
+R28	Experiences Arg1:T39 Arg2:T19	
+T48	CONC 863 882	período de latencia
+#35	AnnotatorNotes T48	C0242465; Response Latency; Temporal Concept (?)
+R29	Has_Duration_or_Interval Arg1:T48 Arg2:T40	
+T49	CONC 901 920	tasa de distracción
+R30	Has_Frequency Arg1:T49 Arg2:T41	
+R32	Experiences Arg1:T45 Arg2:T26	
+R34	Experiences Arg1:T45 Arg2:T16	
+R36	Location_of Arg1:T27 Arg2:T16	
+R37	Has_Duration_or_Interval Arg1:T23 Arg2:T42	
+#36	AnnotatorNotes T2	C1707887; Efficacy Study; Research Activity
+#37	AnnotatorNotes T35	C1707887; Efficacy Study; Research Activity
+#38	AnnotatorNotes T33	C0521116; Current (present time); Temporal Concept
+#39	AnnotatorNotes T43	C2699488; Resolution; Conceptual Entity
+A2	Experiencer T32 Patient
+A3	Experiencer T37 Patient
+A4	Experiencer T39 Patient
+A5	Experiencer T45 Patient

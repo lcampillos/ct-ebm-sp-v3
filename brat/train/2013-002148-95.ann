@@ -1,0 +1,284 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 97 120	tratamiento antibiótico
+#2	AnnotatorNotes T2	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T3	DISO 148 159	infecciones
+#3	AnnotatorNotes T3	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T4	ANAT 206 215	sanguíneo
+#4	AnnotatorNotes T4	C0005767; Blood; Body Substance
+T5	PROC 271 297	tratamiento antimicrobiano
+#5	AnnotatorNotes T5	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T6	DISO 304 335	bacteriemia por enterobacterias
+#6	AnnotatorNotes T6	C1142428; Enterobacter bacteremia; Disease or Syndrome
+T7	PROC 337 351	Ensayo clínico
+#7	AnnotatorNotes T7	C0008976; Clinical Trials; Research Activity
+T8	DISO 408 419	infecciones
+#8	AnnotatorNotes T8	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T9	ANAT 474 483	sanguíneo
+#9	AnnotatorNotes T9	C0005767; Blood; Body Substance
+T10	DISO 533 574	bacteriemia producida por enterobacterias
+T11	DISO 638 670	Bacteriemias por enterobacterias
+T12	DISO 716 727	bacteriemia
+#10	AnnotatorNotes T12	C0004610; Bacteremia; Disease or Syndrome
+T13	DISO 799 859	bacteriemias producidas por infección de un catéter vascular
+T14	PROC 1064 1078	procedimientos
+#11	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T15	DISO 861 868	absceso
+#12	AnnotatorNotes T15	C0000833; Abscess; Disease or Syndrome
+T16	DISO 871 910	obstrucción de la vía biliar o urinaria
+T17	ANAT 902 910	urinaria
+#13	AnnotatorNotes T17	C1508753; Urinary system; Body System
+T18	PROC 958 965	drenado
+#14	AnnotatorNotes T18	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T19	PROC 1106 1130	consentimiento informado
+#15	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	DISO 1174 1203	Neutropenia postquimioterapia
+T21	DISO 1262 1273	bacteriemia
+#16	AnnotatorNotes T21	C0004610; Bacteremia; Disease or Syndrome
+T22	DISO 1397 1408	bacteriemia
+#17	AnnotatorNotes T22	C0004610; Bacteremia; Disease or Syndrome
+T23	PROC 1501 1513	intervención
+#18	AnnotatorNotes T23	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T24	DISO 1527 1559	bacteriemia por catéter vascular
+T25	DISO 1573 1583	colangitis
+#19	AnnotatorNotes T25	C0008311; Cholangitis; Disease or Syndrome
+T26	DISO 1588 1628	obstrucción persistente de la vía biliar
+T27	ANAT 1618 1628	vía biliar
+#20	AnnotatorNotes T27	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0005423; Biliary tract structure; Body Part, Organ, or Organ Component | C1278928; Entire biliary tract; Body Part, Organ, or Organ Component
+T28	DISO 1630 1646	absceso profundo
+#21	AnnotatorNotes T28	C1265833; Deep abscess; Pathologic Function
+T29	PROC 1650 1657	drenado
+#22	AnnotatorNotes T29	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T30	PROC 1679 1686	drenada
+#23	AnnotatorNotes T30	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T31	DISO 1691 1728	Bacteriemia secundaria a endocarditis
+#24	AnnotatorNotes T31	C0014121; Bacterial Endocarditis; Disease or Syndrome
+T32	DISO 1730 1754	infección osteoarticular
+T33	DISO 1788 1799	infecciosos
+#25	AnnotatorNotes T33	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T34	PROC 1813 1839	tratamiento antimicrobiano
+#26	AnnotatorNotes T34	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T35	DISO 1883 1914	bacteriemia por enterobacterias
+#27	AnnotatorNotes T35	C1142428; Enterobacter bacteremia; Disease or Syndrome
+T36	DISO 1963 1972	infección
+#28	AnnotatorNotes T36	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T37	PROC 2003 2029	tratamiento antimicrobiano
+#29	AnnotatorNotes T37	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T38	DISO 2046 2077	Bacteriemia por enterobacterias
+#30	AnnotatorNotes T38	C1142428; Enterobacter bacteremia; Disease or Syndrome
+T39	DISO 2109 2135	Bacteriemia polimicrobiana
+#31	AnnotatorNotes T39	C0238748; BACTEREMIA, POLYMICROBIAL; Disease or Syndrome
+T40	CHEM 109 120	antibiótico
+#32	AnnotatorNotes T40	C0003232; Antibiotics; Antibiotic
+T41	CHEM 283 297	antimicrobiano
+#33	AnnotatorNotes T41	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T43	ANAT 889 899	vía biliar
+#34	AnnotatorNotes T43	C0005400; Bile duct structure; Body Part, Organ, or Organ Component | C0005423; Biliary tract structure; Body Part, Organ, or Organ Component | C1278928; Entire biliary tract; Body Part, Organ, or Organ Component
+T44	DISO 1659 1675	piohidronefrosis
+#35	AnnotatorNotes T44	C1405920; pyohydronephrosis; Disease or Syndrome
+T46	ANAT 1740 1754	osteoarticular
+#36	AnnotatorNotes T46	C0545594; bone and joint; Body Space or Junction
+T47	CHEM 1825 1839	antimicrobiano
+#37	AnnotatorNotes T47	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T48	CHEM 2015 2029	antimicrobiano
+#38	AnnotatorNotes T48	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T49	CHEM 2092 2104	carbapenemas
+#39	AnnotatorNotes T49	C0006968; Carbapenems; Organic Chemical;Antibiotic
+T50	Date 13 17	2013
+T51	LIVB 126 135	pacientes
+#40	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 184 193	bacterias
+#41	AnnotatorNotes T52	C0004611; Bacteria; Bacterium
+T53	LIVB 320 335	enterobacterias
+#42	AnnotatorNotes T53	C0014344; Enterobacter; Bacterium | C0014346; Enterobacteriaceae; Bacterium
+T54	LIVB 386 403	Pacientes adultos
+#43	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T56	LIVB 452 461	bacterias
+#44	AnnotatorNotes T56	C0004611; Bacteria; Bacterium
+T57	LIVB 511 528	Pacientes adultos
+#45	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T59	LIVB 559 574	enterobacterias
+#46	AnnotatorNotes T59	C0014344; Enterobacter; Bacterium | C0014346; Enterobacteriaceae; Bacterium
+T60	Age 610 633	mayor o igual a 18 años
+T61	LIVB 655 670	enterobacterias
+#47	AnnotatorNotes T61	C0014344; Enterobacter; Bacterium | C0014346; Enterobacteriaceae; Bacterium
+T62	Duration 771 792	las próximas 24 horas
+T63	DEVI 843 859	catéter vascular
+#48	AnnotatorNotes T63	C0441134; Vascular Catheters; Medical Device
+T66	Duration 980 1002	las sigientes 24 horas
+T67	LIVB 1008 1016	Paciente
+#49	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	PHYS 1161 1169	Embarazo
+#50	AnnotatorNotes T68	C0032961; Pregnancy; Organism Function
+T69	Duration 1233 1246	más de 7 días
+T71	Duration 1320 1343	las siguientes 24 horas
+T75	Neg_cue 1482 1484	no
+T76	DEVI 1543 1559	catéter vascular
+#51	AnnotatorNotes T76	C0441134; Vascular Catheters; Medical Device
+T79	Neg_cue 1647 1649	no
+T80	Neg_cue 1676 1678	no
+T81	LIVB 1859 1868	pacientes
+#52	AnnotatorNotes T81	C0030705; Patients; Patient or Disabled Group
+T82	LIVB 1899 1914	enterobacterias
+#53	AnnotatorNotes T82	C0014344; Enterobacter; Bacterium | C0014346; Enterobacteriaceae; Bacterium
+T83	LIVB 2062 2077	enterobacterias
+#54	AnnotatorNotes T83	C0014344; Enterobacter; Bacterium | C0014346; Enterobacteriaceae; Bacterium
+T84	LIVB 2140 2155	microorganismos
+#55	AnnotatorNotes T84	C0445623; Microorganism; Organism
+T85	LIVB 2176 2185	Pacientes
+#56	AnnotatorNotes T85	C0030705; Patients; Patient or Disabled Group
+T86	Duration 2220 2239	inferior a 48 horas
+T42	PHYS 1037 1047	comprender
+#57	AnnotatorNotes T42	C0162340; Comprehension; Mental Process
+T55	Date 1186 1203	postquimioterapia
+T45	LIVB 2169 2171	EB
+#58	AnnotatorNotes T45	C0014344; Enterobacter; Bacterium | C0014346; Enterobacteriaceae; Bacterium
+T58	DISO 1433 1441	supurado
+#59	AnnotatorNotes T58	C3203360; Suppuration; Pathologic Function
+T65	Neg_cue 2156 2168	diferentes a
+A1	Population_data T54 Age
+A2	Population_data T57 Age
+A4	Assertion T23 Negated
+A5	Assertion T29 Negated
+A6	Assertion T30 Negated
+A7	Assertion T45 Negated
+#60	AnnotatorNotes T10	C1142428; Enterobacter bacteremia; Disease or Syndrome
+#61	AnnotatorNotes T11	C1142428; Enterobacter bacteremia; Disease or Syndrome
+#62	AnnotatorNotes T16	C0400979; Obstruction of biliary tree; Disease or Syndrome + C0178879; Urinary tract obstruction; Disease or Syndrome 
+#63	AnnotatorNotes T55	C0439577; Post-chemotherapy; Temporal Concept 
+#64	AnnotatorNotes T20	C1827687; Chemotherapy induced neutropenia; Pathologic Function 
+T64	Quantifier_or_Qualifier 1277 1287	controlado
+A3	Assertion T64 Negated
+T70	Neg_cue 1274 1276	no
+T72	Neg_cue 1372 1374	no
+T73	Quantifier_or_Qualifier 1380 1390	controlado
+A8	Assertion T73 Negated
+T74	Quantifier_or_Qualifier 1563 1571	retirado
+A9	Assertion T74 Negated
+T77	Neg_cue 1560 1562	no
+T78	Quantifier_or_Qualifier 1457 1468	erradicable
+A10	Assertion T78 Speculated
+T87	Spec_cue 1442 1456	potencialmente
+R1	Used_for Arg1:T40 Arg2:T2	
+R2	Experiences Arg1:T51 Arg2:T2	
+R3	Experiences Arg1:T51 Arg2:T3	
+R4	Causes Arg1:T52 Arg2:T3	
+R5	Location_of Arg1:T4 Arg2:T3	
+R6	Used_for Arg1:T41 Arg2:T5	
+R7	Causes Arg1:T53 Arg2:T6	
+R8	Experiences Arg1:T54 Arg2:T8	
+R9	Causes Arg1:T56 Arg2:T8	
+R10	Location_of Arg1:T9 Arg2:T8	
+R11	Experiences Arg1:T57 Arg2:T10	
+R12	Causes Arg1:T59 Arg2:T10	
+R13	Causes Arg1:T61 Arg2:T11	
+T88	Quantifier_or_Qualifier 672 680	primaria
+#65	AnnotatorNotes T88	C0205225; Primary; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T88	
+T89	Quantifier_or_Qualifier 683 693	secundaria
+#66	AnnotatorNotes T89	C0175668; Secondary to; Qualitative Concept 
+R15	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T89	
+R16	Overlap Arg1:T13 Arg2:T63	
+T90	Quantifier_or_Qualifier 728 738	controlado
+T91	Quantifier_or_Qualifier 757 767	controlado
+A11	Assertion T91 Speculated
+R19	Overlap Arg1:T91 Arg2:T62	
+T92	Spec_cue 741 756	previsiblemente
+R20	Speculation Arg1:T92 Arg2:T91	
+R21	Location_of Arg1:T43 Arg2:T16	
+R22	Location_of Arg1:T17 Arg2:T16	
+T93	CONC 705 709	foco
+#67	AnnotatorNotes T93	C1285542; Has focus; Functional Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T93 Arg2:T90	
+R17	Has_Quantifier_or_Qualifier Arg1:T93 Arg2:T91	
+T94	CONC 918 922	foco
+R18	Overlap Arg1:T18 Arg2:T66	
+T95	Observation 1028 1078	capaz de comprender los objetivos y procedimientos
+R24	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T95	
+R25	Before Arg1:T19 Arg2:T14	
+R26	Overlap Arg1:T42 Arg2:T14	
+R27	Overlap Arg1:T42 Arg2:T19	
+R28	Experiences Arg1:T67 Arg2:T42	
+R29	Overlap Arg1:T20 Arg2:T55	
+R30	Has_Duration_or_Interval Arg1:T20 Arg2:T69	
+T96	CONC 1251 1255	Foco
+#68	AnnotatorNotes T96	C1285542; Has focus; Functional Concept
+R31	Negation Arg1:T70 Arg2:T64	
+R32	Has_Quantifier_or_Qualifier Arg1:T96 Arg2:T64	
+T97	CONC 1308 1317	inclusión
+#69	AnnotatorNotes T97	C1512693; Inclusion; Qualitative Concept
+R34	Overlap Arg1:T64 Arg2:T97	
+R35	Overlap Arg1:T64 Arg2:T71	
+R33	Negation Arg1:T72 Arg2:T73	
+T98	CONC 1367 1371	foco
+#70	AnnotatorNotes T98	C1285542; Has focus; Functional Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T98 Arg2:T73	
+R37	After Arg1:T22 Arg2:T58	
+R38	Speculation Arg1:T87 Arg2:T78	
+T99	CONC 1428 1432	foco
+#71	AnnotatorNotes T99	C1285542; Has focus; Functional Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T99 Arg2:T58	
+R41	Has_Quantifier_or_Qualifier Arg1:T99 Arg2:T78	
+R39	Negation Arg1:T75 Arg2:T23	
+R42	Overlap Arg1:T24 Arg2:T76	
+R43	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T74	
+R44	Negation Arg1:T77 Arg2:T74	
+R45	Overlap Arg1:T25 Arg2:T26	
+R46	Location_of Arg1:T27 Arg2:T26	
+R47	Negation Arg1:T79 Arg2:T29	
+R48	Negation Arg1:T80 Arg2:T30	
+R49	Location_of Arg1:T46 Arg2:T32	
+R50	Causes Arg1:T82 Arg2:T35	
+R51	Experiences Arg1:T81 Arg2:T35	
+#72	AnnotatorNotes T32	C0851989; Bone and joint infections; Disease or Syndrome
+T100	DISO 1730 1739;1757 1772	infección neuroquirúrgica
+R52	Used_for Arg1:T47 Arg2:T34	
+T101	Quantifier_or_Qualifier 1840 1850	prolongado
+#73	AnnotatorNotes T101	C0439590; Prolonged; Temporal Concept 
+R53	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T101	
+R54	Experiences Arg1:T81 Arg2:T31	
+R55	Experiences Arg1:T81 Arg2:T100	
+R56	Experiences Arg1:T81 Arg2:T32	
+R57	Experiences Arg1:T81 Arg2:T33	
+R58	Experiences Arg1:T81 Arg2:T34	
+R59	Experiences Arg1:T81 Arg2:T36	
+R60	Overlap Arg1:T35 Arg2:T36	
+T102	Quantifier_or_Qualifier 1958 1962	otra
+#74	AnnotatorNotes T102	C0205394; Other; Qualitative Concept
+R61	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T102	
+R62	Used_for Arg1:T48 Arg2:T37	
+T103	Quantifier_or_Qualifier 2030 2040	prolongado
+#75	AnnotatorNotes T103	C0439590; Prolonged; Temporal Concept
+R63	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T103	
+R64	Experiences Arg1:T81 Arg2:T37	
+R65	Causes Arg1:T83 Arg2:T38	
+T104	Observation 2078 2104	resistentes a carbapenemas
+R66	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T104	
+R67	Overlap Arg1:T104 Arg2:T49	
+R68	Causes Arg1:T84 Arg2:T39	
+R69	Negation Arg1:T65 Arg2:T45	
+T105	CONC 2190 2219	expectativas de supervivencia
+#76	AnnotatorNotes T105	C0023671; Life Expectancy; Group Attribute
+R70	Has_Duration_or_Interval Arg1:T105 Arg2:T86	
+T106	CONC 2260 2269	inclusión
+#77	AnnotatorNotes T106	C1512693; Inclusion; Qualitative Concept
+R71	Overlap Arg1:T105 Arg2:T106	
+#78	AnnotatorNotes T94	C1285542; Has focus; Functional Concept
+A12	Assertion T18 Speculated
+T107	Spec_cue 942 957	premisiblemente
+R72	Speculation Arg1:T107 Arg2:T18	
+A13	Assertion T94 Negated
+T108	Neg_cue 968 976	retirado
+R73	Negation Arg1:T108 Arg2:T94	
+R74	Overlap Arg1:T94 Arg2:T66	
+#79	AnnotatorNotes T78	C1882925; Removable; Qualitative Concept
+#80	AnnotatorNotes T74	C0849355; Removed; Qualitative Concept
+A14	Assertion T22 Hypothetical
+A15	Assertion T99 Hypothetical
+A16	Assertion T58 Hypothetical
+A17	Experiencer T51 Patient
+A18	Experiencer T54 Patient
+A19	Experiencer T57 Patient
+A20	Experiencer T67 Patient
+A21	Experiencer T81 Patient
+A22	Experiencer T85 Patient

@@ -1,0 +1,143 @@
+T1	PROC 45 73	Estudio abierto de extensión
+T2	PROC 79 113	valorar la seguridad y efectividad
+T3	PROC 118 129	tratamiento
+#1	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 163 182	enfermedad de Crohn
+#2	AnnotatorNotes T4	C0010346; Crohn Disease; Disease or Syndrome
+T5	PROC 237 295	ESTUDIO ABIERTO DE EXTENSIÓN Y SUPERVISIÓN DE LA SEGURIDAD
+T6	DISO 313 332	ENFERMEDAD DE CROHN
+#3	AnnotatorNotes T6	C0010346; Crohn Disease; Disease or Syndrome
+T7	PROC 395 416	PROTOCOLO DE FASE III
+T8	DISO 474 508	enfermedad inflamatoria intestinal
+#4	AnnotatorNotes T8	C0021390; Inflammatory Bowel Diseases; Disease or Syndrome
+T9	DISO 533 552	Enfermedad de Crohn
+#5	AnnotatorNotes T9	C0010346; Crohn Disease; Disease or Syndrome
+T10	PROC 587 615	Estudio abierto de extensión
+T11	PROC 770 798	estudio abierto de extensión
+T12	PROC 843 852	protocolo
+#6	AnnotatorNotes T12	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T13	CHEM 802 813	etrolizumab
+#7	AnnotatorNotes T13	C3177463; etrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	PROC 1082 1091	protocolo
+#8	AnnotatorNotes T14	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T15	PROC 1138 1165	seguimiento de la seguridad
+#9	AnnotatorNotes T15	C5235447; Safety Monitoring; Research Activity
+T16	PROC 1195 1198	OLE
+#10	AnnotatorNotes T16	C1709323; Open Label Study; Research Activity (?)
+T17	PROC 1308 1336	Estudio abierto de extensión
+T18	DISO 1350 1362	comorbilidad
+#11	AnnotatorNotes T18	C1275743; Co-morbid conditions; Finding
+T19	ANAT 498 508	intestinal
+#12	AnnotatorNotes T19	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T20	PROC 617 620	OLE
+#13	AnnotatorNotes T20	C1709323; Open Label Study; Research Activity (?)
+T21	CHEM 936 947	etrolizumab
+#14	AnnotatorNotes T21	C3177463; etrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T22	PROC 1069 1072	OLE
+#15	AnnotatorNotes T22	C1709323; Open Label Study; Research Activity (?)
+T23	CHEM 421 432	ETROLIZUMAB
+#16	AnnotatorNotes T23	C3177463; etrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T24	CHEM 134 145	etrolizumba
+T25	CHEM 686 697	etrolizumab
+#17	AnnotatorNotes T25	C3177463; etrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T26	Date 13 17	2014
+T27	LIVB 149 158	pacientes
+#18	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 299 308	PACIENTES
+#19	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 622 631	Pacientes
+#20	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 892 901	Pacientes
+#21	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 1027 1036	Pacientes
+#22	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 1102 1111	pacientes
+#23	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Duration 1169 1179	12 semanas
+T31	PROC 1408 1432	Supervisión de Seguridad
+#24	AnnotatorNotes T31	C0150370; Surveillance: safety; Therapeutic or Preventive Procedure
+T32	PROC 862 886	Supervisión de Seguridad
+#25	AnnotatorNotes T32	C0150370; Surveillance: safety; Therapeutic or Preventive Procedure
+A1	Status T25 History_of
+A2	Status T11 History_of
+A3	Status T13 History_of
+A4	Status T21 History_of
+A5	Status T22 History_of
+A6	Status T15 History_of
+A7	Status T16 History_of
+#26	AnnotatorNotes T24	C3177463; etrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#27	AnnotatorNotes T7	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure + C0282461; Phase 3 Clinical Trials; Research Activity
+T36	Neg_cue 971 973	no
+T37	Observation 1001 1011	participar
+A8	Assertion T37 Negated
+#28	AnnotatorNotes T37	C1278516; Patient participation status; Finding
+T38	Neg_cue 998 1000	no
+T39	Observation 978 983	aptos
+A9	Assertion T39 Negated
+#29	AnnotatorNotes T39	C1302261; Patient eligible for clinical trial; Finding (?)
+T40	Observation 906 932	participaron en el estudio
+#30	AnnotatorNotes T40	C2242969; clinical trial participant (history); Finding
+T41	Neg_cue 1386 1388	no
+T42	Quantifier_or_Qualifier 1389 1399	controlada
+A10	Assertion T42 Negated
+T43	Neg_cue 1436 1438	No
+T44	CONC 1443 1465	criterios de exclusión
+A11	Assertion T44 Negated
+#31	AnnotatorNotes T44	C0680251; Exclusion Criteria; Functional Concept
+T45	Observation 721 761	cumplieron los criterios de eligibilidad
+#32	AnnotatorNotes T45	C1302261; Patient eligible for clinical trial; Finding (?)
+T46	Quantifier_or_Qualifier 200 216	moderada a grave
+#33	AnnotatorNotes T46	C1299393; Moderate to severe; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T46	
+T47	Quantifier_or_Qualifier 350 366	MODERADA A GRAVE
+R2	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T47	
+#34	AnnotatorNotes T47	C1299393; Moderate to severe; Qualitative Concept
+R3	Experiences Arg1:T27 Arg2:T3	
+R4	Used_for Arg1:T24 Arg2:T3	
+R5	Experiences Arg1:T27 Arg2:T4	
+R6	Experiences Arg1:T28 Arg2:T6	
+R7	Experiences Arg1:T28 Arg2:T23	
+R8	Location_of Arg1:T19 Arg2:T8	
+#35	AnnotatorNotes T10	C1709323; Open Label Study; Research Activity (?)
+#36	AnnotatorNotes T11	C1709323; Open Label Study; Research Activity (?)
+#37	AnnotatorNotes T17	C1709323; Open Label Study; Research Activity (?)
+T48	Observation 367 388	PREVIAMENTE INSCRITOS
+#38	AnnotatorNotes T48	C4684790; Study Subject Enrolled; Finding
+A12	Status T48 History_of
+T49	Observation 648 668	estuvieron inscritos
+A13	Status T49 History_of
+#39	AnnotatorNotes T49	C4684790; Study Subject Enrolled; Finding
+R9	Experiences Arg1:T29 Arg2:T25	
+R10	Overlap Arg1:T49 Arg2:T25	
+R11	Experiences Arg1:T29 Arg2:T13	
+R12	Experiences Arg1:T30 Arg2:T21	
+R13	Negation Arg1:T36 Arg2:T39	
+R14	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T39	
+R15	Negation Arg1:T38 Arg2:T37	
+T50	Observation 1041 1053	participaron
+A14	Status T40 History_of
+A15	Status T50 History_of
+#40	AnnotatorNotes T50	C2242969; clinical trial participant (history); Finding
+R16	Has_Duration_or_Interval Arg1:T15 Arg2:T35	
+T51	Observation 1124 1165	completado el seguimiento de la seguridad
+#41	AnnotatorNotes T51	C5554829; Follow-Up Completed; Finding (?)
+T52	Observation 1243 1253	participar
+R17	Before Arg1:T51 Arg2:T52	
+#42	AnnotatorNotes T52	C1278516; Patient participation status; Finding
+R18	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T42	
+R19	Negation Arg1:T41 Arg2:T42	
+T53	Quantifier_or_Qualifier 1370 1383	significativa
+#43	AnnotatorNotes T53	C1546944; Event Seriousness - Significant; Qualitative Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T53	
+R21	Negation Arg1:T43 Arg2:T44	
+T54	Quantifier_or_Qualifier 1363 1368	nueva
+#44	AnnotatorNotes T54	C0205314; New; Qualitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T54	
+#45	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#46	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity (?)
+A16	Experiencer T27 Patient
+A17	Experiencer T28 Patient
+A18	Experiencer T29 Patient
+A19	Experiencer T30 Patient
+A20	Experiencer T33 Patient
+A21	Experiencer T34 Patient

@@ -1,0 +1,141 @@
+T1	CHEM 56 71	dexmedetomidina
+#1	AnnotatorNotes T1	C0113293; dexmedetomidine; Organic Chemical · Pharmacologic Substance
+T2	CHEM 75 83	propofol
+#2	AnnotatorNotes T2	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T3	PROC 187 197	implantado
+#3	AnnotatorNotes T3	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T4	DISO 221 244	Enfermedad de Parkinson
+#4	AnnotatorNotes T4	C0030567; Parkinson Disease; Disease or Syndrome
+T5	PROC 457 466	protocolo
+#5	AnnotatorNotes T5	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T6	PROC 376 400	consentimiento informado
+#6	AnnotatorNotes T6	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T7	PROC 605 619	ensayo clínico
+#7	AnnotatorNotes T7	C0008976; Clinical Trials; Research Activity
+T8	ANAT 726 734	cerebral
+#8	AnnotatorNotes T8	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T9	DISO 748 771	enfermedad de Parkinson
+#9	AnnotatorNotes T9	C0030567; Parkinson Disease; Disease or Syndrome
+T10	ANAT 775 793	núcleo subtalámico
+#10	AnnotatorNotes T10	C0152355; Structure of subthalamic nucleus; Body Part, Organ, or Organ Component | C1281060; Entire subthalamic nucleus; Body Part, Organ, or Organ Component | C1284083; Entire luys' nucleus; Body Part, Organ, or Organ Component
+T11	ANAT 796 808	globo pálido
+#11	AnnotatorNotes T11	C0017651; Globus Pallidus; Body Part, Organ, or Organ Component | C1284620; Entire globus pallidus; Body Part, Organ, or Organ Component
+T12	PROC 697 743	colocación de un estimulador cerebral profundo
+T13	PROC 997 1011	ensayo clínico
+#12	AnnotatorNotes T13	C0008976; Clinical Trials; Research Activity
+T14	DISO 1032 1049	hipersensibilidad
+#13	AnnotatorNotes T14	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T15	CHEM 1070 1078	propofol
+#14	AnnotatorNotes T15	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T16	DISO 1083 1099	Bloqueo cardíaco
+#15	AnnotatorNotes T16	C0018794; Heart Block; Disease or Syndrome
+T17	DISO 1136 1159	Hipotensión sintomática
+#16	AnnotatorNotes T17	C0863113; Hypotension symptomatic; Pathologic Function
+T18	DISO 1177 1203	enfermedad cerebrovascular
+#17	AnnotatorNotes T18	C0007820; Cerebrovascular Disorders; Disease or Syndrome
+T19	ANAT 115 123	cerebral
+#18	AnnotatorNotes T19	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T20	PROC 814 822	sedación
+#19	AnnotatorNotes T20	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T21	CHEM 1052 1067	dexmedetomidina
+#20	AnnotatorNotes T21	C0113293; dexmedetomidine; Organic Chemical · Pharmacologic Substance
+T22	ANAT 1091 1099	cardíaco
+#21	AnnotatorNotes T22	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T23	Date 13 17	2014
+T24	PHYS 105 123	actividad cerebral
+#22	AnnotatorNotes T24	C0443158; Brain activity; Physiologic Function
+T26	DEVI 175 186	estimulador
+#23	AnnotatorNotes T26	C0086222; Enhancer of transcription; Nucleic Acid, Nucleoside, or Nucleotide | C0175727; Stimulator; Medical Device
+T27	LIVB 281 290	pacientes
+#24	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 507 515	paciente
+#25	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 537 549	investigador
+#26	AnnotatorNotes T29	C0035173; Research Personnel; Professional or Occupational Group
+T30	LIVB 627 635	paciente
+#27	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Age 647 660	mayor de edad
+T32	LIVB 668 676	paciente
+#28	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	DEVI 714 734	estimulador cerebral
+#29	AnnotatorNotes T33	C0596213; brain electronic stimulator; Medical Device | C0810489; Stimulators, Electrical, Brain; Medical Device
+T34	LIVB 895 904	pacientes
+#30	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T36	Neg_cue 1117 1120	sin
+T37	DEVI 1121 1131	marcapasos
+#31	AnnotatorNotes T37	C0030163; Artificial cardiac pacemaker; Medical Device
+T38	LIVB 1164 1172	Paciente
+#32	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 1214 1259	Paciente embarazada o en período de lactancia
+#33	AnnotatorNotes T39	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T41	PHYS 1223 1233	embarazada
+#34	AnnotatorNotes T41	C0032961; Pregnancy; Organism Function
+T25	LIVB 845 863	médico responsable
+#35	AnnotatorNotes T25	C4708568; Medically responsible investigator; Professional or Occupational Group
+T35	PHYS 1250 1259	lactancia
+#36	AnnotatorNotes T35	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Assertion T37 Negated
+A2	Status T14 History_of
+T40	Neg_cue 967 969	no
+T42	Observation 981 1011	incluidos en el ensayo clínico
+A3	Assertion T42 Negated
+#37	AnnotatorNotes T42	C1278516; Patient participation status; Finding
+R1	Negation Arg1:T40 Arg2:T42	
+R3	Causes Arg1:T21 Arg2:T14	
+R4	Causes Arg1:T15 Arg2:T14	
+T43	Quantifier_or_Qualifier 1103 1116	2º o 3º grado
+R5	Location_of Arg1:T22 Arg2:T16	
+R6	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T43	
+R7	Negation Arg1:T36 Arg2:T37	
+R8	Experiences Arg1:T38 Arg2:T18	
+T44	Quantifier_or_Qualifier 1204 1209	grave
+#38	AnnotatorNotes T44	C1547227;Severe - Severity of Illness Code; Intellectual Product
+R9	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T44	
+R10	Experiences Arg1:T39 Arg2:T41	
+R11	Experiences Arg1:T39 Arg2:T35	
+R12	Location_of Arg1:T19 Arg2:T24	
+T45	Observation 46 52	Efecto
+#39	AnnotatorNotes T45	C1518681; Outcome of Therapy; Finding (?)
+R13	Causes Arg1:T1 Arg2:T45	
+R14	Causes Arg1:T2 Arg2:T45	
+T46	Quantifier_or_Qualifier 124 132	profunda
+#40	AnnotatorNotes T46	C0205125; Deep (qualifier value); Spatial Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T46	
+R16	Used_for Arg1:T26 Arg2:T3	
+T47	Observation 297 348	cumplir todos los siguientes criterios de inclusión
+#41	AnnotatorNotes T47	C4329786; Eligibility Criteria Met By Subject; Finding
+R19	Has_Age Arg1:T30 Arg2:T31	
+T48	Observation 564 600	cumplir con todos los requerimientos
+#42	AnnotatorNotes T48	C0582783; Ability to comply with treatment; Finding (?)
+R21	Used_for Arg1:T33 Arg2:T12	
+R22	Location_of Arg1:T8 Arg2:T12	
+#43	AnnotatorNotes T12	C4069029; Neuro: Deep brain stimulator implant; Therapeutic or Preventive Procedure
+R23	Experiences Arg1:T32 Arg2:T12	
+R24	Experiences Arg1:T32 Arg2:T9	
+R25	Location_of Arg1:T10 Arg2:T12	
+R26	Location_of Arg1:T11 Arg2:T12	
+R27	Experiences Arg1:T32 Arg2:T20	
+R28	Before Arg1:T20 Arg2:T12	
+T49	Observation 353 362	Capacidad
+#44	AnnotatorNotes T49	C1299581;Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R29	Overlap Arg1:T49 Arg2:T6	
+T50	Observation 415 452	deseo de cumplir todos los requisitos
+T51	PROC 489 496	estudio
+#45	AnnotatorNotes T51	C0008976; Clinical Trials; Research Activity
+R30	Overlap Arg1:T50 Arg2:T51	
+R31	Before Arg1:T6 Arg2:T51	
+R2	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T42	
+#46	AnnotatorNotes T43	C0443298; Second degree; Qualitative Concept | C0443323; Third degree; Qualitative Concept
+R17	Overlap Arg1:T16 Arg2:T37	
+A4	Experiencer T38 Patient
+A5	Experiencer T34 Patient
+A6	Experiencer T39 Patient
+A7	Experiencer T27 Patient
+A8	Experiencer T28 Patient
+A9	Experiencer T29 Other
+A10	Experiencer T30 Patient
+A11	Experiencer T32 Patient
+A12	Experiencer T25 Other
+A13	Status T12 Future
+A14	Status T33 Future
+A15	Status T20 Future

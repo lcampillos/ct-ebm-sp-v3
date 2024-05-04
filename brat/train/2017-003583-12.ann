@@ -1,0 +1,165 @@
+T1	PROC 185 192	tratado
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 85 94	nivolumab
+#2	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 104 113	nivolumab
+#3	AnnotatorNotes T3	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	PROC 117 128	monoterapia
+#4	AnnotatorNotes T4	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T5	DISO 146 166	Melanoma metastásico
+T6	PROC 229 272	Estudio fase 2/3, aleatorizado, doble ciego
+T7	CHEM 314 323	nivolumab
+#5	AnnotatorNotes T7	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	CHEM 333 342	nivolumab
+#6	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	PROC 346 357	monoterapia
+#7	AnnotatorNotes T9	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T10	DISO 375 395	Melanoma metastásico
+T11	DISO 460 468	Melanoma
+#8	AnnotatorNotes T11	C0025202; melanoma; Neoplastic Process
+T12	DISO 504 524	Melanoma metastásico
+T13	PROC 414 421	tratado
+#9	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 792 824	tratamiento oncológico sistémico
+T15	DISO 837 845	melanoma
+#10	AnnotatorNotes T15	C0025202; melanoma; Neoplastic Process
+T16	DISO 898 905	tumoral
+#11	AnnotatorNotes T16	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T17	DISO 958 968	enfermedad
+#12	AnnotatorNotes T17	C0012634; Disease; Disease or Syndrome
+T18	PROC 974 999	análisis de biomarcadores
+T19	DISO 1026 1047	Metástasis cerebrales
+#13	AnnotatorNotes T19	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T20	DISO 1058 1083	metástasis leptomeníngeas
+#14	AnnotatorNotes T20	C1704231; Metastatic Malignant Neoplasm to the Leptomeninges; Neoplastic Process
+T21	DISO 1085 1100	Melanoma ocular
+#15	AnnotatorNotes T21	C0558356; Malignant melanoma of eye; Neoplastic Process
+T22	DISO 1121 1142	enfermedad autoinmune
+#16	AnnotatorNotes T22	C0004364; Autoimmune Diseases; Disease or Syndrome
+T23	PROC 543 550	tratado
+#17	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	DISO 621 629	melanoma
+#18	AnnotatorNotes T24	C0025202; melanoma; Neoplastic Process
+T25	DISO 860 871	metastásico
+#19	AnnotatorNotes T25	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T26	ANAT 891 905	tejido tumoral
+T27	DISO 940 951	metastásico
+#20	AnnotatorNotes T27	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T28	ANAT 1037 1047	cerebrales
+#21	AnnotatorNotes T28	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T29	ANAT 1069 1083	leptomeníngeas
+#22	AnnotatorNotes T29	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T30	ANAT 1094 1100	ocular
+#23	AnnotatorNotes T30	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T31	CHEM 60 70	Relatlimab
+#24	AnnotatorNotes T31	C4724799; Relatlimab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	CHEM 276 286	Relatlimab
+#25	AnnotatorNotes T32	C4724799; Relatlimab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T33	CHEM 288 298	BMS-986016
+#26	AnnotatorNotes T33	C3827149; BMS-986016; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T34	Date 13 17	2017
+T35	LIVB 132 141	pacientes
+#27	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Neg_cue 182 184	no
+T37	LIVB 361 370	pacientes
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Neg_cue 411 413	no
+T39	Neg_cue 540 542	no
+T41	Neg_cue 768 770	no
+T42	Spec_cue 1162 1172	sospechada
+T40	PROC 724 747	estadificación del AJCC
+#29	AnnotatorNotes T40	C1971458; American Joint Committee on Cancer (AJCC) stage documented and reviewed (ONC); Health Care Activity
+T43	LIVB 1103 1116	Participantes
+#30	AnnotatorNotes T43	C4554048; Study Participant; Population Group
+T44	LIVB 595 608	participantes
+#31	AnnotatorNotes T44	C4554048; Study Participant; Population Group
+T45	LIVB 754 767	participantes
+#32	AnnotatorNotes T45	C4554048; Study Participant; Population Group
+T46	PROC 641 657	histológicamente
+#33	AnnotatorNotes T46	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T1 Negated
+A2	Assertion T13 Negated
+A3	Assertion T23 Negated
+A4	Assertion T14 Negated
+A5	Assertion T22 Speculated
+A6	Status T1 History_of
+A7	Status T13 History_of
+A8	Status T23 History_of
+A9	Status T14 History_of
+A10	Status T22 History_of
+#34	AnnotatorNotes T10	C0278883; Metastatic melanoma; Neoplastic Process 
+#35	AnnotatorNotes T12	C0278883; Metastatic melanoma; Neoplastic Process 
+#36	AnnotatorNotes T18	C1879847; Biomarker Analysis; Laboratory Procedure
+#37	AnnotatorNotes T6	C1519042; Phase II/III Trial; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+R1	Combined_with Arg1:T31 Arg2:T2	
+R2	Used_for Arg1:T3 Arg2:T4	
+R3	Experiences Arg1:T35 Arg2:T31	
+R4	Experiences Arg1:T35 Arg2:T3	
+R5	Experiences Arg1:T35 Arg2:T5	
+R6	Negation Arg1:T36 Arg2:T1	
+#38	AnnotatorNotes T5	C0278883; Metastatic melanoma; Neoplastic Process
+T47	Observation 169 181	irresectable
+#39	AnnotatorNotes T47	C4039777; Tumor surgically unresectable; Finding
+R7	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T47	
+T48	Observation 398 410	irresectable
+#40	AnnotatorNotes T48	C4039777; Tumor surgically unresectable; Finding
+T49	Observation 527 539	irresectable
+#41	AnnotatorNotes T49	C4039777; Tumor surgically unresectable; Finding
+T50	Observation 926 937	irresecable
+#42	AnnotatorNotes T50	C4039777; Tumor surgically unresectable; Finding
+T51	Observation 674 685	irresecable
+#43	AnnotatorNotes T51	C4039777; Tumor surgically unresectable; Finding
+T52	Observation 846 857	irresecable
+#44	AnnotatorNotes T52	C4039777; Tumor surgically unresectable; Finding
+R10	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T52	
+R11	Before Arg1:T15 Arg2:T25	
+R12	Negation Arg1:T41 Arg2:T14	
+R13	Experiences Arg1:T45 Arg2:T14	
+R14	Experiences Arg1:T45 Arg2:T15	
+R15	Experiences Arg1:T45 Arg2:T25	
+R16	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T52	
+R18	Experiences Arg1:T35 Arg2:T1	
+R19	Combined_with Arg1:T32 Arg2:T7	
+R20	Combined_with Arg1:T33 Arg2:T7	
+R21	Used_for Arg1:T8 Arg2:T9	
+R22	Experiences Arg1:T37 Arg2:T32	
+R23	Experiences Arg1:T37 Arg2:T33	
+R24	Experiences Arg1:T37 Arg2:T8	
+R25	Experiences Arg1:T37 Arg2:T10	
+R27	Negation Arg1:T38 Arg2:T13	
+R28	Experiences Arg1:T37 Arg2:T13	
+T53	Quantifier_or_Qualifier 469 477	avanzado
+#45	AnnotatorNotes T53	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R29	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T53	
+R30	Negation Arg1:T39 Arg2:T23	
+#46	AnnotatorNotes T26	C0475358; Tumor tissue sample; Tissue
+R32	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T50	
+R33	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T50	
+R34	Before Arg1:T17 Arg2:T27	
+R35	Before Arg1:T16 Arg2:T27	
+R36	Location_of Arg1:T26 Arg2:T17	
+R37	Used_for Arg1:T26 Arg2:T18	
+R40	Location_of Arg1:T28 Arg2:T19	
+R41	Location_of Arg1:T29 Arg2:T20	
+T54	Quantifier_or_Qualifier 1048 1055	activas
+#47	AnnotatorNotes T54	C0679217; Active State; Idea or Concept
+R42	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T54	
+R43	Location_of Arg1:T30 Arg2:T21	
+R44	Experiences Arg1:T43 Arg2:T22	
+T55	Quantifier_or_Qualifier 1143 1149	activa
+#48	AnnotatorNotes T55	C0679217; Active State; Idea or Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T55	
+R46	Speculation Arg1:T42 Arg2:T22	
+R48	Experiences Arg1:T44 Arg2:T24	
+R49	Experiences Arg1:T44 Arg2:T46	
+T56	Result_or_Value 661 672	estadio III
+T57	Result_or_Value 692 702	estadio IV
+R53	Has_Result_or_Value Arg1:T40 Arg2:T57	
+R54	Has_Result_or_Value Arg1:T40 Arg2:T56	
+R52	Experiences Arg1:T44 Arg2:T40	
+R51	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T51	
+A11	Experiencer T43 Patient
+A12	Experiencer T35 Patient
+A13	Experiencer T37 Patient
+A14	Experiencer T44 Patient
+A15	Experiencer T45 Patient

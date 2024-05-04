@@ -1,0 +1,187 @@
+T1	PROC 46 80	Evaluación de eficacia y seguridad
+T2	ANAT 88 135	células madre mesenquimales de cordón umbilical
+#1	AnnotatorNotes T2	C2826385; Umbilical Cord Blood-Derived Mesenchymal Stem Cells; Cell
+T3	PROC 896 905	PaO2/FiO2
+#2	AnnotatorNotes T3	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T4	PROC 144 155	tratamiento
+#3	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 173 215	insuficiencia respiratoria por coronavirus
+T6	PROC 238 379	Ensayo clínico piloto anidado en un estudio observacional de cohorte prospectivo, doble ciego, randomizado, paralelo y controlado con placebo
+T7	CHEM 442 445	MSC
+#4	AnnotatorNotes T7	C1720705; Human mesenchymal stem cell-containing product; Immunologic Factor · Pharmacologic Substance
+T8	PROC 388 425	evaluación de la eficacia y seguridad
+T9	DISO 466 504	síndrome de distrés respiratorio agudo
+#5	AnnotatorNotes T9	C5397144; Acute respiratory distress syndrome due to COVID-19; Disease or Syndrome
+T10	DISO 518 540	infección por COVID-19
+#6	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+T11	DISO 564 593	Dificultad respiratoria aguda
+#7	AnnotatorNotes T11	C0264490; Acute respiratory failure; Disease or Syndrome
+T12	DISO 620 658	Síndrome de distrés respiratorio agudo
+#8	AnnotatorNotes T12	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T13	PROC 708 756	estudio epidemiológico observacional prospectivo
+T14	PROC 804 818	ingreso en UCI
+T15	DISO 823 849	Distrés respiratorio agudo
+T16	PROC 1123 1134	Tratamiento
+#9	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	CHEM 1139 1164	fármacos inmunosupresores
+#10	AnnotatorNotes T17	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T18	CHEM 1166 1177	tocilizumab
+#11	AnnotatorNotes T18	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T19	CHEM 1213 1229	corticosteroides
+#12	AnnotatorNotes T19	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T20	DISO 1233 1254	Enfermedad neoplásica
+#13	AnnotatorNotes T20	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T21	DISO 1300 1316	inmunodeprimidos
+#14	AnnotatorNotes T21	C0085393; Immunocompromised Host; Finding
+T22	PROC 1326 1353	tratamiento con corticoides
+T23	DISO 1362 1382	distrés respiratorio
+#15	AnnotatorNotes T23	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T24	PROC 1444 1459	estudio clínico
+#16	AnnotatorNotes T24	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T25	CHEM 1467 1487	fármaco experimental
+#17	AnnotatorNotes T25	C0304229; Experimental drug; Pharmacologic Substance
+T26	PROC 974 998	consentimiento informado
+#18	AnnotatorNotes T26	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T27	CHEM 1179 1188	sarilumab
+#19	AnnotatorNotes T27	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T28	PROC 774 793	PCR para SARS-CoV-2
+#20	AnnotatorNotes T28	C5244035; SARS-CoV-2 PCR test; Laboratory Procedure | C5541700; PCR for SARS-CoV-2; Laboratory Procedure
+T29	CHEM 1342 1353	corticoides
+#21	AnnotatorNotes T29	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T30	DISO 1520 1530	patologías
+#22	AnnotatorNotes T30	C0677042; Pathology processes; Pathologic Function
+T31	Date 13 17	2020
+T32	LIVB 159 168	pacientes
+#23	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 204 215	coronavirus
+#24	AnnotatorNotes T33	C5203676; SARS-CoV-2; Virus
+T34	LIVB 299 306	cohorte
+#25	AnnotatorNotes T34	C0599755; Cohort; Population Group
+T35	Dose 429 438	dos dosis
+T36	LIVB 452 461	pacientes
+#26	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 783 793	SARS-CoV-2
+#27	AnnotatorNotes T37	C5203676; SARS-CoV-2; Virus
+T38	LIVB 923 931	Paciente
+#28	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Age 932 947	de 18 a 70 años
+T40	LIVB 1013 1021	paciente
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1031 1044	representante
+#30	AnnotatorNotes T41	C0030701; Patient Representatives; Professional or Occupational Group | C0600419; Patient Agent; Group | C1998038; Patient advocate (person); Population Group (?)
+T43	Neg_cue 1318 1325	excepto
+T44	LIVB 1387 1406	Mujeres embarazadas
+#31	AnnotatorNotes T44	C0033011; Pregnant Women; Population Group
+T45	LIVB 1409 1418	lactantes
+#32	AnnotatorNotes T45	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T46	Duration 1491 1510	los últimos 30 días
+T48	ANAT 187 199	respiratoria
+#33	AnnotatorNotes T48	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T49	PHYS 486 498	respiratorio
+#34	AnnotatorNotes T49	C0035203; Respiration; Physiologic Function
+T50	PHYS 575 587	respiratoria
+#35	AnnotatorNotes T50	C0035203; Respiration; Physiologic Function
+T51	PHYS 640 652	respiratorio
+#36	AnnotatorNotes T51	C0035203; Respiration; Physiologic Function
+T52	PHYS 831 843	respiratorio
+#37	AnnotatorNotes T52	C0035203; Respiration; Physiologic Function
+T53	LIVB 1290 1299	Pacientes
+#38	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	PHYS 1370 1382	respiratorio
+#39	AnnotatorNotes T54	C0035203; Respiration; Physiologic Function
+T47	Duration 1104 1119	menor de 3 días
+T42	PHYS 1395 1406	embarazadas
+#40	AnnotatorNotes T42	C0032961; Pregnancy; Organism Function
+T55	CHEM 88 115	células madre mesenquimales
+#41	AnnotatorNotes T55	C1720705; Human mesenchymal stem cell-containing product; Immunologic Factor · Pharmacologic Substance
+T56	LIVB 949 960	ambos sexos
+#42	AnnotatorNotes T56	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+A1	Assertion T22 Negated
+A2	Status T24 History_of
+A3	Status T25 History_of
+#43	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#44	AnnotatorNotes T8	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#45	AnnotatorNotes T14	C5419131; Intensive Care Unit Stay; Health Care Activity
+#46	AnnotatorNotes T15	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T57	Observation 1268 1285	remisión completa
+A4	Assertion T57 Negated
+#47	AnnotatorNotes T57	C0677874; In complete remission; Finding
+T58	Neg_cue 1264 1267	sin
+T59	Observation 1573 1600	participación en el estudio
+A5	Assertion T59 Contraindicated
+#48	AnnotatorNotes T59	C1278516; Patient participation status; Finding (?)
+R1	Before Arg1:T30 Arg2:T59	
+T60	CONC 1081 1103	Supervivencia esperada
+#49	AnnotatorNotes T60	C0023671; Life Expectancy; Group Attribute (?)
+R2	Has_Duration_or_Interval Arg1:T60 Arg2:T47	
+R4	Experiences Arg1:T32 Arg2:T4	
+R5	Causes Arg1:T33 Arg2:T5	
+R6	Location_of Arg1:T48 Arg2:T5	
+#50	AnnotatorNotes T5	C5397144; Acute respiratory distress syndrome due to COVID-19; Disease or Syndrome (?)
+R7	Experiences Arg1:T34 Arg2:T7	
+R8	Experiences Arg1:T34 Arg2:T9	
+R9	Experiences Arg1:T34 Arg2:T10	
+R10	Causes Arg1:T10 Arg2:T9	
+R11	Experiences Arg1:T36 Arg2:T7	
+R12	Experiences Arg1:T36 Arg2:T9	
+R13	Experiences Arg1:T36 Arg2:T10	
+R15	Experiences Arg1:T36 Arg2:T49	
+R16	Has_Dose_or_Strength Arg1:T7 Arg2:T35	
+T61	Result_or_Value 794 802	positivo
+#51	AnnotatorNotes T61	C1446409; Positive; Finding
+R20	Has_Result_or_Value Arg1:T28 Arg2:T61	
+R21	Causes Arg1:T37 Arg2:T61	
+T62	Result_or_Value 885 895	100 mmHg <
+R23	Has_Result_or_Value Arg1:T3 Arg2:T62	
+T63	Result_or_Value 906 916	≥ 200 mmHg
+R24	Has_Result_or_Value Arg1:T3 Arg2:T63	
+T64	Quantifier_or_Qualifier 850 858	moderado
+#52	AnnotatorNotes T64	C0205081; Moderate (severity modifier); Qualitative Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T64	
+T65	CONC 860 880	definición de Berlín
+#53	AnnotatorNotes T65	C5420236; Berlin Criteria for Acute Respiratory Distress Syndrome; Intellectual Product
+R27	Has_Age Arg1:T38 Arg2:T39	
+R28	Has_Age Arg1:T56 Arg2:T39	
+R29	Negation Arg1:T58 Arg2:T57	
+R30	Before Arg1:T20 Arg2:T57	
+T66	Quantifier_or_Qualifier 1255 1261	activa
+#54	AnnotatorNotes T66	C0679217; Active State; Idea or Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T66	
+R32	Used_for Arg1:T17 Arg2:T16	
+R33	Used_for Arg1:T18 Arg2:T16	
+R34	Used_for Arg1:T27 Arg2:T16	
+T67	Quantifier_or_Qualifier 1198 1208	permitidos
+R35	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T67	
+R36	Used_for Arg1:T19 Arg2:T16	
+R37	Experiences Arg1:T53 Arg2:T21	
+R38	Experiences Arg1:T53 Arg2:T23	
+R40	Experiences Arg1:T53 Arg2:T54	
+R41	Negation Arg1:T43 Arg2:T22	
+R42	Used_for Arg1:T29 Arg2:T22	
+A6	Assertion T29 Negated
+R43	Negation Arg1:T43 Arg2:T29	
+R44	Experiences Arg1:T44 Arg2:T42	
+T68	Observation 1422 1459	Participación en otro estudio clínico
+A7	Status T68 History_of
+R45	Used_for Arg1:T25 Arg2:T24	
+R46	Overlap Arg1:T24 Arg2:T46	
+R47	Overlap Arg1:T68 Arg2:T46	
+T69	Quantifier_or_Qualifier 1514 1519	Otras
+#55	AnnotatorNotes T69	C0205394; Other; Qualitative Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T69	
+R49	Experiences Arg1:T32 Arg2:T5	
+R50	Overlap Arg1:T21 Arg2:T23	
+R3	Used_for Arg1:T55 Arg2:T4	
+R14	Overlap Arg1:T25 Arg2:T46	
+R17	Experiences Arg1:T53 Arg2:T22	
+#56	AnnotatorNotes T22	C0149783; Steroid therapy; Therapeutic or Preventive Procedure
+A8	Experiencer T45 Patient
+A9	Experiencer T44 Patient
+A10	Experiencer T53 Patient
+A11	Experiencer T32 Patient
+A12	Experiencer T34 Patient
+A13	Experiencer T36 Patient
+A14	Experiencer T38 Patient
+A15	Experiencer T56 Patient
+A16	Experiencer T40 Patient
+A17	Experiencer T41 Other

@@ -1,0 +1,168 @@
+T1	ANAT 181 189	urinaria
+#1	AnnotatorNotes T1	C0042036; Urine; Body Substance
+T2	DISO 84 124	obstrucción del tracto urinario inferior
+T3	PROC 441 466	procedimiento cabestrillo
+#2	AnnotatorNotes T3	C0441637; Slinging procedure; Therapeutic or Preventive Procedure
+T4	DISO 140 168	Disfunción en el vaciamiento
+#3	AnnotatorNotes T4	C0429826; Dysfunctional voiding of urine; Finding
+T5	DISO 171 189	retención urinaria
+#4	AnnotatorNotes T5	C0080274; Urinary Retention; Finding
+T6	DISO 194 208	complicaciones
+#5	AnnotatorNotes T6	C0009566; Complication; Pathologic Function
+T8	ANAT 297 308	sub-uretral
+T9	PROC 401 436	Estudio prospectivo no aleatorizado
+T10	DISO 512 515	IUE
+#6	AnnotatorNotes T10	C0042025; Urinary Stress Incontinence; Disease or Syndrome
+T11	DISO 517 551	Incontinencia Urinaria de Esfuerzo
+#7	AnnotatorNotes T11	C0042025; Urinary Stress Incontinence; Disease or Syndrome
+T12	CHEM 356 370	polipropilenol
+#8	AnnotatorNotes T12	C0032582; Polypropylene; Biomedical or Dental Material · Organic Chemical
+T13	PROC 1049 1064	hospitalización
+#9	AnnotatorNotes T13	C0019993; Hospitalization; Health Care Activity
+T14	PROC 1148 1159	seguimiento
+#10	AnnotatorNotes T14	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T15	DISO 1408 1448	obstrucción del tracto urinario inferior
+T16	DISO 1740 1780	obstrucción del tracto urinario inferior
+T17	PROC 1815 1845	tratadas con fascias autólogas
+T18	ANAT 1828 1835	fascias
+#11	AnnotatorNotes T18	C0015641; Fascia; Body Part, Organ, or Organ Component | C1279051; Entire fascia; Body Part, Organ, or Organ Component
+T19	ANAT 100 124	tracto urinario inferior
+#12	AnnotatorNotes T19	C0729866; Lower urinary tract; Body System
+T20	PROC 1299 1312	procedimiento
+#13	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T21	ANAT 531 539	Urinaria
+#14	AnnotatorNotes T21	C0042036; Urine; Body Substance
+T22	ANAT 1424 1448	tracto urinario inferior
+#15	AnnotatorNotes T22	C0729866; Lower urinary tract; Body System
+T23	ANAT 1756 1780	tracto urinario inferior
+#16	AnnotatorNotes T23	C0729866; Lower urinary tract; Body System
+T24	PROC 1 26	Procedimiento Cabestrillo
+#17	AnnotatorNotes T24	C0441637; Slinging procedure; Therapeutic or Preventive Procedure
+T26	DEVI 15 26	Cabestrillo
+#18	AnnotatorNotes T26	C0183346; Sling, device; Medical Device
+T28	DEVI 224 235	cabestrillo
+#19	AnnotatorNotes T28	C0183346; Sling, device; Medical Device
+T29	Date 237 250	Recientemente
+T30	DEVI 347 370	malla de polipropilenol
+#20	AnnotatorNotes T30	C1321585; Polypropylene mesh; Organic Chemical · Biomedical or Dental Material
+T32	DEVI 455 466	cabestrillo
+#21	AnnotatorNotes T32	C0183346; Sling, device; Medical Device
+T33	LIVB 485 494	pacientes
+#22	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 558 567	pacientes
+#23	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	DEVI 612 617	malla
+T36	LIVB 658 667	pacientes
+#24	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	PHYS 723 734	continencia
+#25	AnnotatorNotes T37	C0542565; Bladder control, function; Organism Function
+T38	Age 907 916	48,4 años
+T39	DEVI 954 965	Cabestrillo
+#26	AnnotatorNotes T39	C0183346; Sling, device; Medical Device
+T40	Duration 983 996	107,6 minutos
+T41	Duration 1072 1080	36 horas
+T42	Duration 1105 1113	24 horas
+T43	Duration 1167 1175	25 meses
+T44	LIVB 1210 1219	pacientes
+#27	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	DEVI 1647 1659	Cabestrillos
+#28	AnnotatorNotes T45	C0183346; Sling, device; Medical Device
+T46	LIVB 1805 1814	pacientes
+#29	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T31	DEVI 289 308	soporte sub-uretral
+#30	AnnotatorNotes T31	C1721082; Suburethral Slings; Medical Device
+T47	PHYS 710 721	vaciamiento
+#31	AnnotatorNotes T47	C0042034; Urination; Organism Function
+T48	Duration 1006 1014	20,6 min
+T49	PHYS 1220 1231	continentes
+#32	AnnotatorNotes T49	C0542565; Bladder control, function; Organism Function
+R1	Used_for Arg1:T26 Arg2:T24	
+T27	Quantifier_or_Qualifier 27 35	Autólogo
+R2	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T27	
+T50	Quantifier_or_Qualifier 43 52	Sintético
+R3	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T50	
+R4	Location_of Arg1:T19 Arg2:T2	
+#33	AnnotatorNotes T27	C0439859; Autologous (qualifier value); Qualitative Concept
+T51	Quantifier_or_Qualifier 622 631	autólogos
+#34	AnnotatorNotes T51	C0439859; Autologous (qualifier value); Qualitative Concept
+T52	Quantifier_or_Qualifier 966 975	autólogos
+#35	AnnotatorNotes T52	C0439859; Autologous (qualifier value); Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T52	
+T53	Quantifier_or_Qualifier 1086 1095	autólogos
+#36	AnnotatorNotes T53	C0439859; Autologous (qualifier value); Qualitative Concept
+T54	Quantifier_or_Qualifier 1346 1354	autólogo
+#37	AnnotatorNotes T54	C0439859; Autologous (qualifier value); Qualitative Concept
+T55	Quantifier_or_Qualifier 1525 1533	autólogo
+#38	AnnotatorNotes T55	C0439859; Autologous (qualifier value); Qualitative Concept
+T56	Quantifier_or_Qualifier 1660 1669	autólogos
+T57	Quantifier_or_Qualifier 1836 1845	autólogas
+R6	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T57	
+R7	Experiences Arg1:T46 Arg2:T17	
+R8	Location_of Arg1:T23 Arg2:T16	
+R9	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T56	
+T58	Quantifier_or_Qualifier 1246 1255	autólogos
+#39	AnnotatorNotes T58	C0439859; Autologous (qualifier value); Qualitative Concept
+#40	AnnotatorNotes T57	C0439859; Autologous (qualifier value); Qualitative Concept
+R11	Causes Arg1:T28 Arg2:T6	
+R12	Causes Arg1:T28 Arg2:T5	
+R13	Causes Arg1:T28 Arg2:T4	
+R10	Causes Arg1:T24 Arg2:T2	
+R14	Overlap Arg1:T30 Arg2:T29	
+R15	Combined_with Arg1:T31 Arg2:T30	
+R16	Used_for Arg1:T32 Arg2:T3	
+R17	Experiences Arg1:T33 Arg2:T3	
+R18	Experiences Arg1:T33 Arg2:T10	
+R19	Experiences Arg1:T33 Arg2:T11	
+T59	Quantifier_or_Qualifier 642 652	sintéticos
+T60	Quantifier_or_Qualifier 322 332	sintéticos
+R22	Experiences Arg1:T36 Arg2:T47	
+R23	Experiences Arg1:T36 Arg2:T37	
+T61	CONC 812 836	clasificación de Blaivas
+T62	CONC 921 927;934 944	tiempo operatorio
+#41	AnnotatorNotes T62	C3494201; Operative Time; Temporal Concept
+R24	Has_Duration_or_Interval Arg1:T62 Arg2:T40	
+R25	Has_Duration_or_Interval Arg1:T62 Arg2:T48	
+T63	Quantifier_or_Qualifier 1023 1032	sintético
+R26	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T63	
+R27	Has_Duration_or_Interval Arg1:T13 Arg2:T41	
+R28	Has_Duration_or_Interval Arg1:T13 Arg2:T42	
+T64	Quantifier_or_Qualifier 1123 1133	sintéticos
+R29	Has_Duration_or_Interval Arg1:T14 Arg2:T43	
+R30	Experiences Arg1:T44 Arg2:T49	
+T65	Quantifier_or_Qualifier 1258 1268	sintéticos
+T66	Observation 1287 1312	Fallo en el procedimiento
+#42	AnnotatorNotes T66	C0162643; treatment failure; Finding
+T67	Quantifier_or_Qualifier 1368 1377	sintético
+R20	Location_of Arg1:T22 Arg2:T15	
+T68	Quantifier_or_Qualifier 1600 1609	sintético
+T69	Quantifier_or_Qualifier 1672 1682	sintéticos
+R21	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T69	
+R31	Experiences Arg1:T46 Arg2:T16	
+T70	Quantifier_or_Qualifier 495 507	consecutivos
+#43	AnnotatorNotes T70	C1707491; Consecutive; Qualitative Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T70	
+T71	Observation 737 749	satisfacción
+#44	AnnotatorNotes T71	C3476649; Treatment satisfaction; Finding
+R33	Experiences Arg1:T36 Arg2:T71	
+T72	Quantifier_or_Qualifier 424 436	aleatorizado
+A1	Assertion T72 Negated
+T73	Neg_cue 421 423	no
+R34	Negation Arg1:T73 Arg2:T72	
+R35	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T72	
+R36	Experiences Arg1:T34 Arg2:T35	
+R37	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T51	
+R38	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T59	
+R39	Used_for Arg1:T12 Arg2:T30	
+R40	Before Arg1:T20 Arg2:T66	
+#45	AnnotatorNotes T56	C0439859; Autologous (qualifier value); Qualitative Concept
+R41	Experiences Arg1:T46 Arg2:T45	
+#46	AnnotatorNotes T29	C0332185; Recent; Temporal Concept
+#47	AnnotatorNotes T35	C0181805; Mesh surgical material; Medical Device
+#48	AnnotatorNotes T16	C0005694; Bladder neck obstruction; Disease or Syndrome
+#49	AnnotatorNotes T15	C0005694; Bladder neck obstruction; Disease or Syndrome
+#50	AnnotatorNotes T2	C0005694; Bladder neck obstruction; Disease or Syndrome
+A2	Experiencer T33 Patient
+A3	Experiencer T34 Patient
+A4	Experiencer T36 Patient
+A5	Experiencer T44 Patient
+A6	Experiencer T46 Patient

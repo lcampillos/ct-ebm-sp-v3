@@ -1,0 +1,257 @@
+T1	Date 13 17	2020
+T2	LIVB 97 106	pacientes
+#1	AnnotatorNotes T2	C0030705; Patients; Patient or Disabled Group
+T3	LIVB 328 337	pacientes
+#2	AnnotatorNotes T3	C0030705; Patients; Patient or Disabled Group
+T4	LIVB 469 478	pacientes
+#3	AnnotatorNotes T4	C0030705; Patients; Patient or Disabled Group
+T5	LIVB 589 597	paciente
+#4	AnnotatorNotes T5	C0030705; Patients; Patient or Disabled Group
+T6	Age 713 722	>=18 años
+T7	LIVB 726 735	Pacientes
+#5	AnnotatorNotes T7	C0030705; Patients; Patient or Disabled Group
+T8	Neg_cue 1151 1162	Ausencia de
+T10	Neg_cue 1234 1245	ausencia de
+T12	LIVB 1559 1567	paciente
+#6	AnnotatorNotes T12	C0030705; Patients; Patient or Disabled Group
+T13	LIVB 1576 1595	representante legal
+#7	AnnotatorNotes T13	C4288823; Legal Representative for the Study; Human
+T14	LIVB 1687 1695	paciente
+#8	AnnotatorNotes T14	C0030705; Patients; Patient or Disabled Group
+T17	LIVB 1823 1865	Mujer embarazada o en periodo de lactancia
+#9	AnnotatorNotes T17	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T18	LIVB 1869 1878	Pacientes
+#10	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T19	PHYS 1856 1865	lactancia
+#11	AnnotatorNotes T19	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T20	PHYS 154 166	respiratorio
+#12	AnnotatorNotes T20	C0035203; Respiration; Physiologic Function
+T21	PHYS 385 397	respiratorio
+#13	AnnotatorNotes T21	C0035203; Respiration; Physiologic Function
+T22	PHYS 447 459	respiratorio
+#14	AnnotatorNotes T22	C0035203; Respiration; Physiologic Function
+T23	PHYS 948 958	inhalación
+#15	AnnotatorNotes T23	C0004048; Inspiration function; Organism Function
+T25	CHEM 61 73	dexametasona
+#16	AnnotatorNotes T25	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T26	PROC 82 93	tratamiento
+#17	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	DISO 134 172	síndrome de distrés respiratorio agudo
+#18	AnnotatorNotes T27	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T28	PROC 195 244	Ensayo clínico comparativo, aleatorio, controlado
+T29	PROC 250 269	evaluar la eficacia
+#19	AnnotatorNotes T29	C1707887; Efficacy Study; Research Activity
+T30	CHEM 294 306	dexametasona
+#20	AnnotatorNotes T30	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T31	PROC 313 324	tratamiento
+#21	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	DISO 365 403	síndrome de distrés respiratorio agudo
+#22	AnnotatorNotes T32	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T33	DISO 427 465	Síndrome de distrés respiratorio agudo
+#23	AnnotatorNotes T33	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T34	DISO 493 501	COVID-19
+#24	AnnotatorNotes T34	C5203670; COVID19 (disease); Disease or Syndrome
+T35	PROC 660 669	screening
+#25	AnnotatorNotes T35	C0220908; Screening procedure; Diagnostic Procedure
+T36	DISO 352 360	COVID-19
+#26	AnnotatorNotes T36	C5203670; COVID19 (disease); Disease or Syndrome
+T37	DISO 807 811	ARDS
+T38	DISO 905 913	neumonía
+#27	AnnotatorNotes T38	C0032285; Pneumonia; Disease or Syndrome
+T39	DISO 915 921	sepsis
+#28	AnnotatorNotes T39	C0243026; Sepsis; Disease or Syndrome
+T40	DISO 923 934	traumatismo
+#29	AnnotatorNotes T40	C3263723; Traumatic injury; Injury or Poisoning | C3714660; Trauma; Injury or Poisoning
+T41	PROC 970 985	politransfusión
+T42	DISO 948 968	inhalación de tóxico
+T43	PROC 1312 1321	PaO2/FiO2
+#30	AnnotatorNotes T43	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T44	PROC 1003 1024	trasplante de órganos
+#31	AnnotatorNotes T44	C0029216; Organ Transplantation; Therapeutic or Preventive Procedure
+T45	ANAT 1017 1024	órganos
+#32	AnnotatorNotes T45	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T46	DISO 1027 1051	enfermedades neoplásicas
+#33	AnnotatorNotes T46	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T47	DISO 1053 1071	pancreatitis aguda
+#34	AnnotatorNotes T47	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T48	DISO 1450 1458	COVID-19
+#35	AnnotatorNotes T48	C5203670; COVID19 (disease); Disease or Syndrome
+T49	DISO 1084 1118	Infiltrados pulmonares bilaterales
+T50	PROC 1125 1145	radiografía de tórax
+#36	AnnotatorNotes T50	C0039985; Plain chest X-ray; Diagnostic Procedure
+T51	DISO 1163 1185	hipertensión auricular
+T52	DISO 1246 1252	signos
+#37	AnnotatorNotes T52	C0311392; Physical findings; Finding
+T53	ANAT 1264 1275	ventricular
+#38	AnnotatorNotes T53	C0018827; Heart Ventricle; Body Part, Organ, or Organ Component | C1280934; Entire cardiac ventricle; Body Part, Organ, or Organ Component
+T54	DISO 1291 1300	Hipoxemia
+#39	AnnotatorNotes T54	C0700292; Hypoxemia; Finding
+T55	PROC 1379 1383	PEEP
+#40	AnnotatorNotes T55	C0032740; Positive End-Expiratory Pressure; Therapeutic or Preventive Procedure
+T56	PROC 1394 1402	intubado
+#41	AnnotatorNotes T56	C0021925; Intubation (procedure); Therapeutic or Preventive Procedure
+T57	PROC 1405 1428	ventilado mecánicamente
+T58	ANAT 1466 1497	muestra del tracto respiratorio
+#42	AnnotatorNotes T58	C0444279; Respiratory sample; Body Substance
+T59	PROC 1502 1508	RT-PCR
+#43	AnnotatorNotes T59	C0599161; Reverse Transcriptase Polymerase Chain Reaction; Molecular Biology Research Technique
+T60	PROC 1359 1363	FiO2
+#44	AnnotatorNotes T60	C1512797; Inspired Oxygen Fraction Test; Diagnostic Procedure
+T61	DISO 121 129	COVID-19
+#45	AnnotatorNotes T61	C5203670; COVID19 (disease); Disease or Syndrome
+T62	PROC 992 999	operado
+#46	AnnotatorNotes T62	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T63	PROC 1770 1779	screening
+#47	AnnotatorNotes T63	C0220908; Screening procedure; Diagnostic Procedure
+T64	CHEM 1911 1928	corticoesteroides
+#48	AnnotatorNotes T64	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T65	PROC 276 290	administración
+#49	AnnotatorNotes T65	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T66	DISO 751 773	episodio agudo de ARDS
+T67	DISO 899 903	ARDS
+T68	DISO 936 946	aspiración
+#50	AnnotatorNotes T68	C0700198; Pulmonary aspiration; Pathologic Function
+T69	PROC 1197 1221	presión capilar pulmonar
+T70	ANAT 1096 1106	pulmonares
+#51	AnnotatorNotes T70	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T71	ANAT 1140 1145	tórax
+#52	AnnotatorNotes T71	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T72	DISO 1256 1285	fracaso ventricular izquierdo
+#53	AnnotatorNotes T72	C0023212; Left-Sided Heart Failure; Disease or Syndrome
+T73	ANAT 1176 1185	auricular
+#54	AnnotatorNotes T73	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T74	ANAT 1205 1212	capilar
+#55	AnnotatorNotes T74	C0006901; Blood capillaries; Body Part, Organ, or Organ Component | C1280521; Entire capillary blood vessel (organ); Body Part, Organ, or Organ Component
+T75	ANAT 1213 1221	pulmonar
+#56	AnnotatorNotes T75	C0034052; Pulmonary artery structure; Body Part, Organ, or Organ Component | C1269026; Entire pulmonary artery; Body Part, Organ, or Organ Component
+T76	PROC 1530 1554	consentimiento informado
+#57	AnnotatorNotes T76	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T77	Date 576 581	Día 0
+T9	Date 1674 1679	Día 0
+T11	PHYS 1829 1839	embarazada
+#58	AnnotatorNotes T11	C0032961; Pregnancy; Organism Function
+A1	Assertion T51 Negated
+A2	Assertion T52 Negated
+A3	Assertion T72 Negated
+A4	Status T62 History_of
+A5	Status T44 History_of
+A6	Assertion T64 Contraindicated
+#59	AnnotatorNotes T28	C1579762; comparative study research; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#60	AnnotatorNotes T37	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+#61	AnnotatorNotes T67	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+#62	AnnotatorNotes T49	C2939072; Bilateral pulmonary infiltrates; Disease or Syndrome 
+T15	Neg_cue 1710 1717	ninguno
+T16	CONC 1736 1758	criterios de exclusión
+A7	Assertion T16 Negated
+#63	AnnotatorNotes T16	C0680251; Exclusion Criteria; Functional Concept
+T24	Observation 1963 1989	participación en el ensayo
+#64	AnnotatorNotes T24	C1278516; Patient participation status; Finding (?)
+T78	Neg_cue 1990 1992	no
+T79	Quantifier_or_Qualifier 1997 2008	conveniente
+A8	Assertion T79 Negated
+T80	LIVB 1939 1945	médico
+#65	AnnotatorNotes T80	C0031831; Physicians; Professional or Occupational Group
+T81	Observation 537 574	elegible para inclusión en el estudio
+#66	AnnotatorNotes T81	C1302261; Patient eligible for clinical trial; Finding (?)
+R1	Overlap Arg1:T81 Arg2:T77	
+T82	Observation 1632 1672	elegible de ser incluido en este estudio
+#67	AnnotatorNotes T82	C1302261; Patient eligible for clinical trial; Finding (?)
+R3	Overlap Arg1:T82 Arg2:T9	
+R4	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T82	
+R5	Negation Arg1:T15 Arg2:T16	
+R6	Negation Arg1:T78 Arg2:T79	
+R7	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T79	
+R8	Used_for Arg1:T25 Arg2:T26	
+R9	Experiences Arg1:T2 Arg2:T25	
+R10	Experiences Arg1:T2 Arg2:T61	
+R11	Causes Arg1:T61 Arg2:T27	
+R12	Experiences Arg1:T2 Arg2:T27	
+R15	Causes Arg1:T36 Arg2:T32	
+R17	Causes Arg1:T34 Arg2:T33	
+R18	Experiences Arg1:T4 Arg2:T33	
+R19	Experiences Arg1:T4 Arg2:T22	
+R20	Experiences Arg1:T4 Arg2:T34	
+R21	Experiences Arg1:T2 Arg2:T20	
+R22	Used_for Arg1:T30 Arg2:T65	
+R23	Used_for Arg1:T30 Arg2:T31	
+R24	Experiences Arg1:T3 Arg2:T65	
+R25	Experiences Arg1:T3 Arg2:T31	
+R26	Experiences Arg1:T3 Arg2:T36	
+R27	Experiences Arg1:T3 Arg2:T32	
+R28	Experiences Arg1:T3 Arg2:T21	
+T83	Observation 603 648	cumplir los siguientes criterios de inclusión
+R30	Overlap Arg1:T83 Arg2:T35	
+T84	CONC 694 702	incluido
+#68	AnnotatorNotes T84	C1512693; Inclusion; Qualitative Concept
+R31	Before Arg1:T83 Arg2:T84	
+R32	Before Arg1:T35 Arg2:T84	
+R33	Experiences Arg1:T7 Arg2:T66	
+R34	Experiences Arg1:T7 Arg2:T37	
+R36	Location_of Arg1:T71 Arg2:T50	
+R37	Location_of Arg1:T75 Arg2:T69	
+R38	Location_of Arg1:T74 Arg2:T69	
+T85	Result_or_Value 1222 1230	<18 mmHg
+R39	Has_Result_or_Value Arg1:T69 Arg2:T85	
+R40	Negation Arg1:T10 Arg2:T52	
+R41	Negation Arg1:T10 Arg2:T72	
+R42	Location_of Arg1:T53 Arg2:T72	
+R43	Negation Arg1:T8 Arg2:T51	
+R44	Location_of Arg1:T73 Arg2:T51	
+R45	Location_of Arg1:T70 Arg2:T49	
+R47	Causes Arg1:T38 Arg2:T67	
+R48	Causes Arg1:T47 Arg2:T67	
+R49	Causes Arg1:T46 Arg2:T67	
+R50	Causes Arg1:T39 Arg2:T67	
+R51	Causes Arg1:T40 Arg2:T67	
+R52	Causes Arg1:T68 Arg2:T67	
+R53	Causes Arg1:T41 Arg2:T67	
+#69	AnnotatorNotes T41	C0749626; TRANSFUSION BLOOD MULTIPLE; Therapeutic or Preventive Procedure 
+#70	AnnotatorNotes T42	C1299607; Toxic inhalation injury; Injury or Poisoning (?) | C1363858; Toxic effect of inhalation gas; Injury or Poisoning (?)
+R54	Causes Arg1:T42 Arg2:T67	
+R55	Before Arg1:T62 Arg2:T67	
+R56	Causes Arg1:T44 Arg2:T67	
+R57	Location_of Arg1:T45 Arg2:T44	
+T86	Quantifier_or_Qualifier 1186 1195	izquierda
+#71	AnnotatorNotes T86	C0205091; Left; Spatial Concept
+R58	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T86	
+R59	Causes Arg1:T72 Arg2:T52	
+T87	Result_or_Value 1322 1332	<=200 mmHg
+R60	Has_Result_or_Value Arg1:T43 Arg2:T87	
+T88	Quantifier_or_Qualifier 1301 1306	grave
+#72	AnnotatorNotes T88	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R61	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T88	
+#73	AnnotatorNotes T57	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+R62	Overlap Arg1:T56 Arg2:T57	
+R63	Location_of Arg1:T58 Arg2:T59	
+T89	Result_or_Value 1437 1445	positivo
+#74	AnnotatorNotes T89	C1446409; Positive; Finding
+R64	Causes Arg1:T48 Arg2:T89	
+R65	Has_Result_or_Value Arg1:T59 Arg2:T89	
+R66	Overlap Arg1:T16 Arg2:T63	
+T90	CONC 626 648	criterios de inclusión
+#75	AnnotatorNotes T90	C0680251; Exclusion Criteria; Functional Concept
+T91	CONC 1810 1817	estudio
+#76	AnnotatorNotes T91	C1512693; Inclusion; Qualitative Concept
+R67	Before Arg1:T16 Arg2:T91	
+R68	Experiences Arg1:T17 Arg2:T11	
+R69	Experiences Arg1:T17 Arg2:T19	
+#77	AnnotatorNotes T79	C3831015; Convenient; Qualitative Concept 
+A9	Assertion T86 Negated
+R70	Negation Arg1:T8 Arg2:T86	
+#78	AnnotatorNotes T83	C4329786; Eligibility Criteria Met By Subject; Finding
+R2	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T81	
+T92	Observation 987 999	post-operado
+#79	AnnotatorNotes T92	C0241311; post operative (finding); Finding
+R13	Overlap Arg1:T67 Arg2:T92	
+#80	AnnotatorNotes T69	C0199669; Pulmonary artery wedge pressure determination; Diagnostic Procedure (?)
+A10	Experiencer T2 Patient
+A11	Experiencer T3 Patient
+A12	Experiencer T4 Patient
+A13	Experiencer T5 Patient
+A14	Experiencer T7 Patient
+A15	Experiencer T13 Other
+A16	Experiencer T12 Patient
+A17	Experiencer T14 Patient
+A18	Experiencer T17 Patient
+A19	Experiencer T18 Patient
+A20	Experiencer T80 Other

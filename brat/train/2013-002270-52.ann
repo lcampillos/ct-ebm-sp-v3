@@ -1,0 +1,210 @@
+T1	PROC 83 94	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 119 143	tratamiento convencional
+#2	AnnotatorNotes T2	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure
+T3	ANAT 167 171	óseo
+#3	AnnotatorNotes T3	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T4	DISO 176 192	rigidez arterial
+T5	ANAT 212 220	vascular
+#4	AnnotatorNotes T5	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T6	DISO 227 254	insuficiencia renal crónica
+#5	AnnotatorNotes T6	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T7	CHEM 299 309	cinacalcet
+#6	AnnotatorNotes T7	C1337242; cinacalcet; Organic Chemical · Pharmacologic Substance
+T8	PROC 317 341	tratamiento convencional
+#7	AnnotatorNotes T8	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure
+T9	ANAT 363 367	óseo
+#8	AnnotatorNotes T9	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T10	DISO 373 392	afectación vascular
+T11	DISO 399 426	insuficiencia renal crónica
+#9	AnnotatorNotes T11	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T12	DISO 459 500	trastornos del metabolismo óseo y mineral
+T13	PROC 797 801	PTHi
+#10	AnnotatorNotes T13	C2697755; Intact Parathyroid Hormone Measurement; Laboratory Procedure
+T14	CHEM 493 500	mineral
+#11	AnnotatorNotes T14	C0026162; Minerals; Inorganic Chemical
+T15	DISO 506 525	afectación vascular
+T16	DISO 651 678	insuficiencia renal crónica
+#12	AnnotatorNotes T16	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T17	PROC 713 742	tratamiento sustitutivo renal
+#13	AnnotatorNotes T17	C0206074; Renal Replacement Therapy; Therapeutic or Preventive Procedure
+T18	DISO 761 791	hiperparatiroidismo secundario
+#14	AnnotatorNotes T18	C0020503; Hyperparathyroidism, Secondary; Disease or Syndrome
+T19	PROC 895 931	consentimiento informado por escrito
+#15	AnnotatorNotes T19	C0811741; Obtain informed written consent; Health Care Activity
+T20	PROC 1068 1079	tratamiento
+#16	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	PROC 1128 1139	tratamiento
+#17	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	ANAT 1153 1159	sérica
+#18	AnnotatorNotes T22	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T23	PROC 1228 1244	trasplante renal
+#19	AnnotatorNotes T23	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T24	PROC 1355 1376	método anticonceptivo
+#20	AnnotatorNotes T24	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T25	CHEM 99 109	Cinacalcet
+#21	AnnotatorNotes T25	C1337242; cinacalcet; Organic Chemical · Pharmacologic Substance
+T26	ANAT 184 192	arterial
+#22	AnnotatorNotes T26	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T27	DISO 198 220	calcificación vascular
+#23	AnnotatorNotes T27	C0342649; Vascular calcification; Disease or Syndrome
+T28	ANAT 241 246	renal
+#24	AnnotatorNotes T28	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T29	ANAT 384 392	vascular
+#25	AnnotatorNotes T29	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T30	ANAT 413 418	renal
+#26	AnnotatorNotes T30	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T31	ANAT 486 490	óseo
+#27	AnnotatorNotes T31	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T32	ANAT 517 525	vascular
+#28	AnnotatorNotes T32	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T33	ANAT 665 670	renal
+#29	AnnotatorNotes T33	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T34	ANAT 737 742	renal
+#30	AnnotatorNotes T34	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T35	CHEM 1084 1094	cinacalcet
+#31	AnnotatorNotes T35	C1337242; cinacalcet; Organic Chemical · Pharmacologic Substance
+T36	PROC 1144 1159	Calcemia sérica
+#32	AnnotatorNotes T36	C0729820; Blood calcium measurement; Laboratory Procedure
+T37	ANAT 1239 1244	renal
+#33	AnnotatorNotes T37	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T38	Date 13 17	2013
+T39	PHYS 155 171	metabolismo óseo
+#34	AnnotatorNotes T39	C0596204; Bone metabolism; Organ or Tissue Function
+T41	Duration 247 254	crónica
+#35	AnnotatorNotes T41	C0205191; chronic; Temporal Concept
+T42	PHYS 351 367	metabolismo óseo
+#36	AnnotatorNotes T42	C0596204; Bone metabolism; Organ or Tissue Function
+T43	Duration 419 426	crónica
+#37	AnnotatorNotes T43	C0205191; chronic; Temporal Concept
+T44	LIVB 555 579	Pacientes de ambos sexos
+#38	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T45	Age 589 615	superior o igual a 18 años
+T46	LIVB 620 637	Pacientes adultos
+#39	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T48	Duration 671 678	crónica
+#40	AnnotatorNotes T48	C0205191; chronic; Temporal Concept
+T49	Duration 693 709	inferior a 1 año
+T50	LIVB 747 756	Pacientes
+#41	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 854 863	Pacientes
+#42	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 997 1006	Pacientes
+#43	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Age 1016 1034	inferior a 18 años
+T54	LIVB 1039 1048	Pacientes
+#44	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	Duration 1095 1102	3 meses
+T57	LIVB 1214 1223	Pacientes
+#45	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1294 1314	Mujer en edad fértil
+#46	AnnotatorNotes T59	C4324275; Woman of childbearing potential; Population Group
+T60	Age 1303 1314	edad fértil
+T61	Neg_cue 1344 1346	no
+T62	LIVB 1406 1418	investigador
+#47	AnnotatorNotes T62	C0035173; Research Personnel; Professional or Occupational Group
+T63	PHYS 1423 1432	Lactancia
+#48	AnnotatorNotes T63	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T64	PHYS 474 500	metabolismo óseo y mineral
+#49	AnnotatorNotes T64	C0596204; Bone metabolism; Organ or Tissue Function + C0678715; mineral metabolism; Organism Function
+T58	PHYS 1260 1269	Gestación
+#50	AnnotatorNotes T58	C0032961; Pregnancy; Organism Function
+T66	PHYS 1281 1290	gestación
+#51	AnnotatorNotes T66	C0032961; Pregnancy; Organism Function
+A1	Assertion T24 Negated
+A2	Population_data T59 Age
+A3	Population_data T46 Age
+A4	Status T20 History_of
+A5	Status T35 History_of
+#52	AnnotatorNotes T4	C0599949; Arterial Stiffness; Pathologic Function 
+R1	Used_for Arg1:T25 Arg2:T1	
+R2	Location_of Arg1:T3 Arg2:T39	
+R3	Location_of Arg1:T26 Arg2:T4	
+R4	Location_of Arg1:T5 Arg2:T27	
+R5	Location_of Arg1:T28 Arg2:T6	
+R6	Has_Duration_or_Interval Arg1:T6 Arg2:T41	
+T40	Quantifier_or_Qualifier 255 263	avanzada
+#53	AnnotatorNotes T40	C0205179; Advanced phase; Qualitative Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T40	
+T47	Quantifier_or_Qualifier 427 435	avanzada
+#54	AnnotatorNotes T47	C0205179; Advanced phase; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T47	
+R10	Has_Duration_or_Interval Arg1:T11 Arg2:T43	
+R11	Location_of Arg1:T29 Arg2:T10	
+R9	Location_of Arg1:T30 Arg2:T11	
+R12	Location_of Arg1:T9 Arg2:T42	
+T56	Observation 287 294	Efectos
+#55	AnnotatorNotes T56	C1518681; Outcome of Therapy; Finding (?)
+R13	Causes Arg1:T7 Arg2:T56	
+R14	Causes Arg1:T8 Arg2:T56	
+R15	Overlap Arg1:T39 Arg2:T6	
+R16	Overlap Arg1:T4 Arg2:T6	
+R17	Overlap Arg1:T27 Arg2:T6	
+R18	Overlap Arg1:T42 Arg2:T11	
+R19	Overlap Arg1:T10 Arg2:T11	
+R20	Location_of Arg1:T31 Arg2:T64	
+R21	Location_of Arg1:T31 Arg2:T12	
+R22	Used_for Arg1:T14 Arg2:T64	
+R24	Overlap Arg1:T12 Arg2:T15	
+R25	Location_of Arg1:T32 Arg2:T15	
+R26	Overlap Arg1:T64 Arg2:T15	
+R27	Has_Age Arg1:T44 Arg2:T45	
+R28	Experiences Arg1:T46 Arg2:T16	
+R29	Location_of Arg1:T33 Arg2:T16	
+R30	Has_Duration_or_Interval Arg1:T16 Arg2:T48	
+T65	Quantifier_or_Qualifier 679 680	V
+R31	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T65	
+R32	Has_Duration_or_Interval Arg1:T17 Arg2:T49	
+R33	Location_of Arg1:T34 Arg2:T17	
+R34	Experiences Arg1:T46 Arg2:T17	
+R35	Experiences Arg1:T50 Arg2:T18	
+T67	Result_or_Value 802 813	> 150 pg/ml
+R36	Has_Result_or_Value Arg1:T13 Arg2:T67	
+R37	Experiences Arg1:T50 Arg2:T13	
+T68	CONC 826 835	inclusión
+#56	AnnotatorNotes T68	C1512693; Inclusion; Qualitative Concept
+R38	Before Arg1:T13 Arg2:T68	
+T69	Observation 940 967	participación en el estudio
+#57	AnnotatorNotes T69	C1278516; Patient participation status; Finding (?)
+R39	Before Arg1:T19 Arg2:T69	
+R41	Has_Age Arg1:T52 Arg2:T53	
+R42	Before Arg1:T20 Arg2:T21	
+R43	Experiences Arg1:T54 Arg2:T20	
+R44	Used_for Arg1:T35 Arg2:T20	
+R45	Has_Duration_or_Interval Arg1:T35 Arg2:T55	
+R46	Location_of Arg1:T22 Arg2:T36	
+T70	Result_or_Value 1160 1180	inferior a 8.4 mg/dl
+R47	Has_Result_or_Value Arg1:T36 Arg2:T70	
+T71	CONC 1201 1210	inclusión
+#58	AnnotatorNotes T71	C1512693; Inclusion; Qualitative Concept
+R48	Overlap Arg1:T36 Arg2:T71	
+R49	Location_of Arg1:T37 Arg2:T23	
+R50	Experiences Arg1:T57 Arg2:T23	
+T72	Quantifier_or_Qualifier 1245 1256	funcionante
+#59	AnnotatorNotes T72	C0205245; Functional; Functional Concept
+R51	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T72	
+T73	Observation 1272 1290	deseo de gestación
+#60	AnnotatorNotes T73	C0032992; Pregnancy, Planned; Finding
+R52	Before Arg1:T73 Arg2:T66	
+R53	Before Arg1:T73 Arg2:T58	
+R54	Has_Age Arg1:T59 Arg2:T60	
+R55	Negation Arg1:T61 Arg2:T24	
+T74	Quantifier_or_Qualifier 1389 1398	aceptable
+A6	Assertion T74 Negated
+R56	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T74	
+R57	Experiences Arg1:T59 Arg2:T24	
+T75	Observation 1320 1338	vida sexual activa
+#61	AnnotatorNotes T75	C0241028; Sexually active; Finding
+R58	Experiences Arg1:T59 Arg2:T75	
+R59	Overlap Arg1:T75 Arg2:T24	
+#62	AnnotatorNotes T74	C1879533; Acceptable; Qualitative Concept
+A7	Experiencer T44 Patient
+A8	Experiencer T46 Patient
+A9	Experiencer T50 Patient
+A10	Experiencer T51 Patient
+A11	Experiencer T52 Patient
+A12	Experiencer T54 Patient
+A13	Experiencer T57 Patient
+A14	Experiencer T59 Patient
+A15	Experiencer T62 Other
+A16	Status T66 Future

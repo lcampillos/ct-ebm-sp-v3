@@ -1,0 +1,168 @@
+T1	CHEM 1 18	Ácido tranexámico
+#1	AnnotatorNotes T1	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T2	PROC 36 62	reemplazo total de rodilla
+#2	AnnotatorNotes T2	C0086511; Knee Replacement Arthroplasty (procedure); Therapeutic or Preventive Procedure
+T3	ANAT 394 401	rodilla
+#3	AnnotatorNotes T3	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T4	PROC 89 121	Estudio prospectivo aleatorizado
+#4	AnnotatorNotes T4	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T5	PROC 140 163	artroplastia de rodilla
+#5	AnnotatorNotes T5	C0086511; Knee Replacement Arthroplasty (procedure); Therapeutic or Preventive Procedure
+T6	DISO 184 202	pérdidas de sangre
+#6	AnnotatorNotes T6	C0019080; Hemorrhage; Pathologic Function
+T7	DISO 441 458	pérdida sanguínea
+#7	AnnotatorNotes T7	C0019080; Hemorrhage; Pathologic Function
+T8	CHEM 345 362	ácido tranexámico
+#8	AnnotatorNotes T8	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T9	PROC 369 401	artroplastia primaria de rodilla
+T10	ANAT 285 291	sangre
+#9	AnnotatorNotes T10	C0005767; Blood; Body Substance
+T11	ANAT 449 458	sanguínea
+#10	AnnotatorNotes T11	C0005767; Blood; Body Substance
+T12	CHEM 582 599	ácido tranexámico
+#11	AnnotatorNotes T12	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T13	CHEM 641 658	ácido tranexámico
+#12	AnnotatorNotes T13	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T14	PROC 700 711	hemoglobina
+#13	AnnotatorNotes T14	C0518015; Hemoglobin measurement; Laboratory Procedure
+T15	PROC 717 728	hematocrito
+#14	AnnotatorNotes T15	C0018935; Hematocrit procedure; Laboratory Procedure
+T16	PROC 741 748	cirugía
+#15	AnnotatorNotes T16	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T17	PROC 831 842	hematocrito
+#16	AnnotatorNotes T17	C0018935; Hematocrit procedure; Laboratory Procedure
+T18	PROC 1014 1036	valores de hemoglobina
+#17	AnnotatorNotes T18	C0518015; Hemoglobin measurement; Laboratory Procedure
+T19	CHEM 1025 1036	hemoglobina
+#18	AnnotatorNotes T19	C0019046; Hemoglobin; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T20	PROC 1181 1188	drenaje
+#19	AnnotatorNotes T20	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T21	DISO 1399 1424	enfermedad tromboembólica
+#20	AnnotatorNotes T21	C0040038; Thromboembolism; Pathologic Function
+T22	CHEM 1449 1466	ácido tranexámico
+#21	AnnotatorNotes T22	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T23	DISO 1480 1497	pérdida de sangre
+#22	AnnotatorNotes T23	C0019080; Hemorrhage; Pathologic Function
+T24	PROC 1526 1549	artroplastia de rodilla
+#23	AnnotatorNotes T24	C0086511; Knee Replacement Arthroplasty (procedure); Therapeutic or Preventive Procedure
+T25	ANAT 1608 1614	sangre
+#24	AnnotatorNotes T25	C0005767; Blood; Body Substance
+T26	DISO 1646 1660	complicaciones
+#25	AnnotatorNotes T26	C0009566; Complication; Pathologic Function
+T27	ANAT 55 62	rodilla
+#26	AnnotatorNotes T27	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T28	ANAT 156 163	rodilla
+#27	AnnotatorNotes T28	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T29	ANAT 196 202	sangre
+#28	AnnotatorNotes T29	C0005767; Blood; Body Substance
+T30	PROC 270 291	transfusión de sangre
+#29	AnnotatorNotes T30	C0005841; Blood transfusion; Therapeutic or Preventive Procedure
+T31	PROC 524 553	asignados, en forma aleatoria
+#30	AnnotatorNotes T31	C0034656; Randomization; Research Activity
+T32	PROC 1296 1310	Se transfundió
+#31	AnnotatorNotes T32	C1879316; Transfusion (procedure); Therapeutic or Preventive Procedure
+T33	ANAT 1491 1497	sangre
+#32	AnnotatorNotes T33	C0005767; Blood; Body Substance
+T34	ANAT 1542 1549	rodilla
+#33	AnnotatorNotes T34	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T35	PROC 1593 1614	transfusión de sangre
+#34	AnnotatorNotes T35	C0199961; Whole blood transfusion; Therapeutic or Preventive Procedure
+T36	Route 19 29	endovenoso
+#35	AnnotatorNotes T36	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T37	Neg_cue 63 66	sin
+T38	Time 203 218	perioperatorias
+#36	AnnotatorNotes T38	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T39	Date 221 235	posoperatorias
+#37	AnnotatorNotes T39	C0032790; Postoperative Period; Temporal Concept
+T41	Neg_cue 402 405	sin
+T43	Date 465 478	posoperatorio
+#38	AnnotatorNotes T43	C0032790; Postoperative Period; Temporal Concept
+T44	LIVB 507 516	pacientes
+#39	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 604 613	pacientes
+#40	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	Age 615 624	71,5 años
+T47	Neg_cue 637 640	sin
+T48	LIVB 663 672	pacientes
+#41	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Age 674 681	72 años
+T52	Date 843 856	posoperatorio
+#42	AnnotatorNotes T52	C0032790; Postoperative Period; Temporal Concept
+T62	LIVB 1325 1334	pacientes
+#43	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T64	Neg_cue 1372 1374	No
+T65	Date 1498 1511	posoperatoria
+#44	AnnotatorNotes T65	C0032790; Postoperative Period; Temporal Concept
+T68	Spec_cue 1636 1645	riesgo de
+T70	DEVI 406 426	manguito hemostático
+#45	AnnotatorNotes T70	C3692099; Hemostasis Tourniquets; Medical Device
+T71	Duration 754 771	las 24, 48 y 72 h
+T72	Duration 805 813	las 24 h
+T73	Duration 859 876	las 24, 48 y 72 h
+T75	Duration 1191 1199	las 24 h
+T76	DEVI 67 87	manguito hemostático
+#46	AnnotatorNotes T76	C3692099; Hemostasis Tourniquets; Medical Device
+T40	DEVI 796 802	suctor
+#47	AnnotatorNotes T40	C1283231; Suction equipment; Medical Device (?)
+T42	Observation 785 802	débito del suctor
+A2	Assertion T70 Negated
+A1	Assertion T76 Negated
+A3	Assertion T13 Negated
+A4	Assertion T21 Negated
+A5	Assertion T26 Speculated
+R1	Has_Route_or_Mode Arg1:T1 Arg2:T36
+R2	Used_for Arg1:T1 Arg2:T2
+R3	Location_of Arg1:T27 Arg2:T2
+R4	Negation Arg1:T37 Arg2:T76
+R5	Used_for Arg1:T76 Arg2:T2
+R6	Location_of Arg1:T28 Arg2:T5
+R7	Causes Arg1:T5 Arg2:T6
+R8	Overlap Arg1:T6 Arg2:T38
+R9	Overlap Arg1:T6 Arg2:T39
+R10	Overlap Arg1:T5 Arg2:T30
+R11	Used_for Arg1:T8 Arg2:T9
+R12	Location_of Arg1:T3 Arg2:T9
+R13	Negation Arg1:T41 Arg2:T70
+R14	Used_for Arg1:T70 Arg2:T9
+R15	Overlap Arg1:T7 Arg2:T43
+R16	Causes Arg1:T9 Arg2:T7
+R17	Experiences Arg1:T45 Arg2:T12
+R18	Has_Age Arg1:T45 Arg2:T46
+R19	Has_Age Arg1:T48 Arg2:T49
+R20	Experiences Arg1:T48 Arg2:T13
+R21	Negation Arg1:T47 Arg2:T13
+R22	Before Arg1:T14 Arg2:T16
+R23	Before Arg1:T15 Arg2:T16
+R24	After Arg1:T14 Arg2:T71
+R25	After Arg1:T14 Arg2:T71
+R26	After Arg1:T42 Arg2:T72
+R27	Overlap Arg1:T17 Arg2:T52
+R28	After Arg1:T17 Arg2:T73
+R30	Experiences Arg1:T62 Arg2:T32
+R31	Negation Arg1:T64 Arg2:T21
+R32	Overlap Arg1:T23 Arg2:T65
+R33	Causes Arg1:T24 Arg2:T23
+R34	Used_for Arg1:T22 Arg2:T24
+R35	Overlap Arg1:T24 Arg2:T35
+R36	Speculation Arg1:T68 Arg2:T26
+R37	Causes Arg1:T24 Arg2:T26
+R38	Location_of Arg1:T34 Arg2:T24
+R39	Before Arg1:T6 Arg2:T30	
+T50	Observation 334 340	efecto
+#48	AnnotatorNotes T50	C1518681; Outcome of Therapy; Finding (?)
+R40	Causes Arg1:T8 Arg2:T50	
+#49	AnnotatorNotes T42	C0429638; Fluid output from drain; Finding
+T51	Observation 1167 1188	colección del drenaje
+R29	After Arg1:T51 Arg2:T75	
+T53	Neg_cue 1615 1618	sin
+T54	CONC 1622 1629	aumento
+A6	Assertion T54 Negated
+#50	AnnotatorNotes T54	C0442805; Increase; Functional Concept
+R41	Negation Arg1:T53 Arg2:T54	
+R42	Before Arg1:T31 Arg2:T12	
+R43	Before Arg1:T31 Arg2:T13	
+#51	AnnotatorNotes T51	C0429638; Fluid output from drain; Finding
+A7	Experiencer T44 Patient
+A8	Experiencer T45 Patient
+A9	Experiencer T48 Patient
+A10	Experiencer T62 Patient

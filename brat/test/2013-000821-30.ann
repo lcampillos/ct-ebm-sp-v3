@@ -1,0 +1,80 @@
+T1	ANAT 559 575	gastrointestinal
+#1	AnnotatorNotes T1	C0012240; Gastrointestinal system; Body System
+T2	CHEM 94 106	PRUCALOPRIDA
+#2	AnnotatorNotes T2	C0913506; prucalopride; Organic Chemical · Pharmacologic Substance
+T3	DISO 130 151	estreñimiento crónico
+#3	AnnotatorNotes T3	C0401149; Chronic constipation; Sign or Symptom
+T4	DISO 313 334	estreñimiento crónico
+#4	AnnotatorNotes T4	C0401149; Chronic constipation; Sign or Symptom
+T5	PROC 364 375	tratamiento
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 459 492	enfermedad orgánica y/o sistémica
+#6	AnnotatorNotes T6	C0683324; organic disease; Disease or Syndrome | C0442893; Systemic disease; Disease or Syndrome
+T7	CHEM 517 527	medicación
+#7	AnnotatorNotes T7	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T8	CHEM 577 589	procinéticos
+#8	AnnotatorNotes T8	C1268865; prokinetic agent; Pharmacologic Substance
+T9	CHEM 591 599	laxantes
+#9	AnnotatorNotes T9	C0282090; Laxatives; Pharmacologic Substance
+T10	CHEM 601 615	antidiarreicos
+#10	AnnotatorNotes T10	C0003292; Antidiarrheals; Pharmacologic Substance
+T11	CHEM 618 631	espamolíticos
+T12	DISO 730 765	Estreñimiento secundario a fármacos
+#11	AnnotatorNotes T12	C0267511; Drug-induced constipation; Disease or Syndrome
+T13	CHEM 757 765	fármacos
+#12	AnnotatorNotes T13	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T14	DISO 768 791	enfermedades sistémicas
+#13	AnnotatorNotes T14	C0442893; Systemic disease; Disease or Syndrome
+T15	PROC 846 870	consentimiento informado
+#14	AnnotatorNotes T15	C0811741; Obtain informed written consent; Health Care Activity
+T16	CHEM 380 388	laxantes
+#15	AnnotatorNotes T16	C0282090; Laxatives; Pharmacologic Substance
+T17	Date 13 17	2013
+T18	PHYS 58 78	REFLEJO GASTROCOLICO
+#16	AnnotatorNotes T18	C0232550; Gastrocolic reflex; Organ or Tissue Function
+T19	Duration 144 151	crónico
+#17	AnnotatorNotes T19	C0205191; chronic; Temporal Concept
+T20	Age 213 236	> 18 años y menor de 65
+T21	Duration 327 334	crónico
+#18	AnnotatorNotes T21	C0205191; chronic; Temporal Concept
+T22	Neg_cue 634 636	No
+T23	Duration 662 680	al menos 2 semanas
+T24	PHYS 795 803	Embarazo
+#19	AnnotatorNotes T24	C0032961; Pregnancy; Organism Function
+T25	PHYS 806 815	lactancia
+#20	AnnotatorNotes T25	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T26	Neg_cue 819 835	Incapacidad para
+T27	LIVB 180 195	Género femenino
+#21	AnnotatorNotes T27	C0043210; Woman; Population Group
+T28	PHYS 263 274	comunicarse
+#22	AnnotatorNotes T28	C2911692; Response (communication); Mental Process (?)
+T29	LIVB 418 434	Género masculino
+#23	AnnotatorNotes T29	C0025266; Male population group; Population Group
+T30	PHYS 549 575	motilidad gastrointestinal
+#24	AnnotatorNotes T30	C0017184; Gastrointestinal Motility; Organ or Tissue Function
+A1	Assertion T15 Negated
+A2	Assertion T23 Negated
+#25	AnnotatorNotes T11	C0037766; Antispasmodics; Pharmacologic Substance 
+R1	Has_Duration_or_Interval Arg1:T3 Arg2:T19	
+T31	Observation 239 274	Capacidad adecuada para comunicarse
+#26	AnnotatorNotes T31	C2364293; Able to communicate; Finding
+R2	Has_Duration_or_Interval Arg1:T4 Arg2:T21	
+T32	Quantifier_or_Qualifier 335 344	funcional
+#27	AnnotatorNotes T32	C0205245; Functional; Functional Concept 
+R3	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T32	
+R4	Used_for Arg1:T16 Arg2:T5	
+T33	Observation 347 361	Refractariedad
+#28	AnnotatorNotes T33	C0438286; Absent response to treatment; Finding
+R5	Overlap Arg1:T33 Arg2:T5	
+T34	Quantifier_or_Qualifier 493 502	relevante
+#29	AnnotatorNotes T34	C2347946; Relevance; Qualitative Concept 
+R6	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T34	
+R8	Location_of Arg1:T1 Arg2:T30	
+R13	Negation Arg1:T22 Arg2:T23	
+T35	CONC 703 726	inclusión en el estudio
+#30	AnnotatorNotes T35	C1512693; Inclusion; Qualitative Concept
+R14	After Arg1:T35 Arg2:T23	
+R15	Causes Arg1:T13 Arg2:T12	
+R16	Negation Arg1:T26 Arg2:T15	
+A3	Experiencer T27 Patient
+A4	Experiencer T29 Patient

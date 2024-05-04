@@ -1,0 +1,146 @@
+T1	DISO 46 61	Miomas uterinos
+#1	AnnotatorNotes T1	C0042133; Uterine Fibroids; Neoplastic Process
+T2	CHEM 75 96	acetato de ulipristal
+T3	PROC 124 145	reproducción asistida
+#2	AnnotatorNotes T3	C0949811; Reproductive Techniques, Assisted; Therapeutic or Preventive Procedure | C0872104; Assisted Reproductive Technologies; Therapeutic or Preventive Procedure
+T4	DISO 171 186	Miomas uterinos
+#3	AnnotatorNotes T4	C0042133; Uterine Fibroids; Neoplastic Process
+T5	PROC 189 210	reproducción asistida
+#4	AnnotatorNotes T5	C0949811; Reproductive Techniques, Assisted; Therapeutic or Preventive Procedure | C0872104; Assisted Reproductive Technologies; Therapeutic or Preventive Procedure
+T6	DISO 363 382	miomas intramurales
+T7	ANAT 424 431	cavidad
+#5	AnnotatorNotes T7	C0333343; Body cavities; Body Space or Junction
+T8	DISO 481 487	Miomas
+#6	AnnotatorNotes T8	C0027086; Myoma; Neoplastic Process
+T9	PROC 684 696	miomectomías
+#7	AnnotatorNotes T9	C4255212; Myomectomy; Therapeutic or Preventive Procedure
+T10	PROC 738 745	cirugía
+#8	AnnotatorNotes T10	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T11	ANAT 870 883	endometriales
+#9	AnnotatorNotes T11	C0014180; Endometrium; Body Part, Organ, or Organ Component | C1269566; Entire endometrium; Body Part, Organ, or Organ Component
+T12	DISO 902 913	hiperplasia
+#10	AnnotatorNotes T12	C0020507; Hyperplasia; Pathologic Function
+T13	ANAT 945 958	endometriales
+#11	AnnotatorNotes T13	C0014180; Endometrium; Body Part, Organ, or Organ Component | C1269566; Entire endometrium; Body Part, Organ, or Organ Component
+T14	DISO 960 967	pólipos
+#12	AnnotatorNotes T14	C0032584; polyps; Anatomical Abnormality
+T15	DISO 969 999	cicatrices de cesárea anterior
+#13	AnnotatorNotes T15	C1403107; scar, previous cesarean section; Pathologic Function
+T16	PROC 983 990	cesárea
+#14	AnnotatorNotes T16	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T17	DISO 1022 1033	adenomiosis
+#15	AnnotatorNotes T17	C0341858; Endometriosis of uterus; Disease or Syndrome
+T18	DISO 1047 1058	adherencias
+#16	AnnotatorNotes T18	C0001511; Tissue Adhesions; Pathologic Function
+T19	PROC 1092 1107	estudio clínico
+#17	AnnotatorNotes T19	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T20	ANAT 53 61	uterinos
+#18	AnnotatorNotes T20	C0042149; Uterus; Body Part, Organ, or Organ Component | C1269032; Entire uterus; Body Part, Organ, or Organ Component
+T21	ANAT 178 186	uterinos
+#19	AnnotatorNotes T21	C0042149; Uterus; Body Part, Organ, or Organ Component | C1269032; Entire uterus; Body Part, Organ, or Organ Component
+T22	PROC 645 648	TRA
+#20	AnnotatorNotes T22	C0949811; Reproductive Techniques, Assisted; Therapeutic or Preventive Procedure | C0872104; Assisted Reproductive Technologies; Therapeutic or Preventive Procedure
+T23	DISO 862 883	cambios endometriales
+T24	DISO 934 958	patologías endometriales
+T25	PROC 324 327	OVD
+T26	PROC 755 758	BMI
+#21	AnnotatorNotes T26	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T27	PROC 777 801	Consentimiento informado
+#22	AnnotatorNotes T27	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T28	Date 13 17	2014
+T29	Dose 97 102	10 mg
+T30	LIVB 237 246	Pacientes
+#23	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Age 247 267	>18 años y < 50 años
+T32	LIVB 268 277	Pacientes
+#24	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 329 338	Pacientes
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 537 545	paciente
+#26	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T39	Date 585 600	post-quirúrgico
+T40	Duration 604 611	6 meses
+T41	Duration 612 617	1 año
+T43	LIVB 649 658	Pacientes
+#27	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Neg_cue 719 725	evitar
+T45	LIVB 891 900	pacientes
+#28	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	Spec_cue 1035 1046	sospecha de
+T47	PHYS 124 136	reproducción
+#29	AnnotatorNotes T47	C0035150; Reproduction; Organism Function
+T48	PHYS 189 201	reproducción
+#30	AnnotatorNotes T48	C0035150; Reproduction; Organism Function
+A1	Assertion T10 Negated
+A2	Assertion T18 Speculated
+A3	Status T9 History_of
+A4	Status T23 History_of
+A5	Status T12 History_of
+A6	Status T16 History_of
+#31	AnnotatorNotes T2	C2723461; ulipristal acetate; Organic Chemical · Pharmacologic Substance
+#32	AnnotatorNotes T39	C0032790; Postoperative Period; Temporal Concept
+T34	Neg_cue 405 407	no
+T35	Observation 408 431	distorsionan la cavidad
+A7	Assertion T35 Negated
+T36	Quantifier_or_Qualifier 491 500	operables
+A8	Assertion T36 Negated
+#33	AnnotatorNotes T36	C0205188; Operable; Qualitative Concept
+T38	Neg_cue 488 490	no
+T42	Neg_cue 558 564	evitar
+T49	CONC 568 584	tiempo de espera
+A9	Assertion T49 Negated
+#34	AnnotatorNotes T49	C0814636; waiting time; Temporal Concept
+R1	Location_of Arg1:T20 Arg2:T1	
+R2	Has_Dose_or_Strength Arg1:T2 Arg2:T29	
+R3	Location_of Arg1:T21 Arg2:T4	
+R4	Has_Age Arg1:T30 Arg2:T31	
+T50	Quantifier_or_Qualifier 300 320	primer/segundo ciclo
+R5	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T50	
+R6	Experiences Arg1:T32 Arg2:T25	
+R7	Used_for Arg1:T2 Arg2:T3	
+T51	Quantifier_or_Qualifier 353 362	entre 1-3
+R8	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T51	
+T52	Result_or_Value 386 400	>2 cm y < 5 cm
+R9	Has_Result_or_Value Arg1:T6 Arg2:T52	
+R10	Experiences Arg1:T33 Arg2:T6	
+R11	Location_of Arg1:T7 Arg2:T35	
+R12	Negation Arg1:T34 Arg2:T35	
+R13	Experiences Arg1:T33 Arg2:T35	
+T53	Quantifier_or_Qualifier 433 443	Tipo 3 y 4
+T54	CONC 450 468	clasificación FIGO
+#35	AnnotatorNotes T54	C0450454; FIGO Stage; Intellectual Product
+R14	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T53	
+R15	Negation Arg1:T38 Arg2:T36	
+R16	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T36	
+R17	Experiences Arg1:T37 Arg2:T8	
+R18	Negation Arg1:T42 Arg2:T49	
+R19	Overlap Arg1:T49 Arg2:T39	
+R20	Has_Duration_or_Interval Arg1:T49 Arg2:T40	
+R21	Has_Duration_or_Interval Arg1:T49 Arg2:T41	
+R22	Before Arg1:T49 Arg2:T22	
+R23	Experiences Arg1:T37 Arg2:T22	
+R24	Experiences Arg1:T43 Arg2:T9	
+R25	Negation Arg1:T44 Arg2:T10	
+R26	Experiences Arg1:T43 Arg2:T10	
+R27	Before Arg1:T9 Arg2:T10	
+T55	Result_or_Value 759 776	entre 18-30 kg/m2
+R28	Has_Result_or_Value Arg1:T26 Arg2:T55	
+R29	Location_of Arg1:T11 Arg2:T23	
+R30	Experiences Arg1:T45 Arg2:T12	
+R31	Experiences Arg1:T45 Arg2:T23	
+R32	Location_of Arg1:T13 Arg2:T24	
+R33	Before Arg1:T16 Arg2:T15	
+T56	Quantifier_or_Qualifier 1000 1011	complicadas
+#36	AnnotatorNotes T56	C0231242; Complicated; Functional Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T56	
+R35	Speculation Arg1:T46 Arg2:T18	
+T57	Observation 1059 1107	Participación simultánea en otro estudio clínico
+R38	Overlap Arg1:T6 Arg2:T35	
+#37	AnnotatorNotes T24	C1720816; Endometrial Diseases; Disease or Syndrome
+A10	Experiencer T30 Patient
+A11	Experiencer T32 Patient
+A12	Status T25 Future
+A13	Experiencer T33 Patient
+A14	Experiencer T37 Patient
+A15	Experiencer T43 Patient
+A16	Experiencer T45 Patient

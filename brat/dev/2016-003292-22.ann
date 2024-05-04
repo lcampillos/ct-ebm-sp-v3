@@ -1,0 +1,133 @@
+T1	PROC 46 77	Estudio de seguridad y eficacia
+T2	DISO 105 133	síndrome de Sjögren primario
+#1	AnnotatorNotes T2	C0151449; Primary Sjögren's syndrome; Disease or Syndrome
+T3	DISO 135 138	pSS
+#2	AnnotatorNotes T3	C0151449; Primary Sjögren's syndrome; Disease or Syndrome
+T4	PROC 162 267	Estudio de fase 2, multicéntrico, aleatorizado, doble ciego, controlado con placebo, de búsqueda de dosis
+T5	CHEM 327 333	VAY736
+#3	AnnotatorNotes T5	C3896750; Human Combinatorial Antibody Library-based Monoclonal Antibody VAY736; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	PROC 273 304	evaluar la seguridad y eficacia
+T7	DISO 384 412	síndrome de Sjögren primario
+#4	AnnotatorNotes T7	C0151449; Primary Sjögren's syndrome; Disease or Syndrome
+T8	DISO 456 475	Síndrome de Sjögren
+#5	AnnotatorNotes T8	C1527336; Sjogren's Syndrome; Disease or Syndrome
+T9	DISO 502 530	Síndrome de Sjögren primario
+#6	AnnotatorNotes T9	C0151449; Primary Sjögren's syndrome; Disease or Syndrome
+T10	CHEM 694 717	anticuerpos anti-Ro/SSA
+#7	AnnotatorNotes T10	C0075128; SS A antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T11	PROC 750 757	biopsia
+#8	AnnotatorNotes T11	C0005558; Biopsy; Diagnostic Procedure
+T12	ANAT 764 789	glándula salival/lacrimal
+T13	PROC 803 814	diagnóstico
+#9	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	PROC 921 930	protocolo
+#10	AnnotatorNotes T14	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T15	DISO 960 990	Síndrome de Sjögren secundario
+#11	AnnotatorNotes T15	C0151450; Secondary Sjögren's syndrome; Disease or Syndrome
+T16	CHEM 1006 1031	fármacos en investigación
+#12	AnnotatorNotes T16	C0013230; Investigational New Drugs; Pharmacologic Substance
+T17	DISO 1034 1074	Infecciones activas víricas, bacterianas
+T18	DISO 1085 1096	Hepatitis B
+#13	AnnotatorNotes T18	C0019163; Hepatitis B; Disease or Syndrome
+T19	DISO 1107 1118	hepatitis C
+#14	AnnotatorNotes T19	C0019196; Hepatitis C; Disease or Syndrome
+T20	PROC 1140 1160	test de tuberculosis
+#15	AnnotatorNotes T20	C2242734; Tuberculosis test; Diagnostic Procedure
+T21	DISO 1148 1160	tuberculosis
+#16	AnnotatorNotes T21	C0041296; Tuberculosis; Disease or Syndrome
+T22	PROC 1250 1259	protocolo
+#17	AnnotatorNotes T22	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T23	CHEM 81 87	VAY736
+#18	AnnotatorNotes T23	C3896750; Human Combinatorial Antibody Library-based Monoclonal Antibody VAY736; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T24	DISO 654 657	SSp
+#19	AnnotatorNotes T24	C2732618; Sessile Serrated Adenoma/Polyp; Neoplastic Process
+T25	PROC 334 366	administradas por vía subcutánea
+T26	DISO 818 821	SSp
+#20	AnnotatorNotes T26	C2732618; Sessile Serrated Adenoma/Polyp; Neoplastic Process
+T27	DISO 1120 1123	VIH
+#21	AnnotatorNotes T27	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T28	Date 13 17	2016
+T29	LIVB 91 100	pacientes
+#22	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Dose 308 323	múltiples dosis
+T31	Route 352 366	vía subcutánea
+#23	AnnotatorNotes T31	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T32	LIVB 370 379	pacientes
+#24	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 1054 1061	víricas
+#25	AnnotatorNotes T34	C0042776; Virus; Virus
+T35	LIVB 1063 1074	bacterianas
+#26	AnnotatorNotes T35	C0004611; Bacteria; Bacterium
+T33	Quantifier_or_Qualifier 841 846	basal
+#27	AnnotatorNotes T33	C1442488; Baseline; Quantitative Concept
+T36	PROC 834 840	visita
+#28	AnnotatorNotes T36	C1512346; Patient Visit; Health Care Activity
+#29	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#30	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#31	AnnotatorNotes T25	C1273555; Subcutaneous administration of treatment; Therapeutic or Preventive Procedure 
+T37	Spec_cue 850 856	Pueden
+T38	Quantifier_or_Qualifier 865 870	otros
+A1	Assertion T38 Speculated
+T39	CONC 871 893	criterios de inclusión
+A2	Assertion T39 Speculated
+#32	AnnotatorNotes T39	C1512693; Inclusion Criteria; Qualitative Concept
+R1	Speculation Arg1:T37 Arg2:T38	
+R2	Speculation Arg1:T37 Arg2:T39	
+R3	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T38	
+T40	CONC 895 904	exclusión
+A3	Assertion T40 Speculated
+#33	AnnotatorNotes T40	C0680251; Exclusion Criteria; Functional Concept
+R4	Speculation Arg1:T37 Arg2:T40	
+T41	Spec_cue 1179 1185	Pueden
+T42	Quantifier_or_Qualifier 1194 1199	otros
+A4	Assertion T42 Speculated
+T43	CONC 1224 1233	exclusión
+A5	Assertion T43 Speculated
+#34	AnnotatorNotes T43	C0680251; Exclusion Criteria; Functional Concept
+T44	CONC 1200 1222	criterios de inclusión
+#35	AnnotatorNotes T44	C1512693; Inclusion Criteria; Qualitative Concept
+R5	Speculation Arg1:T41 Arg2:T42	
+A6	Assertion T44 Speculated
+R6	Speculation Arg1:T41 Arg2:T44	
+R7	Speculation Arg1:T41 Arg2:T43	
+R8	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T42	
+R9	Causes Arg1:T35 Arg2:T17	
+R10	Causes Arg1:T34 Arg2:T17	
+R11	Experiences Arg1:T29 Arg2:T23	
+R12	Experiences Arg1:T29 Arg2:T2	
+R13	Experiences Arg1:T29 Arg2:T3	
+R14	Has_Dose_or_Strength Arg1:T5 Arg2:T30	
+R15	Experiences Arg1:T32 Arg2:T5	
+R16	Experiences Arg1:T32 Arg2:T7	
+R17	Experiences Arg1:T32 Arg2:T25	
+R18	Has_Route_or_Mode Arg1:T5 Arg2:T31	
+R19	Used_for Arg1:T5 Arg2:T25	
+T45	Quantifier_or_Qualifier 416 432	moderado a grave
+#36	AnnotatorNotes T45	C1299393; Moderat to severe; Qualitative Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T45	
+T46	Result_or_Value 660 672	Seropositivo
+R21	Causes Arg1:T10 Arg2:T46	
+T47	PROC 679 688	selección
+#37	AnnotatorNotes T47	C0242802; Patient Selection; Research Activity
+R22	Overlap Arg1:T46 Arg2:T47	
+R23	Before Arg1:T13 Arg2:T36	
+R25	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T33	
+R26	Location_of Arg1:T12 Arg2:T11	
+#38	AnnotatorNotes T12	C0036098; Salivary Glands; Body Part, Organ, or Organ Component | C1278917; Entire salivary gland; Body Part, Organ, or Organ Component | C0022907; Lacrimal gland structure; Body Part, Organ, or Organ Component | C1278886; Entire lacrimal gland; Body Part, Organ, or Organ Component
+R27	Before Arg1:T11 Arg2:T13	
+#39	AnnotatorNotes T17	C5436301; Bacterial and viral infections; Finding (?)
+T48	Result_or_Value 1097 1105	positiva
+#40	AnnotatorNotes T48	C1446409; Positive; Finding
+R28	Has_Result_or_Value Arg1:T18 Arg2:T48	
+T49	PROC 1167 1176	selección
+#41	AnnotatorNotes T49	C0242802; Patient Selection; Research Activity
+R30	Overlap Arg1:T20 Arg2:T49	
+R31	Overlap Arg1:T18 Arg2:T49	
+R32	Overlap Arg1:T19 Arg2:T49	
+R33	Overlap Arg1:T27 Arg2:T49	
+#42	AnnotatorNotes T38	C0205394; Other; Qualitative Concept
+R24	Overlap Arg1:T21 Arg2:T49	
+#43	AnnotatorNotes T42	C0205394; Other; Qualitative Concept
+A7	Experiencer T29 Patient
+A8	Experiencer T32 Patient
+#44	AnnotatorNotes T46	C0521143; Seropositive; Qualitative Concept

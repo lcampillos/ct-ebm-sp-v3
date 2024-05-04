@@ -1,0 +1,224 @@
+T1	PROC 46 118	Estudio multicéntrico aleatorizado, doble ciego y controlado con placebo
+T2	PROC 124 152	tratamiento de mantenimiento
+#1	AnnotatorNotes T2	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T3	PROC 201 235	evaluar la eficacia y la seguridad
+#2	AnnotatorNotes T3	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T4	DISO 267 286	enfermedad de Crohn
+#3	AnnotatorNotes T4	C0010346; Crohn Disease; Disease or Syndrome
+T5	PROC 304 328	tratamiento de inducción
+#4	AnnotatorNotes T5	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T6	PROC 385 457	Estudio multicentrico aleatorizado, doble ciego y controlado con placebo
+T7	PROC 463 491	tratamiento de mantenimiento
+#5	AnnotatorNotes T7	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T8	PROC 540 574	evaluar la eficacia y la seguridad
+#6	AnnotatorNotes T8	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T9	DISO 606 625	enfermedad de Crohn
+#7	AnnotatorNotes T9	C0010346; Crohn Disease; Disease or Syndrome
+T10	PROC 643 667	tratamiento de inducción
+#8	AnnotatorNotes T10	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T11	DISO 766 785	Enfermedad de Crohn
+#9	AnnotatorNotes T11	C0010346; Crohn Disease; Disease or Syndrome
+T12	DISO 811 830	Enfermedad de Crohn
+#10	AnnotatorNotes T12	C0010346; Crohn Disease; Disease or Syndrome
+T13	PROC 1252 1263	Diagnóstico
+#11	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 1278 1280	EC
+#12	AnnotatorNotes T14	C0010346; Crohn Disease; Disease or Syndrome
+T15	ANAT 1324 1329	heces
+#13	AnnotatorNotes T15	C0015733; Feces; Body Substance
+T16	DISO 1350 1365	dolor abdominal
+#14	AnnotatorNotes T16	C0000737; Abdominal Pain; Sign or Symptom
+T18	DISO 1411 1430	enfermedad de Crohn
+#16	AnnotatorNotes T18	C0010346; Crohn Disease; Disease or Syndrome
+T19	CHEM 1679 1691	Risankizumab
+#17	AnnotatorNotes T19	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T20	DISO 1650 1667	hipersensibilidad
+#18	AnnotatorNotes T20	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T21	CHEM 1700 1711	excipientes
+#19	AnnotatorNotes T21	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T22	CHEM 1733 1741	fármacos
+#20	AnnotatorNotes T22	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T23	CHEM 1762 1781	ingredientes de CHO
+T24	DISO 1797 1819	acontecimiento adverso
+#21	AnnotatorNotes T24	C0877248; Adverse event; Pathologic Function
+T25	PROC 1992 2004	tratamientos
+#22	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	CHEM 239 251	risankizumab
+#23	AnnotatorNotes T26	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T27	CHEM 578 590	risankizumab
+#24	AnnotatorNotes T27	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T28	ANAT 1356 1365	abdominal
+#25	AnnotatorNotes T28	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T29	ANAT 1778 1781	CHO
+#26	AnnotatorNotes T29	C0085080; Chinese Hamster Ovary Cell; Cell
+T30	Date 13 17	2016
+T31	Duration 161 171	52 semanas
+T32	LIVB 255 262	sujetos
+#27	AnnotatorNotes T32	C0681850; Study Subject; Group
+T33	Duration 500 510	52 semanas
+T34	LIVB 594 601	sujetos
+#28	AnnotatorNotes T34	C0681850; Study Subject; Group
+T35	LIVB 856 863	Sujetos
+#29	AnnotatorNotes T35	C0681850; Study Subject; Group
+T36	LIVB 1062 1069	mujeres
+#30	AnnotatorNotes T36	C0043210; Woman; Population Group
+T37	Age 1070 1085	de 18 a 80 años
+T38	Age 1097 1123	de 16 a menores de 18 años
+T39	Duration 1448 1464	al menos 3 meses
+T40	LIVB 1517 1524	Sujetos
+#31	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	LIVB 1544 1556	investigador
+#32	AnnotatorNotes T41	C0035173; Research Personnel; Professional or Occupational Group
+T42	LIVB 1638 1645	Sujetos
+#33	AnnotatorNotes T42	C0681850; Study Subject; Group
+T43	LIVB 1876 1888	Investigador
+#34	AnnotatorNotes T43	C0035173; Research Personnel; Professional or Occupational Group
+T44	LIVB 1901 1907	sujeto
+#35	AnnotatorNotes T44	C0681850; Study Subject; Group
+T46	LIVB 1943 1950	Sujetos
+#36	AnnotatorNotes T46	C0681850; Study Subject; Group
+T48	LIVB 1052 1059	Varones
+#37	AnnotatorNotes T48	C0025266; Male population group; Population Group
+T49	PROC 1201 1207	Tanner
+#38	AnnotatorNotes T49	C0431029; Tanner bone age assessment; Diagnostic Procedure
+A1	Status T20 History_of
+A2	Status T24 History_of
+A3	Status T25 History_of
+#39	AnnotatorNotes T1	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#40	AnnotatorNotes T6	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+T45	Neg_cue 1908 1910	no
+T47	Observation 1915 1941	adecuado para este estudio
+A4	Assertion T47 Negated
+#41	AnnotatorNotes T47	C1302261; Patient eligible for clinical trial; Finding (?)
+T50	Neg_cue 1955 1957	no
+T51	Observation 1958 2004	cumplan con los requerimientos de tratamientos
+A5	Assertion T51 Negated
+#42	AnnotatorNotes T51	C1532652; Drug therapy compliance finding; Finding (?)
+R1	Negation Arg1:T45 Arg2:T47	
+R2	Negation Arg1:T50 Arg2:T51	
+R3	Has_Duration_or_Interval Arg1:T2 Arg2:T31	
+T52	CONC 1477 1490	línea de base
+#43	AnnotatorNotes T52	C1442488; Baseline; Quantitative Concept
+T53	Quantifier_or_Qualifier 1284 1300	moderada a grave
+#44	AnnotatorNotes T53	C1299393; Moderate to severe; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T53	
+T54	Observation 1310 1329	frecuencia de heces
+#45	AnnotatorNotes T54	C0426642; Frequency of bowel action; Finding
+R5	Overlap Arg1:T14 Arg2:T54	
+R6	Overlap Arg1:T14 Arg2:T16	
+R7	Location_of Arg1:T28 Arg2:T16	
+R9	Overlap Arg1:T16 Arg2:T18	
+T55	PROC 1432 1438	SES-CD
+#46	AnnotatorNotes T55	C5549856; Assessment using Simple Endoscopic Score for Crohn's Disease; Health Care Activity
+T56	PROC 1373 1430	puntuación endoscópica simple para la enfermedad de Crohn
+#47	AnnotatorNotes T56	C5549856; Assessment using Simple Endoscopic Score for Crohn's Disease; Health Care Activity
+R10	Before Arg1:T13 Arg2:T52	
+R11	Has_Duration_or_Interval Arg1:T14 Arg2:T39	
+R12	Before Arg1:T14 Arg2:T52	
+T57	Observation 1600 1620	candidato inadecuado
+#48	AnnotatorNotes T57	C3242266; patient not eligible; Finding
+R15	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T57	
+T58	Observation 949 966	respuesta clínica
+#49	AnnotatorNotes T58	C4055223; Clinical Response; Finding
+R16	Experiences Arg1:T35 Arg2:T58	
+T59	Observation 291 300	respondan
+#50	AnnotatorNotes T59	C1319171; Medication response; Finding
+R17	Overlap Arg1:T59 Arg2:T5	
+T60	Observation 630 639	respondan
+#51	AnnotatorNotes T60	C1319171; Medication response; Finding
+R18	Overlap Arg1:T60 Arg2:T10	
+R19	Experiences Arg1:T32 Arg2:T26	
+R20	Experiences Arg1:T32 Arg2:T4	
+R21	Experiences Arg1:T32 Arg2:T59	
+R22	Has_Duration_or_Interval Arg1:T7 Arg2:T33	
+R23	Experiences Arg1:T34 Arg2:T27	
+R24	Experiences Arg1:T34 Arg2:T9	
+R25	Experiences Arg1:T34 Arg2:T60	
+R26	Experiences Arg1:T32 Arg2:T5	
+R27	Experiences Arg1:T34 Arg2:T10	
+T61	Observation 874 895	completado el estudio
+A6	Status T61 History_of
+#52	AnnotatorNotes T61	C2732579; Completion of clinical trial; Finding
+T62	Observation 995 1019	participar en el estudio
+#53	AnnotatorNotes T62	C1278516; Patient participation status; Finding
+R28	Has_Age Arg1:T48 Arg2:T37	
+R29	Has_Age Arg1:T36 Arg2:T37	
+R30	Has_Age Arg1:T48 Arg2:T38	
+R31	Has_Age Arg1:T36 Arg2:T38	
+R32	Experiences Arg1:T48 Arg2:T49	
+R33	Experiences Arg1:T36 Arg2:T49	
+T63	Result_or_Value 1208 1215	etapa 5
+R34	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T47	
+R35	Experiences Arg1:T42 Arg2:T20	
+R36	Causes Arg1:T19 Arg2:T20	
+R37	Causes Arg1:T21 Arg2:T20	
+R38	Causes Arg1:T22 Arg2:T20	
+R39	Causes Arg1:T23 Arg2:T20	
+T64	PROC 1832 1840	Estudios
+#54	AnnotatorNotes T64	C0008976; Clinical Trials; Research Activity
+R40	Overlap Arg1:T24 Arg2:T64	
+A7	Status T64 History_of
+R41	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T47	
+R46	Experiences Arg1:T42 Arg2:T24	
+R47	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T47	
+R49	Experiences Arg1:T44 Arg2:T20	
+R53	Experiences Arg1:T44 Arg2:T24	
+R54	Experiences Arg1:T46 Arg2:T25	
+T65	PROC 2047 2055	Estudios
+A8	Status T65 History_of
+#55	AnnotatorNotes T65	C0008976; Clinical Trials; Research Activity
+R55	Overlap Arg1:T25 Arg2:T65	
+T66	Quantifier_or_Qualifier 2015 2028	concomitantes
+#56	AnnotatorNotes T66	C0521115; Simultaneous; Temporal Concept
+R56	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T66	
+R57	Experiences Arg1:T32 Arg2:T2	
+R58	Experiences Arg1:T34 Arg2:T7	
+T67	PROC 675 683	estudios
+#57	AnnotatorNotes T67	C0008976; Clinical Trials; Research Activity
+A9	Status T67 History_of
+T68	PROC 336 344	estudios
+A10	Status T68 History_of
+#58	AnnotatorNotes T68	C0008976; Clinical Trials; Research Activity
+R59	Overlap Arg1:T5 Arg2:T68	
+R60	Overlap Arg1:T59 Arg2:T68	
+R61	Overlap Arg1:T60 Arg2:T67	
+R62	Overlap Arg1:T10 Arg2:T67	
+T69	Observation 713 734	completado el estudio
+A11	Status T69 History_of
+#59	AnnotatorNotes T69	C2732579; Completion of clinical trial; Finding
+T70	PROC 727 734	estudio
+#60	AnnotatorNotes T70	C0008976; Clinical Trials; Research Activity
+A12	Status T70 History_of
+R63	Before Arg1:T67 Arg2:T27	
+R64	Before Arg1:T69 Arg2:T27	
+R65	Before Arg1:T70 Arg2:T27	
+R66	Before Arg1:T68 Arg2:T26	
+T71	Observation 874 884;906 916	completado el estudio
+#61	AnnotatorNotes T71	C2732579; Completion of clinical trial; Finding
+T72	PROC 888 895	estudio
+A13	Status T72 History_of
+#62	AnnotatorNotes T72	C0008976; Clinical Trials; Research Activity
+T73	PROC 909 916	estudio
+A14	Status T73 History_of
+#63	AnnotatorNotes T73	C0008976; Clinical Trials; Research Activity
+T74	PROC 1033 1040	estudio
+A15	Status T74 History_of
+#64	AnnotatorNotes T74	C0008976; Clinical Trials; Research Activity
+T75	PROC 1012 1019	estudio
+#65	AnnotatorNotes T75	C0008976; Clinical Trials; Research Activity
+T76	Observation 1030 1040;995 1008	el estudio participar en
+#66	AnnotatorNotes T76	C1278516; Patient participation status; Finding
+A16	Status T75 History_of
+R67	Overlap Arg1:T51 Arg2:T65	
+R68	Has_Result_or_Value Arg1:T49 Arg2:T63	
+A17	Experiencer T46 Patient
+A18	Experiencer T43 Other
+A19	Experiencer T44 Patient
+A20	Experiencer T42 Patient
+A21	Experiencer T41 Other
+A22	Experiencer T40 Patient
+A23	Experiencer T36 Patient
+A24	Experiencer T48 Patient
+A25	Experiencer T35 Patient
+A26	Experiencer T34 Patient
+A27	Experiencer T32 Patient

@@ -1,0 +1,79 @@
+T1	CHEM 4 16	vitamina B12
+#1	AnnotatorNotes T1	C0042845; vitamin B12; Organic Chemical · Pharmacologic Substance · Vitamin
+T2	DISO 48 68	anemia del prematuro
+#2	AnnotatorNotes T2	C0158996; Anemia of prematurity; Disease or Syndrome
+T3	CHEM 106 118	vitamina B12
+#3	AnnotatorNotes T3	C0042845; vitamin B12; Organic Chemical · Pharmacologic Substance · Vitamin
+T4	DISO 165 185	anemia del prematuro
+#4	AnnotatorNotes T4	C0158996; Anemia of prematurity; Disease or Syndrome
+T5	PROC 193 239	estudio controlado, aleatorizado y doble ciego
+#5	AnnotatorNotes T5	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T6	PROC 446 459	transfusiones
+#6	AnnotatorNotes T6	C1879316; Transfusion (procedure); Therapeutic or Preventive Procedure
+T8	Dose 93 99	100 mg
+T9	Route 100 102	IM
+#7	AnnotatorNotes T9	C1556154; Intramuscular Route of Drug Administration; Functional Concept
+T10	Frequency 119 126	mensual
+T11	LIVB 247 252	niños
+#8	AnnotatorNotes T11	C0008059; Child; Age Group
+T12	Duration 273 291	menor a 33 semanas
+T15	PHYS 390 401	crecimiento
+#9	AnnotatorNotes T15	C0018270; Growth; Organism Function
+T16	PROC 256 272	edad gestacional
+#10	AnnotatorNotes T16	C4040272; Assessment of fetal gestational age; Health Care Activity
+T17	PHYS 261 272	gestacional
+#11	AnnotatorNotes T17	C0032961; Pregnancy; Organism Function
+T18	LIVB 59 68	prematuro
+#12	AnnotatorNotes T18	C4048294; Preterm Infant; Age Group
+T19	LIVB 176 185	prematuro
+#13	AnnotatorNotes T19	C4048294; Preterm Infant; Age Group
+A1	Population_data T18 Age
+A2	Population_data T19 Age
+A3	Population_data T11 Age
+T7	CONC 312 323	diferencias
+A4	Assertion T7 Negated
+#14	AnnotatorNotes T7	C1705241; Delta (difference); Quantitative Concept
+T13	Neg_cue 294 296	No
+R1	Negation Arg1:T13 Arg2:T7	
+T14	Neg_cue 17 19	no
+T20	Observation 20 41	modifica la evolución
+A5	Assertion T20 Negated
+R2	Negation Arg1:T14 Arg2:T20	
+R3	Before Arg1:T1 Arg2:T20	
+R4	Experiences Arg1:T18 Arg2:T2	
+T21	CONC 32 41	evolución
+#15	AnnotatorNotes T21	C0449259; Clinical course; Temporal Concept
+T22	Observation 83 89	efecto
+#16	AnnotatorNotes T22	C1518681; Outcome of Therapy; Finding (?)
+R6	Causes Arg1:T3 Arg2:T22	
+R7	Has_Route_or_Mode Arg1:T3 Arg2:T9	
+R8	Has_Dose_or_Strength Arg1:T3 Arg2:T8	
+R9	Has_Frequency Arg1:T3 Arg2:T10	
+T23	Quantifier_or_Qualifier 131 138	4 veces
+R10	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T23	
+T24	CONC 149 158	evolución
+#17	AnnotatorNotes T24	C0449259; Clinical course; Temporal Concept
+R11	Experiences Arg1:T19 Arg2:T4	
+R12	Experiences Arg1:T19 Arg2:T22	
+R13	Experiences Arg1:T19 Arg2:T3	
+R14	Experiences Arg1:T11 Arg2:T22	
+R15	Experiences Arg1:T11 Arg2:T3	
+R16	Experiences Arg1:T11 Arg2:T4	
+R17	Experiences Arg1:T11 Arg2:T16	
+R18	Has_Duration_or_Interval Arg1:T17 Arg2:T12	
+R19	Experiences Arg1:T19 Arg2:T16	
+T25	CONC 358 367	evolución
+#18	AnnotatorNotes T25	C0449259; Clinical course; Temporal Concept
+T26	Quantifier_or_Qualifier 368 380	hematológica
+#19	AnnotatorNotes T26	C0205488; Hematologic; Functional Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T26	
+T27	CONC 436 459	número de transfusiones
+R21	Experiences Arg1:T18 Arg2:T1	
+T28	Quantifier_or_Qualifier 324 351	clínicamente significativas
+A6	Assertion T28 Negated
+#20	AnnotatorNotes T28	C0237881; Statistical Significance; Quantitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T28	
+R23	Negation Arg1:T13 Arg2:T28	
+A7	Experiencer T11 Patient
+A8	Experiencer T19 Patient
+A9	Experiencer T18 Patient

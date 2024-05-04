@@ -1,0 +1,145 @@
+T1	CHEM 8 31	antagonistas del calcio
+#1	AnnotatorNotes T1	C0006684; Calcium Channel Blockers; Pharmacologic Substance
+T2	PROC 38 49	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 54 70	síndrome uretral
+#3	AnnotatorNotes T3	C0156279; Urethral syndrome; Disease or Syndrome
+T4	CHEM 162 185	antagonistas del calcio
+#4	AnnotatorNotes T4	C0006684; Calcium Channel Blockers; Pharmacologic Substance
+T5	DISO 192 208	Síndrome Uretral
+#5	AnnotatorNotes T5	C0156279; Urethral syndrome; Disease or Syndrome
+T6	DISO 222 235	incontinencia
+#6	AnnotatorNotes T6	C0042024; Urinary Incontinence; Pathologic Function
+T7	DISO 247 254	disuria
+#7	AnnotatorNotes T7	C0013428; Dysuria; Sign or Symptom | C0241705; Difficulty passing urine; Sign or Symptom
+T8	DISO 330 346	Síndrome Uretral
+#8	AnnotatorNotes T8	C0156279; Urethral syndrome; Disease or Syndrome
+T9	CHEM 362 372	Cinarizina
+#9	AnnotatorNotes T9	C0008803; cinnarizine; Organic Chemical · Pharmacologic Substance
+T10	CHEM 395 406	Flunarizina
+#10	AnnotatorNotes T10	C0016295; flunarizine; Organic Chemical · Pharmacologic Substance
+T11	PROC 453 460	placebo
+#11	AnnotatorNotes T11	C0032042; Placebos; Therapeutic or Preventive Procedure
+T12	CHEM 507 518	Flunarizina
+#12	AnnotatorNotes T12	C0016295; flunarizine; Organic Chemical · Pharmacologic Substance
+T13	CHEM 524 534	Cinarizina
+#13	AnnotatorNotes T13	C0008803; cinnarizine; Organic Chemical · Pharmacologic Substance
+T14	DISO 596 604	urgencia
+#14	AnnotatorNotes T14	C0085606; Urgency of micturition; Sign or Symptom
+T15	DISO 566 588	incontinencia de orina
+#15	AnnotatorNotes T15	C0042024; Urinary Incontinence; Pathologic Function
+T16	DISO 614 621	disuria
+#16	AnnotatorNotes T16	C0013428; Dysuria; Sign or Symptom | C0241705; Difficulty passing urine; Sign or Symptom
+T17	PROC 740 760	tratadas con placebo
+#17	AnnotatorNotes T17	C3897898; Placebo Administration; Therapeutic or Preventive Procedure
+T18	CHEM 781 804	antagonistas del calcio
+#18	AnnotatorNotes T18	C0006684; Calcium Channel Blockers; Pharmacologic Substance
+T19	DISO 849 865	síndrome uretral
+#19	AnnotatorNotes T19	C0156279; Urethral syndrome; Disease or Syndrome
+T20	DISO 90 123	urgencia e incontinencia urinaria
+#20	AnnotatorNotes T20	C0085606; Urgency of micturition; Sign or Symptom + C0042024; Urinary Incontinence; Pathologic Function
+T21	ANAT 63 70	uretral
+#21	AnnotatorNotes T21	C0041967; Urethra; Body Part, Organ, or Organ Component | C1281574; Entire urethra; Body Part, Organ, or Organ Component
+T22	ANAT 115 123	urinaria
+#22	AnnotatorNotes T22	C0042036; Urine; Body Substance
+T23	DISO 237 245	urgencia
+#23	AnnotatorNotes T23	C0085606; Urgency of micturition; Sign or Symptom
+T24	ANAT 201 208	Uretral
+#24	AnnotatorNotes T24	C0041967; Urethra; Body Part, Organ, or Organ Component | C1281574; Entire urethra; Body Part, Organ, or Organ Component
+T25	ANAT 339 346	Uretral
+#25	AnnotatorNotes T25	C0041967; Urethra; Body Part, Organ, or Organ Component | C1281574; Entire urethra; Body Part, Organ, or Organ Component
+T26	ANAT 858 865	uretral
+#26	AnnotatorNotes T26	C0041967; Urethra; Body Part, Organ, or Organ Component | C1281574; Entire urethra; Body Part, Organ, or Organ Component
+T27	LIVB 78 85	mujeres
+#27	AnnotatorNotes T27	C0043210; Woman; Population Group
+T28	LIVB 215 220	mujer
+#28	AnnotatorNotes T28	C0043210; Woman; Population Group
+T29	LIVB 258 267	Pacientes
+#29	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 285 311	pacientes de sexo femenino
+#30	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group + C0043210; Woman; Population Group
+T31	LIVB 379 388	pacientes
+#31	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 413 422	pacientes
+#32	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 432 441	pacientes
+#33	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 482 491	pacientes
+#34	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	PHYS 626 633	micción
+#35	AnnotatorNotes T35	C0042034; Urination; Organism Function | C2371165; Urination functions; Organ or Tissue Function
+T36	PHYS 683 692	micciones
+#36	AnnotatorNotes T36	C0042034; Urination; Organism Function | C2371165; Urination functions; Organ or Tissue Function
+T37	Frequency 703 709	al día
+T38	LIVB 730 739	pacientes
+#37	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 835 844	pacientes
+#38	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 885 900	mujeres mayores
+#39	AnnotatorNotes T41	C0043210; Woman; Population Group + C0001792; Elderly (population group); Population Group
+T43	ANAT 583 588	orina
+#40	AnnotatorNotes T43	C0042036; Urine; Body Substance
+A1	Population_data T41 Age
+R1	Used_for Arg1:T1 Arg2:T2	
+R2	Location_of Arg1:T21 Arg2:T3	
+R4	Experiences Arg1:T27 Arg2:T1	
+R5	Experiences Arg1:T27 Arg2:T3	
+R6	Overlap Arg1:T3 Arg2:T20	
+R7	Location_of Arg1:T22 Arg2:T20	
+R8	Experiences Arg1:T27 Arg2:T20	
+R9	Location_of Arg1:T24 Arg2:T5	
+R11	Experiences Arg1:T28 Arg2:T4	
+R12	Experiences Arg1:T28 Arg2:T5	
+R13	Experiences Arg1:T28 Arg2:T6	
+R14	Overlap Arg1:T5 Arg2:T6	
+R15	Overlap Arg1:T5 Arg2:T23	
+R16	Overlap Arg1:T5 Arg2:T7	
+R17	Experiences Arg1:T28 Arg2:T23	
+R18	Experiences Arg1:T28 Arg2:T7	
+R19	Experiences Arg1:T30 Arg2:T8	
+R20	Location_of Arg1:T25 Arg2:T8	
+R21	Experiences Arg1:T29 Arg2:T8	
+R22	Experiences Arg1:T31 Arg2:T9	
+R23	Experiences Arg1:T32 Arg2:T10	
+R24	Experiences Arg1:T33 Arg2:T11	
+R25	Experiences Arg1:T34 Arg2:T12	
+R26	Experiences Arg1:T34 Arg2:T13	
+R27	Location_of Arg1:T43 Arg2:T15	
+R29	Experiences Arg1:T38 Arg2:T17	
+R30	Experiences Arg1:T38 Arg2:T36	
+R31	Experiences Arg1:T38 Arg2:T35	
+R32	Experiences Arg1:T38 Arg2:T16	
+R33	Experiences Arg1:T38 Arg2:T14	
+R34	Experiences Arg1:T38 Arg2:T15	
+R37	Experiences Arg1:T34 Arg2:T15	
+R38	Experiences Arg1:T34 Arg2:T14	
+R41	Experiences Arg1:T34 Arg2:T35	
+R42	Experiences Arg1:T34 Arg2:T36	
+T39	CONC 669 692	número de las micciones
+T42	Quantifier_or_Qualifier 638 652	mas prolongada
+R43	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T42	
+T44	Quantifier_or_Qualifier 655 664	más fácil
+R44	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T44	
+R50	Experiences Arg1:T40 Arg2:T19	
+R51	Location_of Arg1:T26 Arg2:T19	
+R52	Experiences Arg1:T40 Arg2:T18	
+R54	Experiences Arg1:T41 Arg2:T19	
+R55	Experiences Arg1:T41 Arg2:T18	
+R56	Overlap Arg1:T15 Arg2:T35	
+R57	Overlap Arg1:T14 Arg2:T35	
+R58	Overlap Arg1:T16 Arg2:T35	
+R59	Overlap Arg1:T15 Arg2:T36	
+R60	Overlap Arg1:T14 Arg2:T36	
+R61	Overlap Arg1:T16 Arg2:T36	
+R28	Has_Frequency Arg1:T36 Arg2:T37	
+A2	Experiencer T41 Patient
+A3	Experiencer T40 Patient
+A4	Experiencer T38 Patient
+A5	Experiencer T34 Patient
+A6	Experiencer T32 Patient
+A7	Experiencer T31 Patient
+A8	Experiencer T30 Patient
+A9	Experiencer T29 Patient
+A10	Experiencer T33 Patient
+A11	Experiencer T28 Patient
+A12	Experiencer T27 Patient

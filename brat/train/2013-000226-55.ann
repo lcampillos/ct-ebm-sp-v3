@@ -1,0 +1,553 @@
+T1	PROC 46 64	Terapia secuencial
+T2	CHEM 69 79	tacrolimus
+#1	AnnotatorNotes T2	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T3	CHEM 82 91	rituximab
+#2	AnnotatorNotes T3	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	ANAT 106 116	membranosa
+#3	AnnotatorNotes T4	C0025255; Tissue membrane; Tissue | C0596901; Membrane; Cell Component
+T5	PROC 148 204	Ensayo multicéntrico, aleatorizado, controlado y abierto
+T6	PROC 210 229	evaluar la eficacia
+#4	AnnotatorNotes T6	C1707887; Efficacy Study; Research Activity
+T7	PROC 234 256	tratamiento secuencial
+#5	AnnotatorNotes T7	C1519252; Sequential Treatment; Therapeutic or Preventive Procedure
+T8	CHEM 261 271	tacrolimus
+#6	AnnotatorNotes T8	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T9	CHEM 272 281	rituximab
+#7	AnnotatorNotes T9	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	CHEM 289 299	esteroides
+#8	AnnotatorNotes T10	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T11	CHEM 304 318	ciclofosfamida
+#9	AnnotatorNotes T11	C0010583; cyclophosphamide; Organic Chemical · Pharmacologic Substance
+T12	DISO 336 357	nefropatía membranosa
+#10	AnnotatorNotes T12	C0017665; Membranous glomerulonephritis; Disease or Syndrome
+T13	ANAT 402 412	MEMBRANOSA
+#11	AnnotatorNotes T13	C0025255; Tissue membrane; Tissue | C0596901; Membrane; Cell Component
+T14	DISO 439 460	Nefropatía membranosa
+#12	AnnotatorNotes T14	C0017665; Membranous glomerulonephritis; Disease or Syndrome
+T15	DISO 95 116	nefropatía membranosa
+#13	AnnotatorNotes T15	C0017665; Membranous glomerulonephritis; Disease or Syndrome
+T16	ANAT 347 357	membranosa
+#14	AnnotatorNotes T16	C0025255; Tissue membrane; Tissue | C0596901; Membrane; Cell Component
+T17	ANAT 450 460	membranosa
+#15	AnnotatorNotes T17	C0025255; Tissue membrane; Tissue | C0596901; Membrane; Cell Component
+T18	DISO 391 412	NEFROPATIA MEMBRANOSA
+#16	AnnotatorNotes T18	C0017665; Membranous glomerulonephritis; Disease or Syndrome
+T19	Date 13 17	2013
+T20	LIVB 322 331	pacientes
+#17	AnnotatorNotes T20	C0030705; Patients; Patient or Disabled Group
+#18	AnnotatorNotes T5	C1096776; Multicenter Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1709323; Open Label Study; Research Activity
+T21	LIVB 506 515	pacientes
+#21	AnnotatorNotes T21	C0030705; Patients; Patient or Disabled Group
+T22	LIVB 622 630	paciente
+#22	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T24	PROC 749 773	consentimiento informado
+#24	AnnotatorNotes T24	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T25	PROC 922 931	selección
+#25	AnnotatorNotes T25	C0242802; Patient Selection; Research Activity
+T26	PROC 948 957	protocolo
+#26	AnnotatorNotes T26	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T27	PROC 991 1005	procedimientos
+#27	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T28	PROC 1070 1077	estudio
+#28	AnnotatorNotes T28	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T29	DISO 1106 1108	MN
+#29	AnnotatorNotes T29	C0017665; Membranous glomerulonephritis; Disease or Syndrome
+T30	LIVB 1175 1184	pacientes
+#30	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	DISO 1189 1196	recaída
+#31	AnnotatorNotes T31	C2825055; Recurrence (disease attribute); Pathologic Function
+T32	DISO 1201 1219	síndrome nefrótico
+#32	AnnotatorNotes T32	C0027726; Nephrotic Syndrome; Disease or Syndrome
+T33	PROC 1133 1140	biopsia
+#33	AnnotatorNotes T33	C0005558; Biopsy; Diagnostic Procedure
+T34	Observation 1234 1242	remisión
+#34	AnnotatorNotes T34	C0544452; Disease remission; Finding
+T36	PROC 1276 1291	inmunosupresión
+#36	AnnotatorNotes T36	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T39	PROC 1329 1342	biopsia renal
+#39	AnnotatorNotes T39	C0194073; Kidney biopsy; Diagnostic Procedure
+T40	Quantifier_or_Qualifier 1323 1328	nueva
+#40	AnnotatorNotes T40	C0205314; New; Qualitative Concept
+T41	ANAT 1337 1342	renal
+#41	AnnotatorNotes T41	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T42	DISO 1455 1466	Proteinuria
+#42	AnnotatorNotes T42	C0033687; Proteinuria; Finding
+T45	DISO 1476 1485	nefrótico
+#45	AnnotatorNotes T45	C0027720; Nephrosis; Disease or Syndrome
+T46	DISO 1548 1563	hipoalbuminemia
+#46	AnnotatorNotes T46	C0239981; Hypoalbuminemia; Disease or Syndrome
+T47	PROC 1639 1650	Tratamiento
+#47	AnnotatorNotes T47	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T48	PROC 1734 1751	presión sanguínea
+#48	AnnotatorNotes T48	C0005824; Blood pressure determination; Health Care Activity
+T51	ANAT 1742 1751	sanguínea
+#51	AnnotatorNotes T51	C0005767; Blood; Body Substance
+T52	Quantifier_or_Qualifier 1752 1762	controlada
+T53	PROC 1823 1841	Prueba de embarazo
+#53	AnnotatorNotes T53	C0032976; Pregnancy Tests; Diagnostic Procedure
+T54	PHYS 1833 1841	embarazo
+#54	AnnotatorNotes T54	C0032961; Pregnancy; Organism Function
+T56	ANAT 1845 1850	orina
+#56	AnnotatorNotes T56	C0042036; Urine; Body Substance
+T57	LIVB 1865 1896	mujeres potencialmente fértiles
+#57	AnnotatorNotes T57	C4324275; Woman of childbearing potential; Population Group
+T59	PROC 1925 1936	Diagnostico
+#59	AnnotatorNotes T59	C0011900; Diagnosis; Diagnostic Procedure
+T60	DISO 1962 1983	nefropatía membranosa
+#60	AnnotatorNotes T60	C0017665; Membranous glomerulonephritis; Disease or Syndrome
+T61	ANAT 1973 1983	membranosa
+#61	AnnotatorNotes T61	C0025255; Tissue membrane; Tissue
+T62	PROC 1985 1996	diagnóstico
+#62	AnnotatorNotes T62	C0011900; Diagnosis; Diagnostic Procedure
+T63	DISO 2000 2028	diabetes mellitus tipo 1 o 2
+#63	AnnotatorNotes T63	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome | C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T64	DISO 2042 2048	cáncer
+#64	AnnotatorNotes T64	C0006826; Malignant Neoplasms; Neoplastic Process
+T65	DISO 2051 2073	infecciones sistémicas
+#65	AnnotatorNotes T65	C0243026; Sepsis; Disease or Syndrome
+T66	LIVB 2095 2102	virales
+#66	AnnotatorNotes T66	C0042776; Virus; Virus
+T67	DISO 2104 2111	malaria
+#67	AnnotatorNotes T67	C0024530; Malaria; Disease or Syndrome
+T68	DISO 2113 2128	hepatitis B y C
+#68	AnnotatorNotes T68	C0019163; Hepatitis B; Disease or Syndrome + C0019196; Hepatitis C; Disease or Syndrome
+T69	DISO 2130 2135	lepra
+#69	AnnotatorNotes T69	C0023343; Leprosy; Disease or Syndrome
+T70	DISO 2138 2145	sífilis
+#70	AnnotatorNotes T70	C0039128; Syphilis; Disease or Syndrome
+T71	DISO 2148 2183	enfermedades autoinmunes sistémicas
+#71	AnnotatorNotes T71	C2895206; Systemic autoimmune disease; Disease or Syndrome
+T72	DISO 2189 2216	lupus eritematoso sistémico
+#72	AnnotatorNotes T72	C0024141; Lupus Erythematosus, Systemic; Disease or Syndrome
+T73	DISO 2224 2235	amiloidosis
+#73	AnnotatorNotes T73	C0002726; Amyloidosis; Disease or Syndrome | C0011560; Amyloid deposition; Pathologic Function
+T74	DISO 2253 2276	enfermedad inflamatoria
+#74	AnnotatorNotes T74	C1290884; Inflammatory disorder; Disease or Syndrome
+T76	Quantifier_or_Qualifier 2277 2282	aguda
+#76	AnnotatorNotes T76	C0439557; Acute phase; Temporal Concept
+T77	DISO 2296 2313	Infección por VIH
+#77	AnnotatorNotes T77	C0019693; HIV Infections; Disease or Syndrome
+T78	LIVB 2310 2313	VIH
+#78	AnnotatorNotes T78	C0019682; HIV; Virus
+T79	DISO 2317 2336	Enfermedad hepática
+#79	AnnotatorNotes T79	C0023895; Liver diseases; Disease or Syndrome
+T80	ANAT 2328 2336	hepática
+#80	AnnotatorNotes T80	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T83	PROC 2355 2358	AST
+#83	AnnotatorNotes T83	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T85	PROC 2361 2364	ALT
+#85	AnnotatorNotes T85	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T87	PROC 2410 2427	bilirrubina total
+#87	AnnotatorNotes T87	C0201913; Bilirubin, total measurement; Laboratory Procedure
+T88	CHEM 2410 2421	bilirrubina
+#88	AnnotatorNotes T88	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T89	LIVB 2463 2472	Pacientes
+#89	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T91	PROC 2530 2554	estudio de investigación
+#91	AnnotatorNotes T91	C0681814; research study; Research Activity
+T92	PROC 2593 2604	tratamiento
+#92	AnnotatorNotes T92	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T93	CHEM 2614 2621	fármaco
+#93	AnnotatorNotes T93	C0013227; Pharmaceutical Preparations; Pharmacologic Substance
+T94	PROC 2624 2653	intervención de investigación
+#94	AnnotatorNotes T94	C0949266; Therapies, Investigational; Therapeutic or Preventive Procedure (?)
+T96	PROC 2687 2694	estudio
+#96	AnnotatorNotes T96	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T97	DISO 2699 2716	Hipersensibilidad
+#97	AnnotatorNotes T97	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T98	DISO 2718 2725	alergia
+#98	AnnotatorNotes T98	C1527304; Allergic Reaction; Pathologic Function
+T101	DISO 2742 2763	reacción inmunogénica
+T102	CHEM 2790 2799	rituximab
+#102	AnnotatorNotes T102	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T103	CHEM 2801 2813	ciclosporina
+#103	AnnotatorNotes T103	C0010592; cyclosporine; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T104	CHEM 2815 2825	tacrolimus
+#104	AnnotatorNotes T104	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T105	CHEM 2827 2844	corticoesteroides
+#105	AnnotatorNotes T105	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T106	CHEM 2846 2849	CYC
+T107	CHEM 2870 2882	ingredientes
+#107	AnnotatorNotes T107	C1550600; Ingredient; Chemical Viewed Functionally
+T108	CHEM 2900 2911	excipientes
+#108	AnnotatorNotes T108	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T109	CHEM 2942 2949	fármaco
+#109	AnnotatorNotes T109	C0013227; Pharmaceutical Preparations; Pharmacologic Substance
+T111	CHEM 2990 3020	inhibidores de la calcineurina
+#111	AnnotatorNotes T111	C1562036; Calcineurin inhibitor; Pharmacologic Substance
+T112	CHEM 3022 3046	anticuerpos monoclonales
+#112	AnnotatorNotes T112	C0003250; Monoclonal Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T114	CHEM 3061 3080	agentes alquilantes
+#114	AnnotatorNotes T114	C0002073; Alkylating Agents; Hazardous or Poisonous Substance · Pharmacologic Substance
+T115	PROC 3085 3096	Tratamiento
+#115	AnnotatorNotes T115	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T116	CHEM 3108 3125	corticoesteroides
+#116	AnnotatorNotes T116	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T117	CHEM 3143 3165	fármaco inmunosupresor
+#117	AnnotatorNotes T117	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T118	PROC 3229 3240	Tratamiento
+#118	AnnotatorNotes T118	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T119	CHEM 3252 3261	rituximab
+#119	AnnotatorNotes T119	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T120	CHEM 3269 3285	agente biológico
+#120	AnnotatorNotes T120	C0005515; Biological Factors; Biologically Active Substance
+T121	LIVB 3345 3354	Pacientes
+#121	AnnotatorNotes T121	C0030705; Patients; Patient or Disabled Group
+T122	CHEM 3389 3405	inmunosupresores
+#122	AnnotatorNotes T122	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T123	LIVB 3417 3424	Mujeres
+#123	AnnotatorNotes T123	C0043210; Woman; Population Group | C0242665; wife; Family Group
+T124	PROC 3429 3447	prueba de embarazo
+#124	AnnotatorNotes T124	C0032976; Pregnancy Tests; Diagnostic Procedure
+T125	PHYS 3439 3447	embarazo
+#125	AnnotatorNotes T125	C0032961; Pregnancy; Organism Function
+T126	PHYS 3470 3490	período de lactancia
+#126	AnnotatorNotes T126	C0022925; Lactation; Organ or Tissue Function
+T127	LIVB 3518 3525	Mujeres
+#127	AnnotatorNotes T127	C0043210; Woman; Population Group | C0242665; wife; Family Group
+T128	PROC 3550 3573	metodos anticonceptivos
+#128	AnnotatorNotes T128	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T129	CHEM 3558 3573	anticonceptivos
+#129	AnnotatorNotes T129	C0009871; Contraceptive Agents; Pharmacologic Substance
+T130	PROC 3604 3611	estudio
+#130	AnnotatorNotes T130	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity | C2603343; Study; Research Activity
+T131	DISO 3615 3626	Incapacidad
+#131	AnnotatorNotes T131	C0231172; handicapping condition; Finding
+T132	LIVB 3648 3657	individuo
+#132	AnnotatorNotes T132	C0027361; Persons; Population Group
+T133	LIVB 3666 3685	representante legal
+#133	AnnotatorNotes T133	C4288823; Legal Representative for the Study; Human
+T134	PROC 3695 3731	consentimiento informado por escrito
+#134	AnnotatorNotes T134	C0811741; Obtain informed written consent; Health Care Activity
+T135	DISO 3750 3766	condición médica
+#135	AnnotatorNotes T135	C4745084; Medical Condition; Finding
+T136	Quantifier_or_Qualifier 3767 3776	inestable
+T137	Quantifier_or_Qualifier 3781 3791	controlada
+T138	Observation 3818 3851	hallazgo de laboratorio relevante
+#138	AnnotatorNotes T138	C3648370; laboratory tests nonspecific abnormal findings; Finding (?)
+T139	LIVB 3879 3891	investigador
+#139	AnnotatorNotes T139	C0035173; Research Personnel; Professional or Occupational Group
+T140	LIVB 3969 3977	paciente
+#140	AnnotatorNotes T140	C0030705; Patients; Patient or Disabled Group
+T142	DISO 4001 4012	dependencia
+#142	AnnotatorNotes T142	C2919052; Alcohol or other drugs dependence; Mental or Behavioral Dysfunction
+T143	CHEM 4022 4028	drogas
+#143	AnnotatorNotes T143	C0813966; addictive drug; Hazardous or Poisonous Substance
+T144	Food 4031 4038	alcohol
+#144	AnnotatorNotes T144	C0001967; Alcoholic Beverages; Food
+T145	LIVB 4059 4071	investigador
+#145	AnnotatorNotes T145	C0035173; Research Personnel; Professional or Occupational Group
+T146	Observation 4107 4150	adherencia a los requerimientos del estudio
+#146	AnnotatorNotes T146	C0001511; Tissue Adhesions; Pathologic Function
+R1	Location_of Arg1:T4 Arg2:T15	
+R2	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T150	
+R3	Location_of Arg1:T16 Arg2:T12	
+R4	Location_of Arg1:T13 Arg2:T18	
+R5	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T149
+R6	Location_of Arg1:T17 Arg2:T14	
+R7	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T148	
+R8	Combined_with Arg1:T8 Arg2:T9	
+R9	Used_for Arg1:T8 Arg2:T7	
+R10	Combined_with Arg1:T10 Arg2:T11	
+R11	Used_for Arg1:T10 Arg2:T7	
+R12	Experiences Arg1:T20 Arg2:T7	
+R13	Experiences Arg1:T20 Arg2:T12
+R14	Used_for Arg1:T2 Arg2:T1	
+R15	Used_for Arg1:T3 Arg2:T1	
+T148	Quantifier_or_Qualifier 461 469	primaria
+#148	AnnotatorNotes T148	C0205225; Primary; Qualitative Concept
+T149	Quantifier_or_Qualifier 358 366	primaria
+#149	AnnotatorNotes T149	C0205225; Primary; Qualitative Concept
+T150	Quantifier_or_Qualifier 117 125	primaria
+#150	AnnotatorNotes T150	C0205225; Primary; Qualitative Concept
+#19	AnnotatorNotes T1	C1519252; Sequential Treatment; Therapeutic or Preventive Procedure
+T151	Observation 522 545	dispuestos a participar
+R16	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T151	
+T152	PHYS 564 568	leer
+#20	AnnotatorNotes T152	C2372013; Reading; Mental Process
+R17	Experiences Arg1:T21 Arg2:T152	
+T153	PHYS 571 581	comprender
+#151	AnnotatorNotes T153	C0162340; Comprehension; Mental Process
+R18	Experiences Arg1:T21 Arg2:T153	
+T154	CONC 599 618	hoja de información
+R19	Overlap Arg1:T153 Arg2:T154	
+R20	Overlap Arg1:T152 Arg2:T154	
+T155	PROC 640 654	consentimiento
+#152	AnnotatorNotes T155	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+R21	Experiences Arg1:T21 Arg2:T155	
+R22	Experiences Arg1:T22 Arg2:T155	
+R23	Experiences Arg1:T22 Arg2:T153	
+R24	Experiences Arg1:T22 Arg2:T152	
+R25	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T151	
+T156	Observation 663 690	participación en el estudio
+#153	AnnotatorNotes T156	C1278516; Patient participation status; Finding (?)
+R26	Before Arg1:T155 Arg2:T156	
+R27	Before Arg1:T25 Arg2:T156	
+R29	Before Arg1:T24 Arg2:T156	
+R28	Experiences Arg1:T22 Arg2:T25	
+R30	Experiences Arg1:T21 Arg2:T25	
+T23	PHYS 976 986	comprender
+#23	AnnotatorNotes T23	C0162340; Comprehension; Mental Process
+R31	Overlap Arg1:T23 Arg2:T27	
+T157	Observation 1020 1031;987 1005	cumplir con los procedimientos
+#154	AnnotatorNotes T157	C0582783; Ability to comply with treatment; Finding (?)
+R32	Overlap Arg1:T23 Arg2:T28	
+R33	Overlap Arg1:T157 Arg2:T28	
+T158	Age 1086 1102	mayor de 18 años
+T159	Quantifier_or_Qualifier 1109 1117	primaria
+#155	AnnotatorNotes T159	C0205225; Primary; Qualitative Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T159	
+T160	Duration 1151 1169	los últimos 2 años
+R35	Overlap Arg1:T29 Arg2:T160	
+R36	Overlap Arg1:T33 Arg2:T160	
+R37	Before Arg1:T32 Arg2:T31	
+R38	Experiences Arg1:T30 Arg2:T31	
+R39	Experiences Arg1:T30 Arg2:T32	
+R40	After Arg1:T31 Arg2:T34	
+R41	Experiences Arg1:T30 Arg2:T34	
+T161	Quantifier_or_Qualifier 1250 1260	espontánea
+#156	AnnotatorNotes T161	C0205359; Spontaneous; Functional Concept
+R42	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T161	
+R43	Experiences Arg1:T30 Arg2:T36	
+R44	Causes Arg1:T36 Arg2:T34	
+T35	Neg_cue 1315 1318	sin
+A1	Assertion T40 Negated
+R45	Negation Arg1:T35 Arg2:T40	
+A2	Assertion T39 Negated
+R46	Negation Arg1:T35 Arg2:T39	
+R47	Location_of Arg1:T41 Arg2:T39	
+R48	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T40	
+R49	Experiences Arg1:T30 Arg2:T39	
+T37	Observation 1360 1415	reúnen todos los demás criterios de inclusión/exclusión
+#35	AnnotatorNotes T37	C4329786; Eligibility Criteria Met By Subject; Finding
+T38	Result_or_Value 1432 1451	>= 45 ml/min/1.73m2
+T162	PROC 1419 1431	GFR estimada
+#37	AnnotatorNotes T162	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+R50	Has_Result_or_Value Arg1:T162 Arg2:T38	
+T163	Neg_cue 1851 1859	negativa
+A3	Assertion T54 Negated
+R51	Negation Arg1:T163 Arg2:T54	
+R52	Location_of Arg1:T56 Arg2:T53	
+R53	Experiences Arg1:T57 Arg2:T53	
+T55	Spec_cue 1873 1887	potencialmente
+T164	Quantifier_or_Qualifier 1888 1896	fértiles
+A4	Assertion T164 Speculated
+R54	Speculation Arg1:T55 Arg2:T164	
+R55	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T164	
+R56	Location_of Arg1:T61 Arg2:T60	
+R57	Causes Arg1:T66 Arg2:T65	
+T58	DISO 2218 2221	LES
+#38	AnnotatorNotes T58	C0024141; Lupus Erythematosus, Systemic; Disease or Syndrome
+R58	Causes Arg1:T78 Arg2:T77	
+R59	Causes Arg1:T63 Arg2:T60	
+R60	Causes Arg1:T64 Arg2:T60	
+T165	DISO 2030 2040	malignidad
+#55	AnnotatorNotes T165	C0006826; Malignant Neoplasms; Neoplastic Process
+R61	Causes Arg1:T165 Arg2:T60	
+R62	Causes Arg1:T65 Arg2:T60	
+R63	Causes Arg1:T67 Arg2:T60	
+R64	Causes Arg1:T68 Arg2:T60	
+R65	Causes Arg1:T69 Arg2:T60	
+R66	Causes Arg1:T70 Arg2:T60	
+R67	Causes Arg1:T71 Arg2:T60	
+R68	Causes Arg1:T72 Arg2:T60	
+R69	Causes Arg1:T58 Arg2:T60	
+R70	Causes Arg1:T73 Arg2:T60	
+T166	Duration 2285 2292	crónica
+#58	AnnotatorNotes T166	C0205191; chronic; Temporal Concept
+R71	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T76	
+R72	Has_Duration_or_Interval Arg1:T74 Arg2:T166	
+R73	Causes Arg1:T74 Arg2:T60	
+R74	Location_of Arg1:T80 Arg2:T79	
+T75	Result_or_Value 2365 2407	> 2.5 veces por encima del límite superior
+R75	Has_Result_or_Value Arg1:T85 Arg2:T75	
+R76	Has_Result_or_Value Arg1:T83 Arg2:T75	
+T81	Result_or_Value 2428 2458	> 1.5 veces el límite superior
+R77	Has_Result_or_Value Arg1:T87 Arg2:T81	
+T82	Quantifier_or_Qualifier 2337 2353	moderada o grave
+#75	AnnotatorNotes T82	C1299393; Moderate to severe; Qualitative Concept
+R78	Has_Quantifier_or_Qualifier Arg1:T79 Arg2:T82	
+T84	Observation 2483 2521	participando en cualquier otro estudio
+#81	AnnotatorNotes T84	C1278516; Patient participation status; Finding
+R79	Used_for Arg1:T93 Arg2:T92	
+R80	Experiences Arg1:T89 Arg2:T92	
+T86	Duration 2666 2676	primer mes
+R81	Has_Duration_or_Interval Arg1:T93 Arg2:T86	
+R82	Before Arg1:T92 Arg2:T96	
+R83	Before Arg1:T94 Arg2:T96	
+R84	Has_Duration_or_Interval Arg1:T94 Arg2:T86	
+R85	Experiences Arg1:T89 Arg2:T94	
+T90	Spec_cue 2776 2786	sospechada
+A5	Status T101 History_of
+A6	Assertion T101 Speculated
+R86	Speculation Arg1:T90 Arg2:T101	
+R87	Causes Arg1:T102 Arg2:T97	
+R88	Causes Arg1:T102 Arg2:T98	
+R89	Causes Arg1:T103 Arg2:T101	
+R90	Causes Arg1:T102 Arg2:T101	
+R91	Causes Arg1:T103 Arg2:T98	
+R92	Causes Arg1:T103 Arg2:T97	
+R93	Causes Arg1:T104 Arg2:T97	
+R94	Causes Arg1:T104 Arg2:T98	
+R95	Causes Arg1:T104 Arg2:T101	
+R96	Causes Arg1:T105 Arg2:T97	
+R97	Causes Arg1:T105 Arg2:T98	
+R98	Causes Arg1:T105 Arg2:T101	
+R99	Causes Arg1:T109 Arg2:T97	
+R100	Causes Arg1:T109 Arg2:T98	
+R101	Causes Arg1:T109 Arg2:T101	
+R102	Causes Arg1:T114 Arg2:T97	
+R103	Causes Arg1:T114 Arg2:T98	
+R104	Causes Arg1:T114 Arg2:T101	
+R105	Causes Arg1:T111 Arg2:T97	
+R106	Causes Arg1:T111 Arg2:T98	
+R107	Causes Arg1:T111 Arg2:T101	
+R108	Causes Arg1:T112 Arg2:T97	
+R109	Causes Arg1:T112 Arg2:T98	
+R110	Causes Arg1:T112 Arg2:T101	
+R111	Causes Arg1:T106 Arg2:T101	
+R112	Causes Arg1:T106 Arg2:T98	
+R113	Causes Arg1:T106 Arg2:T97	
+A7	Status T115 History_of
+A8	Status T116 History_of
+R114	Used_for Arg1:T116 Arg2:T115	
+A9	Status T117 History_of
+R115	Used_for Arg1:T117 Arg2:T115	
+T95	Duration 3169 3183	los seis meses
+T99	PROC 3206 3215	selección
+#82	AnnotatorNotes T99	C0242802; Patient Selection; Research Activity
+R116	Has_Duration_or_Interval Arg1:T116 Arg2:T95	
+R117	Has_Duration_or_Interval Arg1:T117 Arg2:T95	
+R118	Before Arg1:T115 Arg2:T99	
+T100	CONC 3216 3225	inclusión
+#84	AnnotatorNotes T100	C1512693; Inclusion; Qualitative Concept
+R119	Before Arg1:T115 Arg2:T100	
+A10	Status T118 History_of
+A11	Status T119 History_of
+A12	Status T120 History_of
+R120	Used_for Arg1:T119 Arg2:T118	
+R121	Used_for Arg1:T120 Arg2:T118	
+T110	Duration 3289 3299	los 2 años
+R122	Has_Duration_or_Interval Arg1:T120 Arg2:T110	
+R123	Has_Duration_or_Interval Arg1:T119 Arg2:T110	
+T113	CONC 3332 3341	inclusión
+#86	AnnotatorNotes T113	C1512693; Inclusion; Qualitative Concept
+T167	PROC 3322 3331	selección
+#90	AnnotatorNotes T167	C0242802; Patient Selection; Research Activity
+R124	Before Arg1:T118 Arg2:T167	
+R125	Before Arg1:T118 Arg2:T113	
+T168	Neg_cue 3370 3372	no
+R126	Experiences Arg1:T121 Arg2:T122	
+T169	Observation 3373 3386	respondedores
+#95	AnnotatorNotes T169	C0919876; Therapy responder; Finding
+R127	Has_Quantifier_or_Qualifier Arg1:T121 Arg2:T169	
+R128	Negation Arg1:T168 Arg2:T169	
+R129	Before Arg1:T122 Arg2:T169	
+R130	Experiences Arg1:T123 Arg2:T125	
+R131	Experiences Arg1:T123 Arg2:T124	
+R132	Experiences Arg1:T123 Arg2:T126	
+T170	Observation 3497 3516	planean embarazarse
+#99	AnnotatorNotes T170	C0032992; Pregnancy, Planned; Finding
+T171	PHYS 3505 3516	embarazarse
+#100	AnnotatorNotes T171	C0032961; Pregnancy; Organism Function
+R133	Experiences Arg1:T123 Arg2:T171	
+T172	Neg_cue 3530 3532	no
+R134	Used_for Arg1:T129 Arg2:T128	
+A13	Assertion T128 Negated
+A14	Assertion T129 Negated
+R135	Experiences Arg1:T127 Arg2:T128	
+R136	Negation Arg1:T172 Arg2:T128	
+R137	Negation Arg1:T172 Arg2:T129	
+R138	Overlap Arg1:T128 Arg2:T130	
+R139	Experiences Arg1:T132 Arg2:T131	
+T173	Neg_cue 3629 3631	no
+T174	Observation 3632 3643	disposición
+A15	Assertion T174 Negated
+#101	AnnotatorNotes T174	C0600109; Willing; Finding
+R140	Negation Arg1:T173 Arg2:T174	
+R141	Has_Quantifier_or_Qualifier Arg1:T135 Arg2:T136	
+T175	Neg_cue 3778 3780	no
+A16	Assertion T137 Negated
+R142	Negation Arg1:T175 Arg2:T137	
+R143	Has_Quantifier_or_Qualifier Arg1:T135 Arg2:T137	
+T176	Quantifier_or_Qualifier 3794 3799	grave
+#106	AnnotatorNotes T176	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R144	Has_Quantifier_or_Qualifier Arg1:T135 Arg2:T176	
+T177	Observation 3951 3964	participación
+#110	AnnotatorNotes T177	C1278516; Patient participation status; Finding
+R145	Experiences Arg1:T140 Arg2:T135	
+T141	Observation 3929 3935	riesgo
+#113	AnnotatorNotes T141	C0559571; At risk - finding; Finding
+R146	Overlap Arg1:T141 Arg2:T177	
+R147	Experiences Arg1:T140 Arg2:T141	
+R148	Before Arg1:T135 Arg2:T141	
+R149	Before Arg1:T138 Arg2:T141	
+R150	Causes Arg1:T143 Arg2:T142	
+R151	Causes Arg1:T144 Arg2:T142	
+T178	Observation 3995 3998;4031 4038	Uso alcohol
+#136	AnnotatorNotes T178	C4273278; alcohol use behavior; Finding | C5428797; finding of alcohol drinking behavior; Finding
+T179	Observation 3995 3998;4022 4028	Uso drogas
+#137	AnnotatorNotes T179	C0524395; Habitual drug user; Finding
+T180	Date 4013 4019	actual
+R152	Overlap Arg1:T142 Arg2:T180	
+R153	Overlap Arg1:T178 Arg2:T180	
+R154	Overlap Arg1:T179 Arg2:T180	
+R155	Before Arg1:T178 Arg2:T146	
+R156	Before Arg1:T142 Arg2:T146	
+R157	Before Arg1:T179 Arg2:T146	
+R158	Overlap Arg1:T42 Arg2:T45	
+T43	Result_or_Value 1487 1515	>4 g/day y persistiendo >50%
+R159	Has_Result_or_Value Arg1:T42 Arg2:T43	
+T44	CONC 1520 1531	valor basal
+#43	AnnotatorNotes T44	C1442488; Baseline; Quantitative Concept
+R160	Overlap Arg1:T42 Arg2:T46	
+R161	Overlap Arg1:T45 Arg2:T46	
+T147	Result_or_Value 1565 1572	<3 g/dL
+R162	Has_Result_or_Value Arg1:T46 Arg2:T147	
+T181	Duration 1583 1613	al menos un período de 6 meses
+R163	Has_Duration_or_Interval Arg1:T46 Arg2:T181	
+R164	Has_Duration_or_Interval Arg1:T42 Arg2:T181	
+T182	PROC 1626 1635	selección
+#44	AnnotatorNotes T182	C0242802; Patient Selection; Research Activity
+R165	Before Arg1:T42 Arg2:T182	
+R166	Before Arg1:T46 Arg2:T182	
+T183	Duration 1676 1692	al menos 2 meses
+T184	PROC 1705 1714	selección
+#141	AnnotatorNotes T184	C0242802; Patient Selection; Research Activity
+R167	Before Arg1:T47 Arg2:T184	
+T185	Duration 1766 1794	al menos los últimos 3 meses
+T186	Result_or_Value 1805 1818	< 140/90 mmHg
+R168	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T52	
+R169	Location_of Arg1:T51 Arg2:T48	
+T49	CONC 1715 1724	inclusión
+#49	AnnotatorNotes T49	C1512693; Inclusion; Qualitative Concept
+R170	Before Arg1:T47 Arg2:T49	
+T50	CHEM 1658 1662	ACEI
+#50	AnnotatorNotes T50	C0003015; Angiotensin-Converting Enzyme Inhibitors; Pharmacologic Substance
+R171	Used_for Arg1:T50 Arg2:T47	
+R172	Has_Duration_or_Interval Arg1:T50 Arg2:T183	
+T187	CHEM 1668 1671	ARB
+#52	AnnotatorNotes T187	C0815017; Angiotensin Receptor Antagonists; Pharmacologic Substance
+R173	Has_Duration_or_Interval Arg1:T187 Arg2:T183	
+R174	Used_for Arg1:T187 Arg2:T47	
+R175	Has_Duration_or_Interval Arg1:T48 Arg2:T185	
+R176	Has_Result_or_Value Arg1:T48 Arg2:T186	
+A17	Status T122 History_of
+R177	Before Arg1:T170 Arg2:T171	
+#147	AnnotatorNotes T154	C3890404; Clinical Trial Subject Information Form; Intellectual Product (?)
+#157	AnnotatorNotes T180	C0521116; Current (present time); Temporal Concept
+A18	Experiencer T20 Patient
+A19	Experiencer T21 Patient
+A20	Experiencer T22 Patient
+A21	Experiencer T30 Patient
+A22	Experiencer T57 Patient
+A23	Experiencer T89 Patient
+A24	Experiencer T121 Patient
+A25	Experiencer T123 Patient
+A26	Experiencer T127 Patient
+A27	Experiencer T132 Patient
+A28	Experiencer T133 Other
+A29	Experiencer T139 Other
+A30	Experiencer T145 Other
+A31	Experiencer T140 Patient
+A32	Status T171 Future

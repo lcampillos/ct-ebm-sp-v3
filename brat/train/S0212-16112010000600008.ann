@@ -1,0 +1,215 @@
+T1	DISO 131 147	obesidad morbida
+#1	AnnotatorNotes T1	C0028756; Morbid obesity; Disease or Syndrome
+T2	PROC 167 185	cirugía bariátrica
+#2	AnnotatorNotes T2	C1456587; Bariatric Surgery; Therapeutic or Preventive Procedure
+T3	PROC 187 235	bypass gástrico laparoscópico de una anastomosis
+T5	DISO 224 235	anastomosis
+#3	AnnotatorNotes T5	C0332853; Anastomosis; Acquired Abnormality
+T6	PROC 238 282	estudio prospectivo doble ciego aleatorizado
+#4	AnnotatorNotes T6	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T7	PROC 298 316	cirugía bariátrica
+#5	AnnotatorNotes T7	C1456587; Bariatric Surgery; Therapeutic or Preventive Procedure
+T8	DISO 1916 1931	co-morbilidades
+#6	AnnotatorNotes T8	C0009488; Comorbidity; Finding
+T9	PROC 1722 1735	procedimiento
+#7	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T10	DISO 387 403	obesidad mórbida
+#8	AnnotatorNotes T10	C0028756; Morbid obesity; Disease or Syndrome
+T11	PROC 845 858	procedimiento
+#9	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T12	PROC 1107 1119	aleatorizada
+#10	AnnotatorNotes T12	C0034656; Randomization; Research Activity
+T13	DISO 704 719	Obesos Mórbidos
+#11	AnnotatorNotes T13	C0028756; Morbid obesity; Disease or Syndrome
+T14	DISO 721 723	OM
+#12	AnnotatorNotes T14	C0028756; Morbid obesity; Disease or Syndrome
+T15	DISO 741 753	Super-Obesos
+T16	PROC 772 779	cirugía
+#13	AnnotatorNotes T16	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T17	PROC 1635 1638	IMC
+#14	AnnotatorNotes T17	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T18	DISO 2271 2290	efectos indeseables
+#15	AnnotatorNotes T18	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T19	PROC 1646 1662	presión arterial
+#16	AnnotatorNotes T19	C0005824; Blood pressure determination; Health Care Activity
+T20	PROC 1238 1245	cirugía
+#17	AnnotatorNotes T20	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T21	PROC 1431 1484	dieta hiperproteica normal sin carbohidratos o grasas
+T22	CHEM 1462 1475	carbohidratos
+#18	AnnotatorNotes T22	C0007004; Carbohydrates; Organic Chemical
+T23	PROC 1672 1691	niveles de glucemia
+#19	AnnotatorNotes T23	C0392201; Blood glucose measurement; Laboratory Procedure
+T24	PROC 1518 1525	cirugía
+#20	AnnotatorNotes T24	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T25	PROC 1582 1629	análisis se efectuó sobre la evolución del peso
+T26	PROC 1899 1902	IMC
+#21	AnnotatorNotes T26	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T27	Observation 1877 1892	pérdida de peso
+#22	AnnotatorNotes T27	C1262477; Weight decreased; Finding
+T28	DISO 2526 2547	riesgo cardiovascular
+#23	AnnotatorNotes T28	C4324389; Cardiovascular Risk; Finding
+T29	Observation 2046 2061	pérdida de peso
+#24	AnnotatorNotes T29	C1262477; Weight decreased; Finding
+T30	DISO 410 425	co-morbilidades
+#25	AnnotatorNotes T30	C0009488; Comorbidity; Finding
+T31	DISO 2093 2108	co-morbilidades
+#26	AnnotatorNotes T31	C0009488; Comorbidity; Finding
+T32	PROC 2197 2215	cirugía bariátrica
+#27	AnnotatorNotes T32	C1456587; Bariatric Surgery; Therapeutic or Preventive Procedure
+T33	Observation 2391 2406	pérdida de peso
+#28	AnnotatorNotes T33	C1262477; Weight decreased; Finding
+T34	DISO 2436 2451	co-morbilidades
+#29	AnnotatorNotes T34	C0009488; Comorbidity; Finding
+T35	PROC 2480 2500	dietas hipocalóricas
+#30	AnnotatorNotes T35	C0420182; dietary prophylaxis low calorie; Therapeutic or Preventive Procedure
+T36	ANAT 2533 2547	cardiovascular
+#31	AnnotatorNotes T36	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T37	PROC 2570 2588	proceso quirúrgico
+#32	AnnotatorNotes T37	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T38	PROC 16 59	dieta-formula normocalórica e hiperproteica
+T39	PROC 84 113	dieta normal baja en calorias
+#33	AnnotatorNotes T39	C1135809; Caloric Restriction; Therapeutic or Preventive Procedure (?)
+T40	ANAT 194 202	gástrico
+#34	AnnotatorNotes T40	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T41	PROC 938 981	dieta-fórmula hiperproteica y normocalórica
+T42	PROC 1035 1053	dieta hipocalórica
+#35	AnnotatorNotes T42	C0420182; dietary prophylaxis low calorie; Therapeutic or Preventive Procedure
+T43	PROC 1193 1199	dietas
+#36	AnnotatorNotes T43	C0012167; Reducing diet; Therapeutic or Preventive Procedure
+T44	PROC 1285 1338	dieta-fórmula hiperproteica y normocalórica en bricks
+T45	CHEM 1478 1484	grasas
+#37	AnnotatorNotes T45	C0015677; Fatty acid glycerol esters; Organic Chemical · Pharmacologic Substance
+T46	ANAT 1654 1662	arterial
+#38	AnnotatorNotes T46	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T47	PROC 2308 2321	dieta-fórmula
+#39	AnnotatorNotes T47	C0012164; Formula - diet; Therapeutic or Preventive Procedure
+T48	LIVB 117 126	pacientes
+#40	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 481 490	pacientes
+#41	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T51	Date 999 1012	preoperatoria
+#42	AnnotatorNotes T51	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T53	LIVB 1139 1148	pacientes
+#43	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Duration 1217 1224	20 días
+T55	Frequency 1361 1373	cada 6 horas
+T56	Duration 1382 1402	los primeros 12 días
+T57	Neg_cue 1458 1461	sin
+T58	Duration 1486 1504	Los últimos 8 días
+T60	LIVB 1778 1787	pacientes
+#44	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 1957 1966	pacientes
+#45	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	Date 2062 2075	preoperatoria
+#46	AnnotatorNotes T62	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T63	LIVB 2159 2168	pacientes
+#47	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T65	Spec_cue 2262 2270	posibles
+T50	Date 539 555	peri-operatorios
+#48	AnnotatorNotes T50	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T4	DISO 682 696	exceso de peso
+#49	AnnotatorNotes T4	C0497406; Overweight; Finding
+A1	Assertion T22 Negated
+A2	Assertion T45 Negated
+A3	Assertion T18 Speculated
+R1	Experiences Arg1:T48 Arg2:T39	
+R2	Experiences Arg1:T48 Arg2:T1	
+R3	Experiences Arg1:T48 Arg2:T38	
+R4	Experiences Arg1:T48 Arg2:T2	
+R5	Before Arg1:T39 Arg2:T2	
+R6	Before Arg1:T39 Arg2:T3	
+R7	Before Arg1:T38 Arg2:T2	
+R8	Before Arg1:T38 Arg2:T3	
+R9	Experiences Arg1:T48 Arg2:T3	
+R10	Location_of Arg1:T40 Arg2:T3	
+R11	Experiences Arg1:T48 Arg2:T5	
+R12	Overlap Arg1:T10 Arg2:T30	
+T52	Observation 531 538	riesgos
+R13	Overlap Arg1:T52 Arg2:T50	
+R14	Experiences Arg1:T49 Arg2:T52	
+R15	Overlap Arg1:T4 Arg2:T13	
+R16	Overlap Arg1:T4 Arg2:T14	
+R17	Overlap Arg1:T4 Arg2:T15	
+T59	Observation 644 655;689 696	disminución de peso
+R18	Before Arg1:T59 Arg2:T16	
+R19	Before Arg1:T59 Arg2:T11	
+R20	Overlap Arg1:T41 Arg2:T51	
+R21	Overlap Arg1:T42 Arg2:T51	
+T66	Food 1057 1063	comida
+R22	Used_for Arg1:T66 Arg2:T42	
+R23	Has_Duration_or_Interval Arg1:T43 Arg2:T54	
+R24	Before Arg1:T43 Arg2:T20	
+R25	Has_Frequency Arg1:T44 Arg2:T55	
+R26	Has_Duration_or_Interval Arg1:T44 Arg2:T56	
+R27	Negation Arg1:T57 Arg2:T22	
+R28	Negation Arg1:T57 Arg2:T45	
+R29	Used_for Arg1:T22 Arg2:T21	
+R30	Used_for Arg1:T45 Arg2:T21	
+R31	After Arg1:T24 Arg2:T58	
+R32	Location_of Arg1:T46 Arg2:T19	
+R33	Experiences Arg1:T60 Arg2:T27	
+R34	Experiences Arg1:T60 Arg2:T26	
+R35	Experiences Arg1:T60 Arg2:T8	
+R36	Experiences Arg1:T61 Arg2:T8	
+R37	Experiences Arg1:T61 Arg2:T26	
+R38	Overlap Arg1:T29 Arg2:T62	
+T67	Observation 2078 2085	mejoría
+R42	Experiences Arg1:T63 Arg2:T32	
+R43	Speculation Arg1:T65 Arg2:T18	
+R44	Experiences Arg1:T63 Arg2:T18	
+R45	Causes Arg1:T32 Arg2:T18	
+R47	Location_of Arg1:T36 Arg2:T28	
+R48	Overlap Arg1:T34 Arg2:T28	
+R49	Before Arg1:T35 Arg2:T37	
+R50	Before Arg1:T47 Arg2:T37	
+T68	Spec_cue 781 786	puede
+T69	Observation 787 794	mejorar
+A4	Assertion T69 Speculated
+R51	Speculation Arg1:T68 Arg2:T69	
+T70	Observation 825 840	morbimortalidad
+A5	Assertion T70 Speculated
+R52	Speculation Arg1:T68 Arg2:T76	
+#50	AnnotatorNotes T67	C0184511; Improved; Finding (?)
+#51	AnnotatorNotes T69	C0184511; Improved; Finding (?)
+T64	Food 1546 1561	líquidos claros
+#52	AnnotatorNotes T64	C3853257; Clear liquid supplement; Food (?)
+R53	Has_Duration_or_Interval Arg1:T64 Arg2:T58	
+R54	Before Arg1:T64 Arg2:T24	
+T71	Observation 1708 1735	tolerancia al procedimiento
+R55	Experiences Arg1:T61 Arg2:T27	
+R56	Before Arg1:T33 Arg2:T37	
+#53	AnnotatorNotes T59	C1262477; Weight decreased; Finding
+R57	Causes Arg1:T59 Arg2:T69	
+R58	Before Arg1:T59 Arg2:T76	
+T72	Observation 920 930	tolerancia
+R59	Before Arg1:T31 Arg2:T67	
+T73	Spec_cue 2217 2222	puede
+T74	Observation 2223 2230	mejorar
+A6	Assertion T74 Speculated
+R60	Speculation Arg1:T73 Arg2:T74	
+T75	CONC 2248 2257	minimizar
+A7	Assertion T75 Speculated
+R61	Speculation Arg1:T73 Arg2:T75	
+R62	Before Arg1:T11 Arg2:T70	
+T76	CONC 812 821	disminuir
+#54	AnnotatorNotes T76	C0547047; Decrease; Quantitative Concept
+A8	Assertion T76 Speculated
+R63	Speculation Arg1:T68 Arg2:T70	
+#55	AnnotatorNotes T52	C0559571; At risk; Finding
+#56	AnnotatorNotes T74	C0184511; Improved; Finding (?)
+T77	Observation 1 8	Efectos
+#57	AnnotatorNotes T77	C1518681; Outcome of Therapy; Finding (?)
+R64	Causes Arg1:T38 Arg2:T77	
+R65	Causes Arg1:T39 Arg2:T77	
+R66	Overlap Arg1:T72 Arg2:T41	
+R67	Overlap Arg1:T72 Arg2:T42	
+R68	Overlap Arg1:T71 Arg2:T9	
+R39	Causes Arg1:T47 Arg2:T33	
+#58	AnnotatorNotes T72	C5684674; patient tolerated procedure well; Finding (?)
+#59	AnnotatorNotes T66	C0016452; Food; Food
+A9	Experiencer T48 Patient
+A10	Experiencer T49 Patient
+A11	Experiencer T53 Patient
+A12	Experiencer T60 Patient
+A13	Experiencer T61 Patient
+A14	Experiencer T63 Patient

@@ -1,0 +1,170 @@
+T1	CHEM 77 85	albúmina
+#1	AnnotatorNotes T1	C0001924; Albumins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T2	PROC 92 102	prevención
+#2	AnnotatorNotes T2	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T3	DISO 107 128	síndrome hepatorrenal
+#3	AnnotatorNotes T3	C0019212; Hepatorenal Syndrome; Disease or Syndrome
+T4	DISO 130 133	SHR
+#4	AnnotatorNotes T4	C0019212; Hepatorenal Syndrome; Disease or Syndrome
+T5	DISO 165 173	cirrosis
+#5	AnnotatorNotes T5	C1623038; Cirrhosis; Disease or Syndrome
+T6	DISO 175 198	infecciones bacterianas
+#6	AnnotatorNotes T6	C0004623; Bacterial Infections; Disease or Syndrome
+T7	DISO 213 246	peritonitis bacteriana espontánea
+#7	AnnotatorNotes T7	C0275551; Primary bacterial peritonitis; Disease or Syndrome
+T8	DISO 345 353	cirrosis
+#8	AnnotatorNotes T8	C1623038; Cirrhosis; Disease or Syndrome
+T9	DISO 374 385	bacteriemia
+#9	AnnotatorNotes T9	C0004610; Bacteremia; Disease or Syndrome
+T10	ANAT 424 428	piel
+#10	AnnotatorNotes T10	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T11	ANAT 431 445	partes blandas
+#11	AnnotatorNotes T11	C0225317; soft tissue; Tissue
+T12	DISO 447 463	colangitis aguda
+#12	AnnotatorNotes T12	C0267917; Acute cholangitis; Disease or Syndrome
+T13	DISO 553 561	cirrosis
+#13	AnnotatorNotes T13	C1623038; Cirrhosis; Disease or Syndrome
+T14	DISO 775 795	infección bacteriana
+#14	AnnotatorNotes T14	C0004623; Bacterial Infections; Disease or Syndrome
+T15	DISO 671 682	bacteriemia
+#15	AnnotatorNotes T15	C0004610; Bacteremia; Disease or Syndrome
+T16	ANAT 721 725	piel
+#16	AnnotatorNotes T16	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T17	ANAT 728 742	partes blandas
+#17	AnnotatorNotes T17	C0225317; soft tissue; Tissue
+T18	DISO 744 760	colangitis aguda
+#18	AnnotatorNotes T18	C0267917; Acute cholangitis; Disease or Syndrome
+T19	DISO 364 372	neumonía
+#19	AnnotatorNotes T19	C0032285; Pneumonia; Disease or Syndrome
+T20	DISO 661 669	neumonía
+#20	AnnotatorNotes T20	C0032285; Pneumonia; Disease or Syndrome
+T21	PROC 59 73	administración
+#21	AnnotatorNotes T21	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T22	DISO 248 251	PBE
+T23	ANAT 116 128	hepatorrenal
+#22	AnnotatorNotes T23	C0545792; hepato-renal; Body Part, Organ, or Organ Component
+T24	PROC 572 582	creatinina
+#23	AnnotatorNotes T24	C0201975; Creatinine measurement; Laboratory Procedure
+T25	PROC 606 611	sodio
+#24	AnnotatorNotes T25	C0337443; Sodium measurement; Laboratory Procedure
+T26	PROC 638 649	bilirrubina
+#25	AnnotatorNotes T26	C0863174; Blood bilirubin measurement; Laboratory Procedure
+T27	DISO 478 498	infección bacteriana
+#26	AnnotatorNotes T27	C0004623; Bacterial Infections; Disease or Syndrome
+T28	DISO 411 445	infección de piel y partes blandas
+T29	DISO 708 742	infección de piel y partes blandas
+T30	Date 13 17	2013
+T31	LIVB 151 160	pacientes
+#27	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Spec_cue 260 269	riesgo de
+T33	LIVB 331 340	pacientes
+#28	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Spec_cue 466 477	sospecha de
+T35	LIVB 539 548	pacientes
+#29	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T39	Spec_cue 763 774	sospecha de
+T40	LIVB 187 198	bacterianas
+#30	AnnotatorNotes T40	C0004611; Bacteria; Bacterium
+T41	LIVB 225 235	bacteriana
+#31	AnnotatorNotes T41	C0004611; Bacteria; Bacterium
+T42	LIVB 488 498	bacteriana
+#32	AnnotatorNotes T42	C0004611; Bacteria; Bacterium
+T43	LIVB 785 795	bacteriana
+#33	AnnotatorNotes T43	C0004611; Bacteria; Bacterium
+T44	DISO 270 280	mortalidad
+#34	AnnotatorNotes T44	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T45	DISO 137 147	mortalidad
+#35	AnnotatorNotes T45	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T36	Neg_cue 199 212	diferentes de
+A1	Assertion T44 Speculated
+A2	Assertion T27 Speculated
+A3	Assertion T14 Speculated
+A4	Assertion T7 Negated
+A5	Assertion T22 Negated
+#36	AnnotatorNotes T22	C0275551; Primary bacterial peritonitis; Disease or Syndrome
+#37	AnnotatorNotes T29	C0852000; Skin structures and soft tissue infections; Disease or Syndrome
+T37	Quantifier_or_Qualifier 281 293	hospitalaria
+A6	Assertion T37 Speculated
+R1	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T37	
+R2	Speculation Arg1:T32 Arg2:T44	
+R3	Speculation Arg1:T32 Arg2:T37	
+R4	Used_for Arg1:T1 Arg2:T21	
+T38	Observation 46 52	Efecto
+#38	AnnotatorNotes T38	C1518681; Outcome of Therapy; Finding (?)
+R5	Causes Arg1:T21 Arg2:T38	
+R7	Location_of Arg1:T23 Arg2:T3	
+R8	Location_of Arg1:T23 Arg2:T4	
+R9	Experiences Arg1:T31 Arg2:T38	
+R10	Experiences Arg1:T31 Arg2:T21	
+R11	Experiences Arg1:T31 Arg2:T2	
+R15	Before Arg1:T3 Arg2:T45	
+R16	Before Arg1:T4 Arg2:T45	
+R17	Before Arg1:T2 Arg2:T3	
+R18	Before Arg1:T2 Arg2:T4	
+R19	Experiences Arg1:T31 Arg2:T5	
+R20	Experiences Arg1:T31 Arg2:T6	
+R21	Causes Arg1:T40 Arg2:T6	
+R22	Negation Arg1:T36 Arg2:T7	
+R23	Negation Arg1:T36 Arg2:T22	
+R24	Causes Arg1:T41 Arg2:T7	
+R25	Causes Arg1:T41 Arg2:T22	
+#39	AnnotatorNotes T37	C1510665; Hospital environment; Qualitative Concept 
+R26	Experiences Arg1:T31 Arg2:T7	
+R27	Experiences Arg1:T31 Arg2:T22	
+T46	Observation 255 269	alto riesgo de
+#40	AnnotatorNotes T46	C0332167; High risk of; Finding
+R28	Experiences Arg1:T31 Arg2:T46	
+R29	Before Arg1:T46 Arg2:T44	
+R30	Experiences Arg1:T33 Arg2:T8	
+R31	Experiences Arg1:T33 Arg2:T19	
+R32	Experiences Arg1:T33 Arg2:T9	
+R33	Experiences Arg1:T33 Arg2:T28	
+#41	AnnotatorNotes T28	C0852000; Skin structures and soft tissue infections; Disease or Syndrome
+R34	Experiences Arg1:T33 Arg2:T12	
+R35	Speculation Arg1:T34 Arg2:T27	
+R36	Causes Arg1:T42 Arg2:T27	
+R37	Experiences Arg1:T33 Arg2:T27	
+R38	Location_of Arg1:T10 Arg2:T28	
+R39	Location_of Arg1:T11 Arg2:T28	
+T47	Quantifier_or_Qualifier 386 396	espontánea
+#42	AnnotatorNotes T47	C0205359; Spontaneous; Functional Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T47	
+T48	Quantifier_or_Qualifier 683 693	espontánea
+#43	AnnotatorNotes T48	C0205359; Spontaneous; Functional Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T48	
+R42	Location_of Arg1:T16 Arg2:T29	
+R43	Location_of Arg1:T17 Arg2:T29	
+R44	Speculation Arg1:T39 Arg2:T14	
+R45	Causes Arg1:T43 Arg2:T14	
+T49	Quantifier_or_Qualifier 562 570	avanzada
+#44	AnnotatorNotes T49	C0205179; Advanced phase; Qualitative Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T49	
+T50	Quantifier_or_Qualifier 354 362	avanzada
+#45	AnnotatorNotes T50	C0205179; Advanced phase; Qualitative Concept
+R47	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T50	
+T51	Result_or_Value 583 604	mayor igual 1.2 mg/dl
+R48	Has_Result_or_Value Arg1:T24 Arg2:T51	
+T52	Quantifier_or_Qualifier 399 409	secundaria
+#46	AnnotatorNotes T52	C0175668; Secondary to; Qualitative Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T52	
+T53	Quantifier_or_Qualifier 696 706	secundaria
+#47	AnnotatorNotes T53	C0175668; Secondary to; Qualitative Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T53	
+R51	Experiences Arg1:T35 Arg2:T13	
+R52	Experiences Arg1:T35 Arg2:T24	
+R53	Experiences Arg1:T35 Arg2:T25	
+T54	Result_or_Value 612 633	menor igual 130 mEq/l
+R54	Has_Result_or_Value Arg1:T25 Arg2:T54	
+T55	Result_or_Value 650 658	≥4 mg/dl
+R58	Has_Result_or_Value Arg1:T26 Arg2:T55	
+R59	Experiences Arg1:T35 Arg2:T26	
+R60	Experiences Arg1:T35 Arg2:T20	
+R61	Experiences Arg1:T35 Arg2:T15	
+R62	Experiences Arg1:T35 Arg2:T29	
+R63	Experiences Arg1:T35 Arg2:T18	
+R64	Experiences Arg1:T35 Arg2:T14	
+R12	Experiences Arg1:T31 Arg2:T44	
+R13	Used_for Arg1:T1 Arg2:T2	
+A7	Experiencer T31 Patient
+A8	Experiencer T33 Patient
+A9	Experiencer T35 Patient

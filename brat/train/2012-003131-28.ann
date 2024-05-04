@@ -1,0 +1,153 @@
+T1	PROC 46 56	Evaluación
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	CHEM 127 139	bifosfonatos
+#2	AnnotatorNotes T2	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
+T3	DISO 214 232	baja densidad ósea
+#3	AnnotatorNotes T3	C0029453; Osteopenia; Disease or Syndrome
+T4	CHEM 149 161	Bazedoxifeno
+#4	AnnotatorNotes T4	C2346970; bazedoxifene; Organic Chemical · Pharmacologic Substance
+T5	CHEM 430 442	bifosfonatos
+#5	AnnotatorNotes T5	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
+T6	PROC 523 530	terapia
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	PROC 576 595	visita de screening
+#7	AnnotatorNotes T7	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T8	CHEM 611 623	bifosfonatos
+#8	AnnotatorNotes T8	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
+T9	PROC 669 676	terapia
+#9	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	PROC 724 743	visita de screening
+#10	AnnotatorNotes T10	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T11	CHEM 759 771	bifosfonatos
+#11	AnnotatorNotes T11	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
+T12	PROC 840 843	DXA
+#12	AnnotatorNotes T12	C1510486; Dual-Energy X-Ray Absorptiometry; Diagnostic Procedure
+T13	PROC 869 872	DXA
+#13	AnnotatorNotes T13	C1510486; Dual-Energy X-Ray Absorptiometry; Diagnostic Procedure
+T14	ANAT 884 902	vertebras lumbares
+#14	AnnotatorNotes T14	C0024091; Bone structure of lumbar vertebra; Body Part, Organ, or Organ Component | C1269051; Entire lumbar vertebra; Body Part, Organ, or Organ Component
+T15	PROC 926 929	DXA
+#15	AnnotatorNotes T15	C1510486; Dual-Energy X-Ray Absorptiometry; Diagnostic Procedure
+T16	ANAT 943 949	cadera
+#16	AnnotatorNotes T16	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T17	PROC 301 325	consentimiento informado
+#17	AnnotatorNotes T17	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T18	ANAT 228 232	ósea
+#18	AnnotatorNotes T18	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T19	CHEM 535 547	bifosfonatos
+#19	AnnotatorNotes T19	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
+T20	CHEM 681 693	bifosfonatos
+#20	AnnotatorNotes T20	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
+T21	PHYS 93 108	posmenopáusicas
+#21	AnnotatorNotes T21	C0206159; Postmenopause; Organism Function
+T22	PHYS 193 209	postmenopáusicas
+#22	AnnotatorNotes T22	C0206159; Postmenopause; Organism Function
+T23	Date 13 17	2012
+T25	LIVB 85 92	mujeres
+#23	AnnotatorNotes T25	C0043210; Woman; Population Group
+T27	Route 140 146	orales
+#24	AnnotatorNotes T27	C1527415; Oral Route of Drug administration; Functional Concept
+T28	LIVB 185 192	Mujeres
+#25	AnnotatorNotes T28	C0043210; Woman; Population Group
+T31	LIVB 372 379	mujeres
+#26	AnnotatorNotes T31	C0043210; Woman; Population Group
+T32	Age 383 408	55 años de edad o mayores
+T34	Frequency 443 450	diarios
+T35	Frequency 452 461	semanales
+T36	Frequency 464 473	mensuales
+T37	Duration 482 497	al menos 3 años
+T38	Neg_cue 548 550	no
+T39	Duration 551 563	más de 1 mes
+T40	LIVB 599 606	sujetos
+#27	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	Frequency 624 631	diarios
+T42	Frequency 634 643	semanales
+T43	Neg_cue 694 696	no
+T44	Duration 697 711	más de 2 meses
+T45	LIVB 747 754	sujetos
+#28	AnnotatorNotes T45	C0681850; Study Subject; Group
+T46	Frequency 772 781	mensuales
+T47	DEVI 832 843	escáner DXA
+#29	AnnotatorNotes T47	C0178949; Densitometers, Bone, X-Ray, Dual-Energy Absorptiometry; Medical Device
+A1	Assertion T44 Negated
+A2	Assertion T39 Negated
+A3	Status T5 History_of
+A4	Status T6 History_of
+A5	Status T19 History_of
+A6	Status T8 History_of
+A7	Status T9 History_of
+A8	Status T20 History_of
+A9	Status T11 History_of
+T24	Observation 235 254	buen estado general
+#30	AnnotatorNotes T24	C1277245; General health good; Finding
+T26	Observation 64 71	efectos
+#31	AnnotatorNotes T26	C1518681; Outcome of Therapy; Finding (?)
+R1	Experiences Arg1:T25 Arg2:T26	
+R2	Experiences Arg1:T25 Arg2:T21	
+R3	Experiences Arg1:T25 Arg2:T2	
+R4	Experiences Arg1:T25 Arg2:T4	
+R5	Before Arg1:T2 Arg2:T4	
+R6	Has_Route_or_Mode Arg1:T2 Arg2:T27	
+R7	Causes Arg1:T4 Arg2:T26	
+R8	Experiences Arg1:T28 Arg2:T22	
+R9	Overlap Arg1:T22 Arg2:T3	
+R10	Overlap Arg1:T22 Arg2:T24	
+R11	Location_of Arg1:T18 Arg2:T3	
+R12	Experiences Arg1:T28 Arg2:T3	
+R13	Experiences Arg1:T28 Arg2:T24	
+T29	PROC 351 358	estudio
+#32	AnnotatorNotes T29	C0008976; Clinical Trials; Research Activity
+R14	Before Arg1:T17 Arg2:T29	
+R15	Has_Age Arg1:T31 Arg2:T32	
+R16	Has_Frequency Arg1:T5 Arg2:T34	
+R17	Has_Frequency Arg1:T5 Arg2:T35	
+R18	Has_Frequency Arg1:T5 Arg2:T36	
+R19	Has_Duration_or_Interval Arg1:T5 Arg2:T37	
+R20	Used_for Arg1:T19 Arg2:T6	
+R21	Negation Arg1:T38 Arg2:T39	
+R22	Has_Duration_or_Interval Arg1:T19 Arg2:T39	
+R23	Before Arg1:T6 Arg2:T7	
+R24	Experiences Arg1:T40 Arg2:T6	
+R25	Experiences Arg1:T40 Arg2:T8	
+R26	Has_Frequency Arg1:T8 Arg2:T41	
+R27	Has_Frequency Arg1:T8 Arg2:T42	
+R28	Before Arg1:T8 Arg2:T7	
+R29	Has_Duration_or_Interval Arg1:T8 Arg2:T39	
+R30	Before Arg1:T9 Arg2:T10	
+R31	Used_for Arg1:T20 Arg2:T9	
+R32	Has_Duration_or_Interval Arg1:T20 Arg2:T44	
+R33	Negation Arg1:T43 Arg2:T44	
+R34	Experiences Arg1:T45 Arg2:T9	
+R35	Experiences Arg1:T45 Arg2:T11	
+R36	Has_Frequency Arg1:T11 Arg2:T46	
+R37	Has_Duration_or_Interval Arg1:T11 Arg2:T44	
+R38	Before Arg1:T11 Arg2:T10	
+R39	Used_for Arg1:T47 Arg2:T12	
+T30	Observation 791 798	T-score
+#33	AnnotatorNotes T30	C4687935; Bone Mineral Density T-Score; Finding
+T33	Result_or_Value 802 815	= -2,0 a -4,0
+R41	Has_Result_or_Value Arg1:T30 Arg2:T33	
+T48	Quantifier_or_Qualifier 873 883	al menos 2
+R42	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T48	
+R43	Used_for Arg1:T14 Arg2:T13	
+T49	Quantifier_or_Qualifier 930 942	al menos una
+R44	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T49	
+R45	Used_for Arg1:T16 Arg2:T15	
+T50	Quantifier_or_Qualifier 655 665	finalizado
+#34	AnnotatorNotes T50	C1272693; Ended - status; Qualitative Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T50	
+T51	Quantifier_or_Qualifier 509 519	finalizado
+#35	AnnotatorNotes T51	C1272693; Ended - status; Qualitative Concept
+R47	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T51	
+T52	PHYS 78 81	DMO
+#36	AnnotatorNotes T52	C0005938; Bone Density; Clinical Attribute
+R48	Experiences Arg1:T25 Arg2:T52	
+T53	PHYS 219 232	densidad ósea
+#37	AnnotatorNotes T53	C0005938; Bone Density; Clinical Attribute
+R49	Location_of Arg1:T18 Arg2:T53	
+R51	Overlap Arg1:T52 Arg2:T21	
+A10	Experiencer T25 Patient
+A11	Experiencer T28 Patient
+A12	Experiencer T31 Patient
+A13	Experiencer T40 Patient
+A14	Experiencer T45 Patient

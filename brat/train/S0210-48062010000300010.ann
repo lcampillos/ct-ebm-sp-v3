@@ -1,0 +1,186 @@
+T1	PROC 1 24	Análisis de la utilidad
+T2	PROC 31 53	preparación intestinal
+#1	AnnotatorNotes T2	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+T3	PROC 60 70	prevención
+#2	AnnotatorNotes T3	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T4	PROC 108 127	cirugía endoscópica
+#3	AnnotatorNotes T4	C0282493; Surgical Endoscopy; Diagnostic Procedure
+T5	PROC 172 203	preparación mecánica intestinal
+T6	ANAT 193 203	intestinal
+#4	AnnotatorNotes T6	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T7	PROC 216 237	cirugía endourológica
+T8	DISO 257 287	complicaciones postoperatorias
+#5	AnnotatorNotes T8	C0032787; Postoperative Complications; Pathologic Function
+T9	PROC 323 357	estudio prospectivo y aleatorizado
+#6	AnnotatorNotes T9	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T10	PROC 376 388	intervenidos
+#7	AnnotatorNotes T10	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T11	ANAT 402 409	vesical
+#8	AnnotatorNotes T11	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T12	ANAT 415 425	prostática
+#9	AnnotatorNotes T12	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T13	PROC 556 561	enema
+#10	AnnotatorNotes T13	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T14	PROC 574 581	cirugía
+#11	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T15	DISO 632 650	infección urinaria
+#12	AnnotatorNotes T15	C0042029; Urinary tract infection; Disease or Syndrome
+T16	DISO 652 655	ITU
+#13	AnnotatorNotes T16	C0042029; Urinary tract infection; Disease or Syndrome
+T17	DISO 658 664	fiebre
+#14	AnnotatorNotes T17	C0015967; Fever; Sign or Symptom
+T18	DISO 666 690	retención aguda de orina
+#15	AnnotatorNotes T18	C0341742; Acute retention of urine; Sign or Symptom
+T19	PROC 705 711	enemas
+#16	AnnotatorNotes T19	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T20	CHEM 714 722	laxantes
+#17	AnnotatorNotes T20	C0282090; Laxatives; Pharmacologic Substance
+T21	PROC 820 840	análisis descriptivo
+T22	DISO 1020 1023	ITU
+#18	AnnotatorNotes T22	C0042029; Urinary tract infection; Disease or Syndrome
+T23	DISO 1038 1044	fiebre
+#19	AnnotatorNotes T23	C0015967; Fever; Sign or Symptom
+T24	DISO 1063 1087	retención aguda de orina
+#20	AnnotatorNotes T24	C0341742; Acute retention of urine; Sign or Symptom
+T25	PROC 1108 1114	enemas
+#21	AnnotatorNotes T25	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T26	CHEM 1117 1125	laxantes
+#22	AnnotatorNotes T26	C0282090; Laxatives; Pharmacologic Substance
+T27	ANAT 1167 1172	heces
+#23	AnnotatorNotes T27	C0015733; Feces; Body Substance
+T28	PROC 1361 1383	preparación intestinal
+#24	AnnotatorNotes T28	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+T29	PROC 1406 1412	enemas
+#25	AnnotatorNotes T29	C0014268; Administration of enema; Therapeutic or Preventive Procedure
+T30	DISO 1454 1468	complicaciones
+#26	AnnotatorNotes T30	C0009566; Complication; Pathologic Function
+T31	PROC 1498 1519	cirugía endourológica
+T32	ANAT 43 53	intestinal
+#27	AnnotatorNotes T32	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T33	DISO 74 104	complicaciones postoperatorias
+#28	AnnotatorNotes T33	C0032787; Postoperative Complications; Pathologic Function
+T34	ANAT 642 650	urinaria
+#29	AnnotatorNotes T34	C1508753; Urinary system; Body System
+T35	ANAT 1373 1383	intestinal
+#30	AnnotatorNotes T35	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T36	PROC 398 409	RTU vesical
+#31	AnnotatorNotes T36	C0401496; Transurethral resection of bladder neoplasm; Therapeutic or Preventive Procedure (?)
+T37	PROC 411 425	RTU prostática
+#32	AnnotatorNotes T37	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T38	PROC 428 447	adenomectomía láser
+T39	Date 89 104	postoperatorias
+#33	AnnotatorNotes T39	C0032790; Postoperative Period; Temporal Concept
+T40	Date 272 287	postoperatorias
+#34	AnnotatorNotes T40	C0032790; Postoperative Period; Temporal Concept
+T41	LIVB 366 375	pacientes
+#35	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Date 454 469	octubre de 2008
+T43	Date 472 487	febrero de 2009
+T47	LIVB 510 518	paciente
+#36	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 525 534	pacientes
+#37	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Date 734 748	postoperatorio
+#38	AnnotatorNotes T49	C0032790; Postoperative Period; Temporal Concept
+T50	DEVI 768 784	campo quirúrgico
+#39	AnnotatorNotes T50	C0180511; Surgical Drape; Medical Device
+T51	Age 923 932	70,5 años
+T52	Duration 971 979	4,8 días
+T53	LIVB 1005 1014	pacientes
+#40	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	DEVI 1177 1193	campo quirúrgico
+#41	AnnotatorNotes T54	C0180511; Surgical Drape; Medical Device
+T57	Date 1480 1494	postoperatorio
+#42	AnnotatorNotes T57	C0032790; Postoperative Period; Temporal Concept
+T59	ANAT 685 690	orina
+#43	AnnotatorNotes T59	C0042036; Urine; Body Substance
+T61	ANAT 1082 1087	orina
+#44	AnnotatorNotes T61	C0042036; Urine; Body Substance
+T44	DEVI 442 447	láser
+#45	AnnotatorNotes T44	C1706315; Laser Device; Medical Device
+T45	Neg_cue 1413 1415	no
+T46	CONC 1430 1438	utilidad
+A1	Assertion T46 Negated
+R1	Negation Arg1:T45 Arg2:T46	
+T55	Neg_cue 1202 1204	No
+T56	CONC 1220 1231	diferencias
+A2	Assertion T56 Negated
+#46	AnnotatorNotes T56	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T55 Arg2:T56	
+T58	CONC 493 500	excluir
+A3	Assertion T58 Negated
+T60	Neg_cue 489 492	sin
+R3	Negation Arg1:T60 Arg2:T58	
+#47	AnnotatorNotes T58	C0332196; Exclude; Functional Concept (?)
+T62	LIVB 1306 1323	grupos de estudio
+#48	AnnotatorNotes T62	C2348561; Study Population (group); Population Group
+R4	Location_of Arg1:T35 Arg2:T28	
+R5	Combined_with Arg1:T28 Arg2:T29	
+R6	Location_of Arg1:T32 Arg2:T2	
+R7	Before Arg1:T3 Arg2:T33	
+R8	Overlap Arg1:T33 Arg2:T39	
+R9	Causes Arg1:T4 Arg2:T33	
+R10	Before Arg1:T2 Arg2:T4	
+R11	Location_of Arg1:T6 Arg2:T5	
+R12	Before Arg1:T5 Arg2:T7	
+R13	Overlap Arg1:T8 Arg2:T40	
+R14	Causes Arg1:T7 Arg2:T8	
+R15	Experiences Arg1:T41 Arg2:T10	
+R16	Experiences Arg1:T41 Arg2:T36	
+R17	Experiences Arg1:T41 Arg2:T37	
+R18	Experiences Arg1:T41 Arg2:T38	
+R19	Used_for Arg1:T44 Arg2:T38	
+R20	Location_of Arg1:T12 Arg2:T37	
+R21	Location_of Arg1:T11 Arg2:T36	
+R22	After Arg1:T9 Arg2:T42	
+R23	Before Arg1:T9 Arg2:T43	
+R24	After Arg1:T10 Arg2:T42	
+R25	Before Arg1:T10 Arg2:T43	
+R26	After Arg1:T36 Arg2:T42	
+R27	Before Arg1:T36 Arg2:T43	
+R28	After Arg1:T37 Arg2:T42	
+R29	Before Arg1:T37 Arg2:T43	
+R30	After Arg1:T38 Arg2:T42	
+R31	Before Arg1:T38 Arg2:T43	
+R32	Experiences Arg1:T47 Arg2:T10	
+R33	Experiences Arg1:T47 Arg2:T36	
+R34	Experiences Arg1:T47 Arg2:T37	
+R35	Experiences Arg1:T47 Arg2:T38	
+R36	Experiences Arg1:T48 Arg2:T13	
+R37	Before Arg1:T13 Arg2:T14	
+R38	Experiences Arg1:T48 Arg2:T14	
+R39	Location_of Arg1:T34 Arg2:T15	
+R40	Location_of Arg1:T34 Arg2:T16	
+R41	Location_of Arg1:T59 Arg2:T18	
+R42	Overlap Arg1:T20 Arg2:T49	
+R43	Overlap Arg1:T19 Arg2:T49	
+T63	Observation 750 784	contaminación del campo quirúrgico
+T64	CONC 790 798	estancia
+#49	AnnotatorNotes T64	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R44	Overlap Arg1:T15 Arg2:T49	
+R45	Overlap Arg1:T16 Arg2:T49	
+R46	Overlap Arg1:T17 Arg2:T49	
+R47	Overlap Arg1:T18 Arg2:T49	
+T65	CONC 865 871	t test
+#50	AnnotatorNotes T65	C0871472; t-Test; Intellectual Product
+T66	CONC 875 887	chi cuadrado
+#51	AnnotatorNotes T66	C0008041; Chi-Square Test; Intellectual Product
+T67	CONC 949 957	estancia
+#52	AnnotatorNotes T67	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R48	Has_Duration_or_Interval Arg1:T67 Arg2:T52	
+R49	Experiences Arg1:T53 Arg2:T22	
+R50	Experiences Arg1:T53 Arg2:T23	
+R51	Experiences Arg1:T53 Arg2:T24	
+R52	Location_of Arg1:T61 Arg2:T24	
+R53	Experiences Arg1:T53 Arg2:T25	
+R54	Experiences Arg1:T53 Arg2:T26	
+T68	Observation 1149 1193	contaminación con heces del campo quirúrgico
+R55	Overlap Arg1:T30 Arg2:T57	
+R56	Causes Arg1:T31 Arg2:T30	
+R57	Before Arg1:T28 Arg2:T31	
+#53	AnnotatorNotes T46	C3827682; Useful; Qualitative Concept (?)
+A4	Experiencer T41 Patient
+A5	Experiencer T47 Patient
+A6	Experiencer T48 Patient
+A7	Experiencer T53 Patient
+A8	Experiencer T62 Patient

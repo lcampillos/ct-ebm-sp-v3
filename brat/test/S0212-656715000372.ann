@@ -1,0 +1,186 @@
+T1	PROC 1 11	Evaluación
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	DISO 107 131	diabetes mellitus tipo 2
+#2	AnnotatorNotes T2	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T3	PROC 158 186	programa de ejercicio físico
+#3	AnnotatorNotes T3	C0452240; Physical therapy exercises; Therapeutic or Preventive Procedure
+T4	PROC 240 256	presión arterial
+#4	AnnotatorNotes T4	C0005824; Blood pressure determination; Health Care Activity
+T5	PROC 291 294	IMC
+#5	AnnotatorNotes T5	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T6	PROC 258 260	PA
+#6	AnnotatorNotes T6	C0005824; Blood pressure determination; Health Care Activity
+T7	DISO 300 309	lipidemia
+#7	AnnotatorNotes T7	C1706412; Lipidemias; Finding
+T8	ANAT 321 335	cardiovascular
+#8	AnnotatorNotes T8	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T9	PROC 475 487	Intervención
+#9	AnnotatorNotes T9	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T10	DISO 314 335	riesgo cardiovascular
+#10	AnnotatorNotes T10	C4324389; Cardiovascular Risk; Finding
+T11	PROC 526 558	Análisis por intención de tratar
+#11	AnnotatorNotes T11	C2718028; Intention to Treat Analysis; Research Activity
+T12	PROC 576 593	Atención primaria
+#12	AnnotatorNotes T12	C0033137; Primary Health Care; Health Care Activity
+T13	DISO 943 946	RCV
+#13	AnnotatorNotes T13	C4324389; Cardiovascular Risk; Finding
+T14	DISO 703 720	diabéticos tipo 2
+#14	AnnotatorNotes T14	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T15	PROC 784 796	intervención
+#15	AnnotatorNotes T15	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T16	PROC 820 832	Intervención
+#16	AnnotatorNotes T16	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T17	PROC 916 921	HbA1c
+#17	AnnotatorNotes T17	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T18	PROC 923 925	PA
+#18	AnnotatorNotes T18	C0005824; Blood pressure determination; Health Care Activity
+T19	DISO 932 941	lipidemia
+#19	AnnotatorNotes T19	C1706412; Lipidemias; Finding
+T20	DISO 957 971	complicaciones
+#20	AnnotatorNotes T20	C0009566; Complication; Pathologic Function
+T21	PROC 1049 1051	PA
+#21	AnnotatorNotes T21	C0005824; Blood pressure determination; Health Care Activity
+T22	PROC 1058 1068	colesterol
+#22	AnnotatorNotes T22	C0201950; Cholesterol measurement test; Laboratory Procedure
+T23	PROC 1140 1152	PA sistólica
+#23	AnnotatorNotes T23	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T24	PROC 1053 1056	IMC
+#24	AnnotatorNotes T24	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T25	PROC 1196 1199	IMC
+#25	AnnotatorNotes T25	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T26	DISO 1490 1500	diabéticos
+#26	AnnotatorNotes T26	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T27	DISO 1338 1341	RCV
+#27	AnnotatorNotes T27	C4324389; Cardiovascular Risk; Finding
+T28	DISO 1624 1627	RCV
+#28	AnnotatorNotes T28	C4324389; Cardiovascular Risk; Finding
+T29	PROC 1598 1600	PA
+#29	AnnotatorNotes T29	C0005824; Blood pressure determination; Health Care Activity
+T30	PROC 188 190	EF
+#30	AnnotatorNotes T30	C0452240; Physical therapy exercises; Therapeutic or Preventive Procedure
+T31	PROC 204 227	hemoglobina glucosilada
+#31	AnnotatorNotes T31	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T32	PROC 229 234	HbA1c
+#32	AnnotatorNotes T32	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T33	ANAT 248 256	arterial
+#33	AnnotatorNotes T33	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T34	PROC 266 289	índice de masa corporal
+#34	AnnotatorNotes T34	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T35	ANAT 281 289	corporal
+#35	AnnotatorNotes T35	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T36	PROC 421 473	Ensayo clínico aleatorizado controlado, simple ciego
+#36	AnnotatorNotes T36	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0150108; Blinded; Research Activity
+T37	PROC 489 524	programa de EF aeróbico supervisado
+T38	PROC 834 857	EF aeróbico supervisado
+T39	PROC 927 930	IMC
+#37	AnnotatorNotes T39	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T40	PROC 980 982	EF
+#38	AnnotatorNotes T40	C0452240; Physical therapy exercises; Therapeutic or Preventive Procedure
+T41	PROC 1042 1047	HbA1c
+#39	AnnotatorNotes T41	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T42	PROC 1097 1102	HbA1c
+#40	AnnotatorNotes T42	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T43	PROC 1234 1244	colesterol
+#41	AnnotatorNotes T43	C0201950; Cholesterol measurement test; Laboratory Procedure
+T44	PROC 1288 1291	LDL
+#42	AnnotatorNotes T44	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+T45	PROC 1523 1558	programa de EF aeróbico supervisado
+T46	PROC 1588 1593	HbA1c
+#43	AnnotatorNotes T46	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T47	DISO 1605 1619	colesterolemia
+#44	AnnotatorNotes T47	C0020443; Hypercholesterolemia; Disease or Syndrome
+T48	PROC 18 58	programa de ejercicio físico supervisado
+T49	DISO 337 340	RCV
+#45	AnnotatorNotes T49	C4324389; Cardiovascular Risk; Finding
+T50	LIVB 62 71	pacientes
+#46	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Age 84 102	mayores de 65 años
+T57	Age 725 735	65-80 años
+T58	LIVB 754 767	grupo control
+#47	AnnotatorNotes T58	C0009932; Control Groups; Group
+T59	LIVB 778 796	grupo intervención
+#48	AnnotatorNotes T59	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T60	Duration 859 865	50 min
+T62	Frequency 867 880	2 días/semana
+T63	Duration 882 889	3 meses
+T64	Date 1009 1025	postintervención
+#49	AnnotatorNotes T64	C3272301; Post-Procedure; Temporal Concept
+T67	Age 1501 1519	mayores de 65 años
+T71	PHYS 1140 1142	PA
+#50	AnnotatorNotes T71	C0005823; Blood Pressure; Organism Function
+T52	LIVB 769 771	GC
+#51	AnnotatorNotes T52	C0009932; Control Groups; Group
+T53	LIVB 798 800	GI
+#52	AnnotatorNotes T53	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T54	LIVB 1079 1081	GI
+#53	AnnotatorNotes T54	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T55	LIVB 683 696	Participantes
+#54	AnnotatorNotes T55	C4554048; Study Participant; Population Group
+R1	Experiences Arg1:T50 Arg2:T48	
+R2	Has_Age Arg1:T50 Arg2:T51	
+R3	Experiences Arg1:T50 Arg2:T2	
+T56	Observation 72 83	sedentarios
+#55	AnnotatorNotes T56	C1532253; Sedentary lifestyle; Finding
+R4	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T56	
+R5	Overlap Arg1:T56 Arg2:T2	
+R6	Location_of Arg1:T33 Arg2:T4	
+R7	Location_of Arg1:T35 Arg2:T34	
+R8	Location_of Arg1:T33 Arg2:T6	
+R9	Location_of Arg1:T35 Arg2:T5	
+R10	Location_of Arg1:T8 Arg2:T10	
+R11	Location_of Arg1:T8 Arg2:T49	
+T61	CONC 387 405	gasto farmacéutico
+T65	Observation 346 375	estado de salud autopercibido
+#56	AnnotatorNotes T65	C0516984; Perceived general health; Finding (?)
+T66	Observation 737 748	sedentarios
+#57	AnnotatorNotes T66	C1532253; Sedentary lifestyle; Finding
+R12	Overlap Arg1:T14 Arg2:T66	
+R13	Has_Age Arg1:T58 Arg2:T57	
+R14	Has_Age Arg1:T52 Arg2:T57	
+R15	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T66	
+R16	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T66	
+R17	Experiences Arg1:T58 Arg2:T14	
+R18	Experiences Arg1:T52 Arg2:T14	
+R19	Experiences Arg1:T59 Arg2:T15	
+R20	Experiences Arg1:T53 Arg2:T15	
+R21	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T66	
+R22	Experiences Arg1:T59 Arg2:T14	
+R23	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T66	
+R24	Experiences Arg1:T53 Arg2:T14	
+T68	Observation 803 812	Abandonos
+#58	AnnotatorNotes T68	C1701941; Treatment withdrawal; Finding (?)
+R25	Has_Duration_or_Interval Arg1:T38 Arg2:T60	
+R26	Has_Frequency Arg1:T38 Arg2:T62	
+R27	Has_Duration_or_Interval Arg1:T38 Arg2:T63	
+R28	Overlap Arg1:T20 Arg2:T40	
+T69	CONC 997 1008	Diferencias
+#59	AnnotatorNotes T69	C1705241; Delta (difference); Quantitative Concept
+R29	Overlap Arg1:T69 Arg2:T64	
+R30	Overlap Arg1:T41 Arg2:T64	
+R31	Overlap Arg1:T21 Arg2:T64	
+R32	Overlap Arg1:T24 Arg2:T64	
+R33	Overlap Arg1:T22 Arg2:T64	
+T70	Observation 1082 1102	disminución de HbA1c
+#60	AnnotatorNotes T70	C0855304; Glycosylated haemoglobin decreased; Finding
+R34	Experiences Arg1:T54 Arg2:T70	
+R35	Experiences Arg1:T54 Arg2:T42	
+R37	Has_Age Arg1:T26 Arg2:T67	
+T72	CONC 192 200	modifica
+A1	Assertion T72 Speculated
+#61	AnnotatorNotes T72	C3242344; modify status; Functional Concept
+T73	Spec_cue 152 154	si
+R38	Speculation Arg1:T73 Arg2:T72	
+R36	Experiences Arg1:T54 Arg2:T71	
+R39	Experiences Arg1:T54 Arg2:T23	
+R40	Experiences Arg1:T54 Arg2:T25	
+R41	Experiences Arg1:T54 Arg2:T43	
+R42	Experiences Arg1:T54 Arg2:T44	
+R43	Experiences Arg1:T54 Arg2:T27	
+A2	Experiencer T50 Patient
+A3	Experiencer T55 Patient
+A4	Experiencer T58 Patient
+A5	Experiencer T52 Patient
+A6	Experiencer T59 Patient
+A7	Experiencer T53 Patient
+A8	Experiencer T54 Patient
+R44	Has_Result_or_Value Arg1:T42 Arg2:T70	

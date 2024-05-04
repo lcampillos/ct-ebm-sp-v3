@@ -1,0 +1,50 @@
+T1	DISO 70 87	Fibrosis Quística
+#1	AnnotatorNotes T1	C0010674; Cystic Fibrosis; Disease or Syndrome
+T2	DISO 98 117	enfermedad pulmonar
+#2	AnnotatorNotes T2	C0024115; Lung diseases; Disease or Syndrome
+T3	PROC 136 167	evaluar la eficacia y seguridad
+#3	AnnotatorNotes T3	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T4	CHEM 193 216	fármacos experimentales
+T5	PROC 240 328	Estudio fase III, aleatorizado, doble ciego, controlado con placebo, de grupos paralelos
+T6	DISO 479 500	mutación F508del-CFTR
+T7	PROC 334 365	evaluar la eficacia y seguridad
+#4	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T8	CHEM 395 404	Ivacaftor
+#5	AnnotatorNotes T8	C3264621; ivacaftor; Organic Chemical · Pharmacologic Substance
+T9	DISO 440 457	fibrosis quística
+#6	AnnotatorNotes T9	C0010674; Cystic Fibrosis; Disease or Syndrome
+T10	ANAT 109 117	pulmonar
+#7	AnnotatorNotes T10	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T11	CHEM 369 375	VX-661
+#8	AnnotatorNotes T11	C4548293; VX-661; Organic Chemical · Pharmacologic Substance
+T12	Date 13 17	2014
+T13	LIVB 57 65	personas
+#9	AnnotatorNotes T13	C0027361; Persons; Population Group
+T14	LIVB 408 415	sujetos
+#10	AnnotatorNotes T14	C0681850; Study Subject; Group
+T15	Age 416 435	a partir de 12 años
+T17	GENE 496 500	CFTR
+#11	AnnotatorNotes T17	C1413365; CFTR gene; Gene or Genome
+R1	Experiences Arg1:T13 Arg2:T1	
+R2	Location_of Arg1:T10 Arg2:T2	
+R3	Experiences Arg1:T13 Arg2:T2	
+T16	Quantifier_or_Qualifier 118 129	hereditaria
+#12	AnnotatorNotes T16	C0439660; Hereditary; Functional Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T16	
+R5	Experiences Arg1:T13 Arg2:T4	
+R6	Combined_with Arg1:T11 Arg2:T8	
+R7	Experiences Arg1:T14 Arg2:T11	
+R8	Has_Age Arg1:T14 Arg2:T15	
+R9	Experiences Arg1:T14 Arg2:T9	
+#13	AnnotatorNotes T4	C0013230; Investigational New Drugs; Pharmacologic Substance (?)
+#14	AnnotatorNotes T6	C5208139; CFTR delta F508; Cell or Molecular Dysfunction
+T18	PHYS 459 470	homocigotos
+#15	AnnotatorNotes T18	C0019904; Homozygote; Organism Attribute
+R10	Experiences Arg1:T14 Arg2:T6	
+R11	Experiences Arg1:T14 Arg2:T18	
+R12	Location_of Arg1:T17 Arg2:T6	
+R13	Overlap Arg1:T18 Arg2:T6	
+R14	Overlap Arg1:T9 Arg2:T6	
+R15	Overlap Arg1:T9 Arg2:T18	
+A1	Experiencer T13 Patient
+A2	Experiencer T14 Patient

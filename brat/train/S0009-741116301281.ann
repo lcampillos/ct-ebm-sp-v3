@@ -1,0 +1,118 @@
+T1	DISO 68 75	empiema
+#1	AnnotatorNotes T1	C0014009; Empyema; Disease or Syndrome
+T2	PROC 77 122	Estudio prospectivo, comparativo aleatorizado
+#2	AnnotatorNotes T2	C1579762; comparative study research; Research Activity + C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T3	DISO 141 151	fuga aérea
+#3	AnnotatorNotes T3	C3161208; Persistent air leak; Disease or Syndrome + C3161097; Postoperative air leak; Pathologic Function (?)
+T4	PROC 178 198	pleuro-decorticación
+#4	AnnotatorNotes T4	C1735600; Pleural decortication; Therapeutic or Preventive Procedure
+T5	DISO 213 227	complicaciones
+#5	AnnotatorNotes T5	C0009566; Complication; Pathologic Function
+T6	DISO 298 308	fuga aérea
+#6	AnnotatorNotes T6	C3161208; Persistent air leak; Disease or Syndrome + C3161097; Postoperative air leak; Pathologic Function (?)
+T7	PROC 376 383	drenaje
+#7	AnnotatorNotes T7	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T8	DISO 410 417	empiema
+#8	AnnotatorNotes T8	C0014009; Empyema; Disease or Syndrome
+T9	PROC 509 528	pleurodecorticación
+#9	AnnotatorNotes T9	C1735600; Pleural decortication; Therapeutic or Preventive Procedure
+T10	PROC 487 499	intervenidos
+#10	AnnotatorNotes T10	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T11	DISO 695 705	fuga aérea
+#11	AnnotatorNotes T11	C3161208; Persistent air leak; Disease or Syndrome + C3161097; Postoperative air leak; Pathologic Function (?)
+T12	PROC 756 769	internamiento
+#12	AnnotatorNotes T12	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T13	PROC 781 803	retiro de los drenajes
+#13	AnnotatorNotes T13	C0411815; Removal of drain; Therapeutic or Preventive Procedure
+T14	DISO 818 832	complicaciones
+#14	AnnotatorNotes T14	C0009566; Complication; Pathologic Function
+T15	DISO 880 890	fuga aérea
+#15	AnnotatorNotes T15	C3161208; Persistent air leak; Disease or Syndrome + C3161097; Postoperative air leak; Pathologic Function (?)
+T16	PROC 954 961	drenaje
+#16	AnnotatorNotes T16	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T17	DISO 1005 1015	fuga aérea
+#17	AnnotatorNotes T17	C3161208; Persistent air leak; Disease or Syndrome + C3161097; Postoperative air leak; Pathologic Function (?)
+T18	PROC 1098 1115	retiro de drenaje
+#18	AnnotatorNotes T18	C0411815; Removal of drain; Therapeutic or Preventive Procedure
+T19	DISO 1249 1263	complicaciones
+#19	AnnotatorNotes T19	C0009566; Complication; Pathologic Function
+T20	PROC 1444 1451	drenaje
+#20	AnnotatorNotes T20	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T21	PROC 16 32	drenaje torácico
+#21	AnnotatorNotes T21	C0742345; CHEST WALL ABSCESS DRAINAGE; Therapeutic or Preventive Procedure
+T22	ANAT 24 32	torácico
+#22	AnnotatorNotes T22	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T23	PROC 44 63	pleurodecorticación
+#23	AnnotatorNotes T23	C1735600; Pleural decortication; Therapeutic or Preventive Procedure
+T24	PROC 588 600	aleatorizada
+#24	AnnotatorNotes T24	C0034656; Randomization; Research Activity
+T25	PROC 329 345	drenaje torácico
+#25	AnnotatorNotes T25	C0742345; CHEST WALL ABSCESS DRAINAGE; Therapeutic or Preventive Procedure
+T26	ANAT 337 345	torácico
+#26	AnnotatorNotes T26	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T31	LIVB 396 405	pacientes
+#27	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 605 614	pacientes
+#28	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	Duration 650 656	un año
+T34	Date 706 720	postoperatoria
+#29	AnnotatorNotes T34	C0032790; Postoperative Period; Temporal Concept
+T35	Duration 1203 1217	8.9 ± 4.0 días
+T27	Duration 1023 1032	2.5 ± 1.8
+T28	Duration 1035 1044	2.4 ± 2.2
+T29	Duration 1120 1129	4.5 ± 1.8
+T30	Duration 1132 1141	5.1 ± 2.5
+T37	Duration 1191 1200	7.8 ± 3.7
+T36	Quantifier_or_Qualifier 1377 1390	significativa
+A1	Assertion T36 Negated
+#30	AnnotatorNotes T36	C0750502; Significant; Idea or Concept
+T38	Neg_cue 1374 1376	no
+R1	Negation Arg1:T38 Arg2:T36	
+R2	Location_of Arg1:T22 Arg2:T21	
+T39	Quantifier_or_Qualifier 33 40	digital
+#31	AnnotatorNotes T39	C1883674; Digital; Qualitative Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T39	
+T40	Quantifier_or_Qualifier 346 353	digital
+#32	AnnotatorNotes T40	C1883674; Digital; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T40	
+R5	Location_of Arg1:T26 Arg2:T25	
+R6	Overlap Arg1:T21 Arg2:T23	
+T41	Quantifier_or_Qualifier 152 162	prolongada
+#33	AnnotatorNotes T41	C0439590; Prolonged; Temporal Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T41	
+R8	After Arg1:T3 Arg2:T4	
+R9	Causes Arg1:T4 Arg2:T5	
+R10	Before Arg1:T25 Arg2:T6	
+R11	Before Arg1:T7 Arg2:T6	
+R12	Experiences Arg1:T31 Arg2:T8	
+R13	Experiences Arg1:T31 Arg2:T6	
+T42	Quantifier_or_Qualifier 421 436	clase IIB o III
+R15	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T42	
+R16	Experiences Arg1:T31 Arg2:T10	
+R17	Experiences Arg1:T31 Arg2:T9	
+R18	Overlap Arg1:T25 Arg2:T9	
+R19	Overlap Arg1:T7 Arg2:T9	
+R20	Overlap Arg1:T25 Arg2:T10	
+R21	Overlap Arg1:T7 Arg2:T10	
+T43	CONC 438 485	clasificación de la Sociedad Americana de Tórax
+T44	Quantifier_or_Qualifier 891 901	prolongada
+#34	AnnotatorNotes T44	C0439590; Prolonged; Temporal Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T44	
+R23	Has_Duration_or_Interval Arg1:T17 Arg2:T27	
+R24	Has_Duration_or_Interval Arg1:T17 Arg2:T28	
+R25	Has_Duration_or_Interval Arg1:T18 Arg2:T29	
+R26	Has_Duration_or_Interval Arg1:T18 Arg2:T30	
+T45	CONC 1157 1183	estancia intrahospitalaria
+#35	AnnotatorNotes T45	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R27	Has_Duration_or_Interval Arg1:T45 Arg2:T37	
+R28	Has_Duration_or_Interval Arg1:T45 Arg2:T35	
+R31	Before Arg1:T16 Arg2:T15	
+R32	Before Arg1:T16 Arg2:T17	
+T46	PROC 622 632	estudiados
+#36	AnnotatorNotes T46	C0681814; research study; Research Activity
+R33	Has_Duration_or_Interval Arg1:T46 Arg2:T33	
+R35	Overlap Arg1:T11 Arg2:T34	
+R37	Overlap Arg1:T14 Arg2:T34	
+R14	Overlap Arg1:T13 Arg2:T34	
+A2	Experiencer T31 Patient
+A3	Experiencer T32 Patient

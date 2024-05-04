@@ -1,0 +1,176 @@
+T1	PROC 1 123	Trasplante alogénico de células progenitoras hematopoyéticas de sangre periférica con acondicionamiento de baja intensidad
+T2	ANAT 25 82	células progenitoras hematopoyéticas de sangre periférica
+T3	PROC 129 140	tratamiento
+#1	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 145 184	carcinoma de células claras metastásico
+#2	AnnotatorNotes T4	C2931852; Clear-cell metastatic renal cell carcinoma; Neoplastic Process
+T5	PROC 226 237	seguimiento
+#3	AnnotatorNotes T5	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T6	DISO 267 276	toxicidad
+#4	AnnotatorNotes T6	C0600688; Toxic effect; Injury or Poisoning
+T7	PROC 293 378	transplante alogénico de células progenitoras hematopoyéticas con intensidad reducida
+T8	ANAT 318 354	células progenitoras hematopoyéticas
+#5	AnnotatorNotes T8	C0018956; Hematopoietic stem cells; Cell
+T9	PROC 380 392	mini-alo TMO
+T10	DISO 397 424	carcinoma renal metastásico
+#6	AnnotatorNotes T10	C2931852; Clear-cell metastatic renal cell carcinoma; Neoplastic Process
+T11	PROC 459 480	tratamiento sistémico
+T12	PROC 547 560	inmunoterapia
+#7	AnnotatorNotes T12	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T13	PROC 626 638	mini-alo TMO
+T14	CHEM 680 691	Fludarabina
+#8	AnnotatorNotes T14	C0059985; fludarabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T15	PROC 737 748	infusión IV
+#9	AnnotatorNotes T15	C0021440; Intravenous infusion procedures; Therapeutic or Preventive Procedure
+T16	CHEM 764 772	Busulfán
+#10	AnnotatorNotes T16	C0006463; busulfan; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T17	DISO 1124 1172	enfermedad injerto contra huésped aguda hepática
+#11	AnnotatorNotes T17	C1739104; Acute graft versus host disease in liver; Disease or Syndrome
+T18	ANAT 1164 1172	hepática
+#12	AnnotatorNotes T18	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T19	PROC 1249 1261	mini-alo TMO
+T20	DISO 1291 1318	carcinoma renal metastásico
+#13	AnnotatorNotes T20	C2931852; Clear-cell metastatic renal cell carcinoma; Neoplastic Process
+T21	PROC 1398 1414	ensayos fase III
+#14	AnnotatorNotes T21	C0282461; Phase 3 Clinical Trials; Research Activity
+T22	ANAT 158 172	células claras
+T23	ANAT 407 412	renal
+#16	AnnotatorNotes T23	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T24	PROC 642 649	régimen
+#17	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	DISO 1100 1108	falleció
+#18	AnnotatorNotes T25	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T26	ANAT 1301 1306	renal
+#19	AnnotatorNotes T26	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T28	Duration 214 222	dos años
+T29	LIVB 498 507	pacientes
+#20	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Date 567 573	I/2001
+T31	Date 576 582	I/2003
+T32	LIVB 586 595	pacientes
+#21	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T34	Dose 693 701	30 mg/m2
+T36	Route 746 748	IV
+#22	AnnotatorNotes T36	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T37	Duration 752 762	30 minutos
+T38	Dose 774 781	1 mg/kg
+T39	Frequency 794 806	cada 6 horas
+T40	Route 807 811	v.o.
+T41	Dose 834 841	4 dosis
+T42	Date 845 856	día -6 y -5
+T43	Dose 864 871	2 dosis
+T44	Dose 879 887	10 dosis
+T45	LIVB 915 924	pacientes
+#23	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 947 955	paciente
+#24	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 969 978	pacientes
+#25	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1026 1035	pacientes
+#26	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Duration 1054 1068	más de 6 meses
+T50	LIVB 1091 1099	paciente
+#27	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Date 1112 1119	día +30
+T53	LIVB 1222 1231	pacientes
+#28	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Spec_cue 1265 1273	factible
+T55	LIVB 1277 1286	pacientes
+#29	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T57	PHYS 46 61	hematopoyéticas
+#30	AnnotatorNotes T57	C0018951; Hematopoiesis; Organ or Tissue Function
+T59	PHYS 339 354	hematopoyéticas
+#31	AnnotatorNotes T59	C0018951; Hematopoiesis; Organ or Tissue Function
+T60	ANAT 1135 1142	injerto
+#32	AnnotatorNotes T60	C0332835; Transplanted tissue; Tissue
+T61	LIVB 1150 1157	huésped
+#33	AnnotatorNotes T61	C1167395; Host (organism); Organism
+T27	Date 705 733	los días -9, -8, -7, -6 y -5
+T33	Date 812 832	los días -6, -5 y -4
+T35	Date 872 877	el -4
+T56	Date 993 996	+30
+#34	AnnotatorNotes T56	[Day +30]
+T58	Date 999 1002	+60
+#35	AnnotatorNotes T58	[Day +60]
+A1	Assertion T19 Speculated
+T52	CONC 1383 1394	confirmarse
+A2	Assertion T52 Speculated
+#36	AnnotatorNotes T52	C1456348; Confirm; Qualitative Concept
+T62	Spec_cue 1375 1382	debería
+R1	Speculation Arg1:T62 Arg2:T52	
+T63	CONC 1366 1374	eficacia
+A3	Assertion T63 Speculated
+#37	AnnotatorNotes T63	C1280519; Effectiveness; Qualitative Concept
+R2	Speculation Arg1:T62 Arg2:T63	
+R5	Location_of Arg1:T22 Arg2:T4	
+R6	Has_Duration_or_Interval Arg1:T5 Arg2:T28	
+T64	Quantifier_or_Qualifier 238 244	mínimo
+R7	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T64	
+#38	AnnotatorNotes T64	C0547040; Minimal; Qualitative Concept
+R12	Location_of Arg1:T23 Arg2:T10	
+T65	Quantifier_or_Qualifier 437 455	al menos a 1 línea
+R13	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T65	
+T66	Quantifier_or_Qualifier 425 436	refractario
+#39	AnnotatorNotes T66	C0205269; Unresponsive to Treatment; Functional Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T66	
+R15	Before Arg1:T11 Arg2:T7	
+R16	Causes Arg1:T7 Arg2:T6	
+R17	Experiences Arg1:T29 Arg2:T12	
+R18	After Arg1:T12 Arg2:T30	
+R19	Before Arg1:T12 Arg2:T31	
+R20	Experiences Arg1:T32 Arg2:T13	
+R21	Before Arg1:T12 Arg2:T13	
+R22	After Arg1:T13 Arg2:T30	
+R23	Before Arg1:T13 Arg2:T31	
+R24	Has_Dose_or_Strength Arg1:T14 Arg2:T34	
+R25	Overlap Arg1:T14 Arg2:T27	
+R26	Used_for Arg1:T14 Arg2:T15	
+R27	Has_Route_or_Mode Arg1:T14 Arg2:T36	
+R28	Has_Duration_or_Interval Arg1:T14 Arg2:T37	
+R29	Has_Dose_or_Strength Arg1:T16 Arg2:T38	
+R30	Has_Frequency Arg1:T16 Arg2:T39	
+R31	Has_Route_or_Mode Arg1:T16 Arg2:T40	
+R32	Overlap Arg1:T16 Arg2:T33	
+R33	Has_Dose_or_Strength Arg1:T16 Arg2:T41	
+R34	Overlap Arg1:T16 Arg2:T42	
+R35	Has_Dose_or_Strength Arg1:T16 Arg2:T43	
+R36	Overlap Arg1:T16 Arg2:T35	
+R37	Has_Dose_or_Strength Arg1:T16 Arg2:T44	
+T67	Quantifier_or_Qualifier 888 896	en total
+R38	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T67	
+T68	Observation 979 990	progresaron
+#40	AnnotatorNotes T68	C1457868; Worse; Finding (?)
+R39	Experiences Arg1:T47 Arg2:T68	
+R40	Overlap Arg1:T68 Arg2:T56	
+R41	Overlap Arg1:T68 Arg2:T58	
+R42	Experiences Arg1:T50 Arg2:T25	
+R43	Overlap Arg1:T25 Arg2:T51	
+R44	Causes Arg1:T17 Arg2:T25	
+R45	Location_of Arg1:T60 Arg2:T17	
+R46	Location_of Arg1:T18 Arg2:T17	
+R47	Experiences Arg1:T61 Arg2:T17	
+R48	Experiences Arg1:T50 Arg2:T17	
+T69	Observation 1040 1053	sobrevivieron
+R49	Experiences Arg1:T48 Arg2:T69	
+R50	Has_Duration_or_Interval Arg1:T69 Arg2:T49	
+R51	Speculation Arg1:T54 Arg2:T19	
+R52	Experiences Arg1:T55 Arg2:T20	
+R53	Location_of Arg1:T26 Arg2:T20	
+R54	Experiences Arg1:T55 Arg2:T19	
+#41	AnnotatorNotes T67	C0439810; Total; Qualitative Concept
+T70	Observation 1189 1208	quimerismo completo
+R58	Experiences Arg1:T53 Arg2:T70	
+#42	AnnotatorNotes T11	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+R3	Before Arg1:T11 Arg2:T9	
+#15	AnnotatorNotes T22	C1513940; Neoplastic Clear Cell; Cell (?)
+#43	AnnotatorNotes T40	C1527415; Oral Route of Drug administration; Functional Concept
+A4	Experiencer T50 Patient
+A5	Experiencer T61 Patient
+A6	Experiencer T48 Patient
+A7	Experiencer T55 Patient
+A8	Experiencer T53 Patient
+A9	Experiencer T29 Patient
+A10	Experiencer T32 Patient
+A11	Experiencer T45 Patient
+A12	Experiencer T46 Patient
+A13	Experiencer T47 Patient

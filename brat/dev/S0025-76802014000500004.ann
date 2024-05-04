@@ -1,0 +1,122 @@
+T1	CHEM 1 12	Miltefosina
+#1	AnnotatorNotes T1	C0068006; miltefosine; Organic Chemical · Pharmacologic Substance
+T2	CHEM 20 44	antimoniato de meglumina
+#2	AnnotatorNotes T2	C1096768; meglumine antimoniate; Organic Chemical · Pharmacologic Substance
+T3	PROC 51 62	tratamiento
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 69 89	leishmaniasis mucosa
+#4	AnnotatorNotes T4	C1328252; Mucocutaneous leishmaniasis; Disease or Syndrome
+T5	PROC 94 118	tratamiento convencional
+#5	AnnotatorNotes T5	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure
+T6	DISO 127 153	leishmaniasis tegumentaria
+T7	CHEM 160 184	antimoniato de meglumina
+#6	AnnotatorNotes T7	C1096768; meglumine antimoniate; Organic Chemical · Pharmacologic Substance
+T8	DISO 246 262	efectos adversos
+#7	AnnotatorNotes T8	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T9	PROC 420 445	ensayo clínico de fase II
+#8	AnnotatorNotes T9	C0282460; Phase 2 Clinical Trials; Research Activity
+T10	DISO 463 483	leishmaniasis mucosa
+#9	AnnotatorNotes T10	C1328252; Mucocutaneous leishmaniasis; Disease or Syndrome
+T11	PROC 498 517	comparó la eficacia
+#10	AnnotatorNotes T11	C1707887; Efficacy Study; Research Activity
+T12	CHEM 521 532	miltefosina
+#11	AnnotatorNotes T12	C0068006; miltefosine; Organic Chemical · Pharmacologic Substance
+T13	PROC 679 708	videofibroscopia nasofaríngea
+T14	PROC 594 604	evaluación
+#12	AnnotatorNotes T14	C1261322; Evaluation procedure; Health Care Activity
+T15	PROC 627 639	tratamientos
+#13	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 663 674	seguimiento
+#14	AnnotatorNotes T16	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T17	DISO 747 763	lesiones mucosas
+#15	AnnotatorNotes T17	C2673622; Mucosal lesions; Finding
+T18	PROC 797 808	seguimiento
+#16	AnnotatorNotes T18	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T19	CHEM 926 937	miltefosina
+#17	AnnotatorNotes T19	C0068006; miltefosine; Organic Chemical · Pharmacologic Substance
+T20	PROC 947 960	quimioterapia
+#18	AnnotatorNotes T20	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure + C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T21	CHEM 1031 1042	miltefosina
+#19	AnnotatorNotes T21	C0068006; miltefosine; Organic Chemical · Pharmacologic Substance
+T22	ANAT 141 153	tegumentaria
+#20	AnnotatorNotes T22	C0037267; Integumentary system; Body System
+T23	PROC 286 311	administración parenteral
+#21	AnnotatorNotes T23	C0678823; parenteral administration; Therapeutic or Preventive Procedure
+T24	CHEM 568 588	compuesto antimonial
+T25	Route 301 311	parenteral
+#22	AnnotatorNotes T25	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T26	LIVB 449 458	pacientes
+#23	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	Route 537 545	vía oral
+#24	AnnotatorNotes T27	C1527415; Oral Route of Drug administration; Functional Concept
+T28	LIVB 816 825	pacientes
+#25	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T30	Date 852 857	ahora
+T31	LIVB 904 913	pacientes
+#26	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T29	Neg_cue 828 830	No
+T32	CONC 858 869	diferencias
+#27	AnnotatorNotes T32	C1705241; Delta (difference); Quantitative Concept
+A1	Assertion T32 Negated
+R1	Negation Arg1:T29 Arg2:T32	
+R2	Overlap Arg1:T32 Arg2:T30	
+T33	Spec_cue 1043 1049	podría
+T34	CONC 1065 1076	alternativa
+A2	Assertion T34 Speculated
+#28	AnnotatorNotes T34	C1523987; Alternative; Qualitative Concept
+T35	Quantifier_or_Qualifier 1089 1097	efectiva
+A3	Assertion T35 Speculated
+#29	AnnotatorNotes T35	C1280519; Effectiveness; Qualitative Concept
+T36	Quantifier_or_Qualifier 1100 1106	segura
+A4	Assertion T36 Speculated
+R3	Speculation Arg1:T33 Arg2:T34	
+R4	Speculation Arg1:T33 Arg2:T35	
+R5	Speculation Arg1:T33 Arg2:T36	
+R6	Used_for Arg1:T2 Arg2:T3	
+R7	Used_for Arg1:T1 Arg2:T3	
+R8	Location_of Arg1:T22 Arg2:T6	
+R9	Used_for Arg1:T7 Arg2:T5	
+T37	Observation 203 220	falla terapéutica
+#30	AnnotatorNotes T37	C0162643; treatment failure; Finding
+R11	Before Arg1:T7 Arg2:T37	
+R12	Causes Arg1:T7 Arg2:T8	
+T38	Quantifier_or_Qualifier 263 269	graves
+#31	AnnotatorNotes T38	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R10	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T38	
+R13	Used_for Arg1:T7 Arg2:T23	
+R14	Has_Route_or_Mode Arg1:T7 Arg2:T25	
+R15	Experiences Arg1:T26 Arg2:T10	
+R16	Has_Route_or_Mode Arg1:T12 Arg2:T27	
+R17	Experiences Arg1:T26 Arg2:T12	
+R18	Experiences Arg1:T26 Arg2:T24	
+T39	Observation 611 639	respuesta a los tratamientos
+#32	AnnotatorNotes T39	C1319171; Medication response; Finding
+R19	Overlap Arg1:T39 Arg2:T15	
+T40	CONC 726 743	score de gravedad
+#33	AnnotatorNotes T40	C0457451; Severity score; Quantitative Concept
+R23	Used_for Arg1:T40 Arg2:T14	
+R30	Experiences Arg1:T28 Arg2:T14	
+R31	Experiences Arg1:T28 Arg2:T39	
+R32	Experiences Arg1:T28 Arg2:T15	
+R33	Experiences Arg1:T28 Arg2:T13	
+R34	Experiences Arg1:T28 Arg2:T17	
+R35	Experiences Arg1:T31 Arg2:T19	
+R36	Experiences Arg1:T31 Arg2:T20	
+T41	Observation 914 921	curados
+#34	AnnotatorNotes T41	C0184780; Disease condition determination, cured; Finding
+R37	Causes Arg1:T19 Arg2:T41	
+R38	Causes Arg1:T20 Arg2:T41	
+R39	Experiences Arg1:T31 Arg2:T41	
+R40	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T34	
+R41	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T35	
+R42	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T36	
+T42	Quantifier_or_Qualifier 870 884	significativas
+A5	Assertion T42 Negated
+#35	AnnotatorNotes T42	C0750502; Significant; Idea or Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T42	
+R44	Negation Arg1:T29 Arg2:T42	
+#36	AnnotatorNotes T30	C1948052; Now (temporal qualifier); Temporal Concept
+#37	AnnotatorNotes T24	C0303099; Antimony compound (substance); Inorganic Chemical
+A6	Experiencer T26 Patient
+A7	Experiencer T28 Patient
+A8	Experiencer T31 Patient

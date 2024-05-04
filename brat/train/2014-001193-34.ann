@@ -1,0 +1,146 @@
+T1	CHEM 82 99	ANTIRRETROVIRALES
+#1	AnnotatorNotes T1	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T2	PROC 106 141	PROFILAXIS POST-EXPOSICIÓN AL VIH-1
+#2	AnnotatorNotes T2	C0948838; HIV post exposure prophylaxis; Therapeutic or Preventive Procedure
+T3	CHEM 143 152	TENOFOVIR
+#3	AnnotatorNotes T3	C0384228; tenofovir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T4	CHEM 155 168	EMTRICITABINA
+#4	AnnotatorNotes T4	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T5	CHEM 170 177	TRUVADA
+#5	AnnotatorNotes T5	C1528494; Truvada; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T6	CHEM 204 211	KALETRA
+#6	AnnotatorNotes T6	C0939357; Kaletra; Organic Chemical · Pharmacologic Substance
+T7	CHEM 218 227	TENOFOVIR
+#7	AnnotatorNotes T7	C0384228; tenofovir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T8	CHEM 230 243	EMTRICITABINA
+#8	AnnotatorNotes T8	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T9	CHEM 246 256	COBICISTAT
+#9	AnnotatorNotes T9	C3177235; cobicistat; Organic Chemical · Pharmacologic Substance
+T10	CHEM 259 271	ELVITEGRAVIR
+#10	AnnotatorNotes T10	C2606637; elvitegravir; Organic Chemical · Pharmacologic Substance
+T11	PROC 289 332	ESTUDIO PROSPECTIVO, ALEATORIZADO Y ABIERTO
+#11	AnnotatorNotes T11	C0033522; Prospective Studies; Research Activity + C1709323; Open Label Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T12	PROC 360 384	prevención infección HIV
+#12	AnnotatorNotes T12	C1096319; Prophylaxis against HIV infection; Therapeutic or Preventive Procedure
+T13	DISO 371 384	infección HIV
+#13	AnnotatorNotes T13	C0019693; HIV Infections; Disease or Syndrome
+T14	LIVB 546 549	VIH
+#14	AnnotatorNotes T14	C0019682; HIV; Virus
+T15	CHEM 654 680	fármacos antirretrovirales
+#15	AnnotatorNotes T15	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T16	PROC 1137 1161	Tratamiento con fármacos
+#16	AnnotatorNotes T16	C0013216; Pharmacotherapy; Therapeutic or Preventive Procedure
+T17	PROC 813 826	exploraciones
+#17	AnnotatorNotes T17	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T18	CHEM 1098 1106	fármacos
+#18	AnnotatorNotes T18	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T19	PROC 1114 1120	pautas
+#19	AnnotatorNotes T19	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T20	PROC 728 754	consentimiento por escrito
+#20	AnnotatorNotes T20	C0811746; Obtain written consent; Health Care Activity
+T21	PROC 803 810	pruebas
+#21	AnnotatorNotes T21	C1510438; Assay; Laboratory Procedure
+T22	Observation 1069 1081	resistencias
+#22	AnnotatorNotes T22	C3542449; Drug Resistance Status; Finding
+T23	CHEM 1153 1161	fármacos
+#23	AnnotatorNotes T23	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T24	CHEM 183 192	LOPINAVIR
+#24	AnnotatorNotes T24	C0674432; lopinavir; Organic Chemical · Pharmacologic Substance
+T25	CHEM 193 202	RITONAVIR
+#25	AnnotatorNotes T25	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T26	CHEM 273 281	STRIBILD
+#26	AnnotatorNotes T26	C3486540; Stribild; Organic Chemical · Pharmacologic Substance
+T27	PROC 411 452	proxilaxis HIV post exposición accidental
+T28	PROC 641 644	PEP
+#27	AnnotatorNotes T28	C0948838; HIV post exposure prophylaxis; Therapeutic or Preventive Procedure
+T29	Date 13 17	2014
+T30	Date 117 132	POST-EXPOSICIÓN
+T31	LIVB 381 384	HIV
+#28	AnnotatorNotes T31	C0019682; HIV; Virus
+T32	LIVB 422 425	HIV
+#29	AnnotatorNotes T32	C0019682; HIV; Virus
+T33	Date 426 441	post exposición
+T34	Age 487 513	igual o superior a 18 años
+T37	Date 619 627	actuales
+T38	LIVB 875 919	Mujeres embarazadas, en periodo de lactancia
+#30	AnnotatorNotes T38	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T39	LIVB 1000 1007	Sujetos
+#31	AnnotatorNotes T39	C0681850; Study Subject; Group
+T41	PHYS 953 964	embarazadas
+#32	AnnotatorNotes T41	C0032961; Pregnancy; Organism Function
+T40	Spec_cue 1032 1040	sospeche
+T42	PHYS 883 894	embarazadas
+#33	AnnotatorNotes T42	C0032961; Pregnancy; Organism Function
+T43	PHYS 910 919	lactancia
+#34	AnnotatorNotes T43	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T35	DISO 122 132	EXPOSICIÓN
+#35	AnnotatorNotes T35	C0260339; Encounter due to contact with or exposure to communicable diseases; Finding [ICD-10: Z20]
+T36	DISO 431 441	exposición
+#36	AnnotatorNotes T36	C0260339; Encounter due to contact with or exposure to communicable diseases; Finding [ICD-10: Z20]
+T44	DISO 532 549	exposición al VIH
+#37	AnnotatorNotes T44	C0476549; Contact with and exposure to human immunodeficiency virus [HIV]; Finding [ICD-10: Z20.6]
+T45	LIVB 136 141	VIH-1
+#38	AnnotatorNotes T45	C0019704; HIV-1; Virus
+T46	CHEM 1201 1235	productos en fase de investigación
+#39	AnnotatorNotes T46	C0013230; Investigational New Drugs; Pharmacologic Substance
+A1	Assertion T22 Speculated
+A2	Assertion T16 Contraindicated
+A3	Assertion T23 Contraindicated
+A4	Status T44 History_of
+#40	AnnotatorNotes T27	C0948838; HIV post exposure prophylaxis; Therapeutic or Preventive Procedure
+#41	AnnotatorNotes T37	C0521116; Current (present time); Temporal Concept 
+T47	Neg_cue 551 553	no
+T48	Quantifier_or_Qualifier 554 565	ocupacional
+A5	Assertion T48 Negated
+#42	AnnotatorNotes T48	C0521127; Occupational; Functional Concept
+R1	Used_for Arg1:T1 Arg2:T2	
+R2	Overlap Arg1:T2 Arg2:T30	
+R3	Combined_with Arg1:T3 Arg2:T4	
+R5	Combined_with Arg1:T24 Arg2:T25	
+R6	Combined_with Arg1:T5 Arg2:T24	
+R7	Combined_with Arg1:T5 Arg2:T6	
+R4	Combined_with Arg1:T3 Arg2:T24	
+R8	Combined_with Arg1:T7 Arg2:T8	
+R9	Combined_with Arg1:T8 Arg2:T9	
+R10	Combined_with Arg1:T9 Arg2:T10	
+R11	Used_for Arg1:T3 Arg2:T2	
+R12	Used_for Arg1:T7 Arg2:T2	
+R13	Before Arg1:T12 Arg2:T13	
+R14	Causes Arg1:T31 Arg2:T13	
+R15	Overlap Arg1:T27 Arg2:T33	
+R16	Negation Arg1:T47 Arg2:T48	
+R17	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T48	
+T49	Observation 574 618	cumpla los requisitos de las recomendaciones
+R18	Overlap Arg1:T49 Arg2:T37	
+R19	Used_for Arg1:T15 Arg2:T28	
+T50	Observation 760 784	participar en el estudio
+#43	AnnotatorNotes T50	C1278516; Patient participation status; Finding
+R20	Before Arg1:T20 Arg2:T50	
+R21	Before Arg1:T20 Arg2:T21	
+R22	Before Arg1:T20 Arg2:T17	
+R25	Experiences Arg1:T38 Arg2:T42	
+R26	Experiences Arg1:T38 Arg2:T43	
+R27	Experiences Arg1:T38 Arg2:T41	
+T51	PROC 988 995	estudio
+#44	AnnotatorNotes T51	C0008976; Clinical Trials; Research Activity
+R28	Overlap Arg1:T41 Arg2:T51	
+R29	Experiences Arg1:T39 Arg2:T22	
+R30	Overlap Arg1:T22 Arg2:T18	
+R31	Used_for Arg1:T18 Arg2:T19	
+R32	Speculation Arg1:T40 Arg2:T22	
+R33	Experiences Arg1:T39 Arg2:T18	
+R34	Used_for Arg1:T23 Arg2:T16	
+R35	Used_for Arg1:T6 Arg2:T2	
+R36	Used_for Arg1:T26 Arg2:T2	
+R37	Before Arg1:T44 Arg2:T28	
+R38	Before Arg1:T36 Arg2:T27	
+R39	Before Arg1:T35 Arg2:T2	
+R23	Overlap Arg1:T42 Arg2:T51	
+R24	Overlap Arg1:T43 Arg2:T51	
+T52	Observation 936 964	pretendan quedar embarazadas
+#45	AnnotatorNotes T52	C0032992; Pregnancy, Planned; Finding
+R40	Overlap Arg1:T52 Arg2:T51	
+R41	Before Arg1:T52 Arg2:T41	
+A6	Experiencer T38 Patient
+A7	Status T41 Future
+A8	Experiencer T39 Patient

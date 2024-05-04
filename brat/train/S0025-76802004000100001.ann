@@ -1,0 +1,198 @@
+T1	PROC 1 12	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 27 38	benznidazol
+#2	AnnotatorNotes T2	C0053230; benznidazole; Organic Chemical · Pharmacologic Substance
+T3	CHEM 41 55	ácido tióctico
+#3	AnnotatorNotes T3	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T4	DISO 1285 1306	experiencias adversas
+#4	AnnotatorNotes T4	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T5	PROC 813 836	suspender la medicación
+#5	AnnotatorNotes T5	C0850893; stop medication; Therapeutic or Preventive Procedure
+T6	PROC 148 174	tratamiento oral combinado
+#6	AnnotatorNotes T6	C0009429; Combined Modality Therapy; Therapeutic or Preventive Procedure + C1273553; Oral administration of treatment; Therapeutic or Preventive Procedure
+T7	CHEM 179 193	ácido tióctico
+#7	AnnotatorNotes T7	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T8	CHEM 290 292	BZ
+#8	AnnotatorNotes T8	C0053230; benznidazole; Organic Chemical · Pharmacologic Substance
+T9	CHEM 551 553	BZ
+#9	AnnotatorNotes T9	C0053230; benznidazole; Organic Chemical · Pharmacologic Substance
+T10	DISO 228 247	efectos secundarios
+#10	AnnotatorNotes T10	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T11	PROC 261 272	tratamiento
+#11	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	DISO 307 339	infectados con Trypanosoma cruzi
+#12	AnnotatorNotes T12	C0041234; Chagas Disease; Disease or Syndrome
+T13	PROC 416 423	placebo
+#13	AnnotatorNotes T13	C0032042; Placebos; Therapeutic or Preventive Procedure
+T14	CHEM 864 866	BZ
+#14	AnnotatorNotes T14	C0053230; benznidazole; Organic Chemical · Pharmacologic Substance
+T15	CHEM 1573 1575	BZ
+#15	AnnotatorNotes T15	C0053230; benznidazole; Organic Chemical · Pharmacologic Substance
+T16	PROC 661 672	tratamiento
+#16	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 775 786	tratamiento
+#17	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	CHEM 826 836	medicación
+#18	AnnotatorNotes T18	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T19	DISO 921 935	efecto adverso
+#19	AnnotatorNotes T19	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T20	DISO 1048 1081	manifestaciones clínicas adversas
+#20	AnnotatorNotes T20	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T21	DISO 1090 1111	exantema morbiliforme
+#21	AnnotatorNotes T21	C0234918; Morbilliform rash; Finding
+T22	DISO 1119 1126	prurito
+#22	AnnotatorNotes T22	C0033774; Pruritus; Sign or Symptom
+T23	DISO 1136 1143	cefalea
+#23	AnnotatorNotes T23	C0018681; Headache; Sign or Symptom
+T24	DISO 1150 1163	epigastralgia
+#24	AnnotatorNotes T24	C0232493; Epigastric pain; Sign or Symptom
+T25	DISO 1172 1178	fiebre
+#25	AnnotatorNotes T25	C0015967; Fever; Sign or Symptom
+T26	DISO 1187 1194	astenia
+#26	AnnotatorNotes T26	C0004093; Asthenia; Sign or Symptom
+T27	DISO 1203 1210	náuseas
+#27	AnnotatorNotes T27	C0027497; Nausea; Sign or Symptom
+T28	DISO 1219 1227	mialgias
+#28	AnnotatorNotes T28	C0231528; Myalgia; Sign or Symptom
+T29	DISO 1236 1243	vómitos
+#29	AnnotatorNotes T29	C0042963; Vomiting; Sign or Symptom
+T30	CHEM 1452 1466	ácido tióctico
+#30	AnnotatorNotes T30	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T31	PROC 1479 1487	prevenir
+#31	AnnotatorNotes T31	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T32	DISO 1492 1523	manifestaciones de intolerancia
+#32	AnnotatorNotes T32	C0277585; Intolerance to drug; Pathologic Function | C0559546; adverse reactions; Pathologic Function (?)
+T33	CHEM 1531 1537	agente
+#33	AnnotatorNotes T33	C0450442; Agent; Chemical Viewed Functionally
+T34	DISO 1614 1624	infectados
+#34	AnnotatorNotes T34	C0009450; Communicable Diseases; Disease or Syndrome | C0439663; Infected; Finding | C3714514; Infection; Pathologic Function
+T35	PROC 1665 1688	tratamiento ambulatorio
+#35	AnnotatorNotes T35	C0002423; ambulatory care services; Health Care Activity (?)
+T36	PROC 71 127	ensayo clínico controlado, multicéntrico, a triple ciego
+#36	AnnotatorNotes T36	C0681867; Controlled Study; Research Activity + C1883398; Triple Blind Study; Research Activity + C1096776; Multicenter Study; Research Activity
+T37	CHEM 277 288	benznidazol
+#37	AnnotatorNotes T37	C0053230; benznidazole; Organic Chemical · Pharmacologic Substance
+T38	DISO 16 22	Chagas
+#38	AnnotatorNotes T38	C0041234; Chagas Disease; Disease or Syndrome
+T39	Route 160 164	oral
+#39	AnnotatorNotes T39	C1527415; Oral Route of Drug administration; Functional Concept
+T40	LIVB 297 306	pacientes
+#40	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 322 339	Trypanosoma cruzi
+#41	AnnotatorNotes T41	C0041221; Trypanosoma cruzi; Eukaryote
+T42	Route 433 441	vía oral
+#42	AnnotatorNotes T42	C1527415; Oral Route of Drug administration; Functional Concept
+T43	Dose 453 462	50-100 mg
+T45	Dose 565 572	5 mg/kg
+T46	Frequency 572 576	/día
+T47	Duration 581 588	30 días
+T48	LIVB 696 705	pacientes
+#43	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Age 717 735	entre 15 y 44 años
+T50	LIVB 753 762	pacientes
+#44	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 886 894	personas
+#45	AnnotatorNotes T51	C0027361; Persons; Population Group
+T55	LIVB 1422 1431	pacientes
+#46	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Neg_cue 1467 1469	no
+T57	Frequency 1588 1595	mensual
+T58	LIVB 1604 1613	pacientes
+#47	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T60	Frequency 463 466	día
+T63	Duration 621 645	los días 10, 20, 37 y 52
+T44	PROC 365 382	asignados al azar
+#48	AnnotatorNotes T44	C0034656; Randomization; Research Activity
+T52	Dose 469 474;488 497	dosis variables
+T53	CONC 509 530	período pre-inducción
+#49	AnnotatorNotes T53	C3274438; Run-in Period; Temporal Concept
+T54	Neg_cue 505 508	sin
+T59	PROC 605 617	evaluaciones
+#50	AnnotatorNotes T59	C5235447; Safety Monitoring; Research Activity (?)
+T61	Neg_cue 999 1006	ninguno
+T62	Quantifier_or_Qualifier 1036 1041	grave
+T64	Observation 1651 1661	adherencia
+#51	AnnotatorNotes T64	C2364172; Adherence To Medication Regime; Finding
+T65	CHEM 195 197	AT
+#52	AnnotatorNotes T65	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T66	CHEM 426 428	AT
+#53	AnnotatorNotes T66	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+A1	Assertion T31 Negated
+R1	Used_for Arg1:T2 Arg2:T1
+R2	Combined_with Arg1:T2 Arg2:T3
+R3	Has_Route_or_Mode Arg1:T7 Arg2:T39
+R4	Used_for Arg1:T7 Arg2:T6
+R6	Used_for Arg1:T8 Arg2:T11
+R7	Used_for Arg1:T37 Arg2:T11
+R8	Experiences Arg1:T40 Arg2:T11
+R9	Causes Arg1:T41 Arg2:T12
+R10	Experiences Arg1:T40 Arg2:T12
+R11	Combined_with Arg1:T7 Arg2:T37
+R12	Combined_with Arg1:T7 Arg2:T8
+R13	Has_Route_or_Mode Arg1:T13 Arg2:T42
+R14	Negation Arg1:T54 Arg2:T53
+A2	Assertion T53 Negated
+R15	Has_Dose_or_Strength Arg1:T9 Arg2:T45
+R16	Has_Frequency Arg1:T9 Arg2:T46
+R17	Has_Duration_or_Interval Arg1:T9 Arg2:T47
+R18	Before Arg1:T16 Arg2:T59
+R19	Overlap Arg1:T59 Arg2:T63
+R20	Has_Age Arg1:T48 Arg2:T49
+R21	Experiences Arg1:T50 Arg2:T17
+R22	Experiences Arg1:T50 Arg2:T5
+R24	Experiences Arg1:T51 Arg2:T19
+A3	Assertion T62 Negated
+R25	Negation Arg1:T61 Arg2:T62
+R26	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T62
+R27	Experiences Arg1:T55 Arg2:T4
+R28	Negation Arg1:T56 Arg2:T31
+R29	Used_for Arg1:T30 Arg2:T31
+R30	Combined_with Arg1:T30 Arg2:T33
+R31	Causes Arg1:T33 Arg2:T32
+R32	Has_Frequency Arg1:T15 Arg2:T57
+R33	Experiences Arg1:T58 Arg2:T34
+R34	Experiences Arg1:T58 Arg2:T35
+R35	Experiences Arg1:T58 Arg2:T15
+R5	Causes Arg1:T37 Arg2:T10
+R37	Causes Arg1:T8 Arg2:T10
+R38	Experiences Arg1:T40 Arg2:T10
+R39	Experiences Arg1:T40 Arg2:T6
+R40	Has_Dose_or_Strength Arg1:T13 Arg2:T43
+R41	Has_Frequency Arg1:T13 Arg2:T60
+R42	Has_Dose_or_Strength Arg1:T13 Arg2:T52
+R43	Has_Duration_or_Interval Arg1:T13 Arg2:T47
+R44	Combined_with Arg1:T13 Arg2:T9
+R45	Used_for Arg1:T14 Arg2:T17
+R46	Overlap Arg1:T10 Arg2:T11
+R47	Used_for Arg1:T18 Arg2:T17
+R49	Has_Route_or_Mode Arg1:T65 Arg2:T39
+R50	Has_Route_or_Mode Arg1:T66 Arg2:T42
+R51	Has_Dose_or_Strength Arg1:T66 Arg2:T43
+R52	Has_Frequency Arg1:T66 Arg2:T60
+R54	Has_Duration_or_Interval Arg1:T66 Arg2:T47
+R55	Combined_with Arg1:T66 Arg2:T9
+R56	Overlap Arg1:T5 Arg2:T14
+R23	Combined_with Arg1:T65 Arg2:T37
+R57	Combined_with Arg1:T65 Arg2:T8
+R48	Used_for Arg1:T65 Arg2:T6
+R53	Has_Dose_or_Strength Arg1:T66 Arg2:T52
+T67	CONC 1310 1317	difirió
+A4	Assertion T67 Negated
+#54	AnnotatorNotes T67	C1705241; Delta (difference); Quantitative Concept
+T68	Neg_cue 1307 1309	no
+R58	Negation Arg1:T68 Arg2:T67	
+T69	Quantifier_or_Qualifier 1318 1336	significativamente
+A5	Assertion T69 Negated
+#55	AnnotatorNotes T69	C0237881; Statistical Significance; Quantitative Concept
+R59	Negation Arg1:T68 Arg2:T69	
+R60	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T69	
+R61	Before Arg1:T44 Arg2:T13	
+R62	Before Arg1:T44 Arg2:T66	
+R63	Used_for Arg1:T18 Arg2:T5	
+#56	AnnotatorNotes T62	C1547227; Severe - Severity of Illness Code; Intellectual Product
+A6	Experiencer T40 Patient
+A7	Experiencer T51 Patient
+A8	Experiencer T55 Patient
+A9	Experiencer T58 Patient
+A10	Experiencer T48 Patient
+A11	Experiencer T50 Patient

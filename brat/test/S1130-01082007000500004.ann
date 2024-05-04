@@ -1,0 +1,198 @@
+T1	PROC 1 24	Nutrición enteral total
+T2	PROC 29 55	nutrición parenteral total
+#1	AnnotatorNotes T2	C0030548; Parenteral Nutrition, Total; Therapeutic or Preventive Procedure
+T3	DISO 73 91	pancreatitis aguda
+#2	AnnotatorNotes T3	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T4	PROC 159 182	nutrición enteral total
+T5	PROC 184 187	NET
+T6	PROC 198 224	nutrición parenteral total
+#3	AnnotatorNotes T6	C0030548; Parenteral Nutrition, Total; Therapeutic or Preventive Procedure
+T7	PROC 226 229	NPT
+#4	AnnotatorNotes T7	C0030548; Parenteral Nutrition, Total; Therapeutic or Preventive Procedure
+T8	DISO 248 266	pancreatitis aguda
+#5	AnnotatorNotes T8	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T9	PROC 290 319	estudio prospectivo aleatorio
+#6	AnnotatorNotes T9	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T10	DISO 369 372	PAG
+T11	PROC 419 422	PCR
+#7	AnnotatorNotes T11	C0201657; C-reactive protein measurement; Laboratory Procedure
+T12	PROC 487 490	NPT
+#8	AnnotatorNotes T12	C0030548; Parenteral Nutrition, Total; Therapeutic or Preventive Procedure
+T13	PROC 514 517	NET
+T14	PROC 561 566	TNF-a
+#9	AnnotatorNotes T14	C4700807; TNF-alpha in serum or plasma; Laboratory Procedure
+T15	PROC 568 572	IL-6
+#10	AnnotatorNotes T15	C0919829; Interleukin 6 Measurement; Laboratory Procedure
+T16	ANAT 589 599	viscerales
+#11	AnnotatorNotes T16	C0042779; Viscera; Body Part, Organ, or Organ Component
+T17	DISO 637 651	complicaciones
+#12	AnnotatorNotes T17	C0009566; Complication; Pathologic Function
+T18	DISO 653 697	síndrome de respuesta inflamatoria sistémica
+#13	AnnotatorNotes T18	C0242966; Systemic Inflammatory Response Syndrome; Disease or Syndrome
+T19	DISO 699 718	fallo multiorgánico
+#14	AnnotatorNotes T19	C0026766; Multiple Organ Failure; Pathologic Function
+T20	DISO 720 731	infecciones
+#15	AnnotatorNotes T20	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T21	PROC 738 764	intervenciones quirúrgicas
+#16	AnnotatorNotes T21	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T22	CHEM 971 974	PCR
+#17	AnnotatorNotes T22	C0006560; C-reactive protein; Amino Acid, Peptide, or Protein · Immunologic Factor
+T23	PROC 976 981	TNF-a
+#18	AnnotatorNotes T23	C4700807; TNF-alpha in serum or plasma; Laboratory Procedure
+T24	PROC 984 988	IL-6
+#19	AnnotatorNotes T24	C0919829; Interleukin 6 Measurement; Laboratory Procedure
+T25	PROC 1007 1030	valores de pre-albúmina
+#20	AnnotatorNotes T25	C0337441; Prealbumin measurement; Laboratory Procedure
+T26	CHEM 1018 1030	pre-albúmina
+#21	AnnotatorNotes T26	C0032923; Prealbumin; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T27	DISO 1083 1097	complicaciones
+#22	AnnotatorNotes T27	C0009566; Complication; Pathologic Function
+T28	PROC 1142 1165	intervención quirúrgica
+#23	AnnotatorNotes T28	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T29	PROC 1393 1396	NET
+T30	PROC 1425 1428	NPT
+#24	AnnotatorNotes T30	C0030548; Parenteral Nutrition, Total; Therapeutic or Preventive Procedure
+T31	PROC 455 457	TC
+#25	AnnotatorNotes T31	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T32	DISO 532 554	respuesta inflamatoria
+#26	AnnotatorNotes T32	C1155266; Inflammatory Response; Pathologic Function
+T33	PROC 556 559	PCR
+#27	AnnotatorNotes T33	C0201657; C-reactive protein measurement; Laboratory Procedure
+T34	PROC 579 599	proteínas viscerales
+T35	PROC 601 613	pre-albúmina
+#28	AnnotatorNotes T35	C0337441; Prealbumin measurement; Laboratory Procedure
+T36	PROC 615 623	albúmina
+#29	AnnotatorNotes T36	C0201838; Albumin measurement; Laboratory Procedure
+T37	PROC 952 974	concentraciones de PCR
+#30	AnnotatorNotes T37	C0201657; C-reactive protein measurement; Laboratory Procedure
+T38	PROC 1033 1041	albúmina
+#31	AnnotatorNotes T38	C0201838; Albumin measurement; Laboratory Procedure
+T39	DISO 1273 1284	fallecieron
+#32	AnnotatorNotes T39	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T40	DISO 1374 1377	PAG
+T41	PROC 109 129	comparar la eficacia
+#33	AnnotatorNotes T41	C1707887; Efficacy Study; Research Activity
+T42	DISO 274 277	PAG
+T43	Route 39 49	parenteral
+#34	AnnotatorNotes T43	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T44	LIVB 59 68	pacientes
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Route 208 218	parenteral
+#36	AnnotatorNotes T45	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T46	LIVB 234 243	pacientes
+#37	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 355 364	pacientes
+#38	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T49	Duration 859 879	los primeros 10 días
+T52	LIVB 1049 1058	pacientes
+#39	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 1168 1177	pacientes
+#40	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	LIVB 1251 1260	pacientes
+#41	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 1360 1369	pacientes
+#42	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	PHYS 1 10	Nutrición
+#43	AnnotatorNotes T56	C1442959; Nutrition function; Organism Function
+T57	PHYS 29 38	nutrición
+#44	AnnotatorNotes T57	C1442959; Nutrition function; Organism Function
+T58	PHYS 159 168	nutrición
+#45	AnnotatorNotes T58	C1442959; Nutrition function; Organism Function
+T59	PHYS 198 207	nutrición
+#46	AnnotatorNotes T59	C1442959; Nutrition function; Organism Function
+T60	Route 11 18	enteral
+#47	AnnotatorNotes T60	C1522196; Enteral Route of Drug Administration; Functional Concept
+T61	Route 169 176	enteral
+#48	AnnotatorNotes T61	C1522196; Enteral Route of Drug Administration; Functional Concept
+T48	Neg_cue 821 823	no
+T50	CONC 829 840	diferencias
+A1	Assertion T50 Negated
+#49	AnnotatorNotes T50	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T48 Arg2:T50	
+R2	Has_Route_or_Mode Arg1:T1 Arg2:T60	
+R3	Has_Route_or_Mode Arg1:T2 Arg2:T43	
+R6	Experiences Arg1:T44 Arg2:T3	
+R7	Experiences Arg1:T44 Arg2:T2	
+R8	Experiences Arg1:T44 Arg2:T1	
+R9	Experiences Arg1:T44 Arg2:T57	
+R10	Experiences Arg1:T44 Arg2:T56	
+T51	Quantifier_or_Qualifier 92 97	grave
+#50	AnnotatorNotes T51	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R11	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T51	
+T62	Quantifier_or_Qualifier 267 272	grave
+#51	AnnotatorNotes T62	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R12	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T62	
+T63	Quantifier_or_Qualifier 1098 1104	graves
+#52	AnnotatorNotes T63	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R13	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T63	
+R16	Has_Route_or_Mode Arg1:T4 Arg2:T61	
+R19	Has_Route_or_Mode Arg1:T6 Arg2:T45	
+R20	Has_Route_or_Mode Arg1:T7 Arg2:T45	
+R21	Has_Route_or_Mode Arg1:T5 Arg2:T61	
+R22	Experiences Arg1:T46 Arg2:T7	
+R23	Experiences Arg1:T46 Arg2:T6	
+R24	Experiences Arg1:T46 Arg2:T59	
+R25	Experiences Arg1:T46 Arg2:T5	
+R26	Experiences Arg1:T46 Arg2:T4	
+R27	Experiences Arg1:T46 Arg2:T58	
+R28	Experiences Arg1:T46 Arg2:T8	
+R29	Experiences Arg1:T46 Arg2:T42	
+T64	Quantifier_or_Qualifier 149 155	precoz
+#53	AnnotatorNotes T64	C1279930; Precocious; Temporal Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T64	
+R31	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T64	
+R32	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T64	
+R33	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T64	
+T65	Quantifier_or_Qualifier 335 351	consecutivamente
+#54	AnnotatorNotes T65	C1707491; Consecutive; Qualitative Concept
+R34	Experiences Arg1:T47 Arg2:T10	
+R35	Experiences Arg1:T47 Arg2:T11	
+T66	CONC 387 406	criterios APACHE II
+#55	AnnotatorNotes T66	C0243028; APACHE II; Intellectual Product
+R37	Experiences Arg1:T47 Arg2:T31	
+T67	CONC 425 448	graduación de Balthazar
+#56	AnnotatorNotes T67	C4481125; Balthazar score; Finding
+R43	Location_of Arg1:T16 Arg2:T34	
+R46	Overlap Arg1:T32 Arg2:T17	
+R47	Overlap Arg1:T32 Arg2:T18	
+R48	Overlap Arg1:T32 Arg2:T19	
+R49	Overlap Arg1:T32 Arg2:T20	
+T68	CONC 769 790	estancia hospitalaria
+#57	AnnotatorNotes T68	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T69	CONC 1194 1215	estancia hospitalaria
+#58	AnnotatorNotes T69	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R50	Experiences Arg1:T54 Arg2:T39	
+R51	Experiences Arg1:T55 Arg2:T40	
+R52	Experiences Arg1:T55 Arg2:T29	
+R53	Experiences Arg1:T55 Arg2:T30	
+T70	CONC 796 806	mortalidad
+#59	AnnotatorNotes T70	C0085556; Hospital Mortality; Qualitative Concept
+R54	Has_Duration_or_Interval Arg1:T50 Arg2:T49	
+T71	CONC 907 916	evolución
+#60	AnnotatorNotes T71	C0449259; Clinical course; Temporal Concept
+T72	CONC 924 943	criterios APACHE II
+#61	AnnotatorNotes T72	C0243028; APACHE II; Intellectual Product
+R55	Overlap Arg1:T37 Arg2:T49	
+R56	Overlap Arg1:T23 Arg2:T49	
+R57	Overlap Arg1:T24 Arg2:T49	
+R58	Overlap Arg1:T25 Arg2:T49	
+R59	Overlap Arg1:T38 Arg2:T49	
+R60	Experiences Arg1:T52 Arg2:T27	
+R61	Experiences Arg1:T53 Arg2:T28	
+T73	CONC 1343 1352	evolución
+#62	AnnotatorNotes T73	C0449259; Clinical course; Temporal Concept
+R62	Has_Duration_or_Interval Arg1:T71 Arg2:T49	
+T74	Quantifier_or_Qualifier 841 855	significativas
+A2	Assertion T74 Negated
+#63	AnnotatorNotes T74	C0750502; Significant; Idea or Concept
+R63	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T74	
+R64	Negation Arg1:T48 Arg2:T74	
+R5	Location_of Arg1:T16 Arg2:T35	
+R14	Location_of Arg1:T16 Arg2:T36	
+A3	Experiencer T44 Patient
+A4	Experiencer T46 Patient
+A5	Experiencer T47 Patient
+A6	Experiencer T52 Patient
+A7	Experiencer T53 Patient
+A8	Experiencer T54 Patient
+A9	Experiencer T55 Patient

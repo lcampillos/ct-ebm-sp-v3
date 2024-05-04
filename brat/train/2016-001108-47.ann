@@ -1,0 +1,204 @@
+T1	PROC 60 72	erradicación
+#1	AnnotatorNotes T1	C3178994; Disease Eradication; Health Care Activity
+T2	DISO 79 103	bacteriuria asintomática
+#2	AnnotatorNotes T2	C0262380; Asymptomatic bacteriuria; Disease or Syndrome
+T3	ANAT 203 208	fémur
+#3	AnnotatorNotes T3	C0015811; Femur; Body Part, Organ, or Organ Component | C1279112; Entire femur; Body Part, Organ, or Organ Component
+T4	DISO 143 166	Infección periprotésica
+T5	DISO 191 208	fractura de fémur
+#4	AnnotatorNotes T5	C0015802; Femoral Fractures; Injury or Poisoning
+T6	PROC 227 253	hemiartroplastia de cadera
+T7	DISO 277 300	Infección periprotésica
+T8	DISO 325 342	fractura de fémur
+#5	AnnotatorNotes T8	C0015802; Femoral Fractures; Injury or Poisoning
+T9	DISO 402 419	fractura de fémur
+#6	AnnotatorNotes T9	C0015802; Femoral Fractures; Injury or Poisoning
+T10	ANAT 414 419	fémur
+#7	AnnotatorNotes T10	C0015811; Femur; Body Part, Organ, or Organ Component | C1279112; Entire femur; Body Part, Organ, or Organ Component
+T11	PROC 421 435	diagnosticados
+#8	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	PROC 619 632	exploraciones
+#9	AnnotatorNotes T12	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
+T13	DISO 690 698	febriles
+#10	AnnotatorNotes T13	C0015967; Fever; Sign or Symptom
+T14	ANAT 712 718	axilar
+#11	AnnotatorNotes T14	C0004454; Axilla; Body Location or Region + C1279154; Entire axilla; Body Location or Region + C1283835; Entire axillary fossa; Body Location or Region
+T15	DISO 743 757	sintomatología
+#12	AnnotatorNotes T15	C3540840; Sign or Symptom; Finding
+T16	DISO 771 789	infección urinaria
+#13	AnnotatorNotes T16	C0042029; Urinary tract infection; Disease or Syndrome
+T17	DISO 798 816	síndrome miccional
+#14	AnnotatorNotes T17	C0042035; Urination Disorders; Disease or Syndrome
+T18	DISO 844 850	piuria
+#15	AnnotatorNotes T18	C0034359; Pyuria; Finding
+T19	DISO 880 898	proceso infeccioso
+#16	AnnotatorNotes T19	C0745283; INFECTIOUS PROCESS; Pathologic Function
+T20	PROC 943 966	tratamiento antibiótico
+#17	AnnotatorNotes T20	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T21	PROC 1064 1074	urocultivo
+#18	AnnotatorNotes T21	C0430404; Urine culture; Laboratory Procedure
+T22	DISO 1104 1112	alérgica
+#19	AnnotatorNotes T22	C0020517; Hypersensitivity; Pathologic Function
+T23	CHEM 1130 1141	fosfomicina
+#20	AnnotatorNotes T23	C0016610; fosfomycin; Antibiotic · Organic Chemical
+T24	CHEM 1142 1152	trometamol
+#21	AnnotatorNotes T24	C0041175; tromethamine; Organic Chemical · Pharmacologic Substance
+T25	DISO 1314 1326	intolerancia
+#22	AnnotatorNotes T25	C0277585; Intolerance to drug; Pathologic Function
+T26	CHEM 1295 1306	fosfomicina
+#23	AnnotatorNotes T26	C0016610; fosfomycin; Antibiotic · Organic Chemical
+T27	CHEM 1330 1340	excipiente
+#24	AnnotatorNotes T27	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T28	ANAT 247 253	cadera
+#25	AnnotatorNotes T28	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T29	PROC 609 616	pruebas
+#26	AnnotatorNotes T29	C1510438; Assay; Laboratory Procedure
+T30	ANAT 781 789	urinaria
+#27	AnnotatorNotes T30	C1508753; Urinary system; Body System
+T31	PROC 922 936	administración
+#28	AnnotatorNotes T31	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T32	CHEM 955 966	antibiótico
+#29	AnnotatorNotes T32	C0003232; Antibiotics; Antibiotic
+T33	ANAT 1032 1048	muestra de orina
+T34	ANAT 337 342	fémur
+#30	AnnotatorNotes T34	C0015811; Femur; Body Part, Organ, or Organ Component | C1279112; Entire femur; Body Part, Organ, or Organ Component
+T35	PROC 484 487	HAC
+#31	AnnotatorNotes T35	C1112760; Hip hemiarthroplasty; Therapeutic or Preventive Procedure
+T36	PROC 534 560	consentimiento por escrito
+#32	AnnotatorNotes T36	C0811746; Obtain written consent; Health Care Activity
+T37	PROC 700 718	Temperatura axilar
+T38	PROC 1016 1048	recogida de una muestra de orina
+#33	AnnotatorNotes T38	C0200354; Urine Specimen Collection; Laboratory Procedure
+T39	DISO 1115 1127	intolerancia
+#34	AnnotatorNotes T39	C0277585; Intolerance to drug; Pathologic Function
+T40	Date 13 17	2016
+T41	LIVB 177 186	pacientes
+#35	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 311 320	pacientes
+#36	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Age 377 385	>18 años
+T45	Spec_cue 758 770	sugestiva de
+T47	Neg_cue 992 994	no
+T50	Neg_cue 1170 1188	imposibilidad para
+T52	Duration 1229 1247	inferior a 3 meses
+T53	LIVB 1252 1261	Pacientes
+#37	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	LIVB 1366 1411	Mujeres embarazadas o en período de lactancia
+#38	AnnotatorNotes T54	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T56	PHYS 807 816	miccional
+#39	AnnotatorNotes T56	C0042034; Urination; Organism Function
+T44	PHYS 1374 1385	embarazadas
+#40	AnnotatorNotes T44	C0032961; Pregnancy; Organism Function
+T46	PHYS 1402 1411	lactancia
+#41	AnnotatorNotes T46	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T48	PHYS 1192 1199	ingesta
+#42	AnnotatorNotes T48	C0232478; Ingestion; Biologic Function
+T49	LIVB 680 689	Pacientes
+#43	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 729 738	Pacientes
+#44	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 856 865	Pacientes
+#45	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 971 980	Pacientes
+#46	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 1078 1087	Pacientes
+#47	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1156 1165	Pacientes
+#48	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 388 397	Pacientes
+#49	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	Route 1200 1204	oral
+#50	AnnotatorNotes T61	C1527415; Oral Route of Drug administration; Functional Concept
+A1	Assertion T16 Speculated
+A2	Assertion T38 Negated
+A3	Assertion T48 Negated
+A4	Assertion T26 Contraindicated
+A5	Status T22 History_of
+A6	Status T39 History_of
+A7	Status T25 History_of
+#51	AnnotatorNotes T6	C1112760; Hip hemiarthroplasty; Therapeutic or Preventive Procedure
+#52	AnnotatorNotes T33	C1610733; Urine - SpecimenType; Body Substance 
+R1	Experiences Arg1:T41 Arg2:T5	
+R2	Location_of Arg1:T3 Arg2:T5	
+R3	Experiences Arg1:T41 Arg2:T4	
+R4	Experiences Arg1:T41 Arg2:T2	
+R5	Experiences Arg1:T41 Arg2:T6	
+R6	Location_of Arg1:T28 Arg2:T6	
+R8	Before Arg1:T5 Arg2:T4	
+T62	Quantifier_or_Qualifier 301 307	precoz
+#53	AnnotatorNotes T62	C1279919; Early; Temporal Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T62	
+R10	Experiences Arg1:T42 Arg2:T8	
+R11	Location_of Arg1:T34 Arg2:T8	
+R12	Experiences Arg1:T42 Arg2:T7	
+R13	Before Arg1:T8 Arg2:T7	
+R14	Experiences Arg1:T60 Arg2:T9	
+R15	Location_of Arg1:T10 Arg2:T9	
+R17	Experiences Arg1:T60 Arg2:T35	
+R19	Before Arg1:T36 Arg2:T29	
+R20	Before Arg1:T36 Arg2:T12	
+R21	Experiences Arg1:T49 Arg2:T13	
+R22	Location_of Arg1:T14 Arg2:T37	
+R23	Experiences Arg1:T49 Arg2:T37	
+R24	Experiences Arg1:T51 Arg2:T15	
+R25	Experiences Arg1:T51 Arg2:T16	
+R26	Speculation Arg1:T45 Arg2:T16	
+R27	Causes Arg1:T16 Arg2:T15	
+R28	Experiences Arg1:T51 Arg2:T17	
+R29	Experiences Arg1:T51 Arg2:T18	
+R30	Causes Arg1:T16 Arg2:T17	
+R31	Causes Arg1:T16 Arg2:T18	
+R32	Experiences Arg1:T55 Arg2:T19	
+R35	Used_for Arg1:T32 Arg2:T20	
+R36	Experiences Arg1:T55 Arg2:T31	
+R37	Experiences Arg1:T55 Arg2:T20	
+R38	Negation Arg1:T47 Arg2:T38	
+R39	Before Arg1:T38 Arg2:T21	
+R40	Experiences Arg1:T57 Arg2:T38	
+R41	Experiences Arg1:T57 Arg2:T21	
+R42	Experiences Arg1:T58 Arg2:T22	
+R43	Experiences Arg1:T58 Arg2:T39	
+R44	Causes Arg1:T23 Arg2:T39	
+R45	Causes Arg1:T23 Arg2:T22	
+R46	Causes Arg1:T24 Arg2:T39	
+R47	Causes Arg1:T24 Arg2:T22	
+R50	Experiences Arg1:T59 Arg2:T48	
+R51	Negation Arg1:T50 Arg2:T48	
+T63	CONC 1209 1228	Expectativa de vida
+#54	AnnotatorNotes T63	C0023671; Life Expectancy; Group Attribute
+R52	Has_Duration_or_Interval Arg1:T63 Arg2:T52	
+R54	Experiences Arg1:T53 Arg2:T25	
+R55	Causes Arg1:T27 Arg2:T25	
+R57	Has_Route_or_Mode Arg1:T48 Arg2:T61	
+T64	Quantifier_or_Qualifier 167 173	precoz
+#55	AnnotatorNotes T64	C1279919; Early; Temporal Concept
+R58	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T64	
+R59	Before Arg1:T5 Arg2:T2	
+T65	Result_or_Value 719 724	>38ºC
+R60	Has_Result_or_Value Arg1:T37 Arg2:T65	
+R61	Experiences Arg1:T51 Arg2:T56	
+R62	Experiences Arg1:T54 Arg2:T46	
+R63	Experiences Arg1:T54 Arg2:T44	
+R64	Location_of Arg1:T30 Arg2:T16	
+R66	Location_of Arg1:T33 Arg2:T21	
+R7	Before Arg1:T6 Arg2:T4	
+T66	Observation 566 590	participar en el estudio
+T67	Quantifier_or_Qualifier 899 905	activo
+R48	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T67	
+T68	Observation 818 840	evidencia macroscópica
+T69	Quantifier_or_Qualifier 790 796	activa
+R49	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T69	
+#56	AnnotatorNotes T66	C1278516; Patient participation status; Finding (?)
+#57	AnnotatorNotes T69	C0679217; Active State; Idea or Concept
+#58	AnnotatorNotes T67	C0679217; Active State; Idea or Concept
+A8	Experiencer T41 Patient
+A9	Experiencer T42 Patient
+A10	Experiencer T60 Patient
+A11	Experiencer T49 Patient
+A12	Experiencer T51 Patient
+A13	Experiencer T55 Patient
+A14	Experiencer T57 Patient
+A15	Experiencer T58 Patient
+A16	Experiencer T53 Patient
+A17	Experiencer T59 Patient
+A18	Experiencer T54 Patient

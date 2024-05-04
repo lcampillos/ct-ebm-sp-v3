@@ -1,0 +1,148 @@
+T1	PROC 46 72	Ensayo Clínico de fase III
+#1	AnnotatorNotes T1	C0282461; Phase 3 Clinical Trials; Research Activity
+T2	CHEM 77 89	caplacizumab
+#2	AnnotatorNotes T2	C3713057; caplacizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	DISO 107 152	púrpura trombocitopénica trombótica adquirida
+#3	AnnotatorNotes T3	C2584778; Thrombotic thrombocytopenic purpura, acquired; Disease or Syndrome
+T4	PROC 175 287	Ensayo clínico de fase III, doble ciego, aleatorizado de grupos paralelos, multicéntrico, controlado con placebo
+T5	PROC 294 329	estudiar la eficacia y la seguridad
+T6	CHEM 333 345	caplacizumab
+#4	AnnotatorNotes T6	C3713057; caplacizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	DISO 363 408	púrpura trombocitopénica trombótica adquirida
+#5	AnnotatorNotes T7	C2584778; Thrombotic thrombocytopenic purpura, acquired; Disease or Syndrome
+T8	DISO 435 438	PTT
+#6	AnnotatorNotes T8	C0034155; Purpura, Thrombotic Thrombocytopenic; Disease or Syndrome
+T9	DISO 446 461	enfermedad rara
+#7	AnnotatorNotes T9	C0678236; Rare Diseases; Disease or Syndrome
+T10	ANAT 514 520	sangre
+#8	AnnotatorNotes T10	C0005767; Blood; Body Substance
+T11	DISO 543 551	coágulos
+#9	AnnotatorNotes T11	C0302148; Blood Clot; Pathologic Function
+T12	ANAT 559 575	vasos sanguíneos
+#10	AnnotatorNotes T12	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T13	ANAT 600 606	cuerpo
+#11	AnnotatorNotes T13	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T14	DISO 634 679	Púrpura trombocitopénica trombótica adquirida
+#12	AnnotatorNotes T14	C2584778; Thrombotic thrombocytopenic purpura, acquired; Disease or Syndrome
+T15	PROC 796 820	consentimiento informado
+#13	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	PROC 830 849	Diagnóstico clínico
+#14	AnnotatorNotes T16	C0332140; Diagnosis, clinical; Diagnostic Procedure
+T17	DISO 853 866	PTT adquirida
+#15	AnnotatorNotes T17	C2584778; Thrombotic thrombocytopenic purpura, acquired; Disease or Syndrome
+T18	PROC 1239 1258	número de plaquetas
+T19	DISO 903 918	trombocitopenia
+#16	AnnotatorNotes T19	C0040034; Thrombocytopenia; Disease or Syndrome
+T20	PROC 1142 1161	Número de plaquetas
+T21	DISO 984 997	esquistocitos
+T22	PROC 1028 1045	tratamiento de IP
+#17	AnnotatorNotes T22	C0032113; Plasma Exchange; Therapeutic or Preventive Procedure
+T23	PROC 1067 1084	tratamiento de IP
+#18	AnnotatorNotes T23	C0032113; Plasma Exchange; Therapeutic or Preventive Procedure
+T24	PROC 1097 1111	aleatorización
+#19	AnnotatorNotes T24	C0034656; Randomization; Research Activity
+T25	ANAT 1152 1161	plaquetas
+#20	AnnotatorNotes T25	C0005821; Blood Platelets; Cell
+T26	CHEM 1191 1201	creatinina
+#21	AnnotatorNotes T26	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T27	ANAT 1202 1208	sérica
+#22	AnnotatorNotes T27	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T28	ANAT 1249 1258	plaquetas
+#23	AnnotatorNotes T28	C0005821; Blood Platelets; Cell
+T29	DISO 1303 1318	trombocitopenia
+#24	AnnotatorNotes T29	C0040034; Thrombocytopenia; Disease or Syndrome
+T30	DISO 1323 1336	PTT congénita
+#25	AnnotatorNotes T30	C1268935; Congenital Thrombotic Thrombocytopenic Purpura; Disease or Syndrome
+T31	PROC 1456 1470	ensayo clínico
+#26	AnnotatorNotes T31	C0008976; Clinical Trials; Research Activity
+T32	CHEM 1475 1487	caplacizumab
+#27	AnnotatorNotes T32	C3713057; caplacizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T33	CHEM 1503 1515	caplacizumab
+#28	AnnotatorNotes T33	C3713057; caplacizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T34	PROC 1554 1565	tratamiento
+#29	AnnotatorNotes T34	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T35	DISO 488 520	viscosidad excesiva de la sangre
+#30	AnnotatorNotes T35	C0948013; Increased blood viscosity (finding); Finding
+T36	ANAT 961 974	eritrocitaria
+#31	AnnotatorNotes T36	C0014792; Erythrocytes; Cell
+T37	PROC 1182 1208	Nivel de creatinina sérica
+T38	Date 13 17	2015
+T39	LIVB 93 102	pacientes
+#32	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 349 358	pacientes
+#33	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 709 729	Adulto varón o mujer
+#34	AnnotatorNotes T41	C0001675; Adult; Age Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T43	Age 730 743	> ó = 18 años
+T44	Frequency 1046 1052	diario
+T45	PHYS 1393 1401	Embarazo
+#35	AnnotatorNotes T45	C0032961; Pregnancy; Organism Function
+T46	PHYS 1404 1413	lactancia
+#36	AnnotatorNotes T46	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T47	LIVB 1418 1427	Pacientes
+#37	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T42	Observation 921 974	evidencia microscópica de fragmentación eritrocitaria
+A1	Population_data T41 Age
+A2	Status T33 History_of
+A3	Status T32 History_of
+A4	Status T31 History_of
+A5	Status T34 History_of
+A6	Status T30 History_of
+#38	AnnotatorNotes T4	C0282461; Phase 3 Clinical Trials; Research Activity + C0013072; Double-Blind Method; Research Activity  +C2826345; Parallel Study; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C0034656; Randomization; Research Activity
+#39	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#40	AnnotatorNotes T20	C0032181; Platelet Count measurement; Laboratory Procedure
+#41	AnnotatorNotes T18	C0032181; Platelet Count measurement; Laboratory Procedure
+#42	AnnotatorNotes T37	C0201976; Creatinine measurement, serum (procedure); Laboratory Procedure
+R1	Experiences Arg1:T39 Arg2:T2	
+R2	Experiences Arg1:T39 Arg2:T3	
+R3	Experiences Arg1:T40 Arg2:T6	
+R4	Experiences Arg1:T40 Arg2:T7	
+R5	Location_of Arg1:T10 Arg2:T35	
+R6	Causes Arg1:T8 Arg2:T35	
+R7	Causes Arg1:T8 Arg2:T11	
+R8	Location_of Arg1:T12 Arg2:T11	
+R9	Location_of Arg1:T13 Arg2:T11	
+R10	Has_Age Arg1:T41 Arg2:T43	
+R11	Overlap Arg1:T15 Arg2:T43	
+T48	Quantifier_or_Qualifier 868 875	inicial
+R12	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T48	
+T49	Quantifier_or_Qualifier 878 888	recurrente
+R13	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T49	
+R14	Location_of Arg1:T36 Arg2:T42	
+R15	Causes Arg1:T17 Arg2:T19	
+R16	Causes Arg1:T17 Arg2:T42	
+R17	Causes Arg1:T17 Arg2:T21	
+R18	Has_Frequency Arg1:T22 Arg2:T44	
+R19	Before Arg1:T23 Arg2:T24	
+R20	Before Arg1:T22 Arg2:T24	
+T50	Result_or_Value 1162 1178	> ó = 100×10E9/l
+R21	Has_Result_or_Value Arg1:T20 Arg2:T50	
+T51	Result_or_Value 1209 1220	>200 µmol/l
+R22	Location_of Arg1:T27 Arg2:T37	
+R23	Has_Result_or_Value Arg1:T37 Arg2:T51	
+T52	Result_or_Value 1263 1273	> 30×109/l
+R24	Has_Result_or_Value Arg1:T18 Arg2:T52	
+T53	Observation 1367 1388	entrada en el estudio
+#43	AnnotatorNotes T53	C0422726; Patient entered into trial; Finding
+R25	Overlap Arg1:T30 Arg2:T53	
+R27	Experiences Arg1:T47 Arg2:T32	
+R28	Experiences Arg1:T47 Arg2:T33	
+T54	Observation 1277 1289	Otras causas
+R29	Causes Arg1:T54 Arg2:T29	
+T55	Observation 1529 1565	se desconoce el brazo de tratamiento
+#44	AnnotatorNotes T55	C0580964; Drug treatment unknown; Finding (?)
+#45	AnnotatorNotes T21	C0855795; Red blood cell schistocytes present; Finding
+R30	Has_Frequency Arg1:T23 Arg2:T44	
+T56	Observation 1418 1470	Pacientes incluidos previamente en un ensayo clínico
+A7	Status T56 History_of
+#46	AnnotatorNotes T56	C1278516; Patient participation status; Finding
+R33	Overlap Arg1:T19 Arg2:T42	
+R34	Overlap Arg1:T19 Arg2:T21	
+#47	AnnotatorNotes T48	C0205265; Initially; Temporal Concept
+#48	AnnotatorNotes T49	C2945760; Recurrent; Temporal Concept
+#49	AnnotatorNotes T54	C5555349; Other Disease Etiology; Finding
+A8	Experiencer T39 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T41 Patient
+A11	Experiencer T47 Patient
+A12	Assertion T52 Hypothetical

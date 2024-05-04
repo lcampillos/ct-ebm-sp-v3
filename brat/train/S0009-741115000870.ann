@@ -1,0 +1,132 @@
+T1	PROC 4 27	seguimiento telemétrico
+#1	AnnotatorNotes T1	C0150496; Cardiac monitoring; Diagnostic Procedure + C1096012; Cardiac telemetry; Diagnostic Procedure (?)
+T2	PROC 156 171	telecardiología
+T3	PROC 819 833	Aleatoriamente
+#2	AnnotatorNotes T3	C0034656; Randomization; Research Activity
+T4	DISO 107 137	insuficiencia cardíaca crónica
+#3	AnnotatorNotes T4	C0264716; Chronic heart failure; Disease or Syndrome
+T5	DISO 338 350	enfermedades
+#4	AnnotatorNotes T5	C0012634; Disease; Disease or Syndrome
+T6	DISO 359 381	insuficiencia cardíaca
+#5	AnnotatorNotes T6	C0018801; Heart failure; Disease or Syndrome
+T7	PROC 421 444	seguimiento telemétrico
+#6	AnnotatorNotes T7	C0150496; Cardiac monitoring; Diagnostic Procedure + C1096012; Cardiac telemetry; Diagnostic Procedure (?)
+T8	PROC 453 460	control
+#7	AnnotatorNotes T8	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T9	ANAT 1352 1360	arterial
+#8	AnnotatorNotes T9	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T10	DISO 567 589	insuficiencia cardíaca
+#9	AnnotatorNotes T10	C0018801; Heart failure; Disease or Syndrome
+T11	PROC 612 627	consulta médica
+#10	AnnotatorNotes T11	C4256179; consultation with a medical health care professional; Health Care Activity
+T12	DISO 731 753	insuficiencia cardíaca
+#11	AnnotatorNotes T12	C0018801; Heart failure; Disease or Syndrome
+T13	PROC 880 903	seguimiento telemétrico
+#12	AnnotatorNotes T13	C0150496; Cardiac monitoring; Diagnostic Procedure + C1096012; Cardiac telemetry; Diagnostic Procedure (?)
+T14	PROC 905 920	consulta médica
+#13	AnnotatorNotes T14	C4256179; consultation with a medical health care professional; Health Care Activity
+T15	PROC 1034 1057	seguimiento telemétrico
+#14	AnnotatorNotes T15	C0150496; Cardiac monitoring; Diagnostic Procedure + C1096012; Cardiac telemetry; Diagnostic Procedure (?)
+T16	PROC 1094 1109	consulta médica
+#15	AnnotatorNotes T16	C4256179; consultation with a medical health care professional; Health Care Activity
+T17	PROC 1253 1276	seguimiento telemétrico
+#16	AnnotatorNotes T17	C0150496; Cardiac monitoring; Diagnostic Procedure + C1096012; Cardiac telemetry; Diagnostic Procedure (?)
+T18	DISO 94 102	enfermos
+#17	AnnotatorNotes T18	C0012634; Disease; Disease or Syndrome
+T19	DISO 554 562	enfermos
+#18	AnnotatorNotes T19	C0012634; Disease; Disease or Syndrome
+T20	DISO 1318 1328	enfermedad
+#19	AnnotatorNotes T20	C0012634; Disease; Disease or Syndrome
+T21	DISO 718 726	enfermos
+#20	AnnotatorNotes T21	C0012634; Disease; Disease or Syndrome
+T22	PROC 1458 1481	seguimiento telemétrico
+#21	AnnotatorNotes T22	C0150496; Cardiac monitoring; Diagnostic Procedure + C1096012; Cardiac telemetry; Diagnostic Procedure (?)
+T23	PROC 1520 1535	consulta médica
+#22	AnnotatorNotes T23	C4256179; consultation with a medical health care professional; Health Care Activity
+T24	DISO 1664 1672	enfermos
+#23	AnnotatorNotes T24	C0012634; Disease; Disease or Syndrome
+T25	PROC 1561 1580	ingreso a urgencias
+#24	AnnotatorNotes T25	C0583237; Emergency room admission; Health Care Activity
+T26	PROC 1621 1644	seguimiento telemétrico
+#25	AnnotatorNotes T26	C0150496; Cardiac monitoring; Diagnostic Procedure + C1096012; Cardiac telemetry; Diagnostic Procedure (?)
+T27	DISO 1677 1699	insuficiencia cardíaca
+#26	AnnotatorNotes T27	C0018801; Heart failure; Disease or Syndrome
+T28	PROC 1704 1727	seguimiento telemétrico
+#27	AnnotatorNotes T28	C0150496; Cardiac monitoring; Diagnostic Procedure + C1096012; Cardiac telemetry; Diagnostic Procedure (?)
+T29	PROC 1841 1852	seguimiento
+#28	AnnotatorNotes T29	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T30	ANAT 121 129	cardíaca
+#29	AnnotatorNotes T30	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T31	ANAT 373 381	cardíaca
+#30	AnnotatorNotes T31	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T32	ANAT 581 589	cardíaca
+#31	AnnotatorNotes T32	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T33	PROC 662 711	Ensayo clínico aleatorizado, controlado y abierto
+#32	AnnotatorNotes T33	C1709323; Open Label Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T34	ANAT 745 753	cardíaca
+#33	AnnotatorNotes T34	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T35	DISO 861 869	enfermos
+#34	AnnotatorNotes T35	C0012634; Disease; Disease or Syndrome
+T36	ANAT 975 983	arterial
+#35	AnnotatorNotes T36	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T37	ANAT 996 1004	cardíaca
+#36	AnnotatorNotes T37	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T38	ANAT 1012 1020	corporal
+#37	AnnotatorNotes T38	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T39	PROC 1344 1370	presión arterial sistólica
+#38	AnnotatorNotes T39	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T40	DISO 1599 1607	enfermos
+#39	AnnotatorNotes T40	C0012634; Disease; Disease or Syndrome
+T41	ANAT 1691 1699	cardíaca
+#40	AnnotatorNotes T41	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T43	Duration 130 137	crónica
+#41	AnnotatorNotes T43	C0205191; chronic; Temporal Concept
+T42	PROC 967 983	presión arterial
+#42	AnnotatorNotes T42	C0005824; Blood pressure determination; Health Care Activity
+T44	PHYS 1344 1360	presión arterial
+#43	AnnotatorNotes T44	C0005823; Blood Pressure; Organism Function
+T45	PROC 985 1004	frecuencia cardíaca
+#44	AnnotatorNotes T45	C2197023; examination of heart rate; Health Care Activity
+T46	PROC 1007 1020	peso corporal
+#45	AnnotatorNotes T46	C2985231; Body Weight Measurement; Diagnostic Procedure
+T47	PROC 41 70	visita a la sala de urgencias
+#46	AnnotatorNotes T47	C0586082; Emergency department patient visit; Health Care Activity
+T48	PROC 499 518	visitas a urgencias
+#47	AnnotatorNotes T48	C0586082; Emergency department patient visit; Health Care Activity
+T49	PROC 1758 1777	visitas a urgencias
+#48	AnnotatorNotes T49	C0586082; Emergency department patient visit; Health Care Activity
+T50	CONC 73 90	coste de atención
+#49	AnnotatorNotes T50	C0085552; Health Care Costs; Quantitative Concept
+R2	Location_of Arg1:T30 Arg2:T4	
+R3	Has_Duration_or_Interval Arg1:T4 Arg2:T43	
+T51	CONC 241 254	supervivencia
+#50	AnnotatorNotes T51	C0038955; survivorship; Temporal Concept
+T52	CONC 267 282	calidad de vida
+#51	AnnotatorNotes T52	C0034380; Quality of life; Idea or Concept
+T53	CONC 285 326	reducir costos en la atención de la salud
+#52	AnnotatorNotes T53	C0085550; Cost Savings; Quantitative Concept (?)
+R8	Location_of Arg1:T31 Arg2:T6	
+T54	CONC 521 538	costo de atención
+#53	AnnotatorNotes T54	C0085552; Health Care Costs; Quantitative Concept
+R11	Location_of Arg1:T32 Arg2:T10	
+R15	Location_of Arg1:T34 Arg2:T12	
+R17	Before Arg1:T3 Arg2:T13	
+R18	Before Arg1:T3 Arg2:T14	
+R20	Location_of Arg1:T36 Arg2:T42	
+R21	Location_of Arg1:T37 Arg2:T45	
+R22	Location_of Arg1:T38 Arg2:T46	
+T55	Observation 1277 1291	redujo su peso
+#54	AnnotatorNotes T55	C1262477; Weight decreased; Finding
+R25	Location_of Arg1:T9 Arg2:T44	
+R26	Location_of Arg1:T9 Arg2:T39	
+T56	Observation 1344 1380	presión arterial sistólica disminuyó
+#55	AnnotatorNotes T56	C0277885; Decreased systolic arterial pressure; Finding
+T57	CONC 1415 1442	coste de atención se redujo
+#56	AnnotatorNotes T57	C0085550; Cost Savings; Quantitative Concept (?)
+T58	Neg_cue 1549 1557	Se evitó
+A1	Assertion T25 Negated
+R27	Negation Arg1:T58 Arg2:T25	
+R29	Location_of Arg1:T41 Arg2:T27	
+T59	CONC 1780 1786;1806 1814	ahorró recursos
+#57	AnnotatorNotes T59	C0085550; Cost Savings; Quantitative Concept (?)
+R1	Has_Result_or_Value Arg1:T39 Arg2:T56	

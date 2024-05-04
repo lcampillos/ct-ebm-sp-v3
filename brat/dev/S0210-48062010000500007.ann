@@ -1,0 +1,171 @@
+T1	PROC 1 24	Tratamiento conservador
+#1	AnnotatorNotes T1	C0459914; Conservative Treatment; Therapeutic or Preventive Procedure
+T2	DISO 31 53	enfermedad de Peyronie
+#2	AnnotatorNotes T2	C0030848; Peyronie Disease; Disease or Syndrome
+T3	CHEM 55 65	colchicina
+#3	AnnotatorNotes T3	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T4	CHEM 73 83	colchicina
+#4	AnnotatorNotes T4	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T5	CHEM 88 98	vitamina E
+#5	AnnotatorNotes T5	C0042874; vitamin E; Organic Chemical · Vitamin · Pharmacologic Substance
+T6	DISO 172 194	enfermedad de Peyronie
+#6	AnnotatorNotes T6	C0030848; Peyronie Disease; Disease or Syndrome
+T7	DISO 196 198	EP
+#7	AnnotatorNotes T7	C0030848; Peyronie Disease; Disease or Syndrome
+T8	CHEM 213 223	colchicina
+#8	AnnotatorNotes T8	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T9	PROC 229 240	monoterapia
+#9	AnnotatorNotes T9	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T10	CHEM 262 272	vitamina E
+#10	AnnotatorNotes T10	C0042874; vitamin E; Organic Chemical · Vitamin · Pharmacologic Substance
+T11	DISO 329 331	EP
+#11	AnnotatorNotes T11	C0030848; Peyronie Disease; Disease or Syndrome
+T12	DISO 665 670	placa
+#12	AnnotatorNotes T12	C0332461; Plaque (lesion); Finding
+T13	DISO 1012 1017	placa
+#13	AnnotatorNotes T13	C0332461; Plaque (lesion); Finding
+T14	DISO 1366 1371	placa
+#14	AnnotatorNotes T14	C0332461; Plaque (lesion); Finding
+T15	PROC 200 208	tratados
+#15	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 1470 1493	tratamiento conservador
+#16	AnnotatorNotes T16	C0459914; Conservative Treatment; Therapeutic or Preventive Procedure
+T17	DISO 1500 1502	EP
+#17	AnnotatorNotes T17	C0030848; Peyronie Disease; Disease or Syndrome
+T18	PROC 1525 1536	tratamiento
+#18	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	PROC 1634 1655	tratamiento combinado
+#19	AnnotatorNotes T19	C0009429; Combined Modality Therapy; Therapeutic or Preventive Procedure
+T20	PROC 1660 1716	estudio aleatorizado, doble ciego controlado con placebo
+#20	AnnotatorNotes T20	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+T21	PROC 110 141	Revisar de manera retrospectiva
+#21	AnnotatorNotes T21	C0035363; Retrospective Studies; Research Activity
+T22	DISO 686 691	dolor
+#22	AnnotatorNotes T22	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T23	DISO 1050 1055	dolor
+#23	AnnotatorNotes T23	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T24	DISO 1321 1326	dolor
+#24	AnnotatorNotes T24	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T25	LIVB 158 167	pacientes
+#25	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 315 324	pacientes
+#26	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	Route 343 351	vía oral
+#27	AnnotatorNotes T27	C1527415; Oral Route of Drug administration; Functional Concept
+T28	Dose 364 369	1,5mg
+T29	Frequency 369 373	/día
+T30	LIVB 394 403	pacientes
+#28	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Frequency 435 439	/día
+T32	LIVB 460 469	pacientes
+#29	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 931 940	pacientes
+#30	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1379 1392	grupo control
+#31	AnnotatorNotes T41	C0009932; Control Groups; Group
+T38	Dose 426 435	1,5/800mg
+A1	Status T18 History_of
+T33	Neg_cue 822 824	No
+T34	CONC 830 841	diferencias
+A2	Assertion T34 Negated
+#32	AnnotatorNotes T34	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T33 Arg2:T34	
+T35	Neg_cue 1235 1237	no
+T37	CONC 1247 1258	diferencias
+A3	Assertion T37 Negated
+#33	AnnotatorNotes T37	C1705241; Delta (difference); Quantitative Concept
+R2	Negation Arg1:T35 Arg2:T37	
+T39	Neg_cue 1148 1155	Ninguna
+T40	CONC 1165 1176	diferencias
+A4	Assertion T40 Negated
+#34	AnnotatorNotes T40	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T39 Arg2:T40	
+T42	Quantifier_or_Qualifier 1181 1211	estadísticamente significativa
+A5	Assertion T42 Negated
+#35	AnnotatorNotes T42	C0237881; Statistical Significance; Quantitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T42	
+R5	Negation Arg1:T39 Arg2:T42	
+T43	Neg_cue 783 794	ausencia de
+T44	Observation 795 804	respuesta
+A6	Assertion T44 Negated
+#36	AnnotatorNotes T44	C4050094; Clinical Complete Response; Finding
+T45	Observation 807 820	empeoramiento
+#37	AnnotatorNotes T45	C1457868; Worse; Finding
+R6	Used_for Arg1:T3 Arg2:T1	
+R7	Combined_with Arg1:T4 Arg2:T5	
+R8	Used_for Arg1:T4 Arg2:T1	
+R9	Experiences Arg1:T25 Arg2:T6	
+R10	Experiences Arg1:T25 Arg2:T7	
+R11	Used_for Arg1:T8 Arg2:T15	
+R12	Used_for Arg1:T8 Arg2:T9	
+R13	Experiences Arg1:T25 Arg2:T15	
+R14	Experiences Arg1:T25 Arg2:T9	
+R15	Combined_with Arg1:T8 Arg2:T10	
+T46	Observation 145 154	respuesta
+#38	AnnotatorNotes T46	C4055223; Clinical Response; Finding
+R16	Experiences Arg1:T25 Arg2:T46	
+R17	Overlap Arg1:T15 Arg2:T46	
+R18	Experiences Arg1:T26 Arg2:T11	
+T47	Observation 474 483	respuesta
+#39	AnnotatorNotes T47	C4055223; Clinical Response; Finding
+T48	Observation 521 536	respuesta buena
+#40	AnnotatorNotes T48	C0184785; Good therapeutic response; Finding 
+T49	Observation 605 647	disminución/estabilización de la curvatura
+T50	Observation 605 616;659 670	disminución de la placa
+T51	Observation 675 692	alivio del dolor;
+#41	AnnotatorNotes T51	C5230944; Sensation of pain reduced; Finding (?)
+R19	Before Arg1:T22 Arg2:T51	
+R21	Overlap Arg1:T48 Arg2:T50	
+R22	Overlap Arg1:T48 Arg2:T49	
+R23	Overlap Arg1:T48 Arg2:T51	
+T52	Observation 693 710	respuesta parcial
+#42	AnnotatorNotes T52	C1521726; partial response; Finding
+R24	Overlap Arg1:T50 Arg2:T52	
+R25	Overlap Arg1:T49 Arg2:T52	
+R26	Overlap Arg1:T51 Arg2:T52	
+R27	Negation Arg1:T43 Arg2:T44	
+T53	Quantifier_or_Qualifier 842 856	significativas
+A7	Assertion T53 Negated
+#43	AnnotatorNotes T53	C0237881; Statistical Significance; Quantitative Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T53	
+T54	Observation 890 905	buena respuesta
+#44	AnnotatorNotes T54	C0184785; Good therapeutic response; Finding
+R29	Experiences Arg1:T36 Arg2:T54	
+T55	Observation 1039 1055	alivio del dolor
+#45	AnnotatorNotes T55	C5230944; Sensation of pain reduced; Finding (?)
+R30	Before Arg1:T23 Arg2:T55	
+R31	Negation Arg1:T33 Arg2:T53	
+T56	Quantifier_or_Qualifier 1259 1290	estadísticamente significativas
+A8	Assertion T56 Negated
+R32	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T56	
+#46	AnnotatorNotes T56	C0237881; Statistical Significance; Quantitative Concept
+R33	Negation Arg1:T35 Arg2:T56	
+T57	Observation 1310 1326	alivio del dolor
+#47	AnnotatorNotes T57	C5230944; Sensation of pain reduced; Finding (?)
+R34	Before Arg1:T24 Arg2:T57	
+R35	Experiences Arg1:T41 Arg2:T14	
+R36	Experiences Arg1:T41 Arg2:T57	
+R37	Experiences Arg1:T41 Arg2:T24	
+T58	Observation 1437 1443;1455 1463	efecto positivo
+#48	AnnotatorNotes T58	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R38	Overlap Arg1:T58 Arg2:T17	
+T59	Observation 1525 1536;1544 1551	tratamiento fallido
+#49	AnnotatorNotes T59	C0162643; treatment failure; Finding
+R39	Before Arg1:T18 Arg2:T59	
+R40	Before Arg1:T19 Arg2:T58	
+T60	CONC 999 1017	tamaño de la placa
+T61	CONC 1077 1086	curvatura
+T62	CONC 638 647	curvatura
+#50	AnnotatorNotes T62	C0333063; Abnormal curvature; Spatial Concept
+#51	AnnotatorNotes T61	C0333063; Abnormal curvature; Spatial Concept
+T63	CONC 1328 1337	curvatura
+#52	AnnotatorNotes T63	C0333063; Abnormal curvature; Spatial Concept
+T64	CONC 1340 1371	tamaño/consistencia de la placa
+T65	CONC 652 670	tamaño de la placa
+R20	Before Arg1:T12 Arg2:T50	
+A9	Experiencer T41 Patient
+A10	Experiencer T25 Patient
+A11	Experiencer T26 Patient
+A12	Experiencer T30 Patient
+A13	Experiencer T32 Patient
+A14	Experiencer T36 Patient

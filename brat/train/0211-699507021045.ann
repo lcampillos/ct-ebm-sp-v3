@@ -1,0 +1,219 @@
+T1	PROC 96 112	valoración renal
+#1	AnnotatorNotes T1	C0022662; Kidney Function Tests; Laboratory Procedure
+T2	PROC 153 177	valorar la función renal
+#2	AnnotatorNotes T2	C0022662; Kidney Function Tests; Laboratory Procedure
+T3	CHEM 184 194	creatinina
+#3	AnnotatorNotes T3	C0010294; creatinine; Organic Chemical · Biologically Active Substance
+T4	ANAT 195 201	sérica
+#4	AnnotatorNotes T4	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T5	PROC 287 334	aclaramiento de creatinina en orina de 24 horas
+#5	AnnotatorNotes T5	C0201978; Creatinine measurement, 24 hour urine; Laboratory Procedure
+T6	PROC 336 340	Clcr
+#6	AnnotatorNotes T6	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T7	PROC 373 375	CG
+#7	AnnotatorNotes T7	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T8	PROC 537 548	Cistatina-C
+#8	AnnotatorNotes T8	C1619716; Cystatin C measurement; Laboratory Procedure
+T9	PROC 697 713	valoración renal
+#9	AnnotatorNotes T9	C0022662; Kidney Function Tests; Laboratory Procedure
+T10	ANAT 899 906	renales
+#10	AnnotatorNotes T10	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T11	DISO 919 929	diabéticos
+#11	AnnotatorNotes T11	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T12	PROC 959 963	CLcr
+#12	AnnotatorNotes T12	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T13	PROC 1082 1093	cistatina-c
+#13	AnnotatorNotes T13	C1619716; Cystatin C measurement; Laboratory Procedure
+T14	PROC 1109 1113	CLcr
+#14	AnnotatorNotes T14	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T15	PROC 1168 1172	Clcr
+#15	AnnotatorNotes T15	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T16	PROC 1174 1176	CG
+#16	AnnotatorNotes T16	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T17	PROC 1280 1284	Clcr
+#17	AnnotatorNotes T17	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T18	PROC 1286 1288	CG
+#18	AnnotatorNotes T18	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T24	ANAT 107 112	renal
+#19	AnnotatorNotes T24	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T25	PROC 117 123	prueba
+#20	AnnotatorNotes T25	C1510438; Assay; Laboratory Procedure
+T26	ANAT 172 177	renal
+#21	AnnotatorNotes T26	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T27	PROC 184 201	creatinina sérica
+#22	AnnotatorNotes T27	C0201976; Creatinine measurement, serum (procedure); Laboratory Procedure
+T28	CHEM 303 313	creatinina
+#23	AnnotatorNotes T28	C0010294; creatinine; Organic Chemical · Biologically Active Substance
+T29	ANAT 317 322	orina
+#24	AnnotatorNotes T29	C0042036; Urine; Body Substance
+T30	ANAT 580 585	renal
+#25	AnnotatorNotes T30	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T31	ANAT 708 713	renal
+#26	AnnotatorNotes T31	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T32	DISO 890 906	enfermos renales
+#27	AnnotatorNotes T32	C0022658; Kidney Diseases; Disease or Syndrome
+T33	PROC 1055 1065	creatinina
+#28	AnnotatorNotes T33	C0201975; Creatinine measurement; Laboratory Procedure
+T39	PROC 16 27	Cistatina-C
+#29	AnnotatorNotes T39	C1619716; Cystatin C measurement; Laboratory Procedure
+T40	PROC 346 371	fórmula de Cockroft-Gault
+#30	AnnotatorNotes T40	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T41	PROC 400 404	MDRD
+#31	AnnotatorNotes T41	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure
+T42	PROC 382 398	fórmula de Levey
+T43	PROC 745 756	cistatina-C
+#32	AnnotatorNotes T43	C1619716; Cystatin C measurement; Laboratory Procedure
+T44	PROC 842 875	seleccionados de manera aleatoria
+#33	AnnotatorNotes T44	C0034656; Randomization; Research Activity
+T45	PROC 977 979	CG
+#34	AnnotatorNotes T45	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T46	PROC 982 986	MDRD
+#35	AnnotatorNotes T46	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure
+T47	PROC 1179 1183	MDRD
+#36	AnnotatorNotes T47	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure
+T48	PROC 1156 1160	Crea
+#37	AnnotatorNotes T48	C0201975; Creatinine measurement; Laboratory Procedure
+T49	PROC 1268 1272	Cist
+#38	AnnotatorNotes T49	C1619716; Cystatin C measurement; Laboratory Procedure
+T50	PROC 1291 1295	MDRD
+#39	AnnotatorNotes T50	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure
+T55	Duration 326 334	24 horas
+T57	LIVB 819 828	pacientes
+#40	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 909 918	pacientes
+#41	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1010 1019	pacientes
+#42	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	Age 1024 1033	66±14años
+T69	PHYS 164 177	función renal
+#43	AnnotatorNotes T69	C0232804; Renal function; Organ or Tissue Function
+T56	PHYS 572 585	función renal
+#44	AnnotatorNotes T56	C0232804; Renal function; Organ or Tissue Function
+T21	LIVB 833 840	hombres
+#45	AnnotatorNotes T21	C0025266; Male population group; Population Group
+T19	PROC 1441 1445	MDRD
+#46	AnnotatorNotes T19	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure
+T20	PROC 1510 1514	MDRD
+#47	AnnotatorNotes T20	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure
+T22	PROC 1618 1622	MDRD
+#48	AnnotatorNotes T22	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure
+T23	PROC 1426 1430	Clcr
+#49	AnnotatorNotes T23	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T34	PROC 1586 1590	Clcr
+#50	AnnotatorNotes T34	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T35	PROC 1910 1919	Cistatina
+#51	AnnotatorNotes T35	C1619716; Cystatin C measurement; Laboratory Procedure
+T36	PROC 1941 1951	creatinina
+#52	AnnotatorNotes T36	C0201975; Creatinine measurement; Laboratory Procedure
+T37	PROC 2149 2159	creatinina
+#53	AnnotatorNotes T37	C0201975; Creatinine measurement; Laboratory Procedure
+T38	DISO 1983 1999	alteración renal
+#54	AnnotatorNotes T38	C1565489; Renal Insufficiency; Disease or Syndrome
+T51	ANAT 1784 1789	renal
+#55	AnnotatorNotes T51	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T52	ANAT 1994 1999	renal
+#56	AnnotatorNotes T52	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T53	ANAT 1847 1852	orina
+#57	AnnotatorNotes T53	C0042036; Urine; Body Substance
+T54	PROC 1834 1852	recogidas de orina
+#58	AnnotatorNotes T54	C0200354; Urine Specimen Collection; Laboratory Procedure
+T58	DISO 2122 2125	IRC
+#59	AnnotatorNotes T58	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T62	LIVB 2032 2039	hombres
+#60	AnnotatorNotes T62	C0025266; Male population group; Population Group
+T63	PROC 1773 1789	valoración renal
+#61	AnnotatorNotes T63	C0022662; Kidney Function Tests; Laboratory Procedure
+T64	PROC 1435 1438	C-G
+#62	AnnotatorNotes T64	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T65	PROC 1503 1505	CG
+#63	AnnotatorNotes T65	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T66	PROC 1593 1595	CG
+#64	AnnotatorNotes T66	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T67	PROC 1035 1039	peso
+#65	AnnotatorNotes T67	C2985231; Body Weight Measurement; Diagnostic Procedure
+T68	CONC 1698 1709	diferencias
+A1	Assertion T68 Negated
+#66	AnnotatorNotes T68	C1705241; Delta (difference); Quantitative Concept
+T70	Neg_cue 1687 1689	No
+R1	Negation Arg1:T70 Arg2:T68	
+T71	Spec_cue 587 593	podría
+T72	Observation 606 612	mejora
+A2	Assertion T72 Speculated
+#67	AnnotatorNotes T72	C0184511; Improved; Finding (?)
+T73	Quantifier_or_Qualifier 613 625	considerable
+A3	Assertion T73 Speculated
+T74	Spec_cue 1853 1869	podrían evitarse
+A4	Assertion T54 Speculated
+T75	Spec_cue 2091 2100	reduciría
+T76	Quantifier_or_Qualifier 2101 2118	a más de la mitad
+A5	Assertion T76 Speculated
+R2	Speculation Arg1:T75 Arg2:T76
+R3	Location_of Arg1:T26 Arg2:T69	
+R4	Location_of Arg1:T26 Arg2:T2	
+R5	Location_of Arg1:T4 Arg2:T27	
+R7	Location_of Arg1:T29 Arg2:T5	
+R8	Overlap Arg1:T5 Arg2:T55	
+R9	Overlap Arg1:T6 Arg2:T55	
+R10	Location_of Arg1:T29 Arg2:T6	
+R16	Location_of Arg1:T30 Arg2:T56	
+R18	Location_of Arg1:T31 Arg2:T9	
+R20	Experiences Arg1:T21 Arg2:T32	
+R21	Experiences Arg1:T59 Arg2:T11	
+R22	Location_of Arg1:T10 Arg2:T32	
+R23	Experiences Arg1:T57 Arg2:T32	
+R24	Experiences Arg1:T57 Arg2:T11	
+R25	Experiences Arg1:T57 Arg2:T12	
+R26	Experiences Arg1:T57 Arg2:T45	
+R27	Experiences Arg1:T57 Arg2:T46	
+R28	Experiences Arg1:T21 Arg2:T12	
+R29	Experiences Arg1:T21 Arg2:T45	
+R30	Experiences Arg1:T21 Arg2:T46	
+R33	Before Arg1:T44 Arg2:T12	
+R34	Before Arg1:T44 Arg2:T45	
+R35	Before Arg1:T44 Arg2:T46	
+R36	Has_Age Arg1:T60 Arg2:T61	
+R37	Experiences Arg1:T60 Arg2:T67	
+R38	Experiences Arg1:T60 Arg2:T33	
+R39	Experiences Arg1:T60 Arg2:T13	
+R40	Experiences Arg1:T60 Arg2:T14	
+T77	CONC 1136 1147	correlación
+#68	AnnotatorNotes T77	C1707520; Correlation; Qualitative Concept
+T78	CONC 1248 1259	correlación
+#69	AnnotatorNotes T78	C1707520; Correlation; Qualitative Concept
+R41	Location_of Arg1:T24 Arg2:T1	
+R43	Speculation Arg1:T71 Arg2:T72	
+R44	Speculation Arg1:T71 Arg2:T73	
+R45	Has_Quantifier_or_Qualifier Arg1:T72 Arg2:T73	
+R46	Before Arg1:T8 Arg2:T72	
+T79	Quantifier_or_Qualifier 1710 1741	estadísticamente significativas
+A6	Assertion T79 Negated
+#70	AnnotatorNotes T79	C0237881; Statistical Significance; Quantitative Concept
+R47	Has_Quantifier_or_Qualifier Arg1:T68 Arg2:T79	
+R48	Location_of Arg1:T51 Arg2:T63	
+R49	Location_of Arg1:T53 Arg2:T54	
+R50	Speculation Arg1:T74 Arg2:T54	
+R51	Location_of Arg1:T52 Arg2:T38	
+T80	CONC 2001 2013	sensibilidad
+#71	AnnotatorNotes T80	C0439823; Sensibility; Qualitative Concept
+R54	Experiences Arg1:T62 Arg2:T38	
+R55	Experiences Arg1:T62 Arg2:T36	
+R56	Experiences Arg1:T62 Arg2:T35	
+T81	Quantifier_or_Qualifier 2126 2132	oculta
+#72	AnnotatorNotes T81	C0205262; Occult; Qualitative Concept
+R57	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T81	
+R58	Causes Arg1:T37 Arg2:T81	
+R59	Experiences Arg1:T62 Arg2:T37	
+R60	Experiences Arg1:T62 Arg2:T58	
+T82	CONC 34 53	ámbito hospitalario
+#73	AnnotatorNotes T82	C1510665; Hospital environment; Qualitative Concept 
+T83	CONC 763 782	ámbito hospitalario
+#74	AnnotatorNotes T83	C1510665; Hospital environment; Qualitative Concept 
+R65	Overlap Arg1:T39 Arg2:T82	
+R66	Overlap Arg1:T43 Arg2:T83	
+R67	Overlap Arg1:T9 Arg2:T83	
+#75	AnnotatorNotes T73	C0750502; Significant; Idea or Concept (?)
+A7	Experiencer T57 Patient
+A8	Experiencer T21 Patient
+A9	Experiencer T59 Patient
+A10	Experiencer T60 Patient
+A11	Experiencer T62 Patient

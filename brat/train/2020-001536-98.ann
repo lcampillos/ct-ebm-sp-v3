@@ -1,0 +1,269 @@
+T1	PROC 44 54	Profilaxis
+#1	AnnotatorNotes T1	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T2	DISO 61 83	infección por COVID-19
+#2	AnnotatorNotes T2	C5203670; COVID19 (disease); Disease or Syndrome
+T3	CHEM 88 105	hidroxicloroquina
+#3	AnnotatorNotes T3	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T4	DISO 150 158	contagio
+#4	AnnotatorNotes T4	C0242781; disease transmission; Pathologic Function
+T5	DISO 182 204	Infección por COVID-19
+#5	AnnotatorNotes T5	C5203670; COVID19 (disease); Disease or Syndrome
+T6	DISO 361 385	infección por SARS-CoV-2
+#6	AnnotatorNotes T6	C5203670; COVID19 (disease); Disease or Syndrome
+T7	PROC 268 292	consentimiento informado
+#7	AnnotatorNotes T7	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T8	PROC 458 479	método anticonceptivo
+#8	AnnotatorNotes T8	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T9	DISO 761 769	COVID-19
+#9	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	PROC 593 617	consentimiento informado
+#10	AnnotatorNotes T10	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T11	PROC 568 579	tratamiento
+#11	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	PROC 653 664	tratamiento
+#12	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	PROC 826 840	hospitalizados
+#13	AnnotatorNotes T13	C0019993; Hospitalization; Health Care Activity
+T14	PROC 886 897	tratamiento
+#14	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	DISO 1142 1150	COVID-19
+#15	AnnotatorNotes T15	C5203670; COVID19 (disease); Disease or Syndrome
+T16	PROC 1113 1127	hospitalizados
+#16	AnnotatorNotes T16	C0019993; Hospitalization; Health Care Activity
+T17	PROC 1176 1187	tratamiento
+#17	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	DISO 1338 1343	COVID
+T19	DISO 855 863	COVID-19
+#18	AnnotatorNotes T19	C5203670; COVID19 (disease); Disease or Syndrome
+T20	PROC 1485 1495	serologías
+#19	AnnotatorNotes T20	C0036743; Serologic tests; Laboratory Procedure
+T21	ANAT 1633 1639	cornea
+#20	AnnotatorNotes T21	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T22	DISO 1576 1596	Síndrome de QT largo
+#21	AnnotatorNotes T22	C0023976; Long QT Syndrome; Disease or Syndrome
+T23	DISO 1599 1639	Enfermedades de la retina o de la cornea
+T24	PROC 1642 1661	Filtrado glomerular
+#22	AnnotatorNotes T24	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+T25	DISO 1682 1701	disfunción hepática
+#23	AnnotatorNotes T25	C0086565; Liver Dysfunction; Finding
+T26	DISO 1719 1736	Hipersensibilidad
+#24	AnnotatorNotes T26	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T27	CHEM 1808 1818	medicación
+#25	AnnotatorNotes T27	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T28	CHEM 1832 1849	hidroxicloroquina
+#26	AnnotatorNotes T28	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T29	CHEM 1920 1930	medicación
+#27	AnnotatorNotes T29	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T30	CHEM 902 919	hidroxicloroquina
+#28	AnnotatorNotes T30	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T31	DISO 1048 1056	COVID-19
+#29	AnnotatorNotes T31	C5203670; COVID19 (disease); Disease or Syndrome
+T32	CHEM 1192 1209	hidroxicloroquina
+#30	AnnotatorNotes T32	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T33	PROC 1446 1449	PCR
+#31	AnnotatorNotes T33	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T34	ANAT 1618 1624	retina
+#32	AnnotatorNotes T34	C0035298; Retina; Body Part, Organ, or Organ Component | C1278894; Entire retina; Body Part, Organ, or Organ Component
+T35	ANAT 1693 1701	hepática
+#33	AnnotatorNotes T35	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T36	CHEM 1742 1752	medicación
+#34	AnnotatorNotes T36	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T37	DISO 1767 1792	Interacción medicamentosa
+T38	Date 12 16	2020
+T39	LIVB 109 127	personal sanitario
+#35	AnnotatorNotes T39	C0018724; Health Personnel; Professional or Occupational Group | C1704312; Health Professional; Professional or Occupational Group
+T40	Spec_cue 140 149	riesgo de
+T41	Age 237 255	mayores de 18 años
+T42	Neg_cue 328 330	ni
+T44	LIVB 403 419	mujeres fértiles
+#36	AnnotatorNotes T44	C4324275; Woman of childbearing potential; Population Group
+T46	Duration 529 540	los 3 meses
+T48	LIVB 630 639	pacientes
+#37	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 683 707	profesionales sanitarios
+#38	AnnotatorNotes T49	C0018724; Health Personnel; Professional or Occupational Group
+T50	Spec_cue 717 726	riesgo de
+T51	LIVB 740 749	pacientes
+#39	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 841 850	pacientes
+#40	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Duration 928 934	un mes
+T55	LIVB 939 955	Grupo de control
+#41	AnnotatorNotes T55	C0009932; Control Group; Group
+T56	LIVB 970 994	profesionales sanitarios
+#42	AnnotatorNotes T56	C0018724; Health Personnel; Professional or Occupational Group
+T57	Spec_cue 1004 1013	riesgo de
+T58	LIVB 1027 1036	pacientes
+#43	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1128 1137	pacientes
+#44	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	Neg_cue 1156 1158	no
+T62	Duration 1218 1224	un mes
+T63	LIVB 1229 1245	Grupo de control
+#45	AnnotatorNotes T63	C0009932; Control Group; Group
+T64	LIVB 1260 1284	profesionales sanitarios
+#46	AnnotatorNotes T64	C0018724; Health Personnel; Professional or Occupational Group
+T65	Spec_cue 1294 1303	riesgo de
+T66	LIVB 1317 1326	pacientes
+#47	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	LIVB 1382 1401	Mujeres embarazadas
+#48	AnnotatorNotes T67	C0033011; Pregnant Women; Population Group
+T68	LIVB 1404 1413	lactantes
+#49	AnnotatorNotes T68	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T69	LIVB 1463 1473	SARS-CoV-2
+#50	AnnotatorNotes T69	C5203676; SARS-CoV-2; Virus
+T70	LIVB 1511 1521	SARS-CoV-2
+#51	AnnotatorNotes T70	C5203676; SARS-CoV-2; Virus
+T73	Duration 1819 1826	crónica
+#52	AnnotatorNotes T73	C0205191; chronic; Temporal Concept
+T75	LIVB 375 385	SARS-CoV-2
+#53	AnnotatorNotes T75	C5203676; SARS-CoV-2; Virus
+T43	DISO 727 737	exposición
+#54	AnnotatorNotes T43	C0260339; Encounter due to contact with or exposure to communicable diseases; Finding [ICD-10: Z20]
+T45	DISO 1014 1024	exposición
+#55	AnnotatorNotes T45	C0260339; Encounter due to contact with or exposure to communicable diseases; Finding [ICD-10: Z20]
+T47	DISO 1304 1314	exposición
+#56	AnnotatorNotes T47	C0260339; Encounter due to contact with or exposure to communicable diseases; Finding [ICD-10: Z20]
+T76	PHYS 1390 1401	embarazadas
+#57	AnnotatorNotes T76	C0032961; Pregnancy; Organism Function
+T71	PROC 1703 1713	Child Pugh
+#58	AnnotatorNotes T71	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+T52	LIVB 771 786	personal de UCI
+#59	AnnotatorNotes T52	C0586850; Intensive care specialist; Professional or Occupational Group
+T59	LIVB 1058 1073	personal de UCI
+#60	AnnotatorNotes T59	C0586850; Intensive care specialist; Professional or Occupational Group
+A1	Assertion T4 Speculated
+A2	Assertion T6 Negated
+A4	Assertion T43 Speculated
+A5	Assertion T45 Speculated
+A6	Assertion T47 Speculated
+A7	Assertion T17 Negated
+A8	Status T6 History_of
+A9	Status T26 History_of
+A10	Assertion T29 Contraindicated
+A11	Status T33 History_of
+#61	AnnotatorNotes T37	C0687133; Drug Interactions; Pathologic Function
+#62	AnnotatorNotes T18	C5203670; COVID19 (disease); Disease or Syndrome
+R1	Negation Arg1:T42 Arg2:T6	
+R2	Negation Arg1:T61 Arg2:T17	
+R3	Speculation Arg1:T57 Arg2:T45	
+R4	Speculation Arg1:T50 Arg2:T43	
+R5	Speculation Arg1:T65 Arg2:T47	
+R6	Before Arg1:T1 Arg2:T2	
+R7	Used_for Arg1:T3 Arg2:T1	
+R8	Experiences Arg1:T39 Arg2:T1	
+R9	Experiences Arg1:T39 Arg2:T72	
+R10	Speculation Arg1:T40 Arg2:T4	
+T72	Observation 132 149	elevado riesgo de
+#63	AnnotatorNotes T72	C0332167; High risk of; Finding
+R11	Before Arg1:T72 Arg2:T4	
+R12	Before Arg1:T1 Arg2:T4	
+R13	Overlap Arg1:T7 Arg2:T41	
+R14	Causes Arg1:T75 Arg2:T6	
+R15	Experiences Arg1:T44 Arg2:T8	
+T74	Quantifier_or_Qualifier 480 486	fiable
+R16	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T74	
+T77	PROC 511 518	estudio
+#64	AnnotatorNotes T77	C0008976; Clinical Trials; Research Activity
+R17	Overlap Arg1:T8 Arg2:T77	
+R18	Has_Duration_or_Interval Arg1:T8 Arg2:T46	
+R19	After Arg1:T8 Arg2:T11	
+R20	Experiences Arg1:T49 Arg2:T12	
+R21	Experiences Arg1:T51 Arg2:T9	
+R22	Experiences Arg1:T52 Arg2:T12	
+R23	Experiences Arg1:T53 Arg2:T13	
+R24	Experiences Arg1:T53 Arg2:T19	
+R25	Experiences Arg1:T51 Arg2:T13	
+R26	Experiences Arg1:T51 Arg2:T19	
+R27	Experiences Arg1:T53 Arg2:T9	
+T78	Quantifier_or_Qualifier 665 671	activo
+#65	AnnotatorNotes T78	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T78	
+R29	Experiences Arg1:T49 Arg2:T14	
+R30	Used_for Arg1:T30 Arg2:T14	
+R31	Has_Duration_or_Interval Arg1:T30 Arg2:T54	
+T79	Observation 712 726	alto riesgo de
+#66	AnnotatorNotes T79	C0332167; High risk of; Finding
+R32	Before Arg1:T79 Arg2:T43	
+R33	Experiences Arg1:T49 Arg2:T79	
+R34	Experiences Arg1:T52 Arg2:T79	
+T80	Observation 999 1013	alto riesgo de
+#67	AnnotatorNotes T80	C0332167; High risk of; Finding
+R35	Before Arg1:T80 Arg2:T45	
+R36	Experiences Arg1:T56 Arg2:T80	
+R37	Experiences Arg1:T55 Arg2:T80	
+R38	Experiences Arg1:T58 Arg2:T31	
+R39	Experiences Arg1:T59 Arg2:T80	
+R40	Experiences Arg1:T59 Arg2:T17	
+R41	Experiences Arg1:T56 Arg2:T17	
+R42	Used_for Arg1:T32 Arg2:T17	
+R43	Has_Duration_or_Interval Arg1:T32 Arg2:T62	
+R44	Experiences Arg1:T60 Arg2:T16	
+R45	Experiences Arg1:T60 Arg2:T15	
+R46	Experiences Arg1:T60 Arg2:T31	
+R47	Experiences Arg1:T58 Arg2:T16	
+R48	Experiences Arg1:T58 Arg2:T15	
+R53	Experiences Arg1:T66 Arg2:T18	
+T81	Observation 1289 1303	bajo riesgo de
+#68	AnnotatorNotes T81	C5201228; Low risk; Finding
+R54	Before Arg1:T81 Arg2:T47	
+R55	Experiences Arg1:T64 Arg2:T81	
+R56	Experiences Arg1:T67 Arg2:T76	
+T82	Result_or_Value 1450 1458	positiva
+#69	AnnotatorNotes T82	C1446409; Positive; Finding
+R57	Has_Result_or_Value Arg1:T33 Arg2:T82	
+R58	Causes Arg1:T69 Arg2:T82	
+T83	Result_or_Value 1496 1505	positivas
+#70	AnnotatorNotes T83	C1446409; Positive; Finding
+R59	Has_Result_or_Value Arg1:T20 Arg2:T83	
+R60	Causes Arg1:T70 Arg2:T83	
+T84	CONC 1563 1572	inclusión
+#71	AnnotatorNotes T84	C1512693; Inclusion; Qualitative Concept
+R61	Overlap Arg1:T33 Arg2:T84	
+R62	Overlap Arg1:T20 Arg2:T84	
+R63	Location_of Arg1:T34 Arg2:T23	
+R64	Location_of Arg1:T21 Arg2:T23	
+#72	AnnotatorNotes T23	C0035309; Retinal Diseases; Disease or Syndrome | C0010034; Corneal Diseases; Disease or Syndrome
+T85	Result_or_Value 1662 1672	< 30ml/min
+R65	Has_Result_or_Value Arg1:T24 Arg2:T85	
+R66	Location_of Arg1:T35 Arg2:T25	
+T86	Result_or_Value 1714 1715	3
+R67	Has_Result_or_Value Arg1:T71 Arg2:T86	
+T87	Quantifier_or_Qualifier 1675 1681	Severa
+#73	AnnotatorNotes T87	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R68	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T87	
+R69	Causes Arg1:T36 Arg2:T26	
+R70	Causes Arg1:T27 Arg2:T37	
+R71	Causes Arg1:T28 Arg2:T37	
+R72	Has_Duration_or_Interval Arg1:T27 Arg2:T73	
+T88	Quantifier_or_Qualifier 1793 1798	mayor
+#74	AnnotatorNotes T88	C0205164; Major; Qualitative Concept
+R73	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T88	
+T89	CONC 351 360	inclusión
+#75	AnnotatorNotes T89	C1512693; Inclusion; Qualitative Concept
+R75	Overlap Arg1:T6 Arg2:T89	
+R76	Experiences Arg1:T39 Arg2:T4	
+R77	Experiences Arg1:T64 Arg2:T47	
+R78	Experiences Arg1:T55 Arg2:T45	
+R79	Experiences Arg1:T49 Arg2:T43	
+R80	Experiences Arg1:T39 Arg2:T2	
+#76	AnnotatorNotes T74	C3858758; Reliable; Functional Concept
+R81	Experiences Arg1:T44 Arg2:T11	
+A3	Experiencer T39 Patient
+A12	Experiencer T44 Patient
+A13	Experiencer T48 Patient
+A14	Experiencer T49 Patient
+A15	Experiencer T51 Patient
+A16	Experiencer T52 Patient
+A17	Experiencer T53 Patient
+A18	Experiencer T55 Patient
+A19	Experiencer T56 Patient
+A20	Experiencer T58 Patient
+A21	Experiencer T59 Patient
+A22	Experiencer T60 Patient
+A23	Experiencer T63 Patient
+A24	Experiencer T64 Patient
+A25	Experiencer T66 Patient
+A26	Experiencer T67 Patient
+A27	Experiencer T68 Patient
+A28	Assertion T44 Hypothetical

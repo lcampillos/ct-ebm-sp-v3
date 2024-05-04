@@ -1,0 +1,250 @@
+T1	PROC 46 61	Estudio fase II
+T2	DISO 92 113	uveítis no infecciosa
+T3	PROC 251 282	administrado por vía subcutánea
+T4	PROC 136 200	Estudio aleatorizado, doble emmascarado y controlado con placebo
+T5	CHEM 241 250	sarilumab
+#1	AnnotatorNotes T5	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	PROC 206 237	evaluar la eficacia y seguridad
+#2	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T7	DISO 315 343	uveítis activa no infecciosa
+T8	DISO 370 381	pan-uveitis
+#3	AnnotatorNotes T8	C0030343; Panuveitis; Disease or Syndrome
+T9	DISO 405 412	Uveítis
+#4	AnnotatorNotes T9	C0042164; Uveitis; Disease or Syndrome
+T10	DISO 480 501	Uveítis no infecciosa
+T11	DISO 526 536	panuveítis
+#5	AnnotatorNotes T11	C0030343; Panuveitis; Disease or Syndrome
+T12	DISO 565 575	Enfermedad
+#6	AnnotatorNotes T12	C0012634; Disease; Disease or Syndrome
+T13	DISO 741 751	enfermedad
+#7	AnnotatorNotes T13	C0012634; Disease; Disease or Syndrome
+T14	PROC 1433 1437	MAVC
+#8	AnnotatorNotes T14	C1275680; Corrected visual acuity; Diagnostic Procedure
+T15	CHEM 825 835	Prednisona
+#9	AnnotatorNotes T15	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T16	CHEM 875 890	corticosteroide
+#10	AnnotatorNotes T16	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T17	PROC 914 937	terapia inmunosupresora
+#11	AnnotatorNotes T17	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T18	CHEM 964 975	metotrexato
+#12	AnnotatorNotes T18	C0025677; methotrexate; Organic Chemical · Pharmacologic Substance
+T19	CHEM 977 980	MTX
+#13	AnnotatorNotes T19	C0025677; methotrexate; Organic Chemical · Pharmacologic Substance
+T20	PROC 1107 1131	visita de aleatorización
+#14	AnnotatorNotes T20	C1512346; Patient Visit; Health Care Activity + C0034656; Randomization; Research Activity
+T21	CHEM 1169 1179	esteroides
+#15	AnnotatorNotes T21	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T22	CHEM 1200 1203	MTX
+#16	AnnotatorNotes T22	C0025677; methotrexate; Organic Chemical · Pharmacologic Substance
+T23	CHEM 1231 1241	prednisona
+#17	AnnotatorNotes T23	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T24	PROC 1401 1431	mejor agudeza visual corregida
+#18	AnnotatorNotes T24	C1275680; Corrected visual acuity; Diagnostic Procedure
+T25	ANAT 1528 1531	ojo
+#19	AnnotatorNotes T25	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T26	DISO 1579 1610	uveítis de etiología infecciosa
+T27	PROC 1310 1346	Consentimiento informado por escrito
+#20	AnnotatorNotes T27	C0811741; Obtain informed written consent; Health Care Activity
+T28	DISO 1613 1644	uveítis de etiología traumática
+T29	PROC 1665 1676	diagnóstico
+#21	AnnotatorNotes T29	C0011900; Diagnosis; Diagnostic Procedure
+T30	DISO 1690 1697	uveítis
+#22	AnnotatorNotes T30	C0042164; Uveitis; Disease or Syndrome
+T31	PROC 1714 1725	Tratamiento
+#23	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	CHEM 1737 1746	anti-IL-6
+T33	CHEM 1782 1793	tocilizumab
+#24	AnnotatorNotes T33	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T34	CHEM 79 88	Sarilumab
+#25	AnnotatorNotes T34	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T35	ANAT 543 546	ojo
+#26	AnnotatorNotes T35	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T36	CHEM 922 937	inmunosupresora
+#27	AnnotatorNotes T36	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T37	CHEM 1796 1805	sarilumab
+#28	AnnotatorNotes T37	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T38	CHEM 1749 1770	antagonistas de IL-6R
+T39	Date 13 17	2012
+T41	Route 268 282	vía subcutánea
+#29	AnnotatorNotes T41	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T42	Frequency 283 297	cada 2 semanas
+T43	LIVB 301 310	pacientes
+#30	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	Age 445 464	sup o igual 18 años
+T47	Duration 627 638	los 3 meses
+T48	LIVB 727 736	pacientes
+#31	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Route 836 840	oral
+#32	AnnotatorNotes T49	C1527415; Oral Route of Drug administration; Functional Concept
+T51	Dose 843 867	una dosis de > 0,2 mg/kg
+T52	Frequency 867 871	/día
+T53	Route 891 895	oral
+#33	AnnotatorNotes T53	C1527415; Oral Route of Drug administration; Functional Concept
+T54	Dose 983 993	10 a 25 mg
+T55	Frequency 993 1000	/semana
+T56	Route 1005 1013	vía oral
+#34	AnnotatorNotes T56	C1527415; Oral Route of Drug administration; Functional Concept
+T57	Route 1015 1026	intravenosa
+#35	AnnotatorNotes T57	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T58	Route 1028 1041	intramuscular
+#36	AnnotatorNotes T58	C1556154; Intramuscular Route of Drug Administration; Functional Concept
+T60	Duration 1141 1159	al menos 4 semanas
+T61	Duration 1182 1191	6 semanas
+T62	Route 1242 1246	oral
+#37	AnnotatorNotes T62	C1527415; Oral Route of Drug administration; Functional Concept
+T63	Dose 1256 1277	mayor o igual a 15 mg
+T64	Frequency 1277 1281	/día
+T65	Dose 1284 1298	menor de 80 mg
+T66	Frequency 1298 1302	/día
+T67	LIVB 1388 1396	Paciente
+#38	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	LIVB 1539 1547	Paciente
+#39	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	Spec_cue 1567 1578	sospecha de
+T70	LIVB 1652 1660	Paciente
+#40	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T40	Route 1044 1054	subcutánea
+#41	AnnotatorNotes T40	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T44	DEVI 1458 1463	ETDRS
+#42	AnnotatorNotes T44	C1275992; ETDRS visual acuity chart; Medical Device
+T46	PROC 652 671	visita de selección
+#43	AnnotatorNotes T46	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A1	Assertion T26 Speculated
+A2	Assertion T28 Speculated
+#44	AnnotatorNotes T1	C0282460; Phase 2 Clinical Trials; Research Activity
+#45	AnnotatorNotes T4	C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+T50	CONC 1061 1066	dosis
+#46	AnnotatorNotes T50	C0178602; Dosage; Quantitative Concept
+T59	Neg_cue 1067 1069	no
+T71	Quantifier_or_Qualifier 1086 1094	cambiado
+A3	Assertion T71 Negated
+#47	AnnotatorNotes T71	C0443172; Changed status; Quantitative Concept
+R1	Negation Arg1:T59 Arg2:T71	
+R2	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T71	
+R3	Before Arg1:T71 Arg2:T20	
+R4	Speculation Arg1:T69 Arg2:T26	
+R5	Speculation Arg1:T69 Arg2:T28	
+T72	Neg_cue 330 332	no
+T73	Quantifier_or_Qualifier 333 343	infecciosa
+#48	AnnotatorNotes T73	C1550587; infectious - Entity Risk; Qualitative Concept
+A4	Assertion T73 Negated
+R6	Negation Arg1:T72 Arg2:T73	
+T74	Neg_cue 488 490	no
+T75	Quantifier_or_Qualifier 491 501	infecciosa
+A5	Assertion T75 Negated
+#49	AnnotatorNotes T75	C1550587; infectious - Entity Risk; Qualitative Concept
+R7	Negation Arg1:T74 Arg2:T75	
+T76	Quantifier_or_Qualifier 103 113	infecciosa
+A6	Assertion T76 Negated
+#50	AnnotatorNotes T76	C1550587; infectious - Entity Risk; Qualitative Concept
+T77	Neg_cue 100 102	no
+R8	Negation Arg1:T77 Arg2:T76	
+R9	Used_for Arg1:T5 Arg2:T3	
+R10	Has_Route_or_Mode Arg1:T5 Arg2:T41	
+#51	AnnotatorNotes T3	C0812152; Medication administration: subcutaneous; Therapeutic or Preventive Procedure
+R11	Has_Frequency Arg1:T5 Arg2:T42	
+R12	Experiences Arg1:T43 Arg2:T5	
+R13	Experiences Arg1:T43 Arg2:T7	
+R14	Experiences Arg1:T43 Arg2:T8	
+T78	Quantifier_or_Qualifier 345 355	intermedia
+#52	AnnotatorNotes T78	C0205103; Intermediate; Spatial Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T78	
+T79	Quantifier_or_Qualifier 358 367	posterior
+#53	AnnotatorNotes T79	C0205095; Dorsal; Spatial Concept 
+R16	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T79	
+T80	Quantifier_or_Qualifier 514 523	posterior
+#54	AnnotatorNotes T80	C0205095; Dorsal; Spatial Concept
+T81	Quantifier_or_Qualifier 502 512	intermedia
+#55	AnnotatorNotes T81	C0205103; Intermediate; Spatial Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T81	
+R18	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T80	
+R19	Location_of Arg1:T35 Arg2:T11	
+R20	Location_of Arg1:T35 Arg2:T10	
+R21	Before Arg1:T12 Arg2:T46	
+R22	Overlap Arg1:T12 Arg2:T47	
+T82	Quantifier_or_Qualifier 576 582	activa
+#56	AnnotatorNotes T82	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T82	
+T83	PROC 589 598	selección
+#57	AnnotatorNotes T83	C0242802; Patient Selection; Research Activity
+R24	Overlap Arg1:T12 Arg2:T83	
+R25	Experiences Arg1:T48 Arg2:T13	
+T84	Quantifier_or_Qualifier 752 758	activa
+#58	AnnotatorNotes T84	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T84	
+R27	Has_Route_or_Mode Arg1:T15 Arg2:T49	
+R28	Has_Dose_or_Strength Arg1:T15 Arg2:T51	
+R29	Has_Frequency Arg1:T15 Arg2:T52	
+T85	CONC 875 907	corticosteroide oral equivalente
+R30	Has_Route_or_Mode Arg1:T16 Arg2:T53	
+R31	Has_Dose_or_Strength Arg1:T16 Arg2:T51	
+R32	Has_Frequency Arg1:T16 Arg2:T52	
+R33	Used_for Arg1:T15 Arg2:T17	
+R34	Used_for Arg1:T36 Arg2:T17	
+R35	Combined_with Arg1:T15 Arg2:T18	
+T86	Quantifier_or_Qualifier 938 942	sola
+R36	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T86	
+R37	Combined_with Arg1:T15 Arg2:T19	
+R38	Has_Dose_or_Strength Arg1:T18 Arg2:T54	
+R39	Has_Dose_or_Strength Arg1:T19 Arg2:T54	
+R40	Has_Frequency Arg1:T18 Arg2:T55	
+R41	Has_Frequency Arg1:T19 Arg2:T55	
+R42	Has_Route_or_Mode Arg1:T18 Arg2:T56	
+R43	Has_Route_or_Mode Arg1:T18 Arg2:T57	
+R44	Has_Route_or_Mode Arg1:T18 Arg2:T58	
+R45	Has_Route_or_Mode Arg1:T18 Arg2:T40	
+R46	Has_Route_or_Mode Arg1:T19 Arg2:T56	
+R47	Has_Route_or_Mode Arg1:T19 Arg2:T57	
+R48	Has_Route_or_Mode Arg1:T19 Arg2:T40	
+R49	Has_Duration_or_Interval Arg1:T21 Arg2:T60	
+R50	Has_Duration_or_Interval Arg1:T22 Arg2:T61	
+R51	Used_for Arg1:T50 Arg2:T21	
+R52	Used_for Arg1:T50 Arg2:T22	
+R53	Has_Duration_or_Interval Arg1:T71 Arg2:T60	
+R54	Has_Duration_or_Interval Arg1:T71 Arg2:T61	
+R55	Has_Route_or_Mode Arg1:T23 Arg2:T62	
+R56	Has_Dose_or_Strength Arg1:T23 Arg2:T63	
+R57	Has_Frequency Arg1:T23 Arg2:T64	
+R58	Has_Frequency Arg1:T23 Arg2:T66	
+R59	Has_Dose_or_Strength Arg1:T23 Arg2:T65	
+R60	Experiences Arg1:T67 Arg2:T24	
+R61	Experiences Arg1:T67 Arg2:T14	
+T87	Result_or_Value 1439 1457	peor que 20 letras
+R62	Has_Result_or_Value Arg1:T24 Arg2:T87	
+R63	Has_Result_or_Value Arg1:T14 Arg2:T87	
+R64	Used_for Arg1:T44 Arg2:T24	
+R65	Used_for Arg1:T44 Arg2:T14	
+T88	Quantifier_or_Qualifier 1516 1527	al menos un
+R66	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T88	
+R67	Location_of Arg1:T25 Arg2:T24	
+R68	Location_of Arg1:T25 Arg2:T14	
+T89	PROC 1494 1501	Snellen
+#59	AnnotatorNotes T89	C0431046; Snellen chart assessment; Diagnostic Procedure 
+T90	Result_or_Value 1505 1511	20/400
+R69	Has_Result_or_Value Arg1:T89 Arg2:T90	
+R70	Experiences Arg1:T67 Arg2:T89	
+R71	Experiences Arg1:T68 Arg2:T26	
+R72	Experiences Arg1:T68 Arg2:T28	
+T91	Quantifier_or_Qualifier 1698 1706	anterior
+#60	AnnotatorNotes T91	C0205094; Anterior; Spatial Concept
+R73	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T91	
+R74	Experiences Arg1:T70 Arg2:T30	
+R75	Used_for Arg1:T32 Arg2:T31	
+A7	Status T31 History_of
+R76	Used_for Arg1:T38 Arg2:T31	
+R77	Used_for Arg1:T33 Arg2:T31	
+R78	Used_for Arg1:T37 Arg2:T31	
+#61	AnnotatorNotes T28	C1281936; Post-traumatic uveitis; Disease or Syndrome
+#62	AnnotatorNotes T32	C5235841; Anti-IL-6 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor
+#63	AnnotatorNotes T86	C0205171; Singular; Quantitative Concept
+#64	AnnotatorNotes T38	C3819026; Interleukin-6 Receptor Antagonist [EPC]; Pharmacologic Substance
+#65	AnnotatorNotes T26	C1444604; Infective uveitis; Disease or Syndrome
+A8	Experiencer T43 Patient
+A9	Experiencer T48 Patient
+A10	Experiencer T67 Patient
+A11	Experiencer T68 Patient
+A12	Experiencer T70 Patient
+A13	Status T32 History_of
+A14	Status T38 History_of
+A15	Status T33 History_of
+A16	Status T37 History_of

@@ -1,0 +1,208 @@
+T1	PROC 49 77	Estudio de fase III, abierto
+T2	PROC 83 114	evaluar la seguridad y eficacia
+T3	CHEM 129 156	interferón pegilado alfa-2a
+T4	CHEM 159 169	ribavirina
+#1	AnnotatorNotes T4	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T5	PROC 217 228	tratamiento
+#2	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 488 511	Virus de la Hepatitis C
+T7	DISO 240 265	infección crónica por VHC
+T8	DISO 317 338	Infección Hepatitis C
+T9	DISO 365 392	Infección Virus Hepatitis C
+T10	PROC 692 704	elastografía
+#3	AnnotatorNotes T10	C1955928; Elasticity Imaging Techniques; Diagnostic Procedure
+T11	DISO 452 469	infección crónica
+#4	AnnotatorNotes T11	C0151317; Chronic Infection; Disease or Syndrome
+T12	PROC 520 536	Biopsia hepática
+#5	AnnotatorNotes T12	C0193388; Biopsy of liver (procedure); Diagnostic Procedure
+T13	DISO 637 648	hepatopatía
+#6	AnnotatorNotes T13	C0023895; Liver diseases; Disease or Syndrome
+T14	DISO 778 789	hepatopatía
+#7	AnnotatorNotes T14	C0023895; Liver diseases; Disease or Syndrome
+T15	DISO 823 831	fibrosis
+#8	AnnotatorNotes T15	C0016059; Fibrosis; Pathologic Function
+T16	DISO 835 850	fibrosis portal
+T17	DISO 988 999	Hepatopatía
+#9	AnnotatorNotes T17	C0023895; Liver diseases; Disease or Syndrome
+T18	DISO 1046 1064	fibrosis en puente
+T19	DISO 1067 1075	cirrosis
+#10	AnnotatorNotes T19	C1623038; Cirrhosis; Disease or Syndrome
+T20	DISO 1079 1103	Descompensación hepática
+#11	AnnotatorNotes T20	C0085605; Liver Failure; Disease or Syndrome | C1394798; Hepatic decompensation; Pathologic Function
+T21	DISO 1106 1125	Enfermedad hepática
+#12	AnnotatorNotes T21	C0023895; Liver diseases; Disease or Syndrome
+T22	DISO 1158 1178	Infección por el VHC
+T23	DISO 1152 1155	VHC
+#13	AnnotatorNotes T23	C0019196; Hepatitis C; Disease or Syndrome
+T24	DISO 1216 1239	Co infección por el VHB
+T25	DISO 513 516	VHC
+#14	AnnotatorNotes T25	C0019196; Hepatitis C; Disease or Syndrome
+T26	PROC 658 678	métodos no invasivos
+T27	ANAT 528 536	hepática
+#15	AnnotatorNotes T27	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T28	ANAT 844 850	portal
+#16	AnnotatorNotes T28	C0205054; Hepatic; Body Location or Region
+T29	ANAT 1058 1064	puente
+T30	ANAT 1095 1103	hepática
+#17	AnnotatorNotes T30	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T31	ANAT 1117 1125	hepática
+#18	AnnotatorNotes T31	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T32	DISO 1242 1245	VIH
+#19	AnnotatorNotes T32	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T33	CHEM 118 124	TMC435
+#20	AnnotatorNotes T33	C2745868; TMC 435; Organic Chemical
+T34	Date 13 17	2012
+T35	Duration 191 201	12 semanas
+T36	LIVB 205 212	sujetos
+#21	AnnotatorNotes T36	C0681850; Study Subject; Group
+T37	Neg_cue 213 216	sin
+T38	Duration 250 257	crónica
+#22	AnnotatorNotes T38	C0205191; chronic; Temporal Concept
+T39	LIVB 262 265	VHC
+#23	AnnotatorNotes T39	C0220847; hepatitis C virus; Virus
+T42	LIVB 375 392	Virus Hepatitis C
+#24	AnnotatorNotes T42	C0220847; hepatitis C virus; Virus
+T43	LIVB 432 441	Pacientes
+#25	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Duration 462 469	crónica
+#26	AnnotatorNotes T44	C0205191; chronic; Temporal Concept
+T47	Duration 550 562	los dos años
+T49	Duration 709 723	los seis meses
+T50	Neg_cue 819 822	sin
+T52	LIVB 940 949	pacientes
+#27	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T54	LIVB 1175 1178	VHC
+#28	AnnotatorNotes T54	C0220847; hepatitis C virus; Virus
+T59	LIVB 1236 1239	VHB
+#29	AnnotatorNotes T59	C0019169; hepatitis B virus; Virus
+T40	Neg_cue 914 923	excluídos
+T41	PROC 269 277	genotipo
+#30	AnnotatorNotes T41	C1285573; Genotype determination; Laboratory Procedure
+T45	PROC 282 290	genotipo
+#31	AnnotatorNotes T45	C1285573; Genotype determination; Laboratory Procedure
+T46	PROC 393 401	Genotipo
+#32	AnnotatorNotes T46	C1285573; Genotype determination; Laboratory Procedure
+T48	Neg_cue 1139 1151	diferente al
+T51	Neg_cue 1183 1185	no
+T53	PROC 1190 1198	genotipo
+#33	AnnotatorNotes T53	C1285573; Genotype determination; Laboratory Procedure
+T55	PROC 1203 1211	genotipo
+#34	AnnotatorNotes T55	C1285573; Genotype determination; Laboratory Procedure
+T56	Observation 855 861	septos
+T57	Neg_cue 851 854	sin
+T58	Observation 874 880	septos
+T60	Quantifier_or_Qualifier 868 873	pocos
+T61	PROC 740 759	visita de selección
+#35	AnnotatorNotes T61	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T62	PROC 584 603	visita de selección
+#36	AnnotatorNotes T62	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A1	Assertion T5 Negated
+A2	Assertion T15 Negated
+A3	Assertion T52 Negated
+A4	Status T5 History_of
+A5	Assertion T23 Negated
+A6	Status T12 History_of
+A7	Status T10 History_of
+A8	Status T26 History_of
+A9	Assertion T56 Negated
+R1	Negation Arg1:T57 Arg2:T56
+R2	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T60
+#37	AnnotatorNotes T1	C0282461; Phase 3 Clinical Trials; Research Activity + C1709323; Open Label Study; Research Activity 
+#38	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#39	AnnotatorNotes T7	C0524910; Hepatitis C, Chronic; Disease or Syndrome 
+#40	AnnotatorNotes T8	C0019196; Hepatitis C; Disease or Syndrome
+#41	AnnotatorNotes T9	C0019196; Hepatitis C; Disease or Syndrome
+#42	AnnotatorNotes T6	C0019196; Hepatitis C; Disease or Syndrome
+#43	AnnotatorNotes T16	C3805083; Portal fibrosis; Disease or Syndrome 
+#44	AnnotatorNotes T18	C3805083; Portal fibrosis; Disease or Syndrome 
+#45	AnnotatorNotes T29	C0205054; Hepatic; Body Location or Region
+#46	AnnotatorNotes T22	C0019196; Hepatitis C; Disease or Syndrome
+#47	AnnotatorNotes T24	C0019163; Hepatitis B; Disease or Syndrome
+T63	Quantifier_or_Qualifier 1190 1200	genotipo 1
+A10	Assertion T63 Negated
+T64	Quantifier_or_Qualifier 1203 1213	genotipo 4
+A11	Assertion T64 Negated
+T65	Neg_cue 666 668	no
+T66	Quantifier_or_Qualifier 669 678	invasivos
+A12	Assertion T66 Negated
+R3	Combined_with Arg1:T33 Arg2:T3	
+R4	Combined_with Arg1:T3 Arg2:T4	
+R5	Has_Duration_or_Interval Arg1:T33 Arg2:T35	
+R6	Has_Duration_or_Interval Arg1:T3 Arg2:T35	
+R7	Has_Duration_or_Interval Arg1:T4 Arg2:T35	
+R8	Experiences Arg1:T36 Arg2:T33	
+R9	Experiences Arg1:T36 Arg2:T5	
+R10	Negation Arg1:T37 Arg2:T5	
+R11	Has_Duration_or_Interval Arg1:T7 Arg2:T38	
+R12	Causes Arg1:T39 Arg2:T7	
+R13	Experiences Arg1:T36 Arg2:T7	
+T67	Quantifier_or_Qualifier 269 279	genotipo 1
+T68	Quantifier_or_Qualifier 282 292	genotipo 4
+R14	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T67	
+R15	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T68	
+R16	Experiences Arg1:T36 Arg2:T41	
+R17	Experiences Arg1:T36 Arg2:T45	
+R18	Causes Arg1:T42 Arg2:T9	
+T69	Quantifier_or_Qualifier 393 403	Genotipo-1
+R20	Experiences Arg1:T43 Arg2:T11	
+T70	Observation 442 447	naive
+#48	AnnotatorNotes T70	C5395609; Treatment naive; Finding
+R21	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T70	
+R22	Has_Duration_or_Interval Arg1:T11 Arg2:T44	
+R23	Causes Arg1:T6 Arg2:T11	
+R24	Causes Arg1:T25 Arg2:T11	
+R25	Experiences Arg1:T43 Arg2:T6	
+R26	Experiences Arg1:T43 Arg2:T25	
+R27	Location_of Arg1:T27 Arg2:T12	
+R28	Overlap Arg1:T12 Arg2:T47	
+R29	Before Arg1:T12 Arg2:T62	
+R30	Before Arg1:T12 Arg2:T26	
+R31	Negation Arg1:T65 Arg2:T66	
+R32	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T66	
+#49	AnnotatorNotes T26	C0814177; Noninvasive procedure; Health Care Activity 
+R35	Before Arg1:T12 Arg2:T10	
+R36	Overlap Arg1:T10 Arg2:T49	
+R37	Overlap Arg1:T26 Arg2:T49	
+R38	Before Arg1:T10 Arg2:T61	
+R39	Before Arg1:T26 Arg2:T61	
+R40	Negation Arg1:T50 Arg2:T15	
+R41	Location_of Arg1:T28 Arg2:T16	
+R42	Overlap Arg1:T16 Arg2:T56	
+R43	Overlap Arg1:T16 Arg2:T58	
+R44	Negation Arg1:T40 Arg2:T52	
+R45	Location_of Arg1:T28 Arg2:T56	
+R46	Location_of Arg1:T28 Arg2:T58	
+T71	PROC 804 811	Metavir
+#50	AnnotatorNotes T71	C3888527; Metavir score; Diagnostic Procedure
+T72	Result_or_Value 812 817	F0-F2
+R47	Has_Result_or_Value Arg1:T71 Arg2:T72	
+T73	PROC 1031 1038	Metavir
+#51	AnnotatorNotes T73	C3888527; Metavir score; Diagnostic Procedure
+T74	Result_or_Value 1039 1044	F3-F4
+R48	Has_Result_or_Value Arg1:T73 Arg2:T74	
+R49	Location_of Arg1:T29 Arg2:T18	
+T75	Quantifier_or_Qualifier 1000 1008	avanzada
+#52	AnnotatorNotes T75	C0205179; Advanced phase; Qualitative Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T75	
+R51	Location_of Arg1:T30 Arg2:T20	
+R52	Location_of Arg1:T31 Arg2:T21	
+R53	Negation Arg1:T48 Arg2:T23	
+R54	Causes Arg1:T54 Arg2:T22	
+R55	Negation Arg1:T51 Arg2:T63	
+R56	Negation Arg1:T51 Arg2:T64	
+R57	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T63	
+R58	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T64	
+R59	Causes Arg1:T59 Arg2:T24	
+R19	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T69	
+#53	AnnotatorNotes T3	C0391001; peginterferon alfa-2a; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor
+R33	Overlap Arg1:T13 Arg2:T49	
+R61	Overlap Arg1:T14 Arg2:T56	
+R62	Overlap Arg1:T14 Arg2:T58	
+R34	Overlap Arg1:T70 Arg2:T11	
+R60	Overlap Arg1:T70 Arg2:T6	
+R63	Overlap Arg1:T70 Arg2:T25	
+#54	AnnotatorNotes T66	C0205281; Invasive; Qualitative Concept
+#55	AnnotatorNotes T60	C0205388; Few; Quantitative Concept
+A13	Experiencer T36 Patient
+A14	Experiencer T43 Patient
+A15	Experiencer T52 Patient

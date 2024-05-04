@@ -1,0 +1,268 @@
+T1	PROC 57 63	quimio
+#1	AnnotatorNotes T1	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T2	PROC 78 84	quimio
+#2	AnnotatorNotes T2	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T3	PROC 128 152	tratamiento post-cirugía
+#3	AnnotatorNotes T3	C2243054; aftercare following surgery; Health Care Activity
+T4	DISO 1210 1221	metastásico
+#4	AnnotatorNotes T4	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T5	PROC 226 254	Estudio fase 3, aleatorizado
+T6	PROC 259 285	quimioterapia neoadyuvante
+T7	PROC 300 326	quimioterapia neoadyuvante
+T8	CHEM 331 340	Nivolumab
+#5	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	CHEM 343 352	Nivolumab
+#6	AnnotatorNotes T9	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	PROC 379 414	tratamiento continuado post-cirugía
+T11	CHEM 419 428	Nivolumab
+#7	AnnotatorNotes T11	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T12	CHEM 431 440	Nivolumab
+#8	AnnotatorNotes T12	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	DISO 471 504	cáncer de vejiga músculo-invasivo
+T14	ANAT 488 495	músculo
+#9	AnnotatorNotes T14	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T15	DISO 529 545	Cáncer de vejiga
+#10	AnnotatorNotes T15	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T16	DISO 546 579	Cáncer de vejiga músculo-invasivo
+T17	ANAT 563 570	músculo
+#11	AnnotatorNotes T17	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T18	DISO 622 626	CVMI
+#12	AnnotatorNotes T18	C4725841; Bladder Carcinoma Infiltrating the Muscle of the Bladder Wall; Neoplastic Process
+T19	PROC 674 676	RM
+#13	AnnotatorNotes T19	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T20	PROC 683 697	diagnosticados
+#14	AnnotatorNotes T20	C0011900; Diagnosis; Diagnostic Procedure
+T21	PROC 701 706	RTUTV
+#15	AnnotatorNotes T21	C0401496; Transurethral resection of bladder neoplasm; Therapeutic or Preventive Procedure
+T22	ANAT 821 830	urotelial
+#16	AnnotatorNotes T22	C0227598; Urothelium; Tissue
+T23	CHEM 89 93	Nivo
+T24	PROC 895 897	CR
+#17	AnnotatorNotes T24	C0194401; Complete cystectomy; Therapeutic or Preventive Procedure
+T25	PROC 992 1016	tratamiento neoadyuvante
+#18	AnnotatorNotes T25	C0600558; Neoadjuvant Therapy; Therapeutic or Preventive Procedure
+T26	CONC 1121 1137	Pruebas clínicas
+T27	ANAT 1141 1143	GL
+#19	AnnotatorNotes T27	C0024204; lymph nodes; Body Part, Organ, or Organ Component | C1269047; Entire lymph node; Body Part, Organ, or Organ Component lymph nodes
+T28	DISO 1182 1198	cáncer de vejiga
+#20	AnnotatorNotes T28	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T29	PROC 1245 1266	tratamiento sistémico
+T30	PROC 1268 1280	radioterapia
+#21	AnnotatorNotes T30	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T31	PROC 1283 1290	cirugía
+#22	AnnotatorNotes T31	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T32	DISO 1307 1323	cáncer de vejiga
+#23	AnnotatorNotes T32	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T33	PROC 1333 1338	RTUTV
+#24	AnnotatorNotes T33	C0401496; Transurethral resection of bladder neoplasm; Therapeutic or Preventive Procedure
+T34	PROC 1341 1349	biopsias
+#25	AnnotatorNotes T34	C0005558; Biopsy; Diagnostic Procedure
+T35	CHEM 1381 1391	cisplatino
+#26	AnnotatorNotes T35	C0008838; cisplatin; Inorganic Chemical · Pharmacologic Substance
+T36	DISO 1401 1422	neuropatía periférica
+#27	AnnotatorNotes T36	C0031117; Peripheral Neuropathy; Disease or Syndrome
+T37	DISO 1425 1441	pérdida auditiva
+#28	AnnotatorNotes T37	C1384666; hearing impairment; Disease or Syndrome
+T38	PROC 1442 1454	audiométrica
+#29	AnnotatorNotes T38	C0004286; Audiometry; Diagnostic Procedure
+T39	PROC 1480 1506	aclaramiento de creatinina
+#30	AnnotatorNotes T39	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T40	CHEM 443 453	BMS-986205
+#31	AnnotatorNotes T40	C4683552; BMS-986205; Immunologic Factor · Pharmacologic Substance
+T41	ANAT 481 487	vejiga
+#32	AnnotatorNotes T41	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T42	ANAT 539 545	vejiga
+#33	AnnotatorNotes T42	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T43	ANAT 556 562	vejiga
+#34	AnnotatorNotes T43	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T44	PROC 669 671	TC
+#35	AnnotatorNotes T44	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T45	PROC 735 765	pruebas de imagen radiológicas
+T46	PROC 966 968	CR
+#36	AnnotatorNotes T46	C0194401; Complete cystectomy; Therapeutic or Preventive Procedure
+T47	ANAT 1192 1198	vejiga
+#37	AnnotatorNotes T47	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T48	PROC 1526 1551	fórmula de Cockroft-Gault
+#38	AnnotatorNotes T48	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T49	ANAT 1317 1323	vejiga
+#39	AnnotatorNotes T49	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T50	PROC 1508 1513	AclCr
+T51	CHEM 1496 1506	creatinina
+#40	AnnotatorNotes T51	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T52	ANAT 1563 1568	orina
+#41	AnnotatorNotes T52	C0042036; Urine; Body Substance
+T53	DISO 199 203	CVMI
+#42	AnnotatorNotes T53	C4725841; Bladder Carcinoma Infiltrating the Muscle of the Bladder Wall; Neoplastic Process
+T54	CHEM 355 365	BMS-986205
+#43	AnnotatorNotes T54	C4683552; BMS-986205; Immunologic Factor · Pharmacologic Substance
+T55	CHEM 171 181	BMS-986205
+#44	AnnotatorNotes T55	C4683552; BMS-986205; Immunologic Factor · Pharmacologic Substance
+T56	CHEM 104 114	BMS-986205
+#45	AnnotatorNotes T56	C4683552; BMS-986205; Immunologic Factor · Pharmacologic Substance
+T57	CHEM 164 168	Nivo
+T58	CHEM 157 161	Nivo
+T59	Date 13 17	2017
+T60	Neg_cue 100 103	sin
+T61	Date 140 152	post-cirugía
+#46	AnnotatorNotes T61	C0032790; Postoperative Period; Temporal Concept
+T62	LIVB 185 194	pacientes
+#47	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	Date 402 414	post-cirugía
+#48	AnnotatorNotes T63	C0032790; Postoperative Period; Temporal Concept
+T64	LIVB 457 466	pacientes
+#49	AnnotatorNotes T64	C0030705; Patients; Patient or Disabled Group
+T65	LIVB 608 617	Pacientes
+#50	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T68	LIVB 872 880	paciente
+#51	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 906 914	oncólogo
+#52	AnnotatorNotes T69	C0259990; Oncologists; Professional or Occupational Group | C1555767; Physicians - Internal Medicine - Medical Oncology; Professional or Occupational Group
+T70	LIVB 919 926	urólogo
+#53	AnnotatorNotes T70	C0260314; Urologists; Professional or Occupational Group
+T73	Neg_cue 1226 1233	Tampoco
+T75	Neg_cue 1355 1357	No
+T77	Duration 1572 1580	24 horas
+T80	PHYS 1433 1441	auditiva
+#54	AnnotatorNotes T80	C0018767; Hearing; Physiologic Function
+T66	PROC 1563 1580	orina de 24 horas
+#55	AnnotatorNotes T66	C0201978; Creatinine measurement, 24 hour urine; Laboratory Procedure
+T67	PROC 1020 1036	Estado funcional
+#56	AnnotatorNotes T67	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T71	PROC 793 803	histología
+#57	AnnotatorNotes T71	C0344441; Histology Procedure; Laboratory Procedure (?)
+A1	Assertion T56 Negated
+A2	Assertion T29 Negated
+A3	Assertion T30 Negated
+A4	Assertion T31 Negated
+A5	Assertion T35 Negated
+A6	Status T29 History_of
+A7	Status T30 History_of
+A8	Status T31 History_of
+A9	Status T33 History_of
+A10	Status T34 History_of
+#58	AnnotatorNotes T5	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity
+#59	AnnotatorNotes T23	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#60	AnnotatorNotes T58	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#61	AnnotatorNotes T57	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#62	AnnotatorNotes T7	C5392214; Neoadjuvant Chemotherapy; Therapeutic or Preventive Procedure
+#63	AnnotatorNotes T6	C5392214; Neoadjuvant Chemotherapy; Therapeutic or Preventive Procedure
+#64	AnnotatorNotes T13	C4725841; Bladder Carcinoma Infiltrating the Muscle of the Bladder Wall; Neoplastic Process
+#65	AnnotatorNotes T16	C4725841; Bladder Carcinoma Infiltrating the Muscle of the Bladder Wall; Neoplastic Process
+#66	AnnotatorNotes T45	C0043299; Diagnostic radiologic examination; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+#67	AnnotatorNotes T50	C0373595; Creatinine clearance measurement; Laboratory Procedure
+R1	Combined_with Arg1:T2 Arg2:T23	
+R2	Combined_with Arg1:T23 Arg2:T56	
+R3	Negation Arg1:T60 Arg2:T56	
+R4	Before Arg1:T1 Arg2:T3	
+R5	Before Arg1:T2 Arg2:T3	
+R6	Overlap Arg1:T3 Arg2:T61	
+T72	Quantifier_or_Qualifier 64 68	sola
+R7	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T72	
+R8	Combined_with Arg1:T3 Arg2:T58	
+R9	Combined_with Arg1:T3 Arg2:T57	
+R10	Combined_with Arg1:T57 Arg2:T55	
+R11	Experiences Arg1:T62 Arg2:T1	
+R12	Experiences Arg1:T62 Arg2:T2	
+R13	Experiences Arg1:T62 Arg2:T3	
+R15	Experiences Arg1:T62 Arg2:T57	
+R16	Experiences Arg1:T62 Arg2:T53	
+T74	Quantifier_or_Qualifier 286 290	sola
+R17	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T74	
+R18	Combined_with Arg1:T7 Arg2:T8	
+R19	Combined_with Arg1:T7 Arg2:T9	
+R20	Combined_with Arg1:T9 Arg2:T54	
+R21	Before Arg1:T6 Arg2:T10	
+R22	Before Arg1:T7 Arg2:T10	
+R23	Overlap Arg1:T10 Arg2:T63	
+R24	Overlap Arg1:T11 Arg2:T63	
+R25	Overlap Arg1:T12 Arg2:T63	
+R26	Overlap Arg1:T40 Arg2:T63	
+R27	Combined_with Arg1:T10 Arg2:T11	
+R28	Combined_with Arg1:T10 Arg2:T12	
+R29	Combined_with Arg1:T12 Arg2:T40	
+R30	Location_of Arg1:T41 Arg2:T13	
+T76	Observation 488 504	músculo-invasivo
+#68	AnnotatorNotes T76	C4725840; Muscle Invasion; Finding
+R33	Location_of Arg1:T14 Arg2:T76	
+R35	Location_of Arg1:T43 Arg2:T16	
+T78	Observation 563 579	músculo-invasivo
+#69	AnnotatorNotes T78	C4725840; Muscle Invasion; Finding
+R36	Location_of Arg1:T17 Arg2:T78	
+R38	Location_of Arg1:T42 Arg2:T15	
+R39	Experiences Arg1:T64 Arg2:T6	
+R40	Experiences Arg1:T64 Arg2:T7	
+R41	Experiences Arg1:T64 Arg2:T9	
+R42	Experiences Arg1:T64 Arg2:T10	
+R43	Experiences Arg1:T64 Arg2:T12	
+R44	Experiences Arg1:T64 Arg2:T13	
+T79	Result_or_Value 659 665	<10 mm
+R46	Has_Result_or_Value Arg1:T18 Arg2:T79	
+R47	Experiences Arg1:T65 Arg2:T18	
+R48	Experiences Arg1:T65 Arg2:T44	
+R49	Experiences Arg1:T65 Arg2:T19	
+R50	Before Arg1:T21 Arg2:T20	
+R51	Experiences Arg1:T65 Arg2:T21	
+R52	Experiences Arg1:T65 Arg2:T45	
+T81	Observation 647 649	T2
+#70	AnnotatorNotes T81	C0475373; Tumor stage T2; Finding
+T82	Observation 650 653	T4a
+#71	AnnotatorNotes T82	C0475395; Tumor stage T4a; Finding
+R55	Overlap Arg1:T18 Arg2:T81	
+R56	Overlap Arg1:T18 Arg2:T82	
+T83	Observation 655 657	N0
+#72	AnnotatorNotes T83	C0441959; Node stage N0; Finding
+R57	Overlap Arg1:T18 Arg2:T83	
+R69	Experiences Arg1:T68 Arg2:T24	
+R70	Experiences Arg1:T68 Arg2:T46	
+R71	After Arg1:T46 Arg2:T25	
+R72	After Arg1:T24 Arg2:T25	
+T84	CONC 1041 1075	Eastern Cooperative Oncology Group
+#73	AnnotatorNotes T84	C1520224; ECOG performance status; Intellectual Product
+T85	CONC 1077 1081	ECOG
+#74	AnnotatorNotes T85	C1520224; ECOG performance status; Intellectual Product
+T86	Result_or_Value 1086 1091	0 o 1
+R73	Has_Result_or_Value Arg1:T85 Arg2:T86	
+R74	Has_Result_or_Value Arg1:T84 Arg2:T86	
+R75	Used_for Arg1:T84 Arg2:T67	
+R76	Used_for Arg1:T85 Arg2:T67	
+T87	Result_or_Value 1144 1153	positivos
+#75	AnnotatorNotes T87	C1446409; Positive; Finding
+R78	Location_of Arg1:T27 Arg2:T26	
+T88	Result_or_Value 1155 1178	≥ 10 mm en el eje corto
+R79	Has_Result_or_Value Arg1:T26 Arg2:T88	
+R80	Location_of Arg1:T47 Arg2:T28	
+R81	Before Arg1:T28 Arg2:T4	
+R82	Negation Arg1:T73 Arg2:T29	
+R83	Negation Arg1:T73 Arg2:T30	
+R84	Negation Arg1:T73 Arg2:T31	
+#76	AnnotatorNotes T29	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+R85	Location_of Arg1:T49 Arg2:T32	
+R86	Negation Arg1:T75 Arg2:T35	
+T89	Quantifier_or_Qualifier 1458 1476	grado 2 o superior
+R89	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T89	
+R93	Location_of Arg1:T52 Arg2:T66	
+R94	Overlap Arg1:T66 Arg2:T77	
+T90	Result_or_Value 1582 1593	< 50 ml/min
+R95	Has_Result_or_Value Arg1:T39 Arg2:T90	
+R96	Has_Result_or_Value Arg1:T50 Arg2:T90	
+R97	Before Arg1:T66 Arg2:T39	
+T91	Observation 679 681	M0
+#77	AnnotatorNotes T91	C0445034; M0 Stage Finding; Finding
+R101	Overlap Arg1:T18 Arg2:T91	
+R102	Experiences Arg1:T68 Arg2:T25	
+R103	Causes Arg1:T28 Arg2:T87	
+#78	AnnotatorNotes T72	C0205171; Singular; Quantitative Concept
+#79	AnnotatorNotes T74	C0205171; Singular; Quantitative Concept
+#80	AnnotatorNotes T26	C5554846; Clinical Evidence; Idea or Concept
+R32	Has_Result_or_Value Arg1:T26 Arg2:T87	
+T92	Route 1257 1266	sistémico
+R14	Has_Route_or_Mode Arg1:T29 Arg2:T92	
+#81	AnnotatorNotes T92	C0205373; Systemic; Functional Concept
+T93	Observation 810 846	componente urotelial es predominante
+A11	Assertion T93 Hypothetical
+A12	Experiencer T69 Other
+A13	Experiencer T70 Other
+A14	Experiencer T68 Patient
+A15	Experiencer T62 Patient
+A16	Experiencer T64 Patient
+A17	Experiencer T65 Patient

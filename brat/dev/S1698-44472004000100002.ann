@@ -1,0 +1,174 @@
+T1	DISO 1 26	Síndrome de boca ardiente
+#1	AnnotatorNotes T1	C2930806; Stomatodynia; Disease or Syndrome
+T2	CHEM 56 66	medicación
+#2	AnnotatorNotes T2	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T3	CHEM 366 372	Tiobec
+T4	PROC 42 54	psicoterapia
+#3	AnnotatorNotes T4	C0033968; Psychotherapy; Therapeutic or Preventive Procedure
+T5	CHEM 71 89	ácido alfa-lipoico
+#4	AnnotatorNotes T5	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T6	PROC 92 115	combinación de terapias
+#5	AnnotatorNotes T6	C0009429; Combined Modality Therapy; Therapeutic or Preventive Procedure
+T7	CHEM 693 699	Tiobec
+T8	DISO 159 184	Síndrome de boca ardiente
+#6	AnnotatorNotes T8	C2930806; Stomatodynia; Disease or Syndrome
+T9	PROC 186 208	se analizó la eficacia
+#7	AnnotatorNotes T9	C1707887; Efficacy Study; Research Activity
+T10	PROC 213 236	control de los síntomas
+#8	AnnotatorNotes T10	C1274136; Symptom control (regime/therapy); Therapeutic or Preventive Procedure
+T11	DISO 228 236	síntomas
+#9	AnnotatorNotes T11	C1457887; Symptoms; Sign or Symptom
+T12	PROC 243 255	psicoterapia
+#10	AnnotatorNotes T12	C0033968; Psychotherapy; Therapeutic or Preventive Procedure
+T13	CHEM 325 343	ácido alfa lipoico
+#11	AnnotatorNotes T13	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T14	CHEM 345 348	ALA
+#12	AnnotatorNotes T14	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T15	CHEM 350 364	ácido tioctico
+#13	AnnotatorNotes T15	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T16	PROC 433 445	psicoterapia
+#14	AnnotatorNotes T16	C0033968; Psychotherapy; Therapeutic or Preventive Procedure
+T17	CHEM 468 471	ALA
+#15	AnnotatorNotes T17	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T18	CHEM 677 691	acido tioctico
+#16	AnnotatorNotes T18	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T19	PROC 519 526	placebo
+#17	AnnotatorNotes T19	C0032042; Placebos; Therapeutic or Preventive Procedure
+T20	PROC 578 595	terapia combinada
+#18	AnnotatorNotes T20	C0009429; Combined Modality Therapy; Therapeutic or Preventive Procedure
+T21	PROC 619 631	tratamientos
+#19	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	CHEM 652 670	ácido alfa lipoico
+#20	AnnotatorNotes T22	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T23	CHEM 672 675	ALA
+#21	AnnotatorNotes T23	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T24	CHEM 877 880	ALA
+#22	AnnotatorNotes T24	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T25	CHEM 978 996	ácido alfa lipoico
+#23	AnnotatorNotes T25	C0023791; thioctic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T26	PROC 1020 1032	psicoterapia
+#24	AnnotatorNotes T26	C0033968; Psychotherapy; Therapeutic or Preventive Procedure
+T27	CHEM 1071 1092	fármacos psicoactivos
+#25	AnnotatorNotes T27	C0682880; Psychoactive substance; Hazardous or Poisonous Substance · Pharmacologic Substance
+T28	PROC 1105 1128	estudios de comparación
+#26	AnnotatorNotes T28	C1579762; comparative study research; Research Activity
+T29	ANAT 13 17	boca
+#27	AnnotatorNotes T29	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T30	ANAT 171 175	boca
+#28	AnnotatorNotes T30	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T31	PROC 636 649	psicoanálisis
+#29	AnnotatorNotes T31	C0392892; Psychoanalysis; Therapeutic or Preventive Procedure
+T32	PROC 779 792	psicoanálisis
+#30	AnnotatorNotes T32	C0392892; Psychoanalysis; Therapeutic or Preventive Procedure
+T33	LIVB 140 148	personas
+#31	AnnotatorNotes T33	C0027361; Persons; Population Group
+T34	Frequency 269 291	dos sesiones semanales
+T35	Duration 295 301	1 hora
+T36	Duration 310 319	dos meses
+T37	Dose 374 380	600 mg
+T38	Frequency 381 387	al día
+T39	Duration 396 405	dos meses
+T40	Dose 452 458	600 mg
+T41	Frequency 459 464	/ día
+T42	Duration 480 487	2 meses
+T43	Dose 700 707	600 mgr
+T44	Frequency 708 714	al día
+T45	Duration 725 732	2 meses
+T46	Frequency 806 828	dos sesiones semanales
+T47	Duration 832 840	una hora
+T48	Duration 849 858	dos meses
+T49	Dose 881 888	600 mgr
+T50	Frequency 889 895	al día
+T51	Duration 910 919	dos meses
+T53	Date 1157 1168	actualmente
+T54	LIVB 493 502	controles
+#32	AnnotatorNotes T54	C0009932; Control Groups; Group
+T52	Spec_cue 997 1003	podría
+T55	CONC 1004 1016	complementar
+A1	Assertion T55 Speculated
+T56	CONC 1043 1054	alternativa
+A2	Assertion T56 Speculated
+#33	AnnotatorNotes T56	C1523987; Alternative; Qualitative Concept
+T57	Quantifier_or_Qualifier 1055 1064	aceptable
+A3	Assertion T57 Speculated
+#34	AnnotatorNotes T57	C1879533; Acceptable; Qualitative Concept
+R1	Speculation Arg1:T52 Arg2:T55	
+R2	Speculation Arg1:T52 Arg2:T56	
+R3	Speculation Arg1:T52 Arg2:T57	
+A4	Assertion T26 Speculated
+R4	Speculation Arg1:T52 Arg2:T26	
+R5	Location_of Arg1:T29 Arg2:T1	
+R6	Combined_with Arg1:T2 Arg2:T5	
+R7	Experiences Arg1:T33 Arg2:T8	
+R8	Location_of Arg1:T30 Arg2:T8	
+T58	Quantifier_or_Qualifier 149 154	sanas
+#35	AnnotatorNotes T58	C3898900; Healthy; Qualitative Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T58	
+T59	Quantifier_or_Qualifier 256 260	sola
+R10	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T59	
+R11	Has_Frequency Arg1:T12 Arg2:T34	
+R12	Has_Duration_or_Interval Arg1:T12 Arg2:T35	
+R13	Experiences Arg1:T33 Arg2:T12	
+R14	Experiences Arg1:T33 Arg2:T13	
+R15	Experiences Arg1:T33 Arg2:T14	
+R16	Has_Duration_or_Interval Arg1:T12 Arg2:T36	
+R17	Experiences Arg1:T33 Arg2:T15	
+R18	Experiences Arg1:T33 Arg2:T3	
+R19	Has_Dose_or_Strength Arg1:T13 Arg2:T37	
+R20	Has_Dose_or_Strength Arg1:T14 Arg2:T37	
+R21	Has_Dose_or_Strength Arg1:T15 Arg2:T37	
+R22	Has_Dose_or_Strength Arg1:T3 Arg2:T37	
+R23	Has_Frequency Arg1:T3 Arg2:T38	
+R24	Has_Frequency Arg1:T15 Arg2:T38	
+R25	Has_Frequency Arg1:T14 Arg2:T38	
+R26	Has_Frequency Arg1:T13 Arg2:T38	
+R27	Has_Duration_or_Interval Arg1:T13 Arg2:T39	
+R28	Has_Duration_or_Interval Arg1:T14 Arg2:T39	
+R29	Has_Duration_or_Interval Arg1:T15 Arg2:T39	
+R30	Has_Duration_or_Interval Arg1:T3 Arg2:T39	
+R31	Combined_with Arg1:T16 Arg2:T17	
+R32	Has_Frequency Arg1:T17 Arg2:T41	
+R33	Has_Dose_or_Strength Arg1:T17 Arg2:T40	
+R34	Experiences Arg1:T33 Arg2:T16	
+R35	Has_Duration_or_Interval Arg1:T16 Arg2:T42	
+R36	Has_Duration_or_Interval Arg1:T17 Arg2:T42	
+R37	Experiences Arg1:T54 Arg2:T19	
+R38	Combined_with Arg1:T31 Arg2:T22	
+R39	Combined_with Arg1:T31 Arg2:T23	
+R40	Combined_with Arg1:T31 Arg2:T18	
+R41	Combined_with Arg1:T31 Arg2:T7	
+R42	Has_Dose_or_Strength Arg1:T22 Arg2:T43	
+R43	Has_Dose_or_Strength Arg1:T23 Arg2:T43	
+R44	Has_Frequency Arg1:T18 Arg2:T44	
+R45	Has_Dose_or_Strength Arg1:T7 Arg2:T43	
+R46	Has_Frequency Arg1:T7 Arg2:T44	
+R47	Has_Frequency Arg1:T23 Arg2:T44	
+R48	Has_Frequency Arg1:T22 Arg2:T44	
+R49	Has_Dose_or_Strength Arg1:T18 Arg2:T43	
+R50	Has_Duration_or_Interval Arg1:T7 Arg2:T45	
+R51	Has_Duration_or_Interval Arg1:T18 Arg2:T45	
+R52	Has_Duration_or_Interval Arg1:T23 Arg2:T45	
+R53	Has_Duration_or_Interval Arg1:T22 Arg2:T45	
+T60	Quantifier_or_Qualifier 793 797	solo
+R54	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T60	
+R55	Has_Frequency Arg1:T32 Arg2:T46	
+R56	Has_Duration_or_Interval Arg1:T32 Arg2:T47	
+R57	Has_Duration_or_Interval Arg1:T32 Arg2:T48	
+R58	Has_Dose_or_Strength Arg1:T24 Arg2:T49	
+R59	Has_Frequency Arg1:T24 Arg2:T50	
+T61	Quantifier_or_Qualifier 896 900	solo
+R60	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T61	
+R61	Has_Duration_or_Interval Arg1:T24 Arg2:T51	
+R62	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T57	
+R63	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T56	
+R64	Combined_with Arg1:T25 Arg2:T26	
+R65	Experiences Arg1:T33 Arg2:T10	
+T62	Quantifier_or_Qualifier 1169 1181	justificados
+R66	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T62	
+R67	Overlap Arg1:T62 Arg2:T53	
+#36	AnnotatorNotes T61	C0205171; Singular; Quantitative Concept
+#37	AnnotatorNotes T60	C0205171; Singular; Quantitative Concept
+#38	AnnotatorNotes T53	C0521116; Current (present time); Temporal Concept
+#39	AnnotatorNotes T59	C0205171; Singular; Quantitative Concept
+A5	Experiencer T33 Patient
+A6	Experiencer T54 Patient

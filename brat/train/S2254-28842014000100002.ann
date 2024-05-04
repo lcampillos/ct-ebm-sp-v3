@@ -1,0 +1,194 @@
+T1	PROC 1 21	Evaluación del dolor
+#1	AnnotatorNotes T1	C0030198; Pain Measurement; Diagnostic Procedure
+T2	ANAT 43 64	fístula arteriovenosa
+#2	AnnotatorNotes T2	C0729581; Surgical arteriovenous fistula; Body Part, Organ, or Organ Component
+T3	PROC 70 82	hemodiálisis
+#3	AnnotatorNotes T3	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T4	CHEM 94 111	pomada anestésica
+T5	PROC 121 131	frío local
+#4	AnnotatorNotes T5	C0010412; Cold Therapy; Therapeutic or Preventive Procedure
+T6	PROC 158 170	hemodiálisis
+#5	AnnotatorNotes T6	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T7	PROC 312 343	estudio observacional analítico
+T8	PROC 418 430	hemodiálisis
+#6	AnnotatorNotes T8	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T9	ANAT 453 474	fístula arteriovenosa
+#7	AnnotatorNotes T9	C0729581; Surgical arteriovenous fistula; Body Part, Organ, or Organ Component
+T10	PROC 639 644	HIELO
+#8	AnnotatorNotes T10	C0204767; Application of ice; Therapeutic or Preventive Procedure
+T11	CHEM 583 600	POMADA ANÉSTESICA
+T12	CHEM 602 606	Emla
+#9	AnnotatorNotes T12	C0059079; EMLA; Organic Chemical · Pharmacologic Substance
+T13	PROC 610 617	PLACEBO
+#10	AnnotatorNotes T13	C0032042; Placebos; Therapeutic or Preventive Procedure
+T14	CHEM 619 635	crema hidratante
+#11	AnnotatorNotes T14	C0978697; MOISTURIZING LOTION; Biomedical or Dental Material
+T15	ANAT 819 826	fístula
+#12	AnnotatorNotes T15	C0729581; Surgical arteriovenous fistula; Body Part, Organ, or Organ Component
+T16	PROC 873 876	EVA
+#13	AnnotatorNotes T16	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T17	PROC 931 952	tiempo de coagulación
+#14	AnnotatorNotes T17	C0368930; Coagulation time measurement; Laboratory Procedure
+T18	PROC 1053 1065	hemodiálisis
+#15	AnnotatorNotes T18	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T19	PROC 1114 1126	hemodiálisis
+#16	AnnotatorNotes T19	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T20	CHEM 1206 1210	Emla
+#17	AnnotatorNotes T20	C0059079; EMLA; Organic Chemical · Pharmacologic Substance
+T21	PROC 1397 1409	hemodiálisis
+#18	AnnotatorNotes T21	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T22	CHEM 1527 1531	Emla
+#19	AnnotatorNotes T22	C0059079; EMLA; Organic Chemical · Pharmacologic Substance
+T23	CHEM 1683 1687	Emla
+#20	AnnotatorNotes T23	C0059079; EMLA; Organic Chemical · Pharmacologic Substance
+T24	DISO 16 21	dolor
+#21	AnnotatorNotes T24	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T25	PROC 28 35	punción
+#22	AnnotatorNotes T25	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T26	PROC 438 449	se punciona
+#23	AnnotatorNotes T26	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T27	DISO 136 141	dolor
+#24	AnnotatorNotes T27	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T28	PROC 896 912	presión arterial
+#25	AnnotatorNotes T28	C0005824; Blood pressure determination; Health Care Activity
+T29	DISO 378 383	dolor
+#26	AnnotatorNotes T29	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T30	DISO 501 506	dolor
+#27	AnnotatorNotes T30	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T31	PROC 526 533	punción
+#28	AnnotatorNotes T31	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T32	PROC 914 928	presión venosa
+#29	AnnotatorNotes T32	C0199665; Measurement of venous pressure; Diagnostic Procedure
+T33	PROC 725 733	diálisis
+#30	AnnotatorNotes T33	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T34	DISO 859 864	dolor
+#31	AnnotatorNotes T34	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T35	PROC 879 894	flujo sanguíneo
+#32	AnnotatorNotes T35	C0005776; blood flow measurement; Diagnostic Procedure
+T36	ANAT 885 894	sanguíneo
+#33	AnnotatorNotes T36	C0005767; Blood; Body Substance
+T37	ANAT 904 912	arterial
+#34	AnnotatorNotes T37	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T38	ANAT 922 928	venosa
+#35	AnnotatorNotes T38	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T39	DISO 1726 1731	dolor
+#36	AnnotatorNotes T39	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T40	Form 94 100	pomada
+#37	AnnotatorNotes T40	C0028912; Ointments; Biomedical or Dental Material | C4724086; Ointment Dosage Form; Biomedical or Dental Material
+T41	LIVB 145 154	pacientes
+#38	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 286 295	pacientes
+#39	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 406 414	paciente
+#40	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T47	Form 583 589	POMADA
+#41	AnnotatorNotes T47	C0028912; Ointments; Biomedical or Dental Material | C4724086; Ointment Dosage Form; Biomedical or Dental Material
+T48	Form 619 624	crema
+#42	AnnotatorNotes T48	C4722351; Cream Dosage Form Category; Biomedical or Dental Material | C1378128; Cream Dosage Form; Biomedical or Dental Material
+T50	LIVB 770 779	pacientes
+#43	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 784 791	hombres
+#44	AnnotatorNotes T51	C0025266; Male population group; Population Group
+T52	LIVB 796 803	mujeres
+#45	AnnotatorNotes T52	C0043210; Woman; Population Group
+T56	Duration 996 1012	las tres semanas
+T58	LIVB 1486 1495	pacientes
+#46	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T62	PHYS 941 952	coagulación
+#47	AnnotatorNotes T62	C0005778; Blood coagulation; Organ or Tissue Function
+T42	CONC 177 185	valorado
+A1	Assertion T42 Negated
+T43	Neg_cue 171 173	no
+R1	Negation Arg1:T43 Arg2:T42	
+T46	Neg_cue 204 206	no
+T49	Quantifier_or_Qualifier 186 201	en su totalidad
+R2	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T49	
+T53	Neg_cue 1281 1283	no
+T54	CONC 1292 1303	diferencias
+A2	Assertion T54 Negated
+#48	AnnotatorNotes T54	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T53 Arg2:T54	
+T55	CONC 1607 1618	diferencias
+A3	Assertion T55 Negated
+#49	AnnotatorNotes T55	C1705241; Delta (difference); Quantitative Concept
+T57	Neg_cue 1596 1598	no
+R4	Negation Arg1:T57 Arg2:T55	
+T59	Neg_cue 1738 1740	no
+T60	CONC 1741 1746	varía
+A4	Assertion T60 Negated
+T61	Neg_cue 1747 1753	ningún
+R5	Negation Arg1:T59 Arg2:T60	
+T63	CONC 207 242	se tiene en cuenta las limitaciones
+A5	Assertion T63 Negated
+R6	Negation Arg1:T46 Arg2:T63	
+T64	CONC 1759 1768	parámetro
+A6	Assertion T64 Negated
+R7	Negation Arg1:T61 Arg2:T64	
+#50	AnnotatorNotes T60	C0205419; Variant; Qualitative Concept (?)
+R9	Causes Arg1:T25 Arg2:T24	
+R10	Has_Drug_Form Arg1:T4 Arg2:T40	
+R11	Before Arg1:T5 Arg2:T25	
+R12	Before Arg1:T4 Arg2:T25	
+R13	Before Arg1:T25 Arg2:T3	
+R14	Experiences Arg1:T41 Arg2:T27	
+R15	Experiences Arg1:T41 Arg2:T6	
+T65	CONC 261 276	calidad de vida
+#51	AnnotatorNotes T65	C0034380; Quality of life; Idea or Concept
+R16	Experiences Arg1:T44 Arg2:T27	
+R17	Experiences Arg1:T44 Arg2:T6	
+R18	Experiences Arg1:T45 Arg2:T29	
+R19	Experiences Arg1:T45 Arg2:T8	
+R20	Experiences Arg1:T45 Arg2:T26	
+R22	Before Arg1:T26 Arg2:T8	
+R23	Causes Arg1:T26 Arg2:T29	
+R26	Causes Arg1:T31 Arg2:T30	
+R27	Has_Drug_Form Arg1:T11 Arg2:T47	
+R28	Has_Drug_Form Arg1:T12 Arg2:T47	
+R29	Before Arg1:T11 Arg2:T31	
+R30	Before Arg1:T12 Arg2:T31	
+R31	Before Arg1:T13 Arg2:T31	
+R32	Has_Drug_Form Arg1:T14 Arg2:T48	
+R33	Used_for Arg1:T14 Arg2:T13	
+R34	Before Arg1:T14 Arg2:T31	
+R35	Before Arg1:T10 Arg2:T31	
+R36	Experiences Arg1:T52 Arg2:T71	
+R37	Experiences Arg1:T51 Arg2:T71	
+R38	Experiences Arg1:T50 Arg2:T71	
+R40	Location_of Arg1:T37 Arg2:T28	
+R41	Location_of Arg1:T38 Arg2:T32	
+R42	Overlap Arg1:T62 Arg2:T17	
+T66	PROC 1029 1036	estudio
+#52	AnnotatorNotes T66	C0681814; research study; Research Activity
+R43	Has_Duration_or_Interval Arg1:T66 Arg2:T56	
+T67	Quantifier_or_Qualifier 1038 1049	36 sesiones
+R45	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T67	
+T68	Quantifier_or_Qualifier 1099 1110	36 sesiones
+R46	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T68	
+T69	CONC 1150 1157	gráfica
+#53	AnnotatorNotes T69	C0681493; Graph - visual representation; Intellectual Product
+T70	CONC 1070 1078	gráficas
+#54	AnnotatorNotes T70	C0681493; Graph - visual representation; Intellectual Product
+R47	Before Arg1:T20 Arg2:T21	
+R48	Experiences Arg1:T58 Arg2:T22	
+R50	Location_of Arg1:T2 Arg2:T25	
+R21	Location_of Arg1:T9 Arg2:T26	
+R51	Location_of Arg1:T9 Arg2:T29	
+T71	Observation 805 826	portadores de fístula
+#55	AnnotatorNotes T71	C3841605; Hemodialysis - arteriovenous fistula; Finding (?) 
+T72	Quantifier_or_Qualifier 1304 1318	significativas
+A7	Assertion T72 Negated
+#56	AnnotatorNotes T72	C0237881; Statistical Significance; Quantitative Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T72	
+R54	Negation Arg1:T53 Arg2:T72	
+A8	Assertion T49 Negated
+R8	Negation Arg1:T43 Arg2:T49	
+#57	AnnotatorNotes T64	C0549193; Parameter Value; Conceptual Entity
+#58	AnnotatorNotes T4	C3689442; Topical Solution/Creams, Anesthetic; Clinical Drug (?) 
+#59	AnnotatorNotes T11	C3689442; Topical Solution/Creams, Anesthetic; Clinical Drug (?) 
+A9	Experiencer T45 Patient
+A10	Experiencer T50 Patient
+A11	Experiencer T51 Patient
+A12	Experiencer T52 Patient
+A13	Experiencer T58 Patient
+A14	Experiencer T41 Patient
+A15	Experiencer T44 Patient

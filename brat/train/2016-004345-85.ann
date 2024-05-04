@@ -1,0 +1,128 @@
+T1	PROC 46 85	ENSAYO CLÍNICO PARA VALORAR LA EFICACIA
+T2	PROC 100 126	OXIGENOTERAPIA HIPERBÁRICA
+#1	AnnotatorNotes T2	C0020431; Hyperbaric oxygenation therapy; Therapeutic or Preventive Procedure
+T3	DISO 142 154	FIBROMIALGIA
+#2	AnnotatorNotes T3	C0016053; Fibromyalgia; Disease or Syndrome
+T4	PROC 177 242	ENSAYO CLINICO ALEATORIZADO CON DOS GRUPOS PARALELOS ENMASCARADOS
+T5	PROC 295 327	VALORAR LA EFICACIA Y EFICIENCIA
+T6	PROC 334 360	OXIGENOTERAPIA HIPERBÁRICA
+#3	AnnotatorNotes T6	C0020431; Hyperbaric oxygenation therapy; Therapeutic or Preventive Procedure
+T7	PROC 365 376	SEGUIMIENTO
+#4	AnnotatorNotes T7	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T8	DISO 401 413	FIBROMIALGIA
+#5	AnnotatorNotes T8	C0016053; Fibromyalgia; Disease or Syndrome
+T9	DISO 455 467	FIBROMIALGIA
+#6	AnnotatorNotes T9	C0016053; Fibromyalgia; Disease or Syndrome
+T10	DISO 559 571	Fibromialgia
+#7	AnnotatorNotes T10	C0016053; Fibromyalgia; Disease or Syndrome
+T11	PROC 649 662	Diagnosticada
+#8	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	DISO 666 678	Fibromialgia
+#9	AnnotatorNotes T12	C0016053; Fibromyalgia; Disease or Syndrome
+T13	PROC 1301 1305	MMSE
+#10	AnnotatorNotes T13	C0451306; Mini-mental state examination; Diagnostic Procedure
+T14	PROC 1239 1263	consentimiento informado
+#11	AnnotatorNotes T14	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T15	PROC 835 849	ensayo clínico
+#12	AnnotatorNotes T15	C0008976; Clinical Trials; Research Activity
+T16	PROC 892 925	tratamiento en cámara hiperbárica
+T17	PROC 962 981	tratamiento con OHB
+#13	AnnotatorNotes T17	C0020431; Hyperbaric oxygenation therapy; Therapeutic or Preventive Procedure
+T18	PROC 1046 1065	tratamiento con OHB
+#14	AnnotatorNotes T18	C0020431; Hyperbaric oxygenation therapy; Therapeutic or Preventive Procedure
+T19	ANAT 1078 1086	pulmonar
+#15	AnnotatorNotes T19	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T20	DISO 1090 1118	Enfermedades de oído interno
+T21	ANAT 1106 1118	oído interno
+#16	AnnotatorNotes T21	C0022889; Labyrinth; Body Part, Organ, or Organ Component | C1268973; Entire inner ear; Body Part, Organ, or Organ Component
+T22	DISO 1137 1147	Neoplasias
+#17	AnnotatorNotes T22	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T23	DISO 1150 1185	Enfermedades reumáticas autoinmunes
+T24	DISO 1188 1205	Transtorno mental
+T25	DISO 1280 1299	deterioro cognitivo
+#18	AnnotatorNotes T25	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T26	DISO 1314 1323	Fumadores
+#19	AnnotatorNotes T26	C0337664; Smoker; Finding
+T27	DISO 1121 1134	Claustrofobia
+#20	AnnotatorNotes T27	C0008909; Claustrophobia; Mental or Behavioral Dysfunction
+T28	PROC 543 555	diagnósticos
+#21	AnnotatorNotes T28	C0011900; Diagnosis; Diagnostic Procedure
+T29	DISO 1068 1086	Patología pulmonar
+T30	Date 13 17	2016
+T31	LIVB 130 137	MUJERES
+#22	AnnotatorNotes T31	C0043210; Woman; Population Group
+T32	LIVB 245 254	PACIENTES
+#23	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	Duration 379 385	UN AÑO
+T34	LIVB 389 396	MUJERES
+#24	AnnotatorNotes T34	C0043210; Woman; Population Group
+T35	LIVB 496 501	Mujer
+#25	AnnotatorNotes T35	C0043210; Woman; Population Group
+T36	Age 510 522	18 - 65 años
+T37	Date 610 614	2010
+T38	Date 679 697	hace más de 2 años
+T39	LIVB 761 770	pacientes
+#26	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	PHYS 852 860	Embarazo
+#27	AnnotatorNotes T40	C0032961; Pregnancy; Organism Function
+T41	DEVI 907 925	cámara hiperbárica
+#28	AnnotatorNotes T41	C0175726; Hyperbaric chamber; Medical Device
+T42	PHYS 1199 1205	mental
+#29	AnnotatorNotes T42	C0229992; Psyche structure; Mental Process
+T43	Neg_cue 1215 1231	Incapacidad para
+T45	LIVB 257 270	PROFESIONALES
+#30	AnnotatorNotes T45	C0679924; professional occupation status; Professional or Occupational Group
+T48	PHYS 1290 1299	cognitivo
+#31	AnnotatorNotes T48	C0009240; Cognition; Mental Process
+A1	Assertion T14 Negated
+A2	Status T16 History_of
+A3	Assertion T18 Contraindicated
+#32	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#33	AnnotatorNotes T4	C0034656; Randomization; Research Activity + C2826345; Parallel Study; Research Activity + C0150108; Blinded; Research Activity
+#34	AnnotatorNotes T29	C0748168; Pulmonary Pathology; Disease or Syndrome 
+#35	AnnotatorNotes T20	C0494559; Diseases of inner ear; Disease or Syndrome 
+#36	AnnotatorNotes T24	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+R1	Experiences Arg1:T31 Arg2:T3	
+R2	Experiences Arg1:T31 Arg2:T2	
+R3	Experiences Arg1:T32 Arg2:T6	
+R4	Experiences Arg1:T34 Arg2:T6	
+R5	Has_Duration_or_Interval Arg1:T7 Arg2:T33	
+R7	Experiences Arg1:T34 Arg2:T8	
+T44	Quantifier_or_Qualifier 414 420	SEVERA
+#37	AnnotatorNotes T44	C1547227; Severe - Severity of Illness Code; Intellectual Product
+T46	Quantifier_or_Qualifier 1206 1212	severo
+#38	AnnotatorNotes T46	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R8	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T46	
+R10	Negation Arg1:T43 Arg2:T14	
+T47	Result_or_Value 1306 1310	< 27
+R12	Has_Result_or_Value Arg1:T13 Arg2:T47	
+R13	Location_of Arg1:T21 Arg2:T20	
+R14	Location_of Arg1:T19 Arg2:T29	
+T49	PROC 1009 1015	ensayo
+#39	AnnotatorNotes T49	C0242802; Patient Selection; Research Activity
+R15	Overlap Arg1:T17 Arg2:T49	
+R16	Used_for Arg1:T41 Arg2:T16	
+T50	Observation 937 949	submarinismo
+#40	AnnotatorNotes T50	C2712995; History of scuba diving; Finding
+T51	Observation 813 849	Participación en otro ensayo clínico
+T52	CONC 732 736	FIQR
+#41	AnnotatorNotes T52	C3641329; Revised Fibromyalgia Impact Questionnaire; Intellectual Product
+T53	CONC 775 779	FIQR
+#42	AnnotatorNotes T53	C3641329; Revised Fibromyalgia Impact Questionnaire; Intellectual Product
+T54	Result_or_Value 780 783	>39
+R17	Has_Result_or_Value Arg1:T53 Arg2:T54	
+R18	Overlap Arg1:T12 Arg2:T38	
+R19	Overlap Arg1:T11 Arg2:T38	
+R20	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T44	
+T55	Quantifier_or_Qualifier 423 431	MODERADA
+#43	AnnotatorNotes T55	C0205081; Moderate (severity modifier); Qualitative Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T55	
+T56	CONC 587 606	criterios de la ACR
+R22	Used_for Arg1:T56 Arg2:T28	
+#44	AnnotatorNotes T16	C0199472; Decompression chamber therapy; Therapeutic or Preventive Procedure
+A4	Experiencer T31 Patient
+A5	Experiencer T45 Other
+A6	Experiencer T32 Patient
+A7	Experiencer T34 Patient
+A8	Experiencer T35 Patient
+A9	Experiencer T39 Patient

@@ -1,0 +1,195 @@
+T1	PROC 74 100	TRATAMIENTO ANTITROMBÓTICO
+T2	ANAT 135 143	OREJUELA
+#1	AnnotatorNotes T2	C0225832; Structure of auricular appendage; Body Part, Organ, or Organ Component | C1305144; Entire auricular appendage; Body Part, Organ, or Organ Component
+T3	DISO 216 237	FIBRILACIÓN AURICULAR
+#2	AnnotatorNotes T3	C0004238; Atrial Fibrillation; Disease or Syndrome
+T4	DISO 264 285	FIBRILACIÓN AURICULAR
+#3	AnnotatorNotes T4	C0004238; Atrial Fibrillation; Disease or Syndrome
+T5	ANAT 321 329	OREJUELA
+#4	AnnotatorNotes T5	C0225832; Structure of auricular appendage; Body Part, Organ, or Organ Component | C1305144; Entire auricular appendage; Body Part, Organ, or Organ Component
+T6	ANAT 513 531	orejuela izquierda
+T7	CHEM 560 563	ACO
+#5	AnnotatorNotes T7	C0354604; oral anticoagulants; Organic Chemical · Pharmacologic Substance
+T8	PROC 658 682	seguimientos telefónicos
+T9	DISO 782 788	trombo
+T10	DISO 805 820	ateroma aórtico
+T11	DISO 834 866	enfermedad carotídea sintomática
+T12	PROC 909 912	eTE
+#6	AnnotatorNotes T12	C0206054; Echocardiography, Transesophageal; Diagnostic Procedure
+T13	PROC 924 933	Plaquetas
+#7	AnnotatorNotes T13	C0032181; Platelet Count measurement; Laboratory Procedure
+T14	PROC 978 989	tratamiento
+#8	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	DISO 1023 1042	insuficiencia renal
+#9	AnnotatorNotes T15	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T16	DISO 1073 1084	hepatopatía
+#10	AnnotatorNotes T16	C0023895; Liver diseases; Disease or Syndrome
+T17	DISO 1107 1114	alergia
+#11	AnnotatorNotes T17	C1527304; Allergic Reaction; Pathologic Function
+T18	CHEM 1132 1140	fármacos
+#12	AnnotatorNotes T18	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T19	PROC 1181 1221	terapia anticoagulante o antiplaquetaria
+#13	AnnotatorNotes T19	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure | C1096021; Antiplatelet therapy; Therapeutic or Preventive Procedure
+T20	DISO 1251 1276	abuso de drogas o alcohol
+T21	CHEM 1206 1221	antiplaquetaria
+T22	PROC 1324 1335	seguimiento
+#14	AnnotatorNotes T22	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T23	CHEM 86 100	ANTITROMBÓTICO
+#15	AnnotatorNotes T23	C1704311; Antithrombotic Agents; Pharmacologic Substance
+T24	ANAT 228 237	AURICULAR
+#16	AnnotatorNotes T24	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T25	ANAT 276 285	AURICULAR
+#17	AnnotatorNotes T25	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T26	DISO 385 429	FANV (paroxística, persistente o permanente)
+#18	AnnotatorNotes T26	C0235480; Paroxysmal atrial fibrillation; Pathologic Function | C2585653; Persistent atrial fibrillation; Pathologic Function | C2586056; Permanent atrial fibrillation; Pathologic Function
+T27	PROC 1054 1061	CICreat
+#19	AnnotatorNotes T27	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T28	Quantifier_or_Qualifier 789 803	intracavitario
+T29	ANAT 813 820	aórtico
+#20	AnnotatorNotes T29	C0003483; Aorta; Body Part, Organ, or Organ Component | C1278934; Entire aorta; Body Part, Organ, or Organ Component
+T30	ANAT 845 854	carotídea
+#21	AnnotatorNotes T30	C0007272; Carotid Arteries; Body Part, Organ, or Organ Component
+T31	ANAT 1037 1042	renal
+#22	AnnotatorNotes T31	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T32	CHEM 1189 1203	anticoagulante
+#23	AnnotatorNotes T32	C0003280; Anticoagulants; Pharmacologic Substance
+T33	CHEM 994 1002	apixaban
+#24	AnnotatorNotes T33	C1831808; apixaban; Organic Chemical · Pharmacologic Substance
+T34	PROC 618 642	consentimiento informado
+#25	AnnotatorNotes T34	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T35	CHEM 155 163	APIXABAN
+#26	AnnotatorNotes T35	C1831808; apixaban; Organic Chemical · Pharmacologic Substance
+T36	PROC 114 153	CIERRE PERCUTÁNEO DE OREJUELA IZQUIERDA
+#27	AnnotatorNotes T36	C3275093; Left atrial appendage occlusion; Therapeutic or Preventive Procedure
+T37	PROC 311 339	CIERRE DE OREJUELA IZQUIERDA
+#28	AnnotatorNotes T37	C3275093; Left atrial appendage occlusion; Therapeutic or Preventive Procedure
+T38	PROC 177 191	ANTIAGREGACIÓN
+T39	ANAT 532 535	LAA
+#29	AnnotatorNotes T39	C0457113; left auricular appendage; Body Part, Organ, or Organ Component
+T40	PROC 503 535	cierre de orejuela izquierda LAA
+T41	Date 13 17	2018
+T42	LIVB 289 298	PACIENTES
+#30	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Age 372 381	> 18 años
+T44	LIVB 735 744	Pacientes
+#31	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	DEVI 749 767	prótesis mecánicas
+#32	AnnotatorNotes T45	C3873910; Mechanical cardiac valve prosthesis; Medical Device
+T46	Duration 1011 1021	tres meses
+T47	LIVB 1224 1233	Pacientes
+#33	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Neg_cue 1313 1320	impidan
+T49	LIVB 1340 1348	paciente
+#34	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 1351 1358	Mujeres
+#35	AnnotatorNotes T50	C0043210; Woman; Population Group
+T51	Spec_cue 1363 1375	potencial de
+T52	PHYS 1385 1396	embarazadas
+#36	AnnotatorNotes T52	C0032961; Pregnancy; Organism Function
+T53	PROC 440 446	CHADS2
+#37	AnnotatorNotes T53	C4706243; Assessment using CHADS2 score; Health Care Activity
+T54	PROC 460 472	CHA2DS2-VASc
+#38	AnnotatorNotes T54	C4542761; Documentation of cha2ds2-vasc risk score; Health Care Activity
+T55	CHEM 1260 1266	drogas
+#39	AnnotatorNotes T55	C0086190; Illicit Drugs; Hazardous or Poisonous Substance
+T56	PROC 1092 1097	Child
+#40	AnnotatorNotes T56	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+T57	PROC 689 696	visitas
+#41	AnnotatorNotes T57	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T22 Negated
+A2	Assertion T52 Speculated
+A3	Assertion T7 Contraindicated
+A4	Assertion T12 Contraindicated
+A5	Assertion T14 Contraindicated
+A6	Assertion T33 Contraindicated
+A7	Status T17 History_of
+A8	Assertion T19 Contraindicated
+A9	Assertion T32 Contraindicated
+A10	Assertion T21 Contraindicated
+A11	Status T20 History_of
+A12	Status T55 History_of
+#42	AnnotatorNotes T6	C0225861; Left auricular appendage; Body Part, Organ, or Organ Component 
+#43	AnnotatorNotes T40	C3275093; Left atrial appendage occlusion; Therapeutic or Preventive Procedure
+#44	AnnotatorNotes T8	C0178941; Telephone follow-up; Health Care Activity
+#45	AnnotatorNotes T10	C1388244; aortic valve; atheroma; Disease or Syndrome 
+#46	AnnotatorNotes T21	C5214487; Antiplatelet; Pharmacologic Substance 
+T58	Food 1269 1276	alcohol
+#47	AnnotatorNotes T58	C0001967; Alcoholic Beverages; Food
+T59	Quantifier_or_Qualifier 171 176	DOBLE
+#48	AnnotatorNotes T59	C0205173; Double (qualifier value); Functional Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T59	
+#49	AnnotatorNotes T38	C1096021; Antiplatelet therapy; Therapeutic or Preventive Procedure
+R2	Used_for Arg1:T23 Arg2:T1	
+R3	After Arg1:T1 Arg2:T36	
+R4	Location_of Arg1:T2 Arg2:T36	
+R5	Used_for Arg1:T35 Arg2:T1	
+R6	Used_for Arg1:T38 Arg2:T1	
+R7	Location_of Arg1:T24 Arg2:T3	
+R8	Location_of Arg1:T25 Arg2:T4	
+R9	Experiences Arg1:T42 Arg2:T4	
+R10	Experiences Arg1:T42 Arg2:T37	
+R11	Location_of Arg1:T5 Arg2:T37	
+T60	Result_or_Value 447 450	≥ 1
+R12	Has_Result_or_Value Arg1:T53 Arg2:T60	
+T61	Result_or_Value 473 476	≥ 2
+R13	Has_Result_or_Value Arg1:T54 Arg2:T61	
+R14	Location_of Arg1:T6 Arg2:T40	
+R15	Location_of Arg1:T39 Arg2:T40	
+T62	Observation 595 605	capacitado
+#50	AnnotatorNotes T62	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R16	Overlap Arg1:T62 Arg2:T34	
+R17	Overlap Arg1:T62 Arg2:T8	
+R18	Overlap Arg1:T62 Arg2:T57	
+R19	Before Arg1:T34 Arg2:T8	
+R20	Before Arg1:T34 Arg2:T57	
+R21	Experiences Arg1:T44 Arg2:T45	
+R22	Experiences Arg1:T44 Arg2:T9	
+R23	Experiences Arg1:T44 Arg2:T10	
+R24	Experiences Arg1:T44 Arg2:T11	
+R25	Location_of Arg1:T29 Arg2:T10	
+R26	Location_of Arg1:T30 Arg2:T11	
+#51	AnnotatorNotes T28	C1298613; intracavitary; Spatial Concept
+#52	AnnotatorNotes T9	C0087086; Thrombus; Pathologic Function 
+R27	Location_of Arg1:T28 Arg2:T9	
+T63	Quantifier_or_Qualifier 913 921	seriados
+A13	Assertion T63 Contraindicated
+R28	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T63	
+T64	Result_or_Value 934 940	<40000
+R29	Has_Result_or_Value Arg1:T13 Arg2:T64	
+R30	Used_for Arg1:T33 Arg2:T14	
+R31	Has_Duration_or_Interval Arg1:T33 Arg2:T46	
+R32	Location_of Arg1:T31 Arg2:T15	
+T65	Quantifier_or_Qualifier 1043 1049	severa
+#53	AnnotatorNotes T65	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R33	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T65	
+R34	Speculation Arg1:T51 Arg2:T52	
+R35	Causes Arg1:T55 Arg2:T20	
+R36	Causes Arg1:T58 Arg2:T20	
+#54	AnnotatorNotes T20	C0740858; Substance abuse problem; Mental or Behavioral Dysfunction | C0085762; Alcohol abuse; Mental or Behavioral Dysfunction | C0013146; Drug abuse; Mental or Behavioral Dysfunction
+R37	Negation Arg1:T48 Arg2:T22	
+R38	Experiences Arg1:T49 Arg2:T20	
+R39	Experiences Arg1:T47 Arg2:T20	
+T66	Observation 1280 1308	características psicológicas
+#55	AnnotatorNotes T66	C1291705; Psychological finding; Finding
+R40	Before Arg1:T66 Arg2:T22	
+R43	After Arg1:T4 Arg2:T37	
+T67	Quantifier_or_Qualifier 821 831	complicado
+#56	AnnotatorNotes T67	C0231242; Complicated; Functional Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T67	
+R45	Causes Arg1:T18 Arg2:T17	
+T68	Result_or_Value 1098 1103	B o C
+R46	Has_Result_or_Value Arg1:T56 Arg2:T68	
+T69	Result_or_Value 1062 1070	<10 ml/h
+R47	Has_Result_or_Value Arg1:T27 Arg2:T69	
+T70	Quantifier_or_Qualifier 1085 1091	severa
+#57	AnnotatorNotes T70	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R50	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T70	
+R51	Used_for Arg1:T32 Arg2:T19	
+R52	Used_for Arg1:T21 Arg2:T19	
+R41	Experiences Arg1:T50 Arg2:T52	
+#58	AnnotatorNotes T63	C4554600; Serial; Temporal Concept (?)
+A14	Experiencer T47 Patient
+A15	Experiencer T49 Patient
+A16	Experiencer T50 Patient
+A17	Experiencer T42 Patient
+A18	Experiencer T44 Patient

@@ -1,0 +1,154 @@
+T1	PROC 45 59	Estudio fase 2
+T2	CHEM 109 118	nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 129 142	quimioterapia
+#2	AnnotatorNotes T3	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T4	DISO 160 178	cáncer de páncreas
+#3	AnnotatorNotes T4	C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T5	PROC 208 222	Estudio fase 2
+T6	CHEM 293 302	nivolumab
+#4	AnnotatorNotes T6	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	PROC 326 339	quimioterapia
+#5	AnnotatorNotes T7	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T8	DISO 357 375	cáncer de páncreas
+#6	AnnotatorNotes T8	C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T9	DISO 406 424	Cáncer de páncreas
+#7	AnnotatorNotes T9	C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T10	PROC 471 507	diagnóstico histológico o citológico
+#8	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure + C1305671; Cytology procedure; Laboratory Procedure + C0344441; Histology Procedure; Laboratory Procedure
+T11	DISO 571 582	metastásico
+#9	AnnotatorNotes T11	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T12	DISO 762 780	Metástasis del SNC
+T13	PROC 631 644	quimioterapia
+#10	AnnotatorNotes T13	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T14	ANAT 706 713	órganos
+#11	AnnotatorNotes T14	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T15	DISO 716 734	Enfermedad medible
+#12	AnnotatorNotes T15	C1513041; Measurable Disease; Disease or Syndrome
+T16	ANAT 777 780	SNC
+#13	AnnotatorNotes T16	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T17	DISO 819 840	enfermedad autoinmune
+#14	AnnotatorNotes T17	C0004364; Autoimmune Diseases; Disease or Syndrome
+T18	DISO 873 898	Enfermedad cardiovascular
+#15	AnnotatorNotes T18	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T19	ANAT 884 898	cardiovascular
+#16	AnnotatorNotes T19	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T20	PROC 951 960	regímenes
+#17	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	CHEM 964 975	anticuerpos
+#18	AnnotatorNotes T21	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T22	ANAT 991 1011	células inmunitarias
+T23	ANAT 170 178	páncreas
+#19	AnnotatorNotes T23	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T24	ANAT 367 375	páncreas
+#20	AnnotatorNotes T24	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T25	ANAT 416 424	páncreas
+#21	AnnotatorNotes T25	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T26	ANAT 540 548	páncreas
+#22	AnnotatorNotes T26	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T27	DISO 522 548	adenocarcinoma de páncreas
+T28	CHEM 63 76	cabiralizumab
+#23	AnnotatorNotes T28	C4682409; Cabiralizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T29	CHEM 226 239	cabiralizumab
+#24	AnnotatorNotes T29	C4682409; Cabiralizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T30	CHEM 241 251	BMS-986227
+T31	CHEM 304 314	BMS-936558
+#25	AnnotatorNotes T31	C4552119; BMS-936558; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	CHEM 253 259	FPA008
+T33	Date 13 17	2018
+T34	Neg_cue 125 128	sin
+T35	LIVB 146 155	pacientes
+#26	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Neg_cue 322 325	sin
+T37	LIVB 343 352	pacientes
+#27	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Spec_cue 781 791	sospechada
+T39	LIVB 805 814	Pacientes
+#28	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Spec_cue 860 870	sospechada
+T41	PROC 647 671	Estado de funcionamiento
+#29	AnnotatorNotes T41	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T42	PHYS 683 692;703 713	Funciones de órganos
+#30	AnnotatorNotes T42	C0678852; body system or organ function; Organ or Tissue Function
+A1	Assertion T17 Speculated
+A3	Assertion T3 Negated
+A4	Assertion T7 Negated
+A5	Status T20 History_of
+A6	Status T21 History_of
+A7	Status T12 History_of
+A8	Status T17 History_of
+#31	AnnotatorNotes T1	C0282460; Phase 2 Clinical Trials; Research Activity
+#32	AnnotatorNotes T5	C0282460; Phase 2 Clinical Trials; Research Activity
+#33	AnnotatorNotes T30	C4688406; BMS-986227; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor
+#34	AnnotatorNotes T32	C4085968; Anti-CSF1R FPA008; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor  (?)
+#35	AnnotatorNotes T27	C0281361; Adenocarcinoma of pancreas; Neoplastic Process 
+#36	AnnotatorNotes T12	C0686377; CNS metastases; Neoplastic Process
+#37	AnnotatorNotes T22	C4330475; Immune Cell; Cell
+A2	Assertion T12 Speculated
+T43	Neg_cue 899 901	no
+T44	Quantifier_or_Qualifier 902 912	controlada
+A9	Assertion T44 Negated
+T45	Quantifier_or_Qualifier 841 847	activa
+#38	AnnotatorNotes T45	C0679217; Active State; Idea or Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T45	
+R2	Experiences Arg1:T39 Arg2:T17	
+R3	Speculation Arg1:T40 Arg2:T17	
+R4	Speculation Arg1:T38 Arg2:T12	
+R5	Location_of Arg1:T16 Arg2:T12	
+R6	Location_of Arg1:T19 Arg2:T18	
+R7	Negation Arg1:T43 Arg2:T44	
+R8	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T44	
+R9	Used_for Arg1:T21 Arg2:T20	
+T46	Quantifier_or_Qualifier 976 1011	moduladores de células inmunitarias
+R10	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T46	
+R11	Combined_with Arg1:T28 Arg2:T2	
+R12	Negation Arg1:T34 Arg2:T3	
+R13	Experiences Arg1:T35 Arg2:T28	
+R14	Experiences Arg1:T35 Arg2:T3	
+R15	Experiences Arg1:T35 Arg2:T4	
+R16	Location_of Arg1:T23 Arg2:T4	
+T47	Quantifier_or_Qualifier 179 187	avanzado
+#39	AnnotatorNotes T47	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Conceptç
+R17	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T47	
+T48	Quantifier_or_Qualifier 376 384	avanzado
+#40	AnnotatorNotes T48	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T48	
+R19	Location_of Arg1:T24 Arg2:T8	
+T49	Quantifier_or_Qualifier 425 433	avanzado
+R20	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T49	
+R21	Location_of Arg1:T25 Arg2:T9	
+T50	Quantifier_or_Qualifier 549 568	localmente avanzado
+R22	Location_of Arg1:T26 Arg2:T27	
+R23	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T50	
+R25	Before Arg1:T27 Arg2:T11	
+T51	Observation 588 596	progresó
+#41	AnnotatorNotes T51	C1457868; Worse; Finding (?)
+R27	Before Arg1:T27 Arg2:T51	
+R28	Overlap Arg1:T51 Arg2:T13	
+R29	After Arg1:T51 Arg2:T13	
+T52	CONC 672 676	ECOG
+#42	AnnotatorNotes T52	C1520224; ECOG performance status; Intellectual Product
+R30	Used_for Arg1:T52 Arg2:T41	
+T53	Result_or_Value 677 680	0-1
+R31	Has_Result_or_Value Arg1:T52 Arg2:T53	
+R32	Location_of Arg1:T14 Arg2:T42	
+R34	Combined_with Arg1:T29 Arg2:T6	
+R35	Combined_with Arg1:T29 Arg2:T31	
+R36	Combined_with Arg1:T30 Arg2:T6	
+R37	Combined_with Arg1:T30 Arg2:T31	
+R38	Combined_with Arg1:T32 Arg2:T6	
+R39	Combined_with Arg1:T32 Arg2:T31	
+R40	Negation Arg1:T36 Arg2:T7	
+R41	Experiences Arg1:T37 Arg2:T29	
+R42	Experiences Arg1:T37 Arg2:T30	
+R43	Experiences Arg1:T37 Arg2:T32	
+R44	Experiences Arg1:T37 Arg2:T7	
+R45	Experiences Arg1:T37 Arg2:T8	
+T54	Observation 683 713	Funciones adecuadas de órganos
+R33	Combined_with Arg1:T28 Arg2:T3	
+R46	Combined_with Arg1:T29 Arg2:T7	
+#43	AnnotatorNotes T49	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R24	Location_of Arg1:T14 Arg2:T54	
+A10	Experiencer T39 Patient
+A11	Experiencer T35 Patient
+A12	Experiencer T37 Patient

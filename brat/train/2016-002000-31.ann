@@ -1,0 +1,173 @@
+T1	PROC 46 77	Ensayo clínico abierto fase IIa
+T2	CHEM 111 121	isoniazida
+#1	AnnotatorNotes T2	C0022209; isoniazid; Organic Chemical · Pharmacologic Substance
+T3	PROC 130 141	tratamiento
+#2	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 148 169	infección tuberculosa
+#3	AnnotatorNotes T4	C0041296; Tuberculosis; Disease or Syndrome
+T5	PROC 223 254	Ensayo clínico abierto fase IIa
+T6	PROC 761 785	consentimiento informado
+#4	AnnotatorNotes T6	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T7	CHEM 302 312	isoniazida
+#5	AnnotatorNotes T7	C0022209; isoniazid; Organic Chemical · Pharmacologic Substance
+T8	PROC 332 343	tratamiento
+#6	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	DISO 350 371	infección tuberculosa
+#7	AnnotatorNotes T9	C0041296; Tuberculosis; Disease or Syndrome
+T10	DISO 426 447	Infección tuberculosa
+#8	AnnotatorNotes T10	C0041296; Tuberculosis; Disease or Syndrome
+T11	PROC 586 624	quimioprofilaxis primaria o secundaria
+#9	AnnotatorNotes T11	C0521297; Primary chemoprophylaxis; Therapeutic or Preventive Procedure + C0521298; Secondary chemoprophylaxis; Therapeutic or Preventive Procedure
+T12	PROC 628 639	tratamiento
+#10	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	DISO 648 669	infección tuberculosa
+#11	AnnotatorNotes T13	C0041296; Tuberculosis; Disease or Syndrome
+T14	PROC 689 700	monoterapia
+#12	AnnotatorNotes T14	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T15	CHEM 717 743	fármacos anti-tuberculosos
+T16	DISO 858 897	enfermedad infecciosa, hepática o renal
+T17	ANAT 881 889	hepática
+#13	AnnotatorNotes T17	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T18	ANAT 892 897	renal
+#14	AnnotatorNotes T18	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T19	CHEM 950 960	isoniazida
+#15	AnnotatorNotes T19	C0022209; isoniazid; Organic Chemical · Pharmacologic Substance
+T20	DISO 966 983	infección por VIH
+#16	AnnotatorNotes T20	C0019693; HIV Infections; Disease or Syndrome
+T21	PROC 1023 1034	tratamiento
+#17	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	CHEM 1099 1109	isoniazida
+#18	AnnotatorNotes T22	C0022209; isoniazid; Organic Chemical · Pharmacologic Substance
+T23	CHEM 1115 1130	antiepilépticos
+#19	AnnotatorNotes T23	C0003299; Antiepileptic Agents; Pharmacologic Substance
+T24	CHEM 1132 1149	antirretrovirales
+#20	AnnotatorNotes T24	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T25	DISO 1160 1193	Alteración de la función hepática
+T26	ANAT 1185 1193	hepática
+#21	AnnotatorNotes T26	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T27	PROC 1249 1284	niveles de alanino aminotransferasa
+T28	PROC 1286 1289	ALT
+#22	AnnotatorNotes T28	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T29	CHEM 1260 1284	alanino aminotransferasa
+T30	CHEM 674 684	isoniazida
+#23	AnnotatorNotes T30	C0022209; isoniazid; Organic Chemical · Pharmacologic Substance
+T31	CHEM 1045 1053	fármacos
+#24	AnnotatorNotes T31	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T32	Date 13 17	2016
+T33	LIVB 173 182	pacientes
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Age 183 200	menores de 6 años
+T35	Form 288 298	suspensión
+#26	AnnotatorNotes T35	C4724031; Suspension Dosage Form; Biomedical or Dental Material
+T36	Dose 315 323	10 mg/ml
+T37	LIVB 375 384	pacientes
+#27	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Age 385 402	menores de 6 años
+T39	LIVB 451 460	pacientes
+#28	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Age 461 478	menores de 6 años
+T41	LIVB 507 516	Pacientes
+#29	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Age 517 551	entre > o = 29 días y < o = 6 años
+T43	LIVB 563 572	Pacientes
+#30	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 802 808	padres
+#31	AnnotatorNotes T44	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T46	PHYS 932 943	metabolismo
+#32	AnnotatorNotes T46	C0025519; Metabolism; Organism Function
+T47	LIVB 986 1004	virus hepatotropos
+#33	AnnotatorNotes T47	C0019186; Hepatitis Viruses; Virus
+T49	PHYS 1081 1092	metabolismo
+#34	AnnotatorNotes T49	C0025519; Metabolism; Organism Function
+T54	LIVB 980 983	VIH
+#35	AnnotatorNotes T54	C0019682; HIV; Virus
+T55	PHYS 95 104	absorción
+#36	AnnotatorNotes T55	C0678745; drug absorption; Physiologic Function
+T56	PHYS 272 281	absorción
+#37	AnnotatorNotes T56	C0678745; drug absorption; Physiologic Function
+T57	LIVB 811 818	tutores
+#38	AnnotatorNotes T57	C0871554; tutor; Professional or Occupational Group
+T45	PHYS 1177 1193	función hepática
+#39	AnnotatorNotes T45	C0232741; Liver function; Organ or Tissue Function
+T48	DISO 1232 1284	elevación de los niveles de alanino aminotransferasa
+#40	AnnotatorNotes T48	C5385310; Elevation of levels of alanine transaminase (ALT); Finding [ICD-10: R74.01]
+T50	DISO 966 979;986 1004	infección por virus hepatotropos
+#41	AnnotatorNotes T50	C0042721; Viral hepatitis; Disease or Syndrome
+#42	AnnotatorNotes T1	C1706446; Trial Phase 2A; Research Activity + C1709323; Open Label Study; Research Activity 
+#43	AnnotatorNotes T5	C1706446; Trial Phase 2A; Research Activity + C1709323; Open Label Study; Research Activity 
+#44	AnnotatorNotes T15	C0003448; Antitubercular Agents; Pharmacologic Substance 
+#45	AnnotatorNotes T16	C0009450; Communicable Diseases; Disease or Syndrome + C0023895; Liver diseases; Disease or Syndrome + C0022658; Kidney Diseases; Disease or Syndrome
+#46	AnnotatorNotes T25	C0548935; Alteration in hepatic function; Pathologic Function 
+#47	AnnotatorNotes T27	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T51	Spec_cue 1054 1069	susceptibles de
+T52	Observation 1070 1109	alterar el metabolismo de la isoniazida
+A1	Assertion T52 Speculated
+T53	Spec_cue 906 920	susceptible de
+T58	Observation 921 960	alterar el metabolismo de la isoniazida
+A2	Assertion T58 Speculated
+R1	Speculation Arg1:T51 Arg2:T52	
+R2	Used_for Arg1:T31 Arg2:T21	
+R3	Before Arg1:T31 Arg2:T52	
+R5	Used_for Arg1:T23 Arg2:T21	
+R6	Before Arg1:T23 Arg2:T52	
+R7	Before Arg1:T24 Arg2:T52	
+R8	Used_for Arg1:T24 Arg2:T21	
+R9	Location_of Arg1:T26 Arg2:T45	
+R10	Location_of Arg1:T26 Arg2:T25	
+T59	Quantifier_or_Qualifier 1208 1213	basal
+#48	AnnotatorNotes T59	C1442488; Baseline; Quantitative Concept
+T60	PROC 1200 1207	estudio
+#49	AnnotatorNotes T60	C2603343; Study; Research Activity
+R12	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T59	
+R15	Overlap Arg1:T60 Arg2:T48	
+T61	Result_or_Value 1291 1341	dos o más veces el valor superior de la normalidad
+R16	Has_Result_or_Value Arg1:T48 Arg2:T61	
+T62	Result_or_Value 1350 1363	40 UI/L por 2
+R17	Has_Result_or_Value Arg1:T48 Arg2:T62	
+T63	Result_or_Value 1373 1386	> o = 80 UI/L
+R18	Has_Result_or_Value Arg1:T48 Arg2:T63	
+R19	Overlap Arg1:T25 Arg2:T48	
+R20	Overlap Arg1:T60 Arg2:T27	
+R21	Overlap Arg1:T60 Arg2:T28	
+R22	Used_for Arg1:T2 Arg2:T55	
+R23	Used_for Arg1:T7 Arg2:T56	
+R24	Has_Drug_Form Arg1:T7 Arg2:T35	
+R25	Used_for Arg1:T2 Arg2:T3	
+R26	Experiences Arg1:T33 Arg2:T55	
+R27	Experiences Arg1:T33 Arg2:T2	
+R28	Experiences Arg1:T33 Arg2:T4	
+R29	Has_Age Arg1:T33 Arg2:T34	
+R30	Has_Age Arg1:T37 Arg2:T38	
+R31	Experiences Arg1:T37 Arg2:T9	
+R32	Has_Age Arg1:T39 Arg2:T40	
+R33	Experiences Arg1:T39 Arg2:T10	
+R34	Used_for Arg1:T7 Arg2:T8	
+R35	Has_Dose_or_Strength Arg1:T7 Arg2:T36	
+R36	Experiences Arg1:T37 Arg2:T56	
+R37	Experiences Arg1:T37 Arg2:T7	
+R38	Has_Age Arg1:T41 Arg2:T42	
+R39	Experiences Arg1:T43 Arg2:T11	
+R40	Experiences Arg1:T43 Arg2:T12	
+R41	Experiences Arg1:T43 Arg2:T13	
+R42	Used_for Arg1:T30 Arg2:T12	
+R43	Experiences Arg1:T43 Arg2:T14	
+R44	Used_for Arg1:T30 Arg2:T14	
+R45	Combined_with Arg1:T30 Arg2:T15	
+R46	Location_of Arg1:T17 Arg2:T16	
+R47	Location_of Arg1:T18 Arg2:T16	
+R48	Speculation Arg1:T53 Arg2:T58	
+R50	Used_for Arg1:T19 Arg2:T46	
+R51	Causes Arg1:T54 Arg2:T20	
+R52	Causes Arg1:T47 Arg2:T50	
+R53	Before Arg1:T16 Arg2:T58	
+R54	Before Arg1:T50 Arg2:T58	
+R55	Before Arg1:T20 Arg2:T58	
+R4	Overlap Arg1:T25 Arg2:T60	
+#50	AnnotatorNotes T29	C0001899; Alanine Transaminase; Amino Acid, Peptide, or Protein · Enzyme | C0051063; Alanine-glyoxylate aminotransferase; Amino Acid, Peptide, or Protein · Enzyme
+A3	Experiencer T33 Patient
+A4	Experiencer T37 Patient
+A5	Experiencer T39 Patient
+A6	Experiencer T41 Patient
+A7	Experiencer T43 Patient
+A8	Experiencer T44 Family_member
+A9	Experiencer T57 Other

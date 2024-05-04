@@ -1,0 +1,253 @@
+T1	PROC 46 68	Ensayo clínico fase II
+#1	AnnotatorNotes T1	C0282460; Phase 2 Clinical Trials; Research Activity
+T2	PROC 74 93	evaluar la eficacia
+#2	AnnotatorNotes T2	C1707887; Efficacy Study; Research Activity
+T3	PROC 108 119	tratamiento
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 137 158	neumonía por COVID-19
+T5	PROC 181 253	Estudio prospectivo, fase II, aleatorizado, abierto, de grupos paralelos
+T6	PROC 259 278	evaluar la eficacia
+#4	AnnotatorNotes T6	C1707887; Efficacy Study; Research Activity
+T7	CHEM 282 299	hidroxicloroquina
+#5	AnnotatorNotes T7	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T8	CHEM 321 329	imatinib
+#6	AnnotatorNotes T8	C0935989; imatinib; Organic Chemical · Pharmacologic Substance
+T9	DISO 376 398	neumonía por SARS Cov2
+T10	DISO 400 408	COVID-19
+#7	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+T11	DISO 437 458	Neumonía por COVID-19
+T12	DISO 485 507	Neumonía por SARS Cov2
+T13	DISO 509 517	COVID-19
+#8	AnnotatorNotes T13	C5203670; COVID19 (disease); Disease or Syndrome
+T14	PROC 610 621	Diagnostico
+#9	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	PROC 559 583	consentimiento informado
+#10	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	DISO 633 649	Neumonía COVID19
+T17	DISO 722 730	síntomas
+#11	AnnotatorNotes T17	C1457887; Symptoms; Sign or Symptom
+T18	CHEM 760 770	medicación
+#12	AnnotatorNotes T18	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T19	PROC 776 779	ECG
+#13	AnnotatorNotes T19	C1623258; Electrocardiography; Diagnostic Procedure
+T20	ANAT 803 811	hepática
+#14	AnnotatorNotes T20	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T21	ANAT 813 818	renal
+#15	AnnotatorNotes T21	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T22	CHEM 892 900	fármacos
+#16	AnnotatorNotes T22	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T23	ANAT 926 938	granulocitos
+#17	AnnotatorNotes T23	C0018183; granulocyte; Cell
+T24	ANAT 974 983	plaquetas
+#18	AnnotatorNotes T24	C0005821; Blood Platelets; Cell
+T25	CHEM 308 319	baricitinib
+#19	AnnotatorNotes T25	C4044947; baricitinib; Organic Chemical · Pharmacologic Substance
+T26	CHEM 332 341	lopinavir
+#20	AnnotatorNotes T26	C0674432; lopinavir; Organic Chemical · Pharmacologic Substance
+T27	CHEM 342 351	ritonavir
+#21	AnnotatorNotes T27	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T28	DISO 1153 1158	COVID
+T29	PROC 1088 1091	ALT
+#22	AnnotatorNotes T29	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T30	DISO 1166 1174	neumonía
+#23	AnnotatorNotes T30	C0032285; Pneumonia; Disease or Syndrome
+T31	PROC 1180 1191	Tratamiento
+#24	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	CHEM 1217 1234	drogas de estudio
+#25	AnnotatorNotes T32	C0013230; Investigational New Drugs; Pharmacologic Substance
+T33	DISO 1239 1269	Afectación médica concomitante
+T34	DISO 1280 1283	ICC
+#26	AnnotatorNotes T34	C0018802; Congestive heart failure; Disease or Syndrome
+T35	DISO 1287 1290	IAM
+#27	AnnotatorNotes T35	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T36	DISO 1310 1326	Angina inestable
+#28	AnnotatorNotes T36	C0002965; Angina, Unstable; Disease or Syndrome
+T37	DISO 1330 1344	Miocardiopatía
+#29	AnnotatorNotes T37	C0878544; Cardiomyopathies; Disease or Syndrome
+T38	DISO 1348 1368	Arritmia ventricular
+#30	AnnotatorNotes T38	C0085612; Ventricular arrhythmia; Disease or Syndrome
+T39	DISO 1382 1385	HTA
+#31	AnnotatorNotes T39	C0020538; Hypertensive disease; Disease or Syndrome
+T40	DISO 1403 1424	Trastornos psicóticos
+#32	AnnotatorNotes T40	C0033975; Psychotic Disorders; Mental or Behavioral Dysfunction
+T41	DISO 1443 1454	Infecciones
+#33	AnnotatorNotes T41	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T42	DISO 1482 1491	Hepatitis
+#34	AnnotatorNotes T42	C0019158; Hepatitis; Disease or Syndrome
+T43	DISO 1504 1513	Neoplasia
+#35	AnnotatorNotes T43	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T44	PROC 1517 1539	tratamiento oncológico
+#36	AnnotatorNotes T44	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+T45	CHEM 1573 1583	medicación
+#37	AnnotatorNotes T45	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T46	DISO 1591 1615	síndrome de malabsorción
+#38	AnnotatorNotes T46	C0024523; Malabsorption Syndrome; Disease or Syndrome
+T47	PROC 1034 1046	aclaramiento
+T48	PROC 1662 1691	procedimientos de seguimiento
+T49	CHEM 1827 1848	medicación de estudio
+#39	AnnotatorNotes T49	C0013230; Investigational New Drugs; Pharmacologic Substance
+T50	PROC 905 938	Recuento absoluto de granulocitos
+T51	PROC 1001 1003	Hb
+#40	AnnotatorNotes T51	C0518015; Hemoglobin measurement; Laboratory Procedure
+T52	PROC 1017 1019	Cr
+#41	AnnotatorNotes T52	C0201975; Creatinine measurement; Laboratory Procedure
+T53	PROC 1061 1072	Bilirrubina
+#42	AnnotatorNotes T53	C0863174; Blood bilirubin measurement; Laboratory Procedure
+T54	PROC 1084 1087	AST
+#43	AnnotatorNotes T54	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T55	PROC 956 983	Recuento absoluto plaquetas
+T56	ANAT 1357 1368	ventricular
+#44	AnnotatorNotes T56	C0018827; Heart Ventricle; Body Part, Organ, or Organ Component | C1280934; Entire cardiac ventricle; Body Part, Organ, or Organ Component
+T57	DISO 1473 1476	VIH
+#45	AnnotatorNotes T57	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T58	DISO 1713 1753	episodios tromboembólicos o hemorrágicos
+T59	Date 13 17	2020
+T60	LIVB 123 132	pacientes
+#46	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 362 371	pacientes
+#47	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	Age 596 604	≥18 años
+T65	Duration 686 701	Menos de 7 días
+T72	Neg_cue 1137 1139	No
+T73	Neg_cue 1163 1165	No
+T75	Duration 1291 1306	6 meses previos
+T79	Neg_cue 1550 1566	Incapacidad para
+T80	Route 1584 1588	oral
+#48	AnnotatorNotes T80	C1527415; Oral Route of Drug administration; Functional Concept
+T82	Neg_cue 1620 1636	Incapacidad para
+T83	Duration 1781 1796	últimos 6 meses
+T84	LIVB 1853 1872	Mujeres embarazadas
+#49	AnnotatorNotes T84	C0033011; Pregnant Women; Population Group
+T85	LIVB 498 507	SARS Cov2
+#50	AnnotatorNotes T85	C5203676; SARS-CoV-2; Virus
+T86	LIVB 389 398	SARS Cov2
+#51	AnnotatorNotes T86	C5203676; SARS-CoV-2; Virus
+T63	PHYS 795 833	Función hepática, renal y hematológica
+#52	AnnotatorNotes T63	C0232741; Liver function; Organ or Tissue Function + C0232804; Renal function; Organ or Tissue Function + C0221130; Hematologic function; Organ or Tissue Function
+T64	PHYS 1861 1872	embarazadas
+#53	AnnotatorNotes T64	C0032961; Pregnancy; Organism Function
+T66	PROC 655 671	Estado funcional
+#54	AnnotatorNotes T66	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+A1	Assertion T28 Negated
+A2	Assertion T30 Negated
+A3	Assertion T45 Negated
+A4	Assertion T80 Negated
+A5	Assertion T48 Negated
+A6	Assertion T49 Contraindicated
+A7	Status T58 History_of
+A8	Status T31 History_of
+A9	Status T32 History_of
+A10	Status T35 History_of
+#55	AnnotatorNotes T4	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#56	AnnotatorNotes T9	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#57	AnnotatorNotes T11	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#58	AnnotatorNotes T12	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#59	AnnotatorNotes T16	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#60	AnnotatorNotes T28	C5203670; COVID19 (disease); Disease or Syndrome
+#61	AnnotatorNotes T5	C0033522; Prospective Studies; Research Activity + C0282460; Phase 2 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C1709323; Open Label Study; Research Activity + C2826345; Parallel Study; Research Activity
+#62	AnnotatorNotes T47	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T67	Neg_cue 1425 1427	no
+T68	Quantifier_or_Qualifier 1428 1439	controlados
+A11	Assertion T68 Negated
+T69	Neg_cue 1386 1388	no
+T70	Quantifier_or_Qualifier 1389 1399	controlada
+A12	Assertion T70 Negated
+T71	Neg_cue 735 737	NO
+T74	CONC 738 754	contraindicación
+A13	Assertion T74 Negated
+#63	AnnotatorNotes T74	C0522473; Contraindication; Qualitative Concept
+T76	Observation 1637 1655	cumplir el estudio
+A14	Assertion T76 Negated
+R1	Negation Arg1:T82 Arg2:T76	
+R2	Negation Arg1:T82 Arg2:T48	
+R3	Experiences Arg1:T60 Arg2:T3	
+R4	Experiences Arg1:T60 Arg2:T4	
+R5	Combined_with Arg1:T7 Arg2:T25	
+R6	Combined_with Arg1:T7 Arg2:T8	
+R7	Combined_with Arg1:T7 Arg2:T26	
+R8	Combined_with Arg1:T26 Arg2:T27	
+R9	Causes Arg1:T86 Arg2:T9	
+R10	Causes Arg1:T86 Arg2:T10	
+R11	Experiences Arg1:T61 Arg2:T7	
+R12	Experiences Arg1:T61 Arg2:T9	
+R13	Experiences Arg1:T61 Arg2:T10	
+R14	Causes Arg1:T85 Arg2:T13	
+R15	Causes Arg1:T85 Arg2:T12	
+T77	Result_or_Value 677 682	0 o 1
+T78	CONC 672 676	ECOG
+#64	AnnotatorNotes T78	C1520224;ECOG performance status; Intellectual Product
+R16	Has_Result_or_Value Arg1:T78 Arg2:T77	
+R17	Used_for Arg1:T78 Arg2:T66	
+T81	CONC 708 730	inicio de los síntomas
+R18	After Arg1:T81 Arg2:T65	
+R19	Negation Arg1:T71 Arg2:T74	
+T87	Observation 780 782	QT
+#65	AnnotatorNotes T87	C0577807; QT interval duration; Finding
+T88	Duration 783 788	< 0.4
+R20	Overlap Arg1:T19 Arg2:T87	
+R21	Has_Duration_or_Interval Arg1:T87 Arg2:T88	
+R22	Location_of Arg1:T20 Arg2:T63	
+R23	Location_of Arg1:T21 Arg2:T63	
+T89	Quantifier_or_Qualifier 834 842	adecuada
+#66	AnnotatorNotes T89	C0205411; Adequate; Qualitative Concept 
+R24	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T89	
+T90	Result_or_Value 939 952	> 1.5 x 109/L
+R25	Has_Result_or_Value Arg1:T50 Arg2:T90	
+T91	Result_or_Value 984 997	> 100 x 109/L
+R26	Has_Result_or_Value Arg1:T55 Arg2:T91	
+T92	Result_or_Value 1004 1013	> 10 g/dL
+R27	Has_Result_or_Value Arg1:T51 Arg2:T92	
+T93	Result_or_Value 1020 1031	< 1.5 mg/dL
+R28	Has_Result_or_Value Arg1:T52 Arg2:T93	
+T94	Result_or_Value 1047 1057	> 50mL/min
+R29	Has_Result_or_Value Arg1:T47 Arg2:T94	
+T95	Result_or_Value 1073 1080	< 3 LSN
+R30	Has_Result_or_Value Arg1:T53 Arg2:T95	
+T96	Result_or_Value 1092 1107	≤ 2,5 veces LSN
+R31	Has_Result_or_Value Arg1:T29 Arg2:T96	
+R32	Has_Result_or_Value Arg1:T54 Arg2:T96	
+R33	Negation Arg1:T72 Arg2:T28	
+R34	Negation Arg1:T73 Arg2:T30	
+R35	Used_for Arg1:T32 Arg2:T31	
+T97	Quantifier_or_Qualifier 1270 1275	grave
+#67	AnnotatorNotes T97	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R36	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T97	
+R37	Overlap Arg1:T35 Arg2:T75	
+R38	Location_of Arg1:T56 Arg2:T38	
+R39	Negation Arg1:T69 Arg2:T70	
+R40	Negation Arg1:T67 Arg2:T68	
+R41	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T68	
+R42	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T70	
+T98	Observation 1369 1378	inestable
+#68	AnnotatorNotes T98	C0443343; Unstable status; Finding
+R43	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T98	
+T99	Quantifier_or_Qualifier 1455 1461	graves
+#69	AnnotatorNotes T99	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R44	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T99	
+T100	Quantifier_or_Qualifier 1462 1469	activas
+#70	AnnotatorNotes T100	C0679217; Active State; Idea or Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T100	
+T101	Quantifier_or_Qualifier 1540 1546	activo
+#71	AnnotatorNotes T101	C0679217; Active State; Idea or Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T101	
+T102	Quantifier_or_Qualifier 1492 1499	activas
+#72	AnnotatorNotes T102	C0679217; Active State; Idea or Concept
+R47	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T102	
+R48	Negation Arg1:T79 Arg2:T45	
+R49	Has_Route_or_Mode Arg1:T45 Arg2:T80	
+R50	Overlap Arg1:T58 Arg2:T83	
+T103	Quantifier_or_Qualifier 1754 1777	clínicamente relevantes
+R51	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T103	
+R52	Experiences Arg1:T84 Arg2:T64	
+T104	Quantifier_or_Qualifier 352 358	precoz
+#73	AnnotatorNotes T104	C1279930; Precocious; Temporal Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T104	
+R54	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T104	
+R55	Negation Arg1:T79 Arg2:T80	
+#74	AnnotatorNotes T103	C5209294; Clinical relevance; Intellectual Product
+#75	AnnotatorNotes T33	C0243087; concomitant disease; Pathologic Function (?)
+#76	AnnotatorNotes T50	C0948762; Absolute neutrophil count; Laboratory Procedure
+#77	AnnotatorNotes T55	C0032181; Platelet count (procedure); Laboratory Procedure (?)
+A15	Experiencer T60 Patient
+A16	Experiencer T61 Patient
+A17	Experiencer T84 Patient

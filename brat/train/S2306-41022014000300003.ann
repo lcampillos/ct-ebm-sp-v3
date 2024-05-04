@@ -1,0 +1,159 @@
+T1	CHEM 20 32	medicamentos
+#1	AnnotatorNotes T1	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T2	DISO 66 85	artrosis de rodilla
+#2	AnnotatorNotes T2	C0409959; Osteoarthritis, Knee; Disease or Syndrome
+T3	CHEM 87 108	colágeno polimerizado
+#3	AnnotatorNotes T3	C0907857; collagen-PVP; Amino Acid, Peptide, or Protein
+T4	PROC 133 144	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 151 164	osteoartrosis
+#5	AnnotatorNotes T5	C0029408; Degenerative polyarthritis; Disease or Syndrome
+T6	PROC 954 961	tratado
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	CHEM 239 271	antiinflamatorios no esteroideos
+#7	AnnotatorNotes T7	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T8	DISO 349 360	gastropatía
+#8	AnnotatorNotes T8	C0038354; Stomach Diseases; Disease or Syndrome
+T9	DISO 363 374	falla renal
+#9	AnnotatorNotes T9	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T10	CHEM 392 404	medicamentos
+#10	AnnotatorNotes T10	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T11	DISO 482 490	síntomas
+#11	AnnotatorNotes T11	C1457887; Symptoms; Sign or Symptom
+T12	PROC 524 531	cirugía
+#12	AnnotatorNotes T12	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T13	DISO 577 587	enfermedad
+#13	AnnotatorNotes T13	C0012634; Disease; Disease or Syndrome
+T14	DISO 632 648	dolor de rodilla
+#14	AnnotatorNotes T14	C0231749; Knee pain; Sign or Symptom
+T15	DISO 666 679	osteoartrosis
+#15	AnnotatorNotes T15	C0029408; Degenerative polyarthritis; Disease or Syndrome
+T16	PROC 695 706	tratamiento
+#16	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 822 870	Estudio prospectivo, aleatorio simple, no cegado
+#17	AnnotatorNotes T17	C0033522; Prospective Studies; Research Activity + C0034656; Randomization; Research Activity + C1709323; Open Label Study; Research Activity
+T18	DISO 913 937	osteoartrosis de rodilla
+#18	AnnotatorNotes T18	C0409959; Osteoarthritis, Knee; Disease or Syndrome
+T19	CHEM 966 978	colágeno PVP
+#19	AnnotatorNotes T19	C0907857; collagen-PVP; Amino Acid, Peptide, or Protein
+T20	PROC 1021 1043	aplicó el cuestionario
+#20	AnnotatorNotes T20	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T21	PROC 1124 1145	escala visual análoga
+#21	AnnotatorNotes T21	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T22	PROC 1161 1172	tratamiento
+#22	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	PROC 1279 1300	escala visual análoga
+#23	AnnotatorNotes T23	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T24	ANAT 78 85	rodilla
+#24	AnnotatorNotes T24	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T25	DISO 189 194	dolor
+#25	AnnotatorNotes T25	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T26	ANAT 369 374	renal
+#26	AnnotatorNotes T26	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T27	ANAT 641 648	rodilla
+#27	AnnotatorNotes T27	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T28	ANAT 930 937	rodilla
+#28	AnnotatorNotes T28	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T29	DISO 1100 1105	dolor
+#29	AnnotatorNotes T29	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T30	DISO 1262 1267	dolor
+#30	AnnotatorNotes T30	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T31	CHEM 116 128	hylano gf 20
+#31	AnnotatorNotes T31	C0939234; HYLAN G-F 20; Organic Chemical · Pharmacologic Substance
+T32	CHEM 1000 1012	hylano GF-20
+#32	AnnotatorNotes T32	C0939234; HYLAN G-F 20; Organic Chemical · Pharmacologic Substance
+T33	Route 33 48	intrarticulares
+#33	AnnotatorNotes T33	C1522204; Intraarticular Route of Drug Administration; Functional Concept
+T34	LIVB 52 61	pacientes
+#34	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T37	Spec_cue 339 348	riesgo de
+T38	Route 412 425	intrarticular
+#35	AnnotatorNotes T38	C1522204; Intraarticular Route of Drug Administration; Functional Concept
+T40	LIVB 652 661	pacientes
+#36	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 899 908	pacientes
+#37	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T46	Duration 1177 1180	mes
+T47	Duration 1183 1193	tres meses
+A1	Assertion T8 Speculated
+A2	Assertion T9 Speculated
+R1	Has_Route_or_Mode Arg1:T1 Arg2:T33	
+R2	Experiences Arg1:T34 Arg2:T1	
+R3	Experiences Arg1:T34 Arg2:T2	
+R4	Location_of Arg1:T24 Arg2:T2	
+R5	Has_Route_or_Mode Arg1:T3 Arg2:T33	
+R6	Has_Route_or_Mode Arg1:T31 Arg2:T33	
+R7	Experiences Arg1:T34 Arg2:T3	
+R8	Experiences Arg1:T34 Arg2:T31	
+T35	CONC 200 215	calidad de vida
+#38	AnnotatorNotes T35	C0034380; Quality of life; Idea or Concept
+T36	LIVB 223 233	portadores
+R9	Experiences Arg1:T36 Arg2:T25	
+R10	Experiences Arg1:T36 Arg2:T4	
+R11	Experiences Arg1:T36 Arg2:T5	
+R12	Speculation Arg1:T37 Arg2:T8	
+R13	Causes Arg1:T7 Arg2:T8	
+R14	Causes Arg1:T7 Arg2:T9	
+R15	Location_of Arg1:T26 Arg2:T9	
+R16	Has_Route_or_Mode Arg1:T10 Arg2:T38	
+T39	Observation 470 490	mejorar los síntomas
+R17	Causes Arg1:T10 Arg2:T39	
+R18	Causes Arg1:T13 Arg2:T11	
+T41	Spec_cue 537 552	desconocemos si
+T42	Quantifier_or_Qualifier 557 587	modificadores de la enfermedad
+A3	Assertion T42 Speculated
+R19	Speculation Arg1:T41 Arg2:T42	
+R20	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T42	
+R21	Location_of Arg1:T27 Arg2:T14	
+R22	Experiences Arg1:T40 Arg2:T15	
+R23	Experiences Arg1:T40 Arg2:T14	
+R24	Causes Arg1:T5 Arg2:T25	
+R25	Causes Arg1:T15 Arg2:T14	
+R26	After Arg1:T15 Arg2:T16	
+R27	After Arg1:T14 Arg2:T16	
+T43	Neg_cue 742 744	no
+T45	CONC 752 762	diferencia
+A4	Assertion T45 Negated
+#40	AnnotatorNotes T45	C1705241; Delta (difference); Quantitative Concept
+R28	Negation Arg1:T43 Arg2:T45	
+R29	Experiences Arg1:T40 Arg2:T16	
+R30	Experiences Arg1:T44 Arg2:T18	
+R31	Location_of Arg1:T28 Arg2:T18	
+R32	Used_for Arg1:T19 Arg2:T6	
+R33	Used_for Arg1:T32 Arg2:T6	
+T48	CONC 1090 1094	IKDC
+#41	AnnotatorNotes T48	C4701034; Pedi-IKDC (Pediatric International Knee Documentation Committee) Subjective Knee Evaluation Form; Intellectual Product (?)
+R34	Used_for Arg1:T48 Arg2:T20	
+T49	CONC 1150 1172	inicio del tratamiento
+R36	Overlap Arg1:T21 Arg2:T49	
+R38	Overlap Arg1:T21 Arg2:T46	
+R39	Overlap Arg1:T21 Arg2:T47	
+T50	Observation 1244 1267	disminución en el dolor
+#42	AnnotatorNotes T50	C5230944; Sensation of pain reduced; Finding
+T51	Neg_cue 1395 1397	no
+T52	CONC 1410 1421	diferencias
+A5	Assertion T52 Negated
+#43	AnnotatorNotes T52	C1705241; Delta (difference); Quantitative Concept
+R41	Negation Arg1:T51 Arg2:T52	
+T53	CONC 1465 1469	IKDC
+#44	AnnotatorNotes T53	C4701034; Pedi-IKDC (Pediatric International Knee Documentation Committee) Subjective Knee Evaluation Form; Intellectual Product (?)
+T54	Neg_cue 1487 1489	no
+T55	CONC 1494 1504	diferencia
+#45	AnnotatorNotes T55	C1705241; Delta (difference); Quantitative Concept
+A6	Assertion T55 Negated
+R42	Negation Arg1:T54 Arg2:T55	
+R43	Before Arg1:T11 Arg2:T39	
+T56	Quantifier_or_Qualifier 864 870	cegado
+A7	Assertion T56 Negated
+T57	Neg_cue 861 863	no
+R44	Negation Arg1:T57 Arg2:T56	
+R45	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T56	
+T58	Neg_cue 257 259	no
+T59	Quantifier_or_Qualifier 260 271	esteroideos
+A8	Assertion T59 Negated
+R46	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T59	
+A9	Experiencer T34 Patient
+A10	Experiencer T36 Patient
+A11	Experiencer T40 Patient
+A12	Experiencer T44 Patient
+R35	Has_Result_or_Value Arg1:T23 Arg2:T50	

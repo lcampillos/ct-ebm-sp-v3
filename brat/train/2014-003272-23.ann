@@ -1,0 +1,149 @@
+T1	ANAT 87 101	tunel carpiano
+#1	AnnotatorNotes T1	C0225091; Structure of carpal canal; Body Space or Junction | C1269543; Entire carpal canal; Body Space or Junction
+T2	DISO 65 73	síntomas
+#2	AnnotatorNotes T2	C1457887; Symptoms; Sign or Symptom
+T3	CHEM 106 122	Núcleo CMP Forte
+T4	PROC 146 172	Estudio piloto prospectivo
+T5	PROC 177 188	tratamiento
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	CHEM 193 209	Núcleo CMP forte
+T7	ANAT 242 256	nervio mediano
+#4	AnnotatorNotes T7	C0025058; Structure of median nerve; Body Part, Organ, or Organ Component | C1278845; Entire median nerve; Body Part, Organ, or Organ Component
+T8	DISO 281 308	Síndrome del túnel carpiano
+T9	ANAT 294 308	túnel carpiano
+#5	AnnotatorNotes T9	C0225091; Structure of carpal canal; Body Space or Junction | C1269543; Entire carpal canal; Body Space or Junction
+T10	DISO 344 371	compresión nerviosa crónica
+T11	DISO 398 425	Síndrome del túnel carpiano
+T12	ANAT 411 425	túnel carpiano
+#6	AnnotatorNotes T12	C0225091; Structure of carpal canal; Body Space or Junction | C1269543; Entire carpal canal; Body Space or Junction
+T13	PROC 523 563	diagnostico clínico y electrofisiológico
+T14	PROC 595 617	tratamiento quirúrgico
+T15	DISO 906 914	disfagia
+#7	AnnotatorNotes T15	C0011168; Deglutition Disorders; Disease or Syndrome
+T16	CHEM 940 950	medicación
+#8	AnnotatorNotes T16	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T17	DISO 981 991	neuropatía
+#9	AnnotatorNotes T17	C0442874; Neuropathy; Disease or Syndrome
+T18	DISO 1010 1029	degeneración axonal
+#10	AnnotatorNotes T18	C1837496; Axonal degeneration; Finding
+T19	DISO 1049 1061	traumatismos
+#11	AnnotatorNotes T19	C3263723; Traumatic injury; Injury or Poisoning | C3714660; Trauma; Injury or Poisoning
+T20	ANAT 1075 1084	antebrazo
+#12	AnnotatorNotes T20	C0016536; Forearm; Body Part, Organ, or Organ Component | C1284961; Entire forearm; Body Part, Organ, or Organ Component
+T21	PROC 1131 1145	ensayo clínico
+#13	AnnotatorNotes T21	C0008976; Clinical Trials; Research Activity
+T22	PROC 46 57	Tratamiento
+#14	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	DISO 316 325	patología
+#15	AnnotatorNotes T23	C0677042; Pathology processes; Pathologic Function
+T24	ANAT 355 363	nerviosa
+#16	AnnotatorNotes T24	C0027740; Nerve; Body Part, Organ, or Organ Component | C1280541; Entire nerve; Body Part, Organ, or Organ Component
+T25	DISO 78 101	sindrome tunel carpiano
+T26	ANAT 1023 1029	axonal
+#17	AnnotatorNotes T26	C0004461; Axon; Cell Component | C1458149; Entire axon; Cell Component
+T27	DISO 216 256	neuropatía compresiva del nervio mediano
+T28	DISO 310 313	STC
+#18	AnnotatorNotes T28	C0007286; Carpal Tunnel Syndrome; Disease or Syndrome
+T29	DISO 427 430	STC
+#19	AnnotatorNotes T29	C0007286; Carpal Tunnel Syndrome; Disease or Syndrome
+T30	DISO 567 570	STC
+#20	AnnotatorNotes T30	C0007286; Carpal Tunnel Syndrome; Disease or Syndrome
+T31	PROC 704 728	consentimiento informado
+#21	AnnotatorNotes T31	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T32	Date 13 17	2014
+T34	Duration 364 371	crónica
+#22	AnnotatorNotes T34	C0205191; chronic; Temporal Concept
+T35	LIVB 462 471	Pacientes
+#23	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Age 480 503	entre 18 años y 80 años
+T37	LIVB 509 518	Pacientes
+#24	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Neg_cue 582 584	no
+T39	LIVB 630 639	Pacientes
+#25	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 759 776	Mujeres gestantes
+#26	AnnotatorNotes T40	C0033011; Pregnant Women; Population Group
+T41	LIVB 779 788	lactantes
+#27	AnnotatorNotes T41	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T42	LIVB 794 803	Pacientes
+#28	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 823 835	investigador
+#29	AnnotatorNotes T43	C0035173; Research Personnel; Professional or Occupational Group
+T45	LIVB 892 901	Pacientes
+#30	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 967 976	Pacientes
+#31	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1035 1044	Pacientes
+#32	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1090 1099	Pacientes
+#33	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T33	Date 1062 1071	recientes
+T44	PHYS 657 667	comprender
+#34	AnnotatorNotes T44	C0162340; Comprehension; Mental Process
+T49	PHYS 767 776	gestantes
+#35	AnnotatorNotes T49	C0032961; Pregnancy; Organism Function
+A1	Assertion T14 Negated
+#36	AnnotatorNotes T25	C0007286; Carpal Tunnel Syndrome; Disease or Syndrome
+#37	AnnotatorNotes T8	C0007286; Carpal Tunnel Syndrome; Disease or Syndrome
+#38	AnnotatorNotes T11	C0007286; Carpal Tunnel Syndrome; Disease or Syndrome
+#39	AnnotatorNotes T4	C0031928; Pilot Projects; Research Activity + C0033522; Prospective Studies; Research Activity
+R1	Location_of Arg1:T1 Arg2:T25	
+R2	Causes Arg1:T25 Arg2:T2	
+R3	Used_for Arg1:T3 Arg2:T22	
+R4	Used_for Arg1:T6 Arg2:T5	
+R5	Location_of Arg1:T7 Arg2:T27	
+R6	Location_of Arg1:T9 Arg2:T8	
+R7	Location_of Arg1:T9 Arg2:T28	
+R8	Location_of Arg1:T24 Arg2:T10	
+R9	Has_Duration_or_Interval Arg1:T10 Arg2:T34	
+R10	Causes Arg1:T10 Arg2:T8	
+R11	Causes Arg1:T10 Arg2:T28	
+R12	Has_Age Arg1:T35 Arg2:T36	
+R14	Experiences Arg1:T37 Arg2:T30	
+R15	Negation Arg1:T38 Arg2:T14	
+R16	Experiences Arg1:T37 Arg2:T14	
+R17	Experiences Arg1:T39 Arg2:T44	
+R19	Experiences Arg1:T40 Arg2:T49	
+T50	Observation 850 886	incumplan los requisitos del estudio
+#40	AnnotatorNotes T50	C3242266; patient not eligible; Finding
+R21	Experiences Arg1:T45 Arg2:T15	
+R22	Experiences Arg1:T46 Arg2:T17	
+R23	Causes Arg1:T17 Arg2:T18	
+R24	Location_of Arg1:T26 Arg2:T18	
+R25	Experiences Arg1:T46 Arg2:T18	
+R26	Experiences Arg1:T47 Arg2:T19	
+R27	Overlap Arg1:T19 Arg2:T33	
+R28	Location_of Arg1:T20 Arg2:T19	
+T51	Observation 929 950	toma de la medicación
+#41	AnnotatorNotes T51	C4074970; Does take medication; Finding
+R31	Location_of Arg1:T12 Arg2:T11	
+R32	Location_of Arg1:T12 Arg2:T29	
+T52	Quantifier_or_Qualifier 618 624	precoz
+#42	AnnotatorNotes T52	C1279930; Precocious; Temporal Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T52	
+T53	Spec_cue 836 849	probablemente
+A2	Assertion T50 Speculated
+R18	Speculation Arg1:T53 Arg2:T50	
+#43	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+A3	Assertion T52 Negated
+A4	Assertion T51 Negated
+T54	Neg_cue 919 925	impida
+R34	Negation Arg1:T54 Arg2:T51	
+T55	Observation 1110 1145	participando en otro ensayo clínico
+R36	Negation Arg1:T38 Arg2:T52	
+#45	AnnotatorNotes T33	C0332185; Recent; Temporal Concept
+R13	Overlap Arg1:T44 Arg2:T31	
+R20	Before Arg1:T15 Arg2:T51	
+A5	Experiencer T35 Patient
+A6	Experiencer T37 Patient
+A7	Experiencer T39 Patient
+A8	Experiencer T40 Patient
+A9	Experiencer T41 Patient
+A10	Experiencer T42 Patient
+A11	Experiencer T43 Other
+A12	Experiencer T45 Patient
+A13	Experiencer T46 Patient
+A14	Experiencer T47 Patient
+A15	Experiencer T48 Patient
+A16	Status T14 Future
+A17	Status T52 Future

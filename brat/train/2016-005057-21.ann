@@ -1,0 +1,193 @@
+T1	PROC 46 60	Ensayo clinico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 104 139	Tecnicas anestésicas locoregionales
+#2	AnnotatorNotes T2	C0002921; Local anesthesia; Therapeutic or Preventive Procedure (?)
+T3	ANAT 164 168	mama
+#3	AnnotatorNotes T3	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T4	PROC 224 287	Ensayo clínico comparativo prospectivo, aleatorizado y paralelo
+T5	PROC 293 314	comparar la seguridad
+T6	PROC 357 364	bloqueo
+T7	PROC 388 403	cirugía de mama
+#4	AnnotatorNotes T7	C3714726; Operation on breast; Therapeutic or Preventive Procedure
+T8	ANAT 505 509	mama
+#5	AnnotatorNotes T8	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T9	PROC 494 527	cirugia de mama no reconstructiva
+T10	ANAT 591 595	mama
+#6	AnnotatorNotes T10	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T11	PROC 580 613	cirugia de mama no reconstructiva
+T12	PROC 667 700	cirugia no reconstructiva de mama
+T13	ANAT 696 700	mama
+#7	AnnotatorNotes T13	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T14	PROC 903 906	IMC
+#8	AnnotatorNotes T14	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T15	DISO 993 1031	broncoaspiración de contenido gástrico
+T16	ANAT 1013 1031	contenido gástrico
+#9	AnnotatorNotes T16	C0038352; Gastric Content; Body Substance
+T17	DISO 1033 1040	Alergia
+#10	AnnotatorNotes T17	C1527304; Allergic Reaction; Pathologic Function
+T18	PROC 178 185	bloqueo
+T19	CHEM 1071 1079	fármacos
+#11	AnnotatorNotes T19	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T20	PROC 1106 1125	Tratamiento crónico
+#12	AnnotatorNotes T20	C0023977; Long-term care; Health Care Activity (?)
+T21	CHEM 1130 1138	opiáceos
+#13	AnnotatorNotes T21	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T22	DISO 1140 1172	Infección local y/o generalizada
+T23	DISO 1174 1224	Alteración plaquetaria y/o factores de coagulación
+#14	AnnotatorNotes T23	C0005818; Blood Platelet Disorders; Disease or Syndrome + C0149652; COAGULATION FACTOR DEFECTS; Disease or Syndrome
+T24	ANAT 1185 1196	plaquetaria
+#15	AnnotatorNotes T24	C0005821; Blood Platelets; Cell
+T25	CHEM 1201 1224	factores de coagulación
+#16	AnnotatorNotes T25	C0005789; Blood Coagulation Factor; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T26	DISO 1226 1239	Dolor crónico
+#17	AnnotatorNotes T26	C0150055; Chronic pain; Sign or Symptom
+T27	ANAT 1271 1276	tórax
+T28	ANAT 1279 1284	axila
+#18	AnnotatorNotes T28	C0004454; Axilla; Body Location or Region + C1279154; Entire axilla; Body Location or Region + C1283835; Entire axillary fossa; Body Location or Region
+T29	PROC 1315 1345	escalas de valoración de dolor
+T30	PROC 1358 1376	técnica anestésica
+T31	PROC 143 168	cirugia de cancer de mama
+T32	ANAT 399 403	mama
+#19	AnnotatorNotes T32	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T33	PROC 65 96	compara la seguridad y eficacia
+T34	CHEM 1043 1062	anestésicos locales
+#20	AnnotatorNotes T34	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T35	DISO 1340 1345	dolor
+#21	AnnotatorNotes T35	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T36	PROC 1442 1466	consentimiento informado
+#22	AnnotatorNotes T36	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T37	Date 13 17	2016
+T39	Time 338 352	perioperatoria
+#23	AnnotatorNotes T39	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T40	Date 429 433	2017
+T41	LIVB 457 466	Pacientes
+#24	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 554 563	Pacientes
+#25	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 640 649	Pacientes
+#26	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 714 722	paciente
+#27	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Age 735 757	entre los 18 y 85 años
+T49	Time 765 779	perioperatorio
+#28	AnnotatorNotes T49	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T50	LIVB 787 796	pacientes
+#29	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 857 865	paciente
+#30	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 885 893	paciente
+#31	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Time 928 942	preoperatorios
+#32	AnnotatorNotes T54	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T55	Spec_cue 983 992	riesgo de
+T56	Duration 1118 1125	crónico
+#33	AnnotatorNotes T56	C0205191; chronic; Temporal Concept
+T57	Duration 1232 1239	crónico
+#34	AnnotatorNotes T57	C0205191; chronic; Temporal Concept
+T59	Neg_cue 1347 1357	Rechazo de
+T60	Neg_cue 1378 1386	Falta de
+T61	PHYS 1213 1224	coagulación
+#35	AnnotatorNotes T61	C0005778; Blood coagulation; Organ or Tissue Function
+T38	PHYS 1302 1310	entender
+#36	AnnotatorNotes T38	C0162340; Comprehension; Mental Process
+T42	PROC 798 801	ASA
+#37	AnnotatorNotes T42	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T44	PROC 866 869	ASA
+#38	AnnotatorNotes T44	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T46	PROC 874 878	Peso
+#39	AnnotatorNotes T46	C2985231; Body Weight Measurement; Diagnostic Procedure
+A1	Assertion T15 Speculated
+A2	Assertion T30 Negated
+A3	Assertion T36 Negated
+A4	Status T17 History_of
+#40	AnnotatorNotes T33	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#41	AnnotatorNotes T18	C0027741; Nerve Block; Therapeutic or Preventive Procedure (?)
+#42	AnnotatorNotes T6	C0027741; Nerve Block; Therapeutic or Preventive Procedure (?)
+#43	AnnotatorNotes T30	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+#44	AnnotatorNotes T5	C1705187; Safety Study; Research Activity
+#45	AnnotatorNotes T4	C1579762; comparative study research; Research Activity + C2826345; Parallel Study; Research Activity + C0033522; Prospective Studies; Research Activity + C0034656; Randomization; Research Activity
+#46	AnnotatorNotes T29	C0042815; Visual Analog Pain Scale; Diagnostic Procedure
+T52	Neg_cue 510 512	no
+T58	Quantifier_or_Qualifier 513 527	reconstructiva
+A5	Assertion T58 Negated
+T62	Quantifier_or_Qualifier 599 613	reconstructiva
+A6	Assertion T62 Negated
+T63	Neg_cue 596 598	no
+T64	Quantifier_or_Qualifier 678 692	reconstructiva
+A7	Assertion T64 Negated
+T65	Neg_cue 675 677	no
+T66	Observation 1387 1396	capacidad
+A8	Assertion T66 Negated
+T67	Observation 1399 1418	deseo de participar
+A9	Assertion T67 Negated
+#47	AnnotatorNotes T67	C0600109; Willing; Finding (?)
+T68	Observation 959 976	vía aérea difícil
+#48	AnnotatorNotes T68	C4273494; Unexpected difficult airway; Finding
+R1	Overlap Arg1:T68 Arg2:T54	
+R2	Location_of Arg1:T3 Arg2:T31	
+R3	Before Arg1:T2 Arg2:T31	
+R4	Before Arg1:T18 Arg2:T31	
+R5	Before Arg1:T6 Arg2:T7	
+R6	Location_of Arg1:T32 Arg2:T7	
+R7	Location_of Arg1:T8 Arg2:T9	
+R8	Negation Arg1:T52 Arg2:T58	
+R9	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T58	
+R10	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T62	
+R11	Negation Arg1:T63 Arg2:T62	
+R12	Location_of Arg1:T10 Arg2:T11	
+R13	Experiences Arg1:T43 Arg2:T11	
+R14	Experiences Arg1:T41 Arg2:T9	
+R15	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T64	
+R16	Negation Arg1:T65 Arg2:T64	
+R17	Location_of Arg1:T13 Arg2:T12	
+R18	Experiences Arg1:T45 Arg2:T12	
+R19	Has_Age Arg1:T47 Arg2:T48	
+R20	Overlap Arg1:T42 Arg2:T49	
+R21	Experiences Arg1:T50 Arg2:T42	
+T69	Result_or_Value 802 809	I a III
+R22	Has_Result_or_Value Arg1:T42 Arg2:T69	
+T70	Result_or_Value 870 872	IV
+R23	Has_Result_or_Value Arg1:T44 Arg2:T70	
+R24	Experiences Arg1:T51 Arg2:T44	
+R25	Experiences Arg1:T53 Arg2:T46	
+R26	Experiences Arg1:T53 Arg2:T14	
+T71	Result_or_Value 907 916	>40 Kg/m2
+R27	Has_Result_or_Value Arg1:T14 Arg2:T71	
+T72	Result_or_Value 894 900	<45 Kp
+R28	Has_Result_or_Value Arg1:T46 Arg2:T72	
+T73	Observation 978 992	Alto riesgo de
+#49	AnnotatorNotes T73	C0332167; High risk of; Finding
+R29	Before Arg1:T73 Arg2:T15	
+R30	Speculation Arg1:T55 Arg2:T15	
+R31	Causes Arg1:T34 Arg2:T17	
+R32	Causes Arg1:T19 Arg2:T17	
+R33	Has_Duration_or_Interval Arg1:T21 Arg2:T56	
+R34	Used_for Arg1:T21 Arg2:T20	
+R36	Has_Duration_or_Interval Arg1:T26 Arg2:T57	
+R37	Location_of Arg1:T27 Arg2:T26	
+R38	Location_of Arg1:T28 Arg2:T26	
+T74	CONC 1246 1266	región anterolateral
+#50	AnnotatorNotes T74	C0332194; Anterolateral; Spatial Concept
+R39	Location_of Arg1:T74 Arg2:T27	
+#51	AnnotatorNotes T27	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T75	Observation 1286 1310	Dificultad para entender
+R41	Overlap Arg1:T75 Arg2:T29	
+R42	Overlap Arg1:T38 Arg2:T29	
+R43	Negation Arg1:T59 Arg2:T30	
+R44	Negation Arg1:T60 Arg2:T66	
+#52	AnnotatorNotes T66	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R45	Overlap Arg1:T66 Arg2:T36	
+R46	Overlap Arg1:T67 Arg2:T36	
+R47	Negation Arg1:T60 Arg2:T67	
+#53	AnnotatorNotes T15	C0004052; Respiratory Aspiration of Gastric Contents; Injury or Poisoning
+#54	AnnotatorNotes T22	C0243026; Sepsis; Disease or Syndrome | C1400591; local infection; Disease or Syndrome
+A10	Experiencer T41 Patient
+A11	Experiencer T43 Patient
+A12	Experiencer T45 Patient
+A13	Status T12 Future
+A14	Experiencer T47 Patient
+A15	Experiencer T50 Patient
+A16	Experiencer T51 Patient
+A17	Experiencer T53 Patient
+A18	Status T9 Future
+A19	Status T11 Future

@@ -1,0 +1,170 @@
+T1	PROC 46 57	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 73 94	prevención secundaria
+#2	AnnotatorNotes T2	C0679699; Secondary Prevention; Therapeutic or Preventive Procedure
+T3	DISO 99 104	ictus
+#3	AnnotatorNotes T3	C0038454; Cerebrovascular accident; Disease or Syndrome
+T4	DISO 118 129	hipertensos
+#4	AnnotatorNotes T4	C0020538; Hypertensive disease; Disease or Syndrome
+T5	PROC 152 163	Tratamiento
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 175 180	ictus
+#6	AnnotatorNotes T6	C0038454; Cerebrovascular accident; Disease or Syndrome
+T7	DISO 196 206	hipertenso
+#7	AnnotatorNotes T7	C0020538; Hypertensive disease; Disease or Syndrome
+T8	DISO 240 251	hipertensos
+#8	AnnotatorNotes T8	C0020538; Hypertensive disease; Disease or Syndrome
+T9	DISO 271 298	accidente vascular cerebral
+#9	AnnotatorNotes T9	C0038454; Cerebrovascular accident; Disease or Syndrome
+T10	DISO 346 367	hipertensión arterial
+#10	AnnotatorNotes T10	C0020538; Hypertensive disease; Disease or Syndrome
+T11	DISO 373 378	ictus
+#11	AnnotatorNotes T11	C0038454; Cerebrovascular accident; Disease or Syndrome
+T12	DISO 381 412	accidente isquémico transitorio
+#12	AnnotatorNotes T12	C0007787; Transient Ischemic Attack; Disease or Syndrome
+T13	DISO 446 451	Ictus
+#13	AnnotatorNotes T13	C0038454; Cerebrovascular accident; Disease or Syndrome
+T14	DISO 454 485	accidente isquémico transitorio
+#14	AnnotatorNotes T14	C0007787; Transient Ischemic Attack; Disease or Syndrome
+T15	PROC 517 531	aleatorización
+#15	AnnotatorNotes T15	C0034656; Randomization; Research Activity
+T16	DISO 559 569	hipertenso
+#16	AnnotatorNotes T16	C0020538; Hypertensive disease; Disease or Syndrome
+T17	CHEM 597 606	estatinas
+#17	AnnotatorNotes T17	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T18	ANAT 795 804	carotidea
+#18	AnnotatorNotes T18	C0007272; Carotid Arteries; Body Part, Organ, or Organ Component
+T19	PROC 643 654	tratamiento
+#19	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	ANAT 874 883	carotidea
+#20	AnnotatorNotes T20	C0007272; Carotid Arteries; Body Part, Organ, or Organ Component
+T21	Observation 738 769	condiciones clínicas inestables
+T22	DISO 785 804	estenosis carotidea
+#21	AnnotatorNotes T22	C0007282; Carotid Stenosis; Disease or Syndrome
+T23	PROC 856 883	revascularización carotidea
+T24	ANAT 281 289	vascular
+#22	AnnotatorNotes T24	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T25	ANAT 290 298	cerebral
+#23	AnnotatorNotes T25	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T26	ANAT 359 367	arterial
+#24	AnnotatorNotes T26	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T27	PROC 611 616	LDL-C
+T28	CHEM 659 668	estatinas
+#25	AnnotatorNotes T28	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T29	PROC 683 697	valor de LDL-C
+T30	PROC 584 592	tratados
+#26	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	CHEM 692 697	LDL-C
+#27	AnnotatorNotes T31	C0023824; LDL Cholesterol Lipoproteins; Organic Chemical · Biologically Active Substance 
+T32	Date 13 17	2012
+T33	LIVB 108 117	pacientes
+#28	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 187 195	paciente
+#29	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 230 239	Pacientes
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 332 341	Pacientes
+#31	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Duration 401 412	transitorio
+#32	AnnotatorNotes T37	C0205374; Transitory; Temporal Concept
+T38	Duration 474 485	transitorio
+#33	AnnotatorNotes T38	C0205374; Transitory; Temporal Concept
+T39	Duration 486 500	de 1 a 6 meses
+T40	Age 538 548	>= 65 años
+T41	LIVB 550 558	paciente
+#34	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 571 580	pacientes
+#35	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Neg_cue 581 583	no
+T45	LIVB 630 639	pacientes
+#36	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 725 734	Pacientes
+#37	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 771 780	Pacientes
+#38	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+A1	Assertion T30 Negated
+A2	Assertion T17 Negated
+A3	Status T13 History_of
+A4	Status T14 History_of
+A5	Status T9 History_of
+A6	Status T12 History_of
+#39	AnnotatorNotes T27	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+#40	AnnotatorNotes T29	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+#41	AnnotatorNotes T23	C3495793; Carotid revascularisation; Therapeutic or Preventive Procedure
+R1	Before Arg1:T2 Arg2:T3	
+R2	Experiences Arg1:T33 Arg2:T4	
+R3	Experiences Arg1:T33 Arg2:T3	
+R4	Experiences Arg1:T33 Arg2:T2	
+R5	Experiences Arg1:T33 Arg2:T1	
+R6	Experiences Arg1:T34 Arg2:T5	
+R7	Experiences Arg1:T34 Arg2:T6	
+R8	Experiences Arg1:T34 Arg2:T7	
+R9	Experiences Arg1:T35 Arg2:T8	
+R11	Location_of Arg1:T24 Arg2:T9	
+R12	Location_of Arg1:T25 Arg2:T9	
+R13	Experiences Arg1:T35 Arg2:T9	
+R10	Location_of Arg1:T26 Arg2:T10	
+R14	Experiences Arg1:T36 Arg2:T10	
+R15	Experiences Arg1:T36 Arg2:T11	
+R16	Experiences Arg1:T36 Arg2:T12	
+A7	Status T11 History_of
+R17	Has_Duration_or_Interval Arg1:T12 Arg2:T37	
+R18	Has_Duration_or_Interval Arg1:T14 Arg2:T38	
+R19	Overlap Arg1:T14 Arg2:T39	
+R20	Before Arg1:T14 Arg2:T15	
+R21	Before Arg1:T13 Arg2:T15	
+R22	Overlap Arg1:T13 Arg2:T39	
+R23	Has_Age Arg1:T41 Arg2:T40	
+R24	Experiences Arg1:T41 Arg2:T16	
+R25	Experiences Arg1:T41 Arg2:T13	
+R26	Experiences Arg1:T41 Arg2:T14	
+R27	Experiences Arg1:T42 Arg2:T16	
+R28	Has_Age Arg1:T42 Arg2:T40	
+R29	Experiences Arg1:T42 Arg2:T14	
+R30	Experiences Arg1:T42 Arg2:T13	
+R31	Experiences Arg1:T42 Arg2:T30	
+R32	Negation Arg1:T43 Arg2:T30	
+R33	Negation Arg1:T43 Arg2:T17	
+R34	Used_for Arg1:T17 Arg2:T30	
+R35	Experiences Arg1:T42 Arg2:T27	
+R36	Experiences Arg1:T41 Arg2:T30	
+R37	Experiences Arg1:T41 Arg2:T27	
+T44	Result_or_Value 617 628	>2.8 mmol/L
+R38	Has_Result_or_Value Arg1:T27 Arg2:T44	
+R39	Experiences Arg1:T45 Arg2:T19	
+R40	Used_for Arg1:T28 Arg2:T19	
+R41	Experiences Arg1:T45 Arg2:T29	
+T48	Result_or_Value 673 682	cualquier
+R42	Has_Result_or_Value Arg1:T29 Arg2:T48	
+R43	Has_Age Arg1:T45 Arg2:T40	
+R44	Experiences Arg1:T45 Arg2:T14	
+R45	Experiences Arg1:T45 Arg2:T13	
+R46	Experiences Arg1:T45 Arg2:T16	
+R47	Experiences Arg1:T46 Arg2:T21	
+R48	Experiences Arg1:T47 Arg2:T22	
+R49	Location_of Arg1:T18 Arg2:T22	
+R50	Experiences Arg1:T47 Arg2:T23	
+R51	Location_of Arg1:T20 Arg2:T23	
+T49	Quantifier_or_Qualifier 805 836	hemodinámicamente significativa
+R52	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T49	
+R53	Experiences Arg1:T46 Arg2:T22	
+R54	Experiences Arg1:T46 Arg2:T23	
+R55	Experiences Arg1:T47 Arg2:T21	
+R56	Overlap Arg1:T3 Arg2:T4	
+R57	Overlap Arg1:T6 Arg2:T7	
+R58	Overlap Arg1:T8 Arg2:T9	
+R59	Overlap Arg1:T10 Arg2:T11	
+R60	Overlap Arg1:T10 Arg2:T12	
+R61	Overlap Arg1:T13 Arg2:T16	
+R62	Overlap Arg1:T14 Arg2:T16	
+#42	AnnotatorNotes T21	C0438114; Patient's condition unstable; Finding
+#43	AnnotatorNotes T48	C1552551; Any; Qualitative Concept
+A8	Experiencer T33 Patient
+A9	Experiencer T34 Patient
+A10	Experiencer T35 Patient
+A11	Experiencer T36 Patient
+A12	Experiencer T42 Patient
+A13	Experiencer T41 Patient
+A14	Experiencer T45 Patient
+A15	Experiencer T47 Patient
+A16	Experiencer T46 Patient

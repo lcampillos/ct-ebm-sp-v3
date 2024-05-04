@@ -1,0 +1,233 @@
+T1	PROC 1 35	Estudio aleatorizado y doble ciego
+#1	AnnotatorNotes T1	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T2	PROC 39 49	profilaxis
+#2	AnnotatorNotes T2	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T3	ANAT 102 110	cardíaca
+#3	AnnotatorNotes T3	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T4	DISO 82 90	sangrado
+#4	AnnotatorNotes T4	C0019080; Hemorrhage; Pathologic Function
+T5	PROC 94 110	cirugía cardíaca
+#5	AnnotatorNotes T5	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T6	DISO 143 153	hemorragia
+#6	AnnotatorNotes T6	C0019080; Hemorrhage; Pathologic Function
+T7	PROC 291 333	cirugía de revascularización del miocardio
+#7	AnnotatorNotes T7	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T8	PROC 343 390	estudio prospectivo, aleatorizado y doble ciego
+#8	AnnotatorNotes T8	C0013072; Double-Blind Method; Research Activity + C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T9	CHEM 450 476	concentrado de fibrinógeno
+#9	AnnotatorNotes T9	C2587184; fibrinogen concentrate (human); Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T10	DISO 486 494	sangrado
+#10	AnnotatorNotes T10	C0019080; Hemorrhage; Pathologic Function
+T11	PROC 599 641	cirugía de revascularización del miocardio
+#11	AnnotatorNotes T11	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T12	CHEM 711 722	fibrinógeno
+#12	AnnotatorNotes T12	C0016006; fibrinogen; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Biologically Active Substance
+T13	CHEM 741 767	concentrado de fibrinógeno
+#13	AnnotatorNotes T13	C2587184; fibrinogen concentrate (human); Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T14	PROC 787 796	operación
+#14	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T15	PROC 844 851	placebo
+#15	AnnotatorNotes T15	C0032042; Placebos; Therapeutic or Preventive Procedure
+T16	DISO 870 878	sangrado
+#16	AnnotatorNotes T16	C0019080; Hemorrhage; Pathologic Function
+T17	PROC 901 922	tiempo de protrombina
+#17	AnnotatorNotes T17	C0033707; Prothrombin time assay; Laboratory Procedure
+T18	PROC 924 956	tiempo de tromboplastina parcial
+#18	AnnotatorNotes T18	C0030605; Activated Partial Thromboplastin Time measurement; Laboratory Procedure
+T19	PROC 958 961	INR
+#19	AnnotatorNotes T19	C0525032; International Normalized Ratio; Laboratory Procedure
+T20	CHEM 977 990	hemoderivados
+#20	AnnotatorNotes T20	C0456388; Blood product; Pharmacologic Substance | C1629497; Blood derivative; Pharmacologic Substance
+T21	PROC 1073 1082	protocolo
+#21	AnnotatorNotes T21	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T22	PROC 1112 1135	transfusión de hematíes
+#22	AnnotatorNotes T22	C0086252; Red Blood Cell Transfusion; Therapeutic or Preventive Procedure
+T23	CHEM 1210 1234	concentrados de hematíes
+#23	AnnotatorNotes T23	C2316467; Packed red blood cells; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T24	CHEM 1281 1292	fibrinógeno
+#24	AnnotatorNotes T24	C0016006; fibrinogen; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Biologically Active Substance
+T25	CHEM 1336 1347	fibrinógeno
+#25	AnnotatorNotes T25	C0016006; fibrinogen; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Biologically Active Substance
+T26	DISO 1363 1371	sangrado
+#26	AnnotatorNotes T26	C0019080; Hemorrhage; Pathologic Function
+T27	CHEM 1462 1473	fibrinógeno
+#27	AnnotatorNotes T27	C0016006; fibrinogen; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Biologically Active Substance
+T28	CHEM 1521 1544	concentrado de hematíes
+#28	AnnotatorNotes T28	C2316467; Packed red blood cells; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T29	DISO 1586 1603	evento trombótico
+#29	AnnotatorNotes T29	C2674163; Thrombotic episodes; Finding
+T30	PROC 1671 1681	profilaxis
+#30	AnnotatorNotes T30	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T31	DISO 1708 1716	sangrado
+#31	AnnotatorNotes T31	C0019080; Hemorrhage; Pathologic Function
+T32	PROC 1771 1802	revascularización del miocardio
+#32	AnnotatorNotes T32	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T33	CHEM 54 65	fibrinógeno
+#33	AnnotatorNotes T33	C0016006; fibrinogen; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Biologically Active Substance
+T34	ANAT 324 333	miocardio
+#34	AnnotatorNotes T34	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T35	PROC 418 445	administración profiláctica
+#35	AnnotatorNotes T35	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure | C4039267; Administration of prophylactic treatment; Therapeutic or Preventive Procedure
+T36	PROC 509 551	cirugía de revascularización del miocardio
+#36	AnnotatorNotes T36	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T37	ANAT 542 551	miocardio
+#37	AnnotatorNotes T37	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T38	ANAT 632 641	miocardio
+#38	AnnotatorNotes T38	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T39	PROC 649 673	aleatoriamente divididos
+#39	AnnotatorNotes T39	C0034656; Randomization; Research Activity
+T40	CHEM 911 922	protrombina
+#40	AnnotatorNotes T40	C0033706; prothrombin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T41	CHEM 934 948	tromboplastina
+#41	AnnotatorNotes T41	C0040048; Thromboplastin; Amino Acid, Peptide, or Protein · Immunologic Factor
+T42	PROC 963 974	hemoglobina
+#42	AnnotatorNotes T42	C0518015; Hemoglobin measurement; Laboratory Procedure
+T43	PROC 991 1004	transfundidos
+#43	AnnotatorNotes T43	C1879316; Transfusion (procedure); Therapeutic or Preventive Procedure
+T44	ANAT 1127 1135	hematíes
+#44	AnnotatorNotes T44	C0014792; Erythrocytes; Cell
+T45	PROC 1196 1234	infusiones de concentrados de hematíes
+#45	AnnotatorNotes T45	C0199962; Transfusion of packed red blood cells; Therapeutic or Preventive Procedure
+T46	ANAT 1226 1234	hematíes
+#46	AnnotatorNotes T46	C0014792; Erythrocytes; Cell
+T47	PROC 1509 1544	infusión de concentrado de hematíes
+#47	AnnotatorNotes T47	C0199962; Transfusion of packed red blood cells; Therapeutic or Preventive Procedure
+T48	ANAT 1536 1544	hematíes
+#48	AnnotatorNotes T48	C0014792; Erythrocytes; Cell
+T49	PROC 1645 1652	cirugía
+#49	AnnotatorNotes T49	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T50	CHEM 1686 1697	fibrinógeno
+#50	AnnotatorNotes T50	C0016006; fibrinogen; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Biologically Active Substance
+T51	ANAT 1793 1802	miocardio
+#51	AnnotatorNotes T51	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T52	Date 160 182	período postoperatorio
+#52	AnnotatorNotes T52	C0032790; Postoperative Period; Temporal Concept
+T54	LIVB 269 278	pacientes
+#53	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 577 586	pacientes
+#54	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 691 700	pacientes
+#55	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	Dose 734 737	1 g
+T58	Duration 768 774	30 min
+T59	LIVB 819 832	grupo control
+#56	AnnotatorNotes T59	C0009932; Control Groups; Group
+T60	Date 885 899	postoperatorio
+#57	AnnotatorNotes T60	C0032790; Postoperative Period; Temporal Concept
+T61	LIVB 1053 1062	pacientes
+#58	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 1311 1324	grupo control
+#59	AnnotatorNotes T63	C0009932; Control Groups; Group
+T64	Date 1378 1392	postoperatorio
+#60	AnnotatorNotes T64	C0032790; Postoperative Period; Temporal Concept
+T65	LIVB 1442 1451	pacientes
+#61	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	LIVB 1483 1496	grupo control
+#62	AnnotatorNotes T66	C0009932; Control Groups; Group
+T67	Route 1509 1517	infusión
+#63	AnnotatorNotes T67	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T68	Date 1551 1565	postoperatorio
+#64	AnnotatorNotes T68	C0032790; Postoperative Period; Temporal Concept
+T69	Neg_cue 1579 1585	Ningún
+T70	Duration 1626 1630	72 h
+T71	Date 1723 1745	período postoperatorio
+#65	AnnotatorNotes T71	C0032790; Postoperative Period; Temporal Concept
+T72	LIVB 1749 1758	pacientes
+#66	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+A1	Assertion T29 Negated
+T53	Neg_cue 1151 1153	no
+T62	CONC 1159 1170	diferencias
+A2	Assertion T62 Negated
+#67	AnnotatorNotes T62	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T53 Arg2:T62	
+R2	Negation Arg1:T69 Arg2:T29	
+T73	Spec_cue 216 221	puede
+T74	Observation 250 265	morbimortalidad
+A3	Assertion T74 Speculated
+R3	Used_for Arg1:T33 Arg2:T2	
+R4	Location_of Arg1:T3 Arg2:T5	
+R5	Causes Arg1:T5 Arg2:T4	
+R7	Before Arg1:T2 Arg2:T4	
+R8	Overlap Arg1:T6 Arg2:T52	
+R9	Before Arg1:T6 Arg2:T74	
+R10	Speculation Arg1:T73 Arg2:T74	
+R11	Experiences Arg1:T54 Arg2:T74	
+R12	Experiences Arg1:T54 Arg2:T6	
+R13	Location_of Arg1:T34 Arg2:T7	
+R14	Experiences Arg1:T54 Arg2:T7	
+R15	Causes Arg1:T7 Arg2:T6	
+R16	Location_of Arg1:T37 Arg2:T36	
+T76	Observation 405 411	efecto
+#69	AnnotatorNotes T76	C1518681; Outcome of Therapy; Finding (?)
+R17	Causes Arg1:T35 Arg2:T76	
+R18	Used_for Arg1:T9 Arg2:T35	
+R19	Causes Arg1:T36 Arg2:T10	
+R20	Before Arg1:T35 Arg2:T10	
+R21	Experiences Arg1:T55 Arg2:T11	
+R22	Location_of Arg1:T38 Arg2:T11	
+R23	Before Arg1:T39 Arg2:T11	
+R24	Experiences Arg1:T56 Arg2:T12	
+R25	Has_Dose_or_Strength Arg1:T12 Arg2:T57	
+R26	Has_Dose_or_Strength Arg1:T13 Arg2:T57	
+R27	Has_Duration_or_Interval Arg1:T13 Arg2:T58	
+R28	Before Arg1:T12 Arg2:T14	
+R29	Before Arg1:T13 Arg2:T14	
+R30	Experiences Arg1:T59 Arg2:T15	
+R31	Before Arg1:T15 Arg2:T14	
+R32	Experiences Arg1:T59 Arg2:T14	
+T77	CONC 857 878	volúmenes de sangrado
+R33	Overlap Arg1:T16 Arg2:T60	
+R34	Overlap Arg1:T77 Arg2:T60	
+R35	Used_for Arg1:T20 Arg2:T43	
+R36	Overlap Arg1:T20 Arg2:T60	
+R37	Overlap Arg1:T42 Arg2:T60	
+R38	Overlap Arg1:T19 Arg2:T60	
+R39	Overlap Arg1:T18 Arg2:T60	
+R40	Overlap Arg1:T17 Arg2:T60	
+R41	Experiences Arg1:T61 Arg2:T22	
+T78	Quantifier_or_Qualifier 1083 1103	de conducta riguroso
+R43	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T78	
+R45	Used_for Arg1:T23 Arg2:T45	
+R46	Experiences Arg1:T63 Arg2:T45	
+R47	Overlap Arg1:T26 Arg2:T64	
+R48	Before Arg1:T25 Arg2:T26	
+R49	Experiences Arg1:T65 Arg2:T27	
+R50	Experiences Arg1:T66 Arg2:T47	
+R51	Experiences Arg1:T65 Arg2:T47	
+R52	Has_Route_or_Mode Arg1:T28 Arg2:T67	
+R53	Used_for Arg1:T28 Arg2:T47	
+R55	Overlap Arg1:T28 Arg2:T68	
+R56	Before Arg1:T27 Arg2:T47	
+R57	Has_Duration_or_Interval Arg1:T29 Arg2:T70	
+R58	After Arg1:T29 Arg2:T49	
+R59	Used_for Arg1:T50 Arg2:T30	
+R61	Overlap Arg1:T31 Arg2:T71	
+R62	Experiences Arg1:T72 Arg2:T32	
+R63	Location_of Arg1:T51 Arg2:T32	
+R64	Experiences Arg1:T72 Arg2:T31	
+R65	Experiences Arg1:T72 Arg2:T30	
+R66	Before Arg1:T24 Arg2:T45	
+T80	CONC 236 243	aumento
+A4	Assertion T80 Speculated
+#71	AnnotatorNotes T80	C0442805; Increase; Functional Concept
+R67	Speculation Arg1:T73 Arg2:T80	
+T81	Quantifier_or_Qualifier 1171 1185	significativas
+A5	Assertion T81 Negated
+#72	AnnotatorNotes T81	C0750502; Significant; Idea or Concept
+R69	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T81	
+R70	Negation Arg1:T53 Arg2:T81	
+R6	Has_Duration_or_Interval Arg1:T15 Arg2:T58	
+R60	Has_Dose_or_Strength Arg1:T15 Arg2:T57	
+R42	Before Arg1:T30 Arg2:T31	
+R44	Causes Arg1:T32 Arg2:T31	
+R54	Overlap Arg1:T43 Arg2:T60	
+R68	Before Arg1:T30 Arg2:T32	
+A6	Experiencer T66 Patient
+A7	Experiencer T65 Patient
+A8	Experiencer T63 Patient
+A9	Experiencer T72 Patient
+A10	Experiencer T54 Patient
+A11	Experiencer T55 Patient
+A12	Experiencer T56 Patient
+A13	Experiencer T59 Patient
+A14	Experiencer T61 Patient

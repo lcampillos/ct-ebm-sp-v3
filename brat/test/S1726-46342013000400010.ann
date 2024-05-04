@@ -1,0 +1,130 @@
+T1	CHEM 14 24	Albendazol
+#1	AnnotatorNotes T1	C0001911; albendazole; Organic Chemical · Pharmacologic Substance
+T2	DISO 50 75	infecciones por helmintos
+#2	AnnotatorNotes T2	C0018889; Helminthiasis; Disease or Syndrome
+T3	CHEM 203 213	albendazol
+#3	AnnotatorNotes T3	C0001911; albendazole; Organic Chemical · Pharmacologic Substance
+T4	DISO 224 249	infecciones por helmintos
+#4	AnnotatorNotes T4	C0018889; Helminthiasis; Disease or Syndrome
+T5	PROC 395 425	ensayo controlado aleatorizado
+#5	AnnotatorNotes T5	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T6	ANAT 555 560	heces
+#6	AnnotatorNotes T6	C0015733; Feces; Body Substance
+T7	CHEM 723 733	albendazol
+#7	AnnotatorNotes T7	C0001911; albendazole; Organic Chemical · Pharmacologic Substance
+T8	DISO 830 839	infección
+#8	AnnotatorNotes T8	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T9	PROC 853 870	muestra aleatoria
+#9	AnnotatorNotes T9	C0150105; Random Sampling; Research Activity
+T10	ANAT 966 971	heces
+#10	AnnotatorNotes T10	C0015733; Feces; Body Substance
+T11	CHEM 1002 1012	albendazol
+#11	AnnotatorNotes T11	C0001911; albendazole; Organic Chemical · Pharmacologic Substance
+T12	DISO 1040 1076	infecciones por Ascaris lumbricoides
+#12	AnnotatorNotes T12	C1331548; Infection by Ascaris lumbricoides; Disease or Syndrome
+T13	CHEM 1421 1431	albendazol
+#13	AnnotatorNotes T13	C0001911; albendazole; Organic Chemical · Pharmacologic Substance
+T14	PROC 1570 1581	tratamiento
+#14	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	DISO 1590 1623	infección por Trichuris trichiura
+#15	AnnotatorNotes T15	C0040954; Infection by Trichuris trichiura; Disease or Syndrome
+T16	PROC 161 183	Determinar la eficacia
+#16	AnnotatorNotes T16	C1707887; Efficacy Study; Research Activity
+T17	PROC 543 560	muestras de heces
+#17	AnnotatorNotes T17	C0455051; Collection of stool specimen; Health Care Activity
+T18	PROC 704 718	desparasitados
+#18	AnnotatorNotes T18	C0199859; Deworming; Therapeutic or Preventive Procedure
+T19	PROC 955 971	muestra de heces
+#19	AnnotatorNotes T19	C0455051; Collection of stool specimen; Health Care Activity
+T20	Dose 28 39	dosis única
+T21	LIVB 122 131	comunidad
+#20	AnnotatorNotes T21	C0009462; Community; Group
+T22	Dose 187 198	dosis única
+T23	LIVB 302 311	comunidad
+#21	AnnotatorNotes T23	C0009462; Community; Group
+T24	LIVB 443 452	comunidad
+#22	AnnotatorNotes T24	C0009462; Community; Group
+T25	Dose 737 757	dosis única (400 mg)
+T27	Duration 890 901	dos semanas
+T28	LIVB 1056 1076	Ascaris lumbricoides
+#23	AnnotatorNotes T28	C0003955; Ascaris lumbricoides; Eukaryote
+T29	LIVB 1214 1233	Trichuris trichiura
+#24	AnnotatorNotes T29	C0040913; Trichocephalus trichiura; Eukaryote
+T30	Date 1485 1492	Futuras
+T31	LIVB 66 75	helmintos
+#25	AnnotatorNotes T31	C0018893; Helminths; Eukaryote
+T32	LIVB 240 249	helmintos
+#26	AnnotatorNotes T32	C0018893; Helminths; Eukaryote
+T33	LIVB 1604 1623	Trichuris trichiura
+#27	AnnotatorNotes T33	C0040913; Trichocephalus trichiura; Eukaryote
+T34	LIVB 105 114	escolares
+#28	AnnotatorNotes T34	C0260267; School child; Age Group
+T35	LIVB 285 294	escolares
+#29	AnnotatorNotes T35	C0260267; School child; Age Group
+T36	LIVB 564 573	escolares
+#30	AnnotatorNotes T36	C0260267; School child; Age Group
+T37	LIVB 687 696	escolares
+#31	AnnotatorNotes T37	C0260267; School child; Age Group
+T38	LIVB 770 779	escolares
+#32	AnnotatorNotes T38	C0260267; School child; Age Group
+T39	LIVB 1151 1167	anquilostomideos
+#33	AnnotatorNotes T39	C0002830; Ancylostomatoidea; Eukaryote
+A1	Population_data T34 Age
+A2	Population_data T36 Age
+A3	Population_data T38 Age
+A4	Population_data T37 Age
+A5	Population_data T35 Age
+R1	Has_Dose_or_Strength Arg1:T1 Arg2:T20	
+R2	Causes Arg1:T31 Arg2:T2	
+R3	Experiences Arg1:T34 Arg2:T2	
+R4	Has_Dose_or_Strength Arg1:T3 Arg2:T22	
+R5	Causes Arg1:T32 Arg2:T4	
+T40	Quantifier_or_Qualifier 250 275	transmitidos por el suelo
+T41	Quantifier_or_Qualifier 76 101	transmitidos por el suelo
+R6	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T41	
+R7	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T40	
+R8	Experiences Arg1:T35 Arg2:T4	
+R9	Experiences Arg1:T34 Arg2:T1	
+R10	Experiences Arg1:T35 Arg2:T3	
+T42	Quantifier_or_Qualifier 453 463	periurbana
+R11	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T42	
+T43	Quantifier_or_Qualifier 464 483	de escasos recursos
+R12	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T43	
+R13	Experiences Arg1:T36 Arg2:T17	
+R14	Experiences Arg1:T37 Arg2:T18	
+R15	Used_for Arg1:T7 Arg2:T18	
+R16	Has_Dose_or_Strength Arg1:T7 Arg2:T25	
+T44	Result_or_Value 803 812	positivos
+#34	AnnotatorNotes T44	C1446409; Positive; Finding
+R19	Experiences Arg1:T38 Arg2:T8	
+T45	PROC 882 889	seguida
+#35	AnnotatorNotes T45	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+R20	After Arg1:T45 Arg2:T27	
+R21	After Arg1:T19 Arg2:T27	
+R22	Experiences Arg1:T38 Arg2:T19	
+R23	Causes Arg1:T28 Arg2:T12	
+R24	Causes Arg1:T33 Arg2:T15	
+T46	DISO 1040 1051;1210 1233	infecciones por Trichuris trichiura
+#36	AnnotatorNotes T46	C0040954; Infection by Trichuris trichiura; Disease or Syndrome
+R25	Causes Arg1:T29 Arg2:T46	
+T47	DISO 1040 1051;1147 1167	infecciones por anquilostomideos
+#37	AnnotatorNotes T47	C0019911; Hookworm Infections; Disease or Syndrome
+R26	Causes Arg1:T39 Arg2:T47	
+R28	Before Arg1:T9 Arg2:T45	
+R29	Before Arg1:T44 Arg2:T9	
+R30	Before Arg1:T44 Arg2:T19	
+#38	AnnotatorNotes T30	C0016884; Future; Temporal Concept
+A6	Experiencer T34 Patient
+A7	Experiencer T21 Patient
+A8	Experiencer T35 Patient
+A9	Experiencer T23 Patient
+A10	Experiencer T24 Patient
+A11	Experiencer T36 Patient
+A12	Experiencer T37 Patient
+A13	Experiencer T38 Patient
+T26	Quantifier_or_Qualifier 947 954	segunda
+#39	AnnotatorNotes T26	C0205436; second (number); Quantitative Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T26	
+T48	Quantifier_or_Qualifier 817 829	al menos una
+R31	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T48	
+R18	Has_Result_or_Value Arg1:T8 Arg2:T44	

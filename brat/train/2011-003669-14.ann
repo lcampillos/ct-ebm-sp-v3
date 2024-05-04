@@ -1,0 +1,114 @@
+T1	CHEM 47 64	Ácido tranexámico
+#1	AnnotatorNotes T1	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T2	PROC 73 84	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 91 106	trauma craneano
+T4	PROC 125 198	estudio internacional, aleatorizado, doble ciego y controlado con placebo
+T5	ANAT 751 757	sangre
+#3	AnnotatorNotes T5	C0005767; Blood; Body Substance
+T6	CHEM 216 233	Ácido tranexámico
+#4	AnnotatorNotes T6	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T7	PROC 242 253	tratamiento
+#5	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 260 290	traumatismo grave en el cráneo
+T9	ANAT 284 290	cráneo
+#6	AnnotatorNotes T9	C0037303; Bone structure of cranium; Body Part, Organ, or Organ Component | C1279062; Entire cranium; Body Part, Organ, or Organ Component
+T10	DISO 315 334	Traumatismo craneal
+#7	AnnotatorNotes T10	C4324307; Skull trauma; Injury or Poisoning
+T11	DISO 356 369	Daño cerebral
+#8	AnnotatorNotes T11	C0270611; Brain Injuries; Injury or Poisoning
+T12	DISO 470 498	traumatismo craneoencefálico
+#9	AnnotatorNotes T12	C0018674; Craniocerebral Trauma; Injury or Poisoning | C0876926; Traumatic Brain Injury; Injury or Poisoning
+T13	DISO 500 503	TCE
+#10	AnnotatorNotes T13	C0018674; Craniocerebral Trauma; Injury or Poisoning | C0876926; Traumatic Brain Injury; Injury or Poisoning
+T14	DISO 521 530	lesionado
+#11	AnnotatorNotes T14	C0221198; Lesion; Finding
+T15	DISO 574 596	sangrado intracraneano
+#12	AnnotatorNotes T15	C0151699; Intracranial Hemorrhage; Pathologic Function
+T16	PROC 604 628	tomografía computarizada
+#13	AnnotatorNotes T16	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T17	PROC 646 649	ECG
+#14	AnnotatorNotes T17	C1623258; Electrocardiography; Diagnostic Procedure
+T18	DISO 679 700	sangrado extracraneal
+T19	CHEM 884 901	ácido tranexámico
+#15	AnnotatorNotes T19	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T20	DISO 938 953	trauma craneano
+T21	PROC 1093 1122	tratamiento antifibrinolítico
+T22	ANAT 98 106	craneano
+#16	AnnotatorNotes T22	C0037303; Bone structure of cranium; Body Part, Organ, or Organ Component | C1279062; Entire cranium; Body Part, Organ, or Organ Component
+T23	ANAT 327 334	craneal
+#17	AnnotatorNotes T23	C0037303; Bone structure of cranium; Body Part, Organ, or Organ Component | C1279062; Entire cranium; Body Part, Organ, or Organ Component
+T24	ANAT 361 369	cerebral
+#18	AnnotatorNotes T24	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T25	ANAT 482 498	craneoencefálico
+#19	AnnotatorNotes T25	C5381840; Craniocerebral; Body Location or Region
+T26	PROC 736 757	transfusión de sangre
+#20	AnnotatorNotes T26	C0005841; Blood transfusion; Therapeutic or Preventive Procedure
+T27	ANAT 945 953	craneano
+#21	AnnotatorNotes T27	C0037303; Bone structure of cranium; Body Part, Organ, or Organ Component | C1279062; Entire cranium; Body Part, Organ, or Organ Component
+T28	CHEM 1105 1122	antifibrinolítico
+#22	AnnotatorNotes T28	C0003304; Antifibrinolytic Agents; Pharmacologic Substance
+T29	Date 12 16	2011
+T30	LIVB 438 445	Adultos
+#23	AnnotatorNotes T30	C0001675; Adult; Age Group
+T31	Age 447 464	16 años o mayores
+T33	Neg_cue 531 533	no
+T34	Duration 534 557	más de ocho horas antes
+T39	LIVB 908 916	paciente
+#24	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 984 993	pacientes
+#25	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Neg_cue 994 996	no
+T32	LIVB 837 855	médico responsable
+#26	AnnotatorNotes T32	C4708568; Medically responsible investigator; Professional or Occupational Group
+T35	PROC 1006 1017	aleatorizar
+#27	AnnotatorNotes T35	C0034656; Randomization; Research Activity
+T36	LIVB 1024 1042	médico responsable
+#28	AnnotatorNotes T36	C4708568; Medically responsible investigator; Professional or Occupational Group
+T38	Spec_cue 818 831	incertidumbre
+A1	Assertion T34 Negated
+A2	Assertion T19 Speculated
+A3	Assertion T35 Negated
+#29	AnnotatorNotes T3	C4324307; Skull trauma; Injury or Poisoning
+#30	AnnotatorNotes T20	C4324307; Skull trauma; Injury or Poisoning
+T42	Quantifier_or_Qualifier 704 717	significativo
+A4	Assertion T42 Negated
+#31	AnnotatorNotes T42	C1546944; Event Seriousness - Significant; Qualitative Concept
+T43	Neg_cue 701 703	no
+R1	Negation Arg1:T33 Arg2:T34	
+R2	Has_Duration_or_Interval Arg1:T14 Arg2:T34	
+R3	Negation Arg1:T43 Arg2:T42	
+R4	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T42	
+R5	Speculation Arg1:T38 Arg2:T19	
+R6	Negation Arg1:T41 Arg2:T35	
+R7	Used_for Arg1:T1 Arg2:T2	
+R8	Used_for Arg1:T6 Arg2:T7	
+R9	Location_of Arg1:T22 Arg2:T3	
+R10	Location_of Arg1:T9 Arg2:T8	
+T37	Quantifier_or_Qualifier 107 120	significativo
+#32	AnnotatorNotes T37	C1546944; Event Seriousness - Significant; Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T37	
+R12	Location_of Arg1:T23 Arg2:T10	
+R13	Location_of Arg1:T24 Arg2:T11	
+R14	Has_Age Arg1:T30 Arg2:T31	
+R15	Location_of Arg1:T25 Arg2:T12	
+R16	Location_of Arg1:T25 Arg2:T13	
+T44	Result_or_Value 653 663	12 o menos
+R18	Has_Result_or_Value Arg1:T17 Arg2:T44	
+T45	Quantifier_or_Qualifier 758 767	inmediata
+#33	AnnotatorNotes T45	C0205253; Immediate; Temporal Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T45	
+R20	Experiences Arg1:T39 Arg2:T19	
+R21	Experiences Arg1:T39 Arg2:T20	
+R22	Location_of Arg1:T27 Arg2:T20	
+R23	Experiences Arg1:T40 Arg2:T21	
+R24	Used_for Arg1:T28 Arg2:T21	
+R25	Experiences Arg1:T30 Arg2:T12	
+R26	Experiences Arg1:T30 Arg2:T13	
+#34	AnnotatorNotes T8	C3508474; severe traumatic brain injury; Injury or Poisoning
+A5	Experiencer T30 Patient
+A6	Experiencer T32 Other
+A7	Experiencer T39 Patient
+A8	Experiencer T36 Other
+A9	Experiencer T40 Patient
+A10	Assertion T21 Hypothetical

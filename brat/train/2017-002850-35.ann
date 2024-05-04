@@ -1,0 +1,79 @@
+T1	PROC 45 73	ESTUDIO DE LARGO SEGUIMIENTO
+T2	DISO 91 105	CÁNCER DE MAMA
+#1	AnnotatorNotes T2	C0006142; Malignant neoplasm of breast; Neoplastic Process | C0678222; Breast Carcinoma; Neoplastic Process
+T3	DISO 201 227	cáncer de mama infiltrante
+#2	AnnotatorNotes T3	C0853879; Invasive carcinoma of breast; Neoplastic Process
+T4	PROC 301 347	ensayos clínicos de neoadyuvancia o adyuvancia
+#3	AnnotatorNotes T4	C1510810; Adjuvant Study; Research Activity + C0600558; Neoadjuvant Therapy; Therapeutic or Preventive Procedure
+T5	PROC 475 489	ensayo clínico
+#4	AnnotatorNotes T5	C0008976; Clinical Trials; Research Activity
+T6	PROC 871 895	Consentimiento Informado
+#5	AnnotatorNotes T6	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T7	ANAT 101 105	MAMA
+#6	AnnotatorNotes T7	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T8	ANAT 211 215	mama
+#7	AnnotatorNotes T8	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T9	DISO 577 583	muerte
+#8	AnnotatorNotes T9	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T10	Date 13 17	2017
+T11	LIVB 77 86	PACIENTES
+#9	AnnotatorNotes T11	C0030705; Patients; Patient or Disabled Group
+T12	LIVB 187 196	Pacientes
+#10	AnnotatorNotes T12	C0030705; Patients; Patient or Disabled Group
+T13	LIVB 278 287	Pacientes
+#11	AnnotatorNotes T13	C0030705; Patients; Patient or Disabled Group
+T14	LIVB 408 417	pacientes
+#12	AnnotatorNotes T14	C0030705; Patients; Patient or Disabled Group
+T15	LIVB 562 571	Pacientes
+#13	AnnotatorNotes T15	C0030705; Patients; Patient or Disabled Group
+T17	LIVB 719 728	Pacientes
+#14	AnnotatorNotes T17	C0030705; Patients; Patient or Disabled Group
+T19	Neg_cue 858 870	retirada del
+A1	Assertion T6 Negated
+#15	AnnotatorNotes T1	C1517942; Long-term Follow-up; Health Care Activity
+T16	CONC 619 627;640 661	recogida en las bases de datos
+A2	Assertion T16 Negated
+T18	Neg_cue 606 608	no
+T20	Neg_cue 733 735	no
+T21	CONC 743 768	incluidos en los análisis
+A3	Assertion T21 Negated
+T22	Observation 804 851	incumplimiento de los criterios de elegibilidad
+#16	AnnotatorNotes T22	C1302261; Patient eligible for clinical trial; Finding (?)
+R2	Experiences Arg1:T11 Arg2:T2	
+R3	Location_of Arg1:T7 Arg2:T2	
+T23	Observation 106 127	INCLUIDOS EN ESTUDIOS
+#17	AnnotatorNotes T23	C1278516; Patient participation status; Finding (?)
+R5	Location_of Arg1:T8 Arg2:T3	
+T24	Quantifier_or_Qualifier 131 148	ESTADIOS PRECOCES
+#18	AnnotatorNotes T24	C2363430; Early stage; Temporal Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T24	
+T25	Quantifier_or_Qualifier 231 248	estadios precoces
+#19	AnnotatorNotes T25	C2363430; Early stage; Temporal Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T25	
+R8	Experiences Arg1:T12 Arg2:T3	
+T26	Observation 288 347	incluidos en ensayos clínicos de neoadyuvancia o adyuvancia
+T27	Observation 418 437	hubiera participado
+#20	AnnotatorNotes T27	C1278516; Patient participation status; Finding
+T28	Observation 454 489	participando en otro ensayo clínico
+A4	Status T27 History_of
+T29	Observation 494 519	elegible para este ensayo
+#22	AnnotatorNotes T29	C1302261; Patient eligible for clinical trial; Finding
+R13	Before Arg1:T28 Arg2:T29	
+R14	Before Arg1:T27 Arg2:T29	
+R15	Before Arg1:T5 Arg2:T29	
+R16	Experiences Arg1:T15 Arg2:T9	
+T30	Observation 586 605	pérdida de contacto
+#23	AnnotatorNotes T30	C0424092; Withdrawn; Finding (?)
+R17	Experiences Arg1:T15 Arg2:T30	
+R18	Negation Arg1:T18 Arg2:T16	
+R19	Negation Arg1:T20 Arg2:T21	
+R20	Before Arg1:T30 Arg2:T16	
+R21	Before Arg1:T9 Arg2:T16	
+R23	Negation Arg1:T19 Arg2:T6	
+R4	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T29	
+A5	Experiencer T11 Patient
+A6	Experiencer T12 Patient
+A7	Experiencer T13 Patient
+A8	Experiencer T14 Patient
+A9	Experiencer T15 Patient
+A10	Experiencer T17 Patient

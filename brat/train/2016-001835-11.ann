@@ -1,0 +1,162 @@
+T1	DISO 676 680	CPNM
+#1	AnnotatorNotes T1	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T2	DISO 970 980	mutaciones
+#2	AnnotatorNotes T2	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+T3	PROC 67 94	tratamientos de combinación
+T4	DISO 111 142	cáncer de pulmón no microcítico
+#3	AnnotatorNotes T4	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T5	PROC 174 195	Evaluación en fase II
+T6	PROC 223 250	tratamientos de combinación
+T7	PROC 257 281	estudio inmunooncológico
+T8	DISO 297 328	cáncer de pulmón no microcítico
+#4	AnnotatorNotes T8	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T9	DISO 471 502	Cáncer de pulmón no microcítico
+#5	AnnotatorNotes T9	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T10	DISO 538 569	Cáncer de pulmón no microcítico
+#6	AnnotatorNotes T10	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T11	DISO 580 584	CPNM
+#7	AnnotatorNotes T11	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T12	PROC 620 629	protocolo
+#8	AnnotatorNotes T12	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T13	DISO 643 674	Cáncer de pulmón no microcítico
+#9	AnnotatorNotes T13	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T14	DISO 863 881	enfermedad medible
+#10	AnnotatorNotes T14	C1513041; Measurable Disease; Disease or Syndrome
+T15	PROC 789 818	tratamiento con quimioterapia
+T16	PROC 825 838	inmunoterapia
+#11	AnnotatorNotes T16	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T17	DISO 852 858	lesión
+#12	AnnotatorNotes T17	C0221198; Lesion; Finding
+T18	PROC 916 925	protocolo
+#13	AnnotatorNotes T18	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T19	PROC 1000 1011	tratamiento
+#14	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	DISO 1092 1133	metástasis en el sistema nervioso central
+T21	ANAT 1109 1133	sistema nervioso central
+#15	AnnotatorNotes T21	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T22	PROC 1157 1168	tratamiento
+#16	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	PROC 1204 1218	oxigenoterapia
+#17	AnnotatorNotes T23	C0184633; Oxygen Therapy Care; Therapeutic or Preventive Procedure
+T24	DISO 1241 1270	enfermedades autoinmunitarias
+#18	AnnotatorNotes T24	C0004364; Autoimmune Diseases; Disease or Syndrome
+T25	ANAT 121 127	pulmón
+#19	AnnotatorNotes T25	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T26	ANAT 131 142	microcítico
+#20	AnnotatorNotes T26	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T27	ANAT 307 313	pulmón
+#21	AnnotatorNotes T27	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T28	ANAT 317 328	microcítico
+#22	AnnotatorNotes T28	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T29	ANAT 481 487	pulmón
+#23	AnnotatorNotes T29	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T30	ANAT 491 502	microcítico
+#24	AnnotatorNotes T30	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T31	ANAT 548 554	pulmón
+#25	AnnotatorNotes T31	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T32	ANAT 558 569	microcítico
+#26	AnnotatorNotes T32	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T33	ANAT 653 659	pulmón
+#27	AnnotatorNotes T33	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T34	ANAT 663 674	microcítico
+#28	AnnotatorNotes T34	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T35	Date 13 17	2016
+T36	LIVB 98 106	personas
+#29	AnnotatorNotes T36	C0027361; Persons; Population Group
+T37	Neg_cue 128 130	no
+T38	LIVB 285 292	sujetos
+#30	AnnotatorNotes T38	C0681850; Study Subject; Group
+T39	Neg_cue 314 316	no
+T40	Neg_cue 488 490	no
+T41	Neg_cue 555 557	no
+T42	Neg_cue 660 662	no
+T44	Duration 757 773	al menos 3 meses
+T45	LIVB 943 952	pacientes
+#31	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	Neg_cue 1073 1075	ni
+T50	LIVB 1180 1189	Pacientes
+#32	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Frequency 1219 1225	diaria
+T52	LIVB 1228 1236	Personas
+#33	AnnotatorNotes T52	C0027361; Persons; Population Group
+T43	PROC 693 709	Estado funcional
+#34	AnnotatorNotes T43	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T47	Date 380 391	27-Jul-2016
+T48	Date 442 446	2016
+T49	CONC 736 753	Esperanza de vida
+A1	Assertion T26 Negated
+A2	Assertion T28 Negated
+A3	Assertion T30 Negated
+A4	Assertion T32 Negated
+A5	Assertion T34 Negated
+A6	Assertion T20 Negated
+A7	Status T15 History_of
+A8	Status T16 History_of
+#35	AnnotatorNotes T5	C0282460; Phase 2 Clinical Trials; Research Activity
+#36	AnnotatorNotes T3	C0013218; Combination Drug Therapy; Therapeutic or Preventive Procedure (?)
+#37	AnnotatorNotes T6	C0013218; Combination Drug Therapy; Therapeutic or Preventive Procedure (?)
+#39	AnnotatorNotes T15	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure + C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+#40	AnnotatorNotes T20	C0686377; CNS metastases; Neoplastic Process
+R1	Experiences Arg1:T36 Arg2:T3	
+R2	Experiences Arg1:T36 Arg2:T4	
+R3	Location_of Arg1:T25 Arg2:T4	
+R4	Negation Arg1:T37 Arg2:T26	
+T53	Quantifier_or_Qualifier 143 151	avanzado
+R5	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T53	
+R7	Experiences Arg1:T38 Arg2:T6	
+R8	Experiences Arg1:T38 Arg2:T8	
+R9	Negation Arg1:T39 Arg2:T28	
+R10	Location_of Arg1:T27 Arg2:T8	
+T54	Quantifier_or_Qualifier 329 337	avanzado
+R11	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T54	
+R12	Negation Arg1:T40 Arg2:T30	
+R13	Location_of Arg1:T29 Arg2:T9	
+R14	Location_of Arg1:T31 Arg2:T10	
+R15	Negation Arg1:T41 Arg2:T32	
+T55	Quantifier_or_Qualifier 570 578	avanzado
+R16	Location_of Arg1:T31 Arg2:T11	
+T56	Quantifier_or_Qualifier 503 511	avanzado
+R17	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T56	
+R18	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T55	
+R19	Negation Arg1:T42 Arg2:T34	
+R20	Location_of Arg1:T33 Arg2:T13	
+R21	Location_of Arg1:T33 Arg2:T1	
+T57	Quantifier_or_Qualifier 682 690	avanzado
+R22	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T57	
+T58	CONC 726 730	ECOG
+#41	AnnotatorNotes T58	C1520224; ECOG performance status; Intellectual Product
+R23	Used_for Arg1:T58 Arg2:T43	
+T59	Result_or_Value 731 733	≤1
+R24	Has_Result_or_Value Arg1:T58 Arg2:T59	
+R25	Has_Duration_or_Interval Arg1:T49 Arg2:T44	
+#42	AnnotatorNotes T49	C0023671; Life Expectancy; Group Attribute
+R26	After Arg1:T49 Arg2:T15	
+R27	After Arg1:T49 Arg2:T16	
+T60	Quantifier_or_Qualifier 841 851	Al menos 1
+R28	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T60	
+R29	Overlap Arg1:T17 Arg2:T14	
+R30	Experiences Arg1:T45 Arg2:T2	
+R31	Experiences Arg1:T45 Arg2:T19	
+T62	CONC 1035 1044	inclusión
+#44	AnnotatorNotes T62	C1512693; Inclusion; Qualitative Concept
+R33	Before Arg1:T19 Arg2:T62	
+R34	Negation Arg1:T46 Arg2:T20	
+R35	Location_of Arg1:T21 Arg2:T20	
+R36	Experiences Arg1:T50 Arg2:T23	
+R37	Has_Frequency Arg1:T23 Arg2:T51	
+R38	Experiences Arg1:T52 Arg2:T24	
+R39	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T57	
+R40	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T55	
+#38	AnnotatorNotes T53	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+#43	AnnotatorNotes T54	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+#45	AnnotatorNotes T56	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+#46	AnnotatorNotes T55	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+#47	AnnotatorNotes T57	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+A9	Experiencer T52 Patient
+A10	Experiencer T50 Patient
+A11	Experiencer T45 Patient
+A12	Status T19 Future
+A13	Assertion T22 Hypothetical
+A14	Experiencer T36 Patient
+A15	Experiencer T38 Patient
+A16	Status T62 Future

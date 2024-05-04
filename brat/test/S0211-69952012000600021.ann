@@ -1,0 +1,391 @@
+T1	PROC 11 39	ecocardiograma transtorácico
+#1	AnnotatorNotes T1	C0430462; Transthoracic echocardiography; Diagnostic Procedure
+T2	DISO 60 67	trombos
+#2	AnnotatorNotes T2	C0087086; Thrombus; Pathologic Function | C0302148; Blood Clot; Pathologic Function
+T3	PROC 120 132	hemodiálisis
+#3	AnnotatorNotes T3	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T4	DISO 137 164	disfunción de los catéteres
+#4	AnnotatorNotes T4	C4761194; Catheter dysfunction; Pathologic Function
+T5	DISO 271 295	trombos en los catéteres
+#5	AnnotatorNotes T5	C0920045; Thrombus in catheter; Injury or Poisoning
+T6	PROC 311 341	ecocardiografía transesofágica
+#6	AnnotatorNotes T6	C0430462; Transthoracic echocardiography; Diagnostic Procedure
+T7	PROC 380 409	ecocardiografía transtorácica
+#7	AnnotatorNotes T7	C0430462; Transthoracic echocardiography; Diagnostic Procedure
+T8	DISO 490 521	mal funcionamiento de catéteres
+#8	AnnotatorNotes T8	C4761194; Catheter dysfunction; Pathologic Function
+T9	DISO 570 579	trombosis
+#9	AnnotatorNotes T9	C0087086; Thrombus; Pathologic Function | C0302148; Blood Clot; Pathologic Function
+T10	DISO 626 641	daño endotelial
+T11	ANAT 713 717	vaso
+#10	AnnotatorNotes T11	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T12	ANAT 726 742	aurícula derecha
+#11	AnnotatorNotes T12	C0225844; Right atrial structure; Body Part, Organ, or Organ Component | C1269890; Entire right atrium; Body Part, Organ, or Organ Component
+T13	DISO 748 772	manifestaciones clínicas
+#12	AnnotatorNotes T13	C0037088; Signs and Symptoms; Sign or Symptom
+T14	DISO 780 802	disfunción del catéter
+#13	AnnotatorNotes T14	C4761194; Catheter dysfunction; Pathologic Function
+T15	DISO 838 859	embolismos pulmonares
+#14	AnnotatorNotes T15	C0034065; Pulmonary Embolism; Pathologic Function
+T16	DISO 861 889	embolia paradójica sistémica
+#15	AnnotatorNotes T16	C0238096; Embolism, Paradoxical; Disease or Syndrome
+T17	DISO 892 906	sobreinfección
+#16	AnnotatorNotes T17	C0038826; Superinfection; Disease or Syndrome | C0442886; Secondary Infections; Disease or Syndrome
+T18	DISO 948 969	trombosis del catéter
+#17	AnnotatorNotes T18	C1407266; thrombosis, dialysis catheter; Pathologic Function
+T19	PROC 1057 1086	ecocardiografía transtorácica
+#18	AnnotatorNotes T19	C0430462; Transthoracic echocardiography; Diagnostic Procedure
+T20	PROC 1092 1110	prueba diagnóstica
+#19	AnnotatorNotes T20	C0430022; diagnostic procedure; Diagnostic Procedure | C0525034; Diagnostic Techniques and Procedures; Diagnostic Procedure
+T21	DISO 1149 1156	trombos
+#20	AnnotatorNotes T21	C0087086; Thrombus; Pathologic Function | C0302148; Blood Clot; Pathologic Function
+T22	PROC 1205 1217	hemodiálisis
+#21	AnnotatorNotes T22	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T23	PROC 1336 1348	hemodiálisis
+#22	AnnotatorNotes T23	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T24	DISO 1419 1440	hipertensión arterial
+#23	AnnotatorNotes T24	C0020538; Hypertensive disease; Disease or Syndrome
+T25	DISO 1450 1467	diabetes mellitus
+#24	AnnotatorNotes T25	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T26	DISO 1477 1487	dislipemia
+#25	AnnotatorNotes T26	C0242339; Dyslipidemias; Disease or Syndrome
+T27	DISO 1497 1507	tabaquismo
+#26	AnnotatorNotes T27	C0040336; Tobacco Use Disorder; Mental or Behavioral Dysfunction | C0425291; Tobacco smoking consumption; Finding | C1306274; Tabagism; Mental or Behavioral Dysfunction
+T28	DISO 1518 1539	cardiopatía isquémica
+#27	AnnotatorNotes T28	C0151744; Myocardial Ischemia; Disease or Syndrome
+T29	PROC 1579 1592	diagnosticado
+#28	AnnotatorNotes T29	C0011900; Diagnosis; Diagnostic Procedure
+T30	DISO 1596 1607	trombofilia
+#29	AnnotatorNotes T30	C0398623; Thrombophilia; Disease or Syndrome
+T31	CHEM 1626 1640	antiagregantes
+#30	AnnotatorNotes T31	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T32	CHEM 1652 1667	anticoagulantes
+#31	AnnotatorNotes T32	C0003280; Anticoagulants; Pharmacologic Substance
+T33	PROC 1705 1733	ecocardiograma transtorácico
+#32	AnnotatorNotes T33	C0430462; Transthoracic echocardiography; Diagnostic Procedure
+T34	PROC 1782 1799	ecocardiográficos
+#33	AnnotatorNotes T34	C0013516; Echocardiography; Diagnostic Procedure
+T35	DISO 1828 1861	hipertrofia ventricular izquierda
+#34	AnnotatorNotes T35	C0149721; Left Ventricular Hypertrophy; Disease or Syndrome
+T36	ANAT 1911 1919	valvular
+#35	AnnotatorNotes T36	C1186983; anatomic valve; Body Part, Organ, or Organ Component
+T37	DISO 2093 2123	mal funcionamiento del catéter
+#36	AnnotatorNotes T37	C4761194; Catheter dysfunction; Pathologic Function
+T38	DISO 2150 2180	trombos en la aurícula derecha
+#37	AnnotatorNotes T38	C0748428; Thrombus of right atrium; Pathologic Function
+T39	ANAT 2164 2180	aurícula derecha
+#38	AnnotatorNotes T39	C0225844; Right atrial structure; Body Part, Organ, or Organ Component | C1269890; Entire right atrium; Body Part, Organ, or Organ Component
+T40	DISO 2240 2252	asintomática
+#39	AnnotatorNotes T40	C0231221; Asymptomatic; Finding
+T41	PROC 2270 2282	hemodiálisis
+#40	AnnotatorNotes T41	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T42	DISO 2287 2340	síndrome nefrótico con hialinosis focal y segmentaria
+#41	AnnotatorNotes T42	C2902887; Nephrotic syndrome with focal and segmental hyalinosis; Disease or Syndrome
+T43	PROC 2635 2654	técnica no invasiva
+#42	AnnotatorNotes T43	C0814177; Noninvasive procedure; Therapeutic or Preventive Procedure
+T44	PROC 2381 2403	estudio transesofágico
+T45	DISO 2531 2554	fístulas arteriovenosas
+#43	AnnotatorNotes T45	C0003855; Arteriovenous fistula; Anatomical Abnormality
+T46	PROC 2680 2709	ecocardiografía transtorácica
+#44	AnnotatorNotes T46	C0430462; Transthoracic echocardiography; Diagnostic Procedure
+T47	DISO 2768 2775	trombos
+#45	AnnotatorNotes T47	C0087086; Thrombus; Pathologic Function | C0302148; Blood Clot; Pathologic Function
+T48	DISO 2802 2816	complicaciones
+#46	AnnotatorNotes T48	C0009566; Complication; Pathologic Function
+T49	PROC 2891 2903	hemodiálisis
+#47	AnnotatorNotes T49	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T50	PROC 3072 3087	ecocardiografía
+#48	AnnotatorNotes T50	C0013516; Echocardiography; Diagnostic Procedure
+T51	PROC 3153 3164	implantados
+#49	AnnotatorNotes T51	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T52	PROC 3267 3286	técnica diagnóstica
+#50	AnnotatorNotes T52	C0430022; diagnostic procedure; Diagnostic Procedure | C0525034; Diagnostic Techniques and Procedures; Diagnostic Procedure
+T53	PROC 46 56	despistaje
+#51	AnnotatorNotes T53	C0220908; Screening procedure; Diagnostic Procedure
+T54	PROC 168 180	hemodiálisis
+#52	AnnotatorNotes T54	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T55	PROC 473 485	hemodiálisis
+#53	AnnotatorNotes T55	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T56	PROC 525 537	hemodiálisis
+#54	AnnotatorNotes T56	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T57	ANAT 631 641	endotelial
+#55	AnnotatorNotes T57	C0014257; Endothelium; Tissue
+T58	ANAT 849 859	pulmonares
+#56	AnnotatorNotes T58	C0034052; Pulmonary artery structure; Body Part, Organ, or Organ Component | C1269026; Entire pulmonary artery; Body Part, Organ, or Organ Component
+T60	ANAT 1432 1440	arterial
+#57	AnnotatorNotes T60	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T61	ANAT 1840 1851	ventricular
+#58	AnnotatorNotes T61	C0018827; Heart Ventricle; Body Part, Organ, or Organ Component | C1280934; Entire cardiac ventricle; Body Part, Organ, or Organ Component
+T62	DISO 1897 1919	calcificación valvular
+T63	PROC 2496 2512	diálisis crónica
+#59	AnnotatorNotes T63	C1740835; Chronic haemodialysis; Therapeutic or Preventive Procedure
+T64	PROC 3127 3139	hemodiálisis
+#60	AnnotatorNotes T64	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T66	LIVB 71 80	pacientes
+#61	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	DEVI 95 104	catéteres
+#62	AnnotatorNotes T67	C0085590; catheter device; Medical Device
+T68	DEVI 155 164	catéteres
+#63	AnnotatorNotes T68	C0085590; catheter device; Medical Device
+T69	DEVI 286 295	catéteres
+#64	AnnotatorNotes T69	C0085590; catheter device; Medical Device
+T73	DEVI 460 485	catéteres de hemodiálisis
+#65	AnnotatorNotes T73	C0179760; Hemodialysis catheter; Medical Device
+T74	DEVI 512 521	catéteres
+#66	AnnotatorNotes T74	C0085590; catheter device; Medical Device
+T76	DEVI 689 696	catéter
+#67	AnnotatorNotes T76	C0085590; catheter device; Medical Device
+T77	DEVI 795 802	catéter
+#68	AnnotatorNotes T77	C0085590; catheter device; Medical Device
+T79	LIVB 1160 1169	pacientes
+#69	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	DEVI 1174 1188	catéter venoso
+#70	AnnotatorNotes T80	C0745442; Intravenous Catheters; Medical Device
+T81	LIVB 1229 1238	pacientes
+#71	AnnotatorNotes T81	C0030705; Patients; Patient or Disabled Group
+T82	LIVB 1242 1249	mujeres
+#72	AnnotatorNotes T82	C0043210; Woman; Population Group
+T83	LIVB 1255 1262	hombres
+#73	AnnotatorNotes T83	C0025266; Male population group; Population Group
+T84	Duration 1301 1320	39,59 ± 38,12 meses
+T85	Age 1373 1391	72,53 ± 18,09 años
+T86	LIVB 1397 1406	pacientes
+#74	AnnotatorNotes T86	C0030705; Patients; Patient or Disabled Group
+T87	Neg_cue 1556 1562	Ningún
+T88	LIVB 1563 1571	paciente
+#75	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group
+T89	Route 1668 1674	orales
+#76	AnnotatorNotes T89	C1527415; Oral Route of Drug administration; Functional Concept
+T91	PHYS 1866 1883	función sistólica
+#77	AnnotatorNotes T91	C0520866; Ventricular systole; Organ or Tissue Function
+T92	DEVI 1965 1972	catéter
+#78	AnnotatorNotes T92	C0085590; catheter device; Medical Device
+T94	LIVB 2043 2052	pacientes
+#79	AnnotatorNotes T94	C0030705; Patients; Patient or Disabled Group
+T95	DEVI 2116 2123	catéter
+#80	AnnotatorNotes T95	C0085590; catheter device; Medical Device
+T96	LIVB 2199 2207	paciente
+#81	AnnotatorNotes T96	C0030705; Patients; Patient or Disabled Group
+T97	Age 2211 2218	36 años
+T99	LIVB 2451 2460	pacientes
+#82	AnnotatorNotes T99	C0030705; Patients; Patient or Disabled Group
+T100	Duration 2505 2512	crónica
+#83	AnnotatorNotes T100	C0205191; chronic; Temporal Concept
+T104	DEVI 2731 2740	catéteres
+#84	AnnotatorNotes T104	C0085590; catheter device; Medical Device
+T105	Neg_cue 2788 2797	se evitan
+T107	LIVB 2842 2851	pacientes
+#85	AnnotatorNotes T107	C0030705; Patients; Patient or Disabled Group
+T108	DEVI 2866 2875	catéteres
+#86	AnnotatorNotes T108	C0085590; catheter device; Medical Device
+T110	DEVI 2966 2973	catéter
+#87	AnnotatorNotes T110	C0085590; catheter device; Medical Device
+T111	LIVB 2999 3008	pacientes
+#88	AnnotatorNotes T111	C0030705; Patients; Patient or Disabled Group
+T112	LIVB 3100 3109	pacientes
+#89	AnnotatorNotes T112	C0030705; Patients; Patient or Disabled Group
+T113	DEVI 3114 3139	catéteres de hemodiálisis
+#90	AnnotatorNotes T113	C0179760; Hemodialysis catheter; Medical Device
+T115	DEVI 962 969	catéter
+#91	AnnotatorNotes T115	C0085590; catheter device; Medical Device
+T59	PROC 2079 2088	reemplazo
+#92	AnnotatorNotes T59	C0522774; Replacement of catheter; Therapeutic or Preventive Procedure
+A1	Assertion T88 Negated
+A2	Assertion T30 Negated
+A4	Assertion T40 Negated
+A5	Assertion T48 Negated
+A6	Status T28 History_of
+R1	Negation Arg1:T105 Arg2:T48	
+T65	Quantifier_or_Qualifier 2646 2654	invasiva
+A7	Assertion T65 Negated
+#93	AnnotatorNotes T65	C0205281; Invasive; Qualitative Concept
+T70	Neg_cue 2643 2645	no
+R2	Negation Arg1:T70 Arg2:T65	
+R3	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T65	
+R4	Negation Arg1:T87 Arg2:T88	
+T71	Spec_cue 2817 2831	potencialmente
+T72	Quantifier_or_Qualifier 2832 2838	graves
+A8	Assertion T72 Speculated
+#94	AnnotatorNotes T72	C1547227; Severe - Severity of Illness Code; Intellectual Product
+T75	Spec_cue 593 606	probablemente
+T78	Quantifier_or_Qualifier 607 618	relacionado
+A9	Assertion T78 Speculated
+T90	Spec_cue 3024 3030	parece
+T93	Quantifier_or_Qualifier 3031 3043	recomendable
+A10	Assertion T93 Speculated
+#95	AnnotatorNotes T93	C0034866; Recommendation; Idea or Concept (?)
+R5	Speculation Arg1:T90 Arg2:T93	
+R7	Negation Arg1:T87 Arg2:T30	
+R8	Speculation Arg1:T71 Arg2:T72	
+R9	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T72	
+T98	Duration 3140 3152	crónicamente
+#96	AnnotatorNotes T98	C0205191; chronic; Temporal Concept
+R6	Experiences Arg1:T88 Arg2:T30	
+T101	Neg_cue 343 348	Nunca
+T102	PROC 355 364	estudiado
+A3	Assertion T102 Negated
+#97	AnnotatorNotes T102	C0681814; research study; Research Activity
+R10	Negation Arg1:T101 Arg2:T102	
+T103	PROC 1271 1279	seguidos
+#98	AnnotatorNotes T103	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+R11	Speculation Arg1:T75 Arg2:T78	
+R12	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T78	
+R13	Overlap Arg1:T8 Arg2:T10	
+R14	Location_of Arg1:T57 Arg2:T10	
+R15	Causes Arg1:T76 Arg2:T10	
+R16	Location_of Arg1:T11 Arg2:T10	
+R17	Location_of Arg1:T12 Arg2:T10	
+R18	Experiences Arg1:T66 Arg2:T1	
+R19	Experiences Arg1:T66 Arg2:T2	
+R20	Experiences Arg1:T66 Arg2:T67	
+R21	Experiences Arg1:T66 Arg2:T3	
+R22	Used_for Arg1:T67 Arg2:T3	
+R23	Overlap Arg1:T2 Arg2:T67	
+R26	Used_for Arg1:T68 Arg2:T54	
+T106	Observation 212 222	morbilidad
+#99	AnnotatorNotes T106	C0026538; Morbidity - disease rate; Finding
+R27	Overlap Arg1:T4 Arg2:T106	
+T109	Quantifier_or_Qualifier 207 211	alta
+#100	AnnotatorNotes T109	C0205250; High; Qualitative Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T106 Arg2:T109	
+R29	Overlap Arg1:T5 Arg2:T69	
+R30	Overlap Arg1:T4 Arg2:T68	
+R32	Used_for Arg1:T73 Arg2:T55	
+R34	Overlap Arg1:T8 Arg2:T74	
+R35	Before Arg1:T9 Arg2:T8	
+R36	Used_for Arg1:T74 Arg2:T56	
+R37	Used_for Arg1:T76 Arg2:T56	
+R39	Overlap Arg1:T14 Arg2:T77	
+R40	Location_of Arg1:T58 Arg2:T15	
+T114	Observation 815 836	obstrucción de la luz
+#101	AnnotatorNotes T114	C1401443; obstruction; catheter (other); Finding (?)
+R41	Overlap Arg1:T14 Arg2:T114	
+R42	Overlap Arg1:T77 Arg2:T114	
+R43	Overlap Arg1:T18 Arg2:T115	
+T116	Quantifier_or_Qualifier 1111 1118	inicial
+#102	AnnotatorNotes T116	C0205265; Initially; Temporal Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T116	
+R47	Used_for Arg1:T80 Arg2:T22	
+R48	Experiences Arg1:T79 Arg2:T22	
+R49	Experiences Arg1:T79 Arg2:T80	
+R50	Experiences Arg1:T79 Arg2:T21	
+R51	Experiences Arg1:T79 Arg2:T20	
+R52	Experiences Arg1:T79 Arg2:T19	
+T117	Quantifier_or_Qualifier 1189 1199	tunelizado
+#103	AnnotatorNotes T117	C0445346; Tunnelled; Spatial Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T80 Arg2:T117	
+T118	Quantifier_or_Qualifier 105 116	tunelizados
+#104	AnnotatorNotes T118	C0445346; Tunnelled; Spatial Concept
+R54	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T118	
+T119	Quantifier_or_Qualifier 538 549	tunelizados
+#105	AnnotatorNotes T119	C0445346; Tunnelled; Spatial Concept
+R55	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T119	
+T120	Quantifier_or_Qualifier 2876 2887	tunelizados
+#106	AnnotatorNotes T120	C0445346; Tunnelled; Spatial Concept
+R56	Has_Quantifier_or_Qualifier Arg1:T108 Arg2:T120	
+R57	Used_for Arg1:T108 Arg2:T49	
+R58	Experiences Arg1:T111 Arg2:T110	
+R59	Has_Duration_or_Interval Arg1:T103 Arg2:T84	
+R61	Experiences Arg1:T81 Arg2:T23	
+R62	Experiences Arg1:T82 Arg2:T23	
+R63	Experiences Arg1:T83 Arg2:T23	
+R64	Has_Age Arg1:T81 Arg2:T85	
+R65	Has_Age Arg1:T82 Arg2:T85	
+R66	Has_Age Arg1:T83 Arg2:T85	
+R67	Experiences Arg1:T86 Arg2:T24	
+R68	Location_of Arg1:T60 Arg2:T24	
+R69	Experiences Arg1:T86 Arg2:T25	
+R70	Experiences Arg1:T86 Arg2:T26	
+R71	Experiences Arg1:T86 Arg2:T27	
+R72	Experiences Arg1:T86 Arg2:T28	
+R73	Experiences Arg1:T88 Arg2:T31	
+R74	Experiences Arg1:T88 Arg2:T32	
+R75	Has_Route_or_Mode Arg1:T32 Arg2:T89	
+T121	Observation 1772 1799	hallazgos ecocardiográficos
+R76	Location_of Arg1:T61 Arg2:T35	
+R78	Location_of Arg1:T36 Arg2:T62	
+R80	Overlap Arg1:T34 Arg2:T62	
+T122	Observation 1866 1894	función sistólica conservada
+#107	AnnotatorNotes T122	C3266756; Normal left ventricular systolic function; Finding
+R81	Overlap Arg1:T35 Arg2:T122	
+R82	Overlap Arg1:T34 Arg2:T122	
+R83	Experiences Arg1:T94 Arg2:T92	
+R84	Experiences Arg1:T94 Arg2:T59	
+R86	Overlap Arg1:T37 Arg2:T95	
+R87	Used_for Arg1:T92 Arg2:T59	
+R88	Used_for Arg1:T95 Arg2:T59	
+R89	Experiences Arg1:T94 Arg2:T37	
+R90	Experiences Arg1:T94 Arg2:T95	
+R91	Location_of Arg1:T39 Arg2:T38	
+R92	Experiences Arg1:T96 Arg2:T38	
+R93	Has_Age Arg1:T96 Arg2:T97	
+R94	Experiences Arg1:T96 Arg2:T40	
+R95	Overlap Arg1:T38 Arg2:T40	
+R96	Experiences Arg1:T96 Arg2:T41	
+R97	Overlap Arg1:T38 Arg2:T42	
+R98	Overlap Arg1:T40 Arg2:T42	
+T123	Observation 2352 2360	hallazgo
+#108	AnnotatorNotes T123	C0243095; Finding; Finding
+R100	Overlap Arg1:T40 Arg2:T123	
+R102	Overlap Arg1:T42 Arg2:T123	
+R103	Experiences Arg1:T96 Arg2:T44	
+R104	Experiences Arg1:T96 Arg2:T123	
+R105	Experiences Arg1:T96 Arg2:T42	
+R106	Experiences Arg1:T99 Arg2:T63	
+R107	Has_Duration_or_Interval Arg1:T63 Arg2:T100	
+R108	Experiences Arg1:T99 Arg2:T45	
+T124	ANAT 2540 2554	arteriovenosas
+R109	Location_of Arg1:T124 Arg2:T45	
+R110	Experiences Arg1:T99 Arg2:T43	
+T125	Quantifier_or_Qualifier 2660 2670	bajo coste
+#109	AnnotatorNotes T125	C0085550; Cost Savings; Quantitative Concept (?)
+R111	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T125	
+R112	Experiences Arg1:T99 Arg2:T46	
+R113	Experiences Arg1:T99 Arg2:T104	
+R114	Experiences Arg1:T99 Arg2:T47	
+R115	Experiences Arg1:T99 Arg2:T48	
+R118	Before Arg1:T104 Arg2:T48	
+R119	Overlap Arg1:T104 Arg2:T47	
+R124	Used_for Arg1:T104 Arg2:T63	
+R125	Experiences Arg1:T107 Arg2:T108	
+R126	Experiences Arg1:T107 Arg2:T49	
+R127	Experiences Arg1:T107 Arg2:T48	
+R128	Before Arg1:T108 Arg2:T48	
+R129	Experiences Arg1:T107 Arg2:T47	
+R130	Experiences Arg1:T107 Arg2:T104	
+R131	Experiences Arg1:T107 Arg2:T46	
+R132	Experiences Arg1:T107 Arg2:T43	
+R133	Experiences Arg1:T107 Arg2:T45	
+R134	Experiences Arg1:T107 Arg2:T63	
+R139	Experiences Arg1:T99 Arg2:T108	
+R140	Experiences Arg1:T99 Arg2:T49	
+R141	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T93	
+R142	Experiences Arg1:T112 Arg2:T50	
+R143	Experiences Arg1:T112 Arg2:T64	
+R144	Used_for Arg1:T113 Arg2:T64	
+R145	Experiences Arg1:T112 Arg2:T113	
+R146	Has_Duration_or_Interval Arg1:T113 Arg2:T98	
+R147	Used_for Arg1:T113 Arg2:T51	
+R148	Experiences Arg1:T112 Arg2:T51	
+R151	Experiences Arg1:T112 Arg2:T52	
+R153	Overlap Arg1:T77 Arg2:T15	
+R154	Overlap Arg1:T13 Arg2:T77	
+R155	Overlap Arg1:T77 Arg2:T16	
+R156	Overlap Arg1:T77 Arg2:T17	
+#110	AnnotatorNotes T78	C0332281; Associated with; Qualitative Concept
+R24	Overlap Arg1:T21 Arg2:T80	
+#111	AnnotatorNotes T124	C0729581; Surgical arteriovenous fistula; Body Part, Organ, or Organ Component
+#112	AnnotatorNotes T62	C1142152; Heart valve calcification; Disease or Syndrome
+A11	Experiencer T66 Patient
+A12	Experiencer T79 Patient
+A13	Experiencer T81 Patient
+A14	Experiencer T82 Patient
+A15	Experiencer T83 Patient
+A16	Experiencer T86 Patient
+A17	Experiencer T88 Patient
+A18	Experiencer T94 Patient
+A19	Experiencer T96 Patient
+A20	Experiencer T99 Patient
+A21	Experiencer T107 Patient
+A22	Experiencer T111 Patient
+A23	Experiencer T112 Patient

@@ -1,0 +1,236 @@
+T1	PROC 46 57	TRATAMIENTO
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 62 71	VALSARTÁN
+#2	AnnotatorNotes T2	C0216784; valsartan; Organic Chemical · Pharmacologic Substance
+T3	PROC 85 106	TRASPLANTADOS RENALES
+#3	AnnotatorNotes T3	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T4	ANAT 99 106	RENALES
+#4	AnnotatorNotes T4	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T5	DISO 111 117	SIGNOS
+#5	AnnotatorNotes T5	C0311392; Physical findings; Finding
+T6	DISO 121 135	GLOMERULOPATÍA
+#6	AnnotatorNotes T6	C0268731; Renal glomerular disease; Disease or Syndrome
+T7	PROC 141 151	TRASPLANTE
+#7	AnnotatorNotes T7	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T8	PROC 506 542	Consentimiento informado por escrito
+#8	AnnotatorNotes T8	C0811741; Obtain informed written consent; Health Care Activity
+T9	CHEM 194 200	RENINA
+#9	AnnotatorNotes T9	C0035094; Renin; Amino Acid, Peptide, or Protein · Enzyme
+T10	CHEM 201 213	ANGIOTENSINA
+#10	AnnotatorNotes T10	C0003018; Angiotensins; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T11	ANAT 215 219	SRAA
+#11	AnnotatorNotes T11	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+T12	PROC 234 255	TRASPLANTADOS RENALES
+#12	AnnotatorNotes T12	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T13	ANAT 248 255	RENALES
+#13	AnnotatorNotes T13	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T14	ANAT 274 302	CÉLULAS PROGENITORAS RENALES
+T15	ANAT 304 307	PEC
+#14	AnnotatorNotes T15	C1182790; Epithelial cell of parietal layer of glomerular capsule; Cell (?)
+T16	DISO 373 383	DAÑO RENAL
+#15	AnnotatorNotes T16	C0852163; Renal failure and impairment; Disease or Syndrome (?)
+T17	ANAT 378 383	RENAL
+#16	AnnotatorNotes T17	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T18	PROC 400 416	TRASPLANTE RENAL
+#17	AnnotatorNotes T18	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T19	DISO 443 463	GLOMERULOPATÍA RENAL
+#18	AnnotatorNotes T19	C0268731; Renal glomerular disease; Disease or Syndrome
+T20	PROC 469 479	TRASPLANTE
+#19	AnnotatorNotes T20	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T21	PROC 594 598	eGFR
+#20	AnnotatorNotes T21	C0C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T22	PROC 639 671	Inmunosupresión de mantenimiento
+T23	CHEM 682 692	tacrolimus
+#21	AnnotatorNotes T23	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T24	CHEM 695 698	MMF
+#22	AnnotatorNotes T24	C0209368; mycophenolate mofetil; Organic Chemical · Pharmacologic Substance
+T25	CHEM 699 702	MPA
+#23	AnnotatorNotes T25	C0026933; Mycophenolic Acid; Antibiotic · Organic Chemical
+T26	DISO 729 771	Infección crónica activa por VHC, VHB, HIV
+T27	PROC 773 784	Tratamiento
+#24	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	CHEM 789 832	inhibidores del sistema renina angiotensina
+T29	DISO 1313 1329	condición médica
+#25	AnnotatorNotes T29	C4745084; Medical Condition; Finding
+T30	PROC 834 850	Trasplante renal
+#26	AnnotatorNotes T30	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T31	ANAT 878 884	órgano
+#27	AnnotatorNotes T31	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T32	PROC 887 919	Inmunosupresión de mantenimiento
+T33	CHEM 931 941	tacrolimus
+#28	AnnotatorNotes T33	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T34	CHEM 944 947	MMF
+#29	AnnotatorNotes T34	C0209368; mycophenolate mofetil; Organic Chemical · Pharmacologic Substance
+T35	CHEM 948 951	MPA
+#30	AnnotatorNotes T35	C0026933; Mycophenolic Acid; Antibiotic · Organic Chemical
+T36	PROC 954 958	eGFR
+#31	AnnotatorNotes T36	C0017654; Glomerular Filtration Rate; Diagnostic procedure
+T37	CHEM 1023 1075	fármacos inhibidores del sistema renina angiotensina
+T38	PROC 1228 1249	método anticonceptivo
+#32	AnnotatorNotes T38	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T39	PROC 1395 1427	revisión de historiales clínicos
+#33	AnnotatorNotes T39	C0730229; Medical records review; Health Care Activity
+T40	DISO 1507 1525	problemas visuales
+T41	DISO 1528 1547	deterioro cognitivo
+#34	AnnotatorNotes T41	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T42	ANAT 186 213	SISTEMA RENINA ANGIOTENSINA
+T43	ANAT 314 319	ORINA
+#35	AnnotatorNotes T43	C0042036; Urine; Body Substance
+T44	PROC 321 348	ENSAYO CLÍNICO ALEATORIZADO
+#36	AnnotatorNotes T44	C0206034; Clinical Trials, Randomized; Research Activity
+T45	ANAT 411 416	RENAL
+#37	AnnotatorNotes T45	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T46	ANAT 458 463	RENAL
+#38	AnnotatorNotes T46	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T47	ANAT 551 556	renal
+#39	AnnotatorNotes T47	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T48	ANAT 805 832	sistema renina angiotensina
+T49	ANAT 845 850	renal
+#40	AnnotatorNotes T49	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T50	DISO 994 1001	alergia
+#41	AnnotatorNotes T50	C1527304; Allergic Reaction; Pathologic Function
+T51	DISO 1004 1016	intolerancia
+#42	AnnotatorNotes T51	C0277585; Intolerance to drug; Pathologic Function
+T52	ANAT 1048 1075	sistema renina angiotensina
+T53	Date 13 17	2018
+T54	LIVB 75 84	PACIENTES
+#43	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 224 233	PACIENTES
+#44	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Duration 384 391	CRÓNICO
+#45	AnnotatorNotes T56	C0205191; chronic; Temporal Concept
+T57	Duration 619 638	los últimos 3 meses
+T58	Duration 739 746	crónica
+#46	AnnotatorNotes T58	C0205191; chronic; Temporal Concept
+T59	LIVB 758 761	VHC
+#47	AnnotatorNotes T59	C0220847; hepatitis C virus; Virus
+T60	LIVB 763 766	VHB
+#48	AnnotatorNotes T60	C0019169; hepatitis B virus; Virus
+T61	LIVB 768 771	HIV
+#49	AnnotatorNotes T61	C0019682; HIV; Virus
+T63	LIVB 1077 1105	Mujeres físicamente fértiles
+#50	AnnotatorNotes T63	C4324275; Woman of childbearing potential; Population Group
+T65	Neg_cue 1206 1208	no
+T66	LIVB 1348 1360	investigador
+#51	AnnotatorNotes T66	C0035173; Research Personnel; Professional or Occupational Group
+T71	PHYS 1135 1146	embarazadas
+#52	AnnotatorNotes T71	C0032961; Pregnancy; Organism Function
+T72	PHYS 1154 1165	embarazadas
+#53	AnnotatorNotes T72	C0032961; Pregnancy; Organism Function
+T73	PHYS 1517 1525	visuales
+#54	AnnotatorNotes T73	C0042789; Vision; Organism Function
+T74	PHYS 1538 1547	cognitivo
+#55	AnnotatorNotes T74	C0009240; Cognition; Mental Process
+T64	PHYS 543 556	Función renal
+#56	AnnotatorNotes T64	C0232804; Renal function; Organ or Tissue Function
+T62	PHYS 1184 1193	lactancia
+#57	AnnotatorNotes T62	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T67	Neg_cue 920 930	distinta a
+A1	Assertion T38 Negated
+A2	Assertion T33 Negated
+A3	Assertion T34 Negated
+A4	Assertion T35 Negated
+A5	Status T50 History_of
+A6	Status T51 History_of
+#58	AnnotatorNotes T42	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+#59	AnnotatorNotes T48	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+#60	AnnotatorNotes T52	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+#61	AnnotatorNotes T40	C3665347; Visual Impairment; Finding
+T68	Neg_cue 1492 1494	no
+T69	Quantifier_or_Qualifier 1495 1503	limitado
+A7	Assertion T69 Negated
+T70	Spec_cue 1429 1435	podría
+T75	Observation 1436 1473	afectar a la finalización del estudio
+A8	Assertion T75 Speculated
+R1	Used_for Arg1:T2 Arg2:T1	
+R2	Experiences Arg1:T54 Arg2:T1	
+R3	Experiences Arg1:T54 Arg2:T3	
+R4	Location_of Arg1:T4 Arg2:T3	
+R5	Causes Arg1:T6 Arg2:T5	
+R6	Experiences Arg1:T54 Arg2:T5	
+R7	Experiences Arg1:T54 Arg2:T6	
+R8	After Arg1:T6 Arg2:T7	
+R9	Before Arg1:T3 Arg2:T6	
+R10	Experiences Arg1:T54 Arg2:T7	
+R11	Experiences Arg1:T55 Arg2:T12	
+R12	Location_of Arg1:T13 Arg2:T12	
+T76	Observation 260 319	P'RESENCIA DE CÉLULAS PROGENITORAS RENALES (PEC's) EN ORINA
+R13	Location_of Arg1:T43 Arg2:T76	
+R14	Experiences Arg1:T55 Arg2:T76	
+R15	Location_of Arg1:T17 Arg2:T16	
+R16	Has_Duration_or_Interval Arg1:T16 Arg2:T56	
+R17	After Arg1:T16 Arg2:T18	
+R18	Location_of Arg1:T45 Arg2:T18	
+R19	After Arg1:T19 Arg2:T20	
+R20	Location_of Arg1:T46 Arg2:T19	
+R21	Location_of Arg1:T47 Arg2:T64	
+T77	Observation 543 564	Función renal estable
+#62	AnnotatorNotes T77	C0232805; Normal renal function; Finding
+T78	CONC 580 589	variación
+#63	AnnotatorNotes T78	C1705241; Delta (difference); Quantitative Concept (?)
+T79	Result_or_Value 602 615	menos del 15%
+R23	Has_Result_or_Value Arg1:T78 Arg2:T79	
+R24	Overlap Arg1:T78 Arg2:T57	
+R25	Overlap Arg1:T77 Arg2:T57	
+R28	Location_of Arg1:T47 Arg2:T21	
+R29	Used_for Arg1:T23 Arg2:T22	
+R30	Combined_with Arg1:T23 Arg2:T24	
+R31	Combined_with Arg1:T23 Arg2:T25	
+#64	AnnotatorNotes R30	(?)
+#65	AnnotatorNotes R31	(?)
+R32	Causes Arg1:T59 Arg2:T26	
+R33	Causes Arg1:T60 Arg2:T26	
+R34	Causes Arg1:T61 Arg2:T26	
+R35	Has_Duration_or_Interval Arg1:T26 Arg2:T58	
+R36	Used_for Arg1:T28 Arg2:T27	
+R37	Location_of Arg1:T49 Arg2:T30	
+T80	Quantifier_or_Qualifier 851 856	doble
+#66	AnnotatorNotes T80	C0205173;  Double (qualifier value); Functional Concept 
+R38	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T80	
+T81	Quantifier_or_Qualifier 859 884	combinado con otro órgano
+R39	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T81	
+R40	Location_of Arg1:T31 Arg2:T30	
+R41	Used_for Arg1:T33 Arg2:T32	
+R42	Combined_with Arg1:T33 Arg2:T34	
+R43	Combined_with Arg1:T33 Arg2:T35	
+R44	Negation Arg1:T67 Arg2:T33	
+R45	Negation Arg1:T67 Arg2:T34	
+R46	Negation Arg1:T67 Arg2:T35	
+T82	Result_or_Value 959 976	<20 ml/min/1.73m2
+R47	Has_Result_or_Value Arg1:T36 Arg2:T82	
+R48	Causes Arg1:T37 Arg2:T51	
+R49	Causes Arg1:T37 Arg2:T50	
+T83	Observation 1117 1146	previsto quedarse embarazadas
+#67	AnnotatorNotes T83	C0032992; Pregnancy, Planned; Finding
+R50	Experiences Arg1:T63 Arg2:T83	
+R51	Before Arg1:T83 Arg2:T71	
+R52	Experiences Arg1:T63 Arg2:T72	
+R53	Experiences Arg1:T63 Arg2:T62	
+R54	Overlap Arg1:T72 Arg2:T62	
+R55	Negation Arg1:T65 Arg2:T38	
+R56	Experiences Arg1:T63 Arg2:T38	
+T84	Quantifier_or_Qualifier 1250 1256	eficaz
+A9	Assertion T84 Negated
+R57	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T84	
+T85	PROC 1288 1295	estudio
+#68	AnnotatorNotes T85	C0008976; Clinical Trials; Research Activity
+R59	Overlap Arg1:T62 Arg2:T85	
+R60	Overlap Arg1:T72 Arg2:T85	
+R61	Overlap Arg1:T83 Arg2:T85	
+R58	Overlap Arg1:T38 Arg2:T85	
+R62	Speculation Arg1:T70 Arg2:T75	
+R63	Before Arg1:T29 Arg2:T75	
+R64	Negation Arg1:T68 Arg2:T69	
+R67	Before Arg1:T40 Arg2:T75	
+R68	Before Arg1:T41 Arg2:T75	
+R69	Before Arg1:T12 Arg2:T76	
+#69	AnnotatorNotes T84	C1704419; Effective; Qualitative Concept
+R22	Negation Arg1:T65 Arg2:T84	
+#70	AnnotatorNotes T69	C0439801; Limited (extensiveness); Functional Concept
+#71	AnnotatorNotes T28	C5240314; Substance with renin-angiotensin system inhibitor mechanism of action (substance); Pharmacologic Substance
+#72	AnnotatorNotes T37	C5240314; Substance with renin-angiotensin system inhibitor mechanism of action (substance); Pharmacologic Substance
+A10	Experiencer T54 Patient
+A11	Experiencer T55 Patient
+A12	Experiencer T63 Patient
+A13	Experiencer T66 Other
+A14	Status T71 Future

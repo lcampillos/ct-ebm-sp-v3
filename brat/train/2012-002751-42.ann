@@ -1,0 +1,162 @@
+T1	CHEM 64 84	brentuximab vedotina
+#1	AnnotatorNotes T1	C2973446; brentuximab vedotin; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T2	PROC 87 90	CHP
+#2	AnnotatorNotes T2	C0278651; cyclophosphamide/doxorubicin/prednisone; Therapeutic or Preventive Procedure
+T3	PROC 95 99	CHOP
+#3	AnnotatorNotes T3	C0163868; CHOP regimen; Therapeutic or Preventive Procedure
+T4	PROC 105 125	tratamiento estandar
+#4	AnnotatorNotes T4	C2936643; Standard of Care; Health Care Activity
+T5	DISO 143 172	linfomas de células T maduras
+#5	AnnotatorNotes T5	C0079774; Peripheral T-Cell Lymphoma; Neoplastic Process
+T6	PROC 210 281	Estudio de fase III, aleatorizado, doble ciego y controlado con placebo
+T7	PROC 316 319	CHP
+#6	AnnotatorNotes T7	C0278651; cyclophosphamide/doxorubicin/prednisone; Therapeutic or Preventive Procedure
+T8	CHEM 286 306	brentuximab vedotina
+#7	AnnotatorNotes T8	C2973446; brentuximab vedotin; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	PROC 309 312	CHP
+#8	AnnotatorNotes T9	C0278651; cyclophosphamide/doxorubicin/prednisone; Therapeutic or Preventive Procedure
+T10	PROC 340 344	CHOP
+#9	AnnotatorNotes T10	C0163868; CHOP regimen; Therapeutic or Preventive Procedure
+T11	PROC 350 378	tratamiento de primera línea
+#10	AnnotatorNotes T11	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T12	DISO 386 415	linfomas de células T maduras
+#11	AnnotatorNotes T12	C0079774; Peripheral T-Cell Lymphoma; Neoplastic Process
+T13	DISO 454 483	Linfomas de células T maduras
+#12	AnnotatorNotes T13	C0079774; Peripheral T-Cell Lymphoma; Neoplastic Process
+T14	DISO 617 637	lesiones mensurables
+T15	PROC 653 656	TAC
+#13	AnnotatorNotes T15	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T16	PROC 679 690	diagnóstico
+#14	AnnotatorNotes T16	C0011900; Diagnosis; Diagnostic Procedure
+T17	DISO 694 722	linfoma de células T maduras
+#15	AnnotatorNotes T17	C0079774; Peripheral T-Cell Lymphoma; Neoplastic Process
+T18	DISO 766 779	Encefalopatía
+#16	AnnotatorNotes T18	C0006111; Brain Diseases; Disease or Syndrome | C0085584; Encephalopathies; Disease or Syndrome
+T19	DISO 814 832	proceso neoplásico
+#17	AnnotatorNotes T19	C0027671; Neoplastic Processes; Neoplastic Process
+T20	PROC 835 846	Diagnóstico
+#18	AnnotatorNotes T20	C0011900; Diagnosis; Diagnostic Procedure
+T21	DISO 857 885	trastorno linfoproliferativo
+#19	AnnotatorNotes T21	C0024314; Lymphoproliferative Disorders; Neoplastic Process
+T22	DISO 888 925	linfoma cutáneo primario de células T
+#20	AnnotatorNotes T22	C0079773; Lymphoma, T-Cell, Cutaneous; Neoplastic Process
+T23	DISO 943 959	micosis fungoide
+#21	AnnotatorNotes T23	C0026948; Mycosis Fungoides; Neoplastic Process
+T24	DISO 984 1002	neoplasia primaria
+T25	DISO 1013 1035	neoplasia hematológica
+T26	DISO 1038 1062	síndrome mielodisplásico
+#22	AnnotatorNotes T26	C0026985; Myelodysplasia; Congenital Abnormality | C3463824; MYELODYSPLASTIC SYNDROME; Neoplastic Process
+T27	DISO 1119 1159	leucoencefalopatía multifocal progresiva
+#23	AnnotatorNotes T27	C0023524; Leukoencephalopathy, Progressive Multifocal; Disease or Syndrome
+T28	DISO 1161 1164	LMP
+#24	AnnotatorNotes T28	C0023524; Leukoencephalopathy, Progressive Multifocal; Disease or Syndrome
+T29	ANAT 155 164	células T
+#25	AnnotatorNotes T29	C0039194; T-Lymphocyte; Cell
+T30	ANAT 398 407	células T
+#26	AnnotatorNotes T30	C0039194; T-Lymphocyte; Cell
+T31	ANAT 466 475	células T
+#27	AnnotatorNotes T31	C0039194; T-Lymphocyte; Cell
+T32	CHEM 610 613	FDG
+#28	AnnotatorNotes T32	C4553797; Fluorodeoxyglucose; Organic Chemical
+T33	ANAT 705 714	células T
+#29	AnnotatorNotes T33	C0039194; T-Lymphocyte; Cell
+T34	ANAT 896 903	cutáneo
+#30	AnnotatorNotes T34	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T35	ANAT 916 925	células T
+#31	AnnotatorNotes T35	C0039194; T-Lymphocyte; Cell
+T36	DISO 782 794	meningopatía
+T37	CHEM 589 608	fluorodesoxiglucosa
+#32	AnnotatorNotes T37	C4553797; Fluorodeoxyglucose; Organic Chemical
+T38	Date 13 17	2012
+T39	LIVB 129 138	pacientes
+#33	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 659 668	Pacientes
+#34	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Date 847 853	actual
+T44	Neg_cue 1067 1069	no
+T45	Duration 1076 1087	>o = 3 años
+T46	PROC 173 177	CD30
+#35	AnnotatorNotes T46	C3888510; CD30 expression; Laboratory Procedure
+T47	PROC 416 420	CD30
+#36	AnnotatorNotes T47	C3888510; CD30 expression; Laboratory Procedure
+T48	PROC 484 488	CD30
+#37	AnnotatorNotes T48	C3888510; CD30 expression; Laboratory Procedure
+T49	PROC 723 727	CD30
+#38	AnnotatorNotes T49	C3888510; CD30 expression; Laboratory Procedure
+T50	PROC 926 930	CD30
+#39	AnnotatorNotes T50	C3888510; CD30 expression; Laboratory Procedure
+T40	PROC 527 543	Estado funcional
+#40	AnnotatorNotes T40	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+A1	Assertion T45 Negated
+A2	Status T24 History_of
+A3	Status T25 History_of
+A4	Status T26 History_of
+A5	Status T27 History_of
+A6	Status T28 History_of
+#41	AnnotatorNotes T6	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#42	AnnotatorNotes T14	C5238366; Measurable Lesion; Finding 
+#43	AnnotatorNotes T25	C0376545; Hematologic Neoplasms; Neoplastic Process 
+#44	AnnotatorNotes T43	C0521116; Current (present time); Temporal Concept 
+T41	Observation 1088 1099	en remisión
+A7	Assertion T41 Negated
+#45	AnnotatorNotes T41	C0544452; Disease remission; Finding
+R1	Negation Arg1:T44 Arg2:T41	
+R2	Negation Arg1:T44 Arg2:T45	
+R3	Has_Duration_or_Interval Arg1:T41 Arg2:T45	
+R4	Combined_with Arg1:T1 Arg2:T2	
+R5	Combined_with Arg1:T8 Arg2:T9	
+R6	Combined_with Arg1:T8 Arg2:T7	
+R7	Experiences Arg1:T39 Arg2:T5	
+R8	Location_of Arg1:T29 Arg2:T5	
+R9	Experiences Arg1:T39 Arg2:T4	
+R10	Experiences Arg1:T39 Arg2:T3	
+R11	Experiences Arg1:T39 Arg2:T1	
+R12	Experiences Arg1:T39 Arg2:T46	
+T51	Result_or_Value 178 187	positivos
+#46	AnnotatorNotes T51	C1446409; Positive; Finding
+R13	Has_Result_or_Value Arg1:T46 Arg2:T51	
+R14	Location_of Arg1:T30 Arg2:T12	
+T52	Result_or_Value 421 430	positivos
+#47	AnnotatorNotes T52	C1446409; Positive; Finding
+R15	Has_Result_or_Value Arg1:T47 Arg2:T52	
+T53	Result_or_Value 489 498	positivos
+#48	AnnotatorNotes T53	C1446409; Positive; Finding
+R16	Has_Result_or_Value Arg1:T48 Arg2:T53	
+R17	Location_of Arg1:T31 Arg2:T13	
+T54	Result_or_Value 544 547	≤ 2
+R18	Has_Result_or_Value Arg1:T40 Arg2:T54	
+T55	CONC 568 572	ECOG
+#49	AnnotatorNotes T55	C1520224; ECOG performance status; Intellectual Product
+R19	Used_for Arg1:T55 Arg2:T40	
+T56	Result_or_Value 641 646	≥ 1,5
+R20	Has_Result_or_Value Arg1:T14 Arg2:T56	
+T57	Observation 575 614	Avidez por la fluorodesoxiglucosa (FDG)
+#50	AnnotatorNotes T57	C5239279; FDG-Avid Tumor; Finding (?)
+R22	Experiences Arg1:T42 Arg2:T17	
+R23	Location_of Arg1:T33 Arg2:T17	
+T58	Result_or_Value 728 737	positivas
+#51	AnnotatorNotes T58	C1446409; Positive; Finding
+R24	Has_Result_or_Value Arg1:T49 Arg2:T58	
+R25	Experiences Arg1:T42 Arg2:T49	
+T59	Quantifier_or_Qualifier 673 690	nuevo diagnóstico
+#52	AnnotatorNotes T59	C1518321; Newly Diagnosed; Qualitative Concept
+R27	Overlap Arg1:T36 Arg2:T19	
+R28	Overlap Arg1:T18 Arg2:T19	
+R29	Location_of Arg1:T34 Arg2:T22	
+R30	Location_of Arg1:T35 Arg2:T22	
+T60	Result_or_Value 931 940	positivas
+#53	AnnotatorNotes T60	C1446409; Positive; Finding
+R31	Has_Result_or_Value Arg1:T50 Arg2:T60	
+R32	Overlap Arg1:T20 Arg2:T43	
+T61	Quantifier_or_Qualifier 1003 1011	invasora
+#54	AnnotatorNotes T61	C0205281; Invasive; Qualitative Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T61	
+A8	Status T61 History_of
+R34	Before Arg1:T24 Arg2:T41	
+R35	Before Arg1:T25 Arg2:T41	
+R36	Before Arg1:T26 Arg2:T41	
+#55	AnnotatorNotes T24	C0677930; Primary Neoplasm; Neoplastic Process
+R26	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T59	
+#56	AnnotatorNotes T36	C0154728; Meningeal disorder; Disease or Syndrome
+A9	Experiencer T39 Patient
+A10	Experiencer T42 Patient

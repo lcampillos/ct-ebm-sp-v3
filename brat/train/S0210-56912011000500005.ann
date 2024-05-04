@@ -1,0 +1,43 @@
+T1	CHEM 4 21	ácido tranexámico
+#1	AnnotatorNotes T1	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T2	DISO 324 341	perdida sanguínea
+#2	AnnotatorNotes T2	C0019080; Hemorrhage; Pathologic Function
+T3	DISO 50 78	shock hemorrágico traumático
+#3	AnnotatorNotes T3	C0036986; Shock, Traumatic; Pathologic Function + C0036982; Shock, Hemorrhagic; Pathologic Function
+T4	CHEM 653 664	tranexámico
+#4	AnnotatorNotes T4	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T5	PROC 83 141	estudio aleatorizado, controlado con placebo y doble ciego
+#5	AnnotatorNotes T5	C0599724; placebo controlled study; Research Activity · Intellectual Product + C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T6	PROC 680 693	uso compasivo
+#6	AnnotatorNotes T6	C2718016; Compassionate Use; Health Care Activity
+T7	DISO 191 204	traumatizados
+#7	AnnotatorNotes T7	C3263723; Traumatic injury; Injury or Poisoning | C3714660; Trauma; Injury or Poisoning
+T8	CHEM 213 230	ácido tranexámico
+#8	AnnotatorNotes T8	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T9	DISO 585 604	sangrado traumático
+T10	ANAT 332 341	sanguínea
+#9	AnnotatorNotes T10	C0005767; Blood; Body Substance
+T11	CHEM 439 446	fármaco
+#10	AnnotatorNotes T11	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T12	DISO 498 526	shock hemorrágico traumático
+#11	AnnotatorNotes T12	C0036986; Shock, Traumatic; Pathologic Function + C0036982; Shock, Hemorrhagic; Pathologic Function
+T13	DISO 573 580	muertes
+#12	AnnotatorNotes T13	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T14	CONC 35 45	mortalidad
+#13	AnnotatorNotes T14	C0026565; Mortality Vital Statistics; Quantitative Concept
+T15	CONC 260 270	mortalidad
+#14	AnnotatorNotes T15	C0026565; Mortality Vital Statistics; Quantitative Concept
+T17	Quantifier_or_Qualifier 342 348	severa
+#16	AnnotatorNotes T17	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R4	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T17	
+R5	Causes Arg1:T2 Arg2:T15	
+T18	Quantifier_or_Qualifier 281 287	global
+#17	AnnotatorNotes T18	C2348867; Global; Qualitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T18	
+R7	Causes Arg1:T7 Arg2:T2	
+T19	CONC 484 493	letalidad
+#18	AnnotatorNotes T19	C0282250; Case Fatality Rate; Quantitative Concept
+R10	Causes Arg1:T12 Arg2:T19	
+R12	Causes Arg1:T9 Arg2:T13	
+R13	Used_for Arg1:T4 Arg2:T6	
+#15	AnnotatorNotes T9	C0040797; Traumatic hemorrhage; Pathologic Function

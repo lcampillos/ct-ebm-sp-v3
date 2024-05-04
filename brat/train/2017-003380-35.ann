@@ -1,0 +1,173 @@
+T1	DISO 84 95	cardiopatía
+#1	AnnotatorNotes T1	C0018799; Heart Diseases; Disease or Syndrome
+T2	DISO 101 106	ictus
+#2	AnnotatorNotes T2	C0038454; Cerebrovascular accident; Disease or Syndrome
+T3	DISO 124 133	sobrepeso
+#3	AnnotatorNotes T3	C0497406; Overweight; Finding
+T4	DISO 136 144	obesidad
+#4	AnnotatorNotes T4	C0028754; Obesity; Disease or Syndrome
+T5	ANAT 217 233	cardiovasculares
+#5	AnnotatorNotes T5	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T6	DISO 250 259	sobrepeso
+#6	AnnotatorNotes T6	C0497406; Overweight; Finding
+T7	DISO 262 270	obesidad
+#7	AnnotatorNotes T7	C0028754; Obesity; Disease or Syndrome
+T8	DISO 294 303	Sobrepeso
+#8	AnnotatorNotes T8	C0497406; Overweight; Finding
+T9	DISO 304 312	Obesidad
+#9	AnnotatorNotes T9	C0028754; Obesity; Disease or Syndrome
+T10	DISO 506 519	enfermedad CV
+T11	ANAT 517 519	CV
+#10	AnnotatorNotes T11	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T12	DISO 598 618	infarto de miocardio
+#11	AnnotatorNotes T12	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T13	DISO 629 634	ictus
+#12	AnnotatorNotes T13	C0038454; Cerebrovascular accident; Disease or Syndrome
+T14	DISO 643 672	ictus isquémico o hemorrágico
+T15	DISO 679 719	arteriopatía periférica (AP) sintomática
+T16	PROC 789 792	ITB
+T17	DISO 737 762	claudicación intermitente
+#13	AnnotatorNotes T17	C0021775; Intermittent Claudication; Disease or Syndrome
+T18	ANAT 774 781	tobillo
+#14	AnnotatorNotes T18	C0003086; Ankle; Body Location or Region
+T19	ANAT 782 787	brazo
+#15	AnnotatorNotes T19	C1140618; Upper Extremity; Body Part, Organ, or Organ Component | C1269612; Entire upper arm; Body Part, Organ, or Organ Component
+T20	PROC 814 868	procedimiento de revascularización arterial periférica
+T21	PROC 871 881	amputación
+#16	AnnotatorNotes T21	C0002688; Amputation; Therapeutic or Preventive Procedure
+T22	DISO 987 1007	infarto de miocardio
+#17	AnnotatorNotes T22	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T23	DISO 1009 1014	ictus
+#18	AnnotatorNotes T23	C0038454; Cerebrovascular accident; Disease or Syndrome
+T24	PROC 1017 1032	hospitalización
+#19	AnnotatorNotes T24	C0019993; Hospitalization; Health Care Activity
+T25	DISO 1037 1062	angina de pecho inestable
+#20	AnnotatorNotes T25	C0002965; Angina, Unstable; Disease or Syndrome
+T26	DISO 1065 1096	accidente isquémico transitorio
+#21	AnnotatorNotes T26	C0007787; Transient Ischemic Attack; Disease or Syndrome
+T27	PROC 452 475	Índice de masa corporal
+#22	AnnotatorNotes T27	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T28	ANAT 467 475	corporal
+#23	AnnotatorNotes T28	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T29	ANAT 609 618	miocardio
+#24	AnnotatorNotes T29	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T30	PROC 767 787	índice tobillo-brazo
+#25	AnnotatorNotes T30	C1276055; Ankle brachial pressure index (procedure); Diagnostic Procedure
+T31	ANAT 849 868	arterial periférica
+#26	AnnotatorNotes T31	C0489868; peripheral artery; Body Part, Organ, or Organ Component
+T32	DISO 886 912	enfermedad aterosclerótica
+#27	AnnotatorNotes T32	C0004153; Atherosclerosis; Disease or Syndrome
+T33	ANAT 998 1007	miocardio
+#28	AnnotatorNotes T33	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T34	ANAT 1047 1052	pecho
+#29	AnnotatorNotes T34	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T35	PROC 1147 1152	HbA1c
+#30	AnnotatorNotes T35	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T36	DISO 1249 1268	diabetes tipo 1 o 2
+T37	DISO 1302 1320	diabetes gravídica
+T38	CHEM 66 77	semaglutida
+#31	AnnotatorNotes T38	C3885068; semaglutide; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T39	CHEM 187 198	semaglutida
+#32	AnnotatorNotes T39	C3885068; semaglutide; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T40	PROC 423 447	consentimiento informado
+#33	AnnotatorNotes T40	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T41	PROC 477 480	IMC
+#34	AnnotatorNotes T41	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T42	Date 13 17	2017
+T43	LIVB 237 245	personas
+#35	AnnotatorNotes T43	C0027361; Persons; Population Group
+T44	LIVB 342 366	Pacientes de ambos sexos
+#36	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T46	Duration 1085 1096	transitorio
+#37	AnnotatorNotes T46	C0205374; Transitory; Temporal Concept
+T47	Duration 1100 1111	los 60 días
+T50	LIVB 110 119	pacientes
+#38	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T52	PHYS 1311 1320	gravídica
+#39	AnnotatorNotes T52	C0032961; Pregnancy; Organism Function
+T53	Age 371 384	45 o más años
+A1	Status T12 History_of
+A2	Status T13 History_of
+A3	Status T14 History_of
+A4	Status T21 History_of
+A5	Status T20 History_of
+A6	Status T22 History_of
+A7	Status T23 History_of
+A8	Status T26 History_of
+A9	Status T24 History_of
+A10	Status T25 History_of
+A11	Status T36 History_of
+A12	Status T37 History_of
+#40	AnnotatorNotes T10	C0007222; Cardiovascular Diseases; Disease or Syndrome 
+#41	AnnotatorNotes T14	C5234922; Hemorrhagic Stroke; Disease or Syndrome + C0948008; Ischemic stroke; Disease or Syndrome
+#42	AnnotatorNotes T16	C1276055; Ankle brachial pressure index (procedure); Diagnostic Procedure
+#43	AnnotatorNotes T36	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome + C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T45	Observation 55 62	Efectos
+#44	AnnotatorNotes T45	C1518681; Outcome of Therapy; Finding (?)
+R1	Causes Arg1:T38 Arg2:T45	
+T48	Observation 176 183	Efectos
+#45	AnnotatorNotes T48	C1518681; Outcome of Therapy; Finding (?)
+R2	Causes Arg1:T39 Arg2:T48	
+R3	Experiences Arg1:T50 Arg2:T1	
+R4	Experiences Arg1:T50 Arg2:T2	
+R5	Overlap Arg1:T1 Arg2:T3	
+R6	Overlap Arg1:T1 Arg2:T4	
+R7	Overlap Arg1:T2 Arg2:T3	
+R8	Overlap Arg1:T2 Arg2:T4	
+R9	Experiences Arg1:T43 Arg2:T48	
+R10	Experiences Arg1:T50 Arg2:T45	
+R11	Experiences Arg1:T50 Arg2:T38	
+R12	Experiences Arg1:T43 Arg2:T39	
+R13	Experiences Arg1:T43 Arg2:T6	
+R14	Experiences Arg1:T43 Arg2:T7	
+R15	Has_Age Arg1:T44 Arg2:T53	
+R16	Overlap Arg1:T40 Arg2:T53	
+T49	Result_or_Value 482 492	≥ 27 kg/m2
+R17	Has_Result_or_Value Arg1:T27 Arg2:T49	
+R18	Location_of Arg1:T28 Arg2:T27	
+R19	Location_of Arg1:T28 Arg2:T41	
+R20	Location_of Arg1:T11 Arg2:T10	
+T51	Quantifier_or_Qualifier 520 531	establecida
+#46	AnnotatorNotes T51	C0443211; Established; Qualitative Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T51	
+R22	Location_of Arg1:T29 Arg2:T12	
+R23	Overlap Arg1:T15 Arg2:T17	
+R24	Location_of Arg1:T18 Arg2:T30	
+R25	Location_of Arg1:T19 Arg2:T30	
+R26	Location_of Arg1:T19 Arg2:T16	
+R27	Location_of Arg1:T18 Arg2:T16	
+T54	Result_or_Value 794 800	< 0,85
+R28	Has_Result_or_Value Arg1:T30 Arg2:T54	
+R29	Has_Result_or_Value Arg1:T16 Arg2:T54	
+T55	CONC 802 811	en reposo
+#47	AnnotatorNotes T55	C0443144; At rest; Functional Concept
+R30	Overlap Arg1:T16 Arg2:T55	
+R31	Overlap Arg1:T30 Arg2:T55	
+R32	Location_of Arg1:T31 Arg2:T20	
+R36	Before Arg1:T21 Arg2:T15	
+R37	Before Arg1:T32 Arg2:T15	
+R38	Location_of Arg1:T33 Arg2:T22	
+R39	Location_of Arg1:T34 Arg2:T25	
+R40	Has_Duration_or_Interval Arg1:T26 Arg2:T46	
+R41	Overlap Arg1:T26 Arg2:T47	
+T56	PROC 1133 1142	selección
+#48	AnnotatorNotes T56	C0242802; Patient Selection; Research Activity
+R42	Before Arg1:T26 Arg2:T56	
+R45	Overlap Arg1:T24 Arg2:T47	
+R46	Overlap Arg1:T25 Arg2:T47	
+R47	Before Arg1:T25 Arg2:T56	
+R48	Before Arg1:T24 Arg2:T56	
+T57	Result_or_Value 1153 1173	≥ 48 mmol/mol (6,5%)
+R49	Has_Result_or_Value Arg1:T35 Arg2:T57	
+T58	PROC 1219 1228	selección
+#49	AnnotatorNotes T58	C0242802; Patient Selection; Research Activity
+R50	Overlap Arg1:T35 Arg2:T58	
+T59	CONC 1270 1281	se permiten
+R52	Experiences Arg1:T50 Arg2:T3	
+R53	Experiences Arg1:T50 Arg2:T4	
+R33	Before Arg1:T20 Arg2:T15	
+A13	Status T32 History_of
+#50	AnnotatorNotes T37	C0085207; Gestational Diabetes; Disease or Syndrome
+A14	Experiencer T50 Patient
+A15	Experiencer T43 Patient
+A16	Experiencer T44 Patient

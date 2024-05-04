@@ -1,0 +1,102 @@
+T1	PROC 1 20	Estudio comparativo
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	CHEM 32 44	mitomicina C
+#2	AnnotatorNotes T2	C0002475; mitomycin; Organic Chemical · Antibiotic
+T3	ANAT 319 335	células límbicas
+T4	PROC 262 280	técnica quirúrgica
+T5	PROC 284 335	injerto autólogo de conjuntiva con células límbicas
+T6	ANAT 304 314	conjuntiva
+#3	AnnotatorNotes T6	C0009758; conjunctiva; Body Part, Organ, or Organ Component | C1278888; Entire conjunctiva; Body Part, Organ, or Organ Component
+T7	DISO 415 436	pterigium recidivante
+#4	AnnotatorNotes T7	C0155158; Recurrent pterygium; Disease or Syndrome
+T8	CHEM 340 352	mitomicina C
+#5	AnnotatorNotes T8	C0002475; mitomycin; Organic Chemical · Antibiotic
+T9	ANAT 375 393	membrana amniótica
+#6	AnnotatorNotes T9	C0002630; Structure of amnion; Embryonic Structure | C1305379; Entire amnion; Embryonic Structure
+T10	CHEM 398 410	mitomicina C
+#7	AnnotatorNotes T10	C0002475; mitomycin; Organic Chemical · Antibiotic
+T11	DISO 471 500	complicaciones posoperatorias
+#8	AnnotatorNotes T11	C0032787; Postoperative Complications; Pathologic Function
+T12	ANAT 713 723	conjuntiva
+#9	AnnotatorNotes T12	C0009758; conjunctiva; Body Part, Organ, or Organ Component | C1278888; Entire conjunctiva; Body Part, Organ, or Organ Component
+T13	ANAT 1129 1134	limbo
+#10	AnnotatorNotes T13	C3652431; limbal stem cells, autologous; Cell
+T14	CHEM 758 770	mitomicina C
+#11	AnnotatorNotes T14	C0002475; mitomycin; Organic Chemical · Antibiotic
+T15	ANAT 797 815	membrana amniótica
+#12	AnnotatorNotes T15	C0002630; Structure of amnion; Embryonic Structure | C1305379; Entire amnion; Embryonic Structure
+T16	CHEM 820 832	mitomicina C
+#13	AnnotatorNotes T16	C0002475; mitomycin; Organic Chemical · Antibiotic
+T17	PROC 920 931	seguimiento
+#14	AnnotatorNotes T17	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T18	ANAT 1113 1124	conjuntival
+#15	AnnotatorNotes T18	C0009758; conjunctiva; Body Part, Organ, or Organ Component | C1278888; Entire conjunctiva; Body Part, Organ, or Organ Component
+T19	PROC 1164 1175	tratamiento
+#16	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	ANAT 1216 1234	membrana amniótica
+#17	AnnotatorNotes T20	C0002630; Structure of amnion; Embryonic Structure | C1305379; Entire amnion; Embryonic Structure
+T21	PROC 1270 1281	tratamiento
+#18	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	DISO 645 666	pterigium recidivante
+#19	AnnotatorNotes T22	C0155158; Recurrent pterygium; Disease or Syndrome
+T23	DISO 1180 1201	pterigium recidivante
+#20	AnnotatorNotes T23	C0155158; Recurrent pterygium; Disease or Syndrome
+T24	PROC 364 393	injerto de membrana amniótica
+#21	AnnotatorNotes T24	C2747850; Amniotic membrane graft; Therapeutic or Preventive Procedure
+T25	PROC 573 610	ensayo clínico controlado prospectivo
+#22	AnnotatorNotes T25	C0033522; Prospective Studies; Research Activity + C0681867; Controlled Study; Research Activity
+T26	PROC 702 753	injerto de conjuntiva antólogo con células límbicas
+T27	ANAT 737 753	células límbicas
+T28	PROC 786 815	injerto de membrana amniótica
+#23	AnnotatorNotes T28	C2747850; Amniotic membrane graft; Therapeutic or Preventive Procedure
+T29	PROC 1105 1134	injerto conjuntival con limbo
+T30	PROC 1339 1355	injerto antólogo
+#24	AnnotatorNotes T30	C0040736; Transplantation, Autologous; Therapeutic or Preventive Procedure
+T31	DISO 51 72	pterigium recidivante
+#25	AnnotatorNotes T31	C0155158; Recurrent pterygium; Disease or Syndrome
+T32	DISO 91 100	pterigium
+#26	AnnotatorNotes T32	C4520843; Pterygium of eye; Disease or Syndrome
+T33	PROC 1206 1234	método de membrana amniótica
+T35	Time 486 500	posoperatorias
+#27	AnnotatorNotes T35	C0032790; Postoperative Period; Temporal Concept
+T39	Duration 941 950	1-6 meses
+T37	LIVB 621 630	pacientes
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T34	DISO 201 209	recidiva
+#29	AnnotatorNotes T34	C2825055; Recurrence (disease attribute); Pathologic Function
+T36	DISO 461 469	recidiva
+#30	AnnotatorNotes T36	C2825055; Recurrence (disease attribute); Pathologic Function
+T38	DISO 531 539	recidiva
+#31	AnnotatorNotes T38	C2825055; Recurrence (disease attribute); Pathologic Function
+T40	DISO 1015 1023	recidiva
+#32	AnnotatorNotes T40	C2825055; Recurrence (disease attribute); Pathologic Function
+T41	Neg_cue 522 530	libre de
+T42	Quantifier_or_Qualifier 1312 1318	viable
+#33	AnnotatorNotes T42	C0443348; Viable; Qualitative Concept
+T43	Neg_cue 1305 1307	no
+T44	Quantifier_or_Qualifier 501 511	inmediatas
+#34	AnnotatorNotes T44	C0205253; Immediate; Temporal Concept
+T45	PROC 968 982	agudeza visual
+#35	AnnotatorNotes T45	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+A1	Assertion T38 Negated
+R1	Has_Duration_or_Interval Arg1:T17 Arg2:T39
+R2	Location_of Arg1:T18 Arg2:T29
+R3	Combined_with Arg1:T28 Arg2:T16
+R4	Combined_with Arg1:T26 Arg2:T14
+R5	Combined_with Arg1:T5 Arg2:T8
+R6	Combined_with Arg1:T24 Arg2:T10
+R7	Overlap Arg1:T11 Arg2:T35
+R9	Experiences Arg1:T37 Arg2:T22
+R11	Location_of Arg1:T6 Arg2:T5
+R12	Location_of Arg1:T12 Arg2:T26
+R8	Negation Arg1:T41 Arg2:T38
+A2	Assertion T42 Negated
+R10	Negation Arg1:T43 Arg2:T42
+R13	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T44
+R14	Causes Arg1:T7 Arg2:T36
+#36	AnnotatorNotes T3	C3652431; limbal stem cells, autologous; Cell
+#37	AnnotatorNotes T27	C3652431; limbal stem cells, autologous; Cell
+R15	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T42	
+T46	Observation 968 989	agudeza visual mejoró
+A3	Experiencer T37 Patient
+R16	Has_Result_or_Value Arg1:T45 Arg2:T46	

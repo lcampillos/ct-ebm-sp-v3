@@ -1,0 +1,260 @@
+T1	CHEM 1 18	Metilprednisolona
+#1	AnnotatorNotes T1	C0025815; methylprednisolone; Organic Chemical · Hormone · Pharmacologic Substance
+T2	PROC 44 65	bypass cardiopulmonar
+#2	AnnotatorNotes T2	C0007202; Cardiopulmonary Bypass; Therapeutic or Preventive Procedure
+T3	ANAT 51 65	cardiopulmonar
+#3	AnnotatorNotes T3	C0553534; Cardiopulmonary; Body Location or Region
+T4	ANAT 827 835	cardíaca
+#4	AnnotatorNotes T4	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T5	PROC 81 112	estudio doble ciego randomizado
+#5	AnnotatorNotes T5	C0013072; Double-Blind Method; Research Activity + C0034656; Randomization; Research Activity
+T6	DISO 1239 1269	infección bacteriana o fúngica
+#6	AnnotatorNotes T6	C0004623; Bacterial Infections; Disease or Syndrome | C0026946; Mycoses; Disease or Syndrome
+T7	PROC 131 152	bypass cardiopulmonar
+#7	AnnotatorNotes T7	C0007202; Cardiopulmonary Bypass; Therapeutic or Preventive Procedure
+T8	ANAT 138 152	cardiopulmonar
+#8	AnnotatorNotes T8	C0553534; Cardiopulmonary; Body Location or Region
+T9	PROC 157 182	circulación extracorpórea
+#9	AnnotatorNotes T9	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T10	DISO 198 242	síndrome de respuesta inflamatoria sistémica
+#10	AnnotatorNotes T10	C0242966; Systemic Inflammatory Response Syndrome; Disease or Syndrome
+T11	CHEM 313 324	corticoides
+#11	AnnotatorNotes T11	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T13	PROC 435 451	cirugía cardíaca
+#12	AnnotatorNotes T13	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T14	ANAT 443 451	cardíaca
+#13	AnnotatorNotes T14	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T15	CHEM 512 522	esteroides
+#14	AnnotatorNotes T15	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T16	PROC 567 599	cirugía de bypass cardiopulmonar
+T17	PROC 1426 1460	analizadas por intención de tratar
+#15	AnnotatorNotes T17	C2718028; Intention to Treat Analysis; Research Activity
+T18	ANAT 585 599	cardiopulmonar
+#16	AnnotatorNotes T18	C0553534; Cardiopulmonary; Body Location or Region
+T19	PROC 663 707	ensayo randomizado, controlado y doble ciego
+#17	AnnotatorNotes T19	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T20	PROC 819 835	cirugía cardíaca
+#18	AnnotatorNotes T20	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T21	PROC 862 895	cirugía con bypass cardiopulmonar
+T22	ANAT 881 895	cardiopulmonar
+#19	AnnotatorNotes T22	C0553534; Cardiopulmonary; Body Location or Region
+T23	CHEM 910 927	metilprednisolona
+#20	AnnotatorNotes T23	C0025815; methylprednisolone; Organic Chemical · Hormone · Pharmacologic Substance
+T24	PROC 940 960	inducción anestésica
+#21	AnnotatorNotes T24	C0853212; Induction of anesthesia; Therapeutic or Preventive Procedure
+T25	PROC 987 993	bypass
+#22	AnnotatorNotes T25	C0741847; Bypass; Therapeutic or Preventive Procedure
+T26	PROC 997 1004	placebo
+#23	AnnotatorNotes T26	C0032042; Placebos; Therapeutic or Preventive Procedure
+T27	CHEM 1050 1061	corticoides
+#24	AnnotatorNotes T27	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T28	PROC 1113 1151	tratamiento con corticoides sistémicos
+T29	PROC 1295 1302	cirugía
+#25	AnnotatorNotes T29	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T30	DISO 1402 1412	enfermedad
+#26	AnnotatorNotes T30	C0012634; Disease; Disease or Syndrome
+T31	CHEM 1522 1539	metilprednisolona
+#27	AnnotatorNotes T31	C0025815; methylprednisolone; Organic Chemical · Hormone · Pharmacologic Substance
+T32	PROC 1552 1559	placebo
+#28	AnnotatorNotes T32	C0032042; Placebos; Therapeutic or Preventive Procedure
+T33	CHEM 1638 1655	metilprednisolona
+#29	AnnotatorNotes T33	C0025815; methylprednisolone; Organic Chemical · Hormone · Pharmacologic Substance
+T34	PROC 1670 1677	placebo
+#30	AnnotatorNotes T34	C0032042; Placebos; Therapeutic or Preventive Procedure
+T35	CHEM 1825 1842	metilprednisolona
+#31	AnnotatorNotes T35	C0025815; methylprednisolone; Organic Chemical · Hormone · Pharmacologic Substance
+T36	PROC 1868 1889	bypass cardiopulmonar
+#32	AnnotatorNotes T36	C0007202; Cardiopulmonary Bypass; Therapeutic or Preventive Procedure
+T37	ANAT 1875 1889	cardiopulmonar
+#33	AnnotatorNotes T37	C0553534; Cardiopulmonary; Body Location or Region
+T38	CHEM 1129 1140	corticoides
+#34	AnnotatorNotes T38	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T39	DISO 1701 1707	muerte
+#35	AnnotatorNotes T39	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T40	DISO 1741 1750	patología
+#36	AnnotatorNotes T40	C0677042; Pathology processes; Pathologic Function
+T41	LIVB 22 31	pacientes
+#37	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Date 293 307	postoperatoria
+#38	AnnotatorNotes T42	C0032790; Postoperative Period; Temporal Concept
+T44	LIVB 398 422	pacientes de alto riesgo
+#39	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group + C0870646; High Risk Populations; Population Group
+T45	LIVB 530 554	pacientes de alto riesgo
+#40	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group + C0870646; High Risk Populations; Population Group
+T46	LIVB 732 757	pacientes con alto riesgo
+#41	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group + C0870646; High Risk Populations; Population Group
+T48	Dose 929 935	250 mg
+T49	Dose 963 969	250 mg
+T50	Neg_cue 1006 1017	Se excluyen
+T51	LIVB 1024 1033	pacientes
+#42	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Duration 1071 1078	crónica
+#43	AnnotatorNotes T52	C0205191; chronic; Temporal Concept
+T53	Date 1158 1172	postoperatorio
+#44	AnnotatorNotes T53	C0032790; Postoperative Period; Temporal Concept
+T54	Neg_cue 1184 1195	Se excluyen
+T55	LIVB 1209 1218	pacientes
+#45	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 1262 1269	fúngica
+#46	AnnotatorNotes T56	C0016832; Fungi; Fungus
+T57	Duration 1270 1281	los 30 días
+T58	Duration 1355 1366	los 30 días
+T59	LIVB 1501 1510	pacientes
+#47	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T61	Date 1581 1600	21 de junio de 2007
+T63	Date 1610 1633	19 de diciembre de 2013
+T65	Spec_cue 1691 1700	riesgo de
+T66	Duration 1710 1721	los 30 días
+T69	LIVB 1846 1855	pacientes
+#48	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T71	LIVB 1249 1259	bacteriana
+#49	AnnotatorNotes T71	C0004611; Bacteria; Bacterium
+T70	DISO 339 361	respuesta inflamatoria
+#50	AnnotatorNotes T70	C1155266; Inflammatory Response; Pathologic Function
+T43	Neg_cue 325 333	suprimen
+T12	PROC 1561 1571	reclutados
+#51	AnnotatorNotes T12	C0242800; Patient Recruitment; Research Activity
+A1	Assertion T70 Negated
+A2	Assertion T51 Negated
+A3	Assertion T28 Negated
+A4	Assertion T27 Negated
+A5	Assertion T55 Negated
+A6	Assertion T6 Negated
+A7	Assertion T39 Speculated
+A9	Assertion T38 Negated
+A8	Status T6 History_of
+R1	Experiences Arg1:T41 Arg2:T1	
+R2	Experiences Arg1:T41 Arg2:T2	
+R3	Location_of Arg1:T3 Arg2:T2	
+R4	Location_of Arg1:T8 Arg2:T7	
+R5	Combined_with Arg1:T7 Arg2:T9	
+R6	Causes Arg1:T7 Arg2:T10	
+T47	Observation 277 292	morbimortalidad
+R7	Overlap Arg1:T47 Arg2:T42	
+R8	Overlap Arg1:T10 Arg2:T47	
+R9	Negation Arg1:T43 Arg2:T70	
+T60	Spec_cue 364 371	podrían
+T62	Observation 372 379	mejorar
+A10	Assertion T62 Speculated
+#52	AnnotatorNotes T62	C0184511; Improved; Finding (?)
+R11	Speculation Arg1:T60 Arg2:T62	
+R12	Before Arg1:T11 Arg2:T62	
+R13	Experiences Arg1:T44 Arg2:T70	
+R14	Experiences Arg1:T44 Arg2:T11	
+R15	Experiences Arg1:T44 Arg2:T13	
+R16	Location_of Arg1:T14 Arg2:T13	
+R17	Experiences Arg1:T44 Arg2:T62	
+R18	Experiences Arg1:T45 Arg2:T15	
+R19	Experiences Arg1:T45 Arg2:T16	
+R20	Location_of Arg1:T18 Arg2:T16	
+#53	AnnotatorNotes T16	C0007202; Cardiopulmonary Bypass; Therapeutic or Preventive Procedure
+T64	Observation 761 776	morbimortalidad
+R21	Experiences Arg1:T46 Arg2:T64	
+R22	Location_of Arg1:T4 Arg2:T20	
+R23	Experiences Arg1:T46 Arg2:T20	
+R24	Location_of Arg1:T22 Arg2:T21	
+R25	Experiences Arg1:T46 Arg2:T21	
+#54	AnnotatorNotes T21	C0007202; Cardiopulmonary Bypass; Therapeutic or Preventive Procedure
+R26	Experiences Arg1:T46 Arg2:T23	
+R27	Has_Dose_or_Strength Arg1:T23 Arg2:T48	
+R28	Used_for Arg1:T23 Arg2:T24	
+R29	Has_Dose_or_Strength Arg1:T23 Arg2:T49	
+R31	Experiences Arg1:T46 Arg2:T24	
+R32	Experiences Arg1:T46 Arg2:T25	
+R33	Experiences Arg1:T46 Arg2:T26	
+R34	Before Arg1:T24 Arg2:T25	
+R35	Before Arg1:T24 Arg2:T21	
+R36	Before Arg1:T24 Arg2:T20	
+R37	Causes Arg1:T20 Arg2:T64	
+R38	Causes Arg1:T21 Arg2:T64	
+R39	Causes Arg1:T25 Arg2:T64	
+R40	Negation Arg1:T50 Arg2:T51	
+R41	Negation Arg1:T50 Arg2:T27	
+R42	Has_Duration_or_Interval Arg1:T27 Arg2:T52	
+R43	Experiences Arg1:T51 Arg2:T28	
+R44	Negation Arg1:T50 Arg2:T28	
+R45	Negation Arg1:T50 Arg2:T38	
+R46	Used_for Arg1:T38 Arg2:T28	
+R47	Overlap Arg1:T28 Arg2:T53	
+R49	Negation Arg1:T54 Arg2:T55	
+R50	Negation Arg1:T54 Arg2:T6	
+R51	Causes Arg1:T71 Arg2:T6	
+R52	Causes Arg1:T56 Arg2:T6	
+R53	Has_Duration_or_Interval Arg1:T6 Arg2:T57	
+R54	Before Arg1:T6 Arg2:T29	
+R55	Experiences Arg1:T55 Arg2:T6	
+R56	Experiences Arg1:T55 Arg2:T29	
+T68	Observation 1034 1078	consumidores de corticoides de forma crónica
+R57	Experiences Arg1:T51 Arg2:T68	
+T72	CONC 1342 1352	mortalidad
+#56	AnnotatorNotes T72	C0026565; Mortality Vital Statistics; Quantitative Concept
+R58	Overlap Arg1:T72 Arg2:T58	
+T73	CONC 1387 1397	mortalidad
+R59	Overlap Arg1:T73 Arg2:T30	
+T74	Quantifier_or_Qualifier 1413 1418	grave
+#57	AnnotatorNotes T74	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R60	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T74	
+R61	Experiences Arg1:T59 Arg2:T31	
+R62	Experiences Arg1:T59 Arg2:T32	
+R63	After Arg1:T12 Arg2:T61	
+R64	Before Arg1:T12 Arg2:T63	
+T75	Quantifier_or_Qualifier 1751 1756	grave
+#58	AnnotatorNotes T75	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R65	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T75	
+R66	Speculation Arg1:T65 Arg2:T39	
+T76	Neg_cue 1678 1680	no
+T77	CONC 1681 1687	reduce
+#59	AnnotatorNotes T77	C0547047; Decrease; Quantitative Concept
+R67	Negation Arg1:T76 Arg2:T77	
+A11	Assertion T77 Negated
+R68	Overlap Arg1:T39 Arg2:T66	
+T78	CONC 1728 1738	mortalidad
+T79	Neg_cue 1791 1793	no
+T80	CONC 1794 1804	recomienda
+A12	Assertion T80 Negated
+#60	AnnotatorNotes T80	C0034866; Recommendation; Idea or Concept
+R69	Negation Arg1:T79 Arg2:T80	
+R70	Experiences Arg1:T69 Arg2:T35	
+T81	Quantifier_or_Qualifier 1812 1821	rutinario
+R71	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T81	
+A13	Assertion T81 Negated
+R72	Negation Arg1:T79 Arg2:T81	
+R73	Experiences Arg1:T69 Arg2:T36	
+R74	Location_of Arg1:T37 Arg2:T36	
+R77	Overlap Arg1:T20 Arg2:T23	
+R79	Before Arg1:T33 Arg2:T39	
+R80	Before Arg1:T34 Arg2:T39	
+#61	AnnotatorNotes T78	C0026565; Mortality Vital Statistics; Quantitative Concept
+R81	Before Arg1:T33 Arg2:T40	
+T83	Spec_cue 746 757	alto riesgo
+A14	Assertion T64 Speculated
+R83	Speculation Arg1:T83 Arg2:T64	
+T84	Observation 543 554	alto riesgo
+#63	AnnotatorNotes T84	C4319571; High risk; Finding
+R84	Experiences Arg1:T45 Arg2:T84	
+T85	Observation 411 422	alto riesgo
+#64	AnnotatorNotes T85	C4319571; High risk; Finding
+R85	Experiences Arg1:T44 Arg2:T85	
+T67	Observation 497 504	efectos
+#55	AnnotatorNotes T67	C1518681; Outcome of Therapy; Finding (?)
+R10	Causes Arg1:T15 Arg2:T67	
+R48	Overlap Arg1:T23 Arg2:T82	
+R75	Overlap Arg1:T25 Arg2:T26	
+T82	CONC 974 993	comienzo del bypass
+#62	AnnotatorNotes T73	C0026565; Mortality Vital Statistics; Quantitative Concept
+R30	Before Arg1:T34 Arg2:T77	
+R76	Before Arg1:T33 Arg2:T77	
+R78	Has_Dose_or_Strength Arg1:T26 Arg2:T49	
+R82	Has_Dose_or_Strength Arg1:T26 Arg2:T48	
+#65	AnnotatorNotes T81	C0205547; Routine; Qualitative Concept
+#66	AnnotatorNotes T28	C4053960; Systemic Corticosteroid Therapy; Therapeutic or Preventive Procedure
+A15	Experiencer T41 Patient
+A16	Experiencer T44 Patient
+A17	Experiencer T45 Patient
+A18	Experiencer T46 Patient
+A19	Experiencer T51 Patient
+A20	Experiencer T55 Patient
+A21	Experiencer T59 Patient
+A22	Experiencer T69 Patient
+A23	Status T28 Future
+A24	Status T38 Future

@@ -1,0 +1,96 @@
+T1	PROC 46 77	Estudio multicéntrico y abierto
+T2	CHEM 81 91	adalimumab
+#1	AnnotatorNotes T2	C1122087; adalimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 97 136	evaluar la seguridad y la tolerabilidad
+T4	CHEM 184 194	adalimumab
+#2	AnnotatorNotes T4	C1122087; adalimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	DISO 222 238	colitis ulcerosa
+#3	AnnotatorNotes T5	C0009324; Ulcerative Colitis; Disease or Syndrome
+T6	PROC 296 327	Estudio multicéntrico y abierto
+T7	CHEM 332 369	anticuerpo monoclonal anti-TNF humano
+T8	CHEM 370 380	adalimumab
+#4	AnnotatorNotes T8	C1122087; adalimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	PROC 386 425	evaluar la seguridad y la tolerabilidad
+T10	CHEM 473 483	adalimumab
+#5	AnnotatorNotes T10	C1122087; adalimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	DISO 511 527	colitis ulcerosa
+#6	AnnotatorNotes T11	C0009324; Ulcerative Colitis; Disease or Syndrome
+T12	DISO 586 602	Colitis ulcerosa
+#7	AnnotatorNotes T12	C0009324; Ulcerative Colitis; Disease or Syndrome
+T13	PROC 713 722	protocolo
+#8	AnnotatorNotes T13	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T14	PROC 852 872	continuar la terapia
+#9	AnnotatorNotes T14	C2091305; continue current medication; Therapeutic or Preventive Procedure
+T15	PROC 157 171	administración
+#10	AnnotatorNotes T15	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T16	PROC 446 460	administración
+#11	AnnotatorNotes T16	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T17	Date 13 17	2015
+T18	Date 137 150	a largo plazo
+T19	LIVB 198 217	sujetos pediátricos
+#12	AnnotatorNotes T19	C0681850; Study Subject; Group + C0008059; Child; Age Group
+T21	Date 426 439	a largo plazo
+T22	LIVB 487 506	sujetos pediátricos
+#13	AnnotatorNotes T22	C0681850; Study Subject; Group + C0008059; Child; Age Group
+T23	LIVB 632 638	sujeto
+#14	AnnotatorNotes T23	C0681850; Study Subject; Group
+T24	Date 697 709	la semana 52
+T25	LIVB 760 766	sujeto
+#15	AnnotatorNotes T25	C0681850; Study Subject; Group
+T26	LIVB 789 801	investigador
+#16	AnnotatorNotes T26	C0035173; Research Personnel; Professional or Occupational Group
+A1	Population_data T19 Age
+A2	Population_data T22 Age
+#17	AnnotatorNotes T1	C1096776; Multicenter Study; Research Activity + C1709323; Open Label Study; Research Activity 
+#18	AnnotatorNotes T6	C1096776; Multicenter Study; Research Activity + C1709323; Open Label Study; Research Activity 
+#19	AnnotatorNotes T3	C1705187; Safety Study; Research Activity + C3274448; Tolerability Study; Research Activity
+#20	AnnotatorNotes T9	C1705187; Safety Study; Research Activity + C3274448; Tolerability Study; Research Activity
+T20	Neg_cue 828 830	no
+T27	Observation 837 872	candidato para continuar la terapia
+A3	Assertion T27 Negated
+R1	Overlap Arg1:T3 Arg2:T18	
+T28	Quantifier_or_Qualifier 172 180	repetida
+#21	AnnotatorNotes T28	C0205341; Repeat; Functional Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T28	
+R3	Used_for Arg1:T4 Arg2:T15	
+R4	Experiences Arg1:T19 Arg2:T5	
+R5	Experiences Arg1:T19 Arg2:T15	
+R6	Experiences Arg1:T19 Arg2:T2	
+T29	Observation 243 265	finalizaron el estudio
+#22	AnnotatorNotes T29	C2732579; Completion of clinical trial; Finding
+R8	Before Arg1:T29 Arg2:T1	
+R9	Before Arg1:T29 Arg2:T3	
+R10	Overlap Arg1:T9 Arg2:T21	
+R11	Experiences Arg1:T22 Arg2:T16	
+R12	Experiences Arg1:T22 Arg2:T11	
+R13	Used_for Arg1:T10 Arg2:T16	
+R14	Experiences Arg1:T22 Arg2:T8	
+R15	Experiences Arg1:T22 Arg2:T7	
+T30	Observation 532 554	finalizaron el estudio
+#23	AnnotatorNotes T30	C2732579; Completion of clinical trial; Finding
+R17	Before Arg1:T30 Arg2:T6	
+R18	Before Arg1:T30 Arg2:T9	
+T31	Observation 670 680;710 722	completado el protocolo
+#24	AnnotatorNotes T31	C2732579; Completion of clinical trial; Finding
+R19	Overlap Arg1:T31 Arg2:T24	
+T32	CONC 655 663	incluido
+#25	AnnotatorNotes T32	C1512693; Inclusion; Qualitative Concept
+R21	Before Arg1:T32 Arg2:T24	
+R22	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T27	
+R23	Negation Arg1:T20 Arg2:T27	
+A4	Assertion T14 Negated
+R24	Negation Arg1:T20 Arg2:T14	
+R25	Experiences Arg1:T25 Arg2:T14	
+T33	Quantifier_or_Qualifier 461 469	repetida
+#26	AnnotatorNotes T33	C0205341; Repeat; Functional Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T33	
+R27	Used_for Arg1:T2 Arg2:T15	
+R7	Used_for Arg1:T7 Arg2:T16	
+R28	Used_for Arg1:T8 Arg2:T16	
+#27	AnnotatorNotes T18	C0443252; Long-term; Temporal Concept
+#28	AnnotatorNotes T21	C0443252; Long-term; Temporal Concept
+A5	Experiencer T19 Patient
+A6	Experiencer T22 Patient
+A7	Experiencer T23 Patient
+A8	Experiencer T25 Patient
+A9	Experiencer T26 Other

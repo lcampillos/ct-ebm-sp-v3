@@ -1,0 +1,172 @@
+T1	CHEM 56 76	dobesilato de calcio
+#1	AnnotatorNotes T1	C0006694; calcium dobesilate; Organic Chemical · Pharmacologic Substance
+T2	DISO 101 122	retinopatía diabética
+#2	AnnotatorNotes T2	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T3	DISO 144 165	Retinopatía diabética
+#3	AnnotatorNotes T3	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T4	DISO 207 231	diabetes mellitus tipo 2
+#4	AnnotatorNotes T4	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T5	DISO 236 259	Edema macular diabético
+#5	AnnotatorNotes T5	C0730285; Macular edema due to diabetes mellitus; Disease or Syndrome
+T6	DISO 317 325	diabetes
+#6	AnnotatorNotes T6	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T7	PROC 431 440	screening
+#7	AnnotatorNotes T7	C0220908; Screening procedure; Diagnostic Procedure
+T8	PROC 485 510	fotocoagulación con láser
+#8	AnnotatorNotes T8	C0441510; Laser photocoagulation; Therapeutic or Preventive Procedure
+T9	DISO 535 558	enfermedad de la retina
+#9	AnnotatorNotes T9	C0035309; Retinal Diseases; Disease or Syndrome
+T10	DISO 573 594	retinopatía diabética
+#10	AnnotatorNotes T10	C0011884; Diabetic Retinopathy; Disease or Syndrome
+T11	DISO 616 637	defecto de refracción
+T12	ANAT 672 676	ojos
+#11	AnnotatorNotes T12	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T13	DISO 681 699	Dilatación pupilar
+#12	AnnotatorNotes T13	C0026961; Mydriasis; Sign or Symptom
+T14	DISO 712 726	defecto ocular
+T15	ANAT 763 775	fondo de ojo
+#13	AnnotatorNotes T15	C0016823; Structure of fundus of eye; Body Part, Organ, or Organ Component | C1284756; Entire fundus of eye; Body Location or Region
+T16	PROC 812 826	cirugía ocular
+#14	AnnotatorNotes T16	C0038901; Ophthalmologic Surgical Procedures; Therapeutic or Preventive Procedure
+T17	DISO 873 897	Enfermedad renal crónica
+#15	AnnotatorNotes T17	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T18	DISO 925 932	Alergia
+#16	AnnotatorNotes T18	C1527304; Allergic Reaction; Pathologic Function
+T19	PROC 1064 1085	método anticonceptivo
+#17	AnnotatorNotes T19	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T20	CHEM 1231 1255	fármaco en investigación
+#18	AnnotatorNotes T20	C0013230; Investigational New Drugs; Pharmacologic Substance
+T21	PROC 1284 1303	visita de screening
+#19	AnnotatorNotes T21	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T22	PROC 855 868	randomización
+T23	PROC 383 388	HbA1c
+#20	AnnotatorNotes T23	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T24	ANAT 552 558	retina
+#21	AnnotatorNotes T24	C0035298; Retina; Body Part, Organ, or Organ Component | C1278894; Entire retina; Body Part, Organ, or Organ Component
+T25	DISO 935 947	intolerancia
+#22	AnnotatorNotes T25	C0277585; Intolerance to drug; Pathologic Function
+T26	ANAT 692 699	pupilar
+#23	AnnotatorNotes T26	C0034121; Pupil; Body Part, Organ, or Organ Component | C1305618; Entire pupil; Body Part, Organ, or Organ Component
+T27	ANAT 720 726	ocular
+#24	AnnotatorNotes T27	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T28	PROC 750 775	imágenes del fondo de ojo
+T29	ANAT 820 826	ocular
+#25	AnnotatorNotes T29	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T30	ANAT 884 889	renal
+#26	AnnotatorNotes T30	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T31	Date 13 17	2017
+T32	LIVB 193 202	Pacientes
+#27	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	Duration 326 334	≥ 5 años
+T34	Age 344 362	entre 45 y 79 años
+T35	Duration 406 425	los 6 meses previos
+T36	Neg_cue 563 565	no
+T37	LIVB 599 608	Pacientes
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Neg_cue 731 733	no
+T39	Duration 830 841	los 6 meses
+T40	Duration 890 897	crónica
+#29	AnnotatorNotes T40	C0205191; chronic; Temporal Concept
+T41	LIVB 990 1009	Mujeres embarazadas
+#30	AnnotatorNotes T41	C0033011; Pregnant Women; Population Group
+T42	LIVB 1012 1028	mujeres fértiles
+#31	AnnotatorNotes T42	C4324275; Woman of childbearing potential; Population Group
+T45	Neg_cue 1046 1048	no
+T47	LIVB 1136 1145	Pacientes
+#32	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T49	Duration 1259 1270	los 30 días
+T50	PHYS 998 1009	embarazadas
+#33	AnnotatorNotes T50	C0032961; Pregnancy; Organism Function
+T43	ANAT 242 249	macular
+#34	AnnotatorNotes T43	C0450295; Retinal macula; Body Part, Organ, or Organ Component | C1284755; Entire macula lutea; Body Part, Organ, or Organ Component
+T44	DEVI 286 291	ETDRS
+#35	AnnotatorNotes T44	C1275992; ETDRS visual acuity chart; Medical Device
+T46	CHEM 960 985	producto de investigación
+#36	AnnotatorNotes T46	C0013230; Investigational New Drugs; Pharmacologic Substance
+A1	Assertion T10 Negated
+A2	Assertion T28 Negated
+A3	Assertion T19 Negated
+A4	Status T8 History_of
+A5	Status T16 History_of
+A6	Status T18 History_of
+A7	Status T25 History_of
+A8	Status T20 History_of
+#37	AnnotatorNotes T11	C0034951; Refractive Errors; Disease or Syndrome
+#38	AnnotatorNotes T22	C0034656; Randomization; Research Activity
+T48	CONC 80 97	estadios precoces
+R2	Experiences Arg1:T32 Arg2:T4	
+R3	Location_of Arg1:T43 Arg2:T5	
+T51	Result_or_Value 292 297	20-47
+R5	Has_Duration_or_Interval Arg1:T6 Arg2:T33	
+T52	Result_or_Value 389 402	≥6,5% y ≤9,5%
+R6	Has_Result_or_Value Arg1:T23 Arg2:T52	
+R7	Overlap Arg1:T23 Arg2:T35	
+R8	Overlap Arg1:T23 Arg2:T7	
+R9	Location_of Arg1:T24 Arg2:T9	
+R10	Negation Arg1:T36 Arg2:T10	
+R11	Negation Arg1:T38 Arg2:T28	
+T53	Quantifier_or_Qualifier 776 792	de buena calidad
+A9	Assertion T53 Negated
+R12	Negation Arg1:T38 Arg2:T53	
+R13	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T53	
+R14	Location_of Arg1:T15 Arg2:T28	
+R15	Location_of Arg1:T27 Arg2:T14	
+R16	Location_of Arg1:T26 Arg2:T13	
+R17	Experiences Arg1:T37 Arg2:T11	
+T54	Result_or_Value 641 653	≥5 dioptrías
+R18	Has_Result_or_Value Arg1:T11 Arg2:T54	
+R19	Location_of Arg1:T12 Arg2:T11	
+R20	Overlap Arg1:T16 Arg2:T39	
+R21	Before Arg1:T16 Arg2:T22	
+R22	Has_Duration_or_Interval Arg1:T17 Arg2:T40	
+R23	Location_of Arg1:T30 Arg2:T17	
+T55	Quantifier_or_Qualifier 898 906	avanzada
+R24	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T55	
+T56	Quantifier_or_Qualifier 908 919	≥ estadío 4
+R25	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T56	
+R26	Causes Arg1:T46 Arg2:T18	
+R27	Causes Arg1:T46 Arg2:T25	
+R28	Experiences Arg1:T41 Arg2:T50	
+R29	Negation Arg1:T45 Arg2:T19	
+T57	Neg_cue 1033 1035	no
+T58	Observation 1036 1043	acepten
+A10	Assertion T58 Negated
+#39	AnnotatorNotes T58	C0600109; Willing; Finding
+R30	Negation Arg1:T57 Arg2:T58	
+R33	Experiences Arg1:T41 Arg2:T19	
+R34	Experiences Arg1:T42 Arg2:T19	
+T59	PROC 1124 1130	ensayo
+#40	AnnotatorNotes T59	C0008976; Clinical Trials; Research Activity
+R35	Overlap Arg1:T19 Arg2:T59	
+R36	Overlap Arg1:T58 Arg2:T59	
+T60	Neg_cue 1163 1165	no
+T61	Observation 1172 1218	capaces de seguir las indicaciones del estudio
+A11	Assertion T61 Negated
+R37	Negation Arg1:T60 Arg2:T61	
+R38	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T61	
+R39	Overlap Arg1:T20 Arg2:T49	
+R40	Before Arg1:T20 Arg2:T21	
+R41	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T48	
+#41	AnnotatorNotes T48	C2363430; Early stage; Temporal Concept
+T62	DEVI 505 510	láser
+#42	AnnotatorNotes T62	C1706315; Laser Device; Medical Device
+T63	Quantifier_or_Qualifier 260 270	subclínico
+#43	AnnotatorNotes T63	C0205211; Subclinical; Qualitative Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T63	
+R45	Used_for Arg1:T62 Arg2:T8	
+T64	Observation 45 51	Efecto
+#44	AnnotatorNotes T64	C1518681; Outcome of Therapy; Finding (?)
+R46	Causes Arg1:T1 Arg2:T64	
+R47	Location_of Arg1:T24 Arg2:T10	
+T65	PROC 275 291	Puntuación ETDRS
+R4	Has_Result_or_Value Arg1:T65 Arg2:T51	
+R48	Used_for Arg1:T44 Arg2:T65	
+#45	AnnotatorNotes T14	C0746990; OCULAR DEFECT; Disease or Syndrome
+#46	AnnotatorNotes T55	C0205179; Advance phase; Qualitative Concept
+#47	AnnotatorNotes T28	C0200189; Fundus photography; Diagnostic Procedure (?)
+A12	Experiencer T32 Patient
+A13	Experiencer T37 Patient
+A14	Experiencer T41 Patient
+A15	Experiencer T42 Patient
+A16	Experiencer T47 Patient
+A17	Status T61 Future

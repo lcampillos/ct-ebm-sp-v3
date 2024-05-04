@@ -1,0 +1,183 @@
+T1	PROC 1 17	Anestesia tópica
+#1	AnnotatorNotes T1	C0472473; Topical local anesthetic; Therapeutic or Preventive Procedure
+T2	PROC 25 46	anestesia de contacto
+T3	PROC 53 68	trabeculectomía
+#2	AnnotatorNotes T3	C0040574; Trabeculectomy; Therapeutic or Preventive Procedure
+T4	PROC 83 115	Estudio prospectivo aleatorizado
+#3	AnnotatorNotes T4	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T5	PROC 152 161	anestesia
+#4	AnnotatorNotes T5	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+T6	PROC 209 225	anestesia tópica
+#5	AnnotatorNotes T6	C0472473; Topical local anesthetic; Therapeutic or Preventive Procedure
+T7	PROC 522 540	de forma aleatoria
+#6	AnnotatorNotes T7	C0034656; Randomization; Research Activity
+T8	CHEM 311 319	vehículo
+#7	AnnotatorNotes T8	C0042444; Drug vehicle; Biomedical or Dental Material
+T9	PROC 330 351	anestesia de contacto
+T10	PROC 735 750	nivel de stress
+#8	AnnotatorNotes T10	C4076401; Assessment of stress level; Diagnostic Procedure | C4032609; Assessing Stress Level; Health Care Activity
+T11	PROC 420 435	trabeculectomía
+#9	AnnotatorNotes T11	C0040574; Trabeculectomy; Therapeutic or Preventive Procedure
+T12	CHEM 453 466	antimitóticos
+#10	AnnotatorNotes T12	C0003379; Antimitotic Agents; Pharmacologic Substance
+T13	PROC 554 570	anestesia tópica
+#11	AnnotatorNotes T13	C0472473; Topical local anesthetic; Therapeutic or Preventive Procedure
+T14	PROC 599 620	anestesia de contacto
+T15	PROC 622 663	Se valoraron el nivel de dolor o molestia
+T16	DISO 655 663	molestia
+#12	AnnotatorNotes T16	C2364135; Discomfort; Sign or Symptom
+T17	PROC 697 704	cirugía
+#13	AnnotatorNotes T17	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T18	DISO 744 750	stress
+#14	AnnotatorNotes T18	C0038435; Stress; Finding
+T19	DISO 770 784	complicaciones
+#15	AnnotatorNotes T19	C0009566; Complication; Pathologic Function
+T20	PROC 906 913	cirugía
+#16	AnnotatorNotes T20	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T21	DISO 928 934	stress
+#17	AnnotatorNotes T21	C0038435; Stress; Finding
+T22	PROC 1190 1206	niveles de dolor
+#18	AnnotatorNotes T22	C0030198; Pain Measurement; Diagnostic Procedure
+T23	PROC 1025 1041	anestesia tópica
+#19	AnnotatorNotes T23	C0472473; Topical local anesthetic; Therapeutic or Preventive Procedure
+T24	PROC 1068 1084	anestesia tópica
+#20	AnnotatorNotes T24	C0472473; Topical local anesthetic; Therapeutic or Preventive Procedure
+T25	PROC 1121 1130	anestesia
+#21	AnnotatorNotes T25	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+T26	PROC 1137 1152	trabeculectomía
+#22	AnnotatorNotes T26	C0040574; Trabeculectomy; Therapeutic or Preventive Procedure
+T27	PROC 1216 1232	anestesia tópica
+#23	AnnotatorNotes T27	C0472473; Topical local anesthetic; Therapeutic or Preventive Procedure
+T28	PROC 1298 1305	cirugía
+#24	AnnotatorNotes T28	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T29	PROC 1336 1357	anestesia de contacto
+T30	PROC 1438 1457	cirugía de glaucoma
+#25	AnnotatorNotes T30	C0197489; Glaucoma surgery; Therapeutic or Preventive Procedure
+T31	PROC 919 934	nivel de stress
+#26	AnnotatorNotes T31	C4076401; Assessment of stress level; Diagnostic Procedure | C4032609; Assessing Stress Level; Health Care Activity
+T32	PROC 873 887	nivel de dolor
+#27	AnnotatorNotes T32	C0030198; Pain Measurement; Diagnostic Procedure
+T33	CHEM 259 276	agente anestésico
+#28	AnnotatorNotes T33	C0002932; Anesthetics; Pharmacologic Substance
+T34	DISO 647 652	dolor
+#29	AnnotatorNotes T34	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T35	DISO 882 887	dolor
+#30	AnnotatorNotes T35	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T36	PROC 965 973	sedación
+#31	AnnotatorNotes T36	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T37	DISO 1201 1206	dolor
+#32	AnnotatorNotes T37	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T38	DISO 1449 1457	glaucoma
+#33	AnnotatorNotes T38	C0017601; Glaucoma; Disease or Syndrome
+T39	Route 11 17	tópica
+#34	AnnotatorNotes T39	C1522168; Topical Route of Drug Administration; Functional Concept
+T40	LIVB 191 199	paciente
+#35	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Route 219 225	tópica
+#36	AnnotatorNotes T41	C1522168; Topical Route of Drug Administration; Functional Concept
+T42	LIVB 392 401	pacientes
+#37	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Neg_cue 449 452	sin
+T44	Route 564 570	tópica
+#38	AnnotatorNotes T44	C1522168; Topical Route of Drug Administration; Functional Concept
+T45	LIVB 755 763	cirujano
+#39	AnnotatorNotes T45	C0582175; Surgeon; Professional or Occupational Group
+T46	LIVB 939 947	cirujano
+#40	AnnotatorNotes T46	C0582175; Surgeon; Professional or Occupational Group
+T47	Route 1035 1041	tópica
+#41	AnnotatorNotes T47	C1522168; Topical Route of Drug Administration; Functional Concept
+T48	Route 1078 1084	tópica
+#42	AnnotatorNotes T48	C1522168; Topical Route of Drug Administration; Functional Concept
+T49	Route 1226 1232	tópica
+#43	AnnotatorNotes T49	C1522168; Topical Route of Drug Administration; Functional Concept
+T50	LIVB 1416 1425	pacientes
+#44	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+A1	Assertion T12 Negated
+R1	Negation Arg1:T43 Arg2:T12	
+R2	Has_Route_or_Mode Arg1:T1 Arg2:T39	
+R3	Before Arg1:T2 Arg2:T3	
+R4	Before Arg1:T1 Arg2:T3	
+R6	Experiences Arg1:T40 Arg2:T5	
+R7	Has_Route_or_Mode Arg1:T6 Arg2:T41	
+R8	Experiences Arg1:T40 Arg2:T6	
+R9	Experiences Arg1:T40 Arg2:T9	
+T52	Quantifier_or_Qualifier 277 296	de forma prolongada
+R10	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T52	
+T53	Quantifier_or_Qualifier 320 326	poroso
+R11	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T53	
+T54	Quantifier_or_Qualifier 226 232	simple
+R12	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T54	
+R13	Combined_with Arg1:T33 Arg2:T8	
+R14	Used_for Arg1:T33 Arg2:T6	
+#46	AnnotatorNotes T54	C0205352; Simple; Qualitative Concept
+T55	Quantifier_or_Qualifier 436 442	simple
+#47	AnnotatorNotes T55	C0205352; Simple; Qualitative Concept
+R15	Experiences Arg1:T42 Arg2:T11	
+R16	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T55	
+R18	Before Arg1:T7 Arg2:T13	
+R19	Has_Route_or_Mode Arg1:T13 Arg2:T44	
+R20	Before Arg1:T7 Arg2:T14	
+R23	Overlap Arg1:T15 Arg2:T17	
+R25	Experiences Arg1:T45 Arg2:T18	
+R26	Causes Arg1:T17 Arg2:T19	
+R27	Causes Arg1:T17 Arg2:T16	
+R28	Causes Arg1:T17 Arg2:T34	
+R29	Overlap Arg1:T17 Arg2:T10	
+R31	Overlap Arg1:T32 Arg2:T20	
+R32	After Arg1:T32 Arg2:T20	
+R34	Experiences Arg1:T46 Arg2:T21	
+R35	Overlap Arg1:T20 Arg2:T31	
+R36	Before Arg1:T20 Arg2:T31	
+T56	Observation 976 999	reconversión anestésica
+R37	Has_Route_or_Mode Arg1:T23 Arg2:T47	
+R38	Before Arg1:T23 Arg2:T56	
+T57	Quantifier_or_Qualifier 1042 1048	simple
+#48	AnnotatorNotes T57	C0205352; Simple; Qualitative Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T57	
+R41	Before Arg1:T24 Arg2:T26	
+R42	Has_Route_or_Mode Arg1:T24 Arg2:T48	
+R44	Has_Route_or_Mode Arg1:T27 Arg2:T49	
+T58	Quantifier_or_Qualifier 1233 1239	simple
+#49	AnnotatorNotes T58	C0205352; Simple; Qualitative Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T58	
+T59	PROC 1216 1225;1245 1256	anestesia de contacto
+R48	Before Arg1:T59 Arg2:T26	
+R49	Before Arg1:T27 Arg2:T26	
+R50	Before Arg1:T25 Arg2:T26	
+R51	Causes Arg1:T26 Arg2:T37	
+R52	Before Arg1:T26 Arg2:T22	
+R46	Causes Arg1:T28 Arg2:T37	
+R47	Before Arg1:T25 Arg2:T28	
+R53	Before Arg1:T59 Arg2:T28	
+R54	Before Arg1:T27 Arg2:T28	
+R55	Before Arg1:T29 Arg2:T28	
+R56	Before Arg1:T29 Arg2:T26	
+R57	Experiences Arg1:T50 Arg2:T30	
+R58	Experiences Arg1:T50 Arg2:T38	
+R59	Experiences Arg1:T50 Arg2:T29	
+R60	Experiences Arg1:T50 Arg2:T28	
+R61	Experiences Arg1:T50 Arg2:T59	
+R62	Experiences Arg1:T50 Arg2:T27	
+R63	Experiences Arg1:T50 Arg2:T22	
+R64	Experiences Arg1:T50 Arg2:T37	
+R65	Experiences Arg1:T50 Arg2:T26	
+R66	Experiences Arg1:T50 Arg2:T25	
+R67	Experiences Arg1:T50 Arg2:T24	
+R68	Before Arg1:T29 Arg2:T30	
+R69	Before Arg1:T59 Arg2:T30	
+R70	Before Arg1:T27 Arg2:T30	
+R71	Before Arg1:T25 Arg2:T30	
+R72	Before Arg1:T24 Arg2:T30	
+R73	Before Arg1:T28 Arg2:T22	
+T51	Quantifier_or_Qualifier 403 414	programados
+#45	AnnotatorNotes T51	C0205539; Schedule - procedure status; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T51	
+R17	Overlap Arg1:T26 Arg2:T22	
+R21	Overlap Arg1:T22 Arg2:T28	
+#50	AnnotatorNotes T52	C0439590; Prolonged; Qualitative Concept
+#51	AnnotatorNotes T15	C0548226; Assess level of pain or discomfort; Therapeutic or Preventive Procedure
+A2	Experiencer T50 Patient
+A3	Experiencer T40 Patient
+A4	Experiencer T42 Patient
+A5	Experiencer T45 Other
+A6	Experiencer T46 Other

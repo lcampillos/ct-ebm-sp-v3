@@ -1,0 +1,184 @@
+T1	PROC 51 85	evaluar la seguridad y efectividad
+T2	CHEM 113 123	Lurasidona
+#1	AnnotatorNotes T2	C2003424; lurasidone; Organic Chemical · Pharmacologic Substance
+T3	PROC 165 172	placebo
+#2	AnnotatorNotes T3	C0032042; Placebos; Therapeutic or Preventive Procedure
+T4	DISO 205 218	esquizofrenia
+#3	AnnotatorNotes T4	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T5	PROC 242 340	ESTUDIO MULTICÉNTRICO, DE DOSIS FIJA, CONTROLADO CON PLACEBO, DOBLE CIEGO, PARALELO Y ALEATORIZADO
+T6	PROC 359 393	EVALUAR LA EFICACIA Y LA SEGURIDAD
+#4	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T7	CHEM 400 410	LURASIDONA
+#5	AnnotatorNotes T7	C2003424; lurasidone; Organic Chemical · Pharmacologic Substance
+T8	DISO 439 452	ESQUIZOFRENIA
+#6	AnnotatorNotes T8	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T9	DISO 476 489	Esquizofrenia
+#7	AnnotatorNotes T9	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T10	PROC 580 591	diagnóstico
+#8	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 604 617	esquizofrenia
+#9	AnnotatorNotes T11	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T12	PROC 661 672	diagnóstico
+#10	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	DISO 679 692	esquizofrenia
+#11	AnnotatorNotes T13	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T14	DISO 719 739	trastornos afectivos
+#12	AnnotatorNotes T14	C0525045; Mood Disorders; Mental or Behavioral Dysfunction | C1291710; Disturbance in affect; Mental or Behavioral Dysfunction
+T15	DISO 742 755	esquizofrenia
+#13	AnnotatorNotes T15	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T16	DISO 830 838	síndrome
+#14	AnnotatorNotes T16	C0039082; Syndrome; Disease or Syndrome
+T17	PROC 976 987	diagnóstico
+#15	AnnotatorNotes T17	C0011900; Diagnosis; Diagnostic Procedure
+T18	DISO 1022 1035	esquizofrenia
+#16	AnnotatorNotes T18	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T19	PROC 1072 1083	tratamiento
+#17	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	PROC 1153 1164	diagnóstico
+#18	AnnotatorNotes T20	C0011900; Diagnosis; Diagnostic Procedure
+T21	DISO 1175 1189	retraso mental
+#19	AnnotatorNotes T21	C0025362; Mental Retardation; Mental or Behavioral Dysfunction | C3714756; Intellectual Disability; Mental or Behavioral Dysfunction
+T22	DISO 1191 1220	síndrome neuroléptico maligno
+#20	AnnotatorNotes T22	C0027849; Neuroleptic Malignant Syndrome; Disease or Syndrome
+T23	DISO 1233 1254	trastorno neurológico
+#21	AnnotatorNotes T23	C0027765; nervous system disorder; Disease or Syndrome
+T24	DISO 1256 1275	traumatismo craneal
+#22	AnnotatorNotes T24	C4324307; Skull trauma; Injury or Poisoning
+T25	DISO 1294 1321	enfermedad médica inestable
+T26	Date 13 17	2013
+T27	Dose 125 130	40 mg
+T28	Frequency 130 134	/dia
+T29	Dose 137 142	80 mg
+T30	Frequency 142 146	/dia
+T31	Dose 268 278	DOSIS FIJA
+#23	AnnotatorNotes T31	C5548493; Fixed dose; Quantitative Concept
+T32	Duration 344 353	6 SEMANAS
+T34	LIVB 516 541	Sujetos varones o mujeres
+#24	AnnotatorNotes T34	C0681850; Study Subject; Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T36	Age 542 557	de 13 a 17 años
+T38	LIVB 761 782	niños en edad escolar
+#25	AnnotatorNotes T38	C0260267; School child; Age Group
+T40	Neg_cue 1015 1017	no
+T41	Duration 1087 1098	los 3 meses
+T42	LIVB 1126 1133	sujetos
+#26	AnnotatorNotes T42	C0681850; Study Subject; Group
+T43	Date 1165 1171	actual
+T44	LIVB 188 200	adolescentes
+#27	AnnotatorNotes T44	C0205653; Adolescent (age group); Age Group
+T45	LIVB 414 434	SUJETOS ADOLESCENTES
+#28	AnnotatorNotes T45	C0681850; Study Subject; Group + C0205653; Adolescents; Age Group
+T46	PHYS 1183 1189	mental
+#29	AnnotatorNotes T46	C0229992; Psyche structure; Mental Process
+T33	ANAT 1268 1275	craneal
+#30	AnnotatorNotes T33	C0037303; Bone structure of cranium; Body Part, Organ, or Organ Component | C1279062; Entire cranium; Body Part, Organ, or Organ Component
+T37	PROC 901 906	CGI-S
+#31	AnnotatorNotes T37	C5396527; Assessment using Children's Global Assessment Scale; Health Care Activity (?)
+A1	Population_data T44 Age
+A2	Population_data T45 Age
+A3	Population_data T38 Age
+A4	Assertion T18 Negated
+A5	Status T21 History_of
+A6	Status T22 History_of
+A7	Status T23 History_of
+A8	Status T24 History_of
+A9	Status T25 History_of
+#32	AnnotatorNotes T43	C0521116; Current (present time); Temporal Concept 
+T35	CONC 819 858	Escala del síndrome positivo y negativo
+#33	AnnotatorNotes T35	C4086747; Positive and Negative Syndrome Scale Clinical Classification; Intellectual Product
+T39	CONC 860 865	PANSS
+#34	AnnotatorNotes T39	C4086747; Positive and Negative Syndrome Scale Clinical Classification; Intellectual Product
+T47	CONC 1347 1352	PANSS
+#35	AnnotatorNotes T47	C4086747; Positive and Negative Syndrome Scale Clinical Classification; Intellectual Product
+R1	Has_Dose_or_Strength Arg1:T2 Arg2:T27	
+R2	Has_Dose_or_Strength Arg1:T2 Arg2:T29	
+R3	Has_Frequency Arg1:T2 Arg2:T28	
+R4	Has_Frequency Arg1:T2 Arg2:T30	
+R5	Experiences Arg1:T44 Arg2:T4	
+R6	Experiences Arg1:T44 Arg2:T2	
+R7	Experiences Arg1:T44 Arg2:T3	
+R8	Has_Duration_or_Interval Arg1:T7 Arg2:T32	
+R9	Has_Dose_or_Strength Arg1:T7 Arg2:T31	
+R10	Experiences Arg1:T45 Arg2:T7	
+R11	Experiences Arg1:T45 Arg2:T8	
+R12	Has_Age Arg1:T34 Arg2:T36	
+R13	Experiences Arg1:T34 Arg2:T11	
+R14	Experiences Arg1:T34 Arg2:T13	
+R15	Experiences Arg1:T34 Arg2:T15	
+R16	Experiences Arg1:T38 Arg2:T15	
+R17	Experiences Arg1:T38 Arg2:T13	
+R18	Experiences Arg1:T38 Arg2:T11	
+R19	Has_Age Arg1:T38 Arg2:T36	
+T48	CONC 632 641	DSM-IV-TR
+#36	AnnotatorNotes T48	C0220952; DSM-IV; Intellectual Product (?)
+R20	Used_for Arg1:T48 Arg2:T10	
+T49	Quantifier_or_Qualifier 592 600	primario
+#37	AnnotatorNotes T49	C0205225; Primary; Qualitative Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T49	
+T50	CONC 707 755	Programa de trastornos afectivos y esquizofrenia
+#38	AnnotatorNotes T50	C0683462; Schedule for Affective Disorder and Schizophrenia; Intellectual Product
+T51	CONC 784 793	K-SADS-PL
+R22	Used_for Arg1:T50 Arg2:T12	
+R23	Used_for Arg1:T51 Arg2:T12	
+#39	AnnotatorNotes T51	['Schedule for Affective Disorders and Schizophrenia for School-age Children']
+T52	Result_or_Value 867 871	≥ 70
+R24	Has_Result_or_Value Arg1:T35 Arg2:T52	
+R25	Has_Result_or_Value Arg1:T39 Arg2:T52	
+T53	Result_or_Value 907 910	≥ 4
+R26	Has_Result_or_Value Arg1:T37 Arg2:T53	
+T54	PROC 878 887	selección
+#40	AnnotatorNotes T54	C0242802; Patient Selection; Research Activity
+R27	Overlap Arg1:T35 Arg2:T54	
+R28	Overlap Arg1:T39 Arg2:T54	
+T55	CONC 893 899	inicio
+#41	AnnotatorNotes T55	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R29	Overlap Arg1:T35 Arg2:T55	
+R30	Overlap Arg1:T39 Arg2:T55	
+T56	CONC 932 938	inicio
+#42	AnnotatorNotes T56	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R31	Overlap Arg1:T37 Arg2:T56	
+T57	PROC 917 926	selección
+#43	AnnotatorNotes T57	C0242802; Patient Selection; Research Activity
+R32	Overlap Arg1:T37 Arg2:T57	
+R33	Negation Arg1:T40 Arg2:T18	
+R34	Overlap Arg1:T19 Arg2:T41	
+T58	PROC 1115 1124	selección
+#44	AnnotatorNotes T58	C0242802; Patient Selection; Research Activity
+R35	After Arg1:T19 Arg2:T58	
+T59	CONC 1053 1057	foco
+#45	AnnotatorNotes T59	C1285542; Has focus; Functional Concept 
+T60	Quantifier_or_Qualifier 1058 1067	principal
+#46	AnnotatorNotes T60	C0205225; Primary; Qualitative Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T60	
+R37	Experiences Arg1:T42 Arg2:T21	
+R38	Experiences Arg1:T42 Arg2:T46	
+R39	Overlap Arg1:T20 Arg2:T43	
+R40	Experiences Arg1:T42 Arg2:T22	
+R41	Experiences Arg1:T42 Arg2:T23	
+R42	Experiences Arg1:T42 Arg2:T24	
+R43	Location_of Arg1:T33 Arg2:T24	
+R44	Experiences Arg1:T42 Arg2:T25	
+T61	Result_or_Value 1353 1358	≥ 120
+R45	Has_Result_or_Value Arg1:T47 Arg2:T61	
+#47	AnnotatorNotes T25	C4062077; Unstable health condition; Finding
+R46	Overlap Arg1:T21 Arg2:T43	
+R47	Overlap Arg1:T22 Arg2:T43	
+R48	Overlap Arg1:T23 Arg2:T43	
+R49	Overlap Arg1:T24 Arg2:T43	
+R50	Overlap Arg1:T25 Arg2:T43	
+T62	PROC 1365 1374	selección
+#48	AnnotatorNotes T62	C0242802; Patient Selection; Research Activity
+R51	Overlap Arg1:T47 Arg2:T62	
+T63	CONC 1380 1386	inicio
+#49	AnnotatorNotes T63	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R52	Overlap Arg1:T47 Arg2:T63	
+R53	Experiences Arg1:T42 Arg2:T18	
+R54	Experiences Arg1:T42 Arg2:T19	
+#50	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T64	Quantifier_or_Qualifier 1276 1281	grave
+#51	AnnotatorNotes T64	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R55	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T64	
+A10	Experiencer T44 Patient
+A11	Experiencer T45 Patient
+A12	Experiencer T34 Patient
+A13	Experiencer T38 Patient
+A14	Experiencer T42 Patient

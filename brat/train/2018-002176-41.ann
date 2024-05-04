@@ -1,0 +1,356 @@
+T1	PROC 44 54	Prevención
+#1	AnnotatorNotes T1	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T2	DISO 58 63	ICTUS
+#2	AnnotatorNotes T2	C0038454; Cerebrovascular accident; Disease or Syndrome
+T3	DISO 85 104	hemorragia cerebral
+#3	AnnotatorNotes T3	C0553692; Brain hemorrhage; Pathologic Function | C2937358; Cerebral Hemorrhage; Pathologic Function
+T4	DISO 109 130	fibrilación auricular
+#4	AnnotatorNotes T4	C0004238; Atrial Fibrillation; Disease or Syndrome
+T5	PROC 152 162	Prevención
+#5	AnnotatorNotes T5	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T6	DISO 167 172	ICTUS
+#6	AnnotatorNotes T6	C0038454; Cerebrovascular accident; Disease or Syndrome
+T7	DISO 194 218	hemorragia intracerebral
+#7	AnnotatorNotes T7	C2937358; Cerebral Hemorrhage; Pathologic Function
+T8	DISO 223 244	fibrilación auricular
+#8	AnnotatorNotes T8	C0004238; Atrial Fibrillation; Disease or Syndrome
+T9	PROC 281 291	Prevención
+#9	AnnotatorNotes T9	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T10	DISO 296 321	accidente cerebrovascular
+#10	AnnotatorNotes T10	C0038454; Cerebrovascular accident; Disease or Syndrome
+T11	DISO 335 352	coágulo de sangre
+#11	AnnotatorNotes T11	C0087086; Thrombus; Pathologic Function | C0302148; Blood Clot; Pathologic Function
+T12	DISO 371 388	arritmia cardíaca
+#12	AnnotatorNotes T12	C0003811; Cardiac Arrhythmia; Disease or Syndrome
+T13	DISO 390 411	fibrilación auricular
+#13	AnnotatorNotes T13	C0004238; Atrial Fibrillation; Disease or Syndrome
+T14	DISO 428 447	hemorragia cerebral
+#14	AnnotatorNotes T14	C0553692; Brain hemorrhage; Pathologic Function | C2937358; Cerebral Hemorrhage; Pathologic Function
+T15	DISO 456 480	hemorragia intracerebral
+#15	AnnotatorNotes T15	C2937358; Cerebral Hemorrhage; Pathologic Function
+T16	PROC 507 517	Prevención
+#16	AnnotatorNotes T16	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T17	DISO 522 537	ictus isquémico
+#17	AnnotatorNotes T17	C0948008; Ischemic stroke; Disease or Syndrome
+T18	DISO 555 576	fibrilación auricular
+#18	AnnotatorNotes T18	C0004238; Atrial Fibrillation; Disease or Syndrome
+T19	DISO 579 603	hemorragia intracerebral
+#19	AnnotatorNotes T19	C2937358; Cerebral Hemorrhage; Pathologic Function
+T20	DISO 731 745	HIC espontánea
+#20	AnnotatorNotes T20	C3662030; Spontaneous cerebral hemorrhage; Pathologic Function
+T21	PROC 681 705	consentimiento informado
+#21	AnnotatorNotes T21	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T22	PROC 993 1023	tomografía axial computarizada
+#22	AnnotatorNotes T22	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T23	PROC 1025 1028	TAC
+#23	AnnotatorNotes T23	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T24	ANAT 1033 1039	cráneo
+#24	AnnotatorNotes T24	C0037303; Bone structure of cranium; Body Part, Organ, or Organ Component | C1279062; Entire cranium; Body Part, Organ, or Organ Component
+T25	DISO 1058 1061	HIC
+#25	AnnotatorNotes T25	C0151699; Intracranial Hemorrhage; Pathologic Function
+T26	PROC 1154 1178	Consentimiento Informado
+#26	AnnotatorNotes T26	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T27	PROC 1408 1431	medidas anticonceptivas
+T28	DISO 1447 1450	HIC
+#27	AnnotatorNotes T28	C0151699; Intracranial Hemorrhage; Pathologic Function
+T29	PROC 1202 1229	escala de Rankin modificada
+#28	AnnotatorNotes T29	C3888574; Modified Rankin score; Diagnostic Procedure
+T30	DISO 1519 1522	HIC
+#29	AnnotatorNotes T30	C0151699; Intracranial Hemorrhage; Pathologic Function
+T31	DISO 1590 1593	HIC
+#30	AnnotatorNotes T31	C0151699; Intracranial Hemorrhage; Pathologic Function
+T32	DISO 1607 1618	traumatismo
+#31	AnnotatorNotes T32	C3263723; Traumatic injury; Injury or Poisoning | C3714660; Trauma; Injury or Poisoning
+T33	DISO 1621 1642	malformación vascular
+#32	AnnotatorNotes T33	C1961121; Congenital vascular anomaly; Congenital Abnormality
+T34	PROC 1677 1692	anticoagulación
+#33	AnnotatorNotes T34	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T35	DISO 1739 1751	hipertensión
+#34	AnnotatorNotes T35	C0020538; Hypertensive disease; Disease or Syndrome
+T36	CHEM 1921 1929	edoxaban
+#35	AnnotatorNotes T36	C2975435; edoxaban; Organic Chemical · Pharmacologic Substance
+T37	CHEM 1818 1828	medicación
+#36	AnnotatorNotes T37	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T38	DISO 1870 1873	HIC
+#37	AnnotatorNotes T38	C0151699; Intracranial Hemorrhage; Pathologic Function
+T39	PROC 1883 1894	tratamiento
+#38	AnnotatorNotes T39	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T40	CHEM 1909 1919	dabigatran
+#39	AnnotatorNotes T40	C2348066; dabigatran; Organic Chemical · Pharmacologic Substance
+T41	PROC 2003 2028	tratamiento antiagregante
+T42	ANAT 2108 2126	orejuela auricular
+#40	AnnotatorNotes T42	C0225832; Structure of auricular appendage; Body Part, Organ, or Organ Component
+T43	ANAT 2149 2155	Atrial
+#41	AnnotatorNotes T43	C0018792; Heart Atrium; Body Part, Organ, or Organ Component
+T44	PROC 2200 2211	implantarlo
+#42	AnnotatorNotes T44	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T45	DISO 2241 2286	enfermedad médica, psicológica o psiquiátrica
+T46	PROC 2402 2416	ensayo clínico
+#43	AnnotatorNotes T46	C0008976; Clinical Trials; Research Activity
+T47	CHEM 2424 2459	producto medicinal en investigación
+#44	AnnotatorNotes T47	C0013230; Investigational New Drugs; Pharmacologic Substance
+T48	PROC 2493 2517	estudios observacionales
+#45	AnnotatorNotes T48	C1518527; Observational Study; Research Activity
+T49	ANAT 96 104	cerebral
+#46	AnnotatorNotes T49	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T50	ANAT 121 130	auricular
+#47	AnnotatorNotes T50	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T51	ANAT 235 244	auricular
+#48	AnnotatorNotes T51	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T52	ANAT 346 352	sangre
+#49	AnnotatorNotes T52	C0005767; Blood; Body Substance
+T53	ANAT 380 388	cardíaca
+#50	AnnotatorNotes T53	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T54	ANAT 402 411	auricular
+#51	AnnotatorNotes T54	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T55	ANAT 439 447	cerebral
+#52	AnnotatorNotes T55	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T56	ANAT 567 576	auricular
+#53	AnnotatorNotes T56	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T57	DISO 750 760	traumática
+#54	AnnotatorNotes T57	C3263723; Traumatic injury; Injury or Poisoning | C3714660; Trauma; Injury or Poisoning
+T58	DISO 841 883	FA (paroxística, persistente o permanente)
+#55	AnnotatorNotes T58	C0235480; Paroxysmal atrial fibrillation; Pathologic Function + C2585653; Persistent atrial fibrillation; Pathologic Function + C2586056; Permanent atrial fibrillation; Pathologic Function
+T59	DISO 1183 1194	Dependencia
+#56	AnnotatorNotes T59	C1268609; Physical functional dependency; Finding
+T60	ANAT 1634 1642	vascular
+#57	AnnotatorNotes T60	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T61	CHEM 1931 1942	rivaroxaban
+#58	AnnotatorNotes T61	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
+T62	DISO 1718 1720	FA
+#59	AnnotatorNotes T62	C0004238; Atrial Fibrillation; Disease or Syndrome
+T63	CHEM 1899 1907	apixaban
+#60	AnnotatorNotes T63	C1831808; apixaban; Organic Chemical · Pharmacologic Substance
+T64	CHEM 2015 2028	antiagregante
+#61	AnnotatorNotes T64	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T65	Date 12 16	2018
+T66	LIVB 67 81	supervivientes
+#62	AnnotatorNotes T66	C0206194; Survivors; Patient or Disabled Group
+T67	LIVB 176 190	supervivientes
+#63	AnnotatorNotes T67	C0206194; Survivors; Patient or Disabled Group
+T68	LIVB 357 366	pacientes
+#64	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 541 550	pacientes
+#65	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	Age 645 654	≥ 18 años
+T71	Date 719 727	reciente
+T72	Neg_cue 747 749	no
+T73	Duration 768 775	15 días
+T74	Duration 782 789	6 meses
+T75	LIVB 930 937	hombres
+#66	AnnotatorNotes T75	C0025266; Male population group; Population Group
+T76	LIVB 959 966	mujeres
+#67	AnnotatorNotes T76	C0043210; Woman; Population Group
+T77	Neg_cue 1130 1146	Incapacidad para
+T78	LIVB 1238 1282	Mujeres embarazadas, en período de lactancia
+#68	AnnotatorNotes T78	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T79	LIVB 1327 1334	Mujeres
+#69	AnnotatorNotes T79	C0043210; Woman; Population Group
+T80	Spec_cue 1339 1348	potencial
+T82	Neg_cue 1389 1391	no
+T83	Duration 1459 1478	los últimos 14 días
+T84	Date 1523 1542	hace más de 6 meses
+T85	LIVB 1647 1656	Pacientes
+#70	AnnotatorNotes T85	C0030705; Patients; Patient or Disabled Group
+T86	Date 1693 1706	a largo plazo
+T87	Neg_cue 1711 1713	no
+T88	LIVB 1725 1734	Pacientes
+#71	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group
+T89	LIVB 1778 1790	investigador
+#72	AnnotatorNotes T89	C0035173; Research Personnel; Professional or Occupational Group
+T90	Neg_cue 1792 1794	no
+T91	Neg_cue 1862 1869	excepto
+T92	DEVI 2080 2136	dispositivo de cierre de la orejuela auricular izquierda
+#73	AnnotatorNotes T92	C4052499; Occluders, Cardiac, Left Atrial Appendage; Medical Device
+T93	LIVB 2313 2325	investigador
+#74	AnnotatorNotes T93	C0035173; Research Personnel; Professional or Occupational Group
+T95	Duration 2468 2487	los últimos 30 días
+T96	PHYS 1311 1322	embarazadas
+#75	AnnotatorNotes T96	C0032961; Pregnancy; Organism Function
+T97	PHYS 1361 1372	embarazadas
+#76	AnnotatorNotes T97	C0032961; Pregnancy; Organism Function
+T99	PROC 911 923	CHA2DS2-VASc
+#77	AnnotatorNotes T99	C4542761; Documentation of cha2ds2-vasc risk score; Health Care Activity
+T100	PROC 940 952	CHA2DS2-VASc
+#78	AnnotatorNotes T100	C4542761; Documentation of cha2ds2-vasc risk score; Health Care Activity
+T101	PHYS 1246 1257	embarazadas
+#79	AnnotatorNotes T101	C0032961; Pregnancy; Organism Function
+T102	PHYS 1273 1282	lactancia
+#80	AnnotatorNotes T102	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Assertion T57 Negated
+A2	Assertion T26 Negated
+A3	Assertion T97 Speculated
+A4	Assertion T27 Negated
+A5	Assertion T62 Negated
+A6	Assertion T37 Negated
+A7	Assertion T38 Negated
+A8	Status T14 History_of
+A9	Status T15 History_of
+A10	Status T19 History_of
+A11	Status T20 History_of
+A12	Status T28 History_of
+A13	Status T30 History_of
+A14	Assertion T39 Contraindicated
+A15	Assertion T63 Contraindicated
+A16	Assertion T40 Contraindicated
+A17	Assertion T36 Contraindicated
+A18	Assertion T61 Contraindicated
+A19	Status T46 History_of
+A20	Status T47 History_of
+#81	AnnotatorNotes T27	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+#82	AnnotatorNotes T41	C1096021; Antiplatelet therapy; Therapeutic or Preventive Procedure
+#83	AnnotatorNotes T45	C4745084; Medical Condition; Finding + C0004936; Mental disorders; Mental or Behavioral Dysfunction
+#84	AnnotatorNotes T71	C0332185; Recent; Temporal Concept
+#85	AnnotatorNotes T86	C0443252; Long-term; Temporal Concept
+T81	Quantifier_or_Qualifier 1432 1441	efectivas
+A21	Assertion T81 Negated
+#86	AnnotatorNotes T81	C1704419; Effective; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T81	
+R2	Negation Arg1:T82 Arg2:T27	
+R3	Negation Arg1:T82 Arg2:T81	
+T94	Spec_cue 2327 2332	pueda
+T98	Observation 2333 2371	alterar la participación en el estudio
+A22	Assertion T98 Speculated
+R4	Speculation Arg1:T94 Arg2:T98	
+R5	Before Arg1:T1 Arg2:T2	
+R6	Before Arg1:T5 Arg2:T6	
+R7	Experiences Arg1:T66 Arg2:T3	
+R9	Location_of Arg1:T49 Arg2:T3	
+R10	Location_of Arg1:T50 Arg2:T4	
+R11	Experiences Arg1:T66 Arg2:T4	
+R12	Before Arg1:T3 Arg2:T4	
+R13	Experiences Arg1:T67 Arg2:T7	
+R14	Experiences Arg1:T66 Arg2:T1	
+R15	Experiences Arg1:T67 Arg2:T5	
+R16	Experiences Arg1:T67 Arg2:T8	
+R17	Location_of Arg1:T51 Arg2:T8	
+R18	Before Arg1:T7 Arg2:T8	
+R19	Before Arg1:T9 Arg2:T10	
+R21	Causes Arg1:T11 Arg2:T10	
+R22	Before Arg1:T9 Arg2:T11	
+R23	Experiences Arg1:T68 Arg2:T9	
+R24	Experiences Arg1:T68 Arg2:T12	
+R25	Location_of Arg1:T54 Arg2:T13	
+R26	Location_of Arg1:T53 Arg2:T12	
+R27	Experiences Arg1:T68 Arg2:T14	
+R28	Location_of Arg1:T55 Arg2:T14	
+R29	Experiences Arg1:T68 Arg2:T15	
+R30	Before Arg1:T4 Arg2:T2	
+R32	Before Arg1:T8 Arg2:T6	
+R33	Before Arg1:T12 Arg2:T10	
+R34	Before Arg1:T12 Arg2:T11	
+R35	Before Arg1:T13 Arg2:T10	
+R36	Before Arg1:T13 Arg2:T11	
+R39	Before Arg1:T14 Arg2:T11	
+R40	Before Arg1:T15 Arg2:T11	
+R41	Before Arg1:T16 Arg2:T17	
+R42	Experiences Arg1:T69 Arg2:T16	
+R43	Experiences Arg1:T69 Arg2:T18	
+R44	Experiences Arg1:T69 Arg2:T19	
+R45	Location_of Arg1:T56 Arg2:T18	
+R46	Before Arg1:T14 Arg2:T12	
+R47	Before Arg1:T15 Arg2:T13	
+R48	Before Arg1:T15 Arg2:T12	
+R49	Before Arg1:T14 Arg2:T13	
+R50	Location_of Arg1:T55 Arg2:T15	
+R20	Before Arg1:T19 Arg2:T18	
+T103	Observation 659 668	Habilidad
+#87	AnnotatorNotes T103	C1299581; Able (finding); Finding (?)
+R51	Overlap Arg1:T103 Arg2:T21	
+R52	Overlap Arg1:T20 Arg2:T71	
+R53	Negation Arg1:T72 Arg2:T57	
+R54	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T57	
+R55	After Arg1:T20 Arg2:T73	
+R56	Before Arg1:T20 Arg2:T74	
+R57	After Arg1:T57 Arg2:T73	
+R58	Before Arg1:T57 Arg2:T74	
+T104	CONC 802 811	inclusión
+#88	AnnotatorNotes T104	C1512693; Inclusion; Qualitative Concept
+R59	Before Arg1:T20 Arg2:T104	
+R60	Before Arg1:T57 Arg2:T104	
+T105	Result_or_Value 924 926	≥2
+R61	Has_Result_or_Value Arg1:T99 Arg2:T105	
+T106	Result_or_Value 953 955	≥3
+R62	Has_Result_or_Value Arg1:T100 Arg2:T106	
+R63	Experiences Arg1:T76 Arg2:T100	
+R64	Experiences Arg1:T75 Arg2:T99	
+R65	Location_of Arg1:T24 Arg2:T22	
+R66	Location_of Arg1:T24 Arg2:T23	
+R67	After Arg1:T22 Arg2:T25	
+R68	After Arg1:T23 Arg2:T25	
+T107	CONC 1076 1085	inclusión
+#89	AnnotatorNotes T107	C1512693; Inclusion; Qualitative Concept
+R69	Before Arg1:T22 Arg2:T107	
+R70	Before Arg1:T23 Arg2:T107	
+R71	Before Arg1:T25 Arg2:T107	
+R72	Negation Arg1:T77 Arg2:T26	
+T108	Result_or_Value 1230 1232	>4
+R73	Has_Result_or_Value Arg1:T29 Arg2:T108	
+T109	Quantifier_or_Qualifier 1195 1200	total
+#90	AnnotatorNotes T109	C0439810; Total; Qualitative Concept
+R74	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T109	
+R76	Experiences Arg1:T78 Arg2:T101	
+R77	Experiences Arg1:T78 Arg2:T102	
+T110	Observation 1289 1322	intención de quedarse embarazadas
+#91	AnnotatorNotes T110	C0032992; Pregnancy, Planned; Finding
+R78	Before Arg1:T110 Arg2:T96	
+R79	Speculation Arg1:T80 Arg2:T97	
+R80	Experiences Arg1:T79 Arg2:T97	
+R81	Experiences Arg1:T79 Arg2:T27	
+R82	Overlap Arg1:T28 Arg2:T83	
+T111	CONC 1491 1500	inclusión
+#92	AnnotatorNotes T111	C1512693; Inclusion; Qualitative Concept
+R83	Before Arg1:T28 Arg2:T111	
+T112	CONC 1561 1570	inclusión
+#93	AnnotatorNotes T112	C1512693; Inclusion; Qualitative Concept
+R84	Overlap Arg1:T30 Arg2:T84	
+R85	After Arg1:T30 Arg2:T112	
+R86	Causes Arg1:T32 Arg2:T31	
+R87	Causes Arg1:T33 Arg2:T31	
+R88	Location_of Arg1:T60 Arg2:T33	
+R89	Experiences Arg1:T85 Arg2:T34	
+R90	Overlap Arg1:T34 Arg2:T86	
+R91	Negation Arg1:T87 Arg2:T62	
+R92	Experiences Arg1:T85 Arg2:T62	
+R93	Experiences Arg1:T88 Arg2:T35	
+R94	Negation Arg1:T90 Arg2:T37	
+R95	Experiences Arg1:T88 Arg2:T37	
+R96	Negation Arg1:T91 Arg2:T38	
+R97	Used_for Arg1:T63 Arg2:T39	
+R98	Used_for Arg1:T40 Arg2:T39	
+R99	Used_for Arg1:T36 Arg2:T39	
+R100	Used_for Arg1:T61 Arg2:T39	
+R101	Used_for Arg1:T64 Arg2:T41	
+T113	CONC 2049 2058	inclusión
+#94	AnnotatorNotes T113	C1512693; Inclusion; Qualitative Concept
+R102	Overlap Arg1:T41 Arg2:T113	
+R103	Location_of Arg1:T42 Arg2:T92	
+R104	Location_of Arg1:T43 Arg2:T92	
+R105	Used_for Arg1:T92 Arg2:T44	
+R106	Location_of Arg1:T42 Arg2:T44	
+R107	Location_of Arg1:T43 Arg2:T44	
+R108	Before Arg1:T45 Arg2:T98	
+R109	Has_Duration_or_Interval Arg1:T47 Arg2:T95	
+R110	Has_Duration_or_Interval Arg1:T46 Arg2:T95	
+T114	Quantifier_or_Qualifier 2524 2534	permitidos
+R111	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T114	
+R8	Before Arg1:T18 Arg2:T17	
+R31	Experiences Arg1:T66 Arg2:T2	
+R37	Experiences Arg1:T67 Arg2:T6	
+R38	Experiences Arg1:T68 Arg2:T11	
+R112	Experiences Arg1:T68 Arg2:T10	
+R113	Experiences Arg1:T68 Arg2:T13	
+R114	Experiences Arg1:T69 Arg2:T17	
+A23	Experiencer T66 Patient
+A24	Experiencer T67 Patient
+A25	Experiencer T68 Patient
+A26	Experiencer T69 Patient
+A27	Experiencer T75 Patient
+A28	Experiencer T76 Patient
+A29	Experiencer T78 Patient
+A30	Status T96 Future
+A31	Experiencer T79 Patient
+A32	Experiencer T85 Patient
+A33	Experiencer T88 Patient
+A34	Experiencer T89 Other
+A35	Experiencer T93 Other

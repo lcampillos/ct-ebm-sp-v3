@@ -1,0 +1,412 @@
+T1	PROC 44 74	Estudio aleatorizado y abierto
+T2	PROC 80 114	evaluar la seguridad y la eficacia
+#1	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T3	CHEM 170 180	ribavirina
+#2	AnnotatorNotes T3	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T4	CHEM 182 185	RBV
+#3	AnnotatorNotes T4	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T5	DISO 202 250	infección crónica por el virus de la hepatitis C
+#4	AnnotatorNotes T5	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome | C4736234; chronic hepatitis C due to hepatitis C virus genotype 4; Disease or Syndrome
+T6	DISO 278 286	cirrosis
+#5	AnnotatorNotes T6	C1623038; Cirrhosis; Disease or Syndrome
+T7	CHEM 118 128	Ombitasvir
+#6	AnnotatorNotes T7	C3852670; ombitasvir; Organic Chemical · Pharmacologic Substance
+T8	DISO 319 344	Infección por Hepatitis C
+T9	CHEM 137 146	Ritonavir
+#7	AnnotatorNotes T9	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T10	PROC 495 516	tratamiento antiviral
+#8	AnnotatorNotes T10	C2363964; Antiviral treatment; Therapeutic or Preventive Procedure
+T11	DISO 525 542	infección por VHC
+T12	PROC 714 742	niveles de ARN VHC en plasma
+T13	CHEM 637 640	IFN
+#9	AnnotatorNotes T13	C0021747; Interferons; Amino Acid, Peptide, or Protein · Immunologic Factor
+T14	CHEM 641 644	RBV
+#10	AnnotatorNotes T14	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T15	DISO 649 666	Infección por VHC
+T16	DISO 690 698	cirrosis
+#11	AnnotatorNotes T16	C1623038; Cirrhosis; Disease or Syndrome
+T17	CHEM 725 728	ARN
+#12	AnnotatorNotes T17	C0035668; RNA; Nucleic Acid, Nucleoside, or Nucleotide
+T18	ANAT 736 742	plasma
+#13	AnnotatorNotes T18	C0032105; Plasma; Body Substance
+T19	CHEM 833 836	SOF
+#14	AnnotatorNotes T19	C2976303; sofosbuvir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T20	PROC 456 462	tratar
+#15	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	CHEM 844 847	RBV
+#16	AnnotatorNotes T21	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T22	CHEM 854 857	RBV
+#17	AnnotatorNotes T22	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T23	CHEM 943 946	ARN
+#18	AnnotatorNotes T23	C0035668; RNA; Nucleic Acid, Nucleoside, or Nucleotide
+T24	PROC 979 990	tratamiento
+#19	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	CHEM 1006 1009	RBV
+#20	AnnotatorNotes T25	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T26	CHEM 1016 1019	RBV
+#21	AnnotatorNotes T26	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T27	CHEM 1049 1052	ARN
+#22	AnnotatorNotes T27	C0035668; RNA; Nucleic Acid, Nucleoside, or Nucleotide
+T28	PROC 1091 1102	tratamiento
+#23	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	CHEM 1114 1117	RBV
+#24	AnnotatorNotes T29	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T30	CHEM 1124 1127	RBV
+#25	AnnotatorNotes T30	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T31	PROC 809 816	tratado
+#26	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	PROC 1175 1186	seguimiento
+#27	AnnotatorNotes T32	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T33	PROC 1268 1319	prueba del antígeno de superficie de la hepatitis B
+T34	CHEM 1279 1319	antígeno de superficie de la hepatitis B
+#28	AnnotatorNotes T34	C0019168; Hepatitis B Surface Antigens; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T35	PROC 1321 1326	HBsAg
+#29	AnnotatorNotes T35	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T36	PROC 1335 1393	anticuerpos contra el virus de la inmunodeficiencia humana
+#30	AnnotatorNotes T36	C3714540; HIV Antibody Measurement; Laboratory Procedure
+T37	PROC 1395 1401	Ac VIH
+T38	PROC 1434 1466	estudio clínico intervencionista
+T39	CHEM 1012 1015	SOF
+#31	AnnotatorNotes T39	C2976303; sofosbuvir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T40	CHEM 1529 1555	inhibidores de la proteasa
+#32	AnnotatorNotes T40	C0033607; Protease Inhibitors; Pharmacologic Substance
+T41	CHEM 1557 1602	inhibidores de la polimerasa no nucleosídicos
+T42	CHEM 1707 1714	ABT-450
+#33	AnnotatorNotes T42	C3712108; ABT-450; Organic Chemical · Pharmacologic Substance
+T43	CHEM 1719 1729	ombitasvir
+#34	AnnotatorNotes T43	C3852670; ombitasvir; Organic Chemical · Pharmacologic Substance
+T44	CHEM 1605 1627	inhibidores de la NS5A
+T45	PROC 1049 1060	ARN del VHC
+#35	AnnotatorNotes T45	C1272251; Hepatitis C virus RNA assay; Laboratory Procedure
+T46	CHEM 1837 1847	medicación
+#36	AnnotatorNotes T46	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T47	PROC 943 954	ARN del VHC
+#37	AnnotatorNotes T47	C1272251; Hepatitis C virus RNA assay; Laboratory Procedure
+T48	CHEM 1904 1931	antiviral de acción directa
+T49	CHEM 2055 2061	pegIFN
+#38	AnnotatorNotes T49	C0907160; Pegylated Interferon Alfa; Immunologic Factor · Organic Chemical · Pharmacologic Substance
+T50	CHEM 1999 2038	inhibidor de la polimerasa nucleosídico
+T51	CHEM 2040 2050	Sofosbuvir
+#39	AnnotatorNotes T51	C2976303; sofosbuvir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T52	CHEM 2064 2067	RBV
+#40	AnnotatorNotes T52	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T53	CHEM 2070 2073	RBV
+#41	AnnotatorNotes T53	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T54	DISO 2175 2199	descompensación hepática
+#42	AnnotatorNotes T54	C0085605; Liver Failure; Disease or Syndrome | C1394798; Hepatic decompensation; Pathologic Function
+T55	DISO 2206 2213	ascitis
+#43	AnnotatorNotes T55	C0003962; Ascites; Disease or Syndrome
+T56	DISO 2215 2233	varices esofágicas
+#44	AnnotatorNotes T56	C0014867; Esophageal Varices; Disease or Syndrome
+T57	DISO 2236 2258	encefalopatía hepática
+#45	AnnotatorNotes T57	C0019151; Hepatic Encephalopathy; Disease or Syndrome
+T58	CHEM 995 998	SOF
+#46	AnnotatorNotes T58	C2976303; sofosbuvir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T59	DISO 2286 2309	carcinoma hepatocelular
+#47	AnnotatorNotes T59	C2239176; Liver carcinoma; Neoplastic Process
+T60	DISO 2332 2351	enfermedad hepática
+#48	AnnotatorNotes T60	C0023895; Liver diseases; Disease or Syndrome
+T61	DISO 2367 2395	infección crónica por el VHC
+T62	CHEM 850 853	SOF
+#49	AnnotatorNotes T62	C2976303; sofosbuvir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T63	DISO 252 255	VHC
+#50	AnnotatorNotes T63	C0019196; Hepatitis C; Disease or Syndrome
+T64	CHEM 507 516	antiviral
+#51	AnnotatorNotes T64	C0003451; Antiviral Agents; Pharmacologic Substance
+T65	CHEM 129 136	ABT-450
+#52	AnnotatorNotes T65	C3712108; ABT-450; Organic Chemical · Pharmacologic Substance
+T66	CHEM 938 941	SOF
+#53	AnnotatorNotes T66	C2976303; sofosbuvir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T67	CHEM 1041 1044	SOF
+#54	AnnotatorNotes T67	C2976303; sofosbuvir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T68	CHEM 1107 1113	pegIFN
+#55	AnnotatorNotes T68	C0907160; Pegylated Interferon Alfa; Immunologic Factor · Organic Chemical · Pharmacologic Substance
+T69	CHEM 1120 1123	SOF
+#56	AnnotatorNotes T69	C2976303; sofosbuvir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T70	CHEM 837 843	pegIFN
+#57	AnnotatorNotes T70	C0907160; Pegylated Interferon Alfa; Immunologic Factor · Organic Chemical · Pharmacologic Substance
+T71	CHEM 1103 1106	SOF
+#58	AnnotatorNotes T71	C2976303; sofosbuvir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T72	PROC 1816 1847	administración de la medicación
+T73	CHEM 999 1005	pegIFN
+#59	AnnotatorNotes T73	C0907160; Pegylated Interferon Alfa; Immunologic Factor · Organic Chemical · Pharmacologic Substance
+T74	ANAT 2191 2199	hepática
+#60	AnnotatorNotes T74	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T75	ANAT 2223 2233	esofágicas
+#61	AnnotatorNotes T75	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T76	ANAT 2250 2258	hepática
+#62	AnnotatorNotes T76	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T77	ANAT 2296 2309	hepatocelular
+#63	AnnotatorNotes T77	C0227525; Hepatocyte; Cell
+T78	ANAT 2343 2351	hepática
+#64	AnnotatorNotes T78	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T79	PROC 2398 2416	Pruebas analíticas
+T80	Date 12 16	2014
+T81	LIVB 190 197	adultos
+#65	AnnotatorNotes T81	C0001675; Adult; Age Group
+T82	Duration 212 219	crónica
+#66	AnnotatorNotes T82	C0205191; chronic; Temporal Concept
+T83	LIVB 227 250	virus de la hepatitis C
+#67	AnnotatorNotes T83	C0220847; hepatitis C virus; Virus
+T85	PROC 261 269	genotipo
+#68	AnnotatorNotes T85	C1285573; Genotype determination; Laboratory Procedure
+T86	LIVB 390 399	pacientes
+#69	AnnotatorNotes T86	C0030705; Patients; Patient or Disabled Group
+T88	LIVB 442 451	Pacientes
+#70	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group
+T89	Neg_cue 452 455	sin
+T90	LIVB 464 473	Pacientes
+#71	AnnotatorNotes T90	C0030705; Patients; Patient or Disabled Group
+T91	Neg_cue 478 483	nunca
+T92	LIVB 539 542	VHC
+#72	AnnotatorNotes T92	C0220847; hepatitis C virus; Virus
+T93	LIVB 547 556	Pacientes
+#73	AnnotatorNotes T93	C0030705; Patients; Patient or Disabled Group
+T95	LIVB 663 666	VHC
+#74	AnnotatorNotes T95	C0220847; hepatitis C virus; Virus
+T96	PROC 667 675	genotipo
+#75	AnnotatorNotes T96	C1285573; Genotype determination; Laboratory Procedure
+T97	Duration 678 685	crónico
+#76	AnnotatorNotes T97	C0205191; chronic; Temporal Concept
+T98	LIVB 701 709	Paciente
+#77	AnnotatorNotes T98	C0030705; Patients; Patient or Disabled Group
+T99	LIVB 729 732	VHC
+#78	AnnotatorNotes T99	C0220847; hepatitis C virus; Virus
+T100	LIVB 784 792	paciente
+#79	AnnotatorNotes T100	C0030705; Patients; Patient or Disabled Group
+T102	LIVB 951 954	VHC
+#80	AnnotatorNotes T102	C0220847; hepatitis C virus; Virus
+T103	LIVB 1057 1060	VHC
+#81	AnnotatorNotes T103	C0220847; hepatitis C virus; Virus
+T104	Duration 1148 1171	las primeras 52 semanas
+T105	LIVB 1357 1393	virus de la inmunodeficiencia humana
+#82	AnnotatorNotes T105	C0019682; HIV; Virus
+T106	LIVB 1398 1401	VIH
+#83	AnnotatorNotes T106	C0019682; HIV; Virus
+T107	Date 1419 1425	actual
+T109	Duration 1786 1799	las 6 semanas
+T110	Neg_cue 1861 1863	No
+T112	Date 2092 2100	actuales
+T113	Date 2103 2110	pasados
+T114	Duration 2377 2384	crónica
+#84	AnnotatorNotes T114	C0205191; chronic; Temporal Concept
+T115	LIVB 2392 2395	VHC
+#85	AnnotatorNotes T115	C0220847; hepatitis C virus; Virus
+T84	PROC 2131 2141	Child-Pugh
+#86	AnnotatorNotes T84	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+T87	Neg_cue 2352 2363	distinta de
+T94	CHEM 1757 1782	producto en investigación
+#87	AnnotatorNotes T94	C0013230; Investigational New Drugs; Pharmacologic Substance
+T101	DISO 1030 1038	recidiva
+#88	AnnotatorNotes T101	C2825055; Recurrence (disease attribute); Pathologic Function
+T108	DISO 911 918	recaída
+#89	AnnotatorNotes T108	C3160896; Hepatitis C relapse; Disease or Syndrome
+A1	Population_data T81 Age
+A2	Assertion T20 Negated
+A3	Assertion T10 Negated
+A4	Assertion T64 Negated
+A5	Assertion T48 Negated
+A6	Assertion T61 Negated
+A7	Status T54 History_of
+A8	Status T55 History_of
+A9	Status T56 History_of
+A10	Status T57 History_of
+A11	Assertion T115 Negated
+A12	Status T48 History_of
+A13	Status T50 History_of
+A14	Status T51 History_of
+A15	Status T49 History_of
+A16	Status T52 History_of
+A17	Status T53 History_of
+A18	Status T101 History_of
+A19	Status T108 History_of
+A20	Status T31 History_of
+A21	Status T19 History_of
+A22	Status T70 History_of
+A23	Status T21 History_of
+A24	Status T62 History_of
+A25	Status T22 History_of
+A26	Status T10 History_of
+A27	Status T64 History_of
+A28	Status T40 History_of
+A29	Status T41 History_of
+A30	Status T44 History_of
+A31	Status T42 History_of
+A32	Status T43 History_of
+#90	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity + C0034656; Randomization; Research Activity
+#91	AnnotatorNotes T8	C0019196; Hepatitis C; Disease or Syndrome
+#92	AnnotatorNotes T11	C0019196; Hepatitis C; Disease or Syndrome
+#93	AnnotatorNotes T15	C0019196; Hepatitis C; Disease or Syndrome
+#94	AnnotatorNotes T33	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+#95	AnnotatorNotes T37	C3714540; HIV Antibody Measurement; Laboratory Procedure
+#96	AnnotatorNotes T38	C0184661; Interventional procedure; Therapeutic or Preventive Procedure + C0008976; Clinical Trials; Research Activity
+#97	AnnotatorNotes T107	C0521116; Current (present time); Temporal Concept 
+#98	AnnotatorNotes T112	C0521116; Current (present time); Temporal Concept 
+#99	AnnotatorNotes T72	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+#100	AnnotatorNotes T61	C0524910; Hepatitis C, Chronic; Disease or Syndrome 
+#101	AnnotatorNotes T113	C1444637; In the past; Temporal Concept 
+T111	Neg_cue 919 921	no
+T116	Observation 922 935	respondedores
+A33	Assertion T116 Negated
+#102	AnnotatorNotes T116	C0919876; Therapy responder; Finding
+T117	Quantifier_or_Qualifier 1589 1602	nucleosídicos
+A34	Assertion T117 Negated
+T118	Neg_cue 1586 1588	no
+R1	Negation Arg1:T89 Arg2:T20	
+R2	Negation Arg1:T91 Arg2:T10	
+R3	Negation Arg1:T91 Arg2:T64	
+R4	Used_for Arg1:T64 Arg2:T10	
+R5	Negation Arg1:T111 Arg2:T116	
+R6	Negation Arg1:T118 Arg2:T117	
+R7	Negation Arg1:T110 Arg2:T48	
+R8	Negation Arg1:T87 Arg2:T61	
+R9	Combined_with Arg1:T7 Arg2:T65	
+R10	Combined_with Arg1:T65 Arg2:T9	
+R11	Combined_with Arg1:T9 Arg2:T3	
+R12	Combined_with Arg1:T9 Arg2:T4	
+R13	Experiences Arg1:T81 Arg2:T7	
+R14	Experiences Arg1:T81 Arg2:T5	
+R15	Has_Duration_or_Interval Arg1:T5 Arg2:T82	
+R16	Causes Arg1:T83 Arg2:T5	
+R17	Experiences Arg1:T81 Arg2:T63	
+R18	Overlap Arg1:T63 Arg2:T6	
+R19	Overlap Arg1:T5 Arg2:T6	
+T119	Quantifier_or_Qualifier 261 271	genotipo 4
+R20	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T119	
+R21	Experiences Arg1:T81 Arg2:T85	
+R22	Experiences Arg1:T81 Arg2:T6	
+R25	Experiences Arg1:T88 Arg2:T20	
+R26	Experiences Arg1:T90 Arg2:T20	
+R27	Experiences Arg1:T90 Arg2:T10	
+R28	Experiences Arg1:T90 Arg2:T11	
+R29	Causes Arg1:T92 Arg2:T11	
+R30	Used_for Arg1:T64 Arg2:T20	
+T120	Observation 573 587	Respuesta nula
+#103	AnnotatorNotes T120	C0438286; Absent response to treatment; Finding
+R31	Experiences Arg1:T93 Arg2:T120	
+A35	Status T120 History_of
+T121	Observation 598 621	Respondedores parciales
+#104	AnnotatorNotes T121	C1521726; partial response; Finding
+R32	Experiences Arg1:T93 Arg2:T121	
+T122	DISO 624 634	Recayentes
+#105	AnnotatorNotes T122	C3160896; Hepatitis C relapse; Disease or Syndrome
+R33	Experiences Arg1:T93 Arg2:T122	
+R35	Combined_with Arg1:T13 Arg2:T14	
+R37	Experiences Arg1:T93 Arg2:T13	
+R39	Causes Arg1:T95 Arg2:T15	
+R41	Overlap Arg1:T15 Arg2:T16	
+T123	Quantifier_or_Qualifier 667 677	genotipo 4
+R42	Has_Quantifier_or_Qualifier Arg1:T95 Arg2:T123	
+R43	Has_Duration_or_Interval Arg1:T15 Arg2:T97	
+R46	Overlap Arg1:T116 Arg2:T66	
+R47	Experiences Arg1:T98 Arg2:T12	
+R48	Location_of Arg1:T18 Arg2:T12	
+#106	AnnotatorNotes T12	C5166375; HCV RNA Pnl | Serum or Plasma | Microbiology Panels; Laboratory Procedure
+T124	Result_or_Value 743 755	>1.000 IU/ML
+R49	Has_Result_or_Value Arg1:T12 Arg2:T124	
+T125	PROC 759 768	Selección
+#107	AnnotatorNotes T125	C0242802; Patient Selection; Research Activity
+R50	Overlap Arg1:T12 Arg2:T125	
+R51	Experiences Arg1:T100 Arg2:T31	
+R52	Used_for Arg1:T19 Arg2:T31	
+R53	Combined_with Arg1:T19 Arg2:T70	
+R54	Combined_with Arg1:T70 Arg2:T21	
+R55	Combined_with Arg1:T62 Arg2:T22	
+R56	Used_for Arg1:T62 Arg2:T31	
+T126	CONC 969 990	final del tratamiento
+R57	Overlap Arg1:T47 Arg2:T126	
+T127	Observation 955 965	detectable
+#108	AnnotatorNotes T127	C0442726; Detected (finding); Finding
+R58	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T127	
+R59	Overlap Arg1:T127 Arg2:T126	
+R60	Used_for Arg1:T58 Arg2:T24	
+R61	Combined_with Arg1:T58 Arg2:T73	
+R62	Combined_with Arg1:T73 Arg2:T25	
+R63	Combined_with Arg1:T39 Arg2:T26	
+R64	Used_for Arg1:T39 Arg2:T24	
+R65	Overlap Arg1:T116 Arg2:T58	
+R66	Overlap Arg1:T116 Arg2:T39	
+T128	CONC 1081 1102	final del tratamiento
+T129	Result_or_Value 1065 1077	indetectable
+#109	AnnotatorNotes T129	C3827727; Undetectable; Clinical Attribute
+R69	Has_Result_or_Value Arg1:T45 Arg2:T129	
+R70	Overlap Arg1:T45 Arg2:T128	
+R71	Used_for Arg1:T71 Arg2:T28	
+R72	Combined_with Arg1:T71 Arg2:T68	
+R73	Combined_with Arg1:T68 Arg2:T29	
+R74	Used_for Arg1:T69 Arg2:T28	
+R75	Combined_with Arg1:T69 Arg2:T30	
+T130	Observation 1134 1144	se detectó
+#110	AnnotatorNotes T130	C0442726; Detected (finding); Finding
+R76	Overlap Arg1:T130 Arg2:T104	
+R77	Has_Duration_or_Interval Arg1:T32 Arg2:T104	
+R78	Overlap Arg1:T101 Arg2:T130	
+R79	Before Arg1:T28 Arg2:T32	
+R80	Overlap Arg1:T45 Arg2:T32	
+T131	Result_or_Value 1216 1234	Resultado positivo
+#111	AnnotatorNotes T131	C1446409; Positive; Finding
+R82	Has_Result_or_Value Arg1:T33 Arg2:T131	
+R83	Has_Result_or_Value Arg1:T35 Arg2:T131	
+R84	Has_Result_or_Value Arg1:T36 Arg2:T131	
+R85	Has_Result_or_Value Arg1:T37 Arg2:T131	
+T132	PROC 1252 1261	selección
+#112	AnnotatorNotes T132	C0242802; Patient Selection; Research Activity
+R86	Overlap Arg1:T131 Arg2:T132	
+R87	Overlap Arg1:T132 Arg2:T33	
+R88	Overlap Arg1:T132 Arg2:T35	
+R89	Overlap Arg1:T132 Arg2:T36	
+R90	Overlap Arg1:T132 Arg2:T37	
+R91	Causes Arg1:T34 Arg2:T131	
+R92	Causes Arg1:T105 Arg2:T131	
+R93	Causes Arg1:T106 Arg2:T131	
+T133	Observation 1405 1418;1426 1466	Participación en otro estudio clínico intervencionista
+T134	Observation 1468 1481;1491 1512	participación en este mismo estudio
+A36	Status T134 History_of
+#114	AnnotatorNotes T44	C3883357; Hepatitis C Virus NS5A Inhibitor; Pharmacologic Substance
+R94	Overlap Arg1:T133 Arg2:T107	
+R95	Overlap Arg1:T38 Arg2:T107	
+R96	Overlap Arg1:T94 Arg2:T109	
+R97	Before Arg1:T94 Arg2:T72	
+R98	Before Arg1:T44 Arg2:T72	
+R99	Used_for Arg1:T46 Arg2:T72	
+R100	Before Arg1:T41 Arg2:T72	
+R101	Before Arg1:T40 Arg2:T72	
+R102	Before Arg1:T42 Arg2:T72	
+R103	Before Arg1:T43 Arg2:T72	
+#115	AnnotatorNotes T48	C3653501; DIRECT ACTING ANTIVIRALS; Pharmacologic Substance
+R104	Combined_with Arg1:T51 Arg2:T49	
+R105	Combined_with Arg1:T51 Arg2:T53	
+R106	Combined_with Arg1:T49 Arg2:T52	
+T135	CONC 2077 2091	Datos clínicos
+#116	AnnotatorNotes T135	C1516606; Clinical Data; Intellectual Product
+R107	Overlap Arg1:T135 Arg2:T112	
+R108	Overlap Arg1:T135 Arg2:T113	
+A37	Status T84 History_of
+R109	Overlap Arg1:T84 Arg2:T113	
+R110	Overlap Arg1:T84 Arg2:T112	
+T136	Result_or_Value 2142 2147	B o C
+R111	Has_Result_or_Value Arg1:T84 Arg2:T136	
+R112	Location_of Arg1:T74 Arg2:T54	
+R113	Location_of Arg1:T75 Arg2:T56	
+R114	Location_of Arg1:T76 Arg2:T57	
+R115	Location_of Arg1:T77 Arg2:T59	
+R116	Location_of Arg1:T78 Arg2:T60	
+R117	Causes Arg1:T115 Arg2:T61	
+R118	Has_Duration_or_Interval Arg1:T61 Arg2:T114	
+#117	AnnotatorNotes T79	C0022885; Laboratory Procedures; Laboratory Procedure
+T137	Observation 2398 2426	Pruebas analíticas anormales
+#118	AnnotatorNotes T137	C3648370; laboratory tests nonspecific abnormal findings; Finding
+R38	Overlap Arg1:T120 Arg2:T13	
+R120	Overlap Arg1:T120 Arg2:T14	
+R121	Overlap Arg1:T121 Arg2:T13	
+R122	Overlap Arg1:T121 Arg2:T14	
+R23	Experiences Arg1:T88 Arg2:T10	
+R24	Experiences Arg1:T88 Arg2:T11	
+A38	Experiencer T81 Patient
+A39	Experiencer T86 Patient
+A40	Experiencer T90 Patient
+A41	Experiencer T88 Patient
+A42	Experiencer T93 Patient
+A43	Experiencer T98 Patient
+A44	Experiencer T100 Patient
+R34	Has_Result_or_Value Arg1:T79 Arg2:T137	

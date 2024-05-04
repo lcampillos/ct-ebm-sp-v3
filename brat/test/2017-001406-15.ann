@@ -1,0 +1,273 @@
+T1	PROC 78 101	tratamiento antibiótico
+#1	AnnotatorNotes T1	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T2	DISO 108 116	neumonía
+#2	AnnotatorNotes T2	C0032285; Pneumonia; Disease or Syndrome
+T3	PROC 160 183	tratamiento antibiótico
+#3	AnnotatorNotes T3	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T4	DISO 190 224	neumonía adquirida en la comunidad
+#4	AnnotatorNotes T4	C0694549; Community acquired pneumonia; Disease or Syndrome
+T5	DISO 288 296	Neumonía
+#5	AnnotatorNotes T5	C0032285; Pneumonia; Disease or Syndrome
+T6	DISO 322 356	Neumonía adquirida en la comunidad
+#6	AnnotatorNotes T6	C0694549; Community acquired pneumonia; Disease or Syndrome
+T7	PROC 396 410	hospitalizados
+#7	AnnotatorNotes T7	C0019993; Hospitalization; Health Care Activity
+T8	PROC 415 426	diagnóstico
+#8	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	DISO 430 433	NAC
+#9	AnnotatorNotes T9	C0694549; Community acquired pneumonia; Disease or Syndrome
+T10	DISO 457 479	infiltrado radiológico
+#10	AnnotatorNotes T10	C0235896; Pulmonary Infiltrate; Finding
+T11	DISO 531 537	signos
+#11	AnnotatorNotes T11	C0311392; Physical findings; Finding
+T12	DISO 540 548	síntomas
+#12	AnnotatorNotes T12	C1457887; Symptoms; Sign or Symptom
+T13	DISO 550 556	fiebre
+#13	AnnotatorNotes T13	C0015967; Fever; Sign or Symptom
+T14	DISO 567 570	tos
+#14	AnnotatorNotes T14	C0010200; Coughing; Sign or Symptom
+T15	DISO 572 585	expectoración
+#15	AnnotatorNotes T15	C0159054; Abnormal sputum; Finding
+T16	DISO 587 601	dolor torácico
+#16	AnnotatorNotes T16	C0008031; Chest Pain; Sign or Symptom
+T17	DISO 603 609	disnea
+#17	AnnotatorNotes T17	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T18	DISO 612 621	taquipnea
+#18	AnnotatorNotes T18	C0231835; Tachypnea; Finding
+T19	DISO 625 631	signos
+#19	AnnotatorNotes T19	C0311392; Physical findings; Finding
+T20	ANAT 657 665	alveolar
+#20	AnnotatorNotes T20	C1440080; Alveolar; Body Part, Organ, or Organ Component
+T21	PROC 743 766	tratamiento antibiótico
+#21	AnnotatorNotes T21	C0199779; Administration of antibiotic; Therapeutic or Preventive Procedure | C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T22	PROC 822 841	ingreso a urgencias
+#22	AnnotatorNotes T22	C0583237; Emergency room admission; Health Care Activity
+T23	PROC 890 901	temperatura
+#23	AnnotatorNotes T23	C0886414; Body temperature measurement; Health Care Activity
+T24	CHEM 1089 1096	oxígeno
+#24	AnnotatorNotes T24	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T25	PROC 1001 1027	presión arterial sistólica
+#25	AnnotatorNotes T25	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T26	DISO 1218 1238	Co infección con VIH
+T27	DISO 1254 1258	SIDA
+#26	AnnotatorNotes T27	C0001175; Acquired Immunodeficiency Syndrome; Disease or Syndrome
+T28	PROC 1295 1321	tratamiento inmunosupresor
+#27	AnnotatorNotes T28	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T29	CHEM 1372 1383	corticoides
+#28	AnnotatorNotes T29	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T30	CHEM 1385 1395	prednisona
+#29	AnnotatorNotes T30	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T31	PROC 1451 1465	hospitalizados
+#30	AnnotatorNotes T31	C0019993; Hospitalization; Health Care Activity
+T32	DISO 1507 1522	derrame pleural
+#31	AnnotatorNotes T32	C0032227; Pleural effusion disorder; Disease or Syndrome
+T33	CHEM 1651 1667	fluoroquinolonas
+#32	AnnotatorNotes T33	C0949665; Fluoroquinolones; Organic Chemical · Pharmacologic Substance
+T34	DISO 1586 1603	Hipersensibilidad
+#33	AnnotatorNotes T34	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T35	DISO 1606 1634	alteraciones en los tendones
+T36	CHEM 90 101	antibiótico
+#34	AnnotatorNotes T36	C0003232; Antibiotics; Antibiotic
+T37	CHEM 172 183	antibiótico
+#35	AnnotatorNotes T37	C0003232; Antibiotics; Antibiotic
+T38	PROC 1068 1096	presión arterial del oxígeno
+T39	ANAT 593 601	torácico
+#36	AnnotatorNotes T39	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T40	PROC 693 696	PSI
+#37	AnnotatorNotes T40	['pneumonia severity index']
+T41	CHEM 755 766	antibiótico
+#38	AnnotatorNotes T41	C0003232; Antibiotics; Antibiotic
+T42	PROC 912 931	frecuencia cardíaca
+#39	AnnotatorNotes T42	C2197023; examination of heart rate; Health Care Activity
+T43	ANAT 923 931	cardíaca
+#40	AnnotatorNotes T43	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T45	PROC 1146 1170	consentimiento informado
+#41	AnnotatorNotes T45	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T46	ANAT 1076 1084	arterial
+#42	AnnotatorNotes T46	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T47	PROC 952 975	frecuencia respiratoria
+#43	AnnotatorNotes T47	C0561866; Respiratory rate monitoring; Health Care Activity
+T48	PROC 1038 1059	saturación de oxígeno
+#44	AnnotatorNotes T48	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T49	CHEM 1307 1321	inmunosupresor
+#45	AnnotatorNotes T49	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T50	DISO 1260 1273	neutropénicos
+#46	AnnotatorNotes T50	C0027947; Neutropenia; Disease or Syndrome | C0853697; Neutrophil count decreased; Finding
+T51	ANAT 1515 1522	pleural
+#47	AnnotatorNotes T51	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T52	ANAT 1626 1634	tendones
+#48	AnnotatorNotes T52	C0039508; Tendon structure; Body Part, Organ, or Organ Component | C1280538; Entire tendon; Body Part, Organ, or Organ Component
+T53	PROC 262 265	PSI
+#49	AnnotatorNotes T53	['Pneumonia severity index']
+T54	DISO 1201 1216	Inmunodepresión
+#50	AnnotatorNotes T54	C1334159; Immunodeficiency-Related Disorder; Disease or Syndrome
+T55	ANAT 1009 1017	arterial
+#51	AnnotatorNotes T55	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T56	Date 12 16	2017
+T57	LIVB 386 395	Pacientes
+#52	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 714 723	Pacientes
+#53	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T61	Duration 803 818	la primera hora
+T62	LIVB 846 855	Pacientes
+#54	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T65	PHYS 937 944	latidos
+#55	AnnotatorNotes T65	C0425583; Heart beat; Organ or Tissue Function
+T70	PHYS 1001 1017	presión arterial
+#56	AnnotatorNotes T70	C0005823; Blood Pressure; Organism Function
+T71	CHEM 1052 1059	oxígeno
+#57	AnnotatorNotes T71	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T72	PHYS 1068 1084	presión arterial
+#58	AnnotatorNotes T72	C0005823; Blood Pressure; Organism Function
+T73	Date 1121 1131	cuarto día
+T75	LIVB 1235 1238	VIH
+#59	AnnotatorNotes T75	C0019682; HIV; Virus
+T76	LIVB 1343 1352	Pacientes
+#60	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T77	Duration 1361 1368	crónico
+#61	AnnotatorNotes T77	C0205191; chronic; Temporal Concept
+T78	Dose 1414 1420	>10 mg
+T79	Frequency 1420 1424	/día
+T80	Duration 1429 1436	14 días
+T81	LIVB 1441 1450	Pacientes
+#62	AnnotatorNotes T81	C0030705; Patients; Patient or Disabled Group
+T82	Duration 1469 1488	los 14 días previos
+T83	LIVB 1493 1502	Pacientes
+#63	AnnotatorNotes T83	C0030705; Patients; Patient or Disabled Group
+T84	Spec_cue 1526 1537	Sospecha de
+T85	PHYS 1672 1680	Embarazo
+#64	AnnotatorNotes T85	C0032961; Pregnancy; Organism Function
+T86	PHYS 1683 1692	lactancia
+#65	AnnotatorNotes T86	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T87	LIVB 215 224	comunidad
+#66	AnnotatorNotes T87	C0009462; Community; Group
+T88	LIVB 347 356	comunidad
+#67	AnnotatorNotes T88	C0009462; Community; Group
+T90	LIVB 1538 1562	gérmenes multiresistente
+#68	AnnotatorNotes T90	C4534388; Multidrug-resistant organism (MDRO); Organism (?)
+A1	Assertion T90 Speculated
+A2	Status T31 History_of
+A3	Status T34 History_of
+R1	Speculation Arg1:T84 Arg2:T90	
+R2	Causes Arg1:T75 Arg2:T26	
+T44	Observation 625 665	signos de ocupación del espacio alveolar
+R3	Location_of Arg1:T20 Arg2:T44	
+R4	Used_for Arg1:T36 Arg2:T1	
+R5	Used_for Arg1:T37 Arg2:T3	
+T58	CONC 242 265	escala de severidad PSI
+#69	AnnotatorNotes T58	C1321595; Pneumonia severity index; Intellectual Product
+R6	Experiences Arg1:T57 Arg2:T7	
+R7	Experiences Arg1:T57 Arg2:T9	
+R9	Overlap Arg1:T10 Arg2:T11	
+T60	Quantifier_or_Qualifier 500 512	al menos dos
+R10	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T60	
+R11	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T60	
+R12	Overlap Arg1:T10 Arg2:T12	
+R13	Overlap Arg1:T10 Arg2:T13	
+R14	Overlap Arg1:T10 Arg2:T14	
+R15	Overlap Arg1:T10 Arg2:T15	
+R16	Overlap Arg1:T10 Arg2:T16	
+R17	Location_of Arg1:T39 Arg2:T16	
+R18	Overlap Arg1:T10 Arg2:T17	
+R19	Overlap Arg1:T10 Arg2:T18	
+R20	Overlap Arg1:T10 Arg2:T44	
+R21	Overlap Arg1:T10 Arg2:T19	
+T63	Result_or_Value 558 564	>38 ºC
+R22	Has_Result_or_Value Arg1:T13 Arg2:T63	
+R23	Experiences Arg1:T57 Arg2:T10	
+R24	Experiences Arg1:T57 Arg2:T11	
+R25	Experiences Arg1:T57 Arg2:T12	
+R26	Causes Arg1:T9 Arg2:T11	
+R27	Causes Arg1:T9 Arg2:T12	
+R28	Experiences Arg1:T57 Arg2:T13	
+R29	Experiences Arg1:T57 Arg2:T14	
+R30	Experiences Arg1:T57 Arg2:T15	
+R31	Experiences Arg1:T57 Arg2:T16	
+R32	Experiences Arg1:T57 Arg2:T17	
+R33	Experiences Arg1:T57 Arg2:T18	
+R34	Experiences Arg1:T57 Arg2:T19	
+R35	Experiences Arg1:T57 Arg2:T44	
+T64	CONC 687 696	score PSI
+#70	AnnotatorNotes T64	C1321595; Pneumonia severity index; Intellectual Product
+T66	Result_or_Value 697 709	clase IV o V
+R36	Has_Result_or_Value Arg1:T40 Arg2:T66	
+R37	Experiences Arg1:T59 Arg2:T21	
+R38	Used_for Arg1:T41 Arg2:T21	
+R39	After Arg1:T21 Arg2:T61	
+R40	Before Arg1:T22 Arg2:T21	
+T67	CONC 782 796	guías clínicas
+#71	AnnotatorNotes T67	C0282451; Clinical Practice Guideline; Intellectual Product
+T68	Observation 869 888	estabilidad clínica
+#72	AnnotatorNotes T68	C1282982; Patient's condition stable; Finding
+R41	Experiences Arg1:T62 Arg2:T68	
+R42	Experiences Arg1:T62 Arg2:T23	
+T69	Result_or_Value 902 910	≤37.2 ºC
+R43	Has_Result_or_Value Arg1:T23 Arg2:T69	
+T74	Result_or_Value 932 950	≤100 latidos / min
+R44	Location_of Arg1:T43 Arg2:T42	
+R45	Experiences Arg1:T62 Arg2:T42	
+R46	Experiences Arg1:T62 Arg2:T65	
+R47	Has_Result_or_Value Arg1:T42 Arg2:T74	
+T89	Result_or_Value 976 999	≤24 respiraciones / min
+R48	Has_Result_or_Value Arg1:T47 Arg2:T89	
+R49	Location_of Arg1:T55 Arg2:T70	
+R50	Location_of Arg1:T55 Arg2:T25	
+T91	Result_or_Value 1028 1036	>90 mmHg
+R52	Has_Result_or_Value Arg1:T25 Arg2:T91	
+R53	Experiences Arg1:T62 Arg2:T47	
+R55	Experiences Arg1:T62 Arg2:T25	
+R56	Experiences Arg1:T62 Arg2:T70	
+R57	Experiences Arg1:T62 Arg2:T48	
+T92	Result_or_Value 1060 1064	>90%
+R58	Has_Result_or_Value Arg1:T48 Arg2:T92	
+R59	Location_of Arg1:T46 Arg2:T72	
+R60	Location_of Arg1:T46 Arg2:T38	
+R61	Experiences Arg1:T62 Arg2:T38	
+T93	Result_or_Value 1097 1105	>60 mmHg
+R62	Has_Result_or_Value Arg1:T38 Arg2:T93	
+#73	AnnotatorNotes T38	C4473356; arterial blood oxygen tension (lab test); Laboratory Procedure
+R63	Before Arg1:T38 Arg2:T73	
+R64	Before Arg1:T48 Arg2:T73	
+R65	Before Arg1:T68 Arg2:T73	
+R66	Before Arg1:T25 Arg2:T73	
+R67	Before Arg1:T47 Arg2:T73	
+R68	Before Arg1:T42 Arg2:T73	
+R69	Before Arg1:T23 Arg2:T73	
+#74	AnnotatorNotes T26	C4505456; HIV Coinfection; Disease or Syndrome
+R70	Causes Arg1:T26 Arg2:T54	
+R71	Overlap Arg1:T26 Arg2:T27	
+R72	Causes Arg1:T75 Arg2:T27	
+R73	Causes Arg1:T27 Arg2:T54	
+R74	Causes Arg1:T50 Arg2:T54	
+R75	Causes Arg1:T28 Arg2:T54	
+R76	Used_for Arg1:T49 Arg2:T28	
+R77	Experiences Arg1:T76 Arg2:T29	
+R78	Has_Duration_or_Interval Arg1:T29 Arg2:T77	
+R79	Experiences Arg1:T76 Arg2:T30	
+T94	CONC 1385 1395;1401 1412	prednisona equivalente
+R80	Has_Dose_or_Strength Arg1:T29 Arg2:T78	
+R81	Has_Dose_or_Strength Arg1:T30 Arg2:T78	
+R82	Has_Frequency Arg1:T29 Arg2:T79	
+R83	Has_Frequency Arg1:T30 Arg2:T79	
+R84	Has_Duration_or_Interval Arg1:T29 Arg2:T80	
+R85	Has_Duration_or_Interval Arg1:T30 Arg2:T80	
+R86	Experiences Arg1:T81 Arg2:T31	
+R87	Overlap Arg1:T31 Arg2:T82	
+R88	Experiences Arg1:T83 Arg2:T32	
+R89	Location_of Arg1:T51 Arg2:T32	
+R90	Location_of Arg1:T52 Arg2:T35	
+R91	Causes Arg1:T33 Arg2:T34	
+R92	Causes Arg1:T33 Arg2:T35	
+R94	Overlap Arg1:T7 Arg2:T11	
+R95	Overlap Arg1:T7 Arg2:T12	
+R96	Overlap Arg1:T7 Arg2:T13	
+R104	Experiences Arg1:T62 Arg2:T72	
+R8	Experiences Arg1:T59 Arg2:T22	
+A4	Experiencer T83 Patient
+A5	Experiencer T81 Patient
+A6	Experiencer T87 Other
+A7	Experiencer T88 Other
+A8	Experiencer T57 Patient
+A9	Experiencer T59 Patient
+A10	Experiencer T62 Patient
+A11	Experiencer T76 Patient

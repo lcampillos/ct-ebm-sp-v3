@@ -1,0 +1,134 @@
+T1	CHEM 46 57	Riboflavina
+#1	AnnotatorNotes T1	C0035527; riboflavin; Organic Chemical · Pharmacologic Substance · Vitamin
+T2	PROC 63 87	tratamiento profiláctico
+#2	AnnotatorNotes T2	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T3	DISO 94 101	migraña
+#3	AnnotatorNotes T3	C0149931; Migraine Disorders; Disease or Syndrome
+T4	DISO 126 133	Migraña
+#4	AnnotatorNotes T4	C0149931; Migraine Disorders; Disease or Syndrome
+T5	DISO 211 233	migraña con y sin aura
+#5	AnnotatorNotes T5	C3808875; Migraine, with or without aura; Finding
+T6	DISO 249 256	migraña
+#6	AnnotatorNotes T6	C0149931; Migraine Disorders; Disease or Syndrome
+T7	DISO 291 298	Ataques
+#7	AnnotatorNotes T7	C1304680; Observation of attack; Finding
+T8	CHEM 372 383	analgésicos
+#8	AnnotatorNotes T8	C0002771; Analgesics; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T9	DISO 407 438	trastorno médico o psiquiátrico
+T10	DISO 502 510	migrañas
+#9	AnnotatorNotes T10	C0149931; Migraine Disorders; Disease or Syndrome
+T11	DISO 528 536	cefaleas
+#10	AnnotatorNotes T11	C0018681; Headache; Sign or Symptom
+T12	PROC 572 586	anticoncepción
+#11	AnnotatorNotes T12	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T13	DISO 688 706	cefaleas primarias
+T14	DISO 752 760	migrañas
+#12	AnnotatorNotes T14	C0149931; Migraine Disorders; Disease or Syndrome
+T15	DISO 764 781	Cefalea a tensión
+#13	AnnotatorNotes T15	C0033893; Tension Headache; Disease or Syndrome
+T16	CHEM 819 830	analgésicos
+#14	AnnotatorNotes T16	C0002771; Analgesics; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T17	PROC 851 889	Tratamiento profiláctico antimigrañoso
+T18	CHEM 974 985	riboflavina
+#15	AnnotatorNotes T18	C0035527; riboflavin; Organic Chemical · Pharmacologic Substance · Vitamin
+T19	DISO 988 999	interacción
+#16	AnnotatorNotes T19	C0687133; Drug Interactions; Pathologic Function
+T20	PROC 1030 1042	tratamientos
+#17	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	Date 13 17	2011
+T22	LIVB 162 169	Adultos
+#18	AnnotatorNotes T22	C0001675; Adult; Age Group
+T23	Age 170 188	entre 18 y 65 años
+T25	Duration 260 275	al menos un año
+T26	Duration 341 360	los últimos 6 meses
+T28	Frequency 384 400	< 15 días al mes
+T29	Neg_cue 404 406	No
+T30	LIVB 452 460	paciente
+#19	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 544 551	mujeres
+#20	AnnotatorNotes T31	C0043210; Woman; Population Group
+T32	PHYS 635 643	Embarazo
+#21	AnnotatorNotes T32	C0032961; Pregnancy; Organism Function
+T33	PHYS 645 654	lactancia
+#22	AnnotatorNotes T33	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T34	PHYS 670 678	embarazo
+#23	AnnotatorNotes T34	C0032961; Pregnancy; Organism Function
+T36	LIVB 714 722	paciente
+#24	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T39	Frequency 793 808	>15 días al mes
+T41	Frequency 831 847	> 15 días al mes
+T42	Duration 893 907	los tres meses
+T43	LIVB 1055 1063	paciente
+#25	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T24	Frequency 318 325	por mes
+A1	Population_data T22 Age
+A2	Assertion T9 Negated
+A3	Status T6 History_of
+A4	Assertion T18 Contraindicated
+A5	Status T20 History_of
+A6	Status T17 History_of
+#26	AnnotatorNotes T9	C0012634; Disease; Disease or Syndrome + C0004936; Mental disorders; Mental or Behavioral Dysfunction 
+T27	Neg_cue 723 725	no
+T35	Observation 726 760	sabe distinguirlas de sus migrañas
+A7	Assertion T35 Negated
+T37	Neg_cue 225 228	sin
+T38	Observation 229 233	aura
+A8	Assertion T38 Negated
+#27	AnnotatorNotes T38	C0236018; Aura; Finding
+T40	Observation 461 477;502 536	sabe diferenciar migrañas y otros tipos de cefaleas
+T44	Quantifier_or_Qualifier 439 445	severo
+A9	Assertion T44 Negated
+#28	AnnotatorNotes T44	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R1	Negation Arg1:T29 Arg2:T9	
+R2	Negation Arg1:T29 Arg2:T44	
+R3	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T44	
+R4	Used_for Arg1:T1 Arg2:T2	
+R5	Before Arg1:T1 Arg2:T3	
+R6	Has_Age Arg1:T22 Arg2:T23	
+R7	Negation Arg1:T37 Arg2:T38	
+R8	Overlap Arg1:T5 Arg2:T38	
+R9	Has_Duration_or_Interval Arg1:T6 Arg2:T25	
+R10	Has_Frequency Arg1:T7 Arg2:T24	
+R11	Overlap Arg1:T7 Arg2:T26	
+T45	Quantifier_or_Qualifier 326 337	entre 2 y 8
+R12	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T45	
+R13	Has_Frequency Arg1:T8 Arg2:T28	
+R14	Experiences Arg1:T31 Arg2:T12	
+T46	PROC 598 605	estudio
+#29	AnnotatorNotes T46	C0008976; Clinical Trials; Research Activity
+R15	Overlap Arg1:T12 Arg2:T46	
+R16	Experiences Arg1:T30 Arg2:T10	
+R17	Experiences Arg1:T30 Arg2:T11	
+T47	Observation 657 678	intención de embarazo
+#30	AnnotatorNotes T47	C0032992; Pregnancy, Planned; Finding
+R18	Before Arg1:T47 Arg2:T34	
+#31	AnnotatorNotes T13	C1565106; Headache Disorders, Primary; Disease or Syndrome
+R19	Experiences Arg1:T36 Arg2:T13	
+R20	Experiences Arg1:T36 Arg2:T14	
+R21	Negation Arg1:T27 Arg2:T35	
+R22	Has_Frequency Arg1:T15 Arg2:T39	
+T48	Quantifier_or_Qualifier 682 687	Otras
+#32	AnnotatorNotes T48	C0205394; Other; Qualitative Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T48	
+R24	Has_Frequency Arg1:T16 Arg2:T41	
+R25	Has_Duration_or_Interval Arg1:T17 Arg2:T42	
+T49	CONC 919 937	inicio del estudio
+#33	AnnotatorNotes T49	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R26	Before Arg1:T17 Arg2:T49	
+T50	Quantifier_or_Qualifier 782 791	frecuente
+#34	AnnotatorNotes T50	C0332183; Frequently; Temporal Concept 
+R27	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T50	
+T51	Quantifier_or_Qualifier 1000 1013	significativa
+#35	AnnotatorNotes T51	C1546944; Event Seriousness - Significant; Qualitative Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T51	
+R29	Causes Arg1:T18 Arg2:T19	
+R30	Causes Arg1:T20 Arg2:T19	
+R31	Experiences Arg1:T43 Arg2:T20	
+R33	Experiences Arg1:T43 Arg2:T19	
+#36	AnnotatorNotes T17	C1142085; Migraine prophylaxis; Therapeutic or Preventive Procedure
+A10	Experiencer T22 Patient
+A11	Experiencer T30 Patient
+A12	Experiencer T31 Patient
+A13	Experiencer T36 Patient
+A14	Experiencer T43 Patient
+A15	Status T34 Future

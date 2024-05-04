@@ -1,0 +1,195 @@
+T1	PROC 855 891	consentimiento informado por escrito
+#1	AnnotatorNotes T1	C0811741; Obtain informed written consent; Health Care Activity
+T2	CHEM 135 150	antirretroviral
+#2	AnnotatorNotes T2	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T3	PROC 129 150	pauta antirretroviral
+#3	AnnotatorNotes T3	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T4	CHEM 151 160	efavirenz
+#4	AnnotatorNotes T4	C0674428; efavirenz; Organic Chemical · Pharmacologic Substance
+T5	CHEM 161 170	tenofovir
+#5	AnnotatorNotes T5	C0384228; tenofovir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T6	CHEM 171 184	emtricitabina
+#6	AnnotatorNotes T6	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T7	DISO 208 227	infección por HIV-1
+T8	DISO 281 300	Infección por VIH-1
+#7	AnnotatorNotes T8	C2363741; HIV-1 infection; Disease or Syndrome
+T9	CHEM 341 348	ATRIPLA
+#8	AnnotatorNotes T9	C1724016; Atripla; Organic Chemical · Pharmacologic Substance
+T10	DISO 1126 1136	mutaciones
+#9	AnnotatorNotes T10	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+T11	PROC 441 450	detección
+#10	AnnotatorNotes T11	C1511790; Detection; Therapeutic or Preventive Procedure
+T12	PROC 501 504	CD4
+#11	AnnotatorNotes T12	C0243009; CD4+ Lymphocyte Count; Laboratory Procedure
+T13	ANAT 396 406	plasmática
+#12	AnnotatorNotes T13	C0032105; Plasma; Body Substance
+T14	PROC 579 597	Prueba de embarazo
+#13	AnnotatorNotes T14	C0032976; Pregnancy Tests; Diagnostic Procedure
+T15	PROC 657 680	métodos anticonceptivos
+#14	AnnotatorNotes T15	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T16	CHEM 792 799	fármaco
+#15	AnnotatorNotes T16	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T17	PROC 977 986	protocolo
+#16	AnnotatorNotes T17	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T18	PROC 1088 1109	pauta antirretroviral
+#17	AnnotatorNotes T18	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T19	CHEM 1094 1109	antirretroviral
+#18	AnnotatorNotes T19	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T20	CHEM 1154 1163	efavirenz
+#19	AnnotatorNotes T20	C0674428; efavirenz; Organic Chemical · Pharmacologic Substance
+T21	CHEM 1165 1174	tenofovir
+#20	AnnotatorNotes T21	C0384228; tenofovir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T22	CHEM 1177 1190	emtricitabina
+#21	AnnotatorNotes T22	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T23	PROC 1216 1235	tratamiento crónico
+#22	AnnotatorNotes T23	C0023977; Long-term care; Health Care Activity (?)
+T24	CHEM 1246 1253	ATRIPLA
+#23	AnnotatorNotes T24	C1724016; Atripla; Organic Chemical · Pharmacologic Substance
+T25	CHEM 1377 1388	medicamento
+#24	AnnotatorNotes T25	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T26	DISO 1531 1554	Enfermedad psiquiátrica
+#25	AnnotatorNotes T26	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T27	DISO 1595 1600	signo
+#26	AnnotatorNotes T27	C0311392; Physical findings; Finding
+T28	DISO 1611 1622	alcoholismo
+#27	AnnotatorNotes T28	C0001973; Alcoholic Intoxication, Chronic; Mental or Behavioral Dysfunction
+T29	DISO 1628 1651	consumo de otras drogas
+T30	PROC 325 336	tratamiento
+#28	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	PROC 384 406	Carga viral plasmática
+T32	Date 13 17	2012
+T33	LIVB 257 264	Adultos
+#29	AnnotatorNotes T33	C0001675; Adult; Age Group
+T34	Age 266 274	≥18 años
+T35	Duration 358 378	los últimos dos años
+T36	Duration 459 486	al menos los 2 últimos años
+T37	Neg_cue 598 606	negativa
+T38	LIVB 610 632	mujeres en edad fértil
+#30	AnnotatorNotes T38	C4324275; Woman of childbearing potential; Population Group
+T39	Age 621 632	edad fértil
+T41	Duration 698 716	al menos 2 semanas
+T42	Date 727 732	día 1
+T43	Duration 746 760	mínimo 6 meses
+T44	CONC 775 787	última dosis
+T45	LIVB 821 830	pacientes
+#31	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 912 924	investigador
+#32	AnnotatorNotes T46	C0035173; Research Personnel; Professional or Occupational Group
+T47	LIVB 1017 1026	Pacientes
+#33	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Duration 1228 1235	crónico
+#34	AnnotatorNotes T48	C0205191; chronic; Temporal Concept
+T49	Duration 1281 1292	los 6 meses
+T50	LIVB 1318 1326	paciente
+#35	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 1518 1526	paciente
+#36	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T54	Date 1601 1607	actual
+T55	LIVB 390 395	viral
+#37	AnnotatorNotes T55	C0042776; Virus; Virus
+T56	PHYS 589 597	embarazo
+#38	AnnotatorNotes T56	C0032961; Pregnancy; Organism Function
+T57	PROC 103 121	reducción de dosis
+#39	AnnotatorNotes T57	C2348004; Agent Dose Decreased; Therapeutic or Preventive Procedure
+T58	LIVB 222 227	HIV-1
+#40	AnnotatorNotes T58	C0019704; HIV-1; Virus
+T59	LIVB 295 300	VIH-1
+#41	AnnotatorNotes T59	C0019704; HIV-1; Virus
+T40	LIVB 1499 1505	médico
+#42	AnnotatorNotes T40	C0031831; Physicians; Professional or Occupational Group
+T51	CHEM 1645 1651	drogas
+#43	AnnotatorNotes T51	C0086190; Illicit Drugs; Hazardous or Poisonous Substance
+T53	PROC 965 972	visitas
+#44	AnnotatorNotes T53	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T56 Negated
+A2	Population_data T38 Age
+A3	Status T10 History_of
+A4	Assertion T25 Contraindicated
+A5	Status T26 History_of
+#45	AnnotatorNotes T7	C2363741; HIV-1 infection; Disease or Syndrome
+#46	AnnotatorNotes T54	C0521116; Current (present time); Temporal Concept 
+T60	Quantifier_or_Qualifier 1571 1581	controlada
+A6	Assertion T60 Negated
+T61	Neg_cue 1568 1570	no
+T62	Neg_cue 1428 1430	no
+T63	Observation 1451 1481	adherencia correcta al estudio
+A7	Assertion T63 Negated
+T64	Observation 1414 1423	condición
+#47	AnnotatorNotes T64	C4745084; Medical Condition; Finding
+T65	Observation 302 321	estabilidad clínica
+#48	AnnotatorNotes T65	C1282982; Patient's condition stable; Finding
+R1	Causes Arg1:T59 Arg2:T8	
+R2	Used_for Arg1:T9 Arg2:T30	
+R3	Has_Duration_or_Interval Arg1:T9 Arg2:T35	
+R4	Location_of Arg1:T13 Arg2:T31	
+T66	Result_or_Value 416 450	por debajo del límite de detección
+R5	Overlap Arg1:T31 Arg2:T36	
+R6	Has_Result_or_Value Arg1:T31 Arg2:T66	
+R7	Overlap Arg1:T8 Arg2:T65	
+R8	Causes Arg1:T58 Arg2:T7	
+R9	Used_for Arg1:T2 Arg2:T3	
+R10	Combined_with Arg1:T4 Arg2:T5	
+R11	Combined_with Arg1:T5 Arg2:T6	
+R12	Used_for Arg1:T4 Arg2:T57	
+R13	Used_for Arg1:T2 Arg2:T57	
+R14	Has_Age Arg1:T33 Arg2:T34	
+T67	Result_or_Value 505 523	superior a 350/mm3
+R15	Has_Result_or_Value Arg1:T12 Arg2:T67	
+T68	CONC 530 573	momento de la consideración para el estudio
+R16	Overlap Arg1:T12 Arg2:T68	
+R17	Negation Arg1:T37 Arg2:T56	
+R18	Experiences Arg1:T38 Arg2:T14	
+R19	Experiences Arg1:T38 Arg2:T56	
+R20	Has_Age Arg1:T38 Arg2:T39	
+R21	Experiences Arg1:T38 Arg2:T15	
+T69	Quantifier_or_Qualifier 681 691	aceptables
+#49	AnnotatorNotes T69	C1879533; Acceptable; Qualitative Concept 
+R22	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T69	
+R23	Has_Duration_or_Interval Arg1:T15 Arg2:T41	
+R24	Before Arg1:T15 Arg2:T42	
+R25	After Arg1:T15 Arg2:T43	
+R26	After Arg1:T15 Arg2:T44	
+R27	Has_Dose_or_Strength Arg1:T16 Arg2:T44	
+R28	Experiences Arg1:T38 Arg2:T16	
+T70	Observation 930 972	capaces de seguir el diseño de las visitas
+T71	Observation 1048 1066	fracaso virológico
+A8	Status T71 History_of
+R29	Experiences Arg1:T47 Arg2:T71	
+R30	Overlap Arg1:T71 Arg2:T18	
+R31	Used_for Arg1:T19 Arg2:T18	
+R32	Overlap Arg1:T23 Arg2:T24	
+R33	Has_Duration_or_Interval Arg1:T23 Arg2:T48	
+R34	Overlap Arg1:T23 Arg2:T49	
+T72	PROC 1333 1340	estudio
+#50	AnnotatorNotes T72	C0008976; Clinical Trials; Research Activity
+R35	Before Arg1:T23 Arg2:T72	
+R36	Experiences Arg1:T50 Arg2:T23	
+R37	Experiences Arg1:T50 Arg2:T24	
+R38	Negation Arg1:T62 Arg2:T63	
+R39	Before Arg1:T64 Arg2:T63	
+R40	Experiences Arg1:T52 Arg2:T64	
+R41	Negation Arg1:T61 Arg2:T60	
+R42	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T60	
+R43	Overlap Arg1:T27 Arg2:T54	
+R44	Overlap Arg1:T28 Arg2:T54	
+R45	Overlap Arg1:T29 Arg2:T51	
+#51	AnnotatorNotes T29	C0242510; Drug usage; Mental or Behavioral Dysfunction (?)
+R46	Causes Arg1:T28 Arg2:T27	
+R47	Causes Arg1:T29 Arg2:T27	
+R48	Overlap Arg1:T29 Arg2:T54	
+R49	Overlap Arg1:T51 Arg2:T54	
+R50	Used_for Arg1:T4 Arg2:T3	
+#52	AnnotatorNotes T31	C3835525; HIV-1 RNA viral load in plasma by target amplification; Laboratory Procedure (?)
+#53	AnnotatorNotes T71	C1699206; Virologic failure; Finding
+#54	AnnotatorNotes R27	(?)
+#55	AnnotatorNotes T44	C1762893; Date last dose; Temporal Concept
+A9	Experiencer T40 Other
+A10	Experiencer T52 Patient
+A11	Experiencer T33 Patient
+A12	Experiencer T38 Patient
+A13	Experiencer T45 Patient
+A14	Experiencer T46 Other
+A15	Experiencer T47 Patient
+A16	Experiencer T50 Patient
+T73	Result_or_Value 598 606	negativa
+R51	Has_Result_or_Value Arg1:T14 Arg2:T73	

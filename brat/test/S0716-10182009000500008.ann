@@ -1,0 +1,208 @@
+T1	DISO 14 43	infección del tracto urinario
+#1	AnnotatorNotes T1	C0042029; Urinary tract infection; Disease or Syndrome
+T2	DISO 57 65	febriles
+#2	AnnotatorNotes T2	C0015967; Fever; Sign or Symptom
+T3	PROC 82 120	tratamiento antimicrobiano intravenoso
+#3	AnnotatorNotes T3	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure + C0455142; Intravenous therapy; Therapeutic or Preventive Procedure
+T4	PROC 199 222	tratamiento intravenoso
+#4	AnnotatorNotes T4	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure | C1273557; Intravenous administration of treatment; Therapeutic or Preventive Procedure
+T5	DISO 273 302	infección del tracto urinario
+#5	AnnotatorNotes T5	C0042029; Urinary tract infection; Disease or Syndrome
+T6	DISO 304 307	ITU
+#6	AnnotatorNotes T6	C0042029; Urinary tract infection; Disease or Syndrome
+T7	DISO 311 317	fiebre
+#7	AnnotatorNotes T7	C0015967; Fever; Sign or Symptom
+T8	PROC 372 391	estudio prospectivo
+#8	AnnotatorNotes T8	C0033522; Prospective Studies; Research Activity
+T9	DISO 409 424	fiebre sin foco
+T10	PROC 470 484	diagnosticados
+#9	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 490 493	ITU
+#10	AnnotatorNotes T11	C0042029; Urinary tract infection; Disease or Syndrome
+T12	PROC 526 540	tratamiento iv
+#11	AnnotatorNotes T12	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure | C1273557; Intravenous administration of treatment; Therapeutic or Preventive Procedure
+T13	PROC 546 559	hospitalizado
+#12	AnnotatorNotes T13	C0019993; Hospitalization; Health Care Activity
+T14	CHEM 594 603	amikacina
+#13	AnnotatorNotes T14	C0002499; amikacin; Organic Chemical · Antibiotic
+T15	CHEM 606 617	ceftriaxona
+#14	AnnotatorNotes T15	C0007561; ceftriaxone; Organic Chemical · Antibiotic
+T16	PROC 682 692	urocultivo
+#15	AnnotatorNotes T16	C0430404; Urine culture; Laboratory Procedure
+T17	PROC 723 739	tratamiento oral
+#16	AnnotatorNotes T17	C1273553; Oral administration of treatment; Therapeutic or Preventive Procedure
+T18	PROC 741 752	Se controló
+#17	AnnotatorNotes T18	C0030695; Patient Monitoring; Health Care Activity | C0150369; Preventive monitoring; Health Care Activity
+T19	PROC 753 763	urocultivo
+#18	AnnotatorNotes T19	C0430404; Urine culture; Laboratory Procedure
+T20	PROC 777 788	tratamiento
+#19	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	DISO 829 843	complicaciones
+#20	AnnotatorNotes T21	C0009566; Complication; Pathologic Function
+T22	PROC 890 904	hospitalizados
+#21	AnnotatorNotes T22	C0019993; Hospitalization; Health Care Activity
+T23	PROC 980 994	tratamiento iv
+#22	AnnotatorNotes T23	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure | C1273557; Intravenous administration of treatment; Therapeutic or Preventive Procedure
+T24	PROC 1089 1099	internados
+#23	AnnotatorNotes T24	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T25	PROC 1209 1219	urocultivo
+#24	AnnotatorNotes T25	C0430404; Urine culture; Laboratory Procedure
+T26	DISO 1259 1289	complicaciones del tratamiento
+#25	AnnotatorNotes T26	C0679861; Complications of treatment; Pathologic Function
+T27	PROC 1278 1289	tratamiento
+#26	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	PROC 1316 1334	análisis de costos
+T30	PROC 1510 1524	tratamiento iv
+#27	AnnotatorNotes T30	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure | C1273557; Intravenous administration of treatment; Therapeutic or Preventive Procedure
+T31	DISO 1554 1564	ITU febril
+#28	AnnotatorNotes T31	C0042029; Urinary tract infection; Disease or Syndrome + C0015967; Fever; Sign or Symptom
+T32	ANAT 28 43	tracto urinario
+#29	AnnotatorNotes T32	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T33	CHEM 94 108	antimicrobiano
+#30	AnnotatorNotes T33	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T34	ANAT 287 302	tracto urinario
+#31	AnnotatorNotes T34	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T35	LIVB 47 56	lactantes
+#32	AnnotatorNotes T35	C0021270; Infant; Age Group
+T36	Route 109 120	intravenoso
+#33	AnnotatorNotes T36	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T37	Route 211 222	intravenoso
+#34	AnnotatorNotes T37	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T38	Route 224 226	iv
+#35	AnnotatorNotes T38	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T39	LIVB 243 248	niños
+#36	AnnotatorNotes T39	C0008059; Child; Age Group
+T40	Age 249 268	de 2 meses a 2 años
+T41	Date 334 344	abril 2003
+T42	Date 347 357	abril 2005
+T43	LIVB 395 404	pacientes
+#37	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T46	Route 538 540	iv
+#38	AnnotatorNotes T46	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T47	Route 735 739	oral
+#39	AnnotatorNotes T47	C1527415; Oral Route of Drug administration; Functional Concept
+T48	LIVB 876 885	pacientes
+#40	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Age 946 955	7,8 meses
+T50	Route 992 994	iv
+#41	AnnotatorNotes T50	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T51	Duration 999 1007	2,8 días
+T52	Duration 1067 1081	2,7 +0,91 días
+T53	Duration 1103 1117	2,9 + 1,9 días
+T54	LIVB 1177 1186	pacientes
+#42	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T57	Date 1232 1237	día 5
+T58	Neg_cue 1251 1253	No
+T59	Route 1301 1311	vía venosa
+#43	AnnotatorNotes T59	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T61	Route 1522 1524	iv
+#44	AnnotatorNotes T61	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T62	LIVB 1540 1549	pacientes
+#45	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	Duration 1565 1583	entre 2 y 24 meses
+T44	LIVB 637 643	médico
+#46	AnnotatorNotes T44	C0031831; Physicians; Professional or Occupational Group
+T45	Duration 1012 1015	1,2
+A1	Population_data T35 Age
+A2	Population_data T39 Age
+A3	Assertion T26 Negated
+R1	Negation Arg1:T58 Arg2:T26	
+R2	Causes Arg1:T27 Arg2:T26	
+T28	CONC 1021 1032	diferencias
+A4	Assertion T28 Negated
+#47	AnnotatorNotes T28	C1705241; Delta (difference); Quantitative Concept
+T55	Neg_cue 1017 1020	sin
+R3	Negation Arg1:T55 Arg2:T28	
+T56	Neg_cue 416 419	sin
+T60	CONC 420 424	foco
+A5	Assertion T60 Negated
+R4	Negation Arg1:T56 Arg2:T60	
+#48	AnnotatorNotes T60	C0205234; Focal; Spatial Concept
+R5	Location_of Arg1:T32 Arg2:T1	
+R6	Experiences Arg1:T35 Arg2:T1	
+R7	Experiences Arg1:T35 Arg2:T2	
+R8	Causes Arg1:T1 Arg2:T2	
+R9	Has_Route_or_Mode Arg1:T33 Arg2:T36	
+R10	Used_for Arg1:T33 Arg2:T3	
+T64	Quantifier_or_Qualifier 121 132	ambulatorio
+#49	AnnotatorNotes T64	C0439841; Ambulatory - qualifier value; Functional Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T64	
+R12	Has_Route_or_Mode Arg1:T4 Arg2:T37	
+R13	Has_Route_or_Mode Arg1:T4 Arg2:T38	
+T65	Quantifier_or_Qualifier 228 239	ambulatorio
+#50	AnnotatorNotes T65	C0439841; Ambulatory - qualifier value; Functional Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T65	
+T66	Quantifier_or_Qualifier 567 578	ambulatorio
+#51	AnnotatorNotes T66	C0439841; Ambulatory - qualifier value; Functional Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T66	
+R16	Has_Route_or_Mode Arg1:T12 Arg2:T46	
+R17	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T13	
+R18	Before Arg1:T14 Arg2:T16	
+R19	Before Arg1:T15 Arg2:T16	
+R20	Before Arg1:T16 Arg2:T17	
+R21	Has_Route_or_Mode Arg1:T17 Arg2:T47	
+R22	Experiences Arg1:T39 Arg2:T4	
+R23	Has_Age Arg1:T39 Arg2:T40	
+R24	Experiences Arg1:T39 Arg2:T6	
+R25	Location_of Arg1:T34 Arg2:T5	
+R26	Location_of Arg1:T34 Arg2:T6	
+R27	Causes Arg1:T5 Arg2:T7	
+R28	Experiences Arg1:T39 Arg2:T5	
+R29	Experiences Arg1:T39 Arg2:T7	
+R30	After Arg1:T8 Arg2:T41	
+R31	Before Arg1:T8 Arg2:T42	
+R32	Experiences Arg1:T43 Arg2:T9	
+R33	Causes Arg1:T11 Arg2:T9	
+R34	Has_Duration_or_Interval Arg1:T31 Arg2:T63	
+R35	Experiences Arg1:T62 Arg2:T31	
+R36	Has_Route_or_Mode Arg1:T30 Arg2:T61	
+R37	Experiences Arg1:T62 Arg2:T30	
+R38	Has_Route_or_Mode Arg1:T27 Arg2:T59	
+R39	Overlap Arg1:T19 Arg2:T20	
+R40	After Arg1:T19 Arg2:T20	
+T67	Observation 803 813	adherencia
+#52	AnnotatorNotes T67	C2364172; Adherence To Medication Regime; Finding
+R42	Overlap Arg1:T20 Arg2:T67	
+R43	Causes Arg1:T20 Arg2:T21	
+R44	Experiences Arg1:T48 Arg2:T22	
+T68	Quantifier_or_Qualifier 910 922	ambulatorios
+#53	AnnotatorNotes T68	C0439841; Ambulatory - qualifier value; Functional Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T68	
+R46	Has_Age Arg1:T48 Arg2:T49	
+R47	Has_Duration_or_Interval Arg1:T23 Arg2:T51	
+R48	Has_Duration_or_Interval Arg1:T23 Arg2:T45	
+R49	Has_Route_or_Mode Arg1:T23 Arg2:T50	
+T69	CONC 1125 1137	ambulatorios
+#54	AnnotatorNotes T69	C0439841; Ambulatory - qualifier value; Functional Concept
+R52	Has_Duration_or_Interval Arg1:T23 Arg2:T52	
+R53	Has_Duration_or_Interval Arg1:T23 Arg2:T53	
+R50	Experiences Arg1:T54 Arg2:T25	
+R51	Overlap Arg1:T25 Arg2:T57	
+T70	Result_or_Value 1242 1249	estéril
+#55	AnnotatorNotes T70	C0205160; Negative; Finding
+R54	Has_Result_or_Value Arg1:T25 Arg2:T70	
+T71	PROC 1361 1379	manejo ambulatorio
+#56	AnnotatorNotes T71	C0002423; ambulatory care services; Health Care Activity
+T72	CONC 1401 1417	ahorro económico
+#57	AnnotatorNotes T72	C0085550; Cost Savings; Quantitative Concept
+T73	Quantifier_or_Qualifier 1525 1536	ambulatorio
+#58	AnnotatorNotes T73	C0439841; Ambulatory - qualifier value; Functional Concept
+R56	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T73	
+R57	Experiences Arg1:T43 Arg2:T11	
+R58	Experiences Arg1:T43 Arg2:T12	
+R59	Experiences Arg1:T43 Arg2:T13	
+R60	Overlap Arg1:T23 Arg2:T24	
+T74	Quantifier_or_Qualifier 1033 1047	significativas
+A6	Assertion T74 Negated
+#59	AnnotatorNotes T74	C0750502; Significant; Idea or Concept
+R61	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T74	
+R62	Negation Arg1:T55 Arg2:T74	
+R63	Experiences Arg1:T35 Arg2:T3	
+R64	Causes Arg1:T6 Arg2:T7	
+A7	Experiencer T35 Patient
+A8	Experiencer T39 Patient
+A9	Experiencer T43 Patient
+A10	Experiencer T44 Other
+A11	Experiencer T48 Patient
+A12	Experiencer T54 Patient
+A13	Experiencer T62 Patient

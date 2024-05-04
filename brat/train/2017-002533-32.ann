@@ -1,0 +1,211 @@
+T1	CHEM 423 430	INS1007
+T2	PROC 62 96	evaluar la eficacia y la seguridad
+#1	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T3	CHEM 103 113	medicación
+#2	AnnotatorNotes T3	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T4	CHEM 126 133	INS1007
+T5	DISO 179 193	bronquiectasia
+#3	AnnotatorNotes T5	C0006267; Bronchiectasis; Disease or Syndrome
+T6	DISO 206 223	fibrosis quística
+#4	AnnotatorNotes T6	C0010674; Cystic Fibrosis; Disease or Syndrome
+T7	PROC 247 340	Estudio Aleatorizado, Doble Ciego, Controlado con Placebo, De Grupos Paralelos, Multicéntrico
+T8	CHEM 1190 1205	α1-antitripsina
+#5	AnnotatorNotes T8	C0002191; alpha 1-antitrypsin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T9	PROC 347 419	Evaluar la Eficacia, la Seguridad, la Tolerabilidad y la Farmacocinética
+T10	DISO 493 507	Bronquiectasia
+#6	AnnotatorNotes T10	C0006267; Bronchiectasis; Disease or Syndrome
+T11	DISO 520 537	Fibrosis Quística
+#7	AnnotatorNotes T11	C0010674; Cystic Fibrosis; Disease or Syndrome
+T12	PROC 1349 1357	tratados
+#8	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	DISO 581 595	Bronquiectasia
+#9	AnnotatorNotes T13	C0006267; Bronchiectasis; Disease or Syndrome
+T14	DISO 608 625	fibrosis quística
+#10	AnnotatorNotes T14	C0010674; Cystic Fibrosis; Disease or Syndrome
+T15	PROC 992 1003	diagnóstico
+#11	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 1016 1055	enfermedad pulmonar obstructiva crónica
+#12	AnnotatorNotes T16	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T17	DISO 1058 1062	asma
+#13	AnnotatorNotes T17	C0004096; Asthma; Disease or Syndrome
+T18	DISO 1077 1091	bronquiectasia
+#14	AnnotatorNotes T18	C0006267; Bronchiectasis; Disease or Syndrome
+T19	DISO 1101 1118	fibrosis quística
+#15	AnnotatorNotes T19	C0010674; Cystic Fibrosis; Disease or Syndrome
+T20	DISO 1120 1141	hipogammaglobulinemia
+#16	AnnotatorNotes T20	C0086438; Hypogammaglobulinemia; Disease or Syndrome
+T21	DISO 1143 1175	inmunodeficiencia variable común
+#17	AnnotatorNotes T21	C0009447; Common Variable Immunodeficiency; Disease or Syndrome
+T22	DISO 1212 1221	fumadores
+#18	AnnotatorNotes T22	C0337664; Smoker; Finding
+T23	PROC 691 715	consentimiento informado
+#19	AnnotatorNotes T23	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T24	DISO 1378 1396	infección pulmonar
+T25	ANAT 1388 1396	pulmonar
+#20	AnnotatorNotes T25	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T26	DISO 1417 1428	tuberculosa
+#21	AnnotatorNotes T26	C0041296; Tuberculosis; Disease or Syndrome
+T27	DISO 1430 1466	aspergilosis broncopulmonar alérgica
+#22	AnnotatorNotes T27	C0004031; Aspergillosis, Allergic Bronchopulmonary; Disease or Syndrome
+T28	DISO 1469 1481	tuberculosis
+#23	AnnotatorNotes T28	C0041296; Tuberculosis; Disease or Syndrome
+T29	PROC 797 820	índice de masa corporal
+#24	AnnotatorNotes T29	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T30	ANAT 812 820	corporal
+#25	AnnotatorNotes T30	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T31	ANAT 1027 1035	pulmonar
+#26	AnnotatorNotes T31	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T32	DISO 1179 1205	déficit de α1-antitripsina
+#27	AnnotatorNotes T32	C0221757; alpha 1-Antitrypsin Deficiency; Disease or Syndrome
+T33	Date 13 17	2017
+T34	Frequency 147 161	una vez al día
+T35	LIVB 165 174	pacientes
+#28	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Neg_cue 194 196	no
+T37	PHYS 404 419	Farmacocinética
+#29	AnnotatorNotes T37	C0031327; Drug Kinetics; Physiologic Function
+T38	Frequency 444 458	Una Vez al Día
+T39	Duration 467 477	24 Semanas
+T40	LIVB 481 488	Sujetos
+#30	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	Neg_cue 508 510	No
+T42	Neg_cue 596 598	no
+T43	LIVB 656 663	sujetos
+#31	AnnotatorNotes T43	C0681850; Study Subject; Group
+T44	LIVB 740 747	mujeres
+#32	AnnotatorNotes T44	C0043210; Woman; Population Group
+T45	Age 751 769	entre 18 y 85 años
+T47	LIVB 980 987	sujetos
+#33	AnnotatorNotes T47	C0681850; Study Subject; Group
+T48	Duration 1048 1055	crónica
+#34	AnnotatorNotes T48	C0205191; chronic; Temporal Concept
+T49	Date 1358 1369	actualmente
+T50	LIVB 1401 1413	micobacteria
+#35	AnnotatorNotes T50	C0026907; Mycobacteriaceae; Bacterium | C0026912; Genus Mycobacterium; Bacterium
+T51	Neg_cue 1414 1416	no
+T52	Neg_cue 1483 1485	no
+T46	LIVB 730 737	varones
+#36	AnnotatorNotes T46	C0025266; Male population group; Population Group
+T54	PROC 845 851	visita
+#38	AnnotatorNotes T54	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T6 Negated
+A2	Assertion T11 Negated
+A3	Assertion T14 Negated
+A4	Assertion T26 Negated
+A5	Assertion T27 Negated
+A6	Assertion T28 Negated
+A7	Assertion T24 Negated
+A8	Assertion T47 Negated
+A9	Assertion T15 Negated
+A10	Assertion T16 Negated
+A11	Assertion T17 Negated
+A12	Assertion T18 Negated
+A13	Assertion T19 Negated
+A14	Assertion T20 Negated
+A15	Assertion T21 Negated
+A16	Assertion T32 Negated
+A17	Assertion T22 Negated
+A18	Assertion T12 Negated
+A19	Assertion T50 Negated
+#39	AnnotatorNotes T4	C5433442; INS1007; Organic Chemical · Pharmacologic Substance
+#40	AnnotatorNotes T1	C5433442; INS1007; Organic Chemical · Pharmacologic Substance
+#41	AnnotatorNotes T7	C0599724; placebo controlled study; Research Activity · Intellectual Product + C2826345; Parallel Study; Research Activity + C1096776; Multicenter Study; Research Activity + C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#42	AnnotatorNotes T24	C0876973; Infectious Lung Disorder; Disease or Syndrome
+#43	AnnotatorNotes T9	C0511730; Identify product efficacy and safety issues; Health Care Activity + C3274448; Tolerability Study; Research Activity + C0201734; Pharmacokinetic study; Research Activity
+#44	AnnotatorNotes T49	C0521116; Current (present time); Temporal Concept 
+T53	Quantifier_or_Qualifier 852 853	1
+T55	Observation 1492 1529	aptos para su inclusión en el estudio
+A20	Assertion T55 Negated
+#37	AnnotatorNotes T55	C1302261; Patient eligible for clinical trial; Finding (?)
+R1	Has_Frequency Arg1:T3 Arg2:T34	
+R2	Has_Frequency Arg1:T4 Arg2:T34	
+R3	Experiences Arg1:T35 Arg2:T5	
+R4	Negation Arg1:T36 Arg2:T6	
+R5	Experiences Arg1:T35 Arg2:T6	
+R6	Experiences Arg1:T35 Arg2:T3	
+R7	Experiences Arg1:T35 Arg2:T4	
+R8	Has_Frequency Arg1:T1 Arg2:T38	
+R9	Experiences Arg1:T40 Arg2:T1	
+R10	Has_Duration_or_Interval Arg1:T1 Arg2:T39	
+R11	Experiences Arg1:T40 Arg2:T10	
+R12	Experiences Arg1:T40 Arg2:T11	
+R13	Negation Arg1:T41 Arg2:T11	
+R14	Experiences Arg1:T40 Arg2:T37	
+R15	Negation Arg1:T42 Arg2:T14	
+R16	Has_Age Arg1:T43 Arg2:T45	
+R17	Has_Age Arg1:T46 Arg2:T45	
+R18	Has_Age Arg1:T44 Arg2:T45	
+R19	Location_of Arg1:T30 Arg2:T29	
+R20	Experiences Arg1:T43 Arg2:T29	
+R21	Overlap Arg1:T29 Arg2:T54	
+R22	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T53	
+T56	Result_or_Value 821 827	> 18,5
+R23	Has_Result_or_Value Arg1:T29 Arg2:T56	
+T57	CONC 867 884	historial clínico
+#45	AnnotatorNotes T57	C5204342; Clinical History; Intellectual Product
+T58	Observation 911 948	aptos para su inclusión en el estudio
+#46	AnnotatorNotes T58	C1302261; Patient eligible for clinical trial; Finding
+R24	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T58	
+R25	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T58	
+R26	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T58	
+T59	DISO 899 904	NCFBE
+#47	AnnotatorNotes T59	C5243752; Non-cystic fibrosis bronchiectasis; Disease or Syndrome
+R27	Experiences Arg1:T43 Arg2:T59	
+R28	Experiences Arg1:T46 Arg2:T59	
+R29	Experiences Arg1:T44 Arg2:T59	
+T60	PROC 834 843	selección
+#48	AnnotatorNotes T60	C0242802; Patient Selection; Research Activity
+R30	Overlap Arg1:T29 Arg2:T60	
+R31	Overlap Arg1:T60 Arg2:T54	
+R32	Overlap Arg1:T60 Arg2:T45	
+R33	Overlap Arg1:T54 Arg2:T45	
+R34	Experiences Arg1:T47 Arg2:T16	
+R35	Location_of Arg1:T31 Arg2:T16	
+R36	Has_Duration_or_Interval Arg1:T16 Arg2:T48	
+T61	Quantifier_or_Qualifier 1004 1012	primario
+#49	AnnotatorNotes T61	C0205225; Primary; Qualitative Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T61	
+R38	Negation Arg1:T52 Arg2:T55	
+R39	Negation Arg1:T52 Arg2:T28	
+R40	Negation Arg1:T52 Arg2:T27	
+R41	Negation Arg1:T52 Arg2:T50	
+R42	Negation Arg1:T51 Arg2:T26	
+R43	Causes Arg1:T50 Arg2:T24	
+R44	Location_of Arg1:T25 Arg2:T24	
+R45	Negation Arg1:T52 Arg2:T24	
+R46	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T26	
+R47	Negation Arg1:T52 Arg2:T12	
+R48	Overlap Arg1:T12 Arg2:T49	
+R49	Negation Arg1:T52 Arg2:T22	
+R50	Negation Arg1:T52 Arg2:T32	
+R52	Negation Arg1:T52 Arg2:T21	
+R53	Negation Arg1:T52 Arg2:T20	
+R54	Negation Arg1:T52 Arg2:T19	
+R55	Negation Arg1:T52 Arg2:T18	
+R56	Negation Arg1:T52 Arg2:T17	
+R57	Negation Arg1:T52 Arg2:T16	
+R51	Experiences Arg1:T47 Arg2:T17	
+R58	Experiences Arg1:T47 Arg2:T18	
+R59	Experiences Arg1:T47 Arg2:T19	
+R60	Experiences Arg1:T47 Arg2:T20	
+R61	Experiences Arg1:T47 Arg2:T21	
+R62	Experiences Arg1:T47 Arg2:T32	
+R63	Experiences Arg1:T47 Arg2:T22	
+R64	Experiences Arg1:T47 Arg2:T12	
+R65	Experiences Arg1:T47 Arg2:T24	
+R66	Experiences Arg1:T47 Arg2:T27	
+R67	Experiences Arg1:T47 Arg2:T28	
+R68	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T55	
+R69	Experiences Arg1:T44 Arg2:T29	
+R70	Experiences Arg1:T46 Arg2:T29	
+R71	Experiences Arg1:T46 Arg2:T54	
+R72	Experiences Arg1:T44 Arg2:T54	
+#50	AnnotatorNotes T53	C0205447; One; Quantitative Concept
+A21	Experiencer T35 Patient
+A22	Experiencer T40 Patient
+A23	Experiencer T43 Patient
+A24	Experiencer T46 Patient
+A25	Experiencer T44 Patient
+A26	Experiencer T47 Patient
+A27	Status T55 Future
+A28	Status T58 Future

@@ -1,0 +1,162 @@
+T1	CHEM 7 12	helio
+#1	AnnotatorNotes T1	C0018880; helium; Pharmacologic Substance · Element, Ion, or Isotope
+T2	CHEM 13 17	neón
+#2	AnnotatorNotes T2	C0027608; neon; Element, Ion, or Isotope
+T3	CHEM 32 44	clorhexidina
+#3	AnnotatorNotes T3	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T4	PROC 96 107	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 114 132	gingivitis crónica
+#5	AnnotatorNotes T5	C0008684; Chronic gingivitis; Disease or Syndrome
+T6	DISO 137 155	gingivitis crónica
+#6	AnnotatorNotes T6	C0008684; Chronic gingivitis; Disease or Syndrome
+T7	DISO 203 225	enfermedad periodontal
+#7	AnnotatorNotes T7	C0031090; Periodontal Diseases; Disease or Syndrome
+T8	DISO 248 280	inflamación crónica de la encías
+T9	ANAT 274 280	encías
+#8	AnnotatorNotes T9	C0017562; Gingiva; Tissue | C1278912; Entire gingiva; Body Part, Organ, or Organ Component
+T10	DISO 282 293	tumefacción
+#9	AnnotatorNotes T10	C0038999; Swelling; Finding
+T11	DISO 295 309	enrojecimiento
+#10	AnnotatorNotes T11	C0332575; Redness; Finding
+T12	DISO 312 324	sangramiento
+#11	AnnotatorNotes T12	C0019080; Hemorrhage; Pathologic Function
+T13	PROC 646 672	radiación láser helio-neón
+#12	AnnotatorNotes T13	C1512363; Helium-Ion Radiation; Therapeutic or Preventive Procedure
+T14	ANAT 388 402	surco gingival
+#13	AnnotatorNotes T14	C0447436; Structure of gingival sulcus; Body Space or Junction | C1280386; Entire gingival sulcus; Body Space or Junction
+T15	PROC 482 560	ensayo clínico-terapéutico fase II, controlado, aleatorizado y a simple ciegas
+#14	AnnotatorNotes T15	C0456909; Blindness; Disease or Syndrome + C0282460; Phase 2 Clinical Trials; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T16	PROC 791 822	se distribuyeron aleatoriamente
+#15	AnnotatorNotes T16	C0034656; Randomization; Research Activity
+T17	PROC 618 639	tratamiento combinado
+#16	AnnotatorNotes T17	C0009429; Combined Modality Therapy; Therapeutic or Preventive Procedure
+T18	CHEM 662 667	helio
+#17	AnnotatorNotes T18	C0018880; helium; Pharmacologic Substance · Element, Ion, or Isotope
+T19	CHEM 668 672	neón
+#18	AnnotatorNotes T19	C0027608; neon; Element, Ion, or Isotope
+T20	CHEM 674 676	He
+#19	AnnotatorNotes T20	C0018880; helium; Pharmacologic Substance · Element, Ion, or Isotope
+T21	CHEM 688 700	clorhexidina
+#20	AnnotatorNotes T21	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T22	PROC 743 754	tratamiento
+#21	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	CHEM 886 890	neón
+#22	AnnotatorNotes T23	C0027608; neon; Element, Ion, or Isotope
+T24	CHEM 893 905	clorhexidina
+#23	AnnotatorNotes T24	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T25	CHEM 953 965	clorhexidina
+#24	AnnotatorNotes T25	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T26	PROC 992 1002	evaluación
+#25	AnnotatorNotes T26	C1261322; Evaluation procedure; Health Care Activity
+T27	ANAT 1255 1265	periodonto
+#26	AnnotatorNotes T27	C0031104; Periodontium; Tissue | C1284399; Entire periodontal tissues; Body Part, Organ, or Organ Component
+T28	DISO 1277 1293	eventos adversos
+#27	AnnotatorNotes T28	C0877248; Adverse event; Pathologic Function
+T29	PROC 1314 1325	terapéutica
+#28	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	DISO 1368 1379	somnolencia
+#29	AnnotatorNotes T30	C0013144; Drowsiness; Finding | C2830004; Somnolence; Mental or Behavioral Dysfunction
+T31	ANAT 214 225	periodontal
+#30	AnnotatorNotes T31	C0031104; Periodontium; Tissue | C1284399; Entire periodontal tissues; Body Part, Organ, or Organ Component
+T32	CHEM 677 679	Ne
+#31	AnnotatorNotes T32	C0027608; neon; Element, Ion, or Isotope
+T33	Dose 45 53	al 0,2 %
+T34	Duration 125 132	crónica
+#32	AnnotatorNotes T34	C0205191; chronic; Temporal Concept
+T35	Duration 148 155	crónica
+#33	AnnotatorNotes T35	C0205191; chronic; Temporal Concept
+T36	Duration 260 267	crónica
+#34	AnnotatorNotes T36	C0205191; chronic; Temporal Concept
+T38	LIVB 373 383	microbiota
+#35	AnnotatorNotes T38	C3887843; Microbiota (environment); Organism
+T40	Dose 701 709	al 0,2 %
+T41	LIVB 722 731	pacientes
+#36	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Duration 767 770	mes
+T43	Dose 906 914	al 0,2 %
+T44	LIVB 922 935	grupo control
+#37	AnnotatorNotes T44	C0009932; Control Groups; Group
+T45	Dose 966 974	al 0,2 %
+T46	Duration 1005 1025	los 15, 30 y 45 días
+T47	LIVB 1203 1234	cocos gramnegativos y positivos
+#38	AnnotatorNotes T47	C0314754; Gram-negative coccus; Bacterium + C0018155; Gram-Positive Cocci; Bacterium
+T48	DEVI 1 17	Láser helio-neón
+#39	AnnotatorNotes T48	C3878111; Helium/neon laser; Medical Device
+T37	DEVI 656 672	láser helio-neón
+#40	AnnotatorNotes T37	C3878111; Helium/neon laser; Medical Device
+T39	DEVI 880 890	láser-neón
+#41	AnnotatorNotes T39	C3878111; Helium/neon laser; Medical Device
+T49	LIVB 839 852	grupo estudio
+#42	AnnotatorNotes T49	C2348561; Study Population (group); Population Group
+T50	LIVB 1134 1147	grupo estudio
+#43	AnnotatorNotes T50	C2348561; Study Population (group); Population Group
+T51	Neg_cue 432 434	no
+T52	Quantifier_or_Qualifier 435 445	suficiente
+A1	Assertion T52 Negated
+R1	Negation Arg1:T51 Arg2:T52	
+R2	Used_for Arg1:T1 Arg2:T48	
+R3	Used_for Arg1:T2 Arg2:T48	
+R4	Combined_with Arg1:T48 Arg2:T3	
+R5	Has_Dose_or_Strength Arg1:T3 Arg2:T33	
+T53	Observation 55 89	Efectos clínicos y microbiológicos
+R6	Has_Duration_or_Interval Arg1:T5 Arg2:T34	
+R7	Has_Duration_or_Interval Arg1:T6 Arg2:T35	
+R8	Location_of Arg1:T31 Arg2:T7	
+R9	Has_Duration_or_Interval Arg1:T8 Arg2:T36	
+R10	Causes Arg1:T6 Arg2:T8	
+R11	Location_of Arg1:T9 Arg2:T8	
+R12	Causes Arg1:T6 Arg2:T10	
+R13	Causes Arg1:T6 Arg2:T11	
+R14	Causes Arg1:T6 Arg2:T12	
+T54	Observation 339 355	factor de riesgo
+#44	AnnotatorNotes T54	C0035648; risk factors; Finding
+R15	Location_of Arg1:T14 Arg2:T38	
+T55	Observation 579 613	efectos clínicos y microbiológicos
+R16	Causes Arg1:T17 Arg2:T55	
+R17	Used_for Arg1:T18 Arg2:T37	
+R18	Used_for Arg1:T19 Arg2:T37	
+R19	Used_for Arg1:T20 Arg2:T37	
+R20	Used_for Arg1:T32 Arg2:T37	
+R21	Used_for Arg1:T37 Arg2:T13	
+R22	Causes Arg1:T13 Arg2:T55	
+R23	Combined_with Arg1:T13 Arg2:T21	
+R24	Has_Dose_or_Strength Arg1:T21 Arg2:T40	
+R25	Experiences Arg1:T41 Arg2:T22	
+R26	Before Arg1:T22 Arg2:T16	
+T56	CONC 774 784	finalizado
+R27	Overlap Arg1:T56 Arg2:T42	
+T57	Quantifier_or_Qualifier 755 762	inicial
+#45	AnnotatorNotes T57	C0205265; Initially; Temporal Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T57	
+R29	Overlap Arg1:T16 Arg2:T42	
+R30	Before Arg1:T22 Arg2:T56	
+R31	Experiences Arg1:T49 Arg2:T22	
+R32	Combined_with Arg1:T39 Arg2:T24	
+R33	Has_Dose_or_Strength Arg1:T24 Arg2:T43	
+R34	Used_for Arg1:T23 Arg2:T39	
+R35	Experiences Arg1:T44 Arg2:T25	
+R36	Experiences Arg1:T44 Arg2:T22	
+R37	Has_Dose_or_Strength Arg1:T25 Arg2:T45	
+R38	Experiences Arg1:T49 Arg2:T39	
+R39	Before Arg1:T22 Arg2:T39	
+R40	Before Arg1:T22 Arg2:T25	
+R41	Overlap Arg1:T26 Arg2:T46	
+T58	Quantifier_or_Qualifier 1170 1182	morfotipos I
+T61	Quantifier_or_Qualifier 1266 1270	sano
+#47	AnnotatorNotes T61	C3898900; Healthy; Qualitative Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T61	
+R46	Location_of Arg1:T27 Arg2:T47	
+R47	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T58	
+R42	Causes Arg1:T29 Arg2:T28	
+T62	Quantifier_or_Qualifier 1333 1340	mínimos
+R48	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T62	
+R49	Causes Arg1:T29 Arg2:T30	
+#48	AnnotatorNotes T56	C1272693; Ended - status; Qualitative Concept
+#49	AnnotatorNotes T62	C0547040; Minimal; Qualitative Concept
+#50	AnnotatorNotes T52	C0205410; Sufficient; Qualitative Concept
+#52	AnnotatorNotes T8	C0008684; Chronic gingivitis; Disease or Syndrome
+A2	Experiencer T50 Patient
+A3	Experiencer T41 Patient
+A4	Experiencer T44 Patient
+A5	Experiencer T49 Patient

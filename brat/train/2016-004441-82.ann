@@ -1,0 +1,200 @@
+T1	PROC 46 68	Ensayo investigacional
+T2	PROC 72 85	inmunoterapia
+#1	AnnotatorNotes T2	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T3	PROC 102 113	monoterapia
+#2	AnnotatorNotes T3	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T4	CHEM 116 125	nivolumab
+#3	AnnotatorNotes T4	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	CHEM 145 155	ipilimumab
+#4	AnnotatorNotes T5	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	DISO 185 222	neoplasias malignas primarias del SNC
+#5	AnnotatorNotes T6	C1455806; Primary malignant neoplasm of central nervous system; Neoplastic Process
+T7	DISO 620 624	GPID
+T8	ANAT 219 222	SNC
+#6	AnnotatorNotes T8	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T9	PROC 260 285	Ensayo clínico fase Ib/II
+T10	CHEM 289 298	nivolumab
+#7	AnnotatorNotes T10	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	PROC 302 313	monoterapia
+#8	AnnotatorNotes T11	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T12	CHEM 316 325	nivolumab
+#9	AnnotatorNotes T12	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	CHEM 345 355	ipilimumab
+#10	AnnotatorNotes T13	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	DISO 385 422	neoplasias malignas primarias del SNC
+#11	AnnotatorNotes T14	C1455806; Primary malignant neoplasm of central nervous system; Neoplastic Process
+T15	DISO 701 716	tumores del SNC
+#12	AnnotatorNotes T15	C0085136; Central Nervous System Neoplasms; Neoplastic Process
+T16	ANAT 419 422	SNC
+#13	AnnotatorNotes T16	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T17	DISO 461 498	Neoplasias malignas primarias del SNC
+#14	AnnotatorNotes T17	C1455806; Primary malignant neoplasm of central nervous system; Neoplastic Process
+T18	ANAT 927 944	muestra del tumor
+T19	ANAT 495 498	SNC
+#15	AnnotatorNotes T19	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T20	PROC 564 578	diagnosticados
+#16	AnnotatorNotes T20	C0011900; Diagnosis; Diagnostic Procedure
+T21	DISO 586 618	Glioma Pontino Intrinseco Difuso
+#17	AnnotatorNotes T21	C2986658; Diffuse Intrinsic Pontine Glioma; Neoplastic Process
+T22	ANAT 593 600	Pontino
+#18	AnnotatorNotes T22	C0032639; Pontine structure; Body Part, Organ, or Organ Component
+T23	DISO 629 649	Glioma de Alto Grado
+#19	AnnotatorNotes T23	C4722099; High grade glioma; Neoplastic Process
+T24	DISO 660 674	Meduloblastoma
+#20	AnnotatorNotes T24	C0025149; Medulloblastoma; Neoplastic Process
+T25	DISO 678 688	Ependimoma
+#21	AnnotatorNotes T25	C0014474; Ependymoma; Neoplastic Process
+T26	ANAT 713 716	SNC
+#22	AnnotatorNotes T26	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T27	PROC 782 801	índice de Karnofsky
+#23	AnnotatorNotes T27	C0206065; Karnofsky Performance Status; Diagnostic Procedure
+T28	PROC 803 806	KPS
+#24	AnnotatorNotes T28	C0206065; Karnofsky Performance Status; Diagnostic Procedure
+T29	DISO 939 944	tumor
+#25	AnnotatorNotes T29	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T30	DISO 1053 1074	enfermedad autoinmune
+#26	AnnotatorNotes T30	C0004364; Autoimmune Diseases; Disease or Syndrome
+T31	CHEM 1166 1176	esteroides
+#27	AnnotatorNotes T31	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T32	DISO 1206 1211	tumor
+#28	AnnotatorNotes T32	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T33	DISO 1230 1250	glioma de bajo grado
+#29	AnnotatorNotes T33	C1997217; Low grade glioma; Neoplastic Process
+T34	DISO 1253 1293	tumores de potencial maligno desconocido
+#30	AnnotatorNotes T34	C0154129; Neoplastic disease of uncertain behavior; Neoplastic Process
+T35	PROC 1330 1341	tratamiento
+#31	AnnotatorNotes T35	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T36	CHEM 1363 1416	medicamento dirigido a la coestimulación de células T
+#32	AnnotatorNotes T36	C3192215; Selective T Cell Costimulation Blocker; Pharmacologic Substance (?)
+T37	ANAT 1407 1416	células T
+#33	AnnotatorNotes T37	C0039194; T-Lymphocyte; Cell
+T38	CHEM 1427 1459	inhibidores del punto de control
+#34	AnnotatorNotes T38	C4684977; Immune Checkpoint Inhibitor; Immunologic Factor · Pharmacologic Substance
+T39	CHEM 89 98	nivolumab
+#35	AnnotatorNotes T39	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T40	DISO 1003 1007	GPID
+T41	Date 13 17	2016
+T42	LIVB 159 180	pacientes pediátricos
+#36	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T43	LIVB 359 380	pacientes pediátricos
+#37	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T44	LIVB 543 548	Niños
+#38	AnnotatorNotes T44	C0008059; Child; Age Group
+T45	Age 762 771	≤ 16 años
+T46	Age 813 822	> 16 años
+T47	Duration 850 865	las dos semanas
+T49	LIVB 1039 1048	Pacientes
+#39	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Spec_cue 1093 1103	sospechada
+T51	LIVB 1108 1117	Pacientes
+#40	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T54	LIVB 1216 1225	Pacientes
+#41	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 1298 1307	Pacientes
+#42	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 551 563	adolescentes
+#43	AnnotatorNotes T57	C0205653; Adolescent (age group); Age Group
+T48	PROC 1144 1162	disminuir la dosis
+#44	AnnotatorNotes T48	C2348004; Agent Dose Decreased; Therapeutic or Preventive Procedure
+T52	Neg_cue 1129 1131	no
+T53	PHYS 1389 1416	coestimulación de células T
+#45	AnnotatorNotes T53	C1622572; T cell costimulation; Cell Function
+T55	PROC 869 882	reclutamiento
+#46	AnnotatorNotes T55	C0242800; Patient Recruitment; Research Activity
+A1	Population_data T44 Age
+A2	Population_data T57 Age
+A3	Population_data T42 Age
+A4	Population_data T43 Age
+A5	Assertion T30 Speculated
+A6	Assertion T48 Negated
+A7	Status T35 History_of
+A8	Status T36 History_of
+A9	Status T30 History_of
+A10	Status T38 History_of
+#47	AnnotatorNotes T1	C0681814; research study; Research Activity 
+#48	AnnotatorNotes T7	C2986658; Diffuse Intrinsic Pontine Glioma; Neoplastic Process
+#49	AnnotatorNotes T40	C2986658; Diffuse Intrinsic Pontine Glioma; Neoplastic Process
+R1	Used_for Arg1:T39 Arg2:T2	
+R2	Combined_with Arg1:T4 Arg2:T5	
+R3	Used_for Arg1:T39 Arg2:T3	
+R4	Used_for Arg1:T4 Arg2:T2	
+R5	Experiences Arg1:T42 Arg2:T3	
+R6	Experiences Arg1:T42 Arg2:T2	
+R7	Location_of Arg1:T8 Arg2:T6	
+T58	Quantifier_or_Qualifier 226 236	alto grado
+R8	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T58	
+T59	Quantifier_or_Qualifier 426 436	alto grado
+R9	Location_of Arg1:T16 Arg2:T14	
+R10	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T59	
+R11	Experiences Arg1:T43 Arg2:T14	
+R12	Experiences Arg1:T42 Arg2:T6	
+R13	Used_for Arg1:T10 Arg2:T11	
+R14	Combined_with Arg1:T12 Arg2:T13	
+R15	Experiences Arg1:T43 Arg2:T12	
+R16	Experiences Arg1:T43 Arg2:T10	
+T60	Quantifier_or_Qualifier 502 512	alto grado
+R17	Location_of Arg1:T19 Arg2:T17	
+R18	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T60	
+R21	Location_of Arg1:T22 Arg2:T21	
+R22	Location_of Arg1:T22 Arg2:T7	
+R24	Location_of Arg1:T26 Arg2:T15	
+T62	Quantifier_or_Qualifier 720 730	alto grado
+R25	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T62	
+T63	CONC 734 750	Escala de Lansky
+#50	AnnotatorNotes T63	C1522275; Lansky Play-Performance Status; Classification
+T64	CONC 752 755	LPS
+R26	Overlap Arg1:T28 Arg2:T47	
+T65	Result_or_Value 892 896	≥ 60
+R27	Has_Result_or_Value Arg1:T28 Arg2:T65	
+R28	Has_Result_or_Value Arg1:T27 Arg2:T65	
+R29	Has_Result_or_Value Arg1:T64 Arg2:T65	
+#51	AnnotatorNotes T64	C1522275; Lansky Play-Performance Status; Classification
+R30	Has_Result_or_Value Arg1:T63 Arg2:T65	
+R31	Has_Duration_or_Interval Arg1:T55 Arg2:T47	
+R32	Overlap Arg1:T27 Arg2:T47	
+R33	Overlap Arg1:T64 Arg2:T47	
+R34	Overlap Arg1:T63 Arg2:T47	
+#52	AnnotatorNotes T18	C0475358; Tumor tissue sample; Tissue
+T66	CONC 986 997	se requiere
+A11	Assertion T66 Negated
+T67	Neg_cue 983 985	no
+R35	Negation Arg1:T67 Arg2:T66	
+R36	Experiences Arg1:T49 Arg2:T30	
+R37	Speculation Arg1:T50 Arg2:T30	
+R38	Negation Arg1:T52 Arg2:T48	
+R39	Used_for Arg1:T31 Arg2:T48	
+R40	Experiences Arg1:T51 Arg2:T48	
+R41	Experiences Arg1:T51 Arg2:T32	
+R42	Experiences Arg1:T54 Arg2:T33	
+R44	Experiences Arg1:T54 Arg2:T34	
+R45	Experiences Arg1:T56 Arg2:T35	
+R46	Used_for Arg1:T36 Arg2:T35	
+R47	Experiences Arg1:T56 Arg2:T53	
+R48	Location_of Arg1:T37 Arg2:T53	
+R49	Used_for Arg1:T38 Arg2:T35	
+T69	Quantifier_or_Qualifier 1075 1081	activa
+R50	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T69	
+R51	Experiences Arg1:T42 Arg2:T4	
+T61	Spec_cue 1264 1273	potencial
+T68	Observation 1274 1281	maligno
+A12	Assertion T68 Speculated
+R23	Speculation Arg1:T61 Arg2:T68	
+T70	Spec_cue 1282 1293	desconocido
+R43	Speculation Arg1:T70 Arg2:T68	
+#53	AnnotatorNotes T69	C0679217; Active State; Idea or Concept
+T71	Observation 1187 1201	efecto de masa
+#54	AnnotatorNotes T71	C4086564; Mass Effect; Finding
+R19	Causes Arg1:T32 Arg2:T71	
+R20	Experiences Arg1:T51 Arg2:T71	
+#55	AnnotatorNotes T58	C5547531; High histologic grade; Classification
+#56	AnnotatorNotes T60	C5547531; High histologic grade; Classification
+#57	AnnotatorNotes T62	C5547531; High histologic grade; Classification
+#58	AnnotatorNotes T59	C5547531; High histologic grade; Classification
+A13	Experiencer T51 Patient
+A14	Experiencer T49 Patient
+A15	Experiencer T56 Patient
+A16	Experiencer T54 Patient
+A17	Experiencer T57 Patient
+A18	Experiencer T44 Patient
+A19	Experiencer T42 Patient
+A20	Experiencer T43 Patient

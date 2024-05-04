@@ -1,0 +1,84 @@
+T1	PROC 46 87	Estudio de fase 3 de eficacia y seguridad
+T2	CHEM 117 127	Ribavirina
+#1	AnnotatorNotes T2	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T3	CHEM 132 142	Telaprevir
+#2	AnnotatorNotes T3	C1876229; telaprevir; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T4	PROC 165 207	Estudio fase 3, enmascarado y aleatorizado
+T5	CHEM 211 234	Peginterferón Lambda-1a
+#3	AnnotatorNotes T5	C4043002; peginterferon lambda-1a; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T6	CHEM 237 247	Ribavirina
+#4	AnnotatorNotes T6	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T7	CHEM 267 288	Peginterferón alfa-2a
+#5	AnnotatorNotes T7	C0391001; peginterferon alfa-2a; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	CHEM 291 301	Ribavirina
+#6	AnnotatorNotes T8	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T9	CHEM 338 348	Telaprevir
+#7	AnnotatorNotes T9	C1876229; telaprevir; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T10	DISO 365 384	Hepatitis C crónica
+T11	PROC 419 430	tratamiento
+#8	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	PROC 483 494	tratamiento
+#9	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	CHEM 520 530	Ribavirina
+#10	AnnotatorNotes T13	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T14	PROC 532 541	Protocolo
+#11	AnnotatorNotes T14	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T15	DISO 602 621	Hepatitis C Crónica
+T16	DISO 648 693	Infección por Virus de la Hepatitis C Crónica
+T17	CHEM 499 517	Peginterferón Alfa
+T18	CHEM 91 114	Peginterferón Lambda-1a
+#12	AnnotatorNotes T18	C4043002; peginterferon lambda-1a; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T19	Date 13 17	2011
+T20	LIVB 353 360	sujetos
+#13	AnnotatorNotes T20	C0681850; Study Subject; Group
+T21	Duration 377 384	crónica
+#14	AnnotatorNotes T21	C0205191; chronic; Temporal Concept
+T22	Neg_cue 403 405	no
+T23	Duration 614 621	Crónica
+#15	AnnotatorNotes T23	C0205191; chronic; Temporal Concept
+T24	LIVB 662 685	Virus de la Hepatitis C
+#16	AnnotatorNotes T24	C0220847; hepatitis C virus; Virus
+T25	Duration 686 693	Crónica
+#17	AnnotatorNotes T25	C0205191; chronic; Temporal Concept
+T26	DISO 466 474	recidiva
+#18	AnnotatorNotes T26	C2825055; Recurrence (disease attribute); Pathologic Function
+T27	PROC 695 703	Genotipo
+#19	AnnotatorNotes T27	C1285573; Genotype determination; Laboratory Procedure
+A1	Assertion T11 Negated
+A2	Status T11 History_of
+#20	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity + C0282461; Phase 3 Clinical Trials; Research Activity
+#21	AnnotatorNotes T4	C0282461; Phase 3 Clinical Trials; Research Activity + C0150108; Blinded; Research Activity + C0034656; Randomization; Research Activity
+#22	AnnotatorNotes T15	C0524910; Hepatitis C, Chronic; Disease or Syndrome 
+#23	AnnotatorNotes T16	C0524910; Hepatitis C, Chronic; Disease or Syndrome 
+#24	AnnotatorNotes T10	C0524910; Hepatitis C, Chronic; Disease or Syndrome 
+R1	Combined_with Arg1:T7 Arg2:T8	
+R2	Combined_with Arg1:T5 Arg2:T6	
+R3	Combined_with Arg1:T18 Arg2:T2	
+R4	Combined_with Arg1:T2 Arg2:T3	
+R5	Combined_with Arg1:T6 Arg2:T9	
+R6	Combined_with Arg1:T7 Arg2:T9	
+R7	Experiences Arg1:T20 Arg2:T5	
+R8	Experiences Arg1:T20 Arg2:T7	
+R9	Experiences Arg1:T20 Arg2:T10	
+R10	Has_Duration_or_Interval Arg1:T10 Arg2:T21	
+T28	PROC 388 396	genotipo
+#25	AnnotatorNotes T28	C1285573; Genotype determination; Laboratory Procedure
+T29	Quantifier_or_Qualifier 388 398	genotipo-1
+R11	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T29	
+T30	Quantifier_or_Qualifier 695 705	Genotipo-1
+R12	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T30	
+R13	Causes Arg1:T24 Arg2:T16	
+R14	Has_Duration_or_Interval Arg1:T15 Arg2:T23	
+R15	Has_Duration_or_Interval Arg1:T16 Arg2:T25	
+R16	Negation Arg1:T22 Arg2:T11	
+R17	After Arg1:T26 Arg2:T12	
+R18	Used_for Arg1:T17 Arg2:T12	
+R19	Combined_with Arg1:T17 Arg2:T13	
+R20	Experiences Arg1:T20 Arg2:T28	
+R21	Experiences Arg1:T20 Arg2:T11	
+R22	Experiences Arg1:T20 Arg2:T26	
+R23	Experiences Arg1:T20 Arg2:T12	
+R24	Overlap Arg1:T24 Arg2:T27	
+R25	Before Arg1:T10 Arg2:T26	
+#26	AnnotatorNotes T17	C0391001; peginterferon alfa-2a; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance (?)
+A3	Experiencer T20 Patient

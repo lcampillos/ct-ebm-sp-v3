@@ -1,0 +1,188 @@
+T1	ANAT 10 20	intestinal
+#1	AnnotatorNotes T1	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T2	PROC 26 38	colonoscopia
+#2	AnnotatorNotes T2	C0009378; colonoscopy; Diagnostic Procedure
+T3	DISO 75 91	efectos adversos
+#3	AnnotatorNotes T3	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T4	PROC 154 173	limpieza intestinal
+#4	AnnotatorNotes T4	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+T5	ANAT 163 173	intestinal
+#5	AnnotatorNotes T5	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T6	PROC 976 1003	efectividad fue determinada
+#6	AnnotatorNotes T6	C1707887; Efficacy Study; Research Activity
+T7	PROC 228 239	diagnóstico
+#7	AnnotatorNotes T7	C0011900; Diagnosis; Diagnostic Procedure
+T8	PROC 252 264	colonoscopia
+#8	AnnotatorNotes T8	C0009378; colonoscopy; Diagnostic Procedure
+T9	PROC 507 519	colonoscopia
+#9	AnnotatorNotes T9	C0009378; colonoscopy; Diagnostic Procedure
+T10	PROC 542 561	Estudio descriptivo
+T11	PROC 606 618	colonoscopia
+#10	AnnotatorNotes T11	C0009378; colonoscopy; Diagnostic Procedure
+T12	CHEM 698 707	glicerina
+#11	AnnotatorNotes T12	C0017861; glycerin; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T13	CHEM 736 752	polietilenglicol
+#12	AnnotatorNotes T13	C0032483; polyethylene glycols; Organic Chemical · Pharmacologic Substance
+T14	CHEM 754 757	PEG
+#13	AnnotatorNotes T14	C0032483; polyethylene glycols; Organic Chemical · Pharmacologic Substance
+T15	CHEM 769 781	electrolitos
+#14	AnnotatorNotes T15	C0013832; Electrolytes; Pharmacologic Substance · Inorganic Chemical
+T16	CHEM 809 812	PEG
+#15	AnnotatorNotes T16	C0032483; polyethylene glycols; Organic Chemical · Pharmacologic Substance
+T17	CHEM 823 835	electrolitos
+#16	AnnotatorNotes T17	C0013832; Electrolytes; Pharmacologic Substance · Inorganic Chemical
+T18	CHEM 838 848	bisacodilo
+#17	AnnotatorNotes T18	C0005632; bisacodyl; Organic Chemical · Pharmacologic Substance
+T19	CHEM 868 871	PEG
+#18	AnnotatorNotes T19	C0032483; polyethylene glycols; Organic Chemical · Pharmacologic Substance
+T20	CHEM 882 894	electrolitos
+#19	AnnotatorNotes T20	C0013832; Electrolytes; Pharmacologic Substance · Inorganic Chemical
+T21	DISO 955 971	efectos adversos
+#20	AnnotatorNotes T21	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T22	PROC 1012 1024	colonoscopia
+#21	AnnotatorNotes T22	C0009378; colonoscopy; Diagnostic Procedure
+T23	DISO 1442 1455	estreñimiento
+#22	AnnotatorNotes T23	C0009806; Constipation; Sign or Symptom | C0221152; Obstipation; Disease or Syndrome
+T24	DISO 1539 1555	efectos adversos
+#23	AnnotatorNotes T24	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T25	PROC 1664 1690	suspensión del medicamento
+#24	AnnotatorNotes T25	C0850893; stop medication; Therapeutic or Preventive Procedure
+T26	PROC 1727 1738	preparación
+#25	AnnotatorNotes T26	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+T27	PROC 1922 1931	protocolo
+#26	AnnotatorNotes T27	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T28	PROC 430 440	protocolos
+#27	AnnotatorNotes T28	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T29	DISO 410 426	efectos adversos
+#28	AnnotatorNotes T29	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T30	ANAT 1954 1964	intestinal
+#29	AnnotatorNotes T30	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T31	PROC 1 20	Limpieza intestinal
+#30	AnnotatorNotes T31	C0455052; Bowel preparation; Therapeutic or Preventive Procedure
+T32	LIVB 42 47	niños
+#31	AnnotatorNotes T32	C0008059; Child; Age Group
+T36	LIVB 473 494	pacientes pediátricos
+#32	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T37	LIVB 522 531	Pacientes
+#33	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 574 583	pacientes
+#34	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Age 584 593	< 18 años
+T41	Age 672 681	< 6 meses
+T42	Form 683 694	supositorio
+#35	AnnotatorNotes T42	C0038854; Suppository; Biomedical or Dental Material
+T45	Neg_cue 765 768	sin
+T46	Age 784 807	4 años-9 años, 11 meses
+T48	Neg_cue 819 822	sin
+T49	Age 851 866	10 años-18 años
+T50	LIVB 1123 1132	pacientes
+#36	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Age 1192 1198	4 años
+T52	Age 1206 1220	un mes-17 años
+T53	LIVB 1260 1269	pacientes
+#37	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Age 1306 1315	< 6 meses
+T55	Age 1324 1334	10-18 años
+T56	Age 1354 1377	4 años-9 años, 11 meses
+T58	LIVB 1514 1523	pacientes
+#38	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1576 1585	pacientes
+#39	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	Age 1613 1623	10-18 años
+T61	Neg_cue 1645 1647	no
+T63	LIVB 1826 1835	pacientes
+#40	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	PHYS 1947 1964	hábito intestinal
+#41	AnnotatorNotes T64	C0011135; Defecation; Organism Function
+T33	Age 710 734	6 meses-3 años, 11 meses
+T34	LIVB 1158 1165	varones
+#42	AnnotatorNotes T34	C0025266; Male population group; Population Group
+A1	Population_data T32 Age
+A2	Population_data T36 Age
+A3	Assertion T15 Negated
+A4	Assertion T17 Negated
+A5	Assertion T25 Negated
+T35	Neg_cue 318 320	no
+T40	CONC 325 333	consenso
+A6	Assertion T40 Negated
+R1	Negation Arg1:T35 Arg2:T40	
+R2	Negation Arg1:T61 Arg2:T25	
+R3	Negation Arg1:T48 Arg2:T17	
+R4	Negation Arg1:T45 Arg2:T15	
+T43	Spec_cue 1884 1890	podría
+T44	CONC 1891 1898	deberse
+A7	Assertion T44 Speculated
+#43	AnnotatorNotes T44	C0015127; Etiology aspects; Functional Concept (?) | C1314792; Etiology; Functional Concept (?)
+R5	Location_of Arg1:T1 Arg2:T31	
+R6	Before Arg1:T31 Arg2:T2	
+R7	Experiences Arg1:T32 Arg2:T2	
+R8	Experiences Arg1:T32 Arg2:T31	
+T47	Observation 62 72	adherencia
+#44	AnnotatorNotes T47	C2364172; Adherence To Medication Regime; Finding
+R9	Experiences Arg1:T32 Arg2:T47	
+R10	Experiences Arg1:T32 Arg2:T3	
+R11	Before Arg1:T2 Arg2:T3	
+R12	Location_of Arg1:T5 Arg2:T4	
+R13	Before Arg1:T4 Arg2:T8	
+R14	Before Arg1:T8 Arg2:T7	
+T57	Observation 397 407	adherencia
+#45	AnnotatorNotes T57	C2364172; Adherence To Medication Regime; Finding
+R15	Experiences Arg1:T36 Arg2:T29	
+R16	Experiences Arg1:T36 Arg2:T57	
+R17	Experiences Arg1:T36 Arg2:T9	
+R18	Before Arg1:T9 Arg2:T29	
+R19	Has_Age Arg1:T38 Arg2:T39	
+R20	Experiences Arg1:T38 Arg2:T11	
+R21	Has_Age Arg1:T37 Arg2:T39	
+R22	Experiences Arg1:T37 Arg2:T11	
+R23	Has_Drug_Form Arg1:T12 Arg2:T42	
+R24	Overlap Arg1:T12 Arg2:T41	
+R25	Overlap Arg1:T14 Arg2:T33	
+R26	Overlap Arg1:T13 Arg2:T33	
+R27	Overlap Arg1:T15 Arg2:T33	
+R28	Overlap Arg1:T15 Arg2:T33	
+R29	Overlap Arg1:T16 Arg2:T46	
+R30	Overlap Arg1:T17 Arg2:T46	
+R31	Overlap Arg1:T18 Arg2:T46	
+R32	Combined_with Arg1:T16 Arg2:T18	
+R33	Combined_with Arg1:T19 Arg2:T20	
+R34	Overlap Arg1:T19 Arg2:T49	
+R35	Overlap Arg1:T20 Arg2:T49	
+T62	CONC 912 930	datos demográficos
+#46	AnnotatorNotes T62	C4684639; Demographic Data; Intellectual Product
+T65	CONC 912 917;932 940	datos clínicos
+#47	AnnotatorNotes T65	C1516606; Clinical Data; Intellectual Product
+T66	Observation 942 952	adherencia
+#48	AnnotatorNotes T66	C2364172; Adherence To Medication Regime; Finding
+T67	CONC 1072 1078	Boston
+#49	AnnotatorNotes T67	C4302285; BBPS - Boston bowel preparation scale; Intellectual Product
+T68	Quantifier_or_Qualifier 1079 1089	modificada
+R36	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T68	
+R37	Used_for Arg1:T67 Arg2:T6	
+R38	Has_Age Arg1:T34 Arg2:T51	
+R39	Has_Age Arg1:T34 Arg2:T52	
+R40	Has_Age Arg1:T50 Arg2:T51	
+R41	Has_Age Arg1:T50 Arg2:T52	
+R42	Overlap Arg1:T23 Arg2:T56	
+T69	Observation 1480 1496	buena adherencia
+R43	Experiences Arg1:T58 Arg2:T69	
+R44	Experiences Arg1:T59 Arg2:T24	
+R45	Has_Age Arg1:T59 Arg2:T60	
+T70	Quantifier_or_Qualifier 1637 1642	leves
+#50	AnnotatorNotes T70	C2945599; Mild (qualifier value); Qualitative Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T70	
+R47	Experiences Arg1:T59 Arg2:T25	
+R49	Experiences Arg1:T63 Arg2:T26	
+R50	Speculation Arg1:T43 Arg2:T44	
+R51	Location_of Arg1:T30 Arg2:T64	
+#51	AnnotatorNotes T69	C4700175; Good = 95% adherence; Finding (?)
+A8	Experiencer T59 Patient
+A9	Experiencer T58 Patient
+A10	Experiencer T63 Patient
+A11	Experiencer T32 Patient
+A12	Experiencer T36 Patient
+A13	Experiencer T37 Patient
+A14	Experiencer T38 Patient
+A15	Experiencer T50 Patient
+A16	Experiencer T34 Patient
+A17	Experiencer T53 Patient

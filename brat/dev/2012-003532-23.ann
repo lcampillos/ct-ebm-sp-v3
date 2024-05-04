@@ -1,0 +1,207 @@
+T1	PROC 44 74	Extensión de un ensayo clínico
+T2	PROC 80 100	evaluar la seguridad
+#1	AnnotatorNotes T2	C1705187; Safety Study; Research Activity
+T3	CHEM 128 139	tobramicina
+#2	AnnotatorNotes T3	C0040341; tobramycin; Antibiotic · Organic Chemical
+T4	DISO 179 196	Fibrosis Quística
+#3	AnnotatorNotes T4	C0010674; Cystic Fibrosis; Disease or Syndrome
+T5	PROC 218 237;266 297	Extensión al ensayo fase IV, multicéntrico, abierto
+T7	PROC 323 343	evaluar la seguridad
+#4	AnnotatorNotes T7	C1705187; Safety Study; Research Activity
+T8	CHEM 371 382	tobramicina
+#5	AnnotatorNotes T8	C0040341; tobramycin; Antibiotic · Organic Chemical
+T9	DISO 422 439	Fibrosis Quística
+#6	AnnotatorNotes T9	C0010674; Cystic Fibrosis; Disease or Syndrome
+T10	DISO 462 481	Infección bateriana
+T11	DISO 499 516	fibrosis quística
+#7	AnnotatorNotes T11	C0010674; Cystic Fibrosis; Disease or Syndrome
+T12	ANAT 552 560	pulmonar
+#8	AnnotatorNotes T12	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T13	DISO 613 630	fibrosis quística
+#9	AnnotatorNotes T13	C0010674; Cystic Fibrosis; Disease or Syndrome
+T14	PROC 676 712	consentimiento informado por escrito
+#10	AnnotatorNotes T14	C0811741; Obtain informed written consent; Health Care Activity
+T15	PROC 774 787	procedimiento
+#11	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T16	PROC 911 920	protocolo
+#12	AnnotatorNotes T16	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T17	PROC 925 945	estudio de extensión
+T18	CHEM 975 985	Creatinina
+#13	AnnotatorNotes T18	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T19	ANAT 986 992	sérica
+#14	AnnotatorNotes T19	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T20	PROC 1008 1011	BUN
+#15	AnnotatorNotes T20	C0005845; Blood urea nitrogen measurement; Laboratory Procedure
+T21	PROC 1033 1050	análisis de orina
+#16	AnnotatorNotes T21	C0042014; Urinalysis; Laboratory Procedure
+T22	ANAT 1045 1050	orina
+#17	AnnotatorNotes T22	C0042036; Urine; Body Substance
+T23	DISO 1073 1084	proteinuria
+#18	AnnotatorNotes T23	C0033687; Proteinuria; Finding
+T24	PROC 1135 1155	estudio de extensión
+T25	CHEM 1180 1197	diuréticos de asa
+#19	AnnotatorNotes T25	C0354100; Loop Diuretics; Pharmacologic Substance
+T26	PROC 1241 1261	estudio de extensión
+T27	DISO 542 595	Infección pulmonar crónica con Pseudomonas aeruginosa
+T28	PROC 1483 1511	prueba de laboratorio de HCG
+#20	AnnotatorNotes T28	C1880076; Choriogonadotropin Beta Measurement; Laboratory Procedure
+T29	CHEM 1508 1511	HCG
+#21	AnnotatorNotes T29	C1141639; human chorionic gonadotropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T30	PROC 1682 1706	método de anticoncepción
+T31	PROC 1783 1792	protocolo
+#22	AnnotatorNotes T31	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T32	PROC 975 992	Creatinina sérica
+#23	AnnotatorNotes T32	C0201976; Creatinine measurement, serum (procedure); Laboratory Procedure
+T33	PROC 1735 1765	administración del tratamiento
+T34	Date 12 16	2012
+T35	Date 101 114	a largo plazo
+T37	LIVB 165 174	pacientes
+#24	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Duration 254 264	48 semanas
+T39	Date 344 357	a largo plazo
+T41	LIVB 408 417	pacientes
+#25	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 485 494	pacientes
+#26	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Duration 561 568	crónica
+#27	AnnotatorNotes T43	C0205191; chronic; Temporal Concept
+T44	LIVB 573 595	Pseudomonas aeruginosa
+#28	AnnotatorNotes T44	C0033809; Pseudomonas aeruginosa; Bacterium
+T45	LIVB 599 608	pacientes
+#29	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T50	Duration 1201 1211	los 7 días
+T51	LIVB 1266 1311	Mujeres embarazadas o en período de lactancia
+#30	AnnotatorNotes T51	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T52	PHYS 1322 1330	embarazo
+#31	AnnotatorNotes T52	C0032961; Pregnancy; Organism Function
+T53	LIVB 1363 1368	mujer
+#32	AnnotatorNotes T53	C0043210; Woman; Population Group
+T54	PHYS 1383 1393	concepción
+#33	AnnotatorNotes T54	C0009637; Conception; Organism Function | C0015914; Fertilization; Organism Function
+T55	PHYS 1424 1433	gestación
+#34	AnnotatorNotes T55	C0032961; Pregnancy; Organism Function
+T56	LIVB 1545 1567	Mujeres en edad fértil
+#35	AnnotatorNotes T56	C4324275; Woman of childbearing potential; Population Group
+T57	Age 1556 1567	edad fértil
+T59	LIVB 1594 1601	mujeres
+#36	AnnotatorNotes T59	C0043210; Woman; Population Group
+T62	Route 145 155	inhalación
+T63	Route 388 398	inhalación
+T66	PHYS 1639 1650	embarazadas
+#37	AnnotatorNotes T66	C0032961; Pregnancy; Organism Function
+T67	Form 119 124	polvo
+T36	Form 362 367	polvo
+T40	PHYS 1274 1285	embarazadas
+#38	AnnotatorNotes T40	C0032961; Pregnancy; Organism Function
+T47	PHYS 1302 1311	lactancia
+#39	AnnotatorNotes T47	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T48	Result_or_Value 1051 1058	anormal
+T49	PROC 1157 1163	visita
+#40	AnnotatorNotes T49	C1512346; Patient Visit; Health Care Activity
+T58	Quantifier_or_Qualifier 1164 1166	15
+T60	Quantifier_or_Qualifier 1538 1540	15
+T61	PROC 1531 1537	Visita
+#41	AnnotatorNotes T61	C1512346; Patient Visit; Health Care Activity
+#42	AnnotatorNotes T35	C0443252; Long-term; Temporal Concept
+#43	AnnotatorNotes T39	C0443252; Long-term; Temporal Concept
+#44	AnnotatorNotes T67	C0032861; Powder dose form; Biomedical or Dental Material
+#45	AnnotatorNotes T62	C0205535; Inhalation Route of Drug Administration; Functional Concept 
+#46	AnnotatorNotes T63	C0205535; Inhalation Route of Drug Administration; Functional Concept 
+#47	AnnotatorNotes T5	C0282462; Phase 4 Clinical Trials; Research Activity + C1096776; Multicenter Study; Research Activity + C1709323; Open Label Study; Research Activity (?)
+#48	AnnotatorNotes T10	C0004623; Bacterial Infections; Disease or Syndrome
+#49	AnnotatorNotes T30	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+R1	Overlap Arg1:T2 Arg2:T35	
+R2	Has_Drug_Form Arg1:T3 Arg2:T67	
+R3	Has_Route_or_Mode Arg1:T3 Arg2:T62	
+R4	Experiences Arg1:T37 Arg2:T3	
+R5	Experiences Arg1:T37 Arg2:T4	
+R7	Has_Duration_or_Interval Arg1:T5 Arg2:T38	
+R6	Overlap Arg1:T7 Arg2:T39	
+R8	Has_Route_or_Mode Arg1:T8 Arg2:T63	
+R9	Has_Drug_Form Arg1:T8 Arg2:T36	
+#50	AnnotatorNotes T36	C0032861; Powder dose form; Biomedical or Dental Material
+R10	Experiences Arg1:T41 Arg2:T8	
+R11	Experiences Arg1:T41 Arg2:T9	
+R12	Experiences Arg1:T42 Arg2:T10	
+R13	Before Arg1:T11 Arg2:T10	
+R14	Experiences Arg1:T42 Arg2:T11	
+R15	Location_of Arg1:T12 Arg2:T27	
+R16	Has_Duration_or_Interval Arg1:T27 Arg2:T43	
+R17	Causes Arg1:T44 Arg2:T27	
+R18	Experiences Arg1:T45 Arg2:T13	
+R19	Experiences Arg1:T45 Arg2:T27	
+R20	Before Arg1:T13 Arg2:T27	
+R21	Before Arg1:T14 Arg2:T15	
+R22	Location_of Arg1:T19 Arg2:T32	
+T6	Result_or_Value 993 1006	2 mg/dl o más
+T46	Result_or_Value 1012 1026	40 mg/dl o más
+R23	Has_Result_or_Value Arg1:T20 Arg2:T46	
+R24	Has_Result_or_Value Arg1:T32 Arg2:T6	
+R25	Location_of Arg1:T22 Arg2:T21	
+R26	Has_Result_or_Value Arg1:T21 Arg2:T48	
+T64	Result_or_Value 1085 1098	2+ o superior
+R27	Has_Result_or_Value Arg1:T23 Arg2:T64	
+T65	CONC 1119 1128	inclusión
+#51	AnnotatorNotes T65	C1512693; Inclusion; Qualitative Concept
+R28	Overlap Arg1:T32 Arg2:T65	
+R29	Overlap Arg1:T20 Arg2:T65	
+R30	Overlap Arg1:T21 Arg2:T65	
+R31	Overlap Arg1:T23 Arg2:T65	
+R33	Overlap Arg1:T65 Arg2:T49	
+R34	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T58	
+R35	Has_Duration_or_Interval Arg1:T25 Arg2:T50	
+T68	CONC 1225 1234	inclusión
+#52	AnnotatorNotes T68	C1512693; Inclusion; Qualitative Concept
+R36	Before Arg1:T25 Arg2:T68	
+R38	Experiences Arg1:T51 Arg2:T40	
+R39	Experiences Arg1:T51 Arg2:T47	
+R40	Experiences Arg1:T53 Arg2:T52	
+R41	Experiences Arg1:T53 Arg2:T54	
+R42	After Arg1:T52 Arg2:T54	
+R43	Experiences Arg1:T53 Arg2:T55	
+R44	Before Arg1:T54 Arg2:T55	
+T69	Result_or_Value 1458 1476	resultado positivo
+#53	AnnotatorNotes T69	C1446409; Positive; Finding
+T70	Result_or_Value 1513 1523	> 5 mIU/mL
+R45	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T60	
+R46	Overlap Arg1:T28 Arg2:T61	
+R47	Has_Result_or_Value Arg1:T28 Arg2:T69	
+R48	Has_Result_or_Value Arg1:T28 Arg2:T70	
+R49	Overlap Arg1:T52 Arg2:T61	
+R50	Overlap Arg1:T55 Arg2:T61	
+R51	Has_Age Arg1:T56 Arg2:T57	
+R52	Experiences Arg1:T59 Arg2:T66	
+R53	Experiences Arg1:T59 Arg2:T30	
+R54	Experiences Arg1:T56 Arg2:T30	
+R55	Overlap Arg1:T30 Arg2:T33	
+T71	Observation 825 846	finalizado el estudio
+#54	AnnotatorNotes T71	C2732579; Completion of clinical trial; Finding
+T72	Observation 878 906	cumplir todos los requisitos
+#55	AnnotatorNotes T72	C1302261; Patienteligible for clinical trial; Finding (?)
+R56	Experiences Arg1:T51 Arg2:T61	
+R57	Experiences Arg1:T53 Arg2:T61	
+R60	Before Arg1:T71 Arg2:T16	
+R61	Before Arg1:T71 Arg2:T17	
+T73	Quantifier_or_Qualifier 1707 1723	altamente eficaz
+R62	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T73	
+T74	Observation 716 728	asentimiento
+#56	AnnotatorNotes T74	C1302239; Patient consented to clinical trial; Finding (?)
+R63	Before Arg1:T74 Arg2:T15	
+R58	Overlap Arg1:T47 Arg2:T61	
+R59	Overlap Arg1:T40 Arg2:T61	
+#57	AnnotatorNotes T48	C0459424; Abnormal result; Finding
+#58	AnnotatorNotes T33	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+R32	Overlap Arg1:T32 Arg2:T49	
+R37	Overlap Arg1:T20 Arg2:T49	
+R64	Overlap Arg1:T21 Arg2:T49	
+R65	Overlap Arg1:T23 Arg2:T49	
+R66	Overlap Arg1:T48 Arg2:T49	
+R67	Experiences Arg1:T53 Arg2:T40	
+A1	Experiencer T37 Patient
+A2	Experiencer T41 Patient
+A3	Experiencer T42 Patient
+A4	Experiencer T45 Patient
+A5	Experiencer T51 Patient
+A6	Experiencer T53 Patient
+A7	Experiencer T56 Patient
+A8	Experiencer T59 Patient

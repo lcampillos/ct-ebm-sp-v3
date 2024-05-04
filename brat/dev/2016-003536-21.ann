@@ -1,0 +1,158 @@
+T1	PROC 46 69	Ensayo en neoadyuvancia
+T2	CHEM 73 82	Nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 85 95	ipilimumab
+#2	AnnotatorNotes T3	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	PROC 110 123	quimioterapia
+#3	AnnotatorNotes T4	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T5	CHEM 128 146	doblete de platino
+#4	AnnotatorNotes T5	C5206469; Platinum Doublet; Pharmacologic Substance
+T6	DISO 150 181	cáncer de pulmón no microcítico
+#5	AnnotatorNotes T6	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T7	DISO 183 187	CPNM
+#6	AnnotatorNotes T7	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T8	PROC 231 267	Ensayo fase 3, abierto, aleatorizado
+T9	CHEM 272 281	nivolumab
+#7	AnnotatorNotes T9	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	CHEM 284 294	ipilimumab
+#8	AnnotatorNotes T10	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	PROC 304 317	quimioterapia
+#9	AnnotatorNotes T11	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T12	CHEM 322 340	doblete de platino
+#10	AnnotatorNotes T12	C5206469; Platinum Doublet; Pharmacologic Substance
+T13	DISO 347 351	CPNM
+#11	AnnotatorNotes T13	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T14	DISO 395 426	Cáncer de pulmón no microcítico
+#12	AnnotatorNotes T14	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T15	DISO 480 484	CPNM
+#13	AnnotatorNotes T15	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T16	DISO 428 432	CPNM
+#14	AnnotatorNotes T16	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T17	ANAT 579 587	pulmonar
+#15	AnnotatorNotes T17	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T18	PROC 608 624	cirugía pulmonar
+T19	ANAT 616 624	pulmonar
+#16	AnnotatorNotes T19	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T20	ANAT 725 731	tejido
+#17	AnnotatorNotes T20	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T21	ANAT 742 750	pulmonar
+#18	AnnotatorNotes T21	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T22	DISO 811 821	enfermedad
+#19	AnnotatorNotes T22	C0012634; Disease; Disease or Syndrome
+T23	DISO 883 904	enfermedad autoinmune
+#20	AnnotatorNotes T23	C0004364; Autoimmune Diseases; Disease or Syndrome
+T24	DISO 736 750	tumor pulmonar
+T25	PROC 937 948	Tratamiento
+#21	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	CHEM 970 1036	medicamento dirigido a las vías de coestimulación de las células T
+#22	AnnotatorNotes T26	C3192215; Selective T Cell Costimulation Blocker; Pharmacologic Substance (?)
+T27	ANAT 1027 1036	células T
+#23	AnnotatorNotes T27	C0039194; T-Lymphocyte; Cell
+T28	CHEM 1043 1075	inhibidores del punto de control
+#24	AnnotatorNotes T28	C4684977; Immune Checkpoint Inhibitor; Immunologic Factor · Pharmacologic Substance
+T29	ANAT 160 166	pulmón
+#25	AnnotatorNotes T29	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T30	ANAT 170 181	microcítico
+#26	AnnotatorNotes T30	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T31	ANAT 405 411	pulmón
+#27	AnnotatorNotes T31	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T32	ANAT 415 426	microcítico
+#28	AnnotatorNotes T32	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T33	DISO 856 867	metastásica
+#29	AnnotatorNotes T33	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T34	Date 13 17	2016
+T35	Neg_cue 167 169	no
+T36	Neg_cue 412 414	no
+T37	PHYS 571 587	función pulmonar
+#30	AnnotatorNotes T37	C0035245; Respiratory physiology; Physiologic Function
+T38	LIVB 869 878	Pacientes
+#31	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Spec_cue 925 935	sospechada
+T40	PHYS 1005 1036	coestimulación de las células T
+#32	AnnotatorNotes T40	C1622572; T cell costimulation; Cell Function
+T41	LIVB 699 712	participantes
+#33	AnnotatorNotes T41	C4554048; Study Participant; Population Group
+T42	PROC 636 652	Estado funcional
+#34	AnnotatorNotes T42	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T43	PROC 536 552	histológicamente
+#35	AnnotatorNotes T43	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T30 Negated
+A2	Assertion T32 Negated
+A3	Assertion T23 Speculated
+A4	Status T25 History_of
+A5	Status T26 History_of
+A6	Status T28 History_of
+#36	AnnotatorNotes T8	C0282461; Phase 3 Clinical Trials; Research Activity + C1709323; Open Label Study; Research Activity + C0034656; Randomization; Research Activity
+#37	AnnotatorNotes T18	C0038903; Pulmonary Surgical Procedures; Therapeutic or Preventive Procedure
+#38	AnnotatorNotes T24	C0024121; Lung Neoplasms; Neoplastic Process
+R1	Combined_with Arg1:T2 Arg2:T3	
+R2	Used_for Arg1:T5 Arg2:T4	
+T44	Quantifier_or_Qualifier 192 208	estadio temprano
+#39	AnnotatorNotes T44	C2363430; Early stage; Temporal Concept
+T45	Quantifier_or_Qualifier 437 453	estadio temprano
+#40	AnnotatorNotes T45	C2363430; Early stage; Temporal Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T45	
+R4	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T45	
+R5	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T44	
+R6	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T44	
+R7	Negation Arg1:T36 Arg2:T32	
+R8	Negation Arg1:T35 Arg2:T30	
+R9	Location_of Arg1:T29 Arg2:T6	
+R10	Location_of Arg1:T29 Arg2:T7	
+R11	Location_of Arg1:T31 Arg2:T14	
+R12	Location_of Arg1:T31 Arg2:T16	
+R13	Used_for Arg1:T12 Arg2:T11	
+R14	Combined_with Arg1:T9 Arg2:T10	
+T46	Quantifier_or_Qualifier 355 371	estadio temprano
+#41	AnnotatorNotes T46	C2363430; Early stage; Temporal Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T46	
+T47	Quantifier_or_Qualifier 488 504	estadio temprano
+#42	AnnotatorNotes T47	C2363430; Early stage; Temporal Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T47	
+T48	Quantifier_or_Qualifier 506 513	IB-IIIA
+R17	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T48	
+T49	Quantifier_or_Qualifier 515 523	operable
+#43	AnnotatorNotes T49	C0205188; Operable; Qualitative Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T49	
+R20	Location_of Arg1:T17 Arg2:T37	
+T50	Observation 597 604	tolerar
+R21	Overlap Arg1:T37 Arg2:T18	
+R22	Location_of Arg1:T19 Arg2:T18	
+R23	Overlap Arg1:T37 Arg2:T50	
+R24	Overlap Arg1:T50 Arg2:T18	
+T51	Result_or_Value 653 656	0-1
+T52	CONC 661 686	Eastern Cooperative Group
+#44	AnnotatorNotes T52	C1520224; ECOG performance status; Intellectual Product
+T53	CONC 688 692	ECOG
+#45	AnnotatorNotes T53	C1520224; ECOG performance status; Intellectual Product
+R25	Has_Result_or_Value Arg1:T52 Arg2:T51	
+R26	Has_Result_or_Value Arg1:T53 Arg2:T51	
+R27	Used_for Arg1:T52 Arg2:T42	
+R28	Used_for Arg1:T53 Arg2:T42	
+R29	Experiences Arg1:T41 Arg2:T24	
+R30	Location_of Arg1:T20 Arg2:T24	
+T54	Quantifier_or_Qualifier 751 759	primario
+#46	AnnotatorNotes T54	C0205225; Primary; Qualitative Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T54	
+T55	Quantifier_or_Qualifier 822 841	localmente avanzada
+R32	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T55	
+R33	Before Arg1:T22 Arg2:T33	
+T56	Observation 843 853	inoperable
+#47	AnnotatorNotes T56	C4039777; Tumor surgically unresectable; Finding
+R34	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T56	
+R35	Experiences Arg1:T38 Arg2:T23	
+R36	Speculation Arg1:T39 Arg2:T23	
+T57	Quantifier_or_Qualifier 905 911	activa
+#48	AnnotatorNotes T57	C0679217; Active State; Idea or Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T57	
+R38	Used_for Arg1:T26 Arg2:T25	
+R39	Used_for Arg1:T28 Arg2:T25	
+R41	Location_of Arg1:T27 Arg2:T40	
+T58	Quantifier_or_Qualifier 760 770	disponible
+#49	AnnotatorNotes T58	C0470187; Availability of; Functional Concept
+R42	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T58	
+R43	Location_of Arg1:T21 Arg2:T24	
+A7	Experiencer T38 Patient
+A8	Experiencer T41 Patient
+A9	Status T18 Future
+A10	Status T50 Future

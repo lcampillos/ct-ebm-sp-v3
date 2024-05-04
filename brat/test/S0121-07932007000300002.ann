@@ -1,0 +1,180 @@
+T1	DISO 1 21	Accidente bothrópico
+T2	PROC 35 81	estudio multicéntrico de la eficacia seguridad
+#1	AnnotatorNotes T2	C1096776; Multicenter Study; Research Activity + C0511730; Identify product efficacy and safety issues; Health Care Activity
+T3	CHEM 105 127	antiveneno polivalente
+#2	AnnotatorNotes T3	C0718591; Antivenin Polyvalent; Organic Chemical · Pharmacologic Substance
+T4	CHEM 378 392	Antivipmyn-Tri
+T5	CHEM 207 218	antivenenos
+#3	AnnotatorNotes T5	C0003450; Antivenin; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T6	PROC 427 443	esquema de dosis
+T7	PROC 305 339	evaluar la eficacia y la seguridad
+#4	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T8	CHEM 346 376	antiveneno F(ab´)2 polivalente
+T9	DISO 447 467	accidente bothrópico
+T10	PROC 524 550	ensayo clínico-terapéutico
+#5	AnnotatorNotes T10	C1515364; Therapeutic Clinical Trial; Research Activity
+T11	DISO 1439 1461	implicaciones clínicas
+T12	CHEM 573 579	veneno
+#6	AnnotatorNotes T12	C0032346; Poisons; Hazardous or Poisonous Substance | C0042479; Venoms; Hazardous or Poisonous Substance
+T13	CHEM 582 592	antiveneno
+#7	AnnotatorNotes T13	C0003450; Antivenin; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T14	ANAT 593 599	sérico
+#8	AnnotatorNotes T14	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T15	PROC 601 606	ELISA
+#9	AnnotatorNotes T15	C0014441; Enzyme-Linked Immunosorbent Assay; Laboratory Procedure
+T16	ANAT 764 770	sangre
+#10	AnnotatorNotes T16	C0005767; Blood; Body Substance
+T17	PROC 787 794	ingreso
+#11	AnnotatorNotes T17	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T18	DISO 811 819	sangrado
+#12	AnnotatorNotes T18	C0019080; Hemorrhage; Pathologic Function
+T19	DISO 843 851	sangrado
+#13	AnnotatorNotes T19	C0019080; Hemorrhage; Pathologic Function
+T20	DISO 881 895	envenenamiento
+#14	AnnotatorNotes T20	C0032343; Poisoning; Injury or Poisoning | C0728899; Intoxication; Finding
+T21	ANAT 1155 1162	séricas
+#15	AnnotatorNotes T21	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T22	CHEM 1166 1172	veneno
+#16	AnnotatorNotes T22	C0032346; Poisons; Hazardous or Poisonous Substance | C0042479; Venoms; Hazardous or Poisonous Substance
+T23	PROC 1195 1206	tratamiento
+#17	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	DISO 1225 1233	sangrado
+#18	AnnotatorNotes T24	C0019080; Hemorrhage; Pathologic Function
+T25	DISO 1376 1388	coagulopatía
+#19	AnnotatorNotes T25	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T26	DISO 1606 1614	secuelas
+#20	AnnotatorNotes T26	C0543419; Sequela of disorder; Pathologic Function
+T27	DISO 1393 1401	sangrado
+#21	AnnotatorNotes T27	C0019080; Hemorrhage; Pathologic Function
+T28	PROC 1713 1724	tratamiento
+#22	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	DISO 672 680	mordidos
+#23	AnnotatorNotes T29	C0037379; Snake Bites; Injury or Poisoning
+T30	DISO 764 783	sangre incoagulable
+T31	PROC 1541 1552	faboterapia
+T32	CHEM 1669 1683	Antivipmyn-Tri
+T33	CHEM 222 225	IgG
+#24	AnnotatorNotes T33	C0020852; immunoglobulin G; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T34	DISO 1423 1434	antigenemia
+T35	DISO 1498 1527	reacciones tempranas adversas
+T36	DISO 1562 1569	muertes
+#25	AnnotatorNotes T36	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T37	DISO 1729 1754	envenenamiento bothrópico
+T38	CHEM 85 99	Antivipmyn-Tri
+T39	CHEM 1069 1083	Antivipmyn-Tri
+T40	PROC 553 569	cuantificaciones
+T41	Duration 513 520	9 meses
+T42	LIVB 614 623	pacientes
+#26	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 655 664	pacientes
+#27	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 685 699	Bothrops asper
+#28	AnnotatorNotes T45	C0999141; Bothrops asper; Reptile
+T46	LIVB 957 966	pacientes
+#29	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Dose 1004 1013	5 frascos
+T48	Duration 1237 1260	las primeras 6-12 horas
+T49	PHYS 1294 1305	coagulación
+#30	AnnotatorNotes T49	C0005778; Blood coagulation; Organ or Tissue Function
+T50	Duration 1309 1317	24 horas
+T51	Duration 1328 1336	48 horas
+T52	Neg_cue 1389 1392	sin
+T53	Neg_cue 1435 1438	sin
+T54	LIVB 1468 1477	pacientes
+#31	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	Neg_cue 1554 1556	No
+T56	LIVB 1580 1589	pacientes
+#32	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 729 737	B. atrox
+#33	AnnotatorNotes T44	C1622414; Fer-de-Lance; Reptile
+T57	DEVI 1006 1013	frascos
+#34	AnnotatorNotes T57	C0184301; Vial device; Medical Device
+T58	Dose 1049 1051	10
+T59	Duration 1176 1191	la primera hora
+T60	DISO 1361 1372	recurrencia
+#35	AnnotatorNotes T60	C2825055; Recurrence (disease attribute); Pathologic Function
+T61	DISO 1407 1419	recurrencias
+#36	AnnotatorNotes T61	C2825055; Recurrence (disease attribute); Pathologic Function
+A1	Assertion T27 Negated
+A2	Assertion T11 Negated
+A3	Assertion T36 Negated
+R1	Negation Arg1:T53 Arg2:T11	
+R2	Negation Arg1:T52 Arg2:T27	
+R5	Used_for Arg1:T8 Arg2:T6	
+R6	Used_for Arg1:T4 Arg2:T6	
+R10	Has_Duration_or_Interval Arg1:T10 Arg2:T41	
+R11	Has_Duration_or_Interval Arg1:T40 Arg2:T41	
+R12	Location_of Arg1:T14 Arg2:T40	
+R13	Location_of Arg1:T14 Arg2:T15	
+R14	Experiences Arg1:T42 Arg2:T40	
+R15	Experiences Arg1:T42 Arg2:T12	
+R16	Experiences Arg1:T42 Arg2:T13	
+R17	Experiences Arg1:T42 Arg2:T15	
+R18	Experiences Arg1:T43 Arg2:T29	
+R19	Causes Arg1:T45 Arg2:T29	
+R20	Causes Arg1:T44 Arg2:T29	
+R21	Experiences Arg1:T43 Arg2:T30	
+R22	Overlap Arg1:T30 Arg2:T17	
+R24	Causes Arg1:T29 Arg2:T18	
+R25	Causes Arg1:T29 Arg2:T19	
+R26	Experiences Arg1:T43 Arg2:T18	
+R27	Experiences Arg1:T43 Arg2:T19	
+T62	Quantifier_or_Qualifier 820 825	local
+#37	AnnotatorNotes T62	C0205276; Local; Spatial Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T62	
+T63	Quantifier_or_Qualifier 852 861	sistémico
+#38	AnnotatorNotes T63	C0205373; Systemic; Functional Concept
+R29	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T63	
+R30	Overlap Arg1:T18 Arg2:T17	
+#39	AnnotatorNotes R30	(?)
+R31	Overlap Arg1:T19 Arg2:T17	
+#40	AnnotatorNotes R31	(?)
+T64	Quantifier_or_Qualifier 900 904	leve
+R32	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T64	
+T65	Quantifier_or_Qualifier 920 928	moderado
+R33	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T65	
+T66	Quantifier_or_Qualifier 945 950	grave
+#41	AnnotatorNotes T66	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R34	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T66	
+R35	Experiences Arg1:T46 Arg2:T20	
+T67	Quantifier_or_Qualifier 1029 1034	leves
+T68	Quantifier_or_Qualifier 1037 1046	moderados
+T69	Quantifier_or_Qualifier 1061 1067	graves
+#42	AnnotatorNotes T69	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R36	Has_Dose_or_Strength Arg1:T39 Arg2:T58	
+#43	AnnotatorNotes T58	[Dose expressed in vials]
+R37	Has_Dose_or_Strength Arg1:T39 Arg2:T47	
+R40	Used_for Arg1:T39 Arg2:T23	
+T70	Observation 1106 1115;1135 1172	disminuir las concentraciones séricas de veneno
+R39	Overlap Arg1:T70 Arg2:T59	
+T71	Observation 1214 1233	detener el sangrado
+R41	Overlap Arg1:T71 Arg2:T48	
+R42	Causes Arg1:T39 Arg2:T70	
+R43	Causes Arg1:T39 Arg2:T71	
+T72	Observation 1280 1305	normalizar la coagulación
+#44	AnnotatorNotes T72	C4539836; Normal coagulation; Finding
+R44	Causes Arg1:T39 Arg2:T72	
+R45	Overlap Arg1:T72 Arg2:T50	
+R46	Overlap Arg1:T72 Arg2:T51	
+R47	Overlap Arg1:T60 Arg2:T27	
+R48	Overlap Arg1:T25 Arg2:T27	
+R49	Overlap Arg1:T34 Arg2:T11	
+R50	Overlap Arg1:T61 Arg2:T11	
+R51	Experiences Arg1:T54 Arg2:T35	
+T73	Quantifier_or_Qualifier 1529 1534	leves
+R52	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T73	
+R53	Causes Arg1:T31 Arg2:T35	
+R54	Experiences Arg1:T56 Arg2:T26	
+R55	Negation Arg1:T55 Arg2:T36	
+R56	Used_for Arg1:T32 Arg2:T28	
+#45	AnnotatorNotes T64	C2945599; Mild (qualifier value); Qualitative Concept
+#46	AnnotatorNotes T65	C0205081; Moderate (severity modifier); Qualitative Concept
+#47	AnnotatorNotes T68	C0205081; Moderate (severity modifier); Qualitative Concept
+#48	AnnotatorNotes T67	C2945599; Mild (qualifier value); Qualitative Concept
+#49	AnnotatorNotes T73	C2945599; Mild (qualifier value); Qualitative Concept
+#50	AnnotatorNotes T6	C4684645; Dosage Regimen; Therapeutic or Preventive Procedure
+A4	Experiencer T42 Patient
+A5	Experiencer T43 Patient
+A6	Experiencer T46 Patient
+A7	Experiencer T54 Patient
+A8	Experiencer T56 Patient

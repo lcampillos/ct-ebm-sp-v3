@@ -1,0 +1,183 @@
+T1	PROC 46 66	Detección del cáncer
+#1	AnnotatorNotes T1	C0199230; Screening for cancer; Diagnostic Procedure
+T2	DISO 60 66	cáncer
+#2	AnnotatorNotes T2	C0006826; Malignant Neoplasms; Neoplastic Process
+T3	PROC 75 92	técnica de imagen
+#3	AnnotatorNotes T3	C0079595; Imaging Techniques; Diagnostic Procedure
+T4	PROC 109 125	detectar tumores
+T5	DISO 118 125	tumores
+#4	AnnotatorNotes T5	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T6	DISO 155 187	enfermedad tromboenbolica venosa
+T7	ANAT 181 187	venosa
+#5	AnnotatorNotes T7	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T8	DISO 235 241	cáncer
+#6	AnnotatorNotes T8	C0006826; Malignant Neoplasms; Neoplastic Process
+T9	PROC 302 322	Detección del cáncer
+#7	AnnotatorNotes T9	C0199230; Screening for cancer; Diagnostic Procedure
+T10	DISO 316 322	cáncer
+#8	AnnotatorNotes T10	C0006826; Malignant Neoplasms; Neoplastic Process
+T11	PROC 327 330	PET
+#9	AnnotatorNotes T11	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T12	PROC 331 334	TAC
+#10	AnnotatorNotes T12	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T13	DISO 352 384	enfermedad tromboembólica venosa
+T14	ANAT 378 384	venosa
+#11	AnnotatorNotes T14	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T15	DISO 432 438	cáncer
+#12	AnnotatorNotes T15	C0006826; Malignant Neoplasms; Neoplastic Process
+T16	PROC 544 547	PET
+#13	AnnotatorNotes T16	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T17	PROC 548 551	TAC
+#14	AnnotatorNotes T17	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T18	PROC 557 572	detectar cáncer
+T19	DISO 566 572	cáncer
+#15	AnnotatorNotes T19	C0006826; Malignant Neoplasms; Neoplastic Process
+T20	DISO 597 629	enfermedad tromboembólica venosa
+T21	ANAT 623 629	venosa
+#16	AnnotatorNotes T21	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T22	PROC 513 532	conocer la eficacia
+#17	AnnotatorNotes T22	C1707887; Efficacy Study; Research Activity
+T23	DISO 718 750	Enfermedad tromboembólica venosa
+T24	ANAT 744 750	venosa
+#18	AnnotatorNotes T24	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T25	PROC 803 814	Diagnóstico
+#19	AnnotatorNotes T25	C0011900; Diagnosis; Diagnostic Procedure
+T26	DISO 818 850	enfermedad tromboembólica venosa
+T27	ANAT 844 850	venosa
+#20	AnnotatorNotes T27	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T28	DISO 852 909	trombosis venosa profunda proximal de miembros inferiores
+T29	ANAT 890 909	miembros inferiores
+#21	AnnotatorNotes T29	C0023216; Lower Extremity; Body Part, Organ, or Organ Component | C1269079; Entire lower limb; Body Part, Organ, or Organ Component
+T30	DISO 911 928	embolia de pulmón
+T31	PROC 1165 1176	seguimiento
+#22	AnnotatorNotes T31	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T32	DISO 1190 1207	Hipersensibilidad
+#23	AnnotatorNotes T32	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T33	PROC 1255 1258	PET
+#24	AnnotatorNotes T33	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T34	PROC 1259 1262	TAC
+#25	AnnotatorNotes T34	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T35	CHEM 1264 1286	8-fluor desoxi-glucosa
+#26	AnnotatorNotes T35	C0046056; fluorodeoxyglucose F18; Indicator, Reagent, or Diagnostic Aid · Organic Chemical
+T36	CHEM 1318 1329	excipientes
+#27	AnnotatorNotes T36	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T37	PROC 243 278	Ensayo clínico aleatorizado abierto
+T38	PROC 440 475	Ensayo clínico aleatorizado abierto
+T39	PROC 638 660	pruebas de diagnostico
+#28	AnnotatorNotes T39	C0871311; Screening test; Health Care Activity
+T40	ANAT 862 868	venosa
+#29	AnnotatorNotes T40	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T41	ANAT 922 928	pulmón
+#30	AnnotatorNotes T41	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T42	PROC 1080 1104	consentimiento informado
+#31	AnnotatorNotes T42	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T43	CHEM 1211 1220	contraste
+#32	AnnotatorNotes T43	C0009924; Contrast Media; Indicator, Reagent, or Diagnostic Aid
+T44	CHEM 1288 1293	18FDG
+#33	AnnotatorNotes T44	C0046056; fluorodeoxyglucose F18; Indicator, Reagent, or Diagnostic Aid · Organic Chemical
+T45	Date 13 17	2018
+T46	LIVB 141 150	pacientes
+#34	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T48	Spec_cue 213 222	riesgo de
+T49	LIVB 338 347	pacientes
+#35	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T51	Spec_cue 410 419	riesgo de
+T52	LIVB 583 592	pacientes
+#36	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Age 780 798	Mayores de 18 años
+T56	Date 1061 1065	2016
+T57	Neg_cue 1135 1151	Imposibilidad de
+A1	Assertion T8 Speculated
+A2	Assertion T15 Speculated
+A3	Assertion T31 Negated
+A4	Status T32 History_of
+#37	AnnotatorNotes T37	C1709323; Open Label Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#38	AnnotatorNotes T6	C1997614; Thromboembolism of vein; Pathologic Function 
+#39	AnnotatorNotes T13	C1997614; Thromboembolism of vein; Pathologic Function 
+#40	AnnotatorNotes T20	C1997614; Thromboembolism of vein; Pathologic Function 
+#41	AnnotatorNotes T23	C1997614; Thromboembolism of vein; Pathologic Function 
+#42	AnnotatorNotes T26	C1997614; Thromboembolism of vein; Pathologic Function 
+#43	AnnotatorNotes T38	C1709323; Open Label Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#44	AnnotatorNotes T18	C0199230; Screening for cancer; Diagnostic Procedure
+#45	AnnotatorNotes T30	C0034065; Pulmonary Embolism; Pathologic Function 
+T47	Quantifier_or_Qualifier 191 200	provocada
+A5	Assertion T47 Negated
+#46	AnnotatorNotes T47	C1444748; Triggered by; Qualitative Concept (?)
+T50	Neg_cue 188 190	no
+T54	Quantifier_or_Qualifier 388 397	provocada
+A6	Assertion T54 Negated
+#47	AnnotatorNotes T54	C1444748; Triggered by; Qualitative Concept (?)
+T55	Neg_cue 385 387	no
+T58	Neg_cue 938 940	no
+T59	Quantifier_or_Qualifier 941 950	provocado
+A7	Assertion T59 Negated
+#48	AnnotatorNotes T59	C1444748; Triggered by; Qualitative Concept (?)
+T60	Quantifier_or_Qualifier 126 137	precozmente
+#49	AnnotatorNotes T60	C1279919; Early; Temporal Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T60	
+R5	Experiences Arg1:T46 Arg2:T1	
+R6	Experiences Arg1:T46 Arg2:T2	
+R7	Experiences Arg1:T46 Arg2:T3	
+R8	Experiences Arg1:T46 Arg2:T4	
+R9	Experiences Arg1:T46 Arg2:T5	
+R10	Experiences Arg1:T46 Arg2:T6	
+R11	Location_of Arg1:T7 Arg2:T6	
+R12	Negation Arg1:T50 Arg2:T47	
+R13	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T47	
+R14	Speculation Arg1:T48 Arg2:T8	
+T61	Observation 208 222	algo riesgo de
+#50	AnnotatorNotes T61	C0332167; High risk of; Finding
+R15	Before Arg1:T61 Arg2:T8	
+R16	Experiences Arg1:T46 Arg2:T61	
+R20	Experiences Arg1:T49 Arg2:T9	
+R21	Experiences Arg1:T49 Arg2:T11	
+R22	Experiences Arg1:T49 Arg2:T12	
+R23	Experiences Arg1:T49 Arg2:T13	
+R24	Location_of Arg1:T14 Arg2:T13	
+R25	Negation Arg1:T55 Arg2:T54	
+R26	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T54	
+T62	Observation 405 419	alto riesgo de
+#51	AnnotatorNotes T62	C0332167; High risk of; Finding
+R27	Before Arg1:T62 Arg2:T15	
+R28	Experiences Arg1:T49 Arg2:T62	
+R29	Speculation Arg1:T51 Arg2:T15	
+R31	Experiences Arg1:T52 Arg2:T16	
+R32	Experiences Arg1:T52 Arg2:T17	
+R33	Experiences Arg1:T52 Arg2:T18	
+R34	Experiences Arg1:T52 Arg2:T19	
+R35	Experiences Arg1:T52 Arg2:T20	
+R36	Location_of Arg1:T21 Arg2:T20	
+R37	Experiences Arg1:T52 Arg2:T39	
+R40	Location_of Arg1:T24 Arg2:T23	
+R41	Location_of Arg1:T27 Arg2:T26	
+R42	Location_of Arg1:T40 Arg2:T28	
+R43	Location_of Arg1:T29 Arg2:T28	
+R44	Location_of Arg1:T41 Arg2:T30	
+R45	Negation Arg1:T58 Arg2:T59	
+R46	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T59	
+R47	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T59	
+R48	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T59	
+T63	Observation 972 983	alto riesgo
+#52	AnnotatorNotes T63	C4319571; High risk; Finding
+R49	Negation Arg1:T57 Arg2:T31	
+T64	Quantifier_or_Qualifier 1177 1185	adecuado
+A8	Assertion T64 Negated
+#53	AnnotatorNotes T64	C0205411; Adequate; Qualitative Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T64	
+R51	Negation Arg1:T57 Arg2:T64	
+R52	Causes Arg1:T43 Arg2:T32	
+R53	Causes Arg1:T35 Arg2:T32	
+R54	Causes Arg1:T44 Arg2:T32	
+R55	Causes Arg1:T36 Arg2:T32	
+R56	Used_for Arg1:T43 Arg2:T33	
+R57	Used_for Arg1:T43 Arg2:T34	
+R58	Used_for Arg1:T35 Arg2:T33	
+R59	Used_for Arg1:T35 Arg2:T34	
+R60	Used_for Arg1:T44 Arg2:T33	
+R61	Used_for Arg1:T44 Arg2:T34	
+R62	Experiences Arg1:T49 Arg2:T15	
+R1	Experiences Arg1:T46 Arg2:T8	
+#54	AnnotatorNotes T4	C0199230; Screening for cancer; Diagnostic Procedure
+A9	Experiencer T46 Patient
+A10	Experiencer T49 Patient
+A11	Experiencer T52 Patient

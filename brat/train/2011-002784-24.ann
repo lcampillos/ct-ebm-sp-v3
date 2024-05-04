@@ -1,0 +1,109 @@
+T1	CHEM 87 94	fármaco
+#1	AnnotatorNotes T1	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T2	PROC 115 126	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 133 150	estrongiloidiasis
+#3	AnnotatorNotes T3	C0038463; Strongyloidiasis; Disease or Syndrome
+T4	PROC 195 252	Ensayo clínico multicéntrico randomizado abierto fase III
+T5	CHEM 304 315	ivermectina
+#4	AnnotatorNotes T5	C0022322; ivermectin; Organic Chemical · Pharmacologic Substance
+T6	PROC 322 333	tratamiento
+#5	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 340 357	estrongiloidiasis
+#6	AnnotatorNotes T7	C0038463; Strongyloidiasis; Disease or Syndrome
+T8	DISO 381 402	Infección parasitaria
+#7	AnnotatorNotes T8	C0030499; Parasitic Diseases; Disease or Syndrome
+T9	DISO 429 446	estrongiloidiasis
+#8	AnnotatorNotes T9	C0038463; Strongyloidiasis; Disease or Syndrome
+T10	PROC 748 772	Consentimiento informado
+#9	AnnotatorNotes T10	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T11	PROC 585 596	Diagnóstico
+#10	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	ANAT 652 657	heces
+#11	AnnotatorNotes T12	C0015733; Feces; Body Substance
+T13	PROC 662 669	cultivo
+#12	AnnotatorNotes T13	C0430400; Laboratory culture; Laboratory Procedure
+T14	PROC 672 681	serología
+#13	AnnotatorNotes T14	C0036743; Serologic tests; Laboratory Procedure
+T15	PROC 712 721	serología
+#14	AnnotatorNotes T15	C0036743; Serologic tests; Laboratory Procedure
+T16	DISO 821 860	Enfermedad del Sistema Nervioso Central
+T17	ANAT 836 860	Sistema Nervioso Central
+#15	AnnotatorNotes T17	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T18	DISO 862 890	Estrongiloidiasis diseminada
+#16	AnnotatorNotes T18	C0348996; Disseminated strongyloidiasis; Disease or Syndrome
+T19	PROC 955 966	Tratamiento
+#17	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	CHEM 1002 1013	ivermectina
+#18	AnnotatorNotes T20	C0022322; ivermectin; Organic Chemical · Pharmacologic Substance
+T21	DISO 600 617	estrongiloidiasis
+#19	AnnotatorNotes T21	C0038463; Strongyloidiasis; Disease or Syndrome
+T22	PROC 627 648	examen parasitológico
+T23	CHEM 95 106	ivermectina
+#20	AnnotatorNotes T23	C0022322; ivermectin; Organic Chemical · Pharmacologic Substance
+T24	PROC 929 953	consentimiento informado
+#21	AnnotatorNotes T24	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T25	DISO 902 918	inmunosuprimidos
+T26	Date 13 17	2011
+T28	Dose 267 278	dosis única
+T29	LIVB 473 497	Pacientes de ambos sexos
+#22	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T30	Age 498 515	mayores de 5 años
+T31	Date 555 561	actual
+T33	PHYS 799 807	Embarazo
+#23	AnnotatorNotes T33	C0032961; Pregnancy; Organism Function
+T34	PHYS 810 819	lactancia
+#24	AnnotatorNotes T34	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T35	LIVB 892 901	Pacientes
+#25	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Neg_cue 920 928	Falta de
+T37	Date 983 996	el último año
+T38	LIVB 391 402	parasitaria
+#26	AnnotatorNotes T38	C0030498; Parasites; Eukaryote
+T27	Dose 286 300	dosis múltiple
+T32	PROC 522 526	peso
+#27	AnnotatorNotes T32	C2985231; Body Weight Measurement; Diagnostic Procedure
+A1	Assertion T24 Negated
+A2	Status T19 History_of
+A3	Status T20 History_of
+#28	AnnotatorNotes T4	C1096776; Multicenter Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity + C1709323; Open Label Study; Research Activity  + C0282461; Phase 3 Clinical Trials; Research Activity
+#29	AnnotatorNotes T16	C0007682; CNS disorder; Disease or Syndrome 
+#30	AnnotatorNotes T25	C0085393; Immunocompromised Patient; Finding 
+#31	AnnotatorNotes T31	C0521116; Current (present time); Temporal Concept 
+T39	Neg_cue 571 573	no
+T40	Quantifier_or_Qualifier 574 583	endémicas
+A4	Assertion T40 Negated
+T41	Observation 544 583	Residencia actual en áreas no endémicas
+R1	Used_for Arg1:T1 Arg2:T2	
+R2	Used_for Arg1:T23 Arg2:T2	
+R3	Has_Dose_or_Strength Arg1:T5 Arg2:T28	
+R4	Has_Dose_or_Strength Arg1:T5 Arg2:T27	
+R5	Used_for Arg1:T5 Arg2:T6	
+R6	Causes Arg1:T38 Arg2:T8	
+R7	Has_Age Arg1:T29 Arg2:T30	
+T42	Result_or_Value 527 542	superior a 15Kg
+R8	Has_Result_or_Value Arg1:T32 Arg2:T42	
+R9	Experiences Arg1:T29 Arg2:T32	
+R10	Overlap Arg1:T41 Arg2:T31	
+R11	Negation Arg1:T39 Arg2:T40	
+R12	Before Arg1:T22 Arg2:T11	
+R14	Location_of Arg1:T12 Arg2:T22	
+R15	Before Arg1:T13 Arg2:T11	
+R16	Before Arg1:T14 Arg2:T11	
+R17	Before Arg1:T15 Arg2:T11	
+T43	Result_or_Value 722 746	positiva a título "alto"
+#32	AnnotatorNotes T43	C1446409; Positive; Finding + C0476442; High antibody titer; Finding
+R18	Has_Result_or_Value Arg1:T15 Arg2:T43	
+T44	Result_or_Value 682 690	positiva
+#33	AnnotatorNotes T44	C1446409; Positive; Finding
+R19	Has_Result_or_Value Arg1:T14 Arg2:T44	
+R20	Combined_with Arg1:T13 Arg2:T14	
+R21	Has_Result_or_Value Arg1:T13 Arg2:T44	
+R22	Location_of Arg1:T17 Arg2:T16	
+R23	Experiences Arg1:T35 Arg2:T25	
+R24	Negation Arg1:T36 Arg2:T24	
+R25	Used_for Arg1:T20 Arg2:T19	
+R26	Overlap Arg1:T20 Arg2:T37	
+#35	AnnotatorNotes T22	C1294355; Detection of parasite; Laboratory Procedure
+A5	Experiencer T29 Patient
+A6	Experiencer T35 Patient

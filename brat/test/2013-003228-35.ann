@@ -1,0 +1,94 @@
+T1	PROC 33 78	Estudio de la eficacia preliminar y seguridad
+T2	CHEM 85 95	cisteamina
+#1	AnnotatorNotes T2	C0010648; cysteamine; Organic Chemical · Pharmacologic Substance
+T3	DISO 150 160	cistinosis
+#2	AnnotatorNotes T3	C4316899; Cystinosis; Disease or Syndrome
+T4	DISO 184 194	Cistinosis
+#3	AnnotatorNotes T4	C4316899; Cystinosis; Disease or Syndrome
+T5	PROC 782 796	consentimiento
+#4	AnnotatorNotes T5	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T6	PROC 374 385	tratamiento
+#5	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	PROC 604 618	consentimiento
+#6	AnnotatorNotes T7	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T8	PROC 736 765	tratamientos tópicos oculares
+T9	ANAT 757 765	oculares
+#7	AnnotatorNotes T9	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T10	CHEM 116 132	solución viscosa
+#8	AnnotatorNotes T10	C3857177; Viscous Solutions; Substance
+T11	DISO 360 370	cistinosis
+#9	AnnotatorNotes T11	C4316899; Cystinosis; Disease or Syndrome
+T12	CHEM 401 411	cisteamina
+#10	AnnotatorNotes T12	C0010648; cysteamine; Organic Chemical · Pharmacologic Substance
+T13	Route 96 102	tópica
+#11	AnnotatorNotes T13	C1522168; Topical Route of Drug Administration; Functional Concept
+T14	Form 116 124	solución
+#12	AnnotatorNotes T14	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T15	LIVB 136 145	pacientes
+#13	AnnotatorNotes T15	C0030705; Patients; Patient or Disabled Group
+T16	LIVB 225 234	pacientes
+#14	AnnotatorNotes T16	C0030705; Patients; Patient or Disabled Group
+T17	LIVB 339 348	Pacientes
+#15	AnnotatorNotes T17	C0030705; Patients; Patient or Disabled Group
+T18	Form 390 397	colirio
+T19	Dose 412 420	al 0,55%
+T20	Form 443 450	colirio
+T21	Age 538 545	≥5 años
+T22	LIVB 548 556	Paciente
+#16	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	LIVB 583 589	Padres
+#17	AnnotatorNotes T23	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T24	LIVB 637 646	pacientes
+#18	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	Age 650 664	más de 12 años
+T26	Route 749 756	tópicos
+#19	AnnotatorNotes T26	C1522168; Topical Route of Drug Administration; Functional Concept
+T27	Neg_cue 769 781	Retirada del
+A1	Assertion T5 Negated
+#20	AnnotatorNotes T20	C0015399; Eye Drops; Biomedical or Dental Material
+#21	AnnotatorNotes T18	C0015399; Eye Drops; Biomedical or Dental Material
+T28	CONC 799 811	asentimiento
+A2	Assertion T28 Negated
+#22	AnnotatorNotes T28	C1879749; Assent; Conceptual Entity
+R1	Has_Route_or_Mode Arg1:T2 Arg2:T13	
+R2	Has_Drug_Form Arg1:T10 Arg2:T14	
+R3	Has_Drug_Form Arg1:T2 Arg2:T14	
+R4	Experiences Arg1:T15 Arg2:T2	
+R5	Experiences Arg1:T15 Arg2:T3	
+T29	Observation 295 304	elegibles
+T30	CONC 313 335	admisión en el estudio
+#23	AnnotatorNotes T30	C1512693; Inclusion; Qualitative Concept
+R6	Before Arg1:T29 Arg2:T30	
+#24	AnnotatorNotes T29	C1302261; Patient eligible for clinical trial; Finding (?)
+R7	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T29	
+T31	Observation 241 285	cumplir cada uno de los siguientes criterios
+#25	AnnotatorNotes T31	C4329786; Eligibility Criteria Met By Subject; Finding
+R9	Before Arg1:T31 Arg2:T29	
+R10	Experiences Arg1:T17 Arg2:T11	
+R11	Experiences Arg1:T17 Arg2:T6	
+R12	Used_for Arg1:T12 Arg2:T6	
+R13	Has_Drug_Form Arg1:T12 Arg2:T18	
+R14	Has_Dose_or_Strength Arg1:T12 Arg2:T19	
+R15	Has_Drug_Form Arg1:T12 Arg2:T20	
+T32	Observation 557 568	colaborador
+#26	AnnotatorNotes T32	C0517036; Cooperates with procedures; Finding
+R16	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T32	
+T33	Observation 571 580	cumplidor
+#27	AnnotatorNotes T33	C3714738; Compliance; Finding
+R17	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T33	
+T34	Observation 621 633	asentimiento
+#28	AnnotatorNotes T34	C1302239; Patient consented to clinical trial; Finding (?)
+R18	Has_Age Arg1:T24 Arg2:T25	
+R19	Has_Route_or_Mode Arg1:T8 Arg2:T26	
+R20	Location_of Arg1:T9 Arg2:T8	
+T35	Quantifier_or_Qualifier 714 726	concomitante
+#29	AnnotatorNotes T35	C0521115; Simultaneous; Temporal Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T35	
+R22	Negation Arg1:T27 Arg2:T5	
+R23	Negation Arg1:T27 Arg2:T28	
+A3	Experiencer T24 Patient
+A4	Experiencer T23 Patient
+A5	Experiencer T22 Patient
+A6	Experiencer T15 Patient
+A7	Experiencer T16 Patient
+A8	Experiencer T17 Patient

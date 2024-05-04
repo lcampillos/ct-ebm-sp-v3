@@ -1,0 +1,304 @@
+T1	PROC 44 54	Evaluación
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	PROC 61 77	analgesia tópica
+T3	DISO 91 100	dolorosas
+#2	AnnotatorNotes T3	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T4	PROC 122 160	Ensayo clínico randomizado doble ciego
+T5	DISO 215 222	heridas
+#3	AnnotatorNotes T5	C0043250; Injury wounds; Injury or Poisoning
+T6	CHEM 258 267	lidocaína
+#4	AnnotatorNotes T6	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T7	PROC 271 278	placebo
+#5	AnnotatorNotes T7	C0032042; Placebos; Therapeutic or Preventive Procedure
+T8	DISO 380 397	heridas dolorosas
+T9	DISO 477 484	heridas
+#6	AnnotatorNotes T9	C0043250; Injury wounds; Injury or Poisoning
+T10	PROC 492 514	aplicación de fomentos
+#7	AnnotatorNotes T10	C3650820; Applying Hot Pack; Therapeutic or Preventive Procedure
+T11	PROC 531 538	Placebo
+#8	AnnotatorNotes T11	C0032042; Placebos; Therapeutic or Preventive Procedure
+T12	PROC 633 647	aleatorización
+#9	AnnotatorNotes T12	C0034656; Randomization; Research Activity
+T13	DISO 730 738	dolorosa
+#10	AnnotatorNotes T13	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T14	DISO 742 749	heridas
+#11	AnnotatorNotes T14	C0043250; Injury wounds; Injury or Poisoning
+T15	DISO 797 804	Heridas
+#12	AnnotatorNotes T15	C0043250; Injury wounds; Injury or Poisoning
+T16	DISO 807 814	úlceras
+#13	AnnotatorNotes T16	C0041582; Ulcer; Pathologic Function
+T17	DISO 898 905	úlceras
+#14	AnnotatorNotes T17	C0041582; Ulcer; Pathologic Function
+T18	ANAT 918 926	arterial
+#15	AnnotatorNotes T18	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T19	PROC 569 593	Consentimiento informado
+#16	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	PROC 980 996	test de embarazo
+#17	AnnotatorNotes T20	C0032976; Pregnancy Tests; Diagnostic Procedure
+T21	PROC 1068 1089	método anticonceptivo
+#18	AnnotatorNotes T21	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T22	PROC 1113 1124	tratamiento
+#19	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	DISO 1170 1187	reacción alérgica
+#20	AnnotatorNotes T23	C1527304; Allergic Reaction; Pathologic Function
+T24	DISO 1228 1235	Heridas
+#21	AnnotatorNotes T24	C0043250; Injury wounds; Injury or Poisoning
+T25	DISO 1238 1245	úlceras
+#22	AnnotatorNotes T25	C0041582; Ulcer; Pathologic Function
+T26	DISO 1258 1266	lesiones
+#23	AnnotatorNotes T26	C0221198; Lesion; Finding
+T27	DISO 1310 1317	Heridas
+#24	AnnotatorNotes T27	C0043250; Injury wounds; Injury or Poisoning
+T28	DISO 1378 1398	Heridas perioculares
+T29	DISO 1416 1454	alteraciones de la conducción cardíaca
+T30	DISO 1456 1483	bloqueo auriculoventricular
+#25	AnnotatorNotes T30	C0004245; Atrioventricular Block; Disease or Syndrome
+T31	DISO 1503 1532	bloqueo cardiaco bifascicular
+#26	AnnotatorNotes T31	C0264914; Bifascicular block; Disease or Syndrome
+T32	DISO 1550 1579	nivel de consciencia alterado
+T33	PROC 1596 1608	hemodiálisis
+#27	AnnotatorNotes T33	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T34	PROC 1610 1629	diálisis peritoneal
+#28	AnnotatorNotes T34	C0031139; Peritoneal Dialysis; Therapeutic or Preventive Procedure
+T35	PROC 1632 1655	hemofiltración continua
+T36	DISO 1673 1695	insuficiencia hepática
+#29	AnnotatorNotes T36	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T37	PROC 85 100	curas dolorosas
+T38	DISO 193 198	dolor
+#30	AnnotatorNotes T38	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T39	PROC 206 222	curas de heridas
+#31	AnnotatorNotes T39	C0455099; Wound cleaning; Therapeutic or Preventive Procedure
+T40	DISO 351 356	dolor
+#32	AnnotatorNotes T40	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T41	PROC 368 397	cura de las heridas dolorosas
+T42	DISO 448 453	dolor
+#33	AnnotatorNotes T42	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T43	PROC 465 484	cura de las heridas
+T44	CHEM 518 527	lidocaina
+#34	AnnotatorNotes T44	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T45	PROC 725 749	cura dolorosa de heridas
+T46	PROC 773 791	consultas externas
+T47	ANAT 869 873	piel
+#35	AnnotatorNotes T47	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T48	PROC 751 754	EVN
+#36	AnnotatorNotes T48	C4275132; Assessment using Verbal Rating Scale; Diagnostic Procedure
+T49	DISO 910 926	déficit arterial
+T50	CHEM 1190 1223	anestésicos locales de tipo amida
+T51	ANAT 1301 1305	piel
+#37	AnnotatorNotes T51	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T52	ANAT 1386 1398	perioculares
+#38	AnnotatorNotes T52	C0230064; Periorbital region; Body Location or Region
+T53	ANAT 1446 1454	cardíaca
+#39	AnnotatorNotes T53	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T54	ANAT 1511 1519	cardiaco
+#40	AnnotatorNotes T54	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T55	Route 1619 1629	peritoneal
+#41	AnnotatorNotes T55	C1706534; Peritoneal dialysis route; Functional Concept
+T56	ANAT 1687 1695	hepática
+#42	AnnotatorNotes T56	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T57	Date 12 16	2017
+T58	Route 71 77	tópica
+#43	AnnotatorNotes T58	C1522168; Topical Route of Drug Administration; Functional Concept
+T59	DEVI 246 254	fomentos
+#44	AnnotatorNotes T59	C0181226; Hot Packs; Medical Device
+T60	LIVB 283 303	paciente ambulatorio
+#45	AnnotatorNotes T60	C0029921; Outpatients; Patient or Disabled Group
+T61	DEVI 506 514	fomentos
+#46	AnnotatorNotes T61	C0181226; Hot Packs; Medical Device
+T62	LIVB 711 720	Pacientes
+#47	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T65	LIVB 931 953	Mujeres en edad fértil
+#48	AnnotatorNotes T65	C4324275; Woman of childbearing potential; Population Group
+T66	Age 942 953	edad fértil
+T68	Neg_cue 968 976	negativo
+T69	LIVB 1001 1008	Hombres
+#49	AnnotatorNotes T69	C0025266; Male population group; Population Group
+T70	LIVB 1011 1039	mujeres con potencial fértil
+#50	AnnotatorNotes T70	C4324275; Woman of childbearing potential; Population Group
+T75	Dose 1345 1357	más de 20 ml
+T76	Form 1364 1372	solución
+#51	AnnotatorNotes T76	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T77	LIVB 1402 1411	Pacientes
+#52	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	PHYS 1435 1454	conducción cardíaca
+#53	AnnotatorNotes T78	C0232217; Cardiac conduction; Organ or Tissue Function
+T79	LIVB 1536 1545	Pacientes
+#54	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	LIVB 1583 1592	Pacientes
+#55	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T82	LIVB 1659 1668	Pacientes
+#56	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group
+T84	LIVB 1759 1768	Pacientes
+#57	AnnotatorNotes T84	C0030705; Patients; Patient or Disabled Group
+T86	PHYS 988 996	embarazo
+#58	AnnotatorNotes T86	C0032961; Pregnancy; Organism Function
+T87	PHYS 1559 1570	consciencia
+#59	AnnotatorNotes T87	C0009790; Conscience; Mental Process | C0234421; Conscious; Mental Process
+T88	LIVB 1717 1754	Embarazadas o en periodo de lactancia
+#60	AnnotatorNotes T88	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T67	PHYS 1745 1754	lactancia
+#61	AnnotatorNotes T67	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T71	LIVB 651 665	Sexo masculino
+#62	AnnotatorNotes T71	C0025266; Male population group; Population Group
+T72	LIVB 668 676	femenino
+#63	AnnotatorNotes T72	C0043210; Woman; Population Group
+T81	Age 684 707	mayor o igual a 18 años
+T63	Neg_cue 892 897	Salvo
+T64	PHYS 1717 1728	Embarazadas
+#64	AnnotatorNotes T64	C0032961; Pregnancy; Organism Function
+A1	Population_data T70 Age
+A2	Population_data T65 Age
+A3	Assertion T86 Negated
+A4	Assertion T49 Negated
+A5	Assertion T17 Negated
+A6	Status T23 History_of
+#65	AnnotatorNotes T4	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity
+#66	AnnotatorNotes T43	C0455099; Wound cleaning; Therapeutic or Preventive Procedure
+#67	AnnotatorNotes T46	C0199298; outpatient consultation; Health Care Activity 
+#68	AnnotatorNotes T50	C3539945; Amide local anesthetics; Organic Chemical · Pharmacologic Substance 
+#69	AnnotatorNotes T29	C0232219; Abnormal cardiac conduction; Pathologic Function 
+#70	AnnotatorNotes T32	C0751054; Consciousness, Level Altered; Finding
+#71	AnnotatorNotes T35	C0472683; Continuous hemofiltration; Therapeutic or Preventive Procedure 
+T73	Neg_cue 1267 1270	sin
+T74	Observation 1271 1305	solución de continuidad de la piel
+A7	Assertion T74 Negated
+#72	AnnotatorNotes T74	C0150077; Broken skin; Finding
+T83	Observation 839 873	solución de continuidad de la piel
+#73	AnnotatorNotes T83	C0150077; Broken skin; Finding
+R1	Negation Arg1:T63 Arg2:T17	
+R2	Negation Arg1:T63 Arg2:T49	
+R3	Causes Arg1:T49 Arg2:T17	
+R4	Negation Arg1:T68 Arg2:T86	
+T85	Spec_cue 1023 1032	potencial
+T89	Quantifier_or_Qualifier 1033 1039	fértil
+A8	Assertion T89 Speculated
+R5	Speculation Arg1:T85 Arg2:T89	
+R6	Has_Quantifier_or_Qualifier Arg1:T70 Arg2:T89	
+T90	Neg_cue 1773 1781	rechacen
+T91	Observation 1782 1792	participar
+A9	Assertion T91 Negated
+#74	AnnotatorNotes T91	C1278516; Patient participation status; Finding
+R7	Negation Arg1:T90 Arg2:T91	
+R9	Has_Route_or_Mode Arg1:T2 Arg2:T58	
+R11	Overlap Arg1:T2 Arg2:T37	
+T92	Observation 177 198	disminución del dolor
+#75	AnnotatorNotes T92	C5230944; Sensation of pain reduced; Finding (?)
+R12	Overlap Arg1:T92 Arg2:T39	
+R13	Overlap Arg1:T38 Arg2:T5	
+R14	Used_for Arg1:T59 Arg2:T6	
+R15	Used_for Arg1:T59 Arg2:T7	
+R16	Before Arg1:T59 Arg2:T39	
+R17	Before Arg1:T6 Arg2:T39	
+R18	Before Arg1:T7 Arg2:T39	
+R19	Experiences Arg1:T60 Arg2:T92	
+R20	Experiences Arg1:T60 Arg2:T38	
+R21	Experiences Arg1:T60 Arg2:T39	
+R22	Experiences Arg1:T60 Arg2:T5	
+R23	Experiences Arg1:T60 Arg2:T59	
+R24	Experiences Arg1:T60 Arg2:T6	
+R25	Experiences Arg1:T60 Arg2:T7	
+R26	Causes Arg1:T6 Arg2:T92	
+R27	Causes Arg1:T7 Arg2:T92	
+T93	Observation 337 356	reduccion del dolor
+#76	AnnotatorNotes T93	C5230944; Sensation of pain reduced; Finding (?)
+R28	Overlap Arg1:T93 Arg2:T41	
+R29	Overlap Arg1:T40 Arg2:T8	
+R30	Overlap Arg1:T42 Arg2:T9	
+T94	Observation 434 453	reducción del dolor
+R31	Overlap Arg1:T94 Arg2:T43	
+R32	Before Arg1:T10 Arg2:T43	
+R33	Used_for Arg1:T61 Arg2:T10	
+R35	Before Arg1:T44 Arg2:T43	
+R36	Before Arg1:T11 Arg2:T43	
+R37	Used_for Arg1:T61 Arg2:T44	
+R34	Used_for Arg1:T61 Arg2:T11	
+R38	Causes Arg1:T44 Arg2:T94	
+R39	Causes Arg1:T11 Arg2:T94	
+R40	Before Arg1:T19 Arg2:T12	
+T95	Result_or_Value 755 758	≥ 5
+R41	Has_Result_or_Value Arg1:T48 Arg2:T95	
+R42	Experiences Arg1:T62 Arg2:T45	
+R43	Experiences Arg1:T62 Arg2:T13	
+R44	Experiences Arg1:T62 Arg2:T14	
+R53	Overlap Arg1:T45 Arg2:T46	
+R52	Overlap Arg1:T15 Arg2:T83	
+R54	Overlap Arg1:T16 Arg2:T83	
+R55	Location_of Arg1:T47 Arg2:T83	
+R56	Location_of Arg1:T47 Arg2:T16	
+R57	Location_of Arg1:T47 Arg2:T15	
+T96	Quantifier_or_Qualifier 877 890	grado II a IV
+R58	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T96	
+R59	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T96	
+R60	Location_of Arg1:T18 Arg2:T49	
+R61	Has_Age Arg1:T65 Arg2:T66	
+R62	Experiences Arg1:T65 Arg2:T20	
+R63	Experiences Arg1:T69 Arg2:T21	
+R64	Experiences Arg1:T70 Arg2:T21	
+T97	Quantifier_or_Qualifier 1090 1096	eficaz
+#77	AnnotatorNotes T97	C1704419; Effective; Qualitative Concept
+R65	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T97	
+R66	Overlap Arg1:T21 Arg2:T22	
+R67	Experiences Arg1:T69 Arg2:T22	
+R68	Experiences Arg1:T70 Arg2:T22	
+R69	Causes Arg1:T50 Arg2:T23	
+T98	Quantifier_or_Qualifier 1249 1256	grado I
+R70	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T98	
+R71	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T98	
+R72	Overlap Arg1:T26 Arg2:T74	
+R73	Negation Arg1:T73 Arg2:T74	
+R74	Location_of Arg1:T51 Arg2:T74	
+R75	Location_of Arg1:T51 Arg2:T26	
+R76	Location_of Arg1:T51 Arg2:T25	
+R77	Location_of Arg1:T51 Arg2:T24	
+T99	Observation 1318 1330	muy extensas
+#78	AnnotatorNotes T99	C0450093; Very large; Finding
+R78	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T99	
+R79	Has_Dose_or_Strength Arg1:T76 Arg2:T75	
+R80	Location_of Arg1:T52 Arg2:T28	
+#79	AnnotatorNotes T28	C4290297; injuries of periocular area; Injury or Poisoning
+R81	Experiences Arg1:T77 Arg2:T29	
+R82	Experiences Arg1:T77 Arg2:T78	
+R83	Experiences Arg1:T77 Arg2:T30	
+R84	Experiences Arg1:T77 Arg2:T31	
+R85	Location_of Arg1:T54 Arg2:T31	
+R86	Location_of Arg1:T53 Arg2:T29	
+R87	Location_of Arg1:T53 Arg2:T78	
+T100	Quantifier_or_Qualifier 1487 1500	2º o 3º grado
+R89	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T100	
+R90	Experiences Arg1:T79 Arg2:T32	
+R92	Experiences Arg1:T79 Arg2:T87	
+R93	Experiences Arg1:T80 Arg2:T33	
+R94	Experiences Arg1:T80 Arg2:T34	
+R95	Has_Route_or_Mode Arg1:T34 Arg2:T55	
+R96	Experiences Arg1:T80 Arg2:T35	
+R97	Experiences Arg1:T82 Arg2:T36	
+R98	Location_of Arg1:T56 Arg2:T36	
+T101	Quantifier_or_Qualifier 1696 1713	moderada o severa
+#80	AnnotatorNotes T101	C1299393; Moderate to severe; Qualitative Concept
+R99	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T101	
+R101	Experiences Arg1:T88 Arg2:T64	
+R102	Experiences Arg1:T88 Arg2:T67	
+#81	AnnotatorNotes T100	C0443298; Second degree; Qualitative Concept | C0443323; Third degree; Qualitative Concept
+#82	AnnotatorNotes T98	C0444502; First degree; Qualitative Concept
+R8	Before Arg1:T38 Arg2:T92	
+R10	Before Arg1:T40 Arg2:T93	
+R45	Before Arg1:T42 Arg2:T94	
+#83	AnnotatorNotes T8	C0241745; Wound pain; Sign or Symptom
+R46	Overlap Arg1:T13 Arg2:T14	
+R48	Experiences Arg1:T65 Arg2:T86	
+#84	AnnotatorNotes T94	C5230944; Sensation of pain reduced; Finding
+A10	Experiencer T60 Patient
+A11	Experiencer T71 Patient
+A12	Experiencer T72 Patient
+A13	Experiencer T62 Patient
+A14	Experiencer T65 Patient
+A15	Experiencer T69 Patient
+A16	Experiencer T70 Patient
+A17	Experiencer T77 Patient
+A18	Experiencer T79 Patient
+A19	Experiencer T80 Patient
+A20	Experiencer T82 Patient
+A21	Experiencer T88 Patient
+A22	Experiencer T84 Patient
+T102	Result_or_Value 958 976	resultado negativo
+R47	Has_Result_or_Value Arg1:T20 Arg2:T102	

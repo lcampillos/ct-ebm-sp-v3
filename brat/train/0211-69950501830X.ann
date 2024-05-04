@@ -1,0 +1,262 @@
+T1	PROC 29 35	pautas
+#1	AnnotatorNotes T1	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T2	CHEM 39 62	suplementos vitamínicos
+#2	AnnotatorNotes T2	C0302837; Vitamin supplementation; Pharmacologic Substance
+T3	CHEM 84 96	homocisteína
+#3	AnnotatorNotes T3	C0019878; homocysteine; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T4	PROC 113 125	hemodiálisis
+#4	AnnotatorNotes T4	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T5	PROC 127 167	Ensayo clínico prospectivo y randomizado
+#5	AnnotatorNotes T5	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T6	DISO 173 193	hiperhomocisteinemia
+#6	AnnotatorNotes T6	C0598608; Hyperhomocysteinemia; Disease or Syndrome
+T7	DISO 228 236	urémicos
+#7	AnnotatorNotes T7	C0041948; Uremia; Disease or Syndrome
+T8	CHEM 434 466	metilentetrahidrofolatoreductasa
+#8	AnnotatorNotes T8	C0066357; Methylenetetrahydrofolate reductase (NADPH); Amino Acid, Peptide, or Protein · Enzyme
+T9	DISO 263 284	riesgo cardiovascular
+#9	AnnotatorNotes T9	C4324389; Cardiovascular Risk; Finding
+T10	CHEM 291 314	suplementos vitamínicos
+#10	AnnotatorNotes T10	C0302837; Vitamin supplementation; Pharmacologic Substance
+T11	PROC 327 350	niveles de homocisteína
+#11	AnnotatorNotes T11	C2242817; Homocysteine measurement; Laboratory Procedure
+T12	CHEM 338 350	homocisteína
+#12	AnnotatorNotes T12	C0019878; homocysteine; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T13	PROC 519 530	tratamiento
+#13	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 570 576	pautas
+#14	AnnotatorNotes T14	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T15	CHEM 580 603	suplementos vitamínicos
+#15	AnnotatorNotes T15	C0302837; Vitamin supplementation; Pharmacologic Substance
+T16	PROC 647 658	tratamiento
+#16	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 674 721	Estudio prospectivo, randomizado, a doble ciego
+#17	AnnotatorNotes T17	C0033522; Prospective Studies; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+T18	PROC 745 757	hemodiálisis
+#18	AnnotatorNotes T18	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T19	CHEM 1820 1825	MTHFR
+#19	AnnotatorNotes T19	C0066357; Methylenetetrahydrofolate reductase (NADPH); Amino Acid, Peptide, or Protein · Enzyme
+T20	CHEM 826 838	ácido fólico
+#20	AnnotatorNotes T20	C0016410; folic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T21	CHEM 846 857	vitamina B6
+#21	AnnotatorNotes T21	C0087162; vitamin B6; Organic Chemical · Pharmacologic Substance · Vitamin
+T22	CHEM 860 863	B12
+#22	AnnotatorNotes T22	C0020316; hydroxocobalamin; Organic Chemical · Pharmacologic Substance · Vitamin | C0042845; vitamin B12; Organic Chemical · Pharmacologic Substance · Vitamin
+T23	PROC 996 1011	valores de Hcys
+#23	AnnotatorNotes T23	C2242817; Homocysteine measurement; Laboratory Procedure
+T24	PROC 1159 1174	niveles de Hcys
+#24	AnnotatorNotes T24	C2242817; Homocysteine measurement; Laboratory Procedure
+T25	CHEM 2075 2079	Hcys
+#25	AnnotatorNotes T25	C0019878; homocysteine; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T26	PROC 1293 1299	pautas
+#26	AnnotatorNotes T26	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T27	PROC 1341 1345	Hcys
+#27	AnnotatorNotes T27	C2242817; Homocysteine measurement; Laboratory Procedure
+T28	PROC 1456 1471	niveles de Hcys
+#28	AnnotatorNotes T28	C2242817; Homocysteine measurement; Laboratory Procedure
+T29	PROC 1523 1534	tratamiento
+#29	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	PROC 1924 1930	pautas
+#30	AnnotatorNotes T30	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T31	PROC 1949 1961	hemodiálisis
+#31	AnnotatorNotes T31	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T32	DISO 1980 2000	déficits vitamínicos
+#32	AnnotatorNotes T32	C1510471; Vitamin Deficiency; Disease or Syndrome
+T33	PROC 2064 2079	niveles de Hcys
+#33	AnnotatorNotes T33	C2242817; Homocysteine measurement; Laboratory Procedure
+T34	ANAT 2264 2278	cardiovascular
+#34	AnnotatorNotes T34	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T35	ANAT 270 284	cardiovascular
+#35	AnnotatorNotes T35	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T36	PROC 543 562	Conocer la eficacia
+#36	AnnotatorNotes T36	C1707887; Efficacy Study; Research Activity
+T37	CHEM 1007 1011	Hcys
+#37	AnnotatorNotes T37	C0019878; homocysteine; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T38	CHEM 1989 2000	vitamínicos
+#38	AnnotatorNotes T38	C0042890; Vitamins; Organic Chemical · Pharmacologic Substance · Vitamin
+T39	PROC 73 96	niveles de homocisteína
+#39	AnnotatorNotes T39	C2242817; Homocysteine measurement; Laboratory Procedure
+T40	PROC 352 356	Hcys
+#40	AnnotatorNotes T40	C2242817; Homocysteine measurement; Laboratory Procedure
+T41	CHEM 468 473	MTHFR
+#41	AnnotatorNotes T41	C0066357; Methylenetetrahydrofolate reductase (NADPH); Amino Acid, Peptide, or Protein · Enzyme
+T42	CHEM 625 629	Hcys
+#42	AnnotatorNotes T42	C0019878; homocysteine; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T43	PROC 614 629	niveles de Hcys
+#43	AnnotatorNotes T43	C2242817; Homocysteine measurement; Laboratory Procedure
+T44	PROC 758 774	se aleatorizaron
+#44	AnnotatorNotes T44	C0034656; Randomization; Research Activity
+T45	CHEM 1170 1174	Hcys
+#45	AnnotatorNotes T45	C0019878; homocysteine; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T46	CHEM 1467 1471	Hcys
+#46	AnnotatorNotes T46	C0019878; homocysteine; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T47	PROC 1677 1681	Hcys
+#47	AnnotatorNotes T47	C2242817; Homocysteine measurement; Laboratory Procedure
+T48	PROC 1725 1729	Hcys
+#48	AnnotatorNotes T48	C2242817; Homocysteine measurement; Laboratory Procedure
+T49	LIVB 100 109	pacientes
+#49	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 218 227	pacientes
+#50	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T53	PROC 419 427	genotipo
+#51	AnnotatorNotes T53	C1285573; Genotype determination; Laboratory Procedure
+T55	Duration 635 643	12 meses
+T56	LIVB 732 741	pacientes
+#52	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	Dose 886 892	0,4 mg
+T58	Frequency 893 900	diarios
+T59	Dose 967 971	1 mg
+T60	Frequency 972 979	diarios
+T61	LIVB 1033 1046	grupo control
+#53	AnnotatorNotes T61	C0009932; Control Groups; Group
+T62	LIVB 1094 1103	pacientes
+#54	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 1203 1212	pacientes
+#55	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	LIVB 1223 1236	grupo control
+#56	AnnotatorNotes T64	C0009932; Control Groups; Group
+T65	LIVB 1378 1387	pacientes
+#57	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	Duration 1516 1519	mes
+T67	Duration 1591 1598	6 meses
+T68	Duration 1641 1653	los 12 meses
+T69	PHYS 1801 1813	polimorfismo
+#58	AnnotatorNotes T69	C0032529; Genetic Polymorphism; Genetic Function
+T71	Neg_cue 1969 1971	no
+T51	LIVB 1120 1129	controles
+#59	AnnotatorNotes T51	C0009932; Control Groups; Group
+T52	DISO 2247 2278	morbi-mortalidad cardiovascular
+A1	Assertion T32 Negated
+R1	Negation Arg1:T71 Arg2:T32	
+T54	Neg_cue 2106 2108	no
+T70	CONC 2117 2125	ventajas
+A2	Assertion T70 Negated
+R2	Negation Arg1:T54 Arg2:T70	
+T72	Quantifier_or_Qualifier 2126 2137	adicionales
+A3	Assertion T72 Negated
+R3	Has_Quantifier_or_Qualifier Arg1:T70 Arg2:T72	
+R4	Negation Arg1:T54 Arg2:T72	
+T73	CONC 1829 1837	modificó
+A4	Assertion T73 Negated
+T74	Neg_cue 1826 1828	no
+R5	Negation Arg1:T74 Arg2:T73	
+T75	Quantifier_or_Qualifier 370 383	bien definida
+A5	Assertion T75 Negated
+T76	Neg_cue 359 361	no
+R6	Negation Arg1:T76 Arg2:T75	
+T77	CONC 387 392	dosis
+#60	AnnotatorNotes T77	C0178602; Dosage; Quantitative Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T77 Arg2:T75	
+R8	Experiences Arg1:T49 Arg2:T4	
+R9	Experiences Arg1:T49 Arg2:T39	
+R10	Experiences Arg1:T49 Arg2:T2	
+R13	Experiences Arg1:T50 Arg2:T6	
+R14	Overlap Arg1:T6 Arg2:T7	
+R15	Experiences Arg1:T50 Arg2:T7	
+R16	Location_of Arg1:T35 Arg2:T9	
+R17	Experiences Arg1:T50 Arg2:T9	
+R18	Overlap Arg1:T7 Arg2:T9	
+R19	Overlap Arg1:T6 Arg2:T9	
+R20	Before Arg1:T10 Arg2:T78	
+T79	Observation 506 530	respuesta al tratamiento
+#62	AnnotatorNotes T79	C1319171; Medication response; Finding
+R23	Overlap Arg1:T79 Arg2:T13	
+R25	After Arg1:T43 Arg2:T16	
+R26	Has_Duration_or_Interval Arg1:T16 Arg2:T55	
+R27	Used_for Arg1:T15 Arg2:T16	
+R28	Experiences Arg1:T56 Arg2:T18	
+R29	Before Arg1:T44 Arg2:T20	
+R30	Combined_with Arg1:T20 Arg2:T21	
+R31	Combined_with Arg1:T21 Arg2:T22	
+R33	Has_Frequency Arg1:T22 Arg2:T58	
+R34	Has_Frequency Arg1:T21 Arg2:T58	
+R35	Has_Frequency Arg1:T20 Arg2:T58	
+R36	Has_Dose_or_Strength Arg1:T20 Arg2:T57	
+R32	Has_Dose_or_Strength Arg1:T22 Arg2:T59	
+R37	Has_Frequency Arg1:T22 Arg2:T60	
+T80	Dose 961 964;969 971	100 mg
+R38	Has_Dose_or_Strength Arg1:T21 Arg2:T80	
+T81	Dose 957 959;969 971	15 mg
+R39	Has_Dose_or_Strength Arg1:T20 Arg2:T81	
+T82	Dose 878 879;890 892	5 mg
+R40	Has_Dose_or_Strength Arg1:T20 Arg2:T82	
+T83	Dose 881 883;890 892	10 mg
+R41	Has_Dose_or_Strength Arg1:T21 Arg2:T83	
+R42	Experiences Arg1:T61 Arg2:T23	
+R43	Experiences Arg1:T56 Arg2:T20	
+R44	Experiences Arg1:T51 Arg2:T24	
+R45	Experiences Arg1:T62 Arg2:T24	
+R46	Experiences Arg1:T63 Arg2:T24	
+R47	Experiences Arg1:T64 Arg2:T24	
+T84	Observation 1330 1345	reducir la Hcys
+#63	AnnotatorNotes T84	C0877299; Blood homocysteine decreased; Finding (?) | C0877683; Serum homocysteine decreased; Finding (?)
+R48	Experiences Arg1:T65 Arg2:T27	
+R50	Experiences Arg1:T65 Arg2:T84	
+R51	Causes Arg1:T26 Arg2:T84	
+T85	Result_or_Value 1388 1412	normalizaron sus niveles
+#64	AnnotatorNotes T85	C0877301; Blood homocysteine normal; Finding (?) | C0877582; Serum homocysteine normal; Finding (?)
+R52	Experiences Arg1:T65 Arg2:T85	
+R53	Causes Arg1:T26 Arg2:T85	
+R54	Before Arg1:T84 Arg2:T85	
+T86	CONC 1416 1436	finalizar el estudio
+#65	AnnotatorNotes T86	C2983670; Study End Date; Temporal Concept
+R55	Overlap Arg1:T85 Arg2:T86	
+R56	Overlap Arg1:T27 Arg2:T86	
+T87	Observation 1456 1498	niveles de Hcys experimentaron un descenso
+R57	After Arg1:T87 Arg2:T66	
+R58	Causes Arg1:T29 Arg2:T87	
+R60	Has_Duration_or_Interval Arg1:T29 Arg2:T66	
+T88	Observation 1565 1573	descenso
+#66	AnnotatorNotes T88	C0877299; Blood homocysteine decreased; Finding (?) | C0877683; Serum homocysteine decreased; Finding (?)
+R61	After Arg1:T88 Arg2:T67	
+R62	After Arg1:T88 Arg2:T68	
+T89	Observation 1665 1681	descenso de Hcys
+#67	AnnotatorNotes T89	C0877299; Blood homocysteine decreased; Finding (?) | C0877683; Serum homocysteine decreased; Finding (?)
+T90	CONC 1696 1711	niveles basales
+#68	AnnotatorNotes T90	C1442488; Baseline; Quantitative Concept
+T91	Observation 1860 1881	respuesta terapéutica
+#69	AnnotatorNotes T91	C1319171; Medication response; Finding
+R66	Overlap Arg1:T19 Arg2:T91	
+R67	Overlap Arg1:T69 Arg2:T91	
+T92	Food 2007 2018	suplementos
+#70	AnnotatorNotes T92	C0242295; Dietary Supplements; Food
+T93	Observation 2019 2026;2060 2079	reducen los niveles de Hcys
+#71	AnnotatorNotes T93	C0877299; Blood homocysteine decreased; Finding (?) | C0877683; Serum homocysteine decreased; Finding (?)
+R70	Causes Arg1:T92 Arg2:T93	
+R72	Location_of Arg1:T34 Arg2:T52	
+T94	Observation 2193 2201	descenso
+#72	AnnotatorNotes T94	C0877299; Blood homocysteine decreased; Finding (?) | C0877683; Serum homocysteine decreased; Finding (?)
+R73	Before Arg1:T94 Arg2:T52	
+R74	Used_for Arg1:T15 Arg2:T14	
+R75	Used_for Arg1:T2 Arg2:T1	
+T95	Quantifier_or_Qualifier 1838 1856	significativamente
+A6	Assertion T95 Negated
+#73	AnnotatorNotes T95	C0237881; Statistical Significance; Quantitative Concept
+R76	Has_Quantifier_or_Qualifier Arg1:T73 Arg2:T95	
+R77	Negation Arg1:T74 Arg2:T95	
+#61	AnnotatorNotes T87	C0877299; Blood homocysteine decreased; Finding (?) | C0877683; Serum homocysteine decreased; Finding (?)
+T78	Observation 315 357	reducen los niveles de homocisteína (Hcys)
+#74	AnnotatorNotes T78	C0877299; Blood homocysteine decreased; Finding (?) | C0877683; Serum homocysteine decreased; Finding (?)
+R11	Used_for Arg1:T77 Arg2:T10	
+R12	Overlap Arg1:T43 Arg2:T55	
+R21	Has_Frequency Arg1:T20 Arg2:T60	
+R22	Has_Frequency Arg1:T21 Arg2:T60	
+#75	AnnotatorNotes T73	C0443172; Changed status; Quantitative Concept
+#76	AnnotatorNotes T72	C1524062; Additional; Functional Concept
+#77	AnnotatorNotes T75	C0442825; Well defined; Qualitative Concept
+A7	Experiencer T49 Patient
+A8	Experiencer T50 Patient
+A9	Experiencer T56 Patient
+A10	Experiencer T61 Patient
+A11	Experiencer T62 Patient
+A12	Experiencer T51 Patient
+A13	Experiencer T63 Patient
+A14	Experiencer T64 Patient
+A15	Experiencer T65 Patient
+R24	Has_Result_or_Value Arg1:T47 Arg2:T89	
+R49	Has_Result_or_Value Arg1:T28 Arg2:T87	
+R59	Has_Result_or_Value Arg1:T11 Arg2:T78	
+R63	Has_Result_or_Value Arg1:T40 Arg2:T78	
+R64	Has_Result_or_Value Arg1:T27 Arg2:T84	
+R65	Has_Result_or_Value Arg1:T27 Arg2:T85	
+R68	Has_Result_or_Value Arg1:T33 Arg2:T93	

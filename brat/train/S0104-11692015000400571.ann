@@ -1,0 +1,95 @@
+T1	DISO 61 76	úlceras venosas
+#1	AnnotatorNotes T1	C0042344; Varicose Ulcer; Disease or Syndrome
+T2	PROC 78 102	ensayo clínico aleatorio
+#2	AnnotatorNotes T2	C0206034; Clinical Trials, Randomized; Research Activity
+T3	PHYS 138 148	reparación
+T4	DISO 177 190	úlcera venosa
+#3	AnnotatorNotes T4	C0042344; Varicose Ulcer; Disease or Syndrome
+T5	PROC 203 232	terapia compresiva inelástica
+T6	DISO 677 684	úlceras
+#4	AnnotatorNotes T6	C0041582; Ulcer; Pathologic Function
+T7	PROC 730 741	tratamiento
+#5	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 800 806	úlcera
+#6	AnnotatorNotes T8	C0041582; Ulcer; Pathologic Function
+T9	PROC 899 930	tratamiento con la Bota de Unna
+#7	AnnotatorNotes T9	C0188912; Strapping of Unna boot; Health Care Activity
+T10	DISO 959 974	úlceras venosas
+#8	AnnotatorNotes T10	C0042344; Varicose Ulcer; Disease or Syndrome
+T11	PROC 412 438	utilizaban la Bota de Unna
+#9	AnnotatorNotes T11	C0188912; Strapping of Unna boot; Health Care Activity
+T13	PROC 1113 1129	Ensayos Clínicos
+#10	AnnotatorNotes T13	C0008976; Clinical Trials; Research Activity
+T14	PROC 41 57	vendaje elástico
+#11	AnnotatorNotes T14	C0204843; Application of elastoplast strapping; Therapeutic or Preventive Procedure
+T15	ANAT 69 76	venosas
+#12	AnnotatorNotes T15	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T16	ANAT 153 159	tejido
+#13	AnnotatorNotes T16	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T17	ANAT 184 190	venosa
+#14	AnnotatorNotes T17	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T18	PROC 271 295	uso del vendaje elástico
+#15	AnnotatorNotes T18	C0204843; Application of elastoplast strapping; Therapeutic or Preventive Procedure
+T19	PROC 307 342	ensayo clínico controlado aleatorio
+#16	AnnotatorNotes T19	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T20	PROC 459 489	utilizaban el vendaje elástico
+#17	AnnotatorNotes T20	C0204843; Application of elastoplast strapping; Therapeutic or Preventive Procedure
+T21	ANAT 967 974	venosas
+#18	AnnotatorNotes T21	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T22	PROC 1010 1026	vendaje elástico
+#19	AnnotatorNotes T22	C0204843; Application of elastoplast strapping; Therapeutic or Preventive Procedure
+T23	ANAT 1063 1070	venosas
+#20	AnnotatorNotes T23	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T24	DEVI 15 27	Bota de Unna
+#21	AnnotatorNotes T24	C1576232; Unna boot; Medical Device
+T25	LIVB 163 172	pacientes
+#22	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	DEVI 279 295	vendaje elástico
+#23	AnnotatorNotes T26	C0336591; Elastic bandage; Medical Device
+T27	LIVB 354 363	pacientes
+#24	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	DEVI 473 489	vendaje elástico
+#25	AnnotatorNotes T28	C0336591; Elastic bandage; Medical Device
+T29	Duration 550 563	trece semanas
+T30	Duration 864 880	la quinta semana
+T32	DEVI 1034 1049	gasa Petrolatum
+#26	AnnotatorNotes T32	C1875183; GAUZE, PETROLATUM; Medical Device
+T33	DEVI 234 246	Bota de Unna
+#27	AnnotatorNotes T33	C1576232; Unna boot; Medical Device
+T34	DEVI 426 438	Bota de Unna
+#28	AnnotatorNotes T34	C1576232; Unna boot; Medical Device
+T35	DEVI 918 930	Bota de Unna
+#29	AnnotatorNotes T35	C1576232; Unna boot; Medical Device
+T31	DEVI 41 48	vendaje
+#30	AnnotatorNotes T31	C0004726; Bandage; Medical Device
+T12	DISO 1055 1070	úlceras venosas
+#31	AnnotatorNotes T12	C0042344; Varicose Ulcer; Disease or Syndrome
+R1	Used_for Arg1:T31 Arg2:T14	
+R2	Location_of Arg1:T15 Arg2:T1	
+R3	Location_of Arg1:T16 Arg2:T3	
+R4	Experiences Arg1:T25 Arg2:T3	
+R5	Experiences Arg1:T25 Arg2:T4	
+R6	Location_of Arg1:T17 Arg2:T4	
+R7	Used_for Arg1:T33 Arg2:T5	
+R8	Experiences Arg1:T25 Arg2:T5	
+R9	Used_for Arg1:T26 Arg2:T18	
+R10	Experiences Arg1:T25 Arg2:T18	
+R11	Experiences Arg1:T27 Arg2:T11	
+R12	Used_for Arg1:T34 Arg2:T11	
+R13	Used_for Arg1:T28 Arg2:T20	
+R14	Experiences Arg1:T27 Arg2:T20	
+T36	PROC 529 542	investigación
+#32	AnnotatorNotes T36	C0681814; research study; Research Activity
+R17	Has_Duration_or_Interval Arg1:T36 Arg2:T29	
+#33	AnnotatorNotes T3	C0678688; biological repair; Physiologic Function
+R19	Causes Arg1:T5 Arg2:T3	
+R20	Causes Arg1:T18 Arg2:T3	
+T38	CONC 772 781	reducción
+#35	AnnotatorNotes T38	C0547047; Decrease; Quantitative Concept
+R23	After Arg1:T38 Arg2:T30	
+R24	Used_for Arg1:T35 Arg2:T9	
+R25	Location_of Arg1:T21 Arg2:T10	
+R26	Used_for Arg1:T32 Arg2:T22	
+R27	Location_of Arg1:T23 Arg2:T12	
+A1	Experiencer T25 Patient
+A2	Experiencer T27 Patient

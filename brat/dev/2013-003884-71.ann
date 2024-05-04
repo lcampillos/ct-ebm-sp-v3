@@ -1,0 +1,50 @@
+T1	PROC 46 95	Estudio fase IIIB-IV de seguimiento a largo plazo
+T2	PROC 175 211	Estudio de seguimiento a largo plazo
+T3	DISO 231 250	esclerosis múltiple
+#1	AnnotatorNotes T3	C0026769; Multiple Sclerosis; Disease or Syndrome
+T4	PROC 273 293	estudio de extensión
+T5	CHEM 297 308	alemtuzumab
+#2	AnnotatorNotes T5	C0383429; alemtuzumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	DISO 345 388	Esclerosis múltiple en remisión de recaídas
+T7	PROC 471 491	Estudio de Extensión
+T8	PROC 633 656	estudio de intervención
+#3	AnnotatorNotes T8	C3274035; Interventional Study; Research Activity
+T9	PROC 531 555	consentimiento informado
+#4	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	Date 13 17	2013
+T12	Date 82 95	a largo plazo
+T13	LIVB 101 110	pacientes
+#5	AnnotatorNotes T13	C0030705; Patients; Patient or Disabled Group
+T14	Date 198 211	a largo plazo
+T15	LIVB 217 226	pacientes
+#6	AnnotatorNotes T15	C0030705; Patients; Patient or Disabled Group
+T16	LIVB 424 432	paciente
+#7	AnnotatorNotes T16	C0030705; Patients; Patient or Disabled Group
+T17	Duration 449 466	al menos 48 meses
+T18	LIVB 598 606	paciente
+#8	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+#9	AnnotatorNotes T2	C1517942; Long-term Follow-up; Health Care Activity 
+#10	AnnotatorNotes T12	C0443252; Long-term; Temporal Concept 
+#11	AnnotatorNotes T14	C0443252; Long-term; Temporal Concept 
+#12	AnnotatorNotes T6	C0751967; Multiple Sclerosis, Relapsing-Remitting; Disease or Syndrome
+#13	AnnotatorNotes T1	C1517942; Long-term Follow-up; Health Care Activity + C1706097; Trial Phase 3B; Research Activity + C0282462; Phase 4 Clinical Trials; Research Activity
+R1	Overlap Arg1:T1 Arg2:T12	
+T11	Observation 115 141	participaron en el estudio
+A1	Status T11 History_of
+#14	AnnotatorNotes T11	C1278516; Patient participation status; Finding (?)
+R3	Before Arg1:T11 Arg2:T1	
+R4	Overlap Arg1:T2 Arg2:T14	
+R5	Experiences Arg1:T15 Arg2:T3	
+T19	Observation 259 293	completado el estudio de extensión
+#15	AnnotatorNotes T19	C2732579; Completion of clinical trial; Finding
+R7	Overlap Arg1:T3 Arg2:T19	
+R8	Experiences Arg1:T15 Arg2:T5	
+R9	Has_Duration_or_Interval Arg1:T7 Arg2:T17	
+T20	Observation 438 448;471 491	completado Estudio de Extensión
+#16	AnnotatorNotes T20	C2732579; Completion of clinical trial; Finding
+R10	Experiences Arg1:T16 Arg2:T20	
+T21	Observation 612 656	participando en otro estudio de intervención
+A2	Experiencer T13 Patient
+A3	Experiencer T15 Patient
+A4	Experiencer T16 Patient
+A5	Experiencer T18 Patient

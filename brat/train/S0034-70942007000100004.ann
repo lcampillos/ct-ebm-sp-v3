@@ -1,0 +1,393 @@
+T1	PROC 13 24	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 36 45	lidocaína
+#2	AnnotatorNotes T2	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T3	CHEM 47 58	paracetamol
+#3	AnnotatorNotes T3	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T4	CHEM 61 70	lidocaína
+#4	AnnotatorNotes T4	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T5	CHEM 133 141	propofol
+#5	AnnotatorNotes T5	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T6	PROC 143 162	estudio comparativo
+#6	AnnotatorNotes T6	C1579762; comparative study research; Research Activity
+T7	PROC 202 242	estudio doblemente encubierto, aleatorio
+#7	AnnotatorNotes T7	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T8	PROC 249 268	evaluar la eficacia
+#8	AnnotatorNotes T8	C1707887; Efficacy Study; Research Activity
+T9	PROC 273 284	tratamiento
+#9	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	CHEM 315 324	lidocaína
+#10	AnnotatorNotes T10	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T11	CHEM 326 337	paracetamol
+#11	AnnotatorNotes T11	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T12	CHEM 353 362	lidocaína
+#12	AnnotatorNotes T12	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T13	CHEM 376 384	fentanil
+#13	AnnotatorNotes T13	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T14	CHEM 439 447	propofol
+#14	AnnotatorNotes T14	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T15	ANAT 497 503	venosa
+#15	AnnotatorNotes T15	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T16	CHEM 2096 2105	Perfalgan
+#16	AnnotatorNotes T16	C1951283; PERFALGAN; Organic Chemical · Pharmacologic Substance
+T17	PROC 542 568	administración intravenosa
+#17	AnnotatorNotes T17	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure
+T18	CHEM 580 589	lidocaína
+#18	AnnotatorNotes T18	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T19	CHEM 622 633	paracetamol
+#19	AnnotatorNotes T19	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T20	CHEM 674 683	lidocaína
+#20	AnnotatorNotes T20	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T21	CHEM 712 720	fentanil
+#21	AnnotatorNotes T21	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T22	DISO 1223 1229	muecas
+#22	AnnotatorNotes T22	C0239779; Grimaces; Sign or Symptom
+T23	PROC 807 814	placebo
+#23	AnnotatorNotes T23	C0032042; Placebos; Therapeutic or Preventive Procedure
+T24	DISO 1232 1239	gemidos
+#24	AnnotatorNotes T24	C4552524; Groaning; Finding
+T25	PROC 834 869	liberación de la obstrucción venosa
+#25	AnnotatorNotes T25	C1963578; Release (procedure); Therapeutic or Preventive Procedure + C4281554; Venous occlusion; Therapeutic or Preventive Procedure
+T26	PROC 925 951	administración intravenosa
+#26	AnnotatorNotes T26	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure
+T27	CHEM 955 963	propofol
+#27	AnnotatorNotes T27	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T28	ANAT 1053 1078	vena del dorso de la mano
+#28	AnnotatorNotes T28	C1275970; Entire dorsal vein of hand; Body Part, Organ, or Organ Component
+T29	PROC 1083 1103	evaluación del dolor
+#29	AnnotatorNotes T29	C0030198; Pain Measurement; Diagnostic Procedure
+T30	CHEM 1138 1146	propofol
+#30	AnnotatorNotes T30	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T31	ANAT 1179 1183	mano
+#31	AnnotatorNotes T31	C0018563; Hand; Body Part, Organ, or Organ Component | C1281583; Entire hand; Body Part, Organ, or Organ Component | C3714557; Hand structure; Body Part, Organ, or Organ Component
+T32	CHEM 1264 1272	propofol
+#32	AnnotatorNotes T32	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T33	CHEM 1287 1296	Lidocaína
+#33	AnnotatorNotes T33	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T34	CHEM 1324 1333	lidocaína
+#34	AnnotatorNotes T34	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T35	CHEM 1297 1305	fentanil
+#35	AnnotatorNotes T35	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T36	CHEM 1424 1432	propofol
+#36	AnnotatorNotes T36	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T37	CHEM 1440 1451	paracetamol
+#37	AnnotatorNotes T37	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T38	DISO 1559 1564	dolor
+#38	AnnotatorNotes T38	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T39	CHEM 1593 1601	propofol
+#39	AnnotatorNotes T39	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T40	CHEM 1611 1620	lidocaína
+#40	AnnotatorNotes T40	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T41	CHEM 1626 1635	lidocaína
+#41	AnnotatorNotes T41	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T42	CHEM 1688 1699	paracetamol
+#42	AnnotatorNotes T42	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T43	PROC 1735 1742	placebo
+#43	AnnotatorNotes T43	C0032042; Placebos; Therapeutic or Preventive Procedure
+T44	CHEM 1773 1781	propofol
+#44	AnnotatorNotes T44	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T45	CHEM 1825 1834	lidocaína
+#45	AnnotatorNotes T45	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T46	CHEM 1837 1846	lidocaína
+#46	AnnotatorNotes T46	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T47	PROC 1875 1886	tratamiento
+#47	AnnotatorNotes T47	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T48	PROC 1910 1926	retención venosa
+#48	AnnotatorNotes T48	C4281554; Venous occlusion; Therapeutic or Preventive Procedure
+T49	CHEM 1979 1987	propofol
+#49	AnnotatorNotes T49	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T50	CHEM 2054 2062	propofol
+#50	AnnotatorNotes T50	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T51	CHEM 2080 2091	paracetamol
+#51	AnnotatorNotes T51	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T52	CHEM 71 79	fentanil
+#52	AnnotatorNotes T52	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T53	DISO 99 104	dolor
+#53	AnnotatorNotes T53	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T54	PROC 120 129	inyección
+#54	AnnotatorNotes T54	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T55	CHEM 339 348	Perfalgan
+#55	AnnotatorNotes T55	C1951283; PERFALGAN; Organic Chemical · Pharmacologic Substance
+T56	DISO 405 410	dolor
+#56	AnnotatorNotes T56	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T57	PROC 426 435	inyección
+#57	AnnotatorNotes T57	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T58	PROC 488 503	oclusión venosa
+#58	AnnotatorNotes T58	C4281554; Venous occlusion; Therapeutic or Preventive Procedure
+T59	CHEM 635 644	Perfalgan
+#59	AnnotatorNotes T59	C1951283; PERFALGAN; Organic Chemical · Pharmacologic Substance
+T60	CHEM 750 770	solución fisiológica
+#60	AnnotatorNotes T60	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T61	ANAT 863 869	venosa
+#61	AnnotatorNotes T61	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T62	DISO 1098 1103	dolor
+#62	AnnotatorNotes T62	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T63	PROC 1125 1134	inyección
+#63	AnnotatorNotes T63	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T64	DISO 1216 1221	dolor
+#64	AnnotatorNotes T64	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T65	PROC 1251 1260	inyección
+#65	AnnotatorNotes T65	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T66	DISO 1315 1320	dolor
+#66	AnnotatorNotes T66	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T67	DISO 1343 1348	dolor
+#67	AnnotatorNotes T67	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T68	DISO 1390 1395	dolor
+#68	AnnotatorNotes T68	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T69	PROC 1411 1420	inyección
+#69	AnnotatorNotes T69	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T70	DISO 1461 1466	dolor
+#70	AnnotatorNotes T70	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T71	PROC 1473 1480	placebo
+#71	AnnotatorNotes T71	C0032042; Placebos; Therapeutic or Preventive Procedure
+T72	DISO 1490 1495	dolor
+#72	AnnotatorNotes T72	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T73	PROC 1580 1589	inyección
+#73	AnnotatorNotes T73	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T74	CHEM 1636 1644	fentanil
+#74	AnnotatorNotes T74	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T75	CHEM 1788 1798	anestésico
+#75	AnnotatorNotes T75	C0002932; Anesthetics; Pharmacologic Substance
+T76	CHEM 1847 1855	fentanil
+#76	AnnotatorNotes T76	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T77	ANAT 1920 1926	venosa
+#77	AnnotatorNotes T77	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T78	PROC 1960 1974	administración
+#78	AnnotatorNotes T78	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T79	DISO 2020 2025	dolor
+#79	AnnotatorNotes T79	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T80	PROC 2041 2050	inyección
+#80	AnnotatorNotes T80	C1533685; Injection procedure; Therapeutic or Preventive Procedure
+T81	DISO 2139 2144	dolor
+#81	AnnotatorNotes T81	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T82	Route 80 92	intravenosos
+#82	AnnotatorNotes T82	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T83	Route 293 304	intravenoso
+#83	AnnotatorNotes T83	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T84	Route 306 308	IV
+#84	AnnotatorNotes T84	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T85	DEVI 511 521	torniquete
+#85	AnnotatorNotes T85	C0040519; Tourniquets; Medical Device
+T86	Route 557 568	intravenosa
+#86	AnnotatorNotes T86	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T87	Dose 572 576	4 mL
+T88	Dose 590 594	a 1%
+T89	Dose 614 618	4 mL
+T90	Dose 648 653	40 mg
+T91	Dose 684 688	a 2%
+T92	Dose 702 708	100 µg
+T93	Dose 742 746	4 mL
+T94	Form 750 758	solución
+#87	AnnotatorNotes T94	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T95	LIVB 789 802	grupo control
+#88	AnnotatorNotes T95	C0009932; Control Groups; Group
+T96	LIVB 822 829	adultos
+#89	AnnotatorNotes T96	C0001675; Adult; Age Group
+T97	Duration 891 902	60 segundos
+T98	Route 940 951	intravenosa
+#90	AnnotatorNotes T98	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T99	Dose 965 976	2,5 mg.kg-1
+T100	Dose 996 1002	0,5 mg
+T101	DEVI 1022 1029	catéter
+#91	AnnotatorNotes T101	C0085590; catheter device; Medical Device
+T102	Neg_cue 1311 1314	sin
+T103	Neg_cue 1339 1342	sin
+T104	Neg_cue 1457 1460	sin
+T105	Neg_cue 1486 1489	sin
+T107	Duration 1935 1946	60 segundos
+T108	Route 2092 2094	IV
+#92	AnnotatorNotes T108	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T110	PHYS 1161 1172	movimientos
+#93	AnnotatorNotes T110	C0026649; Movement; Organism Function
+T109	Frequency 1002 1006	.s-1
+T111	PHYS 1185 1201	expresión verbal
+#94	AnnotatorNotes T111	C2370901; Expression of spoken language; Mental Process
+A1	Population_data T96 Age
+A2	Assertion T66 Negated
+A3	Assertion T67 Negated
+A4	Assertion T70 Negated
+A5	Assertion T72 Negated
+T106	Neg_cue 1646 1648	no
+T112	Quantifier_or_Qualifier 1653 1683	estadísticamente significativa
+A6	Assertion T112 Negated
+#95	AnnotatorNotes T112	C0237881; Statistical Significance; Quantitative Concept
+R1	Negation Arg1:T106 Arg2:T112	
+R2	Negation Arg1:T103 Arg2:T67	
+R3	Negation Arg1:T102 Arg2:T66	
+R4	Negation Arg1:T104 Arg2:T70	
+R5	Negation Arg1:T105 Arg2:T72	
+T113	Observation 1 8	Efectos
+#96	AnnotatorNotes T113	C1518681; Outcome of Therapy; Finding (?)
+R6	Causes Arg1:T1 Arg2:T113	
+R7	Used_for Arg1:T2 Arg2:T1	
+R10	Combined_with Arg1:T4 Arg2:T52	
+R11	Has_Route_or_Mode Arg1:T52 Arg2:T82	
+R12	Has_Route_or_Mode Arg1:T4 Arg2:T82	
+R13	Has_Route_or_Mode Arg1:T3 Arg2:T82	
+R14	Has_Route_or_Mode Arg1:T2 Arg2:T82	
+R15	Causes Arg1:T54 Arg2:T53	
+R16	Used_for Arg1:T5 Arg2:T54	
+R17	Before Arg1:T1 Arg2:T54	
+R18	Has_Route_or_Mode Arg1:T10 Arg2:T83	
+R19	Has_Route_or_Mode Arg1:T10 Arg2:T84	
+R20	Has_Route_or_Mode Arg1:T11 Arg2:T84	
+R21	Has_Route_or_Mode Arg1:T11 Arg2:T83	
+R22	Has_Route_or_Mode Arg1:T55 Arg2:T84	
+R23	Has_Route_or_Mode Arg1:T55 Arg2:T83	
+R24	Has_Route_or_Mode Arg1:T12 Arg2:T84	
+R25	Has_Route_or_Mode Arg1:T12 Arg2:T83	
+R26	Combined_with Arg1:T12 Arg2:T13	
+R27	Has_Route_or_Mode Arg1:T13 Arg2:T84	
+R28	Has_Route_or_Mode Arg1:T13 Arg2:T83	
+R8	Used_for Arg1:T3 Arg2:T1	
+R9	Used_for Arg1:T4 Arg2:T1	
+T114	Observation 391 410	reducción del dolor
+#97	AnnotatorNotes T114	C5230944; Sensation of pain reduced; Finding
+R29	Used_for Arg1:T10 Arg2:T9	
+R30	Used_for Arg1:T11 Arg2:T9	
+R31	Used_for Arg1:T55 Arg2:T9	
+R32	Used_for Arg1:T12 Arg2:T9	
+R33	Causes Arg1:T9 Arg2:T114	
+R34	Before Arg1:T56 Arg2:T114	
+R35	Causes Arg1:T57 Arg2:T56	
+R36	Used_for Arg1:T14 Arg2:T57	
+R37	Before Arg1:T9 Arg2:T57	
+T115	CONC 459 473	Inmediatamente
+#98	AnnotatorNotes T115	C0205253; Immediate; Temporal Concept
+R38	Location_of Arg1:T15 Arg2:T58	
+R39	Used_for Arg1:T85 Arg2:T58	
+R40	Before Arg1:T58 Arg2:T17	
+R41	Overlap Arg1:T17 Arg2:T115	
+R42	Has_Route_or_Mode Arg1:T18 Arg2:T86	
+R43	Has_Dose_or_Strength Arg1:T18 Arg2:T87	
+R44	Has_Dose_or_Strength Arg1:T18 Arg2:T88	
+R45	Has_Dose_or_Strength Arg1:T19 Arg2:T89	
+R46	Used_for Arg1:T18 Arg2:T17	
+R47	Used_for Arg1:T19 Arg2:T17	
+R48	Has_Route_or_Mode Arg1:T19 Arg2:T86	
+R49	Has_Route_or_Mode Arg1:T59 Arg2:T86	
+R50	Has_Dose_or_Strength Arg1:T59 Arg2:T90	
+R51	Has_Dose_or_Strength Arg1:T19 Arg2:T90	
+R52	Combined_with Arg1:T20 Arg2:T21	
+R53	Has_Dose_or_Strength Arg1:T20 Arg2:T91	
+R54	Has_Dose_or_Strength Arg1:T21 Arg2:T92	
+R55	Used_for Arg1:T20 Arg2:T17	
+R56	Has_Drug_Form Arg1:T60 Arg2:T94	
+R57	Has_Dose_or_Strength Arg1:T60 Arg2:T93	
+R58	Used_for Arg1:T60 Arg2:T17	
+R59	Has_Route_or_Mode Arg1:T60 Arg2:T86	
+R60	Has_Route_or_Mode Arg1:T20 Arg2:T86	
+R61	Has_Route_or_Mode Arg1:T21 Arg2:T86	
+R62	Experiences Arg1:T95 Arg2:T23	
+R63	Experiences Arg1:T95 Arg2:T60	
+R64	Used_for Arg1:T60 Arg2:T23	
+R65	Experiences Arg1:T96 Arg2:T23	
+R66	Experiences Arg1:T96 Arg2:T60	
+R67	Experiences Arg1:T96 Arg2:T20	
+R68	Experiences Arg1:T96 Arg2:T59	
+R69	Experiences Arg1:T96 Arg2:T19	
+R70	Experiences Arg1:T96 Arg2:T18	
+R71	Experiences Arg1:T96 Arg2:T17	
+R72	Experiences Arg1:T96 Arg2:T58	
+T116	Observation 2108 2114;2139 2144	redujo dolor
+#99	AnnotatorNotes T116	C5230944; Sensation of pain reduced; Finding
+R73	Before Arg1:T81 Arg2:T116	
+T117	Quantifier_or_Qualifier 2115 2128	discretamente
+R74	Has_Quantifier_or_Qualifier Arg1:T116 Arg2:T117	
+T118	Observation 1988 1997;2017 2025	redujeron el dolor
+#100	AnnotatorNotes T118	C5230944; Sensation of pain reduced; Finding
+R75	Causes Arg1:T80 Arg2:T79	
+R76	Used_for Arg1:T50 Arg2:T80	
+R77	Before Arg1:T79 Arg2:T118	
+R78	Combined_with Arg1:T46 Arg2:T76	
+R79	Used_for Arg1:T45 Arg2:T47	
+R80	Used_for Arg1:T46 Arg2:T47	
+R81	Location_of Arg1:T77 Arg2:T48	
+R82	Has_Duration_or_Interval Arg1:T48 Arg2:T107	
+R83	Before Arg1:T45 Arg2:T78	
+R84	Before Arg1:T46 Arg2:T78	
+R85	Used_for Arg1:T49 Arg2:T78	
+R86	Causes Arg1:T45 Arg2:T118	
+R87	Causes Arg1:T46 Arg2:T118	
+R88	Has_Route_or_Mode Arg1:T51 Arg2:T108	
+R89	Has_Route_or_Mode Arg1:T16 Arg2:T108	
+R90	Causes Arg1:T51 Arg2:T116	
+R91	Causes Arg1:T16 Arg2:T116	
+R92	Before Arg1:T51 Arg2:T78	
+R93	Before Arg1:T16 Arg2:T78	
+R94	Before Arg1:T48 Arg2:T78	
+R95	Used_for Arg1:T49 Arg2:T80	
+R96	After Arg1:T25 Arg2:T97	
+R97	Before Arg1:T25 Arg2:T26	
+R98	Has_Route_or_Mode Arg1:T27 Arg2:T98	
+R99	Used_for Arg1:T27 Arg2:T26	
+R100	Has_Dose_or_Strength Arg1:T27 Arg2:T99	
+R101	Location_of Arg1:T61 Arg2:T25	
+R102	Has_Dose_or_Strength Arg1:T27 Arg2:T100	
+R103	Has_Frequency Arg1:T27 Arg2:T109	
+R104	Used_for Arg1:T101 Arg2:T26	
+R105	Location_of Arg1:T28 Arg2:T26	
+R107	Overlap Arg1:T29 Arg2:T63	
+R108	Used_for Arg1:T30 Arg2:T63	
+R109	Causes Arg1:T63 Arg2:T62	
+R110	Location_of Arg1:T31 Arg2:T110	
+T119	Quantifier_or_Qualifier 1202 1212	espontánea
+#101	AnnotatorNotes T119	C0205359; Spontaneous; Functional Concept
+R111	Has_Quantifier_or_Qualifier Arg1:T111 Arg2:T119	
+R112	Overlap Arg1:T111 Arg2:T64	
+R113	Overlap Arg1:T111 Arg2:T22	
+R114	Overlap Arg1:T111 Arg2:T24	
+R115	Overlap Arg1:T110 Arg2:T65	
+R116	Overlap Arg1:T111 Arg2:T65	
+R117	Causes Arg1:T65 Arg2:T64	
+R118	Used_for Arg1:T32 Arg2:T65	
+R119	Causes Arg1:T65 Arg2:T22	
+R120	Causes Arg1:T65 Arg2:T24	
+R121	Combined_with Arg1:T33 Arg2:T35	
+T120	Observation 1376 1395	reducción del dolor
+#102	AnnotatorNotes T120	C5230944; Sensation of pain reduced; Finding
+R124	Causes Arg1:T69 Arg2:T68	
+R125	Used_for Arg1:T36 Arg2:T69	
+R126	Before Arg1:T68 Arg2:T120	
+R127	Causes Arg1:T69 Arg2:T67	
+R128	Causes Arg1:T69 Arg2:T66	
+R129	Before Arg1:T34 Arg2:T69	
+R130	Before Arg1:T33 Arg2:T69	
+R132	Causes Arg1:T34 Arg2:T120	
+R133	Causes Arg1:T33 Arg2:T120	
+R134	Causes Arg1:T37 Arg2:T120	
+R135	Causes Arg1:T69 Arg2:T70	
+R139	Causes Arg1:T69 Arg2:T72	
+T121	Quantifier_or_Qualifier 1361 1369	eficaces
+R140	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T121	
+R141	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T121	
+T122	Observation 1529 1538;1556 1564	reducción de dolor
+#103	AnnotatorNotes T122	C5230944; Sensation of pain reduced; Finding
+R142	Causes Arg1:T73 Arg2:T38	
+R143	Before Arg1:T38 Arg2:T122	
+R144	Used_for Arg1:T39 Arg2:T73	
+R145	Combined_with Arg1:T41 Arg2:T74	
+R146	Causes Arg1:T41 Arg2:T122	
+R147	Causes Arg1:T40 Arg2:T122	
+R148	Before Arg1:T40 Arg2:T73	
+R149	Before Arg1:T41 Arg2:T73	
+R151	Causes Arg1:T71 Arg2:T120	
+R150	After Arg1:T115 Arg2:T58	
+#104	AnnotatorNotes T121	C1704419; Effective; Qualitative Concept
+R106	Before Arg1:T37 Arg2:T69	
+R122	Before Arg1:T71 Arg2:T69	
+T123	CONC 1512 1522	diferencia
+#105	AnnotatorNotes T123	C1705241; Delta (difference); Quantitative Concept
+R123	Has_Quantifier_or_Qualifier Arg1:T123 Arg2:T112	
+R131	Before Arg1:T45 Arg2:T80	
+R136	Before Arg1:T46 Arg2:T80	
+R137	Before Arg1:T51 Arg2:T80	
+R138	Before Arg1:T16 Arg2:T80	
+R152	Used_for Arg1:T51 Arg2:T47	
+R153	Used_for Arg1:T16 Arg2:T47	
+#106	AnnotatorNotes T117	C0750482; Slightly (qualifier value); Qualitative Concept
+T124	Quantifier_or_Qualifier 1998 2016	significativamente
+#107	AnnotatorNotes T124	C0750502; Significant; Idea or Concept
+R154	Has_Quantifier_or_Qualifier Arg1:T118 Arg2:T124	
+A7	Experiencer T95 Patient
+A8	Experiencer T96 Patient

@@ -1,0 +1,184 @@
+T1	CHEM 32 42	salbutamol
+#1	AnnotatorNotes T1	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T2	CHEM 163 175	medicamentos
+#2	AnnotatorNotes T2	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T3	DISO 188 192	asma
+#3	AnnotatorNotes T3	C0004096; Asthma; Disease or Syndrome
+T4	CHEM 588 598	salbutamol
+#4	AnnotatorNotes T4	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T5	PROC 706 788	Estudio experimental, prospectivo, aleatorizado, simple ciego, de grupos paralelos
+#5	AnnotatorNotes T5	C0681814; research study; Research Activity + C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity + C0242570; Single-Blind Study; Research Activity + C2826345; Parallel Study; Research Activity
+T6	PROC 894 922	volumen respiratorio forzado
+#6	AnnotatorNotes T6	C1306036; Forced expiratory volume procedure; Diagnostic Procedure
+T7	PROC 1340 1362	tratado con aerocámara
+T8	DISO 833 837	asma
+#7	AnnotatorNotes T8	C0004096; Asthma; Disease or Syndrome
+T9	DISO 855 876	obstrucción bronquial
+#8	AnnotatorNotes T9	C0221725; Bronchial Obstruction; Disease or Syndrome
+T10	CHEM 982 999	broncodilatadores
+#9	AnnotatorNotes T10	C0006280; Bronchodilator Agents; Pharmacologic Substance
+T11	PROC 1028 1040	espirometría
+#10	AnnotatorNotes T11	C0037981; Spirometry; Diagnostic Procedure
+T12	CHEM 1085 1095	salbutamol
+#11	AnnotatorNotes T12	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T13	PROC 1400 1428	volumen respiratorio forzado
+#12	AnnotatorNotes T13	C1306036; Forced expiratory volume procedure; Diagnostic Procedure
+T14	PROC 1525 1553	volumen respiratorio forzado
+#13	AnnotatorNotes T14	C1306036; Forced expiratory volume procedure; Diagnostic Procedure
+T15	PROC 1363 1373	ingresaron
+#14	AnnotatorNotes T15	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T16	PROC 1488 1498	ingresaron
+#15	AnnotatorNotes T16	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T17	PROC 1651 1654	FMF
+T18	PROC 1293 1296	FMF
+T19	DISO 1958 1962	asma
+#16	AnnotatorNotes T19	C0004096; Asthma; Disease or Syndrome
+T20	PROC 1587 1591	FEV1
+#17	AnnotatorNotes T20	C0849974; Pulmonary Function Test/Forced Expiratory Volume 1; Diagnostic Procedure
+T21	PROC 181 187	tratar
+#18	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	CHEM 1805 1815	salbutamol
+#19	AnnotatorNotes T22	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T23	ANAT 867 876	bronquial
+#20	AnnotatorNotes T23	C0006255; Bronchi; Body Part, Organ, or Organ Component | C0205039; Bronchial; Body Part, Organ, or Organ Component
+T24	PROC 1258 1286	volumen respiratorio forzado
+#21	AnnotatorNotes T24	C1306036; Forced expiratory volume procedure; Diagnostic Procedure
+T25	PHYS 1 27	Respuesta broncodilatadora
+#22	AnnotatorNotes T25	C3537072; Bronchodilation; Organ or Tissue Function | C3548479; response to bronchodilator; Organism Function
+T26	DEVI 90 114	aerocámaras con válvulas
+T27	DEVI 117 143	espaciadores no valvulados
+T29	Route 222 237	vía inhalatoria
+#23	AnnotatorNotes T29	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T30	DEVI 258 283	espaciadores con válvulas
+T32	Date 328 341	recientemente
+T33	DEVI 403 428	espaciadores sin válvulas
+T37	PHYS 520 546	respuesta broncodilatadora
+#24	AnnotatorNotes T37	C3537072; Bronchodilation; Organ or Tissue Function | C3548479; response to bronchodilator; Organism Function
+T39	DEVI 649 672	espaciador sin válvulas
+T41	DEVI 580 583	IDM
+#25	AnnotatorNotes T41	C3854314; Metered dose inhaler (physical object); Medical Device | C0993596; Metered dose inhaler; Medical Device
+T42	LIVB 807 816	pacientes
+#26	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Age 818 827	6-16 años
+T45	Neg_cue 963 966	sin
+T46	Date 1000 1013	recientemente
+T47	Dose 1075 1081	100 mg
+T48	DEVI 1131 1154	aerocámara con válvulas
+T49	DEVI 1175 1198	espaciador sin válvulas
+T52	PHYS 1227 1253	respuesta broncodilatadora
+#27	AnnotatorNotes T52	C3537072; Bronchodilation; Organ or Tissue Function | C3548479; response to bronchodilator; Organism Function
+T54	Duration 1299 1313	los 30 minutos
+T55	LIVB 1377 1386	pacientes
+#28	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T57	DEVI 1464 1487	espaciador sin válvulas
+T60	LIVB 1502 1511	pacientes
+#29	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T62	DEVI 1715 1740	espaciadores sin válvulas
+T65	DEVI 1841 1865	aerocámaras con válvulas
+T66	PHYS 1878 1904	respuesta broncodilatadora
+#30	AnnotatorNotes T66	C3537072; Bronchodilation; Organ or Tissue Function | C3548479; response to bronchodilator; Organism Function
+T67	DEVI 1919 1944	espaciadores sin válvulas
+T70	LIVB 1948 1953	niños
+#31	AnnotatorNotes T70	C0008059; Child; Age Group
+T72	DEVI 553 578	inhalador de dosis medida
+#32	AnnotatorNotes T72	C3854314; Metered dose inhaler (physical object); Medical Device | C0993596; Metered dose inhaler; Medical Device
+T73	LIVB 675 684	Población
+#33	AnnotatorNotes T73	C1257890; Population; Population Group
+T28	DEVI 285 296	aerocámaras
+#34	AnnotatorNotes T28	C4521045; Aerochamber; Medical Device
+T38	DEVI 628 638	aerocámara
+#35	AnnotatorNotes T38	C4521045; Aerochamber; Medical Device
+T74	Form 61 80	aerosol presurizado
+#36	AnnotatorNotes T74	C1960428; Pressurized spray; Biomedical or Dental Material
+T75	Form 1782 1801	aerosol presurizado
+#37	AnnotatorNotes T75	C1960428; Pressurized spray; Biomedical or Dental Material
+T76	Form 1097 1116	aerosol presurizado
+#38	AnnotatorNotes T76	C1960428; Pressurized spray; Biomedical or Dental Material
+T31	DEVI 1701 1712	aerocámaras
+#39	AnnotatorNotes T31	C4521045; Aerochamber; Medical Device
+T34	LIVB 1516 1523	varones
+#40	AnnotatorNotes T34	C0025266; Male population group; Population Group
+T35	LIVB 1391 1398	varones
+#41	AnnotatorNotes T35	C0025266; Male population group; Population Group
+A2	Assertion T10 Negated
+A1	Population_data T70 Age
+R1	Has_Drug_Form Arg1:T1 Arg2:T74	
+R2	Causes Arg1:T1 Arg2:T25	
+R3	Used_for Arg1:T2 Arg2:T21	
+R4	Has_Route_or_Mode Arg1:T2 Arg2:T29	
+R5	Overlap Arg1:T33 Arg2:T32	
+T36	Neg_cue 459 461	no
+T40	Quantifier_or_Qualifier 468 478	demostrado
+A3	Assertion T40 Negated
+R6	Negation Arg1:T36 Arg2:T40	
+R7	Causes Arg1:T4 Arg2:T37	
+R8	Has_Age Arg1:T42 Arg2:T43	
+R9	Experiences Arg1:T42 Arg2:T8	
+R10	Experiences Arg1:T42 Arg2:T9	
+R11	Location_of Arg1:T23 Arg2:T9	
+T44	Quantifier_or_Qualifier 877 881	leve
+R12	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T44	
+R13	Experiences Arg1:T42 Arg2:T6	
+R14	Negation Arg1:T45 Arg2:T10	
+R15	Overlap Arg1:T10 Arg2:T46	
+R16	Experiences Arg1:T42 Arg2:T10	
+R17	Before Arg1:T11 Arg2:T12	
+R18	Has_Dose_or_Strength Arg1:T12 Arg2:T47	
+R19	Has_Drug_Form Arg1:T12 Arg2:T76	
+R20	Used_for Arg1:T26 Arg2:T1	
+R21	Used_for Arg1:T1 Arg2:T27	
+R22	Used_for Arg1:T38 Arg2:T4	
+R23	Used_for Arg1:T39 Arg2:T4	
+R24	Used_for Arg1:T41 Arg2:T4	
+R25	Used_for Arg1:T72 Arg2:T4	
+R26	Used_for Arg1:T48 Arg2:T12	
+R27	Used_for Arg1:T49 Arg2:T12	
+R28	After Arg1:T18 Arg2:T54	
+R29	After Arg1:T24 Arg2:T54	
+R30	After Arg1:T52 Arg2:T54	
+R31	Experiences Arg1:T55 Arg2:T15	
+T50	DEVI 1352 1362	aerocámara
+#42	AnnotatorNotes T50	C4521045; Aerochamber; Medical Device
+R32	Used_for Arg1:T50 Arg2:T7	
+R33	Experiences Arg1:T55 Arg2:T7	
+R34	Experiences Arg1:T55 Arg2:T13	
+R35	Experiences Arg1:T60 Arg2:T16	
+R36	Experiences Arg1:T60 Arg2:T14	
+T51	CONC 1758 1763	ANOVA
+#43	AnnotatorNotes T51	C0002780; Analysis of Variance; Quantitative Concept
+R37	Has_Drug_Form Arg1:T22 Arg2:T75	
+R38	Used_for Arg1:T65 Arg2:T22	
+R39	Causes Arg1:T22 Arg2:T66	
+R40	Used_for Arg1:T67 Arg2:T22	
+R41	Experiences Arg1:T70 Arg2:T19	
+R42	Experiences Arg1:T70 Arg2:T22	
+R43	Experiences Arg1:T70 Arg2:T66	
+R44	Overlap Arg1:T8 Arg2:T9	
+T53	Quantifier_or_Qualifier 1554 1559	basal
+#44	AnnotatorNotes T53	C1442488; Baseline; Quantitative Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T53	
+T56	Quantifier_or_Qualifier 1429 1434	basal
+#45	AnnotatorNotes T56	C1442488; Baseline; Quantitative Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T56	
+T58	CONC 433 449	eficacia clínica
+#46	AnnotatorNotes T58	C0087113; Treatment Effectiveness; Qualitative Concept
+T59	Quantifier_or_Qualifier 884 892	moderada
+R47	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T59	
+T61	Quantifier_or_Qualifier 133 143	valvulados
+A4	Assertion T61 Negated
+R48	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T61	
+T63	Neg_cue 130 132	no
+R49	Negation Arg1:T63 Arg2:T61	
+R50	Experiences Arg1:T60 Arg2:T57	
+R51	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T40	
+#47	AnnotatorNotes T59	C0205081; Moderate (severity modifier); Qualitative Concept
+#48	AnnotatorNotes T44	C2945599; Mild (qualifier value); Qualitative Concept
+#49	AnnotatorNotes T32	C0332185; Recent; Temporal Concept
+#50	AnnotatorNotes T46	C0332185; Recent; Temporal Concept
+A5	Experiencer T73 Patient
+A6	Experiencer T42 Patient
+A7	Experiencer T55 Patient
+A8	Experiencer T35 Patient
+A9	Experiencer T60 Patient
+A10	Experiencer T34 Patient
+A11	Experiencer T70 Patient

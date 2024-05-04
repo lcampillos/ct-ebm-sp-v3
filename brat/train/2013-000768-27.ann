@@ -1,0 +1,248 @@
+T1	CHEM 70 78	Aspirina
+#1	AnnotatorNotes T1	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T2	PROC 85 106	prevención secundaria
+#2	AnnotatorNotes T2	C0679699; Secondary Prevention; Therapeutic or Preventive Procedure
+T3	DISO 110 115	ictus
+#3	AnnotatorNotes T3	C0038454; Cerebrovascular accident; Disease or Syndrome
+T4	DISO 118 135	embolia sistémica
+T5	DISO 162 220	accidente cerebrovascular embólico de origen indeterminado
+#4	AnnotatorNotes T5	C3888970; Embolic stroke of undetermined source; Disease or Syndrome
+T6	CHEM 46 57	Rivaroxaban
+#5	AnnotatorNotes T6	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
+T7	PROC 245 361	Estudio de superioridad, fase III, multicéntrico, aleatorizado, doble-ciego, doble simulación, con comparador activo
+T8	PROC 1583 1600	Rankin modificada
+#6	AnnotatorNotes T8	C3888574; Modified Rankin score; Diagnostic Procedure
+T9	CHEM 398 409	rivaroxaban
+#7	AnnotatorNotes T9	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
+T10	CHEM 439 447	aspirina
+#8	AnnotatorNotes T10	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T11	PROC 462 483	prevención secundaria
+#9	AnnotatorNotes T11	C0679699; Secondary Prevention; Therapeutic or Preventive Procedure
+T12	DISO 487 512	accidente cerebrovascular
+#10	AnnotatorNotes T12	C0038454; Cerebrovascular accident; Disease or Syndrome
+T13	DISO 515 532	embolia sistémica
+T14	DISO 565 626	accidente cerebrovascular embólico de etiología indeterminada
+T15	PROC 941 954	neuroimágenes
+T16	DISO 673 678	Ictus
+#11	AnnotatorNotes T16	C0038454; Cerebrovascular accident; Disease or Syndrome
+T17	DISO 705 766	Accidente cerebrovascular embólico de etiología indeterminada
+T18	DISO 851 886	Accidente cerebrovascular isquémico
+#12	AnnotatorNotes T18	C0948008; Ischemic stroke; Disease or Syndrome
+T19	DISO 905 936	accidente isquémico transitorio
+#13	AnnotatorNotes T19	C0007787; Transient Ischemic Attack; Disease or Syndrome
+T20	PROC 994 1023	técnicas de imagen cerebrales
+T21	ANAT 1102 1122	carótidas cervicales
+T22	DISO 1068 1122	estenosis ateroesclerótica de las carótidas cervicales
+T23	DISO 1158 1179	fibrilación auricular
+#14	AnnotatorNotes T23	C0004238; Atrial Fibrillation; Disease or Syndrome
+T24	PROC 1205 1238	monitorización del ritmo cardiaco
+T25	DISO 1279 1301	trombos intracardiacos
+T26	PROC 1308 1354	ecocardiografía transesofágica o transtorácica
+#15	AnnotatorNotes T26	C0206054; Echocardiography, Transesophageal; Diagnostic Procedure + C0430462; Transthoracic echocardiography; Diagnostic Procedure
+T27	DISO 1399 1424	accidente cerebrovascular
+#16	AnnotatorNotes T27	C0038454; Cerebrovascular accident; Disease or Syndrome
+T28	DISO 1439 1448	arteritis
+#17	AnnotatorNotes T28	C0003860; Arteritis; Pathologic Function
+T29	PROC 1450 1459	disección
+#18	AnnotatorNotes T29	C0012737; Tissue Dissection; Therapeutic or Preventive Procedure
+T30	DISO 1461 1468	migraña
+#19	AnnotatorNotes T30	C0149931; Migraine Disorders; Disease or Syndrome
+T31	DISO 1469 1480	vasoespasmo
+#20	AnnotatorNotes T31	C0085616; Vasospasm; Pathologic Function
+T32	DISO 1549 1561	discapacidad
+#21	AnnotatorNotes T32	C0231170; Disability; Finding
+T33	PROC 1644 1679	tratamiento crónico anticoagulación
+#22	AnnotatorNotes T33	C0694554; chronic anticoagulation; Therapeutic or Preventive Procedure
+T34	CHEM 1682 1709	antiagregantes plaquetarios
+#23	AnnotatorNotes T34	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T35	PROC 1712 1750	Tasa de filtración glomerular estimada
+#24	AnnotatorNotes T35	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T36	PROC 1752 1756	TFGe
+T37	ANAT 1013 1023	cerebrales
+#25	AnnotatorNotes T37	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T38	DISO 1131 1139	oclusión
+#26	AnnotatorNotes T38	C0028778; Obstruction; Pathologic Function
+T39	ANAT 1170 1179	auricular
+#27	AnnotatorNotes T39	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T40	ANAT 1230 1238	cardiaco
+#28	AnnotatorNotes T40	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T41	ANAT 1287 1301	intracardiacos
+#29	AnnotatorNotes T41	C0729936; Cardiac chamber structure; Body Part, Organ, or Organ Component
+T42	DISO 1482 1499	consumo de drogas
+T43	DISO 1529 1532	ACV
+#30	AnnotatorNotes T43	C0038454; Cerebrovascular accident; Disease or Syndrome
+T44	ANAT 1697 1709	plaquetarios
+#31	AnnotatorNotes T44	C0005821; Blood Platelets; Cell
+T45	Date 13 17	2013
+T46	LIVB 139 148	pacientes
+#32	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Date 153 161	reciente
+T48	Dose 410 415	15 mg
+T49	Frequency 428 434	diaria
+T50	Dose 448 454	100 mg
+T51	LIVB 536 545	pacientes
+#33	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Date 798 806	reciente
+T53	Duration 808 830	entre 7 días y 6 meses
+T54	Date 887 895	reciente
+T55	Duration 925 936	transitorio
+#34	AnnotatorNotes T55	C0205374; Transitory; Temporal Concept
+T58	Neg_cue 1056 1067	Ausencia de
+T59	Neg_cue 1146 1157	Ausencia de
+T60	Duration 1191 1201	>=24 horas
+T61	PHYS 1224 1238	ritmo cardiaco
+#35	AnnotatorNotes T61	C0232187; Cardiac rhythm type; Organ or Tissue Function
+T62	Duration 1250 1258	20 horas
+T63	Neg_cue 1267 1278	Ausencia de
+T67	Duration 1656 1663	crónico
+#36	AnnotatorNotes T67	C0205191; chronic; Temporal Concept
+T56	Neg_cue 1361 1372	Ausencia de
+T57	PHYS 1720 1741	filtración glomerular
+#37	AnnotatorNotes T57	C0232809; Glomerular filtration; Organ or Tissue Function
+T64	CHEM 1493 1499	drogas
+#38	AnnotatorNotes T64	C0086190; Illicit Drugs; Hazardous or Poisonous Substance
+T65	ANAT 1731 1741	glomerular
+#39	AnnotatorNotes T65	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Assertion T22 Negated
+A2	Assertion T38 Negated
+A3	Assertion T23 Negated
+A4	Assertion T25 Negated
+A5	Assertion T28 Negated
+A6	Assertion T29 Negated
+A7	Assertion T30 Negated
+A8	Assertion T31 Negated
+A9	Assertion T42 Negated
+A10	Assertion T64 Negated
+A11	Status T5 History_of
+A12	Status T14 History_of
+A13	Status T18 History_of
+A14	Status T19 History_of
+#40	AnnotatorNotes T4	C5400523; Systemic embolism; Pathologic Function 
+#41	AnnotatorNotes T13	C5400523; Systemic embolism; Pathologic Function 
+#42	AnnotatorNotes T15	C0679575; Neuroimaging; Diagnostic Procedure 
+#43	AnnotatorNotes T20	C0679575; Neuroimaging; Diagnostic Procedure
+#44	AnnotatorNotes T25	C0876998; Thrombus of cardiac chamber; Pathologic Function 
+#45	AnnotatorNotes T42	C0281875; Illicit drug use (finding); Mental or Behavioral Dysfunction 
+#46	AnnotatorNotes T36	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+#47	AnnotatorNotes T47	C0332185; Recent; Temporal Concept
+#48	AnnotatorNotes T52	C0332185; Recent; Temporal Concept
+#49	AnnotatorNotes T54	C0332185; Recent; Temporal Concept
+T66	Neg_cue 1035 1037	no
+T68	Quantifier_or_Qualifier 1041 1048	lagunar
+A15	Assertion T68 Negated
+T69	Quantifier_or_Qualifier 1373 1377	otra
+A16	Assertion T69 Negated
+T70	CONC 1378 1383	causa
+A17	Assertion T70 Negated
+#50	AnnotatorNotes T70	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T70 Arg2:T69	
+R2	Negation Arg1:T56 Arg2:T69	
+R3	Negation Arg1:T56 Arg2:T70	
+R4	Negation Arg1:T66 Arg2:T68	
+R5	Overlap Arg1:T18 Arg2:T54	
+R6	Has_Duration_or_Interval Arg1:T19 Arg2:T55	
+R7	Overlap Arg1:T19 Arg2:T15	
+T71	Result_or_Value 955 964	positivas
+#51	AnnotatorNotes T71	C1446409; Positive; Finding
+R8	Has_Result_or_Value Arg1:T15 Arg2:T71	
+R11	Location_of Arg1:T37 Arg2:T20	
+R12	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T68	
+R13	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T68	
+R14	Negation Arg1:T58 Arg2:T22	
+#52	AnnotatorNotes T21	C1545723; Carotid artery.cervical; Body Part, Organ, or Organ Component
+T72	Result_or_Value 1123 1128	>50 %
+R15	Location_of Arg1:T21 Arg2:T22	
+R16	Has_Result_or_Value Arg1:T22 Arg2:T72	
+R17	Negation Arg1:T58 Arg2:T38	
+R18	Negation Arg1:T59 Arg2:T23	
+R19	Location_of Arg1:T39 Arg2:T23	
+R20	After Arg1:T23 Arg2:T24	
+R22	Location_of Arg1:T40 Arg2:T61	
+R23	Location_of Arg1:T40 Arg2:T24	
+R24	Has_Duration_or_Interval Arg1:T24 Arg2:T60	
+R25	Has_Duration_or_Interval Arg1:T24 Arg2:T62	
+#53	AnnotatorNotes T24	C2735106; Cardiac rhythm monitoring; Health Care Activity
+R26	Negation Arg1:T63 Arg2:T25	
+R27	Location_of Arg1:T41 Arg2:T25	
+R29	Negation Arg1:T56 Arg2:T28	
+R30	Negation Arg1:T56 Arg2:T29	
+R31	Negation Arg1:T56 Arg2:T30	
+R32	Negation Arg1:T56 Arg2:T31	
+R33	Negation Arg1:T56 Arg2:T42	
+R34	Negation Arg1:T56 Arg2:T64	
+R35	Causes Arg1:T64 Arg2:T42	
+R36	Causes Arg1:T43 Arg2:T32	
+T73	Result_or_Value 1601 1604	>=4
+R37	Has_Result_or_Value Arg1:T8 Arg2:T73	
+T74	Quantifier_or_Qualifier 1562 1567	grave
+#54	AnnotatorNotes T74	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R38	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T74	
+T75	PROC 1611 1620	selección
+#55	AnnotatorNotes T75	C0242802; Patient Selection; Research Activity
+R39	Overlap Arg1:T8 Arg2:T75	
+R40	Has_Duration_or_Interval Arg1:T33 Arg2:T67	
+R41	Location_of Arg1:T65 Arg2:T57	
+R42	Location_of Arg1:T65 Arg2:T35	
+R43	Location_of Arg1:T65 Arg2:T36	
+T76	Result_or_Value 1758 1776	<30 ml/min/1,73 m2
+R46	Has_Result_or_Value Arg1:T36 Arg2:T76	
+R47	Has_Result_or_Value Arg1:T35 Arg2:T76	
+R48	Used_for Arg1:T1 Arg2:T2	
+R49	Used_for Arg1:T6 Arg2:T2	
+R50	Before Arg1:T2 Arg2:T3	
+R51	Before Arg1:T2 Arg2:T4	
+R52	Overlap Arg1:T5 Arg2:T47	
+R53	Experiences Arg1:T46 Arg2:T6	
+R54	Experiences Arg1:T46 Arg2:T1	
+R55	Experiences Arg1:T46 Arg2:T3	
+R56	Experiences Arg1:T46 Arg2:T4	
+R57	Experiences Arg1:T46 Arg2:T5	
+R58	Has_Dose_or_Strength Arg1:T9 Arg2:T48	
+R59	Has_Frequency Arg1:T9 Arg2:T49	
+R60	Combined_with Arg1:T9 Arg2:T10	
+R61	Has_Dose_or_Strength Arg1:T10 Arg2:T50	
+R62	Used_for Arg1:T9 Arg2:T11	
+R63	Used_for Arg1:T10 Arg2:T11	
+R64	Before Arg1:T11 Arg2:T12	
+R65	Before Arg1:T11 Arg2:T13	
+R66	Experiences Arg1:T51 Arg2:T9	
+R67	Experiences Arg1:T51 Arg2:T10	
+R68	Experiences Arg1:T51 Arg2:T11	
+R69	Experiences Arg1:T46 Arg2:T2	
+R70	Experiences Arg1:T51 Arg2:T12	
+R71	Experiences Arg1:T51 Arg2:T13	
+R72	Experiences Arg1:T51 Arg2:T14	
+T77	DISO 793 797	ACEI
+#56	AnnotatorNotes T77	['Accidente cerebrovascular de etiología indeterminada', 'Cerebrovascular accident of unknown origin']
+R73	Overlap Arg1:T77 Arg2:T52	
+R74	Has_Duration_or_Interval Arg1:T77 Arg2:T53	
+#57	AnnotatorNotes T14	C3888970; Embolic stroke of undetermined source; Disease or Syndrome
+#58	AnnotatorNotes T17	C3888970; Embolic stroke of undetermined source; Disease or Syndrome
+T78	CONC 603 612	etiología
+#59	AnnotatorNotes T78	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+T79	CONC 200 206	origen
+A18	Assertion T79 Speculated
+#60	AnnotatorNotes T79	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+A19	Assertion T78 Speculated
+T80	CONC 743 752	etiología
+A20	Assertion T80 Speculated
+#61	AnnotatorNotes T80	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+T81	Spec_cue 753 766	indeterminada
+R75	Speculation Arg1:T81 Arg2:T80	
+T82	Spec_cue 613 626	indeterminada
+R76	Speculation Arg1:T82 Arg2:T78	
+T83	Spec_cue 207 220	indeterminado
+R77	Speculation Arg1:T83 Arg2:T79	
+T84	Quantifier_or_Qualifier 197 220	de origen indeterminado
+#62	AnnotatorNotes T84	C0332240; Unknown (origin) (qualifier value); Functional Concept
+R78	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T84	
+T85	Quantifier_or_Qualifier 600 626	de etiología indeterminada
+#63	AnnotatorNotes T85	C0332240; Unknown (origin) (qualifier value); Functional Concept
+R79	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T85	
+T86	Quantifier_or_Qualifier 740 766	de etiología indeterminada
+#64	AnnotatorNotes T86	C0332240; Unknown (origin) (qualifier value); Functional Concept
+R80	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T86	
+R9	Overlap Arg1:T23 Arg2:T60	
+#65	AnnotatorNotes T69	C0205394; Other; Qualitative Concept
+A21	Experiencer T46 Patient
+A22	Experiencer T51 Patient

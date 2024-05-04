@@ -1,0 +1,168 @@
+T1	CHEM 57 66	nivolumab
+#1	AnnotatorNotes T1	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T2	DISO 101 103	LF
+#2	AnnotatorNotes T2	C0024301; Lymphoma, Follicular; Neoplastic Process
+T3	DISO 82 99	linfoma folicular
+#3	AnnotatorNotes T3	C0024301; Lymphoma, Follicular; Neoplastic Process
+T4	PROC 153 191	Estudio fase 2 de brazo único, abierto
+T5	CHEM 196 205	Nivolumab
+#4	AnnotatorNotes T5	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	DISO 253 255	LF
+#5	AnnotatorNotes T6	C0024301; Lymphoma, Follicular; Neoplastic Process
+T7	DISO 234 251	linfoma folicular
+#6	AnnotatorNotes T7	C0024301; Lymphoma, Follicular; Neoplastic Process
+T8	PROC 284 293	Protocolo
+#7	AnnotatorNotes T8	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T9	DISO 360 379	Linfoma non-Hodgkin
+T10	DISO 406 408	LF
+#8	AnnotatorNotes T10	C0024301; Lymphoma, Follicular; Neoplastic Process
+T11	PROC 593 604	tratamiento
+#9	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	PROC 642 653	tratamiento
+#10	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	CHEM 688 704	anticuerpo CD 20
+T14	CHEM 709 728	agentes alquilantes
+#11	AnnotatorNotes T14	C0002073; Alkylating Agents; Hazardous or Poisonous Substance · Pharmacologic Substance
+T15	PROC 995 1019	TPH alogénico o autólogo
+T16	DISO 521 538	Linfoma folicular
+#12	AnnotatorNotes T16	C0024301; Lymphoma, Follicular; Neoplastic Process
+T17	DISO 836 843	Linfoma
+#13	AnnotatorNotes T17	C0024299; Lymphoma; Neoplastic Process
+T18	ANAT 857 881	sistema nervioso central
+#14	AnnotatorNotes T18	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T19	PROC 1028 1040	TPH autologo
+T20	DISO 896 928	enfermedad pulmonar intersticial
+#15	AnnotatorNotes T20	C0206062; Lung Diseases, Interstitial; Disease or Syndrome
+T21	DISO 941 962	enfermedad autoinmune
+#16	AnnotatorNotes T21	C0004364; Autoimmune Diseases; Disease or Syndrome
+T22	CHEM 1091 1102	medicamento
+#17	AnnotatorNotes T22	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T23	CHEM 207 217	BMS-936558
+#18	AnnotatorNotes T23	C4552119; BMS-936558; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T24	ANAT 907 915	pulmonar
+#19	AnnotatorNotes T24	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T25	ANAT 916 928	intersticial
+#20	AnnotatorNotes T25	C0596790; interstitial; Body Location or Region | C2328510; Interstitium; Body Part, Organ, or Organ Component
+T26	Date 13 17	2013
+T27	LIVB 70 77	sujetos
+#21	AnnotatorNotes T27	C0681850; Study Subject; Group
+T28	LIVB 222 229	sujetos
+#22	AnnotatorNotes T28	C0681850; Study Subject; Group
+T31	LIVB 489 496	mujeres
+#23	AnnotatorNotes T31	C0043210; Woman; Population Group
+T32	Age 501 508	18 años
+T34	LIVB 929 936	Sujetos
+#24	AnnotatorNotes T34	C0681850; Study Subject; Group
+T35	Spec_cue 982 992	sospechada
+T36	Duration 1048 1060	≤ 12 semanas
+T37	CONC 1073 1086	primera dosis
+T29	LIVB 479 486	Varones
+#25	AnnotatorNotes T29	C0025266; Male population group; Population Group
+T30	PROC 732 748	Estado funcional
+#26	AnnotatorNotes T30	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T33	PROC 750 752	EF
+#27	AnnotatorNotes T33	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T38	DISO 108 116	recidiva
+#28	AnnotatorNotes T38	C2825055; Recurrence (disease attribute); Pathologic Function
+T39	DISO 260 268	recidiva
+#29	AnnotatorNotes T39	C2825055; Recurrence (disease attribute); Pathologic Function
+T40	DISO 542 549	recaida
+#30	AnnotatorNotes T40	C0699753; Cancer Relapse; Neoplastic Process
+T41	PROC 442 459	anatomopatológica
+#31	AnnotatorNotes T41	C0200712; Anatomic pathology procedure; Laboratory Procedure
+T42	CONC 758 792	Eastern Cooperative Oncology Group
+T43	CONC 794 798	ECOG
+T44	Result_or_Value 803 808	0 ó 1
+T45	Quantifier_or_Qualifier 119 130	refractario
+T46	Quantifier_or_Qualifier 271 282	refractario
+T47	Quantifier_or_Qualifier 412 427	grado 1, 2 o 3a
+T48	Quantifier_or_Qualifier 552 563	refractario
+T49	Quantifier_or_Qualifier 575 589	2 o más lineas
+T50	Quantifier_or_Qualifier 676 687	al menos un
+A1	Assertion T21 Speculated
+A2	Status T20 History_of
+A3	Status T15 History_of
+A4	Status T19 History_of
+A5	Status T11 History_of
+A6	Status T12 History_of
+A7	Status T17 History_of
+A8	Status T21 History_of
+R1	Speculation Arg1:T35 Arg2:T21
+R2	Location_of Arg1:T18 Arg2:T17
+R3	Location_of Arg1:T24 Arg2:T20
+R4	Location_of Arg1:T25 Arg2:T20
+R5	Experiences Arg1:T34 Arg2:T21
+R6	Overlap Arg1:T19 Arg2:T36
+R7	Has_Dose_or_Strength Arg1:T22 Arg2:T37
+R9	Has_Result_or_Value Arg1:T43 Arg2:T44
+R10	Has_Result_or_Value Arg1:T42 Arg2:T44
+R11	Used_for Arg1:T42 Arg2:T33
+R12	Used_for Arg1:T42 Arg2:T30
+R13	Used_for Arg1:T43 Arg2:T33
+R14	Used_for Arg1:T43 Arg2:T30
+R15	Experiences Arg1:T27 Arg2:T3
+R16	Experiences Arg1:T27 Arg2:T2
+R17	Experiences Arg1:T27 Arg2:T38
+R18	Experiences Arg1:T28 Arg2:T7
+R19	Experiences Arg1:T28 Arg2:T6
+R21	Experiences Arg1:T28 Arg2:T39
+R23	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T47
+R24	Has_Age Arg1:T31 Arg2:T32
+R25	Has_Age Arg1:T29 Arg2:T32
+R26	Experiences Arg1:T31 Arg2:T16
+R27	Experiences Arg1:T29 Arg2:T16
+R28	Experiences Arg1:T29 Arg2:T40
+R30	Experiences Arg1:T31 Arg2:T40
+R32	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T49
+R33	After Arg1:T40 Arg2:T11
+R34	Used_for Arg1:T14 Arg2:T12
+R35	Used_for Arg1:T13 Arg2:T12
+R36	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T50
+R37	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T50
+R38	After Arg1:T48 Arg2:T11
+R39	Experiences Arg1:T28 Arg2:T23	
+R40	Experiences Arg1:T28 Arg2:T5	
+R41	Experiences Arg1:T27 Arg2:T1	
+T51	Neg_cue 428 431	sin
+T52	Observation 432 477	evidencia anatomopatológica de transformación
+A9	Assertion T52 Negated
+R42	Negation Arg1:T51 Arg2:T52	
+T53	Quantifier_or_Qualifier 630 638	2 lineas
+R43	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T53	
+R44	Experiences Arg1:T29 Arg2:T11	
+R45	Experiences Arg1:T29 Arg2:T12	
+R46	Experiences Arg1:T31 Arg2:T11	
+R47	Experiences Arg1:T31 Arg2:T12	
+#32	AnnotatorNotes T45	C0205269; Unresponsive to Treatment; Functional Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T45	
+R48	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T45	
+#33	AnnotatorNotes T46	C0205269; Unresponsive to Treatment; Functional Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T46	
+R49	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T46	
+#34	AnnotatorNotes T48	C0205269; Unresponsive to Treatment; Functional Concept
+R29	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T48	
+R31	Used_for Arg1:T14 Arg2:T11	
+R50	Used_for Arg1:T13 Arg2:T11	
+#35	AnnotatorNotes T42	C1520224; ECOG performance status; Intellectual Product
+#36	AnnotatorNotes T43	C1520224; ECOG performance status; Intellectual Product
+T54	Quantifier_or_Qualifier 963 969	activa
+R51	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T54	
+#37	AnnotatorNotes T9	C0024305; Lymphoma, Non-Hodgkin; Neoplastic Process
+#38	AnnotatorNotes T54	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R52	Before Arg1:T2 Arg2:T38	
+R53	Before Arg1:T3 Arg2:T38	
+R54	Before Arg1:T7 Arg2:T39	
+R55	Before Arg1:T6 Arg2:T39	
+R56	Before Arg1:T16 Arg2:T40	
+R58	After Arg1:T40 Arg2:T12	
+R57	After Arg1:T48 Arg2:T12	
+#39	AnnotatorNotes T37	C5236155; Date of First Dose; Temporal Concept
+#40	AnnotatorNotes R7	(?)
+R59	Before Arg1:T19 Arg2:T37	
+#41	AnnotatorNotes T15	C4255274; allogeneic hematopoietic stem cell transplant; Therapeutic or Preventive Procedure | C2193200; Autologous haematopoietic stem cell transplant; Therapeutic or Preventive Procedure
+#42	AnnotatorNotes T19	C2193200; Autologous haematopoietic stem cell transplant; Therapeutic or Preventive Procedure
+A10	Experiencer T27 Patient
+A11	Experiencer T28 Patient
+A12	Experiencer T29 Patient
+A13	Experiencer T31 Patient
+A14	Experiencer T34 Patient

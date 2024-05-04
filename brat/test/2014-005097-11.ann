@@ -1,0 +1,244 @@
+T1	PROC 46 77	Ensayo para evaluar la gravedad
+T2	DISO 85 104	efectos secundarios
+#1	AnnotatorNotes T2	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T3	PROC 134 154	tratamiento estándar
+#2	AnnotatorNotes T3	C2936643; Standard of Care; Health Care Activity
+T4	CHEM 167 176	Nivolumab
+#3	AnnotatorNotes T4	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	DISO 194 198	CPNM
+#4	AnnotatorNotes T5	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T6	PROC 231 254	Estudio de factibilidad
+T7	CHEM 292 311	anticuerpo anti-PD1
+T8	CHEM 312 321	nivolumab
+#5	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	PROC 336 349	quimioterapia
+#6	AnnotatorNotes T9	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T10	PROC 352 364	radioterapia
+#7	AnnotatorNotes T10	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T11	DISO 403 407	CNMP
+#8	AnnotatorNotes T11	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T12	DISO 477 493	cáncer de pulmón
+#9	AnnotatorNotes T12	C0242379; Malignant neoplasm of lung; Neoplastic Process | C0684249; Carcinoma of lung; Neoplastic Process
+T13	DISO 504 543	cáncer de pulmón de células no pequeñas
+#10	AnnotatorNotes T13	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T14	DISO 545 549	CNMP
+#11	AnnotatorNotes T14	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T15	ANAT 625 632	órganos
+#12	AnnotatorNotes T15	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T16	DISO 679 683	CNMP
+#13	AnnotatorNotes T16	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T17	DISO 750 781	Cáncer no microcítico de pulmón
+T18	ANAT 775 781	pulmón
+#14	AnnotatorNotes T18	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T19	DISO 783 787	CNMP
+#15	AnnotatorNotes T19	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T20	PROC 877 909	estudio histológico o citológico
+#16	AnnotatorNotes T20	C1305671; Cytology procedure; Laboratory Procedure + C0344441; Histology Procedure; Laboratory Procedure
+T21	ANAT 960 970	ganglionar
+#17	AnnotatorNotes T21	C0024204; lymph nodes; Body Part, Organ, or Organ Component | C1269047; Entire lymph node; Body Part, Organ, or Organ Component
+T22	PROC 1015 1022	biopsia
+#18	AnnotatorNotes T22	C0005558; Biopsy; Diagnostic Procedure
+T23	PROC 1024 1047	ecografía endobronquial
+T24	PROC 1049 1065	mediastinoscopia
+#19	AnnotatorNotes T24	C0025065; Mediastinoscopy; Diagnostic Procedure
+T25	PROC 1068 1080	toracoscopia
+#20	AnnotatorNotes T25	C0039989; Thoracoscopy; Therapeutic or Preventive Procedure
+T26	DISO 1084 1105	Enfermedad mensurable
+T27	PROC 1264 1289	fórmula de Cockroft-Gault
+#21	AnnotatorNotes T27	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T28	PROC 1205 1231	aclaramiento de creatinina
+#22	AnnotatorNotes T28	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T29	DISO 1319 1341	Enfermedad metastásica
+#23	AnnotatorNotes T29	C2939420; Metastatic Neoplasm; Neoplastic Process
+T30	PROC 1355 1358	PET
+#24	AnnotatorNotes T30	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T31	PROC 1359 1362	TAC
+#25	AnnotatorNotes T31	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T32	PROC 1365 1376	RM cerebral
+T33	ANAT 1368 1376	cerebral
+#26	AnnotatorNotes T33	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T34	CHEM 1423 1432	contraste
+#27	AnnotatorNotes T34	C0009924; Contrast Media; Indicator, Reagent, or Diagnostic Aid
+T35	ANAT 1394 1402	cerebral
+#28	AnnotatorNotes T35	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T36	PROC 1491 1519	Radioterapia previa de tórax
+T37	ANAT 1514 1519	tórax
+#29	AnnotatorNotes T37	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T38	PROC 1533 1545	radioterapia
+#30	AnnotatorNotes T38	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T39	DISO 1550 1564	cáncer de mama
+#31	AnnotatorNotes T39	C0006142; Malignant neoplasm of breast; Neoplastic Process | C0678222; Breast Carcinoma; Neoplastic Process
+T40	PROC 1567 1586	Quimiorradioterapia
+#32	AnnotatorNotes T40	C0436307; Chemoradiotherapy; Therapeutic or Preventive Procedure
+T41	PROC 1588 1600	radioterapia
+#33	AnnotatorNotes T41	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T42	PROC 1603 1633	tratamiento molecular dirigido
+T43	DISO 1652 1656	CNMP
+#34	AnnotatorNotes T43	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T44	DISO 1659 1680	Enfermedad autoinmune
+#35	AnnotatorNotes T44	C0004364; Autoimmune Diseases; Disease or Syndrome
+T45	ANAT 487 493	pulmón
+#36	AnnotatorNotes T45	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T46	ANAT 514 520	pulmón
+#37	AnnotatorNotes T46	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T47	ANAT 524 531	células
+#38	AnnotatorNotes T47	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T48	ANAT 602 608	pulmón
+#39	AnnotatorNotes T48	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T49	ANAT 635 642	tejidos
+#40	AnnotatorNotes T49	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T50	ANAT 760 771	microcítico
+#41	AnnotatorNotes T50	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T51	PROC 1158 1161	ALT
+#42	AnnotatorNotes T51	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T52	ANAT 1182 1187	renal
+#43	AnnotatorNotes T52	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T53	CHEM 1221 1231	creatinina
+#44	AnnotatorNotes T53	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T54	PROC 1391 1402	TC cerebral
+T55	ANAT 1560 1564	mama
+#45	AnnotatorNotes T55	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T56	Date 13 17	2014
+T57	LIVB 180 189	pacientes
+#46	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	PHYS 1174 1187	Función renal
+#47	AnnotatorNotes T58	C0232804; Renal function; Organ or Tissue Function
+T61	Neg_cue 757 759	no
+T64	Route 1437 1452	vía intravenosa
+#48	AnnotatorNotes T64	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T65	Spec_cue 1700 1710	sospechada
+T59	PROC 1473 1487	estadificación
+#49	AnnotatorNotes T59	C0027646; Diagnostic Neoplasm Staging; Diagnostic Procedure
+T60	PROC 1127 1146	Categoría funcional
+#50	AnnotatorNotes T60	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+A1	Assertion T50 Negated
+A2	Assertion T44 Speculated
+A3	Status T36 History_of
+A4	Status T38 History_of
+A5	Status T42 History_of
+A6	Status T41 History_of
+A7	Status T40 History_of
+A8	Status T44 History_of
+#51	AnnotatorNotes T6	C0015730; Feasibility Studies; Research Activity
+#52	AnnotatorNotes T17	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+#53	AnnotatorNotes T23	C3160856; Endobronchial ultrasound; Diagnostic Procedure
+#54	AnnotatorNotes T26	C5238366; Measurable Lesion; Finding 
+#55	AnnotatorNotes T32	C2454640; Magnetic Resonance Imaging (MRI) of Brain; Diagnostic Procedure 
+#56	AnnotatorNotes T54	C3709296; Computed tomography, head or brain; Diagnostic Procedure 
+T62	Neg_cue 532 534	no
+T63	Quantifier_or_Qualifier 535 543	pequeñas
+A9	Assertion T63 Negated
+#57	AnnotatorNotes T63	C0700321; Small; Quantitative Concept
+T66	Neg_cue 616 618	no
+T67	Quantifier_or_Qualifier 643 652	distantes
+A10	Assertion T67 Negated
+#58	AnnotatorNotes T67	C0205108; Distal (qualifier value); Spatial Concept
+R1	Negation Arg1:T62 Arg2:T63	
+R2	Negation Arg1:T66 Arg2:T67	
+A11	Assertion T15 Negated
+R3	Negation Arg1:T66 Arg2:T15	
+R4	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T67	
+R5	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T67	
+R6	Negation Arg1:T66 Arg2:T49	
+A12	Assertion T49 Negated
+R7	Negation Arg1:T61 Arg2:T50	
+T68	Observation 971 973	N2
+A13	Assertion T68 Speculated
+#59	AnnotatorNotes T68	C0441960; N2 category (finding); Finding
+T69	Spec_cue 979 1004	pendiente de confirmación
+R8	Speculation Arg1:T69 Arg2:T68	
+T70	Observation 976 978	N3
+A14	Assertion T70 Speculated
+#60	AnnotatorNotes T70	C0441961; N3 category (finding); Finding
+R9	Speculation Arg1:T69 Arg2:T70	
+R10	Speculation Arg1:T65 Arg2:T44	
+R11	Before Arg1:T3 Arg2:T4	
+R12	Experiences Arg1:T57 Arg2:T2	
+R13	Experiences Arg1:T57 Arg2:T3	
+R14	Causes Arg1:T4 Arg2:T2	
+R15	Experiences Arg1:T57 Arg2:T5	
+R16	Experiences Arg1:T57 Arg2:T4	
+T71	Quantifier_or_Qualifier 199 207	avanzado
+#61	AnnotatorNotes T71	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T71	
+T72	Quantifier_or_Qualifier 408 427	localmente avanzado
+R18	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T72	
+T73	Quantifier_or_Qualifier 684 703	localmente avanzado
+R19	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T73	
+T74	Quantifier_or_Qualifier 789 808	localmente avanzado
+R20	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T74	
+R21	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T74	
+T75	Quantifier_or_Qualifier 431 445	estadio IIIA/B
+R22	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T75	
+R23	Location_of Arg1:T45 Arg2:T12	
+R24	Location_of Arg1:T46 Arg2:T13	
+R25	Location_of Arg1:T47 Arg2:T13	
+R26	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T63	
+R27	Location_of Arg1:T46 Arg2:T14	
+T76	Quantifier_or_Qualifier 563 586	extendido a nivel local
+R28	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T76	
+R29	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T76	
+R30	Location_of Arg1:T48 Arg2:T76	
+R31	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T76	
+R32	Location_of Arg1:T15 Arg2:T76	
+R33	Location_of Arg1:T49 Arg2:T76	
+T77	Quantifier_or_Qualifier 707 721	estadio IIIA/B
+R34	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T77	
+R35	Location_of Arg1:T18 Arg2:T17	
+R36	Location_of Arg1:T18 Arg2:T19	
+T78	Quantifier_or_Qualifier 813 833	estadio IIIA o III B
+R37	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T78	
+R38	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T78	
+T79	CONC 931 948	clasificación TNM
+#62	AnnotatorNotes T79	C1515169; TNM Staging System; Classification
+T80	Observation 847 857	T4 N0-3 M0
+#63	AnnotatorNotes T80	C0475751; Tumor stage T4; Finding + C0441959; Node stage N0; Finding | C0441961; N3 category (finding); Finding + C0445034; M0 Stage Finding; Finding
+R41	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T80	
+R42	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T80	
+T81	Observation 835 844	T0-3 N2-3
+#64	AnnotatorNotes T81	C0475371; T0 stage; Finding | C0475374; Tumor stage T3; Finding + C0441960; N2 category (finding); Finding | C0441961; N3 category (finding); Finding
+R43	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T81	
+R44	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T81	
+R47	Location_of Arg1:T21 Arg2:T68	
+R48	Location_of Arg1:T21 Arg2:T70	
+T82	CONC 1112 1124	RECIST, v1.1
+#65	AnnotatorNotes T82	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product
+T83	CONC 1147 1151	ECOG
+#66	AnnotatorNotes T83	C1520224; ECOG performance status; Intellectual Product
+R55	Used_for Arg1:T83 Arg2:T60	
+T84	Result_or_Value 1152 1155	0-1
+R56	Has_Result_or_Value Arg1:T83 Arg2:T84	
+T85	Result_or_Value 1162 1171	≥ 3 x LSN
+R57	Has_Result_or_Value Arg1:T51 Arg2:T85	
+R58	Location_of Arg1:T52 Arg2:T58	
+T86	Result_or_Value 1242 1253	≥ 30 ml/min
+R59	Has_Result_or_Value Arg1:T28 Arg2:T86	
+T87	Observation 1174 1196	Función renal adecuada
+#67	AnnotatorNotes T87	C0232805; Normal renal function; Finding
+R61	Location_of Arg1:T52 Arg2:T87	
+R65	Location_of Arg1:T33 Arg2:T32	
+R66	Location_of Arg1:T35 Arg2:T54	
+R67	Used_for Arg1:T34 Arg2:T54	
+R68	Has_Route_or_Mode Arg1:T34 Arg2:T64	
+R69	Overlap Arg1:T54 Arg2:T59	
+R70	Overlap Arg1:T30 Arg2:T59	
+R71	Overlap Arg1:T31 Arg2:T59	
+R72	Overlap Arg1:T32 Arg2:T59	
+R77	Location_of Arg1:T37 Arg2:T36	
+R78	Location_of Arg1:T55 Arg2:T39	
+R79	Location_of Arg1:T37 Arg2:T38	
+#68	AnnotatorNotes T42	C2699893; Molecular Targeted Therapy; Therapeutic or Preventive Procedure
+T88	Quantifier_or_Qualifier 1681 1687	activa
+#69	AnnotatorNotes T88	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R80	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T88	
+#70	AnnotatorNotes T7	C4289970; Anti-PD1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+R81	After Arg1:T7 Arg2:T9	
+R82	After Arg1:T8 Arg2:T9	
+R83	After Arg1:T7 Arg2:T10	
+R84	After Arg1:T7 Arg2:T10	
+T89	Quantifier_or_Qualifier 379 392	primera línea
+R85	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T89	
+R86	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T89	
+R60	Overlap Arg1:T2 Arg2:T5	
+#71	AnnotatorNotes T76	C0443133; Local spread; Spatial Concept
+A15	Experiencer T57 Patient

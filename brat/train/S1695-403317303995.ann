@@ -1,0 +1,196 @@
+T1	PROC 504 528	consentimiento informado
+#1	AnnotatorNotes T1	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T2	CHEM 58 64	sueros
+#2	AnnotatorNotes T2	C0037633; Solutions; Substance (?)
+T3	DISO 164 177	hiperglucemia
+#3	AnnotatorNotes T3	C0020456; Hyperglycemia; Disease or Syndrome
+T4	CHEM 225 231	sueros
+#4	AnnotatorNotes T4	C0037633; Solutions; Substance (?)
+T5	CHEM 96 103	glucosa
+#5	AnnotatorNotes T5	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T6	DISO 350 360	diabéticos
+#6	AnnotatorNotes T6	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T7	PROC 366 397	ingresan en Cuidados Intensivos
+#7	AnnotatorNotes T7	C0583239; Admission to intensive care unit; Health Care Activity
+T8	PROC 476 484	glucemia
+#8	AnnotatorNotes T8	C0392201; Blood glucose measurement; Laboratory Procedure
+T9	PROC 415 422	cirugía
+#9	AnnotatorNotes T9	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T10	PROC 556 597	sueroterapia de mantenimiento intravenosa
+T11	CHEM 263 270	glucosa
+#10	AnnotatorNotes T11	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T12	CHEM 607 624	suero con glucosa
+#11	AnnotatorNotes T12	C1165603; Dextrose solution; Organic Chemical · Pharmacologic Substance
+T13	PROC 652 671	niveles de glucemia
+#12	AnnotatorNotes T13	C0392201; Blood glucose measurement; Laboratory Procedure
+T14	PROC 690 697	ingreso
+#13	AnnotatorNotes T14	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T15	PROC 784 792	glucemia
+#14	AnnotatorNotes T15	C0392201; Blood glucose measurement; Laboratory Procedure
+T16	DISO 769 782	hiperglucemia
+#15	AnnotatorNotes T16	C0020456; Hyperglycemia; Disease or Syndrome
+T17	CHEM 870 887	suero glucosalino
+T18	CHEM 904 909	sodio
+#16	AnnotatorNotes T18	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T19	CHEM 921 928	glucosa
+#17	AnnotatorNotes T19	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T20	CHEM 945 962	suero glucosalino
+T21	CHEM 983 988	sodio
+#18	AnnotatorNotes T21	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T22	CHEM 1000 1007	glucosa
+#19	AnnotatorNotes T22	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
+T23	DISO 1124 1137	hiperglucemia
+#20	AnnotatorNotes T23	C0020456; Hyperglycemia; Disease or Syndrome
+T24	CHEM 1318 1339	soluciones glucosadas
+#21	AnnotatorNotes T24	C1165603; Dextrose solution; Organic Chemical · Pharmacologic Substance
+T25	CHEM 1429 1446	suero con glucosa
+#22	AnnotatorNotes T25	C1165603; Dextrose solution; Organic Chemical · Pharmacologic Substance
+T26	DISO 1473 1486	hiperglucemia
+#23	AnnotatorNotes T26	C0020456; Hyperglycemia; Disease or Syndrome
+T27	PROC 202 217	cirugía general
+#24	AnnotatorNotes T27	C2242991; general surgery (treatment); Therapeutic or Preventive Procedure
+T28	PROC 286 332	Ensayo clínico aleatorizado, abierto, no ciego
+#25	AnnotatorNotes T28	C1709323; Open Label Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T29	PROC 546 551	dieta
+#26	AnnotatorNotes T29	C0012159; Diet therapy; Health Care Activity | C0600072; Feeding and dietary regimes; Therapeutic or Preventive Procedure
+T30	PROC 1013 1021	glucemia
+#27	AnnotatorNotes T30	C0392201; Blood glucose measurement; Laboratory Procedure
+T31	PROC 1291 1306	cirugía general
+#28	AnnotatorNotes T31	C2242991; general surgery (treatment); Therapeutic or Preventive Procedure
+T32	PROC 1357 1376	niveles de glucemia
+#29	AnnotatorNotes T32	C0392201; Blood glucose measurement; Laboratory Procedure
+T33	PROC 16 35	niveles de glucemia
+#30	AnnotatorNotes T33	C0392201; Blood glucose measurement; Laboratory Procedure
+T34	PROC 128 147	niveles de glucemia
+#31	AnnotatorNotes T34	C0392201; Blood glucose measurement; Laboratory Procedure
+T35	Date 36 50	postoperatoria
+#32	AnnotatorNotes T35	C0032790; Postoperative Period; Temporal Concept
+T36	Date 184 198	postoperatorio
+#33	AnnotatorNotes T36	C0032790; Postoperative Period; Temporal Concept
+T38	LIVB 337 346	pacientes
+#34	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Neg_cue 347 349	no
+T40	Age 436 453	6 meses a 14 años
+T42	Route 586 597	intravenosa
+#35	AnnotatorNotes T42	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T43	Date 672 685	preoperatoria
+#36	AnnotatorNotes T43	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T44	Duration 703 718	las 8, 24 y 48h
+T46	LIVB 849 858	pacientes
+#37	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Dose 912 917	33g/l
+T48	LIVB 935 944	pacientes
+#38	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Dose 991 996	50g/l
+T50	Dose 1050 1055	al 5%
+T53	Duration 1139 1141	8h
+T54	Duration 1195 1198	24h
+T55	Duration 1223 1226	48h
+T56	Date 1273 1287	postoperatorio
+#39	AnnotatorNotes T56	C0032790; Postoperative Period; Temporal Concept
+T57	Form 1318 1328	soluciones
+#40	AnnotatorNotes T57	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T58	Dose 1340 1347	al 3,3%
+T59	LIVB 1407 1416	pacientes
+#41	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T37	Dose 625 636	al 3,3 o 5%
+T41	Dose 893 900	51mEq/l
+T45	Dose 971 979	154mEq/l
+T51	Dose 1157 1161	3,3%
+T52	Dose 1182 1184	5%
+T60	Dose 963 969	5/0,9%
+T61	Dose 888 891	1/3
+T62	Dose 1447 1449	5%
+T63	PROC 455 459	peso
+#42	AnnotatorNotes T63	C2985231; Body Weight Measurement; Diagnostic Procedure
+A1	Assertion T6 Negated
+T64	CONC 1061 1071	diferencia
+A2	Assertion T64 Negated
+T65	Neg_cue 1057 1060	sin
+#43	AnnotatorNotes T64	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T65 Arg2:T64	
+T66	CONC 1093 1103	diferencia
+A3	Assertion T66 Negated
+#44	AnnotatorNotes T66	C1705241; Delta (difference); Quantitative Concept
+T67	Neg_cue 1085 1087	No
+R2	Negation Arg1:T67 Arg2:T66	
+R3	Negation Arg1:T39 Arg2:T6	
+R4	Overlap Arg1:T33 Arg2:T35	
+R5	Combined_with Arg1:T2 Arg2:T5	
+R7	Overlap Arg1:T3 Arg2:T36	
+R8	Overlap Arg1:T34 Arg2:T36	
+R9	Before Arg1:T27 Arg2:T4	
+R10	Combined_with Arg1:T4 Arg2:T11	
+R13	Experiences Arg1:T38 Arg2:T6	
+R14	Experiences Arg1:T38 Arg2:T7	
+T68	Quantifier_or_Qualifier 398 409	Pediátricos
+#45	AnnotatorNotes T68	C1521725; Pediatric; Qualitative Concept 
+R15	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T68	
+R16	After Arg1:T7 Arg2:T9	
+R17	Has_Age Arg1:T38 Arg2:T40	
+T69	Quantifier_or_Qualifier 423 431	electiva
+#46	AnnotatorNotes T69	C1561552; elective; Functional Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T69	
+R19	Experiences Arg1:T38 Arg2:T9	
+R20	Experiences Arg1:T38 Arg2:T63	
+T70	Result_or_Value 460 474	superior a 6kg
+R21	Has_Result_or_Value Arg1:T63 Arg2:T70	
+T71	Result_or_Value 484 492	>60mg/dl
+R22	Has_Result_or_Value Arg1:T8 Arg2:T71	
+R23	Before Arg1:T1 Arg2:T28	
+R24	Experiences Arg1:T38 Arg2:T8	
+R25	Experiences Arg1:T38 Arg2:T29	
+R26	Experiences Arg1:T38 Arg2:T10	
+R27	Used_for Arg1:T12 Arg2:T10	
+R28	Has_Route_or_Mode Arg1:T12 Arg2:T42	
+R29	Has_Dose_or_Strength Arg1:T12 Arg2:T37	
+R30	Overlap Arg1:T7 Arg2:T29	
+R31	Overlap Arg1:T7 Arg2:T10	
+R32	Overlap Arg1:T13 Arg2:T43	
+R33	Overlap Arg1:T13 Arg2:T14	
+R34	Overlap Arg1:T13 Arg2:T44	
+R35	Overlap Arg1:T16 Arg2:T44	
+R36	Overlap Arg1:T14 Arg2:T16	
+R37	Overlap Arg1:T14 Arg2:T15	
+R38	Overlap Arg1:T13 Arg2:T15	
+R39	Experiences Arg1:T46 Arg2:T17	
+R40	Has_Dose_or_Strength Arg1:T17 Arg2:T61	
+R41	Experiences Arg1:T46 Arg2:T18	
+R42	Combined_with Arg1:T18 Arg2:T19	
+R43	Has_Dose_or_Strength Arg1:T18 Arg2:T41	
+R44	Has_Dose_or_Strength Arg1:T19 Arg2:T47	
+R45	Experiences Arg1:T48 Arg2:T20	
+R46	Has_Dose_or_Strength Arg1:T20 Arg2:T60	
+R47	Has_Dose_or_Strength Arg1:T21 Arg2:T45	
+R48	Combined_with Arg1:T21 Arg2:T22	
+R49	Has_Dose_or_Strength Arg1:T22 Arg2:T49	
+R50	Experiences Arg1:T48 Arg2:T21	
+R51	Overlap Arg1:T23 Arg2:T53	
+R52	Overlap Arg1:T23 Arg2:T54	
+R53	Overlap Arg1:T23 Arg2:T55	
+R55	Overlap Arg1:T24 Arg2:T56	
+R56	Has_Drug_Form Arg1:T24 Arg2:T57	
+R57	Has_Dose_or_Strength Arg1:T24 Arg2:T58	
+R58	Overlap Arg1:T32 Arg2:T56	
+R60	Experiences Arg1:T59 Arg2:T32	
+R61	Experiences Arg1:T59 Arg2:T24	
+R62	Experiences Arg1:T59 Arg2:T31	
+R63	Experiences Arg1:T59 Arg2:T25	
+R64	Experiences Arg1:T59 Arg2:T26	
+R65	Has_Dose_or_Strength Arg1:T25 Arg2:T62	
+R67	Overlap Arg1:T26 Arg2:T56	
+R12	Overlap Arg1:T15 Arg2:T43	
+R68	Overlap Arg1:T15 Arg2:T44	
+T72	Quantifier_or_Qualifier 1072 1083	estadística
+A4	Assertion T72 Negated
+#47	AnnotatorNotes T72	C0237881; Statistical Significance; Quantitative Concept (?)
+R69	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T72	
+R70	Negation Arg1:T65 Arg2:T72	
+R54	Before Arg1:T31 Arg2:T24	
+R71	Before Arg1:T7 Arg2:T29	
+R72	Before Arg1:T7 Arg2:T10	
+R73	Overlap Arg1:T25 Arg2:T56	
+A5	Experiencer T38 Patient
+A6	Experiencer T46 Patient
+A7	Experiencer T48 Patient
+A8	Experiencer T59 Patient

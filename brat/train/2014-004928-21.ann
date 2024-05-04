@@ -1,0 +1,169 @@
+T1	PROC 46 65	Estudio de Fase III
+#1	AnnotatorNotes T1	C0282461; Phase 3 Clinical Trials; Research Activity
+T2	CHEM 107 118	ruxolitinib
+#2	AnnotatorNotes T2	C2931926; ruxolitinib; Organic Chemical · Pharmacologic Substance
+T3	DISO 136 149	mielofibrosis
+#3	AnnotatorNotes T3	C0026987; Myelofibrosis; Neoplastic Process
+T4	PROC 224 309	Estudio de Fase III, aleatorizado, doble ciego, controlado con placebo, multicéntrico
+T5	PROC 314 347	investiga la eficacia y seguridad
+T6	CHEM 351 362	ruxolitinib
+#4	AnnotatorNotes T6	C2931926; ruxolitinib; Organic Chemical · Pharmacologic Substance
+T7	DISO 380 393	mielofibrosis
+#5	AnnotatorNotes T7	C0026987; Myelofibrosis; Neoplastic Process
+T8	DISO 468 481	Mielofibrosis
+#6	AnnotatorNotes T8	C0026987; Myelofibrosis; Neoplastic Process
+T9	DISO 559 572	Mielofibrosis
+#7	AnnotatorNotes T9	C0026987; Myelofibrosis; Neoplastic Process
+T10	PROC 651 662	Diagnóstico
+#8	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	ANAT 907 911	bazo
+#9	AnnotatorNotes T11	C0037993; Spleen; Body Part, Organ, or Organ Component | C1278932; Entire spleen; Body Part, Organ, or Organ Component
+T12	DISO 677 679	MF
+#10	AnnotatorNotes T12	C0026987; Myelofibrosis; Neoplastic Process
+T13	DISO 684 707	fibrosis de médula ósea
+#11	AnnotatorNotes T13	C2355575; bone marrow fibrosis; Finding
+T14	ANAT 696 707	médula ósea
+#12	AnnotatorNotes T14	C0005953; Bone Marrow; Tissue
+T15	ANAT 888 892	bazo
+#13	AnnotatorNotes T15	C0037993; Spleen; Body Part, Organ, or Organ Component | C1278932; Entire spleen; Body Part, Organ, or Organ Component
+T16	ANAT 938 961	margen costal izquierdo
+T17	DISO 1063 1070	síntoma
+#14	AnnotatorNotes T17	C1457887; Symptoms; Sign or Symptom
+T18	PROC 1129 1140	tratamiento
+#15	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	CHEM 1152 1163	ruxolitinib
+#16	AnnotatorNotes T19	C2931926; ruxolitinib; Organic Chemical · Pharmacologic Substance
+T20	CHEM 1172 1187	inhibidores JAK
+T21	PROC 70 103	investiga la eficacia y seguridad
+T22	ANAT 991 1000	esplénica
+#17	AnnotatorNotes T22	C0037993; Spleen; Body Part, Organ, or Organ Component | C1278932; Entire spleen; Body Part, Organ, or Organ Component
+T23	DISO 163 185	mutaciones moleculares
+T24	DISO 407 429	mutaciones moleculares
+T25	DISO 495 517	mutaciones moleculares
+T26	DISO 586 608	mutaciones moleculares
+T27	DISO 804 812	mutación
+T28	DISO 752 769	estado mutacional
+T29	Date 13 17	2014
+T30	LIVB 122 131	pacientes
+#18	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 366 375	pacientes
+#19	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 777 786	Pacientes
+#20	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	GENE 833 842	genes HMR
+#21	AnnotatorNotes T33	C1367453; NR4A1 gene; Gene or Genome
+T34	LIVB 874 883	Pacientes
+#22	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 1002 1011	Pacientes
+#23	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 1115 1124	Pacientes
+#24	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	GENE 770 774	JAK2
+#25	AnnotatorNotes T38	C1334291; JAK2 gene; Gene or Genome
+T39	GENE 844 849	ASXL1
+#26	AnnotatorNotes T39	C1425445; ASXL1 gene; Gene or Genome
+T40	GENE 851 855	EZH2
+#27	AnnotatorNotes T40	C1333368; EZH2 gene; Gene or Genome
+T41	GENE 857 862	SRSF2
+#28	AnnotatorNotes T41	C1419992; SRSF2 gene; Gene or Genome
+T42	GENE 865 871	IDH1/2
+#29	AnnotatorNotes T42	C5426663; IDH1 gene & IDH2 gene; Gene or Genome
+A1	Status T18 History_of
+A2	Status T19 History_of
+A3	Status T20 History_of
+#30	AnnotatorNotes T21	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#31	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#32	AnnotatorNotes T4	C0282461; Phase 3 Clinical Trials; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C1096776; Multicenter Study; Research Activity
+#33	AnnotatorNotes T16	C0502461; Left costal margin; Body Location or Region
+#34	AnnotatorNotes T20	C3854325; Janus kinase inhibitor; Pharmacologic Substance
+T35	Neg_cue 893 895	no
+T43	Quantifier_or_Qualifier 896 904	palpable
+A4	Assertion T43 Negated
+#35	AnnotatorNotes T43	C0522499; Palpable; Qualitative Concept
+T44	Quantifier_or_Qualifier 912 920	palpable
+#36	AnnotatorNotes T44	C0522499; Palpable; Qualitative Concept
+R1	Experiences Arg1:T30 Arg2:T2	
+R2	Experiences Arg1:T30 Arg2:T3	
+R3	Overlap Arg1:T3 Arg2:T23	
+T45	Quantifier_or_Qualifier 150 158	temprana
+#37	AnnotatorNotes T45	C1279919; Early; Temporal Concep
+R4	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T45	
+T46	Quantifier_or_Qualifier 394 402	temprana
+#38	AnnotatorNotes T46	C1279919; Early; Temporal Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T46	
+T47	Quantifier_or_Qualifier 482 490	temprana
+#39	AnnotatorNotes T47	C1279919; Early; Temporal Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T47	
+T48	Quantifier_or_Qualifier 573 581	temprana
+#40	AnnotatorNotes T48	C1279919; Early; Temporal Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T48	
+T49	Observation 189 200	alto riesgo
+#41	AnnotatorNotes T49	C4319571; High risk; Finding
+R8	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T49	
+T50	Observation 433 444	alto riesgo
+#42	AnnotatorNotes T50	C4319571; High risk; Finding
+R9	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T50	
+T51	Observation 521 532	alto riesgo
+#43	AnnotatorNotes T51	C4319571; High risk; Finding
+R10	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T51	
+T52	Observation 612 623	alto riesgo
+#44	AnnotatorNotes T52	C4319571; High risk; Finding
+R11	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T52	
+R12	Overlap Arg1:T9 Arg2:T26	
+R13	Overlap Arg1:T8 Arg2:T25	
+R14	Experiences Arg1:T30 Arg2:T23	
+R15	Experiences Arg1:T30 Arg2:T49	
+R16	Experiences Arg1:T31 Arg2:T6	
+R17	Experiences Arg1:T31 Arg2:T7	
+R18	Experiences Arg1:T31 Arg2:T24	
+R19	Overlap Arg1:T7 Arg2:T24	
+R20	Experiences Arg1:T31 Arg2:T50	
+R21	Location_of Arg1:T14 Arg2:T13	
+R22	Overlap Arg1:T12 Arg2:T13	
+T53	Quantifier_or_Qualifier 711 727	al menos Grado 1
+R23	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T53	
+R24	Overlap Arg1:T12 Arg2:T28	
+R25	Overlap Arg1:T13 Arg2:T28	
+R26	Location_of Arg1:T38 Arg2:T28	
+R27	Experiences Arg1:T32 Arg2:T27	
+T54	Quantifier_or_Qualifier 791 803	al menos una
+R28	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T54	
+#45	AnnotatorNotes T27	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+R29	Location_of Arg1:T33 Arg2:T27	
+R30	Location_of Arg1:T39 Arg2:T27	
+R31	Location_of Arg1:T40 Arg2:T27	
+R32	Location_of Arg1:T41 Arg2:T27	
+R33	Location_of Arg1:T42 Arg2:T27	
+R34	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T43	
+R35	Negation Arg1:T35 Arg2:T43	
+R36	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T44	
+T55	Result_or_Value 921 928	</=5 cm
+R37	Has_Result_or_Value Arg1:T11 Arg2:T55	
+R38	Used_for Arg1:T19 Arg2:T18	
+R39	Used_for Arg1:T20 Arg2:T18	
+R40	Experiences Arg1:T37 Arg2:T18	
+T56	CONC 1027 1031	MF-7
+#46	AnnotatorNotes T56	[Myelofibrosis 7-item symptom scale]
+T57	Result_or_Value 1032 1038	</= 15
+R41	Has_Result_or_Value Arg1:T56 Arg2:T57	
+R42	Experiences Arg1:T36 Arg2:T17	
+T58	Observation 1044 1070	puntuación de cada síntoma
+#47	AnnotatorNotes T58	C3476546; Symptoms score; Finding
+T59	Result_or_Value 1082 1087	</= 3
+R43	Has_Result_or_Value Arg1:T58 Arg2:T59	
+R45	Overlap Arg1:T58 Arg2:T17	
+T60	Observation 907 920	bazo palpable
+#48	AnnotatorNotes T60	C0241228; Spleen palpable; Finding
+R46	Experiences Arg1:T34 Arg2:T60	
+R47	Location_of Arg1:T16 Arg2:T60	
+T61	CONC 965 1000	punto de mayor protrusión esplénica
+R48	Location_of Arg1:T61 Arg2:T60	
+T62	Observation 888 904	bazo no palpable
+#49	AnnotatorNotes T62	C0426697; Spleen not palpable; Finding
+R49	Experiences Arg1:T34 Arg2:T62	
+A5	Experiencer T30 Patient
+A6	Experiencer T31 Patient
+A7	Experiencer T32 Patient
+A8	Experiencer T34 Patient
+A9	Experiencer T36 Patient
+A10	Experiencer T37 Patient

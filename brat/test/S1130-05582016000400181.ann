@@ -1,0 +1,117 @@
+T1	PROC 19 37	antibioticoterapia
+#1	AnnotatorNotes T1	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T2	DISO 74 89	alveolitis seca
+#2	AnnotatorNotes T2	C0013240; Alveolar periostitis; Disease or Syndrome
+T3	PROC 201 220	Evaluar la eficacia
+#3	AnnotatorNotes T3	C1707887; Efficacy Study; Research Activity
+T4	PROC 227 245	antibioticoterapia
+#4	AnnotatorNotes T4	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T5	DISO 282 297	alveolitis seca
+#5	AnnotatorNotes T5	C0013240; Alveolar periostitis; Disease or Syndrome
+T6	PROC 354 416	ensayo clínico paralelo aleatorizado, controlado, ciego simple
+#6	AnnotatorNotes T6	C2826345; Parallel Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0150108; Blinded; Research Activity
+T7	PROC 612 639	distribuidos aleatoriamente
+#7	AnnotatorNotes T7	C0034656; Randomization; Research Activity
+T8	PROC 697 715	antibioticoterapia
+#8	AnnotatorNotes T8	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T9	CHEM 717 728	amoxicilina
+#9	AnnotatorNotes T9	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T10	ANAT 1058 1074	piezas dentarias
+#10	AnnotatorNotes T10	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T11	PROC 888 906	terapia analgésica
+#11	AnnotatorNotes T11	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T12	DISO 953 963	alveolitis
+#12	AnnotatorNotes T12	C0549493; Alveolitis; Disease or Syndrome
+T13	PROC 1177 1187	evaluación
+#13	AnnotatorNotes T13	C1261322; Evaluation procedure; Health Care Activity
+T14	DISO 1342 1352	alveolitis
+#14	AnnotatorNotes T14	C0549493; Alveolitis; Disease or Syndrome
+T15	PROC 1397 1404	placebo
+#15	AnnotatorNotes T15	C0032042; Placebos; Therapeutic or Preventive Procedure
+T16	PROC 1521 1539	antibioticoterapia
+#16	AnnotatorNotes T16	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T17	DISO 1570 1580	alveolitis
+#17	AnnotatorNotes T17	C0549493; Alveolitis; Disease or Syndrome
+T18	PROC 112 188	Ensayo clínico aleatorizado de grupos en paralelo, controlado y ciego simple
+#18	AnnotatorNotes T18	C2826345; Parallel Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0150108; Blinded; Research Activity
+T19	PROC 588 597	exodoncia
+#19	AnnotatorNotes T19	C0040440; Tooth Extraction; Therapeutic or Preventive Procedure
+T20	PROC 781 788	placebo
+#20	AnnotatorNotes T20	C0032042; Placebos; Therapeutic or Preventive Procedure
+T21	CHEM 907 918	paracetamol
+#21	AnnotatorNotes T21	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T23	Date 536 541	abril
+T24	Date 544 558	agosto de 2010
+T25	LIVB 564 573	pacientes
+#22	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 679 688	pacientes
+#23	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	Dose 729 735	500 mg
+T28	LIVB 742 755	grupo control
+#24	AnnotatorNotes T28	C0009932; Control Groups; Group
+T29	LIVB 762 772	individuos
+#25	AnnotatorNotes T29	C0027361; Persons; Population Group
+T30	Dose 919 925	500 mg
+T31	Duration 970 992	los 7 días posteriores
+T33	Date 1581 1594	postexodoncia
+T34	Date 90 103	postexodoncia
+T35	Date 298 311	postexodoncia
+T22	LIVB 1414 1430	grupo de estudio
+#26	AnnotatorNotes T22	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T32	CONC 1543 1549	reduce
+A1	Assertion T32 Negated
+T36	Neg_cue 1540 1542	no
+R1	Negation Arg1:T36 Arg2:T32	
+T37	CONC 1465 1476	diferencias
+A2	Assertion T37 Negated
+#27	AnnotatorNotes T37	C1705241; Delta (difference); Quantitative Concept
+T38	Neg_cue 1457 1459	no
+R2	Negation Arg1:T38 Arg2:T37	
+#28	AnnotatorNotes T32	C0392756; Reduced; Qualitative Concept
+R3	Overlap Arg1:T2 Arg2:T34	
+R4	Overlap Arg1:T5 Arg2:T35	
+T39	Quantifier_or_Qualifier 598 604	simple
+#29	AnnotatorNotes T39	C0205352; Simple; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T39	
+R6	Overlap Arg1:T17 Arg2:T33	
+T40	Quantifier_or_Qualifier 1595 1601	simple
+#30	AnnotatorNotes T40	C0205352; Simple; Qualitative Concept
+T41	Quantifier_or_Qualifier 104 110	simple
+#31	AnnotatorNotes T41	C0205352; Simple; Qualitative Concept
+T42	Quantifier_or_Qualifier 312 318	simple
+R7	Experiences Arg1:T22 Arg2:T14	
+R8	After Arg1:T6 Arg2:T23	
+R9	Before Arg1:T6 Arg2:T24	
+R10	Experiences Arg1:T25 Arg2:T19	
+R11	Before Arg1:T7 Arg2:T8	
+R12	Before Arg1:T7 Arg2:T20	
+R13	Experiences Arg1:T29 Arg2:T20	
+R14	Experiences Arg1:T28 Arg2:T20	
+R15	Experiences Arg1:T26 Arg2:T8	
+R16	Has_Dose_or_Strength Arg1:T9 Arg2:T27	
+R17	Used_for Arg1:T9 Arg2:T8	
+R18	Used_for Arg1:T21 Arg2:T11	
+R19	Has_Dose_or_Strength Arg1:T21 Arg2:T30	
+R20	Has_Duration_or_Interval Arg1:T12 Arg2:T31	
+R21	Location_of Arg1:T10 Arg2:T12	
+T43	CONC 1148 1167	regresión logística
+#32	AnnotatorNotes T43	C0206031; Logistic Regression; Research Activity
+T44	CONC 1123 1144	análisis multivariado
+#33	AnnotatorNotes T44	C0026777; Multivariate Analysis; Quantitative Concept
+R23	Before Arg1:T15 Arg2:T14	
+R24	Before Arg1:T16 Arg2:T17	
+R25	Before Arg1:T1 Arg2:T2	
+R26	Before Arg1:T4 Arg2:T5	
+R27	Before Arg1:T19 Arg2:T20	
+R28	Before Arg1:T19 Arg2:T8	
+T45	Quantifier_or_Qualifier 1477 1490	significativa
+A3	Assertion T45 Negated
+#34	AnnotatorNotes T45	C0750502; Significant; Idea or Concept
+R29	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T45	
+R30	Negation Arg1:T38 Arg2:T45	
+#35	AnnotatorNotes T42	C0205352; Simple; Qualitative Concept
+A4	Experiencer T25 Patient
+A5	Experiencer T26 Patient
+A6	Experiencer T28 Patient
+A7	Experiencer T29 Patient
+A8	Experiencer T22 Patient

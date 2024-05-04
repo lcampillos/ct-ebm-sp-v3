@@ -1,0 +1,109 @@
+T1	PROC 46 73	Seguimiento de la seguridad
+#1	AnnotatorNotes T1	C5235447; Safety Monitoring; Research Activity
+T2	DISO 103 138	tumor de células gigantes del hueso
+#2	AnnotatorNotes T2	C0206638; Giant Cell Tumor of Bone; Neoplastic Process
+T3	CHEM 152 161	denosumab
+#3	AnnotatorNotes T3	C1690432; denosumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	PROC 139 147	tratados
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 208 222	Tumor de hueso
+T6	ANAT 217 222	hueso
+#5	AnnotatorNotes T6	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T7	DISO 249 284	tumor de células gigantes del hueso
+#6	AnnotatorNotes T7	C0206638; Giant Cell Tumor of Bone; Neoplastic Process
+T8	PROC 551 565	procedimientos
+#7	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T9	PROC 596 605	protocolo
+#8	AnnotatorNotes T9	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T10	PROC 639 653	procedimientos
+#9	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T11	CHEM 746 755	denosumab
+#10	AnnotatorNotes T11	C1690432; denosumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T12	PROC 828 842	anticoncepción
+#11	AnnotatorNotes T12	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T13	PROC 854 865	tratamiento
+#12	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 913 924	tratamiento
+#13	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	ANAT 112 128	células gigantes
+#14	AnnotatorNotes T15	C0017526; Giant Cells; Cell
+T16	ANAT 133 138	hueso
+#15	AnnotatorNotes T16	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T17	ANAT 258 274	células gigantes
+#16	AnnotatorNotes T17	C0017526; Giant Cells; Cell
+T18	ANAT 279 284	hueso
+#17	AnnotatorNotes T18	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T19	Date 13 17	2017
+T20	Date 74 87	a largo plazo
+T21	LIVB 91 98	sujetos
+#18	AnnotatorNotes T21	C0681850; Study Subject; Group
+T22	LIVB 324 331	sujetos
+#19	AnnotatorNotes T22	C0681850; Study Subject; Group
+T23	LIVB 365 372	sujetos
+#20	AnnotatorNotes T23	C0681850; Study Subject; Group
+T24	LIVB 483 490	Sujetos
+#21	AnnotatorNotes T24	C0681850; Study Subject; Group
+T26	LIVB 703 715	investigador
+#22	AnnotatorNotes T26	C0035173; Research Personnel; Professional or Occupational Group
+T27	LIVB 719 741	Mujeres en edad fértil
+#23	AnnotatorNotes T27	C4324275; Woman of childbearing potential; Population Group
+T28	Age 730 741	edad fértil
+T30	Neg_cue 762 764	no
+T31	Duration 876 887	los 5 meses
+T25	PROC 541 548	visitas
+#24	AnnotatorNotes T25	C1512346; Patient Visit; Health Care Activity
+T29	Neg_cue 495 497	no
+T32	Observation 504 577	disponibles para completar todas las visitas o procedimientos del estudio
+T33	Observation 617 665	cumplir con todos los procedimientos del estudio
+A1	Population_data T27 Age
+A2	Assertion T12 Negated
+A3	Assertion T32 Negated
+A4	Assertion T33 Negated
+#25	AnnotatorNotes T5	C0005967; Bone neoplasms; Neoplastic Process 
+R1	Overlap Arg1:T1 Arg2:T20	
+R2	Experiences Arg1:T21 Arg2:T2	
+R3	Location_of Arg1:T15 Arg2:T2	
+R4	Location_of Arg1:T16 Arg2:T2	
+R5	Experiences Arg1:T21 Arg2:T4	
+R6	Used_for Arg1:T3 Arg2:T4	
+R7	Location_of Arg1:T6 Arg2:T5	
+R8	Location_of Arg1:T18 Arg2:T7	
+R9	Location_of Arg1:T17 Arg2:T7	
+T34	Quantifier_or_Qualifier 332 352	del estudio 20062004
+T35	Observation 377 395	acepten participar
+R11	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T34	
+T36	Observation 414 427	firmen el ICF
+#26	AnnotatorNotes T36	C0742766; consent signed; Finding
+R13	Overlap Arg1:T35 Arg2:T36	
+R14	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T32	
+R15	Negation Arg1:T29 Arg2:T32	
+R17	Negation Arg1:T29 Arg2:T33	
+R18	Experiences Arg1:T24 Arg2:T8	
+R19	Experiences Arg1:T24 Arg2:T10	
+R20	Has_Age Arg1:T27 Arg2:T28	
+R21	Negation Arg1:T30 Arg2:T12	
+T38	Quantifier_or_Qualifier 808 824	altamente eficaz
+A5	Assertion T38 Negated
+R22	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T38	
+T39	Observation 771 781	dispuestas
+#29	AnnotatorNotes T39	C0600109; Willing; Finding
+A6	Assertion T39 Negated
+R23	Negation Arg1:T30 Arg2:T39	
+R24	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T39	
+R25	Experiences Arg1:T27 Arg2:T12	
+R26	Overlap Arg1:T12 Arg2:T13	
+R27	Experiences Arg1:T27 Arg2:T13	
+R28	Experiences Arg1:T27 Arg2:T14	
+R29	Has_Duration_or_Interval Arg1:T12 Arg2:T31	
+R30	After Arg1:T12 Arg2:T14	
+R31	Experiences Arg1:T27 Arg2:T11	
+R32	Negation Arg1:T30 Arg2:T38	
+R10	Overlap Arg1:T39 Arg2:T12	
+#27	AnnotatorNotes T20	C0443252; Long-term; Temporal Concept
+#28	AnnotatorNotes T35	C1302239; Patient consented to clinical trial; Finding
+A7	Experiencer T21 Patient
+A8	Experiencer T22 Patient
+A9	Experiencer T23 Patient
+A10	Experiencer T24 Patient
+A11	Experiencer T26 Other
+A12	Experiencer T27 Patient

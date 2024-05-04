@@ -1,0 +1,201 @@
+T1	PROC 255 285	International Normalized Ratio
+#1	AnnotatorNotes T1	C0525032; International Normalized Ratio; Laboratory Procedure
+T2	PROC 1286 1311	administrada por vía oral
+#2	AnnotatorNotes T2	C0001563; Administration, Oral; Therapeutic or Preventive Procedure | C1273553; Oral administration of treatment; Therapeutic or Preventive Procedure
+T3	CHEM 48 58	vitamina K
+#3	AnnotatorNotes T3	C0042878; vitamin K; Organic Chemical · Vitamin · Pharmacologic Substance
+T4	PROC 62 77	anticoagulación
+#4	AnnotatorNotes T4	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T5	CHEM 91 100	warfarina
+#5	AnnotatorNotes T5	C0043031; warfarin; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T6	CHEM 105 114	warfarina
+#6	AnnotatorNotes T6	C0043031; warfarin; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T7	PROC 145 167	terapia anticoagulante
+#7	AnnotatorNotes T7	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T8	PROC 195 207	monitorizada
+#8	AnnotatorNotes T8	C1283169; Monitoring; Health Care Activity
+T9	PROC 218 239	tiempo de protrombina
+#9	AnnotatorNotes T9	C0033707; Prothrombin time assay; Laboratory Procedure
+T10	PROC 287 290	INR
+#10	AnnotatorNotes T10	C0525032; International Normalized Ratio; Laboratory Procedure
+T11	CHEM 353 363	vitamina K
+#11	AnnotatorNotes T11	C0042878; vitamin K; Organic Chemical · Vitamin · Pharmacologic Substance
+T12	CHEM 365 370	Vit-K
+#12	AnnotatorNotes T12	C0042878; vitamin K; Organic Chemical · Vitamin · Pharmacologic Substance
+T13	Form 24 44	preparado parenteral
+#13	AnnotatorNotes T13	C1272936; Parenteral dosage form; Biomedical or Dental Material
+T14	PROC 470 497	ensayo clínico, doble ciego
+#14	AnnotatorNotes T14	C0013072; Double-Blind Method; Research Activity + C0008976; Clinical Trials; Research Activity
+T15	DISO 542 550	sangrado
+#15	AnnotatorNotes T15	C0019080; Hemorrhage; Pathologic Function
+T16	PROC 553 556	INR
+#16	AnnotatorNotes T16	C0525032; International Normalized Ratio; Laboratory Procedure
+T17	CHEM 608 617	warfarina
+#17	AnnotatorNotes T17	C0043031; warfarin; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T18	CHEM 678 683	Vit-K
+#18	AnnotatorNotes T18	C0042878; vitamin K; Organic Chemical · Vitamin · Pharmacologic Substance
+T19	PROC 635 652	agrupados al azar
+T20	CHEM 700 705	Vit-K
+#19	AnnotatorNotes T20	C0042878; vitamin K; Organic Chemical · Vitamin · Pharmacologic Substance
+T21	PROC 752 759	placebo
+#20	AnnotatorNotes T21	C0032042; Placebos; Therapeutic or Preventive Procedure
+T22	PROC 787 790	INR
+#21	AnnotatorNotes T22	C0525032; International Normalized Ratio; Laboratory Procedure
+T23	CHEM 875 880	Vit-K
+#22	AnnotatorNotes T23	C0042878; vitamin K; Organic Chemical · Vitamin · Pharmacologic Substance
+T24	PROC 890 897	placebo
+#23	AnnotatorNotes T24	C0032042; Placebos; Therapeutic or Preventive Procedure
+T25	PROC 1419 1434	anticoagulación
+#24	AnnotatorNotes T25	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T26	DISO 1058 1074	eventos adversos
+#25	AnnotatorNotes T26	C0877248; Adverse event; Pathologic Function
+T27	PROC 1079 1082	INR
+#26	AnnotatorNotes T27	C0525032; International Normalized Ratio; Laboratory Procedure
+T28	PROC 1108 1119	tratamiento
+#27	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	CHEM 1197 1202	Vit-K
+#28	AnnotatorNotes T29	C0042878; vitamin K; Organic Chemical · Vitamin · Pharmacologic Substance
+T30	CHEM 1252 1257	Vit-K
+#29	AnnotatorNotes T30	C0042878; vitamin K; Organic Chemical · Vitamin · Pharmacologic Substance
+T31	CHEM 1383 1392	warfarina
+#30	AnnotatorNotes T31	C0043031; warfarin; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T32	CHEM 1487 1492	Vit-K
+#31	AnnotatorNotes T32	C0042878; vitamin K; Organic Chemical · Vitamin · Pharmacologic Substance
+T33	PROC 1 20	Administración oral
+#32	AnnotatorNotes T33	C0001563; Administration, Oral; Therapeutic or Preventive Procedure | C1273553; Oral administration of treatment; Therapeutic or Preventive Procedure
+T34	CHEM 153 167	anticoagulante
+#33	AnnotatorNotes T34	C0003280; Anticoagulants; Pharmacologic Substance
+T35	CHEM 228 239	protrombina
+#34	AnnotatorNotes T35	C0033706; prothrombin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T36	PROC 1354 1379	detener la administración
+#35	AnnotatorNotes T36	C0850893; stop medication; Therapeutic or Preventive Procedure
+T37	Route 16 20	oral
+#36	AnnotatorNotes T37	C1527415; Oral Route of Drug administration; Functional Concept
+T38	Route 34 44	parenteral
+#37	AnnotatorNotes T38	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T39	Date 168 174	actual
+T41	Route 393 401	vía oral
+#38	AnnotatorNotes T41	C1527415; Oral Route of Drug administration; Functional Concept
+T43	LIVB 510 519	pacientes
+#39	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Age 526 536	18-60 años
+T45	Neg_cue 538 541	sin
+T46	Dose 663 674	dosis única
+T47	Route 685 689	oral
+#40	AnnotatorNotes T47	C1527415; Oral Route of Drug administration; Functional Concept
+T48	Dose 690 696	1.25mg
+T49	Route 738 748	parenteral
+#41	AnnotatorNotes T49	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T51	LIVB 862 871	pacientes
+#42	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Neg_cue 1040 1042	no
+T54	Duration 1096 1104	24 horas
+T55	Route 1234 1242	vía oral
+#43	AnnotatorNotes T55	C1527415; Oral Route of Drug administration; Functional Concept
+T56	Route 1274 1284	parenteral
+#44	AnnotatorNotes T56	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T57	Route 1303 1311	vía oral
+#45	AnnotatorNotes T57	C1527415; Oral Route of Drug administration; Functional Concept
+T59	Route 1479 1483	oral
+#46	AnnotatorNotes T59	C1527415; Oral Route of Drug administration; Functional Concept
+T61	Duration 799 811	las 24 horas
+T42	Form 410 422	presentación
+#47	AnnotatorNotes T42	C0013058; Dosage Forms; Biomedical or Dental Material
+T60	PROC 594 604	suspendida
+#48	AnnotatorNotes T60	C0850893; stop medication; Therapeutic or Preventive Procedure
+T62	Form 725 748	presentación parenteral
+#49	AnnotatorNotes T62	C1272936; Parenteral dosage form; Biomedical or Dental Material
+T50	Form 1261 1284	presentación parenteral
+#50	AnnotatorNotes T50	C1272936; Parenteral dosage form; Biomedical or Dental Material
+T53	Neg_cue 1445 1447	no
+T40	Form 1455 1467;1479 1483	presentación oral
+#51	AnnotatorNotes T40	C1272919; Oral Dosage Form; Biomedical or Dental Material
+A3	Assertion T15 Negated
+A5	Assertion T26 Negated
+A6	Assertion T59 Negated
+A1	Assertion T40 Negated
+R1	Has_Route_or_Mode Arg1:T3 Arg2:T37	
+R2	Has_Drug_Form Arg1:T3 Arg2:T13	
+R3	Used_for Arg1:T3 Arg2:T33	
+T58	Quantifier_or_Qualifier 78 86	excesiva
+R4	Used_for Arg1:T5 Arg2:T4	
+R5	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T58	
+R7	Used_for Arg1:T34 Arg2:T7	
+R8	Used_for Arg1:T6 Arg2:T7	
+R9	Overlap Arg1:T34 Arg2:T39	
+R10	Overlap Arg1:T6 Arg2:T39	
+R15	Used_for Arg1:T35 Arg2:T9	
+R16	Has_Route_or_Mode Arg1:T12 Arg2:T41	
+R17	Has_Route_or_Mode Arg1:T11 Arg2:T41	
+R18	Before Arg1:T6 Arg2:T11	
+R19	Before Arg1:T6 Arg2:T12	
+R20	Before Arg1:T7 Arg2:T11	
+R21	Before Arg1:T7 Arg2:T12	
+R22	Has_Age Arg1:T43 Arg2:T44	
+R23	Negation Arg1:T45 Arg2:T15	
+R24	Experiences Arg1:T43 Arg2:T15	
+R25	Experiences Arg1:T43 Arg2:T16	
+T63	Quantifier_or_Qualifier 557 564	inicial
+R26	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T63	
+T64	Result_or_Value 565 574	de 6 a 10
+R27	Has_Result_or_Value Arg1:T16 Arg2:T64	
+R28	Used_for Arg1:T17 Arg2:T60	
+R29	Before Arg1:T60 Arg2:T19	
+#52	AnnotatorNotes T19	C0034656; Randomization; Research Activity
+R30	Has_Dose_or_Strength Arg1:T18 Arg2:T46	
+R31	Has_Route_or_Mode Arg1:T18 Arg2:T47	
+R32	Has_Dose_or_Strength Arg1:T18 Arg2:T48	
+R33	Has_Dose_or_Strength Arg1:T20 Arg2:T48	
+R34	Has_Route_or_Mode Arg1:T20 Arg2:T47	
+R35	Has_Drug_Form Arg1:T20 Arg2:T62	
+R36	Has_Drug_Form Arg1:T18 Arg2:T62	
+R37	Before Arg1:T19 Arg2:T18	
+R38	Before Arg1:T19 Arg2:T21	
+R39	Experiences Arg1:T43 Arg2:T60	
+R40	Experiences Arg1:T43 Arg2:T18	
+R41	Experiences Arg1:T43 Arg2:T20	
+R42	Experiences Arg1:T43 Arg2:T21	
+R43	Before Arg1:T16 Arg2:T60	
+R44	Overlap Arg1:T22 Arg2:T61	
+R45	Experiences Arg1:T51 Arg2:T22	
+R46	Experiences Arg1:T51 Arg2:T23	
+R47	Experiences Arg1:T51 Arg2:T24	
+R48	Before Arg1:T23 Arg2:T22	
+R49	Before Arg1:T24 Arg2:T22	
+R50	Negation Arg1:T52 Arg2:T26	
+T65	Neg_cue 1076 1078	ni
+T66	Result_or_Value 1083 1086	< 2
+A4	Assertion T66 Negated
+R51	Negation Arg1:T65 Arg2:T66	
+R52	Has_Result_or_Value Arg1:T27 Arg2:T66	
+R53	Overlap Arg1:T27 Arg2:T54	
+R54	After Arg1:T27 Arg2:T28	
+R55	Has_Duration_or_Interval Arg1:T28 Arg2:T54	
+T67	Result_or_Value 791 796	< 3.5
+R56	Has_Result_or_Value Arg1:T22 Arg2:T67	
+R57	Has_Route_or_Mode Arg1:T29 Arg2:T55	
+R58	Has_Drug_Form Arg1:T30 Arg2:T50	
+R59	Used_for Arg1:T30 Arg2:T2	
+R60	Has_Route_or_Mode Arg1:T30 Arg2:T57	
+R61	Used_for Arg1:T31 Arg2:T36	
+T68	Quantifier_or_Qualifier 1410 1418	excesiva
+R63	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T68	
+R64	Negation Arg1:T53 Arg2:T40	
+R65	Negation Arg1:T53 Arg2:T59	
+R66	Has_Route_or_Mode Arg1:T32 Arg2:T59	
+R67	Has_Drug_Form Arg1:T32 Arg2:T40	
+R69	Used_for Arg1:T31 Arg2:T25	
+R70	Before Arg1:T25 Arg2:T36	
+R6	Before Arg1:T4 Arg2:T33	
+#53	AnnotatorNotes T58	C0442802; Excessive (qualifier value); Qualitative Concept
+#54	AnnotatorNotes T68	C0442802; Excessive (qualifier value); Qualitative Concept
+T69	Neg_cue 423 425	no
+T70	Quantifier_or_Qualifier 431 441	disponible
+A2	Assertion T70 Negated
+#55	AnnotatorNotes T70	C0470187; Availability of; Functional Concept
+R71	Negation Arg1:T69 Arg2:T70	
+#56	AnnotatorNotes T63	C0205265; Initially; Temporal Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T70	
+#57	AnnotatorNotes T39	C0521116; Current (present time); Temporal Concept
+A7	Experiencer T43 Patient
+A8	Experiencer T51 Patient

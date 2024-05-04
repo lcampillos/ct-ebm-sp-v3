@@ -1,0 +1,291 @@
+T1	PROC 46 69	TRATAMIENTO AMBULATORIO
+#1	AnnotatorNotes T1	C0002423; ambulatory care services; Health Care Activity
+T2	CHEM 86 97	CORTICOIDES
+#2	AnnotatorNotes T2	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T3	DISO 109 117	NEUMONÍA
+#3	AnnotatorNotes T3	C0032285; Pneumonia; Disease or Syndrome
+T4	PROC 140 147	INGRESO
+#4	AnnotatorNotes T4	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T5	DISO 193 203	ENFERMEDAD
+#5	AnnotatorNotes T5	C0012634; Disease; Disease or Syndrome
+T6	PROC 303 314	Diagnóstico
+#6	AnnotatorNotes T6	C0011900; Diagnosis; Diagnostic Procedure
+T7	DISO 318 342	infección por SARS-CoV-2
+#7	AnnotatorNotes T7	C5203670; COVID19 (disease); Disease or Syndrome
+T8	DISO 73 81	COVID-19
+#8	AnnotatorNotes T8	C5203670; COVID19 (disease); Disease or Syndrome
+T9	DISO 228 236	COVID-19
+#9	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	PROC 361 371	test de Ac
+T11	CHEM 369 371	Ac
+#10	AnnotatorNotes T11	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T12	PROC 383 385	Ag
+#11	AnnotatorNotes T12	C0002915; General Anesthesia; Therapeutic or Preventive Procedure
+T13	PROC 389 408	Diagnóstico clínico
+#12	AnnotatorNotes T13	C0332140; Diagnosis, clinical; Diagnostic Procedure
+T14	DISO 412 431	afectación pulmonar
+T15	ANAT 423 431	pulmonar
+#13	AnnotatorNotes T15	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T16	DISO 434 456	síntomas respiratorios
+#14	AnnotatorNotes T16	C0037090; Signs and Symptoms, Respiratory; Sign or Symptom
+T17	PROC 461 473	auscultación
+#15	AnnotatorNotes T17	C0004339; Auscultation; Diagnostic Procedure
+T18	CHEM 502 504	O2
+#16	AnnotatorNotes T18	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T19	ANAT 512 517	tórax
+#17	AnnotatorNotes T19	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T20	DISO 522 534	alteraciones
+#18	AnnotatorNotes T20	C0221423; Illness (finding); Sign or Symptom
+T21	DISO 700 706	Disnea
+#19	AnnotatorNotes T21	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T22	DISO 725 747	deterioro respiratorio
+T23	PROC 794 801	ingreso
+#20	AnnotatorNotes T23	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T24	ANAT 808 813	tórax
+#21	AnnotatorNotes T24	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T25	DISO 818 829	infiltrados
+#22	AnnotatorNotes T25	C0332448; Infiltration; Pathologic Function
+T26	DISO 858 887	Diabetes insulino-dependiente
+T27	PROC 689 692	PO2
+#23	AnnotatorNotes T27	C1283004; PO2 measurement; Laboratory Procedure
+T28	DISO 1165 1178	QT prolongado
+#24	AnnotatorNotes T28	C0151878; Prolonged QT interval; Finding
+T29	PROC 917 926	analítica
+#25	AnnotatorNotes T29	C0002778; Analysis of substances; Laboratory Procedure | C0814047; biological analysis and measurement; Laboratory Procedure
+T30	PROC 1039 1043	CrCl
+T31	DISO 982 996	comorbilidades
+#26	AnnotatorNotes T31	C1275743; Co-morbid conditions; Finding
+T32	DISO 1013 1032	insuficiencia renal
+#27	AnnotatorNotes T32	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T33	DISO 1057 1065	cirrosis
+#28	AnnotatorNotes T33	C1623038; Cirrhosis; Disease or Syndrome
+T34	DISO 1068 1087	hepatopatía crónica
+#29	AnnotatorNotes T34	C0341439; Chronic liver disease; Disease or Syndrome
+T35	DISO 1089 1101	hipertensión
+#30	AnnotatorNotes T35	C0020538; Hypertensive disease; Disease or Syndrome
+T36	DISO 1707 1722	prolongación QT
+T37	DISO 1120 1151	Alteraciones del ritmo cardiaco
+T38	DISO 1183 1198	Inmunosupresión
+#31	AnnotatorNotes T38	C4048329; Immunosuppression; Disease or Syndrome
+T39	DISO 1207 1224	infección por VIH
+#32	AnnotatorNotes T39	C0019693; HIV Infections; Disease or Syndrome
+T40	CHEM 1247 1271	agentes inmunosupresores
+#33	AnnotatorNotes T40	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T41	DISO 1274 1280	cáncer
+#34	AnnotatorNotes T41	C0006826; Malignant Neoplasms; Neoplastic Process
+T42	CHEM 1325 1341	glucocorticoides
+#35	AnnotatorNotes T42	C0017710; Glucocorticoids; Hormone · Organic Chemical
+T43	DISO 1353 1365	enfermedades
+#36	AnnotatorNotes T43	C0012634; Disease; Disease or Syndrome
+T44	DISO 1469 1481	intolerancia
+#37	AnnotatorNotes T44	C0277585; Intolerance to drug; Pathologic Function
+T45	DISO 1459 1466	Alergia
+#38	AnnotatorNotes T45	 C1527304; Allergic Reaction; Pathologic Function
+T46	CHEM 1502 1510	fármacos
+#39	AnnotatorNotes T46	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T47	CHEM 1524 1534	prednisona
+#40	AnnotatorNotes T47	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T48	CHEM 1536 1548	azitromicina
+#41	AnnotatorNotes T48	C0052796; azithromycin; Antibiotic · Organic Chemical
+T49	CHEM 1551 1568	hidroxicloroquina
+#42	AnnotatorNotes T49	C0020336; hydroxychloroquine; Organic Chemical · Pharmacologic Substance
+T50	CHEM 1596 1614	fármacos en ensayo
+#43	AnnotatorNotes T50	C0013230; Investigational New Drugs; Pharmacologic Substance
+T51	CHEM 1669 1677	Fármacos
+#44	AnnotatorNotes T51	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T52	DISO 1725 1738	interacciones
+#45	AnnotatorNotes T52	C0687133; Drug Interactions; Pathologic Function
+T53	PROC 353 356	PCR
+#46	AnnotatorNotes T53	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T54	PROC 373 376	IgM
+#47	AnnotatorNotes T54	C0236202; Serum IgM Test; Laboratory Procedure
+T55	DISO 474 484	patológica
+#48	AnnotatorNotes T55	C0677042; Pathology processes; Pathologic Function
+T56	PROC 509 517	Rx tórax
+T57	PROC 563 587	Consentimiento informado
+#49	AnnotatorNotes T57	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T58	PROC 805 813	Rx tórax
+T59	PROC 905 913	glucemia
+#50	AnnotatorNotes T59	C0392201; Blood glucose measurement; Laboratory Procedure
+T60	ANAT 1027 1032	renal
+#51	AnnotatorNotes T60	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T61	ANAT 1143 1151	cardiaco
+#52	AnnotatorNotes T61	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T62	Date 13 17	2020
+T63	Neg_cue 123 126	SIN
+T64	Age 270 285	de 18 a 75 años
+T65	LIVB 600 608	testigos
+#53	AnnotatorNotes T65	C0682356; Witnesses; Population Group
+T70	Duration 1080 1087	crónica
+#54	AnnotatorNotes T70	C0205191; chronic; Temporal Concept
+T71	PHYS 1137 1151	ritmo cardiaco
+#55	AnnotatorNotes T71	C0232187; Cardiac rhythm type; Organ or Tissue Function
+T72	Date 1230 1243	a largo plazo
+T73	LIVB 1284 1303	Mujeres embarazadas
+#56	AnnotatorNotes T73	C0033011; Pregnant Women; Population Group
+T74	LIVB 1306 1315	lactantes
+#57	AnnotatorNotes T74	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T78	Duration 1618 1628	los 7 días
+T80	Spec_cue 1697 1706	riesgo de
+T83	ANAT 443 456	respiratorios
+#58	AnnotatorNotes T83	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T84	ANAT 735 747	respiratorio
+#59	AnnotatorNotes T84	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T86	LIVB 1221 1224	VIH
+#60	AnnotatorNotes T86	C0019682; HIV; Virus
+T66	PHYS 1292 1303	embarazadas
+#61	AnnotatorNotes T66	C0032961; Pregnancy; Organism Function
+T67	LIVB 289 300	Ambos sexos
+#62	AnnotatorNotes T67	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T68	LIVB 332 342	SARS-CoV-2
+#63	AnnotatorNotes T68	C5203676; SARS-CoV-2; Virus
+A1	Assertion T4 Negated
+A2	Assertion T36 Speculated
+A3	Assertion T52 Speculated
+A4	Status T45 History_of
+A5	Status T44 History_of
+#64	AnnotatorNotes T14	C0748159; pulmonary involvement; Disease or Syndrome 
+#65	AnnotatorNotes T56	C0841659; Other radiography of chest; Diagnostic Procedure 
+#66	AnnotatorNotes T58	C0841659; Other radiography of chest; Diagnostic Procedure 
+#67	AnnotatorNotes T26	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+#68	AnnotatorNotes T36	C0151878; Prolonged QT interval; Finding
+#69	AnnotatorNotes T30	C0373595; Creatinine clearance measurement; Laboratory Procedure
+#70	AnnotatorNotes T72	C0443252; Long-term; Temporal Concept
+T69	Neg_cue 1368 1370	No
+T75	Neg_cue 1380 1382	no
+T76	Observation 1371 1377	querer
+A6	Assertion T76 Negated
+#71	AnnotatorNotes T76	C0600109; Willing; Finding
+T77	Observation 1383 1399	poder participar
+A7	Assertion T77 Negated
+#72	AnnotatorNotes T77	C1278516; Patient participation status; Finding
+T79	Neg_cue 1678 1680	no
+T81	Quantifier_or_Qualifier 1681 1692	suprimibles
+A8	Assertion T81 Negated
+T82	Quantifier_or_Qualifier 118 122	LEVE
+#73	AnnotatorNotes T82	C2945599; Mild (qualifier value); Qualitative Concept
+R1	Causes Arg1:T8 Arg2:T3	
+R2	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T82	
+R3	Negation Arg1:T63 Arg2:T4	
+R6	Used_for Arg1:T2 Arg2:T1	
+R4	Causes Arg1:T68 Arg2:T7	
+#74	AnnotatorNotes T10	C0580327; Antibody studies (procedure); Laboratory Procedure
+R10	Before Arg1:T53 Arg2:T6	
+R11	Before Arg1:T10 Arg2:T6	
+R12	Before Arg1:T54 Arg2:T6	
+R13	Before Arg1:T12 Arg2:T6	
+R14	Location_of Arg1:T15 Arg2:T14	
+R15	Location_of Arg1:T83 Arg2:T16	
+R16	Overlap Arg1:T14 Arg2:T16	
+R18	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T55	
+T85	Observation 489 504	desaturación O2
+#75	AnnotatorNotes T85	C4280731; Oxygen desaturation on exertion; Finding
+T87	Observation 669 681	Desaturación
+#76	AnnotatorNotes T87	C4280731; Oxygen desaturation on exertion; Finding
+T88	Result_or_Value 682 686	<93%
+R19	Has_Result_or_Value Arg1:T87 Arg2:T88	
+T89	Result_or_Value 693 697	< 62
+R20	Has_Result_or_Value Arg1:T27 Arg2:T89	
+T90	CONC 623 639	historia clínica
+#77	AnnotatorNotes T90	C5204342; Clinical History; Intellectual Product
+R22	Overlap Arg1:T14 Arg2:T85	
+R23	Location_of Arg1:T19 Arg2:T56	
+R27	Location_of Arg1:T19 Arg2:T20	
+R28	Location_of Arg1:T84 Arg2:T22	
+T91	Quantifier_or_Qualifier 707 722	moderada-severa
+#78	AnnotatorNotes T91	C1299393; Moderate to severe; Qualitative Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T91	
+R32	Location_of Arg1:T24 Arg2:T58	
+T92	Observation 725 734;750 757	deterioro general
+#79	AnnotatorNotes T92	C0563273; General health deterioration; Finding
+T93	Quantifier_or_Qualifier 758 768	importante
+#80	AnnotatorNotes T93	C3898777; Important; Qualitative Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T92 Arg2:T93	
+R35	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T93	
+T94	Quantifier_or_Qualifier 842 854	multifocales
+#81	AnnotatorNotes T94	C0205292; Multifocal; Spatial Concept
+T95	Quantifier_or_Qualifier 830 841	algodonosos
+R37	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T95	
+R38	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T94	
+R39	Overlap Arg1:T59 Arg2:T29	
+T96	Quantifier_or_Qualifier 927 939	de Urgencias
+#82	AnnotatorNotes T96	C0439609; Urgent; Qualitative Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T96	
+T97	Result_or_Value 940 958	mayor de 300 mg/ml
+R41	Has_Result_or_Value Arg1:T59 Arg2:T97	
+T98	Observation 960 966	ayunas
+#83	AnnotatorNotes T98	C0015663; Fasting; Finding
+R42	Overlap Arg1:T59 Arg2:T98	
+T99	Quantifier_or_Qualifier 891 902	mal control
+#84	AnnotatorNotes T99	C3853134; Poorly controlled; Functional Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T99	
+R44	Location_of Arg1:T60 Arg2:T32	
+R45	Has_Duration_or_Interval Arg1:T34 Arg2:T70	
+T100	Quantifier_or_Qualifier 1102 1116	mal controlada
+#85	AnnotatorNotes T100	C3853134; Poorly controlled; Functional Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T100	
+T101	Result_or_Value 1044 1055	< 30 ml/min
+R47	Has_Result_or_Value Arg1:T30 Arg2:T101	
+T102	Quantifier_or_Qualifier 1199 1205	severa
+#86	AnnotatorNotes T102	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R48	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T102	
+T103	Quantifier_or_Qualifier 1033 1038	grave
+#87	AnnotatorNotes T103	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R49	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T103	
+R50	Location_of Arg1:T61 Arg2:T71	
+R51	Location_of Arg1:T61 Arg2:T37	
+#88	AnnotatorNotes T37	C0003811; Cardiac Arrhythmia; Disease or Syndrome | C4062453; Alteration in heart rhythm; Finding
+R54	Location_of Arg1:T61 Arg2:T28	
+R55	Experiences Arg1:T73 Arg2:T66	
+R56	Causes Arg1:T86 Arg2:T39	
+R57	Overlap Arg1:T40 Arg2:T72	
+R58	Causes Arg1:T40 Arg2:T38	
+R59	Causes Arg1:T39 Arg2:T38	
+R60	Causes Arg1:T41 Arg2:T38	
+T104	Quantifier_or_Qualifier 1347 1352	otras
+#89	AnnotatorNotes T104	C0205394; Other; Qualitative Concept
+R61	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T104	
+R62	Negation Arg1:T69 Arg2:T76	
+R63	Negation Arg1:T75 Arg2:T77	
+T105	Observation 1406 1426	completar el estudio
+#90	AnnotatorNotes T105	C2732579; Completion of clinical trial; Finding
+R64	Before Arg1:T77 Arg2:T105	
+R65	Causes Arg1:T46 Arg2:T44	
+R66	Causes Arg1:T47 Arg2:T44	
+R67	Causes Arg1:T48 Arg2:T44	
+R68	Causes Arg1:T49 Arg2:T44	
+R69	Causes Arg1:T46 Arg2:T45	
+R70	Causes Arg1:T47 Arg2:T45	
+R71	Causes Arg1:T48 Arg2:T45	
+R72	Causes Arg1:T49 Arg2:T45	
+R73	Overlap Arg1:T50 Arg2:T78	
+T106	CONC 1642 1651	inclusión
+#91	AnnotatorNotes T106	C1512693; Inclusion; Qualitative Concept
+R74	Before Arg1:T50 Arg2:T106	
+R75	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T81	
+R76	Negation Arg1:T79 Arg2:T81	
+R77	Speculation Arg1:T80 Arg2:T36	
+R78	Speculation Arg1:T80 Arg2:T52	
+R79	Before Arg1:T51 Arg2:T36	
+R80	Before Arg1:T51 Arg2:T52	
+T107	Quantifier_or_Qualifier 1739 1753	significativas
+#92	AnnotatorNotes T107	C0750502; Significant; Idea or Concept
+R81	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T107	
+A9	Assertion T107 Speculated
+R82	Speculation Arg1:T80 Arg2:T107	
+T108	Quantifier_or_Qualifier 997 1011	significativas
+#93	AnnotatorNotes T108	C0750502; Significant; Idea or Concept
+R83	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T108	
+R5	Before Arg1:T17 Arg2:T13	
+R7	Before Arg1:T56 Arg2:T13	
+A10	Experiencer T67 Patient
+A11	Experiencer T65 Other
+A12	Experiencer T74 Patient
+A13	Experiencer T73 Patient
+T109	Observation 1429 1455	Participar en otro estudio
+T110	Quantifier_or_Qualifier 535 550	leves-moderadas
+#94	AnnotatorNotes T110	C1299392; Mild to moderate; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T110	
+T111	Result_or_Value 553 559	normal
+#95	AnnotatorNotes T111	C0459422; Normal result; Finding
+R17	Has_Result_or_Value Arg1:T56 Arg2:T111	

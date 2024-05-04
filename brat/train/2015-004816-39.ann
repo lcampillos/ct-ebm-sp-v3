@@ -1,0 +1,172 @@
+T1	CHEM 56 66	BMS-986178
+#1	AnnotatorNotes T1	C4287779; anti-OX40 antibody BMS 986178; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T2	PROC 70 81	monoterapia
+#2	AnnotatorNotes T2	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T3	CHEM 103 112	nivolumab
+#3	AnnotatorNotes T3	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	CHEM 117 127	ipilimumab
+#4	AnnotatorNotes T4	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	DISO 131 146	tumores sólidos
+#5	AnnotatorNotes T5	C0280100; Solid Neoplasm; Neoplastic Process
+T6	PROC 177 194	Estudio fase 1/2a
+T7	PROC 225 236	monoterapia
+#6	AnnotatorNotes T7	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T8	CHEM 258 267	nivolumab
+#7	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	CHEM 270 280	ipilimumab
+#8	AnnotatorNotes T9	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	DISO 284 299	tumores sólidos
+#9	AnnotatorNotes T10	C0280100; Solid Neoplasm; Neoplastic Process
+T11	DISO 331 346	Tumores sólidos
+#10	AnnotatorNotes T11	C0280100; Solid Neoplasm; Neoplastic Process
+T12	PROC 439 447	terapias
+#11	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	PROC 534 546	tratamientos
+#12	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	DISO 679 693	lesión medible
+T15	CHEM 198 208	BMS-986178
+#13	AnnotatorNotes T15	C4287779; anti-OX40 antibody BMS 986178; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T16	PROC 720 723	TAC
+#14	AnnotatorNotes T16	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T17	PROC 725 755	tomografía axial computarizada
+#15	AnnotatorNotes T17	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T18	PROC 759 762	MRI
+#16	AnnotatorNotes T18	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T19	PROC 764 797	imágenes por resonancia magnética
+#17	AnnotatorNotes T19	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T20	DISO 925 935	Metástasis
+#18	AnnotatorNotes T20	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T21	ANAT 951 975	sistema nervioso central
+#19	AnnotatorNotes T21	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T22	ANAT 978 1002	sistema nervioso central
+#20	AnnotatorNotes T22	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T23	DISO 1030 1040	enfermedad
+#21	AnnotatorNotes T23	C0012634; Disease; Disease or Syndrome
+T24	DISO 1043 1053	Neoplasias
+#22	AnnotatorNotes T24	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T25	DISO 1070 1091	Enfermedad autoinmune
+#23	AnnotatorNotes T25	C0004364; Autoimmune Diseases; Disease or Syndrome
+T26	DISO 1123 1148	Enfermedad cardiovascular
+#24	AnnotatorNotes T26	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T27	PROC 1181 1194	Cirugía mayor
+#25	AnnotatorNotes T27	C0679637; major surgery; Therapeutic or Preventive Procedure
+T28	DISO 424 436	intolerantes
+#26	AnnotatorNotes T28	C0277585; Intolerance to drug; Pathologic Function
+T29	PROC 849 859	evaluación
+#27	AnnotatorNotes T29	C1261322; Evaluation procedure; Health Care Activity
+T30	DISO 876 891	tumores sólidos
+#28	AnnotatorNotes T30	C0280100; Solid Neoplasm; Neoplastic Process
+T31	ANAT 1134 1148	cardiovascular
+#29	AnnotatorNotes T31	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T32	Date 13 17	2015
+T33	LIVB 384 393	pacientes
+#30	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 493 502	pacientes
+#31	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 629 636	Hombres
+#32	AnnotatorNotes T36	C0025266; Male population group; Population Group
+T37	LIVB 639 646	mujeres
+#33	AnnotatorNotes T37	C0043210; Woman; Population Group
+T38	Age 650 663	18 años o más
+T39	Spec_cue 1110 1120	sospechada
+T41	Duration 1216 1234	menos de 4 semanas
+A1	Assertion T25 Speculated
+A2	Status T20 History_of
+A3	Status T27 History_of
+A4	Status T25 History_of
+#34	AnnotatorNotes T14	C5238366; Measurable Lesion; Finding 
+T35	Neg_cue 507 509	no
+T40	Observation 515 568	candidatos a otros tratamientos con beneficio clínico
+A5	Assertion T40 Negated
+T42	Quantifier_or_Qualifier 1168 1178	controlada
+A6	Assertion T42 Negated
+T43	Neg_cue 1165 1167	no
+R1	Negation Arg1:T35 Arg2:T40	
+R2	Negation Arg1:T43 Arg2:T42	
+R3	Location_of Arg1:T31 Arg2:T26	
+R4	Speculation Arg1:T39 Arg2:T25	
+R5	Location_of Arg1:T21 Arg2:T20	
+R6	Location_of Arg1:T22 Arg2:T20	
+T44	Observation 1017 1040	fuente de la enfermedad
+#35	AnnotatorNotes T44	C0449422; Source of disease; Finding
+R7	Location_of Arg1:T22 Arg2:T44	
+R8	Location_of Arg1:T21 Arg2:T44	
+T45	Quantifier_or_Qualifier 1011 1016	única
+R9	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T45	
+R10	Location_of Arg1:T22 Arg2:T23	
+R11	Location_of Arg1:T21 Arg2:T23	
+T46	Quantifier_or_Qualifier 1092 1098	activa
+#36	AnnotatorNotes T46	C0679217; Active State; Idea or Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T46	
+T47	Quantifier_or_Qualifier 1149 1162	significativa
+#37	AnnotatorNotes T47	C1546944; Event Seriousness - Significant; Qualitative Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T47	
+T48	Quantifier_or_Qualifier 1054 1067	concomitantes
+#38	AnnotatorNotes T48	C0521115; Simultaneous; Temporal Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T48	
+R15	Used_for Arg1:T1 Arg2:T2	
+R16	Combined_with Arg1:T1 Arg2:T3	
+R18	Combined_with Arg1:T1 Arg2:T4	
+R19	Used_for Arg1:T15 Arg2:T7	
+R17	Combined_with Arg1:T15 Arg2:T8	
+R20	Combined_with Arg1:T15 Arg2:T9	
+T49	Quantifier_or_Qualifier 147 156	avanzados
+#39	AnnotatorNotes T49	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+T50	Quantifier_or_Qualifier 300 309	avanzados
+#40	AnnotatorNotes T50	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+T51	Quantifier_or_Qualifier 347 356	avanzados
+#41	AnnotatorNotes T51	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T51	
+R22	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T50	
+R23	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T49	
+R24	Experiences Arg1:T33 Arg2:T28	
+R25	Causes Arg1:T12 Arg2:T28	
+T52	Observation 409 421	refractarios
+#42	AnnotatorNotes T52	C0438286; Absent response to treatment; Finding
+R26	Experiences Arg1:T33 Arg2:T52	
+T53	Observation 464 481	beneficio clínico
+R27	Causes Arg1:T12 Arg2:T53	
+R28	Experiences Arg1:T34 Arg2:T52	
+R29	Overlap Arg1:T52 Arg2:T12	
+R30	Experiences Arg1:T34 Arg2:T28	
+R31	Experiences Arg1:T34 Arg2:T12	
+R32	Experiences Arg1:T34 Arg2:T13	
+R33	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T40	
+T54	Result_or_Value 623 626	0-1
+T55	CONC 581 585	ECOG
+#44	AnnotatorNotes T55	C1520224; ECOG performance status; Intellectual Product
+T56	CONC 587 621	Eastern Cooperative Oncology Group
+#45	AnnotatorNotes T56	C1520224; ECOG performance status; Intellectual Product
+R34	Has_Result_or_Value Arg1:T56 Arg2:T54	
+R35	Has_Result_or_Value Arg1:T55 Arg2:T54	
+R36	Has_Age Arg1:T37 Arg2:T38	
+R37	Has_Age Arg1:T36 Arg2:T38	
+T57	Quantifier_or_Qualifier 666 678	Al menos una
+R38	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T57	
+T58	CONC 697 715	inicio del estudio
+#46	AnnotatorNotes T58	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R39	Overlap Arg1:T14 Arg2:T58	
+R43	Overlap Arg1:T16 Arg2:T58	
+R44	Overlap Arg1:T17 Arg2:T58	
+R45	Overlap Arg1:T18 Arg2:T58	
+R46	Overlap Arg1:T19 Arg2:T58	
+T59	CONC 818 834;893 897	criterios RECIST v1.1
+#47	AnnotatorNotes T59	C1709926; Response Evaluation Criteria in Solid Tumors; Intellectual Product
+T60	CONC 836 891	Criterios de evaluación de respuesta en tumores sólidos
+#48	AnnotatorNotes T60	C1709926; Response Evaluation Criteria in Solid Tumors; Intellectual Product
+R48	Overlap Arg1:T27 Arg2:T41	
+T61	CONC 1244 1262	iniciar el estudio
+#49	AnnotatorNotes T61	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R49	Before Arg1:T27 Arg2:T61	
+R50	Causes Arg1:T23 Arg2:T20	
+R51	Experiences Arg1:T33 Arg2:T12	
+R52	Experiences Arg1:T33 Arg2:T53	
+R53	Experiences Arg1:T34 Arg2:T53	
+#43	AnnotatorNotes T53	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R54	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T40	
+R40	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T42	
+#50	AnnotatorNotes T45	C0205171; Singular; Quantitative Concept
+A7	Experiencer T33 Patient
+A8	Experiencer T34 Patient
+A9	Experiencer T37 Patient
+A10	Experiencer T36 Patient

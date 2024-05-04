@@ -1,0 +1,330 @@
+T1	PROC 44 59	Estudio clínico
+#1	AnnotatorNotes T1	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T2	PROC 65 84	evaluar la eficacia
+#2	AnnotatorNotes T2	C1707887; Efficacy Study; Research Activity
+T3	CHEM 88 99	fosfomicina
+#3	AnnotatorNotes T3	C0016610; fosfomycin; Antibiotic · Organic Chemical
+T4	CHEM 103 112	meropenem
+#4	AnnotatorNotes T4	C0066005; meropenem; Antibiotic · Organic Chemical
+T5	CHEM 115 126	ceftriaxona
+#5	AnnotatorNotes T5	C0007561; ceftriaxone; Antibiotic · Organic Chemical
+T6	PROC 133 144	tratamiento
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 151 183	bacteriemia por Escherichia coli
+T8	PROC 306 325	evaluar la eficacia
+#7	AnnotatorNotes T8	C1707887; Efficacy Study; Research Activity
+T9	CHEM 329 340	fosfomicina
+#8	AnnotatorNotes T9	C0016610; fosfomycin; Antibiotic · Organic Chemical
+T10	CHEM 344 353	meropenem
+#9	AnnotatorNotes T10	C0066005; meropenem; Antibiotic · Organic Chemical
+T11	CHEM 356 367	ceftriaxona
+#10	AnnotatorNotes T11	C0007561; ceftriaxone; Antibiotic · Organic Chemical
+T12	PROC 374 394	tratamiento dirigido
+#11	AnnotatorNotes T12	C2985566; Targeted Therapy; Therapeutic or Preventive Procedure
+T13	DISO 401 453	infección urinaria bacteriémica por Escherichia coli
+T14	ANAT 507 513	sangre
+#12	AnnotatorNotes T14	C0005767; Blood; Body Substance
+T15	ANAT 537 552	tracto urinario
+#13	AnnotatorNotes T15	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T16	DISO 599 651	Infección urinaria bacteriémica por Escherichia coli
+T17	PROC 731 745	hospitalizados
+#14	AnnotatorNotes T17	C0019993; Hospitalization; Health Care Activity
+T18	DISO 750 792	bacteriemia de origen urinario por E. coli
+T19	ANAT 772 780	urinario
+#15	AnnotatorNotes T19	C1508753; Urinary system; Body System
+T20	CHEM 820 831	fosfomicina
+#16	AnnotatorNotes T20	C0016610; fosfomycin; Antibiotic · Organic Chemical
+T21	CHEM 834 843	meropenem
+#17	AnnotatorNotes T21	C0066005; meropenem; Antibiotic · Organic Chemical
+T22	PROC 875 886	hemocultivo
+#18	AnnotatorNotes T22	C0200949; Blood culture; Laboratory Procedure
+T23	DISO 932 938	sepsis
+#19	AnnotatorNotes T23	C0243026; Sepsis; Disease or Syndrome
+T24	DISO 981 992	bacteriemia
+#20	AnnotatorNotes T24	C0004610; Bacteremia; Disease or Syndrome
+T25	ANAT 1004 1012	urinario
+#21	AnnotatorNotes T25	C1508753; Urinary system; Body System
+T26	PROC 1039 1070	tratamiento por vía intravenosa
+T27	PROC 1153 1170	test de gestación
+T28	DISO 1281 1307	Bacteriemia polimicrobiana
+#22	AnnotatorNotes T28	C0238748; BACTEREMIA, POLYMICROBIAL; Disease or Syndrome
+T29	DISO 1311 1324	Absceso renal
+#23	AnnotatorNotes T29	C0151465; Renal abscess; Acquired Abnormality
+T30	PROC 1328 1335	drenado
+#24	AnnotatorNotes T30	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T31	DISO 1338 1368	obstrucción de la vía urinaria
+#25	AnnotatorNotes T31	C0178879; Urinary tract obstruction; Disease or Syndrome
+T32	PROC 1215 1251	consentimiento informado por escrito
+#26	AnnotatorNotes T32	C0811741; Obtain informed written consent; Health Care Activity
+T33	DISO 1384 1402	Infección urinaria
+#27	AnnotatorNotes T33	C0042029; Urinary tract infection; Disease or Syndrome
+T34	DISO 1441 1450	infección
+T35	DISO 1468 1487	Poliquistosis renal
+#28	AnnotatorNotes T35	C0022680; Polycystic Kidney Diseases; Disease or Syndrome
+T36	PROC 1492 1508	Trasplante renal
+#29	AnnotatorNotes T36	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T37	DISO 1513 1520	Alergia
+#30	AnnotatorNotes T37	C1527304; Allergic Reaction; Pathologic Function
+T38	DISO 1523 1540	hipersensibilidad
+#31	AnnotatorNotes T38	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T39	CHEM 1557 1566	meropenem
+#32	AnnotatorNotes T39	C0066005; meropenem; Antibiotic · Organic Chemical
+T40	CHEM 1569 1580	ceftriaxona
+#33	AnnotatorNotes T40	C0007561; ceftriaxone; Antibiotic · Organic Chemical
+T41	PROC 1659 1670	tratamiento
+#34	AnnotatorNotes T41	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T42	DISO 1697 1707	enfermedad
+#35	AnnotatorNotes T42	C0012634; Disease; Disease or Syndrome
+T43	DISO 1720 1742	Insuficiencia cardiaca
+#36	AnnotatorNotes T43	C0018801; Heart failure; Disease or Syndrome
+T44	DISO 1752 1769	cirrosis hepática
+#37	AnnotatorNotes T44	C0023890; Liver Cirrhosis; Disease or Syndrome
+T45	DISO 1772 1791	insuficiencia renal
+#38	AnnotatorNotes T45	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T46	PROC 1805 1828	tratamiento sustitutivo
+#39	AnnotatorNotes T46	C0279033; Replacement therapy; Therapeutic or Preventive Procedure
+T47	DISO 1882 1895	Shock séptico
+#40	AnnotatorNotes T47	C0036983; Septic Shock; Pathologic Function
+T48	PROC 1916 1930	aleatorización
+#41	AnnotatorNotes T48	C0034656; Randomization; Research Activity
+T49	PROC 1934 1945	Tratamiento
+#42	AnnotatorNotes T49	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T50	PROC 2064 2075	hemocultivo
+#43	AnnotatorNotes T50	C0200949; Blood culture; Laboratory Procedure
+T51	PROC 2120 2134	ensayo clínico
+#44	AnnotatorNotes T51	C0008976; Clinical Trials; Research Activity
+T52	PROC 2139 2150	tratamiento
+#45	AnnotatorNotes T52	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T53	PROC 223 299	Ensayo clínico aleatorizado, multicéntrico, abierto, controlado, en fase III
+T54	ANAT 411 419	urinaria
+#46	AnnotatorNotes T54	C1508753; Urinary system; Body System
+T55	DISO 523 573	infección del tracto urinario por Escherichia coli
+T56	ANAT 609 617	urinaria
+#47	AnnotatorNotes T56	C1508753; Urinary system; Body System
+T57	CHEM 846 857	ceftriaxone
+#48	AnnotatorNotes T57	C0007561; ceftriaxone; Antibiotic · Organic Chemical
+T58	ANAT 1319 1324	renal
+#49	AnnotatorNotes T58	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T59	ANAT 1356 1368	vía urinaria
+#50	AnnotatorNotes T59	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T60	ANAT 1394 1402	urinaria
+#51	AnnotatorNotes T60	C1508753; Urinary system; Body System
+T61	ANAT 1482 1487	renal
+#52	AnnotatorNotes T61	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T62	ANAT 1503 1508	renal
+#53	AnnotatorNotes T62	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T63	CHEM 1543 1554	fosfomicina
+#54	AnnotatorNotes T63	C0016610; fosfomycin; Antibiotic · Organic Chemical
+T64	ANAT 1734 1742	cardiaca
+#55	AnnotatorNotes T64	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T65	ANAT 1761 1769	hepática
+#56	AnnotatorNotes T65	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T66	ANAT 1786 1791	renal
+#57	AnnotatorNotes T66	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T67	Date 12 16	2013
+T68	LIVB 167 183	Escherichia coli
+#58	AnnotatorNotes T68	C0014834; Escherichia coli; Bacterium
+T69	LIVB 437 453	Escherichia coli
+#59	AnnotatorNotes T69	C0014834; Escherichia coli; Bacterium
+T70	LIVB 494 503	Bacterias
+#60	AnnotatorNotes T70	C0004611; Bacteria; Bacterium
+T71	LIVB 557 573	Escherichia coli
+#61	AnnotatorNotes T71	C0014834; Escherichia coli; Bacterium
+T72	LIVB 635 651	Escherichia coli
+#62	AnnotatorNotes T72	C0014834; Escherichia coli; Bacterium
+T73	LIVB 697 714	Pacientes adultos
+#63	AnnotatorNotes T73	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T75	Age 716 729	18 años o más
+T76	LIVB 895 909	microorganismo
+#64	AnnotatorNotes T76	C0445623; Microorganism; Organism
+T79	Route 1055 1070	vía intravenosa
+#65	AnnotatorNotes T79	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T80	Duration 1079 1094	al menos 5 días
+T81	LIVB 1102 1135	pacientes potencialmente fértiles
+#66	AnnotatorNotes T81	C0030705; Patients; Patient or Disabled Group + C4324275; Woman of childbearing potential; Population Group
+T84	PHYS 1161 1170	gestación
+#67	AnnotatorNotes T84	C0032961; Pregnancy; Organism Function
+T85	Neg_cue 1171 1179	negativo
+T86	LIVB 1183 1192	Pacientes
+#68	AnnotatorNotes T86	C0030705; Patients; Patient or Disabled Group
+T87	Neg_cue 1325 1327	no
+T89	Duration 1634 1652	inferior a 90 días
+T90	PROC 1743 1747	NYHA
+#69	AnnotatorNotes T90	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T91	LIVB 1832 1877	Mujeres embarazadas o en periodo de lactancia
+#70	AnnotatorNotes T91	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T92	Duration 1962 1971	>72 horas
+T93	Duration 1999 2008	>12 horas
+T94	LIVB 2036 2043	E. coli
+#71	AnnotatorNotes T94	C0014834; Escherichia coli; Bacterium
+T95	LIVB 2079 2088	Pacientes
+#72	AnnotatorNotes T95	C0030705; Patients; Patient or Disabled Group
+T74	LIVB 785 792	E. coli
+#73	AnnotatorNotes T74	C0014834; Escherichia coli; Bacterium
+T77	PHYS 1840 1851	embarazadas
+#74	AnnotatorNotes T77	C0032961; Pregnancy; Organism Function
+T78	PHYS 1868 1877	lactancia
+#75	AnnotatorNotes T78	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Population_data T73 Age
+A3	Assertion T84 Negated
+A4	Assertion T30 Negated
+A5	Status T36 History_of
+A6	Status T38 History_of
+A7	Status T37 History_of
+#76	AnnotatorNotes T53	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1096776; Multicenter Study; Research Activity + C1709323; Open Label Study; Research Activity + C0282461; Phase 3 Clinical Trials; Research Activity
+#77	AnnotatorNotes T7	C1096262; Escherichia bacteraemia; Disease or Syndrome 
+#78	AnnotatorNotes T13	C0577708; Urinary tract infection caused by Escherichia coli; Disease or Syndrome 
+#79	AnnotatorNotes T18	C0577708; Urinary tract infection caused by Escherichia coli; Disease or Syndrome 
+#80	AnnotatorNotes T55	C0577708; Urinary tract infection caused by Escherichia coli; Disease or Syndrome 
+#81	AnnotatorNotes T16	C0577708; Urinary tract infection caused by Escherichia coli; Disease or Syndrome 
+#82	AnnotatorNotes T26	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure | C1273557; Intravenous administration of treatment; Therapeutic or Preventive Procedure
+T82	Observation 1372 1380	resuelta
+A8	Assertion T82 Negated
+#83	AnnotatorNotes T82	C1709863; Recovered or Resolved; Finding
+T83	Neg_cue 1369 1371	no
+T88	CONC 948 954	origen
+A9	Assertion T88 Negated
+A10	Assertion T88 Speculated
+T96	Neg_cue 939 942	sin
+T97	Spec_cue 966 974	probable
+T98	Quantifier_or_Qualifier 955 963	evidente
+T99	Quantifier_or_Qualifier 1127 1135	fértiles
+A11	Assertion T99 Speculated
+T100	Spec_cue 1112 1126	potencialmente
+R1	Negation Arg1:T96 Arg2:T88	
+R2	Speculation Arg1:T97 Arg2:T88	
+R3	Has_Quantifier_or_Qualifier Arg1:T88 Arg2:T98	
+A12	Assertion T98 Speculated
+T101	Quantifier_or_Qualifier 943 947	otro
+A13	Assertion T101 Speculated
+A14	Assertion T101 Negated
+R4	Negation Arg1:T96 Arg2:T101	
+R5	Has_Quantifier_or_Qualifier Arg1:T88 Arg2:T101	
+R6	Speculation Arg1:T100 Arg2:T99	
+R7	Has_Quantifier_or_Qualifier Arg1:T81 Arg2:T99	
+R8	Negation Arg1:T85 Arg2:T84	
+R9	Negation Arg1:T87 Arg2:T30	
+R10	Negation Arg1:T83 Arg2:T82	
+R11	Used_for Arg1:T3 Arg2:T6	
+R12	Used_for Arg1:T4 Arg2:T6	
+R13	Used_for Arg1:T5 Arg2:T6	
+R14	Causes Arg1:T68 Arg2:T7	
+T102	Quantifier_or_Qualifier 184 200	multirresistente
+R15	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T102	
+T103	Quantifier_or_Qualifier 454 470	multirresistente
+R16	Causes Arg1:T69 Arg2:T13	
+R17	Location_of Arg1:T54 Arg2:T13	
+R18	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T103	
+R19	Location_of Arg1:T15 Arg2:T55	
+T104	DISO 494 513	Bacterias en sangre
+#84	AnnotatorNotes T104	C0004610; Bacteremia; Disease or Syndrome
+R20	Location_of Arg1:T14 Arg2:T104	
+R21	Causes Arg1:T55 Arg2:T104	
+R22	Causes Arg1:T71 Arg2:T55	
+R23	Location_of Arg1:T56 Arg2:T16	
+R24	Causes Arg1:T72 Arg2:T16	
+T105	Quantifier_or_Qualifier 652 668	multirresistente
+R25	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T105	
+R26	Has_Age Arg1:T73 Arg2:T75	
+R28	Location_of Arg1:T19 Arg2:T18	
+R29	Causes Arg1:T74 Arg2:T18	
+T106	Quantifier_or_Qualifier 793 808	multiresistente
+R30	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T106	
+R31	Experiences Arg1:T73 Arg2:T17	
+R32	Experiences Arg1:T73 Arg2:T18	
+T107	Observation 809 857	sensible a fosfomicina y meropenem o ceftriaxone
+R33	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T107	
+R34	Overlap Arg1:T107 Arg2:T20	
+R35	Overlap Arg1:T107 Arg2:T21	
+R36	Overlap Arg1:T107 Arg2:T57	
+T108	CONC 914 928	datos clínicos
+#85	AnnotatorNotes T108	C1516606; Clinical Data; Intellectual Product
+R38	Causes Arg1:T76 Arg2:T23	
+R39	Before Arg1:T88 Arg2:T23	
+#86	AnnotatorNotes T88	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+R40	Location_of Arg1:T25 Arg2:T24	
+R41	Causes Arg1:T24 Arg2:T23	
+R42	Causes Arg1:T76 Arg2:T24	
+R43	Has_Route_or_Mode Arg1:T26 Arg2:T79	
+R44	Has_Duration_or_Interval Arg1:T26 Arg2:T80	
+#87	AnnotatorNotes T27	C0032976; Pregnancy Tests; Diagnostic Procedure
+R45	Experiences Arg1:T81 Arg2:T27	
+R46	Experiences Arg1:T81 Arg2:T84	
+R47	Location_of Arg1:T58 Arg2:T29	
+R48	Location_of Arg1:T59 Arg2:T31	
+R49	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T82	
+R50	Location_of Arg1:T60 Arg2:T33	
+T109	Observation 1403 1413	hematógena
+T110	CONC 1420 1431	contigüidad
+#88	AnnotatorNotes T110	C0205283; Contiguous; Spatial Concept
+R51	Causes Arg1:T110 Arg2:T33	
+R52	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T109	
+#89	AnnotatorNotes T109	C0796572; Hematogenous spread; Finding 
+R53	Causes Arg1:T63 Arg2:T38	
+R54	Causes Arg1:T39 Arg2:T38	
+R55	Causes Arg1:T40 Arg2:T38	
+R56	Causes Arg1:T63 Arg2:T37	
+R57	Causes Arg1:T39 Arg2:T37	
+R58	Causes Arg1:T40 Arg2:T37	
+R59	Location_of Arg1:T61 Arg2:T35	
+R60	Location_of Arg1:T62 Arg2:T36	
+T111	Observation 1585 1603	Situación terminal
+#90	AnnotatorNotes T111	C2051439; patient condition is terminal; Finding
+T112	CONC 1607 1624	esperanza de vida
+#91	AnnotatorNotes T112	C0023671; Life Expectancy; Group Attribute
+R61	Has_Duration_or_Interval Arg1:T112 Arg2:T89	
+T113	Quantifier_or_Qualifier 1681 1690	paliativo
+#92	AnnotatorNotes T113	C1285530; Palliative; Qualitative Concept
+R62	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T113	
+R63	Location_of Arg1:T64 Arg2:T43	
+T114	Result_or_Value 1748 1750	IV
+R64	Has_Result_or_Value Arg1:T90 Arg2:T114	
+R66	Location_of Arg1:T65 Arg2:T44	
+R67	Location_of Arg1:T66 Arg2:T45	
+R68	Experiences Arg1:T91 Arg2:T77	
+R69	Experiences Arg1:T91 Arg2:T78	
+R70	Overlap Arg1:T47 Arg2:T48	
+R71	Has_Duration_or_Interval Arg1:T49 Arg2:T92	
+T115	Quantifier_or_Qualifier 1955 1961	activo
+#93	AnnotatorNotes T115	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R72	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T115	
+T116	Quantifier_or_Qualifier 1946 1954	empírico
+#94	AnnotatorNotes T116	C1880496; Empiric; Qualitative Concept 
+R73	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T116	
+T117	CONC 1989 1998	inclusión
+#95	AnnotatorNotes T117	C1512693; Inclusion; Qualitative Concept
+R74	After Arg1:T117 Arg2:T93	
+R75	Before Arg1:T50 Arg2:T117	
+T118	Quantifier_or_Qualifier 2044 2060	multirresistente
+R76	Has_Quantifier_or_Qualifier Arg1:T94 Arg2:T118	
+T119	Quantifier_or_Qualifier 1975 1982	Retraso
+#96	AnnotatorNotes T119	C0205421; Deferred; Temporal Concept (?)
+R77	Has_Quantifier_or_Qualifier Arg1:T117 Arg2:T119	
+T120	Observation 2099 2134	participando en otro ensayo clínico
+T121	Quantifier_or_Qualifier 2151 2157	activo
+#97	AnnotatorNotes T121	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R78	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T121	
+R79	Experiences Arg1:T95 Arg2:T52	
+R80	Used_for Arg1:T9 Arg2:T12	
+R81	Used_for Arg1:T10 Arg2:T12	
+R82	Used_for Arg1:T11 Arg2:T12	
+R83	Experiences Arg1:T73 Arg2:T107	
+R84	Experiences Arg1:T73 Arg2:T20	
+R85	Experiences Arg1:T73 Arg2:T21	
+R86	Experiences Arg1:T73 Arg2:T57	
+#98	AnnotatorNotes T101	C0205394; Other; Qualitative Concept
+R27	Negation Arg1:T96 Arg2:T98	
+A15	Assertion T98 Speculated
+R37	Speculation Arg1:T97 Arg2:T101	
+#99	AnnotatorNotes T34	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T122	Quantifier_or_Qualifier 1451 1463	concomitante
+#100	AnnotatorNotes T122	C0521115; Simultaneous; Temporal Concept
+R87	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T122	
+#101	AnnotatorNotes T98	C5706969; Obvious; Qualitative Concept
+A2	Experiencer T73 Patient
+A16	Experiencer T81 Patient
+A17	Experiencer T86 Patient
+A18	Experiencer T91 Patient
+A19	Experiencer T95 Patient
+T123	Result_or_Value 1171 1179	negativo
+R65	Has_Result_or_Value Arg1:T27 Arg2:T123	

@@ -1,0 +1,221 @@
+T1	PROC 44 88	Estudio para evaluar la eficacia y seguridad
+T2	PROC 113 120	placebo
+#1	AnnotatorNotes T2	C0032042; Placebos; Therapeutic or Preventive Procedure
+T3	PROC 127 137	prevención
+#2	AnnotatorNotes T3	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T4	DISO 141 181	tromboembolismo venoso (TEV) sintomático
+T5	PROC 238 248	Evaluación
+#3	AnnotatorNotes T5	C1261322; Evaluation procedure; Health Care Activity
+T6	PROC 309 316	placebo
+#4	AnnotatorNotes T6	C0032042; Placebos; Therapeutic or Preventive Procedure
+T7	DISO 347 369	tromboembolismo venoso
+#5	AnnotatorNotes T7	C1861172; Venous Thromboembolism; Disease or Syndrome
+T8	PROC 382 399	alta hospitalaria
+#6	AnnotatorNotes T8	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T9	PROC 433 443	Prevención
+#7	AnnotatorNotes T9	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T10	DISO 466 483	coágulo de sangre
+#8	AnnotatorNotes T10	C0087086; Thrombus; Pathologic Function | C0302148; Blood Clot; Pathologic Function
+T11	ANAT 497 511	vaso sanguíneo
+#9	AnnotatorNotes T11	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T12	ANAT 556 576	sistema circulatorio
+#10	AnnotatorNotes T12	C0007226; Cardiovascular system; Body System
+T13	PROC 603 616	dados de alta
+#11	AnnotatorNotes T13	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T14	PROC 655 665	Prevención
+#12	AnnotatorNotes T14	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T15	DISO 670 710	tromboembolismo venoso (TEV) sintomático
+T16	PROC 743 760	alta hospitalaria
+#13	AnnotatorNotes T16	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T17	PROC 855 869	hospitalizados
+#14	AnnotatorNotes T17	C0019993; Hospitalization; Health Care Activity
+T18	DISO 979 1012	Insuficiencia cardiaca congestiva
+#15	AnnotatorNotes T18	C0018802; Congestive heart failure; Disease or Syndrome
+T19	DISO 1014 1046	Insuficiencia respiratoria aguda
+#16	AnnotatorNotes T19	C0264490; Acute respiratory failure; Disease or Syndrome | C0865850; Acute respiratory insufficiency; Disease or Syndrome
+T20	DISO 1049 1067	exacerbación aguda
+T21	DISO 1075 1114	enfermedad pulmonar obstructiva crónica
+#17	AnnotatorNotes T21	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T22	DISO 1116 1120	EPOC
+#18	AnnotatorNotes T22	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T23	DISO 1123 1144	Ictus isquémico agudo
+#19	AnnotatorNotes T23	C5392833; Acute Ischemic Stroke; Disease or Syndrome
+T24	DISO 1146 1170	enfermedades infecciosas
+#20	AnnotatorNotes T24	C0009450; Communicable Diseases; Disease or Syndrome
+T25	DISO 1302 1312	Hemorragia
+#21	AnnotatorNotes T25	C0019080; Hemorrhage; Pathologic Function
+T26	PROC 1362 1376	aleatorización
+#22	AnnotatorNotes T26	C0034656; Randomization; Research Activity
+T27	PROC 1406 1421	hospitalización
+#23	AnnotatorNotes T27	C0019993; Hospitalization; Health Care Activity
+T28	DISO 1432 1443	Traumatismo
+#24	AnnotatorNotes T28	C3263723; Traumatic injury; Injury or Poisoning | C3714660; Trauma; Injury or Poisoning
+T29	PROC 1495 1509	aleatorización
+#25	AnnotatorNotes T29	C0034656; Randomization; Research Activity
+T30	DISO 1513 1541	Traumatismo craneoencefálico
+#26	AnnotatorNotes T30	C0018674; Craniocerebral Trauma; Injury or Poisoning | C0876926; Traumatic Brain Injury; Injury or Poisoning
+T31	PROC 1585 1599	aleatorización
+#27	AnnotatorNotes T31	C0034656; Randomization; Research Activity
+T32	CHEM 1663 1677	anticoagulante
+#28	AnnotatorNotes T32	C0003280; Anticoagulants; Pharmacologic Substance
+T33	DISO 1243 1246	TEV
+#29	AnnotatorNotes T33	C1861172; Venous Thromboembolism; Disease or Syndrome
+T34	CHEM 92 103	Rivaroxaban
+#30	AnnotatorNotes T34	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
+T35	ANAT 157 163	venoso
+#31	AnnotatorNotes T35	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T36	CHEM 288 299	rivaroxaban
+#32	AnnotatorNotes T36	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
+T37	ANAT 363 369	venoso
+#33	AnnotatorNotes T37	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T38	ANAT 477 483	sangre
+#34	AnnotatorNotes T38	C0005767; Blood; Body Substance
+T39	ANAT 536 542	sangre
+#35	AnnotatorNotes T39	C0005767; Blood; Body Substance
+T40	ANAT 686 692	venoso
+#36	AnnotatorNotes T40	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T41	DISO 731 734	TEV
+#37	AnnotatorNotes T41	C1861172; Venous Thromboembolism; Disease or Syndrome
+T42	ANAT 993 1001	cardiaca
+#38	AnnotatorNotes T42	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T43	ANAT 1086 1094	pulmonar
+#39	AnnotatorNotes T43	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T44	DISO 1201 1204	TEV
+#40	AnnotatorNotes T44	C1861172; Venous Thromboembolism; Disease or Syndrome
+T45	Date 12 16	2014
+T46	LIVB 185 194	pacientes
+#41	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 253 262	pacientes
+#42	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Spec_cue 337 346	riesgo de
+T49	LIVB 580 589	pacientes
+#43	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 764 773	pacientes
+#44	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Duration 878 910	un mínimo de 3 días consecutivos
+T52	Duration 919 939	un máximo de 14 días
+T53	Duration 1107 1114	crónica
+#45	AnnotatorNotes T53	C0205191; chronic; Temporal Concept
+T54	Spec_cue 1233 1242	riesgo de
+T55	Duration 1334 1345	los 3 meses
+T56	Duration 1465 1478	las 4 semanas
+T57	Duration 1563 1570	3 meses
+T58	Duration 1642 1649	crónico
+#46	AnnotatorNotes T58	C0205191; chronic; Temporal Concept
+T59	Route 1678 1688	parenteral
+#47	AnnotatorNotes T59	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T60	Route 1691 1695	oral
+#48	AnnotatorNotes T60	C1527415; Oral Route of Drug administration; Functional Concept
+T62	ANAT 1028 1040	respiratoria
+#49	AnnotatorNotes T62	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T61	Observation 199 215	procesos médicos
+T63	Observation 267 283	procesos médicos
+T64	Observation 778 794	procesos médicos
+T65	Observation 947 963	procesos médicos
+T66	Observation 1608 1622	proceso médico
+A1	Assertion T7 Speculated
+A2	Assertion T33 Speculated
+A3	Status T17 History_of
+A4	Status T18 History_of
+A5	Status T19 History_of
+A6	Status T20 History_of
+A7	Status T23 History_of
+A8	Status T24 History_of
+A9	Status T21 History_of
+A10	Status T22 History_of
+A12	Status T28 History_of
+A13	Status T30 History_of
+A14	Status T27 History_of
+A11	Status T25 History_of
+#50	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#51	AnnotatorNotes T20	C0743630; exacerbation acute; Finding 
+R1	Speculation Arg1:T48 Arg2:T7	
+R2	Speculation Arg1:T54 Arg2:T33	
+R3	Used_for Arg1:T34 Arg2:T3	
+R4	Before Arg1:T3 Arg2:T4	
+R5	Location_of Arg1:T35 Arg2:T4	
+R6	Experiences Arg1:T46 Arg2:T34	
+R7	Experiences Arg1:T46 Arg2:T2	
+R8	Experiences Arg1:T46 Arg2:T4	
+R9	Experiences Arg1:T46 Arg2:T61	
+R10	Experiences Arg1:T47 Arg2:T63	
+R11	Used_for Arg1:T2 Arg2:T3	
+R12	Location_of Arg1:T37 Arg2:T7	
+R13	Experiences Arg1:T46 Arg2:T3	
+#52	AnnotatorNotes T61	C4745084; Medical Condition; Finding (?)
+#53	AnnotatorNotes T63	C4745084; Medical Condition; Finding (?)
+R14	Experiences Arg1:T47 Arg2:T36	
+R15	Experiences Arg1:T47 Arg2:T6	
+R16	Experiences Arg1:T47 Arg2:T7	
+R17	After Arg1:T7 Arg2:T8	
+R18	Before Arg1:T9 Arg2:T10	
+R19	Location_of Arg1:T11 Arg2:T10	
+R20	Location_of Arg1:T12 Arg2:T10	
+R21	Experiences Arg1:T49 Arg2:T10	
+R22	Experiences Arg1:T49 Arg2:T13	
+R23	Location_of Arg1:T40 Arg2:T15	
+R24	Before Arg1:T14 Arg2:T15	
+T67	CONC 716 726	mortalidad
+#54	AnnotatorNotes T64	C4745084; Medical Condition; Finding (?)
+#55	AnnotatorNotes T65	C4745084; Medical Condition; Finding (?)
+R26	After Arg1:T67 Arg2:T16	
+R27	After Arg1:T15 Arg2:T16	
+R28	Experiences Arg1:T50 Arg2:T16	
+R29	Experiences Arg1:T50 Arg2:T41	
+R31	Experiences Arg1:T50 Arg2:T15	
+R32	Experiences Arg1:T50 Arg2:T14	
+R33	Experiences Arg1:T50 Arg2:T64	
+T68	Observation 798 809	alto riesgo
+#56	AnnotatorNotes T68	C4319571; High risk; Finding
+R34	Overlap Arg1:T64 Arg2:T68	
+R35	Has_Duration_or_Interval Arg1:T17 Arg2:T51	
+R36	Has_Duration_or_Interval Arg1:T17 Arg2:T52	
+R40	Location_of Arg1:T42 Arg2:T18	
+R43	Location_of Arg1:T62 Arg2:T19	
+R44	Location_of Arg1:T43 Arg2:T21	
+R45	Has_Duration_or_Interval Arg1:T21 Arg2:T53	
+T69	Quantifier_or_Qualifier 964 969	agudo
+#57	AnnotatorNotes T69	C0205178; acute; Temporal Concept
+R51	Has_Quantifier_or_Qualifier Arg1:T65 Arg2:T69	
+T70	Result_or_Value 1270 1273	>=3
+T71	CONC 1251 1269	IMPROVE modificada
+#58	AnnotatorNotes T71	[modified International Medical Prevention Registry on Venous Thromboembolism Predictive score}
+R52	Has_Result_or_Value Arg1:T71 Arg2:T70	
+T72	Quantifier_or_Qualifier 1313 1318	grave
+#59	AnnotatorNotes T72	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R53	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T72	
+T73	Quantifier_or_Qualifier 1444 1449	grave
+#60	AnnotatorNotes T73	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R54	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T73	
+R55	Has_Duration_or_Interval Arg1:T25 Arg2:T55	
+R56	Before Arg1:T25 Arg2:T26	
+R57	Overlap Arg1:T25 Arg2:T27	
+R58	Before Arg1:T28 Arg2:T29	
+R59	Has_Duration_or_Interval Arg1:T28 Arg2:T56	
+T74	Quantifier_or_Qualifier 1542 1547	grave
+#61	AnnotatorNotes T74	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R60	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T74	
+R61	Has_Duration_or_Interval Arg1:T30 Arg2:T57	
+R62	Before Arg1:T30 Arg2:T31	
+#62	AnnotatorNotes T66	C4745084; Medical Condition; Finding (?)
+R63	Has_Duration_or_Interval Arg1:T32 Arg2:T58	
+R64	Has_Route_or_Mode Arg1:T32 Arg2:T59	
+R65	Has_Route_or_Mode Arg1:T32 Arg2:T60	
+R67	Before Arg1:T13 Arg2:T10	
+R71	Before Arg1:T61 Arg2:T4	
+T75	Observation 516 542	bloquea el flujo de sangre
+R72	Causes Arg1:T10 Arg2:T75	
+R73	Location_of Arg1:T12 Arg2:T75	
+R74	Experiences Arg1:T49 Arg2:T75	
+R75	Before Arg1:T13 Arg2:T75	
+#63	AnnotatorNotes T67	C0026565; Mortality Vital Statistics; Quantitative Concept
+R30	Experiences Arg1:T50 Arg2:T68	
+R38	Before Arg1:T63 Arg2:T7	
+R39	Experiences Arg1:T49 Arg2:T9	
+R25	After Arg1:T41 Arg2:T16	
+R66	Before Arg1:T64 Arg2:T41	
+R69	Before Arg1:T64 Arg2:T15	
+A15	Experiencer T46 Patient
+A16	Experiencer T47 Patient
+A17	Experiencer T49 Patient
+A18	Experiencer T50 Patient

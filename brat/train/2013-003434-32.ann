@@ -1,0 +1,124 @@
+T1	PROC 46 94	Estudio a largo plazo de la eficacia y seguridad
+T2	CHEM 98 109	secukinumab
+#1	AnnotatorNotes T2	C3179547; secukinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 124 135	ustekinumab
+#2	AnnotatorNotes T3	C1608841; ustekinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	DISO 159 178	psoriasis en placas
+#3	AnnotatorNotes T4	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T5	PROC 221 269	Estudio multicéntrico, aleatorizado, doble ciego
+T6	PROC 287 298	seguimiento
+#4	AnnotatorNotes T6	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T7	DISO 406 415	psoriasis
+#5	AnnotatorNotes T7	C0033860; Psoriasis; Disease or Syndrome
+T8	PROC 436 447	tratamiento
+#6	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	CHEM 462 473	ustekinumab
+#7	AnnotatorNotes T9	C1608841; ustekinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	PROC 481 527	evaluar la seguridad, tolerabilidad y eficacia
+T11	DISO 559 578	psoriasis en placas
+#8	AnnotatorNotes T11	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T12	DISO 625 634	psoriasis
+#9	AnnotatorNotes T12	C0033860; Psoriasis; Disease or Syndrome
+T13	DISO 656 693	áreas de piel descamadas y engrosadas
+T14	DISO 720 739	Psoriasis en placas
+#10	AnnotatorNotes T14	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T15	DISO 769 796	Psoriasis en placas crónica
+T16	CHEM 1188 1195	IL-17RA
+T17	PROC 834 848	aleatorización
+#11	AnnotatorNotes T17	C0034656; Randomization; Research Activity
+T18	PROC 865 886	tratamiento sistémico
+T19	DISO 915 924	psoriasis
+#12	AnnotatorNotes T19	C0033860; Psoriasis; Disease or Syndrome
+T20	DISO 992 1001	psoriasis
+#13	AnnotatorNotes T20	C0033860; Psoriasis; Disease or Syndrome
+T21	DISO 1018 1045	psoriasis crónica en placas
+T22	CHEM 1070 1081	secukinumab
+#14	AnnotatorNotes T22	C3179547; secukinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T23	CHEM 1083 1094	ustekinumab
+#15	AnnotatorNotes T23	C1608841; ustekinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T24	CHEM 1112 1129	fármaco biológico
+#16	AnnotatorNotes T24	C0005515; Biological Factors; Biologically Active Substance (?)
+T25	CHEM 1163 1185	interleuquina (IL)-17A
+#17	AnnotatorNotes T25	C1705947; Interleukin-17A; Amino Acid, Peptide, or Protein · Receptor
+T26	PROC 1243 1252	protocolo
+#18	AnnotatorNotes T26	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T27	CHEM 302 313	secukinumab
+#19	AnnotatorNotes T27	C3179547; secukinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T28	PROC 330 351	demostrar la eficacia
+#20	AnnotatorNotes T28	C1707887; Efficacy Study; Research Activity
+T29	ANAT 665 669	piel
+#21	AnnotatorNotes T29	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T30	Date 13 17	2013
+T31	Date 54 67	a largo plazo
+T32	LIVB 139 154	sujetos adultos
+#22	AnnotatorNotes T32	C0681850; Study Subject; Group + C0001675; Adult; Age Group
+T34	Duration 273 283	52 semanas
+T35	Route 314 324	subcutáneo
+T36	Duration 418 432	las 16 semanas
+T37	Date 528 541	a largo plazo
+T38	LIVB 545 554	pacientes
+#23	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Duration 789 796	crónica
+#24	AnnotatorNotes T39	C0205191; chronic; Temporal Concept
+T40	Duration 805 821	al menos 6 meses
+T42	Duration 1028 1035	crónica
+#25	AnnotatorNotes T42	C0205191; chronic; Temporal Concept
+T33	Neg_cue 1003 1014	distintas a
+A1	Population_data T32 Age
+A2	Assertion T21 Negated
+A3	Status T22 History_of
+A4	Status T23 History_of
+A5	Status T24 History_of
+#26	AnnotatorNotes T5	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#27	AnnotatorNotes T10	C0511730; Identify product efficacy and safety issues; Health Care Activity + C3274448; Tolerability Study; Research Activity
+#28	AnnotatorNotes T13	C0241165; Thick skin; Finding + C0423773; Scaly skin; Sign or Symptom
+#29	AnnotatorNotes T16	C0669930; interleukin-17 receptor; Amino Acid, Peptide, or Protein · Receptor 
+#30	AnnotatorNotes T31	C0443252; Long-term; Temporal Concept
+#31	AnnotatorNotes T37	C0443252; Long-term; Temporal Concept
+#32	AnnotatorNotes T35	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+#33	AnnotatorNotes T1	C0023981; Longitudinal Studies; Research Activity + C0511730; Identify product efficacy and safety issues; Health Care Activity
+T41	Quantifier_or_Qualifier 928 952	controlada adecuadamente
+A6	Assertion T41 Negated
+T43	Neg_cue 925 927	no
+R1	Overlap Arg1:T1 Arg2:T31	
+R2	Experiences Arg1:T32 Arg2:T2	
+R3	Experiences Arg1:T32 Arg2:T3	
+R4	Experiences Arg1:T32 Arg2:T4	
+T44	Quantifier_or_Qualifier 182 198	moderada a grave
+#34	AnnotatorNotes T44	C1299393; Moderate to severe; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T44	
+T45	Quantifier_or_Qualifier 582 598	moderada a grave
+#35	AnnotatorNotes T45	C1299393; Moderate to severe; Qualitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T45	
+R7	Experiences Arg1:T38 Arg2:T11	
+R8	Overlap Arg1:T10 Arg2:T37	
+T46	CONC 373 415	Índice de severidad y área de la psoriasis
+#36	AnnotatorNotes T46	C4528685; Psoriasis Area and Severity Index Clinical Classification; Intellectual Product
+R11	Has_Duration_or_Interval Arg1:T5 Arg2:T34	
+R12	Has_Route_or_Mode Arg1:T27 Arg2:T35	
+R16	Has_Duration_or_Interval Arg1:T6 Arg2:T36	
+R17	Used_for Arg1:T9 Arg2:T8	
+R9	Used_for Arg1:T27 Arg2:T8	
+R18	Has_Duration_or_Interval Arg1:T9 Arg2:T36	
+R19	Has_Duration_or_Interval Arg1:T27 Arg2:T36	
+R20	Experiences Arg1:T38 Arg2:T27	
+R21	Experiences Arg1:T38 Arg2:T7	
+R22	Experiences Arg1:T38 Arg2:T8	
+R24	Location_of Arg1:T29 Arg2:T13	
+R25	Causes Arg1:T12 Arg2:T13	
+T47	Quantifier_or_Qualifier 646 650	roja
+#37	AnnotatorNotes T47	C1260956; Red color; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T47	
+R27	Has_Duration_or_Interval Arg1:T15 Arg2:T39	
+R28	Has_Duration_or_Interval Arg1:T15 Arg2:T40	
+R29	Before Arg1:T15 Arg2:T17	
+R30	Negation Arg1:T43 Arg2:T41	
+R31	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T41	
+R32	Negation Arg1:T33 Arg2:T21	
+R33	Has_Duration_or_Interval Arg1:T21 Arg2:T42	
+R34	After Arg1:T46 Arg2:T8	
+#38	AnnotatorNotes T18	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+R10	Overlap Arg1:T46 Arg2:T36	
+A7	Experiencer T32 Patient
+A8	Experiencer T38 Patient
+A9	Status T18 Future

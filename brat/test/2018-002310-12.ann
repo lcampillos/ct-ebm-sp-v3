@@ -1,0 +1,190 @@
+T1	CHEM 65 76	bictegravir
+#1	AnnotatorNotes T1	C4507568; bictegravir; Immunologic Factor · Organic Chemical · Pharmacologic Substance
+T2	ANAT 102 119	fluidos genitales
+#2	AnnotatorNotes T2	C0487949; GENITAL FLUID; Body Substance
+T3	DISO 157 177	infectados con VIH-1
+T4	PROC 294 297	TAR
+#3	AnnotatorNotes T4	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T5	DISO 246 266	infectados con VIH-1
+T6	DISO 342 362	infectados por VIH-1
+#4	AnnotatorNotes T6	C2363741; HIV-1 infection; Disease or Syndrome
+T7	PROC 411 414	ART
+#5	AnnotatorNotes T7	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T8	ANAT 430 440	plasmática
+#6	AnnotatorNotes T8	C0032105; Plasma; Body Substance
+T9	CHEM 442 445	ARN
+#7	AnnotatorNotes T9	C0035668; RNA; Nucleic Acid, Nucleoside, or Nucleotide
+T10	PROC 463 470	cribado
+#8	AnnotatorNotes T10	C0220908; Screening procedure; Diagnostic Procedure | C1710031; Disease Screening; Diagnostic Procedure
+T11	PROC 626 647	método anticonceptivo
+#9	AnnotatorNotes T11	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T12	PROC 513 549	consentimiento informado por escrito
+#10	AnnotatorNotes T12	C0811741; Obtain informed written consent; Health Care Activity
+T13	DISO 797 819	Insuficiencia hepática
+#11	AnnotatorNotes T13	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T14	DISO 853 863	Malignidad
+#12	AnnotatorNotes T14	C0006826; Malignant Neoplasms; Neoplastic Process
+T15	DISO 876 897	infección oportunista
+#13	AnnotatorNotes T15	C0029118; Opportunistic Infections; Disease or Syndrome
+T16	PROC 442 455	ARN del VIH-1
+#14	AnnotatorNotes T16	C1294179; HIV 1 RNA assay; Laboratory Procedure
+T17	CHEM 940 943	ARV
+#15	AnnotatorNotes T17	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T18	Observation 908 919	Resistencia
+#16	AnnotatorNotes T18	C3542449; Drug Resistance Status; Finding
+T19	PROC 1087 1125	tasa estimada de filtración glomerular
+#17	AnnotatorNotes T19	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T20	PROC 1184 1211	prueba de embarazo en suero
+T21	ANAT 122 142	compartimento rectal
+T22	PROC 418 440	Carga viral plasmática
+T23	ANAT 811 819	hepática
+#18	AnnotatorNotes T23	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T24	PROC 1014 1017	ALT
+#19	AnnotatorNotes T24	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T25	PROC 1020 1023	AST
+#20	AnnotatorNotes T25	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T26	PROC 1038 1049	bilirrubina
+#21	AnnotatorNotes T26	C0863174; Blood bilirubin measurement; Laboratory Procedure
+T27	ANAT 1071 1076	renal
+#22	AnnotatorNotes T27	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T28	ANAT 1206 1211	suero
+#23	AnnotatorNotes T28	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T29	Date 13 17	2018
+T31	LIVB 261 266	VIH-1
+#24	AnnotatorNotes T31	C0019704; HIV-1; Virus
+T32	LIVB 146 156	individuos
+#25	AnnotatorNotes T32	C0027361; Persons; Population Group
+T34	LIVB 220 245	Hombres y mujeres adultos
+#26	AnnotatorNotes T34	C0025266; Male population group; Population Group + C0043210; Woman; Population Group + C0001675; Adult; Age Group
+T36	Neg_cue 267 269	no
+T37	LIVB 336 341	mujer
+#27	AnnotatorNotes T37	C0043210; Woman; Population Group
+T38	Age 363 372	≥ 18 años
+T39	Neg_cue 385 387	No
+T40	LIVB 580 587	sujetos
+#28	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	PHYS 679 698	relaciones sexuales
+#29	AnnotatorNotes T41	C0009253; Coitus; Organism Function
+T45	LIVB 1143 1162	Mujeres embarazadas
+#30	AnnotatorNotes T45	C0033011; Pregnant Women; Population Group
+T46	PHYS 1224 1235	amamantando
+#31	AnnotatorNotes T46	C0006147; Breast Feeding; Organism Function
+T47	LIVB 424 429	viral
+#32	AnnotatorNotes T47	C0042776; Virus; Virus
+T49	PHYS 1194 1202	embarazo
+#33	AnnotatorNotes T49	C0032961; Pregnancy; Organism Function
+T50	LIVB 357 362	VIH-1
+#34	AnnotatorNotes T50	C0019704; HIV-1; Virus
+T33	LIVB 328 333	Varón
+#35	AnnotatorNotes T33	C0025266; Male population group; Population Group
+T35	PHYS 1063 1076	Función renal
+#36	AnnotatorNotes T35	C0232804; Renal function; Organ or Tissue Function
+T42	PHYS 1151 1162	embarazadas
+#37	AnnotatorNotes T42	C0032961; Pregnancy; Organism Function
+T43	LIVB 172 177	VIH-1
+#38	AnnotatorNotes T43	C0019704; HIV-1; Virus
+T44	LIVB 450 455	VIH-1
+#39	AnnotatorNotes T44	C0019704; HIV-1; Virus
+T30	Date 864 872	en curso
+T48	PROC 838 848	Child-Pugh
+#40	AnnotatorNotes T48	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+T51	PHYS 1104 1125	filtración glomerular
+#41	AnnotatorNotes T51	C0232809; Glomerular filtration; Organ or Tissue Function
+T52	ANAT 1115 1125	glomerular
+#42	AnnotatorNotes T52	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T53	PROC 723 742	visita de selección
+#43	AnnotatorNotes T53	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A1	Population_data T34 Age
+A2	Assertion T7 Negated
+A3	Assertion T4 Negated
+A4	Status T4 History_of
+A5	Status T7 History_of
+#44	AnnotatorNotes T3	C2363741; HIV-1 infection; Disease or Syndrome
+#45	AnnotatorNotes T5	C2363741; HIV-1 infection; Disease or Syndrome
+#46	AnnotatorNotes T20	C0430064; serum pregnancy test; Laboratory Procedure 
+#47	AnnotatorNotes T21	C0034896; Rectum; Body Part, Organ, or Organ Component
+R1	Experiences Arg1:T32 Arg2:T3	
+R2	Causes Arg1:T43 Arg2:T3	
+R3	Causes Arg1:T31 Arg2:T5	
+R4	Experiences Arg1:T34 Arg2:T5	
+R5	Negation Arg1:T36 Arg2:T4	
+R6	Experiences Arg1:T34 Arg2:T4	
+R7	Has_Age Arg1:T37 Arg2:T38	
+R8	Has_Age Arg1:T33 Arg2:T38	
+R9	Causes Arg1:T50 Arg2:T6	
+R10	Experiences Arg1:T33 Arg2:T6	
+R11	Experiences Arg1:T37 Arg2:T6	
+R12	Negation Arg1:T39 Arg2:T7	
+R13	Location_of Arg1:T8 Arg2:T22	
+R14	Overlap Arg1:T16 Arg2:T10	
+R15	Overlap Arg1:T22 Arg2:T10	
+T54	Result_or_Value 471 488	>1000 copias / ml
+R17	Has_Result_or_Value Arg1:T16 Arg2:T54	
+R16	Has_Result_or_Value Arg1:T22 Arg2:T54	
+R18	Location_of Arg1:T8 Arg2:T16	
+#48	AnnotatorNotes T22	C3835525; HIV-1 RNA viral load in plasma by target amplification; Laboratory Procedure
+T55	CONC 562 571	inclusión
+#49	AnnotatorNotes T55	C1512693; Inclusion; Qualitative Concept
+R19	Location_of Arg1:T23 Arg2:T13	
+T56	Result_or_Value 827 834	clase C
+R20	Has_Result_or_Value Arg1:T48 Arg2:T56	
+T57	Quantifier_or_Qualifier 820 825	grave
+#50	AnnotatorNotes T57	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R21	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T57	
+R22	Before Arg1:T12 Arg2:T55	
+R23	Experiences Arg1:T40 Arg2:T11	
+T58	Quantifier_or_Qualifier 648 666	altamente efectivo
+R24	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T58	
+R25	Experiences Arg1:T40 Arg2:T41	
+R26	Overlap Arg1:T11 Arg2:T41	
+R27	After Arg1:T11 Arg2:T53	
+T59	Observation 679 713	relaciones sexuales heterosexuales
+R28	Experiences Arg1:T40 Arg2:T59	
+R29	Overlap Arg1:T11 Arg2:T59	
+T60	PROC 759 766	estudio
+#51	AnnotatorNotes T60	C0008976; Clinical Trials; Research Activity
+R30	Overlap Arg1:T11 Arg2:T60	
+R31	Before Arg1:T53 Arg2:T60	
+R32	Overlap Arg1:T14 Arg2:T30	
+T61	Quantifier_or_Qualifier 898 904	activa
+#52	AnnotatorNotes T61	C0679217; Active State; Idea or Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T61	
+T62	Quantifier_or_Qualifier 920 928	primaria
+#53	AnnotatorNotes T62	C0205225; Primary; Qualitative Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T62	
+R35	Overlap Arg1:T18 Arg2:T17	
+T63	Observation 965 999	anomalía verificada de laboratorio
+#54	AnnotatorNotes T63	C3648370; laboratory tests nonspecific abnormal findings; Finding
+T64	Quantifier_or_Qualifier 1003 1010	Grado 4
+R36	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T64	
+T65	Result_or_Value 1024 1031	≥ 3xULN
+R37	Has_Result_or_Value Arg1:T25 Arg2:T65	
+R38	Has_Result_or_Value Arg1:T24 Arg2:T65	
+T66	Result_or_Value 1050 1059	≥ 1.5xULN
+R39	Has_Result_or_Value Arg1:T26 Arg2:T66	
+R42	Location_of Arg1:T27 Arg2:T35	
+T67	Observation 1063 1086	Función renal adecuada:
+#55	AnnotatorNotes T67	C0232805; Normal renal function; Finding
+R43	Location_of Arg1:T27 Arg2:T67	
+R48	Location_of Arg1:T52 Arg2:T51	
+R49	Location_of Arg1:T52 Arg2:T19	
+T68	Result_or_Value 1126 1139	≥ 50 ml / min
+R50	Has_Result_or_Value Arg1:T19 Arg2:T68	
+R51	Experiences Arg1:T45 Arg2:T42	
+R52	Experiences Arg1:T45 Arg2:T20	
+R53	Experiences Arg1:T45 Arg2:T49	
+R55	Location_of Arg1:T28 Arg2:T49	
+R56	Experiences Arg1:T45 Arg2:T46	
+T69	Result_or_Value 1212 1220	positiva
+#56	AnnotatorNotes T69	C1446409; Positive; Finding
+R58	Has_Result_or_Value Arg1:T20 Arg2:T69	
+R59	Overlap Arg1:T59 Arg2:T60	
+R60	Overlap Arg1:T41 Arg2:T60	
+#57	AnnotatorNotes T30	C0521116; Current (present time); Temporal Concept
+#58	AnnotatorNotes T59	C0556476; Heterosexual relationship; Finding
+A6	Experiencer T32 Patient
+A7	Experiencer T34 Patient
+A8	Experiencer T33 Patient
+A9	Experiencer T37 Patient
+A10	Experiencer T40 Patient
+A11	Experiencer T45 Patient

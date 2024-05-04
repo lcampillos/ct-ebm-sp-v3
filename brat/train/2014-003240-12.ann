@@ -1,0 +1,201 @@
+T1	PROC 46 133	Estudio multicéntrico, aleatorizado, con doble enmascaramiento y controlado con placebo
+T2	DISO 1124 1152	absceso abdominal o perianal
+T3	PROC 187 198	endoscópica
+#1	AnnotatorNotes T3	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T4	DISO 216 235	enfermedad de Crohn
+#2	AnnotatorNotes T4	C0010346; Crohn Disease; Disease or Syndrome
+T5	PROC 318 329	tratamiento
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	CHEM 330 338	anti-TNF
+#4	AnnotatorNotes T6	C1562242; Anti-tumor necrosis factor alpha drug (product); Pharmacologic Substance · Immunologic Factor (?)
+T7	PROC 359 370	tratamiento
+#5	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 394 413	Enfermedad de Crohn
+#6	AnnotatorNotes T8	C0010346; Crohn Disease; Disease or Syndrome
+T9	PROC 511 522	Diagnóstico
+#7	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	DISO 526 545	enfermedad de Crohn
+#8	AnnotatorNotes T10	C0010346; Crohn Disease; Disease or Syndrome
+T11	PROC 686 697	tratamiento
+#9	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	CHEM 712 720	anti-TNF
+#10	AnnotatorNotes T12	C1562242; Anti-tumor necrosis factor alpha drug (product); Immunologic Factor · Pharmacologic Substance (?)
+T13	CHEM 730 740	infliximab
+#11	AnnotatorNotes T13	C0666743; infliximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	CHEM 742 752	adalimumab
+#12	AnnotatorNotes T14	C1122087; adalimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T15	CHEM 755 773	certolizumab pegol
+#13	AnnotatorNotes T15	C1872109; certolizumab pegol; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T16	PROC 817 828	diagnóstico
+#14	AnnotatorNotes T16	C0011900; Diagnosis; Diagnostic Procedure
+T17	DISO 832 848	colitis ulcerosa
+#15	AnnotatorNotes T17	C0009324; Ulcerative Colitis; Disease or Syndrome
+T18	DISO 850 852	CU
+#16	AnnotatorNotes T18	C0009324; Ulcerative Colitis; Disease or Syndrome
+T19	DISO 855 873	colitis colagenosa
+#17	AnnotatorNotes T19	C0238067; Colitis, Collagenous; Disease or Syndrome
+T20	DISO 876 897	colitis indeterminada
+#18	AnnotatorNotes T20	C0341332; Indeterminate colitis; Disease or Syndrome
+T21	PROC 938 969	resección quirúrgica intestinal
+T22	PROC 1048 1055	ostomía
+#19	AnnotatorNotes T22	C0029473; Ostomy; Therapeutic or Preventive Procedure
+T23	ANAT 1058 1072	bolsa ileoanal
+T24	DISO 1089 1121	estenosis intestinal sintomatica
+T25	ANAT 1144 1152	perianal
+#20	AnnotatorNotes T25	C0442158; Perianal; Body Location or Region
+T26	DISO 1169 1197	síndrome del intestino corto
+#21	AnnotatorNotes T26	C0036992; Short Bowel Syndrome; Disease or Syndrome
+T27	DISO 1213 1230	infección crónica
+#22	AnnotatorNotes T27	C0151317; Chronic Infection; Disease or Syndrome
+T28	DISO 1250 1252	TB
+T29	CHEM 140 147	ABT-494
+#24	AnnotatorNotes T29	C4308782; ABT-494; Organic Chemical · Pharmacologic Substance
+T30	DISO 667 679	intolerancia
+#25	AnnotatorNotes T30	C0277585; Intolerance to drug; Pathologic Function
+T31	ANAT 959 969	intestinal
+#26	AnnotatorNotes T31	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T32	ANAT 1099 1109	intestinal
+#27	AnnotatorNotes T32	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T33	ANAT 1132 1141	abdominal
+#28	AnnotatorNotes T33	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T34	ANAT 1182 1191	intestino
+#29	AnnotatorNotes T34	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T35	Date 13 17	2014
+T36	LIVB 202 211	pacientes
+#30	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 452 459	mujeres
+#31	AnnotatorNotes T38	C0043210; Woman; Population Group
+T39	Age 463 479	>=18 y <=75 años
+T40	Duration 551 567	al menos 90 dias
+T41	LIVB 609 617	paciente
+#32	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 644 652	paciente
+#33	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Duration 973 992	los 6 últimos meses
+T45	LIVB 1034 1043	Pacientes
+#34	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 1076 1084	Paciente
+#35	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1156 1164	Paciente
+#36	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1200 1208	Paciente
+#37	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Duration 1223 1230	crónica
+#38	AnnotatorNotes T49	C0205191; chronic; Temporal Concept
+T37	LIVB 442 449	Varones
+#39	AnnotatorNotes T37	C0025266; Male population group; Population Group
+T50	DISO 345 355	no toleran
+#40	AnnotatorNotes T50	C0277585; Intolerance to drug; Pathologic Function
+A1	Status T11 History_of
+A2	Status T30 History_of
+A3	Status T12 History_of
+A4	Status T13 History_of
+A5	Status T14 History_of
+A6	Status T15 History_of
+A7	Status T21 History_of
+A8	Status T22 History_of
+#41	AnnotatorNotes T1	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+#42	AnnotatorNotes T2	C0031019; Perianal abscess; Disease or Syndrome + C0243001; Abdominal Abscess; Disease or Syndrome
+#23	AnnotatorNotes T28	C0041296; Tuberculosis; Disease or Syndrome
+T44	Neg_cue 345 347	no
+T51	Observation 348 355	toleran
+A9	Assertion T51 Negated
+T52	LIVB 900 909	Pacientes
+#43	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 803 812	Pacientes
+#44	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Observation 164 184	remisión sintomática
+R1	Causes Arg1:T29 Arg2:T54
+T55	Observation 164 172	remisión
+#45	AnnotatorNotes T55	C0544452; Disease remission; Finding
+#46	AnnotatorNotes T54	C0871467; Symptom Remission; Finding
+R4	Experiences Arg1:T36 Arg2:T29
+R5	Experiences Arg1:T36 Arg2:T54
+R6	Experiences Arg1:T36 Arg2:T4
+T56	Quantifier_or_Qualifier 236 242	activa
+#47	AnnotatorNotes T56	C0679217; Active State; Idea or Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T56
+T57	Quantifier_or_Qualifier 1253 1259	activa
+#48	AnnotatorNotes T57	C0679217; Active State; Idea or Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T57
+R9	Experiences Arg1:T48 Arg2:T27
+R10	Experiences Arg1:T48 Arg2:T28
+R11	Has_Duration_or_Interval Arg1:T27 Arg2:T49
+R12	Location_of Arg1:T34 Arg2:T26
+R13	Location_of Arg1:T32 Arg2:T24
+R14	Location_of Arg1:T33 Arg2:T2
+R15	Location_of Arg1:T25 Arg2:T2
+R16	Experiences Arg1:T46 Arg2:T24
+R17	Experiences Arg1:T46 Arg2:T2
+R18	Experiences Arg1:T47 Arg2:T26
+T58	Observation 1231 1241	recurrente
+#49	AnnotatorNotes T58	C0679254; Disease recurrence; Finding
+R19	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T58
+T59	Quantifier_or_Qualifier 257 273	moderada a grave
+#50	AnnotatorNotes T59	C1299393; Moderate to severe; Qualitative Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T59
+T60	Observation 282 314	respondido de forma insuficiente
+#51	AnnotatorNotes T60	C1320680; Poor response to treatment; Finding
+R21	Experiences Arg1:T36 Arg2:T60
+R22	Overlap Arg1:T60 Arg2:T5
+R23	Experiences Arg1:T36 Arg2:T5
+R24	Used_for Arg1:T6 Arg2:T5
+R25	Negation Arg1:T44 Arg2:T51
+R26	Experiences Arg1:T36 Arg2:T50
+R27	Experiences Arg1:T36 Arg2:T51
+R28	Overlap Arg1:T51 Arg2:T7
+R29	Overlap Arg1:T50 Arg2:T7
+R30	Experiences Arg1:T36 Arg2:T7
+R31	Before Arg1:T4 Arg2:T54
+R32	Experiences Arg1:T36 Arg2:T3
+R33	Overlap Arg1:T5 Arg2:T51
+R34	Overlap Arg1:T5 Arg2:T50
+R35	Overlap Arg1:T60 Arg2:T7
+R36	Has_Age Arg1:T37 Arg2:T39
+R37	Has_Age Arg1:T38 Arg2:T39
+T61	CONC 494 507	momento basal
+#52	AnnotatorNotes T61	C1442488; Baseline; Quantitative Concept
+R38	Overlap Arg1:T39 Arg2:T61
+R39	Has_Duration_or_Interval Arg1:T10 Arg2:T40
+T62	PROC 571 575	CDAI
+#53	AnnotatorNotes T62	C5549856; Assessment using Simple Endoscopic Score for Crohn's Disease; Health Care Activity
+T63	Result_or_Value 576 589	>=220 y <=450
+R40	Has_Result_or_Value Arg1:T62 Arg2:T63
+T64	Observation 595 604;626 638	respuesta insuficiente
+#54	AnnotatorNotes T64	C1320680; Poor response to treatment; Finding
+R41	Experiences Arg1:T41 Arg2:T64
+R42	Experiences Arg1:T42 Arg2:T30
+R43	Overlap Arg1:T64 Arg2:T11
+R44	Causes Arg1:T11 Arg2:T30
+R45	Used_for Arg1:T12 Arg2:T11
+R46	Used_for Arg1:T13 Arg2:T11
+R47	Used_for Arg1:T14 Arg2:T11
+R48	Used_for Arg1:T15 Arg2:T11
+R49	Experiences Arg1:T42 Arg2:T11
+R50	Experiences Arg1:T42 Arg2:T64
+R51	Experiences Arg1:T41 Arg2:T30
+R52	Experiences Arg1:T41 Arg2:T11
+R53	Experiences Arg1:T53 Arg2:T17
+R54	Experiences Arg1:T53 Arg2:T18
+R55	Experiences Arg1:T53 Arg2:T19
+R56	Experiences Arg1:T53 Arg2:T20
+R57	Experiences Arg1:T52 Arg2:T21
+R58	Location_of Arg1:T31 Arg2:T21
+R59	Overlap Arg1:T21 Arg2:T43
+#55	AnnotatorNotes T21	C0741614; Bowel resection; Therapeutic or Preventive Procedure
+R60	Experiences Arg1:T45 Arg2:T22
+R2	Experiences Arg1:T36 Arg2:T55
+R3	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T3
+R61	Before Arg1:T4 Arg2:T55
+A10	Experiencer T36 Patient
+A11	Experiencer T37 Patient
+A12	Experiencer T38 Patient
+A13	Experiencer T41 Patient
+A14	Experiencer T42 Patient
+A15	Experiencer T53 Patient
+A16	Experiencer T52 Patient
+A17	Experiencer T45 Patient
+A18	Experiencer T46 Patient
+A19	Experiencer T47 Patient
+A20	Experiencer T48 Patient
+A21	Status T21 Future

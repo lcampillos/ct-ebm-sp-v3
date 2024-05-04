@@ -1,0 +1,141 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 66 87	evaluar biomarcadores
+T3	ANAT 106 114	vascular
+#2	AnnotatorNotes T3	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T4	PROC 137 151	ENSAYO CLÍNICO
+#3	AnnotatorNotes T4	C0008976; Clinical Trials; Research Activity
+T5	PROC 157 167	EVALUACIÓN
+#4	AnnotatorNotes T5	C1261322; Evaluation procedure; Health Care Activity
+T6	CHEM 175 186	ADIPOQUINAS
+#5	AnnotatorNotes T6	C1955907; Adipokines; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T7	PROC 222 230	PREVENIR
+#6	AnnotatorNotes T7	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T8	ANAT 249 257	VASCULAR
+#7	AnnotatorNotes T8	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T9	PROC 543 579	test de tolerancia oral a la glucosa
+#8	AnnotatorNotes T9	C0029161; Oral Glucose Tolerance Test; Diagnostic Procedure
+T10	PROC 679 682	IMC
+#9	AnnotatorNotes T10	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T11	CHEM 572 579	glucosa
+#10	AnnotatorNotes T11	C0017725; glucose; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T12	PROC 597 620	Hemoglobina glicosilada
+#11	AnnotatorNotes T12	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T13	DISO 885 915	insuficiencia hepática o renal
+#12	AnnotatorNotes T13	C0085605; Liver Failure; Disease or Syndrome + C0035078; Kidney Failure; Disease or Syndrome
+T14	DISO 649 657	Obesidad
+#13	AnnotatorNotes T14	C0028754; Obesity; Disease or Syndrome
+T15	PROC 840 867	tratamiento hipoglucemiante
+T16	ANAT 910 915	renal
+#14	AnnotatorNotes T16	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T17	DISO 923 945	insuficiencia cardíaca
+#15	AnnotatorNotes T17	C0018801; Heart failure; Disease or Syndrome
+T18	DISO 971 991	procesos neoplásicos
+#16	AnnotatorNotes T18	C0027671; Neoplastic Processes; Neoplastic Process
+T19	DISO 1005 1022	basalioma cutáneo
+T20	PROC 1107 1117	evaluación
+#17	AnnotatorNotes T20	C1261322; Evaluation procedure; Health Care Activity
+T21	DISO 281 292	PREDIABETES
+#18	AnnotatorNotes T21	C0362046; Prediabetes syndrome; Disease or Syndrome
+T22	DISO 405 416	prediabetes
+#19	AnnotatorNotes T22	C0362046; Prediabetes syndrome; Disease or Syndrome
+T23	PROC 422 430	Glucemia
+#20	AnnotatorNotes T23	C0392201; Blood glucose measurement; Laboratory Procedure
+T24	PROC 492 500	Glucemia
+#21	AnnotatorNotes T24	C0392201; Blood glucose measurement; Laboratory Procedure
+T25	PROC 622 627	HbA1c
+#22	AnnotatorNotes T25	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T26	CHEM 852 867	hipoglucemiante
+#23	AnnotatorNotes T26	C0020616; Hypoglycemic Agents; Pharmacologic Substance
+T27	ANAT 899 907	hepática
+#24	AnnotatorNotes T27	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T28	ANAT 937 945	cardíaca
+#25	AnnotatorNotes T28	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T29	PROC 748 772	consentimiento informado
+#26	AnnotatorNotes T29	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T30	ANAT 1015 1022	cutáneo
+#27	AnnotatorNotes T30	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T31	Date 13 17	2018
+T32	PHYS 234 248	ENVEJECIMIENTO
+#28	AnnotatorNotes T32	C0001811; Aging; Organism Function
+T33	Age 327 345	entre 18 y 60 años
+T37	Duration 525 538	las dos horas
+T39	Dose 583 592	75 gramos
+T40	LIVB 803 812	Pacientes
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 871 880	Pacientes
+#30	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	Neg_cue 993 1004	exceptuando
+T44	LIVB 1026 1035	Pacientes
+#31	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 1129 1141	investigador
+#32	AnnotatorNotes T46	C0035173; Research Personnel; Professional or Occupational Group
+T47	LIVB 1145 1164	Mujeres embarazadas
+#33	AnnotatorNotes T47	C0033011; Pregnant Women; Population Group
+T42	PHYS 1153 1164	embarazadas
+#34	AnnotatorNotes T42	C0032961; Pregnancy; Organism Function
+T45	PHYS 91 105	envejecimiento
+#35	AnnotatorNotes T45	C0001811; Aging; Organism Function
+T34	PROC 964 968	NYHA
+#36	AnnotatorNotes T34	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+A1	Assertion T19 Negated
+#37	AnnotatorNotes T2	C1879847; Biomarker Analysis; Laboratory Procedure
+#38	AnnotatorNotes T19	C4721806; Skin Basal Cell Carcinoma; Neoplastic Process (?)
+T35	Observation 1077 1100	incluidos en el estudio
+A2	Assertion T35 Negated
+#39	AnnotatorNotes T35	C1302261; Patient eligible for clinical trial; Finding (?)
+T36	Neg_cue 1061 1063	no
+T38	Result_or_Value 683 693	≥ 35 kg/m2
+R1	Has_Result_or_Value Arg1:T10 Arg2:T38	
+T48	Quantifier_or_Qualifier 658 677	grado II o superior
+R2	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T48	
+T49	Result_or_Value 629 645	entre 5,7 y 6,4%
+R3	Has_Result_or_Value Arg1:T25 Arg2:T49	
+R4	Has_Result_or_Value Arg1:T12 Arg2:T49	
+T50	Result_or_Value 501 522	entre 140 y 199 mg/dl
+R5	Has_Result_or_Value Arg1:T24 Arg2:T50	
+R6	Overlap Arg1:T24 Arg2:T37	
+R7	Before Arg1:T9 Arg2:T24	
+R8	Has_Dose_or_Strength Arg1:T11 Arg2:T39	
+R9	Used_for Arg1:T11 Arg2:T9	
+T51	Result_or_Value 437 458	entre 100 y 125 mg/dl
+T52	Quantifier_or_Qualifier 459 484	repetida en dos ocasiones
+R10	Has_Result_or_Value Arg1:T23 Arg2:T51	
+R11	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T52	
+T53	Quantifier_or_Qualifier 431 436	basal
+#40	AnnotatorNotes T53	C1442488; Baseline; Quantitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T53	
+R14	Location_of Arg1:T3 Arg2:T45	
+R15	Location_of Arg1:T8 Arg2:T32	
+R16	Before Arg1:T7 Arg2:T32	
+R17	Used_for Arg1:T6 Arg2:T7	
+R18	Experiences Arg1:T40 Arg2:T15	
+R19	Used_for Arg1:T26 Arg2:T15	
+R20	Location_of Arg1:T16 Arg2:T13	
+R21	Location_of Arg1:T27 Arg2:T13	
+R22	Experiences Arg1:T41 Arg2:T13	
+R23	Experiences Arg1:T41 Arg2:T17	
+R24	Experiences Arg1:T41 Arg2:T18	
+R25	Experiences Arg1:T41 Arg2:T19	
+R26	Negation Arg1:T43 Arg2:T19	
+R27	Location_of Arg1:T30 Arg2:T19	
+T54	Result_or_Value 946 960	grado III o IV
+R28	Has_Result_or_Value Arg1:T34 Arg2:T54	
+R29	Location_of Arg1:T28 Arg2:T17	
+T55	Quantifier_or_Qualifier 916 921	grave
+#41	AnnotatorNotes T55	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R30	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T55	
+R31	Experiences Arg1:T41 Arg2:T34	
+R32	Negation Arg1:T36 Arg2:T35	
+R33	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T35	
+R34	Experiences Arg1:T44 Arg2:T20	
+R35	Before Arg1:T20 Arg2:T35	
+R36	Experiences Arg1:T47 Arg2:T42	
+#42	AnnotatorNotes T52	C1948050; Twice (Numerical Qualifier); Quantitative Concept 
+T56	Observation 704 721	acepte participar
+R37	Overlap Arg1:T56 Arg2:T29	
+A3	Experiencer T40 Patient
+A4	Experiencer T41 Patient
+A5	Experiencer T44 Patient
+A6	Experiencer T46 Other
+A7	Experiencer T47 Patient

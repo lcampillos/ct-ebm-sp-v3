@@ -1,0 +1,218 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 91 116	control de la temperatura
+#2	AnnotatorNotes T2	C0412806; Thermoregulation measures; Therapeutic or Preventive Procedure
+T3	DISO 134 147	shock séptico
+#3	AnnotatorNotes T3	C0036983; Septic Shock; Pathologic Function
+T4	PROC 251 276	control de la temperatura
+#4	AnnotatorNotes T4	C0412806; Thermoregulation measures; Therapeutic or Preventive Procedure
+T5	DISO 294 307	shock séptico
+#5	AnnotatorNotes T5	C0036983; Septic Shock; Pathologic Function
+T6	DISO 332 345	shock séptico
+#6	AnnotatorNotes T6	C0036983; Septic Shock; Pathologic Function
+T7	PROC 407 422	ingresen en UCI
+#7	AnnotatorNotes T7	C0583239; Admission to intensive care unit; Health Care Activity
+T8	PROC 427 438	diagnóstico
+#8	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	DISO 442 455	shock séptico
+#9	AnnotatorNotes T9	C0036983; Septic Shock; Pathologic Function
+T10	PROC 589 600	diagnóstico
+#10	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 604 617	shock séptico
+#11	AnnotatorNotes T11	C0036983; Septic Shock; Pathologic Function
+T12	DISO 901 909	sangrado
+#12	AnnotatorNotes T12	C0019080; Hemorrhage; Pathologic Function
+T13	DISO 918 930	coagulopatía
+#13	AnnotatorNotes T13	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T14	PROC 942 955	cirugía mayor
+#14	AnnotatorNotes T14	C0679637; major surgery; Therapeutic or Preventive Procedure
+T15	DISO 982 1001	enfermedad terminal
+T16	DISO 1046 1058	gran quemado
+T17	PROC 1071 1084	cirugía mayor
+#15	AnnotatorNotes T17	C0679637; major surgery; Therapeutic or Preventive Procedure
+T18	DISO 1198 1214	inmunodeprimidos
+#16	AnnotatorNotes T18	C0085393; Immunocompromised Host; Finding
+T19	PROC 1236 1263	tratamiento con corticoides
+T20	PROC 1265 1280	inmunosupresión
+#17	AnnotatorNotes T20	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T21	PROC 1286 1296	trasplante
+#18	AnnotatorNotes T21	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T22	DISO 1314 1331	inmunodeficiencia
+#19	AnnotatorNotes T22	C0021051; Immunologic Deficiency Syndromes; Disease or Syndrome
+T23	DISO 1354 1363	alérgicos
+#20	AnnotatorNotes T23	C1527304; Allergic Reaction; Pathologic Function
+T24	CHEM 1366 1377	Paracetamol
+#21	AnnotatorNotes T24	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T25	CHEM 1382 1391	Metamizol
+#22	AnnotatorNotes T25	C0012586; dipyrone; Organic Chemical · Pharmacologic Substance | C3714569; metamizole sodium; Organic Chemical · Pharmacologic Substance
+T26	PROC 1565 1579	ensayo clínico
+#23	AnnotatorNotes T26	C0008976; Clinical Trials; Research Activity
+T27	PROC 171 220	Ensayo clínico controlado aleatorizado en fase IV
+T28	PROC 698 722	consentimiento informado
+#24	AnnotatorNotes T28	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T29	CHEM 1252 1263	corticoides
+#25	AnnotatorNotes T29	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T30	PROC 1420 1444	consentimiento informado
+#26	AnnotatorNotes T30	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T31	PROC 1132 1157	colocación de los parches
+T32	Date 13 17	2016
+T33	LIVB 120 129	pacientes
+#27	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 280 289	pacientes
+#28	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 374 383	Pacientes
+#29	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Age 384 402	mayores de 18 años
+T38	Duration 559 580	las primeras 12 horas
+T40	Duration 670 684	>= de 48 horas
+T41	LIVB 737 745	paciente
+#30	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 748 758	familiares
+#31	AnnotatorNotes T42	C0080103; Relative (related person); Family Group
+T43	LIVB 787 796	Pacientes
+#32	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Age 797 815	menores de 18 años
+T45	LIVB 819 828	Pacientes
+#33	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	Spec_cue 868 877	supuestos
+T47	PHYS 879 887	embarazo
+#34	AnnotatorNotes T47	C0032961; Pregnancy; Organism Function
+T48	PHYS 890 899	lactancia
+#35	AnnotatorNotes T48	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T49	Duration 959 979	las 24 horas previas
+T50	Duration 1023 1032	< 6 meses
+T51	LIVB 1037 1045	Paciente
+#36	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	Neg_cue 1122 1128	impida
+T54	Form 1150 1157	parches
+#37	AnnotatorNotes T54	C4722398; Patch Dosage Form; Biomedical or Dental Material
+T55	LIVB 1344 1353	Pacientes
+#38	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Neg_cue 1395 1406	Ausencia de
+T57	LIVB 1459 1467	paciente
+#39	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 1470 1480	familiares
+#40	AnnotatorNotes T58	C0080103; Relative (related person); Family Group
+T60	LIVB 1530 1538	paciente
+#41	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 1613 1625	investigador
+#42	AnnotatorNotes T61	C0035173; Research Personnel; Professional or Occupational Group
+T64	LIVB 1188 1197	Pacientes
+#43	AnnotatorNotes T64	C0030705; Patients; Patient or Disabled Group
+T52	Spec_cue 1109 1117	supuesto
+T37	PROC 654 669	estancia en UCI
+#44	AnnotatorNotes T37	C5419131; Intensive Care Unit Stay; Health Care Activity
+A1	Assertion T30 Negated
+A2	Assertion T31 Negated
+A3	Assertion T47 Speculated
+A4	Assertion T48 Speculated
+A5	Assertion T12 Speculated
+A6	Assertion T13 Speculated
+A7	Assertion T14 Speculated
+A8	Assertion T15 Speculated
+A9	Assertion T17 Speculated
+A10	Assertion T16 Speculated
+A11	Status T14 History_of
+A12	Status T22 History_of
+A13	Status T23 History_of
+#45	AnnotatorNotes T27	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0282462; Phase 4 Clinical Trials; Research Activity 
+#46	AnnotatorNotes T15	C0679247; Terminal illness; Disease or Syndrome
+R1	Speculation Arg1:T52 Arg2:T17	
+R2	Speculation Arg1:T52 Arg2:T16	
+R3	Negation Arg1:T53 Arg2:T31	
+T39	Neg_cue 1483 1493	negativa a
+T59	Observation 1494 1518	participar en el estudio
+A14	Assertion T59 Negated
+#47	AnnotatorNotes T59	C1278516; Patient participation status; Finding
+R4	Negation Arg1:T39 Arg2:T59	
+R5	Negation Arg1:T56 Arg2:T30	
+T62	CONC 532 541	inclusión
+#48	AnnotatorNotes T62	C1512693; Inclusion; Qualitative Concept
+R6	Overlap Arg1:T62 Arg2:T38	
+R7	After Arg1:T62 Arg2:T10	
+R8	After Arg1:T62 Arg2:T11	
+T63	Observation 78 84	efecto
+#49	AnnotatorNotes T63	C1518681; Outcome of Therapy; Finding (?)
+R9	Experiences Arg1:T33 Arg2:T63	
+R10	Experiences Arg1:T33 Arg2:T2	
+R11	Experiences Arg1:T33 Arg2:T3	
+T65	Observation 238 244	efecto
+#50	AnnotatorNotes T65	C1518681; Outcome of Therapy; Finding (?)
+R12	Experiences Arg1:T34 Arg2:T65	
+R15	Experiences Arg1:T34 Arg2:T5	
+R16	Experiences Arg1:T34 Arg2:T4	
+R17	Has_Age Arg1:T35 Arg2:T36	
+R18	Experiences Arg1:T35 Arg2:T7	
+R19	Experiences Arg1:T35 Arg2:T9	
+T66	CONC 488 496	estancia
+#51	AnnotatorNotes T66	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R20	Overlap Arg1:T9 Arg2:T66	
+R21	Has_Duration_or_Interval Arg1:T37 Arg2:T40	
+T67	CONC 635 648	supervivencia
+#52	AnnotatorNotes T67	C0220921; survival aspects; Functional Concept
+R22	Has_Age Arg1:T43 Arg2:T44	
+R23	Experiences Arg1:T45 Arg2:T47	
+R24	Experiences Arg1:T45 Arg2:T48	
+R25	Experiences Arg1:T45 Arg2:T12	
+R26	Speculation Arg1:T46 Arg2:T47	
+R27	Speculation Arg1:T46 Arg2:T48	
+R28	Speculation Arg1:T46 Arg2:T12	
+R29	Speculation Arg1:T46 Arg2:T13	
+R30	Speculation Arg1:T46 Arg2:T14	
+R31	Overlap Arg1:T14 Arg2:T49	
+R32	Speculation Arg1:T46 Arg2:T15	
+T68	CONC 1003 1022	expectativa de vida
+#53	AnnotatorNotes T68	C0023671; Life Expectancy; Group Attribute
+R33	Has_Duration_or_Interval Arg1:T68 Arg2:T50	
+T69	Quantifier_or_Qualifier 910 916	activo
+A15	Assertion T69 Speculated
+#54	AnnotatorNotes T69	C0679217; Active State; Idea or Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T69	
+R35	Speculation Arg1:T46 Arg2:T69	
+T70	Quantifier_or_Qualifier 931 940	congénita
+#55	AnnotatorNotes T70	C1744681; Congenital qualifier; Qualitative Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T70	
+A16	Assertion T70 Speculated
+R37	Speculation Arg1:T46 Arg2:T70	
+R38	Experiences Arg1:T45 Arg2:T13	
+R39	Experiences Arg1:T45 Arg2:T14	
+R40	Experiences Arg1:T45 Arg2:T15	
+R41	Experiences Arg1:T51 Arg2:T16	
+R42	Experiences Arg1:T51 Arg2:T17	
+R43	Has_Drug_Form Arg1:T31 Arg2:T54	
+R44	Experiences Arg1:T51 Arg2:T31	
+R46	Before Arg1:T17 Arg2:T31	
+R47	Experiences Arg1:T64 Arg2:T18	
+R48	Used_for Arg1:T29 Arg2:T19	
+R49	Causes Arg1:T19 Arg2:T18	
+R50	Causes Arg1:T20 Arg2:T18	
+R51	After Arg1:T20 Arg2:T21	
+R52	Experiences Arg1:T64 Arg2:T19	
+R53	Experiences Arg1:T64 Arg2:T20	
+R54	Experiences Arg1:T64 Arg2:T21	
+R55	Experiences Arg1:T64 Arg2:T22	
+R56	Causes Arg1:T24 Arg2:T23	
+R57	Causes Arg1:T25 Arg2:T23	
+R58	Experiences Arg1:T55 Arg2:T23	
+T71	Observation 1544 1579	participando en otro ensayo clínico
+R61	Has_Duration_or_Interval Arg1:T11 Arg2:T38	
+R13	Causes Arg1:T22 Arg2:T18	
+#56	AnnotatorNotes T19	C0149783; Steroid therapy; Therapeutic or Preventive Procedure
+A17	Experiencer T33 Patient
+A18	Experiencer T34 Patient
+A19	Experiencer T35 Patient
+A20	Status T9 Future
+A21	Status T67 Future
+A22	Status T37 Future
+A23	Status T40 Future
+A24	Experiencer T41 Patient
+A25	Experiencer T42 Family_member
+A26	Experiencer T43 Patient
+A27	Experiencer T45 Patient
+A28	Experiencer T51 Patient
+A29	Experiencer T64 Patient
+A30	Experiencer T55 Patient
+A31	Experiencer T57 Patient
+A32	Experiencer T58 Family_member
+A33	Experiencer T60 Patient
+A34	Experiencer T61 Other

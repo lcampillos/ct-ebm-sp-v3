@@ -1,0 +1,240 @@
+T1	PROC 44 58	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 455 468	procedimiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T3	CHEM 88 100	testosterona
+#3	AnnotatorNotes T3	C0039601; testosterone; Hormone · Organic Chemical · Pharmacologic Substance
+T4	ANAT 133 140	ovárica
+#4	AnnotatorNotes T4	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T5	PROC 184 205	preparación folicular
+T6	CHEM 210 222	testosterona
+#5	AnnotatorNotes T6	C0039601; testosterone; Hormone · Organic Chemical · Pharmacologic Substance
+T7	ANAT 241 248	ovárica
+#6	AnnotatorNotes T7	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T8	PROC 250 289	ensayo clínico randomizado y controlado
+T9	DISO 312 324	Infertilidad
+#7	AnnotatorNotes T9	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T10	ANAT 344 351	Ovárica
+#8	AnnotatorNotes T10	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T11	PROC 488 502	ensayo clínico
+#9	AnnotatorNotes T11	C0008976; Clinical Trials; Research Activity
+T12	PROC 559 573	aleatorización
+#10	AnnotatorNotes T12	C0034656; Randomization; Research Activity
+T13	PROC 602 613	Diagnóstico
+#11	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	ANAT 639 646	ovárica
+#12	AnnotatorNotes T14	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T15	ANAT 844 852	ovocitos
+#13	AnnotatorNotes T15	C0029045; Oocytes; Cell
+T16	PROC 869 878	protocolo
+#14	AnnotatorNotes T16	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T17	PROC 882 902	estimulación ovárica
+T18	PROC 919 942	Test de reserva ovárica
+T19	PROC 963 966	AMH
+#15	AnnotatorNotes T19	C4048548; Anti-Mullerian Hormone Measurement; Laboratory Procedure
+T20	PROC 1010 1021	Diagnóstico
+#16	AnnotatorNotes T20	C0011900; Diagnosis; Diagnostic Procedure
+T21	DISO 1025 1038	endometriosis
+#17	AnnotatorNotes T21	C0014175; Endometriosis; Disease or Syndrome
+T22	PROC 1078 1093	cirugía ovárica
+T23	DISO 1115 1138	malformaciones uterinas
+T24	ANAT 1179 1186	uterina
+#18	AnnotatorNotes T24	C0042149; Uterus; Body Part, Organ, or Organ Component | C1269032; Entire uterus; Body Part, Organ, or Organ Component
+T25	DISO 1201 1218	miomas submucosos
+T26	ANAT 1208 1218	submucosos
+#19	AnnotatorNotes T26	C0225344; Tunica submucosa; Tissue
+T27	DISO 1221 1239	pólipo endometrial
+T28	PROC 1258 1280	ecografía transvaginal
+#20	AnnotatorNotes T28	C0203418; Transvaginal echography; Diagnostic Procedure | C3825064; Transvaginal ultrasonography; Diagnostic Procedure
+T29	DISO 1341 1352	azoospermia
+#21	AnnotatorNotes T29	C0004509; Azoospermia; Disease or Syndrome
+T30	DISO 1435 1465	ciclos menstruales irregulares
+#22	AnnotatorNotes T30	C0156404; Irregular Menstruation; Finding
+T31	DISO 1467 1490	Alteraciones endocrinas
+#23	AnnotatorNotes T31	C0014130; Endocrine System Diseases; Disease or Syndrome
+T32	PROC 1541 1555	ensayo clínico
+#24	AnnotatorNotes T32	C0008976; Clinical Trials; Research Activity
+T33	CHEM 1560 1572	medicamentos
+#25	AnnotatorNotes T33	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T34	DISO 1606 1613	Alergia
+#26	AnnotatorNotes T34	C1527304; Allergic Reaction; Pathologic Function
+T35	CHEM 1626 1633	fármaco
+#27	AnnotatorNotes T35	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T36	PROC 1650 1661	tratamiento
+#28	AnnotatorNotes T36	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T37	DISO 1354 1366	Hidrosálpinx
+#29	AnnotatorNotes T37	C0221376; Hydrosalpinx (disease); Disease or Syndrome
+T38	ANAT 196 205	folicular
+T39	DISO 118 140	baja respuesta ovárica
+T40	PROC 380 404	Consentimiento informado
+#30	AnnotatorNotes T40	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T41	DISO 226 248	baja respuesta ovárica
+T42	DISO 329 351	Baja Respuesta Ovárica
+T43	DISO 624 646	baja respuesta ovárica
+T44	ANAT 819 826	ovárica
+#31	AnnotatorNotes T44	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T45	ANAT 895 902	ovárica
+#32	AnnotatorNotes T45	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T46	ANAT 935 942	ovárica
+#33	AnnotatorNotes T46	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T47	DISO 806 826	baja reserva ovárica
+T48	DISO 830 833	BRO
+T49	ANAT 1086 1093	ovárica
+#34	AnnotatorNotes T49	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T50	ANAT 1130 1138	uterinas
+#35	AnnotatorNotes T50	C0042149; Uterus; Body Part, Organ, or Organ Component | C1269032; Entire uterus; Body Part, Organ, or Organ Component
+T51	DISO 1169 1186	patología uterina
+T52	ANAT 1228 1239	endometrial
+#36	AnnotatorNotes T52	C0014180; Endometrium; Body Part, Organ, or Organ Component | C1269566; Entire endometrium; Body Part, Organ, or Organ Component
+T53	PROC 1332 1335	REM
+#37	AnnotatorNotes T53	C0037842; Sperm Count Procedure; Laboratory Procedure (?) [recuento de espermatozoides móviles]
+T54	CHEM 1666 1676	andrógenos
+#38	AnnotatorNotes T54	C0002844; Androgens; Hormone · Pharmacologic Substance
+T55	PROC 1730 1733	IMC
+#39	AnnotatorNotes T55	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T56	PROC 952 955	RFA
+#40	AnnotatorNotes T56	C3273281; Antral follicle count; Diagnostic Procedure
+T57	PROC 1507 1515	tratadas
+#41	AnnotatorNotes T57	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T58	Date 12 16	2016
+T59	LIVB 104 113	pacientes
+#42	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 506 511	Mujer
+#43	AnnotatorNotes T60	C0043210; Woman; Population Group
+T61	Age 512 530	entre 18 y 40 años
+T62	LIVB 682 691	pacientes
+#44	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T64	Age 762 775	40 años o más
+T65	PHYS 811 826	reserva ovárica
+#45	AnnotatorNotes T65	C3850153; Ovarian Reserve; Organ or Tissue Function
+T66	PHYS 927 942	reserva ovárica
+#46	AnnotatorNotes T66	C3850153; Ovarian Reserve; Organ or Tissue Function
+T69	LIVB 1282 1289	Parejas
+#47	AnnotatorNotes T69	C0682323; Partner in relationship; Family Group
+T71	LIVB 1404 1413	Pacientes
+#48	AnnotatorNotes T71	C0030705; Patients; Patient or Disabled Group
+T72	PHYS 1414 1430	perimenopáusicas
+#49	AnnotatorNotes T72	C0993589; Perimenopause; Physiologic Function
+T73	Neg_cue 1504 1506	no
+T74	Duration 1680 1691	los 3 meses
+T67	DISO 1294 1310	factor masculino
+#50	AnnotatorNotes T67	C2910719; Encounter for male factor infertility in female patient; Finding [ICD-10: Z31.81]
+T68	PHYS 1435 1453	ciclos menstruales
+#51	AnnotatorNotes T68	C0025329; Menstrual cycle; Organism Function
+T70	Duration 1587 1604	inferior a un mes
+A1	Assertion T57 Negated
+A2	Status T43 History_of
+A3	Status T48 History_of
+A4	Status T22 History_of
+A5	Status T17 History_of
+A6	Status T32 History_of
+A7	Status T33 History_of
+A8	Status T34 History_of
+A9	Status T36 History_of
+A10	Status T54 History_of
+#52	AnnotatorNotes T8	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#53	AnnotatorNotes T17	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#54	AnnotatorNotes T22	C0161930; Operation on ovary; Therapeutic or Preventive Procedure 
+#55	AnnotatorNotes T23	C0266383; Uterine Anomalies; Congenital Abnormality 
+#57	AnnotatorNotes T27	C1704273; Endometrial Polyp; Neoplastic Process 
+T63	Quantifier_or_Qualifier 1393 1402	corregido
+A11	Assertion T63 Negated
+T75	Neg_cue 1390 1392	no
+T76	Quantifier_or_Qualifier 1139 1149	corregidas
+T77	Observation 75 81	efecto
+#58	AnnotatorNotes T77	C1518681; Outcome of Therapy; Finding (?)
+R1	Causes Arg1:T3 Arg2:T77	
+T78	Observation 163 177	Efecto clínico
+#59	AnnotatorNotes T78	C1518681; Outcome of Therapy; Finding (?)
+R2	Causes Arg1:T5 Arg2:T78	
+R3	Location_of Arg1:T38 Arg2:T5	
+R4	Used_for Arg1:T6 Arg2:T5	
+R5	Experiences Arg1:T59 Arg2:T3	
+R6	Experiences Arg1:T59 Arg2:T77	
+R7	Experiences Arg1:T59 Arg2:T39	
+R8	Location_of Arg1:T4 Arg2:T39	
+#60	AnnotatorNotes T39	C4087255; Poor response to ovulation induction; Pathologic Function
+#61	AnnotatorNotes T41	C4087255; Poor response to ovulation induction; Pathologic Function
+R9	Location_of Arg1:T7 Arg2:T41	
+#62	AnnotatorNotes T42	C4087255; Poor response to ovulation induction; Pathologic Function
+R10	Location_of Arg1:T10 Arg2:T42	
+R11	Overlap Arg1:T9 Arg2:T42	
+#63	AnnotatorNotes T43	C4087255; Poor response to ovulation induction; Pathologic Function
+#64	AnnotatorNotes T48	C4087255; Poor response to ovulation induction; Pathologic Function
+#65	AnnotatorNotes T47	C4087255; Poor response to ovulation induction; Pathologic Function
+R12	Before Arg1:T40 Arg2:T2	
+R13	Before Arg1:T40 Arg2:T11	
+R14	Has_Age Arg1:T60 Arg2:T61	
+R15	Overlap Arg1:T12 Arg2:T61	
+R16	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T43	
+R17	Experiences Arg1:T62 Arg2:T43	
+R19	Location_of Arg1:T44 Arg2:T47	
+R20	Location_of Arg1:T44 Arg2:T65	
+R21	Overlap Arg1:T47 Arg2:T64	
+T79	Result_or_Value 842 860	3 ovocitos o menos
+R22	Has_Result_or_Value Arg1:T48 Arg2:T79	
+R23	Location_of Arg1:T45 Arg2:T17	
+R24	Location_of Arg1:T46 Arg2:T66	
+R25	Location_of Arg1:T46 Arg2:T18	
+T80	Result_or_Value 956 960	<5-7
+T81	Result_or_Value 967 981	3.3-7.9 pmol/l
+R26	Has_Result_or_Value Arg1:T19 Arg2:T81	
+R27	Has_Result_or_Value Arg1:T56 Arg2:T80	
+T82	Result_or_Value 943 950	anormal
+#66	AnnotatorNotes T82	C0205161; Abnormal; Finding
+R30	Has_Result_or_Value Arg1:T18 Arg2:T82	
+T83	Quantifier_or_Qualifier 1047 1059	Grado III-IV
+R31	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T83	
+T84	Quantifier_or_Qualifier 1039 1045	severa
+#67	AnnotatorNotes T84	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R32	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T84	
+R33	Location_of Arg1:T49 Arg2:T22	
+R34	Location_of Arg1:T50 Arg2:T23	
+R35	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T76	
+#68	AnnotatorNotes T76	C0205202; Corrected; Qualitative Concept 
+R36	Location_of Arg1:T24 Arg2:T51	
+#69	AnnotatorNotes T51	C0042131; Uterine Diseases; Disease or Syndrome
+R37	Location_of Arg1:T26 Arg2:T25	
+R38	Location_of Arg1:T52 Arg2:T27	
+R42	Experiences Arg1:T69 Arg2:T67	
+R43	Experiences Arg1:T69 Arg2:T53	
+R44	Experiences Arg1:T69 Arg2:T29	
+T85	Result_or_Value 1336 1338	<1
+R45	Has_Result_or_Value Arg1:T53 Arg2:T85	
+R47	Overlap Arg1:T67 Arg2:T29	
+T86	Quantifier_or_Qualifier 1311 1317	severo
+#70	AnnotatorNotes T86	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R48	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T86	
+#71	AnnotatorNotes T63	C0205202; Corrected; Qualitative Concept
+R49	Negation Arg1:T75 Arg2:T63	
+T87	Quantifier_or_Qualifier 1367 1377	unilateral
+#72	AnnotatorNotes T87	C0205092; Unilateral; Spatial Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T87	
+T88	Quantifier_or_Qualifier 1380 1389	bilateral
+#73	AnnotatorNotes T88	C0238767; Bilateral; Spatial Concept
+R51	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T63	
+R52	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T88	
+R55	Overlap Arg1:T72 Arg2:T30	
+R56	Experiences Arg1:T71 Arg2:T72	
+R57	Experiences Arg1:T71 Arg2:T68	
+R58	Experiences Arg1:T71 Arg2:T30	
+R59	Negation Arg1:T73 Arg2:T57	
+T89	Quantifier_or_Qualifier 1491 1503	concurrentes
+#74	AnnotatorNotes T89	C0205420; Concurrent; Temporal Concept
+R60	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T89	
+R61	Has_Duration_or_Interval Arg1:T33 Arg2:T70	
+R62	Has_Duration_or_Interval Arg1:T32 Arg2:T70	
+R63	Causes Arg1:T35 Arg2:T34	
+R64	Used_for Arg1:T54 Arg2:T36	
+R65	Overlap Arg1:T54 Arg2:T74	
+T90	CONC 1705 1714	inclusión
+#75	AnnotatorNotes T90	C1512693; Inclusion; Qualitative Concept
+R66	Before Arg1:T36 Arg2:T90	
+T91	Result_or_Value 1734 1743	>32 kg/m2
+R67	Has_Result_or_Value Arg1:T55 Arg2:T91	
+#76	AnnotatorNotes T38	C0018120; Ovarian Follicle; Body Part, Organ, or Organ Component | C1283799; Entire ovarian follicle; Body Part, Organ, or Organ Component
+A12	Experiencer T71 Patient
+A13	Experiencer T59 Patient
+A14	Experiencer T60 Patient
+A15	Experiencer T62 Patient
+A16	Experiencer T69 Patient

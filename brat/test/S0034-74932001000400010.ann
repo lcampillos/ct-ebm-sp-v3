@@ -1,0 +1,147 @@
+T1	CHEM 1 10	Clonidina
+#1	AnnotatorNotes T1	C0009014; clonidine; Organic Chemical · Pharmacologic Substance
+T2	CHEM 609 617	fentanyl
+#2	AnnotatorNotes T2	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T3	DISO 38 57	dolor posoperatorio
+#3	AnnotatorNotes T3	C0030201; Pain, Postoperative; Sign or Symptom
+T4	PROC 61 81	cirugía proctológica
+T5	CHEM 108 115	agentes
+#4	AnnotatorNotes T5	C0450442; Agent; Chemical Viewed Functionally
+T6	PROC 147 225	ensayo clínico-terapéutico, comparativo y prospectivo, aleatorizado y a ciegas
+#5	AnnotatorNotes T6	C1579762; comparative study research; Research Activity + C0033522; Prospective Studies; Research Activity + C0150108; Blinded; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T7	CHEM 694 702	fentanyl
+#6	AnnotatorNotes T7	C0015846; Fentanyl; Organic Chemical · Pharmacologic Substance
+T8	PROC 232 251	evaluar la eficacia
+#7	AnnotatorNotes T8	C1707887; Efficacy Study; Research Activity
+T9	CHEM 258 267	clonidina
+#8	AnnotatorNotes T9	C0009014; clonidine; Organic Chemical · Pharmacologic Substance
+T10	CHEM 335 342	agentes
+#9	AnnotatorNotes T10	C0450442; Agent; Chemical Viewed Functionally
+T11	DISO 363 382	dolor posoperatorio
+#10	AnnotatorNotes T11	C0030201; Pain, Postoperative; Sign or Symptom
+T12	DISO 404 420	efectos adversos
+#11	AnnotatorNotes T12	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T13	PROC 494 514	cirugía proctológica
+T14	CHEM 554 563	lidocaína
+#12	AnnotatorNotes T14	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T15	CHEM 583 592	lidocaína
+#13	AnnotatorNotes T15	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T16	CHEM 625 634	lidocaína
+#14	AnnotatorNotes T16	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T17	CHEM 651 660	clonidina
+#15	AnnotatorNotes T17	C0009014; clonidine; Organic Chemical · Pharmacologic Substance
+T18	CHEM 668 677	lidocaína
+#16	AnnotatorNotes T18	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T19	CHEM 707 716	clonidina
+#17	AnnotatorNotes T19	C0009014; clonidine; Organic Chemical · Pharmacologic Substance
+T20	DISO 947 958	hipotensión
+#18	AnnotatorNotes T20	C0020649; Hypotension; Finding
+T21	DISO 980 998	retención urinaria
+#19	AnnotatorNotes T21	C0080274; Urinary Retention; Finding
+T22	DISO 1013 1029	efectos adversos
+#20	AnnotatorNotes T22	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T23	PROC 738 747	analgesia
+#21	AnnotatorNotes T23	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T24	DISO 821 826	dolor
+#22	AnnotatorNotes T24	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T25	PROC 849 858	analgesia
+#23	AnnotatorNotes T25	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T26	DISO 929 934	dolor
+#24	AnnotatorNotes T26	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T27	ANAT 990 998	urinaria
+#25	AnnotatorNotes T27	C0042036; Urine; Body Substance
+T28	Route 11 21	intratecal
+#26	AnnotatorNotes T28	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T30	Time 44 57	posoperatorio
+#27	AnnotatorNotes T30	C0032790; Postoperative Period; Temporal Concept
+T31	Route 295 309	vía intratecal
+#28	AnnotatorNotes T31	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T33	Time 369 382	posoperatorio
+#29	AnnotatorNotes T33	C0032790; Postoperative Period; Temporal Concept
+T34	Time 384 386	PO
+#30	AnnotatorNotes T34	C0032790; Postoperative Period; Temporal Concept
+T35	LIVB 467 476	pacientes
+#31	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Time 748 750	PO
+#32	AnnotatorNotes T36	C0032790; Postoperative Period; Temporal Concept
+T37	Neg_cue 797 803	ningún
+T38	LIVB 804 812	paciente
+#33	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 915 924	pacientes
+#34	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Time 959 974	transoperatoria
+#35	AnnotatorNotes T40	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T41	Time 999 1001	PO
+#36	AnnotatorNotes T41	C0032790; Postoperative Period; Temporal Concept
+A1	Assertion T38 Negated
+A2	Assertion T24 Negated
+T29	Quantifier_or_Qualifier 1056 1070	significativos
+A3	Assertion T29 Negated
+#37	AnnotatorNotes T29	C0750502; Significant; Idea or Concept
+T32	Neg_cue 1053 1055	no
+R1	Negation Arg1:T32 Arg2:T29	
+R2	Negation Arg1:T37 Arg2:T38	
+R3	Has_Route_or_Mode Arg1:T1 Arg2:T28	
+T42	Observation 27 33	alivio
+#38	AnnotatorNotes T42	C1998289; Pain relief by medication; Finding
+R4	Causes Arg1:T1 Arg2:T42	
+R5	Overlap Arg1:T3 Arg2:T30	
+R6	Before Arg1:T3 Arg2:T42	
+R7	Causes Arg1:T4 Arg2:T3	
+R8	Has_Route_or_Mode Arg1:T9 Arg2:T31	
+R9	Combined_with Arg1:T9 Arg2:T10	
+T43	Observation 352 358	alivio
+#39	AnnotatorNotes T43	C1998289; Pain relief by medication; Finding
+R10	Overlap Arg1:T11 Arg2:T33	
+R11	Overlap Arg1:T11 Arg2:T34	
+R12	Before Arg1:T11 Arg2:T43	
+R13	Causes Arg1:T9 Arg2:T43	
+R14	Causes Arg1:T9 Arg2:T12	
+R15	Experiences Arg1:T35 Arg2:T13	
+R16	Combined_with Arg1:T15 Arg2:T2	
+T44	Quantifier_or_Qualifier 564 575	hiperbárica
+R17	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T44	
+T45	Quantifier_or_Qualifier 593 604	hiperbárica
+R18	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T45	
+T46	Quantifier_or_Qualifier 635 646	hiperbárica
+R19	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T46	
+R20	Combined_with Arg1:T16 Arg2:T17	
+T47	Quantifier_or_Qualifier 678 689	hiperbárica
+R21	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T47	
+R22	Combined_with Arg1:T18 Arg2:T7	
+R23	Combined_with Arg1:T7 Arg2:T19	
+T48	LIVB 547 552	casos
+#40	AnnotatorNotes T48	C2986530; Intervention Group; Population Group (?) | C5205743; Experimental Group; Population Group (?)
+R24	Experiences Arg1:T48 Arg2:T14	
+R25	Experiences Arg1:T48 Arg2:T15	
+R26	Experiences Arg1:T48 Arg2:T16	
+R27	Experiences Arg1:T48 Arg2:T18	
+R28	Overlap Arg1:T23 Arg2:T36	
+T49	CONC 728 747	tiempo de analgesia
+R29	Negation Arg1:T37 Arg2:T24	
+R30	Experiences Arg1:T38 Arg2:T24	
+T50	Quantifier_or_Qualifier 827 833	severo
+A4	Assertion T50 Negated
+#41	AnnotatorNotes T50	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R31	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T50	
+R32	Negation Arg1:T37 Arg2:T50	
+R33	Experiences Arg1:T38 Arg2:T23	
+R35	Overlap Arg1:T24 Arg2:T36	
+T51	CONC 839 858	tiempo de analgesia
+R36	Experiences Arg1:T39 Arg2:T26	
+R37	Experiences Arg1:T39 Arg2:T25	
+T52	Quantifier_or_Qualifier 935 941	severo
+#42	AnnotatorNotes T52	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R38	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T52	
+R39	Overlap Arg1:T20 Arg2:T40	
+R40	Location_of Arg1:T27 Arg2:T21	
+R41	Overlap Arg1:T21 Arg2:T41	
+R42	Overlap Arg1:T22 Arg2:T41	
+R43	Overlap Arg1:T22 Arg2:T40	
+R44	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T29	
+#43	AnnotatorNotes T13	C0400140; Operative procedure on rectum AND/OR anus; Therapeutic or Preventive Procedure | C0919721; Anorectal operation; Therapeutic or Preventive Procedure
+#44	AnnotatorNotes T4	C0400140; Operative procedure on rectum AND/OR anus; Therapeutic or Preventive Procedure | C0919721; Anorectal operation; Therapeutic or Preventive Procedure
+A5	Experiencer T35 Patient
+A6	Experiencer T48 Patient
+A7	Experiencer T39 Patient
+A8	Experiencer T38 Patient

@@ -1,0 +1,239 @@
+T1	PROC 44 107	Ensayo Clínico Fase III, unicéntrico, aleatorizado, doble ciego
+T2	DISO 148 171	parálisis diafragmática
+#1	AnnotatorNotes T2	C0035232; Respiratory Paralysis; Finding
+T3	PROC 184 201	cirugía de hombro
+#2	AnnotatorNotes T3	C0186321; Operative procedure on shoulder; Therapeutic or Preventive Procedure
+T4	PROC 264 290	bloquear el plexo braquial
+T5	ANAT 276 290	plexo braquial
+#3	AnnotatorNotes T5	C0006090; Brachial plexus structure; Body Part, Organ, or Organ Component | C1278841; Entire brachial plexus; Body Part, Organ, or Organ Component
+T6	PROC 358 421	Ensayo Clínico Fase III, unicéntrico, aleatorizado, doble ciego
+T7	DISO 462 485	parálisis diafragmática
+#4	AnnotatorNotes T7	C0035232; Respiratory Paralysis; Finding
+T8	PROC 496 551	bloqueo del plexo braquial con abordaje interescalénico
+#5	AnnotatorNotes T8	C0394698; Brachial plexus block by interscalene approach; Therapeutic or Preventive Procedure
+T9	ANAT 508 522	plexo braquial
+#6	AnnotatorNotes T9	C0006090; Brachial plexus structure; Body Part, Organ, or Organ Component | C1278841; Entire brachial plexus; Body Part, Organ, or Organ Component
+T10	PROC 558 588	cirugía artroscópica de hombro
+#7	AnnotatorNotes T10	C0559702; Arthroscopic shoulder procedure (procedure); Diagnostic Procedure
+T11	ANAT 582 588	hombro
+#8	AnnotatorNotes T11	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T12	PROC 738 772	operados quirúrgicamente de hombro
+T13	ANAT 766 772	hombro
+#9	AnnotatorNotes T13	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T14	PROC 822 850	intervenidos quirúrgicamente
+#10	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T15	PROC 854 884	cirugía artroscópica de hombro
+#11	AnnotatorNotes T15	C0559702; Arthroscopic shoulder procedure (procedure); Diagnostic Procedure
+T16	ANAT 878 884	hombro
+#12	AnnotatorNotes T16	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T17	PROC 973 987	ensayo clínico
+#13	AnnotatorNotes T17	C0008976; Clinical Trials; Research Activity
+T18	PROC 996 1007	intervenido
+#14	AnnotatorNotes T18	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T19	PROC 1011 1052	cirugía programada artroscópica de hombro
+T20	PROC 914 950	Consentimiento informado por escrito
+#15	AnnotatorNotes T20	C0811741; Obtain informed written consent; Health Care Activity
+T21	ANAT 1046 1052	hombro
+#16	AnnotatorNotes T21	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T22	DISO 1138 1146	Alérgico
+#17	AnnotatorNotes T22	C0020517; Hypersensitivity; Pathologic Function
+T23	CHEM 1194 1202	opioides
+#18	AnnotatorNotes T23	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T24	CHEM 1211 1243	antiinflamatorios no esteroideos
+#19	AnnotatorNotes T24	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T25	PROC 1392 1404	espirometría
+#20	AnnotatorNotes T25	C0037981; Spirometry; Diagnostic Procedure
+T26	ANAT 1435 1443	pulmonar
+#21	AnnotatorNotes T26	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T27	DISO 1445 1449	EPOC
+#22	AnnotatorNotes T27	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T28	DISO 1471 1475	asma
+#23	AnnotatorNotes T28	C0004096; Asthma; Disease or Syndrome
+T29	DISO 1490 1513	Parálisis diafragmática
+#24	AnnotatorNotes T29	C0035232; Respiratory Paralysis; Finding
+T30	ANAT 1538 1551	neuromuscular
+#25	AnnotatorNotes T30	C0597054; neuromuscular system; Body System
+T31	DISO 1598 1628	Alteraciones de la coagulación
+#26	AnnotatorNotes T31	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T32	PROC 1630 1633	INR
+#27	AnnotatorNotes T32	C0525032; International Normalized Ratio; Laboratory Procedure
+T33	PROC 1638 1642	TTPA
+#28	AnnotatorNotes T33	C0030605; Activated Partial Thromboplastin Time measurement; Laboratory Procedure
+T34	PROC 1649 1651	AP
+#29	AnnotatorNotes T34	C0920267; Platelet aggregation measurement; Laboratory Procedure
+T35	DISO 1662 1691	Neuropatía del plexo braquial
+T36	ANAT 1677 1691	plexo braquial
+#30	AnnotatorNotes T36	C0006090; Brachial plexus structure; Body Part, Organ, or Organ Component | C1278841; Entire brachial plexus; Body Part, Organ, or Organ Component
+T37	CHEM 1716 1724	opioides
+#31	AnnotatorNotes T37	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T38	CHEM 1761 1769	opioides
+#32	AnnotatorNotes T38	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T39	CHEM 1831 1838	Morfina
+#33	AnnotatorNotes T39	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T40	ANAT 158 171	diafragmática
+#34	AnnotatorNotes T40	C0011980; Respiratory Diaphragm; Body Part, Organ, or Organ Component | C1279038; Entire diaphragm; Body Part, Organ, or Organ Component
+T41	CHEM 237 252	Levobupivacaina
+#35	AnnotatorNotes T41	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T42	ANAT 195 201	hombro
+#36	AnnotatorNotes T42	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T43	PROC 210 224	administración
+#37	AnnotatorNotes T43	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T44	PROC 313 327	administración
+#38	AnnotatorNotes T44	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T45	ANAT 472 485	diafragmática
+#39	AnnotatorNotes T45	C0011980; Respiratory Diaphragm; Body Part, Organ, or Organ Component | C1279038; Entire diaphragm; Body Part, Organ, or Organ Component
+T46	CHEM 624 639	Levobupivacaina
+#40	AnnotatorNotes T46	C0873118; levobupivacaine; Organic Chemical · Pharmacologic Substance
+T47	PROC 597 611	administración
+#41	AnnotatorNotes T47	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T48	PROC 668 682	administración
+#42	AnnotatorNotes T48	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T49	CHEM 1153 1186	anestésicos locales de tipo amida
+T50	DISO 1425 1443	patología pulmonar
+T51	ANAT 1500 1513	diafragmática
+#43	AnnotatorNotes T51	C0011980; Respiratory Diaphragm; Body Part, Organ, or Organ Component | C1279038; Entire diaphragm; Body Part, Organ, or Organ Component
+T52	DISO 1528 1551	patología neuromuscular
+T53	DISO 1556 1579	afectación respiratoria
+T54	ANAT 1567 1579	respiratoria
+#44	AnnotatorNotes T54	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T55	PROC 1743 1757	administración
+#45	AnnotatorNotes T55	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T56	Date 12 16	2019
+T57	Dose 228 233	25 mg
+T58	Dose 331 336	50 mg
+T59	Dose 615 620	25 mg
+T60	Dose 686 691	50 mg
+T61	LIVB 714 723	Pacientes
+#46	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 798 807	Pacientes
+#47	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	Age 1074 1092	entre 18 y 80 años
+T67	PHYS 1585 1593	Embarazo
+#48	AnnotatorNotes T67	C0032961; Pregnancy; Organism Function
+T68	Duration 1705 1712	crónico
+#49	AnnotatorNotes T68	C0205191; chronic; Temporal Concept
+T69	Duration 1778 1792	más de 3 meses
+T70	Dose 1809 1820	más de 5 mg
+T71	Frequency 1821 1827	al dia
+T72	Route 1839 1841	VO
+#50	AnnotatorNotes T72	C1527415; Oral Route of Drug administration; Functional Concept
+T73	Duration 1850 1855	1 mes
+T74	PHYS 1617 1628	coagulación
+#51	AnnotatorNotes T74	C0005778; Blood coagulation; Organ or Tissue Function
+T75	Dose 253 258	0,25%
+T76	Dose 640 645	0,25%
+T77	PROC 1098 1101	ASA
+#52	AnnotatorNotes T77	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T64	PROC 1286 1291	BBPAI
+#53	AnnotatorNotes T64	C0394697; Brachial Plexus Block; Therapeutic or Preventive Procedure
+T65	PROC 1337 1342	BPBAI
+#54	AnnotatorNotes T65	C0394698; Brachial plexus block by interscalene approach; Therapeutic or Preventive Procedure
+A1	Status T22 History_of
+A2	Assertion T25 Contraindicated
+A3	Status T50 History_of
+A4	Status T27 History_of
+A5	Status T28 History_of
+A6	Status T29 History_of
+A7	Assertion T65 Contraindicated
+A8	Status T35 History_of
+#55	AnnotatorNotes T12	C0186321; Operative procedure on shoulder; Therapeutic or Preventive Procedure
+#56	AnnotatorNotes T49	C3539945; Amide local anesthetics; Organic Chemical · Pharmacologic Substance 
+#57	AnnotatorNotes T50	C0748168; Pulmonary Pathology; Disease or Syndrome 
+#58	AnnotatorNotes T52	C0027868; Neuromuscular Diseases; Disease or Syndrome
+#59	AnnotatorNotes T35	C0700251; Brachial Plexus Neuropathies; Disease or Syndrome 
+T66	Neg_cue 1248 1250	No
+T78	Observation 1251 1261	aceptación
+A9	Assertion T78 Negated
+T79	Neg_cue 1229 1231	no
+T80	Quantifier_or_Qualifier 1232 1243	esteroideos
+A10	Assertion T80 Negated
+R1	Negation Arg1:T79 Arg2:T80	
+R2	Negation Arg1:T66 Arg2:T78	
+R3	Location_of Arg1:T40 Arg2:T2	
+T81	Quantifier_or_Qualifier 172 177	aguda
+#60	AnnotatorNotes T81	C0205178; acute; Temporal Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T81	
+R5	Location_of Arg1:T42 Arg2:T3	
+R7	Has_Dose_or_Strength Arg1:T41 Arg2:T57	
+R8	Has_Dose_or_Strength Arg1:T41 Arg2:T75	
+R9	Used_for Arg1:T41 Arg2:T43	
+R10	Location_of Arg1:T5 Arg2:T4	
+R11	Used_for Arg1:T41 Arg2:T44	
+R12	Has_Dose_or_Strength Arg1:T41 Arg2:T58	
+#61	AnnotatorNotes T4	C0394697; Brachial Plexus Block; Therapeutic or Preventive Procedure
+R13	Before Arg1:T43 Arg2:T4	
+R15	Before Arg1:T44 Arg2:T4	
+R16	Location_of Arg1:T45 Arg2:T7	
+T82	Quantifier_or_Qualifier 486 491	aguda
+#62	AnnotatorNotes T82	C0205178; acute; Temporal Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T82	
+R19	Before Arg1:T8 Arg2:T10	
+R20	Location_of Arg1:T9 Arg2:T8	
+R21	Before Arg1:T47 Arg2:T8	
+R22	Before Arg1:T4 Arg2:T3	
+R14	Has_Dose_or_Strength Arg1:T46 Arg2:T59	
+R23	Has_Dose_or_Strength Arg1:T46 Arg2:T76	
+R24	Used_for Arg1:T46 Arg2:T47	
+R25	Has_Dose_or_Strength Arg1:T46 Arg2:T60	
+R26	Used_for Arg1:T46 Arg2:T48	
+R27	Before Arg1:T48 Arg2:T8	
+R28	Location_of Arg1:T13 Arg2:T12	
+R29	Experiences Arg1:T61 Arg2:T12	
+R30	Location_of Arg1:T16 Arg2:T15	
+R31	Experiences Arg1:T62 Arg2:T14	
+R32	Experiences Arg1:T62 Arg2:T15	
+R33	Before Arg1:T20 Arg2:T17	
+R34	Location_of Arg1:T21 Arg2:T19	
+R35	Location_of Arg1:T16 Arg2:T14	
+R36	Location_of Arg1:T21 Arg2:T18	
+T83	Result_or_Value 1102 1107	I-III
+R37	Has_Result_or_Value Arg1:T77 Arg2:T83	
+R38	Causes Arg1:T49 Arg2:T22	
+R39	Causes Arg1:T23 Arg2:T22	
+R40	Causes Arg1:T24 Arg2:T22	
+R41	Before Arg1:T78 Arg2:T64	
+R42	Location_of Arg1:T26 Arg2:T50	
+R43	Location_of Arg1:T26 Arg2:T27	
+T84	Quantifier_or_Qualifier 1450 1467	moderada o severa
+#63	AnnotatorNotes T84	C1299393; Moderate to severe; Qualitative Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T84	
+T85	Quantifier_or_Qualifier 1476 1485	inestable
+R45	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T85	
+R46	Location_of Arg1:T51 Arg2:T29	
+R47	Location_of Arg1:T30 Arg2:T52	
+R48	Overlap Arg1:T52 Arg2:T53	
+R49	Location_of Arg1:T54 Arg2:T53	
+T86	Result_or_Value 1634 1636	>3
+T87	Result_or_Value 1643 1646	>35
+T88	Result_or_Value 1652 1656	<50%
+R50	Has_Result_or_Value Arg1:T34 Arg2:T88	
+R51	Has_Result_or_Value Arg1:T33 Arg2:T87	
+R52	Has_Result_or_Value Arg1:T32 Arg2:T86	
+R53	Location_of Arg1:T36 Arg2:T35	
+R54	Has_Duration_or_Interval Arg1:T37 Arg2:T68	
+T89	Observation 1697 1724	Consumo crónico de opioides
+#65	AnnotatorNotes T89	C0240602; opioid use; Mental or Behavioral Dysfunction (?)
+R55	Has_Duration_or_Interval Arg1:T89 Arg2:T68	
+R56	Used_for Arg1:T38 Arg2:T55	
+R57	Has_Duration_or_Interval Arg1:T38 Arg2:T69	
+T90	CONC 1795 1806;1828 1838	equivalente de Morfina
+R58	Has_Dose_or_Strength Arg1:T39 Arg2:T70	
+R59	Has_Frequency Arg1:T39 Arg2:T71	
+R60	Has_Route_or_Mode Arg1:T39 Arg2:T72	
+R61	Has_Duration_or_Interval Arg1:T39 Arg2:T73	
+R62	After Arg1:T2 Arg2:T43	
+R63	Location_of Arg1:T11 Arg2:T10	
+R64	After Arg1:T2 Arg2:T44	
+R65	Causes Arg1:T4 Arg2:T2	
+R66	Causes Arg1:T8 Arg2:T7	
+R70	Used_for Arg1:T41 Arg2:T4	
+R71	Used_for Arg1:T46 Arg2:T8	
+#64	AnnotatorNotes T53	C5436444; Respiratory involvement; Finding
+#66	AnnotatorNotes T78	C0600109; Willing; Finding (?)
+A11	Experiencer T61 Patient
+A12	Experiencer T62 Patient
+A13	Status T19 Future
+A14	Status T18 Future
+A15	Status T12 Future
+A16	Status T14 Future
+A17	Status T15 Future

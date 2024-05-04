@@ -1,0 +1,210 @@
+T1	DISO 136 166	malnutrición calórico-proteica
+#1	AnnotatorNotes T1	C0033677; Protein-Energy Malnutrition; Pathologic Function
+T2	PROC 246 264	valoración clínica
+#2	AnnotatorNotes T2	C4534461; Clinical assessment; Health Care Activity
+T3	ANAT 1071 1083	intracelular
+#3	AnnotatorNotes T3	C0021866; Intracellular Fluid; Body Substance
+T4	PROC 733 745	hemodiálisis
+#4	AnnotatorNotes T4	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T5	PROC 754 773	diálisis peritoneal
+#5	AnnotatorNotes T5	C0031139; Peritoneal Dialysis; Therapeutic or Preventive Procedure
+T6	PROC 803 818	análisis de BIE
+#6	AnnotatorNotes T6	C1704746; Bioelectric Impedance Analysis; Diagnostic Procedure
+T7	DISO 860 871	inflamación
+#7	AnnotatorNotes T7	C0021368; Inflammation; Pathologic Function
+T8	DISO 910 922	comorbilidad
+#8	AnnotatorNotes T8	C1275743; Co-morbid conditions; Finding
+T9	PROC 2075 2078	BIE
+#9	AnnotatorNotes T9	C1704746; Bioelectric Impedance Analysis; Diagnostic Procedure
+T10	CHEM 1066 1070	agua
+#10	AnnotatorNotes T10	C0043047; water; Pharmacologic Substance · Inorganic Chemical
+T11	CHEM 1092 1096	agua
+#11	AnnotatorNotes T11	C0043047; water; Pharmacologic Substance · Inorganic Chemical
+T12	ANAT 1097 1109	extracelular
+#12	AnnotatorNotes T12	C0521119; Extracellular; Cell Component
+T13	Observation 1119 1135	ganancia de peso
+#13	AnnotatorNotes T13	C0043094; Weight Gain; Finding
+T14	ANAT 1216 1221	grasa
+#14	AnnotatorNotes T14	C0001527; Adipose tissue; Tissue
+T15	PROC 1393 1404	seguimiento
+#15	AnnotatorNotes T15	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T16	PROC 1523 1542	diálisis peritoneal
+#16	AnnotatorNotes T16	C0031139; Peritoneal Dialysis; Therapeutic or Preventive Procedure
+T17	PROC 1550 1562	hemodiálisis
+#17	AnnotatorNotes T17	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T18	DISO 1697 1709	comorbilidad
+#18	AnnotatorNotes T18	C1275743; Co-morbid conditions; Finding
+T19	PROC 1991 2015	estudios de intervención
+#19	AnnotatorNotes T19	C3274035; Interventional Study; Research Activity
+T20	PROC 109 117	diálisis
+#20	AnnotatorNotes T20	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T21	PROC 220 228	diálisis
+#21	AnnotatorNotes T21	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T22	Route 763 773	peritoneal
+#22	AnnotatorNotes T22	C1706534; Peritoneal dialysis route; Functional Concept
+T23	PROC 1235 1238	PCR
+#23	AnnotatorNotes T23	C0201657; C-reactive protein measurement; Laboratory Procedure
+T24	ANAT 1499 1507	corporal
+#24	AnnotatorNotes T24	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T25	Route 1532 1542	peritoneal
+#25	AnnotatorNotes T25	C1706534; Peritoneal dialysis route; Functional Concept
+T26	PROC 1953 1961	diálisis
+#26	AnnotatorNotes T26	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T27	PROC 25 45	impedancia eléctrica
+#27	AnnotatorNotes T27	C1704746; Bioelectric Impedance Analysis; Diagnostic Procedure
+T28	PROC 294 317	bioimpedancia eléctrica
+#28	AnnotatorNotes T28	C1704746; Bioelectric Impedance Analysis; Diagnostic Procedure
+T29	PROC 319 322	BIE
+#29	AnnotatorNotes T29	C1704746; Bioelectric Impedance Analysis; Diagnostic Procedure
+T30	PROC 330 355	procedimiento no invasivo
+#30	AnnotatorNotes T30	C0199172; Non-invasive medical procedure; Health Care Activity
+T31	PROC 511 514	BIE
+#31	AnnotatorNotes T31	C1704746; Bioelectric Impedance Analysis; Diagnostic Procedure
+T33	Date 79 92	a largo plazo
+T34	LIVB 96 105	pacientes
+#32	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 207 216	pacientes
+#33	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T39	Date 662 675	a largo plazo
+T40	LIVB 678 687	Pacientes
+#34	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 715 724	pacientes
+#35	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 1244 1253	pacientes
+#36	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	Duration 1376 1389	los seis años
+T46	LIVB 1416 1425	pacientes
+#37	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 1940 1949	pacientes
+#38	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T55	PHYS 573 582	nutrición
+#39	AnnotatorNotes T55	C1442959; Nutrition function; Organism Function
+T56	PHYS 874 883	nutrición
+#40	AnnotatorNotes T56	C1442959; Nutrition function; Organism Function
+T58	PHYS 1884 1893	nutrición
+#41	AnnotatorNotes T58	C1442959; Nutrition function; Organism Function
+T32	Duration 1136 1149	interdiálisis
+T35	PROC 1286 1304	estado nutricional
+#42	AnnotatorNotes T35	C0028708; Nutrition Assessment; Diagnostic Procedure
+T37	PROC 1870 1893	parámetros de nutrición
+#43	AnnotatorNotes T37	C0028708; Nutrition Assessment; Diagnostic Procedure
+T38	PROC 559 582	parámetros de nutrición
+#44	AnnotatorNotes T38	C0028708; Nutrition Assessment; Diagnostic Procedure
+T42	Neg_cue 265 267	no
+T44	Quantifier_or_Qualifier 276 289	bien definida
+A1	Assertion T44 Negated
+R1	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T44	
+R2	Negation Arg1:T42 Arg2:T44	
+T47	Quantifier_or_Qualifier 347 355	invasivo
+A2	Assertion T47 Negated
+#45	AnnotatorNotes T47	C0205281; Invasive; Qualitative Concept
+T48	Neg_cue 344 346	no
+R3	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T47	
+R4	Negation Arg1:T48 Arg2:T47	
+T49	Spec_cue 2040 2042	si
+T50	CONC 2104 2117	supervivencia
+A3	Assertion T50 Speculated
+#46	AnnotatorNotes T50	C0038954; Survival Rate; Quantitative Concept
+T51	Observation 2046 2053	mejoría
+A4	Assertion T51 Speculated
+#47	AnnotatorNotes T51	C0184511; Improved; Finding (?)
+R5	Speculation Arg1:T49 Arg2:T51	
+A5	Assertion T9 Speculated
+R6	Speculation Arg1:T49 Arg2:T9	
+T53	Quantifier_or_Qualifier 2098 2103	mayor
+A6	Assertion T53 Speculated
+R8	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T53	
+T54	CONC 900 934	índice de comorbilidad de Charlson
+#48	AnnotatorNotes T54	C4546361; Charlson Comorbidity Index; Intellectual Product
+R9	Has_Route_or_Mode Arg1:T16 Arg2:T25	
+R10	Experiences Arg1:T46 Arg2:T17	
+R11	Experiences Arg1:T46 Arg2:T16	
+T57	CONC 65 78	supervivencia
+#49	AnnotatorNotes T57	C0220921; survival aspects; Functional Concept
+T59	CONC 1335 1348	supervivencia
+#50	AnnotatorNotes T59	C0220921; survival aspects; Functional Concept
+R12	Overlap Arg1:T59 Arg2:T45	
+T60	CONC 1923 1936	supervivencia
+#51	AnnotatorNotes T60	C0220921; survival aspects; Functional Concept
+R13	Experiences Arg1:T52 Arg2:T26	
+R14	Experiences Arg1:T52 Arg2:T37	
+R16	Overlap Arg1:T57 Arg2:T33	
+R17	Experiences Arg1:T34 Arg2:T20	
+R18	Experiences Arg1:T34 Arg2:T27	
+T61	Observation 173 189	factor de riesgo
+#52	AnnotatorNotes T61	C0035648; risk factors; Finding
+R19	Experiences Arg1:T36 Arg2:T61	
+R20	Experiences Arg1:T36 Arg2:T1	
+T62	CONC 193 203	mortalidad
+#53	AnnotatorNotes T62	C0026565; Mortality Vital Statistics; Quantitative Concept
+R21	Experiences Arg1:T36 Arg2:T21	
+R22	Experiences Arg1:T36 Arg2:T2	
+T63	Quantifier_or_Qualifier 358 366	objetivo
+#54	AnnotatorNotes T63	C1571702; Objective observation; Qualitative Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T63	
+R25	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T63	
+R26	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T63	
+T64	CONC 651 661	mortalidad
+#55	AnnotatorNotes T64	C0026565; Mortality Vital Statistics; Quantitative Concept
+R30	Overlap Arg1:T64 Arg2:T39	
+R31	Experiences Arg1:T41 Arg2:T4	
+R32	Experiences Arg1:T41 Arg2:T5	
+R33	Has_Route_or_Mode Arg1:T5 Arg2:T22	
+T65	CONC 846 883	parámetros de inflamación y nutrición
+R34	Experiences Arg1:T40 Arg2:T4	
+R35	Experiences Arg1:T40 Arg2:T5	
+R36	Experiences Arg1:T40 Arg2:T6	
+R37	Experiences Arg1:T40 Arg2:T7	
+R38	Experiences Arg1:T40 Arg2:T56	
+R39	Experiences Arg1:T40 Arg2:T8	
+R40	Experiences Arg1:T41 Arg2:T6	
+R41	Experiences Arg1:T41 Arg2:T7	
+R42	Experiences Arg1:T41 Arg2:T56	
+R43	Experiences Arg1:T41 Arg2:T8	
+T66	CONC 967 978	correlación
+#56	AnnotatorNotes T66	C1707520; Correlation; Qualitative Concept
+T67	Quantifier_or_Qualifier 979 985	lineal
+#57	AnnotatorNotes T67	C0205132; Linear; Spatial Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T67	
+R45	Location_of Arg1:T3 Arg2:T10	
+R46	Location_of Arg1:T12 Arg2:T11	
+R47	Has_Duration_or_Interval Arg1:T13 Arg2:T32	
+T68	CONC 1211 1221	masa grasa
+#58	AnnotatorNotes T68	C4764117; Fat Mass; Quantitative Concept
+T69	CONC 1047 1057	masa magra
+R48	Location_of Arg1:T14 Arg2:T68	
+#59	AnnotatorNotes T69	C4764118; Lean Mass; Quantitative Concept
+R49	Experiences Arg1:T43 Arg2:T35	
+T70	Quantifier_or_Qualifier 1310 1321	más jóvenes
+R52	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T70	
+T71	CONC 1473 1507	parámetros de composición corporal
+T73	Quantifier_or_Qualifier 1632 1643	más jóvenes
+R53	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T73	
+T74	CONC 1651 1673	análisis multivariable
+#61	AnnotatorNotes T74	C0026777; Multivariate Analysis; Quantitative Concept
+T75	Quantifier_or_Qualifier 1710 1731	ajustada para la edad
+#62	AnnotatorNotes T75	C4300468; age adjusted; Quantitative Concept
+R54	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T75	
+T76	Observation 1747 1765	factores de riesgo
+#63	AnnotatorNotes T76	C0035648; risk factors; Finding
+T77	CONC 1784 1794	mortalidad
+#64	AnnotatorNotes T77	C0026565; Mortality Vital Statistics; Quantitative Concept
+T78	CONC 1850 1861	correlación
+#65	AnnotatorNotes T78	C1707520; Correlation; Qualitative Concept
+#66	AnnotatorNotes T53	C1704243; Greater; Quantitative Concept
+T79	PHYS 1487 1507	composición corporal
+#67	AnnotatorNotes T79	C0005885; Body Composition; Organism Attribute
+R56	Location_of Arg1:T24 Arg2:T79	
+R57	Experiences Arg1:T46 Arg2:T79	
+#60	AnnotatorNotes T44	C0442825; Well defined; Qualitative Concept
+R7	Speculation Arg1:T49 Arg2:T53	
+R15	Speculation Arg1:T49 Arg2:T50	
+#68	AnnotatorNotes T33	C0443252; Long-term; Temporal Concept
+#69	AnnotatorNotes T39	C0443252; Long-term; Temporal Concept
+A7	Experiencer T34 Patient
+A8	Experiencer T36 Patient
+A9	Experiencer T41 Patient
+A10	Experiencer T40 Patient
+A11	Experiencer T43 Patient
+A12	Experiencer T52 Patient
+A13	Experiencer T46 Patient

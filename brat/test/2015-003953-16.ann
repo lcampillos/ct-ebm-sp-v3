@@ -1,0 +1,163 @@
+T1	PROC 66 88	tratamiento del cáncer
+#1	AnnotatorNotes T1	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+T2	PROC 112 139	Ensayo clínico en Fase IIIb
+T3	PROC 145 164	evaluar la eficacia
+#2	AnnotatorNotes T3	C1707887; Efficacy Study; Research Activity
+T4	CHEM 171 183	dexametasona
+#3	AnnotatorNotes T4	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T5	DISO 207 223	pérdida auditiva
+#4	AnnotatorNotes T5	C1384666; hearing impairment; Disease or Syndrome
+T6	PROC 254 276	tratamiento oncológico
+#5	AnnotatorNotes T6	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+T7	PROC 308 330	tratamiento del cáncer
+#6	AnnotatorNotes T7	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+T8	DISO 355 367	Ototoxicidad
+#7	AnnotatorNotes T8	C0235280; Ototoxicity; Pathologic Function
+T9	CHEM 372 382	cisplatino
+#8	AnnotatorNotes T9	C0008838; cisplatin; Inorganic Chemical · Pharmacologic Substance
+T10	PROC 495 504	consultas
+#9	AnnotatorNotes T10	C0009818; Consultation; Health Care Activity
+T11	PROC 602 611	protocolo
+#10	AnnotatorNotes T11	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T12	PROC 615 641	tratamiento quimioterápico
+T13	CHEM 657 667	cisplatino
+#11	AnnotatorNotes T13	C0008838; cisplatin; Inorganic Chemical · Pharmacologic Substance
+T14	DISO 686 718	afectación previa de la audición
+T15	DISO 277 286	ototóxico
+#12	AnnotatorNotes T15	C1407041; toxic; substance, deafness
+T16	PROC 872 885	procedimentos
+T17	PROC 926 940	consentimiento
+#13	AnnotatorNotes T17	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T18	PROC 979 989	evaluación
+#14	AnnotatorNotes T18	C1261322; Evaluation procedure; Health Care Activity
+T19	DISO 1236 1278	pérdida de audición de origen retrococlear
+#15	AnnotatorNotes T19	C0155550; Neural hearing loss; Disease or Syndrome
+T20	DISO 1281 1302	Enfermedad de Meniere
+#16	AnnotatorNotes T20	C0025281; Meniere Disease; Disease or Syndrome
+T21	DISO 1306 1344	Enfermedad autoinmune del oído interno
+#17	AnnotatorNotes T21	C1735590; Autoimmune inner ear disease; Disease or Syndrome
+T22	ANAT 1332 1344	oído interno
+#18	AnnotatorNotes T22	C0022889; Labyrinth; Body Part, Organ, or Organ Component | C1268973; Entire inner ear; Body Part, Organ, or Organ Component
+T23	DISO 1348 1378	Pérdida de audición fluctuante
+#19	AnnotatorNotes T23	C2127111; fluctuating loss of hearing; Sign or Symptom
+T24	DISO 1382 1414	Hipoacusia neurosensorial brusca
+#20	AnnotatorNotes T24	C4275242; Sudden sensorineural hearing loss; Disease or Syndrome
+T25	PROC 1418 1446	Tratamiento con radioterapia
+T26	ANAT 1470 1476	cabeza
+#21	AnnotatorNotes T26	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T27	ANAT 1479 1485	cuello
+#22	AnnotatorNotes T27	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T28	DISO 1504 1529	enfermedad del oído medio
+#23	AnnotatorNotes T28	C0271428; Disorder of middle ear; Disease or Syndrome
+T29	ANAT 1519 1529	oído medio
+#24	AnnotatorNotes T29	C0013455; middle ear; Body Space or Junction | C1268972; Entire middle ear; Body Part, Organ, or Organ Component
+T30	PROC 1595 1611	ensayos clínicos
+#25	AnnotatorNotes T30	C0008976; Clinical Trials; Research Activity
+T31	DISO 82 88	cáncer
+#26	AnnotatorNotes T31	C0006826; Malignant Neoplasms; Neoplastic Process
+T32	DISO 324 330	cáncer
+#27	AnnotatorNotes T32	C0006826; Malignant Neoplasms; Neoplastic Process
+T33	CHEM 627 641	quimioterápico
+#28	AnnotatorNotes T33	C0003392; Antineoplastic Agents; Organic Chemical · Pharmacologic Substance
+T34	ANAT 1266 1278	retrococlear
+T35	ANAT 1393 1407	neurosensorial
+#29	AnnotatorNotes T35	C4516218; Entire sensory nervous system; Body Part, Organ, or Organ Component
+T36	Date 13 17	2015
+T37	LIVB 240 249	pacientes
+#30	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 411 418	Hombres
+#31	AnnotatorNotes T38	C0025266; Male population group; Population Group
+T39	LIVB 421 428	mujeres
+#32	AnnotatorNotes T39	C0043210; Woman; Population Group
+T40	Age 438 464	igual o superior a 18 años
+T41	LIVB 468 477	Pacientes
+#33	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 672 681	Pacientes
+#34	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Neg_cue 682 685	sin
+T45	LIVB 787 796	Pacientes
+#35	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 900 909	Pacientes
+#36	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1222 1231	Pacientes
+#37	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1490 1499	Pacientes
+#38	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 1533 1542	Pacientes
+#39	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	PHYS 215 223	auditiva
+#40	AnnotatorNotes T50	C0018767; Hearing; Physiologic Function
+T51	PHYS 710 718	audición
+#41	AnnotatorNotes T51	C0018767; Hearing; Physiologic Function
+T44	PHYS 1359 1367	audición
+#42	AnnotatorNotes T44	C0018767; Hearing; Physiologic Function
+T52	PHYS 1247 1255	audición
+#43	AnnotatorNotes T52	C0018767; Hearing; Physiologic Function
+T53	PROC 827 834	visitas
+#44	AnnotatorNotes T53	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T14 Negated
+A2	Status T14 History_of
+A3	Status T25 History_of
+#45	AnnotatorNotes T2	C1706097; Trial Phase 3B; Research Activity 
+#46	AnnotatorNotes T12	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+#47	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+#48	AnnotatorNotes T25	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+R2	Experiences Arg1:T37 Arg2:T5	
+R3	Experiences Arg1:T37 Arg2:T50	
+T54	Quantifier_or_Qualifier 224 236	irreversible
+R4	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T54	
+R5	Experiences Arg1:T37 Arg2:T6	
+R6	Experiences Arg1:T37 Arg2:T15	
+R7	Overlap Arg1:T5 Arg2:T15	
+R10	Causes Arg1:T9 Arg2:T8	
+R11	Causes Arg1:T6 Arg2:T15	
+R12	Has_Age Arg1:T38 Arg2:T40	
+R13	Has_Age Arg1:T39 Arg2:T40	
+R14	Experiences Arg1:T41 Arg2:T12	
+R15	Used_for Arg1:T33 Arg2:T12	
+R16	Experiences Arg1:T41 Arg2:T13	
+R17	Negation Arg1:T43 Arg2:T14	
+R18	Experiences Arg1:T42 Arg2:T51	
+R19	Experiences Arg1:T42 Arg2:T14	
+T55	DISO 704 718;748 782	de la audición afectación relacionada con la edad
+#49	AnnotatorNotes T55	C0033074; Presbycusis; Pathologic Function
+R20	Experiences Arg1:T42 Arg2:T55	
+T56	Observation 797 834	capaces de realizar todas las visitas
+T57	Observation 797 804;849 885	capaces de completar todos los procedimentos
+R21	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T57	
+R22	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T56	
+R23	Before Arg1:T17 Arg2:T18	
+T58	Observation 992 1064	consientan expresamente la inclusión de los datos de su historia clínica
+T59	CONC 1048 1064	historia clínica
+#50	AnnotatorNotes T59	C5204342; Clinical History; Intellectual Product
+T60	Observation 1096 1123	participación en el estudio
+#51	AnnotatorNotes T60	C1278516; Patient participation status; Finding (?)
+R24	Before Arg1:T17 Arg2:T60	
+R25	Experiences Arg1:T47 Arg2:T19	
+R27	Location_of Arg1:T22 Arg2:T21	
+R29	Location_of Arg1:T35 Arg2:T24	
+R30	Location_of Arg1:T26 Arg2:T25	
+R31	Location_of Arg1:T27 Arg2:T25	
+T61	Quantifier_or_Qualifier 1456 1466	simultánea
+#52	AnnotatorNotes T61	C0521115; Simultaneous; Temporal Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T61	
+R33	Location_of Arg1:T29 Arg2:T28	
+R34	Experiences Arg1:T48 Arg2:T28	
+T62	Observation 1553 1611	participando de forma simultánea en otros ensayos clínicos
+R37	Experiences Arg1:T46 Arg2:T18	
+R38	Location_of Arg1:T34 Arg2:T19	
+R1	Experiences Arg1:T45 Arg2:T16	
+A4	Experiencer T37 Patient
+A5	Experiencer T38 Patient
+A6	Experiencer T39 Patient
+A7	Experiencer T41 Patient
+A8	Status T11 Future
+A9	Status T12 Future
+A10	Status T13 Future
+A11	Status T33 Future
+A12	Experiencer T42 Patient
+A13	Experiencer T45 Patient
+A14	Experiencer T46 Patient
+A15	Experiencer T47 Patient
+A16	Experiencer T48 Patient
+A17	Experiencer T49 Patient

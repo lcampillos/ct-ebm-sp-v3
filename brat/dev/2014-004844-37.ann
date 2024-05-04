@@ -1,0 +1,135 @@
+T1	DISO 488 490	AP
+#1	AnnotatorNotes T1	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T2	CHEM 55 67	indometacina
+#2	AnnotatorNotes T2	C0021246; indomethacin; Organic Chemical · Pharmacologic Substance
+T3	DISO 71 83	pancreatitis
+#3	AnnotatorNotes T3	C0030305; Pancreatitis; Disease or Syndrome
+T4	PROC 105 144	Ensayo piloto controlado y aleatorizado
+#4	AnnotatorNotes T4	C0031928; Pilot Projects; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T5	CHEM 149 161	indometacina
+#5	AnnotatorNotes T5	C0021246; indomethacin; Organic Chemical · Pharmacologic Substance
+T6	DISO 165 183	pancreatitis aguda
+#6	AnnotatorNotes T6	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T7	DISO 207 219	Pancreatitis
+#7	AnnotatorNotes T7	C0030305; Pancreatitis; Disease or Syndrome
+T8	DISO 245 263	Pancreatitis aguda
+#8	AnnotatorNotes T8	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T9	PROC 346 357	diagnóstico
+#9	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	DISO 361 379	pancreatitis aguda
+#10	AnnotatorNotes T10	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T11	DISO 434 449	Dolor abdominal
+#11	AnnotatorNotes T11	C0000737; Abdominal Pain; Sign or Symptom
+T12	DISO 468 486	pancreatitis aguda
+#12	AnnotatorNotes T12	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T13	PROC 743 766	frecuencia respiratoria
+#13	AnnotatorNotes T13	C0561866; Respiratory rate monitoring; Health Care Activity
+T14	PROC 499 506	amilasa
+#14	AnnotatorNotes T14	C0201883; Amylase measurement; Laboratory Procedure
+T15	PROC 687 698	temperatura
+#15	AnnotatorNotes T15	C0886414; Body temperature measurement; Health Care Activity
+T16	PROC 796 806	Leucocitos
+T17	PROC 860 867	ingreso
+#16	AnnotatorNotes T17	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T18	DISO 976 991	dolor abdominal
+#17	AnnotatorNotes T18	C0000737; Abdominal Pain; Sign or Symptom
+T19	DISO 1005 1009	SRIS
+#18	AnnotatorNotes T19	C0242966; Systemic Inflammatory Response Syndrome; Disease or Syndrome
+T20	DISO 1049 1051	FO
+#19	AnnotatorNotes T20	C0349410; Single organ dysfunction; Sign or Symptom
+T21	DISO 1066 1077	fallo renal
+#20	AnnotatorNotes T21	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T22	DISO 1079 1093	úlcera péptica
+#21	AnnotatorNotes T22	C0030920; Peptic Ulcer; Disease or Syndrome
+T23	CHEM 1116 1121	AINEs
+#22	AnnotatorNotes T23	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T24	PROC 778 783	PaCO2
+#23	AnnotatorNotes T24	C0428189; Measurement of partial pressure of carbon dioxide in blood; Laboratory Procedure
+T25	DISO 1181 1188	alergia
+#24	AnnotatorNotes T25	C1527304; Allergic Reaction; Pathologic Function
+T26	ANAT 440 449	abdominal
+#25	AnnotatorNotes T26	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T27	PROC 512 518	lipasa
+#26	AnnotatorNotes T27	C0373670; Lipase measurement; Laboratory Procedure
+T28	DISO 603 605	AP
+#27	AnnotatorNotes T28	C0001339; Pancreatitis, Acute; Disease or Syndrome
+T29	PROC 613 630	pruebas de imagen
+#28	AnnotatorNotes T29	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T30	ANAT 725 733	cardiaca
+#29	AnnotatorNotes T30	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T32	ANAT 982 991	abdominal
+#30	AnnotatorNotes T32	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T33	DISO 647 651	SIRS
+#31	AnnotatorNotes T33	C0242966; Systemic Inflammatory Response Syndrome; Disease or Syndrome
+T34	PROC 714 733	frecuencia cardiaca
+#32	AnnotatorNotes T34	C2197023; examination of heart rate; Health Care Activity
+T35	ANAT 1072 1077	renal
+#33	AnnotatorNotes T35	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T36	Date 12 16	2014
+T37	LIVB 290 299	Pacientes
+#34	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Age 300 318	mayores de 18 años
+T39	LIVB 633 642	Pacientes
+#35	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T44	Duration 896 913	las primeras 24 h
+T45	Duration 940 955	Mas de 48 horas
+T46	Neg_cue 993 1004	ausencia de
+T47	Duration 1013 1034	las primeras 48 horas
+T48	Frequency 1106 1112	diario
+T49	Duration 1132 1149	la primera semana
+A1	Assertion T19 Negated
+A2	Status T25 History_of
+#36	AnnotatorNotes T16	C0023508; White Blood Cell Count procedure; Laboratory Procedure 
+R1	Has_Age Arg1:T37 Arg2:T38	
+R2	Experiences Arg1:T37 Arg2:T10	
+T31	PROC 323 341	acudan al hospital
+#37	AnnotatorNotes T31	C0184666; Hospital admission; Health Care Activity
+R3	Experiences Arg1:T37 Arg2:T31	
+R4	Location_of Arg1:T26 Arg2:T11	
+R5	Causes Arg1:T12 Arg2:T11	
+R6	Causes Arg1:T1 Arg2:T11	
+T40	Result_or_Value 519 562	>=3 veces del límite superior de normalidad
+R7	Has_Result_or_Value Arg1:T27 Arg2:T40	
+R8	Has_Result_or_Value Arg1:T14 Arg2:T40	
+T41	Observation 574 583	Hallazgos
+#38	AnnotatorNotes T41	C0243095; Finding; Finding
+R9	Causes Arg1:T28 Arg2:T41	
+R12	Experiences Arg1:T39 Arg2:T33	
+T42	Result_or_Value 699 712	<36ºC o >38ºC
+R13	Has_Result_or_Value Arg1:T15 Arg2:T42	
+R14	Location_of Arg1:T30 Arg2:T34	
+T43	Result_or_Value 734 741	>90/min
+R15	Has_Result_or_Value Arg1:T34 Arg2:T43	
+T50	Result_or_Value 767 774	>20/min
+R16	Has_Result_or_Value Arg1:T13 Arg2:T50	
+T51	Result_or_Value 784 793	<32 mm Hg
+R17	Has_Result_or_Value Arg1:T24 Arg2:T51	
+T52	Result_or_Value 807 830	<4,000/mm3, >12,000/mm3
+R18	Has_Result_or_Value Arg1:T16 Arg2:T52	
+T53	Result_or_Value 834 855	>10% formas inmaduras
+R19	Has_Result_or_Value Arg1:T16 Arg2:T53	
+R20	Experiences Arg1:T39 Arg2:T15	
+R21	Experiences Arg1:T39 Arg2:T34	
+R22	Experiences Arg1:T39 Arg2:T13	
+R23	Experiences Arg1:T39 Arg2:T24	
+R24	Experiences Arg1:T39 Arg2:T16	
+R25	Experiences Arg1:T39 Arg2:T17	
+R26	After Arg1:T33 Arg2:T44	
+R33	Has_Duration_or_Interval Arg1:T18 Arg2:T45	
+R34	Location_of Arg1:T32 Arg2:T18	
+R35	Negation Arg1:T46 Arg2:T19	
+R36	Overlap Arg1:T19 Arg2:T47	
+R37	Location_of Arg1:T35 Arg2:T21	
+R38	Has_Frequency Arg1:T23 Arg2:T48	
+R39	Overlap Arg1:T23 Arg2:T49	
+R40	Causes Arg1:T23 Arg2:T25	
+T54	Quantifier_or_Qualifier 1094 1100	activa
+#39	AnnotatorNotes T54	C0679217; Active State; Idea or Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T54	
+R42	Overlap Arg1:T15 Arg2:T17	
+R43	Overlap Arg1:T34 Arg2:T17	
+R44	Overlap Arg1:T13 Arg2:T17	
+R45	Overlap Arg1:T24 Arg2:T17	
+R46	Overlap Arg1:T16 Arg2:T17	
+A3	Experiencer T37 Patient
+A4	Experiencer T39 Patient

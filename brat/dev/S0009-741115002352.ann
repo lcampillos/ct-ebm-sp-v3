@@ -1,0 +1,150 @@
+T1	PROC 478 484	reposo
+T2	ANAT 59 67	hepática
+#1	AnnotatorNotes T2	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T3	PROC 89 102	laparoscópica
+#2	AnnotatorNotes T3	C0031150; Laparoscopy; Diagnostic Procedure
+T4	PROC 121 137	biopsia hepática
+#3	AnnotatorNotes T4	C0193388; Biopsy of liver (procedure); Diagnostic Procedure
+T5	ANAT 1107 1123	sitio de punción
+T6	PROC 177 195	estudio del hígado
+#4	AnnotatorNotes T6	C0023901; Liver Function Tests; Laboratory Procedure
+T7	DISO 256 270	complicaciones
+#5	AnnotatorNotes T7	C0009566; Complication; Pathologic Function
+T8	PROC 41 47	reposo
+T9	PROC 427 447	evaluar la seguridad
+#6	AnnotatorNotes T9	C1705187; Safety Study; Research Activity
+T10	PROC 369 375	reposo
+T11	ANAT 496 504	hepática
+#7	AnnotatorNotes T11	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T12	PROC 541 585	ensayo clínico, aleatorizado, sin cegamiento
+#8	AnnotatorNotes T12	C0206034; Clinical Trials, Randomized; Research Activity + C1709323; Open Label Study; Research Activity
+T13	PROC 751 775	asignados aleatoriamente
+#9	AnnotatorNotes T13	C0034656; Randomization; Research Activity
+T14	ANAT 853 861	hepática
+#10	AnnotatorNotes T14	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T15	DISO 882 896	complicaciones
+#11	AnnotatorNotes T15	C0009566; Complication; Pathologic Function
+T16	PROC 835 841	reposo
+T17	PROC 800 806	reposo
+T18	CONC 1210 1221	subcapsular
+T19	DISO 1135 1147	complicación
+#12	AnnotatorNotes T19	C0009566; Complication; Pathologic Function
+T20	DISO 1192 1221	hematoma hepático subcapsular
+#13	AnnotatorNotes T20	C0347631; Subcapsular liver hematoma; Pathologic Function
+T21	PROC 1288 1295	biopsia
+#14	AnnotatorNotes T21	C0005558; Biopsy; Diagnostic Procedure
+T22	DISO 1317 1331	complicaciones
+#15	AnnotatorNotes T22	C0009566; Complication; Pathologic Function
+T23	ANAT 1442 1450	hepática
+#16	AnnotatorNotes T23	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T24	DISO 1480 1494	complicaciones
+#17	AnnotatorNotes T24	C0009566; Complication; Pathologic Function
+T25	PROC 1424 1430	reposo
+T26	ANAT 129 137	hepática
+#18	AnnotatorNotes T26	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T27	ANAT 189 195	hígado
+#19	AnnotatorNotes T27	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T28	DISO 1095 1123	dolor en el sitio de punción
+#20	AnnotatorNotes T28	C1697642; Puncture site pain; Pathologic Function
+T29	PROC 1116 1123	punción
+#21	AnnotatorNotes T29	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T30	ANAT 1201 1209	hepático
+#22	AnnotatorNotes T30	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T33	Date 676 693	noviembre de 2011
+T34	Date 696 711	octubre de 2012
+T35	LIVB 730 739	pacientes
+#23	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Duration 810 813	6 h
+T37	Duration 828 831	2 h
+T40	Duration 1454 1457	2 h
+T41	Duration 1534 1537	2 h
+T42	LIVB 1541 1549	paciente
+#24	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T44	Time 48 58	posbiopsia
+T45	Time 376 386	posbiopsia
+T46	Time 485 495	posbiopsia
+T31	Time 842 852	posbiopsia
+T32	Time 1431 1441	posbiopsia
+T38	Duration 1466 1467	6
+T39	Quantifier_or_Qualifier 575 585	cegamiento
+A1	Assertion T39 Negated
+T43	Neg_cue 571 574	sin
+R1	Negation Arg1:T43 Arg2:T39	
+R2	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T39	
+T47	Neg_cue 1242 1245	sin
+T48	CONC 1246 1257	diferencias
+A2	Assertion T48 Negated
+#25	AnnotatorNotes T48	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T47 Arg2:T48	
+T49	CONC 1378 1389	diferencias
+A3	Assertion T49 Negated
+#26	AnnotatorNotes T49	C1705241; Delta (difference); Quantitative Concept
+T50	Neg_cue 1364 1366	No
+R4	Negation Arg1:T50 Arg2:T49	
+T51	CONC 68 78	percutánea
+#27	AnnotatorNotes T51	C0522523; Percutaneous; Spatial Concept
+T52	CONC 85 102	vía laparoscópica
+#28	AnnotatorNotes T52	C0393360; Laparoscopic approach; Spatial Concept
+T53	CONC 31 47	tiempo de reposo
+R5	Overlap Arg1:T8 Arg2:T44	
+R6	Location_of Arg1:T27 Arg2:T6	
+R7	Location_of Arg1:T26 Arg2:T4	
+T54	CONC 359 375	tiempo de reposo
+R8	Overlap Arg1:T10 Arg2:T45	
+T55	CONC 214 223	evolución
+#29	AnnotatorNotes T55	C0449259; Clinical course; Temporal Concept
+R9	Before Arg1:T3 Arg2:T8	
+R10	Before Arg1:T4 Arg2:T10	
+R11	Before Arg1:T6 Arg2:T10	
+R12	Causes Arg1:T4 Arg2:T7	
+T58	CONC 468 484	tiempo de reposo
+R13	Overlap Arg1:T1 Arg2:T46	
+R14	Overlap Arg1:T58 Arg2:T46	
+R15	Overlap Arg1:T53 Arg2:T44	
+R16	Overlap Arg1:T54 Arg2:T45	
+R17	After Arg1:T12 Arg2:T33	
+R18	Before Arg1:T12 Arg2:T34	
+R19	Experiences Arg1:T35 Arg2:T17	
+R20	Experiences Arg1:T35 Arg2:T16	
+R21	Overlap Arg1:T16 Arg2:T31	
+R22	Has_Duration_or_Interval Arg1:T16 Arg2:T37	
+R23	Has_Duration_or_Interval Arg1:T17 Arg2:T36	
+T59	CONC 939 961	prueba de chi cuadrado
+#32	AnnotatorNotes T59	C0008041; Chi-Square Test; Intellectual Product
+T60	CONC 983 995	t de Student
+#33	AnnotatorNotes T60	C0871453; Students T Test; Intellectual Product
+R24	Causes Arg1:T29 Arg2:T28	
+R25	Location_of Arg1:T5 Arg2:T29	
+#34	AnnotatorNotes T5	C0229986; Application site; Anatomical Structure
+R26	Location_of Arg1:T5 Arg2:T28	
+R27	Location_of Arg1:T30 Arg2:T20	
+R28	Location_of Arg1:T18 Arg2:T20	
+R29	Causes Arg1:T21 Arg2:T22	
+R30	Causes Arg1:T21 Arg2:T20	
+R31	Causes Arg1:T21 Arg2:T19	
+R32	Causes Arg1:T21 Arg2:T28	
+T61	CONC 1414 1430	tiempo de reposo
+R33	Overlap Arg1:T25 Arg2:T32	
+R34	Overlap Arg1:T61 Arg2:T32	
+R35	Has_Duration_or_Interval Arg1:T61 Arg2:T40	
+R36	Has_Duration_or_Interval Arg1:T61 Arg2:T38	
+R37	Has_Duration_or_Interval Arg1:T25 Arg2:T40	
+R38	Has_Duration_or_Interval Arg1:T25 Arg2:T38	
+R39	Has_Duration_or_Interval Arg1:T25 Arg2:T41	
+R40	Has_Duration_or_Interval Arg1:T61 Arg2:T41	
+R41	Experiences Arg1:T42 Arg2:T24	
+R42	Experiences Arg1:T42 Arg2:T25	
+T62	Observation 1550 1562;1579 1596	se incorpora a sus actividades
+T63	Quantifier_or_Qualifier 1563 1578	más rápidamente
+R43	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T63	
+R45	Before Arg1:T25 Arg2:T62	
+R46	Before Arg1:T13 Arg2:T17	
+R47	Before Arg1:T13 Arg2:T16	
+#35	AnnotatorNotes T18	C0205152; Subcapsular; Spatial Concept
+T64	Quantifier_or_Qualifier 1390 1404	significativas
+A4	Assertion T64 Negated
+#36	AnnotatorNotes T64	C0750502; Significant; Idea or Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T64	
+R49	Negation Arg1:T50 Arg2:T64	
+A5	Experiencer T42 Patient
+A6	Experiencer T35 Patient

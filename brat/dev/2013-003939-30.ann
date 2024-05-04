@@ -1,0 +1,296 @@
+T1	PROC 44 65	Ensayo clínico fase 2
+T2	CHEM 70 79	nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 82 91	nivolumab
+#2	AnnotatorNotes T3	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	CHEM 96 106	ipilimumab
+#3	AnnotatorNotes T4	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	DISO 110 125	cáncer de colon
+#4	AnnotatorNotes T5	C0007102; Malignant tumor of colon; Neoplastic Process
+T6	PROC 174 195	Ensayo clínico fase 2
+T7	CHEM 200 209	nivolumab
+#5	AnnotatorNotes T7	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	CHEM 212 221	nivolumab
+#6	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	CHEM 226 236	ipilimumab
+#7	AnnotatorNotes T9	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	DISO 240 255	cáncer de colon
+#8	AnnotatorNotes T10	C0007102; Malignant tumor of colon; Neoplastic Process
+T11	DISO 260 296	alta inestabilidad de microsatélites
+#9	AnnotatorNotes T11	C1512430; High-Frequency Microsatellite Instability; Cell or Molecular Dysfunction
+T12	DISO 506 509	CRC
+T13	DISO 562 580	enfermedad medible
+#10	AnnotatorNotes T13	C1513041; Measurable Disease; Disease or Syndrome
+T14	DISO 298 303	MSI H
+T15	PROC 590 592	RM
+#11	AnnotatorNotes T15	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T16	PROC 657 679	pruebas de laboratorio
+#12	AnnotatorNotes T16	C0022885; Laboratory Procedures; Laboratory Procedure
+T17	DISO 614 617	MSI
+T18	DISO 372 375	MSI
+T19	PROC 782 795	instrucciones
+#13	AnnotatorNotes T19	C0220931; Training; Educational Activity
+T20	PROC 802 825	métodos anticonceptivos
+#14	AnnotatorNotes T20	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T21	DISO 385 403	Cancer colorrectal
+#15	AnnotatorNotes T21	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T22	PROC 878 889	tratamiento
+#16	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	PROC 1059 1095	Consentimiento informado por escrito
+#17	AnnotatorNotes T23	C0811741; Obtain informed written consent; Health Care Activity
+T24	PROC 1143 1157	procedimientos
+#18	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T25	DISO 1216 1237	metástasis cerebrales
+#19	AnnotatorNotes T25	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T26	DISO 1252 1277	metástasis leptomeníngeas
+#20	AnnotatorNotes T26	C1704231; Metastatic Malignant Neoplasm to the Leptomeninges; Neoplastic Process
+T27	PROC 1279 1290	Tratamiento
+#21	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	CHEM 1305 1325	anticuerpo anti PD 1
+T29	CHEM 1327 1337	anti PD L1
+T30	CHEM 1339 1349	anti PD L2
+T31	CHEM 1380 1390	anticuerpo
+#22	AnnotatorNotes T31	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	CHEM 1393 1508	fármaco dirigido específicamente a las vías de coestimulación de los linfocitos T o el punto de control inmunitario
+#23	AnnotatorNotes T32	C3192215; Selective T Cell Costimulation Blocker; Pharmacologic Substance (?) | C4684977; Immune Checkpoint Inhibitors; Pharmacologic Substance (?)
+T33	ANAT 1462 1474	linfocitos T
+#24	AnnotatorNotes T33	C0039194; T-Lymphocyte; Cell
+T34	CHEM 1351 1362	anti CTLA 4
+T35	DISO 1510 1527	Neoplasia maligna
+#25	AnnotatorNotes T35	C0006826; Malignant Neoplasms; Neoplastic Process
+T36	DISO 1579 1587	cánceres
+#26	AnnotatorNotes T36	C0006826; Malignant Neoplasms; Neoplastic Process
+T37	DISO 1620 1646	enfermedad autoinmunitaria
+#27	AnnotatorNotes T37	C0004364; Autoimmune Diseases; Disease or Syndrome
+T38	ANAT 360 371	colorrectal
+#28	AnnotatorNotes T38	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T39	PROC 1713 1755	tratamiento sistémico con corticosteroides
+T40	CHEM 1739 1755	corticosteroides
+#29	AnnotatorNotes T40	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T41	CHEM 1768 1778	prednisona
+#30	AnnotatorNotes T41	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T42	CHEM 1809 1838	medicamentos inmunosupresores
+T43	CHEM 1893 1900	fármaco
+#31	AnnotatorNotes T43	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T44	ANAT 392 403	colorrectal
+#32	AnnotatorNotes T44	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T45	ANAT 120 125	colon
+#33	AnnotatorNotes T45	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T46	DISO 140 151	metastásico
+#34	AnnotatorNotes T46	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T47	ANAT 250 255	colon
+#35	AnnotatorNotes T47	C0009368; Colon structure; Body Part, Organ, or Organ Component | C1281569; Entire colon; Body Part, Organ, or Organ Component
+T48	PROC 594 601	Testing
+T49	DISO 319 330	metastásico
+#36	AnnotatorNotes T49	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T50	PROC 585 587	TC
+#37	AnnotatorNotes T50	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T51	DISO 404 407	MSI
+T52	DISO 353 371	Cancer colorrectal
+#38	AnnotatorNotes T52	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T53	ANAT 1227 1237	cerebrales
+#39	AnnotatorNotes T53	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T54	ANAT 1263 1277	leptomeníngeas
+#40	AnnotatorNotes T54	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T55	PROC 1874 1900	administración del fármaco
+#41	AnnotatorNotes T55	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+T56	Date 12 16	2013
+T57	Neg_cue 408 416	negativo
+T58	LIVB 452 459	mujeres
+#42	AnnotatorNotes T58	C0043210; Woman; Population Group
+T59	Age 460 472	>o = 18 años
+T61	LIVB 542 549	sujetos
+#43	AnnotatorNotes T61	C0681850; Study Subject; Group
+T62	LIVB 713 744	mujeres potencialmente fértiles
+#44	AnnotatorNotes T62	C4324275; Woman of childbearing potential; Population Group
+T64	PHYS 618 634	Función orgánica
+#45	AnnotatorNotes T64	C1254358; Organ or Tissue Function; Organ or Tissue Function
+T65	Duration 910 920	23 semanas
+T66	LIVB 938 969	mujeres potencialmente fertiles
+#46	AnnotatorNotes T66	C4324275; Woman of childbearing potential; Population Group
+T69	Duration 986 996	31 semanas
+T72	Neg_cue 1197 1199	No
+T73	Duration 1552 1570	los 3 años previos
+T74	Neg_cue 1571 1578	excepto
+T75	LIVB 1608 1615	Sujetos
+#47	AnnotatorNotes T75	C0681850; Study Subject; Group
+T76	Spec_cue 1666 1676	sospechada
+T77	LIVB 1679 1686	Sujetos
+#48	AnnotatorNotes T77	C0681850; Study Subject; Group
+T78	Dose 1757 1764	> 10 mg
+T79	Frequency 1779 1785	al día
+T80	Duration 1849 1860	los 14 días
+T82	LIVB 442 449	Varones
+#49	AnnotatorNotes T82	C0025266; Male population group; Population Group
+T60	PHYS 1440 1474	coestimulación de los linfocitos T
+#50	AnnotatorNotes T60	C1622572; T cell costimulation; Cell Function
+T63	PROC 473 489	Estado funcional
+#51	AnnotatorNotes T63	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T67	PROC 521 537	histológicamente
+#52	AnnotatorNotes T67	C0344441; Histology Procedure; Laboratory Procedure
+T68	PROC 847 860	reclutamiento
+#53	AnnotatorNotes T68	C0242800; Patient Recruitment; Research Activity
+A1	Assertion T51 Negated
+A4	Assertion T25 Negated
+A5	Assertion T26 Negated
+A6	Assertion T36 Negated
+A7	Assertion T37 Speculated
+A8	Status T27 History_of
+A9	Status T28 History_of
+A10	Status T29 History_of
+A11	Status T30 History_of
+A12	Status T34 History_of
+A13	Status T32 History_of
+A14	Status T31 History_of
+A15	Status T35 History_of
+A16	Status T37 History_of
+A17	Status T36 History_of
+#54	AnnotatorNotes T1	C0282460; Phase 2 Clinical Trials; Research Activity
+#55	AnnotatorNotes T6	C0282460; Phase 2 Clinical Trials; Research Activity
+#56	AnnotatorNotes T14	C1512430; High-Frequency Microsatellite Instability; Cell or Molecular Dysfunction
+#57	AnnotatorNotes T39	C4053960; Systemic Corticosteroid Therapy; Therapeutic or Preventive Procedure 
+#58	AnnotatorNotes T42	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+#59	AnnotatorNotes T18	C1512430; High-Frequency Microsatellite Instability; Cell or Molecular Dysfunction
+#60	AnnotatorNotes T51	C1512430; High-Frequency Microsatellite Instability; Cell or Molecular Dysfunction
+#61	AnnotatorNotes T17	C1512430; High-Frequency Microsatellite Instability; Cell or Molecular Dysfunction
+#62	AnnotatorNotes T12	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+#63	AnnotatorNotes T48	C0796369; microsatellite instability diagnostic test; Diagnostic Procedure | C1881824; Microsatellite instability analysis; Diagnostic Procedure
+T70	Spec_cue 946 960	potencialmente
+T71	Quantifier_or_Qualifier 961 969	fertiles
+A18	Assertion T71 Speculated
+T81	Spec_cue 721 735	potencialmente
+T83	Quantifier_or_Qualifier 736 744	fértiles
+A19	Assertion T83 Speculated
+T84	Spec_cue 1033 1047	potencialmente
+T85	Quantifier_or_Qualifier 1048 1056	fértiles
+A20	Assertion T85 Speculated
+T86	Observation 1011 1030	sexualmente activas
+#64	AnnotatorNotes T86	C0241028; Sexually active; Finding
+R1	Speculation Arg1:T81 Arg2:T83	
+R2	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T83	
+R3	Speculation Arg1:T70 Arg2:T71	
+R4	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T71	
+R5	Speculation Arg1:T84 Arg2:T85	
+R6	Negation Arg1:T72 Arg2:T25	
+R7	Negation Arg1:T72 Arg2:T26	
+R8	Negation Arg1:T74 Arg2:T36	
+T87	Quantifier_or_Qualifier 1588 1607	curables localmente
+A21	Assertion T87 Negated
+R9	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T87	
+R10	Speculation Arg1:T76 Arg2:T37	
+R11	Combined_with Arg1:T3 Arg2:T4	
+R12	Location_of Arg1:T45 Arg2:T5	
+R13	Before Arg1:T5 Arg2:T46	
+R14	Location_of Arg1:T47 Arg2:T10	
+R15	Overlap Arg1:T10 Arg2:T11	
+R16	Overlap Arg1:T10 Arg2:T14	
+R17	Before Arg1:T10 Arg2:T49	
+T88	Observation 126 137	recidivante
+#65	AnnotatorNotes T88	C2825055; Recurrence (disease attribute); Pathologic Function
+R18	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T88	
+T89	Observation 305 316	recidivante
+#66	AnnotatorNotes T89	C2825055; Recurrence (disease attribute); Pathologic Function
+R19	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T89	
+R20	Overlap Arg1:T11 Arg2:T89	
+R21	Overlap Arg1:T11 Arg2:T49	
+R22	Overlap Arg1:T14 Arg2:T89	
+R23	Overlap Arg1:T14 Arg2:T49	
+R24	Combined_with Arg1:T8 Arg2:T9	
+R25	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T52	
+R26	Overlap Arg1:T52 Arg2:T18	
+R27	Location_of Arg1:T44 Arg2:T21	
+R28	Overlap Arg1:T21 Arg2:T51	
+R29	Negation Arg1:T57 Arg2:T51	
+T90	Result_or_Value 376 384	positivo
+#67	AnnotatorNotes T90	C1446409; Positive; Finding
+R30	Has_Result_or_Value Arg1:T18 Arg2:T90	
+R31	Has_Age Arg1:T82 Arg2:T59	
+R32	Has_Age Arg1:T58 Arg2:T59	
+T91	Result_or_Value 502 505	0 1
+T92	CONC 494 498	ECOG
+#68	AnnotatorNotes T92	C1520224; ECOG performance status; Intellectual Product
+R33	Used_for Arg1:T92 Arg2:T63	
+R34	Has_Result_or_Value Arg1:T92 Arg2:T91	
+R36	Experiences Arg1:T61 Arg2:T13	
+R39	Experiences Arg1:T61 Arg2:T50	
+R40	Experiences Arg1:T61 Arg2:T15	
+T93	Observation 618 643	Función orgánica adecuada
+T94	ANAT 626 634	orgánica
+#69	AnnotatorNotes T94	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+R44	Location_of Arg1:T94 Arg2:T64	
+R45	Location_of Arg1:T94 Arg2:T93	
+T95	Observation 751 767	estar de acuerdo
+#70	AnnotatorNotes T95	C0600109; Willing; Finding (?)
+R46	Overlap Arg1:T95 Arg2:T19	
+R47	Overlap Arg1:T95 Arg2:T20	
+R48	Before Arg1:T68 Arg2:T20	
+R49	Overlap Arg1:T20 Arg2:T22	
+R50	Has_Duration_or_Interval Arg1:T20 Arg2:T65	
+R51	Experiences Arg1:T62 Arg2:T20	
+R52	Experiences Arg1:T62 Arg2:T22	
+R53	Experiences Arg1:T66 Arg2:T68	
+R54	Has_Duration_or_Interval Arg1:T20 Arg2:T69	
+T96	LIVB 1033 1056;938 945	potencialmente fértiles mujeres
+#71	AnnotatorNotes T96	C4324275; Woman of childbearing potential; Population Group
+R55	Has_Quantifier_or_Qualifier Arg1:T96 Arg2:T86	
+R56	Experiences Arg1:T96 Arg2:T20	
+R57	Experiences Arg1:T96 Arg2:T22	
+R58	Experiences Arg1:T66 Arg2:T22	
+T97	Observation 1104 1109	Deseo
+#72	AnnotatorNotes T97	C0600109; Willing; Finding (?)
+R59	Overlap Arg1:T97 Arg2:T24	
+T98	Observation 1112 1121	capacidad
+#73	AnnotatorNotes T98	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R60	Overlap Arg1:T98 Arg2:T24	
+R61	Location_of Arg1:T53 Arg2:T25	
+R62	Location_of Arg1:T54 Arg2:T26	
+T99	Quantifier_or_Qualifier 1238 1245	activas
+#74	AnnotatorNotes T99	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R63	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T99	
+A2	Assertion T99 Negated
+R64	Negation Arg1:T72 Arg2:T99	
+R65	Used_for Arg1:T28 Arg2:T27	
+R66	Used_for Arg1:T29 Arg2:T27	
+R67	Used_for Arg1:T30 Arg2:T27	
+R68	Used_for Arg1:T34 Arg2:T27	
+R69	Used_for Arg1:T31 Arg2:T27	
+R70	Used_for Arg1:T32 Arg2:T27	
+#75	AnnotatorNotes T28	C4289970; Anti-PD1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#76	AnnotatorNotes T29	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#77	AnnotatorNotes T34	C4289973; Anti-CTLA-4 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T100	Quantifier_or_Qualifier 1528 1534	activa
+A3	Status T100 History_of
+#78	AnnotatorNotes T100	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R72	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T100	
+R73	Overlap Arg1:T35 Arg2:T73	
+R74	Negation Arg1:T74 Arg2:T87	
+R75	Experiences Arg1:T75 Arg2:T37	
+T101	Quantifier_or_Qualifier 1647 1653	activa
+#79	AnnotatorNotes T101	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R76	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T101	
+R77	Experiences Arg1:T77 Arg2:T39	
+R78	Used_for Arg1:T40 Arg2:T39	
+R79	Has_Dose_or_Strength Arg1:T40 Arg2:T78	
+R80	Has_Dose_or_Strength Arg1:T41 Arg2:T78	
+R81	Used_for Arg1:T41 Arg2:T39	
+R82	Has_Frequency Arg1:T41 Arg2:T79	
+T102	CONC 1768 1778;1788 1799	prednisona equivalente
+R83	Has_Frequency Arg1:T40 Arg2:T79	
+R84	Overlap Arg1:T42 Arg2:T80	
+R85	Experiences Arg1:T77 Arg2:T42	
+R86	Experiences Arg1:T77 Arg2:T55	
+R87	Before Arg1:T42 Arg2:T55	
+R88	Used_for Arg1:T43 Arg2:T55	
+R35	Experiences Arg1:T62 Arg2:T68	
+R37	Experiences Arg1:T66 Arg2:T20	
+R38	Experiences Arg1:T96 Arg2:T68	
+A22	Experiencer T82 Patient
+A23	Experiencer T58 Patient
+A24	Experiencer T66 Patient
+A25	Experiencer T96 Patient
+A26	Experiencer T75 Patient
+A27	Experiencer T77 Patient
+A28	Experiencer T61 Patient
+A29	Experiencer T62 Patient
+T103	Result_or_Value 408 416	negativo
+R41	Has_Result_or_Value Arg1:T51 Arg2:T103	

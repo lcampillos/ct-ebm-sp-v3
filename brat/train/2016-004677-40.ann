@@ -1,0 +1,198 @@
+T1	PROC 44 88	Estudio para evaluar la eficacia y seguridad
+T2	DISO 120 136	Colitis ulcerosa
+#1	AnnotatorNotes T2	C0009324; Ulcerative Colitis; Disease or Syndrome
+T3	PROC 188 205	terapia biológica
+#2	AnnotatorNotes T3	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure
+T4	PROC 235 307	Estudio multicéntrico, aleatorizado, doble ciego, controlado con placebo
+T5	PROC 313 344	evaluar la eficacia y seguridad
+#3	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T6	DISO 378 394	colitis ulcerosa
+#4	AnnotatorNotes T6	C0009324; Ulcerative Colitis; Disease or Syndrome
+T7	PROC 443 460	terapia biológica
+#5	AnnotatorNotes T7	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure
+T8	DISO 491 507	Colitis Ulcerosa
+#6	AnnotatorNotes T8	C0009324; Ulcerative Colitis; Disease or Syndrome
+T9	PROC 768 779	Diagnóstico
+#7	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	DISO 794 810	colitis ulcerosa
+#8	AnnotatorNotes T10	C0009324; Ulcerative Colitis; Disease or Syndrome
+T11	DISO 812 814	CU
+#9	AnnotatorNotes T11	C0009324; Ulcerative Colitis; Disease or Syndrome
+T12	DISO 871 887	Colitis Ulcerosa
+#10	AnnotatorNotes T12	C0009324; Ulcerative Colitis; Disease or Syndrome
+T13	PROC 957 976	terapias biológicas
+#11	AnnotatorNotes T13	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure
+T14	PROC 1023 1034	diagnostico
+#12	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	DISO 1045 1064	Enfermedad de Crohn
+#13	AnnotatorNotes T15	C0010346; Crohn Disease; Disease or Syndrome
+T16	DISO 1066 1068	EC
+#14	AnnotatorNotes T16	C0010346; Crohn Disease; Disease or Syndrome
+T17	DISO 1071 1120	Enfermedad del intestino inflamado no clasificado
+#15	AnnotatorNotes T17	C4268603; Colonic inflammatory bowel disease unclassified (IBDU); Disease or Syndrome
+T18	DISO 1122 1127	IBD-U
+T19	DISO 1158 1175	colitis isquémica
+#16	AnnotatorNotes T19	C0162529; Colitis, Ischemic; Disease or Syndrome
+T20	CHEM 1219 1229	medicación
+#17	AnnotatorNotes T20	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T21	PROC 1242 1253	tratamiento
+#18	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	DISO 1269 1292	Enfermedad Inflamatoria
+T23	ANAT 1305 1310	recto
+#19	AnnotatorNotes T23	C0034896; Rectum; Body Part, Organ, or Organ Component | C1278926; Entire rectum; Body Part, Organ, or Organ Component
+T24	PROC 1330 1353	endoscopia de screening
+#20	AnnotatorNotes T24	C1882982; Screening colonoscopy; Diagnostic Procedure
+T25	DISO 1369 1383	complicaciones
+#21	AnnotatorNotes T25	C0009566; Complication; Pathologic Function
+T26	DISO 1406 1422	colitis ulcerosa
+#22	AnnotatorNotes T26	C0009324; Ulcerative Colitis; Disease or Syndrome
+T27	DISO 1424 1426	CU
+#23	AnnotatorNotes T27	C0009324; Ulcerative Colitis; Disease or Syndrome
+T28	CHEM 348 360	Risankizumab
+#24	AnnotatorNotes T28	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T29	CHEM 92 104	Risankizumab
+#25	AnnotatorNotes T29	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T30	DISO 898 910	Intolerancia
+#26	AnnotatorNotes T30	C0277585; Intolerance to drug; Pathologic Function
+T31	ANAT 1086 1095	intestino
+#27	AnnotatorNotes T31	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T32	PROC 1146 1155	radiación
+#28	AnnotatorNotes T32	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T33	Date 12 16	2016
+T34	LIVB 108 115	sujetos
+#29	AnnotatorNotes T34	C0681850; Study Subject; Group
+T35	LIVB 364 373	pacientes
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 545 552	mujeres
+#31	AnnotatorNotes T36	C0043210; Woman; Population Group
+T37	Age 562 579	>=18 a <= 80 años
+T38	LIVB 649 658	pacientes
+#32	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Age 659 676	de 16 a < 18 años
+T40	Duration 824 840	al menos 3 meses
+T41	LIVB 1006 1015	Pacientes
+#33	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Date 1035 1041	actual
+T45	LIVB 1180 1197	Sujetos pacientes
+#34	AnnotatorNotes T45	C0681850; Study Subject; Group + C0030705; Patients; Patient or Disabled Group
+T46	LIVB 1357 1364	Sujetos
+#35	AnnotatorNotes T46	C0681850; Study Subject; Group
+T47	Date 1384 1392	actuales
+T43	LIVB 535 542	Hombres
+#36	AnnotatorNotes T43	C0025266; Male population group; Population Group
+T44	Neg_cue 1258 1268	Exentos de
+T48	PROC 739 745	Tanner
+#37	AnnotatorNotes T48	C0431029; Tanner bone age assessment; Diagnostic Procedure
+T49	PROC 854 860	visita
+#38	AnnotatorNotes T49	C1512346; Patient Visit; Health Care Activity
+T50	PROC 752 758	visita
+#39	AnnotatorNotes T50	C1512346; Patient Visit; Health Care Activity
+T51	Quantifier_or_Qualifier 759 764	basal
+#40	AnnotatorNotes T51	C1442488; Baseline; Quantitative Concept
+T52	Quantifier_or_Qualifier 861 866	basal
+#41	AnnotatorNotes T52	C1442488; Baseline; Quantitative Concept
+A1	Assertion T22 Negated
+A2	Assertion T20 Contraindicated
+A3	Status T3 History_of
+A4	Status T7 History_of
+A5	Status T30 History_of
+A6	Status T32 History_of
+A7	Status T19 History_of
+A8	Status T25 History_of
+#42	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#43	AnnotatorNotes T4	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#44	AnnotatorNotes T18	C4268603; Colonic inflammatory bowel disease unclassified (IBDU); Disease or Syndrome
+#45	AnnotatorNotes T22	C1290884; Inflammatory disorder; Disease or Syndrome 
+#46	AnnotatorNotes T42	C0521116; Current (present time); Temporal Concept 
+#47	AnnotatorNotes T47	C0521116; Current (present time); Temporal Concept 
+T53	Quantifier_or_Qualifier 1109 1120	clasificado
+A9	Assertion T53 Negated
+#48	AnnotatorNotes T53	C0008902; Classification; Classification
+T54	Neg_cue 1106 1108	no
+R1	Experiences Arg1:T34 Arg2:T29	
+R2	Experiences Arg1:T34 Arg2:T2	
+T55	Quantifier_or_Qualifier 140 157	moderada a severa
+#49	AnnotatorNotes T55	C1299393; Moderate to severe; Qualitative Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T55	
+T56	Quantifier_or_Qualifier 405 421	moderada a grave
+#50	AnnotatorNotes T56	C1299393; Moderate to severe; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T56	
+T57	Quantifier_or_Qualifier 158 164	activa
+#51	AnnotatorNotes T57	C0679217; Active State; Idea or Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T57	
+T58	Quantifier_or_Qualifier 395 401	activa
+#52	AnnotatorNotes T58	C0679217; Active State; Idea or Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T58	
+T59	Quantifier_or_Qualifier 888 894	activa
+#53	AnnotatorNotes T59	C0679217; Active State; Idea or Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T59	
+R8	Has_Duration_or_Interval Arg1:T11 Arg2:T40	
+R9	Before Arg1:T11 Arg2:T49	
+R10	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T52	
+R11	Before Arg1:T10 Arg2:T49	
+R12	Has_Duration_or_Interval Arg1:T10 Arg2:T40	
+R13	Before Arg1:T9 Arg2:T49	
+T60	Observation 924 944	respuesta inadecuada
+#54	AnnotatorNotes T60	C0858218; Inappropriate drug response; Finding
+R14	Overlap Arg1:T60 Arg2:T13	
+R15	Causes Arg1:T13 Arg2:T30	
+R16	Experiences Arg1:T34 Arg2:T3	
+T61	Observation 174 181	fallado
+#55	AnnotatorNotes T61	C0162643; treatment failure; Finding
+R17	Experiences Arg1:T34 Arg2:T61	
+R18	Before Arg1:T3 Arg2:T61	
+T62	Observation 430 437	fallado
+#56	AnnotatorNotes T62	C0162643; treatment failure; Finding
+R19	Before Arg1:T7 Arg2:T62	
+R20	Experiences Arg1:T35 Arg2:T6	
+R21	Experiences Arg1:T35 Arg2:T28	
+R22	Experiences Arg1:T35 Arg2:T62	
+R23	Experiences Arg1:T35 Arg2:T7	
+R24	Has_Age Arg1:T36 Arg2:T37	
+R25	Has_Age Arg1:T43 Arg2:T37	
+R26	Has_Age Arg1:T38 Arg2:T39	
+T63	Result_or_Value 711 720	estadio 5
+R27	Has_Result_or_Value Arg1:T48 Arg2:T63	
+R28	Experiences Arg1:T38 Arg2:T48	
+R29	Overlap Arg1:T48 Arg2:T50	
+R30	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T51	
+R31	Overlap Arg1:T14 Arg2:T42	
+R32	Overlap Arg1:T15 Arg2:T42	
+R33	Overlap Arg1:T16 Arg2:T42	
+R34	Location_of Arg1:T31 Arg2:T17	
+R35	Experiences Arg1:T41 Arg2:T15	
+R36	Experiences Arg1:T41 Arg2:T16	
+R37	Experiences Arg1:T41 Arg2:T17	
+R38	Experiences Arg1:T41 Arg2:T18	
+R39	Experiences Arg1:T41 Arg2:T32	
+R40	Experiences Arg1:T41 Arg2:T19	
+R41	Location_of Arg1:T31 Arg2:T18	
+R42	Overlap Arg1:T17 Arg2:T42	
+R43	Overlap Arg1:T18 Arg2:T42	
+R45	Experiences Arg1:T45 Arg2:T21	
+R46	Negation Arg1:T44 Arg2:T22	
+R47	Location_of Arg1:T23 Arg2:T22	
+T64	Quantifier_or_Qualifier 1293 1310	limitada al recto
+R49	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T64	
+A10	Assertion T64 Negated
+R50	Negation Arg1:T44 Arg2:T64	
+R51	Overlap Arg1:T25 Arg2:T47	
+R52	Experiences Arg1:T46 Arg2:T25	
+R53	Experiences Arg1:T46 Arg2:T26	
+R54	Experiences Arg1:T46 Arg2:T27	
+R55	Causes Arg1:T26 Arg2:T25	
+R56	Causes Arg1:T27 Arg2:T25	
+R44	Before Arg1:T3 Arg2:T29	
+R57	Before Arg1:T7 Arg2:T28	
+R58	Experiences Arg1:T38 Arg2:T50	
+R59	Negation Arg1:T54 Arg2:T53	
+R60	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T53	
+R61	Experiences Arg1:T45 Arg2:T20	
+A11	Experiencer T45 Patient
+A12	Experiencer T46 Patient
+A13	Experiencer T34 Patient
+A14	Experiencer T35 Patient
+A15	Experiencer T43 Patient
+A16	Experiencer T36 Patient
+A17	Experiencer T38 Patient
+A18	Experiencer T41 Patient

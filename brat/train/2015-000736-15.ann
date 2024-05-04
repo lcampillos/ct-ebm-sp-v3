@@ -1,0 +1,204 @@
+T1	CHEM 116 139	medicamentos oftálmicos
+T2	Route 129 139	oftálmicos
+#1	AnnotatorNotes T2	C1522230; Ophthalmic Route of Drug Administration; Functional Concept
+T3	DISO 148 156	Glaucoma
+#2	AnnotatorNotes T3	C0017601; Glaucoma; Disease or Syndrome
+T4	CHEM 229 241	brinzolamida
+#3	AnnotatorNotes T4	C0673966; brinzolamide; Organic Chemical · Pharmacologic Substance
+T5	CHEM 247 258	brimonidina
+#4	AnnotatorNotes T5	C0525227; brimonidine; Organic Chemical · Pharmacologic Substance
+T6	PROC 287 309	terapia complementaria
+T7	CHEM 315 343	análogo de la prostaglandina
+#5	AnnotatorNotes T7	C3536889; Prostaglandin Analog [EPC]; Pharmacologic Substance
+T8	ANAT 389 392	ojo
+#6	AnnotatorNotes T8	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T9	DISO 393 401	Glaucoma
+#7	AnnotatorNotes T9	C0017601; Glaucoma; Disease or Syndrome
+T10	DISO 428 447	Hipertensión ocular
+#8	AnnotatorNotes T10	C0028840; Ocular Hypertension; Disease or Syndrome
+T11	DISO 448 474	Glaucoma de ángulo abierto
+#9	AnnotatorNotes T11	C0017612; Glaucoma, Open-Angle; Disease or Syndrome
+T12	DISO 367 392	Presión elevada en el ojo
+T13	PROC 504 517	Diagnosticado
+#10	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 522 548	glaucoma de ángulo abierto
+#11	AnnotatorNotes T14	C0017612; Glaucoma, Open-Angle; Disease or Syndrome
+T15	CHEM 96 105	Simbrinza
+T16	DISO 551 570	hipertensión ocular
+#12	AnnotatorNotes T16	C0028840; Ocular Hypertension; Disease or Syndrome
+T17	PROC 603 627	consentimiento informado
+#13	AnnotatorNotes T17	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T18	PROC 764 773	protocolo
+#14	AnnotatorNotes T18	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T19	PROC 973 996	métodos anticonceptivos
+#15	AnnotatorNotes T19	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T20	DISO 1088 1096	glaucoma
+#16	AnnotatorNotes T20	C0017601; Glaucoma; Disease or Syndrome
+T21	DISO 1110 1136	glaucoma de ángulo abierto
+#17	AnnotatorNotes T21	C0017612; Glaucoma, Open-Angle; Disease or Syndrome
+T22	DISO 1139 1158	hipertensión ocular
+#18	AnnotatorNotes T22	C0028840; Ocular Hypertension; Disease or Syndrome
+T23	DISO 1163 1180	Enfermedad ocular
+#19	AnnotatorNotes T23	C0015397; Disorder of eye; Disease or Syndrome
+T24	DISO 1182 1193	traumatismo
+#20	AnnotatorNotes T24	C3263723; Traumatic injury; Injury or Poisoning | C3714660; Trauma; Injury or Poisoning
+T25	DISO 1195 1204	infección
+#21	AnnotatorNotes T25	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T26	DISO 1206 1217	inflamación
+#22	AnnotatorNotes T26	C0021368; Inflammation; Pathologic Function
+T27	PROC 1232 1239	cirugía
+#23	AnnotatorNotes T27	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T28	PROC 1269 1278	protocolo
+#24	AnnotatorNotes T28	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T29	DISO 1298 1306	afección
+#25	AnnotatorNotes T29	C0221423; Illness (finding); Sign or Symptom
+T30	DISO 1318 1330	enfermedades
+#26	AnnotatorNotes T30	C0012634; Disease; Disease or Syndrome
+T31	PROC 1501 1510	protocolo
+#27	AnnotatorNotes T31	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T32	ANAT 441 447	ocular
+#28	AnnotatorNotes T32	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T33	ANAT 564 570	ocular
+#29	AnnotatorNotes T33	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T34	ANAT 1152 1158	ocular
+#30	AnnotatorNotes T34	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T35	ANAT 1174 1180	ocular
+#31	AnnotatorNotes T35	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T36	DISO 1219 1228	patología
+#32	AnnotatorNotes T36	C0677042; Pathology processes; Pathologic Function
+T37	Date 13 17	2015
+T39	Frequency 265 281	dos veces al día
+T43	LIVB 803 825	Mujeres en edad fértil
+#33	AnnotatorNotes T43	C4324275; Woman of childbearing potential; Population Group
+T44	Age 814 825	edad fértil
+T46	Neg_cue 941 943	no
+T47	Neg_cue 1012 1018	evitar
+T48	PHYS 1022 1030	embarazo
+#34	AnnotatorNotes T48	C0032961; Pregnancy; Organism Function
+T49	LIVB 1358 1370	investigador
+#35	AnnotatorNotes T49	C0035173; Research Personnel; Professional or Occupational Group
+T50	LIVB 1388 1396	paciente
+#36	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T53	PHYS 836 847	embarazadas
+#37	AnnotatorNotes T53	C0032961; Pregnancy; Organism Function
+T54	PHYS 903 914	embarazadas
+#38	AnnotatorNotes T54	C0032961; Pregnancy; Organism Function
+T38	Dose 214 225	dosis fijas
+T45	Dose 242 244	1%
+T55	Dose 259 264	0,2 %
+T40	PHYS 863 872	lactancia
+#39	AnnotatorNotes T40	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T41	Neg_cue 1097 1109	distinto del
+T42	PROC 679 686	visitas
+#40	AnnotatorNotes T42	C1512346; Patient Visit; Health Care Activity
+A1	Population_data T43 Age
+A2	Assertion T48 Negated
+A3	Assertion T19 Negated
+A4	Assertion T21 Negated
+A5	Assertion T22 Negated
+#41	AnnotatorNotes T15	C3643644; Simbrinza; Organic Chemical · Pharmacologic Substance 
+#42	AnnotatorNotes T1	C0304650; ophthalmic preparation; Pharmacologic Substance 
+#43	AnnotatorNotes T6	C0936077; Complementary therapies; Therapeutic or Preventive Procedure 
+T51	Neg_cue 1397 1399	no
+T52	Observation 1410 1434	elegible para el estudio
+A6	Assertion T52 Negated
+#44	AnnotatorNotes T52	C1302261; Patient eligible for clinical trial; Finding (?)
+T56	Spec_cue 702 708	Pueden
+T57	Quantifier_or_Qualifier 719 724	otros
+A7	Assertion T57 Speculated
+T58	CONC 725 747	criterios de inclusión
+A8	Assertion T58 Speculated
+#45	AnnotatorNotes T58	C1512693; Inclusion Criteria; Qualitative Concept
+R1	Speculation Arg1:T56 Arg2:T57	
+R2	Speculation Arg1:T56 Arg2:T58	
+R3	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T57	
+T59	Spec_cue 1439 1445	Pueden
+T60	Quantifier_or_Qualifier 1456 1461	otros
+A9	Assertion T60 Speculated
+T61	CONC 1462 1484	criterios de exclusión
+A10	Assertion T61 Speculated
+#46	AnnotatorNotes T61	C0680251; Exclusion Criteria; Functional Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T60	
+R5	Speculation Arg1:T59 Arg2:T60	
+R6	Speculation Arg1:T59 Arg2:T61	
+T62	Observation 636 651	estar dispuesto
+#47	AnnotatorNotes T62	C0600109; Willing; Finding (?)
+R7	Overlap Arg1:T62 Arg2:T42	
+T63	Observation 654 666	poder acudir
+R8	Overlap Arg1:T63 Arg2:T42	
+R9	Location_of Arg1:T33 Arg2:T16	
+R10	Location_of Arg1:T33 Arg2:T14	
+R11	Location_of Arg1:T8 Arg2:T12	
+R12	Location_of Arg1:T32 Arg2:T10	
+#48	AnnotatorNotes T12	C0028840; Ocular Hypertension; Disease or Syndrome
+R13	Combined_with Arg1:T15 Arg2:T1	
+R15	Has_Route_or_Mode Arg1:T15 Arg2:T2	
+R16	Has_Route_or_Mode Arg1:T1 Arg2:T2	
+R14	Has_Age Arg1:T43 Arg2:T44	
+R17	Experiences Arg1:T43 Arg2:T53	
+R18	Experiences Arg1:T43 Arg2:T40	
+T64	Observation 881 914	intención de quedarse embarazadas
+#49	AnnotatorNotes T64	C0032992; Pregnancy, Planned; Finding
+R20	Before Arg1:T64 Arg2:T54	
+T65	PROC 926 933	estudio
+#50	AnnotatorNotes T65	C0008976; Clinical Trials; Research Activity
+R21	Overlap Arg1:T53 Arg2:T65	
+R22	Overlap Arg1:T40 Arg2:T65	
+R23	Overlap Arg1:T64 Arg2:T65	
+R24	Overlap Arg1:T54 Arg2:T65	
+R25	Negation Arg1:T46 Arg2:T19	
+T66	Quantifier_or_Qualifier 997 1006	adecuados
+A11	Assertion T66 Negated
+#51	AnnotatorNotes T66	C0205411; Adequate; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T66	
+R27	Negation Arg1:T46 Arg2:T66	
+R28	Negation Arg1:T47 Arg2:T48	
+R29	Experiences Arg1:T43 Arg2:T19	
+T67	PROC 1057 1064	estudio
+#52	AnnotatorNotes T67	C0008976; Clinical Trials; Research Activity
+R30	Overlap Arg1:T48 Arg2:T67	
+R31	Overlap Arg1:T19 Arg2:T67	
+R32	Overlap Arg1:T19 Arg2:T65	
+R33	Overlap Arg1:T48 Arg2:T65	
+R34	Overlap Arg1:T53 Arg2:T67	
+R35	Overlap Arg1:T40 Arg2:T67	
+R36	Overlap Arg1:T64 Arg2:T67	
+R37	Overlap Arg1:T54 Arg2:T67	
+R38	Experiences Arg1:T43 Arg2:T48	
+R39	Negation Arg1:T41 Arg2:T21	
+R40	Location_of Arg1:T34 Arg2:T22	
+R41	Negation Arg1:T41 Arg2:T22	
+R42	Location_of Arg1:T34 Arg2:T21	
+R43	Location_of Arg1:T35 Arg2:T23	
+T68	Quantifier_or_Qualifier 1331 1337	graves
+#53	AnnotatorNotes T68	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R44	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T68	
+R45	Experiences Arg1:T50 Arg2:T29	
+R46	Experiences Arg1:T50 Arg2:T30	
+R47	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T52	
+R48	Negation Arg1:T51 Arg2:T52	
+R49	Before Arg1:T29 Arg2:T52	
+R50	Before Arg1:T30 Arg2:T52	
+T69	Observation 76 82	efecto
+#54	AnnotatorNotes T69	C1518681; Outcome of Therapy; Finding (?)
+R51	Causes Arg1:T15 Arg2:T69	
+T70	Observation 179 185	Efecto
+#55	AnnotatorNotes T70	C1518681; Outcome of Therapy; Finding (?)
+R52	Causes Arg1:T4 Arg2:T70	
+R53	Has_Dose_or_Strength Arg1:T4 Arg2:T38	
+R54	Has_Dose_or_Strength Arg1:T5 Arg2:T38	
+R55	Has_Dose_or_Strength Arg1:T4 Arg2:T45	
+R56	Has_Dose_or_Strength Arg1:T5 Arg2:T55	
+R57	Combined_with Arg1:T4 Arg2:T5	
+R58	Has_Frequency Arg1:T4 Arg2:T39	
+R59	Has_Frequency Arg1:T5 Arg2:T39	
+R60	Combined_with Arg1:T5 Arg2:T7	
+R61	Used_for Arg1:T4 Arg2:T6	
+R62	Location_of Arg1:T34 Arg2:T20	
+#56	AnnotatorNotes T57	C0205394; Other; Qualitative Concept
+R19	Experiences Arg1:T43 Arg2:T54	
+#57	AnnotatorNotes T60	C0205394; Other; Qualitative Concept
+A12	Experiencer T43 Patient
+A13	Status T54 Future
+A14	Experiencer T49 Other
+A15	Experiencer T50 Patient

@@ -1,0 +1,394 @@
+T1	PROC 4 30	hemodiafiltración en línea
+T2	PROC 54 65	tratamiento
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	PROC 101 143	niveles en sangre de 25-hidroxi-vitamina D
+#2	AnnotatorNotes T3	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure (?)
+T4	ANAT 112 118	sangre
+#3	AnnotatorNotes T4	C0005767; Blood; Body Substance
+T5	CHEM 122 143	25-hidroxi-vitamina D
+#4	AnnotatorNotes T5	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T6	ANAT 215 229	cardiovascular
+#5	AnnotatorNotes T6	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T7	DISO 208 229	riesgo cardiovascular
+#6	AnnotatorNotes T7	C4324389; Cardiovascular Risk; Finding
+T8	DISO 318 342	enfermedad renal crónica
+#7	AnnotatorNotes T8	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T9	CHEM 386 394	vitamina
+#8	AnnotatorNotes T9	C0042890; Vitamins; Organic Chemical · Pharmacologic Substance · Vitamin
+T10	PROC 413 425	hemodiálisis
+#9	AnnotatorNotes T10	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T11	CHEM 1601 1611	25-OH-vitD
+#10	AnnotatorNotes T11	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T12	PROC 591 624	concentración basal de 25-OH-vitD
+#11	AnnotatorNotes T12	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure (?)
+T13	PROC 674 723	Estudio observacional prospectivo de dos cohortes
+#12	AnnotatorNotes T13	C1709709; Prospective Cohort Study; Research Activity + C1518527; Observational Study; Research Activity
+T14	CHEM 764 775	calcifediol
+#13	AnnotatorNotes T14	C0006657; calcifediol; Vitamin · Pharmacologic Substance
+T15	PROC 751 759	tratados
+#14	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 800 820	hormona paratiroidea
+#15	AnnotatorNotes T16	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T17	CHEM 614 624	25-OH-vitD
+#16	AnnotatorNotes T17	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T18	PROC 829 839	25-OH-vitD
+#17	AnnotatorNotes T18	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure
+T19	CHEM 1011 1022	calcifediol
+#18	AnnotatorNotes T19	C0006657; calcifediol; Vitamin · Pharmacologic Substance
+T20	CHEM 1032 1042	Hidroferol
+#19	AnnotatorNotes T20	C1451832; Hidroferol; Organic Chemical · Pharmacologic Substance · Vitamin
+T21	PROC 972 982	25-OH-vitD
+#20	AnnotatorNotes T21	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure
+T22	PROC 1280 1288	tratados
+#21	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	PROC 1367 1377	25-OH-vitD
+#22	AnnotatorNotes T23	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure
+T24	CHEM 2312 2322	25-OH-vitD
+#23	AnnotatorNotes T24	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T25	CHEM 2637 2647	25-OH-vitD
+#24	AnnotatorNotes T25	C0535968; 25-hydroxyvitamin D; Organic Chemical · Vitamin
+T26	CHEM 1885 1899	captores del P
+#25	AnnotatorNotes T26	C0357221; phosphate binder agents; Organic Chemical · Pharmacologic Substance
+T27	CHEM 2971 2984	captores de P
+#26	AnnotatorNotes T27	C0357221; phosphate binder agents; Organic Chemical · Pharmacologic Substance
+T28	PROC 1528 1554	hemodiafiltración en línea
+T29	PROC 1556 1562	HDF-OL
+T30	PROC 1590 1611	niveles de 25-OH-vitD
+#27	AnnotatorNotes T30	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure
+T31	PROC 1567 1575	Tratados
+#28	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	PROC 1794 1797	PTH
+#29	AnnotatorNotes T32	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T33	PROC 2042 2052	25-OH-vitD
+#30	AnnotatorNotes T33	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure
+T34	PROC 1992 2003	tratamiento
+#31	AnnotatorNotes T34	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T35	PROC 2008 2014	HDF-OL
+T36	CHEM 1439 1442	PTH
+#32	AnnotatorNotes T36	C0020063; PTH protein, human; Amino Acid, Peptide, or Protein · Hormone | C0030520; parathyroid hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T37	PROC 2149 2181	tratamiento doble con vitamina D
+T38	CHEM 2171 2181	vitamina D
+#33	AnnotatorNotes T38	C0042866; vitamin D; Pharmacologic Substance · Hormone · Vitamin
+T39	PROC 2301 2322	niveles de 25-OH-vitD
+#34	AnnotatorNotes T39	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure
+T40	PROC 2278 2286	tratados
+#35	AnnotatorNotes T40	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T41	PROC 2578 2584	HDF-OL
+T42	ANAT 2618 2625	séricos
+#36	AnnotatorNotes T42	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T43	PROC 2664 2666	HD
+#37	AnnotatorNotes T43	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T44	PROC 2706 2717	tratamiento
+#38	AnnotatorNotes T44	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T45	PROC 2776 2782	HDF-OL
+T46	PROC 2091 2106	tratados con HD
+#39	AnnotatorNotes T46	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T47	PROC 3027 3053	tratamiento con vitamina D
+#40	AnnotatorNotes T47	C0420176; Vitamin D supplement therapy; Therapeutic or Preventive Procedure
+T48	CHEM 3043 3053	vitamina D
+#41	AnnotatorNotes T48	C0042866; vitamin D; Pharmacologic Substance · Hormone · Vitamin
+T49	CHEM 70 81	calcifediol
+#42	AnnotatorNotes T49	C0006657; calcifediol; Vitamin · Pharmacologic Substance
+T50	PROC 145 155	25-OH-vitD
+#43	AnnotatorNotes T50	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure
+T51	DISO 185 195	patologías
+#44	AnnotatorNotes T51	C0677042; Pathology processes; Pathologic Function
+T52	ANAT 329 334	renal
+#45	AnnotatorNotes T52	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T53	DISO 369 394	déficit de dicha vitamina
+#46	AnnotatorNotes T53	C1510471; Vitamin Deficiency; Disease or Syndrome
+T54	PROC 427 429	HD
+#47	AnnotatorNotes T54	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T55	PROC 568 576	diálisis
+#48	AnnotatorNotes T55	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T56	PROC 648 662	suplementación
+#49	AnnotatorNotes T56	C0242297; Dietary Supplementation; Therapeutic or Preventive Procedure
+T57	PROC 793 795	Ca
+#50	AnnotatorNotes T57	C0201925; Calcium measurement; Laboratory Procedure
+T58	PROC 737 745	tratados
+#51	AnnotatorNotes T58	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T59	PROC 822 825	PTH
+#52	AnnotatorNotes T59	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T60	PROC 871 873	HD
+#53	AnnotatorNotes T60	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T61	PROC 1081 1083	HD
+#54	AnnotatorNotes T61	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T62	PROC 1249 1251	HD
+#55	AnnotatorNotes T62	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T63	PROC 1396 1398	Ca
+#56	AnnotatorNotes T63	C0201925; Calcium measurement; Laboratory Procedure
+T64	PROC 1439 1450	PTH intacta
+#57	AnnotatorNotes T64	C2041365; serum intact PTH level; Laboratory Procedure
+T65	PROC 1521 1523	HD
+#58	AnnotatorNotes T65	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T66	PROC 1697 1699	Ca
+#59	AnnotatorNotes T66	C0201925; Calcium measurement; Laboratory Procedure
+T67	PROC 1704 1714	fosfatemia
+#60	AnnotatorNotes T67	C0036820; Serum Phosphate Test; Laboratory Procedure
+T68	PROC 2249 2261	niveles de P
+#61	AnnotatorNotes T68	C0202178; Phosphorus measurement; Laboratory Procedure
+T69	PROC 2438 2441	PTH
+#62	AnnotatorNotes T69	C0202159; Parathyroid hormone measurement; Laboratory Procedure
+T70	PROC 2539 2541	HD
+#63	AnnotatorNotes T70	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T71	PROC 2610 2647	niveles séricos basales de 25-OH-vitD
+#64	AnnotatorNotes T71	C1255280; 25-Oh D Vitamin Test; Laboratory Procedure (?)
+T73	CHEM 2722 2733	calcifediol
+#65	AnnotatorNotes T73	C0006657; calcifediol; Vitamin · Pharmacologic Substance
+T74	PROC 2925 2935	fosfatemia
+#66	AnnotatorNotes T74	C0036820; Serum Phosphate Test; Laboratory Procedure
+T76	LIVB 304 313	pacientes
+#67	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T77	Duration 335 342	crónica
+#68	AnnotatorNotes T77	C0205191; chronic; Temporal Concept
+T80	LIVB 715 723	cohortes
+#69	AnnotatorNotes T80	C0599755; Cohort; Population Group
+T81	LIVB 727 736	pacientes
+#70	AnnotatorNotes T81	C0030705; Patients; Patient or Disabled Group
+T82	Neg_cue 748 750	no
+T83	LIVB 846 855	pacientes
+#71	AnnotatorNotes T83	C0030705; Patients; Patient or Disabled Group
+T84	Date 925 942	noviembre de 2010
+T85	LIVB 957 966	pacientes
+#72	AnnotatorNotes T85	C0030705; Patients; Patient or Disabled Group
+T86	Frequency 1023 1030	semanal
+T87	Dose 1045 1062	1 ampolla: 266 µg
+T89	LIVB 1092 1101	enfermera
+#73	AnnotatorNotes T89	C0028661; Nurses; Professional or Occupational Group
+T90	Date 1114 1127	enero de 2011
+T91	Dose 1140 1147	6 dosis
+T92	Date 1190 1195	marzo
+T93	Neg_cue 1270 1272	no
+T94	LIVB 1313 1326	grupo control
+#74	AnnotatorNotes T94	C0009932; Control Groups; Group
+T99	LIVB 1858 1867	pacientes
+#75	AnnotatorNotes T99	C0030705; Patients; Patient or Disabled Group
+T100	Dose 1948 1959	0,47 (0,82)
+T101	LIVB 1979 1988	pacientes
+#76	AnnotatorNotes T101	C0030705; Patients; Patient or Disabled Group
+T103	Neg_cue 2275 2277	No
+T104	Date 2348 2357	noviembre
+T105	Date 2380 2385	marzo
+T109	LIVB 2526 2535	pacientes
+#77	AnnotatorNotes T109	C0030705; Patients; Patient or Disabled Group
+T111	LIVB 2651 2660	pacientes
+#78	AnnotatorNotes T111	C0030705; Patients; Patient or Disabled Group
+T112	LIVB 2763 2772	pacientes
+#79	AnnotatorNotes T112	C0030705; Patients; Patient or Disabled Group
+T113	LIVB 2801 2810	pacientes
+#80	AnnotatorNotes T113	C0030705; Patients; Patient or Disabled Group
+T114	Neg_cue 2811 2813	no
+T116	Date 2874 2890	período invernal
+#81	AnnotatorNotes T116	C0241737; Winter; Temporal Concept
+T117	LIVB 2900 2909	pacientes
+#82	AnnotatorNotes T117	C0030705; Patients; Patient or Disabled Group
+T75	Age 904 920	65,2 [15,7] años
+T78	LIVB 883 890	varones
+#83	AnnotatorNotes T78	C0025266; Male population group; Population Group
+T72	PROC 2814 2822	tratados
+#84	AnnotatorNotes T72	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+A1	Assertion T15 Negated
+A2	Assertion T22 Negated
+A3	Assertion T40 Negated
+A4	Assertion T72 Negated
+R1	Negation Arg1:T82 Arg2:T15	
+T79	Neg_cue 1664 1667	sin
+T95	CONC 1668 1675	cambios
+A5	Assertion T95 Negated
+#85	AnnotatorNotes T95	C0443172; Changed status; Quantitative Concept
+R2	Negation Arg1:T79 Arg2:T95	
+T96	CONC 2401 2408	cambios
+A6	Assertion T96 Negated
+T97	Neg_cue 2397 2400	sin
+R3	Negation Arg1:T97 Arg2:T96	
+#86	AnnotatorNotes T96	C0443172; Changed status; Quantitative Concept
+T98	Neg_cue 2444 2447	sin
+T102	CONC 2466 2477	diferencias
+A7	Assertion T102 Negated
+#87	AnnotatorNotes T102	C1705241; Delta (difference); Quantitative Concept
+R4	Negation Arg1:T98 Arg2:T102	
+R5	Negation Arg1:T114 Arg2:T72	
+T106	Spec_cue 450 463	no claramente
+T107	Quantifier_or_Qualifier 464 476	establecidas
+A8	Assertion T107 Speculated
+R6	Negation Arg1:T106 Arg2:T107	
+T108	CONC 436 441	dosis
+#88	AnnotatorNotes T108	C0178602; Dosage; Quantitative Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T108 Arg2:T107	
+R8	Negation Arg1:T103 Arg2:T40	
+R9	Negation Arg1:T93 Arg2:T22	
+T110	Neg_cue 1469 1471	No
+T115	CONC 1481 1492	diferencias
+A10	Assertion T115 Negated
+#89	AnnotatorNotes T115	C1705241; Delta (difference); Quantitative Concept
+R10	Negation Arg1:T110 Arg2:T115	
+T119	Spec_cue 2841 2854	probablemente
+T120	CONC 2858 2866	relación
+A11	Assertion T120 Speculated
+R11	Speculation Arg1:T119 Arg2:T120	
+R12	Overlap Arg1:T120 Arg2:T116	
+R14	Used_for Arg1:T49 Arg2:T2	
+T122	Observation 41 65	respuesta al tratamiento
+#91	AnnotatorNotes T122	C1319171; Medication response; Finding
+R15	Overlap Arg1:T122 Arg2:T2	
+R16	Location_of Arg1:T4 Arg2:T3	
+R17	Location_of Arg1:T4 Arg2:T50	
+R20	Location_of Arg1:T6 Arg2:T7	
+R21	Experiences Arg1:T76 Arg2:T8	
+R22	Experiences Arg1:T76 Arg2:T7	
+R23	Location_of Arg1:T52 Arg2:T8	
+R24	Has_Duration_or_Interval Arg1:T8 Arg2:T77	
+R25	Experiences Arg1:T76 Arg2:T53	
+R26	Overlap Arg1:T8 Arg2:T53	
+R27	Overlap Arg1:T7 Arg2:T8	
+T123	CONC 399 409	reposición
+#92	AnnotatorNotes T123	C0559956; Replacement; Functional Concept (?)
+R28	Overlap Arg1:T123 Arg2:T10	
+R29	Overlap Arg1:T123 Arg2:T54	
+R30	Used_for Arg1:T108 Arg2:T123	
+T124	Observation 633 642	respuesta
+#93	AnnotatorNotes T124	C4055223; Clinical Response; Finding
+R31	Overlap Arg1:T124 Arg2:T56	
+T125	Spec_cue 551 553	si
+T126	CONC 577 584	influye
+#94	AnnotatorNotes T126	C4054723; Influence; Conceptual Entity
+A9	Assertion T126 Speculated
+R32	Before Arg1:T55 Arg2:T126	
+R33	Speculation Arg1:T125 Arg2:T126	
+R34	Before Arg1:T55 Arg2:T124	
+R35	Experiences Arg1:T81 Arg2:T58	
+R36	Experiences Arg1:T81 Arg2:T15	
+R37	Used_for Arg1:T14 Arg2:T15	
+R38	Experiences Arg1:T83 Arg2:T60	
+R39	Experiences Arg1:T83 Arg2:T18	
+R40	Experiences Arg1:T83 Arg2:T59	
+R41	Experiences Arg1:T83 Arg2:T16	
+R42	Experiences Arg1:T83 Arg2:T57	
+R43	Overlap Arg1:T60 Arg2:T84	
+R44	Has_Age Arg1:T78 Arg2:T75	
+R45	Experiences Arg1:T78 Arg2:T60	
+R46	Experiences Arg1:T78 Arg2:T18	
+R47	Experiences Arg1:T78 Arg2:T59	
+R48	Experiences Arg1:T78 Arg2:T16	
+R49	Experiences Arg1:T78 Arg2:T57	
+R50	Has_Age Arg1:T83 Arg2:T75	
+R51	Overlap Arg1:T18 Arg2:T84	
+R52	Overlap Arg1:T59 Arg2:T84	
+R53	Overlap Arg1:T16 Arg2:T84	
+R54	Overlap Arg1:T57 Arg2:T84	
+R55	Experiences Arg1:T85 Arg2:T21	
+R56	Experiences Arg1:T85 Arg2:T141	
+R57	Experiences Arg1:T85 Arg2:T20	
+R58	Has_Frequency Arg1:T19 Arg2:T86	
+R59	Has_Dose_or_Strength Arg1:T20 Arg2:T87	
+R63	Has_Dose_or_Strength Arg1:T19 Arg2:T87	
+R67	After Arg1:T20 Arg2:T90	
+R68	After Arg1:T19 Arg2:T90	
+R69	Before Arg1:T61 Arg2:T90	
+R70	Experiences Arg1:T85 Arg2:T61	
+T127	PROC 1150 1186	se determinaron de nuevo los niveles
+R71	Overlap Arg1:T127 Arg2:T92	
+R72	Before Arg1:T91 Arg2:T127	
+T128	Observation 1211 1220	respuesta
+#95	AnnotatorNotes T128	C4055223; Clinical Response; Finding
+R73	Overlap Arg1:T128 Arg2:T62	
+R74	Experiences Arg1:T94 Arg2:T22	
+T129	Quantifier_or_Qualifier 1349 1356	basales
+#96	AnnotatorNotes T129	C1442488; Baseline; Quantitative Concept
+R75	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T129	
+R76	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T129	
+R77	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T129	
+T130	Observation 1704 1728	fosfatemia se incrementó
+#97	AnnotatorNotes T130	C0853753; Blood phosphate increased; Finding (?) | C0858152; Plasma phosphate increased; Finding (?)
+T131	Observation 1794 1807	PTH disminuyó
+#98	AnnotatorNotes T131	C0856879; Parathyroid hormone decreased; Finding
+R78	Experiences Arg1:T99 Arg2:T26	
+R79	Has_Dose_or_Strength Arg1:T26 Arg2:T100	
+R80	Experiences Arg1:T101 Arg2:T34	
+R81	Experiences Arg1:T101 Arg2:T35	
+R82	Experiences Arg1:T101 Arg2:T46	
+R83	Experiences Arg1:T101 Arg2:T33	
+R86	Used_for Arg1:T38 Arg2:T37	
+T132	Quantifier_or_Qualifier 2191 2197	activa
+#99	AnnotatorNotes T132	C0679217; Active State; Idea or Concept
+R87	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T132	
+T133	Quantifier_or_Qualifier 2182 2188	nativa
+#100	AnnotatorNotes T133	C0302891; Native (qualifier value); Functional Concept
+R88	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T133	
+T134	Observation 2234 2261	aumento de los niveles de P
+#101	AnnotatorNotes T134	C0853753; Blood phosphate increased; Finding (?) | C0858152; Plasma phosphate increased; Finding (?) 
+R89	Before Arg1:T37 Arg2:T134	
+T135	Observation 2301 2330	niveles de 25-OH-vitD bajaron
+#102	AnnotatorNotes T135	C1838667; Decreased serum 25-hydroxyvitamin D; Finding
+R90	Overlap Arg1:T135 Arg2:T104	
+R91	Overlap Arg1:T135 Arg2:T105	
+R92	Experiences Arg1:T109 Arg2:T70	
+R93	Experiences Arg1:T109 Arg2:T41	
+R95	Location_of Arg1:T42 Arg2:T71	
+R96	Experiences Arg1:T111 Arg2:T71	
+R97	Experiences Arg1:T111 Arg2:T43	
+T137	Observation 2693 2717	respuesta al tratamiento
+#104	AnnotatorNotes T137	C1319171; Medication response; Finding
+R98	Overlap Arg1:T137 Arg2:T44	
+R99	Used_for Arg1:T73 Arg2:T44	
+T138	Quantifier_or_Qualifier 3054 3060	activa
+#105	AnnotatorNotes T138	C0679217; Active State; Idea or Concept
+R100	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T138	
+R101	Used_for Arg1:T48 Arg2:T47	
+R102	Experiences Arg1:T112 Arg2:T45	
+R103	Before Arg1:T45 Arg2:T137	
+R104	Experiences Arg1:T113 Arg2:T72	
+T139	Observation 2827 2840	niveles bajan
+#106	AnnotatorNotes T139	C1838667; Decreased serum 25-hydroxyvitamin D; Finding
+R105	Experiences Arg1:T113 Arg2:T139	
+R106	Overlap Arg1:T139 Arg2:T116	
+T140	Observation 2910 2935	incrementan la fosfatemia
+#107	AnnotatorNotes T140	C0853753; Blood phosphate increased; Finding (?) | C0858152; Plasma phosphate increased; Finding (?)
+R107	Experiences Arg1:T117 Arg2:T140	
+R108	Experiences Arg1:T117 Arg2:T74	
+R109	Experiences Arg1:T117 Arg2:T47	
+R110	Before Arg1:T47 Arg2:T140	
+R111	Overlap Arg1:T1 Arg2:T2	
+T141	PROC 995 1006	se trataron
+#108	AnnotatorNotes T141	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+R112	Used_for Arg1:T19 Arg2:T141	
+R113	Used_for Arg1:T20 Arg2:T141	
+R114	After Arg1:T141 Arg2:T61	
+R117	Experiences Arg1:T117 Arg2:T27	
+T144	Quantifier_or_Qualifier 2409 2423	significativos
+A12	Assertion T144 Negated
+#111	AnnotatorNotes T144	C0750502; Significant; Idea or Concept
+R119	Has_Quantifier_or_Qualifier Arg1:T96 Arg2:T144	
+R120	Negation Arg1:T97 Arg2:T144	
+T145	Quantifier_or_Qualifier 1676 1690	significativos
+A13	Assertion T145 Negated
+#112	AnnotatorNotes T145	C0750502; Significant; Idea or Concept
+R121	Has_Quantifier_or_Qualifier Arg1:T95 Arg2:T145	
+R122	Negation Arg1:T79 Arg2:T145	
+R13	Overlap Arg1:T7 Arg2:T53	
+#90	AnnotatorNotes T107	C0443211; Established; Qualitative Concept
+A14	Assertion T55 Speculated
+R18	Speculation Arg1:T125 Arg2:T55	
+#103	AnnotatorNotes T120	C0332281; Associated with; Qualitative Concept
+R19	Before Arg1:T72 Arg2:T139	
+A15	Experiencer T76 Patient
+A16	Experiencer T80 Patient
+A17	Experiencer T81 Patient
+A18	Experiencer T83 Patient
+A19	Experiencer T78 Patient
+A20	Experiencer T85 Patient
+A21	Experiencer T89 Other
+A22	Experiencer T94 Patient
+A23	Experiencer T99 Patient
+A24	Experiencer T101 Patient
+A25	Experiencer T109 Patient
+A26	Experiencer T111 Patient
+A27	Experiencer T112 Patient
+A28	Experiencer T113 Patient
+A29	Experiencer T117 Patient
+R60	Has_Result_or_Value Arg1:T67 Arg2:T130	
+R61	Has_Result_or_Value Arg1:T32 Arg2:T131	
+R62	Has_Result_or_Value Arg1:T39 Arg2:T135	
+R64	Has_Result_or_Value Arg1:T68 Arg2:T134	
+R65	Has_Result_or_Value Arg1:T44 Arg2:T137	
+R66	Has_Result_or_Value Arg1:T74 Arg2:T140	

@@ -1,0 +1,166 @@
+T1	PROC 46 71	Diagnóstico por la imagen
+#1	AnnotatorNotes T1	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T2	DISO 1111 1153	hiperparatiroidismo secundario o terciario
+T3	ANAT 131 154	glándulas paratiroideas
+#2	AnnotatorNotes T3	C0030518; Parathyroid gland; Body Part, Organ, or Organ Component | C1278879; Entire parathyroid gland; Body Part, Organ, or Organ Component
+T4	CHEM 320 336	18F-Fluorocolina
+T5	DISO 131 163	glándulas paratiroideas anómalas
+T6	PROC 264 286	tratamiento quirúrgico
+#3	AnnotatorNotes T6	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T7	PROC 309 312	PET
+#4	AnnotatorNotes T7	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T8	DISO 438 465	hiperparatirodismo primario
+#5	AnnotatorNotes T8	C0221002; Hyperparathyroidism, Primary; Disease or Syndrome
+T9	DISO 343 371	hiperparatiroidismo primario
+#6	AnnotatorNotes T9	C0221002; Hyperparathyroidism, Primary; Disease or Syndrome
+T10	DISO 473 483	enfermedad
+#7	AnnotatorNotes T10	C0012634; Disease; Disease or Syndrome
+T11	ANAT 504 527	glándulas paratiroideas
+#8	AnnotatorNotes T11	C0030518; Parathyroid gland; Body Part, Organ, or Organ Component | C1278879; Entire parathyroid gland; Body Part, Organ, or Organ Component
+T12	DISO 675 702	hiperparatirodismo primario
+#9	AnnotatorNotes T12	C0221002; Hyperparathyroidism, Primary; Disease or Syndrome
+T13	CHEM 547 567	hormona paratiroidea
+#10	AnnotatorNotes T13	C0030520; parathyroid hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T14	ANAT 727 739	paratiroides
+#11	AnnotatorNotes T14	C0030518; Parathyroid gland; Body Part, Organ, or Organ Component | C1278879; Entire parathyroid gland; Body Part, Organ, or Organ Component
+T15	DISO 606 634	Hiperparatiroidismo primario
+#12	AnnotatorNotes T15	C0221002; Hyperparathyroidism, Primary; Disease or Syndrome
+T16	PROC 716 739	cirugía de paratiroides
+T17	PROC 822 846	gammagrafía paratiroidea
+T18	PROC 852 870	ecografía cervical
+#13	AnnotatorNotes T18	C5225595; ultrasound of cervical spine; Diagnostic Procedure
+T19	PROC 920 923	PET
+#14	AnnotatorNotes T19	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T20	CHEM 931 947	18F-Fluorocolina
+T21	DISO 988 1033	hiperparatiroidismo primario familiar aislado
+#15	AnnotatorNotes T21	C4551961; Familial Isolated Hyperparathyroidism; Disease or Syndrome
+T22	PROC 1044 1058	diagnosticados
+#16	AnnotatorNotes T22	C0011900; Diagnosis; Diagnostic Procedure
+T23	DISO 1062 1090	neoplasia endocrina múltiple
+#17	AnnotatorNotes T23	C0027662; Multiple Endocrine Neoplasia; Neoplastic Process
+T24	DISO 1180 1210	cáncer tiroideo o paratiroideo
+T25	ANAT 1198 1210	paratiroideo
+#18	AnnotatorNotes T25	C0030518; Parathyroid gland; Body Part, Organ, or Organ Component | C1278879; Entire parathyroid gland; Body Part, Organ, or Organ Component
+T26	CHEM 81 101	fármacos radiactivos
+T27	PROC 175 192	pruebas de imagen
+#19	AnnotatorNotes T27	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T28	PROC 313 315	TC
+#20	AnnotatorNotes T28	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T29	ANAT 573 579	sangre
+#21	AnnotatorNotes T29	C0005767; Blood; Body Substance
+T30	PROC 740 757	Pruebas de imagen
+#22	AnnotatorNotes T30	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T31	ANAT 862 870	cervical
+#23	AnnotatorNotes T31	C0728985; Cervical spine; Body Part, Organ, or Organ Component | C1284110; Entire cervical spinal column; Body Part, Organ, or Organ Component
+T32	ANAT 834 846	paratiroidea
+#24	AnnotatorNotes T32	C0030518; Parathyroid gland; Body Part, Organ, or Organ Component | C1278879; Entire parathyroid gland; Body Part, Organ, or Organ Component
+T33	PROC 924 926	TC
+#25	AnnotatorNotes T33	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T34	DISO 1092 1095	MEN
+#26	AnnotatorNotes T34	C0027662; Multiple Endocrine Neoplasia; Neoplastic Process
+T35	ANAT 1187 1195	tiroideo
+#27	AnnotatorNotes T35	C0040132; Thyroid Gland; Body Part, Organ, or Organ Component | C1278878; Entire thyroid gland; Body Part, Organ, or Organ Component
+T36	Date 13 17	2019
+T39	Date 389 402	prequirúrgica
+#28	AnnotatorNotes T39	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T41	LIVB 661 670	Pacientes
+#29	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Date 758 772	prequirúrgicas
+T45	Duration 895 906	los 6 meses
+T46	LIVB 974 983	Pacientes
+#30	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1034 1043	Pacientes
+#31	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 1097 1106	Pacientes
+#32	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 1154 1163	Pacientes
+#33	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Spec_cue 1168 1179	sospecha de
+T37	PHYS 528 536	secretan
+#34	AnnotatorNotes T37	C0312431; Hormone secretion; Organ or Tissue Function
+A1	Assertion T24 Speculated
+#35	AnnotatorNotes T4	C1744278; fluorocholine; Organic Chemical · Indicator, Reagent, or Diagnostic Aid
+#36	AnnotatorNotes T20	C1744278; fluorocholine; Organic Chemical · Indicator, Reagent, or Diagnostic Aid
+#37	AnnotatorNotes T16	C2034321; parathyroid surgery; Therapeutic or Preventive Procedure
+#38	AnnotatorNotes T42	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+#39	AnnotatorNotes T17	C0860840; Parathyroid scintigraphy; Diagnostic Procedure 
+#40	AnnotatorNotes T2	C0271858; Tertiary hyperparathyroidism; Disease or Syndrome + C0020503; Hyperparathyroidism, Secondary; Disease or Syndrome 
+#41	AnnotatorNotes T24	C0549473; Thyroid carcinoma; Neoplastic Process | C0687150; Parathyroid Carcinoma; Neoplastic Process
+T38	Quantifier_or_Qualifier 787 799	concluyentes
+A2	Assertion T38 Negated
+#42	AnnotatorNotes T38	C2828146; Conclusive; Qualitative Concept
+T40	Neg_cue 784 786	no
+T43	Quantifier_or_Qualifier 802 814	discordantes
+#43	AnnotatorNotes T43	C3639994; Discordance; Finding
+#44	AnnotatorNotes T26	C0182638; Radiopharmaceuticals; Indicator, Reagent, or Diagnostic Aid · Pharmacologic Substance
+R1	Used_for Arg1:T26 Arg2:T1	
+R3	Location_of Arg1:T3 Arg2:T5	
+#45	AnnotatorNotes T5	C4025822; Abnormality of the parathyroid gland; Anatomical Abnormality
+T44	Result_or_Value 212 221	negativas
+#46	AnnotatorNotes T44	C0205160; Negative; Finding
+R5	Has_Result_or_Value Arg1:T27 Arg2:T44	
+R7	Before Arg1:T1 Arg2:T6	
+R8	Before Arg1:T27 Arg2:T1	
+R9	Used_for Arg1:T4 Arg2:T7	
+R10	Used_for Arg1:T4 Arg2:T28	
+T47	CONC 376 388	localización
+#47	AnnotatorNotes T47	C0475264; localization; Functional Concept
+R13	Overlap Arg1:T47 Arg2:T39	
+T49	Result_or_Value 403 411	negativa
+#48	AnnotatorNotes T49	C0205160; Negative; Finding
+R14	Has_Result_or_Value Arg1:T47 Arg2:T49	
+R15	Before Arg1:T47 Arg2:T7	
+R16	Before Arg1:T47 Arg2:T28	
+T53	Quantifier_or_Qualifier 494 503	una o más
+R17	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T53	
+R18	Location_of Arg1:T11 Arg2:T10	
+R19	Location_of Arg1:T11 Arg2:T8	
+R21	Location_of Arg1:T29 Arg2:T37	
+R20	Overlap Arg1:T8 Arg2:T37	
+T54	Quantifier_or_Qualifier 537 546	demasiada
+#49	AnnotatorNotes T54	C0442802; Excessive (qualifier value); Qualitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T54	
+R23	Overlap Arg1:T10 Arg2:T37	
+R24	Experiences Arg1:T41 Arg2:T12	
+R25	Location_of Arg1:T14 Arg2:T16	
+R26	Overlap Arg1:T30 Arg2:T42	
+T55	Result_or_Value 773 782	negativas
+#50	AnnotatorNotes T55	C0205160; Negative; Finding
+R27	Has_Result_or_Value Arg1:T30 Arg2:T55	
+R28	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T38	
+R29	Negation Arg1:T40 Arg2:T38	
+R30	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T43	
+R31	Location_of Arg1:T32 Arg2:T17	
+R32	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T38	
+R33	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T43	
+R34	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T43	
+R35	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T38	
+R36	Location_of Arg1:T31 Arg2:T18	
+R37	Overlap Arg1:T17 Arg2:T42	
+R38	Overlap Arg1:T18 Arg2:T42	
+R39	Overlap Arg1:T30 Arg2:T45	
+R40	Overlap Arg1:T17 Arg2:T45	
+R41	Overlap Arg1:T18 Arg2:T45	
+R42	Before Arg1:T30 Arg2:T19	
+R43	Before Arg1:T30 Arg2:T33	
+R44	Before Arg1:T17 Arg2:T19	
+R45	Before Arg1:T17 Arg2:T33	
+R46	Before Arg1:T18 Arg2:T19	
+R47	Before Arg1:T18 Arg2:T33	
+R48	Used_for Arg1:T20 Arg2:T19	
+R49	Used_for Arg1:T20 Arg2:T33	
+R50	Experiences Arg1:T46 Arg2:T21	
+R51	Experiences Arg1:T48 Arg2:T23	
+R52	Experiences Arg1:T48 Arg2:T34	
+R53	Experiences Arg1:T50 Arg2:T2	
+R54	Experiences Arg1:T51 Arg2:T24	
+R55	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T24	
+R56	Location_of Arg1:T25 Arg2:T24	
+R57	Speculation Arg1:T52 Arg2:T24	
+A3	Experiencer T51 Patient
+A4	Experiencer T50 Patient
+A5	Experiencer T48 Patient
+A6	Experiencer T46 Patient
+A7	Experiencer T41 Patient
+A8	Status T16 Future
+A9	Status T6 Future

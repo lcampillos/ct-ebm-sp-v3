@@ -1,0 +1,47 @@
+T1	PROC 46 56	Evaluación
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	PROC 176 195	Estudio prospectivo
+#2	AnnotatorNotes T2	C0033522; Prospective Studies; Research Activity
+T3	PROC 102 117	inmunosupresión
+#3	AnnotatorNotes T3	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T4	PROC 131 152	trasplantados renales
+#4	AnnotatorNotes T4	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T5	ANAT 145 152	renales
+#5	AnnotatorNotes T5	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T6	PROC 204 264	evaluación de la alorespuesta celular específica del donante
+T7	ANAT 234 241	celular
+#6	AnnotatorNotes T7	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T8	PROC 292 307	inmunosupresión
+#7	AnnotatorNotes T8	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T9	ANAT 322 327	renal
+#8	AnnotatorNotes T9	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T10	PROC 368 390	TRANSPLANTADOS RENALES
+T11	ANAT 383 390	RENALES
+#9	AnnotatorNotes T11	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T12	PROC 311 327	trasplante renal
+#10	AnnotatorNotes T12	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T13	Date 13 17	2014
+T14	LIVB 121 130	pacientes
+#11	AnnotatorNotes T14	C0030705; Patients; Patient or Disabled Group
+T15	LIVB 257 264	donante
+#12	AnnotatorNotes T15	C2191327; donor of organ or tissue; Patient or Disabled Group
+T16	LIVB 358 367	PACIENTES
+#13	AnnotatorNotes T16	C0030705; Patients; Patient or Disabled Group
+#14	AnnotatorNotes T10	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+R1	Experiences Arg1:T14 Arg2:T4	
+R2	Location_of Arg1:T5 Arg2:T4	
+R3	Location_of Arg1:T7 Arg2:T6	
+R4	Overlap Arg1:T8 Arg2:T12	
+R5	Overlap Arg1:T3 Arg2:T4	
+R6	Location_of Arg1:T9 Arg2:T12	
+T17	Quantifier_or_Qualifier 328 335	de novo
+#15	AnnotatorNotes T17	C1515568; de novo; Idea or Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T17	
+R8	Experiences Arg1:T16 Arg2:T10	
+R9	Location_of Arg1:T11 Arg2:T10	
+R10	Overlap Arg1:T6 Arg2:T8	
+R11	Before Arg1:T12 Arg2:T6	
+R12	Experiences Arg1:T14 Arg2:T3	
+A1	Experiencer T16 Patient
+A2	Experiencer T15 Other
+A3	Experiencer T14 Patient

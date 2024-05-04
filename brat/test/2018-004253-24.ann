@@ -1,0 +1,182 @@
+T1	PROC 136 182	Estudio de extensión abierto y no aleatorizado
+T2	PROC 188 234	evaluar la eficacia, seguridad y tolerabilidad
+T3	DISO 274 291	glomerulopatía C3
+#1	AnnotatorNotes T3	C4087273; C3 glomerulopathy; Disease or Syndrome
+T4	CHEM 99 105	LNP023
+#2	AnnotatorNotes T4	C4744992; Factor B Inhibitor LNP023; Organic Chemical · Pharmacologic Substance
+T5	DISO 316 327	Fallo renal
+#3	AnnotatorNotes T5	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T6	DISO 354 371	Glomerulopatía C3
+#4	AnnotatorNotes T6	C4087273; C3 glomerulopathy; Disease or Syndrome
+T7	CHEM 252 258	LNP023
+#5	AnnotatorNotes T7	C4744992; Factor B Inhibitor LNP023; Organic Chemical · Pharmacologic Substance
+T8	PROC 449 460	tratamiento
+#6	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	CHEM 369 371	C3
+#7	AnnotatorNotes T9	C0009506; Complement 3; Amino Acid, Peptide, or Protein · Immunologic Factor
+T10	CHEM 289 291	C3
+#8	AnnotatorNotes T10	C0009506; Complement 3; Amino Acid, Peptide, or Protein · Immunologic Factor
+T11	DISO 541 555	Comorbilidades
+T12	DISO 585 604	enfermedad cardíaca
+T13	ANAT 596 604	cardíaca
+#9	AnnotatorNotes T13	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T14	DISO 637 667	hipertensión arterial pulmonar
+#10	AnnotatorNotes T14	C2973725; Pulmonary arterial hypertension; Disease or Syndrome
+T15	DISO 720 736	condición médica
+#11	AnnotatorNotes T15	C4745084; Medical Condition; Finding
+T16	DISO 707 717	enfermedad
+#12	AnnotatorNotes T16	C0012634; Disease; Disease or Syndrome
+T17	CHEM 826 832	LNP023
+#13	AnnotatorNotes T17	C4744992; Factor B Inhibitor LNP023; Organic Chemical · Pharmacologic Substance
+T18	DISO 890 899	infección
+#14	AnnotatorNotes T18	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T19	PROC 920 938	tratamiento médico
+#15	AnnotatorNotes T19	C0418981; Medical therapy; Therapeutic or Preventive Procedure
+T20	DISO 942 987	Infección crónica por virus de la hepatitis B
+T21	DISO 996 1007	hepatitis C
+#16	AnnotatorNotes T21	C0019196; Hepatitis C; Disease or Syndrome
+T22	DISO 1054 1085	enfermedad de inmunodeficiencia
+T23	PROC 1104 1115	diagnóstico
+#17	AnnotatorNotes T23	C0011900; Diagnosis; Diagnostic Procedure
+T24	PROC 1142 1145	ECG
+#18	AnnotatorNotes T24	C1623258; Electrocardiography; Diagnostic Procedure
+T25	DISO 109 112	GC3
+#19	AnnotatorNotes T25	C4087273; C3 glomerulopathy; Disease or Syndrome
+T26	ANAT 322 327	renal
+#20	AnnotatorNotes T26	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T27	CHEM 468 475	fármaco
+#21	AnnotatorNotes T27	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T28	ANAT 650 658	arterial
+#22	AnnotatorNotes T28	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T29	ANAT 659 667	pulmonar
+#23	AnnotatorNotes T29	C0034052; Pulmonary artery structure; Body Part, Organ, or Organ Component | C1269026; Entire pulmonary artery; Body Part, Organ, or Organ Component
+T30	DISO 989 992	VHB
+#24	AnnotatorNotes T30	C0019163; Hepatitis B; Disease or Syndrome
+T31	DISO 1009 1012	VHC
+#25	AnnotatorNotes T31	C0019196; Hepatitis C; Disease or Syndrome
+T32	DISO 1033 1036	VIH
+#26	AnnotatorNotes T32	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T33	Date 13 17	2018
+T34	Date 82 95	a largo plazo
+T36	Date 235 248	a largo plazo
+T37	LIVB 262 269	sujetos
+#27	AnnotatorNotes T37	C0681850; Study Subject; Group
+T38	LIVB 402 411	pacientes
+#28	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 755 767	investigador
+#29	AnnotatorNotes T41	C0035173; Research Personnel; Professional or Occupational Group
+T44	LIVB 805 813	paciente
+#30	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 872 881	Pacientes
+#31	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	Duration 952 959	crónica
+#32	AnnotatorNotes T46	C0205191; chronic; Temporal Concept
+T47	LIVB 964 987	virus de la hepatitis B
+#33	AnnotatorNotes T47	C0019169; hepatitis B virus; Virus
+T50	Date 1116 1122	actual
+T52	LIVB 1206 1213	sujetos
+#34	AnnotatorNotes T52	C0681850; Study Subject; Group
+T35	DISO 1126 1145	anomalías en el ECG
+#35	AnnotatorNotes T35	C2830610; Abnormal electrocardiogram; Finding
+T39	PROC 630 634	NYHA
+#36	AnnotatorNotes T39	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T40	PROC 492 498	ensayo
+#37	AnnotatorNotes T40	C0008976; Clinical Trials; Research Activity
+A1	Status T8 History_of
+A2	Status T27 History_of
+A3	Status T32 History_of
+A4	Status T22 History_of
+A5	Status T35 History_of
+A6	Status T40 History_of
+#38	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity + C3274448; Tolerability Study; Research Activity
+#39	AnnotatorNotes T12	C0018799; Heart Diseases; Disease or Syndrome
+#40	AnnotatorNotes T20	C0524909; Hepatitis B, Chronic; Disease or Syndrome
+#41	AnnotatorNotes T22	C0021051; Immunologic Deficiency Syndromes; Disease or Syndrome
+#42	AnnotatorNotes T34	C0443252; Long-term; Temporal Concept
+#43	AnnotatorNotes T36	C0443252; Long-term; Temporal Concept
+#44	AnnotatorNotes T50	C0521116; Current (present time); Temporal Concept 
+T42	Neg_cue 790 797	impedir
+T43	Observation 814 820	tolere
+A7	Assertion T43 Negated
+R1	Negation Arg1:T42 Arg2:T43	
+R2	Experiences Arg1:T44 Arg2:T43	
+T48	Quantifier_or_Qualifier 821 825	bien
+A8	Assertion T48 Negated
+R3	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T48	
+R4	Negation Arg1:T42 Arg2:T48	
+T49	Observation 835 868	cumpla los requisitos del estudio
+A9	Assertion T49 Negated
+#45	AnnotatorNotes T49	C1302261; Patient eligible for clinical trial; Finding (?)
+R5	Negation Arg1:T42 Arg2:T49	
+T51	Observation 1162 1198	riesgo significativo en la seguridad
+R7	Experiences Arg1:T52 Arg2:T51	
+T53	Neg_cue 167 169	no
+T54	Quantifier_or_Qualifier 170 182	aleatorizado
+A10	Assertion T54 Negated
+R8	Negation Arg1:T53 Arg2:T54	
+T55	Quantifier_or_Qualifier 569 575	graves
+#46	AnnotatorNotes T55	C1547227; Severe - Severity of Illness Code; Intellectual Product
+T56	Quantifier_or_Qualifier 668 673	grave
+#47	AnnotatorNotes T56	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R9	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T56	
+R10	Location_of Arg1:T29 Arg2:T14	
+R11	Location_of Arg1:T28 Arg2:T14	
+R12	Location_of Arg1:T13 Arg2:T12	
+R13	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T55	
+T57	Result_or_Value 615 623	clase IV
+R14	Has_Result_or_Value Arg1:T39 Arg2:T57	
+T58	Quantifier_or_Qualifier 675 693	clase IV de la OMS
+R16	Location_of Arg1:T26 Arg2:T5	
+R17	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T54	
+R18	Experiences Arg1:T37 Arg2:T7	
+R19	Experiences Arg1:T37 Arg2:T3	
+R20	Overlap Arg1:T2 Arg2:T36	
+#48	AnnotatorNotes T58	C4087444; Pulmonary hypertension WHO functional class IV; Intellectual Product
+R21	Before Arg1:T16 Arg2:T43	
+R22	Before Arg1:T15 Arg2:T43	
+R23	Experiences Arg1:T45 Arg2:T18	
+R24	Experiences Arg1:T45 Arg2:T19	
+T59	Quantifier_or_Qualifier 900 906	activa
+#49	AnnotatorNotes T59	C0679217; Active State; Idea or Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T59	
+R26	Causes Arg1:T47 Arg2:T20	
+R27	Has_Duration_or_Interval Arg1:T20 Arg2:T46	
+R28	Has_Duration_or_Interval Arg1:T30 Arg2:T46	
+R29	Has_Duration_or_Interval Arg1:T21 Arg2:T46	
+R30	Has_Duration_or_Interval Arg1:T31 Arg2:T46	
+R31	Overlap Arg1:T23 Arg2:T50	
+R32	Overlap Arg1:T35 Arg2:T24	
+R33	Experiences Arg1:T52 Arg2:T35	
+R34	Experiences Arg1:T52 Arg2:T24	
+#50	AnnotatorNotes T11	C0009488; Comorbidity; Finding
+T60	Quantifier_or_Qualifier 556 568	concurrentes
+#51	AnnotatorNotes T60	C0205420; Concurrent; Temporal Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T60	
+T61	Quantifier_or_Qualifier 605 613	avanzada
+#52	AnnotatorNotes T61	C0205179; Advanced phase; Qualitative Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T61	
+R37	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T58	
+R38	Before Arg1:T11 Arg2:T43	
+R39	Before Arg1:T12 Arg2:T43	
+R40	Before Arg1:T14 Arg2:T43	
+R41	Before Arg1:T11 Arg2:T49	
+R42	Before Arg1:T12 Arg2:T49	
+R43	Before Arg1:T14 Arg2:T49	
+R44	Before Arg1:T16 Arg2:T49	
+R45	Before Arg1:T15 Arg2:T49	
+T62	Observation 424 460	completado el periodo de tratamiento
+#53	AnnotatorNotes T62	C0580352; Treatment completed; Finding
+R47	Used_for Arg1:T27 Arg2:T8	
+#54	AnnotatorNotes T48	C0205170; Good; Qualitative Concept
+R6	Experiences Arg1:T44 Arg2:T17	
+R15	Experiences Arg1:T44 Arg2:T15	
+R46	Experiences Arg1:T44 Arg2:T16	
+R48	Experiences Arg1:T44 Arg2:T14	
+R49	Experiences Arg1:T44 Arg2:T12	
+R50	Experiences Arg1:T44 Arg2:T11	
+A11	Experiencer T37 Patient
+A12	Experiencer T38 Patient
+A13	Experiencer T41 Other
+A14	Experiencer T44 Patient
+A15	Experiencer T45 Patient
+A16	Experiencer T52 Patient

@@ -1,0 +1,157 @@
+T1	PROC 44 72	artroplastia total de cadera
+#1	AnnotatorNotes T1	C0040508; Total Hip Replacement (procedure); Therapeutic or Preventive Procedure
+T2	ANAT 66 72	cadera
+#2	AnnotatorNotes T2	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T3	PROC 74 108	Estudio prospectivo y aleatorizado
+#3	AnnotatorNotes T3	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T4	PROC 120 131	seguimiento
+#4	AnnotatorNotes T4	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T5	PROC 180 208	cirugía mínimamente invasiva
+#5	AnnotatorNotes T5	C0282624; Minimally Invasive Surgical Procedures; Therapeutic or Preventive Procedure
+T6	PROC 259 287	artroplastia total de cadera
+#6	AnnotatorNotes T6	C0040508; Total Hip Replacement (procedure); Therapeutic or Preventive Procedure
+T7	ANAT 281 287	cadera
+#7	AnnotatorNotes T7	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T8	PROC 334 362	cirugía mínimamente invasiva
+#8	AnnotatorNotes T8	C0282624; Minimally Invasive Surgical Procedures; Therapeutic or Preventive Procedure
+T9	PROC 377 397	cirugía convencional
+#9	AnnotatorNotes T9	C1521745; Conventional Surgery; Therapeutic or Preventive Procedure
+T10	PROC 401 429	artroplastia total de cadera
+#10	AnnotatorNotes T10	C0040508; Total Hip Replacement (procedure); Therapeutic or Preventive Procedure
+T11	ANAT 423 429	cadera
+#11	AnnotatorNotes T11	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T12	PROC 452 493	Ensayo clínico prospectivo y aleatorizado
+#12	AnnotatorNotes T12	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T13	DISO 685 693	sangrado
+#13	AnnotatorNotes T13	C0019080; Hemorrhage; Pathologic Function
+T14	DISO 713 733	dolor postoperatorio
+#14	AnnotatorNotes T14	C0030201; Pain, Postoperative; Sign or Symptom
+T15	DISO 817 831	complicaciones
+#15	AnnotatorNotes T15	C0009566; Complication; Pathologic Function
+T16	DISO 995 1003	sangrado
+#16	AnnotatorNotes T16	C0019080; Hemorrhage; Pathologic Function
+T17	DISO 1023 1043	dolor postoperatorio
+#17	AnnotatorNotes T17	C0030201; Pain, Postoperative; Sign or Symptom
+T18	PROC 1061 1089	cirugía mínimamente invasiva
+#18	AnnotatorNotes T18	C0282624; Minimally Invasive Surgical Procedures; Therapeutic or Preventive Procedure
+T19	DISO 1395 1409	complicaciones
+#19	AnnotatorNotes T19	C0009566; Complication; Pathologic Function
+T20	PROC 1467 1495	cirugía mínimamente invasiva
+#20	AnnotatorNotes T20	C0282624; Minimally Invasive Surgical Procedures; Therapeutic or Preventive Procedure
+T21	DISO 1620 1625	dolor
+#21	AnnotatorNotes T21	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T22	PROC 866 873	seguido
+#22	AnnotatorNotes T22	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T23	Duration 110 116	Un año
+T24	LIVB 515 524	pacientes
+#23	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	Date 694 708	perioperatorio
+#24	AnnotatorNotes T25	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T26	Date 719 733	postoperatorio
+#25	AnnotatorNotes T26	C0032790; Postoperative Period; Temporal Concept
+T28	LIVB 880 889	pacientes
+#26	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T30	Date 1004 1018	perioperatorio
+#27	AnnotatorNotes T30	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T31	Date 1029 1043	postoperatorio
+#28	AnnotatorNotes T31	C0032790; Postoperative Period; Temporal Concept
+T33	PHYS 1271 1283	deambulación
+#29	AnnotatorNotes T33	C0945826; Ambulation; Organism Function
+T37	PHYS 748 760	recuperación
+#30	AnnotatorNotes T37	C2004454; Recovery - healing process; Organism Function
+T38	PHYS 1107 1119	recuperación
+#31	AnnotatorNotes T38	C2004454; Recovery - healing process; Organism Function
+T39	PHYS 1639 1651	recuperación
+#32	AnnotatorNotes T39	C2004454; Recovery - healing process; Organism Function
+T40	Duration 890 903	un año mínimo
+T27	Neg_cue 1688 1691	sin
+T29	CONC 1700 1711	diferencias
+A1	Assertion T29 Negated
+#33	AnnotatorNotes T29	C1705241; Delta (difference); Quantitative Concept
+R1	Negation Arg1:T27 Arg2:T29	
+T32	CONC 939 950	diferencias
+A2	Assertion T32 Negated
+#34	AnnotatorNotes T32	C1705241; Delta (difference); Quantitative Concept
+T34	Neg_cue 918 920	No
+R2	Negation Arg1:T34 Arg2:T32	
+T35	CONC 1303 1314	diferencias
+A3	Assertion T35 Negated
+#35	AnnotatorNotes T35	C1705241; Delta (difference); Quantitative Concept
+T36	Neg_cue 1285 1287	No
+R3	Negation Arg1:T36 Arg2:T35	
+T41	CONC 1 19	Abordaje posterior
+#36	AnnotatorNotes T41	C0205512; Posterior approach; Spatial Concept 
+T42	Quantifier_or_Qualifier 20 40	mínimamente invasivo
+#37	AnnotatorNotes T42	C2711297; Minimally invasive procedure; Functional Concept 
+R4	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T42	
+R5	Location_of Arg1:T2 Arg2:T1	
+R6	Used_for Arg1:T41 Arg2:T1	
+R7	Has_Duration_or_Interval Arg1:T4 Arg2:T23	
+R8	Location_of Arg1:T7 Arg2:T6	
+R9	Location_of Arg1:T11 Arg2:T10	
+T43	CONC 583 602;604 613	abordaje quirúrgico posterior
+#41	AnnotatorNotes T43	C0205512; Posterior approach; Spatial Concept
+T44	CONC 637 646	posterior
+#42	AnnotatorNotes T44	C0205512; Posterior approach; Spatial Concept
+T45	Quantifier_or_Qualifier 614 634	mínimamente invasivo
+#43	AnnotatorNotes T45	C2711297; Minimally invasive procedure; Functional Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T45	
+T46	Quantifier_or_Qualifier 647 654	directo
+#44	AnnotatorNotes T46	C1947931; Direct (qualifier); Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T46	
+R15	Overlap Arg1:T13 Arg2:T25	
+R16	Overlap Arg1:T14 Arg2:T26	
+T47	CONC 738 760	tiempo de recuperación
+R17	Has_Duration_or_Interval Arg1:T22 Arg2:T40	
+R18	Experiences Arg1:T28 Arg2:T13	
+R19	Experiences Arg1:T28 Arg2:T14	
+R20	Experiences Arg1:T28 Arg2:T37	
+R21	Experiences Arg1:T28 Arg2:T15	
+T48	CONC 765 804	orientación y ajuste de los componentes
+T49	Quantifier_or_Qualifier 951 965	significativas
+#45	AnnotatorNotes T49	C0237881; Statistical Significance; Quantitative Concept
+A4	Assertion T49 Negated
+R22	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T49	
+R23	Negation Arg1:T34 Arg2:T49	
+R24	Overlap Arg1:T16 Arg2:T30	
+R25	Overlap Arg1:T17 Arg2:T31	
+R26	Causes Arg1:T18 Arg2:T17	
+T50	CONC 1094 1119	velocidad de recuperación
+T51	CONC 1156 1174	abordaje posterior
+#46	AnnotatorNotes T51	C0205512; Posterior approach; Spatial Concept
+T52	Quantifier_or_Qualifier 1175 1195	mínimamente invasivo
+#47	AnnotatorNotes T52	C2711297; Minimally invasive procedure; Functional Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T52	
+R29	Used_for Arg1:T51 Arg2:T18	
+T53	CONC 1220 1241	estancia hospitalaria
+#48	AnnotatorNotes T53	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T54	Quantifier_or_Qualifier 1258 1264	precoz
+#49	AnnotatorNotes T54	C1279930; Precocious; Temporal Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T54	
+R31	Before Arg1:T51 Arg2:T33	
+R32	Overlap Arg1:T18 Arg2:T53	
+T55	CONC 1327 1344	tiempo quirúrgico
+#50	AnnotatorNotes T55	C3494201; Operative Time; Temporal Concept
+T56	CONC 1346 1385	orientación y ajuste de los componentes
+T57	CONC 1434 1451	Impacto económico
+#51	AnnotatorNotes T57	C0681024; economic impact; Quantitative Concept
+T58	CONC 1503 1509;1527 1535	ahorro de coste
+#52	AnnotatorNotes T58	C0085550; Cost Savings; Quantitative Concept
+T59	CONC 1567 1585	abordaje posterior
+#53	AnnotatorNotes T59	C0205512; Posterior approach; Spatial Concept
+T60	Quantifier_or_Qualifier 1586 1606	mínimamente invasivo
+#54	AnnotatorNotes T60	C2711297; Minimally invasive procedure; Functional Concept
+R33	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T60	
+T61	Observation 1607 1625	disminuye el dolor
+#55	AnnotatorNotes T61	C5230944; Sensation of pain reduced; Finding (?)
+R34	Before Arg1:T21 Arg2:T61	
+R35	Causes Arg1:T59 Arg2:T61	
+T62	CONC 1659 1676	impacto económico
+#56	AnnotatorNotes T62	C0681024; economic impact; Quantitative Concept
+R37	Before Arg1:T21 Arg2:T39	
+R10	Before Arg1:T17 Arg2:T38	
+R11	Before Arg1:T14 Arg2:T37	
+R12	Before Arg1:T13 Arg2:T37	
+R28	Before Arg1:T15 Arg2:T37	
+A5	Experiencer T28 Patient
+A6	Experiencer T24 Patient

@@ -1,0 +1,210 @@
+T1	PROC 74 87	TEST GENÉTICO
+T2	ANAT 836 843	trompas
+T3	PROC 156 187	ESTIMULACIÓN OVÁRICA CONTROLADA
+#1	AnnotatorNotes T3	C3160898; Controlled ovarian stimulation; Therapeutic or Preventive Procedure
+T4	PROC 912 915	COH
+#2	AnnotatorNotes T4	C3160882; Controlled ovarian hyperstimulation; Therapeutic or Preventive Procedure
+T5	ANAT 1330 1337	trompas
+T6	PROC 282 313	ESTIMULACIÓN OVÁRICA CONTROLADA
+#3	AnnotatorNotes T6	C3160898; Controlled ovarian stimulation; Therapeutic or Preventive Procedure
+T7	PROC 920 924	BLcG
+#4	AnnotatorNotes T7	C0430103; Chorionic gonadotrophin stimulation test; Laboratory Procedure [Mispelling]
+T8	PROC 318 336	ENSAYO PROSPECTIVO
+T9	DISO 360 372	Infertilidad
+#5	AnnotatorNotes T9	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T10	DISO 409 419	infértiles
+#6	AnnotatorNotes T10	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T11	PROC 487 490	IMC
+#7	AnnotatorNotes T11	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T12	PROC 503 517	valores de FSH
+T13	PROC 537 551	valores de AMH
+T14	CHEM 548 551	AMH
+#8	AnnotatorNotes T14	C0687670; Mullerian duct inhibiting substance; Amino Acid, Peptide, or Protein · Hormone
+T15	PROC 579 599	estimulación ovárica
+T16	CHEM 604 618	gonadotropinas
+#9	AnnotatorNotes T16	C0018061; Gonadotropins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T17	PROC 1081 1117	consentimiento informado por escrito
+#10	AnnotatorNotes T17	C0811741; Obtain informed written consent; Health Care Activity
+T18	PROC 677 686	protocolo
+#11	AnnotatorNotes T18	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T19	CHEM 752 772	antagonistas de GnRH
+#12	AnnotatorNotes T19	C1268855; Gonadotropin releasing hormone antagonist; Hormone · Pharmacologic Substance
+T20	DISO 783 795	infertilidad
+#13	AnnotatorNotes T20	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T21	DISO 800 822	infertilidad masculina
+#14	AnnotatorNotes T21	C0021364; Male infertility; Disease or Syndrome
+T22	DISO 824 843	daño en las trompas
+T23	PROC 960 978	protocolo estándar
+T24	PROC 982 1024	estimulación con gonadotropinas combinadas
+T25	ANAT 1203 1209	sangre
+#15	AnnotatorNotes T25	C0005767; Blood; Body Substance
+T26	DISO 1291 1303	infertilidad
+#16	AnnotatorNotes T26	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T27	DISO 1321 1337	daños de trompas
+T28	DISO 1343 1365	infertilidad masculina
+#17	AnnotatorNotes T28	C0021364; Male infertility; Disease or Syndrome
+T29	ANAT 1436 1443	ovárica
+#18	AnnotatorNotes T29	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T30	DISO 1450 1481	insuficiencia ovárica prematura
+#19	AnnotatorNotes T30	C0085215; Ovarian Failure, Premature; Disease or Syndrome
+T31	DISO 1491 1504	endometriosis
+#20	AnnotatorNotes T31	C0014175; Endometriosis; Disease or Syndrome
+T32	DISO 1531 1562	síndrome de ovario poliquístico
+#21	AnnotatorNotes T32	C0032460; Polycystic Ovary Syndrome; Disease or Syndrome
+T33	CHEM 138 141	FSH
+#22	AnnotatorNotes T33	C0733758; follicle stimulating hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T34	ANAT 169 176	OVÁRICA
+#23	AnnotatorNotes T34	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T35	CHEM 264 267	FSH
+#24	AnnotatorNotes T35	C0733758; follicle stimulating hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T36	ANAT 295 302	OVÁRICA
+#25	AnnotatorNotes T36	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T37	CHEM 514 517	FSH
+#26	AnnotatorNotes T37	C0733758; follicle stimulating hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T38	ANAT 592 599	ovárica
+#27	AnnotatorNotes T38	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T39	PROC 635 664	procedimientos de FIV frescos
+T40	CHEM 738 741	FSH
+#28	AnnotatorNotes T40	C0733758; follicle stimulating hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T41	CHEM 744 746	LH
+#29	AnnotatorNotes T41	C0023607; luteinizing hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T42	CHEM 999 1013	gonadotropinas
+#30	AnnotatorNotes T42	C0018061; Gonadotropins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T43	PROC 1192 1209	muestra de sangre
+#31	AnnotatorNotes T43	C0005834; Collection of blood specimen for laboratory procedure; Diagnostic Procedure | C1277698; Blood sample taken; Laboratory Procedure
+T44	DISO 1391 1401	patologías
+#32	AnnotatorNotes T44	C0677042; Pathology processes; Pathologic Function
+T45	ANAT 1464 1471	ovárica
+#33	AnnotatorNotes T45	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T46	ANAT 1543 1549	ovario
+#34	AnnotatorNotes T46	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T47	Date 13 17	2016
+T49	PHYS 218 230	POLIMORFISMO
+#35	AnnotatorNotes T49	C0032529; Genetic Polymorphism; Genetic Function
+T50	LIVB 401 408	Mujeres
+#36	AnnotatorNotes T50	C0043210; Woman; Population Group
+T51	PHYS 430 438	ovulando
+T52	Age 452 476	hasta la edad de 38 años
+T55	LIVB 1057 1066	pacientes
+#37	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Neg_cue 1071 1073	no
+T57	LIVB 1154 1163	pacientes
+#38	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 1267 1276	pacientes
+#39	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1367 1376	pacientes
+#40	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T61	PHYS 1426 1443	respuesta ovárica
+#41	AnnotatorNotes T61	C1848715; Ovarian response to FSH stimulation; Organ or Tissue Function (?)
+T48	Neg_cue 1168 1177	se niegan
+T53	LIVB 103 114	FACULTATIVO
+#42	AnnotatorNotes T53	C0031831; Physicians; Professional or Occupational Group
+T54	Neg_cue 1304 1316	excepción de
+T60	PROC 1245 1260	perfil genético
+#43	AnnotatorNotes T60	C0796344; Genetic Analysis; Laboratory Procedure (?) |  C0752248; Gene Expression Profiling; Laboratory Procedure (?)
+T62	Quantifier_or_Qualifier 619 627	exógenas
+T63	Quantifier_or_Qualifier 720 725	corto
+T64	Quantifier_or_Qualifier 727 736	combinado
+T65	Quantifier_or_Qualifier 891 908	al menos un ciclo
+T66	Result_or_Value 925 933	positivo
+T67	Neg_cue 916 919	sin
+A1	Assertion T17 Negated
+A2	Assertion T43 Negated
+A3	Assertion T27 Negated
+A4	Assertion T28 Negated
+R1	Used_for Arg1:T33 Arg2:T3
+R2	Location_of Arg1:T34 Arg2:T3
+R3	Used_for Arg1:T35 Arg2:T6
+R4	Location_of Arg1:T36 Arg2:T6
+R5	Experiences Arg1:T50 Arg2:T10
+R6	Experiences Arg1:T50 Arg2:T51
+R7	Has_Age Arg1:T50 Arg2:T52
+R8	Used_for Arg1:T16 Arg2:T15
+R9	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T62
+R10	Location_of Arg1:T38 Arg2:T15
+R11	Used_for Arg1:T16 Arg2:T39
+R13	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T64
+R12	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T63
+R14	Location_of Arg1:T2 Arg2:T22
+R15	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T65
+A5	Assertion T66 Negated
+R16	Has_Result_or_Value Arg1:T7 Arg2:T66
+R17	Negation Arg1:T67 Arg2:T66
+R18	Used_for Arg1:T42 Arg2:T24
+R19	Negation Arg1:T56 Arg2:T17
+R20	Experiences Arg1:T57 Arg2:T43
+R21	Negation Arg1:T48 Arg2:T43
+R22	Experiences Arg1:T58 Arg2:T26
+R23	Negation Arg1:T54 Arg2:T27
+R24	Negation Arg1:T54 Arg2:T28
+R25	Experiences Arg1:T59 Arg2:T44
+R26	Experiences Arg1:T59 Arg2:T61
+R27	Location_of Arg1:T29 Arg2:T61
+R28	Location_of Arg1:T45 Arg2:T30
+R29	Experiences Arg1:T59 Arg2:T30
+R30	Experiences Arg1:T59 Arg2:T31
+R31	Location_of Arg1:T46 Arg2:T32
+R32	Experiences Arg1:T59 Arg2:T32
+R33	Experiences Arg1:T58 Arg2:T27
+R34	Experiences Arg1:T58 Arg2:T28
+R35	Before Arg1:T1 Arg2:T3	
+T68	Quantifier_or_Qualifier 231 239	p. N680S
+R36	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T68	
+T69	Quantifier_or_Qualifier 268 275	EXÓGENA
+#44	AnnotatorNotes T69	C0205228; Exogenous; Functional Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T69	
+T70	Quantifier_or_Qualifier 142 149	EXÓGENA
+R38	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T70	
+R39	Used_for Arg1:T19 Arg2:T39	
+R40	Combined_with Arg1:T4 Arg2:T24	
+R41	Used_for Arg1:T40 Arg2:T39	
+R42	Used_for Arg1:T41 Arg2:T39	
+R43	Combined_with Arg1:T15 Arg2:T39	
+R44	Experiences Arg1:T57 Arg2:T60	
+R45	Before Arg1:T43 Arg2:T60	
+#45	AnnotatorNotes T1	C0679560; Genetic screening method; Laboratory Procedure
+T71	Result_or_Value 518 530	<10 mUI / ml
+R46	Has_Result_or_Value Arg1:T12 Arg2:T71	
+T72	Result_or_Value 551 564	> 0,7 ng / ml
+R47	Has_Result_or_Value Arg1:T13 Arg2:T72	
+T73	Result_or_Value 491 496	18-28
+R48	Has_Result_or_Value Arg1:T11 Arg2:T73	
+R49	Causes Arg1:T22 Arg2:T20	
+R50	Location_of Arg1:T5 Arg2:T27	
+R51	Causes Arg1:T30 Arg2:T26	
+R52	Causes Arg1:T31 Arg2:T26	
+R53	Causes Arg1:T32 Arg2:T26	
+R54	Experiences Arg1:T58 Arg2:T44	
+R55	Experiences Arg1:T58 Arg2:T61	
+R56	Experiences Arg1:T58 Arg2:T30	
+R57	Experiences Arg1:T58 Arg2:T31	
+R58	Experiences Arg1:T58 Arg2:T32	
+#46	AnnotatorNotes T66	C1446409; Positive; Finding
+#47	AnnotatorNotes T8	C0033522; Prospective Studies; Research Activity
+#48	AnnotatorNotes T51	C0029965; Ovulation; Organ or Tissue Function
+#49	AnnotatorNotes T12	C0202022; Follicle stimulating hormone measurement; Laboratory Procedure
+#50	AnnotatorNotes T13	C2210756; serum anti-Mullerian hormone (AMH); Laboratory Procedure (?)
+#51	AnnotatorNotes T15	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#52	AnnotatorNotes T2	C0015560; Fallopian Tubes; Body Part, Organ, or Organ Component
+#53	AnnotatorNotes T5	C0015560; Fallopian Tubes; Body Part, Organ, or Organ Component
+T74	Spec_cue 1406 1412	puedan
+T75	CONC 1413 1420	afectar
+A6	Assertion T75 Speculated
+#54	AnnotatorNotes T75	C0521102; Interferes with; Functional Concept
+R60	Speculation Arg1:T74 Arg2:T75	
+#55	AnnotatorNotes T70	C0205228; Exogenous; Functional Concept
+#56	AnnotatorNotes T62	C0205228; Exogenous; Functional Concept
+#57	AnnotatorNotes T63	C1806781; Short; Quantitative Concept
+#58	AnnotatorNotes T64	C0205195; Combined; Qualitative Concept
+T76	Observation 1123 1147	participar en el estudio
+#59	AnnotatorNotes T76	C1278516; Patient participation status; Finding
+R62	Before Arg1:T17 Arg2:T76	
+R59	Experiences Arg1:T59 Arg2:T26	
+R61	Experiences Arg1:T59 Arg2:T27	
+R63	Experiences Arg1:T59 Arg2:T28	
+A7	Experiencer T55 Patient
+A8	Experiencer T57 Patient
+A9	Experiencer T58 Patient
+A10	Experiencer T59 Patient
+A11	Experiencer T53 Other
+A12	Experiencer T50 Patient

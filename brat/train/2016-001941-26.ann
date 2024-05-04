@@ -1,0 +1,188 @@
+T1	PROC 45 76	Estudio de seguridad y eficacia
+T2	CHEM 136 145	Nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 150 160	Ipilimumab
+#2	AnnotatorNotes T3	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	DISO 176 184	melanoma
+#3	AnnotatorNotes T4	C0025202; melanoma; Neoplastic Process
+T5	PROC 207 238	Estudio fase IIIb, aleatorizado
+T6	CHEM 299 308	Nivolumab
+#4	AnnotatorNotes T6	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	CHEM 313 323	Ipilimumab
+#5	AnnotatorNotes T7	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	DISO 339 347	melanoma
+#6	AnnotatorNotes T8	C0025202; melanoma; Neoplastic Process
+T9	DISO 419 427	Melanoma
+#7	AnnotatorNotes T9	C0025202; melanoma; Neoplastic Process
+T10	DISO 464 472	melanoma
+#8	AnnotatorNotes T10	C0025202; melanoma; Neoplastic Process
+T11	DISO 725 733	melanoma
+#9	AnnotatorNotes T11	C0025202; melanoma; Neoplastic Process
+T12	PROC 377 384	tratado
+#10	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	PROC 927 949	tratamiento oncológico
+T14	DISO 972 980	melanoma
+#11	AnnotatorNotes T14	C0025202; melanoma; Neoplastic Process
+T15	DISO 1047 1068	metástasis cerebrales
+#12	AnnotatorNotes T15	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T16	DISO 1079 1104	metástasis leptomeníngeas
+#13	AnnotatorNotes T16	C1704231; Metastatic Malignant Neoplasm to the Leptomeninges; Neoplastic Process
+T17	DISO 1120 1135	melanoma ocular
+#14	AnnotatorNotes T17	C0558356; Malignant melanoma of eye; Neoplastic Process
+T18	DISO 1150 1171	enfermedad autoinmune
+#15	AnnotatorNotes T18	C0004364; Autoimmune Diseases; Disease or Syndrome
+T19	PROC 90 117	regímenes de administración
+T20	PROC 253 280	regímenes de administración
+T21	DISO 362 373	metastásico
+#16	AnnotatorNotes T21	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T22	DISO 487 498	metastásico
+#17	AnnotatorNotes T22	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T23	DISO 748 759	metastásico
+#18	AnnotatorNotes T23	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T24	PROC 502 509	tratado
+#19	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	DISO 995 1006	metastásico
+#20	AnnotatorNotes T25	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T26	ANAT 1058 1068	cerebrales
+#21	AnnotatorNotes T26	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T27	ANAT 1090 1104	leptomeníngeas
+#22	AnnotatorNotes T27	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T28	ANAT 1129 1135	ocular
+#23	AnnotatorNotes T28	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T29	Date 13 17	2016
+T30	LIVB 164 171	sujetos
+#24	AnnotatorNotes T30	C0681850; Study Subject; Group
+T31	LIVB 327 334	sujetos
+#25	AnnotatorNotes T31	C0681850; Study Subject; Group
+T32	Neg_cue 374 376	no
+T33	LIVB 452 459	Sujetos
+#26	AnnotatorNotes T33	C0681850; Study Subject; Group
+T34	Neg_cue 499 501	no
+T35	LIVB 549 556	Hombres
+#27	AnnotatorNotes T35	C0025266; Male population group; Population Group
+T36	LIVB 559 566	mujeres
+#28	AnnotatorNotes T36	C0043210; Woman; Population Group
+T37	Age 575 585	>= 15 años
+T40	LIVB 677 684	sujetos
+#29	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	Age 685 694	< 18 años
+T42	LIVB 705 712	sujetos
+#30	AnnotatorNotes T42	C0681850; Study Subject; Group
+T45	LIVB 883 892	Pacientes
+#31	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T47	Neg_cue 920 926	ningún
+T48	LIVB 1035 1042	Sujetos
+#32	AnnotatorNotes T48	C0681850; Study Subject; Group
+T49	LIVB 1108 1115	Sujetos
+#33	AnnotatorNotes T49	C0681850; Study Subject; Group
+T50	LIVB 1138 1145	Sujetos
+#34	AnnotatorNotes T50	C0681850; Study Subject; Group
+T51	Spec_cue 1191 1201	sospechada
+T38	PROC 811 827	Estado funcional
+#35	AnnotatorNotes T38	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T39	PROC 781 797	histológicamente
+#36	AnnotatorNotes T39	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T12 Negated
+A2	Assertion T24 Negated
+A5	Assertion T13 Negated
+A6	Assertion T18 Speculated
+A3	Status T18 History_of
+A4	Status T13 History_of
+A7	Status T12 History_of
+A8	Status T24 History_of
+#37	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#38	AnnotatorNotes T5	C1706097; Trial Phase 3B; Research Activity + C0034656; Randomization; Research Activity
+T43	Neg_cue 650 652	no
+T44	Observation 653 676	permitan que participen
+A9	Assertion T44 Negated
+#39	AnnotatorNotes T44	C1302261; Patient eligible for clinical trial; Finding (?)
+A10	Assertion T40 Negated
+A11	Assertion T41 Negated
+R1	Combined_with Arg1:T2 Arg2:T3	
+R2	Experiences Arg1:T30 Arg2:T4	
+R3	Experiences Arg1:T30 Arg2:T2	
+R4	Combined_with Arg1:T6 Arg2:T7	
+T46	Quantifier_or_Qualifier 80 89	múltiples
+#40	AnnotatorNotes T46	C0439064; Numerous; Quantitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T46	
+T52	Quantifier_or_Qualifier 243 252	múltiples
+#41	AnnotatorNotes T52	C0439064; Numerous; Quantitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T52	
+R7	Experiences Arg1:T31 Arg2:T6	
+R8	Experiences Arg1:T31 Arg2:T8	
+R9	Experiences Arg1:T31 Arg2:T21	
+R10	Before Arg1:T8 Arg2:T21	
+R11	Experiences Arg1:T31 Arg2:T12	
+T53	Observation 473 484	irresecable
+#42	AnnotatorNotes T53	C4039777; Tumor surgically unresectable; Finding
+R12	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T53	
+T54	Observation 348 359	irresecable
+#43	AnnotatorNotes T54	C4039777; Tumor surgically unresectable; Finding
+R13	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T54	
+R14	Before Arg1:T10 Arg2:T22	
+R15	Experiences Arg1:T33 Arg2:T10	
+R17	Experiences Arg1:T33 Arg2:T22	
+R19	Experiences Arg1:T33 Arg2:T24	
+R20	Has_Age Arg1:T36 Arg2:T37	
+R21	Has_Age Arg1:T35 Arg2:T37	
+R22	Negation Arg1:T43 Arg2:T44	
+R24	Has_Age Arg1:T40 Arg2:T41	
+R25	Experiences Arg1:T42 Arg2:T11	
+R26	Experiences Arg1:T42 Arg2:T23	
+T55	Quantifier_or_Qualifier 764 780	estadio III o IV
+R27	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T55	
+T56	Observation 734 745	irresecable
+#44	AnnotatorNotes T56	C4039777; Tumor surgically unresectable; Finding
+R29	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T56	
+R31	Before Arg1:T11 Arg2:T23	
+R33	Experiences Arg1:T42 Arg2:T39	
+T57	CONC 832 866	Eastern Cooperative Oncology Group
+#45	AnnotatorNotes T57	C1520224; ECOG performance status; Intellectual Product
+T58	CONC 868 872	ECOG
+#46	AnnotatorNotes T58	C1520224; ECOG performance status; Intellectual Product
+T59	Result_or_Value 877 880	0-1
+R34	Has_Result_or_Value Arg1:T58 Arg2:T59	
+R35	Has_Result_or_Value Arg1:T57 Arg2:T59	
+R36	Used_for Arg1:T57 Arg2:T38	
+R37	Used_for Arg1:T58 Arg2:T38	
+R38	Negation Arg1:T47 Arg2:T13	
+R39	Experiences Arg1:T45 Arg2:T13	
+R40	Experiences Arg1:T45 Arg2:T14	
+R41	Experiences Arg1:T45 Arg2:T25	
+T60	Observation 981 992	irresecable
+R42	Before Arg1:T14 Arg2:T25	
+R43	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T60	
+#47	AnnotatorNotes T60	C4039777; Tumor surgically unresectable; Finding
+R45	Location_of Arg1:T26 Arg2:T15	
+R46	Location_of Arg1:T27 Arg2:T16	
+R47	Location_of Arg1:T28 Arg2:T17	
+R48	Experiences Arg1:T48 Arg2:T15	
+R49	Experiences Arg1:T48 Arg2:T16	
+R50	Experiences Arg1:T49 Arg2:T17	
+R51	Experiences Arg1:T50 Arg2:T18	
+R52	Speculation Arg1:T51 Arg2:T18	
+T61	Quantifier_or_Qualifier 1172 1178	activa
+#48	AnnotatorNotes T61	C0679217; Active State; Idea or Concept
+T62	Quantifier_or_Qualifier 1069 1076	activas
+#49	AnnotatorNotes T62	C0679217; Active State; Idea or Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T62	
+R54	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T61	
+R16	Negation Arg1:T34 Arg2:T24	
+R18	Negation Arg1:T32 Arg2:T12	
+R23	Overlap Arg1:T44 Arg2:T41	
+#50	AnnotatorNotes T13	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+T63	Quantifier_or_Qualifier 950 959	sistémico
+A12	Assertion T63 Negated
+#51	AnnotatorNotes T63	C0205373; Systemic; Functional Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T63	
+R30	Negation Arg1:T47 Arg2:T63	
+A13	Experiencer T30 Patient
+A14	Experiencer T31 Patient
+A15	Experiencer T33 Patient
+A16	Experiencer T35 Patient
+A17	Experiencer T36 Patient
+A18	Experiencer T42 Patient
+A19	Experiencer T45 Patient
+A20	Experiencer T48 Patient
+A21	Experiencer T49 Patient
+A22	Experiencer T50 Patient

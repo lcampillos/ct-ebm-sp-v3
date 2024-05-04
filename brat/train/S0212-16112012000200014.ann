@@ -1,0 +1,223 @@
+T1	PROC 1 24	Orientación nutricional
+#1	AnnotatorNotes T1	C0204932; Diet education; Educational Activity (?)
+T2	DISO 67 89	insuficiencia cardíaca
+#2	AnnotatorNotes T2	C0018801; Heart failure; Disease or Syndrome
+T3	PROC 91 110	ensayo aleatorizado
+#3	AnnotatorNotes T3	C0206034; Clinical Trials, Randomized; Research Activity
+T4	PROC 127 152	Medidas no farmacológicas
+T5	DISO 174 196	insuficiencia cardíaca
+#4	AnnotatorNotes T5	C0018801; Heart failure; Disease or Syndrome
+T6	CHEM 266 271	sodio
+#5	AnnotatorNotes T6	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T7	PROC 318 332	intervenciones
+#6	AnnotatorNotes T7	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T8	PROC 1048 1061	cuestionarios
+#7	AnnotatorNotes T8	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T9	PROC 417 440	orientación nutricional
+#8	AnnotatorNotes T9	C0204932; Diet education; Educational Activity (?)
+T10	PROC 615 628	aleatorizados
+#9	AnnotatorNotes T10	C0034656; Randomization; Research Activity
+T11	PROC 509 522	antropometría
+#10	AnnotatorNotes T11	C0003188; Anthropometry; Research Activity
+T12	DISO 561 583	insuficiencia cardíaca
+#11	AnnotatorNotes T12	C0018801; Heart failure; Disease or Syndrome
+T13	PROC 648 660	intervención
+#12	AnnotatorNotes T13	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T14	PROC 682 693	tratamiento
+#13	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 724 736	intervención
+#14	AnnotatorNotes T15	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T16	DISO 800 810	enfermedad
+#15	AnnotatorNotes T16	C0012634; Disease; Disease or Syndrome
+T17	CHEM 861 866	sodio
+#16	AnnotatorNotes T17	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T18	PROC 949 961	Evaluaciones
+#17	AnnotatorNotes T18	C1261322; Evaluation procedure; Health Care Activity
+T19	PROC 971 984	antropometría
+#18	AnnotatorNotes T19	C0003188; Anthropometry; Research Activity
+T20	PROC 986 1011	sodio en la orina de 24 h
+#19	AnnotatorNotes T20	C1278233; 24 hour urine sodium output measurement; Laboratory Procedure
+T21	PROC 1246 1258	intervención
+#20	AnnotatorNotes T21	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T22	CHEM 1349 1354	sodio
+#21	AnnotatorNotes T22	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T23	PROC 1374 1386	intervención
+#22	AnnotatorNotes T23	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T24	PROC 1490 1503	antropometría
+#23	AnnotatorNotes T24	C0003188; Anthropometry; Research Activity
+T25	PROC 1523 1546	orientación nutricional
+#24	AnnotatorNotes T25	C0204932; Diet education; Educational Activity (?)
+T26	DISO 1653 1675	insuficiencia cardiaca
+#25	AnnotatorNotes T26	C0018801; Heart failure; Disease or Syndrome
+T27	PROC 55 60	dieta
+#26	AnnotatorNotes T27	C0012167; Reducing diet; Therapeutic or Preventive Procedure
+T28	ANAT 81 89	cardíaca
+#27	AnnotatorNotes T28	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T29	ANAT 188 196	cardíaca
+#28	AnnotatorNotes T29	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T30	PROC 245 271	dietas restrictas en sodio
+#29	AnnotatorNotes T30	C0012169; Low sodium diet; Therapeutic or Preventive Procedure
+T31	PROC 384 389	dieta
+#30	AnnotatorNotes T31	C0012167; Reducing diet; Therapeutic or Preventive Procedure
+T32	PROC 476 481	dieta
+#31	AnnotatorNotes T32	C0012167; Reducing diet; Therapeutic or Preventive Procedure
+T33	ANAT 575 583	cardíaca
+#32	AnnotatorNotes T33	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T34	PROC 752 778	orientación sobre la dieta
+#33	AnnotatorNotes T34	C0204932; Diet education; Educational Activity (?)
+T35	CHEM 852 858	grasas
+#34	AnnotatorNotes T35	C0015677; Fatty acid glycerol esters; Organic Chemical · Pharmacologic Substance
+T36	CHEM 986 991	sodio
+#35	AnnotatorNotes T36	C0037473; sodium; Biologically Active Substance · Element, Ion, or Isotope
+T37	ANAT 998 1003	orina
+#36	AnnotatorNotes T37	C0042036; Urine; Body Substance
+T38	CHEM 1337 1342	grasa
+#37	AnnotatorNotes T38	C0015677; Fatty acid glycerol esters; Organic Chemical · Pharmacologic Substance
+T39	PROC 1630 1635	dieta
+#38	AnnotatorNotes T39	C0012167; Reducing diet; Therapeutic or Preventive Procedure
+T40	ANAT 1667 1675	cardiaca
+#39	AnnotatorNotes T40	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T44	LIVB 547 556	pacientes
+#40	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 598 607	pacientes
+#41	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 632 645	grupo control
+#42	AnnotatorNotes T46	C0009932; Control Groups; Group
+T48	Duration 928 937	6 semanas
+T49	Duration 940 947	6 meses
+T50	Duration 1007 1011	24 h
+T52	Age 1155 1167	58 ± 10 años
+T53	LIVB 1179 1186	hombres
+#43	AnnotatorNotes T53	C0025266; Male population group; Population Group
+T54	Duration 1199 1206	6 meses
+T56	LIVB 1285 1298	grupo control
+#44	AnnotatorNotes T56	C0009932; Control Groups; Group
+T57	LIVB 1405 1418	grupo control
+#45	AnnotatorNotes T57	C0009932; Control Groups; Group
+T60	LIVB 1639 1648	pacientes
+#46	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T65	PHYS 1314 1323	ingestión
+#47	AnnotatorNotes T65	C0232478; Ingestion; Biologic Function
+T41	PROC 1098 1116	calidad de la vida
+#48	AnnotatorNotes T41	C0281588; Assessment of quality of life; Diagnostic Procedure
+T42	PROC 1472 1487	calidad de vida
+#49	AnnotatorNotes T42	C0281588; Assessment of quality of life; Diagnostic Procedure
+T43	PROC 1723 1741	calidad de la vida
+#50	AnnotatorNotes T43	C0281588; Assessment of quality of life; Diagnostic Procedure
+T47	PROC 525 543	calidad de la vida
+#51	AnnotatorNotes T47	C0281588; Assessment of quality of life; Diagnostic Procedure
+T51	LIVB 718 736	grupo intervención
+#52	AnnotatorNotes T51	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T55	LIVB 1368 1386	grupo intervención
+#53	AnnotatorNotes T55	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T58	LIVB 1240 1258	grupo intervención
+#54	AnnotatorNotes T58	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+R1	Location_of Arg1:T28 Arg2:T2	
+R2	Location_of Arg1:T29 Arg2:T5	
+T59	Observation 349 359;378 389	adherencia sobre dieta
+#55	AnnotatorNotes T59	C4039442; Compliance with prescribed diet; Finding
+R3	Before Arg1:T7 Arg2:T59	
+R4	Before Arg1:T1 Arg2:T27	
+R8	Causes Arg1:T7 Arg2:T82	
+R9	Before Arg1:T7 Arg2:T31	
+T61	Observation 460 481	adherencia a la dieta
+#56	AnnotatorNotes T61	C4039442; Compliance with prescribed diet; Finding
+R10	Before Arg1:T9 Arg2:T32	
+R11	Location_of Arg1:T33 Arg2:T12	
+R12	Experiences Arg1:T44 Arg2:T12	
+R13	Experiences Arg1:T44 Arg2:T47	
+R14	Experiences Arg1:T44 Arg2:T11	
+R15	Experiences Arg1:T44 Arg2:T61	
+R16	Experiences Arg1:T44 Arg2:T32	
+R17	Experiences Arg1:T44 Arg2:T9	
+T62	Observation 26 38;49 60	conocimiento de la dieta
+#57	AnnotatorNotes T62	C2945831; Demonstrates knowledge of nutritional management related to the procedure; Finding (?)
+T63	Observation 365 389	conocimiento sobre dieta
+#58	AnnotatorNotes T63	C2945831; Demonstrates knowledge of nutritional management related to the procedure; Finding (?)
+T64	Observation 483 507	conocimiento nutricional
+#59	AnnotatorNotes T64	C2945831; Demonstrates knowledge of nutritional management related to the procedure; Finding (?)
+R19	Experiences Arg1:T44 Arg2:T64	
+R20	Before Arg1:T9 Arg2:T64	
+R21	Before Arg1:T10 Arg2:T13	
+R23	Experiences Arg1:T45 Arg2:T13	
+R24	Experiences Arg1:T51 Arg2:T15	
+R25	Combined_with Arg1:T14 Arg2:T34	
+T66	Food 823 832	alimentos
+#60	AnnotatorNotes T66	C0016452; Food; Food
+R26	Experiences Arg1:T51 Arg2:T34	
+R27	Experiences Arg1:T51 Arg2:T14	
+R28	Experiences Arg1:T51 Arg2:T16	
+T67	PROC 892 901	evaluados
+#61	AnnotatorNotes T67	C1261322; Evaluation procedure; Health Care Activity
+T68	CONC 905 926	principio del estudio
+#62	AnnotatorNotes T68	C4684789; Study Start; Temporal Concept
+R29	Overlap Arg1:T67 Arg2:T68	
+R30	Overlap Arg1:T67 Arg2:T48	
+R31	Overlap Arg1:T67 Arg2:T49	
+R33	Location_of Arg1:T37 Arg2:T20	
+R34	Has_Duration_or_Interval Arg1:T20 Arg2:T50	
+T69	PROC 1016 1040	recordatorio alimenticio
+#63	AnnotatorNotes T69	C0566508; Review of current diet; Therapeutic or Preventive Procedure (?)
+T70	Observation 1211 1235	conocimiento nutricional
+#64	AnnotatorNotes T70	C2945831; Demonstrates knowledge of nutritional management related to the procedure; Finding (?)
+T71	Observation 1065 1089	conocimiento nutricional
+#65	AnnotatorNotes T71	C2945831; Demonstrates knowledge of nutritional management related to the procedure; Finding (?)
+T72	CONC 1048 1089	cuestionarios de conocimiento nutricional
+R39	Used_for Arg1:T72 Arg2:T8	
+T73	CONC 1048 1061;1092 1116	cuestionarios de la calidad de la vida
+R40	Used_for Arg1:T73 Arg2:T41	
+R41	Has_Age Arg1:T53 Arg2:T52	
+R42	Experiences Arg1:T58 Arg2:T21	
+R43	Experiences Arg1:T58 Arg2:T70	
+R44	After Arg1:T70 Arg2:T54	
+R45	Has_Duration_or_Interval Arg1:T21 Arg2:T54	
+R46	Experiences Arg1:T56 Arg2:T70	
+R47	Experiences Arg1:T55 Arg2:T23	
+R48	Experiences Arg1:T55 Arg2:T65	
+R49	Experiences Arg1:T57 Arg2:T65	
+T74	Neg_cue 1431 1433	No
+T75	CONC 1439 1450	diferencias
+A1	Assertion T75 Negated
+#66	AnnotatorNotes T75	C1705241; Delta (difference); Quantitative Concept
+R50	Negation Arg1:T74 Arg2:T75	
+R51	Before Arg1:T21 Arg2:T70	
+T76	Observation 1585 1609	conocimiento nutricional
+#67	AnnotatorNotes T76	C2945831; Demonstrates knowledge of nutritional management related to the procedure; Finding (?)
+R52	Experiences Arg1:T60 Arg2:T26	
+R53	Location_of Arg1:T40 Arg2:T26	
+R54	Experiences Arg1:T60 Arg2:T39	
+R55	Experiences Arg1:T60 Arg2:T76	
+R56	Experiences Arg1:T60 Arg2:T25	
+R57	Before Arg1:T25 Arg2:T39	
+R58	Before Arg1:T1 Arg2:T62	
+R59	Before Arg1:T25 Arg2:T76	
+T77	Quantifier_or_Qualifier 138 152	farmacológicas
+A2	Assertion T77 Negated
+T78	Neg_cue 135 137	no
+R60	Negation Arg1:T78 Arg2:T77	
+R61	Before Arg1:T9 Arg2:T61	
+R62	Combined_with Arg1:T15 Arg2:T34	
+T79	Spec_cue 441 446	puede
+T80	CONC 447 456	modificar
+A3	Assertion T80 Speculated
+#68	AnnotatorNotes T80	C0392747; Changing; Functional Concept | C0443172; Changed status; Quantitative Concept
+R63	Speculation Arg1:T79 Arg2:T80	
+T81	Quantifier_or_Qualifier 1451 1465	significativas
+A4	Assertion T81 Negated
+#69	AnnotatorNotes T81	C0750502; Significant; Idea or Concept
+R64	Has_Quantifier_or_Qualifier Arg1:T75 Arg2:T81	
+R65	Negation Arg1:T74 Arg2:T81	
+T82	Observation 308 314	efecto
+#70	AnnotatorNotes T82	C1518681; Outcome of Therapy; Finding (?)
+R5	Before Arg1:T9 Arg2:T80	
+#71	AnnotatorNotes T77	C0205464; pharmacological; Functional Concept
+A5	Experiencer T44 Patient
+A6	Experiencer T45 Patient
+A7	Experiencer T46 Patient
+A8	Experiencer T51 Patient
+A9	Experiencer T53 Patient
+A10	Experiencer T58 Patient
+A11	Experiencer T56 Patient
+A12	Experiencer T55 Patient
+A13	Experiencer T57 Patient
+A14	Experiencer T60 Patient

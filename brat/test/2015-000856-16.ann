@@ -1,0 +1,144 @@
+T1	PROC 46 66	ESTUDIO EXPLORATORIO
+#1	AnnotatorNotes T1	C1515369; Therapeutic Exploratory Study; Research Activity
+T2	CHEM 98 110	DOLUTEGRAVIR
+#2	AnnotatorNotes T2	C3253985; dolutegravir; Organic Chemical · Pharmacologic Substance
+T3	PROC 132 144	HEMODIÁLISIS
+#3	AnnotatorNotes T3	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T4	DISO 158 179	INFECTADOS POR EL VIH
+#4	AnnotatorNotes T4	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T5	DISO 184 220	INSUFICIENCIA RENAL CRÓNICA TERMINAL
+#5	AnnotatorNotes T5	C2316810; Chronic kidney disease stage 5; Disease or Syndrome
+T6	PROC 243 263	ESTUDIO EXPLORATORIO
+#6	AnnotatorNotes T6	C1515369; Therapeutic Exploratory Study; Research Activity
+T7	CHEM 294 306	DOLUTEGRAVIR
+#7	AnnotatorNotes T7	C3253985; dolutegravir; Organic Chemical · Pharmacologic Substance
+T8	PROC 314 326	HEMODIÁLISIS
+#8	AnnotatorNotes T8	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T9	DISO 340 361	INFECTADOS POR EL VIH
+#9	AnnotatorNotes T9	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T10	DISO 366 402	INSUFICIENCIA RENAL CRÓNICA TERMINAL
+#10	AnnotatorNotes T10	C2316810; Chronic kidney disease stage 5; Disease or Syndrome
+T11	DISO 436 457	INFECTADOS POR EL VIH
+#11	AnnotatorNotes T11	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T12	DISO 462 498	INSUFICIENCIA RENAL CRÓNICA TERMINAL
+#12	AnnotatorNotes T12	C2316810; Chronic kidney disease stage 5; Disease or Syndrome
+T13	DISO 558 575	Infección por VIH
+#13	AnnotatorNotes T13	C0019693; HIV Infections; Disease or Syndrome
+T14	DISO 588 624	Insuficiencia renal crónica terminal
+#14	AnnotatorNotes T14	C2316810; Chronic kidney disease stage 5; Disease or Syndrome
+T15	PROC 628 657	tratamiento renal sustitutivo
+#15	AnnotatorNotes T15	C0206074; Renal Replacement Therapy; Therapeutic or Preventive Procedure
+T16	PROC 662 674	hemodiálisis
+#16	AnnotatorNotes T16	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T17	PROC 687 714	Tratamiento antirretroviral
+#17	AnnotatorNotes T17	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T18	CHEM 699 714	antirretroviral
+#18	AnnotatorNotes T18	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T19	PROC 861 888	tratamiento antirretroviral
+#19	AnnotatorNotes T19	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T20	PROC 1012 1021	protocolo
+#20	AnnotatorNotes T20	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T21	PROC 784 808	consentimiento informado
+#21	AnnotatorNotes T21	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T22	ANAT 198 203	RENAL
+#22	AnnotatorNotes T22	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T23	ANAT 380 385	RENAL
+#23	AnnotatorNotes T23	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T24	ANAT 476 481	RENAL
+#24	AnnotatorNotes T24	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T25	ANAT 602 607	renal
+#25	AnnotatorNotes T25	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T26	ANAT 640 645	renal
+#26	AnnotatorNotes T26	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T27	CHEM 873 888	antirretroviral
+#27	AnnotatorNotes T27	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T28	Date 13 17	2015
+T29	LIVB 148 157	PACIENTES
+#28	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 176 179	VIH
+#29	AnnotatorNotes T30	C0019682; HIV; Virus
+T31	Duration 204 211	CRÓNICA
+#30	AnnotatorNotes T31	C0205191; chronic; Temporal Concept
+T32	LIVB 330 339	PACIENTES
+#31	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 358 361	VIH
+#32	AnnotatorNotes T33	C0019682; HIV; Virus
+T34	Duration 386 393	CRÓNICA
+#33	AnnotatorNotes T34	C0205191; chronic; Temporal Concept
+T35	LIVB 426 435	PACIENTES
+#34	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 454 457	VIH
+#35	AnnotatorNotes T36	C0019682; HIV; Virus
+T37	Duration 482 489	CRÓNICA
+#36	AnnotatorNotes T37	C0205191; chronic; Temporal Concept
+T38	Age 530 556	igual o superior a 18 años
+T39	Duration 608 615	crónica
+#37	AnnotatorNotes T39	C0205191; chronic; Temporal Concept
+T40	Duration 731 749	al menos 2 semanas
+T41	Date 898 914	la semana previa
+T43	LIVB 971 979	paciente
+#38	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 572 575	VIH
+#39	AnnotatorNotes T45	C0019682; HIV; Virus
+T42	Neg_cue 980 982	no
+T44	Observation 997 1021	cumplir con el protocolo
+A1	Assertion T44 Negated
+R2	Experiences Arg1:T29 Arg2:T3	
+R3	Experiences Arg1:T29 Arg2:T4	
+R4	Causes Arg1:T30 Arg2:T4	
+R5	Experiences Arg1:T29 Arg2:T5	
+R6	Location_of Arg1:T22 Arg2:T5	
+R7	Has_Duration_or_Interval Arg1:T5 Arg2:T31	
+R8	Overlap Arg1:T4 Arg2:T5	
+R9	Experiences Arg1:T32 Arg2:T8	
+R10	Experiences Arg1:T32 Arg2:T9	
+R11	Experiences Arg1:T32 Arg2:T10	
+R12	Location_of Arg1:T23 Arg2:T10	
+R13	Has_Duration_or_Interval Arg1:T10 Arg2:T34	
+R14	Causes Arg1:T33 Arg2:T9	
+T46	Observation 836 857	Adherencia inadecuada
+#40	AnnotatorNotes T46	C0032646; Poor compliance; Finding
+R15	Overlap Arg1:T46 Arg2:T19	
+R16	Used_for Arg1:T27 Arg2:T19	
+T47	Result_or_Value 890 894	<90%
+R17	Has_Result_or_Value Arg1:T46 Arg2:T47	
+R18	Overlap Arg1:T46 Arg2:T41	
+T48	CONC 920 929	inclusión
+#41	AnnotatorNotes T48	C1512693; Inclusion; Qualitative Concept
+R19	Before Arg1:T46 Arg2:T48	
+R20	Experiences Arg1:T35 Arg2:T11	
+R21	Experiences Arg1:T35 Arg2:T12	
+R22	Causes Arg1:T36 Arg2:T11	
+R23	Location_of Arg1:T24 Arg2:T12	
+R24	Has_Duration_or_Interval Arg1:T12 Arg2:T37	
+R25	Overlap Arg1:T11 Arg2:T12	
+R26	Causes Arg1:T45 Arg2:T13	
+R27	Location_of Arg1:T25 Arg2:T14	
+R28	Has_Duration_or_Interval Arg1:T14 Arg2:T39	
+R29	Location_of Arg1:T26 Arg2:T15	
+T49	Quantifier_or_Qualifier 675 685	periódicas
+#42	AnnotatorNotes T49	C0332182; Periodic; Temporal Concept 
+R30	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T49	
+R31	Used_for Arg1:T18 Arg2:T17	
+R32	Has_Duration_or_Interval Arg1:T17 Arg2:T40	
+T50	CONC 763 772	inclusión
+#43	AnnotatorNotes T50	C1512693; Inclusion; Qualitative Concept
+R33	Before Arg1:T17 Arg2:T50	
+T51	Quantifier_or_Qualifier 715 722	estable
+#44	AnnotatorNotes T51	C0205360; Stable status; Qualitative Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T51	
+R36	Negation Arg1:T42 Arg2:T44	
+R1	Experiences Arg1:T29 Arg2:T2	
+R37	Experiences Arg1:T32 Arg2:T7	
+T52	CONC 115 124	SE EXTRAE
+#45	AnnotatorNotes T52	C0449297; Clearance; Qualitative Concept
+R38	Overlap Arg1:T52 Arg2:T3	
+T53	CONC 280 290	EXTRACCIÓN
+#46	AnnotatorNotes T53	C0449297; Clearance; Qualitative Concept
+R39	Overlap Arg1:T53 Arg2:T8	
+R40	Overlap Arg1:T9 Arg2:T10	
+A2	Experiencer T29 Patient
+A3	Experiencer T32 Patient
+A4	Experiencer T35 Patient
+A5	Experiencer T43 Patient
+A6	Status T44 Future

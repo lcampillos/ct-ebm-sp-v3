@@ -1,0 +1,224 @@
+T1	PROC 41 78	ejercicios de estabilización del core
+T2	DISO 135 147	fibromialgia
+#1	AnnotatorNotes T2	C0016053; Fibromyalgia; Disease or Syndrome
+T3	PROC 149 179	ensayo controlado aleatorizado
+#2	AnnotatorNotes T3	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T4	PROC 780 804	divididas aleatoriamente
+#3	AnnotatorNotes T4	C0034656; Randomization; Research Activity
+T5	DISO 199 211	fibromialgia
+#4	AnnotatorNotes T5	C0016053; Fibromyalgia; Disease or Syndrome
+T6	DISO 219 229	enfermedad
+#5	AnnotatorNotes T6	C0012634; Disease; Disease or Syndrome
+T7	DISO 270 292	dolor muscular crónico
+#6	AnnotatorNotes T7	C0746668; muscle pain chronic; Sign or Symptom
+T8	DISO 331 341	enfermedad
+#7	AnnotatorNotes T8	C0012634; Disease; Disease or Syndrome
+T9	PROC 416 427	diagnóstico
+#8	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	PROC 430 441	tratamiento
+#9	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	ANAT 847 851	core
+T12	PROC 579 631	intervención dietético-nutricional lacto-vegetariana
+T13	ANAT 656 663	espalda
+#10	AnnotatorNotes T13	C0004600; Back; Body Location or Region | C1281593; Entire back; Body Location or Region
+T14	DISO 705 717	fibromialgia
+#11	AnnotatorNotes T14	C0016053; Fibromyalgia; Disease or Syndrome
+T15	PROC 821 851	ejercicios estabilización core
+T16	PROC 883 890	placebo
+#12	AnnotatorNotes T16	C0032042; Placebos; Therapeutic or Preventive Procedure
+T17	PROC 1063 1076	bioimpedancia
+#13	AnnotatorNotes T17	C1704746; Bioelectric Impedance Analysis; Diagnostic Procedure
+T18	PROC 936 948	intervención
+#14	AnnotatorNotes T18	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T19	PROC 996 1018	evaluaciones del dolor
+#15	AnnotatorNotes T19	C0030198; Pain Measurement; Diagnostic Procedure (?)
+T20	PROC 1020 1030	escala EVA
+#16	AnnotatorNotes T20	C2959685; Assessment using visual analog scale; Health Care Activity (?)
+T21	PROC 1103 1115	intervención
+#17	AnnotatorNotes T21	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T22	ANAT 1692 1696	core
+T23	PROC 1239 1251	intervención
+#18	AnnotatorNotes T23	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T24	ANAT 1272 1280	muscular
+#19	AnnotatorNotes T24	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T25	ANAT 1304 1309	grasa
+#20	AnnotatorNotes T25	C0001527; Adipose tissue; Tissue
+T26	ANAT 1474 1482	muscular
+#21	AnnotatorNotes T26	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T27	DISO 1504 1509	dolor
+#22	AnnotatorNotes T27	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T28	PROC 1589 1613	programa de intervención
+#23	AnnotatorNotes T28	C0599917; intervention program; Therapeutic or Preventive Procedure
+T29	PROC 1660 1696	ejercicios de estabilización de core
+T30	DISO 1742 1754	fibromialgia
+#24	AnnotatorNotes T30	C0016053; Fibromyalgia; Disease or Syndrome
+T31	ANAT 1783 1790	espalda
+#25	AnnotatorNotes T31	C0004600; Back; Body Location or Region | C1281593; Entire back; Body Location or Region
+T32	PROC 15 38	dieta lacto-vegetariana
+T33	ANAT 100 108	corporal
+#26	AnnotatorNotes T33	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T34	DISO 114 119	dolor
+#27	AnnotatorNotes T34	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T35	ANAT 276 284	muscular
+#28	AnnotatorNotes T35	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T36	PROC 533 560	tratamiento de fisioterapia
+T37	DISO 642 663	dolor bajo de espalda
+#29	AnnotatorNotes T37	C0024031; Low Back Pain; Sign or Symptom
+T38	ANAT 681 689	corporal
+#30	AnnotatorNotes T38	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T39	PROC 854 877	dieta lacto-vegetariana
+T40	PROC 893 916	dieta lacto-vegetariana
+T41	DISO 1013 1018	dolor
+#31	AnnotatorNotes T41	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T42	ANAT 1053 1061	corporal
+#32	AnnotatorNotes T42	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T43	DISO 1192 1197	dolor
+#33	AnnotatorNotes T43	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T44	ANAT 1215 1223	corporal
+#34	AnnotatorNotes T44	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T45	PROC 1701 1724	dieta lacto-vegetariana
+T46	DISO 1769 1790	dolor bajo de espalda
+#35	AnnotatorNotes T46	C0024031; Low Back Pain; Sign or Symptom
+T47	DISO 1821 1826	dolor
+#36	AnnotatorNotes T47	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T48	ANAT 1857 1865	corporal
+#37	AnnotatorNotes T48	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T49	ANAT 74 78	core
+T54	LIVB 123 130	mujeres
+#38	AnnotatorNotes T54	C0043210; Woman; Population Group
+T55	Duration 285 292	crónico
+#39	AnnotatorNotes T55	C0205191; chronic; Temporal Concept
+T62	LIVB 693 700	mujeres
+#40	AnnotatorNotes T62	C0043210; Woman; Population Group
+T63	LIVB 760 767	mujeres
+#41	AnnotatorNotes T63	C0043210; Woman; Population Group
+T68	Duration 970 979	4 semanas
+T73	LIVB 1547 1556	pacientes
+#42	AnnotatorNotes T73	C0030705; Patients; Patient or Disabled Group
+T74	Duration 1617 1626	4 semanas
+T77	LIVB 1728 1737	pacientes
+#43	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T50	Neg_cue 297 305	falta de
+T51	CONC 306 319	conocimientos
+A1	Assertion T51 Negated
+#44	AnnotatorNotes T51	C0376554; Knowledge; Intellectual Product
+R1	Location_of Arg1:T49 Arg2:T1	
+R2	Experiences Arg1:T54 Arg2:T32	
+R3	Experiences Arg1:T54 Arg2:T34	
+R4	Experiences Arg1:T54 Arg2:T2	
+R5	Causes Arg1:T2 Arg2:T34	
+R6	Experiences Arg1:T54 Arg2:T1	
+T52	Quantifier_or_Qualifier 230 251	de origen desconocido
+#45	AnnotatorNotes T52	C0332240; Unknown (origin) (qualifier value); Functional Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T52	
+R8	Causes Arg1:T5 Arg2:T7	
+R9	Location_of Arg1:T35 Arg2:T7	
+R10	Has_Duration_or_Interval Arg1:T7 Arg2:T55	
+R11	Negation Arg1:T50 Arg2:T51	
+R14	Combined_with Arg1:T36 Arg2:T12	
+#46	AnnotatorNotes T36	C0949766; Physical therapy; Therapeutic or Preventive Procedure
+R16	Location_of Arg1:T13 Arg2:T37	
+R17	Experiences Arg1:T62 Arg2:T37	
+R18	Experiences Arg1:T62 Arg2:T36	
+R19	Experiences Arg1:T62 Arg2:T14	
+R20	Causes Arg1:T14 Arg2:T37	
+R21	Location_of Arg1:T11 Arg2:T15	
+R22	Combined_with Arg1:T15 Arg2:T39	
+R23	Combined_with Arg1:T32 Arg2:T1	
+R24	Combined_with Arg1:T16 Arg2:T40	
+R25	Experiences Arg1:T63 Arg2:T15	
+R26	Experiences Arg1:T63 Arg2:T16	
+R27	Has_Duration_or_Interval Arg1:T18 Arg2:T68	
+R30	Before Arg1:T18 Arg2:T19	
+R31	Before Arg1:T18 Arg2:T20	
+R33	Before Arg1:T18 Arg2:T17	
+R34	After Arg1:T18 Arg2:T17	
+R35	After Arg1:T18 Arg2:T20	
+R36	After Arg1:T17 Arg2:T21	
+R37	Before Arg1:T17 Arg2:T21	
+R38	After Arg1:T20 Arg2:T21	
+R39	Before Arg1:T20 Arg2:T21	
+R40	After Arg1:T18 Arg2:T19	
+T53	Observation 1178 1197	reducción del dolor
+#47	AnnotatorNotes T53	C5230944; Sensation of pain reduced; Finding
+T56	Observation 1149 1156;1172 1174;1200 1223	cambios en la composición corporal
+R41	Before Arg1:T23 Arg2:T56	
+R42	Before Arg1:T43 Arg2:T53	
+R43	Location_of Arg1:T44 Arg2:T56	
+R44	Before Arg1:T23 Arg2:T53	
+T57	Observation 1253 1280	aumentando la masa muscular
+#48	AnnotatorNotes T57	C0518191; muscle mass increase; Finding
+T58	Observation 1283 1309	disminuyendo la masa grasa
+R45	Before Arg1:T23 Arg2:T57	
+R46	Before Arg1:T23 Arg2:T58	
+T59	CONC 1412 1425	correlaciones
+#49	AnnotatorNotes T59	C1707520; Correlation; Qualitative Concept
+T60	Observation 1488 1509	disminución del dolor
+#50	AnnotatorNotes T60	C5230944; Sensation of pain reduced; Finding
+T61	PHYS 1469 1482	masa muscular
+R47	Overlap Arg1:T61 Arg2:T60	
+R48	Experiences Arg1:T73 Arg2:T61	
+R49	Experiences Arg1:T73 Arg2:T60	
+T64	CONC 1522 1539	final del estudio
+#51	AnnotatorNotes T64	C2983670; Study End Date; Temporal Concept
+R50	Overlap Arg1:T60 Arg2:T64	
+R51	Overlap Arg1:T61 Arg2:T64	
+R53	Has_Duration_or_Interval Arg1:T28 Arg2:T74	
+R54	Combined_with Arg1:T29 Arg2:T45	
+R55	Location_of Arg1:T22 Arg2:T29	
+R56	Experiences Arg1:T77 Arg2:T29	
+R57	Experiences Arg1:T77 Arg2:T30	
+R58	Experiences Arg1:T77 Arg2:T46	
+R59	Location_of Arg1:T31 Arg2:T46	
+R60	Causes Arg1:T30 Arg2:T46	
+R61	Causes Arg1:T30 Arg2:T47	
+T65	Observation 1807 1826	reducción del dolor
+#52	AnnotatorNotes T65	C5230944; Sensation of pain reduced; Finding
+R62	Causes Arg1:T29 Arg2:T65	
+R63	Overlap Arg1:T28 Arg2:T29	
+T66	Observation 1832 1865	mejora de la composición corporal
+R70	Causes Arg1:T29 Arg2:T66	
+R71	Location_of Arg1:T48 Arg2:T66	
+T67	CONC 1299 1309	masa grasa
+#53	AnnotatorNotes T67	C4764117; Fat Mass; Quantitative Concept
+R74	Location_of Arg1:T24 Arg2:T57	
+T69	CONC 233 239	origen
+#54	AnnotatorNotes T69	C0015127; Etiology aspects; Functional Concept | C1314792; Etiology; Functional Concept
+A2	Assertion T69 Speculated
+T70	Spec_cue 240 251	desconocido
+R75	Speculation Arg1:T70 Arg2:T69	
+T71	PHYS 88 108	composición corporal
+#55	AnnotatorNotes T71	C0005885; Body Composition; Organism Attribute
+R76	Experiences Arg1:T54 Arg2:T71	
+T72	PHYS 669 689	composición corporal
+#56	AnnotatorNotes T72	C0005885; Body Composition; Organism Attribute
+R77	Experiences Arg1:T62 Arg2:T72	
+R78	Location_of Arg1:T38 Arg2:T72	
+R79	Location_of Arg1:T33 Arg2:T71	
+T75	PHYS 1041 1061	composición corporal
+#57	AnnotatorNotes T75	C0005885; Body Composition; Organism Attribute
+R80	Location_of Arg1:T42 Arg2:T75	
+T76	PHYS 1203 1223	composición corporal
+#58	AnnotatorNotes T76	C0005885; Body Composition; Organism Attribute
+R82	Location_of Arg1:T44 Arg2:T76	
+T78	PHYS 1845 1865	composición corporal
+#59	AnnotatorNotes T78	C0005885; Body Composition; Organism Attribute
+R83	Location_of Arg1:T48 Arg2:T78	
+R84	Experiences Arg1:T77 Arg2:T65	
+R85	Experiences Arg1:T77 Arg2:T65	
+R86	Experiences Arg1:T77 Arg2:T66	
+R87	Experiences Arg1:T77 Arg2:T78	
+T79	PHYS 1267 1280	masa muscular
+#60	AnnotatorNotes T79	C3656664; Body muscle mass; Organism Attribute
+#61	AnnotatorNotes T61	C3656664; Body muscle mass; Organism Attribute
+T80	Observation 1 8	Efectos
+#62	AnnotatorNotes T80	C1518681; Outcome of Therapy; Finding (?)
+R12	Causes Arg1:T32 Arg2:T80	
+#63	AnnotatorNotes T22	C5544515; Abdominal Core; Body Location or Region
+#64	AnnotatorNotes T49	C5544515; Abdominal Core; Body Location or Region
+#65	AnnotatorNotes T11	C5544515; Abdominal Core; Body Location or Region
+A3	Experiencer T54 Patient
+A4	Experiencer T62 Patient
+A5	Experiencer T63 Patient
+A6	Experiencer T73 Patient
+A7	Experiencer T77 Patient

@@ -1,0 +1,344 @@
+T1	PROC 2004 2012	tratadas
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 56 69	Inmunoterapia
+#2	AnnotatorNotes T2	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T3	CHEM 73 82	Nivolumab
+#3	AnnotatorNotes T3	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	CHEM 105 129	medicamento experimental
+#4	AnnotatorNotes T4	C0304229; Experimental drug; Pharmacologic Substance
+T5	PROC 151 171	tratamiento estándar
+#5	AnnotatorNotes T5	C2936643; Standard of Care; Health Care Activity
+T6	DISO 201 250	carcinoma de células escamosas de cabeza y cuello
+#6	AnnotatorNotes T6	C1168401; Squamous cell carcinoma of the head and neck; Neoplastic Process
+T7	ANAT 448 465	células escamosas
+#7	AnnotatorNotes T7	C0221910; Squamous Epithelial Cells; Cell
+T8	ANAT 235 241	cabeza
+#8	AnnotatorNotes T8	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T9	PROC 313 349	Ensayo aleatorizado, global, abierto
+T10	CHEM 354 363	nivolumab
+#9	AnnotatorNotes T10	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	DISO 435 484	carcinoma de células escamosas de cabeza y cuello
+#10	AnnotatorNotes T11	C1168401; Squamous cell carcinoma of the head and neck; Neoplastic Process
+T12	ANAT 469 475	cabeza
+#11	AnnotatorNotes T12	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T13	ANAT 478 484	cuello
+#12	AnnotatorNotes T13	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T14	DISO 548 573	Cáncer de Cabeza y Cuello
+#13	AnnotatorNotes T14	C0278996; Malignant Head and Neck Neoplasm; Neoplastic Process
+T15	DISO 600 649	Carcinoma de células escamosas de cabeza y cuello
+#14	AnnotatorNotes T15	C1168401; Squamous cell carcinoma of the head and neck; Neoplastic Process
+T16	ANAT 244 250	cuello
+#15	AnnotatorNotes T16	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T17	DISO 2206 2211	basal
+#16	AnnotatorNotes T17	C0751676; Basal Cell Cancer; Neoplastic Process
+T18	ANAT 809 821	cavidad oral
+#17	AnnotatorNotes T18	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T19	ANAT 823 833	orofaringe
+#18	AnnotatorNotes T19	C0521367; Oropharyngeal; Body Location or Region | C1280659; Entire oropharynx; Body Part, Organ, or Organ Component
+T20	ANAT 835 846	hipofaringe
+#19	AnnotatorNotes T20	C0020629; hypopharynx; Body Location or Region | C1281332; Entire hypopharynx; Body Part, Organ, or Organ Component
+T21	ANAT 849 856	laringe
+#20	AnnotatorNotes T21	C0023078; Larynx; Body Part, Organ, or Organ Component | C1278904; Entire larynx; Body Part, Organ, or Organ Component
+T22	DISO 861 871	Enfermedad
+#21	AnnotatorNotes T22	C0012634; Disease; Disease or Syndrome
+T23	PROC 901 912	tratamiento
+#22	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	PROC 937 944	cirugía
+#23	AnnotatorNotes T24	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T25	PROC 947 959	radioterapia
+#24	AnnotatorNotes T25	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T26	PROC 970 983	quimioterapia
+#25	AnnotatorNotes T26	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T27	PROC 996 1007	tratamiento
+#26	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	PROC 1019 1047	terapia oncológica sistémica
+T29	PROC 1131 1144	quimioterapia
+#27	AnnotatorNotes T29	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T30	PROC 1157 1193	tratamiento adyuvante o neoadyuvante
+T31	PROC 1213 1239	tratamiento multimodalidad
+#28	AnnotatorNotes T31	C0871821; Multimodal Treatment Approach; Therapeutic or Preventive Procedure
+T32	PROC 1241 1254	quimioterapia
+#29	AnnotatorNotes T32	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T33	PROC 1257 1269	radioterapia
+#30	AnnotatorNotes T33	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T34	DISO 1276 1286	enfermedad
+#31	AnnotatorNotes T34	C0012634; Disease; Disease or Syndrome
+T35	PROC 1317 1329	tratamientos
+#32	AnnotatorNotes T35	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T36	DISO 1410 1437	progresión de la enfermedad
+#33	AnnotatorNotes T36	C0242656; Disease Progression; Pathologic Function
+T37	PROC 1493 1514	tratamiento sistémico
+T38	DISO 1554 1572	Enfermedad medible
+#34	AnnotatorNotes T38	C1513041; Measurable Disease; Disease or Syndrome
+T39	CHEM 383 393	BMS-986205
+#35	AnnotatorNotes T39	C4683552; BMS-986205; Immunologic Factor · Pharmacologic Substance
+T40	PROC 1582 1585	MRI
+#36	AnnotatorNotes T40	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T41	DISO 1690 1699	Carcinoma
+#37	AnnotatorNotes T41	C0007097; Carcinoma; Neoplastic Process
+T42	ANAT 1729 1740	nasofaringe
+#38	AnnotatorNotes T42	C0027442; Nasopharynx; Body Part, Organ, or Organ Component | C1268975; Entire nasopharynx; Body Part, Organ, or Organ Component
+T43	DISO 1742 1796	carcinoma de células escamosas de primario desconocido
+#39	AnnotatorNotes T43	C0280097; Squamous Cell Carcinoma of Unknown Primary; Neoplastic Process
+T44	DISO 1798 1828	carcinoma de células escamosas
+#40	AnnotatorNotes T44	C0007137; Squamous cell carcinoma; Neoplastic Process
+T45	ANAT 1850 1854	piel
+#41	AnnotatorNotes T45	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T46	ANAT 1859 1875	glándula salivar
+#42	AnnotatorNotes T46	C0036098; Salivary Glands; Body Part, Organ, or Organ Component | C1278917; Entire salivary gland; Body Part, Organ, or Organ Component
+T47	ANAT 1881 1895	seno paranasal
+#43	AnnotatorNotes T47	C0030471; Nasal sinus; Body Space or Junction | C1289341; Entire paranasal sinus cavity; Body Space or Junction
+T48	ANAT 1912 1921	escamosas
+#44	AnnotatorNotes T48	C0221909; Squamous epithelium; Tissue
+T49	DISO 1931 1954	melanoma de las mucosas
+T50	ANAT 2017 2020	SNC
+#45	AnnotatorNotes T50	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T51	DISO 2039 2063	meningitis carcinomatosa
+#46	AnnotatorNotes T51	C0220654; Meningeal Carcinomatosis; Neoplastic Process
+T52	DISO 2133 2141	cánceres
+#47	AnnotatorNotes T52	C0006826; Malignant Neoplasms; Neoplastic Process
+T53	DISO 2214 2249	cáncer de piel de células escamosas
+T54	ANAT 2232 2249	células escamosas
+#48	AnnotatorNotes T54	C0221910; Squamous Epithelial Cells; Cell
+T55	DISO 2251 2279	cáncer superficial de vejiga
+T56	ANAT 2273 2279	vejiga
+#49	AnnotatorNotes T56	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T57	DISO 2283 2339	carcinoma in situ de próstata, de cuello de útero o mama
+T58	DISO 2066 2076	Malignidad
+#50	AnnotatorNotes T58	C0006826; Malignant Neoplasms; Neoplastic Process
+T59	ANAT 2317 2332	cuello de útero
+T60	ANAT 2335 2339	mama
+#51	AnnotatorNotes T60	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T61	PROC 179 194	régimen EXTREME
+T62	DISO 263 274	metastásico
+#52	AnnotatorNotes T62	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T63	PROC 404 428	régimen estándar EXTREME
+T64	DISO 497 508	metastásico
+#53	AnnotatorNotes T64	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T65	ANAT 558 564	Cabeza
+#54	AnnotatorNotes T65	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T66	ANAT 567 573	Cuello
+#55	AnnotatorNotes T66	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T67	ANAT 613 630	células escamosas
+#56	AnnotatorNotes T67	C0221910; Squamous Epithelial Cells; Cell
+T68	ANAT 634 640	cabeza
+#57	AnnotatorNotes T68	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T69	ANAT 643 649	cuello
+#58	AnnotatorNotes T69	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T70	DISO 661 672	metastásico
+#59	AnnotatorNotes T70	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T71	ANAT 214 231	células escamosas
+#60	AnnotatorNotes T71	C0221910; Squamous Epithelial Cells; Cell
+T72	CHEM 130 140	BMS-986205
+#61	AnnotatorNotes T72	C4683552; BMS-986205; Immunologic Factor · Pharmacologic Substance
+T73	PROC 1577 1579	CT
+#62	AnnotatorNotes T73	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T74	DISO 1714 1725	metastásico
+#63	AnnotatorNotes T74	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T75	ANAT 1755 1772	células escamosas
+#64	AnnotatorNotes T75	C0221910; Squamous Epithelial Cells; Cell
+T76	ANAT 1811 1828	células escamosas
+#65	AnnotatorNotes T76	C0221910; Squamous Epithelial Cells; Cell
+T77	ANAT 1947 1954	mucosas
+#66	AnnotatorNotes T77	C0026724; Mucous Membrane; Tissue | C1284117; Entire mucous membrane; Tissue
+T78	DISO 1990 2000	metástasis
+#67	AnnotatorNotes T78	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T79	ANAT 2224 2228	piel
+#68	AnnotatorNotes T79	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T80	ANAT 2304 2312	próstata
+#69	AnnotatorNotes T80	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T81	Date 13 17	2017
+T83	Neg_cue 880 882	no
+T85	Neg_cue 966 969	sin
+T86	Neg_cue 989 995	Ningún
+T87	Duration 1354 1363	> 6 meses
+T88	Neg_cue 1395 1398	Sin
+T89	Duration 1446 1462	al menos 6 meses
+T91	LIVB 1641 1686	Mujeres embarazadas o en período de lactancia
+#70	AnnotatorNotes T91	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T92	Neg_cue 1909 1911	no
+T93	Neg_cue 1959 1969	Se excluye
+T94	LIVB 1976 1985	pacientes
+#71	AnnotatorNotes T94	C0030705; Patients; Patient or Disabled Group
+T95	Neg_cue 2001 2003	no
+T96	LIVB 2025 2034	Pacientes
+#72	AnnotatorNotes T96	C0030705; Patients; Patient or Disabled Group
+T97	Duration 2101 2119	los 3 años previos
+T98	Neg_cue 2120 2127	excepto
+T100	PHYS 1649 1660	embarazadas
+#73	AnnotatorNotes T100	C0032961; Pregnancy; Organism Function
+T101	PHYS 1677 1686	lactancia
+#74	AnnotatorNotes T101	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T82	PROC 1519 1535	Estado funcional
+#75	AnnotatorNotes T82	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T84	DISO 254 262	recidiva
+#76	AnnotatorNotes T84	C2825055; Recurrence (disease attribute); Pathologic Function
+T90	DISO 488 496	recidiva
+#77	AnnotatorNotes T90	C2825055; Recurrence (disease attribute); Pathologic Function
+T99	DISO 1703 1711	recidiva
+#78	AnnotatorNotes T99	C2825055; Recurrence (disease attribute); Pathologic Function
+T102	PROC 718 734	histológicamente
+#79	AnnotatorNotes T102	C0344441; Histology Procedure; Laboratory Procedure
+T103	PROC 1897 1908	histologías
+#80	AnnotatorNotes T103	C0344441; Histology Procedure; Laboratory Procedure
+T104	DISO 701 706	CCECC
+#81	AnnotatorNotes T104	C1168401; Squamous cell carcinoma of the head and neck; Neoplastic Process
+T105	DISO 1056 1061	CCECC
+#82	AnnotatorNotes T105	C1168401; Squamous cell carcinoma of the head and neck; Neoplastic Process
+T106	PROC 1374 1387	reclutamiento
+#83	AnnotatorNotes T106	C0242800; Patient Recruitment; Research Activity
+A1	Assertion T23 Negated
+A2	Assertion T26 Negated
+A3	Assertion T27 Negated
+A4	Assertion T28 Negated
+A5	Assertion T36 Negated
+A6	Assertion T48 Negated
+A7	Assertion T94 Negated
+A8	Assertion T1 Negated
+A9	Assertion T52 Negated
+A10	Assertion T17 Negated
+A11	Assertion T53 Negated
+A12	Assertion T55 Negated
+A13	Assertion T57 Negated
+A14	Assertion T24 Negated
+A15	Assertion T25 Negated
+A16	Assertion T78 Negated
+A17	Status T27 History_of
+A18	Status T28 History_of
+A19	Status T29 History_of
+A20	Status T30 History_of
+A21	Status T31 History_of
+A22	Status T32 History_of
+A23	Status T33 History_of
+A24	Status T35 History_of
+A25	Status T58 History_of
+#84	AnnotatorNotes T30	C0600558; Neoadjuvant Therapy; Therapeutic or Preventive Procedure | C0677850; Adjuvant therapy; Therapeutic or Preventive Procedure
+#85	AnnotatorNotes T49	C3898222; Mucosal Melanoma; Neoplastic Process 
+#86	AnnotatorNotes T53	C0553723; Squamous cell carcinoma of skin; Neoplastic Process
+#87	AnnotatorNotes T55	C1336527; Carcinoma of urinary bladder, superficial; Neoplastic Process
+T107	Observation 1776 1784	primario
+A26	Assertion T107 Speculated
+T108	Spec_cue 1785 1796	desconocido
+R1	Speculation Arg1:T108 Arg2:T107	
+R2	Location_of Arg1:T50 Arg2:T78	
+T109	Quantifier_or_Qualifier 2142 2161	localmente curables
+A27	Assertion T109 Negated
+R3	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T109	
+T110	Observation 2175 2196	aparentemente curados
+A28	Assertion T110 Negated
+R4	Negation Arg1:T98 Arg2:T52	
+R5	Negation Arg1:T98 Arg2:T109	
+R6	Negation Arg1:T98 Arg2:T110	
+R7	Negation Arg1:T98 Arg2:T17	
+R8	Negation Arg1:T98 Arg2:T53	
+R9	Negation Arg1:T98 Arg2:T55	
+R10	Negation Arg1:T98 Arg2:T57	
+R11	Used_for Arg1:T3 Arg2:T2	
+R12	Combined_with Arg1:T3 Arg2:T4	
+R13	Combined_with Arg1:T3 Arg2:T72	
+R15	Location_of Arg1:T71 Arg2:T6	
+R16	Location_of Arg1:T8 Arg2:T6	
+R17	Location_of Arg1:T16 Arg2:T6	
+T111	Quantifier_or_Qualifier 275 291	en primera línea
+R18	Combined_with Arg1:T10 Arg2:T39	
+R19	Location_of Arg1:T7 Arg2:T11	
+R20	Location_of Arg1:T12 Arg2:T11	
+R21	Location_of Arg1:T13 Arg2:T11	
+T112	Quantifier_or_Qualifier 509 525	en primera línea
+R22	Location_of Arg1:T66 Arg2:T14	
+R23	Location_of Arg1:T65 Arg2:T14	
+R24	Location_of Arg1:T67 Arg2:T15	
+R25	Location_of Arg1:T68 Arg2:T15	
+R26	Location_of Arg1:T69 Arg2:T15	
+T113	Observation 650 660	recurrente
+#88	AnnotatorNotes T113	C0679254; Disease recurrence; Finding
+R27	Before Arg1:T6 Arg2:T84	
+R28	Before Arg1:T6 Arg2:T62	
+R29	Before Arg1:T11 Arg2:T90	
+R30	Before Arg1:T11 Arg2:T64	
+R31	Before Arg1:T15 Arg2:T113	
+R32	Before Arg1:T15 Arg2:T70	
+R33	Location_of Arg1:T18 Arg2:T104	
+R34	Location_of Arg1:T19 Arg2:T104	
+R35	Location_of Arg1:T20 Arg2:T104	
+R36	Location_of Arg1:T21 Arg2:T104	
+R37	Negation Arg1:T83 Arg2:T23	
+T114	Quantifier_or_Qualifier 913 935	con intención curativa
+R38	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T114	
+R39	Negation Arg1:T85 Arg2:T26	
+R40	Negation Arg1:T83 Arg2:T24	
+R41	Negation Arg1:T83 Arg2:T25	
+R42	Negation Arg1:T86 Arg2:T27	
+R43	Negation Arg1:T86 Arg2:T28	
+R44	Combined_with Arg1:T32 Arg2:T33	
+T115	Quantifier_or_Qualifier 1287 1306	localmente avanzada
+R45	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T115	
+R46	Has_Duration_or_Interval Arg1:T35 Arg2:T87	
+R47	Before Arg1:T35 Arg2:T106	
+R48	Negation Arg1:T88 Arg2:T36	
+R49	Has_Duration_or_Interval Arg1:T36 Arg2:T89	
+R50	After Arg1:T36 Arg2:T37	
+T116	CONC 1540 1544	ECOG
+#89	AnnotatorNotes T116	C1520224; ECOG performance status; Intellectual Product
+R51	Used_for Arg1:T116 Arg2:T82	
+T117	Result_or_Value 1548 1551	0-1
+R52	Has_Result_or_Value Arg1:T116 Arg2:T117	
+T118	CONC 1602 1612	RECIST 1.1
+#90	AnnotatorNotes T118	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product)
+R53	Experiences Arg1:T91 Arg2:T100	
+R54	Experiences Arg1:T91 Arg2:T101	
+R55	Before Arg1:T41 Arg2:T99	
+R56	Before Arg1:T41 Arg2:T74	
+R57	Location_of Arg1:T42 Arg2:T41	
+R58	Location_of Arg1:T75 Arg2:T43	
+R59	Location_of Arg1:T76 Arg2:T44	
+R60	Location_of Arg1:T45 Arg2:T44	
+R61	Location_of Arg1:T46 Arg2:T44	
+R62	Location_of Arg1:T47 Arg2:T44	
+R63	Negation Arg1:T92 Arg2:T48	
+R64	Location_of Arg1:T77 Arg2:T49	
+R65	Experiences Arg1:T96 Arg2:T51	
+R66	Negation Arg1:T93 Arg2:T94	
+R67	Negation Arg1:T93 Arg2:T78	
+R68	Negation Arg1:T95 Arg2:T1	
+R69	Experiences Arg1:T94 Arg2:T78	
+R70	Experiences Arg1:T94 Arg2:T1	
+T119	Quantifier_or_Qualifier 2084 2090	activa
+#91	AnnotatorNotes T119	C0679217; Active State; Idea or Concept
+R71	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T119	
+R72	Has_Duration_or_Interval Arg1:T58 Arg2:T97	
+R73	Before Arg1:T52 Arg2:T110	
+R74	Location_of Arg1:T79 Arg2:T53	
+R75	Location_of Arg1:T54 Arg2:T53	
+R76	Location_of Arg1:T56 Arg2:T55	
+R77	Location_of Arg1:T60 Arg2:T57	
+R78	Location_of Arg1:T80 Arg2:T57	
+R79	Location_of Arg1:T59 Arg2:T57	
+R82	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T112	
+R83	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T112	
+R81	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T111	
+R84	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T111	
+T120	Quantifier_or_Qualifier 1344 1353	terminado
+#92	AnnotatorNotes T120	C1272693; Ended - status; Qualitative Concept
+R85	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T120	
+R86	Overlap Arg1:T120 Arg2:T87	
+R87	Before Arg1:T17 Arg2:T110	
+R88	Before Arg1:T53 Arg2:T110	
+R89	Before Arg1:T55 Arg2:T110	
+T121	Quantifier_or_Qualifier 1909 1921	no escamosas
+R98	Has_Quantifier_or_Qualifier Arg1:T103 Arg2:T121	
+#93	AnnotatorNotes T37	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+#94	AnnotatorNotes T59	C0007874; Cervix Uteri; Body Part, Organ, or Organ Component | C1278987; Entire cervix uteri; Body Part, Organ, or Organ Component
+#95	AnnotatorNotes T57	C0154088; Carcinoma in situ of prostate; Neoplastic Process | C0851140; Carcinoma in situ of uterine cervix; Neoplastic Process | C0154084; Stage 0 Breast Carcinoma; Neoplastic Process 
+R14	Before Arg1:T57 Arg2:T110	
+#96	AnnotatorNotes T107	C0475447; Site of primary tumor; Finding
+T122	Route 1038 1047	sistémica
+R80	Has_Route_or_Mode Arg1:T28 Arg2:T122	
+T123	Route 1505 1514	sistémico
+R90	Has_Route_or_Mode Arg1:T37 Arg2:T123	
+#97	AnnotatorNotes T122	C0205373; Systemic; Functional Concept
+#98	AnnotatorNotes T123	C0205373; Systemic; Functional Concept
+#99	AnnotatorNotes T114	C1880198; Cure (remedy); Conceptual Entity
+A29	Experiencer T91 Patient
+A30	Experiencer T94 Patient
+A31	Experiencer T96 Patient

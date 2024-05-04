@@ -1,0 +1,164 @@
+T1	CHEM 55 62	BIIB092
+T2	DISO 84 117	parálisis supranuclear progresiva
+#1	AnnotatorNotes T2	C0038868; Progressive supranuclear palsy; Disease or Syndrome
+T3	PROC 138 216	Estudio aleatorizado, doble ciego, controlado con placebo, de grupos paralelos
+T4	PROC 271 303	administrado por vía intravenosa
+#2	AnnotatorNotes T4	C1737200; Administered intravenously; Therapeutic or Preventive Procedure
+T5	PROC 222 256	evaluar la eficacia y la seguridad
+#3	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T6	DISO 325 358	parálisis supranuclear progresiva
+#4	AnnotatorNotes T6	C0038868; Progressive supranuclear palsy; Disease or Syndrome
+T7	DISO 381 414	Parálisis supranuclear progresiva
+#5	AnnotatorNotes T7	C0038868; Progressive supranuclear palsy; Disease or Syndrome
+T8	DISO 486 489	PSP
+#6	AnnotatorNotes T8	C0038868; Progressive supranuclear palsy; Disease or Syndrome
+T9	PROC 585 587	RM
+#7	AnnotatorNotes T9	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T10	PROC 723 751	Miniexamen del Estado Mental
+#8	AnnotatorNotes T10	C0451306; Mini-mental state examination; Diagnostic Procedure
+T11	DISO 896 904	demencia
+#9	AnnotatorNotes T11	C0497327; Dementia; Mental or Behavioral Dysfunction
+T12	PROC 963 970	ingreso
+#10	AnnotatorNotes T12	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T13	DISO 1044 1083	trastornos psiquiátricos o neurológicos
+T14	PROC 1099 1110	Diagnóstico
+#11	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	DISO 1114 1144	esclerosis lateral amiotrófica
+#12	AnnotatorNotes T15	C0002736; Amyotrophic Lateral Sclerosis; Disease or Syndrome
+T16	DISO 1146 1149	ELA
+#13	AnnotatorNotes T16	C0002736; Amyotrophic Lateral Sclerosis; Disease or Syndrome
+T17	DISO 1159 1189	enfermedades de la motoneurona
+T18	DISO 1209 1279	trastorno del comportamiento del sueño de movimientos oculares rápidos
+#14	AnnotatorNotes T18	C0751772; REM Sleep Behavior Disorder; Mental or Behavioral Dysfunction
+T19	PROC 1324 1335	RM cerebral
+T20	ANAT 1327 1335	cerebral
+#15	AnnotatorNotes T20	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T21	ANAT 1435 1445	plasmática
+#16	AnnotatorNotes T21	C0032105; Plasma; Body Substance
+T22	ANAT 1448 1454	sérica
+#17	AnnotatorNotes T22	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T23	PROC 1589 1597	análisis
+#18	AnnotatorNotes T23	C0002778; Analysis of substances; Laboratory Procedure | C0814047; biological analysis and measurement; Laboratory Procedure
+T24	CHEM 260 270	BMS-986168
+#19	AnnotatorNotes T24	C5139943; BMS-986168; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T25	PROC 753 757	MMSE
+#20	AnnotatorNotes T25	C0451306; Mini-mental state examination; Diagnostic Procedure
+T26	ANAT 1178 1189	motoneurona
+#21	AnnotatorNotes T26	C0026609; Motor Neurons; Cell
+T27	ANAT 1263 1271	oculares
+#22	AnnotatorNotes T27	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T28	PROC 1421 1470	concentración plasmática o sérica de progranulina
+T29	ANAT 1458 1470	progranulina
+#23	AnnotatorNotes T29	C0168913; Progranulins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T30	Date 12 16	2016
+T31	Route 288 303	vía intravenosa
+#24	AnnotatorNotes T31	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T32	Spec_cue 490 498	probable
+T33	Spec_cue 501 508	posible
+T34	LIVB 609 617	cuidador
+#25	AnnotatorNotes T34	C0085537; Caregiver; Professional or Occupational Group | C1305660; Carer (occupation); Professional or Occupational Group
+T35	LIVB 883 891	personas
+#26	AnnotatorNotes T35	C0027361; Persons; Population Group
+T36	Neg_cue 937 939	no
+T37	PHYS 1242 1279	sueño de movimientos oculares rápidos
+#27	AnnotatorNotes T37	C0037322; Sleep, REM; Mental Process
+T38	LIVB 1538 1546	paciente
+#28	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T40	PHYS 521 530	deambular
+#29	AnnotatorNotes T40	C0945826; Ambulation; Organism Function
+T39	PHYS 1281 1284	REM
+#30	AnnotatorNotes T39	C0037322; Sleep, REM; Mental Process
+T41	LIVB 307 320	participantes
+#31	AnnotatorNotes T41	C4554048; Study Participant; Population Group
+T42	LIVB 66 79	participantes
+#32	AnnotatorNotes T42	C4554048; Study Participant; Population Group
+T43	LIVB 469 481	Participante
+#33	AnnotatorNotes T43	C4554048; Study Participant; Population Group
+T44	LIVB 781 793	participante
+#34	AnnotatorNotes T44	C4554048; Study Participant; Population Group
+T45	PROC 653 660	visitas
+#35	AnnotatorNotes T45	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T8 Speculated
+A3	Assertion T12 Negated
+A2	Status T18 History_of
+#36	AnnotatorNotes T1	C5391732; BIIB092; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#37	AnnotatorNotes T3	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product  + C2826345; Parallel Study; Research Activity 
+#38	AnnotatorNotes T13	C0004936; Mental disorders; Mental or Behavioral Dysfunction + C0027765; nervous system disorder; Disease or Syndrome
+#39	AnnotatorNotes T17	C0085084; Motor Neuron Disease; Disease or Syndrome 
+R1	Experiences Arg1:T42 Arg2:T1	
+R2	Experiences Arg1:T42 Arg2:T2	
+R3	Used_for Arg1:T24 Arg2:T4	
+R4	Has_Route_or_Mode Arg1:T24 Arg2:T31	
+R5	Experiences Arg1:T41 Arg2:T24	
+R6	Experiences Arg1:T41 Arg2:T6	
+R7	Speculation Arg1:T32 Arg2:T8	
+R8	Speculation Arg1:T33 Arg2:T8	
+R9	Experiences Arg1:T43 Arg2:T8	
+T46	Quantifier_or_Qualifier 551 560	con ayuda
+#40	AnnotatorNotes T46	C3827451; With Some Help; Intellectual Product
+T47	Quantifier_or_Qualifier 531 548	con independencia
+#41	AnnotatorNotes T47	C0085862; Independence; Idea or Concept
+T48	Observation 512 530	Capaz de deambular
+#42	AnnotatorNotes T48	C2712089; Able to walk (finding); Finding
+R11	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T47	
+R12	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T46	
+T49	Observation 564 587	Capaz de tolerar una RM
+R13	Overlap Arg1:T49 Arg2:T9	
+T50	Result_or_Value 695 716	igual o superior a 20
+R14	Has_Result_or_Value Arg1:T10 Arg2:T50	
+R15	Has_Result_or_Value Arg1:T25 Arg2:T50	
+T51	PROC 765 774	selección
+#43	AnnotatorNotes T51	C0242802; Patient Selection; Research Activity
+R16	Overlap Arg1:T25 Arg2:T51	
+R17	Overlap Arg1:T10 Arg2:T51	
+T52	Observation 799 904	residir fuera de un centro especializado de enfermería o de un centro de atención a personas con demencia
+R19	Experiences Arg1:T35 Arg2:T11	
+T53	PROC 925 934	selección
+#44	AnnotatorNotes T53	C0242802; Patient Selection; Research Activity
+R20	Overlap Arg1:T52 Arg2:T53	
+R21	Negation Arg1:T36 Arg2:T12	
+R22	Experiences Arg1:T44 Arg2:T12	
+T54	Quantifier_or_Qualifier 951 959	previsto
+#45	AnnotatorNotes T54	C1301732; Planned; Functional Concept
+R23	Negation Arg1:T36 Arg2:T54	
+R24	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T54	
+A4	Assertion T54 Negated
+R25	Location_of Arg1:T26 Arg2:T17	
+T55	Quantifier_or_Qualifier 1084 1095	importantes
+#46	AnnotatorNotes T55	C3898777; Important; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T55	
+T56	Observation 595 640	cuenta con un cuidador fiable que lo acompaña
+#47	AnnotatorNotes T56	C5380808; Availability of caregiver assistance; Finding (?)
+R27	Overlap Arg1:T56 Arg2:T45	
+R28	Location_of Arg1:T27 Arg2:T37	
+R29	Location_of Arg1:T27 Arg2:T39	
+T57	Quantifier_or_Qualifier 1295 1305	importante
+#48	AnnotatorNotes T57	C3898777; Important; Qualitative Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T57	
+T58	Quantifier_or_Qualifier 1286 1292	precoz
+#49	AnnotatorNotes T58	C1279930; Precocious; Temporal Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T58	
+R32	Location_of Arg1:T20 Arg2:T19	
+T59	PROC 1342 1351	selección
+#50	AnnotatorNotes T59	C0242802; Patient Selection; Research Activity
+R33	Overlap Arg1:T19 Arg2:T59	
+T60	Observation 1367 1376	anomalías
+#51	AnnotatorNotes T60	C1704258; Abnormality; Finding
+T61	Quantifier_or_Qualifier 1377 1391	significativas
+#52	AnnotatorNotes T61	C1546944; Event Seriousness - Significant; Qualitative Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T61	
+R36	Location_of Arg1:T21 Arg2:T28	
+R37	Location_of Arg1:T22 Arg2:T28	
+T62	Result_or_Value 1471 1524	menor que una desviación estándar inferior a la media
+R38	Has_Result_or_Value Arg1:T28 Arg2:T62	
+R39	Experiences Arg1:T38 Arg2:T28	
+R40	Experiences Arg1:T38 Arg2:T23	
+R10	Overlap Arg1:T59 Arg2:T60	
+#53	AnnotatorNotes T19	C2454640; Magnetic Resonance Imaging (MRI) of Brain; Diagnostic Procedure
+A5	Experiencer T42 Patient
+A6	Experiencer T41 Patient
+A7	Experiencer T43 Patient
+A8	Experiencer T34 Other
+A9	Experiencer T44 Patient
+A10	Experiencer T35 Patient
+A11	Experiencer T38 Patient

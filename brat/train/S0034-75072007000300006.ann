@@ -1,0 +1,103 @@
+T1	PROC 1 34	Pulpotomías de molares temporales
+T2	ANAT 219 225	pulpar
+#1	AnnotatorNotes T2	C0011399; Dental Pulp; Body Part, Organ, or Organ Component
+T3	PROC 448 464	necropulpotomías
+#2	AnnotatorNotes T3	C0204299; Vital pulpotomy; Therapeutic or Preventive Procedure (?)
+T4	ANAT 38 44	pulpas
+#3	AnnotatorNotes T4	C0011399; Dental Pulp; Body Part, Organ, or Organ Component
+T5	CHEM 57 77	tintura de propóleos
+T6	PROC 100 145	ensayo clínico fase II aleatorizado comparado
+#4	AnnotatorNotes T6	C1579762; comparative study research; Research Activity + C0282460; Phase 2 Clinical Trials; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T7	CHEM 600 611	formocresol
+#5	AnnotatorNotes T7	C0060653; formocresol; Biomedical or Dental Material
+T8	CHEM 902 913	formocresol
+#6	AnnotatorNotes T8	C0060653; formocresol; Biomedical or Dental Material
+T9	CHEM 403 423	tintura de propóleos
+T10	PROC 435 446	pulpotomías
+#7	AnnotatorNotes T10	C0204299; Vital pulpotomy; Therapeutic or Preventive Procedure
+T11	PROC 495 507	tratamientos
+#8	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	CHEM 558 578	tintura de propóleos
+T13	PROC 988 999	terapéutica
+#9	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	DISO 694 713	reacciones adversas
+#10	AnnotatorNotes T14	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T15	PROC 738 745	tratado
+#11	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	ANAT 773 811	segundos molares temporales inferiores
+T17	CHEM 822 842	tintura de propóleos
+T18	PROC 858 869	pulpotomías
+#12	AnnotatorNotes T18	C0204299; Vital pulpotomy; Therapeutic or Preventive Procedure
+T19	ANAT 725 733	dentario
+#13	AnnotatorNotes T19	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T20	PROC 951 976	tratamientos endodónticos
+#14	AnnotatorNotes T20	C0700632; Endodontic procedure; Therapeutic or Preventive Procedure
+T21	ANAT 16 34	molares temporales
+#15	AnnotatorNotes T21	C0227108; Structure of deciduous molar tooth; Body Part, Organ, or Organ Component | C1289161; Entire deciduous molar tooth; Body Part, Organ, or Organ Component
+T22	DISO 38 52	pulpas muertas
+#16	AnnotatorNotes T22	C0011407; Dental Pulp Necrosis; Disease or Syndrome
+T23	ANAT 189 207	molares temporales
+#17	AnnotatorNotes T23	C0227108; Structure of deciduous molar tooth; Body Part, Organ, or Organ Component | C1289161; Entire deciduous molar tooth; Body Part, Organ, or Organ Component
+T24	DISO 212 225	muerte pulpar
+#18	AnnotatorNotes T24	C0011407; Dental Pulp Necrosis; Disease or Syndrome
+T25	Dose 78 84	al 10%
+T26	LIVB 152 157	niños
+#19	AnnotatorNotes T26	C0008059; Child; Age Group
+T27	Age 158 172	de 4 a 10 años
+T28	Date 313 332	septiembre del 2005
+T29	Date 335 354	septiembre del 2006
+T30	Dose 424 431	al 10 %
+T31	LIVB 514 523	pacientes
+#20	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Dose 579 586	al 10 %
+T33	LIVB 618 627	pacientes
+#21	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T35	Neg_cue 691 693	ni
+T37	Dose 843 850	al 10 %
+T39	Duration 643 662	los 7, 15 y 30 días
+T34	CONC 679 690	diferencias
+#22	AnnotatorNotes T34	C1705241; Delta (difference); Quantitative Concept
+T36	Neg_cue 664 667	sin
+T38	PROC 628 640	se evaluaron
+#23	AnnotatorNotes T38	C0220825; Evaluation; Health Care Activity | C1261322; Evaluation procedure; Health Care Activity
+A1	Assertion T14 Negated
+A2	Population_data T26 Age
+R3	Has_Dose_or_Strength Arg1:T5 Arg2:T25
+R4	Used_for Arg1:T5 Arg2:T1
+R5	Has_Age Arg1:T26 Arg2:T27
+R7	Experiences Arg1:T26 Arg2:T24
+R8	After Arg1:T6 Arg2:T28
+R9	Before Arg1:T6 Arg2:T29
+R10	Has_Dose_or_Strength Arg1:T9 Arg2:T30
+R11	Used_for Arg1:T9 Arg2:T10
+R12	Used_for Arg1:T9 Arg2:T3
+R13	Experiences Arg1:T26 Arg2:T10
+R14	Experiences Arg1:T26 Arg2:T3
+R15	Experiences Arg1:T31 Arg2:T11
+R16	Used_for Arg1:T12 Arg2:T11
+R17	Has_Dose_or_Strength Arg1:T12 Arg2:T32
+R18	Used_for Arg1:T7 Arg2:T11
+R19	Negation Arg1:T35 Arg2:T14
+A3	Assertion T34 Negated
+R20	Negation Arg1:T36 Arg2:T34
+R21	Overlap Arg1:T38 Arg2:T39
+R22	Experiences Arg1:T33 Arg2:T38
+R23	Experiences Arg1:T33 Arg2:T14
+R24	Location_of Arg1:T16 Arg2:T18
+R25	Used_for Arg1:T17 Arg2:T18
+R26	Has_Dose_or_Strength Arg1:T17 Arg2:T37
+R27	Used_for Arg1:T8 Arg2:T18
+R1	Location_of Arg1:T21 Arg2:T1
+R2	Location_of Arg1:T21 Arg2:T22
+R6	Location_of Arg1:T23 Arg2:T24
+R28	Before Arg1:T10 Arg2:T29
+R29	Before Arg1:T3 Arg2:T29
+R30	After Arg1:T10 Arg2:T28
+R31	After Arg1:T10 Arg2:T28
+T40	LIVB 485 507	grupos de tratamientos
+#24	AnnotatorNotes T40	C5205742; Treatment Group; Population Group
+R32	Experiences Arg1:T40 Arg2:T11	
+A4	Experiencer T26 Patient
+A5	Experiencer T31 Patient
+A6	Experiencer T40 Patient
+A7	Experiencer T33 Patient

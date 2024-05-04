@@ -1,0 +1,150 @@
+T1	PROC 46 80	Estudio de eficacia y de seguridad
+T2	DISO 135 167	carcinoma epidermoide de esófago
+#1	AnnotatorNotes T2	C0279626; Squamous cell carcinoma of esophagus; Neoplastic Process
+T3	PROC 211 238	Estudio fase Ib/II, abierto
+T4	CHEM 289 295	taxano
+#2	AnnotatorNotes T4	C0796419; Taxanes; Organic Chemical
+T5	CHEM 298 308	Irinotecan
+#3	AnnotatorNotes T5	C0123931; irinotecan; Organic Chemical · Pharmacologic Substance
+T6	DISO 326 358	carcinoma epidermoide de esófago
+#4	AnnotatorNotes T6	C0279626; Squamous cell carcinoma of esophagus; Neoplastic Process
+T7	DISO 403 420	cáncer de esófago
+#5	AnnotatorNotes T7	C0152018; Esophageal carcinoma; Neoplastic Process | C0546837; Malignant neoplasm of esophagus; Neoplastic Process
+T8	DISO 447 489	carcinoma de células escamosas del esófago
+T9	PROC 372 379	tratado
+#6	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	ANAT 482 489	esófago
+#7	AnnotatorNotes T10	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T11	DISO 518 558	Carcinoma esofágico de células escamosas
+#8	AnnotatorNotes T11	C0279626; Squamous cell carcinoma of esophagus; Neoplastic Process
+T12	PROC 813 831	quimioradioterapia
+T13	PROC 675 682	terapia
+#9	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	CHEM 693 700	platino
+#10	AnnotatorNotes T14	C0032207; platinum; Element, Ion, or Isotope
+T15	PROC 779 792	quimioterapia
+#11	AnnotatorNotes T15	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T16	CHEM 803 810	platino
+#12	AnnotatorNotes T16	C0032207; platinum; Element, Ion, or Isotope
+T17	DISO 840 861	enfermedad localizada
+#13	AnnotatorNotes T17	C0277565; Local disease; Disease or Syndrome
+T18	DISO 864 882	Enfermedad medible
+#14	AnnotatorNotes T18	C1513041; Measurable Disease; Disease or Syndrome
+T19	DISO 938 968	Afectación metastásica del SNC
+T20	ANAT 965 968	SNC
+#15	AnnotatorNotes T20	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T21	PROC 971 982	Tratamiento
+#16	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	CHEM 997 1029	anticuerpo antidiana contra HER3
+T23	CHEM 1035 1052	inhibidor de PI3K
+#17	AnnotatorNotes T23	C1519050; PI3K inhibitors; Organic Chemical · Pharmacologic Substance
+T24	ANAT 160 167	esófago
+#18	AnnotatorNotes T24	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T25	ANAT 351 358	esófago
+#19	AnnotatorNotes T25	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T26	ANAT 413 420	esófago
+#20	AnnotatorNotes T26	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T27	ANAT 460 477	células escamosas
+#21	AnnotatorNotes T27	C0221910; Squamous Epithelial Cells; Cell
+T28	ANAT 528 537	esofágico
+#22	AnnotatorNotes T28	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T29	ANAT 541 558	células escamosas
+#23	AnnotatorNotes T29	C0221910; Squamous Epithelial Cells; Cell
+T30	DISO 572 583	metastásico
+#24	AnnotatorNotes T30	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T31	PROC 599 623	régimen de quimioterapia
+T32	DISO 727 738	metastásico
+#25	AnnotatorNotes T32	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T33	CHEM 102 108	LJM716
+#26	AnnotatorNotes T33	C4507303; LJM716; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T34	CHEM 111 117	BYL719
+#27	AnnotatorNotes T34	C2986399; BYL719; Organic Chemical · Pharmacologic Substance
+T35	CHEM 242 248	LJM716
+#28	AnnotatorNotes T35	C4507303; LJM716; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T36	CHEM 268 274	BYL719
+#29	AnnotatorNotes T36	C2986399; BYL719; Organic Chemical · Pharmacologic Substance
+T37	PROC 181 188	tratado
+#30	AnnotatorNotes T37	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T38	Date 13 17	2012
+T39	LIVB 121 130	pacientes
+#31	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 312 321	pacientes
+#32	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Neg_cue 586 588	No
+T42	Duration 764 775	los 6 meses
+T43	ANAT 145 156	epidermoide
+#33	AnnotatorNotes T43	C0221910; Squamous Epithelial Cells; Cell
+T44	ANAT 336 347	epidermoide
+#34	AnnotatorNotes T44	C0221910; Squamous Epithelial Cells; Cell
+T45	Observation 742 753	recurrencia
+#35	AnnotatorNotes T45	C2825055; Recurrence (disease attribute); Pathologic Function
+A1	Assertion T31 Negated
+A2	Status T37 History_of
+A3	Status T9 History_of
+A4	Status T31 History_of
+A5	Status T21 History_of
+A6	Status T22 History_of
+A7	Status T23 History_of
+#36	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#37	AnnotatorNotes T8	C0279626; Squamous cell carcinoma of esophagus; Neoplastic Process
+#38	AnnotatorNotes T31	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+#39	AnnotatorNotes T12	C0436307; Chemoradiotherapy; Therapeutic or Preventive Procedure 
+#40	AnnotatorNotes T19	C0686377; CNS metastases; Neoplastic Process
+R1	Location_of Arg1:T26 Arg2:T7	
+R2	Location_of Arg1:T43 Arg2:T2	
+R3	Location_of Arg1:T24 Arg2:T2	
+R4	Combined_with Arg1:T33 Arg2:T34	
+R5	Experiences Arg1:T39 Arg2:T33	
+R6	Experiences Arg1:T39 Arg2:T2	
+R7	Experiences Arg1:T39 Arg2:T37	
+R8	Before Arg1:T37 Arg2:T33	
+R9	Combined_with Arg1:T35 Arg2:T36	
+R10	Experiences Arg1:T40 Arg2:T35	
+R11	Experiences Arg1:T40 Arg2:T4	
+R12	Experiences Arg1:T40 Arg2:T5	
+R13	Location_of Arg1:T44 Arg2:T6	
+R14	Location_of Arg1:T25 Arg2:T6	
+R15	Before Arg1:T9 Arg2:T35	
+R16	Before Arg1:T9 Arg2:T4	
+R17	Experiences Arg1:T40 Arg2:T9	
+R18	Experiences Arg1:T40 Arg2:T6	
+R19	Before Arg1:T9 Arg2:T5	
+R20	Location_of Arg1:T27 Arg2:T8	
+R21	Location_of Arg1:T10 Arg2:T8	
+R22	Location_of Arg1:T28 Arg2:T11	
+R23	Location_of Arg1:T29 Arg2:T11	
+R24	Before Arg1:T11 Arg2:T30	
+T46	Observation 559 569	recurrente
+#41	AnnotatorNotes T46	C0679254; Disease recurrence; Finding
+R25	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T46	
+T47	Observation 714 724	recurrente
+R26	Overlap Arg1:T45 Arg2:T42	
+T48	Quantifier_or_Qualifier 589 598	más de un
+A8	Assertion T48 Negated
+R27	Negation Arg1:T41 Arg2:T48	
+R28	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T48	
+R29	Negation Arg1:T41 Arg2:T31	
+T49	Observation 643 653	Progresión
+#42	AnnotatorNotes T49	C0679254; Disease recurrence; Finding
+R30	Overlap Arg1:T49 Arg2:T13	
+R31	After Arg1:T49 Arg2:T13	
+R32	Used_for Arg1:T14 Arg2:T13	
+R33	Overlap Arg1:T13 Arg2:T47	
+#43	AnnotatorNotes T47	C0679254; Disease recurrence; Finding
+R34	Overlap Arg1:T13 Arg2:T32	
+R35	Overlap Arg1:T13 Arg2:T45	
+R37	Used_for Arg1:T16 Arg2:T15	
+R38	Has_Duration_or_Interval Arg1:T12 Arg2:T42	
+R39	Before Arg1:T17 Arg2:T45	
+R40	Before Arg1:T17 Arg2:T49	
+R41	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T47	
+T50	CONC 893 899	RECIST
+#44	AnnotatorNotes T50	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product
+R42	Location_of Arg1:T20 Arg2:T19	
+R43	Used_for Arg1:T22 Arg2:T21	
+R44	Used_for Arg1:T23 Arg2:T21	
+R45	Before Arg1:T37 Arg2:T34	
+R46	Before Arg1:T9 Arg2:T36	
+R47	Has_Duration_or_Interval Arg1:T16 Arg2:T42	
+A9	Experiencer T39 Patient
+A10	Experiencer T40 Patient

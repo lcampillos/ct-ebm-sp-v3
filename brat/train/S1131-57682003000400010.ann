@@ -1,0 +1,179 @@
+T1	CHEM 19 41	vacuna antineumocócica
+#1	AnnotatorNotes T1	C0358314; Pneumococcal vaccine; Pharmacologic Substance
+T2	CHEM 110 132	vacuna antineumocócica
+#2	AnnotatorNotes T2	C0358314; Pneumococcal vaccine; Pharmacologic Substance
+T3	PROC 173 183	prevención
+#3	AnnotatorNotes T3	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T4	DISO 208 217	infección
+#4	AnnotatorNotes T4	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T5	PROC 423 445	evaluar la efectividad
+T6	CHEM 452 474	vacuna antineumocócica
+#5	AnnotatorNotes T6	C0358314; Pneumococcal vaccine; Pharmacologic Substance
+T7	PROC 492 501	vacunados
+#6	AnnotatorNotes T7	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T8	PROC 507 516	vacunados
+#7	AnnotatorNotes T8	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T9	DISO 898 907	neumonías
+#8	AnnotatorNotes T9	C0032285; Pneumonia; Disease or Syndrome
+T10	PROC 802 811	vacunados
+#9	AnnotatorNotes T10	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T11	PROC 834 843	vacunados
+#10	AnnotatorNotes T11	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T12	DISO 1072 1080	neumonía
+#11	AnnotatorNotes T12	C0032285; Pneumonia; Disease or Syndrome
+T13	PROC 1198 1206	vacunada
+#12	AnnotatorNotes T13	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T14	DISO 1373 1382	neumonías
+#13	AnnotatorNotes T14	C0032285; Pneumonia; Disease or Syndrome
+T15	DISO 1521 1530	infección
+#14	AnnotatorNotes T15	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T16	CHEM 338 344	vacuna
+#15	AnnotatorNotes T16	C0042210; Vaccines; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T17	PROC 661 694	estudio de cohortes retrospectivo
+#16	AnnotatorNotes T17	C2985505; Retrospective Cohort Study; Research Activity
+T18	LIVB 45 54	pacientes
+#17	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T19	Age 55 73	mayores de 65 años
+T20	Date 223 234	actualmente
+T22	LIVB 482 490	cohortes
+#18	AnnotatorNotes T22	C0599755; Cohort; Population Group
+T23	Neg_cue 504 506	no
+T24	LIVB 521 529	personas
+#19	AnnotatorNotes T24	C0027361; Persons; Population Group
+T25	Age 530 548	mayores de 65 años
+T26	LIVB 640 648	cohortes
+#20	AnnotatorNotes T26	C0599755; Cohort; Population Group
+T27	LIVB 757 777	cohortes de personas
+#21	AnnotatorNotes T27	C0599755; Cohort; Population Group; Cohort; Population Group + C0027361; Persons; Population Group
+T29	Age 778 796	mayores de 65 años
+T30	Date 820 824	1993
+T31	Neg_cue 831 833	no
+T32	Date 856 869	la actualidad
+T33	Date 937 941	1994
+T34	Date 942 946	1999
+T35	Frequency 1063 1068	anual
+T36	LIVB 1098 1106	personas
+#22	AnnotatorNotes T36	C0027361; Persons; Population Group
+T37	Age 1107 1125	mayores de 65 años
+T39	LIVB 1190 1197	cohorte
+#23	AnnotatorNotes T39	C0599755; Cohort; Population Group
+T41	LIVB 1392 1400	cohortes
+#24	AnnotatorNotes T41	C0599755; Cohort; Population Group
+T45	LIVB 286 303	población anciana
+#25	AnnotatorNotes T45	C1257890; Population; Population Group + C0001792; Elderly (population group); Population Group
+T46	LIVB 672 680	cohortes
+#26	AnnotatorNotes T46	C0599755; Cohort; Population Group
+T21	DISO 621 630	neumonías
+#27	AnnotatorNotes T21	C0032285; Pneumonia; Disease or Syndrome
+T28	DISO 1610 1619	neumonías
+#28	AnnotatorNotes T28	C0032285; Pneumonia; Disease or Syndrome
+A1	Population_data T45 Age
+A2	Assertion T8 Negated
+A3	Assertion T11 Negated
+R1	Negation Arg1:T23 Arg2:T8	
+R2	Negation Arg1:T31 Arg2:T11	
+T38	Observation 1465 1481	efecto protector
+A4	Assertion T38 Negated
+T40	Neg_cue 1436 1438	no
+R3	Negation Arg1:T40 Arg2:T38	
+T42	Neg_cue 1235 1237	No
+T43	CONC 1249 1260	diferencias
+A5	Assertion T43 Negated
+#29	AnnotatorNotes T43	C1705241; Delta (difference); Quantitative Concept
+R4	Negation Arg1:T42 Arg2:T43	
+T44	Neg_cue 1533 1540	tampoco
+T47	Observation 1559 1565	efecto
+A6	Assertion T47 Negated
+R5	Negation Arg1:T44 Arg2:T47	
+T48	Spec_cue 263 269	parece
+T49	CONC 270 279	disminuir
+A7	Assertion T49 Speculated
+#30	AnnotatorNotes T49	C0547047; Decrease; Quantitative Concept
+R6	Speculation Arg1:T48 Arg2:T49	
+R7	Has_Age Arg1:T18 Arg2:T19	
+R8	Experiences Arg1:T18 Arg2:T1	
+T50	Quantifier_or_Qualifier 136 148	23 serotipos
+R9	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T50	
+R10	Before Arg1:T3 Arg2:T4	
+R13	Experiences Arg1:T45 Arg2:T3	
+R14	Experiences Arg1:T45 Arg2:T2	
+R15	Experiences Arg1:T22 Arg2:T6	
+R16	Experiences Arg1:T22 Arg2:T7	
+R17	Experiences Arg1:T22 Arg2:T8	
+R18	Has_Age Arg1:T24 Arg2:T25	
+R19	Experiences Arg1:T24 Arg2:T8	
+R20	Experiences Arg1:T24 Arg2:T7	
+R21	Experiences Arg1:T24 Arg2:T6	
+T51	CONC 595 613	nivel de severidad
+#31	AnnotatorNotes T51	C0457451; Severity score; Quantitative
+T52	CONC 573 592	tasas de incidencia
+#32	AnnotatorNotes T52	C1708485; Incidence Rate; Temporal Concept
+R22	Experiences Arg1:T26 Arg2:T21	
+R24	Experiences Arg1:T26 Arg2:T8	
+R25	Experiences Arg1:T26 Arg2:T7	
+R26	Experiences Arg1:T26 Arg2:T6	
+R28	Experiences Arg1:T22 Arg2:T21	
+R29	Used_for Arg1:T6 Arg2:T7	
+R30	Used_for Arg1:T6 Arg2:T8	
+R32	Experiences Arg1:T24 Arg2:T21	
+R33	Has_Age Arg1:T46 Arg2:T29	
+R34	Has_Age Arg1:T27 Arg2:T29	
+R35	Experiences Arg1:T27 Arg2:T10	
+R36	Experiences Arg1:T27 Arg2:T11	
+R37	Overlap Arg1:T10 Arg2:T30	
+R38	Before Arg1:T11 Arg2:T32	
+R39	After Arg1:T9 Arg2:T33	
+R40	Before Arg1:T9 Arg2:T34	
+T53	CONC 959 978	tasas de incidencia
+#33	AnnotatorNotes T53	C1708485; Incidence Rate; Temporal Concept
+T54	CONC 980 998	grado de severidad
+#34	AnnotatorNotes T54	C0457451; Severity score; Quantitative
+T55	CONC 1001 1020	índice de letalidad
+#35	AnnotatorNotes T55	C0282250; Case Fatality Rate; Quantitative Concept
+R41	After Arg1:T53 Arg2:T33	
+R42	After Arg1:T54 Arg2:T33	
+R43	After Arg1:T55 Arg2:T33	
+R44	Before Arg1:T53 Arg2:T34	
+R45	Before Arg1:T54 Arg2:T34	
+R46	Before Arg1:T55 Arg2:T34	
+T56	CONC 1038 1056	tasa de incidencia
+#36	AnnotatorNotes T56	C1708485; Incidence Rate; Temporal Concept
+R47	Has_Frequency Arg1:T56 Arg2:T35	
+R48	Experiences Arg1:T36 Arg2:T12	
+R49	Has_Age Arg1:T36 Arg2:T37	
+T57	CONC 1166 1181	riesgo relativo
+#37	AnnotatorNotes T57	C0242492; Relative Risk; Quantitative Concept
+R50	Experiences Arg1:T39 Arg2:T13	
+R51	Experiences Arg1:T39 Arg2:T12	
+R52	Has_Age Arg1:T39 Arg2:T37	
+T58	CONC 1289 1308	índice de letalidad
+#38	AnnotatorNotes T58	C0282250; Case Fatality Rate; Quantitative Concept
+T59	CONC 1347 1365	grado de severidad
+#39	AnnotatorNotes T59	C0457451; Severity score; Quantitative
+R53	Experiences Arg1:T41 Arg2:T14	
+#40	AnnotatorNotes T47	C1518681; Outcome of Therapy; Finding (?)
+T60	CONC 1593 1602	severidad
+#41	AnnotatorNotes T60	C0457451; Severity score; Quantitative
+R23	Before Arg1:T38 Arg2:T15	
+R27	Before Arg1:T38 Arg2:T28	
+R31	Before Arg1:T47 Arg2:T28	
+R54	Used_for Arg1:T2 Arg2:T3	
+T61	Quantifier_or_Qualifier 1261 1275	significativas
+A8	Assertion T61 Negated
+#42	AnnotatorNotes T61	C0750502; Significant; Idea or Concept
+R55	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T61	
+R56	Negation Arg1:T42 Arg2:T61	
+R11	Experiences Arg1:T45 Arg2:T4	
+#43	AnnotatorNotes T5	C1707887; Efficacy Study; Research Activity
+#44	AnnotatorNotes T20	C0521116; Current (present time); Temporal Concept
+#45	AnnotatorNotes T38	C2712083; Actual Effective Protective Ability; Finding (?)
+A9	Experiencer T18 Patient
+A10	Experiencer T45 Patient
+A11	Experiencer T22 Patient
+A12	Experiencer T24 Patient
+A13	Experiencer T26 Patient
+A14	Experiencer T46 Patient
+A15	Experiencer T27 Patient
+A16	Experiencer T36 Patient
+A17	Experiencer T39 Patient
+A18	Experiencer T41 Patient

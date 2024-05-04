@@ -1,0 +1,106 @@
+T1	PROC 463 477	consentimiento
+#1	AnnotatorNotes T1	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T2	CHEM 59 70	sevoflurano
+#2	AnnotatorNotes T2	C0074414; sevoflurane; Organic Chemical · Pharmacologic Substance
+T3	CHEM 78 86	propofol
+#3	AnnotatorNotes T3	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T4	DISO 104 142	síndrome de distrés respiratorio agudo
+#4	AnnotatorNotes T4	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T5	DISO 158 175	infección COVID19
+T6	DISO 199 237	Síndrome de distrés respiratorio agudo
+#5	AnnotatorNotes T6	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T7	DISO 253 270	infección COVID19
+T8	PROC 334 345	Diagnóstico
+#6	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	DISO 349 387	síndrome de distrés respiratorio agudo
+#7	AnnotatorNotes T9	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T10	DISO 400 420	infección de COVID19
+T11	DISO 539 564	Hipertensión intracraneal
+#8	AnnotatorNotes T11	C0151740; Intracranial Hypertension; Finding
+T12	DISO 567 584	Hipersensibilidad
+#9	AnnotatorNotes T12	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T13	CHEM 606 614	propofol
+#10	AnnotatorNotes T13	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T14	CHEM 617 628	sevoflurano
+#11	AnnotatorNotes T14	C0074414; sevoflurane; Organic Chemical · Pharmacologic Substance
+T15	CHEM 648 659	excipientes
+#12	AnnotatorNotes T15	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T16	DISO 707 726	hipertermia maligna
+#13	AnnotatorNotes T16	C0024591; Malignant hyperpyrexia due to anesthesia; Injury or Poisoning
+T17	DISO 729 751	Insuficiencia hepática
+#14	AnnotatorNotes T17	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T18	DISO 754 765	Neutropenia
+#15	AnnotatorNotes T18	C0027947; Neutropenia; Disease or Syndrome | C0853697; Neutrophil count decreased; Finding
+T19	PROC 842 855	quimioterapia
+#16	AnnotatorNotes T19	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T20	PROC 663 680	Volumen corriente
+#17	AnnotatorNotes T20	C0430512; Tidal volume test; Diagnostic Procedure
+T21	PROC 46 54	Sedación
+#18	AnnotatorNotes T21	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T22	ANAT 552 564	intracraneal
+#19	AnnotatorNotes T22	C0524466; Intracranial; Body Location or Region
+T23	CHEM 588 604	principio activo
+#20	AnnotatorNotes T23	C1372955; Active ingredient; Chemical Viewed Functionally
+T24	PROC 433 447	consentimiento
+#21	AnnotatorNotes T24	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T25	ANAT 743 751	hepática
+#22	AnnotatorNotes T25	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T26	Date 13 17	2020
+T27	LIVB 90 99	pacientes
+#23	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	Age 304 330	igual o superior a 18 años
+T29	LIVB 452 460	paciente
+#24	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 491 510	representante legal
+#25	AnnotatorNotes T30	C4288823; Legal Representative for the Study; Human
+T32	LIVB 779 824	Mujeres embarazadas o en periodo de lactancia
+#26	AnnotatorNotes T32	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T33	Date 859 872	el último mes
+T34	PHYS 124 136	respiratorio
+#27	AnnotatorNotes T34	C0035203; Respiration; Physiologic Function
+T35	PHYS 219 231	respiratorio
+#28	AnnotatorNotes T35	C0035203; Respiration; Physiologic Function
+T36	PHYS 369 381	respiratorio
+#29	AnnotatorNotes T36	C0035203; Respiration; Physiologic Function
+T31	PHYS 787 798	embarazadas
+#30	AnnotatorNotes T31	C0032961; Pregnancy; Organism Function
+T37	PHYS 815 824	lactancia
+#31	AnnotatorNotes T37	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Status T12 History_of
+A2	Status T16 History_of
+A3	Status T19 History_of
+#32	AnnotatorNotes T5	C5203670; COVID19 (disease); Disease or Syndrome
+#33	AnnotatorNotes T7	C5203670; COVID19 (disease); Disease or Syndrome
+#34	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+R1	Used_for Arg1:T2 Arg2:T21	
+R2	Used_for Arg1:T3 Arg2:T21	
+R3	Experiences Arg1:T27 Arg2:T21	
+R4	Experiences Arg1:T27 Arg2:T4	
+R5	Experiences Arg1:T27 Arg2:T34	
+R7	Causes Arg1:T5 Arg2:T4	
+R8	Experiences Arg1:T27 Arg2:T5	
+R9	Causes Arg1:T7 Arg2:T6	
+R12	Causes Arg1:T10 Arg2:T9	
+T41	Quantifier_or_Qualifier 478 484	verbal
+#35	AnnotatorNotes T41	C0439824; Verbal; Qualitative Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T41	
+R14	Location_of Arg1:T22 Arg2:T11	
+R15	Causes Arg1:T23 Arg2:T12	
+R16	Causes Arg1:T13 Arg2:T12	
+R17	Causes Arg1:T14 Arg2:T12	
+R18	Causes Arg1:T15 Arg2:T12	
+T42	Result_or_Value 681 688	< 250ml
+R19	Has_Result_or_Value Arg1:T20 Arg2:T42	
+R20	Location_of Arg1:T25 Arg2:T17	
+T43	Result_or_Value 767 775	<0.5x109
+R21	Has_Result_or_Value Arg1:T18 Arg2:T43	
+R22	Experiences Arg1:T32 Arg2:T37	
+R23	Experiences Arg1:T32 Arg2:T31	
+R24	Overlap Arg1:T19 Arg2:T33	
+T44	CONC 882 891	inclusión
+#36	AnnotatorNotes T44	C1512693; Inclusion; Qualitative Concept
+R25	Before Arg1:T44 Arg2:T19	
+A4	Experiencer T27 Patient
+A5	Experiencer T29 Patient
+A6	Experiencer T30 Other
+A7	Experiencer T32 Patient

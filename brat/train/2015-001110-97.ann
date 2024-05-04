@@ -1,0 +1,113 @@
+T1	CHEM 46 61	DEXMEDETOMIDINA
+#1	AnnotatorNotes T1	C0113293; dexmedetomidine; Organic Chemical · Pharmacologic Substance
+T2	CHEM 69 77	PROPOFOL
+#2	AnnotatorNotes T2	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T3	PROC 95 111	ECOBRONCOSCOPIAS
+#3	AnnotatorNotes T3	C3160856; Endobronchial ultrasound; Diagnostic Procedure
+T4	DISO 147 163	cáncer de pulmón
+#4	AnnotatorNotes T4	C0242379; Malignant neoplasm of lung; Neoplastic Process | C0684249; Carcinoma of lung; Neoplastic Process
+T5	DISO 216 232	cáncer de pulmón
+#5	AnnotatorNotes T5	C0242379; Malignant neoplasm of lung; Neoplastic Process | C0684249; Carcinoma of lung; Neoplastic Process
+T6	PROC 269 277	sedación
+#6	AnnotatorNotes T6	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T7	DISO 470 486	cáncer de pulmón
+#7	AnnotatorNotes T7	C0242379; Malignant neoplasm of lung; Neoplastic Process | C0684249; Carcinoma of lung; Neoplastic Process
+T8	ANAT 480 486	pulmón
+#8	AnnotatorNotes T8	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T9	PROC 512 536	consentimiento informado
+#9	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	DISO 648 655	Alergia
+#10	AnnotatorNotes T10	C1527304; Allergic Reaction; Pathologic Function
+T11	DISO 658 675	hipersensibilidad
+#11	AnnotatorNotes T11	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T12	CHEM 714 725	excipientes
+#12	AnnotatorNotes T12	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T13	DISO 736 747	Hipotensión
+#13	AnnotatorNotes T13	C0020649; Hypotension; Finding
+T14	DISO 762 789	Bloqueo auriculoventricular
+#14	AnnotatorNotes T14	C0004245; Atrioventricular Block; Disease or Syndrome
+T15	DISO 829 855	Enfermedad cerebrovascular
+#15	AnnotatorNotes T15	C0007820; Cerebrovascular Disorders; Disease or Syndrome
+T16	PROC 83 91	SEDACIÓN
+#16	AnnotatorNotes T16	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T17	ANAT 157 163	pulmón
+#17	AnnotatorNotes T17	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T18	ANAT 226 232	pulmón
+#18	AnnotatorNotes T18	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T19	PROC 249 264	ecobroncoscopia
+#19	AnnotatorNotes T19	C3160856; Endobronchial ultrasound; Diagnostic Procedure
+T20	PROC 441 445	EBUS
+#20	AnnotatorNotes T20	C3160856; Endobronchial ultrasound; Diagnostic Procedure
+T21	ANAT 770 789	auriculoventricular
+#21	AnnotatorNotes T21	C0225924; Atrioventricular valve; Body Part, Organ, or Organ Component
+T22	CHEM 679 695	principio activo
+#22	AnnotatorNotes T22	C1372955; Active ingredient; Chemical Viewed Functionally
+T23	Date 13 17	2015
+T24	Spec_cue 135 146	Sospecha de
+T25	LIVB 190 199	Pacientes
+#23	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Spec_cue 204 215	sospecha de
+T27	LIVB 304 328	Pacientes de ambos sexos
+#24	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T28	Age 329 347	mayores de 18 años
+T29	Date 383 396	preoperatoria
+#25	AnnotatorNotes T29	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T30	LIVB 399 408	Pacientes
+#26	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Spec_cue 450 458	sospecha
+T32	LIVB 488 497	Pacientes
+#27	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T34	Neg_cue 805 816	ausencia de
+T33	DEVI 817 828	marcapassos
+#28	AnnotatorNotes T33	C0810633; Pacemakers; Medical Device
+T35	PROC 376 382	visita
+#29	AnnotatorNotes T35	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T4 Speculated
+A2	Assertion T5 Speculated
+A3	Assertion T7 Speculated
+A4	Assertion T33 Negated
+A5	Status T10 History_of
+A6	Status T11 History_of
+T36	Quantifier_or_Qualifier 751 761	controlada
+A7	Assertion T36 Negated
+T37	Neg_cue 748 750	no
+R1	Has_Age Arg1:T27 Arg2:T28	
+R2	Overlap Arg1:T35 Arg2:T29	
+R3	Overlap Arg1:T35 Arg2:T28	
+R4	Used_for Arg1:T2 Arg2:T16	
+R5	Used_for Arg1:T1 Arg2:T16	
+R6	Before Arg1:T16 Arg2:T3	
+R7	Speculation Arg1:T24 Arg2:T4	
+R8	Location_of Arg1:T17 Arg2:T4	
+R9	Experiences Arg1:T25 Arg2:T5	
+R10	Location_of Arg1:T18 Arg2:T5	
+R11	Speculation Arg1:T26 Arg2:T5	
+R12	Before Arg1:T6 Arg2:T19	
+R13	Experiences Arg1:T25 Arg2:T6	
+R14	Experiences Arg1:T25 Arg2:T19	
+R15	Experiences Arg1:T30 Arg2:T20	
+R16	Speculation Arg1:T31 Arg2:T7	
+R17	Location_of Arg1:T8 Arg2:T7	
+R18	Experiences Arg1:T30 Arg2:T7	
+R19	Causes Arg1:T22 Arg2:T10	
+R20	Causes Arg1:T22 Arg2:T11	
+R21	Causes Arg1:T12 Arg2:T11	
+R22	Causes Arg1:T12 Arg2:T10	
+R23	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T36	
+R24	Negation Arg1:T37 Arg2:T36	
+R25	Location_of Arg1:T21 Arg2:T14	
+T38	Quantifier_or_Qualifier 790 801	grado 2 o 3
+R26	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T38	
+R27	Negation Arg1:T34 Arg2:T33	
+T39	Quantifier_or_Qualifier 856 861	grave
+#30	AnnotatorNotes T39	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R28	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T39	
+#31	AnnotatorNotes T38	C0443298; Second degree; Qualitative Concept | C0443323; Third degree; Qualitative Concept
+T40	Observation 560 570	informados
+#32	AnnotatorNotes T40	C0587903; Patient information status; Finding (?)
+R29	Before Arg1:T40 Arg2:T9	
+R30	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T40	
+A8	Experiencer T25 Patient
+A9	Experiencer T27 Patient
+A10	Experiencer T30 Patient
+A11	Experiencer T32 Patient

@@ -1,0 +1,308 @@
+T1	PROC 46 60	Estudio piloto
+#1	AnnotatorNotes T1	C0031928; Pilot Projects; Research Activity
+T2	PROC 66 89	evaluar la intervención
+T3	PROC 100 116	ejercicio físico
+#2	AnnotatorNotes T3	C0452240; Physical therapy exercises; Therapeutic or Preventive Procedure
+T4	ANAT 145 149	mama
+#3	AnnotatorNotes T4	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T5	PROC 179 203	tratamiento neoadyuvante
+#4	AnnotatorNotes T5	C0600558; Neoadjuvant Therapy; Therapeutic or Preventive Procedure
+T6	CHEM 208 222	nab-paclitaxel
+#5	AnnotatorNotes T6	C1527223; 130-nm albumin-bound paclitaxel; Organic Chemical · Pharmacologic Substance
+T7	PROC 247 263	Ejercicio físico
+T8	PROC 287 328	tratamiento de quimioterapia neoadyuvante
+T9	DISO 348 378	cáncer de mama triple negativo
+#6	AnnotatorNotes T9	C3539878; Triple Negative Breast Neoplasms; Neoplastic Process
+T10	DISO 500 505	tumor
+#7	AnnotatorNotes T10	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T11	PROC 659 685	quimioterapia neoadjuvante
+T12	DISO 801 810	fumadores
+#8	AnnotatorNotes T12	C0337664; Smoker; Finding
+T13	PROC 832 843	diagnóstico
+#9	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 811 820	bebedores
+#10	AnnotatorNotes T14	C4273278; alcohol use behavior; Finding | C5428797; finding of alcohol drinking behavior; Finding
+T15	PROC 897 908	diagnóstico
+#11	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	PROC 927 941	diagnosticados
+#12	AnnotatorNotes T16	C0011900; Diagnosis; Diagnostic Procedure
+T17	DISO 947 962	hipertiroidismo
+#13	AnnotatorNotes T17	C0020550; Hyperthyroidism; Disease or Syndrome
+T18	DISO 965 979	hipotiroidismo
+#14	AnnotatorNotes T18	C0020676; Hypothyroidism; Disease or Syndrome
+T19	DISO 988 998	diabéticos
+#15	AnnotatorNotes T19	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T20	PROC 1018 1032	ecocardiograma
+#16	AnnotatorNotes T20	C0013516; Echocardiography; Diagnostic Procedure
+T21	ANAT 1057 1065	corporal
+#17	AnnotatorNotes T21	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T22	PROC 1102 1114	tratamientos
+#18	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	PROC 1156 1165	protocolo
+#19	AnnotatorNotes T23	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T24	ANAT 358 362	mama
+#20	AnnotatorNotes T24	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T25	PROC 863 873	colesterol
+#21	AnnotatorNotes T25	C0201950; Cholesterol measurement test; Laboratory Procedure
+T26	PROC 1045 1065	Índice masa corporal
+T27	DISO 422 426	TNBC
+T28	DISO 135 166	cancer de mama triple negativas
+T29	PROC 564 592	programa de ejercicio físico
+#22	AnnotatorNotes T29	C0452240; Physical therapy exercises; Therapeutic or Preventive Procedure
+T30	PROC 597 609	se randomiza
+T31	Date 13 17	2016
+T32	LIVB 121 130	pacientes
+#23	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 334 343	pacientes
+#24	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 410 417	Mujeres
+#25	AnnotatorNotes T36	C0043210; Woman; Population Group
+T37	LIVB 454 461	Mujeres
+#26	AnnotatorNotes T37	C0043210; Woman; Population Group
+T38	Age 462 471	> 18 años
+T39	LIVB 476 485	Pacientes
+#27	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 526 535	Pacientes
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T42	Date 628 643	la misma semana
+T43	LIVB 691 700	Pacientes
+#29	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Duration 713 725	< 60 minutos
+T45	Frequency 726 737	a la semana
+T46	LIVB 771 780	Pacientes
+#30	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Neg_cue 798 800	no
+T48	LIVB 849 858	Pacientes
+#31	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 914 923	Pacientes
+#32	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Neg_cue 924 926	no
+T51	Neg_cue 985 987	No
+T52	LIVB 1004 1013	Pacientes
+#33	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	Neg_cue 1092 1094	no
+T33	LIVB 1196 1205	Pacientes
+#34	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 1323 1332	Pacientes
+#35	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1386 1395	Pacientes
+#36	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T54	LIVB 1428 1437	Pacientes
+#37	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 1547 1556	Pacientes
+#38	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 1628 1637	Pacientes
+#39	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1663 1672	Pacientes
+#40	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 1714 1723	Pacientes
+#41	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1741 1750	Pacientes
+#42	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1781 1790	Pacientes
+#43	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	PROC 1801 1813	tratamientos
+#44	AnnotatorNotes T61	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T62	DISO 1230 1248	enfermedad crónica
+#45	AnnotatorNotes T62	C0008679; Chronic disease; Disease or Syndrome
+T63	Duration 1241 1248	crónica
+#46	AnnotatorNotes T63	C0205191; chronic; Temporal Concept
+T64	ANAT 1308 1316	tiroidea
+#47	AnnotatorNotes T64	C0040132; Thyroid Gland; Body Part, Organ, or Organ Component | C1278878; Entire thyroid gland; Body Part, Organ, or Organ Component
+T65	ANAT 1268 1276	arterial
+#48	AnnotatorNotes T65	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T66	Duration 1362 1380	los último 6 meses
+T67	DISO 1297 1316	enfermedad tiroidea
+#49	AnnotatorNotes T67	C0040128; Thyroid Diseases; Disease or Syndrome
+T68	PHYS 1260 1276	presión arterial
+#50	AnnotatorNotes T68	C0005823; Blood Pressure; Organism Function
+T69	DISO 1260 1281	presión arterial alta
+#51	AnnotatorNotes T69	C0020538; Hypertensive disease; Disease or Syndrome
+T70	DISO 1250 1258	Diabetes
+#52	AnnotatorNotes T70	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T71	DISO 1337 1352	pérdida de peso
+#53	AnnotatorNotes T71	C1262477; Weight decreased; Finding
+T72	PROC 1525 1541	ejercicio físico
+#54	AnnotatorNotes T72	C0452240; Physical therapy exercises; Therapeutic or Preventive Procedure
+T73	PROC 1612 1623	diagnóstico
+#55	AnnotatorNotes T73	C0011900; Diagnosis; Diagnostic Procedure
+T74	PROC 1642 1652	colesterol
+#56	AnnotatorNotes T74	C0201950; Cholesterol measurement test; Laboratory Procedure
+T75	DISO 1728 1736	diabetes
+#57	AnnotatorNotes T75	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T76	PROC 1755 1769	ecocardiograma
+#58	AnnotatorNotes T76	C0013516; Echocardiography; Diagnostic Procedure
+T77	PROC 1843 1852	protocolo
+#59	AnnotatorNotes T77	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T78	DISO 1677 1692	hipertiroidismo
+#60	AnnotatorNotes T78	C0020550; Hyperthyroidism; Disease or Syndrome
+T79	DISO 1695 1709	hipotiroidismo
+#61	AnnotatorNotes T79	C0020676; Hypothyroidism; Disease or Syndrome
+T80	DISO 1442 1493	problemas cardiovasculares, pulmonares o biomotores
+#62	AnnotatorNotes T80	C0850760; cardiovascular problem; Sign or Symptom | C0740941; Lung Problem; Finding | C5441816; Psychomotor Impairment; Finding (?)
+T81	DISO 1400 1422	enfermedad metastásica
+#63	AnnotatorNotes T81	C2939420; Metastatic Neoplasm; Neoplastic Process
+T82	ANAT 1452 1468	cardiovasculares
+#64	AnnotatorNotes T82	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T83	ANAT 1470 1480	pulmonares
+#65	AnnotatorNotes T83	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T84	DISO 1574 1583	fumadores
+#66	AnnotatorNotes T84	C0337664; Smoker; Finding
+T85	DISO 1584 1593	bebedores
+#67	AnnotatorNotes T85	C4273278; alcohol use behavior; Finding | C5428797; finding of alcohol drinking behavior; Finding
+A2	Assertion T12 Negated
+A3	Assertion T14 Negated
+A4	Assertion T16 Negated
+A5	Assertion T17 Negated
+A6	Assertion T18 Negated
+A7	Assertion T19 Negated
+A8	Assertion T22 Negated
+A1	Status T62 History_of
+A9	Assertion T72 Contraindicated
+A10	Status T67 History_of
+A11	Status T69 History_of
+A12	Status T70 History_of
+#68	AnnotatorNotes T28	C3539878; Triple Negative Breast Neoplasms; Neoplastic Process
+#69	AnnotatorNotes T8	C5392214; Neoadjuvant Chemotherapy; Therapeutic or Preventive Procedure
+#70	AnnotatorNotes T27	C3539878; Triple Negative Breast Neoplasms; Neoplastic Process
+#71	AnnotatorNotes T30	C0034656; Randomization; Research Activity
+#72	AnnotatorNotes T11	C5392214; Neoadjuvant Chemotherapy; Therapeutic or Preventive Procedure
+#73	AnnotatorNotes T26	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+#74	AnnotatorNotes T2	C3274035; Interventional Study; Research Activity
+T86	Neg_cue 1282 1284	no
+T87	Quantifier_or_Qualifier 1285 1295	controlada
+A13	Assertion T87 Negated
+T88	Spec_cue 1131 1137	puedan
+T89	CONC 1138 1148	interferir
+A14	Assertion T89 Speculated
+#75	AnnotatorNotes T89	C0521102; Interferes with; Functional Concept
+T90	CONC 1825 1835	interferir
+A15	Assertion T90 Speculated
+#76	AnnotatorNotes T90	C0521102; Interferes with; Functional Concept
+T91	Spec_cue 1818 1824	puedan
+R1	Negation Arg1:T47 Arg2:T12	
+R2	Negation Arg1:T47 Arg2:T14	
+R3	Negation Arg1:T50 Arg2:T16	
+R4	Negation Arg1:T50 Arg2:T17	
+R5	Negation Arg1:T50 Arg2:T18	
+R6	Negation Arg1:T51 Arg2:T19	
+R7	Negation Arg1:T53 Arg2:T22	
+R8	Speculation Arg1:T88 Arg2:T89	
+R10	Negation Arg1:T86 Arg2:T87	
+R11	Has_Quantifier_or_Qualifier Arg1:T69 Arg2:T87	
+R12	Speculation Arg1:T91 Arg2:T90	
+R14	Experiences Arg1:T32 Arg2:T3	
+R15	Experiences Arg1:T32 Arg2:T28	
+R16	Location_of Arg1:T4 Arg2:T28	
+R17	Overlap Arg1:T3 Arg2:T5	
+R18	Used_for Arg1:T6 Arg2:T5	
+R19	Experiences Arg1:T32 Arg2:T5	
+#77	AnnotatorNotes T7	C0452240; Physical therapy exercises; Therapeutic or Preventive Procedure
+R20	Experiences Arg1:T34 Arg2:T7	
+R21	Experiences Arg1:T34 Arg2:T8	
+R22	Overlap Arg1:T7 Arg2:T8	
+T92	Quantifier_or_Qualifier 264 275	supervisado
+R23	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T92	
+R24	Experiences Arg1:T34 Arg2:T9	
+R25	Location_of Arg1:T24 Arg2:T9	
+T93	Quantifier_or_Qualifier 427 449	estadío II a III (A,B)
+R26	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T93	
+R27	Experiences Arg1:T36 Arg2:T27	
+R28	Has_Age Arg1:T37 Arg2:T38	
+R29	Experiences Arg1:T39 Arg2:T10	
+T94	Result_or_Value 506 511	> 2cm
+R30	Has_Result_or_Value Arg1:T10 Arg2:T94	
+T95	Observation 513 515	N0
+#78	AnnotatorNotes T95	C0441959; Node stage N0; Finding
+R31	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T95	
+T96	Observation 517 521	N1-2
+#79	AnnotatorNotes T96	C0441962; Node stage N1; Finding | C0441960; N2 category (finding)
+R32	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T96	
+R33	Experiences Arg1:T40 Arg2:T29	
+T97	Observation 540 549	capacidad
+#80	AnnotatorNotes T97	C1299581; Able (finding); Finding (?)
+R34	Before Arg1:T30 Arg2:T29	
+R35	Overlap Arg1:T29 Arg2:T42	
+R36	Overlap Arg1:T11 Arg2:T42	
+R37	Overlap Arg1:T29 Arg2:T11	
+R38	Experiences Arg1:T40 Arg2:T11	
+T98	Observation 740 765	realizar actividad física
+#81	AnnotatorNotes T98	C4718384; Participates in physical activity; Finding
+R39	Has_Duration_or_Interval Arg1:T98 Arg2:T44	
+R40	Has_Frequency Arg1:T98 Arg2:T45	
+R41	Experiences Arg1:T46 Arg2:T12	
+R42	Experiences Arg1:T46 Arg2:T14	
+R43	Overlap Arg1:T14 Arg2:T13	
+R44	Overlap Arg1:T12 Arg2:T13	
+T99	Result_or_Value 874 878	<200
+R45	Has_Result_or_Value Arg1:T25 Arg2:T99	
+R46	Overlap Arg1:T25 Arg2:T15	
+R47	Experiences Arg1:T48 Arg2:T25	
+R48	Experiences Arg1:T52 Arg2:T20	
+T100	Result_or_Value 1033 1038	> 50%
+R49	Has_Result_or_Value Arg1:T20 Arg2:T100	
+R50	Location_of Arg1:T21 Arg2:T26	
+T101	Result_or_Value 1066 1081	entre 18,5 y 25
+R51	Has_Result_or_Value Arg1:T26 Arg2:T101	
+T102	Quantifier_or_Qualifier 1115 1126	adicionales
+A16	Assertion T102 Negated
+#82	AnnotatorNotes T102	C1524062; Additional; Functional Concept
+R52	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T102	
+R53	Negation Arg1:T53 Arg2:T102	
+R54	Experiences Arg1:T33 Arg2:T62	
+R55	Has_Duration_or_Interval Arg1:T62 Arg2:T63	
+R56	Experiences Arg1:T33 Arg2:T70	
+R57	Experiences Arg1:T33 Arg2:T69	
+R58	Experiences Arg1:T33 Arg2:T68	
+R60	Location_of Arg1:T65 Arg2:T68	
+R61	Location_of Arg1:T65 Arg2:T69	
+R62	Location_of Arg1:T64 Arg2:T67	
+R63	Experiences Arg1:T33 Arg2:T67	
+R64	Experiences Arg1:T35 Arg2:T71	
+R65	Overlap Arg1:T71 Arg2:T66	
+T103	Result_or_Value 1353 1358	> 10%
+R66	Has_Result_or_Value Arg1:T71 Arg2:T103	
+R67	Experiences Arg1:T41 Arg2:T81	
+R68	Experiences Arg1:T54 Arg2:T80	
+R69	Location_of Arg1:T82 Arg2:T80	
+R70	Location_of Arg1:T83 Arg2:T80	
+R72	Experiences Arg1:T55 Arg2:T84	
+R73	Experiences Arg1:T55 Arg2:T85	
+R74	Overlap Arg1:T84 Arg2:T73	
+R75	Overlap Arg1:T85 Arg2:T73	
+R76	Experiences Arg1:T56 Arg2:T74	
+T104	Result_or_Value 1653 1657	>200
+R77	Has_Result_or_Value Arg1:T74 Arg2:T104	
+R78	Experiences Arg1:T57 Arg2:T78	
+R79	Experiences Arg1:T57 Arg2:T79	
+R80	Experiences Arg1:T58 Arg2:T75	
+R81	Experiences Arg1:T59 Arg2:T76	
+T105	Result_or_Value 1770 1775	< 50%
+R82	Has_Result_or_Value Arg1:T76 Arg2:T105	
+R83	Experiences Arg1:T60 Arg2:T61	
+T106	Quantifier_or_Qualifier 1795 1800	otros
+#83	AnnotatorNotes T106	C0205394; Other; Qualitative Concept
+R84	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T106	
+R85	Overlap Arg1:T97 Arg2:T29	
+A17	Assertion T30 Hypothetical
+A18	Experiencer T32 Patient
+A19	Experiencer T34 Patient
+A20	Experiencer T36 Patient
+A21	Experiencer T37 Patient
+A22	Experiencer T39 Patient
+A23	Experiencer T40 Patient
+A24	Experiencer T43 Patient
+A25	Experiencer T46 Patient
+A26	Experiencer T48 Patient
+A27	Experiencer T49 Patient
+A28	Experiencer T52 Patient
+A29	Experiencer T33 Patient
+A30	Experiencer T35 Patient
+A31	Experiencer T41 Patient
+A32	Experiencer T54 Patient
+A33	Experiencer T55 Patient
+A34	Experiencer T56 Patient
+A35	Experiencer T57 Patient
+A36	Experiencer T58 Patient
+A37	Experiencer T59 Patient
+A38	Experiencer T60 Patient

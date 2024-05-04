@@ -1,0 +1,93 @@
+T1	PROC 71 81	Evaluación
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	ANAT 105 121	cardiovasculares
+#2	AnnotatorNotes T2	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T3	DISO 130 154	síndrome coronario agudo
+#3	AnnotatorNotes T3	C0948089; Acute Coronary Syndrome; Disease or Syndrome
+T4	PROC 166 177	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	PROC 215 294	Ensayo aleatorizado, doble ciego, controlado con placebo y con grupos paralelos
+T6	DISO 374 406	acontecimientos cardiovasculares
+T7	CHEM 321 331	Alirocumab
+#5	AnnotatorNotes T7	C3491162; alirocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	ANAT 390 406	cardiovasculares
+#6	AnnotatorNotes T8	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T9	CHEM 343 350	REGN727
+#7	AnnotatorNotes T9	C3491162; alirocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	DISO 459 483	síndrome coronario agudo
+#8	AnnotatorNotes T10	C0948089; Acute Coronary Syndrome; Disease or Syndrome
+T11	DISO 507 531	Síndrome coronario agudo
+#9	AnnotatorNotes T11	C0948089; Acute Coronary Syndrome; Disease or Syndrome
+T12	PROC 594 608	hospitalizados
+#10	AnnotatorNotes T12	C0019993; Hospitalization; Health Care Activity
+T13	CHEM 333 342	SAR236553
+#11	AnnotatorNotes T13	C3491163; SAR236553; Amino Acid, Peptide, or Protein · Immunologic Factor
+T14	DISO 613 637	síndrome coronario agudo
+#12	AnnotatorNotes T14	C0948089; Acute Coronary Syndrome; Disease or Syndrome
+T15	DISO 748 751	SCA
+T16	PROC 793 817	visita de aleatorización
+#13	AnnotatorNotes T16	C1512346; Patient Visit; Health Care Activity + C0034656; Randomization; Research Activity
+T17	DISO 913 925	dislipidemia
+#14	AnnotatorNotes T17	C0242339; Dyslipidemias; Disease or Syndrome
+T18	ANAT 139 148	coronario
+#15	AnnotatorNotes T18	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T19	CHEM 182 192	Alirocumab
+#16	AnnotatorNotes T19	C3491162; alirocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T20	ANAT 468 477	coronario
+#17	AnnotatorNotes T20	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T21	ANAT 516 525	coronario
+#18	AnnotatorNotes T21	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T22	ANAT 622 631	coronario
+#19	AnnotatorNotes T22	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T23	PROC 826 831	LDL-C
+T24	DISO 89 121	acontecimientos cardiovasculares
+T25	Date 13 17	2011
+T26	LIVB 410 419	pacientes
+#20	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	Date 442 455	recientemente
+T28	Date 558 571	Recientemente
+T29	Duration 573 592	menos de 52 semanas
+T30	Age 672 690	inferior a 40 años
+T31	LIVB 693 702	Pacientes
+#21	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Duration 752 780	más de 52 semanas (+ 3 días)
+A1	Status T15 History_of
+#22	AnnotatorNotes T5	C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C2826345; Parallel Study; Research Activity 
+#23	AnnotatorNotes T24	C1320716; Cardiovascular event; Finding 
+#24	AnnotatorNotes T6	C1320716; Cardiovascular event; Finding 
+#25	AnnotatorNotes T15	C0948089; Acute Coronary Syndrome; Disease or Syndrome
+#26	AnnotatorNotes T23	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+#27	AnnotatorNotes T27	C0332185; Recent; Temporal Concept
+#28	AnnotatorNotes T28	C0332185; Recent; Temporal Concept
+R1	Location_of Arg1:T2 Arg2:T24	
+R2	Location_of Arg1:T18 Arg2:T3	
+R3	After Arg1:T24 Arg2:T3	
+R4	Used_for Arg1:T19 Arg2:T4	
+R5	Overlap Arg1:T24 Arg2:T4	
+T33	Observation 311 317	efecto
+#29	AnnotatorNotes T33	C1518681; Outcome of Therapy; Finding (?)
+R6	Causes Arg1:T7 Arg2:T33	
+R7	Causes Arg1:T13 Arg2:T33	
+R8	Causes Arg1:T9 Arg2:T33	
+R9	Location_of Arg1:T8 Arg2:T6	
+R10	Experiences Arg1:T26 Arg2:T33	
+R11	Before Arg1:T10 Arg2:T6	
+R12	Experiences Arg1:T26 Arg2:T10	
+R13	Overlap Arg1:T10 Arg2:T27	
+R14	Location_of Arg1:T20 Arg2:T10	
+R15	Experiences Arg1:T26 Arg2:T6	
+R16	Location_of Arg1:T21 Arg2:T11	
+R17	Overlap Arg1:T12 Arg2:T28	
+R18	Has_Duration_or_Interval Arg1:T12 Arg2:T29	
+R19	Overlap Arg1:T14 Arg2:T28	
+R20	Location_of Arg1:T22 Arg2:T14	
+R21	Experiences Arg1:T31 Arg2:T15	
+R22	Overlap Arg1:T15 Arg2:T32	
+R23	Before Arg1:T15 Arg2:T16	
+T34	Result_or_Value 832 842	< 70 mg/dl
+R24	Has_Result_or_Value Arg1:T23 Arg2:T34	
+T35	Result_or_Value 844 857	< 1,81 mmol/l
+R25	Has_Result_or_Value Arg1:T23 Arg2:T35	
+R26	Overlap Arg1:T23 Arg2:T17	
+A2	Experiencer T26 Patient
+A3	Experiencer T31 Patient

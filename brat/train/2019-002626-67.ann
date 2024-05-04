@@ -1,0 +1,103 @@
+T1	PROC 46 83	EVALUACIÓN DE LA EFICACIA Y SEGURIDAD
+T2	CHEM 105 115	BORTEZOMIB
+#1	AnnotatorNotes T2	C1176309; bortezomib; Organic Chemical · Pharmacologic Substance
+T3	CHEM 117 129	LENALIDOMIDA
+#2	AnnotatorNotes T3	C1144149; lenalidomide; Organic Chemical · Pharmacologic Substance
+T4	CHEM 132 144	DEXAMETASONA
+#3	AnnotatorNotes T4	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T5	DISO 162 178	MIELOMA MÚLTIPLE
+#4	AnnotatorNotes T5	C0026764; Multiple Myeloma; Neoplastic Process
+T6	PROC 188 199	DIAGNÓSTICO
+#5	AnnotatorNotes T6	C0011900; Diagnosis; Diagnostic Procedure
+T7	DISO 223 239	mieloma múltiple
+#6	AnnotatorNotes T7	C0026764; Multiple Myeloma; Neoplastic Process
+T8	DISO 302 318	Mieloma múltiple
+#7	AnnotatorNotes T8	C0026764; Multiple Myeloma; Neoplastic Process
+T9	PROC 357 368	tratamiento
+#8	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	CHEM 426 445	fármacos en estudio
+#9	AnnotatorNotes T10	C0013230; Investigational New Drugs; Pharmacologic Substance
+T11	PROC 322 329	tratado
+#10	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	PROC 502 513	tratamiento
+#11	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	DISO 522 538	mieloma múltiple
+#12	AnnotatorNotes T13	C0026764; Multiple Myeloma; Neoplastic Process
+T14	CHEM 570 580	esteroides
+#13	AnnotatorNotes T14	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T15	CHEM 582 595	bisfosfonatos
+#14	AnnotatorNotes T15	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
+T16	PROC 598 610	radioterapia
+#15	AnnotatorNotes T16	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T17	DISO 649 666	Hipersensibilidad
+#16	AnnotatorNotes T17	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T18	CHEM 679 689	bortezomib
+#17	AnnotatorNotes T18	C1176309; bortezomib; Organic Chemical · Pharmacologic Substance
+T19	CHEM 691 703	ácido bórico
+#18	AnnotatorNotes T19	C0006020; boric acid; Inorganic Chemical · Pharmacologic Substance
+T20	CHEM 705 712	manitol
+#19	AnnotatorNotes T20	C0024730; mannitol; Organic Chemical · Pharmacologic Substance
+T21	CHEM 715 727	lenalidomida
+#20	AnnotatorNotes T21	C1144149; lenalidomide; Organic Chemical · Pharmacologic Substance
+T22	DISO 731 754	Complicación infecciosa
+T23	DISO 757 786	problema de salud concurrente
+T24	PROC 820 831	tratamiento
+#21	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	DISO 844 851	mieloma
+#22	AnnotatorNotes T25	C0026764; Multiple Myeloma; Neoplastic Process
+T26	DISO 630 644	complicaciones
+#23	AnnotatorNotes T26	C0009566; Complication; Pathologic Function
+T27	PROC 275 299	consentimiento informado
+#24	AnnotatorNotes T27	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T28	Date 13 17	2019
+T29	LIVB 148 157	PACIENTES
+#25	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Neg_cue 319 321	no
+T33	Neg_cue 540 559	con la excepción de
+T34	Route 560 566	pulsos
+#26	AnnotatorNotes T34	C0391850; Physiologic pulse; Physiologic Function
+T36	Neg_cue 805 811	impida
+A1	Assertion T11 Negated
+A2	Assertion T14 Negated
+A3	Assertion T15 Negated
+A4	Assertion T16 Negated
+A5	Assertion T24 Negated
+A6	Status T11 History_of
+A7	Status T12 History_of
+A8	Status T17 History_of
+#27	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T31	Neg_cue 382 385	Sin
+T32	CONC 386 402	contraindicación
+A9	Assertion T32 Negated
+#28	AnnotatorNotes T32	C0522473; Contraindication; Qualitative Concept
+A10	Assertion T34 Negated
+R1	Negation Arg1:T30 Arg2:T11	
+R2	Combined_with Arg1:T2 Arg2:T3	
+R3	Combined_with Arg1:T3 Arg2:T4	
+R4	Experiences Arg1:T29 Arg2:T2	
+R5	Experiences Arg1:T29 Arg2:T5	
+T35	Quantifier_or_Qualifier 182 199	NUEVO DIAGNÓSTICO
+#29	AnnotatorNotes T35	C1518321; Newly Diagnosed; Qualitative Concept
+T37	CONC 344 353;375 379	Criterios IMWG
+#30	AnnotatorNotes T37	C5204711; International Myeloma Working Group Standard Response Criteria; Intellectual Product (?)
+R7	Negation Arg1:T31 Arg2:T32	
+R8	Negation Arg1:T33 Arg2:T34	
+R9	Has_Route_or_Mode Arg1:T14 Arg2:T34	
+R10	Has_Route_or_Mode Arg1:T15 Arg2:T34	
+R11	Negation Arg1:T33 Arg2:T14	
+R12	Negation Arg1:T33 Arg2:T15	
+R13	Negation Arg1:T33 Arg2:T16	
+R14	Overlap Arg1:T13 Arg2:T26	
+R15	Causes Arg1:T18 Arg2:T17	
+R16	Causes Arg1:T19 Arg2:T17	
+R17	Causes Arg1:T20 Arg2:T17	
+R18	Causes Arg1:T21 Arg2:T17	
+T38	Neg_cue 787 789	no
+T39	Quantifier_or_Qualifier 790 800	controlado
+A11	Assertion T39 Negated
+R19	Negation Arg1:T38 Arg2:T39	
+R20	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T39	
+R23	Negation Arg1:T36 Arg2:T24	
+R6	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T35	
+#31	AnnotatorNotes T22	C0940933; infection as a complication; Disease or Syndrome
+A12	Experiencer T29 Patient

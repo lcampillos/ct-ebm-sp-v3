@@ -1,0 +1,140 @@
+T1	CHEM 14 60	factor estimulador de colonias de granulocitos
+#1	AnnotatorNotes T1	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T2	ANAT 48 60	granulocitos
+#2	AnnotatorNotes T2	C0018183; granulocyte; Cell
+T3	DISO 85 103	neutropenia febril
+#3	AnnotatorNotes T3	C0746883; Febrile Neutropenia; Disease or Syndrome
+T4	DISO 132 138	cáncer
+#4	AnnotatorNotes T4	C0006826; Malignant Neoplasms; Neoplastic Process
+T5	DISO 143 161	neutropenia febril
+#5	AnnotatorNotes T5	C0746883; Febrile Neutropenia; Disease or Syndrome
+T6	DISO 163 165	NF
+#6	AnnotatorNotes T6	C0746883; Febrile Neutropenia; Disease or Syndrome
+T7	PROC 180 193	quimioterapia
+#7	AnnotatorNotes T7	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure + C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T8	CHEM 294 340	factor estimulante de colonias de granulocitos
+#8	AnnotatorNotes T8	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T9	ANAT 328 340	granulocitos
+#9	AnnotatorNotes T9	C0018183; granulocyte; Cell
+T10	PROC 370 383	quimioterapia
+#10	AnnotatorNotes T10	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure + C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T11	DISO 423 449	complicaciones infecciosas
+#11	AnnotatorNotes T11	C0940933; infection as a complication; Disease or Syndrome
+T12	PROC 576 596	En forma randomizada
+#12	AnnotatorNotes T12	C0034656; Randomization; Research Activity
+T13	PROC 639 665	tratamiento antimicrobiano
+#13	AnnotatorNotes T13	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T14	PROC 858 873	hospitalización
+#14	AnnotatorNotes T14	C0019993; Hospitalization; Health Care Activity
+T15	PROC 925 951	tratamiento antimicrobiano
+#15	AnnotatorNotes T15	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+T16	DISO 982 988	fiebre
+#16	AnnotatorNotes T16	C0015967; Fever; Sign or Symptom
+T17	PROC 1082 1107	revisión de la literatura
+#17	AnnotatorNotes T17	C3646434; Review of professional literature; Therapeutic or Preventive Procedure
+T18	CHEM 62 67	G-CSF
+#18	AnnotatorNotes T18	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T19	CHEM 342 347	G-CSF
+#19	AnnotatorNotes T19	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T20	DISO 504 506	NF
+#20	AnnotatorNotes T20	C0746883; Febrile Neutropenia; Disease or Syndrome
+T21	DISO 556 558	NF
+#21	AnnotatorNotes T21	C0746883; Febrile Neutropenia; Disease or Syndrome
+T22	CHEM 621 626	G-CSF
+#22	AnnotatorNotes T22	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T23	CHEM 651 665	antimicrobiano
+#23	AnnotatorNotes T23	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T24	CHEM 937 951	antimicrobiano
+#24	AnnotatorNotes T24	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T25	DISO 1029 1040	neutropenia
+#25	AnnotatorNotes T25	C0027947; Neutropenia; Disease or Syndrome | C0853697; Neutrophil count decreased; Finding
+T26	CHEM 1153 1158	G-CSF
+#26	AnnotatorNotes T26	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T27	DISO 1237 1239	NF
+#27	AnnotatorNotes T27	C0746883; Febrile Neutropenia; Disease or Syndrome
+T29	LIVB 122 127	niños
+#28	AnnotatorNotes T29	C0008059; Child; Age Group
+T30	LIVB 248 281	pacientes oncológicos pediátricos
+#29	AnnotatorNotes T30	C1516213; Cancer Patient; Patient or Disabled Group + C0008059; Child; Age Group
+T31	LIVB 600 609	pacientes
+#30	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T34	Duration 892 898	8 días
+T35	Duration 910 916	7 días
+T37	Duration 967 973	7 días
+T38	Duration 1004 1010	3 días
+T39	Duration 1056 1062	4 días
+T41	LIVB 1198 1219	pacientes oncológicos
+#31	AnnotatorNotes T41	C1516213; Cancer Patient; Patient or Disabled Group
+T28	Duration 962 963	8
+T32	Duration 999 1000	2
+T33	Duration 1051 1052	3
+A1	Population_data T29 Age
+A2	Population_data T30 Age
+T36	Neg_cue 1159 1161	no
+T40	Quantifier_or_Qualifier 1170 1181	recomendado
+A3	Assertion T40 Negated
+#32	AnnotatorNotes T40	C0034866; Recommendation; Idea or Concept
+R1	Negation Arg1:T36 Arg2:T40	
+T42	CONC 798 809	diferencias
+A4	Assertion T42 Negated
+#33	AnnotatorNotes T42	C1705241; Delta (difference); Quantitative Concept
+T43	Neg_cue 783 785	No
+R2	Negation Arg1:T43 Arg2:T42	
+T44	Observation 107 118	alto riesgo
+#34	AnnotatorNotes T44	C4319571; High risk; Finding
+R3	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T44	
+R4	Overlap Arg1:T3 Arg2:T4	
+R5	Experiences Arg1:T29 Arg2:T4	
+R6	Experiences Arg1:T29 Arg2:T3	
+R7	Experiences Arg1:T29 Arg2:T44	
+R8	Experiences Arg1:T29 Arg2:T1	
+R9	Experiences Arg1:T29 Arg2:T18	
+R10	Causes Arg1:T7 Arg2:T6	
+R11	Causes Arg1:T7 Arg2:T5	
+R12	Experiences Arg1:T30 Arg2:T5	
+R13	Experiences Arg1:T30 Arg2:T6	
+R14	Experiences Arg1:T30 Arg2:T7	
+T45	Observation 217 227	morbilidad
+#35	AnnotatorNotes T45	C0026538; Morbidity - disease rate; Finding
+R15	Experiences Arg1:T30 Arg2:T45	
+T46	CONC 230 240	mortalidad
+#36	AnnotatorNotes T46	C0026565; Mortality Vital Statistics; Quantitative Concept
+R16	After Arg1:T8 Arg2:T10	
+R17	After Arg1:T19 Arg2:T10	
+T47	Quantifier_or_Qualifier 384 391	intensa
+#37	AnnotatorNotes T47	C0522510; With intensity; Qualitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T47	
+R21	Overlap Arg1:T10 Arg2:T11	
+R22	Overlap Arg1:T10 Arg2:T20	
+T49	Observation 562 573	alto riesgo
+#39	AnnotatorNotes T49	C4319571; High risk; Finding
+R23	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T49	
+R24	Experiences Arg1:T31 Arg2:T22	
+R25	Combined_with Arg1:T22 Arg2:T13	
+R26	Used_for Arg1:T23 Arg2:T13	
+R27	Before Arg1:T12 Arg2:T22	
+T50	CONC 738 770	parámetros biomédicos y clínicos
+R28	Has_Duration_or_Interval Arg1:T14 Arg2:T34	
+R29	Has_Duration_or_Interval Arg1:T14 Arg2:T35	
+R30	Used_for Arg1:T24 Arg2:T15	
+R31	Has_Duration_or_Interval Arg1:T15 Arg2:T28	
+R32	Has_Duration_or_Interval Arg1:T15 Arg2:T37	
+R33	Has_Duration_or_Interval Arg1:T16 Arg2:T32	
+R34	Has_Duration_or_Interval Arg1:T16 Arg2:T38	
+R35	Has_Duration_or_Interval Arg1:T25 Arg2:T33	
+R36	Has_Duration_or_Interval Arg1:T25 Arg2:T39	
+R37	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T40	
+R38	Experiences Arg1:T41 Arg2:T26	
+R39	Experiences Arg1:T41 Arg2:T27	
+R40	Overlap Arg1:T14 Arg2:T15	
+T51	Quantifier_or_Qualifier 810 824	significativas
+A5	Assertion T51 Negated
+#40	AnnotatorNotes T51	C0750502; Significant; Idea or Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T51	
+R44	Negation Arg1:T43 Arg2:T51	
+R19	Causes Arg1:T5 Arg2:T45	
+R20	Causes Arg1:T6 Arg2:T45	
+A6	Experiencer T29 Patient
+A7	Experiencer T30 Patient
+A8	Experiencer T31 Patient
+A9	Experiencer T41 Patient

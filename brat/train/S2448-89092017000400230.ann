@@ -1,0 +1,180 @@
+T1	CHEM 14 22	aspirina
+#1	AnnotatorNotes T1	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T2	DISO 44 82	síndrome de distrés respiratorio agudo
+#2	AnnotatorNotes T2	C2887484; Acute respiratory distress syndrome in adult or child; Disease or Syndrome
+T3	PROC 96 142	internados en la Unidad de Cuidados Intensivos
+#3	AnnotatorNotes T3	C5419131; Intensive Care Unit Stay; Health Care Activity
+T4	CHEM 242 250	aspirina
+#4	AnnotatorNotes T4	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T5	DISO 287 291	SDRA
+#5	AnnotatorNotes T5	C2887484; Acute respiratory distress syndrome in adult or child; Disease or Syndrome
+T6	PROC 329 389	ensayo clínico experimental, prospectivo aleatorizado simple
+#6	AnnotatorNotes T6	C0678323; experimentation; Research Activity + C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T7	PROC 652 671	de manera aleatoria
+#7	AnnotatorNotes T7	C0034656; Randomization; Research Activity
+T8	PROC 548 567	ingresaron a la UCI
+#8	AnnotatorNotes T8	C5419131; Intensive Care Unit Stay; Health Care Activity
+T9	PROC 602 613	diagnóstico
+#9	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	DISO 617 621	SDRA
+#10	AnnotatorNotes T10	C2887484; Acute respiratory distress syndrome in adult or child; Disease or Syndrome
+T11	CHEM 714 722	aspirina
+#11	AnnotatorNotes T11	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T12	PROC 734 754	tratamiento estándar
+#12	AnnotatorNotes T12	C2936643; Standard of Care; Health Care Activity
+T13	DISO 760 764	SDRA
+#13	AnnotatorNotes T13	C2887484; Acute respiratory distress syndrome in adult or child; Disease or Syndrome
+T14	PROC 791 818	tratamiento médico estándar
+#14	AnnotatorNotes T14	C2936643; Standard of Care; Health Care Activity
+T15	DISO 824 828	SDRA
+#15	AnnotatorNotes T15	C2887484; Acute respiratory distress syndrome in adult or child; Disease or Syndrome
+T16	PROC 866 886	valores de PaO2/FiO2
+#16	AnnotatorNotes T16	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T17	PROC 892 909	valores de DA-aO2
+T18	PROC 930 950	ventilación mecánica
+#17	AnnotatorNotes T18	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T19	PROC 1341 1361	ventilación mecánica
+#18	AnnotatorNotes T19	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T20	CHEM 1570 1578	aspirina
+#19	AnnotatorNotes T20	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T21	DISO 1596 1600	SDRA
+#20	AnnotatorNotes T21	C2887484; Acute respiratory distress syndrome in adult or child; Disease or Syndrome
+T22	PROC 1813 1822	PaO2/FiO2
+#21	AnnotatorNotes T22	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T23	PROC 1778 1798	ventilación mecánica
+#22	AnnotatorNotes T23	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T24	PROC 1272 1281	PaO2/FiO2
+#23	AnnotatorNotes T24	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T25	LIVB 86 95	pacientes
+#24	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Duration 262 269	28 días
+T27	LIVB 273 282	pacientes
+#25	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	Date 425 445	01 diciembre de 2015
+T29	Date 449 468	30 de junio de 2016
+T30	LIVB 534 543	pacientes
+#26	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Dose 704 710	100 mg
+T33	Duration 1365 1374	15.8 días
+T35	LIVB 1582 1591	pacientes
+#27	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T40	PHYS 64 76	respiratorio
+#28	AnnotatorNotes T40	C0035203; Respiration; Physiologic Function
+T32	Duration 1382 1386	16.8
+#29	AnnotatorNotes T32	[Duration expressed in days]
+T41	PROC 1445 1463	estancia en la UCI
+#30	AnnotatorNotes T41	C5419131; Intensive Care Unit Stay; Health Care Activity
+T34	PROC 1699 1717	estancia en la UCI
+#31	AnnotatorNotes T34	C5419131; Intensive Care Unit Stay; Health Care Activity
+T36	Neg_cue 1649 1651	no
+T37	Observation 1652 1675	disminuye la mortalidad
+A1	Assertion T37 Negated
+R1	Negation Arg1:T36 Arg2:T37	
+T38	Neg_cue 1493 1495	no
+T39	CONC 1501 1511	diferencia
+A2	Assertion T39 Negated
+R2	Negation Arg1:T38 Arg2:T39	
+T42	Neg_cue 1220 1222	No
+T43	CONC 1236 1246	diferencia
+A3	Assertion T43 Negated
+R3	Negation Arg1:T42 Arg2:T43	
+T44	Neg_cue 1751 1758	tampoco
+T45	CONC 1759 1765	reduce
+A4	Assertion T45 Negated
+R4	Negation Arg1:T44 Arg2:T45	
+#32	AnnotatorNotes T43	C1705241; Delta (difference); Quantitative Concept
+#33	AnnotatorNotes T39	C1705241; Delta (difference); Quantitative Concept
+T46	Neg_cue 1800 1802	ni
+T47	Observation 1803 1809	mejora
+A5	Assertion T47 Negated
+#34	AnnotatorNotes T47	C0184511; Improved; Finding (?)
+R5	Negation Arg1:T46 Arg2:T47	
+T48	Observation 1 7	Efecto
+#35	AnnotatorNotes T48	C1518681; Outcome of Therapy; Finding (?)
+R6	Causes Arg1:T1 Arg2:T48	
+T49	CONC 29 39	mortalidad
+#36	AnnotatorNotes T49	C0085556; Hospital Mortality; Qualitative Concept
+R7	Experiences Arg1:T25 Arg2:T2	
+R9	Experiences Arg1:T25 Arg2:T1	
+R10	Experiences Arg1:T25 Arg2:T48	
+R11	Experiences Arg1:T25 Arg2:T3	
+T50	Observation 199 205	efecto
+#37	AnnotatorNotes T50	C1518681; Outcome of Therapy; Finding (?)
+T51	Observation 212 227	morbimortalidad
+R13	Experiences Arg1:T27 Arg2:T50	
+R14	Causes Arg1:T4 Arg2:T50	
+R15	Experiences Arg1:T27 Arg2:T4	
+R16	Experiences Arg1:T27 Arg2:T51	
+R17	After Arg1:T50 Arg2:T26	
+R18	Experiences Arg1:T27 Arg2:T5	
+R19	After Arg1:T6 Arg2:T28	
+R20	Before Arg1:T6 Arg2:T29	
+R21	Experiences Arg1:T30 Arg2:T8	
+R23	Before Arg1:T8 Arg2:T7	
+R24	Experiences Arg1:T30 Arg2:T10	
+R25	Has_Dose_or_Strength Arg1:T11 Arg2:T31	
+R26	Combined_with Arg1:T11 Arg2:T12	
+T52	Observation 915 920	Cstat
+#38	AnnotatorNotes T52	C0429681; Static lung compliance; Finding
+T53	Observation 1838 1843	Cstat
+#39	AnnotatorNotes T53	C0429681; Static lung compliance; Finding
+T54	Observation 903 909	DA-aO2
+#40	AnnotatorNotes T54	C0429685; Alveolar-arterial oxygen tension difference; Finding
+T55	Observation 994 1009	score APACHE II
+#41	AnnotatorNotes T55	C0489438; APACHE II score; Finding
+T56	Observation 1031 1046	morbimortalidad
+T57	PROC 892 899;912 920	valores de Cstat
+R27	Overlap Arg1:T16 Arg2:T18	
+R28	Overlap Arg1:T57 Arg2:T18	
+R32	Overlap Arg1:T17 Arg2:T55	
+R34	Overlap Arg1:T57 Arg2:T55	
+T58	CONC 1078 1109	prueba estadística T de Student
+#42	AnnotatorNotes T58	C0871453; Students T Test; Intellectual Product
+T59	CONC 1158 1168	mortalidad
+#43	AnnotatorNotes T59	C0085556; Hospital Mortality; Qualitative Concept
+R36	Has_Duration_or_Interval Arg1:T19 Arg2:T33	
+R37	Has_Duration_or_Interval Arg1:T19 Arg2:T32	
+T60	CONC 1466 1492	estancia intrahospitalaria
+#44	AnnotatorNotes T60	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T61	Quantifier_or_Qualifier 1512 1542	estadísticamente significativa
+A6	Assertion T61 Negated
+#45	AnnotatorNotes T61	C0237881; Statistical Significance; Quantitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T61	
+R39	Experiences Arg1:T35 Arg2:T20	
+R40	Experiences Arg1:T35 Arg2:T21	
+T62	Quantifier_or_Qualifier 1601 1612	establecido
+#46	AnnotatorNotes T62	C0443211; Established; Qualitative Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T62	
+R48	Before Arg1:T20 Arg2:T37	
+R49	Before Arg1:T21 Arg2:T37	
+T63	CONC 1723 1744	estancia hospitalaria
+#47	AnnotatorNotes T63	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R52	Overlap Arg1:T19 Arg2:T41	
+R53	Overlap Arg1:T19 Arg2:T60	
+R56	Overlap Arg1:T34 Arg2:T23	
+R59	Experiences Arg1:T35 Arg2:T23	
+R60	Experiences Arg1:T35 Arg2:T34	
+R61	Experiences Arg1:T35 Arg2:T22	
+R62	Experiences Arg1:T35 Arg2:T53	
+T64	Observation 1827 1832	DAaO2
+#48	AnnotatorNotes T64	C0429685; Alveolar-arterial oxygen tension difference; Finding
+R63	Experiences Arg1:T35 Arg2:T64	
+R68	Overlap Arg1:T23 Arg2:T22	
+R69	Overlap Arg1:T23 Arg2:T64	
+R70	Overlap Arg1:T23 Arg2:T53	
+R71	Overlap Arg1:T34 Arg2:T22	
+R72	Overlap Arg1:T34 Arg2:T64	
+R73	Overlap Arg1:T34 Arg2:T53	
+R74	Negation Arg1:T38 Arg2:T61	
+#49	AnnotatorNotes T45	C0547047; Decrease; Functional Concept
+R8	Overlap Arg1:T17 Arg2:T18	
+R12	Overlap Arg1:T16 Arg2:T55	
+T65	Neg_cue 1677 1679	ni
+T66	CONC 1680 1695	acorta los días
+A7	Assertion T66 Negated
+R22	Negation Arg1:T65 Arg2:T66	
+#50	AnnotatorNotes T17	C3203470; Alveolar-arterial oxygen gradient; Laboratory Procedure (?)
+A8	Experiencer T25 Patient
+A9	Experiencer T27 Patient
+A10	Experiencer T30 Patient
+A11	Experiencer T35 Patient

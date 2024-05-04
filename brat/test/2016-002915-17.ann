@@ -1,0 +1,61 @@
+T1	CHEM 79 99	análogos de insulina
+#1	AnnotatorNotes T1	C2825028; Insulin Analog [EPC]; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T2	DISO 116 131	diabetes tipo 1
+#2	AnnotatorNotes T2	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T3	DISO 171 187	estrés oxidativo
+#3	AnnotatorNotes T3	C0242606; Oxidative Stress; Cell or Molecular Dysfunction
+T4	CHEM 205 225	análogos de insulina
+#4	AnnotatorNotes T4	C2825028; Insulin Analog [EPC]; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T5	DISO 242 257	diabetes tipo 1
+#5	AnnotatorNotes T5	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T6	PROC 259 273	Ensayo clínico
+#6	AnnotatorNotes T6	C0008976; Clinical Trials; Research Activity
+T7	PROC 291 303	intervención
+#7	AnnotatorNotes T7	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T8	DISO 342 350	DIABETES
+#8	AnnotatorNotes T8	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T9	DISO 377 392	DIABETES TIPO 1
+#9	AnnotatorNotes T9	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T10	DISO 489 492	DM1
+#10	AnnotatorNotes T10	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T11	PROC 544 573	Tratamiento intensivo con MDI
+#11	AnnotatorNotes T11	C0418991; Metered dose inhaler therapy; Therapeutic or Preventive Procedure
+T12	PROC 650 674	consentimiento informado
+#12	AnnotatorNotes T12	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T13	PROC 528 533	HbA1c
+#13	AnnotatorNotes T13	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T14	Date 13 17	2016
+T15	LIVB 103 111	personas
+#14	AnnotatorNotes T15	C0027361; Persons; Population Group
+T16	LIVB 229 237	personas
+#15	AnnotatorNotes T16	C0027361; Persons; Population Group
+T17	Age 438 469	entre los 18 años y los 65 años
+T18	Duration 496 511	más de dos años
+T19	Duration 595 610	más de 12 meses
+T20	DEVI 570 573	MDI
+#16	AnnotatorNotes T20	C0993596; Metered Dose Inhaler; Medical Device
+T21	Route 582 586	Bolo
+#17	AnnotatorNotes T21	C1554882; Injection, intravenous, bolus; Functional Concept | C1522229; Intravenous Bolus; Functional Concept
+A1	Status T11 History_of
+T22	Observation 58 64	efecto
+#18	AnnotatorNotes T22	C1518681; Outcome of Therapy; Finding (?)
+R1	Causes Arg1:T1 Arg2:T22	
+R2	Experiences Arg1:T15 Arg2:T1	
+R3	Experiences Arg1:T15 Arg2:T2	
+R4	Experiences Arg1:T15 Arg2:T22	
+R5	Experiences Arg1:T16 Arg2:T3	
+R6	Experiences Arg1:T16 Arg2:T4	
+R7	Causes Arg1:T4 Arg2:T3	
+R8	Experiences Arg1:T16 Arg2:T5	
+R9	Overlap Arg1:T3 Arg2:T5	
+R10	Has_Duration_or_Interval Arg1:T10 Arg2:T18	
+T23	Result_or_Value 534 540	≤ 10 %
+R11	Has_Result_or_Value Arg1:T13 Arg2:T23	
+R12	Used_for Arg1:T20 Arg2:T11	
+R13	Has_Route_or_Mode Arg1:T11 Arg2:T21	
+R14	Has_Duration_or_Interval Arg1:T11 Arg2:T19	
+T24	CONC 622 640	inicio del estudio
+#19	AnnotatorNotes T24	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R15	Before Arg1:T11 Arg2:T24	
+A2	Experiencer T15 Patient
+A3	Experiencer T16 Patient

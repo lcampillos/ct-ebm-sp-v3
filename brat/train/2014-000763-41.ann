@@ -1,0 +1,269 @@
+T1	CHEM 79 94	18F-Florbetaben
+T2	PROC 99 134	Tomografía de Emisión de Positrones
+#1	AnnotatorNotes T2	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T3	DISO 170 193	enfermedad de Alzheimer
+#2	AnnotatorNotes T3	C0002395; Alzheimer's Disease; Disease or Syndrome
+T4	DISO 420 461	enfermedad de Alzheimer familiar genético
+T5	DISO 249 281	enfermedad de Alzheimer genético
+T6	CHEM 360 375	18F-Florbetaben
+T7	PROC 319 355	tomografía por emisión de positrones
+#3	AnnotatorNotes T7	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T8	DISO 705 737	enfermedad de Alzheimer genético
+T9	DISO 746 754	mutación
+T10	DISO 835 870	signos leves de deterioro cognitivo
+T11	PROC 822 825	CDR
+#4	AnnotatorNotes T11	C4273847; Assessment using CDR (Clinical Dementia Rating); Diagnostic Procedure
+T12	PROC 987 1001	procedimientos
+#5	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T13	PROC 1038 1062	consentimiento informado
+#6	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	DISO 1149 1159	enfermedad
+#7	AnnotatorNotes T14	C0012634; Disease; Disease or Syndrome
+T15	DISO 1197 1220	enfermedad hepatobiliar
+#8	AnnotatorNotes T15	C0267792; Hepatobiliary Disorder; Disease or Syndrome
+T16	PROC 1222 1225	GOT
+#9	AnnotatorNotes T16	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T17	PROC 1226 1229	GPT
+#10	AnnotatorNotes T17	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T18	DISO 1241 1260	insuficiencia renal
+#11	AnnotatorNotes T18	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T19	CHEM 1375 1386	florbetaben
+#12	AnnotatorNotes T19	C3817505; Florbetaben F 18 Intravenous Solution; Clinical Drug
+T20	DISO 1307 1333	consumo abusivo de alcohol
+T21	DISO 1352 1361	epilepsia
+#13	AnnotatorNotes T21	C0014544; Epilepsy; Disease or Syndrome
+T22	DISO 1365 1372	Alergia
+#14	AnnotatorNotes T22	C1527304; Allergic Reaction; Pathologic Function
+T23	DISO 1429 1437	alergias
+#15	AnnotatorNotes T23	C1527304; Allergic Reaction; Pathologic Function
+T24	DISO 1475 1482	alergia
+#16	AnnotatorNotes T24	C1527304; Allergic Reaction; Pathologic Function
+T25	DISO 1632 1642	enfermedad
+#17	AnnotatorNotes T25	C0012634; Disease; Disease or Syndrome
+T26	DISO 1731 1774	deficiencia de vitamina B-12 o ácido fólico
+T27	CHEM 1746 1759	vitamina B-12
+T28	CHEM 1762 1774	ácido fólico
+#18	AnnotatorNotes T28	C0016410; folic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T29	DISO 1776 1809	alteración de la función tiroidea
+T30	ANAT 1801 1809	tiroidea
+#19	AnnotatorNotes T30	C0040132; Thyroid Gland; Body Part, Organ, or Organ Component | C1278878; Entire thyroid gland; Body Part, Organ, or Organ Component
+T31	DISO 1842 1879	enfermedad neurológica o psiquiátrica
+T32	DISO 518 526	mutación
+T33	DISO 623 631	mutación
+T34	ANAT 1208 1220	hepatobiliar
+#20	AnnotatorNotes T34	C1711359; Hepatobiliary System; Body System
+T35	PROC 872 875	CDR
+#21	AnnotatorNotes T35	C4273847; Assessment using CDR (Clinical Dementia Rating); Diagnostic Procedure
+T36	ANAT 1255 1260	renal
+#22	AnnotatorNotes T36	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T37	PROC 1271 1281	creatinina
+#23	AnnotatorNotes T37	C0201975; Creatinine measurement; Laboratory Procedure
+T38	CHEM 1440 1448	fármacos
+#24	AnnotatorNotes T38	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T39	CHEM 1485 1494	contraste
+#25	AnnotatorNotes T39	C0009924; Contrast Media; Indicator, Reagent, or Diagnostic Aid
+T40	ANAT 1721 1729	cerebral
+#26	AnnotatorNotes T40	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T41	Date 12 16	2014
+T42	Spec_cue 160 169	riesgo de
+T43	LIVB 227 234	sujetos
+#27	AnnotatorNotes T43	C0681850; Study Subject; Group
+T44	Spec_cue 239 248	riesgo de
+T45	GENE 273 281	genético
+#28	AnnotatorNotes T45	C0017337; Genes; Gene or Genome
+T46	LIVB 486 503	Voluntarios sanos
+#29	AnnotatorNotes T46	C1708335; Healthy Volunteers; Population Group
+T48	GENE 453 461	genético
+#30	AnnotatorNotes T48	C0017337; Genes; Gene or Genome
+T49	GENE 568 573	PSEN1
+#31	AnnotatorNotes T49	C1418985; PSEN1 gene; Gene or Genome
+T50	LIVB 504 526	portadores de mutación
+#32	AnnotatorNotes T50	C2985478; Mutation Carrier; Population Group
+T51	GENE 561 566	genes
+#33	AnnotatorNotes T51	C0017337; Genes; Gene or Genome
+T52	LIVB 588 605	Voluntarios sanos
+#34	AnnotatorNotes T52	C1708335; Healthy Volunteers; Population Group
+T53	Neg_cue 606 608	no
+T55	LIVB 662 675	Hijos adultos
+#35	AnnotatorNotes T55	C0037683; Son (person); Family Group + C0001675; Adult; Age Group
+T56	Age 677 686	> 18 años
+T57	LIVB 691 700	pacientes
+#36	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	GENE 729 737	genético
+#37	AnnotatorNotes T58	C0017337; Genes; Gene or Genome
+T59	GENE 771 776	genes
+#38	AnnotatorNotes T59	C0017337; Genes; Gene or Genome
+T60	LIVB 905 927	investigador principal
+#39	AnnotatorNotes T60	C1521895; Principal Investigator; Professional or Occupational Group
+T61	LIVB 1093 1100	Sujetos
+#40	AnnotatorNotes T61	C0681850; Study Subject; Group
+T63	Date 1175 1181	actual
+T64	Date 1343 1349	actual
+T65	LIVB 1498 1543	Mujeres embarazadas o en periodo de lactancia
+#41	AnnotatorNotes T65	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T66	LIVB 1683 1695	investigador
+#42	AnnotatorNotes T66	C0035173; Research Personnel; Professional or Occupational Group
+T68	PHYS 861 870	cognitivo
+#43	AnnotatorNotes T68	C0009240; Cognition; Mental Process
+T69	PHYS 1574 1585	embarazadas
+#44	AnnotatorNotes T69	C0032961; Pregnancy; Organism Function
+T70	PHYS 66 75	captación
+#45	AnnotatorNotes T70	C0301638; Organ or tissue uptake; Organ or Tissue Function
+T71	LIVB 138 155	voluntarios sanos
+#46	AnnotatorNotes T71	C1708335; Healthy Volunteers; Population Group
+T72	GENE 575 580	PSEN2
+#47	AnnotatorNotes T72	C1418986; PSEN2 gene; Gene or Genome
+T73	GENE 583 586	APP
+#48	AnnotatorNotes T73	C1364818; APP gene; Gene or Genome
+T74	GENE 792 795	APP
+#49	AnnotatorNotes T74	C1364818; APP gene; Gene or Genome
+T75	GENE 784 789	PSEN2
+#50	AnnotatorNotes T75	C1418986; PSEN2 gene; Gene or Genome
+T76	GENE 777 782	PSEN1
+#51	AnnotatorNotes T76	C1418985; PSEN1 gene; Gene or Genome
+T47	LIVB 933 946	participantes
+#52	AnnotatorNotes T47	C4554048; Study Participant; Population Group
+T62	PHYS 1534 1543	lactancia
+#53	AnnotatorNotes T62	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T77	PHYS 1506 1517	embarazadas
+#54	AnnotatorNotes T77	C0032961; Pregnancy; Organism Function
+T78	PHYS 1713 1729	función cerebral
+#55	AnnotatorNotes T78	C0234386; Cerebral function; Organ or Tissue Function | C0678908; brain function; Organ or Tissue Function
+T79	PHYS 1793 1809	función tiroidea
+#56	AnnotatorNotes T79	C2242456; thyroid function; Physiologic Function
+T80	LIVB 398 415	Voluntarios sanos
+#57	AnnotatorNotes T80	C1708335; Healthy Volunteers; Population Group
+T81	Date 294 305	preclínicos
+T54	LIVB 609 631	portadores de mutación
+#58	AnnotatorNotes T54	C2985478; Mutation Carrier; Population Group
+A1	Assertion T5 Speculated
+A3	Population_data T55 Age
+A4	Assertion T3 Speculated
+A2	Assertion T54 Negated
+A5	Status T22 History_of
+A6	Status T20 History_of
+A7	Status T21 History_of
+A8	Status T14 History_of
+A9	Status T15 History_of
+A10	Status T23 History_of
+A11	Status T24 History_of
+A12	Status T25 History_of
+A13	Status T29 History_of
+A14	Status T26 History_of
+#59	AnnotatorNotes T6	C3818757; florbetaben f-18; Organic Chemical · Indicator, Reagent, or Diagnostic Aid
+#60	AnnotatorNotes T1	C3818757; florbetaben f-18; Organic Chemical · Indicator, Reagent, or Diagnostic Aid
+#61	AnnotatorNotes T32	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#62	AnnotatorNotes T33	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#63	AnnotatorNotes T9	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#64	AnnotatorNotes T63	C0521116; Current (present time); Temporal Concept 
+#65	AnnotatorNotes T64	C0521116; Current (present time); Temporal Concept 
+#66	AnnotatorNotes T20	C0085762; Alcohol abuse; Mental or Behavioral Dysfunction
+#67	AnnotatorNotes T26	C0016412; Folic Acid Deficiency; Disease or Syndrome + C0042847; Vitamin B 12 Deficiency; Disease or Syndrome 
+#68	AnnotatorNotes T31	C0027765; nervous system disorder; Disease or Syndrome + C1306597; Psychiatric problem; Mental or Behavioral Dysfunction
+T67	Neg_cue 1105 1107	no
+T82	Observation 1115 1135	completar el estudio
+A15	Assertion T82 Negated
+#69	AnnotatorNotes T82	C2732579; Completion of clinical trial; Finding
+R1	Negation Arg1:T53 Arg2:T54	
+R2	Speculation Arg1:T44 Arg2:T5	
+R3	Negation Arg1:T67 Arg2:T82	
+T83	Spec_cue 1696 1701	pueda
+T84	Observation 1702 1729	alterar la función cerebral
+A16	Assertion T84 Speculated
+R4	Speculation Arg1:T83 Arg2:T84	
+T85	Food 1326 1333	alcohol
+#70	AnnotatorNotes T85	C0001967; Alcoholic Beverages; Food
+R5	Used_for Arg1:T1 Arg2:T2	
+R6	Experiences Arg1:T71 Arg2:T70	
+R7	Experiences Arg1:T71 Arg2:T1	
+R8	Experiences Arg1:T71 Arg2:T2	
+R9	Speculation Arg1:T42 Arg2:T3	
+R10	Overlap Arg1:T5 Arg2:T81	
+R11	Experiences Arg1:T43 Arg2:T7	
+R12	Used_for Arg1:T6 Arg2:T7	
+R13	Experiences Arg1:T80 Arg2:T4	
+R14	Experiences Arg1:T46 Arg2:T32	
+R15	Experiences Arg1:T50 Arg2:T32	
+T86	Quantifier_or_Qualifier 530 542	al menos uno
+R16	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T86	
+R17	Location_of Arg1:T49 Arg2:T32	
+R18	Location_of Arg1:T51 Arg2:T32	
+R19	Location_of Arg1:T72 Arg2:T32	
+R20	Location_of Arg1:T73 Arg2:T32	
+R21	Experiences Arg1:T52 Arg2:T33	
+R22	Experiences Arg1:T54 Arg2:T33	
+R23	Has_Age Arg1:T55 Arg2:T56	
+R24	Has_Age Arg1:T57 Arg2:T56	
+R25	Experiences Arg1:T55 Arg2:T8	
+R26	Experiences Arg1:T57 Arg2:T8	
+R27	Experiences Arg1:T57 Arg2:T9	
+R28	Experiences Arg1:T55 Arg2:T9	
+R29	Location_of Arg1:T59 Arg2:T9	
+R30	Location_of Arg1:T76 Arg2:T9	
+R31	Location_of Arg1:T75 Arg2:T9	
+R32	Location_of Arg1:T74 Arg2:T9	
+T87	Result_or_Value 826 827	0
+R33	Has_Result_or_Value Arg1:T11 Arg2:T87	
+T88	Result_or_Value 876 883	0.5 o 1
+R35	Has_Result_or_Value Arg1:T35 Arg2:T88	
+T89	Observation 797 820	cognitivamente normales
+R38	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T89	
+R39	Experiences Arg1:T55 Arg2:T10	
+R40	Experiences Arg1:T55 Arg2:T11	
+R41	Experiences Arg1:T55 Arg2:T35	
+R42	Experiences Arg1:T55 Arg2:T68	
+T90	Observation 969 1001	cumplir todos los procedimientos
+#71	AnnotatorNotes T90	C3714738; Compliance; Finding (?)
+T91	Quantifier_or_Qualifier 1160 1165	grave
+#72	AnnotatorNotes T91	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R43	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T91	
+R44	Overlap Arg1:T14 Arg2:T63	
+R45	Location_of Arg1:T34 Arg2:T15	
+R46	Overlap Arg1:T15 Arg2:T63	
+T92	Result_or_Value 1230 1237	≥ 5 LSN
+R48	Has_Result_or_Value Arg1:T17 Arg2:T92	
+R49	Has_Result_or_Value Arg1:T16 Arg2:T92	
+R50	Location_of Arg1:T36 Arg2:T18	
+T93	Result_or_Value 1282 1289	≥ 2 LSN
+R52	Has_Result_or_Value Arg1:T37 Arg2:T93	
+T94	Quantifier_or_Qualifier 1261 1269	avanzada
+#73	AnnotatorNotes T94	C0205179; Advanced phase; Qualitative Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T94	
+R54	Overlap Arg1:T18 Arg2:T63	
+R56	Overlap Arg1:T20 Arg2:T64	
+R57	Causes Arg1:T19 Arg2:T22	
+R58	Causes Arg1:T38 Arg2:T23	
+R59	Causes Arg1:T39 Arg2:T24	
+#74	AnnotatorNotes T89	C1846595; Normal cognition and intellectual function; Finding
+R60	Experiences Arg1:T65 Arg2:T77	
+R61	Experiences Arg1:T65 Arg2:T62	
+T95	Observation 1556 1585	planeado quedarse embarazadas
+#75	AnnotatorNotes T95	C0032992; Pregnancy, Planned; Finding
+R62	Before Arg1:T95 Arg2:T69	
+T96	PROC 1609 1616	estudio
+#76	AnnotatorNotes T96	C0008976; Clinical Trials; Research Activity
+R63	Overlap Arg1:T69 Arg2:T96	
+R64	Overlap Arg1:T95 Arg2:T96	
+R65	Overlap Arg1:T62 Arg2:T96	
+R66	Overlap Arg1:T77 Arg2:T96	
+R67	Before Arg1:T25 Arg2:T84	
+R68	Location_of Arg1:T40 Arg2:T78	
+#77	AnnotatorNotes T27	C0042845; vitamin B12; Organic Chemical · Pharmacologic Substance · Vitamin
+R70	Location_of Arg1:T30 Arg2:T79	
+R71	Location_of Arg1:T30 Arg2:T29	
+#78	AnnotatorNotes T29	C0857576; Abnormality of thyroid physiology; Finding
+A17	Experiencer T71 Patient
+A18	Experiencer T43 Patient
+A19	Experiencer T80 Patient
+A20	Experiencer T46 Patient
+A21	Experiencer T50 Patient
+A22	Experiencer T52 Patient
+A23	Experiencer T54 Patient
+A24	Experiencer T55 Family_member
+A25	Experiencer T57 Patient
+A26	Experiencer T60 Other
+A27	Experiencer T47 Patient
+A28	Experiencer T61 Patient
+A29	Experiencer T65 Patient
+A30	Status T69 Future
+A31	Experiencer T66 Other

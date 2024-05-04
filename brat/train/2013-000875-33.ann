@@ -1,0 +1,101 @@
+T1	PROC 48 58	Prevención
+#1	AnnotatorNotes T1	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T2	DISO 63 89	dolor del miembro fantasma
+#2	AnnotatorNotes T2	C0031315; Phantom Limb Syndrome; Disease or Syndrome
+T3	ANAT 73 80	miembro
+#3	AnnotatorNotes T3	C0015385; Limb structure; Body Part, Organ, or Organ Component | C1280090; Entire limb; Body Part, Organ, or Organ Component
+T4	PROC 95 117	amputación transtibial
+T5	DISO 142 167	Dolor de miembro fantasma
+#4	AnnotatorNotes T5	C0031315; Phantom Limb Syndrome; Disease or Syndrome
+T6	ANAT 151 158	miembro
+#5	AnnotatorNotes T6	C0015385; Limb structure; Body Part, Organ, or Organ Component | C1280090; Entire limb; Body Part, Organ, or Organ Component
+T7	PROC 173 203	amputación de miembro inferior
+#6	AnnotatorNotes T7	C0337308; Amputation of lower limb; Therapeutic or Preventive Procedure
+T8	DISO 213 221	isquemia
+#7	AnnotatorNotes T8	C0022116; Ischemia; Pathologic Function
+T9	PROC 284 291	cirugía
+#8	AnnotatorNotes T9	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T10	PROC 304 326	amputación transtibial
+T11	DISO 331 361	enfermedad vascular periférica
+#9	AnnotatorNotes T11	C0085096; Peripheral Vascular Diseases; Disease or Syndrome | C1704436; Peripheral Arterial Diseases; Disease or Syndrome
+T12	PROC 507 536	anestesia regional periférica
+T13	DISO 540 547	Alergia
+#10	AnnotatorNotes T13	C1527304; Allergic Reaction; Pathologic Function
+T14	CHEM 561 580	anestésicos locales
+#11	AnnotatorNotes T14	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T15	PROC 822 858	consentimiento informado por escrito
+#12	AnnotatorNotes T15	C0811741; Obtain informed written consent; Health Care Activity
+T16	DISO 680 703	Enfermedad psiquiátrica
+#13	AnnotatorNotes T16	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T17	PROC 584 594	Amputación
+#14	AnnotatorNotes T17	C0002688; Amputation; Therapeutic or Preventive Procedure
+T18	DISO 618 644	dolor del miembro fantasma
+#15	AnnotatorNotes T18	C0031315; Phantom Limb Syndrome; Disease or Syndrome
+T19	DISO 770 777	tumoral
+#16	AnnotatorNotes T19	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T20	DISO 780 790	traumática
+#17	AnnotatorNotes T20	C3263723; Traumatic injury; Injury or Poisoning | C3714660; Trauma; Injury or Poisoning
+T21	PROC 749 759	Amputación
+#18	AnnotatorNotes T21	C0002688; Amputation; Therapeutic or Preventive Procedure
+T22	ANAT 628 635	miembro
+#19	AnnotatorNotes T22	C0015385; Limb structure; Body Part, Organ, or Organ Component | C1280090; Entire limb; Body Part, Organ, or Organ Component
+T23	ANAT 342 350	vascular
+#20	AnnotatorNotes T23	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T24	Date 13 17	2013
+T25	LIVB 257 266	Pacientes
+#21	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Age 368 384	mayor de 18 años
+T28	PHYS 724 733	gestación
+#22	AnnotatorNotes T28	C0032961; Pregnancy; Organism Function
+T29	PHYS 736 745	lactancia
+#23	AnnotatorNotes T29	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T30	Neg_cue 794 810	Imposibilidad de
+T27	PROC 386 403	estado físico ASA
+#24	AnnotatorNotes T27	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T31	PROC 663 676	reclutamiento
+#25	AnnotatorNotes T31	C0242800; Patient Recruitment; Research Activity
+A1	Assertion T15 Negated
+A2	Assertion T12 Contraindicated
+A3	Status T13 History_of
+A4	Status T17 History_of
+A5	Status T21 History_of
+R1	Location_of Arg1:T3 Arg2:T2	
+R2	Before Arg1:T1 Arg2:T2	
+R3	After Arg1:T2 Arg2:T4	
+R4	After Arg1:T5 Arg2:T7	
+R5	Location_of Arg1:T6 Arg2:T5	
+R6	Before Arg1:T8 Arg2:T5	
+T32	Quantifier_or_Qualifier 222 229	crítica
+#26	AnnotatorNotes T32	C1511545; Critical; Qualitative Concept 
+R7	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T32	
+T33	ANAT 187 203	miembro inferior
+#27	AnnotatorNotes T33	C0023216; Lower Extremity; Body Part, Organ, or Organ Component
+R8	Location_of Arg1:T33 Arg2:T7	
+R9	Experiences Arg1:T25 Arg2:T9	
+R10	Experiences Arg1:T25 Arg2:T10	
+R13	Location_of Arg1:T23 Arg2:T11	
+R14	Has_Age Arg1:T25 Arg2:T26	
+T34	Result_or_Value 407 412	II-IV
+R15	Has_Result_or_Value Arg1:T27 Arg2:T34	
+R16	Experiences Arg1:T25 Arg2:T27	
+T35	Quantifier_or_Qualifier 267 278	programados
+#28	AnnotatorNotes T35	C0205539; Scheduled - procedure status; Qualitative Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T35	
+T36	Quantifier_or_Qualifier 292 300	electiva
+#29	AnnotatorNotes T36	C0439608; elective; Temporal Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T36	
+R19	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T36	
+R20	Before Arg1:T27 Arg2:T10	
+R21	Before Arg1:T27 Arg2:T9	
+R22	Before Arg1:T17 Arg2:T18	
+R23	Location_of Arg1:T22 Arg2:T18	
+R24	Overlap Arg1:T18 Arg2:T31	
+R25	Causes Arg1:T14 Arg2:T13	
+T37	Quantifier_or_Qualifier 704 710	severa
+#30	AnnotatorNotes T37	C1547227; Severe -Severity of Illness Code; Intellectual Product
+R26	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T37	
+R29	Negation Arg1:T30 Arg2:T15	
+R11	Experiences Arg1:T25 Arg2:T11	
+A6	Experiencer T25 Patient
+A7	Status T9 Future
+A8	Status T10 Future

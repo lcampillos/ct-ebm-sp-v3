@@ -1,0 +1,199 @@
+T1	PROC 205 212	tratado
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 60 73	inmunoterapia
+#2	AnnotatorNotes T2	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T3	PROC 401 408	tratado
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	CHEM 105 114	nivolumab
+#4	AnnotatorNotes T4	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	CHEM 124 133	nivolumab
+#5	AnnotatorNotes T5	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	DISO 156 164	melanoma
+#6	AnnotatorNotes T6	C0025202; melanoma; Neoplastic Process
+T7	PROC 235 272	Estudio fase 3, aleatorizado, abierto
+#7	AnnotatorNotes T7	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C1709323; Open Label Study; Research Activity 
+T8	CHEM 305 314	nivolumab
+#8	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	CHEM 324 333	nivolumab
+#9	AnnotatorNotes T9	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	DISO 351 359	melanoma
+#10	AnnotatorNotes T10	C0025202; melanoma; Neoplastic Process
+T11	DISO 432 440	Melanoma
+#11	AnnotatorNotes T11	C0025202; melanoma; Neoplastic Process
+T12	DISO 503 511	Melanoma
+#12	AnnotatorNotes T12	C0025202; melanoma; Neoplastic Process
+T13	PROC 469 476	tratado
+#13	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	DISO 768 776	Melanoma
+#14	AnnotatorNotes T14	C0025202; melanoma; Neoplastic Process
+T15	PROC 864 875	tratamiento
+#15	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 901 922	tratamiento sistémico
+T17	DISO 940 948	melanoma
+#16	AnnotatorNotes T17	C0025202; melanoma; Neoplastic Process
+T18	PROC 991 1012	tratamiento adyuvante
+#17	AnnotatorNotes T18	C0677850; Adjuvant therapy; Therapeutic or Preventive ProcedureC0677850; Adjuvant therapy; Therapeutic or Preventive Procedure [Positive entity (double negation context)]
+T19	PROC 541 548	tratado
+#18	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	DISO 1049 1070	Metástasis cerebrales
+#19	AnnotatorNotes T20	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T21	DISO 1081 1106	metástasis leptomeníngeas
+#20	AnnotatorNotes T21	C1704231; Metastatic Malignant Neoplasm to the Leptomeninges; Neoplastic Process
+T22	DISO 1111 1125	Melanoma uveal
+#21	AnnotatorNotes T22	C0346373; Malignant melanoma of iris; Neoplastic Process
+T23	DISO 1142 1163	enfermedad autoinmune
+#22	AnnotatorNotes T23	C0004364; Autoimmune Diseases; Disease or Syndrome
+T24	DISO 178 189	metastásico
+#23	AnnotatorNotes T24	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T25	DISO 374 385	metastásico
+#24	AnnotatorNotes T25	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T26	DISO 454 465	metastásico
+#25	AnnotatorNotes T26	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T27	DISO 526 537	metastásico
+#26	AnnotatorNotes T27	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T28	DISO 963 974	metastásico
+#27	AnnotatorNotes T28	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T29	ANAT 1060 1070	cerebrales
+#28	AnnotatorNotes T29	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T30	ANAT 1092 1106	leptomeníngeas
+#29	AnnotatorNotes T30	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T31	ANAT 1120 1125	uveal
+#30	AnnotatorNotes T31	C0042160; Uvea; Body Part, Organ, or Organ Component
+T32	CHEM 94 102	NKTR-214
+#31	AnnotatorNotes T32	C4309517; NKTR-214; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T33	CHEM 277 285	NKTR-214
+#32	AnnotatorNotes T33	C4309517; NKTR-214; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T34	Date 13 17	2018
+T35	LIVB 142 151	pacientes
+#33	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Neg_cue 202 204	no
+T37	LIVB 337 346	pacientes
+#34	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Neg_cue 398 400	no
+T39	Neg_cue 466 468	no
+T40	Neg_cue 538 540	no
+T42	LIVB 647 654	adultos
+#35	AnnotatorNotes T42	C0001675; Adult; Age Group
+T43	Age 658 671	18 años o más
+T45	Age 752 762	12-17 años
+T47	LIVB 850 859	Pacientes
+#36	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Neg_cue 860 863	sin
+T49	Neg_cue 894 900	ningún
+T51	LIVB 1128 1137	Pacientes
+#37	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Spec_cue 1183 1193	sospechada
+T41	LIVB 728 735	menores
+#38	AnnotatorNotes T41	C0026193; Minor (person); Population Group
+T44	PROC 577 593	Estado funcional
+#39	AnnotatorNotes T44	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T46	PROC 688 704	estado funcional
+#40	AnnotatorNotes T46	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T50	PROC 788 804	histológicamente
+#41	AnnotatorNotes T50	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T1 Negated
+A2	Assertion T3 Negated
+A3	Assertion T13 Negated
+A4	Assertion T19 Negated
+A5	Population_data T42 Age
+A6	Assertion T15 Negated
+A7	Assertion T16 Negated
+A8	Assertion T23 Speculated
+A9	Status T1 History_of
+A10	Status T3 History_of
+A11	Status T13 History_of
+A12	Status T19 History_of
+A13	Status T15 History_of
+A14	Status T16 History_of
+A15	Status T18 History_of
+A16	Status T23 History_of
+R1	Used_for Arg1:T32 Arg2:T2	
+R2	Combined_with Arg1:T32 Arg2:T4	
+R3	Used_for Arg1:T5 Arg2:T2	
+T53	Quantifier_or_Qualifier 134 138	solo
+R4	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T53	
+R5	Combined_with Arg1:T33 Arg2:T8	
+R6	Experiences Arg1:T37 Arg2:T9	
+R7	Experiences Arg1:T35 Arg2:T2	
+R8	Experiences Arg1:T35 Arg2:T6	
+R9	Experiences Arg1:T35 Arg2:T24	
+R10	Negation Arg1:T36 Arg2:T1	
+R11	Experiences Arg1:T35 Arg2:T1	
+T54	Observation 165 175	inoperable
+#42	AnnotatorNotes T54	C4039777; Tumor surgically unresectable; Finding
+R13	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T54	
+T55	Observation 360 371	irresecable
+#43	AnnotatorNotes T55	C4039777; Tumor surgically unresectable; Finding
+R14	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T55	
+R15	Experiences Arg1:T37 Arg2:T10	
+R17	Experiences Arg1:T37 Arg2:T25	
+R18	Negation Arg1:T38 Arg2:T3	
+T56	Observation 441 451	inoperable
+#44	AnnotatorNotes T56	C4039777; Tumor surgically unresectable; Finding
+R19	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T56	
+R20	Before Arg1:T11 Arg2:T26	
+R21	Before Arg1:T6 Arg2:T24	
+R22	Experiences Arg1:T37 Arg2:T33	
+R23	Experiences Arg1:T37 Arg2:T3	
+T57	Observation 512 523	irresecable
+#45	AnnotatorNotes T57	C4039777; Tumor surgically unresectable; Finding
+R24	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T57	
+R25	Before Arg1:T12 Arg2:T27	
+R26	Negation Arg1:T40 Arg2:T19	
+R27	Negation Arg1:T39 Arg2:T13	
+R28	Negation Arg1:T49 Arg2:T16	
+R29	Negation Arg1:T48 Arg2:T15	
+R30	Experiences Arg1:T47 Arg2:T15	
+R31	Experiences Arg1:T47 Arg2:T16	
+T58	Observation 949 960	irresecable
+#46	AnnotatorNotes T58	C4039777; Tumor surgically unresectable; Finding
+R32	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T58	
+R33	Before Arg1:T17 Arg2:T28	
+T59	Observation 822 833	irresecable
+#47	AnnotatorNotes T59	C4039777; Tumor surgically unresectable; Finding
+T60	Quantifier_or_Qualifier 809 820	estadio III
+R35	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T60	
+R36	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T59	
+T61	Quantifier_or_Qualifier 837 847	estadio IV
+R37	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T61	
+R38	Experiences Arg1:T47 Arg2:T18	
+R39	Experiences Arg1:T47 Arg2:T17	
+R41	Experiences Arg1:T47 Arg2:T28	
+R42	Location_of Arg1:T29 Arg2:T20	
+R43	Location_of Arg1:T30 Arg2:T21	
+T62	Quantifier_or_Qualifier 1071 1078	activas
+#48	AnnotatorNotes T62	C0679217; Active State; Idea or Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T62	
+R45	Experiences Arg1:T51 Arg2:T23	
+R46	Location_of Arg1:T31 Arg2:T22	
+T63	Quantifier_or_Qualifier 1164 1170	activa
+#49	AnnotatorNotes T63	C0679217; Active State; Idea or Concept
+R47	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T63	
+R48	Speculation Arg1:T52 Arg2:T23	
+T64	CONC 598 632	Eastern Cooperative Oncology Group
+#50	AnnotatorNotes T64	C1520224; ECOG performance status; Intellectual Product
+T65	CONC 634 638	ECOG
+#51	AnnotatorNotes T65	C1520224; ECOG performance status; Intellectual Product
+R49	Used_for Arg1:T65 Arg2:T44	
+R50	Used_for Arg1:T64 Arg2:T44	
+T66	Result_or_Value 640 645	</= 1
+R51	Has_Age Arg1:T42 Arg2:T43	
+R52	Experiences Arg1:T42 Arg2:T44	
+R53	Has_Result_or_Value Arg1:T65 Arg2:T66	
+R54	Has_Result_or_Value Arg1:T64 Arg2:T66	
+T67	CONC 708 714	Lansky
+#52	AnnotatorNotes T67	C1522275; Lansky Play-Performance Status; Intellectual Product
+R55	Used_for Arg1:T67 Arg2:T46	
+T68	Result_or_Value 716 723	>/= 80%
+R56	Has_Result_or_Value Arg1:T67 Arg2:T68	
+R57	Has_Age Arg1:T41 Arg2:T45	
+R58	Experiences Arg1:T41 Arg2:T46	
+R59	Before Arg1:T10 Arg2:T25	
+#53	AnnotatorNotes T16	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+#54	AnnotatorNotes T53	C0205171; Singular; Quantitative Concept
+A17	Experiencer T51 Patient
+A18	Experiencer T47 Patient
+A19	Experiencer T41 Patient
+A20	Experiencer T42 Patient
+A21	Experiencer T35 Patient
+A22	Experiencer T37 Patient

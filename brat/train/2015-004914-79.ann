@@ -1,0 +1,154 @@
+T1	PROC 46 127	Estudio de la seguridad, tolerabilidad, farmacocinética/farmacodinamia y eficacia
+T2	CHEM 185 194	nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	DISO 198 204	cáncer
+#2	AnnotatorNotes T3	C0006826; Malignant Neoplasms; Neoplastic Process
+T4	PROC 236 253	Estudio fase 1/2a
+T5	CHEM 300 309	nivolumab
+#3	AnnotatorNotes T5	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	CHEM 323 354	anticuerpo monoclonal anti-PD-1
+#4	AnnotatorNotes T6	C4289970; Anti-PD1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	CHEM 257 267	BMS-986205
+#5	AnnotatorNotes T7	C4683552; BMS-986205; Immunologic Factor · Pharmacologic Substance
+T8	DISO 359 375	tumores malignos
+#6	AnnotatorNotes T8	C0006826; Malignant Neoplasms; Neoplastic Process
+T9	DISO 409 425	Tumores malignos
+#7	AnnotatorNotes T9	C0006826; Malignant Neoplasms; Neoplastic Process
+T10	PROC 495 509	diagnosticados
+#8	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 514 520	cáncer
+#9	AnnotatorNotes T11	C0006826; Malignant Neoplasms; Neoplastic Process
+T12	PROC 563 583	tratamiento estándar
+#10	AnnotatorNotes T12	C2936643; Standard of Care; Health Care Activity
+T13	CHEM 311 321	BMS-936558
+#11	AnnotatorNotes T13	C4552119; BMS-936558; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	PROC 759 773	ensayo clínico
+#12	AnnotatorNotes T14	C0008976; Clinical Trials; Research Activity
+T15	CHEM 878 885	oxígeno
+#13	AnnotatorNotes T15	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T16	DISO 909 929	Infarto de miocardio
+#14	AnnotatorNotes T16	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T17	DISO 932 948	derrame cerebral
+#15	AnnotatorNotes T17	C0038454; Cerebrovascular accident; Disease or Syndrome
+T18	DISO 949 977	ataque isquémico transitorio
+#16	AnnotatorNotes T18	C0007787; Transient Ischemic Attack; Disease or Syndrome
+T19	DISO 1006 1012	Angina
+#17	AnnotatorNotes T19	C0002962; Angina Pectoris; Sign or Symptom
+T20	DISO 1068 1085	hepatitis crónica
+#18	AnnotatorNotes T20	C0019189; Hepatitis, Chronic; Disease or Syndrome
+T21	DISO 1156 1195	síndrome de inmunodeficiencia adquirida
+#19	AnnotatorNotes T21	C0001175; Acquired Immunodeficiency Syndrome; Disease or Syndrome
+T22	DISO 1087 1109	hepatitis activa B o C
+T23	DISO 1197 1201	SIDA
+#20	AnnotatorNotes T23	C0001175; Acquired Immunodeficiency Syndrome; Disease or Syndrome
+T24	CHEM 142 152	BMS-986205
+#21	AnnotatorNotes T24	C4683552; BMS-986205; Immunologic Factor · Pharmacologic Substance
+T25	CHEM 797 806	nivolumab
+#22	AnnotatorNotes T25	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T26	ANAT 920 929	miocardio
+#23	AnnotatorNotes T26	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T27	ANAT 940 948	cerebral
+#24	AnnotatorNotes T27	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T28	DISO 1111 1147	virus de la inmunodeficiencia humana
+T29	DISO 1149 1152	VIH
+#25	AnnotatorNotes T29	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T30	Date 13 17	2015
+T31	PHYS 86 101	farmacocinética
+#26	AnnotatorNotes T31	C0031327; Drug Kinetics; Physiologic Function
+T32	LIVB 468 477	pacientes
+#27	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 591 600	pacientes
+#28	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	PHYS 622 628	tragar
+#29	AnnotatorNotes T34	C0011167; Deglutition; Organism Function
+T35	Form 629 638	pastillas
+T36	Form 641 649	cápsulas
+#30	AnnotatorNotes T36	C4722245; Capsule Dose Form Category; Functional Concept
+T38	Frequency 900 906	diario
+T39	Duration 966 977	transitorio
+#31	AnnotatorNotes T39	C0205374; Transitory; Temporal Concept
+T40	Duration 981 1003	los 6 meses anteriores
+T42	Duration 1030 1052	los 3 meses anteriores
+T43	Duration 1078 1085	crónica
+#32	AnnotatorNotes T43	C0205191; chronic; Temporal Concept
+T37	PROC 878 899	oxígeno suplementario
+#33	AnnotatorNotes T37	C0919655; Oxygen supplementation; Therapeutic or Preventive Procedure
+T41	PHYS 102 116	farmacodinamia
+#34	AnnotatorNotes T41	C0851347; Pharmacodynamics; Biologic Function
+T44	PROC 652 668	Estado funcional
+#35	AnnotatorNotes T44	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+A1	Status T12 History_of
+A2	Status T14 History_of
+A3	Status T25 History_of
+A4	Status T16 History_of
+A5	Status T17 History_of
+A6	Status T18 History_of
+A7	Status T19 History_of
+A8	Status T20 History_of
+A9	Status T22 History_of
+A10	Status T28 History_of
+A11	Status T29 History_of
+A12	Status T21 History_of
+A13	Status T23 History_of
+#36	AnnotatorNotes T35	C0994475; Pills; Biomedical or Dental Material
+#37	AnnotatorNotes T22	C2711110; Hepatitis B and hepatitis C; Disease or Syndrome 
+#38	AnnotatorNotes T28	C0458074; Human immunodeficiency virus (HIV) status; Finding
+#39	AnnotatorNotes T1	C3274448; Tolerability Study; Research Activity + C0511730; Identify product efficacy and safety issues; Health Care Activity + C0201734; Pharmacokinetic study; Research Activity + C1709518; Pharmacodynamic Study; Research Activity
+T45	Quantifier_or_Qualifier 1016 1026	controlada
+A14	Assertion T45 Negated
+T46	Neg_cue 1013 1015	no
+R3	Combined_with Arg1:T24 Arg2:T2	
+T47	Quantifier_or_Qualifier 205 213	avanzado
+#40	AnnotatorNotes T47	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T47	
+T48	Quantifier_or_Qualifier 376 385	avanzados
+#41	AnnotatorNotes T48	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T48	
+T49	Quantifier_or_Qualifier 426 435	avanzados
+#42	AnnotatorNotes T49	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T49	
+R7	Combined_with Arg1:T7 Arg2:T5	
+R8	Combined_with Arg1:T7 Arg2:T13	
+R9	Combined_with Arg1:T7 Arg2:T6	
+R10	Experiences Arg1:T32 Arg2:T11	
+T50	Quantifier_or_Qualifier 552 562	al menos 1
+R11	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T50	
+R12	Experiences Arg1:T32 Arg2:T12	
+T51	Observation 611 649	capaces de tragar pastillas o cápsulas
+#43	AnnotatorNotes T51	C4543300; Ability to swallow pills; Finding
+R13	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T51	
+R15	Used_for Arg1:T35 Arg2:T34	
+R16	Used_for Arg1:T36 Arg2:T34	
+R17	Experiences Arg1:T33 Arg2:T34	
+T52	CONC 669 673	ECOG
+#44	AnnotatorNotes T52	C1520224; ECOG performance status; Intellectual Product
+T53	CONC 675 709	Eastern Cooperative Oncology Group
+#45	AnnotatorNotes T53	C1520224; ECOG performance status; Intellectual Product
+R18	Used_for Arg1:T52 Arg2:T44	
+R19	Used_for Arg1:T53 Arg2:T44	
+T54	Result_or_Value 714 719	0 a 1
+R20	Has_Result_or_Value Arg1:T53 Arg2:T54	
+R21	Has_Result_or_Value Arg1:T52 Arg2:T54	
+T55	CONC 811 824	supervivencia
+#46	AnnotatorNotes T55	C0220921; survival aspects; Functional Concept
+T56	Quantifier_or_Qualifier 783 792	en marcha
+#47	AnnotatorNotes T56	C0549178; Continuous; Idea or Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T56	
+T57	Quantifier_or_Qualifier 825 831	global
+#48	AnnotatorNotes T57	C2348867; Global; Qualitative Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T57	
+R24	Has_Frequency Arg1:T15 Arg2:T38	
+R25	Used_for Arg1:T15 Arg2:T37	
+R26	Location_of Arg1:T26 Arg2:T16	
+R27	Location_of Arg1:T27 Arg2:T17	
+R28	Location_of Arg1:T27 Arg2:T18	
+R29	Has_Duration_or_Interval Arg1:T18 Arg2:T39	
+R30	Overlap Arg1:T18 Arg2:T40	
+R31	Overlap Arg1:T17 Arg2:T40	
+R32	Overlap Arg1:T16 Arg2:T40	
+R33	Negation Arg1:T46 Arg2:T45	
+R34	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T45	
+R35	Overlap Arg1:T19 Arg2:T42	
+R36	Has_Duration_or_Interval Arg1:T20 Arg2:T43	
+A15	Experiencer T32 Patient
+A16	Experiencer T33 Patient

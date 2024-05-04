@@ -1,0 +1,240 @@
+T1	PROC 46 73	Tratamiento antirretroviral
+#1	AnnotatorNotes T1	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T2	CHEM 58 73	antirretroviral
+#2	AnnotatorNotes T2	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T3	ANAT 871 874	cel
+#3	AnnotatorNotes T3	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T4	PROC 125 152	Tratamiento antirretroviral
+#4	AnnotatorNotes T4	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T5	CHEM 137 152	antirretroviral
+#5	AnnotatorNotes T5	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T6	PROC 183 226	ensayo clínico piloto de prueba de concepto
+T7	DISO 353 372	infectado por VIH-1
+T8	PROC 407 434	tratamiento antirretroviral
+#6	AnnotatorNotes T8	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T9	PROC 949 985	consentimiento informado por escrito
+#7	AnnotatorNotes T9	C0811741; Obtain informed written consent; Health Care Activity
+T10	PROC 472 483	Tratamiento
+#8	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	CHEM 507 510	3TC
+#9	AnnotatorNotes T11	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T12	PROC 530 567	cambio de tratamiento antirretroviral
+#10	AnnotatorNotes T12	C2919691; Treatment changed; Health Care Activity + C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T13	PROC 846 865	Nivel actual de CD4
+#11	AnnotatorNotes T13	C0243009; CD4 Count determination procedure; Laboratory Procedure (?)
+T14	ANAT 862 865	CD4
+#12	AnnotatorNotes T14	C0039215; CD4 Positive T Lymphocytes; Cell
+T15	CHEM 890 917	inhibidores de la integrasa
+#13	AnnotatorNotes T15	C0376601; Integrase Inhibitors; Biologically Active Substance · Pharmacologic Substance
+T16	DISO 1191 1201	mutaciones
+#14	AnnotatorNotes T16	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+T17	PROC 1078 1090	pauta de TAR
+T18	CHEM 1111 1114	FTC
+#15	AnnotatorNotes T18	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T19	CHEM 1105 1108	3TC
+#16	AnnotatorNotes T19	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T20	DISO 1376 1386	mutaciones
+#17	AnnotatorNotes T20	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+T21	PROC 1310 1322	pauta de TAR
+T22	CHEM 1343 1346	FTC
+#18	AnnotatorNotes T22	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T23	CHEM 1337 1340	3TC
+#19	AnnotatorNotes T23	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T24	PROC 1436 1445	Detección
+#20	AnnotatorNotes T24	C1511790; Detection; Therapeutic or Preventive Procedure
+T25	CHEM 1488 1500	ADN proviral
+#21	AnnotatorNotes T25	C4034198; HIV proviral DNA; Biologically Active Substance · Nucleic Acid, Nucleoside, or Nucleotide
+T26	DISO 577 589	intolerancia
+#22	AnnotatorNotes T26	C0277585; Intolerance to drug; Pathologic Function
+T27	ANAT 1504 1521	sangre periférica
+#23	AnnotatorNotes T27	C0229664; peripheral blood; Body Substance
+T28	PROC 1531 1544	secuenciación
+#24	AnnotatorNotes T28	C0162801; Sequence Analysis; Molecular Biology Research Technique
+T29	PROC 1666 1687	método anticonceptivo
+#25	AnnotatorNotes T29	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T30	CHEM 513 516	FTC
+#26	AnnotatorNotes T30	C0909839; emtricitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T31	DISO 251 254	VIH
+#27	AnnotatorNotes T31	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T32	DISO 281 314	Virus de Inmunodeficiencia Humana
+#28	AnnotatorNotes T32	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T33	CHEM 419 434	antirretroviral
+#29	AnnotatorNotes T33	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T34	CHEM 552 567	antirretroviral
+#30	AnnotatorNotes T34	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T35	PROC 625 636	Carga viral
+#31	AnnotatorNotes T35	C1261478; Viral load measurement; Laboratory Procedure
+T36	DISO 1474 1484	mutaciones
+#32	AnnotatorNotes T36	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+T37	Date 13 17	2017
+T38	PROC 85 93	genotipo
+#33	AnnotatorNotes T38	C1285573; Genotype determination; Laboratory Procedure
+T39	PROC 164 172	genotipo
+#34	AnnotatorNotes T39	C1285573; Genotype determination; Laboratory Procedure
+T42	LIVB 344 352	Paciente
+#35	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Age 382 391	> 18 años
+T44	Duration 451 467	al menos 3 meses
+T45	Date 484 490	actual
+T46	Duration 674 688	al menos 1 año
+T47	Duration 735 749	los tres meses
+T48	Date 852 858	actual
+T49	LIVB 1028 1037	pacientes
+#36	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T53	Neg_cue 1183 1186	sin
+T54	LIVB 1263 1272	pacientes
+#37	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	PROC 1349 1357	genotipo
+#38	AnnotatorNotes T55	C1285573; Genotype determination; Laboratory Procedure
+T56	LIVB 1582 1601	Mujeres embarazadas
+#39	AnnotatorNotes T56	C0033011; Pregnant Women; Population Group
+T57	LIVB 1603 1612	lactantes
+#40	AnnotatorNotes T57	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T58	Age 1618 1629	edad fértil
+T59	PHYS 1590 1601	embarazadas
+#41	AnnotatorNotes T59	C0032961; Pregnancy; Organism Function
+T60	Neg_cue 1634 1636	no
+T61	LIVB 631 636	viral
+#42	AnnotatorNotes T61	C0042776; Virus; Virus
+T40	LIVB 367 372	VIH-1
+#43	AnnotatorNotes T40	C0019704; HIV-1; Virus
+T41	PHYS 931 939	entender
+#44	AnnotatorNotes T41	C0162340; Comprehension; Mental Process
+T50	PROC 1162 1170	genotipo
+#45	AnnotatorNotes T50	C1285573; Genotype determination; Laboratory Procedure
+T51	Neg_cue 882 889	Naïve a
+A1	Status T15 History_of
+A2	Assertion T15 Negated
+A3	Assertion T16 Negated
+A4	Assertion T29 Negated
+A5	Status T10 History_of
+A6	Status T11 History_of
+A7	Status T30 History_of
+#46	AnnotatorNotes T6	C0031928; Pilot Projects; Research Activity + C4505280; Proof of Concept Study; Research Activity 
+#47	AnnotatorNotes T7	C2363741; HIV-1 infection; Disease or Syndrome
+#48	AnnotatorNotes T45	C0521116; Current (present time); Temporal Concept 
+#49	AnnotatorNotes T48	C0521116; Current (present time); Temporal Concept 
+T52	Observation 1055 1073	fracaso virológico
+A8	Status T52 History_of
+A9	Assertion T52 Negated
+T62	Neg_cue 1040 1042	no
+R1	Negation Arg1:T51 Arg2:T15	
+R2	Negation Arg1:T62 Arg2:T52	
+R3	Negation Arg1:T53 Arg2:T16	
+T63	Quantifier_or_Qualifier 1202 1209	M184V/I
+A10	Assertion T63 Negated
+T64	Quantifier_or_Qualifier 1212 1220	K65R/E/N
+A11	Assertion T64 Negated
+R4	Negation Arg1:T53 Arg2:T64	
+R5	Negation Arg1:T53 Arg2:T63	
+R6	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T63	
+R7	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T64	
+T65	Quantifier_or_Qualifier 1387 1394	M184V/I
+R8	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T65	
+T66	Quantifier_or_Qualifier 1397 1405	K65R/E/N
+R9	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T66	
+T67	Quantifier_or_Qualifier 1559 1566	M184V/I
+T68	Quantifier_or_Qualifier 1569 1577	K65R/E/N
+R10	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T67	
+R11	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T68	
+R12	Negation Arg1:T60 Arg2:T29	
+T69	Observation 1287 1305	fracaso virológico
+#50	AnnotatorNotes T69	C4053865; Virologic Non-Response; Finding (?)
+R13	Overlap Arg1:T69 Arg2:T21	
+R14	Used_for Arg1:T23 Arg2:T21	
+R15	Used_for Arg1:T22 Arg2:T21	
+T70	Observation 1139 1146	fracaso
+#51	AnnotatorNotes T70	C4053865; Virologic Non-Response; Finding (?)
+#52	AnnotatorNotes T52	C4053865; Virologic Non-Response; Finding (?)
+A12	Status T69 History_of
+R16	Used_for Arg1:T2 Arg2:T1	
+R17	Before Arg1:T38 Arg2:T1	
+R18	Before Arg1:T39 Arg2:T4	
+R19	Used_for Arg1:T5 Arg2:T4	
+T71	Quantifier_or_Qualifier 94 102	proviral
+R20	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T71	
+T72	Quantifier_or_Qualifier 173 181	proviral
+R21	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T72	
+R22	Causes Arg1:T40 Arg2:T7	
+R23	Experiences Arg1:T42 Arg2:T7	
+R24	Used_for Arg1:T33 Arg2:T8	
+R25	Has_Duration_or_Interval Arg1:T33 Arg2:T44	
+T73	Quantifier_or_Qualifier 435 442	estable
+#53	AnnotatorNotes T73	C0205360; Stable status; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T73	
+R27	Overlap Arg1:T11 Arg2:T45	
+R28	Overlap Arg1:T30 Arg2:T45	
+R29	Used_for Arg1:T11 Arg2:T10	
+R30	Used_for Arg1:T30 Arg2:T10	
+T74	Observation 521 526	Deseo
+#54	AnnotatorNotes T74	C0600109; Willing; Finding
+R31	Overlap Arg1:T74 Arg2:T12	
+R32	Used_for Arg1:T34 Arg2:T12	
+R33	Causes Arg1:T34 Arg2:T26	
+T75	Result_or_Value 651 661	<50 cop/mL
+R34	Has_Duration_or_Interval Arg1:T35 Arg2:T46	
+R35	Has_Result_or_Value Arg1:T35 Arg2:T75	
+T76	Result_or_Value 637 649	indetectable
+#55	AnnotatorNotes T76	C3827727; Undetectable; Clinical Attribute
+R36	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T76	
+T77	Result_or_Value 701 708	un blip
+T78	Result_or_Value 710 724	≤500 copias/mL
+T79	Quantifier_or_Qualifier 763 772	inclusión
+#56	AnnotatorNotes T79	C1512693; Inclusion; Qualitative Concept
+R37	Before Arg1:T77 Arg2:T79	
+R38	Before Arg1:T78 Arg2:T79	
+R39	Before Arg1:T77 Arg2:T47	
+R40	Before Arg1:T78 Arg2:T47	
+T80	Result_or_Value 829 841	indetectable
+#57	AnnotatorNotes T80	C3827727; Undetectable; Clinical Attribute
+R41	Before Arg1:T80 Arg2:T77	
+R42	After Arg1:T80 Arg2:T77	
+R43	Before Arg1:T80 Arg2:T78	
+R44	After Arg1:T80 Arg2:T78	
+T81	Result_or_Value 866 877	>350 cel/µL
+R45	Has_Result_or_Value Arg1:T13 Arg2:T81	
+R46	Overlap Arg1:T13 Arg2:T48	
+R47	Overlap Arg1:T41 Arg2:T9	
+T82	Observation 922 927	Capaz
+#58	AnnotatorNotes T82	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R48	Overlap Arg1:T82 Arg2:T41	
+R49	Overlap Arg1:T82 Arg2:T9	
+R50	Experiences Arg1:T49 Arg2:T52	
+R51	Experiences Arg1:T49 Arg2:T17	
+#59	AnnotatorNotes T21	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure (?)
+#60	AnnotatorNotes T17	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure (?)
+R52	Used_for Arg1:T19 Arg2:T17	
+R53	Used_for Arg1:T18 Arg2:T17	
+R54	Experiences Arg1:T49 Arg2:T70	
+R55	Overlap Arg1:T70 Arg2:T50	
+R57	Experiences Arg1:T49 Arg2:T50	
+R58	Experiences Arg1:T49 Arg2:T16	
+R59	Overlap Arg1:T52 Arg2:T17	
+R60	Experiences Arg1:T54 Arg2:T69	
+R61	Experiences Arg1:T54 Arg2:T21	
+R62	Experiences Arg1:T54 Arg2:T55	
+R63	Experiences Arg1:T54 Arg2:T20	
+A13	Status T55 History_of
+R65	Before Arg1:T55 Arg2:T21	
+R66	Before Arg1:T55 Arg2:T69	
+R68	Location_of Arg1:T27 Arg2:T36	
+R69	Before Arg1:T28 Arg2:T24	
+R71	Location_of Arg1:T25 Arg2:T36	
+R72	Experiences Arg1:T56 Arg2:T59	
+R73	Overlap Arg1:T29 Arg2:T58	
+T83	Quantifier_or_Qualifier 1688 1696	adecuado
+A14	Assertion T83 Negated
+#61	AnnotatorNotes T83	C0205411; Adequate; Qualitative Concept
+R74	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T83	
+R75	Negation Arg1:T60 Arg2:T83	
+R76	Before Arg1:T79 Arg2:T80	
+R77	After Arg1:T79 Arg2:T80	
+R78	Experiences Arg1:T49 Arg2:T19	
+R79	Experiences Arg1:T49 Arg2:T18	
+R80	Experiences Arg1:T54 Arg2:T23	
+R81	Experiences Arg1:T54 Arg2:T22	
+A15	Experiencer T42 Patient
+A16	Experiencer T49 Patient
+A17	Experiencer T54 Patient
+A18	Experiencer T56 Patient
+A19	Experiencer T57 Patient

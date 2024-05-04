@@ -1,0 +1,436 @@
+T1	CHEM 59 69	penicilina
+#1	AnnotatorNotes T1	C0030842; penicillins; Antibiotic · Organic Chemical
+T2	CHEM 90 101	amoxicilina
+#2	AnnotatorNotes T2	C0002645; amoxicillin; Antibiotic · Organic Chemical
+T3	DISO 105 113	neumonía
+#3	AnnotatorNotes T3	C0032285; Pneumonia; Disease or Syndrome
+T4	CHEM 162 174	penicilina V
+#4	AnnotatorNotes T4	C0030840; penicillin V; Antibiotic · Organic Chemical
+T5	DISO 348 356	neumonía
+#5	AnnotatorNotes T5	C0032285; Pneumonia; Disease or Syndrome
+T6	CHEM 189 200	amoxicilina
+#6	AnnotatorNotes T6	C0002645; amoxicillin; Antibiotic · Organic Chemical
+T7	PROC 221 232	tratamiento
+#7	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 239 247	neumonía
+#8	AnnotatorNotes T8	C0032285; Pneumonia; Disease or Syndrome
+T9	DISO 1106 1120	estado confuso
+T10	DISO 415 457	infección del tracto respiratorio inferior
+#9	AnnotatorNotes T10	C0149725; Lower respiratory tract infection; Disease or Syndrome
+T11	PROC 496 507	diagnóstico
+#10	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	DISO 598 615	signos y síntomas
+#11	AnnotatorNotes T12	C0037088; Signs and Symptoms; Sign or Symptom
+T13	DISO 619 661	infección del tracto respiratorio inferior
+#12	AnnotatorNotes T13	C0149725; Lower respiratory tract infection; Disease or Syndrome
+T14	PROC 692 703	diagnóstico
+#13	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	DISO 787 795	síntomas
+#14	AnnotatorNotes T15	C1457887; Symptoms; Sign or Symptom
+T16	DISO 797 803	fiebre
+#15	AnnotatorNotes T16	C0015967; Fever; Sign or Symptom
+T17	DISO 823 826	tos
+#16	AnnotatorNotes T17	C0010200; Coughing; Sign or Symptom
+T18	DISO 829 852	expectoración purulenta
+T19	PROC 855 867	auscultación
+#17	AnnotatorNotes T19	C0004339; Auscultation; Diagnostic Procedure
+T20	ANAT 894 902	pulmonar
+#18	AnnotatorNotes T20	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T21	DISO 967 975	neumonía
+#19	AnnotatorNotes T21	C0032285; Pneumonia; Disease or Syndrome
+T22	PROC 983 1002	estudio radiológico
+#20	AnnotatorNotes T22	C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T23	DISO 1122 1129	delirio
+#21	AnnotatorNotes T23	C0011206; Delirium; Mental or Behavioral Dysfunction
+T24	DISO 1131 1143	obnubilación
+#22	AnnotatorNotes T24	C0683369; Clouded consciousness; Finding | C0877450; Obnubilation; Finding
+T25	DISO 1145 1152	estupor
+#23	AnnotatorNotes T25	C0085628; Stupor; Mental or Behavioral Dysfunction
+T26	DISO 1155 1159	coma
+#24	AnnotatorNotes T26	C0009421; Comatose; Disease or Syndrome
+T27	DISO 1345 1362	Hipersensibilidad
+#25	AnnotatorNotes T27	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T28	PROC 1382 1398	Saturación de O2
+#26	AnnotatorNotes T28	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T29	ANAT 1416 1422	axilar
+#27	AnnotatorNotes T29	C0004454; Axilla; Body Location or Region + C1279154; Entire axilla; Body Location or Region + C1283835; Entire axillary fossa; Body Location or Region
+T30	DISO 1429 1443	Asma bronquial
+#28	AnnotatorNotes T30	C0004096; Asthma; Disease or Syndrome
+T31	DISO 1465 1477	Comorbilidad
+#29	AnnotatorNotes T31	C1275743; Co-morbid conditions; Finding
+T32	DISO 1493 1512	insuficiencia renal
+#30	AnnotatorNotes T32	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T33	DISO 1514 1531	cirrosis hepática
+#31	AnnotatorNotes T33	C0023890; Liver Cirrhosis; Disease or Syndrome
+T34	DISO 1533 1555	insuficiencia cardíaca
+#32	AnnotatorNotes T34	C0018801; Heart failure; Disease or Syndrome
+T35	DISO 1557 1596	enfermedad pulmonar obstructiva crónica
+#33	AnnotatorNotes T35	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T36	DISO 1598 1619	cardiopatía isquémica
+#34	AnnotatorNotes T36	C0151744; Myocardial Ischemia; Disease or Syndrome
+T37	PROC 1620 1633	diagnosticada
+#35	AnnotatorNotes T37	C0011900; Diagnosis; Diagnostic Procedure
+T38	DISO 1657 1682	accidente cerebrovascular
+#36	AnnotatorNotes T38	C0038454; Cerebrovascular accident; Disease or Syndrome
+T39	PROC 1683 1696	diagnosticado
+#37	AnnotatorNotes T39	C0011900; Diagnosis; Diagnostic Procedure
+T40	DISO 1723 1747	diabetes mellitus tipo 1
+#38	AnnotatorNotes T40	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T41	DISO 1748 1758	Alteración
+#39	AnnotatorNotes T41	C0221423; Illness (finding); Sign or Symptom
+T42	PROC 1776 1796	radiografía de tórax
+#40	AnnotatorNotes T42	C0039985; Plain chest X-ray; Diagnostic Procedure
+T43	DISO 1798 1817	infiltrado alveolar
+#41	AnnotatorNotes T43	C0748141; PULMONARY INFILTRATE ALVEOLAR; Disease or Syndrome
+T44	ANAT 1831 1837	lóbulo
+#42	AnnotatorNotes T44	C0796494; lobe; Body Part, Organ, or Organ Component
+T45	DISO 1851 1866	derrame pleural
+#43	AnnotatorNotes T45	C0032227; Pleural effusion disorder; Disease or Syndrome
+T46	DISO 1869 1888	cavitación pulmonar
+T47	ANAT 1880 1888	pulmonar
+#44	AnnotatorNotes T47	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T48	PROC 1404 1422	Temperatura axilar
+T49	PROC 1919 1930	tratamiento
+#45	AnnotatorNotes T49	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T50	DISO 1948 1958	sociopatía
+#46	AnnotatorNotes T50	C0233523; Antisocial behavior; Mental or Behavioral Dysfunction
+T51	DISO 1961 1984	problemas psiquiátricos
+T52	DISO 1986 2013	adicción a drogas y alcohol
+T53	PROC 2078 2102	tratamiento por vía oral
+T54	DISO 2117 2134	náuseas y vómitos
+#47	AnnotatorNotes T54	C0027498; Nausea and vomiting; Sign or Symptom
+T55	PROC 2136 2148	gastrectomía
+#48	AnnotatorNotes T55	C0017118; Gastrectomy; Therapeutic or Preventive Procedure
+T56	PROC 2155 2162	cirugía
+#49	AnnotatorNotes T56	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T57	DISO 2165 2172	diarrea
+#50	AnnotatorNotes T57	C0011991; Diarrhea; Sign or Symptom
+T58	DISO 2180 2195	Inmunosupresión
+#51	AnnotatorNotes T58	C4048329; Immunosuppression; Disease or Syndrome
+T59	DISO 2197 2222	infección crónica por VIH
+T60	PROC 2224 2237	trasplantados
+#52	AnnotatorNotes T60	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T61	DISO 2239 2252	neutropénicos
+#53	AnnotatorNotes T61	C0027947; Neutropenia; Disease or Syndrome | C0853697; Neutrophil count decreased; Finding
+T62	PROC 2284 2310	tratamiento inmunosupresor
+#54	AnnotatorNotes T62	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T63	DISO 2311 2320	Neoplasia
+#55	AnnotatorNotes T63	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T64	DISO 2328 2347	Enfermedad terminal
+T65	PROC 2348 2363	Hospitalización
+#56	AnnotatorNotes T65	C0019993; Hospitalization; Health Care Activity
+T66	CHEM 2543 2555	antisépticos
+#57	AnnotatorNotes T66	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T67	PROC 2623 2645	visitas de seguimiento
+#58	AnnotatorNotes T67	C0589121; Follow-up visit; Health Care Activity
+T68	PROC 1025 1049	consentimiento informado
+#59	AnnotatorNotes T68	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T69	ANAT 429 457	tracto respiratorio inferior
+#60	AnnotatorNotes T69	C0035243; Respiratory Tract Infections; Disease or Syndrome
+T70	DISO 511 519	neumonía
+#61	AnnotatorNotes T70	C0032285; Pneumonia; Disease or Syndrome
+T71	ANAT 633 661	tracto respiratorio inferior
+#62	AnnotatorNotes T71	C0035243; Respiratory Tract Infections; Disease or Syndrome
+T72	DISO 707 715	neumonía
+#63	AnnotatorNotes T72	C0032285; Pneumonia; Disease or Syndrome
+T73	DISO 871 882	crepitantes
+#64	AnnotatorNotes T73	C0034642; Rales; Finding | C3887661; Stertor; Sign or Symptom
+T74	DISO 1077 1104	Alteración de la conciencia
+#65	AnnotatorNotes T74	C0234428; Disturbance of consciousness; Finding
+T75	ANAT 1253 1261	cardíaca
+#66	AnnotatorNotes T75	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T76	PROC 1283 1309	Tensión arterial sistólica
+#67	AnnotatorNotes T76	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T77	ANAT 1291 1299	arterial
+#68	AnnotatorNotes T77	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T78	PROC 1193 1216	Frecuencia respiratoria
+#69	AnnotatorNotes T78	C0561866; Respiratory rate monitoring; Health Care Activity
+T79	PROC 1242 1261	Frecuencia cardíaca
+#70	AnnotatorNotes T79	C2197023; examination of heart rate; Health Care Activity
+T80	CHEM 1396 1398	O2
+#71	AnnotatorNotes T80	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T81	ANAT 1434 1443	bronquial
+#72	AnnotatorNotes T81	C0006255; Bronchi; Body Part, Organ, or Organ Component | C0205039; Bronchial; Body Part, Organ, or Organ Component
+T82	ANAT 1507 1512	renal
+#73	AnnotatorNotes T82	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T83	ANAT 1523 1531	hepática
+#74	AnnotatorNotes T83	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T84	ANAT 1547 1555	cardíaca
+#75	AnnotatorNotes T84	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T85	ANAT 1568 1576	pulmonar
+#76	AnnotatorNotes T85	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T86	ANAT 1791 1796	tórax
+#77	AnnotatorNotes T86	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T87	ANAT 1809 1817	alveolar
+#78	AnnotatorNotes T87	C1440080; Alveolar; Body Part, Organ, or Organ Component
+T88	ANAT 1859 1866	pleural
+#79	AnnotatorNotes T88	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
+T89	ANAT 2127 2134	vómitos
+#80	AnnotatorNotes T89	C0042965; Vomitus; Body Substance
+T90	CHEM 1369 1381	β-lactámicos
+T91	CHEM 2296 2310	inmunosupresor
+#81	AnnotatorNotes T91	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T92	CHEM 2399 2410	antibiótico
+#82	AnnotatorNotes T92	C0003232; Antibiotics; Antibiotic
+T93	CHEM 2469 2481	antibióticos
+#83	AnnotatorNotes T93	C0003232; Antibiotics; Antibiotic
+T94	Date 12 16	2012
+T95	Dose 147 158	dosis altas
+#84	AnnotatorNotes T95	C0444956; High dose; Quantitative Concept
+T96	Route 175 179	oral
+#85	AnnotatorNotes T96	C1527415; Oral Route of Drug administration; Functional Concept
+T97	Dose 203 214	dosis altas
+#86	AnnotatorNotes T97	C0444956; High dose; Quantitative Concept
+T99	LIVB 272 281	comunidad
+#87	AnnotatorNotes T99	C0009462; Community; Group
+T100	LIVB 285 292	adultos
+#88	AnnotatorNotes T100	C0001675; Adult; Age Group
+T101	LIVB 335 343	Paciente
+#89	AnnotatorNotes T101	C0030705; Patients; Patient or Disabled Group
+T102	LIVB 382 391	pacientes
+#90	AnnotatorNotes T102	C0030705; Patients; Patient or Disabled Group
+T103	Age 392 410	entre 18 y 75 años
+T104	Age 551 569	entre 18 y 75 años
+T106	LIVB 754 762	paciente
+#91	AnnotatorNotes T106	C0030705; Patients; Patient or Disabled Group
+T107	LIVB 907 919	investigador
+#92	AnnotatorNotes T107	C0035173; Research Personnel; Professional or Occupational Group
+T108	PHYS 1094 1104	conciencia
+#93	AnnotatorNotes T108	C0009790; Conscience; Mental Process
+T109	LIVB 1179 1191	investigador
+#94	AnnotatorNotes T109	C0035173; Research Personnel; Professional or Occupational Group
+T113	PHYS 1268 1275	latidos
+#95	AnnotatorNotes T113	C0425583; Heart beat; Organ or Tissue Function
+T114	PHYS 1283 1299	Tensión arterial
+#96	AnnotatorNotes T114	C0005823; Blood Pressure; Organism Function
+T115	PROC 1283 1299;1323 1333	Tensión arterial diastólica
+#97	AnnotatorNotes T115	C1305849; Diastolic blood pressure measurement; Diagnostic Procedure
+T119	PHYS 1444 1452	Embarazo
+#98	AnnotatorNotes T119	C0032961; Pregnancy; Organism Function
+T120	PHYS 1455 1464	lactancia
+#99	AnnotatorNotes T120	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T121	Duration 1589 1596	crónica
+#100	AnnotatorNotes T121	C0205191; chronic; Temporal Concept
+T122	Date 1634 1655	hace menos de 6 meses
+T123	Date 1697 1718	hace menos de 6 meses
+T127	DISO 2055 2074	Falta de tolerancia
+#101	AnnotatorNotes T127	C0277585; Intolerance to drug; Pathologic Function
+T128	Route 2094 2102	vía oral
+#102	AnnotatorNotes T128	C1527415; Oral Route of Drug administration; Functional Concept
+T129	Date 2150 2162	post-cirugía
+#103	AnnotatorNotes T129	C0032790; Postoperative Period; Temporal Concept
+T130	Duration 2207 2214	crónica
+#104	AnnotatorNotes T130	C0205191; chronic; Temporal Concept
+T131	LIVB 2219 2222	VIH
+#105	AnnotatorNotes T131	C0019682; HIV; Virus
+T132	LIVB 2262 2271	pacientes
+#106	AnnotatorNotes T132	C0030705; Patients; Patient or Disabled Group
+T133	Date 2367 2380	el último mes
+T134	Duration 2424 2437	los tres días
+T135	Route 2482 2488	orales
+#107	AnnotatorNotes T135	C1527415; Oral Route of Drug administration; Functional Concept
+T136	Duration 2492 2507	las dos semanas
+T137	ANAT 2556 2565	urinarios
+#108	AnnotatorNotes T137	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T140	ANAT 829 842	expectoración
+#109	AnnotatorNotes T140	C0038056; Sputum; Body Substance
+T98	CHEM 1997 2003	drogas
+#110	AnnotatorNotes T98	C0086190; Illicit Drugs; Hazardous or Poisonous Substance
+T105	PROC 663 687	Confirmación radiológica
+#111	AnnotatorNotes T105	C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T110	Neg_cue 718 720	no
+T111	PROC 721 745	confirmación radiológica
+#112	AnnotatorNotes T111	C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T112	Observation 2594 2645	Dificultad para acudir a las visitas de seguimiento
+#113	AnnotatorNotes T112	C0589126; Patient defaulted from follow-up; Finding (?)
+A1	Population_data T100 Age
+A2	Assertion T111 Negated
+A3	Status T27 History_of
+A4	Status T38 History_of
+A5	Status T65 History_of
+A6	Status T55 History_of
+A7	Status T56 History_of
+A8	Status T60 History_of
+#114	AnnotatorNotes T18	C0241235; Purulent sputum; Sign or Symptom 
+#115	AnnotatorNotes T9	C0009676; Confusion; Mental or Behavioral Dysfunction 
+#116	AnnotatorNotes T46	C0578537; Cavitation of lung; Disease or Syndrome 
+#117	AnnotatorNotes T51	C1306597; Psychiatric problem; Mental or Behavioral Dysfunction
+#118	AnnotatorNotes T59	C0853112; Chronic infection with HIV; Disease or Syndrome 
+#119	AnnotatorNotes T64	C0679247; Terminal illness; Disease or Syndrome
+T116	Quantifier_or_Qualifier 251 256	grave
+A9	Assertion T116 Negated
+#120	AnnotatorNotes T116	C1547227; Severe - Severity of Illness Code; Intellectual Product
+T117	Neg_cue 248 250	no
+T118	Neg_cue 2043 2045	no
+T124	Quantifier_or_Qualifier 2046 2054	adecuado
+A10	Assertion T124 Negated
+T125	CONC 2572 2591	motivo de exclusión
+A11	Assertion T125 Negated
+#121	AnnotatorNotes T125	C0680251; Exclusion Criteria; Functional Concept (?)
+T126	Neg_cue 2566 2568	no
+T138	Observation 2026 2042	entorno familiar
+#122	AnnotatorNotes T138	C0557240; Characteristics of home environment; Finding (?)
+R1	Negation Arg1:T118 Arg2:T124	
+R2	Negation Arg1:T117 Arg2:T116	
+R3	Negation Arg1:T110 Arg2:T111	
+T139	Food 2006 2013	alcohol
+#123	AnnotatorNotes T139	C0001967; Alcoholic Beverages; Food
+R4	Negation Arg1:T126 Arg2:T125	
+T141	Neg_cue 2646 2656	Negación a
+T142	Observation 2657 2681	participar en el estudio
+A12	Assertion T142 Negated
+#124	AnnotatorNotes T142	C1278516; Patient participation status; Finding
+R5	Negation Arg1:T141 Arg2:T142	
+R6	Has_Dose_or_Strength Arg1:T4 Arg2:T95	
+R7	Has_Route_or_Mode Arg1:T4 Arg2:T96	
+R8	Has_Dose_or_Strength Arg1:T6 Arg2:T97	
+R9	Used_for Arg1:T4 Arg2:T7	
+R10	Used_for Arg1:T6 Arg2:T7	
+R11	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T116	
+R12	Experiences Arg1:T100 Arg2:T4	
+R13	Experiences Arg1:T100 Arg2:T6	
+R14	Experiences Arg1:T100 Arg2:T8	
+R15	Experiences Arg1:T101 Arg2:T5	
+R16	Has_Age Arg1:T102 Arg2:T103	
+R17	Experiences Arg1:T102 Arg2:T10	
+R18	Location_of Arg1:T69 Arg2:T10	
+T143	PROC 464 480	radiológicamente
+R19	Before Arg1:T143 Arg2:T11	
+#125	AnnotatorNotes T143	C0043299; Diagnostic radiologic examination; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+R22	Experiences Arg1:T102 Arg2:T143	
+R23	Causes Arg1:T13 Arg2:T12	
+R24	Location_of Arg1:T71 Arg2:T13	
+R25	Before Arg1:T105 Arg2:T14	
+R28	Experiences Arg1:T106 Arg2:T105	
+R29	Experiences Arg1:T106 Arg2:T111	
+R30	Experiences Arg1:T106 Arg2:T72	
+R31	Experiences Arg1:T106 Arg2:T15	
+R32	Experiences Arg1:T106 Arg2:T16	
+R33	Experiences Arg1:T106 Arg2:T17	
+R34	Experiences Arg1:T106 Arg2:T18	
+R35	Experiences Arg1:T106 Arg2:T19	
+R36	Experiences Arg1:T106 Arg2:T73	
+R37	Experiences Arg1:T106 Arg2:T21	
+R38	Experiences Arg1:T106 Arg2:T22	
+R40	Location_of Arg1:T20 Arg2:T73	
+T144	Result_or_Value 813 820	>38.5ºC
+R42	Has_Result_or_Value Arg1:T16 Arg2:T144	
+T145	Quantifier_or_Qualifier 804 811	elevada
+#126	AnnotatorNotes T145	C0205250; High; Qualitative Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T145	
+R46	Overlap Arg1:T111 Arg2:T19	
+R48	Before Arg1:T19 Arg2:T22	
+R49	Before Arg1:T111 Arg2:T22	
+T146	CONC 954 963	inclusión
+#127	AnnotatorNotes T146	C1512693; Inclusion; Qualitative Concept
+R50	Before Arg1:T146 Arg2:T22	
+R51	Before Arg1:T105 Arg2:T146	
+R52	Before Arg1:T111 Arg2:T146	
+R53	Before Arg1:T16 Arg2:T146	
+R54	Before Arg1:T17 Arg2:T146	
+R55	Before Arg1:T18 Arg2:T146	
+R56	Before Arg1:T19 Arg2:T146	
+R57	Before Arg1:T73 Arg2:T146	
+T147	Result_or_Value 1217 1241	>30 respiraciones/minuto
+R64	Has_Result_or_Value Arg1:T78 Arg2:T147	
+T148	Result_or_Value 1262 1282	> 125 latidos/minuto
+R65	Has_Result_or_Value Arg1:T79 Arg2:T148	
+R66	Location_of Arg1:T75 Arg2:T79	
+R67	Location_of Arg1:T75 Arg2:T113	
+T149	Result_or_Value 1310 1320	< 90 mm Hg
+R69	Has_Result_or_Value Arg1:T76 Arg2:T149	
+T150	Result_or_Value 1334 1344	< 60 mm Hg
+R70	Has_Result_or_Value Arg1:T115 Arg2:T150	
+R71	Location_of Arg1:T77 Arg2:T76	
+R72	Location_of Arg1:T77 Arg2:T114	
+R73	Location_of Arg1:T77 Arg2:T115	
+R76	Causes Arg1:T90 Arg2:T27	
+#128	AnnotatorNotes T90	C1875633; PENICILLINS AND BETA-LACTAM ANTIMICROBIALS; Antibiotic
+T151	Result_or_Value 1423 1428	>40ºC
+R77	Location_of Arg1:T29 Arg2:T48	
+R78	Has_Result_or_Value Arg1:T48 Arg2:T151	
+T152	Result_or_Value 1399 1403	<92%
+R79	Has_Result_or_Value Arg1:T28 Arg2:T152	
+R80	Location_of Arg1:T81 Arg2:T30	
+T153	Quantifier_or_Qualifier 1478 1491	significativa
+#129	AnnotatorNotes T153	C1546944; Event Seriousness - Significant; Qualitative Concept
+R81	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T153	
+R82	Location_of Arg1:T82 Arg2:T32	
+R83	Location_of Arg1:T83 Arg2:T33	
+R84	Location_of Arg1:T84 Arg2:T34	
+R85	Location_of Arg1:T85 Arg2:T35	
+R86	Has_Duration_or_Interval Arg1:T35 Arg2:T121	
+R88	Overlap Arg1:T37 Arg2:T122	
+R87	Overlap Arg1:T39 Arg2:T123	
+T154	Quantifier_or_Qualifier 1759 1769	importante
+#130	AnnotatorNotes T154	C3898777; Important; Qualitative Concept
+R89	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T154	
+R90	Location_of Arg1:T86 Arg2:T42	
+R93	Location_of Arg1:T87 Arg2:T43	
+R96	Location_of Arg1:T88 Arg2:T45	
+R97	Location_of Arg1:T47 Arg2:T46	
+T155	Quantifier_or_Qualifier 1821 1830	más de un
+R98	Location_of Arg1:T44 Arg2:T43	
+R99	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T155	
+T156	Quantifier_or_Qualifier 1840 1849	bilateral
+#131	AnnotatorNotes T156	C0238767; Bilateral; Spatial Concept
+R100	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T156	
+T157	Observation 1889 1946	Problemas en poder cumplir el tratamiento en el domicilio
+R101	Causes Arg1:T98 Arg2:T52	
+R102	Causes Arg1:T139 Arg2:T52	
+#132	AnnotatorNotes T52	C2919052; Alcohol or other drugs dependence; Mental or Behavioral Dysfunction
+R103	Has_Quantifier_or_Qualifier Arg1:T138 Arg2:T124	
+#133	AnnotatorNotes T124	C0205411; Adequate; Qualitative Concept
+R105	Has_Route_or_Mode Arg1:T53 Arg2:T128	
+#134	AnnotatorNotes T53	C1273553; Oral administration of treatment; Therapeutic or Preventive Procedure
+R106	Location_of Arg1:T89 Arg2:T54	
+T158	Quantifier_or_Qualifier 2173 2179	franca
+R108	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T158	
+R109	Causes Arg1:T131 Arg2:T59	
+R110	Has_Duration_or_Interval Arg1:T59 Arg2:T130	
+R111	Causes Arg1:T59 Arg2:T58	
+R112	Causes Arg1:T60 Arg2:T58	
+R113	Causes Arg1:T61 Arg2:T58	
+R114	Causes Arg1:T62 Arg2:T58	
+R115	Used_for Arg1:T91 Arg2:T62	
+R116	Experiences Arg1:T132 Arg2:T58	
+R117	Experiences Arg1:T132 Arg2:T59	
+R118	Experiences Arg1:T132 Arg2:T61	
+R119	Experiences Arg1:T132 Arg2:T60	
+R120	Experiences Arg1:T132 Arg2:T62	
+T159	Quantifier_or_Qualifier 2321 2327	activa
+#135	AnnotatorNotes T159	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R121	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T159	
+R122	Overlap Arg1:T65 Arg2:T133	
+R123	Has_Duration_or_Interval Arg1:T92 Arg2:T134	
+T160	Quantifier_or_Qualifier 2411 2420	sistémico
+#136	AnnotatorNotes T160	C0205373; Systemic; Functional Concept
+R124	Has_Quantifier_or_Qualifier Arg1:T92 Arg2:T160	
+R125	Has_Route_or_Mode Arg1:T93 Arg2:T135	
+R126	Overlap Arg1:T93 Arg2:T136	
+T161	CONC 2521 2530	inclusión
+#137	AnnotatorNotes T161	C1512693; Inclusion; Qualitative Concept
+R127	Before Arg1:T93 Arg2:T161	
+R128	Before Arg1:T92 Arg2:T161	
+R129	Location_of Arg1:T137 Arg2:T66	
+R130	Before Arg1:T111 Arg2:T14	
+R131	Before Arg1:T22 Arg2:T14	
+R132	Before Arg1:T15 Arg2:T146	
+R133	Before Arg1:T55 Arg2:T53	
+R134	Before Arg1:T56 Arg2:T53	
+R20	Experiences Arg1:T102 Arg2:T70	
+R21	Overlap Arg1:T17 Arg2:T18	
+R26	Overlap Arg1:T18 Arg2:T73	
+R27	Overlap Arg1:T16 Arg2:T17	
+R39	Overlap Arg1:T16 Arg2:T18	
+R41	Overlap Arg1:T16 Arg2:T73	
+R44	Overlap Arg1:T17 Arg2:T73	
+R45	Causes Arg1:T53 Arg2:T127	
+A13	Experiencer T100 Patient
+A14	Experiencer T99 Other
+A15	Experiencer T101 Patient
+A16	Experiencer T102 Patient
+A17	Experiencer T106 Patient
+A18	Experiencer T107 Other
+A19	Experiencer T109 Other
+A20	Experiencer T132 Patient

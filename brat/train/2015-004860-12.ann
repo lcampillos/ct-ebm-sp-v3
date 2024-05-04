@@ -1,0 +1,365 @@
+T1	PROC 56 79	terapias personalizadas
+T2	DISO 97 130	carcinoma de páncreas metastásico
+T3	PROC 145 162	análisis genético
+#1	AnnotatorNotes T3	C0679560; Genetic screening method; Laboratory Procedure
+T4	DISO 167 172	tumor
+#2	AnnotatorNotes T4	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T5	DISO 214 244	Cáncer de páncreas metastásico
+T6	DISO 340 378	adenocarcinoma metastásico de páncreas
+T7	ANAT 370 378	páncreas
+#3	AnnotatorNotes T7	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T8	DISO 400 409	tumorales
+#4	AnnotatorNotes T8	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T9	DISO 452 470	Enfermedad medible
+#5	AnnotatorNotes T9	C1513041; Measurable Disease; Disease or Syndrome
+T10	PROC 525 537	radioterapia
+#6	AnnotatorNotes T10	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T11	PROC 539 546	cirugía
+#7	AnnotatorNotes T11	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T12	PROC 548 561	quimioterapia
+#8	AnnotatorNotes T12	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T13	PROC 574 602	tratamiento en investigación
+#9	AnnotatorNotes T13	C0949266; Therapies, Investigational; Therapeutic or Preventive Procedure
+T14	PROC 439 447	biopsiar
+#10	AnnotatorNotes T14	C0005558; Biopsy; Diagnostic Procedure
+T15	PROC 611 622	tratamiento
+#11	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	DISO 629 651	enfermedad metastásica
+#12	AnnotatorNotes T16	C2939420; Metastatic Neoplasm; Neoplastic Process
+T17	PROC 696 726	quimioterapia de primera línea
+#13	AnnotatorNotes T17	C2045825; chemotherapeutics regimen first line of treatment; Therapeutic or Preventive Procedure
+T18	PROC 742 764	radioterapia paliativa
+#14	AnnotatorNotes T18	C0475092; Palliative course of radiotherapy; Therapeutic or Preventive Procedure
+T19	DISO 774 790	metástasis óseas
+#15	AnnotatorNotes T19	C0153690; Secondary malignant neoplasm of bone; Neoplastic Process
+T20	PROC 795 804	Hemograma
+#16	AnnotatorNotes T20	C0009555; Complete Blood Count; Laboratory Procedure
+T21	PROC 870 884	aleatorización
+#17	AnnotatorNotes T21	C0034656; Randomization; Research Activity
+T22	PROC 888 920	Recuento absoluto de neutrófilos
+#18	AnnotatorNotes T22	C0948762; Absolute neutrophil count; Laboratory Procedure
+T23	PROC 922 925	RAN
+#19	AnnotatorNotes T23	C0948762; Absolute neutrophil count; Laboratory Procedure
+T24	PROC 947 956	Plaquetas
+#20	AnnotatorNotes T24	C0032181; Platelet Count measurement; Laboratory Procedure
+T25	ANAT 1037 1046	sanguínea
+#21	AnnotatorNotes T25	C0005767; Blood; Body Substance
+T26	PROC 1026 1046	Bioquímica sanguínea
+T27	PROC 1086 1090	SGOT
+T28	DISO 1180 1200	metástasis hepáticas
+#22	AnnotatorNotes T28	C0494165; Secondary malignant neoplasm of liver; Neoplastic Process
+T29	PROC 1235 1252	Bilirrubina total
+#23	AnnotatorNotes T29	C0201913; Bilirubin, total measurement; Laboratory Procedure
+T30	CHEM 1269 1277	Albúmina
+#24	AnnotatorNotes T30	C0001924; Albumins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T31	CHEM 1298 1308	Creatinina
+#25	AnnotatorNotes T31	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T32	ANAT 1309 1315	sérica
+#26	AnnotatorNotes T32	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T33	PROC 1456 1479	métodos anticonceptivos
+#27	AnnotatorNotes T33	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T34	DISO 1539 1560	Metástasis cerebrales
+#28	AnnotatorNotes T34	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T35	PROC 1595 1603	tratadas
+#29	AnnotatorNotes T35	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T36	DISO 1676 1686	enfermedad
+#30	AnnotatorNotes T36	C0012634; Disease; Disease or Syndrome
+T37	DISO 1723 1729	cáncer
+#31	AnnotatorNotes T37	C0006826; Malignant Neoplasms; Neoplastic Process
+T38	DISO 1756 1765;1789 1816	Infección bacteriana, viral o fúngica
+T39	PROC 1831 1852	tratamiento sistémico
+T40	PROC 1902 1919	biopsia del tumor
+T41	DISO 1924 1933	Infección
+#32	AnnotatorNotes T41	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T42	DISO 1959 1970	hepatitis B
+#33	AnnotatorNotes T42	C0019163; Hepatitis B; Disease or Syndrome
+T43	DISO 1974 1985	hepatitis C
+#34	AnnotatorNotes T43	C0019196; Hepatitis C; Disease or Syndrome
+T44	ANAT 2002 2016	cardiovascular
+#35	AnnotatorNotes T44	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T45	PROC 2053 2096	implantación reciente de un stent coronario
+T46	ANAT 2087 2096	coronario
+#36	AnnotatorNotes T46	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T47	DISO 2099 2119	infarto de miocardio
+#37	AnnotatorNotes T47	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T48	ANAT 2210 2217	órganos
+#38	AnnotatorNotes T48	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T49	DISO 2221 2245	trastornos psiquiátricos
+#39	AnnotatorNotes T49	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T50	DISO 1995 2016	riesgo cardiovascular
+#40	AnnotatorNotes T50	C4324389; Cardiovascular Risk; Finding
+T51	PROC 2426 2440	procedimientos
+#41	AnnotatorNotes T51	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T52	PROC 2516 2533	biopsia del tumor
+T53	PROC 2563 2575	intervención
+#42	AnnotatorNotes T53	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T54	ANAT 110 118	páncreas
+#43	AnnotatorNotes T54	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T55	ANAT 224 232	páncreas
+#44	AnnotatorNotes T55	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T56	DISO 410 422	metastásicos
+#45	AnnotatorNotes T56	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T57	ANAT 785 790	óseas
+#46	AnnotatorNotes T57	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T58	ANAT 909 920	neutrófilos
+#47	AnnotatorNotes T58	C0027950; neutrophil; Cell
+T59	PROC 993 1004	Hemoglobina
+#48	AnnotatorNotes T59	C0518015; Hemoglobin measurement; Laboratory Procedure
+T60	PROC 1006 1008	Hb
+#49	AnnotatorNotes T60	C0518015; Hemoglobin measurement; Laboratory Procedure
+T61	PROC 1081 1084	AST
+#50	AnnotatorNotes T61	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T62	PROC 1093 1096	ALT
+#51	AnnotatorNotes T62	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T63	PROC 1098 1102	SGPT
+#52	AnnotatorNotes T63	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T64	ANAT 1191 1200	hepáticas
+#53	AnnotatorNotes T64	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T65	CHEM 1235 1246	Bilirrubina
+#54	AnnotatorNotes T65	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T66	PROC 1269 1283	Albúmina total
+T67	PROC 1298 1315	Creatinina sérica
+#55	AnnotatorNotes T67	C0201976; Creatinine measurement, serum (procedure); Laboratory Procedure
+T68	PROC 1350 1386	Consentimiento informado por escrito
+#56	AnnotatorNotes T68	C0811741; Obtain informed written consent; Health Care Activity
+T69	ANAT 1550 1560	cerebrales
+#57	AnnotatorNotes T69	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T71	DISO 1914 1919	tumor
+#58	AnnotatorNotes T71	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T72	DISO 1954 1957	VIH
+#59	AnnotatorNotes T72	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T73	ANAT 2110 2119	miocardio
+#60	AnnotatorNotes T73	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T74	DISO 2528 2533	tumor
+#61	AnnotatorNotes T74	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T75	Date 12 16	2015
+T76	LIVB 83 92	pacientes
+#62	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T77	Age 279 295	mayor de 18 años
+T78	Spec_cue 423 435	susceptibles
+T79	LIVB 491 500	pacientes
+#63	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	Neg_cue 501 503	no
+T81	Duration 847 857	<= 14 días
+T84	LIVB 1396 1420	pacientes en edad fértil
+#64	AnnotatorNotes T84	C4324275; Woman of childbearing potential; Population Group
+T85	Age 1409 1420	edad fértil
+T88	Duration 1644 1660	al menos 3 meses
+T89	Duration 1733 1751	los últimos 5 años
+T91	LIVB 1789 1799	bacteriana
+#65	AnnotatorNotes T91	C0004611; Bacteria; Bacterium
+T92	LIVB 1801 1806	viral
+#66	AnnotatorNotes T92	C0042776; Virus; Virus
+T93	LIVB 1809 1816	fúngica
+#67	AnnotatorNotes T93	C0016832; Fungi; Fungus
+T97	Date 2066 2074	reciente
+T98	DEVI 2081 2096	stent coronario
+#68	AnnotatorNotes T98	C0687568; Coronary artery stent; Medical Device
+T99	Date 2123 2136	el pasado año
+T102	LIVB 2336 2381	Paciente embarazada o en periodo de lactancia
+#69	AnnotatorNotes T102	C0033011; Pregnant Women; Population Group + C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T103	LIVB 2387 2396	Pacientes
+#70	AnnotatorNotes T103	C0030705; Patients; Patient or Disabled Group
+T104	Neg_cue 2397 2409	incapaces de
+T105	LIVB 2458 2467	pacientes
+#71	AnnotatorNotes T105	C0030705; Patients; Patient or Disabled Group
+T107	GENE 154 162	genético
+#72	AnnotatorNotes T107	C0017337; Genes; Gene or Genome
+T110	PHYS 2345 2355	embarazada
+#73	AnnotatorNotes T110	C0032961; Pregnancy; Organism Function
+T82	PHYS 2372 2381	lactancia
+#74	AnnotatorNotes T82	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T70	PROC 299 336	Confirmación histológica o citológica
+#75	AnnotatorNotes T70	C1305671; Cytology procedure; Laboratory Procedure + C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T14 Speculated
+A2	Assertion T10 Negated
+A3	Assertion T11 Negated
+A4	Assertion T12 Negated
+A5	Assertion T13 Negated
+A8	Assertion T51 Negated
+A9	Status T41 History_of
+A10	Assertion T40 Contraindicated
+A11	Status T37 History_of
+A12	Status T10 History_of
+A13	Status T11 History_of
+A14	Status T12 History_of
+A15	Status T13 History_of
+A16	Status T35 History_of
+A17	Status T45 History_of
+A18	Status T47 History_of
+#76	AnnotatorNotes T97	C0332185; Recent; Temporal Concept
+T83	Neg_cue 1774 1776	no
+T86	Quantifier_or_Qualifier 1777 1787	controlada
+A6	Assertion T86 Negated
+T87	Neg_cue 2035 2037	no
+T90	Quantifier_or_Qualifier 2038 2046	limitado
+A7	Assertion T90 Negated
+T94	Spec_cue 2258 2265	podrían
+T95	Observation 2266 2306	comprometer la seguridad o la integridad
+A19	Assertion T95 Speculated
+R1	Negation Arg1:T80 Arg2:T10	
+R2	Negation Arg1:T80 Arg2:T11	
+R3	Negation Arg1:T80 Arg2:T12	
+R4	Negation Arg1:T80 Arg2:T13	
+R5	Negation Arg1:T83 Arg2:T86	
+R6	Negation Arg1:T87 Arg2:T90	
+R7	Speculation Arg1:T94 Arg2:T95	
+R8	Negation Arg1:T104 Arg2:T51	
+R9	Experiences Arg1:T76 Arg2:T1	
+R10	Location_of Arg1:T54 Arg2:T2	
+R11	Location_of Arg1:T55 Arg2:T5	
+R12	Location_of Arg1:T7 Arg2:T6	
+#77	AnnotatorNotes T2	C0861727; Pancreatic adenocarcinoma metastatic; Neoplastic Process (?)
+#78	AnnotatorNotes T5	C0346976; Secondary malignant neoplasm of pancreas; Neoplastic Process (?)
+R14	Experiences Arg1:T76 Arg2:T2	
+R15	Before Arg1:T3 Arg2:T1	
+R16	Experiences Arg1:T76 Arg2:T4	
+T96	LIVB 185 191	Avatar
+#79	AnnotatorNotes T96	C0599779; Animal Model; Animal
+T100	Quantifier_or_Qualifier 383 392	Uno o más
+T101	Observation 393 409	sitios tumorales
+#80	AnnotatorNotes T101	C0475445; Tumor site; Finding
+R18	Has_Quantifier_or_Qualifier Arg1:T101 Arg2:T100	
+R19	Has_Quantifier_or_Qualifier Arg1:T101 Arg2:T56	
+R20	Speculation Arg1:T78 Arg2:T14	
+T106	Quantifier_or_Qualifier 473 482	evaluable
+#81	AnnotatorNotes T106	C5575332; Evaluable; Qualitative Concept
+R24	Experiences Arg1:T79 Arg2:T10	
+R25	Experiences Arg1:T79 Arg2:T11	
+R26	Experiences Arg1:T79 Arg2:T12	
+R27	Experiences Arg1:T79 Arg2:T13	
+R28	Experiences Arg1:T79 Arg2:T15	
+R29	Experiences Arg1:T79 Arg2:T16	
+T108	Quantifier_or_Qualifier 675 692	3 primeros ciclos
+R30	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T108	
+R31	Experiences Arg1:T79 Arg2:T17	
+R32	Location_of Arg1:T57 Arg2:T19	
+T109	CONC 817 835	inicio del estudio
+#82	AnnotatorNotes T109	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R33	Overlap Arg1:T20 Arg2:T109	
+R34	Overlap Arg1:T20 Arg2:T81	
+R35	Before Arg1:T20 Arg2:T21	
+T111	Result_or_Value 927 943	>= 1,5 x 109 / l
+R36	Has_Result_or_Value Arg1:T22 Arg2:T111	
+R37	Has_Result_or_Value Arg1:T23 Arg2:T111	
+T112	Quantifier_or_Qualifier 805 813	adecuado
+#83	AnnotatorNotes T112	C0205411; Adequate; Qualitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T112	
+T113	Result_or_Value 957 989	>= 100.000 / mm3 (100 × 109 / L)
+R39	Has_Result_or_Value Arg1:T24 Arg2:T113	
+T114	Result_or_Value 1010 1021	>= 9 g / dl
+R40	Has_Result_or_Value Arg1:T59 Arg2:T114	
+R41	Has_Result_or_Value Arg1:T60 Arg2:T114	
+R42	Location_of Arg1:T25 Arg2:T26	
+T115	Quantifier_or_Qualifier 1047 1055	adecuada
+#84	AnnotatorNotes T115	C0205411; Adequate; Qualitative Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T115	
+T116	CONC 1059 1077	inicio del estudio
+#85	AnnotatorNotes T116	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R44	Overlap Arg1:T26 Arg2:T116	
+T117	Result_or_Value 1104 1148	<= 2.5 × límite superior de normalidad (LSN)
+R45	Has_Result_or_Value Arg1:T61 Arg2:T117	
+R46	Has_Result_or_Value Arg1:T27 Arg2:T117	
+R47	Has_Result_or_Value Arg1:T62 Arg2:T117	
+R48	Has_Result_or_Value Arg1:T63 Arg2:T117	
+#86	AnnotatorNotes T26	C0005774; Blood Chemical Analysis; Laboratory Procedure | C0430037; blood chemistry - general (non-specific); Laboratory Procedure
+R49	Location_of Arg1:T64 Arg2:T28	
+T118	Result_or_Value 1222 1232	<= 5 × LSN
+R50	Overlap Arg1:T28 Arg2:T118	
+R51	Has_Result_or_Value Arg1:T61 Arg2:T118	
+R52	Has_Result_or_Value Arg1:T27 Arg2:T118	
+R53	Has_Result_or_Value Arg1:T62 Arg2:T118	
+R54	Has_Result_or_Value Arg1:T63 Arg2:T118	
+#87	AnnotatorNotes T27	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T119	Result_or_Value 1253 1265	<= 1,5 x LSN
+R55	Has_Result_or_Value Arg1:T29 Arg2:T119	
+T120	Result_or_Value 1284 1295	>= 0,75 LSN
+R56	Has_Result_or_Value Arg1:T66 Arg2:T120	
+R57	Location_of Arg1:T32 Arg2:T67	
+T121	Result_or_Value 1316 1328	<= 1,5 x LSN
+R58	Has_Result_or_Value Arg1:T67 Arg2:T121	
+T122	Result_or_Value 1340 1345	0 - 1
+T123	CONC 1332 1336	ECOG
+#88	AnnotatorNotes T123	C1520224; ECOG performance status; Intellectual Product
+R59	Has_Result_or_Value Arg1:T123 Arg2:T122	
+R60	Has_Age Arg1:T84 Arg2:T85	
+T124	Observation 1427 1443	estar de acuerdo
+#89	AnnotatorNotes T124	C0600109; Willing; Finding (?)
+R61	Overlap Arg1:T124 Arg2:T33	
+T125	Quantifier_or_Qualifier 1480 1489	adecuados
+#90	AnnotatorNotes T125	C0205411; Adequate; Qualitative Concept
+R62	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T125	
+T126	PROC 1501 1508	estudio
+#91	AnnotatorNotes T126	C0008976; Clinical Trials; Research Activity
+R63	Overlap Arg1:T33 Arg2:T126	
+R64	Location_of Arg1:T69 Arg2:T34	
+T127	Quantifier_or_Qualifier 1624 1635	controladas
+R66	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T127	
+R67	Has_Duration_or_Interval Arg1:T127 Arg2:T88	
+T128	Quantifier_or_Qualifier 1687 1706	localmente avanzada
+R65	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T128	
+T129	Quantifier_or_Qualifier 1665 1675	Únicamente
+R68	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T129	
+R69	Overlap Arg1:T37 Arg2:T89	
+#92	AnnotatorNotes T38	C4748213; Bacterial, viral, and fungal infections; Finding
+R70	Causes Arg1:T91 Arg2:T38	
+R71	Causes Arg1:T92 Arg2:T38	
+R72	Causes Arg1:T93 Arg2:T38	
+R73	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T86	
+#93	AnnotatorNotes T39	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+T130	Quantifier_or_Qualifier 1766 1772	activa
+#94	AnnotatorNotes T130	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R75	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T130	
+T131	Quantifier_or_Qualifier 1943 1949	activa
+#95	AnnotatorNotes T131	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R76	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T131	
+R77	Has_Quantifier_or_Qualifier Arg1:T72 Arg2:T131	
+R78	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T131	
+R79	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T131	
+A20	Status T72 History_of
+A21	Status T42 History_of
+A22	Status T43 History_of
+R80	Location_of Arg1:T44 Arg2:T50	
+R81	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T90	
+R82	Overlap Arg1:T45 Arg2:T97	
+R83	Used_for Arg1:T98 Arg2:T45	
+R84	Location_of Arg1:T46 Arg2:T45	
+T132	Quantifier_or_Qualifier 1990 1994	Alto
+#96	AnnotatorNotes T132	C0205250; High; Qualitative Concept
+R85	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T132	
+R86	Overlap Arg1:T47 Arg2:T99	
+R87	Location_of Arg1:T73 Arg2:T47	
+T133	Observation 2141 2159	Factores de riesgo
+#97	AnnotatorNotes T133	C0035648; risk factors; Finding
+T134	Quantifier_or_Qualifier 2160 2166	graves
+#98	AnnotatorNotes T134	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R88	Has_Quantifier_or_Qualifier Arg1:T133 Arg2:T134	
+T135	Quantifier_or_Qualifier 2246 2252	graves
+#99	AnnotatorNotes T135	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R89	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T135	
+R90	Before Arg1:T133 Arg2:T95	
+R91	Before Arg1:T49 Arg2:T95	
+R92	Experiences Arg1:T102 Arg2:T110	
+R93	Experiences Arg1:T102 Arg2:T82	
+R94	Experiences Arg1:T103 Arg2:T51	
+T136	Observation 2474 2490	estar de acuerdo
+#100	AnnotatorNotes T136	C0600109; Willing; Finding (?)
+R97	Experiences Arg1:T105 Arg2:T74	
+R98	Experiences Arg1:T105 Arg2:T53	
+R99	Before Arg1:T52 Arg2:T53	
+T137	CONC 178 191	modelo Avatar
+R100	Before Arg1:T137 Arg2:T1	
+R101	Location_of Arg1:T54 Arg2:T4	
+#101	AnnotatorNotes T129	C0205171; Singular; Quantitative Concept
+R13	Overlap Arg1:T136 Arg2:T52	
+R17	Experiences Arg1:T105 Arg2:T52	
+#102	AnnotatorNotes T90	C0439801; Limited (extensiveness); Functional Concept
+#103	AnnotatorNotes T6	C0861727; Pancreatic adenocarcinoma metastatic; Neoplastic Process
+A23	Experiencer T76 Patient
+A24	Experiencer T79 Patient
+A25	Assertion T28 Hypothetical
+A26	Experiencer T84 Patient
+A27	Experiencer T102 Patient
+A28	Experiencer T103 Patient
+A29	Experiencer T105 Patient
+A30	Assertion T53 Hypothetical

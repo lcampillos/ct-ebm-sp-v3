@@ -1,0 +1,174 @@
+T1	CHEM 9 18	sirolimus
+#1	AnnotatorNotes T1	C0072980; sirolimus; Organic Chemical · Antibiotic
+T2	DISO 36 73	síndrome nefrótico córtico-resistente
+#2	AnnotatorNotes T2	C0403397; Steroid-resistant nephrotic syndrome; Disease or Syndrome
+T3	DISO 106 127	proteinuria nefrótica
+#3	AnnotatorNotes T3	C0445118; Nephrotic range proteinuria; Finding
+T4	DISO 160 179	insuficiencia renal
+#4	AnnotatorNotes T4	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T5	PROC 200 221	protocolo terapéutico
+#5	AnnotatorNotes T5	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T6	CHEM 226 235	sirolimus
+#6	AnnotatorNotes T6	C0072980; sirolimus; Organic Chemical · Antibiotic
+T7	PROC 281 344	estudio clínico prospectivo, intervencionista y no aleatorizado
+#7	AnnotatorNotes T7	C3274035; Interventional Study; Research Activity + C0033522; Prospective Studies; Research Activity + C2985410; Nonrandomized; Research Activity
+T8	DISO 421 458	síndrome nefrótico córtico-resistente
+#8	AnnotatorNotes T8	C0403397; Steroid-resistant nephrotic syndrome; Disease or Syndrome
+T9	DISO 470 508	glomerulosclerosis focal y segmentaria
+#9	AnnotatorNotes T9	C0017668; Focal glomerulosclerosis; Disease or Syndrome
+T10	CHEM 535 549	ciclofosfamida
+#10	AnnotatorNotes T10	C0010583; cyclophosphamide; Organic Chemical · Pharmacologic Substance
+T11	CHEM 557 587	inhibidores de la calcineurina
+#11	AnnotatorNotes T11	C1562036; Calcineurin inhibitor; Pharmacologic Substance
+T12	CHEM 603 612	enalapril
+#12	AnnotatorNotes T12	C0014025; enalapril; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T13	CHEM 615 623	losartán
+#13	AnnotatorNotes T13	C0126174; losartan; Organic Chemical · Pharmacologic Substance
+T14	CHEM 653 662	sirolimus
+#14	AnnotatorNotes T14	C0072980; sirolimus; Organic Chemical · Antibiotic
+T15	PROC 689 700	tratamiento
+#15	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 717 750	Evaluamos la eficacia terapéutica
+#16	AnnotatorNotes T16	C1707887; Efficacy Study; Research Activity
+T17	DISO 779 790	proteinuria
+#17	AnnotatorNotes T17	C0033687; Proteinuria; Finding
+T18	DISO 873 889	daño histológico
+#18	AnnotatorNotes T18	C0010957; Tissue damage; Injury or Poisoning (?)
+T19	CHEM 954 963	sirolimus
+#19	AnnotatorNotes T19	C0072980; sirolimus; Organic Chemical · Antibiotic
+T20	DISO 1033 1051	síndrome nefrótico
+#20	AnnotatorNotes T20	C0027726; Nephrotic Syndrome; Disease or Syndrome
+T21	DISO 1110 1126	daño histológico
+#21	AnnotatorNotes T21	C0010957; Tissue damage; Injury or Poisoning (?)
+T22	CHEM 1184 1193	sirolimus
+#22	AnnotatorNotes T22	C0072980; sirolimus; Organic Chemical · Antibiotic
+T23	PROC 1218 1229	tratamiento
+#23	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	DISO 1253 1290	síndrome nefrótico córtico-resistente
+#24	AnnotatorNotes T24	C0403397; Steroid-resistant nephrotic syndrome; Disease or Syndrome
+T25	ANAT 174 179	renal
+#25	AnnotatorNotes T25	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T26	LIVB 22 31	pacientes
+#26	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 254 263	pacientes
+#27	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 356 363	cohorte
+#28	AnnotatorNotes T29	C0599755; Cohort; Population Group
+T30	LIVB 370 379	pacientes
+#29	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Age 402 409	10 años
+T33	Dose 670 679	3,6 mg/m2
+T34	Duration 706 714	12 meses
+T36	LIVB 985 994	pacientes
+#30	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 1239 1248	pacientes
+#31	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T28	Frequency 679 683	/día
+T32	Observation 510 521	resistentes
+#32	AnnotatorNotes T32	C3542449; Drug Resistance Status; Finding
+R1	Experiences Arg1:T26 Arg2:T2	
+R2	Experiences Arg1:T26 Arg2:T1	
+T35	Quantifier_or_Qualifier 74 82	primario
+#33	AnnotatorNotes T35	C0205225; Primary; Qualitative Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T35	
+T38	Observation 140 150	progresión
+#34	AnnotatorNotes T38	C1457868; Worse; Finding
+R4	Causes Arg1:T3 Arg2:T38	
+R5	Before Arg1:T3 Arg2:T4	
+R6	Location_of Arg1:T25 Arg2:T4	
+R7	Used_for Arg1:T6 Arg2:T5	
+R8	Experiences Arg1:T27 Arg2:T6	
+T39	Neg_cue 329 331	no
+T40	Quantifier_or_Qualifier 332 344	aleatorizado
+A1	Assertion T40 Negated
+R9	Negation Arg1:T39 Arg2:T40	
+R10	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T40	
+R11	Has_Age Arg1:T30 Arg2:T31	
+R12	Has_Age Arg1:T29 Arg2:T31	
+T41	Quantifier_or_Qualifier 459 467	primario
+#35	AnnotatorNotes T41	C0205225; Primary; Qualitative Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T41	
+R14	Experiences Arg1:T29 Arg2:T6	
+R15	Experiences Arg1:T30 Arg2:T6	
+R16	Has_Age Arg1:T27 Arg2:T31	
+R17	Experiences Arg1:T27 Arg2:T8	
+R18	Experiences Arg1:T27 Arg2:T9	
+R19	Experiences Arg1:T27 Arg2:T32	
+R20	Experiences Arg1:T27 Arg2:T10	
+R21	Experiences Arg1:T27 Arg2:T11	
+R22	Experiences Arg1:T27 Arg2:T12	
+R23	Experiences Arg1:T27 Arg2:T13	
+R24	Experiences Arg1:T29 Arg2:T8	
+R25	Experiences Arg1:T29 Arg2:T9	
+R26	Experiences Arg1:T29 Arg2:T32	
+R27	Experiences Arg1:T29 Arg2:T10	
+R28	Experiences Arg1:T29 Arg2:T11	
+R29	Experiences Arg1:T29 Arg2:T12	
+R30	Experiences Arg1:T29 Arg2:T13	
+R31	Experiences Arg1:T30 Arg2:T8	
+R32	Experiences Arg1:T30 Arg2:T9	
+R33	Experiences Arg1:T30 Arg2:T32	
+R34	Experiences Arg1:T30 Arg2:T10	
+R35	Experiences Arg1:T30 Arg2:T11	
+R36	Experiences Arg1:T30 Arg2:T12	
+R37	Experiences Arg1:T30 Arg2:T13	
+R38	Overlap Arg1:T8 Arg2:T9	
+R39	Overlap Arg1:T32 Arg2:T10	
+R40	Overlap Arg1:T32 Arg2:T11	
+R41	Overlap Arg1:T32 Arg2:T12	
+R42	Overlap Arg1:T32 Arg2:T13	
+R43	Has_Dose_or_Strength Arg1:T14 Arg2:T33	
+R44	Has_Frequency Arg1:T14 Arg2:T28	
+R45	Used_for Arg1:T14 Arg2:T15	
+R46	Has_Duration_or_Interval Arg1:T14 Arg2:T34	
+T42	Observation 792 807	respuesta total
+T43	Observation 792 801;809 816	respuesta parcial
+#36	AnnotatorNotes T43	C1521726; partial response; Finding
+T44	Observation 792 801;819 826	respuesta ausente
+#37	AnnotatorNotes T44	C0438286; Absent response to treatment; Finding
+T45	Date 890 904	pretratamiento
+R47	Overlap Arg1:T18 Arg2:T45	
+R48	Overlap Arg1:T17 Arg2:T43	
+R49	Overlap Arg1:T17 Arg2:T44	
+R50	Overlap Arg1:T17 Arg2:T42	
+T46	CONC 910 916	tiempo
+#38	AnnotatorNotes T46	C0040223; Time; Temporal Concept
+R51	Before Arg1:T46 Arg2:T19	
+T47	Observation 1004 1020	remisión parcial
+#39	AnnotatorNotes T47	C1521726; partial response; Finding
+T48	Observation 1004 1012;1023 1028	remisión total
+R52	Before Arg1:T18 Arg2:T42	
+R53	Before Arg1:T18 Arg2:T44	
+R54	Before Arg1:T18 Arg2:T43	
+R58	Experiences Arg1:T36 Arg2:T47	
+R57	Experiences Arg1:T36 Arg2:T48	
+R59	Before Arg1:T20 Arg2:T48	
+R60	Before Arg1:T20 Arg2:T47	
+R61	Before Arg1:T21 Arg2:T48	
+R62	Before Arg1:T21 Arg2:T47	
+R63	Used_for Arg1:T22 Arg2:T23	
+R64	Experiences Arg1:T37 Arg2:T22	
+R65	Experiences Arg1:T37 Arg2:T24	
+T49	Spec_cue 1299 1312	probablemente
+T50	CONC 1330 1348	inicio terapéutico
+A2	Assertion T50 Speculated
+R66	Speculation Arg1:T49 Arg2:T50	
+T51	Quantifier_or_Qualifier 1349 1359	más precoz
+A3	Assertion T51 Speculated
+R67	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T51	
+R68	Overlap Arg1:T8 Arg2:T32	
+R69	Overlap Arg1:T9 Arg2:T32	
+R70	Overlap Arg1:T17 Arg2:T18	
+R71	Overlap Arg1:T20 Arg2:T21	
+#40	AnnotatorNotes T42	C1275810; Complete therapeutic response; Finding
+#41	AnnotatorNotes T48	C1275810; Complete therapeutic response; Finding (?)
+T53	Observation 1152 1161	respuesta
+#43	AnnotatorNotes T53	C1319171; Medication response; Finding
+R72	Experiences Arg1:T36 Arg2:T53	
+#42	AnnotatorNotes T45	C1882440; Pre-Therapy; Temporal Concept | C3539075; Pretreatment Period; Temporal Concept
+A4	Experiencer T26 Patient
+A5	Experiencer T27 Patient
+A6	Experiencer T29 Patient
+A7	Experiencer T30 Patient
+A8	Experiencer T36 Patient
+A9	Experiencer T37 Patient

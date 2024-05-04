@@ -1,0 +1,197 @@
+T1	PROC 535 557	intervención dietética
+#1	AnnotatorNotes T1	C1883292; Therapeutic Dietary Intervention; Therapeutic or Preventive Procedure
+T2	CHEM 28 44	preparado lácteo
+T3	CHEM 49 64	fibra dietética
+#2	AnnotatorNotes T3	C0556106; Dietary fiber supplementation; Pharmacologic Substance
+T4	DISO 74 115	estreñimiento crónico primario idiopático
+#3	AnnotatorNotes T4	C0267509; Chronic idiopathic constipation; Disease or Syndrome (?)
+T5	CHEM 165 181	preparado lácteo
+T6	CHEM 253 266	maltodextrina
+#4	AnnotatorNotes T6	C0065601; maltodextrin; Organic Chemical · Pharmacologic Substance
+T7	DISO 321 335	sintomatología
+#5	AnnotatorNotes T7	C3540840; Sign or Symptom; Finding
+T8	DISO 342 383	estreñimiento crónico primario idiopático
+#6	AnnotatorNotes T8	C0267509; Chronic idiopathic constipation; Disease or Syndrome (?)
+T9	PROC 492 531	ensayo clínico doble ciego aleatorizado
+#7	AnnotatorNotes T9	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T10	PROC 723 744	se dividieron al azar
+#8	AnnotatorNotes T10	C0034656; Randomization; Research Activity
+T11	DISO 589 602	estreñimiento
+#9	AnnotatorNotes T11	C0009806; Constipation; Sign or Symptom | C0221152; Obstipation; Disease or Syndrome
+T12	PROC 772 786	Intervenciones
+#10	AnnotatorNotes T12	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T13	DISO 1145 1166	esfuerzo deposicional
+#11	AnnotatorNotes T13	C0232716; Defecation straining; Finding
+T14	DISO 1180 1214	sensación de evacuación incompleta
+T15	CHEM 893 898	fibra
+#12	AnnotatorNotes T15	C0225326; fiber; Organic Chemical · Pharmacologic Substance
+T16	CHEM 1087 1092	fibra
+#13	AnnotatorNotes T16	C0225326; fiber; Organic Chemical · Pharmacologic Substance
+T17	CHEM 1380 1385	fibra
+#14	AnnotatorNotes T17	C0225326; fiber; Organic Chemical · Pharmacologic Substance
+T18	CHEM 1419 1435	preparado lácteo
+T19	CHEM 1457 1462	fibra
+#15	AnnotatorNotes T19	C0225326; fiber; Organic Chemical · Pharmacologic Substance
+T20	CHEM 1489 1494	fibra
+#16	AnnotatorNotes T20	C0225326; fiber; Organic Chemical · Pharmacologic Substance
+T21	CHEM 1504 1511	inulina
+#17	AnnotatorNotes T21	C0021936; inulin; Organic Chemical · Pharmacologic Substance · Indicator, Reagent, or Diagnostic Aid
+T22	CHEM 1514 1527	maltodextrina
+#18	AnnotatorNotes T22	C0065601; maltodextrin; Organic Chemical · Pharmacologic Substance
+T23	DISO 1579 1620	estreñimiento crónico primario idiopático
+#19	AnnotatorNotes T23	C0267509; Chronic idiopathic constipation; Disease or Syndrome (?)
+T24	CHEM 243 250	inulina
+#20	AnnotatorNotes T24	C0021936; inulin; Organic Chemical · Pharmacologic Substance · Indicator, Reagent, or Diagnostic Aid
+T25	PROC 144 158	administración
+#21	AnnotatorNotes T25	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T26	CHEM 215 220	fibra
+#22	AnnotatorNotes T26	C0225326; fiber; Organic Chemical · Pharmacologic Substance
+T27	DISO 421 434	estreñimiento
+#23	AnnotatorNotes T27	C0009806; Constipation; Sign or Symptom | C0221152; Obstipation; Disease or Syndrome
+T28	DISO 1228 1269	sensación de obstrucción en la evacuación
+T29	Duration 88 95	crónico
+#24	AnnotatorNotes T29	C0205191; chronic; Temporal Concept
+T31	PHYS 283 292	digestión
+#25	AnnotatorNotes T31	C0012238; Digestion; Organism Function
+T32	Duration 356 363	crónico
+#26	AnnotatorNotes T32	C0205191; chronic; Temporal Concept
+T33	LIVB 394 416	Sujetos de ambos sexos
+#27	AnnotatorNotes T33	C0681850; Study Subject; Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T34	LIVB 468 475	Sujetos
+#28	AnnotatorNotes T34	C0681850; Study Subject; Group
+T35	LIVB 574 584	individuos
+#29	AnnotatorNotes T35	C0027361; Persons; Population Group
+T36	LIVB 619 626	hombres
+#30	AnnotatorNotes T36	C0025266; Male population group; Population Group
+T37	LIVB 630 637	mujeres
+#31	AnnotatorNotes T37	C0043210; Woman; Population Group
+T38	Age 666 678	47 ± 15 años
+T39	LIVB 687 697	individuos
+#32	AnnotatorNotes T39	C0027361; Persons; Population Group
+T40	LIVB 942 949	sujetos
+#33	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	Frequency 979 985	diario
+T42	Duration 994 1001	20 días
+T43	Dose 1074 1083	20 gramos
+T44	Frequency 1093 1099	al día
+T45	LIVB 1118 1128	individuos
+#34	AnnotatorNotes T45	C0027361; Persons; Population Group
+T46	PHYS 1193 1203	evacuación
+#35	AnnotatorNotes T46	C0011135; Defecation; Organism Function
+T47	PHYS 1259 1269	evacuación
+#36	AnnotatorNotes T47	C0011135; Defecation; Organism Function
+T48	Dose 1476 1485	20 gramos
+T49	PHYS 1544 1553	digestión
+#37	AnnotatorNotes T49	C0012238; Digestion; Organism Function
+T50	Duration 1593 1600	crónico
+#38	AnnotatorNotes T50	C0205191; chronic; Temporal Concept
+T51	PHYS 14 21	ingesta
+#39	AnnotatorNotes T51	C0232478; Ingestion; Biologic Function
+T52	PHYS 1359 1366	ingesta
+#40	AnnotatorNotes T52	C0232478; Ingestion; Biologic Function
+T53	PHYS 1405 1412	ingesta
+#41	AnnotatorNotes T53	C0232478; Ingestion; Biologic Function
+T30	PHYS 1305 1317	deposiciones
+#42	AnnotatorNotes T30	C0011135; Defecation; Organism Function
+T54	LIVB 606 617	ambos sexos
+#43	AnnotatorNotes T54	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T55	Observation 1 7	Efecto
+#44	AnnotatorNotes T55	C1518681; Outcome of Therapy; Finding (?)
+R1	Used_for Arg1:T2 Arg2:T51	
+R2	Combined_with Arg1:T2 Arg2:T3	
+R3	Causes Arg1:T2 Arg2:T55	
+R4	Has_Duration_or_Interval Arg1:T4 Arg2:T29	
+R7	Used_for Arg1:T5 Arg2:T25	
+T56	Food 201 211	suplemento
+#45	AnnotatorNotes T56	C0242295; Dietary Supplements; Food
+R8	Combined_with Arg1:T56 Arg2:T26	
+R9	Combined_with Arg1:T56 Arg2:T24	
+R10	Combined_with Arg1:T56 Arg2:T6	
+T57	Quantifier_or_Qualifier 221 228	soluble
+#46	AnnotatorNotes T57	C1948047; Soluble (qualifier); Qualitative Concept 
+R11	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T57	
+T58	Quantifier_or_Qualifier 1495 1502	soluble
+#47	AnnotatorNotes T58	C1948047; Soluble (qualifier); Qualitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T58	
+R13	Has_Dose_or_Strength Arg1:T20 Arg2:T48	
+T59	Food 1443 1453	suplemento
+#48	AnnotatorNotes T59	C0242295; Dietary Supplements; Food
+R14	Combined_with Arg1:T59 Arg2:T19	
+R15	Combined_with Arg1:T59 Arg2:T20	
+R16	Combined_with Arg1:T59 Arg2:T21	
+R17	Combined_with Arg1:T59 Arg2:T22	
+T60	Food 857 876	leche semidesnatada
+#49	AnnotatorNotes T60	C0452714; Semi-skimmed milk; Food
+T61	Food 913 932	leche semidesnatada
+#50	AnnotatorNotes T61	C0452714; Semi-skimmed milk; Food
+R18	Combined_with Arg1:T60 Arg2:T15	
+T62	Food 825 830	leche
+#51	AnnotatorNotes T62	C2825079; Milk - dietary; Food 
+T63	Food 973 978	leche
+#52	AnnotatorNotes T63	C2825079; Milk - dietary; Food
+T64	Quantifier_or_Qualifier 958 969	medio litro
+R19	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T64	
+R20	Has_Frequency Arg1:T63 Arg2:T41	
+R21	Has_Duration_or_Interval Arg1:T63 Arg2:T42	
+T65	Food 1045 1050	leche
+#53	AnnotatorNotes T65	C2825079; Milk - dietary; Food
+R22	Combined_with Arg1:T65 Arg2:T16	
+R23	Has_Dose_or_Strength Arg1:T16 Arg2:T43	
+R24	Has_Frequency Arg1:T16 Arg2:T44	
+R25	Experiences Arg1:T40 Arg2:T63	
+R26	Experiences Arg1:T40 Arg2:T65	
+T66	Food 1370 1375	leche
+#54	AnnotatorNotes T66	C2825079; Milk - dietary; Food
+R27	Combined_with Arg1:T66 Arg2:T17	
+R28	Used_for Arg1:T66 Arg2:T52	
+R31	Experiences Arg1:T45 Arg2:T13	
+R32	Experiences Arg1:T45 Arg2:T14	
+R33	Experiences Arg1:T45 Arg2:T28	
+T67	CONC 1284 1317	número de días entre deposiciones
+R35	Experiences Arg1:T45 Arg2:T52	
+R36	Experiences Arg1:T45 Arg2:T30	
+R40	Used_for Arg1:T18 Arg2:T53	
+R41	Combined_with Arg1:T18 Arg2:T59	
+T69	Quantifier_or_Qualifier 1528 1553	resistente a la digestión
+R42	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T69	
+T70	Quantifier_or_Qualifier 267 292	resistente a la digestión
+R43	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T70	
+R44	Combined_with Arg1:T5 Arg2:T56	
+R45	Causes Arg1:T8 Arg2:T7	
+R46	Has_Duration_or_Interval Arg1:T8 Arg2:T32	
+T71	CONC 309 315	afecta
+#56	AnnotatorNotes T71	C0521102; Interferes with; Functional Concept
+T72	Spec_cue 138 140	si
+A1	Assertion T71 Speculated
+R47	Speculation Arg1:T72 Arg2:T71	
+R50	Experiences Arg1:T33 Arg2:T27	
+R51	Experiences Arg1:T35 Arg2:T1	
+R52	Experiences Arg1:T35 Arg2:T11	
+R53	Has_Age Arg1:T35 Arg2:T38	
+R54	Has_Age Arg1:T37 Arg2:T38	
+R55	Has_Age Arg1:T36 Arg2:T38	
+R56	Has_Age Arg1:T54 Arg2:T38	
+R57	Has_Age Arg1:T34 Arg2:T38	
+R58	Experiences Arg1:T34 Arg2:T1	
+R59	Experiences Arg1:T34 Arg2:T11	
+R60	Experiences Arg1:T54 Arg2:T11	
+R61	Experiences Arg1:T54 Arg2:T1	
+R62	Experiences Arg1:T36 Arg2:T11	
+R63	Experiences Arg1:T36 Arg2:T1	
+R64	Experiences Arg1:T37 Arg2:T11	
+R65	Experiences Arg1:T37 Arg2:T1	
+R66	Used_for Arg1:T62 Arg2:T12	
+R67	Used_for Arg1:T60 Arg2:T12	
+R68	Used_for Arg1:T61 Arg2:T12	
+R69	Experiences Arg1:T45 Arg2:T46	
+R70	Experiences Arg1:T45 Arg2:T47	
+R73	Has_Duration_or_Interval Arg1:T23 Arg2:T50	
+A2	Experiencer T33 Patient
+A3	Experiencer T34 Patient
+A4	Experiencer T35 Patient
+A5	Experiencer T54 Patient
+A6	Experiencer T36 Patient
+A7	Experiencer T37 Patient
+A8	Experiencer T39 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T45 Patient

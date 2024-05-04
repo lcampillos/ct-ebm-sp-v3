@@ -1,0 +1,151 @@
+T1	PROC 65 85	TÉCNICAS ANESTÉSICAS
+T2	ANAT 1296 1307	plaquetaria
+#1	AnnotatorNotes T2	C0005821; Blood Platelets; Cell
+T3	DISO 102 110	SANGRADO
+#2	AnnotatorNotes T3	C0019080; Hemorrhage; Pathologic Function
+T4	PROC 117 151	CIRUGÍA CORRECTIVA DE LA MANDÍBULA
+#3	AnnotatorNotes T4	C2090937; jaw surgery repair; Therapeutic or Preventive Procedure
+T5	ANAT 142 151	MANDÍBULA
+#4	AnnotatorNotes T5	C0024687; Mandible; Body Part, Organ, or Organ Component | C1273020; Entire jaw region; Body Location or Region
+T6	PROC 194 214	TÉCNICAS ANESTÉSICAS
+T7	CHEM 235 243	PROPOFOL
+#5	AnnotatorNotes T7	C0033487; propofol; Organic Chemical · Pharmacologic Substance
+T8	ANAT 268 277	SANGUÍNEA
+#6	AnnotatorNotes T8	C0005767; Blood; Body Substance
+T9	PROC 324 334	Evaluación
+#7	AnnotatorNotes T9	C1261322; Evaluation procedure; Health Care Activity
+T10	DISO 339 347	sangrado
+#8	AnnotatorNotes T10	C0019080; Hemorrhage; Pathologic Function
+T11	PROC 354 388	cirugía correctiva de la mandíbula
+#9	AnnotatorNotes T11	C2090937; jaw surgery repair; Therapeutic or Preventive Procedure
+T12	ANAT 379 388	mandíbula
+#10	AnnotatorNotes T12	C0024687; Mandible; Body Part, Organ, or Organ Component | C1273020; Entire jaw region; Body Location or Region
+T13	PROC 416 426	Evaluación
+#11	AnnotatorNotes T13	C1261322; Evaluation procedure; Health Care Activity
+T14	DISO 431 439	sangrado
+#12	AnnotatorNotes T14	C0019080; Hemorrhage; Pathologic Function
+T15	PROC 734 748	consentimiento
+#13	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	DISO 782 808	Inestabilidad hemodinámica
+#14	AnnotatorNotes T16	C0948268; Hemodynamic instability; Disease or Syndrome
+T17	CHEM 876 888	vasopresores
+#15	AnnotatorNotes T17	C0042397; Vasoconstrictor Agents; Pharmacologic Substance
+T18	DISO 892 911	Enfermedad cardiaca
+T19	ANAT 903 911	cardiaca
+#16	AnnotatorNotes T19	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T20	DISO 950 966	Enfermedad renal
+#17	AnnotatorNotes T20	C0022658; Kidney Diseases; Disease or Syndrome
+T21	PROC 969 995	Aclaramiento de creatinina
+#18	AnnotatorNotes T21	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T22	DISO 1012 1031	Enfermedad hepática
+#19	AnnotatorNotes T22	C0023895; Liver diseases; Disease or Syndrome
+T23	PROC 1120 1127	Cirugía
+#20	AnnotatorNotes T23	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T24	CHEM 862 873	inotrópicos
+#21	AnnotatorNotes T24	C0304509; Inotropic agent; Pharmacologic Substance
+T25	PROC 1210 1222	tratamientos
+#22	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	DISO 1225 1237	enfermedades
+#23	AnnotatorNotes T26	C0012634; Disease; Disease or Syndrome
+T27	CHEM 216 227	SEVOFLURANE
+#24	AnnotatorNotes T27	C0074414; sevoflurane; Organic Chemical · Pharmacologic Substance
+T28	DISO 260 277	PÉRDIDA SANGUÍNEA
+#25	AnnotatorNotes T28	C0019080; Hemorrhage; Pathologic Function
+T29	PROC 281 300	CIRUGÍA ORTOGNÁTICA
+T30	PROC 443 462	cirugía ortognática
+T31	PROC 595 614	Cirugía ortognática
+T32	PROC 841 858	infusión continua
+#26	AnnotatorNotes T32	C0444889; Continuous infusion; Therapeutic or Preventive Procedure
+T33	ANAT 961 966	renal
+#27	AnnotatorNotes T33	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T34	CHEM 985 995	creatinina
+#28	AnnotatorNotes T34	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T35	ANAT 1023 1031	hepática
+#29	AnnotatorNotes T35	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T36	PROC 1173 1192	cirugía ortognática
+T37	PROC 650 674	consentimiento informado
+#30	AnnotatorNotes T37	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T38	DISO 1059 1088	Diabetes Mellitus tipo I o II
+T39	Date 13 17	2016
+T40	LIVB 492 501	Pacientes
+#31	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Age 502 518	≥ 18 y ≤ 65 años
+T42	LIVB 703 712	Pacientes
+#32	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Neg_cue 717 719	no
+T44	PHYS 796 808	hemodinámica
+#33	AnnotatorNotes T44	C0019010; Hemodynamics; Organ or Tissue Function
+T45	Route 841 849	infusión
+#34	AnnotatorNotes T45	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T49	LIVB 1196 1205	Pacientes
+#35	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	PHYS 1266 1277	coagulación
+#36	AnnotatorNotes T50	C0005778; Blood coagulation; Organ or Tissue Function
+T51	PHYS 1285 1307	agregación plaquetaria
+#37	AnnotatorNotes T51	C0032176; Platelet aggregation; Cell Function
+T46	PROC 1044 1054	Child-Pugh
+#38	AnnotatorNotes T46	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+T47	PROC 943 947	NYHA
+#39	AnnotatorNotes T47	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T48	PROC 579 582	ASA
+#40	AnnotatorNotes T48	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Assertion T15 Negated
+A2	Status T23 History_of
+#41	AnnotatorNotes T29	C2936273; Orthognathic Surgery; Therapeutic or Preventive Procedure 
+#42	AnnotatorNotes T30	C2936273; Orthognathic Surgery; Therapeutic or Preventive Procedure 
+#43	AnnotatorNotes T36	C2936273; Orthognathic Surgery; Therapeutic or Preventive Procedure 
+#44	AnnotatorNotes T18	C0018799; Heart Diseases; Disease or Syndrome
+#45	AnnotatorNotes T38	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome + C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+R1	Causes Arg1:T4 Arg2:T3	
+R2	Location_of Arg1:T5 Arg2:T4	
+R3	Before Arg1:T1 Arg2:T4	
+R4	Before Arg1:T6 Arg2:T29	
+R5	Used_for Arg1:T27 Arg2:T6	
+R6	Used_for Arg1:T7 Arg2:T6	
+R8	Causes Arg1:T29 Arg2:T28	
+R10	Causes Arg1:T30 Arg2:T14	
+R11	Causes Arg1:T11 Arg2:T10	
+R12	Location_of Arg1:T12 Arg2:T11	
+R13	Has_Age Arg1:T40 Arg2:T41	
+T54	Result_or_Value 584 590	I o II
+R14	Has_Result_or_Value Arg1:T48 Arg2:T54	
+T55	Quantifier_or_Qualifier 625 635	programada
+#48	AnnotatorNotes T55	C0205539; Scheduled - procedure status; Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T55	
+R16	Negation Arg1:T43 Arg2:T15	
+T56	Observation 754 778	participar en el estudio
+A3	Assertion T56 Negated
+#49	AnnotatorNotes T56	C1278516; Patient participation status; Finding
+R17	Negation Arg1:T43 Arg2:T56	
+R19	Before Arg1:T15 Arg2:T56	
+R20	Has_Route_or_Mode Arg1:T24 Arg2:T45	
+R21	Has_Route_or_Mode Arg1:T17 Arg2:T45	
+R22	Used_for Arg1:T24 Arg2:T32	
+R23	Used_for Arg1:T17 Arg2:T32	
+R27	Location_of Arg1:T19 Arg2:T18	
+R28	Location_of Arg1:T33 Arg2:T20	
+R29	Location_of Arg1:T35 Arg2:T22	
+T57	Result_or_Value 1033 1040	Grado C
+R31	Has_Result_or_Value Arg1:T46 Arg2:T57	
+T58	Result_or_Value 996 1007	≤ 30 mL/min
+R32	Has_Result_or_Value Arg1:T21 Arg2:T58	
+T59	Result_or_Value 920 935	Grados III y IV
+R34	Has_Result_or_Value Arg1:T47 Arg2:T59	
+T60	Quantifier_or_Qualifier 912 918	severa
+#50	AnnotatorNotes T60	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R35	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T60	
+T61	Quantifier_or_Qualifier 1089 1100	compensados
+#51	AnnotatorNotes T61	C0205432; Compensated; Qualitative Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T61	
+T62	Quantifier_or_Qualifier 1103 1117	descompensados
+#52	AnnotatorNotes T62	C0205434; Decompensated; Qualitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T62	
+R39	Experiences Arg1:T49 Arg2:T25	
+R40	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T26	
+#46	AnnotatorNotes T31	C2936273; Orthognathic Surgery; Therapeutic or Preventive Procedure
+T52	Quantifier_or_Qualifier 615 624	bimaxilar
+R7	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T52	
+A4	Experiencer T49 Patient
+A5	Experiencer T40 Patient
+A6	Status T31 Future
+A7	Experiencer T42 Patient

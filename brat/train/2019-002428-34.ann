@@ -1,0 +1,170 @@
+T1	PROC 46 60	ENSAYO CLÍNICO
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	CHEM 74 86	DEXAMETASONA
+#2	AnnotatorNotes T2	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T3	CHEM 94 111	METILPREDNISOLONA
+#3	AnnotatorNotes T3	C0025815; methylprednisolone; Hormone · Organic Chemical · Pharmacologic Substance
+T4	PROC 118 128	PREVENCIÓN
+#4	AnnotatorNotes T4	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T5	DISO 132 162	NAUSEA Y VÓMITO POSTOPERATORIO
+#5	AnnotatorNotes T5	C0520909; Postoperative Nausea and Vomiting; Sign or Symptom
+T6	PROC 168 183	COLECISTECTOMÍA
+#6	AnnotatorNotes T6	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T7	PROC 218 308	ENSAYO CLÍNICO UNICÉNTRICO, DOBLE CIEGO, ALEATORIZADO, CONTROLADO, EN DOS GRUPOS PARALELOS
+T8	PROC 315 331	EVALUAR EFICACIA
+T9	PROC 338 348	PREVENCIÓN
+#7	AnnotatorNotes T9	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T10	DISO 355 386	NAUSEA Y VÓMITO POSTOPERATORIOS
+#8	AnnotatorNotes T10	C0520909; Postoperative Nausea and Vomiting; Sign or Symptom
+T11	CHEM 390 402	DEXAMETASONA
+#9	AnnotatorNotes T11	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T12	CHEM 410 427	METILPREDNISOLONA
+#10	AnnotatorNotes T12	C0025815; methylprednisolone; Hormone · Organic Chemical · Pharmacologic Substance
+T13	PROC 431 471	CIRUGÍA DE COLECISTECTOMÍA LAPAROSCÓPICA
+T14	PROC 784 798	consentimiento
+#11	AnnotatorNotes T14	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T15	DISO 507 537	Nausea y vómito postoperatorio
+#12	AnnotatorNotes T15	C0520909; Postoperative Nausea and Vomiting; Sign or Symptom
+T16	PROC 543 558	colecistectomía
+#13	AnnotatorNotes T16	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T17	PROC 638 653	colecistectomía
+#14	AnnotatorNotes T17	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T18	DISO 839 846	alergia
+#15	AnnotatorNotes T18	C1527304; Allergic Reaction; Pathologic Function
+T19	CHEM 863 871	fármacos
+#16	AnnotatorNotes T19	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T20	DISO 909 925	nausea o vómitos
+T21	DISO 928 937	cinetosis
+#17	AnnotatorNotes T21	C0026603; Motion Sickness; Disease or Syndrome
+T22	PROC 1031 1050	tratamiento crónico
+#18	AnnotatorNotes T22	C0023977; Long-term care; Health Care Activity (?)
+T23	CHEM 1055 1063	opioides
+#19	AnnotatorNotes T23	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T24	CHEM 1065 1086	fármacos antieméticos
+T25	CHEM 1089 1100	corticoides
+#20	AnnotatorNotes T25	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T26	CHEM 1128 1149	fármacos psicoactivos
+#21	AnnotatorNotes T26	C0033978; Psychotropic Drugs; Pharmacologic Substance
+T27	CHEM 1152 1168	antihistamínicos
+#22	AnnotatorNotes T27	C0019590; Histamine Antagonists; Organic Chemical · Pharmacologic Substance
+T28	PROC 1193 1200	cirugía
+#23	AnnotatorNotes T28	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T29	PROC 1231 1245	consentimiento
+#24	AnnotatorNotes T29	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T30	Date 13 17	2019
+T31	Time 148 162	POSTOPERATORIO
+#25	AnnotatorNotes T31	C0032790; Postoperative Period; Temporal Concept
+T33	Time 371 386	POSTOPERATORIOS
+#26	AnnotatorNotes T33	C0032790; Postoperative Period; Temporal Concept
+T35	Time 523 537	postoperatorio
+#27	AnnotatorNotes T35	C0032790; Postoperative Period; Temporal Concept
+T37	LIVB 596 604	Paciente
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Age 605 623	mayores de 18 años
+T40	LIVB 670 679	pacientes
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 825 834	Pacientes
+#30	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 883 892	Pacientes
+#31	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 938 947	Pacientes
+#32	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 988 997	Pacientes
+#33	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	Age 998 1016	menores de 18 años
+T47	LIVB 1017 1026	pacientes
+#34	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Duration 1043 1050	crónico
+#35	AnnotatorNotes T48	C0205191; chronic; Temporal Concept
+T49	LIVB 1101 1110	Pacientes
+#36	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Duration 1172 1179	las 24h
+T51	LIVB 1201 1210	Pacientes
+#37	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T32	Neg_cue 1211 1223	incapaces de
+A1	Assertion T29 Negated
+A2	Status T18 History_of
+A3	Status T20 History_of
+A4	Status T21 History_of
+A5	Status T26 History_of
+A6	Status T27 History_of
+#38	AnnotatorNotes T8	C1707887; Efficacy Study; Research Activity
+#39	AnnotatorNotes T13	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+#40	AnnotatorNotes T20	C0027498; Nausea and vomiting; Sign or Symptom
+#41	AnnotatorNotes T24	C0003297; Antiemetics; Pharmacologic Substance 
+T34	Quantifier_or_Qualifier 475 482	URGENTE
+A7	Assertion T34 Negated
+#42	AnnotatorNotes T34	C0439609; Urgent; Qualitative Concept
+T36	Quantifier_or_Qualifier 562 569	urgente
+A8	Assertion T36 Negated
+#43	AnnotatorNotes T36	C0439609; Urgent; Qualitative Concept
+T39	Quantifier_or_Qualifier 657 664	urgente
+A9	Assertion T39 Negated
+#44	AnnotatorNotes T39	C0439609; Urgent; Qualitative Concept
+T44	Quantifier_or_Qualifier 187 194	URGENTE
+A10	Assertion T44 Negated
+#45	AnnotatorNotes T44	C0439609; Urgent; Qualitative Concept
+T52	Neg_cue 184 186	NO
+T53	Neg_cue 472 474	NO
+T54	Neg_cue 559 561	no
+T55	Neg_cue 654 656	no
+T56	Neg_cue 952 954	no
+T57	Observation 955 973	quieran participar
+A11	Assertion T57 Negated
+#46	AnnotatorNotes T57	C0600109; Willing; Finding
+R1	Used_for Arg1:T3 Arg2:T4	
+R2	Used_for Arg1:T2 Arg2:T4	
+R3	Before Arg1:T4 Arg2:T5	
+R4	Overlap Arg1:T5 Arg2:T31	
+R5	After Arg1:T5 Arg2:T6	
+R6	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T44	
+R7	Negation Arg1:T52 Arg2:T44	
+R8	Before Arg1:T9 Arg2:T10	
+R9	Overlap Arg1:T10 Arg2:T33	
+R10	Used_for Arg1:T11 Arg2:T9	
+R11	Used_for Arg1:T12 Arg2:T9	
+R12	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T34	
+R13	Negation Arg1:T53 Arg2:T34	
+R14	Before Arg1:T13 Arg2:T10	
+R15	After Arg1:T15 Arg2:T16	
+R16	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T36	
+R17	Negation Arg1:T54 Arg2:T36	
+R18	Overlap Arg1:T15 Arg2:T35	
+R19	Has_Age Arg1:T37 Arg2:T38	
+R20	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T39	
+R21	Negation Arg1:T55 Arg2:T39	
+R22	Experiences Arg1:T37 Arg2:T17	
+T58	Observation 728 735;752 768	aceptar su participación
+#47	AnnotatorNotes T58	C1302239; Patient consented to clinical trial; Finding
+R24	Overlap Arg1:T58 Arg2:T14	
+R25	Causes Arg1:T19 Arg2:T18	
+R26	Experiences Arg1:T41 Arg2:T18	
+R27	Experiences Arg1:T41 Arg2:T19	
+R28	Experiences Arg1:T42 Arg2:T20	
+R29	Experiences Arg1:T42 Arg2:T21	
+R31	Negation Arg1:T56 Arg2:T57	
+R32	Has_Age Arg1:T45 Arg2:T46	
+R33	Experiences Arg1:T47 Arg2:T22	
+R34	Has_Duration_or_Interval Arg1:T23 Arg2:T48	
+R35	Has_Duration_or_Interval Arg1:T24 Arg2:T48	
+R36	Has_Duration_or_Interval Arg1:T25 Arg2:T48	
+R37	Used_for Arg1:T23 Arg2:T22	
+R38	Used_for Arg1:T24 Arg2:T22	
+R39	Used_for Arg1:T25 Arg2:T22	
+R40	Before Arg1:T26 Arg2:T28	
+R41	Before Arg1:T27 Arg2:T28	
+R42	Overlap Arg1:T27 Arg2:T50	
+R43	Overlap Arg1:T26 Arg2:T50	
+R44	Experiences Arg1:T49 Arg2:T26	
+R45	Experiences Arg1:T49 Arg2:T27	
+R46	Negation Arg1:T32 Arg2:T29	
+A12	Experiencer T41 Patient
+A13	Experiencer T42 Patient
+A14	Experiencer T43 Patient
+A15	Experiencer T45 Patient
+A16	Experiencer T47 Patient
+A17	Experiencer T49 Patient
+A18	Experiencer T51 Patient
+A19	Experiencer T37 Patient
+A20	Status T17 Future
+A21	Experiencer T40 Patient

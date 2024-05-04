@@ -1,0 +1,200 @@
+T1	CHEM 92 112	análogos de insulina
+#1	AnnotatorNotes T1	C2825028; Insulin Analog [EPC]; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T2	CHEM 115 130	insulina humana
+#2	AnnotatorNotes T2	C0795635; insulin, regular, human; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T3	PROC 144 158	hospitalizados
+#3	AnnotatorNotes T3	C0019993; Hospitalization; Health Care Activity
+T4	PROC 172 205	alimentación artificial por sonda
+#4	AnnotatorNotes T4	C0041281; Tube feeding of patient; Therapeutic or Preventive Procedure
+T5	PROC 989 1013	consentimiento informado
+#5	AnnotatorNotes T5	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T6	DISO 222 259	niveles elevados de glucosa en sangre
+#6	AnnotatorNotes T6	C0020456; Hyperglycemia; Disease or Syndrome
+T7	PROC 159 167	tratados
+#7	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	CHEM 347 367	análogos de insulina
+#8	AnnotatorNotes T8	C2825028; Insulin Analog [EPC]; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T9	CHEM 370 385	insulina humana
+#9	AnnotatorNotes T9	C0795635; insulin, regular, human; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T10	PROC 399 413	hospitalizados
+#10	AnnotatorNotes T10	C0019993; Hospitalization; Health Care Activity
+T11	PROC 427 444	nutrición enteral
+#11	AnnotatorNotes T11	C0014327; Enteral Nutrition; Therapeutic or Preventive Procedure | C0086225; Enteral Feeding; Therapeutic or Preventive Procedure
+T12	DISO 461 474	hiperglicemia
+#12	AnnotatorNotes T12	C0020456; Hyperglycemia; Disease or Syndrome
+T13	PROC 414 422	tratados
+#13	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 539 569	nutrición artificial por sonda
+#14	AnnotatorNotes T14	C0041281; Tube feeding of patient; Therapeutic or Preventive Procedure
+T15	PROC 1258 1267	cretinina
+#15	AnnotatorNotes T15	C0201975; Creatinine measurement; Laboratory Procedure
+T16	DISO 584 621	niveles elevados de glucosa en sangre
+#16	AnnotatorNotes T16	C0020456; Hyperglycemia; Disease or Syndrome
+T17	PROC 672 689	nutrición enteral
+#17	AnnotatorNotes T17	C0014327; Enteral Nutrition; Therapeutic or Preventive Procedure | C0086225; Enteral Feeding; Therapeutic or Preventive Procedure
+T18	DISO 706 719	hiperglicemia
+#18	AnnotatorNotes T18	C0020456; Hyperglycemia; Disease or Syndrome
+T19	PROC 770 797	nutrición enteral por sonda
+#19	AnnotatorNotes T19	C0041281; Tube feeding of patient; Therapeutic or Preventive Procedure + C0014327; Enteral Nutrition; Therapeutic or Preventive Procedure | C0086225; Enteral Feeding; Therapeutic or Preventive Procedure
+T20	PROC 659 667	tratados
+#20	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	DISO 852 865	hiperglicemia
+#21	AnnotatorNotes T21	C0020456; Hyperglycemia; Disease or Syndrome
+T22	PROC 1162 1179	ingresados en UCI
+#22	AnnotatorNotes T22	C5419131; Intensive Care Unit Stay; Health Care Activity
+T23	DISO 1306 1320	comorbilidades
+#23	AnnotatorNotes T23	C1275743; Co-morbid conditions; Finding
+T24	PROC 1351 1379	fórmula de nutrición enteral
+#24	AnnotatorNotes T24	C2370854; enteral formula; Therapeutic or Preventive Procedure
+T25	DISO 1396 1404	cirrosis
+#25	AnnotatorNotes T25	C1623038; Cirrhosis; Disease or Syndrome
+T26	DISO 1406 1424	sd de malabsorción
+T27	DISO 1441 1465	diabetes mellitus tipo 1
+#26	AnnotatorNotes T27	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T28	PROC 46 85	Ensayo clínico aleatorizado comparativo
+T29	CHEM 242 249	glucosa
+#27	AnnotatorNotes T29	C0017725; glucose; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T30	ANAT 253 259	sangre
+#28	AnnotatorNotes T30	C0005767; Blood; Body Substance
+T31	PROC 301 340	Ensayo clínico aleatorizado comparativo
+T32	CHEM 604 611	glucosa
+#29	AnnotatorNotes T32	C0017725; glucose; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T33	ANAT 615 621	sangre
+#30	AnnotatorNotes T33	C0005767; Blood; Body Substance
+T34	Date 13 17	2011
+T35	LIVB 134 143	pacientes
+#31	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 389 398	pacientes
+#32	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 517 526	Pacientes
+#33	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 649 658	Pacientes
+#34	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T42	Duration 924 951	inferior o igual a 48 horas
+T43	Age 959 977	superior a 18 años
+T44	LIVB 1028 1036	paciente
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1062 1070	familiar
+#36	AnnotatorNotes T47	C0080103; Relative (related person); Family Group
+T48	LIVB 1075 1094	representante legal
+#37	AnnotatorNotes T48	C4288823; Legal Representative for the Study; Human
+T49	PHYS 1479 1488	lactancia
+#38	AnnotatorNotes T49	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T50	PHYS 172 184	alimentación
+#39	AnnotatorNotes T50	C1286346; Feeding observable; Organism Function
+T51	PHYS 427 436	nutrición
+#40	AnnotatorNotes T51	C1442959; Nutrition function; Organism Function
+T52	PHYS 539 548	nutrición
+#41	AnnotatorNotes T52	C1442959; Nutrition function; Organism Function
+T53	PHYS 672 681	nutrición
+#42	AnnotatorNotes T53	C1442959; Nutrition function; Organism Function
+T54	PHYS 770 779	nutrición
+#43	AnnotatorNotes T54	C1442959; Nutrition function; Organism Function
+T55	PHYS 816 825	nutrición
+#44	AnnotatorNotes T55	C1442959; Nutrition function; Organism Function
+T56	PHYS 1362 1371	nutrición
+#45	AnnotatorNotes T56	C1442959; Nutrition function; Organism Function
+T57	DEVI 200 205	sonda
+#46	AnnotatorNotes T57	C0182400; Probe; Medical Device
+T58	DEVI 564 569	sonda
+#47	AnnotatorNotes T58	C0182400; Probe; Medical Device
+T59	DEVI 792 797	sonda
+#48	AnnotatorNotes T59	C0182400; Probe; Medical Device
+T39	PHYS 1468 1476	Embarazo
+#49	AnnotatorNotes T39	C0032961; Pregnancy; Organism Function
+T41	LIVB 748 757	Pacientes
+#50	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 828 837	Pacientes
+#51	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 1123 1132	Pacientes
+#52	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T60	LIVB 1244 1253	Pacientes
+#53	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 1292 1301	Pacientes
+#54	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 1427 1436	Pacientes
+#55	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	Route 1372 1379	enteral
+#56	AnnotatorNotes T63	C1522196; Enteral Route of Drug Administration; Functional Concept
+T64	Route 437 444	enteral
+#57	AnnotatorNotes T64	C1522196; Enteral Route of Drug Administration; Functional Concept
+T65	Route 682 689	enteral
+#58	AnnotatorNotes T65	C1522196; Enteral Route of Drug Administration; Functional Concept
+T66	Route 780 787	enteral
+#59	AnnotatorNotes T66	C1522196; Enteral Route of Drug Administration; Functional Concept
+#60	AnnotatorNotes T28	C1579762; comparative study research; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#61	AnnotatorNotes T31	C1579762; comparative study research; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T40	Quantifier_or_Qualifier 882 908	dos ocasiones consecutivas
+R1	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T40	
+R2	Experiences Arg1:T45 Arg2:T21	
+T67	Result_or_Value 867 877	>140 mg/dl
+R3	Has_Result_or_Value Arg1:T21 Arg2:T67	
+R4	Has_Duration_or_Interval Arg1:T21 Arg2:T42	
+R5	Experiences Arg1:T38 Arg2:T20	
+R6	Experiences Arg1:T35 Arg2:T1	
+R7	Experiences Arg1:T35 Arg2:T2	
+R8	Experiences Arg1:T35 Arg2:T3	
+R9	Experiences Arg1:T35 Arg2:T7	
+R10	Experiences Arg1:T35 Arg2:T4	
+R11	Used_for Arg1:T57 Arg2:T4	
+R13	Experiences Arg1:T35 Arg2:T50	
+R14	Location_of Arg1:T30 Arg2:T6	
+R15	Experiences Arg1:T35 Arg2:T6	
+R19	Has_Route_or_Mode Arg1:T11 Arg2:T64	
+R20	Experiences Arg1:T36 Arg2:T8	
+R21	Experiences Arg1:T36 Arg2:T9	
+R22	Experiences Arg1:T36 Arg2:T10	
+R23	Experiences Arg1:T36 Arg2:T13	
+R24	Experiences Arg1:T36 Arg2:T11	
+R25	Experiences Arg1:T36 Arg2:T12	
+R28	Used_for Arg1:T58 Arg2:T14	
+R30	Experiences Arg1:T37 Arg2:T52	
+R31	Experiences Arg1:T37 Arg2:T14	
+R32	Location_of Arg1:T33 Arg2:T16	
+R33	Experiences Arg1:T37 Arg2:T16	
+R35	Experiences Arg1:T38 Arg2:T17	
+R36	Experiences Arg1:T38 Arg2:T53	
+R37	Has_Route_or_Mode Arg1:T17 Arg2:T65	
+R38	Experiences Arg1:T38 Arg2:T18	
+R39	Experiences Arg1:T41 Arg2:T54	
+R40	Used_for Arg1:T59 Arg2:T19	
+R41	Has_Route_or_Mode Arg1:T19 Arg2:T66	
+R44	Experiences Arg1:T41 Arg2:T55	
+T68	Observation 1136 1148	fase crítica
+#62	AnnotatorNotes T68	C0457936; General clinical state; Finding | C1287406; General clinical state finding; Finding
+R45	Experiences Arg1:T46 Arg2:T68	
+R46	Experiences Arg1:T46 Arg2:T22	
+R47	Overlap Arg1:T68 Arg2:T22	
+R48	Experiences Arg1:T61 Arg2:T23	
+R49	Experiences Arg1:T61 Arg2:T24	
+R50	Has_Route_or_Mode Arg1:T24 Arg2:T63	
+R52	Experiences Arg1:T61 Arg2:T56	
+R53	Experiences Arg1:T61 Arg2:T25	
+R54	Experiences Arg1:T61 Arg2:T26	
+R55	Experiences Arg1:T60 Arg2:T15	
+T69	Result_or_Value 1268 1290	superior a 200 mcmol/l
+R56	Has_Result_or_Value Arg1:T15 Arg2:T69	
+R57	Experiences Arg1:T62 Arg2:T27	
+T70	Quantifier_or_Qualifier 1380 1390	específica
+#63	AnnotatorNotes T70	C0205369; Specific qualifier value; Qualitative Concept 
+R58	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T70	
+R12	Experiences Arg1:T41 Arg2:T19	
+#64	AnnotatorNotes T26	C0024523; Malabsorption Syndrome; Disease or Syndrome
+R16	Experiences Arg1:T36 Arg2:T51	
+R17	Overlap Arg1:T3 Arg2:T4	
+R18	Overlap Arg1:T10 Arg2:T11	
+R26	Overlap Arg1:T10 Arg2:T13	
+R27	Overlap Arg1:T3 Arg2:T7	
+A1	Experiencer T35 Patient
+A2	Experiencer T36 Patient
+A3	Experiencer T37 Patient
+A4	Experiencer T38 Patient
+A5	Experiencer T41 Patient
+A6	Experiencer T45 Patient
+A7	Experiencer T44 Patient
+A8	Experiencer T48 Other
+A9	Experiencer T47 Family_member
+A10	Experiencer T46 Patient
+A11	Experiencer T60 Patient
+A12	Experiencer T61 Patient
+A13	Experiencer T62 Patient

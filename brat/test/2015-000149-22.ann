@@ -1,0 +1,237 @@
+T1	DISO 592 598	crisis
+#1	AnnotatorNotes T1	C0231224; Crisis; Finding
+T2	DISO 69 97	cefalea en racimos episódica
+#2	AnnotatorNotes T2	C0393739; Episodic Cluster Headache; Disease or Syndrome
+T3	PROC 118 187	Estudio de fase III aleatorizado, doble ciego, controlado con placebo
+T4	DISO 219 247	cefalea en racimos episódica
+#3	AnnotatorNotes T4	C0393739; Episodic Cluster Headache; Disease or Syndrome
+T5	DISO 269 297	Cefalea en Racimos Episódica
+#4	AnnotatorNotes T5	C0393739; Episodic Cluster Headache; Disease or Syndrome
+T6	DISO 373 399	cefalea en racimos crónica
+#5	AnnotatorNotes T6	C0009088; chronic cluster headache; Disease or Syndrome
+T7	DISO 417 423	crisis
+#6	AnnotatorNotes T7	C0231224; Crisis; Finding
+T8	PROC 465 471	tratar
+#7	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	DISO 602 620	cefalea en racimos
+#8	AnnotatorNotes T9	C0009088; Cluster Headache; Disease or Syndrome
+T10	DISO 639 647	cefaleas
+#9	AnnotatorNotes T10	C0018681; Headache; Sign or Symptom
+T11	PROC 765 779	ensayo clínico
+#10	AnnotatorNotes T11	C0008976; Clinical Trials; Research Activity
+T12	CHEM 807 814	fármaco
+#11	AnnotatorNotes T12	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T13	CHEM 935 945	anticuerpo
+#12	AnnotatorNotes T13	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	CHEM 956 968	péptido CGRP
+#13	AnnotatorNotes T14	C0006669; Calcitonin Gene-Related Peptide; Amino Acid, Peptide, or Protein · Hormone
+T15	CHEM 977 987	anticuerpo
+#14	AnnotatorNotes T15	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T16	CHEM 1021 1031	anticuerpo
+#15	AnnotatorNotes T16	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T17	CHEM 1042 1072	factor de crecimiento nervioso
+#16	AnnotatorNotes T17	C0027752; nerve growth factor; Amino Acid, Peptide, or Protein · Biologically Active Substance | C0027754; Nerve Growth Factors; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T18	CHEM 1074 1077	NGF
+#17	AnnotatorNotes T18	C0027752; nerve growth factor; Amino Acid, Peptide, or Protein · Biologically Active Substance | C0027754; Nerve Growth Factors; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T19	CHEM 1100 1112	indometacina
+#18	AnnotatorNotes T19	C0021246; indomethacin; Organic Chemical · Pharmacologic Substance
+T20	DISO 1141 1181	cefalalgia neurovegetativa del trigémino
+#19	AnnotatorNotes T20	C1565172; trigeminal autonomic cephalalgia; Disease or Syndrome
+T21	DISO 1243 1250	migraña
+#20	AnnotatorNotes T21	C0149931; Migraine Disorders; Disease or Syndrome
+T22	DISO 1287 1295	isquemia
+#21	AnnotatorNotes T22	C0022116; Ischemia; Pathologic Function
+T23	DISO 1321 1338	Hipersensibilidad
+#22	AnnotatorNotes T23	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T24	CHEM 1377 1401	anticuerpos monoclonales
+#23	AnnotatorNotes T24	C0003250; Monoclonal Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T25	CHEM 1410 1432	proteínas terapéuticas
+#24	AnnotatorNotes T25	C0872285; therapeutic protein; Pharmacologic Substance
+T26	DISO 1465 1482	enfermedad médica
+T27	DISO 1497 1512	problema médico
+T28	DISO 1577 1600	enfermedad psiquiátrica
+#25	AnnotatorNotes T28	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T29	CHEM 192 201	LY2951742
+#26	AnnotatorNotes T29	C4742733; LY2951742; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T30	DISO 519 524	dolor
+#27	AnnotatorNotes T30	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T31	CHEM 998 1015	receptor del CGRP
+#28	AnnotatorNotes T31	C0108066; Calcitonin-Gene Related Peptide Receptor; Amino Acid, Peptide, or Protein · Receptor
+T32	ANAT 1152 1167	neurovegetativa
+#29	AnnotatorNotes T32	C0004388; Autonomic nervous system; Body System
+T33	ANAT 1172 1181	trigémino
+#30	AnnotatorNotes T33	C1305908; Entire trigeminal nerve; Body Part, Organ, or Organ Component
+T34	CHEM 1351 1375	sustancias farmacéuticas
+#31	AnnotatorNotes T34	C1254351; Pharmacologic Substance; Pharmacologic Substance
+T35	Date 12 16	2015
+T36	LIVB 55 64	pacientes
+#32	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 205 214	pacientes
+#33	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 342 351	pacientes
+#34	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Duration 392 399	crónica
+#35	AnnotatorNotes T39	C0205191; chronic; Temporal Concept
+T40	Duration 432 459	los últimos 7 dias a un año
+T42	Neg_cue 461 464	sin
+T43	Neg_cue 510 518	libre de
+T44	Duration 528 534	≥1 mes
+T45	LIVB 555 564	pacientes
+#36	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	Date 694 710	en la actualidad
+T47	Duration 750 761	los 30 días
+T49	Date 895 911	en la actualidad
+T50	Spec_cue 1115 1122	posible
+T53	Spec_cue 1563 1576	sugestivos de
+T54	LIVB 1650 1662	investigador
+#37	AnnotatorNotes T54	C0035173; Research Personnel; Professional or Occupational Group
+T55	LIVB 1666 1711	Mujeres embarazadas o en período de lactancia
+#38	AnnotatorNotes T55	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T59	LIVB 325 338	Participantes
+#39	AnnotatorNotes T59	C4554048; Study Participant; Population Group
+T60	LIVB 538 551	Participantes
+#40	AnnotatorNotes T60	C4554048; Study Participant; Population Group
+T41	PHYS 1674 1685	embarazadas
+#41	AnnotatorNotes T41	C0032961; Pregnancy; Organism Function
+T51	PHYS 1702 1711	lactancia
+#42	AnnotatorNotes T51	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T48	CHEM 831 874	producto sanitario en fase de investigación
+#43	AnnotatorNotes T48	C0013230; Investigational New Drugs; Pharmacologic Substance
+A1	Assertion T8 Negated
+A2	Assertion T30 Negated
+A3	Assertion T20 Speculated
+A4	Assertion T28 Speculated
+A5	Status T6 History_of
+A6	Status T21 History_of
+A7	Status T26 History_of
+A8	Status T13 History_of
+A9	Status T15 History_of
+A10	Status T16 History_of
+A11	Status T11 History_of
+A12	Status T12 History_of
+A13	Status T48 History_of
+A14	Status T23 History_of
+A15	Status T27 History_of
+#44	AnnotatorNotes T3	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#45	AnnotatorNotes T46	C0521116; Current (present time); Temporal Concept 
+#46	AnnotatorNotes T49	C0521116; Current (present time); Temporal Concept 
+#47	AnnotatorNotes T27	C5441915; Medical problem; Finding
+T52	Neg_cue 1517 1523	impida
+T56	Observation 1527 1554	participación en el estudio
+A16	Assertion T56 Negated
+#48	AnnotatorNotes T56	C1278516; Patient participation status; Finding
+R1	Negation Arg1:T52 Arg2:T56	
+R2	Negation Arg1:T43 Arg2:T30	
+R3	Speculation Arg1:T50 Arg2:T20	
+T57	Quantifier_or_Qualifier 1182 1199	bien diferenciada
+A17	Assertion T57 Speculated
+#49	AnnotatorNotes T57	C0205615; Well Differentiated; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T57	
+T58	Spec_cue 1255 1261	puedan
+A18	Assertion T22 Speculated
+R5	Before Arg1:T21 Arg2:T22	
+R6	Speculation Arg1:T58 Arg2:T22	
+T61	CONC 1298 1309	confundirse
+A19	Assertion T61 Speculated
+R7	Speculation Arg1:T58 Arg2:T61	
+R8	Speculation Arg1:T53 Arg2:T28	
+T62	Observation 1601 1610	inestable
+A20	Assertion T62 Speculated
+#50	AnnotatorNotes T62	C0443343; Unstable status; Finding
+R9	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T62	
+T63	Quantifier_or_Qualifier 1613 1619	activa
+A21	Assertion T63 Speculated
+#51	AnnotatorNotes T63	C0679217; Active State; Idea or Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T63	
+T64	Quantifier_or_Qualifier 1620 1633	significativa
+A22	Assertion T64 Speculated
+#52	AnnotatorNotes T64	C0750502; Significant; Idea or Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T64	
+R12	Speculation Arg1:T53 Arg2:T62	
+R13	Speculation Arg1:T53 Arg2:T63	
+R14	Speculation Arg1:T53 Arg2:T64	
+T65	Observation 719 729;762 779	abandonado un ensayo clínico
+#53	AnnotatorNotes T65	C0422727; Patient withdrawn from trial; Finding (?)
+R15	Before Arg1:T65 Arg2:T47	
+R16	Has_Duration_or_Interval Arg1:T65 Arg2:T47	
+A23	Status T65 History_of
+T66	Observation 681 693;730 732;762 779	participando en un ensayo clínico
+#54	AnnotatorNotes T66	C1278516; Patient participation status; Finding (?)
+R18	Overlap Arg1:T66 Arg2:T46	
+R20	Before Arg1:T12 Arg2:T65	
+R21	Before Arg1:T48 Arg2:T65	
+R22	Before Arg1:T48 Arg2:T47	
+R23	Before Arg1:T12 Arg2:T47	
+R24	Overlap Arg1:T13 Arg2:T49	
+R25	Overlap Arg1:T15 Arg2:T49	
+R26	Overlap Arg1:T16 Arg2:T49	
+T67	Quantifier_or_Qualifier 946 968	frente al péptido CGRP
+A24	Status T67 History_of
+R27	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T67	
+T68	Quantifier_or_Qualifier 988 1015	frente al receptor del CGRP
+A25	Status T68 History_of
+R28	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T68	
+T69	Quantifier_or_Qualifier 1032 1078	frente al factor de crecimiento nervioso (NGF)
+A26	Status T69 History_of
+R29	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T69	
+R30	Location_of Arg1:T32 Arg2:T20	
+R31	Location_of Arg1:T33 Arg2:T20	
+T70	Quantifier_or_Qualifier 1215 1226	permanentes
+#55	AnnotatorNotes T70	C0205355; Permanent; Temporal Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T70	
+A27	Status T70 History_of
+R34	Causes Arg1:T34 Arg2:T23	
+R35	Causes Arg1:T24 Arg2:T23	
+R36	Causes Arg1:T25 Arg2:T23	
+#56	AnnotatorNotes T26	C0012634; Disease; Disease or Syndrome (?)
+R37	Before Arg1:T26 Arg2:T56	
+R38	Before Arg1:T27 Arg2:T56	
+R39	Experiences Arg1:T55 Arg2:T41	
+R40	Experiences Arg1:T55 Arg2:T51	
+R41	Experiences Arg1:T36 Arg2:T2	
+R42	Experiences Arg1:T37 Arg2:T29	
+R43	Experiences Arg1:T37 Arg2:T4	
+R44	Experiences Arg1:T59 Arg2:T6	
+R45	Experiences Arg1:T38 Arg2:T6	
+R46	Has_Duration_or_Interval Arg1:T6 Arg2:T39	
+T71	Quantifier_or_Qualifier 404 416	al menos dos
+R47	Causes Arg1:T6 Arg2:T7	
+R48	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T71	
+R49	Has_Duration_or_Interval Arg1:T7 Arg2:T40	
+R50	Negation Arg1:T42 Arg2:T8	
+R51	Experiences Arg1:T59 Arg2:T8	
+R52	Experiences Arg1:T38 Arg2:T8	
+R53	Experiences Arg1:T59 Arg2:T7	
+R54	Experiences Arg1:T38 Arg2:T7	
+T72	Observation 501 509	remision
+#57	AnnotatorNotes T72	C0544452; Disease remission; Finding
+R55	Before Arg1:T30 Arg2:T72	
+R56	Has_Duration_or_Interval Arg1:T72 Arg2:T44	
+R57	Has_Duration_or_Interval Arg1:T30 Arg2:T44	
+R59	Before Arg1:T7 Arg2:T72	
+R61	Before Arg1:T6 Arg2:T30	
+R62	Before Arg1:T7 Arg2:T30	
+R63	Experiences Arg1:T59 Arg2:T72	
+R64	Experiences Arg1:T59 Arg2:T30	
+R65	Experiences Arg1:T38 Arg2:T72	
+R66	Experiences Arg1:T38 Arg2:T30	
+T73	Quantifier_or_Qualifier 624 638	otros tipos de
+R67	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T73	
+R68	Experiences Arg1:T60 Arg2:T1	
+R69	Experiences Arg1:T60 Arg2:T9	
+R70	Experiences Arg1:T60 Arg2:T10	
+R71	Experiences Arg1:T45 Arg2:T1	
+R72	Experiences Arg1:T45 Arg2:T9	
+R73	Experiences Arg1:T45 Arg2:T10	
+T74	Observation 566 620	capaces de distinguir las crisis de cefalea en racimos
+R74	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T74	
+R75	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T74	
+R58	Before Arg1:T6 Arg2:T72	
+A28	Experiencer T36 Patient
+A29	Experiencer T37 Patient
+A30	Experiencer T59 Patient
+A31	Experiencer T38 Patient
+A32	Experiencer T60 Patient
+A33	Experiencer T45 Patient
+A34	Experiencer T54 Other
+A35	Experiencer T55 Patient

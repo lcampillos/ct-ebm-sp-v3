@@ -1,0 +1,437 @@
+T1	CHEM 13 24	lansoprazol
+#1	AnnotatorNotes T1	C0050940; lansoprazole; Organic Chemical · Pharmacologic Substance
+T2	PROC 45 56	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 531 535	ERNE
+#3	AnnotatorNotes T3	C2242528; Non-erosive reflux disease; Disease or Syndrome
+T4	DISO 63 101	enfermedad por reflujo gastroesofágico
+#4	AnnotatorNotes T4	C0017168; Gastroesophageal reflux disease; Disease or Syndrome
+T5	DISO 131 164	infección por Helicobacter pylori
+#5	AnnotatorNotes T5	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T6	DISO 277 295	esofagítis péptica
+#6	AnnotatorNotes T6	C0014869; Peptic Esophagitis; Disease or Syndrome
+T7	CHEM 184 219	inhibidores de la bomba de protones
+#7	AnnotatorNotes T7	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T8	CHEM 221 224	IBP
+#8	AnnotatorNotes T8	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T9	CHEM 234 242	fármacos
+#9	AnnotatorNotes T9	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T10	PROC 304 327	control de los síntomas
+#10	AnnotatorNotes T10	C1274136; Symptom control (regime/therapy); Therapeutic or Preventive Procedure
+T11	PROC 2170 2205	biopsias de cuerpo y antro gástrico
+T12	DISO 334 372	enfermedad por reflujo gastroesofágico
+#11	AnnotatorNotes T12	C0017168; Gastroesophageal reflux disease; Disease or Syndrome
+T13	DISO 374 378	ERGE
+#12	AnnotatorNotes T13	C0017168; Gastroesophageal reflux disease; Disease or Syndrome
+T14	DISO 416 420	ERGE
+#13	AnnotatorNotes T14	C0017168; Gastroesophageal reflux disease; Disease or Syndrome
+T15	DISO 435 445	esofagitis
+#14	AnnotatorNotes T15	C0014868; Esophagitis; Disease or Syndrome
+T16	PROC 461 471	endoscopia
+#15	AnnotatorNotes T16	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T17	DISO 488 492	ERGE
+#16	AnnotatorNotes T17	C0017168; Gastroesophageal reflux disease; Disease or Syndrome
+T18	PROC 497 507	endoscopia
+#17	AnnotatorNotes T18	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T19	DISO 558 577	infección H. pylori
+#18	AnnotatorNotes T19	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T20	DISO 600 604	ERGE
+#19	AnnotatorNotes T20	C0017168; Gastroesophageal reflux disease; Disease or Syndrome
+T21	PROC 730 744	ensayo clínico
+#20	AnnotatorNotes T21	C0008976; Clinical Trials; Research Activity
+T22	PROC 750 769	valorar la eficacia
+#21	AnnotatorNotes T22	C1707887; Efficacy Study; Research Activity
+T23	CHEM 773 784	lansoprazol
+#22	AnnotatorNotes T23	C0050940; lansoprazole; Organic Chemical · Pharmacologic Substance
+T24	PROC 801 832	control inicial de los síntomas
+T25	DISO 839 843	ERNE
+#23	AnnotatorNotes T25	C2242528; Non-erosive reflux disease; Disease or Syndrome
+T26	DISO 893 912	infección H. pylori
+#24	AnnotatorNotes T26	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T27	PROC 932 943	tratamiento
+#25	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	PROC 981 1029	ensayo clínico piloto, unicéntrico, simple ciego
+T29	DISO 319 327	síntomas
+#26	AnnotatorNotes T29	C1457887; Symptoms; Sign or Symptom
+T30	CHEM 1045 1068	medicación experimental
+#27	AnnotatorNotes T30	C0304229; Experimental drug; Pharmacologic Substance
+T31	DISO 1148 1171	infección por H. pylori
+#28	AnnotatorNotes T31	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T32	DISO 1217 1221	ERNE
+#29	AnnotatorNotes T32	C2242528; Non-erosive reflux disease; Disease or Syndrome
+T33	DISO 1260 1267	pirosis
+#30	AnnotatorNotes T33	C0018834; Heartburn; Sign or Symptom | C0043066; Waterbrash; Sign or Symptom
+T34	DISO 3030 3044	sintomatología
+#31	AnnotatorNotes T34	C3540840; Sign or Symptom; Finding
+T35	PROC 1375 1384	protocolo
+#32	AnnotatorNotes T35	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T36	PROC 1521 1530	protocolo
+#33	AnnotatorNotes T36	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T37	PROC 1557 1568	tratamiento
+#34	AnnotatorNotes T37	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T38	DISO 824 832	síntomas
+#35	AnnotatorNotes T38	C1457887; Symptoms; Sign or Symptom
+T39	CHEM 1611 1621	medicación
+#36	AnnotatorNotes T39	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T40	CHEM 1647 1658	lansoprazol
+#37	AnnotatorNotes T40	C0050940; lansoprazole; Organic Chemical · Pharmacologic Substance
+T41	PROC 1692 1703	seguimiento
+#38	AnnotatorNotes T41	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T42	DISO 1746 1753	pirosis
+#39	AnnotatorNotes T42	C0018834; Heartburn; Sign or Symptom | C0043066; Waterbrash; Sign or Symptom
+T43	PROC 1793 1804	tratamiento
+#40	AnnotatorNotes T43	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T44	DISO 1908 1915	pirosis
+#41	AnnotatorNotes T44	C0018834; Heartburn; Sign or Symptom | C0043066; Waterbrash; Sign or Symptom
+T45	PROC 1957 1966	protocolo
+#42	AnnotatorNotes T45	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T46	CHEM 2032 2042	medicación
+#43	AnnotatorNotes T46	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T47	DISO 2093 2101	síntomas
+#44	AnnotatorNotes T47	C1457887; Symptoms; Sign or Symptom
+T48	DISO 2108 2118	enfermedad
+#45	AnnotatorNotes T48	C0012634; Disease; Disease or Syndrome
+T49	PROC 2133 2155	endoscopia diagnóstica
+#46	AnnotatorNotes T49	C0014245; Endoscopy (procedure); Diagnostic Procedure + C0011900; Diagnosis; Diagnostic Procedure
+T50	ANAT 2191 2205	antro gástrico
+#47	AnnotatorNotes T50	C0034193; Pyloric antrum; Body Part, Organ, or Organ Component
+T51	PROC 2232 2249	test de la ureasa
+#48	AnnotatorNotes T51	C0585237; CLO test for helicobacter pylori; Laboratory Procedure
+T52	DISO 2254 2277	infección por H. pylori
+#49	AnnotatorNotes T52	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T53	PROC 2279 2316	Se valoró la eficacia del tratamiento
+#50	AnnotatorNotes T53	C1707887; Efficacy Study; Research Activity
+T54	PROC 2406 2420	test de ureasa
+#51	AnnotatorNotes T54	C0585237; CLO test for helicobacter pylori; Laboratory Procedure (?)
+T55	PROC 2483 2494	tratamiento
+#52	AnnotatorNotes T55	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T56	DISO 2536 2550	sintomatología
+#53	AnnotatorNotes T56	C3540840; Sign or Symptom; Finding
+T57	DISO 2619 2626	pirosis
+#54	AnnotatorNotes T57	C0018834; Heartburn; Sign or Symptom | C0043066; Waterbrash; Sign or Symptom
+T58	DISO 2712 2735	infección por H. pylori
+#55	AnnotatorNotes T58	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T59	PROC 2800 2811	tratamiento
+#56	AnnotatorNotes T59	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T60	DISO 2839 2862	infección por H. pylori
+#57	AnnotatorNotes T60	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T61	PROC 2914 2928	estudio piloto
+#58	AnnotatorNotes T61	C0031928; Pilot Projects; Research Activity
+T62	CHEM 2963 2974	lansoprazol
+#59	AnnotatorNotes T62	C0050940; lansoprazole; Organic Chemical · Pharmacologic Substance
+T63	PROC 2991 3002	tratamiento
+#60	AnnotatorNotes T63	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T64	PROC 3016 3044	control de la sintomatología
+#61	AnnotatorNotes T64	C1274136; Symptom control (regime/therapy); Therapeutic or Preventive Procedure
+T65	DISO 3051 3055	ERNE
+#62	AnnotatorNotes T65	C2242528; Non-erosive reflux disease; Disease or Syndrome
+T66	PROC 3080 3102	estrategia terapéutica
+T67	DISO 3148 3171	infección por H. pylori
+#63	AnnotatorNotes T67	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T68	PROC 3225 3236	tratamiento
+#64	AnnotatorNotes T68	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T69	ANAT 86 101	gastroesofágico
+#65	AnnotatorNotes T69	C0744316; gastroesophageal; Body Location or Region
+T70	ANAT 357 372	gastroesofágico
+#66	AnnotatorNotes T70	C0744316; gastroesophageal; Body Location or Region
+T71	ANAT 2182 2188	cuerpo
+#67	AnnotatorNotes T71	C0227230; Body of stomach; Body Part, Organ, or Organ Component
+T72	CHEM 2243 2249	ureasa
+#68	AnnotatorNotes T72	C0041945; Urease; Amino Acid, Peptide, or Protein · Enzyme
+T73	CHEM 2414 2420	ureasa
+#69	AnnotatorNotes T73	C0041945; Urease; Amino Acid, Peptide, or Protein · Enzyme
+T74	Dose 27 38	dosis bajas
+#70	AnnotatorNotes T74	C0445550; Low dose; Quantitative Concept
+T76	PHYS 262 270	curación
+#71	AnnotatorNotes T76	C2004454; Recovery - healing process; Organism Function
+T77	LIVB 402 411	pacientes
+#72	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	Neg_cue 421 423	no
+T81	LIVB 568 577	H. pylori
+#73	AnnotatorNotes T81	C0079488; Helicobacter pylori; Bacterium
+T84	Dose 785 790	15 mg
+T85	Frequency 790 794	/día
+T86	LIVB 903 912	H. pylori
+#74	AnnotatorNotes T86	C0079488; Helicobacter pylori; Bacterium
+T87	LIVB 946 955	Pacientes
+#75	AnnotatorNotes T87	C0030705; Patients; Patient or Disabled Group
+T89	LIVB 1090 1099	pacientes
+#76	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T90	LIVB 1203 1212	pacientes
+#77	AnnotatorNotes T90	C0030705; Patients; Patient or Disabled Group
+T91	Duration 1238 1255	al menos dos días
+T92	Time 1268 1274	diurna
+#78	AnnotatorNotes T92	C0332169; Daytime; Temporal Concept
+T93	Time 1277 1285	nocturna
+#79	AnnotatorNotes T93	C0240526; Night time; Temporal Concept
+T94	Duration 1301 1324	las dos últimas semanas
+T95	Neg_cue 1326 1339	Se excluyeron
+T96	LIVB 1342 1351	pacientes
+#80	AnnotatorNotes T96	C0030705; Patients; Patient or Disabled Group
+T97	LIVB 1405 1414	pacientes
+#81	AnnotatorNotes T97	C0030705; Patients; Patient or Disabled Group
+T98	LIVB 1429 1436	mujeres
+#82	AnnotatorNotes T98	C0043210; Woman; Population Group
+T99	LIVB 1442 1449	hombres
+#83	AnnotatorNotes T99	C0025266; Male population group; Population Group
+T100	Age 1469 1476	49 años
+T101	LIVB 1536 1545	pacientes
+#84	AnnotatorNotes T101	C0030705; Patients; Patient or Disabled Group
+T102	Duration 1577 1588	dos semanas
+T103	Dose 1593 1604	una cápsula
+T104	Dose 1634 1639	15 mg
+T105	Frequency 1639 1643	/día
+T106	Frequency 1704 1710	diario
+T107	Time 1754 1760	diurna
+#85	AnnotatorNotes T107	C0332169; Daytime; Temporal Concept
+T108	Time 1763 1771	nocturna
+#86	AnnotatorNotes T108	C0240526; Night time; Temporal Concept
+T109	LIVB 1845 1854	pacientes
+#87	AnnotatorNotes T109	C0030705; Patients; Patient or Disabled Group
+T111	LIVB 2339 2348	pacientes
+#88	AnnotatorNotes T111	C0030705; Patients; Patient or Disabled Group
+T112	LIVB 2449 2458	pacientes
+#89	AnnotatorNotes T112	C0030705; Patients; Patient or Disabled Group
+T113	LIVB 2556 2565	pacientes
+#90	AnnotatorNotes T113	C0030705; Patients; Patient or Disabled Group
+T114	Date 2649 2665	la última semana
+T115	LIVB 2682 2691	pacientes
+#91	AnnotatorNotes T115	C0030705; Patients; Patient or Disabled Group
+T117	LIVB 2819 2828	pacientes
+#92	AnnotatorNotes T117	C0030705; Patients; Patient or Disabled Group
+T118	Neg_cue 2835 2838	sin
+T119	Dose 2975 2980	15 mg
+T120	Frequency 2980 2984	/día
+T121	Spec_cue 3057 3065	pudiendo
+T123	LIVB 145 164	Helicobacter pylori
+#93	AnnotatorNotes T123	C0079488; Helicobacter pylori; Bacterium
+T125	LIVB 1162 1171	H. pylori
+#94	AnnotatorNotes T125	C0079488; Helicobacter pylori; Bacterium
+T126	LIVB 1495 1504	población
+#95	AnnotatorNotes T126	C1257890; Population; Population Group
+T127	Form 1597 1604	cápsula
+#96	AnnotatorNotes T127	C4722245; Capsule Dose Form Category; Biomedical or Dental Material
+T128	LIVB 2268 2277	H. pylori
+#97	AnnotatorNotes T128	C0079488; Helicobacter pylori; Bacterium
+T129	LIVB 2726 2735	H. pylori
+#98	AnnotatorNotes T129	C0079488; Helicobacter pylori; Bacterium
+T130	LIVB 2853 2862	H. pylori
+#99	AnnotatorNotes T130	C0079488; Helicobacter pylori; Bacterium
+T131	LIVB 3162 3171	H. pylori
+#100	AnnotatorNotes T131	C0079488; Helicobacter pylori; Bacterium
+T75	PROC 1103 1114	doble ciego
+#101	AnnotatorNotes T75	C0013072; Double-Blind Method; Research Activity
+T79	LIVB 2351 2371	médicos responsables
+#102	AnnotatorNotes T79	C4708568; Medically responsible investigator; Professional or Occupational Group
+T80	Spec_cue 2948 2956	orientan
+A1	Assertion T15 Negated
+A2	Assertion T96 Negated
+A3	Assertion T66 Speculated
+A4	Assertion T60 Negated
+A7	Assertion T64 Speculated
+R1	Negation Arg1:T118 Arg2:T60	
+T82	Neg_cue 2317 2320	sin
+T83	CONC 2321 2330	conocerse
+A5	Assertion T83 Negated
+R2	Negation Arg1:T82 Arg2:T83	
+T88	Neg_cue 2737 2739	No
+T110	CONC 2754 2765	diferencias
+A6	Assertion T110 Negated
+#103	AnnotatorNotes T110	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T88 Arg2:T110	
+R4	Negation Arg1:T78 Arg2:T15	
+T116	Neg_cue 519 521	no
+T122	Quantifier_or_Qualifier 522 529	erosiva
+A8	Assertion T122 Negated
+#104	AnnotatorNotes T122	C0439679; Erosive; Qualitative Concept
+R5	Negation Arg1:T116 Arg2:T122	
+R6	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T122	
+T124	Quantifier_or_Qualifier 105 112	erosiva
+A9	Assertion T124 Negated
+#105	AnnotatorNotes T124	C0439679; Erosive; Qualitative Concept
+T132	Neg_cue 102 104	no
+R7	Negation Arg1:T132 Arg2:T124	
+R8	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T124	
+T133	Quantifier_or_Qualifier 1073 1081	conocida
+A10	Assertion T133 Negated
+#106	AnnotatorNotes T133	C0205309; Known; Qualitative Concept
+T134	Neg_cue 1070 1072	no
+R9	Negation Arg1:T134 Arg2:T133	
+T135	Neg_cue 3172 3174	no
+T136	CONC 3175 3182	influye
+A11	Assertion T136 Negated
+#107	AnnotatorNotes T136	C4054723; Influence; Conceptual Entity
+R10	Negation Arg1:T135 Arg2:T136	
+T137	Quantifier_or_Qualifier 3074 3079	buena
+A12	Assertion T137 Speculated
+R11	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T137	
+T138	Quantifier_or_Qualifier 3103 3110	inicial
+A13	Assertion T138 Speculated
+R12	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T138	
+#108	AnnotatorNotes T83	C0205309; Known; Qualitative Concept
+R13	Speculation Arg1:T80 Arg2:T64	
+T139	Quantifier_or_Qualifier 3003 3009	eficaz
+A14	Assertion T139 Speculated
+#109	AnnotatorNotes T139	C1704419; Effective; Qualitative Concept
+R14	Speculation Arg1:T80 Arg2:T139	
+A15	Assertion T63 Speculated
+R15	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T139	
+R16	Speculation Arg1:T80 Arg2:T63	
+R17	Speculation Arg1:T121 Arg2:T137	
+R18	Speculation Arg1:T121 Arg2:T66	
+R19	Speculation Arg1:T121 Arg2:T138	
+T140	Observation 1356 1384	incumplimiento del protocolo
+#110	AnnotatorNotes T140	C0184543; Noncompliance with therapeutic regimen; Finding (?)
+R20	Location_of Arg1:T69 Arg2:T4	
+R21	Has_Dose_or_Strength Arg1:T1 Arg2:T74	
+R22	Used_for Arg1:T1 Arg2:T2	
+R23	Causes Arg1:T123 Arg2:T5	
+R24	Overlap Arg1:T4 Arg2:T5	
+T141	Quantifier_or_Qualifier 247 255	eficaces
+#111	AnnotatorNotes T141	C1704419; Effective; Qualitative Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T141	
+R26	Causes Arg1:T8 Arg2:T76	
+R27	Causes Arg1:T7 Arg2:T76	
+R28	Before Arg1:T6 Arg2:T76	
+R30	Location_of Arg1:T70 Arg2:T12	
+R31	Location_of Arg1:T70 Arg2:T13	
+R32	Causes Arg1:T12 Arg2:T29	
+R34	Before Arg1:T10 Arg2:T76	
+R33	Experiences Arg1:T77 Arg2:T14	
+R35	Experiences Arg1:T77 Arg2:T15	
+R36	Experiences Arg1:T77 Arg2:T16	
+R37	Experiences Arg1:T77 Arg2:T17	
+R38	Experiences Arg1:T77 Arg2:T18	
+T142	Result_or_Value 508 516	negativa
+#112	AnnotatorNotes T142	C0205160; Negative; Finding
+R39	Has_Result_or_Value Arg1:T18 Arg2:T142	
+R40	Experiences Arg1:T77 Arg2:T3	
+R41	Causes Arg1:T81 Arg2:T19	
+R42	Causes Arg1:T86 Arg2:T26	
+R43	Causes Arg1:T128 Arg2:T52	
+R44	Causes Arg1:T130 Arg2:T60	
+R45	Causes Arg1:T131 Arg2:T67	
+R47	Overlap Arg1:T19 Arg2:T20	
+R48	Has_Dose_or_Strength Arg1:T23 Arg2:T84	
+R49	Has_Frequency Arg1:T23 Arg2:T85	
+R51	Causes Arg1:T25 Arg2:T38	
+R52	Overlap Arg1:T25 Arg2:T26	
+R53	Overlap Arg1:T38 Arg2:T26	
+T143	Observation 919 943	respuesta al tratamiento
+#113	AnnotatorNotes T143	C1319171; Medication response; Finding
+R54	Overlap Arg1:T23 Arg2:T143	
+R55	Used_for Arg1:T23 Arg2:T27	
+R58	Experiences Arg1:T87 Arg2:T30	
+R59	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T133	
+R60	Experiences Arg1:T89 Arg2:T30	
+R61	Causes Arg1:T125 Arg2:T31	
+R62	Experiences Arg1:T89 Arg2:T31	
+R63	Experiences Arg1:T87 Arg2:T31	
+R64	Experiences Arg1:T90 Arg2:T32	
+R65	Has_Duration_or_Interval Arg1:T33 Arg2:T91	
+R66	Overlap Arg1:T33 Arg2:T92	
+R67	Overlap Arg1:T33 Arg2:T93	
+R68	Overlap Arg1:T32 Arg2:T33	
+R69	Overlap Arg1:T33 Arg2:T94	
+R70	Negation Arg1:T95 Arg2:T96	
+R73	Has_Age Arg1:T97 Arg2:T100	
+R74	Has_Age Arg1:T126 Arg2:T100	
+R75	Has_Age Arg1:T99 Arg2:T100	
+R76	Has_Age Arg1:T98 Arg2:T100	
+R77	Experiences Arg1:T101 Arg2:T37	
+R78	Has_Duration_or_Interval Arg1:T39 Arg2:T102	
+R79	Has_Drug_Form Arg1:T39 Arg2:T127	
+R80	Has_Dose_or_Strength Arg1:T39 Arg2:T103	
+R81	Used_for Arg1:T39 Arg2:T37	
+R82	Has_Frequency Arg1:T40 Arg2:T105	
+R83	Has_Dose_or_Strength Arg1:T40 Arg2:T104	
+R84	Used_for Arg1:T40 Arg2:T37	
+R86	Has_Frequency Arg1:T41 Arg2:T106	
+R88	Overlap Arg1:T42 Arg2:T107	
+R89	Overlap Arg1:T42 Arg2:T108	
+R90	Experiences Arg1:T101 Arg2:T42	
+R91	Experiences Arg1:T109 Arg2:T43	
+T144	Quantifier_or_Qualifier 1886 1904	máximo un episodio
+R92	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T144	
+T145	Quantifier_or_Qualifier 1919 1934	intensidad leve
+R93	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T145	
+R94	Causes Arg1:T48 Arg2:T47	
+T146	Observation 2057 2101	controla de forma satisfactoria los síntomas
+#114	AnnotatorNotes T146	C5547101; Managing to control symptoms; Finding (?)
+R95	Causes Arg1:T46 Arg2:T146	
+R96	Experiences Arg1:T109 Arg2:T44	
+R97	Experiences Arg1:T109 Arg2:T46	
+R98	Experiences Arg1:T109 Arg2:T47	
+R99	Experiences Arg1:T109 Arg2:T48	
+R100	Experiences Arg1:T109 Arg2:T146	
+R102	Location_of Arg1:T71 Arg2:T11	
+R103	Location_of Arg1:T50 Arg2:T11	
+R104	Before Arg1:T11 Arg2:T51	
+R105	Overlap Arg1:T49 Arg2:T11	
+R108	Experiences Arg1:T111 Arg2:T54	
+R109	Before Arg1:T54 Arg2:T53	
+R110	Experiences Arg1:T112 Arg2:T55	
+T147	Observation 2499 2550	controlaba de forma satisfactoria la sintomatología
+#115	AnnotatorNotes T147	C5547101; Managing to control symptoms; Finding (?)
+R111	Experiences Arg1:T112 Arg2:T147	
+R112	Causes Arg1:T55 Arg2:T147	
+R113	Experiences Arg1:T112 Arg2:T56	
+T148	Quantifier_or_Qualifier 2597 2615	máximo un episodio
+R116	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T148	
+T149	Quantifier_or_Qualifier 2630 2645	intensidad leve
+R117	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T149	
+R118	Experiences Arg1:T113 Arg2:T57	
+R119	Overlap Arg1:T57 Arg2:T114	
+R114	Experiences Arg1:T113 Arg2:T55	
+R115	Experiences Arg1:T115 Arg2:T58	
+R120	Causes Arg1:T129 Arg2:T58	
+T150	Observation 2787 2811	respuesta al tratamiento
+#116	AnnotatorNotes T150	C4055223; Clinical Response; Finding (?)
+R121	Experiences Arg1:T117 Arg2:T59	
+R122	Experiences Arg1:T117 Arg2:T150	
+R123	Overlap Arg1:T150 Arg2:T59	
+R124	Overlap Arg1:T143 Arg2:T27	
+R125	Experiences Arg1:T117 Arg2:T60	
+R127	Used_for Arg1:T62 Arg2:T63	
+R128	Has_Dose_or_Strength Arg1:T62 Arg2:T119	
+R129	Has_Frequency Arg1:T62 Arg2:T120	
+R130	Before Arg1:T63 Arg2:T64	
+R131	Causes Arg1:T65 Arg2:T34	
+R133	Before Arg1:T66 Arg2:T64	
+R134	Overlap Arg1:T65 Arg2:T67	
+R135	Used_for Arg1:T62 Arg2:T66	
+T151	Observation 3212 3236	respuesta al tratamiento
+#117	AnnotatorNotes T151	C4055223; Clinical Response; Finding (?)
+R136	Overlap Arg1:T151 Arg2:T68	
+R137	Used_for Arg1:T62 Arg2:T68	
+T152	Quantifier_or_Qualifier 2766 2780	significativas
+A16	Assertion T152 Negated
+#118	AnnotatorNotes T152	C0750502; Significant; Idea or Concept
+R126	Has_Quantifier_or_Qualifier Arg1:T110 Arg2:T152	
+R139	Negation Arg1:T88 Arg2:T152	
+T153	Quantifier_or_Qualifier 3183 3205	de forma significativa
+A17	Assertion T153 Negated
+#119	AnnotatorNotes T153	C0750502; Significant; Idea or Concept
+R140	Has_Quantifier_or_Qualifier Arg1:T136 Arg2:T153	
+R141	Negation Arg1:T135 Arg2:T153	
+#120	AnnotatorNotes T145	C2945599; Mild (qualifier value); Qualitative Concept
+#121	AnnotatorNotes T149	C2945599; Mild (qualifier value); Qualitative Concept
+#122	AnnotatorNotes T137	C0205170; Good; Qualitative Concept
+#123	AnnotatorNotes T138	C0205265; Initially; Temporal Concept
+A18	Experiencer T77 Patient
+A19	Experiencer T87 Patient
+A20	Experiencer T89 Patient
+A21	Experiencer T90 Patient
+A22	Experiencer T96 Patient
+A23	Experiencer T97 Patient
+A24	Experiencer T98 Patient
+A25	Experiencer T99 Patient
+A26	Experiencer T126 Patient
+A27	Experiencer T101 Patient
+A28	Experiencer T109 Patient
+A29	Experiencer T111 Patient
+A30	Experiencer T79 Other
+A31	Experiencer T112 Patient
+A32	Experiencer T113 Patient
+A33	Experiencer T115 Patient
+A34	Experiencer T117 Patient

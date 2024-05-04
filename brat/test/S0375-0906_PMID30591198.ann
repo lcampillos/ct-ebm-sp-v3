@@ -1,0 +1,107 @@
+T1	CHEM 33 42	diltiazem
+#1	AnnotatorNotes T1	C0012373; diltiazem; Organic Chemical · Pharmacologic Substance
+T2	DISO 108 133	espasmo del esfínter anal
+#2	AnnotatorNotes T2	C0600030; Anal sphincter spasm; Finding
+T3	ANAT 120 133	esfínter anal
+#3	AnnotatorNotes T3	C0002760; Structure of sphincter ani muscle; Body Part, Organ, or Organ Component | C1269528; Entire sphincter ani muscle; Body Part, Organ, or Organ Component
+T4	DISO 183 202	heridas quirúrgicas
+#4	AnnotatorNotes T4	C0282208; Injuries, Surgical; Injury or Poisoning
+T5	PROC 191 202	quirúrgicas
+#5	AnnotatorNotes T5	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T6	PROC 218 234	hemorroidectomía
+#6	AnnotatorNotes T6	C0019108; Hemorrhoidectomy; Therapeutic or Preventive Procedure
+T7	PROC 251 311	estudio aleatorizado, prospectivo, experimental, doble ciego
+#7	AnnotatorNotes T7	C0206034; Clinical Trials, Randomized; Research Activity + C0033522; Prospective Studies; Research Activity + C0678323; experimentation; Research Activity + C0013072; Double-Blind Method; Research Activity
+T8	PROC 362 398	hemorroidectomía con técnica cerrada
+#8	AnnotatorNotes T8	C0473076; Closed hemorrhoidectomy; Therapeutic or Preventive Procedure
+T9	CHEM 452 461	diltiazem
+#9	AnnotatorNotes T9	C0012373; diltiazem; Organic Chemical · Pharmacologic Substance
+T10	ANAT 475 486	región anal
+#10	AnnotatorNotes T10	C1284908; Entire anal region; Body Location or Region
+T11	PROC 527 534	placebo
+#11	AnnotatorNotes T11	C0032042; Placebos; Therapeutic or Preventive Procedure
+T12	PROC 587 605	fotografía digital
+T13	PROC 681 688	tratado
+#12	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	CHEM 693 702	diltiazem
+#13	AnnotatorNotes T14	C0012373; diltiazem; Organic Chemical · Pharmacologic Substance
+T15	PROC 898 905	tratado
+#14	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	CHEM 910 919	diltiazem
+#15	AnnotatorNotes T16	C0012373; diltiazem; Organic Chemical · Pharmacologic Substance
+T17	PROC 1 28	Ensayo clínico aleatorizado
+#16	AnnotatorNotes T17	C0206034; Clinical Trials, Randomized; Research Activity
+T18	DISO 75 82	heridas
+#17	AnnotatorNotes T18	C0043250; Injury wounds; Injury or Poisoning
+T19	Route 43 49	tópico
+#18	AnnotatorNotes T19	C1522168; Topical Route of Drug Administration; Functional Concept
+T20	PHYS 58 82	cicatrización de heridas
+#19	AnnotatorNotes T20	C0043240; Wound Healing; Organism Function
+T21	LIVB 330 339	pacientes
+#20	AnnotatorNotes T21	C0030705; Patients; Patient or Disabled Group
+T22	LIVB 422 431	pacientes
+#21	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	Route 462 468	tópico
+#22	AnnotatorNotes T23	C1522168; Topical Route of Drug Administration; Functional Concept
+T24	Frequency 487 501	3 veces al día
+T25	Duration 615 624	6 semanas
+T26	Duration 710 722	3.19 semanas
+T27	Duration 724 742	22.33 ± 0.884 días
+T28	LIVB 764 777	grupo control
+#23	AnnotatorNotes T28	C0009932; Control Groups; Group
+T29	Duration 785 797	3.92 semanas
+T30	Duration 799 817	27.44 ± 1.130 días
+T32	LIVB 878 887	pacientes
+#24	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 976 985	pacientes
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 990 1003	grupo control
+#26	AnnotatorNotes T34	C0009932; Control Groups; Group
+T35	PHYS 162 175	cicatrización
+#27	AnnotatorNotes T35	C0043240; Wound Healing; Organism Function
+T36	PHYS 563 576	cicatrización
+#28	AnnotatorNotes T36	C0043240; Wound Healing; Organism Function
+T38	PHYS 653 666	cicatrización
+#29	AnnotatorNotes T38	C0043240; Wound Healing; Organism Function
+T39	Duration 842 859	la tercera semana
+T40	PHYS 927 938	cicatrizado
+#30	AnnotatorNotes T40	C0043240; Wound Healing; Organism Function
+T41	Date 83 103	posthemorroidectomía
+R1	Has_Route_or_Mode Arg1:T1 Arg2:T19	
+R2	Before Arg1:T18 Arg2:T20	
+R3	Overlap Arg1:T20 Arg2:T41	
+R4	Location_of Arg1:T3 Arg2:T2	
+R6	Causes Arg1:T5 Arg2:T4	
+R7	After Arg1:T4 Arg2:T6	
+R8	Before Arg1:T4 Arg2:T35	
+R9	Experiences Arg1:T21 Arg2:T8	
+R10	Experiences Arg1:T22 Arg2:T9	
+R11	Has_Route_or_Mode Arg1:T9 Arg2:T23	
+R12	Location_of Arg1:T10 Arg2:T9	
+R13	Has_Frequency Arg1:T9 Arg2:T24	
+R14	Experiences Arg1:T22 Arg2:T11	
+R16	Has_Duration_or_Interval Arg1:T12 Arg2:T25	
+R17	Has_Duration_or_Interval Arg1:T38 Arg2:T26	
+R18	Has_Duration_or_Interval Arg1:T38 Arg2:T27	
+R19	Used_for Arg1:T14 Arg2:T13	
+R20	Before Arg1:T13 Arg2:T38	
+R21	Experiences Arg1:T28 Arg2:T38	
+R22	Has_Duration_or_Interval Arg1:T38 Arg2:T29	
+R23	Has_Duration_or_Interval Arg1:T38 Arg2:T30	
+R24	Overlap Arg1:T40 Arg2:T39	
+R25	Used_for Arg1:T16 Arg2:T15	
+R26	Experiences Arg1:T32 Arg2:T15	
+R27	Experiences Arg1:T32 Arg2:T40	
+R28	Before Arg1:T15 Arg2:T40	
+R29	Experiences Arg1:T33 Arg2:T40	
+R30	Experiences Arg1:T34 Arg2:T40	
+R31	Before Arg1:T1 Arg2:T20	
+R5	Has_Frequency Arg1:T11 Arg2:T24	
+R32	Location_of Arg1:T10 Arg2:T11	
+R33	Has_Route_or_Mode Arg1:T11 Arg2:T23	
+A1	Experiencer T21 Patient
+A2	Experiencer T22 Patient
+A3	Experiencer T28 Patient
+A4	Experiencer T32 Patient
+A5	Experiencer T33 Patient
+A6	Experiencer T34 Patient

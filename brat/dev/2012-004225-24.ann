@@ -1,0 +1,151 @@
+T1	PROC 46 67	Estudios de extensión
+T2	CHEM 96 105	Ibrutinib
+#1	AnnotatorNotes T2	C3501358; ibrutinib; Organic Chemical · Pharmacologic Substance
+T3	PROC 130 182	Estudio fase 3b multicéntrico, abierto, de extensión
+T4	CHEM 211 220	Ibrutinib
+#2	AnnotatorNotes T4	C3501358; ibrutinib; Organic Chemical · Pharmacologic Substance
+T5	DISO 246 274	Leucemia linfocítica crónica
+#3	AnnotatorNotes T5	C0023434; Chronic Lymphocytic Leukemia; Neoplastic Process
+T6	DISO 277 316	linfoma linfocítico de células pequeñas
+T7	ANAT 300 316	células pequeñas
+T8	DISO 318 346	linfoma de células del manto
+#4	AnnotatorNotes T8	C4721414; Mantle cell lymphoma; Neoplastic Process
+T9	DISO 348 365	linfoma folicular
+#5	AnnotatorNotes T9	C0024301; Lymphoma, Follicular; Neoplastic Process
+T10	DISO 368 401	linfoma difuso de célula grande B
+#6	AnnotatorNotes T10	C0079744; Diffuse Large B-Cell Lymphoma; Neoplastic Process
+T11	ANAT 386 401	célula grande B
+#7	AnnotatorNotes T11	C0004561; B-Lymphocytes; Cell
+T12	PROC 500 514	ensayo clínico
+#8	AnnotatorNotes T12	C0008976; Clinical Trials; Research Activity
+T13	PROC 600 611	tratamiento
+#9	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	CHEM 85 94	PCI-32765
+#10	AnnotatorNotes T14	C2830052; PCI 32765; Pharmacologic Substance
+T15	PROC 695 721	tratamiento en monoterapia
+T16	CHEM 726 735	PCI-32765
+#11	AnnotatorNotes T16	C2830052; PCI 32765; Pharmacologic Substance
+T17	PROC 786 809	métodos anticonceptivos
+#12	AnnotatorNotes T17	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T18	PROC 839 848	protocolo
+#13	AnnotatorNotes T18	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T19	PROC 866 882	test de embarazo
+#14	AnnotatorNotes T19	C0032976; Pregnancy Tests; Diagnostic Procedure
+T20	ANAT 895 901	sangre
+#15	AnnotatorNotes T20	C0005767; Blood; Body Substance
+T21	PROC 969 984	anticoagulación
+#16	AnnotatorNotes T21	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T22	CHEM 616 625	PCI-32765
+#17	AnnotatorNotes T22	C2830052; PCI 32765; Pharmacologic Substance
+T23	PROC 1053 1064	tratamiento
+#18	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	ANAT 356 365	folicular
+T25	ANAT 255 266	linfocítica
+#19	AnnotatorNotes T25	C0024264; Lymphocyte; Cell
+T26	ANAT 285 296	linfocítico
+#20	AnnotatorNotes T26	C0024264; Lymphocyte; Cell
+T27	ANAT 329 336	células
+#21	AnnotatorNotes T27	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T28	CHEM 519 528	PCI-32765
+#22	AnnotatorNotes T28	C2830052; PCI 32765; Pharmacologic Substance
+T29	ANAT 904 909	orina
+#23	AnnotatorNotes T29	C0042036; Urine; Body Substance
+T30	CHEM 989 998	warfarina
+#24	AnnotatorNotes T30	C0043031; warfarin; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T31	CHEM 1001 1027	antagonistas de vitamina K
+#25	AnnotatorNotes T31	C2267235; Vitamin K Antagonist; Pharmacologic Substance
+T32	CHEM 1069 1120	inhibidores potentes del citocromo P450 (CYP) 3A4/5
+T33	CHEM 200 209	PCI-32765
+#26	AnnotatorNotes T33	C2830052; PCI 32765; Pharmacologic Substance
+T34	Date 13 17	2012
+T35	Date 68 81	a largo plazo
+T36	Date 183 196	a largo plazo
+T37	Duration 267 274	crónica
+#27	AnnotatorNotes T37	C0205191; chronic; Temporal Concept
+T38	LIVB 435 456	sujetos participantes
+#28	AnnotatorNotes T38	C0681850; Study Subject; Group + C4554048; Study Participant; Population Group
+T39	Date 469 480	actualmente
+T40	Duration 580 596	al menos 6 meses
+T41	Neg_cue 883 891	negativo
+T44	LIVB 1236 1248	investigador
+#29	AnnotatorNotes T44	C0035173; Research Personnel; Professional or Occupational Group
+T49	PHYS 874 882	embarazo
+#30	AnnotatorNotes T49	C0032961; Pregnancy; Organism Function
+T42	LIVB 1424 1434	voluntario
+#31	AnnotatorNotes T42	C0020155; Human Volunteers; Population Group
+T43	LIVB 1265 1277	participante
+#32	AnnotatorNotes T43	C4554048; Study Participant; Population Group
+T45	LIVB 658 671	participantes
+#33	AnnotatorNotes T45	C4554048; Study Participant; Population Group
+A1	Assertion T49 Negated
+#34	AnnotatorNotes T35	C0443252; Long-term; Temporal Concept
+#35	AnnotatorNotes T36	C0443252; Long-term; Temporal Concept
+#36	AnnotatorNotes T39	C0521116; Current (present time); Temporal Concept 
+T46	Spec_cue 1250 1255	pueda
+T47	Observation 1284 1304	riesgo significativo
+A2	Assertion T47 Speculated
+R1	Experiences Arg1:T43 Arg2:T47	
+R2	Speculation Arg1:T46 Arg2:T47	
+T48	Spec_cue 1306 1311	pueda
+T50	Observation 1312 1346	afectar los resultados del estudio
+A3	Assertion T50 Speculated
+#37	AnnotatorNotes T50	C0521102; Interferes with; Functional Concept
+T51	Spec_cue 1350 1355	pueda
+T52	CONC 1356 1366	interferir
+A4	Assertion T52 Speculated
+#38	AnnotatorNotes T52	C0521102; Interferes with; Functional Concept
+R3	Speculation Arg1:T51 Arg2:T52	
+R4	Speculation Arg1:T48 Arg2:T50	
+R5	Overlap Arg1:T1 Arg2:T35	
+R6	Overlap Arg1:T3 Arg2:T36	
+R7	Location_of Arg1:T25 Arg2:T5	
+R8	Has_Duration_or_Interval Arg1:T5 Arg2:T37	
+R9	Location_of Arg1:T26 Arg2:T6	
+R10	Location_of Arg1:T27 Arg2:T8	
+#39	AnnotatorNotes T7	C1518241; Malignant Small Cell; Cell (?) | C1514085; Neoplastic Small Cell; Cell (?)
+R11	Location_of Arg1:T7 Arg2:T6	
+R12	Location_of Arg1:T24 Arg2:T9	
+T53	ANAT 341 346	manto
+#40	AnnotatorNotes T53	C3846131; Mantle; Body Location or Region
+R13	Location_of Arg1:T53 Arg2:T8	
+#41	AnnotatorNotes T24	C1571705; Follicle; Body Part, Organ, or Organ Component
+R14	Location_of Arg1:T11 Arg2:T10	
+R15	Experiences Arg1:T38 Arg2:T28	
+R16	Overlap Arg1:T28 Arg2:T39	
+T54	Observation 500 514;546 556	ensayo clínico completado
+#42	AnnotatorNotes T54	C2732579; Completion of clinical trial; Finding
+R18	Overlap Arg1:T54 Arg2:T39	
+R19	Has_Duration_or_Interval Arg1:T22 Arg2:T40	
+R20	Used_for Arg1:T22 Arg2:T13	
+R21	Experiences Arg1:T38 Arg2:T13	
+R22	Experiences Arg1:T45 Arg2:T15	
+R23	Used_for Arg1:T16 Arg2:T15	
+#43	AnnotatorNotes T15	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T55	Quantifier_or_Qualifier 736 751	de forma activa
+#44	AnnotatorNotes T55	C0679217; Active State; Idea or Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T55	
+T56	Quantifier_or_Qualifier 810 819	efectivos
+#45	AnnotatorNotes T56	C1280519; Effectiveness; Qualitative Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T56	
+R26	Negation Arg1:T41 Arg2:T49	
+R27	Location_of Arg1:T20 Arg2:T19	
+R28	Location_of Arg1:T29 Arg2:T19	
+T57	PROC 921 930	selección
+#46	AnnotatorNotes T57	C0242802; Patient Selection; Research Activity
+R29	Overlap Arg1:T19 Arg2:T57	
+R30	Used_for Arg1:T30 Arg2:T21	
+R31	Used_for Arg1:T31 Arg2:T21	
+R32	Used_for Arg1:T32 Arg2:T23	
+T58	Observation 1393 1419	participación en el ensayo
+#47	AnnotatorNotes T58	C1278516; Patient participation status; Finding (?)
+R34	Overlap Arg1:T47 Arg2:T58	
+R35	Experiences Arg1:T42 Arg2:T47	
+#48	AnnotatorNotes T6	C0855095; Small Lymphocytic Lymphoma; Neoplastic Process
+#49	AnnotatorNotes T47	C4319571; High risk; Finding
+A5	Experiencer T44 Other
+A6	Experiencer T43 Patient
+A7	Experiencer T42 Patient
+A8	Experiencer T38 Patient
+A9	Experiencer T45 Patient
+T59	Result_or_Value 883 891	negativo
+R17	Has_Result_or_Value Arg1:T19 Arg2:T59	

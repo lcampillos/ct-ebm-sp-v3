@@ -1,0 +1,101 @@
+T1	CHEM 85 102	ácido tranexámico
+#1	AnnotatorNotes T1	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T2	CHEM 104 115	medicamento
+#2	AnnotatorNotes T2	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T3	PROC 157 170	transfusiones
+#3	AnnotatorNotes T3	C1879316; Transfusion (procedure); Therapeutic or Preventive Procedure
+T4	DISO 203 220	fractura de fémur
+#4	AnnotatorNotes T4	C0015802; Femoral Fractures; Injury or Poisoning
+T5	ANAT 215 220	fémur
+#5	AnnotatorNotes T5	C0015811; Femur; Body Part, Organ, or Organ Component | C1279112; Entire femur; Body Part, Organ, or Organ Component
+T6	CHEM 337 354	ácido tranexámico
+#6	AnnotatorNotes T6	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T7	CHEM 489 506	ácido tranexámico
+#7	AnnotatorNotes T7	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T8	PROC 526 553	necesidades transfusionales
+T9	DISO 557 574	fractura de fémur
+#8	AnnotatorNotes T9	C0015802; Femoral Fractures; Injury or Poisoning
+T10	ANAT 569 574	fémur
+#9	AnnotatorNotes T10	C0015811; Femur; Body Part, Organ, or Organ Component | C1279112; Entire femur; Body Part, Organ, or Organ Component
+T11	DISO 649 667	Pérdidas de sangre
+#10	AnnotatorNotes T11	C0019080; Hemorrhage; Pathologic Function
+T12	DISO 695 713	fractura de cadera
+#11	AnnotatorNotes T12	C0019557; Hip Fractures; Injury or Poisoning
+T13	ANAT 707 713	cadera
+#12	AnnotatorNotes T13	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T14	DISO 739 747	Sangrado
+#13	AnnotatorNotes T14	C0019080; Hemorrhage; Pathologic Function
+T15	DISO 775 802	fractura de cuello de fémur
+T16	ANAT 787 802	cuello de fémur
+#14	AnnotatorNotes T16	C0015815; Structure of neck of femur; Body Part, Organ, or Organ Component
+T17	DISO 843 860	Fractura de fémur
+#15	AnnotatorNotes T17	C0015802; Femoral Fractures; Injury or Poisoning
+T18	ANAT 855 860	fémur
+#16	AnnotatorNotes T18	C0015811; Femur; Body Part, Organ, or Organ Component | C1279112; Entire femur; Body Part, Organ, or Organ Component
+T19	PROC 876 898	tratamiento quirúrgico
+#17	AnnotatorNotes T19	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T20	DISO 925 932	Alergia
+#18	AnnotatorNotes T20	C1527304; Allergic Reaction; Pathologic Function
+T21	CHEM 935 952	ácido tranexámico
+#19	AnnotatorNotes T21	C0040613; tranexamic acid; Organic Chemical · Pharmacologic Substance
+T22	DISO 953 972	Estado trombogénico
+T23	DISO 973 982	Epilepsia
+#20	AnnotatorNotes T23	C0014544; Epilepsy; Disease or Syndrome
+T24	DISO 983 1002	Fracturas múltiples
+#21	AnnotatorNotes T24	C0016655; Fractures, Multiple; Injury or Poisoning
+T25	DISO 1003 1024	Ceguera a los colores
+#22	AnnotatorNotes T25	C0009398; Color vision defect; Disease or Syndrome | C0242225; Color blindness; Disease or Syndrome
+T26	PROC 67 81	administración
+#23	AnnotatorNotes T26	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T27	ANAT 435 441	sangre
+#24	AnnotatorNotes T27	C0005767; Blood; Body Substance
+T28	PROC 576 626	Ensayo clínico aleatorizado controlado con placebo
+T29	ANAT 661 667	sangre
+#25	AnnotatorNotes T29	C0005767; Blood; Body Substance
+T30	Date 12 16	2018
+T31	Route 116 127	intravenoso
+#26	AnnotatorNotes T31	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T32	LIVB 189 198	pacientes
+#27	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 258 267	pacientes
+#28	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 319 328	pacientes
+#29	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	DEVI 425 441	bolsas de sangre
+#30	AnnotatorNotes T35	C0179336; Blood bag; Medical Device
+T36	LIVB 671 680	pacientes
+#31	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 751 760	pacientes
+#32	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Age 834 842	>64 años
+A1	Status T20 History_of
+#33	AnnotatorNotes T28	C0206034; Clinical Trials, Randomized; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#34	AnnotatorNotes T15	C0015806; Femoral Neck Fractures; Injury or Poisoning 
+R1	Location_of Arg1:T18 Arg2:T17	
+R2	Causes Arg1:T21 Arg2:T20	
+R3	Used_for Arg1:T1 Arg2:T26	
+R4	Has_Route_or_Mode Arg1:T2 Arg2:T31	
+R5	Has_Route_or_Mode Arg1:T1 Arg2:T31	
+R6	Used_for Arg1:T2 Arg2:T26	
+R8	Experiences Arg1:T32 Arg2:T26	
+R9	Experiences Arg1:T32 Arg2:T3	
+R10	Experiences Arg1:T32 Arg2:T4	
+R11	Location_of Arg1:T5 Arg2:T4	
+R12	Experiences Arg1:T34 Arg2:T6	
+#36	AnnotatorNotes T8	C1879316; Transfusion (procedure); Therapeutic or Preventive Procedure (?)
+R13	Location_of Arg1:T10 Arg2:T9	
+R15	Location_of Arg1:T29 Arg2:T11	
+R16	Experiences Arg1:T36 Arg2:T11	
+R17	Before Arg1:T12 Arg2:T11	
+R18	Location_of Arg1:T13 Arg2:T12	
+R19	Experiences Arg1:T36 Arg2:T12	
+R20	Experiences Arg1:T37 Arg2:T14	
+R21	Before Arg1:T15 Arg2:T14	
+R22	Location_of Arg1:T16 Arg2:T15	
+R23	Experiences Arg1:T37 Arg2:T15	
+A2	Experiencer T32 Patient
+A3	Experiencer T33 Patient
+A4	Experiencer T34 Patient
+A5	Experiencer T36 Patient
+A6	Experiencer T37 Patient
+A7	Status T19 Future

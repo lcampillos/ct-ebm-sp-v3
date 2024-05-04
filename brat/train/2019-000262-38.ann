@@ -1,0 +1,283 @@
+T1	PROC 44 84	Ensayo fase 3, aleatorizado, doble ciego
+T2	PROC 89 102	quimioterapia
+#1	AnnotatorNotes T2	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T3	CHEM 107 116	nivolumab
+#2	AnnotatorNotes T3	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	PROC 126 139	quimioterapia
+#3	AnnotatorNotes T4	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T5	PROC 144 151	placebo
+#4	AnnotatorNotes T5	C0032042; Placebos; Therapeutic or Preventive Procedure
+T6	PROC 165 185	resección quirúrgica
+#5	AnnotatorNotes T6	C0728940; Excision; Therapeutic or Preventive Procedure
+T7	CHEM 197 206	nivolumab
+#6	AnnotatorNotes T7	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	PROC 209 216	placebo
+#7	AnnotatorNotes T8	C0032042; Placebos; Therapeutic or Preventive Procedure
+T9	DISO 257 288	cáncer de pulmón no microcítico
+#8	AnnotatorNotes T9	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T10	PROC 331 338	cirugía
+#9	AnnotatorNotes T10	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T11	PROC 361 404	Estudio fase 3, aleatorizado, a doble ciego
+T12	PROC 409 435	quimioterapia neoadyuvante
+T13	CHEM 440 449	nivolumab
+#10	AnnotatorNotes T13	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	PROC 459 485	quimioterapia neoadyuvante
+T15	PROC 490 497	placebo
+#11	AnnotatorNotes T15	C0032042; Placebos; Therapeutic or Preventive Procedure
+T16	PROC 511 531	resección quirúrgica
+#12	AnnotatorNotes T16	C0728940; Excision; Therapeutic or Preventive Procedure
+T17	PROC 534 555	tratamiento adyuvante
+#13	AnnotatorNotes T17	C0677850; Adjuvant therapy; Therapeutic or Preventive Procedure
+T18	PROC 572 579	placebo
+#14	AnnotatorNotes T18	C0032042; Placebos; Therapeutic or Preventive Procedure
+T19	DISO 601 632	cáncer de pulmón no microcítico
+#15	AnnotatorNotes T19	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T20	PROC 702 731	evaluación del ensayo clínico
+T21	CHEM 740 749	nivoluMAb
+#16	AnnotatorNotes T21	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T22	ANAT 783 789	pulmón
+#17	AnnotatorNotes T22	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T23	DISO 773 804	Cancer de pulmón no microcítico
+#18	AnnotatorNotes T23	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T24	PROC 845 852	cirugía
+#19	AnnotatorNotes T24	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T25	ANAT 888 894	pulmón
+#20	AnnotatorNotes T25	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T26	DISO 878 909	Cancer de pulmón no microcítico
+#21	AnnotatorNotes T26	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T27	DISO 1019 1023	CPNM
+#22	AnnotatorNotes T27	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T28	DISO 986 1017	Cancer de Pulmon no microcitico
+#23	AnnotatorNotes T28	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T29	DISO 1092 1102	enfermedad
+#24	AnnotatorNotes T29	C0012634; Disease; Disease or Syndrome
+T30	DISO 1132 1153	metástasis cerebrales
+#25	AnnotatorNotes T30	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T31	PROC 1165 1176	tratamiento
+#26	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	PROC 1182 1220	tratamiento anti cancerígeno sistémico
+T33	ANAT 996 1002	Pulmon
+#27	AnnotatorNotes T33	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T34	ANAT 1265 1279	tejido tumoral
+T35	PROC 1294 1301	cirugía
+#28	AnnotatorNotes T35	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T36	PROC 1304 1311	biopsia
+#29	AnnotatorNotes T36	C0005558; Biopsy; Diagnostic Procedure
+T37	PROC 1317 1341	estudio de biomarcadores
+T38	PROC 1407 1416	protocolo
+#30	AnnotatorNotes T38	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T39	PROC 1465 1481	ensayos clínicos
+#31	AnnotatorNotes T39	C0008976; Clinical Trials; Research Activity
+T40	DISO 1598 1619	enfermedad autoinmune
+#32	AnnotatorNotes T40	C0004364; Autoimmune Diseases; Disease or Syndrome
+T41	PROC 1663 1667	test
+#33	AnnotatorNotes T41	C0022885; Laboratory Procedures; Laboratory Procedure
+T42	DISO 1730 1755	infección aguda o crónica
+T43	PROC 1768 1796	tratamiento anti cancerígeno
+T44	CHEM 1815 1834	agentes citotóxicos
+#34	AnnotatorNotes T44	C0304497; Cytotoxic agent; Pharmacologic Substance
+T45	PROC 1836 1862	Tratamiento inmunoterápico
+T46	PROC 1864 1882	terapias dirigidas
+#35	AnnotatorNotes T46	C0278348; Immunotherapy for cancer; Therapeutic or Preventive Procedure
+T47	PROC 1885 1897	radioterapia
+#36	AnnotatorNotes T47	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T48	PROC 1962 1971	protocolo
+#37	AnnotatorNotes T48	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T49	PROC 2019 2035	ensayos clínicos
+#38	AnnotatorNotes T49	C0008976; Clinical Trials; Research Activity
+T50	PROC 228 235	cirugía
+#39	AnnotatorNotes T50	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T51	ANAT 267 273	pulmón
+#40	AnnotatorNotes T51	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T52	ANAT 277 288	microcítico
+#41	AnnotatorNotes T52	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T53	CHEM 560 569	nivolumab
+#42	AnnotatorNotes T53	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T54	ANAT 611 617	pulmón
+#43	AnnotatorNotes T54	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T55	ANAT 621 632	microcítico
+#44	AnnotatorNotes T55	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T56	ANAT 793 804	microcítico
+#45	AnnotatorNotes T56	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T57	ANAT 898 909	microcítico
+#46	AnnotatorNotes T57	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T58	ANAT 1143 1153	cerebrales
+#47	AnnotatorNotes T58	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T59	DISO 1272 1279	tumoral
+#48	AnnotatorNotes T59	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T60	ANAT 1006 1017	microcitico
+#49	AnnotatorNotes T60	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T61	DISO 1685 1711	virus de la hepatitis B, C
+T62	DISO 1714 1717	VIH
+#50	AnnotatorNotes T62	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T63	Date 12 16	2019
+T64	Neg_cue 274 276	no
+T66	Neg_cue 618 620	no
+T67	Neg_cue 790 792	no
+T69	Neg_cue 895 897	no
+T70	Neg_cue 1003 1005	no
+T71	Spec_cue 1077 1087	sospechado
+T72	Neg_cue 1128 1131	Sin
+T73	Neg_cue 1156 1164	Naive al
+T74	Neg_cue 1178 1181	sin
+T77	Spec_cue 1639 1649	sospechada
+T80	Duration 1748 1755	crónica
+#51	AnnotatorNotes T80	C0205191; chronic; Temporal Concept
+T65	LIVB 239 252	participantes
+#52	AnnotatorNotes T65	C4554048; Study Participant; Population Group
+T68	LIVB 583 596	participantes
+#53	AnnotatorNotes T68	C4554048; Study Participant; Population Group
+T75	LIVB 1576 1589	Participantes
+#54	AnnotatorNotes T75	C4554048; Study Participant; Population Group
+T76	LIVB 968 981	Participantes
+#55	AnnotatorNotes T76	C4554048; Study Participant; Population Group
+T78	PROC 1058 1074	histológicamente
+#56	AnnotatorNotes T78	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T52 Negated
+A2	Assertion T55 Negated
+A3	Assertion T56 Negated
+A4	Assertion T57 Negated
+A5	Assertion T60 Negated
+A6	Assertion T28 Speculated
+A7	Assertion T30 Negated
+A8	Status T31 History_of
+A9	Assertion T31 Negated
+A10	Status T32 History_of
+A11	Assertion T32 Negated
+A14	Assertion T40 Speculated
+A13	Assertion T27 Speculated
+A12	Status T40 History_of
+A15	Status T43 History_of
+A16	Status T44 History_of
+A17	Status T45 History_of
+A18	Status T46 History_of
+A19	Status T47 History_of
+#57	AnnotatorNotes T1	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#58	AnnotatorNotes T11	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#59	AnnotatorNotes T14	C5392214; Neoadjuvant Chemotherapy; Therapeutic or Preventive Procedure
+#60	AnnotatorNotes T12	C5392214; Neoadjuvant Chemotherapy; Therapeutic or Preventive Procedure
+#61	AnnotatorNotes T34	C0475358; Tumor tissue sample; Tissue
+#62	AnnotatorNotes T37	C1879847; Biomarker Analysis; Laboratory Procedure
+#63	AnnotatorNotes T61	C0019163; Hepatitis B; Disease or Syndrome + C0019196; Hepatitis C; Disease or Syndrome
+#64	AnnotatorNotes T42	C0151317; Chronic Infection; Disease or Syndrome + C0275518; Acute infectious disease; Disease or Syndrome
+#65	AnnotatorNotes T43	C0920425; cancer treatment; Therapeutic or Preventive Procedure
+#66	AnnotatorNotes T45	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T79	Spec_cue 1898 1905	Podrían
+T81	Quantifier_or_Qualifier 1916 1921	otros
+A20	Assertion T81 Speculated
+T82	CONC 1922 1944	criterios de exclusión
+A21	Assertion T82 Speculated
+#67	AnnotatorNotes T82	C0680251; Exclusion Criteria; Functional Concept
+T83	Spec_cue 1344 1351	Podrían
+T84	CONC 1368 1390	criterios de inclusión
+A22	Assertion T84 Speculated
+#68	AnnotatorNotes T84	C1512693; Inclusion Criteria; Qualitative Concept
+T85	Quantifier_or_Qualifier 1362 1367	otros
+A23	Assertion T85 Speculated
+R1	Negation Arg1:T64 Arg2:T52	
+R2	Negation Arg1:T66 Arg2:T55	
+R3	Negation Arg1:T69 Arg2:T57	
+R4	Negation Arg1:T67 Arg2:T56	
+R5	Negation Arg1:T70 Arg2:T60	
+R6	Speculation Arg1:T71 Arg2:T27	
+R7	Speculation Arg1:T71 Arg2:T28	
+R8	Negation Arg1:T72 Arg2:T30	
+R9	Negation Arg1:T73 Arg2:T31	
+R10	Negation Arg1:T74 Arg2:T32	
+R11	Speculation Arg1:T83 Arg2:T85	
+R12	Speculation Arg1:T83 Arg2:T84	
+R13	Has_Quantifier_or_Qualifier Arg1:T84 Arg2:T85	
+R14	Speculation Arg1:T77 Arg2:T40	
+R15	Speculation Arg1:T79 Arg2:T81	
+R16	Speculation Arg1:T79 Arg2:T82	
+R17	Has_Quantifier_or_Qualifier Arg1:T82 Arg2:T81	
+R18	Combined_with Arg1:T2 Arg2:T3	
+R19	Combined_with Arg1:T4 Arg2:T5	
+R20	Before Arg1:T2 Arg2:T6	
+R21	Before Arg1:T4 Arg2:T6	
+R22	Before Arg1:T6 Arg2:T7	
+R23	Before Arg1:T6 Arg2:T8	
+R24	After Arg1:T8 Arg2:T50	
+R25	After Arg1:T7 Arg2:T50	
+R26	Experiences Arg1:T65 Arg2:T2	
+R27	Experiences Arg1:T65 Arg2:T4	
+R28	Experiences Arg1:T65 Arg2:T6	
+R29	Experiences Arg1:T65 Arg2:T7	
+R30	Experiences Arg1:T65 Arg2:T8	
+R31	Experiences Arg1:T65 Arg2:T50	
+R32	Experiences Arg1:T65 Arg2:T9	
+R33	Experiences Arg1:T65 Arg2:T10	
+R34	Combined_with Arg1:T12 Arg2:T13	
+R35	Combined_with Arg1:T14 Arg2:T15	
+R36	Before Arg1:T12 Arg2:T16	
+R37	Combined_with Arg1:T16 Arg2:T17	
+R38	Used_for Arg1:T53 Arg2:T17	
+R39	Combined_with Arg1:T16 Arg2:T18	
+R40	Before Arg1:T14 Arg2:T16	
+R41	Experiences Arg1:T68 Arg2:T12	
+R42	Experiences Arg1:T68 Arg2:T14	
+R43	Experiences Arg1:T68 Arg2:T16	
+R44	Experiences Arg1:T68 Arg2:T19	
+R45	Location_of Arg1:T54 Arg2:T19	
+R46	Location_of Arg1:T51 Arg2:T9	
+T86	Quantifier_or_Qualifier 636 651	estadio II-IIIB
+R47	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T86	
+T87	Quantifier_or_Qualifier 653 662	resecable
+#69	AnnotatorNotes T87	C1514888; Resectable; Qualitative Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T87	
+T88	Quantifier_or_Qualifier 289 338	que puede ser eliminado completamente por cirugía
+#70	AnnotatorNotes T88	C1514888; Resectable; Qualitative Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T88	
+R50	Experiences Arg1:T68 Arg2:T21	
+R51	Used_for Arg1:T21 Arg2:T17	
+T89	Quantifier_or_Qualifier 806 852	que puede eliminarse completamente por cirugía
+#71	AnnotatorNotes T89	C1514888; Resectable; Qualitative Concept
+R52	Location_of Arg1:T22 Arg2:T23	
+R53	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T89	
+R54	Location_of Arg1:T25 Arg2:T26	
+T90	Quantifier_or_Qualifier 930 939	resecable
+#72	AnnotatorNotes T90	C1514888; Resectable; Qualitative Concept
+R55	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T90	
+T91	Quantifier_or_Qualifier 914 928	estadio II-III
+R56	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T91	
+R57	Location_of Arg1:T58 Arg2:T30	
+R58	Location_of Arg1:T33 Arg2:T28	
+R59	Experiences Arg1:T76 Arg2:T28	
+R60	Experiences Arg1:T76 Arg2:T27	
+T92	Quantifier_or_Qualifier 1028 1046	estadío IIA a IIIB
+R62	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T92	
+R63	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T92	
+T93	Quantifier_or_Qualifier 1115 1124	resecable
+#73	AnnotatorNotes T93	C1514888; Resectable; Qualitative Concept
+R66	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T93	
+R67	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T93	
+R68	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T93	
+R69	Experiences Arg1:T76 Arg2:T78	
+R70	Experiences Arg1:T76 Arg2:T29	
+T94	CONC 1231 1235	ECOG
+#74	AnnotatorNotes T94	C1520224; ECOG performance status; Intellectual Product
+T95	Result_or_Value 1236 1239	≤ 1
+R71	Has_Result_or_Value Arg1:T94 Arg2:T95	
+R73	Location_of Arg1:T34 Arg2:T37	
+R76	Experiences Arg1:T75 Arg2:T40	
+T96	Quantifier_or_Qualifier 1620 1626	activa
+#75	AnnotatorNotes T96	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R77	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T96	
+R81	Has_Duration_or_Interval Arg1:T42 Arg2:T80	
+T97	Result_or_Value 1668 1676	positivo
+#76	AnnotatorNotes T97	C1446409; Positive; Finding
+R82	Has_Result_or_Value Arg1:T41 Arg2:T97	
+R83	Causes Arg1:T61 Arg2:T97	
+R84	Causes Arg1:T62 Arg2:T97	
+R85	Causes Arg1:T42 Arg2:T97	
+R86	Used_for Arg1:T44 Arg2:T43	
+R61	Location_of Arg1:T33 Arg2:T27	
+R87	Location_of Arg1:T33 Arg2:T29	
+R88	Before Arg1:T35 Arg2:T37	
+R89	Before Arg1:T36 Arg2:T37	
+#77	AnnotatorNotes T85	C0205394; Other; Qualitative Concept
+#78	AnnotatorNotes T81	C0205394; Other; Qualitative Concept
+A24	Experiencer T65 Patient
+A25	Experiencer T68 Patient
+A26	Experiencer T76 Patient
+A27	Experiencer T75 Patient

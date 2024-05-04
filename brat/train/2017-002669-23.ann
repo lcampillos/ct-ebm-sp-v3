@@ -1,0 +1,139 @@
+T1	PROC 44 54	Profilaxis
+#1	AnnotatorNotes T1	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T2	DISO 61 94	infección de la herida quirúrgica
+#2	AnnotatorNotes T2	C0038941; Surgical Wound Infection; Pathologic Function
+T3	PROC 696 708	intervención
+#3	AnnotatorNotes T3	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T4	PROC 84 94	quirúrgica
+#4	AnnotatorNotes T4	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T5	DISO 143 176	Infección de la herida quirúrgica
+#5	AnnotatorNotes T5	C0038941; Surgical Wound Infection; Pathologic Function
+T6	PROC 166 176	quirúrgica
+#6	AnnotatorNotes T6	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T7	PROC 261 292	intervención quirúrgica urgente
+#7	AnnotatorNotes T7	C2188405; urgent surgical procedure; Therapeutic or Preventive Procedure
+T8	PROC 348 360	intervenidos
+#8	AnnotatorNotes T8	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T9	PROC 365 382	cirugía abdominal
+T10	PROC 402 410	Cesáreas
+T11	DISO 474 485	peritonitis
+#9	AnnotatorNotes T11	C0031154; Peritonitis; Pathologic Function
+T12	DISO 497 514	cirrosis hepática
+#10	AnnotatorNotes T12	C0023890; Liver Cirrhosis; Disease or Syndrome
+T13	DISO 528 537	alérgicos
+#11	AnnotatorNotes T13	C1527304; Allergic Reaction; Pathologic Function
+T14	PROC 625 654	técnica quirúrgica de abdomen
+T15	ANAT 647 654	abdomen
+#12	AnnotatorNotes T15	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T16	DISO 802 819	herida quirúrgica
+#13	AnnotatorNotes T16	C0332803; Surgical wound; Injury or Poisoning
+T17	PROC 792 819	cerrar la herida quirúrgica
+#14	AnnotatorNotes T17	C1112446; Wound closure; Therapeutic or Preventive Procedure
+T18	CHEM 99 111	antibióticos
+#15	AnnotatorNotes T18	C0003232; Antibiotics; Antibiotic
+T19	ANAT 373 382	abdominal
+#16	AnnotatorNotes T19	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T20	ANAT 506 514	hepática
+#17	AnnotatorNotes T20	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T21	CHEM 541 552	antibiótico
+#18	AnnotatorNotes T21	C0003232; Antibiotics; Antibiotic
+T22	PROC 715 737	colocación de prótesis
+T23	Date 12 16	2017
+T24	Route 112 119	tópicos
+#19	AnnotatorNotes T24	C1522168; Topical Route of Drug Administration; Functional Concept
+T25	LIVB 205 214	Pacientes
+#20	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Age 215 233	mayores de 18 años
+T27	LIVB 237 246	Pacientes
+#21	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 338 347	Pacientes
+#22	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 460 469	Pacientes
+#23	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 518 527	Pacientes
+#24	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 579 588	Pacientes
+#25	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Date 663 676	recientemente
+T33	Duration 684 691	30 días
+T34	DEVI 729 737	prótesis
+#26	AnnotatorNotes T34	C0175649; Prosthesis; Medical Device
+T35	DEVI 761 766	malla
+#27	AnnotatorNotes T35	C0181805; Mesh surgical material; Medical Device
+T36	Neg_cue 780 782	no
+T37	LIVB 839 847	cirujano
+#28	AnnotatorNotes T37	C0582175; Surgeon; Professional or Occupational Group
+T38	LIVB 851 860	Pacientes
+#29	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	PROC 861 864	ASA
+#30	AnnotatorNotes T39	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Assertion T17 Negated
+A2	Status T13 History_of
+A3	Status T14 History_of
+A4	Status T22 History_of
+A5	Status T34 History_of
+A6	Status T35 History_of
+#31	AnnotatorNotes T22	C0525024; Prosthesis Implantation; Therapeutic or Preventive Procedure 
+R1	Before Arg1:T4 Arg2:T2	
+R2	Before Arg1:T1 Arg2:T2	
+R3	Used_for Arg1:T18 Arg2:T1	
+R4	Has_Route_or_Mode Arg1:T18 Arg2:T24	
+R5	Before Arg1:T6 Arg2:T5	
+R6	Has_Age Arg1:T25 Arg2:T26	
+R7	Experiences Arg1:T27 Arg2:T7	
+T40	Observation 299 334	provienen del servicio de urgencias
+#32	AnnotatorNotes T40	C5444719; Admitted via emergency department; Finding
+R8	Before Arg1:T40 Arg2:T7	
+R10	Experiences Arg1:T28 Arg2:T9	
+R11	Location_of Arg1:T19 Arg2:T9	
+T41	CONC 387 398	vía abierta
+#33	AnnotatorNotes T41	C0348025; Open approach; Spatial Concept
+R12	Used_for Arg1:T41 Arg2:T9	
+#34	AnnotatorNotes T10	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T42	Quantifier_or_Qualifier 411 420	electivas
+#35	AnnotatorNotes T42	C0439608; elective; Temporal Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T42	
+T43	Quantifier_or_Qualifier 423 431	urgentes
+#36	AnnotatorNotes T43	C0439609; Urgent; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T43	
+R15	Experiences Arg1:T29 Arg2:T11	
+R16	Experiences Arg1:T29 Arg2:T12	
+R17	Location_of Arg1:T20 Arg2:T12	
+R18	Overlap Arg1:T11 Arg2:T12	
+T44	Quantifier_or_Qualifier 486 494	primaria
+#37	AnnotatorNotes T44	C0205225; Primary; Qualitative Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T44	
+R20	Experiences Arg1:T30 Arg2:T13	
+R21	Causes Arg1:T21 Arg2:T13	
+R22	Experiences Arg1:T31 Arg2:T14	
+R23	Location_of Arg1:T15 Arg2:T14	
+R24	Overlap Arg1:T14 Arg2:T32	
+#38	AnnotatorNotes T9	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+#39	AnnotatorNotes T14	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T45	Quantifier_or_Qualifier 655 662	abierto
+#40	AnnotatorNotes T45	C0348025; Open approach; Spatial Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T45	
+R26	Overlap Arg1:T14 Arg2:T33	
+R27	Before Arg1:T14 Arg2:T3	
+R28	Used_for Arg1:T34 Arg2:T22	
+R29	Experiences Arg1:T31 Arg2:T3	
+R30	Experiences Arg1:T31 Arg2:T22	
+R31	Used_for Arg1:T35 Arg2:T34	
+R32	Negation Arg1:T36 Arg2:T17	
+R34	Experiences Arg1:T31 Arg2:T17	
+R35	Experiences Arg1:T31 Arg2:T16	
+T46	Result_or_Value 865 866	5
+R36	Has_Result_or_Value Arg1:T39 Arg2:T46	
+R37	Experiences Arg1:T38 Arg2:T39	
+R38	Used_for Arg1:T41 Arg2:T8	
+R9	Before Arg1:T22 Arg2:T3	
+R33	Before Arg1:T14 Arg2:T17	
+#41	AnnotatorNotes T32	C0332185; Recent; Temporal Concept
+A7	Experiencer T37 Other
+A8	Experiencer T38 Patient
+A9	Experiencer T31 Patient
+A10	Experiencer T25 Patient
+A11	Experiencer T27 Patient
+A12	Experiencer T28 Patient
+A13	Experiencer T29 Patient
+A14	Experiencer T30 Patient

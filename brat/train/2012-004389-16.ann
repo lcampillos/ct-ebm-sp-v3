@@ -1,0 +1,201 @@
+T1	PROC 90 110	estudio de extensión
+T2	DISO 114 118	gota
+#1	AnnotatorNotes T2	C0018099; Gout; Disease or Syndrome
+T3	PROC 141 161	Estudio de extensión
+T4	CHEM 208 218	alopurinol
+#2	AnnotatorNotes T4	C0002144; allopurinol; Organic Chemical · Pharmacologic Substance
+T5	PROC 255 286	estudio de eficacia y seguridad
+T6	CHEM 302 312	alopurinol
+#3	AnnotatorNotes T6	C0002144; allopurinol; Organic Chemical · Pharmacologic Substance
+T7	DISO 336 340	Gota
+#4	AnnotatorNotes T7	C0018099; Gout; Disease or Syndrome
+T8	PROC 413 427	procedimientos
+#5	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T9	PROC 491 527	consentimiento informado por escrito
+#6	AnnotatorNotes T9	C0811741; Obtain informed written consent; Health Care Activity
+T10	PROC 648 671	tratamiento doble ciego
+T11	CHEM 179 188	lesinurad
+#7	AnnotatorNotes T11	C3886073; lesinurad; Organic Chemical · Pharmacologic Substance
+T12	CHEM 769 779	medicación
+#8	AnnotatorNotes T12	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T13	CHEM 290 299	lesinurad
+#9	AnnotatorNotes T13	C3886073; lesinurad; Organic Chemical · Pharmacologic Substance
+T14	PROC 805 812	placebo
+#10	AnnotatorNotes T14	C0032042; Placebos; Therapeutic or Preventive Procedure
+T15	CHEM 816 826	alopurinol
+#11	AnnotatorNotes T15	C0002144; allopurinol; Organic Chemical · Pharmacologic Substance
+T16	PROC 911 920	protocolo
+#12	AnnotatorNotes T16	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T17	PROC 1025 1058	método anticonceptivo no hormonal
+T18	CHEM 1050 1058	hormonal
+#13	AnnotatorNotes T18	C0019932; Hormones; Hormone
+T19	CHEM 1147 1157	medicación
+#14	AnnotatorNotes T19	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T20	DISO 1230 1259	afección médica o psicológica
+T21	PROC 1449 1458	protocolo
+#15	AnnotatorNotes T21	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T22	CHEM 61 70	lesinurad
+#16	AnnotatorNotes T22	C3886073; lesinurad; Organic Chemical · Pharmacologic Substance
+T23	CHEM 73 83	alopurinol
+#17	AnnotatorNotes T23	C0002144; allopurinol; Organic Chemical · Pharmacologic Substance
+T24	CHEM 793 802	lesinurad
+#18	AnnotatorNotes T24	C3886073; lesinurad; Organic Chemical · Pharmacologic Substance
+T25	Date 13 17	2012
+T26	Date 162 175	a largo plazo
+T27	LIVB 228 237	pacientes
+#19	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 372 380	paciente
+#20	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 611 619	paciente
+#21	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Date 844 850	mes 12
+T32	LIVB 857 865	paciente
+#22	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 927 935	paciente
+#23	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 939 945	hombre
+#24	AnnotatorNotes T34	C0025266; Male population group; Population Group
+T35	LIVB 948 953	mujer
+#25	AnnotatorNotes T35	C0043210; Woman; Population Group
+T36	LIVB 959 966	mujeres
+#26	AnnotatorNotes T36	C0043210; Woman; Population Group
+T37	Neg_cue 1047 1049	no
+T38	Duration 1097 1113	al menos 14 días
+T39	CONC 1128 1140	última dosis
+T40	LIVB 1202 1210	paciente
+#27	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1278 1290	investigador
+#28	AnnotatorNotes T41	C0035173; Research Personnel; Professional or Occupational Group
+T42	LIVB 1299 1313	monitor médico
+#29	AnnotatorNotes T42	C1708968; Medical Monitor; Professional or Occupational Group
+T44	LIVB 1361 1369	paciente
+#30	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 1404 1412	paciente
+#31	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	PHYS 971 1002	capacidad de quedar embarazadas
+#32	AnnotatorNotes T46	C3831118; Childbearing Potential; Clinical Attribute
+T47	PHYS 400 408	entender
+#33	AnnotatorNotes T47	C0162340; Comprehension; Mental Process
+T29	PROC 899 906	visitas
+#34	AnnotatorNotes T29	C1512346; Patient Visit; Health Care Activity
+T43	PROC 833 839	visita
+#35	AnnotatorNotes T43	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T18 Negated
+#36	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#37	AnnotatorNotes T10	C0013072; Double-Blind Method; Research Activity
+T48	Spec_cue 1315 1321	podría
+T49	Observation 1334 1340	riesgo
+A2	Assertion T49 Speculated
+T50	Quantifier_or_Qualifier 1341 1352	innecesario
+A3	Assertion T50 Speculated
+T51	CONC 1372 1382	interferir
+A4	Assertion T51 Speculated
+#38	AnnotatorNotes T51	C0521102; Interferes with; Functional Concept
+R1	Speculation Arg1:T48 Arg2:T49	
+R2	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T50	
+R3	Speculation Arg1:T48 Arg2:T51	
+R4	Combined_with Arg1:T22 Arg2:T23	
+R5	Overlap Arg1:T3 Arg2:T26	
+R6	Combined_with Arg1:T11 Arg2:T4	
+R7	Experiences Arg1:T27 Arg2:T11	
+R8	Experiences Arg1:T27 Arg2:T13	
+R9	Combined_with Arg1:T13 Arg2:T6	
+R10	Before Arg1:T5 Arg2:T3	
+T52	Observation 387 396	capacidad
+#39	AnnotatorNotes T52	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R12	Experiences Arg1:T28 Arg2:T47	
+R13	Overlap Arg1:T47 Arg2:T8	
+T53	Observation 474 487	desea otorgar
+#40	AnnotatorNotes T53	C0600109; Willin; Finding (?)
+R14	Overlap Arg1:T53 Arg2:T9	
+R16	Before Arg1:T9 Arg2:T8	
+T54	Observation 453 460	riesgos
+R17	Experiences Arg1:T28 Arg2:T54	
+R18	Causes Arg1:T8 Arg2:T54	
+T55	PROC 597 604	estudio
+#41	AnnotatorNotes T55	C0008976; Clinical Trials; Research Activity
+R19	Before Arg1:T9 Arg2:T55	
+T56	Observation 623 671	completado el periodo de tratamiento doble ciego
+R21	Experiences Arg1:T30 Arg2:T10	
+T57	Observation 756 765	tolerando
+R22	Experiences Arg1:T30 Arg2:T57	
+R23	Overlap Arg1:T57 Arg2:T12	
+R24	Experiences Arg1:T30 Arg2:T12	
+R25	Overlap Arg1:T57 Arg2:T24	
+R26	Experiences Arg1:T30 Arg2:T14	
+R27	Overlap Arg1:T57 Arg2:T14	
+R28	Used_for Arg1:T12 Arg2:T10	
+R29	Used_for Arg1:T24 Arg2:T10	
+R31	Used_for Arg1:T15 Arg2:T10	
+R32	Experiences Arg1:T30 Arg2:T15	
+R33	Overlap Arg1:T57 Arg2:T15	
+R34	Overlap Arg1:T15 Arg2:T43	
+R35	Overlap Arg1:T14 Arg2:T43	
+R36	Overlap Arg1:T24 Arg2:T43	
+R37	Overlap Arg1:T12 Arg2:T43	
+R38	Overlap Arg1:T57 Arg2:T43	
+R39	Overlap Arg1:T43 Arg2:T31	
+R40	Experiences Arg1:T30 Arg2:T24	
+T58	Observation 866 881	desea adherirse
+#42	AnnotatorNotes T58	C0600109; Willing; Finding (?)
+R41	Experiences Arg1:T32 Arg2:T29	
+R42	Overlap Arg1:T58 Arg2:T29	
+R43	Overlap Arg1:T58 Arg2:T16	
+R44	Experiences Arg1:T36 Arg2:T46	
+R45	Experiences Arg1:T35 Arg2:T46	
+R46	Experiences Arg1:T36 Arg2:T17	
+R47	Negation Arg1:T37 Arg2:T18	
+R48	Used_for Arg1:T18 Arg2:T17	
+R49	Experiences Arg1:T35 Arg2:T17	
+T59	Quantifier_or_Qualifier 1059 1067	efectivo
+R50	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T59	
+R51	Has_Duration_or_Interval Arg1:T17 Arg2:T38	
+T60	PROC 1079 1086	estudio
+#43	AnnotatorNotes T60	C0008976; Clinical Trials; Research Activity
+R52	Overlap Arg1:T17 Arg2:T60	
+R53	Overlap Arg1:T46 Arg2:T60	
+R54	Overlap Arg1:T46 Arg2:T17	
+R55	After Arg1:T17 Arg2:T39	
+R56	Has_Dose_or_Strength Arg1:T19 Arg2:T39	
+R57	Experiences Arg1:T33 Arg2:T46	
+R58	Experiences Arg1:T33 Arg2:T17	
+R59	Experiences Arg1:T33 Arg2:T19	
+R60	Experiences Arg1:T35 Arg2:T19	
+R61	Experiences Arg1:T36 Arg2:T19	
+R62	Experiences Arg1:T40 Arg2:T20	
+R63	Before Arg1:T20 Arg2:T49	
+R65	Experiences Arg1:T44 Arg2:T20	
+R66	Experiences Arg1:T44 Arg2:T49	
+R67	Experiences Arg1:T40 Arg2:T49	
+T61	Observation 1418 1458	cumplir con los requisitos del protocolo
+#44	AnnotatorNotes T61	C0582783; Ability to comply with treatment; Finding (?)
+T62	Observation 1466 1486	completar el estudio
+#45	AnnotatorNotes T62	C2732579; Completion of clinical trial; Finding
+R72	Before Arg1:T61 Arg2:T62	
+R73	Overlap Arg1:T49 Arg2:T61	
+R74	Experiences Arg1:T45 Arg2:T49	
+R77	Experiences Arg1:T45 Arg2:T20	
+R78	Overlap Arg1:T52 Arg2:T47	
+R79	Experiences Arg1:T28 Arg2:T8	
+R80	Overlap Arg1:T10 Arg2:T57	
+#46	AnnotatorNotes T54	C0559571; At risk; Finding
+#47	AnnotatorNotes T49	C0559571; At risk; Finding
+R11	Experiences Arg1:T30 Arg2:T43	
+#48	AnnotatorNotes T59	C1704419; Effective; Qualitative Concept
+#49	AnnotatorNotes R56	(?)
+#50	AnnotatorNotes T39	C1762893; Date last dose; Temporal Concept
+#51	AnnotatorNotes T26	C0443252; Long-term; Temporal Concept
+#52	AnnotatorNotes T20	C0221423; Illness (finding); Sign or Symptom | C0849888; psychological disturbance; Mental or Behavioral Dysfunction (?)
+A5	Experiencer T27 Patient
+A6	Experiencer T28 Patient
+A7	Experiencer T30 Patient
+A8	Experiencer T32 Patient
+A9	Experiencer T33 Patient
+A10	Experiencer T34 Patient
+A11	Experiencer T35 Patient
+A12	Experiencer T36 Patient
+A13	Experiencer T40 Patient
+A14	Experiencer T41 Other
+A15	Experiencer T42 Other
+A16	Experiencer T44 Patient
+A17	Experiencer T45 Patient

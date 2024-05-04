@@ -1,0 +1,119 @@
+T1	CHEM 169 193	talimogene laherparepvec
+#1	AnnotatorNotes T1	C4754924; Talimogene laherparepvec only product; Pharmacologic Substance
+T2	PROC 71 110	evaluar la supervivencia y la seguridad
+T3	PROC 197 213	ensayos clínicos
+#2	AnnotatorNotes T3	C0008976; Clinical Trials; Research Activity
+T4	DISO 285 290	tumor
+#3	AnnotatorNotes T4	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T5	PROC 360 374	ensayo clínico
+#4	AnnotatorNotes T5	C0008976; Clinical Trials; Research Activity
+T6	PROC 46 65	Estudio de registro
+#5	AnnotatorNotes T6	C0920631; Patient Registry Study; Research Activity
+T7	CHEM 329 353	talimogene laherparepvec
+#6	AnnotatorNotes T7	C4754924; Talimogene laherparepvec only product; Pharmacologic Substance
+T8	PROC 923 937	ensayo clínico
+#7	AnnotatorNotes T8	C0008976; Clinical Trials; Research Activity
+T9	DISO 990 995	tumor
+#8	AnnotatorNotes T9	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T10	PROC 1024 1035	tratamiento
+#9	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	PROC 464 488	consentimiento informado
+#10	AnnotatorNotes T11	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T12	PROC 1068 1093	seguimiento a largo plazo
+#11	AnnotatorNotes T12	C1517942; Long-term Follow-up; Health Care Activity
+T13	PROC 1224 1238	ensayo clínico
+#12	AnnotatorNotes T13	C0008976; Clinical Trials; Research Activity
+T14	PROC 1323 1337	ensayo clínico
+#13	AnnotatorNotes T14	C0008976; Clinical Trials; Research Activity
+T15	CHEM 1193 1217	talimogene laherparepvec
+#14	AnnotatorNotes T15	C4754924; Talimogene laherparepvec only product; Pharmacologic Substance
+T16	PROC 1399 1424	seguimiento a largo plazo
+#15	AnnotatorNotes T16	C1517942; Long-term Follow-up; Health Care Activity
+T17	CHEM 1341 1365	talimogene laherparepvec
+#16	AnnotatorNotes T17	C4754924; Talimogene laherparepvec only product; Pharmacologic Substance
+T18	PROC 599 623	consentimiento informado
+#17	AnnotatorNotes T18	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T19	PROC 682 706	consentimiento informado
+#18	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	CHEM 892 916	talimogene laherparepvec
+#19	AnnotatorNotes T20	C4754924; Talimogene laherparepvec only product; Pharmacologic Substance
+T21	PROC 317 324	tratado
+#20	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	Date 13 17	2015
+T23	Date 111 124	a largo plazo
+T24	LIVB 132 139	sujetos
+#21	AnnotatorNotes T24	C0681850; Study Subject; Group
+T25	LIVB 443 450	sujetos
+#22	AnnotatorNotes T25	C0681850; Study Subject; Group
+T26	LIVB 549 555	sujeto
+#23	AnnotatorNotes T26	C0681850; Study Subject; Group
+T27	Age 571 586	demasiado joven
+T28	LIVB 628 647	representante legal
+#24	AnnotatorNotes T28	C4288823; Legal Representative for the Study; Human
+T29	LIVB 663 669	sujeto
+#25	AnnotatorNotes T29	C0681850; Study Subject; Group
+T30	LIVB 841 848	sujetos
+#26	AnnotatorNotes T30	C0681850; Study Subject; Group
+T31	Dose 870 888	al menos una dosis
+T32	Date 1080 1093	a largo plazo
+T34	LIVB 1152 1159	Sujetos
+#27	AnnotatorNotes T34	C0681850; Study Subject; Group
+T35	Date 1181 1192	actualmente
+T36	LIVB 1272 1279	Sujetos
+#28	AnnotatorNotes T36	C0681850; Study Subject; Group
+T37	Date 1303 1314	actualmente
+T38	Date 1411 1424	a largo plazo
+A1	Status T10 History_of
+A2	Status T12 History_of
+A3	Status T20 History_of
+A4	Status T8 History_of
+#29	AnnotatorNotes T2	C0038953; Survival Analysis; Research Activity + C1705187; Safety Study; Research Activity
+#30	AnnotatorNotes T38	C0443252; Long-term; Temporal Concept
+#31	AnnotatorNotes T32	C0443252; Long-term; Temporal Concept
+#32	AnnotatorNotes T23	C0443252; Long-term; Temporal Concept
+#33	AnnotatorNotes T35	C0521116; Current (present time); Temporal Concept 
+#34	AnnotatorNotes T37	C0521116; Current (present time); Temporal Concept 
+R1	Overlap Arg1:T2 Arg2:T23	
+R2	Experiences Arg1:T24 Arg2:T1	
+T33	PROC 530 537	estudio
+#35	AnnotatorNotes T33	C0008976; Clinical Trials; Research Activity
+R3	Before Arg1:T11 Arg2:T33	
+R4	Has_Age Arg1:T26 Arg2:T27	
+R5	Overlap Arg1:T18 Arg2:T27	
+R6	Has_Age Arg1:T29 Arg2:T27	
+T39	Observation 707 719	asentimiento
+#36	AnnotatorNotes T39	C1302239; Patient consented to clinical trial; Finding (?)
+T40	PROC 819 826	estudio
+#37	AnnotatorNotes T40	C0008976; Clinical Trials; Research Activity
+R8	Before Arg1:T39 Arg2:T40	
+R9	Before Arg1:T19 Arg2:T40	
+R10	Before Arg1:T18 Arg2:T40	
+A5	Status T7 History_of
+A6	Status T1 History_of
+R11	Used_for Arg1:T7 Arg2:T21	
+R12	Experiences Arg1:T30 Arg2:T20	
+R13	Has_Dose_or_Strength Arg1:T20 Arg2:T31	
+R14	Overlap Arg1:T12 Arg2:T32	
+T41	Quantifier_or_Qualifier 1010 1020	finalizado
+#38	AnnotatorNotes T41	C1272693; Ended - status; Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T41	
+R16	Used_for Arg1:T20 Arg2:T10	
+T42	Observation 1041 1054	participación
+#39	AnnotatorNotes T42	C1278516; Patient participation status; Finding
+R17	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T41	
+R19	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T41	
+R20	Experiences Arg1:T30 Arg2:T9	
+R21	Experiences Arg1:T34 Arg2:T15	
+R22	Overlap Arg1:T15 Arg2:T35	
+R23	Experiences Arg1:T36 Arg2:T17	
+R24	Overlap Arg1:T17 Arg2:T37	
+R25	Overlap Arg1:T16 Arg2:T38	
+R26	Overlap Arg1:T17 Arg2:T16	
+A7	Experiencer T36 Patient
+A8	Experiencer T34 Patient
+A9	Experiencer T30 Patient
+A10	Experiencer T25 Patient
+A11	Experiencer T26 Patient
+A12	Experiencer T28 Other
+A13	Experiencer T29 Patient
+A14	Experiencer T24 Patient

@@ -1,0 +1,70 @@
+T1	PROC 46 83	Estudio de eficacia e inmunogenicidad
+T2	CHEM 91 121	vacuna antigripal tetravalente
+T3	PROC 210 229	Inmunización activa
+#1	AnnotatorNotes T3	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T4	DISO 272 277	gripe
+#2	AnnotatorNotes T4	C0021400; Influenza; Disease or Syndrome
+T5	PROC 304 314	Profilaxis
+#3	AnnotatorNotes T5	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T6	DISO 321 326	gripe
+#4	AnnotatorNotes T6	C0021400; Influenza; Disease or Syndrome
+T7	PROC 122 156	administrada por vía intramuscular
+T8	DISO 459 464	gripe
+#5	AnnotatorNotes T8	C0021400; Influenza; Disease or Syndrome
+T9	PROC 427 436	vacunados
+#6	AnnotatorNotes T9	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T10	Date 13 17	2013
+T11	Route 139 156	vía intramuscular
+#7	AnnotatorNotes T11	C1556154; Intramuscular Route of Drug Administration; Functional Concept
+T12	LIVB 159 164	niños
+#8	AnnotatorNotes T12	C0008059; Child; Age Group
+T13	Age 171 186	de 6 a 35 meses
+T14	LIVB 233 238	niños
+#9	AnnotatorNotes T14	C0008059; Child; Age Group
+T15	Age 239 254	de 6 a 35 meses
+T16	LIVB 330 335	niños
+#10	AnnotatorNotes T16	C0008059; Child; Age Group
+T17	Age 336 351	de 6 a 35 meses
+T18	LIVB 386 391	Niños
+#11	AnnotatorNotes T18	C0008059; Child; Age Group
+T19	Age 398 422	de 6 a menos de 36 meses
+T20	Neg_cue 424 426	no
+T21	LIVB 492 510	Niños " en riesgo"
+#12	AnnotatorNotes T21	C5425877; Children 3-18 years old with high risk condition; Population Group (?)
+A1	Population_data T12 Age
+A2	Population_data T14 Age
+A3	Population_data T16 Age
+A4	Population_data T18 Age
+A5	Population_data T21 Age
+A6	Assertion T9 Negated
+A7	Status T9 History_of
+#13	AnnotatorNotes T1	C4054739; Immunogenicity Study; Research Activity + C1707887; Efficacy Study; Research Activity
+#14	AnnotatorNotes T2	C4318638; Quadrivalent Influenza Vaccine; Pharmacologic Substance
+R1	Used_for Arg1:T2 Arg2:T7	
+R2	Has_Route_or_Mode Arg1:T2 Arg2:T11	
+R3	Experiences Arg1:T12 Arg2:T2	
+R4	Has_Age Arg1:T12 Arg2:T13	
+#15	AnnotatorNotes T7	C0021492; Intramuscular injection; Therapeutic or Preventive Procedure
+T22	Quantifier_or_Qualifier 165 170	sanos
+#16	AnnotatorNotes T22	C3898900; Healthy; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T22	
+R6	Experiences Arg1:T14 Arg2:T3	
+R7	Has_Age Arg1:T14 Arg2:T15	
+R8	Before Arg1:T3 Arg2:T4	
+R9	Before Arg1:T5 Arg2:T6	
+R10	Experiences Arg1:T16 Arg2:T5	
+R11	Has_Age Arg1:T16 Arg2:T17	
+T23	Quantifier_or_Qualifier 392 397	sanos
+#17	AnnotatorNotes T23	C3898900; Healthy; Qualitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T23	
+R13	Has_Age Arg1:T18 Arg2:T19	
+R14	Negation Arg1:T20 Arg2:T9	
+R15	Before Arg1:T9 Arg2:T8	
+R16	Experiences Arg1:T18 Arg2:T9	
+R17	Experiences Arg1:T16 Arg2:T6	
+R18	Experiences Arg1:T18 Arg2:T8	
+A8	Experiencer T21 Patient
+A9	Experiencer T18 Patient
+A10	Experiencer T16 Patient
+A11	Experiencer T14 Patient
+A12	Experiencer T12 Patient

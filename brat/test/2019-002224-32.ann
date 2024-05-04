@@ -1,0 +1,166 @@
+T1	CHEM 95 103	Erenumab
+#1	AnnotatorNotes T1	C4542165; erenumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T2	DISO 115 130	migraña crónica
+T3	CHEM 204 212	Erenumab
+#2	AnnotatorNotes T3	C4542165; erenumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	DISO 224 239	migraña crónica
+T5	DISO 282 297	Migraña crónica
+T6	PROC 388 402	diagnosticados
+#3	AnnotatorNotes T6	C0011900; Diagnosis; Diagnostic Procedure
+T7	DISO 438 469	migraña crónica, con o sin aura
+T8	DISO 550 558	Cefaleas
+#4	AnnotatorNotes T8	C0018681; Headache; Sign or Symptom
+T9	DISO 834 850	condición médica
+#5	AnnotatorNotes T9	C4745084; Medical Condition; Finding
+T10	PROC 613 623	prevención
+#6	AnnotatorNotes T10	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T11	DISO 866 889	desórdenes neurológicos
+T12	DISO 891 917	enfermedades psiquiátricas
+#7	AnnotatorNotes T12	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T13	DISO 928 957	enfermedades cardiovasculares
+#8	AnnotatorNotes T13	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T14	DISO 975 1022	abuso o dependencia de drogas, tabaco o alcohol
+T15	DISO 1140 1156	abuso de alcohol
+T16	PROC 1311 1322	tratamiento
+#9	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 1352 1365	contracepción
+#10	AnnotatorNotes T17	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T18	DISO 768 776	cefaleas
+#11	AnnotatorNotes T18	C0018681; Headache; Sign or Symptom
+T19	ANAT 941 957	cardiovasculares
+#12	AnnotatorNotes T19	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T20	Date 13 17	2019
+T21	PHYS 46 54	Sentidos
+#13	AnnotatorNotes T21	C0030971; Perception; Mental Process 
+T22	Duration 123 130	crónica
+#14	AnnotatorNotes T22	C0205191; chronic; Temporal Concept
+T23	PHYS 155 163	Sentidos
+#15	AnnotatorNotes T23	C0030971; Perception; Mental Process 
+T24	Duration 232 239	crónica
+#16	AnnotatorNotes T24	C0205191; chronic; Temporal Concept
+T25	Duration 290 297	crónica
+#17	AnnotatorNotes T25	C0205191; chronic; Temporal Concept
+T26	LIVB 326 333	Adultos
+#18	AnnotatorNotes T26	C0001675; Adult; Age Group
+T27	Age 334 352	entre 30 y 50 años
+T28	LIVB 378 387	Pacientes
+#19	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Duration 446 453	crónica
+#20	AnnotatorNotes T29	C0205191; chronic; Temporal Concept
+T31	LIVB 489 498	neurólogo
+#21	AnnotatorNotes T31	C0237426; Neurologists; Professional or Occupational Group
+T32	LIVB 714 723	pacientes
+#22	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	Neg_cue 724 727	sin
+T34	Duration 1026 1038	los 12 meses
+T35	LIVB 1117 1125	paciente
+#23	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 1184 1229	Mujeres embarazadas o en periodo de lactancia
+#24	AnnotatorNotes T37	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T38	LIVB 1233 1240	Mujeres
+#25	AnnotatorNotes T38	C0043210; Woman; Population Group
+T41	PHYS 1245 1278	capacidad de quedarse embarazadas
+#26	AnnotatorNotes T41	C3831118; Childbearing Potential; Clinical Attribute
+T42	LIVB 362 374	mediterránea
+#27	AnnotatorNotes T42	C0240321; Mediterranean; Population Group
+T43	LIVB 627 636	Controles
+#28	AnnotatorNotes T43	C0009932; Control Groups; Group
+T44	LIVB 673 694	personal hospitalario
+#29	AnnotatorNotes T44	C0031228; Personnel, Hospital; Professional or Occupational Group
+T36	PHYS 1192 1203	embarazadas
+#30	AnnotatorNotes T36	C0032961; Pregnancy; Organism Function
+T40	PHYS 1220 1229	lactancia
+#31	AnnotatorNotes T40	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T45	CHEM 998 1004	drogas
+#32	AnnotatorNotes T45	C0086190; Illicit Drugs; Hazardous or Poisonous Substance
+T30	PROC 643 653	reclutados
+#33	AnnotatorNotes T30	C0242800; Patient Recruitment; Research Activity
+T39	Quantifier_or_Qualifier 1062 1063	1
+T46	PROC 1055 1061	visita
+#35	AnnotatorNotes T46	C1512346; Patient Visit; Health Care Activity
+A1	Population_data T26 Age
+A2	Assertion T18 Negated
+A4	Status T18 History_of
+#36	AnnotatorNotes T5	C0744638; headache migraine chronic; Disease or Syndrome 
+#37	AnnotatorNotes T4	C0744638; headache migraine chronic; Disease or Syndrome 
+#38	AnnotatorNotes T2	C0744638; headache migraine chronic; Disease or Syndrome 
+#39	AnnotatorNotes T11	C0027765; nervous system disorder; Disease or Syndrome
+#40	AnnotatorNotes T15	C0085762; Alcohol abuse; Mental or Behavioral Dysfunction
+T47	Neg_cue 461 464	sin
+T48	Observation 465 469	aura
+#34	AnnotatorNotes T48	C0236018; Aura; Finding
+A3	Assertion T48 Negated
+T49	Food 1015 1022	alcohol
+#41	AnnotatorNotes T49	C0001967; Alcoholic Beverages; Food
+T50	Food 1149 1156	alcohol
+#42	AnnotatorNotes T50	C0001967; Alcoholic Beverages; Food
+R1	Has_Duration_or_Interval Arg1:T2 Arg2:T22	
+R2	Has_Duration_or_Interval Arg1:T4 Arg2:T24	
+R3	Has_Duration_or_Interval Arg1:T5 Arg2:T25	
+R4	Has_Age Arg1:T26 Arg2:T27	
+R5	Negation Arg1:T47 Arg2:T48	
+R6	Has_Duration_or_Interval Arg1:T7 Arg2:T29	
+T51	Quantifier_or_Qualifier 420 435	alta frecuencia
+#43	AnnotatorNotes T51	C0205212; High frequency; Temporal Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T51	
+R8	Experiences Arg1:T28 Arg2:T7	
+R9	Experiences Arg1:T28 Arg2:T48	
+R10	Overlap Arg1:T7 Arg2:T48	
+R11	Experiences Arg1:T28 Arg2:T8	
+T52	CONC 515 585	Clasificación Internacional de las Cefaleas, III Edición, versión beta
+R12	Used_for Arg1:T52 Arg2:T6	
+T53	CONC 587 598	ICHD-3 beta
+R13	Used_for Arg1:T53 Arg2:T6	
+R14	Before Arg1:T10 Arg2:T7	
+R15	Experiences Arg1:T28 Arg2:T10	
+R16	Negation Arg1:T33 Arg2:T18	
+R17	Experiences Arg1:T43 Arg2:T18	
+T54	Quantifier_or_Qualifier 637 642	sanos
+#44	AnnotatorNotes T54	C3898900; Healthy; Qualitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T54	
+R19	Location_of Arg1:T19 Arg2:T13	
+T55	Quantifier_or_Qualifier 918 925	severas
+#45	AnnotatorNotes T55	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R20	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T55	
+T56	Quantifier_or_Qualifier 851 864	significativa
+#46	AnnotatorNotes T56	C1546944; Event Seriousness - Significant; Qualitative Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T56	
+R22	Causes Arg1:T45 Arg2:T14	
+R23	Causes Arg1:T49 Arg2:T14	
+R24	Has_Duration_or_Interval Arg1:T14 Arg2:T34	
+R25	Before Arg1:T14 Arg2:T46	
+R26	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T39	
+#47	AnnotatorNotes T14	C0740858; Substance abuse problem; Mental or Behavioral Dysfunction | C2106524; combined drug and alcohol abuse; Mental or Behavioral Dysfunction | C0040336; Tobacco Use Disorder; Mental or Behavioral Dysfunction | C2919052; Alcohol or other drugs dependence; Mental or Behavioral Dysfunction | C0040332; Tobacco Dependence; Mental or Behavioral Dysfunction
+R27	Experiences Arg1:T35 Arg2:T14	
+T57	CONC 1071 1087	historia clínica
+#48	AnnotatorNotes T57	C5204342; Clinical History; Intellectual Product
+R28	Causes Arg1:T50 Arg2:T15	
+T58	Result_or_Value 1168 1181	>100mg/semana
+R29	Has_Result_or_Value Arg1:T15 Arg2:T58	
+R30	Experiences Arg1:T37 Arg2:T36	
+R31	Experiences Arg1:T37 Arg2:T40	
+R32	Experiences Arg1:T38 Arg2:T41	
+R33	Experiences Arg1:T38 Arg2:T16	
+R34	Overlap Arg1:T16 Arg2:T17	
+R35	Experiences Arg1:T38 Arg2:T17	
+R36	Experiences Arg1:T43 Arg2:T30	
+R37	Experiences Arg1:T35 Arg2:T46	
+R38	Experiences Arg1:T44 Arg2:T30	
+R39	Experiences Arg1:T44 Arg2:T18	
+R40	Experiences Arg1:T35 Arg2:T49	
+R41	Experiences Arg1:T35 Arg2:T45	
+T59	Frequency 1174 1181	/semana
+R42	Has_Frequency Arg1:T50 Arg2:T59	
+#49	AnnotatorNotes T53	[International Classification of Headache Disorders vs 3 beta]
+#50	AnnotatorNotes T39	C0205447; One; Quantitative Concept
+A5	Assertion T17 Hypothetical
+A6	Experiencer T38 Patient
+A7	Experiencer T37 Patient
+A8	Experiencer T35 Patient
+A9	Experiencer T26 Patient
+A10	Experiencer T42 Patient
+A11	Experiencer T28 Patient
+A12	Experiencer T31 Other
+A13	Experiencer T43 Other
+A14	Experiencer T32 Patient
+A15	Experiencer T44 Other

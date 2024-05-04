@@ -1,0 +1,105 @@
+T1	PROC 1 15	Terapia neural
+T2	ANAT 9 15	neural
+#1	AnnotatorNotes T2	C0027763; Nervous system structure; Body System
+T3	PROC 21 48	tratamiento contra el dolor
+#2	AnnotatorNotes T3	C1304888; Pain control; Therapeutic or Preventive Procedure
+T4	DISO 55 72	displasia mamaria
+#3	AnnotatorNotes T4	C1305934; Benign mammary dysplasia; Pathologic Function
+T5	PROC 137 219	estudio experimental del tipo ensayo clínico de fase II, controlado y monocéntrico
+T6	DISO 313 326	manifestación
+#4	AnnotatorNotes T6	C0037088; Signs and Symptoms; Sign or Symptom
+T7	PROC 239 258	evaluar la eficacia
+#5	AnnotatorNotes T7	C1707887; Efficacy Study; Research Activity
+T8	PROC 265 279	terapia neural
+T9	PROC 286 307	tratamiento del dolor
+#6	AnnotatorNotes T9	C1304888; Pain control; Therapeutic or Preventive Procedure
+T10	DISO 333 350	displasia mamaria
+#7	AnnotatorNotes T10	C1305934; Benign mammary dysplasia; Pathologic Function
+T11	PROC 984 995	terapéutica
+#8	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	PROC 393 417	terapéutica convencional
+T13	PROC 499 510	tratamiento
+#9	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 516 530	terapia neural
+T15	CHEM 546 556	vitamina E
+#10	AnnotatorNotes T15	C0042874; vitamin E; Organic Chemical · Vitamin · Pharmacologic Substance
+T16	CHEM 573 585	progesterona
+#11	AnnotatorNotes T16	C0033308; progesterone; Organic Chemical · Hormone · Pharmacologic Substance
+T17	CHEM 604 636	antiinflamatorios no esteroideos
+#12	AnnotatorNotes T17	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T18	CHEM 737 749	progesterona
+#13	AnnotatorNotes T18	C0033308; progesterone; Organic Chemical · Hormone · Pharmacologic Substance
+T19	CHEM 760 792	antiinflamatorios no esteroideos
+#14	AnnotatorNotes T19	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T20	CHEM 798 808	vitamina E
+#15	AnnotatorNotes T20	C0042874; vitamin E; Organic Chemical · Vitamin · Pharmacologic Substance
+T21	PROC 903 917	terapia neural
+T22	CHEM 922 930	procaína
+#16	AnnotatorNotes T22	C0033218; procaine; Organic Chemical · Pharmacologic Substance
+T23	DISO 1004 1017	manifestación
+#17	AnnotatorNotes T23	C0037088; Signs and Symptoms; Sign or Symptom
+T24	DISO 43 48	dolor
+#18	AnnotatorNotes T24	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T25	ANAT 65 72	mamaria
+#19	AnnotatorNotes T25	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T26	ANAT 273 279	neural
+#20	AnnotatorNotes T26	C0027763; Nervous system structure; Body System
+T27	DISO 302 307	dolor
+#21	AnnotatorNotes T27	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T28	ANAT 343 350	mamaria
+#22	AnnotatorNotes T28	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T29	ANAT 524 530	neural
+#23	AnnotatorNotes T29	C0027763; Nervous system structure; Body System
+T30	DISO 673 678	dolor
+#24	AnnotatorNotes T30	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T31	ANAT 911 917	neural
+#25	AnnotatorNotes T31	C0027763; Nervous system structure; Body System
+T33	Date 97 102	enero
+T34	Date 105 122	diciembre de 2004
+T36	LIVB 438 447	pacientes
+#26	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T41	Dose 931 937	al 1 %
+R1	Location_of Arg1:T2 Arg2:T1	
+R2	Location_of Arg1:T25 Arg2:T4	
+T32	Quantifier_or_Qualifier 73 80	cíclica
+#27	AnnotatorNotes T32	C0439596; Cyclical; Temporal Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T32	
+T35	Quantifier_or_Qualifier 84 92	grado II
+R4	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T35	
+R5	Causes Arg1:T4 Arg2:T24	
+R6	Before Arg1:T5 Arg2:T34	
+R7	After Arg1:T5 Arg2:T33	
+R8	Location_of Arg1:T26 Arg2:T8	
+R9	Causes Arg1:T10 Arg2:T27	
+R10	Location_of Arg1:T28 Arg2:T10	
+T37	Quantifier_or_Qualifier 351 358	cíclica
+#28	AnnotatorNotes T37	C0439596; Cyclical; Temporal Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T37	
+T38	Quantifier_or_Qualifier 362 370	grado II
+R12	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T38	
+R13	Experiences Arg1:T36 Arg2:T13	
+R14	Location_of Arg1:T29 Arg2:T14	
+R15	Experiences Arg1:T36 Arg2:T14	
+R16	Experiences Arg1:T36 Arg2:T15	
+R17	Experiences Arg1:T36 Arg2:T16	
+R18	Experiences Arg1:T36 Arg2:T17	
+T39	Observation 661 668	mejoría
+#29	AnnotatorNotes T39	C0184511; Improved; Finding (?)
+R20	Causes Arg1:T18 Arg2:T39	
+R21	Location_of Arg1:T31 Arg2:T21	
+R22	Has_Dose_or_Strength Arg1:T22 Arg2:T41	
+R23	Combined_with Arg1:T21 Arg2:T22	
+T40	Quantifier_or_Qualifier 781 792	esteroideos
+A1	Assertion T40 Negated
+T42	Neg_cue 778 780	no
+R27	Negation Arg1:T42 Arg2:T40	
+R28	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T40	
+T43	Quantifier_or_Qualifier 625 636	esteroideos
+A2	Assertion T43 Negated
+T44	Neg_cue 622 624	no
+R29	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T43	
+R30	Causes Arg1:T10 Arg2:T6	
+#30	AnnotatorNotes T38	C0443298; Second degree; Qualitative Concept
+#31	AnnotatorNotes T35	C0443298; Second degree; Qualitative Concept
+#32	AnnotatorNotes T12	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure
+A3	Experiencer T36 Patient

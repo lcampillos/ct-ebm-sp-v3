@@ -1,0 +1,98 @@
+T1	PROC 44 55	TRATAMIENTO
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 115 156	ESTUDIO PILOTO COMPARATIVO DE LA EFICACIA
+T3	CHEM 160 170	EVOLOCUMAB
+#2	AnnotatorNotes T3	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	CHEM 178 181	LDL
+#3	AnnotatorNotes T4	C0023823; Low-Density Lipoproteins; Biologically Active Substance · Organic Chemical
+T5	DISO 208 227	HIPERCOLESTEROLEMIA
+#4	AnnotatorNotes T5	C0020443; Hypercholesterolemia; Disease or Syndrome
+T6	DISO 250 278	HIPERCOLESTEROLEMIA FAMILIAR
+#5	AnnotatorNotes T6	C0020445; Hypercholesterolemia, Familial; Disease or Syndrome
+T7	PROC 304 315	TRATAMIENTO
+#6	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 389 408	hipercolesterolemia
+#7	AnnotatorNotes T8	C0020443; Hypercholesterolemia; Disease or Syndrome
+T9	PROC 442 453	tratamiento
+#8	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	CHEM 486 495	estatinas
+#9	AnnotatorNotes T10	C0075191; statine; Amino Acid, Peptide, or Protein | C0360714; Hydroxymethylglutaryl-CoA Reductase Inhibitors; Organic Chemical · Pharmacologic Substance
+T11	DISO 514 539	enfermedad cardiovascular
+#10	AnnotatorNotes T11	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T12	CHEM 594 597	LDL
+#11	AnnotatorNotes T12	C0023823; Low-Density Lipoproteins; Biologically Active Substance · Organic Chemical
+T13	CHEM 682 692	evolocumab
+#12	AnnotatorNotes T13	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	PROC 716 736	ingreso hospitalario
+#13	AnnotatorNotes T14	C0184666; Hospital admission; Health Care Activity
+T15	ANAT 826 840	cardiovascular
+#14	AnnotatorNotes T15	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T16	PROC 926 950	consentimiento informado
+#15	AnnotatorNotes T16	C0811741; Obtain informed written consent; Health Care Activity
+T17	DISO 819 840	evento cardiovascular
+T18	DISO 59 78	HIPERCOLESTEROLEMIA
+#16	AnnotatorNotes T18	C0020443; Hypercholesterolemia; Disease or Syndrome
+T19	CHEM 83 93	EVOLOCUMAB
+#17	AnnotatorNotes T19	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T20	PROC 178 190	LDL-AFÉRESIS
+T21	CHEM 320 330	EVOLOCUMAB
+#18	AnnotatorNotes T21	C3529352; evolocumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T22	CHEM 413 416	LDL
+#19	AnnotatorNotes T22	C0023823; Low-Density Lipoproteins; Biologically Active Substance · Organic Chemical
+T23	PROC 413 427	LDL-colesterol
+#20	AnnotatorNotes T23	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+T24	ANAT 525 539	cardiovascular
+#21	AnnotatorNotes T24	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T25	PROC 594 606	LDL-aféresis
+T26	Date 12 16	2016
+T27	LIVB 194 203	PACIENTES
+#22	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 359 368	pacientes
+#23	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Age 378 386	>18 años
+T31	Dose 461 482	dosis máxima tolerada
+#24	AnnotatorNotes T31	C0752079; Maximum Tolerated Dose; Quantitative Concept
+T32	LIVB 549 558	pacientes
+#25	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	Frequency 607 621	quincenalmente
+T34	Duration 759 781	los tres últimos meses
+T35	Duration 844 858	los tres meses
+T36	Neg_cue 896 912	Incapacidad para
+A1	Assertion T16 Negated
+A2	Status T11 History_of
+A3	Assertion T13 Contraindicated
+A4	Status T14 History_of
+#26	AnnotatorNotes T2	C0031928; Pilot Projects; Research Activity + C1579762; comparative study research; Research Activity + C1707887; Efficacy Study; Research Activity 
+#27	AnnotatorNotes T20	C2599009; LDL apheresis procedure; Therapeutic or Preventive Procedure 
+#28	AnnotatorNotes T25	C2599009; LDL apheresis procedure; Therapeutic or Preventive Procedure 
+#29	AnnotatorNotes T17	C1320716; Cardiovascular event; Finding
+R1	Negation Arg1:T36 Arg2:T16	
+R2	Used_for Arg1:T19 Arg2:T1	
+R3	Experiences Arg1:T27 Arg2:T3	
+R4	Experiences Arg1:T27 Arg2:T20	
+R5	Experiences Arg1:T27 Arg2:T5	
+R6	Used_for Arg1:T21 Arg2:T7	
+R7	Has_Age Arg1:T28 Arg2:T29	
+T30	Result_or_Value 428 438	>100 mg/dl
+R8	Has_Result_or_Value Arg1:T23 Arg2:T30	
+R9	Has_Dose_or_Strength Arg1:T10 Arg2:T31	
+R10	Used_for Arg1:T10 Arg2:T9	
+T37	Quantifier_or_Qualifier 540 546	severa
+#30	AnnotatorNotes T37	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R11	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T37	
+R12	Location_of Arg1:T24 Arg2:T11	
+R13	Has_Frequency Arg1:T25 Arg2:T33	
+R14	Experiences Arg1:T32 Arg2:T25	
+R15	Overlap Arg1:T14 Arg2:T34	
+R16	Location_of Arg1:T15 Arg2:T17	
+R17	Overlap Arg1:T17 Arg2:T35	
+T38	CONC 795 804	inclusión
+#31	AnnotatorNotes T38	C1512693; Inclusion; Qualitative Concept
+R18	Before Arg1:T14 Arg2:T38	
+T39	CONC 872 881	inclusión
+#32	AnnotatorNotes T39	C1512693; Inclusion; Qualitative Concept
+R19	Before Arg1:T17 Arg2:T39	
+R20	Before Arg1:T11 Arg2:T8	
+A5	Experiencer T27 Patient
+A6	Experiencer T28 Patient
+A7	Experiencer T32 Patient

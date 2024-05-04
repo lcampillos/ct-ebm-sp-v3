@@ -1,0 +1,270 @@
+T1	PROC 232 254	retirada de medicación
+T2	CHEM 66 76	etanercept
+#1	AnnotatorNotes T2	C0717758; etanercept; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T3	PROC 80 91	monoterapia
+#2	AnnotatorNotes T3	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T4	CHEM 101 112	metotrexato
+#3	AnnotatorNotes T4	C0025677; methotrexate; Organic Chemical · Pharmacologic Substance
+T5	PROC 116 127	monoterapia
+#4	AnnotatorNotes T5	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T6	DISO 180 199	artritis reumatoide
+#5	AnnotatorNotes T6	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T7	PROC 256 281	aleatorizado, doble ciego
+T8	CHEM 244 254	medicación
+#6	AnnotatorNotes T8	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T9	CHEM 301 311	etanercept
+#7	AnnotatorNotes T9	C0717758; etanercept; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T10	PROC 315 326	monoterapia
+#8	AnnotatorNotes T10	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T11	CHEM 336 347	metotrexato
+#9	AnnotatorNotes T11	C0025677; methotrexate; Organic Chemical · Pharmacologic Substance
+T12	PROC 351 362	monoterapia
+#10	AnnotatorNotes T12	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T13	DISO 415 434	artritis reumatoide
+#11	AnnotatorNotes T13	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T14	DISO 457 476	Artritis reumatoide
+#12	AnnotatorNotes T14	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T15	DISO 535 545	enfermedad
+#13	AnnotatorNotes T15	C0012634; Disease; Disease or Syndrome
+T16	DISO 549 551	AR
+#14	AnnotatorNotes T16	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T17	PROC 603 614	tratamiento
+#15	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	DISO 638 640	AR
+#16	AnnotatorNotes T18	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T19	PROC 701 712	tratamiento
+#17	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	CHEM 747 758	metotrexato
+#18	AnnotatorNotes T20	C0025677; methotrexate; Organic Chemical · Pharmacologic Substance
+T21	CHEM 824 835	metotrexato
+#19	AnnotatorNotes T21	C0025677; methotrexate; Organic Chemical · Pharmacologic Substance
+T22	PROC 941 950	protocolo
+#20	AnnotatorNotes T22	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T23	DISO 1062 1082	hepatitis alcohólica
+#21	AnnotatorNotes T23	C0019187; Hepatitis, Alcoholic; Disease or Syndrome
+T24	DISO 1084 1114	esteatohepatitis no alcohólica
+#22	AnnotatorNotes T24	C3241937; Nonalcoholic Steatohepatitis; Disease or Syndrome
+T25	DISO 1117 1147	síndromes de inmunodeficiencia
+#23	AnnotatorNotes T25	C0021051; Immunologic Deficiency Syndromes; Disease or Syndrome
+T26	DISO 1161 1214	infección por el Virus de la Inmunodeficiencia Humana
+T27	DISO 1248 1257	infección
+#24	AnnotatorNotes T27	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T28	DISO 1276 1296	infecciones crónicas
+#25	AnnotatorNotes T28	C0151317; Chronic Infection; Disease or Syndrome
+T29	CHEM 1343 1366	agentes antiinfecciosos
+#26	AnnotatorNotes T29	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T30	DISO 1453 1462	infección
+#27	AnnotatorNotes T30	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T31	PROC 1505 1520	hospitalización
+#28	AnnotatorNotes T31	C0019993; Hospitalization; Health Care Activity
+T32	CHEM 1523 1546	agentes antiinfecciosos
+#29	AnnotatorNotes T32	C0003204; Anti-Infective Agents; Pharmacologic Substance
+T33	DISO 1647 1691	adicción o dependencia conocidas del alcohol
+T34	CHEM 1800 1804	FAME
+#30	AnnotatorNotes T34	C0242708; Antirheumatic Drugs, Disease-Modifying; Pharmacologic Substance
+T35	DISO 1741 1770	consumo o abuso de sustancias
+T36	CHEM 1817 1827	etanercept
+#31	AnnotatorNotes T36	C0717758; etanercept; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T37	CHEM 1846 1879	inhibidor oral de la cinasa Janus
+T38	DISO 1956 1982	enfermedades concomitantes
+#32	AnnotatorNotes T38	C0243087; concomitant disease; Pathologic Function
+T39	PROC 2040 2049	protocolo
+#33	AnnotatorNotes T39	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T40	CHEM 619 629	etanercept
+#34	AnnotatorNotes T40	C0717758; etanercept; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T41	Observation 1693 1708	consume alcohol
+T42	Date 12 16	2014
+T43	LIVB 168 175	sujetos
+#35	AnnotatorNotes T43	C0681850; Study Subject; Group
+T45	LIVB 403 410	sujetos
+#36	AnnotatorNotes T45	C0681850; Study Subject; Group
+T46	Duration 560 569	≥ 6 meses
+T47	LIVB 585 597	investigador
+#37	AnnotatorNotes T47	C0035173; Research Personnel; Professional or Occupational Group
+T48	Duration 649 658	≥ 6 meses
+T49	Dose 717 743	una dosis de 10 mg a 25 mg
+T51	Frequency 759 778	una vez a la semana
+T52	Duration 787 796	≥ 6 meses
+T53	Dose 803 820	una dosis estable
+T54	Route 836 840	oral
+#38	AnnotatorNotes T54	C1527415; Oral Route of Drug administration; Functional Concept
+T55	Duration 849 860	≥ 8 semanas
+T56	Age 901 910	≥ 18 años
+T58	LIVB 1023 1029	sujeto
+#39	AnnotatorNotes T58	C0681850; Study Subject; Group
+T60	LIVB 1178 1214	Virus de la Inmunodeficiencia Humana
+#40	AnnotatorNotes T60	C0019682; HIV; Virus
+T61	LIVB 1221 1227	sujeto
+#41	AnnotatorNotes T61	C0681850; Study Subject; Group
+T62	Duration 1288 1296	crónicas
+#42	AnnotatorNotes T62	C0205191; chronic; Temporal Concept
+T63	Duration 1375 1388	las 4 semanas
+T64	LIVB 1433 1439	sujeto
+#43	AnnotatorNotes T64	C0681850; Study Subject; Group
+T65	Route 1547 1559	intravenosos
+#44	AnnotatorNotes T65	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T66	Duration 1569 1582	las 8 semanas
+T67	LIVB 1627 1633	sujeto
+#45	AnnotatorNotes T67	C0681850; Study Subject; Group
+T68	Frequency 1709 1717	a diario
+T69	Date 1726 1737	actualmente
+T70	LIVB 1777 1783	sujeto
+#46	AnnotatorNotes T70	C0681850; Study Subject; Group
+T71	Route 1856 1860	oral
+#47	AnnotatorNotes T71	C1527415; Oral Route of Drug administration; Functional Concept
+T72	Duration 1880 1889	≤ 6 meses
+T73	LIVB 1933 1939	sujeto
+#48	AnnotatorNotes T73	C0681850; Study Subject; Group
+T74	LIVB 2020 2032	investigador
+#49	AnnotatorNotes T74	C0035173; Research Personnel; Professional or Occupational Group
+T44	Neg_cue 1805 1816	distinto de
+T50	Quantifier_or_Qualifier 678 695	de preinclusión 1
+T57	PROC 671 677	visita
+#50	AnnotatorNotes T57	C1512346; Patient Visit; Health Care Activity
+T59	Quantifier_or_Qualifier 880 897	de preinclusión 1
+T75	PROC 873 879	visita
+#51	AnnotatorNotes T75	C1512346; Patient Visit; Health Care Activity
+T76	Quantifier_or_Qualifier 1409 1426	de preinclusión 1
+T77	PROC 1402 1408	visita
+#52	AnnotatorNotes T77	C1512346; Patient Visit; Health Care Activity
+T78	Quantifier_or_Qualifier 1603 1620	de preinclusión 1
+T79	PROC 1596 1602	visita
+#53	AnnotatorNotes T79	C1512346; Patient Visit; Health Care Activity
+T80	PROC 1902 1908	visita
+#54	AnnotatorNotes T80	C1512346; Patient Visit; Health Care Activity
+T81	Quantifier_or_Qualifier 1909 1926	de preinclusión 1
+A1	Status T23 History_of
+A2	Status T24 History_of
+A3	Status T25 History_of
+A4	Status T26 History_of
+A5	Status T27 History_of
+A6	Status T28 History_of
+A7	Assertion T36 Negated
+A8	Status T34 History_of
+A9	Status T37 History_of
+#55	AnnotatorNotes T7	C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#56	AnnotatorNotes T1	C0850893; stop medication; Therapeutic or Preventive Procedure
+#57	AnnotatorNotes T26	C0019693; HIV Infections; Disease or Syndrome
+#58	AnnotatorNotes T69	C0521116; Current (present time); Temporal Concept 
+T82	Neg_cue 1101 1103	no
+T83	Food 1104 1114	alcohólica
+A10	Assertion T83 Negated
+#59	AnnotatorNotes T83	C0001967; Alcoholic Beverages; Food
+T84	Food 1072 1082	alcohólica
+#60	AnnotatorNotes T84	C0001967; Alcoholic Beverages; Food
+T85	Food 1701 1708	alcohol
+#61	AnnotatorNotes T85	C0001967; Alcoholic Beverages; Food
+R1	Used_for Arg1:T2 Arg2:T3	
+R2	Used_for Arg1:T4 Arg2:T5	
+T86	Observation 156 164	remisión
+R3	Experiences Arg1:T43 Arg2:T86	
+#62	AnnotatorNotes T86	C0544452; Disease remission; Finding
+R4	Experiences Arg1:T43 Arg2:T2	
+R5	Experiences Arg1:T43 Arg2:T4	
+R6	Experiences Arg1:T43 Arg2:T6	
+R7	Before Arg1:T6 Arg2:T86	
+R8	Used_for Arg1:T8 Arg2:T1	
+R9	Used_for Arg1:T9 Arg2:T10	
+R10	Used_for Arg1:T11 Arg2:T12	
+T87	Observation 391 399	remisión
+#63	AnnotatorNotes T87	C0544452; Disease remission; Finding
+R11	Before Arg1:T13 Arg2:T87	
+R12	Experiences Arg1:T45 Arg2:T1	
+R13	Experiences Arg1:T45 Arg2:T9	
+R14	Experiences Arg1:T45 Arg2:T11	
+R15	Experiences Arg1:T45 Arg2:T87	
+R16	Experiences Arg1:T45 Arg2:T13	
+T88	Observation 521 545	control de la enfermedad
+#64	AnnotatorNotes T88	C2911690; Disease Controlled; Finding
+T89	Quantifier_or_Qualifier 512 520	muy buen
+R17	Has_Quantifier_or_Qualifier Arg1:T88 Arg2:T89	
+R18	Has_Duration_or_Interval Arg1:T88 Arg2:T46	
+R19	Used_for Arg1:T40 Arg2:T17	
+R20	Has_Duration_or_Interval Arg1:T40 Arg2:T48	
+R21	Before Arg1:T17 Arg2:T57	
+R22	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T50	
+R23	Used_for Arg1:T20 Arg2:T19	
+R24	Has_Dose_or_Strength Arg1:T20 Arg2:T49	
+R25	Has_Frequency Arg1:T20 Arg2:T51	
+R26	Has_Duration_or_Interval Arg1:T20 Arg2:T52	
+R27	Has_Dose_or_Strength Arg1:T21 Arg2:T53	
+R28	Has_Route_or_Mode Arg1:T21 Arg2:T54	
+R29	Has_Duration_or_Interval Arg1:T21 Arg2:T55	
+R30	Before Arg1:T21 Arg2:T75	
+R31	Has_Quantifier_or_Qualifier Arg1:T75 Arg2:T59	
+R32	Used_for Arg1:T21 Arg2:T19	
+T90	PROC 925 934	selección
+#65	AnnotatorNotes T90	C0242802; Patient Selection; Research Activity
+R33	Overlap Arg1:T90 Arg2:T56	
+R34	Experiences Arg1:T58 Arg2:T23	
+R35	Causes Arg1:T84 Arg2:T23	
+R36	Causes Arg1:T83 Arg2:T24	
+R37	Experiences Arg1:T58 Arg2:T24	
+R38	Experiences Arg1:T58 Arg2:T25	
+R39	Experiences Arg1:T58 Arg2:T26	
+R40	Causes Arg1:T60 Arg2:T26	
+R41	Negation Arg1:T82 Arg2:T83	
+R42	Experiences Arg1:T61 Arg2:T27	
+R43	Experiences Arg1:T61 Arg2:T28	
+R44	Has_Duration_or_Interval Arg1:T28 Arg2:T62	
+T91	Quantifier_or_Qualifier 1258 1264	activa
+#66	AnnotatorNotes T91	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T91	
+T92	Quantifier_or_Qualifier 1299 1310	localizadas
+#67	AnnotatorNotes T92	C0392752; Localized; Spatial Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T92	
+R47	Experiences Arg1:T61 Arg2:T29	
+R48	Has_Duration_or_Interval Arg1:T29 Arg2:T63	
+R49	Before Arg1:T29 Arg2:T77	
+R50	Has_Quantifier_or_Qualifier Arg1:T77 Arg2:T76	
+R51	Experiences Arg1:T64 Arg2:T30	
+R52	Experiences Arg1:T64 Arg2:T31	
+R53	Experiences Arg1:T64 Arg2:T32	
+R54	Has_Route_or_Mode Arg1:T32 Arg2:T65	
+R55	Has_Duration_or_Interval Arg1:T32 Arg2:T66	
+R56	Before Arg1:T32 Arg2:T79	
+R57	Has_Quantifier_or_Qualifier Arg1:T79 Arg2:T78	
+T93	Quantifier_or_Qualifier 1463 1468	grave
+#68	AnnotatorNotes T93	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R58	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T93	
+R59	Experiences Arg1:T67 Arg2:T33	
+T94	Food 1684 1691	alcohol
+#69	AnnotatorNotes T94	C0001967; Alcoholic Beverages; Food
+R60	Causes Arg1:T94 Arg2:T33	
+R61	Experiences Arg1:T70 Arg2:T34	
+R62	Negation Arg1:T44 Arg2:T36	
+R63	Experiences Arg1:T70 Arg2:T37	
+R64	Has_Route_or_Mode Arg1:T37 Arg2:T71	
+R65	Has_Duration_or_Interval Arg1:T37 Arg2:T72	
+R66	Before Arg1:T37 Arg2:T80	
+R67	Before Arg1:T34 Arg2:T80	
+R68	Has_Quantifier_or_Qualifier Arg1:T80 Arg2:T81	
+#70	AnnotatorNotes T37	C3854325; Janus kinase inhibitor; Pharmacologic Substance (?) | C3854326; Janus Kinase Inhibitor [EPC]; Pharmacologic Substance
+R69	Experiences Arg1:T73 Arg2:T38	
+T95	Quantifier_or_Qualifier 1946 1955	una o más
+R70	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T95	
+T96	Quantifier_or_Qualifier 1983 1997	significativas
+#71	AnnotatorNotes T96	C1546944; Event Seriousness - Significant; Qualitative Concept
+R71	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T96	
+R72	Experiences Arg1:T67 Arg2:T41	
+#72	AnnotatorNotes T41	C4273278; alcohol use behavior; Finding | C5428797; finding of alcohol drinking behavior; Finding
+R73	Has_Frequency Arg1:T41 Arg2:T68	
+R74	Overlap Arg1:T35 Arg2:T69	
+R75	Experiences Arg1:T67 Arg2:T35	
+#73	AnnotatorNotes T35	C0740858; Substance abuse problem; Mental or Behavioral Dysfunction
+#74	AnnotatorNotes T33	C2106524; combined drug and alcohol abuse; Mental or Behavioral Dysfunction | C2919052; Alcohol or other drugs dependence; Mental or Behavioral Dysfunction
+#75	AnnotatorNotes T89	C3641222; Very good (qualifier value); Qualitative Concept 
+R76	Experiences Arg1:T67 Arg2:T94	
+R77	Experiences Arg1:T67 Arg2:T85	
+R78	Experiences Arg1:T58 Arg2:T84	
+R79	Experiences Arg1:T58 Arg2:T83	
+A11	Experiencer T43 Patient
+A12	Experiencer T45 Patient
+A13	Experiencer T47 Other
+A14	Experiencer T58 Patient
+A15	Experiencer T61 Patient
+A16	Experiencer T64 Patient
+A17	Experiencer T67 Patient
+A18	Experiencer T70 Patient
+A19	Experiencer T73 Patient
+A20	Experiencer T74 Other

@@ -1,0 +1,154 @@
+T1	PROC 46 71	Seguimiento a largo plazo
+#1	AnnotatorNotes T1	C1517942; Long-term Follow-up; Health Care Activity
+T2	CHEM 90 103	darvadstrocel
+#2	AnnotatorNotes T2	C5227825; Darvadstrocel; Pharmacologic Substance
+T3	PROC 110 121	tratamiento
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 125 144	fístulas perianales
+#4	AnnotatorNotes T4	C0267561; Perianal fistula; Anatomical Abnormality
+T5	PROC 177 214	Seguimiento de un estudio en fase III
+T6	PROC 220 254	evaluar la eficacia y la seguridad
+#5	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T7	PROC 292 303	tratamiento
+#6	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 307 326	fístulas perianales
+#7	AnnotatorNotes T8	C0267561; Perianal fistula; Anatomical Abnormality
+T9	DISO 355 374	enfermedad de Crohn
+#8	AnnotatorNotes T9	C0010346; Crohn Disease; Disease or Syndrome
+T10	CHEM 272 285	darvadstrocel
+#9	AnnotatorNotes T10	C5227825; Darvadstrocel; Pharmacologic Substance
+T11	PROC 442 453	Tratamiento
+#10	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	DISO 459 478	fístulas perianales
+#11	AnnotatorNotes T12	C0267561; Perianal fistula; Anatomical Abnormality
+T13	DISO 485 504	enfermedad de Crohn
+#12	AnnotatorNotes T13	C0010346; Crohn Disease; Disease or Syndrome
+T14	DISO 531 550	Fístulas perianales
+#13	AnnotatorNotes T14	C0267561; Perianal fistula; Anatomical Abnormality
+T15	DISO 557 576	enfermedad de Crohn
+#14	AnnotatorNotes T15	C0010346; Crohn Disease; Disease or Syndrome
+T16	PROC 822 831	protocolo
+#15	AnnotatorNotes T16	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T17	PROC 1013 1026	procedimiento
+#16	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T18	CHEM 1479 1503	fármaco en investigación
+#17	AnnotatorNotes T18	C0013230; Investigational New Drugs; Pharmacologic Substance
+T19	ANAT 134 144	perianales
+#18	AnnotatorNotes T19	C0442158; Perianal; Body Location or Region
+T20	ANAT 316 326	perianales
+#19	AnnotatorNotes T20	C0442158; Perianal; Body Location or Region
+T21	ANAT 468 478	perianales
+#20	AnnotatorNotes T21	C0442158; Perianal; Body Location or Region
+T22	ANAT 540 550	perianales
+#21	AnnotatorNotes T22	C0442158; Perianal; Body Location or Region
+T23	Date 13 17	2019
+T24	Date 58 71	a largo plazo
+T25	Date 255 268	a largo plazo
+T26	LIVB 341 350	pacientes
+#22	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 626 635	pacientes
+#23	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 746 758	investigador
+#24	AnnotatorNotes T28	C0035173; Research Personnel; Professional or Occupational Group
+T29	LIVB 763 771	paciente
+#25	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 839 847	paciente
+#26	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 870 889	representante legal
+#27	AnnotatorNotes T31	C4288823; Legal Representative for the Study; Human
+T32	LIVB 1046 1054	paciente
+#28	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 1172 1181	pacientes
+#29	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T37	Duration 1254 1268	más de 3 meses
+T38	LIVB 1282 1290	paciente
+#30	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Duration 1362 1381	los últimos 3 meses
+T41	PHYS 784 792	entender
+#31	AnnotatorNotes T41	C0162340; Comprehension; Mental Process
+#32	AnnotatorNotes T24	C0443252; Long-term; Temporal Concept
+#33	AnnotatorNotes T5	C0282461; Phase 3 Clinical Trials; Research Activity + C1522577; Follow up; Health Care Activity
+#34	AnnotatorNotes T25	C0443252; Long-term; Temporal Concept
+T33	Neg_cue 1182 1184	no
+T35	Observation 1191 1228	aptos para su inclusión en el estudio
+A1	Assertion T35 Negated
+#35	AnnotatorNotes T35	C1302261; Patient eligible for clinical trial; Finding (?)
+T36	Neg_cue 1127 1129	no
+T40	Observation 1130 1139	se retiró
+#36	AnnotatorNotes T40	C0422727; Patient withdrawn from trial; Finding (?)
+A2	Assertion T40 Negated
+T42	Observation 1055 1083	ha participado en el estudio
+#37	AnnotatorNotes T42	C1278516; Patient participation status; Finding
+T43	Quantifier_or_Qualifier 327 336	complejas
+#38	AnnotatorNotes T43	C0439855; Complex; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T43	
+R2	Location_of Arg1:T20 Arg2:T8	
+R3	Location_of Arg1:T19 Arg2:T4	
+T44	Quantifier_or_Qualifier 145 154	complejas
+#39	AnnotatorNotes T44	C0439855; Complex; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T44	
+R5	Used_for Arg1:T2 Arg2:T3	
+R6	Used_for Arg1:T10 Arg2:T7	
+R7	Overlap Arg1:T6 Arg2:T25	
+R8	Overlap Arg1:T1 Arg2:T24	
+R9	Experiences Arg1:T26 Arg2:T10	
+R10	Experiences Arg1:T26 Arg2:T8	
+R11	Experiences Arg1:T26 Arg2:T9	
+T45	Observation 379 408	han participado en el estudio
+A3	Status T45 History_of
+#40	AnnotatorNotes T45	C1278516; Patient participation status; Finding
+R13	Before Arg1:T45 Arg2:T6	
+R14	Location_of Arg1:T21 Arg2:T12	
+R15	Overlap Arg1:T8 Arg2:T9	
+R16	Overlap Arg1:T12 Arg2:T13	
+R17	Overlap Arg1:T14 Arg2:T15	
+R18	Location_of Arg1:T22 Arg2:T14	
+T46	CONC 661 685	incorporación al estudio
+#41	AnnotatorNotes T46	C1512693; Inclusion; Qualitative Concept
+T47	Observation 606 635	elegibilidad de los pacientes
+#42	AnnotatorNotes T47	C1302261; Patient eligible for clinical trial; Finding
+R20	Before Arg1:T47 Arg2:T46	
+T48	Observation 775 817	capaz de entender y cumplir los requisitos
+R21	Experiences Arg1:T29 Arg2:T41	
+R22	Overlap Arg1:T41 Arg2:T16	
+R23	Overlap Arg1:T48 Arg2:T16	
+T49	Observation 890 895;904 910	firma un FCI
+#43	AnnotatorNotes T49	C0742766; consent signed; Finding (?)
+R24	Negation Arg1:T36 Arg2:T40	
+R25	Before Arg1:T49 Arg2:T17	
+T50	Observation 1105 1115	finalizado
+#44	AnnotatorNotes T50	C2732579; Completion of clinical trial; Finding
+R26	Before Arg1:T42 Arg2:T50	
+R27	Negation Arg1:T33 Arg2:T35	
+R28	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T35	
+T51	Observation 1291 1310	finalizó el estudio
+#45	AnnotatorNotes T51	C2732579; Completion of clinical trial; Finding
+R29	Before Arg1:T51 Arg2:T37	
+T52	CONC 1394 1417	inclusión en el estudio
+#46	AnnotatorNotes T52	C1512693; Inclusion; Qualitative Concept
+R33	After Arg1:T52 Arg2:T39	
+R34	Before Arg1:T18 Arg2:T39	
+R35	Before Arg1:T18 Arg2:T52	
+T53	Neg_cue 1505 1512	excepto
+T54	CONC 1513 1552	antes de la participación en el estudio
+A4	Assertion T54 Negated
+R36	Negation Arg1:T53 Arg2:T54	
+T55	Quantifier_or_Qualifier 1428 1436	previsto
+#47	AnnotatorNotes T55	C1301732; Planned; Functional Concept
+T56	PROC 1458 1465	estudio
+#48	AnnotatorNotes T56	C0008976; Clinical Trials; Research Activity
+R37	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T55	
+R38	Overlap Arg1:T55 Arg2:T56	
+R39	Before Arg1:T42 Arg2:T40	
+R30	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T48	
+#49	AnnotatorNotes T54	C5421123; Prior to Study; Functional Concept
+A5	Experiencer T38 Patient
+A6	Experiencer T34 Patient
+A7	Status T18 Future
+A8	Experiencer T26 Patient
+A9	Experiencer T27 Patient
+A10	Experiencer T28 Other
+A11	Experiencer T29 Patient
+A12	Experiencer T30 Patient
+A13	Experiencer T31 Other
+A14	Experiencer T32 Patient

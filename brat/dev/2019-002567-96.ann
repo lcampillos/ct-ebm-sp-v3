@@ -1,0 +1,240 @@
+T1	DISO 1276 1281	CVNMI
+T2	CHEM 66 75	nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 78 81	BCG
+#2	AnnotatorNotes T3	C2698319; Bacillus Calmette-Guerin Antigen; Immunologic Factor
+T4	CHEM 99 102	BCG
+#3	AnnotatorNotes T4	C2698319; Bacillus Calmette-Guerin Antigen; Immunologic Factor
+T5	PROC 106 117	monoterapia
+#4	AnnotatorNotes T5	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T6	DISO 124 159	cáncer de vejiga no musculoinvasivo
+T7	PROC 197 237	Ensayo fase 3, aleatorizado, doble ciego
+T8	CHEM 242 251	nivolumab
+#5	AnnotatorNotes T8	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	CHEM 271 274	BCG
+#6	AnnotatorNotes T9	C2698319; Bacillus Calmette-Guerin Antigen; Immunologic Factor
+T10	CHEM 327 330	BCG
+#7	AnnotatorNotes T10	C2698319; Bacillus Calmette-Guerin Antigen; Immunologic Factor
+T11	PROC 334 345	monoterapia
+#8	AnnotatorNotes T11	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T12	DISO 363 398	cáncer de vejiga no musculoinvasivo
+T13	CHEM 475 478	BCG
+#9	AnnotatorNotes T13	C2698319; Bacillus Calmette-Guerin Antigen; Immunologic Factor
+T14	DISO 502 518	Cáncer de vejiga
+#10	AnnotatorNotes T14	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T15	DISO 595 616	CU no musculoinvasivo
+T16	DISO 724 727	CIS
+#11	AnnotatorNotes T16	C0007099; Carcinoma in Situ; Neoplastic Process | C0851135; In situ cancer; Neoplastic Process
+T17	PROC 732 743	Tratamiento
+#12	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	CHEM 791 794	BCG
+#13	AnnotatorNotes T18	C2698319; Bacillus Calmette-Guerin Antigen; Immunologic Factor
+T19	DISO 1041 1049	cánceres
+#14	AnnotatorNotes T19	C0006826; Malignant Neoplasms; Neoplastic Process
+T20	PROC 1124 1135	tratamiento
+#15	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	DISO 1153 1171	trastornos médicos
+T22	DISO 1221 1242	enfermedad autoinmune
+#16	AnnotatorNotes T22	C0004364; Autoimmune Diseases; Disease or Syndrome
+T23	CHEM 1348 1351	BCG
+#17	AnnotatorNotes T23	C2698319; Bacillus Calmette-Guerin Antigen; Immunologic Factor
+T24	CHEM 1399 1402	BCG
+#18	AnnotatorNotes T24	C2698319; Bacillus Calmette-Guerin Antigen; Immunologic Factor
+T25	PROC 547 583	Consentimiento informado por escrito
+#19	AnnotatorNotes T25	C0811741; Obtain informed written consent; Health Care Activity
+T26	DISO 1441 1453	tuberculosis
+#20	AnnotatorNotes T26	C0041296; Tuberculosis; Disease or Syndrome
+T27	ANAT 134 140	vejiga
+#21	AnnotatorNotes T27	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T28	PROC 298 323	tratamiento de referencia
+T29	ANAT 373 379	vejiga
+#22	AnnotatorNotes T29	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T30	PROC 459 470	tratamiento
+#23	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	ANAT 512 518	vejiga
+#24	AnnotatorNotes T31	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T32	DISO 982 992	Malignidad
+#25	AnnotatorNotes T32	C0006826; Malignant Neoplasms; Neoplastic Process
+T33	PROC 777 786	inducción
+#26	AnnotatorNotes T33	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T34	PROC 1387 1394	terapia
+#27	AnnotatorNotes T34	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T35	Date 13 17	2019
+T36	Route 82 94	intravesical
+T38	Route 275 287	intravesical
+T39	LIVB 349 358	pacientes
+#28	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T44	Dose 796 817	al menos 5 de 6 dosis
+T46	LIVB 905 912	mujeres
+#29	AnnotatorNotes T46	C0043210; Woman; Population Group
+T47	Age 914 930	de 18 años o más
+T48	Duration 1010 1031	los 3 años anteriores
+T49	Neg_cue 1033 1040	excepto
+T50	Neg_cue 1111 1113	no
+T51	LIVB 1139 1148	Pacientes
+#30	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	Spec_cue 1262 1272	sospechada
+T56	Route 1403 1415	intravesical
+T37	Age 937 952	mayoría de edad
+T40	LIVB 1199 1212	Participantes
+#31	AnnotatorNotes T40	C4554048; Study Participant; Population Group
+T41	LIVB 895 902	Varones
+#32	AnnotatorNotes T41	C0025266; Male population group; Population Group
+T42	PROC 822 838	Estado funcional
+#33	AnnotatorNotes T42	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T43	PROC 629 645	histológicamente
+#34	AnnotatorNotes T43	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T19 Negated
+A2	Assertion T20 Negated
+A3	Assertion T22 Speculated
+A4	Status T22 History_of
+A5	Assertion T34 Contraindicated
+A6	Assertion T24 Contraindicated
+A7	Status T32 History_of
+A8	Status T19 History_of
+A9	Status T33 History_of
+A10	Status T18 History_of
+A11	Status T17 History_of
+A12	Status T30 History_of
+A13	Status T13 History_of
+#35	AnnotatorNotes T7	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#36	AnnotatorNotes T36	C1522448; Intravesical Route of Drug Administration; Functional Concept 
+#37	AnnotatorNotes T38	C1522448; Intravesical Route of Drug Administration; Functional Concept 
+#38	AnnotatorNotes T56	C1522448; Intravesical Route of Drug Administration; Functional Concept 
+#39	AnnotatorNotes T21	C0012634; Disease; Disease or Syndrome
+T45	Neg_cue 1332 1335	sin
+T52	Observation 1336 1345	respuesta
+A14	Assertion T52 Negated
+#40	AnnotatorNotes T52	C4055223; Clinical Response; Finding (?)
+T54	Quantifier_or_Qualifier 1050 1069	curables localmente
+A15	Assertion T54 Negated
+R1	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T54	
+T55	Observation 1074 1104	aparentemente han sido curados
+A16	Assertion T55 Negated
+R2	Negation Arg1:T49 Arg2:T19	
+R3	Negation Arg1:T50 Arg2:T20	
+R4	Negation Arg1:T49 Arg2:T54	
+R5	Negation Arg1:T49 Arg2:T55	
+T57	Neg_cue 1181 1183	no
+T58	Quantifier_or_Qualifier 1184 1195	controlados
+A17	Assertion T58 Negated
+R6	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T58	
+R7	Negation Arg1:T57 Arg2:T58	
+R8	Speculation Arg1:T53 Arg2:T22	
+R9	Negation Arg1:T45 Arg2:T52	
+T59	Quantifier_or_Qualifier 1172 1178	graves
+#41	AnnotatorNotes T59	C1547227;Severe - Severity of Illness Code; Intellectual Product
+R10	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T59	
+R11	Overlap Arg1:T32 Arg2:T48	
+T60	Quantifier_or_Qualifier 993 999	activa
+#42	AnnotatorNotes T60	C0679217;Active State; Idea or Concept
+T61	Quantifier_or_Qualifier 1243 1249	activa
+#43	AnnotatorNotes T61	C0679217;Active State; Idea or Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T60	
+R13	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T61	
+T62	Quantifier_or_Qualifier 1454 1460	activa
+#44	AnnotatorNotes T62	C0679217;Active State; Idea or Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T62	
+R15	Has_Route_or_Mode Arg1:T24 Arg2:T56	
+R16	Used_for Arg1:T24 Arg2:T34	
+R17	Has_Route_or_Mode Arg1:T3 Arg2:T36	
+R18	Has_Route_or_Mode Arg1:T2 Arg2:T36	
+R19	Used_for Arg1:T4 Arg2:T5	
+R20	Location_of Arg1:T27 Arg2:T6	
+T63	Observation 144 159	musculoinvasivo
+A18	Assertion T63 Negated
+#45	AnnotatorNotes T63	C4725840; Muscle Invasion; Finding
+T64	Neg_cue 141 143	no
+R21	Negation Arg1:T64 Arg2:T63	
+T65	Neg_cue 380 382	no
+T66	Observation 383 398	musculoinvasivo
+A19	Assertion T66 Negated
+#46	AnnotatorNotes T66	C4725840; Muscle Invasion; Finding
+R22	Negation Arg1:T65 Arg2:T66	
+R25	Location_of Arg1:T29 Arg2:T12	
+R26	Location_of Arg1:T31 Arg2:T14	
+T67	Observation 163 174	alto riesgo
+#47	AnnotatorNotes T67	C4319571; High risk; Finding
+R27	Combined_with Arg1:T8 Arg2:T9	
+R28	Has_Route_or_Mode Arg1:T9 Arg2:T38	
+R29	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T67	
+T68	Observation 402 413	alto riesgo
+#48	AnnotatorNotes T68	C4319571; High risk; Finding
+R30	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T68	
+R31	Experiences Arg1:T39 Arg2:T30	
+R32	Experiences Arg1:T39 Arg2:T8	
+R33	Experiences Arg1:T39 Arg2:T28	
+R34	Used_for Arg1:T10 Arg2:T28	
+R35	Used_for Arg1:T10 Arg2:T11	
+R36	Used_for Arg1:T13 Arg2:T30	
+T69	Quantifier_or_Qualifier 421 432	persistente
+#49	AnnotatorNotes T69	C0205322; Persistent; Temporal Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T69	
+R38	After Arg1:T69 Arg2:T30	
+T70	Observation 435 446	recidivante
+#50	AnnotatorNotes T70	C2825055; Recurrence (disease attribute); Pathologic Function
+R39	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T70	
+R40	After Arg1:T70 Arg2:T30	
+R41	Experiences Arg1:T39 Arg2:T12	
+T71	Neg_cue 598 600	no
+T72	Observation 601 616	musculoinvasivo
+A20	Assertion T72 Negated
+#51	AnnotatorNotes T72	C4725840; Muscle Invasion; Finding
+R44	Negation Arg1:T71 Arg2:T72	
+T73	Observation 676 687	alto riesgo
+#52	AnnotatorNotes T73	C4319571; High risk; Finding
+R48	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T73	
+T74	Quantifier_or_Qualifier 647 658	persistente
+#53	AnnotatorNotes T74	C0205322; Persistent; Temporal Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T74	
+T75	Observation 661 671	recurrente
+#54	AnnotatorNotes T75	C2825055; Recurrence (disease attribute); Pathologic Function
+R50	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T75	
+T76	Observation 689 705	Ta de alto grado
+T77	Observation 707 711	TaAG
+T78	Observation 717 719	T1
+#55	AnnotatorNotes T78	C0475372; Tumor stage T1; Finding
+R51	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T76	
+R52	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T77	
+R53	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T78	
+T79	Quantifier_or_Qualifier 748 764	al menos 1 ciclo
+R54	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T79	
+R55	Used_for Arg1:T18 Arg2:T33	
+R56	Used_for Arg1:T18 Arg2:T17	
+R57	Has_Dose_or_Strength Arg1:T18 Arg2:T44	
+T80	Result_or_Value 888 891	0-2
+T81	CONC 879 883	ECOG
+#56	AnnotatorNotes T81	C1520224; ECOG performance status; Intellectual Product
+T82	CONC 843 877	Eastern Cooperative Oncology Group
+#57	AnnotatorNotes T82	C1520224; ECOG performance status; Intellectual Product
+R58	Used_for Arg1:T82 Arg2:T42	
+R59	Used_for Arg1:T81 Arg2:T42	
+R60	Has_Result_or_Value Arg1:T81 Arg2:T80	
+R61	Has_Result_or_Value Arg1:T82 Arg2:T80	
+R62	Has_Age Arg1:T41 Arg2:T47	
+R63	Has_Age Arg1:T41 Arg2:T37	
+R64	Has_Age Arg1:T46 Arg2:T47	
+R65	Has_Age Arg1:T46 Arg2:T37	
+R66	Experiences Arg1:T51 Arg2:T21	
+R67	Experiences Arg1:T40 Arg2:T22	
+T83	Observation 1297 1308	alto riesgo
+#58	AnnotatorNotes T83	C4319571; High risk; Finding
+R68	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T83	
+#59	AnnotatorNotes T76	C3272501; Ta Stage Finding; Finding + C4319571; High risk; Finding
+#60	AnnotatorNotes T77	C3272501; Ta Stage Finding; Finding + C4319571; High risk; Finding
+T84	Observation 1282 1293	recidivante
+#61	AnnotatorNotes T84	C2825055; Recurrence (disease attribute); Pathologic Function
+R69	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T84	
+R70	Overlap Arg1:T52 Arg2:T23	
+R71	After Arg1:T84 Arg2:T23	
+R72	Overlap Arg1:T1 Arg2:T52	
+#62	AnnotatorNotes T28	C2936643; Standard of Care; Health Care Activity
+#63	AnnotatorNotes T6	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#64	AnnotatorNotes T12	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#65	AnnotatorNotes T15	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#66	AnnotatorNotes T1	C5418781; Non-Muscle Invasive Bladder Urothelial Carcinoma; Neoplastic Process
+A21	Experiencer T51 Patient
+A22	Experiencer T40 Patient
+A23	Experiencer T39 Patient
+A24	Experiencer T46 Patient
+A25	Experiencer T41 Patient

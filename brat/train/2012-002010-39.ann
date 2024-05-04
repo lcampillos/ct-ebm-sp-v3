@@ -1,0 +1,164 @@
+T1	PROC 46 72	Evaluación de la seguridad
+T2	ANAT 84 105	células mesenquimales
+#1	AnnotatorNotes T2	C1257975; Mesenchymal Stem Cells; Cell
+T3	DISO 137 165	necrosis avascular de cadera
+#2	AnnotatorNotes T3	C2919317; Avascular necrosis of bone of hip; Pathologic Function
+T4	ANAT 159 165	cadera
+#3	AnnotatorNotes T4	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T5	DISO 191 219	Necrosis avascular de cadera
+#4	AnnotatorNotes T5	C2919317; Avascular necrosis of bone of hip; Pathologic Function
+T6	ANAT 213 219	cadera
+#5	AnnotatorNotes T6	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T7	DISO 274 302	Necrosis avascular de cadera
+#6	AnnotatorNotes T7	C2919317; Avascular necrosis of bone of hip; Pathologic Function
+T8	ANAT 296 302	cadera
+#7	AnnotatorNotes T8	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T9	PROC 543 566	métodos anticonceptivos
+#8	AnnotatorNotes T9	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T10	PROC 603 617	ensayo clínico
+#9	AnnotatorNotes T10	C0008976; Clinical Trials; Research Activity
+T11	DISO 708 736	necrosis avascular de cadera
+T12	ANAT 730 736	cadera
+#10	AnnotatorNotes T12	C0019552; Hip structure; Body Part, Organ, or Organ Component | C1281585; Entire hip region; Body Location or Region
+T13	ANAT 755 769	cabeza femoral
+#11	AnnotatorNotes T13	C0015813; Head of femur; Body Part, Organ, or Organ Component | C1284181; Entire head of femur; Body Part, Organ, or Organ Component
+T14	ANAT 776 795	cartilago articular
+T15	DISO 798 814	Artritis séptica
+#12	AnnotatorNotes T15	C0003869; Arthritis, Infectious; Disease or Syndrome
+T16	DISO 819 837	Fractura de stress
+#13	AnnotatorNotes T16	C0016664; Stress Fractures; Injury or Poisoning
+T17	DISO 877 882	Paget
+#14	AnnotatorNotes T17	C1368019; Paget Disease; Neoplastic Process
+T18	DISO 842 876	enfermedades metabólicas del hueso
+#15	AnnotatorNotes T18	 C0005944; Metabolic Bone Disorder; Disease or Syndrome
+T19	DISO 909 928	hiperparatiroidismo
+#16	AnnotatorNotes T19	C0020502; Hyperparathyroidism; Disease or Syndrome
+T20	PROC 938 949	Tratamiento
+#17	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	CHEM 961 973	bifosfonatos
+#18	AnnotatorNotes T21	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
+T22	DISO 976 993	Infección por VIH
+#19	AnnotatorNotes T22	C0019693; HIV Infections; Disease or Syndrome
+T23	DISO 995 1006	Hepatitis-B
+T24	DISO 1010 1021	Hepatitis-C
+T25	DISO 1036 1045	neoplasia
+#20	AnnotatorNotes T25	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T26	CHEM 1068 1079	Corticoides
+#21	AnnotatorNotes T26	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T27	CHEM 1082 1098	inmunosupresores
+#22	AnnotatorNotes T27	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T28	PROC 1177 1207	tto con corticoides sistémicos
+T29	DISO 741 795	Colapso de la cabeza femoral o del cartilago articular
+T30	DISO 382 393	Sintomática
+#23	AnnotatorNotes T30	C1457887; Symptoms; Sign or Symptom
+T31	PROC 444 468	consentimiento informado
+#24	AnnotatorNotes T31	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T32	CHEM 1185 1196	corticoides
+#25	AnnotatorNotes T32	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T33	Observation 1223 1249	Consumo regular de alcohol
+T34	DISO 884 907	osteogenesis imperfecta
+#26	AnnotatorNotes T34	C0029434; Osteogenesis Imperfecta; Disease or Syndrome
+T35	ANAT 871 876	hueso
+#27	AnnotatorNotes T35	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T36	Date 13 17	2012
+T37	PHYS 122 130	curación
+#28	AnnotatorNotes T37	C2004454; Recovery - healing process; Organism Function
+T39	Duration 397 413	menos de 6 meses
+T40	PHYS 505 513	Embarazo
+#29	AnnotatorNotes T40	C0032961; Pregnancy; Organism Function
+T41	PHYS 515 524	lactancia
+#30	AnnotatorNotes T41	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T42	LIVB 526 538	mujer fértil
+#31	AnnotatorNotes T42	C4324275; Woman of childbearing potential; Population Group
+T44	Neg_cue 539 542	sin
+T45	Duration 621 643	los tres meses previos
+T46	Duration 1107 1124	más de una semana
+T47	Duration 1128 1139	los 2 meses
+T48	Dose 1208 1219	altas dosis
+#32	AnnotatorNotes T48	C0444956; High dose; Quantitative Concept
+T54	PHYS 855 866	metabólicas
+#33	AnnotatorNotes T54	C0025519; Metabolism; Organism Function
+T55	PHYS 884 896	osteogenesis
+#34	AnnotatorNotes T55	C0029433; Osteogenesis; Organ or Tissue Function
+T56	LIVB 990 993	VIH
+#35	AnnotatorNotes T56	C0019682; HIV; Virus
+T38	ANAT 1059 1065	organo
+#36	AnnotatorNotes T38	C0178784; Organ; Body Part, Organ, or Organ Component
+T50	LIVB 261 272	ambos sexos
+#37	AnnotatorNotes T50	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T43	Age 251 259	18 to 65
+A1	Assertion T9 Negated
+A2	Status T10 History_of
+A3	Status T25 History_of
+#38	AnnotatorNotes T1	C1705187; Safety Study; Research Activity 
+#39	AnnotatorNotes T11	C2919317; Avascular necrosis of bone of hip; Pathologic Function
+#40	AnnotatorNotes T14	C0007303; Structure of articular cartilage; Tissue | C1281692; Entire articular cartilage; Tissue
+#41	AnnotatorNotes T23	C0019163; Hepatitis B; Disease or Syndrome
+#42	AnnotatorNotes T24	C0019196; Hepatitis C; Disease or Syndrome
+#43	AnnotatorNotes T28	C4053960; Systemic Corticosteroid Therapy; Therapeutic or Preventive Procedure
+T51	Food 1242 1249	alcohol
+#44	AnnotatorNotes T51	C0001967; Alcoholic Beverages; Food
+R1	Location_of Arg1:T4 Arg2:T3	
+R2	Used_for Arg1:T2 Arg2:T37	
+T52	Quantifier_or_Qualifier 106 115	autólogas
+#45	AnnotatorNotes T52	C0439859; Autologous (qualifier value); Qualitative Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T52	
+R4	Location_of Arg1:T6 Arg2:T5	
+R5	Has_Age Arg1:T50 Arg2:T43	
+T53	Quantifier_or_Qualifier 303 320	estadios precoces
+#46	AnnotatorNotes T53	C2363430; Early stage; Temporal Concept
+R6	Location_of Arg1:T8 Arg2:T7	
+R7	Location_of Arg1:T12 Arg2:T11	
+R8	Location_of Arg1:T14 Arg2:T29	
+R9	Location_of Arg1:T13 Arg2:T29	
+R10	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T53	
+T57	CONC 323 336	Ficat y Arlet
+T58	Result_or_Value 337 346	0, 1, o 2
+R11	Has_Result_or_Value Arg1:T57 Arg2:T58	
+T59	CONC 348 357	Steinberg
+T60	Result_or_Value 358 379	0, I, IIA, IIB, o IIC
+R12	Has_Result_or_Value Arg1:T59 Arg2:T60	
+R13	Has_Duration_or_Interval Arg1:T30 Arg2:T39	
+R14	Experiences Arg1:T42 Arg2:T9	
+R15	Negation Arg1:T44 Arg2:T9	
+T61	Quantifier_or_Qualifier 567 576	adecuados
+A4	Assertion T61 Negated
+#47	AnnotatorNotes T61	C0205411; Adequate; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T61	
+R17	Negation Arg1:T44 Arg2:T61	
+T62	Observation 581 617	Participación en otro ensayo clínico
+R18	Overlap Arg1:T62 Arg2:T45	
+R19	Overlap Arg1:T10 Arg2:T45	
+T63	Result_or_Value 646 663	estadios 3 or más
+T64	Result_or_Value 682 692	III or más
+T65	CONC 694 703	Steinberg
+R20	Has_Result_or_Value Arg1:T65 Arg2:T64	
+T66	CONC 665 678	Ficat y Arlet
+R21	Has_Result_or_Value Arg1:T66 Arg2:T63	
+R23	Location_of Arg1:T35 Arg2:T18	
+R24	Location_of Arg1:T35 Arg2:T17	
+R25	Location_of Arg1:T35 Arg2:T34	
+R27	Location_of Arg1:T35 Arg2:T19	
+R28	Used_for Arg1:T21 Arg2:T20	
+T67	Quantifier_or_Qualifier 950 956	activo
+#48	AnnotatorNotes T67	C0679217; Active State; Idea or Concept
+R29	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T67	
+R30	Causes Arg1:T56 Arg2:T22	
+R31	Location_of Arg1:T38 Arg2:T25	
+R32	Has_Duration_or_Interval Arg1:T27 Arg2:T46	
+R33	Has_Duration_or_Interval Arg1:T26 Arg2:T46	
+R34	Overlap Arg1:T27 Arg2:T47	
+R35	Overlap Arg1:T26 Arg2:T47	
+T68	CONC 1152 1161	inclusión
+#49	AnnotatorNotes T68	C1512693; Inclusion; Qualitative Concept
+R36	Before Arg1:T26 Arg2:T68	
+R37	Before Arg1:T27 Arg2:T68	
+R38	Used_for Arg1:T32 Arg2:T28	
+R39	Has_Dose_or_Strength Arg1:T32 Arg2:T48	
+T69	Result_or_Value 1253 1273	más de 2 bebidas/día
+#50	AnnotatorNotes T33	C4273278; alcohol use behavior; Finding | C5428797; finding of alcohol drinking behavior; Finding
+R22	Has_Result_or_Value Arg1:T33 Arg2:T69	
+T49	Frequency 1269 1273	/día
+R26	Has_Frequency Arg1:T51 Arg2:T49	
+A5	Experiencer T50 Patient
+A6	Experiencer T42 Patient

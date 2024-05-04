@@ -1,0 +1,180 @@
+T1	PROC 1 36	Tratamiento del Helicobacter Pylori
+#1	AnnotatorNotes T1	C0559761; Helicobacter eradication therapy; Therapeutic or Preventive Procedure
+T2	CHEM 41 50	Omeprazol
+#2	AnnotatorNotes T2	C0028978; omeprazole; Organic Chemical · Pharmacologic Substance
+T3	CHEM 64 78	Claritromicina
+#3	AnnotatorNotes T3	C0055856; clarithromycin; Organic Chemical · Antibiotic
+T4	PROC 120 127	terapia
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	CHEM 134 167	inhibidor de la bomba de protones
+#5	AnnotatorNotes T5	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T6	PROC 195 206	tratamiento
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 228 264	infección por el Helicobacter pylori
+#7	AnnotatorNotes T7	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T8	PROC 358 370	erradicación
+#8	AnnotatorNotes T8	C3178994; Disease Eradication; Health Care Activity
+T9	DISO 560 605	síntomas del tracto gastrointestinal superior
+#9	AnnotatorNotes T9	C0857493; Upper gastrointestinal symptoms; Disease or Syndrome
+T10	ANAT 573 605	tracto gastrointestinal superior
+#10	AnnotatorNotes T10	C3203348; Upper Gastrointestinal Tract; Anatomical Structure
+T11	DISO 652 666	úlcera péptica
+#11	AnnotatorNotes T11	C0030920; Peptic Ulcer; Disease or Syndrome
+T12	PROC 676 687	diagnóstico
+#12	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	PROC 699 707	biopsias
+#13	AnnotatorNotes T13	C0005558; Biopsy; Diagnostic Procedure
+T14	PROC 716 735	prueba de la ureasa
+#14	AnnotatorNotes T14	C0585237; CLO test for helicobacter pylori; Laboratory Procedure
+T15	CHEM 784 793	omeprazol
+#15	AnnotatorNotes T15	C0028978; omeprazole; Organic Chemical · Pharmacologic Substance
+T16	PROC 742 749	cultivo
+#16	AnnotatorNotes T16	C0430400; Laboratory culture; Laboratory Procedure
+T17	CHEM 767 772	plata
+#17	AnnotatorNotes T17	C0037125; Silver; Element, Ion, or Isotope
+T18	CHEM 810 821	amoxicilina
+#18	AnnotatorNotes T18	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T19	PROC 865 875	endoscopía
+T20	PROC 933 963	técnicas de biología molecular
+T21	PROC 907 918	tratamiento
+#19	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	DISO 1005 1018	reinfecciones
+#20	AnnotatorNotes T22	C0205339; Reinfection; Pathologic Function
+T23	PROC 1020 1048	Evaluamos la susceptibilidad
+T24	CHEM 1051 1065	claritromicina
+#21	AnnotatorNotes T24	C0055856; clarithromycin; Organic Chemical · Antibiotic
+T25	ANAT 1284 1292	muestras
+#22	AnnotatorNotes T25	C2347026; Biospecimen; Body Substance
+T26	PROC 1130 1142	erradicación
+#23	AnnotatorNotes T26	C3178994; Disease Eradication; Health Care Activity
+T27	CHEM 1312 1326	claritromicina
+#24	AnnotatorNotes T27	C0055856; clarithromycin; Organic Chemical · Antibiotic
+T28	PROC 1414 1423	erradicar
+#25	AnnotatorNotes T28	C3178994; Disease Eradication; Health Care Activity
+T29	DISO 1427 1463	infección por el Helicobacter pylori
+#26	AnnotatorNotes T29	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T30	PROC 1523 1531	erradicó
+#27	AnnotatorNotes T30	C3178994; Disease Eradication; Health Care Activity
+T31	CHEM 176 188	antibióticos
+#28	AnnotatorNotes T31	C0003232; Antibiotics; Antibiotic
+T32	CHEM 794 808	claritromicina
+#29	AnnotatorNotes T32	C0055856; clarithromycin; Organic Chemical · Antibiotic
+T33	CHEM 729 735	ureasa
+#30	AnnotatorNotes T33	C0041945; Urease; Amino Acid, Peptide, or Protein · Enzyme
+T34	PROC 737 740	PCR
+#31	AnnotatorNotes T34	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T35	PROC 752 772	coloración con plata
+T36	CHEM 1372 1381	omeprazol
+#32	AnnotatorNotes T36	C0028978; omeprazole; Organic Chemical · Pharmacologic Substance
+T37	CHEM 52 61	Amoxilina
+#33	AnnotatorNotes T37	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T38	CHEM 386 395	omeprazol
+#34	AnnotatorNotes T38	C0028978; omeprazole; Organic Chemical · Pharmacologic Substance
+T39	CHEM 396 410	claritromicina
+#35	AnnotatorNotes T39	C0055856; clarithromycin; Organic Chemical · Antibiotic
+T40	CHEM 411 422	amoxicilina
+#36	AnnotatorNotes T40	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T41	CHEM 1382 1396	claritromicina
+#37	AnnotatorNotes T41	C0055856; clarithromycin; Organic Chemical · Antibiotic
+T42	CHEM 1397 1408	amoxicilina
+#38	AnnotatorNotes T42	C0002645; amoxicillin; Organic Chemical · Antibiotic
+T43	LIVB 17 36	Helicobacter Pylori
+#39	AnnotatorNotes T43	C0079488; Helicobacter pylori; Bacterium
+T44	Duration 94 105	7 y 10 días
+T45	LIVB 245 264	Helicobacter pylori
+#40	AnnotatorNotes T45	C0079488; Helicobacter pylori; Bacterium
+T47	Duration 445 446	7
+T48	LIVB 487 496	pacientes
+#41	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 608 627	Helicobacter pylori
+#42	AnnotatorNotes T49	C0079488; Helicobacter pylori; Bacterium
+T50	Neg_cue 629 638	Excluimos
+T51	Duration 831 837	7 días
+T52	Duration 845 852	10 días
+T53	Duration 887 890	mes
+T55	LIVB 1093 1102	pacientes
+#43	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 1179 1188	pacientes
+#44	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1209 1217	bacteria
+#45	AnnotatorNotes T57	C0004611; Bacteria; Bacterium
+T58	LIVB 1444 1463	Helicobacter pylori
+#46	AnnotatorNotes T58	C0079488; Helicobacter pylori; Bacterium
+T60	Duration 1511 1522	7 y 10 días
+T61	LIVB 1537 1545	bacteria
+#47	AnnotatorNotes T61	C0004611; Bacteria; Bacterium
+T62	LIVB 1568 1577	pacientes
+#48	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 1241 1245	cepa
+#49	AnnotatorNotes T46	C1518614; Organism Strain; Organism
+A1	Assertion T11 Negated
+T54	Neg_cue 279 281	no
+T59	CONC 286 294	consenso
+A2	Assertion T59 Negated
+R1	Negation Arg1:T54 Arg2:T59	
+T63	Duration 450 457	10 días
+R2	Has_Duration_or_Interval Arg1:T2 Arg2:T44	
+R3	Has_Duration_or_Interval Arg1:T37 Arg2:T44	
+R4	Has_Duration_or_Interval Arg1:T3 Arg2:T44	
+R5	Used_for Arg1:T5 Arg2:T4	
+R6	Combined_with Arg1:T5 Arg2:T31	
+R7	Combined_with Arg1:T2 Arg2:T37	
+R8	Combined_with Arg1:T37 Arg2:T3	
+R9	Used_for Arg1:T2 Arg2:T1	
+R10	Used_for Arg1:T5 Arg2:T6	
+R11	Causes Arg1:T45 Arg2:T7	
+R12	Combined_with Arg1:T38 Arg2:T39	
+R13	Combined_with Arg1:T39 Arg2:T40	
+R14	Used_for Arg1:T38 Arg2:T8	
+R15	Has_Duration_or_Interval Arg1:T38 Arg2:T47	
+R16	Has_Duration_or_Interval Arg1:T39 Arg2:T47	
+R17	Has_Duration_or_Interval Arg1:T40 Arg2:T47	
+R18	Has_Duration_or_Interval Arg1:T38 Arg2:T63	
+R19	Has_Duration_or_Interval Arg1:T39 Arg2:T63	
+R20	Has_Duration_or_Interval Arg1:T40 Arg2:T63	
+R21	Experiences Arg1:T48 Arg2:T9	
+R22	Location_of Arg1:T10 Arg2:T9	
+R23	Negation Arg1:T50 Arg2:T11	
+R25	Before Arg1:T13 Arg2:T14	
+R26	Before Arg1:T13 Arg2:T34	
+R27	Before Arg1:T13 Arg2:T16	
+R28	Before Arg1:T13 Arg2:T35	
+R29	Used_for Arg1:T17 Arg2:T35	
+R24	Before Arg1:T14 Arg2:T12	
+R30	Before Arg1:T34 Arg2:T12	
+R31	Before Arg1:T16 Arg2:T12	
+R32	Before Arg1:T35 Arg2:T12	
+R33	Combined_with Arg1:T15 Arg2:T32	
+R34	Combined_with Arg1:T32 Arg2:T18	
+R35	Has_Duration_or_Interval Arg1:T15 Arg2:T51	
+R36	Has_Duration_or_Interval Arg1:T32 Arg2:T51	
+R37	Has_Duration_or_Interval Arg1:T18 Arg2:T51	
+R38	Has_Duration_or_Interval Arg1:T15 Arg2:T52	
+R39	Has_Duration_or_Interval Arg1:T32 Arg2:T52	
+R40	Has_Duration_or_Interval Arg1:T18 Arg2:T52	
+R41	Overlap Arg1:T19 Arg2:T53	
+R42	After Arg1:T19 Arg2:T21	
+T64	DISO 985 997	recurrencias
+#50	AnnotatorNotes T64	C2825055; Recurrence (disease attribute); Pathologic Function
+T65	Observation 1196 1217	persistió la bacteria
+R43	Experiences Arg1:T56 Arg2:T65	
+R44	Causes Arg1:T57 Arg2:T65	
+R45	Causes Arg1:T46 Arg2:T65	
+T66	Quantifier_or_Qualifier 1300 1326	sensibles a claritromicina
+R46	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T66	
+R47	Combined_with Arg1:T36 Arg2:T41	
+R48	Combined_with Arg1:T41 Arg2:T42	
+R49	Used_for Arg1:T36 Arg2:T28	
+R50	Causes Arg1:T58 Arg2:T29	
+R51	Has_Duration_or_Interval Arg1:T30 Arg2:T60	
+R52	Experiences Arg1:T62 Arg2:T30	
+#51	AnnotatorNotes T35	C1293950; Silver stain method; Laboratory Procedure
+#52	AnnotatorNotes T19	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T67	Quantifier_or_Qualifier 876 883	control
+R55	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T67	
+#53	AnnotatorNotes T67	C4553389; Study Control; Conceptual Entity
+#54	AnnotatorNotes T20	C0200925; Molecular biology identification technique; Laboratory Procedure (?)
+A3	Experiencer T62 Patient
+A4	Experiencer T56 Patient
+A5	Experiencer T55 Patient
+A6	Experiencer T48 Patient

@@ -1,0 +1,102 @@
+T1	ANAT 92 102	mandibular
+#1	AnnotatorNotes T1	C0024687; Mandible; Body Part, Organ, or Organ Component | C1273020; Entire jaw region; Body Location or Region
+T2	CHEM 104 117	pentoxifilina
+#2	AnnotatorNotes T2	C0030899; pentoxifylline; Organic Chemical · Pharmacologic Substance
+T3	CHEM 120 129	tocoferol
+#3	AnnotatorNotes T3	C3255108; tocopherol; Organic Chemical · Pharmacologic Substance · Vitamin
+T4	PROC 135 153	tratamiento médico
+#4	AnnotatorNotes T4	C0418981; Medical therapy; Therapeutic or Preventive Procedure
+T5	ANAT 221 231	mandibular
+#5	AnnotatorNotes T5	C0024687; Mandible; Body Part, Organ, or Organ Component | C1273020; Entire jaw region; Body Location or Region
+T6	PROC 258 278	Evaluar clínicamente
+T7	ANAT 336 340	ósea
+#6	AnnotatorNotes T7	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T8	CHEM 429 442	pentoxifilina
+#7	AnnotatorNotes T8	C0030899; pentoxifylline; Organic Chemical · Pharmacologic Substance
+T9	CHEM 445 454	tocoferol
+#8	AnnotatorNotes T9	C3255108; tocopherol; Organic Chemical · Pharmacologic Substance · Vitamin
+T10	DISO 699 707	síntomas
+#9	AnnotatorNotes T10	C1457887; Symptoms; Sign or Symptom
+T11	PROC 550 560;575 595	continuará tratamiento estándar
+#10	AnnotatorNotes T11	C2091305; continue current medication; Therapeutic or Preventive Procedure + C2936643; Standard of Care; Health Care Activity
+T12	DISO 711 740	osteoradionecrosis mandibular
+#11	AnnotatorNotes T12	C1290728; Osteoradionecrosis of the mandible; Disease or Syndrome
+T13	ANAT 730 740	mandibular
+#12	AnnotatorNotes T13	C0024687; Mandible; Body Part, Organ, or Organ Component | C1273020; Entire jaw region; Body Location or Region
+T14	ANAT 779 785	cabeza
+#13	AnnotatorNotes T14	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T15	ANAT 788 794	cuello
+#14	AnnotatorNotes T15	C0027530; Neck; Body Location or Region | C1281592; Entire neck; Body Part, Organ, or Organ Component
+T16	ANAT 912 922	mandibular
+#15	AnnotatorNotes T16	C0024687; Mandible; Body Part, Organ, or Organ Component | C1273020; Entire jaw region; Body Location or Region
+T17	PROC 939 961	cirugía reconstructiva
+#16	AnnotatorNotes T17	C0524865; Reconstructive Surgical Procedures; Therapeutic or Preventive Procedure
+T18	DISO 202 231	osteoradionecrosis mandibular
+#17	AnnotatorNotes T18	C1290728; Osteoradionecrosis of the mandible; Disease or Syndrome
+T19	DISO 73 102	osteoradionecrosis mandibular
+#18	AnnotatorNotes T19	C1290728; Osteoradionecrosis of the mandible; Disease or Syndrome
+T20	PROC 413 424	tratamiento
+#19	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	DISO 769 794	cancer de cabeza y cuello
+#20	AnnotatorNotes T21	C0278996; Malignant Head and Neck Neoplasm; Neoplastic Process
+T22	PROC 754 764	irradiados
+#21	AnnotatorNotes T22	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T23	DISO 893 922	osteoradionecrosis mandibular
+#22	AnnotatorNotes T23	C1290728; Osteoradionecrosis of the mandible; Disease or Syndrome
+T24	Date 13 17	2014
+T26	LIVB 375 393	grupo experimental
+#23	AnnotatorNotes T26	C1320290; Experimental Group; Population Group
+T27	Duration 471 515	un mínimo de 6 meses y un máximo de 18 meses
+T29	LIVB 532 545	grupo control
+#24	AnnotatorNotes T29	C0009932; Control Group; Group
+T30	Date 611 622	actualmente
+T31	LIVB 744 753	pacientes
+#25	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 821 830	pacientes
+#26	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+#27	AnnotatorNotes T6	C4084924; Clinical Evaluation; Health Care Activity 
+#28	AnnotatorNotes T30	C0521116; Current (present time); Temporal Concept 
+T25	Spec_cue 279 281	si
+T28	Observation 293 340	disminución significativa de la exposición ósea
+A1	Assertion T28 Speculated
+R1	Speculation Arg1:T25 Arg2:T28	
+T33	Quantifier_or_Qualifier 341 350	intraoral
+A2	Assertion T33 Speculated
+R2	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T33	
+R3	Location_of Arg1:T1 Arg2:T19	
+R4	Location_of Arg1:T5 Arg2:T18	
+R5	Combined_with Arg1:T2 Arg2:T3	
+R6	Used_for Arg1:T2 Arg2:T4	
+R7	Used_for Arg1:T8 Arg2:T20	
+R8	Combined_with Arg1:T8 Arg2:T9	
+R9	Location_of Arg1:T7 Arg2:T28	
+R10	Experiences Arg1:T26 Arg2:T28	
+R11	After Arg1:T28 Arg2:T35	
+R12	Has_Duration_or_Interval Arg1:T20 Arg2:T27	
+R13	Experiences Arg1:T29 Arg2:T11	
+R14	Overlap Arg1:T11 Arg2:T30	
+R15	After Arg1:T28 Arg2:T11	
+R16	Causes Arg1:T12 Arg2:T10	
+R17	Location_of Arg1:T13 Arg2:T12	
+R18	Experiences Arg1:T31 Arg2:T10	
+R19	Experiences Arg1:T31 Arg2:T12	
+R20	Experiences Arg1:T31 Arg2:T22	
+R21	Experiences Arg1:T31 Arg2:T21	
+R22	Location_of Arg1:T14 Arg2:T21	
+R23	Location_of Arg1:T15 Arg2:T21	
+T34	Quantifier_or_Qualifier 855 866	estadio III
+R24	Location_of Arg1:T16 Arg2:T23	
+R25	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T34	
+R26	Experiences Arg1:T32 Arg2:T23	
+R27	Experiences Arg1:T32 Arg2:T17	
+R28	Location_of Arg1:T16 Arg2:T17	
+T35	CONC 402 424	inicio del tratamiento
+R29	Experiences Arg1:T26 Arg2:T20	
+R30	Overlap Arg1:T12 Arg2:T21	
+R31	Overlap Arg1:T10 Arg2:T21	
+R32	Speculation Arg1:T25 Arg2:T33	
+A3	Experiencer T31 Patient
+A4	Experiencer T32 Patient
+A5	Experiencer T29 Patient
+A6	Status T11 Future
+A7	Experiencer T26 Patient

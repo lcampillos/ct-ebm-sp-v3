@@ -1,0 +1,201 @@
+T1	PROC 87 98	TRATAMIENTO
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 131 140	PROTOCOLO
+#2	AnnotatorNotes T2	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T3	PROC 141 215	ENSAYO CLÍNICO FASE III ALEATORIZADO, DOBLE CIEGO Y CONTROLADO CON PLACEBO
+T4	CHEM 44 66	INMUNOGLOBULINA HUMANA
+T5	PROC 262 273	TRATAMIENTO
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 347 366	abortos recurrentes
+#4	AnnotatorNotes T6	C0000809; Abortion, Habitual; Disease or Syndrome
+T7	DISO 392 411	abortos recurrentes
+#5	AnnotatorNotes T7	C0000809; Abortion, Habitual; Disease or Syndrome
+T8	PROC 563 573	evaluación
+#6	AnnotatorNotes T8	C1261322; Evaluation procedure; Health Care Activity
+T9	PROC 576 588	intervención
+#7	AnnotatorNotes T9	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T10	DISO 627 646	abortos espontáneos
+#8	AnnotatorNotes T10	C0000786; Spontaneous abortion; Pathologic Function
+T11	ANAT 747 757	Células NK
+#9	AnnotatorNotes T11	C0022688; Natural Killer Cells; Cell
+T12	PROC 918 936	linfocitos totales
+T13	ANAT 824 834	linfocitos
+#10	AnnotatorNotes T13	C0024264; Lymphocyte; Cell
+T14	PROC 894 905	células NKT
+T15	ANAT 918 928	linfocitos
+#11	AnnotatorNotes T15	C0024264; Lymphocyte; Cell
+T16	PROC 783 797	CD3-CD56+CD16+
+#12	AnnotatorNotes T16	C5188571; CD3-CD16+CD56+ cells in blood; Laboratory Procedure
+T17	CHEM 1142 1152	medicación
+#13	AnnotatorNotes T17	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T18	DISO 1194 1211	hipersensibilidad
+#14	AnnotatorNotes T18	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T19	DISO 1288 1318	Enfermedades inmunodeficientes
+T20	DISO 1231 1251	Infección bacteriana
+#15	AnnotatorNotes T20	C0004623; Bacterial Infections; Disease or Syndrome
+T21	DISO 1336 1351	Hepatitis B o C
+T22	PROC 1358 1366;1376 1401	antígeno hepatitis B de superficie
+#16	AnnotatorNotes T22	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T23	DISO 1376 1387	hepatitis B
+#17	AnnotatorNotes T23	C0019163; Hepatitis B; Disease or Syndrome
+T24	PROC 1403 1408	HBsAg
+#18	AnnotatorNotes T24	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T25	DISO 1428 1439	hepatitis C
+#19	AnnotatorNotes T25	C0019196; Hepatitis C; Disease or Syndrome
+T26	PROC 1446 1453	cribado
+#20	AnnotatorNotes T26	C0220908; Screening procedure; Diagnostic Procedure | C1710031; Disease Screening; Diagnostic Procedure
+T27	DISO 1477 1493	Abuso de alcohol
+T28	PROC 1574 1588	ensayo clínico
+#21	AnnotatorNotes T28	C0008976; Clinical Trials; Research Activity
+T29	CHEM 1596 1620	medicamento experimental
+#22	AnnotatorNotes T29	C0304229; Experimental drug; Pharmacologic Substance
+T30	DISO 103 109	ABORTO
+#23	AnnotatorNotes T30	C0156543; Unspecified Abortion; Finding
+T31	CHEM 219 241	INMUNOGLOBULINA HUMANA
+T32	DISO 278 298	ABORTO DE REPETICIÓN
+T33	PROC 824 842	linfocitos totales
+T34	PROC 467 511	consentimiento informado firmado por escrito
+#24	AnnotatorNotes T34	C0811741; Obtain informed written consent; Health Care Activity
+T35	PROC 747 769	Células NK citotóxicas
+#25	AnnotatorNotes T35	C1504163; Natural killer (NK) cells, total count; Laboratory Procedure
+T36	CHEM 1214 1230	inmunoglobulinas
+#26	AnnotatorNotes T36	C0021027; Immunoglobulins; Amino Acid, Peptide, or Protein · Immunologic Factor
+T37	DISO 1331 1334	VIH
+#27	AnnotatorNotes T37	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T38	PROC 1415 1439	prueba de la hepatitis C
+T39	Date 12 16	2014
+T40	Route 67 78	INTRAVENOSA
+#28	AnnotatorNotes T40	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T41	Route 242 253	INTRAVENOSA
+#29	AnnotatorNotes T41	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T42	LIVB 598 606	paciente
+#30	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 610 617	Mujeres
+#31	AnnotatorNotes T43	C0043210; Woman; Population Group
+T44	Age 661 676	de 18 a 37 años
+T45	Age 846 859	35 años o más
+T46	Age 871 889	menores de 35 años
+T47	LIVB 1039 1051	investigador
+#32	AnnotatorNotes T47	C0035173; Research Personnel; Professional or Occupational Group
+T48	Date 1252 1260	reciente
+T50	Date 1455 1475	en el momento actual
+T51	Date 1494 1514	en el momento actual
+T52	Duration 1525 1545	los 12 meses previos
+T53	PHYS 1676 1686	concepción
+#33	AnnotatorNotes T53	C0009637; Conception; Organism Function | C0015914; Fertilization; Organism Function
+T54	Duration 1690 1703	las 4 semanas
+T55	CONC 1717 1730	primera dosis
+T56	LIVB 1776 1788	investigador
+#34	AnnotatorNotes T56	C0035173; Research Personnel; Professional or Occupational Group
+T58	LIVB 1809 1817	paciente
+#35	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1241 1251	bacteriana
+#36	AnnotatorNotes T59	C0004611; Bacteria; Bacterium
+T60	PHYS 1015 1026	comunicarse
+#37	AnnotatorNotes T60	C2911692; Response (communication); Mental Process (?)
+T61	PHYS 1058 1066	entender
+#38	AnnotatorNotes T61	C0162340; Comprehension; Mental Process
+T49	PROC 941 945	Peso
+#39	AnnotatorNotes T49	C2985231; Body Weight Measurement; Diagnostic Procedure
+T57	PROC 723 742	visita de selección
+#40	AnnotatorNotes T57	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A1	Assertion T17 Contraindicated
+A2	Status T10 History_of
+A3	Status T18 History_of
+A4	Status T27 History_of
+#41	AnnotatorNotes T31	C3537193; Human Immunoglobulin [EPC]; Pharmacologic Substance 
+#42	AnnotatorNotes T4	C3537193; Human Immunoglobulin [EPC]; Pharmacologic Substance 
+#43	AnnotatorNotes T3	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#44	AnnotatorNotes T33	C0200635; Lymphocyte Count measurement; Laboratory Procedure 
+#45	AnnotatorNotes T12	C0200635; Lymphocyte Count measurement; Laboratory Procedure 
+#46	AnnotatorNotes T14	C2363839; Natural killer T cell count; Laboratory Procedure (?)
+#47	AnnotatorNotes T19	C0021051; Immunologic Deficiency Syndromes; Disease or Syndrome
+#48	AnnotatorNotes T21	C0019163; Hepatitis B; Disease or Syndrome + C0019196; Hepatitis C; Disease or Syndrome
+#49	AnnotatorNotes T38	C2363789; Hepatitis C virus test; Laboratory Procedure 
+#50	AnnotatorNotes T50	C0521116; Current (present time); Temporal Concept 
+#51	AnnotatorNotes T51	C0521116; Current (present time); Temporal Concept 
+#52	AnnotatorNotes T27	C0085762; Alcohol abuse; Mental or Behavioral Dysfunction
+#53	AnnotatorNotes T48	C0332185; Recent; Temporal Concept
+T62	Spec_cue 1789 1795	puedan
+T63	Observation 1822 1861	inapropiado para entrar en este estudio
+A5	Assertion T63 Speculated
+R1	Speculation Arg1:T62 Arg2:T63	
+R2	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T63	
+T64	Food 1486 1493	alcohol
+#54	AnnotatorNotes T64	C0001967; Alcoholic Beverages; Food
+R3	Has_Route_or_Mode Arg1:T4 Arg2:T40	
+R4	Used_for Arg1:T4 Arg2:T1	
+R5	Has_Route_or_Mode Arg1:T31 Arg2:T41	
+R6	Used_for Arg1:T31 Arg2:T5	
+T65	Quantifier_or_Qualifier 302 324	ETIOLOGÍA INMUNOLÓGICA
+R7	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T65	
+T66	Quantifier_or_Qualifier 415 437	etiologia inmunologica
+R8	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T66	
+R9	Before Arg1:T34 Arg2:T8	
+R10	Before Arg1:T34 Arg2:T9	
+R11	Experiences Arg1:T42 Arg2:T8	
+R12	Experiences Arg1:T42 Arg2:T9	
+R13	Experiences Arg1:T43 Arg2:T10	
+T67	Quantifier_or_Qualifier 622 626	tres
+R14	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T67	
+A6	Status T67 History_of
+R15	Has_Age Arg1:T43 Arg2:T44	
+T68	Quantifier_or_Qualifier 647 659	consecutivos
+#55	AnnotatorNotes T68	C1707491; Consecutive; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T68	
+A7	Status T68 History_of
+R17	Overlap Arg1:T57 Arg2:T44	
+T69	Result_or_Value 813 842	13% de los linfocitos totales
+R18	Has_Result_or_Value Arg1:T35 Arg2:T69	
+R19	Has_Result_or_Value Arg1:T16 Arg2:T69	
+R20	Overlap Arg1:T35 Arg2:T45	
+R22	Overlap Arg1:T33 Arg2:T45	
+T70	Result_or_Value 864 867	22%
+R23	Has_Result_or_Value Arg1:T35 Arg2:T70	
+R24	Has_Result_or_Value Arg1:T16 Arg2:T70	
+R25	Overlap Arg1:T35 Arg2:T46	
+T71	Result_or_Value 906 936	?10% de los linfocitos totales
+R27	Has_Result_or_Value Arg1:T14 Arg2:T71	
+R28	Has_Result_or_Value Arg1:T16 Arg2:T71	
+T72	Result_or_Value 958 981	entre los 40 kg y 90 kg
+R29	Has_Result_or_Value Arg1:T49 Arg2:T72	
+T73	Observation 1002 1026	Capacidad de comunicarse
+#56	AnnotatorNotes T73	C2364293; Able to communicate; Finding
+T74	Observation 1002 1011;1053 1107	Capacidad para entender y cumplir con los requisitos del estudio
+R30	Causes Arg1:T36 Arg2:T18	
+R31	Causes Arg1:T59 Arg2:T20	
+R32	Overlap Arg1:T20 Arg2:T48	
+T75	Quantifier_or_Qualifier 1261 1287	clínicamente significativa
+R33	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T75	
+R34	Causes Arg1:T64 Arg2:T27	
+T76	Result_or_Value 1367 1375	positivo
+#57	AnnotatorNotes T76	C1446409; Positive; Finding
+R35	Has_Result_or_Value Arg1:T22 Arg2:T76	
+R36	Has_Result_or_Value Arg1:T24 Arg2:T76	
+R40	Causes Arg1:T23 Arg2:T76	
+R41	Overlap Arg1:T38 Arg2:T26	
+R42	Overlap Arg1:T38 Arg2:T50	
+R43	Overlap Arg1:T24 Arg2:T50	
+R44	Overlap Arg1:T22 Arg2:T50	
+R45	Overlap Arg1:T21 Arg2:T50	
+R46	Overlap Arg1:T27 Arg2:T51	
+R47	Has_Duration_or_Interval Arg1:T27 Arg2:T52	
+T77	Observation 1547 1588	Participación en cualquier ensayo clínico
+R50	Overlap Arg1:T53 Arg2:T54	
+R51	Before Arg1:T53 Arg2:T55	
+#58	AnnotatorNotes T75	C5209294; Clinical relevance; Intellectual Product
+#59	AnnotatorNotes T32	C0000809; Abortion, Habitual; Disease or Syndrome
+R49	Overlap Arg1:T69 Arg2:T45	
+R52	Overlap Arg1:T70 Arg2:T46	
+R21	Has_Result_or_Value Arg1:T38 Arg2:T76	
+R26	Causes Arg1:T25 Arg2:T76	
+R37	Experiences Arg1:T43 Arg2:T57	
+R38	Overlap Arg1:T25 Arg2:T50	
+R39	Overlap Arg1:T23 Arg2:T50	
+#60	AnnotatorNotes T55	C5236155; Date of First Dose; Temporal Concept
+#61	AnnotatorNotes T67	C0205449; Three; Quantitative Concept
+A8	Experiencer T42 Patient
+A9	Experiencer T43 Patient
+A10	Experiencer T47 Other
+A11	Experiencer T56 Other
+A12	Experiencer T58 Patient

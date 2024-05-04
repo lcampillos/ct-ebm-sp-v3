@@ -1,0 +1,119 @@
+T1	DISO 63 82	bronquiolitis aguda
+#1	AnnotatorNotes T1	C0001311; Acute bronchiolitis; Disease or Syndrome
+T2	PROC 192 203	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 210 229	bronquiolitis aguda
+#3	AnnotatorNotes T3	C0001311; Acute bronchiolitis; Disease or Syndrome
+T4	PROC 275 290	hospitalización
+#4	AnnotatorNotes T4	C0019993; Hospitalization; Health Care Activity
+T5	PROC 416 424	tratados
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 391 404	bronquiolitis
+#6	AnnotatorNotes T6	C0006271; Bronchiolitis; Disease or Syndrome
+T7	ANAT 459 467	torácica
+#7	AnnotatorNotes T7	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T8	PROC 563 586	aspiración nasofaríngea
+#8	AnnotatorNotes T8	C5243616; Nasopharyngeal aspiration; Therapeutic or Preventive Procedure
+T9	PROC 601 612	tratamiento
+#9	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	DISO 657 680	dificultad respiratoria
+#10	AnnotatorNotes T10	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T11	PROC 684 691	ingreso
+#11	AnnotatorNotes T11	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T12	PROC 874 889	hospitalización
+#12	AnnotatorNotes T12	C0019993; Hospitalization; Health Care Activity
+T13	PROC 926 937	tratamiento
+#13	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 1133 1148	hospitalización
+#14	AnnotatorNotes T14	C0019993; Hospitalization; Health Care Activity
+T15	PROC 18 43	fisioterapia respiratoria
+#15	AnnotatorNotes T15	C0199467; Physiotherapy of chest; Therapeutic or Preventive Procedure
+T16	PROC 147 172	fisioterapia respiratoria
+#16	AnnotatorNotes T16	C0199467; Physiotherapy of chest; Therapeutic or Preventive Procedure
+T17	PROC 307 345	ensayo clínico controlado aleatorizado
+#17	AnnotatorNotes T17	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T18	PROC 446 467	fisioterapia torácica
+#18	AnnotatorNotes T18	C0199467; Physiotherapy of chest; Therapeutic or Preventive Procedure
+T19	DISO 530 539	patología
+#19	AnnotatorNotes T19	C0677042; Pathology processes; Pathologic Function
+T20	ANAT 574 586	nasofaríngea
+#20	AnnotatorNotes T20	C0027442; Nasopharynx; Body Part, Organ, or Organ Component | C1268975; Entire nasopharynx; Body Part, Organ, or Organ Component
+T21	PROC 1007 1032	fisioterapia respiratoria
+#21	AnnotatorNotes T21	C0199467; Physiotherapy of chest; Therapeutic or Preventive Procedure
+T22	DISO 1092 1110	broquiolitis aguda
+#22	AnnotatorNotes T22	C0001311; Acute bronchiolitis; Disease or Syndrome
+T23	ANAT 31 43	respiratoria
+#23	AnnotatorNotes T23	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T24	ANAT 160 172	respiratoria
+#24	AnnotatorNotes T24	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T25	LIVB 377 386	pacientes
+#25	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Frequency 425 441	dos veces al día
+T27	LIVB 498 515	pacientes control
+#26	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group + C0009932; Control Groups; Group
+T28	LIVB 738 751	grupo control
+#27	AnnotatorNotes T28	C0009932; Control Groups; Group
+T29	LIVB 965 978	grupo control
+#28	AnnotatorNotes T29	C0009932; Control Groups; Group
+T30	ANAT 1020 1032	respiratoria
+#29	AnnotatorNotes T30	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T33	PHYS 668 680	respiratoria
+#30	AnnotatorNotes T33	C0035203; Respiration; Physiologic Function
+T31	Duration 897 910	4.00 (± 2.00)
+T32	Duration 943 956	3.87 (± 1,30)
+T34	PROC 714 718	alta
+#31	AnnotatorNotes T34	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T35	Observation 1043 1052	beneficio
+A1	Assertion T35 Negated
+T36	Neg_cue 1033 1035	no
+R1	Negation Arg1:T36 Arg2:T35	
+T37	LIVB 917 937	grupo de tratamiento
+#32	AnnotatorNotes T37	C5205742; Treatment Group; Population Group
+T38	LIVB 592 612	grupo de tratamiento
+#33	AnnotatorNotes T38	C5205742; Treatment Group; Population Group
+R2	Location_of Arg1:T20 Arg2:T8	
+R3	Location_of Arg1:T24 Arg2:T16	
+R4	Location_of Arg1:T23 Arg2:T15	
+T39	CONC 267 290	días de hospitalización
+#34	AnnotatorNotes T39	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R5	Experiences Arg1:T25 Arg2:T6	
+R6	Has_Frequency Arg1:T5 Arg2:T26	
+R7	Location_of Arg1:T7 Arg2:T18	
+R8	Has_Frequency Arg1:T18 Arg2:T26	
+R9	Experiences Arg1:T25 Arg2:T5	
+R10	Experiences Arg1:T25 Arg2:T18	
+R11	Experiences Arg1:T27 Arg2:T8	
+R12	Experiences Arg1:T27 Arg2:T19	
+R13	Experiences Arg1:T27 Arg2:T6	
+R14	Experiences Arg1:T38 Arg2:T9	
+R16	Overlap Arg1:T10 Arg2:T11	
+R17	Overlap Arg1:T10 Arg2:T34	
+T40	CONC 640 680	score clínico de dificultad respiratoria
+R18	Overlap Arg1:T40 Arg2:T11	
+R19	Overlap Arg1:T40 Arg2:T34	
+R20	Has_Duration_or_Interval Arg1:T12 Arg2:T31	
+T41	CONC 866 889	días de hospitalización
+#35	AnnotatorNotes T41	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R21	Has_Duration_or_Interval Arg1:T41 Arg2:T31	
+R22	Has_Duration_or_Interval Arg1:T41 Arg2:T32	
+R23	Has_Duration_or_Interval Arg1:T12 Arg2:T32	
+R24	Experiences Arg1:T37 Arg2:T13	
+R25	Location_of Arg1:T30 Arg2:T21	
+R26	Before Arg1:T21 Arg2:T35	
+T42	Neg_cue 1111 1113	ni
+R28	Before Arg1:T11 Arg2:T34	
+T44	CONC 1114 1148	acorta los días de hospitalización
+A2	Assertion T44 Negated
+R29	Negation Arg1:T42 Arg2:T44	
+R32	Overlap Arg1:T16 Arg2:T4	
+R33	Overlap Arg1:T21 Arg2:T14	
+R31	Experiences Arg1:T27 Arg2:T5	
+R15	Overlap Arg1:T2 Arg2:T4	
+R34	Overlap Arg1:T12 Arg2:T13	
+#38	AnnotatorNotes T35	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+A3	Experiencer T37 Patient
+A4	Experiencer T29 Patient
+A5	Experiencer T28 Patient
+A6	Experiencer T25 Patient
+A7	Experiencer T27 Patient
+A8	Experiencer T38 Patient

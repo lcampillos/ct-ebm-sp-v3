@@ -1,0 +1,170 @@
+T1	DISO 76 97	síndrome del QT largo
+T2	DISO 705 739	bloqueo completo de rama izquierda
+#1	AnnotatorNotes T2	C0264915; Left main stem bundle branch block; Disease or Syndrome
+T3	PROC 114 141	tratamientos farmacológicos
+#2	AnnotatorNotes T3	C0013216; Pharmacotherapy; Therapeutic or Preventive Procedure
+T4	DISO 193 234	síndrome del QT largo asociado a fármacos
+#3	AnnotatorNotes T4	C4274909; Long QT syndrome caused by drug; Disease or Syndrome
+T5	DISO 824 851	alteraciones electrolíticas
+T6	CHEM 226 234	fármacos
+#4	AnnotatorNotes T6	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T7	DISO 258 275	Síndrome QT-largo
+T8	CHEM 292 304	medicamentos
+#5	AnnotatorNotes T8	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T9	DISO 331 362	Síndrome QT-largo farmacológico
+T10	PROC 422 433	diagnóstico
+#6	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 448 466	SQTL farmacológico
+T12	PROC 517 541	consentimiento informado
+#7	AnnotatorNotes T12	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T13	DISO 669 687	QT largo congénito
+#8	AnnotatorNotes T13	C1141890; Congenital long QT syndrome; Disease or Syndrome
+T14	ANAT 772 781	sinusales
+#9	AnnotatorNotes T14	C0037189; Sinoatrial Node; Body Part, Organ, or Organ Component
+T15	DISO 802 806	SQTL
+#10	AnnotatorNotes T15	C0023976; Long QT Syndrome; Disease or Syndrome
+T16	CHEM 967 977	adrenalina
+#11	AnnotatorNotes T16	C0014563; epinephrine; Hormone · Organic Chemical · Pharmacologic Substance
+T17	DISO 981 998	Hipersensibilidad
+#12	AnnotatorNotes T17	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T18	CHEM 1004 1014	epinefrina
+#13	AnnotatorNotes T18	C0014563; epinephrine; Hormone · Organic Chemical · Pharmacologic Substance
+T19	CHEM 1016 1026	adrenalina
+#14	AnnotatorNotes T19	C0014563; epinephrine; Hormone · Organic Chemical · Pharmacologic Substance
+T20	CHEM 1035 1053	simpaticomiméticos
+#15	AnnotatorNotes T20	C0039052; Sympathomimetics; Pharmacologic Substance
+T21	DISO 1119 1132	Insuficiencia
+T22	ANAT 1146 1154	cardíaca
+#16	AnnotatorNotes T22	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T23	DISO 1157 1172	Hipertiroidismo
+#17	AnnotatorNotes T23	C0020550; Hyperthyroidism; Disease or Syndrome
+T24	DISO 1175 1196	Hipertensión arterial
+#18	AnnotatorNotes T24	C0020538; Hypertensive disease; Disease or Syndrome
+T25	DISO 1205 1219	Feocromocitoma
+#19	AnnotatorNotes T25	C0031511; Pheochromocytoma; Neoplastic Process
+T26	DISO 1222 1251	Lesiones orgánicas cerebrales
+T27	ANAT 1241 1251	cerebrales
+#20	AnnotatorNotes T27	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T28	DISO 1254 1280	Glaucoma de ángulo cerrado
+#21	AnnotatorNotes T28	C0017605; Angle Closure Glaucoma; Disease or Syndrome
+T29	PROC 1341 1365	consentimiento informado
+#22	AnnotatorNotes T29	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T30	CHEM 837 851	electrolíticas
+#23	AnnotatorNotes T30	C0013832; Electrolytes; Inorganic Chemical · Pharmacologic Substance
+T31	PROC 949 963	administración
+#24	AnnotatorNotes T31	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T32	CHEM 1102 1115	Metabisulfito
+T33	DISO 1135 1154	dilatación cardíaca
+T34	ANAT 1188 1196	arterial
+#25	AnnotatorNotes T34	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T35	Date 13 17	2018
+T36	GENE 62 71	genéticas
+#26	AnnotatorNotes T36	C0017337; Genes; Gene or Genome
+T37	GENE 180 188	genética
+#27	AnnotatorNotes T37	C0017337; Genes; Gene or Genome
+T40	LIVB 389 398	Pacientes
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Age 399 417	mayores de 18 años
+T42	Age 571 589	Menores de 18 años
+T43	LIVB 593 602	Pacientes
+#29	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Neg_cue 612 614	no
+T45	LIVB 615 624	caucásica
+#30	AnnotatorNotes T45	C0007457; Caucasian; Population Group | C0043157; Caucasians; Population Group
+T46	LIVB 628 637	Pacientes
+#31	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 691 700	Pacientes
+#32	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Neg_cue 769 771	no
+T50	LIVB 810 819	Pacientes
+#33	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 854 907	Mujeres embarazadas o en período de lactancia materna
+#34	AnnotatorNotes T51	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T52	PHYS 890 907	lactancia materna
+#35	AnnotatorNotes T52	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T53	LIVB 910 919	Pacientes
+#36	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	PHYS 1283 1291	Embarazo
+#37	AnnotatorNotes T54	C0032961; Pregnancy; Organism Function
+T55	PHYS 1294 1311	lactancia materna
+#38	AnnotatorNotes T55	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T56	LIVB 1314 1323	Pacientes
+#39	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	Neg_cue 1328 1330	no
+T38	ANAT 725 739	rama izquierda
+#40	AnnotatorNotes T38	C0459156; Left bundle branch structure; Body Part, Organ, or Organ Component
+T39	PHYS 862 873	embarazadas
+#41	AnnotatorNotes T39	C0032961; Pregnancy; Organism Function
+T49	LIVB 1304 1311	materna
+#42	AnnotatorNotes T49	C0026591; Mother (person); Family Group
+A1	Assertion T45 Negated
+A2	Assertion T14 Negated
+A3	Status T13 Family_history_of
+A4	Assertion T31 Contraindicated
+A5	Assertion T16 Contraindicated
+A6	Assertion T29 Negated
+A7	Status T17 History_of
+#43	AnnotatorNotes T1	C0023976; Long QT Syndrome; Disease or Syndrome 
+#44	AnnotatorNotes T7	C0023976; Long QT Syndrome; Disease or Syndrome 
+#45	AnnotatorNotes T5	C0342579; Electrolyte imbalance; Pathologic Function 
+#46	AnnotatorNotes T32	C0066037; metabisulfite; Inorganic Chemical 
+T58	Neg_cue 782 784	no
+T59	Quantifier_or_Qualifier 785 806	relacionados con SQTL
+A8	Assertion T59 Negated
+R1	Negation Arg1:T44 Arg2:T45	
+T61	CONC 164 188	Caracterización genética
+R2	Causes Arg1:T3 Arg2:T1	
+T60	CONC 46 71	Características genéticas
+R3	Causes Arg1:T6 Arg2:T4	
+R4	Causes Arg1:T8 Arg2:T7	
+R5	Has_Age Arg1:T40 Arg2:T41	
+R6	Experiences Arg1:T40 Arg2:T11	
+#47	AnnotatorNotes T9	C4274909; Long QT syndrome caused by drug; Disease or Syndrome
+#48	AnnotatorNotes T11	C4274909; Long QT syndrome caused by drug; Disease or Syndrome
+T62	Observation 472 490	quieran participar
+#49	AnnotatorNotes T62	C0600109; Willing; Finding (?)
+R8	Experiences Arg1:T46 Arg2:T13	
+R9	Location_of Arg1:T38 Arg2:T2	
+R10	Experiences Arg1:T47 Arg2:T2	
+T63	Observation 762 781	ritmos no sinusales
+#50	AnnotatorNotes T63	C3649284; ECG: non-sinus rhythm; Finding (?)
+R11	Negation Arg1:T48 Arg2:T14	
+R12	Experiences Arg1:T47 Arg2:T63	
+R13	Negation Arg1:T58 Arg2:T59	
+T64	Observation 741 759	ritmos estimulados
+R14	Experiences Arg1:T47 Arg2:T64	
+R15	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T59	
+A9	Assertion T15 Negated
+R16	Negation Arg1:T58 Arg2:T15	
+R17	Experiences Arg1:T47 Arg2:T15	
+R18	Experiences Arg1:T50 Arg2:T5	
+R19	Experiences Arg1:T51 Arg2:T39	
+R20	Experiences Arg1:T51 Arg2:T52	
+R21	Used_for Arg1:T16 Arg2:T31	
+R23	Causes Arg1:T18 Arg2:T17	
+R24	Causes Arg1:T19 Arg2:T17	
+R25	Causes Arg1:T20 Arg2:T17	
+R26	Causes Arg1:T32 Arg2:T17	
+#51	AnnotatorNotes T21	C0018801; Heart failure; Disease or Syndrome
+R27	Location_of Arg1:T22 Arg2:T21	
+R28	Location_of Arg1:T22 Arg2:T33	
+#52	AnnotatorNotes T33	C0264732; Cardiac dilatation; Disease or Syndrome
+R29	Location_of Arg1:T34 Arg2:T24	
+T65	Quantifier_or_Qualifier 1197 1202	grave
+#53	AnnotatorNotes T65	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R30	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T65	
+R31	Location_of Arg1:T27 Arg2:T26	
+R32	Experiences Arg1:T49 Arg2:T55	
+R33	Experiences Arg1:T49 Arg2:T54	
+R34	Negation Arg1:T57 Arg2:T29	
+#54	AnnotatorNotes T26	C0270611; Brain Injuries; Injury or Poisoning (?)
+A10	Experiencer T40 Patient
+A11	Experiencer T43 Patient
+A12	Experiencer T45 Patient
+A13	Experiencer T46 Patient
+A14	Experiencer T47 Patient
+A15	Experiencer T50 Patient
+A16	Experiencer T51 Patient
+A17	Experiencer T53 Patient
+A18	Experiencer T49 Patient
+A19	Experiencer T56 Patient

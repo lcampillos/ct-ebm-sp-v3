@@ -1,0 +1,130 @@
+T1	PROC 87 168	Estudio adaptativo de fase 2/3, aleatorizado, doble ciego, controlado con placebo
+T2	DISO 56 64	COVID-19
+#1	AnnotatorNotes T2	C5203670; COVID19 (disease); Disease or Syndrome
+T3	PROC 174 208	evaluar la eficacia y la seguridad
+#2	AnnotatorNotes T3	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T4	PROC 235 249	hospitalizados
+#3	AnnotatorNotes T4	C0019993; Hospitalization; Health Care Activity
+T5	DISO 285 310	Infección por coronavirus
+#4	AnnotatorNotes T5	C5203670; COVID19 (disease); Disease or Syndrome
+T6	DISO 371 381	enfermedad
+#5	AnnotatorNotes T6	C0012634; Disease; Disease or Syndrome
+T7	DISO 389 423	disfunción orgánica multisistémica
+T8	DISO 426 444	enfermedad crítica
+T9	DISO 446 470	Infección por SARS-CoV-2
+#6	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	DISO 254 261	COVID19
+#7	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+T11	DISO 843 851	COVID-19
+#8	AnnotatorNotes T11	C5203670; COVID19 (disease); Disease or Syndrome
+T12	PROC 582 614	recuento absoluto de neutrófilos
+#9	AnnotatorNotes T12	C0948762; Absolute neutrophil count; Laboratory Procedure
+T13	PROC 616 619	RAN
+#10	AnnotatorNotes T13	C0948762; Absolute neutrophil count; Laboratory Procedure
+T14	CHEM 212 221	sarilumab
+#11	AnnotatorNotes T14	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T15	PROC 679 688	plaquetas
+#12	AnnotatorNotes T15	C0032181; Platelet Count measurement; Laboratory Procedure
+T16	PROC 732 761	tratamientos inmunodepresores
+T17	CHEM 780 796	corticosteroides
+#13	AnnotatorNotes T17	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T18	DISO 813 823	enfermedad
+#14	AnnotatorNotes T18	C0012634; Disease; Disease or Syndrome
+T19	DISO 868 908	enfermedades autoinmunes o inflamatorias
+T20	DISO 962 974	tuberculosis
+#15	AnnotatorNotes T20	C0041296; Tuberculosis; Disease or Syndrome
+T21	DISO 989 1034	infecciones bacterianas o fúngicas sistémicas
+T22	CHEM 46 55	Sarilumab
+#16	AnnotatorNotes T22	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T23	ANAT 603 614	neutrófilos
+#17	AnnotatorNotes T23	C0027950; neutrophil; Cell
+T24	PROC 642 645	AST
+#18	AnnotatorNotes T24	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T25	PROC 648 651	ALT
+#19	AnnotatorNotes T25	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T26	CHEM 745 761	inmunodepresores
+#20	AnnotatorNotes T26	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T27	Date 13 17	2020
+T28	LIVB 225 234	pacientes
+#21	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 299 310	coronavirus
+#22	AnnotatorNotes T29	C5203676; SARS-CoV-2; Virus
+T32	Duration 552 562	> 48 horas
+T33	Route 797 803	orales
+#23	AnnotatorNotes T33	C1527415; Oral Route of Drug administration; Functional Concept
+T35	Date 909 916	pasadas
+T36	Date 919 927	actuales
+T37	Spec_cue 937 947	sospechada
+T38	LIVB 975 984	Pacientes
+#24	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 1015 1023	fúngicas
+#25	AnnotatorNotes T39	C0016832; Fungi; Fungus
+T40	Spec_cue 1043 1054	sospechadas
+T43	LIVB 1001 1012	bacterianas
+#26	AnnotatorNotes T43	C0004611; Bacteria; Bacterium
+T30	LIVB 341 354	participantes
+#27	AnnotatorNotes T30	C4554048; Study Participant; Population Group
+T31	LIVB 460 470	SARS-CoV-2
+#28	AnnotatorNotes T31	C5203676; SARS-CoV-2; Virus
+T34	Neg_cue 824 826	no
+A1	Assertion T20 Speculated
+A2	Assertion T21 Speculated
+A3	Status T16 History_of
+A4	Status T19 History_of
+A5	Status T20 History_of
+A6	Assertion T11 Negated
+#29	AnnotatorNotes T16	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+#30	AnnotatorNotes T19	C0004364; Autoimmune Diseases; Disease or Syndrome + C1290884; Inflammatory disorder; Disease or Syndrome
+R1	Experiences Arg1:T28 Arg2:T14	
+R4	Experiences Arg1:T28 Arg2:T10	
+R5	Causes Arg1:T29 Arg2:T5	
+R6	Experiences Arg1:T30 Arg2:T6	
+T41	Quantifier_or_Qualifier 382 387	grave
+R7	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T41	
+R8	Experiences Arg1:T30 Arg2:T7	
+R9	Experiences Arg1:T30 Arg2:T8	
+R10	Causes Arg1:T31 Arg2:T9	
+T44	Observation 542 551	sobreviva
+R12	Has_Duration_or_Interval Arg1:T44 Arg2:T32	
+T45	Spec_cue 524 537	Poco probable
+R13	Speculation Arg1:T45 Arg2:T44	
+A7	Assertion T44 Speculated
+T46	PROC 572 581	selección
+#31	AnnotatorNotes T46	C0242802; Patient Selection; Research Activity
+R15	Before Arg1:T46 Arg2:T44	
+T47	Result_or_Value 621 640	inferior a 2000/mm3
+R14	Has_Result_or_Value Arg1:T12 Arg2:T47	
+R16	Has_Result_or_Value Arg1:T13 Arg2:T47	
+T48	Result_or_Value 652 677	superior a 5 veces el LSN
+R17	Has_Result_or_Value Arg1:T25 Arg2:T48	
+R18	Has_Result_or_Value Arg1:T24 Arg2:T48	
+T49	Result_or_Value 689 705	< 50 000 por mm3
+R19	Has_Result_or_Value Arg1:T15 Arg2:T49	
+R20	Used_for Arg1:T26 Arg2:T16	
+T50	Observation 762 796	Uso prolongado de corticosteroides
+R21	Has_Route_or_Mode Arg1:T17 Arg2:T33	
+R22	Negation Arg1:T34 Arg2:T11	
+R24	Overlap Arg1:T50 Arg2:T18	
+R25	Overlap Arg1:T19 Arg2:T35	
+R26	Overlap Arg1:T19 Arg2:T36	
+R27	Speculation Arg1:T37 Arg2:T20	
+R28	Experiences Arg1:T38 Arg2:T21	
+R29	Speculation Arg1:T40 Arg2:T21	
+R30	Causes Arg1:T39 Arg2:T21	
+R31	Causes Arg1:T43 Arg2:T21	
+T51	Quantifier_or_Qualifier 1035 1042	activas
+R32	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T51	
+#32	AnnotatorNotes T51	C0679217; Active State; Idea or Concept
+A8	Status T26 History_of
+#33	AnnotatorNotes T35	C1444637; In the past; Temporal Concept
+#34	AnnotatorNotes T36	C0521116; Current (present time); Temporal Concept
+#35	AnnotatorNotes T1	C3274373; Adaptive Design; Research Activity + C0282460; Phase 2 Clinical Trials; Research Activity + C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+#36	AnnotatorNotes T7	C0026766; Multiple Organ Failure; Pathologic Function
+#37	AnnotatorNotes T8	C0010340; Critical Illness; Disease or Syndrome
+R23	Overlap Arg1:T18 Arg2:T11	
+R2	Experiences Arg1:T28 Arg2:T4	
+#38	AnnotatorNotes T41	C1547227; Severe - Severity of Illness Code; Intellectual Product
+#39	AnnotatorNotes T21	C4285778; Systemic bacterial infection; Disease or Syndrome | C0553576; Systemic mycosis; Disease or Syndrome
+A9	Experiencer T38 Patient
+A10	Experiencer T30 Patient
+A11	Experiencer T28 Patient

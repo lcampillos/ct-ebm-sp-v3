@@ -1,0 +1,187 @@
+T1	DISO 34 52	cáncer de próstata
+#1	AnnotatorNotes T1	C0376358; Malignant neoplasm of prostate; Neoplastic Process
+T2	PROC 56 100	tratamiento con bloqueo androgénico continuo
+T3	PROC 118 137	estudio prospectivo
+#2	AnnotatorNotes T3	C0033522; Prospective Studies; Research Activity
+T4	PROC 150 177	aplicación del cuestionario
+#3	AnnotatorNotes T4	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T5	PROC 253 256	BAI
+T6	PROC 203 251	tratamiento con bloqueo androgénico intermitente
+T7	DISO 315 333	cáncer de próstata
+#4	AnnotatorNotes T7	C0376358; Malignant neoplasm of prostate; Neoplastic Process
+T8	PROC 379 407	bloqueo androgénico continuo
+T9	CHEM 387 398	androgénico
+#5	AnnotatorNotes T9	C0002844; Androgens; Hormone · Pharmacologic Substance
+T10	PROC 474 501	aplicación del cuestionario
+#6	AnnotatorNotes T10	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T11	PROC 613 633	estudio longitudinal
+#7	AnnotatorNotes T11	C0023981; Longitudinal Studies; Research Activity
+T12	PROC 698 714	se aleatorizaron
+#8	AnnotatorNotes T12	C0034656; Randomization; Research Activity
+T13	PROC 733 744	tratamiento
+#9	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 778 791	controlándose
+#10	AnnotatorNotes T14	C0030695; Patient Monitoring; Health Care Activity | C0150369; Preventive monitoring; Health Care Activity
+T15	PROC 969 980	tratamiento
+#11	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 1529 1532	BAC
+T17	PROC 1420 1434	aleatorización
+#12	AnnotatorNotes T17	C0034656; Randomization; Research Activity
+T18	PROC 1661 1664	BAI
+T19	PROC 1325 1328	BAI
+T20	PROC 1736 1762	suspensión del tratamiento
+#13	AnnotatorNotes T20	C0850893; stop medication; Therapeutic or Preventive Procedure
+T21	PROC 409 412	BAC
+T22	ANAT 44 52	próstata
+#14	AnnotatorNotes T22	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T23	CHEM 80 91	androgénico
+#15	AnnotatorNotes T23	C0002844; Androgens; Hormone · Pharmacologic Substance
+T24	PROC 546 561	tratado con BAC
+T25	CHEM 227 238	androgénico
+#16	AnnotatorNotes T25	C0002844; Androgens; Hormone · Pharmacologic Substance
+T26	PROC 573 576	BAI
+T27	ANAT 325 333	próstata
+#17	AnnotatorNotes T27	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T28	PROC 772 775	BAI
+T29	PROC 1128 1131	BAC
+T30	PROC 1207 1210	BAI
+T31	PROC 761 764	BAC
+T32	PROC 833 847	aleatorizarlos
+#18	AnnotatorNotes T32	C0034656; Randomization; Research Activity
+T33	PROC 1061 1064	BAI
+T34	PROC 1244 1247	BAC
+T35	LIVB 20 29	pacientes
+#19	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 301 310	pacientes
+#20	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 531 540	pacientes
+#21	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Duration 637 645	24 meses
+T39	LIVB 674 683	pacientes
+#22	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 690 697	6 meses
+T41	LIVB 749 758	pacientes
+#23	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Duration 809 829	los 6, 12 y 18 meses
+T43	LIVB 1047 1056	pacientes
+#24	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 1114 1123	pacientes
+#25	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 1369 1378	pacientes
+#26	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 1705 1714	pacientes
+#27	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T56	Duration 1381 1393	los 18 meses
+T58	Duration 1717 1729	los 18 meses
+T45	PROC 104 116;56 91	intermitente tratamiento con bloqueo androgénico
+T47	PROC 446 461	calidad de vida
+#28	AnnotatorNotes T47	C0281588; Assessment of quality of life; Diagnostic Procedure
+T48	CONC 1 16	Calidad de vida
+#29	AnnotatorNotes T48	C0034380; Quality of life; Idea or Concept
+T49	CONC 278 293	calidad de vida
+#30	AnnotatorNotes T49	C0034380; Quality of life; Idea or Concept
+T50	CONC 1083 1098	calidad de vida
+#31	AnnotatorNotes T50	C0034380; Quality of life; Idea or Concept
+T51	CONC 1339 1354	calidad de vida
+T53	CONC 1675 1690	calidad de vida
+T54	CONC 1549 1564	calidad de vida
+#34	AnnotatorNotes T54	C0034380; Quality of life; Idea or Concept
+T55	Neg_cue 1543 1545	ni
+A1	Assertion T54 Negated
+R1	Negation Arg1:T55 Arg2:T54	
+T57	Neg_cue 1572 1574	ni
+T59	CONC 1578 1588	puntuación
+A2	Assertion T59 Negated
+R2	Negation Arg1:T57 Arg2:T59	
+R3	Experiences Arg1:T52 Arg2:T18	
+R6	Experiences Arg1:T52 Arg2:T20	
+R7	Experiences Arg1:T35 Arg2:T1	
+R8	Location_of Arg1:T22 Arg2:T1	
+R9	Used_for Arg1:T23 Arg2:T2	
+R10	Used_for Arg1:T23 Arg2:T45	
+R11	Experiences Arg1:T35 Arg2:T45	
+R12	Experiences Arg1:T35 Arg2:T2	
+R13	Used_for Arg1:T25 Arg2:T6	
+R14	Used_for Arg1:T25 Arg2:T5	
+R15	Experiences Arg1:T36 Arg2:T7	
+R16	Location_of Arg1:T27 Arg2:T7	
+R17	Experiences Arg1:T36 Arg2:T6	
+R18	Experiences Arg1:T36 Arg2:T5	
+R19	Used_for Arg1:T9 Arg2:T8	
+R20	Used_for Arg1:T9 Arg2:T21	
+R21	Experiences Arg1:T36 Arg2:T21	
+R22	Experiences Arg1:T36 Arg2:T8	
+R23	Experiences Arg1:T37 Arg2:T24	
+R24	Experiences Arg1:T37 Arg2:T26	
+R25	Experiences Arg1:T37 Arg2:T10	
+R26	Experiences Arg1:T37 Arg2:T47	
+R27	Has_Duration_or_Interval Arg1:T11 Arg2:T38	
+R28	Overlap Arg1:T12 Arg2:T40	
+R29	Experiences Arg1:T41 Arg2:T31	
+R30	Experiences Arg1:T41 Arg2:T28	
+R31	Overlap Arg1:T14 Arg2:T42	
+R32	After Arg1:T14 Arg2:T32	
+R33	Experiences Arg1:T41 Arg2:T14	
+R36	Experiences Arg1:T46 Arg2:T19	
+R37	Experiences Arg1:T44 Arg2:T29	
+R38	Experiences Arg1:T43 Arg2:T33	
+R39	Experiences Arg1:T35 Arg2:T4	
+T62	CONC 165 177	cuestionario
+#35	AnnotatorNotes T62	C0451208; Health assessment questionnaire; Intellectual Product
+T63	CONC 489 501	cuestionario
+#36	AnnotatorNotes T63	C0451208; Health assessment questionnaire; Intellectual Product
+T64	CONC 925 937	cuestionario
+#37	AnnotatorNotes T64	C0451208; Health assessment questionnaire; Intellectual Product
+T65	CONC 1184 1196	cuestionario
+#38	AnnotatorNotes T65	C0451208; Health assessment questionnaire; Intellectual Product
+R40	Before Arg1:T17 Arg2:T19	
+R41	Before Arg1:T18 Arg2:T20	
+R42	Overlap Arg1:T13 Arg2:T40	
+R43	Before Arg1:T12 Arg2:T14	
+T60	Quantifier_or_Qualifier 1099 1105	global
+R44	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T60	
+T61	Quantifier_or_Qualifier 1565 1571	global
+R45	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T61	
+T66	Quantifier_or_Qualifier 1355 1361	global
+R46	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T66	
+R47	After Arg1:T51 Arg2:T17	
+T67	Quantifier_or_Qualifier 1691 1697	global
+R5	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T67	
+R35	After Arg1:T53 Arg2:T20	
+T68	Neg_cue 1533 1535	no
+T69	Observation 1536 1542;1546 1564	mejoró la calidad de vida
+A3	Assertion T69 Negated
+#32	AnnotatorNotes T69	C2015892; outcomes general quality of life improved; Finding
+R48	Negation Arg1:T68 Arg2:T69	
+T70	LIVB 723 744	grupos de tratamiento
+#33	AnnotatorNotes T70	C5205742; Treatment Group; Population Group
+R49	Experiences Arg1:T70 Arg2:T13	
+#39	AnnotatorNotes T51	C0034380; Quality of life; Idea or Concept
+#40	AnnotatorNotes T53	C0034380; Quality of life; Idea or Concept
+T71	Observation 1329 1354	mejoró la calidad de vida
+#41	AnnotatorNotes T71	C2015892; outcomes general quality of life improved; Finding
+R50	Before Arg1:T16 Arg2:T69	
+R51	Causes Arg1:T19 Arg2:T71	
+#42	AnnotatorNotes T66	C2348867; Global; Qualitative Concept
+R52	Experiences Arg1:T46 Arg2:T71	
+#43	AnnotatorNotes T61	C2348867; Global; Qualitative Concept
+R34	Overlap Arg1:T71 Arg2:T56	
+T72	Observation 1665 1690	mejora la calidad de vida
+#44	AnnotatorNotes T72	C2015892; outcomes general quality of life improved; Finding
+R53	Causes Arg1:T18 Arg2:T72	
+#45	AnnotatorNotes T67	C2348867; Global; Qualitative Concept
+R54	Overlap Arg1:T72 Arg2:T58	
+R4	Before Arg1:T20 Arg2:T58	
+R55	Used_for Arg1:T63 Arg2:T10	
+#46	AnnotatorNotes T60	C2348867; Global; Qualitative Concept
+#47	AnnotatorNotes T59	C2964552; Total score; Quantitative Concept
+A4	Experiencer T35 Patient
+A5	Experiencer T36 Patient
+A6	Experiencer T37 Patient
+A7	Experiencer T39 Patient
+A8	Experiencer T70 Patient
+A9	Experiencer T41 Patient
+A10	Experiencer T43 Patient
+A11	Experiencer T44 Patient
+A12	Experiencer T46 Patient
+A13	Experiencer T52 Patient

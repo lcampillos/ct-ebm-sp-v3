@@ -1,0 +1,307 @@
+T1	PROC 46 71	Estudio fase 1/2, abierto
+T2	CHEM 76 85	Nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 89 100	monoterapia
+#2	AnnotatorNotes T3	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T4	CHEM 103 112	Nivolumab
+#3	AnnotatorNotes T4	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	CHEM 127 137	ipilimumab
+#4	AnnotatorNotes T5	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	DISO 153 168	tumores sólidos
+#5	AnnotatorNotes T6	C0280100; Solid Neoplasm; Neoplastic Process
+T7	DISO 217 232	Tumores sólidos
+#6	AnnotatorNotes T7	C0280100; Solid Neoplasm; Neoplastic Process
+T8	DISO 262 292	Cáncer de mama triple negativo
+#7	AnnotatorNotes T8	C3539878; Triple Negative Breast Neoplasms; Neoplastic Process
+T9	DISO 297 312	Cáncer gástrico
+#8	AnnotatorNotes T9	C0024623; Malignant neoplasm of stomach; Neoplastic Process
+T10	DISO 317 335	Cáncer pancreático
+#9	AnnotatorNotes T10	C0281361; Adenocarcinoma of pancreas; Neoplastic Process | C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T11	DISO 340 368	Cáncer microcítico de pulmón
+T12	ANAT 945 951	vejiga
+#10	AnnotatorNotes T12	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T13	ANAT 362 368	pulmón
+#11	AnnotatorNotes T13	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T14	DISO 372 388	Cáncer de vejiga
+#12	AnnotatorNotes T14	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T15	DISO 393 409	Cáncer de ovario
+#13	AnnotatorNotes T15	C1140680; Malignant neoplasm of ovary; Neoplastic Process
+T16	DISO 436 451	Tumores sólidos
+#14	AnnotatorNotes T16	C0280100; Solid Neoplasm; Neoplastic Process
+T17	DISO 481 511	Cáncer de mama triple negativo
+#15	AnnotatorNotes T17	C3539878; Triple Negative Breast Neoplasms; Neoplastic Process
+T18	DISO 522 537	Cáncer gástrico
+#16	AnnotatorNotes T18	C0024623; Malignant neoplasm of stomach; Neoplastic Process
+T19	DISO 539 541	CG
+T20	DISO 546 564	Cáncer pancreático
+#17	AnnotatorNotes T20	C0281361; Adenocarcinoma of pancreas; Neoplastic Process | C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T21	DISO 575 603	Cáncer microcítico de pulmón
+T22	DISO 513 517	CMTN
+T23	ANAT 597 603	pulmón
+#18	AnnotatorNotes T23	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T24	DISO 605 608	CMP
+T25	DISO 614 630	Cáncer de vejiga
+#19	AnnotatorNotes T25	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T26	DISO 640 656	Cáncer de ovario
+#20	AnnotatorNotes T26	C1140680; Malignant neoplasm of ovary; Neoplastic Process
+T27	DISO 566 570	CPan
+T28	DISO 702 712	enfermedad
+#21	AnnotatorNotes T28	C0012634; Disease; Disease or Syndrome
+T29	DISO 799 808	tumorales
+#22	AnnotatorNotes T29	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T30	DISO 812 842	Cáncer de mama triple negativo
+#23	AnnotatorNotes T30	C3539878; Triple Negative Breast Neoplasms; Neoplastic Process
+T31	DISO 845 860	Cáncer gástrico
+#24	AnnotatorNotes T31	C0024623; Malignant neoplasm of stomach; Neoplastic Process
+T32	DISO 863 881	Cáncer pancreático
+#25	AnnotatorNotes T32	C0281361; Adenocarcinoma of pancreas; Neoplastic Process | C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T33	DISO 884 912	Cáncer microcítico de pulmón
+T34	ANAT 906 912	pulmón
+#26	AnnotatorNotes T34	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T35	DISO 915 931	Cáncer de ovario
+#27	AnnotatorNotes T35	C1140680; Malignant neoplasm of ovary; Neoplastic Process
+T36	DISO 935 951	Cáncer de vejiga
+#28	AnnotatorNotes T36	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+T37	DISO 979 997	enfermedad medible
+#29	AnnotatorNotes T37	C1513041; Measurable Disease; Disease or Syndrome
+T38	DISO 1101 1122	Metástasis cerebrales
+#30	AnnotatorNotes T38	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T39	DISO 1133 1158	metástasis leptomeníngeas
+#31	AnnotatorNotes T39	C1704231; Metastatic Malignant Neoplasm to the Leptomeninges; Neoplastic Process
+T40	DISO 1175 1201	enfermedad autoinmunitaria
+#32	AnnotatorNotes T40	C0004364; Autoimmune Diseases; Disease or Syndrome
+T41	PROC 1269 1290	tratamiento sistémico
+T42	CHEM 1295 1311	corticosteroides
+#33	AnnotatorNotes T42	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T43	CHEM 1324 1334	prednisona
+#34	AnnotatorNotes T43	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T44	CHEM 1365 1394	medicamentos inmunosupresores
+T45	CHEM 1449 1456	fármaco
+#35	AnnotatorNotes T45	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T46	DISO 632 635	Cve
+T47	PROC 1475 1486	tratamiento
+#36	AnnotatorNotes T47	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T48	ANAT 1564 1576	linfocitos T
+#37	AnnotatorNotes T48	C0039194; T-Lymphocyte; Cell
+T49	PROC 1579 1631	tratamiento dirigido a las vías del punto de control
+#38	AnnotatorNotes T49	C4733472; Immune checkpoint inhibitor therapy; Therapeutic or Preventive Procedure
+T50	CHEM 1638 1659	anticuerpos anti-PD-1
+T51	CHEM 1685 1695	anti-CD137
+T52	CHEM 1661 1671	anti-PD-L1
+T53	CHEM 1673 1683	anti-PD-L2
+T54	CHEM 1698 1709	anti-CTLA-4
+T55	CHEM 1720 1730	ipilimumab
+#39	AnnotatorNotes T55	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T56	CHEM 1740 1797	medicamentos dirigidos específicamente a los linfocitos T
+#40	AnnotatorNotes T56	C3192215; Selective T Cell Costimulation Blocker; Pharmacologic Substance (?)
+T57	ANAT 1785 1797	linfocitos T
+#41	AnnotatorNotes T57	C0039194; T-Lymphocyte; Cell
+T58	DISO 181 193	metastásicos
+#42	AnnotatorNotes T58	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T59	DISO 245 257	metastásicos
+#43	AnnotatorNotes T59	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T60	ANAT 272 276	mama
+#44	AnnotatorNotes T60	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T61	ANAT 304 312	gástrico
+#45	AnnotatorNotes T61	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T62	ANAT 324 335	pancreático
+#46	AnnotatorNotes T62	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T63	ANAT 347 358	microcítico
+#47	AnnotatorNotes T63	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T64	ANAT 382 388	vejiga
+#48	AnnotatorNotes T64	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T65	ANAT 403 409	ovario
+#49	AnnotatorNotes T65	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T66	DISO 464 476	metastásicos
+#50	AnnotatorNotes T66	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T67	ANAT 491 495	mama
+#51	AnnotatorNotes T67	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T68	ANAT 529 537	gástrico
+#52	AnnotatorNotes T68	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T69	ANAT 553 564	pancreático
+#53	AnnotatorNotes T69	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T70	ANAT 582 593	microcítico
+#54	AnnotatorNotes T70	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T71	ANAT 624 630	vejiga
+#55	AnnotatorNotes T71	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T72	ANAT 650 656	ovario
+#56	AnnotatorNotes T72	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T73	DISO 658 660	CO
+T74	DISO 735 746	metastásica
+#57	AnnotatorNotes T74	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T75	ANAT 822 826	mama
+#58	AnnotatorNotes T75	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T76	ANAT 852 860	gástrico
+#59	AnnotatorNotes T76	C0038351; Stomach; Body Part, Organ, or Organ Component | C1278920; Entire stomach; Body Part, Organ, or Organ Component | C3714551; Stomach structure; Body Part, Organ, or Organ Component
+T77	ANAT 870 881	pancreático
+#60	AnnotatorNotes T77	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T78	ANAT 891 902	microcítico
+#61	AnnotatorNotes T78	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T79	ANAT 925 931	ovario
+#62	AnnotatorNotes T79	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T80	ANAT 1112 1122	cerebrales
+#63	AnnotatorNotes T80	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T81	ANAT 1144 1158	leptomeníngeas
+#64	AnnotatorNotes T81	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T82	PROC 1430 1456	administración del fármaco
+#65	AnnotatorNotes T82	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+T83	CHEM 1498 1519	vacunas antitumorales
+T84	Date 13 17	2013
+T85	LIVB 141 148	sujetos
+#66	AnnotatorNotes T85	C0681850; Study Subject; Group
+T88	LIVB 690 697	Sujetos
+#67	AnnotatorNotes T88	C0681850; Study Subject; Group
+T90	LIVB 959 966	sujetos
+#68	AnnotatorNotes T90	C0681850; Study Subject; Group
+T92	LIVB 1163 1170	Sujetos
+#69	AnnotatorNotes T92	C0681850; Study Subject; Group
+T93	Spec_cue 1221 1231	sospechada
+T94	LIVB 1235 1242	Sujetos
+#70	AnnotatorNotes T94	C0681850; Study Subject; Group
+T95	Dose 1313 1320	> 10 mg
+T96	Frequency 1335 1341	al día
+T97	Duration 1405 1416	los 14 días
+T86	PHYS 1546 1576	coestimulación de linfocitos T
+#71	AnnotatorNotes T86	C1622572; T cell costimulation; Cell Function
+T87	PROC 1000 1016	Estado funcional
+#72	AnnotatorNotes T87	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T89	PROC 758 774	histológicamente
+#73	AnnotatorNotes T89	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T40 Speculated
+A2	Assertion T83 Contraindicated
+A3	Status T47 History_of
+A4	Assertion T47 Contraindicated
+A5	Assertion T49 Contraindicated
+A6	Assertion T50 Contraindicated
+A7	Assertion T52 Contraindicated
+A8	Assertion T53 Contraindicated
+A12	Status T83 History_of
+A9	Assertion T51 Contraindicated
+A10	Assertion T54 Contraindicated
+A11	Assertion T55 Contraindicated
+A13	Assertion T56 Contraindicated
+A14	Status T40 History_of
+#74	AnnotatorNotes T1	C1519043; Phase I/II Trial; Research Activity + C1709323; Open Label Study; Research Activity 
+#75	AnnotatorNotes T22	C3539878; Triple Negative Breast Neoplasms; Neoplastic Process
+#76	AnnotatorNotes T19	C0024623; Malignant neoplasm of stomach; Neoplastic Process
+#77	AnnotatorNotes T27	C0281361; Adenocarcinoma of pancreas; Neoplastic Process | C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+#78	AnnotatorNotes T46	C0005684; Malignant neoplasm of urinary bladder; Neoplastic Process
+#79	AnnotatorNotes T73	C1140680; Malignant neoplasm of ovary; Neoplastic Process
+#80	AnnotatorNotes T44	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+#81	AnnotatorNotes T50	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#82	AnnotatorNotes T52	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#83	AnnotatorNotes T51	C4732974; Anti-CD137 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#84	AnnotatorNotes T54	C4289973; Anti-CTLA-4 Monoclonal Antibody; Amino Acid, Peptide, or Protein 
+R1	Used_for Arg1:T2 Arg2:T3	
+R2	Combined_with Arg1:T4 Arg2:T5	
+R3	Experiences Arg1:T85 Arg2:T2	
+R4	Experiences Arg1:T85 Arg2:T4	
+R5	Experiences Arg1:T85 Arg2:T6	
+R6	Experiences Arg1:T85 Arg2:T58	
+R7	Before Arg1:T6 Arg2:T58	
+T91	Quantifier_or_Qualifier 169 178	avanzados
+#85	AnnotatorNotes T91	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T91	
+T98	Quantifier_or_Qualifier 233 242	avanzados
+#86	AnnotatorNotes T98	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T98	
+R10	Before Arg1:T7 Arg2:T59	
+R11	Location_of Arg1:T60 Arg2:T8	
+R12	Location_of Arg1:T61 Arg2:T9	
+R13	Location_of Arg1:T62 Arg2:T10	
+R14	Location_of Arg1:T63 Arg2:T11	
+R15	Location_of Arg1:T13 Arg2:T11	
+#87	AnnotatorNotes T11	C0149925; Small cell carcinoma of lung; Neoplastic Process
+R16	Location_of Arg1:T64 Arg2:T14	
+R17	Location_of Arg1:T65 Arg2:T15	
+T99	Quantifier_or_Qualifier 452 461	avanzados
+#88	AnnotatorNotes T99	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T99	
+R19	Before Arg1:T16 Arg2:T66	
+R20	Location_of Arg1:T67 Arg2:T17	
+R21	Location_of Arg1:T67 Arg2:T22	
+R22	Location_of Arg1:T68 Arg2:T18	
+R23	Location_of Arg1:T68 Arg2:T19	
+R24	Location_of Arg1:T69 Arg2:T20	
+R25	Location_of Arg1:T69 Arg2:T27	
+R26	Location_of Arg1:T23 Arg2:T24	
+R27	Location_of Arg1:T70 Arg2:T21	
+R28	Location_of Arg1:T70 Arg2:T24	
+#89	AnnotatorNotes T24	C0149925; Small cell carcinoma of lung; Neoplastic Process
+#90	AnnotatorNotes T21	C0149925; Small cell carcinoma of lung; Neoplastic Process
+R29	Location_of Arg1:T71 Arg2:T25	
+R30	Location_of Arg1:T71 Arg2:T46	
+R31	Location_of Arg1:T72 Arg2:T73	
+R32	Location_of Arg1:T72 Arg2:T26	
+T100	Quantifier_or_Qualifier 713 732	localmente avanzada
+R33	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T100	
+R34	Experiences Arg1:T88 Arg2:T28	
+R35	Experiences Arg1:T88 Arg2:T74	
+R36	Before Arg1:T28 Arg2:T74	
+R40	Location_of Arg1:T75 Arg2:T30	
+R41	Location_of Arg1:T76 Arg2:T31	
+R42	Location_of Arg1:T77 Arg2:T32	
+R43	Location_of Arg1:T78 Arg2:T33	
+R44	Location_of Arg1:T34 Arg2:T33	
+R45	Location_of Arg1:T79 Arg2:T35	
+R46	Location_of Arg1:T12 Arg2:T36	
+R47	Experiences Arg1:T90 Arg2:T37	
+T101	CONC 1021 1055	Eastern Cooperative Oncology Group
+#91	AnnotatorNotes T101	C1520224; ECOG performance status; Intellectual Product
+R48	Used_for Arg1:T101 Arg2:T87	
+T102	CONC 1057 1061	ECOG
+#92	AnnotatorNotes T102	C1520224; ECOG performance status; Intellectual Product
+R49	Used_for Arg1:T102 Arg2:T87	
+T103	Result_or_Value 1066 1071	0 ó 1
+R50	Has_Result_or_Value Arg1:T102 Arg2:T103	
+R51	Has_Result_or_Value Arg1:T101 Arg2:T103	
+R52	Location_of Arg1:T80 Arg2:T38	
+R53	Location_of Arg1:T81 Arg2:T39	
+T104	Quantifier_or_Qualifier 1123 1130	activas
+#93	AnnotatorNotes T104	C0679217; Active State; Idea or Concept
+R54	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T104	
+T105	Quantifier_or_Qualifier 1202 1208	activa
+#94	AnnotatorNotes T105	C0679217; Active State; Idea or Concept
+R55	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T105	
+R56	Experiences Arg1:T92 Arg2:T40	
+R57	Speculation Arg1:T93 Arg2:T40	
+R58	Experiences Arg1:T94 Arg2:T41	
+R59	Used_for Arg1:T42 Arg2:T41	
+R60	Has_Dose_or_Strength Arg1:T43 Arg2:T95	
+R61	Has_Frequency Arg1:T43 Arg2:T96	
+R62	Used_for Arg1:T43 Arg2:T41	
+R63	Used_for Arg1:T44 Arg2:T41	
+R64	Before Arg1:T44 Arg2:T82	
+R65	Used_for Arg1:T45 Arg2:T82	
+R66	Overlap Arg1:T44 Arg2:T97	
+R67	Experiences Arg1:T94 Arg2:T44	
+#95	AnnotatorNotes T33	C0149925; Small cell carcinoma of lung; Neoplastic Process
+T106	CONC 1321 1334;1344 1355	de prednisona equivalente
+R69	Used_for Arg1:T83 Arg2:T47	
+R70	Location_of Arg1:T48 Arg2:T86	
+#96	AnnotatorNotes T83	C0597031; neoplasm/cancer vaccine; Immunologic Factor · Pharmacologic Substance | C0376659; Cancer Vaccines; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor
+T107	Quantifier_or_Qualifier 1520 1534	experimentales
+A15	Status T107 History_of
+A16	Assertion T107 Contraindicated
+#97	AnnotatorNotes T107	C1517586; Investigational; Qualitative Concept
+R71	Has_Quantifier_or_Qualifier Arg1:T83 Arg2:T107	
+R72	Used_for Arg1:T50 Arg2:T49	
+R73	Used_for Arg1:T52 Arg2:T49	
+R74	Used_for Arg1:T53 Arg2:T49	
+R75	Used_for Arg1:T51 Arg2:T49	
+R76	Used_for Arg1:T55 Arg2:T49	
+R77	Used_for Arg1:T56 Arg2:T49	
+R78	Experiences Arg1:T88 Arg2:T29	
+R79	Experiences Arg1:T88 Arg2:T89	
+R80	Experiences Arg1:T94 Arg2:T82	
+R81	Overlap Arg1:T41 Arg2:T97	
+R82	Before Arg1:T41 Arg2:T82	
+#98	AnnotatorNotes T41	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+R83	Location_of Arg1:T23 Arg2:T21	
+R37	Overlap Arg1:T43 Arg2:T97	
+R38	Before Arg1:T43 Arg2:T82	
+A17	Experiencer T85 Patient
+A18	Experiencer T88 Patient
+A19	Experiencer T90 Patient
+A20	Experiencer T92 Patient
+A21	Experiencer T94 Patient

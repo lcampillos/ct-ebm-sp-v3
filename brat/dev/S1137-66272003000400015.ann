@@ -1,0 +1,105 @@
+T1	PROC 1 14	Inmunoterapia
+#1	AnnotatorNotes T1	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T2	PROC 19 35	pautas agrupadas
+T3	PROC 98 111	inmunoterapia
+#2	AnnotatorNotes T3	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T4	PROC 230 241	tratamiento
+#3	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	PROC 299 317	pauta convencional
+T6	PROC 324 348	inmunoterapia subcutánea
+#4	AnnotatorNotes T6	C0413381; Subcutaneous immunotherapy; Therapeutic or Preventive Procedure
+T7	PROC 472 478	pautas
+#5	AnnotatorNotes T7	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T8	PROC 520 536	pautas agrupadas
+T9	PROC 634 645	tratamiento
+#6	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	PROC 652 658	pautas
+#7	AnnotatorNotes T10	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T11	DISO 739 750	incomodidad
+#8	AnnotatorNotes T11	C2364135; Discomfort; Sign or Symptom
+T12	PROC 755 766	tratamiento
+#9	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	PROC 918 941	pauta de administración
+T14	DISO 985 1004	reacciones adversas
+#10	AnnotatorNotes T14	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T15	PROC 1088 1104	pautas agrupadas
+T16	PROC 1152 1171	estudio comparativo
+#11	AnnotatorNotes T16	C1579762; comparative study research; Research Activity
+T17	PROC 1181 1199	pauta convencional
+T18	PROC 1206 1220	pauta agrupada
+T19	PROC 1299 1313	pauta agrupada
+T20	ANAT 1426 1433	cutánea
+#12	AnnotatorNotes T20	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T21	CHEM 1437 1445	alergeno
+#13	AnnotatorNotes T21	C0002092; Allergens; Immunologic Factor
+T22	DISO 1529 1548	reacciones adversas
+#14	AnnotatorNotes T22	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T23	PROC 1587 1605	pauta convencional
+T24	CHEM 116 137	extractos alergénicos
+#15	AnnotatorNotes T24	C0440016; Allergenic extract; Pharmacologic Substance · Indicator, Reagent, or Diagnostic Aid
+T25	Duration 142 158	los últimos años
+T26	Route 338 348	subcutánea
+#16	AnnotatorNotes T26	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T28	LIVB 795 803	paciente
+#17	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T32	DISO 1413 1433	sensibilidad cutánea
+#18	AnnotatorNotes T32	C1399780; skin; sensibility disturbance; Sign or Symptom
+T33	PROC 363 382	incremento de dosis
+#19	AnnotatorNotes T33	C1707810; Dose Increased; Therapeutic or Preventive Procedure
+T34	PROC 566 585	incremento de dosis
+#20	AnnotatorNotes T34	C1707810; Dose Increased; Therapeutic or Preventive Procedure
+T27	PROC 1232 1243	doble ciego
+#21	AnnotatorNotes T27	C0013072; Double-Blind Method; Research Activity
+T29	PHYS 1471 1495	parámetros inmunológicos
+#22	AnnotatorNotes T29	C2371094; Immunological system functions; Organ or Tissue Function (?)
+T30	Quantifier_or_Qualifier 898 903	fácil
+A1	Assertion T30 Negated
+T31	Neg_cue 892 894	no
+R1	Negation Arg1:T31 Arg2:T30	
+T35	Spec_cue 816 828	posiblemente
+T36	CONC 845 861	eficacia clínica
+A2	Assertion T36 Speculated
+#23	AnnotatorNotes T36	C3850123; Clinical Effectiveness; Qualitative Concept
+T37	Quantifier_or_Qualifier 862 877	más rápidamente
+A3	Assertion T37 Speculated
+R2	Used_for Arg1:T24 Arg2:T3	
+R3	Overlap Arg1:T24 Arg2:T25	
+R4	Has_Route_or_Mode Arg1:T6 Arg2:T26	
+R5	Combined_with Arg1:T6 Arg2:T33	
+T38	Quantifier_or_Qualifier 425 431	eficaz
+#24	AnnotatorNotes T38	C1704419; Effective; Qualitative Concept
+T39	CONC 407 412	dosis
+#25	AnnotatorNotes T39	C0178602; Dosage; Quantitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T38	
+R7	Used_for Arg1:T39 Arg2:T6	
+T40	CONC 683 709	reducir el gasto económico
+#26	AnnotatorNotes T40	C0085550; Cost Savings; Quantitative Concept (?)
+T41	CONC 683 690;715 721	reducir tiempo
+T42	CONC 542 549;566 585	acorten incremento de dosis
+R8	Causes Arg1:T8 Arg2:T42	
+R9	Causes Arg1:T12 Arg2:T11	
+T44	Observation 780 790	adherencia
+#29	AnnotatorNotes T44	C2364172; Adherence To Medication Regime; Finding
+R10	Experiences Arg1:T28 Arg2:T44	
+R11	Experiences Arg1:T28 Arg2:T9	
+R12	Experiences Arg1:T28 Arg2:T11	
+R13	Experiences Arg1:T28 Arg2:T12	
+R14	Speculation Arg1:T35 Arg2:T36	
+R15	Speculation Arg1:T35 Arg2:T37	
+R17	Overlap Arg1:T12 Arg2:T44	
+R18	Overlap Arg1:T9 Arg2:T44	
+R20	Causes Arg1:T13 Arg2:T14	
+R21	Causes Arg1:T15 Arg2:T14	
+R22	Location_of Arg1:T20 Arg2:T32	
+R24	Causes Arg1:T21 Arg2:T32	
+T46	Observation 1451 1495	modificación de los parámetros inmunológicos
+R26	Causes Arg1:T19 Arg2:T22	
+R27	Causes Arg1:T19 Arg2:T46	
+R28	Causes Arg1:T23 Arg2:T22	
+R23	Used_for Arg1:T21 Arg2:T19	
+R29	Used_for Arg1:T21 Arg2:T23	
+R30	Causes Arg1:T10 Arg2:T41	
+R31	Causes Arg1:T10 Arg2:T40	
+#27	AnnotatorNotes R5	(?)
+#28	AnnotatorNotes T13	C4684645; Dosage Regimen; Therapeutic or Preventive Procedure
+A4	Experiencer T28 Patient

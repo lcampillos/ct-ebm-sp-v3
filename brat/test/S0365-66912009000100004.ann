@@ -1,0 +1,177 @@
+T1	PROC 14 25	instilación
+#1	AnnotatorNotes T1	C0184959; Instillation (procedure); Health Care Activity
+T2	CHEM 30 39	colicursi
+#2	AnnotatorNotes T2	C2742286; Colicursi; Organic Chemical · Pharmacologic Substance
+T3	CHEM 59 69	tetracaína
+#3	AnnotatorNotes T3	C0039629; tetracaine; Organic Chemical · Pharmacologic Substance
+T4	CHEM 77 90	oxibuprocaína
+#4	AnnotatorNotes T4	C0053114; benoxinate; Organic Chemical · Pharmacologic Substance
+T5	ANAT 114 121	corneal
+#5	AnnotatorNotes T5	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T6	ANAT 227 234	corneal
+#6	AnnotatorNotes T6	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T7	PROC 349 365	anestesia tópica
+#7	AnnotatorNotes T7	C0472473; Topical local anesthetic; Therapeutic or Preventive Procedure
+T8	CHEM 391 416	clorhidrato de tetracaina
+#8	AnnotatorNotes T8	C0304456; tetracaine hydrochloride; Organic Chemical · Pharmacologic Substance
+T9	CHEM 427 455	clorhidrato de oxibuprocaina
+#9	AnnotatorNotes T9	C0770372; benoxinate hydrochloride; Organic Chemical · Pharmacologic Substance
+T10	ANAT 506 513	corneal
+#10	AnnotatorNotes T10	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T11	ANAT 562 568	córnea
+#11	AnnotatorNotes T11	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T12	ANAT 576 589	ojos derechos
+#12	AnnotatorNotes T12	C0229089; Right eye; Body Part, Organ, or Organ Component
+T13	PROC 730 741	instilación
+#13	AnnotatorNotes T13	C0184959; Instillation (procedure); Health Care Activity
+T14	ANAT 841 848	corneal
+#14	AnnotatorNotes T14	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T15	PROC 893 904	instilacion
+#15	AnnotatorNotes T15	C0184959; Instillation (procedure); Health Care Activity
+T16	CHEM 920 929	Colircusi
+#16	AnnotatorNotes T16	C2742286; Colicursi; Organic Chemical · Pharmacologic Substance
+T17	CHEM 952 974	clorhidrato tetracaina
+#17	AnnotatorNotes T17	C0304456; tetracaine hydrochloride; Organic Chemical · Pharmacologic Substance
+T18	CHEM 982 1010	clorhidrato de oxibuprocaina
+#18	AnnotatorNotes T18	C0770372; benoxinate hydrochloride; Organic Chemical · Pharmacologic Substance
+T19	ANAT 1218 1237	hemimeridiano nasal
+T20	CHEM 1298 1320	clorhidrato tetracaina
+#19	AnnotatorNotes T20	C0304456; tetracaine hydrochloride; Organic Chemical · Pharmacologic Substance
+T21	CHEM 1328 1356	clorhidrato de oxibuprocaina
+#20	AnnotatorNotes T21	C0770372; benoxinate hydrochloride; Organic Chemical · Pharmacologic Substance
+T22	ANAT 1449 1500	hemimeridianos nasal, temporal, superior e inferior
+T23	CHEM 41 51	anestésico
+#21	AnnotatorNotes T23	C0002932; Anesthetics; Pharmacologic Substance
+T24	ANAT 290 341	hemimeridianos nasal, temporal, superior e inferior
+T25	CHEM 746 756	anestésico
+#22	AnnotatorNotes T25	C0002932; Anesthetics; Pharmacologic Substance
+T26	CHEM 909 919	anestésico
+#23	AnnotatorNotes T26	C0002932; Anesthetics; Pharmacologic Substance
+T27	CHEM 931 941	anestésico
+#24	AnnotatorNotes T27	C0002932; Anesthetics; Pharmacologic Substance
+T28	CHEM 1266 1275	Colircusi
+#25	AnnotatorNotes T28	C2742286; Colicursi; Organic Chemical · Pharmacologic Substance
+T29	CHEM 1277 1287	anestésico
+#26	AnnotatorNotes T29	C0002932; Anesthetics; Pharmacologic Substance
+T32	Route 359 365	tópica
+#27	AnnotatorNotes T32	C1522168; Topical Route of Drug Administration; Functional Concept
+T34	LIVB 596 611	varones jóvenes
+#28	AnnotatorNotes T34	C4540955; Young adult males; Population Group
+T35	Frequency 656 672	cada dos minutos
+T36	Duration 695 705	16 minutos
+T39	Duration 1160 1173	los 6 minutos
+T40	Duration 1198 1211	los 8 minutos
+T41	Dose 1254 1262	Una gota
+T45	Dose 70 74	0,1%
+T46	Dose 91 95	0,4%
+T30	Dose 417 421	0,1%
+T31	Dose 456 460	0,4%
+T33	PROC 482 513	Se determinó el espesor corneal
+#29	AnnotatorNotes T33	C0412514; Corneal Pachymetry; Diagnostic Procedure
+T47	PROC 634 641	medidas
+#30	AnnotatorNotes T47	C0412514; Corneal Pachymetry; Diagnostic Procedure
+T37	Dose 1011 1015	0,4%
+T48	Dose 975 979	0,1%
+T38	Dose 1321 1325	0,1%
+T49	Dose 1357 1361	0,4%
+T50	Form 1258 1262	gota
+#31	AnnotatorNotes T50	C0015399; Eye Drops; Biomedical or Dental Material
+A1	Population_data T34 Age
+T42	Neg_cue 807 809	no
+T43	Observation 817 870	variación en el espesor corneal central y paracentral
+A2	Assertion T43 Negated
+R1	Negation Arg1:T42 Arg2:T43	
+T44	Neg_cue 1063 1065	no
+T51	CONC 1073 1104	estadísticamente significativas
+A3	Assertion T51 Negated
+#32	AnnotatorNotes T51	C0237881; Statistical Significance; Quantitative Concept
+R2	Negation Arg1:T44 Arg2:T51	
+T52	Observation 1377 1423	variación significativa del ECC ni paracentral
+A4	Assertion T52 Negated
+T53	Neg_cue 1362 1364	no
+R3	Negation Arg1:T53 Arg2:T52	
+T54	Quantifier_or_Qualifier 52 57	doble
+#33	AnnotatorNotes T54	C0205173; Double (qualifier value); Functional Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T54	
+R5	Used_for Arg1:T2 Arg2:T1	
+R6	Used_for Arg1:T23 Arg2:T1	
+R7	Combined_with Arg1:T3 Arg2:T4	
+R8	Has_Dose_or_Strength Arg1:T3 Arg2:T45	
+R9	Has_Dose_or_Strength Arg1:T4 Arg2:T46	
+R10	Used_for Arg1:T3 Arg2:T1	
+T55	Observation 1 7	Efecto
+#34	AnnotatorNotes T55	C1518681; Outcome of Therapy; Finding (?)
+R11	Causes Arg1:T1 Arg2:T55	
+T56	Observation 203 209	efecto
+#35	AnnotatorNotes T56	C1518681; Outcome of Therapy; Finding (?)
+R12	Has_Dose_or_Strength Arg1:T8 Arg2:T30	
+R13	Has_Dose_or_Strength Arg1:T9 Arg2:T31	
+R14	Combined_with Arg1:T8 Arg2:T9	
+R15	Used_for Arg1:T8 Arg2:T7	
+R16	Has_Route_or_Mode Arg1:T8 Arg2:T32	
+R17	Causes Arg1:T7 Arg2:T56	
+T57	Quantifier_or_Qualifier 514 521	central
+#36	AnnotatorNotes T57	C0205099; Central; Spatial Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T57	
+T58	Quantifier_or_Qualifier 524 535	paracentral
+#37	AnnotatorNotes T58	C4073110; Paracentral; Spatial Concept 
+R19	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T58	
+T59	CONC 549 555	centro
+#38	AnnotatorNotes T59	C0205099; Central; Spatial Concept
+R20	Experiences Arg1:T34 Arg2:T33	
+R21	Has_Frequency Arg1:T47 Arg2:T35	
+R22	Has_Duration_or_Interval Arg1:T47 Arg2:T36	
+R23	After Arg1:T47 Arg2:T13	
+R24	Before Arg1:T47 Arg2:T13	
+R25	Used_for Arg1:T25 Arg2:T13	
+R26	Location_of Arg1:T14 Arg2:T43	
+R27	After Arg1:T43 Arg2:T15	
+R28	Before Arg1:T43 Arg2:T15	
+R29	Used_for Arg1:T26 Arg2:T15	
+R30	Used_for Arg1:T16 Arg2:T15	
+R31	Combined_with Arg1:T17 Arg2:T18	
+R32	Has_Dose_or_Strength Arg1:T17 Arg2:T48	
+R33	Has_Dose_or_Strength Arg1:T18 Arg2:T37	
+R34	Used_for Arg1:T17 Arg2:T15	
+R35	Used_for Arg1:T27 Arg2:T15	
+T60	Quantifier_or_Qualifier 942 947	doble
+#39	AnnotatorNotes T60	C0205173; Double (qualifier value); Functional Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T60	
+T61	PROC 1028 1045	medidas repetidas
+#40	AnnotatorNotes T61	C0871881; repeated measures; Research Activity
+T62	CONC 1017 1022	ANOVA
+#41	AnnotatorNotes T62	C0002780; Analysis of Variance; Quantitative Concept
+R37	Used_for Arg1:T62 Arg2:T61	
+T63	Observation 1114 1134	variación de espesor
+R38	Overlap Arg1:T63 Arg2:T39	
+T64	CONC 1184 1195	paracentral
+R39	Overlap Arg1:T63 Arg2:T40	
+#42	AnnotatorNotes T64	C4073110; Paracentral; Spatial Concept
+R40	Has_Drug_Form Arg1:T28 Arg2:T50	
+R41	Has_Drug_Form Arg1:T29 Arg2:T50	
+R42	Has_Drug_Form Arg1:T20 Arg2:T50	
+R43	Combined_with Arg1:T20 Arg2:T21	
+R44	Has_Drug_Form Arg1:T21 Arg2:T50	
+R45	Has_Dose_or_Strength Arg1:T21 Arg2:T49	
+R46	Has_Dose_or_Strength Arg1:T20 Arg2:T38	
+R47	Has_Dose_or_Strength Arg1:T28 Arg2:T41	
+R48	Has_Dose_or_Strength Arg1:T29 Arg2:T41	
+R49	Has_Dose_or_Strength Arg1:T20 Arg2:T41	
+R50	Has_Dose_or_Strength Arg1:T21 Arg2:T41	
+R51	Before Arg1:T28 Arg2:T52	
+R52	Before Arg1:T29 Arg2:T52	
+R53	Before Arg1:T20 Arg2:T52	
+T65	Quantifier_or_Qualifier 1288 1293	doble
+#43	AnnotatorNotes T65	C0205173; Double (qualifier value); Functional Concept
+R54	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T65	
+T66	CONC 1435 1441	centro
+R55	Location_of Arg1:T12 Arg2:T59	
+#44	AnnotatorNotes T66	C0205099; Central; Spatial Concept
+R56	Has_Route_or_Mode Arg1:T9 Arg2:T32	
+R57	Location_of Arg1:T64 Arg2:T63	
+R58	Location_of Arg1:T19 Arg2:T63	
+T67	CONC 276 282	centro
+#45	AnnotatorNotes T67	C0205099; Central; Spatial Concept
+R59	Location_of Arg1:T24 Arg2:T67	
+R60	Location_of Arg1:T22 Arg2:T66	
+A5	Experiencer T34 Patient

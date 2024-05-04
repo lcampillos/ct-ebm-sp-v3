@@ -1,0 +1,102 @@
+T1	PROC 100 129	trasplante de órganos sólidos
+T2	PROC 131 145	ensayo clínico
+#1	AnnotatorNotes T2	C0008976; Clinical Trials; Research Activity
+T3	PROC 231 260	trasplante de órganos sólidos
+T4	ANAT 245 260	órganos sólidos
+T5	PROC 262 276	ensayo clínico
+#2	AnnotatorNotes T5	C0008976; Clinical Trials; Research Activity
+T6	DISO 347 356	inFLUenza
+#3	AnnotatorNotes T6	C0021400; Influenza; Disease or Syndrome
+T7	DISO 381 386	Gripe
+#4	AnnotatorNotes T7	C0021400; Influenza; Disease or Syndrome
+T8	PROC 404 431	trasplante de órgano sólido
+#5	AnnotatorNotes T8	C0730400; Solid organ transplant; Therapeutic or Preventive Procedure
+T9	ANAT 418 431	órgano sólido
+T10	PROC 498 525	trasplante de órgano sólido
+#6	AnnotatorNotes T10	C0730400; Solid organ transplant; Therapeutic or Preventive Procedure
+T11	ANAT 512 525	órgano sólido
+T12	PROC 562 572	trasplante
+#7	AnnotatorNotes T12	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T13	PROC 657 667	trasplante
+#8	AnnotatorNotes T13	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T14	DISO 723 728	gripe
+#9	AnnotatorNotes T14	C0021400; Influenza; Disease or Syndrome
+T15	DISO 819 826	alergia
+#10	AnnotatorNotes T15	C1527304; Allergic Reaction; Pathologic Function
+T16	PROC 873 884	tratamiento
+#11	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	DISO 889 902	rechazo agudo
+#12	AnnotatorNotes T17	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T18	DISO 71 91	enfermedad por gripe
+T19	ANAT 114 129	órganos sólidos
+T20	DISO 202 222	enfermedad por gripe
+T21	CHEM 700 706;713 728	vacuna contra la gripe
+#13	AnnotatorNotes T21	C0021403; Influenza virus vaccine; Immunologic Factor · Pharmacologic Substance
+T22	DISO 795 803	reacción
+#14	AnnotatorNotes T22	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T23	CHEM 840 847	vacunas
+#15	AnnotatorNotes T23	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T24	Date 13 17	2019
+T25	LIVB 390 399	pacientes
+#16	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Age 529 538	≥ 18 años
+T27	Duration 541 549	≥3 meses
+T28	Frequency 707 712	anual
+T29	LIVB 475 485	receptores
+#17	AnnotatorNotes T29	C0376387; Transplant Recipients; Patient or Disabled Group
+T30	PROC 574 582	seguidos
+#18	AnnotatorNotes T30	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T31	Neg_cue 771 783	se excluirán
+A1	Assertion T22 Negated
+A2	Assertion T15 Negated
+A3	Assertion T16 Negated
+A4	Status T22 History_of
+A5	Status T15 History_of
+#19	AnnotatorNotes T18	C0021400; Influenza; Disease or Syndrome
+#20	AnnotatorNotes T20	C0021400; Influenza; Disease or Syndrome
+#21	AnnotatorNotes T3	C0730400; Solid organ transplant; Therapeutic or Preventive Procedure
+#22	AnnotatorNotes T1	C0730400; Solid organ transplant; Therapeutic or Preventive Procedure
+#23	AnnotatorNotes T19	 C0440790;  Solid organ; Body Part, Organ, or Organ Component
+#24	AnnotatorNotes T4	 C0440790;  Solid organ; Body Part, Organ, or Organ Component
+#25	AnnotatorNotes T9	 C0440790;  Solid organ; Body Part, Organ, or Organ Component
+#26	AnnotatorNotes T11	 C0440790;  Solid organ; Body Part, Organ, or Organ Component
+A6	Assertion T17 Negated
+R1	Negation Arg1:T31 Arg2:T17	
+R2	Negation Arg1:T31 Arg2:T22	
+R3	Negation Arg1:T31 Arg2:T15	
+R4	Causes Arg1:T23 Arg2:T15	
+R5	Causes Arg1:T23 Arg2:T22	
+R6	Negation Arg1:T31 Arg2:T16	
+T32	Quantifier_or_Qualifier 804 809	grave
+#27	AnnotatorNotes T32	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R7	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T32	
+R8	Location_of Arg1:T19 Arg2:T1	
+R9	Location_of Arg1:T4 Arg2:T3	
+R10	After Arg1:T20 Arg2:T3	
+R11	After Arg1:T18 Arg2:T1	
+R12	Experiences Arg1:T25 Arg2:T7	
+R13	Before Arg1:T8 Arg2:T7	
+R14	Location_of Arg1:T9 Arg2:T8	
+R15	Experiences Arg1:T25 Arg2:T8	
+R16	Location_of Arg1:T11 Arg2:T10	
+R17	Experiences Arg1:T29 Arg2:T10	
+T33	Observation 486 494	estables
+#28	AnnotatorNotes T33	C1282982; Patient's condition stable; Finding
+R18	Experiences Arg1:T29 Arg2:T33	
+R19	Overlap Arg1:T33 Arg2:T10	
+R20	Has_Age Arg1:T29 Arg2:T26	
+R21	Experiences Arg1:T29 Arg2:T12	
+R22	After Arg1:T33 Arg2:T27	
+R23	Before Arg1:T12 Arg2:T30	
+R26	Before Arg1:T13 Arg2:T30	
+R27	Experiences Arg1:T29 Arg2:T13	
+R28	Overlap Arg1:T33 Arg2:T13	
+R24	Experiences Arg1:T29 Arg2:T21	
+R29	Before Arg1:T33 Arg2:T21	
+R30	Before Arg1:T12 Arg2:T21	
+R31	Before Arg1:T13 Arg2:T21	
+R32	Before Arg1:T10 Arg2:T21	
+R33	Has_Frequency Arg1:T21 Arg2:T28	
+R35	Experiences Arg1:T29 Arg2:T14	
+A7	Experiencer T25 Patient
+A8	Experiencer T29 Patient

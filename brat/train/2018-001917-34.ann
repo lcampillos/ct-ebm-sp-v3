@@ -1,0 +1,127 @@
+T1	PROC 46 60	Oxigenoterapia
+#1	AnnotatorNotes T1	C0184633; Oxygen Therapy Care; Therapeutic or Preventive Procedure
+T2	DISO 77 101	complicaciones cardíacas
+T3	ANAT 92 101	cardíacas
+#2	AnnotatorNotes T3	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T4	PROC 105 123	cirugía colorectal
+T5	DISO 146 170	Complicaciones cardíacas
+T6	ANAT 161 170	cardíacas
+#3	AnnotatorNotes T6	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T7	PROC 186 209	aplicación de hiperoxia
+T8	PROC 253 271	cirugía colorectal
+T9	DISO 304 335	Complicaciones cardiovasculares
+#4	AnnotatorNotes T9	C0161816; Cardiac complication; Pathologic Function
+T10	ANAT 319 335	cardiovasculares
+#5	AnnotatorNotes T10	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T11	PROC 355 373	cirugía colorectal
+T12	PROC 411 429	Cirugía colorectal
+T13	DISO 499 503	EPOC
+#6	AnnotatorNotes T13	C0024117; Chronic Obstructive Airway Disease; Disease or Syndrome
+T14	DISO 513 542	Síndrome cardiovascular agudo
+#7	AnnotatorNotes T14	C1290379; Acute disease of cardiovascular system; Disease or Syndrome
+T15	ANAT 522 536	cardiovascular
+#8	AnnotatorNotes T15	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T16	PROC 570 577	cirugía
+#9	AnnotatorNotes T16	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T17	PROC 580 592	Hemodiálisis
+#10	AnnotatorNotes T17	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T18	PROC 595 612	Anestesia general
+#11	AnnotatorNotes T18	C0002915; General Anesthesia; Therapeutic or Preventive Procedure
+T19	PROC 640 647	cirugía
+#12	AnnotatorNotes T19	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T20	DISO 717 748	Complicaciones intraoperatorias
+#13	AnnotatorNotes T20	C0021890; Intraoperative Complications; Pathologic Function
+T21	PROC 763 783	ventilación mecánica
+#14	AnnotatorNotes T21	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T22	CHEM 793 813	fármacos vasoactivas
+T23	PROC 690 714	consentimiento informado
+#15	AnnotatorNotes T23	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T24	ANAT 113 123	colorectal
+#16	AnnotatorNotes T24	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T25	ANAT 261 271	colorectal
+#17	AnnotatorNotes T25	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T26	ANAT 363 373	colorectal
+#18	AnnotatorNotes T26	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T27	ANAT 419 429	colorectal
+#19	AnnotatorNotes T27	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T28	Date 13 17	2018
+T29	Dose 63 74	altas dosis
+#20	AnnotatorNotes T29	C0444956; High dose; Quantitative Concept
+T30	Date 210 224	perioperatoria
+#21	AnnotatorNotes T30	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T31	LIVB 228 237	pacientes
+#22	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Date 336 351	postoperatorias
+#23	AnnotatorNotes T32	C0032790; Postoperative Period; Temporal Concept
+T33	Age 441 459	Mayores de 18 años
+T34	PHYS 488 496	Embarazo
+#24	AnnotatorNotes T34	C0032961; Pregnancy; Organism Function
+T35	Duration 543 556	las 6 semanas
+T36	Duration 622 627	1 mes
+T37	Neg_cue 650 668	Imposibilidad para
+T38	Time 732 748	intraoperatorias
+#25	AnnotatorNotes T38	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T39	Date 820 834	postoperatorio
+#26	AnnotatorNotes T39	C0032790; Postoperative Period; Temporal Concept
+T40	PHYS 669 679	comprender
+#27	AnnotatorNotes T40	C0162340; Comprehension; Mental Process
+A1	Assertion T40 Negated
+A3	Status T14 History_of
+A4	Status T18 History_of
+#28	AnnotatorNotes T2	C0161816; Cardiac complication; Pathologic Function
+#29	AnnotatorNotes T5	C0161816; Cardiac complication; Pathologic Function
+#30	AnnotatorNotes T4	C2608114; Colon and Rectal Surgery (procedure); Therapeutic or Preventive Procedure
+#31	AnnotatorNotes T8	C2608114; Colon and Rectal Surgery (procedure); Therapeutic or Preventive Procedure
+#32	AnnotatorNotes T11	C2608114; Colon and Rectal Surgery (procedure); Therapeutic or Preventive Procedure
+#33	AnnotatorNotes T12	C2608114; Colon and Rectal Surgery (procedure); Therapeutic or Preventive Procedure
+T41	CONC 680 686	firmar
+A2	Assertion T41 Negated
+#34	AnnotatorNotes T41	 C1547188; Language Ability - Sign; Idea or Concept (?)
+R1	Has_Dose_or_Strength Arg1:T1 Arg2:T29	
+R2	Location_of Arg1:T3 Arg2:T2	
+R3	Location_of Arg1:T24 Arg2:T4	
+R5	Before Arg1:T4 Arg2:T1	
+R6	Location_of Arg1:T6 Arg2:T5	
+#35	AnnotatorNotes T7	C0184633; Oxygen Therapy Care; Therapeutic or Preventive Procedure (?)
+R8	Overlap Arg1:T7 Arg2:T30	
+R9	Experiences Arg1:T31 Arg2:T5	
+R10	Experiences Arg1:T31 Arg2:T7	
+R11	Experiences Arg1:T31 Arg2:T8	
+R12	Location_of Arg1:T25 Arg2:T8	
+T42	Quantifier_or_Qualifier 272 280	electiva
+#36	AnnotatorNotes T42	C0439608; elective; Temporal Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T42	
+T43	Quantifier_or_Qualifier 374 382	electiva
+#37	AnnotatorNotes T43	C0439608; elective; Temporal Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T43	
+R15	Location_of Arg1:T26 Arg2:T11	
+R16	Location_of Arg1:T10 Arg2:T9	
+R17	Overlap Arg1:T9 Arg2:T32	
+R18	Overlap Arg1:T5 Arg2:T7	
+R19	Before Arg1:T8 Arg2:T7	
+R20	Before Arg1:T8 Arg2:T5	
+R21	Before Arg1:T11 Arg2:T9	
+T44	Quantifier_or_Qualifier 430 438	electiva
+#38	AnnotatorNotes T44	C0439608; elective; Temporal Concept
+R22	Location_of Arg1:T27 Arg2:T12	
+R23	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T44	
+R24	Location_of Arg1:T15 Arg2:T14	
+R25	Overlap Arg1:T14 Arg2:T35	
+R26	Before Arg1:T14 Arg2:T16	
+R27	Overlap Arg1:T18 Arg2:T36	
+R28	Before Arg1:T18 Arg2:T19	
+T45	Quantifier_or_Qualifier 504 510	severo
+#39	AnnotatorNotes T45	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R29	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T45	
+R30	Negation Arg1:T37 Arg2:T40	
+R31	Negation Arg1:T37 Arg2:T41	
+R32	Overlap Arg1:T40 Arg2:T23	
+R33	Overlap Arg1:T41 Arg2:T23	
+R34	Overlap Arg1:T20 Arg2:T38	
+R37	Overlap Arg1:T22 Arg2:T39	
+R38	Overlap Arg1:T21 Arg2:T39	
+R4	Overlap Arg1:T1 Arg2:T2	
+R7	Before Arg1:T4 Arg2:T2	
+#40	AnnotatorNotes T22	C0597639; vasoactive agent; Pharmacologic Substance
+A5	Experiencer T31 Patient
+A6	Status T8 Future

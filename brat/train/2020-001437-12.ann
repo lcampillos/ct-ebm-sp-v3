@@ -1,0 +1,158 @@
+T1	PROC 112 139	TRATAMIENTO INMUNOMODULADOR
+T2	DISO 212 235	Neumonía grave COVID-19
+T3	DISO 285 308	Neumonía grave COVID-19
+T4	PROC 854 857	AST
+#1	AnnotatorNotes T4	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T5	PROC 546 570	medida con pulsioxímetro
+T6	PROC 687 711	fracción de O2 inspirado
+T7	DISO 381 403	Infiltrados pulmonares
+#2	AnnotatorNotes T7	C0277877; Radiologic infiltrate of lung; Finding
+T8	DISO 451 459	neumonía
+#3	AnnotatorNotes T8	C0032285; Pneumonia; Disease or Syndrome
+T9	PROC 573 580	Pa:FiO2
+#4	AnnotatorNotes T9	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T10	CHEM 613 615	O2
+#5	AnnotatorNotes T10	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T11	PROC 635 637	Sa
+T12	PROC 644 660	saturación de O2
+#6	AnnotatorNotes T12	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T13	CHEM 699 701	O2
+#7	AnnotatorNotes T13	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T14	PROC 814 823	protocolo
+#8	AnnotatorNotes T14	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T15	CHEM 598 600	O2
+#9	AnnotatorNotes T15	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T16	DISO 1050 1058	COVID-19
+#10	AnnotatorNotes T16	C5203670; COVID19 (disease); Disease or Syndrome
+T17	PROC 722 746	Consentimiento informado
+#11	AnnotatorNotes T17	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T18	PROC 925 936	Neutrófilos
+#12	AnnotatorNotes T18	C0200633; Neutrophil count; Laboratory Procedure
+T19	ANAT 943 947	cell
+T20	PROC 956 965	Plaquetas
+#13	AnnotatorNotes T20	C0032181; Platelet Count measurement; Laboratory Procedure
+T21	ANAT 975 979	cell
+T22	DISO 988 994	Sepsis
+#14	AnnotatorNotes T22	C0243026; Sepsis; Disease or Syndrome
+T23	DISO 997 1005	neumonía
+#15	AnnotatorNotes T23	C0032285; Pneumonia; Disease or Syndrome
+T24	PROC 638 642	FiO2
+#16	AnnotatorNotes T24	C1512797; Inspired Oxygen Fraction Test; Diagnostic Procedure
+T25	DISO 1076 1088	comorbilidad
+#17	AnnotatorNotes T25	C1275743; Co-morbid conditions; Finding
+T26	DISO 1147 1161	Diverticulitis
+#18	AnnotatorNotes T26	C0012813; Diverticulitis; Disease or Syndrome | C0349774; Diverticulitis of gastrointestinal tract; Disease or Syndrome
+T27	DISO 1175 1197	perforación intestinal
+#19	AnnotatorNotes T27	C0021845; Intestinal Perforation; Disease or Syndrome
+T28	DISO 1201 1218	Infección cutánea
+T29	DISO 1233 1244	piodermitis
+#20	AnnotatorNotes T29	C0034212; Pyoderma; Disease or Syndrome
+T30	PROC 1291 1318	tratamiento inmunomodulador
+T31	PROC 46 107	ENSAYO CLÍNICO ALEATORIZADO, CONTROLADO, ABIERTO, UNICÉNTRICO
+T32	ANAT 326 345	Frotis nasofaríngeo
+T33	PROC 350 353	PCR
+#21	AnnotatorNotes T33	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T34	PROC 408 417	Rx simple
+#22	AnnotatorNotes T34	C1306645; Plain x-ray; Diagnostic Procedure
+T35	ANAT 393 403	pulmonares
+#23	AnnotatorNotes T35	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T36	DISO 165 188	NEUMONIA GRAVE COVID 19
+T37	CHEM 658 660	O2
+#24	AnnotatorNotes T37	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T38	PROC 582 625	presión parcial O2/fracción de O2 inspirado
+T39	PROC 858 861	ALT
+#25	AnnotatorNotes T39	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T40	ANAT 1187 1197	intestinal
+#26	AnnotatorNotes T40	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T41	ANAT 1211 1218	cutánea
+#27	AnnotatorNotes T41	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T42	CHEM 517 524	oxígeno
+#28	AnnotatorNotes T42	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T43	PROC 503 524	Saturación de oxígeno
+#29	AnnotatorNotes T43	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T44	PROC 661 685	medida con pulsioxímetro
+T45	Date 13 17	2020
+T46	LIVB 143 160	PACIENTES ADULTOS
+#30	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T48	Age 270 280	18-80 años
+T49	LIVB 368 378	SARS-CoV-2
+#31	AnnotatorNotes T49	C5203676; SARS-CoV-2; Virus
+T51	DEVI 557 570	pulsioxímetro
+#32	AnnotatorNotes T51	C0182109; Pulse oximeter; Medical Device
+T54	Neg_cue 1042 1044	no
+T58	LIVB 1028 1037	patógenos
+#33	AnnotatorNotes T58	C0450254; Pathogenic organism; Organism
+T47	Date 1219 1227	en curso
+T50	DEVI 672 685	pulsioxímetro
+#34	AnnotatorNotes T50	C0182109; Pulse oximeter; Medical Device
+A1	Population_data T46 Age
+A2	Assertion T16 Negated
+A3	Assertion T30 Contraindicated
+#35	AnnotatorNotes T1	C1963758; Immunomodulation; Therapeutic or Preventive Procedure
+#36	AnnotatorNotes T36	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome 
+#37	AnnotatorNotes T2	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome 
+#38	AnnotatorNotes T3	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome 
+#39	AnnotatorNotes T32	C0444192; Nasopharyngeal swab (specimen); Body Substance 
+#40	AnnotatorNotes T5	C0034108; Oximetry, Pulse; Diagnostic Procedure
+#41	AnnotatorNotes T19	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+#42	AnnotatorNotes T21	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+#43	AnnotatorNotes T28	C0037278; Skin Diseases, Infectious; Disease or Syndrome 
+#44	AnnotatorNotes T30	C1963758; Immunomodulation; Therapeutic or Preventive Procedure
+R1	Experiences Arg1:T46 Arg2:T36	
+R4	Experiences Arg1:T46 Arg2:T1	
+R6	Location_of Arg1:T32 Arg2:T33	
+T56	Result_or_Value 354 362	positiva
+R7	Has_Result_or_Value Arg1:T33 Arg2:T56	
+R8	Location_of Arg1:T35 Arg2:T7	
+R9	Overlap Arg1:T7 Arg2:T8	
+T57	Quantifier_or_Qualifier 525 538	aire ambiente
+R10	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T57	
+T59	Result_or_Value 539 545	<= 94%
+R11	Used_for Arg1:T51 Arg2:T5	
+R12	Has_Result_or_Value Arg1:T43 Arg2:T59	
+T60	Result_or_Value 627 632	<=300
+R13	Has_Result_or_Value Arg1:T38 Arg2:T60	
+#45	AnnotatorNotes T38	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+R14	Has_Result_or_Value Arg1:T9 Arg2:T60	
+#46	AnnotatorNotes T6	C1512797; Inspired Oxygen Fraction Test; Diagnostic Procedure
+T61	Result_or_Value 713 718	<=350
+R15	Has_Result_or_Value Arg1:T6 Arg2:T61	
+R16	Has_Result_or_Value Arg1:T12 Arg2:T61	
+R17	Has_Result_or_Value Arg1:T24 Arg2:T61	
+R18	Has_Result_or_Value Arg1:T11 Arg2:T61	
+#47	AnnotatorNotes T11	C0523807; Oxygen saturation measurement; Laboratory Procedure
+R19	Used_for Arg1:T50 Arg2:T44	
+T62	Result_or_Value 866 920	valores superiores a 5 veces los niveles de normalidad
+R20	Has_Result_or_Value Arg1:T39 Arg2:T62	
+R21	Has_Result_or_Value Arg1:T4 Arg2:T62	
+T63	Result_or_Value 937 951	< 500 cell/mmc
+R22	Has_Result_or_Value Arg1:T18 Arg2:T63	
+T64	Result_or_Value 966 983	< 50.000 cell/mmc
+R23	Has_Result_or_Value Arg1:T20 Arg2:T64	
+R24	Causes Arg1:T58 Arg2:T23	
+R25	Causes Arg1:T58 Arg2:T22	
+R26	Negation Arg1:T54 Arg2:T16	
+T65	Observation 1129 1143	mal pronostico
+#48	AnnotatorNotes T65	C0278252; Prognosis bad; Finding
+R27	Before Arg1:T25 Arg2:T65	
+T66	Spec_cue 1093 1098	puede
+A4	Assertion T65 Speculated
+R28	Speculation Arg1:T66 Arg2:T65	
+T67	Quantifier_or_Qualifier 1162 1172	complicada
+R29	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T67	
+R30	Location_of Arg1:T40 Arg2:T27	
+R31	Overlap Arg1:T28 Arg2:T47	
+R32	Location_of Arg1:T41 Arg2:T28	
+R33	Overlap Arg1:T29 Arg2:T47	
+#49	AnnotatorNotes T56	C1446409; Positive; Finding
+R5	Overlap Arg1:T43 Arg2:T5	
+R34	Overlap Arg1:T11 Arg2:T24	
+R35	Overlap Arg1:T11 Arg2:T44	
+R36	Overlap Arg1:T12 Arg2:T44	
+R37	Overlap Arg1:T12 Arg2:T6	
+R38	Location_of Arg1:T41 Arg2:T29	
+R2	Causes Arg1:T49 Arg2:T56	
+#50	AnnotatorNotes T67	C0231242; Complicated; Functional Concept
+#51	AnnotatorNotes T47	C0521116; Current (present time); Temporal Concept
+#52	AnnotatorNotes T44	C0034108; Oximetry, Pulse; Diagnostic Procedure
+A5	Experiencer T46 Patient

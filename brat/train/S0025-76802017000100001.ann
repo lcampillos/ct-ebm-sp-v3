@@ -1,0 +1,186 @@
+T1	PROC 1 28	Revascularización coronaria
+#1	AnnotatorNotes T1	C0877341; Coronary revascularisation; Therapeutic or Preventive Procedure
+T2	PROC 33 58	circulación extracorpórea
+#2	AnnotatorNotes T2	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T3	PROC 160 198	cirugía de revascularización coronaria
+#3	AnnotatorNotes T3	C0877341; Coronary revascularisation; Therapeutic or Preventive Procedure
+T4	PROC 200 203	CRM
+#4	AnnotatorNotes T4	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T5	PROC 215 240	circulación extracorpórea
+#5	AnnotatorNotes T5	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T6	PROC 768 797	analizándose la supervivencia
+#6	AnnotatorNotes T6	C0038953; Survival Analysis; Research Activity
+T7	PROC 359 383	evaluar la supervivencia
+#7	AnnotatorNotes T7	C0038953; Survival Analysis; Research Activity
+T8	PROC 414 417	CRM
+#8	AnnotatorNotes T8	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T9	DISO 576 593	eventos cardíacos
+#9	AnnotatorNotes T9	C0741923; cardiac event; Disease or Syndrome
+T10	PROC 480 483	CRM
+#10	AnnotatorNotes T10	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T11	ANAT 584 593	cardíacos
+#11	AnnotatorNotes T11	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T12	PROC 633 636	CRM
+#12	AnnotatorNotes T12	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T13	PROC 683 686	CEC
+#13	AnnotatorNotes T13	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T14	PROC 1017 1024	cirugía
+#14	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T15	PROC 1038 1063	análisis de la mortalidad
+#15	AnnotatorNotes T15	C0038953; Survival Analysis; Research Activity
+T16	PROC 1387 1390	CRM
+#16	AnnotatorNotes T16	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T17	PROC 1525 1528	CRM
+#17	AnnotatorNotes T17	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure
+T18	PROC 1533 1536	CEC
+#18	AnnotatorNotes T18	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T19	ANAT 19 28	coronaria
+#19	AnnotatorNotes T19	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T20	PROC 94 124	ensayos clínicos aleatorizados
+#20	AnnotatorNotes T20	C0206034; Clinical Trials, Randomized; Research Activity
+T21	ANAT 189 198	coronaria
+#21	AnnotatorNotes T21	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
+T22	PROC 242 245	CEC
+#22	AnnotatorNotes T22	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T23	PROC 428 431	CEC
+#23	AnnotatorNotes T23	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T24	PROC 641 644	CEC
+#24	AnnotatorNotes T24	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T25	DISO 740 746	muerte
+#25	AnnotatorNotes T25	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T26	PROC 1029 1032	CEC
+#26	AnnotatorNotes T26	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T27	PROC 1144 1147	CEC
+#27	AnnotatorNotes T27	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T28	PROC 1156 1159	CEC
+#28	AnnotatorNotes T28	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T29	PROC 1395 1398	CEC
+#29	AnnotatorNotes T29	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T30	Neg_cue 29 32	sin
+T31	Neg_cue 211 214	sin
+T32	Date 258 271	a largo plazo
+T34	Neg_cue 424 427	sin
+T35	LIVB 458 467	pacientes
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Date 503 507	1996
+T37	Date 508 512	2015
+T38	Date 543 556	a largo plazo
+T39	LIVB 669 678	pacientes
+#31	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 800 807	10 años
+T43	Date 1076 1089	a largo plazo
+T45	Duration 1131 1138	10 años
+T47	Duration 1316 1323	10 años
+T49	Date 1492 1505	a largo plazo
+T33	Neg_cue 637 640	sin
+T41	Neg_cue 1025 1028	sin
+T42	Neg_cue 1140 1143	sin
+T44	Neg_cue 1391 1394	sin
+A1	Assertion T2 Negated
+A2	Assertion T5 Negated
+A3	Assertion T23 Negated
+A4	Assertion T24 Negated
+A5	Assertion T26 Negated
+A6	Assertion T27 Negated
+A7	Assertion T29 Negated
+A8	Assertion T22 Negated
+R1	Negation Arg1:T30 Arg2:T2	
+R2	Location_of Arg1:T19 Arg2:T1	
+T46	CONC 60 73	Supervivencia
+#32	AnnotatorNotes T46	C0038955; survivorship; Temporal Concept
+R3	Location_of Arg1:T21 Arg2:T3	
+R4	Location_of Arg1:T21 Arg2:T4	
+R5	Negation Arg1:T31 Arg2:T5	
+R6	Combined_with Arg1:T3 Arg2:T5	
+R7	Combined_with Arg1:T3 Arg2:T22	
+R8	Negation Arg1:T31 Arg2:T22	
+T48	Neg_cue 309 311	no
+T50	PROC 320 328	evaluado
+A9	Assertion T50 Negated
+#33	AnnotatorNotes T50	C0220825; Evaluation; Health Care Activity | C1261322; Evaluation procedure; Health Care Activity
+R9	Negation Arg1:T48 Arg2:T50	
+R10	Combined_with Arg1:T8 Arg2:T23	
+R11	Negation Arg1:T34 Arg2:T23	
+R12	Experiences Arg1:T35 Arg2:T10	
+R13	After Arg1:T10 Arg2:T36	
+R14	Before Arg1:T10 Arg2:T37	
+T51	CONC 529 542	supervivencia
+#34	AnnotatorNotes T51	C0038955; survivorship; Temporal Concept
+R15	Overlap Arg1:T51 Arg2:T38	
+R16	Location_of Arg1:T11 Arg2:T9	
+R18	Negation Arg1:T33 Arg2:T24	
+R20	Experiences Arg1:T39 Arg2:T13	
+R21	Experiences Arg1:T39 Arg2:T9	
+R22	Experiences Arg1:T39 Arg2:T12	
+R23	Has_Duration_or_Interval Arg1:T6 Arg2:T40	
+T52	CONC 853 881	análisis ajustado por riesgo
+R25	Negation Arg1:T41 Arg2:T26	
+T53	CONC 887 910	mortalidad hospitalaria
+#35	AnnotatorNotes T53	C0085556; Hospital Mortality; Qualitative Concept
+T54	Quantifier_or_Qualifier 911 917	global
+#36	AnnotatorNotes T54	C2348867; Global; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T54	
+R27	Overlap Arg1:T15 Arg2:T43	
+T55	Quantifier_or_Qualifier 1067 1075	ajustada
+A10	Assertion T55 Negated
+T56	Neg_cue 1064 1066	no
+R28	Negation Arg1:T56 Arg2:T55	
+R29	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T55	
+T57	Neg_cue 1090 1092	no
+T58	CONC 1104 1114	diferencia
+A11	Assertion T58 Negated
+#37	AnnotatorNotes T58	C1705241; Delta (difference); Quantitative Concept
+R30	Negation Arg1:T57 Arg2:T58	
+R31	Overlap Arg1:T58 Arg2:T45	
+R32	Negation Arg1:T42 Arg2:T27	
+T59	CONC 1220 1248	análisis ajustado por riesgo
+T60	Neg_cue 1249 1256	tampoco
+T61	CONC 1272 1282	diferencia
+A12	Assertion T61 Negated
+#38	AnnotatorNotes T61	C1705241; Delta (difference); Quantitative Concept
+R33	Negation Arg1:T60 Arg2:T61	
+T62	CONC 1300 1313	supervivencia
+#39	AnnotatorNotes T62	C0038955; survivorship; Temporal Concept
+R34	Overlap Arg1:T62 Arg2:T47	
+R36	Negation Arg1:T44 Arg2:T29	
+T63	CONC 1418 1441	mortalidad hospitalaria
+#40	AnnotatorNotes T63	C0085556; Hospital Mortality; Qualitative Concept
+T64	Neg_cue 1445 1447	no
+T65	CONC 1464 1474	diferencia
+#41	AnnotatorNotes T65	C1705241; Delta (difference); Quantitative Concept
+A13	Assertion T65 Negated
+R37	Negation Arg1:T64 Arg2:T65	
+T66	CONC 1481 1491	mortalidad
+#42	AnnotatorNotes T66	C0085556; Hospital Mortality; Qualitative Concept
+R38	Overlap Arg1:T66 Arg2:T49	
+R39	Combined_with Arg1:T17 Arg2:T18	
+T67	Spec_cue 823 831	posibles
+T68	CONC 832 838	sesgos
+A14	Assertion T68 Speculated
+#43	AnnotatorNotes T68	C0242568; Biases; Idea or Concept
+R40	Speculation Arg1:T67 Arg2:T68	
+T69	Quantifier_or_Qualifier 1283 1296	significativa
+A15	Assertion T69 Negated
+#44	AnnotatorNotes T69	C0750502; Significant; Idea or Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T69	
+T70	Quantifier_or_Qualifier 1115 1128	significativa
+A16	Assertion T70 Negated
+#45	AnnotatorNotes T70	C0750502; Significant; Idea or Concept
+R42	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T70	
+R43	Negation Arg1:T57 Arg2:T70	
+T71	Observation 251 257	efecto
+#46	AnnotatorNotes T71	C1518681; Outcome of Therapy; Finding (?)
+R44	Overlap Arg1:T71 Arg2:T32	
+R45	Causes Arg1:T3 Arg2:T71	
+R17	Combined_with Arg1:T1 Arg2:T2	
+R46	Combined_with Arg1:T12 Arg2:T24	
+#47	AnnotatorNotes T52	C2718044; Propensity Score; Quantitative Concept (?)
+R47	Combined_with Arg1:T14 Arg2:T26	
+#48	AnnotatorNotes T59	C2718044; Propensity Score; Quantitative Concept (?)
+R24	Combined_with Arg1:T16 Arg2:T29	
+#49	AnnotatorNotes T32	C0443252; Long-term; Temporal Concept
+#50	AnnotatorNotes T38	C0443252; Long-term; Temporal Concept
+#51	AnnotatorNotes T49	C0443252; Long-term; Temporal Concept
+#52	AnnotatorNotes T43	C0443252; Long-term; Temporal Concept
+A17	Experiencer T35 Patient
+A18	Experiencer T39 Patient

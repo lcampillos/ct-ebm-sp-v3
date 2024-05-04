@@ -1,0 +1,171 @@
+T1	PROC 44 66	Estudio de Seguimiento
+T2	CHEM 703 710	ABT-450
+#1	AnnotatorNotes T2	C3712108; ABT-450; Organic Chemical · Pharmacologic Substance
+T3	CHEM 431 434	AAD
+#2	AnnotatorNotes T3	C3653501; DIRECT ACTING ANTIVIRALS; Pharmacologic Substance
+T4	DISO 240 251	hepatitis C
+#3	AnnotatorNotes T4	C0019196; Hepatitis C; Disease or Syndrome
+T5	PROC 1035 1059	consentimiento informado
+#4	AnnotatorNotes T5	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T6	PROC 300 322	Estudio de seguimiento
+T7	PROC 1157 1171	procedimientos
+#5	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T8	PROC 384 395	tratamiento
+#6	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	PROC 477 513	estudios clínicos de fase 2 o fase 3
+T10	PROC 522 533	tratamiento
+#7	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	DISO 540 588	infección crónica por el virus de la hepatitis C
+#8	AnnotatorNotes T11	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome | C4736234; chronic hepatitis C due to hepatitis C virus genotype 4; Disease or Syndrome
+T12	DISO 618 629	Hepatitis C
+#9	AnnotatorNotes T12	C0019196; Hepatitis C; Disease or Syndrome
+T13	PROC 1452 1466	procedimientos
+#10	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T14	PROC 843 854	tratamiento
+#11	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 873 888	estudio clínico
+#12	AnnotatorNotes T15	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T16	PROC 1243 1254	tratamiento
+#13	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 1471 1486	estudio clínico
+#14	AnnotatorNotes T17	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T18	CHEM 855 858	AAD
+#15	AnnotatorNotes T18	C3653501; DIRECT ACTING ANTIVIRALS; Pharmacologic Substance
+T19	CHEM 712 719	ABT-333
+#16	AnnotatorNotes T19	C3850285; ABT-333; Organic Chemical · Pharmacologic Substance
+T20	DISO 590 593	VHC
+#17	AnnotatorNotes T20	C0019196; Hepatitis C; Disease or Syndrome
+T21	Observation 336 347	resistencia
+#18	AnnotatorNotes T21	C3542449; Drug Resistance Status; Finding
+T22	CHEM 722 729	ABT-267
+#19	AnnotatorNotes T22	C3713322; ABT-267; Organic Chemical · Pharmacologic Substance
+T23	CHEM 400 429	antivirales de acción directa
+#20	AnnotatorNotes T23	C3653501; DIRECT ACTING ANTIVIRALS; Pharmacologic Substance
+T24	DISO 786 789	VHC
+#21	AnnotatorNotes T24	C0019196; Hepatitis C; Disease or Syndrome
+T25	Date 12 16	2012
+T26	Date 86 99	a largo plazo
+T27	LIVB 103 112	pacientes
+#22	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 449 456	sujetos
+#23	AnnotatorNotes T30	C0681850; Study Subject; Group
+T31	Duration 550 557	crónica
+#24	AnnotatorNotes T31	C0205191; chronic; Temporal Concept
+T32	LIVB 565 588	virus de la hepatitis C
+#25	AnnotatorNotes T32	C0220847; hepatitis C virus; Virus
+T34	LIVB 662 668	sujeto
+#26	AnnotatorNotes T34	C0681850; Study Subject; Group
+T35	Dose 681 699	al menos una dosis
+T37	CONC 827 839	última dosis
+T38	Neg_cue 935 937	no
+T39	Duration 947 964	superior a 2 años
+T40	LIVB 973 979	sujeto
+#27	AnnotatorNotes T40	C0681850; Study Subject; Group
+T41	LIVB 1203 1209	sujeto
+#28	AnnotatorNotes T41	C0681850; Study Subject; Group
+T42	Date 1238 1254	Post-tratamiento
+T43	LIVB 1329 1341	investigador
+#29	AnnotatorNotes T43	C0035173; Research Personnel; Professional or Occupational Group
+T44	LIVB 1359 1365	sujeto
+#30	AnnotatorNotes T44	C0681850; Study Subject; Group
+T46	Date 1609 1614	día 1
+T28	CHEM 1528 1553	producto en investigación
+#31	AnnotatorNotes T28	C0013230; Investigational New Drugs; Pharmacologic Substance
+A1	Assertion T39 Negated
+A2	Status T9 History_of
+A3	Status T2 History_of
+A4	Status T19 History_of
+A5	Status T22 History_of
+A6	Status T14 History_of
+A7	Status T18 History_of
+A8	Status T17 History_of
+A9	Status T15 History_of
+#32	AnnotatorNotes T26	C0443252; Long-term; Temporal Concept
+#33	AnnotatorNotes T9	C0282460; Phase 2 Clinical Trials; Research Activity | C0282461; Phase 3 Clinical Trials; Research Activity
+#34	AnnotatorNotes T1	C3274571; Clinical Study Follow-up; Health Care Activity
+#35	AnnotatorNotes T6	C3274571; Clinical Study Follow-up; Health Care Activity
+T29	Observation 192 222	respuesta virológica mantenida
+A10	Assertion T29 Negated
+#36	AnnotatorNotes T29	C3888663; Sustained viral response; Finding
+T33	Neg_cue 174 176	no
+T36	Neg_cue 1366 1368	no
+T45	Observation 1372 1394	idóneo para el estudio
+A11	Assertion T45 Negated
+#37	AnnotatorNotes T45	C1302261; Patient eligible for clinical trial; Finding (?)
+R1	Negation Arg1:T38 Arg2:T39	
+R2	Negation Arg1:T36 Arg2:T45	
+R3	Negation Arg1:T33 Arg2:T29	
+R4	Overlap Arg1:T1 Arg2:T26	
+T47	Observation 137 167	respuesta virológica mantenida
+#38	AnnotatorNotes T47	C3888663; Sustained viral response; Finding
+R5	Experiences Arg1:T27 Arg2:T47	
+R6	Experiences Arg1:T27 Arg2:T29	
+R7	Experiences Arg1:T27 Arg2:T4	
+R8	Overlap Arg1:T47 Arg2:T29	
+R9	Overlap Arg1:T29 Arg2:T4	
+T48	PROC 229 236	estudio
+#39	AnnotatorNotes T48	C0008976; Clinical Trials; Research Activity
+T49	Observation 371 395	respuesta al tratamiento
+#40	AnnotatorNotes T49	C1319171; Medication response; Finding
+R12	Used_for Arg1:T23 Arg2:T8	
+R13	Used_for Arg1:T3 Arg2:T8	
+R14	Overlap Arg1:T49 Arg2:T23	
+R15	Overlap Arg1:T49 Arg2:T3	
+R16	Experiences Arg1:T30 Arg2:T49	
+R17	Experiences Arg1:T30 Arg2:T8	
+R18	Experiences Arg1:T30 Arg2:T10	
+R20	Overlap Arg1:T49 Arg2:T10	
+R21	Causes Arg1:T32 Arg2:T20	
+R22	Causes Arg1:T32 Arg2:T11	
+R23	Has_Duration_or_Interval Arg1:T11 Arg2:T31	
+R24	Experiences Arg1:T30 Arg2:T11	
+R25	Experiences Arg1:T30 Arg2:T20	
+R26	Experiences Arg1:T34 Arg2:T2	
+R27	Experiences Arg1:T34 Arg2:T19	
+R28	Experiences Arg1:T34 Arg2:T22	
+R29	Has_Dose_or_Strength Arg1:T2 Arg2:T35	
+R30	Has_Dose_or_Strength Arg1:T19 Arg2:T35	
+R31	Has_Dose_or_Strength Arg1:T22 Arg2:T35	
+T50	PROC 736 743;763 776	estudio de fase 2 o 3
+#41	AnnotatorNotes T50	C0282460; Phase 2 Clinical Trials; Research Activity | C0282461; Phase 3 Clinical Trials; Research Activity
+R32	Experiences Arg1:T34 Arg2:T24	
+R33	Has_Dose_or_Strength Arg1:T18 Arg2:T37	
+R34	Used_for Arg1:T18 Arg2:T14	
+T51	CONC 903 912	inclusión
+#42	AnnotatorNotes T51	C1512693; Inclusion; Qualitative Concept
+R35	Before Arg1:T51 Arg2:T39	
+R36	Before Arg1:T37 Arg2:T51	
+R37	Before Arg1:T5 Arg2:T7	
+T52	PROC 919 926	estudio
+#43	AnnotatorNotes T52	C0008976; Clinical Trials; Research Activity
+T53	Observation 1213 1254	completado el periodo de Post-tratamiento
+R38	Experiences Arg1:T41 Arg2:T16	
+R39	Before Arg1:T16 Arg2:T42	
+A12	Status T52 History_of
+T54	PROC 1269 1277	estudios
+A13	Status T54 History_of
+#44	AnnotatorNotes T54	C0008976; Clinical Trials; Research Activity
+A14	Status T16 History_of
+R42	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T45	
+T55	Observation 1430 1466	incumplimiento de los procedimientos
+#45	AnnotatorNotes T55	C0184543; Noncompliance with therapeutic regimen; Finding (?)
+R44	Before Arg1:T55 Arg2:T45	
+A15	Status T13 History_of
+T56	PROC 1587 1594	estudio
+#46	AnnotatorNotes T56	C0008976; Clinical Trials; Research Activity
+T57	Observation 1565 1594	participación en este estudio
+#47	AnnotatorNotes T57	C1278516; Patient participation status; Finding (?)
+R45	After Arg1:T57 Arg2:T46	
+R46	After Arg1:T28 Arg2:T46	
+R47	Overlap Arg1:T21 Arg2:T23	
+R48	Overlap Arg1:T21 Arg2:T3	
+R10	Experiences Arg1:T30 Arg2:T21	
+#48	AnnotatorNotes R33	(?)
+#49	AnnotatorNotes T37	C1762893; Date last dose; Temporal Concept
+A16	Experiencer T27 Patient
+A17	Experiencer T30 Patient
+A18	Experiencer T34 Patient
+A19	Experiencer T40 Patient
+A20	Experiencer T41 Patient
+A21	Experiencer T43 Other
+A22	Experiencer T44 Patient

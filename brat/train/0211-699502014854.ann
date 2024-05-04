@@ -1,0 +1,216 @@
+T1	PROC 81 97	trasplante renal
+#1	AnnotatorNotes T1	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T2	PROC 205 221	trasplante renal
+#2	AnnotatorNotes T2	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T3	PROC 223 225	TR
+#3	AnnotatorNotes T3	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T4	CHEM 239 250	azatioprina
+#4	AnnotatorNotes T4	C0004482; azathioprine; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T5	CHEM 254 274	Mofetil micofenolato
+#5	AnnotatorNotes T5	C0209368; mycophenolate mofetil; Organic Chemical · Pharmacologic Substance
+T6	PROC 14 54	calidad de vida relacionada con la salud
+T7	PROC 285 308	terapia inmunosupresora
+#6	AnnotatorNotes T7	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T8	PROC 341 384	Estudio prospectivo, abierto y aleatorizado
+#7	AnnotatorNotes T8	C0033522; Prospective Studies; Research Activity + C1709323; Open Label Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T9	PROC 444 460	trasplante renal
+#8	AnnotatorNotes T9	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T10	PROC 473 503	Análisis de variables clínicas
+T11	DISO 505 535	disfunción inicial del injerto
+#9	AnnotatorNotes T11	C1566590; Delayed Graft Function; Pathologic Function
+T12	DISO 537 550	rechazo agudo
+#10	AnnotatorNotes T12	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T13	PROC 639 655	función hepática
+T14	DISO 557 568	infecciones
+#11	AnnotatorNotes T14	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T15	PROC 657 671	niveles de CsA
+#12	AnnotatorNotes T15	C0337448; Cyclosporine measurement; Laboratory Procedure
+T16	PROC 585 595	analíticas
+#13	AnnotatorNotes T16	C0002778; Analysis of substances; Laboratory Procedure | C0814047; biological analysis and measurement; Laboratory Procedure
+T17	PROC 597 606	hemograma
+#14	AnnotatorNotes T17	C0009555; Complete Blood Count; Laboratory Procedure
+T18	DISO 1115 1117	RA
+#15	AnnotatorNotes T18	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T19	CHEM 619 629	creatinina
+#16	AnnotatorNotes T19	C0010294; creatinine; Organic Chemical · Biologically Active Substance
+T20	ANAT 630 637	séricas
+#17	AnnotatorNotes T20	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T21	ANAT 647 655	hepática
+#18	AnnotatorNotes T21	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T22	CHEM 668 671	CsA
+#19	AnnotatorNotes T22	C0010592; cyclosporine; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T23	PROC 689 710	evaluación de la CVRS
+T24	DISO 571 583	comorbilidad
+#20	AnnotatorNotes T24	C1275743; Co-morbid conditions; Finding
+T25	PROC 136 176	calidad de vida relacionada con la salud
+T26	PROC 858 861	EVA
+#21	AnnotatorNotes T26	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T27	PROC 178 182	CVRS
+T28	PROC 905 921	trasplante renal
+#22	AnnotatorNotes T28	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T29	CHEM 1028 1039	azatioprina
+#23	AnnotatorNotes T29	C0004482; azathioprine; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T30	CHEM 1042 1045	MMF
+#24	AnnotatorNotes T30	C0209368; mycophenolate mofetil; Organic Chemical · Pharmacologic Substance
+T31	PROC 957 969	cuestionario
+#25	AnnotatorNotes T31	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T32	CHEM 1087 1090	MMF
+#26	AnnotatorNotes T32	C0209368; mycophenolate mofetil; Organic Chemical · Pharmacologic Substance
+T33	PROC 752 764	Cuestionario
+#27	AnnotatorNotes T33	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T34	PROC 1532 1536	CVRS
+T35	PROC 1229 1232	EVA
+#28	AnnotatorNotes T35	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T36	PROC 1261 1263	TR
+#29	AnnotatorNotes T36	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T37	PROC 1154 1158	CVRS
+T38	CHEM 1490 1493	MMF
+#30	AnnotatorNotes T38	C0209368; mycophenolate mofetil; Organic Chemical · Pharmacologic Substance
+T39	DISO 1525 1527	RA
+#31	AnnotatorNotes T39	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T40	CHEM 1618 1621	MMF
+#32	AnnotatorNotes T40	C0209368; mycophenolate mofetil; Organic Chemical · Pharmacologic Substance
+T41	PROC 1396 1400	CVRS
+T42	CHEM 326 329	CsA
+#33	AnnotatorNotes T42	C0010592; cyclosporine; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T43	ANAT 92 97	renal
+#34	AnnotatorNotes T43	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T44	ANAT 216 221	renal
+#35	AnnotatorNotes T44	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T45	CHEM 313 323	prednisona
+#36	AnnotatorNotes T45	C0032952; prednisone; Organic Chemical · Hormone · Pharmacologic Substance
+T46	ANAT 455 460	renal
+#37	AnnotatorNotes T46	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T47	ANAT 528 535	injerto
+#38	AnnotatorNotes T47	C0332835; Transplanted tissue; Tissue
+T48	DISO 552 554	RA
+#39	AnnotatorNotes T48	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T49	PROC 608 616	albúmina
+#40	AnnotatorNotes T49	C0201838; Albumin measurement; Laboratory Procedure
+T50	PROC 619 637	creatinina séricas
+#41	AnnotatorNotes T50	C0201976; Creatinine measurement, serum (procedure); Laboratory Procedure
+T51	ANAT 916 921	renal
+#42	AnnotatorNotes T51	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T52	DISO 1060 1062	RA
+#43	AnnotatorNotes T52	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T53	DISO 1665 1667	RA
+#44	AnnotatorNotes T53	C0548926; Acute rejection of transplanted organ; Pathologic Function | C3273245; Acute Rejection; Finding
+T54	Duration 63 76	el primer año
+T55	Duration 187 200	el primer año
+T56	LIVB 392 401	pacientes
+#45	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T59	CONC 808 856	termómetro de autovaloración del estado de salud
+#46	AnnotatorNotes T59	C3829732; Health State Thermometer Scale; Intellectual Product
+T60	Duration 927 945	1, 3, 6 y 12 meses
+T62	LIVB 1014 1023	pacientes
+#47	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T64	Duration 1236 1256	los 3 primeros meses
+T65	Duration 1268 1277	sexto mes
+T67	LIVB 1476 1485	pacientes
+#48	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	Duration 1547 1574	entre el tercer y sexto mes
+T69	LIVB 1604 1613	pacientes
+#49	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T57	Duration 1341 1351	el tercero
+T58	PROC 896 900	alta
+#50	AnnotatorNotes T58	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+R1	Overlap Arg1:T6 Arg2:T54	
+R2	Location_of Arg1:T43 Arg2:T1	
+R3	Has_Duration_or_Interval Arg1:T1 Arg2:T54	
+R4	Overlap Arg1:T27 Arg2:T55	
+R5	Overlap Arg1:T25 Arg2:T55	
+R6	Location_of Arg1:T44 Arg2:T2	
+R7	Location_of Arg1:T44 Arg2:T3	
+R8	Has_Duration_or_Interval Arg1:T2 Arg2:T55	
+R9	Has_Duration_or_Interval Arg1:T3 Arg2:T55	
+R10	Combined_with Arg1:T2 Arg2:T7	
+R11	Used_for Arg1:T4 Arg2:T7	
+T61	Quantifier_or_Qualifier 278 284	triple
+R12	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T61	
+R13	Used_for Arg1:T5 Arg2:T7	
+R14	Used_for Arg1:T45 Arg2:T7	
+R15	Used_for Arg1:T42 Arg2:T7	
+T63	Neg_cue 984 986	No
+T66	CONC 992 1003	diferencias
+A1	Assertion T66 Negated
+#51	AnnotatorNotes T66	C1705241; Delta (difference); Quantitative Concept
+R20	Negation Arg1:T63 Arg2:T66	
+R21	Experiences Arg1:T56 Arg2:T9	
+T70	ANAT 464 471	cadáver
+#52	AnnotatorNotes T70	C0006629; Cadaver; Anatomical Structure
+R22	Location_of Arg1:T46 Arg2:T9	
+R23	Location_of Arg1:T47 Arg2:T11	
+R24	Location_of Arg1:T20 Arg2:T50	
+R25	Location_of Arg1:T21 Arg2:T13	
+#53	AnnotatorNotes T13	C0023901; Liver Function Tests; Laboratory Procedure
+T71	CONC 712 743	Índice de bienestar psicológico
+T72	CONC 745 748	IBP
+R26	Used_for Arg1:T71 Arg2:T23	
+R27	Used_for Arg1:T72 Arg2:T23	
+T73	CONC 752 784	Cuestionario de salud Euroqol-5D
+#54	AnnotatorNotes T73	C2733251; EuroQoL five dimension questionnaire; Intellectual Product | C4701030; EQ-5D (EuroQol-5D) questionnaire; Intellectual Product
+T74	CONC 786 791	EQ-5d
+#55	AnnotatorNotes T74	C2733251; EuroQoL five dimension questionnaire; Intellectual Product | C4701030; EQ-5D (EuroQol-5D) questionnaire; Intellectual Product
+R28	Used_for Arg1:T74 Arg2:T23	
+R29	Used_for Arg1:T73 Arg2:T23	
+R30	Used_for Arg1:T59 Arg2:T23	
+R31	Used_for Arg1:T59 Arg2:T26	
+T75	PROC 864 892	Recogida controlada de datos
+#56	AnnotatorNotes T75	C0010995; Data Collection; Research Activity | C0262727; Research data collection; Research Activity
+R32	Overlap Arg1:T75 Arg2:T58	
+R33	Overlap Arg1:T75 Arg2:T60	
+T76	Quantifier_or_Qualifier 950 956	primer
+R34	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T76	
+R35	Before Arg1:T28 Arg2:T58	
+R36	Before Arg1:T31 Arg2:T75	
+R37	Experiences Arg1:T62 Arg2:T29	
+R38	Experiences Arg1:T62 Arg2:T30	
+R39	Experiences Arg1:T62 Arg2:T52	
+R40	Experiences Arg1:T62 Arg2:T32	
+T77	Quantifier_or_Qualifier 1118 1124	global
+#57	AnnotatorNotes T77	C2348867; Global; Qualitative Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T77	
+T78	Observation 1140 1147	mejoría
+#58	AnnotatorNotes T78	C0184511; Improved; Finding
+T79	CONC 1221 1226	EQ-5d
+#59	AnnotatorNotes T79	C2733251; EuroQoL five dimension questionnaire; Intellectual Product | C4701030; EQ-5D (EuroQol-5D) questionnaire; Intellectual Product
+T80	CONC 1216 1219	IBP
+R42	Overlap Arg1:T35 Arg2:T64	
+R43	Overlap Arg1:T79 Arg2:T64	
+R44	Overlap Arg1:T80 Arg2:T64	
+R45	Has_Duration_or_Interval Arg1:T36 Arg2:T64	
+R49	Before Arg1:T36 Arg2:T78	
+R50	Overlap Arg1:T37 Arg2:T64	
+R51	Used_for Arg1:T80 Arg2:T37	
+R52	Used_for Arg1:T79 Arg2:T37	
+T81	CONC 1353 1356	IBP
+T83	Neg_cue 1406 1409	sin
+T84	CONC 1431 1443	puntuaciones
+A2	Assertion T84 Negated
+R55	Negation Arg1:T83 Arg2:T84	
+T85	Quantifier_or_Qualifier 1423 1430	máximas
+A3	Assertion T85 Negated
+R56	Has_Quantifier_or_Qualifier Arg1:T84 Arg2:T85	
+R57	Negation Arg1:T83 Arg2:T85	
+R58	Used_for Arg1:T81 Arg2:T41	
+R59	Experiences Arg1:T67 Arg2:T38	
+R60	Experiences Arg1:T67 Arg2:T39	
+R61	Overlap Arg1:T34 Arg2:T68	
+R62	Experiences Arg1:T69 Arg2:T34	
+R63	Experiences Arg1:T69 Arg2:T40	
+R64	Experiences Arg1:T69 Arg2:T53	
+R65	Location_of Arg1:T51 Arg2:T28	
+T86	Spec_cue 1626 1634	probable
+T87	CONC 1635 1643	relación
+A4	Assertion T87 Negated
+R66	Speculation Arg1:T86 Arg2:T87	
+#60	AnnotatorNotes T61	C0205174; Triplicate; Quantitative Concept
+#61	AnnotatorNotes T76	C0205435; First (number); Quantitative Concept
+#62	AnnotatorNotes T85	C0806909; Maximum; Quantitative Concept
+#63	AnnotatorNotes T87	C0332281; Associated with; Qualitative Concept
+R16	Overlap Arg1:T41 Arg2:T57	
+R17	Overlap Arg1:T41 Arg2:T65	
+A5	Experiencer T56 Patient
+A6	Experiencer T62 Patient
+A7	Experiencer T67 Patient
+A8	Experiencer T69 Patient

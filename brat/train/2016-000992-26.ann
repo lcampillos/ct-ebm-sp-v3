@@ -1,0 +1,62 @@
+T1	PROC 91 107	TRASPLANTE RENAL
+#1	AnnotatorNotes T1	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T2	PROC 359 383	consentimiento informado
+#2	AnnotatorNotes T2	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T3	PROC 175 191	TRASPLANTE RENAL
+#3	AnnotatorNotes T3	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T4	PROC 217 236	trasplante de riñón
+#4	AnnotatorNotes T4	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T5	PROC 296 312	trasplante renal
+#5	AnnotatorNotes T5	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
+T6	PROC 505 521	práctica clínica
+T7	PROC 588 598	trasplante
+#6	AnnotatorNotes T7	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T8	CHEM 46 67	ANESTÉSICOS VOLÁTILES
+#7	AnnotatorNotes T8	C0592957; Volatile liquid anesthetic agent; Pharmacologic Substance
+T9	ANAT 102 107	RENAL
+#8	AnnotatorNotes T9	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T10	CHEM 130 151	ANESTÉSICOS VOLÁTILES
+#9	AnnotatorNotes T10	C0592957; Volatile liquid anesthetic agent; Pharmacologic Substance
+T11	ANAT 186 191	RENAL
+#10	AnnotatorNotes T11	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T12	ANAT 231 236	riñón
+#11	AnnotatorNotes T12	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T13	ANAT 307 312	renal
+#12	AnnotatorNotes T13	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T14	Date 13 17	2016
+T15	LIVB 265 274	Pacientes
+#13	AnnotatorNotes T15	C0030705; Patients; Patient or Disabled Group
+T16	Age 323 331	>18 años
+T17	LIVB 335 344	Pacientes
+#14	AnnotatorNotes T17	C0030705; Patients; Patient or Disabled Group
+T18	LIVB 442 451	Pacientes
+#15	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T20	LIVB 545 554	Pacientes
+#16	AnnotatorNotes T20	C0030705; Patients; Patient or Disabled Group
+T19	Observation 464 483	riesgo inmunológico
+#17	AnnotatorNotes T19	C0548913; Risk of infection: immunologic alteration; Finding
+R1	Experiences Arg1:T18 Arg2:T19	
+T21	Quantifier_or_Qualifier 459 463	alto
+#18	AnnotatorNotes T21	C0205250; High; Qualitative Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T21	
+R3	Location_of Arg1:T13 Arg2:T5	
+R4	Experiences Arg1:T15 Arg2:T5	
+R5	Has_Age Arg1:T15 Arg2:T16	
+R6	Location_of Arg1:T12 Arg2:T4	
+T22	Observation 389 412	participar en el ensayo
+#19	AnnotatorNotes T22	C1278516; Patient participation status; Finding (?)
+R8	Before Arg1:T2 Arg2:T22	
+T23	CONC 599 602	ABO
+#20	AnnotatorNotes T23	C0000778; ABO blood group system; Classification | C0457320; ABO status; Qualitative Concept
+T24	DISO 599 617	ABO - incompatible
+#21	AnnotatorNotes T24	C0860218; ABO incompatibility; Pathologic Function
+R9	Experiences Arg1:T20 Arg2:T24	
+R10	Experiences Arg1:T20 Arg2:T7	
+R11	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T24	
+R12	Location_of Arg1:T9 Arg2:T1	
+R13	Location_of Arg1:T11 Arg2:T3	
+A1	Experiencer T20 Patient
+A2	Experiencer T18 Patient
+A3	Experiencer T17 Patient
+A4	Experiencer T15 Patient
+A5	Status T5 Future

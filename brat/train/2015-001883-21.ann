@@ -1,0 +1,158 @@
+T1	DISO 87 102	migraña cronica
+T2	PROC 125 193	Estudio de fase 3, aleatorizado, doble ciego, controlado con placebo
+T3	CHEM 843 852	LY2951742
+#1	AnnotatorNotes T3	C4742733; LY2951742; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	DISO 242 257	migraña crónica
+T5	DISO 298 305	Migraña
+#2	AnnotatorNotes T5	C0149931; Migraine Disorders; Disease or Syndrome
+T6	DISO 332 347	Migraña Cronica
+T7	PROC 433 444	Diagnóstico
+#3	AnnotatorNotes T7	C0011900; Diagnosis; Diagnostic Procedure
+T8	DISO 448 463	migraña crónica
+T9	CHEM 881 885	CGRP
+#4	AnnotatorNotes T9	C0006669; Calcitonin Gene-Related Peptide; Amino Acid, Peptide, or Protein · Hormone
+T10	DISO 561 568	migraña
+#5	AnnotatorNotes T10	C0149931; Migraine Disorders; Disease or Syndrome
+T11	PROC 732 746	ensayo clínico
+#6	AnnotatorNotes T11	C0008976; Clinical Trials; Research Activity
+T12	CHEM 860 870	anticuerpo
+#7	AnnotatorNotes T12	C0003241; Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	PROC 928 939	tratamiento
+#8	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 958 966	prevenir
+#9	AnnotatorNotes T14	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T15	DISO 971 979	migrañas
+#10	AnnotatorNotes T15	C0149931; Migraine Disorders; Disease or Syndrome
+T16	DISO 981 998	Hipersensibilidad
+#11	AnnotatorNotes T16	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T17	CHEM 1010 1018	fármacos
+#12	AnnotatorNotes T17	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T18	CHEM 1020 1044	anticuerpos monoclonales
+#13	AnnotatorNotes T18	C0003250; Monoclonal Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T19	CHEM 1053 1075	proteínas terapéuticas
+#14	AnnotatorNotes T19	C0872285; therapeutic protein; Pharmacologic Substance
+T20	DISO 1134 1141	cefalea
+#15	AnnotatorNotes T20	C0018681; Headache; Sign or Symptom
+T21	DISO 1143 1161	cefalea en racimos
+#16	AnnotatorNotes T21	C0009088; Cluster Headache; Disease or Syndrome
+T22	DISO 1176 1183	migraña
+#17	AnnotatorNotes T22	C0149931; Migraine Disorders; Disease or Syndrome
+T23	DISO 1246 1268	migraña oftalmopléjica
+#18	AnnotatorNotes T23	C0221058; Ophthalmoplegic Migraine; Disease or Syndrome
+T24	DISO 1274 1290	migraña con aura
+#19	AnnotatorNotes T24	C0154723; Migraine with Aura; Disease or Syndrome
+T25	DISO 1311 1326	migraña basilar
+#20	AnnotatorNotes T25	C0270860; Basilar-Type Migraine; Disease or Syndrome
+T26	CHEM 215 224	LY2951742
+#21	AnnotatorNotes T26	C4742733; LY2951742; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T27	DISO 1198 1217	migraña hemipléjica
+#22	AnnotatorNotes T27	C0270862; Hemiplegic migraine; Disease or Syndrome
+T28	CHEM 1081 1090	LY2951742
+#23	AnnotatorNotes T28	C4742733; LY2951742; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T29	ANAT 1319 1326	basilar
+#24	AnnotatorNotes T29	C0004811; Structure of basilar artery; Body Part, Organ, or Organ Component
+T30	CHEM 60 69	LY2951742
+#25	AnnotatorNotes T30	C4742733; LY2951742; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T31	PROC 73 83	prevención
+#26	AnnotatorNotes T31	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T32	ANAT 1295 1309	troncoencéfalo
+#27	AnnotatorNotes T32	C1306665; Entire brainstem; Body Part, Organ, or Organ Component
+T33	Date 13 17	2015
+T34	Duration 95 102	cronica
+T35	LIVB 228 237	pacientes
+#28	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Duration 250 257	crónica
+#29	AnnotatorNotes T36	C0205191; chronic; Temporal Concept
+T37	Duration 340 347	Cronica
+T38	Age 374 384	18-65 años
+T39	Duration 456 463	crónica
+#30	AnnotatorNotes T39	C0205191; chronic; Temporal Concept
+T40	Date 539 543	2013
+T41	Age 582 589	50 años
+T42	Duration 655 674	los 30 últimos días
+T43	Duration 695 706	5 semividas
+T45	Frequency 1122 1129	diarios
+T44	CHEM 774 807	producto en fase de investigación
+#31	AnnotatorNotes T44	C0013230; Investigational New Drugs; Pharmacologic Substance
+A1	Status T11 History_of
+A2	Assertion T13 Contraindicated
+A3	Status T16 History_of
+A4	Status T20 History_of
+A5	Status T21 History_of
+A6	Status T22 History_of
+A7	Status T27 History_of
+A8	Status T23 History_of
+A9	Status T24 History_of
+A10	Status T25 History_of
+A11	Status T3 History_of
+A12	Status T12 History_of
+#32	AnnotatorNotes T37	C0205191; chronic; Temporal Concept
+#33	AnnotatorNotes T34	C0205191; chronic; Temporal Concept
+#34	AnnotatorNotes T1	C0744638; headache migraine chronic; Disease or Syndrome
+#35	AnnotatorNotes T4	C0744638; headache migraine chronic; Disease or Syndrome
+#36	AnnotatorNotes T6	C0744638; headache migraine chronic; Disease or Syndrome
+#37	AnnotatorNotes T8	C0744638; headache migraine chronic; Disease or Syndrome
+#38	AnnotatorNotes T2	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+T46	Quantifier_or_Qualifier 943 952	permitido
+A13	Assertion T46 Negated
+#39	AnnotatorNotes T46	C0205540; Approved; Qualitative Concept
+T47	Neg_cue 940 942	no
+T48	Quantifier_or_Qualifier 1107 1119	persistentes
+#40	AnnotatorNotes T48	C0205322; Persistent; Temporal Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T48	
+R2	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T48	
+R3	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T48	
+R4	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T48	
+R5	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T48	
+R6	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T48	
+R7	Location_of Arg1:T32 Arg2:T24	
+R8	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T48	
+R9	Has_Frequency Arg1:T20 Arg2:T45	
+R10	Has_Frequency Arg1:T21 Arg2:T45	
+R11	Has_Frequency Arg1:T22 Arg2:T45	
+R12	Has_Frequency Arg1:T27 Arg2:T45	
+R13	Has_Frequency Arg1:T23 Arg2:T45	
+R14	Has_Frequency Arg1:T24 Arg2:T45	
+R15	Has_Frequency Arg1:T25 Arg2:T45	
+T49	Quantifier_or_Qualifier 1219 1229	esporádica
+#41	AnnotatorNotes T49	C0205422; Sporadic (qualifier value); Temporal Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T49	
+T50	Quantifier_or_Qualifier 1232 1240	familiar
+#42	AnnotatorNotes T50	C0241888; Familial; Functional Concept 
+R17	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T50	
+R18	Used_for Arg1:T30 Arg2:T31	
+R19	Has_Duration_or_Interval Arg1:T1 Arg2:T34	
+R20	Experiences Arg1:T35 Arg2:T26	
+R21	Has_Duration_or_Interval Arg1:T4 Arg2:T36	
+R22	Experiences Arg1:T35 Arg2:T4	
+R23	Has_Duration_or_Interval Arg1:T6 Arg2:T37	
+T51	PROC 423 432	selección
+#43	AnnotatorNotes T51	C0242802; Patient Selection; Research Activity
+R24	Overlap Arg1:T51 Arg2:T38	
+R25	Has_Duration_or_Interval Arg1:T8 Arg2:T39	
+R26	Before Arg1:T10 Arg2:T41	
+R29	Overlap Arg1:T44 Arg2:T42	
+R30	Overlap Arg1:T44 Arg2:T43	
+R31	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T46	
+R32	Negation Arg1:T47 Arg2:T46	
+R33	Before Arg1:T14 Arg2:T15	
+R35	Causes Arg1:T17 Arg2:T16	
+R36	Causes Arg1:T18 Arg2:T16	
+R37	Causes Arg1:T19 Arg2:T16	
+R38	Causes Arg1:T28 Arg2:T16	
+R39	Location_of Arg1:T29 Arg2:T25	
+T52	CONC 502 513	ICHD-3 beta
+#44	AnnotatorNotes T52	[International Classification of Headache Disorders vs 3]
+T53	CONC 531 537	ICHD-3
+#45	AnnotatorNotes T53	[International Classification of Headache Disorders vs 3]
+R40	Overlap Arg1:T53 Arg2:T40	
+R41	Used_for Arg1:T52 Arg2:T7	
+R42	Used_for Arg1:T53 Arg2:T7	
+R43	Overlap Arg1:T52 Arg2:T40	
+T54	CONC 1358 1369	ICHD-3 beta
+#46	AnnotatorNotes T54	[International Classification of Headache Disorders vs 3]
+T55	Observation 623 634;726 746	participado en un ensayo clínico
+#47	AnnotatorNotes T55	C1278516; Patient participation status; Finding (?)
+R44	Overlap Arg1:T55 Arg2:T42	
+R27	Overlap Arg1:T55 Arg2:T43	
+A14	Experiencer T35 Patient

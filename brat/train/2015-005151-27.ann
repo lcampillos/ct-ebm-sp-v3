@@ -1,0 +1,263 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 64 82	quimio-hipertermia
+T3	CHEM 92 104	Mitomicina-C
+#2	AnnotatorNotes T3	C0002475; mitomycin; Organic Chemical · Antibiotic
+T4	PROC 117 149	resección transuretral de vejiga
+#3	AnnotatorNotes T4	C0565251; Transurethral bladder excision; Therapeutic or Preventive Procedure
+T5	ANAT 143 149	vejiga
+#4	AnnotatorNotes T5	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T6	CHEM 159 169	Mitomicina
+#5	AnnotatorNotes T6	C0002475; mitomycin; Organic Chemical · Antibiotic
+T7	PROC 175 184	resección
+#6	AnnotatorNotes T7	C0728940; Excision; Therapeutic or Preventive Procedure
+T8	DISO 250 286	Cáncer de vejiga no músculo invasivo
+T9	ANAT 270 277	músculo
+#7	AnnotatorNotes T9	C0026845; Muscle Tissue; Tissue
+T10	PROC 311 350	Ensayo clínico prospectivo aleatorizado
+T11	DISO 400 436	Cáncer de vejiga no músculo invasivo
+T12	ANAT 420 427	músculo
+#8	AnnotatorNotes T12	C0026845; Muscle Tissue; Tissue
+T13	PROC 453 471	quimio-hipertermia
+T14	CHEM 481 493	Mitomicina-C
+#9	AnnotatorNotes T14	C0002475; mitomycin; Organic Chemical · Antibiotic
+T15	PROC 506 538	resección transuretral de vejiga
+#10	AnnotatorNotes T15	C0565251; Transurethral bladder excision; Therapeutic or Preventive Procedure
+T16	ANAT 532 538	vejiga
+#11	AnnotatorNotes T16	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T17	PROC 557 582	Cirugía mayor ambulatoria
+T18	PROC 588 599	tratamiento
+#12	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	CHEM 604 616	mitomicina C
+#13	AnnotatorNotes T19	C0002475; mitomycin; Organic Chemical · Antibiotic
+T20	PROC 637 646	resección
+#14	AnnotatorNotes T20	C0728940; Excision; Therapeutic or Preventive Procedure
+T21	PROC 682 696	diagnosticados
+#15	AnnotatorNotes T21	C0011900; Diagnosis; Diagnostic Procedure
+T22	DISO 700 737	neoplasia vesical no músculo invasivo
+T23	ANAT 721 728	músculo
+#16	AnnotatorNotes T23	C0026845; Muscle Tissue; Tissue
+T24	PROC 751 760	resección
+#17	AnnotatorNotes T24	C0728940; Excision; Therapeutic or Preventive Procedure
+T25	PROC 810 824	diagnosticados
+#18	AnnotatorNotes T25	C0011900; Diagnosis; Diagnostic Procedure
+T26	DISO 828 865	neoplasia vesical no músculo invasivo
+T27	ANAT 849 856	músculo
+#19	AnnotatorNotes T27	C0026845; Muscle Tissue; Tissue
+T28	PROC 892 903	cistoscopia
+#20	AnnotatorNotes T28	C0010702; Cystoscopy; Diagnostic Procedure
+T29	PROC 906 916	ecográfico
+#21	AnnotatorNotes T29	C0041618; Ultrasonography; Diagnostic Procedure
+T30	ANAT 935 942	vesical
+#22	AnnotatorNotes T30	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T31	DISO 1005 1022	Neoplasia vesical
+T32	ANAT 1015 1022	vesical
+#23	AnnotatorNotes T32	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T33	DISO 1037 1054	Neoplasia vesical
+T34	ANAT 1047 1054	vesical
+#24	AnnotatorNotes T34	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T35	DISO 1178 1195	Hipersensibilidad
+#25	AnnotatorNotes T35	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T36	CHEM 1210 1213	MMC
+#26	AnnotatorNotes T36	C0002475; mitomycin; Organic Chemical · Antibiotic
+T37	CHEM 1219 1229	excipiente
+#27	AnnotatorNotes T37	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T38	DISO 1315 1340	carcinoma vesical in situ
+#28	AnnotatorNotes T38	C0154091; Carcinoma in situ of bladder; Neoplastic Process
+T39	DISO 1342 1345	Cis
+#29	AnnotatorNotes T39	C0007099; Carcinoma in Situ; Neoplastic Process | C0851135; In situ cancer; Neoplastic Process
+T40	DISO 1350 1363	Tumor vesical
+T41	ANAT 1356 1363	vesical
+#30	AnnotatorNotes T41	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T42	DISO 1386 1393	tumores
+#31	AnnotatorNotes T42	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T43	DISO 1396 1407	Cardiopatía
+#32	AnnotatorNotes T43	C0018799; Heart Diseases; Disease or Syndrome
+T44	DISO 1416 1443	Insuficiencia renal crónica
+#33	AnnotatorNotes T44	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T45	DISO 1445 1460	Trombocitopenia
+#34	AnnotatorNotes T45	C0040034; Thrombocytopenia; Disease or Syndrome
+T46	ANAT 1472 1481	plaquetas
+#35	AnnotatorNotes T46	C0005821; Blood Platelets; Cell
+T47	DISO 1485 1512	alteraciones de coagulación
+#36	AnnotatorNotes T47	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T48	DISO 1534 1542	sangrado
+#37	AnnotatorNotes T48	C0019080; Hemorrhage; Pathologic Function
+T49	PROC 931 942	RTU-vesical
+T50	ANAT 260 266	vejiga
+#38	AnnotatorNotes T50	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T51	ANAT 410 416	vejiga
+#39	AnnotatorNotes T51	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T52	ANAT 710 717	vesical
+#40	AnnotatorNotes T52	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T53	ANAT 838 845	vesical
+#41	AnnotatorNotes T53	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T54	PROC 946 949	CMA
+#42	AnnotatorNotes T54	C0002428; Ambulatory Surgical Procedures; Therapeutic or Preventive Procedure + C0679637; major surgery; Therapeutic or Preventive Procedure [cirugía mayor ambulatoria]
+T55	PROC 1275 1280	RTU-V
+#43	AnnotatorNotes T55	C0740283; Bladder tumour resection; Therapeutic or Preventive Procedure
+T56	ANAT 1325 1332	vesical
+#44	AnnotatorNotes T56	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T57	ANAT 1430 1435	renal
+#45	AnnotatorNotes T57	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T58	Date 13 17	2015
+T61	LIVB 672 681	pacientes
+#46	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 800 809	pacientes
+#47	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T66	Age 984 1002	Mayores de 18 años
+T67	PHYS 1233 1244	Embarazadas
+#48	AnnotatorNotes T67	C0032961; Pregnancy; Organism Function
+T68	PHYS 1247 1256	Lactancia
+#49	AnnotatorNotes T68	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T69	Date 1281 1289	reciente
+T70	Duration 1291 1299	< 2 años
+T71	Spec_cue 1303 1314	Sospecha de
+T72	Duration 1436 1443	crónica
+#50	AnnotatorNotes T72	C0205191; chronic; Temporal Concept
+T74	PHYS 1501 1512	coagulación
+#51	AnnotatorNotes T74	C0005778; Blood coagulation; Organ or Tissue Function
+T59	PROC 1091 1094	ASA
+#52	AnnotatorNotes T59	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T60	DISO 225 236	recurrencia
+#53	AnnotatorNotes T60	C2825055; Recurrence (disease attribute); Pathologic Function
+T62	DISO 375 386	recurrencia
+#54	AnnotatorNotes T62	C2825055; Recurrence (disease attribute); Pathologic Function
+A1	Assertion T38 Speculated
+A2	Assertion T39 Speculated
+A3	Status T55 History_of
+A4	Status T35 History_of
+#55	AnnotatorNotes T10	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#56	AnnotatorNotes T17	C0002428; Ambulatory Surgical Procedures; Therapeutic or Preventive Procedure + C0679637; major surgery; Therapeutic or Preventive Procedure [cirugía mayor ambulatoria]
+#57	AnnotatorNotes T40	C0005695; Bladder Neoplasm; Neoplastic Process
+#58	AnnotatorNotes T49	C0740283; Bladder tumour resection; Therapeutic or Preventive Procedure
+#59	AnnotatorNotes T31	C0005695; Bladder Neoplasm; Neoplastic Process
+#60	AnnotatorNotes T33	C0005695; Bladder Neoplasm; Neoplastic Process
+T64	Result_or_Value 1095 1114	menor o igual a III
+R1	Has_Result_or_Value Arg1:T59 Arg2:T64	
+R2	Combined_with Arg1:T2 Arg2:T3	
+R3	Before Arg1:T2 Arg2:T4	
+R4	Location_of Arg1:T5 Arg2:T4	
+R5	After Arg1:T6 Arg2:T7	
+T65	Observation 188 199	normotermia
+#61	AnnotatorNotes T65	C0445103; Normothermia; Qualitative Concept
+T73	Quantifier_or_Qualifier 237 243	precoz
+#62	AnnotatorNotes T73	C1279919; Early; Temporal Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T73	
+R9	Location_of Arg1:T50 Arg2:T8	
+T75	Observation 270 286	músculo invasivo
+A5	Assertion T75 Negated
+#63	AnnotatorNotes T75	C4725840; Muscle Invasion; Finding
+T76	Neg_cue 267 269	no
+R10	Negation Arg1:T76 Arg2:T75	
+R11	Location_of Arg1:T9 Arg2:T75	
+R12	Before Arg1:T8 Arg2:T60	
+T77	Quantifier_or_Qualifier 387 393	precoz
+R13	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T77	
+R14	Before Arg1:T11 Arg2:T62	
+R15	Location_of Arg1:T51 Arg2:T11	
+T78	Observation 420 436	músculo invasivo
+A6	Assertion T78 Negated
+#64	AnnotatorNotes T78	C4725840; Muscle Invasion; Finding
+T79	Neg_cue 417 419	no
+R16	Negation Arg1:T79 Arg2:T78	
+R17	Location_of Arg1:T12 Arg2:T78	
+R18	Combined_with Arg1:T13 Arg2:T14	
+R19	Before Arg1:T13 Arg2:T15	
+R20	Location_of Arg1:T16 Arg2:T15	
+R21	Used_for Arg1:T19 Arg2:T18	
+R22	Before Arg1:T13 Arg2:T17	
+R23	Before Arg1:T17 Arg2:T18	
+R24	After Arg1:T18 Arg2:T20	
+T80	Observation 620 631	normotermia
+R26	Before Arg1:T13 Arg2:T62	
+T81	Neg_cue 718 720	no
+T82	Observation 721 737	músculo invasivo
+A7	Assertion T82 Negated
+#65	AnnotatorNotes T82	C4725840; Muscle Invasion; Finding
+R29	Negation Arg1:T81 Arg2:T82	
+R30	Location_of Arg1:T23 Arg2:T82	
+T83	Observation 849 865	músculo invasivo
+A8	Assertion T83 Negated
+#66	AnnotatorNotes T83	C4725840; Muscle Invasion; Finding
+T84	Neg_cue 846 848	no
+R31	Negation Arg1:T84 Arg2:T83	
+R32	Location_of Arg1:T27 Arg2:T83	
+R33	Location_of Arg1:T53 Arg2:T26	
+R34	Location_of Arg1:T52 Arg2:T22	
+T85	Quantifier_or_Qualifier 761 772	ambulatoria
+#67	AnnotatorNotes T85	C0439841; Ambulatory - qualifier value; Functional Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T85	
+R41	Location_of Arg1:T30 Arg2:T49	
+R43	Experiences Arg1:T63 Arg2:T28	
+R44	Experiences Arg1:T63 Arg2:T29	
+R45	Before Arg1:T28 Arg2:T49	
+R46	Before Arg1:T28 Arg2:T54	
+R47	Before Arg1:T29 Arg2:T49	
+R48	Before Arg1:T29 Arg2:T54	
+T87	Result_or_Value 1029 1034	< 3cm
+R49	Has_Result_or_Value Arg1:T31 Arg2:T87	
+T88	Quantifier_or_Qualifier 1023 1028	única
+R50	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T88	
+R51	Location_of Arg1:T32 Arg2:T31	
+T89	Quantifier_or_Qualifier 1055 1067	múltiple < 8
+R52	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T89	
+R53	Location_of Arg1:T34 Arg2:T33	
+T90	Result_or_Value 1079 1088	< de 3 cm
+R54	Has_Result_or_Value Arg1:T33 Arg2:T90	
+T91	Observation 1131 1148	Riesgo intermedio
+T92	Observation 1117 1128	Riesgo bajo
+R55	Causes Arg1:T36 Arg2:T35	
+R56	Causes Arg1:T37 Arg2:T35	
+#69	AnnotatorNotes T92	C5201228; Low risk; Finding
+#70	AnnotatorNotes T91	C3640764; Intermediate Risk; Finding
+R57	Overlap Arg1:T55 Arg2:T69	
+R58	Overlap Arg1:T55 Arg2:T70	
+R59	Speculation Arg1:T71 Arg2:T38	
+R60	Speculation Arg1:T71 Arg2:T39	
+R61	Location_of Arg1:T56 Arg2:T38	
+R62	Location_of Arg1:T56 Arg2:T39	
+R63	Location_of Arg1:T41 Arg2:T40	
+T93	Result_or_Value 1364 1370	> 3 cm
+R64	Has_Result_or_Value Arg1:T40 Arg2:T93	
+T94	Quantifier_or_Qualifier 1379 1385	> de 8
+R65	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T94	
+T95	Quantifier_or_Qualifier 1408 1414	severa
+R66	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T95	
+R67	Location_of Arg1:T57 Arg2:T44	
+R68	Has_Duration_or_Interval Arg1:T44 Arg2:T72	
+T96	Result_or_Value 1463 1481	<100.000 plaquetas
+R69	Has_Result_or_Value Arg1:T45 Arg2:T96	
+R70	Overlap Arg1:T6 Arg2:T65	
+T86	CONC 127 139	transuretral
+#68	AnnotatorNotes T86	C0205497; Transurethral approach; Spatial Concept
+T97	CONC 516 528	transuretral
+#71	AnnotatorNotes T97	C0205497; Transurethral approach; Spatial Concept
+R36	Used_for Arg1:T97 Arg2:T15	
+#72	AnnotatorNotes T80	C0445103; Normothermia; Qualitative Concept
+R71	Experiences Arg1:T63 Arg2:T49	
+R72	Experiences Arg1:T63 Arg2:T54	
+#73	AnnotatorNotes T69	C0332185; Recent; Temporal Concept
+R73	Location_of Arg1:T5 Arg2:T7	
+R7	Overlap Arg1:T18 Arg2:T80	
+R25	Location_of Arg1:T16 Arg2:T17	
+R74	Location_of Arg1:T52 Arg2:T24	
+R75	Experiences Arg1:T61 Arg2:T24	
+R76	Location_of Arg1:T30 Arg2:T54	
+R6	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T86	
+T98	Observation 1552 1564	otras causas
+#74	AnnotatorNotes T98	C5555349; Other Disease Etiology; Finding
+R28	Causes Arg1:T98 Arg2:T48	
+#75	AnnotatorNotes T77	C1279919; Early; Temporal Concept
+#76	AnnotatorNotes T95	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R27	Experiences Arg1:T61 Arg2:T22	
+R37	Experiences Arg1:T63 Arg2:T26	
+#77	AnnotatorNotes T88	C0205171; Singular; Quantitative Concept
+#78	AnnotatorNotes T26	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#79	AnnotatorNotes T22	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#80	AnnotatorNotes T11	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+#81	AnnotatorNotes T8	C1336527; Non-Muscle Invasive Bladder Neoplasms; Neoplastic Process
+A9	Experiencer T61 Patient
+A10	Experiencer T63 Patient
+A11	Status T24 Future
+A12	Status T49 Future

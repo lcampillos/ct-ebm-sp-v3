@@ -1,0 +1,471 @@
+T1	PROC 1 12	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 17 29	dexametasona
+#2	AnnotatorNotes T2	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T3	DISO 34 59	hematoma subdural crónico
+#3	AnnotatorNotes T3	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T4	DISO 106 109	HSC
+#4	AnnotatorNotes T4	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T5	DISO 79 104	hematoma subdural crónico
+#5	AnnotatorNotes T5	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T6	PROC 177 188	tratamiento
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	PROC 204 214	evacuación
+#7	AnnotatorNotes T7	C1282573; Evacuation procedure; Therapeutic or Preventive Procedure
+T8	PROC 257 268	trepanación
+#8	AnnotatorNotes T8	C0040836; Burr hole procedure; Therapeutic or Preventive Procedure
+T9	DISO 346 360	complicaciones
+#9	AnnotatorNotes T9	C0009566; Complication; Pathologic Function
+T10	CHEM 572 584	dexametasona
+#10	AnnotatorNotes T10	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T11	PROC 590 613	tratamiento de elección
+#11	AnnotatorNotes T11	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T12	PROC 742 756	diagnosticados
+#12	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	PROC 768 775	ingreso
+#13	AnnotatorNotes T13	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T14	PROC 927 936	Protocolo
+#14	AnnotatorNotes T14	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T15	CHEM 940 952	Dexametasona
+#15	AnnotatorNotes T15	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T16	DISO 1377 1380	HSC
+#16	AnnotatorNotes T16	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T17	PROC 967 980	re-evaluación
+T18	PROC 1347 1358	se trataron
+#17	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	PROC 1081 1101	Protocolo Quirúrgico
+T20	PROC 1840 1848	tratados
+#18	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	PROC 1152 1162	irrigación
+#19	AnnotatorNotes T21	C0022100; Irrigation; Therapeutic or Preventive Procedure
+T22	PROC 1165 1190	drenaje a sistema cerrado
+#20	AnnotatorNotes T22	C0150409; Closed drainage wound care; Therapeutic or Preventive Procedure (?)
+T23	PROC 1196 1215	seguimiento clínico
+#21	AnnotatorNotes T23	C3274571; Clinical Study Follow-up; Health Care Activity
+T24	PROC 1236 1239	TAC
+#22	AnnotatorNotes T24	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T25	PROC 1242 1264	valoración neurológica
+#23	AnnotatorNotes T25	C0027853; Neurologic Examination; Diagnostic Procedure
+T26	PROC 1271 1287	consulta externa
+#24	AnnotatorNotes T26	C0199298; outpatient consultation; Health Care Activity
+T27	DISO 2462 2465	HSC
+#25	AnnotatorNotes T27	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T28	DISO 1487 1506	déficit neurológico
+#26	AnnotatorNotes T28	C0521654; Neurologic Deficits; Finding
+T29	DISO 1545 1558	asintomáticos
+#27	AnnotatorNotes T29	C0231221; Asymptomatic; Finding
+T30	PROC 1593 1605	tratamientos
+#28	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	PROC 1632 1648	drenaje subdural
+#29	AnnotatorNotes T32	C0394062; Drainage of subdural space; Therapeutic or Preventive Procedure
+T33	PROC 1652 1663	craneotomía
+#30	AnnotatorNotes T33	C0010280; Craniotomy; Therapeutic or Preventive Procedure
+T34	PROC 1682 1693	tratamiento
+#31	AnnotatorNotes T34	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T35	PROC 1706 1713	drenaje
+#32	AnnotatorNotes T35	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T36	CHEM 1752 1764	dexametasona
+#33	AnnotatorNotes T36	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T37	CHEM 1853 1865	dexametasona
+#34	AnnotatorNotes T37	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T38	PROC 1868 1875	drenaje
+#35	AnnotatorNotes T38	C0013103; Drainage procedure; Therapeutic or Preventive Procedure
+T39	DISO 2682 2685	HSC
+#36	AnnotatorNotes T39	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T40	CHEM 1948 1960	dexametasona
+#37	AnnotatorNotes T40	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T41	PROC 2029 2040	intervenido
+#38	AnnotatorNotes T41	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T42	PROC 2108 2118	reingresos
+#39	AnnotatorNotes T42	C0600290; Hospital Readmissions; Health Care Activity
+T43	DISO 2129 2132	HSD
+#40	AnnotatorNotes T43	C0018946; Hematoma, Subdural; Pathologic Function
+T44	DISO 2935 2938	HSC
+#41	AnnotatorNotes T44	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T45	DISO 2196 2218	complicaciones médicas
+#42	AnnotatorNotes T45	C0009566; Complication; Pathologic Function
+T46	DISO 2261 2294	descompensaciones hiperglucémicas
+#43	AnnotatorNotes T46	C0745092; HYPERGLYCEMIA DECOMPENSATED; Finding
+T47	PROC 2305 2342	seguimiento mediano extrahospitalario
+#44	AnnotatorNotes T47	C0589125; Follow-up in outpatient clinic; Health Care Activity (?)
+T48	DISO 3815 3818	HSC
+#45	AnnotatorNotes T48	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T49	CHEM 2443 2455	dexametasona
+#46	AnnotatorNotes T49	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T50	ANAT 2519 2527	membrana
+#47	AnnotatorNotes T50	C0025255; Tissue membrane; Tissue | C0596901; Membrane; Cell Component
+T51	DISO 2532 2548	coágulo subdural
+T52	PROC 2572 2595	estudios experimentales
+#48	AnnotatorNotes T52	C0681814; research study; Research Activity (?)
+T53	PROC 2655 2677	tratamiento quirúrgico
+#49	AnnotatorNotes T53	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T54	PROC 2919 2930	tratamiento
+#50	AnnotatorNotes T54	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T55	CHEM 2943 2955	dexametasona
+#51	AnnotatorNotes T55	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T56	PROC 3002 3024	tratamiento quirúrgico
+#52	AnnotatorNotes T56	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T57	PROC 3051 3065	intervenciones
+#53	AnnotatorNotes T57	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T58	DISO 3121 3124	HSC
+#54	AnnotatorNotes T58	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T59	CHEM 3158 3170	dexametasona
+#55	AnnotatorNotes T59	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T60	DISO 3204 3226	deterioro irreversible
+T61	PROC 3285 3299	intervenciones
+#56	AnnotatorNotes T61	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T62	DISO 3328 3342	complicaciones
+#57	AnnotatorNotes T62	C0009566; Complication; Pathologic Function
+T63	PROC 3420 3442	tratamiento quirúrgico
+#58	AnnotatorNotes T63	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T64	PROC 3451 3458	terapia
+#59	AnnotatorNotes T64	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T65	PROC 3577 3586	protocolo
+#60	AnnotatorNotes T65	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T66	PROC 3626 3648	tratamiento quirúrgico
+#61	AnnotatorNotes T66	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T67	CHEM 3796 3808	dexametasona
+#62	AnnotatorNotes T67	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T68	PROC 4011 4018	terapia
+#63	AnnotatorNotes T68	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T69	PROC 4056 4089	ensayo aleatorizado y prospectivo
+#64	AnnotatorNotes T69	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T70	PROC 4105 4127	tratamiento quirúrgico
+#65	AnnotatorNotes T70	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T71	CHEM 4135 4146	corticoideo
+#66	AnnotatorNotes T71	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T72	ANAT 43 51	subdural
+#67	AnnotatorNotes T72	C0038541; Subdural space; Body Space or Junction
+T73	ANAT 88 96	subdural
+#68	AnnotatorNotes T73	C0038541; Subdural space; Body Space or Junction
+T74	DISO 539 542	HSC
+#69	AnnotatorNotes T74	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T75	DISO 760 763	HSC
+#70	AnnotatorNotes T75	C0749095; Hematoma, Subdural, Chronic; Pathologic Function
+T76	DISO 796 808	sintomáticos
+#71	AnnotatorNotes T76	C1457887; Symptoms; Sign or Symptom
+T77	ANAT 1640 1648	subdural
+#72	AnnotatorNotes T77	C0038541; Subdural space; Body Space or Junction
+T78	PROC 2617 2639	observaciones clínicas
+T79	Duration 52 59	crónico
+#73	AnnotatorNotes T79	C0205191; chronic; Temporal Concept
+T80	Duration 97 104	crónico
+#74	AnnotatorNotes T80	C0205191; chronic; Temporal Concept
+T81	LIVB 156 170	neurocirujanos
+#75	AnnotatorNotes T81	C0237427; Neurosurgeon; Professional or Occupational Group
+T82	Spec_cue 322 328	pueden
+T83	Spec_cue 388 402	potencialmente
+T84	DISO 412 420	mortales
+#76	AnnotatorNotes T84	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T86	LIVB 640 649	pacientes
+#77	AnnotatorNotes T86	C0030705; Patients; Patient or Disabled Group
+T87	LIVB 652 661	Pacientes
+#78	AnnotatorNotes T87	C0030705; Patients; Patient or Disabled Group
+T88	LIVB 719 728	pacientes
+#79	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group
+T89	LIVB 786 795	pacientes
+#80	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T90	Dose 954 957	4mg
+T91	Duration 983 990	las 72h
+T92	DEVI 1109 1121	mini-trépano
+#81	AnnotatorNotes T92	C0184073; Trephine; Medical Device (?)
+T93	Neg_cue 1148 1151	sin
+T94	Date 1323 1333	Marzo 2001
+T95	Date 1336 1345	Mayo 2006
+T96	LIVB 1363 1372	pacientes
+#82	AnnotatorNotes T96	C0030705; Patients; Patient or Disabled Group
+T97	Age 1422 1429	78 años
+T98	LIVB 1459 1468	pacientes
+#83	AnnotatorNotes T98	C0030705; Patients; Patient or Disabled Group
+T99	Neg_cue 1520 1522	No
+T100	LIVB 1535 1544	pacientes
+#84	AnnotatorNotes T100	C0030705; Patients; Patient or Disabled Group
+T101	Neg_cue 1668 1670	no
+T102	LIVB 1717 1726	pacientes
+#85	AnnotatorNotes T102	C0030705; Patients; Patient or Disabled Group
+T103	Duration 1924 1930	6 días
+T104	Duration 2008 2014	8 días
+T105	LIVB 2225 2234	pacientes
+#86	AnnotatorNotes T105	C0030705; Patients; Patient or Disabled Group
+T106	Duration 2362 2372	25 semanas
+T107	Duration 2380 2384	8-90
+T109	Spec_cue 2959 2967	factible
+T110	Duration 3172 3178	48-72h
+T111	Neg_cue 3180 3183	sin
+T113	LIVB 3230 3238	paciente
+#87	AnnotatorNotes T113	C0030705; Patients; Patient or Disabled Group
+T114	Neg_cue 3317 3319	no
+T118	LIVB 3492 3500	paciente
+#88	AnnotatorNotes T118	C0030705; Patients; Patient or Disabled Group
+T122	Spec_cue 3765 3773	sugieren
+T123	Quantifier_or_Qualifier 3844 3850	segura
+T124	LIVB 3917 3926	pacientes
+#89	AnnotatorNotes T124	C0030705; Patients; Patient or Disabled Group
+T85	Frequency 958 965	cada 8h
+T129	DEVI 1127 1138	twist-drill
+#90	AnnotatorNotes T129	C3856475; Twist Drill; Medical Device
+T130	Age 1437 1442	25-97
+T125	Duration 2048 2052	5-48
+T126	Duration 1996 2000	1-41
+T108	Neg_cue 3026 3031	evitó
+T112	PHYS 2493 2509	antiangiogénicas
+#91	AnnotatorNotes T112	C3179230; Anti-Angiogenesis Effect; Physiologic Function
+T115	Neg_cue 3385 3387	no
+T116	PROC 993 1024	disminución progresiva de dosis
+#92	AnnotatorNotes T116	C1827449; Drug Tapering; Therapeutic or Preventive Procedure
+T117	DISO 441 450	recidivas
+#93	AnnotatorNotes T117	C2825055; Recurrence (disease attribute); Pathologic Function
+T119	DISO 3306 3315	recidivas
+#94	AnnotatorNotes T119	C2825055; Recurrence (disease attribute); Pathologic Function
+T31	CHEM 1615 1627	dexametasona
+#95	AnnotatorNotes T31	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+A1	Assertion T9 Speculated
+A2	Assertion T84 Speculated
+A3	Assertion T21 Negated
+A4	Assertion T100 Negated
+A5	Assertion T29 Negated
+A6	Assertion T34 Negated
+A7	Assertion T55 Speculated
+A8	Assertion T60 Negated
+A9	Assertion T62 Negated
+A10	Assertion T67 Speculated
+A11	Assertion T57 Negated
+R1	Used_for Arg1:T2 Arg2:T1	
+R2	Location_of Arg1:T72 Arg2:T3	
+R3	Has_Duration_or_Interval Arg1:T3 Arg2:T79	
+R4	Location_of Arg1:T73 Arg2:T5	
+R5	Location_of Arg1:T73 Arg2:T4	
+R6	Has_Duration_or_Interval Arg1:T5 Arg2:T80	
+R7	Has_Duration_or_Interval Arg1:T4 Arg2:T80	
+R8	Before Arg1:T8 Arg2:T7	
+R9	Speculation Arg1:T82 Arg2:T9	
+R10	Speculation Arg1:T83 Arg2:T84	
+R11	Causes Arg1:T9 Arg2:T84	
+R12	Used_for Arg1:T10 Arg2:T11	
+R13	Experiences Arg1:T86 Arg2:T10	
+R14	Experiences Arg1:T86 Arg2:T74	
+T120	CONC 692 711	historiales médicos
+#96	AnnotatorNotes T120	C0025102; Medical Records; Intellectual Product
+R16	Experiences Arg1:T88 Arg2:T75	
+R17	Experiences Arg1:T89 Arg2:T76	
+R18	Overlap Arg1:T76 Arg2:T13	
+R19	Experiences Arg1:T89 Arg2:T13	
+T121	CONC 841 875	Escala de Puntuación de Markwalder
+T127	CONC 877 880	EPM
+T128	CONC 896 899	EPM
+T131	Result_or_Value 903 906	1-2
+R20	Has_Result_or_Value Arg1:T128 Arg2:T131	
+R21	Has_Dose_or_Strength Arg1:T15 Arg2:T90	
+R22	Has_Frequency Arg1:T15 Arg2:T85	
+R23	Overlap Arg1:T17 Arg2:T91	
+R24	Used_for Arg1:T15 Arg2:T116	
+R25	Before Arg1:T17 Arg2:T116	
+R26	Before Arg1:T15 Arg2:T17	
+T132	CONC 1041 1044	EPM
+T133	Result_or_Value 1048 1051	3-4
+R28	Has_Result_or_Value Arg1:T132 Arg2:T133	
+R29	Used_for Arg1:T92 Arg2:T19	
+T134	Quantifier_or_Qualifier 1103 1108	único
+R30	Has_Quantifier_or_Qualifier Arg1:T92 Arg2:T134	
+R31	Used_for Arg1:T129 Arg2:T19	
+T135	Quantifier_or_Qualifier 1139 1146	frontal
+R32	Has_Quantifier_or_Qualifier Arg1:T129 Arg2:T135	
+R33	Negation Arg1:T93 Arg2:T21	
+R34	Combined_with Arg1:T92 Arg2:T22	
+R35	Combined_with Arg1:T129 Arg2:T22	
+R36	Overlap Arg1:T19 Arg2:T22	
+R40	After Arg1:T18 Arg2:T94	
+R41	Before Arg1:T18 Arg2:T95	
+R42	Experiences Arg1:T96 Arg2:T18	
+R43	Experiences Arg1:T96 Arg2:T16	
+T136	LIVB 1386 1393	varones
+#97	AnnotatorNotes T136	C0025266; Male population group; Population Group
+R44	Experiences Arg1:T136 Arg2:T16	
+R45	Experiences Arg1:T136 Arg2:T18	
+R46	Has_Age Arg1:T136 Arg2:T97	
+R47	Has_Age Arg1:T136 Arg2:T130	
+R48	Has_Age Arg1:T96 Arg2:T97	
+R49	Has_Age Arg1:T96 Arg2:T130	
+R50	Experiences Arg1:T98 Arg2:T28	
+T137	CONC 1508 1511	EPM
+T138	Result_or_Value 1512 1517	2-3-4
+R51	Has_Result_or_Value Arg1:T137 Arg2:T138	
+R52	Negation Arg1:T99 Arg2:T100	
+R53	Negation Arg1:T99 Arg2:T29	
+R54	Experiences Arg1:T100 Arg2:T29	
+T139	CONC 1560 1563	EPM
+T140	Result_or_Value 1564 1565	0
+R55	Has_Result_or_Value Arg1:T139 Arg2:T140	
+R56	Used_for Arg1:T31 Arg2:T30	
+R57	Location_of Arg1:T77 Arg2:T32	
+R58	Negation Arg1:T101 Arg2:T34	
+R59	Experiences Arg1:T102 Arg2:T35	
+R61	Experiences Arg1:T102 Arg2:T36	
+T141	CONC 1805 1808	EPM
+R62	Before Arg1:T128 Arg2:T14	
+R63	Overlap Arg1:T13 Arg2:T121	
+R64	Overlap Arg1:T13 Arg2:T127	
+R65	Before Arg1:T132 Arg2:T19	
+T142	Result_or_Value 1809 1813	0-12
+R66	Has_Result_or_Value Arg1:T141 Arg2:T142	
+R67	Used_for Arg1:T37 Arg2:T20	
+T143	CONC 2179 2182	EPM
+T144	CONC 1908 1916	estancia
+#98	AnnotatorNotes T144	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R68	Has_Duration_or_Interval Arg1:T144 Arg2:T103	
+R70	Has_Duration_or_Interval Arg1:T144 Arg2:T126	
+R71	Has_Duration_or_Interval Arg1:T144 Arg2:T104	
+R72	Has_Duration_or_Interval Arg1:T144 Arg2:T125	
+T145	CONC 2058 2068	mortalidad
+#99	AnnotatorNotes T145	C0026565; Mortality Vital Statistics; Quantitative Concept
+T146	Quantifier_or_Qualifier 2069 2075	global
+R74	Has_Quantifier_or_Qualifier Arg1:T145 Arg2:T146	
+R75	Before Arg1:T43 Arg2:T42	
+R76	Experiences Arg1:T105 Arg2:T45	
+R77	Experiences Arg1:T105 Arg2:T46	
+T149	Quantifier_or_Qualifier 2295 2300	leves
+R78	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T149	
+R79	Has_Duration_or_Interval Arg1:T47 Arg2:T106	
+R80	Has_Duration_or_Interval Arg1:T47 Arg2:T107	
+T150	Observation 2402 2410	pérdidas
+R82	Location_of Arg1:T50 Arg2:T51	
+T151	Neg_cue 2740 2742	no
+T152	Quantifier_or_Qualifier 2759 2773	bien diseñados
+A13	Assertion T152 Negated
+T153	PROC 2751 2758	ensayos
+A14	Assertion T153 Negated
+#101	AnnotatorNotes T153	C0008976; Clinical Trials; Research Activity
+R85	Negation Arg1:T151 Arg2:T153	
+R86	Negation Arg1:T151 Arg2:T152	
+R87	Has_Quantifier_or_Qualifier Arg1:T153 Arg2:T152	
+R88	Used_for Arg1:T55 Arg2:T54	
+R90	Speculation Arg1:T109 Arg2:T55	
+R91	Negation Arg1:T108 Arg2:T57	
+T154	Quantifier_or_Qualifier 3032 3043	dos tercios
+A15	Assertion T154 Negated
+R92	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T154	
+R94	Has_Duration_or_Interval Arg1:T59 Arg2:T110	
+R95	Negation Arg1:T111 Arg2:T60	
+R96	Experiences Arg1:T113 Arg2:T60	
+R97	Experiences Arg1:T113 Arg2:T58	
+R98	Experiences Arg1:T113 Arg2:T59	
+T155	CONC 3388 3394	impide
+A16	Assertion T155 Negated
+R99	Negation Arg1:T115 Arg2:T155	
+T156	Neg_cue 3395 3397	ni
+T157	CONC 3398 3407	perjudica
+A17	Assertion T157 Negated
+R100	Negation Arg1:T156 Arg2:T157	
+T158	CONC 3369 3377	estancia
+#102	AnnotatorNotes T158	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+T159	Neg_cue 3240 3250	se elimina
+T160	Observation 3259 3269	morbilidad
+#103	AnnotatorNotes T160	C0026538; Morbidity - disease rate; Finding
+R101	Negation Arg1:T159 Arg2:T160	
+A12	Assertion T160 Negated
+R102	Before Arg1:T61 Arg2:T160	
+R104	Negation Arg1:T114 Arg2:T62	
+T161	Quantifier_or_Qualifier 3343 3357	significativas
+A19	Assertion T161 Negated
+R105	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T161	
+T162	Observation 3459 3472	bien tolerada
+R106	Overlap Arg1:T64 Arg2:T162	
+T163	PHYS 3475 3484	entendida
+#104	AnnotatorNotes T163	C0162340; Comprehension; Mental Process
+R107	Experiences Arg1:T118 Arg2:T163	
+T164	LIVB 3507 3519	acompañantes
+#105	AnnotatorNotes T164	C0335343; Companions; Population Group
+R108	Experiences Arg1:T164 Arg2:T163	
+R109	Experiences Arg1:T118 Arg2:T64	
+T165	CONC 3537 3551	abarata costes
+A20	Assertion T165 Speculated
+#106	AnnotatorNotes T165	C0085550; Cost Savings; Quantitative Concept (?)
+T166	Spec_cue 3523 3535	posiblemente
+R110	Speculation Arg1:T166 Arg2:T165	
+R111	Experiences Arg1:T118 Arg2:T63	
+R112	Experiences Arg1:T118 Arg2:T62	
+R113	Experiences Arg1:T118 Arg2:T119	
+R114	Experiences Arg1:T118 Arg2:T61	
+R115	Experiences Arg1:T118 Arg2:T160	
+R116	Experiences Arg1:T118 Arg2:T60	
+R117	Experiences Arg1:T118 Arg2:T59	
+R118	Experiences Arg1:T118 Arg2:T58	
+R119	Experiences Arg1:T118 Arg2:T57	
+R120	Experiences Arg1:T118 Arg2:T56	
+R121	Experiences Arg1:T118 Arg2:T55	
+R122	Experiences Arg1:T118 Arg2:T44	
+R123	Experiences Arg1:T118 Arg2:T54	
+R124	Experiences Arg1:T113 Arg2:T57	
+R125	Experiences Arg1:T113 Arg2:T44	
+R126	Experiences Arg1:T113 Arg2:T54	
+R127	Experiences Arg1:T113 Arg2:T160	
+R128	Experiences Arg1:T113 Arg2:T61	
+R129	Experiences Arg1:T113 Arg2:T119	
+R130	Experiences Arg1:T113 Arg2:T62	
+R131	Experiences Arg1:T113 Arg2:T63	
+R132	Experiences Arg1:T113 Arg2:T64	
+R133	Experiences Arg1:T113 Arg2:T163	
+R134	Experiences Arg1:T113 Arg2:T56	
+R103	Before Arg1:T119 Arg2:T160	
+T167	Observation 3359 3377	reduce la estancia
+T168	Neg_cue 3601 3603	no
+T169	CONC 3613 3622	sustituir
+A18	Assertion T169 Negated
+R135	Negation Arg1:T168 Arg2:T169	
+R136	Speculation Arg1:T122 Arg2:T67	
+T170	PROC 3745 3764	serie retrospectiva
+#107	AnnotatorNotes T170	C0035363; Retrospective Studies; Research Activity (?)
+A21	Assertion T123 Speculated
+R137	Speculation Arg1:T122 Arg2:T123	
+R138	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T123	
+T171	Observation 3876 3880	curó
+T172	Observation 3883 3889	mejoró
+#108	AnnotatorNotes T172	C0184511; Improved; Finding (?)
+T173	Spec_cue 4019 4025	podría
+A22	Assertion T69 Speculated
+R140	Speculation Arg1:T173 Arg2:T69	
+R141	Experiences Arg1:T124 Arg2:T171	
+#109	AnnotatorNotes T150	C0424092; Withdrawn; Finding (?)
+T174	Spec_cue 3833 3841	factible
+R149	Speculation Arg1:T174 Arg2:T67	
+T175	Quantifier_or_Qualifier 3411 3419	ulterior
+R150	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T175	
+R151	Experiences Arg1:T118 Arg2:T162	
+#110	AnnotatorNotes T162	C5684674; patient tolerated procedure well; Finding
+#111	AnnotatorNotes T161	C1546944; Event Seriousness - Significant; Qualitative Concept
+R15	Negation Arg1:T114 Arg2:T161	
+#100	AnnotatorNotes T171	C0184780; Disease condition determination, cured; Finding
+R142	Experiences Arg1:T124 Arg2:T172	
+T147	Quantifier_or_Qualifier 403 409	graves
+#112	AnnotatorNotes T147	C1547227; Severe -Severity of Illness Code; Intellectual Product
+A23	Assertion T147 Speculated
+R143	Speculation Arg1:T83 Arg2:T147	
+R144	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T147	
+T148	Quantifier_or_Qualifier 729 741	consecutivos
+#113	AnnotatorNotes T148	C1707491; Consecutive; Qualitative Concept
+R145	Has_Quantifier_or_Qualifier Arg1:T88 Arg2:T148	
+#114	AnnotatorNotes T135	C0205123; Coronal (qualifier value); Spatial Concept (?) 
+#115	AnnotatorNotes T146	C2348867; Global; Qualitative Concept
+#116	AnnotatorNotes T149	C2945599; Mild (qualifier value); Qualitative Concept
+R37	Overlap Arg1:T27 Arg2:T51	
+R38	Negation Arg1:T108 Arg2:T154	
+#117	AnnotatorNotes T175	C0332282; Following; Temporal Concept
+#118	AnnotatorNotes T134	C0205171; Singular; Quantitative Concept
+#119	AnnotatorNotes T78	C3889687; Clinical Observation; Health Care Activity
+#120	AnnotatorNotes T19	C0548471; protocols: surgery; Health Care Activity
+#121	AnnotatorNotes T17	C0681840; re-evaluation; Research Activity 
+A24	Experiencer T81 Other
+A25	Experiencer T86 Patient
+A26	Experiencer T87 Patient
+A27	Experiencer T88 Patient
+A28	Experiencer T89 Patient
+A29	Experiencer T96 Patient
+A30	Experiencer T136 Patient
+A31	Experiencer T98 Patient
+A32	Experiencer T100 Patient
+A33	Experiencer T102 Patient
+A34	Experiencer T105 Patient
+A35	Experiencer T113 Patient
+A36	Experiencer T118 Patient
+A37	Experiencer T164 Other
+A38	Experiencer T124 Patient

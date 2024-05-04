@@ -1,0 +1,96 @@
+T1	PROC 46 66	Estudio de extensión
+T2	PROC 72 94	evaluar los resultados
+T3	PROC 165 185	Estudio de extensión
+T4	PROC 191 213	evaluar los resultados
+T5	PROC 260 271	tratamiento
+#1	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 280 305	retinopatía del prematuro
+#2	AnnotatorNotes T6	C0035344; Retinopathy of Prematurity; Disease or Syndrome
+T7	DISO 348 373	Retinopatía del prematuro
+#3	AnnotatorNotes T7	C0035344; Retinopathy of Prematurity; Disease or Syndrome
+T8	PROC 526 537	tratamiento
+#4	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	PROC 603 627	Consentimiento informado
+#5	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	PROC 1100 1114	procedimientos
+#6	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T11	PROC 818 842	consentimiento informado
+#7	AnnotatorNotes T11	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T12	PROC 859 868	protocolo
+#8	AnnotatorNotes T12	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T13	DISO 981 999	Afecciones médicas
+T14	DISO 1025 1033	afección
+#9	AnnotatorNotes T14	C0221423; Illness (finding); Sign or Symptom
+T15	Date 13 17	2018
+T16	Date 95 108	a largo plazo
+T17	LIVB 116 125	pacientes
+#10	AnnotatorNotes T17	C0030705; Patients; Patient or Disabled Group
+T18	Date 214 227	a largo plazo
+T19	LIVB 235 244	pacientes
+#11	AnnotatorNotes T19	C0030705; Patients; Patient or Disabled Group
+T20	LIVB 404 411	sujetos
+#12	AnnotatorNotes T20	C0681850; Study Subject; Group
+T22	LIVB 509 517	paciente
+#13	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	Age 561 578	Menos de 13 meses
+T24	LIVB 644 650	padres
+#14	AnnotatorNotes T24	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T25	LIVB 651 673	representantes legales
+#15	AnnotatorNotes T25	C4288823; Legal Representative for the Study; Human
+T26	LIVB 900 909	pacientes
+#16	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	Neg_cue 910 921	se excluyen
+T29	LIVB 1006 1014	paciente
+#17	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Neg_cue 1038 1044	impide
+T21	LIVB 296 305	prematuro
+#18	AnnotatorNotes T21	C4048294; Preterm Infant; Age Group
+T28	LIVB 364 373	prematuro
+#19	AnnotatorNotes T28	C4048294; Preterm Infant; Age Group
+T31	PROC 544 550	ensayo
+#20	AnnotatorNotes T31	C0008976; Clinical Trials; Research Activity
+A1	Assertion T26 Negated
+A2	Assertion T10 Negated
+A3	Population_data T21 Age
+A4	Population_data T28 Age
+A5	Status T8 History_of
+A6	Status T31 History_of
+#21	AnnotatorNotes T13	C0221423; Illness (finding); Sign or Symptom
+#22	AnnotatorNotes T16	C0443252; Long-term; Temporal Concept
+#23	AnnotatorNotes T18	C0443252; Long-term; Temporal Concept
+T32	Observation 1048 1075	participación en el estudio
+A7	Assertion T32 Negated
+#24	AnnotatorNotes T32	C1278516; Patient participation status; Finding (?)
+R1	Negation Arg1:T30 Arg2:T32	
+R2	Negation Arg1:T30 Arg2:T10	
+R3	Overlap Arg1:T2 Arg2:T16	
+R4	Overlap Arg1:T4 Arg2:T18	
+R5	Experiences Arg1:T19 Arg2:T5	
+R6	Experiences Arg1:T21 Arg2:T6	
+R7	Experiences Arg1:T19 Arg2:T6	
+R8	Experiences Arg1:T21 Arg2:T5	
+R9	Experiences Arg1:T28 Arg2:T7	
+T33	Observation 416 454	aptos para ser incluidos en el estudio
+#25	AnnotatorNotes T33	C1302261; Patient eligible for clinical trial; Finding (?)
+R10	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T33	
+R11	Experiences Arg1:T22 Arg2:T8	
+R12	Overlap Arg1:T8 Arg2:T31	
+T34	Quantifier_or_Qualifier 674 685	autorizados
+#26	AnnotatorNotes T34	C1555472; Authorized; Finding
+R13	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T34	
+R14	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T34	
+R15	Negation Arg1:T27 Arg2:T26	
+R16	Experiences Arg1:T29 Arg2:T14	
+R17	Before Arg1:T14 Arg2:T32	
+R18	Before Arg1:T14 Arg2:T10	
+R20	Experiences Arg1:T29 Arg2:T10	
+A8	Experiencer T17 Patient
+A9	Experiencer T19 Patient
+A10	Experiencer T21 Patient
+A11	Experiencer T28 Patient
+A12	Experiencer T20 Patient
+A13	Experiencer T22 Patient
+A14	Experiencer T24 Family_member
+A15	Experiencer T25 Other
+A16	Experiencer T26 Patient
+A17	Experiencer T29 Patient

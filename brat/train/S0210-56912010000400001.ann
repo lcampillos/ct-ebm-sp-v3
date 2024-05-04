@@ -1,0 +1,167 @@
+T1	PROC 1 21	Estudio aleatorizado
+#1	AnnotatorNotes T1	C0206034; Clinical Trials, Randomized; Research Activity
+T2	PROC 60 83	cardioversión eléctrica
+#2	AnnotatorNotes T2	C0013778; Electric Countershock; Therapeutic or Preventive Procedure
+T3	DISO 99 120	fibrilación auricular
+#3	AnnotatorNotes T3	C0004238; Atrial Fibrillation; Disease or Syndrome
+T4	DISO 1558 1560	FA
+#4	AnnotatorNotes T4	C0004238; Atrial Fibrillation; Disease or Syndrome
+T5	PROC 306 329	cardioversión eléctrica
+#5	AnnotatorNotes T5	C0013778; Electric Countershock; Therapeutic or Preventive Procedure
+T6	DISO 342 363	fibrilación auricular
+#6	AnnotatorNotes T6	C0004238; Atrial Fibrillation; Disease or Syndrome
+T7	PROC 544 547	CVE
+#7	AnnotatorNotes T7	C0013778; Electric Countershock; Therapeutic or Preventive Procedure
+T8	PROC 379 421	Ensayo clínico con asignación aleatorizada
+#8	AnnotatorNotes T8	C0206034; Clinical Trials, Randomized; Research Activity
+T9	PROC 896 911	restaurar el RS
+#9	AnnotatorNotes T9	C1321500; Conversion of cardiac rhythm to sinus rhythm; Therapeutic or Preventive Procedure
+T10	PROC 520 538	remitidos a la UCI
+#10	AnnotatorNotes T10	C5419131; Intensive Care Unit Stay; Health Care Activity
+T11	PROC 557 574	choques bifásicos
+#11	AnnotatorNotes T11	C1960073; Biphasic cardioversion procedure; Therapeutic or Preventive Procedure
+T12	PROC 673 680	choques
+#12	AnnotatorNotes T12	C0013870; Electroconvulsive Shock; Therapeutic or Preventive Procedure (?)
+T13	PROC 1326 1342	se revirtió a RS
+#13	AnnotatorNotes T13	C1321500; Conversion of cardiac rhythm to sinus rhythm; Therapeutic or Preventive Procedure
+T14	PROC 791 798	choques
+#14	AnnotatorNotes T14	C0013870; Electroconvulsive Shock; Therapeutic or Preventive Procedure (?)
+T15	PROC 932 939	choques
+#15	AnnotatorNotes T15	C0013870; Electroconvulsive Shock; Therapeutic or Preventive Procedure (?)
+T16	PROC 1403 1413	revertidos
+T17	PROC 1175 1182	choques
+#16	AnnotatorNotes T17	C0013870; Electroconvulsive Shock; Therapeutic or Preventive Procedure (?)
+T18	PROC 1213 1220	choques
+#17	AnnotatorNotes T18	C0013870; Electroconvulsive Shock; Therapeutic or Preventive Procedure (?)
+T19	PROC 331 334	CVE
+#18	AnnotatorNotes T19	C0013778; Electric Countershock; Therapeutic or Preventive Procedure
+T20	ANAT 111 120	auricular
+#19	AnnotatorNotes T20	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T21	ANAT 354 363	auricular
+#20	AnnotatorNotes T21	C0018792; Heart Atrium; Body Part, Organ, or Organ Component | C1280619; Entire atrium; Body Part, Organ, or Organ Component
+T22	DISO 365 367	FA
+#21	AnnotatorNotes T22	C0004238; Atrial Fibrillation; Disease or Syndrome
+T23	DISO 517 519	FA
+#22	AnnotatorNotes T23	C0004238; Atrial Fibrillation; Disease or Syndrome
+T24	ANAT 769 776	sinusal
+#23	AnnotatorNotes T24	C0037189; Sinoatrial Node; Body Part, Organ, or Organ Component
+T25	PROC 1539 1542	CVE
+#24	AnnotatorNotes T25	C0013778; Electric Countershock; Therapeutic or Preventive Procedure
+T26	DEVI 43 53	electrodos
+#25	AnnotatorNotes T26	C0013812; electrode; Manufactured Object
+T27	DEVI 212 222	electrodos
+#26	AnnotatorNotes T27	C0013812; electrode; Manufactured Object
+T28	LIVB 470 479	Pacientes
+#27	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 491 513	Pacientes ambulatorios
+#28	AnnotatorNotes T29	C0029921; Outpatients; Patient or Disabled Group
+T32	LIVB 994 1003	pacientes
+#29	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 1025 1034	pacientes
+#30	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 1105 1114	pacientes
+#31	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 1275 1283	paciente
+#32	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 1390 1399	pacientes
+#33	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Neg_cue 1400 1402	no
+T39	DEVI 1418 1428	electrodos
+#34	AnnotatorNotes T39	C0013812; electrode; Manufactured Object
+T30	PROC 634 647	aleatorizados
+#35	AnnotatorNotes T30	C0034656; Randomization; Research Activity
+A1	Assertion T16 Negated
+A2	Assertion T39 Negated
+T31	Observation 763 776	ritmo sinusal
+#36	AnnotatorNotes T31	C0232201; Sinus rhythm; Finding
+T34	Observation 1066 1068	RS
+#37	AnnotatorNotes T34	C0232201; Sinus rhythm; Finding
+T40	Observation 1340 1342	RS
+#38	AnnotatorNotes T40	C0232201; Sinus rhythm; Finding
+T41	Observation 778 780	RS
+#39	AnnotatorNotes T41	C0232201; Sinus rhythm; Finding
+T42	Observation 909 911	RS
+#40	AnnotatorNotes T42	C0232201; Sinus rhythm; Finding
+R1	Used_for Arg1:T26 Arg2:T2	
+T43	Quantifier_or_Qualifier 84 92	electiva
+#41	AnnotatorNotes T43	C0439608; elective; Temporal Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T43	
+R3	Location_of Arg1:T20 Arg2:T3	
+T44	CONC 224 255	anteroposterior (A-P) izquierda
+T45	CONC 1047 1050	A-P
+#42	AnnotatorNotes T45	C2827723; Anteroposterior Orientation; Spatial Concept
+T46	CONC 1350 1362	posición A-P
+#43	AnnotatorNotes T46	C2827723; Anteroposterior Orientation; Spatial Concept
+T47	CONC 1429 1432	A-P
+#44	AnnotatorNotes T47	C2827723; Anteroposterior Orientation; Spatial Concept
+T48	CONC 258 270	anteroapical
+T49	CONC 272 275	A-A
+R4	Location_of Arg1:T21 Arg2:T6	
+R5	Location_of Arg1:T21 Arg2:T22	
+R6	Used_for Arg1:T44 Arg2:T5	
+R7	Used_for Arg1:T48 Arg2:T5	
+R8	Used_for Arg1:T49 Arg2:T5	
+R9	Used_for Arg1:T44 Arg2:T19	
+R10	Used_for Arg1:T48 Arg2:T19	
+R11	Used_for Arg1:T49 Arg2:T19	
+R12	Used_for Arg1:T27 Arg2:T5	
+R13	Used_for Arg1:T27 Arg2:T19	
+R14	Experiences Arg1:T28 Arg2:T23	
+R15	Experiences Arg1:T29 Arg2:T23	
+R16	Experiences Arg1:T28 Arg2:T10	
+R18	Experiences Arg1:T29 Arg2:T10	
+R21	Experiences Arg1:T28 Arg2:T11	
+R22	Experiences Arg1:T29 Arg2:T11	
+R23	Before Arg1:T30 Arg2:T12	
+T50	Quantifier_or_Qualifier 665 672	hasta 3
+R24	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T50	
+R25	Location_of Arg1:T24 Arg2:T31	
+T51	Neg_cue 738 740	no
+A3	Assertion T31 Negated
+A4	Assertion T41 Negated
+R26	Negation Arg1:T51 Arg2:T31	
+R27	Location_of Arg1:T24 Arg2:T41	
+R28	Negation Arg1:T51 Arg2:T41	
+R29	Before Arg1:T12 Arg2:T31	
+R30	Before Arg1:T12 Arg2:T41	
+T52	Quantifier_or_Qualifier 783 790;799 802	hasta 2 más
+R31	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T52	
+R32	Before Arg1:T12 Arg2:T14	
+R33	Before Arg1:T15 Arg2:T42	
+R34	Before Arg1:T15 Arg2:T9	
+T53	CONC 1016 1019	A-A
+R35	Experiences Arg1:T32 Arg2:T34	
+R36	Experiences Arg1:T33 Arg2:T34	
+R37	Experiences Arg1:T35 Arg2:T34	
+T54	CONC 1125 1128	A-A
+R38	Experiences Arg1:T32 Arg2:T17	
+R39	Experiences Arg1:T33 Arg2:T17	
+R40	Experiences Arg1:T35 Arg2:T17	
+R41	Causes Arg1:T17 Arg2:T34	
+R42	Causes Arg1:T18 Arg2:T34	
+R43	Experiences Arg1:T32 Arg2:T18	
+R44	Experiences Arg1:T33 Arg2:T18	
+R45	Experiences Arg1:T35 Arg2:T18	
+T55	CONC 1322 1325	A-A
+R46	Experiences Arg1:T36 Arg2:T40	
+R47	Experiences Arg1:T36 Arg2:T13	
+R48	Used_for Arg1:T46 Arg2:T13	
+R49	Experiences Arg1:T37 Arg2:T16	
+#45	AnnotatorNotes T16	C1321500; Conversion of cardiac rhythm to sinus rhythm; Therapeutic or Preventive Procedure
+R50	Negation Arg1:T38 Arg2:T16	
+R51	Used_for Arg1:T39 Arg2:T16	
+R52	Negation Arg1:T38 Arg2:T39	
+R53	Used_for Arg1:T47 Arg2:T16	
+T56	CONC 1465 1468	A-A
+T57	CONC 1507 1510	A-A
+R54	Used_for Arg1:T57 Arg2:T25	
+T58	Quantifier_or_Qualifier 1543 1551	electiva
+#46	AnnotatorNotes T58	C0439608; elective; Temporal Concept
+R55	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T58	
+A5	Experiencer T36 Patient
+A6	Experiencer T37 Patient
+A7	Experiencer T35 Patient
+A8	Experiencer T28 Patient
+A9	Experiencer T29 Patient
+A10	Experiencer T32 Patient
+A11	Experiencer T33 Patient

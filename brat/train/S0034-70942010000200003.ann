@@ -1,0 +1,221 @@
+T1	PROC 1 18	Anestesia espinal
+#1	AnnotatorNotes T1	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T2	CHEM 32 43	bupivacaína
+#2	AnnotatorNotes T2	C0006400; bupivacaine; Organic Chemical · Pharmacologic Substance
+T3	PROC 91 98	cesárea
+#3	AnnotatorNotes T3	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T4	DISO 461 480	efectos colaterales
+#4	AnnotatorNotes T4	C0879626; Adverse effects; Pathologic Function
+T5	ANAT 245 266	espacio subaracnoideo
+#5	AnnotatorNotes T5	C0038527; Subarachnoid Space; Body Space or Junction | C1284570; Entire subarachnoid space; Body Space or Junction
+T6	PROC 432 454	evaluar la efectividad
+T7	CHEM 525 536	bupivacaína
+#6	AnnotatorNotes T7	C0006400; bupivacaine; Organic Chemical · Pharmacologic Substance
+T8	PROC 587 595	cesáreas
+#7	AnnotatorNotes T8	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T9	PROC 650 657	cesárea
+#8	AnnotatorNotes T9	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T10	PROC 672 686	raquianestesia
+#9	AnnotatorNotes T10	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T11	CHEM 863 874	bupivacaína
+#10	AnnotatorNotes T11	C0006400; bupivacaine; Organic Chemical · Pharmacologic Substance
+T12	PROC 1196 1205	analgesia
+#11	AnnotatorNotes T12	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T13	DISO 1207 1223	efectos adversos
+#12	AnnotatorNotes T13	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T14	PROC 1437 1446	analgesia
+#13	AnnotatorNotes T14	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T15	DISO 1535 1551	efectos adversos
+#14	AnnotatorNotes T15	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T16	DISO 1638 1670	alteraciones cardiocirculatorias
+T17	CHEM 1733 1744	bupivacaína
+#15	AnnotatorNotes T17	C0006400; bupivacaine; Organic Chemical · Pharmacologic Substance
+T18	DISO 1970 1999	repercusiones materno-fetales
+T19	ANAT 1992 1999	fetales
+#16	AnnotatorNotes T19	C0015965; Fetus; Embryonic Structure | C1305737; Entire fetus; Anatomical Structure
+T20	CHEM 75 85	sufentanil
+#17	AnnotatorNotes T20	C0143993; sufentanil; Organic Chemical · Pharmacologic Substance
+T21	Route 11 18	espinal
+T22	CHEM 219 238	solución anestésica
+#18	AnnotatorNotes T22	C0525069; Pharmaceutical Solutions; Biomedical or Dental Material + C0002932; Anesthetics; Pharmacologic Substance
+T23	CHEM 551 561	sufentanil
+#19	AnnotatorNotes T23	C0143993; sufentanil; Organic Chemical · Pharmacologic Substance
+T24	CHEM 382 398	anestésico local
+#20	AnnotatorNotes T24	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T25	ANAT 204 212	cefálica
+#21	AnnotatorNotes T25	C0018670; Head; Body Location or Region | C1281590; Entire head; Body Location or Region
+T26	CHEM 747 766	solución anestésica
+#22	AnnotatorNotes T26	C0525069; Pharmaceutical Solutions; Biomedical or Dental Material + C0002932; Anesthetics; Pharmacologic Substance
+T27	CHEM 912 922	sufentanil
+#23	AnnotatorNotes T27	C0143993; sufentanil; Organic Chemical · Pharmacologic Substance
+T28	CHEM 830 846	anestésico local
+#24	AnnotatorNotes T28	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T29	CHEM 1008 1028	solución fisiológica
+#25	AnnotatorNotes T29	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T30	DISO 1235 1259	repercusiones neonatales
+#26	AnnotatorNotes T30	C0856669; Neonatal effect NOS; Disease or Syndrome
+T31	DISO 1689 1713	repercusiones neonatales
+#27	AnnotatorNotes T31	C0856669; Neonatal effect NOS; Disease or Syndrome
+T32	CHEM 1787 1797	sufentanil
+#28	AnnotatorNotes T32	C0143993; sufentanil; Organic Chemical · Pharmacologic Substance
+T33	PROC 1932 1941	analgesia
+#29	AnnotatorNotes T33	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T34	Dose 23 28	10 mg
+T35	Dose 67 71	5 µg
+T36	Form 219 227	solución
+#30	AnnotatorNotes T36	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T37	Route 253 266	subaracnoideo
+#31	AnnotatorNotes T37	C1515008; Subarachnoid Route of Drug Administration; Functional Concept
+T38	PHYS 341 349	embarazo
+#32	AnnotatorNotes T38	C0032961; Pregnancy; Organism Function
+T39	Route 566 583	vía subaracnoidea
+T40	LIVB 615 624	pacientes
+#33	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Form 747 755	solución
+#34	AnnotatorNotes T41	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T42	Dose 783 787	4 mL
+T43	Dose 801 805	3 mL
+T44	Dose 888 898	10 mg-2 mL
+T45	Dose 924 933	5 µg-1 mL
+T46	Dose 984 988	4 mL
+T47	Dose 1000 1004	1 mL
+T48	Form 1008 1016	solución
+#35	AnnotatorNotes T48	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T49	Dose 1029 1035	a 0,9%
+T50	LIVB 1224 1232	maternos
+#36	AnnotatorNotes T50	C0026591; Mother (person); Family Group
+T51	LIVB 1249 1259	neonatales
+#37	AnnotatorNotes T51	C0021289; Infant, Newborn; Age Group
+T53	Neg_cue 1622 1633	ausencia de
+T54	LIVB 1671 1679	maternas
+#38	AnnotatorNotes T54	C0026591; Mother (person); Family Group
+T55	LIVB 1703 1713	neonatales
+#39	AnnotatorNotes T55	C0021289; Infant, Newborn; Age Group
+T56	Dose 1769 1774	10 mg
+T57	Dose 1810 1814	5 µg
+T58	Dose 1834 1838	4 mL
+T59	Dose 1900 1904	3 mL
+T60	Time 1942 1964	intra y postoperatoria
+#40	AnnotatorNotes T60	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept + C0032790; Postoperative Period; Temporal Concept
+T61	Neg_cue 1966 1969	sin
+T62	LIVB 1984 1991	materno
+#41	AnnotatorNotes T62	C0026591; Mother (person); Family Group
+T63	DISO 301 326	alteraciones fisiológicas
+#42	AnnotatorNotes T63	C1397859; dysfunction; physiological; Sign or Symptom
+T52	PROC 1064 1071	bloqueo
+#43	AnnotatorNotes T52	C0027741; Nerve Block; Therapeutic or Preventive Procedure (?)
+T64	PROC 1090 1107	bloqueo sensitivo
+#44	AnnotatorNotes T64	C0198802; Nerve block anesthesia; Therapeutic or Preventive Procedure
+T65	PROC 1307 1324	bloqueo sensitivo
+#45	AnnotatorNotes T65	C0198802; Nerve block anesthesia; Therapeutic or Preventive Procedure
+T66	PROC 1160 1173	bloqueo motor
+#46	AnnotatorNotes T66	C0235062; Induction of neuromuscular blockade; Therapeutic or Preventive Procedure
+T67	PROC 1119 1132	bloqueo motor
+#47	AnnotatorNotes T67	C0235062; Induction of neuromuscular blockade; Therapeutic or Preventive Procedure
+T68	PROC 1369 1382	bloqueo motor
+#48	AnnotatorNotes T68	C0235062; Induction of neuromuscular blockade; Therapeutic or Preventive Procedure
+T69	PROC 626 629	ASA
+#49	AnnotatorNotes T69	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A1	Assertion T16 Negated
+A2	Assertion T31 Negated
+A3	Assertion T18 Negated
+R1	Negation Arg1:T61 Arg2:T18	
+R2	Negation Arg1:T53 Arg2:T16	
+R3	Negation Arg1:T53 Arg2:T31	
+R4	Used_for Arg1:T2 Arg2:T1	
+R5	Has_Dose_or_Strength Arg1:T2 Arg2:T34	
+R6	Has_Route_or_Mode Arg1:T2 Arg2:T21	
+T70	Quantifier_or_Qualifier 44 55	hiperbárica
+R7	Has_Dose_or_Strength Arg1:T20 Arg2:T35	
+R8	Combined_with Arg1:T2 Arg2:T20	
+R9	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T70	
+R10	Before Arg1:T1 Arg2:T3	
+R11	Has_Drug_Form Arg1:T22 Arg2:T36	
+R12	Has_Route_or_Mode Arg1:T22 Arg2:T37	
+R13	Causes Arg1:T38 Arg2:T63	
+T71	Quantifier_or_Qualifier 537 548	hiperbárica
+R14	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T71	
+R15	Combined_with Arg1:T7 Arg2:T23	
+R16	Has_Route_or_Mode Arg1:T20 Arg2:T21	
+R17	Has_Route_or_Mode Arg1:T23 Arg2:T39	
+R18	Has_Route_or_Mode Arg1:T7 Arg2:T39	
+R19	Before Arg1:T7 Arg2:T8	
+T72	Result_or_Value 630 636	I y II
+R20	Causes Arg1:T7 Arg2:T4	
+R21	Experiences Arg1:T40 Arg2:T69	
+R22	Has_Result_or_Value Arg1:T69 Arg2:T72	
+T73	Quantifier_or_Qualifier 658 666	electiva
+#50	AnnotatorNotes T73	C0439608; elective; Temporal Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T73	
+R24	Before Arg1:T69 Arg2:T10	
+R25	Before Arg1:T10 Arg2:T9	
+R26	Experiences Arg1:T40 Arg2:T9	
+R27	Experiences Arg1:T40 Arg2:T10	
+R28	Has_Drug_Form Arg1:T26 Arg2:T41	
+R29	Has_Dose_or_Strength Arg1:T26 Arg2:T42	
+R30	Has_Dose_or_Strength Arg1:T26 Arg2:T43	
+T74	Quantifier_or_Qualifier 875 886	hiperbárica
+R31	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T74	
+R32	Has_Dose_or_Strength Arg1:T11 Arg2:T44	
+R33	Combined_with Arg1:T11 Arg2:T27	
+R34	Has_Dose_or_Strength Arg1:T27 Arg2:T45	
+R35	Has_Drug_Form Arg1:T29 Arg2:T48	
+R36	Has_Dose_or_Strength Arg1:T29 Arg2:T49	
+R37	Has_Dose_or_Strength Arg1:T29 Arg2:T47	
+T75	CONC 1051 1071	latencia del bloqueo
+#51	AnnotatorNotes T75	C0242465; Response Latency; Temporal Concept (?)
+T76	CONC 1175 1205	duración total de la analgesia
+#52	AnnotatorNotes T76	C4724588; anesthesia duration; Temporal Concept
+T77	CONC 1134 1173	tiempo para regresión del bloqueo motor
+R38	Experiences Arg1:T51 Arg2:T30	
+R39	Experiences Arg1:T50 Arg2:T13	
+T78	CONC 1109 1132	grado del bloqueo motor
+T79	CONC 1073 1107	nivel máximo del bloqueo sensitivo
+R40	Causes Arg1:T52 Arg2:T13	
+R41	Causes Arg1:T64 Arg2:T13	
+R42	Causes Arg1:T67 Arg2:T13	
+R43	Causes Arg1:T66 Arg2:T13	
+T80	CONC 1277 1285	latencia
+#53	AnnotatorNotes T80	C0242465; Response Latency; Temporal Concept (?)
+T81	CONC 1290 1324	nivel máximo del bloqueo sensitivo
+T82	CONC 1329 1334;1365 1382	grado del bloqueo motor
+T83	CONC 1340 1382	tiempo para la regresión del bloqueo motor
+T84	CONC 1422 1446	duración de la analgesia
+#54	AnnotatorNotes T84	C4724588; anesthesia duration; Temporal Concept
+R44	Experiences Arg1:T54 Arg2:T16	
+R45	Experiences Arg1:T55 Arg2:T31	
+R46	Has_Dose_or_Strength Arg1:T17 Arg2:T56	
+R48	Has_Dose_or_Strength Arg1:T32 Arg2:T57	
+R47	Combined_with Arg1:T17 Arg2:T32	
+T85	Quantifier_or_Qualifier 1745 1756	hiperbárica
+R49	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T85	
+R50	Has_Dose_or_Strength Arg1:T17 Arg2:T58	
+R51	Has_Dose_or_Strength Arg1:T32 Arg2:T58	
+R52	Has_Dose_or_Strength Arg1:T17 Arg2:T59	
+R53	Has_Dose_or_Strength Arg1:T32 Arg2:T59	
+R54	Used_for Arg1:T17 Arg2:T33	
+R55	Overlap Arg1:T33 Arg2:T60	
+R56	Experiences Arg1:T62 Arg2:T18	
+R57	Location_of Arg1:T19 Arg2:T18	
+R58	Before Arg1:T17 Arg2:T18	
+R59	Used_for Arg1:T26 Arg2:T10	
+R60	Used_for Arg1:T28 Arg2:T10	
+R61	Used_for Arg1:T11 Arg2:T10	
+R62	Experiences Arg1:T40 Arg2:T26	
+R63	Experiences Arg1:T40 Arg2:T28	
+R64	Experiences Arg1:T40 Arg2:T11	
+R65	Experiences Arg1:T40 Arg2:T27	
+T86	Observation 193 212	dispersión cefálica
+R66	Location_of Arg1:T25 Arg2:T86	
+R67	Before Arg1:T22 Arg2:T86	
+#55	AnnotatorNotes T6	C1707887; Efficacy Study; Research Activity
+#56	AnnotatorNotes T21	C0521329; Spinal; Spatial Concept
+#57	AnnotatorNotes T39	C1515008; Subarachnoid Route of Drug Administration; Functional Concept
+A4	Experiencer T40 Patient
+A5	Experiencer T50 Patient
+A6	Experiencer T51 Family_member
+A7	Population_data T51 Age
+A8	Experiencer T54 Patient
+A9	Experiencer T55 Family_member
+A10	Population_data T55 Age
+A11	Experiencer T62 Patient

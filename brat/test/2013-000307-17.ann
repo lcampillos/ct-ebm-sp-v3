@@ -1,0 +1,87 @@
+T1	PROC 67 91	estudio de investigación
+#1	AnnotatorNotes T1	C0681814; research study; Research Activity
+T2	ANAT 831 841	autosomica
+#2	AnnotatorNotes T2	C0596142; Autosome; Cell Component
+T3	PROC 116 128	tratamientos
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 149 159	enfermedad
+#4	AnnotatorNotes T4	C0012634; Disease; Disease or Syndrome
+T5	PROC 180 187	placebo
+#5	AnnotatorNotes T5	C0032042; Placebos; Therapeutic or Preventive Procedure
+T6	PROC 230 241	tratamiento
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 248 292	enfermedad de Alzheimer autosómica dominante
+T8	PROC 335 344	previenen
+#7	AnnotatorNotes T8	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T9	Observation 370 393	alteraciones cerebrales
+T10	DISO 430 455	síntomas de la enfermedad
+#8	AnnotatorNotes T10	C0517730; Signs and symptoms of disease; Finding
+T11	PROC 478 567	Estudio de fases II/III multicéntrico, aleatorizado, doble ciego y controlado con placebo
+T12	PROC 576 584	terapias
+#9	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	DISO 621 631	enfermedad
+#10	AnnotatorNotes T13	C0012634; Disease; Disease or Syndrome
+T14	DISO 688 733	enfermedad de Alzheimer hereditaria dominante
+T15	DISO 757 780	Enfermedad de Alzheimer
+#11	AnnotatorNotes T15	C0002395; Alzheimer's Disease; Disease or Syndrome
+T16	DISO 807 851	Enfermedad de Alzheimer autosomica dominante
+T17	ANAT 383 393	cerebrales
+#12	AnnotatorNotes T17	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T18	Date 13 17	2013
+T19	Spec_cue 107 115	posibles
+T21	Spec_cue 320 322	si
+T23	LIVB 635 645	individuos
+#13	AnnotatorNotes T23	C0027361; Persons; Population Group
+T24	Spec_cue 670 679	riesgo de
+T20	PHYS 272 292	autosómica dominante
+#14	AnnotatorNotes T20	C0443147; Autosomal dominant inheritance; Genetic Function
+T25	PHYS 712 733	hereditaria dominante
+#15	AnnotatorNotes T25	C0678942; dominant inheritance; Genetic Function
+T22	PHYS 831 851	autosomica dominante
+#16	AnnotatorNotes T22	C0443147; Autosomal dominant inheritance; Genetic Function
+T26	ANAT 272 282	autosómica
+#17	AnnotatorNotes T26	C0596142; Autosome; Cell Component
+A1	Assertion T3 Speculated
+A2	Assertion T8 Speculated
+A3	Assertion T14 Speculated
+#18	AnnotatorNotes T11	C1519042; Phase II/III Trial; Research Activity + C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C2826345; Parallel Study; Research Activity 
+T27	Neg_cue 189 191	no
+T28	CHEM 201 220	componentes activos
+#19	AnnotatorNotes T28	C1372955; Active ingredient; Chemical Viewed Functionally
+A4	Assertion T28 Negated
+T29	Spec_cue 589 598	potencial
+T30	CONC 604 611	influir
+A5	Assertion T30 Speculated
+#20	AnnotatorNotes T30	C4054723; Influence; Conceptual Entity
+T31	CONC 346 354	retrasan
+A6	Assertion T31 Speculated
+T32	CONC 357 365	corrigen
+A7	Assertion T32 Speculated
+#21	AnnotatorNotes T32	C2349182; Correct (qualifier); Qualitative Concept
+R1	Speculation Arg1:T19 Arg2:T3	
+T33	Quantifier_or_Qualifier 129 159	modificadores de la enfermedad
+R2	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T33	
+A8	Assertion T33 Speculated
+R3	Speculation Arg1:T19 Arg2:T33	
+R4	Negation Arg1:T27 Arg2:T28	
+R5	Location_of Arg1:T26 Arg2:T20	
+R6	Location_of Arg1:T17 Arg2:T9	
+R7	Speculation Arg1:T21 Arg2:T8	
+R8	Speculation Arg1:T21 Arg2:T31	
+R9	Before Arg1:T3 Arg2:T8	
+R10	Before Arg1:T5 Arg2:T8	
+R15	Overlap Arg1:T9 Arg2:T10	
+R16	Causes Arg1:T7 Arg2:T10	
+R17	Overlap Arg1:T7 Arg2:T9	
+#22	AnnotatorNotes T9	C0184524; Cerebral alteration; Finding
+R18	Before Arg1:T8 Arg2:T9	
+R19	Speculation Arg1:T29 Arg2:T30	
+R21	Experiences Arg1:T23 Arg2:T12	
+R22	Experiences Arg1:T23 Arg2:T13	
+R23	Experiences Arg1:T23 Arg2:T14	
+R24	Speculation Arg1:T24 Arg2:T14	
+R25	Experiences Arg1:T23 Arg2:T25	
+R26	Location_of Arg1:T2 Arg2:T22	
+#23	AnnotatorNotes T31	C0205421; Deferred; Temporal Concept (?)
+R11	Speculation Arg1:T21 Arg2:T32	
+A9	Experiencer T23 Patient

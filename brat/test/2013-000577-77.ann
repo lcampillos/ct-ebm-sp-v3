@@ -1,0 +1,134 @@
+T1	PROC 46 69	Tratamiento oral precoz
+T2	DISO 946 958	Comorbilidad
+#1	AnnotatorNotes T2	C1275743; Co-morbid conditions; Finding
+T3	DISO 73 110	bacteriemia por Staphylococcus Aureus
+#2	AnnotatorNotes T3	C1142423; Bacteremia due to Staphylococcus aureus; Disease or Syndrome
+T4	PROC 133 156	Tratamiento oral precoz
+T5	DISO 160 171	bacteriemia
+#3	AnnotatorNotes T5	C0004610; Bacteremia; Disease or Syndrome
+T6	DISO 253 264	Bacteriemia
+#4	AnnotatorNotes T6	C0004610; Bacteremia; Disease or Syndrome
+T7	DISO 317 328	Bacteriemia
+#5	AnnotatorNotes T7	C0004610; Bacteremia; Disease or Syndrome
+T8	DISO 332 354	infección de la sangre
+T9	DISO 443 457	complicaciones
+#6	AnnotatorNotes T9	C0009566; Complication; Pathologic Function
+T10	DISO 505 542	Bacteriemia por Staphylococcus aureus
+#7	AnnotatorNotes T10	C1142423; Bacteremia due to Staphylococcus aureus; Disease or Syndrome
+T11	PROC 584 591	Cultivo
+#8	AnnotatorNotes T11	C0430400; Laboratory culture; Laboratory Procedure
+T12	PROC 694 717	tratamiento intravenoso
+#9	AnnotatorNotes T12	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure | C1273557; Intravenous administration of treatment; Therapeutic or Preventive Procedure
+T13	DISO 755 781	Bacteriemia polimicrobiana
+#10	AnnotatorNotes T13	C0238748; BACTEREMIA, POLYMICROBIAL; Disease or Syndrome
+T14	DISO 785 802	Signos y síntomas
+#11	AnnotatorNotes T14	C0037088; Signs and Symptoms; Sign or Symptom
+T15	DISO 806 842	bacteriemia complicada por S. aureus
+T16	DISO 859 872	shock séptico
+#12	AnnotatorNotes T16	C0036983; Septic Shock; Pathologic Function
+T17	DISO 874 885	bacteriemia
+#13	AnnotatorNotes T17	C0004610; Bacteremia; Disease or Syndrome
+T18	DISO 916 930	cuerpo extraño
+#14	AnnotatorNotes T18	C0016542; Foreign Bodies; Injury or Poisoning
+T19	ANAT 348 354	sangre
+#15	AnnotatorNotes T19	C0005767; Blood; Body Substance
+T20	Date 13 17	2013
+T21	Route 58 62	oral
+#16	AnnotatorNotes T21	C1527415; Oral Route of Drug administration; Functional Concept
+T22	LIVB 89 110	Staphylococcus Aureus
+#17	AnnotatorNotes T22	C0038172; Staphylococcus aureus; Bacterium
+T23	Route 145 149	oral
+#18	AnnotatorNotes T23	C1527415; Oral Route of Drug administration; Functional Concept
+T25	LIVB 201 222	Staphylococcus aureus
+#19	AnnotatorNotes T25	C0038172; Staphylococcus aureus; Bacterium
+T26	LIVB 372 380	bacteria
+#20	AnnotatorNotes T26	C0004611; Bacteria; Bacterium
+T27	LIVB 389 410	Staphylococcus aureus
+#21	AnnotatorNotes T27	C0038172; Staphylococcus aureus; Bacterium
+T28	LIVB 414 423	pacientes
+#22	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Spec_cue 433 442	riesgo de
+T30	LIVB 521 542	Staphylococcus aureus
+#23	AnnotatorNotes T30	C0038172; Staphylococcus aureus; Bacterium
+T31	LIVB 606 615	S. aureus
+#24	AnnotatorNotes T31	C0038172; Staphylococcus aureus; Bacterium
+T33	LIVB 647 655	paciente
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Duration 674 690	entre 5 y 7 días
+T35	Route 706 717	intravenoso
+#26	AnnotatorNotes T35	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T24	LIVB 470 479	S. Aureus
+#27	AnnotatorNotes T24	C0038172; Staphylococcus aureus; Bacterium
+T36	LIVB 243 252	S. Aureus
+#28	AnnotatorNotes T36	C0038172; Staphylococcus aureus; Bacterium
+T32	LIVB 833 842	S. aureus
+#29	AnnotatorNotes T32	C0038172; Staphylococcus aureus; Bacterium
+A1	Assertion T9 Speculated
+A2	Status T12 History_of
+T37	Neg_cue 617 619	no
+T38	Observation 632 645	contaminación
+A3	Assertion T38 Negated
+T39	Quantifier_or_Qualifier 934 943	extraíble
+A4	Assertion T39 Negated
+T40	Neg_cue 931 933	no
+A5	Status T35 History_of
+R1	Has_Route_or_Mode Arg1:T1 Arg2:T21	
+R2	Causes Arg1:T22 Arg2:T3	
+R3	Has_Route_or_Mode Arg1:T4 Arg2:T23	
+R5	Causes Arg1:T36 Arg2:T6	
+T41	Observation 175 186	bajo riesgo
+#30	AnnotatorNotes T41	C5201228; Low risk; Finding
+R6	Overlap Arg1:T5 Arg2:T41	
+R4	Causes Arg1:T25 Arg2:T5	
+T42	Observation 546 557	bajo riesgo
+#31	AnnotatorNotes T42	C5201228; Low risk; Finding
+R7	Causes Arg1:T30 Arg2:T10	
+R8	Overlap Arg1:T10 Arg2:T42	
+R9	Speculation Arg1:T29 Arg2:T9	
+T43	Observation 428 442	bajo riesgo de
+#32	AnnotatorNotes T43	C5201228; Low risk; Finding
+R10	Before Arg1:T43 Arg2:T9	
+R11	Causes Arg1:T24 Arg2:T9	
+R12	Causes Arg1:T24 Arg2:T7	
+R13	Location_of Arg1:T19 Arg2:T8	
+R14	Causes Arg1:T24 Arg2:T8	
+R15	Causes Arg1:T27 Arg2:T8	
+R16	Causes Arg1:T27 Arg2:T7	
+R17	Causes Arg1:T27 Arg2:T9	
+R18	Experiences Arg1:T28 Arg2:T7	
+R19	Experiences Arg1:T28 Arg2:T8	
+R20	Experiences Arg1:T28 Arg2:T43	
+R21	Experiences Arg1:T28 Arg2:T9	
+R22	Causes Arg1:T26 Arg2:T7	
+R23	Causes Arg1:T26 Arg2:T8	
+R24	Causes Arg1:T26 Arg2:T9	
+#33	AnnotatorNotes T8	C2316160; Infection of bloodstream; Pathologic Function
+T44	Result_or_Value 592 600	positivo
+#34	AnnotatorNotes T44	C1446409; Positive; Finding
+R25	Has_Result_or_Value Arg1:T11 Arg2:T44	
+R26	Causes Arg1:T31 Arg2:T44	
+R28	Negation Arg1:T37 Arg2:T38	
+#35	AnnotatorNotes T38	C2609326; Product contamination bacterial; Finding
+R30	Experiences Arg1:T33 Arg2:T38	
+R31	Experiences Arg1:T33 Arg2:T12	
+R32	Has_Route_or_Mode Arg1:T12 Arg2:T35	
+R33	Has_Duration_or_Interval Arg1:T12 Arg2:T34	
+R29	Causes Arg1:T15 Arg2:T14	
+T45	Observation 844 857	Foco profundo
+R34	Causes Arg1:T15 Arg2:T45	
+R35	Causes Arg1:T15 Arg2:T16	
+R36	Causes Arg1:T15 Arg2:T17	
+T46	Quantifier_or_Qualifier 886 896	prolongada
+#36	AnnotatorNotes T46	C0439590; Prolonged; Temporal Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T46	
+R38	Negation Arg1:T40 Arg2:T39	
+R39	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T39	
+T47	Quantifier_or_Qualifier 959 964	grave
+#37	AnnotatorNotes T47	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R40	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T47	
+R41	Experiences Arg1:T33 Arg2:T11	
+R42	Causes Arg1:T32 Arg2:T15	
+R43	Causes Arg1:T32 Arg2:T17	
+#38	AnnotatorNotes T39	C1882925; Removable; Qualitative Concept
+A6	Experiencer T28 Patient
+A7	Experiencer T33 Patient

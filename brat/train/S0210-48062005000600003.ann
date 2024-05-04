@@ -1,0 +1,87 @@
+T1	PROC 381 393	randomizados
+#1	AnnotatorNotes T1	C0034656; Randomization; Research Activity
+T2	PROC 45 76	biopsia de próstata por punción
+#2	AnnotatorNotes T2	C0401640; Needle biopsy of prostate; Diagnostic Procedure
+T3	PROC 78 135	estudio randomizado, doble ciego y controlado con placebo
+#3	AnnotatorNotes T3	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+T4	PROC 137 207	Estudio prospectivo, randomizado, doble ciego y controlado con placebo
+#4	AnnotatorNotes T4	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C0033522; Prospective Studies; Research Activity
+T5	PROC 208 232	evaluando la efectividad
+T6	PROC 239 266	infiltración periprostática
+T7	CHEM 270 279	lidocaína
+#5	AnnotatorNotes T7	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T8	PROC 308 327	biopsia por punción
+#6	AnnotatorNotes T8	C0005560; Needle biopsy procedure; Diagnostic Procedure | C0936232; Puncture biopsy; Diagnostic Procedure
+T9	CHEM 416 425	lidocaína
+#7	AnnotatorNotes T9	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T10	CHEM 441 458	suero fisiológico
+#8	AnnotatorNotes T10	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T11	PROC 468 486	Evaluando el dolor
+#9	AnnotatorNotes T11	C0030198; Pain Measurement; Diagnostic Procedure
+T12	PROC 496 517	escala visual análoga
+#10	AnnotatorNotes T12	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T13	DISO 652 691	complicaciones derivadas del anestésico
+#11	AnnotatorNotes T13	C0392008; Complication of anesthesia; Pathologic Function
+T14	PROC 697 724	infiltración periprostática
+T15	DISO 759 773	complicaciones
+#12	AnnotatorNotes T15	C0009566; Complication; Pathologic Function
+T16	PROC 812 825	procedimiento
+#13	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T17	PROC 873 892	biopsia por punción
+#14	AnnotatorNotes T17	C0005560; Needle biopsy procedure; Diagnostic Procedure | C0936232; Puncture biopsy; Diagnostic Procedure
+T18	PROC 1 39	Infiltración anestésica periprostática
+T19	CHEM 14 24	anestésica
+#15	AnnotatorNotes T19	C0002932; Anesthetics; Pharmacologic Substance
+T20	ANAT 56 64	próstata
+#16	AnnotatorNotes T20	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T21	DISO 296 301	dolor
+#17	AnnotatorNotes T21	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T22	DISO 481 486	dolor
+#18	AnnotatorNotes T22	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T23	DISO 550 555	dolor
+#19	AnnotatorNotes T23	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T24	CHEM 681 691	anestésico
+#20	AnnotatorNotes T24	C0002932; Anesthetics; Pharmacologic Substance
+T25	DISO 802 807	dolor
+#21	AnnotatorNotes T25	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T27	Duration 347 358	trece meses
+T28	LIVB 364 373	pacientes
+#22	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Dose 407 412	10 ml
+T30	Dose 426 431	al 1%
+T33	Neg_cue 644 646	No
+T34	Neg_cue 747 749	no
+T26	Route 25 39	periprostática
+#23	AnnotatorNotes T26	C1519008; Periprostatic; Spatial Concept
+T31	Route 252 266	periprostática
+#24	AnnotatorNotes T31	C1519008; Periprostatic; Spatial Concept
+T32	Route 710 724	periprostática
+#25	AnnotatorNotes T32	C1519008; Periprostatic; Spatial Concept
+A1	Assertion T13 Negated
+A2	Assertion T15 Negated
+R1	Negation Arg1:T33 Arg2:T13	
+R2	Negation Arg1:T34 Arg2:T15	
+R3	Has_Route_or_Mode Arg1:T19 Arg2:T26	
+R4	Used_for Arg1:T19 Arg2:T18	
+R5	Location_of Arg1:T20 Arg2:T2	
+R6	Before Arg1:T18 Arg2:T2	
+R7	Has_Route_or_Mode Arg1:T7 Arg2:T31	
+R8	Used_for Arg1:T7 Arg2:T6	
+R9	Before Arg1:T6 Arg2:T8	
+R10	Causes Arg1:T8 Arg2:T21	
+R11	Has_Dose_or_Strength Arg1:T9 Arg2:T29	
+R12	Has_Dose_or_Strength Arg1:T9 Arg2:T30	
+R13	Experiences Arg1:T28 Arg2:T9	
+R14	Experiences Arg1:T28 Arg2:T10	
+R15	Has_Duration_or_Interval Arg1:T1 Arg2:T27	
+R20	Causes Arg1:T24 Arg2:T13	
+R21	Causes Arg1:T16 Arg2:T25	
+R22	Before Arg1:T14 Arg2:T15	
+R23	Causes Arg1:T14 Arg2:T35	
+R24	Has_Route_or_Mode Arg1:T14 Arg2:T32	
+T35	Observation 791 807	reducir el dolor
+#26	AnnotatorNotes T35	C5230944; Sensation of pain reduced; Finding
+T36	Observation 283 301	disminuir el dolor
+#27	AnnotatorNotes T36	C5230944; Sensation of pain reduced; Finding
+R25	Causes Arg1:T6 Arg2:T36	
+A3	Experiencer T28 Patient

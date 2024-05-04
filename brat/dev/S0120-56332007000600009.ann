@@ -1,0 +1,154 @@
+T1	DISO 80 94	complicaciones
+#1	AnnotatorNotes T1	C0009566; Complication; Pathologic Function
+T2	PROC 101 113	safenectomía
+#2	AnnotatorNotes T2	C1168178; Saphenectomy; Therapeutic or Preventive Procedure
+T3	PROC 27 49	técnica menos invasiva
+T4	PROC 120 159	cirugía de revascularización miocárdica
+#3	AnnotatorNotes T4	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure | C0010055; Coronary Artery Bypass Surgery; Therapeutic or Preventive Procedure
+T5	ANAT 207 226	vena safena interna
+#4	AnnotatorNotes T5	C0392907; Great saphenous vein structure; Body Part, Organ, or Organ Component | C1278976; Entire long saphenous vein; Body Part, Organ, or Organ Component
+T6	PROC 263 302	cirugía de revascularización miocárdica
+#5	AnnotatorNotes T6	C0027056; Myocardial Revascularization; Therapeutic or Preventive Procedure | C0010055; Coronary Artery Bypass Surgery; Therapeutic or Preventive Procedure
+T7	PROC 667 683	técnica estándar
+T8	DISO 321 335	complicaciones
+#6	AnnotatorNotes T8	C0009566; Complication; Pathologic Function
+T9	PROC 340 378	procedimiento de extracción de la vena
+T10	PROC 607 643	extracción de la vena safena interna
+T11	ANAT 624 643	vena safena interna
+#7	AnnotatorNotes T11	C0392907; Great saphenous vein structure; Body Part, Organ, or Organ Component | C1278976; Entire long saphenous vein; Body Part, Organ, or Organ Component
+T12	DISO 835 862	infección intrahospitalaria
+#8	AnnotatorNotes T12	C0205721; Infections, Hospital; Disease or Syndrome
+T13	PROC 869 881	safenectomía
+#9	AnnotatorNotes T13	C1168178; Saphenectomy; Therapeutic or Preventive Procedure
+T14	DISO 1204 1213	infección
+#10	AnnotatorNotes T14	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T15	PROC 1245 1252	cirugía
+#11	AnnotatorNotes T15	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T16	PROC 1551 1578	safenectomía menos invasiva
+T17	DISO 1692 1709	herida quirúrgica
+#12	AnnotatorNotes T17	C0332803; Surgical wound; Injury or Poisoning
+T18	PROC 1699 1709	quirúrgica
+#13	AnnotatorNotes T18	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T19	ANAT 1717 1724	piernas
+#14	AnnotatorNotes T19	C1140621; Leg; Body Part, Organ, or Organ Component | C1269079; Entire lower limb; Body Part, Organ, or Organ Component
+T20	ANAT 149 159	miocárdica
+#15	AnnotatorNotes T20	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T21	PROC 576 598	técnica menos invasiva
+T22	ANAT 237 245	conducto
+#16	AnnotatorNotes T22	C1267211; Entire duct; Body Part, Organ, or Organ Component
+T23	ANAT 292 302	miocárdica
+#17	AnnotatorNotes T23	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T24	ANAT 374 378	vena
+#18	AnnotatorNotes T24	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+T25	PROC 524 549	ensayo clínico controlado
+#19	AnnotatorNotes T25	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T26	PROC 761 773	intervención
+#20	AnnotatorNotes T26	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T27	PROC 897 909	intervención
+#21	AnnotatorNotes T27	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T28	PROC 1302 1314	intervención
+#22	AnnotatorNotes T28	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T29	PROC 1445 1457	intervención
+#23	AnnotatorNotes T29	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T31	LIVB 736 745	pacientes
+#24	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 752 773	grupo de intervención
+#25	AnnotatorNotes T32	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T33	LIVB 780 789	pacientes
+#26	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 796 809	grupo control
+#27	AnnotatorNotes T34	C0009932; Control Groups; Group
+T35	LIVB 888 909	grupo de intervención
+#28	AnnotatorNotes T35	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T36	LIVB 955 968	grupo control
+#29	AnnotatorNotes T36	C0009932; Control Groups; Group
+T37	Neg_cue 1191 1199	se evita
+T38	LIVB 1225 1234	pacientes
+#30	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 1279 1288	pacientes
+#31	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 1293 1314	grupo de intervención
+#32	AnnotatorNotes T40	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T41	Duration 1410 1427	7,39 ± 5,882 días
+T42	LIVB 1436 1457	grupo de intervención
+#33	AnnotatorNotes T42	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T43	Duration 1460 1476	8,64 ± 8,55 días
+T44	LIVB 1485 1498	grupo control
+#34	AnnotatorNotes T44	C0009932; Control Groups; Group
+T30	LIVB 1087 1103	grupo de estudio
+#35	AnnotatorNotes T30	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T47	LIVB 1381 1390	controles
+#36	AnnotatorNotes T47	C0009932; Control Groups; Group
+A1	Assertion T14 Negated
+R2	Causes Arg1:T2 Arg2:T1	
+R3	Overlap Arg1:T3 Arg2:T2	
+R4	Overlap Arg1:T2 Arg2:T4	
+R5	Location_of Arg1:T20 Arg2:T4	
+R6	Used_for Arg1:T5 Arg2:T6	
+R7	Location_of Arg1:T23 Arg2:T6	
+R8	Causes Arg1:T9 Arg2:T8	
+T46	Observation 432 442	morbilidad
+#38	AnnotatorNotes T46	C0026538; Morbidity - disease rate; Finding
+T48	CONC 444 465	estancia hospitalaria
+#39	AnnotatorNotes T48	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R10	Causes Arg1:T8 Arg2:T46	
+T49	CONC 468 486	costos de atención
+#40	AnnotatorNotes T49	C0085552; Health Care Costs; Quantitative Concept
+R11	Overlap Arg1:T21 Arg2:T10	
+R12	Location_of Arg1:T11 Arg2:T10	
+R13	Overlap Arg1:T10 Arg2:T7	
+R15	Experiences Arg1:T31 Arg2:T21	
+R16	Experiences Arg1:T31 Arg2:T10	
+R17	Experiences Arg1:T31 Arg2:T7	
+R18	Experiences Arg1:T33 Arg2:T21	
+R19	Experiences Arg1:T33 Arg2:T10	
+R20	Experiences Arg1:T33 Arg2:T7	
+R21	Experiences Arg1:T34 Arg2:T7	
+R22	Experiences Arg1:T34 Arg2:T10	
+R23	Experiences Arg1:T32 Arg2:T21	
+R24	Experiences Arg1:T32 Arg2:T10	
+R26	Experiences Arg1:T35 Arg2:T13	
+R27	Experiences Arg1:T35 Arg2:T12	
+R28	Before Arg1:T13 Arg2:T12	
+R29	Experiences Arg1:T36 Arg2:T13	
+R30	Experiences Arg1:T36 Arg2:T12	
+R31	Experiences Arg1:T30 Arg2:T27	
+R32	Experiences Arg1:T30 Arg2:T13	
+R33	Experiences Arg1:T30 Arg2:T12	
+T50	CONC 1141 1144	NNT
+#41	AnnotatorNotes T50	C3179138; Numbers Needed To Treat; Quantitative Concept
+R34	Negation Arg1:T37 Arg2:T14	
+R35	Before Arg1:T27 Arg2:T14	
+R36	Experiences Arg1:T30 Arg2:T14	
+R37	Experiences Arg1:T35 Arg2:T14	
+R38	Experiences Arg1:T38 Arg2:T14	
+R40	Before Arg1:T15 Arg2:T14	
+R41	Experiences Arg1:T38 Arg2:T13	
+R42	Experiences Arg1:T38 Arg2:T27	
+R43	Experiences Arg1:T38 Arg2:T12	
+R44	Experiences Arg1:T40 Arg2:T28	
+T51	CONC 1326 1347	estancia hospitalaria
+#42	AnnotatorNotes T51	C3489408; Hospital Stay; Temporal Concept | C0420512; Inpatient stay; Functional Concept
+R45	Has_Duration_or_Interval Arg1:T51 Arg2:T41	
+R46	Experiences Arg1:T42 Arg2:T29	
+R47	Has_Duration_or_Interval Arg1:T51 Arg2:T43	
+T52	Observation 1667 1677	morbilidad
+#43	AnnotatorNotes T52	C0026538; Morbidity - disease rate; Finding
+R48	Causes Arg1:T18 Arg2:T17	
+R49	Overlap Arg1:T52 Arg2:T17	
+R50	Location_of Arg1:T19 Arg2:T17	
+R51	Causes Arg1:T16 Arg2:T17	
+#37	AnnotatorNotes T9	C5766889; venous extraction; Therapeutic or Preventive Procedure
+A2	Experiencer T31 Patient
+A3	Experiencer T32 Patient
+A4	Experiencer T33 Patient
+A5	Experiencer T34 Patient
+A6	Experiencer T35 Patient
+A7	Experiencer T36 Patient
+A8	Experiencer T30 Patient
+A9	Experiencer T38 Patient
+A10	Experiencer T39 Patient
+A11	Experiencer T40 Patient
+A12	Experiencer T47 Patient
+A13	Experiencer T44 Patient
+A14	Experiencer T42 Patient

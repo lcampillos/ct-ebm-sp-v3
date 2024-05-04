@@ -1,0 +1,155 @@
+T1	PROC 44 58	ENSAYO CLÍNICO
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 64 96	EXPLORAR LA EFICACIA Y SEGURIDAD
+T3	CHEM 100 110	MELATONINA
+#2	AnnotatorNotes T3	C0025219; melatonin; Hormone · Organic Chemical · Pharmacologic Substance
+T4	DISO 128 136	COVID-19
+#3	AnnotatorNotes T4	C5203670; COVID19 (disease); Disease or Syndrome
+T5	PROC 202 291	ENSAYO CLÍNICO DE FASE II, UNICÉNTRICO, DOBLE CIEGO, ALEATORIZADO, CONTROLADO CON PLACEBO
+T6	PROC 552 576	consentimiento informado
+#4	AnnotatorNotes T6	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T7	PROC 297 329	EXPLORAR LA EFICACIA Y SEGURIDAD
+T8	CHEM 333 343	MELATONINA
+#5	AnnotatorNotes T8	C0025219; melatonin; Hormone · Organic Chemical · Pharmacologic Substance
+T9	PROC 375 392	INGRESADOS EN UCI
+#6	AnnotatorNotes T9	C5419131; Intensive Care Unit Stay; Health Care Activity
+T10	DISO 434 459	Infección por coronavirus
+#7	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+T11	DISO 485 507	Infección por COVID-19
+#8	AnnotatorNotes T11	C5203670; COVID19 (disease); Disease or Syndrome
+T12	DISO 689 713	infección por SARS-CoV-2
+#9	AnnotatorNotes T12	C5203670; COVID19 (disease); Disease or Syndrome
+T13	PROC 769 783	Ingreso en UCI
+T14	DISO 788 831	insuficiencia respiratoria aguda hipoxémica
+#10	AnnotatorNotes T14	C2977065; Acute respiratory failure with hypoxia; Disease or Syndrome
+T15	DISO 848 872	infección por SARS-CoV-2
+#11	AnnotatorNotes T15	C5203670; COVID19 (disease); Disease or Syndrome
+T16	DISO 1073 1081	COVID-19
+#12	AnnotatorNotes T16	C5203670; COVID19 (disease); Disease or Syndrome
+T17	PROC 883 899	ingresado en UCI
+T18	PROC 927 947	ventilación mecánica
+#13	AnnotatorNotes T18	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T19	DISO 983 1009	insuficiencia respiratoria
+#14	AnnotatorNotes T19	C0035229; Respiratory Insufficiency; Pathologic Function | C1145670; Respiratory Failure; Disease or Syndrome
+T20	PROC 1316 1319	GFR
+#15	AnnotatorNotes T20	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+T21	CHEM 1119 1130	medicamento
+#16	AnnotatorNotes T21	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T22	CHEM 1223 1236	Transaminasas
+#17	AnnotatorNotes T22	C0002594; Transaminases; Amino Acid, Peptide, or Protein · Enzyme
+T23	ANAT 1237 1246	hepáticas
+#18	AnnotatorNotes T23	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T24	DISO 1267 1286	Insuficiencia renal
+#19	AnnotatorNotes T24	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T25	DISO 1338 1357	Enfermedad terminal
+T26	DISO 1381 1402	Enfermedad autoinmune
+#20	AnnotatorNotes T26	C0004364; Autoimmune Diseases; Disease or Syndrome
+T27	PROC 1496 1510	procedimientos
+#21	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T28	PROC 137 180	INGRESADOS EN UNIDAD DE CUIDADOS INTENSIVOS
+T29	DISO 366 374	COVID-19
+#22	AnnotatorNotes T29	C5203670; COVID19 (disease); Disease or Syndrome
+T30	PROC 762 765	PCR
+#23	AnnotatorNotes T30	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T31	PROC 949 951	VM
+#24	AnnotatorNotes T31	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T32	PROC 1098 1130	administración de un medicamento
+T33	PROC 1223 1246	Transaminasas hepáticas
+#25	AnnotatorNotes T33	C0919834; Transaminase Assay; Laboratory Procedure
+T34	ANAT 1281 1286	renal
+#26	AnnotatorNotes T34	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T35	PROC 1306 1314	diálisis
+#27	AnnotatorNotes T35	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T36	Date 12 16	2020
+T37	LIVB 114 123	PACIENTES
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Route 344 348	I.V.
+#29	AnnotatorNotes T38	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T39	LIVB 352 361	PACIENTES
+#30	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 448 459	coronavirus
+#31	AnnotatorNotes T40	C5203676; SARS-CoV-2; Virus
+T41	LIVB 591 599	paciente
+#32	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 604 612	familiar
+#33	AnnotatorNotes T42	C0080103; Relative (related person); Family Group
+T43	LIVB 618 637	representante legal
+#34	AnnotatorNotes T43	C4288823; Legal Representative for the Study; Human
+T44	Age 646 672	igual o superior a 18 años
+T45	Duration 900 915	menos de 7 dias
+T46	Neg_cue 923 926	sin
+T50	PHYS 1327 1335	Embarazo
+#35	AnnotatorNotes T50	C0032961; Pregnancy; Organism Function
+T51	LIVB 1430 1438	paciente
+#36	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 1458 1470	investigador
+#37	AnnotatorNotes T52	C0035173; Research Personnel; Professional or Occupational Group
+T53	Neg_cue 1471 1477	impida
+T54	ANAT 802 814	respiratoria
+#38	AnnotatorNotes T54	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T55	ANAT 997 1009	respiratoria
+#39	AnnotatorNotes T55	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T56	LIVB 703 713	SARS-CoV-2
+#40	AnnotatorNotes T56	C5203676; SARS-CoV-2; Virus
+T57	LIVB 862 872	SARS-CoV-2
+#41	AnnotatorNotes T57	C5203676; SARS-CoV-2; Virus
+A1	Assertion T18 Negated
+A2	Assertion T31 Negated
+A3	Assertion T27 Negated
+#42	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#43	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#44	AnnotatorNotes T28	C5419131; Intensive Care Unit Stay; Health Care Activity
+#45	AnnotatorNotes T13	C5419131; Intensive Care Unit Stay; Health Care Activity
+#46	AnnotatorNotes T17	C5419131; Intensive Care Unit Stay; Health Care Activity
+#47	AnnotatorNotes T25	C0679247; Terminal illness; Disease or Syndrome
+#48	AnnotatorNotes T32	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+T47	Observation 959 976	signos de mejoría
+A4	Assertion T47 Negated
+T48	Neg_cue 955 958	sin
+R1	Negation Arg1:T46 Arg2:T18	
+R2	Negation Arg1:T46 Arg2:T31	
+R3	Negation Arg1:T48 Arg2:T47	
+T49	Neg_cue 1165 1175	carezca de
+T58	CONC 1180 1192	autorización
+A5	Assertion T58 Negated
+R4	Negation Arg1:T49 Arg2:T58	
+R5	Negation Arg1:T53 Arg2:T27	
+R6	Experiences Arg1:T37 Arg2:T3	
+R7	Experiences Arg1:T37 Arg2:T4	
+R8	Experiences Arg1:T37 Arg2:T28	
+R10	Has_Route_or_Mode Arg1:T8 Arg2:T38	
+R11	Experiences Arg1:T39 Arg2:T8	
+R12	Experiences Arg1:T39 Arg2:T29	
+R13	Experiences Arg1:T39 Arg2:T9	
+R15	Causes Arg1:T40 Arg2:T10	
+T59	Observation 536 576	Otorgamiento de consentimiento informado
+#50	AnnotatorNotes T59	C0514044; Informed consent obtained; Finding
+R16	Causes Arg1:T56 Arg2:T12	
+R20	Causes Arg1:T15 Arg2:T14	
+R21	Location_of Arg1:T54 Arg2:T14	
+R22	Causes Arg1:T57 Arg2:T15	
+R23	Has_Duration_or_Interval Arg1:T17 Arg2:T45	
+R24	Overlap Arg1:T17 Arg2:T18	
+R25	Overlap Arg1:T17 Arg2:T31	
+R27	Before Arg1:T19 Arg2:T47	
+R28	Location_of Arg1:T55 Arg2:T19	
+T60	Observation 1045 1069	incluido en otro estudio
+R30	Used_for Arg1:T21 Arg2:T32	
+T61	CONC 1134 1160	fase de desarrollo clínico
+R31	Overlap Arg1:T21 Arg2:T61	
+R33	Location_of Arg1:T23 Arg2:T33	
+T62	Result_or_Value 1247 1263	> 5 veces el LSN
+R34	Has_Result_or_Value Arg1:T33 Arg2:T62	
+T63	Quantifier_or_Qualifier 1290 1300	estadio IV
+R35	Location_of Arg1:T34 Arg2:T24	
+R36	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T63	
+T64	Result_or_Value 1320 1323	<30
+R37	Has_Result_or_Value Arg1:T20 Arg2:T64	
+R39	Experiences Arg1:T51 Arg2:T27	
+A6	Experiencer T37 Patient
+A7	Experiencer T39 Patient
+A8	Experiencer T43 Other
+A9	Experiencer T42 Family_member
+A10	Experiencer T41 Patient
+A11	Experiencer T51 Patient
+A12	Experiencer T52 Other

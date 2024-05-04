@@ -1,0 +1,298 @@
+T1	PROC 45 59	Ensayo Clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 93 101	terapias
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	CHEM 103 120	ácido hialurónico
+#3	AnnotatorNotes T3	C0020196; hyaluronic acid; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T4	CHEM 121 139	condroitín sulfato
+#4	AnnotatorNotes T4	C0008466; chondroitin sulfates; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T5	CHEM 144 166	fosfomicina trometamol
+#5	AnnotatorNotes T5	C0543454; fosfomycin tromethamine; Antibiotic · Organic Chemical
+T6	PROC 174 184	prevención
+#6	AnnotatorNotes T6	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T7	DISO 192 200	cistitis
+#7	AnnotatorNotes T7	C0010692; Cystitis; Disease or Syndrome
+T8	PROC 236 299	Ensayo clínico multicéntrico en fase IV, aleatorizado, paralelo
+T9	PROC 306 325	valorar la eficacia
+#8	AnnotatorNotes T9	C1707887; Efficacy Study; Research Activity
+T10	CHEM 330 347	Ácido Hialurónico
+#9	AnnotatorNotes T10	C0020196; hyaluronic acid; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T11	CHEM 348 366	Condroitín Sulfato
+#10	AnnotatorNotes T11	C0008466; chondroitin sulfates; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T12	CHEM 376 398	Fosfomicina trometamol
+#11	AnnotatorNotes T12	C0543454; fosfomycin tromethamine; Antibiotic · Organic Chemical
+T13	PROC 405 415	prevención
+#12	AnnotatorNotes T13	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T14	DISO 423 444	Infecciones Urinarias
+#13	AnnotatorNotes T14	C0042029; Urinary tract infection; Disease or Syndrome
+T15	DISO 481 489	Cistitis
+#14	AnnotatorNotes T15	C0010692; Cystitis; Disease or Syndrome
+T16	DISO 530 561	Infecciones del tracto urinario
+#15	AnnotatorNotes T16	C0042029; Urinary tract infection; Disease or Syndrome
+T17	ANAT 546 561	tracto urinario
+#16	AnnotatorNotes T17	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T18	DISO 633 653	infecciones de orina
+T19	PROC 686 702	cultivo de orina
+#17	AnnotatorNotes T19	C0430404; Urine culture; Laboratory Procedure
+T20	PROC 741 757	Cultivo de orina
+#18	AnnotatorNotes T20	C0430404; Urine culture; Laboratory Procedure
+T21	ANAT 752 757	orina
+#19	AnnotatorNotes T21	C0042036; Urine; Body Substance
+T22	PROC 875 896	método anticonceptivo
+#20	AnnotatorNotes T22	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T23	PROC 1074 1110	consentimiento informado por escrito
+#21	AnnotatorNotes T23	C0811741; Obtain informed written consent; Health Care Activity
+T24	PROC 931 954	métodos anticonceptivos
+#22	AnnotatorNotes T24	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T25	PROC 1018 1028	vasectomía
+#23	AnnotatorNotes T25	C0042387; Vasectomy; Therapeutic or Preventive Procedure
+T26	CHEM 1031 1057	anticonceptivos hormonales
+T27	DISO 1150 1159	infección
+#24	AnnotatorNotes T27	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T28	DISO 1204 1226	infección por gérmenes
+T29	CHEM 1241 1263	fosfomicina trometamol
+#25	AnnotatorNotes T29	C0543454; fosfomycin tromethamine; Antibiotic · Organic Chemical
+T30	PROC 1267 1303	Tratamiento antibiótico profiláctico
+#26	AnnotatorNotes T30	C0282638; Antibiotic Prophylaxis; Therapeutic or Preventive Procedure
+T31	CHEM 1279 1290	antibiótico
+#27	AnnotatorNotes T31	C0003232; Antibiotics; Antibiotic
+T32	PROC 1337 1348	Tratamiento
+#28	AnnotatorNotes T32	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T33	CHEM 1353 1355	AH
+#29	AnnotatorNotes T33	C0020196; hyaluronic acid; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T34	CHEM 1356 1358	CS
+#30	AnnotatorNotes T34	C0008466; chondroitin sulfates; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T35	PROC 1463 1472	ecografía
+T36	ANAT 1508 1515	vesical
+#31	AnnotatorNotes T36	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T37	DISO 1529 1542	tumor vesical
+T38	DISO 1544 1560	litiasis vesical
+#32	AnnotatorNotes T38	C0005683; Urinary Bladder Calculi (disorder); Disease or Syndrome
+T39	DISO 1568 1584	Vejiga neurógena
+#33	AnnotatorNotes T39	C0005697; Neurogenic Urinary Bladder; Disease or Syndrome
+T40	DISO 1588 1620	Malformación del tracto urinario
+#34	AnnotatorNotes T40	C0158698; Congenital malformation of the urinary system; Congenital Abnormality
+T41	DISO 1412 1443	Residuo postmiccional aumentado
+T42	CHEM 1687 1699	espermicidas
+#35	AnnotatorNotes T42	C0037862; Spermatocidal Agents; Pharmacologic Substance
+T43	DISO 1703 1718	Inmunosupresión
+#36	AnnotatorNotes T43	C4048329; Immunosuppression; Disease or Syndrome
+T44	CHEM 1720 1731	corticoides
+#37	AnnotatorNotes T44	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T45	CHEM 1733 1749	inmunosupresores
+#38	AnnotatorNotes T45	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T46	DISO 1751 1777	enfermedad inmunosupresora
+T47	DISO 1782 1809	Insuficiencia renal crónica
+#39	AnnotatorNotes T47	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T48	DISO 1824 1831	Alergia
+#40	AnnotatorNotes T48	C1527304; Allergic Reaction; Pathologic Function
+T49	CHEM 1863 1882	fármacos en estudio
+#41	AnnotatorNotes T49	C0013230; Investigational New Drugs; Pharmacologic Substance
+T50	DISO 1834 1846	intolerancia
+#42	AnnotatorNotes T50	C0277585; Intolerance to drug; Pathologic Function
+T51	DISO 1886 1895	Vaginitis
+#43	AnnotatorNotes T51	C0042267; Vaginitis; Disease or Syndrome
+T52	PROC 1918 1946	terapia hormonal sustitutiva
+#44	AnnotatorNotes T52	C0282402; Hormone replacement therapy; Therapeutic or Preventive Procedure
+T53	PROC 1954 1989	tratamiento hormonal genital tópico
+T54	ANAT 1975 1982	genital
+#45	AnnotatorNotes T54	C0017420; Genitalia; Body Part, Organ, or Organ Component | C0227605; External genitalia; Body Part, Organ, or Organ Component | C0559522; Genital system; Body System
+T55	PROC 2005 2027	intervención urológica
+T56	PROC 2070 2094	visita de aleatorización
+#46	AnnotatorNotes T56	C1512346; Patient Visit; Health Care Activity + C0034656; Randomization; Research Activity
+T57	DISO 2098 2119	Enfermedad neoplásica
+#47	AnnotatorNotes T57	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T58	PROC 65 85	comparar la eficacia
+#48	AnnotatorNotes T58	C1707887; Efficacy Study; Research Activity
+T59	ANAT 435 444	Urinarias
+#49	AnnotatorNotes T59	C1508753; Urinary system; Body System
+T60	ANAT 697 702	orina
+#50	AnnotatorNotes T60	C0042036; Urine; Body Substance
+T61	ANAT 648 653	orina
+#51	AnnotatorNotes T61	C0042036; Urine; Body Substance
+T63	DISO 1489 1515	Patología orgánica vesical
+T64	ANAT 1535 1542	vesical
+#52	AnnotatorNotes T64	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T65	ANAT 1553 1560	vesical
+#53	AnnotatorNotes T65	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T66	ANAT 1568 1574	Vejiga
+#54	AnnotatorNotes T66	C0005682; Urinary Bladder; Body Part, Organ, or Organ Component
+T67	ANAT 1605 1620	tracto urinario
+#55	AnnotatorNotes T67	C0042027; Urinary tract; Body Part, Organ, or Organ Component | C1280341; Entire urinary tract; Body System
+T68	ANAT 1796 1801	renal
+#56	AnnotatorNotes T68	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T69	CHEM 1926 1934	hormonal
+#57	AnnotatorNotes T69	C0019932; Hormones; Hormone
+T70	CHEM 1966 1974	hormonal
+#58	AnnotatorNotes T70	C0019932; Hormones; Hormone
+T71	Date 13 17	2014
+T72	LIVB 602 609	Mujeres
+#59	AnnotatorNotes T72	C0043210; Woman; Population Group
+T73	Age 619 627	≥18 años
+T75	Date 725 738	el último año
+T77	LIVB 792 800	Paciente
+#60	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T79	LIVB 857 863	pareja
+#61	AnnotatorNotes T79	C0682323; Partner in relationship; Family Group
+T80	DEVI 971 995	dispositivo intrauterino
+#62	AnnotatorNotes T80	C0021900; Intrauterine Devices; Medical Device
+T81	DEVI 997 1000	DIU
+#63	AnnotatorNotes T81	C0021900; Intrauterine Devices; Medical Device
+T82	DEVI 1003 1016	preservativos
+#64	AnnotatorNotes T82	C0009653; Condoms, Male; Medical Device | C0677582; Condoms, Unspecified; Medical Device
+T83	Duration 1377 1389	los 12 meses
+T84	Time 1420 1433	postmiccional
+T87	Duration 1802 1809	crónica
+#65	AnnotatorNotes T87	C0205191; chronic; Temporal Concept
+T88	LIVB 1905 1913	Paciente
+#66	AnnotatorNotes T88	C0030705; Patients; Patient or Disabled Group
+T89	Route 1983 1989	tópico
+#67	AnnotatorNotes T89	C1522168; Topical Route of Drug Administration; Functional Concept
+T90	LIVB 1992 2000	Paciente
+#68	AnnotatorNotes T90	C0030705; Patients; Patient or Disabled Group
+T91	Date 2028 2036	reciente
+T92	Duration 2039 2055	menos de 3 meses
+T96	DEVI 1668 1677	diafragma
+#69	AnnotatorNotes T96	C0042241; Vaginal contraceptive diaphragm (device); Medical Device
+T86	PHYS 1624 1632	Embarazo
+#70	AnnotatorNotes T86	C0032961; Pregnancy; Organism Function
+T99	PHYS 1649 1658	lactancia
+#71	AnnotatorNotes T99	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T74	PROC 821 831	abstenerse
+#72	AnnotatorNotes T74	C2042176; abstinence from sexual contact; Therapeutic or Preventive Procedure
+T62	LIVB 1218 1226	gérmenes
+#73	AnnotatorNotes T62	C0450254; Pathogenic organism; Organism
+T76	Dose 1359 1363	1,6%
+T78	Dose 1364 1368	2.0%
+A1	Status T18 History_of
+A2	Status T28 History_of
+A3	Status T50 History_of
+A4	Status T48 History_of
+A5	Status T55 History_of
+#74	AnnotatorNotes T8	C1096776; Multicenter Study; Research Activity + C0282462; Phase 4 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C2826345; Parallel Study; Research Activity 
+#75	AnnotatorNotes T18	C0042029; Urinary tract infection; Disease or Syndrome
+#76	AnnotatorNotes T37	C0005695; Bladder Neoplasm; Neoplastic Process
+T85	Quantifier_or_Qualifier 657 668	complicadas
+A6	Assertion T85 Negated
+#77	AnnotatorNotes T85	C0231242; Complicated; Functional Concept
+T93	Neg_cue 654 656	no
+R1	Negation Arg1:T93 Arg2:T85	
+R2	Location_of Arg1:T59 Arg2:T14	
+R3	Location_of Arg1:T17 Arg2:T16	
+R4	Used_for Arg1:T3 Arg2:T6	
+R5	Used_for Arg1:T5 Arg2:T6	
+R6	Before Arg1:T6 Arg2:T7	
+R7	Combined_with Arg1:T3 Arg2:T4	
+R8	Combined_with Arg1:T10 Arg2:T11	
+R9	Used_for Arg1:T10 Arg2:T13	
+R10	Used_for Arg1:T12 Arg2:T13	
+T94	Observation 201 212	recurrentes
+#78	AnnotatorNotes T94	C0679254; Disease recurrence; Finding
+R11	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T94	
+T95	Observation 445 456	Recurrentes
+#79	AnnotatorNotes T95	C0679254; Disease recurrence; Finding
+R12	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T95	
+T97	Observation 490 503	de repetición
+#80	AnnotatorNotes T97	C0679254; Disease recurrence; Finding
+R13	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T97	
+T98	Observation 562 573	recurrentes
+#81	AnnotatorNotes T98	C0679254; Disease recurrence; Finding
+R14	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T98	
+R15	Before Arg1:T13 Arg2:T14	
+R16	Has_Age Arg1:T72 Arg2:T73	
+R18	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T85	
+T100	Quantifier_or_Qualifier 630 632	≥3
+R19	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T100	
+T101	Result_or_Value 704 715	>103 UFM/ml
+R20	Has_Result_or_Value Arg1:T19 Arg2:T101	
+R21	Overlap Arg1:T19 Arg2:T75	
+T102	CONC 770 788	inicio del estudio
+#82	AnnotatorNotes T102	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R22	Overlap Arg1:T20 Arg2:T102	
+T103	Result_or_Value 758 766	negativo
+#83	AnnotatorNotes T103	C0205160; Negative; Finding
+R23	Has_Result_or_Value Arg1:T20 Arg2:T103	
+R24	Experiences Arg1:T77 Arg2:T74	
+R25	Experiences Arg1:T79 Arg2:T22	
+R26	Experiences Arg1:T77 Arg2:T22	
+T104	PROC 918 925	estudio
+#84	AnnotatorNotes T104	C0008976; Clinical Trials; Research Activity
+R27	Overlap Arg1:T22 Arg2:T104	
+R28	Overlap Arg1:T74 Arg2:T104	
+R29	Used_for Arg1:T80 Arg2:T24	
+R30	Used_for Arg1:T81 Arg2:T24	
+R31	Used_for Arg1:T82 Arg2:T24	
+R32	Used_for Arg1:T25 Arg2:T24	
+R33	Used_for Arg1:T26 Arg2:T24	
+T105	Quantifier_or_Qualifier 1160 1166	activa
+#85	AnnotatorNotes T105	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T105	
+T106	CONC 1170 1188	empezar el estudio
+#86	AnnotatorNotes T106	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R35	Overlap Arg1:T27 Arg2:T106	
+R36	Causes Arg1:T62 Arg2:T28	
+R37	Used_for Arg1:T31 Arg2:T30	
+T107	CONC 1324 1333	inclusión
+#87	AnnotatorNotes T107	C1512693; Inclusion; Qualitative Concept
+R38	Overlap Arg1:T30 Arg2:T107	
+R39	Used_for Arg1:T33 Arg2:T32	
+R40	Combined_with Arg1:T33 Arg2:T34	
+R41	Has_Dose_or_Strength Arg1:T33 Arg2:T76	
+R42	Has_Dose_or_Strength Arg1:T34 Arg2:T78	
+R43	Has_Duration_or_Interval Arg1:T33 Arg2:T83	
+R44	Has_Duration_or_Interval Arg1:T34 Arg2:T83	
+T108	PROC 1401 1408	estudio
+#88	AnnotatorNotes T108	C0008976; Clinical Trials; Research Activity
+R45	Before Arg1:T32 Arg2:T108	
+R46	Overlap Arg1:T41 Arg2:T84	
+T109	Result_or_Value 1445 1451	>100cc
+R47	Has_Result_or_Value Arg1:T41 Arg2:T109	
+R48	Location_of Arg1:T64 Arg2:T37	
+R49	Location_of Arg1:T65 Arg2:T38	
+R50	Location_of Arg1:T36 Arg2:T63	
+R51	Location_of Arg1:T66 Arg2:T39	
+R52	Location_of Arg1:T67 Arg2:T40	
+R53	Causes Arg1:T44 Arg2:T43	
+R54	Causes Arg1:T45 Arg2:T43	
+R55	Location_of Arg1:T68 Arg2:T47	
+R56	Has_Duration_or_Interval Arg1:T47 Arg2:T87	
+T110	Quantifier_or_Qualifier 1896 1902	activa
+#89	AnnotatorNotes T110	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R57	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T110	
+R58	Used_for Arg1:T69 Arg2:T52	
+R59	Used_for Arg1:T70 Arg2:T53	
+R60	Location_of Arg1:T54 Arg2:T53	
+R61	Has_Route_or_Mode Arg1:T70 Arg2:T89	
+R62	Experiences Arg1:T88 Arg2:T52	
+R63	Experiences Arg1:T88 Arg2:T53	
+R64	Overlap Arg1:T55 Arg2:T91	
+R65	Overlap Arg1:T55 Arg2:T92	
+R66	Before Arg1:T55 Arg2:T56	
+R67	Experiences Arg1:T90 Arg2:T55	
+T111	Quantifier_or_Qualifier 2120 2126	activa
+#90	AnnotatorNotes T111	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R68	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T111	
+R69	Causes Arg1:T49 Arg2:T48	
+R70	Causes Arg1:T49 Arg2:T50	
+T112	Quantifier_or_Qualifier 1810 1820	estadio ?4
+R71	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T112	
+#91	AnnotatorNotes T46	C5555332; Immunosuppressive Disorder; Disease or Syndrome
+R72	Causes Arg1:T46 Arg2:T43	
+T113	Quantifier_or_Qualifier 1473 1484	suprapúbica
+#92	AnnotatorNotes T113	C0205498; suprapubic approach; Spatial Concept
+#93	AnnotatorNotes T35	C0041618; Ultrasonography; Diagnostic Procedure
+R74	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T113	
+#94	AnnotatorNotes T41	C0749944; URINARY POSTVOID RESIDUAL LARGE; Disease or Syndrome
+T114	Observation 1227 1263	resistentes a fosfomicina trometamol
+R75	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T114	
+#95	AnnotatorNotes T28	C0851439; Infections - pathogen unspecified; Disease or Syndrome
+R76	Used_for Arg1:T3 Arg2:T2	
+R77	Used_for Arg1:T5 Arg2:T2	
+#96	AnnotatorNotes T26	C5197716; Contraceptive Agents, Hormonal; Pharmacologic Substance
+#97	AnnotatorNotes T91	C0332185; Recent; Temporal Concept
+#98	AnnotatorNotes T55	C0038913; Urologic Surgical Procedures; Therapeutic or Preventive Procedure
+A7	Experiencer T72 Patient
+A8	Experiencer T79 Family_member
+A9	Experiencer T77 Patient
+A10	Experiencer T88 Patient
+A11	Experiencer T90 Patient

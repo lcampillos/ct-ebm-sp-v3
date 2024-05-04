@@ -1,0 +1,146 @@
+T1	PROC 46 71	Ensayo de dosis múltiples
+T2	CHEM 140 151	semaglutida
+#1	AnnotatorNotes T2	C3885068; semaglutide; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T3	DISO 174 189	diabetes tipo 2
+#2	AnnotatorNotes T3	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T4	DISO 213 228	Diabetes tipo 2
+#3	AnnotatorNotes T4	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T5	DISO 255 280	Diabetes Mellitus, tipo 2
+#4	AnnotatorNotes T5	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T6	DISO 471 474	DT2
+#5	AnnotatorNotes T6	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T7	CHEM 552 562	metformina
+#6	AnnotatorNotes T7	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T8	PROC 617 622	HbA1c
+#7	AnnotatorNotes T8	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T9	PROC 392 416	consentimiento informado
+#8	AnnotatorNotes T9	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T10	PROC 712 743	tratamiento con medicación oral
+#9	AnnotatorNotes T10	C0175795; Oral Medication; Therapeutic or Preventive Procedure
+T11	CHEM 798 807	warfarina
+#10	AnnotatorNotes T11	C0043031; warfarin; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T12	CHEM 809 817	digoxina
+#11	AnnotatorNotes T12	C0012265; digoxin; Organic Chemical · Pharmacologic Substance
+T13	CHEM 819 845	antidepresivos tricíclicos
+#12	AnnotatorNotes T13	C0003290; Tricyclic Antidepressive Agents; Pharmacologic Substance
+T14	CHEM 847 852	litio
+#13	AnnotatorNotes T14	C0023870; lithium; Element, Ion, or Isotope · Pharmacologic Substance
+T15	CHEM 854 865	aminofilina
+#14	AnnotatorNotes T15	C0002575; aminophylline; Organic Chemical · Pharmacologic Substance
+T16	CHEM 867 876	teofilina
+#15	AnnotatorNotes T16	C0039771; theophylline; Organic Chemical · Pharmacologic Substance
+T17	CHEM 879 894	antiepilépticos
+#16	AnnotatorNotes T17	C0003299; Antiepileptic Agents; Pharmacologic Substance
+T18	DISO 913 933	pancreatitis crónica
+#17	AnnotatorNotes T18	C0149521; Pancreatitis, Chronic; Disease or Syndrome
+T19	DISO 936 965	pancreatitis aguda idiopática
+#18	AnnotatorNotes T19	C0341461; Idiopathic acute pancreatitis; Disease or Syndrome
+T20	DISO 969 981	Malabsorción
+#19	AnnotatorNotes T20	C0024523; Malabsorption Syndrome; Disease or Syndrome | C3714745; Malabsorption; Finding
+T21	PROC 477 495	tratados con dieta
+T22	DISO 1089 1123	enfermedad inflamatoria intestinal
+#20	AnnotatorNotes T22	C0021390; Inflammatory Bowel Diseases; Disease or Syndrome
+T23	DISO 1065 1081	colitis ulcerosa
+#21	AnnotatorNotes T23	C0009324; Ulcerative Colitis; Disease or Syndrome
+T24	PROC 1127 1138	Tratamiento
+#22	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	CHEM 1173 1183	metformina
+#23	AnnotatorNotes T25	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T26	PROC 498 507	ejercicio
+#24	AnnotatorNotes T26	C0452240; Physical therapy exercises; Therapeutic or Preventive Procedure
+T27	PROC 453 467	diagnosticados
+#25	AnnotatorNotes T27	C0011900; Diagnosis; Diagnostic Procedure
+T28	PROC 419 422	IMC
+#26	AnnotatorNotes T28	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T29	CHEM 728 738	medicación
+#27	AnnotatorNotes T29	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T30	PROC 77 136	determinar el intervalo, la escalada de dosis y la eficacia
+T31	DISO 1044 1063	enfermedad de Crohn
+#28	AnnotatorNotes T31	C0010346; Crohn Disease; Disease or Syndrome
+T32	ANAT 1113 1123	intestinal
+#29	AnnotatorNotes T32	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T33	CHEM 1143 1159	hipoglucemiantes
+#30	AnnotatorNotes T33	C0020616; Hypoglycemic Agents; Pharmacologic Substance
+T34	Date 13 17	2012
+T35	Dose 56 71	dosis múltiples
+T36	Route 152 156	oral
+#31	AnnotatorNotes T36	C1527415; Oral Route of Drug administration; Functional Concept
+T37	LIVB 160 169	pacientes
+#32	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 309 333	Pacientes de ambos sexos
+#33	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T39	Age 342 364	edad mínima de 18 años
+T40	LIVB 443 452	Pacientes
+#34	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Dose 531 548	una dosis estable
+T42	Duration 571 591	al menos los 30 días
+T44	LIVB 699 708	Pacientes
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Route 739 743	oral
+#36	AnnotatorNotes T45	C1527415; Oral Route of Drug administration; Functional Concept
+T46	Duration 926 933	crónica
+#37	AnnotatorNotes T46	C0205191; chronic; Temporal Concept
+T47	Duration 982 989	crónica
+#38	AnnotatorNotes T47	C0205191; chronic; Temporal Concept
+T48	Duration 1236 1247	los 90 días
+T43	Neg_cue 1160 1172	distintos de
+T49	PROC 1261 1280	visita de selección
+#39	AnnotatorNotes T49	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A1	Status T18 History_of
+A2	Status T19 History_of
+A3	Status T31 History_of
+A4	Status T23 History_of
+A5	Status T22 History_of
+A6	Status T25 History_of
+#40	AnnotatorNotes T21	C0086153; Dietary Modification; Therapeutic or Preventive Procedure
+R1	Has_Dose_or_Strength Arg1:T2 Arg2:T35	
+R2	Has_Route_or_Mode Arg1:T2 Arg2:T36	
+R3	Experiences Arg1:T37 Arg2:T2	
+R4	Experiences Arg1:T37 Arg2:T3	
+R5	Has_Age Arg1:T38 Arg2:T39	
+R6	Overlap Arg1:T9 Arg2:T39	
+T50	Result_or_Value 423 440	≥ 25 y ≤ 40 kg/m2
+R7	Has_Result_or_Value Arg1:T28 Arg2:T50	
+R8	Experiences Arg1:T40 Arg2:T6	
+R9	Experiences Arg1:T40 Arg2:T21	
+R11	Has_Dose_or_Strength Arg1:T7 Arg2:T41	
+R12	Has_Duration_or_Interval Arg1:T7 Arg2:T42	
+R13	Experiences Arg1:T40 Arg2:T7	
+T51	PROC 605 614	selección
+#41	AnnotatorNotes T51	C0242802; Patient Selection; Research Activity
+R14	Before Arg1:T7 Arg2:T51	
+R15	Before Arg1:T26 Arg2:T51	
+R16	Before Arg1:T21 Arg2:T51	
+T52	Result_or_Value 626 652	7,0%-9,5% (53-80 mmol/mol)
+R17	Has_Result_or_Value Arg1:T8 Arg2:T52	
+R18	Has_Route_or_Mode Arg1:T29 Arg2:T45	
+R19	Used_for Arg1:T29 Arg2:T10	
+R20	Experiences Arg1:T44 Arg2:T10	
+R21	Used_for Arg1:T11 Arg2:T10	
+R22	Has_Route_or_Mode Arg1:T11 Arg2:T45	
+R23	Used_for Arg1:T12 Arg2:T10	
+R24	Has_Route_or_Mode Arg1:T12 Arg2:T45	
+R25	Has_Route_or_Mode Arg1:T13 Arg2:T45	
+R26	Used_for Arg1:T13 Arg2:T10	
+R27	Used_for Arg1:T14 Arg2:T10	
+R28	Has_Route_or_Mode Arg1:T14 Arg2:T45	
+R29	Used_for Arg1:T15 Arg2:T10	
+R30	Has_Route_or_Mode Arg1:T15 Arg2:T45	
+R31	Has_Route_or_Mode Arg1:T16 Arg2:T45	
+R32	Used_for Arg1:T16 Arg2:T10	
+R33	Used_for Arg1:T17 Arg2:T10	
+R34	Has_Route_or_Mode Arg1:T17 Arg2:T45	
+R35	Has_Duration_or_Interval Arg1:T18 Arg2:T46	
+R36	Has_Duration_or_Interval Arg1:T20 Arg2:T47	
+R37	Location_of Arg1:T32 Arg2:T22	
+R38	Location_of Arg1:T32 Arg2:T23	
+R39	Location_of Arg1:T32 Arg2:T31	
+R40	Used_for Arg1:T33 Arg2:T24	
+R41	Negation Arg1:T43 Arg2:T25	
+R42	Overlap Arg1:T33 Arg2:T48	
+R43	Before Arg1:T24 Arg2:T49	
+R44	Combined_with Arg1:T21 Arg2:T26	
+A7	Experiencer T37 Patient
+A8	Experiencer T38 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T44 Patient

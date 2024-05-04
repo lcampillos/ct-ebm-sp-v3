@@ -1,0 +1,97 @@
+T1	PROC 46 68	Estudio de seguimiento
+T3	PROC 171 205	Estudio prospectivo de seguimiento
+T4	PROC 286 334	evaluar a largo plazo la seguridad y la eficacia
+T5	CHEM 338 350	Caplacizumab
+#1	AnnotatorNotes T5	C3713057; caplacizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	DISO 393 396	PTT
+#2	AnnotatorNotes T6	C0034155; Purpura, Thrombotic Thrombocytopenic; Disease or Syndrome
+T7	DISO 404 419	enfermedad rara
+#3	AnnotatorNotes T7	C0678236; Rare Diseases; Disease or Syndrome
+T8	ANAT 472 478	sangre
+#4	AnnotatorNotes T8	C0005767; Blood; Body Substance
+T9	DISO 501 509	coágulos
+#5	AnnotatorNotes T9	C0302148; Blood Clot; Pathologic Function
+T10	ANAT 517 533	vasos sanguíneos
+#6	AnnotatorNotes T10	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T11	ANAT 558 564	cuerpo
+#7	AnnotatorNotes T11	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T12	DISO 592 643	Púrpura trombocitopénica trombótica (PTT) adquirida
+#8	AnnotatorNotes T12	C2584778; Thrombotic thrombocytopenic purpura, acquired; Disease or Syndrome
+T13	PROC 930 954	consentimiento informado
+#9	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	PROC 988 1012	consentimiento informado
+#10	AnnotatorNotes T14	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T15	PROC 1243 1252	protocolo
+#11	AnnotatorNotes T15	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T16	PROC 1060 1073	procedimiento
+#12	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T17	PROC 1302 1316	ensayo clínico
+#13	AnnotatorNotes T17	C0008976; Clinical Trials; Research Activity
+T18	CHEM 1326 1333	fármaco
+#14	AnnotatorNotes T18	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T19	DISO 446 478	viscosidad excesiva de la sangre
+#15	AnnotatorNotes T19	C0948013; Increased blood viscosity (finding); Finding
+T20	Date 13 17	2016
+T21	LIVB 78 87	pacientes
+#16	AnnotatorNotes T21	C0030705; Patients; Patient or Disabled Group
+T22	LIVB 215 224	pacientes
+#17	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	Date 294 307	a largo plazo
+T24	LIVB 675 683	paciente
+#18	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	Spec_cue 684 693	potencial
+T27	Duration 825 832	28 días
+T28	Age 869 877	≥18 años
+T31	Date 1284 1295	actualmente
+T32	DEVI 1336 1364	dispositivo en investigación
+#19	AnnotatorNotes T32	C2346570; Investigational Medical Device; Medical Device
+T2	PROC 1224 1238	procedimientos
+#20	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T26	Observation 1190 1205	estar dispuesto
+#21	AnnotatorNotes T26	C0600109; Willing; Finding
+T29	Neg_cue 1187 1189	no
+T30	Neg_cue 1174 1176	No
+T33	Observation 1177 1186	ser capaz
+#22	AnnotatorNotes T33	C1299581; Able; Finding
+T34	Quantifier_or_Qualifier 810 815	Final
+T35	PROC 803 809	visita
+#23	AnnotatorNotes T35	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T24 Speculated
+A2	Assertion T26 Negated
+A3	Assertion T33 Negated
+#25	AnnotatorNotes T1	C3274571; Clinical Study Follow-up; Health Care Activity 
+#26	AnnotatorNotes T3	C3274571; Clinical Study Follow-up; Health Care Activity + C0033522; Prospective Studies; Research Activity
+#27	AnnotatorNotes T23	C0443252; Long-term; Temporal Concept
+#28	AnnotatorNotes T4	C0023981; Longitudinal Studies; Research Activity + C0511730; Identify product efficacy and safety issues; Health Care Activity
+#29	AnnotatorNotes T31	C0521116; Current (present time); Temporal Concept 
+R1	Negation Arg1:T30 Arg2:T33	
+R2	Negation Arg1:T29 Arg2:T26	
+R3	Overlap Arg1:T26 Arg2:T2	
+R4	Overlap Arg1:T33 Arg2:T2	
+R5	Overlap Arg1:T17 Arg2:T31	
+R6	Overlap Arg1:T18 Arg2:T31	
+R7	Overlap Arg1:T32 Arg2:T31	
+T36	Observation 98 119	completado el Estudio
+#24	AnnotatorNotes T36	C2732579; Completion of clinical trial; Finding
+T37	Observation 235 256	completado el Estudio
+#30	AnnotatorNotes T37	C2732579; Completion of clinical trial; Finding
+R10	Overlap Arg1:T4 Arg2:T23	
+R11	Experiences Arg1:T22 Arg2:T5	
+R12	Causes Arg1:T6 Arg2:T19	
+R13	Location_of Arg1:T8 Arg2:T19	
+R14	Causes Arg1:T6 Arg2:T9	
+R15	Location_of Arg1:T10 Arg2:T9	
+R16	Speculation Arg1:T25 Arg2:T24	
+T38	Observation 756 778	incluido en el estudio
+#31	AnnotatorNotes T38	C1278516; Patient participation status; Finding (?)
+R17	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T38	
+T39	Observation 699 740	satisfacer todos los siguientes criterios
+R18	Before Arg1:T39 Arg2:T38	
+R20	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T34	
+R21	After Arg1:T35 Arg2:T27	
+R22	Overlap Arg1:T13 Arg2:T28	
+R23	Before Arg1:T14 Arg2:T16	
+#32	AnnotatorNotes T34	C1517741; Last; Qualitative Concept
+A4	Experiencer T21 Patient
+A5	Experiencer T22 Patient
+A6	Experiencer T24 Patient

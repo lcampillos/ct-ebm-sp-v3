@@ -1,0 +1,152 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 67 98	evaluar la eficacia y seguridad
+#2	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T3	CHEM 102 113	tocilizumab
+#3	AnnotatorNotes T3	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	PROC 120 131	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 149 170	neumonía por COVID-19
+T6	PROC 212 250	Ensayo clínico abierto y multicéntrico
+T7	PROC 256 290	evaluar la efectividad y seguridad
+T8	CHEM 294 305	tocilizumab
+#5	AnnotatorNotes T8	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T9	PROC 324 335	tratamiento
+#6	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	DISO 353 374	neumonía por COVID-19
+T11	DISO 417 438	Neumonía por COVID-19
+T12	PROC 480 504	consentimiento informado
+#7	AnnotatorNotes T12	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T13	PROC 573 586	Diagnosticado
+#8	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 591 612	neumonía por COVID-19
+T15	CHEM 662 673	tocilizumab
+#9	AnnotatorNotes T15	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T16	PROC 742 753	tratamiento
+#10	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 773 786	Hospitalizado
+#11	AnnotatorNotes T17	C0019993; Hospitalization; Health Care Activity
+T18	PROC 789 808	ingresado en la UCI
+#12	AnnotatorNotes T18	C0583239; Admission to intensive care unit; Health Care Activity
+T19	DISO 870 885	afección médica
+T20	CHEM 904 914	medicación
+#13	AnnotatorNotes T20	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T21	DISO 1032 1052	Reacciones alérgicas
+#14	AnnotatorNotes T21	C1527304; Allergic Reaction; Pathologic Function
+T22	CHEM 1072 1083	tocilizumab
+#15	AnnotatorNotes T22	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T23	CHEM 1092 1116	anticuerpos monoclonales
+#16	AnnotatorNotes T23	C0003250; Monoclonal Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T24	DISO 1120 1138	Infecciones agudas
+#17	AnnotatorNotes T24	C0275518; Acute infectious disease; Disease or Syndrome
+T25	DISO 1169 1190	infección tuberculosa
+#18	AnnotatorNotes T25	C0041296; Tuberculosis; Disease or Syndrome
+T26	PROC 1219 1237	prueba de embarazo
+#19	AnnotatorNotes T26	C0032976; Pregnancy Tests; Diagnostic Procedure
+T27	PROC 617 623	RT-PCR
+#20	AnnotatorNotes T27	C0599161; Reverse Transcriptase Polymerase Chain Reaction; Molecular Biology Research Technique
+T28	CHEM 758 769	tocilizumab
+#21	AnnotatorNotes T28	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T29	PROC 1253 1259	examen
+#22	AnnotatorNotes T29	C0582103; Medical Examination; Health Care Activity
+T30	Date 13 17	2020
+T31	LIVB 135 144	pacientes
+#23	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Route 306 317	intravenoso
+#24	AnnotatorNotes T32	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T33	LIVB 339 348	pacientes
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T35	Age 545 561	Al menos 18 años
+T36	CONC 645 658	primera dosis
+T37	Duration 674 695	un máximo de dos días
+T38	LIVB 840 848	paciente
+#26	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 955 967	investigador
+#27	AnnotatorNotes T39	C0035173; Research Personnel; Professional or Occupational Group
+T40	LIVB 998 1006	paciente
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1207 1215	lactante
+#29	AnnotatorNotes T41	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T42	LIVB 1194 1204	Embarazada
+#30	AnnotatorNotes T42	C0033011; Pregnant Women; Population Group
+T43	PHYS 1229 1237	embarazo
+#31	AnnotatorNotes T43	C0032961; Pregnancy; Organism Function
+A1	Status T21 History_of
+#32	AnnotatorNotes T6	C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity
+#33	AnnotatorNotes T5	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#34	AnnotatorNotes T10	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#35	AnnotatorNotes T11	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#36	AnnotatorNotes T14	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#37	AnnotatorNotes T19	C4745084; Medical Condition; Finding
+T34	Spec_cue 932 938	podría
+T44	Observation 969 993	comprometer la seguridad
+A2	Assertion T44 Speculated
+T45	Observation 1009 1028;969 980	los datos obtenidos comprometer
+A3	Assertion T45 Speculated
+T46	Quantifier_or_Qualifier 1148 1155	activas
+#38	AnnotatorNotes T46	C0679217; Active State; Idea or Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T46	
+T47	Quantifier_or_Qualifier 1141 1147	graves
+#39	AnnotatorNotes T47	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R2	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T47	
+T48	Quantifier_or_Qualifier 1053 1059	graves
+#40	AnnotatorNotes T48	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R3	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T48	
+A4	Status T48 History_of
+T49	CONC 708 717	inclusión
+#41	AnnotatorNotes T49	C1512693; Inclusion Criteria; Qualitative Concept
+R4	Before Arg1:T15 Arg2:T49	
+R5	Used_for Arg1:T28 Arg2:T16	
+R6	Has_Dose_or_Strength Arg1:T15 Arg2:T36	
+R7	Has_Duration_or_Interval Arg1:T15 Arg2:T37	
+R8	Used_for Arg1:T3 Arg2:T4	
+R9	Experiences Arg1:T31 Arg2:T3	
+R10	Experiences Arg1:T31 Arg2:T5	
+R11	Experiences Arg1:T33 Arg2:T8	
+R12	Used_for Arg1:T8 Arg2:T9	
+R13	Has_Route_or_Mode Arg1:T8 Arg2:T32	
+R14	Experiences Arg1:T33 Arg2:T10	
+T50	Quantifier_or_Qualifier 505 509	oral
+#42	AnnotatorNotes T50	C0439824; Verbal; Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T50	
+R16	Overlap Arg1:T14 Arg2:T27	
+R17	Before Arg1:T27 Arg2:T13	
+R18	Experiences Arg1:T38 Arg2:T19	
+R19	Experiences Arg1:T38 Arg2:T20	
+T51	Quantifier_or_Qualifier 915 927	concomitante
+#43	AnnotatorNotes T51	C0521115; Simultaneous; Temporal Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T51	
+R21	Before Arg1:T20 Arg2:T45	
+R22	Before Arg1:T20 Arg2:T44	
+R23	Speculation Arg1:T34 Arg2:T44	
+R24	Speculation Arg1:T34 Arg2:T45	
+R25	Experiences Arg1:T40 Arg2:T19	
+R26	Experiences Arg1:T40 Arg2:T20	
+R27	Causes Arg1:T22 Arg2:T21	
+R28	Causes Arg1:T23 Arg2:T21	
+R29	Experiences Arg1:T42 Arg2:T43	
+R31	Overlap Arg1:T26 Arg2:T29	
+T52	CONC 1272 1277	dosis
+#44	AnnotatorNotes T52	C0178602; Dosage; Quantitative Concept
+R32	Before Arg1:T29 Arg2:T52	
+R33	Before Arg1:T26 Arg2:T52	
+T53	Result_or_Value 1238 1246	positiva
+#45	AnnotatorNotes T53	C1446409; Positive; Finding
+R34	Experiences Arg1:T42 Arg2:T26	
+R35	Has_Result_or_Value Arg1:T26 Arg2:T53	
+T54	Observation 515 541	participar en este estudio
+#46	AnnotatorNotes T54	C1278516; Patient participation status; Finding (?)
+R36	Before Arg1:T12 Arg2:T54	
+#47	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+R30	Experiences Arg1:T42 Arg2:T29	
+#48	AnnotatorNotes R6	(?)
+#49	AnnotatorNotes T36	C5236155; Date of First Dose; Temporal Concept
+A5	Status T16 Future
+A6	Status T28 Future
+A7	Experiencer T31 Patient
+A8	Experiencer T33 Patient
+A9	Experiencer T38 Patient
+A10	Experiencer T39 Other
+A11	Experiencer T40 Patient
+A12	Experiencer T42 Patient
+A13	Experiencer T41 Patient

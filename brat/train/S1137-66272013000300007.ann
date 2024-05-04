@@ -1,0 +1,118 @@
+T1	ANAT 30 38	vascular
+#1	AnnotatorNotes T1	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T2	PROC 48 60	safenectomía
+#2	AnnotatorNotes T2	C1168178; Saphenectomy; Therapeutic or Preventive Procedure
+T3	PROC 536 544	consulta
+#3	AnnotatorNotes T3	C0009818; Consultation; Health Care Activity
+T4	DISO 114 131	recidiva varicosa
+T5	PROC 215 239	procedimiento quirúrgico
+#4	AnnotatorNotes T5	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T6	PROC 248 270	cirugía de las varices
+#5	AnnotatorNotes T6	C0521235; Varicose vein operation; Therapeutic or Preventive Procedure
+T7	DISO 263 270	varices
+#6	AnnotatorNotes T7	C0042345; Varicosity; Disease or Syndrome
+T8	PROC 724 761	crosectomía alta sin sección vascular
+T9	DISO 354 371	recidiva varicosa
+T10	PROC 673 685	safenectomía
+#7	AnnotatorNotes T10	C1168178; Saphenectomy; Therapeutic or Preventive Procedure
+T11	PROC 1350 1387	crosectomía alta sin sección vascular
+T12	ANAT 753 761	vascular
+#8	AnnotatorNotes T12	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T13	PROC 791 802	seguimiento
+#9	AnnotatorNotes T13	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T14	PROC 1754 1791	alta crosectomía sin sección vascular
+T15	PROC 300 311	crosectomía
+#10	AnnotatorNotes T15	C1699081; Crossectomy; Therapeutic or Preventive Procedure
+T16	PROC 838 857	estudio eco-Doppler
+#11	AnnotatorNotes T16	C0162481; Doppler Ultrasound (procedure); Diagnostic Procedure (?)
+T17	DISO 889 906	recidiva varicosa
+T18	PROC 925 936	seguimiento
+#12	AnnotatorNotes T18	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T19	PROC 988 1000	safenectomía
+#13	AnnotatorNotes T19	C1168178; Saphenectomy; Therapeutic or Preventive Procedure
+T20	ANAT 1379 1387	vascular
+#14	AnnotatorNotes T20	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T21	PROC 1465 1477	safenectomía
+#15	AnnotatorNotes T21	C1168178; Saphenectomy; Therapeutic or Preventive Procedure
+T22	ANAT 1783 1791	vascular
+#16	AnnotatorNotes T22	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T23	PROC 1815 1827	safenectomía
+#17	AnnotatorNotes T23	C1168178; Saphenectomy; Therapeutic or Preventive Procedure
+T24	PROC 70 97	Ensayo clínico aleatorizado
+#18	AnnotatorNotes T24	C0206034; Clinical Trials, Randomized; Research Activity
+T25	PROC 586 600	consentimiento
+#19	AnnotatorNotes T25	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T26	PROC 422 462	ensayo clínico aleatorizado, doble ciego
+#20	AnnotatorNotes T26	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T27	PROC 1 38	Crosectomía alta sin sección vascular
+T30	LIVB 510 519	pacientes
+#21	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 703 712	pacientes
+#22	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T34	Duration 816 833	los 12 y 24 meses
+T35	Duration 909 921	los 12 meses
+T36	LIVB 966 975	pacientes
+#23	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Duration 1161 1173	los 24 meses
+T38	Duration 1313 1330	los 12 y 24 meses
+T41	Duration 1488 1500	los 12 meses
+T42	Duration 1602 1614	los dos años
+T43	LIVB 1732 1741	pacientes
+#24	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T28	DISO 1421 1432	recurrencia
+#25	AnnotatorNotes T28	C2825055; Recurrence (disease attribute); Pathologic Function
+T29	DISO 1658 1669	recurrencia
+#26	AnnotatorNotes T29	C2825055; Recurrence (disease attribute); Pathologic Function
+T31	DISO 1236 1247	recurrencia
+#27	AnnotatorNotes T31	C2825055; Recurrence (disease attribute); Pathologic Function
+R1	Before Arg1:T15 Arg2:T9	
+R2	Before Arg1:T5 Arg2:T9	
+R3	Before Arg1:T6 Arg2:T9	
+R4	Experiences Arg1:T32 Arg2:T10	
+R5	Experiences Arg1:T32 Arg2:T8	
+R6	Has_Duration_or_Interval Arg1:T13 Arg2:T34	
+R8	Has_Duration_or_Interval Arg1:T18 Arg2:T35	
+R9	Overlap Arg1:T17 Arg2:T35	
+R10	Experiences Arg1:T36 Arg2:T17	
+R11	Experiences Arg1:T36 Arg2:T19	
+T33	CONC 1085 1096	diferencias
+#28	AnnotatorNotes T33	C1705241; Delta (difference); Quantitative Concept
+R12	Overlap Arg1:T33 Arg2:T37	
+T39	CONC 1177 1186	evolución
+#29	AnnotatorNotes T39	C0449259; Clinical course; Temporal Concept
+R13	Has_Duration_or_Interval Arg1:T39 Arg2:T37	
+R14	Overlap Arg1:T31 Arg2:T38	
+T40	CONC 1267 1278	diferencias
+#30	AnnotatorNotes T40	C1705241; Delta (difference); Quantitative Concept
+R15	Overlap Arg1:T40 Arg2:T38	
+R16	Location_of Arg1:T20 Arg2:T11	
+R17	Location_of Arg1:T1 Arg2:T27	
+R18	Location_of Arg1:T12 Arg2:T8	
+T44	Spec_cue 1398 1410	probabilidad
+A1	Assertion T28 Speculated
+R19	Speculation Arg1:T44 Arg2:T28	
+R20	Before Arg1:T11 Arg2:T28	
+R21	Before Arg1:T21 Arg2:T28	
+R22	Overlap Arg1:T28 Arg2:T41	
+T45	CONC 1618 1627	evolución
+#31	AnnotatorNotes T45	C0449259; Clinical course; Temporal Concept
+R23	Has_Duration_or_Interval Arg1:T45 Arg2:T42	
+R24	Overlap Arg1:T28 Arg2:T42	
+R25	Experiences Arg1:T43 Arg2:T29	
+T46	Quantifier_or_Qualifier 1679 1688	reticular
+R26	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T46	
+R27	Experiences Arg1:T43 Arg2:T14	
+R28	Location_of Arg1:T22 Arg2:T14	
+R29	Experiences Arg1:T43 Arg2:T23	
+R30	Before Arg1:T23 Arg2:T29	
+R31	Before Arg1:T14 Arg2:T29	
+R32	Before Arg1:T19 Arg2:T17	
+R33	Experiences Arg1:T30 Arg2:T3	
+#32	AnnotatorNotes T46	C0439739; Reticular; Spatial Concept
+#33	AnnotatorNotes T17	C3265956; Recurrent varicose vein of lower limb; Disease or Syndrome (?)
+#34	AnnotatorNotes T4	C3265956; Recurrent varicose vein of lower limb; Disease or Syndrome (?)
+#35	AnnotatorNotes T9	C3265956; Recurrent varicose vein of lower limb; Disease or Syndrome (?)
+A2	Experiencer T30 Patient
+A3	Experiencer T32 Patient
+A4	Experiencer T36 Patient
+A5	Experiencer T43 Patient

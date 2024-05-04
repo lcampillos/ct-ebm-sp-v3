@@ -1,0 +1,171 @@
+T1	PROC 1 28	Estudio clínico comparativo
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	PROC 147 167	cirugía de cataratas
+#2	AnnotatorNotes T2	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T3	PROC 324 343	estudio prospectivo
+#3	AnnotatorNotes T3	C0033522; Prospective Studies; Research Activity
+T4	PROC 360 372	intervenidos
+#4	AnnotatorNotes T4	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T5	DISO 376 385	cataratas
+#5	AnnotatorNotes T5	C0086543; Cataract; Anatomical Abnormality
+T6	PROC 395 413	facoemulsificación
+#6	AnnotatorNotes T6	C0282545; Phacoemulsification; Therapeutic or Preventive Procedure | C2193446; Aspiration of cataract by phacoemulsification; Therapeutic or Preventive Procedure
+T7	PROC 471 482	se implantó
+#7	AnnotatorNotes T7	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T8	PROC 517 528	se implantó
+#8	AnnotatorNotes T8	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T9	PROC 544 574	Se valoraron agudezas visuales
+#9	AnnotatorNotes T9	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T10	PROC 722 734	cuestionario
+#10	AnnotatorNotes T10	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T11	PROC 643 654	seguimiento
+#11	AnnotatorNotes T11	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T12	PROC 809 822	valorar la AV
+#12	AnnotatorNotes T12	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T13	PROC 991 1004	valorar la AV
+T14	PROC 1523 1547	agudeza visual corregida
+#14	AnnotatorNotes T14	C1275680; Corrected visual acuity; Diagnostic Procedure
+T15	DISO 1623 1653	complicaciones postoperatorias
+#15	AnnotatorNotes T15	C0032787; Postoperative Complications; Pathologic Function
+T16	DISO 158 167	cataratas
+#16	AnnotatorNotes T16	C0086543; Cataract; Anatomical Abnormality
+T17	PROC 172 223	implante de dos tipos de lentes intraoculares (LIO)
+T18	PROC 428 443	implante de LIO
+T19	PROC 598 608	refracción
+#17	AnnotatorNotes T19	C0430943; Refraction assessment; Diagnostic Procedure
+T20	PROC 1122 1124	AV
+T21	PROC 576 578	AV
+#19	AnnotatorNotes T21	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T22	PROC 1567 1590	agudeza visual de cerca
+#20	AnnotatorNotes T22	C0855716; Visual acuity tests near; Diagnostic Procedure
+T24	DEVI 63 83	lentes intraoculares
+#21	AnnotatorNotes T24	C0023319; Intraocular lens implant device; Medical Device
+T27	DEVI 197 217	lentes intraoculares
+#22	AnnotatorNotes T27	C0023319; Intraocular lens implant device; Medical Device
+T28	DEVI 219 222	LIO
+#23	AnnotatorNotes T28	C0023319; Intraocular lens implant device; Medical Device
+T29	LIVB 350 359	pacientes
+#24	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T31	DEVI 440 443	LIO
+#25	AnnotatorNotes T31	C0023319; Intraocular lens implant device; Medical Device
+T32	LIVB 461 470	pacientes
+#26	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 507 516	pacientes
+#27	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T36	Date 609 623	postoperatoria
+#28	AnnotatorNotes T36	C0032790; Postoperative Period; Temporal Concept
+T37	Duration 658 665	6 meses
+T38	LIVB 690 699	pacientes
+#29	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T40	DEVI 799 805	lentes
+#30	AnnotatorNotes T40	C0015421; Eyeglasses; Medical Device
+T46	LIVB 1278 1287	pacientes
+#31	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	DEVI 1449 1455	lentes
+#32	AnnotatorNotes T47	C0015421; Eyeglasses; Medical Device
+T48	DEVI 1488 1494	lentes
+#33	AnnotatorNotes T48	C0015421; Eyeglasses; Medical Device
+T50	Date 1638 1653	postoperatorias
+#34	AnnotatorNotes T50	C0032790; Postoperative Period; Temporal Concept
+T23	DEVI 1318 1322	LIOs
+#35	AnnotatorNotes T23	C0023319; Intraocular lens implant device; Medical Device
+T25	Quantifier_or_Qualifier 84 93	bifocales
+R1	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T25	
+T26	Quantifier_or_Qualifier 444 453	bifocales
+T30	Quantifier_or_Qualifier 224 233	bifocales
+R3	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T30	
+T34	Quantifier_or_Qualifier 1456 1477	difractivas bifocales
+R5	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T34	
+T35	Quantifier_or_Qualifier 1495 1516	refractivas bifocales
+R6	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T35	
+R7	Combined_with Arg1:T2 Arg2:T17	
+R8	Experiences Arg1:T29 Arg2:T4	
+R9	Experiences Arg1:T29 Arg2:T5	
+R10	Experiences Arg1:T29 Arg2:T6	
+R11	Before Arg1:T6 Arg2:T18	
+R2	Experiences Arg1:T29 Arg2:T18	
+R12	Used_for Arg1:T31 Arg2:T18	
+R13	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T26	
+R14	Combined_with Arg1:T4 Arg2:T18	
+R15	Experiences Arg1:T32 Arg2:T7	
+R16	Experiences Arg1:T33 Arg2:T8	
+R17	Overlap Arg1:T19 Arg2:T36	
+R18	Overlap Arg1:T9 Arg2:T36	
+R19	Overlap Arg1:T21 Arg2:T36	
+R20	Has_Duration_or_Interval Arg1:T11 Arg2:T37	
+R21	After Arg1:T9 Arg2:T11	
+R22	After Arg1:T21 Arg2:T11	
+R23	After Arg1:T19 Arg2:T11	
+R24	Experiences Arg1:T38 Arg2:T10	
+T39	Neg_cue 749 751	No
+T41	CONC 766 777	diferencias
+A1	Assertion T41 Negated
+#36	AnnotatorNotes T41	C1705241; Delta (difference); Quantitative Concept
+R25	Negation Arg1:T39 Arg2:T41	
+T42	CONC 581 586	lejos
+#37	AnnotatorNotes T42	C5446008; Far; Spatial Concept
+T43	CONC 828 833	lejos
+#38	AnnotatorNotes T43	C5446008; Far; Spatial Concept
+T44	CONC 1016 1021	lejos
+#39	AnnotatorNotes T44	C5446008; Far; Spatial Concept
+T45	CONC 1612 1617	lejos
+#40	AnnotatorNotes T45	C5446008; Far; Spatial Concept
+T49	CONC 1553 1558	lejos
+#41	AnnotatorNotes T49	C5446008; Far; Spatial Concept
+T51	CONC 589 594	cerca
+#42	AnnotatorNotes T51	C1706276; Near; Qualitative Concept
+T52	CONC 1136 1141	cerca
+#43	AnnotatorNotes T52	C1706276; Near; Qualitative Concept
+T53	CONC 1585 1590	cerca
+#44	AnnotatorNotes T53	C1706276; Near; Qualitative Concept
+T54	Quantifier_or_Qualifier 838 848	corrección
+A2	Assertion T54 Negated
+#45	AnnotatorNotes T54	C0205202; Corrected; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T54	
+T55	Neg_cue 834 837	sin
+R27	Negation Arg1:T55 Arg2:T54	
+T56	Quantifier_or_Qualifier 1022 1036	con corrección
+#46	AnnotatorNotes T56	C0205202; Corrected; Qualitative Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T56	
+T57	Quantifier_or_Qualifier 1146 1156	corrección
+#47	AnnotatorNotes T57	C0205202; Corrected; Qualitative Concept
+A3	Assertion T57 Negated
+T58	Neg_cue 1142 1145	sin
+R29	Negation Arg1:T58 Arg2:T57	
+R30	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T57	
+T59	Quantifier_or_Qualifier 1591 1617	con la corrección de lejos
+R31	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T59	
+R32	Overlap Arg1:T15 Arg2:T50	
+T60	Quantifier_or_Qualifier 823 833	para lejos
+R33	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T60	
+#13	AnnotatorNotes T13	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T61	Quantifier_or_Qualifier 1011 1021	para lejos
+R34	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T61	
+#18	AnnotatorNotes T20	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T62	Quantifier_or_Qualifier 1131 1141	para cerca
+R35	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T62	
+T63	Quantifier_or_Qualifier 1548 1558	para lejos
+R36	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T63	
+T64	Observation 1258 1270	satisfacción
+#48	AnnotatorNotes T64	C3476649; Treatment satisfaction; Finding
+R37	Experiences Arg1:T46 Arg2:T64	
+T65	Observation 670 682	satisfacción
+R38	Experiences Arg1:T38 Arg2:T65	
+T66	Observation 1668 1680	satisfacción
+#49	AnnotatorNotes T66	C3476649; Treatment satisfaction; Finding
+R4	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T30	
+#50	AnnotatorNotes T17	C0023311; intraocular lens implantation procedure; Therapeutic or Preventive Procedure
+#51	AnnotatorNotes T18	C0023311; intraocular lens implantation procedure; Therapeutic or Preventive Procedure
+R40	Used_for Arg1:T27 Arg2:T17	
+R41	Used_for Arg1:T28 Arg2:T17	
+R42	Experiences Arg1:T46 Arg2:T23	
+#52	AnnotatorNotes T25	C3540007; Bifocal; Spatial Concept
+#53	AnnotatorNotes T26	C3540007; Bifocal; Spatial Concept
+#54	AnnotatorNotes T30	C3540007; Bifocal; Spatial Concept
+#55	AnnotatorNotes T65	C3476649; Treatment satisfaction; Finding
+R39	Overlap Arg1:T64 Arg2:T23	
+A4	Experiencer T29 Patient
+A5	Experiencer T33 Patient
+A6	Experiencer T32 Patient
+A7	Experiencer T38 Patient
+A8	Experiencer T46 Patient

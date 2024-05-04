@@ -1,0 +1,194 @@
+T1	PROC 33 45	telemedicina
+#1	AnnotatorNotes T1	C0162648; Telemedicine; Health Care Activity
+T2	PROC 52 63	seguimiento
+#2	AnnotatorNotes T2	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T3	PROC 307 347	implementación de prácticas tecnológicas
+T4	PROC 126 138	telemedicina
+#3	AnnotatorNotes T4	C0162648; Telemedicine; Health Care Activity
+T5	PROC 182 202	estudios controlados
+#4	AnnotatorNotes T5	C0681867; Controlled Study; Research Activity
+T6	PROC 248 265	Atención Primaria
+#5	AnnotatorNotes T6	C0033137; Primary Health Care; Health Care Activity
+T7	PROC 371 384	asesoramiento
+#6	AnnotatorNotes T7	C0150600; Advice; Health Care Activity
+T8	PROC 425 548	estudio piloto de intervención, prospectivo, controlado no aleatorizado, muestreo consecutivo, con seguimiento longitudinal
+T9	PROC 1334 1342	Encuesta
+#7	AnnotatorNotes T9	C2960239; Assessment using health assessment questionnaire; Health Care Activity | C1882515; Questionnaire Administration; Health Care Activity
+T10	PROC 590 592	AP
+#8	AnnotatorNotes T10	C0033137; Primary Health Care; Health Care Activity
+T11	PROC 605 616	Seguimiento
+#9	AnnotatorNotes T11	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T12	PROC 651 663	telemedicina
+#10	AnnotatorNotes T12	C0162648; Telemedicine; Health Care Activity
+T13	PROC 675 685	revisiones
+#11	AnnotatorNotes T13	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T14	PROC 745 757	telemedicina
+#12	AnnotatorNotes T14	C0162648; Telemedicine; Health Care Activity
+T15	PROC 864 866	AP
+#13	AnnotatorNotes T15	C0033137; Primary Health Care; Health Care Activity
+T16	PROC 840 851	seguimiento
+#14	AnnotatorNotes T16	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T17	PROC 915 925	revisiones
+T18	PROC 954 977	detección de patologías
+T19	PROC 1212 1224	intervención
+#15	AnnotatorNotes T19	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T20	PROC 1231 1242	Seguimiento
+#16	AnnotatorNotes T20	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T21	PROC 1277 1289	telemedicina
+#17	AnnotatorNotes T21	C0162648; Telemedicine; Health Care Activity
+T22	PROC 1555 1567	telemedicina
+#18	AnnotatorNotes T22	C0162648; Telemedicine; Health Care Activity
+T23	PROC 1608 1610	AP
+#19	AnnotatorNotes T23	C0033137; Primary Health Care; Health Care Activity
+T24	PROC 1617 1624	control
+#20	AnnotatorNotes T24	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T25	PROC 1626 1637	seguimiento
+#21	AnnotatorNotes T25	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T26	PROC 1640 1650	prevención
+#22	AnnotatorNotes T26	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T27	PROC 1778 1790	telemedicina
+#23	AnnotatorNotes T27	C0162648; Telemedicine; Health Care Activity
+T28	PROC 1859 1871	telemedicina
+#24	AnnotatorNotes T28	C0162648; Telemedicine; Health Care Activity
+T29	PROC 1885 1900	atención médica
+#25	AnnotatorNotes T29	C0496675; Medical care; Health Care Activity
+T30	LIVB 68 81	recién nacido
+#26	AnnotatorNotes T30	C0021289; Infant, Newborn; Age Group
+T31	PROC 267 269	AP
+#27	AnnotatorNotes T31	C0033137; Primary Health Care; Health Care Activity
+T32	CHEM 759 766	vacunas
+#28	AnnotatorNotes T32	C0042210; Vaccines; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T33	DISO 967 977	patologías
+#29	AnnotatorNotes T33	C0677042; Pathology processes; Pathologic Function
+T34	PROC 1030 1042	intervención
+#30	AnnotatorNotes T34	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T35	ANAT 1491 1495	boca
+#31	AnnotatorNotes T35	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T36	CHEM 1847 1854	vacunas
+#32	AnnotatorNotes T36	C0042210; Vaccines; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T37	PROC 1 30	Uso de las nuevas tecnologías
+T39	Neg_cue 171 173	no
+T41	Spec_cue 348 353	puede
+T42	LIVB 392 400	familias
+#33	AnnotatorNotes T42	C0015576; Family; Family Group
+T44	Duration 552 562	seis meses
+T46	LIVB 690 694	niño
+#34	AnnotatorNotes T46	C0008059; Child; Age Group
+T47	Duration 701 721	1-2, 2-4 y 4-6 meses
+T48	PHYS 768 785	lactancia materna
+#35	AnnotatorNotes T48	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T49	LIVB 815 828	grupo control
+#36	AnnotatorNotes T49	C0009932; Control Groups; Group
+T50	LIVB 943 947	niño
+#37	AnnotatorNotes T50	C0008059; Child; Age Group
+T51	LIVB 1021 1042	grupo de intervención
+#38	AnnotatorNotes T51	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T52	Duration 1182 1194	el sexto mes
+T54	Date 1343 1365	pre- y posintervención
+T56	PHYS 1483 1489	dormir
+#39	AnnotatorNotes T56	C0037313; Sleep; Organism Function
+T58	LIVB 1686 1695	lactantes
+#40	AnnotatorNotes T58	C0021270; Infant; Age Group
+T59	Duration 1705 1728	los primeros seis meses
+T61	PHYS 1813 1830	lactancia materna
+#41	AnnotatorNotes T61	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T67	PHYS 1148 1165	lactancia materna
+#42	AnnotatorNotes T67	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T70	PHYS 1832 1844	alimentación
+#43	AnnotatorNotes T70	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T38	LIVB 778 785	materna
+#44	AnnotatorNotes T38	C0026591; Mother (person); Family Group
+T40	LIVB 1158 1165	materna
+#45	AnnotatorNotes T40	C0026591; Mother (person); Family Group
+T43	LIVB 1823 1830	materna
+#46	AnnotatorNotes T43	C0026591; Mother (person); Family Group
+T45	PROC 1095 1123	visita pediátrica/enfermería
+A1	Assertion T5 Negated
+A2	Assertion T7 Speculated
+A3	Population_data T46 Age
+A4	Population_data T50 Age
+A5	Population_data T58 Age
+A6	Population_data T30 Age
+R1	Negation Arg1:T39 Arg2:T5	
+T53	Quantifier_or_Qualifier 484 496	aleatorizado
+A7	Assertion T53 Negated
+R2	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T53	
+T55	Neg_cue 481 483	no
+R3	Negation Arg1:T55 Arg2:T53	
+R6	Speculation Arg1:T41 Arg2:T7	
+R7	Has_Duration_or_Interval Arg1:T8 Arg2:T44	
+T57	Quantifier_or_Qualifier 593 603	pediátrica
+#47	AnnotatorNotes T57	C1521725; Pediatric; Qualitative Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T57	
+R12	Overlap Arg1:T13 Arg2:T47	
+R13	Experiences Arg1:T46 Arg2:T13	
+T60	Food 801 810	alimentos
+#48	AnnotatorNotes T60	C0016452; Food; Food
+T62	Observation 788 810	introducción alimentos
+R14	Used_for Arg1:T60 Arg2:T62	
+R16	Experiences Arg1:T50 Arg2:T17	
+#49	AnnotatorNotes T17	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T63	Quantifier_or_Qualifier 926 938	presenciales
+R17	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T63	
+R18	Experiences Arg1:T50 Arg2:T18	
+R20	Experiences Arg1:T51 Arg2:T34	
+R21	Experiences Arg1:T51 Arg2:T45	
+R22	Experiences Arg1:T40 Arg2:T67	
+T64	Quantifier_or_Qualifier 1166 1175	exclusiva
+#50	AnnotatorNotes T64	C1548966; Exclusive; Idea or Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T64	
+R24	Has_Duration_or_Interval Arg1:T67 Arg2:T52	
+R25	Experiences Arg1:T51 Arg2:T67	
+T65	CONC 1196 1203	control
+#51	AnnotatorNotes T65	C4553389; Study Control; Conceptual Entity
+T66	Observation 1313 1325	Satisfacción
+#52	AnnotatorNotes T66	C3476649; Treatment satisfaction; Finding
+R27	Overlap Arg1:T9 Arg2:T54	
+T68	Observation 1367 1419	cambio de actitud en desplazarse a urgencia/hospital
+T69	Observation 1458 1466;1480 1489;1491 1502	Posición al dormir boca arriba
+T71	Observation 1458 1466;1480 1489;1503 1507	Posición al dormir lado
+R28	Overlap Arg1:T56 Arg2:T69	
+R29	Overlap Arg1:T56 Arg2:T71	
+T72	Observation 1658 1667	problemas
+#53	AnnotatorNotes T72	C0033213; Problem; Finding
+R39	Before Arg1:T26 Arg2:T72	
+T73	Quantifier_or_Qualifier 1696 1701	sanos
+#54	AnnotatorNotes T73	C3898900; Healthy; Qualitative Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T73	
+R41	Overlap Arg1:T72 Arg2:T59	
+R42	Overlap Arg1:T26 Arg2:T59	
+R43	Overlap Arg1:T25 Arg2:T59	
+R44	Overlap Arg1:T24 Arg2:T59	
+R45	Overlap Arg1:T23 Arg2:T59	
+R46	Overlap Arg1:T22 Arg2:T59	
+R47	Experiences Arg1:T43 Arg2:T61	
+T74	Quantifier_or_Qualifier 1901 1911	continuada
+#55	AnnotatorNotes T74	C0549178; Continuous; Idea or Concept 
+R52	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T74	
+R57	Experiences Arg1:T38 Arg2:T48	
+T75	Quantifier_or_Qualifier 948 952	sano
+#56	AnnotatorNotes T75	C3898900; Healthy; Qualitative Concept
+R59	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T75	
+R62	Experiences Arg1:T51 Arg2:T19	
+#57	AnnotatorNotes T63	C1553514; Face to face; Functional Concept
+R4	Experiences Arg1:T58 Arg2:T72	
+R5	Experiences Arg1:T58 Arg2:T26	
+#58	AnnotatorNotes T18	C0683509; disease detection; Health Care Activity 
+#59	AnnotatorNotes T69	C2136002; sleeps on back; Finding
+#60	AnnotatorNotes T37	C4051813; New Technology (Procedure); Therapeutic or Preventive Procedure
+A8	Experiencer T30 Patient
+T76	Quantifier_or_Qualifier 82 86	sano
+#61	AnnotatorNotes T76	C3898900; Healthy; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T76	
+A9	Experiencer T42 Family_member
+A10	Experiencer T46 Patient
+T77	Quantifier_or_Qualifier 695 699	sano
+#62	AnnotatorNotes T77	C3898900; Healthy; Qualitative Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T77	
+A11	Experiencer T38 Family_member
+A12	Experiencer T49 Patient
+A13	Experiencer T50 Patient
+A14	Experiencer T51 Patient
+A15	Experiencer T40 Family_member
+A16	Experiencer T58 Patient
+A17	Experiencer T43 Family_member

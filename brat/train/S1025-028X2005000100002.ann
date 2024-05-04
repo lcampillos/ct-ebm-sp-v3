@@ -1,0 +1,198 @@
+T1	PROC 1 34	Seguimiento de la reactogenicidad
+T2	CHEM 41 51	vacuna DTP
+#1	AnnotatorNotes T2	C0717718; diphtheria, tetanus toxoids and pertussis vaccine; Immunologic Factor · Pharmacologic Substance | C1277100; Diphtheria-Tetanus-Pertussis Vaccine; Immunologic Factor · Pharmacologic Substance | C3273242; Diphtheria Toxoid/Tetanus Toxoid/Inactivated Pertussis Vaccine; Immunologic Factor · Pharmacologic Substance
+T3	CHEM 151 197	vacuna Antidiftérica-Antitetánica-Antipertusis
+#2	AnnotatorNotes T3	C0717718; diphtheria, tetanus toxoids and pertussis vaccine; Immunologic Factor · Pharmacologic Substance | C1277100; Diphtheria-Tetanus-Pertussis Vaccine; Immunologic Factor · Pharmacologic Substance | C3273242; Diphtheria Toxoid/Tetanus Toxoid/Inactivated Pertussis Vaccine; Immunologic Factor · Pharmacologic Substance
+T4	CHEM 199 202	DTP
+#3	AnnotatorNotes T4	C0717718; diphtheria, tetanus toxoids and pertussis vaccine; Immunologic Factor · Pharmacologic Substance | C1277100; Diphtheria-Tetanus-Pertussis Vaccine; Immunologic Factor · Pharmacologic Substance | C3273242; Diphtheria Toxoid/Tetanus Toxoid/Inactivated Pertussis Vaccine; Immunologic Factor · Pharmacologic Substance
+T5	PROC 372 423	ensayo clínico (EC) Fase IV, abierto, no controlado
+#4	AnnotatorNotes T5	C1709323; Open Label Study; Research Activity + C0681868; Uncontrolled Study; Research Activity + C0282462; Phase 4 Clinical Trials; Research Activity
+T6	DISO 530 577	eventos temporalmente asociados a la vacunación
+T7	PROC 567 577	vacunación
+#5	AnnotatorNotes T7	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T8	PROC 744 746	EC
+#6	AnnotatorNotes T8	C0008976; Clinical Trials; Research Activity
+T9	DISO 775 791	eventos adversos
+#7	AnnotatorNotes T9	C0877248; Adverse event; Pathologic Function
+T10	DISO 1240 1260	eventos no esperados
+T11	DISO 1035 1041	fiebre
+#8	AnnotatorNotes T11	C0015967; Fever; Sign or Symptom
+T12	DISO 1103 1110	vómitos
+#9	AnnotatorNotes T12	C0042963; Vomiting; Sign or Symptom
+T13	DISO 1116 1124	anorexia
+#10	AnnotatorNotes T13	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T14	DISO 1129 1140	somnolencia
+#11	AnnotatorNotes T14	C0013144; Drowsiness; Finding | C2830004; Somnolence; Mental or Behavioral Dysfunction
+T15	PROC 1211 1220	vacunados
+#12	AnnotatorNotes T15	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T16	PROC 1329 1339	vacunación
+#13	AnnotatorNotes T16	C0042196; Vaccination; Therapeutic or Preventive Procedure
+T17	DISO 1355 1369	evento adverso
+#14	AnnotatorNotes T17	C0877248; Adverse event; Pathologic Function
+T18	PROC 1382 1395	hospitalizada
+#15	AnnotatorNotes T18	C0019993; Hospitalization; Health Care Activity
+T19	DISO 1400 1415	síndrome febril
+T20	DISO 1493 1508	sepsis urinaria
+#16	AnnotatorNotes T20	C0149801; Sepsis due to urinary tract infection; Disease or Syndrome
+T21	DISO 1539 1567	malformación vesico-ureteral
+T22	ANAT 1552 1567	vesico-ureteral
+T23	DISO 1639 1643	ETAV
+T24	DISO 1659 1675	síntomas locales
+T25	DISO 1680 1687	eritema
+#17	AnnotatorNotes T25	C0041834; Erythema; Disease or Syndrome
+T26	DISO 1710 1720	induración
+#18	AnnotatorNotes T26	C0332534; Induration; Pathologic Function
+T27	DISO 1734 1740	fiebre
+#19	AnnotatorNotes T27	C0015967; Fever; Sign or Symptom
+T28	DISO 1748 1755	síntoma
+#20	AnnotatorNotes T28	C1457887; Symptoms; Sign or Symptom
+T29	PROC 1912 1942	vigilancia de eventos adversos
+T30	DISO 1926 1942	eventos adversos
+#21	AnnotatorNotes T30	C0877248; Adverse event; Pathologic Function
+T31	PROC 1949 1951	EC
+#22	AnnotatorNotes T31	C0008976; Clinical Trials; Research Activity
+T32	DISO 579 583	ETAV
+T33	DISO 990 995	dolor
+#23	AnnotatorNotes T33	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T34	DISO 1147 1165	llanto persistente
+#24	AnnotatorNotes T34	C0558077; Constantly crying; Finding
+T35	ANAT 1500 1508	urinaria
+#25	AnnotatorNotes T35	C1508753; Urinary system; Body System
+T36	ANAT 1805 1813	corporal
+#26	AnnotatorNotes T36	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T37	PROC 1960 1976	práctica clínica
+T38	CHEM 2061 2067	vacuna
+#27	AnnotatorNotes T38	C0042210; Vaccines; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T39	DISO 731 735	ETAV
+T41	LIVB 452 461	lactantes
+#28	AnnotatorNotes T41	C0021270; Infant; Age Group
+T42	LIVB 683 692	lactantes
+#29	AnnotatorNotes T42	C0021270; Infant; Age Group
+T43	Spec_cue 718 730	sospechas de
+T44	CONC 970 985	2da y 3ra dosis
+T45	LIVB 853 862	lactantes
+#30	AnnotatorNotes T45	C0021270; Infant; Age Group
+T47	Neg_cue 1086 1088	No
+T48	LIVB 1203 1210	sujetos
+#31	AnnotatorNotes T48	C0681850; Study Subject; Group
+T50	LIVB 1377 1381	niña
+#32	AnnotatorNotes T50	C0870604; Female child; Age Group
+T52	PROC 1793 1813	temperatura corporal
+#33	AnnotatorNotes T52	C0886414; Body temperature measurement; Health Care Activity
+T53	LIVB 2136 2145	lactantes
+#34	AnnotatorNotes T53	C0021270; Infant; Age Group
+T40	Time 1427 1441	postvacunación
+A1	Assertion T39 Speculated
+A2	Assertion T12 Negated
+A3	Population_data T50 Age
+A4	Population_data T53 Age
+A5	Population_data T45 Age
+A6	Population_data T42 Age
+A7	Population_data T41 Age
+R1	Negation Arg1:T47 Arg2:T12	
+T46	Neg_cue 1773 1775	no
+T49	CONC 1776 1789	se especifica
+A8	Assertion T49 Negated
+#35	AnnotatorNotes T49	C1521902; To specify; Qualitative Concept
+R2	Negation Arg1:T46 Arg2:T49	
+R3	Location_of Arg1:T36 Arg2:T52	
+T51	Neg_cue 410 412	no
+T54	Quantifier_or_Qualifier 413 423	controlado
+A9	Assertion T54 Negated
+R4	Negation Arg1:T51 Arg2:T54	
+R5	Causes Arg1:T7 Arg2:T6	
+R6	Causes Arg1:T7 Arg2:T32	
+#36	AnnotatorNotes T6	C1116172; Vaccination adverse event; Finding | C2721654; Adverse event following immunization; Pathologic Function
+#37	AnnotatorNotes T32	C1116172; Vaccination adverse event; Finding | C2721654; Adverse event following immunization; Pathologic Function
+#38	AnnotatorNotes T39	C1116172; Vaccination adverse event; Finding | C2721654; Adverse event following immunization; Pathologic Function
+R7	Speculation Arg1:T43 Arg2:T39	
+R8	Experiences Arg1:T42 Arg2:T39	
+R9	Experiences Arg1:T42 Arg2:T6	
+R10	Experiences Arg1:T42 Arg2:T32	
+T55	Quantifier_or_Qualifier 792 801	esperados
+#39	AnnotatorNotes T55	C1517001; Expected (qualifier); Intellectual Product
+R12	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T55	
+T56	Quantifier_or_Qualifier 1251 1260	esperados
+A10	Assertion T56 Negated
+#40	AnnotatorNotes T56	C1517001; Expected (qualifier); Intellectual Product
+T57	Neg_cue 1248 1250	no
+R13	Negation Arg1:T57 Arg2:T56	
+R14	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T56	
+#41	AnnotatorNotes T10	C1519789; Unexpected Adverse Event; Finding
+T58	Quantifier_or_Qualifier 804 815	inesperados
+#42	AnnotatorNotes T58	C4055646; Unexpected; Intellectual Product
+R15	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T58	
+R16	Experiences Arg1:T45 Arg2:T9	
+T59	Quantifier_or_Qualifier 888 895	ligeros
+R17	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T59	
+T60	Quantifier_or_Qualifier 898 924	autolimitados en el tiempo
+R18	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T60	
+T61	Quantifier_or_Qualifier 1010 1015	local
+#43	AnnotatorNotes T61	C0205276; Local; Spatial Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T61	
+R20	Overlap Arg1:T9 Arg2:T44	
+R21	Experiences Arg1:T48 Arg2:T12	
+R22	Experiences Arg1:T48 Arg2:T15	
+R23	Experiences Arg1:T48 Arg2:T34	
+R24	Experiences Arg1:T48 Arg2:T14	
+R25	Experiences Arg1:T48 Arg2:T13	
+R26	Before Arg1:T15 Arg2:T12	
+R27	Causes Arg1:T15 Arg2:T13	
+R28	Causes Arg1:T15 Arg2:T14	
+R29	Causes Arg1:T15 Arg2:T34	
+R30	Causes Arg1:T16 Arg2:T10	
+T62	Quantifier_or_Qualifier 1370 1375	grave
+R31	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T62	
+R32	Experiences Arg1:T50 Arg2:T17	
+#44	AnnotatorNotes T23	C1116172; Vaccination adverse event; Finding | C2721654; Adverse event following immunization; Pathologic Function
+T63	Quantifier_or_Qualifier 1416 1426	prolongado
+#45	AnnotatorNotes T63	C0439590; Prolonged; Temporal Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T63	
+R36	Overlap Arg1:T19 Arg2:T40	
+R37	Experiences Arg1:T50 Arg2:T19	
+R38	Causes Arg1:T20 Arg2:T19	
+R39	Overlap Arg1:T20 Arg2:T40	
+R40	Location_of Arg1:T35 Arg2:T20	
+T64	Quantifier_or_Qualifier 1509 1520	persistente
+R41	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T64	
+R42	Causes Arg1:T21 Arg2:T20	
+R43	Location_of Arg1:T22 Arg2:T21	
+R44	Overlap Arg1:T21 Arg2:T40	
+R45	Overlap Arg1:T17 Arg2:T40	
+R46	Experiences Arg1:T50 Arg2:T20	
+R47	Experiences Arg1:T50 Arg2:T21	
+T65	DISO 19 34	reactogenicidad
+#46	AnnotatorNotes T65	C5552969; Reactogenicity; Pathologic Function
+R53	Causes Arg1:T2 Arg2:T65	
+T66	DISO 129 144	reactogenicidad
+#47	AnnotatorNotes T66	C5552969; Reactogenicity; Pathologic Function
+R54	Causes Arg1:T3 Arg2:T66	
+R55	Causes Arg1:T4 Arg2:T66	
+T67	DISO 2039 2054	reactogenicidad
+#48	AnnotatorNotes T67	C5552969; Reactogenicity; Pathologic Function
+R56	Causes Arg1:T38 Arg2:T67	
+T68	Quantifier_or_Qualifier 2071 2077	escasa
+#49	AnnotatorNotes T68	C0542537; Poor - grade value; Qualitative Concept
+R57	Has_Quantifier_or_Qualifier Arg1:T67 Arg2:T68	
+T69	Observation 2096 2106	beneficios
+#50	AnnotatorNotes T69	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R58	Causes Arg1:T38 Arg2:T69	
+R59	Experiences Arg1:T53 Arg2:T69	
+R60	Experiences Arg1:T53 Arg2:T38	
+R61	Experiences Arg1:T53 Arg2:T67	
+R63	After Arg1:T29 Arg2:T38	
+R65	Causes Arg1:T38 Arg2:T30	
+R66	Experiences Arg1:T53 Arg2:T30	
+R33	Experiences Arg1:T50 Arg2:T18	
+#51	AnnotatorNotes T59	C2945599; Mild (qualifier value); Qualitative Concept
+#52	AnnotatorNotes T62	C1547227; Severe - Severity of Illness Code; Intellectual Product
+#53	AnnotatorNotes T64	C0205322; Persistent; Temporal Concept
+#54	AnnotatorNotes T54	C4553389; Study Control; Conceptual Entity
+#55	AnnotatorNotes T21	C2910238; Malformation of bladder or urethra NOS; Congenital Abnormality (?)
+#56	AnnotatorNotes T22	C0545902; urinary bladder and ureter; Body Part, Organ, or Organ Component
+A11	Experiencer T41 Patient
+A12	Experiencer T42 Patient
+A13	Experiencer T45 Patient
+A14	Experiencer T48 Patient
+A15	Experiencer T50 Patient
+A16	Experiencer T53 Patient

@@ -1,0 +1,315 @@
+T1	PROC 7 45	Optimización de la Terapia Antibiótica
+T2	CHEM 70 97	Antibióticos betalactámicos
+#1	AnnotatorNotes T2	C0026458; Monobactams; Organic Chemical · Antibiotic
+T3	PROC 101 119	perfusión continua
+#2	AnnotatorNotes T3	C0444889; Continuous infusion; Therapeutic or Preventive Procedure
+T4	PROC 987 1002	fórmula CKD-EPI
+#3	AnnotatorNotes T4	C2964649; Creatinine-based formula (CKD-EPI); Laboratory Procedure
+T5	CHEM 217 240	piperacilina/tazobactam
+#4	AnnotatorNotes T5	C0250480; piperacillin-tazobactam combination; Pharmacologic Substance
+T6	CHEM 243 252	meropenem
+#5	AnnotatorNotes T6	C0066005; meropenem; Organic Chemical · Antibiotic
+T7	PROC 256 274	perfusión continua
+#6	AnnotatorNotes T7	C0444889; Continuous infusion; Therapeutic or Preventive Procedure
+T8	PROC 1027 1035	tratados
+#7	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	PROC 1253 1264	UHPLC-MS/MS
+#8	AnnotatorNotes T9	C4053724; Ultra High-performance Liquid Chromatography/Tandem Mass Spectrometry; Laboratory Procedure
+T10	PROC 487 519	concentración mínima inhibitoria
+#9	AnnotatorNotes T10	C0427978; Minimum Inhibitory Concentration measurement; Laboratory Procedure
+T11	PROC 535 538	CMI
+#10	AnnotatorNotes T11	C0427978; Minimum Inhibitory Concentration measurement; Laboratory Procedure
+T12	PROC 586 613	estudio clínico prospectivo
+#11	AnnotatorNotes T12	C0033522; Prospective Studies; Research Activity
+T13	CHEM 34 45	Antibiótica
+#12	AnnotatorNotes T13	C0003232; Antibiotics; Antibiotic
+T14	CHEM 683 710	antibióticos betalactámicos
+#13	AnnotatorNotes T14	C0026458; Monobactams; Organic Chemical · Antibiotic
+T15	PROC 728 746	perfusión continua
+#14	AnnotatorNotes T15	C0444889; Continuous infusion; Therapeutic or Preventive Procedure
+T16	PROC 1979 1987	tratados
+#15	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 958 977	filtrado glomerular
+#16	AnnotatorNotes T17	C0017654; Glomerular Filtration Rate; Diagnostic procedure
+T18	PROC 2720 2723	MIC
+#17	AnnotatorNotes T18	C0427978; Minimum Inhibitory Concentration measurement; Laboratory Procedure
+T19	CHEM 1058 1085	antibióticos betalactámicos
+#18	AnnotatorNotes T19	C0026458; Monobactams; Organic Chemical · Antibiotic
+T20	PROC 1089 1107	perfusión continua
+#19	AnnotatorNotes T20	C0444889; Continuous infusion; Therapeutic or Preventive Procedure
+T21	PROC 1195 1251	cromatografía líquida acoplada a espectrometría de masas
+#20	AnnotatorNotes T21	C4053724; Ultra High-performance Liquid Chromatography/Tandem Mass Spectrometry; Laboratory Procedure
+T23	PROC 618 675	analiza el comportamiento farmacocinético/farmacodinámico
+#22	AnnotatorNotes T23	C0201734; Pharmacokinetic study; Research Activity + C1709518; Pharmacodynamic Study; Research Activity
+T24	PROC 1292 1324	concentración mínima inhibitoria
+#23	AnnotatorNotes T24	C0427978; Minimum Inhibitory Concentration measurement; Laboratory Procedure
+T25	CHEM 1372 1396	piperacilina/ tazobactam
+#24	AnnotatorNotes T25	C0250480; piperacillin-tazobactam combination; Pharmacologic Substance
+T26	CHEM 1468 1477	meropenem
+#25	AnnotatorNotes T26	C0066005; meropenem; Organic Chemical · Antibiotic
+T27	PROC 1610 1646	concentraciones mínimas inhibitorias
+#26	AnnotatorNotes T27	C0427978; Minimum Inhibitory Concentration measurement; Laboratory Procedure
+T28	CHEM 1701 1710	meropenem
+#27	AnnotatorNotes T28	C0066005; meropenem; Organic Chemical · Antibiotic
+T29	CHEM 1716 1739	piperacilina/tazobactam
+#28	AnnotatorNotes T29	C0250480; piperacillin-tazobactam combination; Pharmacologic Substance
+T30	PROC 1778 1797	filtrado glomerular
+#29	AnnotatorNotes T30	C0017654; Glomerular Filtration Rate; Diagnostic procedure
+T31	CHEM 1913 1922	meropenem
+#30	AnnotatorNotes T31	C0066005; meropenem; Organic Chemical · Antibiotic
+T32	CHEM 1941 1953	piperacilina
+#31	AnnotatorNotes T32	C0031955; piperacillin; Organic Chemical · Antibiotic
+T33	CHEM 1992 2001	meropenem
+#32	AnnotatorNotes T33	C0066005; meropenem; Organic Chemical · Antibiotic
+T34	CHEM 2128 2151	piperacilina/tazobactam
+#33	AnnotatorNotes T34	C0250480; piperacillin-tazobactam combination; Pharmacologic Substance
+T35	DISO 2473 2504	infecciones por microorganismos
+T36	PROC 2509 2545	concentraciones mínimas inhibitorias
+#34	AnnotatorNotes T36	C0427978; Minimum Inhibitory Concentration measurement; Laboratory Procedure
+T37	CHEM 2638 2647	meropenem
+#35	AnnotatorNotes T37	C0066005; meropenem; Organic Chemical · Antibiotic
+T38	PROC 2651 2669	perfusión continua
+#36	AnnotatorNotes T38	C0444889; Continuous infusion; Therapeutic or Preventive Procedure
+T39	CHEM 2773 2796	piperacilina/tazobactam
+#37	AnnotatorNotes T39	C0250480; piperacillin-tazobactam combination; Pharmacologic Substance
+T40	PROC 2919 2949	monitorización farmacocinética
+#38	AnnotatorNotes T40	C0201734; Pharmacokinetic study; Research Activity
+T41	PROC 2984 3008	optimización terapéutica
+T42	PROC 378 392	administración
+#39	AnnotatorNotes T42	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T43	CHEM 423 434	antibiótico
+#40	AnnotatorNotes T43	C0003232; Antibiotics; Antibiotic
+T44	ANAT 942 947	renal
+#41	AnnotatorNotes T44	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T45	CHEM 2423 2435	antibióticos
+#42	AnnotatorNotes T45	C0003232; Antibiotics; Antibiotic
+T46	CHEM 2862 2874	antibióticos
+#43	AnnotatorNotes T46	C0003232; Antibiotics; Antibiotic
+T47	LIVB 52 68	paciente Crítico
+#44	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group + C0815272; critical population; Population Group
+T48	Route 101 110	perfusión
+#45	AnnotatorNotes T48	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T49	LIVB 160 169	pacientes
+#46	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Route 256 265	perfusión
+#47	AnnotatorNotes T50	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T51	Route 728 737	perfusión
+#48	AnnotatorNotes T51	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T52	LIVB 750 768	pacientes críticos
+#49	AnnotatorNotes T52	C0815272; critical population; Population Group
+T53	Date 868 881	junio de 2015
+T54	Date 884 896	mayo de 2017
+T55	LIVB 922 929	adultos
+#50	AnnotatorNotes T55	C0001675; Adult; Age Group
+T57	Route 1089 1098	perfusión
+#51	AnnotatorNotes T57	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T59	LIVB 1339 1354	microorganismos
+#52	AnnotatorNotes T59	C0445623; Microorganism; Organism
+T60	Dose 1398 1405	16 mg/l
+T61	LIVB 1411 1433	Pseudomonas aeruginosa
+#53	AnnotatorNotes T61	C0033809; Pseudomonas aeruginosa; Bacterium
+T62	Dose 1436 1442	8 mg/l
+T63	LIVB 1448 1466	Enterobacteriaceae
+#54	AnnotatorNotes T63	C0014346; Enterobacteriaceae; Bacterium
+T64	Dose 1479 1485	2 mg/l
+T65	LIVB 1510 1524	microorganismo
+#55	AnnotatorNotes T65	C0445623; Microorganism; Organism
+T66	LIVB 1568 1577	pacientes
+#56	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	LIVB 1687 1696	pacientes
+#57	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	Age 1753 1760	59 años
+T71	Dose 1897 1912	16 mg/l (11-29)
+T72	Dose 1925 1940	40 mg/l (21-51)
+T73	LIVB 1969 1978	pacientes
+#58	AnnotatorNotes T73	C0030705; Patients; Patient or Disabled Group
+T75	LIVB 2080 2098	Enterobacteriaceae
+#59	AnnotatorNotes T75	C0014346; Enterobacteriaceae; Bacterium
+T76	LIVB 2101 2112	Pseudomonas
+#60	AnnotatorNotes T76	C0033808; Pseudomonas; Bacterium
+T77	LIVB 2176 2185	pacientes
+#61	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	LIVB 2220 2238	Enterobacteriaceae
+#62	AnnotatorNotes T78	C0014346; Enterobacteriaceae; Bacterium
+T79	LIVB 2241 2252	Pseudomonas
+#63	AnnotatorNotes T79	C0033808; Pseudomonas; Bacterium
+T80	LIVB 2258 2272	microorganismo
+#64	AnnotatorNotes T80	C0445623; Microorganism; Organism
+T81	Spec_cue 2273 2283	sospechoso
+T82	LIVB 2306 2315	pacientes
+#65	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group
+T84	Spec_cue 2461 2472	sospecha de
+T85	LIVB 2489 2504	microorganismos
+#66	AnnotatorNotes T85	C0445623; Microorganism; Organism
+T86	LIVB 2556 2578	Pseudomonas aeruginosa
+#67	AnnotatorNotes T86	C0033809; Pseudomonas aeruginosa; Bacterium
+T87	LIVB 2581 2596	enterobacterias
+#68	AnnotatorNotes T87	C0014346; Enterobacteriaceae; Bacterium
+T88	Dose 2614 2634	dosis convencionales
+T89	Route 2651 2660	perfusión
+#69	AnnotatorNotes T89	C1621368; Intravenous Drip Route of Administration; Functional Concept
+T90	PHYS 2934 2949	farmacocinética
+#70	AnnotatorNotes T90	C0031327; Drug Kinetics; Physiologic Function
+T91	Dose 199 213	dosis estándar
+T92	PHYS 934 947	función renal
+#71	AnnotatorNotes T92	C0232804; Renal function; Organ or Tissue Function
+T93	Dose 1040 1054	dosis estándar
+T58	Dose 2753 2769	dosis superiores
+T70	Dose 2838 2852	dosis estándar
+T74	PHYS 629 659	comportamiento farmacocinético
+#72	AnnotatorNotes T74	C0031327; Drug Kinetics; Physiologic Function
+T83	PHYS 301 316	farmacocinético
+#73	AnnotatorNotes T83	C0031327; Drug Kinetics; Physiologic Function
+T94	PHYS 2025 2040	farmacocinético
+#74	AnnotatorNotes T94	C0031327; Drug Kinetics; Physiologic Function
+T56	PHYS 317 332	farmacodinámico
+#75	AnnotatorNotes T56	C0851347; Pharmacodynamics; Biologic Function
+T69	PHYS 660 675	farmacodinámico
+#76	AnnotatorNotes T69	C0851347; Pharmacodynamics; Biologic Function
+T95	PHYS 2041 2056	farmacodinámico
+#77	AnnotatorNotes T95	C0851347; Pharmacodynamics; Biologic Function
+T96	ANAT 967 977	glomerular
+#78	AnnotatorNotes T96	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+T97	ANAT 1787 1797	glomerular
+#79	AnnotatorNotes T97	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Assertion T78 Speculated
+A2	Assertion T79 Speculated
+A3	Assertion T35 Speculated
+A4	Population_data T55 Age
+R1	Used_for Arg1:T13 Arg2:T1	
+R2	Experiences Arg1:T47 Arg2:T13	
+R3	Experiences Arg1:T47 Arg2:T2	
+R4	Used_for Arg1:T2 Arg2:T3	
+R5	Has_Route_or_Mode Arg1:T2 Arg2:T48	
+R6	Experiences Arg1:T49 Arg2:T5	
+R7	Experiences Arg1:T49 Arg2:T6	
+R8	Has_Route_or_Mode Arg1:T5 Arg2:T50	
+R9	Has_Route_or_Mode Arg1:T6 Arg2:T50	
+R10	Used_for Arg1:T5 Arg2:T7	
+R11	Used_for Arg1:T6 Arg2:T7	
+R12	Has_Dose_or_Strength Arg1:T5 Arg2:T91	
+R13	Has_Dose_or_Strength Arg1:T6 Arg2:T91	
+R14	Experiences Arg1:T49 Arg2:T83	
+R15	Experiences Arg1:T49 Arg2:T56	
+T98	CONC 294 332	índice farmacocinético/farmacodinámico
+R16	Experiences Arg1:T49 Arg2:T42	
+R17	Used_for Arg1:T43 Arg2:T42	
+T99	Dose 404 419;448 519	concentraciones cuatro veces iguales o superiores a la concentración mínima inhibitoria
+T100	Quantifier_or_Qualifier 435 440	libre
+R18	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T100	
+R19	Has_Dose_or_Strength Arg1:T43 Arg2:T99	
+T101	Dose 529 538	≥ 4 x CMI
+R20	Has_Dose_or_Strength Arg1:T43 Arg2:T101	
+R21	Used_for Arg1:T14 Arg2:T15	
+R22	Has_Route_or_Mode Arg1:T14 Arg2:T51	
+R23	Experiences Arg1:T52 Arg2:T14	
+R24	Experiences Arg1:T52 Arg2:T74	
+R25	Experiences Arg1:T52 Arg2:T69	
+R26	Experiences Arg1:T55 Arg2:T92	
+R27	Location_of Arg1:T44 Arg2:T92	
+T102	Observation 934 956	función renal correcta
+R29	Location_of Arg1:T96 Arg2:T17	
+T103	Result_or_Value 1003 1023	≥ 60 ml/min/1,73 m 2
+R30	Has_Result_or_Value Arg1:T17 Arg2:T103	
+R31	Used_for Arg1:T19 Arg2:T8	
+R32	Experiences Arg1:T55 Arg2:T17	
+R34	Experiences Arg1:T55 Arg2:T8	
+R35	Has_Dose_or_Strength Arg1:T19 Arg2:T93	
+R36	Has_Route_or_Mode Arg1:T19 Arg2:T57	
+R37	Used_for Arg1:T19 Arg2:T20	
+R38	Experiences Arg1:T55 Arg2:T20	
+T104	Observation 1359 1370	resistentes
+R40	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T104	
+R41	Has_Dose_or_Strength Arg1:T25 Arg2:T60	
+R42	Has_Dose_or_Strength Arg1:T26 Arg2:T64	
+R43	Has_Dose_or_Strength Arg1:T25 Arg2:T62	
+T105	Quantifier_or_Qualifier 1647 1653	reales
+R44	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T105	
+R45	Experiences Arg1:T66 Arg2:T27	
+T106	Observation 1582 1608	aislamiento microbiológico
+R46	Experiences Arg1:T66 Arg2:T106	
+R47	Experiences Arg1:T67 Arg2:T28	
+R48	Experiences Arg1:T67 Arg2:T29	
+R49	Location_of Arg1:T97 Arg2:T30	
+T107	CONC 1113 1165	concentraciones en estado de equilibrio estacionario
+#80	AnnotatorNotes T107	C0678757; drug steady state concentration; Quantitative Concept
+T108	CONC 1837 1889	concentraciones en estado de equilibrio estacionario
+#81	AnnotatorNotes T108	C0678757; drug steady state concentration; Quantitative Concept
+T109	Quantifier_or_Qualifier 1890 1895	libre
+R50	Has_Quantifier_or_Qualifier Arg1:T108 Arg2:T109	
+R51	Has_Dose_or_Strength Arg1:T31 Arg2:T71	
+R52	Has_Dose_or_Strength Arg1:T32 Arg2:T72	
+R53	Experiences Arg1:T73 Arg2:T16	
+R54	Used_for Arg1:T33 Arg2:T16	
+R55	Experiences Arg1:T73 Arg2:T94	
+R56	Experiences Arg1:T73 Arg2:T95	
+T110	Neg_cue 2058 2061	sin
+T111	CONC 2062 2073	diferencias
+A5	Assertion T111 Negated
+#82	AnnotatorNotes T111	C1705241; Delta (difference); Quantitative Concept
+R57	Negation Arg1:T110 Arg2:T111	
+R58	Experiences Arg1:T77 Arg2:T34	
+R59	Speculation Arg1:T81 Arg2:T78	
+R60	Speculation Arg1:T81 Arg2:T79	
+T112	Observation 2328 2354	aislamiento microbiológico
+R61	Experiences Arg1:T82 Arg2:T112	
+T113	Neg_cue 2393 2396	sin
+T114	CONC 2397 2408	diferencias
+A6	Assertion T114 Negated
+R62	Negation Arg1:T113 Arg2:T114	
+#83	AnnotatorNotes T114	C1705241; Delta (difference); Quantitative Concept
+R63	Speculation Arg1:T84 Arg2:T35	
+R64	Causes Arg1:T85 Arg2:T35	
+T115	Result_or_Value 2546 2554	elevadas
+R65	Has_Result_or_Value Arg1:T36 Arg2:T115	
+R66	Causes Arg1:T86 Arg2:T35	
+R67	Causes Arg1:T87 Arg2:T35	
+R68	Has_Dose_or_Strength Arg1:T37 Arg2:T88	
+R69	Has_Route_or_Mode Arg1:T37 Arg2:T89	
+R70	Used_for Arg1:T37 Arg2:T38	
+T116	Dose 2714 2723	≥ 4 x MIC
+R71	Has_Dose_or_Strength Arg1:T37 Arg2:T116	
+R72	Overlap Arg1:T35 Arg2:T37	
+R73	Has_Dose_or_Strength Arg1:T39 Arg2:T58	
+T117	Observation 2810 2836	aislamiento microbiológico
+R74	Has_Dose_or_Strength Arg1:T46 Arg2:T70	
+T118	Quantifier_or_Qualifier 333 338	diana
+#84	AnnotatorNotes T118	C1521840; Target; Functional Concept
+T119	CONC 2200 2205	diana
+#85	AnnotatorNotes T119	C1521840; Target; Functional Concept
+T120	CONC 2386 2391	diana
+#86	AnnotatorNotes T120	C1521840; Target; Functional Concept
+T121	CONC 2909 2914	diana
+#87	AnnotatorNotes T121	C1521840; Target; Functional Concept
+T122	CONC 2701 2706	diana
+#88	AnnotatorNotes T122	C1521840; Target; Functional Concept
+T22	Quantifier_or_Qualifier 1325 1333	teóricos
+R39	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T22	
+T123	Quantifier_or_Qualifier 1355 1358	más
+#21	AnnotatorNotes T104	C3542449; Drug Resistance Status; Finding
+R77	Has_Quantifier_or_Qualifier Arg1:T104 Arg2:T123	
+T124	Spec_cue 2738 2752	se requerirían
+R78	Speculation Arg1:T124 Arg2:T58	
+A7	Assertion T58 Speculated
+A8	Assertion T39 Speculated
+R79	Speculation Arg1:T124 Arg2:T39	
+R33	Has_Quantifier_or_Qualifier Arg1:T98 Arg2:T118	
+#89	AnnotatorNotes T100	C0332296; Free of (attribute); Functional Concept
+#90	AnnotatorNotes T102	C0232805; Normal renal function; Finding
+R28	Experiences Arg1:T55 Arg2:T102	
+R80	Location_of Arg1:T44 Arg2:T102	
+#91	AnnotatorNotes T109	C0332296; Free of (attribute); Functional Concept
+#92	AnnotatorNotes T115	C3163633; Elevated; Qualitative Concept
+#93	AnnotatorNotes T35	C0009450; Communicable Diseases; Disease or Syndrome
+#94	AnnotatorNotes T123	C0205172; More; Quantitative Concept
+#95	AnnotatorNotes T41	C4075704; Optimization of medication; Therapeutic or Preventive Procedure
+#96	AnnotatorNotes T105	C0237400; Actual; Qualitative Concept
+A9	Experiencer T47 Patient
+A10	Experiencer T49 Patient
+A11	Experiencer T52 Patient
+A12	Experiencer T55 Patient
+A13	Experiencer T66 Patient
+A14	Experiencer T67 Patient
+A15	Experiencer T73 Patient
+A16	Experiencer T77 Patient
+A17	Experiencer T82 Patient

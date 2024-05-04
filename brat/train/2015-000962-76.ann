@@ -1,0 +1,324 @@
+T1	PROC 44 65	Ensayo de dosis única
+T2	PROC 1115 1141	retirada de vías centrales
+#1	AnnotatorNotes T2	C0458124; Removal of central venous line; Therapeutic or Preventive Procedure
+T3	PROC 1539 1557	Cifra de plaquetas
+T4	DISO 172 181	trombosis
+#2	AnnotatorNotes T4	C0040053; Thrombosis; Pathologic Function
+T5	DISO 203 211	coágulos
+#3	AnnotatorNotes T5	C0302148; Blood Clot; Pathologic Function
+T6	PROC 234 255	Ensayo de dosis única
+T7	CHEM 287 298	rivaroxaban
+#4	AnnotatorNotes T7	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
+T8	DISO 369 378	trombosis
+#5	AnnotatorNotes T8	C0040053; Thrombosis; Pathologic Function
+T9	DISO 455 464	Trombosis
+#6	AnnotatorNotes T9	C0040053; Thrombosis; Pathologic Function
+T10	PROC 560 586	tratamiento anticoagulante
+#7	AnnotatorNotes T10	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T11	CHEM 653 660	fármaco
+#8	AnnotatorNotes T11	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T12	PROC 676 697	Tiempo de protrombina
+#9	AnnotatorNotes T12	C0033707; Prothrombin time assay; Laboratory Procedure
+T13	PROC 866 890	consentimiento informado
+#10	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	PROC 705 746	tiempo de tromboplastina parcial activada
+#11	AnnotatorNotes T14	C0030605; Activated Partial Thromboplastin Time measurement; Laboratory Procedure
+T15	PROC 748 752	TTPa
+#12	AnnotatorNotes T15	C0030605; Activated Partial Thromboplastin Time measurement; Laboratory Procedure
+T16	CHEM 828 835	fármaco
+#13	AnnotatorNotes T16	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T17	DISO 961 972	Hemorragias
+#14	AnnotatorNotes T17	C0019080; Hemorrhage; Pathologic Function
+T18	DISO 1001 1012	hemorragias
+#15	AnnotatorNotes T18	C0019080; Hemorrhage; Pathologic Function
+T19	PROC 1034 1060	tratamiento anticoagulante
+#16	AnnotatorNotes T19	C0150457; Anticoagulant therapy; Therapeutic or Preventive Procedure
+T20	PROC 1207 1237	Filtración glomerular estimada
+T21	DISO 1272 1283	Hepatopatía
+#17	AnnotatorNotes T21	C0023895; Liver diseases; Disease or Syndrome
+T22	DISO 1296 1309	coagulopatías
+#18	AnnotatorNotes T22	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T23	DISO 1336 1346	hemorragia
+#19	AnnotatorNotes T23	C0019080; Hemorrhage; Pathologic Function
+T24	PROC 1373 1397	alanina aminotransferasa
+#20	AnnotatorNotes T24	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T25	PROC 1064 1088	Procedimientos invasivos
+#21	AnnotatorNotes T25	C4048276; Invasive procedure; Therapeutic or Preventive Procedure
+T26	PROC 1459 1476	bilirrubina total
+#22	AnnotatorNotes T26	C0201913; Bilirubin, total measurement; Laboratory Procedure
+T27	PROC 1495 1514	bilirrubina directa
+#23	AnnotatorNotes T27	C0201916; Bilirubin, direct measurement; Laboratory Procedure
+T28	ANAT 1548 1557	plaquetas
+#24	AnnotatorNotes T28	C0005821; Blood Platelets; Cell
+T29	DISO 1578 1590	Hipertensión
+#25	AnnotatorNotes T29	C0020538; Hypertensive disease; Disease or Syndrome
+T30	CHEM 1702 1769	inhibidores potentes de la isoenzima CYP3A4 y de la glucoproteína P
+T31	PROC 1239 1242	FGe
+#26	AnnotatorNotes T31	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T32	CHEM 1791 1858	inhibidores de la proteasa del virus de la inmunodeficiencia humana
+#27	AnnotatorNotes T32	C0162714; HIV Protease Inhibitors; Pharmacologic Substance
+T33	CHEM 1876 1898	antimicóticos azólicos
+#28	AnnotatorNotes T33	C0360363; Azole antifungal; Organic Chemical · Pharmacologic Substance
+T34	CHEM 1900 1911	ketoconazol
+#29	AnnotatorNotes T34	C0022625; ketoconazole; Organic Chemical · Pharmacologic Substance
+T35	CHEM 1913 1924	itraconazol
+#30	AnnotatorNotes T35	C0064113; itraconazole; Organic Chemical · Pharmacologic Substance
+T36	CHEM 1926 1937	voriconazol
+#31	AnnotatorNotes T36	C0393080; voriconazole; Organic Chemical · Pharmacologic Substance
+T37	CHEM 1940 1951	posaconazol
+#32	AnnotatorNotes T37	C0936148; posaconazole; Organic Chemical · Pharmacologic Substance
+T38	CHEM 2002 2012	fluconazol
+#33	AnnotatorNotes T38	C0016277; fluconazole; Organic Chemical · Pharmacologic Substance
+T39	CHEM 2037 2079	inductores potentes de la isoenzima CYP3A4
+T40	CHEM 2094 2105	rifampicina
+#34	AnnotatorNotes T40	C0035608; rifampin; Antibiotic · Organic Chemical
+T41	CHEM 2107 2117	rifabutina
+#35	AnnotatorNotes T41	C0140575; rifabutin; Antibiotic · Organic Chemical
+T42	CHEM 2119 2131	fenobarbital
+#36	AnnotatorNotes T42	C0031412; phenobarbital; Organic Chemical · Pharmacologic Substance
+T43	CHEM 2133 2142	fenitoína
+#37	AnnotatorNotes T43	C0031507; phenytoin; Organic Chemical · Pharmacologic Substance
+T44	CHEM 2145 2158	carbamazepina
+#38	AnnotatorNotes T44	C0006949; carbamazepine; Organic Chemical · Pharmacologic Substance
+T45	PROC 2195 2209	procedimientos
+#39	AnnotatorNotes T45	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T46	DISO 2226 2243	Hipersensibilidad
+#40	AnnotatorNotes T46	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T47	CHEM 2246 2257	Rivaroxaban
+#41	AnnotatorNotes T47	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
+T48	CHEM 2333 2344	Rivaroxaban
+#42	AnnotatorNotes T48	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
+T49	PROC 2399 2410	tratamiento
+#43	AnnotatorNotes T49	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T50	CHEM 79 90	rivaroxaban
+#44	AnnotatorNotes T50	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
+T51	DISO 408 429	Coagulación sanguínea
+T52	ANAT 420 429	sanguínea
+#45	AnnotatorNotes T52	C0005767; Blood; Body Substance
+T53	CHEM 572 586	anticoagulante
+#46	AnnotatorNotes T53	C0003280; Anticoagulants; Pharmacologic Substance
+T54	PROC 634 660	administración del fármaco
+#47	AnnotatorNotes T54	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+T55	CHEM 686 697	protrombina
+#48	AnnotatorNotes T55	C0033706; prothrombin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T56	PROC 699 701	TP
+#49	AnnotatorNotes T56	C0033707; Prothrombin time assay; Laboratory Procedure
+T57	CHEM 715 729	tromboplastina
+#50	AnnotatorNotes T57	C0040048; Thromboplastin; Amino Acid, Peptide, or Protein · Immunologic Factor
+T58	PROC 809 835	administración del fármaco
+#51	AnnotatorNotes T58	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+T59	CHEM 1046 1060	anticoagulante
+#52	AnnotatorNotes T59	C0003280; Anticoagulants; Pharmacologic Substance
+T60	PROC 1171 1185	administración
+#53	AnnotatorNotes T60	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T61	PROC 1399 1402	ALT
+#54	AnnotatorNotes T61	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T62	CHEM 1459 1470	bilirrubina
+#55	AnnotatorNotes T62	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T63	CHEM 1495 1506	bilirrubina
+#56	AnnotatorNotes T63	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T64	PROC 1609 1648	presión arterial sistólica o diastólica
+T65	CHEM 2297 2321	fármaco en investigación
+#57	AnnotatorNotes T65	C0013230; Investigational New Drugs; Pharmacologic Substance
+T66	Date 12 16	2015
+T67	Dose 54 65	dosis única
+T68	Form 94 131	polvo seco para diluido en suspensión
+T70	Route 132 136	oral
+#58	AnnotatorNotes T70	C1527415; Oral Route of Drug administration; Functional Concept
+T71	LIVB 141 146	niños
+#59	AnnotatorNotes T71	C0008059; Child; Age Group
+T72	Age 147 167	de 6 meses a 12 años
+T74	Dose 244 255	dosis única
+T75	Form 302 328	polvo seco para suspensión
+T77	Route 329 333	oral
+#60	AnnotatorNotes T77	C1527415; Oral Route of Drug administration; Functional Concept
+T78	LIVB 338 343	niños
+#61	AnnotatorNotes T78	C0008059; Child; Age Group
+T79	Age 344 364	de 6 meses a 12 años
+T82	LIVB 494 499	Niños
+#62	AnnotatorNotes T82	C0008059; Child; Age Group
+T83	Age 503 535	entre 6 meses y menos de 12 años
+T85	Duration 587 603	al menos 10 días
+T87	Duration 766 777	los 10 días
+T89	LIVB 927 931	niño
+#63	AnnotatorNotes T89	C0008059; Child; Age Group
+T91	Duration 1145 1157	las 24 horas
+T92	Dose 1192 1203	dosis única
+T94	Spec_cue 1326 1335	riesgo de
+T95	PHYS 1609 1625	presión arterial
+#64	AnnotatorNotes T95	C0005823; Blood Pressure; Organism Function
+T97	LIVB 1822 1858	virus de la inmunodeficiencia humana
+#65	AnnotatorNotes T97	C0019682; HIV; Virus
+T98	Neg_cue 2162 2176	Incapacidad de
+T100	Duration 2376 2387	los 30 días
+T73	Spec_cue 983 989	riesgo
+T76	PHYS 1207 1228	Filtración glomerular
+#66	AnnotatorNotes T76	C0232809; Glomerular filtration; Organ or Tissue Function
+T69	Neg_cue 2322 2332	distinto a
+T80	DEVI 2354 2372	producto sanitario
+#67	AnnotatorNotes T80	C0025080; Medical Device; Medical Device
+T81	Observation 2177 2209	colaborar con los procedimientos
+#68	AnnotatorNotes T81	C0517036; Cooperates with procedures; Finding
+T84	DEVI 1127 1141	vías centrales
+#69	AnnotatorNotes T84	C1145640; Central venous catheter, device; Medical Device
+T86	ANAT 1218 1228	glomerular
+#70	AnnotatorNotes T86	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Population_data T71 Age
+A2	Population_data T78 Age
+A3	Population_data T82 Age
+A6	Population_data T89 Age
+A7	Assertion T18 Speculated
+A8	Assertion T23 Speculated
+A4	Assertion T48 Negated
+A5	Status T4 History_of
+A10	Status T5 History_of
+A11	Status T8 History_of
+A12	Assertion T19 Contraindicated
+A13	Assertion T59 Contraindicated
+A9	Status T46 History_of
+A14	Assertion T81 Negated
+#71	AnnotatorNotes T51	C0302148; Blood Clot; Pathologic Function
+#72	AnnotatorNotes T20	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+#73	AnnotatorNotes T3	C0032181; Platelet Count measurement; Laboratory Procedure
+#74	AnnotatorNotes T64	C1305849; Diastolic blood pressure measurement; Diagnostic Procedure | C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+R1	Speculation Arg1:T73 Arg2:T18	
+R2	Speculation Arg1:T94 Arg2:T23	
+T88	Quantifier_or_Qualifier 1347 1369	clínicamente relevante
+A15	Assertion T88 Speculated
+R3	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T88	
+R4	Negation Arg1:T98 Arg2:T81	
+R5	Negation Arg1:T69 Arg2:T48	
+R6	Has_Dose_or_Strength Arg1:T50 Arg2:T67	
+R7	Has_Dose_or_Strength Arg1:T7 Arg2:T74	
+R8	Has_Drug_Form Arg1:T7 Arg2:T75	
+R9	Has_Drug_Form Arg1:T50 Arg2:T68	
+R10	Has_Route_or_Mode Arg1:T50 Arg2:T70	
+R11	Has_Route_or_Mode Arg1:T7 Arg2:T77	
+R12	Experiences Arg1:T78 Arg2:T7	
+R13	Experiences Arg1:T71 Arg2:T50	
+R14	Has_Age Arg1:T71 Arg2:T72	
+R15	Has_Age Arg1:T78 Arg2:T79	
+R16	Experiences Arg1:T71 Arg2:T4	
+R17	Experiences Arg1:T78 Arg2:T8	
+R18	Experiences Arg1:T71 Arg2:T5	
+R20	Has_Age Arg1:T82 Arg2:T83	
+R21	Experiences Arg1:T82 Arg2:T10	
+R22	Has_Duration_or_Interval Arg1:T53 Arg2:T85	
+R23	Used_for Arg1:T53 Arg2:T10	
+R24	Before Arg1:T10 Arg2:T54	
+R25	Used_for Arg1:T11 Arg2:T54	
+R26	Experiences Arg1:T82 Arg2:T54	
+T90	Result_or_Value 754 762	normales
+#75	AnnotatorNotes T90	C0586624; Normal laboratory finding; Finding
+R27	Has_Result_or_Value Arg1:T15 Arg2:T90	
+R28	Has_Result_or_Value Arg1:T14 Arg2:T90	
+R29	Has_Result_or_Value Arg1:T56 Arg2:T90	
+R30	Has_Result_or_Value Arg1:T12 Arg2:T90	
+R31	Overlap Arg1:T15 Arg2:T87	
+R32	Overlap Arg1:T14 Arg2:T87	
+R33	Overlap Arg1:T56 Arg2:T87	
+R34	Overlap Arg1:T12 Arg2:T87	
+R35	Before Arg1:T12 Arg2:T58	
+R36	Before Arg1:T56 Arg2:T58	
+R37	Before Arg1:T14 Arg2:T58	
+R38	Before Arg1:T15 Arg2:T58	
+R39	Used_for Arg1:T16 Arg2:T58	
+T93	Quantifier_or_Qualifier 973 980	activas
+#76	AnnotatorNotes T93	C0205177; Active; Qualitative Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T93	
+R41	Used_for Arg1:T59 Arg2:T19	
+R42	Used_for Arg1:T84 Arg2:T2	
+R43	Overlap Arg1:T2 Arg2:T91	
+R44	Overlap Arg1:T25 Arg2:T91	
+R45	Before Arg1:T25 Arg2:T60	
+R46	Before Arg1:T2 Arg2:T60	
+R47	Has_Dose_or_Strength Arg1:T60 Arg2:T92	
+R48	Location_of Arg1:T86 Arg2:T76	
+R49	Location_of Arg1:T86 Arg2:T20	
+R50	Location_of Arg1:T86 Arg2:T31	
+T96	Result_or_Value 1244 1268	menor a 30 mL/min/1,73m2
+R51	Has_Result_or_Value Arg1:T31 Arg2:T96	
+R52	Has_Result_or_Value Arg1:T20 Arg2:T96	
+R53	Overlap Arg1:T21 Arg2:T22	
+R54	Before Arg1:T22 Arg2:T23	
+T99	Result_or_Value 1404 1455	mayor 5 × el límite superior de la normalidad (LSN)
+R55	Has_Result_or_Value Arg1:T24 Arg2:T99	
+R56	Has_Result_or_Value Arg1:T61 Arg2:T99	
+T101	Result_or_Value 1477 1490	mayor 2 × LSN
+R57	Has_Result_or_Value Arg1:T26 Arg2:T101	
+T102	Result_or_Value 1515 1535	mayor 20 % del total
+R58	Has_Result_or_Value Arg1:T27 Arg2:T102	
+T103	Result_or_Value 1558 1574	menor 50 × 109/L
+R63	Has_Result_or_Value Arg1:T3 Arg2:T103	
+T104	Result_or_Value 1649 1678	mayor al percentil 95 de edad
+R64	Has_Result_or_Value Arg1:T64 Arg2:T104	
+T105	Quantifier_or_Qualifier 1686 1698	concomitante
+#77	AnnotatorNotes T105	C0521115; Simultaneous; Temporal Concept
+R65	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T105	
+R66	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T105	
+R67	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T105	
+T107	Quantifier_or_Qualifier 2021 2033	concomitante
+#79	AnnotatorNotes T107	C0205373; Systemic; Functional Concept
+R68	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T107	
+R69	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T105	
+R70	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T105	
+R71	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T105	
+R72	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T105	
+R73	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T107	
+R74	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T107	
+R75	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T107	
+R76	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T107	
+R77	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T107	
+R78	Causes Arg1:T47 Arg2:T46	
+T108	Observation 2262 2289	Participación en un estudio
+#80	AnnotatorNotes T108	C1278516; Patient participation status; Finding (?)
+R79	Has_Duration_or_Interval Arg1:T108 Arg2:T100	
+R80	Before Arg1:T108 Arg2:T49	
+R81	Has_Duration_or_Interval Arg1:T80 Arg2:T100	
+R82	Has_Duration_or_Interval Arg1:T65 Arg2:T100	
+R83	Before Arg1:T80 Arg2:T49	
+R84	Before Arg1:T65 Arg2:T49	
+T109	ANAT 1617 1625	arterial
+#81	AnnotatorNotes T109	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+R19	Location_of Arg1:T109 Arg2:T95	
+R85	Location_of Arg1:T109 Arg2:T64	
+T110	Quantifier_or_Qualifier 990 997	elevado
+R89	Has_Quantifier_or_Qualifier Arg1:T73 Arg2:T110	
+T111	Quantifier_or_Qualifier 546 556	finalizado
+R90	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T111	
+R91	Has_Duration_or_Interval Arg1:T90 Arg2:T87	
+T112	Route 1971 1986	forma sistémica
+R94	Has_Route_or_Mode Arg1:T37 Arg2:T112	
+R95	Has_Route_or_Mode Arg1:T36 Arg2:T112	
+R96	Has_Route_or_Mode Arg1:T35 Arg2:T112	
+R97	Has_Route_or_Mode Arg1:T34 Arg2:T112	
+R98	Has_Route_or_Mode Arg1:T33 Arg2:T112	
+R99	Has_Route_or_Mode Arg1:T32 Arg2:T112	
+R100	Has_Route_or_Mode Arg1:T30 Arg2:T112	
+R101	Has_Route_or_Mode Arg1:T38 Arg2:T112	
+T113	CONC 1988 1998	se permite
+T106	Observation 910 922	asentimiento
+#78	AnnotatorNotes T106	C1302239; Patient consented to clinical trial; Finding (?)
+R103	Experiences Arg1:T89 Arg2:T106	
+#82	AnnotatorNotes T30	C3830624; CYP3A4 Inhibitor; Chemical Viewed Structurally (?) | C3898062; P-glycoprotein Inhibitor; Organic Chemical · Pharmacologic Substance
+#83	AnnotatorNotes T39	C3850041; Cytochrome P-450 CYP3A4 Inducers; Pharmacologic Substance (?)
+#84	AnnotatorNotes T111	C1272693; Ended - status; Qualitative Concept
+#85	AnnotatorNotes T110	C0205250; High; Qualitative Concept
+R59	Overlap Arg1:T21 Arg2:T24	
+R60	Overlap Arg1:T21 Arg2:T61	
+R61	Overlap Arg1:T21 Arg2:T26	
+R62	Overlap Arg1:T21 Arg2:T27	
+#86	AnnotatorNotes T88	C5209294; Clinical relevance; Intellectual Product
+R86	Speculation Arg1:T94 Arg2:T88	
+#87	AnnotatorNotes T68	C1273622; Powder for Oral Suspension; Biomedical or Dental Material (?) ['dry powder formulation for oral suspension']
+#88	AnnotatorNotes T75	C1273622; Powder for Oral Suspension; Biomedical or Dental Material (?) ['dry powder formulation for oral suspension']
+#89	AnnotatorNotes T112	C0205373; Systemic; Functional Concept
+A16	Experiencer T71 Patient
+A17	Experiencer T78 Patient
+A18	Experiencer T82 Patient
+A19	Experiencer T89 Patient
+A20	Status T25 Future
+A21	Status T2 Future
+A22	Assertion T112 Hypothetical
+T114	Observation 983 1000	riesgo elevado de
+#90	AnnotatorNotes T114	C0332167; High risk of; Finding

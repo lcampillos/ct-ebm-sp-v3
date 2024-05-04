@@ -1,0 +1,192 @@
+T1	PROC 57 68	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 91 117	enfermedad aterosclerótica
+#2	AnnotatorNotes T2	C0004153; Atherosclerosis; Disease or Syndrome
+T3	DISO 121 140	artritis reumatoide
+#3	AnnotatorNotes T3	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T4	PROC 174 185	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 209 235	enfermedad aterosclerótica
+#5	AnnotatorNotes T5	C0004153; Atherosclerosis; Disease or Syndrome
+T6	CHEM 190 199	sarilumab
+#6	AnnotatorNotes T6	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	PROC 249 285	Tomografía por Emisión de Positrones
+#7	AnnotatorNotes T7	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T8	PROC 288 308	Tomografía computada
+#8	AnnotatorNotes T8	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T9	PROC 335 338	PET
+#9	AnnotatorNotes T9	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T10	CHEM 72 81	sarilumab
+#10	AnnotatorNotes T10	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	DISO 346 365	artritis reumatoide
+#11	AnnotatorNotes T11	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T12	DISO 389 408	ARTRITIS REUMATOIDE
+#12	AnnotatorNotes T12	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T13	DISO 455 457	AR
+#13	AnnotatorNotes T13	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T14	CHEM 513 530	DMARDs biológicos
+#14	AnnotatorNotes T14	C4055380; Biologic Disease-Modifying Antirheumatic Drug; Pharmacologic Substance
+T15	CHEM 583 601	fármacos anti-IL-6
+T16	PROC 626 629	PET
+#15	AnnotatorNotes T16	C0032743; Positron-Emission Tomography; Diagnostic Procedure
+T17	CHEM 770 779	sarilumab
+#16	AnnotatorNotes T17	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T18	DISO 663 669	placas
+#17	AnnotatorNotes T18	C0332461; Plaque (lesion); Finding
+T19	ANAT 699 707	carótida
+T20	PROC 686 707	ecografía de carótida
+T21	DISO 942 952	eventos CV
+T22	ANAT 950 952	CV
+#18	AnnotatorNotes T22	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T23	DISO 967 975	diabetes
+#19	AnnotatorNotes T23	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T24	DISO 978 997	fallo renal crónico
+#20	AnnotatorNotes T24	C0403447; Chronic Kidney Insufficiency; Disease or Syndrome | C1561643; Chronic Kidney Diseases; Disease or Syndrome
+T25	PROC 1001 1033	Recuento absoluto de neutrófilos
+#21	AnnotatorNotes T25	C0948762; Absolute neutrophil count; Laboratory Procedure
+T26	ANAT 1059 1068	plaquetas
+#22	AnnotatorNotes T26	C0005821; Blood Platelets; Cell
+T27	PROC 1085 1098	Transaminasas
+#23	AnnotatorNotes T27	C0919834; Transaminase Assay; Laboratory Procedure
+T28	DISO 1135 1144	Infección
+#24	AnnotatorNotes T28	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T29	CHEM 1238 1247	sarilumab
+#25	AnnotatorNotes T29	C3885145; sarilumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T30	DISO 1164 1187	infecciones localizadas
+#26	AnnotatorNotes T30	C0016397; Focal Infection; Disease or Syndrome
+T31	PROC 1292 1306	ensayo clínico
+#27	AnnotatorNotes T31	C0008976; Clinical Trials; Research Activity
+T32	PROC 1388 1402	consentimiento
+#28	AnnotatorNotes T32	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T33	PROC 1508 1529	método anticonceptivo
+#29	AnnotatorNotes T33	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T34	PROC 339 341	CT
+#30	AnnotatorNotes T34	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T35	PROC 490 493	PCR
+#31	AnnotatorNotes T35	C0201657; C-reactive protein measurement; Laboratory Procedure
+T36	PROC 630 632	CT
+#32	AnnotatorNotes T36	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T37	PROC 870 894	consentimiento informado
+#33	AnnotatorNotes T37	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T38	ANAT 984 989	renal
+#34	AnnotatorNotes T38	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T39	ANAT 1022 1033	neutrófilos
+#35	AnnotatorNotes T39	C0027950; neutrophil; Cell
+T40	PROC 1047 1068	Recuento de plaquetas
+#36	AnnotatorNotes T40	C0032181; Platelet Count measurement; Laboratory Procedure
+T41	PROC 1109 1112	ALT
+#37	AnnotatorNotes T41	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T42	PROC 1115 1118	AST
+#38	AnnotatorNotes T42	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T43	PROC 1220 1234	administración
+#39	AnnotatorNotes T43	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T44	Date 13 17	2019
+T45	Age 442 450	≥18 años
+T47	LIVB 639 648	pacientes
+#40	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 732 741	Pacientes
+#41	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 846 855	Pacientes
+#42	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Duration 990 997	crónico
+#43	AnnotatorNotes T51	C0205191; chronic; Temporal Concept
+T52	LIVB 1251 1260	Pacientes
+#44	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T54	Neg_cue 1338 1348	Negativa a
+T55	LIVB 1406 1451	Mujeres embarazadas o en periodo de lactancia
+#45	AnnotatorNotes T55	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T56	LIVB 1464 1486	mujeres en edad fértil
+#46	AnnotatorNotes T56	C4324275; Woman of childbearing potential; Population Group
+T57	Age 1475 1486	edad fértil
+T58	PHYS 1414 1425	embarazadas
+#47	AnnotatorNotes T58	C0032961; Pregnancy; Organism Function
+T59	Neg_cue 1491 1493	no
+T46	Neg_cue 505 512	Naïve a
+T48	PHYS 1442 1451	lactancia
+#48	AnnotatorNotes T48	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T53	DISO 1085 1107	Transaminasas elevadas
+#49	AnnotatorNotes T53	C5384817; Elevation of levels of liver transaminase levels; Finding [ICD-10: R74.01]
+A1	Assertion T32 Negated
+A2	Status T14 History_of
+A3	Assertion T14 Negated
+A4	Status T21 History_of
+A5	Status T23 History_of
+A6	Status T24 History_of
+A7	Assertion T43 Contraindicated
+A8	Assertion T29 Contraindicated
+A9	Assertion T33 Negated
+A10	Population_data T56 Age
+#50	AnnotatorNotes T19	C0007272; Carotid Arteries; Body Part, Organ, or Organ Component
+T60	Observation 1349 1373	participar en el estudio
+A11	Assertion T60 Negated
+#51	AnnotatorNotes T60	C1278516; Patient participation status; Finding
+R1	Negation Arg1:T54 Arg2:T60	
+R2	Negation Arg1:T54 Arg2:T32	
+T61	CONC 466 471	DAS28
+#52	AnnotatorNotes T61	C2732493; Disease activity score 28 joint in rheumatoid arthritis; Intellectual Product
+T62	Result_or_Value 472 476	>3.2
+T63	Result_or_Value 494 502	≥1 mg/dL
+R3	Has_Result_or_Value Arg1:T35 Arg2:T63	
+R4	Has_Result_or_Value Arg1:T61 Arg2:T62	
+T64	Quantifier_or_Qualifier 458 464	activa
+#53	AnnotatorNotes T64	C0679217; Active State; Idea or Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T64	
+R6	Negation Arg1:T46 Arg2:T14	
+R7	Used_for Arg1:T10 Arg2:T1	
+R8	Used_for Arg1:T6 Arg2:T4	
+R9	Overlap Arg1:T2 Arg2:T3	
+R14	Overlap Arg1:T5 Arg2:T11	
+R19	Before Arg1:T32 Arg2:T60	
+T65	Observation 1271 1334	participando en otro ensayo clínico o proyecto de investigación
+R21	Experiences Arg1:T55 Arg2:T58	
+R22	Experiences Arg1:T55 Arg2:T48	
+R23	Has_Age Arg1:T56 Arg2:T57	
+R24	Negation Arg1:T59 Arg2:T33	
+T66	Quantifier_or_Qualifier 1530 1536	eficaz
+#54	AnnotatorNotes T66	C1704419; Effective; Qualitative Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T66	
+R26	Negation Arg1:T59 Arg2:T66	
+A12	Assertion T66 Negated
+R27	Location_of Arg1:T19 Arg2:T20	
+#55	AnnotatorNotes T20	C5430445; X-ray of carotid artery; Diagnostic Procedure
+R28	Before Arg1:T20 Arg2:T36	
+R29	Before Arg1:T20 Arg2:T16	
+R32	Experiences Arg1:T47 Arg2:T18	
+R33	Experiences Arg1:T47 Arg2:T16	
+R34	Experiences Arg1:T47 Arg2:T36	
+T67	Result_or_Value 712 727	al menos 1.5 mm
+R35	Has_Result_or_Value Arg1:T18 Arg2:T67	
+R36	Experiences Arg1:T47 Arg2:T20	
+R37	Experiences Arg1:T49 Arg2:T17	
+R38	Location_of Arg1:T22 Arg2:T21	
+#56	AnnotatorNotes T21	C1320716; Cardiovascular event; Finding
+R39	Location_of Arg1:T38 Arg2:T24	
+R40	Has_Duration_or_Interval Arg1:T24 Arg2:T51	
+T68	Result_or_Value 1034 1043	<2 x109/L
+R41	Has_Result_or_Value Arg1:T25 Arg2:T68	
+T69	Result_or_Value 1069 1082	<150 x 103/μL
+R42	Has_Result_or_Value Arg1:T40 Arg2:T69	
+T70	Result_or_Value 1119 1130	> 1,5 x LSN
+R43	Has_Result_or_Value Arg1:T42 Arg2:T70	
+R44	Has_Result_or_Value Arg1:T41 Arg2:T70	
+R45	Has_Result_or_Value Arg1:T27 Arg2:T70	
+T71	Quantifier_or_Qualifier 1145 1151	activa
+#57	AnnotatorNotes T71	C0679217; Active State; Idea or Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T71	
+R47	Used_for Arg1:T29 Arg2:T43	
+#58	AnnotatorNotes T15	C5690764; Interleukin-6 Inhibitors; Organic Chemical · Pharmacologic Substance
+T72	Observation 533 545	refractarios
+#59	AnnotatorNotes T72	C0438286; Absent response to treatment; Finding
+A13	Experiencer T52 Patient
+A14	Experiencer T55 Patient
+A15	Experiencer T56 Patient
+A16	Experiencer T47 Patient
+A17	Experiencer T49 Patient
+A18	Experiencer T50 Patient
+A19	Status T17 Future
+T73	Observation 46 52	Efecto
+#60	AnnotatorNotes T73	C1518681; Outcome of Therapy; Finding (?)
+R10	Causes Arg1:T1 Arg2:T73	
+T74	Observation 163 169	Efecto
+#61	AnnotatorNotes T74	C1518681; Outcome of Therapy; Finding (?)
+R11	Causes Arg1:T4 Arg2:T74	

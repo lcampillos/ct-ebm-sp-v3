@@ -1,0 +1,365 @@
+T1	PROC 54 86	Estudio aleatorizado de fase III
+T2	PROC 96 147	trasplante de células hematopoyéticas haploidéntico
+#1	AnnotatorNotes T2	C4527425; Haploidentical Hematopoietic Cell Transplantation; Therapeutic or Preventive Procedure
+T3	ANAT 110 133	células hematopoyéticas
+#2	AnnotatorNotes T3	C2323499; Hematopoietic cell; Cell
+T4	PROC 204 211	donados
+#3	AnnotatorNotes T4	C3489429; Embryo Donation; Health Care Activity
+T5	DISO 230 244	leucemia aguda
+#4	AnnotatorNotes T5	C0085669; Acute leukemia; Neoplastic Process
+T6	PROC 310 327	HCT haploidéntico
+T7	DISO 342 358	leucemias agudas
+#5	AnnotatorNotes T7	C0085669; Acute leukemia; Neoplastic Process
+T8	DISO 539 542	LMA
+#6	AnnotatorNotes T8	C0023467; Leukemia, Myelocytic, Acute; Neoplastic Process
+T9	DISO 545 548	LLA
+#7	AnnotatorNotes T9	C0023449; Acute lymphocytic leukemia; Neoplastic Process
+T10	DISO 658 661	LMA
+#8	AnnotatorNotes T10	C0023467; Leukemia, Myelocytic, Acute; Neoplastic Process
+T11	DISO 664 667	LLA
+#9	AnnotatorNotes T11	C0023449; Acute lymphocytic leukemia; Neoplastic Process
+T12	DISO 702 716	LMA secundaria
+#10	AnnotatorNotes T12	C0280449; Secondary Acute Myeloid Leukemia; Neoplastic Process
+T13	PROC 774 777	HLA
+#11	AnnotatorNotes T13	C2348930; HLA Compatibility Testing; Laboratory Procedure
+T14	PROC 944 968	consentimiento informado
+#12	AnnotatorNotes T14	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T15	PROC 1019 1043	estudio de investigación
+#13	AnnotatorNotes T15	C0681814; research study; Research Activity
+T16	DISO 1109 1136	reacciones adversas tóxicas
+T17	DISO 1183 1193	enfermedad
+#14	AnnotatorNotes T17	C0012634; Disease; Disease or Syndrome
+T18	DISO 1196 1208	complicación
+#15	AnnotatorNotes T18	C0009566; Complication; Pathologic Function
+T19	DISO 1247 1257	enfermedad
+#16	AnnotatorNotes T19	C0012634; Disease; Disease or Syndrome
+T20	PROC 1291 1342	trasplante de células hematopoyéticas haploidéntico
+#17	AnnotatorNotes T20	C4527425; Haploidentical Hematopoietic Cell Transplantation; Therapeutic or Preventive Procedure
+T21	ANAT 1305 1328	células hematopoyéticas
+#18	AnnotatorNotes T21	C2323499; Hematopoietic cell; Cell
+T22	DISO 1388 1413	enfermedad activa del SNC
+T23	ANAT 1410 1413	SNC
+#19	AnnotatorNotes T23	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T24	PROC 1550 1575	esterilización quirúrgica
+T25	PROC 1592 1615	métodos anticonceptivos
+#20	AnnotatorNotes T25	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T26	PROC 1702 1720	prueba de embarazo
+#21	AnnotatorNotes T26	C0032976; Pregnancy Tests; Diagnostic Procedure
+T27	ANAT 1725 1730	suero
+#22	AnnotatorNotes T27	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T28	DISO 1844 1855	Infecciones
+#23	AnnotatorNotes T28	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T29	CHEM 1891 1902	ganciclovir
+#24	AnnotatorNotes T29	C0017066; ganciclovir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T30	CHEM 1904 1918	valganciclovir
+#25	AnnotatorNotes T30	C0909381; valganciclovir; Organic Chemical · Pharmacologic Substance
+T31	CHEM 1921 1930	aciclovir
+#26	AnnotatorNotes T31	C0001367; acyclovir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T32	ANAT 1965 1982	linfocitos HSV-TK
+#27	AnnotatorNotes T32	C1881029; HSV-TK-Transduced Donor Lymphocytes; Cell
+T33	PROC 2028 2064	suspensión del tratamiento antiviral
+T34	PROC 2086 2122	tratamiento inmunosupresor sistémico
+T35	PROC 2126 2162	Tratamiento inmunosupresor sistémico
+T36	PROC 2183 2234	trasplante de células hematopoyéticas haploidéntico
+#28	AnnotatorNotes T36	C4527425; Haploidentical Hematopoietic Cell Transplantation; Therapeutic or Preventive Procedure
+T37	ANAT 2197 2220	células hematopoyéticas
+#29	AnnotatorNotes T37	C2323499; Hematopoietic cell; Cell
+T38	CHEM 2263 2309	factor estimulante de colonias de granulocitos
+#30	AnnotatorNotes T38	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor
+T39	ANAT 2297 2309	granulocitos
+#31	AnnotatorNotes T39	C0018183; granulocyte; Cell
+T40	PROC 2322 2373	trasplante de células hematopoyéticas haploidéntico
+#32	AnnotatorNotes T40	C4527425; Haploidentical Hematopoietic Cell Transplantation; Therapeutic or Preventive Procedure
+T41	ANAT 2336 2359	células hematopoyéticas
+#33	AnnotatorNotes T41	C2323499; Hematopoietic cell; Cell
+T42	PROC 2377 2392	Linfocitos CD3+
+T43	PROC 2457 2508	trasplante de células hematopoyéticas haploidéntico
+#34	AnnotatorNotes T43	C4527425; Haploidentical Hematopoietic Cell Transplantation; Therapeutic or Preventive Procedure
+T44	ANAT 2471 2494	células hematopoyéticas
+#35	AnnotatorNotes T44	C2323499; Hematopoietic cell; Cell
+T45	ANAT 186 203	linfocitos HSV-TK
+#36	AnnotatorNotes T45	C1881029; HSV-TK-Transduced Donor Lymphocytes; Cell
+T46	DISO 2068 2072	EICH
+#37	AnnotatorNotes T46	C0018133; Graft-vs-Host Disease; Disease or Syndrome
+T47	PHYS 1508 1520	menopáusicas
+#38	AnnotatorNotes T47	C0206159; Postmenopause; Organism Function
+T48	ANAT 1832 1838	HSV-Tk
+T49	ANAT 1733 1738	orina
+#39	AnnotatorNotes T49	C0042036; Urine; Body Substance
+T50	PROC 1820 1828	infusión
+#40	AnnotatorNotes T50	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T51	PROC 1873 1887	administración
+#41	AnnotatorNotes T51	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T52	PROC 1951 1959	infusión
+#42	AnnotatorNotes T52	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T53	CHEM 2055 2064	antiviral
+#43	AnnotatorNotes T53	C0003451; Antiviral Agents; Pharmacologic Substance
+T54	CHEM 2098 2112	inmunosupresor
+#44	AnnotatorNotes T54	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T55	CHEM 2138 2152	inmunosupresor
+#45	AnnotatorNotes T55	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T56	PROC 2238 2252	Administración
+#46	AnnotatorNotes T56	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T57	CHEM 2256 2261	G-CSF
+#47	AnnotatorNotes T57	C0079459; Granulocyte Colony-Stimulating Factor; Amino Acid, Peptide, or Protein · Immunologic Factor | C0210630; filgrastim; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T58	PROC 2415 2423	infusión
+#48	AnnotatorNotes T58	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T59	Date 12 16	2009
+T60	Neg_cue 154 157	sin
+T62	LIVB 216 225	pacientes
+#49	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 289 298	pacientes
+#50	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T65	Age 483 492	≥ 18 años
+T68	Neg_cue 725 736	Ausencia de
+T69	LIVB 737 786	donante emparentado o no emparentado HLA idéntico
+#51	AnnotatorNotes T69	C4330663; Matched Related Donor; Population Group + C4318937; Matched Unrelated Donor; Population Group
+T71	Duration 839 848	> 3 meses
+T72	LIVB 883 892	pacientes
+#52	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T73	LIVB 919 927	donantes
+#53	AnnotatorNotes T73	C2191327; donor of organ or tissue; Patient or Disabled Group
+T74	Spec_cue 1077 1085	posibles
+T75	LIVB 1165 1174	Pacientes
+#54	AnnotatorNotes T75	C0030705; Patients; Patient or Disabled Group
+T76	Spec_cue 1209 1223	potencialmente
+T77	DISO 1224 1230	mortal
+#55	AnnotatorNotes T77	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T78	LIVB 1359 1371	Investigador
+#56	AnnotatorNotes T78	C0035173; Research Personnel; Professional or Occupational Group
+T79	LIVB 1374 1383	Pacientes
+#57	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	PHYS 1416 1424	Embarazo
+#58	AnnotatorNotes T80	C0032961; Pregnancy; Organism Function
+T81	PHYS 1427 1436	lactancia
+#59	AnnotatorNotes T81	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T82	LIVB 1442 1469	pacientes varones y mujeres
+#60	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T84	PHYS 1474 1496	capacidad reproductora
+#61	AnnotatorNotes T84	C0232896; Reproductive function; Physiologic Function
+T86	Duration 1529 1543	menos de 1 año
+T87	Neg_cue 1546 1549	sin
+T88	LIVB 1653 1675	mujeres en edad fértil
+#62	AnnotatorNotes T88	C4324275; Woman of childbearing potential; Population Group
+T89	Age 1664 1675	edad fértil
+T91	Neg_cue 1686 1694	negativo
+T93	Duration 1753 1764	los 14 días
+T99	Duration 2005 2013	24 horas
+T101	Date 2163 2171	en curso
+T103	PHYS 118 133	hematopoyéticas
+#63	AnnotatorNotes T103	C0018951; Hematopoiesis; Organ or Tissue Function
+T104	PHYS 1313 1328	hematopoyéticas
+#64	AnnotatorNotes T104	C0018951; Hematopoiesis; Organ or Tissue Function
+T105	PHYS 1712 1720	embarazo
+#65	AnnotatorNotes T105	C0032961; Pregnancy; Organism Function
+T106	PHYS 2205 2220	hematopoyéticas
+#66	AnnotatorNotes T106	C0018951; Hematopoiesis; Organ or Tissue Function
+T107	PHYS 2344 2359	hematopoyéticas
+#67	AnnotatorNotes T107	C0018951; Hematopoiesis; Organ or Tissue Function
+T108	PHYS 2479 2494	hematopoyéticas
+#68	AnnotatorNotes T108	C0018951; Hematopoiesis; Organ or Tissue Function
+T61	LIVB 896 911	tutores legales
+#69	AnnotatorNotes T61	C0023226; Legal Guardians; Population Group
+T64	Spec_cue 587 593	riesgo
+T66	DISO 602 610	recidiva
+#70	AnnotatorNotes T66	C0699753; Cancer Relapse; Neoplastic Process
+T67	Spec_cue 432 441	riesgo de
+T70	DISO 442 449	recaída
+#71	AnnotatorNotes T70	C0699753; Cancer Relapse; Neoplastic Process
+T85	PROC 849 851	EF
+#72	AnnotatorNotes T85	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+A1	Assertion T45 Negated
+A2	Assertion T4 Negated
+A3	Assertion T69 Negated
+A4	Assertion T16 Speculated
+A5	Assertion T77 Negated
+A6	Assertion T24 Negated
+A7	Assertion T105 Negated
+A8	Assertion T66 Speculated
+A9	Assertion T70 Speculated
+A10	Assertion T20 Contraindicated
+#73	AnnotatorNotes T1	C0034656; Randomization; Research Activity + C0282461; Phase 3 Clinical Trials; Research Activity
+#74	AnnotatorNotes T6	C4527425; Haploidentical Hematopoietic Cell Transplantation; Therapeutic or Preventive Procedure
+#75	AnnotatorNotes T16	C0542243; Toxic reaction (NOS); Finding
+#76	AnnotatorNotes T48	C1881029; HSV-TK-Transduced Donor Lymphocytes; Cell
+T83	Quantifier_or_Qualifier 762 773	emparentado
+A11	Assertion T83 Negated
+T90	Neg_cue 759 761	no
+T92	Quantifier_or_Qualifier 745 756	emparentado
+R1	Negation Arg1:T60 Arg2:T45	
+R2	Negation Arg1:T60 Arg2:T4	
+R3	Speculation Arg1:T67 Arg2:T70	
+R4	Speculation Arg1:T64 Arg2:T66	
+R5	Negation Arg1:T68 Arg2:T69	
+R6	Negation Arg1:T90 Arg2:T83	
+R7	Has_Quantifier_or_Qualifier Arg1:T69 Arg2:T83	
+R8	Has_Quantifier_or_Qualifier Arg1:T69 Arg2:T92	
+R9	Speculation Arg1:T74 Arg2:T16	
+T94	Observation 1086 1106	efectos beneficiosos
+A12	Assertion T94 Speculated
+#77	AnnotatorNotes T94	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R10	Speculation Arg1:T74 Arg2:T94	
+R11	Speculation Arg1:T76 Arg2:T77	
+R12	Negation Arg1:T87 Arg2:T24	
+R13	Negation Arg1:T91 Arg2:T105	
+R15	Combined_with Arg1:T2 Arg2:T4	
+R16	Experiences Arg1:T62 Arg2:T2	
+R17	Experiences Arg1:T62 Arg2:T5	
+T95	Observation 248 259	alto riesgo
+#78	AnnotatorNotes T95	C4319571; High risk; Finding
+R18	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T95	
+T96	Observation 427 441	alto riesgo de
+#79	AnnotatorNotes T96	C0332167; High risk of; Finding
+R19	Before Arg1:T96 Arg2:T70	
+T97	Observation 587 601	riesgo alto de
+#80	AnnotatorNotes T97	C0332167; High risk of; Finding
+R20	Before Arg1:T97 Arg2:T66	
+R21	Experiences Arg1:T63 Arg2:T6	
+R22	Experiences Arg1:T63 Arg2:T7	
+T98	Quantifier_or_Qualifier 362 369	primera
+#81	AnnotatorNotes T98	C0205435; First (number); Quantitative Concept
+T100	Quantifier_or_Qualifier 552 559	primera
+#82	AnnotatorNotes T100	C0205435; First (number); Quantitative Concept
+T102	Observation 560 577	remisión completa
+#83	AnnotatorNotes T102	C0677874; In complete remission; Finding
+R23	Has_Quantifier_or_Qualifier Arg1:T102 Arg2:T100	
+R24	Overlap Arg1:T8 Arg2:T102	
+R25	Overlap Arg1:T9 Arg2:T102	
+T109	Observation 370 387	remisión completa
+#84	AnnotatorNotes T109	C0677874; In complete remission; Finding
+R26	Overlap Arg1:T7 Arg2:T109	
+R27	Has_Quantifier_or_Qualifier Arg1:T109 Arg2:T98	
+T110	Observation 390 407	remisión completa
+#85	AnnotatorNotes T110	C0677874; In complete remission; Finding
+T111	Quantifier_or_Qualifier 408 420	subsiguiente
+R28	Has_Quantifier_or_Qualifier Arg1:T110 Arg2:T111	
+R29	Experiences Arg1:T63 Arg2:T109	
+R30	Experiences Arg1:T63 Arg2:T110	
+R31	Experiences Arg1:T63 Arg2:T96	
+R32	Before Arg1:T7 Arg2:T70	
+R33	Overlap Arg1:T8 Arg2:T97	
+R34	Overlap Arg1:T9 Arg2:T97	
+R35	Before Arg1:T8 Arg2:T66	
+R36	Before Arg1:T9 Arg2:T66	
+R37	Overlap Arg1:T7 Arg2:T96	
+T112	Observation 579 581	RC
+#86	AnnotatorNotes T112	C0677874; In complete remission; Finding
+R38	Has_Quantifier_or_Qualifier Arg1:T112 Arg2:T100	
+R39	Overlap Arg1:T8 Arg2:T112	
+R40	Overlap Arg1:T9 Arg2:T112	
+T113	CONC 868 872	ECOG
+#87	AnnotatorNotes T113	C1520224; ECOG performance status; Intellectual Product
+T114	Result_or_Value 873 876	≤ 2
+R41	Has_Result_or_Value Arg1:T113 Arg2:T114	
+R42	Used_for Arg1:T113 Arg2:T85	
+T115	Observation 1060 1069	informado
+#88	AnnotatorNotes T115	C0587903; Patient information status; Finding (?)
+R43	Before Arg1:T115 Arg2:T94	
+R44	Before Arg1:T115 Arg2:T14	
+R46	Experiences Arg1:T72 Arg2:T94	
+R47	Experiences Arg1:T72 Arg2:T16	
+R48	Before Arg1:T115 Arg2:T16	
+R49	Before Arg1:T14 Arg2:T94	
+R50	Before Arg1:T14 Arg2:T15	
+R51	Before Arg1:T14 Arg2:T16	
+R52	Experiences Arg1:T75 Arg2:T17	
+R53	Experiences Arg1:T75 Arg2:T18	
+R54	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T77	
+R55	Experiences Arg1:T75 Arg2:T77	
+R56	Experiences Arg1:T75 Arg2:T19	
+T116	Observation 626 655	factores pronóstico negativos
+#89	AnnotatorNotes T116	C0278252; Prognosis bad; Finding
+R58	Before Arg1:T116 Arg2:T66	
+T117	Observation 679 681	RC
+#90	AnnotatorNotes T117	C0677874; In complete remission; Finding
+T118	Observation 684 686	RC
+#91	AnnotatorNotes T118	C0677874; In complete remission; Finding
+R59	Overlap Arg1:T10 Arg2:T117	
+R60	Overlap Arg1:T10 Arg2:T118	
+R61	Overlap Arg1:T11 Arg2:T117	
+R62	Overlap Arg1:T11 Arg2:T118	
+T119	Observation 720 722	RC
+#92	AnnotatorNotes T119	C0677874; In complete remission; Finding
+R63	Overlap Arg1:T12 Arg2:T119	
+T120	Quantifier_or_Qualifier 671 678	segunda
+T121	Quantifier_or_Qualifier 687 699	subsiguiente
+#93	AnnotatorNotes T121	C0332282; Following; Temporal Concept
+R64	Has_Quantifier_or_Qualifier Arg1:T118 Arg2:T121	
+#94	AnnotatorNotes T111	C0332282; Following; Temporal Concept
+R65	Has_Quantifier_or_Qualifier Arg1:T117 Arg2:T120	
+T122	Observation 789 818	Condiciones clínicas estables
+#95	AnnotatorNotes T122	C1282982; Patient's conditionstable; Finding
+T123	CONC 821 838	esperanza de vida
+#96	AnnotatorNotes T123	C0023671; Life Expectancy; Group Attribute
+R66	Has_Duration_or_Interval Arg1:T123 Arg2:T71	
+#97	AnnotatorNotes T120	C0205436; second (number); Quantitative Concept
+R67	Experiences Arg1:T79 Arg2:T22	
+R68	Location_of Arg1:T23 Arg2:T22	
+#98	AnnotatorNotes T22	C0007682; CNS disorder; Disease or Syndrome (?)
+R69	Experiences Arg1:T82 Arg2:T84	
+R70	Has_Duration_or_Interval Arg1:T47 Arg2:T86	
+R71	Overlap Arg1:T47 Arg2:T24	
+R72	Experiences Arg1:T82 Arg2:T25	
+R73	Overlap Arg1:T84 Arg2:T25	
+R74	Overlap Arg1:T47 Arg2:T25	
+R75	Has_Age Arg1:T88 Arg2:T89	
+R76	Experiences Arg1:T88 Arg2:T26	
+R77	Experiences Arg1:T88 Arg2:T105	
+R78	Location_of Arg1:T27 Arg2:T26	
+R79	Location_of Arg1:T49 Arg2:T26	
+R80	Overlap Arg1:T26 Arg2:T93	
+T124	Quantifier_or_Qualifier 1616 1624	eficaces
+#99	AnnotatorNotes T124	C1704419; Effective; Qualitative Concept
+R81	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T124	
+T125	PROC 1641 1648	estudio
+#100	AnnotatorNotes T125	C0008976; Clinical Trials; Research Activity
+R82	Overlap Arg1:T25 Arg2:T125	
+R83	Overlap Arg1:T84 Arg2:T125	
+R84	Overlap Arg1:T47 Arg2:T125	
+T126	PROC 1778 1786	registro
+#101	AnnotatorNotes T126	C4041024; Enrollment in clinical trial; Research Activity
+R85	Before Arg1:T26 Arg2:T126	
+R86	Used_for Arg1:T29 Arg2:T51	
+R87	Used_for Arg1:T30 Arg2:T51	
+R88	Used_for Arg1:T31 Arg2:T51	
+R89	Overlap Arg1:T51 Arg2:T52	
+R91	Used_for Arg1:T53 Arg2:T33	
+R92	After Arg1:T32 Arg2:T99	
+R93	After Arg1:T32 Arg2:T33	
+R94	Used_for Arg1:T54 Arg2:T34	
+R95	Used_for Arg1:T55 Arg2:T35	
+R96	Overlap Arg1:T35 Arg2:T101	
+R97	After Arg1:T35 Arg2:T36	
+R99	Used_for Arg1:T57 Arg2:T56	
+R100	Used_for Arg1:T38 Arg2:T56	
+R101	After Arg1:T56 Arg2:T40	
+T127	Result_or_Value 2393 2401	≥ 100/µl
+#102	AnnotatorNotes T42	C4481285; CD3+ cells in blood; Laboratory Procedure
+R103	Has_Result_or_Value Arg1:T42 Arg2:T127	
+R104	Overlap Arg1:T42 Arg2:T58	
+R105	After Arg1:T58 Arg2:T43	
+T128	Quantifier_or_Qualifier 2437 2445	prevista
+#103	AnnotatorNotes T128	C1301732; Planned; Functional Concept
+R107	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T128	
+R108	Experiences Arg1:T62 Arg2:T95	
+R109	Experiences Arg1:T63 Arg2:T70	
+R14	Overlap Arg1:T7 Arg2:T110	
+R57	Experiences Arg1:T82 Arg2:T24	
+R110	Used_for Arg1:T48 Arg2:T50	
+#104	AnnotatorNotes T101	C0521116; Current (present time); Temporal Concept
+#105	AnnotatorNotes T92	C0439849; Relationships; Qualitative Concept (?)
+#106	AnnotatorNotes T83	C0439849; Relationships; Qualitative Concept (?)
+A13	Experiencer T62 Patient
+A14	Experiencer T63 Patient
+A15	Experiencer T72 Patient
+A16	Experiencer T73 Other
+A17	Experiencer T61 Other
+A18	Experiencer T75 Patient
+A19	Experiencer T78 Other
+A20	Experiencer T79 Patient
+A21	Experiencer T82 Patient
+A22	Experiencer T88 Patient
+A23	Status T58 Future
+A24	Experiencer T69 Other
+T129	Result_or_Value 1686 1694	negativo
+R45	Has_Result_or_Value Arg1:T26 Arg2:T129	

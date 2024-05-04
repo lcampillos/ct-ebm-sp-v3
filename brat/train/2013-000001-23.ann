@@ -1,0 +1,143 @@
+T1	PROC 91 117	tratamiento complementario
+#1	AnnotatorNotes T1	C0936077; Complementary therapies; Therapeutic or Preventive Procedure
+T2	CHEM 120 130	donepezilo
+#2	AnnotatorNotes T2	C0527316; donepezil; Organic Chemical · Pharmacologic Substance
+T3	DISO 148 171	enfermedad de Alzheimer
+#3	AnnotatorNotes T3	C0002395; Alzheimer's Disease; Disease or Syndrome
+T4	PROC 210 238	Estudio de extensión abierto
+T5	PROC 244 283	evaluar la seguridad y la tolerabilidad
+T6	PROC 317 343	tratamiento complementario
+#4	AnnotatorNotes T6	C0936077; Complementary therapies; Therapeutic or Preventive Procedure
+T7	CHEM 346 356	donepezilo
+#5	AnnotatorNotes T7	C0527316; donepezil; Organic Chemical · Pharmacologic Substance
+T8	DISO 374 397	enfermedad de Alzheimer
+#6	AnnotatorNotes T8	C0002395; Alzheimer's Disease; Disease or Syndrome
+T9	DISO 437 460	Enfermedad de Alzheimer
+#7	AnnotatorNotes T9	C0002395; Alzheimer's Disease; Disease or Syndrome
+T10	PROC 553 624	estudios clínicos de pre inclusión doble ciegos controlados con placebo
+T11	CHEM 1197 1200	IAC
+#8	AnnotatorNotes T11	C0007036; Carbonic Anhydrase Inhibitors; Pharmacologic Substance
+T12	DISO 695 717	acontecimiento adverso
+#9	AnnotatorNotes T12	C0877248; Adverse event; Pathologic Function
+T13	DISO 873 891	crisis epilépticas
+#10	AnnotatorNotes T13	C4317109; Epileptic Seizures; Disease or Syndrome
+T14	DISO 979 1003	signos de una enfermedad
+T16	PROC 1176 1187	tratamiento
+#12	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	CHEM 1207 1216	memantina
+#13	AnnotatorNotes T17	C0025242; memantine; Organic Chemical · Pharmacologic Substance
+T18	CHEM 1102 1112	donepezilo
+#14	AnnotatorNotes T18	C0527316; donepezil; Organic Chemical · Pharmacologic Substance
+T19	CHEM 75 85	Lu AE58054
+#15	AnnotatorNotes T19	C3253508; Lu AE58054; Organic Chemical · Pharmacologic Substance
+T20	CHEM 301 311	Lu AE58054
+#16	AnnotatorNotes T20	C3253508; Lu AE58054; Organic Chemical · Pharmacologic Substance
+T21	Date 13 17	2013
+T22	LIVB 134 143	pacientes
+#17	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	Date 284 297	a largo plazo
+T24	LIVB 360 369	pacientes
+#18	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	LIVB 492 500	paciente
+#19	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 674 682	paciente
+#20	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 789 801	investigador
+#21	AnnotatorNotes T27	C0035173; Research Personnel; Professional or Occupational Group
+T30	LIVB 854 862	paciente
+#22	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 961 969	paciente
+#23	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Spec_cue 1037 1045	probable
+T33	LIVB 1117 1125	paciente
+#24	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 1151 1159	paciente
+#25	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Date 769 781	preinclusión
+T28	Date 942 954	preinclusión
+T29	PROC 515 521	Visita
+#26	AnnotatorNotes T29	C1512346; Patient Visit; Health Care Activity
+T36	PROC 538 544	Visita
+#27	AnnotatorNotes T36	C1512346; Patient Visit; Health Care Activity
+T37	PROC 904 910	visita
+#28	AnnotatorNotes T37	C1512346; Patient Visit; Health Care Activity
+T38	CONC 525 537	Finalización
+#29	AnnotatorNotes T38	C4283764; Trial participation end date; Temporal Concept
+T39	CONC 904 954	visita de finalización del estudio de preinclusión
+T40	Quantifier_or_Qualifier 522 523	7
+#31	AnnotatorNotes T5	C1705187; Safety Study; Research Activity + C3274448; Tolerability Study; Research Activity 
+#32	AnnotatorNotes T14	C0037088; Signs and Symptoms; Sign or Symptom
+#33	AnnotatorNotes T23	C0443252; Long-term; Temporal Concept
+T41	Spec_cue 815 822	posible
+T42	Observation 823 847	riesgo para la seguridad
+A2	Assertion T42 Speculated
+T43	PROC 1059 1097	interrumpir o suspender el tratamiento
+A3	Assertion T43 Speculated
+#34	AnnotatorNotes T43	C0850893; stop medication; Therapeutic or Preventive Procedure | C4288399; Pharmacotherapy Discontinuation; Therapeutic or Preventive Procedure
+R1	Speculation Arg1:T32 Arg2:T43	
+R3	Speculation Arg1:T41 Arg2:T42	
+R4	Experiences Arg1:T26 Arg2:T12	
+R5	Experiences Arg1:T26 Arg2:T42	
+T44	Quantifier_or_Qualifier 718 726	moderado
+#35	AnnotatorNotes T44	C0205081; Moderate (severity modifier); Qualitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T44	
+T45	Quantifier_or_Qualifier 729 736	intenso
+#36	AnnotatorNotes T45	C0522510; With intensity; Qualitative Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T45	
+T46	Quantifier_or_Qualifier 737 748	persistente
+#37	AnnotatorNotes T46	C0205322; Persistent; Temporal Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T46	
+T47	PROC 758 765	estudio
+#38	AnnotatorNotes T47	C2603343; Study; Research Activity
+R9	Overlap Arg1:T47 Arg2:T35	
+R10	Before Arg1:T47 Arg2:T12	
+R12	Experiences Arg1:T30 Arg2:T13	
+R14	Before Arg1:T13 Arg2:T39	
+T48	PROC 931 938	estudio
+#39	AnnotatorNotes T48	C2603343; Study; Research Activity
+R15	Overlap Arg1:T48 Arg2:T28	
+T49	Quantifier_or_Qualifier 1004 1030	clínicamente significativa
+R13	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T49	
+R16	Experiences Arg1:T31 Arg2:T14	
+R17	Experiences Arg1:T34 Arg2:T16	
+R18	Used_for Arg1:T11 Arg2:T16	
+R19	Used_for Arg1:T17 Arg2:T16	
+T50	Quantifier_or_Qualifier 1192 1196	otro
+#30	AnnotatorNotes T50	C0205394; Other; Qualitative Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T50	
+R21	Used_for Arg1:T19 Arg2:T1	
+R23	Experiences Arg1:T22 Arg2:T19	
+R24	Experiences Arg1:T22 Arg2:T2	
+R25	Experiences Arg1:T22 Arg2:T3	
+R28	Overlap Arg1:T5 Arg2:T23	
+R29	Experiences Arg1:T24 Arg2:T20	
+R31	Used_for Arg1:T20 Arg2:T6	
+R32	Experiences Arg1:T24 Arg2:T7	
+R33	Experiences Arg1:T24 Arg2:T8	
+T53	Quantifier_or_Qualifier 172 187	leve o moderada
+#42	AnnotatorNotes T53	C1299392; Mild to moderate; Qualitative Concept
+R34	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T53	
+T54	Quantifier_or_Qualifier 398 413	leve o moderada
+#43	AnnotatorNotes T54	C1299392; Mild to moderate; Qualitative Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T54	
+R36	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T40	
+T55	Observation 504 521	completado Visita
+R39	Used_for Arg1:T18 Arg2:T43	
+T56	PROC 1137 1144	estudio
+#44	AnnotatorNotes T56	C0008976; Clinical Trials; Research Activity
+R41	Overlap Arg1:T43 Arg2:T56	
+#40	AnnotatorNotes T49	C5209294; Clinical relevance; Intellectual Product
+R11	Experiences Arg1:T25 Arg2:T29	
+R22	Experiences Arg1:T25 Arg2:T36	
+R26	Experiences Arg1:T30 Arg2:T37	
+#11	AnnotatorNotes T4	C1709323; Open Label Study; Research Activity (?)
+A1	Experiencer T22 Patient
+A4	Experiencer T24 Patient
+A5	Experiencer T25 Patient
+A6	Experiencer T26 Patient
+A7	Experiencer T27 Other
+A8	Experiencer T30 Patient
+A9	Experiencer T31 Patient
+A10	Experiencer T33 Patient
+A11	Experiencer T34 Patient
+R2	Experiences Arg1:T33 Arg2:T43	

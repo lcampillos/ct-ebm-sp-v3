@@ -1,0 +1,128 @@
+T1	DISO 101 107	anemia
+#1	AnnotatorNotes T1	C0002871; Anemia; Disease or Syndrome
+T2	CHEM 236 239	AEE
+#2	AnnotatorNotes T2	C1959590; Erythropoiesis Stimulating Agents; Pharmacologic Substance
+T3	DISO 127 133	anemia
+#3	AnnotatorNotes T3	C0002871; Anemia; Disease or Syndrome
+T4	PROC 167 179	hemodiálisis
+#4	AnnotatorNotes T4	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T5	PROC 186 197	tratamiento
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 363 374	tratamiento
+#6	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 381 387	anemia
+#7	AnnotatorNotes T7	C0002871; Anemia; Disease or Syndrome
+T8	PROC 391 403	hemodiálisis
+#8	AnnotatorNotes T8	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T9	CHEM 483 498	hierro sacarosa
+#9	AnnotatorNotes T9	C0060241; iron sucrose; Organic Chemical · Pharmacologic Substance
+T10	CHEM 524 535	hemoglobina
+#10	AnnotatorNotes T10	C0019046; Hemoglobin; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T11	PROC 537 539	Hb
+#11	AnnotatorNotes T11	C0518015; Hemoglobin measurement; Laboratory Procedure
+T12	PROC 543 552	ferritina
+#12	AnnotatorNotes T12	C0373607; Ferritin measurement; Laboratory Procedure
+T13	PROC 588 600	prescripción
+#13	AnnotatorNotes T13	C0033080; Prescription procedure; Health Care Activity | C2239117; Prescription of drug (procedure); Health Care Activity
+T14	PROC 684 696	intervención
+#14	AnnotatorNotes T14	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T15	CHEM 862 865	AEE
+#15	AnnotatorNotes T15	C1959590; Erythropoiesis Stimulating Agents; Pharmacologic Substance
+T16	CHEM 1318 1330	darbepoetina
+#16	AnnotatorNotes T16	C0937950; darbepoetin alfa; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T17	PROC 906 919	transfusiones
+#17	AnnotatorNotes T17	C1879316; Transfusion (procedure); Therapeutic or Preventive Procedure
+T18	PROC 925 942	hospitalizaciones
+#18	AnnotatorNotes T18	C0019993; Hospitalization; Health Care Activity
+T19	ANAT 965 981	cardiovasculares
+#19	AnnotatorNotes T19	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T20	PROC 1058 1060	Hb
+#20	AnnotatorNotes T20	C0518015; Hemoglobin measurement; Laboratory Procedure
+T21	PROC 825 827	Hb
+#21	AnnotatorNotes T21	C0518015; Hemoglobin measurement; Laboratory Procedure
+T22	PROC 1250 1252	Hb
+#22	AnnotatorNotes T22	C0518015; Hemoglobin measurement; Laboratory Procedure
+T23	PROC 1398 1400	Hb
+#23	AnnotatorNotes T23	C0518015; Hemoglobin measurement; Laboratory Procedure
+T24	DISO 1622 1628	anemia
+#24	AnnotatorNotes T24	C0002871; Anemia; Disease or Syndrome
+T25	PROC 1649 1661	hemodiálisis
+#25	AnnotatorNotes T25	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T26	PROC 1691 1702	tratamiento
+#26	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	DISO 25 31	anemia
+#27	AnnotatorNotes T27	C0002871; Anemia; Disease or Syndrome
+T28	CHEM 202 234	estimulantes de la eritropoyesis
+#28	AnnotatorNotes T28	C1959590; Erythropoiesis Stimulating Agents; Pharmacologic Substance
+T29	DISO 344 350	anemia
+#29	AnnotatorNotes T29	C0002871; Anemia; Disease or Syndrome
+T30	PROC 513 535	niveles de hemoglobina
+#30	AnnotatorNotes T30	C0518015; Hemoglobin measurement; Laboratory Procedure
+T31	PROC 1549 1560	uso del MCA
+T32	CHEM 1707 1710	AEE
+#31	AnnotatorNotes T32	C1959590; Erythropoiesis Stimulating Agents; Pharmacologic Substance
+T33	PROC 635 643	diálisis
+#32	AnnotatorNotes T33	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T34	CHEM 468 480	darbepoetina
+#33	AnnotatorNotes T34	C0937950; darbepoetin alfa; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T36	LIVB 43 52	nefrólogo
+#34	AnnotatorNotes T36	C0260039; Nephrologists; Professional or Occupational Group
+T38	LIVB 154 163	pacientes
+#35	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	PHYS 221 234	eritropoyesis
+#36	AnnotatorNotes T39	C0014819; Erythropoiesis; Organ or Tissue Function
+T41	Duration 647 655	18 meses
+T43	LIVB 1016 1025	pacientes
+#37	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 1129 1138	pacientes
+#38	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 1636 1645	pacientes
+#39	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+R1	Experiences Arg1:T38 Arg2:T3	
+R2	Experiences Arg1:T38 Arg2:T4	
+R4	Experiences Arg1:T38 Arg2:T5	
+R5	Used_for Arg1:T28 Arg2:T5	
+R6	Experiences Arg1:T38 Arg2:T39	
+R7	Used_for Arg1:T2 Arg2:T5	
+T35	CONC 323 350	modelo de control de anemia
+T37	CONC 352 355	MCA
+R9	Used_for Arg1:T35 Arg2:T6	
+R10	Used_for Arg1:T37 Arg2:T6	
+T40	CONC 418 421	MCA
+R11	Used_for Arg1:T34 Arg2:T13	
+R12	Used_for Arg1:T9 Arg2:T13	
+T42	CONC 706 709	MCA
+R13	Used_for Arg1:T42 Arg2:T14	
+T45	CONC 761 768	control
+#40	AnnotatorNotes T45	C4553389; Study Control; Conceptual Entity (?)
+T46	PROC 602 609	Estudio
+#41	AnnotatorNotes T46	C0681814; research study; Research Activity
+R14	Has_Duration_or_Interval Arg1:T46 Arg2:T41	
+R17	Used_for Arg1:T45 Arg2:T46	
+T47	Observation 949 981	acontecimientos cardiovasculares
+#42	AnnotatorNotes T47	C1320716; Cardiovascular event; Finding
+R18	Location_of Arg1:T19 Arg2:T47	
+R19	Experiences Arg1:T43 Arg2:T20	
+T49	CONC 1188 1191	MCA
+T50	Observation 1192 1203	cumplidores
+#43	AnnotatorNotes T50	C2364172; Adherence To Medication Regime; Finding
+R20	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T50	
+T51	CONC 1221 1224	MCA
+T52	CONC 1472 1475	MCA
+T53	CONC 1557 1560	MCA
+T54	CONC 1580 1583	MCA
+T55	Observation 1476 1487	cumplidores
+#44	AnnotatorNotes T55	C2364172; Adherence To Medication Regime; Finding
+R21	Used_for Arg1:T53 Arg2:T31	
+R22	Experiences Arg1:T48 Arg2:T24	
+R23	Experiences Arg1:T48 Arg2:T25	
+R25	Experiences Arg1:T48 Arg2:T26	
+R26	Used_for Arg1:T32 Arg2:T26	
+T56	CONC 4 31	modelo de control de anemia
+T57	CONC 1713 1730	reduciendo costes
+#45	AnnotatorNotes T57	C0085550; Cost Savings; Quantitative Concept
+A1	Experiencer T36 Other
+A2	Experiencer T38 Patient
+A3	Experiencer T43 Patient
+A4	Experiencer T48 Patient
+A5	Experiencer T44 Patient

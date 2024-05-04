@@ -1,0 +1,154 @@
+T1	DISO 53 71	Alzheimer heredado
+T2	DISO 101 149	Alzheimer heredado de forma autosómica dominante
+T3	DISO 233 256	Enfermedad de Alzheimer
+#1	AnnotatorNotes T3	C0002395; Alzheimer's Disease; Disease or Syndrome
+T4	PROC 296 320	consentimiento informado
+#2	AnnotatorNotes T4	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T5	PROC 402 415	procedimiento
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T6	DISO 525 557	enfermedad de Alzheimer genético
+T7	DISO 610 642	enfermedad de Alzheimer genético
+T8	DISO 719 751	deterioro cognitivo en fase leve
+T9	ANAT 845 851	sangre
+#4	AnnotatorNotes T9	C0005767; Blood; Body Substance
+T10	PROC 1119 1129	evaluación
+#5	AnnotatorNotes T10	C1261322; Evaluation procedure; Health Care Activity
+T11	PROC 1142 1169	evaluaciones de seguimiento
+T12	DISO 1199 1218	deterioro cognitivo
+#6	AnnotatorNotes T12	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T13	PROC 1241 1248	ingreso
+#7	AnnotatorNotes T13	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T14	DISO 1330 1349	deterioro cognitivo
+#8	AnnotatorNotes T14	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
+T15	PROC 513 520	pruebas
+#9	AnnotatorNotes T15	C1510438; Assay; Laboratory Procedure
+T16	DISO 580 588	mutación
+T17	DISO 1040 1072	enfermedad médica o psiquiátrica
+T18	Date 13 17	2018
+T21	Age 451 460	≥ 18 años
+T22	LIVB 474 483	individuo
+#10	AnnotatorNotes T22	C0027361; Persons; Population Group
+T23	GENE 549 557	genético
+#11	AnnotatorNotes T23	C0017337; Genes; Gene or Genome
+T24	GENE 634 642	genético
+#12	AnnotatorNotes T24	C0017337; Genes; Gene or Genome
+T25	LIVB 809 817	personas
+#13	AnnotatorNotes T25	C0027361; Persons; Population Group
+T26	Neg_cue 822 824	no
+T27	LIVB 833 851	hermanos de sangre
+#14	AnnotatorNotes T27	C0337502; Natural sibling; Family Group
+T28	LIVB 875 887	acompañantes
+#15	AnnotatorNotes T28	C0335343; Companions; Population Group
+T29	LIVB 1319 1325	sujeto
+#16	AnnotatorNotes T29	C0681850; Study Subject; Group
+T30	LIVB 1410 1455	Mujeres embarazadas o en periodo de lactancia
+#17	AnnotatorNotes T30	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T31	PHYS 729 738	cognitivo
+#18	AnnotatorNotes T31	C0009240; Cognition; Mental Process
+T32	PHYS 1209 1218	cognitivo
+#19	AnnotatorNotes T32	C0009240; Cognition; Mental Process
+T33	PHYS 1340 1349	cognitivo
+#20	AnnotatorNotes T33	C0009240; Cognition; Mental Process
+T34	PHYS 1486 1497	embarazadas
+#21	AnnotatorNotes T34	C0032961; Pregnancy; Organism Function
+T19	PHYS 111 149	heredado de forma autosómica dominante
+#22	AnnotatorNotes T19	C0443147; Autosomal dominant inheritance; Genetic Function
+T20	LIVB 335 347	participante
+#23	AnnotatorNotes T20	C4554048; Study Participant; Population Group
+T35	LIVB 350 361	acompañante
+#24	AnnotatorNotes T35	C0335343; Companions; Population Group
+T36	LIVB 463 467	hijo
+#25	AnnotatorNotes T36	C0037683; Son (person); Family Group
+T37	PROC 672 702	Clinical dementia Rating scale
+#26	AnnotatorNotes T37	C4273847; Assessment using CDR (Clinical Dementia Rating); Diagnostic Procedure
+T38	PROC 704 707	CDR
+#27	AnnotatorNotes T38	C4273847; Assessment using CDR (Clinical Dementia Rating); Diagnostic Procedure
+T39	PROC 753 756	CDR
+#28	AnnotatorNotes T39	C4273847; Assessment using CDR (Clinical Dementia Rating); Diagnostic Procedure
+T40	Duration 1277 1291	larga estancia
+T41	PHYS 1418 1429	embarazadas
+#29	AnnotatorNotes T41	C0032961; Pregnancy; Organism Function
+T42	PHYS 1446 1455	lactancia
+#30	AnnotatorNotes T42	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T43	ANAT 129 139	autosómica
+#31	AnnotatorNotes T43	C0596142; Autosome; Cell Component
+T44	LIVB 774 786	participante
+#32	AnnotatorNotes T44	C4554048; Study Participant; Population Group
+T45	LIVB 1017 1029	participante
+#33	AnnotatorNotes T45	C4554048; Study Participant; Population Group
+T46	LIVB 1177 1189	participante
+#34	AnnotatorNotes T46	C4554048; Study Participant; Population Group
+T47	PROC 1299 1312	reclutamiento
+#35	AnnotatorNotes T47	C0242800; Patient Recruitment; Research Activity
+A1	Assertion T27 Negated
+#36	AnnotatorNotes T16	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#37	AnnotatorNotes T8	C1270972; Mild cognitive disorder; Mental or Behavioral Dysfunction 
+#38	AnnotatorNotes T17	C0004936; Mental disorders; Mental or Behavioral Dysfunction + C4745084; Medical Condition; Finding
+T48	CONC 1077 1089	interferiría
+A2	Assertion T48 Speculated
+#39	AnnotatorNotes T48	C0521102; Interferes with; Functional Concept
+T49	Observation 905 952	Conocimiento suficiente de la lengua castellana
+#40	AnnotatorNotes T49	C1277569; Main spoken language Spanish; Finding (?)
+R2	Negation Arg1:T26 Arg2:T27	
+R3	Experiences Arg1:T45 Arg2:T17	
+T50	Quantifier_or_Qualifier 1130 1137	inicial
+#41	AnnotatorNotes T50	C0205265; Initially; Temporal Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T50	
+R5	Experiences Arg1:T46 Arg2:T12	
+R6	Experiences Arg1:T46 Arg2:T32	
+T51	Quantifier_or_Qualifier 1219 1227	avanzado
+#42	AnnotatorNotes T51	C0205179; Advanced phase; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T51	
+R9	Experiences Arg1:T46 Arg2:T13	
+R10	Has_Duration_or_Interval Arg1:T13 Arg2:T40	
+R11	Experiences Arg1:T29 Arg2:T14	
+R12	Experiences Arg1:T29 Arg2:T33	
+T52	Quantifier_or_Qualifier 1359 1371	pre-aprobado
+#43	AnnotatorNotes T52	C1706842; Approved By; Qualitative Concept
+R14	Experiences Arg1:T30 Arg2:T41	
+R15	Experiences Arg1:T30 Arg2:T42	
+T53	Observation 1468 1497	planeado quedarse embarazadas
+#44	AnnotatorNotes T53	C0032992; Pregnancy, Planned; Finding
+T54	PROC 1521 1528	estudio
+#45	AnnotatorNotes T54	C0008976; Clinical Trials; Research Activity
+R16	Overlap Arg1:T53 Arg2:T54	
+R17	Overlap Arg1:T34 Arg2:T54	
+R18	Overlap Arg1:T42 Arg2:T54	
+R19	Overlap Arg1:T41 Arg2:T54	
+R20	Experiences Arg1:T30 Arg2:T34	
+R21	Location_of Arg1:T43 Arg2:T19	
+R22	Before Arg1:T4 Arg2:T5	
+T55	Observation 463 492	hijo de un individuo afectado
+R24	Causes Arg1:T16 Arg2:T7	
+R26	Causes Arg1:T16 Arg2:T6	
+T56	Observation 649 670	Cognitivamente normal
+#46	AnnotatorNotes T56	C1846595; Normal cognition and intellectual function; Finding (?)
+T57	Result_or_Value 708 711	= 0
+R29	Has_Result_or_Value Arg1:T38 Arg2:T57	
+R30	Has_Result_or_Value Arg1:T37 Arg2:T57	
+T58	Result_or_Value 757 765	0.5 or 1
+R32	Has_Result_or_Value Arg1:T39 Arg2:T58	
+T59	Quantifier_or_Qualifier 805 808	dos
+#47	AnnotatorNotes T59	C0205448; Two; Quantitative Concept 
+R35	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T59	
+R36	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T59	
+R37	Experiences Arg1:T45 Arg2:T10	
+R38	Experiences Arg1:T45 Arg2:T11	
+R23	Location_of Arg1:T23 Arg2:T16	
+R25	Location_of Arg1:T24 Arg2:T16	
+#48	AnnotatorNotes T11	C1261322; Evaluation procedure; Health Care Activity + C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+R1	Experiences Arg1:T29 Arg2:T47	
+R7	Before Arg1:T53 Arg2:T34	
+A3	Status T34 Future
+A4	Experiencer T30 Patient
+A5	Experiencer T29 Patient
+A6	Experiencer T46 Patient
+A7	Experiencer T20 Patient
+A8	Experiencer T35 Other
+A9	Experiencer T36 Family_member
+A10	Experiencer T22 Patient
+A11	Experiencer T44 Patient
+A12	Experiencer T25 Other
+A13	Experiencer T27 Family_member
+A14	Experiencer T28 Other
+A15	Experiencer T45 Patient

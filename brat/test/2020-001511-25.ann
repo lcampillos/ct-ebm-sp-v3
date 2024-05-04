@@ -1,0 +1,347 @@
+T1	PROC 44 86	Estudio aleatorizado, abierto y controlado
+T2	DISO 186 193	COVID19
+#1	AnnotatorNotes T2	C5203670; COVID19 (disease); Disease or Syndrome
+T3	CHEM 116 126	Colchicina
+#2	AnnotatorNotes T3	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T4	DISO 144 163	enfermedad COVID-19
+#3	AnnotatorNotes T4	C5203670; COVID19 (disease); Disease or Syndrome
+T5	DISO 223 258	Infección confirmada por SARS-CoV-2
+T6	PROC 268 274	RT-PCR
+#4	AnnotatorNotes T6	C0599161; Reverse Transcriptase Polymerase Chain Reaction; Molecular Biology Research Technique
+T7	PROC 279 299	Ingreso hospitalario
+#5	AnnotatorNotes T7	C0184666; Hospital admission; Health Care Activity
+T8	DISO 328 346	afectación clínica
+T9	PROC 527 556	soporte ventilatorio invasivo
+T10	DISO 623 657	Enfermedad inflamatoria intestinal
+#6	AnnotatorNotes T10	C0021390; Inflammatory Bowel Diseases; Disease or Syndrome
+T11	DISO 659 678	enfermedad de Crohn
+#7	AnnotatorNotes T11	C0010346; Crohn Disease; Disease or Syndrome
+T12	DISO 681 697	colitis ulcerosa
+#8	AnnotatorNotes T12	C0009324; Ulcerative Colitis; Disease or Syndrome
+T13	DISO 700 715	diarrea crónica
+#9	AnnotatorNotes T13	C0401151; Chronic diarrhea; Disease or Syndrome
+T14	DISO 718 730	malabsorción
+#10	AnnotatorNotes T14	C0024523; Malabsorption Syndrome; Disease or Syndrome | C3714745; Malabsorption; Finding
+T15	DISO 735 759	Enfermedad neuromuscular
+#11	AnnotatorNotes T15	C0027868; Neuromuscular Diseases; Disease or Syndrome
+T16	DISO 770 780	Enfermedad
+#12	AnnotatorNotes T16	C0012634; Disease; Disease or Syndrome
+T17	DISO 840 859	Insuficiencia renal
+#13	AnnotatorNotes T17	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T18	PROC 867 894	tasa de filtrado glomerular
+#14	AnnotatorNotes T18	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+T19	DISO 934 942	cirrosis
+#15	AnnotatorNotes T19	C1623038; Cirrhosis; Disease or Syndrome
+T20	DISO 944 968	hepatitis crónica activa
+#16	AnnotatorNotes T20	C0520463; Chronic active hepatitis; Disease or Syndrome
+T21	DISO 971 990	enfermedad hepática
+#17	AnnotatorNotes T21	C0023895; Liver diseases; Disease or Syndrome
+T22	PROC 1011 1022	valores GOT
+T23	PROC 1031 1034	GPT
+#18	AnnotatorNotes T23	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T24	CHEM 1124 1134	colchicina
+#19	AnnotatorNotes T24	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T25	PROC 1175 1189	prescripciones
+#20	AnnotatorNotes T25	C0033080; Prescription procedure; Health Care Activity | C2239117; Prescription of drug (procedure); Health Care Activity
+T26	DISO 1204 1236	fiebre familiar del mediterráneo
+#21	AnnotatorNotes T26	C0031069; Familial Mediterranean Fever; Disease or Syndrome
+T27	DISO 1239 1243	gota
+#22	AnnotatorNotes T27	C0018099; Gout; Disease or Syndrome
+T28	PROC 1310 1318	tratados
+#23	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	CHEM 1323 1333	colchicina
+#24	AnnotatorNotes T29	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T30	PROC 1342 1363	dejado el tratamiento
+#25	AnnotatorNotes T30	C0850893; stop medication; Therapeutic or Preventive Procedure
+T31	PROC 1376 1390	aleatorización
+#26	AnnotatorNotes T31	C0034656; Randomization; Research Activity
+T32	DISO 1425 1445	reacciones alérgicas
+#27	AnnotatorNotes T32	C1527304; Allergic Reaction; Pathologic Function
+T33	CHEM 1480 1490	colchicina
+#28	AnnotatorNotes T33	C0009262; colchicine; Organic Chemical · Pharmacologic Substance
+T34	PROC 1496 1507	Tratamiento
+#29	AnnotatorNotes T34	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T35	CHEM 1530 1541	corticoides
+#30	AnnotatorNotes T35	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T36	CHEM 1512 1528	inmunosopresores
+T37	PROC 1823 1866	analítica de gonadotropina coriónica humana
+T38	CHEM 1836 1866	gonadotropina coriónica humana
+#31	AnnotatorNotes T38	C1141639; human chorionic gonadotropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T39	PROC 1868 1871	hCG
+T40	PROC 1945 1973	esterilizada quirúrgicamente
+T41	PROC 2047 2068	método anticonceptivo
+#32	AnnotatorNotes T41	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T42	PROC 2118 2132	anticoncepción
+#33	AnnotatorNotes T42	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T43	PROC 2148 2162	método barrera
+#34	AnnotatorNotes T43	C0004764; Contraception, Barrier; Therapeutic or Preventive Procedure
+T44	CHEM 2202 2214	espermicidas
+#35	AnnotatorNotes T44	C0037862; Spermatocidal Agents; Pharmacologic Substance
+T45	CHEM 2235 2256	geles anticonceptivos
+T46	CHEM 2397 2422	fármacos en investigación
+#36	AnnotatorNotes T46	C0013230; Investigational New Drugs; Pharmacologic Substance
+T47	PROC 447 483	consentimiento informado por escrito
+#37	AnnotatorNotes T47	C0811741; Obtain informed written consent; Health Care Activity
+T48	ANAT 647 657	intestinal
+#38	AnnotatorNotes T48	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T49	ANAT 746 759	neuromuscular
+#39	AnnotatorNotes T49	C0597054; neuromuscular system; Body System
+T50	ANAT 854 859	renal
+#40	AnnotatorNotes T50	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T51	ANAT 982 990	hepática
+#41	AnnotatorNotes T51	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T52	PROC 1024 1027	AST
+#42	AnnotatorNotes T52	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T53	PROC 1036 1039	ALT
+#43	AnnotatorNotes T53	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T54	DISO 1448 1460	sensibilidad
+T55	CHEM 1543 1576	antagonistas de la interleukina-1
+T56	PHYS 1906 1920	posmenopáusica
+#44	AnnotatorNotes T56	C0206159; Postmenopause; Organism Function
+T57	ANAT 1850 1859	coriónica
+#45	AnnotatorNotes T57	C0008503; Chorion; Embryonic Structure
+T59	Date 12 16	2020
+T60	LIVB 130 139	pacientes
+#46	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	LIVB 248 258	SARS-CoV-2
+#47	AnnotatorNotes T61	C5203676; SARS-CoV-2; Virus
+T62	Duration 303 323	las 48 horas previas
+T63	Age 410 426	mayor de 18 años
+T64	Duration 708 715	crónica
+#48	AnnotatorNotes T64	C0205191; chronic; Temporal Concept
+T65	Duration 820 834	menor de 1 año
+T66	PHYS 875 894	filtrado glomerular
+#49	AnnotatorNotes T66	C0232809; Glomerular filtration; Organ or Tissue Function; Laboratory Procedure
+T67	Duration 954 961	crónica
+#50	AnnotatorNotes T67	C0205191; chronic; Temporal Concept
+T68	LIVB 1090 1098	Paciente
+#51	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	Duration 1190 1198	crónicas
+#52	AnnotatorNotes T69	C0205191; chronic; Temporal Concept
+T71	LIVB 1285 1294	pacientes
+#53	AnnotatorNotes T71	C0030705; Patients; Patient or Disabled Group
+T72	LIVB 1396 1404	Paciente
+#54	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T74	Duration 1580 1591	los 6 meses
+T75	LIVB 1620 1665	Mujeres embarazadas o en periodo de lactancia
+#55	AnnotatorNotes T75	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T76	PHYS 1673 1681	embarazo
+#56	AnnotatorNotes T76	C0032961; Pregnancy; Organism Function
+T77	LIVB 1714 1719	mujer
+#57	AnnotatorNotes T77	C0043210; Woman; Population Group
+T78	PHYS 1734 1744	concepción
+#58	AnnotatorNotes T78	C0009637; Conception; Organism Function | C0015914; Fertilization; Organism Function
+T79	PHYS 1769 1778	gestación
+#59	AnnotatorNotes T79	C0032961; Pregnancy; Organism Function
+T80	LIVB 1878 1902	Paciente femenino fértil
+#60	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group + C4324275; Woman of childbearing potential; Population Group
+T83	Duration 1924 1938	menos de 1 año
+T84	Neg_cue 1942 1944	no
+T85	LIVB 1992 2014	mujeres en edad fértil
+#61	AnnotatorNotes T85	C4324275; Woman of childbearing potential; Population Group
+T86	Age 2003 2014	edad fértil
+T88	DEVI 2164 2200	preservativos masculinos o femeninos
+#62	AnnotatorNotes T88	C0009653; Condoms, Male; Medical Device + C0221829; Female Condoms; Medical Device
+T90	Form 2235 2240	geles
+T91	DEVI 2270 2294	dispositivo intrauterino
+#63	AnnotatorNotes T91	C0021900; Intrauterine Devices; Medical Device
+T92	Duration 2334 2341	30 días
+T93	Duration 2464 2475	los 30 días
+T96	DEVI 2216 2224	esponjas
+#64	AnnotatorNotes T96	C0441126; Sponges; Medical Device
+T97	DEVI 2258 2268	diafragmas
+#65	AnnotatorNotes T97	C0042241; Vaginal contraceptive diaphragm (device); Medical Device
+T70	PHYS 1628 1639	embarazadas
+#66	AnnotatorNotes T70	C0032961; Pregnancy; Organism Function
+T73	PHYS 1656 1665	lactancia
+#67	AnnotatorNotes T73	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T81	Form 2226 2233	espumas
+T58	ANAT 884 894	glomerular
+#68	AnnotatorNotes T58	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Status T19 History_of
+A2	Status T20 History_of
+A3	Status T21 History_of
+A4	Status T32 History_of
+A5	Status T54 History_of
+A7	Assertion T40 Negated
+A8	Population_data T85 Age
+A9	Status T15 History_of
+A10	Status T28 History_of
+A11	Status T29 History_of
+#69	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#70	AnnotatorNotes T22	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+#71	AnnotatorNotes T54	C0020517; Hypersensitivity; Pathologic Function 
+#72	AnnotatorNotes T36	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+#73	AnnotatorNotes T81	C0991510; Foam drug form; Biomedical or Dental Material
+#74	AnnotatorNotes T90	C0017243; Gel; Biomedical or Dental Material 
+T82	Neg_cue 1246 1248	No
+T87	CONC 1262 1279	periodo de lavado
+A12	Assertion T87 Negated
+#75	AnnotatorNotes T87	C1710661; Washout Period; Temporal Concept
+R1	Negation Arg1:T82 Arg2:T87	
+R2	Negation Arg1:T84 Arg2:T40	
+T89	Observation 103 112	beneficio
+#76	AnnotatorNotes T89	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R3	Causes Arg1:T3 Arg2:T89	
+R4	Experiences Arg1:T60 Arg2:T3	
+R5	Experiences Arg1:T60 Arg2:T4	
+R6	Causes Arg1:T61 Arg2:T5	
+R9	Overlap Arg1:T7 Arg2:T62	
+T94	CONC 376 400	escala clínica de la OMS
+T95	Quantifier_or_Qualifier 354 369	grupos 3, 4 o 5
+R10	Has_Quantifier_or_Qualifier Arg1:T94 Arg2:T95	
+#77	AnnotatorNotes T9	C1868981; Invasive mechanical ventilation; Therapeutic or Preventive Procedure
+T98	Observation 599 619	mal pronóstico vital
+#78	AnnotatorNotes T98	C0278252; Prognosis bad; Finding
+T99	PROC 560 594	Limitación de esfuerzo terapéutico
+R11	Overlap Arg1:T99 Arg2:T98	
+R12	Location_of Arg1:T48 Arg2:T10	
+R13	Location_of Arg1:T48 Arg2:T11	
+R14	Location_of Arg1:T48 Arg2:T12	
+R15	Has_Duration_or_Interval Arg1:T13 Arg2:T64	
+R16	Location_of Arg1:T48 Arg2:T14	
+R17	Location_of Arg1:T49 Arg2:T15	
+T100	CONC 794 819	pronóstico vital estimado
+#79	AnnotatorNotes T100	C0023671; Life Expectancy; Group Attribute
+R18	Has_Duration_or_Interval Arg1:T100 Arg2:T65	
+R19	Location_of Arg1:T50 Arg2:T17	
+R21	Location_of Arg1:T58 Arg2:T66	
+R22	Location_of Arg1:T58 Arg2:T18	
+T101	Result_or_Value 895 913	<30 mL/m in/1.73m2
+R23	Has_Result_or_Value Arg1:T18 Arg2:T101	
+T102	Quantifier_or_Qualifier 860 865	grave
+#80	AnnotatorNotes T102	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R25	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T102	
+R26	Has_Duration_or_Interval Arg1:T20 Arg2:T67	
+R27	Location_of Arg1:T51 Arg2:T21	
+T103	Quantifier_or_Qualifier 991 997	severa
+#81	AnnotatorNotes T103	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R28	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T103	
+T104	Result_or_Value 1045 1086	superen 3 x límite superior de normalidad
+R33	Has_Result_or_Value Arg1:T22 Arg2:T104	
+R34	Has_Result_or_Value Arg1:T52 Arg2:T104	
+R35	Has_Result_or_Value Arg1:T23 Arg2:T104	
+R36	Has_Result_or_Value Arg1:T53 Arg2:T104	
+R37	Experiences Arg1:T68 Arg2:T24	
+R38	Before Arg1:T25 Arg2:T24	
+R39	Has_Duration_or_Interval Arg1:T24 Arg2:T69	
+R40	Experiences Arg1:T68 Arg2:T26	
+R41	Experiences Arg1:T68 Arg2:T27	
+R42	Experiences Arg1:T71 Arg2:T28	
+R43	Used_for Arg1:T29 Arg2:T28	
+R44	Before Arg1:T28 Arg2:T87	
+R45	Before Arg1:T28 Arg2:T30	
+R46	Before Arg1:T30 Arg2:T31	
+R47	Experiences Arg1:T71 Arg2:T30	
+R48	Experiences Arg1:T72 Arg2:T32	
+R49	Experiences Arg1:T72 Arg2:T54	
+R50	Causes Arg1:T33 Arg2:T54	
+R51	Causes Arg1:T33 Arg2:T32	
+T105	Quantifier_or_Qualifier 1461 1474	significativa
+#82	AnnotatorNotes T105	C1546944; Event Seriousness - Significant; Qualitative Concept
+R52	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T105	
+A6	Status T105 History_of
+R54	Used_for Arg1:T36 Arg2:T34	
+R55	Used_for Arg1:T35 Arg2:T34	
+R56	Used_for Arg1:T55 Arg2:T34	
+#83	AnnotatorNotes T55	C1704264; Interleukin 1 Receptor Antagonist Protein; Amino Acid, Peptide, or Protein · Pharmacologic Substance (?) | C3536785; Interleukin-1 Receptor Antagonist [EPC]; Pharmacologic Substance (?)
+R57	Overlap Arg1:T36 Arg2:T74	
+R58	Overlap Arg1:T35 Arg2:T74	
+R59	Overlap Arg1:T55 Arg2:T74	
+T106	CONC 1605 1614	inclusión
+#84	AnnotatorNotes T106	C1512693; Inclusion; Qualitative Concept
+R60	Before Arg1:T34 Arg2:T106	
+R61	Experiences Arg1:T75 Arg2:T70	
+R62	Experiences Arg1:T75 Arg2:T73	
+R63	Experiences Arg1:T75 Arg2:T76	
+R64	After Arg1:T76 Arg2:T78	
+R65	Before Arg1:T78 Arg2:T79	
+R66	Experiences Arg1:T77 Arg2:T76	
+R67	Experiences Arg1:T77 Arg2:T78	
+R68	Experiences Arg1:T77 Arg2:T79	
+R69	Experiences Arg1:T77 Arg2:T70	
+R70	After Arg1:T70 Arg2:T78	
+T107	Result_or_Value 1798 1816	resultado positivo
+#85	AnnotatorNotes T107	C1446409; Positive; Finding
+R71	Has_Result_or_Value Arg1:T37 Arg2:T107	
+R72	Has_Result_or_Value Arg1:T39 Arg2:T107	
+#86	AnnotatorNotes T37	C0428402; Human chorionic gonadotropin measurement; Laboratory Procedure
+#87	AnnotatorNotes T39	C0428402; Human chorionic gonadotropin measurement; Laboratory Procedure
+R79	Has_Duration_or_Interval Arg1:T56 Arg2:T83	
+R80	Overlap Arg1:T56 Arg2:T40	
+R81	Has_Age Arg1:T85 Arg2:T86	
+T108	Quantifier_or_Qualifier 2035 2046	al menos un
+R82	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T108	
+R83	Experiences Arg1:T85 Arg2:T41	
+T109	Quantifier_or_Qualifier 2087 2090	dos
+R84	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T109	
+R85	Used_for Arg1:T88 Arg2:T43	
+R86	Used_for Arg1:T44 Arg2:T43	
+R87	Used_for Arg1:T96 Arg2:T43	
+R88	Has_Drug_Form Arg1:T45 Arg2:T90	
+R89	Used_for Arg1:T45 Arg2:T43	
+#88	AnnotatorNotes T45	C5570694; Contraceptive gel; Pharmacologic Substance
+R90	Used_for Arg1:T81 Arg2:T43	
+R91	Experiences Arg1:T85 Arg2:T42	
+R92	Experiences Arg1:T85 Arg2:T43	
+T110	PROC 2318 2325	estudio
+#89	AnnotatorNotes T110	C0008976; Clinical Trials; Research Activity
+R93	Overlap Arg1:T41 Arg2:T110	
+R94	Overlap Arg1:T42 Arg2:T110	
+R95	Overlap Arg1:T43 Arg2:T110	
+R96	Has_Duration_or_Interval Arg1:T41 Arg2:T92	
+R97	Has_Duration_or_Interval Arg1:T42 Arg2:T92	
+R98	Has_Duration_or_Interval Arg1:T88 Arg2:T92	
+R99	Has_Duration_or_Interval Arg1:T43 Arg2:T92	
+R100	Has_Duration_or_Interval Arg1:T44 Arg2:T92	
+R101	Has_Duration_or_Interval Arg1:T96 Arg2:T92	
+R102	Has_Duration_or_Interval Arg1:T45 Arg2:T92	
+R103	Used_for Arg1:T97 Arg2:T43	
+R104	Has_Duration_or_Interval Arg1:T97 Arg2:T92	
+R105	Used_for Arg1:T91 Arg2:T43	
+R106	Has_Duration_or_Interval Arg1:T91 Arg2:T92	
+R107	Has_Duration_or_Interval Arg1:T81 Arg2:T92	
+R108	Overlap Arg1:T88 Arg2:T110	
+R109	Overlap Arg1:T44 Arg2:T110	
+R110	Overlap Arg1:T96 Arg2:T110	
+R111	Overlap Arg1:T45 Arg2:T110	
+R112	Overlap Arg1:T97 Arg2:T110	
+R113	Overlap Arg1:T91 Arg2:T110	
+R114	Overlap Arg1:T81 Arg2:T110	
+T111	CONC 2356 2368	finalización
+#90	AnnotatorNotes T111	C4283764; Trial participation end date; Temporal Concept
+R115	After Arg1:T81 Arg2:T111	
+R116	After Arg1:T45 Arg2:T111	
+R117	After Arg1:T97 Arg2:T111	
+R118	After Arg1:T91 Arg2:T111	
+R119	After Arg1:T88 Arg2:T111	
+R120	After Arg1:T44 Arg2:T111	
+R121	After Arg1:T96 Arg2:T111	
+R122	After Arg1:T43 Arg2:T111	
+R123	After Arg1:T42 Arg2:T111	
+R124	After Arg1:T41 Arg2:T111	
+T112	Quantifier_or_Qualifier 2391 2396	otros
+#91	AnnotatorNotes T112	C0205394; Other; Qualitative Concept
+R125	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T112	
+T113	CONC 2443 2452	inclusión
+#92	AnnotatorNotes T113	C1512693; Inclusion; Qualitative Concept
+R126	Overlap Arg1:T46 Arg2:T113	
+T114	CONC 2492 2501	inclusión
+#93	AnnotatorNotes T114	C1512693; Inclusion; Qualitative Concept
+R127	Has_Duration_or_Interval Arg1:T46 Arg2:T93	
+R128	Before Arg1:T46 Arg2:T114	
+R129	Before Arg1:T8 Arg2:T7	
+R53	Experiences Arg1:T77 Arg2:T37	
+R73	Experiences Arg1:T77 Arg2:T39	
+R74	Experiences Arg1:T60 Arg2:T89	
+#94	AnnotatorNotes T109	C0205448; Two; Quantitative Concept
+#95	AnnotatorNotes T94	C5706704; COVID-19 Disease WHO Severity Scale; Intellectual Product (?)
+#96	AnnotatorNotes T99	C0871549; Withholding Treatment; Health Care Activity
+A13	Experiencer T71 Patient
+A14	Experiencer T68 Patient
+A15	Experiencer T72 Patient
+A16	Experiencer T60 Patient
+A17	Experiencer T75 Patient
+A18	Experiencer T77 Patient
+A19	Experiencer T80 Patient
+A20	Experiencer T85 Patient

@@ -1,0 +1,82 @@
+T1	PROC 46 57	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 62 73	corticoides
+#2	AnnotatorNotes T2	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T3	DISO 108 116	neumonía
+#3	AnnotatorNotes T3	C0032285; Pneumonia; Disease or Syndrome
+T4	PROC 139 150	Tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	CHEM 155 166	corticoides
+#5	AnnotatorNotes T5	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T6	PROC 197 207	ingresados
+#6	AnnotatorNotes T6	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T7	DISO 212 220	neumonía
+#7	AnnotatorNotes T7	C0032285; Pneumonia; Disease or Syndrome
+T8	PROC 352 362	ingresados
+#8	AnnotatorNotes T8	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T9	DISO 367 375	neumonía
+#9	AnnotatorNotes T9	C0032285; Pneumonia; Disease or Syndrome
+T10	DISO 295 302	COVID19
+#10	AnnotatorNotes T10	C5203670; COVID19 (disease); Disease or Syndrome
+T11	PROC 535 563	tratamiento en investigación
+#11	AnnotatorNotes T11	C0949266; Therapies, Investigational; Therapeutic or Preventive Procedure
+T12	DISO 244 251	COVID19
+#12	AnnotatorNotes T12	C5203670; COVID19 (disease); Disease or Syndrome
+T13	PROC 610 633	estudio de intervención
+#13	AnnotatorNotes T13	C3274035; Interventional Study; Research Activity
+T14	PROC 652 697	tratamiento actual con corticoides sistémicos
+T15	CHEM 675 686	corticoides
+#14	AnnotatorNotes T15	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T16	DISO 87 103	enfermos COVID19
+T17	DISO 180 196	enfermos COVID19
+T18	DISO 638 645	COVID19
+#15	AnnotatorNotes T18	C5203670; COVID19 (disease); Disease or Syndrome
+T19	PROC 445 469	consentimiento informado
+#16	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	Date 13 17	2020
+T21	Route 74 83	inhalados
+#17	AnnotatorNotes T21	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T22	Route 167 176	inhalados
+#18	AnnotatorNotes T22	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T23	LIVB 281 290	Pacientes
+#19	AnnotatorNotes T23	C0030705; Patients; Patient or Disabled Group
+T24	LIVB 306 315	Pacientes
+#20	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	Age 316 330	>18 y <80 años
+T26	LIVB 342 351	Pacientes
+#21	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	PHYS 499 507	Embarazo
+#22	AnnotatorNotes T27	C0032961; Pregnancy; Organism Function
+T28	LIVB 511 520	Pacientes
+#23	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Date 664 670	actual
+T30	Route 702 711	inhalados
+#24	AnnotatorNotes T30	C0205535; Inhalation Route of Drug Administration; Functional Concept
+A1	Assertion T11 Contraindicated
+#25	AnnotatorNotes T16	C5203670; COVID19 (disease); Disease or Syndrome
+#26	AnnotatorNotes T17	C5203670; COVID19 (disease); Disease or Syndrome
+#27	AnnotatorNotes T29	C0521116; Current (present time); Temporal Concept 
+R1	Used_for Arg1:T2 Arg2:T1	
+R2	Has_Route_or_Mode Arg1:T2 Arg2:T21	
+R3	Has_Route_or_Mode Arg1:T5 Arg2:T22	
+R4	Used_for Arg1:T5 Arg2:T4	
+R5	Overlap Arg1:T16 Arg2:T3	
+R6	Overlap Arg1:T17 Arg2:T7	
+R7	Experiences Arg1:T23 Arg2:T10	
+R8	Has_Age Arg1:T24 Arg2:T25	
+R9	Experiences Arg1:T26 Arg2:T9	
+T31	Result_or_Value 378 395	estatus #3 and #4
+T32	Observation 588 633	Participación en otro estudio de intervención
+R12	Used_for Arg1:T15 Arg2:T14	
+R13	Has_Route_or_Mode Arg1:T15 Arg2:T30	
+R11	Overlap Arg1:T15 Arg2:T29	
+T33	Quantifier_or_Qualifier 687 697	sistémicos
+#28	AnnotatorNotes T33	C0205373; Systemic; Functional Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T33	
+T34	CONC 402 418	escala de la OMS
+R16	Has_Result_or_Value Arg1:T34 Arg2:T31	
+#29	AnnotatorNotes T34	C5706704; COVID-19 Disease WHO Severity Scale; Intellectual Product (?)
+A2	Experiencer T28 Patient
+A3	Experiencer T23 Patient
+A4	Experiencer T24 Patient
+A5	Experiencer T26 Patient

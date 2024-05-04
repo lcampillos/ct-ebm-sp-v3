@@ -1,0 +1,99 @@
+T1	PROC 46 66	Estudio de extensión
+T2	DISO 90 97	tumores
+#1	AnnotatorNotes T2	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T3	PROC 159 215	Ensayo de extensión de fase III, abierto y multicéntrico
+T4	DISO 292 299	tumores
+#2	AnnotatorNotes T4	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T5	PROC 335 346	tratamiento
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 352 363	seguimiento
+#4	AnnotatorNotes T6	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T7	DISO 418 425	Tumores
+#5	AnnotatorNotes T7	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T8	DISO 471 478	Tumores
+#6	AnnotatorNotes T8	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T9	PROC 637 648	tratamiento
+#7	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	PROC 691 702	seguimiento
+#8	AnnotatorNotes T10	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T11	PROC 1138 1152	procedimientos
+#9	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T12	CHEM 122 135	pembrolizumab
+#10	AnnotatorNotes T12	C3658706; pembrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	CHEM 380 393	pembrolizumab
+#11	AnnotatorNotes T13	C3658706; pembrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	CHEM 580 593	pembrolizumab
+#12	AnnotatorNotes T14	C3658706; pembrolizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T15	PROC 1057 1093	consentimiento informado por escrito
+#13	AnnotatorNotes T15	C0811741; Obtain informed written consent; Health Care Activity
+T16	PROC 221 256	estudiar la seguridad y la eficacia
+T17	DISO 438 444	Cancer
+#14	AnnotatorNotes T17	C0006826; Malignant Neoplasms; Neoplastic Process
+T18	Date 13 17	2017
+T19	Date 257 270	a largo plazo
+T20	Date 314 325	actualmente
+T21	Date 554 565	actualmente
+T22	LIVB 1011 1030	representante legal
+#15	AnnotatorNotes T22	C4288823; Legal Representative for the Study; Human
+T23	LIVB 72 85	participantes
+#16	AnnotatorNotes T23	C4554048; Study Participant; Population Group
+T24	LIVB 274 287	participantes
+#17	AnnotatorNotes T24	C4554048; Study Participant; Population Group
+T25	LIVB 517 530	Participantes
+#18	AnnotatorNotes T25	C4554048; Study Participant; Population Group
+T26	LIVB 942 955	participantes
+#19	AnnotatorNotes T26	C4554048; Study Participant; Population Group
+T27	LIVB 992 1004	participante
+#20	AnnotatorNotes T27	C4554048; Study Participant; Population Group
+#21	AnnotatorNotes T16	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#22	AnnotatorNotes T19	C0443252; Long-term; Temporal Concept
+#23	AnnotatorNotes T20	C0521116; Current (present time); Temporal Concept 
+#24	AnnotatorNotes T21	C0521116; Current (present time); Temporal Concept 
+T28	Neg_cue 1192 1194	No
+T29	CONC 1199 1221	criterios de exclusión
+A1	Assertion T29 Negated
+#25	AnnotatorNotes T29	C0680251; Exclusion Criteria; Functional Concept
+R1	Experiences Arg1:T23 Arg2:T2	
+R2	Experiences Arg1:T23 Arg2:T12	
+T30	Quantifier_or_Qualifier 98 107	avanzados
+#26	AnnotatorNotes T30	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T30	
+T31	Quantifier_or_Qualifier 300 309	avanzados
+#27	AnnotatorNotes T31	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T31	
+T32	Quantifier_or_Qualifier 426 435	avanzados
+#28	AnnotatorNotes T32	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T32	
+T33	Quantifier_or_Qualifier 479 488	avanzados
+#29	AnnotatorNotes T33	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T33	
+R7	Overlap Arg1:T16 Arg2:T19	
+R8	Experiences Arg1:T24 Arg2:T4	
+R9	Overlap Arg1:T13 Arg2:T20	
+R11	Overlap Arg1:T6 Arg2:T20	
+R12	Used_for Arg1:T13 Arg2:T5	
+R13	Overlap Arg1:T5 Arg2:T20	
+R14	Experiences Arg1:T24 Arg2:T13	
+R15	Experiences Arg1:T24 Arg2:T5	
+T34	Observation 541 553;566 576	participando en ensayos
+#30	AnnotatorNotes T34	C1278516; Patient participation status; Finding
+R17	Overlap Arg1:T34 Arg2:T21	
+R18	Overlap Arg1:T14 Arg2:T21	
+R19	Used_for Arg1:T14 Arg2:T9	
+R20	Experiences Arg1:T25 Arg2:T9	
+T35	Observation 787 818	completado todos los requisitos
+R22	Experiences Arg1:T26 Arg2:T35	
+T36	PROC 972 979	estudio
+#31	AnnotatorNotes T36	C0008976; Clinical Trials; Research Activity
+R23	Before Arg1:T35 Arg2:T36	
+R24	Experiences Arg1:T27 Arg2:T11	
+R25	Negation Arg1:T28 Arg2:T29	
+R26	Experiences Arg1:T25 Arg2:T14	
+R10	Before Arg1:T15 Arg2:T11	
+#32	AnnotatorNotes T35	C3840801; Protocol/policy requirements completed; Finding
+A2	Experiencer T23 Patient
+A3	Experiencer T24 Patient
+A4	Experiencer T25 Patient
+A5	Experiencer T26 Patient
+A6	Experiencer T27 Patient
+A7	Experiencer T22 Other

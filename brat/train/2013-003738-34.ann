@@ -1,0 +1,162 @@
+T1	PROC 46 75	Estudio aleatorizado, abierto
+T2	CHEM 80 89	nivolumab
+#1	AnnotatorNotes T2	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 92 101	nivolumab
+#2	AnnotatorNotes T3	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	CHEM 121 131	ipilimumab
+#3	AnnotatorNotes T4	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	CHEM 141 152	bevacizumab
+#4	AnnotatorNotes T5	C0796392; bevacizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T6	DISO 176 188	glioblastoma
+#5	AnnotatorNotes T6	C0017636; Glioblastoma; Neoplastic Process
+T7	CHEM 756 768	temozolamida
+#6	AnnotatorNotes T7	C0076080; temozolomide; Organic Chemical · Pharmacologic Substance
+T8	PROC 229 266	Estudio fase 3, aleatorizado, abierto
+#7	AnnotatorNotes T8	C0282461; Phase 3 Clinical Trials; Research Activity + C1709323; Open Label Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T9	CHEM 271 280	nivolumab
+#8	AnnotatorNotes T9	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T10	CHEM 290 301	bevacizumab
+#9	AnnotatorNotes T10	C0796392; bevacizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	PROC 304 324	estudio de seguridad
+#10	AnnotatorNotes T11	C1705187; Safety Study; Research Activity
+T12	CHEM 328 337	nivolumab
+#11	AnnotatorNotes T12	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	CHEM 340 349	nivolumab
+#12	AnnotatorNotes T13	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T14	CHEM 369 379	ipilimumab
+#13	AnnotatorNotes T14	C1367202; ipilimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T15	DISO 403 415	glioblastoma
+#14	AnnotatorNotes T15	C0017636; Glioblastoma; Neoplastic Process
+T16	ANAT 913 925	extracraneal
+T17	PROC 434 443	Protocolo
+#15	AnnotatorNotes T17	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T18	PROC 497 506	protocolo
+#16	AnnotatorNotes T18	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T19	DISO 558 570	Glioblastoma
+#17	AnnotatorNotes T19	C0017636; Glioblastoma; Neoplastic Process
+T20	PROC 620 631	diagnóstico
+#18	AnnotatorNotes T20	C0011900; Diagnosis; Diagnostic Procedure
+T21	DISO 663 677	glioma maligno
+#19	AnnotatorNotes T21	C0555198; Malignant Glioma; Neoplastic Process
+T22	PROC 692 727	Tratamiento previo de primera línea
+#20	AnnotatorNotes T22	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T23	PROC 741 753	radioterapia
+#21	AnnotatorNotes T23	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T24	DISO 789 792	GBM
+#22	AnnotatorNotes T24	C1621958; Glioblastoma Multiforme; Neoplastic Process
+T25	PROC 807 836	Estado funcional de Karnofsky
+#23	AnnotatorNotes T25	C0206065; Karnofsky Performance Status; Diagnostic Procedure
+T26	DISO 890 925	enfermedad metastásica extracraneal
+T27	DISO 928 952	enfermedad leptomeníngea
+T28	ANAT 939 952	leptomeníngea
+#24	AnnotatorNotes T28	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T29	DISO 965 986	enfermedad autoinmune
+#25	AnnotatorNotes T29	C0004364; Autoimmune Diseases; Disease or Syndrome
+T30	PROC 1018 1029	Tratamiento
+#26	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	CHEM 1041 1052	bevacizumab
+#27	AnnotatorNotes T31	C0796392; bevacizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	PROC 1060 1071	tratamiento
+#28	AnnotatorNotes T32	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T33	CHEM 1072 1076	VEGF
+#29	AnnotatorNotes T33	C117189; VEGF protein, human; Amino Acid, Peptide, or Protein · Biologically Active Substance | C1256770; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T34	CHEM 1079 1094	antiangiogénico
+#30	AnnotatorNotes T34	C0596087; Angiogenesis Inhibitors; Biologically Active Substance · Pharmacologic Substance
+T35	DISO 1114 1139	Enfermedad cardiovascular
+#31	AnnotatorNotes T35	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T36	DISO 190 193	GBM
+#32	AnnotatorNotes T36	C1621958; Glioblastoma Multiforme; Neoplastic Process
+T37	DISO 417 420	GBM
+#33	AnnotatorNotes T37	C1621958; Glioblastoma Multiforme; Neoplastic Process
+T38	ANAT 1125 1139	cardiovascular
+#34	AnnotatorNotes T38	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T39	Date 13 17	2013
+T41	LIVB 156 171	sujetos adultos
+#35	AnnotatorNotes T41	C0681850; Study Subject; Group + C0001675; Adult; Age Group
+T42	LIVB 383 398	sujetos adultos
+#36	AnnotatorNotes T42	C0681850; Study Subject; Group + C0001675; Adult; Age Group
+T44	LIVB 608 615	Sujetos
+#37	AnnotatorNotes T44	C0681850; Study Subject; Group
+T47	LIVB 953 960	Sujetos
+#38	AnnotatorNotes T47	C0681850; Study Subject; Group
+T48	Spec_cue 1006 1016	sospechada
+T49	LIVB 1097 1104	cohorte
+#39	AnnotatorNotes T49	C0599755; Cohort; Population Group
+T40	DISO 777 785	recidiva
+#40	AnnotatorNotes T40	C2825055; Recurrence (disease attribute); Pathologic Function
+T43	PROC 643 659	histológicamente
+#41	AnnotatorNotes T43	C0344441; Histology Procedure; Laboratory Procedure
+A1	Population_data T41 Age
+A2	Population_data T42 Age
+A3	Assertion T29 Speculated
+A4	Status T22 History_of
+A5	Status T23 History_of
+A6	Status T7 History_of
+A7	Status T30 History_of
+A8	Status T31 History_of
+A9	Status T32 History_of
+A10	Status T33 History_of
+A11	Status T34 History_of
+A12	Status T29 History_of
+#42	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+#43	AnnotatorNotes T27	C0751297; Leptomeningeal Neoplasms; Neoplastic Process
+R1	Combined_with Arg1:T3 Arg2:T4	
+R2	Experiences Arg1:T41 Arg2:T6	
+R3	Experiences Arg1:T41 Arg2:T36	
+R4	Experiences Arg1:T41 Arg2:T2	
+R5	Experiences Arg1:T41 Arg2:T3	
+R6	Experiences Arg1:T41 Arg2:T5	
+R7	Combined_with Arg1:T9 Arg2:T10	
+R8	Combined_with Arg1:T13 Arg2:T14	
+R9	Experiences Arg1:T42 Arg2:T9	
+R10	Experiences Arg1:T42 Arg2:T12	
+R11	Experiences Arg1:T42 Arg2:T13	
+R12	Experiences Arg1:T42 Arg2:T15	
+R13	Experiences Arg1:T42 Arg2:T37	
+T45	Observation 422 432	recurrente
+#44	AnnotatorNotes T45	C0679254; Disease recurrence; Finding
+R14	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T45	
+R15	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T45	
+T46	Observation 571 581	recurrente
+#45	AnnotatorNotes T46	C0679254; Disease recurrence; Finding
+R16	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T46	
+T50	Quantifier_or_Qualifier 681 689	grado IV
+R17	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T50	
+R18	Before Arg1:T43 Arg2:T20	
+R19	Experiences Arg1:T44 Arg2:T43	
+R20	Experiences Arg1:T44 Arg2:T21	
+T51	Quantifier_or_Qualifier 732 740	al menos
+R21	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T51	
+R22	Combined_with Arg1:T23 Arg2:T7	
+R23	Used_for Arg1:T23 Arg2:T22	
+T52	Quantifier_or_Qualifier 769 776	Primera
+#46	AnnotatorNotes T52	C0205435; First (number); Quantitative Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T52	
+R25	Before Arg1:T24 Arg2:T40	
+T53	Result_or_Value 840 850	70 o mayor
+R26	Has_Result_or_Value Arg1:T25 Arg2:T53	
+R27	Location_of Arg1:T16 Arg2:T26	
+#47	AnnotatorNotes T16	C0580586; Extracranial; Spatial Concept
+R28	Location_of Arg1:T28 Arg2:T27	
+R29	Experiences Arg1:T47 Arg2:T29	
+R30	Speculation Arg1:T48 Arg2:T29	
+T54	Quantifier_or_Qualifier 987 993	activa
+#48	AnnotatorNotes T54	C0679217; Active State; Idea or Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T54	
+R32	Used_for Arg1:T31 Arg2:T30	
+R33	Used_for Arg1:T33 Arg2:T32	
+R34	Used_for Arg1:T34 Arg2:T32	
+R35	Experiences Arg1:T49 Arg2:T32	
+R36	Location_of Arg1:T38 Arg2:T35	
+T55	Quantifier_or_Qualifier 1140 1167	clinicamrente significativa
+R37	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T55	
+#49	AnnotatorNotes T55	C5209294; Clinical relevance; Intellectual Product
+T56	Observation 195 205	recurrente
+#50	AnnotatorNotes T56	C0679254; Disease recurrence; Finding
+R38	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T56	
+R39	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T56	
+A13	Experiencer T41 Patient
+A14	Experiencer T42 Patient
+A15	Experiencer T44 Patient
+A16	Experiencer T47 Patient
+A17	Experiencer T49 Patient

@@ -1,0 +1,54 @@
+T1	PROC 1 15	Monitorización
+#1	AnnotatorNotes T1	C1283169; Monitoring; Health Care Activity
+T2	DISO 66 90	diabetes mellitus tipo 1
+#2	AnnotatorNotes T2	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T3	PROC 142 156	monitorización
+#3	AnnotatorNotes T3	C1283169; Monitoring; Health Care Activity
+T4	DISO 220 240	diabéticos del tipo1
+#4	AnnotatorNotes T4	C0011854; Diabetes Mellitus, Insulin-Dependent; Disease or Syndrome
+T5	PROC 311 333	Ensayo clínico cruzado
+#5	AnnotatorNotes T5	C0008976; Clinical Trials; Research Activity + C0150097; Cross-Over Studies; Research Activity
+T6	PROC 416 430	monitorización
+#6	AnnotatorNotes T6	C1283169; Monitoring; Health Care Activity
+T7	PROC 435 475	efectividad de los esquemas fue evaluada
+T8	PROC 40 48	glucemia
+#7	AnnotatorNotes T8	C0392201; Blood glucose measurement; Laboratory Procedure
+T9	PROC 492 497	HbA1c
+#8	AnnotatorNotes T9	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T10	PROC 532 537	HbA1c
+#9	AnnotatorNotes T10	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T11	PROC 649 654	HbA1c
+#10	AnnotatorNotes T11	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T12	PROC 791 796	HbA1c
+#11	AnnotatorNotes T12	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T13	LIVB 52 61	pacientes
+#12	AnnotatorNotes T13	C0030705; Patients; Patient or Disabled Group
+T14	Duration 250 262	los 12 meses
+T15	LIVB 341 350	pacientes
+#13	AnnotatorNotes T15	C0030705; Patients; Patient or Disabled Group
+T16	Duration 916 931	últimos 6 meses
+T17	Duration 942 954	los 12 meses
+T18	PHYS 197 215	control metabólico
+#14	AnnotatorNotes T18	C1513158; Metabolic Control; Molecular Function
+T19	PHYS 1012 1030	control metabólico
+#15	AnnotatorNotes T19	C1513158; Metabolic Control; Molecular Function
+T20	Time 1044 1064	antes de las comidas
+#16	AnnotatorNotes T20	C1550738; Preprandial; Temporal Concept
+T21	Duration 905 913;924 931	primeros 6 meses
+T22	Quantifier_or_Qualifier 17 32	en el domicilio
+#17	AnnotatorNotes T22	C0338047; Domiciliary; Spatial Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T22	
+R3	Experiences Arg1:T13 Arg2:T2	
+R4	Experiences Arg1:T13 Arg2:T8	
+R5	Experiences Arg1:T13 Arg2:T1	
+R8	Overlap Arg1:T18 Arg2:T4	
+R9	Overlap Arg1:T4 Arg2:T14	
+R10	Overlap Arg1:T18 Arg2:T14	
+R11	Has_Duration_or_Interval Arg1:T3 Arg2:T14	
+R12	Experiences Arg1:T15 Arg2:T6	
+T24	CONC 559 577	prueba de Friedman
+R13	Overlap Arg1:T12 Arg2:T21	
+R14	Overlap Arg1:T12 Arg2:T16	
+R15	Overlap Arg1:T12 Arg2:T17	
+A1	Experiencer T13 Patient
+A2	Experiencer T15 Patient

@@ -1,0 +1,173 @@
+T1	PROC 17 41	tratamiento profiláctico
+#1	AnnotatorNotes T1	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T2	CHEM 46 58	dexametasona
+#2	AnnotatorNotes T2	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T3	DISO 89 94	edema
+#3	AnnotatorNotes T3	C0013604; Edema; Pathologic Function
+T4	DISO 109 135	terceros molares incluidos
+#4	AnnotatorNotes T4	C0399551; Impacted third molar tooth; Pathologic Function
+T5	CHEM 225 237	dexametasona
+#5	AnnotatorNotes T5	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T6	DISO 308 313	edema
+#6	AnnotatorNotes T6	C0013604; Edema; Pathologic Function
+T7	DISO 328 354	terceros molares incluidos
+#7	AnnotatorNotes T7	C0399551; Impacted third molar tooth; Pathologic Function
+T8	PROC 388 424	ensayo clínico paralelo aleatorizado
+#8	AnnotatorNotes T8	C2826345; Parallel Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T9	ANAT 612 624	tercer molar
+#9	AnnotatorNotes T9	C0026369; Structure of wisdom tooth; Body Part, Organ, or Organ Component | C1305762; Entire wisdom tooth; Body Part, Organ, or Organ Component
+T10	PROC 599 633	exodoncia de tercer molar incluido
+#10	AnnotatorNotes T10	C0398942; Surgical removal of impacted third molar tooth; Therapeutic or Preventive Procedure
+T11	CHEM 697 709	dexametasona
+#11	AnnotatorNotes T11	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T12	DISO 849 854	edema
+#12	AnnotatorNotes T12	C0013604; Edema; Pathologic Function
+T13	PROC 642 669	distribuidos aleatoriamente
+#13	AnnotatorNotes T13	C0034656; Randomization; Research Activity
+T14	CHEM 1053 1065	Dexametasona
+#14	AnnotatorNotes T14	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T15	DISO 1118 1123	edema
+#15	AnnotatorNotes T15	C0013604; Edema; Pathologic Function
+T16	CHEM 1128 1140	dexametasona
+#16	AnnotatorNotes T16	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T17	DISO 1219 1224	edema
+#17	AnnotatorNotes T17	C0013604; Edema; Pathologic Function
+T18	ANAT 1247 1269	ángulo de la mandíbula
+#18	AnnotatorNotes T18	C0222753; Structure of angle of mandible; Body Space or Junction
+T19	CHEM 1404 1416	Dexametasona
+#19	AnnotatorNotes T19	C0011777; dexamethasone; Organic Chemical · Pharmacologic Substance
+T20	DISO 1499 1504	edema
+#20	AnnotatorNotes T20	C0013604; Edema; Pathologic Function
+T21	DISO 1519 1545	terceros molares incluidos
+#21	AnnotatorNotes T21	C0399551; Impacted third molar tooth; Pathologic Function
+T22	ANAT 109 125	terceros molares
+#22	AnnotatorNotes T22	C0026369; Structure of wisdom tooth; Body Part, Organ, or Organ Component | C1305762; Entire wisdom tooth; Body Part, Organ, or Organ Component
+T23	PROC 137 186	ensayo clínico aleatorizado de grupos en paralelo
+#23	AnnotatorNotes T23	C2826345; Parallel Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T24	PROC 804 830	evaluándose la efectividad
+T25	ANAT 328 344	terceros molares
+#24	AnnotatorNotes T25	C0026369; Structure of wisdom tooth; Body Part, Organ, or Organ Component | C1305762; Entire wisdom tooth; Body Part, Organ, or Organ Component
+T26	PROC 198 221	Comparar la efectividad
+T27	DISO 612 633	tercer molar incluido
+#25	AnnotatorNotes T27	C0399551; Impacted third molar tooth; Pathologic Function
+T28	PROC 771 784	procedimiento
+#26	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T29	ANAT 1270 1275	trago
+#27	AnnotatorNotes T29	C0229312; Tragal part of pinna; Body Part, Organ, or Organ Component | C1284778; Entire tragus; Body Part, Organ, or Organ Component
+T30	ANAT 1519 1535	terceros molares
+#28	AnnotatorNotes T30	C0026369; Structure of wisdom tooth; Body Part, Organ, or Organ Component | C1305762; Entire wisdom tooth; Body Part, Organ, or Organ Component
+T31	Dose 62 70	8 y 4 mg
+T32	Date 95 105	poscirugía
+#29	AnnotatorNotes T32	C0032790; Postoperative Period; Temporal Concept
+T33	Route 255 263	vía oral
+#30	AnnotatorNotes T33	C1527415; Oral Route of Drug administration; Functional Concept
+T34	Route 265 267	VO
+#31	AnnotatorNotes T34	C1527415; Oral Route of Drug administration; Functional Concept
+T35	Dose 272 275	8mg
+T36	Dose 286 289	4mg
+T37	Date 314 324	poscirugía
+#32	AnnotatorNotes T37	C0032790; Postoperative Period; Temporal Concept
+T39	Date 534 548	agosto de 2010
+T40	Date 551 564	marzo de 2011
+T41	LIVB 570 579	pacientes
+#33	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Route 710 712	VO
+#34	AnnotatorNotes T42	C1527415; Oral Route of Drug administration; Functional Concept
+T43	Dose 716 719	4mg
+T44	Dose 729 732	8mg
+T45	Date 899 920	pre y postoperatorias
+#35	AnnotatorNotes T45	C2712277; Preoperative Period; Temporal Concept + C0032790; Postoperative Period; Temporal Concept
+T46	Dose 1069 1072	8mg
+T47	Dose 1144 1147	4mg
+T48	LIVB 1153 1162	pacientes
+#36	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Dose 1176 1179	8mg
+T52	Dose 1376 1379	4mg
+T53	Route 1430 1432	VO
+#37	AnnotatorNotes T53	C1527415; Oral Route of Drug administration; Functional Concept
+T54	Dose 1436 1439	8mg
+T55	Dose 1477 1480	4mg
+T56	Date 1505 1515	poscirugía
+#38	AnnotatorNotes T56	C0032790; Postoperative Period; Temporal Concept
+T38	PROC 882 898	medidas faciales
+#39	AnnotatorNotes T38	C1317357; Facial measurement method; Health Care Activity
+T50	Quantifier_or_Qualifier 1334 1340	eficaz
+A1	Assertion T50 Negated
+#40	AnnotatorNotes T50	C1704419; Effective; Qualitative Concept
+T51	Neg_cue 1327 1329	no
+R1	Negation Arg1:T51 Arg2:T50	
+R2	Used_for Arg1:T2 Arg2:T1	
+R3	Has_Dose_or_Strength Arg1:T2 Arg2:T31	
+R4	Overlap Arg1:T3 Arg2:T32	
+R5	Before Arg1:T1 Arg2:T3	
+R6	Location_of Arg1:T22 Arg2:T4	
+R7	Has_Route_or_Mode Arg1:T5 Arg2:T33	
+R8	Has_Route_or_Mode Arg1:T5 Arg2:T34	
+R9	Has_Dose_or_Strength Arg1:T5 Arg2:T35	
+R10	Has_Dose_or_Strength Arg1:T5 Arg2:T36	
+R12	Overlap Arg1:T6 Arg2:T37	
+R13	Location_of Arg1:T25 Arg2:T7	
+R14	After Arg1:T8 Arg2:T39	
+R15	Before Arg1:T8 Arg2:T40	
+R16	Location_of Arg1:T9 Arg2:T27	
+R17	Location_of Arg1:T9 Arg2:T10	
+R18	Experiences Arg1:T41 Arg2:T27	
+R19	Experiences Arg1:T41 Arg2:T10	
+R20	Before Arg1:T13 Arg2:T11	
+R21	Experiences Arg1:T41 Arg2:T11	
+R22	Has_Route_or_Mode Arg1:T11 Arg2:T42	
+R23	Has_Dose_or_Strength Arg1:T11 Arg2:T43	
+R24	Has_Dose_or_Strength Arg1:T11 Arg2:T44	
+R25	Before Arg1:T28 Arg2:T38	
+R26	Overlap Arg1:T38 Arg2:T45	
+R27	After Arg1:T28 Arg2:T38	
+T57	CONC 969 994	prueba de la t de Student
+#41	AnnotatorNotes T57	C0871453; Students T Test; Intellectual Product
+R28	Has_Dose_or_Strength Arg1:T14 Arg2:T46	
+R29	Has_Dose_or_Strength Arg1:T16 Arg2:T47	
+T58	PROC 76 94	controlar el edema
+#42	AnnotatorNotes T58	C0150561; Edema control; Therapeutic or Preventive Procedure
+R30	Before Arg1:T1 Arg2:T58	
+T59	PROC 295 313	controlar el edema
+#43	AnnotatorNotes T59	C0150561; Edema control; Therapeutic or Preventive Procedure
+T60	PROC 1206 1224	controlar el edema
+#44	AnnotatorNotes T60	C0150561; Edema control; Therapeutic or Preventive Procedure
+R31	Experiences Arg1:T48 Arg2:T60	
+T61	PROC 1105 1123	controlar el edema
+#45	AnnotatorNotes T61	C0150561; Edema control; Therapeutic or Preventive Procedure
+R32	Used_for Arg1:T14 Arg2:T61	
+R33	Used_for Arg1:T16 Arg2:T61	
+R34	Location_of Arg1:T18 Arg2:T17	
+R35	Location_of Arg1:T29 Arg2:T17	
+T62	PROC 238 250	profiláctica
+#46	AnnotatorNotes T62	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+R36	Used_for Arg1:T5 Arg2:T62	
+T63	PROC 1417 1429	profiláctica
+#47	AnnotatorNotes T63	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+R38	Used_for Arg1:T19 Arg2:T63	
+R39	Has_Route_or_Mode Arg1:T19 Arg2:T53	
+R40	Has_Dose_or_Strength Arg1:T19 Arg2:T54	
+R41	Has_Dose_or_Strength Arg1:T19 Arg2:T55	
+R42	Overlap Arg1:T20 Arg2:T56	
+R43	Before Arg1:T62 Arg2:T59	
+R44	Before Arg1:T5 Arg2:T6	
+R11	Before Arg1:T5 Arg2:T59	
+R37	Before Arg1:T62 Arg2:T6	
+T64	PROC 836 854	controlar el edema
+#48	AnnotatorNotes T64	C0150561; Edema control; Therapeutic or Preventive Procedure
+T65	PROC 1486 1504	controlar el edema
+#49	AnnotatorNotes T65	C0150561; Edema control; Therapeutic or Preventive Procedure
+R45	Before Arg1:T63 Arg2:T65	
+R46	Before Arg1:T63 Arg2:T20	
+R47	Location_of Arg1:T30 Arg2:T21	
+R48	Before Arg1:T19 Arg2:T65	
+R49	Before Arg1:T19 Arg2:T20	
+R50	Before Arg1:T4 Arg2:T3	
+R51	Before Arg1:T7 Arg2:T6	
+R52	Before Arg1:T21 Arg2:T20	
+#50	AnnotatorNotes T26	C1707887; Efficacy Study; Research Activity
+#51	AnnotatorNotes T24	C1707887; Efficacy Study; Research Activity
+R53	Before Arg1:T28 Arg2:T64	
+R54	Before Arg1:T28 Arg2:T12	
+A2	Experiencer T41 Patient
+A3	Experiencer T48 Patient

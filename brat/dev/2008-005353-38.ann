@@ -1,0 +1,153 @@
+T1	CHEM 103 115	vortioxetina
+#1	AnnotatorNotes T1	C3661282; vortioxetine; Organic Chemical · Pharmacologic Substance
+T2	DISO 130 139	depresión
+#2	AnnotatorNotes T2	C0011570; Mental Depression; Mental or Behavioral Dysfunction | C0011581; Depressive disorder; Mental or Behavioral Dysfunction
+T3	PROC 247 254	placebo
+#3	AnnotatorNotes T3	C0032042; Placebos; Therapeutic or Preventive Procedure
+T4	PROC 292 298	ciegos
+T5	PROC 322 429	Estudio intervencional, aleatorizado, con doble enmascaramiento, controlado con placebo, con control activo
+T6	PROC 1262 1286	consentimiento informado
+#4	AnnotatorNotes T6	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T7	CHEM 431 441	fluoxetina
+#5	AnnotatorNotes T7	C0016365; fluoxetine; Organic Chemical · Pharmacologic Substance
+T8	CHEM 459 471	vortioxetina
+#6	AnnotatorNotes T8	C3661282; vortioxetine; Organic Chemical · Pharmacologic Substance
+T9	DISO 516 541	trastorno depresivo mayor
+#7	AnnotatorNotes T9	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T10	DISO 543 546	TDM
+#8	AnnotatorNotes T10	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T11	DISO 571 580	Depresión
+#9	AnnotatorNotes T11	C0011570; Mental Depression; Mental or Behavioral Dysfunction | C0011581; Depressive disorder; Mental or Behavioral Dysfunction
+T12	DISO 607 633	Transtorno depresivo mayor
+#10	AnnotatorNotes T12	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T13	DISO 865 890	trastorno depresivo mayor
+#11	AnnotatorNotes T13	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T14	DISO 892 895	TDM
+#12	AnnotatorNotes T14	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T15	PROC 897 910	diagnosticado
+#13	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	PROC 1347 1362	estudio clínico
+#14	AnnotatorNotes T16	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T17	Date 13 17	2008
+T18	LIVB 259 271	investigador
+#15	AnnotatorNotes T18	C0035173; Research Personnel; Professional or Occupational Group
+T19	LIVB 278 285	sujetos
+#16	AnnotatorNotes T19	C0681850; Study Subject; Group
+T20	LIVB 475 496	pacientes pediátricos
+#17	AnnotatorNotes T20	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T21	Age 497 511	de 7 a 11 años
+T22	LIVB 663 701	paciente, de sexo femenino o masculino
+#18	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group + C0043210; Woman; Population Group + C0025266; Male population group; Population Group
+T23	LIVB 764 773	pacientes
+#19	AnnotatorNotes T23	C0030705; Patients; Patient or Disabled Group
+T24	Age 786 793	12 años
+T25	LIVB 852 860	paciente
+#20	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 933 941	paciente
+#21	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 1040 1048	paciente
+#22	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 1136 1144	paciente
+#23	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 1317 1325	paciente
+#24	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Duration 1363 1371	<30 días
+T31	LIVB 144 156	adolescentes
+#25	AnnotatorNotes T31	C0205653; Adolescent (age group); Age Group
+T32	Age 706 724	entre ≥7 y <12años
+T33	LIVB 1191 1205	progenitor(es)
+#26	AnnotatorNotes T33	C0030551; parent; Family Group
+T34	LIVB 1207 1233	representante(s) legal(es)
+T35	Dose 445 455	dosis fija
+#27	AnnotatorNotes T35	C5548493; Fixed dose; Quantitative Concept
+T36	PROC 973 979	CDRS-R
+#28	AnnotatorNotes T36	C4274289; Assessment using RCADS (Revised Children's Anxiety and Depression Scale); Diagnostic Procedure (?)
+T37	PROC 1071 1076	CGI-S
+#29	AnnotatorNotes T37	C5396527; Assessment using Children's Global Assessment Scale; Health Care Activity (?)
+T38	PROC 1384 1403	visita de selección
+#30	AnnotatorNotes T38	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T39	PROC 1089 1108	visita de selección
+#31	AnnotatorNotes T39	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T40	PROC 993 1012	visita de selección
+#32	AnnotatorNotes T40	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T41	PROC 1117 1123	visita
+#33	AnnotatorNotes T41	C1512346; Patient Visit; Health Care Activity
+T42	PROC 1021 1027	visita
+#34	AnnotatorNotes T42	C1512346; Patient Visit; Health Care Activity
+T43	PROC 739 758	visita de selección
+#35	AnnotatorNotes T43	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+T44	Quantifier_or_Qualifier 1028 1033	basal
+#36	AnnotatorNotes T44	C1442488; Baseline; Quantitative Concept
+T45	Quantifier_or_Qualifier 1124 1129	basal
+#37	AnnotatorNotes T45	C1442488; Baseline; Quantitative Concept
+A1	Population_data T31 Age
+A2	Population_data T20 Age
+A3	Status T16 History_of
+R1	Experiences Arg1:T31 Arg2:T2	
+R2	Experiences Arg1:T31 Arg2:T1	
+T46	CONC 216 226	comparador
+#38	AnnotatorNotes T46	C4553390; Comparator; Intellectual Product
+#39	AnnotatorNotes T4	C0013072; Double-Blind Method; Research Activity | C0150108; Blinded; Research Activity
+T47	CONC 415 429	control activo
+#40	AnnotatorNotes T47	C2347177; Active Comparator; Conceptual Entity
+R3	Has_Dose_or_Strength Arg1:T8 Arg2:T35	
+R4	Experiences Arg1:T20 Arg2:T8	
+R5	Experiences Arg1:T20 Arg2:T7	
+R6	Has_Age Arg1:T20 Arg2:T21	
+R7	Experiences Arg1:T20 Arg2:T9	
+R8	Experiences Arg1:T20 Arg2:T10	
+R9	Has_Age Arg1:T22 Arg2:T32	
+R10	Overlap Arg1:T43 Arg2:T32	
+R11	Has_Age Arg1:T23 Arg2:T24	
+R12	Overlap Arg1:T43 Arg2:T24	
+R13	Experiences Arg1:T25 Arg2:T13	
+R14	Experiences Arg1:T25 Arg2:T14	
+T48	CONC 920 925	DSM-5
+#41	AnnotatorNotes T48	C4236906; Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5); Intellectual Product
+R16	Used_for Arg1:T48 Arg2:T15	
+R17	Experiences Arg1:T26 Arg2:T36	
+T49	Result_or_Value 983 986	≥45
+R18	Has_Result_or_Value Arg1:T36 Arg2:T49	
+R19	Overlap Arg1:T36 Arg2:T40	
+R20	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T44	
+R21	Overlap Arg1:T36 Arg2:T42	
+R22	Experiences Arg1:T27 Arg2:T37	
+T50	Result_or_Value 1080 1082	≥4
+R23	Has_Result_or_Value Arg1:T37 Arg2:T50	
+R24	Overlap Arg1:T37 Arg2:T39	
+R25	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T45	
+R26	Overlap Arg1:T37 Arg2:T41	
+T51	Observation 1148 1188	otorgado su asentimiento para participar
+#42	AnnotatorNotes T51	C1302239; Patient consented to clinical trial; Finding
+R28	Has_Duration_or_Interval Arg1:T16 Arg2:T30	
+R29	Before Arg1:T16 Arg2:T38	
+#43	AnnotatorNotes T34	C4288823; Legal Representative for the Study; Human
+#44	AnnotatorNotes T5	C3274035; Interventional Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity + C1706449; Active Control; Research Activity
+T52	Observation 73 79	efecto
+#45	AnnotatorNotes T52	C1518681; Outcome of Therapy; Finding (?)
+R15	Causes Arg1:T1 Arg2:T52	
+R30	Experiences Arg1:T31 Arg2:T52	
+T53	Observation 164 171	efectos
+#46	AnnotatorNotes T53	C1518681; Outcome of Therapy; Finding (?)
+R31	Causes Arg1:T46 Arg2:T53	
+R32	Causes Arg1:T3 Arg2:T53	
+R33	Experiences Arg1:T22 Arg2:T43	
+R34	Experiences Arg1:T23 Arg2:T43	
+R35	Experiences Arg1:T27 Arg2:T39	
+R36	Experiences Arg1:T29 Arg2:T38	
+R37	Experiences Arg1:T26 Arg2:T40	
+R38	Experiences Arg1:T26 Arg2:T42	
+R39	Experiences Arg1:T27 Arg2:T41	
+A4	Experiencer T31 Patient
+A5	Experiencer T18 Other
+A6	Experiencer T19 Patient
+A7	Experiencer T20 Patient
+A8	Experiencer T22 Patient
+A9	Experiencer T23 Patient
+A10	Experiencer T25 Patient
+A11	Experiencer T26 Patient
+A12	Experiencer T27 Patient
+A13	Experiencer T28 Patient
+A14	Experiencer T33 Family_member
+A15	Experiencer T34 Other
+A16	Experiencer T29 Patient

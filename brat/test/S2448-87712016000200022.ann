@@ -1,0 +1,165 @@
+T1	PROC 1 25	Medicación preanestésica
+#1	AnnotatorNotes T1	C0032924; Preanesthetic Medication; Therapeutic or Preventive Procedure
+T2	CHEM 40 51	paracetamol
+#2	AnnotatorNotes T2	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T3	CHEM 60 69	midazolam
+#3	AnnotatorNotes T3	C0026056; midazolam; Organic Chemical · Pharmacologic Substance
+T4	PROC 87 101	amigdalectomía
+#4	AnnotatorNotes T4	C0040423; Tonsillectomy; Therapeutic or Preventive Procedure
+T5	PROC 117 180	estudio prospectivo, cuasiexperimental, controlado, doble ciego
+#5	AnnotatorNotes T5	C1510570; Quasi Experimental Methods; Research Activity + C0033522; Prospective Studies; Research Activity + C0681867; Controlled Study; Research Activity + C0013072; Double-Blind Method; Research Activity
+T6	PROC 206 234	intervenidos quirúrgicamente
+#6	AnnotatorNotes T6	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T7	PROC 239 246	cirugía
+#7	AnnotatorNotes T7	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T8	PROC 459 483	medicación preanestésica
+#8	AnnotatorNotes T8	C0032924; Preanesthetic Medication; Therapeutic or Preventive Procedure
+T9	CHEM 534 545	paracetamol
+#9	AnnotatorNotes T9	C0000970; acetaminophen; Organic Chemical · Pharmacologic Substance
+T10	CHEM 597 606	midazolam
+#10	AnnotatorNotes T10	C0026056; midazolam; Organic Chemical · Pharmacologic Substance
+T11	DISO 780 794	complicaciones
+#11	AnnotatorNotes T11	C0009566; Complication; Pathologic Function
+T12	CHEM 833 842	midazolam
+#12	AnnotatorNotes T12	C0026056; midazolam; Organic Chemical · Pharmacologic Substance
+T13	DISO 901 909	ansiedad
+#13	AnnotatorNotes T13	C0003467; Anxiety; Mental or Behavioral Dysfunction
+T14	ANAT 997 1003	facial
+#14	AnnotatorNotes T14	C1281591; Entire face; Body Location or Region | C0015450; Face; Body Location or Region
+T15	PROC 1021 1041	inducción anestésica
+#15	AnnotatorNotes T15	C0853212; Induction of anesthesia; Therapeutic or Preventive Procedure
+T16	CHEM 818 828	medicación
+#16	AnnotatorNotes T16	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T17	DISO 1129 1143	complicaciones
+#17	AnnotatorNotes T17	C0009566; Complication; Pathologic Function
+T18	CHEM 30 39	midazolam
+#18	AnnotatorNotes T18	C0026056; midazolam; Organic Chemical · Pharmacologic Substance
+T19	PROC 259 272	amigdalotomía
+#19	AnnotatorNotes T19	C0040423; Tonsillectomy; Therapeutic or Preventive Procedure
+T20	CHEM 488 497	midazolam
+#20	AnnotatorNotes T20	C0026056; midazolam; Organic Chemical · Pharmacologic Substance
+T21	PROC 654 662	sedación
+#21	AnnotatorNotes T21	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T22	Time 12 25	preanestésica
+T23	Route 52 56	oral
+#22	AnnotatorNotes T23	C1527415; Oral Route of Drug administration; Functional Concept
+T24	Route 70 83	intramuscular
+#23	AnnotatorNotes T24	C1556154; Intramuscular Route of Drug Administration; Functional Concept
+T25	LIVB 184 205	pacientes pediátricos
+#24	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T26	LIVB 372 381	pacientes
+#25	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	LIVB 434 443	pacientes
+#26	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	Time 470 483	preanestésica
+T29	Route 502 510	vía oral
+#27	AnnotatorNotes T29	C1527415; Oral Route of Drug administration; Functional Concept
+T30	Form 524 530	jarabe
+#28	AnnotatorNotes T30	C0991550; Syrup Drug Form; Biomedical or Dental Material
+T31	LIVB 563 576	grupo control
+#29	AnnotatorNotes T31	C0009932; Control Groups; Group
+T32	Route 611 628	vía intramuscular
+#30	AnnotatorNotes T32	C1556154; Intramuscular Route of Drug Administration; Functional Concept
+T33	LIVB 730 734	niño
+#31	AnnotatorNotes T33	C0008059; Child; Age Group
+T34	LIVB 741 747	padres
+#32	AnnotatorNotes T34	C0030551; parent; Family Group
+T35	PHYS 761 774	hemodinámicos
+#33	AnnotatorNotes T35	C0019010; Hemodynamics; Organ or Tissue Function
+T36	LIVB 862 871	pacientes
+#34	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 948 954	padres
+#35	AnnotatorNotes T37	C0030551; parent; Family Group
+T38	DEVI 986 1003	mascarilla facial
+#36	AnnotatorNotes T38	C1967294; facial mask; Medical Device
+T41	PHYS 1077 1090	hemodinámicos
+#37	AnnotatorNotes T41	C0019010; Hemodynamics; Organ or Tissue Function
+T42	Route 1042 1050	inhalada
+#38	AnnotatorNotes T42	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T43	LIVB 395 400;405 417	grupo experimental
+#39	AnnotatorNotes T43	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+A1	Population_data T25 Age
+A2	Population_data T33 Age
+T39	Neg_cue 1052 1054	no
+T40	Observation 1069 1090	cambios hemodinámicos
+A3	Assertion T40 Negated
+R1	Negation Arg1:T39 Arg2:T40	
+R2	Combined_with Arg1:T18 Arg2:T2	
+R3	Has_Route_or_Mode Arg1:T2 Arg2:T23	
+R4	Has_Route_or_Mode Arg1:T18 Arg2:T23	
+R5	Has_Route_or_Mode Arg1:T3 Arg2:T24	
+R6	Used_for Arg1:T3 Arg2:T1	
+R7	Used_for Arg1:T18 Arg2:T1	
+R8	Overlap Arg1:T18 Arg2:T22	
+R9	Overlap Arg1:T2 Arg2:T22	
+R10	Overlap Arg1:T3 Arg2:T22	
+R11	Before Arg1:T1 Arg2:T4	
+R13	Experiences Arg1:T25 Arg2:T7	
+R14	Experiences Arg1:T25 Arg2:T19	
+T44	Quantifier_or_Qualifier 247 255	electiva
+#40	AnnotatorNotes T44	C0439608; elective; Temporal Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T44	
+R16	Experiences Arg1:T27 Arg2:T8	
+R17	Used_for Arg1:T20 Arg2:T8	
+R18	Has_Route_or_Mode Arg1:T20 Arg2:T29	
+R19	Combined_with Arg1:T20 Arg2:T9	
+R20	Has_Drug_Form Arg1:T9 Arg2:T30	
+R21	Has_Route_or_Mode Arg1:T9 Arg2:T29	
+R22	Overlap Arg1:T20 Arg2:T28	
+R23	Overlap Arg1:T9 Arg2:T28	
+R24	Experiences Arg1:T43 Arg2:T8	
+R25	Experiences Arg1:T31 Arg2:T10	
+R26	Has_Route_or_Mode Arg1:T10 Arg2:T32	
+T45	CONC 672 695	escala de Richmond-Rass
+#41	AnnotatorNotes T45	C5419117; Richmond Agitation-Sedation Scale Clinical Classification; Intellectual Product
+T46	Observation 715 747	separación del niño a los padres
+#42	AnnotatorNotes T46	C4061997; Parent-child separation; Finding (?)
+R27	Experiences Arg1:T33 Arg2:T46	
+R28	Before Arg1:T46 Arg2:T21	
+R29	Experiences Arg1:T33 Arg2:T21	
+R30	Experiences Arg1:T33 Arg2:T11	
+R31	Experiences Arg1:T33 Arg2:T35	
+R32	Experiences Arg1:T33 Arg2:T16	
+R33	Experiences Arg1:T33 Arg2:T12	
+R34	Before Arg1:T12 Arg2:T21	
+R35	Before Arg1:T16 Arg2:T21	
+T47	Observation 930 954	separación de sus padres
+#43	AnnotatorNotes T47	C4061997; Parent-child separation; Finding (?)
+R37	Experiences Arg1:T36 Arg2:T47	
+R38	Experiences Arg1:T36 Arg2:T13	
+R39	Overlap Arg1:T13 Arg2:T47	
+T48	Observation 753 774	cambios hemodinámicos
+R40	Experiences Arg1:T33 Arg2:T48	
+T49	Observation 963 979	buena aceptación
+R42	Experiences Arg1:T36 Arg2:T49	
+R43	Location_of Arg1:T14 Arg2:T38	
+R44	Used_for Arg1:T38 Arg2:T15	
+R45	Overlap Arg1:T49 Arg2:T15	
+R46	Experiences Arg1:T36 Arg2:T15	
+R47	Has_Route_or_Mode Arg1:T15 Arg2:T42	
+R48	Experiences Arg1:T36 Arg2:T40	
+R49	Experiences Arg1:T36 Arg2:T41	
+T50	Quantifier_or_Qualifier 1114 1125	bajo número
+#44	AnnotatorNotes T50	C0205388; Few; Quantitative Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T50	
+R51	Before Arg1:T15 Arg2:T17	
+T51	Quantifier_or_Qualifier 1091 1105	significativos
+#45	AnnotatorNotes T51	C0750502; Significant; Idea or Concept
+R52	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T51	
+A4	Assertion T51 Negated
+R53	Negation Arg1:T39 Arg2:T51	
+R55	Experiences Arg1:T36 Arg2:T17	
+R56	Experiences Arg1:T36 Arg2:T38	
+R12	Overlap Arg1:T10 Arg2:T28	
+R36	Before Arg1:T21 Arg2:T48	
+R41	Before Arg1:T21 Arg2:T11	
+R54	Before Arg1:T15 Arg2:T40	
+A5	Experiencer T25 Patient
+A6	Experiencer T26 Patient
+A7	Experiencer T43 Patient
+A8	Experiencer T27 Patient
+A9	Experiencer T31 Patient
+A10	Experiencer T33 Patient
+A11	Experiencer T34 Family_member
+A12	Experiencer T36 Patient
+A13	Experiencer T37 Family_member

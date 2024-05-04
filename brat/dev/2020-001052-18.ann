@@ -1,0 +1,228 @@
+T1	DISO 198 206	COVID-19
+#1	AnnotatorNotes T1	C5203670; COVID19 (disease); Disease or Syndrome
+T2	PROC 150 174	terapia en investigación
+#2	AnnotatorNotes T2	C0949266; Therapies, Investigational; Therapeutic or Preventive Procedure
+T3	PROC 436 472	consentimiento informado por escrito
+#3	AnnotatorNotes T3	C0811741; Obtain informed written consent; Health Care Activity
+T4	PROC 183 194	tratamiento
+#4	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	PROC 218 232	hospitalizados
+#5	AnnotatorNotes T5	C0019993; Hospitalization; Health Care Activity
+T6	DISO 255 273	Influenza COVID-19
+T7	PROC 303 312	Ingresado
+#6	AnnotatorNotes T7	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T8	DISO 332 340	síntomas
+#7	AnnotatorNotes T8	C1457887; Symptoms; Sign or Symptom
+T9	DISO 355 377	infección por COVID-19
+#8	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	PROC 500 513	procedimiento
+#9	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T11	PROC 603 617	procedimientos
+#10	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T12	DISO 714 738	Infección por SARS-CoV-2
+#11	AnnotatorNotes T12	C5203670; COVID19 (disease); Disease or Syndrome
+T13	PROC 991 997	imagen
+#12	AnnotatorNotes T13	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T14	ANAT 830 837	muestra
+#13	AnnotatorNotes T14	C2347026; Biospecimen; Body Substance
+T15	PROC 872 886	aleatorización
+#14	AnnotatorNotes T15	C0034656; Randomization; Research Activity
+T16	DISO 891 901	Enfermedad
+#15	AnnotatorNotes T16	C0012634; Disease; Disease or Syndrome
+T17	DISO 961 986	Infiltrados radiográficos
+T18	PROC 973 986	radiográficos
+#16	AnnotatorNotes T18	C1306645; Plain x-ray; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T19	PROC 1001 1019	evaluación clínica
+#17	AnnotatorNotes T19	C4534461; Clinical assessment; Health Care Activity
+T20	DISO 1034 1047	crepitaciones
+#18	AnnotatorNotes T20	C0034642; Rales; Finding | C3887661; Stertor; Sign or Symptom
+T21	CHEM 1091 1098	oxígeno
+#19	AnnotatorNotes T21	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T22	PROC 1125 1145	ventilación mecánica
+#20	AnnotatorNotes T22	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T23	PROC 1091 1112	oxígeno suplementario
+#21	AnnotatorNotes T23	C0919655; Oxygen supplementation; Therapeutic or Preventive Procedure
+T24	PROC 1225 1246	método anticonceptivo
+#22	AnnotatorNotes T24	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T25	PROC 1274 1297	anticoncepción hormonal
+#23	AnnotatorNotes T25	C2985296; Hormonal Contraception; Therapeutic or Preventive Procedure
+T26	PROC 1375 1389	ensayo clínico
+#24	AnnotatorNotes T26	C0008976; Clinical Trials; Research Activity
+T27	PROC 1398 1409	tratamiento
+#25	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T28	DISO 1413 1421	COVID-19
+#26	AnnotatorNotes T28	C5203670; COVID19 (disease); Disease or Syndrome
+T29	PROC 1536 1574	Tasa estimada de filtración glumerular
+T30	PROC 1576 1580	eTFG
+T31	DISO 1735 1742	Alergia
+#27	AnnotatorNotes T31	C1527304; Allergic Reaction; Pathologic Function
+T32	PROC 46 143	Ensayo clínico controlado multicéntrico, adaptativo, ciego, aleatorizado, de seguridad y eficacia
+T33	PROC 770 773	PCR
+#28	AnnotatorNotes T33	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T34	PROC 1051 1055	SpO2
+#29	AnnotatorNotes T34	C0428179; Measurement of oxygen saturation at periphery; Laboratory Procedure
+T35	CHEM 1289 1297	hormonal
+#30	AnnotatorNotes T35	C0019932; Hormones; Hormone
+T36	PROC 1319 1325	examen
+#31	AnnotatorNotes T36	C0582103; Medical Examination; Health Care Activity
+T37	PROC 1482 1485	ALT
+#32	AnnotatorNotes T37	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T38	PROC 1488 1491	AST
+#33	AnnotatorNotes T38	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T39	PROC 1601 1609	diálisis
+#34	AnnotatorNotes T39	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T40	PROC 1638 1678	Transferencia anticipada a otro hospital
+#35	AnnotatorNotes T40	C2065834; transfer to another hospital; Health Care Activity
+T41	CHEM 1755 1766	medicamento
+#36	AnnotatorNotes T41	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T42	Date 13 17	2020
+T43	LIVB 210 217	adultos
+#37	AnnotatorNotes T43	C0001675; Adult; Age Group
+T44	Spec_cue 341 354	sugestivos de
+T45	LIVB 381 387	Sujeto
+#38	AnnotatorNotes T45	C0681850; Study Subject; Group
+T46	LIVB 391 415	representante legalmente
+#39	AnnotatorNotes T46	C4288823; Legal Representative for the Study; Human
+T47	LIVB 529 535	Sujeto
+#40	AnnotatorNotes T47	C0681850; Study Subject; Group
+T48	LIVB 539 563	representante legalmente
+#41	AnnotatorNotes T48	C4288823; Legal Representative for the Study; Human
+T49	LIVB 633 640	Hombres
+#42	AnnotatorNotes T49	C0025266; Male population group; Population Group
+T50	LIVB 643 650	mujeres
+#43	AnnotatorNotes T50	C0043210; Woman; Population Group
+T51	Neg_cue 651 653	no
+T52	Age 666 675	≥ 18 años
+T53	Duration 850 859	<72 horas
+T54	LIVB 1150 1172	Mujeres en edad fértil
+#44	AnnotatorNotes T54	C4324275; Woman of childbearing potential; Population Group
+T55	Age 1161 1172	edad fértil
+T56	PROC 1190 1201	abstinencia
+#45	AnnotatorNotes T56	C2042176; abstinence from sexual contact; Therapeutic or Preventive Procedure
+T57	Neg_cue 1260 1262	no
+T58	Date 1332 1341	el día 29
+T59	Neg_cue 1353 1355	no
+T60	LIVB 1424 1434	SARS-CoV-2
+#46	AnnotatorNotes T60	C5203676; SARS-CoV-2; Virus
+T61	Date 1442 1451	el día 29
+T62	PHYS 1613 1621	Embarazo
+#47	AnnotatorNotes T62	C0032961; Pregnancy; Organism Function
+T63	PHYS 1624 1633	lactancia
+#48	AnnotatorNotes T63	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T66	Duration 1719 1731	las 72 horas
+T67	PHYS 654 665	embarazadas
+#49	AnnotatorNotes T67	C0032961; Pregnancy; Organism Function
+T68	PHYS 569 577	entiende
+#50	AnnotatorNotes T68	C0162340; Comprehension; Mental Process
+T69	LIVB 728 738	SARS-CoV-2
+#51	AnnotatorNotes T69	C5203676; SARS-CoV-2; Virus
+T70	Duration 905 923	cualquier duración
+T64	PHYS 1553 1574	filtración glumerular
+#52	AnnotatorNotes T64	C0232809; Glomerular filtration; Organ or Tissue Function
+T65	ANAT 1564 1574	glumerular
+#53	AnnotatorNotes T65	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Population_data T43 Age
+A2	Assertion T9 Speculated
+A3	Assertion T67 Negated
+A4	Population_data T54 Age
+A5	Assertion T25 Negated
+A6	Assertion T26 Negated
+A7	Status T31 History_of
+#54	AnnotatorNotes T6	C5203670; COVID19 (disease); Disease or Syndrome
+#55	AnnotatorNotes T30	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+#56	AnnotatorNotes T29	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+#57	AnnotatorNotes T32	C1096776; Multicenter Study; Research Activity + C3274373; Adaptive Design; Research Activity + C0150108; Blinded; Research Activity + C0034656; Randomization; Research Activity + C0511730; Identify product efficacy and safety issues; Health Care Activity
+T71	Neg_cue 1683 1685	no
+T72	CONC 1692 1708	sitio de estudio
+A8	Assertion T72 Negated
+#58	AnnotatorNotes T72	C2825164; Study Site; Spatial Concept
+T73	Quantifier_or_Qualifier 1370 1374	otro
+A9	Assertion T73 Negated
+R1	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T73	
+R2	Negation Arg1:T59 Arg2:T73	
+R3	Negation Arg1:T59 Arg2:T26	
+R4	Experiences Arg1:T43 Arg2:T5	
+R5	Experiences Arg1:T43 Arg2:T2	
+R6	Experiences Arg1:T43 Arg2:T4	
+R7	Experiences Arg1:T43 Arg2:T1	
+R8	Overlap Arg1:T2 Arg2:T5	
+R9	Overlap Arg1:T4 Arg2:T5	
+R13	Speculation Arg1:T44 Arg2:T9	
+R14	Causes Arg1:T9 Arg2:T8	
+R15	Before Arg1:T3 Arg2:T10	
+R16	Experiences Arg1:T45 Arg2:T10	
+R17	Experiences Arg1:T47 Arg2:T68	
+R18	Overlap Arg1:T68 Arg2:T11	
+T74	Observation 580 617	acepta cumplir con los procedimientos
+R20	Experiences Arg1:T47 Arg2:T11	
+R21	Has_Age Arg1:T49 Arg2:T52	
+R22	Has_Age Arg1:T50 Arg2:T52	
+R23	Negation Arg1:T51 Arg2:T67	
+R24	Experiences Arg1:T50 Arg2:T67	
+T75	CONC 701 710	inclusión
+#59	AnnotatorNotes T75	C1512693; Inclusion; Qualitative Concept
+R26	Overlap Arg1:T67 Arg2:T75	
+R27	Overlap Arg1:T75 Arg2:T52	
+R28	Causes Arg1:T69 Arg2:T12	
+R29	Location_of Arg1:T14 Arg2:T33	
+T76	PROC 781 787	ensayo
+#60	AnnotatorNotes T76	C1510438; Assay; Laboratory Procedure
+R30	Location_of Arg1:T14 Arg2:T76	
+T77	PROC 830 849	muestra recolectada
+#61	AnnotatorNotes T77	C0200345; Specimen Collection; Health Care Activity
+R32	Overlap Arg1:T77 Arg2:T53	
+R33	Before Arg1:T77 Arg2:T15	
+R34	Before Arg1:T77 Arg2:T76	
+R35	Before Arg1:T77 Arg2:T33	
+R36	Has_Duration_or_Interval Arg1:T16 Arg2:T70	
+T78	Result_or_Value 1056 1061	≤ 94%
+R41	Has_Result_or_Value Arg1:T34 Arg2:T78	
+T79	Quantifier_or_Qualifier 1062 1078	en aire ambiente
+R42	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T79	
+R43	Used_for Arg1:T21 Arg2:T23	
+R39	Has_Age Arg1:T54 Arg2:T55	
+R45	Experiences Arg1:T54 Arg2:T56	
+R46	Experiences Arg1:T54 Arg2:T24	
+R47	Negation Arg1:T57 Arg2:T25	
+R48	Used_for Arg1:T35 Arg2:T25	
+R49	Negation Arg1:T57 Arg2:T35	
+A10	Assertion T35 Negated
+T80	Quantifier_or_Qualifier 1247 1255	primario
+#62	AnnotatorNotes T80	C0205225; Primary; Qualitative Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T80	
+R51	After Arg1:T24 Arg2:T36	
+R52	Before Arg1:T24 Arg2:T58	
+R53	After Arg1:T56 Arg2:T36	
+R54	Before Arg1:T56 Arg2:T58	
+R55	Experiences Arg1:T54 Arg2:T36	
+R56	Experiences Arg1:T54 Arg2:T25	
+T81	Observation 1356 1389	participar en otro ensayo clínico
+A11	Assertion T81 Negated
+R57	Negation Arg1:T59 Arg2:T81	
+R58	Causes Arg1:T60 Arg2:T28	
+R59	Before Arg1:T27 Arg2:T61	
+R60	Before Arg1:T81 Arg2:T61	
+R61	Before Arg1:T26 Arg2:T61	
+T82	Result_or_Value 1492 1532	>5 veces el límite superior de lo normal
+R62	Has_Result_or_Value Arg1:T37 Arg2:T82	
+R63	Has_Result_or_Value Arg1:T38 Arg2:T82	
+T83	Result_or_Value 1582 1585	<50
+R64	Has_Result_or_Value Arg1:T30 Arg2:T83	
+R65	Has_Result_or_Value Arg1:T29 Arg2:T83	
+R67	Location_of Arg1:T65 Arg2:T64	
+R68	Location_of Arg1:T65 Arg2:T29	
+R70	Location_of Arg1:T65 Arg2:T30	
+R71	Negation Arg1:T71 Arg2:T72	
+R72	After Arg1:T40 Arg2:T66	
+R73	Causes Arg1:T41 Arg2:T31	
+R74	Overlap Arg1:T68 Arg2:T74	
+#63	AnnotatorNotes T17	C1265599; Radiologic infiltrate; Finding
+#64	AnnotatorNotes T73	C0205394; Other; Qualitative Concept
+A12	Experiencer T43 Patient
+A13	Experiencer T46 Other
+A14	Experiencer T48 Other
+A15	Experiencer T45 Patient
+A16	Experiencer T47 Patient
+A17	Experiencer T49 Patient
+A18	Experiencer T50 Patient
+A19	Experiencer T54 Patient

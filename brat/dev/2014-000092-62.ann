@@ -1,0 +1,108 @@
+T1	PROC 159 183	Estudio de un solo grupo
+T2	DISO 96 99	RAI
+T3	DISO 310 350	esclerosis múltiple remitente-recurrente
+#1	AnnotatorNotes T3	C0751967; Multiple Sclerosis, Relapsing-Remitting; Disease or Syndrome
+T4	DISO 404 444	Esclerosis múltiple remitente-recurrente
+#2	AnnotatorNotes T4	C0751967; Multiple Sclerosis, Relapsing-Remitting; Disease or Syndrome
+T5	PROC 516 527	tratamiento
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	CHEM 532 540	LEMTRADA
+#4	AnnotatorNotes T6	C3860145; Lemtrada; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T7	PROC 805 828	tratamiento sintomático
+#5	AnnotatorNotes T7	C2146147; treat symptoms; Therapeutic or Preventive Procedure
+T8	PROC 1040 1063	estudio de intervención
+#6	AnnotatorNotes T8	C3274035; Interventional Study; Research Activity
+T9	CHEM 976 984	LEMTRADA
+#7	AnnotatorNotes T9	C3860145; Lemtrada; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T10	DISO 60 94	reacciones asociadas a la infusión
+#8	AnnotatorNotes T10	C0948715; Infusion-Related Reaction; Pathologic Function
+T11	PROC 86 94	infusión
+#9	AnnotatorNotes T11	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T12	PROC 221 229	infusión
+#10	AnnotatorNotes T12	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T13	DISO 252 286	reacciones asociadas a la infusión
+#11	AnnotatorNotes T13	C0948715; Infusion-Related Reaction; Pathologic Function
+T14	PROC 278 286	infusión
+#12	AnnotatorNotes T14	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T15	PROC 696 710	administración
+#13	AnnotatorNotes T15	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T16	PROC 881 891	infusiones
+#14	AnnotatorNotes T16	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T17	DISO 352 356	EMRR
+T18	CHEM 714 722	LEMTRADA
+#15	AnnotatorNotes T18	C3860145; Lemtrada; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T19	PROC 604 628	consentimiento informado
+#16	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	DISO 496 500	EMRR
+T21	CHEM 371 379	LEMTRADA
+#17	AnnotatorNotes T21	C3860145; Lemtrada; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T22	CHEM 127 135	LEMTRADA
+#18	AnnotatorNotes T22	C3860145; Lemtrada; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T23	DISO 288 291	RAI
+T24	PROC 358 366	tratados
+#19	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	PROC 114 122	tratados
+#20	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	PROC 951 959	tratados
+#21	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	Date 13 17	2014
+T29	LIVB 104 113	pacientes
+#22	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 296 305	pacientes
+#23	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 474 491	Pacientes adultos
+#24	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T36	LIVB 941 950	Pacientes
+#25	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 987 996	Pacientes
+#26	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Date 1020 1031	actualmente
+A1	Population_data T35 Age
+A2	Assertion T15 Contraindicated
+A3	Assertion T18 Contraindicated
+A4	Assertion T7 Contraindicated
+A5	Status T26 History_of
+A6	Status T9 History_of
+#27	AnnotatorNotes T2	C0948715; Infusion-Related Reaction; Pathologic Function
+#28	AnnotatorNotes T23	C0948715; Infusion-Related Reaction; Pathologic Function
+#29	AnnotatorNotes T17	C0948715; Infusion-Related Reaction; Pathologic Function
+#30	AnnotatorNotes T20	C0948715; Infusion-Related Reaction; Pathologic Function
+#31	AnnotatorNotes T1	C2826346; Single Group Study; Research Activity 
+#32	AnnotatorNotes T38	C0521116; Current (present time); Temporal Concept 
+R1	Before Arg1:T11 Arg2:T10	
+R2	Before Arg1:T11 Arg2:T2	
+R3	Used_for Arg1:T22 Arg2:T25	
+R4	Used_for Arg1:T22 Arg2:T11	
+R5	Experiences Arg1:T29 Arg2:T10	
+R6	Experiences Arg1:T29 Arg2:T2	
+R7	Experiences Arg1:T29 Arg2:T25	
+R8	Experiences Arg1:T29 Arg2:T22	
+R9	Used_for Arg1:T21 Arg2:T24	
+R10	Used_for Arg1:T21 Arg2:T12	
+R11	Experiences Arg1:T33 Arg2:T12	
+R12	Experiences Arg1:T33 Arg2:T13	
+R13	Experiences Arg1:T33 Arg2:T14	
+R14	Experiences Arg1:T29 Arg2:T11	
+R15	Experiences Arg1:T33 Arg2:T23	
+R16	Before Arg1:T14 Arg2:T13	
+R17	Before Arg1:T14 Arg2:T23	
+R18	Before Arg1:T12 Arg2:T13	
+R19	Experiences Arg1:T33 Arg2:T3	
+R20	Experiences Arg1:T33 Arg2:T17	
+R21	Experiences Arg1:T33 Arg2:T24	
+R22	Experiences Arg1:T35 Arg2:T20	
+R23	Experiences Arg1:T35 Arg2:T5	
+R24	Used_for Arg1:T6 Arg2:T5	
+R25	Used_for Arg1:T18 Arg2:T15	
+R26	Overlap Arg1:T7 Arg2:T16	
+R27	Experiences Arg1:T36 Arg2:T26	
+R28	Used_for Arg1:T9 Arg2:T26	
+T28	Observation 1007 1063	participando actualmente en otro estudio de intervención
+R29	Overlap Arg1:T28 Arg2:T38	
+R30	Overlap Arg1:T8 Arg2:T38	
+R32	Used_for Arg1:T21 Arg2:T14	
+A7	Experiencer T29 Patient
+A8	Experiencer T33 Patient
+A9	Experiencer T35 Patient
+A10	Experiencer T36 Patient
+A11	Experiencer T37 Patient

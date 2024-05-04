@@ -1,0 +1,182 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	CHEM 105 122	aceite de pescado
+#2	AnnotatorNotes T2	C0016157; fish oils; Organic Chemical · Pharmacologic Substance
+T3	PROC 208 255	ENSAYO CLÍNICO PILOTO, RANDOMIZADO, DOBLE CIEGO
+T4	CHEM 329 346	ACEITE DE PESCADO
+T5	DISO 446 466	neoplasia de esófago
+T6	PROC 353 372	SOPORTE NUTRICIONAL
+#3	AnnotatorNotes T6	C0242739; Nutritional Support; Therapeutic or Preventive Procedure
+T7	PROC 542 556	diagnosticados
+#4	AnnotatorNotes T7	C0011900; Diagnosis; Diagnostic Procedure
+T8	DISO 560 577	cáncer de esofágo
+T9	PROC 610 623	esofagectomía
+#5	AnnotatorNotes T9	C0085198; Esophagectomy; Therapeutic or Preventive Procedure
+T10	PROC 810 824	CI por escrito
+#6	AnnotatorNotes T10	C0811741; Obtain informed written consent; Health Care Activity
+T11	PROC 899 913	CI por escrito
+#7	AnnotatorNotes T11	C0811741; Obtain informed written consent; Health Care Activity
+T12	ANAT 1017 1031	tubo digestivo
+#8	AnnotatorNotes T12	C0017189; Gastrointestinal tract structure; Body System | C4516948; Entire digestive tract; Body System
+T13	PROC 1424 1465	Tratados con corticoides de forma crónica
+T14	DISO 1201 1228	hipersensibilidad de tipo I
+#9	AnnotatorNotes T14	C0020523; Immediate hypersensitivity; Pathologic Function | C0429892; Type 1 hypersensitivity response; Pathologic Function
+T15	CHEM 1289 1309	emulsiones lipídicas
+#10	AnnotatorNotes T15	C3883356; Lipid Emulsion; Pharmacologic Substance
+T16	PROC 386 403	ESOFAGECTOMIZADOS
+T17	CHEM 1384 1397	triglicéridos
+#11	AnnotatorNotes T17	C0041004; Triglycerides; Biologically Active Substance · Organic Chemical
+T18	ANAT 1398 1409	plasmáticos
+#12	AnnotatorNotes T18	C0032105; Plasma; Body Substance
+T19	CHEM 1437 1448	corticoides
+#13	AnnotatorNotes T19	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T20	CHEM 1468 1484	inmunosupresores
+#14	AnnotatorNotes T20	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T21	DISO 1515 1519	SIDA
+#15	AnnotatorNotes T21	C0001175; Acquired Immunodeficiency Syndrome; Disease or Syndrome
+T22	PROC 1526 1539	trasplantados
+#16	AnnotatorNotes T22	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T23	DISO 1545 1564	Disfunción hepática
+#17	AnnotatorNotes T23	C0086565; Liver Dysfunction; Finding
+T24	DISO 1637 1661	enfermedad descompensada
+T25	PROC 168 185	esofagectomizados
+T26	ANAT 459 466	esófago
+#18	AnnotatorNotes T26	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+T27	ANAT 570 577	esofágo
+T28	PROC 89 100	suplementar
+#19	AnnotatorNotes T28	C0242297; Dietary Supplementation; Therapeutic or Preventive Procedure
+T29	DISO 1235 1261	reacciones idiosincrásicas
+#20	AnnotatorNotes T29	C0745213; idiosyncratic reaction; Finding
+T30	PROC 1384 1409	triglicéridos plasmáticos
+T31	ANAT 1556 1564	hepática
+#21	AnnotatorNotes T31	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T32	PROC 428 441	Esofagectomía
+#22	AnnotatorNotes T32	C0085198; Esophagectomy; Therapeutic or Preventive Procedure
+T33	PROC 287 312	SUPLEMENTACIÓN PARENTERAL
+#23	AnnotatorNotes T33	C1882290; Parenteral Therapeutic Nutritional Supplementation; Therapeutic or Preventive Procedure
+T34	PROC 632 664	técnicas de Ivor-Lewis o MacEwan
+T35	Date 13 17	2016
+T36	Route 123 134	intravenoso
+#24	AnnotatorNotes T36	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T37	LIVB 158 167	pacientes
+#25	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Route 302 312	PARENTERAL
+#26	AnnotatorNotes T38	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T39	Form 317 325	EMULSIÓN
+T41	LIVB 376 385	PACIENTES
+#27	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 532 541	pacientes
+#28	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Age 716 738	Edad mínima de 18 años
+T44	LIVB 743 754	ambos sexos
+#29	AnnotatorNotes T44	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T46	LIVB 872 878	sujeto
+#30	AnnotatorNotes T46	C0681850; Study Subject; Group
+T48	LIVB 955 974	representante legal
+#31	AnnotatorNotes T48	C4288823; Legal Representative for the Study; Human
+T49	Neg_cue 1058 1060	No
+T50	LIVB 1100 1109	pacientes
+#32	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T53	Form 1289 1299	emulsiones
+T54	Route 1310 1322	intravenosas
+#33	AnnotatorNotes T54	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T55	LIVB 1328 1373	Mujeres embarazadas o en período de lactancia
+#34	AnnotatorNotes T55	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T57	Duration 1458 1465	crónica
+#35	AnnotatorNotes T57	C0205191; chronic; Temporal Concept
+T58	Date 1488 1501	el mes previo
+T40	PHYS 1364 1373	lactancia
+#36	AnnotatorNotes T40	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T45	PHYS 1336 1347	embarazadas
+#37	AnnotatorNotes T45	C0032961; Pregnancy; Organism Function
+T51	PROC 1570 1580	Child-Pugh
+#38	AnnotatorNotes T51	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+A2	Assertion T50 Negated
+A3	Status T14 History_of
+A4	Status T29 History_of
+A5	Status T20 History_of
+A6	Status T22 History_of
+#39	AnnotatorNotes T3	C0031928; Pilot Projects; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity
+#40	AnnotatorNotes T16	C0085198; Esophagectomy; Therapeutic or Preventive Procedure
+#41	AnnotatorNotes T25	C0085198; Esophagectomy; Therapeutic or Preventive Procedure
+#42	AnnotatorNotes T8	C0546837; Malignant neoplasm of esophagus; Neoplastic Process 
+#43	AnnotatorNotes T5	C0546837; Malignant neoplasm of esophagus; Neoplastic Process 
+#44	AnnotatorNotes T30	C0583329; Plasma triglyceride measurement; Laboratory Procedure 
+R1	Used_for Arg1:T2 Arg2:T28	
+T47	Observation 79 85	efecto
+#45	AnnotatorNotes T47	C1518681; Outcome of Therapy; Finding (?)
+R2	Causes Arg1:T28 Arg2:T47	
+R3	Has_Route_or_Mode Arg1:T2 Arg2:T36	
+R4	Experiences Arg1:T37 Arg2:T25	
+R6	Experiences Arg1:T37 Arg2:T47	
+R7	Experiences Arg1:T37 Arg2:T28	
+T52	Observation 274 280	EFECTO
+#46	AnnotatorNotes T52	C1518681; Outcome of Therapy; Finding (?)
+R8	Causes Arg1:T33 Arg2:T52	
+R9	Has_Drug_Form Arg1:T4 Arg2:T39	
+R10	Has_Route_or_Mode Arg1:T4 Arg2:T38	
+R11	Used_for Arg1:T4 Arg2:T33	
+#47	AnnotatorNotes T39	C4520839; Emulsion (basic dose form); Biomedical or Dental Material
+R12	Overlap Arg1:T33 Arg2:T6	
+R15	Overlap Arg1:T6 Arg2:T16	
+R16	Experiences Arg1:T41 Arg2:T52	
+R17	Experiences Arg1:T41 Arg2:T33	
+R18	Experiences Arg1:T41 Arg2:T6	
+R19	Experiences Arg1:T41 Arg2:T16	
+R20	Location_of Arg1:T26 Arg2:T5	
+R21	Location_of Arg1:T26 Arg2:T32	
+#48	AnnotatorNotes T53	C4520839; Emulsion (basic dose form); Biomedical or Dental Material
+R22	Has_Route_or_Mode Arg1:T15 Arg2:T54	
+R23	Has_Drug_Form Arg1:T15 Arg2:T53	
+R24	Negation Arg1:T49 Arg2:T50	
+T56	CONC 1067 1076	incluidos
+A1	Assertion T56 Negated
+#49	AnnotatorNotes T56	C1512693; Inclusion; Qualitative Concept
+R25	Negation Arg1:T49 Arg2:T56	
+R26	Experiences Arg1:T42 Arg2:T8	
+#50	AnnotatorNotes T27	C0014876; Esophagus; Body Part, Organ, or Organ Component | C1278919; Entire esophagus; Body Part, Organ, or Organ Component
+R27	Location_of Arg1:T27 Arg2:T8	
+R28	Experiences Arg1:T42 Arg2:T9	
+R29	Overlap Arg1:T9 Arg2:T34	
+T59	Observation 670 710	cumplan TODOS los criterios de inclusión
+#51	AnnotatorNotes T59	C4329786; Eligibility Criteria Met By Subject; Finding (?)
+R30	Has_Age Arg1:T44 Arg2:T43	
+T60	Observation 786 796	Dispuestos
+#52	AnnotatorNotes T60	C0600109; Willing; Finding
+R31	Overlap Arg1:T60 Arg2:T10	
+T61	Observation 846 853	capaces
+#53	AnnotatorNotes T61	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R32	Overlap Arg1:T10 Arg2:T61	
+T62	Observation 1000 1031	vía de acceso al tubo digestivo
+R33	Causes Arg1:T15 Arg2:T14	
+R34	Causes Arg1:T15 Arg2:T29	
+R35	Experiences Arg1:T55 Arg2:T45	
+R36	Experiences Arg1:T55 Arg2:T40	
+R37	Location_of Arg1:T18 Arg2:T30	
+T63	Result_or_Value 1410 1419	>3 mmol/L
+R38	Has_Result_or_Value Arg1:T30 Arg2:T63	
+R39	Has_Duration_or_Interval Arg1:T19 Arg2:T57	
+R40	Used_for Arg1:T19 Arg2:T13	
+R41	Used_for Arg1:T20 Arg2:T13	
+R42	Overlap Arg1:T20 Arg2:T58	
+R43	Overlap Arg1:T19 Arg2:T58	
+R44	Location_of Arg1:T31 Arg2:T23	
+T64	Result_or_Value 1581 1588	grado B
+R46	Has_Result_or_Value Arg1:T51 Arg2:T64	
+T65	Observation 1590 1624	compromiso funcional significativo
+R47	Overlap Arg1:T23 Arg2:T65	
+R48	Overlap Arg1:T23 Arg2:T24	
+T66	Result_or_Value 1628 1635	grado C
+R49	Has_Result_or_Value Arg1:T51 Arg2:T66	
+R50	Experiences Arg1:T42 Arg2:T34	
+R5	Overlap Arg1:T28 Arg2:T25	
+R13	Overlap Arg1:T33 Arg2:T16	
+#54	AnnotatorNotes T4	C0016157; fish oils; Organic Chemical · Pharmacologic Substance
+A7	Experiencer T55 Patient
+A8	Experiencer T37 Patient
+A9	Experiencer T41 Patient
+A10	Experiencer T42 Patient
+A11	Experiencer T44 Patient
+A12	Experiencer T46 Patient
+A13	Experiencer T48 Other
+A14	Experiencer T50 Patient

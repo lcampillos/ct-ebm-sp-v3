@@ -1,0 +1,139 @@
+T1	PROC 1020 1027	tratado
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 186 222	Fase II, muticéntrico, de solo brazo
+T3	CHEM 83 92	sirolimus
+#2	AnnotatorNotes T3	C0072980; sirolimus; Antibiotic · Organic Chemical
+T4	CHEM 95 109	ciclofosfamida
+#3	AnnotatorNotes T4	C0010583; cyclophosphamide; Organic Chemical · Pharmacologic Substance
+T5	DISO 127 140	condrosarcoma
+#4	AnnotatorNotes T5	C0008479; Chondrosarcoma; Neoplastic Process
+T6	DISO 143 162	liposarcoma mixoide
+#5	AnnotatorNotes T6	C0206634; Liposarcoma, Myxoid; Neoplastic Process
+T7	PROC 229 248	evaluar la eficacia
+#6	AnnotatorNotes T7	C1707887; Efficacy Study; Research Activity
+T8	PROC 253 264	tratamiento
+#7	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	CHEM 281 295	ciclofosfamida
+#8	AnnotatorNotes T9	C0010583; cyclophosphamide; Organic Chemical · Pharmacologic Substance
+T10	DISO 299 312	condrosarcoma
+#9	AnnotatorNotes T10	C0008479; Chondrosarcoma; Neoplastic Process
+T11	DISO 315 334	liposarcoma mixoide
+#10	AnnotatorNotes T11	C0206634; Liposarcoma, Myxoid; Neoplastic Process
+T12	DISO 385 398	Condrosarcoma
+#11	AnnotatorNotes T12	C0008479; Chondrosarcoma; Neoplastic Process
+T13	DISO 399 418	Liposarcoma mixoide
+#12	AnnotatorNotes T13	C0206634; Liposarcoma, Myxoid; Neoplastic Process
+T14	DISO 445 458	Condrosarcoma
+#13	AnnotatorNotes T14	C0008479; Chondrosarcoma; Neoplastic Process
+T15	DISO 472 491	Liposarcoma mixoide
+#14	AnnotatorNotes T15	C0206634; Liposarcoma, Myxoid; Neoplastic Process
+T16	DISO 496 504	mutación
+T17	DISO 531 574	Condrosarcoma mesenquimal o desdiferenciado
+T18	DISO 603 616	Condrosarcoma
+#15	AnnotatorNotes T18	C0008479; Chondrosarcoma; Neoplastic Process
+T19	PROC 645 664	anatomía patológica
+#16	AnnotatorNotes T19	C0200712; Anatomic pathology procedure; Laboratory Procedure
+T20	DISO 671 690	liposarcoma mixoide
+#17	AnnotatorNotes T20	C0206634; Liposarcoma, Myxoid; Neoplastic Process
+T21	CHEM 1032 1049	inhibidor de mTOR
+#18	AnnotatorNotes T21	C2746052; MTOR Inhibitors; Pharmacologic Substance
+T22	DISO 1053 1060	Alergia
+#19	AnnotatorNotes T22	C1527304; Allergic Reaction; Pathologic Function
+T23	CHEM 1072 1086	ciclofosfamida
+#20	AnnotatorNotes T23	C0010583; cyclophosphamide; Organic Chemical · Pharmacologic Substance
+T24	DISO 1126 1132	Lesión
+#21	AnnotatorNotes T24	C0221198; Lesion; Finding
+T25	PROC 1192 1205	Cirugía mayor
+#22	AnnotatorNotes T25	C0679637; major surgery; Therapeutic or Preventive Procedure
+T26	PROC 1300 1313	diagnosticado
+#23	AnnotatorNotes T26	C0011900; Diagnosis; Diagnostic Procedure
+T27	CHEM 269 278	sirolimus
+#24	AnnotatorNotes T27	C0072980; sirolimus; Antibiotic · Organic Chemical
+T28	DISO 349 360	metastásico
+#25	AnnotatorNotes T28	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T29	PROC 1249 1260	tratamiento
+#26	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	DISO 695 703	mutación
+T31	PROC 745 764	anatomía patológica
+#27	AnnotatorNotes T31	C0200712; Anatomic pathology procedure; Laboratory Procedure
+T32	PROC 829 848	anatomía patológica
+#28	AnnotatorNotes T32	C0200712; Anatomic pathology procedure; Laboratory Procedure
+T33	DISO 1263 1299	Virus de la inmunodeficiencia humana
+T34	DISO 770 813	condrosarcoma mesenquimal o desdiferenciado
+T35	Date 13 17	2013
+T36	LIVB 113 122	pacientes
+#29	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Neg_cue 514 525	ausencia de
+T38	Neg_cue 713 724	ausencia de
+T39	LIVB 852 861	Pacientes
+#30	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Age 866 879	18 años o más
+T41	Duration 959 978	los últimos 6 meses
+T42	Duration 1107 1122	menor a 3 meses
+T44	Duration 1209 1228	los últimos 4 meses
+T46	GENE 505 511	PIK3CA
+#31	AnnotatorNotes T46	C1335212; PIK3CA gene; Gene or Genome
+T47	GENE 526 530	PTEN
+#32	AnnotatorNotes T47	C0694888; PTEN gene; Gene or Genome
+T48	GENE 725 729	PTEN
+#33	AnnotatorNotes T48	C0694888; PTEN gene; Gene or Genome
+T49	GENE 704 710	PIK3CA
+#34	AnnotatorNotes T49	C1335212; PIK3CA gene; Gene or Genome
+A1	Assertion T47 Negated
+A2	Assertion T48 Negated
+A3	Status T1 History_of
+A4	Status T21 History_of
+A5	Status T22 History_of
+A6	Status T25 History_of
+#35	AnnotatorNotes T16	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#36	AnnotatorNotes T30	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#37	AnnotatorNotes T17	C0862878; Dedifferentiated chondrosarcoma; Neoplastic Process + C0206637; Mesenchymal Chondrosarcoma; Neoplastic Process 
+#38	AnnotatorNotes T34	C0862878; Dedifferentiated chondrosarcoma; Neoplastic Process + C0206637; Mesenchymal Chondrosarcoma; Neoplastic Process 
+#39	AnnotatorNotes T33	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T43	Quantifier_or_Qualifier 1136 1143	medible
+A7	Assertion T43 Negated
+T45	Neg_cue 1133 1135	no
+T50	Observation 883 905	Progresión radiológica
+T51	CONC 945 955	RECIST 1.1
+#40	AnnotatorNotes T51	C1709926; Response Evaluation Criteria in Solid Tumors; Intellectual Product
+R1	Overlap Arg1:T50 Arg2:T41	
+R2	Used_for Arg1:T21 Arg2:T1	
+R3	Causes Arg1:T23 Arg2:T22	
+T52	CONC 1089 1106	Esperanza de vida
+#41	AnnotatorNotes T52	C0023671; Life Expectancy; Group Attribute
+R4	Has_Duration_or_Interval Arg1:T52 Arg2:T42	
+R5	Negation Arg1:T45 Arg2:T43	
+#42	AnnotatorNotes T43	C1513040; Measurable; Functional Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T43	
+T53	CONC 1162 1172	RECIST 1.1
+#43	AnnotatorNotes T53	C1709926; Response Evaluation Criteria in Solid Tumors; Intellectual Product
+R7	Overlap Arg1:T25 Arg2:T44	
+R8	Before Arg1:T25 Arg2:T29	
+R9	Combined_with Arg1:T3 Arg2:T4	
+R10	Overlap Arg1:T5 Arg2:T6	
+R11	Experiences Arg1:T36 Arg2:T3	
+R12	Experiences Arg1:T36 Arg2:T5	
+R13	Experiences Arg1:T36 Arg2:T6	
+R14	Used_for Arg1:T27 Arg2:T8	
+R15	Combined_with Arg1:T27 Arg2:T9	
+R16	Before Arg1:T11 Arg2:T28	
+T54	Observation 335 346	irresecable
+#44	AnnotatorNotes T54	C4039777; Tumor surgically unresectable; Finding
+R17	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T54	
+R18	Overlap Arg1:T15 Arg2:T16	
+R19	Location_of Arg1:T46 Arg2:T16	
+R20	Overlap Arg1:T16 Arg2:T47	
+R21	Negation Arg1:T37 Arg2:T47	
+R23	Overlap Arg1:T20 Arg2:T30	
+R24	Location_of Arg1:T49 Arg2:T30	
+R25	Overlap Arg1:T30 Arg2:T48	
+R26	Negation Arg1:T38 Arg2:T48	
+R29	Has_Age Arg1:T39 Arg2:T40	
+T55	CONC 1182 1186	ECOG
+#45	AnnotatorNotes T55	C1520224; ECOG performance status; Intellectual Product
+T56	Result_or_Value 1187 1189	>2
+R30	Has_Result_or_Value Arg1:T55 Arg2:T56	
+R31	Overlap Arg1:T10 Arg2:T11	
+#46	AnnotatorNotes T50	C5236986; Radiographic Progressive Disease; Finding
+A8	Experiencer T39 Patient
+A9	Experiencer T36 Patient

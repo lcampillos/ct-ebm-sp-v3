@@ -1,0 +1,106 @@
+T1	DISO 103 125	insuficiencia cardíaca
+#1	AnnotatorNotes T1	C0018801; Heart failure; Disease or Syndrome
+T2	PROC 148 217	Estudio multicéntrico, aleatorizado, doble ciego, de grupos paralelos
+T3	PROC 223 259	evaluar la seguridad y tolerabilidad
+T4	DISO 295 317	insuficiencia cardíaca
+#2	AnnotatorNotes T4	C0018801; Heart failure; Disease or Syndrome
+T5	CHEM 79 85	LCZ696
+#3	AnnotatorNotes T5	C2933615; LCZ 696; Organic Chemical
+T6	PROC 344 364	pautas de titulación
+T7	CHEM 271 277	LCZ696
+#4	AnnotatorNotes T7	C2933615; LCZ 696; Organic Chemical
+T8	DISO 388 418	Insuficiencia cardíaca crónica
+#5	AnnotatorNotes T8	C0264716; Chronic heart failure; Disease or Syndrome
+T9	PROC 466 477	Diagnóstico
+#6	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	DISO 481 484	ICC
+#7	AnnotatorNotes T10	C0018802; Congestive heart failure; Disease or Syndrome
+T11	PROC 624 633	protocolo
+#8	AnnotatorNotes T11	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T12	PROC 660 672	TFG estimada
+#9	AnnotatorNotes T12	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure
+T13	CHEM 694 701	Potasio
+#10	AnnotatorNotes T13	C0032821; potassium; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance
+T14	ANAT 702 708	sérico
+#11	AnnotatorNotes T14	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T15	DISO 723 746	Hipotensión sintomática
+#12	AnnotatorNotes T15	C0863113; Hypotension symptomatic; Pathologic Function
+T16	CHEM 584 596	β bloqueante
+#13	AnnotatorNotes T16	C0001645; Adrenergic beta-Antagonists; Pharmacologic Substance
+T17	PROC 514 518	FEVI
+#14	AnnotatorNotes T17	C2114363; left ventricular ejection fraction assessment; Therapeutic or Preventive Procedure
+T18	CHEM 863 867	IECA
+#15	AnnotatorNotes T18	C0003015; Angiotensin-Converting Enzyme Inhibitors; Pharmacologic Substance
+T19	PROC 908 917	protocolo
+#16	AnnotatorNotes T19	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T20	PROC 71 78	titular
+#17	AnnotatorNotes T20	C4761127; Drug titration; Therapeutic or Preventive Procedure
+T21	ANAT 117 125	cardíaca
+#18	AnnotatorNotes T21	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T22	ANAT 309 317	cardíaca
+#19	AnnotatorNotes T22	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T23	ANAT 402 410	cardíaca
+#20	AnnotatorNotes T23	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T24	PROC 568 576	tratados
+#21	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	PROC 694 708	Potasio sérico
+#22	AnnotatorNotes T25	C0302353; Serum potassium measurement; Laboratory Procedure
+T26	PROC 751 754	PAS
+#23	AnnotatorNotes T26	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T27	PROC 768 771	PAS
+#24	AnnotatorNotes T27	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T28	DISO 808 820	intolerancia
+#25	AnnotatorNotes T28	C0277585; Intolerance to drug; Pathologic Function
+T29	CHEM 870 875	ARAII
+#26	AnnotatorNotes T29	C0521942; Angiotensin II receptor antagonist; Pharmacologic Substance
+T30	Date 13 17	2013
+T31	LIVB 89 98	pacientes
+#27	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 281 290	pacientes
+#28	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	Duration 411 418	crónica
+#29	AnnotatorNotes T33	C0205191; chronic; Temporal Concept
+T34	Age 447 454	18 años
+T35	PROC 506 510	NYHA
+#30	AnnotatorNotes T35	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T36	LIVB 548 557	pacientes
+#31	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+A1	Status T28 History_of
+#32	AnnotatorNotes T2	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C2826345; Parallel Study; Research Activity 
+#33	AnnotatorNotes T3	C3274448; Tolerability Study; Research Activity + C1705187; Safety Study; Research Activity
+R1	Used_for Arg1:T5 Arg2:T20	
+R2	Experiences Arg1:T31 Arg2:T20	
+R3	Experiences Arg1:T31 Arg2:T1	
+R4	Location_of Arg1:T21 Arg2:T1	
+R5	Experiences Arg1:T32 Arg2:T7	
+R6	Experiences Arg1:T32 Arg2:T4	
+R7	Location_of Arg1:T22 Arg2:T4	
+R8	Used_for Arg1:T7 Arg2:T6	
+R9	Location_of Arg1:T23 Arg2:T8	
+R10	Has_Duration_or_Interval Arg1:T8 Arg2:T33	
+T37	Result_or_Value 488 499	clase II-IV
+R11	Has_Result_or_Value Arg1:T35 Arg2:T37	
+T38	Result_or_Value 519 524	≤ 35%
+R13	Has_Result_or_Value Arg1:T17 Arg2:T38	
+T39	PROC 531 540	selección
+#34	AnnotatorNotes T39	C0242802; Patient Selection; Research Activity
+R14	Overlap Arg1:T17 Arg2:T39	
+R15	Experiences Arg1:T36 Arg2:T24	
+R16	Used_for Arg1:T16 Arg2:T24	
+T40	Result_or_Value 673 692	< 30 ml/min/1,73 m2
+R17	Has_Result_or_Value Arg1:T12 Arg2:T40	
+R18	Location_of Arg1:T14 Arg2:T25	
+T41	Result_or_Value 709 721	> 5,2 mmol/l
+R19	Has_Result_or_Value Arg1:T25 Arg2:T41	
+T42	Result_or_Value 755 765	< 100 mmHg
+R20	Has_Result_or_Value Arg1:T26 Arg2:T42	
+T43	Result_or_Value 772 782	> 180 mmHg
+R21	Has_Result_or_Value Arg1:T27 Arg2:T43	
+R24	Causes Arg1:T18 Arg2:T28	
+R25	Causes Arg1:T29 Arg2:T28	
+T44	CONC 827 846	dosis de referencia
+R26	Used_for Arg1:T44 Arg2:T18	
+R27	Used_for Arg1:T44 Arg2:T29	
+A2	Experiencer T31 Patient
+A3	Experiencer T32 Patient
+A4	Experiencer T36 Patient

@@ -1,0 +1,200 @@
+T1	CHEM 58 70	azitromicina
+#1	AnnotatorNotes T1	C0052796; azithromycin; Antibiotic · Organic Chemical
+T2	DISO 88 97	neumonías
+#2	AnnotatorNotes T2	C0032285; Pneumonia; Disease or Syndrome
+T3	DISO 114 131	inmunodeficiencia
+#3	AnnotatorNotes T3	C0021051; Immunologic Deficiency Syndromes; Disease or Syndrome
+T4	CHEM 165 177	azitromicina
+#4	AnnotatorNotes T4	C0052796; azithromycin; Antibiotic · Organic Chemical
+T5	DISO 216 225	neumonías
+#5	AnnotatorNotes T5	C0032285; Pneumonia; Disease or Syndrome
+T6	CHEM 251 276	lectina de unión a manosa
+#6	AnnotatorNotes T6	C0065661; Mannose Binding Lectin; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T7	CHEM 492 495	MBL
+T8	DISO 321 330	neumonías
+#7	AnnotatorNotes T8	C0032285; Pneumonia; Disease or Syndrome
+T9	DISO 351 387	alteraciones del sistema inmunitario
+#8	AnnotatorNotes T9	C0021053; Immune System Diseases; Disease or Syndrome
+T10	ANAT 368 387	sistema inmunitario
+#9	AnnotatorNotes T10	C0020962; Immune system; Body System | C1305754; Entire immune system; Body System
+T11	DISO 457 466	neumonías
+#10	AnnotatorNotes T11	C0032285; Pneumonia; Disease or Syndrome
+T12	DISO 623 643	episodios neumónicos
+T13	PROC 1001 1025	consentimiento informado
+#11	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	ANAT 881 886	suero
+#12	AnnotatorNotes T14	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T15	DISO 1077 1095	inmunodeficiencias
+#13	AnnotatorNotes T15	C0021051; Immunologic Deficiency Syndromes; Disease or Syndrome
+T16	DISO 1132 1143	neumopatías
+#14	AnnotatorNotes T16	C0024115; Lung diseases; Disease or Syndrome
+T17	DISO 1145 1157	cardiopatías
+#15	AnnotatorNotes T17	C0018799; Heart Diseases; Disease or Syndrome
+T18	CHEM 1281 1292	excipientes
+#16	AnnotatorNotes T18	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T19	PROC 1330 1341	tratamiento
+#17	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	CHEM 1394 1404	macrólidos
+#18	AnnotatorNotes T20	C0003240; Macrolide Antibiotics; Antibiotic · Organic Chemical | C0282563; Macrolides; Organic Chemical · Pharmacologic Substance
+T21	Observation 1425 1433	QT largo
+#19	AnnotatorNotes T21	C0151878; Prolonged QT interval; Finding
+T22	CHEM 874 877	MBL
+T23	CHEM 183 198	inmunomodulador
+#20	AnnotatorNotes T23	C1527392; Immunomodulators; Immunologic Factor · Pharmacologic Substance
+T24	DISO 240 276	déficit de lectina de unión a manosa
+T25	CHEM 400 403	MBL
+T26	DISO 389 403	déficit de MBL
+T27	DISO 481 495	déficit de MBL
+T28	DISO 838 852	déficit de MBL
+T29	CHEM 1212 1224	azitromicina
+#21	AnnotatorNotes T29	C0052796; azithromycin; Antibiotic · Organic Chemical
+T30	CHEM 1234 1257	antibióticos macrólidos
+#22	AnnotatorNotes T30	C0003240; Macrolide Antibiotics; Antibiotic · Organic Chemical
+T31	CHEM 1352 1360	fármacos
+#23	AnnotatorNotes T31	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T32	CHEM 849 852	MBL
+T33	PROC 863 886	niveles de MBL en suero
+T34	DISO 1160 1180	procesos oncológicos
+T35	DISO 1201 1209	alergias
+#24	AnnotatorNotes T35	C1527304; Allergic Reaction; Pathologic Function
+T36	Date 13 17	2012
+T37	LIVB 74 83	pacientes
+#25	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 202 211	pacientes
+#26	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 311 316	Niños
+#27	AnnotatorNotes T39	C0008059; Child; Age Group
+T40	LIVB 431 452	Pacientes pediátricos
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T41	LIVB 526 534	Paciente
+#29	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Age 535 575	mayor de seis meses y menores de 14 años
+T44	LIVB 582 591	Pacientes
+#30	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Duration 692 698	un año
+T46	Date 725 742	cualquier momento
+T47	LIVB 825 833	Paciente
+#31	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 905 914	Pacientes
+#32	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 921 927	padres
+#33	AnnotatorNotes T49	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T50	LIVB 1057 1066	Pacientes
+#34	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 1112 1121	Pacientes
+#35	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	LIVB 1187 1196	Pacientes
+#36	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 1317 1326	Pacientes
+#37	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 1411 1420	Pacientes
+#38	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	LIVB 930 937	tutores
+#39	AnnotatorNotes T56	C0871554; tutor; Professional or Occupational Group
+T54	DISO 1372 1385	interaccionar
+#40	AnnotatorNotes T54	C0687133; Drug Interactions; Pathologic Function
+T57	Spec_cue 1365 1371	puedan
+T43	PROC 656 672	radiológicamente
+#41	AnnotatorNotes T43	C0043299; Diagnostic radiologic examination; Diagnostic Procedure | C1962945; Radiographic imaging procedure; Diagnostic Procedure
+A1	Population_data T39 Age
+A2	Population_data T40 Age
+A3	Assertion T54 Speculated
+A4	Status T12 History_of
+A5	Status T35 History_of
+#42	AnnotatorNotes T25	C0065661; Mannose Binding Lectin; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+#43	AnnotatorNotes T7	C0065661; Mannose Binding Lectin; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+#44	AnnotatorNotes T32	C0065661; Mannose Binding Lectin; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+#45	AnnotatorNotes T22	C0065661; Mannose Binding Lectin; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+#46	AnnotatorNotes T24	C3280586; Mannose-Binding Protein Deficiency; Disease or Syndrome 
+#47	AnnotatorNotes T26	C3280586; Mannose-Binding Protein Deficiency; Disease or Syndrome 
+#48	AnnotatorNotes T27	C3280586; Mannose-Binding Protein Deficiency; Disease or Syndrome 
+#49	AnnotatorNotes T28	C3280586; Mannose-Binding Protein Deficiency; Disease or Syndrome 
+R1	Experiences Arg1:T37 Arg2:T1	
+T58	Quantifier_or_Qualifier 98 111	de repetición
+#50	AnnotatorNotes T58	C2945760; Recurrent; Temporal Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T58	
+R3	Overlap Arg1:T2 Arg2:T3	
+R4	Experiences Arg1:T37 Arg2:T2	
+R5	Experiences Arg1:T37 Arg2:T3	
+T59	Quantifier_or_Qualifier 226 237	recurrentes
+#51	AnnotatorNotes T59	C2945760; Recurrent; Temporal Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T59	
+R7	Experiences Arg1:T38 Arg2:T4	
+R8	Experiences Arg1:T38 Arg2:T5	
+R9	Experiences Arg1:T38 Arg2:T23	
+R10	Experiences Arg1:T38 Arg2:T24	
+R11	Experiences Arg1:T39 Arg2:T8	
+T60	Quantifier_or_Qualifier 331 344	de repetición
+#52	AnnotatorNotes T60	C2945760; Recurrent; Temporal Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T60	
+R13	Location_of Arg1:T10 Arg2:T9	
+R14	Overlap Arg1:T8 Arg2:T9	
+R15	Experiences Arg1:T39 Arg2:T9	
+R16	Experiences Arg1:T39 Arg2:T26	
+R17	Experiences Arg1:T40 Arg2:T11	
+R18	Experiences Arg1:T40 Arg2:T27	
+R19	Overlap Arg1:T11 Arg2:T27	
+T61	Quantifier_or_Qualifier 467 478	recurrentes
+#53	AnnotatorNotes T61	C2945760; Recurrent; Temporal Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T61	
+R21	Has_Age Arg1:T41 Arg2:T42	
+R22	Experiences Arg1:T44 Arg2:T12	
+T62	Quantifier_or_Qualifier 610 622	al menos dos
+R23	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T62	
+R25	Experiences Arg1:T44 Arg2:T43	
+R26	Has_Duration_or_Interval Arg1:T12 Arg2:T45	
+T63	Quantifier_or_Qualifier 707 721	tres episodios
+R27	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T63	
+R28	Overlap Arg1:T12 Arg2:T46	
+T64	Result_or_Value 774 799	normalización radiológica
+#54	AnnotatorNotes T64	C0853573; X-ray normal; Finding
+R29	Before Arg1:T12 Arg2:T64	
+R31	Experiences Arg1:T47 Arg2:T28	
+T65	Result_or_Value 887 898	< 500 ng/ml
+R32	Location_of Arg1:T14 Arg2:T33	
+R33	Has_Result_or_Value Arg1:T33 Arg2:T65	
+R34	Experiences Arg1:T47 Arg2:T33	
+T66	Observation 938 962	acepten su participación
+R36	Overlap Arg1:T66 Arg2:T13	
+R35	Experiences Arg1:T50 Arg2:T15	
+T67	Quantifier_or_Qualifier 1126 1131	otras
+#56	AnnotatorNotes T67	C0205394; Other; Qualitative Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T67	
+T68	Quantifier_or_Qualifier 1071 1076	otras
+#57	AnnotatorNotes T68	C0205394; Other; Qualitative Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T68	
+R41	Experiences Arg1:T51 Arg2:T16	
+R42	Experiences Arg1:T51 Arg2:T17	
+R43	Experiences Arg1:T51 Arg2:T34	
+#58	AnnotatorNotes T34	C0006826; Malignant Neoplasms; Neoplastic Process (?)
+R44	Experiences Arg1:T52 Arg2:T35	
+R45	Causes Arg1:T29 Arg2:T35	
+R46	Causes Arg1:T30 Arg2:T35	
+R47	Causes Arg1:T18 Arg2:T35	
+R48	Experiences Arg1:T53 Arg2:T19	
+R49	Experiences Arg1:T53 Arg2:T54	
+R50	Before Arg1:T31 Arg2:T54	
+R51	Speculation Arg1:T57 Arg2:T54	
+R52	Used_for Arg1:T31 Arg2:T19	
+R53	Experiences Arg1:T53 Arg2:T20	
+R54	Experiences Arg1:T55 Arg2:T21	
+R55	Overlap Arg1:T31 Arg2:T20	
+R24	Before Arg1:T20 Arg2:T54	
+R37	Overlap Arg1:T8 Arg2:T26	
+R38	Overlap Arg1:T5 Arg2:T24	
+#55	AnnotatorNotes T66	C1302239; Patient consented to clinical trial; Finding
+A6	Experiencer T37 Patient
+A7	Experiencer T38 Patient
+A8	Experiencer T39 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T41 Patient
+A11	Experiencer T44 Patient
+A12	Experiencer T47 Patient
+A13	Experiencer T48 Patient
+A14	Experiencer T49 Family_member
+A15	Experiencer T56 Other
+A16	Experiencer T50 Patient
+A17	Experiencer T51 Patient
+A18	Experiencer T52 Patient
+A19	Experiencer T53 Patient
+A20	Experiencer T55 Patient

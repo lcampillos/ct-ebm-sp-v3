@@ -1,0 +1,130 @@
+T1	DISO 20 65	complicaciones del acceso vascular periférico
+#1	AnnotatorNotes T1	C2349110; Vascular Access Device Complications; Pathologic Function
+T2	PROC 84 115	recambio plasmático terapéutico
+#2	AnnotatorNotes T2	C4522161; Therapeutic Exchange Plasma; Pharmacologic Substance
+T3	PROC 317 337	plasmacentrifugación
+T4	PROC 125 139	centrifugación
+#3	AnnotatorNotes T4	C0007703; Centrifugation; Laboratory Procedure
+T5	PROC 158 189	recambio plasmático terapéutico
+#4	AnnotatorNotes T5	C4522161; Therapeutic Exchange Plasma; Pharmacologic Substance
+T6	PROC 578 598	plasmacentrifugación
+T7	PROC 197 242	técnica extracorpórea de depuración sanguínea
+T8	PROC 247 278	recambio plasmático terapéutico
+#5	AnnotatorNotes T8	C4522161; Therapeutic Exchange Plasma; Pharmacologic Substance
+T9	PROC 753 773	plasmacentrifugación
+T10	PROC 301 315	centrifugación
+#6	AnnotatorNotes T10	C0007703; Centrifugation; Laboratory Procedure
+T11	DISO 513 558	complicaciones del acceso vascular periférico
+#7	AnnotatorNotes T11	C2349110; Vascular Access Device Complications; Pathologic Function
+T12	PROC 620 666	Estudio observacional descriptivo longitudinal
+T13	ANAT 1237 1248	neurológica
+#8	AnnotatorNotes T13	C0027763; Nervous system structure; Body System | C1269560; Entire nervous system; Body System
+T14	ANAT 1283 1296	dermatológica
+#9	AnnotatorNotes T14	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T15	PROC 1090 1104	centrifugación
+#10	AnnotatorNotes T15	C0007703; Centrifugation; Laboratory Procedure
+T16	DISO 1161 1171	enfermedad
+#11	AnnotatorNotes T16	C0012634; Disease; Disease or Syndrome
+T17	ANAT 1198 1203	renal
+#12	AnnotatorNotes T17	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T18	PROC 1379 1424	canalización de un acceso vascular periférico
+T19	DISO 1540 1554	complicaciones
+#13	AnnotatorNotes T19	C0009566; Complication; Pathologic Function
+T20	PROC 1634 1650	estudio vascular
+#14	AnnotatorNotes T20	C4761508; Vascular Study; Health Care Activity
+T21	PROC 1130 1142	fotoaféresis
+#15	AnnotatorNotes T21	C0206373; Photopheresis; Therapeutic or Preventive Procedure
+T23	ANAT 93 103	plasmático
+#16	AnnotatorNotes T23	C0032105; Plasma; Body Substance
+T24	ANAT 167 177	plasmático
+#17	AnnotatorNotes T24	C0032105; Plasma; Body Substance
+T25	ANAT 233 242	sanguínea
+#18	AnnotatorNotes T25	C0005767; Blood; Body Substance
+T26	ANAT 256 266	plasmático
+#19	AnnotatorNotes T26	C0032105; Plasma; Body Substance
+T29	DISO 688 733	complicaciones del acceso vascular periférico
+#20	AnnotatorNotes T29	C2349110; Vascular Access Device Complications; Pathologic Function
+T31	PROC 875 895	plasmacentrifugación
+T34	ANAT 1642 1650	vascular
+#21	AnnotatorNotes T34	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C1283786; Entire blood vessel; Body Part, Organ, or Organ Component
+T35	PROC 1735 1752	punción ecoguiada
+T36	DEVI 39 65	acceso vascular periférico
+#22	AnnotatorNotes T36	C0750140; Peripheral vascular access; Medical Device
+T39	DEVI 411 441	accesos vasculares periféricos
+#23	AnnotatorNotes T39	C0750140; Peripheral vascular access; Medical Device
+T40	DEVI 532 558	acceso vascular periférico
+#24	AnnotatorNotes T40	C0750140; Peripheral vascular access; Medical Device
+T41	DEVI 707 733	acceso vascular periférico
+#25	AnnotatorNotes T41	C0750140; Peripheral vascular access; Medical Device
+T42	Date 791 804	enero de 2017
+T43	Date 807 820	marzo de 2018
+T44	LIVB 940 949	pacientes
+#26	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 1002 1010	paciente
+#27	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 1035 1042	mujeres
+#28	AnnotatorNotes T46	C0043210; Woman; Population Group
+T47	LIVB 1183 1192	pacientes
+#29	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	DEVI 1398 1424	acceso vascular periférico
+#30	AnnotatorNotes T48	C0750140; Peripheral vascular access; Medical Device
+T49	DEVI 1574 1600	acceso vascular periférico
+#31	AnnotatorNotes T49	C0750140; Peripheral vascular access; Medical Device
+T50	LIVB 1667 1675	paciente
+#32	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T22	Spec_cue 1704 1712	pudiendo
+T27	Quantifier_or_Qualifier 1717 1721	útil
+A1	Assertion T27 Speculated
+A2	Assertion T35 Speculated
+R1	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T27	
+R2	Speculation Arg1:T22 Arg2:T27	
+R3	Speculation Arg1:T22 Arg2:T35	
+R4	Causes Arg1:T36 Arg2:T1	
+R8	Causes Arg1:T40 Arg2:T11	
+R10	Causes Arg1:T41 Arg2:T29	
+R11	After Arg1:T12 Arg2:T42	
+R12	Before Arg1:T12 Arg2:T43	
+R15	Used_for Arg1:T41 Arg2:T9	
+R16	Used_for Arg1:T39 Arg2:T3	
+R17	Used_for Arg1:T39 Arg2:T10	
+R18	Used_for Arg1:T36 Arg2:T4	
+R19	Used_for Arg1:T40 Arg2:T6	
+R20	After Arg1:T9 Arg2:T42	
+R21	Before Arg1:T9 Arg2:T43	
+R22	After Arg1:T29 Arg2:T42	
+R23	Before Arg1:T29 Arg2:T43	
+R24	Experiences Arg1:T44 Arg2:T31	
+T28	Quantifier_or_Qualifier 860 871	93 sesiones
+R25	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T28	
+R26	Experiences Arg1:T45 Arg2:T31	
+R27	Location_of Arg1:T17 Arg2:T16	
+R28	Experiences Arg1:T47 Arg2:T16	
+R29	Location_of Arg1:T13 Arg2:T16	
+R30	Location_of Arg1:T14 Arg2:T16	
+T30	Quantifier_or_Qualifier 1324 1335	93 sesiones
+T32	Observation 1349 1424	problemas relacionados con la canalización de un acceso vascular periférico
+R31	Causes Arg1:T48 Arg2:T32	
+R32	Used_for Arg1:T48 Arg2:T18	
+R33	Causes Arg1:T49 Arg2:T19	
+R34	Location_of Arg1:T34 Arg2:T20	
+T33	Quantifier_or_Qualifier 1651 1662	ambulatorio
+#33	AnnotatorNotes T33	C0439841; Ambulatory - qualifier value; Functional Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T33	
+R36	Experiences Arg1:T50 Arg2:T19	
+R37	Experiences Arg1:T50 Arg2:T20	
+T37	CONC 1696 1702	sesión
+#34	AnnotatorNotes T37	C1883017; Session; Conceptual Entity
+R38	Before Arg1:T20 Arg2:T37	
+T38	Quantifier_or_Qualifier 1688 1695	primera
+R39	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T38	
+R40	Overlap Arg1:T49 Arg2:T37	
+R41	Before Arg1:T20 Arg2:T49	
+#35	AnnotatorNotes T27	C3827682; Useful; Qualitative Concept
+#36	AnnotatorNotes T38	C0205435; First (number); Quantitative Concept
+R5	Used_for Arg1:T36 Arg2:T2	
+R6	Used_for Arg1:T39 Arg2:T8	
+A3	Experiencer T44 Patient
+A4	Experiencer T45 Patient
+A5	Experiencer T46 Patient
+A6	Experiencer T47 Patient
+A7	Experiencer T50 Patient

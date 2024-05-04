@@ -1,0 +1,180 @@
+T1	PROC 46 83	Estudio comparativo de la efectividad
+T2	PROC 91 111	técnicas anestésicas
+T3	PROC 158 202	extirpación quirúrgica de la vesícula biliar
+T4	ANAT 187 202	vesícula biliar
+#1	AnnotatorNotes T4	C0016976; Gallbladder; Body Part, Organ, or Organ Component | C1269001; Entire gallbladder; Body Part, Organ, or Organ Component
+T5	PROC 226 263	Estudio comparativo de la efectividad
+T6	PROC 268 325	bloqueo del plano abdominal del oblicuo a nivel subcostal
+T7	ANAT 286 295	abdominal
+#2	AnnotatorNotes T7	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T8	ANAT 316 325	subcostal
+#3	AnnotatorNotes T8	C0442184; Subcostal; Body Location or Region
+T9	PROC 327 340	bloqueo OSTAP
+T10	PROC 382 394	laparoscopia
+#4	AnnotatorNotes T10	C0031150; Laparoscopy; Diagnostic Procedure
+T11	PROC 420 435	colecistectomía
+#5	AnnotatorNotes T11	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T12	PROC 469 513	Extirpación quirúrgica de la vesícula biliar
+T13	ANAT 498 513	vesícula biliar
+#6	AnnotatorNotes T13	C0016976; Gallbladder; Body Part, Organ, or Organ Component | C1269001; Entire gallbladder; Body Part, Organ, or Organ Component
+T14	PROC 540 555	Colecistectomía
+#7	AnnotatorNotes T14	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+T15	PROC 625 637	intervención
+#8	AnnotatorNotes T15	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T16	PROC 641 687	colecistectomía electiva por vía laparoscópica
+T17	PROC 1045 1048	IMC
+#9	AnnotatorNotes T17	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T18	PROC 692 712	ingreso hospitalario
+#10	AnnotatorNotes T18	C0184666; Hospital admission; Health Care Activity
+T19	DISO 840 857	hipersensibilidad
+#11	AnnotatorNotes T19	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T20	CHEM 883 895	medicaciones
+#12	AnnotatorNotes T20	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T21	CHEM 941 949	opiáceos
+#13	AnnotatorNotes T21	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T22	DISO 956 965	epilepsia
+#14	AnnotatorNotes T22	C0014544; Epilepsy; Disease or Syndrome
+T23	DISO 1013 1029	obesidad mórbida
+#15	AnnotatorNotes T23	C0028756; Morbid obesity; Disease or Syndrome
+T24	DISO 1060 1099	síndrome de apnea obstructiva del sueño
+#16	AnnotatorNotes T24	C0520679; Sleep Apnea, Obstructive; Disease or Syndrome
+T25	DISO 1122 1148	bloqueo del ritmo cardiaco
+T26	DISO 1197 1219	insuficiencia hepática
+#17	AnnotatorNotes T26	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T27	CHEM 1235 1246	bilirrubina
+#18	AnnotatorNotes T27	C0005437; Bilirubin; Biologically Active Substance · Organic Chemical
+T28	ANAT 1247 1253	sérica
+#19	AnnotatorNotes T28	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T29	DISO 1290 1309	insuficiencia renal
+#20	AnnotatorNotes T29	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T30	PROC 1325 1359	filtrado glomerular estimado renal
+T31	ANAT 1354 1359	renal
+#21	AnnotatorNotes T31	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T32	DISO 1402 1428	infección local en la piel
+#22	AnnotatorNotes T32	C0406047; Local infection skin/subcut tissue NOS; Disease or Syndrome
+T33	ANAT 1424 1428	piel
+#23	AnnotatorNotes T33	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T34	ANAT 1444 1460	zonas de punción
+T35	PROC 351 363	infiltración
+#24	AnnotatorNotes T35	C0702249; Infiltration (procedure); Therapeutic or Preventive Procedure
+T36	DISO 993 1006	incapacitadas
+#25	AnnotatorNotes T36	C0231170; Disability; Finding
+T37	ANAT 1140 1148	cardiaco
+#26	AnnotatorNotes T37	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T38	PROC 1165 1190	implante de un marcapasos
+T40	ANAT 1211 1219	hepática
+#27	AnnotatorNotes T40	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T41	PROC 1235 1253	bilirrubina sérica
+T42	ANAT 1304 1309	renal
+#28	AnnotatorNotes T42	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T43	PROC 1453 1460	punción
+#29	AnnotatorNotes T43	C0034115; Paracentesis; Therapeutic or Preventive Procedure
+T44	Date 13 17	2020
+T45	LIVB 136 145	pacientes
+#30	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 398 407	pacientes
+#31	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Age 600 618	entre 18 y 85 años
+T51	LIVB 825 833	paciente
+#32	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Duration 930 937	crónico
+#33	AnnotatorNotes T52	C0205191; chronic; Temporal Concept
+T53	LIVB 972 980	Personas
+#34	AnnotatorNotes T53	C0027361; Persons; Population Group
+T55	PHYS 1134 1148	ritmo cardiaco
+#35	AnnotatorNotes T55	C0232187; Cardiac rhythm type; Organ or Tissue Function
+T57	DEVI 1180 1190	marcapasos
+#36	AnnotatorNotes T57	C0030163; Artificial cardiac pacemaker; Medical Device
+T58	Time 1254 1267	preoperatoria
+#37	AnnotatorNotes T58	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T61	PHYS 1387 1395	embarazo
+#38	AnnotatorNotes T61	C0032961; Pregnancy; Organism Function
+T63	PHYS 1094 1099	sueño
+#39	AnnotatorNotes T63	C0037313; Sleep; Organism Function
+T39	PROC 774 777	ASA
+#40	AnnotatorNotes T39	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+T48	PHYS 1325 1344	filtrado glomerular
+#41	AnnotatorNotes T48	C0232809; Glomerular filtration; Organ or Tissue Function; Laboratory Procedure
+T49	ANAT 1334 1344	glomerular
+#42	AnnotatorNotes T49	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Status T19 History_of
+#43	AnnotatorNotes T3	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+#44	AnnotatorNotes T12	C0008320; Cholecystectomy procedure; Therapeutic or Preventive Procedure
+#45	AnnotatorNotes T38	C0747130; pacemaker placement; Therapeutic or Preventive Procedure
+#46	AnnotatorNotes T41	C0428441; Serum bilirubin measurement; Laboratory Procedure
+#47	AnnotatorNotes T30	C3811844; Estimated Glomerular Filtration Rate; Laboratory Procedure 
+R1	Experiences Arg1:T45 Arg2:T2	
+R2	Experiences Arg1:T45 Arg2:T3	
+R3	Location_of Arg1:T4 Arg2:T3	
+R4	Before Arg1:T2 Arg2:T3	
+R5	Location_of Arg1:T7 Arg2:T6	
+R6	Location_of Arg1:T8 Arg2:T6	
+R7	Location_of Arg1:T8 Arg2:T9	
+R8	Location_of Arg1:T7 Arg2:T9	
+R9	Experiences Arg1:T46 Arg2:T11	
+R10	Experiences Arg1:T46 Arg2:T10	
+R11	Experiences Arg1:T46 Arg2:T9	
+R12	Experiences Arg1:T46 Arg2:T6	
+R13	Experiences Arg1:T46 Arg2:T35	
+R14	Before Arg1:T6 Arg2:T11	
+R15	Before Arg1:T9 Arg2:T11	
+R16	Before Arg1:T35 Arg2:T11	
+T50	DEVI 371 394	puertos de laparoscopia
+#48	AnnotatorNotes T50	C2697883; Laparoscopic Port; Medical Device
+R17	Used_for Arg1:T50 Arg2:T10	
+R18	Used_for Arg1:T50 Arg2:T35	
+T54	Quantifier_or_Qualifier 436 444	electiva
+#49	AnnotatorNotes T54	C0439608; elective; Temporal Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T54	
+R20	Location_of Arg1:T13 Arg2:T12	
+T56	Quantifier_or_Qualifier 556 564	electiva
+#50	AnnotatorNotes T56	C0439608; elective; Temporal Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T56	
+R22	Before Arg1:T18 Arg2:T16	
+R23	Before Arg1:T18 Arg2:T15	
+T59	Result_or_Value 778 782	< IV
+R24	Has_Result_or_Value Arg1:T39 Arg2:T59	
+T60	Quantifier_or_Qualifier 713 721	previsto
+#51	AnnotatorNotes T60	C1301732; Planned; Functional Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T60	
+T62	Observation 812 833	Negativa del paciente
+#52	AnnotatorNotes T62	C4284598; Patient refused to participate; Finding
+R27	Causes Arg1:T20 Arg2:T19	
+R28	Has_Duration_or_Interval Arg1:T21 Arg2:T52	
+R29	Experiences Arg1:T53 Arg2:T36	
+T64	Observation 981 990	incapaces
+#53	AnnotatorNotes T64	C4036312; Not able to do; Finding (?)
+R30	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T64	
+T65	Result_or_Value 1049 1052	>40
+R31	Has_Result_or_Value Arg1:T17 Arg2:T65	
+R33	Location_of Arg1:T37 Arg2:T55	
+R34	Location_of Arg1:T37 Arg2:T25	
+R36	Location_of Arg1:T40 Arg2:T26	
+R37	Used_for Arg1:T57 Arg2:T38	
+R38	Location_of Arg1:T28 Arg2:T41	
+R39	Overlap Arg1:T41 Arg2:T58	
+T66	Result_or_Value 1274 1282	>2 mg/dl
+R40	Has_Result_or_Value Arg1:T41 Arg2:T66	
+T67	Quantifier_or_Qualifier 1268 1273	total
+#54	AnnotatorNotes T67	C0439810; Total; Qualitative Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T67	
+R42	Location_of Arg1:T49 Arg2:T48	
+R43	Location_of Arg1:T49 Arg2:T30	
+R44	Location_of Arg1:T31 Arg2:T30	
+T68	Result_or_Value 1360 1379	¿ 50 ml/min/1.73 m2
+R45	Has_Result_or_Value Arg1:T30 Arg2:T68	
+R46	Location_of Arg1:T42 Arg2:T29	
+R47	Location_of Arg1:T33 Arg2:T32	
+R48	Location_of Arg1:T34 Arg2:T32	
+R49	Before Arg1:T43 Arg2:T32	
+#55	AnnotatorNotes T34	C0229986; Application site; Anatomical Structure
+R50	Location_of Arg1:T34 Arg2:T43	
+R51	Overlap Arg1:T10 Arg2:T11	
+#56	AnnotatorNotes T25	C0018794; Heart Block; Disease or Syndrome
+A2	Experiencer T45 Patient
+A3	Experiencer T46 Patient
+A4	Experiencer T51 Patient
+A5	Experiencer T53 Patient
+A6	Status T15 Future
+A7	Status T16 Future
+A8	Status T18 Future

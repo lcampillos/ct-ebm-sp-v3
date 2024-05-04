@@ -1,0 +1,227 @@
+T1	PROC 52 86	estudio en seres humanos, fase 1/2
+T2	PROC 104 115	monoterapia
+#1	AnnotatorNotes T2	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T3	CHEM 137 146	nivolumab
+#2	AnnotatorNotes T3	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	DISO 150 165	tumores sólidos
+#3	AnnotatorNotes T4	C0280100; Solid Neoplasm; Neoplastic Process
+T5	DISO 197 212	Tumores sólidos
+#4	AnnotatorNotes T5	C0280100; Solid Neoplasm; Neoplastic Process
+T6	DISO 346 358	tumor sólido
+#5	AnnotatorNotes T6	C0280100; Solid Neoplasm; Neoplastic Process
+T7	DISO 414 432	enfermedad medible
+#6	AnnotatorNotes T7	C1513041; Measurable Disease; Disease or Syndrome
+T8	DISO 454 460	lesión
+#7	AnnotatorNotes T8	C0221198; Lesion; Finding
+T9	PROC 476 483	biopsia
+#8	AnnotatorNotes T9	C0005558; Biopsy; Diagnostic Procedure
+T10	PROC 658 689	régimen de tratamiento estándar
+T11	DISO 759 774	tumores sólidos
+#9	AnnotatorNotes T11	C0280100; Solid Neoplasm; Neoplastic Process
+T12	PROC 811 846	tratamientos previos anti-tumorales
+T13	DISO 1243 1273	malignidades primarias del SNC
+T14	PROC 852 865	quimioterapia
+#10	AnnotatorNotes T14	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T15	PROC 867 879	radioterapia
+#11	AnnotatorNotes T15	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T16	PROC 883 903	tratamiento hormonal
+#12	AnnotatorNotes T16	C0279025; Hormone Therapy; Therapeutic or Preventive Procedure
+T17	PROC 1012 1022	evaluación
+#13	AnnotatorNotes T17	C1261322; Evaluation procedure; Health Care Activity
+T18	PROC 928 952	Consentimiento Informado
+#14	AnnotatorNotes T18	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T19	PROC 1097 1111	procedimientos
+#15	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T20	PROC 1187 1196	protocolo
+#16	AnnotatorNotes T20	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T21	ANAT 1270 1273	SNC
+#17	AnnotatorNotes T21	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T22	DISO 1276 1283	tumores
+#18	AnnotatorNotes T22	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T23	ANAT 1305 1308	SNC
+#19	AnnotatorNotes T23	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T24	DISO 1329 1339	enfermedad
+#20	AnnotatorNotes T24	C0012634; Disease; Disease or Syndrome
+T25	DISO 1341 1360	metástasis cerebral
+#21	AnnotatorNotes T25	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T26	DISO 1371 1395	metástasis leptomeníngea
+#22	AnnotatorNotes T26	C1704231; Metastatic Malignant Neoplasm to the Leptomeninges; Neoplastic Process
+T27	DISO 1398 1419	Enfermedad autoinmune
+#23	AnnotatorNotes T27	C0004364; Autoimmune Diseases; Disease or Syndrome
+T28	PROC 1512 1524	intervención
+#24	AnnotatorNotes T28	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T29	PROC 1599 1608	protocolo
+#25	AnnotatorNotes T29	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T30	DISO 369 380	metastásico
+#26	AnnotatorNotes T30	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T31	DISO 632 644	intolerantes
+#27	AnnotatorNotes T31	C0277585; Intolerance to drug; Pathologic Function
+T32	DISO 712 723	metastásica
+#28	AnnotatorNotes T32	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T33	CHEM 895 903	hormonal
+#29	AnnotatorNotes T33	C0019932; Hormones; Hormone
+T34	DISO 1288 1308	metástasis en el SNC
+#30	AnnotatorNotes T34	C0686377; CNS metastases; Neoplastic Process
+T35	ANAT 1352 1360	cerebral
+#31	AnnotatorNotes T35	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T36	ANAT 1382 1395	leptomeníngea
+#32	AnnotatorNotes T36	C0228126; Leptomeninges; Body Part, Organ, or Organ Component | C1284563; Entire leptomeninges; Body Part, Organ, or Organ Component
+T37	CHEM 90 100	BMS-986249
+#33	AnnotatorNotes T37	C4687449; CTLA-4-directed Probody BMS-986249; Amino Acid, Peptide, or Protein · Immunologic Factor
+T38	DISO 1477 1489	malignidades
+T39	Date 13 17	2018
+T40	LIVB 63 76	seres humanos
+#34	AnnotatorNotes T40	C0086418; Homo sapiens; Human
+T41	Age 268 284	al menos 18 años
+T42	LIVB 789 798	pacientes
+#35	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T44	Spec_cue 1440 1450	sospechada
+T46	LIVB 250 263	Participantes
+#36	AnnotatorNotes T46	C4554048; Study Participant; Population Group
+T47	PROC 744 755	histologías
+#37	AnnotatorNotes T47	C0344441; Histology Procedure; Laboratory Procedure
+T48	PHYS 907 915	Entender
+#38	AnnotatorNotes T48	C0162340; Comprehension; Mental Process
+T43	LIVB 559 572	participantes
+#39	AnnotatorNotes T43	C4554048; Study Participant; Population Group
+T45	LIVB 1225 1238	Participantes
+#40	AnnotatorNotes T45	C4554048; Study Participant; Population Group
+T49	LIVB 1453 1466	Participantes
+#41	AnnotatorNotes T49	C4554048; Study Participant; Population Group
+T50	PROC 302 339	confirmación citológico o histológica
+#42	AnnotatorNotes T50	C1305671; Cytology procedure; Laboratory Procedure + C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T27 Speculated
+A2	Status T31 History_of
+A3	Status T12 History_of
+A4	Status T14 History_of
+A5	Status T15 History_of
+A6	Status T16 History_of
+A7	Status T33 History_of
+A8	Status T27 History_of
+#43	AnnotatorNotes T1	C0178693; human study; Research Activity + C1519043; Phase I/II Trial; Research Activity 
+#44	AnnotatorNotes T10	C4684780; Standard Treatment; Health Care Activity 
+#45	AnnotatorNotes T38	C0006826; Malignant Neoplasms; Neoplastic Process 
+T51	Spec_cue 1126 1133	Podrían
+T52	CONC 1148 1170	criterios de inclusión
+A9	Assertion T52 Speculated
+#46	AnnotatorNotes T52	C1512693; Inclusion Criteria; Qualitative Concept
+T53	Quantifier_or_Qualifier 1142 1147	otros
+A10	Assertion T53 Speculated
+T54	Spec_cue 1538 1545	Podrían
+T55	Quantifier_or_Qualifier 1554 1559	otros
+A11	Assertion T55 Speculated
+T56	CONC 1560 1582	criterios de exclusión
+A12	Assertion T56 Speculated
+#47	AnnotatorNotes T56	C0680251; Exclusion Criteria; Functional Concept
+R1	Experiences Arg1:T40 Arg2:T37	
+R2	Experiences Arg1:T40 Arg2:T2	
+R3	Combined_with Arg1:T37 Arg2:T3	
+R4	Used_for Arg1:T37 Arg2:T2	
+R5	Experiences Arg1:T40 Arg2:T4	
+T57	Quantifier_or_Qualifier 166 175	avanzados
+#48	AnnotatorNotes T57	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T57	
+T58	Quantifier_or_Qualifier 359 367	avanzado
+#49	AnnotatorNotes T58	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T58	
+T59	Quantifier_or_Qualifier 213 222	avanzados
+#50	AnnotatorNotes T59	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T59	
+T60	CONC 696 709	fase avanzada
+#51	AnnotatorNotes T60	C0205179; Advanced phase; Qualitative Concept
+T61	Quantifier_or_Qualifier 645 657	al menos a 1
+R9	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T61	
+R10	Experiences Arg1:T43 Arg2:T31	
+R11	Experiences Arg1:T43 Arg2:T10	
+R12	Causes Arg1:T10 Arg2:T31	
+R14	Experiences Arg1:T43 Arg2:T47	
+R15	Experiences Arg1:T43 Arg2:T11	
+R16	Before Arg1:T11 Arg2:T32	
+R17	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T60	
+T62	Observation 603 613	progresado
+#52	AnnotatorNotes T62	C1457868; Worse; Finding (?)
+R18	Experiences Arg1:T43 Arg2:T62	
+R19	Before Arg1:T11 Arg2:T62	
+T63	Observation 615 624	recurrido
+#53	AnnotatorNotes T63	C0679254; Disease recurrence; Finding
+R20	Experiences Arg1:T43 Arg2:T63	
+R21	Before Arg1:T11 Arg2:T63	
+R22	Overlap Arg1:T62 Arg2:T10	
+R23	Overlap Arg1:T63 Arg2:T10	
+R24	Experiences Arg1:T42 Arg2:T12	
+R25	Experiences Arg1:T42 Arg2:T14	
+R26	Experiences Arg1:T42 Arg2:T15	
+R27	Experiences Arg1:T42 Arg2:T16	
+R28	Used_for Arg1:T33 Arg2:T16	
+R29	Overlap Arg1:T48 Arg2:T18	
+R30	Before Arg1:T18 Arg2:T17	
+T64	Observation 1049 1065	Estar de acuerdo
+T65	Observation 1072 1111	capaz de cumplir con los procedimientos
+#54	AnnotatorNotes T64	C0600109; Willing; Finding (?)
+R31	Speculation Arg1:T51 Arg2:T53	
+R32	Speculation Arg1:T51 Arg2:T52	
+R33	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T53	
+R34	Speculation Arg1:T54 Arg2:T55	
+R35	Speculation Arg1:T54 Arg2:T56	
+R36	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T55	
+R37	Experiences Arg1:T49 Arg2:T38	
+#55	AnnotatorNotes T55	C0205394; Other; Qualitative Concept
+T66	Quantifier_or_Qualifier 1471 1476	otras
+#56	AnnotatorNotes T66	C0205394; Other; Qualitative Concept
+#57	AnnotatorNotes T53	C0205394; Other; Qualitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T66	
+T67	Quantifier_or_Qualifier 1490 1497	activas
+#58	AnnotatorNotes T67	C0679217; Active State; Idea or Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T67	
+T68	Quantifier_or_Qualifier 1420 1426	activa
+#59	AnnotatorNotes T68	C0679217; Active State; Idea or Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T68	
+T69	Quantifier_or_Qualifier 1361 1367	activa
+#60	AnnotatorNotes T69	C0679217; Active State; Idea or Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T69	
+R42	Location_of Arg1:T35 Arg2:T25	
+R43	Location_of Arg1:T36 Arg2:T26	
+R44	Experiences Arg1:T45 Arg2:T13	
+R45	Location_of Arg1:T21 Arg2:T13	
+R46	Experiences Arg1:T45 Arg2:T22	
+R47	Before Arg1:T22 Arg2:T34	
+R48	Location_of Arg1:T23 Arg2:T34	
+T70	Observation 1320 1339	sitio de enfermedad
+#61	AnnotatorNotes T70	C0449422; Source of disease; Finding
+T71	Quantifier_or_Qualifier 1314 1319	único
+R49	Has_Quantifier_or_Qualifier Arg1:T70 Arg2:T71	
+R50	Location_of Arg1:T23 Arg2:T70	
+R51	Location_of Arg1:T23 Arg2:T24	
+R52	Location_of Arg1:T21 Arg2:T70	
+R53	Location_of Arg1:T21 Arg2:T24	
+R54	Experiences Arg1:T45 Arg2:T70	
+R55	Experiences Arg1:T45 Arg2:T24	
+R56	Experiences Arg1:T45 Arg2:T25	
+R57	Experiences Arg1:T45 Arg2:T26	
+R58	Has_Age Arg1:T46 Arg2:T41	
+T72	Quantifier_or_Qualifier 441 453	al menos una
+R64	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T72	
+T73	Observation 382 392	recurrente
+#62	AnnotatorNotes T73	C0679254; Disease recurrence; Finding
+R66	Before Arg1:T6 Arg2:T30	
+R67	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T73	
+T74	Observation 397 408	irresecable
+#63	AnnotatorNotes T74	C4039777; Tumor surgically unresectable; Finding 
+R68	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T74	
+T75	CONC 495 529	Eastern Cooperative Oncology Group
+#64	AnnotatorNotes T75	C1520224; ECOG performance status; Intellectual Product
+T76	Result_or_Value 545 551	0 or 1
+R70	Has_Result_or_Value Arg1:T75 Arg2:T76	
+R71	Overlap Arg1:T31 Arg2:T11	
+R72	Speculation Arg1:T44 Arg2:T27	
+R73	Overlap Arg1:T65 Arg2:T19	
+R74	Overlap Arg1:T64 Arg2:T19	
+#65	AnnotatorNotes T71	C0205171; Singular; Quantitative Concept
+#66	AnnotatorNotes T13	C1455806; Primary malignant neoplasm of central nervous system; Neoplastic Process
+#67	AnnotatorNotes T12	C0920425; cancer treatment; Therapeutic or Preventive Procedure (?)
+A13	Experiencer T45 Patient
+A14	Experiencer T49 Patient
+A15	Experiencer T40 Patient
+A16	Experiencer T46 Patient
+A17	Experiencer T43 Patient
+A18	Experiencer T42 Patient

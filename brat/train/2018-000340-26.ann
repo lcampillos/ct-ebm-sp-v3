@@ -1,0 +1,218 @@
+T1	PROC 60 80	terapia inmunológica
+T2	CHEM 257 267	BMS-986253
+#1	AnnotatorNotes T2	C4688407; BMS-986253; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	CHEM 102 122	fármaco experimental
+#2	AnnotatorNotes T3	C0304229; Experimental drug; Pharmacologic Substance
+T4	CHEM 167 176	Nivolumab
+#3	AnnotatorNotes T4	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	DISO 194 202	cánceres
+#4	AnnotatorNotes T5	C0006826; Malignant Neoplasms; Neoplastic Process
+T6	PROC 236 253	Estudio fase 1/2a
+T7	CHEM 287 296	nivolumab
+#5	AnnotatorNotes T7	C3657270; nivolumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	DISO 300 308	cánceres
+#6	AnnotatorNotes T8	C0006826; Malignant Neoplasms; Neoplastic Process
+T9	DISO 342 350	Cánceres
+#7	AnnotatorNotes T9	C0006826; Malignant Neoplasms; Neoplastic Process
+T10	DISO 432 444	tumor sólido
+#8	AnnotatorNotes T10	C0280100; Solid Neoplasm; Neoplastic Process
+T11	DISO 512 530	enfermedad medible
+#9	AnnotatorNotes T11	C1513041; Measurable Disease; Disease or Syndrome
+T12	DISO 561 567	lesión
+#10	AnnotatorNotes T12	C0221198; Lesion; Finding
+T13	PROC 583 590	biopsia
+#11	AnnotatorNotes T13	C0005558; Biopsy; Diagnostic Procedure
+T14	DISO 706 752	tumores primarios del sistema nervioso central
+T15	ANAT 728 752	sistema nervioso central
+#12	AnnotatorNotes T15	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T16	ANAT 754 757	SNC
+#13	AnnotatorNotes T16	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T17	DISO 803 813	enfermedad
+#14	AnnotatorNotes T17	C0012634; Disease; Disease or Syndrome
+T18	DISO 853 874	metástasis cerebrales
+#15	AnnotatorNotes T18	C0220650; Metastatic malignant neoplasm to brain; Neoplastic Process | C0555278; Cerebral metastasis; Neoplastic Process
+T19	DISO 932 953	enfermedad autoinmune
+#16	AnnotatorNotes T19	C0004364; Autoimmune Diseases; Disease or Syndrome
+T20	DISO 1004 1014	afecciones
+#17	AnnotatorNotes T20	C0221423; Illness (finding); Sign or Symptom
+T21	PROC 1029 1071	tratamiento sistémico con corticosteroides
+T22	CHEM 1055 1071	corticosteroides
+#18	AnnotatorNotes T22	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T23	CHEM 1097 1107	prednisona
+#19	AnnotatorNotes T23	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T24	CHEM 1117 1146	medicamentos inmunosupresores
+T25	DISO 1357 1396	Síndrome de Inmunodeficiencia Adquirida
+#20	AnnotatorNotes T25	C0001175; Acquired Immunodeficiency Syndrome; Disease or Syndrome
+T26	DISO 1398 1402	SIDA
+#21	AnnotatorNotes T26	C0001175; Acquired Immunodeficiency Syndrome; Disease or Syndrome
+T27	CHEM 1406 1425	Agentes citotóxicos
+#22	AnnotatorNotes T27	C0304497; Cytotoxic agent; Pharmacologic Substance
+T28	PROC 1502 1525	terapia anticancerígena
+T29	PROC 1548 1555	terapia
+#23	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	CHEM 123 133	BMS-986253
+#24	AnnotatorNotes T30	C4688407; BMS-986253; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T31	DISO 464 475	metastásico
+#25	AnnotatorNotes T31	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T32	DISO 765 783	metástasis del SNC
+T33	ANAT 780 783	SNC
+#26	AnnotatorNotes T33	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T34	ANAT 864 874	cerebrales
+#27	AnnotatorNotes T34	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T35	PROC 1186 1216	administración del tratamiento
+T36	PROC 1274 1281	pruebas
+#28	AnnotatorNotes T36	C1510438; Assay; Laboratory Procedure
+T37	DISO 1300 1336	Virus de la Inmunodeficiencia Humana
+T38	DISO 1338 1341	VIH
+#29	AnnotatorNotes T38	C0458074; Human immunodeficiency virus (HIV) status; Finding
+T39	Date 13 17	2018
+T40	LIVB 180 189	pacientes
+#30	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T42	Spec_cue 973 983	sospechada
+T43	Dose 1073 1080	> 10 mg
+T44	Duration 1157 1168	los 14 días
+T48	Duration 1458 1476	al menos 4 semanas
+T49	CONC 1486 1498	última dosis
+T41	LIVB 688 701	Participantes
+#31	AnnotatorNotes T41	C4554048; Study Participant; Population Group
+T50	LIVB 914 927	Participantes
+#32	AnnotatorNotes T50	C4554048; Study Participant; Population Group
+T51	LIVB 986 999	Participantes
+#33	AnnotatorNotes T51	C4554048; Study Participant; Population Group
+T52	LIVB 1231 1244	Participantes
+#34	AnnotatorNotes T52	C4554048; Study Participant; Population Group
+T53	LIVB 835 848	participantes
+#35	AnnotatorNotes T53	C4554048; Study Participant; Population Group
+T45	PROC 388 425	Confirmación histológica o citológica
+#36	AnnotatorNotes T45	C1305671; Cytology procedure; Laboratory Procedure + C0344441; Histology Procedure; Laboratory Procedure
+T46	PROC 898 908	reclutados
+#37	AnnotatorNotes T46	C0242800; Patient Recruitment; Research Activity
+A1	Assertion T19 Speculated
+A3	Status T19 History_of
+A4	Status T37 History_of
+A5	Status T38 History_of
+A6	Status T25 History_of
+A7	Status T26 History_of
+A8	Status T28 History_of
+#38	AnnotatorNotes T1	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+#39	AnnotatorNotes T32	C0686377; CNS metastases; Neoplastic Process
+#40	AnnotatorNotes T24	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+#41	AnnotatorNotes T37	C0458074; Human immunodeficiency virus (HIV) status; Finding
+#42	AnnotatorNotes T28	C0920425; cancer treatment; Therapeutic or Preventive Procedure 
+T47	Neg_cue 494 496	no
+T54	Quantifier_or_Qualifier 497 506	resecable
+A2	Assertion T54 Negated
+#43	AnnotatorNotes T54	C1514888; Resectable; Qualitative Concept
+R1	Used_for Arg1:T3 Arg2:T1	
+R2	Used_for Arg1:T30 Arg2:T1	
+R3	Combined_with Arg1:T30 Arg2:T4	
+R4	Combined_with Arg1:T3 Arg2:T4	
+R5	Experiences Arg1:T40 Arg2:T1	
+R6	Experiences Arg1:T40 Arg2:T3	
+R7	Experiences Arg1:T40 Arg2:T5	
+R8	Combined_with Arg1:T2 Arg2:T7	
+T55	Quantifier_or_Qualifier 203 212	avanzados
+#44	AnnotatorNotes T55	C0205179; Advancd phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T55	
+T56	Quantifier_or_Qualifier 309 318	avanzados
+#45	AnnotatorNotes T56	C0205179; Advancd phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T56	
+T57	Quantifier_or_Qualifier 351 360	avanzados
+#46	AnnotatorNotes T57	C0205179; Advancd phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T57	
+T58	Quantifier_or_Qualifier 454 462	avanzado
+#47	AnnotatorNotes T58	C0205179; Advancd phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T58	
+R13	Before Arg1:T10 Arg2:T31	
+R14	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T54	
+R15	Negation Arg1:T47 Arg2:T54	
+T59	Observation 477 487	recurrente
+#48	AnnotatorNotes T59	C0679254; Disease recurrence; Finding
+R16	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T59	
+T60	CONC 535 546	RECIST v1.1
+#49	AnnotatorNotes T60	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product)
+T61	Result_or_Value 608 613	0 a 1
+T62	Quantifier_or_Qualifier 550 560	Al menos 1
+R20	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T62	
+T63	CONC 654 658	ECOG
+#50	AnnotatorNotes T63	C1520224; ECOG performance status; Intellectual Product
+T64	CONC 618 652	Eastern Cooperative Oncology Group
+#51	AnnotatorNotes T64	C1520224; ECOG performance status; Intellectual Product
+R21	Has_Result_or_Value Arg1:T64 Arg2:T61	
+R22	Has_Result_or_Value Arg1:T63 Arg2:T61	
+R24	Location_of Arg1:T15 Arg2:T14	
+R25	Location_of Arg1:T16 Arg2:T14	
+R26	Location_of Arg1:T33 Arg2:T32	
+R27	Experiences Arg1:T41 Arg2:T14	
+R28	Experiences Arg1:T41 Arg2:T32	
+T65	Observation 795 813	foco de enfermedad
+#52	AnnotatorNotes T65	C0449422; Source of disease; Finding
+T66	Quantifier_or_Qualifier 789 794	único
+R29	Has_Quantifier_or_Qualifier Arg1:T65 Arg2:T66	
+R30	Experiences Arg1:T41 Arg2:T17	
+R31	Location_of Arg1:T33 Arg2:T65	
+R32	Location_of Arg1:T16 Arg2:T65	
+R33	Location_of Arg1:T15 Arg2:T65	
+R34	Location_of Arg1:T15 Arg2:T17	
+R35	Location_of Arg1:T16 Arg2:T17	
+R36	Location_of Arg1:T33 Arg2:T17	
+T67	Quantifier_or_Qualifier 814 820	activa
+#53	AnnotatorNotes T67	C0679217; Active State; Idea or Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T67	
+R38	Experiences Arg1:T53 Arg2:T18	
+R39	Location_of Arg1:T34 Arg2:T18	
+T68	Quantifier_or_Qualifier 875 886	controladas
+R40	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T68	
+T69	Observation 887 908	podrán ser reclutados
+#54	AnnotatorNotes T69	C1302261; Patient eligible for clinical trial; Finding (?)
+R42	Overlap Arg1:T18 Arg2:T69	
+R44	Speculation Arg1:T42 Arg2:T19	
+R45	Experiences Arg1:T50 Arg2:T19	
+T70	Quantifier_or_Qualifier 954 960	activa
+#55	AnnotatorNotes T70	C0679217; Active State; Idea or Concept
+R46	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T70	
+R47	Experiences Arg1:T51 Arg2:T20	
+R48	Experiences Arg1:T51 Arg2:T21	
+R49	Used_for Arg1:T22 Arg2:T21	
+R50	Has_Dose_or_Strength Arg1:T22 Arg2:T43	
+R51	Has_Dose_or_Strength Arg1:T23 Arg2:T43	
+T71	CONC 1081 1107	equivalentes de prednisona
+R52	Experiences Arg1:T51 Arg2:T24	
+R53	Overlap Arg1:T24 Arg2:T44	
+R54	Overlap Arg1:T22 Arg2:T44	
+R55	After Arg1:T24 Arg2:T35	
+R56	After Arg1:T21 Arg2:T35	
+R57	Experiences Arg1:T51 Arg2:T35	
+R58	Experiences Arg1:T52 Arg2:T36	
+T72	Result_or_Value 1282 1291	positivas
+#56	AnnotatorNotes T72	C1446409; Positive; Finding
+R59	Has_Result_or_Value Arg1:T36 Arg2:T72	
+R61	Experiences Arg1:T52 Arg2:T37	
+R62	Experiences Arg1:T52 Arg2:T38	
+R63	Experiences Arg1:T52 Arg2:T25	
+R64	Experiences Arg1:T52 Arg2:T26	
+R68	After Arg1:T27 Arg2:T48	
+R69	After Arg1:T27 Arg2:T49	
+R70	Has_Dose_or_Strength Arg1:T28 Arg2:T49	
+T73	CONC 1535 1555	inicio de la terapia
+R71	After Arg1:T27 Arg2:T73	
+#57	AnnotatorNotes T35	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+R17	Causes Arg1:T37 Arg2:T72	
+R18	Causes Arg1:T38 Arg2:T72	
+R19	Causes Arg1:T25 Arg2:T72	
+R23	Causes Arg1:T26 Arg2:T72	
+#58	AnnotatorNotes T66	C0205171; Singular; Quantitative Concept
+#59	AnnotatorNotes R70	(?)
+#60	AnnotatorNotes T49	C1762893; Date last dose; Temporal Concept
+#61	AnnotatorNotes T21	C4053960; Systemic Corticosteroid Therapy; Therapeutic or Preventive Procedure
+T74	Route 1041 1050	sistémico
+#62	AnnotatorNotes T74	C0205373; Systemic; Functional Concept
+R41	Has_Route_or_Mode Arg1:T22 Arg2:T74	
+#63	AnnotatorNotes T14	C0751620; Central Nervous System Neoplasms, Primary; Neoplastic Process
+A9	Experiencer T41 Patient
+A10	Experiencer T53 Patient
+A11	Experiencer T50 Patient
+A12	Experiencer T51 Patient
+A13	Experiencer T52 Patient
+A14	Assertion T48 Hypothetical
+A15	Experiencer T40 Patient

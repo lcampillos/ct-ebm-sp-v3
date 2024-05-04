@@ -1,0 +1,103 @@
+T1	PROC 46 91	Estudio de fase II con tres brazos de control
+T2	CHEM 93 106	Lurbinectedin
+#1	AnnotatorNotes T2	C3898565; lurbinectedin; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T3	CHEM 108 115	PM01183
+#2	AnnotatorNotes T3	C2830066; PM 01183; Organic Chemical · Pharmacologic Substance
+T4	CHEM 144 155	gemcitabina
+#3	AnnotatorNotes T4	C0045093; gemcitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T5	CHEM 158 167	docetaxel
+#4	AnnotatorNotes T5	C0246415; docetaxel; Organic Chemical · Pharmacologic Substance
+T6	PROC 179 207	tratamiento en segunda línea
+#5	AnnotatorNotes T6	C1710038; Second line treatment; Therapeutic or Preventive Procedure
+T7	DISO 211 242	cáncer de pulmón no microcítico
+#6	AnnotatorNotes T7	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T8	PROC 279 340	Estudio de fase II aleatorizado y controlado, con tres brazos
+T9	CHEM 357 364	PM01183
+#7	AnnotatorNotes T9	C2830066; PM 01183; Organic Chemical · Pharmacologic Substance
+T10	PROC 369 380	monoterapia
+#8	AnnotatorNotes T10	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T11	CHEM 402 413	gemcitabina
+#9	AnnotatorNotes T11	C0045093; gemcitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T12	CHEM 342 355	Lurbinectedin
+#10	AnnotatorNotes T12	C3898565; lurbinectedin; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T13	PROC 455 483	tratamiento en segunda línea
+#11	AnnotatorNotes T13	C1710038; Second line treatment; Therapeutic or Preventive Procedure
+T14	DISO 487 518	cáncer de pulmón no microcítico
+#12	AnnotatorNotes T14	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T15	DISO 520 524	CPNM
+#13	AnnotatorNotes T15	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T16	DISO 563 594	Cáncer de pulmón no microcítico
+#14	AnnotatorNotes T16	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T17	DISO 596 600	CPNM
+#15	AnnotatorNotes T17	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T18	ANAT 221 227	pulmón
+#16	AnnotatorNotes T18	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T19	ANAT 231 242	microcítico
+#17	AnnotatorNotes T19	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T20	CHEM 440 449	docetaxel
+#18	AnnotatorNotes T20	C0246415; docetaxel; Organic Chemical · Pharmacologic Substance
+T21	ANAT 497 503	pulmón
+#19	AnnotatorNotes T21	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T22	ANAT 507 518	microcítico
+#20	AnnotatorNotes T22	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T23	ANAT 573 579	pulmón
+#21	AnnotatorNotes T23	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T24	ANAT 583 594	microcítico
+#22	AnnotatorNotes T24	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T25	Date 13 17	2013
+T26	Neg_cue 228 230	no
+T28	Neg_cue 504 506	no
+T30	Neg_cue 580 582	no
+A1	Assertion T19 Negated
+A2	Assertion T22 Negated
+A3	Assertion T24 Negated
+T27	Neg_cue 526 528	no
+T29	Quantifier_or_Qualifier 529 538	resecable
+A4	Assertion T29 Negated
+#23	AnnotatorNotes T29	C1514888; Resectable; Qualitative Concept
+T31	Quantifier_or_Qualifier 605 614	resecable
+A5	Assertion T31 Negated
+#24	AnnotatorNotes T31	C1514888; Resectable; Qualitative Concept
+T32	Neg_cue 602 604	no
+T33	Quantifier_or_Qualifier 246 255	resecable
+A6	Assertion T33 Negated
+#25	AnnotatorNotes T33	C1514888; Resectable; Qualitative Concept
+T34	Neg_cue 243 245	no
+R1	Combined_with Arg1:T2 Arg2:T4	
+R2	Combined_with Arg1:T2 Arg2:T5	
+R3	Combined_with Arg1:T3 Arg2:T4	
+R4	Combined_with Arg1:T3 Arg2:T5	
+R5	Used_for Arg1:T2 Arg2:T6	
+R6	Used_for Arg1:T3 Arg2:T6	
+T35	Quantifier_or_Qualifier 117 121	solo
+R7	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T35	
+R8	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T35	
+R9	Negation Arg1:T26 Arg2:T19	
+R10	Location_of Arg1:T18 Arg2:T7	
+R11	Location_of Arg1:T19 Arg2:T7	
+R12	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T33	
+R13	Negation Arg1:T34 Arg2:T33	
+R14	Used_for Arg1:T12 Arg2:T10	
+R15	Used_for Arg1:T9 Arg2:T10	
+R16	Combined_with Arg1:T12 Arg2:T11	
+R17	Combined_with Arg1:T9 Arg2:T11	
+R18	Combined_with Arg1:T12 Arg2:T20	
+R19	Combined_with Arg1:T9 Arg2:T20	
+R20	Used_for Arg1:T12 Arg2:T13	
+R21	Used_for Arg1:T9 Arg2:T13	
+R22	Location_of Arg1:T21 Arg2:T14	
+R23	Location_of Arg1:T22 Arg2:T14	
+R24	Negation Arg1:T28 Arg2:T22	
+R25	Location_of Arg1:T22 Arg2:T15	
+R26	Location_of Arg1:T21 Arg2:T15	
+R27	Negation Arg1:T27 Arg2:T29	
+R28	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T29	
+R29	Negation Arg1:T32 Arg2:T31	
+R30	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T31	
+R31	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T31	
+R32	Negation Arg1:T30 Arg2:T24	
+R33	Location_of Arg1:T23 Arg2:T16	
+R34	Location_of Arg1:T23 Arg2:T17	
+R35	Location_of Arg1:T24 Arg2:T16	
+R36	Location_of Arg1:T24 Arg2:T17	
+#26	AnnotatorNotes T35	C0205171; Singular; Quantitative Concept

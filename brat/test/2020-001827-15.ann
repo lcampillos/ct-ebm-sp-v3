@@ -1,0 +1,200 @@
+T1	PROC 46 64	TRATAMIENTO PRECOZ
+T2	DISO 71 88	NEUMONÍA COVID-19
+T3	CHEM 93 109	GLUCOCORTICOIDES
+#1	AnnotatorNotes T3	C0017710; Glucocorticoids; Hormone · Organic Chemical
+T4	DISO 173 190	Neumonía CoVid-19
+T5	DISO 199 211	inflamatoria
+#2	AnnotatorNotes T5	C0021368; Inflammation; Pathologic Function
+T6	PROC 278 289	Diagnóstico
+#3	AnnotatorNotes T6	C0011900; Diagnosis; Diagnostic Procedure
+T7	DISO 293 316	neumonía por SARS-CoV-2
+T8	PROC 326 387	reacción en cadena de la polimerasa con transcriptasa inversa
+#4	AnnotatorNotes T8	C0599161; Reverse Transcriptase Polymerase Chain Reaction; Molecular Biology Research Technique
+T9	CHEM 366 387	transcriptasa inversa
+#5	AnnotatorNotes T9	C0035379; RNA-Directed DNA Polymerase; Amino Acid, Peptide, or Protein · Enzyme
+T10	ANAT 400 419	frotis nasofaríngeo
+T11	ANAT 422 428	esputo
+#6	AnnotatorNotes T11	C0038056; Sputum; Body Substance
+T12	DISO 510 518	síntomas
+#7	AnnotatorNotes T12	C1457887; Symptoms; Sign or Symptom
+T13	PROC 564 583	proteína C reactiva
+#8	AnnotatorNotes T13	C0201657; C-reactive protein measurement; Laboratory Procedure
+T14	PROC 828 832	SpO2
+#9	AnnotatorNotes T14	C0428179; Measurement of oxygen saturation at periphery; Laboratory Procedure
+T15	PROC 601 616	interleuquina 6
+#10	AnnotatorNotes T15	C0919829; Interleukin 6 Measurement; Laboratory Procedure
+T16	PROC 618 622	IL-6
+#11	AnnotatorNotes T16	C0919829; Interleukin 6 Measurement; Laboratory Procedure
+T17	PROC 675 699	consentimiento informado
+#12	AnnotatorNotes T17	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T18	DISO 730 737	Alergia
+#13	AnnotatorNotes T18	C1527304; Allergic Reaction; Pathologic Function
+T19	CHEM 763 786	medicamentos en estudio
+#14	AnnotatorNotes T19	C0013230; Investigational New Drugs; Pharmacologic Substance
+T20	DISO 800 826	insuficiencia respiratoria
+#15	AnnotatorNotes T20	C0035229; Respiratory Insufficiency; Pathologic Function | C1145670; Respiratory Failure; Disease or Syndrome
+T21	CHEM 929 945	glucocorticoides
+#16	AnnotatorNotes T21	C0017710; Glucocorticoids; Hormone · Organic Chemical
+T22	CHEM 948 964	inmunosupresores
+#17	AnnotatorNotes T22	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T23	DISO 1016 1047	Diabetes mellitus descompensada
+#18	AnnotatorNotes T23	C4324690; Decompensated diabetes; Disease or Syndrome
+T24	DISO 1053 1074	Hipertensión arterial
+#19	AnnotatorNotes T24	C0020538; Hypertensive disease; Disease or Syndrome
+T25	DISO 1093 1122	Trastorno psicótico o maníaco
+T26	PROC 892 901	PaO2/FiO2
+#20	AnnotatorNotes T26	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T27	DISO 1127 1133	Cáncer
+#21	AnnotatorNotes T27	C0006826; Malignant Neoplasms; Neoplastic Process
+T28	DISO 1231 1240	infección
+#22	AnnotatorNotes T28	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T29	PROC 858 862	PaO2
+#23	AnnotatorNotes T29	C0428168; Measurement of partial pressure of oxygen in blood; Laboratory Procedure
+T30	PROC 1328 1358	manejo conservador o paliativo
+T31	PROC 1385 1399	ensayo clínico
+#24	AnnotatorNotes T31	C0008976; Clinical Trials; Research Activity
+T32	DISO 1414 1456	problema médico, psicológico, psiquiátrico
+T33	PROC 1596 1607	seguimiento
+#25	AnnotatorNotes T33	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T34	PROC 1628 1637	protocolo
+#26	AnnotatorNotes T34	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T35	PROC 1640 1650	evaluación
+#27	AnnotatorNotes T35	C1261322; Evaluation procedure; Health Care Activity
+T36	PROC 111 149	ENSAYO CLÍNICO CONTROLADO ALEATORIZADO
+#28	AnnotatorNotes T36	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T37	CHEM 351 361	polimerasa
+#29	AnnotatorNotes T37	C1335439; Polymerase; Amino Acid, Peptide, or Protein · Enzyme
+T38	PROC 389 395	RT-PCR
+#30	AnnotatorNotes T38	C0599161; Reverse Transcriptase Polymerase Chain Reaction; Molecular Biology Research Technique
+T39	CHEM 564 574	proteína C
+#31	AnnotatorNotes T39	C0033621; protein C; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T40	PROC 585 588	PCR
+#32	AnnotatorNotes T40	C0201657; C-reactive protein measurement; Laboratory Procedure
+T41	PROC 636 645	ferritina
+#33	AnnotatorNotes T41	C0373607; Ferritin measurement; Laboratory Procedure
+T42	ANAT 1066 1074	arterial
+#34	AnnotatorNotes T42	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T43	PROC 1201 1215	procalcitonina
+#35	AnnotatorNotes T43	C1535922; Procalcitonin measurement; Laboratory Procedure
+T44	Date 13 17	2020
+T45	Age 266 274	≥18 años
+T46	LIVB 306 316	SARS-CoV-2
+#36	AnnotatorNotes T46	C5203676; SARS-CoV-2; Virus
+T47	Duration 519 527	≥ 7 días
+T52	PHYS 1145 1153	Embarazo
+#37	AnnotatorNotes T52	C0032961; Pregnancy; Organism Function
+T53	PHYS 1156 1165	lactancia
+#38	AnnotatorNotes T53	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T54	Spec_cue 1170 1178	Sospecha
+T55	LIVB 1260 1270	SARS-CoV-2
+#39	AnnotatorNotes T55	C5203676; SARS-CoV-2; Virus
+T56	LIVB 1275 1283	Paciente
+#40	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1316 1324	Paciente
+#41	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1544 1552	paciente
+#42	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T61	ANAT 814 826	respiratoria
+#43	AnnotatorNotes T61	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T48	Neg_cue 1248 1259	diferente a
+T49	PROC 1287 1311	manejo extrahospitalario
+#44	AnnotatorNotes T49	C0086751; Health Services, Outpatient; Health Care Activity
+T50	Neg_cue 1572 1574	no
+A1	Assertion T28 Speculated
+A2	Assertion T55 Negated
+A3	Assertion T33 Negated
+A4	Assertion T19 Contraindicated
+A5	Status T18 History_of
+#45	AnnotatorNotes T2	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#46	AnnotatorNotes T4	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#47	AnnotatorNotes T7	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome 
+#48	AnnotatorNotes T10	C0444192; Nasopharyngeal swab (specimen); Body Substance 
+T51	Neg_cue 1075 1077	no
+T58	Quantifier_or_Qualifier 1078 1088	controlada
+A6	Assertion T58 Negated
+T60	Quantifier_or_Qualifier 1494 1504	controlado
+A7	Assertion T60 Negated
+T62	Neg_cue 1491 1493	no
+T63	Observation 1526 1552	participación del paciente
+A8	Assertion T63 Contraindicated
+#49	AnnotatorNotes T63	C1278516; Patient participation status; Finding
+T64	Observation 1610 1650	adherencia con el protocolo y evaluación
+A9	Assertion T64 Negated
+R1	Negation Arg1:T62 Arg2:T60	
+R2	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T60	
+R3	Negation Arg1:T50 Arg2:T33	
+R4	Negation Arg1:T50 Arg2:T64	
+R7	Experiences Arg1:T59 Arg2:T32	
+R9	Before Arg1:T32 Arg2:T63	
+R10	Before Arg1:T32 Arg2:T33	
+R11	Before Arg1:T32 Arg2:T35	
+R5	Used_for Arg1:T3 Arg2:T1	
+T65	Quantifier_or_Qualifier 212 218	precoz
+#50	AnnotatorNotes T65	C1279930; Precocious; Temporal Concept
+T66	Quantifier_or_Qualifier 220 230	estadío II
+R12	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T66	
+R13	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T65	
+R14	Overlap Arg1:T4 Arg2:T5	
+R15	Causes Arg1:T46 Arg2:T7	
+R18	Location_of Arg1:T10 Arg2:T38	
+R19	Location_of Arg1:T11 Arg2:T38	
+R20	Location_of Arg1:T11 Arg2:T8	
+R21	Location_of Arg1:T10 Arg2:T8	
+R22	Before Arg1:T8 Arg2:T6	
+R23	Before Arg1:T38 Arg2:T6	
+R24	Has_Duration_or_Interval Arg1:T12 Arg2:T47	
+T67	Result_or_Value 590 598	>60 mg/L
+R25	Has_Result_or_Value Arg1:T13 Arg2:T67	
+R26	Has_Result_or_Value Arg1:T40 Arg2:T67	
+T68	Result_or_Value 624 633	>40 pg/mL
+R27	Has_Result_or_Value Arg1:T16 Arg2:T68	
+R28	Has_Result_or_Value Arg1:T15 Arg2:T68	
+T69	Result_or_Value 646 656	>1000 µg/L
+R29	Has_Result_or_Value Arg1:T41 Arg2:T69	
+R30	Causes Arg1:T19 Arg2:T18	
+R31	Location_of Arg1:T61 Arg2:T20	
+T70	Result_or_Value 833 837	<90%
+R32	Has_Result_or_Value Arg1:T14 Arg2:T70	
+T71	Quantifier_or_Qualifier 839 854	a aire ambiente
+R33	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T71	
+T72	Result_or_Value 863 871	<60 mmHg
+R34	Has_Result_or_Value Arg1:T29 Arg2:T72	
+T73	Quantifier_or_Qualifier 873 888	a aire ambiente
+R35	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T73	
+T74	Result_or_Value 902 910	<300 mmH
+R36	Has_Result_or_Value Arg1:T26 Arg2:T74	
+T75	Quantifier_or_Qualifier 980 990	biológicos
+#51	AnnotatorNotes T75	C0205460; biological; Qualitative Concept 
+R40	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T75	
+R41	Location_of Arg1:T42 Arg2:T24	
+R42	Negation Arg1:T51 Arg2:T58	
+R43	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T58	
+T76	Quantifier_or_Qualifier 1134 1140	activo
+#52	AnnotatorNotes T76	C0679217; Active State; Idea or Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T76	
+#53	AnnotatorNotes T25	C0024713; Manic Disorder; Mental or Behavioral Dysfunction | C0033975; Psychotic Disorders; Mental or Behavioral Dysfunction
+R45	Speculation Arg1:T54 Arg2:T28	
+R46	Negation Arg1:T48 Arg2:T55	
+T77	Result_or_Value 1216 1226	>0,5 ng/mL
+R47	Has_Result_or_Value Arg1:T43 Arg2:T77	
+T78	Quantifier_or_Qualifier 1241 1247	activa
+#54	AnnotatorNotes T78	C0679217; Active State; Idea or Concept
+R48	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T78	
+R50	Experiences Arg1:T56 Arg2:T49	
+R51	Experiences Arg1:T57 Arg2:T30	
+T79	Observation 1363 1399	Participación en otro ensayo clínico
+T80	Observation 1414 1422;1458 1477	problema geográfico o social
+R52	Has_Quantifier_or_Qualifier Arg1:T80 Arg2:T60	
+T81	Quantifier_or_Qualifier 1478 1488	importante
+#55	AnnotatorNotes T81	C3898777; Important; Qualitative Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T81	
+R54	Has_Quantifier_or_Qualifier Arg1:T80 Arg2:T81	
+R55	Before Arg1:T80 Arg2:T63	
+R56	Before Arg1:T80 Arg2:T33	
+R57	Before Arg1:T80 Arg2:T64	
+#56	AnnotatorNotes T1	C1964029; early/brief intervention/therapy (treatment); Therapeutic or Preventive Procedure (?) 
+#57	AnnotatorNotes T30	C0459914; Conservative Treatment; Therapeutic or Preventive Procedure | C0030231; Palliative Care; Therapeutic or Preventive Procedure
+#58	AnnotatorNotes T32	C5441915; Medical problem; Finding | C0849888; psychological disturbance; Mental or Behavioral Dysfunction | C1306597; Psychiatric problem; Mental or Behavioral Dysfunction 
+A10	Experiencer T56 Patient
+A11	Experiencer T57 Patient
+A12	Experiencer T59 Patient

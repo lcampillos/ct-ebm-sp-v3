@@ -1,0 +1,162 @@
+T1	PROC 46 78	Estudio para evaluar la eficacia
+T2	CHEM 110 148	Plasma Rico en Factores de Crecimiento
+T3	ANAT 156 173	superficie ocular
+#1	AnnotatorNotes T3	C4321570; Surface of eye; Body Location or Region
+T4	DISO 191 199	glaucoma
+#2	AnnotatorNotes T4	C0017601; Glaucoma; Disease or Syndrome
+T5	CHEM 230 251	fármacos hipotensores
+T6	ANAT 252 260	oculares
+#3	AnnotatorNotes T6	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T7	PROC 283 308	Evaluación de la eficacia
+#4	AnnotatorNotes T7	C1707887; Efficacy Study; Research Activity
+T8	CHEM 340 378	Plasma Rico en Factores de Crecimiento
+T9	ANAT 386 403	superficie ocular
+#5	AnnotatorNotes T9	C4321570; Surface of eye; Body Location or Region
+T10	DISO 417 430	glaucomatosos
+#6	AnnotatorNotes T10	C0017601; Glaucoma; Disease or Syndrome
+T11	CHEM 461 482	fármacos hipotensores
+T12	ANAT 483 491	oculares
+#7	AnnotatorNotes T12	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T13	DISO 515 523	Glaucoma
+#8	AnnotatorNotes T13	C0017601; Glaucoma; Disease or Syndrome
+T14	PROC 579 593	diagnosticados
+#9	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	DISO 597 605	glaucoma
+#10	AnnotatorNotes T15	C0017601; Glaucoma; Disease or Syndrome
+T16	PROC 627 638	tratamiento
+#11	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	CHEM 659 680	fármacos hipotensores
+T18	ANAT 681 689	oculares
+#12	AnnotatorNotes T18	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T19	CHEM 105 109	PRGF
+T20	CHEM 708 720	conservantes
+#13	AnnotatorNotes T20	C0033086; Pharmaceutical Preservatives; Biomedical or Dental Material
+T21	ANAT 856 873	superficie ocular
+#14	AnnotatorNotes T21	C4321570; Surface of eye; Body Location or Region
+T22	DISO 886 895	toxicidad
+#15	AnnotatorNotes T22	C0600688; Toxic effect; Injury or Poisoning
+T23	CHEM 335 339	PRGF
+T24	PROC 923 952	cirugías de superficie ocular
+T25	ANAT 935 952	superficie ocular
+#16	AnnotatorNotes T25	C4321570; Surface of eye; Body Location or Region
+T26	PROC 962 974	tratamientos
+#17	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	PROC 200 225	tratados de forma crónica
+T28	DISO 1094 1118	acontecimientos adversos
+#18	AnnotatorNotes T28	C0877248; Adverse event; Pathologic Function
+T29	PROC 431 456	tratados de forma crónica
+T30	PROC 774 788	consentimiento
+#19	AnnotatorNotes T30	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T31	DISO 843 873	Patología de superficie ocular
+T32	CHEM 900 921	fármacos hipotensores
+T33	CHEM 979 992	hemoderivados
+#20	AnnotatorNotes T33	C0456388; Blood product; Pharmacologic Substance | C1629497; Blood derivative; Pharmacologic Substance
+T34	Date 13 17	2019
+T35	LIVB 177 186	pacientes
+#21	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Duration 218 225	crónica
+#22	AnnotatorNotes T36	C0205191; chronic; Temporal Concept
+T37	LIVB 407 416	pacientes
+#23	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	Duration 449 456	crónica
+#24	AnnotatorNotes T38	C0205191; chronic; Temporal Concept
+T39	LIVB 550 576	Pacientes  mayores de edad
+#25	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T40	Age 561 576	mayores de edad
+T41	Dose 691 698	3 gotas
+T42	Frequency 698 702	/día
+T43	Neg_cue 704 707	sin
+T44	Duration 730 760	al menos, los dos últimos años
+T45	Route 993 1000	tópicos
+#26	AnnotatorNotes T45	C1522168; Topical Route of Drug Administration; Functional Concept
+T46	Duration 1004 1023	los últimos 6 meses
+T47	LIVB 1025 1047	mujeres en edad fértil
+#27	AnnotatorNotes T47	C4324275; Woman of childbearing potential; Population Group
+T48	Age 1036 1047	edad fértil
+T50	LIVB 1083 1092	lactantes
+#28	AnnotatorNotes T50	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T53	Form 693 698	gotas
+#29	AnnotatorNotes T53	C0015399; Eye Drops; Biomedical or Dental Material
+T54	LIVB 1071 1080	gestantes
+#30	AnnotatorNotes T54	C0033011; Pregnant Women; Population Group
+T51	Neg_cue 874 885	diferente a
+T49	PHYS 1058 1069	gestacional
+#31	AnnotatorNotes T49	C0032961; Pregnancy; Organism Function
+A1	Population_data T39 Age
+A2	Assertion T20 Negated
+A3	Assertion T22 Negated
+A4	Population_data T47 Age
+A5	Status T24 History_of
+#32	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity 
+#33	AnnotatorNotes T27	C0023977; Long-term care; Health Care Activity 
+#34	AnnotatorNotes T29	C0023977; Long-term care; Health Care Activity 
+#35	AnnotatorNotes T5	C0003364; Antihypertensive Agents; Pharmacologic Substance 
+#36	AnnotatorNotes T11	C0003364; Antihypertensive Agents; Pharmacologic Substance 
+#37	AnnotatorNotes T17	C0003364; Antihypertensive Agents; Pharmacologic Substance 
+#38	AnnotatorNotes T32	C0003364; Antihypertensive Agents; Pharmacologic Substance 
+R1	Has_Age Arg1:T39 Arg2:T40	
+R2	Experiences Arg1:T39 Arg2:T15	
+R3	Experiences Arg1:T39 Arg2:T16	
+T52	Quantifier_or_Qualifier 644 658	mínimo con dos
+R4	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T52	
+R5	Location_of Arg1:T18 Arg2:T16	
+R6	Used_for Arg1:T17 Arg2:T16	
+R7	Location_of Arg1:T18 Arg2:T15	
+R8	Has_Drug_Form Arg1:T17 Arg2:T53	
+R9	Has_Dose_or_Strength Arg1:T17 Arg2:T41	
+R10	Has_Frequency Arg1:T17 Arg2:T42	
+R11	Negation Arg1:T43 Arg2:T20	
+R12	Experiences Arg1:T39 Arg2:T20	
+R13	Has_Duration_or_Interval Arg1:T17 Arg2:T44	
+T55	Observation 791 815	participar en el estudio
+#39	AnnotatorNotes T55	C1278516; Patient participation status; Finding
+R14	Before Arg1:T30 Arg2:T55	
+R16	Location_of Arg1:T21 Arg2:T31	
+R17	Negation Arg1:T51 Arg2:T22	
+R18	Causes Arg1:T32 Arg2:T22	
+R19	Location_of Arg1:T25 Arg2:T24	
+R20	Used_for Arg1:T33 Arg2:T26	
+R21	Has_Route_or_Mode Arg1:T33 Arg2:T45	
+R22	Overlap Arg1:T33 Arg2:T46	
+R23	Has_Age Arg1:T47 Arg2:T48	
+T56	Observation 1052 1069	deseo gestacional
+#40	AnnotatorNotes T56	C0032992; Pregnancy, Planned; Finding
+R24	Before Arg1:T56 Arg2:T49	
+R25	Experiences Arg1:T47 Arg2:T56	
+R26	Experiences Arg1:T54 Arg2:T49	
+T57	Quantifier_or_Qualifier 1119 1125	graves
+#41	AnnotatorNotes T57	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R27	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T57	
+T58	PROC 1137 1144	estudio
+#42	AnnotatorNotes T58	C0008976; Clinical Trials; Research Activity
+R28	Overlap Arg1:T28 Arg2:T58	
+R29	Location_of Arg1:T6 Arg2:T27	
+R30	Location_of Arg1:T3 Arg2:T2	
+R31	Location_of Arg1:T3 Arg2:T19	
+R32	Location_of Arg1:T9 Arg2:T8	
+R33	Location_of Arg1:T9 Arg2:T23	
+R34	Experiences Arg1:T35 Arg2:T19	
+R35	Experiences Arg1:T35 Arg2:T2	
+R36	Experiences Arg1:T35 Arg2:T4	
+R37	Experiences Arg1:T35 Arg2:T27	
+R38	Has_Duration_or_Interval Arg1:T5 Arg2:T36	
+R39	Used_for Arg1:T5 Arg2:T27	
+R40	Location_of Arg1:T12 Arg2:T29	
+R41	Used_for Arg1:T11 Arg2:T29	
+R42	Experiences Arg1:T37 Arg2:T10	
+R43	Experiences Arg1:T37 Arg2:T29	
+R44	Experiences Arg1:T37 Arg2:T23	
+R45	Experiences Arg1:T37 Arg2:T8	
+R46	Location_of Arg1:T12 Arg2:T10	
+R47	Location_of Arg1:T6 Arg2:T4	
+R48	Has_Duration_or_Interval Arg1:T11 Arg2:T38	
+R15	Before Arg1:T16 Arg2:T55	
+R49	Overlap Arg1:T31 Arg2:T22	
+#43	AnnotatorNotes T31	C1557335; Ocular surface disease; Disease or Syndrome
+A6	Experiencer T50 Patient
+A7	Experiencer T54 Patient
+A8	Experiencer T47 Patient
+A9	Experiencer T35 Patient
+A10	Experiencer T37 Patient
+A11	Experiencer T39 Patient
+A12	Status T49 Future

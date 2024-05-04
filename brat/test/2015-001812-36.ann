@@ -1,0 +1,160 @@
+T1	PROC 46 66	Estudio de extensión
+T2	PROC 75 86	seguimiento
+#1	AnnotatorNotes T2	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T3	DISO 108 147	degeneración macular asociada a la edad
+#2	AnnotatorNotes T3	C0242383; Age related macular degeneration; Disease or Syndrome
+T4	PROC 174 289	ensayo clínico de fase IV-II distribuido al azar, enmascarado con tratamiento fingido sobre la eficacia y seguridad
+T5	PROC 1000 1007	tratado
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	CHEM 308 319	medicamento
+#4	AnnotatorNotes T6	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T7	CHEM 321 331	etamsilato
+#5	AnnotatorNotes T7	C0014968; ethamsylate; Organic Chemical · Pharmacologic Substance
+T8	PROC 345 363	pinchazo en el ojo
+T9	PROC 376 390	ensayo clínico
+#6	AnnotatorNotes T9	C0008976; Clinical Trials; Research Activity
+T10	PROC 434 454	Estudio de extensión
+T11	PROC 463 474	seguimiento
+#7	AnnotatorNotes T11	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T12	DISO 496 535	degeneración macular asociada a la edad
+#8	AnnotatorNotes T12	C0242383; Age related macular degeneration; Disease or Syndrome
+T13	CHEM 672 682	etamsilato
+#9	AnnotatorNotes T13	C0014968; ethamsylate; Organic Chemical · Pharmacologic Substance
+T14	DISO 747 786	Degeneración macular asociada a la edad
+#10	AnnotatorNotes T14	C0242383; Age related macular degeneration; Disease or Syndrome
+T15	DISO 813 852	Degeneración macular asociada a la edad
+#11	AnnotatorNotes T15	C0242383; Age related macular degeneration; Disease or Syndrome
+T16	DISO 854 858	DMAE
+#12	AnnotatorNotes T16	C0242383; Age related macular degeneration; Disease or Syndrome
+T17	PROC 929 940	tratamiento
+#13	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	ANAT 996 999	ojo
+#14	AnnotatorNotes T18	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T19	PROC 1015 1029	ensayo clínico
+#15	AnnotatorNotes T19	C0008976; Clinical Trials; Research Activity
+T20	PROC 1196 1220	Consentimiento Informado
+#16	AnnotatorNotes T20	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T21	PROC 1156 1165	protocolo
+#17	AnnotatorNotes T21	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T22	DISO 1264 1290	enfermedades concomitantes
+#18	AnnotatorNotes T22	C0243087; concomitant disease; Pathologic Function
+T23	DISO 1345 1355	enfermedad
+#19	AnnotatorNotes T23	C0012634; Disease; Disease or Syndrome
+T24	PROC 1370 1382	tratamientos
+#20	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	DISO 1431 1435	DMAE
+#21	AnnotatorNotes T25	C0242383; Age related macular degeneration; Disease or Syndrome
+T26	DISO 1442 1459	diabetes mellitus
+#22	AnnotatorNotes T26	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T27	ANAT 1475 1481	ocular
+#23	AnnotatorNotes T27	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T28	DISO 1483 1502	infección sistémica
+#24	AnnotatorNotes T28	C0243026; Sepsis; Disease or Syndrome
+T29	DISO 1532 1548	infección ocular
+T30	DISO 1550 1574	trastornos psiquiátricos
+#25	AnnotatorNotes T30	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+T31	ANAT 360 363	ojo
+#26	AnnotatorNotes T31	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T32	PROC 562 668	ensayo clínico aleatorizado de fase IV-II controlado con tratamiento fingido sobre la eficacia y seguridad
+T33	PROC 1054 1102	administración del tratamiento doble enmascarado
+T34	DISO 1464 1481	afectación ocular
+T35	ANAT 1542 1548	ocular
+#27	AnnotatorNotes T35	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T36	Date 13 17	2015
+T37	LIVB 94 103	pacientes
+#28	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 482 491	pacientes
+#29	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Route 683 694	intravítreo
+T40	LIVB 888 897	Pacientes
+#30	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	DEVI 973 987	optotipo ETDRS
+#31	AnnotatorNotes T41	C1275992; ETDRS visual acuity chart; Medical Device
+T42	Date 1033 1045	la semana 16
+T43	LIVB 1106 1115	Pacientes
+#32	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 1250 1259	Pacientes
+#33	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 1309 1321	investigador
+#34	AnnotatorNotes T46	C0035173; Research Personnel; Professional or Occupational Group
+T49	LIVB 1671 1716	Mujeres embarazadas o en periodo de lactancia
+#35	AnnotatorNotes T49	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T44	PHYS 1679 1690	embarazadas
+#36	AnnotatorNotes T44	C0032961; Pregnancy; Organism Function
+T47	PHYS 1707 1716	lactancia
+#37	AnnotatorNotes T47	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T48	Date 1503 1511	en curso
+#38	AnnotatorNotes T39	C1517572; Intravitreal Route of Drug Administration; Functional Concept
+#39	AnnotatorNotes T33	C0013072; Double-Blind Method; Research Activity
+#40	AnnotatorNotes T29	C0015403; Eye Infection; Disease or Syndrome 
+T50	Spec_cue 1322 1328	puedan
+T51	CONC 1329 1336	influir
+A1	Assertion T51 Speculated
+#41	AnnotatorNotes T51	C0521102; Interferes with; Functional Concept
+T52	Spec_cue 1601 1607	puedan
+T53	CONC 1608 1615	afectar
+A2	Assertion T53 Speculated
+#42	AnnotatorNotes T53	C0521102; Interferes with; Functional Concept
+R1	Speculation Arg1:T50 Arg2:T51	
+R2	Speculation Arg1:T52 Arg2:T53	
+R3	Experiences Arg1:T37 Arg2:T3	
+R4	Experiences Arg1:T37 Arg2:T6	
+R5	Experiences Arg1:T37 Arg2:T7	
+R6	Location_of Arg1:T31 Arg2:T8	
+R7	Used_for Arg1:T6 Arg2:T8	
+R8	Used_for Arg1:T7 Arg2:T8	
+R9	Experiences Arg1:T37 Arg2:T8	
+R10	Experiences Arg1:T38 Arg2:T12	
+R11	Experiences Arg1:T38 Arg2:T13	
+R12	Has_Route_or_Mode Arg1:T13 Arg2:T39	
+T54	Observation 916 940	respuesta al tratamiento
+#43	AnnotatorNotes T54	C1319171; Medication response; Finding
+R14	Experiences Arg1:T40 Arg2:T17	
+R15	Experiences Arg1:T40 Arg2:T41	
+R16	Experiences Arg1:T40 Arg2:T5	
+R17	Location_of Arg1:T18 Arg2:T5	
+R18	Location_of Arg1:T18 Arg2:T17	
+R19	Overlap Arg1:T5 Arg2:T42	
+R20	Overlap Arg1:T54 Arg2:T42	
+R21	After Arg1:T54 Arg2:T33	
+R22	Experiences Arg1:T40 Arg2:T33	
+R23	Overlap Arg1:T17 Arg2:T54	
+T55	Observation 1120 1165	capacidad y voluntad para seguir el protocolo
+R25	Before Arg1:T20 Arg2:T21	
+R26	Experiences Arg1:T45 Arg2:T22	
+R27	Experiences Arg1:T45 Arg2:T23	
+R30	Experiences Arg1:T45 Arg2:T24	
+R31	Overlap Arg1:T22 Arg2:T25	
+R32	Overlap Arg1:T23 Arg2:T25	
+R33	Overlap Arg1:T25 Arg2:T26	
+R34	Location_of Arg1:T27 Arg2:T34	
+R35	Experiences Arg1:T45 Arg2:T25	
+R36	Experiences Arg1:T45 Arg2:T26	
+R37	Experiences Arg1:T45 Arg2:T34	
+R38	Experiences Arg1:T45 Arg2:T28	
+R39	Experiences Arg1:T45 Arg2:T29	
+R40	Experiences Arg1:T45 Arg2:T30	
+R41	Experiences Arg1:T49 Arg2:T44	
+R42	Experiences Arg1:T49 Arg2:T47	
+R43	Location_of Arg1:T35 Arg2:T29	
+R44	Overlap Arg1:T25 Arg2:T34	
+R45	Overlap Arg1:T25 Arg2:T28	
+R46	Overlap Arg1:T28 Arg2:T48	
+R47	Overlap Arg1:T25 Arg2:T29	
+R48	Overlap Arg1:T25 Arg2:T30	
+T56	Quantifier_or_Qualifier 1514 1520	activa
+#44	AnnotatorNotes T56	C0679217; Active State; Idea or Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T56	
+T57	Observation 1576 1631	situaciones sociales que puedan afectar al cumplimiento
+R50	Before Arg1:T57 Arg2:T53	
+#45	AnnotatorNotes T34	C0262477; Eye problem; Finding (?)
+R13	Overlap Arg1:T25 Arg2:T57	
+#46	AnnotatorNotes T48	C0521116; Current (present time); Temporal Concept
+#47	AnnotatorNotes T8	C2069457; Intravitreal injection of pharmacologic agent; Therapeutic or Preventive Procedure (?)
+A3	Experiencer T40 Patient
+A4	Experiencer T37 Patient
+A5	Experiencer T38 Patient
+A6	Experiencer T43 Patient
+A7	Experiencer T45 Patient
+A8	Experiencer T46 Other
+A9	Experiencer T49 Patient

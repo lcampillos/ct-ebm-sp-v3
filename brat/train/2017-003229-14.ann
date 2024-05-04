@@ -1,0 +1,148 @@
+T1	PROC 45 98	ESTUDIO DE INDUCCIÓN SOBRE LA EFICACIA Y LA SEGURIDAD
+T2	DISO 117 133	COLITIS ULCEROSA
+#1	AnnotatorNotes T2	C0009324; Ulcerative Colitis; Disease or Syndrome
+T3	PROC 154 274	Estudio de inducción en fase III, multicéntrico, aleatorizado, doble ciego, de grupos paralelos y controlado con placebo
+T4	DISO 911 923	intolerancia
+#2	AnnotatorNotes T4	C0277585; Intolerance to drug; Pathologic Function
+T5	DISO 347 363	colitis ulcerosa
+#3	AnnotatorNotes T5	C0009324; Ulcerative Colitis; Disease or Syndrome
+T6	DISO 412 428	Colitis Ulcerosa
+#4	AnnotatorNotes T6	C0009324; Ulcerative Colitis; Disease or Syndrome
+T7	PROC 631 642	Diagnóstico
+#5	AnnotatorNotes T7	C0011900; Diagnosis; Diagnostic Procedure
+T8	DISO 646 648	CU
+#6	AnnotatorNotes T8	C0009324; Ulcerative Colitis; Disease or Syndrome
+T9	PROC 700 711	Diagnóstico
+#7	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	CHEM 1472 1484	risankizumab
+#8	AnnotatorNotes T10	C4505511; risankizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	DISO 726 728	CU
+#9	AnnotatorNotes T11	C0009324; Ulcerative Colitis; Disease or Syndrome
+T12	PROC 766 776	evaluación
+#10	AnnotatorNotes T12	C1261322; Evaluation procedure; Health Care Activity
+T13	PROC 927 963	tratamiento convencional o biológico
+T14	DISO 972 974	CU
+#11	AnnotatorNotes T14	C0009324; Ulcerative Colitis; Disease or Syndrome
+T15	PROC 1023 1046	métodos anticonceptivos
+#12	AnnotatorNotes T15	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T16	PROC 1149 1160	diagnóstico
+#13	AnnotatorNotes T16	C0011900; Diagnosis; Diagnostic Procedure
+T17	DISO 1171 1190	enfermedad de Crohn
+#14	AnnotatorNotes T17	C0010346; Crohn Disease; Disease or Syndrome
+T18	DISO 1193 1242	enfermedad inflamatoria intestinal no clasificada
+#15	AnnotatorNotes T18	C4268603; Colonic inflammatory bowel disease unclassified; Disease or Syndrome
+T19	DISO 1244 1265	colitis indeterminada
+#16	AnnotatorNotes T19	C0941062; Unspecified colitis; Disease or Syndrome
+T20	PROC 1285 1295	colectomía
+#17	AnnotatorNotes T20	C0009274; Colectomy; Therapeutic or Preventive Procedure
+T21	DISO 1342 1358	megacolon tóxico
+#18	AnnotatorNotes T21	C0025162; Megacolon, Toxic; Disease or Syndrome
+T22	CHEM 1388 1412	anticuerpos anti-IL12p40
+T23	CHEM 1422 1433	ustekinumab
+#19	AnnotatorNotes T23	C1608841; ustekinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T24	CHEM 1437 1462	anticuerpos anti-IL-23p19
+T25	CHEM 1486 1496	brazikumab
+T26	CHEM 1498 1508	guselkumab
+#20	AnnotatorNotes T26	C3852217; guselkumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T27	CHEM 1511 1524	tildrakizumab
+#21	AnnotatorNotes T27	C4043954; tildrakizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T28	ANAT 1217 1227	intestinal
+#22	AnnotatorNotes T28	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T29	CHEM 102 113	MIRIKIZUMAB
+#23	AnnotatorNotes T29	C5139904; Mirikizumab; Immunologic Factor; Amino Acid, Peptide, or Protein; Pharmacologic Substance
+T30	CHEM 281 292	mirikizumab
+#24	AnnotatorNotes T30	C5139904; mirikizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T31	Date 13 17	2017
+T32	LIVB 296 305	pacientes
+#25	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 516 533	Pacientes hombres
+#26	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group
+T35	LIVB 536 543	mujeres
+#27	AnnotatorNotes T35	C0043210; Woman; Population Group
+T36	Age 569 589	entre ≥18 y ≤80 años
+T37	Duration 657 677	al menos los 3 meses
+T40	LIVB 985 990	mujer
+#28	AnnotatorNotes T40	C0043210; Woman; Population Group
+T41	LIVB 1135 1144	Pacientes
+#29	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Date 1161 1167	actual
+T44	LIVB 1271 1280	Pacientes
+#30	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	LIVB 1307 1316	Pacientes
+#31	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T46	Spec_cue 1321 1329	indicios
+T47	Date 1330 1338	actuales
+A1	Assertion T21 Speculated
+A2	Status T20 History_of
+A3	Status T22 History_of
+A4	Status T23 History_of
+A5	Status T24 History_of
+A6	Status T10 History_of
+A7	Status T25 History_of
+A8	Status T26 History_of
+A9	Status T27 History_of
+#32	AnnotatorNotes T25	C5238125; Brazikumab; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+#33	AnnotatorNotes T42	C0521116; Current (present time); Temporal Concept 
+#34	AnnotatorNotes T47	C0521116; Current (present time); Temporal Concept 
+T34	Quantifier_or_Qualifier 1231 1242	clasificada
+A10	Assertion T34 Negated
+#35	AnnotatorNotes T34	C0008902; Classification; Classification
+T38	Neg_cue 1228 1230	no
+T39	Observation 887 907	pérdida de respuesta
+#36	AnnotatorNotes T39	C5400193; Loss of therapeutic response; Finding
+T43	Observation 865 885	respuesta inadecuada
+R1	Experiences Arg1:T32 Arg2:T30	
+T48	Quantifier_or_Qualifier 364 370	activa
+#37	AnnotatorNotes T48	C0679217; Active State; Idea or Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T48	
+T49	Quantifier_or_Qualifier 729 735	activa
+#38	AnnotatorNotes T49	C0679217; Active State; Idea or Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T49	
+T50	Quantifier_or_Qualifier 374 390	moderada a grave
+#39	AnnotatorNotes T50	C1299393; Moderate to severe; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T50	
+T51	Quantifier_or_Qualifier 739 755	moderada a grave
+#40	AnnotatorNotes T51	C1299393; Moderate to severe; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T51	
+R6	Experiences Arg1:T32 Arg2:T5	
+R7	Has_Age Arg1:T35 Arg2:T36	
+R8	Has_Age Arg1:T33 Arg2:T36	
+T52	PROC 610 619	selección
+#41	AnnotatorNotes T52	C0242802; Patient Selection; Research Activity
+R9	Overlap Arg1:T52 Arg2:T36	
+R10	Has_Duration_or_Interval Arg1:T8 Arg2:T37	
+T53	CONC 689 695	inicio
+#42	AnnotatorNotes T53	C0439659; Beginning; Temporal Concept
+R11	Before Arg1:T8 Arg2:T53	
+R12	Before Arg1:T7 Arg2:T53	
+T54	CONC 783 812	puntuación de Mayo modificada
+R13	Used_for Arg1:T54 Arg2:T12	
+R14	Before Arg1:T12 Arg2:T9	
+R15	Causes Arg1:T13 Arg2:T4	
+R16	Overlap Arg1:T39 Arg2:T13	
+R17	Overlap Arg1:T43 Arg2:T13	
+R18	Experiences Arg1:T40 Arg2:T15	
+T55	Observation 310 342	fracaso convencional y biológico
+R19	Experiences Arg1:T32 Arg2:T55	
+R20	Before Arg1:T55 Arg2:T30	
+R21	Before Arg1:T5 Arg2:T55	
+R23	Experiences Arg1:T41 Arg2:T17	
+R24	Overlap Arg1:T16 Arg2:T42	
+R25	Experiences Arg1:T41 Arg2:T18	
+R26	Negation Arg1:T38 Arg2:T34	
+R27	Location_of Arg1:T28 Arg2:T18	
+R28	Experiences Arg1:T41 Arg2:T19	
+R29	Experiences Arg1:T44 Arg2:T20	
+R30	Speculation Arg1:T46 Arg2:T21	
+R31	Overlap Arg1:T21 Arg2:T47	
+R32	Experiences Arg1:T45 Arg2:T21	
+#43	AnnotatorNotes T43	C0858218; Inappropriate drug response; Finding
+#44	AnnotatorNotes T13	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure + C1531518; Biological treatment; Therapeutic or Preventive Procedure
+A11	Experiencer T32 Patient
+A12	Experiencer T33 Patient
+A13	Experiencer T35 Patient
+A14	Experiencer T40 Patient
+A15	Assertion T40 Hypothetical
+A16	Experiencer T41 Patient
+A17	Experiencer T44 Patient
+A18	Experiencer T45 Patient

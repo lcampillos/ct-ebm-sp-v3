@@ -1,0 +1,205 @@
+T1	DISO 14 22	sangrado
+#1	AnnotatorNotes T1	C0019080; Hemorrhage; Pathologic Function
+T2	PROC 49 86	resección transuretral de la próstata
+#2	AnnotatorNotes T2	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T3	PROC 102 113	tratamiento
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	CHEM 163 174	dutasteride
+#4	AnnotatorNotes T4	C0754659; dutasteride; Organic Chemical · Pharmacologic Substance
+T5	DISO 181 189	sangrado
+#5	AnnotatorNotes T5	C0019080; Hemorrhage; Pathologic Function
+T6	PROC 216 253	resección transuretral de la próstata
+#6	AnnotatorNotes T6	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T7	CHEM 352 363	finasteride
+#7	AnnotatorNotes T7	C0060389; finasteride; Organic Chemical · Pharmacologic Substance · Hormone
+T8	CHEM 366 377	dutasteride
+#8	AnnotatorNotes T8	C0754659; dutasteride; Organic Chemical · Pharmacologic Substance
+T9	ANAT 411 421	prostático
+#9	AnnotatorNotes T9	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T10	CHEM 563 574	dutasteride
+#10	AnnotatorNotes T10	C0754659; dutasteride; Organic Chemical · Pharmacologic Substance
+T11	PROC 665 676	tratamiento
+#11	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	PROC 853 859	cegado
+#12	AnnotatorNotes T12	C0150108; Blinded; Research Activity
+T13	PROC 702 724	valores de hemoglobina
+#13	AnnotatorNotes T13	C0518015; Hemoglobin measurement; Laboratory Procedure
+T14	PROC 767 772	RTU-P
+#14	AnnotatorNotes T14	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T15	DISO 1042 1077	sintomatología obstructiva urinaria
+T16	ANAT 1069 1077	urinaria
+#15	AnnotatorNotes T16	C1508753; Urinary system; Body System
+T17	PROC 1164 1166	Hb
+#16	AnnotatorNotes T17	C0518015; Hemoglobin measurement; Laboratory Procedure
+T18	PROC 1100 1105	RTU-P
+#17	AnnotatorNotes T18	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T19	PROC 1204 1209	RTU-P
+#18	AnnotatorNotes T19	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T20	CHEM 1393 1404	dutasteride
+#19	AnnotatorNotes T20	C0754659; dutasteride; Organic Chemical · Pharmacologic Substance
+T21	PROC 1482 1505	estudio no aleatorizado
+#20	AnnotatorNotes T21	C2985410; Controlled Clinical Trials, Non-Randomized; Research Activity
+T22	ANAT 78 86	próstata
+#21	AnnotatorNotes T22	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T23	CHEM 118 129	dutasteride
+#22	AnnotatorNotes T23	C0754659; dutasteride; Organic Chemical · Pharmacologic Substance
+T24	ANAT 245 253	próstata
+#23	AnnotatorNotes T24	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T25	CHEM 713 724	hemoglobina
+#24	AnnotatorNotes T25	C0019046; Hemoglobin; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T26	ANAT 787 793	tejido
+#25	AnnotatorNotes T26	C0040300; Body tissue; Tissue | C1284837; Entire body tissue; Tissue
+T27	PROC 794 802	resecado
+#26	AnnotatorNotes T27	C0728940; Excision; Therapeutic or Preventive Procedure
+T28	PROC 255 260	RTU-P
+#27	AnnotatorNotes T28	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T29	PROC 379 389	creatinina
+#28	AnnotatorNotes T29	C0201975; Creatinine measurement; Laboratory Procedure
+T30	PROC 403 421	volumen prostático
+#29	AnnotatorNotes T30	C1112586; Prostate volume study; Diagnostic Procedure
+T31	PROC 613 618	RTU-P
+#30	AnnotatorNotes T31	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T32	Date 23 37	perioperatorio
+#31	AnnotatorNotes T32	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T33	Duration 92 98	un mes
+T34	Date 190 204	perioperatorio
+#32	AnnotatorNotes T34	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T35	LIVB 299 308	pacientes
+#33	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 331 340	pacientes
+#34	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T40	Age 434 437	<50
+T41	Neg_cue 445 454	excluidos
+T42	LIVB 460 469	pacientes
+#35	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 518 527	pacientes
+#36	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Dose 575 580	0,5mg
+T45	Frequency 580 584	/día
+T46	Duration 593 600	30 días
+T47	LIVB 638 647	pacientes
+#37	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Neg_cue 661 664	sin
+T49	LIVB 837 845	cirujano
+#38	AnnotatorNotes T49	C0582175; Surgeon; Professional or Occupational Group
+A1	Assertion T40 Negated
+A2	Assertion T36 Negated
+A3	Assertion T11 Negated
+A4	Assertion T7 Negated
+A5	Assertion T8 Negated
+R1	Negation Arg1:T48 Arg2:T11	
+T37	CONC 926 947	prueba no paramétrica
+#39	AnnotatorNotes T37	C1709255; Non-Parametric Test; Intellectual Product
+T38	Neg_cue 1405 1407	no
+T39	CONC 1416 1423	impacto
+A6	Assertion T39 Negated
+R2	Negation Arg1:T38 Arg2:T39	
+T50	Quantifier_or_Qualifier 1424 1437	significativo
+A7	Assertion T50 Negated
+R3	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T50	
+R4	Negation Arg1:T38 Arg2:T50	
+T51	Neg_cue 1490 1492	no
+T52	Quantifier_or_Qualifier 1493 1505	aleatorizado
+A8	Assertion T52 Negated
+R5	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T52	
+R6	Negation Arg1:T51 Arg2:T52	
+T53	Neg_cue 1265 1267	No
+T54	CONC 1273 1284	diferencias
+A9	Assertion T54 Negated
+#40	AnnotatorNotes T54	C1705241; Delta (difference); Quantitative Concept
+R7	Negation Arg1:T53 Arg2:T54	
+T55	Quantifier_or_Qualifier 677 686	adicional
+A10	Assertion T55 Negated
+R8	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T55	
+#41	AnnotatorNotes T39	C0521102; Interferes with; Functional Concept
+#42	AnnotatorNotes T50	C0750502; Significant; Idea or Concept
+T56	Observation 1 7	Efecto
+#43	AnnotatorNotes T56	C1518681; Outcome of Therapy; Finding (?)
+R9	Used_for Arg1:T23 Arg2:T3	
+R11	After Arg1:T56 Arg2:T33	
+R12	Causes Arg1:T3 Arg2:T56	
+R13	Location_of Arg1:T22 Arg2:T2	
+R14	Overlap Arg1:T1 Arg2:T32	
+R15	Causes Arg1:T2 Arg2:T1	
+T57	Observation 152 158	efecto
+#44	AnnotatorNotes T57	C1518681; Outcome of Therapy; Finding (?)
+R16	Causes Arg1:T4 Arg2:T57	
+R17	Overlap Arg1:T5 Arg2:T34	
+R18	Location_of Arg1:T24 Arg2:T6	
+R19	Location_of Arg1:T24 Arg2:T28	
+R20	Causes Arg1:T6 Arg2:T5	
+R21	Experiences Arg1:T36 Arg2:T7	
+R22	Experiences Arg1:T36 Arg2:T8	
+R23	Negation Arg1:T41 Arg2:T7	
+R24	Negation Arg1:T41 Arg2:T8	
+R25	Negation Arg1:T41 Arg2:T36	
+R26	Location_of Arg1:T9 Arg2:T30	
+R27	Has_Age Arg1:T36 Arg2:T40	
+R28	Negation Arg1:T41 Arg2:T40	
+T58	Result_or_Value 390 397	>2mg/ml
+A11	Assertion T58 Negated
+R29	Has_Result_or_Value Arg1:T29 Arg2:T58	
+R30	Negation Arg1:T41 Arg2:T58	
+T59	Result_or_Value 422 427	<30cc
+A12	Assertion T59 Negated
+R31	Has_Result_or_Value Arg1:T30 Arg2:T59	
+R32	Negation Arg1:T41 Arg2:T59	
+R33	Experiences Arg1:T36 Arg2:T29	
+R34	Experiences Arg1:T36 Arg2:T30	
+T60	Quantifier_or_Qualifier 528 540	consecutivos
+#45	AnnotatorNotes T60	C1707491; Consecutive; Qualitative Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T60	
+R36	Experiences Arg1:T43 Arg2:T10	
+R37	Before Arg1:T10 Arg2:T31	
+R38	Experiences Arg1:T43 Arg2:T31	
+R39	Has_Dose_or_Strength Arg1:T10 Arg2:T44	
+R40	Has_Frequency Arg1:T10 Arg2:T45	
+R41	Has_Duration_or_Interval Arg1:T10 Arg2:T46	
+T61	Quantifier_or_Qualifier 648 660	consecutivos
+#46	AnnotatorNotes T61	C1707491; Consecutive; Qualitative Concept
+R42	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T61	
+R43	Experiences Arg1:T47 Arg2:T11	
+#47	AnnotatorNotes T55	C1524062; Additional; Functional Concept
+T62	CONC 688 695	control
+#48	AnnotatorNotes T62	C4553389; Study Control; Conceptual Entity
+R44	Before Arg1:T13 Arg2:T14	
+T63	CONC 735 749	inmediatamente
+#49	AnnotatorNotes T63	C0205253; Immediate; Temporal Concept
+R45	After Arg1:T63 Arg2:T14	
+R46	Overlap Arg1:T13 Arg2:T63	
+R47	Location_of Arg1:T26 Arg2:T27	
+T64	CONC 778 802	peso del tejido resecado
+#50	AnnotatorNotes T64	C0449818; Weight of resected tissue; Quantitative Concept
+R48	Location_of Arg1:T26 Arg2:T14	
+T65	CONC 902 921	prueba t de student
+#51	AnnotatorNotes T65	C0871453; Students T Test; Intellectual Product
+T66	CONC 951 963	Mann-Whitney
+#52	AnnotatorNotes T66	C1708930; Mann-Whitney Test; Intellectual Product
+T67	CONC 970 995	regresión linear múltiple
+#53	AnnotatorNotes T67	C0023733; Linear Regression; Quantitative Concept + C0681923; multiple regression; Qualitative Concept
+R50	Location_of Arg1:T16 Arg2:T15	
+T68	Quantifier_or_Qualifier 1078 1082	baja
+#54	AnnotatorNotes T68	C0441994; Lower - spatial qualifier; Spatial Concept
+R51	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T68	
+R54	After Arg1:T17 Arg2:T19	
+R55	Before Arg1:T17 Arg2:T19	
+T70	CONC 1348 1373	regresión linear múltiple
+#56	AnnotatorNotes T70	C0023733; Linear Regression; Quantitative Concept + C0681923; multiple regression; Qualitative Concept
+R56	Before Arg1:T20 Arg2:T39	
+R57	Before Arg1:T3 Arg2:T2	
+R58	Before Arg1:T4 Arg2:T6	
+R59	Before Arg1:T4 Arg2:T28	
+T71	Quantifier_or_Qualifier 1285 1316	estadísticamente significativas
+A13	Assertion T71 Negated
+#57	AnnotatorNotes T71	C0237881; Statistical Significance; Quantitative Concept
+R62	Negation Arg1:T53 Arg2:T71	
+R63	Has_Quantifier_or_Qualifier Arg1:T54 Arg2:T71	
+R52	Has_Duration_or_Interval Arg1:T23 Arg2:T33	
+R10	Negation Arg1:T48 Arg2:T55	
+#55	AnnotatorNotes T15	C0749941; URINARY OBSTRUCTIVE SYMPTOMS; Sign or Symptom
+A14	Experiencer T35 Patient
+A15	Experiencer T36 Patient
+A16	Experiencer T42 Patient
+A17	Experiencer T43 Patient
+A18	Experiencer T47 Patient
+A19	Experiencer T49 Other

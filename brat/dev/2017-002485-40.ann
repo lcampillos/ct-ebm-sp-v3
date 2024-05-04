@@ -1,0 +1,173 @@
+T1	PROC 46 57	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	CHEM 62 77	betabloqueantes
+#2	AnnotatorNotes T2	C0001645; Adrenergic beta-Antagonists; Pharmacologic Substance
+T3	DISO 83 103	infarto de miocardio
+#3	AnnotatorNotes T3	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T4	PROC 171 184	dados de alta
+#4	AnnotatorNotes T4	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T5	PROC 191 198	ingreso
+#5	AnnotatorNotes T5	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T6	DISO 203 229	infarto agudo de miocardio
+#6	AnnotatorNotes T6	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T7	ANAT 242 250	cardiaca
+#7	AnnotatorNotes T7	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T8	PROC 379 392	dados de alta
+#8	AnnotatorNotes T8	C0030685; Patient Discharge; Health Care Activity | C0586003; Discharge from hospital; Health Care Activity
+T9	DISO 269 291	insuficiencia cardiaca
+#9	AnnotatorNotes T9	C0018801; Heart failure; Disease or Syndrome
+T10	DISO 108 137	fracción de eyección reducida
+T11	DISO 331 370	iam con y sin elevacion del segmento ST
+T12	DISO 418 440	insuficiencia cardiaca
+#10	AnnotatorNotes T12	C0018801; Heart failure; Disease or Syndrome
+T13	PROC 499 508	ingresado
+#11	AnnotatorNotes T13	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T14	PROC 594 601	ingreso
+#12	AnnotatorNotes T14	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T15	DISO 670 677	Alergia
+#13	AnnotatorNotes T15	C1527304;Allergic Reaction; Pathologic Function
+T16	DISO 831 853	insuficiencia cardiaca
+#14	AnnotatorNotes T16	C0018801; Heart failure; Disease or Syndrome
+T17	PROC 885 892	ingreso
+#15	AnnotatorNotes T17	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T18	DISO 893 912	Enfermedad valvular
+T19	ANAT 904 912	valvular
+#16	AnnotatorNotes T19	C1186983; anatomic valve; Body Part, Organ, or Organ Component
+T20	DISO 952 959	infarto
+#17	AnnotatorNotes T20	C0021308; Infarction; Pathologic Function | C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T21	PROC 974 985	tratamiento
+#18	AnnotatorNotes T21	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T22	PROC 1158 1172	ensayo clínico
+#19	AnnotatorNotes T22	C0008976; Clinical Trials; Research Activity
+T23	ANAT 94 103	miocardio
+#20	AnnotatorNotes T23	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T24	ANAT 220 229	miocardio
+#21	AnnotatorNotes T24	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T25	ANAT 283 291	cardiaca
+#22	AnnotatorNotes T25	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T26	ANAT 432 440	cardiaca
+#23	AnnotatorNotes T26	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T28	ANAT 845 853	cardiaca
+#24	AnnotatorNotes T28	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T29	CHEM 990 1006	beta-bloqueantes
+#25	AnnotatorNotes T29	C0001645; Adrenergic beta-Antagonists; Pharmacologic Substance
+T30	CHEM 752 768	beta-bloqueantes
+#26	AnnotatorNotes T30	C0001645; Adrenergic beta-Antagonists; Pharmacologic Substance
+T31	DISO 521 527	NSTEMI
+#27	AnnotatorNotes T31	C1536222; Non STEMI; Disease or Syndrome
+T32	DISO 513 518	sTEMI
+#28	AnnotatorNotes T32	C1536220; ST segment elevation myocardial infarction; Disease or Syndrome
+T33	PROC 528 532	FEVI
+#29	AnnotatorNotes T33	C2114363; left ventricular ejection fraction assessment; Therapeutic or Preventive Procedure
+T34	PROC 619 643	consentimiento informado
+#30	AnnotatorNotes T34	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T35	PROC 401 405	FEVI
+#31	AnnotatorNotes T35	C2114363; left ventricular ejection fraction assessment; Therapeutic or Preventive Procedure
+T36	CHEM 704 720	beta-bloqueantes
+#32	AnnotatorNotes T36	C0001645; Adrenergic beta-Antagonists; Pharmacologic Substance
+T37	DISO 680 692	intolerancia
+#33	AnnotatorNotes T37	C0277585; Intolerance to drug; Pathologic Function
+T38	Date 13 17	2017
+T39	Neg_cue 104 107	sin
+T40	LIVB 161 170	Pacientes
+#34	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T42	Neg_cue 265 268	sin
+T43	LIVB 318 326	paciente
+#35	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T45	Neg_cue 414 417	sin
+T46	Date 572 589	cualquier momento
+T47	LIVB 1105 1113	paciente
+#36	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Duration 1116 1130	menos de 1 año
+T49	PHYS 108 128	fracción de eyección
+#37	AnnotatorNotes T49	C0232174; Cardiac ejection fraction; Organ or Tissue Function
+T41	PHYS 234 250	función cardiaca
+#38	AnnotatorNotes T41	C0232164; Cardiac function; Organ or Tissue Function
+T44	Age 474 497	Mayor o igual a 18 años
+T50	LIVB 796 811	médico tratante
+#39	AnnotatorNotes T50	C1710470; Treating Physician; Professional or Occupational Group
+T51	LIVB 1022 1037	médico tratante
+#40	AnnotatorNotes T51	C1710470; Treating Physician; Professional or Occupational Group
+A1	Assertion T9 Negated
+A2	Assertion T10 Negated
+A3	Assertion T12 Negated
+A4	Status T12 History_of
+A5	Status T37 History_of
+A6	Status T15 History_of
+A7	Assertion T30 Contraindicated
+A8	Status T16 History_of
+#41	AnnotatorNotes T10	C4022792; Reduced ejection fraction; Finding 
+#42	AnnotatorNotes T18	C3258293; Valvular disease; Disease or Syndrome 
+T27	Observation 254 262	reducida
+A9	Assertion T27 Negated
+#43	AnnotatorNotes T27	C0392756; Reduced; Finding
+T52	Neg_cue 251 253	no
+T53	Observation 345 370	elevacion del segmento ST
+A10	Assertion T53 Negated
+#44	AnnotatorNotes T53	C0520886; ST segment elevation (finding); Finding
+T54	Neg_cue 341 344	sin
+R1	Negation Arg1:T54 Arg2:T53	
+R2	Negation Arg1:T45 Arg2:T12	
+R3	Used_for Arg1:T2 Arg2:T1	
+R4	After Arg1:T1 Arg2:T3	
+R5	Location_of Arg1:T23 Arg2:T3	
+R6	Negation Arg1:T39 Arg2:T10	
+R8	Overlap Arg1:T3 Arg2:T10	
+R9	Experiences Arg1:T40 Arg2:T5	
+R10	Before Arg1:T5 Arg2:T4	
+R11	Overlap Arg1:T5 Arg2:T6	
+R12	Experiences Arg1:T40 Arg2:T6	
+R13	Experiences Arg1:T40 Arg2:T41	
+R14	Negation Arg1:T52 Arg2:T27	
+R15	Location_of Arg1:T7 Arg2:T41	
+R16	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T27	
+R17	Experiences Arg1:T40 Arg2:T9	
+R18	Location_of Arg1:T25 Arg2:T9	
+R19	Negation Arg1:T42 Arg2:T9	
+R21	Overlap Arg1:T6 Arg2:T9	
+R22	Overlap Arg1:T5 Arg2:T9	
+R23	Experiences Arg1:T43 Arg2:T11	
+R24	Experiences Arg1:T43 Arg2:T53	
+R25	Overlap Arg1:T11 Arg2:T53	
+R26	Experiences Arg1:T43 Arg2:T35	
+T55	Result_or_Value 409 413	>40%
+R27	Has_Result_or_Value Arg1:T35 Arg2:T55	
+R28	Location_of Arg1:T26 Arg2:T12	
+R29	Overlap Arg1:T11 Arg2:T12	
+R30	Experiences Arg1:T43 Arg2:T12	
+R31	Before Arg1:T35 Arg2:T8	
+R32	Before Arg1:T11 Arg2:T8	
+R33	Before Arg1:T12 Arg2:T8	
+R34	Before Arg1:T9 Arg2:T4	
+R35	Before Arg1:T6 Arg2:T4	
+T56	Result_or_Value 533 537	>40%
+R38	Has_Result_or_Value Arg1:T33 Arg2:T56	
+R39	Overlap Arg1:T33 Arg2:T46	
+R40	Overlap Arg1:T33 Arg2:T14	
+R41	Causes Arg1:T36 Arg2:T37	
+R42	Causes Arg1:T36 Arg2:T15	
+R43	Location_of Arg1:T28 Arg2:T16	
+T57	PROC 856 868	clase killip
+#45	AnnotatorNotes T57	C5702545; Killip classification (procedure); Diagnostic Procedure
+T58	Result_or_Value 869 873	≥ II
+R44	Has_Result_or_Value Arg1:T57 Arg2:T58	
+R45	Overlap Arg1:T57 Arg2:T17	
+R46	Overlap Arg1:T16 Arg2:T17	
+R47	Location_of Arg1:T19 Arg2:T18	
+T59	Quantifier_or_Qualifier 913 919	severa
+#46	AnnotatorNotes T59	C1547227;Severe - Severity of Illness Code; Intellectual Product
+R48	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T59	
+R49	Used_for Arg1:T29 Arg2:T21	
+T60	Observation 1062 1100	limite seriamente la esperanza de vida
+#47	AnnotatorNotes T60	C1504437; Life expectancy shortened; Finding (?) | C5419418; Reduction in Life Expectancy; Finding (?)
+T61	CONC 1083 1100	esperanza de vida
+#48	AnnotatorNotes T61	C0023671; Life Expectancy; Group Attribute
+R51	Has_Duration_or_Interval Arg1:T61 Arg2:T48	
+T62	Observation 1137 1172	participando en otro ensayo clínico
+R52	Location_of Arg1:T24 Arg2:T6	
+#49	AnnotatorNotes T11	C1303258; Acute ST segment elevation myocardial infarction (disorder); Disease or Syndrome + C1276061; Acute non-ST segment elevation myocardial infarction (disorder); Disease or Syndrome
+A11	Experiencer T51 Other
+A12	Experiencer T50 Other
+A13	Experiencer T47 Patient
+A14	Experiencer T40 Patient
+A15	Experiencer T43 Patient

@@ -1,0 +1,113 @@
+T1	PROC 44 67	Estudio de la seguridad
+T2	PROC 97 123	tratamiento complementario
+#1	AnnotatorNotes T2	C0936077; Complementary therapies; Therapeutic or Preventive Procedure
+T3	PROC 211 255	Estudio de extensión, multicéntrico, abierto
+T4	PROC 261 281	evaluar la seguridad
+#2	AnnotatorNotes T4	C1705187; Safety Study; Research Activity
+T5	DISO 382 410	urticaria espontánea crónica
+#3	AnnotatorNotes T5	C0578870; Chronic Spontaneous Urticaria; Disease or Syndrome
+T6	CHEM 85 91	QGE031
+#4	AnnotatorNotes T6	C5226733; QGE-031; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T7	DISO 478 495	Urticaria Crónica
+#5	AnnotatorNotes T7	C0263338; Chronic Urticaria; Disease or Syndrome
+T8	DISO 521 549	Urticaria Crónica Espontánea
+#6	AnnotatorNotes T8	C0578870; Chronic Spontaneous Urticaria; Disease or Syndrome
+T9	PROC 620 631	tratamiento
+#7	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	CHEM 299 305	QGE031
+#8	AnnotatorNotes T10	C5226733; QGE-031; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T11	PROC 683 694	seguimiento
+#9	AnnotatorNotes T11	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T12	DISO 826 829	UEC
+T13	DISO 731 741	enfermedad
+#10	AnnotatorNotes T13	C0012634; Disease; Disease or Syndrome
+T14	DISO 797 814	urticaria crónica
+#11	AnnotatorNotes T14	C0263338; Chronic Urticaria; Disease or Syndrome
+T15	PROC 849 860	seguimiento
+#12	AnnotatorNotes T15	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T16	DISO 141 144	UEC
+T17	Date 12 16	2015
+T18	Date 68 81	a largo plazo
+T19	LIVB 129 136	adultos
+#13	AnnotatorNotes T19	C0001675; Adult; Age Group
+T20	Date 282 295	a largo plazo
+T21	Dose 306 312	240 mg
+T22	Route 313 317	s.c.
+#14	AnnotatorNotes T22	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T23	Frequency 331 345	cada 4 semanas
+T24	Duration 354 364	52 semanas
+T25	LIVB 368 377	pacientes
+#15	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	Duration 403 410	crónica
+#16	AnnotatorNotes T26	C0205191; chronic; Temporal Concept
+T27	Duration 488 495	Crónica
+#17	AnnotatorNotes T27	C0205191; chronic; Temporal Concept
+T28	Duration 531 538	Crónica
+#18	AnnotatorNotes T28	C0205191; chronic; Temporal Concept
+T29	LIVB 578 587	Pacientes
+#19	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Date 722 730	Presente
+T31	Duration 807 814	crónica
+#20	AnnotatorNotes T31	C0205191; chronic; Temporal Concept
+T32	Neg_cue 815 825	distinta a
+T33	Quantifier_or_Qualifier 665 668	203
+T34	PROC 658 664	visita
+#21	AnnotatorNotes T34	C1512346; Patient Visit; Health Care Activity
+A1	Population_data T19 Age
+A2	Assertion T12 Negated
+A3	Status T9 History_of
+#22	AnnotatorNotes T18	C0443252; Long-term; Temporal Concept
+#23	AnnotatorNotes T20	C0443252; Long-term; Temporal Concept
+#24	AnnotatorNotes T30	C0521116; Current (present time); Temporal Concept 
+#25	AnnotatorNotes T16	C0578870; Chronic Spontaneous Urticaria; Disease or Syndrome
+#26	AnnotatorNotes T12	C0578870; Chronic Spontaneous Urticaria; Disease or Syndrome
+#27	AnnotatorNotes T1	C1705187; Safety Study; Research Activity
+R1	Negation Arg1:T32 Arg2:T12	
+R2	Overlap Arg1:T1 Arg2:T18	
+R3	Used_for Arg1:T6 Arg2:T2	
+R4	Experiences Arg1:T19 Arg2:T6	
+R5	Experiences Arg1:T19 Arg2:T16	
+T35	Observation 155 176	completado el estudio
+A4	Status T35 History_of
+#28	AnnotatorNotes T35	C2732579; Completion of clinical trial; Finding
+R6	Before Arg1:T35 Arg2:T1	
+R7	Before Arg1:T35 Arg2:T6	
+R8	Overlap Arg1:T4 Arg2:T20	
+R9	Has_Dose_or_Strength Arg1:T10 Arg2:T21	
+R10	Has_Route_or_Mode Arg1:T10 Arg2:T22	
+R11	Has_Frequency Arg1:T10 Arg2:T23	
+R12	Has_Duration_or_Interval Arg1:T10 Arg2:T24	
+R14	Experiences Arg1:T25 Arg2:T5	
+R15	Has_Duration_or_Interval Arg1:T5 Arg2:T26	
+T36	Observation 421 442	completado el estudio
+#29	AnnotatorNotes T36	C2732579; Completion of clinical trial; Finding
+A5	Status T36 History_of
+R16	Before Arg1:T36 Arg2:T3	
+R18	Has_Duration_or_Interval Arg1:T7 Arg2:T27	
+R19	Has_Duration_or_Interval Arg1:T8 Arg2:T28	
+T37	Observation 598 631	completado la fase de tratamiento
+#30	AnnotatorNotes T37	C0580352; Treatment completed; Finding (?)
+R20	Experiences Arg1:T29 Arg2:T9	
+T38	Quantifier_or_Qualifier 646 654	al menos
+R21	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T38	
+R22	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T33	
+T39	Observation 598 608;655 664	completado la visita
+R23	Overlap Arg1:T34 Arg2:T11	
+R24	Before Arg1:T9 Arg2:T11	
+R25	Overlap Arg1:T13 Arg2:T30	
+T40	Quantifier_or_Qualifier 742 748	activa
+#31	AnnotatorNotes T40	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T40	
+R27	Has_Duration_or_Interval Arg1:T14 Arg2:T31	
+T41	Observation 778 793	Nueva aparición
+#32	AnnotatorNotes T41	C0746890; new onset; Finding
+R28	Before Arg1:T14 Arg2:T41	
+R29	Overlap Arg1:T41 Arg2:T15	
+R30	Overlap Arg1:T14 Arg2:T15	
+R31	Overlap Arg1:T12 Arg2:T15	
+R32	Experiences Arg1:T29 Arg2:T34	
+R13	Experiences Arg1:T25 Arg2:T10	
+R17	Before Arg1:T36 Arg2:T10	
+A6	Experiencer T19 Patient
+A7	Experiencer T25 Patient
+A8	Experiencer T29 Patient

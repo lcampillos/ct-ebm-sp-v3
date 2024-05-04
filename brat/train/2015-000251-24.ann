@@ -1,0 +1,102 @@
+T1	PROC 60 83	terapia antirretroviral
+#1	AnnotatorNotes T1	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T2	DISO 540 548	Mutación
+T3	DISO 175 190	infección HIV-1
+T4	PROC 192 218	Estudio comparativo piloto
+T5	DISO 243 258	Infección VIH-1
+T6	DISO 384 393	infección
+#2	AnnotatorNotes T6	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T7	PROC 435 437	WB
+#3	AnnotatorNotes T7	C0005863; Western Blotting; Laboratory Procedure | C0949466; Western Blot; Laboratory Procedure
+T8	PROC 534 536	WB
+#4	AnnotatorNotes T8	C0005863; Western Blotting; Laboratory Procedure | C0949466; Western Blot; Laboratory Procedure
+T9	DISO 629 650	Enfermedad oncológica
+T10	DISO 661 674	Infección VHC
+#5	AnnotatorNotes T10	C0019196; Hepatitis C; Disease or Syndrome
+T11	CHEM 68 83	antirretroviral
+#6	AnnotatorNotes T11	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T12	Date 13 17	2015
+T13	LIVB 129 134	vIral
+#7	AnnotatorNotes T13	C0042776; Virus; Virus
+T14	PHYS 150 158	curación
+#8	AnnotatorNotes T14	C2004454; Recovery - healing process; Organism Function
+T15	LIVB 293 328	Hombres que tienen sexo con hombres
+#9	AnnotatorNotes T15	C2827413; Men who have Sex with Men; Population Group
+T17	LIVB 333 340	Hombres
+#10	AnnotatorNotes T17	C0025266; Male population group; Population Group
+T18	Age 341 359	entre 18 y 65 años
+T19	Duration 363 380	Menos de 100 días
+T20	LIVB 397 406	Pacientes
+#11	AnnotatorNotes T20	C0030705; Patients; Patient or Disabled Group
+T22	CHEM 470 473	p31
+#12	AnnotatorNotes T22	C0644393; HIV-1 protein p31, Human immunodeficiency virus 1; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T24	CHEM 518 521	P31
+#13	AnnotatorNotes T24	C0644393; HIV-1 protein p31, Human immunodeficiency virus 1; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T25	LIVB 671 674	VHC
+#14	AnnotatorNotes T25	C0220847; hepatitis C virus; Virus
+T26	LIVB 288 291	MSM
+#15	AnnotatorNotes T26	C2827413; Men who have Sex with Men; Population Group
+T16	LIVB 185 190	HIV-1
+#16	AnnotatorNotes T16	C0019704; HIV-1; Virus
+T27	LIVB 253 258	VIH-1
+#17	AnnotatorNotes T27	C0019704; HIV-1; Virus
+T21	Neg_cue 474 482	negativa
+T23	GENE 557 561	CCR5
+#18	AnnotatorNotes T23	C1332700; CCR5 gene; Gene or Genome
+T28	PROC 563 572	HLA-B5701
+#19	AnnotatorNotes T28	C3203663; HLA-B*5701 assay; Laboratory Procedure
+T29	PROC 575 582	HLA-B27
+#20	AnnotatorNotes T29	C2046362; human leukocyte antigen B27 (lab test); Laboratory Procedure
+A1	Assertion T22 Negated
+#21	AnnotatorNotes T4	C1579762; comparative study research; Research Activity + C0031928; Pilot Projects; Research Activity
+#22	AnnotatorNotes T5	C2363741; HIV-1 infection; Disease or Syndrome
+#23	AnnotatorNotes T2	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#24	AnnotatorNotes T9	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+R1	Has_Duration_or_Interval Arg1:T6 Arg2:T19	
+T30	Quantifier_or_Qualifier 410 430	estadio Fiebig I a V
+T31	Result_or_Value 438 446	negativo
+#25	AnnotatorNotes T31	C0205160; Negative; Finding
+R2	Has_Result_or_Value Arg1:T7 Arg2:T31	
+R3	Negation Arg1:T21 Arg2:T22	
+T32	Quantifier_or_Qualifier 449 459	incompleto
+#26	AnnotatorNotes T32	C0205257; Incomplete; Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T32	
+T33	Result_or_Value 522 530	positiva
+#27	AnnotatorNotes T33	C1446409; Positive; Finding
+R8	Location_of Arg1:T23 Arg2:T2	
+T34	Quantifier_or_Qualifier 549 556	Delta32
+R9	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T34	
+T35	Result_or_Value 583 592	positivas
+#28	AnnotatorNotes T35	C1446409; Positive; Finding
+R10	Has_Result_or_Value Arg1:T29 Arg2:T35	
+R11	Has_Result_or_Value Arg1:T28 Arg2:T35	
+R14	Overlap Arg1:T2 Arg2:T35	
+R15	Causes Arg1:T25 Arg2:T10	
+T36	Quantifier_or_Qualifier 651 657	activa
+#29	AnnotatorNotes T36	C0679217; Active State; Idea or Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T36	
+T37	Quantifier_or_Qualifier 675 681	activa
+#30	AnnotatorNotes T37	C0679217; Active State; Idea or Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T37	
+R18	Used_for Arg1:T11 Arg2:T1	
+T38	Quantifier_or_Qualifier 84 94	muy precoz
+R19	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T38	
+R20	Causes Arg1:T16 Arg2:T3	
+#31	AnnotatorNotes T3	C2363741; HIV-1 infection; Disease or Syndrome
+R21	Causes Arg1:T27 Arg2:T5	
+R22	Has_Age Arg1:T17 Arg2:T18	
+R23	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T30	
+T39	Quantifier_or_Qualifier 159 168	funcional
+#32	AnnotatorNotes T39	C0205245; Functional; Functional Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T39	
+T40	CONC 118 134	reservorio vIral
+#33	AnnotatorNotes T40	C0012653; Disease Reservoirs; Idea or Concept (?)
+R26	Before Arg1:T1 Arg2:T14	
+R27	Before Arg1:T3 Arg2:T14	
+A2	Experiencer T26 Patient
+A3	Experiencer T15 Patient
+A4	Experiencer T17 Patient
+A5	Experiencer T20 Patient
+T41	Result_or_Value 474 482	negativa
+R6	Has_Result_or_Value Arg1:T8 Arg2:T33	
+R12	Has_Result_or_Value Arg1:T7 Arg2:T41	

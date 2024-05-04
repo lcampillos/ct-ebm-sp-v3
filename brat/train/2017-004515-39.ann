@@ -1,0 +1,233 @@
+T1	PROC 46 105	Estudio para evaluar la seguridad, tolerabilidad y eficacia
+T2	PROC 239 282	Ensayo aleatorizado, abierto, multicéntrico
+T3	PROC 288 307	evaluar la eficacia
+#1	AnnotatorNotes T3	C1707887; Efficacy Study; Research Activity
+T4	CHEM 311 322	secukinumab
+#2	AnnotatorNotes T4	C3179547; secukinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T5	PROC 361 372	tratamiento
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 375 421	evaluar la seguridad, tolerabilidad y eficacia
+T7	DISO 580 624	áreas rojas, elevadas y escamosas de la piel
+T8	DISO 559 568	psoriasis
+#4	AnnotatorNotes T8	C0033860; Psoriasis; Disease or Syndrome
+T9	ANAT 604 613	escamosas
+#5	AnnotatorNotes T9	C0221909; Squamous epithelium; Tissue
+T10	ANAT 620 624	piel
+#6	AnnotatorNotes T10	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T11	DISO 651 670	Psoriasis en placas
+#7	AnnotatorNotes T11	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T12	PROC 852 862	evaluación
+#8	AnnotatorNotes T12	C1261322; Evaluation procedure; Health Care Activity
+T13	PROC 931 945	aleatorización
+#9	AnnotatorNotes T13	C0034656; Randomization; Research Activity
+T14	DISO 950 969	Psoriasis en placas
+#10	AnnotatorNotes T14	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T15	ANAT 1068 1071	ASC
+#11	AnnotatorNotes T15	C4512722; Body surface area; Body Location or Region
+T16	DISO 1099 1118	psoriasis en placas
+#12	AnnotatorNotes T16	C0263361; Psoriasis vulgaris; Disease or Syndrome
+T17	PROC 1156 1170	aleatorización
+#13	AnnotatorNotes T17	C0034656; Randomization; Research Activity
+T18	PROC 1231 1252	tratamiento sistémico
+T19	DISO 1350 1359	psoriasis
+#14	AnnotatorNotes T19	C0033860; Psoriasis; Disease or Syndrome
+T20	DISO 1366 1393	psoriasis crónica en placas
+T21	PROC 1407 1421	aleatorización
+#15	AnnotatorNotes T21	C0034656; Randomization; Research Activity
+T22	DISO 1426 1435	Psoriasis
+#16	AnnotatorNotes T22	C0033860; Psoriasis; Disease or Syndrome
+T23	CHEM 1449 1457	fármacos
+#17	AnnotatorNotes T23	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T24	PROC 1475 1487	tratamientos
+#18	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	PROC 1645 1668	métodos anticonceptivos
+#19	AnnotatorNotes T25	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T26	PROC 1750 1776	suspensión del tratamiento
+#20	AnnotatorNotes T26	C0850893; stop medication; Therapeutic or Preventive Procedure
+T27	ANAT 1875 1885	leucocitos
+#21	AnnotatorNotes T27	C0023516; Leukocytes; Cell
+T28	PROC 1897 1906	plaquetas
+#22	AnnotatorNotes T28	C0032181; Platelet Count measurement; Laboratory Procedure
+T29	PROC 1921 1932	neutrófilos
+#23	AnnotatorNotes T29	C0200633; Neutrophil count; Laboratory Procedure
+T30	PROC 1857 1885	recuento total de leucocitos
+T31	CHEM 2006 2017	secukinumab
+#24	AnnotatorNotes T31	C3179547; secukinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T32	CHEM 2037 2054	fármaco biológico
+#25	AnnotatorNotes T32	C0005515; Biological Factors; Biologically Active Substance (?)
+T33	CHEM 2084 2090	IL-17A
+T34	DISO 169 196	psoriasis crónica en placas
+T35	DISO 485 512	psoriasis crónica en placas
+T36	PROC 700 734	Asentimiento informado por escrito
+#26	AnnotatorNotes T36	C0811741; Obtain informed written consent; Health Care Activity
+T37	PROC 1689 1703	administración
+#27	AnnotatorNotes T37	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T38	PROC 1944 1955	hemoglobina
+#28	AnnotatorNotes T38	C0518015; Hemoglobin measurement; Laboratory Procedure
+T39	CHEM 2096 2113	receptor de IL-17
+T40	Date 13 17	2017
+T41	Date 106 119	a largo plazo
+T42	LIVB 123 132	pacientes
+#29	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Age 133 156	de 6 a menos de 18 años
+T44	Duration 179 186	crónica
+#30	AnnotatorNotes T44	C0205191; chronic; Temporal Concept
+T45	Route 323 333	subcutáneo
+T46	Duration 345 357	doce semanas
+T47	Date 422 435	a largo plazo
+T48	LIVB 439 448	pacientes
+#31	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Age 449 472	de 6 a menos de 18 años
+T50	Duration 495 502	crónica
+#32	AnnotatorNotes T50	C0205191; chronic; Temporal Concept
+T52	LIVB 757 769	progenitores
+#33	AnnotatorNotes T52	C0030551; parent; Family Group | C0870134; Ancestor; Family Group
+T54	Age 879 902	de 6 a menos de 18 años
+T55	Duration 1127 1143	al menos 3 meses
+T56	LIVB 1175 1184	Pacientes
+#34	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 1192 1204	investigador
+#35	AnnotatorNotes T57	C0035173; Research Personnel; Professional or Occupational Group
+T58	LIVB 1279 1288	pacientes
+#36	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	Duration 1376 1383	crónica
+#37	AnnotatorNotes T59	C0205191; chronic; Temporal Concept
+T60	Date 1465 1471	actual
+T62	LIVB 1502 1534	Pacientes mujeres en edad fértil
+#38	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group + C4324275; Woman of childbearing potential; Population Group
+T63	Age 1523 1534	edad fértil
+T65	LIVB 1560 1567	mujeres
+#39	AnnotatorNotes T65	C0043210; Woman; Population Group
+T67	Duration 1718 1732	las 16 semanas
+T69	LIVB 1791 1836	Mujeres embarazadas o en periodo de lactancia
+#40	AnnotatorNotes T69	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T70	LIVB 1840 1849	Pacientes
+#41	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T78	PHYS 1568 1616	fisiológicamente capaces de quedarse embarazadas
+#42	AnnotatorNotes T78	C3831118; Childbearing Potential; Clinical Attribute
+T51	PHYS 1799 1810	embarazadas
+#43	AnnotatorNotes T51	C0032961; Pregnancy; Organism Function
+T61	PHYS 1827 1836	lactancia
+#44	AnnotatorNotes T61	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T64	Neg_cue 1360 1365	salvo
+A2	Population_data T62 Age
+A4	Assertion T24 Contraindicated
+A5	Assertion T20 Negated
+A6	Status T31 History_of
+A7	Status T32 History_of
+A8	Status T16 History_of
+#45	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity + C3274448; Tolerability Study; Research Activity
+#46	AnnotatorNotes T41	C0443252; Long-term; Temporal Concept
+#47	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity + C3274448; Tolerability Study; Research Activity
+#48	AnnotatorNotes T47	C0443252; Long-term; Temporal Concept
+#49	AnnotatorNotes T30	C0023508; White Blood Cell Count procedure; Laboratory Procedure 
+#50	AnnotatorNotes T33	C1701790; IL17A protein, human; Amino Acid, Peptide, or Protein · Biologically Active Substance 
+#51	AnnotatorNotes T39	C1721056; Receptors, Interleukin-17; Amino Acid, Peptide, or Protein · Receptor
+T53	Quantifier_or_Qualifier 1394 1400	activa
+A1	Assertion T53 Negated
+#52	AnnotatorNotes T53	C0679217; Active State; Idea or Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T53	
+R2	Has_Age Arg1:T42 Arg2:T43	
+R3	Experiences Arg1:T42 Arg2:T34	
+R4	Has_Duration_or_Interval Arg1:T34 Arg2:T44	
+T66	Quantifier_or_Qualifier 200 216	moderada a grave
+#53	AnnotatorNotes T66	C1299393; Moderate to severe; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T66	
+T68	Quantifier_or_Qualifier 516 532	moderada a grave
+#54	AnnotatorNotes T68	C1299393; Moderate to severe; Qualitative Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T68	
+R7	Has_Duration_or_Interval Arg1:T35 Arg2:T50	
+R8	Has_Route_or_Mode Arg1:T4 Arg2:T45	
+R9	After Arg1:T4 Arg2:T46	
+R10	Has_Duration_or_Interval Arg1:T5 Arg2:T46	
+R11	Used_for Arg1:T4 Arg2:T5	
+R12	Overlap Arg1:T6 Arg2:T47	
+R13	Experiences Arg1:T48 Arg2:T4	
+R14	Has_Age Arg1:T48 Arg2:T49	
+R15	Experiences Arg1:T48 Arg2:T5	
+R16	Experiences Arg1:T48 Arg2:T35	
+R17	Location_of Arg1:T10 Arg2:T7	
+R18	Causes Arg1:T8 Arg2:T7	
+T71	PROC 814 823	selección
+#55	AnnotatorNotes T71	C0242802; Patient Selection; Research Activity
+R19	Overlap Arg1:T36 Arg2:T71	
+R20	Before Arg1:T36 Arg2:T12	
+T72	PROC 1972 1981	selección
+#56	AnnotatorNotes T72	C0242802; Patient Selection; Research Activity
+R21	Overlap Arg1:T13 Arg2:T54	
+T73	Result_or_Value 1072 1078	≥ 10 %
+T74	CONC 1020 1024	PASI
+#57	AnnotatorNotes T74	C4528685; Psoriasis Area and Severity Index Clinical Classification; Intellectual Product
+T75	Result_or_Value 1025 1029	≥ 12
+R22	Has_Result_or_Value Arg1:T74 Arg2:T75	
+T76	Quantifier_or_Qualifier 973 989	moderada a grave
+#58	AnnotatorNotes T76	C1299393; Moderate to severe; Qualitative Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T76	
+T77	Observation 1053 1071	afectación del ASC
+R24	Has_Result_or_Value Arg1:T77 Arg2:T73	
+R25	Location_of Arg1:T15 Arg2:T77	
+T79	Date 1041 1045	2011
+T80	CONC 1032 1045	IGA mod. 2011
+T81	Result_or_Value 1046 1049	≥ 3
+R26	Has_Result_or_Value Arg1:T80 Arg2:T81	
+R29	Causes Arg1:T14 Arg2:T77	
+R30	Has_Duration_or_Interval Arg1:T16 Arg2:T55	
+R31	Before Arg1:T16 Arg2:T17	
+#59	AnnotatorNotes T18	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
+R32	Experiences Arg1:T56 Arg2:T18	
+R33	Negation Arg1:T64 Arg2:T20	
+R34	Has_Duration_or_Interval Arg1:T20 Arg2:T59	
+R35	Negation Arg1:T64 Arg2:T53	
+R37	Overlap Arg1:T20 Arg2:T21	
+R38	Causes Arg1:T23 Arg2:T22	
+R39	Overlap Arg1:T24 Arg2:T60	
+R40	Has_Age Arg1:T62 Arg2:T63	
+R41	Experiences Arg1:T65 Arg2:T25	
+R42	Overlap Arg1:T25 Arg2:T37	
+R43	Has_Duration_or_Interval Arg1:T25 Arg2:T67	
+R44	After Arg1:T25 Arg2:T26	
+R46	Experiences Arg1:T65 Arg2:T78	
+R47	Experiences Arg1:T62 Arg2:T25	
+R48	Experiences Arg1:T62 Arg2:T37	
+R49	Experiences Arg1:T65 Arg2:T37	
+R50	Experiences Arg1:T62 Arg2:T26	
+R51	Experiences Arg1:T65 Arg2:T26	
+R52	Experiences Arg1:T69 Arg2:T51	
+R53	Experiences Arg1:T69 Arg2:T61	
+R54	Experiences Arg1:T70 Arg2:T30	
+T82	Result_or_Value 1886 1895	< 2500/μl
+R55	Has_Result_or_Value Arg1:T30 Arg2:T82	
+T83	Result_or_Value 1907 1919	< 100 000/μl
+R56	Has_Result_or_Value Arg1:T28 Arg2:T83	
+T84	Result_or_Value 1933 1941	<1500/μl
+R57	Has_Result_or_Value Arg1:T29 Arg2:T84	
+T85	Result_or_Value 1956 1965	<8,5 g/dl
+R58	Has_Result_or_Value Arg1:T38 Arg2:T85	
+R59	Experiences Arg1:T70 Arg2:T28	
+R60	Experiences Arg1:T70 Arg2:T29	
+R61	Experiences Arg1:T70 Arg2:T38	
+T86	Quantifier_or_Qualifier 2055 2113	directamente dirigido contra IL-17A o el receptor de IL-17
+R62	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T86	
+A3	Status T86 History_of
+R63	Overlap Arg1:T1 Arg2:T41	
+R64	Overlap Arg1:T30 Arg2:T72	
+R65	Overlap Arg1:T28 Arg2:T72	
+R66	Overlap Arg1:T29 Arg2:T72	
+R67	Overlap Arg1:T38 Arg2:T72	
+#60	AnnotatorNotes T45	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+R27	Overlap Arg1:T19 Arg2:T21	
+T87	Quantifier_or_Qualifier 1669 1677	eficaces
+#61	AnnotatorNotes T87	C1704419; Effective; Qualitative Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T87	
+#62	AnnotatorNotes T60	C0521116; Current (present time); Temporal Concept
+A9	Experiencer T42 Patient
+A10	Experiencer T48 Patient
+A11	Experiencer T52 Family_member
+A12	Experiencer T57 Other
+A13	Experiencer T56 Patient
+A14	Experiencer T58 Patient
+A15	Experiencer T62 Patient
+A16	Experiencer T65 Patient
+A17	Experiencer T69 Patient
+A18	Experiencer T70 Patient
+A19	Status T18 Future

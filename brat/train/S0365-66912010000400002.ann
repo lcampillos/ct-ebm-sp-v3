@@ -1,0 +1,279 @@
+T1	PROC 1 11	Evaluación
+#1	AnnotatorNotes T1	C1261322; Evaluation procedure; Health Care Activity
+T2	PROC 509 522	aleatorizados
+#2	AnnotatorNotes T2	C0034656; Randomization; Research Activity
+T3	PROC 21 44	ecografía doppler color
+#3	AnnotatorNotes T3	C0474781; Color doppler ultrasound; Diagnostic Procedure | C1869003; Colour doppler scan; Diagnostic Procedure
+T4	PROC 689 703	agudeza visual
+#4	AnnotatorNotes T4	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T5	CHEM 79 90	bimatoprost
+#5	AnnotatorNotes T5	C0937917; bimatoprost; Organic Chemical · Pharmacologic Substance
+T6	CHEM 91 98	timolol
+#6	AnnotatorNotes T6	C0040233; timolol; Organic Chemical · Pharmacologic Substance
+T7	ANAT 124 130	ocular
+#7	AnnotatorNotes T7	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T8	DISO 148 167	hipertensión ocular
+#8	AnnotatorNotes T8	C0028840; Ocular Hypertension; Disease or Syndrome
+T9	PROC 916 931	flujo sanguíneo
+#9	AnnotatorNotes T9	C0005776; blood flow measurement; Diagnostic Procedure
+T10	ANAT 804 812	arterial
+#10	AnnotatorNotes T10	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T11	PROC 825 844	frecuencia cardíaca
+#11	AnnotatorNotes T11	C2197023; examination of heart rate; Health Care Activity
+T12	CHEM 268 279	bimatoprost
+#12	AnnotatorNotes T12	C0937917; bimatoprost; Organic Chemical · Pharmacologic Substance
+T13	ANAT 346 357	retrobulbar
+#13	AnnotatorNotes T13	C0230065; Structure of retroorbital region; Body Location or Region | C1289304; Entire retroorbital region; Body Location or Region
+T14	DISO 375 394	hipertensión ocular
+#14	AnnotatorNotes T14	C0028840; Ocular Hypertension; Disease or Syndrome
+T15	DISO 396 399	HTO
+#15	AnnotatorNotes T15	C0028840; Ocular Hypertension; Disease or Syndrome
+T16	DISO 445 448	HTO
+#16	AnnotatorNotes T16	C0028840; Ocular Hypertension; Disease or Syndrome
+T17	PROC 474 506	estudio prospectivo, doble ciego
+#17	AnnotatorNotes T17	C0033522; Prospective Studies; Research Activity + C0013072; Double-Blind Method; Research Activity
+T18	PROC 533 544	tratamiento
+#18	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	CHEM 561 568	timolol
+#19	AnnotatorNotes T19	C0040233; timolol; Organic Chemical · Pharmacologic Substance
+T20	PROC 571 578	placebo
+#20	AnnotatorNotes T20	C0032042; Placebos; Therapeutic or Preventive Procedure
+T21	PROC 764 794	perimetría estática automática
+#21	AnnotatorNotes T21	C0522798; Automated static perimetry; Diagnostic Procedure
+T22	PROC 796 822	presión arterial sistémica
+#22	AnnotatorNotes T22	C0199663; Measurement of systemic arterial pressure; Diagnostic Procedure
+T23	PROC 880 883	EDC
+#23	AnnotatorNotes T23	C0474781; Color doppler ultrasound; Diagnostic Procedure | C1869003; Colour doppler scan; Diagnostic Procedure
+T24	PROC 855 878	ecografía doppler color
+#24	AnnotatorNotes T24	C0474781; Color doppler ultrasound; Diagnostic Procedure | C1869003; Colour doppler scan; Diagnostic Procedure
+T25	ANAT 932 943	retrobulbar
+#25	AnnotatorNotes T25	C0230065; Structure of retroorbital region; Body Location or Region | C1289304; Entire retroorbital region; Body Location or Region
+T26	ANAT 950 967	arteria oftálmica
+#26	AnnotatorNotes T26	C0029078; Structure of ophthalmic artery; Body Part, Organ, or Organ Component | C1278937; Entire ophthalmic artery; Body Part, Organ, or Organ Component
+T27	ANAT 969 971	AO
+#27	AnnotatorNotes T27	C0029078; Structure of ophthalmic artery; Body Part, Organ, or Organ Component | C1278937; Entire ophthalmic artery; Body Part, Organ, or Organ Component
+T28	ANAT 975 1003	arteria central de la retina
+#28	AnnotatorNotes T28	C0035301; Structure of central retinal artery; Body Part, Organ, or Organ Component | C1281307; Entire central retinal artery; Body Part, Organ, or Organ Component
+T29	PROC 1165 1191	velocidad diastólica final
+T30	CHEM 1044 1055	bimatoprost
+#29	AnnotatorNotes T30	C0937917; bimatoprost; Organic Chemical · Pharmacologic Substance
+T31	CHEM 1056 1063	timolol
+#30	AnnotatorNotes T31	C0040233; timolol; Organic Chemical · Pharmacologic Substance
+T32	PROC 1193 1196	VDF
+T33	CHEM 1258 1269	bimatoprost
+#31	AnnotatorNotes T33	C0937917; bimatoprost; Organic Chemical · Pharmacologic Substance
+T34	CHEM 1270 1277	timolol
+#32	AnnotatorNotes T34	C0040233; timolol; Organic Chemical · Pharmacologic Substance
+T35	PROC 1378 1389	tratamiento
+#33	AnnotatorNotes T35	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T36	PROC 1581 1592	tratamiento
+#34	AnnotatorNotes T36	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T37	PROC 1785 1788	VDF
+T38	CHEM 1629 1640	bimatoprost
+#35	AnnotatorNotes T38	C0937917; bimatoprost; Organic Chemical · Pharmacologic Substance
+T39	CHEM 1641 1648	timolol
+#36	AnnotatorNotes T39	C0040233; timolol; Organic Chemical · Pharmacologic Substance
+T40	ANAT 1795 1798	ACR
+#37	AnnotatorNotes T40	C0035301; Structure of central retinal artery; Body Part, Organ, or Organ Component | C1281307; Entire central retinal artery; Body Part, Organ, or Organ Component
+T41	DISO 1699 1702	HTO
+#38	AnnotatorNotes T41	C0028840; Ocular Hypertension; Disease or Syndrome
+T42	ANAT 1749 1760	retrobulbar
+#39	AnnotatorNotes T42	C0230065; Structure of retroorbital region; Body Location or Region | C1289304; Entire retroorbital region; Body Location or Region
+T43	ANAT 1204 1207	ACR
+#40	AnnotatorNotes T43	C0035301; Structure of central retinal artery; Body Part, Organ, or Organ Component | C1281307; Entire central retinal artery; Body Part, Organ, or Organ Component
+T44	ANAT 114 123	sanguíneo
+#41	AnnotatorNotes T44	C0005767; Blood; Body Substance
+T45	ANAT 161 167	ocular
+#42	AnnotatorNotes T45	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T46	PROC 223 244	administración tópica
+#43	AnnotatorNotes T46	C0001566; Administration, Topical; Therapeutic or Preventive Procedure
+T47	PROC 1354 1357	VDF
+T48	PROC 1245 1253	tratados
+#44	AnnotatorNotes T48	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T49	ANAT 336 345	sanguíneo
+#45	AnnotatorNotes T49	C0005767; Blood; Body Substance
+T50	ANAT 388 394	ocular
+#46	AnnotatorNotes T50	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T51	CHEM 549 560	bimatoprost
+#47	AnnotatorNotes T51	C0937917; bimatoprost; Organic Chemical · Pharmacologic Substance
+T52	PROC 1453 1483	presiones arteriales sistólica
+#48	AnnotatorNotes T52	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T53	PROC 603 610	pruebas
+#49	AnnotatorNotes T53	C0582103; Medical Examination; Health Care Activity (?)
+T54	PROC 705 724	presión intraocular
+#50	AnnotatorNotes T54	C0430888; Intraocular pressure test; Diagnostic Procedure
+T55	PROC 726 729	PIO
+#51	AnnotatorNotes T55	C0430888; Intraocular pressure test; Diagnostic Procedure
+T56	PROC 732 762	examen en lámpara de hendidura
+#52	AnnotatorNotes T56	C0419360; Slit lamp biomicroscopy (procedure); Diagnostic Procedure
+T57	ANAT 836 844	cardíaca
+#53	AnnotatorNotes T57	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T58	PROC 1528 1547	frecuencia cardíaca
+#54	AnnotatorNotes T58	C2197023; examination of heart rate; Health Care Activity
+T59	ANAT 922 931	sanguíneo
+#55	AnnotatorNotes T59	C0005767; Blood; Body Substance
+T60	ANAT 1005 1008	ACR
+#56	AnnotatorNotes T60	C0035301; Structure of central retinal artery; Body Part, Organ, or Organ Component | C1281307; Entire central retinal artery; Body Part, Organ, or Organ Component
+T61	PROC 1093 1096	PIO
+#57	AnnotatorNotes T61	C0430888; Intraocular pressure test; Diagnostic Procedure
+T62	PROC 1345 1348	PIO
+#58	AnnotatorNotes T62	C0430888; Intraocular pressure test; Diagnostic Procedure
+T63	ANAT 1463 1473	arteriales
+#59	AnnotatorNotes T63	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T64	ANAT 1539 1547	cardíaca
+#60	AnnotatorNotes T64	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T65	PROC 1678 1681	PIO
+#61	AnnotatorNotes T65	C0430888; Intraocular pressure test; Diagnostic Procedure
+T66	PROC 1849 1852	PIO
+#62	AnnotatorNotes T66	C0430888; Intraocular pressure test; Diagnostic Procedure
+T67	CHEM 292 310	maleato de timolol
+#63	AnnotatorNotes T67	C0087093; timolol maleate; Organic Chemical · Pharmacologic Substance
+T68	PHYS 108 123	flujo sanguíneo
+#64	AnnotatorNotes T68	C0232338; Blood flow; Physiologic Function
+T69	LIVB 134 143	pacientes
+#65	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	Route 238 244	tópica
+#66	AnnotatorNotes T70	C1522168; Topical Route of Drug Administration; Functional Concept
+T71	Dose 281 290	0,3 mg/ml
+T72	Dose 312 319	5 mg/ml
+T73	PHYS 330 345	flujo sanguíneo
+#67	AnnotatorNotes T73	C0232338; Blood flow; Physiologic Function
+T75	LIVB 361 370	pacientes
+#68	AnnotatorNotes T75	C0030705; Patients; Patient or Disabled Group
+T76	LIVB 403 412	Pacientes
+#69	AnnotatorNotes T76	C0030705; Patients; Patient or Disabled Group
+T77	LIVB 431 440	pacientes
+#70	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	Duration 587 597	12 semanas
+T79	Duration 655 669	las 12 semanas
+T83	DEVI 742 762	lámpara de hendidura
+#71	AnnotatorNotes T83	C0183355; Slit lamp biomicroscope (physical object); Medical Device
+T89	LIVB 1235 1244	pacientes
+#72	AnnotatorNotes T89	C0030705; Patients; Patient or Disabled Group
+T91	Duration 1360 1374	las 12 semanas
+T93	PHYS 1453 1473	presiones arteriales
+#73	AnnotatorNotes T93	C0005823; Blood Pressure; Organism Function
+T98	LIVB 1685 1694	pacientes
+#74	AnnotatorNotes T98	C0030705; Patients; Patient or Disabled Group
+T99	PHYS 1736 1748	hemodinámica
+#75	AnnotatorNotes T99	C0019010; Hemodynamics; Organ or Tissue Function
+T103	PHYS 796 812	presión arterial
+#76	AnnotatorNotes T103	C0005823; Blood Pressure; Organism Function
+T74	PROC 644 650	visita
+#77	AnnotatorNotes T74	C1512346; Patient Visit; Health Care Activity
+T80	Quantifier_or_Qualifier 636 643	primera
+R1	Combined_with Arg1:T5 Arg2:T6	
+R2	Location_of Arg1:T7 Arg2:T68	
+R3	Location_of Arg1:T44 Arg2:T68	
+R4	Experiences Arg1:T69 Arg2:T1	
+R5	Experiences Arg1:T69 Arg2:T3	
+R6	Experiences Arg1:T69 Arg2:T5	
+R7	Experiences Arg1:T69 Arg2:T68	
+R8	Experiences Arg1:T69 Arg2:T8	
+R9	Location_of Arg1:T45 Arg2:T8	
+R11	Has_Route_or_Mode Arg1:T12 Arg2:T70	
+R12	Combined_with Arg1:T67 Arg2:T70	
+R13	Has_Dose_or_Strength Arg1:T12 Arg2:T71	
+R14	Has_Dose_or_Strength Arg1:T67 Arg2:T72	
+R17	Location_of Arg1:T50 Arg2:T14	
+R18	Location_of Arg1:T50 Arg2:T15	
+R19	Experiences Arg1:T75 Arg2:T14	
+R20	Experiences Arg1:T75 Arg2:T15	
+R21	Experiences Arg1:T75 Arg2:T73	
+R22	Experiences Arg1:T75 Arg2:T46	
+R23	Has_Route_or_Mode Arg1:T67 Arg2:T70	
+R24	Location_of Arg1:T49 Arg2:T73	
+R25	Location_of Arg1:T13 Arg2:T73	
+R26	Experiences Arg1:T76 Arg2:T16	
+R27	Experiences Arg1:T77 Arg2:T16	
+R28	Before Arg1:T2 Arg2:T18	
+R29	Experiences Arg1:T76 Arg2:T18	
+R30	Experiences Arg1:T77 Arg2:T18	
+R31	Used_for Arg1:T51 Arg2:T18	
+R32	Combined_with Arg1:T51 Arg2:T19	
+R33	Experiences Arg1:T76 Arg2:T20	
+R34	Experiences Arg1:T77 Arg2:T20	
+R35	Has_Duration_or_Interval Arg1:T20 Arg2:T78	
+R36	Has_Duration_or_Interval Arg1:T19 Arg2:T78	
+R37	Has_Duration_or_Interval Arg1:T51 Arg2:T78	
+R38	Before Arg1:T2 Arg2:T20	
+R39	Overlap Arg1:T53 Arg2:T74	
+R40	After Arg1:T53 Arg2:T79	
+R41	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T80	
+R45	Used_for Arg1:T83 Arg2:T56	
+R46	Location_of Arg1:T10 Arg2:T103	
+R47	Location_of Arg1:T10 Arg2:T22	
+R48	Location_of Arg1:T57 Arg2:T11	
+R49	Location_of Arg1:T59 Arg2:T9	
+R50	Location_of Arg1:T25 Arg2:T9	
+R51	Location_of Arg1:T26 Arg2:T9	
+R52	Location_of Arg1:T27 Arg2:T9	
+R53	Location_of Arg1:T28 Arg2:T9	
+R54	Location_of Arg1:T60 Arg2:T9	
+R57	Combined_with Arg1:T30 Arg2:T31	
+R58	Location_of Arg1:T43 Arg2:T32	
+R59	Location_of Arg1:T43 Arg2:T29	
+R60	Experiences Arg1:T89 Arg2:T48	
+R61	Used_for Arg1:T33 Arg2:T48	
+R62	Combined_with Arg1:T33 Arg2:T34	
+R63	Experiences Arg1:T89 Arg2:T62	
+R64	Experiences Arg1:T89 Arg2:T47	
+R65	Experiences Arg1:T89 Arg2:T35	
+R66	Used_for Arg1:T33 Arg2:T35	
+R68	Has_Duration_or_Interval Arg1:T33 Arg2:T91	
+R69	Has_Duration_or_Interval Arg1:T34 Arg2:T91	
+R67	Overlap Arg1:T47 Arg2:T91	
+R70	Overlap Arg1:T62 Arg2:T91	
+T81	Neg_cue 1415 1417	No
+T82	CONC 1423 1430	cambios
+A1	Assertion T82 Negated
+#78	AnnotatorNotes T82	C0443172; Changed status; Quantitative Concept
+R71	Negation Arg1:T81 Arg2:T82	
+R72	Location_of Arg1:T63 Arg2:T93	
+R73	Location_of Arg1:T63 Arg2:T52	
+T84	PROC 1453 1473;1497 1507	presiones arteriales diastólica
+#79	AnnotatorNotes T84	C1305849; Diastolic blood pressure measurement; Diagnostic Procedure
+R74	Location_of Arg1:T63 Arg2:T84	
+R75	Location_of Arg1:T64 Arg2:T58	
+R76	Overlap Arg1:T58 Arg2:T36	
+R77	Overlap Arg1:T84 Arg2:T36	
+R78	Overlap Arg1:T52 Arg2:T36	
+R79	Overlap Arg1:T82 Arg2:T36	
+R80	Combined_with Arg1:T38 Arg2:T39	
+R84	Experiences Arg1:T98 Arg2:T38	
+R85	Experiences Arg1:T98 Arg2:T65	
+R86	Experiences Arg1:T98 Arg2:T41	
+R87	Location_of Arg1:T42 Arg2:T99	
+R88	Location_of Arg1:T40 Arg2:T37	
+T85	Spec_cue 1800 1813	probablemente
+T86	CONC 1814 1825	relacionado
+A2	Assertion T86 Speculated
+R89	Speculation Arg1:T85 Arg2:T86	
+T87	Observation 1833 1852	reducción de la PIO
+T88	Observation 1649 1655;1675 1681	redujo la PIO
+R82	Causes Arg1:T39 Arg2:T88	
+R90	Experiences Arg1:T98 Arg2:T88	
+T92	Quantifier_or_Qualifier 1431 1445	significativos
+#81	AnnotatorNotes T92	C0237881; Statistical Significance; Quantitative Concept
+R91	Negation Arg1:T81 Arg2:T92	
+R92	Has_Quantifier_or_Qualifier Arg1:T82 Arg2:T92	
+A3	Assertion T92 Negated
+T90	Observation 49 55	efecto
+#80	AnnotatorNotes T90	C1518681; Outcome of Therapy; Finding (?)
+R93	Causes Arg1:T5 Arg2:T90	
+T94	Observation 210 216	efecto
+#82	AnnotatorNotes T94	C1518681; Outcome of Therapy; Finding (?)
+R94	Causes Arg1:T46 Arg2:T94	
+#83	AnnotatorNotes T80	C0205435; First (number); Quantitative Concept
+T95	Observation 1064 1070;1090 1096	redujo la PIO
+R10	Causes Arg1:T30 Arg2:T95	
+#87	AnnotatorNotes T86	C0332281; Associated with; Qualitative Concept
+A4	Experiencer T98 Patient
+A5	Experiencer T69 Patient
+A6	Experiencer T75 Patient
+A7	Experiencer T76 Patient
+A8	Experiencer T77 Patient
+A9	Experiencer T89 Patient
+R15	Has_Result_or_Value Arg1:T65 Arg2:T88	
+R16	Has_Result_or_Value Arg1:T66 Arg2:T87	
+R42	Has_Result_or_Value Arg1:T61 Arg2:T95	

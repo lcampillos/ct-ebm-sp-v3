@@ -1,0 +1,65 @@
+T1	PROC 104 115	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 155 163	psicosis
+#2	AnnotatorNotes T2	C0033975; Psychotic Disorders; Mental or Behavioral Dysfunction
+T3	PROC 187 250	Estudio abierto randomizado a dosis flexibles de la efectividad
+T4	PROC 297 308	tratamiento
+#3	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	DISO 348 356	psicosis
+#4	AnnotatorNotes T5	C0033975; Psychotic Disorders; Mental or Behavioral Dysfunction
+T6	DISO 417 425	PSICOSIS
+#5	AnnotatorNotes T6	C0033975; Psychotic Disorders; Mental or Behavioral Dysfunction
+T7	DISO 439 452	ESQUIZOFRENIA
+#6	AnnotatorNotes T7	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T8	PROC 477 502	TRATAMIENTO FARMACOLOGICO
+#7	AnnotatorNotes T8	C0013216; Pharmacotherapy; Therapeutic or Preventive Procedure
+T9	DISO 554 562	PSICOSIS
+#8	AnnotatorNotes T9	C0033975; Psychotic Disorders; Mental or Behavioral Dysfunction
+T10	DISO 576 589	ESQUIZOFRENIA
+#9	AnnotatorNotes T10	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T11	CHEM 61 75	antipsicóticos
+#10	AnnotatorNotes T11	C0040615; Antipsychotic Agents; Pharmacologic Substance
+T12	CHEM 595 605	MEDICACION
+#11	AnnotatorNotes T12	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T13	CHEM 254 268	antipsicóticos
+#12	AnnotatorNotes T13	C0040615; Antipsychotic Agents; Pharmacologic Substance
+T14	Date 13 17	2013
+T15	LIVB 119 128	pacientes
+#13	AnnotatorNotes T15	C0030705; Patients; Patient or Disabled Group
+T16	Dose 217 232	dosis flexibles
+T17	LIVB 312 321	pacientes
+#14	AnnotatorNotes T17	C0030705; Patients; Patient or Disabled Group
+T18	LIVB 381 390	PACIENTES
+#15	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T19	Neg_cue 458 463	NUNCA
+T20	Neg_cue 591 594	SIN
+A1	Assertion T8 Negated
+A2	Assertion T12 Negated
+A3	Status T8 History_of
+T21	Quantifier_or_Qualifier 76 97	de segunda generación
+R1	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T21	
+T22	Quantifier_or_Qualifier 269 290	de segunda generación
+R2	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T22	
+R3	Experiences Arg1:T15 Arg2:T11	
+R4	Experiences Arg1:T15 Arg2:T2	
+T23	Quantifier_or_Qualifier 136 151	primer episodio
+R5	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T23	
+R7	Used_for Arg1:T11 Arg2:T1	
+R8	Has_Dose_or_Strength Arg1:T13 Arg2:T16	
+R9	Used_for Arg1:T13 Arg2:T4	
+R10	Experiences Arg1:T17 Arg2:T5	
+T24	Quantifier_or_Qualifier 329 344	primer episodio
+R11	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T24	
+R12	Experiences Arg1:T17 Arg2:T13	
+T25	Quantifier_or_Qualifier 398 413	PRIMER EPISODIO
+R6	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T25	
+R13	Experiences Arg1:T18 Arg2:T6	
+R14	Experiences Arg1:T18 Arg2:T7	
+R15	Experiences Arg1:T18 Arg2:T8	
+R16	Negation Arg1:T19 Arg2:T8	
+T26	Quantifier_or_Qualifier 535 550	PRIMER EPISODIO
+R17	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T26	
+R18	Negation Arg1:T20 Arg2:T12	
+A4	Experiencer T15 Patient
+A5	Experiencer T17 Patient
+A6	Experiencer T18 Patient

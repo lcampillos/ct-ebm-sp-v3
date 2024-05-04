@@ -1,0 +1,127 @@
+T1	PROC 46 61	Estudio clínico
+#1	AnnotatorNotes T1	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T2	PROC 115 121	tratar
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 125 129	asma
+#3	AnnotatorNotes T3	C0004096; Asthma; Disease or Syndrome
+T4	PROC 157 234	Estudio de intervalo de dosis, de grupos paralelos, doble ciego, aleatorizado
+T5	PROC 241 272	evaluar la eficacia y seguridad
+#4	AnnotatorNotes T5	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T6	CHEM 317 342	propionato de fluticasona
+T7	DISO 414 436	asma grave persistente
+#5	AnnotatorNotes T7	C1960048; Severe persistent asthma; Disease or Syndrome
+T8	PROC 450 466	tratamiento oral
+#6	AnnotatorNotes T8	C1273553; Oral administration of treatment; Therapeutic or Preventive Procedure
+T9	CHEM 471 487	corticosteroides
+#7	AnnotatorNotes T9	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T10	DISO 512 516	Asma
+#8	AnnotatorNotes T10	C0004096; Asthma; Disease or Syndrome
+T11	DISO 673 677	asma
+#9	AnnotatorNotes T11	C0004096; Asthma; Disease or Syndrome
+T12	PROC 697 704	terapia
+#10	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	CHEM 720 732	prednisolona
+#11	AnnotatorNotes T13	C0032950; prednisolone; Organic Chemical · Pharmacologic Substance
+T14	DISO 749 758	asmáticos
+#12	AnnotatorNotes T14	C0004096; Asthma; Disease or Syndrome
+T15	DISO 1070 1123	infección del tracto respiratorio superior o inferior
+T16	DISO 1200 1204	asma
+#13	AnnotatorNotes T16	C0004096; Asthma; Disease or Syndrome
+T17	PROC 1221 1265	ingreso en una unidad de cuidados intensivos
+T18	PROC 1272 1283	ventilación
+#14	AnnotatorNotes T18	C0035205; Respiration, Artificial; Therapeutic or Preventive Procedure
+T19	DISO 1336 1352	cáncer de pulmón
+#15	AnnotatorNotes T19	C0242379; Malignant neoplasm of lung; Neoplastic Process | C0684249; Carcinoma of lung; Neoplastic Process
+T20	PROC 763 767	VEF1
+#16	AnnotatorNotes T20	C1306036; Forced expiratory volume procedure; Diagnostic Procedure
+T21	CHEM 709 719	prednisona
+#17	AnnotatorNotes T21	C0032952; prednisone; Hormone · Organic Chemical · Pharmacologic Substance
+T22	ANAT 1084 1123	tracto respiratorio superior o inferior
+T23	ANAT 1346 1352	pulmón
+#18	AnnotatorNotes T23	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T24	Date 13 17	2011
+T26	Dose 276 286	tres dosis
+T27	Frequency 287 294	diarias
+T30	LIVB 400 409	pacientes
+#19	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Route 462 466	oral
+#20	AnnotatorNotes T31	C1527415; Oral Route of Drug administration; Functional Concept
+T32	Age 559 577	entre 12 y 17 años
+T33	LIVB 592 599	adultos
+#21	AnnotatorNotes T33	C0001675; Adult; Age Group
+T34	Age 603 621	entre 18 y 65 años
+T36	LIVB 733 748	Sujetos adultos
+#22	AnnotatorNotes T36	C0681850; Study Subject; Group + C0001675; Adult; Age Group
+T37	Date 897 901	1999
+T38	Date 962 966	1993
+T39	LIVB 1030 1037	sujetos
+#23	AnnotatorNotes T39	C0681850; Study Subject; Group
+T40	Duration 1134 1145	los 28 días
+T41	LIVB 1188 1195	sujetos
+#24	AnnotatorNotes T41	C0681850; Study Subject; Group
+T42	Duration 1294 1317	los 12 meses anteriores
+T43	DEVI 94 103	inhalador
+#25	AnnotatorNotes T43	C0021461; Inhaler; Medical Device
+T44	Route 343 351	inhalado
+#26	AnnotatorNotes T44	C0004048; Inspiration function; Organism Function
+T45	DEVI 373 396	inhalador de polvo seco
+#27	AnnotatorNotes T45	C1967611; Dry Powder Inhaler; Medical Device
+T46	LIVB 543 555	Adolescentes
+#28	AnnotatorNotes T46	C0205653; Adolescent (age group); Age Group
+T25	PROC 1162 1181	visita de selección
+#29	AnnotatorNotes T25	C1710477; Trial Screening; Research Activity + C1512346; Patient Visit; Health Care Activity
+A1	Population_data T33 Age
+A2	Population_data T46 Age
+A3	Population_data T36 Age
+A4	Status T11 History_of
+A5	Status T17 History_of
+A6	Status T18 History_of
+A7	Status T19 History_of
+#30	AnnotatorNotes T6	C5541282; fluticasone propionate in serum or plasma; Laboratory Procedure 
+#31	AnnotatorNotes T22	C0458579; Lower respiratory tract structure; Body System + C0458578; Upper respiratory tract; Body Part, Organ, or Organ Component 
+#32	AnnotatorNotes T15	C0041912; Upper Respiratory Infections; Disease or Syndrome + C0149725; Lower respiratory tract infection; Disease or Syndrome 
+#33	AnnotatorNotes T17	C0583239; Admission to intensive care unit; Health Care Activity
+R1	Used_for Arg1:T43 Arg2:T2	
+T28	Quantifier_or_Qualifier 130 135	grave
+#34	AnnotatorNotes T28	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R2	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T28	
+R3	Has_Dose_or_Strength Arg1:T6 Arg2:T26	
+R4	Has_Frequency Arg1:T6 Arg2:T27	
+R5	Has_Route_or_Mode Arg1:T6 Arg2:T44	
+R6	Used_for Arg1:T45 Arg2:T6	
+R7	Experiences Arg1:T30 Arg2:T6	
+R8	Experiences Arg1:T30 Arg2:T45	
+R9	Experiences Arg1:T30 Arg2:T7	
+R10	Used_for Arg1:T9 Arg2:T8	
+R11	Has_Route_or_Mode Arg1:T9 Arg2:T31	
+R12	Experiences Arg1:T30 Arg2:T8	
+R13	Has_Age Arg1:T46 Arg2:T32	
+R14	Has_Age Arg1:T33 Arg2:T34	
+T29	Quantifier_or_Qualifier 678 683	grave
+#35	AnnotatorNotes T29	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R15	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T29	
+R16	Used_for Arg1:T21 Arg2:T12	
+R17	Experiences Arg1:T36 Arg2:T14	
+T35	Result_or_Value 768 797	≥ 40 % del valor pronosticado
+R18	Has_Result_or_Value Arg1:T20 Arg2:T35	
+R19	Experiences Arg1:T36 Arg2:T20	
+R20	Used_for Arg1:T13 Arg2:T12	
+T47	CONC 839 849	NHANES III
+#36	AnnotatorNotes T47	C2825743; Third National Health and Nutrition Examination Survey; Intellectual Product
+R21	Location_of Arg1:T22 Arg2:T15	
+R22	Experiences Arg1:T39 Arg2:T15	
+R23	Overlap Arg1:T15 Arg2:T40	
+R24	After Arg1:T15 Arg2:T25	
+R25	Experiences Arg1:T41 Arg2:T16	
+R26	Experiences Arg1:T41 Arg2:T17	
+R27	Experiences Arg1:T41 Arg2:T18	
+R28	Overlap Arg1:T17 Arg2:T42	
+R29	Overlap Arg1:T18 Arg2:T42	
+R32	Location_of Arg1:T23 Arg2:T19	
+R33	Experiences Arg1:T39 Arg2:T25	
+A8	Experiencer T39 Patient
+A9	Experiencer T41 Patient
+A10	Experiencer T30 Patient
+A11	Experiencer T46 Patient
+A12	Experiencer T33 Patient
+A13	Experiencer T36 Patient

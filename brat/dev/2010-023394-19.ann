@@ -1,0 +1,155 @@
+T1	DISO 125 151	infarto agudo de miocardio
+#1	AnnotatorNotes T1	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T2	PROC 178 190	angioplastia
+#2	AnnotatorNotes T2	C0162577; Angioplasty; Therapeutic or Preventive Procedure
+T3	DISO 329 375	infarto agudo de miocardio con elevación de ST
+#3	AnnotatorNotes T3	C1303258; Acute ST segment elevation myocardial infarction (disorder); Disease or Syndrome
+T4	PROC 388 400	angioplastia
+#4	AnnotatorNotes T4	C0162577; Angioplasty; Therapeutic or Preventive Procedure
+T5	DISO 447 473	infarto agudo de miocardio
+#5	AnnotatorNotes T5	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T6	PROC 497 509	angioplastia
+#6	AnnotatorNotes T6	C0162577; Angioplasty; Therapeutic or Preventive Procedure
+T7	DISO 559 605	infarto agudo de miocardio con elevacion de ST
+#7	AnnotatorNotes T7	C1303258; Acute ST segment elevation myocardial infarction (disorder); Disease or Syndrome
+T8	PROC 1018 1042	consentimiento informado
+#8	AnnotatorNotes T8	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T9	PROC 623 635	angioplastia
+#9	AnnotatorNotes T9	C0162577; Angioplasty; Therapeutic or Preventive Procedure
+T10	DISO 704 712	síntomas
+#10	AnnotatorNotes T10	C1457887; Symptoms; Sign or Symptom
+T11	DISO 716 762	infarto agudo de miocardio con elevación de ST
+#11	AnnotatorNotes T11	C1303258; Acute ST segment elevation myocardial infarction (disorder); Disease or Syndrome
+T12	DISO 927 945	shock cardiogénico
+#12	AnnotatorNotes T12	C0036980; Shock, Cardiogenic; Pathologic Function
+T13	DISO 946 950	asma
+#13	AnnotatorNotes T13	C0004096; Asthma; Disease or Syndrome
+T14	DISO 958 969	bradicardia
+#14	AnnotatorNotes T14	C0428977; Bradycardia; Finding
+T15	DISO 977 997	infarto de miocardio
+#15	AnnotatorNotes T15	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T16	DISO 908 919	hipotensión
+#16	AnnotatorNotes T16	C0020649; Hypotension; Finding
+T17	PROC 46 60	Administración
+#17	AnnotatorNotes T17	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T18	ANAT 142 151	miocardio
+#18	AnnotatorNotes T18	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T19	PROC 249 270	Administración precoz
+T20	ANAT 346 355	miocardio
+#19	AnnotatorNotes T20	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T21	ANAT 464 473	miocardio
+#20	AnnotatorNotes T21	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T22	ANAT 576 585	miocardio
+#21	AnnotatorNotes T22	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T23	ANAT 733 742	miocardio
+#22	AnnotatorNotes T23	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T24	ANAT 988 997	miocardio
+#23	AnnotatorNotes T24	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T25	CHEM 65 80	beta bloqueante
+#24	AnnotatorNotes T25	C0001645; Adrenergic beta-Antagonists; Pharmacologic Substance
+T26	PROC 93 104	reperfusión
+T27	CHEM 274 287	β-bloqueantes
+#25	AnnotatorNotes T27	C0001645; Adrenergic beta-Antagonists; Pharmacologic Substance
+T28	PROC 300 311	reperfusión
+T29	Date 13 17	2010
+T30	LIVB 108 117	pacientes
+#26	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	Duration 203 226	las siguientes 12 horas
+T32	LIVB 315 324	pacientes
+#27	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 433 442	Pacientes
+#28	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 545 554	Pacientes
+#29	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 671 680	Pacientes
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Age 681 699	mayores de 18 años
+T37	Duration 766 779	más de 30 min
+T38	Duration 797 814	menos de 12 horas
+T39	Neg_cue 1005 1007	no
+A1	Assertion T8 Negated
+A2	Status T15 History_of
+#31	AnnotatorNotes T26	C0035124; Reperfusion Therapy; Therapeutic or Preventive Procedure 
+#32	AnnotatorNotes T28	C0035124; Reperfusion Therapy; Therapeutic or Preventive Procedure 
+R1	Location_of Arg1:T18 Arg2:T1	
+R2	Location_of Arg1:T20 Arg2:T3	
+T40	Observation 360 375	elevación de ST
+#33	AnnotatorNotes T40	C0520886; ST segment elevation (finding); Finding
+R3	Overlap Arg1:T3 Arg2:T40	
+R4	Location_of Arg1:T21 Arg2:T5	
+T41	Observation 590 605	elevacion de ST
+#34	AnnotatorNotes T41	C0520886; ST segment elevation (finding); Finding
+R5	Overlap Arg1:T7 Arg2:T41	
+R6	Location_of Arg1:T22 Arg2:T7	
+T42	Observation 747 762	elevación de ST
+#35	AnnotatorNotes T42	C0520886; ST segment elevation (finding); Finding
+R7	Location_of Arg1:T23 Arg2:T11	
+R8	Overlap Arg1:T11 Arg2:T42	
+R11	Has_Duration_or_Interval Arg1:T11 Arg2:T37	
+R9	Has_Duration_or_Interval Arg1:T11 Arg2:T38	
+T43	Observation 819 834	elevación de ST
+#36	AnnotatorNotes T43	C0520886; ST segment elevation (finding); Finding
+T44	Result_or_Value 838 881	mas de 1mV en dos derivaciones consecutivas
+R10	Has_Result_or_Value Arg1:T43 Arg2:T44	
+R12	Has_Age Arg1:T35 Arg2:T36	
+R13	Experiences Arg1:T35 Arg2:T10	
+R14	Experiences Arg1:T35 Arg2:T11	
+R15	Experiences Arg1:T35 Arg2:T43	
+R16	Causes Arg1:T11 Arg2:T10	
+R17	Used_for Arg1:T25 Arg2:T17	
+R18	Before Arg1:T17 Arg2:T26	
+R19	Experiences Arg1:T30 Arg2:T17	
+R20	Experiences Arg1:T30 Arg2:T26	
+R21	Experiences Arg1:T30 Arg2:T1	
+R22	Experiences Arg1:T30 Arg2:T2	
+R24	Has_Duration_or_Interval Arg1:T2 Arg2:T31	
+T45	Quantifier_or_Qualifier 191 199	primaria
+#37	AnnotatorNotes T45	C0205225; Primary; Qualitative Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T45	
+T46	Quantifier_or_Qualifier 401 409	primaria
+#38	AnnotatorNotes T46	C0205225; Primary; Qualitative Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T46	
+T47	Quantifier_or_Qualifier 510 518	primaria
+#39	AnnotatorNotes T47	C0205225; Primary; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T47	
+T48	Quantifier_or_Qualifier 636 644	primaria
+#40	AnnotatorNotes T48	C0205225; Primary; Qualitative Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T48	
+R28	Experiences Arg1:T34 Arg2:T7	
+R29	Experiences Arg1:T34 Arg2:T9	
+R30	Experiences Arg1:T34 Arg2:T41	
+R31	Experiences Arg1:T33 Arg2:T5	
+R32	Experiences Arg1:T33 Arg2:T6	
+R33	Used_for Arg1:T27 Arg2:T19	
+R34	Negation Arg1:T39 Arg2:T8	
+R35	Location_of Arg1:T24 Arg2:T15	
+T49	Quantifier_or_Qualifier 970 976	severa
+#41	AnnotatorNotes T49	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R36	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T49	
+T50	Quantifier_or_Qualifier 951 957	severa
+#42	AnnotatorNotes T50	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R37	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T50	
+T51	Quantifier_or_Qualifier 920 926	severa
+#43	AnnotatorNotes T51	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R38	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T51	
+R39	Before Arg1:T19 Arg2:T28	
+R40	Experiences Arg1:T32 Arg2:T19	
+R41	Experiences Arg1:T32 Arg2:T28	
+R42	Experiences Arg1:T32 Arg2:T3	
+R43	Experiences Arg1:T32 Arg2:T40	
+R44	Experiences Arg1:T32 Arg2:T4	
+R45	Before Arg1:T19 Arg2:T4	
+R46	Before Arg1:T17 Arg2:T2	
+R47	Overlap Arg1:T11 Arg2:T43	
+#44	AnnotatorNotes T19	C1964029; early/brief intervention/therapy (treatment); Therapeutic or Preventive Procedure (?) 
+A3	Experiencer T30 Patient
+A4	Experiencer T32 Patient
+A5	Experiencer T33 Patient
+A6	Experiencer T34 Patient
+A7	Status T6 Future
+A8	Status T9 Future
+A9	Experiencer T35 Patient
+A10	Status T2 Future
+A11	Status T45 Future
+A12	Status T47 Future
+A13	Status T48 Future

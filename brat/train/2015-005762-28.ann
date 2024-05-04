@@ -1,0 +1,115 @@
+T1	PROC 46 66	Análisis comparativo
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	CHEM 82 92	hormonales
+#2	AnnotatorNotes T2	C0019932; Hormones; Hormone
+T3	PROC 104 124	estimulación ovárica
+T4	CHEM 133 145	medicaciones
+#3	AnnotatorNotes T4	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T5	PROC 223 254	estimulación ovárica controlada
+#4	AnnotatorNotes T5	C3160898; Controlled ovarian stimulation; Therapeutic or Preventive Procedure
+T6	ANAT 210 219	folicular
+T7	PROC 651 654	AMH
+#5	AnnotatorNotes T7	C4048548; Anti-Mullerian Hormone Measurement; Laboratory Procedure
+T8	CHEM 297 320	antagonistas de la GnRH
+#6	AnnotatorNotes T8	C1268855; Gonadotropin releasing hormone antagonist; Hormone · Pharmacologic Substance
+T9	ANAT 357 365	ovocitos
+#7	AnnotatorNotes T9	C0029045; Oocytes; Cell
+T10	PROC 444 464	donación de ovocitos
+#8	AnnotatorNotes T10	C0242813; Oocyte Donation; Therapeutic or Preventive Procedure
+T11	PROC 403 438	tratamiento de estimulación ovárica
+#9	AnnotatorNotes T11	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+T12	ANAT 456 464	ovocitos
+#10	AnnotatorNotes T12	C0029045; Oocytes; Cell
+T13	ANAT 733 741	ovocitos
+#11	AnnotatorNotes T13	C0029045; Oocytes; Cell
+T14	DISO 770 789	Insuficiencia renal
+#12	AnnotatorNotes T14	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T15	DISO 792 811	Ovario poliquístico
+#13	AnnotatorNotes T15	C0032460; Polycystic Ovary Syndrome; Disease or Syndrome
+T16	DISO 824 856	trastorno sistémico o metabólico
+T17	CHEM 885 899	gonadotrofinas
+#14	AnnotatorNotes T17	C0018061; Gonadotropins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T18	ANAT 971 979	ovocitos
+#15	AnnotatorNotes T18	C0029045; Oocytes; Cell
+T19	ANAT 117 124	ovárica
+#16	AnnotatorNotes T19	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T20	ANAT 236 243	ovárica
+#17	AnnotatorNotes T20	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T21	CHEM 259 275	FSH recombinante
+#18	AnnotatorNotes T21	C0724588; Recombinant Follicle Stimulating Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T22	CHEM 279 282	HMG
+T23	ANAT 431 438	ovárica
+#19	AnnotatorNotes T23	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T24	ANAT 615 622	ovárica
+#20	AnnotatorNotes T24	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T25	ANAT 784 789	renal
+#21	AnnotatorNotes T25	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T26	ANAT 792 798	Ovario
+#22	AnnotatorNotes T26	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T27	PROC 671 674	IMC
+#23	AnnotatorNotes T27	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T28	PROC 959 979	donación de ovocitos
+#24	AnnotatorNotes T28	C0242813; Oocyte Donation; Therapeutic or Preventive Procedure
+T29	Date 13 17	2015
+T30	PHYS 193 209	esteroidogénesis
+T32	LIVB 345 365	Donantes de ovocitos
+#25	AnnotatorNotes T32	C3267027; Oocyte donor; Population Group
+T33	LIVB 392 399	Mujeres
+#26	AnnotatorNotes T33	C0043210; Woman; Population Group
+T34	LIVB 493 500	Mujeres
+#27	AnnotatorNotes T34	C0043210; Woman; Population Group
+T35	Age 501 516	de 18 a 35 años
+T36	Duration 588 603	de 25 a 35 días
+T37	PHYS 607 622	Reserva ovárica
+#28	AnnotatorNotes T37	C3850153; Ovarian Reserve; Organ or Tissue Function
+T38	LIVB 721 741	donantes de ovocitos
+#29	AnnotatorNotes T38	C3267027; Oocyte donor; Population Group
+T39	PHYS 846 856	metabólico
+#30	AnnotatorNotes T39	C0025519; Metabolism; Organism Function
+T31	PHYS 555 570	Ciclo menstrual
+#31	AnnotatorNotes T31	C0025329; Menstrual cycle; Organism Function
+T40	Neg_cue 933 942	exclusión
+A1	Assertion T28 Negated
+A2	Assertion T17 Contraindicated
+#32	AnnotatorNotes T3	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#33	AnnotatorNotes T30	C0597513; Steroid biosynthesis; Molecular Function 
+#34	AnnotatorNotes T6	C0018120; Ovarian Follicle; Body Part, Organ, or Organ Component | C1283799; Entire ovarian follicle; Body Part, Organ, or Organ Component
+T41	Observation 74 92	cambios hormonales
+#35	AnnotatorNotes T41	C1134488; Hormonal Change; Finding
+R1	Overlap Arg1:T41 Arg2:T3	
+R2	Used_for Arg1:T4 Arg2:T3	
+R4	Location_of Arg1:T19 Arg2:T3	
+R5	Location_of Arg1:T20 Arg2:T5	
+R6	Combined_with Arg1:T22 Arg2:T8	
+R7	Combined_with Arg1:T21 Arg2:T8	
+R8	Used_for Arg1:T21 Arg2:T5	
+R9	Used_for Arg1:T22 Arg2:T5	
+#36	AnnotatorNotes T22	C0025326; Menotropins; Pharmacologic Substance
+R10	Location_of Arg1:T23 Arg2:T11	
+R11	Experiences Arg1:T33 Arg2:T11	
+R12	Experiences Arg1:T33 Arg2:T10	
+R13	Has_Age Arg1:T34 Arg2:T35	
+T42	Observation 519 552	Buen estado de salud psico-física
+T43	Quantifier_or_Qualifier 571 577	normal
+#37	AnnotatorNotes T43	C0205307; Normal; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T43	
+R15	Has_Duration_or_Interval Arg1:T31 Arg2:T36	
+T44	Quantifier_or_Qualifier 623 629	normal
+#38	AnnotatorNotes T44	C0205307; Normal; Qualitative Concept
+R16	Location_of Arg1:T24 Arg2:T37	
+R17	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T44	
+T45	Result_or_Value 655 667	10-30 pMol/L
+R18	Has_Result_or_Value Arg1:T7 Arg2:T45	
+T46	Result_or_Value 675 681	< 25.0
+R19	Has_Result_or_Value Arg1:T27 Arg2:T46	
+R20	Location_of Arg1:T25 Arg2:T14	
+R21	Location_of Arg1:T26 Arg2:T15	
+R22	Negation Arg1:T40 Arg2:T28	
+R24	Location_of Arg1:T6 Arg2:T30	
+R3	Used_for Arg1:T2 Arg2:T3	
+#39	AnnotatorNotes T16	C0442893; Systemic disease; Disease or Syndrome | C0025517; Metabolic Diseases; Disease or Syndrome
+#40	AnnotatorNotes T42	C1277245; General health good; Finding (?)
+A3	Experiencer T32 Patient
+A4	Experiencer T33 Patient
+A5	Experiencer T34 Patient
+A6	Experiencer T38 Patient

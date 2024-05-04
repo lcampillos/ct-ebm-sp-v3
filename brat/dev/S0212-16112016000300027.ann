@@ -1,0 +1,181 @@
+T1	CHEM 11 30	esteroles vegetales
+#1	AnnotatorNotes T1	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T2	PROC 51 72	colesterol plasmático
+#2	AnnotatorNotes T2	C0858034; Plasma Cholesterol Test; Laboratory Procedure
+T3	PROC 979 1034	Se analizaron la composición corporal, hábitos de salud
+T4	PROC 74 137	ensayo clínico, controlado, aleatorizado, cruzado y doble ciego
+#3	AnnotatorNotes T4	C0150097; Cross-Over Studies; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity
+T5	PROC 958 977	muestras sanguíneas
+#4	AnnotatorNotes T5	C1277698; Blood sample taken; Laboratory Procedure
+T6	DISO 156 175	hipercolesterolemia
+#5	AnnotatorNotes T6	C0020443; Hypercholesterolemia; Disease or Syndrome
+T7	DISO 227 252	enfermedad cardiovascular
+#6	AnnotatorNotes T7	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T8	CHEM 258 277	esteroles vegetales
+#7	AnnotatorNotes T8	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T9	PROC 1075 1104	perfil lipídico, hematológico
+T10	CHEM 397 416	esteroles vegetales
+#8	AnnotatorNotes T10	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T11	PROC 459 480	colesterol plasmático
+#9	AnnotatorNotes T11	C0858034; Plasma Cholesterol Test; Laboratory Procedure
+T12	PROC 511 574	ensayo clínico, controlado, aleatorizado, doble ciego y cruzado
+#10	AnnotatorNotes T12	C0150097; Cross-Over Studies; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity
+T13	CHEM 580 589	esteroles
+#11	AnnotatorNotes T13	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T14	CHEM 871 880	esteroles
+#12	AnnotatorNotes T14	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T15	PROC 931 943	intervención
+#13	AnnotatorNotes T15	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T16	ANAT 967 977	sanguíneas
+#14	AnnotatorNotes T16	C0005767; Blood; Body Substance
+T17	ANAT 1063 1073	sanguíneos
+#15	AnnotatorNotes T17	C0005767; Blood; Body Substance
+T18	CHEM 1082 1090	lipídico
+#16	AnnotatorNotes T18	C0023779; Lipids; Organic Chemical
+T19	DISO 1106 1117	inflamación
+#17	AnnotatorNotes T19	C0021368; Inflammation; Pathologic Function
+T20	CHEM 1288 1298	colesterol
+#18	AnnotatorNotes T20	C0008377; cholesterol; Organic Chemical · Biologically Active Substance
+T21	CHEM 1627 1646	esteroles vegetales
+#19	AnnotatorNotes T21	C0031866; phytosterols; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T22	PROC 1727 1766	estrategia terapéutica no farmacológica
+T23	DISO 1789 1808	hipercolesterolemia
+#20	AnnotatorNotes T23	C0020443; Hypercholesterolemia; Disease or Syndrome
+T24	CHEM 51 61	colesterol
+#21	AnnotatorNotes T24	C0008377; cholesterol; Organic Chemical · Biologically Active Substance
+T25	ANAT 62 72	plasmático
+#22	AnnotatorNotes T25	C0032105; Plasma; Body Substance
+T26	ANAT 238 252	cardiovascular
+#23	AnnotatorNotes T26	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T27	CHEM 459 469	colesterol
+#24	AnnotatorNotes T27	C0008377; cholesterol; Organic Chemical · Biologically Active Substance
+T28	ANAT 470 480	plasmático
+#25	AnnotatorNotes T28	C0032105; Plasma; Body Substance
+T29	ANAT 1008 1016	corporal
+#26	AnnotatorNotes T29	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T30	PROC 1288 1304	colesterol total
+#27	AnnotatorNotes T30	C1445957; Serum total cholesterol measurement; Laboratory Procedure
+T31	PROC 1306 1320	colesterol-LDL
+#28	AnnotatorNotes T31	C0202117; Low density lipoprotein cholesterol measurement; Laboratory Procedure
+T32	PROC 1322 1336	colesterol-HDL
+#29	AnnotatorNotes T32	C0392885; High density lipoprotein measurement; Laboratory Procedure
+T33	PROC 1338 1351	triglicéridos
+#30	AnnotatorNotes T33	C0202236; Triglycerides measurement; Laboratory Procedure
+T34	PROC 1354 1371	colesterol no-HDL
+#31	AnnotatorNotes T34	C1535899; Non-High Density Lipoprotein Cholesterol Measurement; Laboratory Procedure
+T35	PROC 1595 1608	triglicéridos
+#32	AnnotatorNotes T35	C0202236; Triglycerides measurement; Laboratory Procedure
+T36	Spec_cue 214 220	riesgo
+T38	LIVB 484 499	adultos jóvenes
+#33	AnnotatorNotes T38	C0238598; Young Adult; Age Group
+T40	Dose 591 597	2,24 g
+T41	Frequency 598 605	diarios
+T43	Duration 693 718	dos periodos de 3 semanas
+T44	Duration 758 767	2 semanas
+T45	LIVB 775 793	grupo experimental
+#34	AnnotatorNotes T45	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T46	LIVB 798 811	grupo control
+#35	AnnotatorNotes T46	C0009932; Control Groups; Group
+T47	Neg_cue 867 870	sin
+T49	LIVB 1154 1162	personas
+#36	AnnotatorNotes T49	C0027361; Persons; Population Group
+T50	Age 1199 1214	38,8 ± 7,3 años
+T51	LIVB 1502 1520	grupo experimental
+#37	AnnotatorNotes T51	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T52	LIVB 1526 1539	grupo control
+#38	AnnotatorNotes T52	C0009932; Control Groups; Group
+A1	Assertion T7 Speculated
+A2	Population_data T38 Age
+A3	Assertion T14 Negated
+R1	Negation Arg1:T47 Arg2:T14	
+R2	Speculation Arg1:T36 Arg2:T7	
+T37	Neg_cue 1750 1752	no
+T39	Quantifier_or_Qualifier 1753 1766	farmacológica
+A4	Assertion T39 Negated
+R3	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T39	
+R4	Negation Arg1:T37 Arg2:T39	
+T42	Neg_cue 1365 1367	no
+T48	CHEM 1368 1371	HDL
+A5	Assertion T48 Negated
+#39	AnnotatorNotes T48	C0023821; High Density Lipoproteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+R5	Negation Arg1:T42 Arg2:T48	
+T53	Observation 1 7	Efecto
+#40	AnnotatorNotes T53	C1518681; Outcome of Therapy; Finding (?)
+R6	Causes Arg1:T1 Arg2:T53	
+T54	Observation 37 72	reducción del colesterol plasmático
+R7	Location_of Arg1:T25 Arg2:T2	
+R10	Causes Arg1:T1 Arg2:T54	
+R11	Before Arg1:T6 Arg2:T7	
+R12	Location_of Arg1:T26 Arg2:T7	
+T55	Observation 383 389	efecto
+#41	AnnotatorNotes T55	C1518681; Outcome of Therapy; Finding (?)
+R13	Causes Arg1:T10 Arg2:T55	
+R14	Location_of Arg1:T28 Arg2:T11	
+R15	Experiences Arg1:T38 Arg2:T11	
+R16	Experiences Arg1:T38 Arg2:T55	
+R17	Experiences Arg1:T38 Arg2:T10	
+R18	Before Arg1:T10 Arg2:T11	
+T56	Food 433 438	leche
+#42	AnnotatorNotes T56	C2825079; Milk - dietary; Food
+R19	Combined_with Arg1:T10 Arg2:T56	
+T57	Observation 445 480	reducción del colesterol plasmático
+R20	Location_of Arg1:T28 Arg2:T57	
+R22	Experiences Arg1:T38 Arg2:T57	
+R23	Has_Frequency Arg1:T13 Arg2:T41	
+R24	Has_Dose_or_Strength Arg1:T13 Arg2:T40	
+T58	Quantifier_or_Qualifier 631 640	dos tomas
+T59	Food 658 663;674 683	leche desnatada
+#43	AnnotatorNotes T59	C0349375; skim milk; Food
+R25	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T58	
+R26	Combined_with Arg1:T13 Arg2:T59	
+R27	Has_Duration_or_Interval Arg1:T13 Arg2:T43	
+T60	CONC 739 753	fase de lavado
+#44	AnnotatorNotes T60	C1710661; Washout Period; Temporal Concept
+R28	Has_Duration_or_Interval Arg1:T60 Arg2:T44	
+R29	Before Arg1:T13 Arg2:T60	
+R30	Experiences Arg1:T45 Arg2:T13	
+T61	Food 850 865	leche desnatada
+#45	AnnotatorNotes T61	C1710661; Washout Period; Temporal Concept
+R31	Experiences Arg1:T46 Arg2:T61	
+R32	Combined_with Arg1:T61 Arg2:T14	
+T62	CONC 903 943	al final de cada periodo de intervención
+T63	CONC 888 897;912 943	al inicio de cada periodo de intervención
+R33	Overlap Arg1:T5 Arg2:T63	
+R34	Overlap Arg1:T5 Arg2:T62	
+R35	Location_of Arg1:T29 Arg2:T3	
+R36	Location_of Arg1:T17 Arg2:T9	
+R37	Has_Age Arg1:T49 Arg2:T50	
+T64	Quantifier_or_Qualifier 1262 1269	basales
+#46	AnnotatorNotes T64	C1442488; Baseline; Quantitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T64	
+R39	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T64	
+R40	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T64	
+R41	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T64	
+R42	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T64	
+T65	Quantifier_or_Qualifier 1272 1279	finales
+#47	AnnotatorNotes T65	C3853528; Final; Temporal Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T65	
+R44	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T65	
+R45	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T65	
+R46	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T65	
+R47	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T65	
+R48	Experiences Arg1:T51 Arg2:T35	
+R49	Experiences Arg1:T52 Arg2:T35	
+T66	Food 1667 1675	alimento
+#48	AnnotatorNotes T66	C0016452; Food; Food
+R50	Combined_with Arg1:T21 Arg2:T66	
+T67	Food 1705 1710	leche
+#49	AnnotatorNotes T67	C2825079; Milk - dietary; Food
+R51	Combined_with Arg1:T21 Arg2:T67	
+R52	Used_for Arg1:T21 Arg2:T22	
+T68	Observation 202 220	factores de riesgo
+#50	AnnotatorNotes T68	C0035648; risk factors; Finding
+#51	AnnotatorNotes T39	C0205464; pharmacological; Functional Concept
+A6	Experiencer T38 Patient
+A7	Experiencer T45 Patient
+A8	Experiencer T46 Patient
+A9	Experiencer T49 Patient
+A10	Experiencer T51 Patient
+A11	Experiencer T52 Patient
+R9	Has_Result_or_Value Arg1:T2 Arg2:T54	
+R8	Has_Result_or_Value Arg1:T11 Arg2:T57	

@@ -1,0 +1,131 @@
+T1	CHEM 50 70	corifolitropina alfa
+#1	AnnotatorNotes T1	C2713522; Corifollitropin alfa; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T2	ANAT 86 94	ovocitos
+#2	AnnotatorNotes T2	C0029045; Oocytes; Cell
+T3	PROC 117 170	Ensayo clínico multicéntrico, prospectivo y aleatorio
+T4	CHEM 213 233	corifolitropina alfa
+#3	AnnotatorNotes T4	C2713522; Corifollitropin alfa; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T5	PROC 176 206	comprobar el coste-efectividad
+T6	CHEM 259 265	HP-hMG
+T7	CHEM 367 380	gonadotropina
+#4	AnnotatorNotes T7	C0018061; Gonadotropins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T8	PROC 412 430	pauta convencional
+T9	CHEM 435 449	gonadotropinas
+#5	AnnotatorNotes T9	C0018061; Gonadotropins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T10	PROC 609 619	protocolos
+#6	AnnotatorNotes T10	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T11	PROC 623 654	estimulación ovárica controlada
+#7	AnnotatorNotes T11	C3160898; Controlled ovarian stimulation; Therapeutic or Preventive Procedure
+T12	PROC 699 719	donación de ovocitos
+#8	AnnotatorNotes T12	C0242813; Oocyte Donation; Therapeutic or Preventive Procedure
+T13	ANAT 711 719	ovocitos
+#9	AnnotatorNotes T13	C0029045; Oocytes; Cell
+T14	PROC 1161 1197	recuento basal de folículos antrales
+T15	PROC 866 878	estimulación
+#10	AnnotatorNotes T15	C1292856; Stimulation procedure; Therapeutic or Preventive Procedure
+T16	ANAT 944 962	folículos antrales
+#11	AnnotatorNotes T16	C0600225; Graafian Follicle; Body Part, Organ, or Organ Component
+T17	ANAT 967 973	ovario
+#12	AnnotatorNotes T17	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T18	PROC 1001 1010	protocolo
+#13	AnnotatorNotes T18	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T19	PROC 1061 1090	por escrito su consentimiento
+#14	AnnotatorNotes T19	C0811746; Obtain written consent; Health Care Activity
+T20	ANAT 1179 1197	folículos antrales
+#15	AnnotatorNotes T20	C0600225; Graafian Follicle; Body Part, Organ, or Organ Component
+T21	PROC 1317 1352	tratamiento de estimulación ovárica
+#16	AnnotatorNotes T21	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+T22	CHEM 238 254	FSH recombinante
+#17	AnnotatorNotes T22	C0724588; Recombinant Follicle Stimulating Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T23	PROC 301 323	determinar la eficacia
+#18	AnnotatorNotes T23	C1707887; Efficacy Study; Research Activity
+T24	PROC 453 467	administración
+#19	AnnotatorNotes T24	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T25	ANAT 636 643	ovárica
+#20	AnnotatorNotes T25	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T26	CHEM 883 897	gonadotropinas
+#21	AnnotatorNotes T26	C0018061; Gonadotropins; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T27	DISO 1241 1251	patologías
+#22	AnnotatorNotes T27	C0677042; Pathology processes; Pathologic Function
+T28	ANAT 1345 1352	ovárica
+#23	AnnotatorNotes T28	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T29	Date 13 17	2014
+T30	LIVB 74 94	donantes de ovocitos
+#24	AnnotatorNotes T30	C3267027; Oocyte donor; Population Group
+T31	Duration 381 398	de larga duración
+T32	Frequency 468 474	diaria
+T33	LIVB 658 665	mujeres
+#25	AnnotatorNotes T33	C0043210; Woman; Population Group
+T34	LIVB 748 755	Mujeres
+#26	AnnotatorNotes T34	C0043210; Woman; Population Group
+T35	Age 762 772	18-35 años
+T37	LIVB 923 928	Mujer
+#27	AnnotatorNotes T37	C0043210; Woman; Population Group
+T39	LIVB 1043 1048	Mujer
+#28	AnnotatorNotes T39	C0043210; Woman; Population Group
+T40	LIVB 1229 1236	Mujeres
+#29	AnnotatorNotes T40	C0043210; Woman; Population Group
+T41	LIVB 1279 1291	investigador
+#30	AnnotatorNotes T41	C0035173; Research Personnel; Professional or Occupational Group
+T36	LIVB 1148 1153	Mujer
+#31	AnnotatorNotes T36	C0043210; Woman; Population Group
+T42	ANAT 348 358	ovocitaria
+#32	AnnotatorNotes T42	C0029045; Oocytes; Cell
+T43	LIVB 832 840	Donantes
+#33	AnnotatorNotes T43	C2191327; donor of organ or tissue; Patient or Disabled Group
+T38	PROC 901 905	Peso
+#34	AnnotatorNotes T38	C2985231; Body Weight Measurement; Diagnostic Procedure
+#35	AnnotatorNotes T3	C1096776; Multicenter Study; Research Activity + C0033522; Prospective Studies; Research Activity + C0034656; Randomization; Research Activity
+T44	Spec_cue 1293 1299	puedan
+T45	CONC 1300 1310	interferir
+A1	Assertion T45 Speculated
+#36	AnnotatorNotes T45	C0521102; Interferes with; Functional Concept
+R1	Experiences Arg1:T30 Arg2:T1	
+R2	Combined_with Arg1:T22 Arg2:T6	
+R3	Used_for Arg1:T9 Arg2:T24	
+R4	Has_Frequency Arg1:T24 Arg2:T32	
+R5	Has_Duration_or_Interval Arg1:T7 Arg2:T31	
+T46	Observation 557 569	cumplimiento
+#37	AnnotatorNotes T46	C2364172; Adherence To Medication Regime; Finding 
+R6	Location_of Arg1:T25 Arg2:T11	
+R7	Experiences Arg1:T33 Arg2:T11	
+R9	Experiences Arg1:T33 Arg2:T12	
+R10	Before Arg1:T11 Arg2:T12	
+R11	Has_Age Arg1:T34 Arg2:T35	
+R12	Used_for Arg1:T26 Arg2:T15	
+R13	Experiences Arg1:T34 Arg2:T15	
+T47	Result_or_Value 906 920	<60 kilogramos
+R14	Has_Result_or_Value Arg1:T38 Arg2:T47	
+T48	Quantifier_or_Qualifier 933 943	al menos 6
+R15	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T48	
+T49	Observation 976 1010	Voluntad de ajustarse al protocolo
+T50	PROC 1033 1040	estudio
+#38	AnnotatorNotes T50	C0681814; research study; Research Activity
+R16	Overlap Arg1:T49 Arg2:T50	
+T51	Observation 1096 1119	participar en el Ensayo
+#39	AnnotatorNotes T51	C1278516; Patient participation status; Finding (?)
+R17	Before Arg1:T19 Arg2:T51	
+R19	Experiences Arg1:T36 Arg2:T14	
+R20	Location_of Arg1:T20 Arg2:T14	
+T52	Result_or_Value 1198 1226	superior a 20 ó inferior a 6
+R21	Has_Result_or_Value Arg1:T14 Arg2:T52	
+R22	Experiences Arg1:T40 Arg2:T27	
+R23	Speculation Arg1:T44 Arg2:T45	
+R25	Location_of Arg1:T28 Arg2:T21	
+R26	Experiences Arg1:T40 Arg2:T21	
+R27	Used_for Arg1:T9 Arg2:T8	
+R28	Used_for Arg1:T7 Arg2:T8	
+#40	AnnotatorNotes T6	[highly purified human menopausal gonadotrophin]
+#41	AnnotatorNotes T14	C3273281; Antral follicle count; Diagnostic Procedure (?)
+#42	AnnotatorNotes T5	C4710092; Monitor cost effectiveness of care; Health Care Activity (?)
+A2	Experiencer T30 Patient
+A3	Experiencer T33 Patient
+A4	Experiencer T34 Patient
+A5	Experiencer T43 Patient
+A6	Experiencer T37 Patient
+A7	Experiencer T39 Patient
+A8	Experiencer T36 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T41 Other
+A11	Status T15 Future
+A12	Status T26 Future

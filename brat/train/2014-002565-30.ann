@@ -1,0 +1,325 @@
+T1	PROC 44 89	Estudio multicéntrico, aleatorizado y abierto
+T2	PROC 105 116	tratamiento
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	CHEM 134 146	carboplatino
+#2	AnnotatorNotes T3	C0079083; carboplatin; Organic Chemical · Pharmacologic Substance
+T4	CHEM 149 159	paclitaxel
+#3	AnnotatorNotes T4	C0144576; paclitaxel; Organic Chemical · Pharmacologic Substance
+T5	PROC 170 196	tratamiento quimioterápico
+T6	PROC 1814 1820	tratar
+#4	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 247 256	fumadores
+#5	AnnotatorNotes T7	C0337664; Smoker; Finding
+T8	DISO 259 271	ex fumadores
+#6	AnnotatorNotes T8	C2911355; Personal History of Nicotine Dependence; Finding
+T9	DISO 276 330	cáncer de pulmón no microcítico (CPNM), no epidermoide
+T10	DISO 1822 1830	deleción
+#7	AnnotatorNotes T10	C1442161; Gene Deletion Abnormality; Cell or Molecular Dysfunction
+T11	PROC 367 391	quimioterapia citotóxica
+#8	AnnotatorNotes T11	C0677881; Cytotoxic Chemotherapy; Therapeutic or Preventive Procedure
+T12	PROC 429 485	Estudio de fase 3, multicéntrico, aleatorizado y abierto
+T13	PROC 501 512	tratamiento
+#9	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	CHEM 530 542	carboplatino
+#10	AnnotatorNotes T14	C0079083; carboplatin; Organic Chemical · Pharmacologic Substance
+T15	CHEM 545 555	paclitaxel
+#11	AnnotatorNotes T15	C0144576; paclitaxel; Organic Chemical · Pharmacologic Substance
+T16	PROC 566 592	tratamiento quimioterápico
+T17	DISO 643 652	fumadores
+#12	AnnotatorNotes T17	C0337664; Smoker; Finding
+T18	DISO 655 667	ex fumadores
+#13	AnnotatorNotes T18	C2911355; Personal History of Nicotine Dependence; Finding
+T19	DISO 672 726	cáncer de pulmón no microcítico (CPNM), no epidermoide
+T20	PROC 763 787	quimioterapia citotóxica
+#14	AnnotatorNotes T20	C0677881; Cytotoxic Chemotherapy; Therapeutic or Preventive Procedure
+T21	DISO 826 880	Cáncer de pulmón no microcítico (CPNM), no epidermoide
+T22	DISO 998 1005	fumador
+#15	AnnotatorNotes T22	C0337664; Smoker; Finding
+T23	DISO 1008 1018	ex fumador
+T24	DISO 1033 1052	CPNM no epidermoide
+T25	DISO 1153 1157	CPNM
+#16	AnnotatorNotes T25	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T26	PROC 1179 1199	resección quirúrgica
+#17	AnnotatorNotes T26	C0728940; Excision; Therapeutic or Preventive Procedure
+T27	PROC 1203 1215	radioterapia
+#18	AnnotatorNotes T27	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T28	DISO 1315 1321	lesión
+#19	AnnotatorNotes T28	C0221198; Lesion; Finding
+T29	DISO 1351 1355	CPNM
+#20	AnnotatorNotes T29	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T30	DISO 1472 1489	hipersensibilidad
+#21	AnnotatorNotes T30	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T31	CHEM 1501 1511	paclitaxel
+#22	AnnotatorNotes T31	C0144576; paclitaxel; Organic Chemical · Pharmacologic Substance
+T32	CHEM 1522 1530	fármacos
+#23	AnnotatorNotes T32	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T33	CHEM 1557 1587	aceite de ricino polietoxilado
+T34	DISO 1624 1641	hipersensibilidad
+#24	AnnotatorNotes T34	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T35	CHEM 1657 1678	compuestos de platino
+#25	AnnotatorNotes T35	C3536919; Platinum Compounds; Chemical Viewed Structurally
+T36	DISO 1702 1723	neuropatía periférica
+#26	AnnotatorNotes T36	C0031117; Peripheral Neuropathy; Disease or Syndrome
+T37	DISO 1754 1770	CPNM epidermoide
+T38	DISO 1781 1789	mutación
+T39	DISO 1845 1873	mutación L858R en el exón 21
+T40	PROC 1946 1970	quimioterapia citotóxica
+#27	AnnotatorNotes T40	C0677881; Cytotoxic Chemotherapy; Therapeutic or Preventive Procedure
+T41	PROC 1973 1992	quimiorradioterapia
+#28	AnnotatorNotes T41	C0436307; Chemoradiotherapy; Therapeutic or Preventive Procedure
+T42	DISO 2001 2005	CPNM
+#29	AnnotatorNotes T42	C0007131; Non-Small Cell Lung Carcinoma; Neoplastic Process
+T43	CHEM 120 129	veliparib
+#30	AnnotatorNotes T43	C1958300; veliparib; Organic Chemical · Pharmacologic Substance
+T44	CHEM 182 196	quimioterápico
+#31	AnnotatorNotes T44	C0003392; Antineoplastic Agents; Organic Chemical · Pharmacologic Substance
+T45	ANAT 286 292	pulmón
+#32	AnnotatorNotes T45	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T46	ANAT 296 307	microcítico
+#33	AnnotatorNotes T46	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T47	DISO 343 354	metastásico
+#34	AnnotatorNotes T47	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T48	CHEM 516 525	veliparib
+#35	AnnotatorNotes T48	C1958300; veliparib; Organic Chemical · Pharmacologic Substance
+T49	CHEM 578 592	quimioterápico
+#36	AnnotatorNotes T49	C0003392; Antineoplastic Agents; Organic Chemical · Pharmacologic Substance
+T50	ANAT 682 688	pulmón
+#37	AnnotatorNotes T50	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T51	ANAT 692 703	microcítico
+#38	AnnotatorNotes T51	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T52	DISO 739 750	metastásico
+#39	AnnotatorNotes T52	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T53	ANAT 836 842	pulmón
+#40	AnnotatorNotes T53	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T54	ANAT 846 857	microcítico
+#41	AnnotatorNotes T54	C1514085; Neoplastic Small Cell; Cell | C1518241; Malignant Small Cell; Cell
+T55	DISO 1064 1075	metastásico
+#42	AnnotatorNotes T55	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T56	PROC 1373 1375	TC
+#43	AnnotatorNotes T56	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T57	CHEM 1589 1598	Cremophor
+#44	AnnotatorNotes T57	C0056475; cremophor; Organic Chemical
+T58	Date 12 16	2014
+T59	LIVB 221 233	investigador
+#45	AnnotatorNotes T59	C0035173; Research Personnel; Professional or Occupational Group
+T60	LIVB 237 246	pacientes
+#46	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	Neg_cue 293 295	no
+T62	Neg_cue 316 318	no
+T63	LIVB 617 629	investigador
+#47	AnnotatorNotes T63	C0035173; Research Personnel; Professional or Occupational Group
+T64	LIVB 633 642	pacientes
+#48	AnnotatorNotes T64	C0030705; Patients; Patient or Disabled Group
+T65	Neg_cue 689 691	no
+T66	Neg_cue 712 714	no
+T67	Neg_cue 843 845	no
+T68	Neg_cue 866 868	no
+T69	LIVB 913 921	paciente
+#49	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	Age 933 942	≥ 18 años
+T71	Duration 970 982	> 12 semanas
+T72	LIVB 989 997	paciente
+#50	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T73	Neg_cue 1038 1040	no
+T74	LIVB 1130 1138	paciente
+#51	AnnotatorNotes T74	C0030705; Patients; Patient or Disabled Group
+T76	Neg_cue 1200 1202	ni
+T77	LIVB 1284 1292	paciente
+#52	AnnotatorNotes T77	C0030705; Patients; Patient or Disabled Group
+T78	LIVB 1454 1462	paciente
+#53	AnnotatorNotes T78	C0030705; Patients; Patient or Disabled Group
+T79	LIVB 1606 1614	paciente
+#54	AnnotatorNotes T79	C0030705; Patients; Patient or Disabled Group
+T80	LIVB 1684 1692	paciente
+#55	AnnotatorNotes T80	C0030705; Patients; Patient or Disabled Group
+T81	LIVB 1740 1749	Pacientes
+#56	AnnotatorNotes T81	C0030705; Patients; Patient or Disabled Group
+T82	Neg_cue 1810 1813	sin
+T83	GENE 1835 1842	exón 19
+#57	AnnotatorNotes T83	C2736990; EGFR gene exon 19; Gene or Genome
+T84	GENE 1899 1906	gen ALK
+#58	AnnotatorNotes T84	C1332080; ALK gene; Gene or Genome
+T85	LIVB 1913 1921	paciente
+#59	AnnotatorNotes T85	C0030705; Patients; Patient or Disabled Group
+T87	ANAT 319 330	epidermoide
+#60	AnnotatorNotes T87	C0221910; Squamous Epithelial Cells; Cell
+T88	ANAT 715 726	epidermoide
+#61	AnnotatorNotes T88	C0221910; Squamous Epithelial Cells; Cell
+T89	ANAT 869 880	epidermoide
+#62	AnnotatorNotes T89	C0221910; Squamous Epithelial Cells; Cell
+T75	ANAT 1759 1770	epidermoide
+#63	AnnotatorNotes T75	C0221910; Squamous Epithelial Cells; Cell
+T90	ANAT 1041 1052	epidermoide
+#64	AnnotatorNotes T90	C0221910; Squamous Epithelial Cells; Cell
+T91	Neg_cue 1158 1160	no
+T86	GENE 1796 1800	EGFR
+#65	AnnotatorNotes T86	C1414313; EGFR gene; Gene or Genome
+T92	PROC 1091 1124	medios citológicos o histológicos
+#66	AnnotatorNotes T92	C1305671; Cytology procedure; Laboratory Procedure + C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T46 Negated
+A2	Assertion T87 Negated
+A3	Assertion T88 Negated
+A4	Assertion T89 Negated
+A5	Assertion T51 Negated
+A6	Assertion T54 Negated
+A7	Assertion T90 Negated
+A8	Assertion T27 Negated
+A9	Assertion T26 Negated
+A10	Assertion T6 Negated
+A11	Status T30 History_of
+A12	Status T34 History_of
+A13	Status T38 History_of
+A14	Status T10 History_of
+A15	Status T39 History_of
+A16	Status T40 History_of
+A17	Status T41 History_of
+#67	AnnotatorNotes T1	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C1709323; Open Label Study; Research Activity 
+#68	AnnotatorNotes T5	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+#69	AnnotatorNotes T16	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+#70	AnnotatorNotes T12	C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C1709323; Open Label Study; Research Activity + C0282461; Phase 3 Clinical Trials; Research Activity
+#71	AnnotatorNotes T38	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#72	AnnotatorNotes T39	C3888903; Point mutation in exon 21 (L858R); Cell or Molecular Dysfunction
+#73	AnnotatorNotes T9	C4324656; Non-squamous non-small cell lung cancer; Neoplastic Process
+#74	AnnotatorNotes T19	C4324656; Non-squamous non-small cell lung cancer; Neoplastic Process
+#75	AnnotatorNotes T21	C4324656; Non-squamous non-small cell lung cancer; Neoplastic Process
+#76	AnnotatorNotes T24	C4324656; Non-squamous non-small cell lung cancer; Neoplastic Process
+#77	AnnotatorNotes T37	C4324656; Non-squamous non-small cell lung cancer; Neoplastic Process
+#78	AnnotatorNotes T33	C0071558; polyethoxylated castor oil; Organic Chemical · Pharmacologic Substance
+R1	Negation Arg1:T76 Arg2:T27	
+R2	Used_for Arg1:T43 Arg2:T2	
+R3	Combined_with Arg1:T43 Arg2:T3	
+R4	Combined_with Arg1:T3 Arg2:T4	
+R5	Used_for Arg1:T44 Arg2:T5	
+R6	Experiences Arg1:T60 Arg2:T2	
+R7	Experiences Arg1:T60 Arg2:T5	
+R8	Experiences Arg1:T60 Arg2:T7	
+R9	Experiences Arg1:T60 Arg2:T8	
+R10	Experiences Arg1:T60 Arg2:T9	
+R11	Negation Arg1:T61 Arg2:T46	
+R12	Negation Arg1:T62 Arg2:T87	
+R13	Location_of Arg1:T45 Arg2:T9	
+R14	Before Arg1:T9 Arg2:T47	
+T93	Quantifier_or_Qualifier 332 340	avanzado
+#79	AnnotatorNotes T93	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T93	
+T94	Quantifier_or_Qualifier 728 736	avanzado
+#80	AnnotatorNotes T94	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T94	
+R17	Before Arg1:T19 Arg2:T52	
+T95	Quantifier_or_Qualifier 1053 1061	avanzado
+#81	AnnotatorNotes T95	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T95	
+R19	Before Arg1:T24 Arg2:T55	
+R20	Location_of Arg1:T90 Arg2:T24	
+R21	Negation Arg1:T73 Arg2:T90	
+T96	Quantifier_or_Qualifier 788 803	por primera vez
+#82	AnnotatorNotes T96	C1279901; Firstly; Qualitative Concept 
+R22	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T96	
+R23	Negation Arg1:T65 Arg2:T51	
+R24	Negation Arg1:T66 Arg2:T88	
+R25	Location_of Arg1:T50 Arg2:T19	
+R26	Experiences Arg1:T64 Arg2:T17	
+R27	Experiences Arg1:T64 Arg2:T18	
+R28	Experiences Arg1:T64 Arg2:T19	
+R29	Overlap Arg1:T7 Arg2:T47	
+R31	Overlap Arg1:T8 Arg2:T47	
+T97	Quantifier_or_Qualifier 392 407	por primera vez
+#83	AnnotatorNotes T97	C1279901; Firstly; Qualitative Concept
+R32	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T97	
+R33	Experiences Arg1:T60 Arg2:T11	
+R34	Used_for Arg1:T48 Arg2:T13	
+R35	Combined_with Arg1:T48 Arg2:T14	
+R36	Combined_with Arg1:T14 Arg2:T15	
+R37	Experiences Arg1:T64 Arg2:T13	
+R38	Experiences Arg1:T64 Arg2:T16	
+R39	Used_for Arg1:T49 Arg2:T16	
+R40	Overlap Arg1:T17 Arg2:T19	
+R41	Overlap Arg1:T18 Arg2:T19	
+R42	Overlap Arg1:T7 Arg2:T9	
+R44	Experiences Arg1:T64 Arg2:T20	
+R45	Negation Arg1:T67 Arg2:T54	
+R46	Location_of Arg1:T53 Arg2:T21	
+R47	Negation Arg1:T68 Arg2:T89	
+R48	Has_Age Arg1:T69 Arg2:T70	
+T98	CONC 952 969	Esperanza de vida
+#84	AnnotatorNotes T98	C0023671; Life Expectancy; Group Attribute
+R49	Has_Duration_or_Interval Arg1:T98 Arg2:T71	
+R50	Experiences Arg1:T72 Arg2:T22	
+R51	Experiences Arg1:T72 Arg2:T23	
+#85	AnnotatorNotes T23	C2911355; Personal History of Nicotine Dependence; Finding
+R52	Experiences Arg1:T72 Arg2:T24	
+R53	Overlap Arg1:T22 Arg2:T24	
+R54	Overlap Arg1:T23 Arg2:T24	
+R57	Experiences Arg1:T72 Arg2:T92	
+R58	Experiences Arg1:T74 Arg2:T25	
+R59	Negation Arg1:T91 Arg2:T26	
+R60	Experiences Arg1:T74 Arg2:T26	
+R61	Experiences Arg1:T74 Arg2:T27	
+T99	Quantifier_or_Qualifier 1216 1235	con fines curativos
+R62	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T99	
+A18	Assertion T99 Negated
+R63	Negation Arg1:T76 Arg2:T99	
+T100	PROC 1256 1265	selección
+#86	AnnotatorNotes T100	C0242802; Patient Selection; Research Activity
+R64	Overlap Arg1:T25 Arg2:T100	
+T101	Quantifier_or_Qualifier 1304 1314	al menos 1
+R65	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T101	
+R66	Experiences Arg1:T77 Arg2:T28	
+R67	Experiences Arg1:T77 Arg2:T29	
+R68	Causes Arg1:T29 Arg2:T28	
+T102	Quantifier_or_Qualifier 1337 1347	mensurable
+#87	AnnotatorNotes T102	C1513040; Measurable; Functional Concept
+R69	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T102	
+T103	Quantifier_or_Qualifier 1322 1336	unidimensional
+R70	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T103	
+T104	CONC 1401 1421	RECIST (versión 1.1)
+#88	AnnotatorNotes T104	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product
+R72	Experiences Arg1:T77 Arg2:T56	
+R73	Causes Arg1:T31 Arg2:T30	
+R74	Causes Arg1:T32 Arg2:T30	
+R75	Causes Arg1:T33 Arg2:T30	
+R76	Experiences Arg1:T78 Arg2:T30	
+R81	Causes Arg1:T35 Arg2:T34	
+R82	Experiences Arg1:T79 Arg2:T34	
+T105	Quantifier_or_Qualifier 1727 1736	grado ≥ 2
+R83	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T105	
+R84	Experiences Arg1:T80 Arg2:T36	
+R85	Location_of Arg1:T75 Arg2:T37	
+R86	Experiences Arg1:T81 Arg2:T37	
+R87	Experiences Arg1:T81 Arg2:T38	
+R88	Location_of Arg1:T86 Arg2:T38	
+R89	Negation Arg1:T82 Arg2:T6	
+R90	Experiences Arg1:T81 Arg2:T6	
+R91	Location_of Arg1:T83 Arg2:T10	
+R92	Experiences Arg1:T81 Arg2:T10	
+R93	Experiences Arg1:T81 Arg2:T39	
+T106	GENE 1866 1873	exón 21
+R94	Location_of Arg1:T106 Arg2:T39	
+T107	Observation 1880 1906	reordenamiento del gen ALK
+#89	AnnotatorNotes T107	C4068350; ALK Gene Rearrangement; Finding
+R95	Experiences Arg1:T81 Arg2:T107	
+R96	Location_of Arg1:T84 Arg2:T107	
+R97	Experiences Arg1:T85 Arg2:T40	
+R98	Experiences Arg1:T85 Arg2:T41	
+R99	Experiences Arg1:T85 Arg2:T42	
+R30	Overlap Arg1:T8 Arg2:T9	
+R43	Overlap Arg1:T17 Arg2:T52	
+R100	Overlap Arg1:T18 Arg2:T52	
+R101	Experiences Arg1:T64 Arg2:T52	
+R102	Experiences Arg1:T60 Arg2:T47	
+R55	Experiences Arg1:T72 Arg2:T55	
+R56	Causes Arg1:T57 Arg2:T30	
+#90	AnnotatorNotes T99	C1880198; Cure (remedy); Conceptual Entity
+A19	Experiencer T59 Other
+A20	Experiencer T60 Patient
+A21	Experiencer T63 Other
+A22	Experiencer T64 Patient
+A23	Experiencer T69 Patient
+A24	Experiencer T72 Patient
+A25	Experiencer T74 Patient
+A26	Experiencer T77 Patient
+A27	Experiencer T78 Patient
+A28	Experiencer T79 Patient
+A29	Experiencer T80 Patient
+A30	Experiencer T81 Patient
+A31	Experiencer T85 Patient

@@ -1,0 +1,157 @@
+T1	PROC 49 64	estudio clínico
+#1	AnnotatorNotes T1	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T2	PROC 70 101	evaluar la seguridad y eficacia
+T3	PROC 120 131	tratamiento
+#2	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 163 193	distrofia muscular de Duchenne
+#3	AnnotatorNotes T4	C0013264; Muscular Dystrophy, Duchenne; Disease or Syndrome
+T5	DISO 195 198	DMD
+#4	AnnotatorNotes T5	C0013264; Muscular Dystrophy, Duchenne; Disease or Syndrome
+T6	PROC 258 299	Estudio de extensión abierto, en fase III
+T7	PROC 305 339	evaluar la seguridad y la eficacia
+#5	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T8	CHEM 357 366	idebenona
+#6	AnnotatorNotes T8	C0123163; idebenone; Organic Chemical · Pharmacologic Substance
+T9	DISO 384 414	distrofia muscular de Duchenne
+#7	AnnotatorNotes T9	C0013264; Muscular Dystrophy, Duchenne; Disease or Syndrome
+T10	DISO 416 419	DMD
+#8	AnnotatorNotes T10	C0013264; Muscular Dystrophy, Duchenne; Disease or Syndrome
+T11	DISO 487 490	DMD
+#9	AnnotatorNotes T11	C0013264; Muscular Dystrophy, Duchenne; Disease or Syndrome
+T12	DISO 498 517	enfermedad genética
+#10	AnnotatorNotes T12	C0019247; Hereditary Diseases; Disease or Syndrome
+T13	DISO 536 554	debilidad muscular
+#11	AnnotatorNotes T13	C0151786; Muscle Weakness; Sign or Symptom
+T14	DISO 557 572	pérdida de peso
+#12	AnnotatorNotes T14	C1262477; Weight decreased; Finding
+T15	DISO 614 626	discapacidad
+#13	AnnotatorNotes T15	C0231170; Disability; Finding
+T16	DISO 660 690	Distrofia muscular de Duchenne
+#14	AnnotatorNotes T16	C0013264; Muscular Dystrophy, Duchenne; Disease or Syndrome
+T17	PROC 799 823	consentimiento informado
+#15	AnnotatorNotes T17	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T18	CHEM 1371 1403	fármaco en fase de investigación
+#16	AnnotatorNotes T18	C0013230; Investigational New Drugs; Pharmacologic Substance
+T19	CHEM 1418 1428	medicación
+#17	AnnotatorNotes T19	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T20	CHEM 136 145	idebenona
+#18	AnnotatorNotes T20	C0123163; idebenone; Organic Chemical · Pharmacologic Substance
+T21	ANAT 173 181	muscular
+#19	AnnotatorNotes T21	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T22	ANAT 394 402	muscular
+#20	AnnotatorNotes T22	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T23	ANAT 546 554	muscular
+#21	AnnotatorNotes T23	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T24	ANAT 670 678	muscular
+#22	AnnotatorNotes T24	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T25	Date 13 17	2017
+T26	Date 102 115	a largo plazo
+T27	LIVB 149 158	pacientes
+#23	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	Date 340 353	a largo plazo
+T29	LIVB 370 379	pacientes
+#24	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 890 899	pacientes
+#25	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 1184 1196	investigador
+#26	AnnotatorNotes T32	C0035173; Research Personnel; Professional or Occupational Group
+T35	LIVB 1230 1238	paciente
+#27	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 1322 1330	paciente
+#28	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Neg_cue 1408 1410	no
+T38	GENE 509 517	genética
+#29	AnnotatorNotes T38	C0017337; Genes; Gene or Genome
+T39	Date 772 781	semana 78
+T31	PROC 996 1003	visitas
+#30	AnnotatorNotes T31	C1512346; Patient Visit; Health Care Activity
+T33	Neg_cue 968 970	no
+T34	Quantifier_or_Qualifier 770 771	8
+T40	PROC 763 769	visita
+#31	AnnotatorNotes T40	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T19 Negated
+A2	Assertion T31 Negated
+#32	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T41	Quantifier_or_Qualifier 986 991	todas
+A3	Assertion T41 Negated
+T42	Spec_cue 1198 1204	puedan
+T43	Observation 1205 1226	poner en grave riesgo
+A4	Assertion T43 Speculated
+R1	Speculation Arg1:T42 Arg2:T43	
+T44	CONC 1265 1275	interferir
+A5	Assertion T44 Speculated
+#33	AnnotatorNotes T44	C0521102; Interferes with; Functional Concept
+R2	Speculation Arg1:T42 Arg2:T44	
+T45	Observation 1304 1330	participación del paciente
+#34	AnnotatorNotes T45	C1278516; Patient participation status; Finding
+R3	Overlap Arg1:T2 Arg2:T26	
+R4	Used_for Arg1:T20 Arg2:T3	
+R5	Experiences Arg1:T27 Arg2:T3	
+R6	Experiences Arg1:T27 Arg2:T4	
+R7	Experiences Arg1:T27 Arg2:T5	
+R8	Location_of Arg1:T21 Arg2:T4	
+R9	Location_of Arg1:T21 Arg2:T5	
+T46	Observation 204 226	completaron el estudio
+#35	AnnotatorNotes T46	C2732579; Completion of clinical trial; Finding
+R11	Before Arg1:T46 Arg2:T2	
+R12	Before Arg1:T46 Arg2:T1	
+T47	Observation 431 452	completado el estudio
+#36	AnnotatorNotes T47	C2732579; Completion of clinical trial; Finding
+R13	Experiences Arg1:T29 Arg2:T8	
+R14	Experiences Arg1:T29 Arg2:T9	
+R15	Experiences Arg1:T29 Arg2:T10	
+R17	Before Arg1:T47 Arg2:T6	
+R18	Before Arg1:T47 Arg2:T7	
+R19	Overlap Arg1:T7 Arg2:T28	
+R20	Location_of Arg1:T22 Arg2:T9	
+R21	Location_of Arg1:T22 Arg2:T10	
+R23	Causes Arg1:T11 Arg2:T13	
+R24	Causes Arg1:T11 Arg2:T14	
+R25	Location_of Arg1:T23 Arg2:T13	
+T48	Observation 573 595	rápidamente progresiva
+#37	AnnotatorNotes T48	C1838681; Rapidly progressive; Finding
+R26	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T48	
+R27	Causes Arg1:T11 Arg2:T15	
+R28	Before Arg1:T14 Arg2:T15	
+R29	Before Arg1:T13 Arg2:T15	
+R30	Location_of Arg1:T24 Arg2:T16	
+T49	Quantifier_or_Qualifier 627 633	severa
+#38	AnnotatorNotes T49	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R31	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T49	
+R32	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T34	
+T50	Observation 727 748	completado el estudio
+#39	AnnotatorNotes T50	C2732579; Completion of clinical trial; Finding
+R33	Overlap Arg1:T50 Arg2:T40	
+R34	Overlap Arg1:T50 Arg2:T39	
+R35	Negation Arg1:T33 Arg2:T31	
+R36	Negation Arg1:T33 Arg2:T41	
+R37	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T41	
+R39	Negation Arg1:T37 Arg2:T19	
+T51	Quantifier_or_Qualifier 1429 1440	del estudio
+A6	Assertion T51 Negated
+R40	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T51	
+R41	Negation Arg1:T37 Arg2:T51	
+T52	Observation 1028 1067	Problemas relacionados con la seguridad
+#40	AnnotatorNotes T52	C4716889; Safety issues related to medication; Finding
+T53	Observation 1028 1054;1069 1085	Problemas relacionados con la tolerabilidad
+T54	PROC 1145 1152	estudio
+A7	Status T54 History_of
+#41	AnnotatorNotes T54	C0008976; Clinical Trials; Research Activity
+R42	Overlap Arg1:T53 Arg2:T54	
+R43	Overlap Arg1:T52 Arg2:T54	
+R44	Before Arg1:T53 Arg2:T43	
+R45	Before Arg1:T52 Arg2:T43	
+R46	Experiences Arg1:T35 Arg2:T53	
+R47	Experiences Arg1:T35 Arg2:T52	
+R50	Experiences Arg1:T35 Arg2:T45	
+R51	Experiences Arg1:T36 Arg2:T53	
+R52	Experiences Arg1:T36 Arg2:T52	
+#42	AnnotatorNotes T41	C0444868; All; Quantitative Concept
+#43	AnnotatorNotes T26	C0443252; Long-term; Temporal Concept
+#44	AnnotatorNotes T28	C0443252; Long-term; Temporal Concept
+A8	Experiencer T29 Patient
+A9	Experiencer T27 Patient
+A10	Experiencer T30 Patient
+A11	Experiencer T32 Other
+A12	Experiencer T35 Patient
+A13	Experiencer T36 Patient

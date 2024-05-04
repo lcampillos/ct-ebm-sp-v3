@@ -1,0 +1,162 @@
+T1	PROC 49 97	estudio doble ciego, aleatorizado, multicéntrico
+T2	CHEM 137 147	adalimumab
+#1	AnnotatorNotes T2	C1122087; adalimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	PROC 171 185	pauta estándar
+T4	PROC 194 234	tratamiento de inducción y mantenimiento
+#2	AnnotatorNotes T4	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure + C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T5	DISO 252 268	colitis ulcerosa
+#3	AnnotatorNotes T5	C0009324; Ulcerative Colitis; Disease or Syndrome
+T6	DISO 315 331	Colitis Ulcerosa
+#4	AnnotatorNotes T6	C0009324; Ulcerative Colitis; Disease or Syndrome
+T7	PROC 475 486	diagnóstico
+#5	AnnotatorNotes T7	C0011900; Diagnosis; Diagnostic Procedure
+T8	DISO 490 492	CU
+#6	AnnotatorNotes T8	C0009324; Ulcerative Colitis; Disease or Syndrome
+T9	PROC 535 546	tratamiento
+#7	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	PROC 580 590	endoscopia
+#8	AnnotatorNotes T10	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T11	PROC 592 604	colonoscopia
+#9	AnnotatorNotes T11	C0009378; colonoscopy; Diagnostic Procedure
+T12	PROC 607 630	sigmoidoscopia flexible
+#10	AnnotatorNotes T12	C0016234; Flexible fiberoptic sigmoidoscopy; Diagnostic Procedure
+T13	DISO 668 670	CU
+#11	AnnotatorNotes T13	C0009324; Ulcerative Colitis; Disease or Syndrome
+T14	PROC 735 746	endoscópica
+#12	AnnotatorNotes T14	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T15	PROC 803 826	tratamiento concurrente
+#13	AnnotatorNotes T15	C1707479; Concomitant Therapy; Therapeutic or Preventive Procedure
+T16	CHEM 831 849	corticoestoroidoes
+T17	CHEM 859 875	inmunodepresores
+#14	AnnotatorNotes T17	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T18	PROC 927 938	diagnóstico
+#15	AnnotatorNotes T18	C0011900; Diagnosis; Diagnostic Procedure
+T19	DISO 959 978	enfermedad de Crohn
+#16	AnnotatorNotes T19	C0010346; Crohn Disease; Disease or Syndrome
+T20	DISO 980 982	EC
+#17	AnnotatorNotes T20	C0010346; Crohn Disease; Disease or Syndrome
+T21	PROC 986 997	diagnóstico
+#18	AnnotatorNotes T21	C0011900; Diagnosis; Diagnostic Procedure
+T22	DISO 1024 1026	CI
+#19	AnnotatorNotes T22	C0341332; Indeterminate colitis; Disease or Syndrome
+T23	PROC 1033 1044	Diagnóstico
+#20	AnnotatorNotes T23	C0011900; Diagnosis; Diagnostic Procedure
+T24	DISO 1055 1073	colitis fulminante
+T25	DISO 1078 1094	megacolon tóxico
+#21	AnnotatorNotes T25	C0025162; Megacolon, Toxic; Disease or Syndrome
+T26	DISO 1112 1122	enfermedad
+#22	AnnotatorNotes T26	C0012634; Disease; Disease or Syndrome
+T27	ANAT 1135 1140	recto
+#23	AnnotatorNotes T27	C0034896; Rectum; Body Part, Organ, or Organ Component | C1278926; Entire rectum; Body Part, Organ, or Organ Component
+T28	DISO 1142 1160	proctitis ulcerosa
+#24	AnnotatorNotes T28	C2937222; Chronic ulcerative proctitis; Disease or Syndrome
+T29	PROC 1168 1178	endoscopia
+#25	AnnotatorNotes T29	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T30	DISO 1197 1217	Infecciones crónicas
+#26	AnnotatorNotes T30	C0151317; Chronic Infection; Disease or Syndrome
+T31	DISO 1232 1234	TB
+#27	AnnotatorNotes T31	C0041296; Tuberculosis; Disease or Syndrome
+T32	PROC 108 133	pauta posológica más alta
+#28	AnnotatorNotes T32	C0850890; increased drug dosage; Therapeutic or Preventive Procedure
+T33	DISO 1001 1022	colitis indeterminada
+#29	AnnotatorNotes T33	C0341332; Indeterminate colitis; Disease or Syndrome
+T34	Date 13 17	2013
+T35	LIVB 238 247	pacientes
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 361 385	Pacientes de ambos sexos
+#31	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T37	Age 411 433	entre ≥ 18 y ≤ 75 años
+T38	LIVB 459 467	Paciente
+#32	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Duration 501 514	90 días o más
+T41	Route 850 856	orales
+#33	AnnotatorNotes T41	C1527415; Oral Route of Drug administration; Functional Concept
+T42	LIVB 914 922	Paciente
+#34	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	Date 1045 1051	actual
+T44	LIVB 1099 1107	Paciente
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Duration 1209 1217	crónicas
+#36	AnnotatorNotes T45	C0205191; chronic; Temporal Concept
+T40	PROC 440 446	visita
+#37	AnnotatorNotes T40	C1512346; Patient Visit; Health Care Activity
+T46	Quantifier_or_Qualifier 447 454	inicial
+A1	Status T19 History_of
+A2	Status T20 History_of
+#39	AnnotatorNotes T1	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C1096776; Multicenter Study; Research Activity
+#40	AnnotatorNotes T3	C2936643; Standard of Care; Health Care Activity
+#41	AnnotatorNotes T16	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+#42	AnnotatorNotes T43	C0521116; Current (present time); Temporal Concept 
+R2	Used_for Arg1:T2 Arg2:T4	
+R1	Experiences Arg1:T35 Arg2:T2	
+R3	Experiences Arg1:T35 Arg2:T5	
+T47	Quantifier_or_Qualifier 269 277	moderada
+#38	AnnotatorNotes T47	C0205081; Moderate (severity modifier); Qualitative Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T47	
+T48	Quantifier_or_Qualifier 280 290	muy activa
+#43	AnnotatorNotes T48	C5570828; Very active; Qualitative Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T48	
+T49	Quantifier_or_Qualifier 671 677	activa
+#44	AnnotatorNotes T49	C0679217; Active State; Idea or Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T49	
+T50	Quantifier_or_Qualifier 1235 1241	activa
+#45	AnnotatorNotes T50	C0679217; Active State; Idea or Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T50	
+T51	Observation 1218 1229	recurrentes
+#46	AnnotatorNotes T51	C0679254; Disease recurrence; Finding
+R8	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T51	
+R9	Has_Duration_or_Interval Arg1:T30 Arg2:T45	
+T52	Quantifier_or_Qualifier 1123 1140	limitada al recto
+R10	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T52	
+R11	Location_of Arg1:T27 Arg2:T26	
+R12	Experiences Arg1:T44 Arg2:T26	
+R13	Experiences Arg1:T44 Arg2:T28	
+R14	Location_of Arg1:T27 Arg2:T28	
+R17	Experiences Arg1:T44 Arg2:T29	
+T53	PROC 1182 1191	selección
+#47	AnnotatorNotes T53	C0242802; Patient Selection; Research Activity
+R18	Overlap Arg1:T29 Arg2:T53	
+R20	Overlap Arg1:T26 Arg2:T53	
+R21	Has_Age Arg1:T36 Arg2:T37	
+R22	Overlap Arg1:T40 Arg2:T37	
+R23	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T46	
+#48	AnnotatorNotes T46	C0205265; Initially; Temporal Concept
+R24	Experiences Arg1:T38 Arg2:T8	
+R25	Has_Duration_or_Interval Arg1:T8 Arg2:T39	
+R26	Before Arg1:T8 Arg2:T9	
+R28	Before Arg1:T10 Arg2:T7	
+R29	Before Arg1:T11 Arg2:T7	
+R30	Before Arg1:T12 Arg2:T7	
+R31	Experiences Arg1:T38 Arg2:T9	
+R32	Experiences Arg1:T38 Arg2:T10	
+R33	Experiences Arg1:T38 Arg2:T11	
+R34	Experiences Arg1:T38 Arg2:T12	
+T54	PROC 654 663	selección
+#49	AnnotatorNotes T54	C0242802; Patient Selection; Research Activity
+R35	Overlap Arg1:T12 Arg2:T54	
+R36	Overlap Arg1:T10 Arg2:T54	
+R37	Overlap Arg1:T11 Arg2:T54	
+T55	CONC 686 701	puntuación Mayo
+T56	Result_or_Value 705 718	6 a 12 puntos
+R38	Has_Result_or_Value Arg1:T55 Arg2:T56	
+T57	CONC 721 746	subpuntuación endoscópica
+T58	Result_or_Value 750 755	2 a 3
+R39	Has_Result_or_Value Arg1:T57 Arg2:T58	
+R40	Used_for Arg1:T16 Arg2:T15	
+R41	Used_for Arg1:T17 Arg2:T15	
+R42	Has_Route_or_Mode Arg1:T16 Arg2:T41	
+R44	Experiences Arg1:T42 Arg2:T19	
+R45	Experiences Arg1:T42 Arg2:T20	
+R46	Experiences Arg1:T42 Arg2:T33	
+R47	Experiences Arg1:T42 Arg2:T22	
+R48	Overlap Arg1:T23 Arg2:T43	
+R49	Overlap Arg1:T24 Arg2:T43	
+R50	Overlap Arg1:T25 Arg2:T43	
+#50	AnnotatorNotes T55	C5420651; Ulcerative Colitis Disease Activity Index; Intellectual Product
+R51	Used_for Arg1:T2 Arg2:T32	
+R52	Used_for Arg1:T2 Arg2:T3	
+A3	Experiencer T35 Patient
+A4	Experiencer T36 Patient
+A5	Experiencer T38 Patient
+A6	Experiencer T42 Patient
+A7	Experiencer T44 Patient

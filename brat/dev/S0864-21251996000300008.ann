@@ -1,0 +1,117 @@
+T1	PROC 20 32	tratamientos
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 70 86	cervicitis aguda
+#2	AnnotatorNotes T2	C0269061; Acute cervicitis; Disease or Syndrome
+T3	PROC 102 132	ensayo clínico, a doble ciegas
+#3	AnnotatorNotes T3	C0013072; Double-Blind Method; Research Activity + C0008976; Clinical Trials; Research Activity
+T4	PROC 151 165	diagnosticadas
+#4	AnnotatorNotes T4	C0011900; Diagnosis; Diagnostic Procedure
+T5	DISO 169 185	cervicitis aguda
+#5	AnnotatorNotes T5	C0269061; Acute cervicitis; Disease or Syndrome
+T6	DISO 477 485	síntomas
+#6	AnnotatorNotes T6	C1457887; Symptoms; Sign or Symptom
+T7	DISO 488 494	signos
+#7	AnnotatorNotes T7	C0311392; Physical findings; Finding
+T8	PROC 570 581	tratamiento
+#8	AnnotatorNotes T8	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T9	DISO 632 648	cervicitis aguda
+#9	AnnotatorNotes T9	C0269061; Acute cervicitis; Disease or Syndrome
+T10	ANAT 759 766	vientre
+#10	AnnotatorNotes T10	C0000726; Abdomen; Body Location or Region (?)
+T11	DISO 783 804	sangramiento poscoito
+#11	AnnotatorNotes T11	C0156406; Postcoital bleeding; Pathologic Function
+T12	DISO 863 878	prurito vaginal
+#12	AnnotatorNotes T12	C0042256; Pruritus of vagina; Sign or Symptom
+T13	DISO 939 949	moniliasis
+#13	AnnotatorNotes T13	C0006840; Candidiasis; Disease or Syndrome
+T14	ANAT 970 977	vaginal
+#14	AnnotatorNotes T14	C0042232; Vagina; Body Part, Organ, or Organ Component | C1278985; Entire vagina; Body Part, Organ, or Organ Component
+T15	DISO 1063 1079	cervicitis aguda
+#15	AnnotatorNotes T15	C0269061; Acute cervicitis; Disease or Syndrome
+T16	CHEM 722 730	propóleo
+#16	AnnotatorNotes T16	C0033488; Propolis; Biologically Active Substance; Pharmacologic Substance
+T17	CHEM 844 849	lugol
+#17	AnnotatorNotes T17	C0065234; Lugol's solution; Pharmacologic Substance · Indicator, Reagent, or Diagnostic Aid · Inorganic Chemical
+T18	CHEM 908 916	propóleo
+#18	AnnotatorNotes T18	C0033488; Propolis; Biologically Active Substance; Pharmacologic Substance
+T19	DISO 748 766	dolor bajo vientre
+#19	AnnotatorNotes T19	C0232495; Lower abdominal pain; Sign or Symptom
+T20	ANAT 871 878	vaginal
+#20	AnnotatorNotes T20	C0042232; Vagina; Body Part, Organ, or Organ Component | C1278985; Entire vagina; Body Part, Organ, or Organ Component
+T21	CHEM 34 43	propóleos
+#21	AnnotatorNotes T21	C0033488; Propolis; Biologically Active Substance; Pharmacologic Substance
+T22	CHEM 46 51	lugol
+#22	AnnotatorNotes T22	C0065234; Lugol's solution; Pharmacologic Substance · Indicator, Reagent, or Diagnostic Aid · Inorganic Chemical
+T23	DISO 955 977	trichomoniasis vaginal
+#23	AnnotatorNotes T23	C0040923; Trichomonas Vaginitis; Disease or Syndrome
+T24	PROC 1080 1088	tratadas
+#24	AnnotatorNotes T24	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T25	CHEM 1093 1101	propóleo
+#25	AnnotatorNotes T25	C0033488; Propolis; Biologically Active Substance; Pharmacologic Substance
+T26	PROC 1131 1142	se trataron
+#26	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	CHEM 1147 1152	lugol
+#27	AnnotatorNotes T27	C0065234; Lugol's solution; Pharmacologic Substance · Indicator, Reagent, or Diagnostic Aid · Inorganic Chemical
+T28	LIVB 56 65	pacientes
+#28	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 141 150	pacientes
+#29	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T31	Date 254 275	1ro. de enero de 1993
+T32	Date 282 308	el 31 de diciembre de 1993
+T33	LIVB 520 535	microorganismos
+#30	AnnotatorNotes T33	C0445623; Microorganism; Organism
+T34	LIVB 618 627	pacientes
+#31	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Age 690 705	de 20 a 29 años
+T36	PHYS 1022 1030	curación
+#32	AnnotatorNotes T36	C2004454; Recovery - healing process; Organism Function
+T37	LIVB 1049 1058	pacientes
+#33	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T30	Time 796 804	poscoito
+#34	AnnotatorNotes T30	C0234060; Postcoital period; Temporal Concept
+R1	Used_for Arg1:T21 Arg2:T1	
+R2	Used_for Arg1:T22 Arg2:T1	
+R3	Experiences Arg1:T28 Arg2:T1	
+R4	Experiences Arg1:T28 Arg2:T2	
+R5	Experiences Arg1:T29 Arg2:T5	
+R6	After Arg1:T3 Arg2:T31	
+R7	Before Arg1:T3 Arg2:T32	
+T38	CONC 537 554	evolución clínica
+#35	AnnotatorNotes T38	C0449259; Clinical course; Temporal Concept
+T39	Observation 557 581	respuesta al tratamiento
+#36	AnnotatorNotes T39	C1319171; Medication response; Finding
+R8	Overlap Arg1:T39 Arg2:T8	
+T40	PROC 417 427	aleatorios
+#37	AnnotatorNotes T40	C0034656; Randomization; Research Activity
+R9	Experiences Arg1:T34 Arg2:T9	
+R10	Has_Age Arg1:T34 Arg2:T35	
+T41	Observation 737 744	mejorar
+R11	Location_of Arg1:T10 Arg2:T19	
+R12	Overlap Arg1:T41 Arg2:T19	
+R13	Location_of Arg1:T10 Arg2:T41	
+R14	Causes Arg1:T16 Arg2:T41	
+R15	Experiences Arg1:T34 Arg2:T16	
+R16	Overlap Arg1:T19 Arg2:T11	
+R17	Overlap Arg1:T11 Arg2:T30	
+R18	Experiences Arg1:T34 Arg2:T11	
+R19	Causes Arg1:T17 Arg2:T41	
+R20	Experiences Arg1:T34 Arg2:T17	
+R21	Experiences Arg1:T34 Arg2:T12	
+R22	Location_of Arg1:T20 Arg2:T12	
+R23	Overlap Arg1:T41 Arg2:T12	
+#38	AnnotatorNotes T41	C0184511; Improve; Finding (?)
+R24	Experiences Arg1:T34 Arg2:T41	
+R25	Location_of Arg1:T14 Arg2:T23	
+R26	Experiences Arg1:T37 Arg2:T36	
+R27	Experiences Arg1:T37 Arg2:T15	
+R28	Experiences Arg1:T37 Arg2:T24	
+R29	Causes Arg1:T24 Arg2:T36	
+R30	Used_for Arg1:T25 Arg2:T24	
+R31	Used_for Arg1:T27 Arg2:T26	
+R32	Causes Arg1:T26 Arg2:T36	
+R33	Experiences Arg1:T37 Arg2:T26	
+R34	Before Arg1:T15 Arg2:T36	
+A1	Experiencer T37 Patient
+A2	Experiencer T28 Patient
+A3	Experiencer T29 Patient
+A4	Experiencer T34 Patient

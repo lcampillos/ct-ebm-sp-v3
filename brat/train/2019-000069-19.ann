@@ -1,0 +1,163 @@
+T1	PROC 46 74	Evaluación de los resultados
+T2	PROC 132 143	tratamiento
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 186 205	esclerosis múltiple
+#2	AnnotatorNotes T3	C0026769; Multiple Sclerosis; Disease or Syndrome
+T4	PROC 210 256	estudio ambispectivo, exploratorio, en fase IV
+T5	PROC 311 327	ensayos clínicos
+#3	AnnotatorNotes T5	C0008976; Clinical Trials; Research Activity
+T6	CHEM 1367 1377	Cladribine
+#4	AnnotatorNotes T6	C0092801; cladribine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T7	DISO 383 402	ESCLEROSIS MULTIPLE
+#5	AnnotatorNotes T7	C0026769; Multiple Sclerosis; Disease or Syndrome
+T8	PROC 469 489	resonancia magnética
+#6	AnnotatorNotes T8	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T9	PROC 511 524	aleatorizados
+#7	AnnotatorNotes T9	C0034656; Randomization; Research Activity
+T10	PROC 528 544	ensayos clínicos
+#8	AnnotatorNotes T10	C0008976; Clinical Trials; Research Activity
+T11	CHEM 614 624	Cladribine
+#9	AnnotatorNotes T11	C0092801; cladribine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T12	PROC 627 634	placebo
+#10	AnnotatorNotes T12	C0032042; Placebos; Therapeutic or Preventive Procedure
+T13	PROC 680 694	ensayo clínico
+#11	AnnotatorNotes T13	C0008976; Clinical Trials; Research Activity
+T14	PROC 761 768	placebo
+#12	AnnotatorNotes T14	C0032042; Placebos; Therapeutic or Preventive Procedure
+T15	PROC 802 826	consentimiento informado
+#13	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	PROC 926 935	protocolo
+#14	AnnotatorNotes T16	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T17	DISO 1033 1043	enfermedad
+#15	AnnotatorNotes T17	C0012634; Disease; Disease or Syndrome
+T18	PROC 1247 1257	evaluación
+#16	AnnotatorNotes T18	C1261322; Evaluation procedure; Health Care Activity
+T19	PROC 1271 1274	MRI
+#17	AnnotatorNotes T19	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T20	PROC 1496 1510	ensayo clínico
+#18	AnnotatorNotes T20	C0008976; Clinical Trials; Research Activity
+T21	PROC 1513 1534	estudio observacional
+#19	AnnotatorNotes T21	C1518527; Observational Study; Research Activity
+T22	CHEM 1563 1573	Cladribine
+#20	AnnotatorNotes T22	C0092801; cladribine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T23	CHEM 167 177	cladribina
+#21	AnnotatorNotes T23	C0092801; cladribine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T24	DISO 508 510	EM
+#22	AnnotatorNotes T24	C0026769; Multiple Sclerosis; Disease or Syndrome
+T25	CHEM 740 750	Cladribine
+#23	AnnotatorNotes T25	C0092801; cladribine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T26	DISO 1072 1074	EM
+#24	AnnotatorNotes T26	C0026769; Multiple Sclerosis; Disease or Syndrome
+T27	Date 13 17	2019
+T28	Date 75 88	a largo plazo
+T29	Form 152 163	comprimidos
+#25	AnnotatorNotes T29	C0039225; Tablet Dosage Form; Biomedical or Dental Material
+T30	LIVB 260 269	pacientes
+#26	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 494 503	Pacientes
+#27	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Form 602 610	tabletas
+#28	AnnotatorNotes T32	C0039225; Tablet Dosage Form; Functional Concept
+T33	LIVB 639 648	Pacientes
+#29	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 778 787	pacientes
+#30	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T37	Neg_cue 1062 1064	no
+T38	LIVB 1345 1353	paciente
+#31	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 1465 1474	pacientes
+#32	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Neg_cue 1540 1542	no
+T41	Form 1551 1559	tabletas
+#33	AnnotatorNotes T41	C0039225; Tablet Dosage Form; Functional Concept
+T42	LIVB 1290 1303	Participantes
+#34	AnnotatorNotes T42	C4554048; Study Participant; Population Group
+T36	PHYS 1326 1337	embarazadas
+#35	AnnotatorNotes T36	C0032961; Pregnancy; Organism Function
+T35	PROC 661 673	aleatorizado
+#36	AnnotatorNotes T35	C0034656; Randomization; Research Activity
+A2	Assertion T26 Negated
+A3	Assertion T41 Negated
+A4	Assertion T22 Negated
+#37	AnnotatorNotes T1	C1285276; Evaluation of test results; Diagnostic Procedure
+#38	AnnotatorNotes T28	C0443252; Long-term; Temporal Concept
+T43	Neg_cue 1044 1046	no
+T44	Quantifier_or_Qualifier 1047 1057	controlada
+A1	Assertion T44 Negated
+T45	Spec_cue 1193 1199	podría
+T46	CONC 1200 1210	interferir
+A5	Assertion T46 Speculated
+#39	AnnotatorNotes T46	C0521102; Interferes with; Functional Concept
+R1	Overlap Arg1:T1 Arg2:T28	
+T47	Observation 113 119	efecto
+#40	AnnotatorNotes T47	C1518681; Outcome of Therapy; Finding (?)
+R2	After Arg1:T47 Arg2:T2	
+R3	Used_for Arg1:T23 Arg2:T2	
+R4	Has_Drug_Form Arg1:T23 Arg2:T29	
+R5	Experiences Arg1:T30 Arg2:T3	
+R6	Experiences Arg1:T30 Arg2:T47	
+R7	Experiences Arg1:T30 Arg2:T2	
+T48	Observation 278 289;304 306;311 327	participado en ensayos clínicos
+A6	Status T48 History_of
+#41	AnnotatorNotes T48	C1278516; Patient participation status; Finding (?)
+R9	Experiences Arg1:T31 Arg2:T24	
+R10	Has_Drug_Form Arg1:T11 Arg2:T32	
+R11	Experiences Arg1:T31 Arg2:T11	
+R12	Experiences Arg1:T31 Arg2:T12	
+R13	Experiences Arg1:T33 Arg2:T25	
+R14	Experiences Arg1:T33 Arg2:T14	
+R15	Before Arg1:T9 Arg2:T11	
+R16	Before Arg1:T9 Arg2:T12	
+R17	Before Arg1:T35 Arg2:T25	
+R18	Before Arg1:T35 Arg2:T14	
+T49	Quantifier_or_Qualifier 722 731	≥ 1 ciclo
+R19	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T49	
+R20	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T49	
+R22	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T44	
+R23	Negation Arg1:T43 Arg2:T44	
+R24	Negation Arg1:T37 Arg2:T26	
+T51	Observation 1109 1115	riesgo
+T52	Observation 1159 1186	participación en el estudio
+A7	Assertion T52 Contraindicated
+R25	Before Arg1:T17 Arg2:T52	
+R26	Speculation Arg1:T45 Arg2:T46	
+R28	Experiences Arg1:T42 Arg2:T36	
+R29	Experiences Arg1:T38 Arg2:T6	
+T53	CONC 1431 1453	inicio de este estudio
+#43	AnnotatorNotes T53	C4684789; Study Start; Temporal Concept
+R30	Overlap Arg1:T6 Arg2:T53	
+T54	Observation 1391 1412	parte de otro estudio
+R33	Overlap Arg1:T54 Arg2:T53	
+T55	Observation 1479 1534	participan en un ensayo clínico o estudio observacional
+#44	AnnotatorNotes T55	C1278516; Patient participation status; Finding (?)
+R36	Has_Drug_Form Arg1:T22 Arg2:T41	
+R37	Negation Arg1:T40 Arg2:T41	
+R38	Negation Arg1:T40 Arg2:T22	
+R40	Experiences Arg1:T39 Arg2:T22	
+R41	Before Arg1:T22 Arg2:T53	
+T56	Quantifier_or_Qualifier 584 593	≥ 1 ciclo
+R42	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T56	
+R43	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T56	
+T57	CHEM 735 738	IMP
+#45	AnnotatorNotes T57	C0013230; Investigational New Drugs; Pharmacologic Substance (?) ['investigational medicinal product']
+R44	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T49	
+R45	Before Arg1:T35 Arg2:T57	
+R46	Experiences Arg1:T33 Arg2:T57	
+T58	CHEM 597 600	IMP
+#46	AnnotatorNotes T58	C0013230; Investigational New Drugs; Pharmacologic Substance (?) ['investigational medicinal product']
+R47	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T56	
+R48	Has_Drug_Form Arg1:T58 Arg2:T32	
+R49	Before Arg1:T9 Arg2:T58	
+R50	Experiences Arg1:T31 Arg2:T58	
+#42	AnnotatorNotes T51	C0559571; At risk; Finding
+#47	AnnotatorNotes T52	C1278516; Patient participation status; Finding
+R21	Causes Arg1:T23 Arg2:T47	
+R8	Experiences Arg1:T39 Arg2:T6	
+R27	Experiences Arg1:T38 Arg2:T22	
+A8	Experiencer T30 Patient
+A9	Experiencer T31 Patient
+A10	Experiencer T33 Patient
+A11	Experiencer T34 Patient
+A12	Experiencer T42 Patient
+A13	Experiencer T38 Patient
+A14	Experiencer T39 Patient

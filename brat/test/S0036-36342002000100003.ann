@@ -1,0 +1,164 @@
+T1	PROC 1191 1203	gastroclisis
+T2	DISO 59 72	deshidratados
+#1	AnnotatorNotes T2	C0011175; Dehydration; Disease or Syndrome
+T3	DISO 77 90	diarrea aguda
+#2	AnnotatorNotes T3	C0013369; Dysentery; Disease or Syndrome
+T4	PROC 103 137	Evaluar la seguridad y efectividad
+#3	AnnotatorNotes T4	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T5	PROC 157 173	hidratación oral
+#4	AnnotatorNotes T5	C0086904; Oral rehydration procedure; Therapeutic or Preventive Procedure
+T6	PROC 197 221	Ensayo clínico aleatorio
+#5	AnnotatorNotes T6	C0206034; Clinical Trials, Randomized; Research Activity
+T7	PROC 1398 1426	técnica de dosis fraccionada
+T8	DISO 374 387	deshidratados
+#6	AnnotatorNotes T8	C0011175; Dehydration; Disease or Syndrome
+T9	DISO 392 405	diarrea aguda
+#7	AnnotatorNotes T9	C0013369; Dysentery; Disease or Syndrome
+T10	CHEM 441 446	suero
+#8	AnnotatorNotes T10	C0034998; Rehydration Solutions; Pharmacologic Substance
+T11	ANAT 769 774	fecal
+#9	AnnotatorNotes T11	C0015733; Feces; Body Substance
+T12	CHEM 859 864	suero
+#10	AnnotatorNotes T12	C0034998; Rehydration Solutions; Pharmacologic Substance
+T13	PROC 879 890	hidratación
+#11	AnnotatorNotes T13	C1881074; Hydration Therapy; Therapeutic or Preventive Procedure
+T14	ANAT 1019 1024	fecal
+#12	AnnotatorNotes T14	C0015733; Feces; Body Substance
+T15	DISO 1155 1175	vómitos persistentes
+#13	AnnotatorNotes T15	C0152165; Persistent vomiting; Sign or Symptom
+T16	PROC 1230 1255	rehidratación intravenosa
+#14	AnnotatorNotes T16	C1881074; Hydration Therapy; Therapeutic or Preventive Procedure + C0021440; Intravenous infusion procedures; Therapeutic or Preventive Procedure
+T17	CHEM 1324 1329	suero
+#15	AnnotatorNotes T17	C0034998; Rehydration Solutions; Pharmacologic Substance
+T18	CHEM 1082 1096	atole de arroz
+#16	AnnotatorNotes T18	C0947613; STARCH, RICE; Organic Chemical · Pharmacologic Substance
+T19	PROC 1435 1446	tratamiento
+#17	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	DISO 1456 1469	deshidratados
+#18	AnnotatorNotes T20	C0011175; Dehydration; Disease or Syndrome
+T21	DISO 1474 1487	diarrea aguda
+#19	AnnotatorNotes T21	C0013369; Dysentery; Disease or Syndrome
+T22	PROC 1064 1078	administración
+#20	AnnotatorNotes T22	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T23	PROC 1306 1345	administración de suero oral ad libitum
+T24	PROC 1 17	Hidratación oral
+#21	AnnotatorNotes T24	C0086904; Oral rehydration procedure; Therapeutic or Preventive Procedure
+T25	Route 13 17	oral
+#22	AnnotatorNotes T25	C1527415; Oral Route of Drug administration; Functional Concept
+T26	Dose 31 49	dosis fraccionadas
+T27	LIVB 53 58	niños
+#23	AnnotatorNotes T27	C0008059; Child; Age Group
+T28	Route 169 173	oral
+#24	AnnotatorNotes T28	C1527415; Oral Route of Drug administration; Functional Concept
+T31	Date 319 337	septiembre de 1998
+T32	Date 340 353	junio de 1999
+T33	LIVB 364 373	pacientes
+#25	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Age 407 428	menores de cinco años
+T35	Route 447 451	oral
+#26	AnnotatorNotes T35	C1527415; Oral Route of Drug administration; Functional Concept
+T37	PHYS 896 904	diuresis
+#27	AnnotatorNotes T37	C0012797; Diuresis; Organ or Tissue Function
+T38	LIVB 966 975	pacientes
+#28	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 1101 1109	paciente
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1129 1138	pacientes
+#30	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Neg_cue 1205 1211	Ningún
+T43	LIVB 1212 1220	paciente
+#31	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Route 1244 1255	intravenosa
+#32	AnnotatorNotes T44	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T46	Route 1330 1334	oral
+#33	AnnotatorNotes T46	C1527415; Oral Route of Drug administration; Functional Concept
+T47	Dose 1409 1426	dosis fraccionada
+T48	LIVB 1450 1455	niños
+#34	AnnotatorNotes T48	C0008059; Child; Age Group
+T29	Dose 508 525	dosis fraccionada
+T30	PHYS 848 855	ingesta
+#35	AnnotatorNotes T30	C0232478; Ingestion; Biologic Function
+T36	Spec_cue 1290 1298	sugieren
+A1	Population_data T27 Age
+A2	Assertion T43 Negated
+A3	Assertion T16 Negated
+A4	Population_data T48 Age
+A5	Assertion T23 Speculated
+T39	Quantifier_or_Qualifier 1372 1378	segura
+A7	Assertion T39 Speculated
+T45	Quantifier_or_Qualifier 1381 1389	efectiva
+#36	AnnotatorNotes T45	C1704419; Effective; Qualitative Concept
+A8	Assertion T45 Speculated
+R1	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T39	
+R2	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T45	
+R3	Speculation Arg1:T36 Arg2:T23	
+R4	Speculation Arg1:T36 Arg2:T39	
+R5	Speculation Arg1:T36 Arg2:T45	
+R6	After Arg1:T6 Arg2:T31	
+R7	Before Arg1:T6 Arg2:T32	
+R8	Has_Route_or_Mode Arg1:T5 Arg2:T28	
+R9	Experiences Arg1:T27 Arg2:T2	
+R10	Experiences Arg1:T27 Arg2:T3	
+R11	Causes Arg1:T3 Arg2:T2	
+R12	Has_Route_or_Mode Arg1:T24 Arg2:T25	
+R13	Has_Dose_or_Strength Arg1:T24 Arg2:T26	
+R14	Experiences Arg1:T27 Arg2:T24	
+R15	Experiences Arg1:T33 Arg2:T8	
+R16	Has_Route_or_Mode Arg1:T10 Arg2:T35	
+T49	Quantifier_or_Qualifier 452 462	ad libitum
+#37	AnnotatorNotes T49	C0679686; treatment on demand; Intellectual Product | C1879743; As Much as Desired; Qualitative Concept
+R17	Causes Arg1:T9 Arg2:T8	
+R18	Experiences Arg1:T33 Arg2:T9	
+R19	Has_Age Arg1:T33 Arg2:T34	
+R20	Experiences Arg1:T33 Arg2:T10	
+R21	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T49	
+R22	Has_Dose_or_Strength Arg1:T10 Arg2:T29	
+T50	CONC 542 566	características clínicas
+R23	Negation Arg1:T42 Arg2:T43	
+R24	Negation Arg1:T42 Arg2:T16	
+R25	Has_Route_or_Mode Arg1:T16 Arg2:T44	
+R26	Experiences Arg1:T43 Arg2:T16	
+R27	Experiences Arg1:T41 Arg2:T15	
+R28	Experiences Arg1:T40 Arg2:T15	
+R29	Experiences Arg1:T40 Arg2:T1	
+R30	Experiences Arg1:T41 Arg2:T1	
+T51	Observation 1177 1186	mejorando
+#38	AnnotatorNotes T51	C0184511; Improved; Finding (?)
+R31	Causes Arg1:T1 Arg2:T51	
+R32	Experiences Arg1:T41 Arg2:T51	
+R33	Experiences Arg1:T40 Arg2:T51	
+R34	Used_for Arg1:T18 Arg2:T22	
+R37	Experiences Arg1:T38 Arg2:T22	
+R38	Used_for Arg1:T12 Arg2:T30	
+T53	CONC 763 774	gasto fecal
+#40	AnnotatorNotes T53	C0489601; output.stool; Quantitative Concept
+T54	CONC 1013 1024	gasto fecal
+#41	AnnotatorNotes T54	C0489601; output.stool; Quantitative Concept
+T55	CONC 869 890	tiempo de hidratación
+R39	Causes Arg1:T21 Arg2:T20	
+R40	Experiences Arg1:T48 Arg2:T20	
+R41	Experiences Arg1:T48 Arg2:T21	
+R42	Has_Route_or_Mode Arg1:T17 Arg2:T46	
+R43	Has_Dose_or_Strength Arg1:T7 Arg2:T47	
+R44	Experiences Arg1:T48 Arg2:T7	
+R45	Experiences Arg1:T48 Arg2:T19	
+R46	Experiences Arg1:T48 Arg2:T23	
+R47	Used_for Arg1:T12 Arg2:T13	
+R48	Before Arg1:T15 Arg2:T51	
+T56	Quantifier_or_Qualifier 1335 1345	ad libitum
+#42	AnnotatorNotes T56	C0679686; treatment on demand; Intellectual Product | C1879743; As Much as Desired; Qualitative Concept
+R49	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T56	
+T52	Observation 1047 1056	mejorando
+#39	AnnotatorNotes T52	C0184511; Improved; Finding (?)
+R35	Causes Arg1:T22 Arg2:T52	
+R36	Experiences Arg1:T38 Arg2:T52	
+T57	Quantifier_or_Qualifier 18 26	continua
+#43	AnnotatorNotes T57	C0549178; Continuous; Idea or Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T57	
+A6	Experiencer T27 Patient
+A9	Experiencer T33 Patient
+A10	Experiencer T38 Patient
+A11	Experiencer T40 Patient
+A12	Experiencer T41 Patient
+A13	Experiencer T43 Patient
+A14	Experiencer T48 Patient

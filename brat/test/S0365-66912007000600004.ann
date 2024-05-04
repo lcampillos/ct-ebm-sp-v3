@@ -1,0 +1,93 @@
+T1	ANAT 167 174	córneas
+#1	AnnotatorNotes T1	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T2	PROC 247 276	Estudio clínico observacional
+#2	AnnotatorNotes T2	C1518527; Observational Study; Research Activity + C0008976; Clinical Trials; Research Activity
+T3	PROC 332 344	randomizados
+#3	AnnotatorNotes T3	C0034656; Randomization; Research Activity
+T4	PROC 366 374	consulta
+#4	AnnotatorNotes T4	C0009818; Consultation; Health Care Activity
+T5	ANAT 1337 1344	córneas
+#5	AnnotatorNotes T5	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T6	PROC 104 135	medición de presión intraocular
+#6	AnnotatorNotes T6	C0430888; Intraocular pressure test; Diagnostic Procedure
+T7	PROC 488 522	medición de la presión intraocular
+#7	AnnotatorNotes T7	C0430888; Intraocular pressure test; Diagnostic Procedure
+T8	PROC 407 434	medición con cada tonómetro
+#8	AnnotatorNotes T8	C0040420; Tonometry; Diagnostic Procedure
+T9	PROC 1244 1263	presión intraocular
+#9	AnnotatorNotes T9	C0430888; Intraocular pressure test; Diagnostic Procedure
+T10	DISO 1337 1356	córneas patológicas
+T11	PROC 435 453	en orden aleatorio
+#10	AnnotatorNotes T11	C0034656; Randomization; Research Activity
+T12	PROC 884 909	medición con el tonómetro
+#11	AnnotatorNotes T12	C0040420; Tonometry; Diagnostic Procedure
+T13	DEVI 17 26	tonómetro
+#12	AnnotatorNotes T13	C0183969; Tonometer; Medical Device
+T14	DEVI 62 80	tonómetro Goldmann
+#13	AnnotatorNotes T14	C1271528; Goldmann applanation tonometer; Medical Device
+T15	PHYS 116 135	presión intraocular
+#14	AnnotatorNotes T15	C0021888; Physiologic Intraocular Pressure; Organ or Tissue Function
+T16	DEVI 143 152	tonómetro
+#15	AnnotatorNotes T16	C0183969; Tonometer; Medical Device
+T17	DEVI 194 215	tonómetro de Goldmann
+#16	AnnotatorNotes T17	C1271528; Goldmann applanation tonometer; Medical Device
+T18	LIVB 307 316	pacientes
+#17	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T19	DEVI 425 434	tonómetro
+#18	AnnotatorNotes T19	C0183969; Tonometer; Medical Device
+T20	PHYS 503 522	presión intraocular
+#19	AnnotatorNotes T20	C0021888; Physiologic Intraocular Pressure; Organ or Tissue Function
+T21	DEVI 549 559	tonómetros
+#20	AnnotatorNotes T21	C0183969; Tonometer; Medical Device
+T22	DEVI 635 645	tonómetros
+#21	AnnotatorNotes T22	C0183969; Tonometer; Medical Device
+T23	LIVB 718 727	pacientes
+#22	AnnotatorNotes T23	C0030705; Patients; Patient or Disabled Group
+T24	LIVB 761 770	pacientes
+#23	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group
+T25	LIVB 797 806	pacientes
+#24	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	LIVB 843 852	pacientes
+#25	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T28	Neg_cue 876 883	ninguna
+T29	DEVI 900 909	tonómetro
+#26	AnnotatorNotes T29	C0183969; Tonometer; Medical Device
+T30	DEVI 937 946	tonómetro
+#27	AnnotatorNotes T30	C0183969; Tonometer; Medical Device
+T33	DEVI 42 56	neumotonómetro
+#28	AnnotatorNotes T33	C1271256; Pneumatic tonometer; Medical Device
+T34	DEVI 221 236	pneumotonómetro
+#29	AnnotatorNotes T34	C1271256; Pneumatic tonometer; Medical Device
+T35	DEVI 985 999	neumotonómetro
+#30	AnnotatorNotes T35	C1271256; Pneumatic tonometer; Medical Device
+T32	DEVI 1161 1170	tonómetro
+#31	AnnotatorNotes T32	C0183969; Tonometer; Medical Device
+A1	Assertion T12 Negated
+R1	Negation Arg1:T28 Arg2:T12	
+T27	Quantifier_or_Qualifier 175 183	normales
+#32	AnnotatorNotes T27	C0205307; Normal; Qualitative Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T27	
+R4	Used_for Arg1:T16 Arg2:T6	
+R5	Location_of Arg1:T1 Arg2:T6	
+R6	Used_for Arg1:T17 Arg2:T6	
+R7	Used_for Arg1:T34 Arg2:T6	
+T31	Quantifier_or_Qualifier 317 329	consecutivos
+#33	AnnotatorNotes T31	C1707491; Consecutive; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T31	
+R9	Used_for Arg1:T19 Arg2:T8	
+R10	Before Arg1:T11 Arg2:T8	
+R12	Used_for Arg1:T21 Arg2:T7	
+R13	Experiences Arg1:T26 Arg2:T12	
+R14	Used_for Arg1:T29 Arg2:T12	
+T36	CONC 1033 1044	correlación
+#34	AnnotatorNotes T36	C1707520; Correlation; Qualitative Concept
+T37	CONC 1090 1112	método de Bland-Altman
+R15	Used_for Arg1:T32 Arg2:T9	
+R16	Location_of Arg1:T5 Arg2:T10	
+R3	Experiences Arg1:T18 Arg2:T4	
+#35	AnnotatorNotes T10	C0010034; Corneal Diseases; Disease or Syndrome (?) 
+A2	Experiencer T18 Patient
+A3	Experiencer T23 Patient
+A4	Experiencer T24 Patient
+A5	Experiencer T25 Patient
+A6	Experiencer T26 Patient

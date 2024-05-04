@@ -1,0 +1,169 @@
+T1	PROC 46 93	Estudio para evaluar la eficacia y la seguridad
+T2	CHEM 97 108	mirikizumab
+#1	AnnotatorNotes T2	C5139904; mirikizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	DISO 126 145	enfermedad de Crohn
+#2	AnnotatorNotes T3	C0010346; Crohn Disease; Disease or Syndrome
+T4	PROC 175 276	Estudio de fase 3, multicéntrico, aleatorizado, con enmascaramiento doble, comparativo con un placebo
+T5	PROC 282 293	tratamiento
+#3	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 307 324	re-aleatorización
+T7	PROC 330 364	evaluar la eficacia y la seguridad
+#4	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T8	DISO 397 416	enfermedad de Crohn
+#5	AnnotatorNotes T8	C0010346; Crohn Disease; Disease or Syndrome
+T9	DISO 467 486	Enfermedad de Crohn
+#6	AnnotatorNotes T9	C0010346; Crohn Disease; Disease or Syndrome
+T10	DISO 513 532	Enfermedad de Crohn
+#7	AnnotatorNotes T10	C0010346; Crohn Disease; Disease or Syndrome
+T11	PROC 588 599	Diagnóstico
+#8	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	DISO 603 605	EC
+#9	AnnotatorNotes T12	C0010346; Crohn Disease; Disease or Syndrome
+T13	PROC 652 663	Diagnóstico
+#10	AnnotatorNotes T13	C0011900; Diagnosis; Diagnostic Procedure
+T14	DISO 678 680	EC
+#11	AnnotatorNotes T14	C0010346; Crohn Disease; Disease or Syndrome
+T15	DISO 780 795	dolor abdominal
+#12	AnnotatorNotes T15	C0000737; Abdominal Pain; Sign or Symptom
+T16	DISO 816 828	Intolerancia
+#13	AnnotatorNotes T16	C0277585; Intolerance to drug; Pathologic Function
+T17	PROC 893 929	tratamiento convencional o biológico
+T18	DISO 938 940	EC
+#14	AnnotatorNotes T18	C0010346; Crohn Disease; Disease or Syndrome
+T19	PROC 1001 1024	medidas anticonceptivas
+T20	PROC 1081 1092	diagnóstico
+#15	AnnotatorNotes T20	C0011900; Diagnosis; Diagnostic Procedure
+T21	DISO 1096 1112	colitis ulcerosa
+#16	AnnotatorNotes T21	C0009324; Ulcerative Colitis; Disease or Syndrome
+T22	DISO 1114 1163	enfermedad inflamatoria intestinal inclasificable
+T23	DISO 1165 1168	EII
+#17	AnnotatorNotes T23	C0021390; Inflammatory Bowel Diseases; Disease or Syndrome
+T24	DISO 1200 1221	colitis indeterminada
+#18	AnnotatorNotes T24	C0341332; Indeterminate colitis; Disease or Syndrome
+T25	DISO 1225 1253	absceso abdominal o perianal
+T26	ANAT 1245 1253	perianal
+#19	AnnotatorNotes T26	C0442158; Perianal; Body Location or Region
+T27	DISO 1256 1284	síndrome del intestino corto
+#20	AnnotatorNotes T27	C0036992; Short Bowel Syndrome; Disease or Syndrome
+T28	ANAT 1301 1307	estoma
+#21	AnnotatorNotes T28	C1955856; Surgical Stoma; Anatomical Structure
+T29	PROC 1310 1317	ostomía
+#22	AnnotatorNotes T29	C0029473; Ostomy; Therapeutic or Preventive Procedure
+T30	PROC 1340 1360	resección intestinal
+#23	AnnotatorNotes T30	C1096244; Intestinal resection; Therapeutic or Preventive Procedure
+T31	PROC 1446 1476	cirugía intra o extraabdominal
+T32	CHEM 1578 1599	anticuerpo monoclonal
+#25	AnnotatorNotes T32	C0003250; Monoclonal Antibodies; Amino Acid, Peptide, or Protein · Immunologic Factor
+T33	CHEM 368 379	mirikizumab
+#26	AnnotatorNotes T33	C5139904; mirikizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T34	ANAT 786 795	abdominal
+#27	AnnotatorNotes T34	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T35	ANAT 1138 1148	intestinal
+#28	AnnotatorNotes T35	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T36	ANAT 1233 1242	abdominal
+#29	AnnotatorNotes T36	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T37	ANAT 1269 1278	intestino
+#30	AnnotatorNotes T37	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T38	ANAT 1350 1360	intestinal
+#31	AnnotatorNotes T38	C0021853; Intestines; Body Part, Organ, or Organ Component | C1318303; Entire intestine; Body Part, Organ, or Organ Component
+T39	CHEM 1614 1619	IL-23
+#32	AnnotatorNotes T39	C0963088; interleukin-23; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T40	Date 13 17	2018
+T41	LIVB 112 121	pacientes
+#33	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Neg_cue 303 306	sin
+T43	LIVB 383 392	pacientes
+#34	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Duration 606 622	al menos 3 meses
+T45	LIVB 948 955	mujeres
+#35	AnnotatorNotes T45	C0043210; Woman; Population Group
+T46	Date 1064 1080	en la actualidad
+T47	Duration 1381 1392	los 6 meses
+T48	Duration 1497 1508	los 3 meses
+T50	PHYS 735 747	deposiciones
+#36	AnnotatorNotes T50	C0011135; Defecation; Organism Function
+A1	Assertion T6 Negated
+A2	Status T32 History_of
+A3	Status T30 History_of
+A4	Status T31 History_of
+#37	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#38	AnnotatorNotes T4	C0282461; Phase 3 Clinical Trials; Research Activity + C1096776; Multicenter Study; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+#39	AnnotatorNotes T17	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure + C1531518; Biological treatment; Therapeutic or Preventive Procedure  
+#40	AnnotatorNotes T19	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+#41	AnnotatorNotes T22	C4268603; Colonic inflammatory bowel disease  unclassified (IBDU); Disease or Syndrome
+#42	AnnotatorNotes T25	C0031019; Perianal abscess; Disease or Syndrome + C0243001; Abdominal Abscess; Disease or Syndrome
+#24	AnnotatorNotes T46	C0521116; Current (present time); Temporal Concept 
+#43	AnnotatorNotes T31	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T49	Observation 717 747	frecuencia de las deposiciones
+#44	AnnotatorNotes T49	C0426642; Frequency of bowel action; Finding
+R1	Experiences Arg1:T41 Arg2:T2	
+R2	Experiences Arg1:T41 Arg2:T3	
+T51	Quantifier_or_Qualifier 146 152	activa
+#45	AnnotatorNotes T51	C0679217; Active State; Idea or Concept
+R3	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T51	
+T52	Quantifier_or_Qualifier 417 423	activa
+#46	AnnotatorNotes T52	C0679217; Active State; Idea or Concept
+R4	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T52	
+T53	Quantifier_or_Qualifier 533 539	activa
+#47	AnnotatorNotes T53	C0679217; Active State; Idea or Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T53	
+T54	Quantifier_or_Qualifier 294 300	activo
+#48	AnnotatorNotes T54	C0679217; Active State; Idea or Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T54	
+R7	Negation Arg1:T42 Arg2:T6	
+R8	Experiences Arg1:T43 Arg2:T33	
+R9	Experiences Arg1:T43 Arg2:T5	
+R10	Experiences Arg1:T43 Arg2:T8	
+T55	Quantifier_or_Qualifier 427 443	moderada a grave
+#49	AnnotatorNotes T55	C1299393; Moderate to severe; Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T55	
+T56	Quantifier_or_Qualifier 543 559	moderada a grave
+#50	AnnotatorNotes T56	C1299393; Moderate to severe; Qualitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T56	
+R13	Has_Duration_or_Interval Arg1:T12 Arg2:T44	
+T57	CONC 633 648	período inicial
+#51	AnnotatorNotes T57	C1442488; Baseline; Quantitative Concept (?) | C4684789; Study Start; Temporal Concept (?)
+R14	Before Arg1:T12 Arg2:T57	
+R15	Before Arg1:T11 Arg2:T57	
+T58	Quantifier_or_Qualifier 681 697	moderada a grave
+#52	AnnotatorNotes T58	C1299393; Moderate to severe; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T58	
+T59	PROC 806 812	SES-CD
+#53	AnnotatorNotes T59	C5549856; Assessment using Simple Endoscopic Score for Crohn's Disease; Health Care Activity
+R18	Location_of Arg1:T34 Arg2:T15	
+R20	Overlap Arg1:T14 Arg2:T15	
+R22	Causes Arg1:T17 Arg2:T16	
+T60	Observation 830 850	pérdida de respuesta
+#54	AnnotatorNotes T60	C5400193; Loss of therapeutic response; Finding
+R23	Overlap Arg1:T60 Arg2:T17	
+T61	Observation 853 875	respuesta insuficiente
+#55	AnnotatorNotes T61	C1320680; Poor response to treatment; Finding
+R24	Overlap Arg1:T61 Arg2:T17	
+R25	Overlap Arg1:T60 Arg2:T18	
+R26	Overlap Arg1:T61 Arg2:T18	
+R27	Experiences Arg1:T45 Arg2:T19	
+R28	Overlap Arg1:T20 Arg2:T46	
+R29	Overlap Arg1:T21 Arg2:T46	
+R30	Location_of Arg1:T35 Arg2:T22	
+R31	Location_of Arg1:T35 Arg2:T23	
+R32	Overlap Arg1:T22 Arg2:T46	
+R33	Overlap Arg1:T24 Arg2:T46	
+R34	Overlap Arg1:T25 Arg2:T46	
+R35	Location_of Arg1:T36 Arg2:T25	
+R36	Location_of Arg1:T26 Arg2:T25	
+R37	Location_of Arg1:T37 Arg2:T27	
+R38	Overlap Arg1:T27 Arg2:T46	
+R39	Location_of Arg1:T38 Arg2:T30	
+R40	Overlap Arg1:T30 Arg2:T47	
+T62	CONC 1407 1422	período inicial
+#56	AnnotatorNotes T62	C1442488; Baseline; Quantitative Concept (?) | C4684789; Study Start; Temporal Concept (?)
+R41	Before Arg1:T30 Arg2:T62	
+R42	Before Arg1:T31 Arg2:T62	
+R43	Overlap Arg1:T31 Arg2:T48	
+R19	Overlap Arg1:T16 Arg2:T18	
+R21	Overlap Arg1:T23 Arg2:T46	
+T63	Quantifier_or_Qualifier 1600 1619	dirigido a la IL-23
+R44	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T63	
+A5	Experiencer T45 Patient
+A6	Experiencer T41 Patient
+A7	Experiencer T43 Patient

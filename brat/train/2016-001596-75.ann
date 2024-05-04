@@ -1,0 +1,128 @@
+T1	PROC 46 72	Ensayo clinico randomizado
+T2	PROC 90 101	tratamiento
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 108 128	diverticulitis aguda
+T4	PROC 179 233	Ensayo clínico multicéntrico controlado y aleatorizado
+T5	PROC 276 299	tratamiento ambulatorio
+#2	AnnotatorNotes T5	C0002423; ambulatory care services; Health Care Activity
+T6	DISO 322 342	diverticulitis aguda
+T7	PROC 355 369	pauta estándar
+T8	DISO 410 430	Diverticulitis aguda
+T9	DISO 532 552	diverticulitis aguda
+T10	DISO 627 647	diverticulitis aguda
+T11	PROC 692 703	tratamiento
+#3	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	DISO 761 775	comorbilidades
+#4	AnnotatorNotes T12	C1275743; Co-morbid conditions; Finding
+T13	PROC 813 837	consentimiento informado
+#5	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	PROC 929 948	control sintomático
+T15	DISO 1045 1049	SIRS
+#6	AnnotatorNotes T15	C0242966; Systemic Inflammatory Response Syndrome; Disease or Syndrome
+T16	ANAT 976 980	oral
+#7	AnnotatorNotes T16	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T17	PROC 1100 1102	Fr
+#8	AnnotatorNotes T17	C1443397; Taking respiratory rate; Health Care Activity
+T18	CHEM 144 156	antibióticos
+#9	AnnotatorNotes T18	C0003232; Antibiotics; Antibiotic
+T19	CHEM 304 315	antibiótico
+#10	AnnotatorNotes T19	C0003232; Antibiotics; Antibiotic
+T20	CHEM 374 385	antibiótico
+#11	AnnotatorNotes T20	C0003232; Antibiotics; Antibiotic
+T21	PROC 239 271	comparar la eficacia y seguridad
+T22	CHEM 708 720	antibióticos
+#12	AnnotatorNotes T22	C0003232; Antibiotics; Antibiotic
+T23	PROC 1089 1091	Fc
+#13	AnnotatorNotes T23	C2197023; examination of heart rate; Health Care Activity
+T24	PROC 1113 1116	PCR
+#14	AnnotatorNotes T24	C0201657; C-reactive protein measurement; Laboratory Procedure
+T25	Date 13 17	2016
+T26	Neg_cue 140 143	sin
+T27	Neg_cue 300 303	sin
+T28	Age 481 497	entre 18-80 años
+T29	LIVB 518 527	Pacientes
+#15	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Neg_cue 603 614	Ausencia de
+T31	Duration 651 670	los últimos 3 meses
+T32	Neg_cue 674 676	No
+T33	Duration 724 745	las últimas 2 semanas
+T34	Neg_cue 749 760	Ausencia de
+T35	LIVB 792 801	Pacientes
+#16	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	PHYS 868 887	Capacidad cognitiva
+#17	AnnotatorNotes T36	C0009240; Cognition; Mental Process
+T37	PHYS 984 1001	Immunocompetencia
+#18	AnnotatorNotes T37	C0020987; Immunocompetence; Cell Function (?)
+A1	Assertion T18 Negated
+A2	Assertion T19 Negated
+A3	Assertion T10 Negated
+A4	Assertion T11 Negated
+A5	Assertion T22 Negated
+A6	Assertion T12 Negated
+A7	Status T11 History_of
+A8	Status T22 History_of
+A9	Status T10 History_of
+#19	AnnotatorNotes T1	C0206034; Clinical Trials, Randomized; Research Activity
+#20	AnnotatorNotes T4	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1096776; Multicenter Study; Research Activity
+#21	AnnotatorNotes T21	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#22	AnnotatorNotes T3	C0518989; Acute diverticulitis; Disease or Syndrome 
+#23	AnnotatorNotes T6	C0518989; Acute diverticulitis; Disease or Syndrome 
+#24	AnnotatorNotes T8	C0518989; Acute diverticulitis; Disease or Syndrome 
+#25	AnnotatorNotes T9	C0518989; Acute diverticulitis; Disease or Syndrome 
+#26	AnnotatorNotes T10	C0518989; Acute diverticulitis; Disease or Syndrome 
+T38	Quantifier_or_Qualifier 776 786	relevantes
+A10	Assertion T38 Negated
+#27	AnnotatorNotes T38	C2347946; Relevance; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T38	
+R2	Negation Arg1:T34 Arg2:T12	
+R3	Negation Arg1:T34 Arg2:T38	
+R4	Negation Arg1:T26 Arg2:T18	
+R5	Negation Arg1:T27 Arg2:T19	
+R6	Used_for Arg1:T19 Arg2:T5	
+R7	Used_for Arg1:T18 Arg2:T2	
+R8	Used_for Arg1:T20 Arg2:T7	
+T39	Quantifier_or_Qualifier 343 347	leve
+#28	AnnotatorNotes T39	C2945599; Mild (qualifier value); Qualitative Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T39	
+T40	Quantifier_or_Qualifier 431 435	leve
+#29	AnnotatorNotes T40	C2945599; Mild (qualifier value); Qualitative Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T40	
+T41	Quantifier_or_Qualifier 129 133	leve
+#30	AnnotatorNotes T41	C2945599; Mild (qualifier value); Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T41	
+T42	Quantifier_or_Qualifier 553 560	grado 0
+R12	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T42	
+R13	Experiences Arg1:T29 Arg2:T9	
+R14	Negation Arg1:T30 Arg2:T10	
+R15	Overlap Arg1:T10 Arg2:T31	
+R16	Negation Arg1:T32 Arg2:T11	
+R17	Used_for Arg1:T22 Arg2:T11	
+R18	Overlap Arg1:T22 Arg2:T33	
+T43	Observation 840 864	participar en el estudio
+#31	AnnotatorNotes T43	C1278516; Patient participation status; Finding
+R19	Before Arg1:T13 Arg2:T43	
+T44	Quantifier_or_Qualifier 888 896	adecuada
+#32	AnnotatorNotes T44	C0205411; Adequate; Qualitative Concept
+R20	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T44	
+T45	Observation 899 920	Buen soporte familiar
+#33	AnnotatorNotes T45	C5546751; Adequate family support; Finding 
+T46	Observation 965 980	Tolerancia oral
+R21	Location_of Arg1:T16 Arg2:T46	
+#34	AnnotatorNotes T14	C1274136; Symptom control (regime/therapy); Therapeutic or Preventive Procedure (?)
+T47	Result_or_Value 1053 1058	>38ºC
+T48	Result_or_Value 1061 1066	<36ºC
+T49	Result_or_Value 1070 1087	>12000 o <4000/uL
+T50	Result_or_Value 1092 1098	>90bpm
+R22	Has_Result_or_Value Arg1:T23 Arg2:T50	
+T51	Result_or_Value 1103 1109	>20rpm
+R23	Has_Result_or_Value Arg1:T17 Arg2:T51	
+T52	Result_or_Value 1117 1125	>15mg/dL
+R24	Has_Result_or_Value Arg1:T24 Arg2:T52	
+T53	Quantifier_or_Qualifier 1008 1016	Máximo 1
+R25	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T53	
+R26	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T53	
+R27	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T53	
+R28	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T53	
+#35	AnnotatorNotes T7	C2936643; Standard of Care; Health Care Activity
+A11	Experiencer T29 Patient
+A12	Experiencer T35 Patient

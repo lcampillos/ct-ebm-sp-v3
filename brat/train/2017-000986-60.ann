@@ -1,0 +1,143 @@
+T1	PROC 45 83	Fase 3b, un brazo, estudio unicéntrico
+T2	DISO 115 135	infectados por VIH-1
+#1	AnnotatorNotes T2	C2363741; HIV-1 infection; Disease or Syndrome
+T3	CHEM 183 186	3TC
+#2	AnnotatorNotes T3	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T4	CHEM 204 215	Raltegravir
+#3	AnnotatorNotes T4	C1871526; raltegravir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T5	CHEM 241 244	3TC
+#4	AnnotatorNotes T5	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T6	CHEM 259 270	Raltegravir
+#5	AnnotatorNotes T6	C1871526; raltegravir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T7	PROC 285 305	estudio de Roll-over
+T8	PROC 310 325	ensayo clínicos
+T9	PROC 547 558	seguimiento
+#6	AnnotatorNotes T9	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T10	PROC 679 686	terapia
+#7	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T11	CHEM 696 699	3TC
+#8	AnnotatorNotes T11	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T12	CHEM 704 715	Raltegravir
+#9	AnnotatorNotes T12	C1871526; raltegravir; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T13	PROC 748 772	consentimiento informado
+#10	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	DISO 917 927	enfermedad
+#11	AnnotatorNotes T14	C0012634; Disease; Disease or Syndrome
+T15	PROC 1069 1080	tratamiento
+#12	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	DISO 1097 1125	Co-infección por hepatitis B
+T17	PROC 644 655	carga viral
+#13	AnnotatorNotes T17	C1261478; Viral load measurement; Laboratory Procedure
+T18	DISO 945 955	enfermedad
+#14	AnnotatorNotes T18	C0012634; Disease; Disease or Syndrome
+T19	Date 13 17	2017
+T20	LIVB 105 114	pacientes
+#15	AnnotatorNotes T20	C0030705; Patients; Patient or Disabled Group
+T21	Dose 188 194	150 mg
+T22	Frequency 195 198	BID
+T23	Dose 217 223	400 mg
+T24	Frequency 224 227	BID
+T25	Dose 246 252	300 mg
+T26	Frequency 253 255	QD
+T27	Dose 272 279	1200 mg
+T28	Frequency 280 282	QD
+T29	LIVB 367 376	Pacientes
+#16	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	LIVB 419 428	Pacientes
+#17	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 493 502	pacientes
+#18	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Duration 562 572	24 semanas
+T34	LIVB 719 728	Pacientes
+#19	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	PHYS 832 840	Embarazo
+#20	AnnotatorNotes T35	C0032961; Pregnancy; Organism Function
+T36	PHYS 842 851	lactancia
+#21	AnnotatorNotes T36	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T37	PHYS 865 873	embarazo
+#22	AnnotatorNotes T37	C0032961; Pregnancy; Organism Function
+T38	LIVB 976 988	investigador
+#23	AnnotatorNotes T38	C0035173; Research Personnel; Professional or Occupational Group
+T41	LIVB 1085 1093	paciente
+#24	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 650 655	viral
+#25	AnnotatorNotes T42	C0042776; Virus; Virus
+T43	LIVB 130 135	VIH-1
+#26	AnnotatorNotes T43	C0019704; HIV-1; Virus
+A1	Status T9 History_of
+A2	Status T18 History_of
+#27	AnnotatorNotes T8	C0008976; Clinical Trials; Research Activity
+T33	Spec_cue 990 997	pudiera
+T39	Observation 998 1022	confundir los resultados
+A3	Assertion T39 Speculated
+T40	Observation 1049 1055	riesgo
+A4	Assertion T40 Speculated
+R1	Speculation Arg1:T33 Arg2:T39	
+R2	Speculation Arg1:T33 Arg2:T40	
+R4	Before Arg1:T18 Arg2:T39	
+R5	Before Arg1:T14 Arg2:T39	
+R6	Before Arg1:T14 Arg2:T40	
+R7	Before Arg1:T18 Arg2:T40	
+R8	Experiences Arg1:T41 Arg2:T15	
+R9	Experiences Arg1:T41 Arg2:T40	
+R10	Experiences Arg1:T41 Arg2:T18	
+R11	Experiences Arg1:T41 Arg2:T14	
+T44	Observation 140 160	supresión virológica
+#28	AnnotatorNotes T44	C3888663; Sustained viral response; Finding (?)
+T45	Observation 617 642	virológicamente suprimido
+#29	AnnotatorNotes T45	C3888663; Sustained viral response; Finding (?)
+R3	Experiences Arg1:T31 Arg2:T45	
+T46	Observation 533 558	completado el seguimiento
+R12	Before Arg1:T46 Arg2:T45	
+R13	Has_Duration_or_Interval Arg1:T9 Arg2:T32	
+R15	Experiences Arg1:T20 Arg2:T2	
+R16	Causes Arg1:T43 Arg2:T2	
+R17	Experiences Arg1:T20 Arg2:T44	
+R18	Overlap Arg1:T2 Arg2:T44	
+R19	Has_Dose_or_Strength Arg1:T3 Arg2:T21	
+R20	Has_Frequency Arg1:T3 Arg2:T22	
+R21	Combined_with Arg1:T3 Arg2:T4	
+R22	Has_Dose_or_Strength Arg1:T4 Arg2:T23	
+R23	Has_Frequency Arg1:T4 Arg2:T24	
+R24	Experiences Arg1:T20 Arg2:T3	
+R25	Experiences Arg1:T20 Arg2:T5	
+R26	Combined_with Arg1:T5 Arg2:T6	
+R27	Before Arg1:T21 Arg2:T25	
+R28	Before Arg1:T23 Arg2:T27	
+R29	Has_Frequency Arg1:T6 Arg2:T28	
+R30	Has_Dose_or_Strength Arg1:T6 Arg2:T27	
+R31	Has_Dose_or_Strength Arg1:T5 Arg2:T25	
+R32	Has_Frequency Arg1:T5 Arg2:T26	
+T47	Result_or_Value 656 671	<50 copias / mL
+R33	Has_Result_or_Value Arg1:T17 Arg2:T47	
+R34	Experiences Arg1:T31 Arg2:T17	
+R35	Experiences Arg1:T31 Arg2:T10	
+R36	Used_for Arg1:T11 Arg2:T10	
+R37	Combined_with Arg1:T11 Arg2:T12	
+T48	Quantifier_or_Qualifier 687 691	dual
+#30	AnnotatorNotes T48	C1554184; Dual; Intellectual Product
+R38	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T48	
+R39	Overlap Arg1:T45 Arg2:T10	
+T49	Observation 778 802	participar en el estudio
+#31	AnnotatorNotes T49	C1278516; Patient participation status; Finding
+R40	Before Arg1:T13 Arg2:T49	
+T50	Observation 854 873	planificar embarazo
+#32	AnnotatorNotes T50	C0032992; Pregnancy, Planned; Finding
+R42	Before Arg1:T50 Arg2:T37	
+T51	PROC 896 903	estudio
+#33	AnnotatorNotes T51	C0008976; Clinical Trials; Research Activity
+R43	Overlap Arg1:T50 Arg2:T51	
+R44	Overlap Arg1:T36 Arg2:T51	
+R45	Overlap Arg1:T35 Arg2:T51	
+R47	Overlap Arg1:T17 Arg2:T10	
+R48	Overlap Arg1:T40 Arg2:T15	
+#34	AnnotatorNotes T40	C0559571; At risk; Finding
+#35	AnnotatorNotes T46	C5554829; Follow-Up Completed; Finding
+A5	Experiencer T31 Patient
+A6	Experiencer T34 Patient
+A7	Experiencer T20 Patient
+A8	Experiencer T29 Patient
+A9	Experiencer T30 Patient
+A10	Status T37 Future
+A11	Experiencer T38 Other
+A12	Experiencer T41 Patient

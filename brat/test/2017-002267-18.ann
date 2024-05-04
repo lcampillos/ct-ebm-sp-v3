@@ -1,0 +1,136 @@
+T1	CHEM 71 133	CONCENTRADO DE PLASMA AUTÓLOGO RICO EN FACTORES DE CRECIMIENTO
+T2	PROC 140 151	TRATAMIENTO
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	ANAT 156 166	ENDOMETRIO
+#2	AnnotatorNotes T3	C0014180; Endometrium; Body Part, Organ, or Organ Component | C1269566; Entire endometrium; Body Part, Organ, or Organ Component
+T4	PROC 197 240	TRANSFERENCIA DE EMBRIONES CRIO-PRESERVADOS
+#3	AnnotatorNotes T4	C0404110; Frozen embryo transfer; Therapeutic or Preventive Procedure
+T5	PROC 242 264	ENSAYO CLÍNICO FASE II
+#4	AnnotatorNotes T5	C0282460; Phase 2 Clinical Trials; Research Activity
+T6	DISO 526 549	Malformaciones uterinas
+T7	DISO 156 171	ENDOMETRIO FINO
+T8	DISO 642 658	Tumores ováricos
+T9	DISO 662 687	Tumores benignos uterinos
+T10	ANAT 679 687	uterinos
+#5	AnnotatorNotes T10	C0042149; Uterus; Body Part, Organ, or Organ Component | C1269032; Entire uterus; Body Part, Organ, or Organ Component
+T11	PROC 702 724	tratamiento quirúrgico
+#6	AnnotatorNotes T11	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T12	DISO 728 761	Enfermedades inflamatorias agudas
+#7	AnnotatorNotes T12	C1290885; Acute inflammatory disease; Disease or Syndrome
+T13	DISO 783 814	Enfermedad Inflamatoria Pélvica
+#8	AnnotatorNotes T13	C0242172; Pelvic Inflammatory Disease; Disease or Syndrome
+T14	DISO 833 849	tumores malignos
+#9	AnnotatorNotes T14	C0006826; Malignant Neoplasms; Neoplastic Process
+T15	PROC 885 898	quimioterapia
+#10	AnnotatorNotes T15	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T16	DISO 916 946	enfermedades agudas o crónicas
+T17	PROC 961 992	tratamiento activo con fármacos
+T18	CHEM 984 992	fármacos
+#11	AnnotatorNotes T18	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T19	PROC 1021 1033	implantación
+#12	AnnotatorNotes T19	C0021107; Implantation procedure; Therapeutic or Preventive Procedure
+T20	PROC 1052 1084	Tratamiento concomitante crónico
+T21	CHEM 1089 1094	AINEs
+#13	AnnotatorNotes T21	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T22	ANAT 214 223	EMBRIONES
+#14	AnnotatorNotes T22	C0013935; Embryo; Embryonic Structure | C0013948; Embryonic Structures; Embryonic Structure | C1305370; Entire embryo; Embryonic Structure
+T23	ANAT 541 549	uterinas
+#15	AnnotatorNotes T23	C0042149; Uterus; Body Part, Organ, or Organ Component | C1269032; Entire uterus; Body Part, Organ, or Organ Component
+T24	ANAT 650 658	ováricos
+#16	AnnotatorNotes T24	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T25	DISO 297 307	infértiles
+#17	AnnotatorNotes T25	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T26	ANAT 807 814	Pélvica
+#18	AnnotatorNotes T26	C0030797; Pelvis; Body Part, Organ, or Organ Component | C1279864; Entire pelvis; Body Part, Organ, or Organ Component
+T27	PROC 355 379	consentimiento informado
+#19	AnnotatorNotes T27	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T28	DISO 512 523	Trombopenia
+#20	AnnotatorNotes T28	C0040034; Thrombocytopenia; Disease or Syndrome
+T29	Date 13 17	2017
+T30	LIVB 175 184	PACIENTES
+#21	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 289 296	mujeres
+#22	AnnotatorNotes T32	C0043210; Woman; Population Group
+T33	LIVB 336 343	Mujeres
+#23	AnnotatorNotes T33	C0043210; Woman; Population Group
+T34	LIVB 383 390	Mujeres
+#24	AnnotatorNotes T34	C0043210; Woman; Population Group
+T35	LIVB 429 436	Mujeres
+#25	AnnotatorNotes T35	C0043210; Woman; Population Group
+T36	Age 437 455	menores de 40 años
+T37	Neg_cue 578 585	impidan
+T38	PHYS 619 638	gestación a término
+#26	AnnotatorNotes T38	C0232991; Term pregnancy; Organism Function
+T40	LIVB 819 828	Pacientes
+#27	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 902 911	Pacientes
+#28	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Duration 938 946	crónicas
+#29	AnnotatorNotes T42	C0205191; chronic; Temporal Concept
+T44	PHYS 1039 1048	gestación
+#30	AnnotatorNotes T44	C0032961; Pregnancy; Organism Function
+T45	Duration 1077 1084	crónico
+#31	AnnotatorNotes T45	C0205191; chronic; Temporal Concept
+T31	PHYS 395 414	entiendan el idioma
+#32	AnnotatorNotes T31	C0233733; Language comprehension; Mental Process
+T46	PHYS 589 613	implantación embrionaria
+#33	AnnotatorNotes T46	C0029976; Embryo Implantation; Organism Function
+A1	Assertion T46 Negated
+A2	Assertion T38 Negated
+#34	AnnotatorNotes T6	C0266383; Uterine Anomalies; Congenital Abnormality 
+#35	AnnotatorNotes T9	C0153999; Benign neoplasm of uterus; Neoplastic Process 
+#36	AnnotatorNotes T16	C0001314; Acute Disease; Disease or Syndrome + C0008679; Chronic disease; Disease or Syndrome 
+T39	Spec_cue 997 1003	puedan
+T43	CONC 1004 1014	interferir
+A3	Assertion T43 Speculated
+#37	AnnotatorNotes T43	C0521102; Interferes with; Functional Concept
+R1	Speculation Arg1:T39 Arg2:T43	
+R2	Has_Age Arg1:T35 Arg2:T36	
+T47	Observation 395 425	entiendan el idioma castellano
+#38	AnnotatorNotes T47	C0745638; LANGUAGE BARRIER SPEAKS SPANISH; Finding
+R5	Used_for Arg1:T1 Arg2:T2	
+R6	Experiences Arg1:T30 Arg2:T1	
+R7	Experiences Arg1:T30 Arg2:T7	
+R8	Experiences Arg1:T30 Arg2:T4	
+R9	Location_of Arg1:T3 Arg2:T7	
+R10	Experiences Arg1:T32 Arg2:T25	
+R11	Location_of Arg1:T23 Arg2:T6	
+R12	Negation Arg1:T37 Arg2:T46	
+R13	Negation Arg1:T37 Arg2:T38	
+T48	Quantifier_or_Qualifier 550 560	congénitas
+#39	AnnotatorNotes T48	C1744681; Congenital qualifier; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T48	
+T49	Quantifier_or_Qualifier 563 573	adquiridas
+#40	AnnotatorNotes T49	C0439661; Acquired (qualifier value); Qualitative Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T49	
+R16	Before Arg1:T6 Arg2:T46	
+R17	Before Arg1:T6 Arg2:T38	
+R18	Location_of Arg1:T24 Arg2:T8	
+R19	Location_of Arg1:T10 Arg2:T9	
+T50	Quantifier_or_Qualifier 762 769	locales
+#41	AnnotatorNotes T8	C0919267; ovarian neoplasm; Neoplastic Process
+R20	Location_of Arg1:T26 Arg2:T13	
+#42	AnnotatorNotes T50	C0205276; Local; Spatial Concept 
+R21	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T50	
+R22	Experiences Arg1:T40 Arg2:T14	
+R23	Experiences Arg1:T41 Arg2:T16	
+R24	Has_Duration_or_Interval Arg1:T16 Arg2:T42	
+R25	Experiences Arg1:T41 Arg2:T17	
+R26	Used_for Arg1:T18 Arg2:T17	
+R28	Before Arg1:T17 Arg2:T19	
+R29	Before Arg1:T17 Arg2:T44	
+R30	Experiences Arg1:T41 Arg2:T19	
+R31	Experiences Arg1:T41 Arg2:T44	
+R32	Used_for Arg1:T21 Arg2:T20	
+R33	Has_Duration_or_Interval Arg1:T21 Arg2:T45	
+T51	CONC 473 482	inclusión
+#43	AnnotatorNotes T51	C1512693; Inclusion; Qualitative Concept
+R34	Overlap Arg1:T36 Arg2:T51	
+R35	Experiences Arg1:T40 Arg2:T15	
+A4	Experiencer T30 Patient
+A5	Experiencer T32 Patient
+A6	Experiencer T33 Patient
+A7	Experiencer T34 Patient
+A8	Experiencer T35 Patient
+A9	Experiencer T40 Patient
+A10	Experiencer T41 Patient

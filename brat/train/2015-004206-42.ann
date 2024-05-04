@@ -1,0 +1,255 @@
+T1	PROC 46 66	Estudio de fase I/Ib
+T2	PROC 92 103	monoterapia
+#1	AnnotatorNotes T2	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T3	CHEM 133 142	anti-PD-1
+T4	DISO 161 176	tumores sólidos
+#2	AnnotatorNotes T4	C0280100; Solid Neoplasm; Neoplastic Process
+T5	DISO 189 197	linfomas
+#3	AnnotatorNotes T5	C0024299; Lymphoma; Neoplastic Process
+T6	PROC 220 285	Estudio de fase I/Ib abierto, multicéntrico, de escalada de dosis
+T7	PROC 312 323	monoterapia
+#4	AnnotatorNotes T7	C4763675; Single Agent Therapy; Therapeutic or Preventive Procedure
+T8	CHEM 353 362	anti-PD-1
+T9	DISO 381 396	tumores sólidos
+#5	AnnotatorNotes T9	C0280100; Solid Neoplasm; Neoplastic Process
+T10	DISO 409 417	linfomas
+#6	AnnotatorNotes T10	C0024299; Lymphoma; Neoplastic Process
+T11	DISO 441 456	Tumores sólidos
+#7	AnnotatorNotes T11	C0280100; Solid Neoplasm; Neoplastic Process
+T12	DISO 460 468	linfomas
+#8	AnnotatorNotes T12	C0024299; Lymphoma; Neoplastic Process
+T13	DISO 511 526	tumores sólidos
+#9	AnnotatorNotes T13	C0280100; Solid Neoplasm; Neoplastic Process
+T14	DISO 556 564	linfomas
+#10	AnnotatorNotes T14	C0024299; Lymphoma; Neoplastic Process
+T15	PROC 584 595	tratamiento
+#11	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	PROC 614 621	cirugía
+#12	AnnotatorNotes T16	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T17	DISO 682 694	metastásicos
+#13	AnnotatorNotes T17	C0027627; Neoplasm Metastasis; Neoplastic Process | C4255448; Metastasis; Pathologic Function
+T18	DISO 697 705	linfomas
+#14	AnnotatorNotes T18	C0024299; Lymphoma; Neoplastic Process
+T19	DISO 744 754	enfermedad
+#15	AnnotatorNotes T19	C0012634; Disease; Disease or Syndrome
+T20	PROC 770 777	biopsia
+#16	AnnotatorNotes T20	C0005558; Biopsy; Diagnostic Procedure
+T21	PROC 803 818	biopsia tumoral
+T22	DISO 811 818	tumoral
+#17	AnnotatorNotes T22	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T23	PROC 871 882	tratamiento
+#18	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	PROC 947 964	biopsia del tumor
+T25	DISO 1125 1185	metástasis en el Sistema nervioso central (SNC) sintomáticas
+#19	AnnotatorNotes T25	C0686377; CNS metastases; Neoplastic Process
+T26	ANAT 1142 1166	Sistema nervioso central
+#20	AnnotatorNotes T26	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T27	ANAT 1168 1171	SNC
+#21	AnnotatorNotes T27	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T28	DISO 1189 1209	metástasis en el SNC
+#22	AnnotatorNotes T28	C0686377; CNS metastases; Neoplastic Process
+T29	ANAT 1206 1209	SNC
+#23	AnnotatorNotes T29	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T30	PROC 1223 1236	terapia local
+T31	ANAT 1249 1252	SNC
+#24	AnnotatorNotes T31	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T32	PROC 1259 1271	radioterapia
+#25	AnnotatorNotes T32	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T33	PROC 1274 1281	cirugía
+#26	AnnotatorNotes T33	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T34	PROC 1296 1310	diagnosticados
+#27	AnnotatorNotes T34	C0011900; Diagnosis; Diagnostic Procedure
+T35	DISO 1314 1335	linfomas de células T
+#28	AnnotatorNotes T35	C0079772; T-Cell Lymphoma; Neoplastic Process
+T36	PROC 1352 1374	trasplantes alogénicos
+#29	AnnotatorNotes T36	C0040739; Transplantation, Homologous; Therapeutic or Preventive Procedure
+T37	PROC 1421 1428	terapia
+#30	AnnotatorNotes T37	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T38	DISO 1457 1488	reacciones de hipersensibilidad
+#31	AnnotatorNotes T38	C0020517; Hypersensitivity; Pathologic Function
+T39	DISO 1526 1538	intolerancia
+#32	AnnotatorNotes T39	C0277585; Intolerance to drug; Pathologic Function
+T40	PROC 1541 1554	inmunoterapia
+#33	AnnotatorNotes T40	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T41	PROC 1673 1682	protocolo
+#34	AnnotatorNotes T41	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T42	DISO 1603 1624	AA inmuno-relacionado
+#35	AnnotatorNotes T42	C4087225; Immune-mediated adverse reaction; Pathologic Function
+T43	PROC 1396 1404	tratados
+#36	AnnotatorNotes T43	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T44	CHEM 1429 1438	anti-GITR
+T45	CHEM 1504 1508	mAcs
+#37	AnnotatorNotes T45	C3542957; Monoclonal antibodies, antineoplastic; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T46	DISO 654 669	tumores sólidos
+#38	AnnotatorNotes T46	C0280100; Solid Neoplasm; Neoplastic Process
+T47	DISO 959 964	tumor
+#39	AnnotatorNotes T47	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T48	ANAT 1326 1335	células T
+#40	AnnotatorNotes T48	C0039194; T-Lymphocyte; Cell
+T49	PROC 1056 1065	protocolo
+#41	AnnotatorNotes T49	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T50	CHEM 70 76	GWN323
+#42	AnnotatorNotes T50	C4287757; Anti-GITR Monoclonal Antibody GWN 323; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T51	CHEM 78 87	anti-GITR
+T52	CHEM 125 131	PDR001
+#43	AnnotatorNotes T52	C4053607; PDR001; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T53	CHEM 290 296	GWN323
+#44	AnnotatorNotes T53	C4287757; Anti-GITR Monoclonal Antibody GWN 323; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T54	CHEM 298 307	anti-GITR
+T55	CHEM 345 351	PDR001
+#45	AnnotatorNotes T55	C4053607; PDR001; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T56	Date 13 17	2015
+T57	LIVB 147 156	pacientes
+#46	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 367 376	pacientes
+#47	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 497 506	Pacientes
+#48	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	Neg_cue 565 567	no
+T62	Spec_cue 755 769	susceptible de
+T63	LIVB 887 895	paciente
+#49	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T66	LIVB 1286 1295	Pacientes
+#50	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T67	LIVB 1338 1347	Pacientes
+#51	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	LIVB 1386 1395	Pacientes
+#52	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 1512 1521	Pacientes
+#53	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T61	PROC 983 999	Estado funcional
+#54	AnnotatorNotes T61	C4525818; Clinical Performance Status; Health Care Activity | C3694602; functional status of patient; Therapeutic or Preventive Procedure
+T64	PROC 625 650	Documentación histológica
+#55	AnnotatorNotes T64	C0344441; Histology Procedure; Laboratory Procedure (?)
+A1	Assertion T20 Speculated
+A3	Assertion T16 Negated
+A2	Status T36 History_of
+A4	Status T43 History_of
+A5	Status T37 History_of
+A6	Status T44 History_of
+A7	Status T38 History_of
+A8	Status T40 History_of
+A9	Status T39 History_of
+A10	Status T42 History_of
+#56	AnnotatorNotes T30	C1517925; Local Therapy; Therapeutic or Preventive Procedure 
+#57	AnnotatorNotes T8	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#58	AnnotatorNotes T3	C4289971; Anti-PD-L1 Monoclonal Antibody; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+#59	AnnotatorNotes T54	C4289972; Anti-GITR Monoclonal Antibody; Pharmacologic Substance
+#60	AnnotatorNotes T44	C4289972; Anti-GITR Monoclonal Antibody; Pharmacologic Substance
+#61	AnnotatorNotes T51	C4289972; Anti-GITR Monoclonal Antibody; Pharmacologic Substance
+R1	Negation Arg1:T60 Arg2:T16	
+R2	Speculation Arg1:T62 Arg2:T20	
+T65	CONC 1017 1039	criterios de inclusion
+A11	Assertion T65 Speculated
+#62	AnnotatorNotes T65	C1512693; Inclusion Criteria; Qualitative Concept
+T70	Spec_cue 1070 1076	puedan
+R3	Speculation Arg1:T70 Arg2:T65	
+T71	Neg_cue 1563 1575	incapaces de
+T72	CONC 1576 1585	continuar
+A12	Assertion T72 Negated
+R4	Negation Arg1:T71 Arg2:T72	
+T73	Spec_cue 1687 1693	puedan
+T74	CONC 1634 1656	criterios de exclusion
+A13	Assertion T74 Speculated
+#63	AnnotatorNotes T74	C1512693; Inclusion Criteria; Qualitative Concept
+R6	Speculation Arg1:T73 Arg2:T74	
+R7	Used_for Arg1:T51 Arg2:T2	
+R8	Used_for Arg1:T50 Arg2:T2	
+R9	Combined_with Arg1:T50 Arg2:T52	
+R10	Combined_with Arg1:T50 Arg2:T3	
+R11	Combined_with Arg1:T51 Arg2:T52	
+R12	Combined_with Arg1:T51 Arg2:T3	
+R13	Experiences Arg1:T57 Arg2:T50	
+R14	Experiences Arg1:T57 Arg2:T51	
+R15	Experiences Arg1:T57 Arg2:T4	
+R16	Experiences Arg1:T57 Arg2:T5	
+T75	Quantifier_or_Qualifier 177 186	avanzados
+#64	AnnotatorNotes T75	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T75	
+R18	Used_for Arg1:T54 Arg2:T7	
+R19	Used_for Arg1:T53 Arg2:T7	
+R20	Combined_with Arg1:T54 Arg2:T55	
+R21	Combined_with Arg1:T53 Arg2:T8	
+R22	Experiences Arg1:T58 Arg2:T53	
+R23	Experiences Arg1:T58 Arg2:T54	
+R24	Experiences Arg1:T58 Arg2:T55	
+R25	Experiences Arg1:T58 Arg2:T8	
+R26	Experiences Arg1:T58 Arg2:T9	
+R27	Experiences Arg1:T58 Arg2:T10	
+T76	Quantifier_or_Qualifier 397 406	avanzados
+#65	AnnotatorNotes T76	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R28	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T76	
+T77	Quantifier_or_Qualifier 527 536	avanzados
+#66	AnnotatorNotes T77	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+T78	Quantifier_or_Qualifier 541 553	metastásicos
+#67	AnnotatorNotes T78	C1522484; metastatic qualifier; Functional Concept
+R29	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T77	
+R30	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T78	
+T79	Quantifier_or_Qualifier 670 679	avanzados
+#68	AnnotatorNotes T79	C0205179; Advanced phase; Qualitative Concept | C1522484; metastatic qualifier; Functional Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T79	
+R32	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T17	
+R33	Location_of Arg1:T27 Arg2:T25	
+R34	Location_of Arg1:T26 Arg2:T25	
+T80	Quantifier_or_Qualifier 596 604	curativo
+#69	AnnotatorNotes T80	C1880198; Cure (remedy); Conceptual Entity (?)
+R35	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T80	
+R38	Experiences Arg1:T59 Arg2:T13	
+R39	Experiences Arg1:T59 Arg2:T14	
+R40	Experiences Arg1:T59 Arg2:T15	
+R41	Experiences Arg1:T59 Arg2:T16	
+R45	Experiences Arg1:T63 Arg2:T24	
+T81	Observation 907 916	dispuesto
+#70	AnnotatorNotes T81	C0600109; Willing; Finding
+R46	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T81	
+R47	Overlap Arg1:T81 Arg2:T24	
+T82	PROC 971 980	selección
+#71	AnnotatorNotes T82	C0242802; Patient Selection; Research Activity
+R48	Overlap Arg1:T24 Arg2:T82	
+T83	Result_or_Value 1005 1008	≤ 2
+T84	CONC 1000 1004	ECOG
+#72	AnnotatorNotes T84	C1520224; ECOG performance status; Intellectual Product
+R49	Used_for Arg1:T84 Arg2:T61	
+R50	Has_Result_or_Value Arg1:T84 Arg2:T83	
+T85	Quantifier_or_Qualifier 1011 1016	Otros
+#73	AnnotatorNotes T85	C0205394; Other; Qualitative Concept
+A14	Assertion T85 Speculated
+R51	Has_Quantifier_or_Qualifier Arg1:T65 Arg2:T85	
+R52	Speculation Arg1:T70 Arg2:T85	
+R53	Location_of Arg1:T29 Arg2:T28	
+R54	Location_of Arg1:T31 Arg2:T30	
+R55	Location_of Arg1:T31 Arg2:T32	
+R56	Location_of Arg1:T31 Arg2:T33	
+R57	Location_of Arg1:T48 Arg2:T35	
+R58	Experiences Arg1:T66 Arg2:T35	
+R59	Experiences Arg1:T67 Arg2:T36	
+R60	Experiences Arg1:T68 Arg2:T43	
+R61	Experiences Arg1:T68 Arg2:T37	
+R62	Used_for Arg1:T44 Arg2:T37	
+R63	Used_for Arg1:T44 Arg2:T43	
+R64	Causes Arg1:T45 Arg2:T38	
+R65	Causes Arg1:T40 Arg2:T39	
+R66	Experiences Arg1:T69 Arg2:T39	
+R67	Experiences Arg1:T69 Arg2:T40	
+R68	Experiences Arg1:T69 Arg2:T42	
+T86	Quantifier_or_Qualifier 1628 1633	Otros
+A15	Assertion T86 Speculated
+#74	AnnotatorNotes T86	C0205394; Other; Qualitative Concept
+R69	Has_Quantifier_or_Qualifier Arg1:T73 Arg2:T86	
+R70	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T86	
+R36	Overlap Arg1:T47 Arg2:T82	
+T87	Quantifier_or_Qualifier 1586 1593	recibir
+A16	Assertion T87 Negated
+R5	Negation Arg1:T71 Arg2:T87	
+R37	Experiences Arg1:T63 Arg2:T47	
+#75	AnnotatorNotes T72	C0549178; Continuous; Idea or Concept (?)
+#76	AnnotatorNotes T87	C1514756; Receive; Qualitative Concept
+A17	Experiencer T57 Patient
+A18	Experiencer T58 Patient
+A19	Experiencer T59 Patient
+A20	Experiencer T63 Patient
+A21	Experiencer T66 Patient
+A22	Experiencer T67 Patient
+A23	Experiencer T68 Patient
+A24	Experiencer T69 Patient
+A25	Status T21 Future

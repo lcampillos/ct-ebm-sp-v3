@@ -1,0 +1,127 @@
+T1	ANAT 26 37	conjuntival
+#1	AnnotatorNotes T1	C0009758; conjunctiva; Body Part, Organ, or Organ Component | C1278888; Entire conjunctiva; Body Part, Organ, or Organ Component
+T2	ANAT 77 86	palpebral
+#2	AnnotatorNotes T2	C0015426; Eyelid structure; Body Part, Organ, or Organ Component | C1280734; Entire eyelid; Body Part, Organ, or Organ Component
+T3	PROC 143 165	valorar la efectividad
+T4	ANAT 193 202	palpebral
+#3	AnnotatorNotes T4	C0015426; Eyelid structure; Body Part, Organ, or Organ Component | C1280734; Entire eyelid; Body Part, Organ, or Organ Component
+T5	PROC 226 246	cirugía de cataratas
+#4	AnnotatorNotes T5	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T6	ANAT 287 298	conjuntival
+#5	AnnotatorNotes T6	C0009758; conjunctiva; Body Part, Organ, or Organ Component | C1278888; Entire conjunctiva; Body Part, Organ, or Organ Component
+T7	PROC 740 764	técnicas microbiológicas
+#6	AnnotatorNotes T7	C0025951; Microbiological Techniques; Laboratory Procedure
+T8	PROC 513 563	estudio fue prospectivo, randomizado y enmascarado
+#7	AnnotatorNotes T8	C0033522; Prospective Studies; Research Activity + C0150108; Blinded; Research Activity + C0034656; Randomization; Research Activity
+T9	PROC 577 613	muestra de fondo de saco conjuntival
+T10	ANAT 588 613	fondo de saco conjuntival
+#8	AnnotatorNotes T10	C0456207; Structure of conjunctival fornix; Body Part, Organ, or Organ Component
+T11	PROC 641 648	cirugía
+#9	AnnotatorNotes T11	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T12	PROC 662 685	instilación de colirios
+#10	AnnotatorNotes T12	C4727872; Eye drop instillation; Therapeutic or Preventive Procedure
+T13	PROC 707 716	sembradas
+T14	ANAT 840 849	palpebral
+#11	AnnotatorNotes T14	C0015426; Eyelid structure; Body Part, Organ, or Organ Component | C1280734; Entire eyelid; Body Part, Organ, or Organ Component
+T15	PROC 873 893	cirugía de cataratas
+#12	AnnotatorNotes T15	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T16	PROC 966 974	cultivos
+#13	AnnotatorNotes T16	C0430400; Laboratory culture; Laboratory Procedure
+T17	ANAT 1071 1082	conjuntival
+#14	AnnotatorNotes T17	C0009758; conjunctiva; Body Part, Organ, or Organ Component | C1278888; Entire conjunctiva; Body Part, Organ, or Organ Component
+T18	ANAT 1147 1156	palpebral
+#15	AnnotatorNotes T18	C0015426; Eyelid structure; Body Part, Organ, or Organ Component | C1280734; Entire eyelid; Body Part, Organ, or Organ Component
+T19	PROC 1221 1241	cirugía de cataratas
+#16	AnnotatorNotes T19	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T20	CHEM 55 86	soluciones de higiene palpebral
+T21	CHEM 173 202	solución de higiene palpebral
+T22	DISO 237 246	cataratas
+#17	AnnotatorNotes T22	C0086543; Cataract; Anatomical Abnormality
+T23	CHEM 818 849	soluciones de higiene palpebral
+T24	DISO 884 893	cataratas
+#18	AnnotatorNotes T24	C0086543; Cataract; Anatomical Abnormality
+T25	DISO 1232 1241	cataratas
+#19	AnnotatorNotes T25	C0086543; Cataract; Anatomical Abnormality
+T26	LIVB 20 25	flora
+#20	AnnotatorNotes T26	C1956108; Microbiome; Organism
+T27	Form 55 65	soluciones
+#21	AnnotatorNotes T27	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T29	Form 173 181	solución
+#22	AnnotatorNotes T29	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T30	Date 209 222	preoperatorio
+#23	AnnotatorNotes T30	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T31	LIVB 281 286	flora
+#24	AnnotatorNotes T31	C1956108; Microbiome; Organism
+T32	LIVB 336 345	pacientes
+#25	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 372 385	grupo control
+#26	AnnotatorNotes T33	C0009932; Control Groups; Group
+T35	Duration 465 481	3, 4, 5 y 6 días
+T36	Time 617 626	la mañana
+#27	AnnotatorNotes T36	C0332170; Morning; Temporal Concept
+T37	Form 677 685	colirios
+#28	AnnotatorNotes T37	C0015399; Eye Drops; Biomedical or Dental Material
+T38	Form 818 828	soluciones
+#29	AnnotatorNotes T38	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T39	Date 856 869	preoperatorio
+#30	AnnotatorNotes T39	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T40	Duration 897 910	de 4 a 5 días
+T42	Duration 923 941	menos de tres días
+T45	LIVB 1023 1038	microorganismos
+#31	AnnotatorNotes T45	C0445623; Microorganism; Organism
+T47	LIVB 1065 1070	flora
+#32	AnnotatorNotes T47	C1956108; Microbiome; Organism
+T48	Neg_cue 1157 1159	no
+T49	Duration 1178 1208	más de cinco días consecutivos
+T28	ANAT 691 699	muestras
+#33	AnnotatorNotes T28	C2347026; Biospecimen; Body Substance
+T34	Duration 1001 1012	más de seis
+#34	AnnotatorNotes T34	[Duration expressed in days]
+A1	Assertion T49 Negated
+T41	Neg_cue 942 944	no
+T43	CONC 945 954	se reduce
+A2	Assertion T43 Negated
+#35	AnnotatorNotes T43	C0547047; Decrease; Quantitative Concept
+R1	Negation Arg1:T41 Arg2:T43	
+R2	Negation Arg1:T48 Arg2:T49	
+T44	CONC 1046 1082	forman parte de la flora conjuntival
+A3	Assertion T44 Negated
+T46	Neg_cue 1043 1045	no
+R3	Negation Arg1:T46 Arg2:T44	
+R4	Location_of Arg1:T17 Arg2:T47	
+R5	Location_of Arg1:T1 Arg2:T26	
+R6	Has_Drug_Form Arg1:T20 Arg2:T27	
+R7	Location_of Arg1:T2 Arg2:T20	
+R9	Has_Drug_Form Arg1:T21 Arg2:T29	
+R10	Location_of Arg1:T4 Arg2:T21	
+R11	Overlap Arg1:T21 Arg2:T30	
+R12	Before Arg1:T21 Arg2:T5	
+R13	Location_of Arg1:T6 Arg2:T31	
+R16	Overlap Arg1:T9 Arg2:T36	
+R19	Before Arg1:T9 Arg2:T12	
+R20	Before Arg1:T12 Arg2:T11	
+R18	Has_Drug_Form Arg1:T12 Arg2:T37	
+R22	Before Arg1:T13 Arg2:T7	
+T52	CONC 782 795	tiempo óptimo
+R23	Location_of Arg1:T14 Arg2:T23	
+R24	Has_Drug_Form Arg1:T23 Arg2:T38	
+R25	Overlap Arg1:T23 Arg2:T39	
+R26	Before Arg1:T23 Arg2:T15	
+R27	Has_Duration_or_Interval Arg1:T23 Arg2:T40	
+R28	Has_Duration_or_Interval Arg1:T52 Arg2:T40	
+T53	Result_or_Value 975 984	positivos
+#39	AnnotatorNotes T53	C1446409; Positive; Finding
+R29	Has_Result_or_Value Arg1:T16 Arg2:T53	
+R31	Overlap Arg1:T16 Arg2:T42	
+R32	Location_of Arg1:T17 Arg2:T45	
+R33	Overlap Arg1:T45 Arg2:T34	
+T54	CHEM 1126 1156	productos de higiene palpebral
+R34	Location_of Arg1:T18 Arg2:T54	
+R35	Has_Duration_or_Interval Arg1:T54 Arg2:T49	
+R36	Before Arg1:T54 Arg2:T19	
+#36	AnnotatorNotes T3	C1707887; Efficacy Study; Research Activity
+A4	Assertion T42 Hypothetical
+A5	Experiencer T33 Patient
+A6	Experiencer T32 Patient
+A7	Assertion T34 Hypothetical
+A8	Assertion T54 Hypothetical

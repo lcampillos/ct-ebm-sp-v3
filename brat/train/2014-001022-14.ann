@@ -1,0 +1,178 @@
+T1	PROC 46 77	Estudio abierto y multicéntrico
+T2	PROC 83 105	evaluar los resultados
+T3	CHEM 190 200	ribavirina
+#1	AnnotatorNotes T3	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T4	CHEM 202 205	RBV
+#2	AnnotatorNotes T4	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T5	DISO 222 270	infección crónica por el virus de la hepatitis C
+#3	AnnotatorNotes T5	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome
+T6	DISO 324 356	Infección crónica de Hepatitis C
+T7	DISO 272 275	VHC
+#4	AnnotatorNotes T7	C0019196; Hepatitis C; Disease or Syndrome
+T8	PROC 542 571	esterilizadas quirúrgicamente
+T9	PROC 607 630	métodos anticonceptivos
+#5	AnnotatorNotes T9	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T10	PROC 654 683	esterilizados quirúrgicamente
+T11	PROC 719 742	métodos anticonceptivos
+#6	AnnotatorNotes T11	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T12	DISO 758 786	Infección crónica por el VHC
+T13	PHYS 474 495	estado posmenopáusico
+#7	AnnotatorNotes T13	C0206159; Postmenopause; Organism Function
+T14	DISO 874 909	infección por el genotipo 1 del VHC
+T15	CHEM 950 960	medicación
+#8	AnnotatorNotes T15	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T16	DISO 1186 1210	descompensación hepática
+#9	AnnotatorNotes T16	C0085605; Liver Failure; Disease or Syndrome | C1394798; Hepatic decompensation; Pathologic Function
+T17	DISO 1242 1265	carcinoma hepatocelular
+#10	AnnotatorNotes T17	C2239176; Liver carcinoma; Neoplastic Process
+T18	PROC 1286 1313	trasplante de órgano sólido
+#11	AnnotatorNotes T18	C0730400; Solid organ transplant; Therapeutic or Preventive Procedure
+T19	CHEM 142 149	ABT 267
+T20	CHEM 1030 1038	fármacos
+#12	AnnotatorNotes T20	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T21	PROC 1008 1038	administración de los fármacos
+T22	ANAT 1202 1210	hepática
+#13	AnnotatorNotes T22	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T23	ANAT 1252 1265	hepatocelular
+#14	AnnotatorNotes T23	C0227525; Hepatocyte; Cell
+T24	ANAT 1300 1306	órgano
+#15	AnnotatorNotes T24	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T25	CHEM 124 131	ABT 450
+#16	AnnotatorNotes T25	C3712108; ABT-450; Organic Chemical · Pharmacologic Substance
+T26	CHEM 132 141	ritonavir
+#17	AnnotatorNotes T26	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T27	CHEM 151 158	ABT 450
+#18	AnnotatorNotes T27	C3712108; ABT-450; Organic Chemical · Pharmacologic Substance
+T28	CHEM 161 168	ABT 267
+T29	CHEM 172 179	ABT 333
+#19	AnnotatorNotes T29	C3850285; ABT-333; Organic Chemical · Pharmacologic Substance
+T30	Date 13 17	2014
+T31	Date 106 119	a largo plazo
+T32	Neg_cue 186 189	sin
+T33	LIVB 210 217	adultos
+#20	AnnotatorNotes T33	C0001675; Adult; Age Group
+T34	Duration 232 239	crónica
+#21	AnnotatorNotes T34	C0205191; chronic; Temporal Concept
+T35	LIVB 247 270	virus de la hepatitis C
+#22	AnnotatorNotes T35	C0220847; hepatitis C virus; Virus
+T37	PROC 280 288	genotipo
+#23	AnnotatorNotes T37	C1285573; Genotype determination; Laboratory Procedure
+T38	Duration 334 341	crónica
+#24	AnnotatorNotes T38	C0205191; chronic; Temporal Concept
+T39	LIVB 394 399	mujer
+#25	AnnotatorNotes T39	C0043210; Woman; Population Group
+T40	Age 409 431	edad mínima de 18 años
+T41	LIVB 463 470	Mujeres
+#26	AnnotatorNotes T41	C0043210; Woman; Population Group
+T43	Date 481 495	posmenopáusico
+T44	Duration 502 517	al menos 2 años
+T45	Duration 768 775	crónica
+#27	AnnotatorNotes T45	C0205191; chronic; Temporal Concept
+T46	LIVB 783 786	VHC
+#28	AnnotatorNotes T46	C0220847; hepatitis C virus; Virus
+T47	PROC 891 899	genotipo
+#29	AnnotatorNotes T47	C1285573; Genotype determination; Laboratory Procedure
+T48	LIVB 906 909	VHC
+#30	AnnotatorNotes T48	C0220847; hepatitis C virus; Virus
+T49	Duration 979 994	las dos semanas
+T50	Date 1108 1116	actuales
+T51	Date 1119 1126	pasados
+T36	LIVB 386 391	Varón
+#31	AnnotatorNotes T36	C0025266; Male population group; Population Group
+T42	PROC 1148 1158	Child Pugh
+#32	AnnotatorNotes T42	C3854424; Child-Pugh-Turcotte score; Laboratory Procedure
+T52	LIVB 646 653	Varones
+#33	AnnotatorNotes T52	C0025266; Male population group; Population Group
+A1	Assertion T3 Negated
+A2	Assertion T4 Negated
+A3	Population_data T33 Age
+A4	Status T10 History_of
+A5	Status T8 History_of
+A6	Status T15 History_of
+A7	Assertion T15 Contraindicated
+A8	Status T16 History_of
+A9	Status T18 History_of
+#34	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity
+#35	AnnotatorNotes T28	C3713322; ABT-267; Organic Chemical · Pharmacologic Substance
+#36	AnnotatorNotes T6	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome
+#37	AnnotatorNotes T12	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome
+#38	AnnotatorNotes T14	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome
+#39	AnnotatorNotes T21	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+#40	AnnotatorNotes T31	C0443252; Long-term; Temporal Concept
+#41	AnnotatorNotes T50	C0521116; Current (present time); Temporal Concept
+#42	AnnotatorNotes T51	C1444637; In the past; Temporal Concept
+T53	Observation 1054 1088	Resultados anómalos de laboratorio
+#43	AnnotatorNotes T53	C3648370; laboratory tests nonspecific abnormal findings; Finding
+T54	CONC 1093 1107	Datos clínicos
+#44	AnnotatorNotes T54	C1516606; Clinical Data; Intellectual Product
+R1	Overlap Arg1:T54 Arg2:T50	
+R2	Overlap Arg1:T54 Arg2:T51	
+T55	Result_or_Value 1133 1144	clase B o C
+R3	Has_Result_or_Value Arg1:T42 Arg2:T55	
+R4	Location_of Arg1:T22 Arg2:T16	
+R5	Location_of Arg1:T23 Arg2:T17	
+R6	Location_of Arg1:T24 Arg2:T18	
+R7	Has_Duration_or_Interval Arg1:T6 Arg2:T38	
+R8	Experiences Arg1:T33 Arg2:T4	
+R9	Experiences Arg1:T33 Arg2:T3	
+R10	Negation Arg1:T32 Arg2:T3	
+R11	Negation Arg1:T32 Arg2:T4	
+R12	Experiences Arg1:T33 Arg2:T5	
+R13	Experiences Arg1:T33 Arg2:T7	
+R14	Experiences Arg1:T33 Arg2:T37	
+R15	Causes Arg1:T35 Arg2:T5	
+R16	Causes Arg1:T35 Arg2:T7	
+R17	Has_Duration_or_Interval Arg1:T5 Arg2:T34	
+T56	Quantifier_or_Qualifier 280 290	genotipo 1
+R18	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T56	
+R19	Experiences Arg1:T33 Arg2:T25	
+R20	Combined_with Arg1:T25 Arg2:T26	
+R21	Combined_with Arg1:T26 Arg2:T19	
+R22	Combined_with Arg1:T19 Arg2:T29	
+R23	Combined_with Arg1:T29 Arg2:T3	
+R24	Combined_with Arg1:T29 Arg2:T4	
+R25	Overlap Arg1:T2 Arg2:T31	
+R26	Combined_with Arg1:T27 Arg2:T28	
+R27	Combined_with Arg1:T28 Arg2:T29	
+#45	AnnotatorNotes T19	C3713322; ABT-267; Organic Chemical · Pharmacologic Substance
+R28	Has_Age Arg1:T39 Arg2:T40	
+R29	Has_Age Arg1:T36 Arg2:T40	
+T57	PROC 449 458	selección
+#46	AnnotatorNotes T57	C0242802; Patient Selection; Research Activity
+R30	Overlap Arg1:T57 Arg2:T40	
+R31	Experiences Arg1:T41 Arg2:T13	
+R32	Overlap Arg1:T13 Arg2:T43	
+R33	Has_Duration_or_Interval Arg1:T13 Arg2:T44	
+T58	PROC 530 539	selección
+#47	AnnotatorNotes T58	C0242802; Patient Selection; Research Activity
+R34	Before Arg1:T13 Arg2:T58	
+R35	Experiences Arg1:T41 Arg2:T8	
+R36	Experiences Arg1:T41 Arg2:T9	
+T59	Quantifier_or_Qualifier 743 753	aceptables
+#48	AnnotatorNotes T59	C1879533; Acceptable; Qualitative Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T59	
+T60	Quantifier_or_Qualifier 631 641	aceptables
+#49	AnnotatorNotes T60	C1879533; Acceptable; Qualitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T60	
+R39	Experiences Arg1:T52 Arg2:T10	
+R40	Experiences Arg1:T52 Arg2:T11	
+T61	Quantifier_or_Qualifier 891 901	genotipo 1
+R41	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T61	
+R42	Causes Arg1:T48 Arg2:T14	
+T62	PROC 850 859	selección
+#50	AnnotatorNotes T62	C0242802; Patient Selection; Research Activity
+R43	Overlap Arg1:T14 Arg2:T62	
+R44	Before Arg1:T15 Arg2:T21	
+R45	Overlap Arg1:T15 Arg2:T49	
+R46	Used_for Arg1:T20 Arg2:T21	
+T63	CONC 799 808	inclusión
+#51	AnnotatorNotes T63	C1512693; Inclusion; Qualitative Concept
+R47	Before Arg1:T12 Arg2:T63	
+R48	Causes Arg1:T46 Arg2:T12	
+R49	Has_Duration_or_Interval Arg1:T12 Arg2:T45	
+R50	Experiences Arg1:T33 Arg2:T27	
+A10	Experiencer T33 Patient
+A11	Experiencer T39 Patient
+A12	Experiencer T36 Patient
+A13	Experiencer T41 Patient
+A14	Experiencer T52 Patient

@@ -1,0 +1,166 @@
+T1	CHEM 46 69	Ácido acetil salicílico
+#1	AnnotatorNotes T1	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T2	PROC 76 86	prevención
+#2	AnnotatorNotes T2	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T3	DISO 91 109	cáncer colorrectal
+#3	AnnotatorNotes T3	C0009402; Colorectal Carcinoma; Neoplastic Process | C0346629; Malignant neoplasm of large intestine; Neoplastic Process | C1319315; Adenocarcinoma of large intestine; Neoplastic Process (?) | C4722085; Malignant neoplasm of colon and/or rectum; Neoplastic Process
+T4	ANAT 135 146	plaquetaria
+#4	AnnotatorNotes T4	C0005821; Blood Platelets; Cell
+T5	CHEM 421 426	COX-1
+T6	CHEM 343 346	AAS
+#5	AnnotatorNotes T6	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T7	ANAT 427 438	plaquetaria
+#6	AnnotatorNotes T7	C0005821; Blood Platelets; Cell
+T8	PROC 620 643	colonoscopia de cribado
+#7	AnnotatorNotes T8	C1882982; Screening colonoscopy; Diagnostic Procedure
+T9	DISO 696 699	CCR
+#8	AnnotatorNotes T9	C0007134; Renal Cell Carcinoma; Neoplastic Process
+T10	DISO 728 736	adenomas
+#9	AnnotatorNotes T10	C0001430; Adenoma; Neoplastic Process
+T11	DISO 874 881	Alergia
+#10	AnnotatorNotes T11	C1527304; Allergic Reaction; Pathologic Function
+T12	CHEM 884 887	AAS
+#11	AnnotatorNotes T12	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T13	CHEM 903 907	AINE
+#12	AnnotatorNotes T13	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T14	CHEM 919 922	AAS
+#13	AnnotatorNotes T14	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T15	CHEM 924 929	AINEs
+#14	AnnotatorNotes T15	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T16	CHEM 931 945	antiagregantes
+#15	AnnotatorNotes T16	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T17	CHEM 947 958	corticoides
+#16	AnnotatorNotes T17	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T18	CHEM 961 972	misoprostol
+#17	AnnotatorNotes T18	C0085174; misoprostol; Organic Chemical · Pharmacologic Substance
+T19	CHEM 1049 1057	fármacos
+#18	AnnotatorNotes T19	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T20	DISO 1104 1118	úlcera péptica
+#19	AnnotatorNotes T20	C0030920; Peptic Ulcer; Disease or Syndrome
+T21	DISO 1126 1152	trastorno gastrointestinal
+#20	AnnotatorNotes T21	C0017178; Gastrointestinal Diseases; Disease or Syndrome
+T22	CHEM 1181 1184	AAS
+#21	AnnotatorNotes T22	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T23	CHEM 1209 1242	inhibidor de la bomba de protones
+#22	AnnotatorNotes T23	C0358591; Proton Pump Inhibitors; Pharmacologic Substance
+T24	DISO 1246 1274	Trastornos de la coagulación
+#23	AnnotatorNotes T24	C0005779; Blood Coagulation Disorders; Disease or Syndrome
+T25	DISO 1290 1302	comorbilidad
+#24	AnnotatorNotes T25	C1275743; Co-morbid conditions; Finding
+T26	DISO 1314 1332	enfermedad maligna
+T27	DISO 1371 1374	CCR
+#25	AnnotatorNotes T27	C0007134; Renal Cell Carcinoma; Neoplastic Process
+T28	DISO 1379 1386	Fumador
+#26	AnnotatorNotes T28	C0337664; Smoker; Finding
+T29	DISO 1395 1406	alcoholismo
+#27	AnnotatorNotes T29	C0001973; Alcoholic Intoxication, Chronic; Mental or Behavioral Dysfunction
+T30	DISO 1409 1425	drogodependencia
+#28	AnnotatorNotes T30	C1510472; Drug Dependence; Mental or Behavioral Dysfunction
+T31	ANAT 98 109	colorrectal
+#29	AnnotatorNotes T31	C0391908; colon rectal; Body Part, Organ, or Organ Component | C0391908; Colon and rectum; Body Part, Organ, or Organ Component | C1711309; Colorectal Region; Body Location or Region
+T32	PROC 181 208	ensayo clínico aleatorizado
+#30	AnnotatorNotes T32	C0206034; Clinical Trials, Randomized; Research Activity
+T33	PROC 765 768	SOH
+#31	AnnotatorNotes T33	C0201811; Fecal occult blood test; Laboratory Procedure
+T34	Date 13 17	2013
+T35	Frequency 333 339	diaria
+T36	Dose 349 360	dosis bajas
+#32	AnnotatorNotes T36	C0445550; Low dose; Quantitative Concept
+T37	PHYS 393 404	acetilación
+#33	AnnotatorNotes T37	C0001038; Acetylation; Molecular Function
+T38	Frequency 503 511	24 horas
+T39	LIVB 542 549	Hombres
+#34	AnnotatorNotes T39	C0025266; Male population group; Population Group
+T40	LIVB 552 559	mujeres
+#35	AnnotatorNotes T40	C0043210; Woman; Population Group
+T41	Age 568 587	> 18 años ≤ 69 años
+T43	LIVB 592 601	Pacientes
+#36	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 653 679	Familiares de primer grado
+#37	AnnotatorNotes T44	C1517194; First Degree Relative; Family Group
+T45	LIVB 683 691	personas
+#38	AnnotatorNotes T45	C0027361; Persons; Population Group
+T46	Age 744 760	Mayor de 50 años
+T48	Duration 973 984	los 15 días
+T49	Spec_cue 1021 1028	posible
+T50	Neg_cue 1185 1188	sin
+T51	Duration 1336 1354	los últimos 5 años
+T52	Neg_cue 1356 1370	a excepción de
+T53	PHYS 1431 1439	Embarazo
+#39	AnnotatorNotes T53	C0032961; Pregnancy; Organism Function
+T54	PHYS 1442 1451	lactancia
+#40	AnnotatorNotes T54	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T56	PHYS 1263 1274	coagulación
+#41	AnnotatorNotes T56	C0005778; Blood coagulation; Organ or Tissue Function
+T42	ANAT 1136 1152	gastrointestinal
+#42	AnnotatorNotes T42	C0012240; Gastrointestinal system; Body System
+T47	PROC 781 819	Parámetros hematológicos y bioquímicos
+#43	AnnotatorNotes T47	C0018941; Hematologic Tests; C0430027; biochemical test; Laboratory Procedure (?)
+A1	Assertion T19 Speculated
+A2	Assertion T23 Negated
+A3	Assertion T27 Negated
+A4	Status T10 History_of
+A5	Status T11 History_of
+A6	Status T20 History_of
+A7	Assertion T22 Contraindicated
+A8	Status T21 History_of
+#44	AnnotatorNotes T5	C0389003; cyclooxygenase 1; Amino Acid, Peptide, or Protein · Enzyme 
+#45	AnnotatorNotes T26	C0442867; malignant disease; Disease or Syndrome 
+R1	Causes Arg1:T12 Arg2:T11	
+R2	Causes Arg1:T13 Arg2:T11	
+R3	Has_Duration_or_Interval Arg1:T18 Arg2:T48	
+R4	Has_Duration_or_Interval Arg1:T17 Arg2:T48	
+R5	Has_Duration_or_Interval Arg1:T16 Arg2:T48	
+R6	Has_Duration_or_Interval Arg1:T15 Arg2:T48	
+R7	Has_Duration_or_Interval Arg1:T14 Arg2:T48	
+T55	CONC 996 1016	comienzo del estudio
+#46	AnnotatorNotes T55	C4684789; Study Start; Temporal Concept
+R8	Before Arg1:T18 Arg2:T55	
+R9	Before Arg1:T17 Arg2:T55	
+R10	Before Arg1:T16 Arg2:T55	
+R11	Before Arg1:T15 Arg2:T55	
+R12	Before Arg1:T14 Arg2:T55	
+R13	Speculation Arg1:T49 Arg2:T19	
+T57	PROC 1080 1087	estudio
+#47	AnnotatorNotes T57	C0008976; Clinical Trials; Research Activity
+R14	Overlap Arg1:T19 Arg2:T57	
+T58	PROC 1009 1016	estudio
+#48	AnnotatorNotes T58	C0008976; Clinical Trials; Research Activity
+R15	Overlap Arg1:T19 Arg2:T58	
+R16	Location_of Arg1:T42 Arg2:T21	
+R17	Negation Arg1:T50 Arg2:T23	
+R18	Combined_with Arg1:T22 Arg2:T23	
+T59	Quantifier_or_Qualifier 1303 1308	seria
+#49	AnnotatorNotes T59	C0205404; Serious; Qualitative Concept 
+R20	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T59	
+R21	Negation Arg1:T52 Arg2:T27	
+R22	Overlap Arg1:T26 Arg2:T51	
+T60	Quantifier_or_Qualifier 1387 1393	activo
+#50	AnnotatorNotes T60	C0679217; Active State; Idea or Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T60	
+R24	Used_for Arg1:T1 Arg2:T2	
+R25	Before Arg1:T2 Arg2:T3	
+R26	Location_of Arg1:T31 Arg2:T3	
+R27	Has_Frequency Arg1:T6 Arg2:T35	
+R28	Has_Dose_or_Strength Arg1:T6 Arg2:T36	
+R29	Used_for Arg1:T5 Arg2:T37	
+R30	Location_of Arg1:T7 Arg2:T37	
+T61	Quantifier_or_Qualifier 405 414	selectiva
+R31	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T61	
+R32	Has_Frequency Arg1:T6 Arg2:T38	
+R33	Has_Age Arg1:T40 Arg2:T41	
+R34	Has_Age Arg1:T39 Arg2:T41	
+R35	Experiences Arg1:T43 Arg2:T8	
+R36	Experiences Arg1:T45 Arg2:T9	
+R37	Experiences Arg1:T44 Arg2:T9	
+T62	Result_or_Value 769 777	positiva
+#51	AnnotatorNotes T62	C1446409; Positive; Finding
+R38	Has_Result_or_Value Arg1:T33 Arg2:T62	
+T63	Result_or_Value 820 843	dentro de la normalidad
+#52	AnnotatorNotes T63	C0459422; Normal result; Finding | C0586624; Normal laboratory finding; Finding
+R39	Has_Result_or_Value Arg1:T47 Arg2:T63	
+A9	Experiencer T39 Patient
+A10	Experiencer T40 Patient
+A11	Experiencer T43 Patient
+A12	Experiencer T44 Family_member
+A13	Experiencer T45 Patient

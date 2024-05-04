@@ -1,0 +1,281 @@
+T1	PROC 46 98	Ensayo clínico doble ciego, aleatorizado, controlado
+T2	PROC 105 124	evaluar la eficacia
+#1	AnnotatorNotes T2	C1707887; Efficacy Study; Research Activity
+T3	ANAT 132 164	células mesenquimales estromales
+#2	AnnotatorNotes T3	C3178844; Mesenchymal Stromal Cells; Cell
+T4	DISO 241 249	COVID-19
+#3	AnnotatorNotes T4	C5203670; COVID19 (disease); Disease or Syndrome
+T5	DISO 193 231	síndrome de distrés respiratorio agudo
+#4	AnnotatorNotes T5	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T6	DISO 273 311	Síndrome de distrés respiratorio agudo
+#5	AnnotatorNotes T6	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T7	PROC 351 375	Consentimiento informado
+#6	AnnotatorNotes T7	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T8	PROC 441 460	consentimiento oral
+#7	AnnotatorNotes T8	C1608381; Consent Mode - Verbal; Health Care Activity
+T9	DISO 668 692	Infección por SARS-CoV-2
+#8	AnnotatorNotes T9	C5203670; COVID19 (disease); Disease or Syndrome
+T10	PROC 510 536	consentimiento por escrito
+#9	AnnotatorNotes T10	C0811746; Obtain written consent; Health Care Activity
+T11	PROC 761 768	muestra
+T12	PROC 855 866	PaO2 / FiO2
+#10	AnnotatorNotes T12	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T13	ANAT 716 743	muestra naso u orofaríngeos
+T14	DISO 811 821	enfermedad
+#11	AnnotatorNotes T14	C0012634; Disease; Disease or Syndrome
+T15	DISO 826 830	SDRA
+#12	AnnotatorNotes T15	C0035222; Respiratory Distress Syndrome, Adult; Disease or Syndrome | C0748355; Acute respiratory distress; Disease or Syndrome
+T16	PROC 942 956	aleatorización
+#13	AnnotatorNotes T16	C0034656; Randomization; Research Activity
+T17	PROC 989 1009	ventilación invasiva
+T18	PROC 1064 1074	intubación
+#14	AnnotatorNotes T18	C0021925; Intubation (procedure); Therapeutic or Preventive Procedure
+T19	PROC 1292 1304	tratamientos
+#15	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	PROC 1354 1365	reanimación
+#16	AnnotatorNotes T20	C0007203; Cardiopulmonary Resuscitation; Therapeutic or Preventive Procedure
+T21	DISO 1381 1391	enfermedad
+#17	AnnotatorNotes T21	C0012634; Disease; Disease or Syndrome
+T22	DISO 1394 1404	alteración
+T23	PROC 1515 1526	tratamiento
+#18	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	DISO 1550 1568	trastorno pulmonar
+#19	AnnotatorNotes T24	C0024115; Lung diseases; Disease or Syndrome
+T25	PROC 1599 1626	oxigenoterapia domiciliaria
+#20	AnnotatorNotes T25	C1960973; Home oxygen therapy; Therapeutic or Preventive Procedure
+T26	PROC 1659 1671	hemodiálisis
+#21	AnnotatorNotes T26	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T27	PROC 1674 1688	hemofiltración
+#22	AnnotatorNotes T27	C0019014; Hemofiltration; Therapeutic or Preventive Procedure
+T28	PROC 1706 1736	administración del tratamiento
+T29	PROC 1741 1752	Diagnóstico
+#23	AnnotatorNotes T29	C0011900; Diagnosis; Diagnostic Procedure
+T30	DISO 1763 1779	embolia pulmonar
+#24	AnnotatorNotes T30	C0034065; Pulmonary Embolism; Pathologic Function
+T31	DISO 1784 1793	Neoplasia
+#25	AnnotatorNotes T31	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T32	DISO 1810 1827	carcinoma in situ
+#26	AnnotatorNotes T32	C0007099; Carcinoma in Situ; Neoplastic Process | C0851135; In situ cancer; Neoplastic Process
+T33	DISO 1830 1839	basalioma
+#27	AnnotatorNotes T33	C0007117; Basal cell carcinoma; Neoplastic Process
+T34	DISO 1844 1851	Alergia
+#28	AnnotatorNotes T34	C0020517; Hypersensitivity; Pathologic Function
+T35	PROC 2012 2030	prueba de embarazo
+#29	AnnotatorNotes T35	C0032976; Pregnancy Tests; Diagnostic Procedure
+T36	DISO 2155 2163	COVID-19
+#30	AnnotatorNotes T36	C5203670; COVID19 (disease); Disease or Syndrome
+T37	PROC 2103 2117	ensayo clínico
+#31	AnnotatorNotes T37	C0008976; Clinical Trials; Research Activity
+T38	PROC 2125 2149	tratamiento experimental
+#32	AnnotatorNotes T38	C2585119; Experimental therapeutic procedure; Therapeutic or Preventive Procedure
+T39	CHEM 2185 2196	medicamento
+#33	AnnotatorNotes T39	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T40	DISO 1351 1365	No reanimación
+#34	AnnotatorNotes T40	C0582114; DNR - Do not resuscitate status; Finding
+T41	PROC 2243 2268	protocolos de tratamiento
+#35	AnnotatorNotes T41	C0040808; Treatment Protocols; Therapeutic or Preventive Procedure
+T43	PROC 2431 2445	ensayo clínico
+#36	AnnotatorNotes T43	C0008976; Clinical Trials; Research Activity
+T44	DISO 316 321	COVID
+T45	PROC 398 412	procedimientos
+#37	AnnotatorNotes T45	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T46	PROC 708 711	PCR
+#38	AnnotatorNotes T46	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T47	PROC 1097 1112	admisión en UCI
+T48	DISO 1212 1218	muerte
+#39	AnnotatorNotes T48	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T49	ANAT 1921 1924	CME
+#40	AnnotatorNotes T49	C3178844; Mesenchymal Stromal Cells; Cell
+T50	ANAT 1560 1568	pulmonar
+#41	AnnotatorNotes T50	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T51	PROC 1653 1657	ECMO
+#42	AnnotatorNotes T51	C0015357; Extracorporeal Membrane Oxygenation; Therapeutic or Preventive Procedure
+T52	ANAT 1771 1779	pulmonar
+#43	AnnotatorNotes T52	C0034052; Pulmonary artery structure; Body Part, Organ, or Organ Component | C1269026; Entire pulmonary artery; Body Part, Organ, or Organ Component
+T53	Date 13 17	2020
+T54	LIVB 179 188	pacientes
+#44	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 541 549	paciente
+#45	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 556 570	representantes
+#46	AnnotatorNotes T58	C0030701; Patient Representatives; Professional or Occupational Group | C0600419; Patient Agent; Group | C1998038; Patient advocate (person); Population Group (?)
+T60	LIVB 599 616	Pacientes adultos
+#47	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T62	Age 617 625	≥18 años
+T63	Duration 904 921	al menos 72 horas
+T64	LIVB 965 974	pacientes
+#48	AnnotatorNotes T64	C0030705; Patients; Patient or Disabled Group
+T65	Duration 1034 1046	las 48 horas
+T66	LIVB 1123 1142	equipo investigador
+#49	AnnotatorNotes T66	C0035173; Research Personnel; Professional or Occupational Group
+T67	Duration 1229 1252	las siguientes 24 horas
+T68	Neg_cue 1351 1353	No
+T69	LIVB 1443 1455	investigador
+#50	AnnotatorNotes T69	C0035173; Research Personnel; Professional or Occupational Group
+T70	LIVB 1469 1477	paciente
+#51	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T72	LIVB 1631 1639	Paciente
+#52	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T73	Date 1753 1759	actual
+T74	Neg_cue 1802 1809	excepto
+T75	PHYS 1940 1948	Embarazo
+#53	AnnotatorNotes T75	C0032961; Pregnancy; Organism Function
+T76	PHYS 1951 1960	lactancia
+#54	AnnotatorNotes T76	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T77	Date 1961 1967	actual
+T78	LIVB 1973 1995	mujeres en edad fértil
+#55	AnnotatorNotes T78	C4324275; Woman of childbearing potential; Population Group
+T79	Age 1984 1995	edad fértil
+T81	Neg_cue 2031 2039	negativa
+T82	Date 2090 2096	actual
+T85	LIVB 2358 2370	investigador
+#56	AnnotatorNotes T85	C0035173; Research Personnel; Professional or Occupational Group
+T86	LIVB 2400 2408	paciente
+#57	AnnotatorNotes T86	C0030705; Patients; Patient or Disabled Group
+T87	PHYS 213 225	respiratorio
+#58	AnnotatorNotes T87	C0035203; Respiration; Physiologic Function
+T88	PHYS 293 305	respiratorio
+#59	AnnotatorNotes T88	C0035203; Respiration; Physiologic Function
+T89	PHYS 2022 2030	embarazo
+#60	AnnotatorNotes T89	C0032961; Pregnancy; Organism Function
+T55	LIVB 682 692	SARS-CoV-2
+#61	AnnotatorNotes T55	C5203676; SARS-CoV-2; Virus
+A1	Population_data T60 Age
+A2	Assertion T20 Negated
+A3	Status T24 History_of
+A4	Assertion T32 Negated
+A5	Assertion T33 Negated
+A6	Assertion T89 Negated
+A7	Status T34 History_of
+#62	AnnotatorNotes T44	C5203670; COVID19 (disease); Disease or Syndrome
+#63	AnnotatorNotes T1	C0013072; Double-Blind Method; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#64	AnnotatorNotes T13	C3536619; Nasopharyngeal and oropharyngeal swab; Body Substance 
+#65	AnnotatorNotes T11	C0200345; Specimen Collection; Health Care Activity 
+#66	AnnotatorNotes T47	C5419131; Intensive Care Unit Stay; Health Care Activity
+#67	AnnotatorNotes T73	C0521116; Current (present time); Temporal Concept 
+#68	AnnotatorNotes T77	C0521116; Current (present time); Temporal Concept 
+#69	AnnotatorNotes T82	C0521116; Current (present time); Temporal Concept 
+T56	Observation 1488 1506	candidato adecuado
+A8	Assertion T56 Negated
+T59	Quantifier_or_Qualifier 2200 2208	indicado
+A9	Assertion T59 Negated
+#70	AnnotatorNotes T59	C3146298; Indication; Idea or Concept
+T61	Neg_cue 2197 2199	no
+T71	CONC 2286 2307	criterio de exclusión
+A10	Assertion T71 Negated
+#71	AnnotatorNotes T71	C0680251; Exclusion Criteria; Functional Concept
+T80	Neg_cue 2277 2279	no
+T83	Neg_cue 1478 1480	no
+R1	Negation Arg1:T68 Arg2:T20	
+R2	Negation Arg1:T83 Arg2:T56	
+R3	Negation Arg1:T74 Arg2:T32	
+R4	Negation Arg1:T74 Arg2:T33	
+R5	Negation Arg1:T81 Arg2:T89	
+R6	Negation Arg1:T61 Arg2:T59	
+R7	Negation Arg1:T80 Arg2:T71	
+T84	Quantifier_or_Qualifier 165 175	alogénicas
+#72	AnnotatorNotes T84	C1515895; Allogeneic; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T84	
+R9	Experiences Arg1:T54 Arg2:T5	
+R10	Experiences Arg1:T54 Arg2:T87	
+R11	Experiences Arg1:T54 Arg2:T4	
+R12	Causes Arg1:T4 Arg2:T5	
+R14	Causes Arg1:T44 Arg2:T6	
+R15	Before Arg1:T7 Arg2:T45	
+R16	Before Arg1:T8 Arg2:T45	
+R17	Has_Age Arg1:T60 Arg2:T62	
+T90	CONC 654 663	inclusión
+#73	AnnotatorNotes T90	C1512693; Inclusion; Qualitative Concept
+R18	Overlap Arg1:T90 Arg2:T62	
+R19	Causes Arg1:T55 Arg2:T9	
+R21	Location_of Arg1:T13 Arg2:T46	
+R22	Before Arg1:T11 Arg2:T46	
+R23	Overlap Arg1:T11 Arg2:T14	
+T91	Quantifier_or_Qualifier 831 847	moderado a grave
+#74	AnnotatorNotes T91	C1299393; Moderate to severe; Qualitative Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T91	
+T92	Result_or_Value 867 894	igual o inferior a 200 mmHg
+R26	Has_Result_or_Value Arg1:T12 Arg2:T92	
+R27	Has_Duration_or_Interval Arg1:T15 Arg2:T63	
+R28	Overlap Arg1:T15 Arg2:T16	
+R29	Experiences Arg1:T64 Arg2:T17	
+#75	AnnotatorNotes T17	C1868981; Invasive mechanical ventilation; Therapeutic or Preventive Procedure (?)
+T93	Observation 1014 1023	elegibles
+#76	AnnotatorNotes T93	C1302261; Patient eligible for clinical trial; Finding
+R30	Has_Quantifier_or_Qualifier Arg1:T64 Arg2:T93	
+R31	Overlap Arg1:T93 Arg2:T65	
+R32	After Arg1:T93 Arg2:T18	
+R33	Before Arg1:T18 Arg2:T17	
+R34	Experiences Arg1:T64 Arg2:T18	
+T94	Observation 1173 1218	Progresión inminente e inevitable a la muerte
+#77	AnnotatorNotes T94	C2363727; Death imminent; Finding
+R35	Overlap Arg1:T94 Arg2:T67	
+R36	Overlap Arg1:T48 Arg2:T67	
+R37	Before Arg1:T19 Arg2:T48	
+#78	AnnotatorNotes T22	C0221423; Illness (finding); Sign or Symptom
+T95	Quantifier_or_Qualifier 1408 1421	fase terminal
+#79	AnnotatorNotes T95	C0205088; End-stage; Qualitative Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T95	
+R39	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T95	
+R40	Experiences Arg1:T70 Arg2:T21	
+R41	Experiences Arg1:T70 Arg2:T22	
+R42	Before Arg1:T21 Arg2:T56	
+R43	Before Arg1:T22 Arg2:T56	
+R46	Experiences Arg1:T70 Arg2:T23	
+R47	Has_Quantifier_or_Qualifier Arg1:T70 Arg2:T56	
+R48	Location_of Arg1:T50 Arg2:T24	
+T96	Quantifier_or_Qualifier 1569 1585	moderado / grave
+R49	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T96	
+#80	AnnotatorNotes T96	C1299393; Moderate to severe; Qualitative Concept
+R50	Experiences Arg1:T72 Arg2:T51	
+R51	Experiences Arg1:T72 Arg2:T26	
+R52	Experiences Arg1:T72 Arg2:T27	
+R53	Overlap Arg1:T51 Arg2:T28	
+R54	Overlap Arg1:T26 Arg2:T28	
+R55	Overlap Arg1:T27 Arg2:T28	
+#81	AnnotatorNotes T28	C3469597; Administration of medication; Therapeutic or Preventive Procedure
+R56	Overlap Arg1:T29 Arg2:T73	
+R57	Location_of Arg1:T52 Arg2:T30	
+T97	Quantifier_or_Qualifier 1794 1800	activa
+R58	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T97	
+#82	AnnotatorNotes T97	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+T98	Quantifier_or_Qualifier 1925 1935	alogénicas
+#83	AnnotatorNotes T98	C1515895; Allogeneic; Qualitative Concept
+R59	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T98	
+R60	Overlap Arg1:T75 Arg2:T77	
+R61	Overlap Arg1:T76 Arg2:T77	
+R62	Has_Age Arg1:T78 Arg2:T79	
+R63	Experiences Arg1:T78 Arg2:T35	
+R64	Experiences Arg1:T78 Arg2:T89	
+T99	CONC 2046 2055	inclusión
+#84	AnnotatorNotes T99	C1512693; Inclusion; Qualitative Concept
+R65	Overlap Arg1:T35 Arg2:T99	
+R66	Overlap Arg1:T89 Arg2:T99	
+R67	Overlap Arg1:T75 Arg2:T99	
+R68	Overlap Arg1:T76 Arg2:T99	
+T100	Observation 2076 2089;2097 2117	Participación en un ensayo clínico
+R69	Overlap Arg1:T100 Arg2:T82	
+R70	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T59	
+T101	Observation 2372 2382;2414 2445	comprometa participar en el ensayo clínico
+R71	Overlap Arg1:T46 Arg2:T14	
+#87	AnnotatorNotes T56	C1302261; Patient eligible for clinical trial; Finding (?)
+R13	Overlap Arg1:T9 Arg2:T46	
+R20	Overlap Arg1:T9 Arg2:T11	
+#85	AnnotatorNotes T100	C1278516; Patient participation status; Finding (?)
+A11	Experiencer T54 Patient
+A12	Experiencer T57 Patient
+A13	Experiencer T58 Other
+A14	Status T10 Future
+A15	Experiencer T60 Patient
+A16	Experiencer T64 Patient
+A17	Experiencer T66 Other
+A18	Status T47 Future
+A19	Experiencer T69 Other
+A20	Experiencer T70 Patient
+A21	Experiencer T72 Patient
+A22	Experiencer T78 Patient
+A23	Experiencer T85 Other
+A24	Experiencer T86 Patient
+A25	Status T48 Future
+T42	Result_or_Value 2031 2039	negativa
+R25	Has_Result_or_Value Arg1:T35 Arg2:T42	

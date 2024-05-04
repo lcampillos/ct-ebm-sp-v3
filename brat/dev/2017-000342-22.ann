@@ -1,0 +1,148 @@
+T1	PROC 98 121	terapia de erradicación
+#1	AnnotatorNotes T1	C0559761; Helicobacter eradication therapy; Therapeutic or Preventive Procedure
+T2	PROC 386 402	práctica clínica
+T3	DISO 134 163	infección Helicobacter pylori
+T4	PROC 186 242	Estudio randomizado, doble ciego, controlado con placebo
+T5	PROC 953 961	tratados
+#2	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 305 328	terapia de erradicación
+#3	AnnotatorNotes T6	C0559761; Helicobacter eradication therapy; Therapeutic or Preventive Procedure
+T7	DISO 345 378	infección por Helicobacter pylori
+#4	AnnotatorNotes T7	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T8	DISO 435 468	Infección por Helicobacter Pylori
+#5	AnnotatorNotes T8	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome
+T9	PROC 521 529	consulta
+#6	AnnotatorNotes T9	C0009818; Consultation; Health Care Activity
+T10	PROC 547 558	diagnóstico
+#7	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	DISO 571 593	infección por H pylori
+T12	PROC 614 635	técnicas diagnósticas
+#8	AnnotatorNotes T12	C0430022; diagnostic procedure; Diagnostic Procedure
+T13	PROC 647 667	test del aliento C13
+#9	AnnotatorNotes T13	C1318610; 13C urea breath test; Laboratory Procedure
+T14	PROC 681 687	ureasa
+#10	AnnotatorNotes T14	C1504520; Helicobacter pylori urease test; Laboratory Procedure
+T15	PROC 692 718	antígeno H pylori en heces
+#11	AnnotatorNotes T15	C1294944; Helicobacter pylori antigen assay; Laboratory Procedure (?) | C4700558; Helicobacter pylori antigen in stool; Laboratory Procedure
+T16	ANAT 713 718	heces
+#12	AnnotatorNotes T16	C0015733; Feces; Body Substance
+T17	PROC 910 930	terapia erradicadora
+T18	CHEM 966 971	AINES
+#13	AnnotatorNotes T18	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T19	CHEM 973 981	aspirina
+#14	AnnotatorNotes T19	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T20	CHEM 990 1020	medicamentos antiinflamatorios
+#15	AnnotatorNotes T20	C0003209; Anti-Inflammatory Agents; Pharmacologic Substance
+T21	PROC 669 679	histología
+#16	AnnotatorNotes T21	C0344441; Histology Procedure; Laboratory Procedure
+T22	CHEM 1161 1173	antibióticos
+#17	AnnotatorNotes T22	C0003232; Antibiotics; Antibiotic
+T23	Date 13 17	2017
+T24	LIVB 59 91	probiótico Lactobacillus reuteri
+#18	AnnotatorNotes T24	C0317625; Lactobacillus reuteri; Bacterium
+T26	LIVB 144 163	Helicobacter pylori
+#19	AnnotatorNotes T26	C0079488; Helicobacter pylori; Bacterium
+T27	LIVB 266 298	probiótico Lactobacillus reuteri
+#20	AnnotatorNotes T27	C0317625; Lactobacillus reuteri; Bacterium
+T29	LIVB 495 504	Pacientes
+#21	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Age 726 748	entre los 18 a 65 años
+T31	LIVB 778 787	Pacientes
+#22	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	LIVB 812 823	probióticos
+#23	AnnotatorNotes T32	C0525033; Probiotics; Bacterium
+T33	Duration 824 833	4 semanas
+T34	LIVB 869 878	Pacientes
+#24	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 934 942	Paciente
+#25	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Frequency 1037 1046	ocasional
+T37	Duration 1048 1058	una semana
+T38	Duration 1090 1097	crónica
+#26	AnnotatorNotes T38	C0205191; chronic; Temporal Concept
+T39	Duration 1099 1108	3 semanas
+T40	LIVB 1135 1144	Pacientes
+#27	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Route 1174 1180	orales
+#28	AnnotatorNotes T41	C1527415; Oral Route of Drug administration; Functional Concept
+T42	Duration 1182 1193	dos semanas
+T43	PHYS 1219 1227	Embarazo
+#29	AnnotatorNotes T43	C0032961; Pregnancy; Organism Function
+T44	LIVB 359 378	Helicobacter pylori
+#30	AnnotatorNotes T44	C0079488; Helicobacter pylori; Bacterium
+T45	LIVB 449 468	Helicobacter Pylori
+#31	AnnotatorNotes T45	C0079488; Helicobacter pylori; Bacterium
+T25	LIVB 585 593	H pylori
+T28	LIVB 701 709	H pylori
+A1	Status T17 History_of
+A2	Status T22 History_of
+#32	AnnotatorNotes T4	C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#33	AnnotatorNotes T3	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome 
+#34	AnnotatorNotes T11	C0850666; Infection caused by Helicobacter pylori; Disease or Syndrome 
+#35	AnnotatorNotes T25	C0079488; Helicobacter pylori; Bacterium
+#36	AnnotatorNotes T28	C0079488; Helicobacter pylori; Bacterium
+#37	AnnotatorNotes T17	C0559761; Helicobacter eradication therapy; Therapeutic or Preventive Procedure
+R1	Used_for Arg1:T24 Arg2:T1	
+R2	Causes Arg1:T26 Arg2:T3	
+R3	Used_for Arg1:T27 Arg2:T6	
+R4	Causes Arg1:T44 Arg2:T7	
+T46	Quantifier_or_Qualifier 329 338	cuádruple
+R6	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T46	
+R7	Causes Arg1:T45 Arg2:T8	
+T47	Result_or_Value 559 567	positivo
+R9	Has_Result_or_Value Arg1:T10 Arg2:T47	
+R10	Experiences Arg1:T29 Arg2:T11	
+R11	Causes Arg1:T25 Arg2:T11	
+R13	Location_of Arg1:T16 Arg2:T15	
+R14	Before Arg1:T12 Arg2:T9	
+R15	Before Arg1:T13 Arg2:T10	
+R16	Before Arg1:T21 Arg2:T10	
+R17	Before Arg1:T14 Arg2:T10	
+R18	Before Arg1:T15 Arg2:T10	
+T48	PROC 857 864	estudio
+#38	AnnotatorNotes T48	C0008976; Clinical Trials; Research Activity
+R19	Experiences Arg1:T34 Arg2:T17	
+R20	Used_for Arg1:T18 Arg2:T5	
+R21	Used_for Arg1:T19 Arg2:T5	
+R22	Used_for Arg1:T20 Arg2:T5	
+R23	Experiences Arg1:T35 Arg2:T5	
+R24	Has_Frequency Arg1:T18 Arg2:T36	
+R25	Has_Frequency Arg1:T19 Arg2:T36	
+R26	Has_Frequency Arg1:T20 Arg2:T36	
+T49	PROC 1069 1076	estudio
+#39	AnnotatorNotes T49	C0008976; Clinical Trials; Research Activity
+R27	Before Arg1:T5 Arg2:T49	
+R28	Has_Duration_or_Interval Arg1:T20 Arg2:T37	
+R29	Has_Duration_or_Interval Arg1:T19 Arg2:T37	
+R30	Has_Duration_or_Interval Arg1:T18 Arg2:T37	
+T50	CONC 1121 1130	inclusión
+#40	AnnotatorNotes T50	C1512693; Inclusion; Qualitative Concept
+R31	Before Arg1:T5 Arg2:T50	
+R32	Has_Duration_or_Interval Arg1:T18 Arg2:T38	
+R33	Has_Duration_or_Interval Arg1:T18 Arg2:T39	
+R34	Has_Duration_or_Interval Arg1:T19 Arg2:T38	
+R35	Has_Duration_or_Interval Arg1:T19 Arg2:T39	
+R36	Has_Duration_or_Interval Arg1:T20 Arg2:T38	
+R37	Has_Duration_or_Interval Arg1:T20 Arg2:T39	
+R38	Experiences Arg1:T40 Arg2:T22	
+R39	Has_Route_or_Mode Arg1:T22 Arg2:T41	
+R40	Has_Duration_or_Interval Arg1:T22 Arg2:T42	
+T51	CONC 1206 1215	inclusión
+#41	AnnotatorNotes T51	C1512693; Inclusion; Qualitative Concept
+R41	Before Arg1:T22 Arg2:T51	
+R42	Before Arg1:T32 Arg2:T48	
+R43	Has_Duration_or_Interval Arg1:T32 Arg2:T33	
+#42	AnnotatorNotes T47	C1446409; Positive; Finding
+R8	Experiences Arg1:T29 Arg2:T12	
+R45	Experiences Arg1:T29 Arg2:T13	
+R46	Experiences Arg1:T29 Arg2:T21	
+R47	Experiences Arg1:T29 Arg2:T14	
+R48	Experiences Arg1:T29 Arg2:T15	
+R49	Experiences Arg1:T29 Arg2:T9	
+R53	Causes Arg1:T28 Arg2:T11	
+#43	AnnotatorNotes T46	C0205175; Quadruplicate; Quantitative Concept
+A3	Experiencer T29 Patient
+A4	Experiencer T31 Patient
+A5	Experiencer T34 Patient
+A6	Experiencer T35 Patient
+A7	Experiencer T40 Patient

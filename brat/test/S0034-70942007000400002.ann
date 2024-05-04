@@ -1,0 +1,226 @@
+T1	CHEM 80 91	bupivacaína
+#1	AnnotatorNotes T1	C0006400; bupivacaine; Organic Chemical · Pharmacologic Substance
+T2	PROC 107 131	analgesia postoperatoria
+#2	AnnotatorNotes T2	C0521301; Postoperative administration of analgesia; Therapeutic or Preventive Procedure
+T3	PROC 135 171	colecistectomías videolaparoscópicas
+#3	AnnotatorNotes T3	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T4	PROC 284 318	colecistectomía videolaparoscópica
+#4	AnnotatorNotes T4	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T5	CHEM 1050 1059	tenoxican
+#5	AnnotatorNotes T5	C0076096; tenoxicam; Organic Chemical · Pharmacologic Substance
+T6	PROC 462 481	evaluar la eficacia
+#6	AnnotatorNotes T6	C1707887; Efficacy Study; Research Activity
+T7	CHEM 56 69	enantiomérico
+#7	AnnotatorNotes T7	C0599473; enantiomer; Chemical Viewed Structurally
+T8	CHEM 567 578	bupivacaína
+#8	AnnotatorNotes T8	C0006400; bupivacaine; Organic Chemical · Pharmacologic Substance
+T9	PROC 638 672	colecistectomía videolaparoscópica
+#9	AnnotatorNotes T9	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T10	PROC 683 744	Estudio aleatorio, placebo-controlado y doblemente encubierto
+#10	AnnotatorNotes T10	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity
+T11	CHEM 543 556	enantiomérico
+#11	AnnotatorNotes T11	C0599473; enantiomer; Chemical Viewed Structurally
+T12	PROC 774 808	colecistectomía videolaparoscópica
+#12	AnnotatorNotes T12	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T13	CHEM 867 890	solución de bupivacaína
+T14	PROC 939 948	operación
+#13	AnnotatorNotes T14	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T15	CHEM 1076 1084	dipirona
+#14	AnnotatorNotes T15	C0012586; dipyrone; Organic Chemical · Pharmacologic Substance | C3714569; metamizole sodium; Organic Chemical · Pharmacologic Substance
+T16	PROC 1129 1138	operación
+#15	AnnotatorNotes T16	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T17	CHEM 1191 1199	tramadol
+#16	AnnotatorNotes T17	C0040610; tramadol; Organic Chemical · Pharmacologic Substance
+T18	PROC 1271 1291	maniobra de Valsalva
+#17	AnnotatorNotes T18	C0042293; Valsalva Maneuver; Diagnostic Procedure
+T19	DISO 1382 1400	dolor en el hombro
+#18	AnnotatorNotes T19	C0037011; Shoulder Pain; Sign or Symptom
+T20	CHEM 1445 1455	analgésico
+#19	AnnotatorNotes T20	C0002771; Analgesics; Organic Chemical · Pharmacologic Substance · Hazardous or Poisonous Substance
+T21	CHEM 1671 1679	tramadol
+#20	AnnotatorNotes T21	C0040610; tramadol; Organic Chemical · Pharmacologic Substance
+T22	PROC 1809 1836	instilación intraperitoneal
+#21	AnnotatorNotes T22	C0031146; intraperitoneal infusion; Therapeutic or Preventive Procedure (?)
+T23	CHEM 1849 1860	bupivacaína
+#22	AnnotatorNotes T23	C0006400; bupivacaine; Organic Chemical · Pharmacologic Substance
+T24	PROC 1982 2016	colecistectomía videolaparoscópica
+#23	AnnotatorNotes T24	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T25	PROC 1 31	Administración intraperitoneal
+#24	AnnotatorNotes T25	C0031146; intraperitoneal infusion; Therapeutic or Preventive Procedure (?)
+T26	PROC 224 252	infusiones intraperitoneales
+#25	AnnotatorNotes T26	C0031146; intraperitoneal infusion; Therapeutic or Preventive Procedure
+T27	CHEM 256 275	anestésicos locales
+#26	AnnotatorNotes T27	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T28	DISO 423 428	dolor
+#27	AnnotatorNotes T28	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T29	PROC 488 518	administración intraperitoneal
+#28	AnnotatorNotes T29	C0031146; intraperitoneal infusion; Therapeutic or Preventive Procedure (?)
+T30	DISO 608 613	dolor
+#29	AnnotatorNotes T30	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T31	CHEM 986 1006	solución fisiológica
+#30	AnnotatorNotes T31	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T32	PROC 1143 1152	analgesia
+#31	AnnotatorNotes T32	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T33	DISO 1234 1249	dolor en reposo
+#32	AnnotatorNotes T33	C0234253; Rest pain; Sign or Symptom
+T34	ANAT 1394 1400	hombro
+#33	AnnotatorNotes T34	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T35	DISO 1563 1568	dolor
+#34	AnnotatorNotes T35	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T36	DISO 1909 1924	dolor en reposo
+#35	AnnotatorNotes T36	C0234253; Rest pain; Sign or Symptom
+T37	Route 16 31	intraperitoneal
+#36	AnnotatorNotes T37	C1522583; Intraperitoneal Route of Drug Administration; Functional Concept
+T38	Time 117 131	postoperatoria
+#37	AnnotatorNotes T38	C0032790; Postoperative Period; Temporal Concept
+T39	Route 235 252	intraperitoneales
+#38	AnnotatorNotes T39	C1522583; Intraperitoneal Route of Drug Administration; Functional Concept
+T42	Route 503 518	intraperitoneal
+#39	AnnotatorNotes T42	C1522583; Intraperitoneal Route of Drug Administration; Functional Concept
+T45	Time 620 634	postoperatorio
+#40	AnnotatorNotes T45	C0032790; Postoperative Period; Temporal Concept
+T46	LIVB 752 761	pacientes
+#41	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Dose 858 863	80 mL
+T48	Form 867 875	solución
+#42	AnnotatorNotes T48	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T49	Dose 899 907	a 0,125%
+T50	Route 908 923	intraperitoneal
+#43	AnnotatorNotes T50	C1522583; Intraperitoneal Route of Drug Administration; Functional Concept
+T51	Dose 977 982	80 mL
+T52	Form 986 994	solución
+#44	AnnotatorNotes T52	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T53	Dose 1007 1013	a 0,9%
+T54	Dose 1041 1046	40 mg
+T55	Dose 1062 1072	30 mg.kg-1
+T56	Route 1090 1100	vía venosa
+#45	AnnotatorNotes T56	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T57	Time 1159 1173	postoperatorio
+#46	AnnotatorNotes T57	C0032790; Postoperative Period; Temporal Concept
+T58	Time 1175 1177	PO
+#47	AnnotatorNotes T58	C0032790; Postoperative Period; Temporal Concept
+T60	PHYS 1321 1330	despertar
+#48	AnnotatorNotes T60	C0442696; Waking; Physiologic Function
+T61	Duration 1333 1355	2, 4, 8, 12 y 24 horas
+T62	Time 1362 1364	PO
+#49	AnnotatorNotes T62	C0032790; Postoperative Period; Temporal Concept
+T65	Time 1590 1592	PO
+#50	AnnotatorNotes T65	C0032790; Postoperative Period; Temporal Concept
+T66	LIVB 1600 1608	paciente
+#51	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T68	Route 1821 1836	intraperitoneal
+#52	AnnotatorNotes T68	C1522583; Intraperitoneal Route of Drug Administration; Functional Concept
+T69	Dose 1840 1845	80 mL
+T70	Dose 1869 1877	a 0,125%
+T75	Duration 1571 1583	las 12 horas
+T76	Duration 1960 1972	las 12 horas
+T40	Time 1976 1978	PO
+#53	AnnotatorNotes T40	C0032790; Postoperative Period; Temporal Concept
+T41	DISO 1234 1239;1251 1262	dolor al sentarse
+#54	AnnotatorNotes T41	C0241050; sitting pain; Sign or Symptom
+R2	Used_for Arg1:T1 Arg2:T25	
+R3	Used_for Arg1:T1 Arg2:T2	
+R6	Overlap Arg1:T2 Arg2:T38	
+R5	Before Arg1:T3 Arg2:T2	
+T44	Observation 203 220	efecto analgésico
+#56	AnnotatorNotes T44	C0948482; Analgesic effect; Finding
+R8	Used_for Arg1:T27 Arg2:T26	
+R9	After Arg1:T26 Arg2:T4	
+R10	Causes Arg1:T4 Arg2:T28	
+R11	Causes Arg1:T26 Arg2:T44	
+R13	Used_for Arg1:T8 Arg2:T29	
+R14	Causes Arg1:T9 Arg2:T30	
+R15	Overlap Arg1:T30 Arg2:T45	
+R16	Overlap Arg1:T29 Arg2:T9	
+R17	Experiences Arg1:T46 Arg2:T12	
+R18	Has_Drug_Form Arg1:T13 Arg2:T48	
+R19	Has_Dose_or_Strength Arg1:T13 Arg2:T47	
+R20	Has_Dose_or_Strength Arg1:T13 Arg2:T49	
+R21	Has_Route_or_Mode Arg1:T13 Arg2:T50	
+R22	Overlap Arg1:T13 Arg2:T83	
+R23	Has_Drug_Form Arg1:T31 Arg2:T52	
+R24	Has_Dose_or_Strength Arg1:T31 Arg2:T51	
+R25	Has_Dose_or_Strength Arg1:T31 Arg2:T53	
+R26	Overlap Arg1:T31 Arg2:T83	
+R27	Has_Dose_or_Strength Arg1:T5 Arg2:T54	
+R28	Has_Dose_or_Strength Arg1:T15 Arg2:T55	
+R29	Has_Route_or_Mode Arg1:T15 Arg2:T56	
+R30	Has_Route_or_Mode Arg1:T5 Arg2:T56	
+R31	Combined_with Arg1:T5 Arg2:T15	
+R32	Overlap Arg1:T15 Arg2:T84	
+R33	Overlap Arg1:T5 Arg2:T84	
+R34	Overlap Arg1:T32 Arg2:T57	
+R35	Overlap Arg1:T32 Arg2:T58	
+R36	Used_for Arg1:T17 Arg2:T32	
+R37	After Arg1:T18 Arg2:T60	
+R38	Overlap Arg1:T18 Arg2:T61	
+R39	Overlap Arg1:T18 Arg2:T62	
+R40	After Arg1:T33 Arg2:T60	
+R43	Overlap Arg1:T41 Arg2:T62	
+R42	Overlap Arg1:T33 Arg2:T61	
+R45	Overlap Arg1:T33 Arg2:T62	
+R46	Location_of Arg1:T34 Arg2:T19	
+T43	CONC 1461 1468	consumo
+T59	Quantifier_or_Qualifier 1469 1480	acumulativo
+R47	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T59	
+R48	Overlap Arg1:T35 Arg2:T75	
+R49	Overlap Arg1:T35 Arg2:T65	
+R50	Experiences Arg1:T66 Arg2:T35	
+T63	Quantifier_or_Qualifier 1609 1618	en reposo
+#55	AnnotatorNotes T63	C0443144; At rest (qualifier value); Functional Concept
+R51	Has_Quantifier_or_Qualifier Arg1:T66 Arg2:T63	
+T64	CONC 1707 1714	consumo
+T67	Neg_cue 1765 1767	no
+T71	Quantifier_or_Qualifier 1775 1789	significativas
+A1	Assertion T71 Negated
+R52	Negation Arg1:T67 Arg2:T71	
+R54	Has_Dose_or_Strength Arg1:T23 Arg2:T69	
+R1	Has_Route_or_Mode Arg1:T1 Arg2:T37	
+R7	Has_Route_or_Mode Arg1:T27 Arg2:T39	
+R12	Has_Route_or_Mode Arg1:T8 Arg2:T42	
+R55	Has_Route_or_Mode Arg1:T23 Arg2:T68	
+R53	Used_for Arg1:T23 Arg2:T22	
+R56	Has_Dose_or_Strength Arg1:T23 Arg2:T70	
+R57	Overlap Arg1:T36 Arg2:T76	
+R58	Overlap Arg1:T36 Arg2:T40	
+R59	Causes Arg1:T24 Arg2:T36	
+R60	Overlap Arg1:T22 Arg2:T24	
+R61	Experiences Arg1:T46 Arg2:T13	
+R62	Experiences Arg1:T46 Arg2:T14	
+R63	Experiences Arg1:T46 Arg2:T31	
+R64	Overlap Arg1:T26 Arg2:T28	
+R65	Before Arg1:T29 Arg2:T30	
+R66	Before Arg1:T9 Arg2:T45	
+T72	DISO 1234 1239	dolor
+R67	Overlap Arg1:T72 Arg2:T18	
+R68	Before Arg1:T24 Arg2:T40	
+T73	Result_or_Value 93 100	S75-R25
+R69	Has_Result_or_Value Arg1:T1 Arg2:T73	
+T74	Result_or_Value 580 587	S75-R25
+R70	Has_Result_or_Value Arg1:T8 Arg2:T74	
+T77	Result_or_Value 1861 1868	S75-R25
+R71	Has_Result_or_Value Arg1:T23 Arg2:T77	
+T78	Observation 376 382	alivio
+#57	AnnotatorNotes T78	C0564405; Feeling relief; Finding
+T79	Quantifier_or_Qualifier 383 395	considerable
+R72	Has_Quantifier_or_Qualifier Arg1:T78 Arg2:T79	
+T80	Observation 409 428	reducción del dolor
+#58	AnnotatorNotes T80	C5230944; Sensation of pain reduced; Finding
+T81	Quantifier_or_Qualifier 401 408	pequeña
+R73	Has_Quantifier_or_Qualifier Arg1:T80 Arg2:T81	
+R74	Overlap Arg1:T20 Arg2:T62	
+R75	Overlap Arg1:T19 Arg2:T62	
+T82	Result_or_Value 891 898	S75-R25
+R78	Has_Result_or_Value Arg1:T13 Arg2:T82	
+R79	Overlap Arg1:T25 Arg2:T3	
+#59	AnnotatorNotes T72	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+#60	AnnotatorNotes T81	C0700321; Small; Quantitative Concept
+#61	AnnotatorNotes T79	C0750502; Significant; Idea or Concept (?)
+T83	CONC 927 948	final de la operación
+T84	CONC 1117 1138	final de la operación
+R4	After Arg1:T41 Arg2:T60	
+R41	Overlap Arg1:T41 Arg2:T61	
+#62	AnnotatorNotes T71	C0750502; Significant; Idea or Concept
+#63	AnnotatorNotes T59	C1511559; Cumulative; Qualitative Concept
+A2	Experiencer T46 Patient
+A3	Experiencer T66 Patient

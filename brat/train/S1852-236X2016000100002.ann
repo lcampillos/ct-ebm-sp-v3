@@ -1,0 +1,214 @@
+T1	PROC 1 19	Evaluación del uso
+#1	AnnotatorNotes T1	C0677392; Perform medication use evaluation; Health Care Activity
+T2	CHEM 23 34	corticoides
+#2	AnnotatorNotes T2	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T3	PROC 68 79	tratamiento
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 83 98	crisis asmática
+#4	AnnotatorNotes T4	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T5	DISO 117 121	asma
+#5	AnnotatorNotes T5	C0004096; Asthma; Disease or Syndrome
+T6	DISO 129 139	enfermedad
+#6	AnnotatorNotes T6	C0012634; Disease; Disease or Syndrome
+T7	DISO 173 192	inflamación crónica
+#7	AnnotatorNotes T7	C0021376; Chronic inflammation; Pathologic Function
+T8	DISO 229 251	síntomas respiratorios
+#8	AnnotatorNotes T8	C0037090; Signs and Symptoms, Respiratory; Sign or Symptom
+T9	DISO 257 268	sibilancias
+#9	AnnotatorNotes T9	C0043144; Wheezing; Sign or Symptom | C0425483; Whistling respiration; Finding
+T10	DISO 270 276	disnea
+#10	AnnotatorNotes T10	C0013404; Dyspnea; Sign or Symptom | C0476273; Respiratory distress; Sign or Symptom
+T11	DISO 278 298	opresión en el pecho
+#11	AnnotatorNotes T11	C0232292; Chest tightness; Sign or Symptom
+T12	DISO 300 303	tos
+#12	AnnotatorNotes T12	C0010200; Coughing; Sign or Symptom
+T13	PROC 1601 1608	tratado
+#13	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	CHEM 485 496	corticoides
+#14	AnnotatorNotes T14	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T15	ANAT 652 674	mucosa de la vía aérea
+T16	PROC 814 898	estudio prospectivo, aleatorizado, analítico, longitudinal de cohorte y experimental
+T17	PROC 1338 1342	FEV1
+#15	AnnotatorNotes T17	C0849974; Pulmonary Function Test/Forced Expiratory Volume 1; Diagnostic Procedure
+T18	DISO 917 931	crisis de asma
+#16	AnnotatorNotes T18	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T19	PROC 1252 1276	consentimiento informado
+#17	AnnotatorNotes T19	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T20	PROC 1105 1115	ingresaron
+#18	AnnotatorNotes T20	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T21	PROC 1230 1239	protocolo
+#19	AnnotatorNotes T21	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T22	PROC 1382 1393	tratamiento
+#20	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	PROC 1417 1426	protocolo
+#21	AnnotatorNotes T23	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T24	PROC 1549 1553	FEV1
+#22	AnnotatorNotes T24	C0849974; Pulmonary Function Test/Forced Expiratory Volume 1; Diagnostic Procedure
+T25	CHEM 1460 1470	salbutamol
+#23	AnnotatorNotes T25	C0001927; albuterol; Organic Chemical · Pharmacologic Substance
+T26	CHEM 1473 1494	bromuro de ipratropio
+#24	AnnotatorNotes T26	C0700580; ipratropium bromide; Organic Chemical · Pharmacologic Substance
+T27	CHEM 1613 1624	corticoides
+#25	AnnotatorNotes T27	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T28	CHEM 1695 1706	corticoides
+#26	AnnotatorNotes T28	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T29	DISO 1734 1748	crisis de asma
+#27	AnnotatorNotes T29	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T30	DISO 1794 1800	crisis
+#28	AnnotatorNotes T30	C0038218; Status Asthmaticus; Disease or Syndrome | C0347950; Asthma attack; Disease or Syndrome
+T31	CHEM 1897 1907	medicación
+#29	AnnotatorNotes T31	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T32	PROC 1938 1951	internaciones
+#30	AnnotatorNotes T32	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T33	ANAT 293 298	pecho
+#31	AnnotatorNotes T33	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T34	DISO 629 645	vasoconstricción
+#32	AnnotatorNotes T34	C1456863; Pathologic vasoconstriction; Pathologic Function
+T35	ANAT 199 208	vía aérea
+#33	AnnotatorNotes T35	C0458827; Airway structure; Body Part, Organ, or Organ Component
+T36	CHEM 749 775	receptores post-sinápticos
+T37	Route 35 44	inhalados
+#34	AnnotatorNotes T37	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T38	Dose 48 59	altas dosis
+#35	AnnotatorNotes T38	C0444956; High dose; Quantitative Concept
+T39	Duration 185 192	crónica
+#36	AnnotatorNotes T39	C0205191; chronic; Temporal Concept
+T43	Route 497 506	inhalados
+#37	AnnotatorNotes T43	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T45	Duration 554 559	< 3 h
+T48	LIVB 876 883	cohorte
+#38	AnnotatorNotes T48	C0599755; Cohort; Population Group
+T49	LIVB 903 912	pacientes
+#39	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 1062 1071	pacientes
+#40	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Duration 1089 1097	10 meses
+T54	Duration 1352 1366	los 30 minutos
+T55	Duration 1428 1439	180 minutos
+T56	LIVB 1445 1458	grupo control
+#41	AnnotatorNotes T56	C0009932; Control Groups; Group
+T57	LIVB 1507 1516	pacientes
+#42	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T59	LIVB 1579 1588	pacientes
+#43	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	Route 1625 1634	inhalados
+#44	AnnotatorNotes T60	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T61	Dose 1637 1648	altas dosis
+#45	AnnotatorNotes T61	C0444956; High dose; Quantitative Concept
+T62	Date 1673 1684	Actualmente
+T63	Route 1707 1716	inhalados
+#46	AnnotatorNotes T63	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T64	Dose 1719 1730	altas dosis
+#47	AnnotatorNotes T64	C0444956; High dose; Quantitative Concept
+T65	LIVB 1780 1789	pacientes
+#48	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T68	ANAT 238 251	respiratorios
+#49	AnnotatorNotes T68	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T69	LIVB 429 446	población mundial
+#50	AnnotatorNotes T69	C2349156; World Standard Population; Population Group
+T40	PHYS 706 724	efecto adrenérgico
+#51	AnnotatorNotes T40	C3179174; Adrenergic Effect; Physiologic Function
+T41	PHYS 1984 2000	función pulmonar
+#52	AnnotatorNotes T41	C0231921; Pulmonary function; Organ or Tissue Function
+T44	ANAT 1992 2000	pulmonar
+#53	AnnotatorNotes T44	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T42	Neg_cue 1521 1523	no
+T46	CONC 1524 1532	lograron
+A1	Assertion T46 Negated
+R1	Negation Arg1:T42 Arg2:T46	
+T47	Neg_cue 1838 1840	no
+T50	CONC 1848 1855	valores
+A2	Assertion T50 Negated
+R2	Negation Arg1:T47 Arg2:T50	
+T53	Spec_cue 507 513	pueden
+T58	Observation 522 542	efectos terapéuticos
+A3	Assertion T58 Speculated
+#54	AnnotatorNotes T58	C1518681; Outcome of Therapy; Finding (?)
+T66	Quantifier_or_Qualifier 543 552	tempranos
+#55	AnnotatorNotes T66	C1279919; Early; Temporal Concept
+A4	Assertion T66 Speculated
+T67	Quantifier_or_Qualifier 1856 1870	significativos
+A5	Assertion T67 Negated
+R3	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T67	
+T70	Spec_cue 584 598	se encontraría
+T71	Observation 614 627	efecto tópico
+A6	Assertion T71 Speculated
+R4	Speculation Arg1:T70 Arg2:T71	
+R5	Has_Route_or_Mode Arg1:T2 Arg2:T37	
+R6	Has_Dose_or_Strength Arg1:T2 Arg2:T38	
+R7	Used_for Arg1:T2 Arg2:T3	
+R8	Overlap Arg1:T5 Arg2:T7	
+R9	Has_Duration_or_Interval Arg1:T7 Arg2:T39	
+R10	Location_of Arg1:T35 Arg2:T7	
+R11	Location_of Arg1:T68 Arg2:T8	
+R12	Location_of Arg1:T33 Arg2:T11	
+T72	Observation 367 377;387 401	limitación al flujo aéreo
+R13	Speculation Arg1:T53 Arg2:T58	
+R14	Has_Route_or_Mode Arg1:T14 Arg2:T43	
+R15	Before Arg1:T14 Arg2:T58	
+R16	Speculation Arg1:T53 Arg2:T66	
+R17	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T66	
+R18	Overlap Arg1:T58 Arg2:T45	
+R19	Before Arg1:T40 Arg2:T71	
+R20	Location_of Arg1:T15 Arg2:T34	
+R21	Before Arg1:T40 Arg2:T34	
+T73	Observation 729 775	modificación de los receptores post-sinápticos
+R22	Causes Arg1:T73 Arg2:T40	
+R23	Experiences Arg1:T49 Arg2:T18	
+R24	Experiences Arg1:T48 Arg2:T18	
+R25	Has_Duration_or_Interval Arg1:T20 Arg2:T52	
+R26	Experiences Arg1:T51 Arg2:T20	
+R27	Before Arg1:T19 Arg2:T21	
+T74	Observation 1313 1322	respuesta
+#56	AnnotatorNotes T74	C4055223; Clinical Response; Finding (?)
+R28	Overlap Arg1:T74 Arg2:T54	
+R29	Causes Arg1:T22 Arg2:T74	
+R30	Before Arg1:T22 Arg2:T17	
+R31	Overlap Arg1:T17 Arg2:T54	
+R32	Has_Duration_or_Interval Arg1:T23 Arg2:T55	
+R33	Combined_with Arg1:T25 Arg2:T26	
+R34	Experiences Arg1:T56 Arg2:T25	
+R35	Experiences Arg1:T57 Arg2:T25	
+R36	Experiences Arg1:T57 Arg2:T24	
+R37	Experiences Arg1:T56 Arg2:T24	
+R39	Experiences Arg1:T59 Arg2:T13	
+R40	Used_for Arg1:T27 Arg2:T13	
+R41	Has_Route_or_Mode Arg1:T27 Arg2:T60	
+R42	Has_Dose_or_Strength Arg1:T27 Arg2:T61	
+R46	Experiences Arg1:T59 Arg2:T24	
+R47	Overlap Arg1:T28 Arg2:T62	
+R48	Has_Route_or_Mode Arg1:T28 Arg2:T63	
+R49	Has_Dose_or_Strength Arg1:T28 Arg2:T64	
+R50	Experiences Arg1:T65 Arg2:T29	
+R51	Experiences Arg1:T65 Arg2:T28	
+R52	Experiences Arg1:T65 Arg2:T30	
+T75	Quantifier_or_Qualifier 1801 1820	moderadas a severas
+#57	AnnotatorNotes T75	C1299393; Moderate to severe; Qualitative Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T75	
+T76	Observation 1954 1961;1981 2000	mejorar la función pulmonar
+R55	Location_of Arg1:T44 Arg2:T41	
+A7	Assertion T76 Negated
+R56	Negation Arg1:T47 Arg2:T76	
+R57	Before Arg1:T31 Arg2:T76	
+T77	CONC 1913 1920	reducir
+A8	Assertion T77 Negated
+#58	AnnotatorNotes T77	C0547047; Decrease; Quantitative Concept
+R58	Negation Arg1:T47 Arg2:T77	
+T78	Quantifier_or_Qualifier 1323 1336	significativa
+#59	AnnotatorNotes T78	C0750502; Significant; Idea or Concept
+R60	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T78	
+R61	Location_of Arg1:T44 Arg2:T76	
+#60	AnnotatorNotes T67	C0750502; Significant; Idea or Concept
+T79	Observation 574 583	respuesta
+R62	Overlap Arg1:T79 Arg2:T71	
+#61	AnnotatorNotes T79	C1319171; Medication response; Finding
+#62	AnnotatorNotes T62	C0521116; Current (present time); Temporal Concept
+#63	AnnotatorNotes T50	C0042295; Values; Qualitative Concept
+A9	Experiencer T69 Patient
+A10	Experiencer T49 Patient
+A11	Experiencer T48 Patient
+A12	Experiencer T51 Patient
+A13	Experiencer T56 Patient
+A14	Experiencer T57 Patient
+A15	Experiencer T59 Patient
+A16	Experiencer T65 Patient

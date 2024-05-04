@@ -1,0 +1,243 @@
+T1	PROC 44 66	Estudio de la eficacia
+T2	CHEM 80 91	tobramicina
+#1	AnnotatorNotes T2	C0040341; tobramycin; Antibiotic · Organic Chemical
+T3	DISO 205 243	colonizado por bacterias Gram negativo
+T4	PROC 136 156	ventilación mecánica
+#2	AnnotatorNotes T4	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T5	PROC 182 202	ventilación mecánica
+#3	AnnotatorNotes T5	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T6	DISO 417 457	colonizados por bacterias Gram negativas
+T7	PROC 265 309	Ensayo clínico fase III aleatorizado y ciego
+T8	DISO 859 871	Colonización
+#4	AnnotatorNotes T8	C4289767; Colonization; Finding
+T9	CHEM 326 337	tobramicina
+#5	AnnotatorNotes T9	C0040341; tobramycin; Antibiotic · Organic Chemical
+T10	PROC 361 368	placebo
+#6	AnnotatorNotes T10	C0032042; Placebos; Therapeutic or Preventive Procedure
+T11	PROC 394 414	ventilación mecánica
+#7	AnnotatorNotes T11	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T12	DISO 1639 1678	Colonización respiratoria por bacterias
+T13	PROC 463 484	comprobar su eficacia
+T14	PROC 515 535	ventilación mecánica
+#8	AnnotatorNotes T14	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T15	PROC 589 609	ventilación mecánica
+#9	AnnotatorNotes T15	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T16	PROC 666 683	ingresados en UCI
+#10	AnnotatorNotes T16	C5419131; Intensive Care Unit Stay; Health Care Activity
+T17	PROC 697 717	ventilación mecánica
+#11	AnnotatorNotes T17	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T18	PROC 776 789	traqueostomía
+#12	AnnotatorNotes T18	C0040590; Tracheostomy procedure; Therapeutic or Preventive Procedure
+T19	ANAT 890 899	vía aérea
+#13	AnnotatorNotes T19	C0458827; Airway structure; Body Part, Organ, or Organ Component
+T20	CHEM 941 952	tobramicina
+#14	AnnotatorNotes T20	C0040341; tobramycin; Antibiotic · Organic Chemical
+T21	DISO 1118 1128	Broncorrea
+#15	AnnotatorNotes T21	C0235568; Bronchorrhea; Sign or Symptom
+T22	DISO 1275 1282	Alergia
+#16	AnnotatorNotes T22	C1527304; Allergic Reaction; Pathologic Function
+T23	CHEM 1285 1300	aminoglucósidos
+#17	AnnotatorNotes T23	C0002556; Aminoglycosides; Organic Chemical · Pharmacologic Substance
+T24	DISO 1347 1366	Insuficiencia renal
+#18	AnnotatorNotes T24	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T25	CHEM 1381 1391	creatinina
+#19	AnnotatorNotes T25	C0010294; creatinine; Biologically Active Substance · Organic Chemical
+T26	PROC 1412 1434	depuración extrarrenal
+T27	DISO 1506 1528	infección respiratoria
+#20	AnnotatorNotes T27	C0035243; Respiratory Tract Infections; Disease or Syndrome
+T28	PROC 1543 1563	ventilación mecánica
+#21	AnnotatorNotes T28	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T29	DISO 1565 1573	neumonía
+#22	AnnotatorNotes T29	C0032285; Pneumonia; Disease or Syndrome
+T30	DISO 1576 1593	traqueobronquitis
+#23	AnnotatorNotes T30	C0040586; Tracheobronchitis; Disease or Syndrome
+T31	PROC 1319 1343	consentimiento informado
+#24	AnnotatorNotes T31	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T32	CHEM 1696 1707	tobramicina
+#25	AnnotatorNotes T32	C0040341; tobramycin; Antibiotic · Organic Chemical
+T33	PROC 1772 1786	ensayo clínico
+#26	AnnotatorNotes T33	C0008976; Clinical Trials; Research Activity
+T34	DISO 1813 1828	Bronquiectasias
+#27	AnnotatorNotes T34	C0006267; Bronchiectasis; Disease or Syndrome
+T35	DISO 1831 1848	fibrosis quística
+#28	AnnotatorNotes T35	C0010674; Cystic Fibrosis; Disease or Syndrome
+T36	CHEM 1892 1902	furosemida
+#29	AnnotatorNotes T36	C0016860; furosemide; Organic Chemical · Pharmacologic Substance
+T37	CHEM 1904 1908	urea
+#30	AnnotatorNotes T37	C0041942; urea; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T38	CHEM 1911 1918	manitol
+#31	AnnotatorNotes T38	C0024730; mannitol; Organic Chemical · Pharmacologic Substance
+T39	ANAT 1039 1061	muestras respiratorias
+T40	DISO 1143 1152	purulenta
+#32	AnnotatorNotes T40	C3203360; Suppuration; Pathologic Function
+T41	ANAT 1361 1366	renal
+#33	AnnotatorNotes T41	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T42	PROC 1368 1391	aclaramiento creatinina
+T43	PROC 1879 1887	tratados
+#34	AnnotatorNotes T43	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T44	Date 12 16	2015
+T45	Route 92 100	inhalada
+#35	AnnotatorNotes T45	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T46	LIVB 160 169	pacientes
+#36	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 220 243	bacterias Gram negativo
+#37	AnnotatorNotes T47	C0018150; Gram Negative Bacteria; Bacteria
+T49	Route 338 346	inhalada
+#38	AnnotatorNotes T49	C0205535; Inhalation Route of Drug Administration; Functional Concept
+T50	LIVB 372 381	pacientes
+#39	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 433 457	bacterias Gram negativas
+#40	AnnotatorNotes T51	C0018150; Gram Negative Bacteria; Bacteria
+T53	LIVB 558 576	Pacientes críticos
+#41	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group + C0815272; critical population; Population Group
+T54	LIVB 636 645	Pacientes
+#42	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	Age 646 664	mayores de 18 años
+T56	DEVI 756 773	tubo endotraqueal
+#43	AnnotatorNotes T56	C0336630; Endotracheal tube; Medical Device
+T57	Duration 799 814	al menos 7 días
+T58	LIVB 904 928	bacterias Gram negativas
+#44	AnnotatorNotes T58	C0018150; Gram Negative Bacteria; Bacteria
+T60	LIVB 1008 1022	microorganismo
+#45	AnnotatorNotes T60	C0445623; Microorganism; Organism
+T63	Duration 1100 1113	mínimo de 72h
+T64	PHYS 1213 1233	proceso respiratorio
+#46	AnnotatorNotes T64	C0035203; Respiration; Physiologic Function
+T65	LIVB 1238 1246	paciente
+#47	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T68	LIVB 1437 1482	Mujeres embarazadas o en periodo de lactancia
+#48	AnnotatorNotes T68	C0033011; Pregnant Women; Population Group | C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T69	Spec_cue 1492 1505	sugestivos de
+T70	LIVB 1669 1678	bacterias
+#49	AnnotatorNotes T70	C0004611; Bacteria; Bacterium
+T71	Duration 1790 1809	los 30 días previos
+T72	LIVB 1852 1861	Pacientes
+#50	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T75	ANAT 1516 1528	respiratoria
+#51	AnnotatorNotes T75	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T76	ANAT 1652 1664	respiratoria
+#52	AnnotatorNotes T76	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T48	DEVI 734 754	vía aérea artificial
+#53	AnnotatorNotes T48	C3873832; Artificial airway device; Medical Device
+T52	LIVB 1170 1188	médico asistencial
+#54	AnnotatorNotes T52	C1320929; Attending physician; Professional or Occupational Group
+T59	Neg_cue 1304 1318	Denegación del
+T61	PHYS 1473 1482	lactancia
+#55	AnnotatorNotes T61	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T62	PHYS 1445 1456	embarazadas
+#56	AnnotatorNotes T62	C0032961; Pregnancy; Organism Function
+A1	Assertion T27 Speculated
+A2	Assertion T31 Negated
+A3	Status T22 History_of
+#57	AnnotatorNotes T1	C1707887; Efficacy Study; Research Activity
+#58	AnnotatorNotes T13	C1707887; Efficacy Study; Research Activity
+#59	AnnotatorNotes T7	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0150108; Blinded; Research Activity
+#60	AnnotatorNotes T39	C0444279; Respiratory sample; Body Substance
+#61	AnnotatorNotes T42	C0373595; Creatinine clearance measurement; Laboratory Procedure
+T66	PROC 230 234	Gram
+#62	AnnotatorNotes T66	C0200966; Bacterial stain, routine; Laboratory Procedure
+T67	PROC 443 447	Gram
+#63	AnnotatorNotes T67	C0200966; Bacterial stain, routine; Laboratory Procedure
+T73	PROC 914 918	Gram
+#64	AnnotatorNotes T73	C0200966; Bacterial stain, routine; Laboratory Procedure
+T74	Spec_cue 1189 1195	podría
+T77	CONC 1196 1206	interferir
+A4	Assertion T77 Speculated
+#65	AnnotatorNotes T77	C0521102; Interferes with; Functional Concept
+R1	Has_Route_or_Mode Arg1:T2 Arg2:T45	
+R2	Experiences Arg1:T46 Arg2:T2	
+R3	Experiences Arg1:T46 Arg2:T4	
+R4	Experiences Arg1:T46 Arg2:T5	
+R5	Experiences Arg1:T46 Arg2:T3	
+R6	Causes Arg1:T47 Arg2:T3	
+R7	Has_Route_or_Mode Arg1:T9 Arg2:T49	
+R8	Experiences Arg1:T50 Arg2:T9	
+R9	Experiences Arg1:T50 Arg2:T10	
+R10	Experiences Arg1:T50 Arg2:T11	
+R11	Experiences Arg1:T50 Arg2:T6	
+R12	Causes Arg1:T51 Arg2:T6	
+R16	Experiences Arg1:T50 Arg2:T14	
+R18	Experiences Arg1:T53 Arg2:T15	
+R19	Has_Age Arg1:T54 Arg2:T55	
+R20	Experiences Arg1:T54 Arg2:T16	
+R21	Overlap Arg1:T16 Arg2:T17	
+R22	Experiences Arg1:T54 Arg2:T17	
+R23	Experiences Arg1:T54 Arg2:T48	
+R24	Overlap Arg1:T17 Arg2:T48	
+R25	Overlap Arg1:T17 Arg2:T56	
+R26	Overlap Arg1:T17 Arg2:T18	
+R27	Experiences Arg1:T54 Arg2:T56	
+R28	Experiences Arg1:T54 Arg2:T18	
+R29	Has_Duration_or_Interval Arg1:T17 Arg2:T57	
+R30	Has_Duration_or_Interval Arg1:T48 Arg2:T57	
+R31	Has_Duration_or_Interval Arg1:T56 Arg2:T57	
+R32	Has_Duration_or_Interval Arg1:T18 Arg2:T57	
+R33	Location_of Arg1:T19 Arg2:T8	
+R34	Causes Arg1:T58 Arg2:T8	
+T78	Quantifier_or_Qualifier 872 883	persistente
+#66	AnnotatorNotes T78	C0205322; Persistent; Temporal Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T78	
+T79	Observation 929 952	sensibles a tobramicina
+R36	Overlap Arg1:T79 Arg2:T20	
+R37	Has_Quantifier_or_Qualifier Arg1:T58 Arg2:T79	
+T80	Quantifier_or_Qualifier 966 977	persistente
+#67	AnnotatorNotes T80	C0205322; Persistent; Temporal Concept
+R38	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T80	
+T81	Quantifier_or_Qualifier 1026 1038	al menos dos
+R39	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T81	
+R40	Has_Duration_or_Interval Arg1:T80 Arg2:T63	
+R41	Experiences Arg1:T65 Arg2:T21	
+R42	Experiences Arg1:T65 Arg2:T40	
+R43	Experiences Arg1:T65 Arg2:T64	
+R44	Speculation Arg1:T74 Arg2:T77	
+T82	Quantifier_or_Qualifier 1129 1138	abundante
+#68	AnnotatorNotes T82	C2346714; Abundance; Qualitative Concept
+R47	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T82	
+R48	Causes Arg1:T23 Arg2:T22	
+R49	Negation Arg1:T59 Arg2:T31	
+R50	Location_of Arg1:T41 Arg2:T24	
+T83	Result_or_Value 1392 1402	<60 ml/min
+R52	Has_Result_or_Value Arg1:T42 Arg2:T83	
+#69	AnnotatorNotes T26	C0206074; Renal Replacement Therapy; Therapeutic or Preventive Procedure (?)
+R53	Experiences Arg1:T68 Arg2:T62	
+R54	Experiences Arg1:T68 Arg2:T61	
+R55	Location_of Arg1:T75 Arg2:T27	
+R56	Speculation Arg1:T69 Arg2:T27	
+R57	Overlap Arg1:T27 Arg2:T28	
+R58	Overlap Arg1:T28 Arg2:T29	
+R59	Overlap Arg1:T28 Arg2:T30	
+T84	CONC 1612 1621	inclusión
+#70	AnnotatorNotes T84	C1512693; Inclusion; Qualitative Concept
+R60	Overlap Arg1:T27 Arg2:T84	
+R61	Overlap Arg1:T28 Arg2:T84	
+R62	Overlap Arg1:T29 Arg2:T84	
+R63	Overlap Arg1:T30 Arg2:T84	
+R64	Location_of Arg1:T76 Arg2:T12	
+R65	Causes Arg1:T70 Arg2:T12	
+T85	Observation 1679 1707	resistentes a la tobramicina
+R66	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T85	
+T86	PROC 1711 1746	Limitación del esfuerzo terapéutico
+T87	Observation 1750 1786	Participación en otro ensayo clínico
+R67	Overlap Arg1:T87 Arg2:T71	
+R68	Overlap Arg1:T33 Arg2:T71	
+R69	Experiences Arg1:T72 Arg2:T43	
+R70	Used_for Arg1:T36 Arg2:T43	
+R71	Used_for Arg1:T37 Arg2:T43	
+R72	Used_for Arg1:T38 Arg2:T43	
+R73	Location_of Arg1:T39 Arg2:T60	
+R13	Overlap Arg1:T21 Arg2:T40	
+#71	AnnotatorNotes T86	C0871549; Withholding Treatment; Health Care Activity
+A5	Experiencer T46 Patient
+A6	Experiencer T50 Patient
+A7	Experiencer T53 Patient
+A8	Experiencer T54 Patient
+A9	Experiencer T52 Other
+A10	Experiencer T65 Patient
+A11	Experiencer T68 Patient
+A12	Experiencer T72 Patient
+T88	Result_or_Value 919 928	negativas
+R14	Has_Result_or_Value Arg1:T73 Arg2:T88	
+T89	Result_or_Value 448 457	negativas
+R15	Has_Result_or_Value Arg1:T67 Arg2:T89	
+T90	Result_or_Value 235 243	negativo
+R17	Has_Result_or_Value Arg1:T66 Arg2:T90	

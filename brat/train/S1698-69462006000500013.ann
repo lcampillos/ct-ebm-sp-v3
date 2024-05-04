@@ -1,0 +1,148 @@
+T1	CHEM 8 25	metilprednisolona
+#1	AnnotatorNotes T1	C0025815; methylprednisolone; Organic Chemical · Hormone · Pharmacologic Substance
+T2	CHEM 33 44	diclofenaco
+#2	AnnotatorNotes T2	C0012091; diclofenac; Organic Chemical · Pharmacologic Substance
+T3	DISO 65 76	inflamación
+#3	AnnotatorNotes T3	C0021368; Inflammation; Pathologic Function
+T4	DISO 82 88	trismo
+#4	AnnotatorNotes T4	C0041105; Trismus; Disease or Syndrome
+T5	PROC 97 130	cirugía del tercer molar inferior
+T6	ANAT 109 130	tercer molar inferior
+#5	AnnotatorNotes T6	C0927338; Third mandibular molar tooth; Body Part, Organ, or Organ Component
+T7	DISO 170 181	inflamación
+#6	AnnotatorNotes T7	C0021368; Inflammation; Pathologic Function
+T8	DISO 187 193	trismo
+#7	AnnotatorNotes T8	C0041105; Trismus; Disease or Syndrome
+T9	CHEM 219 229	corticoide
+#8	AnnotatorNotes T9	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T10	CHEM 238 249	diclofenaco
+#9	AnnotatorNotes T10	C0012091; diclofenac; Organic Chemical · Pharmacologic Substance
+T11	CHEM 251 281	antiinflamatorio no esteroideo
+#10	AnnotatorNotes T11	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T12	PROC 297 330	cirugía del tercer molar inferior
+T13	ANAT 309 330	tercer molar inferior
+#11	AnnotatorNotes T13	C0927338; Third mandibular molar tooth; Body Part, Organ, or Organ Component
+T14	PROC 353 372	Estudio prospectivo
+#12	AnnotatorNotes T14	C0033522; Prospective Studies; Research Activity
+T15	PROC 407 463	extracción quirúrgica de los terceros molares inferiores
+T16	PROC 1218 1225	tratado
+#13	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	CHEM 519 530	diclofenaco
+#14	AnnotatorNotes T17	C0012091; diclofenac; Organic Chemical · Pharmacologic Substance
+T18	CHEM 536 553	metilprednisolona
+#15	AnnotatorNotes T18	C0025815; methylprednisolone; Organic Chemical · Hormone · Pharmacologic Substance
+T19	DISO 689 700	inflamación
+#16	AnnotatorNotes T19	C0021368; Inflammation; Pathologic Function
+T20	DISO 706 712	trismo
+#17	AnnotatorNotes T20	C0041105; Trismus; Disease or Syndrome
+T21	ANAT 727 735	faciales
+#18	AnnotatorNotes T21	C1281591; Entire face; Body Location or Region | C0015450; Face; Body Location or Region
+T22	ANAT 747 752	bucal
+#19	AnnotatorNotes T22	C0226896; Oral cavity; Body Space or Junction | C0230028; Oral region; Body Location or Region | C1267547; Entire mouth region; Body Space or Junction
+T23	PROC 875 882	tratado
+#20	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	CHEM 887 898	diclofenaco
+#21	AnnotatorNotes T24	C0012091; diclofenac; Organic Chemical · Pharmacologic Substance
+T25	DISO 916 927	inflamación
+#22	AnnotatorNotes T25	C0021368; Inflammation; Pathologic Function
+T26	ANAT 950 958	faciales
+#23	AnnotatorNotes T26	C1281591; Entire face; Body Location or Region | C0015450; Face; Body Location or Region
+T27	DISO 1005 1011	trismo
+#24	AnnotatorNotes T27	C0041105; Trismus; Disease or Syndrome
+T28	DISO 1109 1115	trismo
+#25	AnnotatorNotes T28	C0041105; Trismus; Disease or Syndrome
+T29	DISO 1160 1171	inflamación
+#26	AnnotatorNotes T29	C0021368; Inflammation; Pathologic Function
+T30	PROC 1202 1217	experimentación
+#27	AnnotatorNotes T30	C0678323; experimentation; Research Activity | C0681814; research study; Research Activity
+T31	CHEM 1230 1241	corticoides
+#28	AnnotatorNotes T31	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T32	CHEM 200 217	metilprednisolona
+#29	AnnotatorNotes T32	C0025815; methylprednisolone; Organic Chemical · Hormone · Pharmacologic Substance
+T33	CHEM 282 286	AINE
+#30	AnnotatorNotes T33	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T34	ANAT 436 463	terceros molares inferiores
+#31	AnnotatorNotes T34	C0927338; Third mandibular molar tooth; Body Part, Organ, or Organ Component
+T35	PROC 472 500	divididos de forma aleatoria
+#32	AnnotatorNotes T35	C0034656; Randomization; Research Activity
+T36	CHEM 1125 1141	antiinflamatorio
+#33	AnnotatorNotes T36	C0003209; Anti-Inflammatory Agents; Pharmacologic Substance
+T38	LIVB 382 391	pacientes
+#34	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Date 639 653	preoperatorios
+#35	AnnotatorNotes T39	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T40	Date 656 671	postoperatorios
+#36	AnnotatorNotes T40	C0032790; Postoperative Period; Temporal Concept
+T41	Duration 853 865	las 24 horas
+T37	PROC 719 735	medidas faciales
+#37	AnnotatorNotes T37	C1317357; Facial measurement method; Health Care Activity
+T42	PROC 942 958	medidas faciales
+#38	AnnotatorNotes T42	C1317357; Facial measurement method; Health Care Activity
+T43	Neg_cue 1256 1258	no
+T44	Quantifier_or_Qualifier 1267 1280	significativa
+A1	Assertion T44 Negated
+#39	AnnotatorNotes T44	C0750502; Significant; Idea or Concept
+R1	Negation Arg1:T43 Arg2:T44	
+T45	CONC 1091 1102	diferencias
+A2	Assertion T45 Negated
+#40	AnnotatorNotes T45	C1705241; Delta (difference); Quantitative Concept
+T46	Neg_cue 1073 1075	No
+R2	Negation Arg1:T46 Arg2:T45	
+T47	Neg_cue 268 270	no
+T48	Quantifier_or_Qualifier 271 281	esteroideo
+A3	Assertion T48 Negated
+R3	Negation Arg1:T47 Arg2:T48	
+R4	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T48	
+R5	Location_of Arg1:T6 Arg2:T5	
+R6	After Arg1:T4 Arg2:T5	
+R7	After Arg1:T3 Arg2:T5	
+R8	Location_of Arg1:T13 Arg2:T12	
+R9	After Arg1:T8 Arg2:T12	
+R10	After Arg1:T7 Arg2:T12	
+R11	Experiences Arg1:T38 Arg2:T15	
+R12	Location_of Arg1:T34 Arg2:T15	
+R13	Before Arg1:T35 Arg2:T17	
+R14	Before Arg1:T35 Arg2:T18	
+T49	CONC 606 638	datos epidemiológicos y clínicos
+R15	Overlap Arg1:T49 Arg2:T39	
+R16	Overlap Arg1:T49 Arg2:T40	
+R17	Location_of Arg1:T21 Arg2:T37	
+T50	CONC 738 752	apertura bucal
+R19	Used_for Arg1:T24 Arg2:T23	
+R20	Overlap Arg1:T25 Arg2:T41	
+R21	Location_of Arg1:T26 Arg2:T42	
+R24	Before Arg1:T5 Arg2:T2	
+R25	Before Arg1:T5 Arg2:T1	
+R26	Before Arg1:T12 Arg2:T32	
+R27	Before Arg1:T12 Arg2:T9	
+R28	Before Arg1:T12 Arg2:T10	
+R29	Before Arg1:T12 Arg2:T11	
+R30	Before Arg1:T12 Arg2:T33	
+R35	Overlap Arg1:T19 Arg2:T40	
+R36	Overlap Arg1:T20 Arg2:T40	
+R37	Overlap Arg1:T37 Arg2:T39	
+R38	Overlap Arg1:T37 Arg2:T40	
+R39	Overlap Arg1:T50 Arg2:T39	
+R40	Overlap Arg1:T50 Arg2:T40	
+T52	LIVB 1193 1217	grupo de experimentación
+#42	AnnotatorNotes T52	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+R22	Experiences Arg1:T52 Arg2:T30	
+R31	Experiences Arg1:T52 Arg2:T16	
+R32	Used_for Arg1:T31 Arg2:T16	
+R33	Experiences Arg1:T52 Arg2:T29	
+R34	Experiences Arg1:T52 Arg2:T28	
+T53	Observation 154 160	efecto
+#43	AnnotatorNotes T53	C1518681; Outcome of Therapy; Finding (?)
+R41	Causes Arg1:T32 Arg2:T53	
+R42	Causes Arg1:T9 Arg2:T53	
+R43	Causes Arg1:T10 Arg2:T53	
+R44	Causes Arg1:T11 Arg2:T53	
+R45	Causes Arg1:T33 Arg2:T53	
+R46	Overlap Arg1:T42 Arg2:T41	
+T51	CONC 1245 1255	diferencia
+#41	AnnotatorNotes T51	C1705241; Delta (difference); Quantitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T44	
+#44	AnnotatorNotes T12	C0577760; Surgical removal of third molar tooth; Therapeutic or Preventive Procedure
+#45	AnnotatorNotes T5	C0577760; Surgical removal of third molar tooth; Therapeutic or Preventive Procedure
+A4	Experiencer T38 Patient
+A5	Experiencer T52 Patient

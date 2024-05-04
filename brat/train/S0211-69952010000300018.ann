@@ -1,0 +1,252 @@
+T1	PROC 1 13	Hemodiálisis
+#1	AnnotatorNotes T1	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T2	PROC 63 93	control de la tensión arterial
+#2	AnnotatorNotes T2	C0005824; Blood pressure determination; Health Care Activity
+T3	PROC 219 231	hemodiálisis
+#3	AnnotatorNotes T3	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T4	ANAT 331 345	cardiovascular
+#4	AnnotatorNotes T4	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T5	PROC 348 378	control de la tensión arterial
+#5	AnnotatorNotes T5	C0005824; Blood pressure determination; Health Care Activity
+T6	PROC 1147 1155	seguidos
+#6	AnnotatorNotes T6	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T7	ANAT 903 919	cardiovasculares
+#7	AnnotatorNotes T7	C0007226; Cardiovascular system; Body System | C3887460; Cardiovascular; Body Location or Region
+T8	PROC 979 991	hemodiálisis
+#8	AnnotatorNotes T8	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T9	PROC 1575 1578	PRU
+#9	AnnotatorNotes T9	C2030507; hemodialysis amount of urea reduction; Therapeutic or Preventive Procedure
+T10	PROC 1807 1822	ultrafiltración
+#10	AnnotatorNotes T10	C0019014; Hemofiltration; Therapeutic or Preventive Procedure | C0041612; Ultrafiltration; Therapeutic or Preventive Procedure
+T11	PROC 2045 2072	valores de tensión arterial
+#11	AnnotatorNotes T11	C0005824; Blood pressure determination; Health Care Activity
+T12	PROC 399 415	práctica clínica
+T13	CHEM 2258 2284	fármacos antihipertensivos
+#12	AnnotatorNotes T13	C0003364; Antihypertensive Agents; Pharmacologic Substance
+T14	DISO 2372 2385	hipotensiones
+#13	AnnotatorNotes T14	C0020649; Hypotension; Finding
+T15	DISO 2388 2397	calambres
+#14	AnnotatorNotes T15	C0026821; Muscle Cramp; Sign or Symptom
+T16	PROC 2423 2442	valores de albúmina
+#15	AnnotatorNotes T16	C0201838; Albumin measurement; Laboratory Procedure
+T17	CHEM 2434 2442	albúmina
+#16	AnnotatorNotes T17	C0001924; Albumins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T18	PROC 2484 2493	peso seco
+#17	AnnotatorNotes T18	C1535983; Dry weight evaluation; Diagnostic Procedure
+T19	DISO 1714 1723	ganancias
+#18	AnnotatorNotes T19	C0043094; Weight Gain; Finding
+T20	DISO 3051 3060	ganancias
+#19	AnnotatorNotes T20	C0043094; Weight Gain; Finding
+T21	DISO 2762 2771	ganancias
+#20	AnnotatorNotes T21	C0043094; Weight Gain; Finding
+T22	CHEM 2506 2526	quelantes de fósforo
+T23	PROC 2689 2717	tensión arterial se controló
+#21	AnnotatorNotes T23	C0005824; Blood pressure determination; Health Care Activity
+T24	CHEM 2748 2756	fármacos
+#22	AnnotatorNotes T24	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T25	PROC 2831 2854	ultrafiltración horaria
+T26	PROC 2896 2905	prescrito
+#23	AnnotatorNotes T26	C0033080; Prescription procedure; Health Care Activity | C2239117; Prescription of drug (procedure); Health Care Activity
+T27	DISO 3013 3025	hipertensión
+#24	AnnotatorNotes T27	C0020538; Hypertensive disease; Disease or Syndrome
+T28	PHYS 77 93	tensión arterial
+#25	AnnotatorNotes T28	C0005823; Blood Pressure; Organism Function
+T29	ANAT 85 93	arterial
+#26	AnnotatorNotes T29	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T30	PROC 140 148	diálisis
+#27	AnnotatorNotes T30	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T31	PHYS 362 378	tensión arterial
+#28	AnnotatorNotes T31	C0005823; Blood Pressure; Organism Function
+T32	ANAT 370 378	arterial
+#29	AnnotatorNotes T32	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T33	PROC 501 508	dialsis
+#30	AnnotatorNotes T33	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T34	PROC 850 858	diálisis
+#31	AnnotatorNotes T34	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T35	ANAT 1211 1219	arterial
+#32	AnnotatorNotes T35	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T36	CHEM 1249 1265	baño de diálisis
+T37	PROC 2478 2482	npcr
+T38	PROC 1426 1434	diálisis
+#33	AnnotatorNotes T38	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T39	PROC 1505 1513	diálisis
+#34	AnnotatorNotes T39	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T40	PROC 1691 1699	diálisis
+#35	AnnotatorNotes T40	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T41	ANAT 2064 2072	arterial
+#36	AnnotatorNotes T41	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T42	PROC 2444 2454	colesterol
+#37	AnnotatorNotes T42	C0201950; Cholesterol measurement test; Laboratory Procedure
+T43	PROC 2456 2462	calcio
+#38	AnnotatorNotes T43	C0201925; Calcium measurement; Laboratory Procedure
+T44	PROC 2464 2471	fósforo
+#39	AnnotatorNotes T44	C0202178; Phosphorus measurement; Laboratory Procedure
+T45	PROC 2473 2476	PCR
+#40	AnnotatorNotes T45	[Protein catabolic rate measurement]
+T46	PROC 2667 2675	diálisis
+#41	AnnotatorNotes T46	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T47	PHYS 2689 2705	tensión arterial
+#42	AnnotatorNotes T47	C0005823; Blood Pressure; Organism Function
+T48	ANAT 2697 2705	arterial
+#43	AnnotatorNotes T48	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T49	DISO 2923 2931	enfermos
+#44	AnnotatorNotes T49	C0012634; Disease; Disease or Syndrome
+T50	PROC 3109 3117	diálisis
+#45	AnnotatorNotes T50	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T51	Frequency 14 32	4 días a la semana
+T53	Duration 158 174	los últimos años
+T54	Frequency 232 238	diaria
+T57	LIVB 469 478	pacientes
+#46	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T59	Frequency 585 599	todos los días
+T60	Duration 789 802	más de 1 hora
+T62	Frequency 861 867	4 días
+T63	LIVB 962 971	pacientes
+#47	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	Frequency 992 998	diaria
+T65	LIVB 1028 1037	pacientes
+#48	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	Frequency 1088 1108	4 sesiones semanales
+T68	Date 1126 1130	2006
+T69	Date 1133 1137	2008
+T70	Duration 1164 1171	8 meses
+T71	Age 1191 1200	67,5 años
+T73	Dose 1266 1275	666,67 ml
+T75	Duration 1446 1460	798,75 minutos
+T76	Frequency 1461 1470	semanales
+T77	Frequency 1579 1586	semanal
+T78	Frequency 1621 1628	semanal
+T82	PHYS 2056 2072	tensión arterial
+#49	AnnotatorNotes T82	C0005823; Blood Pressure; Organism Function
+T85	Frequency 2571 2591	4 sesiones semanales
+T86	Frequency 2627 2634	semanal
+T89	Frequency 2975 2995	4 sesiones semanales
+T91	LIVB 713 722	población
+#50	AnnotatorNotes T91	C1257890; Population; Population Group
+T55	Frequency 1275 1279	/min
+T56	Duration 1473 1479	966,81
+T92	Duration 1724 1737	interdiálisis
+T94	Frequency 1823 1830	horaria
+T81	Time 2073 2084	prediálisis
+T95	Time 2188 2200	postdiálisis
+T96	Time 2398 2411	intradiálisis
+T83	Duration 2772 2785	interdiálisis
+T84	Frequency 2847 2854	horaria
+T87	Duration 3061 3074	interdiálisis
+T52	PROC 1668 1687	aumento en la dosis
+#51	AnnotatorNotes T52	C1707810; Dose Increased; Therapeutic or Preventive Procedure
+T58	PROC 1205 1219	flujo arterial
+#52	AnnotatorNotes T58	C0430479; Arterial blood flow test; Diagnostic Procedure (?)
+R1	Has_Frequency Arg1:T1 Arg2:T51	
+R2	Location_of Arg1:T29 Arg2:T28	
+R3	Location_of Arg1:T29 Arg2:T2	
+T61	Observation 111 124	peso objetivo
+#53	AnnotatorNotes T61	C4716617; Healthy target weight; Finding
+R4	After Arg1:T61 Arg2:T30	
+R6	Before Arg1:T1 Arg2:T61	
+R7	Has_Frequency Arg1:T3 Arg2:T54	
+R8	Location_of Arg1:T32 Arg2:T5	
+R9	Location_of Arg1:T32 Arg2:T31	
+R11	Experiences Arg1:T57 Arg2:T33	
+T67	CONC 549 564	calidad de vida
+#54	AnnotatorNotes T67	C0034380; Quality of life; Idea or Concept
+T72	PROC 615 623	diálisis
+#55	AnnotatorNotes T72	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+R12	Has_Frequency Arg1:T72 Arg2:T59	
+T74	Observation 529 564	empeoramiento de su calidad de vida
+#56	AnnotatorNotes T74	C4049260; Impaired quality of life; Finding
+R13	Experiences Arg1:T57 Arg2:T74	
+R14	Experiences Arg1:T57 Arg2:T72	
+T79	PHYS 450 461	reticencias
+#57	AnnotatorNotes T79	C2347948; Reluctance; Mental Process
+R15	Experiences Arg1:T57 Arg2:T79	
+T80	Observation 723 748	habita en núcleos rurales
+#58	AnnotatorNotes T80	C1144885; Rural/outside providers' customary service area; Finding (?)
+T88	Observation 779 785	viajes
+R17	Has_Duration_or_Interval Arg1:T88 Arg2:T60	
+R19	Has_Frequency Arg1:T34 Arg2:T62	
+T90	Spec_cue 868 874	podría
+T93	Observation 892 919	beneficios cardiovasculares
+A1	Assertion T93 Speculated
+R20	Speculation Arg1:T90 Arg2:T93	
+R21	Causes Arg1:T34 Arg2:T93	
+R22	Experiences Arg1:T63 Arg2:T8	
+R23	Experiences Arg1:T63 Arg2:T34	
+R24	Experiences Arg1:T63 Arg2:T93	
+R25	Has_Frequency Arg1:T8 Arg2:T64	
+R26	Has_Duration_or_Interval Arg1:T6 Arg2:T70	
+R27	Before Arg1:T6 Arg2:T69	
+R28	After Arg1:T6 Arg2:T68	
+R29	Location_of Arg1:T35 Arg2:T58	
+R30	Has_Dose_or_Strength Arg1:T36 Arg2:T73	
+R31	Has_Frequency Arg1:T36 Arg2:T55	
+#59	AnnotatorNotes T36	C0011947; Dialysis Solutions; Pharmacologic Substance
+T97	PROC 1257 1265	diálisis
+#60	AnnotatorNotes T97	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T98	CONC 1295 1318	pruebas no paramétricas
+#61	AnnotatorNotes T98	C1709255; Non-Parametric Test; Intellectual Product
+R32	Has_Duration_or_Interval Arg1:T38 Arg2:T75	
+R33	Has_Frequency Arg1:T38 Arg2:T76	
+T99	CONC 1416 1434	tiempo de diálisis
+#62	AnnotatorNotes T99	C3263251; Dialysis time period; Temporal Concept
+T100	CONC 2620 2626	tiempo
+#63	AnnotatorNotes T100	C3263251; Dialysis time period; Temporal Concept
+R34	Has_Duration_or_Interval Arg1:T99 Arg2:T56	
+R35	Has_Duration_or_Interval Arg1:T38 Arg2:T56	
+R36	Has_Frequency Arg1:T9 Arg2:T77	
+T101	CONC 1618 1620	KT
+#64	AnnotatorNotes T101	C3484384; Kt (dialysis treatment adequacy measure); Quantitative Concept
+R37	Has_Frequency Arg1:T101 Arg2:T78	
+R38	Has_Frequency Arg1:T100 Arg2:T86	
+R39	Has_Frequency Arg1:T46 Arg2:T85	
+R40	Location_of Arg1:T48 Arg2:T47	
+R41	Location_of Arg1:T48 Arg2:T23	
+R42	Used_for Arg1:T24 Arg2:T23	
+R43	Has_Duration_or_Interval Arg1:T21 Arg2:T83	
+R46	Has_Frequency Arg1:T25 Arg2:T84	
+T102	CONC 2886 2895	peso seco
+#65	AnnotatorNotes T102	C1439839; dry weight (physical finding); Quantitative Concept
+T103	CONC 1920 1929	peso seco
+#66	AnnotatorNotes T103	C1439839; dry weight (physical finding); Quantitative Concept
+T104	CONC 1524 1527	EKR
+#67	AnnotatorNotes T104	C3841651; Equivalent renal clearance (ERK); Quantitative Concept
+R48	Overlap Arg1:T39 Arg2:T52	
+R49	Overlap Arg1:T52 Arg2:T40	
+R50	Has_Duration_or_Interval Arg1:T19 Arg2:T92	
+R51	Has_Frequency Arg1:T10 Arg2:T94	
+R52	Location_of Arg1:T41 Arg2:T82	
+R53	Location_of Arg1:T41 Arg2:T11	
+R54	Overlap Arg1:T11 Arg2:T81	
+R55	Overlap Arg1:T11 Arg2:T95	
+R56	Has_Duration_or_Interval Arg1:T20 Arg2:T87	
+T105	Quantifier_or_Qualifier 3029 3039	controlada
+A2	Assertion T105 Negated
+T106	Neg_cue 3026 3028	no
+R57	Negation Arg1:T106 Arg2:T105	
+R58	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T105	
+R59	Overlap Arg1:T49 Arg2:T27	
+R60	Overlap Arg1:T49 Arg2:T20	
+R61	Before Arg1:T26 Arg2:T50	
+R62	Causes Arg1:T50 Arg2:T20	
+R63	Causes Arg1:T50 Arg2:T21	
+T107	CONC 2344 2355	diferencias
+A3	Assertion T107 Negated
+#68	AnnotatorNotes T107	C1705241; Delta (difference); Quantitative Concept
+T108	Neg_cue 2327 2329	No
+R64	Negation Arg1:T108 Arg2:T107	
+R65	Overlap Arg1:T14 Arg2:T96	
+R66	Overlap Arg1:T15 Arg2:T96	
+#69	AnnotatorNotes T22	C4020599; Phosphate Binders; Pharmacologic Substance
+T109	Observation 1387 1397;1412 1434	incremento del tiempo de diálisis
+#70	AnnotatorNotes T109	C3266572; Increase in hemodialysis session time; Finding
+T110	Observation 2605 2626	incrementar el tiempo
+#71	AnnotatorNotes T110	C3266572; Increase in hemodialysis session time; Finding
+T111	Observation 2045 2072;2085 2097	valores de tensión arterial se redujeron
+T112	Observation 256 266	beneficios
+#72	AnnotatorNotes T112	C4049461; Unexpected beneficial therapeutic response; Finding (?)
+R5	Causes Arg1:T3 Arg2:T112	
+A4	Experiencer T57 Patient
+A5	Experiencer T91 Patient
+A6	Experiencer T63 Patient
+A7	Experiencer T65 Patient
+R10	Has_Result_or_Value Arg1:T11 Arg2:T111	

@@ -1,0 +1,194 @@
+T1	PROC 49 95	estudio para evaluar la seguridad y tolerancia
+T2	CHEM 133 145	vortioxetina
+#1	AnnotatorNotes T2	C3661282; vortioxetine; Organic Chemical · Pharmacologic Substance
+T3	DISO 156 165	depresión
+#2	AnnotatorNotes T3	C0011570; Mental Depression; Mental or Behavioral Dysfunction | C0011581; Depressive disorder; Mental or Behavioral Dysfunction
+T4	PROC 214 316	Estudio de extensión a largo plazo sin interrumpir el tratamiento, abierto y con flexibilidad de dosis
+T5	CHEM 320 332	vortioxetina
+#3	AnnotatorNotes T5	C3661282; vortioxetine; Organic Chemical · Pharmacologic Substance
+T6	DISO 384 409	trastorno depresivo mayor
+#4	AnnotatorNotes T6	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T7	DISO 411 414	TDM
+#5	AnnotatorNotes T7	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T8	DISO 439 448	Depresión
+#6	AnnotatorNotes T8	C0011570; Mental Depression; Mental or Behavioral Dysfunction | C0011581; Depressive disorder; Mental or Behavioral Dysfunction
+T9	DISO 475 500	Trastorno Depresivo Mayor
+#7	AnnotatorNotes T9	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T10	PROC 703 723	estudio de extensión
+T11	PROC 778 798	estudio de extensión
+T12	PROC 819 830	diagnóstico
+#8	AnnotatorNotes T12	C0011900; Diagnosis; Diagnostic Procedure
+T13	DISO 843 868	trastorno depresivo mayor
+#9	AnnotatorNotes T13	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T14	DISO 870 873	TDM
+#10	AnnotatorNotes T14	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
+T15	PROC 895 902	ingreso
+#11	AnnotatorNotes T15	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T16	PROC 931 944	diagnosticado
+#12	AnnotatorNotes T16	C0011900; Diagnosis; Diagnostic Procedure
+T17	PROC 1012 1037	tratamiento a largo plazo
+#13	AnnotatorNotes T17	C0023977; long-term treatment; Health Care Activity
+T18	CHEM 1042 1054	vortioxetina
+#14	AnnotatorNotes T18	C3661282; vortioxetine; Organic Chemical · Pharmacologic Substance
+T19	PROC 1145 1158	diagnosticado
+#15	AnnotatorNotes T19	C0011900; Diagnosis; Diagnostic Procedure
+T20	DISO 1168 1189	desorden psiquiátrico
+T21	DISO 1203 1208	manía
+#16	AnnotatorNotes T21	C0338831; Manic; Mental or Behavioral Dysfunction
+T22	DISO 1210 1227	trastorno bipolar
+#17	AnnotatorNotes T22	C0005586; Bipolar Disorder; Mental or Behavioral Dysfunction
+T23	DISO 1229 1242	esquizofrenia
+#18	AnnotatorNotes T23	C0036341; Schizophrenia; Mental or Behavioral Dysfunction
+T24	DISO 1250 1268	desorden psicótico
+T25	DISO 1314 1361	trastorno de déficit de atención/hiperactividad
+T26	DISO 1363 1367	TDAH
+#19	AnnotatorNotes T26	C1263846; Attention deficit hyperactivity disorder; Mental or Behavioral Dysfunction
+T27	PROC 1387 1412	tratamiento farmacológico
+#20	AnnotatorNotes T27	C0013216; Pharmacotherapy; Therapeutic or Preventive Procedure
+T28	CHEM 1417 1439	medicación estimulante
+T29	Date 13 17	2015
+T30	Date 96 109	a largo plazo
+T31	LIVB 170 175	niños
+#21	AnnotatorNotes T31	C0008059; Child; Age Group
+T32	Date 235 248	a largo plazo
+T34	LIVB 336 341	niños
+#22	AnnotatorNotes T34	C0008059; Child; Age Group
+T35	Age 357 371	de 7 a 17 años
+T36	LIVB 529 538	Pacientes
+#23	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	LIVB 540 545	niños
+#24	AnnotatorNotes T37	C0008059; Child; Age Group + C0870221; Boys; Age Group
+T38	LIVB 548 553	niñas
+#25	AnnotatorNotes T38	C0008059; Child; Age Group + C0870604; Female child; Age Group
+T39	Age 558 579	entre >= 7 y <12 años
+T41	LIVB 669 678	Pacientes
+#26	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 802 811	Pacientes
+#27	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 964 973	Pacientes
+#28	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Date 1024 1037	a largo plazo
+T45	LIVB 1085 1097	investigador
+#29	AnnotatorNotes T45	C0035173; Research Personnel; Professional or Occupational Group
+T46	LIVB 1128 1136	paciente
+#30	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 1299 1307	paciente
+#31	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	LIVB 178 190	adolescentes
+#32	AnnotatorNotes T48	C0205653; Adolescent (age group); Age Group
+T49	LIVB 344 356	adolescentes
+#33	AnnotatorNotes T49	C0205653; Adolescent (age group); Age Group
+T50	LIVB 582 594	adolescentes
+#34	AnnotatorNotes T50	C0205653; Adolescent (age group); Age Group
+T33	Age 598 620	entre >=12 y <=17 años
+T40	Neg_cue 1382 1386;1413 1416	otro que
+#35	AnnotatorNotes T40	[Direct translation of: "other than"]
+T51	PHYS 1338 1346	atención
+#36	AnnotatorNotes T51	C0004268; Attention; Mental Process
+T52	PROC 635 641	visita
+#37	AnnotatorNotes T52	C1512346; Patient Visit; Health Care Activity
+T53	Quantifier_or_Qualifier 642 647	basal
+#38	AnnotatorNotes T53	C1442488; Baseline; Quantitative Concept
+A1	Population_data T50 Age
+A2	Population_data T31 Age
+A3	Population_data T48 Age
+A4	Population_data T34 Age
+A5	Population_data T49 Age
+A6	Population_data T37 Age
+A7	Population_data T38 Age
+A8	Assertion T28 Negated
+A9	Status T10 History_of
+#39	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#40	AnnotatorNotes T20	C0004936; Mental disorders; Mental or Behavioral Dysfunction
+#41	AnnotatorNotes T24	C0033975; Psychotic Disorders; Mental or Behavioral Dysfunction 
+#42	AnnotatorNotes T25	C1263846; Attention deficit hyperactivity disorder; Mental or Behavioral Dysfunction
+#43	AnnotatorNotes T30	C0443252; Long-term; Temporal Concept
+#44	AnnotatorNotes T32	C0443252; Long-term; Temporal Concept
+#45	AnnotatorNotes T44	C0443252; Long-term; Temporal Concept
+R1	Overlap Arg1:T1 Arg2:T30	
+R2	Experiences Arg1:T31 Arg2:T2	
+R3	Experiences Arg1:T48 Arg2:T2	
+R4	Experiences Arg1:T31 Arg2:T3	
+R5	Experiences Arg1:T48 Arg2:T3	
+R6	Overlap Arg1:T4 Arg2:T32	
+R7	Experiences Arg1:T34 Arg2:T5	
+R8	Experiences Arg1:T49 Arg2:T5	
+R9	Has_Age Arg1:T49 Arg2:T35	
+R10	Has_Age Arg1:T34 Arg2:T35	
+R11	Experiences Arg1:T49 Arg2:T6	
+R12	Experiences Arg1:T49 Arg2:T7	
+R13	Experiences Arg1:T34 Arg2:T6	
+R14	Experiences Arg1:T34 Arg2:T7	
+R15	Has_Age Arg1:T36 Arg2:T39	
+R16	Has_Age Arg1:T36 Arg2:T33	
+R17	Has_Age Arg1:T50 Arg2:T33	
+R18	Overlap Arg1:T52 Arg2:T33	
+R19	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T53	
+R20	Overlap Arg1:T52 Arg2:T39	
+R21	Has_Age Arg1:T37 Arg2:T39	
+R22	Has_Age Arg1:T38 Arg2:T39	
+T54	Observation 683 723	hayan finalizado el estudio de extensión
+A10	Status T54 History_of
+#46	AnnotatorNotes T54	C2732579; Completion of clinical trial; Finding
+T55	CONC 731 745	inmediatamente
+#47	AnnotatorNotes T55	C0205253; Immediate; Temporal Concept
+R24	Before Arg1:T10 Arg2:T11	
+R25	Before Arg1:T55 Arg2:T11	
+R26	Overlap Arg1:T54 Arg2:T55	
+R23	Experiences Arg1:T42 Arg2:T13	
+R27	Experiences Arg1:T42 Arg2:T14	
+R28	Overlap Arg1:T14 Arg2:T15	
+R29	Overlap Arg1:T13 Arg2:T15	
+T56	Quantifier_or_Qualifier 831 839	primario
+#48	AnnotatorNotes T56	C0205225; Primary; Qualitative Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T56	
+T57	CONC 954 959	DSM-5
+#49	AnnotatorNotes T57	C4236906; Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5); Intellectual Product
+R31	Used_for Arg1:T57 Arg2:T16	
+R32	Used_for Arg1:T57 Arg2:T12	
+R33	Overlap Arg1:T12 Arg2:T15	
+R34	Overlap Arg1:T16 Arg2:T15	
+R35	Experiences Arg1:T43 Arg2:T17	
+R36	Overlap Arg1:T18 Arg2:T44	
+R37	Used_for Arg1:T18 Arg2:T17	
+R38	Experiences Arg1:T46 Arg2:T20	
+T58	Quantifier_or_Qualifier 1163 1167	otro
+#50	AnnotatorNotes T58	C0205394; Other; Qualitative Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T58	
+T59	PROC 1281 1288	estudio
+#51	AnnotatorNotes T59	C0008976; Clinical Trials; Research Activity
+R40	Overlap Arg1:T19 Arg2:T59	
+R41	Overlap Arg1:T24 Arg2:T59	
+R42	Overlap Arg1:T23 Arg2:T59	
+R43	Overlap Arg1:T22 Arg2:T59	
+R44	Overlap Arg1:T21 Arg2:T59	
+R45	Overlap Arg1:T20 Arg2:T59	
+R46	Experiences Arg1:T46 Arg2:T21	
+R47	Experiences Arg1:T46 Arg2:T22	
+R48	Experiences Arg1:T46 Arg2:T23	
+R49	Experiences Arg1:T46 Arg2:T24	
+R50	Experiences Arg1:T47 Arg2:T25	
+R53	Experiences Arg1:T47 Arg2:T26	
+R54	Negation Arg1:T40 Arg2:T28	
+R55	Used_for Arg1:T28 Arg2:T27	
+R56	Experiences Arg1:T47 Arg2:T27	
+R57	Experiences Arg1:T36 Arg2:T52	
+R58	Experiences Arg1:T37 Arg2:T52	
+R59	Experiences Arg1:T38 Arg2:T52	
+R60	Experiences Arg1:T50 Arg2:T52	
+#52	AnnotatorNotes T28	C0304402; Stimulant; Pharmacologic Substance (?)
+R51	Experiences Arg1:T47 Arg2:T51	
+A11	Experiencer T31 Patient
+A12	Experiencer T48 Patient
+A13	Experiencer T34 Patient
+A14	Experiencer T49 Patient
+A15	Experiencer T36 Patient
+A16	Experiencer T37 Patient
+A17	Experiencer T38 Patient
+A18	Experiencer T50 Patient
+A19	Experiencer T41 Patient
+A20	Experiencer T42 Patient
+A21	Experiencer T43 Patient
+A22	Experiencer T45 Other
+A23	Experiencer T46 Patient
+A24	Experiencer T47 Patient

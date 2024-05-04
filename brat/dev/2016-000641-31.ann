@@ -1,0 +1,111 @@
+T1	DISO 95 111	colitis ulcerosa
+#1	AnnotatorNotes T1	C0009324; Ulcerative Colitis; Disease or Syndrome
+T2	PROC 159 217	Estudio multicéntrico, doble ciego, controlado con placebo
+T3	CHEM 258 265	ABT 494
+#2	AnnotatorNotes T3	C4308782; ABT-494; Organic Chemical · Pharmacologic Substance
+T4	PROC 223 254	evaluar la seguridad y eficacia
+T5	PROC 274 314	tratamiento de inducción y mantenimiento
+#3	AnnotatorNotes T5	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure + C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T6	DISO 332 348	Colitis Ulcerosa
+#4	AnnotatorNotes T6	C0009324; Ulcerative Colitis; Disease or Syndrome
+T7	DISO 392 408	Colitis Ulcerosa
+#5	AnnotatorNotes T7	C0009324; Ulcerative Colitis; Disease or Syndrome
+T8	PROC 495 509	Diagnosticados
+#6	AnnotatorNotes T8	C0011900; Diagnosis; Diagnostic Procedure
+T9	DISO 514 530	colitis ulcerosa
+#7	AnnotatorNotes T9	C0009324; Ulcerative Colitis; Disease or Syndrome
+T10	PROC 592 604	colonoscopia
+#8	AnnotatorNotes T10	C0009378; colonoscopy; Diagnostic Procedure
+T11	DISO 609 625	Colitis ulcerosa
+#9	AnnotatorNotes T11	C0009324; Ulcerative Colitis; Disease or Syndrome
+T12	DISO 711 723	intolerancia
+#10	AnnotatorNotes T12	C0277585; Intolerance to drug; Pathologic Function
+T13	CHEM 748 764	corticosteroides
+#11	AnnotatorNotes T13	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T14	PROC 767 786	terapias biológicas
+#12	AnnotatorNotes T14	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure
+T15	PROC 813 829	test de embarazo
+#13	AnnotatorNotes T15	C0032976; Pregnancy Tests; Diagnostic Procedure
+T16	CHEM 730 746	inmunodepresivos
+#14	AnnotatorNotes T16	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T17	CHEM 70 77	ABT-494
+#15	AnnotatorNotes T17	C4308782; ABT-494; Organic Chemical · Pharmacologic Substance
+T18	Date 13 17	2016
+T19	LIVB 81 90	pacientes
+#16	AnnotatorNotes T19	C0030705; Patients; Patient or Disabled Group
+T20	LIVB 318 327	pacientes
+#17	AnnotatorNotes T20	C0030705; Patients; Patient or Disabled Group
+T21	LIVB 438 444	Hombre
+#18	AnnotatorNotes T21	C0025266; Male population group; Population Group
+T22	LIVB 447 452	mujer
+#19	AnnotatorNotes T22	C0043210; Woman; Population Group
+T23	Age 453 471	entre 18 y 75 años
+T24	Date 537 549	hace 90 días
+T25	Neg_cue 801 809	negativo
+T26	LIVB 835 866	mujeres potencialmente fértiles
+#20	AnnotatorNotes T26	C4324275; Woman of childbearing potential; Population Group
+T29	PHYS 821 829	embarazo
+#21	AnnotatorNotes T29	C0032961; Pregnancy; Organism Function
+A1	Assertion T29 Negated
+A3	Status T12 History_of
+#22	AnnotatorNotes T2	C1096776; Multicenter Study; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#23	AnnotatorNotes T4	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T27	Spec_cue 843 857	potencialmente
+T28	Quantifier_or_Qualifier 858 866	fértiles
+A4	Assertion T28 Speculated
+R1	Speculation Arg1:T27 Arg2:T28	
+R2	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T28	
+R3	Negation Arg1:T25 Arg2:T29	
+R4	Experiences Arg1:T26 Arg2:T15	
+R5	Causes Arg1:T16 Arg2:T12	
+R6	Causes Arg1:T13 Arg2:T12	
+R7	Causes Arg1:T14 Arg2:T12	
+T30	Quantifier_or_Qualifier 633 650	severa / moderada
+#24	AnnotatorNotes T30	C1299393; Moderate to severe; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T30	
+T31	Quantifier_or_Qualifier 119 136	severa / moderada
+#25	AnnotatorNotes T31	C1299393; Moderate to severe; Qualitative Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T31	
+T32	Quantifier_or_Qualifier 352 368	Moderada a Grave
+#26	AnnotatorNotes T32	C1299393; Moderate to severe; Qualitative Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T32	
+R11	Experiences Arg1:T19 Arg2:T17	
+R12	Experiences Arg1:T19 Arg2:T1	
+T33	Quantifier_or_Qualifier 112 118	activa
+#27	AnnotatorNotes T33	C0679217; Active State; Idea or Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T33	
+T34	Quantifier_or_Qualifier 626 632	activa
+#28	AnnotatorNotes T34	C0679217; Active State; Idea or Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T34	
+T35	Observation 654 674	Respuesta inadecuada
+#29	AnnotatorNotes T35	C1320680; Poor response to treatment; Finding
+R15	Overlap Arg1:T35 Arg2:T16	
+R16	Overlap Arg1:T35 Arg2:T13	
+R17	Overlap Arg1:T35 Arg2:T14	
+T36	Observation 687 707	pérdida de respuesta
+#30	AnnotatorNotes T36	C5400193; Loss of therapeutic response; Finding
+R18	Overlap Arg1:T36 Arg2:T16	
+R19	Overlap Arg1:T36 Arg2:T13	
+R20	Overlap Arg1:T36 Arg2:T14	
+R21	Used_for Arg1:T3 Arg2:T5	
+R22	Experiences Arg1:T20 Arg2:T3	
+R23	Experiences Arg1:T20 Arg2:T6	
+R24	Has_Age Arg1:T21 Arg2:T23	
+R25	Has_Age Arg1:T22 Arg2:T23	
+T37	CONC 478 491	momento basal
+#31	AnnotatorNotes T37	C1442488; Baseline; Quantitative Concept
+R26	Overlap Arg1:T23 Arg2:T37	
+R27	Before Arg1:T9 Arg2:T24	
+T38	CONC 562 575	momento basal
+#32	AnnotatorNotes T38	C1442488; Baseline; Quantitative Concept
+R28	Before Arg1:T9 Arg2:T38	
+R29	Overlap Arg1:T8 Arg2:T38	
+R30	Overlap Arg1:T8 Arg2:T24	
+R32	Before Arg1:T10 Arg2:T8	
+A2	Experiencer T26 Patient
+A5	Experiencer T19 Patient
+A6	Experiencer T20 Patient
+A7	Experiencer T21 Patient
+A8	Experiencer T22 Patient
+T39	Result_or_Value 791 809	Resultado negativo
+R31	Has_Result_or_Value Arg1:T15 Arg2:T39	

@@ -1,0 +1,273 @@
+T1	PROC 60 86	Administración Intravenosa
+#1	AnnotatorNotes T1	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure
+T2	CHEM 90 116	Acetilsalicilato de Lisina
+T3	DISO 740 774	bloqueo completo de rama izquierda
+#2	AnnotatorNotes T3	C0264915; Left main stem bundle branch block; Disease or Syndrome
+T4	CHEM 124 132	Aspirina
+#3	AnnotatorNotes T4	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T5	ANAT 157 168	Plaquetaria
+#4	AnnotatorNotes T5	C0005821; Blood Platelets; Cell
+T6	DISO 189 245	Infarto Agudo de Miocardio con Elevación del Segmento ST
+#5	AnnotatorNotes T6	C1303258; Acute ST segment elevation myocardial infarction (disorder); Disease or Syndrome
+T7	PROC 250 273	estudio farmacodinámico
+T8	DISO 322 348	Infarto Agudo de Miocardio
+#6	AnnotatorNotes T8	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
+T9	DISO 409 465	infarto agudo de miocardio con elevación del segmento ST
+#7	AnnotatorNotes T9	C1303258; Acute ST segment elevation myocardial infarction (disorder); Disease or Syndrome
+T10	DISO 496 510	dolor torácico
+#8	AnnotatorNotes T10	C0008031; Chest Pain; Sign or Symptom
+T11	DISO 513 521	síntomas
+#9	AnnotatorNotes T11	C1457887; Symptoms; Sign or Symptom
+T12	DISO 546 558	alteraciones
+#10	AnnotatorNotes T12	C0221423; Illness (finding); Sign or Symptom
+T13	PROC 579 582	ECG
+#11	AnnotatorNotes T13	C1623258; Electrocardiography; Diagnostic Procedure
+T14	ANAT 666 676	precordial
+#12	AnnotatorNotes T14	C0230134; Structure of precordium; Body Location or Region | C1281030; Entire precordium; Body Location or Region
+T15	DISO 861 868	Alergia
+#13	AnnotatorNotes T15	C1527304; Allergic Reaction; Pathologic Function
+T16	CHEM 871 879	aspirina
+#14	AnnotatorNotes T16	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T17	CHEM 881 907	acetilsalicilato de lisina
+T18	CHEM 909 920	clopidogrel
+#15	AnnotatorNotes T18	C0070166; clopidogrel; Organic Chemical · Pharmacologic Substance
+T19	CHEM 922 931	prasugrel
+#16	AnnotatorNotes T19	C1620287; prasugrel; Organic Chemical · Pharmacologic Substance
+T20	CHEM 934 944	ticagrelor
+#17	AnnotatorNotes T20	C1999375; ticagrelor; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T21	DISO 948 969	Discrasias sanguíneas
+#18	AnnotatorNotes T21	C0018939; Hematological Disease; Disease or Syndrome
+T22	PROC 808 832	consentimiento informado
+#19	AnnotatorNotes T22	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T23	DISO 996 1011	trombocitopenia
+#20	AnnotatorNotes T23	C0040034; Thrombocytopenia; Disease or Syndrome
+T24	PROC 1015 1042	Tratamiento antiplaquetario
+T25	CHEM 1027 1042	antiplaquetario
+#21	AnnotatorNotes T25	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T26	CHEM 1076 1084	aspirina
+#22	AnnotatorNotes T26	C0004057; aspirin; Organic Chemical · Pharmacologic Substance
+T27	CHEM 1086 1112	acetilsalicilato de lisina
+T28	CHEM 1114 1125	clopidogrel
+#23	AnnotatorNotes T28	C0070166; clopidogrel; Organic Chemical · Pharmacologic Substance
+T29	CHEM 1127 1136	prasugrel
+#24	AnnotatorNotes T29	C1620287; prasugrel; Organic Chemical · Pharmacologic Substance
+T30	CHEM 1138 1148	ticagrelor
+#25	AnnotatorNotes T30	C1999375; ticagrelor; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T31	CHEM 1150 1160	cilostazol
+#26	AnnotatorNotes T31	C0055729; cilostazol; Organic Chemical · Pharmacologic Substance
+T32	CHEM 1162 1173	dipiridamol
+#27	AnnotatorNotes T32	C0012582; dipyridamole; Organic Chemical · Pharmacologic Substance
+T33	CHEM 1175 1186	ticlopidina
+#28	AnnotatorNotes T33	C0040207; ticlopidine; Organic Chemical · Pharmacologic Substance
+T34	CHEM 1189 1229	inhibidores de la glicoproteína IIb/IIIa
+T35	PROC 1233 1252	Tratamiento crónico
+#29	AnnotatorNotes T35	C0023977; Long-term care; Health Care Activity (?)
+T36	CHEM 1257 1272	anticoagulantes
+#30	AnnotatorNotes T36	C0003280; Anticoagulants; Pharmacologic Substance
+T37	DISO 1283 1293	Hemorragia
+#31	AnnotatorNotes T37	C0019080; Hemorrhage; Pathologic Function
+T38	PROC 1500 1525	fórmula de Cockroft-Gault
+#32	AnnotatorNotes T38	C4064204; renal creatinine clearance predicted by Cockroft-Gault formula; Laboratory Procedure
+T39	DISO 1325 1330	ictus
+#33	AnnotatorNotes T39	C0038454; Cerebrovascular accident; Disease or Syndrome
+T40	DISO 1332 1363	accidente isquémico transitorio
+#34	AnnotatorNotes T40	C0007787; Transient Ischemic Attack; Disease or Syndrome
+T41	DISO 1366 1389	hemorragia intracraneal
+#35	AnnotatorNotes T41	C0151699; Intracranial Hemorrhage; Pathologic Function
+T42	DISO 1437 1456	Insuficiencia renal
+#36	AnnotatorNotes T42	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T43	PROC 1479 1498	filtrado glomerular
+#37	AnnotatorNotes T43	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+T44	PROC 1554 1567	transaminasas
+#38	AnnotatorNotes T44	C0919834; Transaminase Assay; Laboratory Procedure
+T45	DISO 1600 1609	Neoplasia
+#39	AnnotatorNotes T45	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T46	DISO 1645 1677	Enfermedad terminal concomitante
+T47	PROC 1699 1713	ensayo clínico
+#40	AnnotatorNotes T47	C0008976; Clinical Trials; Research Activity
+T48	ANAT 206 215	Miocardio
+#41	AnnotatorNotes T48	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T49	ANAT 339 348	Miocardio
+#42	AnnotatorNotes T49	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T50	ANAT 426 435	miocardio
+#43	AnnotatorNotes T50	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T51	ANAT 502 510	torácico
+#44	AnnotatorNotes T51	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T52	ANAT 959 969	sanguíneas
+#45	AnnotatorNotes T52	C0005767; Blood; Body Substance
+T53	ANAT 1377 1389	intracraneal
+#46	AnnotatorNotes T53	C0524466; Intracranial; Body Location or Region
+T54	ANAT 1451 1456	renal
+#47	AnnotatorNotes T54	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T55	Date 13 17	2016
+T56	Route 75 86	Intravenosa
+#48	AnnotatorNotes T56	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T57	Route 133 137	Oral
+#49	AnnotatorNotes T57	C1527415; Oral Route of Drug administration; Functional Concept
+T58	LIVB 172 181	Pacientes
+#50	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	Age 382 390	≥18 años
+T60	LIVB 393 401	Paciente
+#51	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	Date 1043 1051	reciente
+T62	Duration 1053 1062	< 14 días
+T63	Duration 1245 1252	crónico
+#52	AnnotatorNotes T63	C0205191; chronic; Temporal Concept
+T64	Route 1273 1279	orales
+#53	AnnotatorNotes T64	C1527415; Oral Route of Drug administration; Functional Concept
+T65	Date 1313 1321	reciente
+T66	Duration 1352 1363	transitorio
+#54	AnnotatorNotes T66	C0205374; Transitory; Temporal Concept
+T67	Duration 1391 1400	< 6 meses
+T69	PHYS 1620 1629	Gestación
+#55	AnnotatorNotes T69	C0032961; Pregnancy; Organism Function
+T70	PHYS 1632 1641	lactancia
+#56	AnnotatorNotes T70	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T72	PHYS 147 168	Respuesta Plaquetaria
+#57	AnnotatorNotes T72	C1254881; Platelet function; Cell Function
+T68	ANAT 760 774	rama izquierda
+#58	AnnotatorNotes T68	C0459156; Left bundle branch structure; Body Part, Organ, or Organ Component
+T71	DISO 1541 1567	Elevación de transaminasas
+#59	AnnotatorNotes T71	C5384817; Elevation of levels of liver transaminase levels; Finding
+T73	PHYS 258 273	farmacodinámico
+#60	AnnotatorNotes T73	C0851347; Pharmacodynamics; Biologic Function
+T74	ANAT 1488 1498	glomerular
+#61	AnnotatorNotes T74	C0022663; Kidney Glomerulus; Body Part, Organ, or Organ Component | C1284485; Entire glomerulus; Body Part, Organ, or Organ Component
+A1	Status T15 History_of
+A2	Status T23 History_of
+A3	Status T39 History_of
+A4	Status T40 History_of
+A5	Status T41 History_of
+#62	AnnotatorNotes T7	C1709518; Pharmacodynamic Study; Research Activity
+#63	AnnotatorNotes T46	C0679247; Terminal illness; Disease or Syndrome + C0243087; concomitant disease; Pathologic Function
+#64	AnnotatorNotes T61	C0332185; Recent; Temporal Concept
+#65	AnnotatorNotes T65	C0332185; Recent; Temporal Concept
+R1	Used_for Arg1:T2 Arg2:T1	
+R2	Has_Route_or_Mode Arg1:T4 Arg2:T57	
+R4	Has_Route_or_Mode Arg1:T2 Arg2:T56	
+T75	Observation 46 53	Efectos
+#66	AnnotatorNotes T75	C1518681; Outcome of Therapy; Finding (?)
+R5	Causes Arg1:T1 Arg2:T75	
+R6	Causes Arg1:T4 Arg2:T75	
+R7	Experiences Arg1:T58 Arg2:T72	
+R8	Experiences Arg1:T58 Arg2:T4	
+R9	Experiences Arg1:T58 Arg2:T1	
+R10	Experiences Arg1:T58 Arg2:T75	
+#67	AnnotatorNotes T2	C0101202; acetylsalicylic acid lysinate; Organic Chemical · Pharmacologic Substance
+R3	Location_of Arg1:T48 Arg2:T6	
+R11	Experiences Arg1:T58 Arg2:T6	
+R12	Experiences Arg1:T58 Arg2:T73	
+T76	Observation 220 246	Elevación del Segmento ST:
+#68	AnnotatorNotes T76	C0520886; ST segment elevation (finding); Finding
+T77	Observation 440 465	elevación del segmento ST
+#69	AnnotatorNotes T77	C0520886; ST segment elevation (finding); Finding
+T78	Observation 584 621	elevación persistente del segmento ST
+#70	AnnotatorNotes T78	C0520886; ST segment elevation (finding); Finding
+T79	Result_or_Value 622 646	≥1mm en el plano frontal
+R13	Has_Result_or_Value Arg1:T78 Arg2:T79	
+T80	Result_or_Value 649 676	≥2mm en el plano precordial
+R14	Has_Result_or_Value Arg1:T78 Arg2:T80	
+R15	Location_of Arg1:T49 Arg2:T8	
+R16	Location_of Arg1:T50 Arg2:T9	
+R17	Experiences Arg1:T60 Arg2:T9	
+R18	Experiences Arg1:T58 Arg2:T76	
+R19	Experiences Arg1:T60 Arg2:T77	
+R20	Location_of Arg1:T51 Arg2:T10	
+R21	Overlap Arg1:T11 Arg2:T12	
+R22	Overlap Arg1:T10 Arg2:T12	
+T81	Observation 546 582	alteraciones características del ECG
+#71	AnnotatorNotes T81	C0236140; ECG abnormalities non-specific; Finding | C0522055; Electrocardiogram abnormal (finding); Finding
+R23	Overlap Arg1:T11 Arg2:T81	
+R24	Overlap Arg1:T10 Arg2:T81	
+R25	Overlap Arg1:T10 Arg2:T78	
+R26	Overlap Arg1:T11 Arg2:T78	
+R27	Location_of Arg1:T68 Arg2:T3	
+T82	Quantifier_or_Qualifier 778 793	nueva aparición
+#72	AnnotatorNotes T82	C0746890; new onset; Finding (?)
+R28	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T82	
+R29	Overlap Arg1:T10 Arg2:T3	
+R30	Overlap Arg1:T11 Arg2:T3	
+R31	Experiences Arg1:T60 Arg2:T10	
+R32	Experiences Arg1:T60 Arg2:T11	
+R33	Experiences Arg1:T60 Arg2:T12	
+R34	Experiences Arg1:T60 Arg2:T81	
+R35	Experiences Arg1:T60 Arg2:T13	
+R36	Experiences Arg1:T60 Arg2:T78	
+R37	Experiences Arg1:T60 Arg2:T3	
+R38	Causes Arg1:T16 Arg2:T15	
+R39	Causes Arg1:T17 Arg2:T15	
+R40	Causes Arg1:T18 Arg2:T15	
+R41	Causes Arg1:T19 Arg2:T15	
+R42	Causes Arg1:T20 Arg2:T15	
+#73	AnnotatorNotes T17	C0101202; acetylsalicylic acid lysinate; Organic Chemical · Pharmacologic Substance
+#74	AnnotatorNotes T27	C0101202; acetylsalicylic acid lysinate; Organic Chemical · Pharmacologic Substance
+R43	Location_of Arg1:T52 Arg2:T21	
+R44	Location_of Arg1:T52 Arg2:T23	
+R45	Used_for Arg1:T25 Arg2:T24	
+R46	Overlap Arg1:T25 Arg2:T61	
+R47	Has_Duration_or_Interval Arg1:T25 Arg2:T62	
+R48	Used_for Arg1:T26 Arg2:T24	
+R49	Used_for Arg1:T27 Arg2:T24	
+R50	Used_for Arg1:T28 Arg2:T24	
+R51	Used_for Arg1:T29 Arg2:T24	
+R52	Used_for Arg1:T30 Arg2:T24	
+R53	Used_for Arg1:T31 Arg2:T24	
+R54	Used_for Arg1:T32 Arg2:T24	
+R55	Used_for Arg1:T33 Arg2:T24	
+R56	Used_for Arg1:T34 Arg2:T24	
+R57	Overlap Arg1:T26 Arg2:T61	
+R58	Overlap Arg1:T27 Arg2:T61	
+R59	Overlap Arg1:T28 Arg2:T61	
+R60	Overlap Arg1:T29 Arg2:T61	
+R61	Overlap Arg1:T30 Arg2:T61	
+R62	Overlap Arg1:T31 Arg2:T61	
+R63	Overlap Arg1:T32 Arg2:T61	
+R64	Overlap Arg1:T33 Arg2:T61	
+R65	Overlap Arg1:T34 Arg2:T61	
+R66	Has_Duration_or_Interval Arg1:T26 Arg2:T62	
+R67	Has_Duration_or_Interval Arg1:T27 Arg2:T62	
+R68	Has_Duration_or_Interval Arg1:T28 Arg2:T62	
+R69	Has_Duration_or_Interval Arg1:T29 Arg2:T62	
+R70	Has_Duration_or_Interval Arg1:T30 Arg2:T62	
+R71	Has_Duration_or_Interval Arg1:T31 Arg2:T62	
+R72	Has_Duration_or_Interval Arg1:T32 Arg2:T62	
+R73	Has_Duration_or_Interval Arg1:T33 Arg2:T62	
+R74	Has_Duration_or_Interval Arg1:T34 Arg2:T62	
+R75	Used_for Arg1:T36 Arg2:T35	
+R76	Has_Duration_or_Interval Arg1:T36 Arg2:T63	
+R77	Has_Route_or_Mode Arg1:T36 Arg2:T64	
+R78	Overlap Arg1:T39 Arg2:T65	
+R79	Has_Duration_or_Interval Arg1:T40 Arg2:T66	
+R80	Overlap Arg1:T40 Arg2:T65	
+R81	Location_of Arg1:T53 Arg2:T41	
+R82	Overlap Arg1:T41 Arg2:T65	
+R83	Overlap Arg1:T41 Arg2:T67	
+T83	CONC 1423 1432	inclusión
+#75	AnnotatorNotes T83	C1512693; Inclusion; Qualitative Concept
+R84	Before Arg1:T41 Arg2:T83	
+R85	Overlap Arg1:T40 Arg2:T67	
+R86	Before Arg1:T40 Arg2:T83	
+R87	Before Arg1:T39 Arg2:T83	
+R88	Overlap Arg1:T39 Arg2:T67	
+R89	Location_of Arg1:T54 Arg2:T42	
+T84	Quantifier_or_Qualifier 1294 1300	activa
+#76	AnnotatorNotes T84	C0679217; Active State; Idea or Concept
+R90	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T84	
+T85	Quantifier_or_Qualifier 1610 1616	activa
+#77	AnnotatorNotes T85	C0679217; Active State; Idea or Concept
+R91	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T85	
+T86	Result_or_Value 1568 1596	> 2,5 veces el límite normal
+R93	Has_Result_or_Value Arg1:T71 Arg2:T86	
+T87	Observation 1681 1713	Inclusión en otro ensayo clínico
+R94	Location_of Arg1:T74 Arg2:T43	
+T88	Result_or_Value 1527 1537	< 30mL/min
+R96	Has_Result_or_Value Arg1:T43 Arg2:T88	
+T89	Quantifier_or_Qualifier 1457 1463	severa
+#78	AnnotatorNotes T89	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R97	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T89	
+R98	Causes Arg1:T9 Arg2:T10	
+R99	Causes Arg1:T9 Arg2:T11	
+#79	AnnotatorNotes T24	C1096021; Antiplatelet therapy; Therapeutic or Preventive Procedure
+#80	AnnotatorNotes T34	C3640054; Glycoprotein IIb/IIIa Antagonist; Chemical Viewed Functionally
+A6	Experiencer T58 Patient
+A7	Experiencer T60 Patient

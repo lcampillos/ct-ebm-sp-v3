@@ -1,0 +1,122 @@
+T1	DISO 18 37	aberración esférica
+#1	AnnotatorNotes T1	C0234705; Spherical aberration of vision; Sign or Symptom
+T2	PROC 64 83	cirugía de catarata
+#2	AnnotatorNotes T2	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T3	PROC 85 113	ensayo prospectivo aleatorio
+#3	AnnotatorNotes T3	C0033522; Prospective Studies; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T4	PROC 542 556	agudeza visual
+#4	AnnotatorNotes T4	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T5	PROC 168 193	implantación de una lente
+#5	AnnotatorNotes T5	C0023311; intraocular lens implantation procedure; Therapeutic or Preventive Procedure
+T6	CHEM 269 277	acrílica
+#6	AnnotatorNotes T6	C0101303; acrylate; Organic Chemical · Biomedical or Dental Material
+T7	PROC 423 436	aleatorizados
+#7	AnnotatorNotes T7	C0034656; Randomization; Research Activity
+T8	PROC 383 402	estudio prospectivo
+#8	AnnotatorNotes T8	C0033522; Prospective Studies; Research Activity
+T9	ANAT 461 465	ojos
+#9	AnnotatorNotes T9	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T10	PROC 559 584	sensibilidad al contraste
+#10	AnnotatorNotes T10	C0846621; Contrast sensitivity test; Diagnostic Procedure
+T11	PROC 649 656	cirugía
+#11	AnnotatorNotes T11	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T12	PROC 706 720	agudeza visual
+#12	AnnotatorNotes T12	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T13	PROC 1196 1215	cirugía de catarata
+#13	AnnotatorNotes T13	C2939459; Cataract surgery; Therapeutic or Preventive Procedure
+T14	PROC 1139 1153	agudeza visual
+#14	AnnotatorNotes T14	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T15	DISO 75 83	catarata
+#15	AnnotatorNotes T15	C0086543; Cataract; Anatomical Abnormality
+T16	PROC 1156 1181	sensibilidad al contraste
+#16	AnnotatorNotes T16	C0846621; Contrast sensitivity test; Diagnostic Procedure
+T17	PROC 929 960	sensibilidad media al contraste
+#17	AnnotatorNotes T17	C0846621; Contrast sensitivity test; Diagnostic Procedure
+T18	DISO 1207 1215	catarata
+#18	AnnotatorNotes T18	C0086543; Cataract; Anatomical Abnormality
+T19	PROC 1258 1272	agudeza visual
+#19	AnnotatorNotes T19	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T20	PROC 1357 1382	sensibilidad al contraste
+#20	AnnotatorNotes T20	C0846621; Contrast sensitivity test; Diagnostic Procedure
+T21	PROC 321 335	agudeza visual
+#21	AnnotatorNotes T21	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T22	PROC 338 363	sensibilidad al contraste
+#22	AnnotatorNotes T22	C0846621; Contrast sensitivity test; Diagnostic Procedure
+T23	DEVI 188 193	lente
+#23	AnnotatorNotes T23	C0015421; Eyeglasses; Medical Device
+T24	DEVI 254 277	lente plegable acrílica
+#24	AnnotatorNotes T24	C0730377; Acrylic contact lens; Medical Device (?)
+T27	LIVB 406 415	pacientes
+#25	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	DEVI 483 500	lente intraocular
+#26	AnnotatorNotes T28	C0023319; Intraocular lens implant device; Medical Device
+T31	Duration 661 675	los tres meses
+T33	PROC 862 864	AV
+#27	AnnotatorNotes T33	C0200150; Visual acuity testing; Diagnostic Procedure | C0846620; Measurement of visual acuity; Diagnostic Procedure
+T38	DEVI 1224 1232	implante
+#28	AnnotatorNotes T38	C0021102; Implants; Medical Device
+T43	PHYS 44 58	función visual
+#29	AnnotatorNotes T43	C0042789; Vision; Organism Function
+R1	After Arg1:T1 Arg2:T2	
+R2	Before Arg1:T15 Arg2:T2	
+R3	Used_for Arg1:T23 Arg2:T5	
+T25	Quantifier_or_Qualifier 205 223	prolata modificada
+R4	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T25	
+R5	Used_for Arg1:T24 Arg2:T5	
+R6	Before Arg1:T5 Arg2:T21	
+R7	Before Arg1:T5 Arg2:T22	
+T26	PROC 442 449;483 500	recibir lente intraocular
+#30	AnnotatorNotes T26	C0023311; intraocular lens implantation procedure; Therapeutic or Preventive Procedure
+R8	Used_for Arg1:T28 Arg2:T26	
+R9	Location_of Arg1:T9 Arg2:T26	
+R10	Experiences Arg1:T27 Arg2:T26	
+R11	Before Arg1:T7 Arg2:T26	
+T29	Quantifier_or_Qualifier 595 604	monocular
+R12	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T29	
+R13	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T29	
+R14	Before Arg1:T10 Arg2:T11	
+R15	After Arg1:T10 Arg2:T31	
+R16	Before Arg1:T4 Arg2:T11	
+R17	After Arg1:T4 Arg2:T31	
+T30	Quantifier_or_Qualifier 721 730	monocular
+R18	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T30	
+T32	Quantifier_or_Qualifier 1008 1017	monocular
+T34	Quantifier_or_Qualifier 1023 1037	binocularmente
+T35	Quantifier_or_Qualifier 607 621	binocularmente
+R19	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T35	
+R20	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T35	
+R21	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T32	
+R22	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T34	
+T36	Neg_cue 1043 1045	no
+T37	CONC 1054 1079	significación estadística
+A1	Assertion T37 Negated
+#31	AnnotatorNotes T37	C0237881; Statistical Significance; Quantitative Concept
+R23	Negation Arg1:T36 Arg2:T37	
+R24	Before Arg1:T18 Arg2:T13	
+R25	After Arg1:T16 Arg2:T13	
+R26	After Arg1:T14 Arg2:T13	
+R27	Used_for Arg1:T38 Arg2:T13	
+R28	Before Arg1:T13 Arg2:T19	
+T39	Quantifier_or_Qualifier 1304 1313	monocular
+T40	Neg_cue 1436 1438	no
+T41	Quantifier_or_Qualifier 1442 1472	estadísticamente significativa
+A2	Assertion T41 Negated
+#32	AnnotatorNotes T41	C0237881; Statistical Significance; Quantitative Concept
+R31	Negation Arg1:T40 Arg2:T41	
+T42	CONC 1425 1435	diferencia
+#33	AnnotatorNotes T42	C1705241; Delta (difference); Quantitative Concept
+T44	Quantifier_or_Qualifier 1319 1333	binocularmente
+R32	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T44	
+R33	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T39	
+R34	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T39	
+R35	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T44	
+R36	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T39	
+R37	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T44	
+R40	Before Arg1:T19 Arg2:T13	
+T45	Observation 1125 1132	mejoría
+#34	AnnotatorNotes T45	C0184511; Improved; Finding (?)
+R41	After Arg1:T45 Arg2:T13	
+T46	PHYS 820 833	binocularidad
+#35	AnnotatorNotes T46	C0042794; Vision, Binocular; Mental Process
+R42	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T41	
+A3	Experiencer T27 Patient

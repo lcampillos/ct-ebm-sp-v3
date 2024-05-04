@@ -1,0 +1,113 @@
+T1	DISO 39 63	estomatitis subprótesica
+#1	AnnotatorNotes T1	C0038364; Stomatitis, Denture; Disease or Syndrome
+T2	PROC 87 124	ensayo clínico terapéutico (fase III)
+#2	AnnotatorNotes T2	C0282461; Phase 3 Clinical Trials; Research Activity
+T3	PROC 131 139	consulta
+#3	AnnotatorNotes T3	C0009818; Consultation; Health Care Activity
+T4	PROC 240 261	evaluar la eficiencia
+T5	PROC 268 292	terapia antiinflamatoria
+T6	ANAT 326 332	mucosa
+#4	AnnotatorNotes T6	C0026724; Mucous Membrane; Tissue | C1284117; Entire mucous membrane; Tissue
+T7	DISO 346 369	estomatitis subprótesis
+#5	AnnotatorNotes T7	C0038364; Stomatitis, Denture; Disease or Syndrome
+T8	CHEM 414 423	acrílicas
+#6	AnnotatorNotes T8	C0101303; acrylate; Organic Chemical · Biomedical or Dental Material
+T9	PROC 571 599	Se dividieron aleatoriamente
+#7	AnnotatorNotes T9	C0034656; Randomization; Research Activity
+T10	DISO 954 973	reacciones adversas
+#8	AnnotatorNotes T10	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T11	DISO 1191 1197	lesión
+#9	AnnotatorNotes T11	C0221198; Lesion; Finding
+T12	DISO 1244 1272	manifestaciones astringentes
+T13	PROC 1306 1313	terapia
+#10	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	CHEM 14 32	extracto de Vimang
+#11	AnnotatorNotes T14	C1570123; Vimang; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T15	CHEM 276 292	antiinflamatoria
+#12	AnnotatorNotes T15	C0003209; Anti-Inflammatory Agents; Pharmacologic Substance
+T16	CHEM 297 315	extracto de Vimang
+#13	AnnotatorNotes T16	C1570123; Vimang; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T17	CHEM 759 789	extracto de infusión de Vimang
+T18	PROC 851 872	se retiró la prótesis
+T19	CHEM 1318 1324	Vimang
+#14	AnnotatorNotes T19	C1570123; Vimang; Organic Chemical · Pharmacologic Substance · Biologically Active Substance
+T21	DEVI 395 403	prótesis
+#15	AnnotatorNotes T21	C0175649; Prosthesis; Medical Device
+T22	LIVB 447 456	pacientes
+#16	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T23	Date 536 552	octubre del 2005
+T24	Date 555 569	marzo del 2006
+T25	LIVB 663 672	pacientes
+#17	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T27	PHYS 799 807	curación
+#18	AnnotatorNotes T27	C2004454; Recovery - healing process; Organism Function
+T29	DEVI 864 872	prótesis
+#19	AnnotatorNotes T29	C0175649; Prosthesis; Medical Device
+T30	Time 879 895	horario nocturno
+#20	AnnotatorNotes T30	C0240526; Night time; Temporal Concept
+T31	Duration 913 930	los 3, 5 y 7 días
+T33	PHYS 943 951	curación
+#21	AnnotatorNotes T33	C2004454; Recovery - healing process; Organism Function
+T35	PHYS 1176 1184	curación
+#22	AnnotatorNotes T35	C2004454; Recovery - healing process; Organism Function
+T36	Duration 1200 1210	los 5 días
+T37	LIVB 1232 1241	pacientes
+#23	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T39	Date 1379 1392	a largo plazo
+T20	LIVB 632 639	control
+#24	AnnotatorNotes T20	C0009932; Control Groups; Group
+T40	LIVB 617 624	estudio
+#25	AnnotatorNotes T40	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T26	Form 741 754	enjuagatorios
+#26	AnnotatorNotes T26	C0026647; Mouthwash; Biomedical or Dental Material
+T28	Quantifier_or_Qualifier 64 71	Grado I
+R1	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T28	
+R2	Used_for Arg1:T15 Arg2:T5	
+R3	Used_for Arg1:T16 Arg2:T5	
+R4	Location_of Arg1:T6 Arg2:T7	
+T32	Quantifier_or_Qualifier 370 377	grado I
+R5	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T32	
+R6	Used_for Arg1:T8 Arg2:T21	
+R7	Overlap Arg1:T7 Arg2:T21	
+T34	Observation 475 500	cumplieron los requisitos
+#27	AnnotatorNotes T34	C1302261; Patient eligible for clinical trial; Finding (?)
+T38	Observation 683 707	preocupaciones estéticas
+#28	AnnotatorNotes T38	C0424460; Concerned about appearance; Finding (?)
+R10	Has_Drug_Form Arg1:T17 Arg2:T26	
+R11	Before Arg1:T17 Arg2:T27	
+T41	Observation 829 849	regresión espontánea
+#29	AnnotatorNotes T41	C1710162; Spontaneous Regression; Finding
+R12	Before Arg1:T41 Arg2:T18	
+R13	Used_for Arg1:T29 Arg2:T18	
+R14	Overlap Arg1:T18 Arg2:T30	
+T42	PROC 898 910	Se evaluaron
+#30	AnnotatorNotes T42	C1261322; Evaluation procedure; Health Care Activity
+R15	Overlap Arg1:T42 Arg2:T31	
+R16	Overlap Arg1:T33 Arg2:T31	
+R19	Overlap Arg1:T10 Arg2:T31	
+T43	CONC 1099 1116	test Chi cuadrado
+#31	AnnotatorNotes T43	C0008041; Chi-Square Test; Intellectual Product
+R20	Overlap Arg1:T35 Arg2:T36	
+R21	Before Arg1:T11 Arg2:T35	
+R22	Experiences Arg1:T37 Arg2:T35	
+R23	Experiences Arg1:T37 Arg2:T12	
+R24	Experiences Arg1:T37 Arg2:T11	
+#32	AnnotatorNotes T12	C0569816; Astringent adverse reaction; Pathologic Function
+R25	Used_for Arg1:T19 Arg2:T13	
+T44	Form 1337 1345	infusión
+#33	AnnotatorNotes T44	C4724403; Herbal Tea Dosage Form; Biomedical or Dental Material
+R26	Has_Drug_Form Arg1:T19 Arg2:T44	
+T45	Form 771 779	infusión
+#34	AnnotatorNotes T45	C4724403; Herbal Tea Dosage Form; Biomedical or Dental Material
+R27	Has_Drug_Form Arg1:T17 Arg2:T45	
+R8	Overlap Arg1:T19 Arg2:T39	
+#35	AnnotatorNotes T28	C0444502; First degree; Qualitative Concept
+#36	AnnotatorNotes T32	C0444502; First degree; Qualitative Concept
+#37	AnnotatorNotes T39	C0443252; Long-term; Temporal Concept
+#38	AnnotatorNotes T18	C0178146; Removal of dental prosthesis; Therapeutic or Preventive Procedure
+#39	AnnotatorNotes T5	C1096024; Antiinflammatory therapy; Therapeutic or Preventive Procedure
+A1	Experiencer T22 Patient
+A2	Experiencer T40 Patient
+A3	Experiencer T20 Patient
+A4	Experiencer T25 Patient
+A5	Experiencer T37 Patient

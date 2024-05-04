@@ -1,0 +1,289 @@
+T1	DISO 67 87	inmunidad debilitada
+T2	DISO 90 113	infección por influenza
+T3	DISO 115 120	gripe
+#1	AnnotatorNotes T3	C0021400; Influenza; Disease or Syndrome
+T4	CHEM 144 166	medicamento en estudio
+#2	AnnotatorNotes T4	C0013230; Investigational New Drugs; Pharmacologic Substance
+T5	CHEM 168 175	Tamiflu
+#3	AnnotatorNotes T5	C0876173; Tamiflu; Organic Chemical · Pharmacologic Substance
+T6	DISO 213 222	influenza
+#4	AnnotatorNotes T6	C0021400; Influenza; Disease or Syndrome
+T7	DISO 224 229	gripe
+#5	AnnotatorNotes T7	C0021400; Influenza; Disease or Syndrome
+T8	PROC 253 324	ENSAYO ABIERTO, ALEATORIZADO, ADAPTATIVO, DE DOS GRUPOS Y MULTICÉNTRICO
+T9	PROC 330 377	EVALUAR LA FARMACOCINÉTICA Y LA FARMACODINÁMICA
+T10	DISO 458 477	INMUNOCOMPROMETIDOS
+T11	CHEM 394 405	OSELTAMIVIR
+#6	AnnotatorNotes T11	C0874161; oseltamivir; Organic Chemical · Pharmacologic Substance
+T12	CHEM 407 414	TAMIFLU
+#7	AnnotatorNotes T12	C0876173; Tamiflu; Organic Chemical · Pharmacologic Substance
+T13	PROC 423 434	TRATAMIENTO
+#8	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	DISO 441 446	GRIPE
+#9	AnnotatorNotes T14	C0021400; Influenza; Disease or Syndrome
+T15	DISO 524 542	INFECCIÓN DE GRIPE
+T16	DISO 1090 1093	ILI
+#10	AnnotatorNotes T16	C0521839; Influenza-like illness; Disease or Syndrome
+T17	DISO 605 625	inmunidad debilitada
+T18	DISO 628 666	infección por el virus de la influenza
+T19	DISO 668 673	gripe
+#11	AnnotatorNotes T19	C0021400; Influenza; Disease or Syndrome
+T20	PROC 701 712	Tratamiento
+#12	AnnotatorNotes T20	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T21	DISO 719 724	gripe
+#13	AnnotatorNotes T21	C0021400; Influenza; Disease or Syndrome
+T22	PROC 834 872	Test de diagnóstico rápido de la gripe
+T23	PROC 874 878	RIDT
+#14	AnnotatorNotes T23	C4324569; Rapid influenza diagnostic test; Laboratory Procedure
+T24	DISO 867 872	gripe
+#15	AnnotatorNotes T24	C0021400; Influenza; Disease or Syndrome
+T25	PROC 881 916	reacción en cadena de la polimerasa
+#16	AnnotatorNotes T25	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T26	DISO 968 987	Inmunocomprometidos
+T27	PROC 925 941	cultivo de virus
+#17	AnnotatorNotes T27	C0200955; Viral culture procedure; Laboratory Procedure
+T28	DISO 960 965	gripe
+#18	AnnotatorNotes T28	C0021400; Influenza; Disease or Syndrome
+T29	DISO 990 996	Signos
+#19	AnnotatorNotes T29	C0311392; Physical findings; Finding
+T30	DISO 997 1005	síntomas
+#20	AnnotatorNotes T30	C1457887; Symptoms; Sign or Symptom
+T31	DISO 1009 1032	enfermedad pseudogripal
+#21	AnnotatorNotes T31	C0521839; Influenza-like illness; Disease or Syndrome
+T32	CHEM 1117 1139	medicamento en estudio
+#22	AnnotatorNotes T32	C0013230; Investigational New Drugs; Pharmacologic Substance
+T33	DISO 1189 1211	insuficiencia hepática
+#23	AnnotatorNotes T33	C0085605; Liver Failure; Disease or Syndrome | C1306571; Hepatic Insufficiency; Pathologic Function
+T34	LIVB 1259 1269	prematuros
+#24	AnnotatorNotes T34	C4048294; Preterm Infant; Age Group
+T35	DISO 1340 1359	insuficiencia renal
+#25	AnnotatorNotes T35	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T36	DISO 1362 1369	Alergia
+#26	AnnotatorNotes T36	C1527304; Allergic Reaction; Pathologic Function
+T37	CHEM 1373 1384	oseltamivir
+#27	AnnotatorNotes T37	C0874161; oseltamivir; Organic Chemical · Pharmacologic Substance
+T38	CHEM 1393 1404	excipientes
+#28	AnnotatorNotes T38	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T39	DISO 1407 1445	Intolerancia a la fructosa hereditaria
+#29	AnnotatorNotes T39	C0016751; Hereditary fructose intolerance syndrome; Disease or Syndrome
+T40	CHEM 1546 1557	laninamivir
+#30	AnnotatorNotes T40	C2931958; laninamivir; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T41	PROC 1463 1484	tratamiento antiviral
+#31	AnnotatorNotes T41	C2363964; Antiviral treatment; Therapeutic or Preventive Procedure
+T42	DISO 1495 1500	gripe
+#32	AnnotatorNotes T42	C0021400; Influenza; Disease or Syndrome
+T43	CHEM 1508 1518	amantadina
+#33	AnnotatorNotes T43	C0002403; amantadine; Organic Chemical · Pharmacologic Substance
+T44	CHEM 1520 1531	rimantadina
+#34	AnnotatorNotes T44	C0035629; rimantadine; Organic Chemical · Pharmacologic Substance
+T45	CHEM 1533 1544	oseltamivir
+#35	AnnotatorNotes T45	C0874161; oseltamivir; Organic Chemical · Pharmacologic Substance
+T46	CHEM 1570 1579	zanamivir
+#36	AnnotatorNotes T46	C0216660; zanamivir; Organic Chemical · Pharmacologic Substance
+T47	CHEM 1582 1592	ribavirina
+#37	AnnotatorNotes T47	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T48	PROC 1596 1607	tratamiento
+#38	AnnotatorNotes T48	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T49	PROC 1649 1663	aleatorización
+#39	AnnotatorNotes T49	C0034656; Randomization; Research Activity
+T50	DISO 750 769	inmunocomprometidos
+T51	CHEM 906 916	polimerasa
+#40	AnnotatorNotes T51	C1335439; Polymerase; Amino Acid, Peptide, or Protein · Enzyme
+T52	PROC 918 921	PCR
+#41	AnnotatorNotes T52	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T53	ANAT 1203 1211	hepática
+#42	AnnotatorNotes T53	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T54	ANAT 1354 1359	renal
+#43	AnnotatorNotes T54	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T55	CHEM 1425 1433	fructosa
+#44	AnnotatorNotes T55	C0016745; fructose; Organic Chemical · Pharmacologic Substance
+T56	CHEM 1475 1484	antiviral
+#45	AnnotatorNotes T56	C0003451; Antiviral Agents; Pharmacologic Substance
+T57	CHEM 1612 1622	probenecid
+#46	AnnotatorNotes T57	C0033209; probenecid; Organic Chemical · Pharmacologic Substance
+T58	DISO 1034 1037	ILI
+#47	AnnotatorNotes T58	C0521839; Influenza-like illness; Disease or Syndrome
+T59	CHEM 1559 1568	peramivir
+#48	AnnotatorNotes T59	C1675326; peramivir; Organic Chemical · Pharmacologic Substance
+T60	Date 13 17	2012
+T61	LIVB 57 62	niños
+#49	AnnotatorNotes T61	C0008059; Child; Age Group
+T62	PHYS 67 76	inmunidad
+#50	AnnotatorNotes T62	C0020964; Immune response; Organ or Tissue Function | C0020965; Active immunity; Organ or Tissue Function
+T64	PHYS 341 356	FARMACOCINÉTICA
+#51	AnnotatorNotes T64	C0031327; Drug Kinetics; Physiologic Function
+T65	Dose 381 390	DOS DOSIS
+T66	LIVB 450 457	MENORES
+#52	AnnotatorNotes T66	C0026193; Minor (person); Population Group
+T68	Age 479 510	DE 2 SEMANAS A MENOS DE 13 AÑOS
+T69	LIVB 577 582	Niños
+#53	AnnotatorNotes T69	C0008059; Child; Age Group
+T70	LIVB 585 600	adultos jóvenes
+#54	AnnotatorNotes T70	C0238598; Young Adult; Age Group
+T72	PHYS 605 614	inmunidad
+#55	AnnotatorNotes T72	C0020964; Immune response; Organ or Tissue Function | C0020965; Active immunity; Organ or Tissue Function
+T73	LIVB 645 666	virus de la influenza
+#56	AnnotatorNotes T73	C0029341; Orthomyxoviridae; Virus
+T74	LIVB 728 749	pacientes pediátricos
+#57	AnnotatorNotes T74	C0030705; Patients; Patient or Disabled Group + C0008059; Child; Age Group
+T75	LIVB 798 821	Niños varones o hembras
+#58	AnnotatorNotes T75	C0008059; Child; Age Group + C0870221; Boys; Age Group + C0870604; Female child; Age Group
+T76	Age 823 831	<13 años
+T77	LIVB 936 941	virus
+#59	AnnotatorNotes T77	C0042776; Virus; Virus
+T78	Duration 1041 1068	Menos de o igual a 96 horas
+T79	CONC 1099 1112	primera dosis
+T80	LIVB 1220 1225	Niños
+#60	AnnotatorNotes T80	C0008059; Child; Age Group
+T81	Age 1226 1236	<2 semanas
+T82	PHYS 1289 1298	menstrual
+#61	AnnotatorNotes T82	C0025344; Menstruation; Organism Function
+T83	Age 1305 1316	<36 semanas
+T84	Duration 1626 1635	2 semanas
+T85	PHYS 194 206	recuperación
+#62	AnnotatorNotes T85	C2004454; Recovery - healing process; Organism Function
+T67	Date 1284 1298	post-menstrual
+T71	PHYS 362 377	FARMACODINÁMICA
+#63	AnnotatorNotes T71	C0851347; Pharmacodynamics; Biologic Function
+A1	Population_data T66 Age
+A2	Population_data T61 Age
+A3	Population_data T69 Age
+A4	Population_data T70 Age
+A5	Population_data T74 Age
+A6	Population_data T75 Age
+A7	Population_data T80 Age
+A8	Status T41 History_of
+A9	Status T56 History_of
+A10	Status T43 History_of
+A11	Status T44 History_of
+A12	Status T57 History_of
+A13	Status T48 History_of
+A14	Status T47 History_of
+A15	Status T46 History_of
+A16	Status T59 History_of
+A17	Status T40 History_of
+A18	Status T45 History_of
+A19	Population_data T34 Age
+A20	Status T36 History_of
+A21	Status T39 History_of
+R1	Experiences Arg1:T61 Arg2:T1	
+R2	Overlap Arg1:T1 Arg2:T2	
+R3	Experiences Arg1:T61 Arg2:T62	
+R4	Experiences Arg1:T61 Arg2:T2	
+R5	Experiences Arg1:T61 Arg2:T3	
+R6	Experiences Arg1:T61 Arg2:T4	
+R7	Experiences Arg1:T61 Arg2:T5	
+R8	Experiences Arg1:T61 Arg2:T85	
+R9	Experiences Arg1:T61 Arg2:T6	
+R10	Experiences Arg1:T61 Arg2:T7	
+R14	Before Arg1:T6 Arg2:T85	
+R15	Before Arg1:T7 Arg2:T85	
+R16	Before Arg1:T2 Arg2:T85	
+R17	Before Arg1:T3 Arg2:T85	
+#65	AnnotatorNotes T1	C0085393; Immunocompromised Host; Finding
+#66	AnnotatorNotes T10	C0085393; Immunocompromised Host; Finding
+R20	Has_Dose_or_Strength Arg1:T11 Arg2:T65	
+R21	Has_Dose_or_Strength Arg1:T12 Arg2:T65	
+R22	Used_for Arg1:T12 Arg2:T13	
+R23	Used_for Arg1:T11 Arg2:T13	
+R24	Experiences Arg1:T66 Arg2:T64	
+R25	Experiences Arg1:T66 Arg2:T71	
+R26	Experiences Arg1:T66 Arg2:T11	
+R27	Experiences Arg1:T66 Arg2:T12	
+R28	Experiences Arg1:T66 Arg2:T14	
+R29	Experiences Arg1:T66 Arg2:T10	
+R30	Experiences Arg1:T66 Arg2:T15	
+R31	Overlap Arg1:T10 Arg2:T15	
+R32	Overlap Arg1:T14 Arg2:T10	
+R33	Has_Age Arg1:T66 Arg2:T68	
+#67	AnnotatorNotes T17	C0085393; Immunocompromised Host; Finding
+#68	AnnotatorNotes T50	C0085393; Immunocompromised Host; Finding
+R34	Experiences Arg1:T69 Arg2:T17	
+R35	Experiences Arg1:T69 Arg2:T72	
+R36	Experiences Arg1:T69 Arg2:T18	
+R37	Experiences Arg1:T69 Arg2:T19	
+R38	Experiences Arg1:T70 Arg2:T17	
+R39	Experiences Arg1:T70 Arg2:T18	
+R40	Experiences Arg1:T70 Arg2:T19	
+R41	Causes Arg1:T73 Arg2:T18	
+R42	Causes Arg1:T73 Arg2:T19	
+R45	Overlap Arg1:T17 Arg2:T18	
+R46	Overlap Arg1:T17 Arg2:T19	
+R47	Overlap Arg1:T21 Arg2:T50	
+R48	Experiences Arg1:T74 Arg2:T20	
+R49	Experiences Arg1:T74 Arg2:T21	
+R50	Experiences Arg1:T74 Arg2:T50	
+R51	Has_Age Arg1:T75 Arg2:T76	
+R52	Causes Arg1:T31 Arg2:T30	
+R53	Causes Arg1:T31 Arg2:T29	
+R54	Causes Arg1:T58 Arg2:T30	
+R55	Causes Arg1:T58 Arg2:T29	
+R56	Before Arg1:T16 Arg2:T78	
+R57	Has_Dose_or_Strength Arg1:T32 Arg2:T79	
+R59	Before Arg1:T16 Arg2:T32	
+R60	After Arg1:T32 Arg2:T78	
+R58	Location_of Arg1:T53 Arg2:T33	
+T86	Quantifier_or_Qualifier 1212 1217	grave
+#69	AnnotatorNotes T86	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R61	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T86	
+T87	CONC 1168 1185	Evidencia clínica
+#70	AnnotatorNotes T87	C5554846; Clinical Evidence; Idea or Concept
+R62	Has_Age Arg1:T34 Arg2:T83	
+R63	Has_Age Arg1:T80 Arg2:T81	
+T88	CONC 1319 1336	Evidencia clínica
+#71	AnnotatorNotes T88	C5554846; Clinical Evidence; Idea or Concept
+R64	Location_of Arg1:T54 Arg2:T35	
+R65	Causes Arg1:T37 Arg2:T36	
+R66	Causes Arg1:T38 Arg2:T36	
+R67	Causes Arg1:T55 Arg2:T39	
+R68	Used_for Arg1:T56 Arg2:T41	
+R69	Used_for Arg1:T43 Arg2:T41	
+R70	Used_for Arg1:T44 Arg2:T41	
+R71	Used_for Arg1:T45 Arg2:T41	
+R72	Used_for Arg1:T40 Arg2:T41	
+R73	Used_for Arg1:T59 Arg2:T41	
+R74	Used_for Arg1:T46 Arg2:T41	
+R75	Used_for Arg1:T47 Arg2:T41	
+R76	Used_for Arg1:T57 Arg2:T48	
+R77	Before Arg1:T48 Arg2:T49	
+R78	Overlap Arg1:T57 Arg2:T84	
+R79	Before Arg1:T41 Arg2:T49	
+R80	Overlap Arg1:T56 Arg2:T84	
+R81	Overlap Arg1:T43 Arg2:T84	
+R82	Overlap Arg1:T44 Arg2:T84	
+R83	Overlap Arg1:T45 Arg2:T84	
+R84	Overlap Arg1:T40 Arg2:T84	
+R85	Overlap Arg1:T59 Arg2:T84	
+R86	Overlap Arg1:T46 Arg2:T84	
+R87	Overlap Arg1:T47 Arg2:T84	
+R90	Causes Arg1:T77 Arg2:T28	
+T89	Result_or_Value 942 951	positivos
+#72	AnnotatorNotes T89	C1446409; Positive; Finding
+R94	Has_Result_or_Value Arg1:T27 Arg2:T89	
+R95	Causes Arg1:T77 Arg2:T89	
+#73	AnnotatorNotes T26	C0085393; Immunocompromised Host; Finding
+R11	Overlap Arg1:T1 Arg2:T3	
+R12	Before Arg1:T1 Arg2:T85	
+R13	Overlap Arg1:T1 Arg2:T6	
+R18	Overlap Arg1:T1 Arg2:T7	
+#64	AnnotatorNotes T2	C0021400; Influenza; Disease or Syndrome
+#74	AnnotatorNotes T15	C0021400; Influenza; Disease or Syndrome
+R19	Has_Result_or_Value Arg1:T22 Arg2:T89	
+R43	Has_Result_or_Value Arg1:T25 Arg2:T89	
+R44	Has_Result_or_Value Arg1:T23 Arg2:T89	
+R88	Has_Result_or_Value Arg1:T52 Arg2:T89	
+R89	Causes Arg1:T77 Arg2:T24	
+#75	AnnotatorNotes T79	C5236155; Date of First Dose; Temporal Concept
+#76	AnnotatorNotes R57	(?)
+#77	AnnotatorNotes T9	C0201734; Pharmacokinetic study; Research Activity + C1709518; Pharmacodynamic Study; Research Activity
+#78	AnnotatorNotes T18	C0851891; Influenza viral infections; Disease or Syndrome
+#79	AnnotatorNotes T22	C4324569; Rapid influenza diagnostic test; Laboratory Procedure
+A22	Experiencer T61 Patient
+A23	Experiencer T66 Patient
+A24	Experiencer T69 Patient
+A25	Experiencer T70 Patient
+A26	Experiencer T74 Patient
+A27	Experiencer T75 Patient
+A28	Experiencer T80 Patient
+A29	Experiencer T34 Patient
+A30	Assertion T34 Hypothetical

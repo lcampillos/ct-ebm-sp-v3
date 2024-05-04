@@ -1,0 +1,253 @@
+T1	PROC 46 91	Estudio abierto, multicéntrico y aleatorizado
+T2	PROC 97 131	evaluar la eficacia y la seguridad
+#1	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T3	DISO 166 214	infección crónica por el virus de la hepatitis C
+#2	AnnotatorNotes T3	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome
+T4	CHEM 143 150	ABT-530
+#3	AnnotatorNotes T4	C4310001; ABT-530; Organic Chemical · Pharmacologic Substance
+T5	PROC 586 594	tratados
+#4	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	DISO 612 615	VHC
+#5	AnnotatorNotes T6	C0019196; Hepatitis C; Disease or Syndrome
+T7	DISO 527 540	infección VHC
+#6	AnnotatorNotes T7	C0019196; Hepatitis C; Disease or Syndrome
+T8	DISO 548 569	Infección VHC crónica
+T9	PROC 620 631	tratamiento
+#7	AnnotatorNotes T9	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T10	CHEM 782 792	excipiente
+#8	AnnotatorNotes T10	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T11	CHEM 800 808	fármacos
+#9	AnnotatorNotes T11	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T12	DISO 744 756	sensibilidad
+T13	DISO 1050 1089	abuso en el consumo de drogas y alcohol
+T14	CHEM 632 635	AAD
+#10	AnnotatorNotes T14	C3653501; DIRECT ACTING ANTIVIRALS; Pharmacologic Substance
+T15	CHEM 1136 1154	fármaco en estudio
+#11	AnnotatorNotes T15	C0013230; Investigational New Drugs; Pharmacologic Substance
+T16	PROC 1192 1201	protocolo
+#12	AnnotatorNotes T16	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T17	PROC 1327 1332	AgHBs
+#13	AnnotatorNotes T17	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T18	PROC 1336 1394	anticuerpos frente al virus de la inmunodeficiencia humana
+#14	AnnotatorNotes T18	C3714540; HIV Antibody Measurement; Laboratory Procedure
+T19	DISO 1417 1420	VHC
+#15	AnnotatorNotes T19	C0019196; Hepatitis C; Disease or Syndrome
+T20	DISO 1459 1471	co-infección
+T21	CHEM 135 142	ABT-493
+#16	AnnotatorNotes T21	C4310002; ABT-493; Organic Chemical · Pharmacologic Substance
+T22	DISO 331 379	Infección crónica por el virus de la hepatitis C
+#17	AnnotatorNotes T22	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome 
+T23	DISO 264 304	Infección por el virus de la Hepatitis C
+T24	DISO 653 663	cirróticos
+#18	AnnotatorNotes T24	C1623038; Cirrhosis; Disease or Syndrome
+T25	PROC 1117 1131	administración
+#19	AnnotatorNotes T25	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T26	PROC 1288 1325	antígeno de superficie de hepatitis B
+#20	AnnotatorNotes T26	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T27	PROC 1396 1402	Ac VIH
+T28	DISO 1498 1501	VHC
+#21	AnnotatorNotes T28	C0019196; Hepatitis C; Disease or Syndrome
+T29	Date 13 17	2015
+T30	LIVB 154 161	adultos
+#22	AnnotatorNotes T30	C0001675; Adult; Age Group
+T31	Duration 176 183	crónica
+#23	AnnotatorNotes T31	C0205191; chronic; Temporal Concept
+T32	LIVB 191 214	virus de la hepatitis C
+#24	AnnotatorNotes T32	C0220847; hepatitis C virus; Virus
+T33	PROC 215 223	genotipo
+#25	AnnotatorNotes T33	C1285573; Genotype determination; Laboratory Procedure
+T34	LIVB 281 304	virus de la Hepatitis C
+#26	AnnotatorNotes T34	C0220847; hepatitis C virus; Virus
+T35	Duration 341 348	crónica
+#27	AnnotatorNotes T35	C0205191; chronic; Temporal Concept
+T36	LIVB 356 379	virus de la hepatitis C
+#28	AnnotatorNotes T36	C0220847; hepatitis C virus; Virus
+T37	PROC 380 388	genotipo
+#29	AnnotatorNotes T37	C1285573; Genotype determination; Laboratory Procedure
+T38	LIVB 420 427	Hombres
+#30	AnnotatorNotes T38	C0025266; Male population group; Population Group
+T39	LIVB 430 437	mujeres
+#31	AnnotatorNotes T39	C0043210; Woman; Population Group
+T40	Age 438 456	mayores de 18 años
+T41	LIVB 537 540	VHC
+#32	AnnotatorNotes T41	C0220847; hepatitis C virus; Virus
+T42	LIVB 558 561	VHC
+#33	AnnotatorNotes T42	C0220847; hepatitis C virus; Virus
+T43	Duration 562 569	crónica
+#34	AnnotatorNotes T43	C0205191; chronic; Temporal Concept
+T44	LIVB 573 582	Pacientes
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T45	Neg_cue 583 585	no
+T47	LIVB 640 649	Pacientes
+#36	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T48	Neg_cue 650 652	no
+T50	LIVB 825 841	Mujer embarazada
+#37	AnnotatorNotes T50	C0033011; Pregnant Women; Population Group
+T51	PHYS 897 908	amamantando
+#38	AnnotatorNotes T51	C0006147; Breast Feeding; Organism Function
+T52	LIVB 911 918	hombres
+#39	AnnotatorNotes T52	C0025266; Male population group; Population Group
+T53	LIVB 927 933	pareja
+#40	AnnotatorNotes T53	C0682323; Partner in relationship; Family Group
+T54	LIVB 937 956	mujeres embarazadas
+#41	AnnotatorNotes T54	C0033011; Pregnant Women; Population Group
+T55	LIVB 1015 1023	Paciente
+#42	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Date 1038 1046	reciente
+T57	Duration 1097 1104	6 meses
+T60	LIVB 1211 1223	investigador
+#43	AnnotatorNotes T60	C0035173; Research Personnel; Professional or Occupational Group
+T61	LIVB 1358 1394	virus de la inmunodeficiencia humana
+#44	AnnotatorNotes T61	C0019682; HIV; Virus
+T62	LIVB 1399 1402	VIH
+#45	AnnotatorNotes T62	C0019682; HIV; Virus
+T63	PROC 1408 1420	Genotipo VHC
+#46	AnnotatorNotes T63	C1533728; Hepatitis C virus genotype determination; Laboratory Procedure
+T65	PROC 1486 1494	genotipo
+#47	AnnotatorNotes T65	C1285573; Genotype determination; Laboratory Procedure
+T67	PHYS 864 874	embarazada
+#48	AnnotatorNotes T67	C0032961; Pregnancy; Organism Function
+T68	PHYS 980 991	embarazadas
+#49	AnnotatorNotes T68	C0032961; Pregnancy; Organism Function
+T46	PHYS 945 956	embarazadas
+#50	AnnotatorNotes T46	C0032961; Pregnancy; Organism Function
+T49	PHYS 831 841	embarazada
+#51	AnnotatorNotes T49	C0032961; Pregnancy; Organism Function
+T58	DISO 1314 1325	hepatitis B
+#52	AnnotatorNotes T58	C0019163; Hepatitis B; Disease or Syndrome
+T59	CHEM 1073 1079	drogas
+#53	AnnotatorNotes T59	C0086190; Illicit Drugs; Hazardous or Poisonous Substance
+A1	Assertion T5 Negated
+A2	Assertion T24 Negated
+A3	Population_data T30 Age
+A4	Status T5 History_of
+A5	Status T9 History_of
+A6	Assertion T9 Negated
+A7	Status T14 History_of
+A8	Assertion T14 Negated
+A9	Status T12 History_of
+A10	Status T13 History_of
+#54	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity
+#55	AnnotatorNotes T23	C0019196; Hepatitis C; Disease or Syndrome
+#56	AnnotatorNotes T8	C4736230; chronic hepatitis C due to hepatitis C virus genotype 1a; Disease or Syndrome
+#57	AnnotatorNotes T12	C0020517; Hypersensitivity; Pathologic Function
+#58	AnnotatorNotes T27	C3714540; HIV Antibody Measurement; Laboratory Procedure
+#59	AnnotatorNotes T20	C0275524; Coinfection; Disease or Syndrome 
+#60	AnnotatorNotes T56	C0332185; Recent; Temporal Concept
+T64	Neg_cue 1167 1174	impedir
+T66	Observation 1178 1201	adherencia al protocolo
+A11	Assertion T66 Negated
+T69	Food 1082 1089	alcohol
+#61	AnnotatorNotes T69	C0001967; Alcoholic Beverages; Food
+T70	Observation 716 736	amenaza para la vida
+#62	AnnotatorNotes T70	C2826244; Life Threatening; Finding
+T71	Quantifier_or_Qualifier 757 769	significante
+#63	AnnotatorNotes T71	C1546944; Event Seriousness - Significant; Qualitative Concept
+A12	Status T71 History_of
+R1	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T71	
+A13	Status T70 History_of
+T72	CONC 706 714	gravedad
+#64	AnnotatorNotes T72	C1547227; Severe - Severity of Illness Code; Intellectual Product
+A14	Status T72 History_of
+R2	Causes Arg1:T32 Arg2:T3	
+R3	Has_Duration_or_Interval Arg1:T3 Arg2:T31	
+T73	Quantifier_or_Qualifier 215 225	genotipo 1
+R4	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T73	
+R5	Causes Arg1:T34 Arg2:T23	
+T74	Quantifier_or_Qualifier 380 390	genotipo 1
+R6	Causes Arg1:T36 Arg2:T22	
+R7	Has_Duration_or_Interval Arg1:T22 Arg2:T35	
+R8	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T74	
+R9	Experiences Arg1:T30 Arg2:T21	
+R10	Experiences Arg1:T30 Arg2:T3	
+R11	Experiences Arg1:T30 Arg2:T33	
+R12	Combined_with Arg1:T21 Arg2:T4	
+R13	Has_Age Arg1:T39 Arg2:T40	
+R14	Has_Age Arg1:T38 Arg2:T40	
+T75	Quantifier_or_Qualifier 541 544	GT1
+R15	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T75	
+R16	Causes Arg1:T41 Arg2:T7	
+T76	PROC 477 486	selección
+#65	AnnotatorNotes T76	C0242802; Patient Selection; Research Activity
+R17	Overlap Arg1:T40 Arg2:T76	
+R18	Has_Duration_or_Interval Arg1:T8 Arg2:T43	
+R19	Causes Arg1:T42 Arg2:T8	
+R20	Experiences Arg1:T44 Arg2:T5	
+R21	Negation Arg1:T45 Arg2:T5	
+R22	Experiences Arg1:T44 Arg2:T6	
+R23	Experiences Arg1:T44 Arg2:T9	
+R24	Causes Arg1:T14 Arg2:T9	
+R25	Experiences Arg1:T47 Arg2:T24	
+R26	Negation Arg1:T48 Arg2:T24	
+R27	Causes Arg1:T10 Arg2:T12	
+R28	Causes Arg1:T11 Arg2:T12	
+R29	Causes Arg1:T10 Arg2:T70	
+R30	Causes Arg1:T11 Arg2:T70	
+R31	Experiences Arg1:T50 Arg2:T49	
+T77	Observation 848 874	planee quedarse embarazada
+#66	AnnotatorNotes T77	C0032992; Pregnancy, Planned; Finding
+R32	Before Arg1:T77 Arg2:T67	
+T78	PROC 1003 1010	estudio
+#67	AnnotatorNotes T78	C0008976; Clinical Trials; Research Activity
+T79	PROC 886 893	estudio
+#68	AnnotatorNotes T79	C0008976; Clinical Trials; Research Activity
+R33	Overlap Arg1:T77 Arg2:T79	
+R34	Overlap Arg1:T49 Arg2:T79	
+R35	Overlap Arg1:T79 Arg2:T51	
+R36	Overlap Arg1:T79 Arg2:T46	
+R37	Overlap Arg1:T79 Arg2:T68	
+T80	Observation 963 991	planeen quedarse embarazadas
+#69	AnnotatorNotes T80	C0032992; Pregnancy, Planned; Finding
+R38	Overlap Arg1:T80 Arg2:T78	
+R39	Overlap Arg1:T49 Arg2:T78	
+R40	Overlap Arg1:T77 Arg2:T78	
+R41	Overlap Arg1:T51 Arg2:T78	
+R42	Overlap Arg1:T46 Arg2:T78	
+R43	Experiences Arg1:T54 Arg2:T46	
+R44	Before Arg1:T80 Arg2:T68	
+R45	Experiences Arg1:T55 Arg2:T13	
+R46	Overlap Arg1:T13 Arg2:T56	
+#70	AnnotatorNotes T13	C0740858; Substance abuse problem; Mental or Behavioral Dysfunction | C2106524; combined drug and alcohol abuse; Mental or Behavioral Dysfunction
+R47	Causes Arg1:T59 Arg2:T13	
+R48	Causes Arg1:T69 Arg2:T13	
+R49	Has_Duration_or_Interval Arg1:T13 Arg2:T57	
+R50	Before Arg1:T13 Arg2:T25	
+R51	Used_for Arg1:T15 Arg2:T25	
+R52	Experiences Arg1:T55 Arg2:T25	
+R53	Before Arg1:T13 Arg2:T66	
+R54	Negation Arg1:T64 Arg2:T66	
+R55	Experiences Arg1:T55 Arg2:T66	
+T81	Result_or_Value 1228 1263	Resultados de laboratorio positivos
+#71	AnnotatorNotes T81	C1948092; positive screening/culture/laboratory results; Finding
+R57	Has_Result_or_Value Arg1:T26 Arg2:T81	
+R58	Has_Result_or_Value Arg1:T17 Arg2:T81	
+T82	PROC 1270 1279	selección
+#72	AnnotatorNotes T82	C0242802; Patient Selection; Research Activity
+R59	Overlap Arg1:T81 Arg2:T82	
+R62	Has_Result_or_Value Arg1:T18 Arg2:T81	
+R63	Overlap Arg1:T18 Arg2:T82	
+R64	Causes Arg1:T61 Arg2:T81	
+R65	Causes Arg1:T58 Arg2:T81	
+R66	Causes Arg1:T62 Arg2:T81	
+R67	Overlap Arg1:T27 Arg2:T82	
+R68	Has_Result_or_Value Arg1:T27 Arg2:T81	
+T83	PROC 1437 1446	selección
+#73	AnnotatorNotes T83	C0242802; Patient Selection; Research Activity
+R69	Overlap Arg1:T63 Arg2:T83	
+T84	Quantifier_or_Qualifier 1476 1494	más de un genotipo
+R73	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T84	
+R75	Overlap Arg1:T83 Arg2:T65	
+#74	AnnotatorNotes T66	C2364172; Adherence To Medication Regime; Finding (?)
+A15	Experiencer T30 Patient
+A16	Experiencer T39 Patient
+A17	Experiencer T38 Patient
+A18	Experiencer T44 Patient
+A19	Experiencer T47 Patient
+A20	Experiencer T50 Patient
+A21	Status T67 Future
+A22	Experiencer T52 Family_member
+A23	Experiencer T53 Family_member
+A24	Experiencer T54 Patient
+A25	Status T68 Future
+A26	Experiencer T55 Patient
+A27	Experiencer T60 Other

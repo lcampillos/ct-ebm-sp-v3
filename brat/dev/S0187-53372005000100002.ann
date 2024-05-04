@@ -1,0 +1,214 @@
+T1	PROC 1 59	Ventilación nasofaríngea con presión positiva intermitente
+T2	PROC 179 182	VNF
+T3	PROC 75 85	extubación
+#1	AnnotatorNotes T3	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T4	PROC 153 177	ventilación nasofaríngea
+T5	PROC 240 247	extubar
+#2	AnnotatorNotes T5	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T6	PROC 264 284	ventilación mecánica
+#3	AnnotatorNotes T6	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T7	PROC 719 724	CPAPN
+#4	AnnotatorNotes T7	C1258045; Nasal Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T8	DISO 328 342	complicaciones
+#5	AnnotatorNotes T8	C0009566; Complication; Pathologic Function
+T9	PROC 443 462	Evaluar la eficacia
+#6	AnnotatorNotes T9	C1707887; Efficacy Study; Research Activity
+T10	PROC 469 527	ventilación nasofaríngea con presión positiva intermitente
+T11	PROC 1036 1041	CPAPN
+#7	AnnotatorNotes T11	C1258045; Nasal Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T12	PROC 529 536	VNF/PPI
+T13	PROC 588 598	extubación
+#8	AnnotatorNotes T13	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T14	LIVB 618 620	RN
+#9	AnnotatorNotes T14	C0021289; Infant, Newborn; Age Group
+T15	LIVB 655 657	RN
+#10	AnnotatorNotes T15	C0021289; Infant, Newborn; Age Group
+T16	PROC 670 717	presión positiva continua de la vía aérea nasal
+#11	AnnotatorNotes T16	C1258045; Nasal Continuous Positive Airway Pressure; Therapeutic or Preventive Procedure
+T17	PROC 909 919	extubación
+#12	AnnotatorNotes T17	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T18	PROC 1002 1010	VNF/ PPI
+T19	PROC 1132 1142	extubación
+#13	AnnotatorNotes T19	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T20	PROC 1209 1219	extubación
+#14	AnnotatorNotes T20	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T21	PROC 1221 1243	diagnóstico de ingreso
+#15	AnnotatorNotes T21	C1628992; Admission diagnosis; Diagnostic Procedure
+T22	CHEM 1252 1263	surfactante
+#16	AnnotatorNotes T22	C0038891; Chemical Surfactants; Chemical Viewed Functionally
+T23	CHEM 1265 1276	aminofilina
+#17	AnnotatorNotes T23	C0002575; aminophylline; Organic Chemical · Pharmacologic Substance
+T24	CHEM 1278 1288	esteroides
+#18	AnnotatorNotes T24	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T25	PROC 1300 1311	ventilación
+#19	AnnotatorNotes T25	C0035205; Respiration, Artificial; Therapeutic or Preventive Procedure
+T26	CHEM 1429 1440	surfactante
+#20	AnnotatorNotes T26	C0038891; Chemical Surfactants; Chemical Viewed Functionally
+T27	CHEM 1442 1452	esteroides
+#21	AnnotatorNotes T27	C0038317; Steroids; Organic Chemical · Pharmacologic Substance
+T28	PROC 1455 1477	diagnóstico de ingreso
+#22	AnnotatorNotes T28	C1628992; Admission diagnosis; Diagnostic Procedure
+T29	PROC 1580 1588	intubado
+#23	AnnotatorNotes T29	C0021925; Intubation (procedure); Therapeutic or Preventive Procedure
+T30	DISO 1659 1673	complicaciones
+#24	AnnotatorNotes T30	C0009566; Complication; Pathologic Function
+T31	PROC 1745 1752	VNF/PPI
+T32	PROC 1833 1843	extubación
+#25	AnnotatorNotes T32	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T33	PROC 1906 1916	extubación
+#26	AnnotatorNotes T33	C0553891; Tracheal Extubation; Therapeutic or Preventive Procedure
+T34	DISO 1936 1946	prematuros
+#27	AnnotatorNotes T34	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T35	DISO 104 114	pretérmino
+#28	AnnotatorNotes T35	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T36	LIVB 602 616	recién nacidos
+#29	AnnotatorNotes T36	C0021289; Infant, Newborn; Age Group
+T37	ANAT 702 717	vía aérea nasal
+#30	AnnotatorNotes T37	C0028429; Nose; Body Part, Organ, or Organ Component
+T38	PROC 790 817	ensayo clínico aleatorizado
+#31	AnnotatorNotes T38	C0206034; Clinical Trials, Randomized; Research Activity
+T39	LIVB 836 844	neonatos
+#32	AnnotatorNotes T39	C0021289; Infant, Newborn; Age Group
+T40	PROC 942 970	asignados en forma aleatoria
+#33	AnnotatorNotes T40	C0034656; Randomization; Research Activity
+T41	PROC 1538 1541	VNF
+T43	LIVB 89 114	recién nacidos pretérmino
+#34	AnnotatorNotes T43	C4048294; Preterm Infant; Age Group
+T47	LIVB 250 259	pacientes
+#35	AnnotatorNotes T47	C0030705; Patients; Patient or Disabled Group
+T53	DEVI 728 743	cámara cefálica
+#36	AnnotatorNotes T53	C3876429; Oxygen administration hood, pediatric; Medical Device
+T55	LIVB 925 934	pacientes
+#37	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Duration 1187 1191	72 h
+T58	Duration 1547 1560	al menos 24 h
+T59	Neg_cue 1563 1565	no
+T64	LIVB 1921 1946	recién nacidos prematuros
+#38	AnnotatorNotes T64	C4048294; Preterm Infant; Age Group
+T42	PHYS 1318 1329	gestacional
+#39	AnnotatorNotes T42	C0032961; Pregnancy; Organism Function
+T44	PHYS 1409 1420	gestacional
+#40	AnnotatorNotes T44	C0032961; Pregnancy; Organism Function
+T45	PROC 1313 1329	edad gestacional
+#41	AnnotatorNotes T45	C4040272; Assessment of fetal gestational age; Health Care Activity
+T46	PROC 1404 1420	edad gestacional
+#42	AnnotatorNotes T46	C4040272; Assessment of fetal gestational age; Health Care Activity
+T48	PROC 1398 1402	peso
+#43	AnnotatorNotes T48	C2985231; Body Weight Measurement; Diagnostic Procedure
+T49	PROC 1332 1336	peso
+#44	AnnotatorNotes T49	C2985231; Body Weight Measurement; Diagnostic Procedure
+A1	Assertion T29 Negated
+A3	Population_data T64 Age
+A4	Population_data T43 Age
+A5	Population_data T36 Age
+A6	Population_data T15 Age
+A7	Population_data T14 Age
+A8	Population_data T39 Age
+T50	Neg_cue 388 390	no
+T51	Neg_cue 184 186	no
+T52	Quantifier_or_Qualifier 187 195	invasiva
+A2	Assertion T52 Negated
+#45	AnnotatorNotes T52	C0205281; Invasive; Qualitative Concept
+R1	Negation Arg1:T51 Arg2:T52	
+R2	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T52	
+R3	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T52	
+R4	Negation Arg1:T59 Arg2:T29	
+T54	Neg_cue 1351 1353	No
+T57	CONC 1359 1370	diferencias
+A9	Assertion T57 Negated
+#46	AnnotatorNotes T57	C1705241; Delta (difference); Quantitative Concept
+R5	Negation Arg1:T54 Arg2:T57	
+T60	CONC 414 420	método
+A10	Assertion T60 Negated
+#47	AnnotatorNotes T60	C0025663; Methods; Functional Concept
+R6	Negation Arg1:T50 Arg2:T60	
+T61	Quantifier_or_Qualifier 421 430	rutinario
+A11	Assertion T61 Negated
+R7	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T61	
+R8	Negation Arg1:T50 Arg2:T61	
+T62	Spec_cue 1859 1866	posible
+T63	Quantifier_or_Qualifier 1898 1902	útil
+A12	Assertion T63 Speculated
+R9	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T63	
+R10	Speculation Arg1:T62 Arg2:T33	
+A13	Assertion T33 Speculated
+R11	Experiences Arg1:T43 Arg2:T3	
+R12	Experiences Arg1:T43 Arg2:T1	
+R13	Experiences Arg1:T43 Arg2:T35	
+T65	Result_or_Value 115 133	menores de 1,500 g
+R14	Has_Result_or_Value Arg1:T43 Arg2:T65	
+R15	Before Arg1:T3 Arg2:T1	
+R16	Before Arg1:T5 Arg2:T4	
+R17	Before Arg1:T5 Arg2:T2	
+R18	Experiences Arg1:T47 Arg2:T5	
+R19	Experiences Arg1:T47 Arg2:T6	
+R20	Experiences Arg1:T47 Arg2:T4	
+R21	Experiences Arg1:T47 Arg2:T2	
+R22	Experiences Arg1:T47 Arg2:T8	
+R23	Causes Arg1:T5 Arg2:T8	
+R24	After Arg1:T12 Arg2:T13	
+R25	After Arg1:T10 Arg2:T13	
+R26	Experiences Arg1:T36 Arg2:T13	
+R27	Experiences Arg1:T14 Arg2:T13	
+R28	Experiences Arg1:T14 Arg2:T12	
+R29	Experiences Arg1:T36 Arg2:T10	
+T66	Result_or_Value 622 634	< de 1,500 g
+R30	Has_Result_or_Value Arg1:T14 Arg2:T66	
+R31	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T66	
+R32	Location_of Arg1:T37 Arg2:T16	
+R33	Location_of Arg1:T37 Arg2:T7	
+R34	Experiences Arg1:T15 Arg2:T16	
+R35	Experiences Arg1:T15 Arg2:T7	
+R36	Combined_with Arg1:T16 Arg2:T53	
+R37	Combined_with Arg1:T7 Arg2:T53	
+R38	Has_Result_or_Value Arg1:T15 Arg2:T66	
+R39	Before Arg1:T13 Arg2:T16	
+R40	Before Arg1:T13 Arg2:T7	
+R41	Before Arg1:T13 Arg2:T53	
+T67	Observation 845 880	estables clínica y gasométricamente
+R42	Experiences Arg1:T39 Arg2:T67	
+T68	Quantifier_or_Qualifier 892 898	primer
+R43	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T68	
+#48	AnnotatorNotes T68	C1279901; Firstly; Qualitative Concept 
+R44	Experiences Arg1:T39 Arg2:T17	
+R45	Overlap Arg1:T67 Arg2:T17	
+R46	Experiences Arg1:T55 Arg2:T18	
+R47	Experiences Arg1:T55 Arg2:T11	
+R48	Before Arg1:T40 Arg2:T18	
+R49	Before Arg1:T40 Arg2:T11	
+T69	CONC 1144 1178	parámetros gasométricos y clínicos
+R50	Has_Duration_or_Interval Arg1:T69 Arg2:T56	
+R52	After Arg1:T69 Arg2:T20	
+T70	CONC 1290 1311	tiempo de ventilación
+R51	Before Arg1:T19 Arg2:T69	
+R53	Before Arg1:T21 Arg2:T20	
+R54	Before Arg1:T21 Arg2:T19	
+R55	Before Arg1:T20 Arg2:T25	
+R56	Before Arg1:T19 Arg2:T25	
+R57	Has_Duration_or_Interval Arg1:T41 Arg2:T58	
+T71	Quantifier_or_Qualifier 1589 1599	nuevamente
+R59	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T71	
+A14	Assertion T71 Negated
+R60	Negation Arg1:T59 Arg2:T71	
+R61	Before Arg1:T32 Arg2:T31	
+R62	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T63	
+R63	Experiences Arg1:T64 Arg2:T34	
+T72	Result_or_Value 1957 1975	menores de 1,500 g
+R64	Has_Result_or_Value Arg1:T64 Arg2:T72	
+R65	Experiences Arg1:T64 Arg2:T33	
+R66	Experiences Arg1:T64 Arg2:T32	
+R67	Experiences Arg1:T64 Arg2:T31	
+T73	Observation 1947 1955	estables
+#49	AnnotatorNotes T73	C1282982; Patient's condition stable; Finding
+R68	Experiences Arg1:T64 Arg2:T73	
+R69	Before Arg1:T33 Arg2:T31	
+#50	AnnotatorNotes T61	C0205547; Routine; Qualitative Concept
+#51	AnnotatorNotes T63	C3827682; Useful; Qualitative Concept
+A15	Experiencer T64 Patient
+A16	Experiencer T43 Patient
+A17	Experiencer T47 Patient
+A18	Experiencer T36 Patient
+A19	Experiencer T14 Patient
+A20	Experiencer T15 Patient
+A21	Experiencer T39 Patient
+A22	Experiencer T55 Patient

@@ -1,0 +1,131 @@
+T1	PROC 122 136	PROCEDIMIENTOS
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T2	CHEM 65 78	ÓXIDO NITROSO
+#2	AnnotatorNotes T2	C0028215; nitrous oxide; Biologically Active Substance · Inorganic Chemical · Pharmacologic Substance
+T3	CHEM 189 202	ÓXIDO NITROSO
+#3	AnnotatorNotes T3	C0028215; nitrous oxide; Biologically Active Substance · Inorganic Chemical · Pharmacologic Substance
+T4	PROC 242 272	PROCEDIMIENTOS HISTEROSCÓPICOS
+T5	PROC 345 375	procedimientos histeroscópicos
+T6	PROC 472 485	histeroscopia
+#4	AnnotatorNotes T6	C0020710; Hysteroscopy; Diagnostic Procedure
+T7	PROC 537 561	consultas de ginecología
+T8	DISO 605 613	alergias
+#5	AnnotatorNotes T8	C1527304; Allergic Reaction; Pathologic Function
+T9	CHEM 641 653	medicamentos
+#6	AnnotatorNotes T9	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T10	CHEM 684 696	vitamina B12
+#7	AnnotatorNotes T10	C0020316; hydroxocobalamin; Organic Chemical · Pharmacologic Substance · Vitamin | C0042845; vitamin B12; Organic Chemical · Pharmacologic Substance · Vitamin
+T11	CHEM 699 711	ácido fólico
+#8	AnnotatorNotes T11	C0016410; folic acid; Organic Chemical · Pharmacologic Substance · Vitamin
+T12	DISO 740 762	Anomalías neurológicas
+T13	PROC 896 907	tratamiento
+#9	AnnotatorNotes T13	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T14	PROC 729 736	tratada
+#10	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	CHEM 972 980	opiáceos
+#11	AnnotatorNotes T15	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T16	CHEM 982 997	benzodiazepinas
+#12	AnnotatorNotes T16	C4048284; Benzodiazepine; Organic Chemical · Pharmacologic Substance
+T17	CHEM 1006 1019	psicotrópicos
+#13	AnnotatorNotes T17	C0033978; Psychotropic Drugs; Pharmacologic Substance | C0682880; Psychoactive substance; Hazardous or Poisonous Substance · Pharmacologic Substance
+T18	ANAT 942 966	sistema nervioso central
+#14	AnnotatorNotes T18	C1269563; Entire central nervous system; Body System | C3714787; Central Nervous System; Body System
+T19	CHEM 54 64	ANESTÉSICO
+#15	AnnotatorNotes T19	C0002932; Anesthetics; Pharmacologic Substance
+T20	DISO 98 103	DOLOR
+#16	AnnotatorNotes T20	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T21	DISO 219 224	DOLOR
+#17	AnnotatorNotes T21	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T22	DISO 296 301	Dolor
+#18	AnnotatorNotes T22	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T23	DISO 328 333	Dolor
+#19	AnnotatorNotes T23	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T24	PROC 497 504	pruebas
+#20	AnnotatorNotes T24	C1510438; Assay; Laboratory Procedure
+T25	DISO 669 711	Deficiencia de vitamina B12 o ácido fólico
+#21	AnnotatorNotes T25	C0016412; Folic Acid Deficiency; Disease or Syndrome
+T26	PROC 1106 1130	consentimiento informado
+#22	AnnotatorNotes T26	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T27	CHEM 918 966	fármacos depresores del sistema nervioso central
+T28	Date 13 17	2013
+T31	LIVB 404 411	Mujeres
+#23	AnnotatorNotes T31	C0043210; Woman; Population Group
+T32	Age 412 430	mayores de 18 años
+T33	LIVB 434 443	Pacientes
+#24	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 591 600	Pacientes
+#25	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Neg_cue 726 728	no
+T36	Date 788 796	reciente
+T37	LIVB 800 821	Pacientes embarazadas
+#26	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group + C0033011; Pregnant Women; Population Group
+T38	Spec_cue 828 836	pudieran
+T39	LIVB 848 879	Mujeres en periodo de lactancia
+#27	AnnotatorNotes T39	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T40	LIVB 883 892	Pacientes
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	LIVB 1024 1033	Pacientes
+#29	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T43	Neg_cue 1078 1094	Incapacidad para
+T44	PHYS 810 821	embarazadas
+#30	AnnotatorNotes T44	C0032961; Pregnancy; Organism Function
+T45	PHYS 870 879	lactancia
+#31	AnnotatorNotes T45	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+A1	Assertion T14 Negated
+A2	Assertion T44 Speculated
+A3	Assertion T26 Negated
+A4	Status T8 History_of
+A5	Assertion T9 Contraindicated
+#32	AnnotatorNotes T4	C0751614; Hysteroscopic Surgical Procedures; Therapeutic or Preventive Procedure 
+#33	AnnotatorNotes T5	C0751614; Hysteroscopic Surgical Procedures; Therapeutic or Preventive Procedure 
+#34	AnnotatorNotes T27	C0007681; Central Nervous System Depressants; Pharmacologic Substance 
+#35	AnnotatorNotes T36	C0332185; Recent; Temporal Concept
+T29	Neg_cue 1038 1040	no
+T30	Observation 1041 1074	manejen con fluidez el castellano
+A6	Assertion T30 Negated
+#36	AnnotatorNotes T30	C0745638; LANGUAGE BARRIER SPEAKS SPANISH; Finding (?)
+T42	Observation 87 103	ALIVIO DEL DOLOR
+#37	AnnotatorNotes T42	C1998289; Pain relief by medication; Finding
+T46	Observation 208 224	ALIVIO DEL DOLOR
+#38	AnnotatorNotes T46	C1998289; Pain relief by medication; Finding
+R1	Before Arg1:T20 Arg2:T42	
+R2	Before Arg1:T21 Arg2:T46	
+R3	Causes Arg1:T2 Arg2:T42	
+R4	Causes Arg1:T19 Arg2:T42	
+R5	Causes Arg1:T3 Arg2:T46	
+R6	Causes Arg1:T1 Arg2:T20	
+R8	Causes Arg1:T4 Arg2:T21	
+R10	Causes Arg1:T5 Arg2:T23	
+R11	Has_Age Arg1:T31 Arg2:T32	
+R12	Experiences Arg1:T33 Arg2:T6	
+R13	Experiences Arg1:T33 Arg2:T24	
+R14	Before Arg1:T7 Arg2:T6	
+R15	Before Arg1:T7 Arg2:T24	
+R16	Experiences Arg1:T34 Arg2:T8	
+R17	Causes Arg1:T9 Arg2:T8	
+R18	Negation Arg1:T35 Arg2:T14	
+R19	Overlap Arg1:T12 Arg2:T36	
+R20	Experiences Arg1:T37 Arg2:T44	
+R21	Speculation Arg1:T38 Arg2:T44	
+R22	Experiences Arg1:T39 Arg2:T45	
+R23	Experiences Arg1:T40 Arg2:T13	
+R24	Used_for Arg1:T27 Arg2:T13	
+R25	Used_for Arg1:T15 Arg2:T13	
+R26	Used_for Arg1:T16 Arg2:T13	
+R27	Used_for Arg1:T17 Arg2:T13	
+R29	Negation Arg1:T29 Arg2:T30	
+R30	Negation Arg1:T43 Arg2:T26	
+T47	Quantifier_or_Qualifier 763 775	inexplicadas
+#39	AnnotatorNotes T47	C4288071; Unexplained; Qualitative Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T47	
+#40	AnnotatorNotes T12	C0751377; Neurologic Dysfunction; Finding
+R7	Experiences Arg1:T33 Arg2:T7	
+A7	Status T6 Future
+A8	Status T24 Future
+A9	Experiencer T34 Patient
+A10	Experiencer T33 Patient
+A11	Experiencer T31 Patient
+A12	Experiencer T37 Patient
+A13	Experiencer T39 Patient
+A14	Experiencer T40 Patient
+A15	Experiencer T41 Patient

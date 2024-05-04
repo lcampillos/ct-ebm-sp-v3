@@ -1,0 +1,132 @@
+T1	PROC 46 87	Quimioterapia intraabdominal hipertérmica
+T2	PROC 96 107	tratamiento
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 114 140	carcinomatosis pancreática
+T4	PROC 163 204	Quimioterapia intraabdominal hipertérmica
+T5	CHEM 224 235	Gemcitabina
+#2	AnnotatorNotes T5	C0045093; gemcitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T6	PROC 244 255	tratamiento
+#3	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	DISO 262 298	carcinomatosis de origen pancreático
+T8	ANAT 287 298	pancreático
+#4	AnnotatorNotes T8	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T9	PROC 332 373	quimioterapia intraabdominal hipertérmica
+T10	ANAT 394 417	células madre tumorales
+#5	AnnotatorNotes T10	C1956421; Neoplastic Stem Cells; Cell
+T11	DISO 408 417	tumorales
+#6	AnnotatorNotes T11	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T12	CHEM 437 461	fármacos quimioterápicos
+T13	DISO 490 508	cáncer de páncreas
+#7	AnnotatorNotes T13	C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T14	DISO 571 589	cáncer de páncreas
+#8	AnnotatorNotes T14	C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T15	ANAT 607 620	células madre
+#9	AnnotatorNotes T15	C0038250; Stem cells; Cell
+T16	DISO 625 647	transformación maligna
+#10	AnnotatorNotes T16	C1608408; Malignant transformation; Neoplastic Process
+T17	ANAT 658 681	células madre tumorales
+#11	AnnotatorNotes T17	C1956421; Neoplastic Stem Cells; Cell
+T18	DISO 672 681	tumorales
+#12	AnnotatorNotes T18	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T19	CHEM 712 736	fármacos quimioterápicos
+T20	PROC 835 876	quimioterapia intraabdominal hipertérmica
+T21	CHEM 881 892	Gemcitabina
+#13	AnnotatorNotes T21	C0045093; gemcitabine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T22	ANAT 944 967	células madre tumorales
+#14	AnnotatorNotes T22	C1956421; Neoplastic Stem Cells; Cell
+T23	DISO 958 967	tumorales
+#15	AnnotatorNotes T23	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T24	DISO 998 1031	enfermedad neoplásica pancreática
+T25	ANAT 1020 1031	pancreática
+#16	AnnotatorNotes T25	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T26	DISO 1060 1086	Adenocarcinoma de páncreas
+T27	ANAT 1078 1086	páncreas
+#17	AnnotatorNotes T27	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T28	DISO 1203 1213	enfermedad
+#18	AnnotatorNotes T28	C0012634; Disease; Disease or Syndrome
+T29	PROC 1259 1281	tratamiento quirúrgico
+#19	AnnotatorNotes T29	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T30	PROC 1283 1296	diagnosticado
+#20	AnnotatorNotes T30	C0011900; Diagnosis; Diagnostic Procedure
+T31	DISO 1369 1390	enfermedad neoplásica
+#21	AnnotatorNotes T31	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T32	PROC 1419 1452	estudio perioperatorio anestésico
+T33	ANAT 129 140	pancreática
+#22	AnnotatorNotes T33	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T34	PROC 446 461	quimioterápicos
+#23	AnnotatorNotes T34	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T35	ANAT 500 508	páncreas
+#24	AnnotatorNotes T35	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T36	ANAT 581 589	páncreas
+#25	AnnotatorNotes T36	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T37	PROC 721 736	quimioterápicos
+#26	AnnotatorNotes T37	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T38	Date 13 17	2016
+T39	Time 1337 1352	intraoperatorio
+#27	AnnotatorNotes T39	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T40	Date 1427 1441	perioperatorio
+#28	AnnotatorNotes T40	C1518988; perioperative; Temporal Concept | C2712230; Perioperative Period; Temporal Concept
+T41	Date 1306 1318	preoperaoria
+A1	Status T29 History_of
+#29	AnnotatorNotes T12	C0812987; Chemotherapy Drugs Adminstered; Clinical Drug 
+#30	AnnotatorNotes T19	C0812987; Chemotherapy Drugs Adminstered; Clinical Drug 
+#31	AnnotatorNotes T24	C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+#32	AnnotatorNotes T26	C0281361; Adenocarcinoma of pancreas; Neoplastic Process 
+#33	AnnotatorNotes T41	C2712277; Preoperative Period; Temporal Concept
+T42	Neg_cue 1142 1149	Rechazo
+T43	Observation 1163 1186	participar en el ensayo
+A2	Assertion T43 Negated
+#34	AnnotatorNotes T43	C4284598; Patient refused to participate; Finding
+R1	Location_of Arg1:T33 Arg2:T3	
+R2	Used_for Arg1:T5 Arg2:T4	
+R3	Used_for Arg1:T5 Arg2:T6	
+R4	Location_of Arg1:T8 Arg2:T7	
+T44	Quantifier_or_Qualifier 419 430	resistentes
+#35	AnnotatorNotes T44	C0205269; Unresponsive to Treatment; Functional Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T44	
+R7	Used_for Arg1:T12 Arg2:T34	
+R8	Before Arg1:T12 Arg2:T9	
+R11	Location_of Arg1:T35 Arg2:T13	
+T45	Observation 464 471	mejorar
+#36	AnnotatorNotes T45	C0184511; Improved; Finding (?)
+R13	Location_of Arg1:T36 Arg2:T14	
+R14	Location_of Arg1:T15 Arg2:T16	
+R16	Location_of Arg1:T17 Arg2:T16	
+R17	Causes Arg1:T16 Arg2:T14	
+T46	Quantifier_or_Qualifier 683 709	extremadamente resistentes
+#37	AnnotatorNotes T46	C0205403; Extreme; Qualitative Concept + C0205269; Unresponsive to Treatment; Functional Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T46	
+R19	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T46	
+R20	Used_for Arg1:T19 Arg2:T37	
+R21	Used_for Arg1:T21 Arg2:T20	
+R23	Location_of Arg1:T25 Arg2:T24	
+R25	Location_of Arg1:T25 Arg2:T23	
+R26	Location_of Arg1:T36 Arg2:T18	
+R27	Location_of Arg1:T35 Arg2:T11	
+R28	Location_of Arg1:T27 Arg2:T26	
+T48	Quantifier_or_Qualifier 1087 1112	resecable quirúrgicamente
+#39	AnnotatorNotes T48	C1514888; Resectable; Qualitative Concept 
+R29	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T48	
+R30	Negation Arg1:T42 Arg2:T43	
+T49	Quantifier_or_Qualifier 1214 1225	a distancia
+#40	AnnotatorNotes T49	C0443203; Distant; Spatial Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T49	
+T50	Quantifier_or_Qualifier 1228 1241	locorregional
+#41	AnnotatorNotes T50	C0205276; Local; Spatial Concept (?)
+R32	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T50	
+R33	Overlap Arg1:T30 Arg2:T41	
+R34	Overlap Arg1:T30 Arg2:T39	
+T51	Quantifier_or_Qualifier 1391 1401	sincrónica
+#42	AnnotatorNotes T51	C0439580; Synchronous; Temporal Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T51	
+R36	Overlap Arg1:T32 Arg2:T40	
+T52	Observation 1404 1413	Exclusión
+#43	AnnotatorNotes T52	C0422727; Patient withdrawn from trial; Finding (?)
+R37	After Arg1:T52 Arg2:T32	
+R9	Before Arg1:T9 Arg2:T45	
+R10	Before Arg1:T11 Arg2:T45	
+R12	Before Arg1:T13 Arg2:T45	
+#38	AnnotatorNotes T1	C1868801; Hyperthermic Intraperitoneal Chemotherapy; Therapeutic or Preventive Procedure (?)
+#44	AnnotatorNotes T4	C1868801; Hyperthermic Intraperitoneal Chemotherapy; Therapeutic or Preventive Procedure (?)
+#45	AnnotatorNotes T9	C1868801; Hyperthermic Intraperitoneal Chemotherapy; Therapeutic or Preventive Procedure (?)
+#46	AnnotatorNotes T20	C1868801; Hyperthermic Intraperitoneal Chemotherapy; Therapeutic or Preventive Procedure (?)

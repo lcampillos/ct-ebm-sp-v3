@@ -1,0 +1,258 @@
+T1	PROC 62 99	aplicación intraarticular e intraósea
+T2	CHEM 104 142	plasma rico en factores de crecimiento
+T3	DISO 160 179	artrosis de rodilla
+#1	AnnotatorNotes T3	C0409959; Osteoarthritis, Knee; Disease or Syndrome
+T4	PROC 251 268	terapia biológica
+#2	AnnotatorNotes T4	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure
+T5	DISO 275 294	artrosis de rodilla
+#3	AnnotatorNotes T5	C0409959; Osteoarthritis, Knee; Disease or Syndrome
+T6	PROC 296 316	Aplicación intraósea
+T7	CHEM 321 359	plasma rico en factores de crecimiento
+T8	PROC 427 452	aplicación intraarticular
+T9	DISO 475 494	Artrosis de rodilla
+#4	AnnotatorNotes T9	C0409959; Osteoarthritis, Knee; Disease or Syndrome
+T10	DISO 588 602	Sintomatología
+#5	AnnotatorNotes T10	C3540840; Sign or Symptom; Finding
+T11	DISO 685 693	Artrosis
+#6	AnnotatorNotes T11	C0029408; Degenerative polyarthritis; Disease or Syndrome
+T12	PROC 795 818	tratamiento conservador
+#7	AnnotatorNotes T12	C0459914; Conservative Treatment; Therapeutic or Preventive Procedure
+T13	PROC 872 895	Índice de masa corporal
+#8	AnnotatorNotes T13	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T14	ANAT 998 1007	plaquetas
+#9	AnnotatorNotes T14	C0005821; Blood Platelets; Cell
+T15	PROC 1076 1111	tratamiento mediante infiltraciones
+T16	CHEM 1115 1132	ácido hialurónico
+#10	AnnotatorNotes T16	C0020196; hyaluronic acid; Biologically Active Substance · Organic Chemical · Pharmacologic Substance
+T17	DISO 1173 1195	alteraciones angulares
+T18	DISO 1228 1251	inestabilidad articular
+T19	DISO 1255 1294	Enfermedad infecciosa sistémica o local
+T20	DISO 1416 1441	procesos inmunodepresivos
+T21	DISO 1297 1321	enfermedad poliarticular
+#11	AnnotatorNotes T21	C0747730; POLYARTICULAR JOINT DISEASE; Disease or Syndrome
+T22	DISO 1325 1343	Procesos tumorales
+T23	PROC 1347 1358	tratamiento
+#12	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	PROC 1361 1379	seguimiento médico
+T25	PROC 1384 1413	Tratamientos inmunosupresores
+T26	DISO 1459 1480	Hipertensión arterial
+#13	AnnotatorNotes T26	C0020538; Hypertensive disease; Disease or Syndrome
+T27	DISO 1483 1500	diabetes mellitus
+#14	AnnotatorNotes T27	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T28	DISO 1544 1552	alergias
+#15	AnnotatorNotes T28	C1527304; Allergic Reaction; Pathologic Function
+T29	CHEM 1570 1578	fármacos
+#16	AnnotatorNotes T29	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T30	PROC 1637 1648	tratamiento
+#17	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	CHEM 1671 1685	antiagregantes
+#18	AnnotatorNotes T31	C0085826; Antiplatelet Agents; Pharmacologic Substance
+T32	PROC 1733 1747	infiltraciones
+#19	AnnotatorNotes T32	C0702249; Infiltration (procedure); Therapeutic or Preventive Procedure
+T33	PROC 1761 1770	serología
+#20	AnnotatorNotes T33	C0036743; Serologic tests; Laboratory Procedure
+T34	DISO 1786 1793	Sífilis
+#21	AnnotatorNotes T34	C0039128; Syphilis; Disease or Syndrome
+T35	DISO 1795 1806	Hepatitis B
+#22	AnnotatorNotes T35	C0019163; Hepatitis B; Disease or Syndrome
+T36	DISO 1808 1819	Hepatitis C
+#23	AnnotatorNotes T36	C0019196; Hepatitis C; Disease or Syndrome
+T37	PROC 1864 1886	cuestionarios de salud
+T38	ANAT 172 179	rodilla
+#24	AnnotatorNotes T38	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T39	DISO 211 216	dolor
+#25	AnnotatorNotes T39	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T40	ANAT 287 294	rodilla
+#26	AnnotatorNotes T40	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T41	DISO 399 404	dolor
+#27	AnnotatorNotes T41	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T42	ANAT 487 494	rodilla
+#28	AnnotatorNotes T42	C0022742; Knee; Body Part, Organ, or Organ Component | C1283838; Entire knee region; Body Location or Region | C1963703; Knee region structure; Body Location or Region
+T43	ANAT 887 895	corporal
+#29	AnnotatorNotes T43	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T44	PROC 966 1007	infiltración con plasma rico en plaquetas
+#30	AnnotatorNotes T44	C2957363; Injection of platelet-rich plasma; Therapeutic or Preventive Procedure
+T45	CHEM 983 1007	plasma rico en plaquetas
+#31	AnnotatorNotes T45	C2362067; Platelet concentrate; Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T46	ANAT 1242 1251	articular
+#32	AnnotatorNotes T46	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T47	CHEM 1397 1413	inmunosupresores
+#33	AnnotatorNotes T47	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T48	ANAT 1472 1480	arterial
+#34	AnnotatorNotes T48	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+T49	CHEM 1653 1668	anticoagulantes
+#35	AnnotatorNotes T49	C0003280; Anticoagulants; Pharmacologic Substance
+T50	PROC 1959 1983	consentimiento informado
+#36	AnnotatorNotes T50	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T51	DISO 1822 1830	VIH I/II
+T52	Date 12 16	2017
+T53	Route 73 87	intraarticular
+T54	Route 90 99	intraósea
+T55	LIVB 146 155	pacientes
+#37	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Route 307 316	intraósea
+T57	Route 438 452	intraarticular
+T58	LIVB 521 530	Pacientes
+#38	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T59	Age 555 573	entre 40 y 75 años
+T60	Duration 655 669	más de 6 meses
+T62	LIVB 769 778	Pacientes
+#39	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T64	Duration 1011 1031	los últimos 12 meses
+T65	LIVB 1035 1044	Pacientes
+#40	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T66	Duration 1136 1155	los últimos 6 meses
+T67	LIVB 1159 1168	Pacientes
+#41	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	LIVB 1445 1454	Pacientes
+#42	AnnotatorNotes T68	C0030705; Patients; Patient or Disabled Group
+T69	LIVB 1520 1529	Pacientes
+#43	AnnotatorNotes T69	C0030705; Patients; Patient or Disabled Group
+T70	LIVB 1624 1633	Pacientes
+#44	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T72	LIVB 1822 1825	VIH
+#45	AnnotatorNotes T72	C0019682; HIV; Virus
+T73	Neg_cue 1834 1850	Incapacidad para
+T74	LIVB 1921 1930	Pacientes
+#46	AnnotatorNotes T74	C0030705; Patients; Patient or Disabled Group
+T75	Neg_cue 1931 1934	sin
+T78	PHYS 196 205	movilidad
+#47	AnnotatorNotes T78	C0871081; Physical mobility; Organism Function
+T79	LIVB 1987 1998	Embarazadas
+#48	AnnotatorNotes T79	C0033011; Pregnant Women; Population Group
+T77	LIVB 575 586	Ambos sexos
+#49	AnnotatorNotes T77	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T80	PROC 639 643	KOOS
+#50	AnnotatorNotes T80	C5190644; Assessment using Knee Injury and Osteoarthritis Outcome Score; Health Care Activity
+T61	PHYS 1851 1859	entender
+#51	AnnotatorNotes T61	C0162340; Comprehension; Mental Process
+T63	PROC 851 858	visitas
+#52	AnnotatorNotes T63	C1512346; Patient Visit; Health Care Activity
+A1	Assertion T61 Negated
+A2	Assertion T50 Negated
+A3	Status T44 History_of
+A4	Status T45 History_of
+A5	Status T15 History_of
+A6	Status T16 History_of
+A7	Status T28 History_of
+#53	AnnotatorNotes T57	C0205528; Intra-articular route; Functional Concept
+#54	AnnotatorNotes T53	C0205528; Intra-articular route; Functional Concept
+#55	AnnotatorNotes T54	C0595613; Intraosseous Route of Drug Administration; Functional Concept
+#56	AnnotatorNotes T56	C0595613; Intraosseous Route of Drug Administration; Functional Concept
+#57	AnnotatorNotes T18	C0022410; Joint Instability; Finding
+#58	AnnotatorNotes T24	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+#59	AnnotatorNotes T25	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+T71	Neg_cue 1690 1692	no
+T76	CONC 1699 1709	revertirse
+A8	Assertion T76 Negated
+R1	Negation Arg1:T71 Arg2:T76	
+R2	Negation Arg1:T73 Arg2:T61	
+T81	CONC 1891 1903	completarlos
+A9	Assertion T81 Negated
+R3	Negation Arg1:T73 Arg2:T81	
+R4	Overlap Arg1:T61 Arg2:T37	
+R5	Negation Arg1:T75 Arg2:T50	
+T82	LIVB 937 946	Pacientes
+#60	AnnotatorNotes T82	C0030705; Patients; Patient or Disabled Group
+R6	Used_for Arg1:T2 Arg2:T1	
+R7	Has_Route_or_Mode Arg1:T2 Arg2:T53	
+R8	Has_Route_or_Mode Arg1:T2 Arg2:T54	
+R9	Experiences Arg1:T55 Arg2:T1	
+R10	Experiences Arg1:T55 Arg2:T3	
+R11	Location_of Arg1:T38 Arg2:T3	
+R12	Experiences Arg1:T55 Arg2:T39	
+R13	Experiences Arg1:T55 Arg2:T78	
+R16	Location_of Arg1:T40 Arg2:T5	
+R17	Has_Route_or_Mode Arg1:T7 Arg2:T56	
+R18	Used_for Arg1:T7 Arg2:T6	
+#62	AnnotatorNotes T6	C0262713; Medication administration: intraosseous; Therapeutic or Preventive Procedure
+#63	AnnotatorNotes T8	C0021488; Intra-Articular Injections; Therapeutic or Preventive Procedure
+R19	Has_Route_or_Mode Arg1:T7 Arg2:T57	
+#64	AnnotatorNotes T1	C0021488; Intra-Articular Injections; Therapeutic or Preventive Procedure + C0262713; Medication administration: intraosseous; Therapeutic or Preventive Procedure
+R21	Used_for Arg1:T7 Arg2:T8	
+T85	Observation 361 393	mejora de la capacidad funcional
+#66	AnnotatorNotes T85	C0520833; Increased functional residual capacity; Finding
+R22	Location_of Arg1:T42 Arg2:T9	
+R23	Has_Age Arg1:T58 Arg2:T59	
+T86	Quantifier_or_Qualifier 603 620	moderada a severa
+#67	AnnotatorNotes T86	C1299393; Moderate to severe; Qualitative Concept
+T87	CONC 646 651	WOMAC
+#68	AnnotatorNotes T87	C5190458; Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC); Intellectual Product
+R26	Has_Quantifier_or_Qualifier Arg1:T87 Arg2:T86	
+R27	Has_Quantifier_or_Qualifier Arg1:T80 Arg2:T86	
+R28	Has_Duration_or_Interval Arg1:T10 Arg2:T60	
+T88	Quantifier_or_Qualifier 706 721	grados III y IV
+T89	CONC 731 767	clasificación de Kellgren y Lawrence
+#69	AnnotatorNotes T89	C3177117; Kellgren-Lawrence score; Finding
+R29	Has_Quantifier_or_Qualifier Arg1:T89 Arg2:T88	
+T90	Observation 820 858	Capacidad para cumplir con las visitas
+T91	Observation 779 818	refractarios al tratamiento conservador
+#70	AnnotatorNotes T91	C0438286; Absent response to treatment; Finding (?)
+R31	Experiences Arg1:T62 Arg2:T91	
+R32	Overlap Arg1:T91 Arg2:T12	
+R33	Location_of Arg1:T43 Arg2:T13	
+T92	Result_or_Value 896 909	inferior a 35
+R34	Has_Result_or_Value Arg1:T13 Arg2:T92	
+R35	Experiences Arg1:T82 Arg2:T44	
+R36	Used_for Arg1:T45 Arg2:T44	
+R37	Overlap Arg1:T45 Arg2:T64	
+R38	Experiences Arg1:T65 Arg2:T15	
+#71	AnnotatorNotes T15	C0702249; Infiltration (procedure); Therapeutic or Preventive Procedure
+R39	Used_for Arg1:T16 Arg2:T15	
+R40	Overlap Arg1:T16 Arg2:T66	
+R41	Experiences Arg1:T67 Arg2:T17	
+R42	Location_of Arg1:T46 Arg2:T18	
+T93	Result_or_Value 1205 1225	superior a 15 grados
+R43	Has_Result_or_Value Arg1:T17 Arg2:T93	
+R44	Experiences Arg1:T67 Arg2:T18	
+T94	Quantifier_or_Qualifier 1196 1203	severas
+#72	AnnotatorNotes T94	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R45	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T94	
+#73	AnnotatorNotes T19	C0243026; Sepsis; Disease or Syndrome | C1400591; local infection; Disease or Syndrome
+#74	AnnotatorNotes T22	C0006826; Malignant Neoplasms; Neoplastic Process
+R46	Used_for Arg1:T47 Arg2:T25	
+#75	AnnotatorNotes T20	C4048329; Immunosuppression; Disease or Syndrome (?)
+R47	Location_of Arg1:T48 Arg2:T26	
+R48	Experiences Arg1:T68 Arg2:T26	
+R49	Experiences Arg1:T68 Arg2:T27	
+T95	Quantifier_or_Qualifier 1501 1516	mal controlados
+#76	AnnotatorNotes T95	C3853134; Poorly controlled; Functional Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T95	
+R51	Experiences Arg1:T69 Arg2:T28	
+R52	Causes Arg1:T29 Arg2:T28	
+R53	Experiences Arg1:T70 Arg2:T30	
+R54	Used_for Arg1:T49 Arg2:T30	
+R55	Used_for Arg1:T31 Arg2:T30	
+R56	Before Arg1:T76 Arg2:T32	
+R61	Causes Arg1:T72 Arg2:T51	
+#77	AnnotatorNotes T51	C2363741; HIV-1 infection; Disease or Syndrome | C0854094; HIV-2 infection; Disease or Syndrome 
+T96	Result_or_Value 1771 1779	positiva
+#78	AnnotatorNotes T96	C1446409; Positive; Finding
+R62	Has_Result_or_Value Arg1:T33 Arg2:T96	
+R63	Causes Arg1:T34 Arg2:T96	
+R64	Causes Arg1:T35 Arg2:T96	
+R65	Causes Arg1:T36 Arg2:T96	
+R66	Causes Arg1:T51 Arg2:T96	
+#79	AnnotatorNotes T37	C2960239; Assessment using health assessment questionnaire; Health Care Activity
+T97	Observation 1935 1944	capacidad
+#80	AnnotatorNotes T97	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R67	Negation Arg1:T75 Arg2:T97	
+A10	Assertion T97 Negated
+R68	Overlap Arg1:T97 Arg2:T50	
+R14	Before Arg1:T6 Arg2:T85	
+T83	Observation 361 370;399 404	mejora de dolor
+#61	AnnotatorNotes T83	C5230944; Sensation of pain reduced; Finding (?)
+R15	Before Arg1:T6 Arg2:T83	
+R20	Experiences Arg1:T62 Arg2:T12	
+A11	Experiencer T79 Patient
+A12	Experiencer T74 Patient
+A13	Experiencer T55 Patient
+A14	Experiencer T58 Patient
+A15	Experiencer T77 Patient
+A16	Experiencer T62 Patient
+A17	Experiencer T82 Patient
+A18	Experiencer T65 Patient
+A19	Experiencer T67 Patient
+A20	Experiencer T68 Patient
+A21	Experiencer T69 Patient
+A22	Experiencer T70 Patient

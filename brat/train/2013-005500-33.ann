@@ -1,0 +1,191 @@
+T1	PROC 44 125	Ensayo de 26 semanas, multicéntrico, aleatorizado, abierto, de 2 grupos paralelos
+T2	CHEM 175 191	insulina detemir
+#1	AnnotatorNotes T2	C0537270; insulin detemir; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T3	CHEM 204 241	insulina protamina neutra de Hagedorn
+#2	AnnotatorNotes T3	C0021658; Neutral Protamine Hagedorn Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T4	CHEM 261 271	metformina
+#3	AnnotatorNotes T4	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T5	PROC 296 313	control glucémico
+#4	AnnotatorNotes T5	C3669205; Blood glucose monitoring; Therapeutic or Preventive Procedure | C5392125; Glycemic Control; Therapeutic or Preventive Procedure | C3267174; Glycaemia control; Therapeutic or Preventive Procedure
+T6	DISO 342 360	diabetes de tipo 2
+#5	AnnotatorNotes T6	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T7	PROC 280 289	ejercicio
+#6	AnnotatorNotes T7	C0452240; Physical therapy exercises; Therapeutic or Preventive Procedure
+T8	CHEM 394 404	metformina
+#7	AnnotatorNotes T8	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T9	CHEM 413 427	antidiabéticos
+#8	AnnotatorNotes T9	C0935929; Antidiabetics; Pharmacologic Substance
+T10	CHEM 437 445	insulina
+#9	AnnotatorNotes T10	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T11	DISO 474 489	Diabetes tipo 2
+#10	AnnotatorNotes T11	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T12	DISO 515 539	Diabetes Mellitus tipo 2
+#11	AnnotatorNotes T12	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T13	PROC 569 593	Consentimiento informado
+#12	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	PROC 799 813	procedimientos
+#13	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T15	PROC 1104 1115	Diagnóstico
+#14	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	DISO 1119 1146	diabetes mellitus de tipo 2
+#15	AnnotatorNotes T16	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
+T17	PROC 1198 1209	Tratamiento
+#16	AnnotatorNotes T17	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T18	CHEM 1221 1231	metformina
+#17	AnnotatorNotes T18	C0025598; metformin; Organic Chemical · Pharmacologic Substance
+T19	CHEM 1289 1297	insulina
+#18	AnnotatorNotes T19	C0021641; Insulin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C3537244; Insulins; Pharmacologic Substance
+T20	CHEM 1283 1286	ADO
+#19	AnnotatorNotes T20	[antidiabéticos orales]
+T21	DISO 1460 1502	Diabetes juvenil de comienzo en la madurez
+#20	AnnotatorNotes T21	C0342276; Maturity onset diabetes mellitus in young; Disease or Syndrome
+T22	DISO 1504 1508	MODY
+#21	AnnotatorNotes T22	C0342276; Maturity onset diabetes mellitus in young; Disease or Syndrome
+T23	CHEM 1514 1523	Péptido C
+#22	AnnotatorNotes T23	C0006558; C-Peptide; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T24	PROC 1514 1533	Péptido C en ayunas
+#23	AnnotatorNotes T24	C2208720; fasting C-peptide level; Laboratory Procedure
+T25	DISO 1565 1584	Disfunción hepática
+#24	AnnotatorNotes T25	C0086565; Liver Dysfunction; Finding
+T26	CHEM 1612 1636	alanina aminotransferasa
+#25	AnnotatorNotes T26	C0001899; Alanine Transaminase; Amino Acid, Peptide, or Protein · Enzyme
+T27	PROC 1638 1641	ALT
+#26	AnnotatorNotes T27	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T28	DISO 1695 1720	Retinopatía proliferativa
+#27	AnnotatorNotes T28	C0339467; Proliferative retinopathy; Disease or Syndrome
+T29	DISO 1723 1734	maculopatía
+#28	AnnotatorNotes T29	C0730362; Disorder of macula of retina; Disease or Syndrome
+T30	PROC 1762 1773	tratamiento
+#29	AnnotatorNotes T30	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T31	PROC 131 168	investigar la eficacia y la seguridad
+T32	PROC 274 279	dieta
+#30	AnnotatorNotes T32	C0012159; Diet therapy; Health Care Activity | C0600072; Feeding and dietary regimes; Therapeutic or Preventive Procedure
+T33	PROC 1062 1086	consentimiento informado
+#31	AnnotatorNotes T33	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T34	PROC 1356 1361	HbA1c
+#32	AnnotatorNotes T34	C0202054; Glucohemoglobin measurement; Laboratory Procedure
+T35	ANAT 1576 1584	hepática
+#33	AnnotatorNotes T35	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T36	PROC 1603 1636	valor de alanina aminotransferasa
+T37	Date 12 16	2013
+T38	Duration 54 64	26 semanas
+T39	LIVB 317 322	niños
+#34	AnnotatorNotes T39	C0008059; Child; Age Group
+T40	Route 428 434	orales
+#35	AnnotatorNotes T40	C1527415; Oral Route of Drug administration; Functional Concept
+T41	LIVB 598 606	paciente
+#36	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 612 631	representante legal
+#37	AnnotatorNotes T42	C4288823; Legal Representative for the Study; Human
+T43	LIVB 656 660	niño
+#38	AnnotatorNotes T43	C0008059; Child; Age Group
+T44	LIVB 950 957	Hombres
+#39	AnnotatorNotes T44	C0025266; Male population group; Population Group
+T45	LIVB 960 967	mujeres
+#40	AnnotatorNotes T45	C0043210; Woman; Population Group
+T46	Age 994 1016	entre los 10 y 17 años
+T47	Duration 1155 1171	al menos 3 meses
+T48	Dose 1233 1245	1000-2000 mg
+T49	Frequency 1245 1249	/día
+T50	Duration 1312 1328	al menos 3 meses
+T53	LIVB 1802 1814	investigador
+#41	AnnotatorNotes T53	C0035173; Research Personnel; Professional or Occupational Group
+T54	LIVB 325 337	adolescentes
+#42	AnnotatorNotes T54	C0205653; Adolescent (age group); Age Group
+A1	Population_data T39 Age
+A2	Population_data T54 Age
+A3	Population_data T43 Age
+A4	Status T29 History_of
+A5	Status T28 History_of
+#43	AnnotatorNotes T31	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#44	AnnotatorNotes T36	C0201836; Alanine aminotransferase measurement; Laboratory Procedure
+T51	Result_or_Value 1643 1690	≥ 2,5 veces el límite superior de la normalidad
+R1	Has_Result_or_Value Arg1:T27 Arg2:T51	
+R2	Has_Result_or_Value Arg1:T36 Arg2:T51	
+R3	Location_of Arg1:T35 Arg2:T25	
+T52	Result_or_Value 1534 1544	<0,6 ng/ml
+R6	Has_Result_or_Value Arg1:T24 Arg2:T52	
+T55	Quantifier_or_Qualifier 1774 1779	agudo
+R7	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T55	
+R8	Has_Duration_or_Interval Arg1:T1 Arg2:T38	
+R9	Combined_with Arg1:T3 Arg2:T4	
+R10	Combined_with Arg1:T2 Arg2:T4	
+R11	Combined_with Arg1:T4 Arg2:T32	
+R13	Experiences Arg1:T39 Arg2:T2	
+R14	Experiences Arg1:T54 Arg2:T2	
+R15	Experiences Arg1:T39 Arg2:T3	
+R16	Experiences Arg1:T54 Arg2:T3	
+T56	Quantifier_or_Qualifier 361 389	insuficientemente controlada
+R17	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T56	
+R18	Has_Route_or_Mode Arg1:T9 Arg2:T40	
+R19	Combined_with Arg1:T8 Arg2:T9	
+R20	Combined_with Arg1:T9 Arg2:T10	
+T57	Quantifier_or_Qualifier 446 451	basal
+#45	AnnotatorNotes T57	C1442488; Baseline; Quantitative Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T57	
+R22	Experiences Arg1:T39 Arg2:T5	
+R23	Experiences Arg1:T54 Arg2:T5	
+R24	Used_for Arg1:T2 Arg2:T5	
+R25	Used_for Arg1:T3 Arg2:T5	
+R26	Has_Age Arg1:T44 Arg2:T46	
+R27	Has_Age Arg1:T45 Arg2:T46	
+R28	Overlap Arg1:T33 Arg2:T46	
+R29	Has_Duration_or_Interval Arg1:T16 Arg2:T47	
+T58	PROC 1184 1193	selección
+#46	AnnotatorNotes T58	C0242802; Patient Selection; Research Activity
+R30	Before Arg1:T16 Arg2:T58	
+R31	Before Arg1:T15 Arg2:T58	
+R32	Used_for Arg1:T18 Arg2:T17	
+T59	Quantifier_or_Qualifier 1210 1217	estable
+R33	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T59	
+R34	Has_Dose_or_Strength Arg1:T18 Arg2:T48	
+R35	Has_Frequency Arg1:T18 Arg2:T49	
+T60	Quantifier_or_Qualifier 1251 1255	sola
+R36	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T60	
+R37	Combined_with Arg1:T17 Arg2:T20	
+R38	Combined_with Arg1:T17 Arg2:T19	
+T61	Quantifier_or_Qualifier 1298 1303	basal
+#47	AnnotatorNotes T61	C1442488; Baseline; Quantitative Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T61	
+R40	Has_Duration_or_Interval Arg1:T18 Arg2:T50	
+T62	PROC 1341 1350	selección
+#48	AnnotatorNotes T62	C0242802; Patient Selection; Research Activity
+R41	Before Arg1:T17 Arg2:T62	
+T63	Result_or_Value 1362 1412	≥ 7,0 % y ≤ 10,5 % (≥ 53 mmol/mol y ≤ 91 mmol/mol)
+R42	Has_Result_or_Value Arg1:T34 Arg2:T63	
+#49	AnnotatorNotes T55	C0205178; acute; Temporal Concept
+R43	Experiences Arg1:T54 Arg2:T6	
+R44	Experiences Arg1:T39 Arg2:T6	
+R45	Experiences Arg1:T39 Arg2:T8	
+R46	Experiences Arg1:T54 Arg2:T8	
+R47	Before Arg1:T8 Arg2:T2	
+R48	Before Arg1:T8 Arg2:T3	
+T64	PROC 1419 1428	selección
+#50	AnnotatorNotes T64	C0242802; Patient Selection; Research Activity
+R52	Overlap Arg1:T34 Arg2:T64	
+T65	PROC 1551 1560	selección
+#51	AnnotatorNotes T65	C0242802; Patient Selection; Research Activity
+R53	Overlap Arg1:T24 Arg2:T65	
+T66	PROC 728 734	ensayo
+#52	AnnotatorNotes T66	C0008976; Clinical Trials; Research Activity
+R54	Before Arg1:T13 Arg2:T66	
+R55	Combined_with Arg1:T4 Arg2:T7	
+T67	Observation 1087 1099	asentimiento
+T68	Observation 639 651	asentimiento
+R12	Experiences Arg1:T43 Arg2:T68	
+R56	Overlap Arg1:T67 Arg2:T46	
+R57	Experiences Arg1:T45 Arg2:T67	
+R58	Experiences Arg1:T44 Arg2:T67	
+R49	Before Arg1:T68 Arg2:T66	
+#53	AnnotatorNotes T68	C1302239; Patient consented to clinical trial; Finding (?)
+#54	AnnotatorNotes T67	C1302239; Patient consented to clinical trial; Finding (?)
+#55	AnnotatorNotes T59	C0205360; Stabl status; Qualitative Concept
+#56	AnnotatorNotes T60	C0205171; Singular; Quantitative Concept
+A6	Experiencer T39 Patient
+A7	Experiencer T54 Patient
+A8	Experiencer T41 Patient
+A9	Experiencer T42 Other
+A10	Experiencer T43 Patient
+A11	Experiencer T44 Patient
+A12	Experiencer T45 Patient
+A13	Experiencer T53 Other

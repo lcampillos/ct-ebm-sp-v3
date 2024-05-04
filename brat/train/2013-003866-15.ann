@@ -1,0 +1,81 @@
+T1	PROC 684 698	consentimiento
+#1	AnnotatorNotes T1	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T2	PROC 74 95	ESTUDIO MULTICÉNTRICO
+#2	AnnotatorNotes T2	C1096776; Multicenter Study; Research Activity
+T3	PROC 185 194	PROTOCOLO
+#3	AnnotatorNotes T3	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T4	DISO 224 242	Cáncer de páncreas
+#4	AnnotatorNotes T4	C0346647; Malignant neoplasm of pancreas; Neoplastic Process
+T5	ANAT 271 278	órganos
+#5	AnnotatorNotes T5	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T6	PROC 607 631	consentimiento informado
+#6	AnnotatorNotes T6	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T7	ANAT 335 343	páncreas
+#7	AnnotatorNotes T7	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T8	PROC 836 850	consentimiento
+#8	AnnotatorNotes T8	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T9	PROC 475 506	seguimiento de la supervivencia
+T10	ANAT 234 242	páncreas
+#9	AnnotatorNotes T10	C0030274; Pancreas; Body Part, Organ, or Organ Component | C1278931; Entire pancreas; Body Part, Organ, or Organ Component
+T11	DISO 305 343	Adenocarcinoma metastásico de páncreas
+T12	DISO 649 658	fallecido
+#10	AnnotatorNotes T12	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T13	PROC 46 66	ESTUDIO DE EXTENSIÓN
+T14	Date 13 17	2013
+T15	LIVB 147 154	SUJETOS
+#11	AnnotatorNotes T15	C0681850; Study Subject; Group
+T16	Date 533 557	finales de marzo de 2013
+T17	LIVB 639 645	sujeto
+#12	AnnotatorNotes T17	C0681850; Study Subject; Group
+T18	LIVB 712 720	pariente
+T19	LIVB 738 757	representante legal
+#13	AnnotatorNotes T19	C4288823; Legal Representative for the Study; Human
+T20	Neg_cue 823 835	Retirada del
+T21	PHYS 568 576	entender
+#14	AnnotatorNotes T21	C0162340; Comprehension; Mental Process
+A1	Assertion T8 Negated
+A2	Status T9 History_of
+R1	Before Arg1:T3 Arg2:T2	
+R2	Location_of Arg1:T10 Arg2:T4	
+R3	Location_of Arg1:T7 Arg2:T11	
+T22	Observation 431 446	estado con vida
+#15	AnnotatorNotes T22	C4520849; Living; Finding
+R4	Overlap Arg1:T22 Arg2:T9	
+R5	Before Arg1:T9 Arg2:T16	
+R6	Experiences Arg1:T17 Arg2:T12	
+R7	Experiences Arg1:T17 Arg2:T21	
+T23	Observation 585 595	capacitado
+#16	AnnotatorNotes T23	C1299581; Able (finding); Finding (?) | C1555472; Authorized; Finding (?)
+R8	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T23	
+#17	AnnotatorNotes T18	C0080103; Relative (related person); Family Group
+R9	Negation Arg1:T20 Arg2:T8	
+T24	PROC 771 792	recopilación de datos
+#18	AnnotatorNotes T24	C0010995; Data Collection; Research Activity
+R10	Before Arg1:T1 Arg2:T24	
+R11	Before Arg1:T6 Arg2:T24	
+T25	Quantifier_or_Qualifier 699 704	legal
+#19	AnnotatorNotes T25	C1301860; Legal; Functional Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T25	
+R13	Overlap Arg1:T23 Arg2:T6	
+R14	Overlap Arg1:T21 Arg2:T6	
+T26	CONC 126 139	SUPERVIVENCIA
+#20	AnnotatorNotes T26	C0038955; survivorship; Temporal Concept
+T27	CONC 493 506	supervivencia
+#21	AnnotatorNotes T27	C0038955; survivorship; Temporal Concept
+T28	Quantifier_or_Qualifier 253 262	extendido
+#22	AnnotatorNotes T28	C0036525; Metastatic to; Functional Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T28	
+T29	Quantifier_or_Qualifier 468 474	último
+R16	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T29	
+R17	Before Arg1:T3 Arg2:T13	
+R18	Location_of Arg1:T5 Arg2:T4	
+#23	AnnotatorNotes T11	C0861727; Pancreatic adenocarcinoma metastatic; Neoplastic Process
+#24	AnnotatorNotes T29	C1517741; Last; Qualitative Concept
+T30	Observation 378 409	haber participado en el estudio
+A3	Status T30 History_of
+#25	AnnotatorNotes T30	C1278516; Patient participation status; Finding (?)
+A4	Experiencer T15 Patient
+A5	Experiencer T17 Patient
+A6	Experiencer T18 Family_member
+A7	Experiencer T19 Other
+A8	Assertion T12 Hypothetical

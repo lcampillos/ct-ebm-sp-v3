@@ -1,0 +1,166 @@
+T1	PROC 65 72	Asepsia
+#1	AnnotatorNotes T1	C0003974; Asepsis; Therapeutic or Preventive Procedure
+T2	ANAT 73 80	cutánea
+#2	AnnotatorNotes T2	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T3	CHEM 84 96	clorhexidina
+#3	AnnotatorNotes T3	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T4	CHEM 121 133	clorhexidina
+#4	AnnotatorNotes T4	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T5	PROC 154 164	prevención
+#5	AnnotatorNotes T5	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T6	CHEM 102 109	alcohol
+#6	AnnotatorNotes T6	C0001962; ethanol; Organic Chemical · Pharmacologic Substance
+T7	PROC 765 789	consentimiento informado
+#7	AnnotatorNotes T7	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T8	DISO 542 545	BRC
+#8	AnnotatorNotes T8	C1328352; Catheter bacteraemia; Disease or Syndrome
+T9	PROC 996 1010	Uso de catéter
+T10	CHEM 353 365	clorhexidina
+#9	AnnotatorNotes T10	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T11	PROC 386 396	prevención
+#10	AnnotatorNotes T11	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T12	DISO 505 540	Bacteriemia relacionada con catéter
+T13	PROC 585 602	ingresados en UCI
+#11	AnnotatorNotes T13	C5419131; Intensive Care Unit Stay; Health Care Activity
+T14	DISO 834 841	alergia
+#12	AnnotatorNotes T14	C1527304; Allergic Reaction; Pathologic Function
+T15	CHEM 856 868	clorhexidina
+#13	AnnotatorNotes T15	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T16	CHEM 873 893	alcohol isopropílico
+#14	AnnotatorNotes T16	C0022237; Isopropyl Alcohol; Organic Chemical · Pharmacologic Substance
+T17	PROC 985 992	ingreso
+#15	AnnotatorNotes T17	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T18	DISO 819 831	Intolerancia
+#16	AnnotatorNotes T18	C0277585; Intolerance to drug; Pathologic Function
+T19	DISO 168 205	bacteriemias relacionadas con catéter
+#17	AnnotatorNotes T19	C1328352; Catheter bacteraemia; Disease or Syndrome
+T20	CHEM 316 328	clorhexidina
+#18	AnnotatorNotes T20	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T21	DISO 400 437	bacteriemias relacionadas con catéter
+#19	AnnotatorNotes T21	C1328352; Catheter bacteraemia; Disease or Syndrome
+T23	DISO 955 968	fallecimiento
+#20	AnnotatorNotes T23	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T24	CHEM 334 341	alcohol
+#21	AnnotatorNotes T24	C0001962; ethanol; Organic Chemical · Pharmacologic Substance
+T25	PROC 251 288	Ensayo Clínico Fase IV de comparación
+T26	PROC 297 304	Asepsia
+#22	AnnotatorNotes T26	C0003974; Asepsis; Therapeutic or Preventive Procedure
+T27	ANAT 305 312	cutánea
+#23	AnnotatorNotes T27	C0011646; Dermis; Tissue | C1123023; Skin; Body System
+T28	Date 13 17	2017
+T29	DEVI 198 205	catéter
+#24	AnnotatorNotes T29	C0085590; catheter device; Medical Device
+T30	LIVB 212 228	paciente crítico
+#25	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group + C0815272; critical population; Population Group
+T31	DEVI 430 437	catéter
+#26	AnnotatorNotes T31	C0085590; catheter device; Medical Device
+T32	LIVB 444 460	paciente crítico
+#27	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group + C0815272; critical population; Population Group
+T33	DEVI 533 540	catéter
+#28	AnnotatorNotes T33	C0085590; catheter device; Medical Device
+T34	LIVB 575 584	Pacientes
+#29	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	LIVB 606 615	Pacientes
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 665 674	Pacientes
+#31	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	DEVI 701 723	catéter venoso central
+#32	AnnotatorNotes T37	C1145640; Central venous catheter, device; Medical Device
+T38	DEVI 725 728	CVC
+#33	AnnotatorNotes T38	C1145640; Central venous catheter, device; Medical Device
+T39	Duration 738 747	48h o más
+T40	Spec_cue 939 954	probabilidad de
+T41	CHEM 899 920	amarillo anaranjado S
+#34	AnnotatorNotes T41	C0060120; Sunset Yellow FCF; Indicator, Reagent, or Diagnostic Aid · Organic Chemical
+T42	Duration 972 979	las 48h
+T43	DEVI 1003 1010	catéter
+#35	AnnotatorNotes T43	C0085590; catheter device; Medical Device
+T44	Dose 97 99	2%
+T45	Dose 110 113	70%
+T46	Dose 142 144	2%
+T47	Dose 329 331	2%
+T48	Dose 342 345	70%
+T49	Dose 374 376	2%
+T50	Age 638 661	mayor o igual a 18 años
+T51	CHEM 922 926	E110
+#36	AnnotatorNotes T51	C0060120; Sunset Yellow FCF; Indicator, Reagent, or Diagnostic Aid · Organic Chemical
+A1	Assertion T23 Speculated
+A2	Status T18 History_of
+A3	Status T14 History_of
+#37	AnnotatorNotes T25	C1579762; comparative study research; Research Activity + C0282462; Phase 4 Clinical Trials; Research Activity
+#38	AnnotatorNotes T12	C1328352; Catheter bacteraemia; Disease or Syndrome
+#39	AnnotatorNotes T9	C0007430; Catheterization; Therapeutic or Preventive Procedure | C0883301; Catheter placement; Therapeutic or Preventive Procedure
+R1	Location_of Arg1:T2 Arg2:T1	
+R2	Has_Dose_or_Strength Arg1:T3 Arg2:T44	
+R3	Combined_with Arg1:T3 Arg2:T6	
+R4	Has_Dose_or_Strength Arg1:T6 Arg2:T45	
+R5	Used_for Arg1:T3 Arg2:T1	
+R6	Used_for Arg1:T4 Arg2:T1	
+R7	Has_Dose_or_Strength Arg1:T4 Arg2:T46	
+R8	Experiences Arg1:T30 Arg2:T1	
+R9	Experiences Arg1:T30 Arg2:T4	
+R10	Experiences Arg1:T30 Arg2:T19	
+R11	Overlap Arg1:T19 Arg2:T29	
+R12	Before Arg1:T5 Arg2:T19	
+R13	Experiences Arg1:T30 Arg2:T5	
+R14	Used_for Arg1:T3 Arg2:T5	
+R15	Used_for Arg1:T4 Arg2:T5	
+T22	Quantifier_or_Qualifier 134 140	acuosa
+#40	AnnotatorNotes T22	C0443350; Watery; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T22	
+R17	Location_of Arg1:T27 Arg2:T26	
+R18	Has_Dose_or_Strength Arg1:T20 Arg2:T47	
+R19	Combined_with Arg1:T20 Arg2:T24	
+R20	Has_Dose_or_Strength Arg1:T24 Arg2:T48	
+R21	Used_for Arg1:T20 Arg2:T26	
+R22	Used_for Arg1:T10 Arg2:T26	
+R23	Used_for Arg1:T20 Arg2:T11	
+R24	Used_for Arg1:T10 Arg2:T11	
+R25	Has_Dose_or_Strength Arg1:T10 Arg2:T49	
+T52	Quantifier_or_Qualifier 366 372	acuosa
+#41	AnnotatorNotes T52	C0443350; Watery; Qualitative Concept
+R26	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T52	
+R27	Before Arg1:T11 Arg2:T21	
+R28	Overlap Arg1:T21 Arg2:T31	
+R29	Experiences Arg1:T32 Arg2:T21	
+R30	Experiences Arg1:T32 Arg2:T11	
+R31	Experiences Arg1:T32 Arg2:T26	
+R32	Experiences Arg1:T32 Arg2:T10	
+R33	Overlap Arg1:T33 Arg2:T8	
+R34	Overlap Arg1:T12 Arg2:T33	
+R35	Experiences Arg1:T34 Arg2:T13	
+R36	Has_Age Arg1:T35 Arg2:T50	
+T53	Quantifier_or_Qualifier 616 628	consecutivos
+#42	AnnotatorNotes T53	C1707491; Consecutive; Qualitative Concept
+R37	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T53	
+T54	Quantifier_or_Qualifier 689 700	al menos un
+R38	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T54	
+R39	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T54	
+R40	Has_Duration_or_Interval Arg1:T38 Arg2:T39	
+R41	Has_Duration_or_Interval Arg1:T37 Arg2:T39	
+R42	Experiences Arg1:T36 Arg2:T37	
+R43	Experiences Arg1:T36 Arg2:T38	
+R44	Causes Arg1:T15 Arg2:T18	
+R45	Causes Arg1:T16 Arg2:T18	
+R46	Causes Arg1:T41 Arg2:T18	
+R47	Causes Arg1:T51 Arg2:T18	
+R48	Causes Arg1:T15 Arg2:T14	
+R49	Causes Arg1:T16 Arg2:T14	
+R50	Causes Arg1:T41 Arg2:T14	
+R51	Causes Arg1:T51 Arg2:T14	
+R52	Speculation Arg1:T40 Arg2:T23	
+R53	Overlap Arg1:T23 Arg2:T42	
+R54	After Arg1:T23 Arg2:T17	
+R55	Used_for Arg1:T43 Arg2:T9	
+T55	Quantifier_or_Qualifier 931 938	Elevada
+#43	AnnotatorNotes T55	C0205250; High; Qualitative Concept
+R56	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T55	
+T56	Quantifier_or_Qualifier 1011 1021	recubierto
+#44	AnnotatorNotes T56	C5396449; Coated with material; Qualitative Concept
+R57	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T56	
+T57	Observation 1025 1059	Incluido previamente en el estudio
+A4	Experiencer T30 Patient
+A5	Experiencer T32 Patient
+A6	Experiencer T34 Patient
+A7	Experiencer T35 Patient
+A8	Experiencer T36 Patient

@@ -1,0 +1,276 @@
+T1	PROC 44 64	Estudio de fase 3b/4
+T2	DISO 68 87	artritis reumatoide
+#1	AnnotatorNotes T2	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T3	PROC 109 204	Estudio de fase 3b/4, aleatorizado, comparativo con un tratamiento activo, con grupos paralelos
+T5	CHEM 226 237	baricitinib
+#2	AnnotatorNotes T5	C4044947; baricitinib; Organic Chemical · Pharmacologic Substance
+T6	DISO 255 274	artritis reumatoide
+#3	AnnotatorNotes T6	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T7	DISO 298 317	Artritis reumatoide
+#4	AnnotatorNotes T7	C0003873; Rheumatoid Arthritis; Disease or Syndrome
+T8	CHEM 434 517	fármaco antirreumático modificador de la enfermedad (FARME) (sintético o biológico)
+#5	AnnotatorNotes T8	C4055380; Biologic Disease-Modifying Antirheumatic Drug; Pharmacologic Substance | C4054347; Non-Biologic Disease-Modifying Antirheumatic Drug; Pharmacologic Substance
+T9	DISO 600 606	signos
+#6	AnnotatorNotes T9	C0311392; Physical findings; Finding
+T10	DISO 623 626	TEV
+#7	AnnotatorNotes T10	C1861172; Venous Thromboembolism; Disease or Syndrome
+T11	PROC 703 706	IMC
+#8	AnnotatorNotes T11	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T12	PROC 817 820	IMC
+#9	AnnotatorNotes T12	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T13	CHEM 940 982	inhibidores del factor de necrosis tumoral
+T14	CHEM 990 1001	baricitinib
+#10	AnnotatorNotes T14	C4044947; baricitinib; Organic Chemical · Pharmacologic Substance
+T15	CHEM 984 987	TNF
+#11	AnnotatorNotes T15	C1456820; Tumor Necrosis Factor-alpha; Amino Acid, Peptide, or Protein · Immunologic Factor
+T16	CHEM 1041 1051	excipiente
+#12	AnnotatorNotes T16	C0015237; Pharmaceutical Excipient; Biomedical or Dental Material
+T17	DISO 1270 1276	cáncer
+#13	AnnotatorNotes T17	C0006826; Malignant Neoplasms; Neoplastic Process
+T18	DISO 1228 1231	TEV
+#14	AnnotatorNotes T18	C1861172; Venous Thromboembolism; Disease or Syndrome
+T19	DISO 1313 1326	herpes zóster
+#15	AnnotatorNotes T19	C0019360; Herpes zoster disease; Disease or Syndrome
+T20	DISO 1335 1346	infecciones
+#16	AnnotatorNotes T20	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T21	DISO 1355 1367	tuberculosis
+#17	AnnotatorNotes T21	C0041296; Tuberculosis; Disease or Syndrome
+T22	DISO 1393 1403	enfermedad
+#18	AnnotatorNotes T22	C0012634; Disease; Disease or Syndrome
+T23	DISO 1466 1483	infección por VIH
+#19	AnnotatorNotes T23	C0019693; HIV Infections; Disease or Syndrome
+T24	PROC 1512 1532	anticuerpos anti-VIH
+#20	AnnotatorNotes T24	C0373916; HIV-1 Antibody Measurement; Laboratory Procedure
+T25	PROC 1747 1761	ensayo clínico
+#21	AnnotatorNotes T25	C0008976; Clinical Trials; Research Activity
+T26	PROC 1817 1831	aleatorización
+#22	AnnotatorNotes T26	C0034656; Randomization; Research Activity
+T27	DISO 1896 1915	alcoholismo crónico
+#23	AnnotatorNotes T27	C0001973; Alcoholic Intoxication, Chronic; Mental or Behavioral Dysfunction
+T28	DISO 1917 1929	drogadicción
+#24	AnnotatorNotes T28	C1510472; Drug Dependence; Mental or Behavioral Dysfunction
+T29	CHEM 1931 1937	drogas
+#25	AnnotatorNotes T29	C0086190; Illicit Drugs; Hazardous or Poisonous Substance
+T30	DISO 1959 1970	toxicomanía
+#26	AnnotatorNotes T30	C1510472; Drug Dependence; Mental or Behavioral Dysfunction
+T31	DISO 407 419	intolerancia
+#27	AnnotatorNotes T31	C0277585; Intolerance to drug; Pathologic Function
+T32	PROC 678 701	índice de masa corporal
+#28	AnnotatorNotes T32	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T33	ANAT 693 701	corporal
+#29	AnnotatorNotes T33	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T34	CHEM 1006 1022	sustancia activa
+T35	CHEM 1582 1618	vacuna elaborada con microbios vivos
+T36	Date 12 16	2018
+T37	LIVB 241 250	pacientes
+#30	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 523 532	pacientes
+#31	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	Age 652 674	edad mínima de 60 años
+T41	Age 779 811	entre 50 años y menos de 60 años
+T42	LIVB 886 899	participantes
+#32	AnnotatorNotes T42	C4554048; Study Participant; Population Group
+T44	Neg_cue 1108 1110	no
+T45	Neg_cue 1135 1137	ni
+T47	Neg_cue 1253 1255	no
+T48	LIVB 1284 1293	pacientes
+#33	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Neg_cue 1294 1296	no
+T50	Neg_cue 1375 1377	ni
+T51	LIVB 1439 1448	pacientes
+#34	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Neg_cue 1554 1556	no
+T53	LIVB 1603 1612	microbios
+#35	AnnotatorNotes T53	C0445623; Microorganism; Organism
+T54	Duration 1639 1657	las cuatro semanas
+T55	Neg_cue 1712 1714	no
+T56	Duration 1782 1800	las cuatro semanas
+T57	Neg_cue 1865 1867	no
+T58	Duration 1908 1915	crónico
+#36	AnnotatorNotes T58	C0205191; chronic; Temporal Concept
+T59	Route 1938 1950	intravenosas
+#37	AnnotatorNotes T59	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T60	Duration 1999 2009	último año
+T62	PHYS 1123 1134	embarazadas
+#38	AnnotatorNotes T62	C0032961; Pregnancy; Organism Function
+T63	LIVB 1480 1483	VIH
+#39	AnnotatorNotes T63	C0019682; HIV; Virus
+T64	LIVB 1529 1532	VIH
+#40	AnnotatorNotes T64	C0019682; HIV; Virus
+T65	LIVB 348 361	participantes
+#41	AnnotatorNotes T65	C4554048; Study Participant; Population Group
+T40	PHYS 1152 1161	lactancia
+#42	AnnotatorNotes T40	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T43	DISO 475 485	enfermedad
+#43	AnnotatorNotes T43	C0012634; Disease; Disease or Syndrome
+T46	LIVB 1094 1107	participantes
+#44	AnnotatorNotes T46	C4554048; Study Participant; Population Group
+T61	LIVB 1169 1182	participantes
+#45	AnnotatorNotes T61	C4554048; Study Participant; Population Group
+T66	LIVB 1239 1252	participantes
+#46	AnnotatorNotes T66	C4554048; Study Participant; Population Group
+T67	LIVB 1851 1864	participantes
+#47	AnnotatorNotes T67	C4554048; Study Participant; Population Group
+T68	LIVB 1698 1711	participantes
+#48	AnnotatorNotes T68	C4554048; Study Participant; Population Group
+T69	LIVB 1540 1553	participantes
+#49	AnnotatorNotes T69	C4554048; Study Participant; Population Group
+A1	Assertion T27 Negated
+A2	Assertion T28 Negated
+A3	Assertion T30 Negated
+A4	Assertion T29 Negated
+A5	Assertion T62 Negated
+A6	Assertion T40 Negated
+A7	Assertion T17 Negated
+A8	Assertion T19 Negated
+A9	Assertion T20 Negated
+A10	Assertion T21 Negated
+A11	Assertion T22 Negated
+A12	Assertion T35 Negated
+A13	Assertion T25 Negated
+A14	Status T25 History_of
+A15	Status T35 History_of
+A16	Status T27 History_of
+A17	Status T28 History_of
+A18	Status T29 History_of
+A19	Status T30 History_of
+A20	Status T18 History_of
+A21	Status T10 History_of
+#50	AnnotatorNotes T13	C3537192; Tumor Necrosis Factor Inhibitors; Pharmacologic Substance 
+#51	AnnotatorNotes T1	C1706097; Trial Phase 3B; Research Activity + C0282462; Phase 4 Clinical Trials; Research Activity
+T4	Observation 922 930	problema
+A22	Assertion T4 Negated
+#52	AnnotatorNotes T4	C1301624; Medical contraindication; Finding (?)
+T70	Neg_cue 915 921	ningún
+R1	Negation Arg1:T70 Arg2:T4	
+R2	Causes Arg1:T13 Arg2:T4	
+R3	Causes Arg1:T15 Arg2:T4	
+R4	Causes Arg1:T14 Arg2:T4	
+R5	Causes Arg1:T34 Arg2:T4	
+R6	Causes Arg1:T16 Arg2:T4	
+R7	Negation Arg1:T44 Arg2:T62	
+R8	Negation Arg1:T45 Arg2:T40	
+T71	Neg_cue 1183 1185	no
+T72	Quantifier_or_Qualifier 1206 1224	más de un episodio
+A23	Assertion T72 Negated
+R9	Negation Arg1:T71 Arg2:T72	
+R10	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T72	
+R11	Negation Arg1:T47 Arg2:T17	
+R12	Negation Arg1:T49 Arg2:T19	
+T73	Quantifier_or_Qualifier 1327 1333	activo
+A24	Assertion T73 Negated
+#53	AnnotatorNotes T73	C0679217; Active State; Idea or Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T73	
+T74	Quantifier_or_Qualifier 1347 1353	graves
+A25	Assertion T74 Negated
+#54	AnnotatorNotes T74	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R14	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T74	
+R15	Negation Arg1:T49 Arg2:T20	
+R16	Negation Arg1:T49 Arg2:T73	
+R17	Negation Arg1:T49 Arg2:T74	
+T75	Quantifier_or_Qualifier 1368 1374	activa
+A26	Assertion T75 Negated
+#55	AnnotatorNotes T75	C0679217; Active State; Idea or Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T75	
+R19	Negation Arg1:T49 Arg2:T75	
+R20	Negation Arg1:T49 Arg2:T21	
+R21	Negation Arg1:T50 Arg2:T22	
+T76	Quantifier_or_Qualifier 1404 1409	grave
+A27	Assertion T76 Negated
+#56	AnnotatorNotes T76	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R22	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T76	
+R23	Negation Arg1:T50 Arg2:T76	
+R24	Negation Arg1:T52 Arg2:T35	
+R25	Negation Arg1:T55 Arg2:T25	
+T77	Quantifier_or_Qualifier 1742 1746	otro
+A28	Assertion T77 Negated
+R26	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T77	
+R27	Negation Arg1:T55 Arg2:T77	
+R28	Negation Arg1:T57 Arg2:T27	
+R29	Negation Arg1:T57 Arg2:T28	
+R30	Negation Arg1:T57 Arg2:T29	
+A29	Assertion T59 Negated
+R31	Negation Arg1:T57 Arg2:T59	
+R32	Has_Route_or_Mode Arg1:T29 Arg2:T59	
+R33	Negation Arg1:T57 Arg2:T30	
+R34	Experiences Arg1:T37 Arg2:T5	
+R35	Experiences Arg1:T37 Arg2:T6	
+R36	Experiences Arg1:T65 Arg2:T31	
+R37	Causes Arg1:T8 Arg2:T31	
+R38	Experiences Arg1:T65 Arg2:T43	
+T78	Observation 382 404	respuesta insuficiente
+#57	AnnotatorNotes T78	C1320680; Poor response to treatment; Finding
+R39	Experiences Arg1:T65 Arg2:T78	
+R40	Overlap Arg1:T78 Arg2:T8	
+R41	Causes Arg1:T10 Arg2:T9	
+T79	PROC 641 648	estudio
+#58	AnnotatorNotes T79	C0008976; Clinical Trials; Research Activity
+R42	Before Arg1:T9 Arg2:T79	
+A30	Status T9 History_of
+R43	Location_of Arg1:T33 Arg2:T32	
+R44	Location_of Arg1:T33 Arg2:T11	
+T80	Result_or_Value 708 765	igual o mayor de 30 kilogramos por metro cuadrado (kg/m2)
+R45	Has_Result_or_Value Arg1:T32 Arg2:T80	
+R46	Has_Result_or_Value Arg1:T11 Arg2:T80	
+T81	Result_or_Value 824 852	entre 25 y menos de 30 kg/m2
+R47	Has_Result_or_Value Arg1:T12 Arg2:T81	
+R48	Overlap Arg1:T12 Arg2:T41	
+R49	Experiences Arg1:T42 Arg2:T4	
+#59	AnnotatorNotes T34	C0574031; Biologically Active Substance; Biologically Active Substance (?)
+R50	Experiences Arg1:T46 Arg2:T62	
+R51	Experiences Arg1:T46 Arg2:T40	
+R52	Experiences Arg1:T61 Arg2:T18	
+R53	Experiences Arg1:T66 Arg2:T17	
+R54	Experiences Arg1:T48 Arg2:T19	
+R55	Experiences Arg1:T48 Arg2:T20	
+R56	Experiences Arg1:T48 Arg2:T21	
+R57	Experiences Arg1:T48 Arg2:T22	
+R58	Experiences Arg1:T51 Arg2:T23	
+R59	Causes Arg1:T63 Arg2:T23	
+A31	Assertion T23 Negated
+A32	Assertion T24 Negated
+T82	Result_or_Value 1497 1506	positivos
+A33	Assertion T82 Negated
+#60	AnnotatorNotes T82	C1446409; Positive; Finding
+R60	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T82	
+R61	Experiences Arg1:T51 Arg2:T24	
+R62	Causes Arg1:T64 Arg2:T82	
+R63	Causes Arg1:T63 Arg2:T82	
+R64	Experiences Arg1:T69 Arg2:T35	
+R65	Overlap Arg1:T35 Arg2:T54	
+T83	CONC 1672 1690	inicio del estudio
+#61	AnnotatorNotes T83	C4684789; Study Start; Temporal Concept | C2349982; Study start time; Temporal Concept
+R66	Before Arg1:T35 Arg2:T83	
+#62	AnnotatorNotes T35	C0042211; Vaccines, Attenuated; Pharmacologic Substance · Immunologic Factor
+R67	Overlap Arg1:T25 Arg2:T56	
+R68	Before Arg1:T25 Arg2:T26	
+R69	Experiences Arg1:T67 Arg2:T27	
+R70	Has_Duration_or_Interval Arg1:T27 Arg2:T58	
+R71	Experiences Arg1:T67 Arg2:T28	
+R72	Experiences Arg1:T67 Arg2:T29	
+R73	Causes Arg1:T29 Arg2:T28	
+R74	Experiences Arg1:T67 Arg2:T30	
+R75	Overlap Arg1:T30 Arg2:T60	
+R76	Overlap Arg1:T28 Arg2:T60	
+R77	Overlap Arg1:T29 Arg2:T60	
+R78	Overlap Arg1:T27 Arg2:T60	
+T84	Quantifier_or_Qualifier 420 433	al menos a un
+R79	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T84	
+R80	Experiences Arg1:T42 Arg2:T13	
+R81	Experiences Arg1:T42 Arg2:T15	
+R82	Experiences Arg1:T42 Arg2:T14	
+R83	Experiences Arg1:T42 Arg2:T34	
+R84	Experiences Arg1:T42 Arg2:T16	
+#63	AnnotatorNotes T77	C0205394; Other; Qualitative Concept
+A34	Experiencer T37 Patient
+A35	Experiencer T65 Patient
+A36	Experiencer T38 Patient
+A37	Experiencer T42 Patient
+A38	Experiencer T46 Patient
+A39	Experiencer T61 Patient
+A40	Experiencer T66 Patient
+A41	Experiencer T48 Patient
+A42	Experiencer T51 Patient
+A43	Experiencer T69 Patient
+A44	Experiencer T68 Patient
+A45	Experiencer T67 Patient

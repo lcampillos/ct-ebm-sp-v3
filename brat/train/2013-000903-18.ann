@@ -1,0 +1,68 @@
+T1	PROC 46 76	Estudio de fase 3 aleatorizado
+T2	PROC 83 128	evaluar la eficacia protectora y la seguridad
+T3	CHEM 136 154	vacuna terapéutica
+#1	AnnotatorNotes T3	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	DISO 218 221	CMV
+#2	AnnotatorNotes T4	C0010823; Cytomegalovirus Infections; Disease or Syndrome
+T5	DISO 201 216	citomegalovirus
+T6	PROC 235 275	alotrasplante de células hematopoyéticas
+T7	PROC 308 315	placebo
+#3	AnnotatorNotes T7	C0032042; Placebos; Therapeutic or Preventive Procedure
+T8	PROC 322 355	estudio aleatorizado, doble ciego
+T9	PROC 379 447	Estudio de fase 3 aleatorizado, doble ciego y controlado con placebo
+T10	DISO 571 586	citomegalovirus
+T11	PROC 453 498	evaluar la eficacia protectora y la seguridad
+T12	CHEM 506 524	vacuna terapéutica
+#4	AnnotatorNotes T12	C0042210; Vaccines; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T13	DISO 588 591	CMV
+#5	AnnotatorNotes T13	C0010823; Cytomegalovirus Infections; Disease or Syndrome
+T14	PROC 605 645	alotrasplante de células hematopoyéticas
+T15	ANAT 622 645	células hematopoyéticas
+#6	AnnotatorNotes T15	C2323499; Hematopoietic cell; Cell
+T16	CHEM 156 163	ASP0113
+T17	ANAT 252 275	células hematopoyéticas
+#7	AnnotatorNotes T17	C2323499; Hematopoietic cell; Cell
+T18	CHEM 526 533	ASP0113
+T19	Date 13 17	2013
+T25	PHYS 260 275	hematopoyéticas
+#8	AnnotatorNotes T25	C0018951; Hematopoiesis; Organ or Tissue Function
+T27	PHYS 630 645	hematopoyéticas
+#9	AnnotatorNotes T27	C0018951; Hematopoiesis; Organ or Tissue Function
+#10	AnnotatorNotes T1	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity
+#11	AnnotatorNotes T16	C3827159; CMVpp65/gB Plasmid Vaccine ASP0113; Pharmacologic Substance · Immunologic Factor 
+#12	AnnotatorNotes T18	C3827159; CMVpp65/gB Plasmid Vaccine ASP0113; Pharmacologic Substance · Immunologic Factor 
+#13	AnnotatorNotes T5	C0010823; Cytomegalovirus Infections; Disease or Syndrome
+#14	AnnotatorNotes T10	C0010823; Cytomegalovirus Infections; Disease or Syndrome
+#15	AnnotatorNotes T8	C0206034; Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity
+#16	AnnotatorNotes T9	C0282461; Phase 3 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+T20	LIVB 168 178	receptores
+#17	AnnotatorNotes T20	C0376387; Transplant Recipients; Patient or Disabled Group
+T21	LIVB 538 548	receptores
+#18	AnnotatorNotes T21	C0376387; Transplant Recipients; Patient or Disabled Group
+R1	Experiences Arg1:T20 Arg2:T3	
+R2	Experiences Arg1:T20 Arg2:T16	
+R3	Experiences Arg1:T20 Arg2:T5	
+R4	Experiences Arg1:T20 Arg2:T4	
+T22	Observation 179 222	seropositivos para el citomegalovirus (CMV)
+R6	Experiences Arg1:T20 Arg2:T6	
+R9	Experiences Arg1:T20 Arg2:T7	
+R10	Experiences Arg1:T20 Arg2:T25	
+R11	Experiences Arg1:T21 Arg2:T12	
+T23	Observation 549 592	seropositivos para el citomegalovirus (CMV)
+R13	Experiences Arg1:T21 Arg2:T18	
+R14	Experiences Arg1:T21 Arg2:T10	
+R15	Experiences Arg1:T21 Arg2:T13	
+R17	Experiences Arg1:T21 Arg2:T14	
+R18	Experiences Arg1:T21 Arg2:T27	
+R20	Overlap Arg1:T23 Arg2:T10	
+R21	Overlap Arg1:T23 Arg2:T13	
+R22	Overlap Arg1:T22 Arg2:T5	
+R23	Overlap Arg1:T22 Arg2:T4	
+R5	Experiences Arg1:T20 Arg2:T22	
+R7	Experiences Arg1:T21 Arg2:T23	
+#19	AnnotatorNotes T6	C4255274; allogeneic hematopoietic stem cell transplant; Therapeutic or Preventive Procedure
+#20	AnnotatorNotes T14	C4255274; allogeneic hematopoietic stem cell transplant; Therapeutic or Preventive Procedure
+A1	Experiencer T20 Patient
+A2	Experiencer T21 Patient
+#21	AnnotatorNotes T22	C2728976; CMV positive liver transplant recipient; Finding
+#22	AnnotatorNotes T23	C2728976; CMV positive liver transplant recipient; Finding

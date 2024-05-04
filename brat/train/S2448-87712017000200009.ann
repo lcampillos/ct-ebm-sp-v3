@@ -1,0 +1,204 @@
+T1	PROC 1 22	Perfusión intravenosa
+#1	AnnotatorNotes T1	C0021440; Intravenous infusion procedures; Therapeutic or Preventive Procedure
+T2	CHEM 26 35	lidocaína
+#2	AnnotatorNotes T2	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T3	PROC 70 99	colecistectomía laparoscópica
+#3	AnnotatorNotes T3	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T4	CHEM 159 168	lidocaína
+#4	AnnotatorNotes T4	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T5	CHEM 247 255	opioides
+#5	AnnotatorNotes T5	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T6	DISO 327 346	efectos secundarios
+#6	AnnotatorNotes T6	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T7	CHEM 418 427	lidocaína
+#7	AnnotatorNotes T7	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T8	PROC 445 477	control del dolor postoperatorio
+T9	DISO 457 477	dolor postoperatorio
+#8	AnnotatorNotes T9	C0030201; Pain, Postoperative; Sign or Symptom
+T10	PROC 503 510	cirugía
+#9	AnnotatorNotes T10	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T11	PROC 545 598	ensayo clínico, controlado, aleatorizado, doble ciego
+#10	AnnotatorNotes T11	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T12	PROC 630 659	colecistectomía laparoscópica
+#11	AnnotatorNotes T12	C0162522; Cholecystectomy, Laparoscopic; Therapeutic or Preventive Procedure
+T13	PROC 666 683	anestesia general
+#12	AnnotatorNotes T13	C0002915; General Anesthesia; Therapeutic or Preventive Procedure
+T14	CHEM 756 765	lidocaína
+#13	AnnotatorNotes T14	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T15	CHEM 794 803	lidocaína
+#14	AnnotatorNotes T15	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T16	PROC 843 862	intubación traqueal
+#15	AnnotatorNotes T16	C0021932; Intubation, Intratracheal; Therapeutic or Preventive Procedure
+T17	PROC 881 896	suturar la piel
+T18	ANAT 892 896	piel
+#16	AnnotatorNotes T18	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T19	PROC 978 985	placebo
+#17	AnnotatorNotes T19	C0032042; Placebos; Therapeutic or Preventive Procedure
+T20	PROC 1031 1061	se valoró intensidad del dolor
+#18	AnnotatorNotes T20	C0030198; Pain Measurement; Diagnostic Procedure (?)
+T21	PROC 1101 1104	EVA
+#19	AnnotatorNotes T21	C0042815; Visual Analog Pain Scale; Diagnostic Procedure | C2959685; Assessment using visual analog scale; Health Care Activity
+T22	PROC 1110 1117	ingreso
+#20	AnnotatorNotes T22	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T23	PROC 1270 1290	evaluación del dolor
+#21	AnnotatorNotes T23	C0030198; Pain Measurement; Diagnostic Procedure
+T24	PROC 1078 1099	Escala Verbal Análoga
+#22	AnnotatorNotes T24	C4275132; Assessment using Verbal Rating Scale; Diagnostic Procedure
+T25	CHEM 1374 1383	lidocaína
+#23	AnnotatorNotes T25	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T26	PROC 141 155	administración
+#24	AnnotatorNotes T26	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T27	PROC 204 213	analgesia
+#25	AnnotatorNotes T27	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T28	CHEM 264 275	anestésicos
+#26	AnnotatorNotes T28	C0002932; Anesthetics; Pharmacologic Substance
+T29	PROC 782 790	infusión
+#27	AnnotatorNotes T29	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T30	ANAT 854 862	traqueal
+#28	AnnotatorNotes T30	C0040578; Trachea; Body Part, Organ, or Organ Component | C1278905; Entire trachea; Body Part, Organ, or Organ Component
+T31	PROC 940 948	infusión
+#29	AnnotatorNotes T31	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T32	CHEM 952 972	solución fisiológica
+#30	AnnotatorNotes T32	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T33	DISO 1056 1061	dolor
+#31	AnnotatorNotes T33	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T34	DISO 1207 1212	dolor
+#32	AnnotatorNotes T34	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T35	DISO 1285 1290	dolor
+#33	AnnotatorNotes T35	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T36	PROC 1340 1354	administración
+#34	AnnotatorNotes T36	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T37	PROC 1362 1370	infusión
+#35	AnnotatorNotes T37	C0574032; Infusion procedures; Therapeutic or Preventive Procedure
+T38	DISO 1464 1469	dolor
+#36	AnnotatorNotes T38	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T40	Route 11 22	intravenosa
+#37	AnnotatorNotes T40	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T41	Time 42 56	postoperatorio
+#38	AnnotatorNotes T41	C0032790; Postoperative Period; Temporal Concept
+T42	Duration 122 133	muchos años
+T43	Route 169 180	intravenosa
+#39	AnnotatorNotes T43	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T44	Dose 183 194	dosis bajas
+#40	AnnotatorNotes T44	C0445550; Low dose; Quantitative Concept
+T45	Route 428 439	intravenosa
+#41	AnnotatorNotes T45	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T46	Time 463 477	postoperatorio
+#42	AnnotatorNotes T46	C0032790; Postoperative Period; Temporal Concept
+T47	Duration 481 499	las primeras horas
+T48	LIVB 603 612	pacientes
+#43	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 737 746	pacientes
+#44	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	Dose 766 775	1.5 mg/kg
+T52	LIVB 913 926	grupo control
+#45	AnnotatorNotes T52	C0009932; Control Groups; Group
+T54	Form 952 960	solución
+#46	AnnotatorNotes T54	C1382100; Solution Dosage Form; Biomedical or Dental Material
+T55	Time 998 1020	período postoperatorio
+#47	AnnotatorNotes T55	C0032790; Postoperative Period; Temporal Concept
+T56	Duration 1131 1154	los 30, 60 y 90 minutos
+T57	LIVB 1307 1320	grupo control
+#48	AnnotatorNotes T57	C0009932; Control Groups; Group
+T59	Time 1476 1490	postoperatorio
+#49	AnnotatorNotes T59	C0032790; Postoperative Period; Temporal Concept
+T39	Time 298 313	transanestesico
+T51	Frequency 775 777	/h
+T53	PROC 865 877	se suspendió
+#50	AnnotatorNotes T53	C0850893; stop medication; Therapeutic or Preventive Procedure (?)
+R1	Has_Route_or_Mode Arg1:T2 Arg2:T40	
+R2	Overlap Arg1:T2 Arg2:T41	
+R3	Used_for Arg1:T2 Arg2:T1	
+R4	Before Arg1:T1 Arg2:T3	
+R6	Used_for Arg1:T4 Arg2:T26	
+R7	Has_Route_or_Mode Arg1:T4 Arg2:T43	
+R8	Has_Dose_or_Strength Arg1:T4 Arg2:T44	
+R9	Before Arg1:T26 Arg2:T27	
+R10	Overlap Arg1:T28 Arg2:T39	
+R11	Overlap Arg1:T5 Arg2:T39	
+R12	Causes Arg1:T28 Arg2:T6	
+R13	Causes Arg1:T5 Arg2:T6	
+R14	Causes Arg1:T4 Arg2:T6	
+T60	Observation 220 275	reducción en el consumo de opioides u otros anestésicos
+R15	Causes Arg1:T26 Arg2:T60	
+R16	Has_Route_or_Mode Arg1:T7 Arg2:T45	
+R17	Used_for Arg1:T7 Arg2:T8	
+R20	Has_Duration_or_Interval Arg1:T8 Arg2:T47	
+R22	Causes Arg1:T10 Arg2:T9	
+R23	Experiences Arg1:T48 Arg2:T12	
+R24	Experiences Arg1:T48 Arg2:T13	
+R25	Before Arg1:T13 Arg2:T12	
+R26	Experiences Arg1:T49 Arg2:T14	
+R27	Has_Dose_or_Strength Arg1:T14 Arg2:T50	
+R28	Has_Frequency Arg1:T14 Arg2:T51	
+R29	Used_for Arg1:T15 Arg2:T29	
+T61	CONC 814 828	inmediatamente
+R30	Overlap Arg1:T29 Arg2:T61	
+R31	After Arg1:T61 Arg2:T16	
+R32	After Arg1:T29 Arg2:T16	
+#52	AnnotatorNotes T61	C0205548; Stat (do immediately); Temporal Concept (?)
+R33	Location_of Arg1:T18 Arg2:T17	
+R34	Before Arg1:T29 Arg2:T53	
+R35	Before Arg1:T53 Arg2:T17	
+R36	Experiences Arg1:T52 Arg2:T31	
+R37	Has_Drug_Form Arg1:T32 Arg2:T54	
+R38	Used_for Arg1:T32 Arg2:T31	
+R39	Experiences Arg1:T52 Arg2:T19	
+R41	Overlap Arg1:T20 Arg2:T55	
+R42	Overlap Arg1:T33 Arg2:T55	
+R44	Overlap Arg1:T24 Arg2:T55	
+R45	Overlap Arg1:T21 Arg2:T55	
+R46	Overlap Arg1:T24 Arg2:T22	
+R47	Overlap Arg1:T21 Arg2:T22	
+R48	Overlap Arg1:T20 Arg2:T22	
+R49	Overlap Arg1:T21 Arg2:T56	
+R50	Overlap Arg1:T24 Arg2:T56	
+R51	Overlap Arg1:T20 Arg2:T56	
+T63	Quantifier_or_Qualifier 1213 1217	leve
+R52	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T63	
+T64	Quantifier_or_Qualifier 1219 1227	moderado
+#54	AnnotatorNotes T64	C0205081; Moderate (severity modifier); Qualitative Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T64	
+T65	Quantifier_or_Qualifier 1230 1235	grave
+#55	AnnotatorNotes T65	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R54	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T65	
+R57	Experiences Arg1:T57 Arg2:T34	
+R58	Experiences Arg1:T57 Arg2:T23	
+R59	Experiences Arg1:T57 Arg2:T35	
+R60	Used_for Arg1:T25 Arg2:T37	
+R61	Used_for Arg1:T25 Arg2:T36	
+T66	CONC 1395 1435	periodo de mayor estimulación quirúrgica
+R62	Overlap Arg1:T36 Arg2:T66	
+R63	Overlap Arg1:T37 Arg2:T66	
+T67	Observation 1437 1469	disminuye la intensidad de dolor
+#56	AnnotatorNotes T67	C5230944; Sensation of pain reduced; Finding (?)
+R64	Before Arg1:T38 Arg2:T67	
+R65	Causes Arg1:T36 Arg2:T67	
+R66	Causes Arg1:T37 Arg2:T67	
+R67	Overlap Arg1:T67 Arg2:T59	
+R68	Overlap Arg1:T38 Arg2:T59	
+T69	Quantifier_or_Qualifier 319 326	mínimos
+#58	AnnotatorNotes T69	C0547040; Minimal; Qualitative Concept
+R70	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T69	
+R71	Has_Duration_or_Interval Arg1:T7 Arg2:T47	
+T58	Quantifier_or_Qualifier 57 66	inmediato
+#51	AnnotatorNotes T58	C0205253; Immediate; Temporal Concept
+R5	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T58	
+T62	Quantifier_or_Qualifier 613 624	programados
+#53	AnnotatorNotes T62	C0205539; Scheduled - procedure status; Qualitative Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T62	
+R19	Before Arg1:T7 Arg2:T10	
+R21	Used_for Arg1:T32 Arg2:T19	
+T68	Quantifier_or_Qualifier 1021 1030	inmediato
+#57	AnnotatorNotes T68	C0205253; Immediate; Temporal Concept
+R40	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T68	
+T70	Quantifier_or_Qualifier 1491 1500	inmediato
+#59	AnnotatorNotes T70	C0205253; Immediate; Temporal Concept
+R69	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T70	
+#60	AnnotatorNotes T63	C2945599; Mild (qualifier value); Qualitative Concept
+#61	AnnotatorNotes R19	(?)
+#62	AnnotatorNotes T17	C0191408; Closure of skin by suture; Therapeutic or Preventive Procedure
+A1	Experiencer T48 Patient
+A2	Experiencer T49 Patient
+A3	Experiencer T52 Patient
+A4	Experiencer T57 Patient

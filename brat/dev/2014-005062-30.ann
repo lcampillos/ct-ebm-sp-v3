@@ -1,0 +1,242 @@
+T1	PROC 46 60	Ensayo clínico
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 373 385	INFILTRACION
+#2	AnnotatorNotes T2	C0702249; Infiltration (procedure); Therapeutic or Preventive Procedure
+T3	ANAT 89 98	diafragma
+#3	AnnotatorNotes T3	C0011980; Respiratory Diaphragm; Body Part, Organ, or Organ Component | C1279038; Entire diaphragm; Body Part, Organ, or Organ Component
+T4	ANAT 238 246	torácica
+#4	AnnotatorNotes T4	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T5	ANAT 491 499	torácica
+#5	AnnotatorNotes T5	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T6	PROC 161 168	placebo
+#6	AnnotatorNotes T6	C0032042; Placebos; Therapeutic or Preventive Procedure
+T7	DISO 184 204	dolor postquirúrgico
+#7	AnnotatorNotes T7	C0030201; Pain, Postoperative; Sign or Symptom
+T8	PROC 270 291	ENSAYO CLINICO PILOTO
+T9	PROC 300 337	EVALUACIÓN DE LA AFECTACION FUNCIONAL
+#8	AnnotatorNotes T9	C2058068; therapy assessment: functional status; Therapeutic or Preventive Procedure
+T10	ANAT 342 356	NERVIO FRÉNICO
+#9	AnnotatorNotes T10	C0031774; Structure of phrenic nerve; Body Part, Organ, or Organ Component | C1281237; Entire phrenic nerve; Body Part, Organ, or Organ Component
+T11	ANAT 392 409	GRASA PERIFRÉNICA
+#10	AnnotatorNotes T11	C0227638; Structure of perirenal fat; Body Part, Organ, or Organ Component
+T12	ANAT 1124 1135	vertebrales
+#11	AnnotatorNotes T12	C0549207; Bone structure of spine; Body Part, Organ, or Organ Component | C1279061; Entire vertebra; Body Part, Organ, or Organ Component
+T13	DISO 529 547	dolor en el hombro
+#12	AnnotatorNotes T13	C0037011; Shoulder Pain; Sign or Symptom
+T14	ANAT 563 572	hemitórax
+#13	AnnotatorNotes T14	C0934569; Hemithoracic structure; Body Location or Region | C1269692; Entire hemithorax; Body Part, Organ, or Organ Component
+T15	PROC 573 584	intervenido
+#14	AnnotatorNotes T15	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T16	DISO 612 627	Dolor de hombro
+#15	AnnotatorNotes T16	C0037011; Shoulder Pain; Sign or Symptom
+T17	PROC 662 680	resección pulmonar
+#16	AnnotatorNotes T17	C0396565; Lung excision; Therapeutic or Preventive Procedure
+T18	ANAT 672 680	pulmonar
+#17	AnnotatorNotes T18	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T19	PROC 747 776	cirugía de resección pulmonar
+#18	AnnotatorNotes T19	C0396565; Lung excision; Therapeutic or Preventive Procedure
+T20	ANAT 768 776	pulmonar
+#19	AnnotatorNotes T20	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
+T21	PROC 786 810	incisión póstero-lateral
+#20	AnnotatorNotes T21	C0442951; Posterolateral thoracotomy; Therapeutic or Preventive Procedure
+T22	PROC 850 874	consentimiento informado
+#21	AnnotatorNotes T22	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T23	DISO 1007 1035	Enfermedades neuromusculares
+#22	AnnotatorNotes T23	C0027868; Neuromuscular Diseases; Disease or Syndrome
+T24	DISO 1037 1052	dolor de hombro
+#23	AnnotatorNotes T24	C0037011; Shoulder Pain; Sign or Symptom
+T25	CHEM 1077 1088	analgésicos
+#24	AnnotatorNotes T25	C0002771; Analgesics; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T26	DISO 1092 1099	Alergia
+#25	AnnotatorNotes T26	C1527304; Allergic Reaction; Pathologic Function
+T27	DISO 1114 1135	Fracturas vertebrales
+T28	DISO 1137 1155	lesiones medulares
+#26	AnnotatorNotes T28	C0037929; Spinal Cord Injuries; Injury or Poisoning
+T29	ANAT 1146 1155	medulares
+#27	AnnotatorNotes T29	C0037925; Spinal Cord; Body Part, Organ, or Organ Component | C1278836; Entire spinal cord; Body Part, Organ, or Organ Component
+T30	ANAT 1163 1165	C4
+#28	AnnotatorNotes T30	C0223131; Entire C4 vertebra; Body Part, Organ, or Organ Component | C0459941; Bone structure of C4; Body Part, Organ, or Organ Component
+T31	DISO 1183 1206	Parálisis diafragmática
+#29	AnnotatorNotes T31	C0035232; Respiratory Paralysis; Finding
+T32	ANAT 1222 1237	nervio frénicos
+T33	PROC 1403 1406	IMC
+#30	AnnotatorNotes T33	C0005893; Body mass index procedure; Diagnostic Procedure | C3698309; Measurement of body mass index; Health Care Activity
+T34	DISO 1274 1312	Polirradiculoneuropatías inflamatorias
+T35	ANAT 1332 1347	neuromusculares
+#31	AnnotatorNotes T35	C0597054; neuromuscular system; Body System
+T36	DISO 1385 1401	Obesidad mórbida
+#32	AnnotatorNotes T36	C0028756; Morbid obesity; Disease or Syndrome
+T37	PROC 1495 1504	Resección
+#33	AnnotatorNotes T37	C0728940; Excision; Therapeutic or Preventive Procedure
+T38	ANAT 1519 1528	vértebras
+#34	AnnotatorNotes T38	C0549207; Bone structure of spine; Body Part, Organ, or Organ Component | C1279061; Entire vertebra; Body Part, Organ, or Organ Component
+T39	ANAT 1537 1554	componentes óseos
+#35	AnnotatorNotes T39	C4243626; Bone organ component cluster; Body Location or Region (?)
+T40	ANAT 1561 1574	caja torácica
+#36	AnnotatorNotes T40	C0222762; Rib Cage; Body Part, Organ, or Organ Component | C0230139; Thoracic cavity structure; Body Space or Junction | C1284162; Entire thoracic cage; Body Space or Junction
+T41	PROC 1626 1636	costotomía
+#37	AnnotatorNotes T41	C0185791; Costotomy; Therapeutic or Preventive Procedure
+T42	ANAT 1670 1685	cavidad pleural
+#38	AnnotatorNotes T42	C0178802; Pleural cavity; Body Space or Junction | C1284296; Entire pleural cavity; Body Space or Junction
+T43	PROC 1450 1491	escalas analógica visual (EVA) y/o verbal
+#39	AnnotatorNotes T43	C2959685; Assessment using visual analog scale; Health Care Activity | C4275132; Assessment using Verbal Rating Scale; Diagnostic Procedure
+T44	PROC 113 125	infiltración
+#40	AnnotatorNotes T44	C0702249; Infiltration (procedure); Therapeutic or Preventive Procedure
+T45	CHEM 130 146	anestésico local
+#41	AnnotatorNotes T45	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T46	CHEM 427 444	SUERO FISIOLÓGICO
+#42	AnnotatorNotes T46	C0445115; Normal saline; Inorganic Chemical · Pharmacologic Substance
+T47	PROC 230 246	cirugía torácica
+#43	AnnotatorNotes T47	C0524832; Thoracic Surgical Procedures; Therapeutic or Preventive Procedure
+T48	CHEM 414 423	LIDOCAINA
+#44	AnnotatorNotes T48	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T49	PROC 483 499	cirugía torácica
+#45	AnnotatorNotes T49	C0524832; Thoracic Surgical Procedures; Therapeutic or Preventive Procedure
+T50	ANAT 541 547	hombro
+#46	AnnotatorNotes T50	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T51	ANAT 621 627	hombro
+#47	AnnotatorNotes T51	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T52	PROC 987 1003	punción epidural
+T53	ANAT 1020 1035	neuromusculares
+#48	AnnotatorNotes T53	C0597054; neuromuscular system; Body System
+T54	ANAT 1046 1052	hombro
+#49	AnnotatorNotes T54	C0037004; Shoulder; Body Location or Region | C1283792; Entire shoulder region; Body Location or Region
+T55	CHEM 1102 1111	lidocaína
+#50	AnnotatorNotes T55	C0023660; lidocaine; Organic Chemical · Pharmacologic Substance
+T56	ANAT 1193 1206	diafragmática
+#51	AnnotatorNotes T56	C0011980; Respiratory Diaphragm; Body Part, Organ, or Organ Component | C1279038; Entire diaphragm; Body Part, Organ, or Organ Component
+T57	DISO 1321 1347	patologías neuromusculares
+T58	ANAT 1508 1517	costillas
+#52	AnnotatorNotes T58	C0035561; Bone structure of rib; Body Part, Organ, or Organ Component | C1281577; Entire rib; Body Part, Organ, or Organ Component
+T59	Date 13 17	2014
+T60	Neg_cue 174 180	evitar
+T61	Date 190 204	postquirúrgico
+#53	AnnotatorNotes T61	C0032790; Postoperative Period; Temporal Concept
+T62	LIVB 208 217	pacientes
+#54	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 504 512	paciente
+#55	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	LIVB 709 718	Pacientes
+#56	AnnotatorNotes T64	C0030705; Patients; Patient or Disabled Group
+T65	Age 719 734	de 18 a 85 años
+T66	LIVB 817 825	paciente
+#57	AnnotatorNotes T66	C0030705; Patients; Patient or Disabled Group
+T69	Duration 1066 1073	crónico
+#58	AnnotatorNotes T69	C0205191; chronic; Temporal Concept
+T70	DEVI 1371 1381	marcapasos
+#59	AnnotatorNotes T70	C0030163; Artificial cardiac pacemaker; Medical Device
+T71	Neg_cue 1414 1430	Imposibilidad de
+T72	PHYS 1431 1442	comprensión
+#60	AnnotatorNotes T72	C0162340; Comprehension; Mental Process
+T74	Neg_cue 1594 1596	no
+T75	PHYS 1690 1698	Embarazo
+#61	AnnotatorNotes T75	C0032961; Pregnancy; Organism Function
+T76	PHYS 1701 1710	lactancia
+#62	AnnotatorNotes T76	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T78	LIVB 1726 1734	paciente
+#63	AnnotatorNotes T78	C0030705; Patients; Patient or Disabled Group
+T79	PHYS 77 98	función del diafragma
+#64	AnnotatorNotes T79	C0678866; Diaphragm function; Organ or Tissue Function
+T81	Date 641 656	posttoracotomía
+T82	Neg_cue 939 952	Imposibilidad
+A1	Assertion T7 Negated
+A2	Assertion T52 Contraindicated
+A3	Assertion T52 Contraindicated
+A4	Assertion T72 Negated
+A5	Assertion T41 Negated
+A6	Status T24 History_of
+A7	Status T26 History_of
+#65	AnnotatorNotes T8	C0031928; Pilot Projects; Research Activity + C0008976; Clinical Trials; Research Activity
+#66	AnnotatorNotes T27	C0080179; Spinal Fractures; Injury or Poisoning 
+#67	AnnotatorNotes T32	C0031774; Structure of phrenic nerve; Body Part, Organ, or Organ Component + C1281237; Entire phrenic nerve; Body Part, Organ, or Organ Component  
+R1	Negation Arg1:T82 Arg2:T52	
+T67	Neg_cue 1713 1721	Negativa
+T68	Observation 1737 1761	participar en el estudio
+A8	Assertion T68 Negated
+#68	AnnotatorNotes T68	C1278516; Patient participation status; Finding (?)
+R3	Negation Arg1:T67 Arg2:T68	
+R4	Negation Arg1:T71 Arg2:T72	
+R5	Overlap Arg1:T72 Arg2:T43	
+T73	Result_or_Value 1407 1410	>40
+R6	Has_Result_or_Value Arg1:T33 Arg2:T73	
+R8	Location_of Arg1:T58 Arg2:T37	
+R9	Location_of Arg1:T38 Arg2:T37	
+R10	Location_of Arg1:T39 Arg2:T37	
+R11	Location_of Arg1:T40 Arg2:T37	
+R12	Negation Arg1:T74 Arg2:T41	
+T77	CONC 1658 1685	acceso a la cavidad pleural
+R13	Before Arg1:T41 Arg2:T77	
+R14	Location_of Arg1:T3 Arg2:T79	
+R16	Used_for Arg1:T45 Arg2:T44	
+R18	Negation Arg1:T60 Arg2:T7	
+R19	Overlap Arg1:T7 Arg2:T61	
+R20	Experiences Arg1:T62 Arg2:T79	
+R21	Experiences Arg1:T62 Arg2:T44	
+R22	Experiences Arg1:T62 Arg2:T7	
+R23	Causes Arg1:T47 Arg2:T7	
+R24	Location_of Arg1:T4 Arg2:T47	
+R25	Experiences Arg1:T62 Arg2:T47	
+R26	Location_of Arg1:T10 Arg2:T9	
+R15	Location_of Arg1:T11 Arg2:T2	
+R27	Used_for Arg1:T48 Arg2:T2	
+R28	Used_for Arg1:T46 Arg2:T2	
+R29	After Arg1:T9 Arg2:T2	
+T80	PROC 66 73	evaluar
+#69	AnnotatorNotes T80	C1261322; Evaluation procedure; Health Care Activity
+R30	After Arg1:T80 Arg2:T44	
+R32	Experiences Arg1:T62 Arg2:T80	
+R33	Location_of Arg1:T5 Arg2:T49	
+R34	Causes Arg1:T49 Arg2:T13	
+R35	Location_of Arg1:T50 Arg2:T13	
+R36	Location_of Arg1:T14 Arg2:T15	
+R37	Experiences Arg1:T63 Arg2:T49	
+R38	Experiences Arg1:T63 Arg2:T13	
+R39	Experiences Arg1:T63 Arg2:T15	
+R40	Causes Arg1:T15 Arg2:T13	
+T83	Quantifier_or_Qualifier 548 559	ipsilateral
+#70	AnnotatorNotes T83	C0441989; Ipsilateral; Spatial Concept
+R41	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T83	
+T84	Quantifier_or_Qualifier 628 640	ispsilateral
+#71	AnnotatorNotes T84	C0441989; Ipsilateral; Spatial Concept
+R42	Location_of Arg1:T51 Arg2:T16	
+R43	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T84	
+R44	Overlap Arg1:T16 Arg2:T81	
+R45	Causes Arg1:T17 Arg2:T16	
+R46	Location_of Arg1:T18 Arg2:T17	
+R47	Has_Age Arg1:T64 Arg2:T65	
+R48	Location_of Arg1:T20 Arg2:T19	
+R49	Before Arg1:T21 Arg2:T19	
+R50	Experiences Arg1:T64 Arg2:T19	
+R51	Experiences Arg1:T64 Arg2:T21	
+T85	PROC 903 910	estudio
+#72	AnnotatorNotes T85	C0008976; Clinical Trials; Research Activity
+R52	Before Arg1:T22 Arg2:T85	
+R53	Location_of Arg1:T53 Arg2:T23	
+R54	Location_of Arg1:T54 Arg2:T24	
+R55	Has_Duration_or_Interval Arg1:T25 Arg2:T69	
+R56	Causes Arg1:T55 Arg2:T26	
+R57	Location_of Arg1:T12 Arg2:T27	
+R58	Location_of Arg1:T29 Arg2:T28	
+T86	Quantifier_or_Qualifier 1156 1161	altas
+#73	AnnotatorNotes T86	C1282910; Upper; Spatial Concept 
+R59	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T86	
+T87	Quantifier_or_Qualifier 1168 1178	superiores
+#74	AnnotatorNotes T87	C1282910; Upper; Spatial Concept
+R60	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T87	
+R61	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T86	
+R62	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T87	
+R63	Location_of Arg1:T30 Arg2:T28	
+R64	Location_of Arg1:T30 Arg2:T27	
+T88	Quantifier_or_Qualifier 1207 1218	ipsilateral
+#75	AnnotatorNotes T88	C0441989; Ipsilateral; Spatial Concept
+R65	Location_of Arg1:T56 Arg2:T31	
+R66	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T88	
+R67	Location_of Arg1:T35 Arg2:T57	
+R68	Before Arg1:T44 Arg2:T7	
+#76	AnnotatorNotes T52	C0812144; Medication administration: epidural; Therapeutic or Preventive Procedure (?)
+#77	AnnotatorNotes T57	C0027868; Neuromuscular Diseases; Disease or Syndrome
+A9	Experiencer T62 Patient
+A10	Experiencer T63 Patient
+A11	Experiencer T64 Patient
+A12	Experiencer T66 Patient
+A13	Experiencer T78 Patient

@@ -1,0 +1,183 @@
+T1	PROC 66 77	tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	PROC 230 241	tratamiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T3	DISO 249 256	vómitos
+#3	AnnotatorNotes T3	C0042963; Vomiting; Sign or Symptom
+T4	DISO 270 284	deshidratación
+#4	AnnotatorNotes T4	C0011175; Dehydration; Disease or Syndrome
+T5	PROC 300 324	Ensayo clínico aleatorio
+#5	AnnotatorNotes T5	C0206034; Clinical Trials, Randomized; Research Activity
+T6	DISO 348 355	Vómitos
+#6	AnnotatorNotes T6	C0042963; Vomiting; Sign or Symptom
+T7	DISO 84 98	deshidratación
+#7	AnnotatorNotes T7	C0011175; Dehydration; Disease or Syndrome
+T8	PROC 484 508	consentimiento informado
+#8	AnnotatorNotes T8	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T9	PROC 555 566	Diagnóstico
+#9	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	DISO 570 577	vómitos
+#10	AnnotatorNotes T10	C0042963; Vomiting; Sign or Symptom
+T11	PROC 580 591	diagnóstico
+#11	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	DISO 595 610	gastroenteritis
+#12	AnnotatorNotes T12	C0017160; Gastroenteritis; Disease or Syndrome
+T13	DISO 621 628	vómitos
+#13	AnnotatorNotes T13	C0042963; Vomiting; Sign or Symptom
+T14	DISO 742 755	abdomen agudo
+#14	AnnotatorNotes T14	C0000727; Abdomen, Acute; Sign or Symptom
+T15	DISO 757 768	apendicitis
+#15	AnnotatorNotes T15	C0003615; Appendicitis; Disease or Syndrome
+T16	DISO 770 784	invaginaciones
+#16	AnnotatorNotes T16	C0021933; Intussusception; Disease or Syndrome | C0221224; Invagination; Anatomical Abnormality
+T17	DISO 813 833	cuadros obstructivos
+T18	DISO 836 856	Enfermedad digestiva
+T19	ANAT 847 856	digestiva
+#17	AnnotatorNotes T19	C0012240; Gastrointestinal system; Body System
+T20	DISO 873 892	Enfermedad de Crohn
+#18	AnnotatorNotes T20	C0010346; Crohn Disease; Disease or Syndrome
+T21	DISO 894 910	colitis ulcerosa
+#19	AnnotatorNotes T21	C0009324; Ulcerative Colitis; Disease or Syndrome
+T22	DISO 928 952	intoxicación alimentaria
+#20	AnnotatorNotes T22	C0016479; Food Poisoning; Injury or Poisoning
+T23	DISO 955 962	Alergia
+#21	AnnotatorNotes T23	C1527304; Allergic Reaction; Pathologic Function
+T24	CHEM 983 991	fármacos
+#22	AnnotatorNotes T24	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T25	DISO 1019 1033	Deshidratación
+#23	AnnotatorNotes T25	C0011175; Dehydration; Disease or Syndrome
+T26	DISO 1066 1080	deshidratación
+#24	AnnotatorNotes T26	C0011175; Dehydration; Disease or Syndrome
+T27	ANAT 1093 1101	biliosos
+T28	PROC 1104 1121	Cirugía abdominal
+#25	AnnotatorNotes T28	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure
+T29	DISO 1196 1207	fallo renal
+#26	AnnotatorNotes T29	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
+T30	DISO 1209 1224	hipoalbuminemia
+#27	AnnotatorNotes T30	C0239981; Hypoalbuminemia; Disease or Syndrome
+T31	PROC 1246 1253	ingreso
+#28	AnnotatorNotes T31	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T32	PROC 1256 1281	rehidratación intravenosa
+#29	AnnotatorNotes T32	C1881074; Hydration Therapy; Therapeutic or Preventive Procedure + C0455142; Intravenous therapy; Therapeutic or Preventive Procedure
+T33	PROC 157 171	administración
+#30	AnnotatorNotes T33	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T34	PROC 196 212	práctica clínica
+T35	CHEM 175 186	ondansetrón
+#31	AnnotatorNotes T35	C0061851; ondansetron; Organic Chemical · Pharmacologic Substance
+T36	CHEM 46 57	ondansetrón
+#32	AnnotatorNotes T36	C0061851; ondansetron; Organic Chemical · Pharmacologic Substance
+T37	DISO 408 415	vómitos
+#33	AnnotatorNotes T37	C0042963; Vomiting; Sign or Symptom
+T38	PROC 441 461	Prueba de tolerancia
+T39	DISO 700 727	Alteración de la conciencia
+#34	AnnotatorNotes T39	C0234428; Disturbance of consciousness; Finding
+T40	ANAT 742 749	abdomen
+#35	AnnotatorNotes T40	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T41	DISO 1085 1101	Vómitos biliosos
+#36	AnnotatorNotes T41	C0232599; Vomiting bile; Finding
+T42	ANAT 1112 1121	abdominal
+#37	AnnotatorNotes T42	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T43	DISO 1131 1140	Patología
+#38	AnnotatorNotes T43	C0677042; Pathology processes; Pathologic Function
+T44	ANAT 1202 1207	renal
+#39	AnnotatorNotes T44	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T45	Date 13 17	2016
+T46	LIVB 102 107	niños
+#40	AnnotatorNotes T46	C0008059; Child; Age Group
+T47	LIVB 260 265	niños
+#41	AnnotatorNotes T47	C0008059; Child; Age Group
+T48	Duration 419 438	las últimas 4 horas
+T50	LIVB 526 532	padres
+#42	AnnotatorNotes T50	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T51	PHYS 717 727	conciencia
+#43	AnnotatorNotes T51	C0009790; Conscience; Mental Process
+T52	Spec_cue 730 741	Sospecha de
+T53	Spec_cue 789 797	Sospecha
+T54	Spec_cue 916 927	Sospecha de
+T56	PHYS 1170 1181	hidratación
+#44	AnnotatorNotes T56	C4520800; Hydration; Physiologic Function
+T57	LIVB 1186 1194	paciente
+#45	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Route 1270 1281	intravenosa
+#46	AnnotatorNotes T58	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T49	LIVB 535 550	tutores legales
+#47	AnnotatorNotes T49	C0023226; Legal Guardians; Population Group
+T55	PROC 644 648	peso
+#48	AnnotatorNotes T55	C2985231; Body Weight Measurement; Diagnostic Procedure
+T59	LIVB 632 640	Pcientes
+#49	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+A1	Population_data T46 Age
+A2	Population_data T47 Age
+A3	Assertion T14 Speculated
+A4	Assertion T17 Speculated
+A5	Assertion T22 Speculated
+A6	Assertion T15 Speculated
+A7	Assertion T16 Speculated
+A8	Status T18 History_of
+A9	Status T20 History_of
+A10	Status T21 History_of
+A11	Status T23 History_of
+A12	Status T28 History_of
+#50	AnnotatorNotes T38	C0201777; Tolerance test; Laboratory Procedure 
+#51	AnnotatorNotes T18	C0012242; Digestive System Disorders; Disease or Syndrome 
+T60	Spec_cue 1145 1150	pueda
+T61	CONC 1151 1158	afectar
+A13	Assertion T61 Speculated
+#52	AnnotatorNotes T61	C0521102; Interferes with; Functional Concept
+R1	Speculation Arg1:T60 Arg2:T61	
+R2	Causes Arg1:T24 Arg2:T23	
+T62	Quantifier_or_Qualifier 1034 1040	severa
+#53	AnnotatorNotes T62	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R3	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T62	
+R4	Location_of Arg1:T27 Arg2:T41	
+#54	AnnotatorNotes T27	C0005388; Bile fluid; Body Substance
+R5	Location_of Arg1:T42 Arg2:T28	
+R6	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T62	
+R7	Used_for Arg1:T36 Arg2:T1	
+R8	Experiences Arg1:T46 Arg2:T36	
+R9	Experiences Arg1:T46 Arg2:T7	
+R10	Used_for Arg1:T35 Arg2:T33	
+R11	Experiences Arg1:T47 Arg2:T33	
+R12	Experiences Arg1:T47 Arg2:T2	
+R13	Experiences Arg1:T47 Arg2:T3	
+R14	Experiences Arg1:T47 Arg2:T4	
+R15	Overlap Arg1:T3 Arg2:T4	
+T63	Quantifier_or_Qualifier 285 298	leve-moderada
+#55	AnnotatorNotes T63	C1299392; Mild to moderate; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T63	
+T64	Quantifier_or_Qualifier 397 407	al menos 2
+R17	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T64	
+R18	Overlap Arg1:T37 Arg2:T48	
+T65	Result_or_Value 462 470	negativa
+#56	AnnotatorNotes T65	C0205160; Negative; Finding
+R19	Has_Result_or_Value Arg1:T38 Arg2:T65	
+R20	Overlap Arg1:T12 Arg2:T13	
+T66	Quantifier_or_Qualifier 611 616	agudo
+#57	AnnotatorNotes T66	C0439557; Acute phase; Temporal Concept
+R21	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T66	
+T67	Result_or_Value 649 670	mayor o igual a 15 Kg
+R22	Has_Result_or_Value Arg1:T55 Arg2:T67	
+R24	Location_of Arg1:T40 Arg2:T14	
+R25	Speculation Arg1:T52 Arg2:T14	
+R26	Speculation Arg1:T52 Arg2:T15	
+R27	Speculation Arg1:T52 Arg2:T16	
+R28	Speculation Arg1:T53 Arg2:T17	
+R29	Speculation Arg1:T54 Arg2:T22	
+T68	Quantifier_or_Qualifier 857 862	grave
+#58	AnnotatorNotes T68	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R30	Location_of Arg1:T19 Arg2:T18	
+R31	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T68	
+R33	Experiences Arg1:T57 Arg2:T43	
+R34	Experiences Arg1:T57 Arg2:T56	
+R35	Experiences Arg1:T57 Arg2:T29	
+R36	Experiences Arg1:T57 Arg2:T30	
+R37	Location_of Arg1:T44 Arg2:T29	
+R43	Has_Route_or_Mode Arg1:T32 Arg2:T58	
+R44	Experiences Arg1:T59 Arg2:T55	
+#59	AnnotatorNotes T17	C0746983; OBSTRUCTIVE SYMPTOM; Sign or Symptom
+A14	Experiencer T46 Patient
+A15	Experiencer T47 Patient
+A16	Experiencer T50 Family_member
+A17	Experiencer T49 Other
+A18	Experiencer T59 Patient
+A19	Experiencer T57 Patient

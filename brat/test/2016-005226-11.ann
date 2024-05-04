@@ -1,0 +1,172 @@
+T1	PROC 45 80	Ensayo clínico fase 4, aleatorizado
+T2	PROC 272 281	biterapia
+#1	AnnotatorNotes T2	C0009429; Combined Modality Therapy; Therapeutic or Preventive Procedure
+T3	PROC 162 185	terapia antirretroviral
+#2	AnnotatorNotes T3	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T4	CHEM 203 230	inhibidores de la integrasa
+#3	AnnotatorNotes T4	C0376601; Integrase Inhibitors; Biologically Active Substance · Pharmacologic Substance
+T5	CHEM 239 247	análogos
+#4	AnnotatorNotes T5	C0243071; Analog; Chemical Viewed Structurally
+T6	CHEM 283 295	dolutegravir
+#5	AnnotatorNotes T6	C3253985; dolutegravir; Organic Chemical · Pharmacologic Substance
+T7	CHEM 300 310	lamivudina
+#6	AnnotatorNotes T7	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T8	CHEM 313 322	darunavir
+#7	AnnotatorNotes T8	C1435444; darunavir; Organic Chemical · Pharmacologic Substance
+T9	CHEM 323 333	cobicistat
+#8	AnnotatorNotes T9	C3177235; cobicistat; Organic Chemical · Pharmacologic Substance
+T10	CHEM 338 348	lamivudina
+#9	AnnotatorNotes T10	C0209738; lamivudine; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T11	DISO 367 387	infección por el VIH
+#10	AnnotatorNotes T11	C0019693; HIV Infections; Disease or Syndrome
+T12	DISO 392 399	viremia
+#11	AnnotatorNotes T12	C0042749; Viremia; Disease or Syndrome
+T13	DISO 475 495	infección por el VIH
+#12	AnnotatorNotes T13	C0019693; HIV Infections; Disease or Syndrome
+T14	PROC 499 510	tratamiento
+#13	AnnotatorNotes T14	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T15	PROC 535 542	terapia
+#14	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	ANAT 572 578	sangre
+#15	AnnotatorNotes T16	C0005767; Blood; Body Substance
+T17	DISO 642 662	infección por el VIH
+#16	AnnotatorNotes T17	C0019693; HIV Infections; Disease or Syndrome
+T18	PROC 666 677	tratamiento
+#17	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	PROC 709 716	terapia
+#18	AnnotatorNotes T19	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T20	DISO 719 726	viremia
+#19	AnnotatorNotes T20	C0042749; Viremia; Disease or Syndrome
+T21	DISO 798 818	infección por el VIH
+#20	AnnotatorNotes T21	C0019693; HIV Infections; Disease or Syndrome
+T22	PROC 849 876	tratamiento antirretroviral
+#21	AnnotatorNotes T22	C1963724; Antiretroviral therapy; Therapeutic or Preventive Procedure
+T23	CHEM 994 1002	fármacos
+#22	AnnotatorNotes T23	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T24	DISO 1018 1042	Infecciones oportunistas
+#23	AnnotatorNotes T24	C0029118; Opportunistic Infections; Disease or Syndrome
+T25	CHEM 170 185	antirretroviral
+#24	AnnotatorNotes T25	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T26	DISO 563 578	virus en sangre
+T27	CHEM 861 876	antirretroviral
+#25	AnnotatorNotes T27	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
+T28	DISO 940 965	mutaciones de resistencia
+T29	Date 13 17	2016
+T30	LIVB 353 362	pacientes
+#26	AnnotatorNotes T30	C0030705; Patients; Patient or Disabled Group
+T31	LIVB 453 470	Pacientes adultos
+#27	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T33	Duration 514 523	≥ 6 meses
+T34	Neg_cue 545 548	sin
+T35	LIVB 563 568	virus
+#28	AnnotatorNotes T35	C0042776; Virus; Virus
+T36	Duration 587 594	≥ 1 año
+T37	LIVB 620 637	Pacientes adultos
+#29	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T39	Duration 687 696	≥ 6 meses
+T40	Duration 748 755	≥ 1 año
+T41	LIVB 784 793	Pacientes
+#30	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	Age 826 835	≥ 18 años
+T43	Date 889 899	01/01/2013
+T46	PHYS 111 123	recuperación
+#31	AnnotatorNotes T46	C2004454; Recovery - healing process; Organism Function
+T47	LIVB 384 387	VIH
+#32	AnnotatorNotes T47	C0019682; HIV; Virus
+T48	LIVB 492 495	VIH
+#33	AnnotatorNotes T48	C0019682; HIV; Virus
+T49	LIVB 659 662	VIH
+#34	AnnotatorNotes T49	C0019682; HIV; Virus
+T50	LIVB 815 818	VIH
+#35	AnnotatorNotes T50	C0019682; HIV; Virus
+A1	Population_data T31 Age
+A2	Assertion T26 Negated
+A3	Population_data T37 Age
+#36	AnnotatorNotes T1	C0282462; Phase 4 Clinical Trials; Research Activity + C0034656; Randomization; Research Activity
+#37	AnnotatorNotes T26	C0042749; Viremia; Disease or Syndrome
+T32	Observation 98 104	efecto
+#38	AnnotatorNotes T32	C1518681; Outcome of Therapy; Finding (?)
+R1	Used_for Arg1:T25 Arg2:T3	
+R2	Causes Arg1:T3 Arg2:T32	
+T38	Quantifier_or_Qualifier 124 136	inmunológica
+#39	AnnotatorNotes T38	C0205470; immunologic; Functional Concept 
+R3	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T38	
+T44	Quantifier_or_Qualifier 186 192	triple
+#40	AnnotatorNotes T44	C0205449; Three; Quantitative Concept 
+R4	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T44	
+R5	Used_for Arg1:T4 Arg2:T3	
+R7	Used_for Arg1:T6 Arg2:T2	
+R8	Combined_with Arg1:T6 Arg2:T7	
+R9	Used_for Arg1:T8 Arg2:T2	
+R10	Combined_with Arg1:T8 Arg2:T9	
+R11	Combined_with Arg1:T9 Arg2:T10	
+R12	Causes Arg1:T47 Arg2:T11	
+R13	Causes Arg1:T47 Arg2:T12	
+T45	Quantifier_or_Qualifier 400 412	indetectable
+#41	AnnotatorNotes T45	C3827727; Undetectable; Clinical Attribute
+R14	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T45	
+T51	Quantifier_or_Qualifier 413 431	de forma mantenida
+#42	AnnotatorNotes T51	C0443318; Sustained; Functional Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T51	
+R16	Experiences Arg1:T30 Arg2:T32	
+R17	Experiences Arg1:T30 Arg2:T46	
+R18	Experiences Arg1:T30 Arg2:T3	
+R19	Combined_with Arg1:T4 Arg2:T5	
+T52	Quantifier_or_Qualifier 235 238	dos
+#43	AnnotatorNotes T52	C0205448; Two; Quantitative Concept 
+R20	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T52	
+R6	Experiences Arg1:T30 Arg2:T2	
+R21	Experiences Arg1:T30 Arg2:T11	
+R22	Experiences Arg1:T30 Arg2:T12	
+R23	Experiences Arg1:T31 Arg2:T13	
+R24	Causes Arg1:T48 Arg2:T13	
+R25	Experiences Arg1:T31 Arg2:T14	
+R26	Has_Duration_or_Interval Arg1:T14 Arg2:T33	
+T53	Quantifier_or_Qualifier 528 534	triple
+#44	AnnotatorNotes T53	C0205449; Three; Quantitative Concept
+R27	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T53	
+R28	Experiences Arg1:T31 Arg2:T15	
+R29	Has_Duration_or_Interval Arg1:T15 Arg2:T33	
+R30	Negation Arg1:T34 Arg2:T26	
+R31	Causes Arg1:T35 Arg2:T26	
+R32	Location_of Arg1:T16 Arg2:T26	
+R33	Has_Duration_or_Interval Arg1:T26 Arg2:T36	
+R34	Experiences Arg1:T31 Arg2:T26	
+R35	Experiences Arg1:T37 Arg2:T17	
+R36	Causes Arg1:T49 Arg2:T17	
+R37	Experiences Arg1:T37 Arg2:T18	
+R38	Experiences Arg1:T37 Arg2:T19	
+T54	Quantifier_or_Qualifier 702 708	triple
+#45	AnnotatorNotes T54	C0205449; Three; Quantitative Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T54	
+R40	Has_Duration_or_Interval Arg1:T18 Arg2:T39	
+R41	Experiences Arg1:T37 Arg2:T20	
+R42	Has_Duration_or_Interval Arg1:T20 Arg2:T40	
+T55	Quantifier_or_Qualifier 727 739	indetectable
+#46	AnnotatorNotes T55	C3827727; Undetectable; Clinical Attribute
+R43	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T55	
+T56	Quantifier_or_Qualifier 678 685	estable
+#47	AnnotatorNotes T56	C0205360; Stable status; Qualitative Concept
+R44	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T56	
+R45	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T56	
+R46	Has_Duration_or_Interval Arg1:T19 Arg2:T39	
+R47	Experiences Arg1:T41 Arg2:T21	
+R48	Causes Arg1:T50 Arg2:T21	
+R49	Has_Age Arg1:T41 Arg2:T42	
+R50	After Arg1:T22 Arg2:T43	
+R51	Used_for Arg1:T27 Arg2:T22	
+T57	Quantifier_or_Qualifier 966 973	mayores
+#48	AnnotatorNotes T57	C0205164; Major; Qualitative Concept 
+R52	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T57	
+T58	CONC 1071 1080	inclusión
+#49	AnnotatorNotes T58	C1512693; Inclusion Criteria; Qualitative Concept
+R53	Overlap Arg1:T24 Arg2:T58	
+T59	Quantifier_or_Qualifier 1043 1050	activas
+#50	AnnotatorNotes T59	C0679217; Active State; Idea or Concept
+R54	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T59	
+R55	Before Arg1:T11 Arg2:T46	
+#51	AnnotatorNotes T28	C5704646; Drug resistance mutation; Cell or Molecular Dysfunction
+A4	Experiencer T41 Patient
+A5	Experiencer T30 Patient
+A6	Experiencer T31 Patient
+A7	Experiencer T37 Patient

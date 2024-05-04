@@ -1,0 +1,219 @@
+T1	PROC 1 39	Ensayo clínico doble ciego, controlado
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity | C0013072; Double-Blind Method; Research Activity
+T2	PROC 45 67	evaluar la efectividad
+T3	CHEM 101 108	morfina
+#2	AnnotatorNotes T3	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T4	PROC 126 158	control del dolor postoperatorio
+T5	DISO 138 158	dolor postoperatorio
+#3	AnnotatorNotes T5	C0030201; Pain, Postoperative; Sign or Symptom
+T6	CHEM 177 184	morfina
+#4	AnnotatorNotes T6	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T7	PROC 278 286	cirugías
+#5	AnnotatorNotes T7	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T8	PROC 291 308	anestesia espinal
+#6	AnnotatorNotes T8	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T9	CHEM 365 372	morfina
+#7	AnnotatorNotes T9	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T10	PROC 409 426	anestesia espinal
+#8	AnnotatorNotes T10	C0002928; Spinal Anesthesia; Therapeutic or Preventive Procedure
+T11	PROC 449 468	cirugías de cesárea
+#9	AnnotatorNotes T11	C0007876; Cesarean section; Therapeutic or Preventive Procedure
+T12	PROC 507 529	reemplazos articulares
+#10	AnnotatorNotes T12	C0185317; Arthroplasty, Replacement; Therapeutic or Preventive Procedure (?)
+T13	PROC 470 504	resección transuretral de próstata
+#11	AnnotatorNotes T13	C0040771; Transurethral Resection of Prostate; Therapeutic or Preventive Procedure
+T14	ANAT 518 529	articulares
+#12	AnnotatorNotes T14	C0022417; Joints; Body Space or Junction | C1269611; Entire joint; Body Space or Junction
+T15	PROC 563 585	valorar la efectividad
+T16	CHEM 610 617	morfina
+#13	AnnotatorNotes T16	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T17	PROC 661 708	cirugía abdominal baja o de miembros inferiores
+#14	AnnotatorNotes T17	C0198482; Operation on abdominal region; Therapeutic or Preventive Procedure | C0187763; Surgical procedure on lower extremity; Therapeutic or Preventive Procedure
+T18	ANAT 689 708	miembros inferiores
+#15	AnnotatorNotes T18	C0023216; Lower Extremity; Body Part, Organ, or Organ Component | C1269079; Entire lower limb; Body Part, Organ, or Organ Component
+T19	PROC 734 790	ensayo clínico, multicéntrico, doble ciego, aleatorizado
+T20	CHEM 858 880	clorhidrato de morfina
+#16	AnnotatorNotes T20	C0770901; morphine hydrochloride; Organic Chemical · Pharmacologic Substance
+T21	CHEM 963 970	morfina
+#17	AnnotatorNotes T21	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T22	DISO 1031 1050	efectos secundarios
+#18	AnnotatorNotes T22	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T23	CHEM 1141 1148	morfina
+#19	AnnotatorNotes T23	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T24	PROC 1170 1187	control del dolor
+#20	AnnotatorNotes T24	C1304888; Pain control; Therapeutic or Preventive Procedure
+T25	PROC 1288 1299	seguimiento
+#21	AnnotatorNotes T25	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T26	DISO 1372 1391	efectos secundarios
+#22	AnnotatorNotes T26	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T27	DISO 1397 1404	prurito
+#23	AnnotatorNotes T27	C0033774; Pruritus; Sign or Symptom
+T28	DISO 1418 1433	náusea y vómito
+#24	AnnotatorNotes T28	C0027498; Nausea and vomiting; Sign or Symptom
+T29	DISO 1448 1466	retención urinaria
+#25	AnnotatorNotes T29	C0080274; Urinary Retention; Finding
+T30	DISO 1483 1505	depresión respiratoria
+#26	AnnotatorNotes T30	C0235063; Respiratory Depression; Pathologic Function
+T31	PROC 1559 1568	anestesia
+#27	AnnotatorNotes T31	C0002903; Anesthesia procedures; Therapeutic or Preventive Procedure
+T32	CHEM 1663 1670	morfina
+#28	AnnotatorNotes T32	C0026549; morphine; Organic Chemical · Pharmacologic Substance
+T33	DISO 1701 1721	dolor postoperatorio
+#29	AnnotatorNotes T33	C0030201; Pain, Postoperative; Sign or Symptom
+T34	DISO 1752 1771	efectos secundarios
+#30	AnnotatorNotes T34	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T35	PROC 1826 1837	tratamiento
+#31	AnnotatorNotes T35	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T36	DISO 1893 1915	depresión respiratoria
+#32	AnnotatorNotes T36	C0235063; Respiratory Depression; Pathologic Function
+T37	DISO 252 273	dolor post-operatorio
+#33	AnnotatorNotes T37	C0030201; Pain, Postoperative; Sign or Symptom
+T38	CHEM 389 405	anestésico local
+#34	AnnotatorNotes T38	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T39	ANAT 496 504	próstata
+#35	AnnotatorNotes T39	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T40	ANAT 669 678	abdominal
+#36	AnnotatorNotes T40	C0000726; Abdomen; Body Location or Region | C1281594; Entire abdomen; Body Part, Organ, or Organ Component
+T41	CHEM 897 913	anestésico local
+#37	AnnotatorNotes T41	C0002934; Local Anesthetics; Organic Chemical · Pharmacologic Substance
+T42	PROC 1107 1114	cirugía
+#38	AnnotatorNotes T42	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T43	DISO 1182 1187	dolor
+#39	AnnotatorNotes T43	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T45	Route 109 119	intratecal
+#40	AnnotatorNotes T45	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T46	Date 144 158	postoperatorio
+#41	AnnotatorNotes T46	C0032790; Postoperative Period; Temporal Concept
+T47	Route 185 195	intratecal
+#42	AnnotatorNotes T47	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T49	Date 258 273	post-operatorio
+#43	AnnotatorNotes T49	C0032790; Postoperative Period; Temporal Concept
+T50	Date 336 351	post-operatoria
+#44	AnnotatorNotes T50	C0032790; Postoperative Period; Temporal Concept
+T51	Dose 355 361	100 µg
+T52	Dose 600 606	100 µg
+T53	Route 618 628	intratecal
+#45	AnnotatorNotes T53	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T54	LIVB 632 647	adultos jóvenes
+#46	AnnotatorNotes T54	C0238598; Young Adult; Age Group
+T56	LIVB 799 808	pacientes
+#47	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 818 827	pacientes
+#48	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	LIVB 915 933	grupo experimental
+#49	AnnotatorNotes T58	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T59	LIVB 939 948	pacientes
+#50	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	Neg_cue 949 951	no
+T61	Route 971 981	intratecal
+#51	AnnotatorNotes T61	C0677897; Intrathecal Route of Drug Administration; Functional Concept
+T62	LIVB 983 996	grupo control
+#52	AnnotatorNotes T62	C0009932; Control Groups; Group
+T63	Duration 1087 1095	36 horas
+T65	Date 1194 1208	postquirúrgico
+#53	AnnotatorNotes T65	C0032790; Postoperative Period; Temporal Concept
+T66	LIVB 1250 1268	grupo experimental
+#54	AnnotatorNotes T66	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T67	Duration 1272 1284	las 35 horas
+T68	Date 1321 1335	postoperatorio
+#55	AnnotatorNotes T68	C0032790; Postoperative Period; Temporal Concept
+T71	PHYS 1594 1606	hemodinámico
+#56	AnnotatorNotes T71	C0019010; Hemodynamics; Organ or Tissue Function
+T73	Date 1707 1721	postoperatorio
+#57	AnnotatorNotes T73	C0032790; Postoperative Period; Temporal Concept
+T74	Duration 1725 1746	las primeras 12 horas
+T75	Neg_cue 1811 1813	no
+T77	Dose 82 97	100 microgramos
+T79	PHYS 1493 1505	respiratoria
+#58	AnnotatorNotes T79	C0035203; Respiration; Physiologic Function
+T81	PHYS 1903 1915	respiratoria
+#59	AnnotatorNotes T81	C0035203; Respiration; Physiologic Function
+T48	Route 301 308	espinal
+T82	Route 419 426	espinal
+T55	Dose 839 854	100 microgramos
+T44	Dose 1644 1659	100 microgramos
+A1	Assertion T21 Negated
+A2	Population_data T54 Age
+A3	Assertion T35 Negated
+R1	Has_Dose_or_Strength Arg1:T3 Arg2:T77	
+R2	Has_Route_or_Mode Arg1:T3 Arg2:T45	
+R3	Overlap Arg1:T5 Arg2:T46	
+R4	Overlap Arg1:T4 Arg2:T5	
+R5	Used_for Arg1:T3 Arg2:T4	
+R6	Before Arg1:T3 Arg2:T46	
+R7	Has_Route_or_Mode Arg1:T6 Arg2:T47	
+R8	Overlap Arg1:T37 Arg2:T49	
+R9	Before Arg1:T6 Arg2:T49	
+R10	Has_Route_or_Mode Arg1:T8 Arg2:T48	
+R11	Before Arg1:T8 Arg2:T7	
+R12	Overlap Arg1:T9 Arg2:T50	
+R13	Has_Dose_or_Strength Arg1:T9 Arg2:T51	
+R14	Combined_with Arg1:T9 Arg2:T38	
+R15	Used_for Arg1:T38 Arg2:T10	
+R17	Before Arg1:T10 Arg2:T11	
+R18	Before Arg1:T10 Arg2:T13	
+R19	Before Arg1:T10 Arg2:T12	
+R20	Location_of Arg1:T14 Arg2:T12	
+R21	Location_of Arg1:T39 Arg2:T13	
+R22	Has_Route_or_Mode Arg1:T38 Arg2:T82	
+R23	Has_Dose_or_Strength Arg1:T16 Arg2:T52	
+R24	Has_Route_or_Mode Arg1:T16 Arg2:T53	
+R25	Experiences Arg1:T54 Arg2:T16	
+R26	Experiences Arg1:T54 Arg2:T17	
+R27	Location_of Arg1:T18 Arg2:T17	
+R28	Location_of Arg1:T40 Arg2:T17	
+R30	Experiences Arg1:T57 Arg2:T20	
+R31	Has_Dose_or_Strength Arg1:T20 Arg2:T55	
+R32	Combined_with Arg1:T20 Arg2:T41	
+R33	Experiences Arg1:T58 Arg2:T20	
+R34	Experiences Arg1:T59 Arg2:T21	
+R35	Has_Route_or_Mode Arg1:T21 Arg2:T61	
+R36	Negation Arg1:T60 Arg2:T21	
+R37	Experiences Arg1:T62 Arg2:T21	
+R39	After Arg1:T22 Arg2:T42	
+R40	Has_Duration_or_Interval Arg1:T22 Arg2:T63	
+R41	Used_for Arg1:T23 Arg2:T24	
+R42	Overlap Arg1:T24 Arg2:T65	
+R43	Overlap Arg1:T43 Arg2:T65	
+T64	Observation 1213 1230	efecto analgésico
+#60	AnnotatorNotes T64	C0948482; Analgesic effect; Finding
+R45	Has_Duration_or_Interval Arg1:T64 Arg2:T67	
+R46	Experiences Arg1:T66 Arg2:T64	
+R47	Has_Duration_or_Interval Arg1:T25 Arg2:T67	
+R51	Overlap Arg1:T25 Arg2:T68	
+T70	Neg_cue 1510 1512	No
+T72	CONC 1518 1529	diferencias
+A4	Assertion T72 Negated
+#62	AnnotatorNotes T72	C1705241; Delta (difference); Quantitative Concept
+R52	Negation Arg1:T70 Arg2:T72	
+R53	Has_Dose_or_Strength Arg1:T32 Arg2:T44	
+T76	Observation 1690 1721	aliviar el dolor postoperatorio
+R54	Has_Duration_or_Interval Arg1:T76 Arg2:T74	
+R55	Overlap Arg1:T33 Arg2:T73	
+R56	Overlap Arg1:T76 Arg2:T73	
+R57	Causes Arg1:T32 Arg2:T76	
+R58	Before Arg1:T32 Arg2:T73	
+T78	Quantifier_or_Qualifier 1798 1808	tolerables
+#63	AnnotatorNotes T78	C4053931; Tolerable; Qualitative Concept
+R59	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T78	
+R60	Negation Arg1:T75 Arg2:T35	
+T80	Neg_cue 1862 1864	no
+T83	Quantifier_or_Qualifier 1869 1879	suficiente
+A5	Assertion T83 Negated
+R61	Negation Arg1:T80 Arg2:T83	
+T69	Quantifier_or_Qualifier 1336 1345	inmediato
+#61	AnnotatorNotes T69	C0205253; Immediate; Temporal Concept
+R50	Has_Quantifier_or_Qualifier Arg1:T68 Arg2:T69	
+#64	AnnotatorNotes T48	C0521329; Spinal; Spatial Concept
+#65	AnnotatorNotes T82	C0521329; Spinal; Spatial Concept
+R16	Overlap Arg1:T64 Arg2:T68	
+#66	AnnotatorNotes T83	C0205410; Sufficient; Qualitative Concept
+#67	AnnotatorNotes T15	C1707887; Efficacy Study; Research Activity
+#68	AnnotatorNotes T2	C1707887; Efficacy Study; Research Activity
+A6	Experiencer T54 Patient
+A7	Experiencer T57 Patient
+A8	Experiencer T56 Patient
+A9	Experiencer T58 Patient
+A10	Experiencer T59 Patient
+A11	Experiencer T62 Patient
+A12	Experiencer T66 Patient

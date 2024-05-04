@@ -1,0 +1,185 @@
+T1	PROC 61 94	prueba molecular de microbiología
+T2	PROC 103 114	diagnóstico
+#1	AnnotatorNotes T2	C0011900; Diagnosis; Diagnostic Procedure
+T3	DISO 133 141	neumonía
+#2	AnnotatorNotes T3	C0032285; Pneumonia; Disease or Syndrome
+T4	PROC 190 304	ENSAYO CLÍNICO DE FASE IV, CON ASIGNACIÓN ALEATORIA, CONTROLADO, ABIERTO Y MULTICÉNTRICO, CON DOS GRUPOS PARALELOS
+T5	PROC 311 344	EVALUAR EL IMPACTO DE LA EFICACIA
+T6	PROC 352 371	PRUEBAS MOLECULARES
+#3	AnnotatorNotes T6	C0752096; Molecular Diagnostic Testing; Laboratory Procedure | C0949688; Molecular Diagnostic Techniques; Molecular Biology Research Technique
+T7	PROC 951 975	consentimiento informado
+#4	AnnotatorNotes T7	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T8	PROC 496 510	hospitalizados
+#5	AnnotatorNotes T8	C0019993; Hospitalization; Health Care Activity
+T9	DISO 519 553	Neumonía adquirida en la comunidad
+#6	AnnotatorNotes T9	C0694549; Community acquired pneumonia; Disease or Syndrome
+T10	DISO 555 558	NAC
+#7	AnnotatorNotes T10	C0694549; Community acquired pneumonia; Disease or Syndrome
+T11	DISO 586 620	Neumonía adquirida en la comunidad
+#8	AnnotatorNotes T11	C0694549; Community acquired pneumonia; Disease or Syndrome
+T12	DISO 622 625	NAC
+#9	AnnotatorNotes T12	C0694549; Community acquired pneumonia; Disease or Syndrome
+T13	PROC 706 720	hospitalizados
+#10	AnnotatorNotes T13	C0019993; Hospitalization; Health Care Activity
+T14	PROC 725 736	diagnóstico
+#11	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	DISO 740 743	NAC
+#12	AnnotatorNotes T15	C0694549; Community acquired pneumonia; Disease or Syndrome
+T16	DISO 878 889	incapacidad
+#13	AnnotatorNotes T16	C0231172; handicapping condition; Finding
+T17	DISO 1043 1059	Inmunodeprimidos
+#14	AnnotatorNotes T17	C0085393; Immunocompromised Host; Finding
+T18	PROC 1072 1085	quimioterapia
+#15	AnnotatorNotes T18	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
+T19	PROC 1088 1100	radioterapia
+#16	AnnotatorNotes T19	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T20	CHEM 1132 1157	fármacos inmunosupresores
+#17	AnnotatorNotes T20	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T21	CHEM 1174 1185	corticoides
+#18	AnnotatorNotes T21	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T22	PROC 1245 1287	trasplante de progenitores hematopoyéticos
+#19	AnnotatorNotes T22	C0472699; Hemopoietic stem cell transplant; Therapeutic or Preventive Procedure
+T23	DISO 1328 1331	HIV
+T24	PROC 1289 1316	trasplante de órgano sólido
+#20	AnnotatorNotes T24	C0730400; Solid organ transplant; Therapeutic or Preventive Procedure
+T25	ANAT 1357 1361	céls
+T26	PROC 1336 1339	CD4
+#21	AnnotatorNotes T26	C0243009; CD4+ Lymphocyte Count; Laboratory Procedure
+T27	DISO 1421 1454	Insuficiencia cardíaca congestiva
+#22	AnnotatorNotes T27	C0018802; Congestive heart failure; Disease or Syndrome
+T28	PROC 1505 1519	ensayo clínico
+#23	AnnotatorNotes T28	C0008976; Clinical Trials; Research Activity
+T29	PROC 1523 1534	tratamiento
+#24	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	CHEM 155 167	antibióticos
+#25	AnnotatorNotes T30	C0003232; Antibiotics; Antibiotic
+T31	PROC 396 410	ANTIBIOTERAPIA
+T32	ANAT 1259 1287	progenitores hematopoyéticos
+#26	AnnotatorNotes T32	C0018956; Hematopoietic stem cells; Cell
+T33	ANAT 1303 1316	órgano sólido
+T34	ANAT 1435 1443	cardíaca
+#27	AnnotatorNotes T34	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T35	DISO 417 451	NEUMONIA ADQUIRIDA EN LA COMUNIDAD
+#28	AnnotatorNotes T35	C0694549; Community acquired pneumonia; Disease or Syndrome
+T36	Date 13 17	2018
+T37	LIVB 486 495	Pacientes
+#29	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 655 672	Pacientes adultos
+#30	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T40	Age 674 687	18 años o más
+T41	Duration 752 773	las primeras 24 horas
+T42	LIVB 808 814	sujeto
+#31	AnnotatorNotes T42	C0681850; Study Subject; Group
+T43	LIVB 820 839	representante legal
+#32	AnnotatorNotes T43	C4288823; Legal Representative for the Study; Human
+T44	LIVB 845 853	familiar
+#33	AnnotatorNotes T44	C0080103; Relative (related person); Family Group
+T46	LIVB 894 900	sujeto
+#34	AnnotatorNotes T46	C0681850; Study Subject; Group
+T47	LIVB 1008 1015	mujeres
+#35	AnnotatorNotes T47	C0043210; Woman; Population Group
+T48	PHYS 1017 1025	embarazo
+#36	AnnotatorNotes T48	C0032961; Pregnancy; Organism Function
+T49	PHYS 1030 1039	lactancia
+#37	AnnotatorNotes T49	C0006147; Breast Feeding; Organism Function | C0022925; Lactation; Organ or Tissue Function
+T50	Duration 1104 1123	los 90 días previos
+T51	Duration 1163 1170	crónico
+#38	AnnotatorNotes T51	C0205191; chronic; Temporal Concept
+T52	Dose 1191 1212	dosis mínima de 15 mg
+T54	Frequency 1212 1216	/día
+T55	Duration 1220 1243	las últimas dos semanas
+T56	LIVB 1318 1327	pacientes
+#39	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T58	Duration 1409 1416	≤ a 24h
+T59	LIVB 442 451	COMUNIDAD
+#40	AnnotatorNotes T59	C0009462; Community; Group
+T60	LIVB 544 553	comunidad
+#41	AnnotatorNotes T60	C0009462; Community; Group
+T61	LIVB 611 620	comunidad
+#42	AnnotatorNotes T61	C0009462; Community; Group
+T63	PHYS 1272 1287	hematopoyéticos
+#43	AnnotatorNotes T63	C0018951; Hematopoiesis; Organ or Tissue Function
+T38	PROC 1474 1478	NYHA
+#44	AnnotatorNotes T38	C4706236; Assessment using New York Heart Association Classification; Health Care Activity
+T45	LIVB 693 704	ambos sexos
+#45	AnnotatorNotes T45	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T57	DISO 1371 1377	Muerte
+#46	AnnotatorNotes T57	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+A1	Population_data T39 Age
+A2	Status T18 History_of
+A3	Status T19 History_of
+A4	Status T22 History_of
+A5	Status T24 History_of
+#47	AnnotatorNotes T4	C0282462; Phase 4 Clinical Trials; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity + C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity + C2826345; Parallel Study; Research Activity 
+#49	AnnotatorNotes T23	C0458074; Human immunodeficiency virus (HIV) status; Finding
+#50	AnnotatorNotes T25	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+#48	AnnotatorNotes T33	C0440790;  Solid organ; Body Part, Organ, or Organ Component
+T53	Observation 1371 1387	Muerte inminente
+#51	AnnotatorNotes T53	C2363727; Death imminent; Finding
+T62	CONC 1389 1408	expectativa de vida
+#52	AnnotatorNotes T62	C0023671; Life Expectancy; Group Attribute
+R1	Has_Duration_or_Interval Arg1:T62 Arg2:T58	
+R3	Overlap Arg1:T57 Arg2:T58	
+R4	Location_of Arg1:T34 Arg2:T27	
+T64	Result_or_Value 1456 1467	clase 3 o 4
+R5	Has_Result_or_Value Arg1:T38 Arg2:T64	
+T65	Observation 1483 1519	Participación en otro ensayo clínico
+R7	Before Arg1:T1 Arg2:T2	
+R9	Overlap Arg1:T6 Arg2:T31	
+R10	Experiences Arg1:T37 Arg2:T8	
+R13	Experiences Arg1:T37 Arg2:T9	
+R14	Experiences Arg1:T37 Arg2:T10	
+R15	Has_Age Arg1:T39 Arg2:T40	
+R16	Has_Age Arg1:T45 Arg2:T40	
+R17	Experiences Arg1:T39 Arg2:T13	
+R18	Experiences Arg1:T45 Arg2:T13	
+R19	Experiences Arg1:T45 Arg2:T15	
+R20	Experiences Arg1:T39 Arg2:T15	
+R22	Overlap Arg1:T15 Arg2:T41	
+R23	Experiences Arg1:T46 Arg2:T16	
+R24	Experiences Arg1:T47 Arg2:T48	
+R25	Experiences Arg1:T47 Arg2:T49	
+T66	Quantifier_or_Qualifier 1060 1066	graves
+#53	AnnotatorNotes T66	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R26	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T66	
+R27	Overlap Arg1:T19 Arg2:T50	
+R28	Overlap Arg1:T18 Arg2:T50	
+R29	Causes Arg1:T18 Arg2:T17	
+R30	Causes Arg1:T19 Arg2:T17	
+R31	Causes Arg1:T20 Arg2:T17	
+R32	Causes Arg1:T21 Arg2:T17	
+R33	Has_Duration_or_Interval Arg1:T21 Arg2:T51	
+R34	Has_Dose_or_Strength Arg1:T21 Arg2:T52	
+R35	Has_Frequency Arg1:T21 Arg2:T54	
+R36	Has_Duration_or_Interval Arg1:T21 Arg2:T55	
+R38	Used_for Arg1:T32 Arg2:T22	
+R39	Causes Arg1:T22 Arg2:T17	
+R40	Causes Arg1:T24 Arg2:T17	
+R41	Used_for Arg1:T33 Arg2:T24	
+R42	Experiences Arg1:T56 Arg2:T23	
+R43	Experiences Arg1:T56 Arg2:T17	
+T67	Result_or_Value 1340 1365	inferiores a 200 céls/mm3
+R44	Has_Result_or_Value Arg1:T26 Arg2:T67	
+R45	Experiences Arg1:T56 Arg2:T26	
+R46	Overlap Arg1:T23 Arg2:T26	
+R47	Overlap Arg1:T17 Arg2:T23	
+T68	Observation 905 937	gravedad de la situación clínica
+R49	Experiences Arg1:T46 Arg2:T68	
+R50	Causes Arg1:T68 Arg2:T16	
+#54	AnnotatorNotes T31	C0338237; Antibiotic therapy; Therapeutic or Preventive Procedure
+#55	AnnotatorNotes T1	C0752096; Molecular Diagnostic Testing; Laboratory Procedure | C0949688; Molecular Diagnostic Techniques; Molecular Biology Research Technique
+A6	Experiencer T56 Patient
+A7	Status T57 Future
+A8	Assertion T16 Hypothetical
+A9	Experiencer T46 Patient
+A10	Assertion T68 Hypothetical
+A11	Experiencer T45 Patient
+A12	Experiencer T39 Patient
+A13	Experiencer T61 Other
+A14	Experiencer T44 Family_member
+A15	Experiencer T43 Other
+A16	Experiencer T42 Patient
+A17	Experiencer T60 Other
+A18	Experiencer T59 Other
+A19	Experiencer T37 Patient
+A20	Experiencer T47 Patient

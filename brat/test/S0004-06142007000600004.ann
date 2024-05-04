@@ -1,0 +1,240 @@
+T1	PROC 1 13	Radioterapia
+#1	AnnotatorNotes T1	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T2	PROC 19 41	prostatectomía radical
+#2	AnnotatorNotes T2	C0194810; Radical prostatectomy; Therapeutic or Preventive Procedure
+T3	PROC 350 362	radioterapia
+#3	AnnotatorNotes T3	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T4	PROC 364 366	RT
+#4	AnnotatorNotes T4	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T5	PROC 374 385	tratamiento
+#5	AnnotatorNotes T5	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T6	PROC 401 415	prostatectomía
+#6	AnnotatorNotes T6	C0033573; Prostatectomy; Therapeutic or Preventive Procedure
+T7	PROC 694 729	tratados con prostatectomía radical
+#7	AnnotatorNotes T7	C0194810; Radical prostatectomy; Therapeutic or Preventive Procedure
+T8	DISO 939 959	persistencia tumoral
+T9	PROC 989 1007	tratamiento con RT
+#8	AnnotatorNotes T9	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T10	PROC 1055 1057	RT
+#9	AnnotatorNotes T10	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T11	PROC 1159 1170	diagnóstico
+#10	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	PROC 1256 1270	prostatectomía
+#11	AnnotatorNotes T12	C0033573; Prostatectomy; Therapeutic or Preventive Procedure
+T13	PROC 1367 1375	biopsias
+#12	AnnotatorNotes T13	C0005558; Biopsy; Diagnostic Procedure
+T14	PROC 1649 1660	diagnóstico
+#13	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	PROC 1683 1685	RT
+#14	AnnotatorNotes T15	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T16	PROC 1882 1884	RT
+#15	AnnotatorNotes T16	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T17	DISO 1895 1915	persistencia tumoral
+T18	PROC 1946 1960	prostatectomía
+#16	AnnotatorNotes T18	C0033573; Prostatectomy; Therapeutic or Preventive Procedure
+T19	DISO 2002 2011	toxicidad
+#17	AnnotatorNotes T19	C0600688; Toxic effect; Injury or Poisoning
+T20	PROC 2076 2078	RT
+#18	AnnotatorNotes T20	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T21	PROC 2084 2098	prostatectomía
+#19	AnnotatorNotes T21	C0033573; Prostatectomy; Therapeutic or Preventive Procedure
+T22	PROC 2105 2134	tratamiento eficaz de rescate
+T23	PROC 2041 2056	tratados con RT
+#20	AnnotatorNotes T23	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T24	PROC 2283 2296	RT de rescate
+#21	AnnotatorNotes T24	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+T25	DISO 2325 2334	toxicidad
+#22	AnnotatorNotes T25	C0600688; Toxic effect; Injury or Poisoning
+T26	PROC 2417 2441	hormonoterapia adyuvante
+T27	PROC 2479 2491	RT adyuvante
+#23	AnnotatorNotes T27	C0242939; Radiotherapy, Adjuvant; Therapeutic or Preventive Procedure
+T28	PROC 2529 2541	tratamientos
+#24	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	PROC 2547 2561	prostatectomía
+#25	AnnotatorNotes T29	C0033573; Prostatectomy; Therapeutic or Preventive Procedure
+T30	PROC 502 516	administración
+#26	AnnotatorNotes T30	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T31	PROC 892 895	PSA
+#27	AnnotatorNotes T31	C0201544; Prostate specific antigen measurement; Laboratory Procedure
+T32	PROC 1152 1155	PSA
+#28	AnnotatorNotes T32	C0201544; Prostate specific antigen measurement; Laboratory Procedure
+T33	DISO 1235 1246	patológicas
+#29	AnnotatorNotes T33	C0677042; Pathology processes; Pathologic Function
+T34	PROC 1854 1857	PSA
+#30	AnnotatorNotes T34	C0201544; Prostate specific antigen measurement; Laboratory Procedure
+T35	PROC 2185 2188	PSA
+#31	AnnotatorNotes T35	C0201544; Prostate specific antigen measurement; Laboratory Procedure
+T36	PROC 2372 2386	estadificación
+#32	AnnotatorNotes T36	C0027646; Diagnostic Neoplasm Staging; Diagnostic Procedure
+T37	Date 142 155	Recientemente
+T38	LIVB 419 428	pacientes
+#33	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T42	Date 667 671	2003
+T43	LIVB 677 686	pacientes
+#34	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 823 832	pacientes
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T47	Age 1125 1140	68 años [49-80]
+T48	Date 1202 1215	prequirúrgico
+#36	AnnotatorNotes T48	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T49	LIVB 1276 1285	pacientes
+#37	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 1417 1426	pacientes
+#38	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	Duration 1597 1607	22,2 meses
+T52	Duration 1629 1639	10,5 meses
+T53	Duration 1709 1719	los 5 años
+T56	Duration 1789 1799	los 5 años
+T57	Neg_cue 1971 1973	No
+T58	LIVB 2031 2040	pacientes
+#39	AnnotatorNotes T58	C0030705; Patients; Patient or Disabled Group
+T60	Neg_cue 2298 2300	No
+T61	Date 2387 2400	prequirúrgica
+#40	AnnotatorNotes T61	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T62	LIVB 2464 2473	pacientes
+#41	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	Date 2513 2521	actuales
+T39	Date 656 660	1993
+T40	Dose 1065 1078	66 Gy [60-74]
+T41	DISO 565 573	recidiva
+#42	AnnotatorNotes T41	C2825055; Recurrence (disease attribute); Pathologic Function
+T45	DISO 857 876	recidiva bioquímica
+#43	AnnotatorNotes T45	C2985506; PSA Failure; Finding (?)
+T46	DISO 1570 1589	recidiva bioquímica
+#44	AnnotatorNotes T46	C2985506; PSA Failure; Finding (?)
+T54	DISO 2140 2159	recidiva bioquímica
+#45	AnnotatorNotes T54	C2985506; PSA Failure; Finding (?)
+T55	DISO 1837 1845	recidiva
+#46	AnnotatorNotes T55	C2825055; Recurrence (disease attribute); Pathologic Function
+A1	Assertion T19 Negated
+A2	Assertion T25 Negated
+R1	Negation Arg1:T57 Arg2:T19	
+T59	Quantifier_or_Qualifier 2012 2023	grado 3 y 4
+A3	Assertion T59 Negated
+R2	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T59	
+R3	Negation Arg1:T57 Arg2:T59	
+R4	Negation Arg1:T60 Arg2:T25	
+T64	Quantifier_or_Qualifier 2335 2341	severa
+A4	Assertion T64 Negated
+R5	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T64	
+R6	Negation Arg1:T60 Arg2:T64	
+T65	Spec_cue 438 447	riesgo de
+T66	Observation 448 466	fracaso bioquímico
+A5	Assertion T66 Speculated
+T67	Neg_cue 1739 1747	Libre de
+T68	Observation 1748 1766	Fracaso Bioquímico
+A6	Assertion T68 Negated
+R7	Negation Arg1:T67 Arg2:T68	
+R8	After Arg1:T1 Arg2:T2	
+R9	After Arg1:T4 Arg2:T6	
+R10	After Arg1:T3 Arg2:T6	
+R11	Experiences Arg1:T38 Arg2:T6	
+R12	Experiences Arg1:T38 Arg2:T4	
+R13	Experiences Arg1:T38 Arg2:T3	
+R14	Experiences Arg1:T38 Arg2:T66	
+R15	Speculation Arg1:T65 Arg2:T66	
+R16	Experiences Arg1:T38 Arg2:T5	
+T69	Observation 531 549	factores de riesgo
+#47	AnnotatorNotes T69	C0035648; risk factors; Finding
+R18	Before Arg1:T30 Arg2:T41	
+R19	After Arg1:T7 Arg2:T39	
+R20	Before Arg1:T7 Arg2:T42	
+R21	Experiences Arg1:T43 Arg2:T7	
+T70	Quantifier_or_Qualifier 550 561	predictivos
+#48	AnnotatorNotes T70	C0681890; predictive; Qualitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T69 Arg2:T70	
+R23	Experiences Arg1:T44 Arg2:T45	
+R24	Experiences Arg1:T44 Arg2:T8	
+T71	Observation 1018 1034	fallo bioquímico
+R25	Experiences Arg1:T44 Arg2:T31	
+R26	After Arg1:T9 Arg2:T71	
+R27	Has_Dose_or_Strength Arg1:T10 Arg2:T40	
+T72	CONC 1093 1111	Variables clínicas
+T73	CONC 1194 1201	Gleason
+#49	AnnotatorNotes T73	C0332326; Gleason Grading System; Classification
+R28	Overlap Arg1:T73 Arg2:T48	
+T74	CONC 1389 1396	Gleason
+#50	AnnotatorNotes T74	C0332326; Gleason Grading System; Classification
+T75	CONC 1927 1934	Gleason
+#51	AnnotatorNotes T75	C0332326; Gleason Grading System; Classification
+T76	CONC 2233 2240	Gleason
+#52	AnnotatorNotes T76	C0332326; Gleason Grading System; Classification
+T77	CONC 1225 1246	Variables patológicas
+R29	Experiences Arg1:T49 Arg2:T33	
+R30	Experiences Arg1:T49 Arg2:T12	
+R31	Overlap Arg1:T32 Arg2:T11	
+R32	Before Arg1:T13 Arg2:T12	
+R33	Experiences Arg1:T49 Arg2:T13	
+R34	Experiences Arg1:T50 Arg2:T13	
+R35	Experiences Arg1:T50 Arg2:T12	
+T78	Observation 1308 1331	agresividad histológica
+R36	Experiences Arg1:T49 Arg2:T78	
+R37	Before Arg1:T12 Arg2:T78	
+T79	Observation 1451 1463	borde afecto
+#53	AnnotatorNotes T79	C1709603; Positive Surgical Margins; Finding
+T80	Observation 1504 1507	pT3
+#54	AnnotatorNotes T80	C0332393; pT3 Stage Finding; Finding
+T81	Observation 1508 1511	pT4
+#55	AnnotatorNotes T81	C3661755; Neoplasm of prostate primary tumor staging category pT4: Invasion of rectum, levator muscles, and/or pelvic wall; Finding (?)
+T82	CONC 1513 1533	Variables evolutivas
+R38	Overlap Arg1:T46 Arg2:T51	
+R39	Has_Duration_or_Interval Arg1:T46 Arg2:T52	
+R40	Before Arg1:T14 Arg2:T46	
+R41	Before Arg1:T46 Arg2:T15	
+T83	CONC 1725 1738	Supervivencia
+#56	AnnotatorNotes T83	C0038955; survivorship; Temporal Concept
+R42	Has_Duration_or_Interval Arg1:T83 Arg2:T56	
+T84	Quantifier_or_Qualifier 1739 1766	Libre de Fracaso Bioquímico
+R43	Has_Quantifier_or_Qualifier Arg1:T83 Arg2:T84	
+T85	CONC 1869 1884	inicio de la RT
+R44	Overlap Arg1:T34 Arg2:T85	
+R45	Before Arg1:T55 Arg2:T16	
+R46	After Arg1:T75 Arg2:T18	
+R47	Overlap Arg1:T55 Arg2:T17	
+R48	Experiences Arg1:T58 Arg2:T23	
+T86	CONC 1988 1995	aumento
+A7	Assertion T86 Negated
+#57	AnnotatorNotes T86	C0442805; Increase; Functional Concept
+R49	Negation Arg1:T57 Arg2:T86	
+R50	After Arg1:T20 Arg2:T21	
+R51	After Arg1:T20 Arg2:T54	
+R52	After Arg1:T22 Arg2:T54	
+T87	Observation 2162 2174	persistencia
+#58	AnnotatorNotes T87	C2983415; Persistent Disease; Finding
+R53	After Arg1:T20 Arg2:T87	
+R54	After Arg1:T22 Arg2:T87	
+T88	Observation 2268 2277	respuesta
+#59	AnnotatorNotes T88	C4055223; Clinical Response; Finding
+R55	Overlap Arg1:T88 Arg2:T24	
+T89	CONC 2311 2318	aumento
+A8	Assertion T89 Negated
+#60	AnnotatorNotes T89	C0442805; Increase; Functional Concept
+R56	Negation Arg1:T60 Arg2:T89	
+R57	Overlap Arg1:T36 Arg2:T61	
+R59	Experiences Arg1:T62 Arg2:T26	
+R60	Experiences Arg1:T62 Arg2:T27	
+R61	Before Arg1:T36 Arg2:T26	
+R62	Before Arg1:T36 Arg2:T27	
+R63	After Arg1:T28 Arg2:T29	
+R64	Experiences Arg1:T62 Arg2:T28	
+R65	Experiences Arg1:T62 Arg2:T29	
+R66	After Arg1:T27 Arg2:T29	
+T90	Observation 433 447	alto riesgo de
+#61	AnnotatorNotes T90	C0332167; High risk of; Finding
+R67	Experiences Arg1:T38 Arg2:T90	
+R68	Before Arg1:T90 Arg2:T66	
+R17	Experiences Arg1:T58 Arg2:T19	
+#62	AnnotatorNotes T64	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R58	Before Arg1:T18 Arg2:T16	
+#63	AnnotatorNotes T37	C0332185; Recent; Temporal Concept
+#64	AnnotatorNotes T63	C0521116; Current (present time); Temporal Concept
+#65	AnnotatorNotes T26	C2367461; adjuvant hormonal therapy prescribed or administered; Therapeutic or Preventive Procedure
+#66	AnnotatorNotes T8	C2983415; Persistent Disease; Finding (?) 
+#67	AnnotatorNotes T17	C2983415; Persistent Disease; Finding (?)
+A9	Experiencer T38 Patient
+A10	Experiencer T43 Patient
+A11	Experiencer T44 Patient
+A12	Experiencer T49 Patient
+A13	Experiencer T50 Patient
+A14	Experiencer T58 Patient
+A15	Experiencer T62 Patient

@@ -1,0 +1,121 @@
+T1	PROC 46 65	Estudio comparativo
+#1	AnnotatorNotes T1	C1579762; comparative study research; Research Activity
+T2	CHEM 82 102	corifolitropina alfa
+#2	AnnotatorNotes T2	C2713522; Corifollitropin alfa; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T3	PROC 520 544	consentimiento informado
+#3	AnnotatorNotes T3	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T4	PROC 132 152	estimulación ovárica
+T5	PROC 228 248	estimulación ovárica
+T6	PROC 377 389	estimulación
+#4	AnnotatorNotes T6	C1292856; Stimulation procedure; Therapeutic or Preventive Procedure
+T7	ANAT 875 883	ovocitos
+#5	AnnotatorNotes T7	C0029045; Oocytes; Cell
+T8	PROC 891 916	protocolo de estimulación
+T9	PROC 983 1013	recuento de folículos antrales
+#6	AnnotatorNotes T9	C3273281; Antral follicle count; Diagnostic Procedure
+T10	PROC 933 956	Test de reserva ovárica
+T11	ANAT 995 1013	folículos antrales
+#7	AnnotatorNotes T11	C0600225; Graafian Follicle; Body Part, Organ, or Organ Component
+T12	ANAT 1026 1035	folículos
+#8	AnnotatorNotes T12	C0600225; Graafian Follicle; Body Part, Organ, or Organ Component | C1571705; Follicle; Body Part, Organ, or Organ Component
+T13	CHEM 1056 1078	hormona antimulleriana
+#9	AnnotatorNotes T13	C0066928; mullerian-inhibiting hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T14	PROC 1080 1083	AMH
+#10	AnnotatorNotes T14	C4048548; Anti-Mullerian Hormone Measurement; Laboratory Procedure
+T15	ANAT 1088 1094	sangre
+#11	AnnotatorNotes T15	C0005767; Blood; Body Substance
+T16	CHEM 105 121	FSH recombinante
+#12	AnnotatorNotes T16	C0724588; Recombinant Follicle Stimulating Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T17	ANAT 145 152	ovárica
+#13	AnnotatorNotes T17	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T18	DISO 170 184	baja respuesta
+T19	DISO 208 222	Baja respuesta
+T20	ANAT 241 248	ovárica
+#14	AnnotatorNotes T20	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T21	DISO 685 702	baja respondedora
+T22	ANAT 949 956	ovárica
+#15	AnnotatorNotes T22	C0029939; Ovary; Body Part, Organ, or Organ Component | C1278992; Entire ovary; Body Part, Organ, or Organ Component
+T23	PROC 1227 1251	consentimiento informado
+#16	AnnotatorNotes T23	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T24	DISO 828 845	baja respondedora
+T25	DISO 849 863	Baja respuesta
+T26	PROC 1015 1018	AFC
+#17	AnnotatorNotes T26	C3273281; Antral follicle count; Diagnostic Procedure
+T27	PROC 1039 1078	concentración de hormona antimulleriana
+T28	PROC 769 783	consentimiento
+#18	AnnotatorNotes T28	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T29	Date 13 17	2013
+T31	Frequency 122 128	diaria
+T32	LIVB 156 165	pacientes
+#19	AnnotatorNotes T32	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 314 323	pacientes
+#20	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	LIVB 655 663	paciente
+#21	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T36	Age 730 738	≥40 años
+T30	DISO 398 417	bajas respondedoras
+T37	Neg_cue 1190 1192	No
+T35	Observation 1193 1213	estar en condiciones
+#22	AnnotatorNotes T35	C1299581; Able (finding); Finding (?)
+A2	Status T25 History_of
+A1	Assertion T35 Negated
+#23	AnnotatorNotes T5	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#24	AnnotatorNotes T4	C0949385; Ovarian Stimulation; Therapeutic or Preventive Procedure
+#25	AnnotatorNotes T27	C4048548; Anti-Mullerian Hormone Measurement; Laboratory Procedure
+#26	AnnotatorNotes T19	C4087255; Poor response to ovulation induction; Pathologic Function
+#27	AnnotatorNotes T18	C4087255; Poor response to ovulation induction; Pathologic Function
+#28	AnnotatorNotes T30	C4087255; Poor response to ovulation induction; Pathologic Function
+#29	AnnotatorNotes T21	C4087255; Poor response to ovulation induction; Pathologic Function
+#30	AnnotatorNotes T24	C4087255; Poor response to ovulation induction; Pathologic Function
+#31	AnnotatorNotes T25	C4087255; Poor response to ovulation induction; Pathologic Function
+T38	Neg_cue 1140 1142	No
+T39	Observation 1143 1187	cumplir alguno de los criterios de inclusión
+A3	Assertion T39 Negated
+#32	AnnotatorNotes T39	C4329786; Eligibility Criteria Met By Subject; Finding
+R1	Negation Arg1:T38 Arg2:T39	
+R2	Negation Arg1:T37 Arg2:T35	
+R3	Overlap Arg1:T35 Arg2:T23	
+T40	Observation 1265 1292	participación en el estudio
+#33	AnnotatorNotes T40	C1278516; Patient participation status; Finding (?)
+R4	Before Arg1:T23 Arg2:T40	
+T41	Result_or_Value 961 981	resultados anormales
+#34	AnnotatorNotes T41	C0459424; Abnormal result; Finding | C0850610; test results abnormal; Finding
+R5	Has_Result_or_Value Arg1:T10 Arg2:T41	
+R6	Has_Result_or_Value Arg1:T9 Arg2:T41	
+R7	Has_Result_or_Value Arg1:T26 Arg2:T41	
+T42	Result_or_Value 1020 1035	< 5-7 folículos
+R8	Has_Result_or_Value Arg1:T26 Arg2:T42	
+R9	Has_Result_or_Value Arg1:T9 Arg2:T42	
+R10	Has_Result_or_Value Arg1:T27 Arg2:T41	
+R11	Has_Result_or_Value Arg1:T14 Arg2:T41	
+R12	Location_of Arg1:T15 Arg2:T14	
+R13	Location_of Arg1:T15 Arg2:T27	
+T43	Result_or_Value 1095 1110	< 0.5-1.1 ng/ml
+R14	Has_Result_or_Value Arg1:T14 Arg2:T43	
+R15	Has_Result_or_Value Arg1:T27 Arg2:T43	
+T44	Result_or_Value 872 883	≤3 ovocitos
+R16	Has_Result_or_Value Arg1:T25 Arg2:T44	
+R17	Before Arg1:T8 Arg2:T25	
+R18	Overlap Arg1:T28 Arg2:T36	
+T45	Observation 802 818	factor de riesgo
+#35	AnnotatorNotes T45	C0035648; risk factors; Finding
+R19	Overlap Arg1:T45 Arg2:T24	
+R20	Has_Frequency Arg1:T16 Arg2:T31	
+R21	Has_Frequency Arg1:T2 Arg2:T31	
+R22	Experiences Arg1:T32 Arg2:T2	
+R23	Experiences Arg1:T32 Arg2:T16	
+R24	Used_for Arg1:T16 Arg2:T4	
+R25	Used_for Arg1:T2 Arg2:T4	
+R26	Experiences Arg1:T32 Arg2:T18	
+T46	Quantifier_or_Qualifier 350 373	un mínimo de dos ciclos
+R29	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T46	
+T47	Observation 458 506	Acepten voluntariamente participar en el estudio
+R30	Experiences Arg1:T34 Arg2:T21	
+R31	Overlap Arg1:T47 Arg2:T3	
+R27	Experiences Arg1:T32 Arg2:T4	
+#36	AnnotatorNotes T47	C1302239; Patient consented to clinical trial; Finding
+A4	Experiencer T32 Patient
+A5	Experiencer T33 Patient
+A6	Status T6 Future
+A7	Status T46 Future
+A8	Experiencer T34 Patient

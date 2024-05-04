@@ -1,0 +1,136 @@
+T1	CHEM 31 47	alfafetoproteína
+#1	AnnotatorNotes T1	C0002210; alpha-Fetoproteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T2	ANAT 48 54	sérica
+#2	AnnotatorNotes T2	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T3	PROC 87 109	tratamiento quirúrgico
+#3	AnnotatorNotes T3	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T4	DISO 114 129	hepatocarcinoma
+#4	AnnotatorNotes T4	C2239176; Liver carcinoma; Neoplastic Process
+T5	PROC 248 251	AFP
+#5	AnnotatorNotes T5	C0201539; Alpha one fetoprotein measurement; Laboratory Procedure
+T6	ANAT 219 226	séricos
+#6	AnnotatorNotes T6	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T7	CHEM 230 246	alfafetoproteína
+#7	AnnotatorNotes T7	C0002210; alpha-Fetoproteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T8	PROC 522 530	seguidos
+#8	AnnotatorNotes T8	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T9	DISO 336 339	HCC
+#9	AnnotatorNotes T9	C2239176; Liver carcinoma; Neoplastic Process
+T10	ANAT 395 402	séricos
+#10	AnnotatorNotes T10	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T11	CHEM 406 409	AFP
+#11	AnnotatorNotes T11	C0002210; alpha-Fetoproteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T12	PROC 452 474	tratamiento quirúrgico
+#12	AnnotatorNotes T12	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T13	DISO 479 482	HCC
+#13	AnnotatorNotes T13	C2239176; Liver carcinoma; Neoplastic Process
+T14	CHEM 967 970	AFP
+#14	AnnotatorNotes T14	C0002210; alpha-Fetoproteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T15	ANAT 1124 1131	séricos
+#15	AnnotatorNotes T15	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T16	DISO 1219 1222	HCC
+#16	AnnotatorNotes T16	C2239176; Liver carcinoma; Neoplastic Process
+T17	PROC 20 54	niveles de alfafetoproteína sérica
+#17	AnnotatorNotes T17	C0373538; Alpha-1-fetoprotein measurement, serum; Laboratory Procedure
+T18	PROC 211 246	niveles séricos de alfafetoproteína
+#18	AnnotatorNotes T18	C0373538; Alpha-1-fetoprotein measurement, serum; Laboratory Procedure
+T19	DISO 319 334	hepatocarcinoma
+#19	AnnotatorNotes T19	C2239176; Liver carcinoma; Neoplastic Process
+T20	PROC 387 409	niveles séricos de AFP
+#20	AnnotatorNotes T20	C0373538; Alpha-1-fetoprotein measurement, serum; Laboratory Procedure
+T21	PROC 663 666	AFP
+#21	AnnotatorNotes T21	C0201539; Alpha one fetoprotein measurement; Laboratory Procedure
+T22	PROC 875 878	AFP
+#22	AnnotatorNotes T22	C0201539; Alpha one fetoprotein measurement; Laboratory Procedure
+T23	PROC 941 970	niveles preoperatorios de AFP
+T24	PROC 1081 1084	AFP
+#23	AnnotatorNotes T24	C0201539; Alpha one fetoprotein measurement; Laboratory Procedure
+T25	PROC 1159 1162	AFP
+#24	AnnotatorNotes T25	C0201539; Alpha one fetoprotein measurement; Laboratory Procedure
+T26	Time 55 68	preoperatoria
+#25	AnnotatorNotes T26	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T28	Time 253 266	preoperatoria
+#26	AnnotatorNotes T28	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T31	Time 410 423	preoperatoria
+#27	AnnotatorNotes T31	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T33	LIVB 505 514	pacientes
+#28	AnnotatorNotes T33	C0030705; Patients; Patient or Disabled Group
+T34	Date 549 563	julio del 2005
+T35	Date 564 578	enero del 2016
+T38	LIVB 741 750	pacientes
+#29	AnnotatorNotes T38	C0030705; Patients; Patient or Disabled Group
+T39	LIVB 758 765	hombres
+#30	AnnotatorNotes T39	C0025266; Male population group; Population Group
+T40	Age 778 793	68.1 ± 8.5 años
+T42	Duration 810 823	1, 3 y 5 años
+T44	Time 949 963	preoperatorios
+#31	AnnotatorNotes T44	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T46	Duration 1047 1057	1 y 5 años
+T48	Time 1132 1146	preoperatorios
+#32	AnnotatorNotes T48	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T27	CONC 71 80	sobrevida
+T29	CONC 305 314	sobrevida
+T30	CONC 429 438	sobrevida
+T32	CONC 687 696	sobrevida
+T36	CONC 798 807	sobrevida
+R1	Overlap Arg1:T36 Arg2:T42	
+R2	Has_Age Arg1:T39 Arg2:T40	
+R3	Has_Age Arg1:T38 Arg2:T40	
+T37	CONC 1035 1044	sobrevida
+R4	Overlap Arg1:T37 Arg2:T46	
+T41	CONC 1206 1215	sobrevida
+R5	Location_of Arg1:T15 Arg2:T25	
+R6	Overlap Arg1:T25 Arg2:T48	
+R7	Overlap Arg1:T23 Arg2:T44	
+R8	Location_of Arg1:T2 Arg2:T17	
+R9	Overlap Arg1:T17 Arg2:T26	
+T43	CONC 1 12	Correlación
+#33	AnnotatorNotes T43	C1707520; Correlation; Qualitative Concept
+R10	Before Arg1:T17 Arg2:T3	
+R11	Location_of Arg1:T6 Arg2:T18	
+R12	Location_of Arg1:T6 Arg2:T5	
+R13	Overlap Arg1:T5 Arg2:T28	
+R14	Overlap Arg1:T18 Arg2:T28	
+T45	CONC 280 296	valor predictivo
+A1	Assertion T45 Speculated
+#34	AnnotatorNotes T45	C1514307; Predictive Value; Qualitative Concept
+T47	Spec_cue 267 273	pueden
+R15	Speculation Arg1:T47 Arg2:T45	
+T49	CONC 365 376	correlación
+#35	AnnotatorNotes T49	C1707520; Correlation; Qualitative Concept
+R16	Location_of Arg1:T10 Arg2:T20	
+R17	Overlap Arg1:T20 Arg2:T31	
+R18	After Arg1:T30 Arg2:T12	
+R19	Before Arg1:T20 Arg2:T12	
+R20	After Arg1:T27 Arg2:T3	
+R21	After Arg1:T8 Arg2:T34	
+R22	Before Arg1:T8 Arg2:T35	
+T50	CONC 596 605	curva ROC
+#36	AnnotatorNotes T50	C0035787; ROC Curve; Quantitative Concept
+T51	CONC 625 637	sensibilidad
+#37	AnnotatorNotes T51	C0439823; Sensibility; Qualitative Concept
+T52	CONC 643 656	especificidad
+#38	AnnotatorNotes T52	C0037791; Specificity; Quantitative Concept
+T53	CONC 914 927	especificidad
+#39	AnnotatorNotes T53	C0037791; Specificity; Quantitative Concept
+T54	CONC 895 907	sensibilidad
+#40	AnnotatorNotes T54	C0439823; Sensibility; Qualitative Concept
+T55	CONC 698 710	Kaplan-Meier
+#41	AnnotatorNotes T55	C1720943; Kaplan-Meier Estimate; Quantitative Concept (?) | C1720944; Kaplan-Meier Survival Curves; Quantitative Concept (?)
+T56	Observation 1116 1123;1147 1162	niveles elevados de AFP
+#42	AnnotatorNotes T56	C0235971; Elevated alpha-fetoprotein; Finding
+R23	Overlap Arg1:T56 Arg2:T48	
+R24	Overlap Arg1:T24 Arg2:T44	
+T57	CONC 1170 1186	valor predictivo
+#43	AnnotatorNotes T57	C1514307; Predictive Value; Qualitative Concept
+#44	AnnotatorNotes T27	C0220921; survival aspects; Functional Concept
+#45	AnnotatorNotes T29	C0220921; survival aspects; Functional Concept
+#46	AnnotatorNotes T30	C0220921; survival aspects; Functional Concept
+#47	AnnotatorNotes T32	C0220921; survival aspects; Functional Concept
+#48	AnnotatorNotes T37	C0220921; survival aspects; Functional Concept
+#49	AnnotatorNotes T41	C0220921; survival aspects; Functional Concept
+#50	AnnotatorNotes T36	C0220921; survival aspects; Functional Concept
+A2	Experiencer T38 Patient
+A3	Experiencer T39 Patient
+A4	Experiencer T33 Patient
+R25	Has_Result_or_Value Arg1:T25 Arg2:T56	

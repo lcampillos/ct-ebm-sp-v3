@@ -1,0 +1,191 @@
+T1	CHEM 79 98	alfa 1-antitripsina
+#1	AnnotatorNotes T1	C0002191; alpha 1-antitrypsin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T2	PROC 105 115	prevención
+#2	AnnotatorNotes T2	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T3	PROC 187 224	trasplante de células hematopoyéticas
+T4	ANAT 201 224	células hematopoyéticas
+#3	AnnotatorNotes T4	C2323499; Hematopoietic cell; Cell
+T5	PROC 247 346	Estudio de fase 2/3, multicéntrico, aleatorizado, con doble enmascaramiento, controlado con placebo
+T6	PROC 352 386	evaluar la seguridad y la eficacia
+#4	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T7	CHEM 393 412	alfa 1-antitripsina
+#5	AnnotatorNotes T7	C0002191; alpha 1-antitrypsin; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T8	PROC 419 429	prevención
+#6	AnnotatorNotes T8	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T9	PROC 501 538	trasplante de células hematopoyéticas
+T10	ANAT 515 538	células hematopoyéticas
+#7	AnnotatorNotes T10	C2323499; Hematopoietic cell; Cell
+T11	DISO 586 622	enfermedad de injerto-contra-huésped
+T12	DISO 630 642	complicación
+#8	AnnotatorNotes T12	C0009566; Complication; Pathologic Function
+T13	PROC 683 721	transplante de células hematopoyéticas
+T14	DISO 788 824	enfermedad de injerto-contra-huésped
+T15	PROC 930 941	tratamiento
+#9	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	DISO 978 986	leucemia
+#10	AnnotatorNotes T16	C0023418; leukemia; Neoplastic Process
+T17	DISO 991 998	linfoma
+#11	AnnotatorNotes T17	C0024299; Lymphoma; Neoplastic Process
+T18	DISO 1004 1020	mieloma múltiple
+#12	AnnotatorNotes T18	C0026764; Multiple Myeloma; Neoplastic Process
+T19	PROC 1025 1030	Pauta
+#13	AnnotatorNotes T19	C0935576; treatment guideline; Therapeutic or Preventive Procedure
+T20	PROC 1034 1065	acondicionamiento mieloablativo
+#14	AnnotatorNotes T20	C4319756; Myeloablative Conditioning; Therapeutic or Preventive Procedure
+T21	PROC 1140 1180	Trasplante con reducción de linfocitos T
+T22	ANAT 1168 1180	linfocitos T
+#15	AnnotatorNotes T22	C0039194; T-Lymphocyte; Cell
+T23	PROC 1202 1213	tratamiento
+#16	AnnotatorNotes T23	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T24	CHEM 1274 1298	globulina antitimocítica
+#17	AnnotatorNotes T24	C0003442; lymphocyte immune globulin, anti-thymocyte globulin; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T25	CHEM 1306 1317	alemtuzumab
+#18	AnnotatorNotes T25	C0383429; alemtuzumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T26	PROC 1342 1383	Trasplante de sangre del cordón umbilical
+T27	ANAT 1356 1383	sangre del cordón umbilical
+#19	AnnotatorNotes T27	C0162371; Umbilical Cord Blood; Body Substance
+T28	DISO 122 158	enfermedad de injerto-contra-huésped
+T29	ANAT 136 143	injerto
+#20	AnnotatorNotes T29	C0332835; Transplanted tissue; Tissue
+T30	DISO 436 472	enfermedad de injerto-contra-huésped
+T31	ANAT 450 457	injerto
+#21	AnnotatorNotes T31	C0332835; Transplanted tissue; Tissue
+T32	ANAT 738 745	órganos
+#22	AnnotatorNotes T32	C0178784; Organ; Body Part, Organ, or Organ Component | C1280836; Entire body organ; Body Part, Organ, or Organ Component
+T33	ANAT 600 607	injerto
+#23	AnnotatorNotes T33	C0332835; Transplanted tissue; Tissue
+T34	ANAT 698 721	células hematopoyéticas
+#24	AnnotatorNotes T34	C2323499; Hematopoietic cell; Cell
+T35	ANAT 802 809	injerto
+#25	AnnotatorNotes T35	C0332835; Transplanted tissue; Tissue
+T36	DISO 945 969	neoplasias hematológicas
+T37	CHEM 1218 1246	anticuerpos antilinfocitos T
+T38	CHEM 1300 1303	GAT
+#26	AnnotatorNotes T38	C0003442; lymphocyte immune globulin, anti-thymocyte globulin; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T39	Date 13 17	2018
+T41	LIVB 151 158	huésped
+#27	AnnotatorNotes T41	C1167395; Host (organism); Organism
+T42	LIVB 162 171	pacientes
+#28	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 465 472	huésped
+#29	AnnotatorNotes T44	C1167395; Host (organism); Organism
+T45	LIVB 476 485	pacientes
+#30	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 615 622	huésped
+#31	AnnotatorNotes T47	C1167395; Host (organism); Organism
+T48	LIVB 750 758	paciente
+#32	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 817 824	huésped
+#33	AnnotatorNotes T50	C1167395; Host (organism); Organism
+T51	LIVB 854 890	Sujetos de sexo masculino o femenino
+#34	AnnotatorNotes T51	C0681850; Study Subject; Group + C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T52	Age 892 900	≥12 años
+T54	PHYS 209 224	hematopoyéticas
+#35	AnnotatorNotes T54	C0018951; Hematopoiesis; Organ or Tissue Function
+T55	PHYS 523 538	hematopoyéticas
+#36	AnnotatorNotes T55	C0018951; Hematopoiesis; Organ or Tissue Function
+T56	PHYS 706 721	hematopoyéticas
+#37	AnnotatorNotes T56	C0018951; Hematopoiesis; Organ or Tissue Function
+#38	AnnotatorNotes T36	C0376545; Hematologic Neoplasms; Neoplastic Process 
+#39	AnnotatorNotes T28	C0018133; Graft-vs-Host Disease; Disease or Syndrome 
+#40	AnnotatorNotes T30	C0018133; Graft-vs-Host Disease; Disease or Syndrome 
+#41	AnnotatorNotes T11	C0018133; Graft-vs-Host Disease; Disease or Syndrome 
+#42	AnnotatorNotes T14	C0018133; Graft-vs-Host Disease; Disease or Syndrome 
+#43	AnnotatorNotes T5	C1519042; Phase II/III Trial; Research Activity + C1096776; Multicenter Study; Research Activity + C0034656; Randomization; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product 
+#44	AnnotatorNotes T26	C0935850; Umbilical Cord Blood Transplantation; Therapeutic or Preventive Procedure
+T40	PROC 918 921	THB
+#45	AnnotatorNotes T40	[hematopoietic cell transplant]
+T43	PROC 1104 1107	THB
+A1	Status T43 History_of
+#46	AnnotatorNotes T43	[hematopoietic cell transplant]
+R2	Experiences Arg1:T50 Arg2:T14	
+R3	Has_Age Arg1:T51 Arg2:T52	
+R4	Experiences Arg1:T51 Arg2:T40	
+R5	Experiences Arg1:T51 Arg2:T15	
+R6	Experiences Arg1:T51 Arg2:T36	
+R7	Experiences Arg1:T51 Arg2:T16	
+R8	Experiences Arg1:T51 Arg2:T17	
+R9	Experiences Arg1:T51 Arg2:T18	
+T46	Quantifier_or_Qualifier 1066 1074	prevista
+#47	AnnotatorNotes T46	C1301732; Planned; Functional Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T46	
+T49	Quantifier_or_Qualifier 1108 1116	autólogo
+A2	Status T49 History_of
+#48	AnnotatorNotes T49	C0439859; Autologous (qualifier value); Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T49	
+T53	Quantifier_or_Qualifier 1119 1126	alógeno
+A3	Status T53 History_of
+#49	AnnotatorNotes T53	C1515895; Allogeneic; Qualitative Concept
+R12	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T53	
+R13	Used_for Arg1:T37 Arg2:T23	
+T57	Quantifier_or_Qualifier 1247 1254	ex vivo
+#50	AnnotatorNotes T57	C2348480; ex vivo; Functional Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T57	
+T58	Quantifier_or_Qualifier 1187 1195	previsto
+#51	AnnotatorNotes T58	C1301732; Planned; Functional Concept
+T59	Quantifier_or_Qualifier 1384 1392	previsto
+#52	AnnotatorNotes T59	C1301732; Planned; Functional Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T59	
+R17	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T58	
+T60	Quantifier_or_Qualifier 1257 1264	in vivo
+#53	AnnotatorNotes T60	C1515655; In Vivo; Spatial Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T60	
+R19	Used_for Arg1:T24 Arg2:T23	
+R20	Used_for Arg1:T38 Arg2:T23	
+R21	Used_for Arg1:T25 Arg2:T23	
+R22	Used_for Arg1:T1 Arg2:T2	
+R23	Before Arg1:T2 Arg2:T28	
+R1	Experiences Arg1:T41 Arg2:T28	
+R24	Experiences Arg1:T41 Arg2:T1	
+R25	Experiences Arg1:T42 Arg2:T28	
+R26	Experiences Arg1:T42 Arg2:T3	
+#54	AnnotatorNotes T3	C0472699; Hemopoietic stem cell transplant; Therapeutic or Preventive Procedure
+R29	Experiences Arg1:T42 Arg2:T54	
+R30	Used_for Arg1:T7 Arg2:T8	
+R31	Experiences Arg1:T44 Arg2:T7	
+R32	Experiences Arg1:T45 Arg2:T7	
+R33	Experiences Arg1:T45 Arg2:T9	
+R34	Experiences Arg1:T45 Arg2:T55	
+#55	AnnotatorNotes T9	C0472699; Hemopoietic stem cell transplant; Therapeutic or Preventive Procedure
+R36	Experiences Arg1:T44 Arg2:T30	
+R37	Experiences Arg1:T45 Arg2:T30	
+R38	Before Arg1:T8 Arg2:T30	
+R39	Before Arg1:T3 Arg2:T28	
+R40	Before Arg1:T9 Arg2:T30	
+R41	After Arg1:T11 Arg2:T13	
+R42	After Arg1:T12 Arg2:T13	
+#56	AnnotatorNotes T13	C0472699; Hemopoietic stem cell transplant; Therapeutic or Preventive Procedure
+R46	Experiences Arg1:T47 Arg2:T11	
+R47	Experiences Arg1:T47 Arg2:T12	
+R48	Experiences Arg1:T47 Arg2:T13	
+R49	Experiences Arg1:T44 Arg2:T9	
+R50	Experiences Arg1:T41 Arg2:T3	
+R51	Experiences Arg1:T48 Arg2:T11	
+R52	Experiences Arg1:T48 Arg2:T13	
+R53	Experiences Arg1:T48 Arg2:T12	
+R54	Experiences Arg1:T48 Arg2:T56	
+R15	Experiences Arg1:T45 Arg2:T8	
+R27	Experiences Arg1:T44 Arg2:T8	
+R28	Experiences Arg1:T44 Arg2:T55	
+R35	Experiences Arg1:T47 Arg2:T56	
+#57	AnnotatorNotes T21	C5685877; transfusion of T-cell depleted hematopoietic stem cell; Therapeutic or Preventive Procedure (?)
+T61	PROC 1330 1337	estudio
+#58	AnnotatorNotes T61	C0008976; Clinical Trials; Research Activity
+R43	Overlap Arg1:T21 Arg2:T61	
+R44	Overlap Arg1:T23 Arg2:T61	
+A4	Experiencer T41 Patient
+A5	Experiencer T42 Patient
+A6	Experiencer T44 Patient
+A7	Experiencer T45 Patient
+A8	Experiencer T47 Patient
+A9	Experiencer T48 Patient
+A10	Experiencer T50 Patient
+A11	Experiencer T51 Patient
+A12	Status T20 Future
+A13	Status T19 Future
+A14	Status T26 Future
+A15	Status T23 Future
+A16	Status T37 Future
+A17	Status T24 Future
+A18	Status T38 Future
+A19	Status T25 Future

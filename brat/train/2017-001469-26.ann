@@ -1,0 +1,302 @@
+T1	PROC 46 60	Ensayo fase II
+T2	PROC 639 663	consentimiento informado
+#1	AnnotatorNotes T2	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T3	PROC 77 105	tratamiento de mantenimiento
+#2	AnnotatorNotes T3	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T4	DISO 136 166	cáncer de próstata metastásico
+T5	PROC 183 193	castración
+#3	AnnotatorNotes T5	C0007344; Castration; Therapeutic or Preventive Procedure
+T6	DISO 253 263	enfermedad
+#4	AnnotatorNotes T6	C0012634; Disease; Disease or Syndrome
+T7	PROC 283 294	tratamiento
+#5	AnnotatorNotes T7	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T8	DISO 332 362	Cáncer de próstata metastásico
+T9	DISO 389 419	Cáncer de próstata metastásico
+T10	PROC 436 446	castración
+#6	AnnotatorNotes T10	C0007344; Castration; Therapeutic or Preventive Procedure
+T11	PROC 489 513	consentimiento informado
+#7	AnnotatorNotes T11	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T12	PROC 533 546	procedimiento
+#8	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T13	PROC 680 702	investigación genética
+T14	PROC 724 746	asesoramiento genético
+#9	AnnotatorNotes T14	C0017382; Genetic Counseling; Therapeutic or Preventive Procedure
+T15	DISO 913 939	Adenocarcinoma de próstata
+#10	AnnotatorNotes T15	C0007112; Adenocarcinoma of prostate; Neoplastic Process
+T16	DISO 766 774	mutación
+T17	DISO 998 1020	enfermedad metastásica
+#11	AnnotatorNotes T17	C2939420; Metastatic Neoplasm; Neoplastic Process
+T18	PROC 1042 1053	tratamiento
+#12	AnnotatorNotes T18	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T19	DISO 1069 1091	enfermedad metastásica
+#13	AnnotatorNotes T19	C2939420; Metastatic Neoplasm; Neoplastic Process
+T20	PROC 1108 1124	exploración ósea
+T21	DISO 1136 1157	lesiones metastásicas
+T22	PROC 1168 1170	RM
+#14	AnnotatorNotes T22	C0024485; Magnetic Resonance Imaging; Diagnostic Procedure
+T23	CHEM 1203 1210	platino
+#15	AnnotatorNotes T23	C0032207; platinum; Element, Ion, or Isotope
+T24	CHEM 1212 1226	ciclofosfamida
+#16	AnnotatorNotes T24	C0010583; cyclophosphamide; Organic Chemical · Pharmacologic Substance
+T25	CHEM 1228 1240	mitoxantrona
+#17	AnnotatorNotes T25	C0026259; mitoxantrone; Organic Chemical · Pharmacologic Substance
+T26	CHEM 1243 1262	inhibidores de PARP
+#18	AnnotatorNotes T26	C4319819; Substance with polyadenosine 5'-diphosphoribose polymerase inhibitor mechanism of action (substance); Pharmacologic Substance
+T27	PROC 1512 1527	estudio clínico
+#19	AnnotatorNotes T27	C0008972; Clinical Research; Research Activity | C0008976; Clinical Trials; Research Activity
+T28	CHEM 1622 1639	inhibidor de PARP
+#20	AnnotatorNotes T28	C4319819; Substance with polyadenosine 5'-diphosphoribose polymerase inhibitor mechanism of action (substance); Pharmacologic Substance
+T29	PROC 1599 1610	tratamiento
+#21	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	CHEM 1652 1660	olaparib
+#22	AnnotatorNotes T30	C2316164; olaparib; Organic Chemical · Pharmacologic Substance
+T31	DISO 1689 1699	mutaciones
+#23	AnnotatorNotes T31	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+T32	DISO 2059 2075	tumores malignos
+#24	AnnotatorNotes T32	C0006826; Malignant Neoplasms; Neoplastic Process
+T33	DISO 2107 2133	cáncer de piel no melanoma
+#25	AnnotatorNotes T33	C0699893; Skin carcinoma; Neoplastic Process
+T34	DISO 2157 2189	cáncer de cuello uterino in situ
+T35	DISO 2217 2221	DCIS
+#26	AnnotatorNotes T35	C1302731; Ductal carcinoma in situ; Neoplastic Process
+T36	DISO 2191 2215	carcinoma ductal in situ
+#27	AnnotatorNotes T36	C0007124; Noninfiltrating Intraductal Carcinoma; Neoplastic Process
+T37	DISO 2224 2247	carcinoma de endometrio
+T39	PROC 2134 2141	tratado
+#28	AnnotatorNotes T39	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T40	DISO 2305 2313	linfomas
+#29	AnnotatorNotes T40	C0024299; Lymphoma; Neoplastic Process
+T41	CHEM 110 118	olaparib
+#30	AnnotatorNotes T41	C2316164; olaparib; Organic Chemical · Pharmacologic Substance
+T42	ANAT 146 154	próstata
+#31	AnnotatorNotes T42	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T43	CHEM 299 308	docetaxel
+#32	AnnotatorNotes T43	C0246415; docetaxel; Organic Chemical · Pharmacologic Substance
+T44	ANAT 342 350	próstata
+#33	AnnotatorNotes T44	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T45	ANAT 399 407	próstata
+#34	AnnotatorNotes T45	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T46	ANAT 931 939	próstata
+#35	AnnotatorNotes T46	C0033572; Prostate; Body Part, Organ, or Organ Component | C1278980; Entire prostate; Body Part, Organ, or Organ Component
+T47	CHEM 1058 1067	docetaxel
+#36	AnnotatorNotes T47	C0246415; docetaxel; Organic Chemical · Pharmacologic Substance
+T48	ANAT 1120 1124	ósea
+#37	AnnotatorNotes T48	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T49	PROC 1164 1166	TC
+#38	AnnotatorNotes T49	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T50	DISO 1787 1797	mutaciones
+#39	AnnotatorNotes T50	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+T51	ANAT 2117 2121	piel
+#40	AnnotatorNotes T51	C1123023; Skin; Body System | C1278993; Entire skin; Body System
+T52	ANAT 2167 2181	cuello uterino
+#41	AnnotatorNotes T52	C0007874; Cervix Uteri; Body Part, Organ, or Organ Component | C1278987; Entire cervix uteri; Body Part, Organ, or Organ Component
+T53	ANAT 2201 2207	ductal
+#42	AnnotatorNotes T53	C0687028; Duct (organ) structure; Body Part, Organ, or Organ Component
+T54	ANAT 2237 2247	endometrio
+#43	AnnotatorNotes T54	C0014180; Endometrium; Body Part, Organ, or Organ Component | C1269566; Entire endometrium; Body Part, Organ, or Organ Component
+T55	Date 13 17	2017
+T56	LIVB 122 131	pacientes
+#44	AnnotatorNotes T56	C0030705; Patients; Patient or Disabled Group
+T57	LIVB 607 616	pacientes
+#45	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	GENE 694 702	genética
+#46	AnnotatorNotes T58	C0017337; Genes; Gene or Genome
+T59	LIVB 752 761	pacientes
+#47	AnnotatorNotes T59	C0030705; Patients; Patient or Disabled Group
+T60	GENE 814 851	genes Homologous Recombination Repair
+#48	AnnotatorNotes T60	C4727118; Homologous Recombination Repair Gene; Gene or Genome
+T61	LIVB 856 873	Pacientes varones
+#49	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group + C0025266; Male population group; Population Group
+T62	Age 891 900	≥ 18 años
+T63	LIVB 976 985	pacientes
+#50	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	Neg_cue 1176 1178	No
+T66	Date 1569 1582	el último mes
+T67	LIVB 1665 1674	Pacientes
+#51	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	Neg_cue 1679 1681	no
+T69	Spec_cue 1716 1730	sospechosas de
+T70	GENE 1731 1768	genes Homologous Recombination Repair
+#52	AnnotatorNotes T70	C4727118; Homologous Recombination Repair Gene; Gene or Genome
+T71	GENE 1805 1846	genes de reparación recombinante homóloga
+#53	AnnotatorNotes T71	C4727118; Homologous Recombination Repair Gene; Gene or Genome
+T74	PHYS 1993 2005	polimorfismo
+#54	AnnotatorNotes T74	C0032529; Genetic Polymorphism; Genetic Function
+T75	PHYS 2020 2032	polimorfismo
+#55	AnnotatorNotes T75	C0032529; Genetic Polymorphism; Genetic Function
+T76	Duration 2079 2097	los últimos 5 años
+T77	Neg_cue 2098 2105	excepto
+T80	GENE 738 746	genético
+#56	AnnotatorNotes T80	C0017337; Genes; Gene or Genome
+T38	DISO 2278 2293	tumores sólidos
+#57	AnnotatorNotes T38	C0280100; Solid Neoplasm; Neoplastic Process
+T72	PHYS 766 792	mutación de línea germinal
+#58	AnnotatorNotes T72	C0206530; Germ-Line Mutation; Genetic Function
+T78	LIVB 1394 1402	personal
+#59	AnnotatorNotes T78	C0851286; Staff; Professional or Occupational Group
+T79	LIVB 1409 1417	personal
+#60	AnnotatorNotes T79	C0851286; Staff; Professional or Occupational Group
+T65	CHEM 1535 1560	producto de investigación
+#61	AnnotatorNotes T65	C0013230; Investigational New Drugs; Pharmacologic Substance
+T73	PROC 940 956	histológicamente
+#62	AnnotatorNotes T73	C0344441; Histology Procedure; Laboratory Procedure
+A1	Assertion T23 Negated
+A2	Assertion T24 Negated
+A3	Assertion T25 Negated
+A4	Assertion T26 Negated
+A5	Assertion T31 Negated
+A6	Assertion T70 Speculated
+A8	Assertion T33 Negated
+A9	Assertion T34 Negated
+A10	Assertion T36 Negated
+A11	Assertion T37 Negated
+A7	Assertion T35 Negated
+A12	Assertion T38 Negated
+A13	Assertion T40 Negated
+A14	Status T23 History_of
+A15	Status T24 History_of
+A16	Status T25 History_of
+A17	Status T26 History_of
+A18	Status T29 History_of
+A19	Status T28 History_of
+A20	Status T30 History_of
+#63	AnnotatorNotes T1	C0282460; Phase 2 Clinical Trials; Research Activity
+#64	AnnotatorNotes T4	C0936223; Metastatic Prostate Carcinoma; Neoplastic Process
+#65	AnnotatorNotes T8	C0936223; Metastatic Prostate Carcinoma; Neoplastic Process
+#66	AnnotatorNotes T9	C0936223; Metastatic Prostate Carcinoma; Neoplastic Process
+#67	AnnotatorNotes T13	C0243064; Genetic Research; Research Activity 
+#68	AnnotatorNotes T16	C1705285; Mutation Abnormality; Cell or Molecular Dysfunction
+#69	AnnotatorNotes T20	C0185155; Exploration of bone; Diagnostic Procedure 
+#70	AnnotatorNotes T37	C0476089; Endometrial Carcinoma; Neoplastic Process 
+T81	Quantifier_or_Qualifier 1868 1881	perjudiciales
+A21	Assertion T81 Negated
+T82	Neg_cue 1865 1867	no
+T83	Observation 1910 1929	significado clínico
+A22	Assertion T83 Speculated
+#71	AnnotatorNotes T83	C2826293; Clinical Significance; Finding
+T84	Spec_cue 1930 1938	incierto
+T85	Observation 1955 1966	significado
+A23	Assertion T85 Speculated
+#72	AnnotatorNotes T85	C2826293; Clinical Significance; Finding
+T86	Spec_cue 1967 1978	desconocido
+R1	Speculation Arg1:T86 Arg2:T85	
+R2	Speculation Arg1:T84 Arg2:T83	
+R3	Negation Arg1:T64 Arg2:T23	
+R4	Negation Arg1:T64 Arg2:T24	
+R5	Negation Arg1:T64 Arg2:T25	
+R6	Negation Arg1:T64 Arg2:T26	
+R7	Negation Arg1:T68 Arg2:T31	
+T87	Quantifier_or_Qualifier 1700 1713	perjudiciales
+A24	Assertion T87 Negated
+R8	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T87	
+R9	Negation Arg1:T68 Arg2:T87	
+R10	Speculation Arg1:T69 Arg2:T70	
+R11	Negation Arg1:T82 Arg2:T81	
+R12	Negation Arg1:T77 Arg2:T33	
+R13	Used_for Arg1:T41 Arg2:T3	
+R14	Experiences Arg1:T56 Arg2:T3	
+R15	Experiences Arg1:T56 Arg2:T4	
+R16	Location_of Arg1:T42 Arg2:T4	
+R17	Experiences Arg1:T56 Arg2:T5	
+T88	Observation 167 193	resistente a la castración
+#73	AnnotatorNotes T88	C4329620; Castration Resistance; Finding
+R18	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T88	
+T89	Observation 233 250	respuesta parcial
+#74	AnnotatorNotes T89	C1521726; partial response; Finding
+R20	After Arg1:T88 Arg2:T89	
+R21	Overlap Arg1:T43 Arg2:T7	
+T90	Quantifier_or_Qualifier 264 271	estable
+#75	AnnotatorNotes T90	C0205360; Stable status; Qualitative Concept
+R22	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T90	
+R23	Overlap Arg1:T90 Arg2:T7	
+R24	Experiences Arg1:T56 Arg2:T89	
+R25	Experiences Arg1:T56 Arg2:T6	
+R26	Location_of Arg1:T44 Arg2:T8	
+R27	Location_of Arg1:T45 Arg2:T9	
+T91	Observation 420 446	resistente a la castración
+#76	AnnotatorNotes T91	C4329620; Castration Resistance; Finding
+R28	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T91	
+R29	Before Arg1:T11 Arg2:T12	
+T92	CONC 579 588	inclusión
+#77	AnnotatorNotes T92	C1512693; Inclusion; Qualitative Concept
+R30	Before Arg1:T2 Arg2:T92	
+R31	Before Arg1:T2 Arg2:T13	
+R32	Experiences Arg1:T57 Arg2:T13	
+R33	Experiences Arg1:T59 Arg2:T14	
+R34	Experiences Arg1:T59 Arg2:T16	
+R35	Experiences Arg1:T59 Arg2:T72	
+R36	Location_of Arg1:T60 Arg2:T16	
+R37	Has_Age Arg1:T61 Arg2:T62	
+R38	Location_of Arg1:T46 Arg2:T15	
+R40	Experiences Arg1:T63 Arg2:T17	
+R41	Before Arg1:T17 Arg2:T18	
+R42	Used_for Arg1:T47 Arg2:T18	
+R43	Experiences Arg1:T63 Arg2:T19	
+R45	Location_of Arg1:T48 Arg2:T20	
+R46	Experiences Arg1:T63 Arg2:T18	
+R48	Experiences Arg1:T63 Arg2:T21	
+#78	AnnotatorNotes T21	C1513183; Metastatic Lesion; Finding
+R51	Causes Arg1:T19 Arg2:T21	
+T93	Result_or_Value 1125 1133	positiva
+#79	AnnotatorNotes T93	C1446409; Positive; Finding
+R52	Has_Result_or_Value Arg1:T20 Arg2:T93	
+T94	Observation 1293 1356	Participación en la planificación y / o realización del estudio
+T95	CONC 1446 1455	Inclusión
+A25	Status T95 History_of
+#80	AnnotatorNotes T95	C1512693; Inclusion; Qualitative Concept
+T96	Observation 1490 1527	Participación en otro estudio clínico
+R54	Overlap Arg1:T65 Arg2:T66	
+R55	Overlap Arg1:T96 Arg2:T66	
+R56	Used_for Arg1:T28 Arg2:T29	
+R57	Used_for Arg1:T30 Arg2:T29	
+R58	Experiences Arg1:T67 Arg2:T31	
+R59	Location_of Arg1:T70 Arg2:T31	
+R60	Experiences Arg1:T67 Arg2:T50	
+R61	Location_of Arg1:T71 Arg2:T50	
+R62	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T81	
+T97	Quantifier_or_Qualifier 2006 2015	favorable
+#81	AnnotatorNotes T97	C3640814; Favorable; Qualitative Concept
+R63	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T97	
+T98	Quantifier_or_Qualifier 2033 2040	benigno
+#82	AnnotatorNotes T98	C0205183; Benign; Qualitative Concept
+R64	Has_Quantifier_or_Qualifier Arg1:T75 Arg2:T98	
+R65	Experiences Arg1:T67 Arg2:T74	
+R66	Experiences Arg1:T67 Arg2:T75	
+R67	Overlap Arg1:T32 Arg2:T76	
+R68	Location_of Arg1:T51 Arg2:T33	
+R69	Location_of Arg1:T52 Arg2:T34	
+R70	Location_of Arg1:T53 Arg2:T36	
+R71	Location_of Arg1:T54 Arg2:T37	
+R72	Negation Arg1:T77 Arg2:T34	
+T99	Quantifier_or_Qualifier 2142 2155	adecuadamente
+R73	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T99	
+#83	AnnotatorNotes T99	C0205411; Adequate; Qualitative Concept
+R74	Location_of Arg1:T53 Arg2:T35	
+R75	Negation Arg1:T77 Arg2:T36	
+R76	Negation Arg1:T77 Arg2:T35	
+R77	Negation Arg1:T77 Arg2:T37	
+T100	Quantifier_or_Qualifier 2251 2258	grado 1
+R78	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T100	
+A26	Assertion T100 Negated
+R79	Negation Arg1:T77 Arg2:T100	
+T101	Quantifier_or_Qualifier 2260 2269	estadio 1
+A27	Assertion T101 Negated
+R80	Negation Arg1:T77 Arg2:T101	
+R81	Negation Arg1:T77 Arg2:T38	
+R82	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T101	
+R83	Negation Arg1:T77 Arg2:T40	
+R84	Experiences Arg1:T56 Arg2:T7	
+R85	Experiences Arg1:T63 Arg2:T49	
+R86	Experiences Arg1:T63 Arg2:T22	
+#84	AnnotatorNotes T34	C0851140; Carcinoma in situ of uterine cervix; Neoplastic Process (?) | C0346203; Cervical Adenocarcinoma In Situ; Neoplastic Process (?)
+#85	AnnotatorNotes T100	C0444502; First degree; Qualitative Concept 
+R19	Experiences Arg1:T56 Arg2:T88	
+R39	Experiences Arg1:T63 Arg2:T20	
+A28	Experiencer T56 Patient
+A29	Experiencer T57 Patient
+A30	Experiencer T59 Patient
+A31	Experiencer T61 Patient
+A32	Experiencer T63 Patient
+A33	Experiencer T78 Other
+A34	Experiencer T79 Other
+A35	Experiencer T67 Patient

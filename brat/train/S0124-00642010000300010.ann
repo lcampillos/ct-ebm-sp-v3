@@ -1,0 +1,103 @@
+T1	PROC 20 40	métodos diagnósticos
+#1	AnnotatorNotes T1	C0011900; Diagnosis; Diagnostic Procedure
+T2	DISO 44 60	tumores mamarios
+#2	AnnotatorNotes T2	C1458155; Mammary Neoplasms; Neoplastic Process
+T3	DISO 165 172	tumores
+#3	AnnotatorNotes T3	C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
+T4	PROC 182 192	mamografía
+#4	AnnotatorNotes T4	C0024671; Mammography; Diagnostic Procedure
+T5	PROC 265 296	estudio transversal descriptivo
+T6	PROC 436 446	mamografía
+#5	AnnotatorNotes T6	C0024671; Mammography; Diagnostic Procedure
+T7	PROC 482 489	biopsia
+#6	AnnotatorNotes T7	C0005558; Biopsy; Diagnostic Procedure
+T8	PROC 953 959	BIRADS
+#7	AnnotatorNotes T8	C1511314; Breast Imaging Reporting and Data System; Diagnostic Procedure
+T9	PROC 1007 1013	BIRADS
+#8	AnnotatorNotes T9	C1511314; Breast Imaging Reporting and Data System; Diagnostic Procedure
+T10	PROC 1038 1044	BIRADS
+#9	AnnotatorNotes T10	C1511314; Breast Imaging Reporting and Data System; Diagnostic Procedure
+T11	ANAT 52 60	mamarios
+#10	AnnotatorNotes T11	C0006141; Breast; Body Part, Organ, or Organ Component | C1268990; Entire breast; Body Part, Organ, or Organ Component
+T12	PROC 198 225	diagnóstico histopatológico
+#11	AnnotatorNotes T12	C0430445; Histopathology test; Laboratory Procedure (?)
+T13	PROC 462 468	BIRADS
+#12	AnnotatorNotes T13	C1511314; Breast Imaging Reporting and Data System; Diagnostic Procedure
+T14	DISO 1026 1036	malignidad
+#13	AnnotatorNotes T14	C0006826; Malignant Neoplasms; Neoplastic Process
+T15	PROC 492 519	diagnóstico histopatológico
+#14	AnnotatorNotes T15	C0430445; Histopathology test; Laboratory Procedure (?)
+T16	PROC 1354 1360	BIRADS
+#15	AnnotatorNotes T16	C1511314; Breast Imaging Reporting and Data System; Diagnostic Procedure
+T17	PROC 1393 1420	diagnóstico histopatológico
+#16	AnnotatorNotes T17	C0430445; Histopathology test; Laboratory Procedure (?)
+T18	LIVB 311 320	pacientes
+#17	AnnotatorNotes T18	C0030705; Patients; Patient or Disabled Group
+T19	LIVB 424 431	mujeres
+#18	AnnotatorNotes T19	C0043210; Woman; Population Group
+T20	LIVB 470 477	mujeres
+#19	AnnotatorNotes T20	C0043210; Woman; Population Group
+T21	LIVB 521 528	mujeres
+#20	AnnotatorNotes T21	C0043210; Woman; Population Group
+T30	Age 532 548	todas las edades
+T22	Spec_cue 979 994	probabilidad de
+A1	Assertion T14 Speculated
+T23	Neg_cue 1108 1110	no
+T24	CONC 1123 1131	relación
+A2	Assertion T24 Negated
+R1	Negation Arg1:T23 Arg2:T24	
+T25	CONC 1462 1470	relación
+A3	Assertion T25 Negated
+T26	Neg_cue 1449 1451	no
+R2	Negation Arg1:T26 Arg2:T25	
+T27	Observation 995 1005	benignidad
+A4	Assertion T27 Speculated
+R3	Speculation Arg1:T22 Arg2:T27	
+R4	Speculation Arg1:T22 Arg2:T14	
+R5	Location_of Arg1:T11 Arg2:T2	
+T28	Observation 152 172	hallazgos de tumores
+R6	Overlap Arg1:T28 Arg2:T3	
+R7	Experiences Arg1:T19 Arg2:T6	
+R8	Experiences Arg1:T19 Arg2:T13	
+R9	Experiences Arg1:T20 Arg2:T7	
+R10	Experiences Arg1:T20 Arg2:T15	
+R11	Has_Age Arg1:T21 Arg2:T30	
+T29	Observation 550 577	todos los estadios clínicos
+R12	Experiences Arg1:T21 Arg2:T29	
+T31	CONC 584 602	expediente clínico
+T32	Quantifier_or_Qualifier 603 611	completo
+R13	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T32	
+T33	CONC 622 645	estadística descriptiva
+T34	CONC 731 754	estadística inferencial
+T35	CONC 773 796	pruebas de t de Student
+#21	AnnotatorNotes T35	C0871453; Students T Test; Intellectual Product
+T36	CONC 801 813	chi cuadrada
+#22	AnnotatorNotes T36	C0008041; Chi-Square Test; Intellectual Product
+T38	Result_or_Value 1014 1022	I-II-III
+R14	Has_Result_or_Value Arg1:T9 Arg2:T38	
+T39	Result_or_Value 1045 1049	IV-V
+R15	Has_Result_or_Value Arg1:T10 Arg2:T39	
+T40	Observation 1059 1086	resultados histopatológicos
+T41	Quantifier_or_Qualifier 1088 1095	benigno
+#24	AnnotatorNotes T41	C1518371; Non-Malignant; Qualitative Concept
+T42	Quantifier_or_Qualifier 1098 1105	maligno
+#25	AnnotatorNotes T42	C0205282; Malignant - descriptor; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T42	
+R17	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T41	
+T43	Result_or_Value 1361 1371	I, III y V
+R18	Has_Result_or_Value Arg1:T16 Arg2:T43	
+T44	Result_or_Value 1441 1448	II y IV
+T45	Quantifier_or_Qualifier 1274 1285	categoría V
+T46	Quantifier_or_Qualifier 1223 1235	categoría IV
+T47	Quantifier_or_Qualifier 1560 1577	categorías IV y V
+R19	Has_Result_or_Value Arg1:T16 Arg2:T44	
+#23	AnnotatorNotes T32	C0205197; Complete; Qualitative Concept
+#26	AnnotatorNotes T31	C0025102; Medical Records; Intellectual Product
+#27	AnnotatorNotes T25	C0439849; Relationships; Qualitative Concept
+#28	AnnotatorNotes T24	C0439849; Relationships; Qualitative Concept
+#29	AnnotatorNotes T28	C1274082; Tumor finding; Finding
+#30	AnnotatorNotes T40	C2827068; Histopathology Result; Finding
+A5	Experiencer T18 Patient
+A6	Experiencer T21 Patient
+A7	Experiencer T20 Patient
+A8	Experiencer T19 Patient

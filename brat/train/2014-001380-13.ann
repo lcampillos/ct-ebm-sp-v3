@@ -1,0 +1,108 @@
+T1	CHEM 46 56	PROPANOLOL
+#1	AnnotatorNotes T1	C0033497; propranolol; Organic Chemical · Pharmacologic Substance
+T2	DISO 72 79	QUEMADO
+#2	AnnotatorNotes T2	C0006434; Burn injury; Injury or Poisoning
+T3	PROC 121 132	TRATAMIENTO
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 139 158	TAQUICARDIA SINUSAL
+#4	AnnotatorNotes T4	C0039239; Sinus Tachycardia; Disease or Syndrome
+T5	DISO 175 184	QUEMADURA
+#5	AnnotatorNotes T5	C0006434; Burn injury; Injury or Poisoning
+T6	DISO 200 207	QUEMADO
+#6	AnnotatorNotes T6	C0006434; Burn injury; Injury or Poisoning
+T7	PROC 216 224	INTUBADO
+#7	AnnotatorNotes T7	C0021925; Intubation (procedure); Therapeutic or Preventive Procedure
+T8	DISO 248 267	TAQUICARDIA SINUSAL
+#8	AnnotatorNotes T8	C0039239; Sinus Tachycardia; Disease or Syndrome
+T9	DISO 284 293	QUEMADURA
+#9	AnnotatorNotes T9	C0006434; Burn injury; Injury or Poisoning
+T10	DISO 330 338	quemados
+#10	AnnotatorNotes T10	C0006434; Burn injury; Injury or Poisoning
+T11	DISO 383 402	taquicardia sinusal
+#11	AnnotatorNotes T11	C0039239; Sinus Tachycardia; Disease or Syndrome
+T12	PROC 444 473	ventilación mecánica invasiva
+#12	AnnotatorNotes T12	C1868981; Invasive mechanical ventilation; Therapeutic or Preventive Procedure
+T13	PROC 743 767	Consentimiento Informado
+#13	AnnotatorNotes T13	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T14	PROC 475 485	ingresados
+#14	AnnotatorNotes T14	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T15	PROC 707 722	beta-bloqueados
+#15	AnnotatorNotes T15	C0741468; BETA BLOCKER TREATMENT; Therapeutic or Preventive Procedure
+T16	PROC 733 740	ingreso
+#16	AnnotatorNotes T16	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T17	ANAT 151 158	SINUSAL
+#17	AnnotatorNotes T17	C0037189; Sinoatrial Node; Body Part, Organ, or Organ Component
+T18	ANAT 260 267	SINUSAL
+#18	AnnotatorNotes T18	C0037189; Sinoatrial Node; Body Part, Organ, or Organ Component
+T19	ANAT 395 402	sinusal
+#19	AnnotatorNotes T19	C0037189; Sinoatrial Node; Body Part, Organ, or Organ Component
+T20	PROC 646 660	administración
+#20	AnnotatorNotes T20	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T21	CHEM 664 680	beta-bloqueantes
+#21	AnnotatorNotes T21	C0001645; Adrenergic beta-Antagonists; Pharmacologic Substance
+T22	Date 13 17	2014
+T24	LIVB 63 71;80 86	PACIENTE ADULTO
+#23	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T26	LIVB 191 199	PACIENTE
+#24	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 320 329	Pacientes
+#25	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	Age 339 378	mayores de 14 años y menores de 75 años
+T31	PHYS 409 416	latidos
+#26	AnnotatorNotes T31	C0425583; Heart beat; Organ or Tissue Function
+T32	Duration 535 541	2 años
+T33	Neg_cue 569 580	Se excluyen
+T34	LIVB 602 611	pacientes
+#27	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
+T35	Neg_cue 768 770	no
+A1	Population_data T24 Age
+A2	Assertion T13 Negated
+A3	Assertion T34 Negated
+A4	Assertion T15 Negated
+A5	Assertion T21 Contraindicated
+A6	Assertion T20 Contraindicated
+R5	Location_of Arg1:T17 Arg2:T4	
+R1	Experiences Arg1:T24 Arg2:T2	
+R2	Experiences Arg1:T24 Arg2:T1	
+R3	Causes Arg1:T5 Arg2:T4	
+R4	Experiences Arg1:T26 Arg2:T5	
+R6	Experiences Arg1:T26 Arg2:T6	
+R7	Experiences Arg1:T26 Arg2:T7	
+T23	Quantifier_or_Qualifier 208 215	CRÍTICO
+#22	AnnotatorNotes T23	C1511545; Critical; Qualitative Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T23	
+R9	Experiences Arg1:T26 Arg2:T3	
+R10	Location_of Arg1:T18 Arg2:T8	
+R11	Causes Arg1:T9 Arg2:T8	
+R12	Experiences Arg1:T28 Arg2:T10	
+R13	Has_Age Arg1:T28 Arg2:T29	
+R14	Location_of Arg1:T19 Arg2:T11	
+R15	Experiences Arg1:T28 Arg2:T11	
+R16	Experiences Arg1:T28 Arg2:T31	
+T25	Result_or_Value 404 427	>100 latidos por minuto
+R17	Has_Result_or_Value Arg1:T11 Arg2:T25	
+R18	Experiences Arg1:T28 Arg2:T12	
+R19	Experiences Arg1:T28 Arg2:T14	
+R20	Has_Duration_or_Interval Arg1:T14 Arg2:T32	
+R21	Negation Arg1:T33 Arg2:T34	
+R22	Used_for Arg1:T21 Arg2:T20	
+R24	Experiences Arg1:T34 Arg2:T15	
+R25	Before Arg1:T15 Arg2:T16	
+R26	Negation Arg1:T35 Arg2:T13	
+R27	Used_for Arg1:T21 Arg2:T15	
+R28	Experiences Arg1:T26 Arg2:T4	
+T27	Quantifier_or_Qualifier 771 778	firmado
+A7	Assertion T27 Negated
+#28	AnnotatorNotes T27	C1561610; signed - ParticipationSignature; Intellectual Product
+R29	Negation Arg1:T35 Arg2:T27	
+R30	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T27	
+R31	Before Arg1:T14 Arg2:T12	
+R32	Negation Arg1:T33 Arg2:T15	
+T30	Observation 109 116	EFECTOS
+#29	AnnotatorNotes T30	C1518681; Outcome of Therapy; Finding (?)
+R33	Causes Arg1:T3 Arg2:T30	
+R34	Experiences Arg1:T26 Arg2:T30	
+A8	Experiencer T24 Patient
+A9	Experiencer T26 Patient
+A10	Experiencer T28 Patient
+A11	Experiencer T34 Patient

@@ -1,0 +1,221 @@
+T1	PROC 18 46	prevención quimioterapéutica
+T2	DISO 53 66	caries dental
+#1	AnnotatorNotes T2	C0011334; Dental caries; Disease or Syndrome | C0333519; Caries (morphologic abnormality); Disease or Syndrome
+T3	CHEM 83 95	clorhexidina
+#2	AnnotatorNotes T3	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T4	CHEM 98 103	timol
+#3	AnnotatorNotes T4	C0040096; thymol; Organic Chemical · Pharmacologic Substance
+T5	DISO 154 160	caries
+#4	AnnotatorNotes T5	C0011334; Dental caries; Disease or Syndrome | C0333519; Caries (morphologic abnormality); Disease or Syndrome
+T6	DISO 266 282	caries de fisura
+T7	ANAT 276 282	fisura
+#5	AnnotatorNotes T7	C0332469; Fissure; Anatomical Structure | C0687070; Fissure (external anatomical feature); Body Space or Junction
+T8	CHEM 1417 1425	Cervitec
+#6	AnnotatorNotes T8	C0212384; Cervitec; Organic Chemical; Pharmacologic Substance
+T9	CHEM 355 379	barnices antimicrobianos
+T10	DISO 417 423	caries
+#7	AnnotatorNotes T10	C0011334; Dental caries; Disease or Syndrome | C0333519; Caries (morphologic abnormality); Disease or Syndrome
+T11	PROC 444 482	ensayo clínico aleatorio a doble ciego
+#8	AnnotatorNotes T11	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
+T12	DISO 579 585	caries
+#9	AnnotatorNotes T12	C0011334; Dental caries; Disease or Syndrome | C0333519; Caries (morphologic abnormality); Disease or Syndrome
+T13	DISO 753 770	caries en dentina
+#10	AnnotatorNotes T13	C2986571; Caries into Dentin; Finding
+T14	PROC 822 839	profilaxis dental
+#11	AnnotatorNotes T14	C0011393; Dental Prophylaxis; Therapeutic or Preventive Procedure
+T15	CHEM 889 901	clorhexidina
+#12	AnnotatorNotes T15	C0008196; chlorhexidine; Organic Chemical · Pharmacologic Substance
+T16	CHEM 907 912	timol
+#13	AnnotatorNotes T16	C0040096; thymol; Organic Chemical · Pharmacologic Substance
+T17	PROC 960 967	placebo
+#14	AnnotatorNotes T17	C0032042; Placebos; Therapeutic or Preventive Procedure
+T18	ANAT 998 1015	todos los dientes
+#15	AnnotatorNotes T18	C3687068; All teeth; Body Part, Organ, or Organ Component
+T19	ANAT 1017 1048	dentición temporal y permanente
+#16	AnnotatorNotes T19	C0227108; Structure of deciduous molar tooth; Body Part, Organ, or Organ Component | C1289161; Entire deciduous molar tooth; Body Part, Organ, or Organ Component + C0348070; Structure of permanent tooth; Body Part, Organ, or Organ Component | C1280375; Entire permanent tooth; Body Part, Organ, or Organ Component
+T20	DISO 1117 1123	caries
+#17	AnnotatorNotes T20	C0011334; Dental caries; Disease or Syndrome | C0333519; Caries (morphologic abnormality); Disease or Syndrome
+T21	PROC 1452 1463	previniendo
+#18	AnnotatorNotes T21	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T22	DISO 1467 1473	caries
+#19	AnnotatorNotes T22	C0011334; Dental caries; Disease or Syndrome | C0333519; Caries (morphologic abnormality); Disease or Syndrome
+T23	DISO 1545 1551	caries
+#20	AnnotatorNotes T23	C0011334; Dental caries; Disease or Syndrome | C0333519; Caries (morphologic abnormality); Disease or Syndrome
+T24	ANAT 60 66	dental
+#21	AnnotatorNotes T24	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T25	ANAT 313 341	primeros molares permanentes
+#22	AnnotatorNotes T25	C0582449; Entire permanent first molar tooth; Body Part, Organ, or Organ Component
+T26	ANAT 705 733	primeros molares permanentes
+#23	AnnotatorNotes T26	C0582449; Entire permanent first molar tooth; Body Part, Organ, or Organ Component
+T27	ANAT 763 770	dentina
+#24	AnnotatorNotes T27	C0011429; Dentin; Body Substance | C1284392; Entire dentin; Body Part, Organ, or Organ Component
+T28	ANAT 778 796	molares temporales
+#25	AnnotatorNotes T28	C0227108; Structure of deciduous molar tooth; Body Part, Organ, or Organ Component | C1289161; Entire deciduous molar tooth; Body Part, Organ, or Organ Component
+T29	ANAT 833 839	dental
+#26	AnnotatorNotes T29	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T30	ANAT 1356 1384	primeros molares permanentes
+#27	AnnotatorNotes T30	C0582449; Entire permanent first molar tooth; Body Part, Organ, or Organ Component
+T31	ANAT 1481 1509	primeros molares permanentes
+#28	AnnotatorNotes T31	C0582449; Entire permanent first molar tooth; Body Part, Organ, or Organ Component
+T32	LIVB 108 113	niños
+#29	AnnotatorNotes T32	C0008059; Child; Age Group
+T33	Age 117 125	5-8 años
+T34	Spec_cue 139 145	riesgo
+T36	LIVB 485 492	Sujetos
+#30	AnnotatorNotes T36	C0681850; Study Subject; Group
+T37	LIVB 497 502	niños
+#31	AnnotatorNotes T37	C0008059; Child; Age Group
+T38	Age 538 558	entre los 6 y 8 años
+T39	Spec_cue 569 578	riesgo de
+T41	LIVB 670 674	niño
+#32	AnnotatorNotes T41	C0008059; Child; Age Group
+T42	LIVB 933 946	grupo control
+#33	AnnotatorNotes T42	C0009932; Control Groups; Group
+T43	Frequency 1050 1065	cada tres meses
+T44	Duration 1140 1152	los 12 meses
+T46	Duration 1232 1235	año
+T47	Frequency 1426 1438	cada 3 meses
+T35	LIVB 384 393	escolares
+#34	AnnotatorNotes T35	C0260267; School child; Age Group
+T40	Form 71 79	barnices
+T48	Form 355 363	barnices
+T49	Dose 902 904	1%
+T50	Dose 913 915	1%
+T51	Form 950 956	barniz
+T52	Form 972 978	barniz
+T53	Form 879 885	barniz
+T54	Duration 1079 1096	los 3,6 y 9 meses
+T45	LIVB 1282 1298	grupo de estudio
+#35	AnnotatorNotes T45	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T55	LIVB 1307 1314	control
+#36	AnnotatorNotes T55	C0009932; Control Groups; Group
+T56	CHEM 917 925	Cervitec
+#37	AnnotatorNotes T56	C0212384; Cervitec; Organic Chemical; Pharmacologic Substance
+T57	LIVB 844 860	grupo de estudio
+#38	AnnotatorNotes T57	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T58	LIVB 1513 1522	escolares
+#39	AnnotatorNotes T58	C0260267; School child; Age Group
+A1	Population_data T32 Age
+A2	Assertion T5 Speculated
+A3	Population_data T35 Age
+A4	Population_data T37 Age
+A5	Assertion T12 Speculated
+A6	Population_data T41 Age
+A7	Population_data T58 Age
+R1	Speculation Arg1:T39 Arg2:T12	
+R2	Speculation Arg1:T34 Arg2:T5	
+T59	Neg_cue 1189 1191	no
+T60	CONC 1199 1210	diferencias
+A8	Assertion T60 Negated
+#40	AnnotatorNotes T60	C1705241; Delta (difference); Quantitative Concept
+R3	Negation Arg1:T59 Arg2:T60	
+T61	Spec_cue 240 254	posibilidad de
+T62	CONC 255 262	reducir
+A9	Assertion T62 Speculated
+#41	AnnotatorNotes T62	C0392756; Reduced; Qualitative Concept (?)
+R4	Speculation Arg1:T61 Arg2:T62	
+R5	Location_of Arg1:T24 Arg2:T2	
+R6	Before Arg1:T1 Arg2:T2	
+R7	Has_Drug_Form Arg1:T3 Arg2:T40	
+R8	Has_Drug_Form Arg1:T4 Arg2:T40	
+R9	Combined_with Arg1:T3 Arg2:T4	
+R10	Experiences Arg1:T32 Arg2:T1	
+R12	Experiences Arg1:T32 Arg2:T3	
+R13	Has_Age Arg1:T32 Arg2:T33	
+R14	Experiences Arg1:T32 Arg2:T5	
+R15	Before Arg1:T1 Arg2:T5	
+R16	Location_of Arg1:T7 Arg2:T6	
+T63	ANAT 290 305	caras oclusales
+#42	AnnotatorNotes T63	C0447303; Occlusal surface of tooth; Body Location or Region
+R17	Location_of Arg1:T63 Arg2:T6	
+R18	Location_of Arg1:T25 Arg2:T6	
+R19	Has_Drug_Form Arg1:T9 Arg2:T48	
+R21	Experiences Arg1:T35 Arg2:T6	
+R22	Experiences Arg1:T35 Arg2:T9	
+R23	Experiences Arg1:T35 Arg2:T10	
+T64	Quantifier_or_Qualifier 503 513	saludables
+#43	AnnotatorNotes T64	C3898900; Healthy; Qualitative Concept
+R24	Has_Quantifier_or_Qualifier Arg1:T37 Arg2:T64	
+R25	Has_Age Arg1:T37 Arg2:T38	
+R26	Has_Age Arg1:T36 Arg2:T38	
+R27	Experiences Arg1:T37 Arg2:T12	
+R28	Experiences Arg1:T36 Arg2:T12	
+T65	Observation 564 578	alto riesgo de
+#44	AnnotatorNotes T65	C0332167; High risk of; Finding
+T66	Quantifier_or_Qualifier 694 704	mínimo dos
+R30	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T66	
+T67	Quantifier_or_Qualifier 734 739	sanos
+#45	AnnotatorNotes T67	C3898900; Healthy; Qualitative Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T67	
+R32	Location_of Arg1:T27 Arg2:T13	
+R33	Location_of Arg1:T28 Arg2:T13	
+R34	Experiences Arg1:T41 Arg2:T13	
+R35	Location_of Arg1:T29 Arg2:T14	
+R36	Experiences Arg1:T57 Arg2:T14	
+R37	Experiences Arg1:T57 Arg2:T15	
+R38	Experiences Arg1:T57 Arg2:T16	
+R39	Experiences Arg1:T57 Arg2:T56	
+R40	Has_Drug_Form Arg1:T15 Arg2:T53	
+#46	AnnotatorNotes T53	C0440150; Dental varnish; Biomedical or Dental Material
+#47	AnnotatorNotes T51	C0440150; Dental varnish; Biomedical or Dental Material
+R41	Experiences Arg1:T42 Arg2:T17	
+R42	Has_Drug_Form Arg1:T17 Arg2:T51	
+R43	Before Arg1:T14 Arg2:T15	
+R44	Combined_with Arg1:T15 Arg2:T16	
+R45	Has_Dose_or_Strength Arg1:T15 Arg2:T49	
+R46	Has_Dose_or_Strength Arg1:T16 Arg2:T50	
+R47	Has_Dose_or_Strength Arg1:T56 Arg2:T50	
+R48	Before Arg1:T14 Arg2:T17	
+#48	AnnotatorNotes T52	C0440150; Dental varnish; Biomedical or Dental Material
+#49	AnnotatorNotes T40	C0440150; Dental varnish; Biomedical or Dental Material
+#50	AnnotatorNotes T48	C0440150; Dental varnish; Biomedical or Dental Material
+T68	Observation 1103 1123	incremento de caries
+R49	Before Arg1:T20 Arg2:T68	
+R50	Overlap Arg1:T68 Arg2:T44	
+T69	PROC 972 978;983 991	barniz colocado
+R51	Has_Drug_Form Arg1:T69 Arg2:T52	
+R52	Location_of Arg1:T18 Arg2:T69	
+R54	Location_of Arg1:T19 Arg2:T69	
+R53	Has_Frequency Arg1:T69 Arg2:T43	
+R55	Overlap Arg1:T69 Arg2:T54	
+T70	CONC 1070 1076	inicio
+#51	AnnotatorNotes T70	C0439659; Beginning; Temporal Concept
+R56	Overlap Arg1:T69 Arg2:T70	
+R57	Before Arg1:T69 Arg2:T68	
+T71	CONC 1170 1188	inicio del estudio
+#52	AnnotatorNotes T71	C4684789; Study Start; Temporal Concept
+R58	Overlap Arg1:T71 Arg2:T60	
+R59	Has_Frequency Arg1:T8 Arg2:T47	
+R60	Used_for Arg1:T8 Arg2:T21	
+R61	Before Arg1:T21 Arg2:T22	
+R62	Location_of Arg1:T31 Arg2:T22	
+R63	Experiences Arg1:T58 Arg2:T23	
+R65	Experiences Arg1:T58 Arg2:T21	
+R66	Experiences Arg1:T58 Arg2:T8	
+T72	Observation 139 153	riesgo alto de
+#53	AnnotatorNotes T72	C0332167; High risk of; Finding
+R68	Combined_with Arg1:T15 Arg2:T56	
+R69	Overlap Arg1:T20 Arg2:T44	
+T73	CONC 1248 1258	diferencia
+#54	AnnotatorNotes T73	C1705241; Delta (difference); Quantitative Concept
+R70	Overlap Arg1:T73 Arg2:T46	
+T74	Quantifier_or_Qualifier 1259 1272	significativa
+#55	AnnotatorNotes T74	C0237881; Statistical Significance; Quantitative Concept
+R71	Has_Quantifier_or_Qualifier Arg1:T73 Arg2:T74	
+R29	Experiences Arg1:T37 Arg2:T65	
+R67	Experiences Arg1:T32 Arg2:T72	
+R72	Before Arg1:T72 Arg2:T5	
+R73	Before Arg1:T65 Arg2:T12	
+R74	Used_for Arg1:T3 Arg2:T1	
+R11	Experiences Arg1:T32 Arg2:T2	
+R64	Experiences Arg1:T58 Arg2:T22	
+A10	Experiencer T32 Patient
+A11	Experiencer T35 Patient
+A12	Experiencer T36 Patient
+A13	Experiencer T37 Patient
+A14	Experiencer T41 Patient
+A15	Experiencer T57 Patient
+A16	Experiencer T42 Patient
+A17	Experiencer T45 Patient
+A18	Experiencer T55 Patient
+A19	Experiencer T58 Patient

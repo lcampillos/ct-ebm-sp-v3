@@ -1,0 +1,99 @@
+T1	PROC 254 286	comparar la eficacia y seguridad
+T2	PROC 126 165	cirugía de sustitución valvular aórtica
+T3	ANAT 149 157	valvular
+#1	AnnotatorNotes T3	C1186983; anatomic valve; Body Part, Organ, or Organ Component
+T4	ANAT 158 165	aórtica
+#2	AnnotatorNotes T4	C0003483; Aorta; Body Part, Organ, or Organ Component | C1278934; Entire aorta; Body Part, Organ, or Organ Component
+T5	ANAT 342 350	valvular
+#3	AnnotatorNotes T5	C1186983; anatomic valve; Body Part, Organ, or Organ Component
+T6	ANAT 351 358	aórtica
+#4	AnnotatorNotes T6	C0003483; Aorta; Body Part, Organ, or Organ Component | C1278934; Entire aorta; Body Part, Organ, or Organ Component
+T7	PROC 330 358	sustitución valvular aórtica
+#5	AnnotatorNotes T7	C0003506; Replacement of aortic valve (procedure); Therapeutic or Preventive Procedure
+T8	ANAT 405 412	corazón
+#6	AnnotatorNotes T8	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T9	PROC 580 608	sustitución valvular aórtica
+#7	AnnotatorNotes T9	C0003506; Replacement of aortic valve (procedure); Therapeutic or Preventive Procedure
+T10	ANAT 450 460	miocárdica
+#8	AnnotatorNotes T10	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
+T11	PROC 550 562	intervenidos
+#9	AnnotatorNotes T11	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T12	ANAT 592 600	valvular
+#10	AnnotatorNotes T12	C1186983; anatomic valve; Body Part, Organ, or Organ Component
+T13	ANAT 601 608	aórtica
+#11	AnnotatorNotes T13	C0003483; Aorta; Body Part, Organ, or Organ Component | C1278934; Entire aorta; Body Part, Organ, or Organ Component
+T14	PROC 744 771	Cirugía urgente o emergente
+#12	AnnotatorNotes T14	C2188405; urgent surgical procedure; Therapeutic or Preventive Procedure + C2216322; emergency surgical procedure; Therapeutic or Preventive Procedure
+T15	PROC 693 717	consentimiento informado
+#13	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	PROC 796 824	transfusión de hemoderivados
+#14	AnnotatorNotes T16	C0005841; Blood Transfusion; Therapeutic or Preventive Procedure
+T17	PROC 196 248	Ensayo clínico aleatorizado, abierto y multicéntrico
+T18	CHEM 811 824	hemoderivados
+#15	AnnotatorNotes T18	C0456388; Blood product; Pharmacologic Substance | C1629497; Blood derivative; Pharmacologic Substance
+T19	CHEM 71 95	cardioplegia de Buckberg
+T20	CHEM 101 122	cardioplegia Del Nido
+#16	AnnotatorNotes T20	C4762491; Del Nido Cardioplegia; Organic Chemical · Pharmacologic Substance
+T21	CHEM 293 314	cardioplegia Buckberg
+T22	CHEM 318 326	Del Nido
+T23	Date 13 17	2018
+T25	LIVB 487 512	Pacientes mayores de edad
+#17	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T26	Age 514 522	>18 años
+T27	LIVB 540 549	Pacientes
+#18	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group
+T28	LIVB 667 676	Pacientes
+#19	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 773 782	Pacientes
+#20	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Neg_cue 787 795	rechacen
+T31	LIVB 826 835	Pacientes
+#21	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T33	LIVB 527 538	ambos sexos
+#22	AnnotatorNotes T33	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T24	Age 497 512	mayores de edad
+A1	Population_data T25 Age
+A2	Assertion T16 Negated
+#23	AnnotatorNotes T17	C0034656; Randomization; Research Activity + C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity
+#24	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#25	AnnotatorNotes T2	C0003506; Replacement of aortic valve (procedure); Therapeutic or Preventive Procedure
+#26	AnnotatorNotes T22	C4762491; Del Nido Cardioplegia; Organic Chemical · Pharmacologic Substance
+T32	Neg_cue 840 842	no
+T34	Observation 843 861	acepten participar
+A3	Assertion T34 Negated
+A4	Assertion T18 Negated
+R1	Negation Arg1:T32 Arg2:T34	
+R2	Experiences Arg1:T29 Arg2:T16	
+R3	Negation Arg1:T30 Arg2:T16	
+R4	Used_for Arg1:T18 Arg2:T16	
+R6	Experiences Arg1:T27 Arg2:T9	
+R7	Location_of Arg1:T12 Arg2:T9	
+R8	Location_of Arg1:T13 Arg2:T9	
+T35	Quantifier_or_Qualifier 609 616	aislada
+#27	AnnotatorNotes T35	C0205409; Isolated; Functional Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T35	
+R10	Has_Age Arg1:T25 Arg2:T24	
+R11	Has_Age Arg1:T25 Arg2:T26	
+R12	Has_Age Arg1:T33 Arg2:T26	
+R13	Has_Age Arg1:T33 Arg2:T24	
+R14	Location_of Arg1:T3 Arg2:T2	
+R15	Location_of Arg1:T4 Arg2:T2	
+R16	Used_for Arg1:T19 Arg2:T2	
+R17	Used_for Arg1:T20 Arg2:T2	
+T36	Quantifier_or_Qualifier 166 173	aislada
+#28	AnnotatorNotes T36	C0205409; Isolated; Functional Concept
+R18	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T36	
+R19	Used_for Arg1:T21 Arg2:T7	
+R20	Used_for Arg1:T22 Arg2:T7	
+R21	Location_of Arg1:T5 Arg2:T7	
+R22	Location_of Arg1:T6 Arg2:T7	
+T37	Quantifier_or_Qualifier 359 366	aislada
+#29	AnnotatorNotes T37	C0205409; Isolated; Functional Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T37	
+#30	AnnotatorNotes T34	C1302239; Patient consented to clinical trial; Finding
+A5	Experiencer T31 Patient
+A6	Experiencer T29 Patient
+A7	Experiencer T28 Patient
+A8	Experiencer T27 Patient
+A9	Experiencer T25 Patient
+A10	Experiencer T33 Patient

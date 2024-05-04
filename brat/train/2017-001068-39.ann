@@ -1,0 +1,177 @@
+T1	ANAT 60 65	hueso
+#1	AnnotatorNotes T1	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T2	PROC 80 103	extracción de un diente
+#2	AnnotatorNotes T2	C0040440; Tooth Extraction; Therapeutic or Preventive Procedure
+T3	ANAT 158 164	sangre
+#3	AnnotatorNotes T3	C0005767; Blood; Body Substance
+T4	CHEM 179 184	L-PRF
+#4	AnnotatorNotes T4	C4505052; Platelet-Rich Fibrin; Biomedical or Dental Material
+T5	PROC 196 220	tratamiento convencional
+#5	AnnotatorNotes T5	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure
+T6	ANAT 268 272	ósea
+#6	AnnotatorNotes T6	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T7	CHEM 315 353	fibrina rica en plaquetas y leucocitos
+T8	ANAT 331 340	plaquetas
+#7	AnnotatorNotes T8	C0005821; Blood Platelets; Cell
+T9	ANAT 343 353	leucocitos
+#8	AnnotatorNotes T9	C0023516; Leukocytes; Cell
+T10	CHEM 355 360	L-PRF
+#9	AnnotatorNotes T10	C4505052; Platelet-Rich Fibrin; Biomedical or Dental Material
+T11	PROC 366 390	tratamiento convencional
+#10	AnnotatorNotes T11	C2945704; Conventional Treatment; Therapeutic or Preventive Procedure
+T12	CHEM 428 433	L-PRF
+#11	AnnotatorNotes T12	C4505052; Platelet-Rich Fibrin; Biomedical or Dental Material
+T13	ANAT 451 456	hueso
+#12	AnnotatorNotes T13	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T14	ANAT 494 500	diente
+#13	AnnotatorNotes T14	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T15	CHEM 553 558	L-PRF
+#14	AnnotatorNotes T15	C4505052; Platelet-Rich Fibrin; Biomedical or Dental Material
+T16	ANAT 633 643	bucodental
+#15	AnnotatorNotes T16	C1456600; Mouth and Teeth; Body Location or Region
+T17	DISO 658 663	placa
+#16	AnnotatorNotes T17	C0011389; Dental Plaque; Disease or Syndrome
+T18	DISO 666 674	sangrado
+#17	AnnotatorNotes T18	C0019080; Hemorrhage; Pathologic Function
+T19	PROC 717 734	extracción dental
+#18	AnnotatorNotes T19	C0040440; Tooth Extraction; Therapeutic or Preventive Procedure
+T20	CHEM 1081 1089	proteico
+T21	ANAT 768 775	dientes
+#19	AnnotatorNotes T21	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T22	ANAT 843 848	hueso
+#20	AnnotatorNotes T22	C0262950; Skeletal bone; Body Part, Organ, or Organ Component | C0391978; Bone Tissue; Tissue
+T23	PROC 857 869	radiográfico
+#21	AnnotatorNotes T23	C1962945; Radiographic imaging procedure; Diagnostic Procedure
+T24	DISO 896 905	Fumadores
+#22	AnnotatorNotes T24	C0337664; Smoker; Finding
+T25	PROC 993 1005	tratamientos
+#23	AnnotatorNotes T25	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T26	DISO 1073 1102	déficit proteico y vitamínico
+T27	CHEM 1092 1102	vitamínico
+#24	AnnotatorNotes T27	C0042890; Vitamins; Organic Chemical · Pharmacologic Substance · Vitamin
+T28	PROC 1104 1125	radiación terapéutica
+T29	DISO 1127 1149	trastornos metabólicos
+#25	AnnotatorNotes T29	C0025517; Metabolic Diseases; Disease or Syndrome
+T30	DISO 1151 1159	diabetes
+#26	AnnotatorNotes T30	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T31	DISO 1161 1174	hipercalcemia
+#27	AnnotatorNotes T31	C0020437; Hypercalcemia; Disease or Syndrome
+T32	DISO 1180 1205	trastornos medicamentosos
+T33	CHEM 1224 1240	inmunosupresores
+#28	AnnotatorNotes T33	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T34	DISO 1180 1190;1244 1254	trastornos hormonales
+T35	DISO 1256 1263	alergia
+#30	AnnotatorNotes T35	C1527304; Allergic Reaction; Pathologic Function
+T36	PROC 1290 1302	tratamientos
+#31	AnnotatorNotes T36	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T37	ANAT 97 103	diente
+#32	AnnotatorNotes T37	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T38	PROC 483 500	extraer un diente
+T39	CHEM 1207 1222	antimetabólicos
+T40	ANAT 728 734	dental
+#33	AnnotatorNotes T40	C0040426; Tooth structure; Body Part, Organ, or Organ Component | C1281562; Entire tooth; Body Part, Organ, or Organ Component
+T41	DISO 944 960	patología médica
+T42	ANAT 277 284	alveolo
+#34	AnnotatorNotes T42	C1515933; Alveolus; Body Part, Organ, or Organ Component
+T43	Date 13 17	2017
+T44	LIVB 169 177	paciente
+#35	AnnotatorNotes T44	C0030705; Patients; Patient or Disabled Group
+T46	LIVB 585 594	Pacientes
+#36	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	Age 595 613	mayores de 18 años
+T50	Neg_cue 965 971	impida
+T52	PHYS 1058 1071	cicatrización
+#37	AnnotatorNotes T52	C0043240; Wound Healing; Organism Function
+T53	PHYS 1138 1149	metabólicos
+#38	AnnotatorNotes T53	C0025519; Metabolism; Organism Function
+T48	Date 285 298	posextracción
+T45	PHYS 437 446	regenerar
+#39	AnnotatorNotes T45	C0034963; Natural regeneration; Organ or Tissue Function
+A1	Assertion T25 Negated
+A2	Status T35 History_of
+#40	AnnotatorNotes T7	C4505052; Platelet-Rich Fibrin; Biomedical or Dental Material
+#41	AnnotatorNotes T38	C0040440; Tooth Extraction; Therapeutic or Preventive Procedure
+#42	AnnotatorNotes T41	C0677042; Pathology processes; Pathologic Function
+#43	AnnotatorNotes T20	C0033684; Proteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+#44	AnnotatorNotes T26	C1510471; Vitamin Deficiency; Disease or Syndrome + C0033626; Protein Deficiency; Disease or Syndrome
+T49	Neg_cue 675 677	no
+T51	Result_or_Value 678 693	superior al 25%
+A3	Assertion T51 Negated
+T54	Spec_cue 527 536	potencial
+T55	Observation 537 548	regenerador
+A4	Assertion T55 Speculated
+R1	Causes Arg1:T36 Arg2:T35	
+T56	CONC 779 795	posición 15 – 25
+R2	Location_of Arg1:T56 Arg2:T21	
+R3	Location_of Arg1:T21 Arg2:T19	
+R4	Location_of Arg1:T40 Arg2:T19	
+T57	CONC 738 757	zona anterosuperior
+#45	AnnotatorNotes T57	C1179849; Anterosuperior; Spatial Concept | C0441999; Upper anterior; Spatial Concept
+R5	Location_of Arg1:T57 Arg2:T19	
+R6	Location_of Arg1:T22 Arg2:T23	
+T58	Result_or_Value 827 838	más del 60%
+R7	Has_Result_or_Value Arg1:T22 Arg2:T58	
+R8	Negation Arg1:T49 Arg2:T51	
+T59	CONC 648 663	índice de placa
+#46	AnnotatorNotes T59	C0011390; Dental Plaque Index; Intellectual Product
+R9	Has_Result_or_Value Arg1:T59 Arg2:T51	
+R10	Has_Result_or_Value Arg1:T18 Arg2:T51	
+T60	Observation 627 643	salud bucodental
+#47	AnnotatorNotes T60	C0029162; Oral health; Finding
+R11	Location_of Arg1:T16 Arg2:T60	
+R12	Location_of Arg1:T16 Arg2:T17	
+R13	Location_of Arg1:T16 Arg2:T18	
+R14	Has_Age Arg1:T46 Arg2:T47	
+R15	Speculation Arg1:T54 Arg2:T55	
+R16	Before Arg1:T15 Arg2:T55	
+R17	Used_for Arg1:T13 Arg2:T45	
+R18	Before Arg1:T12 Arg2:T45	
+R19	Location_of Arg1:T14 Arg2:T38	
+T61	CONC 46 53	Cambios
+#48	AnnotatorNotes T61	C0443172; Changed status; Quantitative Concept
+T62	CONC 243 250	Cambios
+#49	AnnotatorNotes T62	C0443172; Changed status; Quantitative Concept
+R23	Overlap Arg1:T62 Arg2:T48	
+R24	After Arg1:T61 Arg2:T2	
+R25	Location_of Arg1:T37 Arg2:T2	
+R26	Experiences Arg1:T44 Arg2:T4	
+R27	Experiences Arg1:T44 Arg2:T2	
+R28	Experiences Arg1:T44 Arg2:T5	
+R29	After Arg1:T12 Arg2:T38	
+R30	Before Arg1:T2 Arg2:T4	
+T63	Result_or_Value 909 930	más de 20 cigarrillos
+R35	Has_Result_or_Value Arg1:T24 Arg2:T63	
+R37	Negation Arg1:T50 Arg2:T25	
+T65	Observation 1023 1032	respuesta
+#51	AnnotatorNotes T65	C1319171; Medication response; Finding
+R39	Before Arg1:T41 Arg2:T65	
+R41	Overlap Arg1:T25 Arg2:T28	
+R50	Causes Arg1:T33 Arg2:T32	
+R51	Causes Arg1:T39 Arg2:T32	
+R63	Before Arg1:T26 Arg2:T65	
+R64	Before Arg1:T28 Arg2:T65	
+R65	Before Arg1:T29 Arg2:T65	
+R66	Before Arg1:T30 Arg2:T65	
+R67	Before Arg1:T31 Arg2:T65	
+R68	Before Arg1:T34 Arg2:T65	
+R69	Before Arg1:T32 Arg2:T65	
+R70	Before Arg1:T39 Arg2:T65	
+R71	Before Arg1:T33 Arg2:T65	
+R72	Before Arg1:T35 Arg2:T65	
+R20	Location_of Arg1:T6 Arg2:T62	
+R21	Location_of Arg1:T42 Arg2:T62	
+R22	Location_of Arg1:T1 Arg2:T61	
+R31	Before Arg1:T41 Arg2:T52	
+R32	Before Arg1:T26 Arg2:T52	
+R33	Before Arg1:T29 Arg2:T52	
+R34	Before Arg1:T28 Arg2:T52	
+R36	Before Arg1:T30 Arg2:T52	
+R38	Before Arg1:T31 Arg2:T52	
+R42	Before Arg1:T32 Arg2:T52	
+R40	Before Arg1:T34 Arg2:T52	
+R43	Before Arg1:T35 Arg2:T52	
+#29	AnnotatorNotes T28	C1522449; Therapeutic radiology procedure; Therapeutic or Preventive Procedure
+#50	AnnotatorNotes T34	C0014130; Endocrine System Diseases; Disease or Syndrome (?)
+#52	AnnotatorNotes T32	C0277579; drug-related disorder; Disease or Syndrome
+A5	Experiencer T44 Patient
+A6	Experiencer T46 Patient

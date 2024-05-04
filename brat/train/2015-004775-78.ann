@@ -1,0 +1,151 @@
+T1	PROC 46 90	Estudio para evaluar la Eficacia y Seguridad
+T2	ANAT 1218 1227	craneales
+#1	AnnotatorNotes T2	C0037303; Bone structure of cranium; Body Part, Organ, or Organ Component | C1279062; Entire cranium; Body Part, Organ, or Organ Component
+T3	DISO 118 135	dolor neuropático
+#2	AnnotatorNotes T3	C0027796; Neuralgia; Sign or Symptom
+T4	DISO 140 164	radiculopatía lumbosacra
+#3	AnnotatorNotes T4	C0154738; Lumbosacral radiculopathy; Disease or Syndrome
+T5	ANAT 154 164	lumbosacra
+#4	AnnotatorNotes T5	C0024094; Lumbosacral Region; Body Location or Region
+T6	PROC 187 269	Estudio aleatorizado, doble ciego, controlado con un placebo y en grupos paralelos
+T7	PROC 275 309	evaluar la eficacia y la seguridad
+#5	AnnotatorNotes T7	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T8	DISO 337 354	dolor neuropático
+#6	AnnotatorNotes T8	C0027796; Neuralgia; Sign or Symptom
+T9	DISO 359 383	radiculopatía lumbosacra
+#7	AnnotatorNotes T9	C0154738; Lumbosacral radiculopathy; Disease or Syndrome
+T10	ANAT 373 383	lumbosacra
+#8	AnnotatorNotes T10	C0024094; Lumbosacral Region; Body Location or Region
+T11	DISO 407 424	Dolor neuropático
+#9	AnnotatorNotes T11	C0027796; Neuralgia; Sign or Symptom
+T12	DISO 429 453	radiculopatía lumbosacra
+#10	AnnotatorNotes T12	C0154738; Lumbosacral radiculopathy; Disease or Syndrome
+T13	ANAT 443 453	lumbosacra
+#11	AnnotatorNotes T13	C0024094; Lumbosacral Region; Body Location or Region
+T14	PROC 655 666	Diagnóstico
+#12	AnnotatorNotes T14	C0011900; Diagnosis; Diagnostic Procedure
+T15	DISO 670 687	dolor neuropático
+#13	AnnotatorNotes T15	C0027796; Neuralgia; Sign or Symptom
+T16	DISO 692 716	radiculopatía lumbosacra
+#14	AnnotatorNotes T16	C0154738; Lumbosacral radiculopathy; Disease or Syndrome
+T17	ANAT 706 716	lumbosacra
+#15	AnnotatorNotes T17	C0024094; Lumbosacral Region; Body Location or Region
+T18	DISO 750 767	dolor neuropático
+#16	AnnotatorNotes T18	C0027796; Neuralgia; Sign or Symptom
+T19	ANAT 775 794	extremidad inferior
+#17	AnnotatorNotes T19	C0023216; Lower Extremity; Body Part, Organ, or Organ Component | C1269079; Entire lower limb; Body Part, Organ, or Organ Component
+T20	PROC 870 893	Intervención quirúrgica
+#18	AnnotatorNotes T20	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T21	PROC 941 955	ensayo clínico
+#19	AnnotatorNotes T21	C0008976; Clinical Trials; Research Activity
+T22	DISO 974 997	neuropatías periféricas
+#20	AnnotatorNotes T22	C0031117; Peripheral Neuropathy; Disease or Syndrome
+T23	DISO 1011 1019	diabetes
+#21	AnnotatorNotes T23	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
+T24	DISO 1070 1076	signos
+#22	AnnotatorNotes T24	C0311392; Physical findings; Finding
+T25	DISO 1080 1101	neuropatía periférica
+#23	AnnotatorNotes T25	C0031117; Peripheral Neuropathy; Disease or Syndrome
+T26	PROC 1108 1131	exploración neurológica
+T27	DISO 1160 1172	convulsiones
+#24	AnnotatorNotes T27	C0036572; Seizures; Sign or Symptom | C4048158; Convulsions; Sign or Symptom
+T28	DISO 1191 1200	epilepsia
+#25	AnnotatorNotes T28	C0014544; Epilepsy; Disease or Syndrome
+T29	DISO 1255 1278	trastornos neurológicos
+#26	AnnotatorNotes T29	C0027765; nervous system disorder; Disease or Syndrome
+T30	PROC 1369 1378	protocolo
+#27	AnnotatorNotes T30	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T31	ANAT 566 574	corporal
+#28	AnnotatorNotes T31	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
+T32	DISO 1021 1039	consumo de alcohol
+T33	DISO 1205 1227	traumatismos craneales
+#29	AnnotatorNotes T33	C4324307; Skull trauma; Injury or Poisoning
+T34	CHEM 314 321	BIIB074
+#30	AnnotatorNotes T34	C4505505; BIIB074; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T35	CHEM 95 102	BIIB074
+#31	AnnotatorNotes T35	C4505505; BIIB074; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T36	Date 13 17	2015
+T37	LIVB 106 113	sujetos
+#32	AnnotatorNotes T37	C0681850; Study Subject; Group
+T38	LIVB 325 332	sujetos
+#33	AnnotatorNotes T38	C0681850; Study Subject; Group
+T39	LIVB 483 490	Hombres
+#34	AnnotatorNotes T39	C0025266; Male population group; Population Group
+T40	LIVB 493 500	mujeres
+#35	AnnotatorNotes T40	C0043210; Woman; Population Group
+T41	Age 522 548	entre los 18 y los 75 años
+T42	LIVB 645 652	mujeres
+#36	AnnotatorNotes T42	C0043210; Woman; Population Group
+T43	Duration 796 809	> o = 6 meses
+T44	Spec_cue 1150 1159	riesgo de
+T46	LIVB 605 612	varones
+#37	AnnotatorNotes T46	C0025266; Male population group; Population Group
+T45	PROC 561 574	Peso corporal
+#38	AnnotatorNotes T45	C2985231; Body Weight Measurement; Diagnostic Procedure
+A1	Assertion T27 Speculated
+A2	Status T22 History_of
+A3	Status T27 History_of
+A4	Status T28 History_of
+A5	Status T33 History_of
+A6	Status T29 History_of
+#39	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#40	AnnotatorNotes T6	C0013072; Double-Blind Method; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C2826345; Parallel Study; Research Activity
+#41	AnnotatorNotes T26	C0027853; Neurologic Examination; Diagnostic Procedure 
+T47	Food 1032 1039	alcohol
+#42	AnnotatorNotes T47	C0001967; Alcoholic Beverages; Food
+R1	Experiences Arg1:T37 Arg2:T35	
+R2	Location_of Arg1:T5 Arg2:T4	
+R3	Causes Arg1:T4 Arg2:T3	
+R4	Experiences Arg1:T37 Arg2:T3	
+R5	Experiences Arg1:T37 Arg2:T4	
+R6	Experiences Arg1:T38 Arg2:T34	
+R7	Causes Arg1:T9 Arg2:T8	
+R8	Location_of Arg1:T10 Arg2:T9	
+R9	Experiences Arg1:T38 Arg2:T8	
+R10	Experiences Arg1:T38 Arg2:T9	
+R11	Causes Arg1:T12 Arg2:T11	
+R12	Location_of Arg1:T13 Arg2:T12	
+R13	Has_Age Arg1:T40 Arg2:T41	
+R14	Has_Age Arg1:T39 Arg2:T41	
+R15	Location_of Arg1:T31 Arg2:T45	
+T48	Result_or_Value 575 586	> o = 50 kg
+R16	Has_Result_or_Value Arg1:T45 Arg2:T48	
+R17	Experiences Arg1:T46 Arg2:T45	
+T49	Result_or_Value 615 626	> o = 45 kg
+R18	Experiences Arg1:T42 Arg2:T45	
+R19	Has_Result_or_Value Arg1:T45 Arg2:T49	
+R20	Location_of Arg1:T17 Arg2:T16	
+R21	Causes Arg1:T16 Arg2:T15	
+R22	Has_Duration_or_Interval Arg1:T18 Arg2:T43	
+R23	Location_of Arg1:T19 Arg2:T18	
+T50	PROC 830 839	selección
+#43	AnnotatorNotes T50	C0242802; Patient Selection; Research Activity
+R24	Overlap Arg1:T18 Arg2:T50	
+T51	Quantifier_or_Qualifier 907 917	programada
+#44	AnnotatorNotes T51	C0205539; Scheduled - procedure status; Qualitative Concept
+R25	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T51	
+R26	Overlap Arg1:T20 Arg2:T21	
+R28	Causes Arg1:T23 Arg2:T22	
+R29	Causes Arg1:T32 Arg2:T22	
+T52	Quantifier_or_Qualifier 1056 1066	idiopática
+#45	AnnotatorNotes T52	C0332240; Unknown (origin) (qualifier value); Functional Concept
+R30	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T52	
+R31	Causes Arg1:T25 Arg2:T24	
+R33	Speculation Arg1:T44 Arg2:T27	
+R34	Location_of Arg1:T2 Arg2:T33	
+T53	Observation 1231 1249	relevancia clínica
+#46	AnnotatorNotes T53	C2826293; Clinical Relevance; Finding
+R35	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T53	
+T54	Observation 1041 1053	otras causas
+#47	AnnotatorNotes T54	C5555349; Other Disease Etiology; Finding
+R36	Causes Arg1:T54 Arg2:T22	
+#48	AnnotatorNotes T32	C4273278; alcohol use behavior; Finding | C5428797; finding of alcohol drinking behavior; Finding
+A7	Experiencer T37 Patient
+A8	Experiencer T38 Patient
+A9	Experiencer T39 Patient
+A10	Experiencer T40 Patient
+A11	Experiencer T46 Patient
+A12	Experiencer T42 Patient
+A13	Status T20 Future
+A14	Assertion T46 Hypothetical
+A15	Assertion T42 Hypothetical

@@ -1,0 +1,106 @@
+T1	CHEM 46 52	HELIOX
+#1	AnnotatorNotes T1	C0062185; heliox; Inorganic Chemical · Pharmacologic Substance
+T2	CHEM 58 66	VEHÍCULO
+#2	AnnotatorNotes T2	C0042444; Drug vehicle; Biomedical or Dental Material
+T3	PROC 73 85	NEBULIZACIÓN
+#3	AnnotatorNotes T3	C1659427; nebulization-mediated drug administration; Therapeutic or Preventive Procedure
+T4	DISO 119 129	ASMA AGUDO
+T5	DISO 209 235	EXACERVACION DE ASMA AGUDO
+T6	PROC 484 495	Diagnóstico
+#4	AnnotatorNotes T6	C0011900; Diagnosis; Diagnostic Procedure
+T7	DISO 499 503	asma
+#5	AnnotatorNotes T7	C0004096; Asthma; Disease or Syndrome
+T8	DISO 635 653	exacerbación aguda
+T9	DISO 729 757	Alteración de la consciencia
+#6	AnnotatorNotes T9	C0234428; Disturbance of consciousness; Finding
+T10	PROC 885 908	ventilación no invasiva
+#7	AnnotatorNotes T10	C1997883; Noninvasive Ventilation; Therapeutic or Preventive Procedure
+T11	PROC 912 922	intubación
+#8	AnnotatorNotes T11	C0021925; Intubation (procedure); Therapeutic or Preventive Procedure
+T12	PROC 927 947	ventilación mecánica
+#9	AnnotatorNotes T12	C0199470; Mechanical ventilation; Therapeutic or Preventive Procedure
+T13	DISO 970 996	enfermedades concomitantes
+#10	AnnotatorNotes T13	C0243087; concomitant disease; Pathologic Function
+T14	DISO 1009 1013	asma
+#11	AnnotatorNotes T14	C0004096; Asthma; Disease or Syndrome
+T15	CHEM 1034 1050	corticosteroides
+#12	AnnotatorNotes T15	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
+T16	PROC 768 789	saturometría de pulso
+#13	AnnotatorNotes T16	C0034108; Oximetry, Pulse; Diagnostic Procedure
+T17	PROC 147 185	ENSAYO CLÍNICO CONTROLADO ALEATORIZADO
+#14	AnnotatorNotes T17	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T18	PROC 407 433	consentimiento por escrito
+#15	AnnotatorNotes T18	C0811746; Obtain written consent; Health Care Activity
+T19	PROC 822 848	presión arterial sistólica
+#16	AnnotatorNotes T19	C1306620; Systolic blood pressure measurement; Diagnostic Procedure
+T20	CHEM 89 105	BETA 2-AGONISTAS
+T21	Date 13 17	2015
+T22	LIVB 109 114	NIÑOS
+#17	AnnotatorNotes T22	C0008059; Child; Age Group
+T23	LIVB 372 378	padres
+#18	AnnotatorNotes T23	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T24	Age 460 477	entre 6 - 16 años
+T25	LIVB 573 582	Pacientes
+#19	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group
+T26	PHYS 784 789	pulso
+#20	AnnotatorNotes T26	C0391850; Physiologic pulse; Physiologic Function
+T27	PHYS 822 838	presión arterial
+#21	AnnotatorNotes T27	C0005823; Blood Pressure; Organism Function
+T30	Duration 1054 1073	las 6 horas previas
+T31	PHYS 746 757	consciencia
+#22	AnnotatorNotes T31	C0009790; Conscience; Mental Process | C0234421; Conscious; Mental Process
+T28	LIVB 381 388	tutores
+#23	AnnotatorNotes T28	C0871554; tutor; Professional or Occupational Group
+T29	LIVB 352 365	participantes
+#24	AnnotatorNotes T29	C4554048; Study Participant; Population Group
+T32	LIVB 318 331	participantes
+#25	AnnotatorNotes T32	C4554048; Study Participant; Population Group
+T33	PROC 675 677	EP
+#26	AnnotatorNotes T33	C0581122; Asthma severity; Health Care Activity (?) [Pulmonary Score]
+A1	Population_data T22 Age
+A2	Status T15 History_of
+#27	AnnotatorNotes T4	C0582415; Acute asthma; Disease or Syndrome
+#28	AnnotatorNotes T8	C0743630; exacerbation acute; Finding
+T34	Quantifier_or_Qualifier 900 908	invasiva
+A3	Assertion T34 Negated
+#29	AnnotatorNotes T34	C0205281; Invasive; Qualitative Concept
+T35	Neg_cue 897 899	no
+T36	Quantifier_or_Qualifier 130 145	MODERADO-SEVERO
+#30	AnnotatorNotes T36	C1299393; Moderate to severe; Qualitative Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T36	
+T37	Quantifier_or_Qualifier 239 255	MODERADO A GRAVE
+#31	AnnotatorNotes T37	C1299393; Moderate to severe; Qualitative Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T37	
+R3	Experiences Arg1:T22 Arg2:T4	
+R4	Experiences Arg1:T22 Arg2:T1	
+R5	Experiences Arg1:T22 Arg2:T2	
+R6	Used_for Arg1:T1 Arg2:T3	
+R7	Combined_with Arg1:T1 Arg2:T20	
+T38	Observation 439 449	participar
+#32	AnnotatorNotes T38	C1278516; Patient participation status; Finding
+R9	Before Arg1:T18 Arg2:T38	
+T39	PROC 587 619	acudan a un servicio de urgencia
+#33	AnnotatorNotes T39	C1527398; Emergency Care; Therapeutic or Preventive Procedure
+R10	Experiences Arg1:T25 Arg2:T39	
+R11	Experiences Arg1:T25 Arg2:T8	
+T40	Result_or_Value 678 681	≥ 4
+R12	Has_Result_or_Value Arg1:T33 Arg2:T40	
+T41	Result_or_Value 790 804	menor del 90 %
+R14	Has_Result_or_Value Arg1:T16 Arg2:T41	
+T42	Result_or_Value 849 869	superior a 180 mm Hg
+R16	Has_Result_or_Value Arg1:T19 Arg2:T42	
+R18	Negation Arg1:T35 Arg2:T34	
+R19	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T34	
+R20	Overlap Arg1:T13 Arg2:T14	
+R21	Overlap Arg1:T15 Arg2:T30	
+R22	Used_for Arg1:T20 Arg2:T3	
+#34	AnnotatorNotes T20	C2917450; beta2-Adrenergic Agonist [EPC]; Pharmacologic Substance
+#35	AnnotatorNotes T5	C0582415; Acute asthma; Disease or Syndrome (?)
+A4	Experiencer T22 Patient
+A5	Experiencer T32 Patient
+A6	Experiencer T29 Patient
+A7	Experiencer T23 Family_member
+A8	Experiencer T28 Other
+A9	Experiencer T25 Patient
+A10	Status T18 Future
+A11	Status T38 Future

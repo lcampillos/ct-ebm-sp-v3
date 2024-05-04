@@ -1,0 +1,208 @@
+T1	PROC 46 111	Ensayo clínico fase I/II aleatorizado, exploratorio y prospectivo
+T2	PROC 117 148	evaluar la seguridad y eficacia
+T3	PROC 155 166	transfusión
+#1	AnnotatorNotes T3	C1879316; Transfusion (procedure); Therapeutic or Preventive Procedure
+T4	ANAT 206 219	tejido tímico
+T5	PROC 226 248	prevención del rechazo
+#2	AnnotatorNotes T5	C0547622; Prevention or Early Detection of Rejection of Transplant; Health Care Activity
+T6	PROC 258 282	trasplantados de corazón
+T7	ANAT 275 282	corazón
+#3	AnnotatorNotes T7	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T8	PROC 306 325	Evaluar la eficacia
+#4	AnnotatorNotes T8	C1707887; Efficacy Study; Research Activity
+T9	PROC 332 354	prevención del rechazo
+#5	AnnotatorNotes T9	C0547622; Prevention or Early Detection of Rejection of Transplant; Health Care Activity
+T10	PROC 361 372	transfusión
+#6	AnnotatorNotes T10	C1879316; Transfusion (procedure); Therapeutic or Preventive Procedure
+T11	PROC 411 435	trasplantados de corazón
+T12	ANAT 428 435	corazón
+#7	AnnotatorNotes T12	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T13	PROC 568 589	trasplante de corazón
+#8	AnnotatorNotes T13	C0018823; Heart Transplantation; Therapeutic or Preventive Procedure
+T14	CHEM 631 656	fármacos inmunosupresores
+#9	AnnotatorNotes T14	C0021081; Immunosuppressive Agents; Immunologic Factor · Pharmacologic Substance
+T15	PROC 805 829	consentimiento informado
+#10	AnnotatorNotes T15	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T16	DISO 874 894	Síndrome de DiGeorge
+#11	AnnotatorNotes T16	C0012236; DiGeorge Syndrome; Disease or Syndrome
+T17	ANAT 914 920	tímica
+#12	AnnotatorNotes T17	C0040113; Thymus Gland; Body Part, Organ, or Organ Component
+T18	PROC 939 952	Serología HIV
+T19	DISO 966 990	Infección activa por EBV
+#13	AnnotatorNotes T19	C0149678; Epstein-Barr Virus Infections; Disease or Syndrome
+T20	PROC 1004 1020	hiperinmunizados
+#14	AnnotatorNotes T20	C0596742; hyperimmunization; Therapeutic or Preventive Procedure
+T21	CHEM 1025 1057	anticuerpos citotóxicos anti-HLA
+T22	DISO 1087 1097	malignidad
+#15	AnnotatorNotes T22	C0006826; Malignant Neoplasms; Neoplastic Process
+T23	PROC 1149 1173	estudios de intervención
+#16	AnnotatorNotes T23	C3274035; Interventional Study; Research Activity
+T24	PROC 1224 1244	terapia de inducción
+#17	AnnotatorNotes T24	C0600558; Neoadjuvant Therapy; Therapeutic or Preventive Procedure
+T25	CHEM 1249 1260	Basiliximab
+#18	AnnotatorNotes T25	C0676831; basiliximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T26	PROC 1306 1319	trasplantados
+#19	AnnotatorNotes T26	C0040732; Transplantation; Therapeutic or Preventive Procedure
+T27	PROC 1361 1375	diagnosticados
+#20	AnnotatorNotes T27	C0011900; Diagnosis; Diagnostic Procedure
+T28	DISO 1379 1400	enfermedad autoinmune
+#21	AnnotatorNotes T28	C0004364; Autoimmune Diseases; Disease or Syndrome
+T29	DISO 1408 1417	celiaquía
+#22	AnnotatorNotes T29	C0007570; Celiac Disease; Disease or Syndrome
+T30	DISO 1419 1444	hipotiroidismo autoinmune
+#23	AnnotatorNotes T30	C0342158; Hypothyroidism, Autoimmune; Disease or Syndrome
+T31	DISO 1446 1465	diabetes autoinmune
+#24	AnnotatorNotes T31	C0205734; Diabetes, Autoimmune; Disease or Syndrome
+T32	ANAT 170 182	células TREG
+#25	AnnotatorNotes T32	C0039198; Regulatory T-Cell; Cell
+T33	ANAT 376 391	células thyTreg
+T34	ANAT 582 589	corazón
+#26	AnnotatorNotes T34	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T35	CHEM 1263 1276	Timoglobulina
+T36	Date 13 17	2018
+T37	LIVB 252 257	niños
+#27	AnnotatorNotes T37	C0008059; Child; Age Group
+T39	LIVB 405 410	niños
+#28	AnnotatorNotes T39	C0008059; Child; Age Group
+T40	LIVB 466 474	Paciente
+#29	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T41	Age 475 492	menor de dos años
+T42	LIVB 594 603	Pacientes
+#30	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T44	LIVB 665 671	padres
+#31	AnnotatorNotes T44	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T46	LIVB 860 869	Pacientes
+#32	AnnotatorNotes T46	C0030705; Patients; Patient or Disabled Group
+T47	LIVB 949 952	HIV
+#33	AnnotatorNotes T47	C0019682; HIV; Virus
+T48	LIVB 987 990	EBV
+#34	AnnotatorNotes T48	C0014644; Epstein-Barr virus; Virus
+T49	LIVB 994 1003	Pacientes
+#35	AnnotatorNotes T49	C0030705; Patients; Patient or Disabled Group
+T50	LIVB 1061 1070	Pacientes
+#36	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 1108 1117	Pacientes
+#37	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T52	Date 1177 1190	el último mes
+T53	LIVB 1195 1204	Pacientes
+#38	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	LIVB 1281 1290	Pacientes
+#39	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 1336 1345	Pacientes
+#40	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T38	LIVB 676 683	tutores
+#41	AnnotatorNotes T38	C0871554; tutor; Professional or Occupational Group
+T43	PHYS 724 734	comprender
+#42	AnnotatorNotes T43	C0162340; Comprehension; Mental Process
+T45	PHYS 906 920	función tímica
+A1	Population_data T37 Age
+A2	Population_data T39 Age
+A3	Status T22 History_of
+A4	Status T23 History_of
+A5	Status T24 History_of
+A6	Status T25 History_of
+A7	Status T35 History_of
+A8	Status T26 History_of
+A9	Status T28 History_of
+A10	Status T29 History_of
+A11	Status T30 History_of
+A12	Status T31 History_of
+#43	AnnotatorNotes T1	C1515369; Therapeutic Exploratory Study; Research Activity + C1519043; Phase I/II Trial; Research Activity + C0034656; Randomization; Research Activity + C0033522; Prospective Studies; Research Activity
+#44	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#45	AnnotatorNotes T4	C1515430; Thymic Tissue; Tissue
+#46	AnnotatorNotes T33	C0039198; Regulatory T-Cell; Cell + C1515430; Thymic Tissue; Tissue (?)
+#47	AnnotatorNotes T11	C0018823; Heart Transplantation; Therapeutic or Preventive Procedure
+#48	AnnotatorNotes T6	C0018823; Heart Transplantation; Therapeutic or Preventive Procedure
+#49	AnnotatorNotes T35	C0730920; Thymoglobulin; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor 
+T56	Neg_cue 604 607	sin
+T57	CONC 608 624	contraindicación
+A13	Assertion T57 Negated
+#50	AnnotatorNotes T57	C0522473; Contraindication; Qualitative Concept
+R1	Used_for Arg1:T32 Arg2:T3	
+T58	Quantifier_or_Qualifier 183 192	autólogas
+#51	AnnotatorNotes T58	C0439859; Autologous (qualifier value); Qualitative Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T58	
+T59	Quantifier_or_Qualifier 193 219	obtenidas de tejido tímico
+R3	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T59	
+R4	Used_for Arg1:T3 Arg2:T5	
+R5	Before Arg1:T5 Arg2:T6	
+R6	Experiences Arg1:T37 Arg2:T3	
+R7	Experiences Arg1:T37 Arg2:T5	
+R8	Experiences Arg1:T37 Arg2:T6	
+R9	Location_of Arg1:T7 Arg2:T6	
+T60	Quantifier_or_Qualifier 392 401	autólogas
+#52	AnnotatorNotes T60	C0439859; Autologous (qualifier value); Qualitative Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T60	
+R11	Experiences Arg1:T39 Arg2:T11	
+R12	Location_of Arg1:T12 Arg2:T11	
+R13	Used_for Arg1:T33 Arg2:T10	
+R14	Before Arg1:T9 Arg2:T11	
+R15	Used_for Arg1:T10 Arg2:T9	
+R16	Experiences Arg1:T39 Arg2:T9	
+R17	Experiences Arg1:T39 Arg2:T10	
+R18	Has_Age Arg1:T40 Arg2:T41	
+T61	Observation 506 544	cumpla todos los requisitos necesarios
+R19	Experiences Arg1:T40 Arg2:T61	
+R20	Before Arg1:T61 Arg2:T13	
+R21	Location_of Arg1:T34 Arg2:T13	
+R22	Experiences Arg1:T42 Arg2:T14	
+R23	Negation Arg1:T56 Arg2:T57	
+T62	Observation 696 706	dispuestos
+#53	AnnotatorNotes T62	C0600109; Willing; Finding (?)
+R24	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T62	
+R25	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T62	
+T63	Observation 713 761	capaces de comprender el propósito y los riesgos
+R27	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T63	
+R28	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T63	
+R30	Overlap Arg1:T62 Arg2:T15	
+R31	Overlap Arg1:T63 Arg2:T15	
+R32	Overlap Arg1:T43 Arg2:T15	
+R33	Experiences Arg1:T38 Arg2:T43	
+R34	Experiences Arg1:T44 Arg2:T43	
+R29	Experiences Arg1:T46 Arg2:T16	
+T64	Observation 906 920;926 934	función tímica afectada
+R36	Location_of Arg1:T17 Arg2:T64	
+R37	Experiences Arg1:T46 Arg2:T45	
+R38	Experiences Arg1:T46 Arg2:T64	
+R39	Overlap Arg1:T16 Arg2:T64	
+R40	Overlap Arg1:T16 Arg2:T45	
+R41	Causes Arg1:T48 Arg2:T19	
+T65	Result_or_Value 953 961	positiva
+#54	AnnotatorNotes T65	C1446409; Positive; Finding
+R42	Has_Result_or_Value Arg1:T18 Arg2:T65	
+R43	Causes Arg1:T47 Arg2:T65	
+R44	Experiences Arg1:T49 Arg2:T20	
+R45	Causes Arg1:T21 Arg2:T20	
+R46	Experiences Arg1:T50 Arg2:T22	
+T66	Observation 1122 1173	hayan participado en otros estudios de intervención
+A14	Status T66 History_of
+R48	Overlap Arg1:T66 Arg2:T52	
+R49	Overlap Arg1:T23 Arg2:T52	
+R50	Experiences Arg1:T53 Arg2:T24	
+R51	Causes Arg1:T25 Arg2:T24	
+R52	Causes Arg1:T35 Arg2:T24	
+R53	Experiences Arg1:T54 Arg2:T26	
+R54	Experiences Arg1:T55 Arg2:T28	
+R55	Experiences Arg1:T55 Arg2:T29	
+R56	Experiences Arg1:T55 Arg2:T30	
+R57	Experiences Arg1:T55 Arg2:T31	
+T67	Quantifier_or_Qualifier 1401 1406	grave
+#56	AnnotatorNotes T67	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R58	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T67	
+A15	Status T67 History_of
+#57	AnnotatorNotes T18	C0201386; Measurement of Human immunodeficiency virus 1 antibody; Laboratory Procedure
+R59	Experiences Arg1:T40 Arg2:T13	
+R26	Location_of Arg1:T17 Arg2:T45	
+A16	Experiencer T37 Patient
+A17	Experiencer T39 Patient
+A18	Experiencer T40 Patient
+A19	Experiencer T42 Patient
+A20	Experiencer T44 Family_member
+A21	Experiencer T38 Other
+A22	Experiencer T46 Patient
+A23	Experiencer T49 Patient
+A24	Experiencer T50 Patient
+A25	Experiencer T51 Patient
+A26	Experiencer T53 Patient
+A27	Experiencer T54 Patient
+A28	Experiencer T55 Patient

@@ -1,0 +1,182 @@
+T1	PROC 1 12	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 19 35	alergia a hongos
+#2	AnnotatorNotes T2	C3875242; Allergy to fungus; Pathologic Function
+T3	PROC 40 51	tratamiento
+#3	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 72 92	alergia respiratoria
+T5	PROC 104 132	medidas de control ambiental
+#4	AnnotatorNotes T5	C2091301; environmental control measures; Health Care Activity
+T6	PROC 134 159	tratamiento farmacológico
+#5	AnnotatorNotes T6	C0013216; Pharmacotherapy; Therapeutic or Preventive Procedure
+T7	PROC 162 175	inmunoterapia
+#6	AnnotatorNotes T7	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T8	DISO 238 270	enfermedad respiratoria alérgica
+#7	AnnotatorNotes T8	C1504369; Allergic disorder of respiratory system; Disease or Syndrome
+T9	DISO 1460 1470	enfermedad
+#8	AnnotatorNotes T9	C0012634; Disease; Disease or Syndrome
+T10	PROC 411 422	diagnóstico
+#9	AnnotatorNotes T10	C0011900; Diagnosis; Diagnostic Procedure
+T11	PROC 425 436	tratamiento
+#10	AnnotatorNotes T11	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T12	PROC 463 483	estudios controlados
+#11	AnnotatorNotes T12	C0681867; Controlled Study; Research Activity
+T13	PROC 490 503	inmunoterapia
+#12	AnnotatorNotes T13	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T14	PROC 542 556	ensayo clínico
+#13	AnnotatorNotes T14	C0008976; Clinical Trials; Research Activity
+T15	PROC 621 632	diagnóstico
+#14	AnnotatorNotes T15	C0011900; Diagnosis; Diagnostic Procedure
+T16	PROC 635 646	tratamiento
+#15	AnnotatorNotes T16	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T17	PROC 785 798	inmunoterapia
+#16	AnnotatorNotes T17	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T18	Form 803 820	preparación depot
+#17	AnnotatorNotes T18	C3830287; Extended Release Depot Dosage Form; Biomedical or Dental Material (?)
+T19	PROC 826 844	pauta convencional
+T20	PROC 1009 1045	se determinó la eficacia y seguridad
+#18	AnnotatorNotes T20	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T21	PROC 954 995	ensayo doble ciego controlado con placebo
+#19	AnnotatorNotes T21	C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product
+T22	PROC 1052 1065	inmunoterapia
+#20	AnnotatorNotes T22	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T23	PROC 1100 1113	inmunoterapia
+#21	AnnotatorNotes T23	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
+T24	DISO 1171 1178	rinitis
+#22	AnnotatorNotes T24	C0035455; Rhinitis; Disease or Syndrome
+T25	DISO 1183 1199	asma por alergia
+T26	PROC 1302 1313	tratamiento
+#23	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T27	DISO 1363 1371	síntomas
+#24	AnnotatorNotes T27	C1457887; Symptoms; Sign or Symptom
+T28	PROC 1395 1415	evaluación subjetiva
+T29	PROC 1546 1549	IgG
+#25	AnnotatorNotes T29	C0202087; Immunoglobulin G measurement; Laboratory Procedure
+T30	PROC 1570 1573	IgE
+#26	AnnotatorNotes T30	C0202086; Immunoglobulin E measurement; Laboratory Procedure
+T31	PROC 1616 1627	tratamiento
+#27	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	DISO 59 67	enfermos
+#28	AnnotatorNotes T32	C0012634; Disease; Disease or Syndrome
+T33	CHEM 508 526	extractos fúngicos
+T34	CHEM 564 572	extracto
+#29	AnnotatorNotes T34	C2752151; Homeopathic Extract Dosage Form; Biomedical or Dental Material
+T35	DISO 654 672	enfermos alérgicos
+T36	CHEM 754 762	extracto
+#30	AnnotatorNotes T36	C2752151; Homeopathic Extract Dosage Form; Biomedical or Dental Material
+T37	CHEM 1074 1082	extracto
+#31	AnnotatorNotes T37	C2752151; Homeopathic Extract Dosage Form; Biomedical or Dental Material
+T38	ANAT 1381 1393	respiratoria
+#32	AnnotatorNotes T38	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T39	DISO 1672 1693	reacciones sistémicas
+#33	AnnotatorNotes T39	C1736167; Systemic allergic reaction; Pathologic Function
+T40	DISO 1738 1748	reacciones
+#34	AnnotatorNotes T40	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T41	LIVB 29 35	hongos
+#35	AnnotatorNotes T41	C0016832; Fungi; Fungus
+T42	LIVB 199 205	hongos
+#36	AnnotatorNotes T42	C0016832; Fungi; Fungus
+T43	LIVB 297 314	género Alternaria
+#37	AnnotatorNotes T43	C0002343; Alternaria (fungus); Fungus
+T45	LIVB 675 685	Alternaria
+#38	AnnotatorNotes T45	C0002343; Alternaria (fungus); Fungus
+T46	Dose 723 744	dosis máxima tolerada
+#39	AnnotatorNotes T46	C0752079; Maximum Tolerated Dose; Quantitative Concept
+T47	Dose 857 866	0,1 mg/ml
+T48	LIVB 1157 1166	pacientes
+#40	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	LIVB 1202 1212	Alternaria
+#41	AnnotatorNotes T49	C0002343; Alternaria (fungus); Fungus
+T50	LIVB 1224 1233	pacientes
+#42	AnnotatorNotes T50	C0030705; Patients; Patient or Disabled Group
+T51	LIVB 1420 1428	paciente
+#43	AnnotatorNotes T51	C0030705; Patients; Patient or Disabled Group
+T53	ANAT 80 92	respiratoria
+#44	AnnotatorNotes T53	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T54	ANAT 249 261	respiratoria
+#45	AnnotatorNotes T54	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T44	Dose 1289 1297	1670 UBE
+T55	PHYS 1373 1393	función respiratoria
+#46	AnnotatorNotes T55	C0035203; Respiration; Physiologic Function
+T56	LIVB 1435 1441	médico
+#47	AnnotatorNotes T56	C0031831; Physicians; Professional or Occupational Group
+T57	PHYS 1475 1497	respuesta inmunológica
+#48	AnnotatorNotes T57	C0020964; Immune response; Organ or Tissue Function
+T52	CHEM 870 877	Alt a 1
+#49	AnnotatorNotes T52	C1259072; ALTB1 protein, Alternaria brassicicola; Amino Acid, Peptide, or Protein · Immunologic Factor
+R1	Causes Arg1:T41 Arg2:T2	
+R2	Location_of Arg1:T53 Arg2:T4	
+#50	AnnotatorNotes T4	C3825727; Respiratory allergies; Pathologic Function
+R3	Causes Arg1:T42 Arg2:T8	
+R4	Location_of Arg1:T54 Arg2:T8	
+R5	Causes Arg1:T43 Arg2:T8	
+R6	Used_for Arg1:T33 Arg2:T13	
+T58	Quantifier_or_Qualifier 583 611	estandarizado biológicamente
+R7	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T58	
+R8	Causes Arg1:T45 Arg2:T35	
+R9	Has_Dose_or_Strength Arg1:T36 Arg2:T46	
+R10	Used_for Arg1:T36 Arg2:T17	
+R11	Has_Drug_Form Arg1:T36 Arg2:T18	
+R12	Used_for Arg1:T52 Arg2:T19	
+R13	Has_Dose_or_Strength Arg1:T52 Arg2:T47	
+R14	Used_for Arg1:T37 Arg2:T22	
+R15	Used_for Arg1:T37 Arg2:T23	
+R16	Experiences Arg1:T48 Arg2:T23	
+R17	Experiences Arg1:T48 Arg2:T22	
+R18	Experiences Arg1:T48 Arg2:T24	
+R19	Experiences Arg1:T48 Arg2:T25	
+R20	Causes Arg1:T49 Arg2:T25	
+#51	AnnotatorNotes T25	C0155877; Allergic asthma; Disease or Syndrome
+T59	CONC 1248 1253	dosis
+#52	AnnotatorNotes T59	C0178602; Dosage; Quantitative Concept
+T60	CONC 909 914	dosis
+#53	AnnotatorNotes T60	C0178602; Dosage; Quantitative Concept
+T61	Quantifier_or_Qualifier 915 931	de mantenimiento
+R21	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T61	
+T62	CONC 1119 1124	dosis
+#54	AnnotatorNotes T62	C0178602; Dosage; Quantitative Concept
+T63	Quantifier_or_Qualifier 1125 1141	de mantenimiento
+R22	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T63	
+T64	Quantifier_or_Qualifier 1269 1285	de mantenimiento
+R23	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T64	
+R24	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T44	
+T65	Observation 1348 1355	mejoría
+#55	AnnotatorNotes T65	C0184511; Improved; Finding (?)
+R25	Causes Arg1:T26 Arg2:T65	
+R26	Location_of Arg1:T38 Arg2:T55	
+R27	Experiences Arg1:T51 Arg2:T28	
+R28	Experiences Arg1:T51 Arg2:T26	
+R29	Experiences Arg1:T51 Arg2:T65	
+R30	Experiences Arg1:T51 Arg2:T27	
+R31	Experiences Arg1:T51 Arg2:T55	
+R32	Experiences Arg1:T51 Arg2:T9	
+T66	CONC 1444 1470	severidad de la enfermedad
+#56	AnnotatorNotes T66	C0521117; Severity of illness; Qualitative Concept | C5441637; Disease Severity; Qualitative Concept
+T67	Observation 1532 1549	aumento de la IgG
+#57	AnnotatorNotes T67	C0239988; Raised IgG; Finding
+T68	Observation 1555 1573	descenso de la IgE
+#58	AnnotatorNotes T68	C0860904; Decreased IgE; Finding
+R33	Overlap Arg1:T57 Arg2:T67	
+R34	Overlap Arg1:T57 Arg2:T68	
+T69	Observation 1601 1627	tolerancia del tratamiento
+T70	Quantifier_or_Qualifier 1694 1699	leves
+#60	AnnotatorNotes T70	C2945599; Mild (qualifier value); Qualitative Concept
+R35	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T70	
+R36	Causes Arg1:T31 Arg2:T39	
+R37	Causes Arg1:T31 Arg2:T40	
+R38	Overlap Arg1:T69 Arg2:T31	
+#59	AnnotatorNotes T35	C1527304; Allergic Reaction; Pathologic Function (?)
+T71	Quantifier_or_Qualifier 1322 1328	eficaz
+#61	AnnotatorNotes T71	C1704419; Effective; Qualitative Concept
+R39	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T71	
+R40	Before Arg1:T27 Arg2:T65	
+R41	Causes Arg1:T9 Arg2:T27	
+#62	AnnotatorNotes T61	C0587894; Maintenance - action; Functional Concept (?)
+#63	AnnotatorNotes T64	C0587894; Maintenance - action; Functional Concept (?)
+#64	AnnotatorNotes T63	C0587894; Maintenance - action; Functional Concept (?)
+A1	Experiencer T48 Patient
+A2	Experiencer T50 Patient
+A3	Experiencer T51 Patient
+A4	Experiencer T56 Other
+R42	Has_Result_or_Value Arg1:T29 Arg2:T67	
+R43	Has_Result_or_Value Arg1:T30 Arg2:T68	

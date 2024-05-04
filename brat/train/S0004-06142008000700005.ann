@@ -1,0 +1,130 @@
+T1	PROC 0 19	Estudio randomizado
+#1	AnnotatorNotes T1	C0206034; Clinical Trials, Randomized; Research Activity
+T2	ANAT 38 46	urinaria
+#2	AnnotatorNotes T2	C0042036; Urine; Body Substance
+T3	DISO 132 154	incontinencia urinaria
+#3	AnnotatorNotes T3	C0042024; Urinary Incontinence; Pathologic Function
+T4	PROC 78 110	rehabilitación perineal kinésica
+T5	ANAT 1214 1224	perineales
+#4	AnnotatorNotes T5	C0031066; Anogenital region; Body Location or Region
+T6	DISO 181 195	complicaciones
+#5	AnnotatorNotes T6	C0009566; Complication; Pathologic Function
+T7	PROC 223 245	prostatectomía radical
+#6	AnnotatorNotes T7	C0194810; Radical prostatectomy; Therapeutic or Preventive Procedure
+T8	PROC 255 278	rehabilitación kinésica
+T9	PROC 322 344	tratamiento preventivo
+#7	AnnotatorNotes T9	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T10	DISO 353 365	complicación
+#8	AnnotatorNotes T10	C0009566; Complication; Pathologic Function
+T11	ANAT 408 416	perineal
+#9	AnnotatorNotes T11	C0031066; Anogenital region; Body Location or Region
+T12	PROC 395 416	kinesiología perineal
+T13	ANAT 475 483	urinaria
+#10	AnnotatorNotes T13	C0042036; Urine; Body Substance
+T14	PROC 489 511	prostatectomía radical
+#11	AnnotatorNotes T14	C0194810; Radical prostatectomy; Therapeutic or Preventive Procedure
+T15	PROC 1193 1224	ejercicios kinésicos perineales
+T16	PROC 687 707	tratamiento kinésico
+T17	PROC 840 859	extracción de sonda
+T18	DISO 924 931	tumoral
+#12	AnnotatorNotes T18	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T19	PROC 1238 1260	prostatectomía radical
+#13	AnnotatorNotes T19	C0194810; Radical prostatectomy; Therapeutic or Preventive Procedure
+T20	ANAT 1324 1332	urinaria
+#14	AnnotatorNotes T20	C0042036; Urine; Body Substance
+T21	ANAT 93 101	perineal
+#15	AnnotatorNotes T21	C0031066; Anogenital region; Body Location or Region
+T22	ANAT 146 154	urinaria
+#16	AnnotatorNotes T22	C0042036; Urine; Body Substance
+T23	PROC 247 249	PR
+#17	AnnotatorNotes T23	C0194810; Radical prostatectomy; Therapeutic or Preventive Procedure
+T24	PROC 523 573	Ensayo Clínico Controlado Randomizado Aleatorizado
+#18	AnnotatorNotes T24	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T25	PROC 655 657	PR
+#19	AnnotatorNotes T25	C0194810; Radical prostatectomy; Therapeutic or Preventive Procedure
+T26	ANAT 806 811	orina
+#20	AnnotatorNotes T26	C0042036; Urine; Body Substance
+T27	PHYS 26 46	continencia urinaria
+#21	AnnotatorNotes T27	C0542565; Bladder control, function; Organism Function
+T28	Date 279 292	preoperatoria
+#22	AnnotatorNotes T28	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T29	Date 417 430	preoperatoria
+#23	AnnotatorNotes T29	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T30	PHYS 463 483	continencia urinaria
+#24	AnnotatorNotes T30	C0542565; Bladder control, function; Organism Function
+T31	LIVB 578 587	pacientes
+#25	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
+T32	Date 708 721	preoperatorio
+#26	AnnotatorNotes T32	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T33	LIVB 762 775	grupo control
+#27	AnnotatorNotes T33	C0009932; Control Groups; Group
+T34	PHYS 791 811	continencia de orina
+#28	AnnotatorNotes T34	C0542565; Bladder control, function; Organism Function
+T36	Duration 814 834	los 14, 30 y 60 días
+T39	LIVB 963 972	pacientes
+#29	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Duration 1002 1022	los 14, 30 y 60 días
+T42	PHYS 1312 1332	continencia urinaria
+#30	AnnotatorNotes T42	C0542565; Bladder control, function; Organism Function
+T44	PHYS 437 449	recuperación
+#31	AnnotatorNotes T44	C2004454; Recovery - healing process; Organism Function
+T45	PHYS 1293 1305	recuperación
+#32	AnnotatorNotes T45	C2004454; Recovery - healing process; Organism Function
+T46	Date 47 65	postprostatectomía
+T35	DEVI 854 859	sonda
+#33	AnnotatorNotes T35	C0182400; Probe; Medical Device
+T37	CONC 1265 1277	disminuyeron
+A1	Assertion T37 Negated
+#34	AnnotatorNotes T37	C0547047; Decrease; Quantitative Concept
+T38	Neg_cue 1262 1264	no
+R1	Negation Arg1:T38 Arg2:T37	
+T41	CONC 882 893	diferencias
+A2	Assertion T41 Negated
+#35	AnnotatorNotes T41	C1705241; Delta (difference); Quantitative Concept
+T43	Neg_cue 874 876	No
+R2	Negation Arg1:T43 Arg2:T41	
+T47	Spec_cue 294 300	podría
+A3	Assertion T9 Speculated
+R4	Overlap Arg1:T27 Arg2:T46	
+T48	Quantifier_or_Qualifier 66 73	radical
+#36	AnnotatorNotes T48	C0439807; Radical (qualifier value); Qualitative Concept
+R5	Location_of Arg1:T21 Arg2:T4	
+A4	Status T4 History_of
+R8	After Arg1:T3 Arg2:T7	
+R9	After Arg1:T3 Arg2:T23	
+R10	After Arg1:T6 Arg2:T7	
+R11	After Arg1:T6 Arg2:T23	
+R12	Overlap Arg1:T8 Arg2:T28	
+R13	Speculation Arg1:T47 Arg2:T9	
+R14	Before Arg1:T8 Arg2:T10	
+R15	Before Arg1:T9 Arg2:T10	
+R16	Location_of Arg1:T11 Arg2:T12	
+R17	Overlap Arg1:T12 Arg2:T29	
+R18	Causes Arg1:T12 Arg2:T44	
+T49	Quantifier_or_Qualifier 450 456	precoz
+#37	AnnotatorNotes T49	C1279930; Precocious; Temporal Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T49	
+R3	After Arg1:T44 Arg2:T14	
+R7	After Arg1:T30 Arg2:T14	
+R20	Before Arg1:T12 Arg2:T14	
+R21	Experiences Arg1:T31 Arg2:T25	
+R22	Overlap Arg1:T16 Arg2:T32	
+R23	Overlap Arg1:T34 Arg2:T36	
+R24	Used_for Arg1:T35 Arg2:T17	
+T50	PROC 778 811	Se evaluó la continencia de orina
+#38	AnnotatorNotes T50	C0429959; Bladder continence assessment; Health Care Activity (?)
+R25	Overlap Arg1:T50 Arg2:T36	
+R26	After Arg1:T50 Arg2:T17	
+T51	PROC 915 931	biología tumoral
+#39	AnnotatorNotes T51	C1519672; Tumor Biology; Research Activity
+T52	PHYS 973 984	continentes
+#40	AnnotatorNotes T52	C0542565; Bladder control, function; Organism Function
+R28	Experiences Arg1:T39 Arg2:T52	
+R29	Overlap Arg1:T52 Arg2:T40	
+R30	Location_of Arg1:T5 Arg2:T15	
+R31	Before Arg1:T15 Arg2:T19	
+T53	CONC 1282 1305	tiempos de recuperación
+R32	Before Arg1:T19 Arg2:T45	
+A5	Experiencer T39 Patient
+A6	Experiencer T31 Patient
+A7	Experiencer T33 Patient

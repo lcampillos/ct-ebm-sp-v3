@@ -1,0 +1,165 @@
+T1	PROC 46 60	ENSAYO CLÍNICO
+#1	AnnotatorNotes T1	C0008976; Clinical Trials; Research Activity
+T2	PROC 958 963	satO2
+#2	AnnotatorNotes T2	C0523807; Oxygen saturation measurement; Laboratory Procedure
+T3	CHEM 84 101	METILPREDNISOLONA
+#3	AnnotatorNotes T3	C0025815; methylprednisolone; Hormone · Organic Chemical · Pharmacologic Substance
+T4	CHEM 104 114	TACROLIMUS
+#4	AnnotatorNotes T4	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T5	PROC 128 142	HOSPITALIZADOS
+#5	AnnotatorNotes T5	C0019993; Hospitalization; Health Care Activity
+T6	PROC 217 315	ENSAYO CLÍNICO DE FASE II, PRAGMÁTICO, CON ASIGNACIÓN ALEATORIA, CONTROLADO, ABIERTO Y UNICÉNTRICO
+T7	DISO 749 773	Infiltrados radiológicos
+#6	AnnotatorNotes T7	C0277877; Radiologic infiltrate of lung; Finding
+T8	CHEM 339 356	METILPREDNISOLONA
+#7	AnnotatorNotes T8	C0025815; methylprednisolone; Hormone · Organic Chemical · Pharmacologic Substance
+T9	CHEM 359 369	TACROLIMUS
+#8	AnnotatorNotes T9	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T10	PROC 383 397	HOSPITALIZADOS
+#9	AnnotatorNotes T10	C0019993; Hospitalization; Health Care Activity
+T11	PROC 518 532	hospitalizados
+#10	AnnotatorNotes T11	C0019993; Hospitalization; Health Care Activity
+T12	DISO 537 573	neumonía grave secundaria a COVID-19
+T13	PROC 612 622	ingresados
+#11	AnnotatorNotes T13	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T14	DISO 637 659	infección por COVID-19
+#12	AnnotatorNotes T14	C5203670; COVID19 (disease); Disease or Syndrome
+T15	DISO 473 481	COVID-19
+#13	AnnotatorNotes T15	C5203670; COVID19 (disease); Disease or Syndrome
+T16	PROC 692 698	RT-PCR
+#14	AnnotatorNotes T16	C0599161; Reverse Transcriptase Polymerase Chain Reaction; Molecular Biology Research Technique
+T17	DISO 898 906	COVID-19
+#15	AnnotatorNotes T17	C5203670; COVID19 (disease); Disease or Syndrome
+T18	PROC 803 830	radiografía simple de tórax
+T19	ANAT 825 830	tórax
+#16	AnnotatorNotes T19	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T20	PROC 832 862	tomografía axial computarizada
+#17	AnnotatorNotes T20	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T21	PROC 865 883	ecografía de tórax
+T22	DISO 912 938	Insuficiencia respiratoria
+#18	AnnotatorNotes T22	C0035229; Respiratory Insufficiency; Pathologic Function | C1145670; Respiratory Failure; Disease or Syndrome
+T23	PROC 995 998	PCR
+#19	AnnotatorNotes T23	C0032520; Polymerase Chain Reaction; Molecular Biology Research Technique
+T24	PROC 964 968	FiO2
+#20	AnnotatorNotes T24	C1512797; Inspired Oxygen Fraction Test; Diagnostic Procedure
+T25	PROC 1241 1265	consentimiento informado
+#21	AnnotatorNotes T25	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T26	CHEM 1380 1390	tacrolimus
+#22	AnnotatorNotes T26	C0085149; tacrolimus; Organic Chemical · Pharmacologic Substance
+T27	DISO 1432 1451	Reacciones adversas
+#23	AnnotatorNotes T27	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
+T28	PROC 1465 1476	tratamiento
+#24	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	PROC 1505 1519	ensayo clínico
+#25	AnnotatorNotes T29	C0008976; Clinical Trials; Research Activity
+T30	PROC 940 949	PaO2/FiO2
+#26	AnnotatorNotes T30	C3897988; Partial Pressure Arterial Oxygen to Fraction Inspired Oxygen Ratio Measurement; Laboratory Procedure
+T31	ANAT 878 883	tórax
+#27	AnnotatorNotes T31	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+T32	PROC 1014 1022	D-Dimero
+#28	AnnotatorNotes T32	C2826333; D-Dimer Measurement; Laboratory Procedure
+T33	PROC 1039 1048	Ferritina
+#29	AnnotatorNotes T33	C0373607; Ferritin measurement; Laboratory Procedure
+T34	DISO 1296 1302	Muerte
+#30	AnnotatorNotes T34	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T35	DISO 147 183	NEUMONIA GRAVE SECUNDARIA A COVID-19
+T36	DISO 402 438	NEUMONIA GRAVE SECUNDARIA A COVID-19
+T37	Date 13 17	2020
+T38	Route 74 80	PULSOS
+#31	AnnotatorNotes T38	C0391850; Physiologic pulse; Physiologic Function
+T39	LIVB 118 127	PACIENTES
+#32	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	Route 329 335	PULSOS
+#33	AnnotatorNotes T40	C0391850; Physiologic pulse; Physiologic Function
+T41	LIVB 373 382	PACIENTES
+#34	AnnotatorNotes T41	C0030705; Patients; Patient or Disabled Group
+T42	LIVB 508 517	Pacientes
+#35	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 602 611	Pacientes
+#36	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T46	Age 1085 1094	≥ 18 años
+T47	LIVB 1103 1109	sujeto
+#37	AnnotatorNotes T47	C0681850; Study Subject; Group
+T48	LIVB 1114 1133	representante legal
+#38	AnnotatorNotes T48	C4288823; Legal Representative for the Study; Human
+T49	LIVB 1136 1144	familiar
+#39	AnnotatorNotes T49	C0080103; Relative (related person); Family Group
+T50	DISO 1169 1180	incapacidad
+#40	AnnotatorNotes T50	C0231172; handicapping condition; Finding
+T51	LIVB 1185 1191	sujeto
+#41	AnnotatorNotes T51	C0681850; Study Subject; Group
+T52	Duration 1334 1341	≤ a 24h
+T53	Duration 1520 1539	los últimos 3 meses
+T54	ANAT 926 938	respiratoria
+#42	AnnotatorNotes T54	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+A1	Assertion T26 Contraindicated
+A2	Status T29 History_of
+A3	Status T27 History_of
+#43	AnnotatorNotes T18	C0039985; Plain chest X-ray; Diagnostic Procedure 
+#44	AnnotatorNotes T21	C0841659; Other radiography of chest; Diagnostic Procedure 
+T44	Observation 1296 1312	Muerte inminente
+#45	AnnotatorNotes T44	C2363727; Death imminent; Finding
+T45	CONC 1314 1333	expectativa de vida
+#46	AnnotatorNotes T45	C0023671; Life Expectancy; Group Attribute
+R1	Has_Duration_or_Interval Arg1:T45 Arg2:T52	
+R2	Causes Arg1:T28 Arg2:T27	
+R3	Has_Duration_or_Interval Arg1:T29 Arg2:T53	
+T55	Observation 1481 1519	Haber participado en un ensayo clínico
+A4	Status T55 History_of
+#47	AnnotatorNotes T55	C1278516; Patient participation status; Finding (?)
+R4	Has_Duration_or_Interval Arg1:T55 Arg2:T53	
+R5	Location_of Arg1:T54 Arg2:T22	
+T56	Result_or_Value 950 955	< 300
+R6	Has_Result_or_Value Arg1:T30 Arg2:T56	
+T57	Result_or_Value 969 974	< 220
+R7	Location_of Arg1:T19 Arg2:T18	
+R8	Has_Result_or_Value Arg1:T24 Arg2:T57	
+R9	Has_Result_or_Value Arg1:T2 Arg2:T57	
+R11	Experiences Arg1:T43 Arg2:T13	
+R12	Experiences Arg1:T43 Arg2:T14	
+T58	Observation 774 792	de nueva aparición
+#48	AnnotatorNotes T58	C0746890; new onset; Finding 
+R13	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T58	
+R14	Experiences Arg1:T42 Arg2:T11	
+R15	Experiences Arg1:T42 Arg2:T12	
+R16	Experiences Arg1:T39 Arg2:T3	
+R17	Experiences Arg1:T39 Arg2:T4	
+R18	Experiences Arg1:T39 Arg2:T5	
+R19	Experiences Arg1:T39 Arg2:T35	
+R21	Has_Route_or_Mode Arg1:T3 Arg2:T38	
+R22	Has_Route_or_Mode Arg1:T4 Arg2:T38	
+R28	Location_of Arg1:T31 Arg2:T21	
+R29	Overlap Arg1:T7 Arg2:T17	
+T59	Result_or_Value 999 1009	> 100 mg/L
+R30	Has_Result_or_Value Arg1:T23 Arg2:T59	
+T60	Result_or_Value 1023 1034	> 1000 μg/L
+R31	Has_Result_or_Value Arg1:T32 Arg2:T60	
+T61	Result_or_Value 1049 1060	> 1000 ug/L
+R32	Has_Result_or_Value Arg1:T33 Arg2:T61	
+R33	Experiences Arg1:T51 Arg2:T50	
+T62	Observation 1196 1228	gravedad de la situación clínica
+R34	Experiences Arg1:T51 Arg2:T62	
+R35	Causes Arg1:T62 Arg2:T50	
+R36	Experiences Arg1:T47 Arg2:T50	
+R37	Experiences Arg1:T47 Arg2:T62	
+R38	Experiences Arg1:T41 Arg2:T8	
+R39	Experiences Arg1:T41 Arg2:T9	
+R40	Has_Route_or_Mode Arg1:T8 Arg2:T40	
+R41	Has_Route_or_Mode Arg1:T9 Arg2:T40	
+R42	Experiences Arg1:T41 Arg2:T10	
+R44	Experiences Arg1:T41 Arg2:T36	
+#49	AnnotatorNotes T35	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome (?)
+#50	AnnotatorNotes T36	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome (?)
+#51	AnnotatorNotes T12	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome (?)
+R20	Experiences Arg1:T43 Arg2:T16	
+A5	Experiencer T39 Patient
+A6	Experiencer T41 Patient
+A7	Experiencer T42 Patient
+A8	Experiencer T43 Patient
+A9	Experiencer T47 Patient
+A10	Experiencer T48 Other
+A11	Experiencer T49 Family_member
+A12	Experiencer T51 Patient
+A13	Assertion T50 Hypothetical
+A14	Assertion T62 Hypothetical
+A15	Status T34 Future

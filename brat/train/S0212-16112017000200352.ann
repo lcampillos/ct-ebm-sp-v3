@@ -1,0 +1,141 @@
+T1	CHEM 16 30	aceite de coco
+#1	AnnotatorNotes T1	C0056060; coconut oil; Organic Chemical · Food · Pharmacologic Substance
+T2	DISO 136 162	demencia neurodegenerativa
+T3	DISO 46 55	alzhéimer
+#2	AnnotatorNotes T3	C0002395; Alzheimer's Disease; Disease or Syndrome
+T4	DISO 93 116	enfermedad de Alzheimer
+#3	AnnotatorNotes T4	C0002395; Alzheimer's Disease; Disease or Syndrome
+T5	DISO 1615 1624	alzhéimer
+#4	AnnotatorNotes T5	C0002395; Alzheimer's Disease; Disease or Syndrome
+T6	PROC 237 262	tratamiento farmacológico
+#5	AnnotatorNotes T6	C0013216; Pharmacotherapy; Therapeutic or Preventive Procedure
+T7	DISO 275 285	enfermedad
+#6	AnnotatorNotes T7	C0012634; Disease; Disease or Syndrome
+T8	PROC 315 357	estrategias terapéuticas no farmacológicas
+T9	CHEM 450 464	aceite de coco
+#7	AnnotatorNotes T9	C0056060; coconut oil; Organic Chemical · Food · Pharmacologic Substance
+T10	ANAT 527 535	neuronal
+#8	AnnotatorNotes T10	C0027882; Neurons; Cell
+T11	DISO 578 588	enfermedad
+#9	AnnotatorNotes T11	C0012634; Disease; Disease or Syndrome
+T12	CHEM 626 640	aceite de coco
+#10	AnnotatorNotes T12	C0056060; coconut oil; Organic Chemical · Food · Pharmacologic Substance
+T13	DISO 675 684	alzhéimer
+#11	AnnotatorNotes T13	C0002395; Alzheimer's Disease; Disease or Syndrome
+T14	PROC 808 880	estudio prospectivo, longitudinal, cualitativo, analítico y experimental
+T15	PROC 896 910	ensayo clínico
+#12	AnnotatorNotes T15	C0008976; Clinical Trials; Research Activity
+T16	DISO 954 963	alzhéimer
+#13	AnnotatorNotes T16	C0002395; Alzheimer's Disease; Disease or Syndrome
+T17	CHEM 1088 1102	aceite de coco
+#14	AnnotatorNotes T17	C0056060; coconut oil; Organic Chemical · Food · Pharmacologic Substance
+T18	CHEM 1196 1202	aceite
+#15	AnnotatorNotes T18	C0028908; Oils; Organic Chemical
+T19	PROC 1231 1270	test cognitivo Mini-Examen Cognoscitivo
+#16	AnnotatorNotes T19	C0451306; Mini-mental state examination; Diagnostic Procedure
+T20	CHEM 1355 1369	aceite de coco
+#17	AnnotatorNotes T20	C0056060; coconut oil; Organic Chemical · Food · Pharmacologic Substance
+T21	PROC 1420 1432	intervención
+#18	AnnotatorNotes T21	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T22	CHEM 1543 1557	aceite de coco
+#19	AnnotatorNotes T22	C0056060; coconut oil; Organic Chemical · Food · Pharmacologic Substance
+T23	DISO 1603 1611	enfermos
+#20	AnnotatorNotes T23	C0012634; Disease; Disease or Syndrome
+T24	DISO 34 42	enfermos
+#21	AnnotatorNotes T24	C0012634; Disease; Disease or Syndrome
+T25	PROC 369 397	administración de nutrientes
+T26	DISO 520 535	muerte neuronal
+#22	AnnotatorNotes T26	C2754100; neuron death; Cell Function
+T27	PROC 1177 1191	administración
+#23	AnnotatorNotes T27	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T28	DISO 1331 1339	enfermos
+#24	AnnotatorNotes T28	C0012634; Disease; Disease or Syndrome
+T31	Date 120 132	a día de hoy
+T36	LIVB 662 671	pacientes
+#25	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	PHYS 718 729	orientación
+#26	AnnotatorNotes T37	C0029266; Mental Orientation; Mental Process
+T38	PHYS 754 762	fijación
+T39	PHYS 788 795	memoria
+#27	AnnotatorNotes T39	C0025260; Memory; Mental Process
+T40	LIVB 940 949	pacientes
+#28	AnnotatorNotes T40	C0030705; Patients; Patient or Disabled Group
+T42	Duration 1062 1069	21 días
+T43	Dose 1071 1076	40 ml
+T44	Frequency 1077 1084	diarios
+T45	Dose 1130 1135	20 ml
+T47	Dose 1147 1152	20 ml
+T50	PHYS 1488 1499	orientación
+#29	AnnotatorNotes T50	C0029266; Mental Orientation; Mental Process
+T51	PHYS 1576 1595	capacidad cognitiva
+#30	AnnotatorNotes T51	C0009240; Cognition; Mental Process
+T29	Neg_cue 228 236	falta de
+T30	PHYS 1502 1523	lenguaje-construcción
+#31	AnnotatorNotes T30	C1145677; language ability; Mental Process
+T32	PHYS 731 752	lenguaje-construcción
+#32	AnnotatorNotes T32	C1145677; language ability; Mental Process
+T33	PHYS 772 785	concentración
+#33	AnnotatorNotes T33	C0086045; Mental concentration; Mental Process
+T34	PHYS 764 771	cálculo
+#34	AnnotatorNotes T34	C2370911; Calculation functions, other specified; Mental Process
+T35	Time 1120 1128	desayuno
+#35	AnnotatorNotes T35	C4553621; With breakfast; Temporal Concept
+T41	Time 1139 1145	comida
+#36	AnnotatorNotes T41	C0585039; Lunch time; Temporal Concept
+A1	Assertion T6 Negated
+R1	Overlap Arg1:T4 Arg2:T31	
+R2	Overlap Arg1:T2 Arg2:T31	
+R3	Negation Arg1:T29 Arg2:T6	
+T46	Neg_cue 340 342	no
+T48	Quantifier_or_Qualifier 343 357	farmacológicas
+A2	Assertion T48 Negated
+R4	Negation Arg1:T46 Arg2:T48	
+R5	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T48	
+R6	Location_of Arg1:T10 Arg2:T26	
+R7	Overlap Arg1:T26 Arg2:T11	
+R8	Experiences Arg1:T36 Arg2:T12	
+R9	Experiences Arg1:T36 Arg2:T13	
+R10	Experiences Arg1:T36 Arg2:T37	
+R11	Experiences Arg1:T36 Arg2:T32	
+R12	Experiences Arg1:T36 Arg2:T38	
+R13	Experiences Arg1:T36 Arg2:T34	
+R14	Experiences Arg1:T36 Arg2:T33	
+R15	Experiences Arg1:T36 Arg2:T39	
+R16	Experiences Arg1:T40 Arg2:T16	
+R17	Has_Duration_or_Interval Arg1:T17 Arg2:T42	
+R18	Has_Frequency Arg1:T17 Arg2:T44	
+R19	Has_Dose_or_Strength Arg1:T17 Arg2:T43	
+R20	Overlap Arg1:T17 Arg2:T35	
+R21	Overlap Arg1:T17 Arg2:T41	
+R22	Has_Dose_or_Strength Arg1:T17 Arg2:T45	
+R23	Has_Dose_or_Strength Arg1:T17 Arg2:T47	
+R24	Used_for Arg1:T18 Arg2:T27	
+R25	After Arg1:T19 Arg2:T27	
+R26	Before Arg1:T19 Arg2:T27	
+T49	Observation 1385 1401	mejora cognitiva
+R27	After Arg1:T49 Arg2:T21	
+R28	Used_for Arg1:T20 Arg2:T21	
+T52	Observation 1565 1595	mejorar la capacidad cognitiva
+A3	Assertion T52 Speculated
+T53	Spec_cue 1558 1564	parece
+R29	Speculation Arg1:T53 Arg2:T52	
+R30	Before Arg1:T22 Arg2:T52	
+T54	CHEM 387 397	nutrientes
+#37	AnnotatorNotes T54	C0678695; Nutrients; Food
+R31	Used_for Arg1:T54 Arg2:T25	
+R33	Experiences Arg1:T40 Arg2:T17	
+T56	Spec_cue 427 434	posible
+T57	CONC 435 445	influencia
+A4	Assertion T57 Speculated
+#38	AnnotatorNotes T57	C4054723; Influence; Conceptual Entity
+R34	Speculation Arg1:T56 Arg2:T57	
+T58	Spec_cue 1292 1300	posibles
+T59	CONC 1301 1308	cambios
+A5	Assertion T59 Speculated
+#39	AnnotatorNotes T59	C0392747; Changing; Functional Concept | C0443172; Changed status; Quantitative Concept
+R35	Speculation Arg1:T58 Arg2:T59	
+R36	Before Arg1:T27 Arg2:T59	
+R32	Before Arg1:T20 Arg2:T49	
+#40	AnnotatorNotes T48	C0205464; pharmacological; Functional Concept
+A6	Experiencer T36 Patient
+A7	Experiencer T40 Patient

@@ -1,0 +1,61 @@
+T1	PROC 46 71	Estudio electromiográfico
+T2	CHEM 116 121	Botox
+#1	AnnotatorNotes T2	C0700702; Botox; Organic Chemical · Pharmacologic Substance
+T3	PROC 128 139	tratamiento
+#2	AnnotatorNotes T3	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T4	DISO 144 157	dolor crónico
+#3	AnnotatorNotes T4	C0150055; Chronic pain; Sign or Symptom
+T5	ANAT 161 174	suelo pélvico
+#4	AnnotatorNotes T5	C0206248; Pelvic Diaphragm; Body Part, Organ, or Organ Component
+T6	ANAT 215 228	suelo pélvico
+#5	AnnotatorNotes T6	C0206248; Pelvic Diaphragm; Body Part, Organ, or Organ Component
+T7	PROC 265 279	diagnosticadas
+#6	AnnotatorNotes T7	C0011900; Diagnosis; Diagnostic Procedure
+T8	DISO 284 297	dolor crónico
+#7	AnnotatorNotes T8	C0150055; Chronic pain; Sign or Symptom
+T9	ANAT 301 314	suelo pélvico
+#8	AnnotatorNotes T9	C0206248; Pelvic Diaphragm; Body Part, Organ, or Organ Component
+T10	PROC 98 112	administración
+#9	AnnotatorNotes T10	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T11	DISO 198 211	Dolor crónico
+#10	AnnotatorNotes T11	C0150055; Chronic pain; Sign or Symptom
+T12	PROC 347 361	administración
+#11	AnnotatorNotes T12	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T13	PROC 443 457	administración
+#12	AnnotatorNotes T13	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T14	CHEM 365 370	BoNTA
+#13	AnnotatorNotes T14	C0006050; botulinum toxin type A; Amino Acid, Peptide, or Protein · Hazardous or Poisonous Substance · Pharmacologic Substance
+T15	CHEM 461 466	BoNTA
+#14	AnnotatorNotes T15	C0006050; botulinum toxin type A; Amino Acid, Peptide, or Protein · Hazardous or Poisonous Substance · Pharmacologic Substance
+T16	Date 13 17	2017
+T17	Duration 150 157	crónico
+#15	AnnotatorNotes T17	C0205191; chronic; Temporal Concept
+T18	Duration 204 211	crónico
+#16	AnnotatorNotes T18	C0205191; chronic; Temporal Concept
+T19	LIVB 255 264	Pacientes
+#17	AnnotatorNotes T19	C0030705; Patients; Patient or Disabled Group
+T20	Duration 290 297	crónico
+#18	AnnotatorNotes T20	C0205191; chronic; Temporal Concept
+T21	Age 400 413	Menor de edad
+A3	Assertion T13 Contraindicated
+A4	Assertion T15 Contraindicated
+T22	Neg_cue 316 319	sin
+T23	CONC 320 338	contraindicaciones
+A1	Assertion T23 Negated
+#19	AnnotatorNotes T23	C0522473; Contraindication; Qualitative Concept
+R1	Location_of Arg1:T9 Arg2:T8	
+R2	Has_Duration_or_Interval Arg1:T8 Arg2:T20	
+R3	Has_Duration_or_Interval Arg1:T11 Arg2:T18	
+R4	Location_of Arg1:T6 Arg2:T11	
+R5	Has_Duration_or_Interval Arg1:T4 Arg2:T17	
+R6	Location_of Arg1:T5 Arg2:T4	
+R7	Used_for Arg1:T2 Arg2:T10	
+R8	Used_for Arg1:T2 Arg2:T3	
+R9	Experiences Arg1:T19 Arg2:T8	
+R10	Experiences Arg1:T19 Arg2:T12	
+R11	Used_for Arg1:T14 Arg2:T12	
+R12	Negation Arg1:T22 Arg2:T23	
+R13	Before Arg1:T23 Arg2:T12	
+R14	Used_for Arg1:T15 Arg2:T13	
+#20	AnnotatorNotes T1	C0846763; Electromyographic analysis; Diagnostic Procedure
+A2	Experiencer T19 Patient

@@ -1,0 +1,165 @@
+T1	PROC 46 66	Nutrición parenteral
+T2	LIVB 108 118	prematuros
+#1	AnnotatorNotes T2	C4048294; Preterm Infant; Age Group
+T3	DISO 226 236	prematuros
+#2	AnnotatorNotes T3	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T4	PROC 420 443	alimentación parenteral
+#3	AnnotatorNotes T4	C0030547; Parenteral Nutrition; Therapeutic or Preventive Procedure | C0204706; Parenteral alimentation procedure; Therapeutic or Preventive Procedure | C1527385; Parenteral Feeding; Therapeutic or Preventive Procedure
+T5	DISO 500 510	prematuros
+#4	AnnotatorNotes T5	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T6	PROC 568 588	nutrición parenteral
+#5	AnnotatorNotes T6	C0030547; Parenteral Nutrition; Therapeutic or Preventive Procedure | C0204706; Parenteral alimentation procedure; Therapeutic or Preventive Procedure | C1527385; Parenteral Feeding; Therapeutic or Preventive Procedure
+T7	PROC 767 769	NP
+#6	AnnotatorNotes T7	C0030547; Parenteral Nutrition; Therapeutic or Preventive Procedure | C0204706; Parenteral alimentation procedure; Therapeutic or Preventive Procedure | C1527385; Parenteral Feeding; Therapeutic or Preventive Procedure
+T8	PROC 995 1009	consentimiento
+#7	AnnotatorNotes T8	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T9	PROC 891 893	NP
+#8	AnnotatorNotes T9	C0030547; Parenteral Nutrition; Therapeutic or Preventive Procedure | C0204706; Parenteral alimentation procedure; Therapeutic or Preventive Procedure | C1527385; Parenteral Feeding; Therapeutic or Preventive Procedure
+T10	DISO 896 942	trastornos genéticos, metabólicos o endocrinos
+T11	PROC 943 957	diagnosticados
+#9	AnnotatorNotes T11	C0011900; Diagnosis; Diagnostic Procedure
+T12	PROC 333 360	ensayo clínico aleatorizado
+#10	AnnotatorNotes T12	C0206034; Clinical Trials, Randomized; Research Activity
+T13	LIVB 401 415	recién nacidos
+#11	AnnotatorNotes T13	C0021289; Infant, Newborn; Age Group
+T14	PROC 706 730	Consentimiento informado
+#12	AnnotatorNotes T14	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T15	DISO 836 849	fallecimiento
+#13	AnnotatorNotes T15	C1306577; Death (finding); Finding | C1546956; Patient Outcome - Died; Finding
+T16	PROC 86 104	nutrición estándar
+T17	PROC 160 180	nutrición parenteral
+#14	AnnotatorNotes T17	C0030547; Parenteral Nutrition; Therapeutic or Preventive Procedure | C0204706; Parenteral alimentation procedure; Therapeutic or Preventive Procedure | C1527385; Parenteral Feeding; Therapeutic or Preventive Procedure
+T18	Date 13 17	2018
+T19	Route 56 66	parenteral
+#15	AnnotatorNotes T19	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T20	Route 170 180	parenteral
+#16	AnnotatorNotes T20	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T21	Duration 262 283	menos de 37+0 semanas
+T23	PHYS 386 397	Crecimiento
+#17	AnnotatorNotes T23	C0018270; Growth; Organism Function
+T25	Route 433 443	parenteral
+#18	AnnotatorNotes T25	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T28	PHYS 552 563	alimentados
+#19	AnnotatorNotes T28	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
+T29	Route 578 588	parenteral
+#20	AnnotatorNotes T29	C1518896; Parenteral Route of Drug Administration; Functional Concept
+T31	LIVB 738 750	progenitores
+#21	AnnotatorNotes T31	C0030551; parent; Family Group | C0870134; Ancestor; Family Group
+T33	Spec_cue 820 835	probabilidad de
+T35	Duration 853 863	los 7 días
+T36	PHYS 918 929	metabólicos
+#22	AnnotatorNotes T36	C0025519; Metabolism; Organism Function
+T37	Neg_cue 982 994	Retirada del
+T38	LIVB 1043 1049	padres
+#23	AnnotatorNotes T38	C0015671; Father (person); Family Group | C0030551; parent; Family Group
+T39	LIVB 1055 1074	representante legal
+#24	AnnotatorNotes T39	C4288823; Legal Representative for the Study; Human
+T40	PHYS 46 55	Nutrición
+#25	AnnotatorNotes T40	C1442959; Nutrition function; Organism Function
+T41	PHYS 86 95	nutrición
+#26	AnnotatorNotes T41	C1442959; Nutrition function; Organism Function
+T42	PHYS 160 169	nutrición
+#27	AnnotatorNotes T42	C1442959; Nutrition function; Organism Function
+T43	LIVB 211 236	recién nacidos prematuros
+#28	AnnotatorNotes T43	C4048294; Preterm Infant; Age Group
+T46	PHYS 420 432	alimentación
+#29	AnnotatorNotes T46	C1286346; Feeding observable; Organism Function
+T47	LIVB 485 510	recién nacidos prematuros
+#30	AnnotatorNotes T47	C4048294; Preterm Infant; Age Group
+T49	PHYS 568 577	nutrición
+#31	AnnotatorNotes T49	C1442959; Nutrition function; Organism Function
+T50	GENE 907 916	genéticos
+#32	AnnotatorNotes T50	C0017337; Genes; Gene or Genome
+T51	PHYS 932 942	endocrinos
+#33	AnnotatorNotes T51	C1286097; Endocrine observable; Organ or Tissue Function
+T22	Duration 665 682	inferior a 37 + 0
+T24	PHYS 247 258	gestacional
+#34	AnnotatorNotes T24	C0032961; Pregnancy; Organism Function
+T26	PHYS 653 664	gestacional
+#35	AnnotatorNotes T26	C0032961; Pregnancy; Organism Function
+T27	LIVB 692 703	ambos sexos
+#36	AnnotatorNotes T27	C0025266; Male population group; Population Group + C0043210; Woman; Population Group
+T30	PROC 648 664	edad gestacional
+#37	AnnotatorNotes T30	C4040272; Assessment of fetal gestational age; Health Care Activity
+T32	PROC 242 258	edad gestacional
+#38	AnnotatorNotes T32	C4040272; Assessment of fetal gestational age; Health Care Activity
+T34	PHYS 526 531	nacer
+#39	AnnotatorNotes T34	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T44	PHYS 298 308	nacimiento
+#40	AnnotatorNotes T44	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T45	PROC 290 294	peso
+#41	AnnotatorNotes T45	C2985231; Body Weight Measurement; Diagnostic Procedure
+T48	PROC 518 522	peso
+#42	AnnotatorNotes T48	C2985231; Body Weight Measurement; Diagnostic Procedure
+T52	PROC 618 622	peso
+#43	AnnotatorNotes T52	C2985231; Body Weight Measurement; Diagnostic Procedure
+A1	Population_data T43 Age
+A2	Population_data T47 Age
+A3	Assertion T15 Speculated
+A4	Assertion T8 Negated
+A5	Population_data T13 Age
+A6	Population_data T2 Age
+#44	AnnotatorNotes T10	C0014130; Endocrine System Diseases; Disease or Syndrome + C0025517; Metabolic Diseases; Disease or Syndrome + C0019247; Hereditary Diseases; Disease or Syndrome
+R1	Speculation Arg1:T33 Arg2:T15	
+R2	Overlap Arg1:T15 Arg2:T35	
+R3	After Arg1:T15 Arg2:T9	
+R4	Has_Route_or_Mode Arg1:T1 Arg2:T19	
+R7	Experiences Arg1:T2 Arg2:T16	
+R8	Experiences Arg1:T2 Arg2:T41	
+R9	Experiences Arg1:T2 Arg2:T1	
+R10	Experiences Arg1:T2 Arg2:T40	
+R12	Has_Route_or_Mode Arg1:T17 Arg2:T20	
+#45	AnnotatorNotes T1	C0030547; Parenteral Nutrition; Therapeutic or Preventive Procedure | C0204706; Parenteral alimentation procedure; Therapeutic or Preventive Procedure | C1527385; Parenteral Feeding; Therapeutic or Preventive Procedure
+T53	Quantifier_or_Qualifier 67 82	individualizada
+#46	AnnotatorNotes T53	C1881197; Individualized; Qualitative Concept
+R13	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T53	
+T54	Quantifier_or_Qualifier 181 196	individualizada
+#47	AnnotatorNotes T54	C1881197; Individualized; Qualitative Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T54	
+R15	Experiences Arg1:T43 Arg2:T3	
+R16	Experiences Arg1:T43 Arg2:T17	
+R17	Experiences Arg1:T43 Arg2:T32	
+R18	Has_Duration_or_Interval Arg1:T24 Arg2:T21	
+R19	Experiences Arg1:T43 Arg2:T45	
+R20	Overlap Arg1:T45 Arg2:T44	
+T55	Result_or_Value 309 331	superior a 1250 gramos
+R21	Has_Result_or_Value Arg1:T45 Arg2:T55	
+R22	Experiences Arg1:T43 Arg2:T44	
+R23	Experiences Arg1:T43 Arg2:T42	
+R24	Experiences Arg1:T13 Arg2:T23	
+R25	Experiences Arg1:T13 Arg2:T46	
+R29	Has_Route_or_Mode Arg1:T4 Arg2:T25	
+R30	Experiences Arg1:T13 Arg2:T4	
+R31	Experiences Arg1:T47 Arg2:T5	
+T56	PHYS 470 481	Crecimiento
+#48	AnnotatorNotes T56	C0018270; Growth; Organism Function
+R32	Experiences Arg1:T47 Arg2:T56	
+R33	Experiences Arg1:T47 Arg2:T48	
+R34	Experiences Arg1:T47 Arg2:T34	
+R35	Experiences Arg1:T47 Arg2:T28	
+R36	Experiences Arg1:T47 Arg2:T49	
+R37	Experiences Arg1:T47 Arg2:T6	
+R38	Has_Route_or_Mode Arg1:T6 Arg2:T29	
+T57	Result_or_Value 532 549	superior a 1250 g
+R40	Has_Result_or_Value Arg1:T48 Arg2:T57	
+R41	Overlap Arg1:T48 Arg2:T34	
+R44	Experiences Arg1:T27 Arg2:T52	
+T58	Result_or_Value 623 645	superior a 1250 gramos
+R45	Has_Result_or_Value Arg1:T52 Arg2:T58	
+R47	Experiences Arg1:T27 Arg2:T26	
+R48	Experiences Arg1:T27 Arg2:T30	
+R49	Has_Duration_or_Interval Arg1:T26 Arg2:T22	
+R50	Location_of Arg1:T50 Arg2:T10	
+T59	CONC 970 979	inclusión
+#49	AnnotatorNotes T59	C1512693; Inclusion; Qualitative Concept
+R53	Before Arg1:T11 Arg2:T59	
+R54	Before Arg1:T10 Arg2:T59	
+R55	Negation Arg1:T37 Arg2:T8	
+A7	Experiencer T2 Patient
+A8	Experiencer T43 Patient
+A9	Experiencer T13 Patient
+A10	Experiencer T47 Patient
+A11	Experiencer T27 Patient
+A12	Experiencer T31 Family_member
+A13	Experiencer T38 Family_member
+A14	Experiencer T39 Other

@@ -1,0 +1,108 @@
+T1	PROC 46 75	Estudio multicéntrico abierto
+T2	PROC 81 133	evaluar la eficacia, la seguridad y la tolerabilidad
+T3	CHEM 181 191	adalimumab
+#1	AnnotatorNotes T3	C1122087; adalimumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T4	DISO 209 228	enfermedad de Crohn
+#2	AnnotatorNotes T4	C0010346; Crohn Disease; Disease or Syndrome
+T5	DISO 252 271	Enfermedad de Crohn
+#3	AnnotatorNotes T5	C0010346; Crohn Disease; Disease or Syndrome
+T6	PROC 403 419	ileocolonoscopia
+T7	DISO 769 771	TB
+#4	AnnotatorNotes T7	C0041296; Tuberculosis; Disease or Syndrome
+T8	PROC 518 530	colonoscopia
+#5	AnnotatorNotes T8	C0009378; colonoscopy; Diagnostic Procedure
+T9	DISO 583 602	signos de displasia
+T10	PROC 884 898	procedimientos
+#6	AnnotatorNotes T10	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T11	DISO 755 767	tuberculosis
+#7	AnnotatorNotes T11	C0041296; Tuberculosis; Disease or Syndrome
+T12	PROC 840 850	profilaxis
+#8	AnnotatorNotes T12	C0199176; Prophylactic treatment; Therapeutic or Preventive Procedure
+T13	DISO 854 864	TB latente
+#9	AnnotatorNotes T13	C1609538; Latent Tuberculosis; Disease or Syndrome
+T14	PROC 154 168	administración
+#10	AnnotatorNotes T14	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T15	CHEM 668 678	medicación
+#11	AnnotatorNotes T15	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T16	DISO 608 623	proceso maligno
+#12	AnnotatorNotes T16	C0006826; Malignant Neoplasms; Neoplastic Process
+T17	Date 13 17	2013
+T18	Date 134 147	a largo plazo
+T19	LIVB 195 204	pacientes
+#13	AnnotatorNotes T19	C0030705; Patients; Patient or Disabled Group
+T20	LIVB 301 309	paciente
+#14	AnnotatorNotes T20	C0030705; Patients; Patient or Disabled Group
+T21	Date 423 435	la semana 12
+T22	LIVB 469 477	paciente
+#15	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T24	Neg_cue 478 480	no
+T25	Date 544 556	la semana 12
+T26	LIVB 631 639	paciente
+#16	AnnotatorNotes T26	C0030705; Patients; Patient or Disabled Group
+T27	Neg_cue 640 642	no
+T28	LIVB 727 735	Paciente
+#17	AnnotatorNotes T28	C0030705; Patients; Patient or Disabled Group
+T29	LIVB 810 818	paciente
+#18	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	Neg_cue 823 825	no
+A1	Assertion T15 Negated
+A2	Assertion T9 Negated
+A3	Assertion T16 Negated
+A4	Assertion T12 Negated
+A5	Status T15 History_of
+#19	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity + C1096776; Multicenter Study; Research Activity
+#20	AnnotatorNotes T2	C0511730; Identify product efficacy and safety issues; Health Care Activity + C3274448; Tolerability Study; Research Activity
+#21	AnnotatorNotes T18	C0443252; Long-term; Temporal Concept
+T23	Observation 486 511	inscribirse en el estudio
+A6	Assertion T23 Negated
+#22	AnnotatorNotes T23	C1302261; Patient eligible for clinical trial; Finding (?)
+R1	Negation Arg1:T24 Arg2:T23	
+R2	Negation Arg1:T24 Arg2:T9	
+R3	Negation Arg1:T24 Arg2:T16	
+R4	Negation Arg1:T27 Arg2:T15	
+R5	Negation Arg1:T30 Arg2:T12	
+T31	Quantifier_or_Qualifier 688 700	concomitante
+A7	Assertion T31 Negated
+#23	AnnotatorNotes T31	C0521115; Simultaneous; Temporal Concept 
+R6	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T31	
+R7	Negation Arg1:T27 Arg2:T31	
+T32	Quantifier_or_Qualifier 169 177	repetida
+#24	AnnotatorNotes T32	C0205341; Repeat; Functional Concept
+R8	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T32	
+R9	Used_for Arg1:T3 Arg2:T14	
+R10	Overlap Arg1:T2 Arg2:T18	
+R11	Experiences Arg1:T19 Arg2:T14	
+R12	Experiences Arg1:T19 Arg2:T4	
+T33	Observation 323 338	estado incluido
+#25	AnnotatorNotes T33	C1278516; Patient participation status; Finding (?)
+T34	Observation 341 381	completado satisfactoriamente el estudio
+#26	AnnotatorNotes T34	C2732579; Completion of clinical trial; Finding
+R15	Experiences Arg1:T20 Arg2:T6	
+R16	Overlap Arg1:T6 Arg2:T21	
+R17	Overlap Arg1:T8 Arg2:T25	
+R20	Before Arg1:T8 Arg2:T23	
+R23	Experiences Arg1:T22 Arg2:T8	
+R24	Experiences Arg1:T22 Arg2:T9	
+R25	Experiences Arg1:T22 Arg2:T16	
+R26	Experiences Arg1:T26 Arg2:T15	
+R27	Experiences Arg1:T28 Arg2:T11	
+R28	Experiences Arg1:T28 Arg2:T7	
+T35	Quantifier_or_Qualifier 773 779	activa
+#27	AnnotatorNotes T35	C0679217; Active State; Idea or Concept
+R29	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T35	
+R30	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T35	
+R31	Experiences Arg1:T29 Arg2:T12	
+T36	PROC 791 798	estudio
+A8	Status T36 History_of
+#28	AnnotatorNotes T36	C0008976; Clinical Trials; Research Activity
+R32	Overlap Arg1:T11 Arg2:T36	
+R33	Overlap Arg1:T7 Arg2:T36	
+R34	Experiences Arg1:T29 Arg2:T13	
+R35	Experiences Arg1:T29 Arg2:T10	
+R37	Before Arg1:T12 Arg2:T13	
+A9	Experiencer T19 Patient
+A10	Experiencer T20 Patient
+A11	Experiencer T22 Patient
+A12	Experiencer T26 Patient
+A13	Experiencer T28 Patient
+A14	Experiencer T29 Patient

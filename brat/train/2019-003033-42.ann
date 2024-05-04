@@ -1,0 +1,158 @@
+T1	PROC 58 79	bloqueo neuromuscular
+#1	AnnotatorNotes T1	C0235062; Induction of neuromuscular blockade; Therapeutic or Preventive Procedure
+T2	PROC 96 103	bloqueo
+T3	PROC 148 169	cirugía laparoscópica
+#2	AnnotatorNotes T3	C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure
+T4	PROC 235 256	bloqueo neuromuscular
+#3	AnnotatorNotes T4	C0235062; Induction of neuromuscular blockade; Therapeutic or Preventive Procedure
+T5	PROC 273 280	bloqueo
+T6	PROC 325 346	cirugía laparoscópica
+#4	AnnotatorNotes T6	C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure
+T7	PROC 348 383	estudio internacional multicéntrico
+T8	PROC 433 454	cirugía laparoscópica
+#5	AnnotatorNotes T8	C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure
+T9	PROC 510 531	cirugía laparoscópica
+#6	AnnotatorNotes T9	C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure
+T10	PROC 686 707	cirugía laparoscópica
+#7	AnnotatorNotes T10	C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure
+T11	PROC 883 922	consentimiento informado oral y escrito
+#8	AnnotatorNotes T11	C1608381; Consent Mode - Verbal; Health Care Activity + C0811741; Obtain informed written consent; Health Care Activity
+T12	PROC 950 979	Procedimientos laparoscópicos
+T13	DISO 1041 1067	Trastornos neuromusculares
+#9	AnnotatorNotes T13	C0027868; Neuromuscular Diseases; Disease or Syndrome
+T14	ANAT 1115 1128	neuromuscular
+#10	AnnotatorNotes T14	C0597054; neuromuscular system; Body System
+T15	CHEM 1142 1163	relajantes musculares
+#11	AnnotatorNotes T15	C0358430; Muscle relaxants; Pharmacologic Substance
+T16	DISO 1131 1139	Alergias
+#12	AnnotatorNotes T16	C1527304; Allergic Reaction; Pathologic Function
+T17	CHEM 1179 1189	narcóticos
+#13	AnnotatorNotes T17	C0027415; Narcotics; Hazardous or Poisonous Substance · Pharmacologic Substance
+T18	DISO 1222 1241	hipertermia maligna
+#14	AnnotatorNotes T18	C0024591; Malignant hyperpyrexia due to anesthesia; Injury or Poisoning
+T19	CHEM 1346 1353	opioide
+#15	AnnotatorNotes T19	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T20	CHEM 1356 1368	psicotrópico
+#16	AnnotatorNotes T20	C0033978; Psychotropic Drugs; Pharmacologic Substance | C0682880; Psychoactive substance; Hazardous or Poisonous Substance · Pharmacologic Substance
+T21	CHEM 1379 1384	AINES
+#17	AnnotatorNotes T21	C0003211; Anti-Inflammatory Agents, Non-Steroidal; Pharmacologic Substance
+T22	PROC 1416 1423	cirugía
+#18	AnnotatorNotes T22	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T23	CHEM 1507 1517	sugammadex
+#19	AnnotatorNotes T23	C1700695; sugammadex; Organic Chemical · Pharmacologic Substance
+T24	DISO 1532 1539	alergia
+#20	AnnotatorNotes T24	C1527304; Allergic Reaction; Pathologic Function
+T25	CHEM 1551 1561	sugammadex
+#21	AnnotatorNotes T25	C1700695; sugammadex; Organic Chemical · Pharmacologic Substance
+T26	PROC 1564 1567	GFR
+#22	AnnotatorNotes T26	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+T27	ANAT 1052 1067	neuromusculares
+#23	AnnotatorNotes T27	C0597054; neuromuscular system; Body System
+T28	ANAT 1153 1163	musculares
+#24	AnnotatorNotes T28	C0026845; Muscle Tissue; Tissue | C4083049; Muscle (organ); Body Part, Organ, or Organ Component
+T29	CHEM 1165 1176	anestésicos
+#25	AnnotatorNotes T29	C0002932; Anesthetics; Pharmacologic Substance
+T30	PROC 1442 1471	inducción de secuencia rápida
+#26	AnnotatorNotes T30	C0412767; Rapid Sequence Induction; Therapeutic or Preventive Procedure
+T31	Date 13 17	2019
+T32	Time 129 144	intraoperatoria
+#27	AnnotatorNotes T32	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T33	Time 306 321	intraoperatoria
+#28	AnnotatorNotes T33	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T34	Time 491 506	intraoperatoria
+#29	AnnotatorNotes T34	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T35	LIVB 612 620	paciente
+#30	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 672 681	Pacientes
+#31	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
+T37	Age 845 853	>18 años
+T39	Spec_cue 1080 1091	sospechosos
+T41	LIVB 1245 1252	Mujeres
+#32	AnnotatorNotes T41	C0043210; Woman; Population Group
+T42	Spec_cue 1265 1271	pueden
+T43	PHYS 1298 1309	amamantando
+#33	AnnotatorNotes T43	C0006147; Breast Feeding; Organism Function
+T44	Duration 1317 1324	crónico
+#34	AnnotatorNotes T44	C0205191; chronic; Temporal Concept
+T45	Duration 1388 1403	menos de 5 días
+T48	PHYS 1278 1289	embarazadas
+#35	AnnotatorNotes T48	C0032961; Pregnancy; Organism Function
+T38	PHYS 1107 1128	función neuromuscular
+#36	AnnotatorNotes T38	C0597053; neuromuscular function; Organ or Tissue Function
+T40	PROC 827 830	ASA
+#37	AnnotatorNotes T40	C4751522; Assessment using American Society of Anesthesiologists Physical Status Classification System; Health Care Activity
+A2	Assertion T13 Speculated
+A3	Assertion T48 Speculated
+A1	Status T16 History_of
+A4	Status T18 Family_history_of
+A5	Status T21 History_of
+A6	Assertion T23 Contraindicated
+A7	Status T24 History_of
+A8	Status T13 History_of
+#38	AnnotatorNotes T5	C0027741; Nerve Block; Therapeutic or Preventive Procedure (?)
+#39	AnnotatorNotes T2	C0027741; Nerve Block; Therapeutic or Preventive Procedure (?)
+#40	AnnotatorNotes T12	C0751429; Surgical Procedures, Laparoscopic; Therapeutic or Preventive Procedure
+T46	Observation 567 607	elegible para participar en este estudio
+#41	AnnotatorNotes T46	C1302261; Patient eligible for clinical trial; Finding (?)
+A9	Assertion T25 Contraindicated
+T47	Quantifier_or_Qualifier 80 88	profundo
+#42	AnnotatorNotes T47	C0205125; Deep (qualifier value); Spatial Concept
+R1	Has_Quantifier_or_Qualifier Arg1:T1 Arg2:T47	
+T49	Quantifier_or_Qualifier 257 265	profundo
+#43	AnnotatorNotes T49	C0205125; Deep (qualifier value); Spatial Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T49	
+R3	Before Arg1:T2 Arg2:T3	
+R4	Before Arg1:T1 Arg2:T3	
+R5	Before Arg1:T5 Arg2:T6	
+R6	Before Arg1:T4 Arg2:T6	
+R7	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T46	
+R8	Experiences Arg1:T36 Arg2:T10	
+T50	Quantifier_or_Qualifier 708 718	programada
+R9	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T50	
+T51	CONC 761 779	clasificación BUPA
+#44	AnnotatorNotes T51	[British United Provident Association Classification]
+T52	Result_or_Value 831 842	clase I-III
+R10	Has_Result_or_Value Arg1:T40 Arg2:T52	
+T53	Quantifier_or_Qualifier 785 790	MAYOR
+#45	AnnotatorNotes T53	C0205164; Major; Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T53	
+T54	Quantifier_or_Qualifier 794 804	MAYOR PLUS
+R12	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T54	
+T55	Quantifier_or_Qualifier 809 823	MAYOR COMPLEJO
+R13	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T55	
+T56	Quantifier_or_Qualifier 983 1012	complejidad baja o intermedia
+R14	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T56	
+T57	Quantifier_or_Qualifier 1031 1036	INTER
+R15	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T57	
+T58	Quantifier_or_Qualifier 1020 1026	SIMPLE
+#46	AnnotatorNotes T58	C0205352; Simple; Qualitative Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T58	
+T59	CONC 1014 1018	BUPA
+#47	AnnotatorNotes T59	[British United Provident Association Classification]
+R17	Location_of Arg1:T27 Arg2:T13	
+R18	Speculation Arg1:T39 Arg2:T13	
+R19	Location_of Arg1:T14 Arg2:T38	
+R21	Causes Arg1:T15 Arg2:T16	
+R22	Causes Arg1:T29 Arg2:T16	
+R23	Causes Arg1:T17 Arg2:T16	
+R24	Experiences Arg1:T41 Arg2:T43	
+R25	Experiences Arg1:T41 Arg2:T48	
+R26	Speculation Arg1:T42 Arg2:T48	
+R27	Has_Duration_or_Interval Arg1:T19 Arg2:T44	
+R28	Has_Duration_or_Interval Arg1:T20 Arg2:T44	
+R29	Has_Duration_or_Interval Arg1:T21 Arg2:T45	
+R30	Before Arg1:T21 Arg2:T22	
+R31	Causes Arg1:T25 Arg2:T24	
+R32	Causes Arg1:T23 Arg2:T24	
+T60	Result_or_Value 1568 1580	<30 ml / min
+R33	Has_Result_or_Value Arg1:T26 Arg2:T60	
+R34	Overlap Arg1:T3 Arg2:T32	
+R35	Overlap Arg1:T6 Arg2:T33	
+R36	Overlap Arg1:T9 Arg2:T34	
+#48	AnnotatorNotes T50	C0205539; Scheduled - procedure status; Qualitative Concept
+#49	AnnotatorNotes T57	C0205103; Intermediate; Spatial Concept
+A10	Experiencer T36 Patient
+A11	Experiencer T35 Patient
+A12	Status T10 Future
+A13	Status T50 Future
+A14	Experiencer T41 Patient

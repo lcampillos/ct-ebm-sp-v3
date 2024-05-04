@@ -1,0 +1,156 @@
+T1	PROC 1 47	Cirugía transnasal transesfenoidal endoscópica
+T2	PROC 1883 1896	procedimiento
+#1	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T3	DISO 51 77	afecciones de región selar
+#2	AnnotatorNotes T3	C4524211; Sellar lesion; Disease or Syndrome
+T4	DISO 117 136	tumores pituitarios
+#3	AnnotatorNotes T4	C0032019; Pituitary Neoplasms; Neoplastic Process
+T5	PROC 140 147	cirugía
+#4	AnnotatorNotes T5	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T6	PROC 154 182	tratamiento de primera línea
+#5	AnnotatorNotes T6	C1708063; First line treatment; Therapeutic or Preventive Procedure
+T7	PROC 213 228	microquirúrgico
+#6	AnnotatorNotes T7	C0026035; Microsurgery; Therapeutic or Preventive Procedure
+T8	PROC 375 386	endoscópico
+#7	AnnotatorNotes T8	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T9	PROC 624 635	endoscópico
+#8	AnnotatorNotes T9	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T10	DISO 645 672	lesiones de la región selar
+#9	AnnotatorNotes T10	C4524211; Sellar lesion; Disease or Syndrome
+T11	ANAT 660 672	región selar
+#10	AnnotatorNotes T11	C4744370; Sellar Region; Body Location or Region
+T12	PROC 744 766	método transesfenoidal
+T13	PROC 806 837	fase I de un ensayo en 3 etapas
+T14	PROC 853 888	investigación limitada tipo cohorte
+T15	PROC 904 928	controlada y prospectiva
+#11	AnnotatorNotes T15	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0033522; Prospective Studies; Research Activity
+T16	PROC 1042 1053	endoscópico
+#12	AnnotatorNotes T16	C0014245; Endoscopy (procedure); Diagnostic Procedure
+T17	PROC 1069 1091	tratamiento quirúrgico
+#13	AnnotatorNotes T17	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T18	PROC 1213 1224	Se operaron
+#14	AnnotatorNotes T18	C0543467; Operative Surgical Procedures; Therapeutic or Preventive Procedure
+T19	DISO 1247 1273	macroadenomas hipofisarios
+#15	AnnotatorNotes T19	C0346308; Pituitary macroadenoma; Neoplastic Process
+T20	CHEM 1295 1297	GH
+#16	AnnotatorNotes T20	C0037663; Growth Hormone; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance | C0169964; somatropin; Amino Acid, Peptide, or Protein · Hormone · Pharmacologic Substance
+T21	CHEM 1315 1318	PRL
+#17	AnnotatorNotes T21	C0033371; prolactin; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Hormone
+T22	PROC 1379 1392	diagnosticado
+#18	AnnotatorNotes T22	C0011900; Diagnosis; Diagnostic Procedure
+T23	DISO 1393 1407	fístula de LCR
+T24	ANAT 1404 1407	LCR
+#19	AnnotatorNotes T24	C0007806; Cerebrospinal Fluid; Body Substance
+T25	DISO 1445 1458	macroadenomas
+#20	AnnotatorNotes T25	C0346308; Pituitary macroadenoma; Neoplastic Process
+T26	PROC 1478 1492	exéresis total
+#21	AnnotatorNotes T26	C0015250; Complete excision; Therapeutic or Preventive Procedure
+T27	DISO 1497 1502	tumor
+#22	AnnotatorNotes T27	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C1882062; Neoplastic disease; Neoplastic Process
+T28	PROC 1538 1555	exéresis subtotal
+#23	AnnotatorNotes T28	C4330937; Partial Resection; Therapeutic or Preventive Procedure
+T29	DISO 1560 1568	rinorrea
+#24	AnnotatorNotes T29	C1260880; Rhinorrhea; Sign or Symptom
+T30	DISO 1600 1614	fístula de LCR
+T31	ANAT 1611 1614	LCR
+#25	AnnotatorNotes T31	C0007806; Cerebrospinal Fluid; Body Substance
+T32	DISO 1651 1665	complicaciones
+#26	AnnotatorNotes T32	C0009566; Complication; Pathologic Function
+T33	PROC 1839 1868	método transnasal endoscópico
+T34	PROC 1978 2024	fase II del ensayo (aleatorizada y controlada)
+#27	AnnotatorNotes T34	C0282460; Phase 2 Clinical Trials; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T35	PROC 2144 2163	cirugía hipofisaria
+#28	AnnotatorNotes T35	C2224799; pituitary surgery; Therapeutic or Preventive Procedure
+T36	ANAT 65 77	región selar
+#29	AnnotatorNotes T36	C4744370; Sellar Region; Body Location or Region
+T37	ANAT 125 136	pituitarios
+#30	AnnotatorNotes T37	C0032005; Pituitary gland; Body Part, Organ, or Organ Component
+T38	ANAT 1261 1273	hipofisarios
+#31	AnnotatorNotes T38	C0032005; Pituitary gland; Body Part, Organ, or Organ Component
+T39	ANAT 1421 1431	piso selar
+T40	ANAT 2152 2163	hipofisaria
+#32	AnnotatorNotes T40	C0032005; Pituitary gland; Body Part, Organ, or Organ Component
+T41	Date 247 264	En estos momentos
+T42	Date 337 350	Recientemente
+T44	Date 463 483	en un futuro próximo
+T47	LIVB 881 888	cohorte
+#33	AnnotatorNotes T47	C0599755; Cohort; Population Group
+T48	LIVB 935 944	pacientes
+#34	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T49	Date 1098 1113	Agosto del 2002
+T50	Date 1116 1131	Agosto del 2003
+T53	LIVB 1586 1595	pacientes
+#35	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	Time 1745 1760	transoperatorio
+#36	AnnotatorNotes T54	C0021891; Intraoperative Period; Temporal Concept | C0456904; Intraoperative; Temporal Concept
+T43	Observation 1334 1345	productores
+A1	Assertion T43 Negated
+T45	Neg_cue 1331 1333	no
+R1	Negation Arg1:T45 Arg2:T43	
+T46	Spec_cue 551 558	posible
+T51	CONC 588 623	abordaje transnasal transesfenoidal
+A2	Assertion T51 Speculated
+#37	AnnotatorNotes T51	C0521131; Transnasal approach; Spatial Concept + C0205508; Transsphenoidal approach; Spatial Concept 
+R2	Speculation Arg1:T46 Arg2:T51	
+T52	CONC 751 766	transesfenoidal
+#38	AnnotatorNotes T52	C0521131; Transnasal approach; Spatial Concept
+T55	CONC 1022 1041	abordaje transnasal
+#39	AnnotatorNotes T55	C0521131; Transnasal approach; Spatial Concept
+T56	CONC 9 35	transnasal transesfenoidal
+#40	AnnotatorNotes T56	C0521131; Transnasal approach; Spatial Concept + C0205508; Transsphenoidal approach; Spatial Concept
+T57	CONC 188 212	abordaje transesfenoidal
+#41	AnnotatorNotes T57	C0205508; Transsphenoidal approach; Spatial Concept 
+T58	CONC 325 335	transnasal
+#42	AnnotatorNotes T58	C0521131; Transnasal approach; Spatial Concept
+T59	CONC 1846 1856	transnasal
+#43	AnnotatorNotes T59	C0521131; Transnasal approach; Spatial Concept
+T60	CONC 355 374	abordaje transnasal
+#44	AnnotatorNotes T60	C0521131; Transnasal approach; Spatial Concept
+T61	CONC 299 312	vía sublabial
+#45	AnnotatorNotes T61	C0442186; Sublabial approach; Spatial Concept 
+T62	Spec_cue 435 442	pudiera
+T63	CONC 452 462	predominar
+A3	Assertion T63 Speculated
+#46	AnnotatorNotes T63	C0332251; Predominate; Qualitative Concept 
+R3	Speculation Arg1:T62 Arg2:T63	
+R4	Overlap Arg1:T63 Arg2:T44	
+R5	Overlap Arg1:T60 Arg2:T42	
+A4	Assertion T9 Speculated
+R6	Speculation Arg1:T46 Arg2:T9	
+R7	Used_for Arg1:T56 Arg2:T1	
+R8	Location_of Arg1:T36 Arg2:T3	
+R9	Location_of Arg1:T37 Arg2:T4	
+R10	Used_for Arg1:T57 Arg2:T5	
+R11	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T7	
+R12	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T8	
+R13	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T9	
+R14	Location_of Arg1:T11 Arg2:T10	
+R15	Used_for Arg1:T52 Arg2:T12	
+R16	Has_Quantifier_or_Qualifier Arg1:T55 Arg2:T16	
+R18	After Arg1:T17 Arg2:T49	
+R19	Used_for Arg1:T55 Arg2:T17	
+R17	Before Arg1:T17 Arg2:T50	
+R20	Experiences Arg1:T48 Arg2:T16	
+R21	Experiences Arg1:T48 Arg2:T17	
+R22	Experiences Arg1:T47 Arg2:T16	
+R23	Experiences Arg1:T47 Arg2:T17	
+R24	Location_of Arg1:T38 Arg2:T19	
+T64	Observation 1280 1297	productores de GH
+T65	Observation 1303 1318	secretor de PRL
+R25	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T64	
+R26	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T65	
+R27	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T43	
+R29	Location_of Arg1:T39 Arg2:T23	
+#47	AnnotatorNotes T30	C0023182; Cerebrospinal fluid leak; Pathologic Function
+R30	Experiences Arg1:T53 Arg2:T30	
+#48	AnnotatorNotes T23	C0023182; Cerebrospinal fluid leak; Pathologic Function
+R28	Experiences Arg1:T53 Arg2:T29	
+R32	Overlap Arg1:T32 Arg2:T54	
+R33	Used_for Arg1:T59 Arg2:T33	
+R34	Location_of Arg1:T40 Arg2:T35	
+#49	AnnotatorNotes T42	C0332185; Recent; Temporal Concept
+#50	AnnotatorNotes T41	C0521116; Current (present time); Temporal Concept
+#51	AnnotatorNotes T65	C1559239; Neuroendocrine Prolactin Hormone Secretion Abnormality, CTCAE; Finding (?)
+A5	Experiencer T47 Patient
+A6	Experiencer T48 Patient
+A7	Experiencer T53 Patient

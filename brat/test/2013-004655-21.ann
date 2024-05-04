@@ -1,0 +1,81 @@
+T1	CHEM 142 151	fentanilo
+#1	AnnotatorNotes T1	C0015846; fentanyl; Organic Chemical · Pharmacologic Substance
+T2	PROC 248 272	Consentimiento informado
+#2	AnnotatorNotes T2	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
+T3	PROC 407 428	ingresados en la UCIN
+T4	PROC 467 478	Tratamiento
+#3	AnnotatorNotes T4	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T5	PROC 553 565	prescripción
+#4	AnnotatorNotes T5	C0033080; Prescription procedure; Health Care Activity | C2239117; Prescription of drug (procedure); Health Care Activity
+T6	PROC 598 609	tratamiento
+#5	AnnotatorNotes T6	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T7	PROC 635 644	protocolo
+#6	AnnotatorNotes T7	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T8	PROC 648 661	sedoanalgesia
+#7	AnnotatorNotes T8	C0002905; Anesthesia and Analgesia; Therapeutic or Preventive Procedure
+T9	DISO 737 743	Sepsis
+#8	AnnotatorNotes T9	C0243026; Sepsis; Disease or Syndrome
+T10	DISO 748 762	Fallo hepático
+#9	AnnotatorNotes T10	C0085605; Liver Failure; Disease or Syndrome
+T11	PROC 767 792	Terapia sustitutiva renal
+T12	ANAT 787 792	renal
+#10	AnnotatorNotes T12	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T13	DISO 798 815	Hipersensibilidad
+#11	AnnotatorNotes T13	C0020517; Hypersensitivity; Pathologic Function | C0429891; Hypersensitivity finding; Finding
+T14	CHEM 830 838	opioides
+#12	AnnotatorNotes T14	C0242402; Opioids; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance | C0376196; Opiates; Hazardous or Poisonous Substance · Organic Chemical · Pharmacologic Substance
+T16	PROC 198 207	Analgesia
+#13	AnnotatorNotes T16	C3202977; Analgesia; Therapeutic or Preventive Procedure
+T17	PROC 209 217	sedación
+#14	AnnotatorNotes T17	C0344106; Sedation procedure; Therapeutic or Preventive Procedure
+T19	CHEM 483 492	fentanilo
+#15	AnnotatorNotes T19	C0015846; fentanyl; Organic Chemical · Pharmacologic Substance
+T20	CHEM 614 623	fentanilo
+#16	AnnotatorNotes T20	C0015846; fentanyl; Organic Chemical · Pharmacologic Substance
+T21	ANAT 754 762	hepático
+#17	AnnotatorNotes T21	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T22	CHEM 818 827	fentanilo
+#18	AnnotatorNotes T22	C0015846; fentanyl; Organic Chemical · Pharmacologic Substance
+T23	Date 13 17	2013
+T24	LIVB 155 173	pacientes neonatos
+#19	AnnotatorNotes T24	C0030705; Patients; Patient or Disabled Group + C0021289; Infant, Newborn; Age Group
+T26	LIVB 289 301	progenitores
+#20	AnnotatorNotes T26	C0030551; parent; Family Group | C0870134; Ancestor; Family Group
+T27	LIVB 324 342	Pacientes neonatos
+#21	AnnotatorNotes T27	C0030705; Patients; Patient or Disabled Group + C0021289; Infant, Newborn; Age Group
+T30	Duration 393 406	>= 37 semanas
+T31	Route 493 495	iv
+#22	AnnotatorNotes T31	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T25	LIVB 304 319	tutores legales
+#23	AnnotatorNotes T25	C0023226; Legal Guardians; Population Group
+T28	Age 346 355	0-27 días
+T32	PHYS 381 392	gestacional
+#24	AnnotatorNotes T32	C0032961; Pregnancy; Organism Function
+T29	Date 364 373	postnatal
+T33	PROC 376 392	edad gestacional
+#25	AnnotatorNotes T33	C4040272; Assessment of fetal gestational age; Health Care Activity
+A1	Population_data T24 Age
+A2	Population_data T27 Age
+A3	Status T13 History_of
+#26	AnnotatorNotes T3	C2148604; Admission to neonatal intensive care unit; Health Care Activity 
+#27	AnnotatorNotes T11	C0206074; Renal Replacement Therapy; Therapeutic or Preventive Procedure 
+R1	Experiences Arg1:T24 Arg2:T1	
+R2	Has_Age Arg1:T27 Arg2:T28	
+R3	Has_Duration_or_Interval Arg1:T32 Arg2:T30	
+R4	Experiences Arg1:T27 Arg2:T3	
+R5	Used_for Arg1:T19 Arg2:T4	
+R6	Has_Route_or_Mode Arg1:T19 Arg2:T31	
+R7	Before Arg1:T5 Arg2:T4	
+T15	Quantifier_or_Qualifier 582 594	Primer ciclo
+R8	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T15	
+R9	Used_for Arg1:T20 Arg2:T6	
+R10	Used_for Arg1:T20 Arg2:T8	
+R11	Location_of Arg1:T21 Arg2:T10	
+R12	Location_of Arg1:T12 Arg2:T11	
+R13	Causes Arg1:T22 Arg2:T13	
+R14	Causes Arg1:T14 Arg2:T13	
+R15	Experiences Arg1:T27 Arg2:T33	
+A4	Experiencer T24 Patient
+A5	Experiencer T26 Family_member
+A6	Experiencer T25 Other
+A7	Experiencer T27 Patient

@@ -1,0 +1,242 @@
+T1	PROC 1 12	Tratamiento
+#1	AnnotatorNotes T1	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T2	DISO 19 27	anorexia
+#2	AnnotatorNotes T2	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T3	PROC 31 43	hemodiálisis
+#3	AnnotatorNotes T3	C0019004; Hemodialysis; Therapeutic or Preventive Procedure
+T4	PROC 45 52	Placebo
+#4	AnnotatorNotes T4	C0032042; Placebos; Therapeutic or Preventive Procedure
+T5	CHEM 56 65	Megestrol
+#5	AnnotatorNotes T5	C0025175; megestrol; Organic Chemical · Hormone · Pharmacologic Substance
+T6	PROC 783 804	De forma aleatorizada
+#6	AnnotatorNotes T6	C0034656; Randomization; Research Activity
+T7	DISO 85 93	anorexia
+#7	AnnotatorNotes T7	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T8	DISO 100 107	síntoma
+#8	AnnotatorNotes T8	C1457887; Symptoms; Sign or Symptom
+T9	PROC 133 142	dializado
+#9	AnnotatorNotes T9	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T10	DISO 158 166	ansiedad
+#10	AnnotatorNotes T10	C0003467; Anxiety; Mental or Behavioral Dysfunction
+T11	DISO 299 307	anorexia
+#11	AnnotatorNotes T11	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T12	PROC 812 820	tratados
+#12	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	DISO 498 506	anorexia
+#13	AnnotatorNotes T13	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T14	CHEM 510 530	acetato de megestrol
+#14	AnnotatorNotes T14	C0065879; megestrol acetate; Organic Chemical · Hormone · Pharmacologic Substance
+T15	PROC 537 570	estudio aleatorizado y controlado
+#15	AnnotatorNotes T15	C0206035; Controlled Clinical Trials, Randomized; Research Activity
+T16	DISO 723 731	anorexia
+#16	AnnotatorNotes T16	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T17	CHEM 825 845	acetato de megestrol
+#17	AnnotatorNotes T17	C0065879; megestrol acetate; Organic Chemical · Hormone · Pharmacologic Substance
+T18	PROC 902 909	placebo
+#18	AnnotatorNotes T18	C0032042; Placebos; Therapeutic or Preventive Procedure
+T19	DISO 1002 1010	anorexia
+#19	AnnotatorNotes T19	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T20	DISO 1085 1093	anorexia
+#20	AnnotatorNotes T20	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T21	DISO 1272 1287	pérdida de peso
+#21	AnnotatorNotes T21	C1262477; Weight decreased; Finding
+T22	PROC 1334 1345	tratamiento
+#22	AnnotatorNotes T22	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T23	CHEM 1416 1436	acetato de megestrol
+#23	AnnotatorNotes T23	C0065879; megestrol acetate; Organic Chemical · Hormone · Pharmacologic Substance
+T24	PROC 1463 1482	tratado con placebo
+#24	AnnotatorNotes T24	C3897898; Placebo Administration; Therapeutic or Preventive Procedure
+T25	PROC 1634 1644	dializados
+#25	AnnotatorNotes T25	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T26	DISO 1662 1670	anorexia
+#26	AnnotatorNotes T26	C0003123; Anorexia; Disease or Syndrome | C1971624; Loss of appetite (finding); Finding
+T27	CHEM 1753 1773	acetato de megestrol
+#27	AnnotatorNotes T27	C0065879; megestrol acetate; Organic Chemical · Hormone · Pharmacologic Substance
+T28	PROC 1782 1789	placebo
+#28	AnnotatorNotes T28	C0032042; Placebos; Therapeutic or Preventive Procedure
+T29	PROC 630 638	tratados
+#29	AnnotatorNotes T29	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T30	CHEM 1896 1916	acetato de megestrol
+#30	AnnotatorNotes T30	C0065879; megestrol acetate; Organic Chemical · Hormone · Pharmacologic Substance
+T31	PROC 1404 1411	tratado
+#31	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	PROC 1884 1891	tratado
+#32	AnnotatorNotes T32	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T33	CHEM 314 346	agentes estimulantes del apetito
+T34	PROC 1260 1268	diálisis
+#33	AnnotatorNotes T34	C0011946; Dialysis procedure; Therapeutic or Preventive Procedure | C4551529; Renal Dialysis; Therapeutic or Preventive Procedure
+T35	PROC 1801 1808	placebo
+#34	AnnotatorNotes T35	C0032042; Placebos; Therapeutic or Preventive Procedure
+T37	LIVB 124 132	paciente
+#35	AnnotatorNotes T37	C0030705; Patients; Patient or Disabled Group
+T41	PHYS 339 346	apetito
+#36	AnnotatorNotes T41	C0003618; Desire for food; Organism Function
+T42	PHYS 408 422	sugestibilidad
+#37	AnnotatorNotes T42	C0233423; Suggestibility; Mental Process
+T43	LIVB 427 435	paciente
+#38	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T46	Date 611 615	2011
+T47	Date 618 622	2012
+T48	LIVB 677 686	pacientes
+#39	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
+T51	Dose 847 853	160 mg
+T52	LIVB 862 871	pacientes
+#40	AnnotatorNotes T52	C0030705; Patients; Patient or Disabled Group
+T53	LIVB 887 894	mujeres
+#41	AnnotatorNotes T53	C0043210; Woman; Population Group
+T54	LIVB 913 922	pacientes
+#42	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	LIVB 938 945	mujeres
+#43	AnnotatorNotes T55	C0043210; Woman; Population Group
+T56	Duration 985 995	tres meses
+T57	PHYS 1130 1137	apetito
+#44	AnnotatorNotes T57	C0003618; Desire for food; Organism Function
+T60	Duration 1291 1312	los dos meses previos
+T61	Duration 1316 1330	los tres meses
+T62	PHYS 1370 1377	apetito
+#45	AnnotatorNotes T62	C0003618; Desire for food; Organism Function
+T63	LIVB 1382 1391	pacientes
+#46	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T65	LIVB 1624 1633	pacientes
+#47	AnnotatorNotes T65	C0030705; Patients; Patient or Disabled Group
+T68	PHYS 1732 1739	apetito
+#48	AnnotatorNotes T68	C0003618; Desire for food; Organism Function
+T69	PHYS 1832 1839	apetito
+#49	AnnotatorNotes T69	C0003618; Desire for food; Organism Function
+T70	LIVB 1851 1860	pacientes
+#50	AnnotatorNotes T70	C0030705; Patients; Patient or Disabled Group
+T72	PHYS 1055 1064	nutrición
+#51	AnnotatorNotes T72	C1442959; Nutrition function; Organism Function
+T38	Frequency 853 857	/dia
+T39	LIVB 875 882	varones
+#52	AnnotatorNotes T39	C0025266; Male population group; Population Group
+T40	LIVB 926 933	varones
+#53	AnnotatorNotes T40	C0025266; Male population group; Population Group
+T36	PROC 1244 1248	peso
+#54	AnnotatorNotes T36	C2985231; Body Weight Measurement; Diagnostic Procedure
+R1	Used_for Arg1:T23 Arg2:T31	
+R3	Used_for Arg1:T5 Arg2:T1	
+R6	Experiences Arg1:T37 Arg2:T7	
+R7	Experiences Arg1:T37 Arg2:T9	
+R8	Causes Arg1:T7 Arg2:T10	
+T44	CONC 181 196	calidad de vida
+T45	Neg_cue 228 230	no
+T49	CONC 245 266	factor desencadenante
+A1	Assertion T49 Negated
+R9	Negation Arg1:T45 Arg2:T49	
+R10	Experiences Arg1:T43 Arg2:T42	
+R11	Experiences Arg1:T43 Arg2:T41	
+R12	Experiences Arg1:T43 Arg2:T33	
+R13	Experiences Arg1:T43 Arg2:T11	
+#55	AnnotatorNotes T33	C0376447; Appetite Stimulants; Pharmacologic Substance
+T50	CONC 1113 1126	escala Likert
+#56	AnnotatorNotes T50	C0451267; Likert scale; Intellectual Product
+R14	Before Arg1:T29 Arg2:T47	
+R15	After Arg1:T29 Arg2:T46	
+R16	Experiences Arg1:T48 Arg2:T29	
+T58	Neg_cue 732 735	sin
+T59	CONC 751 772	factor desencadenante
+A2	Assertion T59 Negated
+R17	Negation Arg1:T58 Arg2:T59	
+R18	Before Arg1:T6 Arg2:T12	
+R19	Used_for Arg1:T17 Arg2:T12	
+R20	Has_Dose_or_Strength Arg1:T17 Arg2:T51	
+R21	Has_Frequency Arg1:T17 Arg2:T38	
+R22	Experiences Arg1:T52 Arg2:T12	
+R23	Experiences Arg1:T54 Arg2:T12	
+R24	Experiences Arg1:T39 Arg2:T12	
+R25	Experiences Arg1:T53 Arg2:T12	
+R26	Experiences Arg1:T40 Arg2:T12	
+R27	Experiences Arg1:T55 Arg2:T12	
+T64	PROC 954 976	analizado la evolución
+R28	Has_Duration_or_Interval Arg1:T64 Arg2:T56	
+T66	Neg_cue 1173 1175	no
+T67	CONC 1181 1192	diferencias
+A3	Assertion T67 Negated
+#57	AnnotatorNotes T67	C1705241; Delta (difference); Quantitative Concept
+R29	Negation Arg1:T66 Arg2:T67	
+T71	CONC 1250 1268	tiempo en diálisis
+#58	AnnotatorNotes T71	C3263251; Dialysis time period; Temporal Concept
+R30	Overlap Arg1:T21 Arg2:T60	
+R31	Overlap Arg1:T71 Arg2:T60	
+R32	Overlap Arg1:T36 Arg2:T60	
+R33	Has_Duration_or_Interval Arg1:T22 Arg2:T61	
+T73	Observation 1358 1365	mejoría
+#59	AnnotatorNotes T73	C0184511; Improved; Finding
+R34	Experiences Arg1:T63 Arg2:T73	
+R35	Experiences Arg1:T63 Arg2:T62	
+R36	Experiences Arg1:T63 Arg2:T31	
+R37	Experiences Arg1:T63 Arg2:T24	
+T74	CONC 1503 1517	test de Fisher
+#60	AnnotatorNotes T74	C1708064; Fisher's Exact Test; Intellectual Product
+R38	After Arg1:T73 Arg2:T61	
+R39	Has_Duration_or_Interval Arg1:T24 Arg2:T61	
+R40	Has_Duration_or_Interval Arg1:T23 Arg2:T61	
+T75	PROC 1563 1567	peso
+#61	AnnotatorNotes T75	C2985231; Body Weight Measurement; Diagnostic Procedure
+R41	Experiences Arg1:T65 Arg2:T25	
+R42	Experiences Arg1:T65 Arg2:T26	
+T76	Neg_cue 1671 1674	sin
+T77	CONC 1675 1696	factor desencadenante
+A4	Assertion T77 Negated
+R43	Negation Arg1:T76 Arg2:T77	
+T78	Observation 1710 1717	mejoría
+#62	AnnotatorNotes T78	C0184511; Improved; Finding
+R44	Experiences Arg1:T65 Arg2:T78	
+R45	Experiences Arg1:T65 Arg2:T68	
+R46	Experiences Arg1:T65 Arg2:T27	
+R47	Experiences Arg1:T65 Arg2:T28	
+R48	Experiences Arg1:T54 Arg2:T18	
+R49	Experiences Arg1:T40 Arg2:T18	
+R50	Experiences Arg1:T55 Arg2:T18	
+R51	Overlap Arg1:T34 Arg2:T60	
+R52	Experiences Arg1:T63 Arg2:T22	
+T79	Quantifier_or_Qualifier 1718 1727	subjetiva
+#63	AnnotatorNotes T79	C0439655; Subjective observation (qualifier value); Qualitative Concept
+R53	Has_Quantifier_or_Qualifier Arg1:T78 Arg2:T79	
+R54	Experiences Arg1:T70 Arg2:T35	
+T80	Observation 1820 1827	mejoría
+#64	AnnotatorNotes T80	C0184511; Improved; Finding (?)
+R55	Experiences Arg1:T70 Arg2:T80	
+R56	Experiences Arg1:T70 Arg2:T69	
+R57	Experiences Arg1:T70 Arg2:T32	
+R58	Used_for Arg1:T30 Arg2:T32	
+T81	Observation 1933 1940	mejoría
+#65	AnnotatorNotes T81	C0439655; Subjective observation (qualifier value); Qualitative Concept
+R59	Experiences Arg1:T70 Arg2:T81	
+T82	PROC 1948 1972	parámetros nutricionales
+#66	AnnotatorNotes T82	C0028708; Nutrition Assessment; Diagnostic Procedure
+T83	PROC 1016 1026;1035 1064	parámetros relacionados con la nutrición
+#67	AnnotatorNotes T83	C0028708; Nutrition Assessment; Diagnostic Procedure
+T84	PROC 1579 1603	parámetros nutricionales
+#68	AnnotatorNotes T84	C0028708; Nutrition Assessment; Diagnostic Procedure
+R60	Experiences Arg1:T70 Arg2:T82	
+T85	Quantifier_or_Qualifier 1973 1982	objetivos
+R61	Has_Quantifier_or_Qualifier Arg1:T82 Arg2:T85	
+T86	Observation 169 196	afecta a la calidad de vida
+#69	AnnotatorNotes T86	C4049260; Impaired quality of life; Finding
+R62	Causes Arg1:T7 Arg2:T86	
+R64	Experiences Arg1:T37 Arg2:T10	
+R65	Experiences Arg1:T37 Arg2:T86	
+T87	Quantifier_or_Qualifier 197 206	percibida
+R67	Has_Quantifier_or_Qualifier Arg1:T44 Arg2:T87	
+#70	AnnotatorNotes T44	C0034380; Quality of life; Idea or Concept
+T88	Observation 482 491	respuesta
+#71	AnnotatorNotes T88	C4055223; Clinical Response; Finding (?)
+R2	Causes Arg1:T14 Arg2:T88	
+#72	AnnotatorNotes T87	C0439655; Subjective observation (qualifier value); Qualitative Concept (?)
+R4	Causes Arg1:T27 Arg2:T78	
+R5	Causes Arg1:T32 Arg2:T81	
+#73	AnnotatorNotes T85	C1571702; Objective observation; Qualitative Concept
+A5	Experiencer T37 Patient
+A6	Experiencer T43 Patient
+A7	Experiencer T48 Patient
+A8	Experiencer T52 Patient
+A9	Experiencer T39 Patient
+A10	Experiencer T53 Patient
+A11	Experiencer T54 Patient
+A12	Experiencer T40 Patient
+A13	Experiencer T55 Patient
+A14	Experiencer T63 Patient
+A15	Experiencer T65 Patient
+A16	Experiencer T70 Patient

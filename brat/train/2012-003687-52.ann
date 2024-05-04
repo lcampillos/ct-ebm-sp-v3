@@ -1,0 +1,260 @@
+T1	PROC 46 92	Estudio aleatorizado, doble ciego y controlado
+T2	PROC 98 118	evaluar la seguridad
+#1	AnnotatorNotes T2	C1705187; Safety Study; Research Activity
+T3	CHEM 136 159	fármacos experimentales
+T4	CHEM 226 236	ribavirina
+#2	AnnotatorNotes T4	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T5	CHEM 238 241	RBV
+#3	AnnotatorNotes T5	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T6	DISO 258 306	infección crónica por el virus de la hepatitis C
+#4	AnnotatorNotes T6	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+T7	PROC 484 530	Estudio aleatorizado, doble ciego y controlado
+T8	PROC 536 570	evaluar la eficacia y la seguridad
+#5	AnnotatorNotes T8	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T9	CHEM 655 665	ribavirina
+#6	AnnotatorNotes T9	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T10	CHEM 667 670	RBV
+#7	AnnotatorNotes T10	C0035525; ribavirin; Nucleic Acid, Nucleoside, or Nucleotide · Pharmacologic Substance
+T11	DISO 687 735	infección crónica por el virus de la hepatitis C
+#8	AnnotatorNotes T11	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+T12	DISO 818 853	Infección Crónica de la Hepatitis C
+T13	PHYS 954 967	posmenopausia
+#9	AnnotatorNotes T13	C0206159; Postmenopause; Organism Function
+T14	DISO 1012 1021	estériles
+#10	AnnotatorNotes T14	C0021359; Infertility; Pathologic Function | C0917730; Female sterility; Finding | C4074771; Sterility, Reproductive; Pathologic Function
+T15	PROC 1056 1079	control de la natalidad
+#11	AnnotatorNotes T15	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T16	DISO 1080 1099	Hepatitis C Crónica
+T17	DISO 1101 1111	infectados
+#12	AnnotatorNotes T17	C0009450; Communicable Diseases; Disease or Syndrome | C0439663; Infected; Finding | C3714514; Infection; Pathologic Function
+T18	CHEM 1141 1144	ARN
+#13	AnnotatorNotes T18	C0035668; RNA; Nucleic Acid, Nucleoside, or Nucleotide
+T19	DISO 1296 1313	cirrósis hepática
+T20	PROC 1222 1243	tratamiento antiviral
+#14	AnnotatorNotes T20	C2363964; Antiviral treatment; Therapeutic or Preventive Procedure
+T21	DISO 1252 1279	infección de la hepatitis C
+T22	DISO 1341 1353	Sensibilidad
+T23	ANAT 1305 1313	hepática
+#15	AnnotatorNotes T23	C0023884; Liver; Body Part, Organ, or Organ Component | C1278929; Entire liver; Body Part, Organ, or Organ Component
+T24	CHEM 1380 1387	fármaco
+#16	AnnotatorNotes T24	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T25	CHEM 1395 1405	medicación
+#17	AnnotatorNotes T25	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
+T26	PROC 1461 1483	Pruebas de laboratorio
+#18	AnnotatorNotes T26	C0022885; Laboratory Procedures; Laboratory Procedure
+T27	CHEM 187 194	ABT-450
+#19	AnnotatorNotes T27	C3712108; ABT-450; Organic Chemical · Pharmacologic Substance
+T28	PROC 1563 1568	HbsAg
+#20	AnnotatorNotes T28	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T29	PROC 1572 1634	anticuerpos contra el virus de la inmunodeficiencia humana VIH
+#21	AnnotatorNotes T29	C3714540; HIV Antibody Measurement; Laboratory Procedure
+T30	CHEM 637 644	ABT-333
+#22	AnnotatorNotes T30	C3850285; ABT-333; Organic Chemical · Pharmacologic Substance
+T31	DISO 308 311	VHC
+#23	AnnotatorNotes T31	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+T32	CHEM 626 633	ABT-267
+#24	AnnotatorNotes T32	C3713322; ABT-267; Organic Chemical · Pharmacologic Substance
+T33	CHEM 1234 1243	antiviral
+#25	AnnotatorNotes T33	C0003451; Antiviral Agents; Pharmacologic Substance
+T34	PROC 1521 1561	antígeno de superficie de la hepatitis B
+#26	AnnotatorNotes T34	C0201477; Hepatitis B surface antigen measurement; Laboratory Procedure
+T35	PROC 329 337	tratados
+#27	AnnotatorNotes T35	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T36	PROC 1636 1647	Ac anti-VIH
+T37	CHEM 160 167	ABT-450
+#28	AnnotatorNotes T37	C3712108; ABT-450; Organic Chemical · Pharmacologic Substance
+T38	CHEM 197 204	ABT-267
+#29	AnnotatorNotes T38	C3713322; ABT-267; Organic Chemical · Pharmacologic Substance
+T39	CHEM 178 185	ABT-267
+#30	AnnotatorNotes T39	C3713322; ABT-267; Organic Chemical · Pharmacologic Substance
+T40	CHEM 208 215	ABT-333
+#31	AnnotatorNotes T40	C3850285; ABT-333; Organic Chemical · Pharmacologic Substance
+T41	CHEM 168 177	ritonavir
+#32	AnnotatorNotes T41	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T42	CHEM 589 596	ABT-450
+#33	AnnotatorNotes T42	C3712108; ABT-450; Organic Chemical · Pharmacologic Substance
+T43	CHEM 597 606	ritonavir
+#34	AnnotatorNotes T43	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T44	CHEM 607 614	ABT-267
+#35	AnnotatorNotes T44	C3713322; ABT-267; Organic Chemical · Pharmacologic Substance
+T45	CHEM 616 623	ABT-450
+#36	AnnotatorNotes T45	C3712108; ABT-450; Organic Chemical · Pharmacologic Substance
+T46	PROC 1132 1152	nivel de ARN del VHC
+T47	PROC 762 770	tratados
+#37	AnnotatorNotes T47	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T48	DISO 737 740	VHC
+#38	AnnotatorNotes T48	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+T49	Date 13 17	2012
+T50	Neg_cue 222 225	sin
+T51	LIVB 246 253	adultos
+#39	AnnotatorNotes T51	C0001675; Adult; Age Group
+T52	Duration 268 275	crónica
+#40	AnnotatorNotes T52	C0205191; chronic; Temporal Concept
+T53	LIVB 283 306	virus de la hepatitis C
+#41	AnnotatorNotes T53	C0220847; hepatitis C virus; Virus
+T55	Neg_cue 317 319	no
+T57	Neg_cue 651 654	sin
+T58	LIVB 675 682	adultos
+#42	AnnotatorNotes T58	C0001675; Adult; Age Group
+T59	Duration 697 704	crónica
+#43	AnnotatorNotes T59	C0205191; chronic; Temporal Concept
+T60	LIVB 712 735	virus de la hepatitis C
+#44	AnnotatorNotes T60	C0220847; hepatitis C virus; Virus
+T62	PROC 746 754	genotipo
+#45	AnnotatorNotes T62	C1285573; Genotype determination; Laboratory Procedure
+T63	Neg_cue 759 761	no
+T64	Duration 828 835	Crónica
+#46	AnnotatorNotes T64	C0205191; chronic; Temporal Concept
+T65	LIVB 890 897	mujeres
+#47	AnnotatorNotes T65	C0043210; Woman; Population Group
+T66	Age 898 913	de 18 a 70 años
+T67	LIVB 931 938	Mujeres
+#48	AnnotatorNotes T67	C0043210; Woman; Population Group
+T69	Duration 976 989	más de 2 años
+T70	Duration 1092 1099	Crónica
+#49	AnnotatorNotes T70	C0205191; chronic; Temporal Concept
+T71	PROC 1119 1127	genotipo
+#50	AnnotatorNotes T71	C1285573; Genotype determination; Laboratory Procedure
+T72	LIVB 1149 1152	VHC
+#51	AnnotatorNotes T72	C0220847; hepatitis C virus; Virus
+T75	LIVB 1193 1202	Pacientes
+#52	AnnotatorNotes T75	C0030705; Patients; Patient or Disabled Group
+T76	Neg_cue 1203 1208	nunca
+T77	Neg_cue 1280 1282	No
+T79	Duration 1431 1444	las 2 semanas
+T80	LIVB 1594 1630	virus de la inmunodeficiencia humana
+#53	AnnotatorNotes T80	C0019682; HIV; Virus
+T81	LIVB 1631 1634	VIH
+#54	AnnotatorNotes T81	C0019682; HIV; Virus
+T82	LIVB 1644 1647	VIH
+#55	AnnotatorNotes T82	C0019682; HIV; Virus
+T54	LIVB 880 887	Varones
+#56	AnnotatorNotes T54	C0025266; Male population group; Population Group
+T56	DISO 1550 1561	hepatitis B
+#57	AnnotatorNotes T56	C0019163; Hepatitis B; Disease or Syndrome
+A1	Population_data T51 Age
+A2	Assertion T4 Negated
+A3	Assertion T5 Negated
+A4	Assertion T35 Negated
+A5	Assertion T9 Negated
+A6	Assertion T10 Negated
+A7	Population_data T58 Age
+A8	Assertion T47 Negated
+A9	Assertion T20 Negated
+A10	Assertion T19 Negated
+A11	Status T35 History_of
+A12	Status T22 History_of
+A13	Assertion T25 Contraindicated
+#58	AnnotatorNotes T1	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity
+#59	AnnotatorNotes T3	C0304229; Experimental drug; Pharmacologic Substance
+#60	AnnotatorNotes T7	C0206035; Controlled Clinical Trials, Randomized; Research Activity + C0013072; Double-Blind Method; Research Activity
+#61	AnnotatorNotes T12	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+#62	AnnotatorNotes T21	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+#63	AnnotatorNotes T16	C0524910; Hepatitis C, Chronic; Disease or Syndrome
+#64	AnnotatorNotes T19	C0023890; Liver Cirrhosis; Disease or Syndrome
+#65	AnnotatorNotes T22	C0020517; Hypersensitivity; Pathologic Function
+#66	AnnotatorNotes T36	C3714540; HIV Antibody Measurement; Laboratory Procedure
+T61	Neg_cue 383 385	no
+T68	Quantifier_or_Qualifier 395 404	aprobados
+A14	Assertion T68 Negated
+#67	AnnotatorNotes T68	C0205540; Approved; Qualitative Concept
+T73	Observation 121 127	efecto
+#68	AnnotatorNotes T73	C1518681; Outcome of Therapy; Finding (?)
+R1	Causes Arg1:T3 Arg2:T73	
+R2	Causes Arg1:T37 Arg2:T73	
+R3	Causes Arg1:T41 Arg2:T73	
+R4	Causes Arg1:T39 Arg2:T73	
+R5	Combined_with Arg1:T37 Arg2:T41	
+R6	Combined_with Arg1:T41 Arg2:T39	
+R8	Combined_with Arg1:T27 Arg2:T38	
+R9	Combined_with Arg1:T38 Arg2:T40	
+R10	Combined_with Arg1:T39 Arg2:T40	
+R7	Combined_with Arg1:T40 Arg2:T4	
+R11	Negation Arg1:T50 Arg2:T4	
+R12	Combined_with Arg1:T40 Arg2:T5	
+R13	Experiences Arg1:T51 Arg2:T73	
+R14	Experiences Arg1:T51 Arg2:T3	
+R15	Experiences Arg1:T51 Arg2:T37	
+R16	Experiences Arg1:T51 Arg2:T6	
+R17	Has_Duration_or_Interval Arg1:T6 Arg2:T52	
+R18	Causes Arg1:T53 Arg2:T6	
+R19	Experiences Arg1:T51 Arg2:T31	
+R20	Negation Arg1:T55 Arg2:T35	
+R21	Experiences Arg1:T51 Arg2:T35	
+R22	Negation Arg1:T61 Arg2:T68	
+R23	Combined_with Arg1:T42 Arg2:T43	
+R24	Combined_with Arg1:T43 Arg2:T44	
+R25	Combined_with Arg1:T45 Arg2:T32	
+R26	Combined_with Arg1:T32 Arg2:T30	
+R27	Combined_with Arg1:T44 Arg2:T30	
+R28	Negation Arg1:T57 Arg2:T9	
+R29	Negation Arg1:T50 Arg2:T5	
+R30	Negation Arg1:T57 Arg2:T10	
+R31	Combined_with Arg1:T30 Arg2:T9	
+R32	Combined_with Arg1:T30 Arg2:T10	
+R33	Experiences Arg1:T58 Arg2:T42	
+R34	Experiences Arg1:T58 Arg2:T11	
+R35	Has_Duration_or_Interval Arg1:T11 Arg2:T59	
+R36	Causes Arg1:T60 Arg2:T11	
+R37	Causes Arg1:T53 Arg2:T31	
+R38	Causes Arg1:T60 Arg2:T48	
+T74	Quantifier_or_Qualifier 746 757	genotipo 1b
+R39	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T74	
+R40	Experiences Arg1:T58 Arg2:T62	
+R41	Negation Arg1:T63 Arg2:T47	
+R42	Experiences Arg1:T58 Arg2:T47	
+R43	Has_Duration_or_Interval Arg1:T12 Arg2:T64	
+R44	Has_Age Arg1:T54 Arg2:T66	
+R45	Has_Age Arg1:T65 Arg2:T66	
+R46	Experiences Arg1:T67 Arg2:T13	
+R47	Has_Duration_or_Interval Arg1:T13 Arg2:T69	
+T78	PROC 996 1021	quirúrgicamente estériles
+#69	AnnotatorNotes T78	C0015787; Female Sterilization; Therapeutic or Preventive Procedure (?)
+R48	Experiences Arg1:T67 Arg2:T78	
+A15	Status T78 History_of
+R49	Experiences Arg1:T67 Arg2:T14	
+R50	Experiences Arg1:T67 Arg2:T15	
+R51	Has_Duration_or_Interval Arg1:T16 Arg2:T70	
+T83	Quantifier_or_Qualifier 1119 1130	genotipo 1b
+T84	Result_or_Value 1153 1174	mayor de 10.000 UI/ml
+R52	Has_Result_or_Value Arg1:T46 Arg2:T84	
+R53	Has_Quantifier_or_Qualifier Arg1:T72 Arg2:T83	
+R54	Causes Arg1:T72 Arg2:T16	
+R55	Causes Arg1:T72 Arg2:T17	
+T85	PROC 1181 1190	selección
+#70	AnnotatorNotes T85	C0242802; Patient Selection; Research Activity
+R56	Overlap Arg1:T46 Arg2:T85	
+R57	Negation Arg1:T76 Arg2:T20	
+R58	Negation Arg1:T76 Arg2:T33	
+A16	Assertion T33 Negated
+R59	Used_for Arg1:T33 Arg2:T20	
+R60	Experiences Arg1:T75 Arg2:T21	
+R61	Experiences Arg1:T75 Arg2:T20	
+R62	Location_of Arg1:T23 Arg2:T19	
+R63	Negation Arg1:T77 Arg2:T19	
+R64	Causes Arg1:T24 Arg2:T22	
+T86	Quantifier_or_Qualifier 1354 1367	significativa
+#71	AnnotatorNotes T86	C1546944; Event Seriousness - Significant; Qualitative Concept
+R65	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T86	
+R66	Overlap Arg1:T25 Arg2:T79	
+T87	CONC 1448 1460	dosificación
+R67	Has_Duration_or_Interval Arg1:T87 Arg2:T79	
+T88	Observation 1461 1493	Pruebas de laboratorio anormales
+#72	AnnotatorNotes T88	C3648370; laboratory tests nonspecific abnormal findings; Finding
+T89	Result_or_Value 1494 1512	Resultado positivo
+#73	AnnotatorNotes T89	C1446409; Positive; Finding
+R68	Has_Result_or_Value Arg1:T34 Arg2:T89	
+R69	Has_Result_or_Value Arg1:T28 Arg2:T89	
+R70	Causes Arg1:T80 Arg2:T89	
+R71	Has_Result_or_Value Arg1:T29 Arg2:T89	
+R72	Has_Result_or_Value Arg1:T36 Arg2:T89	
+R73	Causes Arg1:T81 Arg2:T89	
+R74	Causes Arg1:T82 Arg2:T89	
+#74	AnnotatorNotes T87	C0178602; Dosage; Quantitative Concept
+#75	AnnotatorNotes T46	C4553146; Hepatitis C Virus RNA Measurement; Laboratory Procedure
+A17	Experiencer T51 Patient
+A18	Experiencer T58 Patient
+A19	Experiencer T65 Patient
+A20	Experiencer T54 Patient
+A21	Experiencer T67 Patient
+A22	Experiencer T75 Patient

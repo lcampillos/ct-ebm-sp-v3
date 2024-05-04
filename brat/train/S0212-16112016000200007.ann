@@ -1,0 +1,228 @@
+T1	ANAT 33 41	calostro
+#1	AnnotatorNotes T1	C0009413; Colostrum; Body Substance
+T2	PROC 847 860	procedimiento
+#2	AnnotatorNotes T2	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure | C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T3	DISO 72 82	prematuros
+#3	AnnotatorNotes T3	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T4	CHEM 104 121	inmunoglobulina A
+#4	AnnotatorNotes T4	C0020835; immunoglobulin A; Amino Acid, Peptide, or Protein · Immunologic Factor
+T5	DISO 182 187	RNMBP
+#5	AnnotatorNotes T5	C0745272; INFANT PRETERM VERY LOW BIRTH WEIGHT; Finding
+T6	DISO 140 180	recién nacido prematuro de muy bajo peso
+#6	AnnotatorNotes T6	C0745272; INFANT PRETERM VERY LOW BIRTH WEIGHT; Finding
+T7	ANAT 358 366	calostro
+#7	AnnotatorNotes T7	C0009413; Colostrum; Body Substance
+T8	CHEM 455 472	inmunoglobulina A
+#8	AnnotatorNotes T8	C0020835; immunoglobulin A; Amino Acid, Peptide, or Protein · Immunologic Factor
+T9	DISO 1681 1686	RNMBP
+#9	AnnotatorNotes T9	C0745272; INFANT PRETERM VERY LOW BIRTH WEIGHT; Finding
+T10	ANAT 479 485	sérica
+#10	AnnotatorNotes T10	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T11	DISO 489 531	recién nacidos prematuros de muy bajo peso
+#11	AnnotatorNotes T11	C0745272; INFANT PRETERM VERY LOW BIRTH WEIGHT; Finding
+T12	PROC 601 658	estudio de intervención no aleatorizado con grupo control
+#12	AnnotatorNotes T12	C2985410; Nonrandomized; Research Activity + C3274035; Interventional Study; Research Activity + C0007328; Case-Control Studies; Research Activity
+T13	ANAT 801 809	calostro
+#13	AnnotatorNotes T13	C0009413; Colostrum; Body Substance
+T14	CHEM 946 949	IgA
+#14	AnnotatorNotes T14	C0020835; immunoglobulin A; Amino Acid, Peptide, or Protein · Immunologic Factor
+T15	ANAT 956 962	sangre
+#15	AnnotatorNotes T15	C0005767; Blood; Body Substance
+T16	PROC 1081 1092	seguimiento
+#16	AnnotatorNotes T16	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T17	CHEM 1107 1110	IgA
+#17	AnnotatorNotes T17	C0020835; immunoglobulin A; Amino Acid, Peptide, or Protein · Immunologic Factor
+T18	ANAT 1111 1117	sérica
+#18	AnnotatorNotes T18	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T19	CHEM 1405 1408	IgA
+#19	AnnotatorNotes T19	C0020835; immunoglobulin A; Amino Acid, Peptide, or Protein · Immunologic Factor
+T20	ANAT 1409 1415	sérica
+#20	AnnotatorNotes T20	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
+T21	ANAT 1574 1582	calostro
+#21	AnnotatorNotes T21	C0009413; Colostrum; Body Substance
+T22	ANAT 1625 1645	sistema inmunológico
+#22	AnnotatorNotes T22	C0020962; Immune system; Body System | C1305754; Entire immune system; Body System
+T23	DISO 1668 1678	prematuros
+#23	AnnotatorNotes T23	C0021294; Infant, Premature; Finding | C0728731; Prematurity of fetus; Finding
+T24	PROC 1711 1714	IgA
+#24	AnnotatorNotes T24	C0202083; Immunoglobulin A measurement; Laboratory Procedure
+T25	PROC 15 53	administración de calostro orofaríngeo
+T26	PROC 93 121	niveles de inmunoglobulina A
+#25	AnnotatorNotes T26	C0202083; Immunoglobulin A measurement; Laboratory Procedure
+T27	PROC 340 378	administración de calostro orofaríngeo
+T28	PROC 444 485	niveles de inmunoglobulina A (IgA) sérica
+#26	AnnotatorNotes T28	C2711348; Measurement of immunoglobulin A in serum specimen; Laboratory Procedure
+T29	CHEM 474 477	IgA
+#27	AnnotatorNotes T29	C0020835; immunoglobulin A; Amino Acid, Peptide, or Protein · Immunologic Factor
+T30	LIVB 687 701	recién nacidos
+#28	AnnotatorNotes T30	C0021289; Infant, Newborn; Age Group
+T31	PROC 935 962	niveles de IgA en la sangre
+#29	AnnotatorNotes T31	C0854061; Blood immunoglobulin A; Laboratory Procedure
+T32	PROC 1107 1117	IgA sérica
+#30	AnnotatorNotes T32	C2711348; Measurement of immunoglobulin A in serum specimen; Laboratory Procedure
+T33	PROC 1181 1193	intervención
+#31	AnnotatorNotes T33	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T34	PROC 1394 1415	niveles de IgA sérica
+#32	AnnotatorNotes T34	C2711348; Measurement of immunoglobulin A in serum specimen; Laboratory Procedure
+T35	PROC 1465 1477	intervención
+#33	AnnotatorNotes T35	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T36	PROC 1556 1594	administración de calostro orofaríngeo
+T37	Route 42 53	orofaríngeo
+#34	AnnotatorNotes T37	C1522409; Oropharyngeal Route of Drug Administration; Functional Concept
+T39	Route 367 378	orofaríngeo
+#35	AnnotatorNotes T39	C1522409; Oropharyngeal Route of Drug Administration; Functional Concept
+T40	Duration 401 432	los primeros 15 días posnatales
+T41	Duration 540 553	el primer mes
+T43	LIVB 645 658	grupo control
+#36	AnnotatorNotes T43	C0009932; Control Groups; Group
+T45	Duration 706 722	≤ 32 + 6 semanas
+T46	PHYS 726 735	gestación
+#37	AnnotatorNotes T46	C0032961; Pregnancy; Organism Function
+T48	LIVB 772 779	sujetos
+#38	AnnotatorNotes T48	C0681850; Study Subject; Group
+T49	Dose 791 797	0,2 ml
+T50	LIVB 816 821	madre
+#39	AnnotatorNotes T50	C0026591; Mother (person); Family Group
+T51	Frequency 822 830	cada 4 h
+T52	Duration 864 881	las primeras 24 h
+T53	PHYS 966 976	nacimiento
+#40	AnnotatorNotes T53	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T54	Date 1031 1042	perinatales
+#41	AnnotatorNotes T54	C0178795; Perinatal period; Temporal Concept
+T55	PHYS 1046 1056	nacimiento
+#42	AnnotatorNotes T55	C0005615; Birth; Organism Function | C1148523; Childbirth; Organism Function
+T56	LIVB 1172 1193	grupo de intervención
+#43	AnnotatorNotes T56	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T61	LIVB 1276 1289	grupo control
+#44	AnnotatorNotes T61	C0009932; Control Groups; Group
+T66	Duration 1377 1380	mes
+T68	LIVB 1456 1477	grupo de intervención
+#45	AnnotatorNotes T68	C2986530; Intervention Group; Population Group | C5205743; Experimental Group; Population Group
+T69	LIVB 1488 1501	grupo control
+#46	AnnotatorNotes T69	C0009932; Control Groups; Group
+T71	Route 1583 1594	orofaríngeo
+#47	AnnotatorNotes T71	C1522409; Oropharyngeal Route of Drug Administration; Functional Concept
+T72	Duration 1718 1721	mes
+T73	LIVB 57 82	recién nacidos prematuros
+#48	AnnotatorNotes T73	C4048294; Preterm Infant; Age Group
+T75	LIVB 140 163	recién nacido prematuro
+#49	AnnotatorNotes T75	C4048294; Preterm Infant; Age Group
+T78	LIVB 489 514	recién nacidos prematuros
+#50	AnnotatorNotes T78	C4048294; Preterm Infant; Age Group
+T81	LIVB 1653 1678	recién nacidos prematuros
+#51	AnnotatorNotes T81	C4048294; Preterm Infant; Age Group
+T74	PHYS 281 288	defensa
+#52	AnnotatorNotes T74	C1817756; Immune System Processes; Organ or Tissue Function
+T38	Date 896 917	el 15.o día postnatal
+T42	Duration 978 1000	3.er, 15.o y 30.o días
+T44	PROC 762 766	peso
+#53	AnnotatorNotes T44	C2985231; Body Weight Measurement; Diagnostic Procedure
+T47	PHYS 1610 1645	desarrollo del sistema inmunológico
+#54	AnnotatorNotes T47	C1817972; immune system development; Biologic Function
+A1	Population_data T73 Age
+A2	Population_data T75 Age
+A3	Population_data T78 Age
+A4	Population_data T81 Age
+A5	Population_data T30 Age
+T57	Neg_cue 625 627	no
+T58	Quantifier_or_Qualifier 628 640	aleatorizado
+A6	Assertion T58 Negated
+R1	Negation Arg1:T57 Arg2:T58	
+R2	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T58	
+T59	Observation 313 320	efectos
+A7	Assertion T59 Speculated
+#55	AnnotatorNotes T59	C0235735; Unexpected therapeutic effect; Finding (?)
+T60	Spec_cue 325 330	pueda
+R3	Speculation Arg1:T60 Arg2:T59	
+R4	Before Arg1:T27 Arg2:T59	
+T62	Spec_cue 1541 1548	sugiere
+A8	Assertion T47 Speculated
+R5	Speculation Arg1:T62 Arg2:T47	
+R6	Before Arg1:T36 Arg2:T47	
+R7	Experiences Arg1:T81 Arg2:T47	
+R8	Experiences Arg1:T81 Arg2:T23	
+R9	Overlap Arg1:T24 Arg2:T72	
+R10	Has_Route_or_Mode Arg1:T36 Arg2:T71	
+R11	Experiences Arg1:T81 Arg2:T36	
+R12	Used_for Arg1:T1 Arg2:T25	
+R13	Has_Route_or_Mode Arg1:T25 Arg2:T37	
+R14	Experiences Arg1:T73 Arg2:T3	
+R15	Experiences Arg1:T73 Arg2:T25	
+R16	Experiences Arg1:T73 Arg2:T26	
+R17	Experiences Arg1:T75 Arg2:T6	
+R18	Experiences Arg1:T75 Arg2:T5	
+T63	Observation 192 218	inmunológicamente inmaduro
+R19	Experiences Arg1:T75 Arg2:T63	
+T64	Observation 241 288	alteración de las barreras naturales de defensa
+R21	Experiences Arg1:T75 Arg2:T64	
+R22	Used_for Arg1:T7 Arg2:T27	
+R23	Has_Route_or_Mode Arg1:T27 Arg2:T39	
+R24	Has_Duration_or_Interval Arg1:T27 Arg2:T40	
+R25	Location_of Arg1:T10 Arg2:T28	
+R26	Experiences Arg1:T78 Arg2:T11	
+R27	Experiences Arg1:T78 Arg2:T28	
+R28	Experiences Arg1:T78 Arg2:T27	
+R29	Experiences Arg1:T78 Arg2:T59	
+R32	Overlap Arg1:T28 Arg2:T41	
+R33	Has_Duration_or_Interval Arg1:T59 Arg2:T41	
+R34	Experiences Arg1:T43 Arg2:T44	
+R35	Experiences Arg1:T30 Arg2:T44	
+R36	Has_Duration_or_Interval Arg1:T46 Arg2:T45	
+T65	Result_or_Value 740 758	menores de 1.500 g
+R37	Has_Result_or_Value Arg1:T44 Arg2:T65	
+R38	Has_Dose_or_Strength Arg1:T13 Arg2:T49	
+R39	Has_Frequency Arg1:T13 Arg2:T51	
+R40	Experiences Arg1:T48 Arg2:T13	
+R41	Used_for Arg1:T13 Arg2:T2	
+R42	After Arg1:T2 Arg2:T52	
+R43	Experiences Arg1:T48 Arg2:T2	
+R44	Before Arg1:T2 Arg2:T38	
+R45	Location_of Arg1:T15 Arg2:T31	
+R46	Overlap Arg1:T31 Arg2:T53	
+R47	Overlap Arg1:T31 Arg2:T42	
+T67	PROC 1010 1030	Se registraron datos
+#56	AnnotatorNotes T67	C0010995; Data Collection; Research Activity | C0262727; Research data collection; Research Activity
+R48	Overlap Arg1:T67 Arg2:T54	
+R49	Overlap Arg1:T67 Arg2:T55	
+R50	Overlap Arg1:T67 Arg2:T16	
+R51	Location_of Arg1:T18 Arg2:T32	
+R52	Experiences Arg1:T56 Arg2:T33	
+R53	Experiences Arg1:T56 Arg2:T32	
+R54	Experiences Arg1:T61 Arg2:T32	
+T70	Observation 1107 1125	IgA sérica aumentó
+#57	AnnotatorNotes T70	C0239984; Increased circulating IgA level; Finding (?)
+R55	Experiences Arg1:T56 Arg2:T70	
+R56	Experiences Arg1:T61 Arg2:T70	
+R57	Overlap Arg1:T34 Arg2:T66	
+R58	Location_of Arg1:T20 Arg2:T34	
+R59	Experiences Arg1:T68 Arg2:T34	
+R60	Experiences Arg1:T68 Arg2:T35	
+R61	Experiences Arg1:T69 Arg2:T34	
+R62	Before Arg1:T33 Arg2:T70	
+R64	Used_for Arg1:T21 Arg2:T36	
+T76	Observation 1700 1714	aumento de IgA
+#58	AnnotatorNotes T76	C0239984; Increased circulating IgA level; Finding (?)
+R65	Experiences Arg1:T81 Arg2:T76	
+R66	Experiences Arg1:T81 Arg2:T24	
+R67	Location_of Arg1:T22 Arg2:T47	
+R68	Before Arg1:T36 Arg2:T76	
+R69	Overlap Arg1:T47 Arg2:T76	
+R70	Experiences Arg1:T81 Arg2:T9	
+T77	Observation 1 8	Efectos
+#59	AnnotatorNotes T77	C1518681; Outcome of Therapy; Finding (?)
+R71	Causes Arg1:T25 Arg2:T77	
+R72	Experiences Arg1:T73 Arg2:T77	
+A9	Experiencer T73 Patient
+A10	Experiencer T75 Patient
+A11	Experiencer T78 Patient
+A12	Experiencer T43 Patient
+A13	Experiencer T30 Patient
+A14	Experiencer T48 Patient
+A15	Experiencer T50 Family_member
+A16	Experiencer T56 Patient
+A17	Experiencer T61 Patient
+A18	Experiencer T68 Patient
+A19	Experiencer T69 Patient
+A20	Experiencer T81 Patient
+R20	Has_Result_or_Value Arg1:T24 Arg2:T76	
+R30	Has_Result_or_Value Arg1:T32 Arg2:T70	

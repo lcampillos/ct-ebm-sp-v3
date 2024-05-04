@@ -1,0 +1,96 @@
+T1	DISO 5 38	infecciones asociadas a catéteres
+#1	AnnotatorNotes T1	C0860239; Catheter related infection; Pathologic Function
+T2	PROC 298 393	Estudio colaborativo multicéntrico, clínico-epidemiológico, cuasi experimental, de intervención
+T3	PROC 670 701	educación del personal de salud
+T4	PROC 785 794	monitoreo
+#2	AnnotatorNotes T4	C1283169; Monitoring; Health Care Activity
+T5	PROC 456 466	internados
+#3	AnnotatorNotes T5	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T6	DISO 868 871	IAC
+#4	AnnotatorNotes T6	C0860239; Catheter related infection; Pathologic Function
+T7	PROC 707 729	inserción de catéteres
+#5	AnnotatorNotes T7	C0007430; Catheterization; Therapeutic or Preventive Procedure | C0883301; Catheter placement; Therapeutic or Preventive Procedure
+T8	ANAT 743 748	manos
+#6	AnnotatorNotes T8	C0018563; Hand; Body Part, Organ, or Organ Component | C1281583; Entire hand; Body Part, Organ, or Organ Component | C3714557; Hand structure; Body Part, Organ, or Organ Component
+T9	PROC 751 780	uso de listas de verificación
+T10	DISO 1342 1345	IAC
+#7	AnnotatorNotes T10	C0860239; Catheter related infection; Pathologic Function
+T11	PROC 1380 1390	vigilancia
+#8	AnnotatorNotes T11	C0733511; Medical Surveillance; Health Care Activity
+T12	PROC 1492 1511	vigilancia continua
+#9	AnnotatorNotes T12	C1999123; Continuous Surveillance; Health Care Activity
+T13	PROC 939 966	implementación del programa
+#10	AnnotatorNotes T13	C0018726; Health Plan Implementation; Health Care Activity
+T15	DISO 1005 1008	IAC
+#11	AnnotatorNotes T15	C0860239; Catheter related infection; Pathologic Function
+T16	PROC 885 914	uso de catéter venoso central
+T18	PROC 1184 1213	uso de catéter venoso central
+T20	PROC 1477 1486	educación
+#12	AnnotatorNotes T20	C0030688; Patient education (procedure); Educational Activity
+T21	DISO 40 43	IAC
+#13	AnnotatorNotes T21	C0860239; Catheter related infection; Pathologic Function
+T22	DISO 207 210	IAC
+#14	AnnotatorNotes T22	C0860239; Catheter related infection; Pathologic Function
+T23	DISO 1398 1401	IAC
+#15	AnnotatorNotes T23	C0860239; Catheter related infection; Pathologic Function
+T24	PROC 732 748	higiene de manos
+#16	AnnotatorNotes T24	C4544100; Education about hand hygiene; Educational Activity
+T25	DEVI 29 38	catéteres
+#17	AnnotatorNotes T25	C0085590; catheter device; Medical Device
+T26	LIVB 423 428	niños
+#18	AnnotatorNotes T26	C0008059; Child; Age Group
+T27	DEVI 433 455	catéter venoso central
+#19	AnnotatorNotes T27	C1145640; Central venous catheter, device; Medical Device
+T28	Date 590 603	junio de 2011
+T29	Date 606 619	abril de 2012
+T30	Frequency 859 864	anual
+T31	DEVI 892 914	catéter venoso central
+#20	AnnotatorNotes T31	C1145640; Central venous catheter, device; Medical Device
+T32	DEVI 1191 1213	catéter venoso central
+#21	AnnotatorNotes T32	C1145640; Central venous catheter, device; Medical Device
+T35	LIVB 277 286	Población
+#22	AnnotatorNotes T35	C1257890; Population; Population Group
+T36	DEVI 720 729	catéteres
+#23	AnnotatorNotes T36	C0085590; catheter device; Medical Device
+T41	Date 1009 1024	preintervención
+#24	AnnotatorNotes T41	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
+T33	Date 1099 1114	posintervención
+#25	AnnotatorNotes T33	C0032790; Postoperative Period; Temporal Concept
+T34	LIVB 684 701	personal de salud
+#26	AnnotatorNotes T34	C1704312; Health Professional; Professional or Occupational Group
+A1	Population_data T26 Age
+T14	Quantifier_or_Qualifier 1252 1265	significativa
+A2	Assertion T14 Negated
+#27	AnnotatorNotes T14	C0750502; Significant; Idea or Concept
+T17	Neg_cue 1249 1251	no
+R1	Negation Arg1:T17 Arg2:T14	
+T19	CONC 1238 1248	diferencia
+#28	AnnotatorNotes T19	C1705241; Delta (difference); Quantitative Concept
+R2	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T14	
+R3	Overlap Arg1:T1 Arg2:T25	
+R4	Overlap Arg1:T25 Arg2:T21	
+T37	Observation 63 78	morbimortalidad
+T38	Result_or_Value 55 62	elevada
+R5	Has_Result_or_Value Arg1:T37 Arg2:T38	
+R6	Causes Arg1:T1 Arg2:T37	
+R7	Experiences Arg1:T26 Arg2:T5	
+R8	After Arg1:T5 Arg2:T28	
+R9	Before Arg1:T5 Arg2:T29	
+R10	Used_for Arg1:T36 Arg2:T7	
+R11	Location_of Arg1:T8 Arg2:T24	
+R16	Used_for Arg1:T31 Arg2:T16	
+R17	Before Arg1:T16 Arg2:T13	
+R18	After Arg1:T16 Arg2:T13	
+R19	Has_Frequency Arg1:T6 Arg2:T30	
+R20	Overlap Arg1:T6 Arg2:T31	
+R21	Overlap Arg1:T15 Arg2:T41	
+R22	Used_for Arg1:T32 Arg2:T18	
+R23	Overlap Arg1:T11 Arg2:T23	
+R24	Experiences Arg1:T26 Arg2:T27	
+#29	AnnotatorNotes T38	C3163633; Elevated; Qualitative Concept
+#30	AnnotatorNotes T3	C0596658; health care personnel education; Educational Activity
+#31	AnnotatorNotes T16	C5769139; Central venous catheter injection; Therapeutic or Preventive Procedure (?) 
+#32	AnnotatorNotes T18	C5769139; Central venous catheter injection; Therapeutic or Preventive Procedure (?)
+A3	Experiencer T35 Patient
+A4	Experiencer T26 Patient
+A5	Experiencer T34 Other

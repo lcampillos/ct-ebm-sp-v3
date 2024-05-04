@@ -1,0 +1,99 @@
+T1	CHEM 63 71	albúmina
+#1	AnnotatorNotes T1	C0001924; Albumins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T2	DISO 95 111	disfunción renal
+#2	AnnotatorNotes T2	C0151746; Abnormal renal function; Pathologic Function | C1565489; Renal Insufficiency; Disease or Syndrome
+T3	PROC 132 148	cirugía cardiaca
+#3	AnnotatorNotes T3	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T4	PROC 154 179	circulación extracorpórea
+#4	AnnotatorNotes T4	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T5	PROC 289 305	cirugía cardiaca
+#5	AnnotatorNotes T5	C0018821; Cardiac Surgery procedures; Therapeutic or Preventive Procedure
+T6	ANAT 140 148	cardiaca
+#6	AnnotatorNotes T6	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T7	PROC 334 337	TFG
+#7	AnnotatorNotes T7	C0017654; Glomerular Filtration Rate; Diagnostic Procedure
+T8	PROC 359 404	fracción de eyección del ventrículo izquierdo
+#8	AnnotatorNotes T8	C2114363; left ventricular ejection fraction assessment; Therapeutic or Preventive Procedure
+T9	ANAT 384 404	ventrículo izquierdo
+#9	AnnotatorNotes T9	C0225897; Left ventricular structure; Body Part, Organ, or Organ Component | C1269892; Entire left ventricle; Body Part, Organ, or Organ Component
+T10	ANAT 297 305	cardiaca
+#10	AnnotatorNotes T10	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T11	DISO 579 599	reacciones alérgicas
+#11	AnnotatorNotes T11	C1527304; Allergic Reaction; Pathologic Function
+T12	CHEM 654 670	contraste yodado
+#12	AnnotatorNotes T12	C1960405; Iodinated contrast media; Indicator, Reagent, or Diagnostic Aid
+T13	PROC 706 718	intervención
+#13	AnnotatorNotes T13	C0184661; Interventional procedure; Therapeutic or Preventive Procedure
+T14	ANAT 106 111	renal
+#14	AnnotatorNotes T14	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T15	ANAT 211 216	renal
+#15	AnnotatorNotes T15	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
+T16	PROC 315 318	CEC
+#16	AnnotatorNotes T16	C0015354; Extracorporeal Circulation; Therapeutic or Preventive Procedure
+T17	CHEM 605 613	albúmina
+#17	AnnotatorNotes T17	C0001924; Albumins; Amino Acid, Peptide, or Protein · Biologically Active Substance
+T18	Date 13 17	2017
+T19	LIVB 243 260	Pacientes adultos
+#18	AnnotatorNotes T19	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
+T21	Age 262 270	>18 años
+T23	LIVB 486 495	pacientes
+#19	AnnotatorNotes T23	C0030705; Patients; Patient or Disabled Group
+T25	Duration 679 689	los 7 días
+T26	LIVB 725 744	mujeres embarazadas
+#20	AnnotatorNotes T26	C0033011; Pregnant Women; Population Group
+T27	PHYS 371 404	eyección del ventrículo izquierdo
+#21	AnnotatorNotes T27	C2733342; Left ventricular ejection; Physiologic Function
+T20	PHYS 203 216	Función renal
+#22	AnnotatorNotes T20	C0232804; Renal function; Organ or Tissue Function
+T22	Neg_cue 457 469	Se excluirán
+T24	PHYS 733 744	embarazadas
+#23	AnnotatorNotes T24	C0032961; Pregnancy; Organism Function
+A1	Population_data T19 Age
+A2	Assertion T23 Negated
+A3	Assertion T26 Negated
+A4	Assertion T11 Negated
+A5	Assertion T12 Negated
+A6	Assertion T24 Negated
+A7	Status T11 History_of
+T28	Neg_cue 500 502	no
+T29	Observation 503 537	cumplan los criterios de inclusión
+A8	Assertion T29 Negated
+#24	AnnotatorNotes T29	C4329786; Eligibility Criteria Met By Subject; Finding
+R1	Negation Arg1:T22 Arg2:T12	
+R3	Negation Arg1:T28 Arg2:T29	
+R4	Negation Arg1:T22 Arg2:T11	
+R5	Causes Arg1:T17 Arg2:T11	
+R6	Negation Arg1:T22 Arg2:T26	
+R7	Negation Arg1:T22 Arg2:T24	
+R8	Experiences Arg1:T26 Arg2:T24	
+R9	Has_Duration_or_Interval Arg1:T12 Arg2:T25	
+R10	Before Arg1:T12 Arg2:T13	
+R11	Negation Arg1:T22 Arg2:T23	
+R12	Location_of Arg1:T6 Arg2:T3	
+R13	Combined_with Arg1:T3 Arg2:T4	
+R14	Location_of Arg1:T14 Arg2:T2	
+T30	Quantifier_or_Qualifier 112 117	aguda
+#25	AnnotatorNotes T30	C0439557; Acute phase; Temporal Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T30	
+R17	Location_of Arg1:T15 Arg2:T20	
+R18	Has_Age Arg1:T19 Arg2:T21	
+R19	Location_of Arg1:T10 Arg2:T5	
+T31	Quantifier_or_Qualifier 272 283	programados
+#26	AnnotatorNotes T31	C0205539; Scheduled - procedure status; Qualitative Concept
+R21	Experiences Arg1:T19 Arg2:T5	
+R20	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T31	
+R22	Combined_with Arg1:T5 Arg2:T16	
+T32	Result_or_Value 338 356	mayor o igual a 60
+R23	Experiences Arg1:T19 Arg2:T7	
+R24	Has_Result_or_Value Arg1:T7 Arg2:T32	
+R26	Location_of Arg1:T9 Arg2:T27	
+R27	Location_of Arg1:T9 Arg2:T8	
+T33	Result_or_Value 405 428	superior o igual al 40%
+R28	Has_Result_or_Value Arg1:T8 Arg2:T33	
+R29	Experiences Arg1:T19 Arg2:T8	
+R30	Experiences Arg1:T19 Arg2:T16	
+A9	Experiencer T19 Patient
+A10	Status T5 Future
+A11	Status T16 Future
+A12	Experiencer T26 Patient
+A13	Experiencer T23 Patient

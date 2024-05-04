@@ -1,0 +1,89 @@
+T1	ANAT 90 97	corneal
+#1	AnnotatorNotes T1	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T2	ANAT 285 292	corneal
+#2	AnnotatorNotes T2	C0010031; Cornea; Body Part, Organ, or Organ Component | C1278889; Entire cornea; Body Part, Organ, or Organ Component
+T3	PROC 335 377	Estudio prospectivo, clínico observacional
+#3	AnnotatorNotes T3	C1518527; Observational Study; Research Activity + C0033522; Prospective Studies; Research Activity
+T4	PROC 1057 1084	neumotonometría de contacto
+T5	ANAT 396 400	ojos
+#4	AnnotatorNotes T5	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T6	DISO 420 433	glaucomatosos
+#5	AnnotatorNotes T6	C0017601; Glaucoma; Disease or Syndrome
+T7	DISO 438 458	hipertensos oculares
+#6	AnnotatorNotes T7	C0028840; Ocular Hypertension; Disease or Syndrome
+T8	PROC 530 545	se midió el CCT
+T9	PROC 1111 1122	diagnóstico
+#7	AnnotatorNotes T9	C0011900; Diagnosis; Diagnostic Procedure
+T10	PROC 1125 1136	seguimiento
+#8	AnnotatorNotes T10	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T11	PROC 137 156	presión intraocular
+#9	AnnotatorNotes T11	C0430888; Intraocular pressure test; Diagnostic Procedure
+T12	PROC 158 161	PIO
+#10	AnnotatorNotes T12	C0430888; Intraocular pressure test; Diagnostic Procedure
+T13	ANAT 450 458	oculares
+#11	AnnotatorNotes T13	C0015392; Eye; Body Part, Organ, or Organ Component | C1280202; Entire eye; Body Part, Organ, or Organ Component
+T14	PROC 478 481	PIO
+#12	AnnotatorNotes T14	C0430888; Intraocular pressure test; Diagnostic Procedure
+T15	PROC 807 810	PIO
+#13	AnnotatorNotes T15	C0430888; Intraocular pressure test; Diagnostic Procedure
+T16	PROC 843 846	PIO
+#14	AnnotatorNotes T16	C0430888; Intraocular pressure test; Diagnostic Procedure
+T17	PROC 906 909	PIO
+#15	AnnotatorNotes T17	C0430888; Intraocular pressure test; Diagnostic Procedure
+T18	DEVI 17 38	tonómetro de Goldmann
+#16	AnnotatorNotes T18	C1271528; Goldmann applanation tonometer; Medical Device
+T21	DEVI 173 208	tonómetro de aplanación de Goldmann
+#17	AnnotatorNotes T21	C1271528; Goldmann applanation tonometer; Medical Device
+T22	LIVB 407 416	pacientes
+#18	AnnotatorNotes T22	C0030705; Patients; Patient or Disabled Group
+T24	DEVI 511 521	tonómetros
+#19	AnnotatorNotes T24	C0183969; Tonometer; Medical Device
+T30	DEVI 1195 1216	tonómetro de Goldmann
+#20	AnnotatorNotes T30	C1271528; Goldmann applanation tonometer; Medical Device
+T31	LIVB 1148 1157	población
+#21	AnnotatorNotes T31	C1257890; Population; Population Group
+T20	DEVI 40 54	neumotonómetro
+#22	AnnotatorNotes T20	C1271256; Pneumatic tonometer; Medical Device
+T27	DEVI 220 234	neumotonómetro
+#23	AnnotatorNotes T27	C1271256; Pneumatic tonometer; Medical Device
+T19	LIVB 464 473	controles
+#24	AnnotatorNotes T19	C0009932; Control Groups; Group
+T23	Neg_cue 1000 1002	no
+T25	Quantifier_or_Qualifier 1007 1037	estadísticamente significativa
+A1	Assertion T25 Negated
+#25	AnnotatorNotes T25	C0237881; Statistical Significance; Quantitative Concept
+R1	Negation Arg1:T23 Arg2:T25	
+T26	Quantifier_or_Qualifier 235 246	de contacto
+R2	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T26	
+T28	Quantifier_or_Qualifier 55 66	de contacto
+R3	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T28	
+R4	Used_for Arg1:T24 Arg2:T14	
+R5	Experiences Arg1:T31 Arg2:T4	
+T29	PROC 83 97	grosor corneal
+#26	AnnotatorNotes T29	C0412514; Corneal Pachymetry; Diagnostic Procedure
+T32	PROC 278 300	grosor corneal central
+#27	AnnotatorNotes T32	C0412514; Corneal Pachymetry; Diagnostic Procedure (?)
+#28	AnnotatorNotes T8	C0412514; Corneal Pachymetry; Diagnostic Procedure (?)
+R6	Used_for Arg1:T21 Arg2:T12	
+R7	Used_for Arg1:T21 Arg2:T11	
+R8	Used_for Arg1:T27 Arg2:T12	
+R9	Used_for Arg1:T27 Arg2:T11	
+R10	Location_of Arg1:T1 Arg2:T29	
+R11	Location_of Arg1:T2 Arg2:T32	
+R12	Experiences Arg1:T22 Arg2:T6	
+R13	Experiences Arg1:T22 Arg2:T7	
+R14	Location_of Arg1:T13 Arg2:T7	
+R15	Location_of Arg1:T5 Arg2:T6	
+R16	Location_of Arg1:T5 Arg2:T7	
+T33	CONC 589 600	correlación
+#29	AnnotatorNotes T33	C1707520; Correlation; Qualitative Concept
+T34	Observation 886 893;900 909	aumento de la PIO
+#30	AnnotatorNotes T34	C0234708; Raised intraocular pressure (finding); Finding
+T35	CONC 989 999	diferencia
+#31	AnnotatorNotes T35	C1705241; Delta (difference); Quantitative Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T25	
+R20	Before Arg1:T4 Arg2:T9	
+A2	Experiencer T31 Patient
+A3	Experiencer T22 Patient
+A4	Experiencer T19 Other
+R18	Has_Result_or_Value Arg1:T17 Arg2:T34	

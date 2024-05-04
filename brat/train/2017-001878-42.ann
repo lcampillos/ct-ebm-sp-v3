@@ -1,0 +1,142 @@
+T1	CHEM 57 68	sildenafilo
+#1	AnnotatorNotes T1	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T2	ANAT 76 96	vasos de la placenta
+T3	CHEM 154 165	SILDENAFILO
+#2	AnnotatorNotes T3	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T4	ANAT 172 183	TROFOBLASTO
+#3	AnnotatorNotes T4	C0041178; trophoblast; Embryonic Structure | C1285047; Entire trophoblast; Embryonic Structure
+T5	ANAT 233 241	vascular
+#4	AnnotatorNotes T5	C0005847; Blood Vessel; Body Part, Organ, or Organ Component | C0042591; Vessel Positions; Body Location or Region
+T6	CHEM 246 257	sildenafilo
+#5	AnnotatorNotes T6	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T7	PROC 325 363	estudio longitudinal con grupo control
+T8	PROC 633 666	interrupción legal de su embarazo
+T9	CHEM 441 463	citrato de sildenafilo
+T10	ANAT 498 509	placentaria
+#6	AnnotatorNotes T10	C0032043; Placenta; Embryonic Structure
+T11	DISO 772 798	complicaciones obstétricas
+T12	DISO 901 918	Aborto recurrente
+#7	AnnotatorNotes T12	C0000809; Abortion, Habitual; Disease or Syndrome
+T13	DISO 942 968	enfermedades hematológicas
+#8	AnnotatorNotes T13	C0018939; Hematological Disease; Disease or Syndrome
+T14	CHEM 978 998	fármacos vasoactivos
+#9	AnnotatorNotes T14	C0597639; vasoactive agent; Pharmacologic Substance
+T15	DISO 1036 1048	hipertensión
+#10	AnnotatorNotes T15	C0020538; Hypertensive disease; Disease or Syndrome
+T16	DISO 1051 1078	Abuso de sustancias tóxicas
+T17	DISO 1083 1112	Síntomas de amenaza de aborto
+#11	AnnotatorNotes T17	C0740685; ABORTION THREATENED SYMPTOMS; Sign or Symptom
+T18	CHEM 1139 1150	sildenafilo
+#12	AnnotatorNotes T18	C0529793; sildenafil; Organic Chemical · Pharmacologic Substance
+T19	PROC 396 410	administración
+#13	AnnotatorNotes T19	C1533734; Administration procedure; Therapeutic or Preventive Procedure
+T20	DISO 920 932	preeclampsia
+#14	AnnotatorNotes T20	C0032914; Pre-Eclampsia; Pathologic Function
+T21	Date 13 17	2017
+T22	LIVB 184 190	HUMANO
+#15	AnnotatorNotes T22	C0086418; Homo sapiens; Human
+T23	PHYS 264 273	gestación
+#16	AnnotatorNotes T23	C0032961; Pregnancy; Organism Function
+T24	LIVB 350 363	grupo control
+#17	AnnotatorNotes T24	C0009932; Control Group; Group
+T26	Dose 414 437	una dosis única de 50mg
+T29	Date 513 532	el primer trimestre
+T30	PHYS 536 545	embarazos
+#18	AnnotatorNotes T30	C0032961; Pregnancy; Organism Function
+T31	LIVB 557 576	mujeres embarazadas
+#19	AnnotatorNotes T31	C0033011; Pregnant Women; Population Group
+T32	Duration 577 603	por debadjo de doce semana
+T33	PHYS 658 666	embarazo
+#20	AnnotatorNotes T33	C0032961; Pregnancy; Organism Function
+T34	LIVB 700 725	Mujeres sanas embarazadas
+#21	AnnotatorNotes T34	C0033011; Pregnant Women; Population Group + C1708335; Healthy Volunteers; Population Group
+T35	Age 726 742	entre 20-40 años
+T36	PHYS 748 756	Embarazo
+#22	AnnotatorNotes T36	C0032961; Pregnancy; Organism Function
+T37	Neg_cue 768 771	sin
+T38	Date 824 840	primer trimestre
+T40	Neg_cue 1196 1203	excepto
+T41	PHYS 1207 1215	embarazo
+#23	AnnotatorNotes T41	C0032961; Pregnancy; Organism Function
+T43	PHYS 714 725	embarazadas
+#24	AnnotatorNotes T43	C0032961; Pregnancy; Organism Function
+T42	PHYS 809 820	gestacional
+#25	AnnotatorNotes T42	C0032961; Pregnancy; Organism Function
+T27	PHYS 565 576	embarazadas
+#26	AnnotatorNotes T27	C0032961; Pregnancy; Organism Function
+T44	PHYS 226 241	efecto vascular
+#27	AnnotatorNotes T44	C2755848; vascular tissue development; Organ or Tissue Function
+T45	PHYS 482 509	vascularización placentaria
+#28	AnnotatorNotes T45	C2755848; vascular tissue development; Organ or Tissue Function
+T25	PROC 804 820	Edad gestacional
+#29	AnnotatorNotes T25	C4040272; Assessment of fetal gestational age; Health Care Activity
+A1	Assertion T11 Negated
+A5	Assertion T41 Negated
+A2	Status T20 History_of
+A3	Assertion T18 Contraindicated
+#30	AnnotatorNotes T2	C0459710; Placental vessel; Body Part, Organ, or Organ Component 
+#31	AnnotatorNotes T9	C0724693; sildenafil citrate; Organic Chemical · Pharmacologic Substance 
+#32	AnnotatorNotes T8	C0000812; Legal abortion (procedure); Therapeutic or Preventive Procedure 
+T28	PROC 365 372	placebo
+#33	AnnotatorNotes T28	C0032042; Placebos; Therapeutic or Preventive Procedure
+T39	Spec_cue 464 469	puede
+T46	CONC 470 478	aumentar
+A4	Assertion T46 Speculated
+#34	AnnotatorNotes T46	C0442805; Increase; Functional Concept
+A6	Assertion T45 Speculated
+R1	Speculation Arg1:T39 Arg2:T46	
+R2	Speculation Arg1:T39 Arg2:T45	
+R3	Location_of Arg1:T10 Arg2:T45	
+T47	Observation 882 899	riesgo obstétrico
+#35	AnnotatorNotes T47	C3533167; Obstetrical risk; Finding
+R4	Negation Arg1:T40 Arg2:T41	
+R5	Overlap Arg1:T36 Arg2:T11	
+R6	Negation Arg1:T37 Arg2:T11	
+T48	Observation 46 52	Efecto
+#36	AnnotatorNotes T48	C1518681; Outcome of Therapy; Finding (?)
+R7	Causes Arg1:T1 Arg2:T48	
+R8	Location_of Arg1:T2 Arg2:T48	
+T49	Observation 143 149	EFECTO
+#37	AnnotatorNotes T49	C1518681; Outcome of Therapy; Finding (?)
+R9	Causes Arg1:T3 Arg2:T49	
+R10	Location_of Arg1:T4 Arg2:T49	
+R11	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T22	
+T50	PROC 120 133;191 198	INVESTIGACIÓN IN VIVO
+#38	AnnotatorNotes T50	C0681829; in vivo study; Research Activity
+R12	Location_of Arg1:T5 Arg2:T44	
+R13	Causes Arg1:T6 Arg2:T44	
+R14	Overlap Arg1:T44 Arg2:T23	
+T51	Quantifier_or_Qualifier 274 282	temprana
+#39	AnnotatorNotes T51	C1279919; Early; Temporal Concept
+R16	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T51	
+R17	Experiences Arg1:T24 Arg2:T28	
+R18	Used_for Arg1:T9 Arg2:T19	
+R19	Has_Dose_or_Strength Arg1:T9 Arg2:T26	
+R21	Overlap Arg1:T45 Arg2:T29	
+R22	Overlap Arg1:T45 Arg2:T30	
+T52	Quantifier_or_Qualifier 546 551	sanos
+#40	AnnotatorNotes T52	C3898900; Healthy; Qualitative Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T52	
+R24	Experiences Arg1:T31 Arg2:T27	
+R25	Has_Duration_or_Interval Arg1:T27 Arg2:T32	
+R26	Experiences Arg1:T31 Arg2:T8	
+R27	Before Arg1:T27 Arg2:T8	
+R28	Before Arg1:T33 Arg2:T8	
+R29	Experiences Arg1:T31 Arg2:T33	
+R30	Experiences Arg1:T22 Arg2:T49	
+R32	Experiences Arg1:T24 Arg2:T45	
+R33	Experiences Arg1:T24 Arg2:T30	
+R34	Has_Age Arg1:T34 Arg2:T35	
+R35	Experiences Arg1:T34 Arg2:T43	
+#41	AnnotatorNotes T11	C0178292; Complications of pregnancy, childbirth and the puerperium; Pathologic Function
+R36	Overlap Arg1:T42 Arg2:T38	
+R38	Before Arg1:T13 Arg2:T47	
+R39	Before Arg1:T20 Arg2:T47	
+R40	Before Arg1:T12 Arg2:T47	
+#42	AnnotatorNotes T16	C0740858; Substance abuse problem; Mental or Behavioral Dysfunction
+R15	Experiences Arg1:T24 Arg2:T19	
+#43	AnnotatorNotes T7	C0023981; Longitudinal Studies; Research Activity + C0681867; Controlled Study; Research Activity
+A7	Experiencer T34 Patient
+A8	Experiencer T22 Patient
+A9	Experiencer T24 Patient
+A10	Experiencer T31 Patient

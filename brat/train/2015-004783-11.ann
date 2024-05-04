@@ -1,0 +1,160 @@
+T1	PROC 49 90	ensayo clínico de la seguridad y eficacia
+T2	CHEM 94 105	Natalizumab
+#1	AnnotatorNotes T2	C1172734; natalizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T3	DISO 112 153	accidente cerebrovascular isquémico agudo
+T4	PROC 176 292	Estudio de búsqueda de dosis, multicéntrico, doble ciego, controlado con placebo, aleatorizado y de grupos paralelos
+T5	PROC 724 729	NIHSS
+#2	AnnotatorNotes T5	C3472497; Assessment using National Institutes of Health stroke scale; Health Care Activity
+T6	PROC 299 333	evaluar la seguridad y la eficacia
+#3	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T7	CHEM 337 348	natalizumab
+#4	AnnotatorNotes T7	C1172734; natalizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T8	DISO 377 418	accidente cerebrovascular isquémico agudo
+T9	DISO 442 483	Accidente cerebrovascular isquémico agudo
+T10	PROC 512 531	Diagnóstico clínico
+#5	AnnotatorNotes T10	C0332140; Diagnosis, clinical; Diagnostic Procedure
+T11	DISO 535 576	accidente cerebrovascular isquémico agudo
+T12	PROC 645 656	tratamiento
+#6	AnnotatorNotes T12	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T13	PROC 1007 1050	imágenes cerebrales ponderadas por difusión
+#7	AnnotatorNotes T13	C4523916; Diffusion-weighted brain MRI; Diagnostic Procedure
+T14	DISO 773 798	accidente cerebrovascular
+#8	AnnotatorNotes T14	C0038454; Cerebrovascular accident; Disease or Syndrome
+T15	PROC 934 944	RM craneal
+T16	DISO 961 974	infarto agudo
+T17	ANAT 1016 1026	cerebrales
+#9	AnnotatorNotes T17	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T18	PROC 1100 1109	protocolo
+#10	AnnotatorNotes T18	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T19	DISO 1154 1162	Síntomas
+#11	AnnotatorNotes T19	C1457887; Symptoms; Sign or Symptom
+T20	DISO 1166 1191	accidente cerebrovascular
+#12	AnnotatorNotes T20	C0038454; Cerebrovascular accident; Disease or Syndrome
+T21	DISO 1229 1276	Accidente cerebrovascular del tronco encefálico
+#13	AnnotatorNotes T21	C0521542; Brain Stem Infarctions; Disease or Syndrome
+T22	ANAT 1259 1276	tronco encefálico
+#14	AnnotatorNotes T22	C0006121; Brain Stem; Body Part, Organ, or Organ Component
+T23	PROC 1304 1322	evaluación clínica
+#15	AnnotatorNotes T23	C4534461; Clinical assessment; Health Care Activity
+T24	PROC 1329 1348	estudios por imagen
+#16	AnnotatorNotes T24	C0011923; Diagnostic Imaging; Diagnostic Procedure
+T25	DISO 1394 1417	hemorragia intracraneal
+#17	AnnotatorNotes T25	C0151699; Intracranial Hemorrhage; Pathologic Function
+T26	PROC 1430 1433	TAC
+#18	AnnotatorNotes T26	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T27	PROC 1439 1450	RM cerebral
+T28	ANAT 1442 1450	cerebral
+#19	AnnotatorNotes T28	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
+T29	DISO 1459 1484	Accidente cerebrovascular
+#20	AnnotatorNotes T29	C0038454; Cerebrovascular accident; Disease or Syndrome
+T30	ANAT 937 944	craneal
+#21	AnnotatorNotes T30	C0037303; Bone structure of cranium; Body Part, Organ, or Organ Component | C1279062; Entire cranium; Body Part, Organ, or Organ Component
+T31	ANAT 1405 1417	intracraneal
+#22	AnnotatorNotes T31	C0524466; Intracranial; Body Location or Region
+T32	Date 13 17	2015
+T33	Route 349 360	intravenoso
+#23	AnnotatorNotes T33	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T34	Duration 615 623	≤9 horas
+T35	LIVB 817 825	paciente
+#24	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	Frequency 883 889	diaria
+T38	LIVB 910 917	sujetos
+#25	AnnotatorNotes T38	C0681850; Study Subject; Group
+#26	AnnotatorNotes T1	C0511730; Identify product efficacy and safety issues; Health Care Activity
+#27	AnnotatorNotes T3	C5392833; Acute Ischemic Stroke; Disease or Syndrome 
+#28	AnnotatorNotes T8	C5392833; Acute Ischemic Stroke; Disease or Syndrome 
+#29	AnnotatorNotes T9	C5392833; Acute Ischemic Stroke; Disease or Syndrome 
+#30	AnnotatorNotes T11	C5392833; Acute Ischemic Stroke; Disease or Syndrome 
+#31	AnnotatorNotes T4	C4764141; Dose Finding Study; Research Activity + C1096776; Multicenter Study; Research Activity + C0013072; Double-Blind Method; Research Activity + C0599724; placebo controlled study; Research Activity · Intellectual Product + C0034656; Randomization; Research Activity + C2826345; Parallel Study; Research Activity 
+#32	AnnotatorNotes T16	C0155626; Acute myocardial infarction; Disease or Syndrome 
+T37	Neg_cue 890 893	sin
+T39	CONC 894 899	ayuda
+A1	Assertion T39 Negated
+T40	CONC 1074 1083	criterios
+A2	Assertion T40 Speculated
+#33	AnnotatorNotes T40	C0243161; criteria; Idea or Concept
+T41	Quantifier_or_Qualifier 1068 1073	Otros
+A3	Assertion T41 Speculated
+T42	Spec_cue 1110 1116	pueden
+R1	Speculation Arg1:T42 Arg2:T41	
+R2	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T41	
+R3	Speculation Arg1:T42 Arg2:T40	
+T43	CONC 1353 1366	momento agudo
+#34	AnnotatorNotes T43	C0439557; Acute phase; Temporal Concept
+R4	Location_of Arg1:T22 Arg2:T21	
+R5	Location_of Arg1:T31 Arg2:T25	
+T44	Quantifier_or_Qualifier 1418 1423	aguda
+#35	AnnotatorNotes T44	C0205178; acute; Temporal Concept
+R6	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T44	
+T45	Quantifier_or_Qualifier 1451 1456	aguda
+#36	AnnotatorNotes T45	C0205178; acute; Temporal Concept
+R7	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T45	
+R8	Location_of Arg1:T28 Arg2:T27	
+R11	Overlap Arg1:T24 Arg2:T43	
+T46	Quantifier_or_Qualifier 1287 1294	aislado
+#37	AnnotatorNotes T46	C0205409; Isolated; Functional Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T46	
+T47	Quantifier_or_Qualifier 1277 1284	lacunar
+R15	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T47	
+R16	Causes Arg1:T20 Arg2:T19	
+T48	Quantifier_or_Qualifier 1192 1199	menores
+#38	AnnotatorNotes T48	C0205165; Minor (value); Qualitative Concept
+R17	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T48	
+T49	Observation 1206 1225	mejoran rápidamente
+R18	Before Arg1:T19 Arg2:T49	
+R19	Has_Route_or_Mode Arg1:T7 Arg2:T33	
+R20	Before Arg1:T11 Arg2:T12	
+R21	Overlap Arg1:T11 Arg2:T34	
+T50	CONC 608 612	UMCN
+#39	AnnotatorNotes T50	[Last Known Normal; ''último momento conocido de normalidad"]
+R22	Overlap Arg1:T50 Arg2:T34	
+T51	Quantifier_or_Qualifier 577 591	supratentorial
+#40	AnnotatorNotes T51	C0441938; Supratentorial; Spatial Concept
+R23	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T51	
+T52	Result_or_Value 683 699	de 5 a 23 puntos
+R24	Has_Result_or_Value Arg1:T5 Arg2:T52	
+T53	PROC 750 759	selección
+#41	AnnotatorNotes T53	C0242802; Patient Selection; Research Activity
+R25	Overlap Arg1:T5 Arg2:T53	
+T54	Observation 830 899	capaz de realizar las actividades básicas de la vida diaria sin ayuda
+#42	AnnotatorNotes T54	C2732634; Does perform all activities of daily living without assistance; Finding
+R26	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T54	
+R27	Before Arg1:T54 Arg2:T14	
+R28	Negation Arg1:T37 Arg2:T39	
+R29	Experiences Arg1:T38 Arg2:T15	
+R30	Location_of Arg1:T30 Arg2:T15	
+T55	Quantifier_or_Qualifier 950 960	al menos 1
+R31	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T55	
+T56	Result_or_Value 982 999	diámetro de ≥2 cm
+R32	Has_Result_or_Value Arg1:T16 Arg2:T56	
+R35	Location_of Arg1:T17 Arg2:T13	
+T57	Quantifier_or_Qualifier 1051 1060	iniciales
+#43	AnnotatorNotes T57	C0205265; Initially; Temporal Concept
+R36	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T57	
+T58	Quantifier_or_Qualifier 1485 1490	grave
+#44	AnnotatorNotes T58	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R37	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T58	
+T59	PROC 661 668	estudio
+#45	AnnotatorNotes T59	C0008976; Clinical Trials; Research Activity
+R38	Before Arg1:T11 Arg2:T59	
+R39	Experiences Arg1:T35 Arg2:T14	
+R40	Experiences Arg1:T38 Arg2:T16	
+R41	Experiences Arg1:T38 Arg2:T13	
+#46	AnnotatorNotes T41	C0205394; Other; Qualitative Concept
+T60	Quantifier_or_Qualifier 1498 1503	Otros
+#47	AnnotatorNotes T60	C0205394; Other; Qualitative Concept
+A4	Assertion T60 Speculated
+T61	CONC 1504 1513	criterios
+#48	AnnotatorNotes T61	C0243161; criteria; Idea or Concept
+A5	Assertion T61 Speculated
+R9	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T60	
+T62	PROC 1530 1539	protocolo
+#49	AnnotatorNotes T62	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T63	Spec_cue 1540 1546	pueden
+R10	Speculation Arg1:T63 Arg2:T61	
+R12	Speculation Arg1:T63 Arg2:T60	
+#50	AnnotatorNotes T15	C2454640; Magnetic Resonance Imaging (MRI) of Brain; Diagnostic Procedure
+#51	AnnotatorNotes T27	C2454640; Magnetic Resonance Imaging (MRI) of Brain; Diagnostic Procedure
+#52	AnnotatorNotes T39	C1269765; Assisted (qualifier value); Qualitative Concept
+A6	Experiencer T35 Patient
+A7	Experiencer T38 Patient

@@ -1,0 +1,227 @@
+T1	PROC 1 41	Tratamiento de inducción y mantenimiento
+#1	AnnotatorNotes T1	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure + C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T2	CHEM 46 56	adalimumab
+#2	AnnotatorNotes T2	C1122087; adalimumab; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T3	DISO 63 82	enfermedad de Crohn
+#3	AnnotatorNotes T3	C0010346; Crohn Disease; Disease or Syndrome
+T4	PROC 87 102	estudio abierto
+#4	AnnotatorNotes T4	C1709323; Open Label Study; Research Activity
+T5	DISO 240 271	EC luminal y fistulosa perianal
+T6	CHEM 121 131	adalimumab
+#5	AnnotatorNotes T6	C1122087; adalimumab; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T7	PROC 150 190	ensayos clínicos controlados con placebo
+#6	AnnotatorNotes T7	C0599724; placebo controlled study; Research Activity · Intellectual Product
+T8	PROC 196 219	estudios no controlados
+#7	AnnotatorNotes T8	C0681868; Uncontrolled Study; Research Activity
+T9	CHEM 580 583	IFX
+#8	AnnotatorNotes T9	C0666743; infliximab; Amino Acid, Peptide, or Protein · Pharmacologic Substance · Immunologic Factor
+T10	CHEM 1313 1316	IFX
+#9	AnnotatorNotes T10	C0020823; ifosfamide; Organic Chemical · Pharmacologic Substance (?)
+T11	ANAT 263 271	perianal
+#10	AnnotatorNotes T11	C0442158; Perianal; Body Location or Region
+T12	PROC 284 315	evaluar la eficacia y seguridad
+#11	AnnotatorNotes T12	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T13	CHEM 320 330	adalimumab
+#12	AnnotatorNotes T13	C1122087; adalimumab; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T14	DISO 383 385	EC
+#13	AnnotatorNotes T14	C0010346; Crohn Disease; Disease or Syndrome
+T15	PROC 435 443	tratados
+#14	AnnotatorNotes T15	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T16	DISO 432 434	EC
+#15	AnnotatorNotes T16	C0010346; Crohn Disease; Disease or Syndrome
+T17	CHEM 448 458	adalimumab
+#16	AnnotatorNotes T17	C1122087; adalimumab; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T18	DISO 467 485	enfermedad luminal
+T19	CHEM 1424 1427	IFX
+#17	AnnotatorNotes T19	C0020823; ifosfamide; Organic Chemical · Pharmacologic Substance (?)
+T20	DISO 494 523	enfermedad fistulosa perianal
+T21	ANAT 515 523	perianal
+#18	AnnotatorNotes T21	C0442158; Perianal; Body Location or Region
+T22	PROC 1704 1717	mantenimiento
+#19	AnnotatorNotes T22	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T23	PROC 740 768	tratamiento de mantenimiento
+#20	AnnotatorNotes T23	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure
+T24	DISO 976 994	enfermedad luminal
+T25	DISO 1256 1287	reacciones de hipersensibilidad
+#21	AnnotatorNotes T25	C0020517; Hypersensitivity; Pathologic Function
+T26	DISO 1342 1371	enfermedad fistulosa perianal
+T27	ANAT 1363 1371	perianal
+#22	AnnotatorNotes T27	C0442158; Perianal; Body Location or Region
+T28	PROC 1408 1419	tratamiento
+#23	AnnotatorNotes T28	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T29	PROC 1598 1609	seguimiento
+#24	AnnotatorNotes T29	C1522577; Follow up; Health Care Activity | C0420316; Other follow-up; Health Care Activity
+T30	CHEM 1641 1651	adalimumab
+#25	AnnotatorNotes T30	C1122087; adalimumab; Immunologic Factor · Amino Acid, Peptide, or Protein · Pharmacologic Substance
+T31	PROC 1658 1669	tratamiento
+#26	AnnotatorNotes T31	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+T32	DISO 1740 1771	EC luminal y fistulosa perianal
+T33	ANAT 1763 1771	perianal
+#27	AnnotatorNotes T33	C0442158; Perianal; Body Location or Region
+T34	PROC 336 376	tratamiento de inducción y mantenimiento
+#28	AnnotatorNotes T34	C0677908; Maintenance therapy; Therapeutic or Preventive Procedure + C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T35	PROC 596 620	tratamiento de inducción
+#29	AnnotatorNotes T35	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T36	PROC 937 946	inducción
+#30	AnnotatorNotes T36	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T37	PROC 1437 1446	inducción
+#31	AnnotatorNotes T37	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T38	PROC 1692 1701	inducción
+#32	AnnotatorNotes T38	C0857127; Induction procedure; Therapeutic or Preventive Procedure
+T39	PROC 1835 1863	ensayos clínicos controlados
+#33	AnnotatorNotes T39	C0681867; Controlled Study; Research Activity
+T40	PROC 1888 1904	práctica clínica
+T42	LIVB 418 427	pacientes
+#34	AnnotatorNotes T42	C0030705; Patients; Patient or Disabled Group
+T43	LIVB 542 551	pacientes
+#35	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	Dose 625 631	160 mg
+T45	Route 632 636	s.c.
+#36	AnnotatorNotes T45	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T46	Date 640 651	la semana 0
+T47	Dose 654 659	80 mg
+T48	Route 660 664	s.c.
+#37	AnnotatorNotes T48	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T49	Duration 667 680	las 2 semanas
+T50	Dose 711 716	40 mg
+T51	Route 717 721	s.c.
+#38	AnnotatorNotes T51	C1522438; Subcutaneous Route of Drug Administration; Functional Concept
+T52	Frequency 722 734	cada 14 días
+T53	Duration 795 808	las 4 semanas
+T55	LIVB 962 971	pacientes
+#39	AnnotatorNotes T55	C0030705; Patients; Patient or Disabled Group
+T56	Duration 1087 1090	año
+T57	LIVB 1110 1119	pacientes
+#40	AnnotatorNotes T57	C0030705; Patients; Patient or Disabled Group
+T58	Duration 1123 1135	los 18 meses
+T59	Duration 1152 1164	los 48 meses
+T61	LIVB 1230 1239	pacientes
+#41	AnnotatorNotes T61	C0030705; Patients; Patient or Disabled Group
+T62	LIVB 1328 1337	pacientes
+#42	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
+T63	LIVB 1525 1534	pacientes
+#43	AnnotatorNotes T63	C0030705; Patients; Patient or Disabled Group
+T64	Duration 1613 1621	15 meses
+T65	Frequency 1905 1911	diaria
+A1	Status T9 History_of
+T41	CONC 1196 1207	diferencias
+A2	Assertion T41 Negated
+#44	AnnotatorNotes T41	C1705241; Delta (difference); Quantitative Concept
+T54	Neg_cue 1178 1180	No
+R1	Negation Arg1:T54 Arg2:T41	
+T60	Neg_cue 205 207	no
+T66	Quantifier_or_Qualifier 208 219	controlados
+A3	Assertion T66 Negated
+R2	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T66	
+R3	Negation Arg1:T60 Arg2:T66	
+T67	Neg_cue 893 904	ausencia de
+T68	Observation 905 914	respuesta
+A4	Assertion T68 Negated
+#45	AnnotatorNotes T68	C4055223; Clinical Response; Finding (?)
+T69	Observation 863 871	remisión
+#46	AnnotatorNotes T69	C0544452; Disease remission; Finding
+T70	Observation 873 890	respuesta parcial
+#47	AnnotatorNotes T70	C1521726; partial response; Finding
+R4	Used_for Arg1:T2 Arg2:T1	
+R6	Location_of Arg1:T11 Arg2:T5	
+R7	Used_for Arg1:T13 Arg2:T34	
+R8	Experiences Arg1:T42 Arg2:T16	
+R9	Used_for Arg1:T17 Arg2:T15	
+R10	Experiences Arg1:T42 Arg2:T15	
+R11	Experiences Arg1:T42 Arg2:T18	
+R12	Location_of Arg1:T21 Arg2:T20	
+R13	Experiences Arg1:T42 Arg2:T20	
+T72	Quantifier_or_Qualifier 524 530	activa
+#49	AnnotatorNotes T72	C0679217; Active State; Idea or Concept
+R14	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T72	
+R15	Experiences Arg1:T43 Arg2:T9	
+R16	Has_Dose_or_Strength Arg1:T35 Arg2:T44	
+R17	Has_Route_or_Mode Arg1:T35 Arg2:T45	
+R18	Overlap Arg1:T35 Arg2:T46	
+R19	Has_Dose_or_Strength Arg1:T35 Arg2:T47	
+R20	Has_Route_or_Mode Arg1:T35 Arg2:T48	
+R21	Has_Duration_or_Interval Arg1:T35 Arg2:T49	
+T73	Observation 686 699	respondedores
+#50	AnnotatorNotes T73	C0919876; Therapy responder; Finding
+R22	Has_Frequency Arg1:T23 Arg2:T52	
+R23	Has_Route_or_Mode Arg1:T23 Arg2:T51	
+R24	Has_Dose_or_Strength Arg1:T23 Arg2:T50	
+R25	Before Arg1:T73 Arg2:T23	
+T74	Observation 783 792	respuesta
+#51	AnnotatorNotes T74	C4055223; Clinical Response; Finding (?)
+R26	Overlap Arg1:T74 Arg2:T53	
+R27	Negation Arg1:T67 Arg2:T68	
+R28	Overlap Arg1:T69 Arg2:T53	
+R29	Overlap Arg1:T70 Arg2:T53	
+R30	Overlap Arg1:T68 Arg2:T53	
+T75	Quantifier_or_Qualifier 821 828	inicial
+#52	AnnotatorNotes T75	C0205265; Initially; Temporal Concept 
+T76	CONC 815 820	dosis
+#53	AnnotatorNotes T76	C0178602; Dosage; Quantitative Concept
+R31	Has_Quantifier_or_Qualifier Arg1:T76 Arg2:T75	
+R32	Before Arg1:T76 Arg2:T74	
+R34	Experiences Arg1:T55 Arg2:T36	
+R35	Experiences Arg1:T55 Arg2:T24	
+T77	Observation 1004 1021	remisión completa
+#54	AnnotatorNotes T77	C0544452; Disease remission; Finding
+R37	Before Arg1:T36 Arg2:T77	
+R36	Experiences Arg1:T55 Arg2:T77	
+T78	Observation 1033 1050	respuesta parcial
+#55	AnnotatorNotes T78	C1521726; partial response; Finding
+R38	Experiences Arg1:T55 Arg2:T78	
+R39	Before Arg1:T36 Arg2:T78	
+T79	Observation 1055 1072	respuesta clínica
+#56	AnnotatorNotes T79	C4055223; Clinical Response; Finding (?)
+R40	Has_Duration_or_Interval Arg1:T79 Arg2:T56	
+R41	Experiences Arg1:T57 Arg2:T79	
+R42	Has_Duration_or_Interval Arg1:T79 Arg2:T58	
+R43	Has_Duration_or_Interval Arg1:T79 Arg2:T59	
+T80	Observation 1214 1223	respuesta
+#57	AnnotatorNotes T80	C4055223; Clinical Response; Finding (?)
+R44	Experiences Arg1:T61 Arg2:T80	
+R45	Experiences Arg1:T61 Arg2:T25	
+R46	Causes Arg1:T10 Arg2:T25	
+T81	Observation 1290 1310	pérdida de respuesta
+#58	AnnotatorNotes T81	C5400193; Loss of therapeutic response; Finding 
+R47	Experiences Arg1:T61 Arg2:T81	
+R48	Experiences Arg1:T61 Arg2:T10	
+R49	Overlap Arg1:T81 Arg2:T10	
+R50	Location_of Arg1:T27 Arg2:T26	
+R51	Experiences Arg1:T62 Arg2:T26	
+R52	Used_for Arg1:T19 Arg2:T28	
+R53	Experiences Arg1:T62 Arg2:T28	
+A5	Status T28 History_of
+A6	Status T19 History_of
+T82	Observation 1496 1513	respuesta parcial
+#59	AnnotatorNotes T82	C1521726; partial response; Finding
+R54	Before Arg1:T37 Arg2:T82	
+T83	Observation 1466 1474	remisión
+#60	AnnotatorNotes T83	C0544452; Disease remission; Finding
+R55	Before Arg1:T37 Arg2:T83	
+T84	Observation 1545 1553	remisión
+#61	AnnotatorNotes T84	C0544452; Disease remission; Finding
+R56	Experiences Arg1:T63 Arg2:T84	
+T85	Observation 1556 1565	respuesta
+#62	AnnotatorNotes T85	C4055223; Clinical Response; Finding (?)
+R57	Experiences Arg1:T63 Arg2:T85	
+R58	Has_Duration_or_Interval Arg1:T29 Arg2:T64	
+R61	Used_for Arg1:T30 Arg2:T31	
+T86	Observation 1724 1733	respuesta
+#63	AnnotatorNotes T86	C4055223; Clinical Response; Finding (?)
+R64	Location_of Arg1:T33 Arg2:T32	
+R65	Overlap Arg1:T30 Arg2:T86	
+R68	Overlap Arg1:T40 Arg2:T65	
+T88	Observation 848 857	respuesta
+#65	AnnotatorNotes T88	C4055223; Clinical Response; Finding (?)
+R71	Overlap Arg1:T88 Arg2:T53	
+R33	Before Arg1:T24 Arg2:T77	
+R72	Before Arg1:T24 Arg2:T78	
+#48	AnnotatorNotes T20	C4518828; Perianal fistula due to Crohn's disease; Disease or Syndrome (?)
+#64	AnnotatorNotes T26	C4518828; Perianal fistula due to Crohn's disease; Disease or Syndrome (?)
+A7	Experiencer T63 Patient
+A8	Experiencer T62 Patient
+A9	Experiencer T61 Patient
+A10	Experiencer T57 Patient
+A11	Experiencer T55 Patient
+A12	Experiencer T43 Patient
+A13	Experiencer T42 Patient

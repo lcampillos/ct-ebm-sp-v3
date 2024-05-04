@@ -1,0 +1,185 @@
+T1	DISO 951 954	HIV
+T2	ANAT 58 71	células madre
+#1	AnnotatorNotes T2	C0038250; Stem cells; Cell
+T3	ANAT 87 101	tejido adiposo
+#2	AnnotatorNotes T3	C0001527; Adipose tissue; Tissue
+T4	DISO 119 160	neumonía severa provocada por coronavirus
+T5	PROC 183 249	Ensayo clínico Fase I/II, multicéntrico, aleatorizado y controlado
+T6	PROC 256 290	valorar la seguridad y la eficacia
+#3	AnnotatorNotes T6	C0511730; Identify product efficacy and safety issues; Health Care Activity
+T7	PROC 297 323	administración intravenosa
+#4	AnnotatorNotes T7	C0455142; Intravenous therapy; Therapeutic or Preventive Procedure
+T8	ANAT 327 366	células troncales mesenquimales adultas
+T9	ANAT 381 395	tejido adiposo
+#5	AnnotatorNotes T9	C0001527; Adipose tissue; Tissue
+T10	DISO 424 452	neumonía severa por COVID-19
+T11	DISO 476 500	Neumonía por coronavirus
+T12	DISO 527 555	Neumonía severa por COVID-19
+T13	PROC 599 618	Diagnóstico clínico
+#6	AnnotatorNotes T13	C0332140; Diagnosis, clinical; Diagnostic Procedure
+T14	DISO 622 630	Neumonía
+#7	AnnotatorNotes T14	C0032285; Pneumonia; Disease or Syndrome
+T15	DISO 662 684	infección por COVID-19
+#8	AnnotatorNotes T15	C5203670; COVID19 (disease); Disease or Syndrome
+T16	PROC 766 787	método anticonceptivo
+#9	AnnotatorNotes T16	C0700589; Contraceptive methods; Therapeutic or Preventive Procedure
+T17	PROC 865 879	ensayo clínico
+#10	AnnotatorNotes T17	C0008976; Clinical Trials; Research Activity
+T18	DISO 910 921	Coinfección
+#11	AnnotatorNotes T18	C0275524; Coinfection; Disease or Syndrome
+T19	DISO 956 968	tuberculosis
+#12	AnnotatorNotes T19	C0041296; Tuberculosis; Disease or Syndrome
+T20	DISO 1006 1031	infecciones respiratorias
+#13	AnnotatorNotes T20	C0035243; Respiratory Tract Infections; Disease or Syndrome
+T21	DISO 1033 1061	infección activa por VHB o C
+T22	DISO 1091 1099	alergias
+#14	AnnotatorNotes T22	C1527304; Allergic Reaction; Pathologic Function
+T23	CHEM 1141 1153	B-lactámicos
+T24	DISO 1112 1119	alergia
+#15	AnnotatorNotes T24	C1527304; Allergic Reaction; Pathologic Function
+T25	CHEM 1122 1132	penicilina
+#16	AnnotatorNotes T25	C0030842; penicillins; Antibiotic · Organic Chemical
+T26	DISO 1209 1225	tumores malignos
+#17	AnnotatorNotes T26	C0006826; Malignant Neoplasms; Neoplastic Process
+T27	DISO 1228 1238	hemopatías
+#18	AnnotatorNotes T27	C0018939; Hematological Disease; Disease or Syndrome
+T28	DISO 1261 1276	inmunosupresión
+#19	AnnotatorNotes T28	C4048329; Immunosuppression; Disease or Syndrome
+T29	DISO 1319 1343	enfermedades autoinmunes
+#20	AnnotatorNotes T29	C0004364; Autoimmune Diseases; Disease or Syndrome
+T30	DISO 1349 1379	Insuficiencia cardíaca crónica
+#21	AnnotatorNotes T30	C0264716; Chronic heart failure; Disease or Syndrome
+T31	PROC 1384 1404	fracción de eyección
+#22	AnnotatorNotes T31	C0489482; Ejection fraction (procedure); Diagnostic Procedure
+T32	DISO 976 985	influenza
+#23	AnnotatorNotes T32	C0021400; Influenza; Disease or Syndrome
+T33	ANAT 1363 1371	cardíaca
+#24	AnnotatorNotes T33	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
+T34	Date 13 17	2020
+T35	LIVB 105 114	pacientes
+#25	AnnotatorNotes T35	C0030705; Patients; Patient or Disabled Group
+T36	LIVB 149 160	coronavirus
+#26	AnnotatorNotes T36	C5203676; SARS-CoV-2; Virus
+T37	Route 312 323	intravenosa
+#27	AnnotatorNotes T37	C1522726; Intravenous Route of Drug Administration; Functional Concept
+T39	LIVB 410 419	pacientes
+#28	AnnotatorNotes T39	C0030705; Patients; Patient or Disabled Group
+T40	LIVB 489 500	coronavirus
+#29	AnnotatorNotes T40	C5203676; SARS-CoV-2; Virus
+T41	Age 590 594	≥ 18
+T42	Duration 709 728	superior a 48 horas
+T43	LIVB 817 824	hombres
+#30	AnnotatorNotes T43	C0025266; Male population group; Population Group
+T44	LIVB 833 840	mujeres
+#31	AnnotatorNotes T44	C0043210; Woman; Population Group
+T45	LIVB 932 937	virus
+#32	AnnotatorNotes T45	C0042776; Virus; Virus
+T46	LIVB 940 949	bacterias
+#33	AnnotatorNotes T46	C0004611; Bacteria; Bacterium
+T48	LIVB 970 985	virus influenza
+#34	AnnotatorNotes T48	C4316910; Influenza virus; Virus
+T49	LIVB 987 997	adenovirus
+#35	AnnotatorNotes T49	C0001483; Adenoviruses; Virus
+T50	LIVB 1054 1061	VHB o C
+#36	AnnotatorNotes T50	C0019169; Hepatitis B virus; Virus | C0220847; Hepatitis C virus; Virus
+T51	LIVB 1158 1177	Mujeres embarazadas
+#37	AnnotatorNotes T51	C0033011; Pregnant Women; Population Group
+T52	LIVB 1180 1189	lactantes
+#38	AnnotatorNotes T52	C4316174; Patients who are breastfeeding; Patient or Disabled Group
+T53	LIVB 1195 1204	Pacientes
+#39	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
+T54	LIVB 1305 1314	Pacientes
+#40	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
+T55	Duration 1372 1379	crónica
+#41	AnnotatorNotes T55	C0205191; chronic; Temporal Concept
+T57	LIVB 1476 1498	investigador principal
+#42	AnnotatorNotes T57	C1521895; Principal Investigator; Professional or Occupational Group
+T58	LIVB 1520 1526	sujeto
+#43	AnnotatorNotes T58	C0681850; Study Subject; Group
+T61	ANAT 1018 1031	respiratorias
+#44	AnnotatorNotes T61	C0035237; Respiratory System; Body System | C1269561; Entire respiratory system; Body System
+T63	PHYS 1396 1404	eyección
+#45	AnnotatorNotes T63	C2733340; Ventricular ejection; Physiologic Function
+T38	PHYS 1166 1177	embarazadas
+#46	AnnotatorNotes T38	C0032961; Pregnancy; Organism Function
+A1	Status T22 History_of
+A2	Status T24 History_of
+#47	AnnotatorNotes T5	C1519043; Phase I/II Trial; Research Activity + C1096776; Multicenter Study; Research Activity + C0206035; Controlled Clinical Trials, Randomized; Research Activity
+#48	AnnotatorNotes T11	C5419163; COVID-19-Associated Pneumonia; Disease or Syndrome | C5244027; Pneumonia caused by SARS-CoV-2; Disease or Syndrome 
+#49	AnnotatorNotes T12	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome (?)
+#50	AnnotatorNotes T1	C2363741; HIV-1 infection; Disease or Syndrome
+#51	AnnotatorNotes T8	C5400079; Adult human mesenchymal stem cells; Cell
+#52	AnnotatorNotes T21	C0019163; Hepatitis B; Disease or Syndrome + C0019196; Hepatitis C; Disease or Syndrome
+#53	AnnotatorNotes T23	C0282215; beta-Lactams; Organic Chemical · Antibiotic 
+T47	Observation 1530 1550	se ajusta al estudio
+A3	Assertion T47 Negated
+#54	AnnotatorNotes T47	C1302261; Patient eligible for clinical trial; Finding (?)
+T56	Neg_cue 1527 1529	no
+T59	CONC 689 708	Expectativa de vida
+#55	AnnotatorNotes T59	C0023671; Life Expectancy; Group Attribute
+R1	Has_Duration_or_Interval Arg1:T59 Arg2:T42	
+R2	Experiences Arg1:T35 Arg2:T4	
+R3	Causes Arg1:T36 Arg2:T4	
+#56	AnnotatorNotes T4	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome (?)
+#57	AnnotatorNotes T10	C5400377; COVID-19 pneumonia aggravated; Disease or Syndrome (?)
+R4	Causes Arg1:T15 Arg2:T14	
+T60	Quantifier_or_Qualifier 72 101	procedentes de tejido adiposo
+R5	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T60	
+T62	Quantifier_or_Qualifier 378 406	de tejido adiposo expandidas
+R6	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T62	
+R8	Has_Route_or_Mode Arg1:T7 Arg2:T37	
+R9	Experiences Arg1:T39 Arg2:T7	
+R10	Experiences Arg1:T39 Arg2:T10	
+T64	Quantifier_or_Qualifier 367 377	alogénicas
+#58	AnnotatorNotes T64	C1515895; Allogeneic; Qualitative Concept
+R11	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T64	
+R12	Causes Arg1:T40 Arg2:T11	
+T65	Quantifier_or_Qualifier 632 638	severa
+#59	AnnotatorNotes T65	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R13	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T65	
+R14	Causes Arg1:T25 Arg2:T24	
+R15	Causes Arg1:T23 Arg2:T24	
+R16	Causes Arg1:T25 Arg2:T22	
+R17	Causes Arg1:T23 Arg2:T24	
+R18	Location_of Arg1:T61 Arg2:T20	
+R19	Causes Arg1:T50 Arg2:T21	
+R20	Causes Arg1:T45 Arg2:T18	
+R21	Causes Arg1:T46 Arg2:T18	
+R22	Causes Arg1:T45 Arg2:T1	
+R23	Causes Arg1:T46 Arg2:T19	
+R24	Causes Arg1:T48 Arg2:T32	
+R25	Causes Arg1:T49 Arg2:T18	
+T66	Quantifier_or_Qualifier 788 807	de eficacia probada
+R26	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T66	
+R27	Experiences Arg1:T43 Arg2:T16	
+R28	Experiences Arg1:T44 Arg2:T16	
+R29	Overlap Arg1:T16 Arg2:T17	
+T67	Quantifier_or_Qualifier 641 648	crítica
+#60	AnnotatorNotes T67	C1511545; Critical; Qualitative Concept 
+R30	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T67	
+R31	Causes Arg1:T45 Arg2:T20	
+R32	Causes Arg1:T49 Arg2:T20	
+R33	Causes Arg1:T46 Arg2:T20	
+R34	Experiences Arg1:T51 Arg2:T38	
+R35	Experiences Arg1:T53 Arg2:T26	
+R36	Experiences Arg1:T53 Arg2:T27	
+R37	Experiences Arg1:T53 Arg2:T28	
+T68	Quantifier_or_Qualifier 1294 1299	grave
+#61	AnnotatorNotes T68	C1547227; Severe - Severity of Illness Code; Intellectual Product
+R38	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T68	
+R39	Experiences Arg1:T54 Arg2:T29	
+R40	Location_of Arg1:T33 Arg2:T30	
+R41	Has_Duration_or_Interval Arg1:T30 Arg2:T55	
+T69	Result_or_Value 1405 1420	inferior al 30%
+R44	Has_Result_or_Value Arg1:T31 Arg2:T69	
+R46	Negation Arg1:T56 Arg2:T47	
+A4	Experiencer T52 Patient
+A5	Experiencer T51 Patient
+A6	Experiencer T53 Patient
+A7	Experiencer T54 Patient
+A8	Experiencer T57 Other
+A9	Experiencer T58 Patient
+A10	Experiencer T44 Patient
+A11	Experiencer T43 Patient
+A12	Experiencer T39 Patient
+A13	Experiencer T35 Patient
