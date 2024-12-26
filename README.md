@@ -16,7 +16,7 @@ The article describing the first version of the corpus is [available here](https
 If you use this new version and code, please, cite as follows:
 
 ```
-  @article{2024,   
+  @article{2025,   
   title       = {Benchmarking transformer models for relation extraction and concept normalization of clinical trial texts in Spanish},  
   author       = {Campillos-Llanos, Leonardo and Valverde-Mateos, Ana and Zakhir-Puig, Sofía and Capllonch-Carrión, Adrián and Heras-Vicente, Jónathan},   
   journal = {Under review},
