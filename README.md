@@ -1,6 +1,6 @@
 ### Medical Relation Extraction and Concept Normalization in Spanish Clinical Trial Texts
 
-This repository includes version 3 of the corpus of clinical trials for evidence-based medicine in Spanish.
+This repository includes the version 3 of the corpus of clinical trials for evidence-based medicine in Spanish.
 
 A collection of __1200 texts about clinical trials__:
 - __500 abstracts__ published in medical journals available from [SciELO](https://scielo.org/es/)
@@ -20,7 +20,7 @@ If you use this new version and code, please, cite as follows:
   title       = {Benchmarking transformer models for relation extraction and concept normalization of clinical trial texts in Spanish},  
   author       = {Campillos-Llanos, Leonardo and Valverde-Mateos, Ana and Zakhir-Puig, Sofía and Capllonch-Carrión, Adrián and Heras-Vicente, Jónathan},   
   journal = {Under review},
-  year      = {2024}
+  year      = {2025}
   }
 ```
 
