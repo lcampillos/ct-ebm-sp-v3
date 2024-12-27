@@ -193,8 +193,6 @@ data_files
 
 
 dataset = load_dataset("json", data_files=data_files)
-dataset
-
 
 
 # ### Sentence Length Distribution
