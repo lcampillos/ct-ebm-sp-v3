@@ -1,51 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# 
 # # Relationship Extraction
 # 
-# In this notebook, we will implement a Relation Extraction Model using BERT and Pytorch.
-# 
-# ### Data
-# 
-# * Data for fine-tuning the RE comes from the [New York Times (NYT) Relation Extraction Dataset](https://www.kaggle.com/datasets/daishinkan002/new-york-times-relation-extraction-dataset) available on Kaggle.Each sentence can have more than 1 relation.
-# * This dataset contains 24 types of relations that may occur in a sentence.
-#   * /location/location/contains
-#   * /people/person/nationality
-#   * /people/person/place_lived
-#   * /business/person/company
-#   * /location/country/capital
-#   * /location/neighborhood/neighborhood_of
-#   * /people/person/placeofbirth
-#   * /location/country/administrative_divisions
-#   * /location/administrative_division/country
-#   * /people/deceasedperson/placeof_death
-#   * /people/person/children
-#   * /business/company/founders
-#   * /business/company/place_founded
-#   * /business/companyshareholder/majorshareholder_of
-#   * /sports/sportsteamlocation/teams
-#   * /sports/sports_team/location
-#   * /business/company/major_shareholders
-#   * /people/person/religion
-#   * /business/company/advisors
-#   * /people/ethnicity/geographic_distribution
-#   * /people/person/ethnicity
-#   * /people/ethnicity/people
-#   * /people/person/profession
-#   * /business/company/industry
-# * The relationships connect three different entity types PERSON, LOCATION and ORGANIZATION. 
-# 
-# ### Model
-# 
-# * Unlike the `XXXForTokenClassification` model, which comes with a standard token classification head on top of some XXX transformer, there is no pre-built model available OOB at HuggingFace for Relation Extraction.
-# * So we will build our own `XXXForRelationExtraction` model by composing a pretrained Transformer encoder with a classification head for classifying the relation type.
-
-# ## Environment Setup
-
-# ## Imports
-
-# In[1]:
-
+# # Code prepared by Jonathan Heras, Universidad de La Rioja
 
 import collections
 import json
@@ -78,11 +36,6 @@ torch.cuda.set_device(1)
 
 
 # ## Data Processing
-# 
-# ### Mount Google Drive
-
-# In[37]:
-
 
 import argparse
 ap = argparse.ArgumentParser()
@@ -104,13 +57,8 @@ MODEL_DIR = os.path.join(DATA_DIR, "{:s}-ct-ebm-sp-v2".format(BASE_MODEL_NAME))
 # ### Input Data Format
 # 
 # Our dataset is pre-partitioned into train, validation and test splits.
-# 
 # The `relationMentions` tag lists the relations and matched text of the entities, and the corresponding entity types can be found in the `entityMentions` tag.
-# 
 # The sentence text can be found in `sentText`.
-# 
-
-# In[11]:
 
 
 f = open(os.path.join(GS_INPUT_DIR, "test.json"))
@@ -121,10 +69,7 @@ print(json.dumps(rec[0], indent=2))
 
 
 # ## Entity Types
-# 
 # Here we analyze the distribution of entity tags across the different splits to verify that it is approximately uniform across the splits.
-
-# In[19]:
 
 
 splits = ["train", "valid", "test"]
@@ -145,13 +90,6 @@ ent_df
 # ## Relation Types
 # 
 # We analyze the distribution of relation types across different splits, and we find that while the distribution is uniform across splits, the distribution is very uneven across different relation types.
-# 
-# Here we discard the relation types that are very heavily represented and those which are very lightly represented by filtering our dataset such that only relations with train split counts between 1000 and 10000 are retained.
-# 
-# In real life, we might want to structure our relation extraction pipeline into a hierarchy of models to reflect a more uniform split, or do over/undersampling to attempt to make the dataset less imbalanced, or reduce the model into a set of binary classifiers. But here we take the easy way out and discard relations that are outside the range.
-
-# In[20]:
-
 
 rel_counts = collections.defaultdict(collections.Counter)
 for split in splits:
@@ -169,19 +107,16 @@ rel_df
 
 # ## Raw Dataset
 # 
-# We introduce entity marker tags that wrap the entity mentions in the sentence. For example, the sentence:
+# We introduce entity marker tags that wrap the entity mentions in the sentence. 
 # 
-# ```Washington DC is the capital of the United States .```
+# ```Aspirina administrada cada 8 horas.```
 # 
 # is converted to:
 # 
-# ```<S:LOC> Washington DC </S:LOC> is the capital of the <O:LOC> United States </O:LOC> .```
+# ```<S:CHE> Aspirina </S:CHE> administrada <O:Fre> cada 8 horas </O:Fre> .```
 # 
 # We read the input data and write out the augmented sentence using the information from `sentText`, `entityMentions` and `relationMentions` and tokenize them (by space). Also, we extract the relation type from `relationMentions`. The temporary JSON files have records with the following keys: `{"tokens", "label"}`
-# 
 # This is then converted to a raw HuggingFace dataset using the `load_dataset` function.
-
-# In[43]:
 
 
 types = set()
@@ -248,46 +183,18 @@ for i, split in enumerate(splits):
   reformat_json(os.path.join(GS_INPUT_DIR, "{:s}.json".format(split)),
                 os.path.join(DATA_DIR, "{:s}.json".format(split)))
 
-
-# In[44]:
-
-
-types
-
-
-# In[26]:
-
-
 data_files = {split: os.path.join(DATA_DIR, "{:s}.json".format(split)) for split in splits}
 data_files
-
-
-# In[28]:
-
 
 dataset = load_dataset("json", data_files=data_files)
 dataset
 
 
 # ### Label Distribution
-# 
-# Even with the filtering, the label distribution is not uniform. However, it is not as bad as it would be if no filtering was done.
-
-# In[29]:
 
 
 dataset.set_format(type="pandas")
 df = dataset["train"][:]
-df.head()
-
-
-# In[33]:
-
-
-df['tokens'][0]
-
-
-# In[30]:
 
 
 df["label"].value_counts(ascending=True).plot.barh()
@@ -300,40 +207,18 @@ _ = plt.show()
 # We were encountering errors where we were running out of CUDA Memory. This was happening even when I reduced the batch size from 32 to 8. The other reason this could be happening is that some batches might contain very long outlier sentences and this causes the batch to be too big for the GPU memory.
 # 
 # Solution is to truncate the sentence size to a size that will not impact the accuracy too much. 
-# 
-# The box plots below shows that we won't lose too many samples if we ignore sentences that are over 100 tokens in length.
-
-# In[34]:
-
-
-df["num_tokens"] = df["tokens"].apply(len)
-df.boxplot("num_tokens", by="label", grid=False, showfliers=False)
-plt.suptitle("")
-plt.xlabel("")
-plt.xticks(rotation=90)
-_ = plt.show()
-
-
-# In[35]:
-
 
 dataset.reset_format()
 
 
 # ## Tokenizer
 
-# In[38]:
-
-
 tokenizer = BertTokenizerFast.from_pretrained(BASE_MODEL_NAME)
 vocab_size_orig = len(tokenizer.vocab)
 
 
 # ### Add Entity Marker Tokens
-# 
 # Now that we added these entity marker tokens, we need to tell the tokenizer to treat them as unbreakable tokens, so we add these tokens to our tokenizer.
-
-# In[45]:
 
 
 marker_tokens = []
@@ -361,24 +246,11 @@ print("new vocab size:", vocab_size_new)
 # 
 # In addition, we also compute and store the value of the entity marker tokens with respect to the positions _after subword tokenization_. This is written into a fixed size int vector consisting of 4 elements, and stored under the `span_idxs` key.
 
-# In[57]:
-
-
-
-
-
-# In[58]:
-
 
 valid_relations = sorted(list(rel_counts.keys()))
 rel_tags = ClassLabel(names=valid_relations)
 label2id = {name: rel_tags.str2int(name) for name in valid_relations}
 id2label = {id: rel_tags.int2str(id) for id in range(len(valid_relations))}
-
-# label2id, id2label
-
-
-# In[60]:
 
 
 def encode_data(examples):
@@ -402,17 +274,11 @@ encoded = encode_data(dataset["train"][0:5])
 encoded.keys()
 
 
-# In[62]:
-
 
 MAX_LENGTH = 100
 encoded_dataset = (dataset
                        .filter(lambda example: len(example["tokens"]) < MAX_LENGTH)
                        .map(encode_data, batched=True, remove_columns=["tokens", "label"]))
-encoded_dataset
-
-
-# In[63]:
 
 
 rec = encoded_dataset["train"][0:5]
@@ -429,13 +295,8 @@ print("rec.span_idxs:", rec["span_idxs"])
 # 
 # Also as before, we have used the `sampler` trick for doing quick development iterations by keeping the data volume down.
 
-# In[64]:
-
 
 BATCH_SIZE = 16
-
-
-# In[65]:
 
 
 collate_fn = DataCollatorWithPadding(tokenizer, padding="longest", return_tensors="pt")
@@ -471,13 +332,8 @@ test_dl = DataLoader(encoded_dataset["test"],
 # 
 # The classifier head outputs a logits vector the size of the number of classes, and the argmax over the logits is the predicted relation class.
 
-# In[66]:
-
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-
-# In[67]:
 
 
 class BertForRelationExtraction(BertPreTrainedModel):
@@ -523,29 +379,12 @@ class BertForRelationExtraction(BertPreTrainedModel):
     else:
       return SequenceClassifierOutput(None, logits)
 
-
-# config = BertConfig.from_pretrained(BASE_MODEL_NAME)
-# model = BertForRelationExtraction.from_pretrained(BASE_MODEL_NAME, 
-#                                                   config=config,
-#                                                   num_labels=len(valid_relations))
-# model.bert.resize_token_embeddings(len(tokenizer.vocab))
-# for batch in train_dl:
-#   outputs = model(**batch)
-#   break
-# print("loss:", outputs.loss, "logits.size:", outputs.logits.size())
-
-
 # ## Training Loop
-
-# In[68]:
 
 
 LEARNING_RATE = 5e-5
 WEIGHT_DECAY = 1e-2
 NUM_EPOCHS = 5
-
-
-# In[69]:
 
 
 config = BertConfig.from_pretrained(BASE_MODEL_NAME)
@@ -564,9 +403,6 @@ lr_scheduler = get_scheduler("linear",
                              optimizer=optimizer,
                              num_warmup_steps=0,
                              num_training_steps=num_training_steps)
-
-
-# In[70]:
 
 
 def compute_accuracy(labels, logits):
@@ -624,8 +460,6 @@ def save_training_history(history, model_dir, epoch):
 
 # ## Training / Fine-tuning
 
-# In[71]:
-
 
 if os.path.exists(MODEL_DIR):
   shutil.rmtree(MODEL_DIR)
@@ -643,9 +477,6 @@ for epoch in range(NUM_EPOCHS):
   save_training_history(history, MODEL_DIR, epoch + 1)
 
 
-# In[72]:
-
-
 plt.subplot(2, 1, 1)
 plt.plot([train_loss for _, train_loss, _, _ in history], label="train")
 plt.plot([eval_loss for _, _, eval_loss, _ in history], label="validation")
@@ -661,11 +492,6 @@ plt.legend(loc="best")
 
 plt.tight_layout()
 _ = plt.show()
-
-
-# ## Evaluation
-
-# In[73]:
 
 
 ytrue, ypred = [], []
@@ -686,15 +512,6 @@ with open(BASE_MODEL_NAME.replace('/','-')+"_results_v2.txt",mode="a") as f:
     f.write(classification_report(ytrue, ypred, target_names=valid_relations))
 
 
-# In[74]:
-
-
-
-
-
-# In[75]:
-
-
 def plot_confusion_matrix(ytrue, ypreds, labels,iteration):
   cm = confusion_matrix(ytrue, ypreds, normalize="true")
   fig, ax = plt.subplots(figsize=(12, 12))
@@ -706,10 +523,5 @@ def plot_confusion_matrix(ytrue, ypreds, labels,iteration):
 
 
 plot_confusion_matrix(ytrue, ypred, valid_relations,iteration)
-
-
-# In[ ]:
-
-
 
 
