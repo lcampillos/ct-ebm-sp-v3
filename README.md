@@ -1,5 +1,7 @@
 ### Medical Relation Extraction and Concept Normalization in Spanish Clinical Trial Texts
 
+![screenshot](annot_rels_sample.png)
+
 This repository includes the version 3 of the corpus of clinical trials for evidence-based medicine in Spanish.
 
 A collection of __1200 texts about clinical trials__:
