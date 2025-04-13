@@ -19,7 +19,7 @@ If you use this new version and code, please, cite as follows:
 
 ```
   @article{2025,   
-  title       = {Benchmarking transformer models for relation extraction and concept normalization of clinical trial texts in Spanish},  
+  title       = {Transformer-based relation extraction and concept normalization using an annotated clinical trials corpus},  
   author       = {Campillos-Llanos, Leonardo and Valverde-Mateos, Ana and Zakhir-Puig, Sofía and Capllonch-Carrión, Adrián and Heras-Vicente, Jónathan},   
   journal = {Under review},
   year      = {2025}
