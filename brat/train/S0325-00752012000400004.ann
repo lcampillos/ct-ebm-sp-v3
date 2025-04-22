@@ -133,8 +133,7 @@ T64	Quantifier_or_Qualifier 51 58	inicial
 R11	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T64	
 T65	Quantifier_or_Qualifier 498 504	graves
 #54	AnnotatorNotes T65	C1547227; Severe - Severity of Illness Code; Intellectual Product
-R12	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T65	
-R13	Experiences Arg1:T41 Arg2:T14	
+R12	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T65
 R14	Experiences Arg1:T41 Arg2:T13	
 R15	Before Arg1:T14 Arg2:T13	
 R16	Experiences Arg1:T41 Arg2:T12	

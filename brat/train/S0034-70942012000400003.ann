@@ -117,7 +117,6 @@ T64	Neg_cue 1576 1578	no
 R2	Negation Arg1:T64 Arg2:T61	
 R3	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T61	
 R4	Overlap Arg1:T27 Arg2:T62	
-R5	Location_of Arg1:T38 Arg2:T29	
 T65	Neg_cue 332 334	no
 T66	Quantifier_or_Qualifier 341 352	clarificado
 A3	Assertion T66 Negated
@@ -183,7 +182,6 @@ A5	Assertion T70 Negated
 R61	Negation Arg1:T64 Arg2:T70	
 R63	Causes Arg1:T28 Arg2:T27	
 R64	Location_of Arg1:T38 Arg2:T28	
-R65	Location_of Arg1:T38 Arg2:T29	
 R67	Overlap Arg1:T30 Arg2:T63	
 R68	Used_for Arg1:T30 Arg2:T39	
 R69	Before Arg1:T28 Arg2:T39	
@@ -197,3 +195,4 @@ R27	Overlap Arg1:T21 Arg2:T58
 #54	AnnotatorNotes T61	C1704419; Effective; Qualitative Concept
 A6	Experiencer T44 Patient
 A7	Experiencer T46 Patient
+R5	Location_of Arg1:T38 Arg2:T29	

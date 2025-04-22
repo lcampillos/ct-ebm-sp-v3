@@ -120,17 +120,13 @@ R31	Overlap Arg1:T21 Arg2:T49
 R28	Negation Arg1:T38 Arg2:T43
 A2	Assertion T43 Negated
 A3	Assertion T57 Negated
-R32	Location_of Arg1:T11 Arg2:T10
-R33	Location_of Arg1:T25 Arg2:T10
 R34	Has_Duration_or_Interval Arg1:T32 Arg2:T43
 R35	Location_of Arg1:T6 Arg2:T7
-R1	Experiences Arg1:T51 Arg2:T14
 A4	Assertion T47 Negated
 R7	Negation Arg1:T53 Arg2:T47
 A5	Assertion T60 Negated
 R16	Negation Arg1:T61 Arg2:T60
 R36	Experiences Arg1:T59 Arg2:T60
-R37	Experiences Arg1:T51 Arg2:T9
 T62	PROC 1364 1381	medidas repetidas
 #34	AnnotatorNotes T62	C0871881; repeated measures; Research Activity
 R38	Used_for Arg1:T55 Arg2:T62	
@@ -157,3 +153,8 @@ R46	After Arg1:T21 Arg2:T24
 A9	Experiencer T51 Patient
 A10	Experiencer T59 Patient
 A11	Experiencer T52 Patient
+R1	Location_of Arg1:T11 Arg2:T10	
+R2	Location_of Arg1:T25 Arg2:T10	
+R6	Location_of Arg1:T26 Arg2:T10	
+R32	Experiences Arg1:T51 Arg2:T14	
+R33	Experiences Arg1:T51 Arg2:T9	

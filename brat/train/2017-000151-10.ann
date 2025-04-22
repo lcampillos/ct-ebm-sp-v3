@@ -176,10 +176,10 @@ R34	Has_Duration_or_Interval Arg1:T35 Arg2:T46
 R35	Has_Result_or_Value Arg1:T35 Arg2:T75	
 T76	Result_or_Value 637 649	indetectable
 #55	AnnotatorNotes T76	C3827727; Undetectable; Clinical Attribute
-R36	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T76	
+R36	Has_Result_or_Value Arg1:T35 Arg2:T76	
 T77	Result_or_Value 701 708	un blip
 T78	Result_or_Value 710 724	≤500 copias/mL
-T79	Quantifier_or_Qualifier 763 772	inclusión
+T79	CONC 763 772	inclusión
 #56	AnnotatorNotes T79	C1512693; Inclusion; Qualitative Concept
 R37	Before Arg1:T77 Arg2:T79	
 R38	Before Arg1:T78 Arg2:T79	
