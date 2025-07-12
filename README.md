@@ -1,4 +1,4 @@
-### Medical Relation Extraction and Concept Normalization in Spanish Clinical Trial Texts
+### Clinical Trials for Evidence-Based Medicine in Spanish corpus version 3 
 
 ![screenshot](annot_rels_sample.png)
 
