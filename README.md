@@ -1,10 +1,10 @@
-### Medical Relation Extraction and Concept Normalization in Spanish Clinical Trial Texts
+### Clinical Trials for Evidence-Based Medicine in Spanish corpus version 3 
 
 ![screenshot](annot_rels_sample.png)
 
-This repository includes the version 3 of the corpus of clinical trials for evidence-based medicine in Spanish.
+This repository includes the text and annotation files of the CT-EBM-SP version 3 corpus.
 
-A collection of __1200 texts about clinical trials__:
+This is a collection of __1200 texts about clinical trials__ annotated with entities and semantic relations, and normalized to UMLS concept unique identifiers (CUIs):
 - __500 abstracts__ published in medical journals available from [SciELO](https://scielo.org/es/)
 - __700 clinical trials announcements__ from the [Spanish Clinical Trials Register](https://reec.aemps.es) and the [European Register of Clinical Trials (EudraCT)]([https://scielo.org/es/](https://www.clinicaltrialsregister.eu))
 
