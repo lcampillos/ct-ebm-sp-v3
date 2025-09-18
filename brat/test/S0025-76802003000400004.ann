@@ -148,3 +148,6 @@ A11	Experiencer T36 Patient
 A12	Experiencer T41 Patient
 T56	Result_or_Value 1154 1162	negativo
 R26	Has_Result_or_Value Arg1:T38 Arg2:T56	
+T59	DISO 1123 1141	rotavirus-positivo
+R27	Experiences Arg1:T36 Arg2:T59
+#46	AnnotatorNotes T59	C1504349; Rotavirus test positive; Laboratory or Test Result

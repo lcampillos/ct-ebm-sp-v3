@@ -66,7 +66,6 @@ R4	Used_for Arg1:T19 Arg2:T4
 R5	Overlap Arg1:T24 Arg2:T4	
 T33	Observation 311 317	efecto
 #29	AnnotatorNotes T33	C1518681; Outcome of Therapy; Finding (?)
-R6	Causes Arg1:T7 Arg2:T33	
 R7	Causes Arg1:T13 Arg2:T33	
 R8	Causes Arg1:T9 Arg2:T33	
 R9	Location_of Arg1:T8 Arg2:T6	
@@ -91,3 +90,4 @@ R25	Has_Result_or_Value Arg1:T23 Arg2:T35
 R26	Overlap Arg1:T23 Arg2:T17	
 A2	Experiencer T26 Patient
 A3	Experiencer T31 Patient
+R6	Causes Arg1:T7 Arg2:T33	

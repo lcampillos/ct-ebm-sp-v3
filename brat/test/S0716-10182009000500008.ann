@@ -99,7 +99,7 @@ T61	Route 1522 1524	iv
 #44	AnnotatorNotes T61	C1522726; Intravenous Route of Drug Administration; Functional Concept
 T62	LIVB 1540 1549	pacientes
 #45	AnnotatorNotes T62	C0030705; Patients; Patient or Disabled Group
-T63	Duration 1565 1583	entre 2 y 24 meses
+T63	Age 1565 1583	entre 2 y 24 meses
 T44	LIVB 637 643	médico
 #46	AnnotatorNotes T44	C0031831; Physicians; Professional or Occupational Group
 T45	Duration 1012 1015	1,2
@@ -153,7 +153,6 @@ R30	After Arg1:T8 Arg2:T41
 R31	Before Arg1:T8 Arg2:T42	
 R32	Experiences Arg1:T43 Arg2:T9	
 R33	Causes Arg1:T11 Arg2:T9	
-R34	Has_Duration_or_Interval Arg1:T31 Arg2:T63	
 R35	Experiences Arg1:T62 Arg2:T31	
 R36	Has_Route_or_Mode Arg1:T30 Arg2:T61	
 R37	Experiences Arg1:T62 Arg2:T30	
@@ -206,3 +205,4 @@ A10	Experiencer T44 Other
 A11	Experiencer T48 Patient
 A12	Experiencer T54 Patient
 A13	Experiencer T62 Patient
+R34	Has_Age Arg1:T62 Arg2:T63	

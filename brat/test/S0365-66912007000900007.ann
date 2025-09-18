@@ -22,7 +22,7 @@ T11	PROC 392 410	facoemulsificación
 #11	AnnotatorNotes T11	C0282545; Phacoemulsification; Therapeutic or Preventive Procedure | C2193446; Aspiration of cataract by phacoemulsification; Therapeutic or Preventive Procedure
 T12	PROC 415 448	incisión temporal en córnea clara
 T13	ANAT 436 448	córnea clara
-T14	PROC 478 496	tratamiento a ILRs
+T14	PROC 492 496	ILRs
 T15	PROC 505 523	facoemulsificación
 #13	AnnotatorNotes T15	C0282545; Phacoemulsification; Therapeutic or Preventive Procedure | C2193446; Aspiration of cataract by phacoemulsification; Therapeutic or Preventive Procedure
 T16	PROC 528 561	incisión temporal en córnea clara
@@ -115,3 +115,19 @@ A6	Experiencer T41 Patient
 A7	Experiencer T36 Patient
 A8	Experiencer T43 Patient
 A9	Experiencer T39 Patient
+T44	PROC 998 1002	ILRs
+#36	AnnotatorNotes T44	C1275660; Limbal relaxing incision; Therapeutic or Preventive Procedure
+R20	Before Arg1:T44 Arg2:T26	
+T46	PROC 215 219	ILRs
+#37	AnnotatorNotes T46	C1275660; Limbal relaxing incision; Therapeutic or Preventive Procedure
+R31	Location_of Arg1:T7 Arg2:T46	
+R32	Before Arg1:T46 Arg2:T5	
+T47	LIVB 472 489	grupo tratamiento
+#38	AnnotatorNotes T47	C5205742; Treatment Group; Population Group
+T48	PROC 478 489	tratamiento
+#39	AnnotatorNotes T48	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
+R33	Experiences Arg1:T47 Arg2:T48	
+R34	Experiences Arg1:T47 Arg2:T14	
+R35	Experiences Arg1:T47 Arg2:T15	
+R36	Experiences Arg1:T47 Arg2:T16	
+A10	Experiencer T47 Patient

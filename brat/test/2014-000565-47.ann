@@ -286,3 +286,14 @@ A17	Experiencer T66 Patient
 A18	Experiencer T68 Patient
 A19	Experiencer T73 Patient
 A20	Experiencer T80 Patient
+R39	Experiences Arg1:T80 Arg2:T84	
+R40	Experiences Arg1:T80 Arg2:T85	
+T107	Quantifier_or_Qualifier 1395 1407	concomitante
+#89	AnnotatorNotes T107	C0521115; Simultaneous; Temporal Concept
+R45	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T107	
+R46	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T107	
+R52	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T107	
+R56	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T107	
+R58	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T107	
+R75	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T107	
+R82	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T107	

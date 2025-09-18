@@ -31,11 +31,11 @@ T16	PROC 796 824	transfusión de hemoderivados
 T17	PROC 196 248	Ensayo clínico aleatorizado, abierto y multicéntrico
 T18	CHEM 811 824	hemoderivados
 #15	AnnotatorNotes T18	C0456388; Blood product; Pharmacologic Substance | C1629497; Blood derivative; Pharmacologic Substance
-T19	CHEM 71 95	cardioplegia de Buckberg
-T20	CHEM 101 122	cardioplegia Del Nido
+T19	PROC 71 95	cardioplegia de Buckberg
+T20	PROC 101 122	cardioplegia Del Nido
 #16	AnnotatorNotes T20	C4762491; Del Nido Cardioplegia; Organic Chemical · Pharmacologic Substance
-T21	CHEM 293 314	cardioplegia Buckberg
-T22	CHEM 318 326	Del Nido
+T21	PROC 293 314	cardioplegia Buckberg
+T22	PROC 318 326	Del Nido
 T23	Date 13 17	2018
 T25	LIVB 487 512	Pacientes mayores de edad
 #17	AnnotatorNotes T25	C0030705; Patients; Patient or Disabled Group + C0001675; Adult; Age Group
@@ -78,13 +78,13 @@ R12	Has_Age Arg1:T33 Arg2:T26
 R13	Has_Age Arg1:T33 Arg2:T24	
 R14	Location_of Arg1:T3 Arg2:T2	
 R15	Location_of Arg1:T4 Arg2:T2	
-R16	Used_for Arg1:T19 Arg2:T2	
-R17	Used_for Arg1:T20 Arg2:T2	
+R16	Overlap Arg1:T19 Arg2:T2	
+R17	Overlap Arg1:T20 Arg2:T2	
 T36	Quantifier_or_Qualifier 166 173	aislada
 #28	AnnotatorNotes T36	C0205409; Isolated; Functional Concept
 R18	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T36	
-R19	Used_for Arg1:T21 Arg2:T7	
-R20	Used_for Arg1:T22 Arg2:T7	
+R19	Overlap Arg1:T21 Arg2:T7	
+R20	Overlap Arg1:T22 Arg2:T7	
 R21	Location_of Arg1:T5 Arg2:T7	
 R22	Location_of Arg1:T6 Arg2:T7	
 T37	Quantifier_or_Qualifier 359 366	aislada

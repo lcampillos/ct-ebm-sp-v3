@@ -153,7 +153,7 @@ R25	Before Arg1:T15 Arg2:T18
 R26	Before Arg1:T14 Arg2:T18	
 R27	After Arg1:T16 Arg2:T58	
 R23	Before Arg1:T18 Arg2:T16	
-R24	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T22	
+R24	Location_of Arg1:T48 Arg2:T22	
 T70	Quantifier_or_Qualifier 639 644	única
 #61	AnnotatorNotes T70	C1710548; Unique; Qualitative Concept
 T71	Quantifier_or_Qualifier 647 655	múltiple
@@ -167,7 +167,6 @@ T73	Observation 900 919	han sido informados
 #63	AnnotatorNotes T73	C0587903; Patient information status; Finding (?)
 R32	Before Arg1:T73 Arg2:T23	
 T74	Result_or_Value 1033 1035	>4
-R34	Has_Result_or_Value Arg1:T61 Arg2:T74	
 R35	Causes Arg1:T49 Arg2:T24	
 R36	Causes Arg1:T49 Arg2:T25	
 R37	Causes Arg1:T26 Arg2:T25	
@@ -224,3 +223,4 @@ A7	Experiencer T59 Patient
 A8	Experiencer T62 Patient
 A9	Experiencer T64 Patient
 A10	Experiencer T66 Patient
+R16	Has_Result_or_Value Arg1:T61 Arg2:T74	
