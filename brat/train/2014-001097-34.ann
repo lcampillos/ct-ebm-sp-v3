@@ -132,9 +132,9 @@ R39	Has_Duration_or_Interval Arg1:T24 Arg2:T43
 R40	Overlap Arg1:T29 Arg2:T44	
 T51	Quantifier_or_Qualifier 1101 1120	contra estafilococo
 R41	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T51	
-T52	Quantifier_or_Qualifier 1090 1100	sistémicos
-#46	AnnotatorNotes T52	C0205373; Systemic; Functional Concept
-R42	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T52	
+T52	Route 1090 1100	sistémicos
+#46	AnnotatorNotes T52	C5849094; Systemic Route of Administration; Functional Concept
+R42	Has_Route_or_Mode Arg1:T29 Arg2:T52	
 R43	Experiences Arg1:T46 Arg2:T25	
 T53	Quantifier_or_Qualifier 449 495	contra la toxina alfa de Staphylococcus aureus
 R44	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T53	

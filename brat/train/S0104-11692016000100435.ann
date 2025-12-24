@@ -130,3 +130,21 @@ R38	Before Arg1:T17 Arg2:T12
 R39	Experiences Arg1:T37 Arg2:T36	
 A3	Experiencer T37 Patient
 A4	Experiencer T38 Patient
+T51	ANAT 54 60	venoso
+#40	AnnotatorNotes T51	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R40	Location_of Arg1:T51 Arg2:T36	
+T52	ANAT 244 250	venoso
+#41	AnnotatorNotes T52	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R41	Location_of Arg1:T52 Arg2:T3	
+T53	ANAT 1302 1308	venoso
+#42	AnnotatorNotes T53	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R42	Location_of Arg1:T53 Arg2:T13	
+T54	CONC 885 896	calibre 20G
+#43	AnnotatorNotes T54	C0450403; 20 gauge; Quantitative Concept
+R43	Has_Quantifier_or_Qualifier Arg1:T46 Arg2:T54	
+T55	CONC 1474 1485	calibre 20G
+#44	AnnotatorNotes T55	C0450403; 20 gauge; Quantitative Concept
+T56	CONC 1566 1577	calibre 22G
+#45	AnnotatorNotes T56	C0450404; 22 gauge; Quantitative Concept
+T57	CONC 1035 1046	calibre 20G
+#46	AnnotatorNotes T57	C0450403; 20 gauge; Quantitative Concept

@@ -48,8 +48,6 @@ T26	DISO 1372 1391	efectos secundarios
 #22	AnnotatorNotes T26	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
 T27	DISO 1397 1404	prurito
 #23	AnnotatorNotes T27	C0033774; Pruritus; Sign or Symptom
-T28	DISO 1418 1433	náusea y vómito
-#24	AnnotatorNotes T28	C0027498; Nausea and vomiting; Sign or Symptom
 T29	DISO 1448 1466	retención urinaria
 #25	AnnotatorNotes T29	C0080274; Urinary Retention; Finding
 T30	DISO 1483 1505	depresión respiratoria
@@ -217,3 +215,7 @@ A9	Experiencer T58 Patient
 A10	Experiencer T59 Patient
 A11	Experiencer T62 Patient
 A12	Experiencer T66 Patient
+T28	DISO 1418 1433	náusea y vómito
+T85	CONC 480 492	transuretral
+#24	AnnotatorNotes T85	C0205497; Transurethral approach; Spatial Concept
+#69	AnnotatorNotes T28	C0027498; Nausea and vomiting; Sign or Symptom

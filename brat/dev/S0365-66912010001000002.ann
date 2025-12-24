@@ -42,9 +42,9 @@ T30	DEVI 1195 1216	tonómetro de Goldmann
 #20	AnnotatorNotes T30	C1271528; Goldmann applanation tonometer; Medical Device
 T31	LIVB 1148 1157	población
 #21	AnnotatorNotes T31	C1257890; Population; Population Group
-T20	DEVI 40 54	neumotonómetro
+T20	DEVI 40 66	neumotonómetro de contacto
 #22	AnnotatorNotes T20	C1271256; Pneumatic tonometer; Medical Device
-T27	DEVI 220 234	neumotonómetro
+T27	DEVI 220 246	neumotonómetro de contacto
 #23	AnnotatorNotes T27	C1271256; Pneumatic tonometer; Medical Device
 T19	LIVB 464 473	controles
 #24	AnnotatorNotes T19	C0009932; Control Groups; Group
@@ -53,10 +53,6 @@ T25	Quantifier_or_Qualifier 1007 1037	estadísticamente significativa
 A1	Assertion T25 Negated
 #25	AnnotatorNotes T25	C0237881; Statistical Significance; Quantitative Concept
 R1	Negation Arg1:T23 Arg2:T25	
-T26	Quantifier_or_Qualifier 235 246	de contacto
-R2	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T26	
-T28	Quantifier_or_Qualifier 55 66	de contacto
-R3	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T28	
 R4	Used_for Arg1:T24 Arg2:T14	
 R5	Experiences Arg1:T31 Arg2:T4	
 T29	PROC 83 97	grosor corneal
@@ -87,3 +83,38 @@ A2	Experiencer T31 Patient
 A3	Experiencer T22 Patient
 A4	Experiencer T19 Other
 R18	Has_Result_or_Value Arg1:T17 Arg2:T34	
+T36	DEVI 248 251	NTC
+#32	AnnotatorNotes T36	C1271256; Pneumatic tonometer; Medical Device
+T26	DEVI 705 708	NTC
+#33	AnnotatorNotes T26	C1271256; Pneumatic tonometer; Medical Device
+T28	DEVI 774 777	NTC
+#34	AnnotatorNotes T28	C1271256; Pneumatic tonometer; Medical Device
+R2	Used_for Arg1:T36 Arg2:T11	
+R3	Used_for Arg1:T36 Arg2:T12	
+T37	DEVI 623 626	NTC
+#35	AnnotatorNotes T37	C1271256; Pneumatic tonometer; Medical Device
+T38	DEVI 950 953	NTC
+#36	AnnotatorNotes T38	C1271256; Pneumatic tonometer; Medical Device
+T39	DEVI 210 213	GAT
+#37	AnnotatorNotes T39	C1271528; Goldmann applanation tonometer; Medical Device
+R19	Used_for Arg1:T39 Arg2:T11	
+R21	Used_for Arg1:T39 Arg2:T12	
+T40	DEVI 614 617	GAT
+#38	AnnotatorNotes T40	C1271528; Goldmann applanation tonometer; Medical Device
+T41	DEVI 696 699	GAT
+#39	AnnotatorNotes T41	C1271528; Goldmann applanation tonometer; Medical Device
+T42	DEVI 765 768	GAT
+#40	AnnotatorNotes T42	C1271528; Goldmann applanation tonometer; Medical Device
+T43	DEVI 867 870	GAT
+#41	AnnotatorNotes T43	C1271528; Goldmann applanation tonometer; Medical Device
+T44	PROC 302 305	CCT
+#42	AnnotatorNotes T44	C0412514; Corneal Pachymetry; Diagnostic Procedure (?)
+R22	Location_of Arg1:T2 Arg2:T44	
+T45	PROC 940 943	CCT
+#43	AnnotatorNotes T45	C0412514; Corneal Pachymetry; Diagnostic Procedure (?)
+T46	PROC 1173 1176	CCT
+#44	AnnotatorNotes T46	C0412514; Corneal Pachymetry; Diagnostic Procedure (?)
+T47	ANAT 145 156	intraocular
+#45	AnnotatorNotes T47	C3282905; Intraocular; Spatial Concept
+R23	Location_of Arg1:T47 Arg2:T11	
+R24	Location_of Arg1:T47 Arg2:T12	

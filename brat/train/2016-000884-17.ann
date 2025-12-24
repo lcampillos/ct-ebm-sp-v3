@@ -136,3 +136,24 @@ T53	Observation 909 930	consientan participar
 A3	Experiencer T39 Patient
 A4	Experiencer T37 Patient
 A5	Experiencer T35 Patient
+T54	Duration 87 92	agudo
+#47	AnnotatorNotes T54	C0205178; acute; Temporal Concept
+R21	Has_Duration_or_Interval Arg1:T4 Arg2:T54	
+T55	Duration 311 316	agudo
+#48	AnnotatorNotes T55	C0205178; acute; Temporal Concept
+R23	Has_Duration_or_Interval Arg1:T10 Arg2:T55	
+T56	Duration 344 349	aguda
+#49	AnnotatorNotes T56	C0205178; acute; Temporal Concept
+R37	Has_Duration_or_Interval Arg1:T27 Arg2:T56	
+T57	Duration 250 255	agudo
+#50	AnnotatorNotes T57	C0205178; acute; Temporal Concept
+R38	Has_Duration_or_Interval Arg1:T9 Arg2:T57	
+T58	Duration 463 468	agudo
+#51	AnnotatorNotes T58	C0205178; acute; Temporal Concept
+R39	Has_Duration_or_Interval Arg1:T13 Arg2:T58	
+T59	Duration 793 798	agudo
+#52	AnnotatorNotes T59	C0205178; acute; Temporal Concept
+R40	Has_Duration_or_Interval Arg1:T18 Arg2:T59	
+T60	Duration 996 1001	agudo
+#53	AnnotatorNotes T60	C0205178; acute; Temporal Concept
+R41	Has_Duration_or_Interval Arg1:T20 Arg2:T60	

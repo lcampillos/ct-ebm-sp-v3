@@ -271,3 +271,12 @@ R99	Causes Arg1:T9 Arg2:T11
 #80	AnnotatorNotes T34	C3640054; Glycoprotein IIb/IIIa Antagonist; Chemical Viewed Functionally
 A6	Experiencer T58 Patient
 A7	Experiencer T60 Patient
+T90	Duration 197 202	Agudo
+#81	AnnotatorNotes T90	C0205178; acute; Temporal Concept
+R92	Has_Duration_or_Interval Arg1:T6 Arg2:T90	
+T91	Duration 330 335	Agudo
+R95	Has_Duration_or_Interval Arg1:T8 Arg2:T91	
+T92	Duration 417 422	agudo
+#82	AnnotatorNotes T92	C0205178; acute; Temporal Concept
+R100	Has_Duration_or_Interval Arg1:T9 Arg2:T92	
+#83	AnnotatorNotes T91	C0205178; acute; Temporal Concept

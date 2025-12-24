@@ -176,9 +176,9 @@ R49	Location_of Arg1:T34 Arg2:T13
 R46	Experiences Arg1:T41 Arg2:T3	
 R51	Experiences Arg1:T41 Arg2:T2	
 R52	Overlap Arg1:T5 Arg2:T42	
-T74	Quantifier_or_Qualifier 1229 1234	aguda
-#54	AnnotatorNotes T74	C0205178; acute; Temporal Concept 
-R50	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T74	
+T74	Duration 1229 1234	aguda
+#54	AnnotatorNotes T74	C0205178; acute; Temporal Concept
+R50	Has_Duration_or_Interval Arg1:T39 Arg2:T74	
 R53	Before Arg1:T28 Arg2:T54	
 #57	AnnotatorNotes T39	C1861172; Venous Thromboembolism; Disease or Syndrome
 #46	AnnotatorNotes T7	C0206035; Controlled Clinical Trials, Randomized; Research Activity

@@ -99,14 +99,14 @@ T49	Observation 972 977	brote
 #44	AnnotatorNotes T49	C1304680; Observation of attack; Finding
 T50	Observation 1429 1434	brote
 #45	AnnotatorNotes T50	C1304680; Observation of attack; Finding
-T51	Quantifier_or_Qualifier 1435 1440	agudo
-#46	AnnotatorNotes T51	C0439557; Acute phase; Temporal Concept
-R8	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T51	
+T51	Duration 1435 1440	agudo
+#46	AnnotatorNotes T51	C0205178; acute; Temporal Concept
+R8	Has_Duration_or_Interval Arg1:T50 Arg2:T51	
 R9	Causes Arg1:T24 Arg2:T50	
 R10	Causes Arg1:T21 Arg2:T47	
-T52	Quantifier_or_Qualifier 399 404	agudo
-#47	AnnotatorNotes T52	C0439557; Acute phase; Temporal Concept
-R11	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T52	
+T52	Duration 399 404	agudo
+#47	AnnotatorNotes T52	C0205178; acute; Temporal Concept
+R11	Has_Duration_or_Interval Arg1:T47 Arg2:T52	
 R12	Location_of Arg1:T19 Arg2:T49	
 R13	Location_of Arg1:T23 Arg2:T30	
 #48	AnnotatorNotes T30	C0015397; Disorder of eye; Disease or Syndrome
@@ -142,3 +142,10 @@ A9	Experiencer T44 Patient
 A10	Experiencer T39 Patient
 A11	Experiencer T45 Patient
 A12	Experiencer T40 Patient
+T55	Duration 201 206	aguda
+#49	AnnotatorNotes T55	C0205178; acute; Temporal Concept
+R31	Has_Duration_or_Interval Arg1:T8 Arg2:T55	
+R32	Has_Duration_or_Interval Arg1:T29 Arg2:T55	
+T56	Duration 27 33	agudas
+#50	AnnotatorNotes T56	C0205178; acute; Temporal Concept
+R33	Has_Duration_or_Interval Arg1:T1 Arg2:T56	

@@ -261,9 +261,9 @@ R72	Experiences Arg1:T75 Arg2:T32
 R73	Location_of Arg1:T44 Arg2:T32	
 R74	Has_Duration_or_Interval Arg1:T32 Arg2:T76	
 R75	Negation Arg1:T77 Arg2:T45	
-T99	Quantifier_or_Qualifier 2068 2074	agudas
-#85	AnnotatorNotes T99	C0439557; Acute phase; Temporal Concept
-R76	Has_Quantifier_or_Qualifier Arg1:T32 Arg2:T99	
+T99	Duration 2068 2074	agudas
+#85	AnnotatorNotes T99	C0205178; acute; Temporal Concept
+R76	Has_Duration_or_Interval Arg1:T32 Arg2:T99	
 R77	Experiences Arg1:T75 Arg2:T45	
 R78	Negation Arg1:T79 Arg2:T33	
 #86	AnnotatorNotes T45	C3469597; Administration of medication; Therapeutic or Preventive Procedure

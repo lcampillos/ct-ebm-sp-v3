@@ -184,3 +184,6 @@ A13	Experiencer T46 Patient
 A14	Experiencer T51 Patient
 A15	Status T26 Future
 A16	Status T9 Future
+T72	Duration 993 998	agudo
+#61	AnnotatorNotes T72	C0205178; acute; Temporal Concept
+R31	Has_Duration_or_Interval Arg1:T19 Arg2:T72	

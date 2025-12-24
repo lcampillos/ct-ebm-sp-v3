@@ -192,7 +192,7 @@ R12	Experiences Arg1:T64 Arg2:T8
 R13	Before Arg1:T8 Arg2:T48	
 R14	Experiences Arg1:T64 Arg2:T48	
 R15	Negation Arg1:T65 Arg2:T62	
-T88	Observation 183 194	irresecable
+T88	Quantifier_or_Qualifier 183 194	irresecable
 #72	AnnotatorNotes T88	C4039777; Tumor surgically unresectable; Finding
 R16	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T88	
 R17	Used_for Arg1:T10 Arg2:T11	
@@ -204,27 +204,27 @@ R22	Experiences Arg1:T66 Arg2:T14
 R23	Experiences Arg1:T66 Arg2:T16	
 R24	Experiences Arg1:T66 Arg2:T49	
 R25	Before Arg1:T16 Arg2:T49	
-T89	Observation 421 432	irresecable
+T89	Quantifier_or_Qualifier 421 432	irresecable
 #73	AnnotatorNotes T89	C4039777; Tumor surgically unresectable; Finding
 R26	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T89	
 R27	Experiences Arg1:T66 Arg2:T52	
 R28	Negation Arg1:T67 Arg2:T52	
 R29	Experiences Arg1:T64 Arg2:T62	
 R30	Before Arg1:T50 Arg2:T85	
-T90	Observation 588 599	irresecable
+T90	Quantifier_or_Qualifier 588 599	irresecable
 #74	AnnotatorNotes T90	C4039777; Tumor surgically unresectable; Finding
 R31	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T90	
 R32	Before Arg1:T18 Arg2:T51	
 R33	Negation Arg1:T68 Arg2:T53	
 T91	Result_or_Value 706 717	estadio III
-T92	Observation 719 730	irresecable
+T92	Quantifier_or_Qualifier 719 730	irresecable
 #75	AnnotatorNotes T92	C4039777; Tumor surgically unresectable; Finding
 R35	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T92	
 T93	Result_or_Value 737 747	estadio IV
 R39	Has_Result_or_Value Arg1:T69 Arg2:T91	
 R40	Has_Result_or_Value Arg1:T69 Arg2:T93	
 R36	Experiences Arg1:T70 Arg2:T20	
-T94	Observation 895 906	irresecable
+T94	Quantifier_or_Qualifier 895 906	irresecable
 #76	AnnotatorNotes T94	C4039777; Tumor surgically unresectable; Finding
 R37	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T94	
 R41	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T54	
@@ -234,7 +234,7 @@ T95	CONC 981 991	RECIST 1.1
 #77	AnnotatorNotes T95	C4086827; Response Evaluation Criteria in Solid Tumors Version 1.1; Intellectual Product
 R47	Location_of Arg1:T25 Arg2:T27	
 R48	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T57	
-T96	Observation 1047 1058	irresecable
+T96	Quantifier_or_Qualifier 1047 1058	irresecable
 #78	AnnotatorNotes T96	C4039777; Tumor surgically unresectable; Finding
 R49	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T96	
 R50	Location_of Arg1:T58 Arg2:T28	
@@ -291,3 +291,5 @@ A23	Experiencer T66 Patient
 A24	Experiencer T70 Patient
 A25	Experiencer T73 Patient
 A26	Experiencer T75 Patient
+T104	CHEM 1110 1123	biomarcadores
+#82	AnnotatorNotes T104	C0815130; chemical substances as biological markers; Chemical Viewed Functionally

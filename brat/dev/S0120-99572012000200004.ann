@@ -227,3 +227,17 @@ A7	Experiencer T65 Patient
 A8	Experiencer T68 Patient
 A9	Experiencer T74 Patient
 A10	Experiencer T75 Patient
+T87	PROC 884 893	Se evaluó
+#68	AnnotatorNotes T87	C1261322; Evaluation procedure; Health Care Activity
+T88	DISO 691 693	DU
+T89	DISO 880 882	DU
+R51	Experiences Arg1:T63 Arg2:T89	
+T90	DISO 1440 1442	DU
+R52	Overlap Arg1:T22 Arg2:T90	
+R53	Overlap Arg1:T21 Arg2:T90	
+T91	DISO 1683 1685	DU
+R60	Experiences Arg1:T68 Arg2:T91	
+T92	DISO 2169 2171	DU
+R65	Overlap Arg1:T32 Arg2:T92	
+T93	DISO 1901 1903	DU
+R71	Experiences Arg1:T74 Arg2:T93	

@@ -228,9 +228,9 @@ R68	After Arg1:T27 Arg2:T60
 R69	Location_of Arg1:T47 Arg2:T28
 R74	Has_Duration_or_Interval Arg1:T46 Arg2:T75
 R75	Location_of Arg1:T48 Arg2:T30
-T86	Quantifier_or_Qualifier 1696 1701	aguda
-#67	AnnotatorNotes T86	C0439557; Acute phase; Temporal Concept
-R76	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T86
+T86	Duration 1696 1701	aguda
+#67	AnnotatorNotes T86	C0205178; acute; Temporal Concept
+R76	Has_Duration_or_Interval Arg1:T28 Arg2:T86
 T87	Quantifier_or_Qualifier 1746 1760	mal controlada
 #68	AnnotatorNotes T87	C3853134; Poorly controlled; Functional Concept
 R77	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T87

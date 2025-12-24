@@ -115,7 +115,7 @@ R2	Causes Arg1:T1 Arg2:T52
 R3	Overlap Arg1:T31 Arg2:T44	
 R4	Used_for Arg1:T31 Arg2:T1	
 R5	Before Arg1:T1 Arg2:T2	
-R6	Used_for Arg1:T32 Arg2:T2	
+R6	Location_of Arg1:T32 Arg2:T2	
 R7	Location_of Arg1:T34 Arg2:T33	
 R10	Before Arg1:T5 Arg2:T33	
 R12	After Arg1:T3 Arg2:T6	
@@ -216,3 +216,8 @@ A7	Experiencer T59 Patient
 A8	Experiencer T46 Patient
 A9	Experiencer T47 Patient
 A10	Experiencer T58 Patient
+T54	Duration 696 701	agudo
+#65	AnnotatorNotes T54	C0439557; Acute phase; Temporal Concept
+R40	Has_Duration_or_Interval Arg1:T15 Arg2:T54	
+R41	Has_Duration_or_Interval Arg1:T16 Arg2:T54	
+R54	Location_of Arg1:T21 Arg2:T22	

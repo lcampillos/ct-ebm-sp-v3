@@ -260,3 +260,9 @@ A12	Experiencer T82 Patient
 A13	Experiencer T84 Patient
 A14	Experiencer T88 Patient
 R32	Has_Result_or_Value Arg1:T53 Arg2:T92	
+T87	Observation 2260 2300	elevación de biomarcadores inflamatorios
+R35	Experiences Arg1:T88 Arg2:T87	
+T89	CHEM 1237 1250	biomarcadores
+#75	AnnotatorNotes T89	C0815130; chemical substances as biological markers; Chemical Viewed Functionally
+T94	CHEM 2273 2286	biomarcadores
+#76	AnnotatorNotes T94	C0815130; chemical substances as biological markers; Chemical Viewed Functionally

@@ -50,24 +50,24 @@ T27	DISO 1367 1376	influenza
 T28	PROC 1518 1544	niveles de anticuerpos IgM
 T29	DISO 1738 1747	influenza
 #23	AnnotatorNotes T29	C0021400; Influenza; Disease or Syndrome
-T30	LIVB 1 24	Lactobacillus plantarum
+T30	CHEM 1 24	Lactobacillus plantarum
 #24	AnnotatorNotes T30	C0317608; Lactobacillus plantarum; Bacterium
 T31	LIVB 130 138	ancianos
 #25	AnnotatorNotes T31	C0001792; Elderly (population group); Population Group
 T32	LIVB 230 238	ancianos
 #26	AnnotatorNotes T32	C0001792; Elderly (population group); Population Group
-T33	LIVB 305 328	Lactobacillus plantarum
+T33	CHEM 305 328	Lactobacillus plantarum
 #27	AnnotatorNotes T33	C0317608; Lactobacillus plantarum; Bacterium
 T34	LIVB 407 415	ancianos
 #28	AnnotatorNotes T34	C0001792; Elderly (population group); Population Group
 T35	LIVB 430 458	ancianos institucionalizados
 #29	AnnotatorNotes T35	C0001792; Elderly (population group); Population Group + C0376326; Institutionalized Persons; Patient or Disabled Group
 T36	Age 460 470	65-85 años
-T37	LIVB 791 801	probiótico
-#30	AnnotatorNotes T37	C0525033; Probiotics; Bacterium
+T37	CHEM 791 801	probiótico
+#30	AnnotatorNotes T37	C3485429; Probiotic Formula; Pharmacologic Substance (?)
 T38	Duration 809 834	entre tres y cuatro meses
-T42	LIVB 1233 1243	probiótico
-#31	AnnotatorNotes T42	C0525033; Probiotics; Bacterium
+T42	CHEM 1233 1243	probiótico
+#31	AnnotatorNotes T42	C3485429; Probiotic Formula; Pharmacologic Substance (?)
 T43	Duration 1252 1259	3 meses
 T44	Duration 1324 1334	tres meses
 T46	LIVB 1751 1759	ancianos
@@ -82,15 +82,15 @@ T51	LIVB 865 876	voluntarios
 #35	AnnotatorNotes T51	C0020155; Human Volunteers; Population Group
 T52	Dose 948 957	5*109 ufc
 T53	Frequency 957 961	/día
-T54	LIVB 965 977	L. plantarum
+T54	CHEM 965 977	L. plantarum
 #36	AnnotatorNotes T54	C0317608; Lactobacillus plantarum; Bacterium
 T39	Dose 1051 1060	5*108 ufc
 T55	Frequency 1060 1064	/día
-T56	LIVB 1068 1080	L. plantarum
+T56	CHEM 1068 1080	L. plantarum
 #37	AnnotatorNotes T56	C0317608; Lactobacillus plantarum; Bacterium
-T40	LIVB 1288 1300	L. plantarum
+T40	CHEM 1288 1300	L. plantarum
 #38	AnnotatorNotes T40	C0317608; Lactobacillus plantarum; Bacterium
-T41	LIVB 1606 1618	L. plantarum
+T41	CHEM 1606 1618	L. plantarum
 #39	AnnotatorNotes T41	C0317608; Lactobacillus plantarum; Bacterium
 T45	PHYS 1644 1668	efecto inmunoestimulador
 #40	AnnotatorNotes T45	C2267003; Increased Immunologic Activity; Physiologic Function
@@ -141,7 +141,6 @@ R24	Overlap Arg1:T13 Arg2:T50
 R25	Overlap Arg1:T11 Arg2:T49	
 R26	Overlap Arg1:T11 Arg2:T50	
 R27	Used_for Arg1:T37 Arg2:T10	
-R28	Has_Duration_or_Interval Arg1:T10 Arg2:T38	
 R29	After Arg1:T10 Arg2:T14	
 R30	Has_Frequency Arg1:T54 Arg2:T53	
 R31	Before Arg1:T15 Arg2:T54	
@@ -164,12 +163,12 @@ T73	Food 1107 1122	leche desnatada
 #51	AnnotatorNotes T73	C0349375; skim milk; Food
 R36	Has_Drug_Form Arg1:T73 Arg2:T72	
 R37	Combined_with Arg1:T54 Arg2:T70	
-T74	Result_or_Value 996 1000	20 g
-R38	Has_Result_or_Value Arg1:T70 Arg2:T74	
+T74	Dose 996 1000	20 g
+R38	Has_Dose_or_Strength Arg1:T70 Arg2:T74	
 T75	Result_or_Value 1099 1103	20 g
 R39	Has_Result_or_Value Arg1:T73 Arg2:T75	
-T76	Result_or_Value 1165 1169	20 g
-R40	Has_Result_or_Value Arg1:T68 Arg2:T76	
+T76	Dose 1165 1169	20 g
+R40	Has_Dose_or_Strength Arg1:T68 Arg2:T76	
 R41	Used_for Arg1:T68 Arg2:T26	
 T77	Quantifier_or_Qualifier 1081 1095	CECT 7315/7316
 R42	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T77	
@@ -180,7 +179,6 @@ R46	Before Arg1:T15 Arg2:T26
 R47	Before Arg1:T15 Arg2:T56	
 R48	Experiences Arg1:T48 Arg2:T16	
 R49	Used_for Arg1:T42 Arg2:T16	
-R50	Has_Duration_or_Interval Arg1:T16 Arg2:T43	
 R51	Used_for Arg1:T40 Arg2:T1	
 T78	Quantifier_or_Qualifier 1301 1315	CECT 7315/7316
 R53	Has_Duration_or_Interval Arg1:T1 Arg2:T44	
@@ -218,3 +216,9 @@ A14	Experiencer T46 Patient
 R65	Has_Result_or_Value Arg1:T19 Arg2:T80	
 R66	Has_Result_or_Value Arg1:T18 Arg2:T79	
 R67	Has_Result_or_Value Arg1:T28 Arg2:T81	
+R68	Has_Duration_or_Interval Arg1:T37 Arg2:T38	
+R28	Has_Duration_or_Interval Arg1:T42 Arg2:T43	
+R50	Experiences Arg1:T51 Arg2:T54	
+R69	Experiences Arg1:T51 Arg2:T56	
+R70	Experiences Arg1:T51 Arg2:T26	
+R71	Experiences Arg1:T46 Arg2:T41	

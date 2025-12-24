@@ -40,7 +40,7 @@ T22	CHEM 1093 1113	analgésicos opioides
 T23	CHEM 1153 1164	secukinumab
 #18	AnnotatorNotes T23	C3179547; secukinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
 T24	CHEM 1174 1191	fármaco biológico
-#19	AnnotatorNotes T24	C0005515; Biological Factors; Biologically Active Substance (?)
+#19	AnnotatorNotes T24	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 T25	CHEM 1235 1252	receptor de IL-17
 T26	PROC 1271 1283	tratamientos
 #20	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
@@ -69,8 +69,8 @@ T38	ANAT 995 1000	tórax
 T39	DISO 882 890	sintomas
 #31	AnnotatorNotes T39	C1457887; Symptoms; Sign or Symptom
 T40	CHEM 1224 1229	IL-17
-T41	CHEM 1389 1406	inmunomoduladores
-#32	AnnotatorNotes T41	C1527392; Immunomodulators; Immunologic Factor · Pharmacologic Substance
+T41	CHEM 1389 1417	inmunomoduladores biológicos
+#32	AnnotatorNotes T41	C1527392; Immunomodulators; Immunologic Factor · Pharmacologic Substance + C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 T42	Date 13 17	2013
 T43	Duration 57 71	las 24 semanas
 T44	Duration 116 122	3 años
@@ -161,10 +161,6 @@ A8	Status T67 History_of
 R33	Overlap Arg1:T26 Arg2:T56	
 R34	Overlap Arg1:T27 Arg2:T56	
 R35	Experiences Arg1:T57 Arg2:T41	
-T68	Quantifier_or_Qualifier 1407 1417	biológicos
-#57	AnnotatorNotes T68	C0205460; biological; Qualitative Concept
-A9	Status T68 History_of
-R36	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T68	
 #58	AnnotatorNotes T65	C2712003; Lack of symptom control; Finding
 #59	AnnotatorNotes T32	C1171324; B-cell depletion; Therapeutic or Preventive Procedure
 A10	Experiencer T45 Patient

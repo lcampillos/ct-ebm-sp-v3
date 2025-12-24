@@ -150,9 +150,9 @@ A10	Assertion T80 Negated
 R1	Negation Arg1:T79 Arg2:T80	
 R2	Negation Arg1:T66 Arg2:T78	
 R3	Location_of Arg1:T40 Arg2:T2	
-T81	Quantifier_or_Qualifier 172 177	aguda
+T81	Duration 172 177	aguda
 #60	AnnotatorNotes T81	C0205178; acute; Temporal Concept
-R4	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T81	
+R4	Has_Duration_or_Interval Arg1:T2 Arg2:T81	
 R5	Location_of Arg1:T42 Arg2:T3	
 R7	Has_Dose_or_Strength Arg1:T41 Arg2:T57	
 R8	Has_Dose_or_Strength Arg1:T41 Arg2:T75	
@@ -164,9 +164,9 @@ R12	Has_Dose_or_Strength Arg1:T41 Arg2:T58
 R13	Before Arg1:T43 Arg2:T4	
 R15	Before Arg1:T44 Arg2:T4	
 R16	Location_of Arg1:T45 Arg2:T7	
-T82	Quantifier_or_Qualifier 486 491	aguda
+T82	Duration 486 491	aguda
 #62	AnnotatorNotes T82	C0205178; acute; Temporal Concept
-R17	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T82	
+R17	Has_Duration_or_Interval Arg1:T7 Arg2:T82	
 R19	Before Arg1:T8 Arg2:T10	
 R20	Location_of Arg1:T9 Arg2:T8	
 R21	Before Arg1:T47 Arg2:T8	

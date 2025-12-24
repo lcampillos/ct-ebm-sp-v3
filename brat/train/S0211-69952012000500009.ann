@@ -48,8 +48,8 @@ T24	DISO 1230 1238	lesiones
 #24	AnnotatorNotes T24	C0221198; Lesion; Finding
 T25	CHEM 1276 1288	bifosfonatos
 #25	AnnotatorNotes T25	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
-T26	PROC 1309 1334	valores séricos de calcio
-#26	AnnotatorNotes T26	C0728876; Serum calcium measurement; Laboratory Procedure
+T26	PROC 1309 1344	valores séricos de calcio y fósforo
+#26	AnnotatorNotes T26	C0728876; Serum calcium measurement; Laboratory Procedure + C0202178; Phosphorus measurement; Laboratory Procedure
 T27	ANAT 1317 1324	séricos
 #27	AnnotatorNotes T27	C0229671; Serum; Body Substance | C0588987; Serum product; Body Substance
 T28	CHEM 1328 1334	calcio
@@ -88,8 +88,7 @@ T44	PROC 899 919	hormona paratiroidea
 #44	AnnotatorNotes T44	C0202159; Parathyroid hormone measurement; Laboratory Procedure
 T45	DISO 1187 1192	dolor
 #45	AnnotatorNotes T45	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
-T46	PROC 1337 1344	fósforo
-#46	AnnotatorNotes T46	C0202178; Phosphorus measurement; Laboratory Procedure
+T46	CHEM 1337 1344	fósforo
 T47	CHEM 1459 1471	bifosfonatos
 #47	AnnotatorNotes T47	C2267018; Bisphosphonate [EPC]; Pharmacologic Substance
 T48	ANAT 1631 1636	renal
@@ -220,7 +219,6 @@ T84	Observation 1213 1238	regresión de las lesiones
 R60	Overlap Arg1:T84 Arg2:T67	
 R61	After Arg1:T84 Arg2:T25	
 R62	Location_of Arg1:T27 Arg2:T26	
-R63	Location_of Arg1:T27 Arg2:T46	
 T85	Observation 1349 1356	mejoría
 #67	AnnotatorNotes T85	C0184511; Improved; Finding (?)
 T86	Quantifier_or_Qualifier 1361 1371	más rápida
@@ -260,3 +258,4 @@ A16	Experiencer T59 Patient
 A17	Experiencer T60 Patient
 R81	Has_Result_or_Value Arg1:T44 Arg2:T82	
 R82	Has_Result_or_Value Arg1:T16 Arg2:T81	
+#46	AnnotatorNotes T46	C0031705; phosphorus; Element, Ion, or Isotope

@@ -18,8 +18,8 @@ T9	CHEM 194 200	RENINA
 #9	AnnotatorNotes T9	C0035094; Renin; Amino Acid, Peptide, or Protein · Enzyme
 T10	CHEM 201 213	ANGIOTENSINA
 #10	AnnotatorNotes T10	C0003018; Angiotensins; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
-T11	ANAT 215 219	SRAA
-#11	AnnotatorNotes T11	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+T11	PHYS 215 219	SRAA
+#11	AnnotatorNotes T11	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
 T12	PROC 234 255	TRASPLANTADOS RENALES
 #12	AnnotatorNotes T12	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
 T13	ANAT 248 255	RENALES
@@ -73,7 +73,7 @@ T39	PROC 1395 1427	revisión de historiales clínicos
 T40	DISO 1507 1525	problemas visuales
 T41	DISO 1528 1547	deterioro cognitivo
 #34	AnnotatorNotes T41	C0338656; Impaired cognition; Mental or Behavioral Dysfunction | C0854193; Cognitive deterioration; Mental or Behavioral Dysfunction
-T42	ANAT 186 213	SISTEMA RENINA ANGIOTENSINA
+T42	PHYS 186 213	SISTEMA RENINA ANGIOTENSINA
 T43	ANAT 314 319	ORINA
 #35	AnnotatorNotes T43	C0042036; Urine; Body Substance
 T44	PROC 321 348	ENSAYO CLÍNICO ALEATORIZADO
@@ -84,14 +84,14 @@ T46	ANAT 458 463	RENAL
 #38	AnnotatorNotes T46	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
 T47	ANAT 551 556	renal
 #39	AnnotatorNotes T47	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
-T48	ANAT 805 832	sistema renina angiotensina
+T48	PHYS 805 832	sistema renina angiotensina
 T49	ANAT 845 850	renal
 #40	AnnotatorNotes T49	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
 T50	DISO 994 1001	alergia
 #41	AnnotatorNotes T50	C1527304; Allergic Reaction; Pathologic Function
 T51	DISO 1004 1016	intolerancia
 #42	AnnotatorNotes T51	C0277585; Intolerance to drug; Pathologic Function
-T52	ANAT 1048 1075	sistema renina angiotensina
+T52	PHYS 1048 1075	sistema renina angiotensina
 T53	Date 13 17	2018
 T54	LIVB 75 84	PACIENTES
 #43	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
@@ -132,9 +132,9 @@ A3	Assertion T34 Negated
 A4	Assertion T35 Negated
 A5	Status T50 History_of
 A6	Status T51 History_of
-#58	AnnotatorNotes T42	C0086907; Renin-Angiotensin-Aldosterone System; Body System
-#59	AnnotatorNotes T48	C0086907; Renin-Angiotensin-Aldosterone System; Body System
-#60	AnnotatorNotes T52	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+#58	AnnotatorNotes T42	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
+#59	AnnotatorNotes T48	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
+#60	AnnotatorNotes T52	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
 #61	AnnotatorNotes T40	C3665347; Visual Impairment; Finding
 T68	Neg_cue 1492 1494	no
 T69	Quantifier_or_Qualifier 1495 1503	limitado
@@ -234,3 +234,5 @@ A11	Experiencer T55 Patient
 A12	Experiencer T63 Patient
 A13	Experiencer T66 Other
 A14	Status T71 Future
+R26	Experiences Arg1:T55 Arg2:T11	
+R27	Experiences Arg1:T55 Arg2:T42	

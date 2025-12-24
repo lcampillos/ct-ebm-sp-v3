@@ -204,3 +204,9 @@ A23	Experiencer T46 Other
 A24	Experiencer T52 Other
 A25	Experiencer T53 Other
 A26	Experiencer T61 Other
+T70	Duration 770 776	agudas
+#56	AnnotatorNotes T70	C0205178; acute; Temporal Concept
+T71	Duration 798 803	aguda
+#57	AnnotatorNotes T71	C0205178; acute; Temporal Concept
+R42	Has_Duration_or_Interval Arg1:T11 Arg2:T71	
+R51	Has_Duration_or_Interval Arg1:T10 Arg2:T70	

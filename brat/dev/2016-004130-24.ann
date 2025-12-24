@@ -326,3 +326,6 @@ A30	Experiencer T63 Patient
 A31	Experiencer T66 Patient
 A32	Experiencer T69 Patient
 A33	Experiencer T71 Patient
+T101	Quantifier_or_Qualifier 398 404	activa
+#84	AnnotatorNotes T101	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
+R89	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T101	

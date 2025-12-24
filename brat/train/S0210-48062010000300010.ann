@@ -184,3 +184,9 @@ A5	Experiencer T47 Patient
 A6	Experiencer T48 Patient
 A7	Experiencer T53 Patient
 A8	Experiencer T62 Patient
+T69	Duration 676 681	aguda
+#54	AnnotatorNotes T69	C0205178; acute; Temporal Concept
+R58	Has_Duration_or_Interval Arg1:T18 Arg2:T69	
+T70	Duration 1073 1078	aguda
+#55	AnnotatorNotes T70	C0205178; acute; Temporal Concept
+R59	Has_Duration_or_Interval Arg1:T24 Arg2:T70	

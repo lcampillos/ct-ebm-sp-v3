@@ -102,8 +102,7 @@ T62	Time 1622 1636	postintubación
 T63	Time 1665 1678	preintubación
 T65	PHYS 1785 1801	presión arterial
 #47	AnnotatorNotes T65	C0005823; Blood Pressure; Organism Function
-T66	Dose 1903 1912	una dosis
-T67	Dose 1926 1935	1 mg kg-1
+T66	Dose 1903 1935	una dosis con carga de 1 mg kg-1
 T68	Dose 1937 1962	una dosis de 150 1-g kg-1
 T69	Route 1980 1984	i.v.
 #48	AnnotatorNotes T69	C1522726; Intravenous Route of Drug Administration; Functional Concept
@@ -179,7 +178,7 @@ R36	Has_Dose_or_Strength Arg1:T16 Arg2:T78
 R37	Has_Frequency Arg1:T16 Arg2:T53	
 R38	Location_of Arg1:T18 Arg2:T19	
 R39	Before Arg1:T17 Arg2:T19	
-R40	Overlap Arg1:T19 Arg2:T56	
+R40	After Arg1:T19 Arg2:T56	
 R41	Overlap Arg1:T75 Arg2:T76	
 R42	After Arg1:T75 Arg2:T20	
 R43	Before Arg1:T17 Arg2:T20	
@@ -197,11 +196,9 @@ R55	Location_of Arg1:T36 Arg2:T24
 R56	Location_of Arg1:T37 Arg2:T65	
 R57	Location_of Arg1:T37 Arg2:T33	
 R59	Before Arg1:T66 Arg2:T68	
-R60	Before Arg1:T67 Arg2:T68	
 R61	Has_Dose_or_Strength Arg1:T25 Arg2:T68	
 R62	Has_Frequency Arg1:T25 Arg2:T64	
 R63	Has_Route_or_Mode Arg1:T25 Arg2:T69	
-R64	Has_Dose_or_Strength Arg1:T25 Arg2:T67	
 R65	Has_Dose_or_Strength Arg1:T25 Arg2:T66	
 R66	Negation Arg1:T79 Arg2:T80	
 #59	AnnotatorNotes T80	C4055223; Clinical Response; Finding

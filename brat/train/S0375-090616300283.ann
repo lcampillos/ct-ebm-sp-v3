@@ -274,3 +274,9 @@ A6	Experiencer T75 Patient
 R96	Has_Result_or_Value Arg1:T36 Arg2:T90	
 R97	Has_Result_or_Value Arg1:T38 Arg2:T88	
 R98	Has_Result_or_Value Arg1:T44 Arg2:T87	
+T92	Duration 55 60	aguda
+#82	AnnotatorNotes T92	C0205178; acute; Temporal Concept
+R99	Has_Duration_or_Interval Arg1:T2 Arg2:T92	
+T93	Duration 324 329	aguda
+#83	AnnotatorNotes T93	C0205178; acute; Temporal Concept
+R100	Has_Duration_or_Interval Arg1:T7 Arg2:T93	

@@ -167,3 +167,6 @@ T69	Result_or_Value 1394 1401	<50,000
 R33	Has_Result_or_Value Arg1:T45 Arg2:T69	
 A1	Experiencer T47 Patient
 A10	Experiencer T49 Patient
+T51	ANAT 996 1011	cerebrovascular
+#61	AnnotatorNotes T51	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R1	Location_of Arg1:T51 Arg2:T21	

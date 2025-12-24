@@ -168,3 +168,9 @@ R13	Used_for Arg1:T1 Arg2:T2
 A7	Experiencer T31 Patient
 A8	Experiencer T33 Patient
 A9	Experiencer T35 Patient
+T56	Duration 755 760	aguda
+R6	Has_Duration_or_Interval Arg1:T18 Arg2:T56	
+T57	Duration 458 463	aguda
+#48	AnnotatorNotes T57	C0205178; acute; Temporal Concept
+R14	Has_Duration_or_Interval Arg1:T12 Arg2:T57	
+#49	AnnotatorNotes T56	C0205178; acute; Temporal Concept

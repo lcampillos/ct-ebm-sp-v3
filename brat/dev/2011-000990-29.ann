@@ -212,3 +212,12 @@ A16	Experiencer T56 Patient
 A17	Status T39 Future
 T72	Result_or_Value 326 329	neg
 R61	Has_Result_or_Value Arg1:T42 Arg2:T72	
+R65	Causes Arg1:T28 Arg2:T44	
+R68	Causes Arg1:T28 Arg2:T26	
+R69	Causes Arg1:T29 Arg2:T44	
+R70	Causes Arg1:T29 Arg2:T26	
+R71	Causes Arg1:T29 Arg2:T27	
+R72	Causes Arg1:T31 Arg2:T44	
+R73	Causes Arg1:T31 Arg2:T26	
+R74	Causes Arg1:T32 Arg2:T44	
+R75	Causes Arg1:T32 Arg2:T26	

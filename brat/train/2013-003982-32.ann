@@ -125,7 +125,6 @@ R16	Location_of Arg1:T5 Arg2:T11
 R17	Location_of Arg1:T13 Arg2:T11	
 T57	Quantifier_or_Qualifier 466 473	interna
 #48	AnnotatorNotes T57	C0205102; Internal; Spatial Concept
-R18	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T57	
 R19	Before Arg1:T14 Arg2:T10	
 T58	Result_or_Value 548 577	igual o superior a 2,5 puntos
 R21	Has_Result_or_Value Arg1:T16 Arg2:T58	
@@ -137,7 +136,7 @@ R25	Location_of Arg1:T44 Arg2:T17
 T65	Result_or_Value 682 695	entre 20 y 30
 R26	Has_Result_or_Value Arg1:T17 Arg2:T65	
 R27	Overlap Arg1:T18 Arg2:T19	
-R28	Used_for Arg1:T21 Arg2:T45	
+R28	Location_of Arg1:T21 Arg2:T45	
 T66	Result_or_Value 877 880	>30
 R29	Has_Result_or_Value Arg1:T46 Arg2:T66	
 T67	Result_or_Value 953 955	4º
@@ -179,3 +178,4 @@ R50	Location_of Arg1:T76 Arg2:T46
 #55	AnnotatorNotes T14	C0043299; Diagnostic radiologic examination; Diagnostic Procedure | C0202630; Diagnostic radiography with special study; Diagnostic Procedure (?)
 #56	AnnotatorNotes T5	C1442260; femur and tibia; Body Location or Region
 A2	Experiencer T54 Patient
+R18	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T57	

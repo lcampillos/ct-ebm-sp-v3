@@ -41,7 +41,7 @@ T21	PROC 1063 1074	tratamiento
 T22	CHEM 1115 1126	metotrexato
 #20	AnnotatorNotes T22	C0025677; methotrexate; Organic Chemical · Pharmacologic Substance
 T23	CHEM 1131 1149	agentes biológicos
-#21	AnnotatorNotes T23	C0005515; Biological Factors; Biologically Active Substance
+#21	AnnotatorNotes T23	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 T24	CHEM 1171 1182	corticoides
 #22	AnnotatorNotes T24	C0001617; Adrenal Cortex Hormones; Hormone · Organic Chemical · Pharmacologic Substance
 T25	CHEM 1098 1113	calcineurínicos
@@ -159,7 +159,7 @@ R8	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T75
 T76	Quantifier_or_Qualifier 309 317	moderada
 #61	AnnotatorNotes T76	C0205081; Moderate (severity modifier); Qualitative Concept
 R9	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T76	
-T77	Observation 468 486	actividad moderada
+T77	Quantifier_or_Qualifier 464 486	con actividad moderada
 #62	AnnotatorNotes T77	C3833417; Moderate activity; Finding
 R10	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T77	
 R11	Location_of Arg1:T38 Arg2:T12	
@@ -239,7 +239,7 @@ R64	Used_for Arg1:T7 Arg2:T8
 R65	Used_for Arg1:T7 Arg2:T9	
 T92	Route 1183 1193	sistémicos
 R23	Has_Route_or_Mode Arg1:T24 Arg2:T92	
-#72	AnnotatorNotes T92	C0205373; Systemic; Functional Concept
+#72	AnnotatorNotes T92	C5849094; Systemic Route of Administration; Functional Concept
 #73	AnnotatorNotes T56	C0521116; Current (present time); Temporal Concept
 #74	AnnotatorNotes T40	C4053960; Systemic Corticosteroid Therapy; Therapeutic or Preventive Procedure
 A17	Experiencer T49 Patient

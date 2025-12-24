@@ -213,10 +213,9 @@ R43	Location_of Arg1:T53 Arg2:T24
 R44	Location_of Arg1:T26 Arg2:T25	
 R45	Has_Duration_or_Interval Arg1:T25 Arg2:T79	
 T90	Result_or_Value 1230 1233	≥ 1
-R46	Has_Result_or_Value Arg1:T24 Arg2:T90	
-T91	Quantifier_or_Qualifier 1264 1269	aguda
-#79	AnnotatorNotes T91	C0439557; Acute phase; Temporal Concept
-R47	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T91	
+T91	Duration 1264 1269	aguda
+#79	AnnotatorNotes T91	C0205178; acute; Temporal Concept
+R47	Has_Duration_or_Interval Arg1:T25 Arg2:T91	
 R48	Location_of Arg1:T27 Arg2:T54	
 R49	Location_of Arg1:T55 Arg2:T54	
 R50	Experiences Arg1:T80 Arg2:T56	
@@ -246,3 +245,6 @@ A11	Experiencer T81 Patient
 A12	Status T12 Future
 T96	Result_or_Value 814 832	resultado negativo
 R17	Has_Result_or_Value Arg1:T16 Arg2:T96	
+T97	PROC 1218 1229	estado AKIN
+#83	AnnotatorNotes T97	[Acute Kidney Injury Network (AKIN) classification system]
+R56	Has_Result_or_Value Arg1:T97 Arg2:T90	

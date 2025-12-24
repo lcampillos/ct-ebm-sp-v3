@@ -7,10 +7,8 @@ T4	CHEM 214 240	fármacos antirretrovirales
 #3	AnnotatorNotes T4	C0599685; Anti-Retroviral Agents; Pharmacologic Substance
 T5	CHEM 251 263	dolutegravir
 #4	AnnotatorNotes T5	C3253985; dolutegravir; Organic Chemical · Pharmacologic Substance
-T6	CHEM 266 275	darunavir
-#5	AnnotatorNotes T6	C1435444; darunavir; Organic Chemical · Pharmacologic Substance
-T7	CHEM 276 285	ritonavir
-#6	AnnotatorNotes T7	C0292818; ritonavir; Organic Chemical · Pharmacologic Substance
+T6	CHEM 266 285	darunavir/ritonavir
+#5	AnnotatorNotes T6	C1976853; darunavir and ritonavir; Pharmacologic Substance
 T8	ANAT 179 183	céls
 T9	DISO 327 344	infección por HIV
 #7	AnnotatorNotes T9	C0019693; HIV Infections; Disease or Syndrome
@@ -169,7 +167,6 @@ T71	Result_or_Value 162 187	inferiores a 100 céls/mm3
 R10	Has_Result_or_Value Arg1:T2 Arg2:T71	
 R11	Used_for Arg1:T4 Arg2:T45	
 R12	Used_for Arg1:T5 Arg2:T45	
-R13	Combined_with Arg1:T6 Arg2:T7	
 R14	Used_for Arg1:T6 Arg2:T45	
 R15	Experiences Arg1:T59 Arg2:T2	
 R17	Experiences Arg1:T59 Arg2:T45	

@@ -86,3 +86,6 @@ A5	Experiencer T27 Patient
 A6	Experiencer T28 Other
 A7	Status T18 Future
 A8	Status T19 Future
+T34	Quantifier_or_Qualifier 863 873	prolongado
+#30	AnnotatorNotes T34	C0439590; Prolonged; Temporal Concept
+R19	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T34	

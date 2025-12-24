@@ -38,7 +38,7 @@ T20	DISO 1068 1085	hepatitis crónica
 #18	AnnotatorNotes T20	C0019189; Hepatitis, Chronic; Disease or Syndrome
 T21	DISO 1156 1195	síndrome de inmunodeficiencia adquirida
 #19	AnnotatorNotes T21	C0001175; Acquired Immunodeficiency Syndrome; Disease or Syndrome
-T22	DISO 1087 1109	hepatitis activa B o C
+T22	DISO 1087 1105	hepatitis activa B
 T23	DISO 1197 1201	SIDA
 #20	AnnotatorNotes T23	C0001175; Acquired Immunodeficiency Syndrome; Disease or Syndrome
 T24	CHEM 142 152	BMS-986205
@@ -91,7 +91,7 @@ A11	Status T29 History_of
 A12	Status T21 History_of
 A13	Status T23 History_of
 #36	AnnotatorNotes T35	C0994475; Pills; Biomedical or Dental Material
-#37	AnnotatorNotes T22	C2711110; Hepatitis B and hepatitis C; Disease or Syndrome 
+#37	AnnotatorNotes T22	C0744829; HEPATITIS B ACTIVE; Disease or Syndrome
 #38	AnnotatorNotes T28	C0458074; Human immunodeficiency virus (HIV) status; Finding
 #39	AnnotatorNotes T1	C3274448; Tolerability Study; Research Activity + C0511730; Identify product efficacy and safety issues; Health Care Activity + C0201734; Pharmacokinetic study; Research Activity + C1709518; Pharmacodynamic Study; Research Activity
 T45	Quantifier_or_Qualifier 1016 1026	controlada
@@ -152,3 +152,6 @@ R35	Overlap Arg1:T19 Arg2:T42
 R36	Has_Duration_or_Interval Arg1:T20 Arg2:T43	
 A15	Experiencer T32 Patient
 A16	Experiencer T33 Patient
+T58	DISO 1087 1103;1108 1109	hepatitis activa C
+#49	AnnotatorNotes T58	C0019196; Hepatitis C; Disease or Syndrome + C0744827; hepatitis active; Finding
+A17	Status T58 History_of

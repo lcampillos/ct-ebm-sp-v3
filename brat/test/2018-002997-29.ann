@@ -241,7 +241,7 @@ T96	Quantifier_or_Qualifier 752 761	resecable
 R43	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T96	
 T97	Quantifier_or_Qualifier 763 800	Estadio IIA (p.ej. N2) a Estadio IIIB
 R44	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T97	
-T98	Observation 1914 1925	irresecable
+T98	Quantifier_or_Qualifier 1914 1925	irresecable
 #77	AnnotatorNotes T98	C4039777; Tumor surgically unresectable; Finding
 R45	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T98	
 R48	Location_of Arg1:T13 Arg2:T11	

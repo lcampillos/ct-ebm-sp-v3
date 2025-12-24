@@ -160,9 +160,9 @@ R7	Speculation Arg1:T64 Arg2:T28
 T83	Quantifier_or_Qualifier 1079 1086	severas
 #70	AnnotatorNotes T83	C1547227; Severe - Severity of Illness Code; Intellectual Product
 R8	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T83	
-T84	Quantifier_or_Qualifier 1093 1099	agudas
+T84	Duration 1093 1099	agudas
 #71	AnnotatorNotes T84	C0205178; acute; Temporal Concept
-R9	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T84	
+R9	Has_Duration_or_Interval Arg1:T28 Arg2:T84	
 R10	Has_Duration_or_Interval Arg1:T28 Arg2:T66	
 R11	Used_for Arg1:T4 Arg2:T2	
 R12	Used_for Arg1:T5 Arg2:T2	
@@ -260,3 +260,7 @@ A22	Experiencer T67 Patient
 T25	LIVB 1925 1931	médico
 A23	Experiencer T25 Other
 #78	AnnotatorNotes T25	C0031831; Physicians; Professional or Occupational Group
+T87	ANAT 1325 1336	intraocular
+#79	AnnotatorNotes T87	C3282905; Intraocular; Spatial Concept
+R4	Location_of Arg1:T87 Arg2:T71	
+R39	Location_of Arg1:T87 Arg2:T52	

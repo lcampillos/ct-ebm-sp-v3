@@ -140,15 +140,15 @@ R21	Negation Arg1:T42 Arg2:T24
 R22	Negation Arg1:T46 Arg2:T23	
 R23	Negation Arg1:T45 Arg2:T22	
 R24	Experiences Arg1:T51 Arg2:T22	
-T58	Observation 374 385	irresecable
+T58	Quantifier_or_Qualifier 374 385	irresecable
 #47	AnnotatorNotes T58	C4039777; Tumor surgically unresectable; Finding
-T59	Observation 486 497	irresecable
+T59	Quantifier_or_Qualifier 486 497	irresecable
 #48	AnnotatorNotes T59	C4039777; Tumor surgically unresectable; Finding
 R26	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T59	
-T60	Observation 798 809	irresecable
+T60	Quantifier_or_Qualifier 798 809	irresecable
 #49	AnnotatorNotes T60	C4039777; Tumor surgically unresectable; Finding
 R27	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T60	
-T61	Observation 1032 1043	irresecable
+T61	Quantifier_or_Qualifier 1032 1043	irresecable
 #50	AnnotatorNotes T61	C4039777; Tumor surgically unresectable; Finding
 R28	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T61	
 R29	Before Arg1:T36 Arg2:T18	

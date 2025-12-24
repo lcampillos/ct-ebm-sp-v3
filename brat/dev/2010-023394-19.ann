@@ -153,3 +153,18 @@ A10	Status T2 Future
 A11	Status T45 Future
 A12	Status T47 Future
 A13	Status T48 Future
+T52	Duration 724 729	agudo
+#45	AnnotatorNotes T52	C0205178; acute; Temporal Concept
+R48	Has_Duration_or_Interval Arg1:T11 Arg2:T52	
+T53	Duration 567 572	agudo
+#46	AnnotatorNotes T53	C0205178; acute; Temporal Concept
+R49	Has_Duration_or_Interval Arg1:T7 Arg2:T53	
+T54	Duration 455 460	agudo
+#47	AnnotatorNotes T54	C0205178; acute; Temporal Concept
+R50	Has_Duration_or_Interval Arg1:T5 Arg2:T54	
+T55	Duration 337 342	agudo
+#48	AnnotatorNotes T55	C0205178; acute; Temporal Concept
+R51	Has_Duration_or_Interval Arg1:T3 Arg2:T55	
+T56	Duration 133 138	agudo
+#49	AnnotatorNotes T56	C0205178; acute; Temporal Concept
+R52	Has_Duration_or_Interval Arg1:T1 Arg2:T56	

@@ -10,7 +10,7 @@ T5	CHEM 227 232	fibra
 #5	AnnotatorNotes T5	C0225326; fiber; Organic Chemical · Pharmacologic Substance
 T6	CHEM 246 255	proteínas
 #6	AnnotatorNotes T6	C0033684; Proteins; Amino Acid, Peptide, or Protein · Biologically Active Substance
-T7	CHEM 297 320	ácidos grasos n-3 y n-6
+T7	CHEM 297 314	ácidos grasos n-3
 T8	PROC 355 379	intervención nutricional
 #7	AnnotatorNotes T8	C1882127; Nutritional Intervention; Health Care Activity
 T9	PROC 404 468	estudio aleatorizado (2:1), controlado con placebo y doble ciego
@@ -121,7 +121,7 @@ T54	CONC 1545 1556	diferencias
 #58	AnnotatorNotes T54	C1705241; Delta (difference); Quantitative Concept
 R1	Negation Arg1:T48 Arg2:T54	
 A1	Assertion T54 Negated
-#59	AnnotatorNotes T7	C0015689; omega-3 fatty acids; Biologically Active Substance · Organic Chemical · Pharmacologic Substance + C0133860; fatty acids, omega-6; Biologically Active Substance · Organic Chemical
+#59	AnnotatorNotes T7	C0015689; omega-3 fatty acids; Biologically Active Substance · Organic Chemical · Pharmacologic Substance 
 R2	Used_for Arg1:T58 Arg2:T39	
 R3	Used_for Arg1:T42 Arg2:T39	
 T64	Observation 1 7	Efecto
@@ -183,9 +183,8 @@ T73	Quantifier_or_Qualifier 1052 1061	procesada
 R56	Has_Quantifier_or_Qualifier Arg1:T60 Arg2:T73	
 T74	CONC 1116 1121	ANOVA
 #64	AnnotatorNotes T74	C0002780; Analysis of Variance; Quantitative Concept
-T75	PROC 1127 1144	medidas repetidas
+T75	CONC 1127 1144	medidas repetidas
 #65	AnnotatorNotes T75	C0871881; repeated measures; Research Activity
-R57	Used_for Arg1:T74 Arg2:T75	
 T76	Observation 1256 1278	finalizaron el estudio
 R60	Experiences Arg1:T50 Arg2:T22	
 R61	Experiences Arg1:T50 Arg2:T61	
@@ -238,3 +237,6 @@ R19	Has_Result_or_Value Arg1:T38 Arg2:T86
 R22	Has_Result_or_Value Arg1:T33 Arg2:T83	
 R52	Has_Result_or_Value Arg1:T24 Arg2:T87	
 R53	Has_Result_or_Value Arg1:T23 Arg2:T82	
+R54	Used_for Arg1:T74 Arg2:T75	
+T78	CHEM 297 310;317 320	ácidos grasos n-6
+#70	AnnotatorNotes T78	C0133860; fatty acids, omega-6; Biologically Active Substance · Organic Chemical

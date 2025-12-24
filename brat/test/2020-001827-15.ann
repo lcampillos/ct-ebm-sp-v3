@@ -163,9 +163,8 @@ T73	Quantifier_or_Qualifier 873 888	a aire ambiente
 R35	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T73	
 T74	Result_or_Value 902 910	<300 mmH
 R36	Has_Result_or_Value Arg1:T26 Arg2:T74	
-T75	Quantifier_or_Qualifier 980 990	biológicos
-#51	AnnotatorNotes T75	C0205460; biological; Qualitative Concept 
-R40	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T75	
+T75	CHEM 980 990	biológicos
+#51	AnnotatorNotes T75	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 R41	Location_of Arg1:T42 Arg2:T24	
 R42	Negation Arg1:T51 Arg2:T58	
 R43	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T58	

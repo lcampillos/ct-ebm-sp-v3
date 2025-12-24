@@ -343,3 +343,6 @@ A31	Experiencer T91 Patient
 A32	Experiencer T93 Patient
 A33	Experiencer T94 Patient
 A34	Experiencer T89 Other
+T122	Duration 1588 1593	agudo
+#98	AnnotatorNotes T122	C0439557; Acute Phase; Temporal Concept
+R33	Has_Duration_or_Interval Arg1:T32 Arg2:T122	

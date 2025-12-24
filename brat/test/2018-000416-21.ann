@@ -205,8 +205,8 @@ T73	Observation 382 392	recurrente
 #62	AnnotatorNotes T73	C0679254; Disease recurrence; Finding
 R66	Before Arg1:T6 Arg2:T30	
 R67	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T73	
-T74	Observation 397 408	irresecable
-#63	AnnotatorNotes T74	C4039777; Tumor surgically unresectable; Finding 
+T74	Quantifier_or_Qualifier 397 408	irresecable
+#63	AnnotatorNotes T74	C4039777; Tumor surgically unresectable; Finding
 R68	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T74	
 T75	CONC 495 529	Eastern Cooperative Oncology Group
 #64	AnnotatorNotes T75	C1520224; ECOG performance status; Intellectual Product

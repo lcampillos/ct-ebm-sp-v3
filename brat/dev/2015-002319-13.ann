@@ -99,7 +99,7 @@ A1	Population_data T41 Age
 A2	Assertion T48 Negated
 A3	Status T25 History_of
 #41	AnnotatorNotes T1	C1709323; Open Label Study; Research Activity + C0206034; Clinical Trials, Randomized; Research Activity
-#42	AnnotatorNotes T16	C0085762; Alcohol abuse; Mental or Behavioral Dysfunction + C0013146; Drug abuse; Mental or Behavioral Dysfunction
+#42	AnnotatorNotes T16	C0237123; Alcohol or Other Drugs use; Mental or Behavioral Dysfunction
 #43	AnnotatorNotes T5	C2363741; HIV-1 infection; Disease or Syndrome
 #44	AnnotatorNotes T2	C1278073; Plasma lipid measurement; Laboratory Procedure 
 #45	AnnotatorNotes T29	C3191262; Complera; Organic Chemical · Pharmacologic Substance 
@@ -179,3 +179,6 @@ A12	Experiencer T41 Patient
 A13	Experiencer T47 Patient
 A14	Experiencer T50 Patient
 A15	Experiencer T52 Other
+T68	Duration 811 816	aguda
+#54	AnnotatorNotes T68	C0205178; acute; Temporal Concept
+R33	Has_Duration_or_Interval Arg1:T13 Arg2:T68	

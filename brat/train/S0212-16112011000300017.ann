@@ -35,9 +35,7 @@ T18	ANAT 1507 1513	sangre
 #17	AnnotatorNotes T18	C0005767; Blood; Body Substance
 T19	PROC 593 631	dietas de bajo y alto índice glucémico
 T20	PROC 141 172	Dietas de bajo índice glucémico
-#18	AnnotatorNotes T20	C0452312; Low glucose diet; Therapeutic or Preventive Procedure
 T21	PROC 311 346	dietas bajas en el índice glucémico
-#19	AnnotatorNotes T21	C0452312; Low glucose diet; Therapeutic or Preventive Procedure
 T22	CHEM 405 412	glucosa
 #20	AnnotatorNotes T22	C0017725; glucose; Organic Chemical · Biologically Active Substance · Pharmacologic Substance
 T23	ANAT 416 430	sangre capilar
@@ -45,7 +43,7 @@ T23	ANAT 416 430	sangre capilar
 T24	PROC 649 655	dietas
 #22	AnnotatorNotes T24	C1519433; Special Diet Therapy; Therapeutic or Preventive Procedure
 T25	PROC 759 768	dieta BIG
-#23	AnnotatorNotes T25	C0452312; Low glucose diet; Therapeutic or Preventive Procedure
+#23	AnnotatorNotes T25	[Dieta de bajo índice glucémico, 'Low glycemic index diet']
 T26	PROC 798 807	dieta AIG
 T27	PROC 973 989	glucemia capilar
 #24	AnnotatorNotes T27	C0457578; Capillary blood glucose measurement; Laboratory Procedure
@@ -97,13 +95,13 @@ R8	Causes Arg1:T21 Arg2:T49
 T50	Observation 5 30	variaciones de la glucosa
 #37	AnnotatorNotes T50	C0744433; GLUCOSE LEVEL VARIABLE; Finding (?)
 R9	Experiences Arg1:T30 Arg2:T50	
-T51	Quantifier_or_Qualifier 371 376	agudo
+T51	Duration 371 376	agudo
 #38	AnnotatorNotes T51	C0205178; acute; Temporal Concept
-R10	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T51	
+R10	Has_Duration_or_Interval Arg1:T5 Arg2:T51	
 R11	Has_Duration_or_Interval Arg1:T5 Arg2:T32	
-T52	Quantifier_or_Qualifier 31 36	aguda
+T52	Duration 31 36	aguda
 #39	AnnotatorNotes T52	C0205178; acute; Temporal Concept
-R12	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T52	
+R12	Has_Duration_or_Interval Arg1:T50 Arg2:T52	
 R13	Location_of Arg1:T23 Arg2:T7	
 R14	Experiences Arg1:T33 Arg2:T8	
 R15	Experiences Arg1:T33 Arg2:T7	
@@ -147,3 +145,4 @@ A5	Experiencer T30 Patient
 A6	Experiencer T33 Patient
 A7	Experiencer T34 Patient
 A8	Experiencer T39 Patient
+#44	AnnotatorNotes T26	[Dieta de alto índice glucémico, 'High glycemic index diet'

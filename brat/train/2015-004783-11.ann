@@ -83,12 +83,12 @@ T43	CONC 1353 1366	momento agudo
 #34	AnnotatorNotes T43	C0439557; Acute phase; Temporal Concept
 R4	Location_of Arg1:T22 Arg2:T21	
 R5	Location_of Arg1:T31 Arg2:T25	
-T44	Quantifier_or_Qualifier 1418 1423	aguda
+T44	Duration 1418 1423	aguda
 #35	AnnotatorNotes T44	C0205178; acute; Temporal Concept
-R6	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T44	
-T45	Quantifier_or_Qualifier 1451 1456	aguda
+R6	Has_Duration_or_Interval Arg1:T25 Arg2:T44	
+T45	Duration 1451 1456	aguda
 #36	AnnotatorNotes T45	C0205178; acute; Temporal Concept
-R7	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T45	
+R7	Has_Duration_or_Interval Arg1:T27 Arg2:T45	
 R8	Location_of Arg1:T28 Arg2:T27	
 R11	Overlap Arg1:T24 Arg2:T43	
 T46	Quantifier_or_Qualifier 1287 1294	aislado
@@ -158,3 +158,42 @@ R12	Speculation Arg1:T63 Arg2:T60
 #52	AnnotatorNotes T39	C1269765; Assisted (qualifier value); Qualitative Concept
 A6	Experiencer T35 Patient
 A7	Experiencer T38 Patient
+T64	Duration 148 153	agudo
+#53	AnnotatorNotes T64	C0205178; acute; Temporal Concept
+R13	Has_Duration_or_Interval Arg1:T3 Arg2:T64	
+T65	Duration 413 418	agudo
+#54	AnnotatorNotes T65	C0205178; acute; Temporal Concept
+R33	Has_Duration_or_Interval Arg1:T8 Arg2:T65	
+T66	Duration 478 483	agudo
+#55	AnnotatorNotes T66	C0205178; acute; Temporal Concept
+R34	Has_Duration_or_Interval Arg1:T9 Arg2:T66	
+T67	Duration 571 576	agudo
+#56	AnnotatorNotes T67	C0205178; acute; Temporal Concept
+R42	Has_Duration_or_Interval Arg1:T11 Arg2:T67	
+T68	Duration 969 974	agudo
+#57	AnnotatorNotes T68	C0205178; acute; Temporal Concept
+R43	Has_Duration_or_Interval Arg1:T16 Arg2:T68	
+T69	ANAT 122 137	cerebrovascular
+#58	AnnotatorNotes T69	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R44	Location_of Arg1:T69 Arg2:T3	
+T70	ANAT 387 402	cerebrovascular
+#59	AnnotatorNotes T70	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R45	Location_of Arg1:T70 Arg2:T8	
+T71	ANAT 452 467	cerebrovascular
+#60	AnnotatorNotes T71	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R46	Location_of Arg1:T71 Arg2:T9	
+T72	ANAT 545 560	cerebrovascular
+#61	AnnotatorNotes T72	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R47	Location_of Arg1:T72 Arg2:T11	
+T73	ANAT 783 798	cerebrovascular
+#62	AnnotatorNotes T73	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R48	Location_of Arg1:T73 Arg2:T14	
+T74	ANAT 1176 1191	cerebrovascular
+#63	AnnotatorNotes T74	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R49	Location_of Arg1:T74 Arg2:T20	
+T75	ANAT 1239 1254	cerebrovascular
+#64	AnnotatorNotes T75	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R50	Location_of Arg1:T75 Arg2:T21	
+T76	ANAT 1469 1484	cerebrovascular
+#65	AnnotatorNotes T76	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R51	Location_of Arg1:T76 Arg2:T29	

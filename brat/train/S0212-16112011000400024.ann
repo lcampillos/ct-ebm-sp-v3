@@ -202,8 +202,8 @@ R39	Has_Frequency Arg1:T88 Arg2:T57
 T89	Quantifier_or_Qualifier 842 843	2
 R40	Has_Quantifier_or_Qualifier Arg1:T88 Arg2:T89	
 R41	Experiences Arg1:T56 Arg2:T88	
-T90	Result_or_Value 861 870	70 gramos
-R42	Has_Result_or_Value Arg1:T88 Arg2:T90	
+T90	Dose 861 870	70 gramos
+R42	Has_Dose_or_Strength Arg1:T88 Arg2:T90	
 R43	Before Arg1:T23 Arg2:T22	
 R44	Before Arg1:T24 Arg2:T22	
 R45	After Arg1:T23 Arg2:T59	

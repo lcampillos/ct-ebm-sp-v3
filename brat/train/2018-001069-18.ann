@@ -146,7 +146,7 @@ R34	Has_Result_or_Value Arg1:T56 Arg2:T57
 R35	Has_Result_or_Value Arg1:T55 Arg2:T57	
 R37	Before Arg1:T50 Arg2:T17	
 R38	Location_of Arg1:T19 Arg2:T33	
-T59	Observation 820 831	irresecable
+T59	Quantifier_or_Qualifier 820 831	irresecable
 R39	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T59	
 R40	Has_Quantifier_or_Qualifier Arg1:T18 Arg2:T59	
 T60	Quantifier_or_Qualifier 833 852	localmente avanzado
@@ -157,7 +157,7 @@ R44	Before Arg1:T18 Arg2:T24
 R45	Used_for Arg1:T21 Arg2:T20	
 R46	Used_for Arg1:T21 Arg2:T22	
 R47	Location_of Arg1:T25 Arg2:T40	
-T61	Observation 1004 1015	irresecable
+T61	Quantifier_or_Qualifier 1004 1015	irresecable
 R48	Has_Quantifier_or_Qualifier Arg1:T40 Arg2:T61	
 R49	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T61	
 T62	Quantifier_or_Qualifier 1017 1036	localmente avanzado
@@ -174,7 +174,7 @@ R36	Negation Arg1:T45 Arg2:T21
 #52	AnnotatorNotes T53	C1546944; Event Seriousness - Significant; Qualitative Concept
 T58	Route 883 892	sistémico
 R54	Has_Route_or_Mode Arg1:T21 Arg2:T58	
-#53	AnnotatorNotes T58	C0205373; Systemic; Functional Concept
+#53	AnnotatorNotes T58	C5849094; Systemic Route of Administration; Functional Concept
 A8	Experiencer T49 Patient
 A9	Experiencer T47 Patient
 A10	Experiencer T43 Patient

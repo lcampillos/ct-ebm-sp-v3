@@ -120,7 +120,6 @@ T68	PHYS 863 885	respiración espontánea
 #58	AnnotatorNotes T68	C0231802; Autonomous breathing; Organism Function
 T69	Duration 889 894	30min
 T70	DEVI 910 919	Tubo en T
-#59	AnnotatorNotes T70	C0175731; T-tube; Medical Device
 T72	PHYS 995 1017	respiración espontánea
 #60	AnnotatorNotes T72	C0231802; Autonomous breathing; Organism Function
 T73	LIVB 1074 1083	pacientes
@@ -159,7 +158,7 @@ R12	Experiences Arg1:T51 Arg2:T3
 R13	Experiences Arg1:T51 Arg2:T5	
 R14	Combined_with Arg1:T1 Arg2:T3	
 R15	Combined_with Arg1:T1 Arg2:T5	
-R16	Used_for Arg1:T53 Arg2:T1	
+R16	Combined_with Arg1:T1 Arg2:T53	
 R17	Experiences Arg1:T57 Arg2:T11	
 R18	Experiences Arg1:T57 Arg2:T10	
 R19	Used_for Arg1:T56 Arg2:T10	
@@ -234,11 +233,10 @@ R79	Experiences Arg1:T58 Arg2:T85
 R80	Experiences Arg1:T59 Arg2:T85	
 R82	Has_Duration_or_Interval Arg1:T30 Arg2:T69	
 R83	Combined_with Arg1:T30 Arg2:T31	
-R84	Used_for Arg1:T70 Arg2:T30	
+R84	Combined_with Arg1:T30 Arg2:T70	
 R86	Experiences Arg1:T73 Arg2:T35	
 R88	Used_for Arg1:T74 Arg2:T34	
 R89	Experiences Arg1:T73 Arg2:T36	
-R90	Used_for Arg1:T74 Arg2:T36	
 R91	Experiences Arg1:T75 Arg2:T37	
 R92	Before Arg1:T37 Arg2:T38	
 R93	Experiences Arg1:T75 Arg2:T39	
@@ -254,7 +252,7 @@ R100	Experiences Arg1:T79 Arg2:T42
 R101	Experiences Arg1:T79 Arg2:T81	
 R102	Combined_with Arg1:T42 Arg2:T43	
 R103	Experiences Arg1:T79 Arg2:T43	
-R104	Used_for Arg1:T82 Arg2:T42	
+R104	Combined_with Arg1:T42 Arg2:T82	
 R105	Before Arg1:T45 Arg2:T46	
 R106	Before Arg1:T17 Arg2:T46	
 R112	Experiences Arg1:T73 Arg2:T34	
@@ -267,3 +265,5 @@ A7	Experiencer T59 Patient
 A8	Experiencer T73 Patient
 A9	Experiencer T75 Patient
 A10	Experiencer T79 Patient
+#71	AnnotatorNotes T10	C4028133; oxygen via t-piece; Therapeutic or Preventive Procedure (?)
+#59	AnnotatorNotes T70	C0175731; T-tube; Medical Device

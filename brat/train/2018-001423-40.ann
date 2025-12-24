@@ -119,23 +119,23 @@ R8	Experiences Arg1:T35 Arg2:T6
 R9	Experiences Arg1:T35 Arg2:T24	
 R10	Negation Arg1:T36 Arg2:T1	
 R11	Experiences Arg1:T35 Arg2:T1	
-T54	Observation 165 175	inoperable
-#42	AnnotatorNotes T54	C4039777; Tumor surgically unresectable; Finding
+T54	Quantifier_or_Qualifier 165 175	inoperable
+#42	AnnotatorNotes T54	C0205187; Inoperable; Qualitative Concept
 R13	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T54	
-T55	Observation 360 371	irresecable
+T55	Quantifier_or_Qualifier 360 371	irresecable
 #43	AnnotatorNotes T55	C4039777; Tumor surgically unresectable; Finding
 R14	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T55	
 R15	Experiences Arg1:T37 Arg2:T10	
 R17	Experiences Arg1:T37 Arg2:T25	
 R18	Negation Arg1:T38 Arg2:T3	
-T56	Observation 441 451	inoperable
-#44	AnnotatorNotes T56	C4039777; Tumor surgically unresectable; Finding
+T56	Quantifier_or_Qualifier 441 451	inoperable
+#44	AnnotatorNotes T56	C0205187; Inoperable; Qualitative Concept
 R19	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T56	
 R20	Before Arg1:T11 Arg2:T26	
 R21	Before Arg1:T6 Arg2:T24	
 R22	Experiences Arg1:T37 Arg2:T33	
 R23	Experiences Arg1:T37 Arg2:T3	
-T57	Observation 512 523	irresecable
+T57	Quantifier_or_Qualifier 512 523	irresecable
 #45	AnnotatorNotes T57	C4039777; Tumor surgically unresectable; Finding
 R24	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T57	
 R25	Before Arg1:T12 Arg2:T27	
@@ -145,11 +145,11 @@ R28	Negation Arg1:T49 Arg2:T16
 R29	Negation Arg1:T48 Arg2:T15	
 R30	Experiences Arg1:T47 Arg2:T15	
 R31	Experiences Arg1:T47 Arg2:T16	
-T58	Observation 949 960	irresecable
+T58	Quantifier_or_Qualifier 949 960	irresecable
 #46	AnnotatorNotes T58	C4039777; Tumor surgically unresectable; Finding
 R32	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T58	
 R33	Before Arg1:T17 Arg2:T28	
-T59	Observation 822 833	irresecable
+T59	Quantifier_or_Qualifier 822 833	irresecable
 #47	AnnotatorNotes T59	C4039777; Tumor surgically unresectable; Finding
 T60	Quantifier_or_Qualifier 809 820	estadio III
 R35	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T60	

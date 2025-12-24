@@ -133,3 +133,8 @@ A7	Experiencer T44 Patient
 A8	Experiencer T27 Patient
 A9	Experiencer T35 Patient
 A10	Experiencer T36 Other
+T55	Duration 309 314	AGUDO
+#46	AnnotatorNotes T55	C0205178; acute; Temporal Concept
+R12	Has_Duration_or_Interval Arg1:T6 Arg2:T55	
+T56	CHEM 803 810	oxígeno
+#47	AnnotatorNotes T56	C0030054; oxygen; Biologically Active Substance · Element, Ion, or Isotope · Pharmacologic Substance

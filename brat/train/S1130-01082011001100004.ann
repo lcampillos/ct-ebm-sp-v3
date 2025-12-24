@@ -212,3 +212,21 @@ A8	Experiencer T53 Patient
 A9	Experiencer T56 Patient
 A10	Experiencer T58 Patient
 A11	Experiencer T62 Patient
+T79	DISO 746 749	PPR
+#66	AnnotatorNotes T79	C2721599; Radiation proctopathy; Disease or Syndrome
+T80	DISO 165 168	PPR
+#67	AnnotatorNotes T80	C2721599; Radiation proctopathy; Disease or Syndrome
+R36	Causes Arg1:T80 Arg2:T46	
+T81	DISO 361 364	PPR
+#68	AnnotatorNotes T81	C2721599; Radiation proctopathy; Disease or Syndrome
+T82	DISO 1113 1116	PPR
+#69	AnnotatorNotes T82	C2721599; Radiation proctopathy; Disease or Syndrome
+R47	Experiences Arg1:T56 Arg2:T82	
+T83	DISO 1739 1742	PPR
+#70	AnnotatorNotes T83	C2721599; Radiation proctopathy; Disease or Syndrome
+R52	Experiences Arg1:T62 Arg2:T83	
+R55	Experiences Arg1:T53 Arg2:T79	
+R59	Causes Arg1:T79 Arg2:T20	
+T84	PROC 1236 1239	OHT
+R63	Experiences Arg1:T58 Arg2:T84	
+R64	Overlap Arg1:T61 Arg2:T84	

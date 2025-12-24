@@ -10,8 +10,8 @@ T5	DISO 142 161	quemaduras oculares
 T6	PROC 184 273	Estudio de seguimiento multinacional, multicéntrico, prospectivo, de seguridad y eficacia
 T7	PROC 1102 1116	consentimiento
 #5	AnnotatorNotes T7	C0567423; Informed consent for procedure; Therapeutic or Preventive Procedure
-T8	PROC 300 319	trasplante autólogo
-#6	AnnotatorNotes T8	C0040736; Transplantation, Autologous; Therapeutic or Preventive Procedure
+T8	PROC 300 356	trasplante autólogo de células madre limbares cultivadas
+#6	AnnotatorNotes T8	C0040736; Transplantation, Autologous; Therapeutic or Preventive Procedure + C1301519; Limbal stem cell transplantation; Therapeutic or Preventive Procedure (?)
 T9	ANAT 323 345	células madre limbares
 #7	AnnotatorNotes T9	C3652431; limbal stem cells, autologous; Cell
 T10	ANAT 391 407	epitelio corneal
@@ -123,3 +123,10 @@ A9	Experiencer T34 Patient
 A10	Experiencer T35 Patient
 A11	Experiencer T38 Patient
 A12	Experiencer T37 Patient
+R4	Used_for Arg1:T9 Arg2:T8	
+T47	PROC 358 364	ACLSCT
+#39	AnnotatorNotes T47	C0040736; Transplantation, Autologous; Therapeutic or Preventive Procedure + C1301519; Limbal stem cell transplantation; Therapeutic or Preventive Procedure (?)
+R10	Used_for Arg1:T9 Arg2:T47	
+R29	Before Arg1:T47 Arg2:T22	
+R30	After Arg1:T6 Arg2:T47	
+R31	Experiences Arg1:T33 Arg2:T47

@@ -291,3 +291,9 @@ A19	Experiencer T54 Patient
 A20	Experiencer T63 Patient
 R60	Has_Result_or_Value Arg1:T40 Arg2:T87	
 R76	Has_Result_or_Value Arg1:T47 Arg2:T93	
+T102	Duration 74 79	agudo
+#85	AnnotatorNotes T102	C0205178; acute; Temporal Concept
+R80	Has_Duration_or_Interval Arg1:T1 Arg2:T102	
+T103	Duration 360 365	agudo
+#86	AnnotatorNotes T103	C0205178; acute; Temporal Concept
+R85	Has_Duration_or_Interval Arg1:T7 Arg2:T103	

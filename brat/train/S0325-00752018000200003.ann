@@ -94,3 +94,17 @@ R24	Experiences Arg1:T26 Arg2:T27
 A3	Experiencer T35 Patient
 A4	Experiencer T26 Patient
 A5	Experiencer T34 Other
+T39	Date 1049 1052	pos
+#33	AnnotatorNotes T39	C0032790; Postoperative Period; Temporal Concept
+R12	Overlap Arg1:T15 Arg2:T39	
+T40	ANAT 1199 1205	venoso
+#34	AnnotatorNotes T40	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R13	Location_of Arg1:T40 Arg2:T32	
+R14	Location_of Arg1:T40 Arg2:T18	
+T42	ANAT 441 447	venoso
+#35	AnnotatorNotes T42	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R15	Location_of Arg1:T42 Arg2:T27	
+T43	ANAT 900 906	venoso
+#36	AnnotatorNotes T43	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R25	Location_of Arg1:T43 Arg2:T31	
+R26	Location_of Arg1:T43 Arg2:T16	

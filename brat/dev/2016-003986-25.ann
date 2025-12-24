@@ -193,9 +193,9 @@ R57	Location_of Arg1:T44 Arg2:T21
 R60	Has_Duration_or_Interval Arg1:T56 Arg2:T61	
 R61	Location_of Arg1:T28 Arg2:T45	
 R62	Overlap Arg1:T45 Arg2:T62	
-T81	Quantifier_or_Qualifier 1500 1505	agudo
-#66	AnnotatorNotes T81	C0439557; Acute phase; Temporal Concept
-R63	Has_Quantifier_or_Qualifier Arg1:T45 Arg2:T81	
+T81	Duration 1500 1505	agudo
+#66	AnnotatorNotes T81	C0205178; acute; Temporal Concept
+R63	Has_Duration_or_Interval Arg1:T45 Arg2:T81	
 A7	Status T81 History_of
 R64	Location_of Arg1:T46 Arg2:T29	
 T82	PROC 1653 1682	seleccionados para el estudio

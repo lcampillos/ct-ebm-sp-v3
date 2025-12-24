@@ -126,3 +126,18 @@ R28	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T53
 #35	AnnotatorNotes T7	C2936643; Standard of Care; Health Care Activity
 A11	Experiencer T29 Patient
 A12	Experiencer T35 Patient
+T54	Duration 642 647	aguda
+#36	AnnotatorNotes T54	C0205178; acute; Temporal Concept
+R29	Has_Duration_or_Interval Arg1:T10 Arg2:T54	
+T55	Duration 547 552	aguda
+#37	AnnotatorNotes T55	C0205178; acute; Temporal Concept
+R30	Has_Duration_or_Interval Arg1:T9 Arg2:T55	
+T56	Duration 425 430	aguda
+#38	AnnotatorNotes T56	C0205178; acute; Temporal Concept
+R31	Has_Duration_or_Interval Arg1:T8 Arg2:T56	
+T57	Duration 123 128	aguda
+#39	AnnotatorNotes T57	C0205178; acute; Temporal Concept
+R32	Has_Duration_or_Interval Arg1:T3 Arg2:T57	
+T58	Duration 337 342	aguda
+#40	AnnotatorNotes T58	C0205178; acute; Temporal Concept
+R33	Has_Duration_or_Interval Arg1:T6 Arg2:T58	

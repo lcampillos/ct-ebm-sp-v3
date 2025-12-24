@@ -217,7 +217,7 @@ R66	Causes Arg1:T27 Arg2:T23
 R67	Has_Dose_or_Strength Arg1:T27 Arg2:T68	
 R68	Has_Frequency Arg1:T27 Arg2:T69	
 T83	Route 1317 1327	sistémicos
-#67	AnnotatorNotes T83	C0205373; Systemic; Functional Concept
+#67	AnnotatorNotes T83	C5849094; Systemic Route of Administration; Functional Concept
 R69	Has_Route_or_Mode Arg1:T27 Arg2:T83	
 T84	CONC 1355 1382	equivalentes a prednisolona
 R70	Has_Duration_or_Interval Arg1:T27 Arg2:T70	
@@ -237,7 +237,7 @@ R81	Used_for Arg1:T45 Arg2:T34
 #69	AnnotatorNotes T33	C1515119; Systemic Therapy; Therapeutic or Preventive Procedure
 R59	Experiences Arg1:T57 Arg2:T37	
 T86	Route 1610 1619	sistémico
-#70	AnnotatorNotes T86	C0205373; Systemic; Functional Concept
+#70	AnnotatorNotes T86	C5849094; Systemic Route of Administration; Functional Concept
 R61	Has_Route_or_Mode Arg1:T33 Arg2:T86	
 A5	Experiencer T53 Patient
 A6	Experiencer T57 Patient

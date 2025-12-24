@@ -18,8 +18,7 @@ T9	PROC 371 392	determinó el genotipo
 #9	AnnotatorNotes T9	C1285573; Genotype determination; Laboratory Procedure
 T10	CHEM 1102 1104	Am
 #10	AnnotatorNotes T10	C0002645; amoxicillin; Organic Chemical · Antibiotic
-T11	PROC 786 795	protocolo
-#11	AnnotatorNotes T11	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
+T11	PROC 797 799	PP
 T12	Observation 1122 1133	resistentes
 #12	AnnotatorNotes T12	C3264062; Resistance to unspecified antibiotic; Finding
 T13	PROC 815 827	erradicación
@@ -198,7 +197,7 @@ R52	Has_Duration_or_Interval Arg1:T33 Arg2:T75
 R53	Has_Duration_or_Interval Arg1:T33 Arg2:T55	
 R54	Before Arg1:T8 Arg2:T7	
 R55	Used_for Arg1:T24 Arg2:T8	
-T85	CONC 773 795	análisis por protocolo
+T85	PROC 773 795	análisis por protocolo
 R58	Overlap Arg1:T13 Arg2:T57	
 R60	Overlap Arg1:T15 Arg2:T58	
 R61	Overlap Arg1:T12 Arg2:T27	
@@ -225,3 +224,5 @@ R56	Before Arg1:T30 Arg2:T19
 A5	Experiencer T73 Patient
 A6	Experiencer T46 Patient
 A7	Experiencer T47 Patient
+T87	PROC 954 956	IT
+#68	AnnotatorNotes T87	C2718028; Intention to Treat Analysis; Research Activity

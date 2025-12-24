@@ -187,7 +187,6 @@ R5	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T58
 T62	Quantifier_or_Qualifier 613 624	programados
 #53	AnnotatorNotes T62	C0205539; Scheduled - procedure status; Qualitative Concept
 R18	Has_Quantifier_or_Qualifier Arg1:T48 Arg2:T62	
-R19	Before Arg1:T7 Arg2:T10	
 R21	Used_for Arg1:T32 Arg2:T19	
 T68	Quantifier_or_Qualifier 1021 1030	inmediato
 #57	AnnotatorNotes T68	C0205253; Immediate; Temporal Concept
@@ -196,9 +195,9 @@ T70	Quantifier_or_Qualifier 1491 1500	inmediato
 #59	AnnotatorNotes T70	C0205253; Immediate; Temporal Concept
 R69	Has_Quantifier_or_Qualifier Arg1:T59 Arg2:T70	
 #60	AnnotatorNotes T63	C2945599; Mild (qualifier value); Qualitative Concept
-#61	AnnotatorNotes R19	(?)
 #62	AnnotatorNotes T17	C0191408; Closure of skin by suture; Therapeutic or Preventive Procedure
 A1	Experiencer T48 Patient
 A2	Experiencer T49 Patient
 A3	Experiencer T52 Patient
 A4	Experiencer T57 Patient
+R43	Overlap Arg1:T7 Arg2:T46	

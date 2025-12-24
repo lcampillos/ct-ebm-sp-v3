@@ -359,8 +359,8 @@ R109	Has_Duration_or_Interval Arg1:T129 Arg2:T100
 R110	Has_Duration_or_Interval Arg1:T129 Arg2:T98	
 R111	Before Arg1:T45 Arg2:T128	
 R112	Before Arg1:T46 Arg2:T128	
-T130	CONC 2113 2132	intención de tratar
-#95	AnnotatorNotes T130	C1292734; Treatment intent; Functional Concept
+T130	PROC 2113 2132	intención de tratar
+#95	AnnotatorNotes T130	C2718028; Intention to Treat Analysis; Research Activity
 T131	CONC 2167 2177	mortalidad
 #96	AnnotatorNotes T131	C0026565; Mortality Vital Statistics; Quantitative Concept
 T132	CONC 2368 2377	sobrevida
@@ -399,3 +399,10 @@ T136	Observation 1886 1889	EV+
 T137	Observation 2257 2260	EV+
 #105	AnnotatorNotes T137	C2748323; Enterovirus test positive; Laboratory or Test Result | C4698382; Positive for Enteroviruses; Laboratory or Test Result
 R121	Experiences Arg1:T99 Arg2:T137	
+T138	ANAT 507 520	cápside viral
+#106	AnnotatorNotes T138	C1167519; viral capsid; Cell Component
+T139	LIVB 515 520	viral
+#107	AnnotatorNotes T139	C0042776; Virus; Virus
+T140	Route 1388 1399	orogástrica
+#108	AnnotatorNotes T140	C5707652; Orogastric Route of Administration; Functional Concept
+R122	Has_Route_or_Mode Arg1:T54 Arg2:T140	

@@ -247,7 +247,7 @@ R62	Overlap Arg1:T22 Arg2:T66
 R63	Experiences Arg1:T68 Arg2:T24	
 T96	Quantifier_or_Qualifier 1011 1037	clínicamente significativo
 R64	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T96	
-R65	Experiences Arg1:T68 Arg2:T67	
+R65	Experiences Arg1:T68 Arg2:T99	
 R67	Experiences Arg1:T68 Arg2:T26	
 R68	Experiences Arg1:T68 Arg2:T80	
 T97	Observation 1137 1161	adecuadamente informados
@@ -309,3 +309,6 @@ A28	Experiencer T84 Patient
 A29	Experiencer T56 Patient
 A30	Experiencer T55 Patient
 A31	Experiencer T54 Patient
+T99	PROC 1038 1063	medido mediante el sensor
+#85	AnnotatorNotes T99	C5707485; Tremor Evaluation; Health Care Activity (?)
+R54	Used_for Arg1:T67 Arg2:T99	

@@ -222,3 +222,6 @@ A13	Status T72 History_of
 A14	Status T71 History_of
 T79	Result_or_Value 864 872	negativo
 R35	Has_Result_or_Value Arg1:T57 Arg2:T79	
+T80	ANAT 1184 1194	subcutáneo
+#73	AnnotatorNotes T80	C0278403; Subcutaneous Tissue; Tissue (?)
+R36	Location_of Arg1:T80 Arg2:T30	

@@ -69,8 +69,8 @@ T37	DISO 1723 1729	cáncer
 T38	DISO 1756 1765;1789 1816	Infección bacteriana, viral o fúngica
 T39	PROC 1831 1852	tratamiento sistémico
 T40	PROC 1902 1919	biopsia del tumor
-T41	DISO 1924 1933	Infección
-#32	AnnotatorNotes T41	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T41	DISO 1924 1933;1950 1957	Infección por VIH
+#32	AnnotatorNotes T41	C0458074; Human immunodeficiency virus (HIV) status; Finding
 T42	DISO 1959 1970	hepatitis B
 #33	AnnotatorNotes T42	C0019163; Hepatitis B; Disease or Syndrome
 T43	DISO 1974 1985	hepatitis C
@@ -126,7 +126,7 @@ T69	ANAT 1550 1560	cerebrales
 #57	AnnotatorNotes T69	C0242202; Cerebrum; Body Part, Organ, or Organ Component | C1269537; Entire brain; Body Part, Organ, or Organ Component | C1280654; Entire cerebrum; Body Part, Organ, or Organ Component
 T71	DISO 1914 1919	tumor
 #58	AnnotatorNotes T71	C0006826; Malignant Neoplasms; Neoplastic Process | C0027651; Neoplasms; Neoplastic Process | C0577559; Mass of body structure; Finding
-T72	DISO 1954 1957	VIH
+T72	LIVB 1954 1957	VIH
 #59	AnnotatorNotes T72	C0458074; Human immunodeficiency virus (HIV) status; Finding
 T73	ANAT 2110 2119	miocardio
 #60	AnnotatorNotes T73	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
@@ -313,7 +313,6 @@ R75	Has_Quantifier_or_Qualifier Arg1:T38 Arg2:T130
 T131	Quantifier_or_Qualifier 1943 1949	activa
 #95	AnnotatorNotes T131	C0205177; Active; Qualitative Concept | C0679217; Active State; Idea or Concept
 R76	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T131	
-R77	Has_Quantifier_or_Qualifier Arg1:T72 Arg2:T131	
 R78	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T131	
 R79	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T131	
 A20	Status T72 History_of
@@ -363,3 +362,4 @@ A27	Experiencer T102 Patient
 A28	Experiencer T103 Patient
 A29	Experiencer T105 Patient
 A30	Assertion T53 Hypothetical
+R21	Causes Arg1:T72 Arg2:T41	

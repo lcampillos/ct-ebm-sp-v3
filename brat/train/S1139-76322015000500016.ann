@@ -345,9 +345,9 @@ R58	Location_of Arg1:T144 Arg2:T22
 R59	Causes Arg1:T19 Arg2:T20	
 R60	Causes Arg1:T19 Arg2:T22	
 R61	Used_for Arg1:T25 Arg2:T24	
-T157	Quantifier_or_Qualifier 1349 1359	sistémicos
-#122	AnnotatorNotes T157	C0205373; Systemic; Functional Concept
-R62	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T157	
+T157	Route 1349 1359	sistémicos
+#122	AnnotatorNotes T157	C5849094; Systemic Route of Administration; Functional Concept
+R62	Has_Route_or_Mode Arg1:T25 Arg2:T157	
 R63	Has_Route_or_Mode Arg1:T25 Arg2:T101	
 R64	Used_for Arg1:T83 Arg2:T28	
 T158	CONC 1420 1428	episodio
@@ -415,7 +415,7 @@ R120	Location_of Arg1:T52 Arg2:T39
 R121	Location_of Arg1:T51 Arg2:T39	
 R124	Experiences Arg1:T125 Arg2:T47	
 R125	Before Arg1:T56 Arg2:T124	
-T162	PROC 2719 2748	análisis de medidas repetidas
+T162	CONC 2719 2748	análisis de medidas repetidas
 #125	AnnotatorNotes T162	C0871881; repeated measures; Research Activity
 T163	CONC 2750 2775	análisis de la covarianza
 #126	AnnotatorNotes T163	C0814908; ancova; Quantitative Concept
@@ -542,3 +542,7 @@ A59	Experiencer T145 Patient
 A60	Experiencer T92 Patient
 A61	Experiencer T94 Patient
 A62	Experiencer T140 Patient
+T173	Duration 196 201	aguda
+#136	AnnotatorNotes T173	C0439557; Acute phase; Temporal Concept
+R25	Has_Duration_or_Interval Arg1:T5 Arg2:T173	
+R27	Has_Duration_or_Interval Arg1:T6 Arg2:T173	

@@ -154,26 +154,26 @@ T73	Quantifier_or_Qualifier 752 762	al menos 1
 R2	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T73	
 R3	Location_of Arg1:T43 Arg2:T14	
 R4	Before Arg1:T14 Arg2:T44	
-T74	Observation 714 724	inoperable
-#60	AnnotatorNotes T74	C4039777; Tumor surgically unresectable; Finding
+T74	Quantifier_or_Qualifier 714 724	inoperable
+#60	AnnotatorNotes T74	C0205187; Inoperable; Qualitative Concept
 R5	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T74	
-T75	Observation 532 542	inoperable
-#61	AnnotatorNotes T75	C4039777; Tumor surgically unresectable; Finding
+T75	Quantifier_or_Qualifier 532 542	inoperable
+#61	AnnotatorNotes T75	C0205187; Inoperable; Qualitative Concept
 R6	Location_of Arg1:T39 Arg2:T12	
 R7	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T75	
 R8	Before Arg1:T12 Arg2:T40	
 R9	Before Arg1:T13 Arg2:T42	
 R10	Location_of Arg1:T41 Arg2:T13	
-T76	Observation 621 632	irresecable
+T76	Quantifier_or_Qualifier 621 632	irresecable
 #62	AnnotatorNotes T76	C4039777; Tumor surgically unresectable; Finding
 R11	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T76	
-T77	Observation 445 456	irresecable
+T77	Quantifier_or_Qualifier 445 456	irresecable
 #63	AnnotatorNotes T77	C4039777; Tumor surgically unresectable; Finding
 R12	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T77	
 R13	Before Arg1:T11 Arg2:T38	
 R14	Location_of Arg1:T37 Arg2:T11	
-T78	Observation 224 234	inoperable
-#64	AnnotatorNotes T78	C4039777; Tumor surgically unresectable; Finding
+T78	Quantifier_or_Qualifier 224 234	inoperable
+#64	AnnotatorNotes T78	C0205187; Inoperable; Qualitative Concept
 R15	Location_of Arg1:T35 Arg2:T36	
 R16	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T78	
 R17	Before Arg1:T36 Arg2:T6	

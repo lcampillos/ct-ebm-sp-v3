@@ -226,7 +226,7 @@ R38	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T95
 R39	Causes Arg1:T23 Arg2:T74	
 R40	Location_of Arg1:T22 Arg2:T23	
 T99	Route 1169 1182	vía sistémica
-#86	AnnotatorNotes T99	C0205373; Systemic; Functional Concept
+#86	AnnotatorNotes T99	C5849094; Systemic Route of Administration; Functional Concept
 R41	Has_Route_or_Mode Arg1:T26 Arg2:T99	
 R42	Used_for Arg1:T26 Arg2:T51	
 T101	Observation 1206 1223	efecto analgésico
@@ -294,3 +294,4 @@ A10	Experiencer T90 Patient
 A11	Experiencer T92 Patient
 A12	Experiencer T97 Patient
 A13	Experiencer T98 Patient
+T105	ANAT 755 785	vías inhibitorias descendentes

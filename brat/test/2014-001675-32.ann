@@ -131,3 +131,8 @@ R41	After Arg1:T3 Arg2:T5
 #40	AnnotatorNotes T13	C2826244; Life Threatening; Finding
 #41	AnnotatorNotes T12	C4480132; preventive medicine antithrombotic therapy; Therapeutic or Preventive Procedure  (?)
 A5	Experiencer T39 Patient
+T47	ANAT 453 468	cerebrovascular
+#42	AnnotatorNotes T47	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R42	Location_of Arg1:T47 Arg2:T15	
+T48	CONC 314 324	percutáneo
+#43	AnnotatorNotes T48	C0522523; Percutaneous; Spatial Concept

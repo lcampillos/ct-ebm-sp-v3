@@ -98,13 +98,11 @@ R13	Used_for Arg1:T11 Arg2:T46
 R14	Overlap Arg1:T12 Arg2:T32	
 R16	Overlap Arg1:T14 Arg2:T32	
 R15	Overlap Arg1:T15 Arg2:T32	
-T47	CONC 716 734	Índice de Oswestry
+T47	PROC 716 734	Índice de Oswestry
 #37	AnnotatorNotes T47	C4295183; Oswestry low back pain disability questionnaire; Intellectual Product
-R17	Used_for Arg1:T47 Arg2:T12	
 T48	CONC 805 822	criterios de Odom
-T49	CONC 741 755	Escala de Zung
-#38	AnnotatorNotes T49	C0451593; Zung self-rating depression scale; Intellectual Product
-R18	Used_for Arg1:T49 Arg2:T12	
+T49	PROC 741 755	Escala de Zung
+#38	AnnotatorNotes T49	C4305167; Assessment using Zung self rating depression scale; Health Care Activity
 T50	Observation 925 939	ángulo de Cobb
 #39	AnnotatorNotes T50	C0563192; Cobb angle; Finding
 R21	Location_of Arg1:T13 Arg2:T18	
@@ -134,3 +132,16 @@ R37	Negation Arg1:T42 Arg2:T56
 #41	AnnotatorNotes T30	C0332185; Recent; Temporal Concept
 A5	Experiencer T31 Patient
 A6	Experiencer T35 Patient
+T55	PROC 160 164	DCAA
+#43	AnnotatorNotes T55	C4552416; Anterior Cervical Discectomy and Fusion; Therapeutic or Preventive Procedure
+T57	PROC 580 584	DCAA
+#44	AnnotatorNotes T57	C4552416; Anterior Cervical Discectomy and Fusion; Therapeutic or Preventive Procedure
+R19	Used_for Arg1:T46 Arg2:T57	
+R20	Experiences Arg1:T31 Arg2:T57	
+R27	Location_of Arg1:T28 Arg2:T55	
+T58	PROC 1545 1549	DCAA
+#45	AnnotatorNotes T58	C4552416; Anterior Cervical Discectomy and Fusion; Therapeutic or Preventive Procedure
+R29	Used_for Arg1:T33 Arg2:T58	
+#46	AnnotatorNotes T3	C3518519; Arthrodesis by anterior interbody technique of cervical region with discectomy; Therapeutic or Preventive Procedure
+R17	Overlap Arg1:T47 Arg2:T32	
+R18	Overlap Arg1:T49 Arg2:T32	

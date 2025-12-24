@@ -185,12 +185,12 @@ R9	Has_Route_or_Mode Arg1:T1 Arg2:T64
 R10	Experiences Arg1:T65 Arg2:T1	
 R11	Experiences Arg1:T65 Arg2:T2	
 R12	Location_of Arg1:T47 Arg2:T2	
-T90	Quantifier_or_Qualifier 99 104	agudo
-#74	AnnotatorNotes T90	C0439557; Acute phase; Temporal Concept
-R13	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T90	
-T91	Quantifier_or_Qualifier 361 366	agudo
-#75	AnnotatorNotes T91	C0439557; Acute phase; Temporal Concept
-R14	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T91	
+T90	Duration 99 104	agudo
+#74	AnnotatorNotes T90	C0205178; acute; Temporal Concept
+R13	Has_Duration_or_Interval Arg1:T2 Arg2:T90	
+T91	Duration 361 366	agudo
+#75	AnnotatorNotes T91	C0205178; acute; Temporal Concept
+R14	Has_Duration_or_Interval Arg1:T5 Arg2:T91	
 R15	Location_of Arg1:T50 Arg2:T5	
 R16	Experiences Arg1:T66 Arg2:T72	
 R17	Experiences Arg1:T66 Arg2:T48	

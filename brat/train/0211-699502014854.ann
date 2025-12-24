@@ -214,3 +214,7 @@ A5	Experiencer T56 Patient
 A6	Experiencer T62 Patient
 A7	Experiencer T67 Patient
 A8	Experiencer T69 Patient
+T82	Duration 545 550	agudo
+#64	AnnotatorNotes T82	C0205178; acute; Temporal Concept
+R18	Has_Duration_or_Interval Arg1:T48 Arg2:T82	
+R19	Has_Duration_or_Interval Arg1:T12 Arg2:T82	

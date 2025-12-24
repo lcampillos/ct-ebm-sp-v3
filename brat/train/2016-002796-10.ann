@@ -205,8 +205,6 @@ T62	Result_or_Value 1301 1312	< 50 ml/min
 R52	Has_Result_or_Value Arg1:T27 Arg2:T62	
 R53	Has_Result_or_Value Arg1:T28 Arg2:T62	
 R55	Location_of Arg1:T73 Arg2:T28	
-R58	Location_of Arg1:T29 Arg2:T28	
-R59	Location_of Arg1:T29 Arg2:T27	
 R60	Location_of Arg1:T44 Arg2:T30	
 R61	Location_of Arg1:T31 Arg2:T19	
 R62	Location_of Arg1:T33 Arg2:T68	
@@ -227,3 +225,8 @@ A6	Experiencer T59 Patient
 A7	Experiencer T53 Patient
 A8	Experiencer T48 Patient
 A9	Experiencer T56 Patient
+T86	Duration 1438 1443	aguda
+#71	AnnotatorNotes T86	C0205178; acute; Temporal Concept
+R56	Has_Duration_or_Interval Arg1:T30 Arg2:T86	
+T87	PROC 1369 1406	Modification of Diet in Renal Disease
+#72	AnnotatorNotes T87	C1980036; Creatinine-based formula (MDRD); Laboratory Procedure

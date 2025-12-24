@@ -294,3 +294,34 @@ A15	Experiencer T88 Patient
 A16	Experiencer T89 Patient
 A17	Experiencer T84 Patient
 A18	Experiencer T94 Patient
+T13	Duration 69 74	agudo
+#71	AnnotatorNotes T13	C0439557; Acute phase; Temporal Concept
+R66	Has_Duration_or_Interval Arg1:T1 Arg2:T13	
+T100	Duration 283 288	aguda
+#72	AnnotatorNotes T100	C0439557; Acute phase; Temporal Concept
+R67	Has_Duration_or_Interval Arg1:T5 Arg2:T100	
+T101	Duration 451 456	aguda
+#81	AnnotatorNotes T101	C0439557; Acute phase; Temporal Concept
+R68	Has_Duration_or_Interval Arg1:T8 Arg2:T101	
+T102	Duration 691 696	aguda
+#82	AnnotatorNotes T102	C0439557; Acute phase; Temporal Concept
+R79	Has_Duration_or_Interval Arg1:T11 Arg2:T102	
+T103	Duration 1471 1476	aguda
+#83	AnnotatorNotes T103	C0439557; Acute phase; Temporal Concept
+R87	Has_Duration_or_Interval Arg1:T19 Arg2:T103	
+T104	Duration 1902 1907	aguda
+#84	AnnotatorNotes T104	C0439557; Acute phase; Temporal Concept
+R88	Has_Duration_or_Interval Arg1:T27 Arg2:T104	
+T119	Duration 1945 1950	aguda
+#85	AnnotatorNotes T119	C0439557; Acute phase; Temporal Concept
+R95	Has_Duration_or_Interval Arg1:T28 Arg2:T119	
+T120	Duration 3222 3227	aguda
+#86	AnnotatorNotes T120	C0439557; Acute phase; Temporal Concept
+R96	Has_Duration_or_Interval Arg1:T43 Arg2:T120	
+T121	ANAT 1779 1794	cerebrovascular
+#87	AnnotatorNotes T121	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R97	Location_of Arg1:T121 Arg2:T25	
+T122	ANAT 2683 2698	cerebrovascular
+#88	AnnotatorNotes T122	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R98	Location_of Arg1:T122 Arg2:T38	
+R99	Experiences Arg1:T89 Arg2:T95	

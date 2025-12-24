@@ -1,7 +1,7 @@
 T1	CHEM 1144 1147	ARA
 #1	AnnotatorNotes T1	C0815017; Angiotensin Receptor Antagonists; Pharmacologic Substance
-T2	ANAT 82 86	SRAA
-#2	AnnotatorNotes T2	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+T2	PHYS 82 86	SRAA
+#2	AnnotatorNotes T2	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
 T3	DISO 105 111	obesos
 #3	AnnotatorNotes T3	C0028754; Obesity; Disease or Syndrome
 T4	DISO 174 182	obesidad
@@ -14,10 +14,10 @@ T7	DISO 274 294	enfermedades renales
 #7	AnnotatorNotes T7	C0022658; Kidney Diseases; Disease or Syndrome
 T8	DISO 313 319	obesos
 #8	AnnotatorNotes T8	C0028754; Obesity; Disease or Syndrome
-T9	ANAT 358 397	sistema renina-angiotensina-aldosterona
-#9	AnnotatorNotes T9	C0086907; Renin-Angiotensin-Aldosterone System; Body System
-T10	ANAT 399 403	SRAA
-#10	AnnotatorNotes T10	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+T9	PHYS 358 397	sistema renina-angiotensina-aldosterona
+#9	AnnotatorNotes T9	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
+T10	PHYS 399 403	SRAA
+#10	AnnotatorNotes T10	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
 T11	CHEM 425 436	aldosterona
 #11	AnnotatorNotes T11	C0002006; aldosterone; Organic Chemical · Pharmacologic Substance · Hormone
 T12	CHEM 551 607	inhibidores de la enzima convertidora de la angiotensina
@@ -102,8 +102,8 @@ T51	DISO 2342 2353	proteinuria
 T52	DISO 2367 2373	obesos
 #51	AnnotatorNotes T52	C0028754; Obesity; Disease or Syndrome
 T53	DISO 2398 2432	nefropatías crónicas proteinúricas
-T54	ANAT 41 80	sistema renina-angiotensina-aldosterona
-#52	AnnotatorNotes T54	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+T54	PHYS 41 80	sistema renina-angiotensina-aldosterona
+#52	AnnotatorNotes T54	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
 T55	CHEM 49 55	renina
 #53	AnnotatorNotes T55	C0035094; Renin; Amino Acid, Peptide, or Protein · Enzyme
 T56	CHEM 56 68	angiotensina
@@ -207,11 +207,8 @@ R27	Experiences Arg1:T77 Arg2:T65
 R28	Experiences Arg1:T77 Arg2:T15	
 T100	Observation 330 337;407 436	aumento de los niveles de aldosterona
 #81	AnnotatorNotes T100	C4314076; Elevated aldosterone levels; Finding
-T101	PHYS 344 404	actividad del sistema renina-angiotensina-aldosterona (SRAA)
 R29	Experiences Arg1:T74 Arg2:T100	
-R30	Experiences Arg1:T74 Arg2:T101	
-R31	Location_of Arg1:T9 Arg2:T101	
-R32	Location_of Arg1:T10 Arg2:T101	
+R30	Experiences Arg1:T74 Arg2:T9	
 R33	Overlap Arg1:T8 Arg2:T100	
 R34	Experiences Arg1:T78 Arg2:T19	
 R35	Location_of Arg1:T67 Arg2:T66	
@@ -302,3 +299,4 @@ A8	Experiencer T81 Patient
 A9	Experiencer T93 Patient
 A10	Experiencer T96 Patient
 A11	Experiencer T98 Patient
+R12	Experiences Arg1:T74 Arg2:T10	

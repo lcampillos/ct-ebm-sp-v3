@@ -90,8 +90,8 @@ T45	CHEM 1963 1967	CFOT
 #45	AnnotatorNotes T45	C3853047; Transmucosal Oral Fentanyl Citrate; Organic Chemical
 T46	ANAT 2215 2221	venosa
 #46	AnnotatorNotes T46	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
-T47	Route 61 65	oral
-#47	AnnotatorNotes T47	C1527415; Oral Route of Drug administration; Functional Concept
+T47	Route 61 77	oral transmucoso
+#47	AnnotatorNotes T47	CUI: C1527415; Oral Route of Drug administration; Functional Concept + C1513727; Transmucosal Route of Administration; Functional Concept
 T48	Route 97 101	oral
 #48	AnnotatorNotes T48	C1527415; Oral Route of Drug administration; Functional Concept
 T49	PHYS 271 276	temor
@@ -107,8 +107,8 @@ T54	LIVB 558 572	anestesiólogos
 #53	AnnotatorNotes T54	C0334910; Anesthesiologist; Professional or Occupational Group
 T56	LIVB 730 735	niños
 #54	AnnotatorNotes T56	C0008059; Child; Age Group
-T57	Route 758 762	oral
-#55	AnnotatorNotes T57	C1527415; Oral Route of Drug administration; Functional Concept
+T57	Route 758 774	oral transmucoso
+#55	AnnotatorNotes T57	CUI: C1527415; Oral Route of Drug administration; Functional Concept + C1513727; Transmucosal Route of Administration; Functional Concept
 T58	Route 794 798	oral
 #56	AnnotatorNotes T58	C1527415; Oral Route of Drug administration; Functional Concept
 T59	LIVB 889 894	niños

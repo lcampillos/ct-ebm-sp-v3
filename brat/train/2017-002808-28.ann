@@ -229,9 +229,9 @@ T84	Quantifier_or_Qualifier 1719 1724	grave
 #74	AnnotatorNotes T84	C1547227; Severe - Severity of Illness Code; Intellectual Product
 R67	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T84	
 R68	Has_Duration_or_Interval Arg1:T39 Arg2:T63	
-T85	Quantifier_or_Qualifier 1726 1731	agudo
-#75	AnnotatorNotes T85	C0439557; Acute phase; Temporal Concept
-R69	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T85	
+T85	Duration 1726 1731	agudo
+#75	AnnotatorNotes T85	C0205178; acute; Temporal Concept
+R69	Has_Duration_or_Interval Arg1:T39 Arg2:T85	
 T86	Observation 1745 1768	anomalía de laboratorio
 #76	AnnotatorNotes T86	C3648370; laboratory tests nonspecific abnormal findings; Finding
 R70	Has_Quantifier_or_Qualifier Arg1:T65 Arg2:T86	

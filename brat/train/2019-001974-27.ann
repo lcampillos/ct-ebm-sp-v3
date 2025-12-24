@@ -100,3 +100,6 @@ R33	Has_Frequency Arg1:T21 Arg2:T28
 R35	Experiences Arg1:T29 Arg2:T14	
 A7	Experiencer T25 Patient
 A8	Experiencer T29 Patient
+T34	Duration 897 902	agudo
+#29	AnnotatorNotes T34	C0205178; acute; Temporal Concept
+R25	Has_Duration_or_Interval Arg1:T17 Arg2:T34	

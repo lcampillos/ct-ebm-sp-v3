@@ -193,8 +193,8 @@ R64	Used_for Arg1:T33 Arg2:T1
 R65	Has_Route_or_Mode Arg1:T33 Arg2:T48	
 R66	Overlap Arg1:T6 Arg2:T68	
 R67	Has_Route_or_Mode Arg1:T8 Arg2:T50	
-T76	Quantifier_or_Qualifier 231 236	AGUDA
-#63	AnnotatorNotes T76	C0439557; Acute phase; Temporal Concept
+T76	Duration 231 236	AGUDA
+#63	AnnotatorNotes T76	C0205178; acute; Temporal Concept
 R70	After Arg1:T9 Arg2:T10	
 R71	Causes Arg1:T12 Arg2:T11	
 R72	Location_of Arg1:T35 Arg2:T10	
@@ -211,3 +211,15 @@ R68	Has_Route_or_Mode Arg1:T77 Arg2:T51
 #65	AnnotatorNotes T60	C4724033; Pure; Qualitative Concept
 A7	Experiencer T52 Patient
 A8	Experiencer T55 Patient
+T78	Duration 140 145	aguda
+#66	AnnotatorNotes T78	C0205178; acute; Temporal Concept
+R11	Has_Duration_or_Interval Arg1:T4 Arg2:T78	
+T79	Duration 330 335	AGUDA
+#67	AnnotatorNotes T79	C0205178; acute; Temporal Concept
+R14	Has_Duration_or_Interval Arg1:T10 Arg2:T79	
+T80	Duration 415 420	AGUDA
+#68	AnnotatorNotes T80	C0205178; acute; Temporal Concept
+R19	Has_Duration_or_Interval Arg1:T12 Arg2:T80	
+T81	Duration 542 547	aguda
+#69	AnnotatorNotes T81	C0205178; acute; Temporal Concept
+R23	Has_Duration_or_Interval Arg1:T14 Arg2:T81	

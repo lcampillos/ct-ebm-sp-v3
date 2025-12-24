@@ -10,10 +10,10 @@ T5	DISO 171 190	insuficiencia renal
 #5	AnnotatorNotes T5	C0035078; Kidney Failure; Disease or Syndrome | C1565489; Renal Insufficiency; Disease or Syndrome
 T6	CHEM 231 286	inhibidores del sistema renina-angiotensina-aldosterona
 #6	AnnotatorNotes T6	C5240314; Substance with renin-angiotensin system inhibitor mechanism of action; Pharmacologic Substance
-T7	ANAT 247 286	sistema renina-angiotensina-aldosterona
-#7	AnnotatorNotes T7	C0086907; Renin-Angiotensin-Aldosterone System; Body System
-T8	ANAT 288 292	SRAA
-#8	AnnotatorNotes T8	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+T7	PHYS 247 286	sistema renina-angiotensina-aldosterona
+#7	AnnotatorNotes T7	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
+T8	PHYS 288 292	SRAA
+#8	AnnotatorNotes T8	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
 T9	DISO 360 371	albuminuria
 #9	AnnotatorNotes T9	C0001925; Albuminuria; Finding
 T10	DISO 685 687	IR
@@ -49,8 +49,8 @@ T25	DISO 1058 1069	albuminuria
 #24	AnnotatorNotes T25	C0001925; Albuminuria; Finding
 T26	PROC 1074 1085	tratamiento
 #25	AnnotatorNotes T26	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
-T27	ANAT 1106 1110	SRAA
-#26	AnnotatorNotes T27	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+T27	PHYS 1106 1110	SRAA
+#26	AnnotatorNotes T27	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
 T28	CHEM 1113 1123	hidroferol
 #27	AnnotatorNotes T28	C1451832; Hidroferol; Organic Chemical · Pharmacologic Substance · Vitamin
 T29	PROC 1498 1502	MDRD
@@ -99,8 +99,8 @@ T50	DISO 2757 2769	albuminurias
 #49	AnnotatorNotes T50	C0001925; Albuminuria; Finding
 T51	PROC 2826 2837	tratamiento
 #50	AnnotatorNotes T51	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
-T52	ANAT 2858 2862	SRAA
-#51	AnnotatorNotes T52	C0086907; Renin-Angiotensin-Aldosterone System; Body System
+T52	PHYS 2858 2862	SRAA
+#51	AnnotatorNotes T52	C1622940; renin-angiotensin regulation of aldosterone production; Physiologic Function
 T53	CHEM 2864 2874	hidroferol
 #52	AnnotatorNotes T53	C1451832; Hidroferol; Organic Chemical · Pharmacologic Substance · Vitamin
 T54	CHEM 2878 2888	calcitriol
@@ -220,12 +220,10 @@ T135	PHYS 3205 3221	metabolismo óseo
 #104	AnnotatorNotes T135	C0596204; bone metabolism; Organ or Tissue Function
 T136	LIVB 3303 3312	pacientes
 #105	AnnotatorNotes T136	C0030705; Patients; Patient or Disabled Group
-T137	PHYS 3337 3346	excreción
-#106	AnnotatorNotes T137	C0221102; Excretory function; Physiologic Function
+T137	PHYS 3337 3358	excreción de albúmina
 T138	LIVB 3403 3412	pacientes
 #107	AnnotatorNotes T138	C0030705; Patients; Patient or Disabled Group
-T139	PHYS 3423 3432	excreción
-#108	AnnotatorNotes T139	C0221102; Excretory function; Physiologic Function
+T139	PHYS 3423 3432;3441 3452	excreción de albúmina
 T141	LIVB 3535 3544	pacientes
 #109	AnnotatorNotes T141	C0030705; Patients; Patient or Disabled Group
 T148	LIVB 4003 4012	pacientes
@@ -385,7 +383,6 @@ R111	Experiences Arg1:T134 Arg2:T165
 R112	Experiences Arg1:T134 Arg2:T62	
 R113	Overlap Arg1:T59 Arg2:T165	
 R114	Experiences Arg1:T136 Arg2:T137	
-R115	Used_for Arg1:T63 Arg2:T137	
 R116	Experiences Arg1:T136 Arg2:T62	
 R117	Experiences Arg1:T136 Arg2:T165	
 R118	Experiences Arg1:T136 Arg2:T60	
@@ -399,7 +396,6 @@ T167	Observation 3363 3369	efecto
 #142	AnnotatorNotes T167	C1518681; Outcome of Therapy; Finding (?)
 R125	Experiences Arg1:T138 Arg2:T167	
 R126	Experiences Arg1:T138 Arg2:T139	
-R127	Used_for Arg1:T64 Arg2:T139	
 R128	Experiences Arg1:T138 Arg2:T116	
 R129	Experiences Arg1:T138 Arg2:T82	
 R130	Before Arg1:T82 Arg2:T116	

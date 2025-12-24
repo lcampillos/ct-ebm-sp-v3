@@ -219,9 +219,9 @@ A25	Status T19 History_of
 R62	Has_Duration_or_Interval Arg1:T19 Arg2:T57	
 R63	Causes Arg1:T68 Arg2:T20	
 R64	Experiences Arg1:T56 Arg2:T20	
-T76	Quantifier_or_Qualifier 1067 1077	sistémicos
-#63	AnnotatorNotes T76	C0205373; Systemic; Functional Concept
-R65	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T76	
+T76	Route 1067 1077	sistémicos
+#63	AnnotatorNotes T76	C5849094; Systemic Route of Administration; Functional Concept
+R65	Has_Route_or_Mode Arg1:T19 Arg2:T76	
 A26	Status T76 History_of
 R66	Experiences Arg1:T58 Arg2:T34	
 R67	Before Arg1:T34 Arg2:T61	
@@ -254,3 +254,6 @@ A41	Experiencer T62 Patient
 A42	Experiencer T63 Patient
 A43	Experiencer T66 Patient
 A44	Experiencer T67 Patient
+T79	ANAT 783 789	venoso
+#68	AnnotatorNotes T79	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R21	Location_of Arg1:T79 Arg2:T40	

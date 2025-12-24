@@ -248,3 +248,7 @@ A18	Experiencer T73 Patient
 R15	Has_Result_or_Value Arg1:T87 Arg2:T86	
 R44	Has_Result_or_Value Arg1:T39 Arg2:T88	
 R75	Has_Result_or_Value Arg1:T84 Arg2:T85	
+T91	Duration 83 88	agudo
+#68	AnnotatorNotes T91	C0439557; Acute phase; Temporal Concept
+R76	Has_Duration_or_Interval Arg1:T4 Arg2:T91	
+T92	Observation 1644 1660	A-VDO2 disminuyó

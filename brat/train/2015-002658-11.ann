@@ -22,8 +22,8 @@ T13	DISO 843 868	trastorno depresivo mayor
 #9	AnnotatorNotes T13	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
 T14	DISO 870 873	TDM
 #10	AnnotatorNotes T14	C1269683; Major Depressive Disorder; Mental or Behavioral Dysfunction
-T15	PROC 895 902	ingreso
-#11	AnnotatorNotes T15	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T15	CONC 895 913	ingreso al estudio
+#11	AnnotatorNotes T15	C1512693; Inclusion; Qualitative Concept
 T16	PROC 931 944	diagnosticado
 #12	AnnotatorNotes T16	C0011900; Diagnosis; Diagnostic Procedure
 T17	PROC 1012 1037	tratamiento a largo plazo

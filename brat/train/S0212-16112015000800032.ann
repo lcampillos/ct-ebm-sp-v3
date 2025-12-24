@@ -180,3 +180,9 @@ A14	Experiencer T45 Other
 A15	Experiencer T47 Patient
 A16	Experiencer T46 Patient
 A17	Experiencer T50 Patient
+T66	Duration 410 416	agudas
+#59	AnnotatorNotes T66	C0205178; acute; Temporal Concept
+R34	Has_Duration_or_Interval Arg1:T6 Arg2:T66	
+T67	Duration 84 90	agudas
+#60	AnnotatorNotes T67	C0205178; acute; Temporal Concept
+R41	Has_Duration_or_Interval Arg1:T1 Arg2:T67	

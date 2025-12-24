@@ -181,3 +181,13 @@ A16	Experiencer T50 Patient
 A17	Experiencer T53 Patient
 A18	Status T25 Future
 A19	Experiencer T55 Other
+T66	Route 58 65	VESICAL
+#54	AnnotatorNotes T66	C0205058; vesical; Spatial Concept
+R17	Has_Route_or_Mode Arg1:T1 Arg2:T66	
+T67	Route 255 262	VESICAL
+#55	AnnotatorNotes T67	C0205058; vesical; Spatial Concept
+R19	Has_Route_or_Mode Arg1:T7 Arg2:T67	
+T68	CONC 105 117	TRANSURETRAL
+#56	AnnotatorNotes T68	C0205497; Transurethral approach; Spatial Concept
+T69	CONC 308 320	TRANSURETRAL
+#57	AnnotatorNotes T69	C0205497; Transurethral approach; Spatial Concept

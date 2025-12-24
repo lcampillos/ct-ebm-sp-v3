@@ -157,3 +157,18 @@ A6	Experiencer T51 Patient
 A7	Experiencer T52 Patient
 A8	Experiencer T60 Patient
 A9	Experiencer T63 Patient
+T64	PROC 325 329	IVAM
+R4	Used_for Arg1:T40 Arg2:T64	
+T65	PROC 663 667	IVAM
+R18	Experiences Arg1:T44 Arg2:T65	
+T66	PROC 833 837	IVAM
+R19	Experiences Arg1:T46 Arg2:T66	
+T67	PROC 1244 1248	IVAM
+R22	Before Arg1:T67 Arg2:T25	
+T68	PROC 1593 1597	IVAM
+R26	Experiences Arg1:T52 Arg2:T68	
+T69	PROC 1330 1334	IVAM
+R33	Experiences Arg1:T50 Arg2:T69	
+T70	PROC 2085 2089	IVAM
+T71	PROC 2004 2008	IVAM
+R39	Used_for Arg1:T14 Arg2:T64	

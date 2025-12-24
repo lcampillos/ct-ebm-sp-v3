@@ -113,3 +113,6 @@ R30	Experiences Arg1:T34 Arg2:T41
 A3	Experiencer T34 Patient
 A4	Experiencer T36 Patient
 A5	Experiencer T29 Patient
+T46	Duration 375 380	agudo
+#37	AnnotatorNotes T46	C0205178; acute; Temporal Concept
+R29	Has_Duration_or_Interval Arg1:T6 Arg2:T46	

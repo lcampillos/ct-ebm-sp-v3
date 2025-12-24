@@ -80,8 +80,8 @@ T44	ANAT 990 998	corporal
 #36	AnnotatorNotes T44	C0460148; Human body structure; Anatomical Structure | C1318419; Entire human body; Anatomical Structure
 T45	ANAT 1109 1117	cardiaco
 #37	AnnotatorNotes T45	C0018787; Heart; Body Part, Organ, or Organ Component | C1281570; Entire heart; Body Part, Organ, or Organ Component
-T46	DISO 1119 1121	IC
-#38	AnnotatorNotes T46	C0542052; Coronary artery insufficiency; Disease or Syndrome
+T46	PROC 1119 1121	IC
+#38	AnnotatorNotes T46	C0428776; Cardiac index; Finding
 T47	ANAT 1258 1266	pulmonar
 #39	AnnotatorNotes T47	C0024109; Lung; Body Part, Organ, or Organ Component | C1278908; Entire lung; Body Part, Organ, or Organ Component
 T48	ANAT 1342 1354	intracraneal
@@ -221,3 +221,6 @@ A9	Status T17 Future
 A10	Status T18 Future
 A11	Status T19 Future
 A12	Experiencer T61 Patient
+T58	Duration 1052 1057	agudo
+#67	AnnotatorNotes T58	C0205178; acute; Temporal Concept
+R7	Has_Duration_or_Interval Arg1:T20 Arg2:T58	

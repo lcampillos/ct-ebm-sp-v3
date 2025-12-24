@@ -109,16 +109,16 @@ R7	Negation Arg1:T42 Arg2:T22
 T54	Quantifier_or_Qualifier 180 188	primaria
 #42	AnnotatorNotes T54	C0205225; Primary; Qualitative Concept
 R9	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T54	
-T55	Quantifier_or_Qualifier 189 194	aguda
-#43	AnnotatorNotes T55	C0439557; Acut phase; Temporal Concept
-R10	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T55	
+T55	Duration 189 194	aguda
+#43	AnnotatorNotes T55	C0205178; acute; Temporal Concept
+R10	Has_Duration_or_Interval Arg1:T5 Arg2:T55	
 R11	Location_of Arg1:T27 Arg2:T6	
-T56	Quantifier_or_Qualifier 304 309	aguda
-#44	AnnotatorNotes T56	C0439557; Acut phase; Temporal Concept
-R12	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T56	
-T57	Quantifier_or_Qualifier 479 484	agudo
-#45	AnnotatorNotes T57	C0439557; Acut phase; Temporal Concept
-R13	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T57	
+T56	Duration 304 309	aguda
+#44	AnnotatorNotes T56	C0205178; acute; Temporal Concept
+R12	Has_Duration_or_Interval Arg1:T7 Arg2:T56	
+T57	Duration 479 484	agudo
+#45	AnnotatorNotes T57	C0205178; acute; Temporal Concept
+R13	Has_Duration_or_Interval Arg1:T9 Arg2:T57	
 T58	Quantifier_or_Qualifier 295 303	primaria
 #46	AnnotatorNotes T58	C0205225; Primary; Qualitative Concept
 R14	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T58	

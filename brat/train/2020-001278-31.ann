@@ -255,3 +255,20 @@ A17	Experiencer T14 Patient
 A18	Experiencer T17 Patient
 A19	Experiencer T18 Patient
 A20	Experiencer T80 Other
+T93	CHEM 962 968	tóxico
+#81	AnnotatorNotes T93	C0032346; Poisons; Hazardous or Poisonous Substance
+T94	Duration 167 172	agudo
+#82	AnnotatorNotes T94	C0205178; acute; Temporal Concept
+R14	Has_Duration_or_Interval Arg1:T27 Arg2:T94	
+T95	Duration 398 403	agudo
+#83	AnnotatorNotes T95	C0205178; acute; Temporal Concept
+R16	Has_Duration_or_Interval Arg1:T32 Arg2:T95	
+T96	Duration 460 465	agudo
+#84	AnnotatorNotes T96	C0205178; acute; Temporal Concept
+R29	Has_Duration_or_Interval Arg1:T33 Arg2:T96	
+T97	Duration 760 765	agudo
+#85	AnnotatorNotes T97	C0205178; acute; Temporal Concept
+R35	Has_Duration_or_Interval Arg1:T66 Arg2:T97	
+T98	Duration 1066 1071	aguda
+#86	AnnotatorNotes T98	C0205178; acute; Temporal Concept
+R46	Has_Duration_or_Interval Arg1:T47 Arg2:T98	

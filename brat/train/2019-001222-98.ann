@@ -252,8 +252,8 @@ T108	Quantifier_or_Qualifier 975 980	local
 #75	AnnotatorNotes T108	C0205276; Local; Spatial Concept
 R40	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T108	
 A32	Status T108 History_of
-T109	Quantifier_or_Qualifier 983 992	sistémico
-#76	AnnotatorNotes T109	C0205373; Systemic; Functional Concept
+T109	Route 983 992	sistémico
+#76	AnnotatorNotes T109	C5849094; Systemic Route of Administration; Functional Concept
 R41	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T109	
 A33	Status T109 History_of
 A34	Assertion T108 Negated
@@ -297,8 +297,8 @@ R68	Location_of Arg1:T51 Arg2:T50
 #83	AnnotatorNotes T50	C4038705; Radiotherapy to thorax; Health Care Activity
 R69	Location_of Arg1:T61 Arg2:T60	
 R70	Location_of Arg1:T48 Arg2:T60	
-T117	Quantifier_or_Qualifier 2187 2196	sistémico
-#84	AnnotatorNotes T117	C0205373; Systemic; Functional Concept
+T117	Route 2187 2196	sistémico
+#84	AnnotatorNotes T117	C5849094; Systemic Route of Administration; Functional Concept
 R71	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T117	
 R73	Has_Dose_or_Strength Arg1:T45 Arg2:T84	
 R74	Has_Frequency Arg1:T45 Arg2:T85	
@@ -351,3 +351,9 @@ A38	Experiencer T76 Other
 A39	Experiencer T65 Patient
 A40	Status T5 Future
 A41	Experiencer T63 Patient
+T112	Route 1625 1634	sistémica
+#96	AnnotatorNotes T112	C5849094; Systemic Route of Administration; Functional Concept
+R51	Has_Route_or_Mode Arg1:T37 Arg2:T112	
+T126	Route 1946 1955	sistémico
+#97	AnnotatorNotes T126	C5849094; Systemic Route of Administration; Functional Concept
+R72	Has_Route_or_Mode Arg1:T44 Arg2:T126	

@@ -225,3 +225,12 @@ A23	Experiencer T50 Patient
 A24	Experiencer T49 Patient
 A25	Experiencer T59 Patient
 A26	Experiencer T69 Patient
+T75	ANAT 1941 1948	venosos
+#61	AnnotatorNotes T75	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R36	Location_of Arg1:T75 Arg2:T63	
+T80	ANAT 1440 1446	venoso
+#62	AnnotatorNotes T80	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R48	Location_of Arg1:T80 Arg2:T55	
+T81	ANAT 1388 1396	urinario
+#63	AnnotatorNotes T81	C1508753; Urinary system; Body System
+R49	Location_of Arg1:T81 Arg2:T54	

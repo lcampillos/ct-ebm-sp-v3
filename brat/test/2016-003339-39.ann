@@ -144,3 +144,9 @@ R34	Location_of Arg1:T37 Arg2:T24
 R35	Location_of Arg1:T37 Arg2:T25	
 R36	Overlap Arg1:T26 Arg2:T45	
 A11	Experiencer T42 Patient
+T53	Duration 909 914	agudo
+#48	AnnotatorNotes T53	C0205178; acute; Temporal Concept
+R37	Has_Duration_or_Interval Arg1:T24 Arg2:T53	
+T54	ANAT 947 962	cerebrovascular
+#49	AnnotatorNotes T54	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R38	Location_of Arg1:T54 Arg2:T26	

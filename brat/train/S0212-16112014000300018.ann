@@ -61,7 +61,7 @@ T31	PROC 1345 1350	dieta
 #30	AnnotatorNotes T31	C1519433; Special Diet Therapy; Therapeutic or Preventive Procedure
 T32	PROC 1525 1539	urea sanguínea
 T33	PROC 1660 1688	concentración sérica de urea
-T34	LIVB 11 30	lactobacillus casei
+T34	CHEM 11 30	lactobacillus casei
 #31	AnnotatorNotes T34	C0022940; Lactobacillus casei; Bacterium
 T35	Duration 92 99	crónica
 #32	AnnotatorNotes T35	C0205191; chronic; Temporal Concept
@@ -75,9 +75,9 @@ T39	LIVB 272 293	bacterias anaeróbicas
 #36	AnnotatorNotes T39	C0004613; Bacteria, Anaerobic; Bacterium
 T40	LIVB 317 329	lactobacilos
 #37	AnnotatorNotes T40	C0022938; Lactobacillus; Bacterium
-T42	LIVB 386 396	probiótico
-#38	AnnotatorNotes T42	C0525033; Probiotics; Bacterium
-T43	LIVB 439 458	lactobacillus casei
+T42	CHEM 386 396	probiótico
+#38	AnnotatorNotes T42	C3485429; Probiotic Formula; Pharmacologic Substance (?)
+T43	CHEM 439 458	lactobacillus casei
 #39	AnnotatorNotes T43	C0022940; Lactobacillus casei; Bacterium
 T44	Date 474 485	actualmente
 T47	LIVB 551 559	paciente
@@ -101,8 +101,8 @@ T62	PHYS 1297 1309	alimentación
 #47	AnnotatorNotes T62	C0013470; Eating; Organism Function | C0015745; Feeding behaviors; Organism Function
 T63	LIVB 299 314	bifídobacterias
 #48	AnnotatorNotes T63	C0005380; Bifidobacterium; Bacterium
-T64	LIVB 369 381	pro-bióticos
-#49	AnnotatorNotes T64	C0525033; Probiotics; Bacterium
+T64	CHEM 369 381	pro-bióticos
+#49	AnnotatorNotes T64	C3485429; Probiotic Formula; Pharmacologic Substance (?)
 T45	Dose 1035 1047	16 x 109 UFC
 T46	Dose 1246 1259	0,8 g/kg/peso
 T54	Dose 1569 1577	16 x 109
@@ -199,3 +199,4 @@ A9	Experiencer T59 Patient
 R36	Has_Result_or_Value Arg1:T27 Arg2:T75	
 R37	Has_Result_or_Value Arg1:T32 Arg2:T74	
 R38	Has_Result_or_Value Arg1:T33 Arg2:T73	
+R39	Experiences Arg1:T47 Arg2:T43	

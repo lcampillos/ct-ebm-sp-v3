@@ -363,3 +363,9 @@ A23	Status T58 Future
 A24	Experiencer T69 Other
 T129	Result_or_Value 1686 1694	negativo
 R45	Has_Result_or_Value Arg1:T26 Arg2:T129	
+T130	Duration 239 244	aguda
+#107	AnnotatorNotes T130	C0205178; acute; Temporal Concept
+R90	Has_Duration_or_Interval Arg1:T5 Arg2:T130	
+T131	Duration 352 358	agudas
+#108	AnnotatorNotes T131	C0205178; acute; Temporal Concept
+R98	Has_Duration_or_Interval Arg1:T7 Arg2:T131	

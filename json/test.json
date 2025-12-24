@@ -1421,10 +1421,10 @@
             },
             {
                 "start": 53,
-                "end": 57,
+                "end": 69,
                 "label": "Route",
                 "entID": "T32",
-                "text": "oral"
+                "text": "oral transmucosa"
             },
             {
                 "start": 73,
@@ -1445,7 +1445,7 @@
             {
                 "em1Text": "fentanilo oral transmucosa",
                 "em1ID": "T7",
-                "em2Text": "oral",
+                "em2Text": "oral transmucosa",
                 "em2ID": "T32",
                 "label": "Has_Route_or_Mode"
             },
@@ -1507,17 +1507,17 @@
             },
             {
                 "start": 175,
-                "end": 179,
+                "end": 191,
                 "label": "Route",
                 "entID": "T33",
-                "text": "oral"
+                "text": "oral transmucosa"
             }
         ],
         "relationMentions": [
             {
                 "em1Text": "citrato de fentanilo oral transmucosa",
                 "em1ID": "T4",
-                "em2Text": "oral",
+                "em2Text": "oral transmucosa",
                 "em2ID": "T33",
                 "label": "Has_Route_or_Mode"
             },
@@ -1531,7 +1531,7 @@
             {
                 "em1Text": "CFOT",
                 "em1ID": "T5",
-                "em2Text": "oral",
+                "em2Text": "oral transmucosa",
                 "em2ID": "T33",
                 "label": "Has_Route_or_Mode"
             },
@@ -3572,6 +3572,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T119",
                 "text": "un episodio"
+            },
+            {
+                "start": 1588,
+                "end": 1593,
+                "label": "Duration",
+                "entID": "T122",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -3588,6 +3595,13 @@
                 "em2Text": "un episodio",
                 "em2ID": "T119",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "rechazo agudo",
+                "em1ID": "T32",
+                "em2Text": "agudo",
+                "em2ID": "T122",
+                "label": "Has_Duration_or_Interval"
             }
         ],
         "sentId": 24
@@ -4487,7 +4501,7 @@
             {
                 "start": 397,
                 "end": 408,
-                "label": "Observation",
+                "label": "Quantifier_or_Qualifier",
                 "entID": "T74",
                 "text": "irresecable"
             }
@@ -9702,6 +9716,13 @@
                 "label": "Observation",
                 "entID": "T56",
                 "text": "Efecto"
+            },
+            {
+                "start": 59,
+                "end": 71,
+                "label": "CONC",
+                "entID": "T69",
+                "text": "transuretral"
             }
         ],
         "relationMentions": [
@@ -9795,6 +9816,13 @@
                 "label": "Observation",
                 "entID": "T57",
                 "text": "efecto"
+            },
+            {
+                "start": 226,
+                "end": 238,
+                "label": "CONC",
+                "entID": "T72",
+                "text": "transuretral"
             }
         ],
         "relationMentions": [
@@ -12229,6 +12257,20 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T91",
                 "text": "significativas"
+            },
+            {
+                "start": 1440,
+                "end": 1446,
+                "label": "ANAT",
+                "entID": "T80",
+                "text": "venoso"
+            },
+            {
+                "start": 1388,
+                "end": 1396,
+                "label": "ANAT",
+                "entID": "T81",
+                "text": "urinario"
             }
         ],
         "relationMentions": [
@@ -12245,6 +12287,20 @@
                 "em2Text": "significativas",
                 "em2ID": "T91",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "venoso",
+                "em1ID": "T80",
+                "em2Text": "catéter venoso central",
+                "em2ID": "T55",
+                "label": "Location_of"
+            },
+            {
+                "em1Text": "urinario",
+                "em1ID": "T81",
+                "em2Text": "catéter urinario",
+                "em2ID": "T54",
+                "label": "Location_of"
             }
         ],
         "sentId": 12
@@ -12482,6 +12538,13 @@
                 "label": "Neg_cue",
                 "entID": "T67",
                 "text": "no"
+            },
+            {
+                "start": 1941,
+                "end": 1948,
+                "label": "ANAT",
+                "entID": "T75",
+                "text": "venosos"
             }
         ],
         "relationMentions": [
@@ -12490,6 +12553,13 @@
                 "em1ID": "T35",
                 "em2Text": "infecciones urinarias",
                 "em2ID": "T29",
+                "label": "Location_of"
+            },
+            {
+                "em1Text": "venosos",
+                "em1ID": "T75",
+                "em2Text": "dispositivos venosos",
+                "em2ID": "T63",
                 "label": "Location_of"
             }
         ],
@@ -13544,17 +13614,10 @@
             },
             {
                 "start": 1903,
-                "end": 1912,
-                "label": "Dose",
-                "entID": "T66",
-                "text": "una dosis"
-            },
-            {
-                "start": 1926,
                 "end": 1935,
                 "label": "Dose",
-                "entID": "T67",
-                "text": "1 mg kg-1"
+                "entID": "T66",
+                "text": "una dosis con carga de 1 mg kg-1"
             },
             {
                 "start": 1937,
@@ -13631,14 +13694,7 @@
             {
                 "em1Text": "esmolol",
                 "em1ID": "T25",
-                "em2Text": "1 mg kg-1",
-                "em2ID": "T67",
-                "label": "Has_Dose_or_Strength"
-            },
-            {
-                "em1Text": "esmolol",
-                "em1ID": "T25",
-                "em2Text": "una dosis",
+                "em2Text": "una dosis con carga de 1 mg kg-1",
                 "em2ID": "T66",
                 "label": "Has_Dose_or_Strength"
             },
@@ -13726,6 +13782,13 @@
                 "label": "DISO",
                 "entID": "T24",
                 "text": "acontecimientos cardiovasculares"
+            },
+            {
+                "start": 149,
+                "end": 154,
+                "label": "Duration",
+                "entID": "T36",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -13735,6 +13798,13 @@
                 "em2Text": "acontecimientos cardiovasculares",
                 "em2ID": "T24",
                 "label": "Location_of"
+            },
+            {
+                "em1Text": "síndrome coronario agudo",
+                "em1ID": "T3",
+                "em2Text": "agudo",
+                "em2ID": "T36",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "coronario",
@@ -13833,6 +13903,13 @@
                 "label": "Observation",
                 "entID": "T33",
                 "text": "efecto"
+            },
+            {
+                "start": 478,
+                "end": 483,
+                "label": "Duration",
+                "entID": "T37",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -13849,6 +13926,13 @@
                 "em2Text": "recientemente",
                 "em2ID": "T27",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "síndrome coronario agudo",
+                "em1ID": "T10",
+                "em2Text": "agudo",
+                "em2ID": "T37",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "coronario",
@@ -13898,9 +13982,23 @@
                 "label": "ANAT",
                 "entID": "T21",
                 "text": "coronario"
+            },
+            {
+                "start": 526,
+                "end": 531,
+                "label": "Duration",
+                "entID": "T39",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "Síndrome coronario agudo",
+                "em1ID": "T11",
+                "em2Text": "agudo",
+                "em2ID": "T39",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "coronario",
                 "em1ID": "T21",
@@ -13956,6 +14054,13 @@
                 "label": "Duration",
                 "entID": "T29",
                 "text": "menos de 52 semanas"
+            },
+            {
+                "start": 632,
+                "end": 637,
+                "label": "Duration",
+                "entID": "T38",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -13979,6 +14084,13 @@
                 "em2Text": "Recientemente",
                 "em2ID": "T28",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "síndrome coronario agudo",
+                "em1ID": "T14",
+                "em2Text": "agudo",
+                "em2ID": "T38",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "coronario",
@@ -14188,6 +14300,13 @@
                 "label": "LIVB",
                 "entID": "T56",
                 "text": "pacientes"
+            },
+            {
+                "start": 134,
+                "end": 139,
+                "label": "Duration",
+                "entID": "T82",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -14197,6 +14316,13 @@
                 "em2Text": "oxígeno suplementario",
                 "em2ID": "T1",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "embolia de pulmón aguda sintomática",
+                "em1ID": "T3",
+                "em2Text": "aguda",
+                "em2ID": "T82",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "pulmón",
@@ -14404,9 +14530,23 @@
                 "label": "ANAT",
                 "entID": "T42",
                 "text": "pulmonar"
+            },
+            {
+                "start": 444,
+                "end": 449,
+                "label": "Duration",
+                "entID": "T83",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "Embolismo pulmonar agudo sintomático",
+                "em1ID": "T9",
+                "em2Text": "agudo",
+                "em2ID": "T83",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "pulmonar",
                 "em1ID": "T42",
@@ -14448,6 +14588,13 @@
                 "label": "Result_or_Value",
                 "entID": "T62",
                 "text": "positiva"
+            },
+            {
+                "start": 495,
+                "end": 500,
+                "label": "Duration",
+                "entID": "T84",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -14457,6 +14604,13 @@
                 "em2Text": "positiva",
                 "em2ID": "T62",
                 "label": "Has_Result_or_Value"
+            },
+            {
+                "em1Text": "TEP aguda sintomática",
+                "em1ID": "T43",
+                "em2Text": "aguda",
+                "em2ID": "T84",
+                "label": "Has_Duration_or_Interval"
             }
         ],
         "sentId": 6
@@ -25055,6 +25209,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T68",
                 "text": "interfascial"
+            },
+            {
+                "start": 245,
+                "end": 257,
+                "label": "CONC",
+                "entID": "T84",
+                "text": "transuretral"
             }
         ],
         "relationMentions": [
@@ -25264,6 +25425,13 @@
                 "label": "Duration",
                 "entID": "T58",
                 "text": "tres meses"
+            },
+            {
+                "start": 543,
+                "end": 555,
+                "label": "CONC",
+                "entID": "T85",
+                "text": "transuretral"
             }
         ],
         "relationMentions": [
@@ -25415,6 +25583,13 @@
                 "label": "ANAT",
                 "entID": "T48",
                 "text": "vesical"
+            },
+            {
+                "start": 796,
+                "end": 808,
+                "label": "CONC",
+                "entID": "T83",
+                "text": "transuretral"
             }
         ],
         "relationMentions": [
@@ -28235,6 +28410,13 @@
                 "label": "Food",
                 "entID": "T51",
                 "text": "Leche"
+            },
+            {
+                "start": 7,
+                "end": 18,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T55",
+                "text": "enriquecida"
             }
         ],
         "relationMentions": [
@@ -28244,6 +28426,13 @@
                 "em2Text": "infancia",
                 "em2ID": "T26",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "Leche",
+                "em1ID": "T51",
+                "em2Text": "enriquecida",
+                "em2ID": "T55",
+                "label": "Has_Quantifier_or_Qualifier"
             }
         ],
         "sentId": 1
@@ -28460,6 +28649,13 @@
                 "label": "Food",
                 "entID": "T50",
                 "text": "leche"
+            },
+            {
+                "start": 637,
+                "end": 648,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T56",
+                "text": "enriquecida"
             }
         ],
         "relationMentions": [
@@ -28483,6 +28679,13 @@
                 "em2Text": "fitoesteroles",
                 "em2ID": "T25",
                 "label": "Experiences"
+            },
+            {
+                "em1Text": "leche",
+                "em1ID": "T50",
+                "em2Text": "enriquecida",
+                "em2ID": "T56",
+                "label": "Has_Quantifier_or_Qualifier"
             }
         ],
         "sentId": 5
@@ -28546,6 +28749,13 @@
                 "label": "Food",
                 "entID": "T52",
                 "text": "leche desnatada"
+            },
+            {
+                "start": 850,
+                "end": 861,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T58",
+                "text": "enriquecida"
             }
         ],
         "relationMentions": [
@@ -28554,6 +28764,13 @@
                 "em1ID": "T35",
                 "em2Text": "enriquecida",
                 "em2ID": "T31",
+                "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "leche desnatada",
+                "em1ID": "T52",
+                "em2Text": "enriquecida",
+                "em2ID": "T58",
                 "label": "Has_Quantifier_or_Qualifier"
             }
         ],
@@ -28633,6 +28850,20 @@
                 "label": "Food",
                 "entID": "T53",
                 "text": "leche desnatada"
+            },
+            {
+                "start": 1065,
+                "end": 1076,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T59",
+                "text": "enriquecida"
+            },
+            {
+                "start": 1125,
+                "end": 1136,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T60",
+                "text": "enriquecida"
             }
         ],
         "relationMentions": [
@@ -28645,10 +28876,24 @@
             },
             {
                 "em1Text": "leche desnatada",
+                "em1ID": "T39",
+                "em2Text": "enriquecida",
+                "em2ID": "T60",
+                "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "leche desnatada",
                 "em1ID": "T53",
                 "em2Text": "ingesta",
                 "em2ID": "T28",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "leche desnatada",
+                "em1ID": "T53",
+                "em2Text": "enriquecida",
+                "em2ID": "T59",
+                "label": "Has_Quantifier_or_Qualifier"
             }
         ],
         "sentId": 10
@@ -28684,6 +28929,13 @@
                 "label": "Observation",
                 "entID": "T57",
                 "text": "efecto"
+            },
+            {
+                "start": 1198,
+                "end": 1209,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T54",
+                "text": "enriquecida"
             }
         ],
         "relationMentions": [
@@ -28693,6 +28945,13 @@
                 "em2Text": "ingesta",
                 "em2ID": "T29",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "leche",
+                "em1ID": "T34",
+                "em2Text": "enriquecida",
+                "em2ID": "T54",
+                "label": "Has_Quantifier_or_Qualifier"
             }
         ],
         "sentId": 11
@@ -28784,6 +29043,13 @@
                 "label": "Food",
                 "entID": "T49",
                 "text": "leche"
+            },
+            {
+                "start": 1312,
+                "end": 1323,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T61",
+                "text": "enriquecida"
             }
         ],
         "relationMentions": [
@@ -28862,6 +29128,13 @@
                 "em1ID": "T49",
                 "em2Text": "estrategia",
                 "em2ID": "T44",
+                "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "leche",
+                "em1ID": "T49",
+                "em2Text": "enriquecida",
+                "em2ID": "T61",
                 "label": "Has_Quantifier_or_Qualifier"
             }
         ],
@@ -32810,6 +33083,13 @@
                 "label": "Duration",
                 "entID": "T74",
                 "text": "crónica"
+            },
+            {
+                "start": 1708,
+                "end": 1713,
+                "label": "Duration",
+                "entID": "T102",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -32818,6 +33098,13 @@
                 "em1ID": "T32",
                 "em2Text": "crónica",
                 "em2ID": "T74",
+                "label": "Has_Duration_or_Interval"
+            },
+            {
+                "em1Text": "pancreatitis aguda idiopática",
+                "em1ID": "T33",
+                "em2Text": "aguda",
+                "em2ID": "T102",
                 "label": "Has_Duration_or_Interval"
             }
         ],
@@ -35916,6 +36203,13 @@
                 "label": "PROC",
                 "entID": "T24",
                 "text": "REPARACIÒN ENDOVASCULAR"
+            },
+            {
+                "start": 57,
+                "end": 69,
+                "label": "CONC",
+                "entID": "T32",
+                "text": "ENDOVASCULAR"
             }
         ],
         "relationMentions": [
@@ -35981,6 +36275,13 @@
                 "label": "PROC",
                 "entID": "T27",
                 "text": "REPARACIÒN ENDOVASCULAR"
+            },
+            {
+                "start": 202,
+                "end": 214,
+                "label": "CONC",
+                "entID": "T33",
+                "text": "ENDOVASCULAR"
             }
         ],
         "relationMentions": [
@@ -36097,6 +36398,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T31",
                 "text": "programada"
+            },
+            {
+                "start": 457,
+                "end": 469,
+                "label": "CONC",
+                "entID": "T34",
+                "text": "endovascular"
             }
         ],
         "relationMentions": [
@@ -36301,9 +36609,16 @@
             {
                 "start": 124,
                 "end": 129,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T64",
                 "text": "Aguda"
+            },
+            {
+                "start": 46,
+                "end": 58,
+                "label": "CONC",
+                "entID": "T84",
+                "text": "Dosificación"
             }
         ],
         "relationMentions": [
@@ -36312,7 +36627,7 @@
                 "em1ID": "T2",
                 "em2Text": "Aguda",
                 "em2ID": "T64",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "Plasmáticos",
@@ -36387,7 +36702,7 @@
             {
                 "start": 306,
                 "end": 311,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T66",
                 "text": "aguda"
             }
@@ -36398,7 +36713,7 @@
                 "em1ID": "T7",
                 "em2Text": "aguda",
                 "em2ID": "T66",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "cardiaca",
@@ -37050,6 +37365,13 @@
                 "label": "Duration",
                 "entID": "T61",
                 "text": "los 30 días previos"
+            },
+            {
+                "start": 1137,
+                "end": 1142,
+                "label": "Duration",
+                "entID": "T83",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -37066,6 +37388,13 @@
                 "em2Text": "los 30 días previos",
                 "em2ID": "T61",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "síndrome coronario agudo",
+                "em1ID": "T26",
+                "em2Text": "agudo",
+                "em2ID": "T83",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "coronario",
@@ -39969,7 +40298,7 @@
             {
                 "start": 20,
                 "end": 31,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T16",
                 "text": "probióticos"
             },
@@ -40002,6 +40331,13 @@
                 "em2Text": "diarrea persistente",
                 "em2ID": "T1",
                 "label": "Experiences"
+            },
+            {
+                "em1Text": "niños",
+                "em1ID": "T17",
+                "em2Text": "probióticos",
+                "em2ID": "T16",
+                "label": "Experiences"
             }
         ],
         "sentId": 1
@@ -40027,14 +40363,14 @@
             {
                 "start": 180,
                 "end": 196,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T19",
                 "text": "Lactobacillus sp"
             },
             {
                 "start": 199,
                 "end": 222,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T20",
                 "text": "Saccharomyces boulardii"
             },
@@ -40105,14 +40441,14 @@
             {
                 "start": 372,
                 "end": 391,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T23",
                 "text": "Lactobacillus casei"
             },
             {
                 "start": 394,
                 "end": 420,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T24",
                 "text": "Lactobacillus acidophillus"
             },
@@ -40126,7 +40462,7 @@
             {
                 "start": 539,
                 "end": 551,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T26",
                 "text": "S. boulardii"
             },
@@ -40427,14 +40763,14 @@
             {
                 "start": 849,
                 "end": 865,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T33",
                 "text": "Lactobacillus sp"
             },
             {
                 "start": 868,
                 "end": 880,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T34",
                 "text": "S. boulardii"
             },
@@ -40598,7 +40934,7 @@
             {
                 "start": 1273,
                 "end": 1285,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T40",
                 "text": "S. boulardii"
             },
@@ -40612,14 +40948,14 @@
             {
                 "start": 1227,
                 "end": 1242,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T18",
                 "text": "L. acidophillus"
             },
             {
                 "start": 1216,
                 "end": 1224,
-                "label": "LIVB",
+                "label": "CHEM",
                 "entID": "T35",
                 "text": "L. casei"
             }
@@ -40635,15 +40971,15 @@
             {
                 "em1Text": "niños",
                 "em1ID": "T41",
-                "em2Text": "tratamiento",
-                "em2ID": "T13",
+                "em2Text": "diarrea persistente",
+                "em2ID": "T14",
                 "label": "Experiences"
             },
             {
                 "em1Text": "niños",
                 "em1ID": "T41",
-                "em2Text": "diarrea persistente",
-                "em2ID": "T14",
+                "em2Text": "tratamiento",
+                "em2ID": "T13",
                 "label": "Experiences"
             },
             {
@@ -43420,6 +43756,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T51",
                 "text": "grave"
+            },
+            {
+                "start": 86,
+                "end": 91,
+                "label": "Duration",
+                "entID": "T76",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -43443,6 +43786,13 @@
                 "em2Text": "grave",
                 "em2ID": "T51",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "pancreatitis aguda",
+                "em1ID": "T3",
+                "em2Text": "aguda",
+                "em2ID": "T76",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "pacientes",
@@ -43583,6 +43933,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T64",
                 "text": "precoz"
+            },
+            {
+                "start": 261,
+                "end": 266,
+                "label": "Duration",
+                "entID": "T75",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -43648,6 +44005,13 @@
                 "em2Text": "grave",
                 "em2ID": "T62",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "pancreatitis aguda",
+                "em1ID": "T8",
+                "em2Text": "aguda",
+                "em2ID": "T75",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "pacientes",
@@ -50311,6 +50675,13 @@
                 "label": "PHYS",
                 "entID": "T51",
                 "text": "respiratorios"
+            },
+            {
+                "start": 113,
+                "end": 119,
+                "label": "Duration",
+                "entID": "T58",
+                "text": "agudos"
             }
         ],
         "relationMentions": [
@@ -50320,6 +50691,13 @@
                 "em2Text": "profilaxis",
                 "em2ID": "T3",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "problemas respiratorios agudos",
+                "em1ID": "T4",
+                "em2Text": "agudos",
+                "em2ID": "T58",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "pacientes",
@@ -50404,6 +50782,13 @@
                 "label": "PHYS",
                 "entID": "T52",
                 "text": "respiratorio"
+            },
+            {
+                "start": 252,
+                "end": 257,
+                "label": "Duration",
+                "entID": "T59",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -50413,6 +50798,13 @@
                 "em2Text": "profilaxis",
                 "em2ID": "T6",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "síndrome de distres respiratorio agudo",
+                "em1ID": "T26",
+                "em2Text": "agudo",
+                "em2ID": "T59",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "pacientes",
@@ -51330,6 +51722,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T53",
                 "text": "grave"
+            },
+            {
+                "start": 411,
+                "end": 416,
+                "label": "Duration",
+                "entID": "T76",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -51339,6 +51738,13 @@
                 "em2Text": "grave",
                 "em2ID": "T53",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "sangrado agudo",
+                "em1ID": "T10",
+                "em2Text": "agudo",
+                "em2ID": "T76",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "hepático",
@@ -51514,6 +51920,13 @@
                 "label": "DISO",
                 "entID": "T67",
                 "text": "alteración del fibrinógeno"
+            },
+            {
+                "start": 649,
+                "end": 654,
+                "label": "Duration",
+                "entID": "T77",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -51530,6 +51943,13 @@
                 "em2Text": "grave",
                 "em2ID": "T58",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "sangrado agudo",
+                "em1ID": "T16",
+                "em2Text": "agudo",
+                "em2ID": "T77",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "paciente",
@@ -52014,9 +52434,37 @@
                 "label": "ANAT",
                 "entID": "T42",
                 "text": "hepática"
+            },
+            {
+                "start": 1613,
+                "end": 1618,
+                "label": "Duration",
+                "entID": "T78",
+                "text": "aguda"
+            },
+            {
+                "start": 1619,
+                "end": 1627,
+                "label": "Duration",
+                "entID": "T79",
+                "text": "subaguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "Insuficiencia hepática aguda/subaguda",
+                "em1ID": "T30",
+                "em2Text": "aguda",
+                "em2ID": "T78",
+                "label": "Has_Duration_or_Interval"
+            },
+            {
+                "em1Text": "Insuficiencia hepática aguda/subaguda",
+                "em1ID": "T30",
+                "em2Text": "subaguda",
+                "em2ID": "T79",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "hepática",
                 "em1ID": "T42",
@@ -52639,6 +53087,20 @@
                 "label": "Result_or_Value",
                 "entID": "T55",
                 "text": "≥4 mg/dl"
+            },
+            {
+                "start": 755,
+                "end": 760,
+                "label": "Duration",
+                "entID": "T56",
+                "text": "aguda"
+            },
+            {
+                "start": 458,
+                "end": 463,
+                "label": "Duration",
+                "entID": "T57",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -52678,6 +53140,13 @@
                 "label": "Location_of"
             },
             {
+                "em1Text": "colangitis aguda",
+                "em1ID": "T12",
+                "em2Text": "aguda",
+                "em2ID": "T57",
+                "label": "Has_Duration_or_Interval"
+            },
+            {
                 "em1Text": "cirrosis",
                 "em1ID": "T13",
                 "em2Text": "avanzada",
@@ -52711,6 +53180,13 @@
                 "em2Text": "infección de piel y partes blandas",
                 "em2ID": "T29",
                 "label": "Location_of"
+            },
+            {
+                "em1Text": "colangitis aguda",
+                "em1ID": "T18",
+                "em2Text": "aguda",
+                "em2ID": "T56",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "creatinina",
@@ -54447,6 +54923,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T50",
                 "text": "locales"
+            },
+            {
+                "start": 755,
+                "end": 761,
+                "label": "Duration",
+                "entID": "T53",
+                "text": "agudas"
             }
         ],
         "relationMentions": [
@@ -54456,6 +54939,13 @@
                 "em2Text": "locales",
                 "em2ID": "T50",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "Enfermedades inflamatorias agudas",
+                "em1ID": "T12",
+                "em2Text": "agudas",
+                "em2ID": "T53",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "Pélvica",
@@ -54591,6 +55081,13 @@
                 "label": "CONC",
                 "entID": "T43",
                 "text": "interferir"
+            },
+            {
+                "start": 929,
+                "end": 935,
+                "label": "Duration",
+                "entID": "T52",
+                "text": "agudas"
             }
         ],
         "relationMentions": [
@@ -54599,6 +55096,13 @@
                 "em1ID": "T16",
                 "em2Text": "crónicas",
                 "em2ID": "T42",
+                "label": "Has_Duration_or_Interval"
+            },
+            {
+                "em1Text": "enfermedades agudas o crónicas",
+                "em1ID": "T16",
+                "em2Text": "agudas",
+                "em2ID": "T52",
                 "label": "Has_Duration_or_Interval"
             },
             {
@@ -54764,6 +55268,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T84",
                 "text": "alogénicas"
+            },
+            {
+                "start": 226,
+                "end": 231,
+                "label": "Duration",
+                "entID": "T102",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -54773,6 +55284,13 @@
                 "em2Text": "alogénicas",
                 "em2ID": "T84",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "síndrome de distrés respiratorio agudo",
+                "em1ID": "T5",
+                "em2Text": "agudo",
+                "em2ID": "T102",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "pacientes",
@@ -54822,9 +55340,24 @@
                 "label": "PHYS",
                 "entID": "T88",
                 "text": "respiratorio"
+            },
+            {
+                "start": 306,
+                "end": 311,
+                "label": "Duration",
+                "entID": "T103",
+                "text": "agudo"
             }
         ],
-        "relationMentions": [],
+        "relationMentions": [
+            {
+                "em1Text": "Síndrome de distrés respiratorio agudo",
+                "em1ID": "T6",
+                "em2Text": "agudo",
+                "em2ID": "T103",
+                "label": "Has_Duration_or_Interval"
+            }
+        ],
         "sentId": 2
     },
     {
@@ -60262,9 +60795,23 @@
                 "label": "LIVB",
                 "entID": "T40",
                 "text": "lactantes"
+            },
+            {
+                "start": 91,
+                "end": 96,
+                "label": "Duration",
+                "entID": "T73",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "bronquiolitis aguda",
+                "em1ID": "T4",
+                "em2Text": "aguda",
+                "em2ID": "T73",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "solución salina hipertónica",
                 "em1ID": "T27",
@@ -60355,9 +60902,30 @@
                 "label": "LIVB",
                 "entID": "T41",
                 "text": "lactantes"
+            },
+            {
+                "start": 243,
+                "end": 248,
+                "label": "Duration",
+                "entID": "T69",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "bronquiolitis aguda",
+                "em1ID": "T7",
+                "em2Text": "aguda",
+                "em2ID": "T69",
+                "label": "Has_Duration_or_Interval"
+            },
+            {
+                "em1Text": "BA",
+                "em1ID": "T8",
+                "em2Text": "aguda",
+                "em2ID": "T69",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "vías aéreas",
                 "em1ID": "T10",
@@ -60583,9 +61151,23 @@
                 "label": "Observation",
                 "entID": "T67",
                 "text": "mejoría"
+            },
+            {
+                "start": 448,
+                "end": 453,
+                "label": "Duration",
+                "entID": "T74",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "bronquiolitis aguda",
+                "em1ID": "T14",
+                "em2Text": "aguda",
+                "em2ID": "T74",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "lactantes",
                 "em1ID": "T45",
@@ -61122,6 +61704,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T72",
                 "text": "moderadamente severos"
+            },
+            {
+                "start": 1549,
+                "end": 1554,
+                "label": "Duration",
+                "entID": "T75",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -61145,6 +61734,13 @@
                 "em2Text": "solución",
                 "em2ID": "T60",
                 "label": "Has_Drug_Form"
+            },
+            {
+                "em1Text": "bronquiolitis aguda",
+                "em1ID": "T26",
+                "em2Text": "aguda",
+                "em2ID": "T75",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "solución salina",
@@ -78187,6 +78783,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T102",
                 "text": "activa"
+            },
+            {
+                "start": 1622,
+                "end": 1643,
+                "label": "ANAT",
+                "entID": "T107",
+                "text": "intra o extrahepática"
             }
         ],
         "relationMentions": [
@@ -78196,6 +78799,13 @@
                 "em2Text": "activa",
                 "em2ID": "T102",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "intra o extrahepática",
+                "em1ID": "T107",
+                "em2Text": "Neoplasia intra o extrahepática",
+                "em2ID": "T44",
+                "label": "Location_of"
             }
         ],
         "sentId": 29
@@ -79698,6 +80308,20 @@
                 "label": "Observation",
                 "entID": "T69",
                 "text": "Estabilidad clínica"
+            },
+            {
+                "start": 770,
+                "end": 776,
+                "label": "Duration",
+                "entID": "T70",
+                "text": "agudas"
+            },
+            {
+                "start": 798,
+                "end": 803,
+                "label": "Duration",
+                "entID": "T71",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -79709,11 +80333,25 @@
                 "label": "Has_Time_Data"
             },
             {
+                "em1Text": "infecciones agudas",
+                "em1ID": "T10",
+                "em2Text": "agudas",
+                "em2ID": "T70",
+                "label": "Has_Duration_or_Interval"
+            },
+            {
                 "em1Text": "insuficiencia renal aguda",
                 "em1ID": "T11",
                 "em2Text": "el último mes",
                 "em2ID": "T49",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "insuficiencia renal aguda",
+                "em1ID": "T11",
+                "em2Text": "aguda",
+                "em2ID": "T71",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "enfermedad cardiovascular",
@@ -80968,9 +81606,24 @@
                 "label": "PROC",
                 "entID": "T31",
                 "text": "OCT"
+            },
+            {
+                "start": 27,
+                "end": 33,
+                "label": "Duration",
+                "entID": "T56",
+                "text": "agudas"
             }
         ],
-        "relationMentions": [],
+        "relationMentions": [
+            {
+                "em1Text": "uveítis anteriores agudas",
+                "em1ID": "T1",
+                "em2Text": "agudas",
+                "em2ID": "T56",
+                "label": "Has_Duration_or_Interval"
+            }
+        ],
         "sentId": 1
     },
     {
@@ -81046,6 +81699,13 @@
                 "label": "Observation",
                 "entID": "T48",
                 "text": "grosor macular"
+            },
+            {
+                "start": 201,
+                "end": 206,
+                "label": "Duration",
+                "entID": "T55",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -81055,6 +81715,20 @@
                 "em2Text": "grosor macular",
                 "em2ID": "T48",
                 "label": "Location_of"
+            },
+            {
+                "em1Text": "uveítis anterior aguda",
+                "em1ID": "T8",
+                "em2Text": "aguda",
+                "em2ID": "T55",
+                "label": "Has_Duration_or_Interval"
+            },
+            {
+                "em1Text": "UAA",
+                "em1ID": "T29",
+                "em2Text": "aguda",
+                "em2ID": "T55",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "pacientes",
@@ -81157,7 +81831,7 @@
             {
                 "start": 399,
                 "end": 404,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T52",
                 "text": "agudo"
             }
@@ -81224,7 +81898,7 @@
                 "em1ID": "T47",
                 "em2Text": "agudo",
                 "em2ID": "T52",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             }
         ],
         "sentId": 4
@@ -81583,7 +82257,7 @@
             {
                 "start": 1435,
                 "end": 1440,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T51",
                 "text": "agudo"
             }
@@ -81622,7 +82296,7 @@
                 "em1ID": "T50",
                 "em2Text": "agudo",
                 "em2ID": "T51",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             }
         ],
         "sentId": 13
@@ -81641,7 +82315,7 @@
             {
                 "start": 82,
                 "end": 86,
-                "label": "ANAT",
+                "label": "PHYS",
                 "entID": "T2",
                 "text": "SRAA"
             },
@@ -81655,7 +82329,7 @@
             {
                 "start": 41,
                 "end": 80,
-                "label": "ANAT",
+                "label": "PHYS",
                 "entID": "T54",
                 "text": "sistema renina-angiotensina-aldosterona"
             },
@@ -81827,14 +82501,14 @@
             {
                 "start": 358,
                 "end": 397,
-                "label": "ANAT",
+                "label": "PHYS",
                 "entID": "T9",
                 "text": "sistema renina-angiotensina-aldosterona"
             },
             {
                 "start": 399,
                 "end": 403,
-                "label": "ANAT",
+                "label": "PHYS",
                 "entID": "T10",
                 "text": "SRAA"
             },
@@ -81886,30 +82560,9 @@
                 "label": "Observation",
                 "entID": "T100",
                 "text": "aumento de los niveles de aldosterona"
-            },
-            {
-                "start": 344,
-                "end": 404,
-                "label": "PHYS",
-                "entID": "T101",
-                "text": "actividad del sistema renina-angiotensina-aldosterona (SRAA)"
             }
         ],
         "relationMentions": [
-            {
-                "em1Text": "sistema renina-angiotensina-aldosterona",
-                "em1ID": "T9",
-                "em2Text": "actividad del sistema renina-angiotensina-aldosterona (SRAA)",
-                "em2ID": "T101",
-                "label": "Location_of"
-            },
-            {
-                "em1Text": "SRAA",
-                "em1ID": "T10",
-                "em2Text": "actividad del sistema renina-angiotensina-aldosterona (SRAA)",
-                "em2ID": "T101",
-                "label": "Location_of"
-            },
             {
                 "em1Text": "pacientes",
                 "em1ID": "T74",
@@ -81927,8 +82580,15 @@
             {
                 "em1Text": "pacientes",
                 "em1ID": "T74",
-                "em2Text": "actividad del sistema renina-angiotensina-aldosterona (SRAA)",
-                "em2ID": "T101",
+                "em2Text": "sistema renina-angiotensina-aldosterona",
+                "em2ID": "T9",
+                "label": "Experiences"
+            },
+            {
+                "em1Text": "pacientes",
+                "em1ID": "T74",
+                "em2Text": "SRAA",
+                "em2ID": "T10",
                 "label": "Experiences"
             }
         ],
@@ -83989,6 +84649,13 @@
                 "label": "PHYS",
                 "entID": "T82",
                 "text": "respiratorio"
+            },
+            {
+                "start": 255,
+                "end": 260,
+                "label": "Duration",
+                "entID": "T100",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -84005,6 +84672,13 @@
                 "em2Text": "tratamiento",
                 "em2ID": "T6",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "síndrome de distres respiratorio agudo",
+                "em1ID": "T44",
+                "em2Text": "agudo",
+                "em2ID": "T100",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "pacientes",
@@ -84068,9 +84742,23 @@
                 "label": "PHYS",
                 "entID": "T83",
                 "text": "respiratorios"
+            },
+            {
+                "start": 334,
+                "end": 340,
+                "label": "Duration",
+                "entID": "T98",
+                "text": "agudos"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "Problemas respiratorios agudos",
+                "em1ID": "T7",
+                "em2Text": "agudos",
+                "em2ID": "T98",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "pacientes",
                 "em1ID": "T68",
@@ -84126,9 +84814,23 @@
                 "label": "PHYS",
                 "entID": "T84",
                 "text": "respiratorio"
+            },
+            {
+                "start": 426,
+                "end": 431,
+                "label": "Duration",
+                "entID": "T99",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "Síndrome de distres respiratorio agudo",
+                "em1ID": "T9",
+                "em2Text": "agudo",
+                "em2ID": "T99",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "pacientes",
                 "em1ID": "T69",
@@ -85664,9 +86366,24 @@
                 "label": "Neg_cue",
                 "entID": "T45",
                 "text": "No"
+            },
+            {
+                "start": 751,
+                "end": 760,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T53",
+                "text": "sistémica"
             }
         ],
-        "relationMentions": [],
+        "relationMentions": [
+            {
+                "em1Text": "patología sistémica",
+                "em1ID": "T25",
+                "em2Text": "sistémica",
+                "em2ID": "T53",
+                "label": "Has_Quantifier_or_Qualifier"
+            }
+        ],
         "sentId": 15
     },
     {
@@ -85982,6 +86699,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T27",
                 "text": "normales"
+            },
+            {
+                "start": 124,
+                "end": 135,
+                "label": "ANAT",
+                "entID": "T39",
+                "text": "intraocular"
             }
         ],
         "relationMentions": [
@@ -86019,6 +86743,20 @@
                 "em2Text": "medición de presión intraocular",
                 "em2ID": "T6",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "intraocular",
+                "em1ID": "T39",
+                "em2Text": "presión intraocular",
+                "em2ID": "T15",
+                "label": "Location_of"
+            },
+            {
+                "em1Text": "intraocular",
+                "em1ID": "T39",
+                "em2Text": "medición de presión intraocular",
+                "em2ID": "T6",
+                "label": "Location_of"
             }
         ],
         "sentId": 2
@@ -86156,6 +86894,13 @@
                 "label": "DEVI",
                 "entID": "T21",
                 "text": "tonómetros"
+            },
+            {
+                "start": 511,
+                "end": 522,
+                "label": "ANAT",
+                "entID": "T38",
+                "text": "intraocular"
             }
         ],
         "relationMentions": [
@@ -86165,6 +86910,20 @@
                 "em2Text": "medición de la presión intraocular",
                 "em2ID": "T7",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "intraocular",
+                "em1ID": "T38",
+                "em2Text": "presión intraocular",
+                "em2ID": "T20",
+                "label": "Location_of"
+            },
+            {
+                "em1Text": "intraocular",
+                "em1ID": "T38",
+                "em2Text": "medición de la presión intraocular",
+                "em2ID": "T7",
+                "label": "Location_of"
             }
         ],
         "sentId": 7
@@ -86324,6 +87083,13 @@
                 "label": "DEVI",
                 "entID": "T32",
                 "text": "tonómetro"
+            },
+            {
+                "start": 1252,
+                "end": 1263,
+                "label": "ANAT",
+                "entID": "T40",
+                "text": "intraocular"
             }
         ],
         "relationMentions": [
@@ -86333,6 +87099,13 @@
                 "em2Text": "presión intraocular",
                 "em2ID": "T9",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "intraocular",
+                "em1ID": "T40",
+                "em2Text": "presión intraocular",
+                "em2ID": "T9",
+                "label": "Location_of"
             }
         ],
         "sentId": 13
@@ -88270,7 +89043,7 @@
             {
                 "start": 763,
                 "end": 772,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Route",
                 "entID": "T101",
                 "text": "sistémica"
             }
@@ -88302,7 +89075,7 @@
                 "em1ID": "T13",
                 "em2Text": "sistémica",
                 "em2ID": "T101",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Route_or_Mode"
             },
             {
                 "em1Text": "polisulfona",
@@ -91410,9 +92183,24 @@
                 "label": "Neg_cue",
                 "entID": "T44",
                 "text": "Sin"
+            },
+            {
+                "start": 523,
+                "end": 535,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T81",
+                "text": "sintomáticas"
             }
         ],
-        "relationMentions": [],
+        "relationMentions": [
+            {
+                "em1Text": "ITUs sintomáticas",
+                "em1ID": "T36",
+                "em2Text": "sintomáticas",
+                "em2ID": "T81",
+                "label": "Has_Quantifier_or_Qualifier"
+            }
+        ],
         "sentId": 8
     },
     {
@@ -94239,6 +95027,13 @@
                 "label": "PROC",
                 "entID": "T85",
                 "text": "selección"
+            },
+            {
+                "start": 1358,
+                "end": 1368,
+                "label": "CONC",
+                "entID": "T88",
+                "text": "percutánea"
             }
         ],
         "relationMentions": [
@@ -99636,6 +100431,13 @@
                 "label": "DEVI",
                 "entID": "T36",
                 "text": "válvula"
+            },
+            {
+                "start": 314,
+                "end": 324,
+                "label": "CONC",
+                "entID": "T48",
+                "text": "percutáneo"
             }
         ],
         "relationMentions": [
@@ -99750,6 +100552,13 @@
                 "label": "Observation",
                 "entID": "T13",
                 "text": "riesgo para la salud"
+            },
+            {
+                "start": 453,
+                "end": 468,
+                "label": "ANAT",
+                "entID": "T47",
+                "text": "cerebrovascular"
             }
         ],
         "relationMentions": [
@@ -99765,6 +100574,13 @@
                 "em1ID": "T29",
                 "em2Text": "infarto de miocardio",
                 "em2ID": "T14",
+                "label": "Location_of"
+            },
+            {
+                "em1Text": "cerebrovascular",
+                "em1ID": "T47",
+                "em2Text": "accidente cerebrovascular isquémico",
+                "em2ID": "T15",
                 "label": "Location_of"
             }
         ],
@@ -104184,9 +105000,23 @@
                 "label": "Neg_cue",
                 "entID": "T71",
                 "text": "omitir"
+            },
+            {
+                "start": 135,
+                "end": 140,
+                "label": "Duration",
+                "entID": "T76",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "leucemia linfoblástica aguda",
+                "em1ID": "T2",
+                "em2Text": "aguda",
+                "em2ID": "T76",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "linfoblástica",
                 "em1ID": "T28",
@@ -104314,9 +105144,23 @@
                 "label": "ANAT",
                 "entID": "T30",
                 "text": "Linfoblástica"
+            },
+            {
+                "start": 309,
+                "end": 314,
+                "label": "Duration",
+                "entID": "T77",
+                "text": "Aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "Leucemia Linfoblástica Aguda",
+                "em1ID": "T6",
+                "em2Text": "Aguda",
+                "em2ID": "T77",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "Linfoblástica",
                 "em1ID": "T30",
@@ -105171,7 +106015,7 @@
             {
                 "start": 340,
                 "end": 345,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T83",
                 "text": "aguda"
             },
@@ -105217,7 +106061,7 @@
                 "em1ID": "T9",
                 "em2Text": "aguda",
                 "em2ID": "T83",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "polioles",
@@ -105432,7 +106276,7 @@
             {
                 "start": 704,
                 "end": 709,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T84",
                 "text": "aguda"
             },
@@ -105453,7 +106297,7 @@
             {
                 "start": 788,
                 "end": 793,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T90",
                 "text": "aguda"
             }
@@ -105485,7 +106329,7 @@
                 "em1ID": "T16",
                 "em2Text": "aguda",
                 "em2ID": "T84",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "toxicidad gastrointestinal",
@@ -105506,7 +106350,7 @@
                 "em1ID": "T17",
                 "em2Text": "aguda",
                 "em2ID": "T90",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "oligosacáridos",
@@ -110410,7 +111254,7 @@
             {
                 "start": 1696,
                 "end": 1701,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T86",
                 "text": "aguda"
             },
@@ -110428,7 +111272,7 @@
                 "em1ID": "T28",
                 "em2Text": "aguda",
                 "em2ID": "T86",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "hipertensión arterial",
@@ -110549,6 +111393,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T118",
                 "text": "tunelizados"
+            },
+            {
+                "start": 26,
+                "end": 39,
+                "label": "CONC",
+                "entID": "T127",
+                "text": "transtorácico"
             }
         ],
         "relationMentions": [
@@ -110679,6 +111530,13 @@
                 "label": "DEVI",
                 "entID": "T69",
                 "text": "catéteres"
+            },
+            {
+                "start": 327,
+                "end": 341,
+                "label": "CONC",
+                "entID": "T132",
+                "text": "transesofágica"
             }
         ],
         "relationMentions": [],
@@ -110722,6 +111580,13 @@
                 "label": "PROC",
                 "entID": "T102",
                 "text": "estudiado"
+            },
+            {
+                "start": 396,
+                "end": 409,
+                "label": "CONC",
+                "entID": "T128",
+                "text": "transtorácica"
             }
         ],
         "relationMentions": [
@@ -111037,6 +111902,20 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T117",
                 "text": "tunelizado"
+            },
+            {
+                "start": 1182,
+                "end": 1188,
+                "label": "ANAT",
+                "entID": "T126",
+                "text": "venoso"
+            },
+            {
+                "start": 1073,
+                "end": 1086,
+                "label": "CONC",
+                "entID": "T129",
+                "text": "transtorácica"
             }
         ],
         "relationMentions": [
@@ -111095,6 +111974,13 @@
                 "em2Text": "tunelizado",
                 "em2ID": "T117",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "venoso",
+                "em1ID": "T126",
+                "em2Text": "catéter venoso",
+                "em2ID": "T80",
+                "label": "Location_of"
             }
         ],
         "sentId": 9
@@ -111402,6 +112288,13 @@
                 "label": "PROC",
                 "entID": "T33",
                 "text": "ecocardiograma transtorácico"
+            },
+            {
+                "start": 1720,
+                "end": 1733,
+                "label": "CONC",
+                "entID": "T130",
+                "text": "transtorácico"
             }
         ],
         "relationMentions": [],
@@ -111645,6 +112538,13 @@
                 "label": "Observation",
                 "entID": "T123",
                 "text": "hallazgo"
+            },
+            {
+                "start": 2389,
+                "end": 2403,
+                "label": "CONC",
+                "entID": "T133",
+                "text": "transesofágico"
             }
         ],
         "relationMentions": [
@@ -111857,6 +112757,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T125",
                 "text": "bajo coste"
+            },
+            {
+                "start": 2696,
+                "end": 2709,
+                "label": "CONC",
+                "entID": "T131",
+                "text": "transtorácica"
             }
         ],
         "relationMentions": [
@@ -113361,6 +114268,13 @@
                 "label": "PHYS",
                 "entID": "T33",
                 "text": "respiratorio"
+            },
+            {
+                "start": 225,
+                "end": 230,
+                "label": "Duration",
+                "entID": "T36",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -113377,6 +114291,13 @@
                 "em2Text": "Prevención",
                 "em2ID": "T4",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "síndrome respiratorio agudo (SARS) inducido por Coronavirus",
+                "em1ID": "T6",
+                "em2Text": "agudo",
+                "em2ID": "T36",
+                "label": "Has_Duration_or_Interval"
             }
         ],
         "sentId": 2
@@ -113484,9 +114405,23 @@
                 "label": "PHYS",
                 "entID": "T34",
                 "text": "respiratorio"
+            },
+            {
+                "start": 398,
+                "end": 403,
+                "label": "Duration",
+                "entID": "T37",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "Síndrome respiratorio agudo severo",
+                "em1ID": "T10",
+                "em2Text": "agudo",
+                "em2ID": "T37",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "pacientes",
                 "em1ID": "T29",
@@ -117871,7 +118806,7 @@
             {
                 "start": 1914,
                 "end": 1925,
-                "label": "Observation",
+                "label": "Quantifier_or_Qualifier",
                 "entID": "T98",
                 "text": "irresecable"
             }
@@ -121357,9 +122292,23 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T82",
                 "text": "triple"
+            },
+            {
+                "start": 74,
+                "end": 79,
+                "label": "Duration",
+                "entID": "T102",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "síndrome coronario agudo sin elevación persistente del segmento ST",
+                "em1ID": "T1",
+                "em2Text": "agudo",
+                "em2ID": "T102",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "antiagregación",
                 "em1ID": "T19",
@@ -121534,6 +122483,13 @@
                 "label": "Observation",
                 "entID": "T83",
                 "text": "alto riesgo"
+            },
+            {
+                "start": 360,
+                "end": 365,
+                "label": "Duration",
+                "entID": "T103",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -121543,6 +122499,13 @@
                 "em2Text": "alto riesgo",
                 "em2ID": "T83",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "síndrome coronario agudo sin elevación persistente del segmento ST",
+                "em1ID": "T7",
+                "em2Text": "agudo",
+                "em2ID": "T103",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "clopidogrel",
@@ -123272,7 +124235,7 @@
             {
                 "start": 1229,
                 "end": 1234,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T74",
                 "text": "aguda"
             }
@@ -123311,7 +124274,7 @@
                 "em1ID": "T39",
                 "em2Text": "aguda",
                 "em2ID": "T74",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             }
         ],
         "sentId": 11
@@ -125477,9 +126440,24 @@
                 "label": "DISO",
                 "entID": "T27",
                 "text": "síndromes mascarada"
+            },
+            {
+                "start": 1340,
+                "end": 1350,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T104",
+                "text": "infecciosa"
             }
         ],
-        "relationMentions": [],
+        "relationMentions": [
+            {
+                "em1Text": "Uveítis infecciosa",
+                "em1ID": "T26",
+                "em2Text": "infecciosa",
+                "em2ID": "T104",
+                "label": "Has_Quantifier_or_Qualifier"
+            }
+        ],
         "sentId": 14
     },
     {
@@ -131379,6 +132357,13 @@
                 "label": "Date",
                 "entID": "T73",
                 "text": "pre y posoperatorios"
+            },
+            {
+                "start": 1237,
+                "end": 1250,
+                "label": "CHEM",
+                "entID": "T89",
+                "text": "biomarcadores"
             }
         ],
         "relationMentions": [
@@ -131829,6 +132814,20 @@
                 "label": "LIVB",
                 "entID": "T88",
                 "text": "pacientes"
+            },
+            {
+                "start": 2260,
+                "end": 2300,
+                "label": "Observation",
+                "entID": "T87",
+                "text": "elevación de biomarcadores inflamatorios"
+            },
+            {
+                "start": 2273,
+                "end": 2286,
+                "label": "CHEM",
+                "entID": "T94",
+                "text": "biomarcadores"
             }
         ],
         "relationMentions": [
@@ -131900,6 +132899,13 @@
                 "em1ID": "T88",
                 "em2Text": "administración",
                 "em2ID": "T38",
+                "label": "Experiences"
+            },
+            {
+                "em1Text": "pacientes",
+                "em1ID": "T88",
+                "em2Text": "elevación de biomarcadores inflamatorios",
+                "em2ID": "T87",
                 "label": "Experiences"
             }
         ],
@@ -134929,9 +135935,23 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T57",
                 "text": "continua"
+            },
+            {
+                "start": 85,
+                "end": 90,
+                "label": "Duration",
+                "entID": "T58",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "diarrea aguda",
+                "em1ID": "T3",
+                "em2Text": "aguda",
+                "em2ID": "T58",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "Hidratación oral",
                 "em1ID": "T24",
@@ -135152,9 +136172,23 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T49",
                 "text": "ad libitum"
+            },
+            {
+                "start": 400,
+                "end": 405,
+                "label": "Duration",
+                "entID": "T59",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "diarrea aguda",
+                "em1ID": "T9",
+                "em2Text": "aguda",
+                "em2ID": "T59",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "suero",
                 "em1ID": "T10",
@@ -135654,6 +136688,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T56",
                 "text": "ad libitum"
+            },
+            {
+                "start": 1482,
+                "end": 1487,
+                "label": "Duration",
+                "entID": "T60",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -135670,6 +136711,13 @@
                 "em2Text": "oral",
                 "em2ID": "T46",
                 "label": "Has_Route_or_Mode"
+            },
+            {
+                "em1Text": "diarrea aguda",
+                "em1ID": "T21",
+                "em2Text": "aguda",
+                "em2ID": "T60",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "administración de suero oral ad libitum",
@@ -138137,13 +139185,6 @@
         ],
         "relationMentions": [
             {
-                "em1Text": "CET",
-                "em1ID": "T2",
-                "em2Text": "refractarias",
-                "em2ID": "T52",
-                "label": "Has_Quantifier_or_Qualifier"
-            },
-            {
                 "em1Text": "crisis epilépticas",
                 "em1ID": "T3",
                 "em2Text": "refractarias",
@@ -139237,6 +140278,13 @@
                 "label": "Time",
                 "entID": "T28",
                 "text": "postoperatorio"
+            },
+            {
+                "start": 375,
+                "end": 380,
+                "label": "Duration",
+                "entID": "T46",
+                "text": "agudo"
             }
         ],
         "relationMentions": [
@@ -139246,6 +140294,13 @@
                 "em2Text": "postoperatorio",
                 "em2ID": "T28",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "dolor agudo postoperatorio",
+                "em1ID": "T6",
+                "em2Text": "agudo",
+                "em2ID": "T46",
+                "label": "Has_Duration_or_Interval"
             }
         ],
         "sentId": 6
@@ -147063,7 +148118,7 @@
             {
                 "start": 201,
                 "end": 228,
-                "label": "ANAT",
+                "label": "PHYS",
                 "entID": "T47",
                 "text": "sistema renina-angiotensina"
             },
@@ -149549,7 +150604,7 @@
             {
                 "start": 1028,
                 "end": 1045,
-                "label": "PROC",
+                "label": "CONC",
                 "entID": "T61",
                 "text": "medidas repetidas"
             },
@@ -159546,6 +160601,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T47",
                 "text": "graves"
+            },
+            {
+                "start": 1132,
+                "end": 1138,
+                "label": "Duration",
+                "entID": "T55",
+                "text": "agudas"
             }
         ],
         "relationMentions": [
@@ -159562,6 +160624,13 @@
                 "em2Text": "graves",
                 "em2ID": "T47",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "Infecciones agudas",
+                "em1ID": "T24",
+                "em2Text": "agudas",
+                "em2ID": "T55",
+                "label": "Has_Duration_or_Interval"
             }
         ],
         "sentId": 19
@@ -162267,6 +163336,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T77",
                 "text": "importante"
+            },
+            {
+                "start": 1176,
+                "end": 1181,
+                "label": "Duration",
+                "entID": "T79",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -162276,6 +163352,13 @@
                 "em2Text": "las 12 semanas",
                 "em2ID": "T53",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "trombosis aguda",
+                "em1ID": "T17",
+                "em2Text": "aguda",
+                "em2ID": "T79",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "vascular",
@@ -163413,6 +164496,13 @@
                 "label": "Route",
                 "entID": "T75",
                 "text": "intravenoso"
+            },
+            {
+                "start": 1371,
+                "end": 1376,
+                "label": "Duration",
+                "entID": "T118",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -163443,6 +164533,13 @@
                 "em2Text": "actual",
                 "em2ID": "T72",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "IC aguda descompensada",
+                "em1ID": "T50",
+                "em2Text": "aguda",
+                "em2ID": "T118",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "IC crónica",
@@ -169305,6 +170402,13 @@
                 "label": "Observation",
                 "entID": "T70",
                 "text": "capacidad funcional disminuida"
+            },
+            {
+                "start": 1541,
+                "end": 1571,
+                "label": "Observation",
+                "entID": "T73",
+                "text": "índice de comorbilidad elevado"
             }
         ],
         "relationMentions": [
@@ -169348,6 +170452,13 @@
                 "em1ID": "T40",
                 "em2Text": "capacidad funcional disminuida",
                 "em2ID": "T70",
+                "label": "Experiences"
+            },
+            {
+                "em1Text": "sujetos",
+                "em1ID": "T40",
+                "em2Text": "índice de comorbilidad elevado",
+                "em2ID": "T73",
                 "label": "Experiences"
             },
             {
@@ -169793,7 +170904,7 @@
             {
                 "start": 505,
                 "end": 532,
-                "label": "ANAT",
+                "label": "PHYS",
                 "entID": "T49",
                 "text": "sistema renina-angiotensina"
             },
@@ -173837,9 +174948,23 @@
                 "label": "Observation",
                 "entID": "T67",
                 "text": "efecto"
+            },
+            {
+                "start": 440,
+                "end": 446,
+                "label": "Duration",
+                "entID": "T71",
+                "text": "agudas"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "diarrea agudas",
+                "em1ID": "T11",
+                "em2Text": "agudas",
+                "em2ID": "T71",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "compuestos de zinc",
                 "em1ID": "T32",
@@ -174088,9 +175213,23 @@
                 "label": "PROC",
                 "entID": "T68",
                 "text": "Se evaluaron"
+            },
+            {
+                "start": 877,
+                "end": 882,
+                "label": "Duration",
+                "entID": "T72",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "diarrea aguda",
+                "em1ID": "T17",
+                "em2Text": "aguda",
+                "em2ID": "T72",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "respiratoria",
                 "em1ID": "T63",
@@ -174351,6 +175490,13 @@
                 "label": "LIVB",
                 "entID": "T58",
                 "text": "niño"
+            },
+            {
+                "start": 1242,
+                "end": 1247,
+                "label": "Duration",
+                "entID": "T73",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -174373,6 +175519,13 @@
                 "em1ID": "T23",
                 "em2Text": "1.000 días",
                 "em2ID": "T57",
+                "label": "Has_Duration_or_Interval"
+            },
+            {
+                "em1Text": "diarrea aguda",
+                "em1ID": "T23",
+                "em2Text": "aguda",
+                "em2ID": "T73",
                 "label": "Has_Duration_or_Interval"
             },
             {
@@ -174486,9 +175639,23 @@
                 "label": "Observation",
                 "entID": "T69",
                 "text": "efecto"
+            },
+            {
+                "start": 1643,
+                "end": 1649,
+                "label": "Duration",
+                "entID": "T74",
+                "text": "agudas"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "diarrea agudas",
+                "em1ID": "T29",
+                "em2Text": "agudas",
+                "em2ID": "T74",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "niños preescolares",
                 "em1ID": "T59",
@@ -180157,9 +181324,23 @@
                 "label": "LIVB",
                 "entID": "T90",
                 "text": "adolescentes"
+            },
+            {
+                "start": 135,
+                "end": 140,
+                "label": "Duration",
+                "entID": "T103",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "leucemia mieloide aguda",
+                "em1ID": "T3",
+                "em2Text": "aguda",
+                "em2ID": "T103",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "mieloide",
                 "em1ID": "T55",
@@ -180271,9 +181452,23 @@
                 "label": "LIVB",
                 "entID": "T91",
                 "text": "adolescentes"
+            },
+            {
+                "start": 297,
+                "end": 302,
+                "label": "Duration",
+                "entID": "T104",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "leucemia mieloide aguda",
+                "em1ID": "T7",
+                "em2Text": "aguda",
+                "em2ID": "T104",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "mieloide",
                 "em1ID": "T56",
@@ -180343,9 +181538,23 @@
                 "label": "ANAT",
                 "entID": "T57",
                 "text": "Mieloide"
+            },
+            {
+                "start": 358,
+                "end": 363,
+                "label": "Duration",
+                "entID": "T102",
+                "text": "Aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "Leucemia Mieloide Aguda",
+                "em1ID": "T8",
+                "em2Text": "Aguda",
+                "em2ID": "T102",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "Mieloide",
                 "em1ID": "T57",
@@ -180913,9 +182122,23 @@
                 "label": "Neg_cue",
                 "entID": "T95",
                 "text": "carecen de"
+            },
+            {
+                "start": 1305,
+                "end": 1310,
+                "label": "Duration",
+                "entID": "T105",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "leucemia mieloide aguda",
+                "em1ID": "T34",
+                "em2Text": "aguda",
+                "em2ID": "T105",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "mieloide",
                 "em1ID": "T61",
@@ -181055,9 +182278,24 @@
                 "label": "DISO",
                 "entID": "T38",
                 "text": "Leucemia promielocítica aguda"
+            },
+            {
+                "start": 1462,
+                "end": 1467,
+                "label": "Duration",
+                "entID": "T106",
+                "text": "aguda"
             }
         ],
-        "relationMentions": [],
+        "relationMentions": [
+            {
+                "em1Text": "Leucemia promielocítica aguda",
+                "em1ID": "T38",
+                "em2Text": "aguda",
+                "em2ID": "T106",
+                "label": "Has_Duration_or_Interval"
+            }
+        ],
         "sentId": 21
     },
     {
@@ -183904,6 +185142,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T44",
                 "text": "resistente al tratamiento"
+            },
+            {
+                "start": 731,
+                "end": 739,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T54",
+                "text": "agresivo"
             }
         ],
         "relationMentions": [
@@ -183912,6 +185157,13 @@
                 "em1ID": "T8",
                 "em2Text": "resistente al tratamiento",
                 "em2ID": "T44",
+                "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "linfoma no Hodgkin de células B agresivo",
+                "em1ID": "T9",
+                "em2Text": "agresivo",
+                "em2ID": "T54",
                 "label": "Has_Quantifier_or_Qualifier"
             },
             {
@@ -190433,10 +191685,10 @@
             },
             {
                 "start": 1034,
-                "end": 1044,
+                "end": 1053,
                 "label": "CHEM",
                 "entID": "T41",
-                "text": "proteína C"
+                "text": "proteína C reactiva"
             },
             {
                 "start": 1076,
@@ -191482,20 +192734,12 @@
             {
                 "start": 980,
                 "end": 990,
-                "label": "Quantifier_or_Qualifier",
+                "label": "CHEM",
                 "entID": "T75",
                 "text": "biológicos"
             }
         ],
-        "relationMentions": [
-            {
-                "em1Text": "inmunosupresores",
-                "em1ID": "T22",
-                "em2Text": "biológicos",
-                "em2ID": "T75",
-                "label": "Has_Quantifier_or_Qualifier"
-            }
-        ],
+        "relationMentions": [],
         "sentId": 19
     },
     {
@@ -194863,18 +196107,18 @@
                 "text": "Colitis ulcerosa"
             },
             {
-                "start": 468,
+                "start": 464,
                 "end": 486,
-                "label": "Observation",
+                "label": "Quantifier_or_Qualifier",
                 "entID": "T77",
-                "text": "actividad moderada"
+                "text": "con actividad moderada"
             }
         ],
         "relationMentions": [
             {
                 "em1Text": "Colitis ulcerosa",
                 "em1ID": "T13",
-                "em2Text": "actividad moderada",
+                "em2Text": "con actividad moderada",
                 "em2ID": "T77",
                 "label": "Has_Quantifier_or_Qualifier"
             }
@@ -199880,7 +201124,15 @@
     {
         "sentText": "Título público:  Nuevos Sistemas de Dosificación en Pediatría.",
         "articleId": "2013-004655-21",
-        "entityMentions": [],
+        "entityMentions": [
+            {
+                "start": 65,
+                "end": 77,
+                "label": "CONC",
+                "entID": "T18",
+                "text": "Dosificación"
+            }
+        ],
         "relationMentions": [],
         "sentId": 1
     },
@@ -199901,6 +201153,13 @@
                 "label": "LIVB",
                 "entID": "T24",
                 "text": "pacientes neonatos"
+            },
+            {
+                "start": 133,
+                "end": 138,
+                "label": "CONC",
+                "entID": "T34",
+                "text": "dosis"
             }
         ],
         "relationMentions": [
@@ -200993,9 +202252,30 @@
                 "label": "PHYS",
                 "entID": "T47",
                 "text": "lactancia"
+            },
+            {
+                "start": 909,
+                "end": 914,
+                "label": "Duration",
+                "entID": "T53",
+                "text": "agudo"
+            },
+            {
+                "start": 947,
+                "end": 962,
+                "label": "ANAT",
+                "entID": "T54",
+                "text": "cerebrovascular"
             }
         ],
         "relationMentions": [
+            {
+                "em1Text": "infarto agudo de miocardio",
+                "em1ID": "T24",
+                "em2Text": "agudo",
+                "em2ID": "T53",
+                "label": "Has_Duration_or_Interval"
+            },
             {
                 "em1Text": "enfermedad cerebrovascular",
                 "em1ID": "T26",
@@ -201029,6 +202309,13 @@
                 "em1ID": "T37",
                 "em2Text": "IAM",
                 "em2ID": "T25",
+                "label": "Location_of"
+            },
+            {
+                "em1Text": "cerebrovascular",
+                "em1ID": "T54",
+                "em2Text": "enfermedad cerebrovascular",
+                "em2ID": "T26",
                 "label": "Location_of"
             }
         ],
@@ -201655,6 +202942,13 @@
                 "label": "Duration",
                 "entID": "T57",
                 "text": "los 14 días"
+            },
+            {
+                "start": 996,
+                "end": 1011,
+                "label": "ANAT",
+                "entID": "T51",
+                "text": "cerebrovascular"
             }
         ],
         "relationMentions": [
@@ -201664,6 +202958,13 @@
                 "em2Text": "los 14 días",
                 "em2ID": "T57",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "cerebrovascular",
+                "em1ID": "T51",
+                "em2Text": "Accidente cerebrovascular isquémico",
+                "em2ID": "T21",
+                "label": "Location_of"
             }
         ],
         "sentId": 19
@@ -203845,6 +205146,13 @@
                 "label": "CONC",
                 "entID": "T53",
                 "text": "abordaje temporal de Gillies"
+            },
+            {
+                "start": 193,
+                "end": 197,
+                "label": "DISO",
+                "entID": "T66",
+                "text": "FAAC"
             }
         ],
         "relationMentions": [
@@ -203860,6 +205168,13 @@
                 "em1ID": "T7",
                 "em2Text": "reducción de la fractura aislada de arco cigomático",
                 "em2ID": "T5",
+                "label": "Location_of"
+            },
+            {
+                "em1Text": "arco cigomático",
+                "em1ID": "T7",
+                "em2Text": "FAAC",
+                "em2ID": "T66",
                 "label": "Location_of"
             },
             {
@@ -203982,6 +205297,20 @@
                 "label": "Time",
                 "entID": "T33",
                 "text": "intraoperatorias"
+            },
+            {
+                "start": 577,
+                "end": 586,
+                "label": "DEVI",
+                "entID": "T63",
+                "text": "arco en C"
+            },
+            {
+                "start": 616,
+                "end": 620,
+                "label": "DISO",
+                "entID": "T68",
+                "text": "FAAC"
             }
         ],
         "relationMentions": [
@@ -203991,6 +205320,13 @@
                 "em2Text": "intraoperatorias",
                 "em2ID": "T33",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "arco en C",
+                "em1ID": "T63",
+                "em2Text": "imágenes intraoperatorias con un arco en C",
+                "em2ID": "T29",
+                "label": "Used_for"
             }
         ],
         "sentId": 7
@@ -204040,6 +205376,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T55",
                 "text": "segunda"
+            },
+            {
+                "start": 728,
+                "end": 737,
+                "label": "DEVI",
+                "entID": "T64",
+                "text": "arco en C"
             }
         ],
         "relationMentions": [
@@ -204056,6 +205399,13 @@
                 "em2Text": "intraoperatorias",
                 "em2ID": "T34",
                 "label": "Has_Time_Data"
+            },
+            {
+                "em1Text": "arco en C",
+                "em1ID": "T64",
+                "em2Text": "utilizar un arco en C para adquirir imágenes intraoperatorias",
+                "em2ID": "T30",
+                "label": "Used_for"
             }
         ],
         "sentId": 10
@@ -204189,6 +205539,20 @@
                 "label": "PROC",
                 "entID": "T60",
                 "text": "cirugía"
+            },
+            {
+                "start": 1126,
+                "end": 1135,
+                "label": "DEVI",
+                "entID": "T65",
+                "text": "arco en C"
+            },
+            {
+                "start": 893,
+                "end": 897,
+                "label": "DISO",
+                "entID": "T67",
+                "text": "FAAC"
             }
         ],
         "relationMentions": [
@@ -204222,6 +205586,13 @@
             },
             {
                 "em1Text": "pacientes",
+                "em1ID": "T37",
+                "em2Text": "FAAC",
+                "em2ID": "T67",
+                "label": "Experiences"
+            },
+            {
+                "em1Text": "pacientes",
                 "em1ID": "T38",
                 "em2Text": "reducción de la fractura",
                 "em2ID": "T19",
@@ -204317,6 +205688,13 @@
                 "em2Text": "cirugía",
                 "em2ID": "T60",
                 "label": "Experiences"
+            },
+            {
+                "em1Text": "arco en C",
+                "em1ID": "T65",
+                "em2Text": "corroboración inmediata de un adecuado resultado con arco en C intraoperatoriamente",
+                "em2ID": "T21",
+                "label": "Used_for"
             }
         ],
         "sentId": 11
@@ -205548,7 +206926,7 @@
             {
                 "start": 1414,
                 "end": 1423,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Route",
                 "entID": "T85",
                 "text": "sistémica"
             }
@@ -205559,7 +206937,7 @@
                 "em1ID": "T35",
                 "em2Text": "sistémica",
                 "em2ID": "T85",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Route_or_Mode"
             }
         ],
         "sentId": 22
@@ -208386,7 +209764,7 @@
             {
                 "start": 1448,
                 "end": 1458,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Route",
                 "entID": "T116",
                 "text": "sistémicos"
             }
@@ -208425,7 +209803,7 @@
                 "em1ID": "T22",
                 "em2Text": "sistémicos",
                 "em2ID": "T116",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Route_or_Mode"
             }
         ],
         "sentId": 17
@@ -209047,6 +210425,13 @@
                 "label": "Duration",
                 "entID": "T90",
                 "text": "crónica"
+            },
+            {
+                "start": 2409,
+                "end": 2414,
+                "label": "Duration",
+                "entID": "T120",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -209055,6 +210440,13 @@
                 "em1ID": "T43",
                 "em2Text": "crónica",
                 "em2ID": "T90",
+                "label": "Has_Duration_or_Interval"
+            },
+            {
+                "em1Text": "pancreatitis aguda idiopática",
+                "em1ID": "T44",
+                "em2Text": "aguda",
+                "em2ID": "T120",
                 "label": "Has_Duration_or_Interval"
             }
         ],
@@ -209117,7 +210509,7 @@
             {
                 "start": 99,
                 "end": 104,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T90",
                 "text": "agudo"
             }
@@ -209135,7 +210527,7 @@
                 "em1ID": "T2",
                 "em2Text": "agudo",
                 "em2ID": "T90",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "venoso",
@@ -209224,7 +210616,7 @@
             {
                 "start": 361,
                 "end": 366,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T91",
                 "text": "agudo"
             }
@@ -209235,7 +210627,7 @@
                 "em1ID": "T5",
                 "em2Text": "agudo",
                 "em2ID": "T91",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "rivaroxaban",
@@ -217847,6 +219239,13 @@
                 "label": "LIVB",
                 "entID": "T28",
                 "text": "investigador"
+            },
+            {
+                "start": 863,
+                "end": 873,
+                "label": "Quantifier_or_Qualifier",
+                "entID": "T34",
+                "text": "prolongado"
             }
         ],
         "relationMentions": [
@@ -217856,6 +219255,13 @@
                 "em2Text": "tratamiento abierto prolongado",
                 "em2ID": "T19",
                 "label": "Used_for"
+            },
+            {
+                "em1Text": "tratamiento abierto prolongado",
+                "em1ID": "T19",
+                "em2Text": "prolongado",
+                "em2ID": "T34",
+                "label": "Has_Quantifier_or_Qualifier"
             },
             {
                 "em1Text": "sujetos",
@@ -218159,7 +219565,7 @@
             {
                 "start": 282,
                 "end": 287,
-                "label": "Quantifier_or_Qualifier",
+                "label": "Duration",
                 "entID": "T90",
                 "text": "aguda"
             },
@@ -218184,7 +219590,7 @@
                 "em1ID": "T6",
                 "em2Text": "aguda",
                 "em2ID": "T90",
-                "label": "Has_Quantifier_or_Qualifier"
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "ventrículo izquierdo",
@@ -219388,6 +220794,13 @@
                 "label": "Quantifier_or_Qualifier",
                 "entID": "T79",
                 "text": "corregidas"
+            },
+            {
+                "start": 1697,
+                "end": 1702,
+                "label": "Duration",
+                "entID": "T107",
+                "text": "aguda"
             }
         ],
         "relationMentions": [
@@ -219397,6 +220810,13 @@
                 "em2Text": "corregidas",
                 "em2ID": "T79",
                 "label": "Has_Quantifier_or_Qualifier"
+            },
+            {
+                "em1Text": "Anemia aguda",
+                "em1ID": "T42",
+                "em2Text": "aguda",
+                "em2ID": "T107",
+                "label": "Has_Duration_or_Interval"
             },
             {
                 "em1Text": "hipovolemia",

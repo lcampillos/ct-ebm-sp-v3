@@ -154,3 +154,6 @@ A20	Experiencer T41 Family_member
 A21	Experiencer T42 Family_member
 A22	Experiencer T43 Other
 A23	Experiencer T45 Patient
+T54	Quantifier_or_Qualifier 731 739	agresivo
+R31	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T54	
+#47	AnnotatorNotes T54	C0580822; Aggressive course; Temporal Concept

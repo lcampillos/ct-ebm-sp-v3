@@ -8,8 +8,7 @@ T4	DISO 159 180	retinopatía diabética
 #4	AnnotatorNotes T4	C0011884; Diabetic Retinopathy; Disease or Syndrome
 T5	DISO 226 236	diabéticos
 #5	AnnotatorNotes T5	C0011849; Diabetes Mellitus; Disease or Syndrome | C0241863; Diabetic; Finding | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
-T6	DISO 291 302	midriáticas
-#6	AnnotatorNotes T6	C0026961; Mydriasis; Sign or Symptom
+T6	PHYS 291 302	midriáticas
 T7	DISO 553 559	DM2NID
 #7	AnnotatorNotes T7	C0011860; Diabetes Mellitus, Non-Insulin-Dependent; Disease or Syndrome
 T8	PROC 311 323	telemedicina
@@ -48,16 +47,14 @@ T25	PROC 1084 1097	retinografías
 #23	AnnotatorNotes T25	C0200189; Fundus photography; Diagnostic Procedure | C0559963; Retinal photography; Diagnostic Procedure
 T26	PROC 1132 1143	exploración
 #24	AnnotatorNotes T26	C1280903; Exploration procedure; Therapeutic or Preventive Procedure
-T27	DISO 1200 1211	midriáticas
-#25	AnnotatorNotes T27	C0026961; Mydriasis; Sign or Symptom
+T27	PHYS 1200 1211	midriáticas
 T28	PROC 1214 1226	telemedicina
 #26	AnnotatorNotes T28	C0162648; Telemedicine; Health Care Activity
 T29	PROC 1257 1273	cribado de la RD
 #27	AnnotatorNotes T29	C1277181; Diabetic retinopathy screening; Diagnostic Procedure
 T30	DISO 1304 1321	diabetes mellitus
 #28	AnnotatorNotes T30	C0011849; Diabetes Mellitus; Disease or Syndrome | C1802373; Diabetes mellitus (incl subtypes); Disease or Syndrome
-T31	DISO 97 107	midriático
-#29	AnnotatorNotes T31	C0026961; Mydriasis; Sign or Symptom
+T31	PHYS 97 107	midriático
 T32	PROC 270 302	empleo de cámaras no midriáticas
 T33	DISO 952 970	RD no proliferante
 #30	AnnotatorNotes T33	C0004606; Nonproliferative diabetic retinopathy; Disease or Syndrome
@@ -171,3 +168,6 @@ A12	Experiencer T38 Patient
 A13	Experiencer T41 Patient
 A14	Experiencer T45 Patient
 A15	Experiencer T49 Other
+#6	AnnotatorNotes T27	C1383072; Pupillary Dilation; Organ or Tissue Function.
+#25	AnnotatorNotes T31	C1383072; Pupillary Dilation; Organ or Tissue Function.
+#29	AnnotatorNotes T6	C1383072; Pupillary Dilation; Organ or Tissue Function.

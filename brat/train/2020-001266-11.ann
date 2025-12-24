@@ -254,3 +254,12 @@ T88	Result_or_Value 1411 1419	negativa
 R10	Has_Result_or_Value Arg1:T26 Arg2:T88	
 T99	Result_or_Value 1114 1122	negativa
 R11	Has_Result_or_Value Arg1:T23 Arg2:T99	
+T100	Duration 850 855	agudo
+#82	AnnotatorNotes T100	C0205178; acute; Temporal Concept
+T101	Duration 832 837	agudo
+#83	AnnotatorNotes T101	C0205178; acute; Temporal Concept
+R14	Has_Duration_or_Interval Arg1:T19 Arg2:T100	
+R19	Has_Duration_or_Interval Arg1:T18 Arg2:T101	
+T102	Duration 1343 1348	agudo
+#84	AnnotatorNotes T102	C0205178; acute; Temporal Concept
+R22	Has_Duration_or_Interval Arg1:T25 Arg2:T102	

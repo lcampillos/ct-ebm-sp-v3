@@ -291,3 +291,10 @@ A12	Experiencer T70 Patient
 A13	Experiencer T73 Patient
 A14	Experiencer T61 Patient
 R53	Has_Result_or_Value Arg1:T44 Arg2:T96	
+T111	PROC 297 301	TCRR
+#83	AnnotatorNotes T111	C3649547; Continuous Renal Replacement Therapy; Therapeutic or Preventive Procedure
+T112	PROC 593 597	TCRR
+#84	AnnotatorNotes T112	C3649547; Continuous Renal Replacement Therapy; Therapeutic or Preventive Procedure
+R54	Used_for Arg1:T53 Arg2:T112	
+T113	DEVI 1038 1044	filtro
+#85	AnnotatorNotes T113	C1875155; Filter; Medical device

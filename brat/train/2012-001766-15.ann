@@ -198,3 +198,8 @@ A17	Experiencer T51 Patient
 A18	Experiencer T52 Patient
 A19	Experiencer T53 Patient
 A20	Experiencer T55 Patient
+T69	DISO 596 598	NR
+#59	AnnotatorNotes T69	C0694550; Recurrent pneumonia; Disease or Syndrome
+R30	Experiences Arg1:T44 Arg2:T69	
+R56	Has_Duration_or_Interval Arg1:T69 Arg2:T45	
+R57	Overlap Arg1:T69 Arg2:T46	

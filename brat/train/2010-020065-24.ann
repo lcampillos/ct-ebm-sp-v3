@@ -268,3 +268,12 @@ A21	Experiencer T52 Patient
 A22	Experiencer T55 Patient
 A23	Experiencer T54 Patient
 A24	Experiencer T57 Patient
+T77	Duration 1588 1593	agudo
+#61	AnnotatorNotes T77	C0205178; acute; Temporal Concept
+R89	Has_Duration_or_Interval Arg1:T43 Arg2:T77	
+T88	ANAT 1411 1426	cerebrovascular
+#74	AnnotatorNotes T88	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R90	Location_of Arg1:T88 Arg2:T37	
+T89	ANAT 1511 1526	cerebrovascular
+#75	AnnotatorNotes T89	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R91	Location_of Arg1:T89 Arg2:T41	

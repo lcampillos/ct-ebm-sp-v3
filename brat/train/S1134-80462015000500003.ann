@@ -260,3 +260,9 @@ A8	Experiencer T69 Patient
 A9	Experiencer T72 Patient
 A10	Experiencer T74 Patient
 A11	Experiencer T80 Patient
+T88	Duration 390 395	agudo
+#71	AnnotatorNotes T88	C0205178; acute; Temporal Concept
+R71	Has_Duration_or_Interval Arg1:T10 Arg2:T88	
+T89	Duration 65 70	agudo
+#72	AnnotatorNotes T89	C0205178; acute; Temporal Concept
+R96	Has_Duration_or_Interval Arg1:T4 Arg2:T89	

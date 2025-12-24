@@ -132,9 +132,8 @@ T49	CONC 659 679	postura de litotomía
 R21	Overlap Arg1:T12 Arg2:T49	
 R22	Location_of Arg1:T35 Arg2:T14	
 T54	CONC 685 718	Postura de artroscopia de rodilla
-T62	ANAT 766 780	infraumbilical
+T62	CONC 766 780	infraumbilical
 #51	AnnotatorNotes T62	C0446493; Infra-umbilical region; Body Location or Region
-R23	Location_of Arg1:T62 Arg2:T16	
 R24	Used_for Arg1:T18 Arg2:T17	
 R25	Has_Age Arg1:T55 Arg2:T56	
 T63	Result_or_Value 923 934	clase 3 y 4

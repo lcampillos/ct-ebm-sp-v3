@@ -302,3 +302,6 @@ A21	Experiencer T88 Patient
 A22	Experiencer T84 Patient
 T102	Result_or_Value 958 976	resultado negativo
 R47	Has_Result_or_Value Arg1:T20 Arg2:T102	
+T103	ANAT 1464 1483	auriculoventricular
+#85	AnnotatorNotes T103	C0225924; Atrioventricular valve; Body Part, Organ, or Organ Component
+R49	Location_of Arg1:T103 Arg2:T30	

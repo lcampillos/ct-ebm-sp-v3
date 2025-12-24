@@ -220,3 +220,7 @@ A14	Experiencer T64 Patient
 A15	Experiencer T54 Patient
 A16	Experiencer T58 Patient
 A17	Experiencer T63 Patient
+T76	PROC 131 141	HEPATOTEST
+R6	Location_of Arg1:T3 Arg2:T76	
+T77	PROC 288 298	Hepatotest
+R29	Location_of Arg1:T6 Arg2:T77	

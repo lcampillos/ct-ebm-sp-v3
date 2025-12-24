@@ -209,3 +209,21 @@ A18	Experiencer T36 Patient
 A19	Experiencer T60 Patient
 A20	Experiencer T61 Patient
 A21	Experiencer T62 Patient
+T72	Duration 68 73	aguda
+R13	Has_Duration_or_Interval Arg1:T3 Arg2:T72	
+T74	Duration 311 316	aguda
+R28	Has_Duration_or_Interval Arg1:T10 Arg2:T74	
+T75	Duration 718 723	aguda
+R34	Has_Duration_or_Interval Arg1:T16 Arg2:T75	
+T76	Duration 848 853	aguda
+R58	Has_Duration_or_Interval Arg1:T18 Arg2:T76	
+T77	Duration 945 950	aguda
+R59	Has_Duration_or_Interval Arg1:T22 Arg2:T77	
+T78	Duration 1701 1706	aguda
+R60	Has_Duration_or_Interval Arg1:T33 Arg2:T78	
+#65	AnnotatorNotes T72	C0205178; acute; Temporal Concept
+#66	AnnotatorNotes T74	C0205178; acute; Temporal Concept
+#67	AnnotatorNotes T76	C0205178; acute; Temporal Concept
+#68	AnnotatorNotes T75	C0205178; acute; Temporal Concept
+#69	AnnotatorNotes T77	C0205178; acute; Temporal Concept
+#70	AnnotatorNotes T78	C0205178; acute; Temporal Concept

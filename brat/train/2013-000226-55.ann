@@ -123,8 +123,8 @@ T73	DISO 2224 2235	amiloidosis
 #73	AnnotatorNotes T73	C0002726; Amyloidosis; Disease or Syndrome | C0011560; Amyloid deposition; Pathologic Function
 T74	DISO 2253 2276	enfermedad inflamatoria
 #74	AnnotatorNotes T74	C1290884; Inflammatory disorder; Disease or Syndrome
-T76	Quantifier_or_Qualifier 2277 2282	aguda
-#76	AnnotatorNotes T76	C0439557; Acute phase; Temporal Concept
+T76	Duration 2277 2282	aguda
+#76	AnnotatorNotes T76	C0205178; acute; Temporal Concept
 T77	DISO 2296 2313	Infección por VIH
 #77	AnnotatorNotes T77	C0019693; HIV Infections; Disease or Syndrome
 T78	LIVB 2310 2313	VIH
@@ -190,7 +190,7 @@ T118	PROC 3229 3240	Tratamiento
 T119	CHEM 3252 3261	rituximab
 #119	AnnotatorNotes T119	C0393022; rituximab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
 T120	CHEM 3269 3285	agente biológico
-#120	AnnotatorNotes T120	C0005515; Biological Factors; Biologically Active Substance
+#120	AnnotatorNotes T120	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 T121	LIVB 3345 3354	Pacientes
 #121	AnnotatorNotes T121	C0030705; Patients; Patient or Disabled Group
 T122	CHEM 3389 3405	inmunosupresores
@@ -355,7 +355,7 @@ R69	Causes Arg1:T58 Arg2:T60
 R70	Causes Arg1:T73 Arg2:T60	
 T166	Duration 2285 2292	crónica
 #58	AnnotatorNotes T166	C0205191; chronic; Temporal Concept
-R71	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T76	
+R71	Has_Duration_or_Interval Arg1:T74 Arg2:T76	
 R72	Has_Duration_or_Interval Arg1:T74 Arg2:T166	
 R73	Causes Arg1:T74 Arg2:T60	
 R74	Location_of Arg1:T80 Arg2:T79	
@@ -551,3 +551,12 @@ A29	Experiencer T139 Other
 A30	Experiencer T145 Other
 A31	Experiencer T140 Patient
 A32	Status T171 Future
+R178	Causes Arg1:T108 Arg2:T101	
+R179	Causes Arg1:T108 Arg2:T98	
+R180	Causes Arg1:T108 Arg2:T97	
+R181	Causes Arg1:T107 Arg2:T101	
+R182	Causes Arg1:T107 Arg2:T98	
+R183	Causes Arg1:T107 Arg2:T97	
+T188	Result_or_Value 3448 3456	positiva
+R184	Has_Result_or_Value Arg1:T124 Arg2:T188	
+#158	AnnotatorNotes T188	C1446409; Positive; Finding

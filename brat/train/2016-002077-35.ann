@@ -194,3 +194,15 @@ A17	Experiencer T32 Other
 A18	Experiencer T33 Patient
 A19	Status T16 Future
 A20	Status T57 Future
+T71	Duration 161 166	AGUDA
+#49	AnnotatorNotes T71	C0205178; acute; Temporal Concept
+R56	Has_Duration_or_Interval Arg1:T4 Arg2:T71	
+T72	Duration 451 456	AGUDA
+#53	AnnotatorNotes T72	C0205178; acute; Temporal Concept
+R57	Has_Duration_or_Interval Arg1:T11 Arg2:T72	
+T73	Duration 558 563	aguda
+#54	AnnotatorNotes T73	C0205178; acute; Temporal Concept
+R58	Has_Duration_or_Interval Arg1:T13 Arg2:T73	
+T74	Duration 682 687	aguda
+#55	AnnotatorNotes T74	C0205178; acute; Temporal Concept
+R59	Has_Duration_or_Interval Arg1:T15 Arg2:T74	

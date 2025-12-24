@@ -276,9 +276,9 @@ R41	Has_Duration_or_Interval Arg1:T35 Arg2:T84
 T120	PROC 2001 2010	selección
 #92	AnnotatorNotes T120	C0242802; Patient Selection; Research Activity
 R42	Before Arg1:T35 Arg2:T120	
-T121	Quantifier_or_Qualifier 1971 1981	sistémicos
-#93	AnnotatorNotes T121	C0205373; Systemic; Functional Concept
-R43	Has_Quantifier_or_Qualifier Arg1:T35 Arg2:T121	
+T121	Route 1971 1981	sistémicos
+#93	AnnotatorNotes T121	C5849094; Systemic Route of Administration; Functional Concept
+R43	Has_Route_or_Mode Arg1:T35 Arg2:T121	
 R44	Has_Quantifier_or_Qualifier Arg1:T36 Arg2:T69	
 T122	Quantifier_or_Qualifier 1942 1950	previsto
 #94	AnnotatorNotes T122	C1301732; Planned; Functional Concept

@@ -232,3 +232,15 @@ R17	Has_Result_or_Value Arg1:T43 Arg2:T80
 R18	Has_Result_or_Value Arg1:T22 Arg2:T82	
 R21	Has_Result_or_Value Arg1:T44 Arg2:T83	
 R35	Has_Result_or_Value Arg1:T47 Arg2:T85	
+T87	Observation 1994 2000;2010 2060	redujo el riesgo de hipertensión arterial intraoperatoria
+R37	Causes Arg1:T31 Arg2:T87	
+R55	Causes Arg1:T32 Arg2:T87	
+T88	Observation 1541 1563	aumento de la sedación
+T89	ANAT 324 335	intraocular
+#74	AnnotatorNotes T89	C3282905; Intraocular; Spatial Concept
+R57	Location_of Arg1:T89 Arg2:T35	
+R62	Location_of Arg1:T89 Arg2:T74	
+T90	ANAT 439 450	Intraocular
+#75	AnnotatorNotes T90	C3282905; Intraocular; Spatial Concept
+R64	Location_of Arg1:T90 Arg2:T36	
+R72	Location_of Arg1:T90 Arg2:T37	

@@ -170,3 +170,21 @@ A10	Experiencer T39 Patient
 A11	Experiencer T41 Patient
 A12	Experiencer T42 Patient
 A13	Experiencer T46 Patient
+T63	DEVI 577 586	arco en C
+R33	Used_for Arg1:T63 Arg2:T29	
+T64	DEVI 728 737	arco en C
+R48	Used_for Arg1:T64 Arg2:T30	
+T65	DEVI 1126 1135	arco en C
+R49	Used_for Arg1:T65 Arg2:T21	
+#48	AnnotatorNotes T65	C1740729; Mobile C-Arms, Diagnostic Imaging; Medical Device
+#49	AnnotatorNotes T64	C1740729; Mobile C-Arms, Diagnostic Imaging; Medical Device
+#50	AnnotatorNotes T63	C1740729; Mobile C-Arms, Diagnostic Imaging; Medical Device
+T66	DISO 193 197	FAAC
+#51	AnnotatorNotes T66	C0043540; Fracture of zygoma; Injury or Poisoning (?)
+T67	DISO 893 897	FAAC
+#52	AnnotatorNotes T67	C0043540; Fracture of zygoma; Injury or Poisoning (?)
+R50	Experiences Arg1:T37 Arg2:T67	
+R51	Location_of Arg1:T7 Arg2:T66	
+#53	AnnotatorNotes T3	C0043540; Fracture of zygoma; Injury or Poisoning (?)
+T68	DISO 616 620	FAAC
+#54	AnnotatorNotes T68	C0043540; Fracture of zygoma; Injury or Poisoning (?)

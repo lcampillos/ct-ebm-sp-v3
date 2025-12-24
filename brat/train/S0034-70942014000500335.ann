@@ -106,7 +106,7 @@ T55	DISO 2348 2353	dolor
 #51	AnnotatorNotes T55	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
 T56	CHEM 751 761	gelatinasa
 #52	AnnotatorNotes T56	C0206528; Gelatinases; Amino Acid, Peptide, or Protein · Enzyme
-T57	PROC 724 776	lipocalina asociada con la gelatinasa de neutrófilos
+T57	PROC 691 709;724 776	niveles séricos de lipocalina asociada con la gelatinasa de neutrófilos
 #53	AnnotatorNotes T57	C5202571; Neutrophil gelatinase-associated lipocalin; Laboratory Procedure
 T58	PROC 961 974	aleatorizados
 #54	AnnotatorNotes T58	C0034656; Randomization; Research Activity
@@ -239,7 +239,6 @@ R46	Experiences Arg1:T99 Arg2:T97
 R47	Experiences Arg1:T99 Arg2:T103	
 R48	Location_of Arg1:T50 Arg2:T102	
 R49	Location_of Arg1:T15 Arg2:T45	
-R50	Location_of Arg1:T16 Arg2:T57	
 R51	Experiences Arg1:T73 Arg2:T17	
 R52	Causes Arg1:T17 Arg2:T48	
 R53	Before Arg1:T17 Arg2:T71	
@@ -308,3 +307,14 @@ A7	Experiencer T74 Patient
 A8	Experiencer T75 Patient
 A9	Experiencer T79 Patient
 A10	Experiencer T99 Patient
+R50	Location_of Arg1:T15 Arg2:T57	
+T107	CONC 149 159	percutánea
+#91	AnnotatorNotes T107	C0522523; Percutaneous; Spatial Concept
+T108	CONC 820 830	percutánea
+#92	AnnotatorNotes T108	C0522523; Percutaneous; Spatial Concept
+T109	CONC 888 898	percutánea
+#93	AnnotatorNotes T109	C0522523; Percutaneous; Spatial Concept
+T110	CONC 2459 2469	percutánea
+#94	AnnotatorNotes T110	C0522523; Percutaneous; Spatial Concept
+T111	CONC 469 479	percutánea
+#95	AnnotatorNotes T111	C0522523; Percutaneous; Spatial Concept

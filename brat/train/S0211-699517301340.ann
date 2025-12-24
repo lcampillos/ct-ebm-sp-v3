@@ -239,3 +239,15 @@ A6	Experiencer T63 Patient
 A7	Experiencer T64 Patient
 A8	Experiencer T66 Patient
 R50	Has_Result_or_Value Arg1:T15 Arg2:T80	
+T78	Duration 112 117	agudo
+R51	Has_Duration_or_Interval Arg1:T4 Arg2:T78	
+T79	Duration 615 620	agudo
+R52	Has_Duration_or_Interval Arg1:T16 Arg2:T79	
+T91	Duration 729 734	agudo
+R53	Has_Duration_or_Interval Arg1:T18 Arg2:T91	
+T92	Duration 2014 2019	agudo
+R83	Has_Duration_or_Interval Arg1:T37 Arg2:T92	
+#65	AnnotatorNotes T78	C0205178; acute; Temporal Concept
+#66	AnnotatorNotes T79	C0205178; acute; Temporal Concept
+#67	AnnotatorNotes T91	C0205178; acute; Temporal Concept
+#68	AnnotatorNotes T92	C0205178; acute; Temporal Concept

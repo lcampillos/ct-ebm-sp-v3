@@ -129,8 +129,8 @@ T62	Food 825 830	leche
 #51	AnnotatorNotes T62	C2825079; Milk - dietary; Food 
 T63	Food 973 978	leche
 #52	AnnotatorNotes T63	C2825079; Milk - dietary; Food
-T64	Quantifier_or_Qualifier 958 969	medio litro
-R19	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T64	
+T64	Dose 958 969	medio litro
+R19	Has_Dose_or_Strength Arg1:T63 Arg2:T64	
 R20	Has_Frequency Arg1:T63 Arg2:T41	
 R21	Has_Duration_or_Interval Arg1:T63 Arg2:T42	
 T65	Food 1045 1050	leche
@@ -195,3 +195,5 @@ A7	Experiencer T37 Patient
 A8	Experiencer T39 Patient
 A9	Experiencer T40 Patient
 A10	Experiencer T45 Patient
+T73	Observation 1284 1331	número de días entre deposiciones, disminuyeron
+R6	After Arg1:T73 Arg2:T52	

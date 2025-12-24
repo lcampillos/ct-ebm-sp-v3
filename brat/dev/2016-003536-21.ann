@@ -137,8 +137,8 @@ R31	Has_Quantifier_or_Qualifier Arg1:T24 Arg2:T54
 T55	Quantifier_or_Qualifier 822 841	localmente avanzada
 R32	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T55	
 R33	Before Arg1:T22 Arg2:T33	
-T56	Observation 843 853	inoperable
-#47	AnnotatorNotes T56	C4039777; Tumor surgically unresectable; Finding
+T56	Quantifier_or_Qualifier 843 853	inoperable
+#47	AnnotatorNotes T56	C0205187; Inoperable; Qualitative Concept
 R34	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T56	
 R35	Experiences Arg1:T38 Arg2:T23	
 R36	Speculation Arg1:T39 Arg2:T23	

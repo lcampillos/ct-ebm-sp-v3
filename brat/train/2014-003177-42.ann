@@ -162,3 +162,6 @@ A15	Experiencer T38 Patient
 A16	Experiencer T42 Patient
 A17	Status T54 Future
 A18	Experiencer T56 Patient
+T60	Duration 870 875	aguda
+R10	Has_Duration_or_Interval Arg1:T16 Arg2:T60	
+#48	AnnotatorNotes T60	C0205178; acute; Temporal Concept

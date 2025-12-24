@@ -198,9 +198,9 @@ R39	Overlap Arg1:T47 Arg2:T16
 T89	Quantifier_or_Qualifier 372 377	basal
 #69	AnnotatorNotes T89	C1442488; Baseline; Quantitative Concept
 R41	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T89	
-T90	Quantifier_or_Qualifier 282 287	aguda
-#70	AnnotatorNotes T90	C0439557; Acute phase; Temporal Concept
-R42	Has_Quantifier_or_Qualifier Arg1:T6 Arg2:T90	
+T90	Duration 282 287	aguda
+#70	AnnotatorNotes T90	C0205178; acute; Temporal Concept
+R42	Has_Duration_or_Interval Arg1:T6 Arg2:T90	
 R43	Has_Quantifier_or_Qualifier Arg1:T42 Arg2:T79	
 R44	Negation Arg1:T73 Arg2:T79	
 R45	Has_Quantifier_or_Qualifier Arg1:T43 Arg2:T79	
@@ -291,3 +291,6 @@ R27	Used_for Arg1:T106 Arg2:T10
 #87	AnnotatorNotes T36	C2188405; urgent surgical procedure; Therapeutic or Preventive Procedure
 #88	AnnotatorNotes T39	C0374711; Surgical repair; Therapeutic or Preventive Procedure
 A8	Experiencer T63 Patient
+T107	Duration 1697 1702	aguda
+#89	AnnotatorNotes T107	C0205178; acute; Temporal Concept
+R35	Has_Duration_or_Interval Arg1:T42 Arg2:T107	

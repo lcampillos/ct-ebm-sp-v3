@@ -6,7 +6,7 @@ T3	DISO 63 89	Infarto Agudo de Miocardio
 #3	AnnotatorNotes T3	C0027051; Myocardial infarction; Disease or Syndrome | C0155626; Acute myocardial infarction; Disease or Syndrome
 T4	PROC 102 136	valorar la seguridad y la eficacia
 #4	AnnotatorNotes T4	C0511730; Identify product efficacy and safety issues; Health Care Activity
-T5	ANAT 153 180	células madre mononucleadas
+T5	ANAT 153 190	células madre mononucleadas autólogas
 T6	PROC 212 250	cirugía de revascularización coronaria
 #5	AnnotatorNotes T6	C0877341; Coronary revascularisation; Therapeutic or Preventive Procedure
 T7	DISO 282 308	infarto agudo de miocardio
@@ -46,7 +46,7 @@ T24	ANAT 9 16	Celular
 #22	AnnotatorNotes T24	C0007634; Cells; Cell | C1269647; Entire cell; Cell
 T25	ANAT 80 89	Miocardio
 #23	AnnotatorNotes T25	C0027061; Myocardium; Tissue | C1284309; Entire myocardium; Tissue
-T26	PROC 141 180	implante de células madre mononucleadas
+T26	PROC 141 190	implante de células madre mononucleadas autólogas
 T27	ANAT 241 250	coronaria
 #24	AnnotatorNotes T27	C0205042; Coronary artery; Body Part, Organ, or Organ Component | C1269008; Entire coronary artery; Body Part, Organ, or Organ Component
 T28	ANAT 299 308	miocardio
@@ -129,3 +129,24 @@ A4	Experiencer T36 Patient
 A5	Experiencer T37 Patient
 A6	Experiencer T38 Patient
 A7	Experiencer T41 Patient
+T54	Duration 71 76	Agudo
+#46	AnnotatorNotes T54	C0439557; Acute phase; Temporal Concept
+R6	Has_Duration_or_Interval Arg1:T3 Arg2:T54	
+T55	Duration 290 295	agudo
+#47	AnnotatorNotes T55	C0439557; Acute phase; Temporal Concept
+R13	Has_Duration_or_Interval Arg1:T7 Arg2:T55	
+T56	Duration 467 472	agudo
+#48	AnnotatorNotes T56	C0439557; Acute phase; Temporal Concept
+R18	Has_Duration_or_Interval Arg1:T10 Arg2:T56	
+T57	ANAT 192 196	CMMA
+#49	AnnotatorNotes T57	[‘Autologous mononuclear stem cells’]
+R19	Used_for Arg1:T57 Arg2:T26	
+R21	Used_for Arg1:T5 Arg2:T26	
+T58	ANAT 570 574	CMMA
+#50	AnnotatorNotes T58	[‘Autologous mononuclear stem cells’]
+R28	Used_for Arg1:T58 Arg2:T30	
+T59	ANAT 629 633	CMMA
+#51	AnnotatorNotes T59	[‘Autologous mononuclear stem cells’]
+T60	ANAT 1363 1367	CMMA
+#52	AnnotatorNotes T60	[‘Autologous mononuclear stem cells’]
+R29	Used_for Arg1:T60 Arg2:T21	

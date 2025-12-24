@@ -208,3 +208,12 @@ A7	Experiencer T33 Patient
 A8	Experiencer T30 Patient
 A9	Experiencer T42 Patient
 A10	Experiencer T29 Patient
+T73	Quantifier_or_Qualifier 68 78	prolongado
+#62	AnnotatorNotes T73	C0439590; Prolonged; Temporal Concept
+R9	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T73	
+T74	Quantifier_or_Qualifier 242 252	prolongada
+#63	AnnotatorNotes T74	C0439590; Prolonged; Temporal Concept
+R10	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T74	
+T75	Quantifier_or_Qualifier 367 377	prolongado
+#64	AnnotatorNotes T75	C0439590; Prolonged; Temporal Concept
+R15	Has_Quantifier_or_Qualifier Arg1:T27 Arg2:T75	

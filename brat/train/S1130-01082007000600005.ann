@@ -226,3 +226,6 @@ A20	Experiencer T60 Patient
 A21	Experiencer T43 Patient
 A22	Experiencer T67 Patient
 A23	Experiencer T66 Patient
+T80	Duration 265 270	aguda
+#68	AnnotatorNotes T80	C0205178; acute; Temporal Concept
+R6	Has_Duration_or_Interval Arg1:T7 Arg2:T80	

@@ -174,9 +174,9 @@ R40	Location_of Arg1:T42 Arg2:T18
 R43	Location_of Arg1:T62 Arg2:T19	
 R44	Location_of Arg1:T43 Arg2:T21	
 R45	Has_Duration_or_Interval Arg1:T21 Arg2:T53	
-T69	Quantifier_or_Qualifier 964 969	agudo
+T69	Duration 964 969	agudo
 #57	AnnotatorNotes T69	C0205178; acute; Temporal Concept
-R51	Has_Quantifier_or_Qualifier Arg1:T65 Arg2:T69	
+R51	Has_Duration_or_Interval Arg1:T65 Arg2:T69	
 T70	Result_or_Value 1270 1273	>=3
 T71	CONC 1251 1269	IMPROVE modificada
 #58	AnnotatorNotes T71	[modified International Medical Prevention Registry on Venous Thromboembolism Predictive score}
@@ -219,3 +219,12 @@ A15	Experiencer T46 Patient
 A16	Experiencer T47 Patient
 A17	Experiencer T49 Patient
 A18	Experiencer T50 Patient
+T76	Duration 1139 1144	agudo
+#64	AnnotatorNotes T76	C0205178; acute; Temporal Concept
+R37	Has_Duration_or_Interval Arg1:T23 Arg2:T76	
+T77	Duration 1041 1046	aguda
+#65	AnnotatorNotes T77	C0205178; acute; Temporal Concept
+R41	Has_Duration_or_Interval Arg1:T19 Arg2:T77	
+T78	Duration 1062 1067	aguda
+#66	AnnotatorNotes T78	C0205178; acute; Temporal Concept
+R42	Has_Duration_or_Interval Arg1:T20 Arg2:T78	

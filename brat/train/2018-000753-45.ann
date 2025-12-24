@@ -225,3 +225,7 @@ A17	Status T19 Future
 A18	Status T36 Future
 A19	Experiencer T66 Patient
 A20	Status T8 Future
+T76	ANAT 620 631	intraocular
+#64	AnnotatorNotes T76	C3282905; Intraocular; Spatial Concept
+R69	Location_of Arg1:T76 Arg2:T54	
+R71	Location_of Arg1:T76 Arg2:T33	

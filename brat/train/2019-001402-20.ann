@@ -182,8 +182,8 @@ R30	Overlap Arg1:T23 Arg2:T24
 R31	Used_for Arg1:T38 Arg2:T23	
 R32	Negation Arg1:T57 Arg2:T25	
 R33	Used_for Arg1:T25 Arg2:T23	
-T71	Quantifier_or_Qualifier 1744 1753	biológico
-#62	AnnotatorNotes T71	C0205460; biological; Qualitative Concept
+T71	CHEM 1744 1753	biológico
+#62	AnnotatorNotes T71	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 R34	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T71	
 R35	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T71	
 R36	Used_for Arg1:T26 Arg2:T29	
@@ -227,3 +227,6 @@ A29	Experiencer T52 Patient
 A30	Experiencer T53 Patient
 A31	Experiencer T56 Patient
 A32	Experiencer T54 Patient
+R56	Has_Quantifier_or_Qualifier Arg1:T61 Arg2:T28	
+R57	Has_Quantifier_or_Qualifier Arg1:T62 Arg2:T28	
+R58	Used_for Arg1:T71 Arg2:T29	

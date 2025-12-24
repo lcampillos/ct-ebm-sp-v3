@@ -341,3 +341,14 @@ A18	Status T55 Future
 A19	Status T83 Future
 A20	Experiencer T94 Other
 R13	Has_Result_or_Value Arg1:T6 Arg2:T115	
+T131	Duration 1595 1600	agudo
+#110	AnnotatorNotes T131	C0205178; acute; Temporal Concept
+R28	Has_Duration_or_Interval Arg1:T38 Arg2:T131	
+T136	Duration 1673 1678	aguda
+#111	AnnotatorNotes T136	C0205178; acute; Temporal Concept
+R29	Has_Duration_or_Interval Arg1:T40 Arg2:T136	
+T137	Duration 1924 1929	agudo
+#112	AnnotatorNotes T137	C0205178; acute; Temporal Concept
+R32	Has_Duration_or_Interval Arg1:T48 Arg2:T137	
+T138	CONC 847 860	transtorácico
+#113	AnnotatorNotes T138	C0205503; Transthoracic approach; Spatial Concept | C4049694; Transthoracic; Spatial Concept

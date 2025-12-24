@@ -121,9 +121,9 @@ R42	Experiences Arg1:T44 Arg2:T43
 R43	Experiences Arg1:T36 Arg2:T15	
 #34	AnnotatorNotes T15	C0235064; Neonatal respiratory depression; Pathologic Function (?)
 #35	AnnotatorNotes T21	C3202977; Analgesia; Therapeutic or Preventive Procedure
-T47	Quantifier_or_Qualifier 1216 1225	sistémica
-#36	AnnotatorNotes T47	C0205373; Systemic; Functional Concept
-R44	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T47	
+T47	Route 1216 1225	sistémica
+#36	AnnotatorNotes T47	C5849094; Systemic Route of Administration; Functional Concept
+R44	Has_Route_or_Mode Arg1:T21 Arg2:T47	
 T49	Observation 1439 1460	cambios hemodinámicos
 R45	Causes Arg1:T22 Arg2:T49	
 R46	Causes Arg1:T22 Arg2:T16	

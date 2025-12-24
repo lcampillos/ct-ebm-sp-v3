@@ -71,7 +71,7 @@ T40	DISO 1415 1424	Epilepsia
 T41	PROC 1435 1446	tratamiento
 #31	AnnotatorNotes T41	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
 T42	CHEM 1451 1475	fármacos antiepilépticos
-T43	DISO 1490 1515	abuso enólico o de drogas
+T43	DISO 1490 1503	abuso enólico
 T44	CHEM 585 593	fármacos
 #32	AnnotatorNotes T44	C0013227; Pharmaceutical Preparations; Pharmacologic Substance | C0456386; Medicament; Pharmacologic Substance
 T45	DISO 637 639	EM
@@ -116,7 +116,7 @@ A4	Status T43 History_of
 #51	AnnotatorNotes T36	C0020550; Hyperthyroidism; Disease or Syndrome + C0020676; Hypothyroidism; Disease or Syndrome
 #52	AnnotatorNotes T37	C0018799; Heart Diseases; Disease or Syndrome 
 #53	AnnotatorNotes T42	C3537002; Anti-epileptic Agent [EPC]; Pharmacologic Substance
-#54	AnnotatorNotes T43	C0085762; Alcohol abuse; Mental or Behavioral Dysfunction + C0013146; Drug abuse; Mental or Behavioral Dysfunction 
+#54	AnnotatorNotes T43	C0085762; Alcohol abuse; Mental or Behavioral Dysfunction
 T61	Food 1496 1503	enólico
 #55	AnnotatorNotes T61	C0001967; Alcoholic Beverages; Food
 R1	Used_for Arg1:T1 Arg2:T2	
@@ -176,3 +176,7 @@ A7	Experiencer T54 Patient
 A8	Experiencer T56 Patient
 A9	Experiencer T58 Patient
 A10	Assertion T56 Hypothetical
+#59	AnnotatorNotes T24	C0201899; Aspartate aminotransferase measurement; Laboratory Procedure
+T69	DISO 1490 1495;1506 1515	abuso de drogas
+A11	Status T69 History_of
+#60	AnnotatorNotes T69	C0013146; Drug abuse; Mental or Behavioral Dysfunction

@@ -286,3 +286,6 @@ A28	Experiencer T55 Patient
 A29	Experiencer T73 Other
 A30	Experiencer T76 Other
 A31	Experiencer T80 Patient
+T102	Duration 1708 1713	aguda
+#80	AnnotatorNotes T102	C0205178; acute; Temporal Concept
+R68	Has_Duration_or_Interval Arg1:T33 Arg2:T102	

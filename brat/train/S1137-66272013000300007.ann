@@ -116,3 +116,11 @@ A2	Experiencer T30 Patient
 A3	Experiencer T32 Patient
 A4	Experiencer T36 Patient
 A5	Experiencer T43 Patient
+T47	PROC 763 768	HCWVS
+#36	AnnotatorNotes T47	['High crossectomy without vascular sectioning']
+R7	Location_of Arg1:T12 Arg2:T47	
+R34	Experiences Arg1:T32 Arg2:T47	
+T48	PROC 1048 1053	HCWVS
+#37	AnnotatorNotes T48	['High crossectomy without vascular sectioning']
+R35	Experiences Arg1:T36 Arg2:T48	
+R36	Before Arg1:T48 Arg2:T17	

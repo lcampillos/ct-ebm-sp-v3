@@ -152,9 +152,9 @@ T65	Result_or_Value 462 470	negativa
 #56	AnnotatorNotes T65	C0205160; Negative; Finding
 R19	Has_Result_or_Value Arg1:T38 Arg2:T65	
 R20	Overlap Arg1:T12 Arg2:T13	
-T66	Quantifier_or_Qualifier 611 616	agudo
-#57	AnnotatorNotes T66	C0439557; Acute phase; Temporal Concept
-R21	Has_Quantifier_or_Qualifier Arg1:T12 Arg2:T66	
+T66	Duration 611 616	agudo
+#57	AnnotatorNotes T66	C0205178; acute; Temporal Concept
+R21	Has_Duration_or_Interval Arg1:T12 Arg2:T66	
 T67	Result_or_Value 649 670	mayor o igual a 15 Kg
 R22	Has_Result_or_Value Arg1:T55 Arg2:T67	
 R24	Location_of Arg1:T40 Arg2:T14	
@@ -181,3 +181,6 @@ A16	Experiencer T50 Family_member
 A17	Experiencer T49 Other
 A18	Experiencer T59 Patient
 A19	Experiencer T57 Patient
+T69	Duration 750 755	agudo
+#60	AnnotatorNotes T69	C0205178; acute; Temporal Concept
+R23	Has_Duration_or_Interval Arg1:T14 Arg2:T69	

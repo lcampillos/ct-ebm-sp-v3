@@ -156,10 +156,10 @@ R14	Overlap Arg1:T8 Arg2:T9
 R15	Experiences Arg1:T64 Arg2:T9	
 T69	Observation 498 516	acepten participar
 R16	Before Arg1:T69 Arg2:T10	
-T70	Quantifier_or_Qualifier 563 565	≥4
+T70	Result_or_Value 563 565	≥4
 T71	CONC 599 612	escala Likert
 #64	AnnotatorNotes T71	C0451267; Likert scale; Intellectual Product
-R20	Has_Quantifier_or_Qualifier Arg1:T71 Arg2:T70	
+R20	Has_Result_or_Value Arg1:T71 Arg2:T70	
 R21	Experiences Arg1:T50 Arg2:T11	
 R22	Overlap Arg1:T11 Arg2:T51	
 R23	Overlap Arg1:T11 Arg2:T52	
@@ -209,3 +209,18 @@ A15	Experiencer T46 Patient
 A16	Experiencer T64 Patient
 A17	Experiencer T50 Patient
 A18	Experiencer T54 Patient
+T78	Duration 231 236	aguda
+#70	AnnotatorNotes T78	C0205178; acute; Temporal Concept
+R17	Has_Duration_or_Interval Arg1:T4 Arg2:T78	
+T79	Duration 162 167	aguda
+#71	AnnotatorNotes T79	C0205178; acute; Temporal Concept
+R18	Has_Duration_or_Interval Arg1:T3 Arg2:T79	
+T80	Duration 486 491	aguda
+#72	AnnotatorNotes T80	C0205178; acute; Temporal Concept
+R19	Has_Duration_or_Interval Arg1:T9 Arg2:T80	
+T81	Duration 308 313	aguda
+#73	AnnotatorNotes T81	C0205178; acute; Temporal Concept
+R50	Has_Duration_or_Interval Arg1:T7 Arg2:T81	
+T82	Duration 963 968	agudo
+#74	AnnotatorNotes T82	C0205178; acute; Temporal Concept
+R52	Has_Duration_or_Interval Arg1:T23 Arg2:T82	

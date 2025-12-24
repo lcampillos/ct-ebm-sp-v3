@@ -120,12 +120,12 @@ A1	Status T29 History_of
 R1	Experiences Arg1:T52 Arg2:T1	
 R2	Experiences Arg1:T52 Arg2:T2	
 R3	Location_of Arg1:T33 Arg2:T2	
-T64	Quantifier_or_Qualifier 124 129	Aguda
-#55	AnnotatorNotes T64	C0439557; Acute phase; Temporal Concept
-R4	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T64	
-T66	Quantifier_or_Qualifier 306 311	aguda
-#56	AnnotatorNotes T66	C0439557; Acute phase; Temporal Concept
-R5	Has_Quantifier_or_Qualifier Arg1:T7 Arg2:T66	
+T64	Duration 124 129	Aguda
+#55	AnnotatorNotes T64	C0205178; acute; Temporal Concept
+R4	Has_Duration_or_Interval Arg1:T2 Arg2:T64	
+T66	Duration 306 311	aguda
+#56	AnnotatorNotes T66	C0205178; acute; Temporal Concept
+R5	Has_Duration_or_Interval Arg1:T7 Arg2:T66	
 R6	Location_of Arg1:T36 Arg2:T7	
 R7	Location_of Arg1:T35 Arg2:T3	
 R8	Experiences Arg1:T52 Arg2:T3	
@@ -209,3 +209,8 @@ A4	Experiencer T54 Other
 A5	Experiencer T65 Patient
 R17	Has_Result_or_Value Arg1:T41 Arg2:T70	
 R18	Has_Result_or_Value Arg1:T20 Arg2:T69	
+T83	Duration 1137 1142	agudo
+#69	AnnotatorNotes T83	C0205178; acute; Temporal Concept
+R24	Has_Duration_or_Interval Arg1:T26 Arg2:T83	
+T84	CONC 46 58	Dosificación
+#70	AnnotatorNotes T84	C0178602; Dosage; Quantitative Concept

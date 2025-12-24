@@ -166,3 +166,7 @@ A5	Experiencer T43 Patient
 A6	Experiencer T44 Patient
 R11	Has_Result_or_Value Arg1:T37 Arg2:T53	
 R13	Has_Result_or_Value Arg1:T38 Arg2:T58	
+T61	ANAT 550 561	intraocular
+#50	AnnotatorNotes T61	C3282905; Intraocular; Spatial Concept
+R47	Location_of Arg1:T61 Arg2:T17	
+R48	Location_of Arg1:T61 Arg2:T6	

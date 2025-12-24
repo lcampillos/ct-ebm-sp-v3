@@ -9,7 +9,7 @@ T5	DISO 162 220	accidente cerebrovascular embólico de origen indeterminado
 #4	AnnotatorNotes T5	C3888970; Embolic stroke of undetermined source; Disease or Syndrome
 T6	CHEM 46 57	Rivaroxaban
 #5	AnnotatorNotes T6	C1739768; rivaroxaban; Organic Chemical · Pharmacologic Substance
-T7	PROC 245 361	Estudio de superioridad, fase III, multicéntrico, aleatorizado, doble-ciego, doble simulación, con comparador activo
+T7	PROC 245 384	Estudio de superioridad, fase III, multicéntrico, aleatorizado, doble-ciego, doble simulación, con comparador activo y dirigido por eventos
 T8	PROC 1583 1600	Rankin modificada
 #6	AnnotatorNotes T8	C3888574; Modified Rankin score; Diagnostic Procedure
 T9	CHEM 398 409	rivaroxaban
@@ -246,3 +246,28 @@ R9	Overlap Arg1:T23 Arg2:T60
 #65	AnnotatorNotes T69	C0205394; Other; Qualitative Concept
 A21	Experiencer T46 Patient
 A22	Experiencer T51 Patient
+T87	DISO 628 632	ACEI
+#66	AnnotatorNotes T87	C3888970; Embolic stroke of undetermined source; Disease or Syndrome
+R10	Experiences Arg1:T51 Arg2:T87	
+T88	ANAT 172 187	cerebrovascular
+#67	AnnotatorNotes T88	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R21	Location_of Arg1:T88 Arg2:T5	
+T89	ANAT 497 512	cerebrovascular
+#68	AnnotatorNotes T89	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R28	Location_of Arg1:T89 Arg2:T12	
+T90	ANAT 575 590	cerebrovascular
+#69	AnnotatorNotes T90	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R44	Location_of Arg1:T90 Arg2:T14	
+T91	ANAT 715 730	cerebrovascular
+#70	AnnotatorNotes T91	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R45	Location_of Arg1:T91 Arg2:T17	
+T92	ANAT 861 876	cerebrovascular
+#71	AnnotatorNotes T92	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R81	Location_of Arg1:T92 Arg2:T18	
+T93	ANAT 1409 1424	cerebrovascular
+#72	AnnotatorNotes T93	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R82	Location_of Arg1:T93 Arg2:T27	
+T94	CONC 1324 1338	transesofágica
+#73	AnnotatorNotes T94	C0522518; Transesophageal approach; Spatial Concept
+T95	CONC 1341 1354	transtorácica
+#74	AnnotatorNotes T95	C0205503; Transthoracic approach; Spatial Concept | C4049694; Transthoracic; Spatial Concept

@@ -104,3 +104,12 @@ A4	Experiencer T27 Patient
 A5	Experiencer T29 Patient
 A6	Experiencer T30 Other
 A7	Experiencer T32 Patient
+T38	Duration 232 237	agudo
+#37	AnnotatorNotes T38	C0205178; acute; Temporal Concept
+R6	Has_Duration_or_Interval Arg1:T6 Arg2:T38	
+T39	Duration 382 387	agudo
+#38	AnnotatorNotes T39	C0205178; acute; Temporal Concept
+R10	Has_Duration_or_Interval Arg1:T9 Arg2:T39	
+T40	Duration 137 142	agudo
+#39	AnnotatorNotes T40	C0205178; acute; Temporal Concept
+R11	Has_Duration_or_Interval Arg1:T4 Arg2:T40	

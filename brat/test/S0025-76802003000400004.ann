@@ -28,24 +28,24 @@ T14	DISO 1337 1356	diarrea persistente
 #14	AnnotatorNotes T14	C0743188; diarrhea persistent; Disease or Syndrome
 T15	PROC 285 305	distribuidos al azar
 #15	AnnotatorNotes T15	C0034656; Randomization; Research Activity
-T16	LIVB 20 31	probióticos
-#16	AnnotatorNotes T16	C0525033; Probiotics; Bacterium
+T16	CHEM 20 31	probióticos
+#16	AnnotatorNotes T16	C3485429; Probiotic Formula; Pharmacologic Substance (?)
 T17	LIVB 64 69	niños
 #17	AnnotatorNotes T17	C0008059; Child; Age Group
-T19	LIVB 180 196	Lactobacillus sp
+T19	CHEM 180 196	Lactobacillus sp
 #18	AnnotatorNotes T19	C1265210; Lactobacillus species; Bacterium
-T20	LIVB 199 222	Saccharomyces boulardii
+T20	CHEM 199 222	Saccharomyces boulardii
 #19	AnnotatorNotes T20	C0772093; Saccharomyces boulardii; Fungus
 T21	LIVB 241 246	niños
 #20	AnnotatorNotes T21	C0008059; Child; Age Group
 T22	Age 247 269	entre 6 meses y 2 años
-T23	LIVB 372 391	Lactobacillus casei
+T23	CHEM 372 391	Lactobacillus casei
 #21	AnnotatorNotes T23	C0022940; Lactobacillus casei; Bacterium
-T24	LIVB 394 420	Lactobacillus acidophillus
+T24	CHEM 394 420	Lactobacillus acidophillus
 #22	AnnotatorNotes T24	C0022939; Lactobacillus acidophilus; Bacterium
 T25	LIVB 473 485	Lactobacilos
 #23	AnnotatorNotes T25	C0022938; Lactobacillus; Bacterium
-T26	LIVB 539 551	S. boulardii
+T26	CHEM 539 551	S. boulardii
 #24	AnnotatorNotes T26	C0772093; Saccharomyces boulardii; Fungus
 T27	LIVB 607 611	niño
 #25	AnnotatorNotes T27	C0008059; Child; Age Group
@@ -55,9 +55,9 @@ T30	Duration 652 658	5 días
 T31	Frequency 696 700	/día
 T32	LIVB 837 846	rotavirus
 #26	AnnotatorNotes T32	C0035870; Rotavirus; Virus
-T33	LIVB 849 865	Lactobacillus sp
+T33	CHEM 849 865	Lactobacillus sp
 #27	AnnotatorNotes T33	C1265210; Lactobacillus species; Bacterium
-T34	LIVB 868 880	S. boulardii
+T34	CHEM 868 880	S. boulardii
 #28	AnnotatorNotes T34	C0772093; Saccharomyces boulardii; Fungus
 T36	LIVB 1109 1118	pacientes
 #29	AnnotatorNotes T36	C0030705; Patients; Patient or Disabled Group
@@ -66,15 +66,15 @@ T37	LIVB 1123 1132	rotavirus
 T38	LIVB 1144 1153	rotavirus
 #31	AnnotatorNotes T38	C0035870; Rotavirus; Virus
 T39	Neg_cue 1154 1162	negativo
-T40	LIVB 1273 1285	S. boulardii
+T40	CHEM 1273 1285	S. boulardii
 #32	AnnotatorNotes T40	C0772093; Saccharomyces boulardii; Fungus
 T41	LIVB 1360 1365	niños
 #33	AnnotatorNotes T41	C0008059; Child; Age Group
 T43	LIVB 772 790	gérmenes patógenos
 #34	AnnotatorNotes T43	C0445623; Microorganism; Organism + C0450254; Pathogenic organism; Organism
-T18	LIVB 1227 1242	L. acidophillus
+T18	CHEM 1227 1242	L. acidophillus
 #35	AnnotatorNotes T18	C0022939; Lactobacillus acidophilus; Bacterium
-T35	LIVB 1216 1224	L. casei
+T35	CHEM 1216 1224	L. casei
 #36	AnnotatorNotes T35	C0022940; Lactobacillus casei; Bacterium
 T44	PHYS 923 935	deposiciones
 #37	AnnotatorNotes T44	C0011135; Defecation; Organism Function
@@ -135,7 +135,6 @@ R30	Has_Result_or_Value Arg1:T37 Arg2:T58
 R31	Used_for Arg1:T35 Arg2:T13	
 R32	Used_for Arg1:T18 Arg2:T13	
 R33	Used_for Arg1:T40 Arg2:T13	
-R34	Experiences Arg1:T41 Arg2:T13	
 R35	Experiences Arg1:T41 Arg2:T14	
 R36	Has_Dose_or_Strength Arg1:T53 Arg2:T42	
 #44	AnnotatorNotes T47	C0205423; Certain (qualifier value); Qualitative Concept
@@ -149,5 +148,7 @@ A12	Experiencer T41 Patient
 T56	Result_or_Value 1154 1162	negativo
 R26	Has_Result_or_Value Arg1:T38 Arg2:T56	
 T59	DISO 1123 1141	rotavirus-positivo
-R27	Experiences Arg1:T36 Arg2:T59
-#46	AnnotatorNotes T59	C1504349; Rotavirus test positive; Laboratory or Test Result
+R27	Experiences Arg1:T36 Arg2:T59	
+#46	AnnotatorNotes T59	C1504349; Rotavirus test positive; Laboratory or Test Result 
+R37	Experiences Arg1:T17 Arg2:T16	
+R39	Experiences Arg1:T41 Arg2:T13	

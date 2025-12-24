@@ -277,3 +277,7 @@ A9	Experiencer T89 Patient
 R15	Has_Result_or_Value Arg1:T65 Arg2:T88	
 R16	Has_Result_or_Value Arg1:T66 Arg2:T87	
 R42	Has_Result_or_Value Arg1:T61 Arg2:T95	
+T96	ANAT 713 724	intraocular
+#84	AnnotatorNotes T96	C3282905; Intraocular; Spatial Concept
+R43	Location_of Arg1:T96 Arg2:T54	
+R44	Location_of Arg1:T96 Arg2:T55	

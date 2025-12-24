@@ -114,12 +114,8 @@ R23	Before Arg1:T8 Arg2:T7
 R24	Experiences Arg1:T30 Arg2:T10	
 R25	Has_Dose_or_Strength Arg1:T11 Arg2:T31	
 R26	Combined_with Arg1:T11 Arg2:T12	
-T52	Observation 915 920	Cstat
-#38	AnnotatorNotes T52	C0429681; Static lung compliance; Finding
-T53	Observation 1838 1843	Cstat
+T53	PROC 1838 1843	Cstat
 #39	AnnotatorNotes T53	C0429681; Static lung compliance; Finding
-T54	Observation 903 909	DA-aO2
-#40	AnnotatorNotes T54	C0429685; Alveolar-arterial oxygen tension difference; Finding
 T55	Observation 994 1009	score APACHE II
 #41	AnnotatorNotes T55	C0489438; APACHE II score; Finding
 T56	Observation 1031 1046	morbimortalidad
@@ -127,7 +123,6 @@ T57	PROC 892 899;912 920	valores de Cstat
 R27	Overlap Arg1:T16 Arg2:T18	
 R28	Overlap Arg1:T57 Arg2:T18	
 R32	Overlap Arg1:T17 Arg2:T55	
-R34	Overlap Arg1:T57 Arg2:T55	
 T58	CONC 1078 1109	prueba estadística T de Student
 #42	AnnotatorNotes T58	C0871453; Students T Test; Intellectual Product
 T59	CONC 1158 1168	mortalidad
@@ -156,7 +151,7 @@ R59	Experiences Arg1:T35 Arg2:T23
 R60	Experiences Arg1:T35 Arg2:T34	
 R61	Experiences Arg1:T35 Arg2:T22	
 R62	Experiences Arg1:T35 Arg2:T53	
-T64	Observation 1827 1832	DAaO2
+T64	PROC 1827 1832	DAaO2
 #48	AnnotatorNotes T64	C0429685; Alveolar-arterial oxygen tension difference; Finding
 R63	Experiences Arg1:T35 Arg2:T64	
 R68	Overlap Arg1:T23 Arg2:T22	
@@ -178,3 +173,7 @@ A8	Experiencer T25 Patient
 A9	Experiencer T27 Patient
 A10	Experiencer T30 Patient
 A11	Experiencer T35 Patient
+T67	Duration 77 82	agudo
+#51	AnnotatorNotes T67	C0439557; Acute phase; Temporal Concept
+R29	Has_Duration_or_Interval Arg1:T2 Arg2:T67	
+#38	AnnotatorNotes T57	C0429681; Static lung compliance; Finding

@@ -135,3 +135,18 @@ R46	Location_of Arg1:T34 Arg2:T33
 #45	AnnotatorNotes T31	C0030283; Pancreatic Cyst; Disease or Syndrome
 A5	Experiencer T44 Patient
 A6	Experiencer T47 Patient
+T54	Duration 174 179	aguda
+#46	AnnotatorNotes T54	C0205178; acute; Temporal Concept
+R15	Has_Duration_or_Interval Arg1:T5 Arg2:T54	
+T55	Duration 380 385	aguda
+#47	AnnotatorNotes T55	C0205178; acute; Temporal Concept
+R20	Has_Duration_or_Interval Arg1:T9 Arg2:T55	
+T56	Duration 452 457	aguda
+#48	AnnotatorNotes T56	C0205178; acute; Temporal Concept
+R21	Has_Duration_or_Interval Arg1:T13 Arg2:T56	
+T57	Duration 636 641	aguda
+#49	AnnotatorNotes T57	C0205178; acute; Temporal Concept
+R22	Has_Duration_or_Interval Arg1:T16 Arg2:T57	
+T58	Duration 1186 1191	aguda
+#50	AnnotatorNotes T58	C0205178; acute; Temporal Concept
+R23	Has_Duration_or_Interval Arg1:T33 Arg2:T58	

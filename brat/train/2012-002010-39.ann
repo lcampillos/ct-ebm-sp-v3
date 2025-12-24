@@ -162,3 +162,6 @@ T49	Frequency 1269 1273	/día
 R26	Has_Frequency Arg1:T51 Arg2:T49	
 A5	Experiencer T50 Patient
 A6	Experiencer T42 Patient
+T70	Route 1197 1207	sistémicos
+#51	AnnotatorNotes T70	C5849094; Systemic Route of Administration; Functional Concept
+R40	Has_Route_or_Mode Arg1:T32 Arg2:T70	

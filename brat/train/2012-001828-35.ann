@@ -221,12 +221,12 @@ T98	Observation 218 228	progresado
 #80	AnnotatorNotes T98	C1457868; Worse; Finding (?)
 R33	Before Arg1:T6 Arg2:T98	
 R34	After Arg1:T98 Arg2:T7	
-T99	Observation 595 606	irresecable
+T99	Quantifier_or_Qualifier 595 606	irresecable
 #81	AnnotatorNotes T99	C4039777; Tumor surgically unresectable; Finding
 R35	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T99	
 R36	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T53	
 R37	Experiences Arg1:T67 Arg2:T97	
-T100	Observation 428 439	irresecable
+T100	Quantifier_or_Qualifier 428 439	irresecable
 #82	AnnotatorNotes T100	C4039777; Tumor surgically unresectable; Finding
 R38	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T100	
 R39	Has_Age Arg1:T91 Arg2:T90	
@@ -240,7 +240,7 @@ T103	Quantifier_or_Qualifier 730 741	estadio III
 T104	Quantifier_or_Qualifier 761 771	estadio IV
 R44	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T103	
 R45	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T104	
-T105	Observation 743 754	irresecable
+T105	Quantifier_or_Qualifier 743 754	irresecable
 #84	AnnotatorNotes T105	C4039777; Tumor surgically unresectable; Finding
 R46	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T105	
 T106	CONC 849 869	criterios RECIST 1.1

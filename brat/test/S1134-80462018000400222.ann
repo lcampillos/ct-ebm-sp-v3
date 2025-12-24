@@ -57,10 +57,10 @@ T30	PROC 2654 2668	administración
 #27	AnnotatorNotes T30	C1533734; Administration procedure; Therapeutic or Preventive Procedure
 T31	DISO 2870 2875	dolor
 #28	AnnotatorNotes T31	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
-T32	Route 53 57	oral
-#29	AnnotatorNotes T32	C1527415; Oral Route of Drug administration; Functional Concept
-T33	Route 175 179	oral
-#30	AnnotatorNotes T33	C1527415; Oral Route of Drug administration; Functional Concept
+T32	Route 53 69	oral transmucosa
+#29	AnnotatorNotes T32	C1527415; Oral Route of Drug administration; Functional Concept + C1513727; Transmucosal Route of Administration; Functional Concept
+T33	Route 175 191	oral transmucosa
+#30	AnnotatorNotes T33	C1527415; Oral Route of Drug administration; Functional Concept + C1513727; Transmucosal Route of Administration; Functional Concept
 T34	Form 316 332	polvo comprimido
 #31	AnnotatorNotes T34	C1337629; COMPRESSED LOZENGE; Biomedical or Dental Material
 T35	DEVI 337 346	aplicador

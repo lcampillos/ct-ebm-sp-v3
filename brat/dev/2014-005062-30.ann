@@ -240,3 +240,7 @@ A10	Experiencer T63 Patient
 A11	Experiencer T64 Patient
 A12	Experiencer T66 Patient
 A13	Experiencer T78 Patient
+T89	Route 995 1003	epidural
+#78	AnnotatorNotes T89	C0592511; Epidural Route of Drug Administration; Functional Concept
+R2	Has_Route_or_Mode Arg1:T52 Arg2:T89	
+A14	Assertion T89 Negated

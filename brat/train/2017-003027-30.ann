@@ -72,9 +72,9 @@ R11	Negation Arg1:T22 Arg2:T23
 R12	Location_of Arg1:T6 Arg2:T3	
 R13	Combined_with Arg1:T3 Arg2:T4	
 R14	Location_of Arg1:T14 Arg2:T2	
-T30	Quantifier_or_Qualifier 112 117	aguda
-#25	AnnotatorNotes T30	C0439557; Acute phase; Temporal Concept
-R15	Has_Quantifier_or_Qualifier Arg1:T2 Arg2:T30	
+T30	Duration 112 117	aguda
+#25	AnnotatorNotes T30	C0205178; acute; Temporal Concept
+R15	Has_Duration_or_Interval Arg1:T2 Arg2:T30	
 R17	Location_of Arg1:T15 Arg2:T20	
 R18	Has_Age Arg1:T19 Arg2:T21	
 R19	Location_of Arg1:T10 Arg2:T5	

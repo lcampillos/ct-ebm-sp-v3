@@ -135,3 +135,9 @@ A9	Experiencer T38 Patient
 A10	Experiencer T39 Patient
 A11	Experiencer T42 Patient
 A12	Status T11 Future
+T54	ANAT 1009 1017	torácica
+#45	AnnotatorNotes T54	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
+R17	Location_of Arg1:T54 Arg2:T33	
+T55	ANAT 1029 1044	cervicobraquial
+#46	AnnotatorNotes T55	C0728985; Cervical spine; Body Part, Organ, or Organ Component | C1284110; Entire cervical spinal column; Body Part, Organ, or Organ Component + C1140618; Upper Extremity; Body Part, Organ, or Organ Component | C1269078; Entire upper limb; Body Part, Organ, or Organ Component 
+R30	Location_of Arg1:T55 Arg2:T23	

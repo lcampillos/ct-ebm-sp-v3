@@ -208,10 +208,10 @@ R16	Location_of Arg1:T44 Arg2:T4
 R17	Location_of Arg1:T5 Arg2:T4	
 T97	Quantifier_or_Qualifier 180 199	localmente avanzado
 R18	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T97	
-T98	Observation 200 211	irresecable
+T98	Quantifier_or_Qualifier 200 211	irresecable
 #78	AnnotatorNotes T98	C4039777; Tumor surgically unresectable; Finding
 R19	Has_Quantifier_or_Qualifier Arg1:T4 Arg2:T98	
-T99	Observation 659 670	irresecable
+T99	Quantifier_or_Qualifier 659 670	irresecable
 #79	AnnotatorNotes T99	C4039777; Tumor surgically unresectable; Finding
 R20	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T99	
 R21	Before Arg1:T13 Arg2:T52	
@@ -322,3 +322,8 @@ A26	Experiencer T75 Other
 A27	Experiencer T77 Patient
 A28	Experiencer T78 Patient
 A29	Experiencer T73 Patient
+T116	CHEM 1252 1265	biomarcadores
+#93	AnnotatorNotes T116	C0815130; chemical substances as biological markers; Chemical Viewed Functionally
+T117	Route 1374 1383	sistémica
+#94	AnnotatorNotes T117	C5849094; Systemic Route of Administration; Functional Concept
+R50	Has_Route_or_Mode Arg1:T31 Arg2:T117	

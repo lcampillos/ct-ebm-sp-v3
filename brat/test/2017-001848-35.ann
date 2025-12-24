@@ -83,11 +83,11 @@ R1	Negation Arg1:T30 Arg2:T2
 R2	Negation Arg1:T32 Arg2:T4	
 T31	Route 112 121	SISTÉMICO
 A10	Assertion T31 Negated
-#30	AnnotatorNotes T31	C0205373; Systemic; Functional Concept
+#30	AnnotatorNotes T31	C5849094; Systemic Route of Administration; Functional Concept
 R3	Has_Route_or_Mode Arg1:T2 Arg2:T31	
 T37	Route 211 220	SISTÉMICO
 A11	Assertion T37 Negated
-#31	AnnotatorNotes T37	C0205373; Systemic; Functional Concept
+#31	AnnotatorNotes T37	C5849094; Systemic Route of Administration; Functional Concept
 R4	Has_Route_or_Mode Arg1:T4 Arg2:T37	
 T38	Neg_cue 646 657	Ausencia de
 T41	Observation 658 680	movilidad del implante
@@ -133,3 +133,7 @@ R14	Has_Frequency Arg1:T16 Arg2:T52
 A13	Experiencer T33 Patient
 A14	Experiencer T50 Patient
 A15	Experiencer T47 Patient
+T53	Quantifier_or_Qualifier 751 760	sistémica
+R21	Has_Quantifier_or_Qualifier Arg1:T25 Arg2:T53	
+A16	Assertion T53 Negated
+#34	AnnotatorNotes T53	C0205373; Systemic; Functional Concept

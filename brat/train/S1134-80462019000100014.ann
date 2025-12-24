@@ -212,9 +212,8 @@ R43	Has_Route_or_Mode Arg1:T27 Arg2:T77
 R46	Before Arg1:T24 Arg2:T30	
 R47	After Arg1:T24 Arg2:T78	
 R48	Experiences Arg1:T79 Arg2:T31	
-T94	CONC 1336 1370	índice de discapacidad de Oswestry
+T94	PROC 1336 1370	índice de discapacidad de Oswestry
 #76	AnnotatorNotes T94	C0451360; Oswestry disability index; Intellectual Product
-R49	Used_for Arg1:T94 Arg2:T31	
 R50	Before Arg1:T31 Arg2:T33	
 R51	After Arg1:T31 Arg2:T80	
 R53	Experiences Arg1:T79 Arg2:T33	
@@ -271,3 +270,6 @@ A8	Experiencer T67 Patient
 A9	Experiencer T73 Patient
 A10	Experiencer T84 Patient
 A11	Experiencer T86 Patient
+R42	Experiences Arg1:T79 Arg2:T94	
+R45	After Arg1:T94 Arg2:T80	
+R49	Before Arg1:T94 Arg2:T33	

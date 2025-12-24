@@ -92,3 +92,9 @@ R26	Before Arg1:T22 Arg2:T11
 #32	AnnotatorNotes T6	C5397144; Acute respiratory distress syndrome due to COVID-19; Disease or Syndrome 
 A3	Experiencer T28 Patient
 A4	Experiencer T29 Patient
+T36	Duration 225 230	agudo
+#33	AnnotatorNotes T36	C0205178; acute; Temporal Concept
+R2	Has_Duration_or_Interval Arg1:T6 Arg2:T36	
+T37	Duration 398 403	agudo
+#34	AnnotatorNotes T37	C0205178; acute; Temporal Concept
+R15	Has_Duration_or_Interval Arg1:T10 Arg2:T37	

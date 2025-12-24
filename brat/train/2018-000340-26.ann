@@ -206,7 +206,7 @@ R23	Causes Arg1:T26 Arg2:T72
 #60	AnnotatorNotes T49	C1762893; Date last dose; Temporal Concept
 #61	AnnotatorNotes T21	C4053960; Systemic Corticosteroid Therapy; Therapeutic or Preventive Procedure
 T74	Route 1041 1050	sistémico
-#62	AnnotatorNotes T74	C0205373; Systemic; Functional Concept
+#62	AnnotatorNotes T74	C5849094; Systemic Route of Administration; Functional Concept
 R41	Has_Route_or_Mode Arg1:T22 Arg2:T74	
 #63	AnnotatorNotes T14	C0751620; Central Nervous System Neoplasms, Primary; Neoplastic Process
 A9	Experiencer T41 Patient

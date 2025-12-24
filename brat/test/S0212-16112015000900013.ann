@@ -157,3 +157,19 @@ A15	Experiencer T42 Patient
 A16	Experiencer T43 Patient
 A17	Experiencer T32 Patient
 A18	Experiencer T38 Patient
+T54	Quantifier_or_Qualifier 1198 1209	enriquecida
+R26	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T54	
+T55	Quantifier_or_Qualifier 7 18	enriquecida
+R45	Has_Quantifier_or_Qualifier Arg1:T51 Arg2:T55	
+T56	Quantifier_or_Qualifier 637 648	enriquecida
+R46	Has_Quantifier_or_Qualifier Arg1:T50 Arg2:T56	
+T58	Quantifier_or_Qualifier 850 861	enriquecida
+R47	Has_Quantifier_or_Qualifier Arg1:T52 Arg2:T58	
+T59	Quantifier_or_Qualifier 1065 1076	enriquecida
+R48	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T59	
+T60	Quantifier_or_Qualifier 1125 1136	enriquecida
+A19	Assertion T60 Negated
+R49	Negation Arg1:T33 Arg2:T60	
+R50	Has_Quantifier_or_Qualifier Arg1:T39 Arg2:T60	
+T61	Quantifier_or_Qualifier 1312 1323	enriquecida
+R51	Has_Quantifier_or_Qualifier Arg1:T49 Arg2:T61	

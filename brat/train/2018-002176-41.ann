@@ -78,8 +78,8 @@ T39	PROC 1883 1894	tratamiento
 T40	CHEM 1909 1919	dabigatran
 #39	AnnotatorNotes T40	C2348066; dabigatran; Organic Chemical · Pharmacologic Substance
 T41	PROC 2003 2028	tratamiento antiagregante
-T42	ANAT 2108 2126	orejuela auricular
-#40	AnnotatorNotes T42	C0225832; Structure of auricular appendage; Body Part, Organ, or Organ Component
+T42	ANAT 2108 2136	orejuela auricular izquierda
+#40	AnnotatorNotes T42	C0225861; Left auricular appendage; Body Part, Organ, or Organ Component
 T43	ANAT 2149 2155	Atrial
 #41	AnnotatorNotes T43	C0018792; Heart Atrium; Body Part, Organ, or Organ Component
 T44	PROC 2200 2211	implantarlo
@@ -354,3 +354,14 @@ A32	Experiencer T85 Patient
 A33	Experiencer T88 Patient
 A34	Experiencer T89 Other
 A35	Experiencer T93 Other
+T115	ANAT 306 321	cerebrovascular
+#95	AnnotatorNotes T115	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R75	Location_of Arg1:T115 Arg2:T10	
+T116	DEVI 2138 2142	LAAO
+#96	AnnotatorNotes T116	C4052499; Occluders, Cardiac, Left Atrial Appendage; Medical Device
+T117	DEVI 2144 2182	Left Atrial Appendage Occlusion device
+#97	AnnotatorNotes T117	C4052499; Occluders, Cardiac, Left Atrial Appendage; Medical Device
+R115	Used_for Arg1:T117 Arg2:T44	
+R116	Used_for Arg1:T116 Arg2:T44	
+R117	Location_of Arg1:T42 Arg2:T116	
+R118	Location_of Arg1:T42 Arg2:T117	

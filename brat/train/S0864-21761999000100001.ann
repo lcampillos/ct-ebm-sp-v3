@@ -51,3 +51,6 @@ R13	Location_of Arg1:T12 Arg2:T11
 T24	Observation 602 613	alto riesgo
 #19	AnnotatorNotes T24	C4319571; High risk; Finding
 R1	Before Arg1:T24 Arg2:T10	
+T25	Duration 648 653	agudo
+#20	AnnotatorNotes T25	C0205178; acute; Temporal Concept
+R2	Has_Duration_or_Interval Arg1:T10 Arg2:T25	

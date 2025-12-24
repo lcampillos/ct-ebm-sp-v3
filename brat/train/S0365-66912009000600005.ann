@@ -186,7 +186,7 @@ R70	Overlap Arg1:T55 Arg2:T56
 R71	Overlap Arg1:T55 Arg2:T57	
 R72	Overlap Arg1:T21 Arg2:T56	
 R73	Overlap Arg1:T21 Arg2:T57	
-T68	PROC 1055 1080	test de medidas repetidas
+T68	CONC 1055 1080	test de medidas repetidas
 #54	AnnotatorNotes T68	C0871881; repeated measures; Research Activity
 R74	Overlap Arg1:T68 Arg2:T58	
 R75	Overlap Arg1:T68 Arg2:T59	
@@ -219,3 +219,6 @@ A5	Experiencer T45 Patient
 A6	Experiencer T48 Patient
 A7	Experiencer T51 Patient
 A8	Experiencer T53 Patient
+T69	ANAT 901 912	intraocular
+#55	AnnotatorNotes T69	C3282905; Intraocular; Spatial Concept
+R8	Location_of Arg1:T69 Arg2:T38	

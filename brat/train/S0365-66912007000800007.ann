@@ -142,3 +142,11 @@ A1	Experiencer T43 Patient
 A2	Experiencer T45 Patient
 A3	Experiencer T46 Patient
 A4	Experiencer T49 Other
+T52	ANAT 342 353	intraocular
+#50	AnnotatorNotes T52	C3282905; Intraocular; Spatial Concept
+R27	Location_of Arg1:T52 Arg2:T44	
+R35	Location_of Arg1:T52 Arg2:T8	
+T54	ANAT 1111 1122	intraocular
+#51	AnnotatorNotes T54	C3282905; Intraocular; Spatial Concept
+R36	Location_of Arg1:T54 Arg2:T51	
+R42	Location_of Arg1:T54 Arg2:T18	

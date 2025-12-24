@@ -403,9 +403,9 @@ T159	Quantifier_or_Qualifier 2321 2327	activa
 R121	Has_Quantifier_or_Qualifier Arg1:T63 Arg2:T159	
 R122	Overlap Arg1:T65 Arg2:T133	
 R123	Has_Duration_or_Interval Arg1:T92 Arg2:T134	
-T160	Quantifier_or_Qualifier 2411 2420	sistémico
-#136	AnnotatorNotes T160	C0205373; Systemic; Functional Concept
-R124	Has_Quantifier_or_Qualifier Arg1:T92 Arg2:T160	
+T160	Route 2411 2420	sistémico
+#136	AnnotatorNotes T160	C5849094; Systemic Route of Administration; Functional Concept
+R124	Has_Route_or_Mode Arg1:T92 Arg2:T160	
 R125	Has_Route_or_Mode Arg1:T93 Arg2:T135	
 R126	Overlap Arg1:T93 Arg2:T136	
 T161	CONC 2521 2530	inclusión
@@ -434,3 +434,6 @@ A17	Experiencer T106 Patient
 A18	Experiencer T107 Other
 A19	Experiencer T109 Other
 A20	Experiencer T132 Patient
+T162	ANAT 1667 1682	cerebrovascular
+#138	AnnotatorNotes T162	C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System
+R47	Location_of Arg1:T162 Arg2:T38	

@@ -126,12 +126,11 @@ R12	Overlap Arg1:T50 Arg2:T8
 R13	Location_of Arg1:T39 Arg2:T11	
 T51	CONC 465 531	criterios de artrosis de la ACR (American College of Rheumatology)
 T58	Result_or_Value 560 586	igual o mayor a 2,5 puntos
-R14	Has_Result_or_Value Arg1:T12 Arg2:T58	
 R15	Location_of Arg1:T41 Arg2:T12	
 T60	Result_or_Value 622 628	0 a 10
 R16	Has_Result_or_Value Arg1:T14 Arg2:T60	
 R17	Has_Result_or_Value Arg1:T13 Arg2:T60	
-T61	Observation 672 699	escala de Kellgren-Lawrence
+T61	PROC 672 699	escala de Kellgren-Lawrence
 #48	AnnotatorNotes T61	C3177117; Kellgren-Lawrence score; Finding
 T62	Result_or_Value 700 717	mayor o igual a 2
 R20	Has_Result_or_Value Arg1:T61 Arg2:T62	
@@ -179,3 +178,5 @@ R18	Used_for Arg1:T4 Arg2:T37
 A11	Experiencer T47 Patient
 A12	Experiencer T48 Patient
 A13	Experiencer T57 Patient
+R19	Has_Result_or_Value Arg1:T13 Arg2:T58	
+R47	Has_Result_or_Value Arg1:T14 Arg2:T58	

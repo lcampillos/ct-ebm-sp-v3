@@ -263,7 +263,7 @@ T143	Quantifier_or_Qualifier 13 18	doble
 R1	Has_Quantifier_or_Qualifier Arg1:T53 Arg2:T143	
 R2	Used_for Arg1:T2 Arg2:T53	
 R3	Combined_with Arg1:T2 Arg2:T3	
-T144	PHYS 61 74	biomarcadores
+T144	CHEM 61 74	biomarcadores
 R4	Location_of Arg1:T4 Arg2:T104	
 R7	Overlap Arg1:T144 Arg2:T104	
 #117	AnnotatorNotes T80	C0042870; Vitamin D Deficiency; Disease or Syndrome
@@ -278,7 +278,7 @@ R15	Overlap Arg1:T7 Arg2:T9
 R16	Overlap Arg1:T80 Arg2:T9	
 R17	Overlap Arg1:T80 Arg2:T10	
 R18	Overlap Arg1:T7 Arg2:T10	
-T145	Observation 362 377	morbimortalidad
+T145	Observation 362 407	morbimortalidad de origen cardiovascular (CV)
 T146	PROC 409 424;435 443	Niveles séricos de 25OHD
 #118	AnnotatorNotes T146	C2229552; serum 25-hydroxycholecalciferol measurement; Laboratory Procedure
 T147	Quantifier_or_Qualifier 425 434	adecuados
@@ -453,9 +453,7 @@ R152	Before Arg1:T79 Arg2:T176
 A11	Assertion T176 Speculated
 T179	Spec_cue 3509 3515	parece
 R153	Speculation Arg1:T179 Arg2:T176	
-R154	Location_of Arg1:T13 Arg2:T145	
-R155	Location_of Arg1:T14 Arg2:T145	
-#138	AnnotatorNotes T144	C0005516; Biological Markers; Clinical Attribute
+#138	AnnotatorNotes T144	C0815130; chemical substances as biological markers; Chemical Viewed Functionally
 T181	Quantifier_or_Qualifier 3255 3277	de forma significativa
 A12	Assertion T181 Negated
 #139	AnnotatorNotes T181	C0237881; Statistical Significance; Quantitative Concept
@@ -482,3 +480,5 @@ A19	Experiencer T109 Patient
 R6	Has_Result_or_Value Arg1:T66 Arg2:T154	
 R25	Has_Result_or_Value Arg1:T67 Arg2:T157	
 R29	Has_Result_or_Value Arg1:T89 Arg2:T164	
+R37	Has_Duration_or_Interval Arg1:T9 Arg2:T110	
+R39	Has_Duration_or_Interval Arg1:T10 Arg2:T110	

@@ -75,8 +75,8 @@ T39	LIVB 519 526	sujetos
 #36	AnnotatorNotes T39	C0681850; Study Subject; Group
 T41	LIVB 635 641	sujeto
 #37	AnnotatorNotes T41	C0681850; Study Subject; Group
-T42	DEVI 710 719	perímetro
-#38	AnnotatorNotes T42	C0182215; Perimeter measuring device; Medical Device
+T42	DEVI 710 743	perímetro Humphrey Field Analyzer
+#38	AnnotatorNotes T42	C2721095; Humphrey Visual Field Analyzers; Medical Device
 T43	LIVB 1025 1032	sujetos
 #39	AnnotatorNotes T43	C0681850; Study Subject; Group
 T44	LIVB 1356 1363	sujetos
@@ -84,8 +84,7 @@ T44	LIVB 1356 1363	sujetos
 T47	Date 2142 2158	en la actualidad
 T48	PHYS 1438 1450	campo visual
 #41	AnnotatorNotes T48	C2370928; Visual field functions; Organ or Tissue Function
-T40	DEVI 808 813	láser
-#42	AnnotatorNotes T40	C1706315; Laser Device; Medical Device
+T40	DEVI 808 861	láser confocal de barrido Heidelberg Retina Tomograph
 T45	LIVB 1054 1071	grupos de estudio
 #43	AnnotatorNotes T45	C2348561; Study Population (group); Population Group
 T46	ANAT 1648 1658	excavación
@@ -150,3 +149,29 @@ A3	Experiencer T36 Patient
 A4	Experiencer T43 Patient
 A5	Experiencer T45 Patient
 A6	Experiencer T44 Patient
+T73	Result_or_Value 546 553	21 mmHg
+R2	Has_Result_or_Value Arg1:T3 Arg2:T73	
+T74	PROC 124 151	Heidelberg Retina Tomograph
+#55	AnnotatorNotes T74	C2183199; Heidelberg retinal topography; Diagnostic Procedure
+T75	Quantifier_or_Qualifier 152 154	II
+R3	Has_Quantifier_or_Qualifier Arg1:T74 Arg2:T75	
+T76	PROC 248 275	Heidelberg Retina Tomograph
+#56	AnnotatorNotes T76	C2183199; Heidelberg retinal topography; Diagnostic Procedure
+T77	PROC 280 283	HRT
+#57	AnnotatorNotes T77	C2183199; Heidelberg retinal topography; Diagnostic Procedure
+T78	Quantifier_or_Qualifier 276 278	II
+R12	Has_Quantifier_or_Qualifier Arg1:T76 Arg2:T78	
+R13	Has_Quantifier_or_Qualifier Arg1:T77 Arg2:T78	
+T79	PROC 863 866	HRT
+#42	AnnotatorNotes T79	C2183199; Heidelberg retinal topography; Diagnostic Procedure
+T80	Quantifier_or_Qualifier 867 869	II
+R14	Has_Quantifier_or_Qualifier Arg1:T79 Arg2:T80	
+T81	PROC 1983 1986	HRT
+#58	AnnotatorNotes T81	C2183199; Heidelberg retinal topography; Diagnostic Procedure
+T82	Quantifier_or_Qualifier 1987 1989	II
+R15	Has_Quantifier_or_Qualifier Arg1:T81 Arg2:T82	
+T83	ANAT 438 449	intraocular
+#59	AnnotatorNotes T83	C3282905; Intraocular; Spatial Concept
+R18	Location_of Arg1:T83 Arg2:T37	
+R27	Location_of Arg1:T83 Arg2:T28	
+R28	Location_of Arg1:T83 Arg2:T38	

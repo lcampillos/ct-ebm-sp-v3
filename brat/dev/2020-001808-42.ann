@@ -153,3 +153,6 @@ A9	Experiencer T42 Family_member
 A10	Experiencer T41 Patient
 A11	Experiencer T51 Patient
 A12	Experiencer T52 Other
+T65	Duration 815 820	aguda
+#49	AnnotatorNotes T65	C0205178; acute; Temporal Concept
+R9	Has_Duration_or_Interval Arg1:T14 Arg2:T65	

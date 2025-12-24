@@ -133,3 +133,16 @@ R45	Overlap Arg1:T24 Arg2:T17
 R46	Overlap Arg1:T16 Arg2:T17	
 A3	Experiencer T37 Patient
 A4	Experiencer T39 Patient
+T55	Duration 178 183	aguda
+#40	AnnotatorNotes T55	C0205178; acute; Temporal Concept
+R10	Has_Duration_or_Interval Arg1:T6 Arg2:T55	
+T56	Duration 258 263	aguda
+#41	AnnotatorNotes T56	C0205178; acute; Temporal Concept
+R11	Has_Duration_or_Interval Arg1:T8 Arg2:T56	
+T57	Duration 374 379	aguda
+#42	AnnotatorNotes T57	C0205178; acute; Temporal Concept
+R27	Has_Duration_or_Interval Arg1:T10 Arg2:T57	
+T58	Duration 481 486	aguda
+#43	AnnotatorNotes T58	C0205178; acute; Temporal Concept
+R28	Has_Duration_or_Interval Arg1:T12 Arg2:T58	
+R29	Has_Duration_or_Interval Arg1:T1 Arg2:T58	

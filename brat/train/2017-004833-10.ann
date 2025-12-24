@@ -141,8 +141,8 @@ R12	Used_for Arg1:T39 Arg2:T9
 R13	Combined_with Arg1:T39 Arg2:T12	
 R14	Overlap Arg1:T40 Arg2:T51	
 R15	Location_of Arg1:T13 Arg2:T41	
-R16	After Arg1:T14 Arg2:T53	
-R17	After Arg1:T41 Arg2:T53	
+R16	Overlap Arg1:T14 Arg2:T72	
+R17	Overlap Arg1:T41 Arg2:T72	
 R18	Experiences Arg1:T47 Arg2:T55	
 R19	Combined_with Arg1:T11 Arg2:T15	
 R20	Experiences Arg1:T47 Arg2:T11	
@@ -161,7 +161,7 @@ R32	Experiences Arg1:T60 Arg2:T62
 R33	Experiences Arg1:T60 Arg2:T20	
 T58	Result_or_Value 792 802	al menos 4
 R34	Has_Result_or_Value Arg1:T20 Arg2:T58	
-R35	Has_Duration_or_Interval Arg1:T63 Arg2:T65	
+R35	Overlap Arg1:T63 Arg2:T65	
 R36	Experiences Arg1:T66 Arg2:T21	
 R37	Causes Arg1:T22 Arg2:T21	
 R38	Location_of Arg1:T44 Arg2:T23	
@@ -190,3 +190,5 @@ A10	Experiencer T52 Patient
 A11	Experiencer T42 Family_member
 A12	Experiencer T60 Patient
 A13	Experiencer T66 Patient
+T72	Date 458 468	post parto
+#62	AnnotatorNotes T72	C0086839; Postpartum Period; Temporal Concept

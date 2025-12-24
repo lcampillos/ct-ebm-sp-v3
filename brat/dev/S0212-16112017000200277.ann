@@ -103,8 +103,6 @@ T54	Route 402 413	intravenosa
 #49	AnnotatorNotes T54	C1522726; Intravenous Route of Drug Administration; Functional Concept
 T55	Route 419 423	oral
 #50	AnnotatorNotes T55	C1527415; Oral Route of Drug administration; Functional Concept
-T56	Date 486 499	preoperatorio
-#51	AnnotatorNotes T56	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
 T57	Route 532 536	oral
 #52	AnnotatorNotes T57	C1527415; Oral Route of Drug administration; Functional Concept
 T58	Time 555 570	postoperatorios
@@ -155,7 +153,6 @@ R16	Has_Route_or_Mode Arg1:T14 Arg2:T55
 R17	Experiences Arg1:T53 Arg2:T14	
 T79	Observation 479 485	efecto
 #67	AnnotatorNotes T79	C1518681; Outcome of Therapy; Finding (?)
-R20	Overlap Arg1:T79 Arg2:T56	
 R21	Used_for Arg1:T16 Arg2:T17	
 R22	Has_Route_or_Mode Arg1:T16 Arg2:T57	
 R23	Causes Arg1:T17 Arg2:T79	
@@ -215,3 +212,6 @@ A3	Experiencer T59 Patient
 A4	Experiencer T60 Patient
 A5	Experiencer T70 Patient
 A6	Experiencer T76 Patient
+T56	Date 486 499	preoperatorio
+R20	Overlap Arg1:T79 Arg2:T56	
+#51	AnnotatorNotes T56	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept

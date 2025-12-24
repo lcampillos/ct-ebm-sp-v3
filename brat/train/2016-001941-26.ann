@@ -113,10 +113,10 @@ R8	Experiences Arg1:T31 Arg2:T8
 R9	Experiences Arg1:T31 Arg2:T21	
 R10	Before Arg1:T8 Arg2:T21	
 R11	Experiences Arg1:T31 Arg2:T12	
-T53	Observation 473 484	irresecable
+T53	Quantifier_or_Qualifier 473 484	irresecable
 #42	AnnotatorNotes T53	C4039777; Tumor surgically unresectable; Finding
 R12	Has_Quantifier_or_Qualifier Arg1:T10 Arg2:T53	
-T54	Observation 348 359	irresecable
+T54	Quantifier_or_Qualifier 348 359	irresecable
 #43	AnnotatorNotes T54	C4039777; Tumor surgically unresectable; Finding
 R13	Has_Quantifier_or_Qualifier Arg1:T8 Arg2:T54	
 R14	Before Arg1:T10 Arg2:T22	
@@ -131,7 +131,7 @@ R25	Experiences Arg1:T42 Arg2:T11
 R26	Experiences Arg1:T42 Arg2:T23	
 T55	Quantifier_or_Qualifier 764 780	estadio III o IV
 R27	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T55	
-T56	Observation 734 745	irresecable
+T56	Quantifier_or_Qualifier 734 745	irresecable
 #44	AnnotatorNotes T56	C4039777; Tumor surgically unresectable; Finding
 R29	Has_Quantifier_or_Qualifier Arg1:T11 Arg2:T56	
 R31	Before Arg1:T11 Arg2:T23	
@@ -149,7 +149,7 @@ R38	Negation Arg1:T47 Arg2:T13
 R39	Experiences Arg1:T45 Arg2:T13	
 R40	Experiences Arg1:T45 Arg2:T14	
 R41	Experiences Arg1:T45 Arg2:T25	
-T60	Observation 981 992	irresecable
+T60	Quantifier_or_Qualifier 981 992	irresecable
 R42	Before Arg1:T14 Arg2:T25	
 R43	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T60	
 #47	AnnotatorNotes T60	C4039777; Tumor surgically unresectable; Finding
@@ -171,10 +171,10 @@ R16	Negation Arg1:T34 Arg2:T24
 R18	Negation Arg1:T32 Arg2:T12	
 R23	Overlap Arg1:T44 Arg2:T41	
 #50	AnnotatorNotes T13	C0920425; cancer treatment; Therapeutic or Preventive Procedure
-T63	Quantifier_or_Qualifier 950 959	sistémico
+T63	Route 950 959	sistémico
 A12	Assertion T63 Negated
-#51	AnnotatorNotes T63	C0205373; Systemic; Functional Concept
-R28	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T63	
+#51	AnnotatorNotes T63	C5849094; Systemic Route of Administration; Functional Concept
+R28	Has_Route_or_Mode Arg1:T13 Arg2:T63	
 R30	Negation Arg1:T47 Arg2:T63	
 A13	Experiencer T30 Patient
 A14	Experiencer T31 Patient

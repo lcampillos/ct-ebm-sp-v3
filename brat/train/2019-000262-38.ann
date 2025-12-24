@@ -281,3 +281,8 @@ A24	Experiencer T65 Patient
 A25	Experiencer T68 Patient
 A26	Experiencer T76 Patient
 A27	Experiencer T75 Patient
+T98	Duration 1740 1745	aguda
+#79	AnnotatorNotes T98	C0205178; acute; Temporal Concept
+R64	Has_Duration_or_Interval Arg1:T42 Arg2:T98	
+T99	CHEM 1328 1341	biomarcadores
+#80	AnnotatorNotes T99	C0815130; chemical substances as biological markers; Chemical Viewed Functionally

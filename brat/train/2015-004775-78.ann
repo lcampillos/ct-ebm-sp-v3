@@ -149,3 +149,9 @@ A12	Experiencer T42 Patient
 A13	Status T20 Future
 A14	Assertion T46 Hypothetical
 A15	Assertion T42 Hypothetical
+T55	DISO 718 722	DRLS
+#49	AnnotatorNotes T55	C0154738; Lumbosacral radiculopathy; Disease or Syndrome
+R27	Location_of Arg1:T17 Arg2:T55	
+R32	Causes Arg1:T55 Arg2:T15	
+T56	DISO 902 906	DRLS
+#50	AnnotatorNotes T56	C0154738; Lumbosacral radiculopathy; Disease or Syndrome

@@ -93,18 +93,18 @@ R7	Experiences Arg1:T34 Arg2:T3
 R8	Location_of Arg1:T24 Arg2:T3	
 R9	Experiences Arg1:T34 Arg2:T1	
 R10	Experiences Arg1:T34 Arg2:T45	
-T46	Quantifier_or_Qualifier 176 181	Aguda
+T46	Duration 176 181	Aguda
 #40	AnnotatorNotes T46	C0439557; Acute phase; Temporal Concept
-R11	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T46	
-T47	Quantifier_or_Qualifier 355 360	aguda
+R11	Has_Duration_or_Interval Arg1:T3 Arg2:T46	
+T47	Duration 355 360	aguda
 #41	AnnotatorNotes T47	C0439557; Acute phase; Temporal Concept
-R12	Has_Quantifier_or_Qualifier Arg1:T26 Arg2:T47	
-T48	Quantifier_or_Qualifier 914 919	agudo
+R12	Has_Duration_or_Interval Arg1:T26 Arg2:T47	
+T48	Duration 914 919	agudo
 #42	AnnotatorNotes T48	C0439557; Acute phase; Temporal Concept
 T49	Quantifier_or_Qualifier 939 945	activa
 #43	AnnotatorNotes T49	C0679217; Active State; Idea or Concept
 R13	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T49	
-R14	Has_Quantifier_or_Qualifier Arg1:T21 Arg2:T48	
+R14	Has_Duration_or_Interval Arg1:T21 Arg2:T48	
 R15	Location_of Arg1:T32 Arg2:T20	
 R16	Location_of Arg1:T30 Arg2:T19	
 T50	Result_or_Value 888 893	B o C
@@ -148,3 +148,5 @@ A3	Experiencer T34 Patient
 A4	Experiencer T35 Patient
 A5	Experiencer T43 Patient
 A6	Experiencer T40 Patient
+T57	CONC 715 725	percutáneo
+#49	AnnotatorNotes T57	C0522523; Percutaneous; Spatial Concept

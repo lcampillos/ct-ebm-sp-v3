@@ -271,3 +271,11 @@ A26	Experiencer T75 Patient
 A27	Experiencer T77 Patient
 A28	Experiencer T78 Other
 A29	Experiencer T79 Patient
+T95	Duration 1405 1410	aguda
+#77	AnnotatorNotes T95	C0205178; acute; Temporal Concept
+R44	Has_Duration_or_Interval Arg1:T26 Arg2:T95	
+T96	Duration 1364 1369	aguda
+#78	AnnotatorNotes T96	C0205178; acute; Temporal Concept
+R45	Has_Duration_or_Interval Arg1:T25 Arg2:T96	
+T97	CONC 975 989	transesofágica
+#79	AnnotatorNotes T97	C0522518; Transesophageal approach; Spatial Concept

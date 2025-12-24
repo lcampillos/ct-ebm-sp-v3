@@ -74,8 +74,8 @@ T38	PROC 1745 1761	trasplante renal
 #36	AnnotatorNotes T38	C0022671; Kidney Transplantation; Therapeutic or Preventive Procedure
 T39	DISO 1806 1825	estado inflamatorio
 #37	AnnotatorNotes T39	C0021368; Inflammation; Pathologic Function
-T40	PROC 1332 1337	TNF-α
-#38	AnnotatorNotes T40	C1168005; Alpha tumour necrosis factor measurement; Laboratory Procedure
+T40	PROC 1287 1314;1328 1337	niveles de expresión génica del TNF-α
+#38	AnnotatorNotes T40	C4521390; Gene Expression Level Analysis; Laboratory Procedure (?) + C1168005; Alpha tumour necrosis factor measurement; Laboratory Procedure (?)
 T41	ANAT 71 76	renal
 #39	AnnotatorNotes T41	C0022646; Kidney; Body Part, Organ, or Organ Component | C1278978; Entire kidney; Body Part, Organ, or Organ Component
 T42	ANAT 269 274	renal
@@ -182,16 +182,14 @@ R38	Before Arg1:T23 Arg2:T60
 R39	Location_of Arg1:T26 Arg2:T46	
 T75	Observation 1052 1118	reducción en las concentraciones séricas de la interleucina (IL)-6
 #68	AnnotatorNotes T75	C0919836; Interleukin-6 decreased; Finding
-T76	Observation 1052 1061;1121 1164	reducción del factor de necrosis tumoral alfa (TNF-α)
+T76	Observation 1052 1092;1121 1164	reducción en las concentraciones séricas del factor de necrosis tumoral alfa (TNF-α)
 #69	AnnotatorNotes T76	C1168007; Alpha tumour necrosis factor decreased; Finding
 T77	CONC 1207 1219	estado basal
 #70	AnnotatorNotes T77	C1442488; Baseline; Quantitative Concept
 R40	Before Arg1:T77 Arg2:T76	
 R41	Before Arg1:T77 Arg2:T75	
 T78	Observation 1287 1325;1402 1410	niveles de expresión génica de la IL-6 descenso
-#71	AnnotatorNotes T78	C0919836; Interleukin-6 decreased; Finding
-T79	Observation 1287 1294;1328 1337;1402 1410	niveles del TNF-α descenso
-#72	AnnotatorNotes T79	C1168007; Alpha tumour necrosis factor decreased; Finding
+T79	Observation 1287 1314;1328 1337;1402 1410	niveles de expresión génica del TNF-α descenso
 T80	Quantifier_or_Qualifier 1513 1529	proinflamatorias
 R42	Has_Quantifier_or_Qualifier Arg1:T33 Arg2:T80	
 T81	Quantifier_or_Qualifier 1550 1566	antiinflamatoria
@@ -252,3 +250,12 @@ R76	Has_Result_or_Value Arg1:T21 Arg2:T76
 R77	Has_Result_or_Value Arg1:T32 Arg2:T85	
 R78	Has_Result_or_Value Arg1:T34 Arg2:T86	
 R79	Has_Result_or_Value Arg1:T35 Arg2:T87	
+T88	PROC 1531 1536;1622 1638	TNF-α expresión génica
+#80	AnnotatorNotes T88	C4521390; Gene Expression Level Analysis; Laboratory Procedure (?) + C1168005; Alpha tumour necrosis factor measurement; Laboratory Procedure (?)
+T89	PROC 1539 1543;1622 1638	IL-6 expresión génica
+#81	AnnotatorNotes T89	C4521390; Gene Expression Level Analysis; Laboratory Procedure (?) + C0919829; Interleukin 6 Measurement; Laboratory Procedure
+T90	PROC 1567 1572;1622 1638	IL-10 expresión génica
+#82	AnnotatorNotes T90	C4521390; Gene Expression Level Analysis; Laboratory Procedure (?) + C2697758; Interleukin 10 Measurement; Laboratory Procedure
+T91	Observation 1531 1536;1622 1638;1648 1657	TNF-α expresión génica disminuyó
+T92	Observation 1539 1543;1622 1638;1648 1657	IL-6 expresión génica disminuyó
+T93	Observation 1567 1572;1622 1638;1648 1657	IL-10 expresión génica disminuyó

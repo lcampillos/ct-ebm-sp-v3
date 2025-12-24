@@ -134,3 +134,9 @@ R33	Experiences Arg1:T41 Arg2:T25
 #46	AnnotatorNotes T8	C0035243; Respiratory Tract Infections; Disease or Syndrome
 A4	Experiencer T40 Patient
 A5	Experiencer T41 Patient
+T58	Duration 113 119	agudos
+#47	AnnotatorNotes T58	C0205178; acute; Temporal Concept
+R3	Has_Duration_or_Interval Arg1:T4 Arg2:T58	
+T59	Duration 252 257	agudo
+#48	AnnotatorNotes T59	C0205178; acute; Temporal Concept
+R4	Has_Duration_or_Interval Arg1:T26 Arg2:T59	

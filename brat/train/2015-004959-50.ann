@@ -104,3 +104,16 @@ A8	Experiencer T28 Other
 A9	Experiencer T25 Patient
 A10	Status T18 Future
 A11	Status T38 Future
+T43	Duration 124 129	AGUDO
+#36	AnnotatorNotes T43	C0439557; Acute phase; Temporal Concept
+R8	Has_Duration_or_Interval Arg1:T4 Arg2:T43	
+T44	Duration 230 235	AGUDO
+#37	AnnotatorNotes T44	C0439557; Acute phase; Temporal Concept
+R13	Has_Duration_or_Interval Arg1:T5 Arg2:T44	
+T45	Duration 648 653	aguda
+#38	AnnotatorNotes T45	C0439557; Acute phase; Temporal Concept
+R15	Has_Duration_or_Interval Arg1:T8 Arg2:T45	
+T46	ANAT 830 838	arterial
+#39	AnnotatorNotes T46	C0003842; Arteries; Body Part, Organ, or Organ Component | C1285085; Entire artery; Body Part, Organ, or Organ Component
+R17	Location_of Arg1:T46 Arg2:T19	
+R23	Location_of Arg1:T46 Arg2:T27	

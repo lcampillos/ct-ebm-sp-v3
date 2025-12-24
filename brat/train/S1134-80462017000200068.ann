@@ -75,8 +75,8 @@ T39	Route 54 62	infusión
 #36	AnnotatorNotes T39	C1621368; Intravenous Drip Route of Administration; Functional Concept
 T40	DEVI 471 478	catéter
 #37	AnnotatorNotes T40	C0085590; catheter device; Medical Device
-T41	Route 479 492	paravertebral
-#38	AnnotatorNotes T41	C1882285; Paravertebral Route of Administration; Functional Concept
+T41	ANAT 479 492	paravertebral
+#38	AnnotatorNotes T41	C0446501; Paravertebral region; Body Location or Region
 T42	Dose 521 529	2 mcg/ml
 T43	LIVB 652 661	pacientes
 #39	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
@@ -84,8 +84,8 @@ T44	Date 753 770	noviembre de 2010
 T45	Date 773 785	mayo de 2011
 T46	DEVI 799 806	catéter
 #40	AnnotatorNotes T46	C0085590; catheter device; Medical Device
-T47	Route 807 820	paravertebral
-#41	AnnotatorNotes T47	C1882285; Paravertebral Route of Administration; Functional Concept
+T47	ANAT 807 820	paravertebral
+#41	AnnotatorNotes T47	C0446501; Paravertebral region; Body Location or Region
 T48	LIVB 875 883	paciente
 #42	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group
 T51	Date 1360 1374	postoperatoria
@@ -94,8 +94,8 @@ T53	LIVB 1539 1548	pacientes
 #44	AnnotatorNotes T53	C0030705; Patients; Patient or Disabled Group
 T54	LIVB 1578 1587	pacientes
 #45	AnnotatorNotes T54	C0030705; Patients; Patient or Disabled Group
-T56	Route 1701 1714	paravertebral
-#46	AnnotatorNotes T56	C1882285; Paravertebral Route of Administration; Functional Concept
+T56	ANAT 1701 1714	paravertebral
+#46	AnnotatorNotes T56	C0446501; Paravertebral region; Body Location or Region
 T57	Duration 1741 1749	48 horas
 T58	Date 1796 1810	postoperatorio
 #47	AnnotatorNotes T58	C0032790; Postoperative Period; Temporal Concept
@@ -130,7 +130,6 @@ R13	Has_Dose_or_Strength Arg1:T10 Arg2:T62
 R14	Has_Dose_or_Strength Arg1:T10 Arg2:T66	
 R15	Combined_with Arg1:T10 Arg2:T11	
 R16	Has_Dose_or_Strength Arg1:T11 Arg2:T42	
-R17	Has_Route_or_Mode Arg1:T10 Arg2:T41	
 R18	Used_for Arg1:T40 Arg2:T10	
 R19	Experiences Arg1:T43 Arg2:T12	
 R20	Experiences Arg1:T43 Arg2:T14	
@@ -168,7 +167,6 @@ R38	Overlap Arg1:T18 Arg2:T51
 T73	Quantifier_or_Qualifier 1460 1469	acumulada
 R41	Experiences Arg1:T53 Arg2:T21	
 R42	Experiences Arg1:T54 Arg2:T21	
-R43	Has_Route_or_Mode Arg1:T22 Arg2:T56	
 R44	Location_of Arg1:T23 Arg2:T22	
 R45	Has_Duration_or_Interval Arg1:T22 Arg2:T57	
 R47	Overlap Arg1:T24 Arg2:T58	
@@ -199,3 +197,9 @@ A4	Experiencer T43 Patient
 A5	Experiencer T48 Patient
 A6	Experiencer T53 Patient
 A7	Experiencer T54 Patient
+T60	ANAT 72 86	para vertebral
+#60	AnnotatorNotes T60	C0446501; Paravertebral region; Body Location or Region
+R6	Location_of Arg1:T60 Arg2:T2	
+R11	Location_of Arg1:T41 Arg2:T40	
+R17	Location_of Arg1:T47 Arg2:T46	
+R39	Location_of Arg1:T56 Arg2:T22	

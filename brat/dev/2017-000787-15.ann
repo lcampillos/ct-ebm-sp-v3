@@ -175,3 +175,6 @@ R29	Overlap Arg1:T24 Arg2:T43
 A7	Experiencer T48 Patient
 A8	Experiencer T51 Patient
 A9	Status T9 Future
+T73	Duration 877 882	agudo
+#62	AnnotatorNotes T73	C0205178; acute; Temporal Concept
+R34	Has_Duration_or_Interval Arg1:T22 Arg2:T73	

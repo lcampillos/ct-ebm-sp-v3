@@ -161,3 +161,10 @@ A11	Experiencer T34 Patient
 A12	Experiencer T42 Patient
 A13	Experiencer T38 Patient
 A14	Experiencer T39 Patient
+T50	Form 751 758	Tablets
+#48	AnnotatorNotes T50	C0039225; Tablet Dosage Form; Functional Concept
+R31	Has_Drug_Form Arg1:T25 Arg2:T50	
+R32	Has_Drug_Form Arg1:T57 Arg2:T50	
+T59	Form 1378 1385	Tablets
+#49	AnnotatorNotes T59	C0039225; Tablet Dosage Form; Functional Concept
+R34	Has_Drug_Form Arg1:T6 Arg2:T59	

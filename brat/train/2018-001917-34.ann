@@ -125,3 +125,6 @@ R7	Before Arg1:T4 Arg2:T2
 #40	AnnotatorNotes T22	C0597639; vasoactive agent; Pharmacologic Substance
 A5	Experiencer T31 Patient
 A6	Status T8 Future
+T46	Duration 537 542	agudo
+#41	AnnotatorNotes T46	C0205178; acute; Temporal Concept
+R35	Has_Duration_or_Interval Arg1:T14 Arg2:T46	

@@ -211,3 +211,15 @@ A10	Experiencer T69 Patient
 A11	Experiencer T68 Patient
 A12	Experiencer T70 Patient
 A13	Experiencer T72 Patient
+T85	Duration 76 81	agudo
+#68	AnnotatorNotes T85	C0205178; acute; Temporal Concept
+R12	Has_Duration_or_Interval Arg1:T3 Arg2:T85	
+T86	Duration 224 229	agudo
+#69	AnnotatorNotes T86	C0205178; acute; Temporal Concept
+R13	Has_Duration_or_Interval Arg1:T6 Arg2:T86	
+T87	CONC 13 25	endovascular
+#70	AnnotatorNotes T87	C0524425; inside the blood vessel; Body Location or Region
+T88	CONC 376 388	endovascular
+#71	AnnotatorNotes T88	C0524425; inside the blood vessel; Body Location or Region
+T89	CONC 178 190	endovascular
+#72	AnnotatorNotes T89	C0524425; inside the blood vessel; Body Location or Region

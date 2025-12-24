@@ -148,9 +148,9 @@ R29	Causes Arg1:T31 Arg2:T24
 R30	Causes Arg1:T44 Arg2:T35	
 R31	Location_of Arg1:T34 Arg2:T23	
 R32	Has_Duration_or_Interval Arg1:T23 Arg2:T53	
-T64	Quantifier_or_Qualifier 951 957	agudas
-#50	AnnotatorNotes T64	C0439557; Acute phase; Temporal Concept
-R33	Has_Quantifier_or_Qualifier Arg1:T23 Arg2:T64	
+T64	Duration 951 957	agudas
+#50	AnnotatorNotes T64	C0205178; acute; Temporal Concept
+R33	Has_Duration_or_Interval Arg1:T23 Arg2:T64	
 R34	Location_of Arg1:T21 Arg2:T20	
 R35	Used_for Arg1:T22 Arg2:T20	
 R36	Has_Duration_or_Interval Arg1:T22 Arg2:T43	

@@ -208,3 +208,12 @@ A7	Experiencer T57 Patient
 A8	Experiencer T64 Other
 A9	Experiencer T58 Other
 A10	Experiencer T69 Patient
+T82	Duration 134 139	aguda
+R19	Has_Duration_or_Interval Arg1:T3 Arg2:T82	
+T83	Duration 444 449	agudo
+R29	Has_Duration_or_Interval Arg1:T9 Arg2:T83	
+T84	Duration 495 500	aguda
+R30	Has_Duration_or_Interval Arg1:T43 Arg2:T84	
+#70	AnnotatorNotes T83	C0205178; acute; Temporal Concept
+#71	AnnotatorNotes T84	C0205178; acute; Temporal Concept
+#72	AnnotatorNotes T82	C0205178; acute; Temporal Concept

@@ -246,9 +246,9 @@ R65	Location_of Arg1:T60 Arg2:T37
 R66	Before Arg1:T62 Arg2:T38	
 T104	Result_or_Value 1776 1793	mayor o igual a 2
 R68	Location_of Arg1:T61 Arg2:T41	
-T105	Quantifier_or_Qualifier 1877 1882	aguda
-#78	AnnotatorNotes T105	C0439557; Acute phase; Temporal Concept
-R69	Has_Quantifier_or_Qualifier Arg1:T41 Arg2:T105	
+T105	Duration 1877 1882	aguda
+#78	AnnotatorNotes T105	C0205178; acute; Temporal Concept
+R69	Has_Duration_or_Interval Arg1:T41 Arg2:T105	
 R70	Location_of Arg1:T43 Arg2:T63	
 #79	AnnotatorNotes T63	C0005954; Bone marrow biopsy; Diagnostic Procedure (?)
 R71	Location_of Arg1:T64 Arg2:T45	

@@ -185,3 +185,10 @@ A9	Experiencer T49 Patient
 A10	Experiencer T55 Patient
 R11	Has_Result_or_Value Arg1:T64 Arg2:T63	
 R13	Has_Result_or_Value Arg1:T66 Arg2:T65	
+T62	PHYS 931 950	frecuencia urinaria
+#56	AnnotatorNotes T62	C2584336; Frequency of urination (function); Organism Function
+R36	Experiences Arg1:T49 Arg2:T62	
+T68	CONC 269 279	percutánea
+#63	AnnotatorNotes T68	C0522523; Percutaneous; Spatial Concept
+T69	CONC 669 679	percutánea
+#64	AnnotatorNotes T69	C0522523; Percutaneous; Spatial Concept

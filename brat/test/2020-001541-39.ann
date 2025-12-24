@@ -248,3 +248,12 @@ A13	Experiencer T65 Patient
 A14	Experiencer T67 Patient
 A15	Experiencer T68 Patient
 A16	Experiencer T69 Patient
+T98	Duration 334 340	agudos
+#82	AnnotatorNotes T98	C0205178; acute; Temporal Concept
+R29	Has_Duration_or_Interval Arg1:T7 Arg2:T98	
+T99	Duration 426 431	agudo
+#83	AnnotatorNotes T99	C0205178; acute; Temporal Concept
+R31	Has_Duration_or_Interval Arg1:T9 Arg2:T99	
+T100	Duration 255 260	agudo
+#84	AnnotatorNotes T100	C0205178; acute; Temporal Concept
+R33	Has_Duration_or_Interval Arg1:T44 Arg2:T100	

@@ -193,3 +193,12 @@ R31	Before Arg1:T42 Arg2:T41
 #61	AnnotatorNotes T67	C0026591; Mother (person); Family Group
 A2	Experiencer T64 Patient
 A3	Experiencer T67 Patient
+T71	DISO 247 250	SBP
+#27	AnnotatorNotes T71	C0006288; Bronchopulmonary Sequestration; Congenital Abnormality
+R34	Location_of Arg1:T11 Arg2:T71	
+T72	DISO 849 852	SBP
+#62	AnnotatorNotes T72	C0006288; Bronchopulmonary Sequestration; Congenital Abnormality
+R36	Causes Arg1:T71 Arg2:T16	
+R47	Causes Arg1:T71 Arg2:T17	
+R53	Experiences Arg1:T64 Arg2:T72	
+R54	Overlap Arg1:T25 Arg2:T72	

@@ -93,8 +93,6 @@ T47	DISO 1903 1919	efectos adversos
 #46	AnnotatorNotes T47	C0041755; Adverse reaction to drug; Pathologic Function | C0559546; Adverse reactions; Pathologic Function | C0879626; Adverse effects; Pathologic Function
 T48	PROC 2053 2062	protocolo
 #47	AnnotatorNotes T48	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
-T49	PROC 1797 1803	tratar
-#48	AnnotatorNotes T49	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
 T50	PROC 2137 2144	terapia
 #49	AnnotatorNotes T50	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
 T51	CHEM 2157 2168	amoxicilina
@@ -302,8 +300,8 @@ R87	Has_Duration_or_Interval Arg1:T41 Arg2:T90
 R88	Experiences Arg1:T80 Arg2:T43	
 R92	Experiences Arg1:T93 Arg2:T43	
 T119	CONC 1771 1779	eficacia
-T120	CONC 1784 1803	intención de tratar
-#96	AnnotatorNotes T120	C1292734; Treatment intent; Functional Concept
+T120	PROC 1784 1803	intención de tratar
+#96	AnnotatorNotes T120	C2718028; Intention to Treat Analysis; Research Activity
 #97	AnnotatorNotes T119	C1280519; Effectiveness; Qualitative Concept
 R93	Experiences Arg1:T94 Arg2:T47	
 T121	Observation 1920 1934	bien tolerados

@@ -166,12 +166,12 @@ T62	Food 830 860	fórmula láctea para prematuros
 #52	AnnotatorNotes T62	C3853277; Premature infant formula; Food
 R38	Used_for Arg1:T62 Arg2:T13	
 R39	Used_for Arg1:T62 Arg2:T10	
-T69	Result_or_Value 876 888	un mililitro
+T69	Dose 876 888	un mililitro
 R40	Has_Frequency Arg1:T69 Arg2:T40	
-T70	Result_or_Value 975 989	hasta 20 ml/kg
+T70	Dose 975 989	hasta 20 ml/kg
 R41	Has_Frequency Arg1:T70 Arg2:T42	
 R42	Has_Duration_or_Interval Arg1:T70 Arg2:T41	
-T71	Result_or_Value 1005 1014	150 ml/kg
+T71	Dose 1005 1014	150 ml/kg
 R43	Has_Frequency Arg1:T71 Arg2:T45	
 R44	Location_of Arg1:T48 Arg2:T30	
 R45	Before Arg1:T69 Arg2:T70	

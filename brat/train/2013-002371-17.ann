@@ -158,3 +158,9 @@ R45	Negation Arg1:T51 Arg2:T23
 #47	AnnotatorNotes T18	C0877341; Coronary revascularisation; Therapeutic or Preventive Procedure | C3495793; Carotid revascularisation; Therapeutic or Preventive Procedure | C1096418; Peripheral revascularisation; Therapeutic or Preventive Procedure
 A8	Experiencer T37 Patient
 A9	Status T18 Future
+T61	Duration 754 759	agudo
+#48	AnnotatorNotes T61	C0205178; acute; Temporal Concept
+R37	Has_Duration_or_Interval Arg1:T15 Arg2:T61	
+T62	ANAT 738 753	cerebrovascular
+R46	Location_of Arg1:T62 Arg2:T15	
+#49	AnnotatorNotes T62	CUIs: C0225992; Cerebrovascular system; Body System | C1284326; Entire cerebrovascular system; Body System

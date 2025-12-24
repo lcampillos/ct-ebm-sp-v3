@@ -1,12 +1,12 @@
 T1	PROC 74 100	TRATAMIENTO ANTITROMBÓTICO
-T2	ANAT 135 143	OREJUELA
-#1	AnnotatorNotes T2	C0225832; Structure of auricular appendage; Body Part, Organ, or Organ Component | C1305144; Entire auricular appendage; Body Part, Organ, or Organ Component
+T2	ANAT 135 153	OREJUELA IZQUIERDA
+#1	AnnotatorNotes T2	C0225861; Left auricular appendage; Body Part, Organ, or Organ Component
 T3	DISO 216 237	FIBRILACIÓN AURICULAR
 #2	AnnotatorNotes T3	C0004238; Atrial Fibrillation; Disease or Syndrome
 T4	DISO 264 285	FIBRILACIÓN AURICULAR
 #3	AnnotatorNotes T4	C0004238; Atrial Fibrillation; Disease or Syndrome
-T5	ANAT 321 329	OREJUELA
-#4	AnnotatorNotes T5	C0225832; Structure of auricular appendage; Body Part, Organ, or Organ Component | C1305144; Entire auricular appendage; Body Part, Organ, or Organ Component
+T5	ANAT 321 339	OREJUELA IZQUIERDA
+#4	AnnotatorNotes T5	C0225861; Left auricular appendage; Body Part, Organ, or Organ Component
 T6	ANAT 513 531	orejuela izquierda
 T7	CHEM 560 563	ACO
 #5	AnnotatorNotes T7	C0354604; oral anticoagulants; Organic Chemical · Pharmacologic Substance
@@ -165,7 +165,7 @@ R33	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T65
 R34	Speculation Arg1:T51 Arg2:T52	
 R35	Causes Arg1:T55 Arg2:T20	
 R36	Causes Arg1:T58 Arg2:T20	
-#54	AnnotatorNotes T20	C0740858; Substance abuse problem; Mental or Behavioral Dysfunction | C0085762; Alcohol abuse; Mental or Behavioral Dysfunction | C0013146; Drug abuse; Mental or Behavioral Dysfunction
+#54	AnnotatorNotes T20	C0237123; Alcohol or Other Drugs use; Mental or Behavioral Dysfunction
 R37	Negation Arg1:T48 Arg2:T22	
 R38	Experiences Arg1:T49 Arg2:T20	
 R39	Experiences Arg1:T47 Arg2:T20	
@@ -193,3 +193,5 @@ A15	Experiencer T49 Patient
 A16	Experiencer T50 Patient
 A17	Experiencer T42 Patient
 A18	Experiencer T44 Patient
+T71	CONC 121 131	PERCUTÁNEO
+#59	AnnotatorNotes T71	C0522523; Percutaneous; Spatial Concept

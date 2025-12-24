@@ -134,3 +134,9 @@ A7	Experiencer T34 Patient
 A8	Experiencer T35 Patient
 A9	Experiencer T40 Patient
 A10	Experiencer T41 Patient
+T52	Duration 929 935	agudas
+R3	Has_Duration_or_Interval Arg1:T16 Arg2:T52	
+T53	Duration 755 761	agudas
+R4	Has_Duration_or_Interval Arg1:T12 Arg2:T53	
+#44	AnnotatorNotes T52	C0205178; acute; Temporal Concept
+#45	AnnotatorNotes T53	C0205178; acute; Temporal Concept

@@ -288,3 +288,10 @@ A14	Experiencer T62 Other
 A15	Experiencer T100 Patient
 A16	Population_data T100 Age
 A17	Experiencer T74 Patient
+T111	PROC 240 244	SpO2
+#94	AnnotatorNotes T111	C4481686; O2 saturation in blood; Laboratory Procedure
+R49	Location_of Arg1:T44 Arg2:T111	
+R50	Overlap Arg1:T111 Arg2:T8	
+R52	Overlap Arg1:T111 Arg2:T9	
+R62	Overlap Arg1:T111 Arg2:T10	
+R69	Overlap Arg1:T111 Arg2:T63	

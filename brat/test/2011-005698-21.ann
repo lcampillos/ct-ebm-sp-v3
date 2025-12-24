@@ -91,3 +91,15 @@ R26	Overlap Arg1:T23 Arg2:T17
 A2	Experiencer T26 Patient
 A3	Experiencer T31 Patient
 R6	Causes Arg1:T7 Arg2:T33	
+T36	Duration 149 154	agudo
+#30	AnnotatorNotes T36	C0205178; acute; Temporal Concept
+R27	Has_Duration_or_Interval Arg1:T3 Arg2:T36	
+T37	Duration 478 483	agudo
+#31	AnnotatorNotes T37	C0205178; acute; Temporal Concept
+R28	Has_Duration_or_Interval Arg1:T10 Arg2:T37	
+T38	Duration 632 637	agudo
+#32	AnnotatorNotes T38	C0205178; acute; Temporal Concept
+R29	Has_Duration_or_Interval Arg1:T14 Arg2:T38	
+T39	Duration 526 531	agudo
+#33	AnnotatorNotes T39	C0205178; acute; Temporal Concept
+R30	Has_Duration_or_Interval Arg1:T11 Arg2:T39	

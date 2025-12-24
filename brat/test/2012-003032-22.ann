@@ -199,3 +199,9 @@ A27	Experiencer T56 Patient
 A28	Experiencer T52 Other
 A29	Experiencer T59 Other
 A30	Experiencer T60 Patient
+T76	Duration 135 140	aguda
+#58	AnnotatorNotes T76	C0205178; acute; Temporal Concept
+R1	Has_Duration_or_Interval Arg1:T2 Arg2:T76	
+T77	Duration 309 314	Aguda
+#59	AnnotatorNotes T77	C0205178; acute; Temporal Concept
+R23	Has_Duration_or_Interval Arg1:T6 Arg2:T77	

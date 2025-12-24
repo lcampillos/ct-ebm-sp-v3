@@ -382,3 +382,6 @@ A31	Status T13 Future
 A32	Status T97 Future
 T121	Result_or_Value 1278 1286	negativa
 R105	Has_Result_or_Value Arg1:T23 Arg2:T121	
+T122	Duration 1882 1887	agudo
+#103	AnnotatorNotes T122	C0205178; acute; Temporal Concept
+R47	Has_Duration_or_Interval Arg1:T32 Arg2:T122	

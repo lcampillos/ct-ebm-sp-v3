@@ -202,3 +202,9 @@ A10	Experiencer T54 Patient
 A11	Experiencer T56 Patient
 A12	Experiencer T57 Patient
 A13	Status T77 Future
+T59	Duration 98 103	agudo
+#58	AnnotatorNotes T59	C0205178; acute; Temporal Concept
+R2	Has_Duration_or_Interval Arg1:T1 Arg2:T59	
+T62	Duration 227 232	agudo
+#61	AnnotatorNotes T62	C0205178; acute; Temporal Concept
+R5	Has_Duration_or_Interval Arg1:T3 Arg2:T62	

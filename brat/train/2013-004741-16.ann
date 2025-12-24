@@ -140,9 +140,9 @@ R3	Location_of Arg1:T3 Arg2:T2
 R4	Location_of Arg1:T41 Arg2:T2	
 R5	Location_of Arg1:T41 Arg2:T4	
 R6	Location_of Arg1:T44 Arg2:T9	
-T59	Quantifier_or_Qualifier 380 385	aguda
-#64	AnnotatorNotes T59	C0439557; Acute phase; Temporal Concept
-R7	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T59	
+T59	Duration 380 385	aguda
+#64	AnnotatorNotes T59	C0205178; acute; Temporal Concept
+R7	Has_Duration_or_Interval Arg1:T9 Arg2:T59	
 R8	Has_Route_or_Mode Arg1:T43 Arg2:T72	
 R9	Overlap Arg1:T43 Arg2:T55	
 R10	Used_for Arg1:T43 Arg2:T42	
@@ -166,19 +166,19 @@ R19	Location_of Arg1:T17 Arg2:T16
 R20	Location_of Arg1:T18 Arg2:T19	
 R21	Location_of Arg1:T14 Arg2:T13	
 R22	Location_of Arg1:T12 Arg2:T13	
-T76	Quantifier_or_Qualifier 663 668	aguda
-#69	AnnotatorNotes T76	C0439557; Acute phase; Temporal Concept
-R23	Has_Quantifier_or_Qualifier Arg1:T19 Arg2:T76	
+T76	Duration 663 668	aguda
+#69	AnnotatorNotes T76	C0205178; acute; Temporal Concept
+R23	Has_Duration_or_Interval Arg1:T19 Arg2:T76	
 T77	Result_or_Value 709 710	I
 R24	Has_Result_or_Value Arg1:T57 Arg2:T77	
 R25	Experiences Arg1:T56 Arg2:T57	
 R26	Experiences Arg1:T56 Arg2:T20	
-T78	Quantifier_or_Qualifier 737 742	aguda
-#70	AnnotatorNotes T78	C0439557; Acute phase; Temporal Concept
-R27	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T78	
-T79	Quantifier_or_Qualifier 810 815	aguda
-#71	AnnotatorNotes T79	C0439557; Acute phase; Temporal Concept
-R28	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T79	
+T78	Duration 737 742	aguda
+#70	AnnotatorNotes T78	C0205178; acute; Temporal Concept
+R27	Has_Duration_or_Interval Arg1:T20 Arg2:T78	
+T79	Duration 810 815	aguda
+#71	AnnotatorNotes T79	C0205178; acute; Temporal Concept
+R28	Has_Duration_or_Interval Arg1:T22 Arg2:T79	
 R29	Causes Arg1:T22 Arg2:T23	
 R30	Location_of Arg1:T45 Arg2:T20	
 R31	Causes Arg1:T24 Arg2:T5	
@@ -215,3 +215,9 @@ A9	Experiencer T68 Patient
 A10	Experiencer T69 Patient
 A11	Experiencer T70 Patient
 A12	Experiencer T71 Patient
+T81	Duration 186 191	aguda
+#73	AnnotatorNotes T81	C0205178; acute; Temporal Concept
+R54	Has_Duration_or_Interval Arg1:T4 Arg2:T81	
+T82	Duration 497 502	aguda
+#74	AnnotatorNotes T82	C0205178; acute; Temporal Concept
+R55	Has_Duration_or_Interval Arg1:T13 Arg2:T82	

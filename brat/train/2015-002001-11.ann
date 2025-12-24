@@ -189,12 +189,8 @@ R54	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T74
 R55	Used_for Arg1:T56 Arg2:T27	
 R57	Used_for Arg1:T57 Arg2:T28	
 R58	Used_for Arg1:T57 Arg2:T27	
-R59	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T29	
-R60	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T29	
-T75	Quantifier_or_Qualifier 1436 1446	biológicos
-#56	AnnotatorNotes T75	C0205460; biological; Qualitative Concept
-R61	Has_Quantifier_or_Qualifier Arg1:T57 Arg2:T75	
-R62	Has_Quantifier_or_Qualifier Arg1:T56 Arg2:T75	
+T75	CHEM 1436 1446	biológicos
+#56	AnnotatorNotes T75	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 R56	Used_for Arg1:T56 Arg2:T28	
 R63	Location_of Arg1:T44 Arg2:T31	
 R64	Location_of Arg1:T45 Arg2:T34	
@@ -210,3 +206,10 @@ R67	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T76
 #62	AnnotatorNotes T4	C5204113; Metastatic Pancreatic Ductal Adenocarcinoma; Neoplastic Process
 A15	Experiencer T50 Patient
 A16	Experiencer T51 Patient
+T77	Route 667 676	sistémico
+#63	AnnotatorNotes T77	C5849094; Systemic Route of Administration; Functional Concept
+R19	Has_Route_or_Mode Arg1:T15 Arg2:T77	
+R30	Used_for Arg1:T29 Arg2:T28	
+R32	Used_for Arg1:T29 Arg2:T27	
+R36	Used_for Arg1:T75 Arg2:T28	
+R37	Used_for Arg1:T75 Arg2:T27	

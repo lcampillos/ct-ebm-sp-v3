@@ -39,7 +39,7 @@ T23	PROC 1213 1225	tratamientos
 T24	CHEM 1260 1271	secukinumab
 #16	AnnotatorNotes T24	C3179547; secukinumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
 T25	CHEM 1300 1317	fármaco biológico
-#17	AnnotatorNotes T25	C0005515; Biological Factors; Biologically Active Substance (?)
+#17	AnnotatorNotes T25	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 T26	CHEM 1359 1376	receptor de IL-17
 T27	PROC 1490 1499	protocolo
 #18	AnnotatorNotes T27	C0008971; Clinical Protocols; Therapeutic or Preventive Procedure
@@ -163,7 +163,7 @@ R43	Before Arg1:T12 Arg2:T14
 #48	AnnotatorNotes T57	C0205394; Other; Qualitative Concept
 T64	Route 908 917	sistémico
 R44	Has_Route_or_Mode Arg1:T15 Arg2:T64	
-#49	AnnotatorNotes T64	C0205373; Systemic; Functional Concept
+#49	AnnotatorNotes T64	C5849094; Systemic Route of Administration; Functional Concept
 A12	Experiencer T35 Patient
 A13	Experiencer T41 Patient
 A14	Experiencer T44 Patient

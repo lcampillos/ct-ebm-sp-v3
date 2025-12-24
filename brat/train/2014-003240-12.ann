@@ -39,7 +39,7 @@ T20	DISO 876 897	colitis indeterminada
 T21	PROC 938 969	resección quirúrgica intestinal
 T22	PROC 1048 1055	ostomía
 #19	AnnotatorNotes T22	C0029473; Ostomy; Therapeutic or Preventive Procedure
-T23	ANAT 1058 1072	bolsa ileoanal
+T23	PROC 1058 1072	bolsa ileoanal
 T24	DISO 1089 1121	estenosis intestinal sintomatica
 T25	ANAT 1144 1152	perianal
 #20	AnnotatorNotes T25	C0442158; Perianal; Body Location or Region
@@ -199,3 +199,9 @@ A18	Experiencer T46 Patient
 A19	Experiencer T47 Patient
 A20	Experiencer T48 Patient
 A21	Status T21 Future
+#56	AnnotatorNotes T23	C0585056; Creation of ileo-anal pouch; Therapeutic or Preventive Procedure
+A22	Status T23 History_of
+R62	Experiences Arg1:T45 Arg2:T23	
+T65	ANAT 1064 1072	ileoanal
+#57	AnnotatorNotes T65	C0020885; ileum; Body Part, Organ, or Organ Component | C1278923; Entire ileum; Body Part, Organ, or Organ Component + C0003461; Anus; Body Part, Organ, or Organ Component | C1278927; Entire anus; Body Part, Organ, or Organ Component
+R63	Location_of Arg1:T65 Arg2:T23	

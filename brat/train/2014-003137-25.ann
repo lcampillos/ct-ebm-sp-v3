@@ -124,8 +124,8 @@ T67	ANAT 1393 1398	tórax
 #58	AnnotatorNotes T67	C0817096; Chest; Body Location or Region | C1269614; Entire thorax; Body Part, Organ, or Organ Component
 T68	ANAT 1452 1459	pleural
 #59	AnnotatorNotes T68	C0032225; Pleura; Tissue | C1279036; Entire pleura; Body Part, Organ, or Organ Component
-T69	CHEM 1508 1518	proteína C
-#60	AnnotatorNotes T69	C0033621; protein C; Amino Acid, Peptide, or Protein · Biologically Active Substance · Pharmacologic Substance
+T69	CHEM 1508 1527	proteína C reactiva
+#60	AnnotatorNotes T69	C0006560; C-reactive protein; Amino Acid, Peptide, or Protein · Immunologic Factor
 T70	CHEM 1649 1672	amoxicilina-clavulánico
 #61	AnnotatorNotes T70	C0054066; amoxicillin / clavulanate; Pharmacologic Substance
 T71	DISO 1727 1730	VIH
@@ -332,3 +332,6 @@ A11	Experiencer T84 Patient
 A12	Experiencer T92 Patient
 A13	Experiencer T93 Patient
 A14	Experiencer T103 Patient
+T124	PROC 1790 1802;1817 1831	tratamientos inmunosupresor
+#102	AnnotatorNotes T124	C0021079; Therapeutic immunosuppression; Therapeutic or Preventive Procedure
+R38	Used_for Arg1:T44 Arg2:T124	

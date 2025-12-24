@@ -316,3 +316,12 @@ A32	Experiencer T86 Patient
 A33	Experiencer T45 Other
 A34	Experiencer T91 Patient
 A35	Experiencer T33 Patient
+T103	ANAT 694 700	venoso
+#87	AnnotatorNotes T103	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R84	Location_of Arg1:T103 Arg2:T51	
+T104	ANAT 841 847	venoso
+#88	AnnotatorNotes T104	C0042449; Veins; Body Part, Organ, or Organ Component | C1278960; Entire vein; Body Part, Organ, or Organ Component
+R92	Location_of Arg1:T104 Arg2:T57	
+T105	CONC 1247 1261	endovasculares
+#89	AnnotatorNotes T105	C0524425; inside the blood vessel; Body Location or Region
+T106	CONC 1264 1279	extravasculares

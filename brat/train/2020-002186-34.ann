@@ -243,3 +243,9 @@ A9	Experiencer T65 Patient
 A10	Experiencer T69 Patient
 A11	Experiencer T78 Patient
 A12	Experiencer T79 Patient
+T95	Duration 178 183	agudo
+#77	AnnotatorNotes T95	C0205178; acute; Temporal Concept
+R3	Has_Duration_or_Interval Arg1:T3 Arg2:T95	
+R4	Has_Duration_or_Interval Arg1:T5 Arg2:T95	
+T96	LIVB 1701 1719	equipo asistencial
+A13	Experiencer T96 Other

@@ -213,10 +213,10 @@ R29	Experiences Arg1:T47 Arg2:T9
 R30	Used_for Arg1:T11 Arg2:T10	
 R31	Combined_with Arg1:T9 Arg2:T10	
 R32	Combined_with Arg1:T49 Arg2:T12	
-T101	Quantifier_or_Qualifier 763 772	sistémica
+T101	Route 763 772	sistémica
 A14	Assertion T101 Negated
-#73	AnnotatorNotes T101	C0205373; Systemic; Functional Concept
-R33	Has_Quantifier_or_Qualifier Arg1:T13 Arg2:T101	
+#73	AnnotatorNotes T101	C5849094; Systemic Route of Administration; Functional Concept
+R33	Has_Route_or_Mode Arg1:T13 Arg2:T101	
 R34	Negation Arg1:T50 Arg2:T101	
 R35	Experiences Arg1:T47 Arg2:T10	
 R36	Used_for Arg1:T49 Arg2:T9	

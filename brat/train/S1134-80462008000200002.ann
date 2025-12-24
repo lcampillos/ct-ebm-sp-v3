@@ -36,8 +36,8 @@ T19	PROC 845 854	analgesia
 #17	AnnotatorNotes T19	C3202977; Analgesia; Therapeutic or Preventive Procedure
 T20	PROC 1123 1132	analgesia
 #18	AnnotatorNotes T20	C3202977; Analgesia; Therapeutic or Preventive Procedure
-T21	Route 32 36	oral
-#19	AnnotatorNotes T21	C1527415; Oral Route of Drug administration; Functional Concept
+T21	Route 32 48	oral transmucosa
+#19	AnnotatorNotes T21	C1527415; Oral Route of Drug administration; Functional Concept + C1513727; Transmucosal Route of Administration; Functional Concept
 T22	Time 81 94	preoperatoria
 #20	AnnotatorNotes T22	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
 T23	Time 107 121	postoperatoria
@@ -52,8 +52,8 @@ T28	LIVB 404 409	niños
 #25	AnnotatorNotes T28	C0008059; Child; Age Group
 T30	Time 484 498	postoperatorio
 #26	AnnotatorNotes T30	C0032790; Postoperative Period; Temporal Concept
-T31	Route 580 584	oral
-#27	AnnotatorNotes T31	C1527415; Oral Route of Drug administration; Functional Concept
+T31	Route 580 596	oral transmucosa
+#27	AnnotatorNotes T31	C1527415; Oral Route of Drug administration; Functional Concept + C1513727; Transmucosal Route of Administration; Functional Concept
 T32	Time 629 642	preoperatorio
 #28	AnnotatorNotes T32	C0445204; Preoperative; Temporal Concept | C2712277; Preoperative Period; Temporal Concept
 T33	Time 655 669	postoperatoria

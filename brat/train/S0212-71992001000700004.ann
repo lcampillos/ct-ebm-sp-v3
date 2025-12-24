@@ -176,7 +176,7 @@ T74	CHEM 577 579	RB
 R33	Has_Dose_or_Strength Arg1:T74 Arg2:T49	
 R34	Has_Frequency Arg1:T74 Arg2:T70	
 R61	Combined_with Arg1:T28 Arg2:T36	
-#29	AnnotatorNotes T74	C0139919; ranitidine bismuth citrate;  Organic Chemical · Pharmacologic Substance
+#29	AnnotatorNotes T74	C0139919; ranitidine bismuth citrate; Organic Chemical · Pharmacologic Substance
 T9	CHEM 254 256	RB
 #9	AnnotatorNotes T9	C0139919; ranitidine bismuth citrate;  Organic Chemical · Pharmacologic Substance
 R9	Used_for Arg1:T9 Arg2:T7	
@@ -196,3 +196,44 @@ A5	Experiencer T54 Patient
 A6	Experiencer T57 Patient
 A7	Experiencer T59 Patient
 A8	Experiencer T58 Patient
+T29	Duration 466 467	7
+R41	Has_Duration_or_Interval Arg1:T13 Arg2:T29	
+T75	CHEM 569 573	RBCA
+#56	AnnotatorNotes T75	C0139919; ranitidine bismuth citrate; Organic Chemical · Pharmacologic Substance + C0002645; amoxicillin; Organic Chemical · Antibiotic + C0055856; clarithromycin; Organic Chemical · Antibiotic
+T76	Duration 574 575	7
+R43	Has_Duration_or_Interval Arg1:T75 Arg2:T76	
+T77	Duration 891 892	7
+R50	Has_Duration_or_Interval Arg1:T38 Arg2:T77	
+T78	Duration 1034 1035	7
+R59	Has_Duration_or_Interval Arg1:T39 Arg2:T78	
+T79	Duration 1130 1131	7
+R67	Has_Duration_or_Interval Arg1:T40 Arg2:T79	
+T80	Duration 1210 1211	7
+R68	Has_Duration_or_Interval Arg1:T41 Arg2:T80	
+T81	Duration 1241 1242	7
+T82	CHEM 1236 1240	RBCA
+#57	AnnotatorNotes T82	C0139919; ranitidine bismuth citrate; Organic Chemical · Pharmacologic Substance + C0002645; amoxicillin; Organic Chemical · Antibiotic + C0055856; clarithromycin; Organic Chemical · Antibiotic
+R69	Has_Duration_or_Interval Arg1:T82 Arg2:T81	
+R70	Experiences Arg1:T61 Arg2:T82	
+T83	CHEM 911 915	RBCA
+#58	AnnotatorNotes T83	C0139919; ranitidine bismuth citrate; Organic Chemical · Pharmacologic Substance + C0002645; amoxicillin; Organic Chemical · Antibiotic + C0055856; clarithromycin; Organic Chemical · Antibiotic
+R71	Experiences Arg1:T58 Arg2:T83	
+T84	Duration 916 917	7
+R72	Has_Duration_or_Interval Arg1:T83 Arg2:T84	
+T85	CHEM 1060 1064	RBCA
+#59	AnnotatorNotes T85	C0139919; ranitidine bismuth citrate; Organic Chemical · Pharmacologic Substance + C0002645; amoxicillin; Organic Chemical · Antibiotic + C0055856; clarithromycin; Organic Chemical · Antibiotic
+T86	Duration 1065 1066	7
+R73	Has_Duration_or_Interval Arg1:T85 Arg2:T86	
+R74	Used_for Arg1:T85 Arg2:T23	
+R75	Before Arg1:T34 Arg2:T83	
+T87	CHEM 1156 1160	RBCA
+#60	AnnotatorNotes T87	C0139919; ranitidine bismuth citrate; Organic Chemical · Pharmacologic Substance + C0002645; amoxicillin; Organic Chemical · Antibiotic + C0055856; clarithromycin; Organic Chemical · Antibiotic
+T88	Duration 1161 1162	7
+R76	Has_Duration_or_Interval Arg1:T87 Arg2:T88	
+R77	Used_for Arg1:T87 Arg2:T24	
+R78	Used_for Arg1:T87 Arg2:T25	
+R79	Experiences Arg1:T45 Arg2:T75	
+R80	Experiences Arg1:T45 Arg2:T74	
+R81	Experiences Arg1:T45 Arg2:T18	
+R82	Experiences Arg1:T45 Arg2:T19	
+R83	Used_for Arg1:T75 Arg2:T14	

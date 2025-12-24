@@ -206,3 +206,9 @@ T72	Observation 131 138	efectos
 #63	AnnotatorNotes T72	C1518681; Outcome of Therapy; Finding (?)
 R66	Causes Arg1:T6 Arg2:T72	
 #64	AnnotatorNotes T64	C3242344; modify status; Functional Concept
+T73	ANAT 715 726	intraocular
+#65	AnnotatorNotes T73	C3282905; Intraocular; Spatial Concept
+R67	Location_of Arg1:T73 Arg2:T45	
+T74	ANAT 677 688	intraocular
+#66	AnnotatorNotes T74	C3282905; Intraocular; Spatial Concept
+R68	Location_of Arg1:T74 Arg2:T44	

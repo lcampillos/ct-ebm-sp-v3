@@ -38,19 +38,19 @@ T21	PROC 669 679	histología
 T22	CHEM 1161 1173	antibióticos
 #17	AnnotatorNotes T22	C0003232; Antibiotics; Antibiotic
 T23	Date 13 17	2017
-T24	LIVB 59 91	probiótico Lactobacillus reuteri
-#18	AnnotatorNotes T24	C0317625; Lactobacillus reuteri; Bacterium
+T24	CHEM 59 91	probiótico Lactobacillus reuteri
+#18	AnnotatorNotes T24	C4751662; Lactobacillus reuteri only product; Pharmacologic Substance (?)
 T26	LIVB 144 163	Helicobacter pylori
 #19	AnnotatorNotes T26	C0079488; Helicobacter pylori; Bacterium
-T27	LIVB 266 298	probiótico Lactobacillus reuteri
-#20	AnnotatorNotes T27	C0317625; Lactobacillus reuteri; Bacterium
+T27	CHEM 266 298	probiótico Lactobacillus reuteri
+#20	AnnotatorNotes T27	C4751662; Lactobacillus reuteri only product; Pharmacologic Substance (?)
 T29	LIVB 495 504	Pacientes
 #21	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
 T30	Age 726 748	entre los 18 a 65 años
 T31	LIVB 778 787	Pacientes
 #22	AnnotatorNotes T31	C0030705; Patients; Patient or Disabled Group
-T32	LIVB 812 823	probióticos
-#23	AnnotatorNotes T32	C0525033; Probiotics; Bacterium
+T32	CHEM 812 823	probióticos
+#23	AnnotatorNotes T32	C3485429; Probiotic Formula; Pharmacologic Substance (?)
 T33	Duration 824 833	4 semanas
 T34	LIVB 869 878	Pacientes
 #24	AnnotatorNotes T34	C0030705; Patients; Patient or Disabled Group
@@ -146,3 +146,4 @@ A4	Experiencer T31 Patient
 A5	Experiencer T34 Patient
 A6	Experiencer T35 Patient
 A7	Experiencer T40 Patient
+R5	Experiences Arg1:T31 Arg2:T32	

@@ -185,3 +185,7 @@ A10	Experiencer T32 Patient
 A11	Experiencer T36 Patient
 A12	Experiencer T46 Other
 R54	Has_Result_or_Value Arg1:T2 Arg2:T51	
+T69	ANAT 603 614	intraocular
+#54	AnnotatorNotes T69	C3282905; Intraocular; Spatial Concept
+R55	Location_of Arg1:T69 Arg2:T2	
+R56	Location_of Arg1:T69 Arg2:T51	

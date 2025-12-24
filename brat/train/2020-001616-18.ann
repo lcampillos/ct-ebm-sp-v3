@@ -70,9 +70,9 @@ T32	Observation 588 633	Participación en otro estudio de intervención
 R12	Used_for Arg1:T15 Arg2:T14	
 R13	Has_Route_or_Mode Arg1:T15 Arg2:T30	
 R11	Overlap Arg1:T15 Arg2:T29	
-T33	Quantifier_or_Qualifier 687 697	sistémicos
-#28	AnnotatorNotes T33	C0205373; Systemic; Functional Concept
-R15	Has_Quantifier_or_Qualifier Arg1:T14 Arg2:T33	
+T33	Route 687 697	sistémicos
+#28	AnnotatorNotes T33	C5849094; Systemic Route of Administration; Functional Concept
+R15	Has_Route_or_Mode Arg1:T14 Arg2:T33	
 T34	CONC 402 418	escala de la OMS
 R16	Has_Result_or_Value Arg1:T34 Arg2:T31	
 #29	AnnotatorNotes T34	C5706704; COVID-19 Disease WHO Severity Scale; Intellectual Product (?)

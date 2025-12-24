@@ -253,3 +253,9 @@ A7	Experiencer T74 Patient
 A8	Experiencer T69 Patient
 A9	Experiencer T73 Patient
 R22	Has_Result_or_Value Arg1:T55 Arg2:T85	
+T88	PROC 1063 1066	ISI
+#80	AnnotatorNotes T88	C1277709; Transferrin saturation measurement; Laboratory Procedure
+R30	After Arg1:T88 Arg2:T25	
+R65	Before Arg1:T88 Arg2:T25	
+T89	PROC 1501 1504	ISI
+#81	AnnotatorNotes T89	C1277709; Transferrin saturation measurement; Laboratory Procedure

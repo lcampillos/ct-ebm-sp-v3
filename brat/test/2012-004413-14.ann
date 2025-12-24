@@ -282,9 +282,9 @@ T115	Quantifier_or_Qualifier 1332 1344	concomitante
 #85	AnnotatorNotes T115	C0521115; Simultaneous; Temporal Concept
 R61	Has_Quantifier_or_Qualifier Arg1:T20 Arg2:T115	
 R62	Used_for Arg1:T21 Arg2:T79	
-T116	Quantifier_or_Qualifier 1448 1458	sistémicos
-#86	AnnotatorNotes T116	C0205373; Systemic; Functional Concept
-R64	Has_Quantifier_or_Qualifier Arg1:T22 Arg2:T116	
+T116	Route 1448 1458	sistémicos
+#86	AnnotatorNotes T116	C5849094; Systemic Route of Administration; Functional Concept
+R64	Has_Route_or_Mode Arg1:T22 Arg2:T116	
 R66	Used_for Arg1:T24 Arg2:T23	
 R67	Overlap Arg1:T24 Arg2:T80	
 R68	Overlap Arg1:T25 Arg2:T82	
@@ -323,3 +323,6 @@ A26	Experiencer T77 Other
 A27	Experiencer T84 Other
 A28	Experiencer T86 Patient
 A29	Experiencer T88 Patient
+T120	Duration 2409 2414	aguda
+#92	AnnotatorNotes T120	C0439557; Acute phase; Temporal Concept
+R37	Has_Duration_or_Interval Arg1:T44 Arg2:T120	

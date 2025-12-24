@@ -130,3 +130,15 @@ R12	Before Arg1:T13 Arg2:T45
 #44	AnnotatorNotes T4	C1868801; Hyperthermic Intraperitoneal Chemotherapy; Therapeutic or Preventive Procedure (?)
 #45	AnnotatorNotes T9	C1868801; Hyperthermic Intraperitoneal Chemotherapy; Therapeutic or Preventive Procedure (?)
 #46	AnnotatorNotes T20	C1868801; Hyperthermic Intraperitoneal Chemotherapy; Therapeutic or Preventive Procedure (?)
+T47	Route 849 863	intraabdominal
+#47	AnnotatorNotes T47	C1512911; Intraabdominal Route of Drug Administration; Functional Concept
+R5	Has_Route_or_Mode Arg1:T21 Arg2:T47	
+T53	Route 60 74	intraabdominal
+#48	AnnotatorNotes T53	C1512911; Intraabdominal Route of Drug Administration; Functional Concept
+R15	Has_Route_or_Mode Arg1:T1 Arg2:T53	
+T54	Route 177 191	intraabdominal
+#49	AnnotatorNotes T54	C1512911; Intraabdominal Route of Drug Administration; Functional Concept
+R22	Has_Route_or_Mode Arg1:T5 Arg2:T54	
+T55	Route 346 360	intraabdominal
+#50	AnnotatorNotes T55	C1512911; Intraabdominal Route of Drug Administration; Functional Concept
+R24	Has_Route_or_Mode Arg1:T9 Arg2:T55	

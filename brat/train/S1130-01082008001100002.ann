@@ -141,12 +141,12 @@ R18	Overlap Arg1:T35 Arg2:T46
 R19	Has_Dose_or_Strength Arg1:T35 Arg2:T47	
 R20	Has_Route_or_Mode Arg1:T35 Arg2:T48	
 R21	Has_Duration_or_Interval Arg1:T35 Arg2:T49	
-T73	Observation 686 699	respondedores
+T73	LIVB 686 699	respondedores
 #50	AnnotatorNotes T73	C0919876; Therapy responder; Finding
 R22	Has_Frequency Arg1:T23 Arg2:T52	
 R23	Has_Route_or_Mode Arg1:T23 Arg2:T51	
 R24	Has_Dose_or_Strength Arg1:T23 Arg2:T50	
-R25	Before Arg1:T73 Arg2:T23	
+R25	Experiences Arg1:T73 Arg2:T23	
 T74	Observation 783 792	respuesta
 #51	AnnotatorNotes T74	C4055223; Clinical Response; Finding (?)
 R26	Overlap Arg1:T74 Arg2:T53	
@@ -225,3 +225,4 @@ A10	Experiencer T57 Patient
 A11	Experiencer T55 Patient
 A12	Experiencer T43 Patient
 A13	Experiencer T42 Patient
+A14	Experiencer T73 Patient

@@ -98,18 +98,17 @@ R4	Experiences Arg1:T35 Arg2:T3
 R5	Experiences Arg1:T35 Arg2:T5	
 R6	Negation Arg1:T36 Arg2:T1	
 #38	AnnotatorNotes T5	C0278883; Metastatic melanoma; Neoplastic Process
-T47	Observation 169 181	irresectable
+T47	Quantifier_or_Qualifier 169 181	irresectable
 #39	AnnotatorNotes T47	C4039777; Tumor surgically unresectable; Finding
-R7	Has_Quantifier_or_Qualifier Arg1:T5 Arg2:T47	
-T48	Observation 398 410	irresectable
+T48	Quantifier_or_Qualifier 398 410	irresectable
 #40	AnnotatorNotes T48	C4039777; Tumor surgically unresectable; Finding
-T49	Observation 527 539	irresectable
+T49	Quantifier_or_Qualifier 527 539	irresectable
 #41	AnnotatorNotes T49	C4039777; Tumor surgically unresectable; Finding
-T50	Observation 926 937	irresecable
+T50	Quantifier_or_Qualifier 926 937	irresecable
 #42	AnnotatorNotes T50	C4039777; Tumor surgically unresectable; Finding
-T51	Observation 674 685	irresecable
+T51	Quantifier_or_Qualifier 674 685	irresecable
 #43	AnnotatorNotes T51	C4039777; Tumor surgically unresectable; Finding
-T52	Observation 846 857	irresecable
+T52	Quantifier_or_Qualifier 846 857	irresecable
 #44	AnnotatorNotes T52	C4039777; Tumor surgically unresectable; Finding
 R10	Has_Quantifier_or_Qualifier Arg1:T15 Arg2:T52	
 R11	Before Arg1:T15 Arg2:T25	
@@ -163,3 +162,5 @@ A12	Experiencer T35 Patient
 A13	Experiencer T37 Patient
 A14	Experiencer T44 Patient
 A15	Experiencer T45 Patient
+T58	CHEM 986 999	biomarcadores
+#49	AnnotatorNotes T58	C0815130; chemical substances as biological markers; Chemical Viewed Functionally

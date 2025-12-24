@@ -168,9 +168,9 @@ R12	Used_for Arg1:T7 Arg2:T40
 R13	Used_for Arg1:T8 Arg2:T40	
 R14	Used_for Arg1:T41 Arg2:T40	
 R15	Location_of Arg1:T68 Arg2:T9	
-T83	Quantifier_or_Qualifier 340 345	aguda
-#77	AnnotatorNotes T83	C0439557; Acute phase; Temporal Concept
-R16	Has_Quantifier_or_Qualifier Arg1:T9 Arg2:T83	
+T83	Duration 340 345	aguda
+#77	AnnotatorNotes T83	C0205178; acute; Temporal Concept
+R16	Has_Duration_or_Interval Arg1:T9 Arg2:T83	
 R17	Causes Arg1:T10 Arg2:T9	
 R18	Overlap Arg1:T40 Arg2:T10	
 R19	Overlap Arg1:T5 Arg2:T10	
@@ -184,9 +184,9 @@ R26	Experiences Arg1:T63 Arg2:T5
 R27	Experiences Arg1:T64 Arg2:T43	
 R28	Experiences Arg1:T64 Arg2:T44	
 R29	Location_of Arg1:T71 Arg2:T16	
-T84	Quantifier_or_Qualifier 704 709	aguda
-#78	AnnotatorNotes T84	C0439557; Acute phase; Temporal Concept
-R30	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T84	
+T84	Duration 704 709	aguda
+#78	AnnotatorNotes T84	C0205178; acute; Temporal Concept
+R30	Has_Duration_or_Interval Arg1:T16 Arg2:T84	
 T85	Quantifier_or_Qualifier 710 719	Grado 1-2
 R31	Has_Quantifier_or_Qualifier Arg1:T16 Arg2:T85	
 T86	CONC 300 309	disminuye
@@ -206,9 +206,9 @@ R46	Used_for Arg1:T20 Arg2:T48
 R47	Used_for Arg1:T47 Arg2:T48	
 T89	Quantifier_or_Qualifier 794 803	Grado 1-2
 R48	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T89	
-T90	Quantifier_or_Qualifier 788 793	aguda
-#81	AnnotatorNotes T90	C0439557; Acute phase; Temporal Concept
-R49	Has_Quantifier_or_Qualifier Arg1:T17 Arg2:T90	
+T90	Duration 788 793	aguda
+#81	AnnotatorNotes T90	C0205178; acute; Temporal Concept
+R49	Has_Duration_or_Interval Arg1:T17 Arg2:T90	
 R51	Experiences Arg1:T65 Arg2:T16	
 R52	Experiences Arg1:T65 Arg2:T46	
 R53	Experiences Arg1:T66 Arg2:T78	

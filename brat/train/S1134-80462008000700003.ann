@@ -178,7 +178,6 @@ R34	Has_Dose_or_Strength Arg1:T42 Arg2:T59
 T90	CONC 695 711	tiempo de cierre
 #53	AnnotatorNotes T90	C4068527; PCA lockout time; Temporal Concept 
 R35	Has_Duration_or_Interval Arg1:T90 Arg2:T60	
-R36	Used_for Arg1:T90 Arg2:T18	
 R37	Has_Dose_or_Strength Arg1:T19 Arg2:T61	
 R38	Has_Dose_or_Strength Arg1:T19 Arg2:T62	
 R39	Combined_with Arg1:T19 Arg2:T20	
@@ -248,3 +247,4 @@ R21	Overlap Arg1:T12 Arg2:T41
 A4	Experiencer T53 Patient
 A5	Experiencer T71 Patient
 A6	Experiencer T76 Patient
+R63	Location_of Arg1:T9 Arg2:T8	

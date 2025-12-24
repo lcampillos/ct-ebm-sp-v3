@@ -239,3 +239,6 @@ R71	Has_Quantifier_or_Qualifier Arg1:T47 Arg2:T91
 #75	AnnotatorNotes T49	C0242231; Coronary Stenosis; Disease or Syndrome
 A7	Experiencer T62 Patient
 A8	Experiencer T61 Patient
+T85	Duration 1037 1042	agudo
+#76	AnnotatorNotes T85	C0205178; acute; Temporal Concept
+R61	Has_Duration_or_Interval Arg1:T29 Arg2:T85	

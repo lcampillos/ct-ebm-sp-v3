@@ -42,11 +42,11 @@ T24	PROC 1415 1435	terapia concomitante
 T25	DISO 1444 1463	enfermedad de Crohn
 #20	AnnotatorNotes T25	C0010346; Crohn Disease; Disease or Syndrome
 T26	CHEM 1481 1499	agentes biológicos
-#21	AnnotatorNotes T26	C0005515; Biological Factors; Biologically Active Substance
+#21	AnnotatorNotes T26	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 T27	DISO 1518 1537	enfermedad de Crohn
 #22	AnnotatorNotes T27	C0010346; Crohn Disease; Disease or Syndrome
 T28	CHEM 1606 1622	agente biológico
-#23	AnnotatorNotes T28	C0005515; Biological Factors; Biologically Active Substance
+#23	AnnotatorNotes T28	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 T29	CHEM 1630 1653	agente de investigación
 #24	AnnotatorNotes T29	C0013230; Investigational New Drugs; Pharmacologic Substance
 T30	CHEM 1725 1740	inhibidores p40
@@ -62,7 +62,7 @@ T35	DISO 1847 1866	enfermedad de Crohn
 T36	DISO 1868 1877	estenosis
 #29	AnnotatorNotes T36	C1261287; Stenosis; Pathologic Function
 T37	DISO 1879 1894	intestino corto
-T38	ANAT 1908 1935	bolsa de ostomía o ileoanal
+T38	DEVI 1908 1924	bolsa de ostomía
 T39	PROC 1917 1924	ostomía
 #30	AnnotatorNotes T39	C0029473; Ostomy; Therapeutic or Preventive Procedure
 T40	CHEM 79 91	Risankizumab
@@ -228,3 +228,9 @@ A14	Assertion T55 Hypothetical
 A15	Experiencer T55 Patient
 A16	Experiencer T56 Patient
 A17	Experiencer T58 Patient
+T16	ANAT 1927 1935	ileoanal
+#73	AnnotatorNotes T16	C0020885; ileum; Body Part, Organ, or Organ Component | C1278923; Entire ileum; Body Part, Organ, or Organ Component + C0003461; Anus; Body Part, Organ, or Organ Component | C1278927; Entire anus; Body Part, Organ, or Organ Component
+R29	Location_of Arg1:T16 Arg2:T86	
+#74	AnnotatorNotes T38	C0182097; Ostomy collection bag; Medical Device | C1562500; Stoma bag; Medical Device
+T86	PROC 1908 1913;1927 1935	bolsa ileoanal
+#75	AnnotatorNotes T86	C0585056; Creation of ileo-anal pouch; Therapeutic or Preventive Procedure

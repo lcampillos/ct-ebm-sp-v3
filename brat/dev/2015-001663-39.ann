@@ -54,7 +54,7 @@ T29	PROC 1302 1315	quimioterapia
 #25	AnnotatorNotes T29	C0392920; Chemotherapy Regimen; Therapeutic or Preventive Procedure | C3665472; Chemotherapy; Therapeutic or Preventive Procedure
 T30	PROC 1317 1330	inmunoterapia
 #26	AnnotatorNotes T30	C0021083; Immunotherapy; Therapeutic or Preventive Procedure
-T31	PROC 1333 1361	terapia biológica u hormonal
+T31	PROC 1333 1350	terapia biológica
 T32	CHEM 1353 1361	hormonal
 #27	AnnotatorNotes T32	C0019932; Hormones; Hormone
 T33	PROC 1383 1405	tratamiento del cáncer
@@ -182,7 +182,7 @@ R47	Causes Arg1:T26 Arg2:T27
 T67	Quantifier_or_Qualifier 1259 1265	activa
 #56	AnnotatorNotes T67	C0679217; Active State; Idea or Concept
 R48	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T67	
-R49	Used_for Arg1:T32 Arg2:T31	
+R49	Used_for Arg1:T32 Arg2:T69	
 R50	Has_Quantifier_or_Qualifier Arg1:T31 Arg2:T59	
 R51	Has_Quantifier_or_Qualifier Arg1:T30 Arg2:T59	
 R52	Has_Quantifier_or_Qualifier Arg1:T29 Arg2:T59	
@@ -192,9 +192,12 @@ T68	Quantifier_or_Qualifier 1453 1460	activos
 R53	Has_Quantifier_or_Qualifier Arg1:T34 Arg2:T68	
 R54	Overlap Arg1:T35 Arg2:T62	
 R55	Overlap Arg1:T35 Arg2:T63	
-#59	AnnotatorNotes T31	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure | C0279025; Hormone Therapy; Therapeutic or Preventive Procedure
+#59	AnnotatorNotes T31	C0005527; Biological Response Modifier Therapy; Therapeutic or Preventive Procedure
 A16	Experiencer T51 Patient
 A17	Experiencer T60 Patient
 A18	Experiencer T47 Patient
 A19	Experiencer T50 Patient
 A20	Experiencer T53 Patient
+T69	PROC 1333 1340;1353 1361	terapia hormonal
+#60	AnnotatorNotes T69	C0279025; Hormone Therapy; Therapeutic or Preventive Procedure
+R10	Has_Quantifier_or_Qualifier Arg1:T69 Arg2:T59	

@@ -113,9 +113,9 @@ A5	Status T29 History_of
 #51	AnnotatorNotes T27	C0018799; Heart Diseases; Disease or Syndrome
 R1	Used_for Arg1:T2 Arg2:T30	
 R2	Has_Duration_or_Interval Arg1:T3 Arg2:T41	
-T58	Quantifier_or_Qualifier 153 159	agudas
-#52	AnnotatorNotes T58	C0439557; Acute phase; Temporal Concept
-R3	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T58	
+T58	Duration 153 159	agudas
+#52	AnnotatorNotes T58	C0205178; acute; Temporal Concept
+R3	Has_Duration_or_Interval Arg1:T3 Arg2:T58	
 T59	Quantifier_or_Qualifier 160 166	graves
 #53	AnnotatorNotes T59	C1547227; Severe - Severity of Illness Code; Intellectual Product
 R4	Has_Quantifier_or_Qualifier Arg1:T3 Arg2:T59	
@@ -171,3 +171,9 @@ R14	Has_Duration_or_Interval Arg1:T20 Arg2:T49
 A6	Experiencer T46 Patient
 A7	Experiencer T51 Patient
 A8	Experiencer T52 Patient
+T67	Duration 551 556	aguda
+#58	AnnotatorNotes T67	C0205178; acute; Temporal Concept
+R41	Has_Duration_or_Interval Arg1:T10 Arg2:T67	
+T68	Duration 679 684	aguda
+#59	AnnotatorNotes T68	C0205178; acute; Temporal Concept
+R44	Has_Duration_or_Interval Arg1:T14 Arg2:T68	

@@ -180,8 +180,8 @@ R31	After Arg1:T7 Arg2:T11
 R32	After Arg1:T8 Arg2:T11	
 R33	After Arg1:T9 Arg2:T11	
 R34	Location_of Arg1:T12 Arg2:T11	
-T83	PHYS 44 55	biomarcador
-#77	AnnotatorNotes T83	C0005516; Biological Markers; Clinical Attribute
+T83	CHEM 44 55	biomarcador
+#77	AnnotatorNotes T83	C0815130; chemical substances as biological markers; Chemical Viewed Functionally 
 T89	Quantifier_or_Qualifier 56 62	precoz
 #78	AnnotatorNotes T89	C1279930; Precocious; Temporal Concept
 R35	Has_Quantifier_or_Qualifier Arg1:T83 Arg2:T89	
@@ -190,11 +190,11 @@ T90	Quantifier_or_Qualifier 424 432	precoces
 #79	AnnotatorNotes T90	C1279930; Precocious; Temporal Concept
 T91	Quantifier_or_Qualifier 1886 1892	precoz
 #80	AnnotatorNotes T91	C1279930; Precocious; Temporal Concept
-T93	PHYS 410 423	biomarcadores
-#81	AnnotatorNotes T93	C0005516; Biological Markers; Clinical Attribute
+T93	CHEM 410 423	biomarcadores
+#81	AnnotatorNotes T93	C0815130; chemical substances as biological markers; Chemical Viewed Functionally 
 R37	Has_Quantifier_or_Qualifier Arg1:T93 Arg2:T90	
-T94	PHYS 1874 1885	biomarcador
-#82	AnnotatorNotes T94	C0005516; Biological Markers; Clinical Attribute
+T94	CHEM 1874 1885	biomarcador
+#82	AnnotatorNotes T94	C0815130; chemical substances as biological markers; Chemical Viewed Functionally 
 R38	Has_Quantifier_or_Qualifier Arg1:T94 Arg2:T91	
 R39	Location_of Arg1:T45 Arg2:T75	
 R40	Location_of Arg1:T63 Arg2:T71	
@@ -215,7 +215,6 @@ R46	Negation Arg1:T98 Arg2:T99
 T100	Neg_cue 1822 1824	no
 A3	Assertion T94 Negated
 R49	Negation Arg1:T100 Arg2:T94	
-R54	Overlap Arg1:T93 Arg2:T77	
 R55	Overlap Arg1:T93 Arg2:T14	
 R56	Overlap Arg1:T83 Arg2:T3	
 R60	Experiences Arg1:T97 Arg2:T18	
@@ -299,3 +298,24 @@ A11	Experiencer T88 Patient
 A12	Experiencer T109 Patient
 A13	Experiencer T92 Patient
 R22	Has_Result_or_Value Arg1:T13 Arg2:T102	
+T79	Duration 80 85	agudo
+#76	AnnotatorNotes T79	C0439557; Acute phase; Temporal Concept
+R23	Has_Duration_or_Interval Arg1:T3 Arg2:T79	
+T80	Duration 196 201	agudo
+#88	AnnotatorNotes T80	C0439557; Acute phase; Temporal Concept
+R24	Has_Duration_or_Interval Arg1:T7 Arg2:T80	
+R25	Has_Duration_or_Interval Arg1:T8 Arg2:T80	
+T81	Duration 965 970	agudo
+#91	AnnotatorNotes T81	C0439557; Acute phase; Temporal Concept
+R47	Has_Duration_or_Interval Arg1:T24 Arg2:T81	
+T101	Duration 1193 1198	agudo
+#92	AnnotatorNotes T101	C0439557; Acute phase; Temporal Concept
+R48	Has_Duration_or_Interval Arg1:T31 Arg2:T101	
+T107	PHYS 553 569	factor paracrino
+#93	AnnotatorNotes T107	C0597170; paracrine; Physiologic Function
+T110	PHYS 553 559;572 581	factor endocrino
+#94	AnnotatorNotes T110	C0678896; Endocrine function; Physiologic Function
+R50	Location_of Arg1:T17 Arg2:T110	
+R51	Location_of Arg1:T17 Arg2:T107	
+T111	CONC 284 295	percutáneas
+#95	AnnotatorNotes T111	C0522523; Percutaneous; Spatial Concept

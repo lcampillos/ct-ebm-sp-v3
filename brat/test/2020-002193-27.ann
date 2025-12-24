@@ -279,3 +279,9 @@ A24	Experiencer T86 Patient
 A25	Status T48 Future
 T42	Result_or_Value 2031 2039	negativa
 R25	Has_Result_or_Value Arg1:T35 Arg2:T42	
+T102	Duration 226 231	agudo
+#86	AnnotatorNotes T102	C0205178; acute; Temporal Concept
+R44	Has_Duration_or_Interval Arg1:T5 Arg2:T102	
+T103	Duration 306 311	agudo
+#88	AnnotatorNotes T103	C0205178; acute; Temporal Concept
+R45	Has_Duration_or_Interval Arg1:T6 Arg2:T103	

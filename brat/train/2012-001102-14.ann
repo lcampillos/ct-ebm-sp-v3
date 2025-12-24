@@ -51,7 +51,7 @@ T26	PROC 1243 1263	terapia de inducción
 T27	PROC 1373 1384	Tratamiento
 #25	AnnotatorNotes T27	C0087111; Therapeutic procedure; Therapeutic or Preventive Procedure
 T28	CHEM 1396 1414	agentes biológicos
-#26	AnnotatorNotes T28	C0005515; Biological Factors; Biologically Active Substance
+#26	AnnotatorNotes T28	C4553887; Biopharmaceuticals; Biologically Active Substance · Pharmacologic Substance
 T29	ANAT 1431 1443	linfocitos B
 #27	AnnotatorNotes T29	C0004561; B-Lymphocytes; Cell
 T30	CHEM 1450 1459	rituximab
@@ -121,9 +121,7 @@ R19	Overlap Arg1:T23 Arg2:T37
 A7	Status T22 History_of
 A8	Status T23 History_of
 T53	Result_or_Value 1046 1058	1 item mayor
-R20	Has_Result_or_Value Arg1:T46 Arg2:T53	
 T54	Result_or_Value 1061 1070	3 menores
-R21	Has_Result_or_Value Arg1:T46 Arg2:T54	
 R22	Experiences Arg1:T38 Arg2:T46	
 R23	Experiences Arg1:T38 Arg2:T25	
 R24	Experiences Arg1:T38 Arg2:T47	
@@ -149,3 +147,7 @@ R17	Has_Quantifier_or_Qualifier Arg1:T28 Arg2:T56
 A9	Experiencer T35 Patient
 A10	Experiencer T38 Patient
 A11	Experiencer T42 Patient
+R39	Has_Result_or_Value Arg1:T47 Arg2:T54	
+R40	Has_Result_or_Value Arg1:T47 Arg2:T53	
+R20	Has_Result_or_Value Arg1:T48 Arg2:T54	
+R21	Has_Result_or_Value Arg1:T48 Arg2:T53	

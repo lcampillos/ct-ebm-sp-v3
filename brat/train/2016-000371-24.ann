@@ -45,8 +45,8 @@ T25	ANAT 590 599	vaginales
 T26	Date 13 17	2016
 T27	Form 98 106	cápsulas
 #20	AnnotatorNotes T27	C4722245; Capsule Dose Form Category; Functional Concept
-T28	LIVB 136 147	probióticos
-#21	AnnotatorNotes T28	C0525033; Probiotics; Bacterium
+T28	CHEM 136 147	probióticos
+#21	AnnotatorNotes T28	C3485429; Probiotic Formula; Pharmacologic Substance (?)
 T29	LIVB 218 227	pacientes
 #22	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
 T30	LIVB 250 260	bacteriana
@@ -74,13 +74,13 @@ T41	LIVB 924 945	Chlamydia trachomatis
 #33	AnnotatorNotes T41	C0008151; Chlamydia trachomatis; Bacterium
 T42	LIVB 969 990	Neisseria gonorrhoeae
 #34	AnnotatorNotes T42	C0027573; Neisseria gonorrhoeae; Bacterium
-T43	LIVB 1034 1045	probióticos
-#35	AnnotatorNotes T43	C0525033; Probiotics; Bacterium
+T43	CHEM 1034 1045	probióticos
+#35	AnnotatorNotes T43	C3485429; Probiotic Formula; Pharmacologic Substance (?)
 T44	Duration 1054 1075	las 2 últimas semanas
 T45	LIVB 1098 1107	Pacientes
 #36	AnnotatorNotes T45	C0030705; Patients; Patient or Disabled Group
-T46	LIVB 1156 1167	probióticos
-#37	AnnotatorNotes T46	C0525033; Probiotics; Bacterium
+T46	CHEM 1156 1167	probióticos
+#37	AnnotatorNotes T46	C3485429; Probiotic Formula; Pharmacologic Substance (?)
 T48	LIVB 1271 1292	Pacientes embarazadas
 #38	AnnotatorNotes T48	C0030705; Patients; Patient or Disabled Group + C0033011; Pregnant Women; Population Group
 T49	LIVB 1296 1305	Pacientes
@@ -104,9 +104,9 @@ T59	PHYS 1281 1292	embarazadas
 T60	PHYS 1331 1342	embarazadas
 #47	AnnotatorNotes T60	C0032961; Pregnancy; Organism Function
 T61	Route 107 116	vaginales
-T62	LIVB 390 400	L. gasseri
+T62	CHEM 390 400	L. gasseri
 #48	AnnotatorNotes T62	C0317620; Lactobacillus gasseri; Bacterium
-T63	LIVB 403 415	L. rhamnosus
+T63	CHEM 403 415	L. rhamnosus
 #49	AnnotatorNotes T63	C0317597; Lactobacillus casei rhamnosus; Bacterium
 T64	LIVB 541 553	candidiásica
 #50	AnnotatorNotes T64	C0006836; Candida; Fungus
@@ -208,3 +208,9 @@ A14	Experiencer T53 Patient
 A15	Experiencer T54 Patient
 A16	Experiencer T55 Other
 A17	Status T68 Future
+R32	Has_Route_or_Mode Arg1:T28 Arg2:T61	
+R47	Has_Drug_Form Arg1:T28 Arg2:T27	
+R48	Has_Route_or_Mode Arg1:T62 Arg2:T9	
+R56	Has_Route_or_Mode Arg1:T63 Arg2:T9	
+R58	Has_Drug_Form Arg1:T62 Arg2:T32	
+R59	Has_Drug_Form Arg1:T63 Arg2:T32	

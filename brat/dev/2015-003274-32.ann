@@ -239,3 +239,12 @@ A23	Experiencer T40 Patient
 A24	Experiencer T69 Patient
 A25	Experiencer T70 Patient
 A26	Experiencer T71 Patient
+T79	Duration 95 101	agudas
+#68	AnnotatorNotes T79	C0205178; acute; Temporal Concept
+R51	Has_Duration_or_Interval Arg1:T2 Arg2:T79	
+T80	Duration 423 428	aguda
+#69	AnnotatorNotes T80	C0205178; acute; Temporal Concept
+R53	Has_Duration_or_Interval Arg1:T5 Arg2:T80	
+T81	Duration 580 585	aguda
+#70	AnnotatorNotes T81	C0205178; acute; Temporal Concept
+R73	Has_Duration_or_Interval Arg1:T8 Arg2:T81	

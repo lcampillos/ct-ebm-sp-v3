@@ -65,8 +65,8 @@ T36	Date 179 194	POSTOPERATORIAS
 #30	AnnotatorNotes T36	C0032790; Postoperative Period; Temporal Concept
 T37	Route 259 270	INTRAVENOSA
 #31	AnnotatorNotes T37	C1522726; Intravenous Route of Drug Administration; Functional Concept
-T38	Route 273 286	PARAVERTEBRAL
-#32	AnnotatorNotes T38	C1882285; Paravertebral Route of Administration; Functional Concept
+T38	ANAT 273 286	PARAVERTEBRAL
+#32	AnnotatorNotes T38	C0446501; Paravertebral region; Body Location or Region
 T39	Route 290 299	PERFUSIÓN
 #33	AnnotatorNotes T39	C1621368; Intravenous Drip Route of Administration; Functional Concept
 T40	Time 320 335	INTRAOPERATORIO
@@ -137,7 +137,6 @@ R17	Before Arg1:T2 Arg2:T3
 R18	Overlap Arg1:T7 Arg2:T41	
 R19	Used_for Arg1:T32 Arg2:T28	
 R20	Has_Route_or_Mode Arg1:T32 Arg2:T37	
-R21	Has_Route_or_Mode Arg1:T32 Arg2:T38	
 R22	Used_for Arg1:T32 Arg2:T4	
 R23	Has_Route_or_Mode Arg1:T32 Arg2:T39	
 R24	Overlap Arg1:T4 Arg2:T40	
@@ -180,3 +179,4 @@ A15	Experiencer T44 Patient
 A16	Status T13 Future
 A17	Experiencer T48 Patient
 A18	Experiencer T53 Patient
+R21	Location_of Arg1:T38 Arg2:T4	
