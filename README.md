@@ -21,8 +21,10 @@ If you use this new version and code, please, cite as follows:
   @article{2025,   
   title       = {Transformer-based relation extraction and concept normalization using an annotated clinical trials corpus},  
   author       = {Campillos-Llanos, Leonardo and Valverde-Mateos, Ana and Capllonch-Carrión, Adrián, and González-Quevedo, David and López-Urbán, María Rosa and Hernando-Tundidor, María Soledad and Heras-Vicente, Jónathan},   
-  journal = {Under review},
-  year      = {2025}
+  journal = {Scientific Data},
+  volume = {13(1)},
+  year      = {2026},
+  doi = {https://doi.org/10.1038/s41597-026-06608-6}
   }
 ```
 
@@ -38,7 +40,7 @@ CLARA-MeD Project (PID2020-116001RA-C33), 2021-24
 
 Funded by MCIN/AEI/10.13039/501100011033/, in project call: "Proyectos I+D+i Retos Investigación"
 
-ExPlain4Health Project (PID2024-158912NB-I00), 2025-27
+ExPlain4Health Project (PID2024-158912NB-I00), 2025-28
 
 Funded by MCIN/AEI/10.13039/501100011033/, in project call: "Proyectos I+D+i Retos Investigación"
 
